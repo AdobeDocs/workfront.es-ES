@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: Introducción a [!DNL Adobe Workfront Fusion]
+title: Introducción a  [!DNL Adobe Workfront Fusion]
 description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una licencia de [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] requiere una licencia de [!DNL Adobe Workfront Fusion] además de [!DNL Adobe Workfront license].
 
 Esta sección contiene los siguientes artículos:
 
-* [[!DNL Adobe Workfront Fusion] descripción general](../../workfront-fusion/get-started/workfront-fusion-overview.md)
-* [Términos básicos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
-* [Cree escenarios de práctica sencillos en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
-* [Cree un escenario de automatización de prácticas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
-* [Cree un escenario de integración de prácticas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
+* [Resumen de [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/workfront-fusion-overview.md)
+* [Términos básicos en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
+* [Crear escenarios de práctica simples en  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+* [Crear un escenario de automatización de prácticas en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
+* [Crear un escenario de integración de práctica en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
 * [[!DNL Adobe Workfront Fusion] protecciones de rendimiento](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
-* [Direcciones IP para acceder a [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+* [Direcciones IP para acceder a  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md)
-* [Operaciones en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
+* [Operaciones en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
 * [Vídeos introductorios de Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)

@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Resumen del progreso y estado de la prueba
-description: Puede ver información sobre cómo avanza una prueba a través del proceso de revisión y ver un resumen general del estado de decisión de la prueba desde el área Documentos.
+title: Progreso de prueba e información general de estado
+description: Puede ver información sobre el progreso de una prueba a través del proceso de revisión y ver un resumen general del estado de decisión de la prueba desde el área Documentos.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
-# Resumen del progreso y estado de la prueba
+# Progreso de prueba e información general de estado
 
-Puede ver información sobre cómo avanza una prueba a través del proceso de revisión y ver un resumen general del estado de decisión de la prueba desde el área Documentos.
+Puede ver información sobre el progreso de una prueba a través del proceso de revisión y ver un resumen general del estado de decisión de la prueba desde el área Documentos.
 
-## Resumen del progreso de la prueba
+## Resumen del progreso de prueba
 
-El progreso de la prueba indica el trabajo realizado en una prueba desde el momento en que se envía la prueba a los destinatarios hasta el momento en que toman una decisión sobre la prueba. Los iconos de progreso, S, O, C y D, aparecen junto al nombre de la prueba y proporcionan información sobre el progreso de la misma.
+El progreso de la prueba indica el trabajo realizado en una prueba desde el momento en que se envía la prueba a los destinatarios hasta el momento en que toman una decisión sobre la prueba. Los iconos de progreso, S, O, C y D, aparecen junto al nombre de la prueba y proporcionan información sobre su progreso.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -34,30 +34,30 @@ El progreso de la prueba indica el trabajo realizado en una prueba desde el mome
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Se envió</strong> </p> </td> 
+   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Enviado</strong> </p> </td> 
    <td> <p>La prueba se ha enviado a los destinatarios asignados.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Se abrió</strong> </p> </td> 
-   <td> <p>Todos los destinatarios asignados abren la página de detalles de prueba o prueba .</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Abierto</strong> </p> </td> 
+   <td> <p>Todos los destinatarios asignados abren la página de detalles de la prueba o la prueba.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Observaciones</strong> </p> </td> 
-   <td> <p>Todos los destinatarios asignados realizan al menos un comentario en la prueba.</p> <p>Si no hay revisores asignados a la prueba, la variable <strong>C</strong> no aparece en la barra de progreso.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Comentarios realizados</strong> </p> </td> 
+   <td> <p>Todos los destinatarios asignados realizan al menos un comentario sobre la prueba.</p> <p>Si no hay revisores asignados a la prueba, el icono <strong>C</strong> no aparece en la barra de progreso.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Decisión</strong> </p> </td> 
-   <td> <p>Todos los aprobadores asignados toman una decisión sobre la prueba, Todos los aprobadores asignados toman una decisión sobre la prueba, a menos que el creador de la prueba especifique que solo se necesita una decisión.</p> <p>Si no hay aprobadores (responsables de la toma de decisiones) designados para la prueba, la variable <strong>D</strong> no aparece en la barra de progreso. </p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Decisión tomada</strong> </p> </td> 
+   <td> <p>Todos los aprobadores asignados toman una decisión sobre la prueba. Todos los aprobadores asignados toman una decisión sobre la prueba, a menos que el creador de la prueba especifique que solo se necesita una decisión.</p> <p>Si no hay aprobadores (responsables de la toma de decisiones) designados para la prueba, el icono <strong>D</strong> no aparece en la barra de progreso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Los iconos de progreso pueden aparecer en los colores siguientes para indicar cierta información sobre el progreso de la prueba:
 
-* **Verde**: Completado.
-* **Blanco**: No completado.
-* **Naranja**: no completado y la fecha límite es inferior a 24 horas.
-* **Rojo**: No está completo y ha pasado el plazo.
+* **Verde**: Completo.
+* **Blanco**: no completo.
+* **Naranja**: no está completo y la fecha de entrega es en menos de 24 horas.
+* **Rojo**: no se completó y venció el plazo.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -91,9 +91,9 @@ Los iconos de progreso pueden aparecer en los colores siguientes para indicar ci
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Similarly, if the Only One Decision Required setting is selected on a proof and any reviewer submits a decision, the D in the proof progress bar turns&nbsp;green for all reviewers because no other decisions are required.</p>
 -->
 
-## Resumen del estado de la prueba
+## Resumen del estado de prueba
 
-El estado de la prueba muestra el estado de las decisiones necesarias para la prueba. El estado de la prueba está determinado por el participante &quot;en el peor de los casos&quot;. Por ejemplo, supongamos que hay tres decisiones sobre la prueba: dos tienen el estado de **Aceptado** y uno tiene el estado de **Rechazado**. La decisión del &quot;peor de los casos&quot; de **Rechazado** reglas adicionales de las demás decisiones y el estado general de la prueba se muestra como **Rechazado**. 
+El estado de la prueba muestra el estado de las decisiones que se requieren para la prueba. El estado de la prueba lo determina el participante &quot;en el peor de los casos&quot;. Por ejemplo, supongamos que hay tres decisiones sobre la prueba: dos tienen el estado **Aceptado** y una tiene el estado **Rechazado**. La decisión &quot;en el peor de los casos&quot; de **Rechazado** supera las reglas de las demás decisiones y el estado general de la prueba se muestra como **Rechazado**. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -105,7 +105,7 @@ Las opciones de estado estándar son las siguientes:
 * Cambios necesarios
 * No relevante
 
-Si las decisiones personalizadas están configuradas en la cuenta, las opciones de estado reflejarán la configuración de decisión personalizada.
+Si las decisiones personalizadas se configuran en la cuenta, las opciones de estado reflejarán la configuración de decisiones personalizada.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Viewing proof progress and status</h2>

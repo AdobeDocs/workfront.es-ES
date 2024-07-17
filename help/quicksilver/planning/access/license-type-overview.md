@@ -24,7 +24,7 @@ El tipo de licencia de Adobe Workfront funciona junto con los permisos de Adobe 
 * Ver, contribuir o administrar espacios de trabajo
 * Ver o administrar vistas.
 
-Para obtener información sobre los permisos de los objetos en Workfront Planning, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obtener información acerca de los permisos de los objetos en Workfront Planning, vea [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ## La relación entre los tipos de licencia de Workfront y los permisos de Workfront Planning
 
@@ -35,8 +35,8 @@ Al conceder permisos de usuario a un espacio de trabajo, también se les concede
 
 | Tipo de licencia de Adobe Workfront* | Permisos más altos permitidos en Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nuevo: estándar <br> o <br>Actual: plan | Los usuarios pueden administrar espacios de trabajo. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros y campos. <br> Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado. |
-| Nuevo: claro, colaborador <br> o <br>Actual: Trabajo, Solicitante, Revisor | Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro, registros y campos de dichos espacios de trabajo. <br> Los usuarios no pueden crear, editar ni eliminar espacios de trabajo, tipos de registros, registros o campos. |
+| Nuevo: Estándar <br> o <br>Actual: Plan | Los usuarios pueden administrar espacios de trabajo. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros y campos. <br>: los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no crearon. |
+| Nuevo: Ligero, Colaborador <br> o <br>Actual: Trabajo, Solicitante, Revisor | Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro, registros y campos de dichos espacios de trabajo. <br> Los usuarios no pueden crear, editar ni eliminar espacios de trabajo, tipos de registros, registros o campos. |
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 

@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-la semana del 4 de abril de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general de la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+la semana del 4 de abril de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general sobre la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Configurar un formulario personalizado para trabajar con varios tipos de objetos
 
@@ -37,16 +37,16 @@ Para obtener más información, consulte la sección [Empezar a crear un formula
 
 >[!NOTE]
 >
->* En el momento de la versión inicial de la vista previa de esta funcionalidad, deshabilitamos temporalmente la capacidad de copiar un formulario personalizado de varios objetos. Esa capacidad se habilitó el 24 de marzo. Para obtener información sobre cómo copiar un formulario personalizado, consulte [Copiar un formulario personalizado para crear uno nuevo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* En un campo personalizado calculado, es posible que algunos campos a los que hace referencia no sean compatibles con los tipos de objetos configurados para el formulario. Nuestra solución es un comodín que permite que el cálculo muestre valores diferentes, según el objeto al que esté adjunto el formulario. Añadimos el comodín el 24 de marzo. Para obtener información sobre cómo utilizarla, consulte la sección [Campos personalizados calculados en formularios personalizados de varios objetos](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) en el artículo [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>* En el momento de la versión inicial de la vista previa de esta funcionalidad, deshabilitamos temporalmente la capacidad de copiar un formulario personalizado de varios objetos. Esa capacidad se habilitó el 24 de marzo. Para obtener información sobre cómo copiar un formulario personalizado, vea [Copiar un formulario personalizado para crear uno nuevo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+>* En un campo personalizado calculado, es posible que algunos campos a los que hace referencia no sean compatibles con los tipos de objetos configurados para el formulario. Nuestra solución es un comodín que permite que el cálculo muestre valores diferentes, según el objeto al que esté adjunto el formulario. Añadimos el comodín el 24 de marzo. Para obtener información sobre cómo usarlo, consulte la sección [Campos personalizados calculados en formularios personalizados de varios objetos](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) en el artículo [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 >* Para los saltos de sección en los formularios personalizados, hemos creado un conjunto de permisos comunes de visualización y edición que funcionan para todos los tipos de objetos que se pueden configurar para un formulario. En un escenario, descubrimos que uno de estos permisos, Edición limitada, podría provocar errores en un formulario. Esto se corrigió el 24 de marzo. Para obtener más información sobre los saltos de sección, consulte [Agregar un salto de sección a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
 
 ## El catálogo de modelos está disponible para todos los usuarios y los administradores pueden permitir solicitudes
 
-Ahora todos los usuarios de Adobe Workfront pueden examinar el catálogo de modelos disponibles. Para obtener más información, consulte [Examinar el catálogo de modelos y solicitar la instalación de modelos](../../../administration-and-setup/blueprints/browse-catalog.md).
+Ahora todos los usuarios de Adobe Workfront pueden examinar el catálogo de modelos disponibles. Para obtener más información, vea [Examinar el catálogo de modelos y solicitar la instalación de los modelos](../../../administration-and-setup/blueprints/browse-catalog.md).
 
-Además, el administrador del sistema puede habilitar el acceso para que los usuarios soliciten la instalación de modelos. La asignación de una cola de solicitudes para almacenar las solicitudes permite a los usuarios realizar solicitudes desde el catálogo de modelos. Para obtener más información, consulte [Configuración del acceso a los modelos](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+Además, el administrador del sistema puede habilitar el acceso para que los usuarios soliciten la instalación de modelos. La asignación de una cola de solicitudes para almacenar las solicitudes permite a los usuarios realizar solicitudes desde el catálogo de modelos. Para obtener más información, consulte [Configurar el acceso a los modelos](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
 ## Agregar una imagen a un formulario personalizado
 
@@ -95,7 +95,7 @@ Puede seguir buscando y configurando opciones, preferencias y asociaciones de ob
 
 Anteriormente, no era posible desactivar un grupo.
 
-Para obtener más información, consulte [Desactivar o reactivar un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Para obtener más información, vea [Desactivar o reactivar un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 ## Mejoras del historial de instalación de modelos
 

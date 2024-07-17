@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Mobile realizadas con la versión 23.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 16 de enero de 2023.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general sobre la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Tableros ya está disponible en la aplicación móvil
 

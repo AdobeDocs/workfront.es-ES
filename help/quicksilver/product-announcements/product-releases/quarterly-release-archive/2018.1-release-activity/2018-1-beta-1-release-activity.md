@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión beta 1 de 2018.1
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 1 de 2018.1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
+title: Actividad de la versión 2018.1 de Beta 1
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 1 2018.1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión beta 1 de 2018.1
+# Actividad de la versión 2018.1 de Beta 1
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 1 de 2018.1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 1 2018.1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de diciembre de 2017. Estará disponible en el entorno de producción en marzo de 2018.
 
 >[!IMPORTANT]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.1, consulte  [información general sobre la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.1, consulte  [resumen de la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La versión beta 1 de 2018.1 contiene mejoras para administradores de Workfront y otros usuarios:
+La versión 2018.1 de Beta 1 contiene mejoras para administradores de Workfront y otros usuarios de:
 
-**Para administradores**
+**Para Administradores**
 
 * [Plantilla de diseño actualizada para admitir el área de inicio](#updated-layout-template-to-support-the-home-area)
-* [Deshabilitar la corrección de notificaciones por correo electrónico enviadas desde Workfront](#disable-proofing-email-notifications-sent-from-workfront)
+* [Deshabilitar notificaciones de correo electrónico de revisión enviadas desde Workfront](#disable-proofing-email-notifications-sent-from-workfront)
 * [Nuevos recursos añadidos a suscripciones a eventos](#new-resources-added-to-event-subscriptions)
 
-**Para todos los usuarios**
+**Para Todos Los Usuarios**
 
 * [Área de inicio (se ha actualizado mi área de trabajo)](#home-area-updated-my-work-area)
-* [Mostrar datos del Planificador de recursos bajo el Caso comercial y el Resumen de caso comercial actualizado](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
-* [Mostrar el porcentaje de asignación de horas planificada en el planificador de recursos](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
-* [El Déclencheur de actualización &quot;Automático y al cambiar&quot; y &quot;Solo cambiar&quot; actualiza los objetos principales al mismo tiempo que se actualizan las tareas](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
+* [Mostrar datos del Planificador de recursos en el caso comercial y el resumen actualizado del caso comercial](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [Mostrar el porcentaje de asignación de horas planificada en el Planificador de recursos](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
+* [El Déclencheur de tipos de actualización &quot;Automático y al cambiar&quot; y &quot;Solo cambiar&quot; actualiza los objetos principales al mismo tiempo que se actualizan las tareas](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
 * [Instantánea de cronología disponible en el gráfico Gantt](#timeline-snapshot-available-in-the-gantt-chart)
 
 ## Área de inicio (se ha actualizado mi área de trabajo) {#home-area-updated-my-work-area}
@@ -74,7 +74,7 @@ Como parte de este cambio, el Resumen de caso comercial ahora incluye informaci�
 
 Antes de este cambio, no podía ver la información del Planificador de recursos en el Caso comercial del proyecto. Solo podía ver la información de Estimaciones de recursos que se especifica en el Planificador de capacidades de los conjuntos de recursos de legado.
 
-Para obtener más información sobre la creación de un caso empresarial, consulte [Crear un caso comercial para un proyecto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obtener más información sobre cómo crear un caso empresarial, vea [Crear un caso empresarial para un proyecto](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Mostrar el porcentaje de asignación de horas planificada en el planificador de recursos {#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner}
 
@@ -82,7 +82,7 @@ La Vista de usuario del Planificador de recursos ahora incluye una nueva columna
 
 Antes de este cambio, podía ver el total de horas planificadas y disponibles para los usuarios y los roles de trabajo solo en columnas independientes.
 
-Para obtener más información sobre la columna Porcentaje de asignación de horas planificadas, consulte la sección &quot;Visualización de la diferencia entre las horas disponibles y planificadas o FTE en el Planificador de recursos&quot; en [Resumen del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener más información acerca de la columna Porcentaje de asignación de horas planificadas, vea la sección &quot;Visualización de la diferencia entre las horas disponibles y planificadas o FTE en el Planificador de recursos&quot; en [Información general del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## El Déclencheur de actualización &quot;Automático y al cambiar&quot; y &quot;Solo cambiar&quot; actualiza los objetos principales al mismo tiempo que se actualizan las tareas {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
@@ -97,7 +97,7 @@ Ahora, al seleccionar los tipos de actualización &quot;Automático y al cambiar
 
 Antes de este cambio, tenía que actualizar la página para asegurarse de que los objetos principales y la cronología del proyecto también se actualizaran.
 
-Para obtener más información sobre el tipo de actualización de un proyecto, consulte [Seleccione el tipo de actualización del proyecto](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Para obtener más información sobre el tipo de actualización de un proyecto, vea [Seleccionar el tipo de actualización del proyecto](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 ## Instantánea de cronología disponible en el gráfico Gantt {#timeline-snapshot-available-in-the-gantt-chart}
 
@@ -107,14 +107,14 @@ Al seleccionar un lapso de tiempo más granular para el gráfico Gantt mientras 
 
 Antes de este cambio, tenía que desplazarse horizontalmente por todo el diagrama de Gantt para encontrar un determinado punto en el tiempo o tenía que alejarse de la vista granular.
 
-Para obtener más información sobre cómo se muestra la información en el diagrama de Gantt, consulte [Configurar cómo se muestra la información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Para obtener más información sobre cómo se muestra la información en el gráfico Gantt, vea [Configurar cómo se muestra la información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Nuevos recursos añadidos a suscripciones a eventos {#new-resources-added-to-event-subscriptions}
 
 Ahora puede crear suscripciones de eventos para los siguientes recursos:
 
-* **Gasto:** Le avisa cuando se agrega o modifica un gasto.
-* **Asignación:** Le avisa cuando se agrega o modifica una asignación en una tarea o problema de un usuario, rol o equipo.
-* **Hoja de horas:** Le avisa cuando se envía, rechaza o aprueba una plantilla de horas.
+* **Gasto:** Le notifica cuando se agrega o modifica un gasto.
+* **Asignación:** le avisa cuando se agrega o modifica una asignación en una tarea o problema de un usuario, rol o equipo.
+* **Hoja de horas:** Le notifica cuando se envía, rechaza o aprueba una hoja de horas.
 
-Para obtener más información sobre las suscripciones a eventos, consulte [API de suscripción de evento](../../../../wf-api/general/event-subs-api.md).
+Para obtener más información acerca de las suscripciones a eventos, consulte [API de suscripción a eventos](../../../../wf-api/general/event-subs-api.md).

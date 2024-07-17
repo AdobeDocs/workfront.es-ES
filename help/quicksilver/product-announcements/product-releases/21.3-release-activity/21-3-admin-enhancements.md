@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas por el administrador con la versión 21.3 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción en la semana del 21 de julio de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.3, consulte [Resumen de la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.3, consulte [Información general sobre la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Modelos disponibles en producción con la versión 21.3
 
@@ -25,9 +25,9 @@ La funcionalidad de modelos estará disponible para el público general con la v
 
 Blueprints proporciona bloques de construcción básicos para ayudarle a crear un sistema de administración de trabajo que crezca con usted. Los administradores del sistema pueden examinar el catálogo de modelos e instalar plantillas de proyecto listas para usar.
 
-Para obtener más información, consulte [Información general de modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Para obtener más información, vea [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Esta función ahora se incluye en la [Plantillas de proyecto en la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en las [plantillas de proyecto en la nueva ruta de aprendizaje de la experiencia Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) en Workfront One.
 
 ## Nuevo para administradores de grupos: crear y administrar estados para un grupo en cualquier nivel
 
@@ -49,7 +49,7 @@ Para obtener más información, consulte [Administrar estados de grupo](../../..
 
 Ahora puede mejorar la forma en que los usuarios capturan la información de facturación creando un formulario personalizado de registro de facturación. Los usuarios pueden adjuntar el formulario personalizado a un registro de facturación, rellenarlo y ejecutar informes que incluyan la información del formulario.
 
-Para obtener información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener información sobre cómo crear formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-Para obtener información sobre cómo adjuntar un formulario personalizado de registro de facturación a un proyecto, consulte [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Para obtener información acerca de cómo adjuntar un formulario personalizado de registro de facturación a un proyecto, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

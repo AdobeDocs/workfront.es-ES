@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Puede configurar un tablero para que se archiven las tarjetas o &quot;se caigan&quot; del tablero según una programación. Puede configurar las tarjetas de una columna en particular para que se caigan del tablero en un determinado número de días o semanas.
 
-Cuando una tarjeta se cae del tablero, se archiva. Puede mostrar tarjetas archivadas con un filtro. Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Cuando una tarjeta se cae del tablero, se archiva. Puede mostrar tarjetas archivadas con un filtro. Para obtener más información, vea [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Requisitos de acceso
 
@@ -41,22 +41,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Configurar la caída de tarjetas
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic **[!UICONTROL Configurar]** a la derecha del tablero para abrir el panel Configurar.
+1. Haga clic en **[!UICONTROL Configurar]** a la derecha del tablero para abrir el panel Configurar.
 1. Expandir **[!UICONTROL Tarjetas]**.
-1. Activar **[!UICONTROL Archivar tarjetas del tablero automáticamente]**.
+1. Activar **[!UICONTROL Archivar automáticamente las tarjetas del tablero]**.
 
-   ![Configuración de visitas en orden previsto](assets/card-falloff-switch.png)
+   ![Configuración de caída de tarjeta](assets/card-falloff-switch.png)
 
 1. Seleccione cuándo desea archivar las tarjetas del tablero. Puede elegir hasta 8 semanas o hasta 60 días.
 
    La fecha se determina a partir de la última modificación de la tarjeta.
 
 1. Seleccione la columna de la que desea quitar las tarjetas.
-1. Clic **[!UICONTROL Guardar]** en el mensaje de confirmación.
-1. Clic **[!UICONTROL Ocultar configuración]** para cerrar el [!UICONTROL Configurar] panel. Los ajustes de configuración se aplican automáticamente al actualizar el tablero.
+1. Haz clic en **[!UICONTROL Guardar]** en el mensaje de confirmación.
+1. Haga clic en **[!UICONTROL Ocultar configuración]** para cerrar el panel [!UICONTROL Configurar]. Los ajustes de configuración se aplican automáticamente al actualizar el tablero.

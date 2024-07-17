@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al [!DNL Adobe Admin Console]. Si su organización se ha incorporado al [!DNL Adobe Admin Console], debe realizar esta acción a través de [!DNL Adobe Admin Console].
+>El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al [!DNL Adobe Admin Console]. Si su organización se ha incorporado a [!DNL Adobe Admin Console], debe realizar esta acción mediante [!DNL Adobe Admin Console].
 >
->Para obtener instrucciones sobre cómo agregar un usuario a la lista[!DNL  Adobe Admin Console], consulte la sección &quot;Editar detalles del usuario&quot; en el artículo [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) o póngase en contacto con su [!UICONTROL Adobe Admin Console] Administrador.
+>Para obtener instrucciones sobre cómo agregar un usuario en [!DNL  Adobe Admin Console], consulte la sección &quot;Editar detalles del usuario&quot; en el artículo [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) o póngase en contacto con el administrador de [!UICONTROL Adobe Admin Console].
 >
 >Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
@@ -43,30 +43,30 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> 
-     <p>Debe ser un [!DNL Workfront Fusion] administrador de su organización.</p>
-     <p>Debe ser un [!DNL Workfront Fusion] administrador de su equipo.</p>
+     <p>Debe ser administrador de [!DNL Workfront Fusion] para su organización.</p>
+     <p>Debe ser administrador de [!DNL Workfront Fusion] para su equipo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -94,19 +94,19 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 -->
 
-Para agregar usuarios a la organización, debe ser administrador de la organización a la que desee agregar usuarios. Para obtener información sobre las funciones, consulte [Funciones de organización en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
+Para agregar usuarios a la organización, debe ser administrador de la organización a la que desee agregar usuarios. Para obtener información acerca de los roles, vea [Roles de organización en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
 Para añadir un usuario a la organización:
 
-1. Vaya a **[!UICONTROL Organizaciones]** en el menú y seleccione la organización a la que desee añadir un usuario.
-1. Abra el **[!UICONTROL Usuarios]** en el panel.
-1. Clic **[!UICONTROL Invitar a un nuevo usuario]**, rellene el formulario (correo electrónico, mensaje, función) y envíe la invitación haciendo clic en **[!UICONTROL Enviar]**.
+1. Vaya a **[!UICONTROL Organizaciones]** en el menú y seleccione la organización a la que desee agregar un usuario.
+1. Abra la ficha **[!UICONTROL Usuarios]** en su panel.
+1. Haga clic en **[!UICONTROL Invitar a un nuevo usuario]**, rellene el formulario (correo electrónico, mensaje, función) y envíe la invitación haciendo clic en **[!UICONTROL Enviar]**.
 
 >[!NOTE]
 >
 >   
->Si no ve el [!UICONTROL Invitar a un nuevo usuario] botón, su organización se ha incorporado al [!DNL Adobe Business Platform.]
+>Si no ve el botón [!UICONTROL Invitar a un nuevo usuario], su organización se ha incorporado al [!DNL Adobe Business Platform.]
 >
->  Para obtener instrucciones sobre cómo agregar un usuario a una organización que se ha incorporado al [!DNL Adobe Business Platform], consulte [Añadir usuarios a [!DNL Adobe Workfront Fusion] a través de [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+>  Para obtener instrucciones sobre cómo agregar un usuario a una organización que se ha incorporado a [!DNL Adobe Business Platform], consulte [Agregar usuarios a [!DNL Adobe Workfront Fusion] a través de [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 
 El usuario recibe un correo electrónico de invitación en el que puede aceptar la invitación.

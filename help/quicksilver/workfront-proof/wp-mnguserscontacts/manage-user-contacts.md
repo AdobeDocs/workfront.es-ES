@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: workfront-proof-navigation-topic
-title: Administración de usuarios y contactos en [!DNL Workfront Proof]
+title: Administrar usuarios y contactos en  [!DNL Workfront Proof]
 description: Administre usuarios y contactos en Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -15,15 +15,15 @@ ht-degree: 6%
 
 ---
 
-# Administración de usuarios y contactos en [!DNL Workfront Proof]
+# Administrar usuarios y contactos en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene las siguientes subsecciones:
 
 * [Usuarios](../../workfront-proof/wp-mnguserscontacts/users/users.md)
 * [Grupos](../../workfront-proof/wp-mnguserscontacts/groups/groups.md)
 * [Contactos](../../workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-* [Sugerencias, trucos y solución de problemas para [!DNL Workfront Proof] usuarios y contactos](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
+* [Sugerencias, trucos y solución de problemas para  [!DNL Workfront Proof] usuarios y contactos](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)

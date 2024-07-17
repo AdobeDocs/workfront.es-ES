@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras del proyecto realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.2.
 
-Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Descripción general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nueva experiencia al editar proyectos por lotes
 
@@ -41,17 +41,17 @@ Además de una apariencia y presentación actualizadas de la interfaz, los sigui
 
 Para obtener más información, consulte [Editar proyectos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## La experiencia de filtrado mejorada suele estar disponible en Adobe Workfront
 
-En agosto de 2022 se publicó una actualización de la experiencia de filtro en versión beta pública de las listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [Notas de la versión de actualizaciones de aspecto y funcionamiento de 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) La experiencia de filtro mejorada estará disponible de forma general y se convertirá en el generador de filtros estándar en Vista previa el 2 de marzo de 2023. El 2 de marzo también se iniciará un despliegue gradual en el entorno de producción, disponible para todos los clientes en la versión 23.2.
+En agosto de 2022 se publicó una actualización de la experiencia de filtro en versión beta pública de las listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [nota de la versión de actualizaciones de aspecto y presentación de ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) La experiencia de filtro mejorada estará disponible de forma general y se convertirá en el generador de filtros estándar en Vista previa el 2 de marzo de 2023. El 2 de marzo también se iniciará un despliegue gradual en el entorno de producción, disponible para todos los clientes en la versión 23.2.
 
 Puede seguir accediendo a los filtros heredados en las listas activándolos en el panel de filtros. Los filtros heredados quedarán obsoletos en las listas en el futuro, pero permanecerán disponibles en los informes porque el generador de filtros estándar no está disponible en los informes.
 
-Para obtener más información sobre los filtros mejorados y una demostración en vídeo, consulte la [nota de la versión beta pública de filtros](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Para obtener más información sobre los filtros mejorados y ver un vídeo de demostración, consulte la [nota de la versión beta pública de los filtros](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-Para obtener más información, consulte [Creación o edición de filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Para obtener más información, consulte [Crear o editar filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Copiar horas presupuestadas al copiar un proyecto
 
@@ -63,4 +63,4 @@ Ahora tiene la opción de copiar las horas presupuestadas en el área de Presupu
 
 Para obtener más información, consulte [Copiar un proyecto](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3415713/){target=_blank}

@@ -46,19 +46,19 @@ Para obtener información sobre temas relacionados con los niveles de acceso, co
  <tbody> 
   <tr> 
    <td><p><strong>Licencias</strong></p></td> 
-   <td> <p>La licencia adjunta a un nivel de acceso determina cómo se puede configurar dicho nivel.</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias</a>.</p> <p><strong>Sugerencia</strong>: Puede ver qué nivel de acceso y licencia se asigna a cada usuario en una lista de usuarios o un informe. Para obtener instrucciones, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Enumerar los niveles de acceso y las licencias de los usuarios</a>.</p> </td> 
+   <td> <p>La licencia adjunta a un nivel de acceso determina cómo se puede configurar dicho nivel.</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias</a>.</p> <p><strong>Sugerencia</strong>: puede ver qué nivel de acceso y licencia se asigna a cada usuario al ver una lista de usuarios o un informe. Para obtener instrucciones, vea <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Enumerar los niveles de acceso y las licencias de los usuarios</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Niveles de acceso integrados</strong></td> 
-   <td> <p>Para obtener más información sobre los 6 niveles de acceso integrados que se muestran en la imagen anterior, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveles de acceso integrados</a>.</p> </td> 
+   <td> <p>Para obtener más información acerca de los 6 niveles de acceso integrados que se muestran en la imagen anterior, vea <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Niveles de acceso integrados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Asignación de niveles de acceso</strong></td> 
-   <td> <p>Para obtener instrucciones sobre cómo asignar un nivel de acceso a un usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edición del perfil de un usuario</a>.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo asignar un nivel de acceso a un usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Niveles de acceso Estándar, Claro, Colaborador</td> 
-   <td> <p>Si ve estos niveles de acceso en su entorno en lugar de Planificar, Trabajar, Revisar o Solicitar, su organización utiliza el nuevo modelo de nivel de acceso. Para obtener más información sobre el nuevo modelo, consulte <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre nuevos niveles de acceso</a>.</p> </td> 
+   <td> <p>Si ve estos niveles de acceso en su entorno en lugar de Planificar, Trabajar, Revisar o Solicitar, su organización utiliza el nuevo modelo de nivel de acceso. Para obtener información sobre el nuevo modelo, consulte <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre los nuevos niveles de acceso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

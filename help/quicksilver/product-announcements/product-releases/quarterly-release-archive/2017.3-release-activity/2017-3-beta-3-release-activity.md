@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión 2017.3 Beta 3
+title: Actividad de la versión 2017.3 de Beta 3
 description: La versión 2017.3 estará disponible en el entorno de producción a principios de noviembre de 2017.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ---
 
-# Actividad de la versión 2017.3 Beta 3
+# Actividad de la versión 2017.3 de Beta 3
 
 La versión 2017.3 estará disponible en el entorno de producción a principios de noviembre de 2017.
 
@@ -22,22 +22,22 @@ La versión 2017.3 estará disponible en el entorno de producción a principios 
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2017.3, consulte  [información general sobre la actividad de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2017.3, consulte  [Resumen de la actividad de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-La versión beta 3 de 2017.3 contiene mejoras para todos los usuarios:
+La versión 2017.3 de Beta 3 contiene mejoras para todos los usuarios:
 
-* [Personalizar colores de gráfico](#customize-chart-colors)
+* [Personalizar colores para gráficos](#customize-chart-colors)
 * [Opciones Adicionales Al Copiar Proyectos](#additional-options-when-copying-projects)
 * [Mejora del Planificador de recursos: Filtros](#resource-planner-improvement-filters)
-* [Mejora del Planificador de recursos: mostrar las horas del problema en el área de &quot;Configuración&quot;](#resource-planner-improvement-show-issue-hours-in-the-settings-area)
+* [Mejora del Planificador de recursos: mostrar las horas del problema en el área de &quot;configuración&quot;](#resource-planner-improvement-show-issue-hours-in-the-settings-area)
 * [La información de SSO para las zonas protegidas de actualización y vista previa personalizadas no se actualiza](#sso-information-for-the-custom-refresh-and-preview-sandboxes-do-not-refresh)
-* [Requisitos de compatibilidad del explorador actualizados para Workfront Proof](#updated-browser-support-requirements-for-workfront-proof)
+* [Requisitos actualizados de compatibilidad del explorador para Workfront Proof](#updated-browser-support-requirements-for-workfront-proof)
 
 ## Personalizar colores de gráfico {#customize-chart-colors}
 
 Ahora puede personalizar los colores de los elementos de los gráficos. Esto se aplica a todos los tipos de gráficos de los informes. Esto no se aplica al gráfico Gantt.
 
-Antes de este cambio, los colores de los elementos de todos los gráficos se seleccionaban de forma predeterminada en Workfront. Para obtener más información acerca de la personalización de colores de gráficos, vea las secciones &quot;Personalización de colores de gráficos&quot; en [Agregar un gráfico a un informe](../../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+Antes de este cambio, los colores de los elementos de todos los gráficos se seleccionaban de forma predeterminada en Workfront. Para obtener más información sobre cómo personalizar los colores del gráfico, vea las secciones &quot;Personalizar colores del gráfico&quot; en [Agregar un gráfico a un informe](../../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 ## Opciones Adicionales Al Copiar Proyectos {#additional-options-when-copying-projects}
 
@@ -90,8 +90,8 @@ A partir de esta versión, cuando actualice los entornos limitados de actualizac
 
 Para obtener más información sobre el entorno de espacio aislado de actualización personalizado, consulte [El entorno de espacio aislado de actualización personalizado de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
-Para obtener más información sobre el entorno de vista previa de espacio aislado, consulte [Entorno de zona protegida de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Para obtener más información sobre el entorno de vista previa de espacio aislado, consulte [El entorno de espacio aislado de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-## Requisitos de compatibilidad del explorador actualizados para Workfront Proof {#updated-browser-support-requirements-for-workfront-proof}
+## Requisitos actualizados de compatibilidad del explorador para Workfront Proof {#updated-browser-support-requirements-for-workfront-proof}
 
 Se han actualizado los requisitos de compatibilidad del explorador para Workfront Proof. Para obtener más información, consulte [Requisitos del explorador Adobe Workfront](../../../../workfront-basics/workfront-browser-requirements.md).

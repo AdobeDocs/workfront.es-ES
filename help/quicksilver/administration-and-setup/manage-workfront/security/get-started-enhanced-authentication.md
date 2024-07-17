@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront está cambiando la administración del sistema de usuarios y contraseñas. Estos cambios se implementarán en una versión por fases llamada **Autenticación mejorada** experiencia. La autenticación mejorada ofrece a los usuarios una experiencia de inicio de sesión más coherente y segura en todos los productos y servicios de Workfront.
+Adobe Workfront está cambiando la administración del sistema de usuarios y contraseñas. Estos cambios se implementarán en una versión por fases llamada experiencia **Autenticación mejorada**. La autenticación mejorada ofrece a los usuarios una experiencia de inicio de sesión más coherente y segura en todos los productos y servicios de Workfront.
 
 La siguiente tabla proporciona detalles sobre la funcionalidad actual y futura:
 
@@ -30,7 +30,7 @@ La siguiente tabla proporciona detalles sobre la funcionalidad actual y futura:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>Función</strong> </p> </th> 
+   <th> <p><strong>Característica</strong> </p> </th> 
    <th><strong>Autenticación heredada</strong> </th> 
    <th><strong>Autenticación mejorada 1.0</strong> </th> 
    <th> <p>Autenticación mejorada 2.0</p> </th> 
@@ -76,7 +76,7 @@ La siguiente tabla proporciona detalles sobre la funcionalidad actual y futura:
    <td> <p>No planificado</p> <p>Esta funcionalidad no es una práctica recomendada de seguridad</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Requisitos de política de contraseñas</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Requisitos de directiva de contraseñas</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -153,7 +153,7 @@ La siguiente tabla proporciona detalles sobre la funcionalidad actual y futura:
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Compatibilidad con entorno</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Compatibilidad con entornos</strong> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 

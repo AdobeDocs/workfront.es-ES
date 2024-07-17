@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -39,15 +39,15 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
 
 * [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [Modificar asignaciones de usuarios para varios problemas de una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
+* [Modificar asignaciones de usuarios para varios problemas en una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Realización de asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [Realizar asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 Puede asignar un problema a uno o varios recursos en el nivel de problema individual, o puede asignar varios recursos a varios problemas a la vez.
 
-La asignación de problemas y tareas es similar en Adobe Workfront. Para obtener información general sobre la asignación de tareas, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+La asignación de problemas y tareas es similar en Adobe Workfront. Para obtener información general acerca de la asignación de tareas, vea [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Requisitos de acceso
 
@@ -69,11 +69,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a Proyectos y tareas</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los problemas del nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td> 
+   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a Proyectos y tareas</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los problemas de su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para el problema</p> <p>Permisos de contribución para el elemento en el que está copiando el problema con la capacidad de agregar problemas.</p> <p> Para obtener información sobre la concesión de permisos a los problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Concesión de acceso a los usuarios</a>.</p> </td> 
+   <td> <p>Administrar permisos para el problema</p> <p>Permisos de Contribute para el elemento en el que está copiando el problema con la capacidad de Agregar problemas.</p> <p> Para obtener información sobre la concesión de permisos a los problemas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acceso a los usuarios</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo:
 
-* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre la asociación de usuarios con funciones del puesto, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre cómo asociar usuarios con roles de trabajo, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Las tareas o los problemas suelen asignarse primero a uno o varios roles o equipos de trabajo. Cuando los proyectos están listos para iniciarse, es posible que también deban asignarse a usuarios.
 
@@ -114,13 +114,13 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 ## Asignar un solo problema
 
 1. Vaya al problema que desee asignar.
-1. Clic **Asignar a** en la esquina superior derecha del encabezado del problema, en la pestaña **Asignaciones** área
+1. Haga clic en **Asignar a** en la esquina superior derecha del encabezado del problema, en el área de **Asignaciones**
 
    O
 
    Haga clic en el nombre de las asignaciones actuales, si el problema ya está asignado.
 
-   ![Botón Asignar a](assets/assign-to-button-in-header.png)
+   ![Asignar a botón](assets/assign-to-button-in-header.png)
 
 1. Realice una de las siguientes acciones:
 
@@ -133,10 +133,10 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
      <span class="preview">![Búsqueda de asignaciones](assets/smart-assignments-issue-header.png)</span>
 
    * (Condicional) Haga clic en uno de los nombres, roles o equipos de las listas disponibles
-   * Clic **Asignármelo a mí** para asignársela a usted mismo
-   * Clic **Avanzadas**.
+   * Haz clic en **Asignármelo** para asignártelo a ti mismo
+   * Haga clic en **Avanzado**.
 
-     Crear asignaciones avanzadas es similar para tareas y problemas. Para obtener información sobre cómo realizar asignaciones avanzadas, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Crear asignaciones avanzadas es similar para tareas y problemas. Para obtener información sobre cómo realizar asignaciones avanzadas, vea [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
      >[!TIP]
      >
@@ -144,15 +144,15 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
      >
      >Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
      >
-     >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
      <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. Clic **Guardar** para completar la asignación del problema.
-1. (Opcional) Haga clic en **Icono X** situado junto al nombre de las asignaciones en el área Asignaciones del encabezado del problema para eliminar una asignación.
+1. Haga clic en **Guardar** para completar la asignación del problema.
+1. (Opcional) Haga clic en el **icono X** junto al nombre de las asignaciones en el área Asignaciones del encabezado del problema para quitar una asignación.
 
 ## Asignar un problema en una lista
 
@@ -171,17 +171,17 @@ Para asignar problemas en una lista:
 1. Vaya a una lista de problemas que tenga los campos Asignado a, Asignado o Asignaciones en la vista.
 1. Para asignar problemas, realice una de las siguientes acciones:
 
-   * Haga clic dentro de **Asignado a** o **Asignado** y empiece a escribir el nombre de un usuario activo que desee asignar al problema y, a continuación, haga clic en él cuando se muestre en la lista.
+   * Haga clic dentro de los campos **Asignado a** o **Asignado** y empiece a escribir el nombre de un usuario activo que desee asignar al problema; a continuación, haga clic en él cuando se muestre en la lista.
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * Haga clic dentro de **Asignaciones** y empiece a escribir el nombre de un usuario, rol o equipo activo que desee asignar al problema y, a continuación, haga clic en él cuando se muestre en la lista.
+   * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol o equipo activo que desee asignar al problema; a continuación, haga clic en él cuando se muestre en la lista.
 
      Imagen de muestra en el entorno de producción:
      ![](assets/assignments-field-task-list-nwe.png)
 
      <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-     ![Campo Asignaciones](assets/assignments-field-task-list-0424.png)
+     ![Campo de asignaciones](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -189,10 +189,10 @@ Para asignar problemas en una lista:
    >
    >Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
    >
-   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Condicional) Cuando esté visible en el campo Asignaciones, haga clic en **Icono Personas** ![](assets/teams.png) en la esquina superior derecha del cuadro asignaciones para abrir el cuadro Asignaciones avanzadas y crear asignaciones avanzadas. Para obtener más información, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Condicional) Cuando esté visible en el campo Asignaciones, haga clic en el icono **Personas** ![](assets/teams.png) en la esquina superior derecha del cuadro Asignaciones para abrir el cuadro Asignaciones avanzadas y crear asignaciones avanzadas. Para obtener más información, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -204,23 +204,23 @@ Para asignar problemas en una lista:
 
 1. Vaya a una lista de problemas que desee asignar de forma masiva.
 1. Seleccione varios problemas en la lista.
-1. Haga clic en **Icono Editar** ![](assets/qs-edit-icon.png).
+1. Haga clic en el **icono Editar** ![](assets/qs-edit-icon.png).
 
-   El **Editar problemas** se abre el cuadro de diálogo.
+   Se abre el cuadro de diálogo **Editar problemas**.
 
-1. En el **Asignaciones** , seleccione la **Asignado** y, a continuación, empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a todos los problemas.
+1. En el área **Asignaciones**, seleccione la casilla **Usuario asignado** y, a continuación, empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a todos los problemas.
 
    >[!IMPORTANT]
    >
    >Si alguno de los problemas ya está asignado, los recursos que indique aquí se agregan a los problemas en lugar de reemplazar los recursos existentes en los problemas.
 
-1. (Opcional) Seleccione el botón de opción en la **Propietario de problema** para indicar qué recurso es el principal asignado o el propietario del problema, cuando asigna más de un recurso al problema. Esto no está disponible para equipos.
-1. (Opcional) Seleccione una función que el usuario debe cumplir en el problema desde el **Elegir un rol** menú desplegable en el **Rol de asignado** cuando asigna usuarios a problemas. Si no selecciona ninguna función, Workfront selecciona automáticamente la función principal del usuario.
+1. (Opcional) Seleccione el botón de opción en la columna **Propietario del problema** para indicar qué recurso es el principal asignado o el propietario del problema, cuando asigne más de un recurso al problema. Esto no está disponible para equipos.
+1. (Opcional) Seleccione un rol que el usuario deba cumplir en el problema desde el menú desplegable **Elegir un rol** en la columna **Rol de asignado** cuando asigne usuarios a los problemas. Si no selecciona ninguna función, Workfront selecciona automáticamente la función principal del usuario.
 
 1. (Opcional) Si desea quitar los usuarios asignados existentes de todos los problemas, realice una de las siguientes acciones:
 
-   1. Empiece a escribir el nombre del usuario, la función o el equipo que desea quitar del problema y, a continuación, selecciónelo cuando aparezca en la lista y haga clic en **Quitar persona asignada** para agregar usuarios asignados adicionales que eliminar.
-   1. Clic **Quitar todas las personas asignadas actualmente** para quitar todas las personas asignadas de todos los problemas seleccionados.
+   1. Empiece a escribir el nombre de un usuario, rol o equipo que desee eliminar del problema y, a continuación, selecciónelo cuando aparezca en la lista y haga clic en **Quitar usuario asignado** para agregar usuarios asignados adicionales que eliminar.
+   1. Haga clic en **Quitar todas las personas asignadas existentes** para quitar todas las personas asignadas de todos los problemas seleccionados.
 
-1. Clic **Guardar cambios**.
-1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de problemas, haga clic dentro de una de estas columnas para un problema y luego haga clic en **Icono X** junto al nombre de un usuario asignado para eliminarlo del problema.
+1. Haga clic en **Guardar cambios**.
+1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de problemas, haga clic dentro de una de estas columnas para un problema y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo del problema.

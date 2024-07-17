@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code>y tiene en cuenta la zona horaria.</p>
+            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code> y tiene en cuenta la zona horaria.</p>
           </li>
         </ul>
       </td>
@@ -118,10 +118,10 @@ Un objeto de asignación representa la conexión entre un elemento de trabajo y 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code>y tiene en cuenta la zona horaria.</p>
+            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code> y tiene en cuenta la zona horaria.</p>
           </li>
           <li>
-            <p><b>isContour</b>
+            <p><b>isContouring</b>
             </p>
             <p>Se ha añadido este campo, que es un booleano que refleja si la asignación está contorneada. Si se han editado los minutos diarios de la asignación en el Distribuidor de cargas de trabajo, se ha perfilado la asignación.</p>
           </li>
@@ -169,7 +169,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nombre</b>
             </p>
             <p>Se agregaron los siguientes valores posibles:</p>
             <ul>
@@ -235,9 +235,9 @@ Un objeto Hour representa una hora registrada por un usuario en una plantilla de
       <td>
         <ul>
           <li>
-            <p><b>timesheetHourIdentifier</b>
+            <p><b>identificador de horaDeHojaDeHoras</b>
             </p>
-            <p>Agregado. Este parámetro se utiliza para identificar las horas creadas con <code>batchSave</code>. </p>
+            <p>Añadido. Este parámetro se usa para identificar las horas creadas con <code>batchSave</code>. </p>
            </li>
         </ul>
       </td>
@@ -289,7 +289,7 @@ Un objeto Note es un comentario o una actualización realizada sobre un objeto W
       <td>
         <ul>
           <li>
-            <p><b>attachmentDocuments</b>
+            <p><b>documentos adjuntos</b>
             </p>
             <p>Este campo se ha añadido y representa una lista de documentos adjuntos al comentario.</p>
           </li>
@@ -314,7 +314,7 @@ Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de tr
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code>y tiene en cuenta la zona horaria.</p>
+            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code> y tiene en cuenta la zona horaria.</p>
           </li>
         </ul>
       </td>
@@ -326,7 +326,7 @@ Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de tr
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Esta acción añadió el campo <code>teamIDs</code> para admitir la funcionalidad de asignar varios equipos a una tarea o un problema.</p>
+            <p>Esta acción agregó el campo <code>teamIDs</code> para admitir la funcionalidad de asignar varios equipos a una tarea o problema.</p>
          </li>
         </ul>
       </td>
@@ -404,7 +404,7 @@ El objeto RichTextNote quitó el indicador `REPORTABLE`.
 
 ### Rol / Rol (ROLE)
 
-Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría rellenar, como Designer o Product Manager.
+Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como Designer o Product Manager.
 
 <table>
   <col/>
@@ -439,7 +439,7 @@ Un objeto Task representa un elemento de trabajo que debe realizarse como un pas
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code>y tiene en cuenta la zona horaria.</p>
+            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code> y tiene en cuenta la zona horaria.</p>
           </li>
         </ul>
       </td>
@@ -451,7 +451,7 @@ Un objeto Task representa un elemento de trabajo que debe realizarse como un pas
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Esta acción añadió el campo <code>teamIDs</code> para admitir la funcionalidad de asignar varios equipos a una tarea o un problema.</p>
+            <p>Esta acción agregó el campo <code>teamIDs</code> para admitir la funcionalidad de asignar varios equipos a una tarea o problema.</p>
          </li>
         </ul>
       </td>
@@ -474,17 +474,17 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
            <li>
             <p><b>availableActions</b>
             </p>
-            <p>Este parámetro ha eliminado el indicador <code>READ_ONLY</code>.</p>
+            <p>Este parámetro quitó el marcador <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>isEditable</b>
             </p>
-            <p>Este parámetro ha eliminado el indicador <code>READ_ONLY</code>.</p>
+            <p>Este parámetro quitó el marcador <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>Se agregó este parámetro, y almacena la duración de la hoja de horas en días independientemente de los cambios a "Horas equivalentes para Workday completo".  Por ejemplo, si Horas equivalentes se establece en 6 y se registra un día, entonces Horas equivalentes se cambia a 8 horas, <code>totalDays</code> aún tiene un valor de 1.</p>
+            <p>Se agregó este parámetro, y almacena la duración de la hoja de horas en días independientemente de los cambios a "Horas equivalentes para Workday completo".  Por ejemplo, si Horas equivalentes se establece en 6 y se registra un día, entonces Horas equivalentes se cambia a 8 horas, <code>totalDays</code> sigue teniendo un valor de 1.</p>
          </li>
         </ul>
       </td>
@@ -506,7 +506,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>Esta acción se añadió y toma un mapa de consulta de filtro y añade el <code>allowingnull</code> unir para campos que admiten valores NULL.</p>
+            <p>Esta acción se agregó y toma un mapa de consulta de filtro y agrega la unión <code>allowingnull</code> para los campos que aceptan valores NULL.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -514,7 +514,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Estas acciones admiten la capacidad de compartir filtros, vistas y agrupaciones en todo el sistema.</p><p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Hacer que los filtros, vistas o agrupaciones estén disponibles para todos los usuarios</a>.</p>
+            <p>Estas acciones admiten la capacidad de compartir filtros, vistas y agrupaciones en todo el sistema.</p><p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Hacer que los filtros, las vistas o las agrupaciones estén disponibles para todos los usuarios</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Estas acciones admiten la capacidad de compartir filtros, vistas y agrupaciones en todo el sistema.</p><p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Hacer que los filtros, vistas o agrupaciones estén disponibles para todos los usuarios</a>.</p>
+            <p>Estas acciones admiten la capacidad de compartir filtros, vistas y agrupaciones en todo el sistema.</p><p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Hacer que los filtros, las vistas o las agrupaciones estén disponibles para todos los usuarios</a>.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Estas acciones admiten la capacidad de compartir filtros, vistas y agrupaciones en todo el sistema.</p><p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Hacer que los filtros, vistas o agrupaciones estén disponibles para todos los usuarios</a>.</p>
+            <p>Estas acciones admiten la capacidad de compartir filtros, vistas y agrupaciones en todo el sistema.</p><p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Hacer que los filtros, las vistas o las agrupaciones estén disponibles para todos los usuarios</a>.</p>
          </li>
         </ul>
       </td>
@@ -650,7 +650,7 @@ Un objeto Work es una interfaz común que heredan Task y OpTask, y comparte cód
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code>y tiene en cuenta la zona horaria.</p>
+            <p>Este campo se ha añadido y muestra la cantidad de minutos de trabajo por día que debe realizar. Tiene el formato <code>YYYY-MM-DD: (number of minutes)</code> y tiene en cuenta la zona horaria.</p>
           </li>
         </ul>
       </td>

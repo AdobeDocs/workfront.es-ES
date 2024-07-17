@@ -20,7 +20,7 @@ Algunos módulos de déclencheur le permiten seleccionar el primer paquete desde
 
 También puede especificar si desea recuperar todos los paquetes o solo los paquetes después de una fecha específica.
 
-Para obtener más información sobre los módulos de déclencheur, consulte la sección [módulos de déclencheur](../../workfront-fusion/modules/module-types.md#triggers) en el artículo [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
+Para obtener más información acerca de los módulos de déclencheur, consulte la sección [Módulos de Déclencheur](../../workfront-fusion/modules/module-types.md#triggers) en el artículo [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
 
 ## Requisitos de acceso
 
@@ -41,23 +41,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -71,9 +71,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
    O
 
-   Haga clic con el botón derecho en el icono del módulo de déclencheur en la [!UICONTROL Editor de escenarios], tal como se describe en [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Haga clic con el botón secundario del mouse (ratón) en el déclencheur del módulo en el [!UICONTROL Editor de escenarios], tal como se describe en [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Seleccione una opción en la **[!UICONTROL Elija por dónde empezar]** que aparece.
+1. Seleccione una opción en el cuadro **[!UICONTROL Elegir por dónde empezar]** que aparece.
 
    ![](assets/choose-where-to-start-350x346.jpg)
 
@@ -89,8 +89,8 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
             <td>Recupera todos los paquetes añadidos o actualizados (según la configuración) después de una fecha u hora especificadas</td>
         </tr>
         <tr>
-            <td>[!UICONTROL Con ID bueno o igual a un valor específico]</td>
-            <td>Recupera todos los paquetes con un ID bueno o igual a un ID especificado</td> 
+            <td>[!UICONTROL Con ID mayor o igual que un valor específico]</td>
+            <td>Recupera todos los paquetes con un ID mayor o igual que un ID especificado</td> 
         </tr>
         <tr>
             <td>[!UICONTROL Todos los paquetes]</td>

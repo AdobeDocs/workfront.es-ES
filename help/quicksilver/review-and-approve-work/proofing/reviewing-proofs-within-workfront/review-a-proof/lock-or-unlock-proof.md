@@ -26,12 +26,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o superior</p> <p>o</p> <p>Plan heredado: Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o plan</p> <p>Plan heredado: Cualquiera (debe tener las pruebas habilitadas para el usuario)</p> </td> 
+   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Función de prueba</td> 
@@ -44,41 +44,41 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con el administrador de Workfront o Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
-## Bloqueo de una prueba
+## Bloquear una revisión
 
-Puede bloquear manualmente una prueba para evitar o permitir que los revisores comenten. Esto es diferente a bloquear un escenario de prueba.
+Puede bloquear manualmente una prueba para evitar o permitir que los revisores realicen comentarios. Esto es diferente a bloquear una fase de prueba.
 
-Para bloquear una prueba:
+Para bloquear una revisión:
 
 1. Vaya a la lista de documentos que contiene la prueba que desea abrir.
-1. Pase el ratón sobre el documento y haga clic en la **Abrir prueba** que aparece.
+1. Pase el ratón sobre el documento y luego haga clic en el vínculo **Abrir revisión** que aparece.
 
    O
 
-   Si desea abrir una prueba para una versión anterior del documento, haga clic en el icono Más ![](assets/more-icon.png) para esa versión en el resumen, haga clic en **Abrir prueba**.
+   Si desea abrir una revisión para una versión anterior del documento, haga clic en el icono Más ![](assets/more-icon.png) para esa versión en el resumen y, a continuación, haga clic en **Abrir revisión**.
 
-   Para obtener información sobre el resumen, consulte [Resumen de los documentos](../../../../documents/managing-documents/summary-for-documents.md).
+   Para obtener información sobre el resumen, consulte [Resumen de documentos](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. En el panel de la izquierda, haga clic en el botón **Bloqueo** icono ![](assets/unlock-proof-icon.png).
+1. En el panel izquierdo, haga clic en el icono **Bloquear** ![](assets/unlock-proof-icon.png).
 
    ![](assets/lock-proof-350x277.png)
 
 ## Desbloquear una prueba
 
-Desbloquear una prueba es útil cuando necesita revisores para agregar comentarios a una versión anterior de una prueba. (Una versión anterior siempre se bloquea hasta que el propietario de la prueba la desbloquea manualmente). Cuando los revisores hayan terminado de agregar comentarios a la versión anterior, puede volver a bloquearlo. Para obtener información sobre la visualización de una versión anterior de una prueba, consulte [Ver versiones de prueba anteriores en el visor de pruebas web](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
+Desbloquear una prueba resulta útil cuando necesita que los revisores agreguen comentarios a una versión anterior de una prueba. (Una versión anterior siempre está bloqueada hasta que el propietario de la prueba la desbloquea manualmente). Cuando los revisores hayan terminado de agregar comentarios a la versión anterior, puede volver a bloquearla. Para obtener información acerca de cómo ver una versión anterior de una revisión, vea [Ver versiones de revisión anteriores en el Visor de revisión web](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
 
 Para desbloquear una prueba:
 
-1. Pase el ratón sobre el documento y haga clic en la **Abrir prueba** que aparece.
+1. Pase el ratón sobre el documento y luego haga clic en el vínculo **Abrir revisión** que aparece.
 
    O
 
-   Si desea abrir una prueba para una versión anterior del documento, haga clic en el icono Más ![](assets/more-icon.png) para esa versión en el resumen, haga clic en **Abrir prueba**.
+   Si desea abrir una revisión para una versión anterior del documento, haga clic en el icono Más ![](assets/more-icon.png) para esa versión en el resumen y, a continuación, haga clic en **Abrir revisión**.
 
-   Para obtener información sobre el resumen, consulte [Resumen de los documentos](../../../../documents/managing-documents/summary-for-documents.md).
+   Para obtener información sobre el resumen, consulte [Resumen de documentos](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. En el panel izquierdo, haga clic en el botón **Desbloquear** icono ![](assets/unlock-proof-icon.png)y haga clic en **Sí, desbloquear**.
+1. En el panel izquierdo, haga clic en el icono **Desbloquear** ![](assets/unlock-proof-icon.png) y luego haga clic en **Sí, desbloquear**.
 
    ![](assets/copy-of-unlock-proof-350x279.png)

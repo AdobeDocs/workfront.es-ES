@@ -6,7 +6,8 @@ description: Hay varios informes diferentes que puede agregar a un panel de lien
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Hay varios informes diferentes que puede agregar a un panel de lienzo para visua
 * Informes de tabla
 * Informes de aprobaciones pendientes
 
-Para obtener información general sobre cómo añadir y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Para obtener información más detallada sobre cómo agregar y dar formato a tipos de informes específicos, consulte el artículo Índice a continuación.
+Para obtener información general sobre cómo agregar y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Para obtener información más detallada sobre cómo agregar y dar formato a tipos de informes específicos, consulte el artículo Índice a continuación.
 
 ## Tipos de informes de panel de lienzo: índice de artículos
 

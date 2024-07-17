@@ -29,7 +29,7 @@ Los análisis mejorados pueden ayudarle a identificar lo siguiente:
 
 ![](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejoradas](https://one.workfront.com/s/enhanced-analytics-program).
+Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://one.workfront.com/s/enhanced-analytics-program).
 
 ## Requisitos previos
 
@@ -37,21 +37,21 @@ Para acceder al área de Análisis mejorado, debe:
 
 * Tener un plan empresarial o de negocios.
 
-  Para obtener más información, consulte [planes de Workfront](https://www.workfront.com/plans).
+  Para obtener más información, consulte [Planes de Workfront](https://www.workfront.com/plans).
 
 * Pida al administrador de Workfront que añada análisis mejorados a la plantilla de diseño.
 
-  Para obtener más información, consulte [Análisis mejorado: Agregar análisis a plantillas de diseño](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Para obtener más información, consulte [Análisis mejorado: agregar análisis a plantillas de diseño](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
 
 Para ver información de proyectos y tareas, debe:
 
 * Tener permiso de visualización en las áreas Proyectos y Tareas de su nivel de acceso.
 
-  Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea [Crear o modificar niveles de acceso personalizados](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Tener permiso de visualización para tareas o proyectos específicos.
 
-  Para obtener información sobre cómo solicitar acceso adicional, consulte [Solicitud de acceso a objetos](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  Para obtener información sobre cómo solicitar acceso adicional, consulte [Solicitar acceso a objetos](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Prácticas recomendadas para el análisis mejorado
 
@@ -112,8 +112,8 @@ En el análisis mejorado, la duración de un proyecto se calcula mediante las si
 
   >[!NOTE]
   >
-  >8 horas es el número predeterminado para **Horas habituales por día laborable**. Un administrador de Adobe Workfront puede actualizar el **Horas habituales por día laborable** configuración en **Configurar** > **Preferencias de proyecto** > **Proyectos** > **Cronología**.\
-  >Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >8 horas es el número predeterminado de **Horas habituales por día laborable**. Un administrador de Adobe Workfront puede actualizar la configuración de **Horas habituales por día laborable** en **Configuración** > **Preferencias de proyecto** > **Proyectos** > **Escalas de tiempo**.\
+  >Para obtener más información, consulte [Configurar las preferencias de proyecto en todo el sistema](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Para obtener información sobre la duración planificada, consulte [Información general sobre la duración del proyecto](../manage-work/projects/planning-a-project/project-duration.md).
 
@@ -125,7 +125,7 @@ Puede utilizar las siguientes teclas del teclado para navegar o completar accion
 |---|---|
 | **Ficha** | Desplácese a cada elemento de la página, así como a una tabla con información sobre cada visualización que no se muestre en la página |
 | **Entrar** | Abra el widget de calendario, elimine un filtro existente, abra las opciones de añadir filtro, seleccione o anule la selección de valores de filtro, aplique un filtro que haya creado, abra las opciones de exportación en cada visualización, abra los menús desplegables en las visualizaciones Evolución, Tareas en vuelo y Diagrama de árbol del proyecto |
-| **Teclas de flecha** | Navegue hasta las fechas en el widget de calendario, a través de las opciones de filtro al agregar un filtro y a través de las opciones en todos los menús desplegables de las visualizaciones |
+| **Teclas de dirección** | Navegue hasta las fechas en el widget de calendario, a través de las opciones de filtro al agregar un filtro y a través de las opciones en todos los menús desplegables de las visualizaciones |
 | **Barra espaciadora** | Seleccione fechas en el widget de calendario, seleccione un tipo de filtro al añadir un filtro, seleccione una opción de exportación en el menú desplegable de cada visualización y seleccione opciones en los menús desplegables de las visualizaciones Evolución, Tareas en vuelo y Diagrama de árbol del proyecto |
 
 {style="table-layout:auto"}
@@ -155,28 +155,28 @@ Para obtener más información sobre los detalles de una función específica de
    <td> <p>Los indicadores clave de rendimiento (KPI) de todos los proyectos en un lapso de tiempo específico se encuentran en la parte superior de la pantalla.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Visualización del plan de vuelo en el análisis mejorado</a> </p> </td> 
-   <td> <p>El <b>Plan de vuelo</b> La visualización de le muestra que la condición ha cambiado durante la duración de un proyecto. La interacción con la visualización le ofrece más detalles sobre fechas específicas. Al seleccionar un proyecto, se abren las visualizaciones Evolución y Tareas en vuelo.</p> </td> 
+   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Ver la visualización del plan de vuelo en el análisis mejorado</a> </p> </td> 
+   <td> <p>La visualización <b>Plan de vuelo</b> muestra que la condición ha cambiado durante la duración de un proyecto. La interacción con la visualización le ofrece más detalles sobre fechas específicas. Al seleccionar un proyecto, se abren las visualizaciones Evolución y Tareas en vuelo.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Vea la visualización Evolución en el análisis mejorado</a> </td> 
-   <td> <p>El <b>Evolución</b> La visualización muestra la velocidad planificada de un proyecto comparada con la cantidad real de horas invertidas en un proyecto. La interacción con la visualización le ofrece más detalles sobre la condición del proyecto en una fecha específica.</p> </td> 
+   <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Ver la visualización de evolución en el análisis mejorado</a> </td> 
+   <td> <p>La visualización <b>Evolución</b> muestra la velocidad planificada de un proyecto en comparación con la cantidad real de horas invertidas en un proyecto. La interacción con la visualización le ofrece más detalles sobre la condición del proyecto en una fecha específica.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">Visualización de las tareas en vuelo en Análisis mejorado</a> </td> 
-   <td> <p>El <b>Tareas en vuelo</b> la visualización muestra el estado de cada tarea dentro de un proyecto. La interacción con la visualización de le permite realizar cambios de forma rápida y sencilla en una tarea.</p> </td> 
+   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">Ver la visualización Tareas en vuelo en Análisis mejorado</a> </td> 
+   <td> <p>La visualización <b>Tareas en vuelo</b> muestra el estado de cada tarea dentro de un proyecto. La interacción con la visualización de le permite realizar cambios de forma rápida y sencilla en una tarea.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Vea la visualización de la actividad del proyecto en el análisis mejorado</a> </td> 
-   <td> <p>El <b>Actividad de proyecto</b> la visualización le muestra un mapa de calor del momento en el que los usuarios asignados a un proyecto iniciaron sesión en Workfront, cambiaron el estado de la tarea en ese proyecto y completaron las tareas en ese proyecto. La interacción con la visualización le permite ver estos detalles para cada usuario. También puede ver fechas específicas de estas acciones, así como el número de veces que se completó cada acción.</p> </td> 
+   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Ver la visualización de la actividad del proyecto en el análisis mejorado</a> </td> 
+   <td> <p>La visualización de la <b>actividad del proyecto</b> muestra un mapa de calor del momento en el que los usuarios asignados a un proyecto iniciaron sesión en Workfront, cambiaron el estado de la tarea en ese proyecto y completaron las tareas en ese proyecto. La interacción con la visualización le permite ver estos detalles para cada usuario. También puede ver fechas específicas de estas acciones, así como el número de veces que se completó cada acción.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Vea la visualización del diagrama de proyecto en el análisis mejorado</a> </td> 
-   <td> <p>El <b>Diagrama del proyecto</b> La visualización muestra cuánto tiempo se ha invertido en algunos proyectos en comparación con otros. La interacción con la visualización le ofrece detalles sobre la condición del proyecto, la finalización planificada del proyecto y la finalización real del proyecto.</p> </td> 
+   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Ver la visualización del diagrama de proyecto en el análisis mejorado</a> </td> 
+   <td> <p>La visualización <b>Diagrama de árbol del proyecto</b> muestra cuánto tiempo se ha invertido en algunos proyectos en comparación con otros. La interacción con la visualización le ofrece detalles sobre la condición del proyecto, la finalización planificada del proyecto y la finalización real del proyecto.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Vea la visualización Actividad por equipo en el análisis mejorado</a> </td> 
-   <td> <p>El <b>Actividad por equipo</b> la visualización le muestra un mapa de calor del momento en el que los usuarios de un equipo de inicio inician sesión en Workfront, cambian el estado de una tarea y finalizan una tarea. La interacción con la visualización le permite ver estos detalles para cada usuario individual. También puede ver fechas específicas de estas acciones, así como el número de veces que se completó cada acción.</p> </td> 
+   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Ver la visualización Actividad por equipo en el análisis mejorado</a> </td> 
+   <td> <p>La visualización <b>Actividad por equipo</b> muestra un mapa de calor del momento en el que los usuarios de un equipo de inicio iniciaron sesión en Workfront, cambiaron el estado de una tarea y completaron una tarea. La interacción con la visualización le permite ver estos detalles para cada usuario individual. También puede ver fechas específicas de estas acciones, así como el número de veces que se completó cada acción.</p> </td> 
   </tr> 
   <!-- Features permanently removed from Workfront
   <tr> 

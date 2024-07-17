@@ -29,7 +29,7 @@ Por ejemplo, puede adjuntar un formulario personalizado llamado &quot;Investigac
 
 ## Cómo crear un formulario personalizado
 
-Existen dos opciones para crear un formulario personalizado en [!DNL Workfront]. Puede utilizar el Creador de formularios personalizados heredados o el nuevo diseñador de formularios:
+Hay dos opciones para crear un formulario personalizado en [!DNL Workfront]. Puede utilizar el Creador de formularios personalizados heredados o el nuevo diseñador de formularios:
 
 * [Generador de formularios personalizados heredados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
@@ -78,8 +78,8 @@ Los usuarios pueden adjuntar formularios personalizados a los siguientes tipos d
 * Iteración
 * Registro de facturación
 
-Para obtener más información sobre cómo adjuntar formularios personalizados a objetos, consulte [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Para obtener más información sobre cómo adjuntar formularios personalizados a objetos, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Para obtener información sobre lo que sucede con los formularios personalizados al convertir un objeto, consulte [Transferir datos de formulario personalizados al convertir un objeto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+Para obtener información acerca de lo que sucede con los formularios personalizados al convertir un objeto, vea [Transferir datos de formulario personalizados al convertir un objeto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 

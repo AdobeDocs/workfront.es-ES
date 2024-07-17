@@ -11,7 +11,7 @@ exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
 source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Resumen de hojas de horas](../../timesheets/timesheets/timesheets-overview.md)
+* [Información general de hojas de horas](../../timesheets/timesheets/timesheets-overview.md)
 * [Resumen del diseño de hoja de horas](../../timesheets/timesheets/timesheet-layout.md)

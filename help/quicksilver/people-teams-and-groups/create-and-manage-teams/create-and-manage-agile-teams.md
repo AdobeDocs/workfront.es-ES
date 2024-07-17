@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Crear y administrar equipos móviles
-description: Para obtener información sobre cómo crear y administrar equipos ágiles, consulte Crear un equipo ágil.
+title: Creación y administración de equipos de Agile
+description: Para obtener información sobre cómo crear y administrar equipos Agile, consulte Crear un equipo Agile.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 86d115cf-0931-453f-aa0f-c96b31eb61d5
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 ---
 
-# Crear y administrar equipos móviles
+# Creación y administración de equipos de Agile
 
-Para obtener información sobre cómo crear y administrar equipos ágiles, consulte [Crear un equipo ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Para obtener información sobre cómo crear y administrar equipos Agile, consulte [Crear un equipo Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2128'
 ht-degree: 3%
 
 ---
@@ -37,11 +37,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar el acceso a las plantillas</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para una plantilla y para la tarea de plantilla </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para una plantilla y para la tarea de plantilla </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,20 +83,20 @@ Tenga en cuenta lo siguiente al mover tareas de plantilla:
 Puede copiar una sola tarea de plantilla o copiar varias tareas de plantilla de forma masiva.
 
 1. Vaya a la plantilla que contiene la tarea de plantilla o las tareas de plantilla que desea copiar.
-1. Clic **Tareas de plantilla** en el panel izquierdo.
+1. Haga clic en **Tareas de plantilla** en el panel izquierdo.
 1. Realice una de las siguientes acciones:
    * Haga clic en el nombre de una tarea de plantilla para abrirla.
    * Seleccione una o varias tareas de plantilla en la lista.
-1. (Condicional) Haga clic en **Más** menú ![](assets/more-icon.png) en la parte superior de la lista de tareas de plantilla o a la derecha del nombre de la tarea de plantilla si ha abierto la tarea, haga clic en **Copiar a** o **Copiar**, según desde dónde acceda a la opción Copiar.
+1. (Condicional) Haga clic en el menú **Más** ![](assets/more-icon.png) en la parte superior de la lista de tareas de plantilla o a la derecha del nombre de la tarea de plantilla si ha abierto la tarea y, a continuación, haga clic en **Copiar en** o **Copiar**, según desde dónde acceda a la opción Copiar.
 Se abrirá el cuadro Copiar tarea de plantilla.
    ![](assets/copy-template-task-box-unshimmed.png)
-1. (Opcional) Cambie el nombre de la tarea de plantilla en la **Nombre de tarea de plantilla** field.
+1. (Opcional) Cambie el nombre de la tarea de plantilla en el campo **Nombre de tarea de plantilla**.
 
    >[!TIP]
    >
    >Este campo aparece atenuado y no se puede editar al seleccionar copiar varias tareas de plantilla en una lista. Puede pasar el ratón sobre el campo Nombre de tarea de plantilla y se mostrará una lista de todas las tareas de plantilla seleccionadas.
 
-1. Empiece a escribir el nombre del **Plantilla de destino** donde desee copiar la tarea de plantilla en el **Seleccionar plantilla de destino** y, a continuación, selecciónelo cuando se muestre en la lista.
+1. Empiece a escribir el nombre de la **Plantilla de destino** en la que desea copiar la tarea de plantilla en el campo **Seleccionar plantilla de destino** y, a continuación, selecciónela cuando se muestre en la lista.
 
    El nombre de la plantilla actual se muestra de forma predeterminada. Si desea copiar la tarea de plantilla dentro de la misma plantilla, deje este campo sin cambiar.
 
@@ -104,14 +104,14 @@ Se abrirá el cuadro Copiar tarea de plantilla.
    >
    >También puede empezar a escribir el número de referencia o introducir el ID de la plantilla. Esto puede ayudarle a distinguir entre plantillas con nombres idénticos.
 
-1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso a la plantilla de destino, si no tiene acceso a la plantilla seleccionada.
+1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso a la plantilla de destino si no tiene acceso a la plantilla seleccionada.
 1. (Condicional) Continúe copiando la tarea de plantilla en la plantilla de destino seleccionada sin solicitar acceso si tiene acceso para agregar tareas de plantilla a una de las tareas de plantilla de la plantilla de destino.
 
-1. Clic **Opciones** en el panel izquierdo, anule la selección de los atributos de tarea de plantilla que no desee copiar con la tarea de plantilla. Todas las opciones están seleccionadas de forma predeterminada.
+1. Haga clic en **Opciones** en el panel izquierdo y, a continuación, anule la selección de los atributos de tarea de plantilla que no desee copiar con la tarea de plantilla. Todas las opciones están seleccionadas de forma predeterminada.
 
    >[!TIP]
    >
-   >Anulando selección **Seleccionar todo** anula la selección de todas las opciones.
+   >Si anula la selección de **Seleccionar todo**, se anularán todas las opciones.
 
    Anule la selección de las siguientes opciones para no transferirlas a la tarea de plantilla copiada. En la tabla siguiente se describe lo que sucede cuando no se seleccionan las opciones:
 
@@ -179,7 +179,7 @@ Se abrirá el cuadro Copiar tarea de plantilla.
    </table>
 
 
-1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo, seleccione la tarea de plantilla en la plantilla de destino que desea que sea la principal de la tarea de plantilla copiada.
+1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo y, a continuación, seleccione la tarea de plantilla en la plantilla de destino que desea que sea la principal de la tarea de plantilla copiada.
 
    >[!TIP]
    >
@@ -188,7 +188,7 @@ Se abrirá el cuadro Copiar tarea de plantilla.
    Seleccione un padre mediante una de las siguientes acciones:
 
    * En la lista de tareas de plantilla, seleccione uno de los elementos primarios del plan de plantilla.
-   * Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea de plantilla principal por su nombre.
+   * Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea de plantilla principal por nombre.
 
    La tarea de plantilla debe aparecer en la lista.
 
@@ -196,7 +196,7 @@ Se abrirá el cuadro Copiar tarea de plantilla.
 
    Si no selecciona una tarea de plantilla principal, las tareas de plantilla se copian como tareas de plantilla principales en lugar de subtareas y se colocan al final de la lista de tareas de plantilla en la plantilla de destino.
 
-1. Clic **Copiar tarea de plantilla**.
+1. Haga clic en **Copiar tarea de plantilla**.
 
    Las tareas de plantilla copiadas ahora están en la plantilla especificada y son subtareas de la tarea de plantilla principal seleccionada o las últimas tareas de plantilla de la plantilla.
 
@@ -206,35 +206,35 @@ Se abrirá el cuadro Copiar tarea de plantilla.
 Puede mover una tarea de plantilla a otra tarea de plantilla de la misma plantilla o a otra plantilla. Puede mover una o varias tareas de plantilla de forma masiva.
 
 1. Vaya a la plantilla que contiene la tarea de plantilla o las tareas de plantilla que desea mover.
-1. Clic **Tareas de plantilla** en el panel izquierdo.
+1. Haga clic en **Tareas de plantilla** en el panel izquierdo.
 1. Realice una de las siguientes acciones:
    * Haga clic en el nombre de una tarea de plantilla para abrirla.
    * Seleccione una o varias tareas de plantilla en la lista.
-1. (Condicional) Haga clic en **Más** menú ![](assets/more-icon.png) en la parte superior de la lista de tareas de plantilla o a la derecha del nombre de la tarea de plantilla si ha abierto la tarea, haga clic en **Mover a** o **Mover**, según desde dónde acceda a la opción Mover.
+1. (Condicional) Haga clic en el menú **Más** ![](assets/more-icon.png) en la parte superior de la lista de tareas de plantilla o a la derecha del nombre de la tarea de plantilla si ha abierto la tarea y, a continuación, haga clic en **Mover a** o **Mover**, según desde dónde acceda a la opción Mover.
 Se abrirá el cuadro Mover tarea de plantilla.
    ![](assets/move-template-task-box-unshimmed.png)
 
-1. (Opcional) Cambie el nombre de la tarea de plantilla en la **Nombre de tarea de plantilla** field.
+1. (Opcional) Cambie el nombre de la tarea de plantilla en el campo **Nombre de tarea de plantilla**.
 
    >[!TIP]
    >
    >Este campo aparece atenuado y no se puede editar al seleccionar mover varias tareas de plantilla en una lista. Puede pasar el ratón sobre el campo Nombre de la tarea de plantilla y se mostrará una lista de todas las tareas de plantilla seleccionadas.
 
-1. Empiece a escribir el nombre del **Plantilla de destino** donde desee mover la tarea de plantilla en el **Seleccionar plantilla de destino** y, a continuación, selecciónelo cuando se muestre en la lista.
+1. Empiece a escribir el nombre de la **Plantilla de destino** a la que desea mover la tarea de plantilla en el campo **Seleccionar plantilla de destino** y, a continuación, selecciónela cuando se muestre en la lista.
 
    >[!TIP]
    >
    >También puede empezar a escribir el número de referencia o introducir el ID de la plantilla. Esto puede ayudarle a distinguir entre plantillas con nombres idénticos.
 
-1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso a la plantilla, si no tiene acceso a la plantilla de destino.
+1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso a la plantilla si no tiene acceso a la plantilla de destino.
 1. (Condicional) Continúe moviendo la tarea de plantilla a la plantilla de destino seleccionada sin solicitar acceso si tiene acceso para agregar tareas de plantilla a una de las tareas de plantilla de la plantilla de destino.
 
-1. Clic **Opciones** en el panel izquierdo, anule la selección de los atributos de tarea de plantilla que no desee copiar con la tarea de plantilla. Todas las opciones están seleccionadas de forma predeterminada.
+1. Haga clic en **Opciones** en el panel izquierdo y, a continuación, anule la selección de los atributos de tarea de plantilla que no desee copiar con la tarea de plantilla. Todas las opciones están seleccionadas de forma predeterminada.
 
    >[!TIP]
    >
    >* La sección Opciones solo está disponible después de seleccionar una plantilla de destino.
-   >* Anulando selección **Seleccionar todo** anula la selección de todas las opciones.
+   >* Si anula la selección de **Seleccionar todo**, se anularán todas las opciones.
 
    Anule la selección de las siguientes opciones para no transferir la información a la tarea de plantilla desplazada. En la tabla siguiente se describe lo que sucede cuando no se seleccionan las opciones:
 
@@ -312,7 +312,7 @@ Se abrirá el cuadro Mover tarea de plantilla.
    </table>
 
 
-1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo, seleccione la tarea de plantilla en la plantilla de destino que desea que sea la principal de la tarea de plantilla desplazada.
+1. (Opcional) Haga clic en **Seleccionar principal** en el panel izquierdo y, a continuación, seleccione la tarea de plantilla en la plantilla de destino que desea que sea la principal de la tarea de plantilla desplazada.
 
    >[!TIP]
    >
@@ -321,7 +321,7 @@ Se abrirá el cuadro Mover tarea de plantilla.
    Seleccione un padre mediante una de las siguientes acciones:
 
    * En la lista de tareas de plantilla, seleccione uno de los elementos primarios del plan de plantilla.
-   * Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea de plantilla principal por su nombre.
+   * Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea de plantilla principal por nombre.
 
    La tarea de plantilla debe aparecer en la lista.
 
@@ -329,6 +329,6 @@ Se abrirá el cuadro Mover tarea de plantilla.
 
    Si no selecciona una tarea de plantilla principal, las tareas de plantilla se mueven como tareas de plantilla principales en lugar de subtareas y se colocan al final de la lista de tareas de plantilla en la plantilla de destino.
 
-1. Clic **Mover tarea de plantilla**.
+1. Haga clic en **Mover tarea de plantilla**.
 
    Las tareas de plantilla movidas ahora se encuentran en la plantilla especificada y son subtareas de la tarea de plantilla principal seleccionada o las últimas tareas de plantilla de la plantilla.

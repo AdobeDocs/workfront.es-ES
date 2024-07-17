@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 21 de septiembre de 2020.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Seleccione los campos de entrada al utilizar los módulos Workfront > Actualizar registro o Workfront > Crear registro
 
 Para ayudarle a utilizar los escenarios de Workfront con mayor facilidad, hemos incluido un nuevo tipo de campo. El campo &quot;Seleccionar campos para asignar&quot; permite elegir qué campos desea tener disponibles para modificar en un objeto determinado. Esto facilita la introducción de información o la resolución de problemas, ya que no tiene que desplazarse por tantos campos. Limitar los campos disponibles también evita problemas que se encontraban ocasionalmente cuando los objetos con muchos campos personalizados podían llegar a ser demasiado grandes para ejecutarse de forma eficaz.
 
-Para obtener más información, consulte [Módulos de Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información, consulte [módulos de Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Actualizaciones del módulo Workfront > Campos de inspección
 
@@ -37,4 +37,4 @@ Para facilitar la configuración del módulo Workfront > Ver campos, hemos actua
 
 También hemos incluido una corrección que garantiza que pueda utilizar campos asignados del objeto sin ejecutar primero el escenario una vez.
 
-Para obtener más información, consulte [Módulos de Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información, consulte [módulos de Adobe Workfront](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

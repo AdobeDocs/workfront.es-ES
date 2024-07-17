@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de análisis realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Descripción general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Análisis mejorado: aquí.
 
@@ -34,5 +34,5 @@ Puede centrarse en diferentes proyectos o reducir la cantidad de proyectos que e
 
 Además de las perspectivas que puede obtener, también puede completar acciones en tareas como actualizar el estado, solicitar una actualización, asignar la tarea a alguien, etc.: directamente desde el área de Análisis mejorado.
 
-Para obtener más información, consulte [Resumen de análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Para obtener más información, consulte [Descripción general del análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

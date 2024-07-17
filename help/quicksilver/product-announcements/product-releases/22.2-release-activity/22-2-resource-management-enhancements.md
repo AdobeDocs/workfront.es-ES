@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 4 de abril de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general de la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general sobre la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Mejoras en la navegación del Distribuidor de cargas de trabajo
 
@@ -37,7 +37,7 @@ Para mejorar su experiencia al utilizar el Distribuidor de cargas de trabajo, he
 * El panel izquierdo ahora también se puede cambiar de tamaño.
 * Ahora hay un modo de pantalla completa para el Distribuidor de cargas de trabajo.
 
-Para obtener más información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Acceso a asignaciones avanzadas en el Distribuidor de cargas de trabajo
 
@@ -49,11 +49,11 @@ Para obtener más información, consulte [Asignar trabajo manualmente mediante e
 
 Para proporcionar información más precisa en las herramientas de administración de recursos, hemos cambiado la fórmula que utiliza Workfront para calcular la disponibilidad del usuario cuando el administrador de Workfront selecciona El horario predeterminado en las preferencias de administración de recursos. Con la nueva actualización, Workfront utiliza la siguiente fórmula para calcular la disponibilidad del usuario:
 
-Horas disponibles del usuario = (Horas programadas predeterminadas - Excepciones) &#42; FTE - Horas libres
+Horas disponibles del usuario = (Horas programadas predeterminadas - Excepciones) &#42; FTE - Horas de descanso
 
 Antes de esta actualización, Workfront utilizaba la siguiente fórmula para calcular la disponibilidad del usuario cuando se seleccionaba El horario predeterminado:
 
-Horas disponibles del usuario = (Horas programadas predeterminadas - (Excepciones de horario + Horas libres)) &#42; Valor de FTE de usuario
+Horas disponibles del usuario = (Horas programadas predeterminadas - (Excepciones de horario + Horas libres)) &#42; Valor de FTE del usuario
 
-Para obtener más información, consulte [Configurar preferencias de administración de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Para obtener más información, consulte [Configurar las preferencias de administración de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

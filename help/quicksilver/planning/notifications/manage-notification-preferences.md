@@ -75,7 +75,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -84,15 +84,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Administrar preferencias de notificación
 
 1. Inicie sesión en Workfront con sus credenciales de Adobe Experience Cloud.
-1. Haga clic en **menú de cuenta** icono ![](assets/account-menu-icon-on-experience-cloud.png) en la parte superior derecha de la pantalla, haga clic en **Preferencias**.
-1. En el **Notificaciones** , haga clic en **Workfront**A continuación, siga los pasos del siguiente artículo para administrar las preferencias de notificación de Workfront Planning:
-   [Preferencias y notificaciones de cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. Haga clic en el icono **menú de cuenta** ![](assets/account-menu-icon-on-experience-cloud.png) en la parte superior derecha de la pantalla y, a continuación, haga clic en **Preferencias**.
+1. En la sección **Notificaciones**, haga clic en **Workfront** y, a continuación, siga los pasos que se indican en el artículo siguiente para administrar sus preferencias de notificación para Workfront Planning:
+   [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Para obtener más información sobre las notificaciones de Workfront Planning, consulte también los siguientes artículos:
 
-* Para obtener información sobre los comentarios en los registros, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Para obtener información sobre las notificaciones en la aplicación de Workfront Planning, consulte [Administración de notificaciones en la aplicación para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Para obtener información sobre las notificaciones por correo electrónico de Workfront Planning, consulte [Administrar notificaciones por correo electrónico para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* Para obtener información acerca de los comentarios en los registros, vea [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* Para obtener información sobre las notificaciones en la aplicación de Workfront Planning, consulte [Administrar notificaciones en la aplicación para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Para obtener información acerca de las notificaciones por correo electrónico de Workfront Planning, consulte [Administrar notificaciones por correo electrónico para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 
 

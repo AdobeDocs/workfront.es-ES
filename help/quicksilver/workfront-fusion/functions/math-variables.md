@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Variables matemáticas en [!DNL Adobe Workfront Fusion]
-description: Las siguientes variables matemáticas están disponibles en la variable [!DNL Adobe Workfront Fusion mapping] panel.
+title: Variables matemáticas en  [!DNL Adobe Workfront Fusion]
+description: Las siguientes variables matemáticas están disponibles en el panel  [!DNL Adobe Workfront Fusion mapping] .
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
@@ -38,7 +38,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>  
    <td> 
-   <p>Actual: No [!DNL Workfront Fusion] requisito de licencia.</p> 
+   <p>Actual: no se requiere licencia para [!DNL Workfront Fusion].</p> 
    <p>O</p> 
    <p>Heredado: cualquiera </p> 
    </td>  
@@ -46,9 +46,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">Product</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>[!UICONTROL Seleccionar] o [!UICONTROL Prime] [!DNL Workfront] Plan: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] está incluido.</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
    <p>O</p> 
-   <p>Actual: Su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -62,11 +62,11 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Representa el símbolo matemático $\pi$.
 
-## [!UICONTROL random]
+## [!UICONTROL aleatorio]
 
-Devuelve un número pseudoaleatorio de coma flotante del intervalo [`0`,`1`] (incluido de `0`, pero no `1`).
+Devuelve un número pseudoaleatorio de coma flotante en el intervalo [`0`,`1`] (que incluye `0`, pero no `1`).
 
-Utilice la siguiente fórmula para generar un número pseudoaleatorio entero en el rango [`min`,`max`] (incluido de ambos `min` y `max`):
+Utilice la siguiente fórmula para generar un número pseudoaleatorio entero en el rango [`min`,`max`] (incluidos `min` y `max`):
 
 ![](assets/math-variable-random-350x61.png)
 

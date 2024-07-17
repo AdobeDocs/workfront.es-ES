@@ -63,9 +63,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. Clic **Nueva plantilla de correo electrónico**.
+1. Haga clic en **Nueva plantilla de correo electrónico**.
 
-1. En el **Nueva plantilla de correo electrónico** , especifique la siguiente información:
+1. En el cuadro **Nueva plantilla de correo electrónico**, especifique la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Cuerpo </td> 
-      <td> <p>Añada el texto para el contenido del mensaje de correo electrónico.</p> <p>Puede utilizar el formato de HTML para el contenido del correo electrónico, tal como se describe en la sección <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Añadir el formato de HTML a una plantilla de correo electrónico</a> en este artículo.</p> </td> 
+      <td> <p>Añada el texto para el contenido del mensaje de correo electrónico.</p> <p>Puede utilizar el formato de HTML para el contenido del correo electrónico, tal como se describe en la sección <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Agregar formato de HTML a una plantilla de correo electrónico</a> en este artículo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,17 +107,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Añadir el formato de HTML a una plantilla de correo electrónico {#add-html-formatting-to-an-email-template}
 
 Puede añadir HTML a las plantillas de correo electrónico para generar notificaciones personalizadas.\
-Comience a crear la plantilla de correo electrónico como se describe en [Crear una nueva plantilla de correo electrónico](#create-a-new-email-template).
+Empiece a crear la plantilla de correo electrónico como se describe en [Crear una nueva plantilla de correo electrónico](#create-a-new-email-template).
 
 El formato de HTML puede enriquecer las plantillas de correo electrónico, como se muestra en las secciones siguientes.
 
 * [Vínculo a objetos de Workfront](#link-to-workfront-objects)
-* [Vínculo a campos personalizados con HTML](#link-to-custom-fields-with-html)
+* [Vínculo a campos personalizados con el HTML](#link-to-custom-fields-with-html)
 * [ejemplos de correo electrónico de HTML](#html-email-examples)
 
 ### Vínculo a objetos de Workfront {#link-to-workfront-objects}
 
-Puede incluir vínculos a campos de Workfront utilizando `$$` comodín para indicar al generador de correo electrónico que busque valores de la base de datos asociada a un objeto específico.
+Puede incluir vínculos a campos de Workfront utilizando el comodín `$$` para indicar al generador de correo electrónico que busque valores de la base de datos asociada a un objeto específico.
 
 Por ejemplo, el cuerpo del correo electrónico de una notificación que alerta al usuario asignado de la tarea que la tarea está a punto de iniciar puede seguir esta estructura:
 
@@ -145,13 +145,13 @@ Para obtener el valor &quot;comodín&quot; para un objeto, realice una de las si
 
 * Consulte el Explorador de API y seleccione los nombres de los objetos en la pestaña Campos de cualquier objeto. Para obtener más información sobre el Explorador de API, consulte [Explorador de API](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Utilice el `valuefield` valor que se encuentra dentro de una vista de modo de texto de un informe. Para obtener más información sobre los valores del modo de texto, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilice el valor `valuefield` que encuentre dentro de una vista de modo de texto de un informe. Para obtener más información acerca de los valores del modo de texto, vea [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-El `heading` puede ser el nombre del objeto, tal como desea que aparezca en el cuerpo del correo electrónico.
+El valor `heading` puede ser el nombre del objeto, tal como desea que aparezca en el cuerpo del correo electrónico.
 
 ### Vínculo a campos personalizados con HTML {#link-to-custom-fields-with-html}
 
-Puede incluir vínculos a usuarios y campos personalizados utilizando `$$` comodín para indicar al generador de correo electrónico que busque valores de la base de datos asociada al objeto. Deben estar presentes a ambos lados de la referencia de atributo de la base de datos.
+Puede incluir vínculos a usuarios y campos personalizados utilizando el comodín `$$` para indicar al generador de correo electrónico que busque valores de la base de datos asociada con el objeto. Deben estar presentes a ambos lados de la referencia de atributo de la base de datos.
 
 Por ejemplo, si agrega el siguiente texto como HTML, agregará el nombre del usuario asignado a la notificación de recordatorio asociada con una tarea:
 
@@ -163,7 +163,7 @@ Para agregar campos personalizados con el mismo formato, puede agregar lo siguie
 
 Por ejemplo, se trata de una plantilla de correo electrónico que incluye una referencia a un campo personalizado denominado Fecha de entrega y se supone que el campo Fecha de entrega pertenece a una tarea.
 
-Reemplazar `<your domain>` con el dominio Workfront de su empresa, sin los corchetes:
+Reemplace `<your domain>` con el dominio Workfront de su compañía, sin los corchetes:
 
 ```html
 <html>
@@ -206,7 +206,7 @@ Reemplazar `<your domain>` con el dominio Workfront de su empresa, sin los corch
 
 Para editar una plantilla de correo electrónico para un recordatorio de proyecto tardío, tenga en cuenta esta información para los campos Asunto y Contenido.
 
-Reemplazar `<your domain>` con el dominio Workfront de su empresa, sin los corchetes.
+Reemplace `<your domain>` con el dominio Workfront de su compañía, sin los corchetes.
 
 **Asunto:**
 
@@ -242,9 +242,9 @@ También es posible que desee crear una notificación de recordatorio para una t
 
 El siguiente código se puede incluir en una plantilla de correo electrónico para su uso para las notificaciones de recordatorio de tarea y problema que se envían cualquier número de días antes de la fecha de inicio planificada de la tarea o problema.
 
-Reemplazar `<your domain>` con el dominio Workfront de su empresa, sin los corchetes.
+Reemplace `<your domain>` con el dominio Workfront de su compañía, sin los corchetes.
 
-Para usar esto con un correo electrónico de problema, cambie el `/task/view.` valor en el vínculo del elemento de trabajo a `/issue/view`.
+Para usar esto en un correo electrónico sobre un problema, cambie el valor `/task/view.` del vínculo al elemento de trabajo a `/issue/view`.
 
 **Asunto:**
 
@@ -287,6 +287,6 @@ Para usar esto con un correo electrónico de problema, cambie el `/task/view.` v
 </html>
 ```
 
-![email_template_sent.png](assets/email-template-delivered.png)
+![email_template_deliver.png](assets/email-template-delivered.png)
 
-Una vez creada una plantilla de correo electrónico, los usuarios pueden asociarla con notificaciones de recordatorio, tal como se describe en [Configuración de notificaciones de recordatorio](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Una vez creada una plantilla de correo electrónico, los usuarios pueden asociarla con notificaciones de recordatorio, tal como se describe en [Configurar notificaciones de recordatorio](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

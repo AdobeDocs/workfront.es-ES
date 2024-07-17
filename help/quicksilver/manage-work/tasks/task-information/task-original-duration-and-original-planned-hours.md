@@ -2,60 +2,60 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Descripción general de la tarea Duración original y Horario planeado original
-description: Como parte de la planificación de un proyecto, debe determinar los valores de las horas planificadas y de la duración (o duración prevista) de cada tarea del proyecto.
+title: Información general sobre la duración original de la tarea y las horas planificadas originales
+description: Como parte de la planificación de un proyecto, debe determinar los valores de las horas planificadas y de la duración (o duración planificada) de cada tarea del proyecto.
 author: Alina
 feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '578'
 ht-degree: 1%
 
 ---
 
-# Descripción general de la tarea Duración original y Horario planeado original
+# Información general sobre la duración original de la tarea y las horas planificadas originales
 
-Como parte de la planificación de un proyecto, debe determinar los valores de las horas planificadas y de la duración (o duración prevista) de cada tarea del proyecto.
+Como parte de la planificación de un proyecto, debe determinar los valores de las horas planificadas y de la duración (o duración planificada) de cada tarea del proyecto.
 
-Para obtener más información sobre las horas planificadas en las tareas, consulte [Información general sobre las horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
+Para obtener más información sobre las horas planificadas en las tareas, consulte [Resumen de horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
 
-Para obtener más información sobre la duración de la tarea, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Para obtener más información acerca de la duración de la tarea, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-Puede ver estos valores en la pestaña Detalles de la tarea o durante la edición de una tarea.
+Puede ver estos valores en la pestaña Detalles de la tarea o mientras edita una tarea.
 
-Si crea una vista para una lista de tareas o un informe de tareas, también puede ver los campos Horario planeado original y Duración original para las tareas.
+Si genera una vista para una lista de tareas o un informe de tareas, también puede ver los campos Horas planificadas originales y Duración original de las tareas.
 
-## Trabajo original planificado
+## Horas planificadas originales
 
-Las horas planificadas originales de una tarea representan el número de horas planificadas que tenía una tarea originalmente antes de convertirse en una tarea principal. Cuando una tarea se convierte en una tarea principal, las horas planificadas de las tareas secundarias se acumulan en la tarea principal para indicar las horas planificadas del elemento principal.
+Las horas planificadas originales de una tarea representan el número de horas planificadas que una tarea tenía originalmente antes de convertirse en una tarea principal. Cuando una tarea se convierte en una tarea principal, las horas planificadas de las tareas secundarias se acumulan en la tarea principal para indicar las horas planificadas de la tarea principal.
 
-Al mostrar el campo Horario planeado original en un informe o lista de tareas, puede ver el número original de horas planeadas antes de que la tarea heredara el número de horas planeadas de sus hijos.
+Al mostrar el campo Horas planificadas originales en un informe de tareas o una lista, puede ver el número original de horas planificadas antes de que la tarea herede el número de horas planificadas de sus tareas secundarias.
 
 >[!NOTE]
 >
->Cuando crea una tarea, el número de horas planeadas originales es cero. Si la tarea se convierte en una tarea principal, el valor de este campo se rellena con el número de horas planificadas de la tarea antes de cambiarse a una tarea principal. Este valor se mantiene en este campo incluso cuando la tarea vuelve a ser una tarea independiente.
+>Al crear una tarea, el número de horas planificadas originales es cero. Si la tarea se convierte en una tarea principal, el valor de este campo se rellena con el número de horas planificadas de la tarea antes de que se cambie a una tarea principal. Este valor permanece en este campo incluso cuando la tarea vuelve a ser una tarea independiente.
 
 ## Duración original
 
-La duración original de una tarea es la duración que tenía una tarea originalmente antes de convertirse en una tarea principal, en minutos. Cuando una tarea pasa a ser una tarea principal, la duración entre la fecha de inicio planeada del elemento secundario más temprano y la fecha de finalización planeada del último elemento secundario se resume en la tarea principal y se convierte en la duración de la tarea principal. Esto reemplaza la Duración de la tarea original.
+La Duración original de una tarea es la Duración que una tarea tuvo originalmente antes de convertirse en una tarea principal, en minutos. Cuando una tarea se convierte en principal, la Duración entre la Fecha planificada de inicio del primer elemento secundario y la Fecha planificada de finalización del último elemento secundario se acumula en la tarea principal y se convierte en la Duración de la tarea principal. Esto reemplaza la duración de la tarea original.
 
-Al mostrar el campo Duración original en un informe o lista de tareas, puede ver el número original de días para la Duración de la tarea antes de que herede la Duración de sus elementos secundarios.
+Al mostrar el campo Duración original en un informe o lista de tareas, puede ver el número original de días de la Duración de la tarea antes de que herede la Duración de sus tareas secundarias.
 
 >[!NOTE]
 >
->Cuando crea una tarea, la Duración original es cero. Si la tarea se convierte en una tarea principal, el valor de este campo se rellena con la Duración de la tarea antes de cambiarse a una tarea principal. Este valor se mantiene en este campo incluso cuando la tarea vuelve a ser una tarea independiente. Este valor se muestra en minutos.
+>Cuando crea una tarea, la Duración original es cero. Si la tarea se convierte en una tarea principal, el valor de este campo se rellena con la Duración de la tarea antes de que se cambie a una tarea principal. Este valor permanece en este campo incluso cuando la tarea vuelve a ser una tarea independiente. Este valor se muestra en minutos.
 
 ## Ejemplo
 
-Por ejemplo, cuando dos tareas son tareas independientes, la duración original y las horas planeadas originales son cero.
+Por ejemplo, cuando dos tareas son tareas independientes, su Duración original y Horas planificadas originales son cero.
 
-![original_scheduled_hours_and_duration_without_parent.png](assets/original-planned-hours-and-duration-without-parent-350x38.png)
+![original_planned_hours_and_duration_without_parent.png](assets/original-planned-hours-and-duration-without-parent-350x38.png)
 
-Cuando la primera tarea pasa a ser la principal de la segunda tarea, los campos Duración original y Horario planeado original se rellenan con los valores de Duración y Horario planificado de la tarea antes de convertirse en la tarea principal. La Duración original se muestra en minutos. La duración y las horas previstas del niño se convierten en la duración y las horas previstas del progenitor.
+Cuando la primera tarea se convierte en la principal de la segunda tarea, los campos Duración original y Horas planificadas originales se rellenan con los valores de Duración y Horas planificadas de la tarea antes de que se convierta en principal. La duración original se muestra en minutos. La duración y las horas planificadas del hijo se convierten en la duración y las horas planificadas del padre.
 
-![original_and_scheduled_hours_with_a_parent_task.png](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
+![original_and_planned_hours_with_a_parent_task.png](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
 
-Cuando el elemento principal vuelve a ser una tarea independiente, la duración y las horas planificadas vuelven a los valores originales, mientras que la duración original y las horas planificadas originales siguen rellenadas. No vuelven a cero.
+Cuando el principal vuelve a ser una tarea independiente, las horas planificadas y de duración vuelven a los valores originales, mientras que las horas planificadas originales y de duración original permanecen rellenadas. No vuelven a cero.
 
-![original_duration_and_scheduled_hours_after_reversal_of_a_parent.png](assets/original-duration-and-planned-hours-after-reversal-of-a-parent-350x39.png)
+![duración_original_y_horas_planificadas_después_de_la_reversión_de_un_padre.png](assets/original-duration-and-planned-hours-after-reversal-of-a-parent-350x39.png)

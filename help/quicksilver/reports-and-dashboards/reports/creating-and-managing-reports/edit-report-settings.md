@@ -35,26 +35,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Pasos a seguir
 
-1. Comience a crear un informe accediendo a la **Menú principal** > **Informes**, luego seleccione el objeto del informe.
+1. Comience a crear un informe yendo al **menú principal** > **Informes**, y luego seleccione el objeto del informe.
 
    O
 
-   Abra un informe existente y haga clic en **Acciones de informe** > **Editar**.
+   Abra un informe existente y luego haga clic en **Acciones de informe** > **Editar**.
 
-1. Clic **Configuración de informes** en la esquina superior derecha de report builder.
+1. Haga clic en **Configuración de informes** en la esquina superior derecha de Report Builder.
 1. Configure las siguientes opciones del informe:
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Ejecutar este informe con los derechos de acceso de</td> 
-      <td>Seleccione el usuario cuyos derechos de acceso desea que utilice este informe cuando se muestre a otros usuarios. Para obtener más información sobre cómo ejecutar un informe con los derechos de acceso de otro usuario, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y entregar un informe con los derechos de acceso de otro usuario</a>.</td> 
+      <td>Seleccione el usuario cuyos derechos de acceso desea que utilice este informe cuando se muestre a otros usuarios. Para obtener más información acerca de cómo ejecutar un informe con los derechos de acceso de otro usuario, vea el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y entregar un informe con los derechos de acceso de otro usuario</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cuando se cargue el informe, mostrar</td> 
@@ -95,7 +95,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar este informe en una vista Gantt de forma predeterminada</td> 
-      <td>(Solo informe de proyecto e informe de tareas) Seleccione esta opción para que la vista Gantt se active automáticamente cuando los usuarios vean la ficha Detalles en este informe.<br>Para obtener más información sobre la visualización del gráfico Gantt en los informes de proyecto y de tarea, consulte la sección "Visualización de información de tarea en la lista de proyectos del gráfico Gantt" en el artículo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Ver información en el gráfico Gantt </a>.</td> 
+      <td>(Solo informe de proyecto e informe de tareas) Seleccione esta opción para que la vista Gantt se active automáticamente cuando los usuarios vean la ficha Detalles en este informe.<br>Para obtener más información acerca de cómo ver el gráfico Gantt en los informes de proyectos y tareas, vea la sección "Ver información de tareas en la lista de proyectos del gráfico Gantt" en el artículo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Ver información en el gráfico Gantt </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir cambiar la vista en el informe</td> 
@@ -112,16 +112,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. Clic **Indicadores de informe** para configurar cualquier solicitud de informe.\
-   Para obtener más información sobre cómo agregar indicadores a un informe, vea el artículo [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. Haga clic en **Indicadores de informe** para configurar cualquier solicitud del informe.\
+   Para obtener más información acerca de cómo agregar peticiones de datos a un informe, vea el artículo [Agregar una petición de datos a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Clic **Listo,** luego haga clic en **Guardar + Cerrar**.
+1. Haz clic en **Listo,** y luego haz clic en **Guardar + Cerrar**.
 
-## Información adicional
+## Más información
 
 Consulte también:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Introducción a los informes](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Uso de informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Usar informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

@@ -21,7 +21,7 @@ Cuando comparta los informes con otros usuarios de Adobe Workfront, considere la
 
 Puede personalizar la pestaña Detalles de los informes añadiendo formato especial o condicional a la vista de los informes.
 
-Para obtener más información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información acerca de la creación de informes, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Al aplicar formato condicional a las columnas en la vista del informe, puede configurar reglas que afecten a la forma en que se muestra el informe. Cuando se cumplen esas condiciones o reglas, se aplica el formato especial.
 
@@ -62,16 +62,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar una vista de un informe</p> <p><b>NOTA</b></p> <p>Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar una vista de un informe</p> <p><b>NOTA</b></p> <p>Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos de un informe para crear o editar una vista de un informe</p> <p>Administración de permisos en una vista</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe para crear o editar una vista de un informe</p> <p>Administración de permisos en una vista</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 +++
 
@@ -79,7 +79,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Debe crear un informe antes de agregar formato condicional a su vista.
 
-Para obtener información sobre cómo crear un informe, consulte [Creación de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Para obtener información sobre cómo crear un informe, consulte [Crear un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Creación de una vista con formato condicional
 
@@ -89,13 +89,13 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
 
    O
 
-   Clic **Nuevo informe**, luego seleccione un tipo de objeto para generar un nuevo informe.
+   Haga clic en **Nuevo informe** y, a continuación, seleccione un tipo de objeto para generar un nuevo informe.
 
-1. (Condicional) Si edita un informe existente, haga clic en **Acciones de informe**, luego haga clic en **Editar**.
+1. (Condicional) Si edita un informe existente, haga clic en **Acciones de informe** y luego haga clic en **Editar**.
 
-1. En el **Columnas (vista)** , haga clic en para seleccionar una columna existente o haga clic en **Agregar columna** para crear una columna.
-1. En el **Mostrar en esta columna** en la esquina superior izquierda de report builder, seleccione el campo que desee mostrar en la nueva columna.
-1. Clic **Opciones avanzadas**.
+1. En la ficha **Columnas (Ver)**, haga clic para seleccionar una columna existente o haga clic en **Agregar columna** para crear una columna.
+1. En el campo **Mostrar en esta columna** de la esquina superior izquierda de Report Builder, seleccione el campo que desee mostrar en la nueva columna.
+1. Haga clic en **Opciones avanzadas**.
 
 1. Especifique la siguiente información:
 
@@ -112,7 +112,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
       <td>Elija el formato en el que se muestra el valor de la columna. En función del campo de columna, permite establecer cómo se muestran las fechas, los números o la moneda. No todas las columnas muestran esta opción.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Mostrar esta columna en panel</strong></td> 
+      <td role="rowheader"><strong>Mostrar esta columna en panel de control</strong></td> 
       <td>Seleccione este campo si desea que la columna se muestre cuando el informe se coloque en un panel. La columna siempre se muestra cuando se mira el informe fuera de un panel.</td> 
      </tr> 
     </tbody> 
@@ -126,10 +126,10 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
    </note>
    -->
 
-1. En el **Cuando el:** , establezca una instrucción condition para la columna.
+1. En la sección **When the:**, establezca una instrucción condition para la columna.
 
    Por ejemplo: &quot;cuando el porcentaje completado de la tarea es igual a (distingue mayúsculas de minúsculas) 50&quot;.
-1. En el **Mostrar el campo de esta manera:** especifique el aspecto de este campo cuando se cumple la condición definida arriba.
+1. En la sección **Mostrar el campo de esta manera:**, especifique el aspecto de este campo cuando se cumpla la condición definida arriba.
 
    Especifique la siguiente información:
 
@@ -159,7 +159,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar texto</strong></td> 
-      <td> <p>Seleccione esta opción para mostrar una etiqueta personalizada para esta columna, en lugar de su valor real. Especifique el texto que se va a mostrar en lugar del valor en el campo proporcionado.</p> <p><b>IMPORTANTE</b></p> <p>Seleccionar <strong>Mostrar texto</strong> deshabilita la capacidad de editar en línea el texto de esta columna.<br>Además, no se puede cambiar el valor de una columna Predecesora porque contiene lógica integrada.</p> </td> 
+      <td> <p>Seleccione esta opción para mostrar una etiqueta personalizada para esta columna, en lugar de su valor real. Especifique el texto que se va a mostrar en lugar del valor en el campo proporcionado.</p> <p><b>IMPORTANTE</b></p> <p>Si se selecciona <strong>Mostrar texto</strong>, se deshabilita la capacidad de editar en línea el texto de esta columna.<br>Tampoco puede cambiar el valor de una columna Predecesora porque contiene lógica integrada.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aplicar a toda la fila</strong></td> 
@@ -168,7 +168,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
     </tbody> 
    </table>
 
-1. Clic **Agregar regla**.\
+1. Haga clic en **Agregar regla**.\
    Puede agregar reglas adicionales a la misma columna o a otras columnas.
 
    Las reglas se aplican en el orden en que se crearon. Se combinan pero no se sobrescriben entre sí, aunque una regla de columna tiene prioridad sobre una regla de fila en la misma celda.
@@ -189,6 +189,6 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
    * Vuelva a agregar la regla de columna para el fondo rojo en los proyectos posteriores.
    * Al guardar las reglas y la vista, el fondo rojo no se aplica a un proyecto cancelado.
 
-1. Clic **Listo**.
+1. Haga clic en **Listo**.
 1. Haga clic en **Guardar + Cerrar**.\
    En el informe, los usuarios ven cambios en el formato si se cumplen las condiciones especificadas.

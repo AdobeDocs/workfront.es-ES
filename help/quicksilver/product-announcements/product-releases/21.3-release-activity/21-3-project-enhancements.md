@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Project realizadas con la versión 21.3 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción en la semana del 21 de julio de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.3, consulte [Resumen de la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.3, consulte [Información general sobre la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Asociar una plantilla a un grupo
 
@@ -29,7 +29,7 @@ Para ayudarle a optimizar el proceso de creación de proyectos y para ayudarle a
 
 Al asignar un grupo a una plantilla de proyecto, todos los proyectos creados a partir de la plantilla se asocian automáticamente al grupo de la plantilla. Para obtener más información, consulte [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-Además, puede adjuntar un proceso de aprobación de grupo a una plantilla y a sus tareas de plantilla si la plantilla está asociada a su grupo. Para obtener más información, consulte [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Además, puede adjuntar un proceso de aprobación de grupo a una plantilla y a sus tareas de plantilla si la plantilla está asociada a su grupo. Para obtener más información, vea [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Edición más sencilla de campos en la sección Detalles
 
@@ -52,7 +52,7 @@ Anteriormente, las fechas de entrega se calculaban únicamente en función de la
 
 Ahora, para asegurarse de que siempre tiene una fecha de transferencia precisa para una tarea con una predecesora entre proyectos, debe volver a calcular la escala de tiempo del proyecto de la tarea sucesora. Después de volver a calcular la escala de tiempo, las fechas de transferencia de la tarea se calculan teniendo en cuenta las dependencias entre proyectos de las tareas.
 
-Para obtener más información sobre las fechas de entrega, consulte [Resumen de fecha de transferencia de tareas](../../../manage-work/tasks/task-information/handoff-task-date.md).
+Para obtener más información sobre las fechas de entrega, consulte [Resumen de la fecha de entrega de la tarea](../../../manage-work/tasks/task-information/handoff-task-date.md).
 
 ## Agregar historias y problemas existentes del panel de exploración
 
@@ -97,7 +97,7 @@ En los paneles Kanban y Scrum, ya están disponibles las siguientes mejoras:
 * Cada tarjeta tiene una etiqueta en la parte superior para identificarla como artículo principal, subtarea (asociada a un artículo principal), artículo (no asociado a un artículo principal) o problema.
 * El sombreado de fondo separa visualmente las columnas.
 
-Para obtener más información, consulte [Resumen de iteraciones](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
+Para obtener más información, vea [Resumen de iteraciones](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
 
 ## Agrupar preferencias de proyectos, tareas y problemas
 
@@ -105,7 +105,7 @@ Como comunicamos anteriormente, implementamos personalizaciones de nivel de grup
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+* [Configurar preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
 * [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 ## Permitir que los usuarios externos aprueben un documento
@@ -132,7 +132,7 @@ Para obtener más información, consulte [Solicitar aprobaciones de documentos](
 
 Ahora puede exportar a un archivo .pdf información desde la sección Detalles de portafolios y programas. Antes de esta mejora, podía exportar información desde la sección Detalles solo desde proyectos, tareas y problemas.
 
-Para obtener información sobre la exportación de formularios personalizados desde un objeto, consulte [Exportar formularios personalizados y detalles del objeto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+Para obtener información sobre cómo exportar formularios personalizados desde un objeto, consulte [Exportar formularios personalizados y detalles del objeto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 ## Se ha agregado la marca de fecha planificada de finalización en la cabecera del objeto
 
@@ -156,5 +156,5 @@ Hemos facilitado la adición de un formulario personalizado que otra persona rel
 
 Anteriormente, cuando se agregaba un formulario personalizado a un objeto, la página entraba en modo de edición y era necesario completar los campos obligatorios en el formulario para poder guardarlo en el objeto. Esto resultaba incómodo cuando el formulario estaba pensado para que lo rellenara otro usuario o cuando aún no sabía qué colocar en un campo obligatorio del formulario.
 
-Para obtener información sobre cómo agregar un formulario personalizado a un objeto, consulte [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Para obtener información acerca de cómo agregar un formulario personalizado a un objeto, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

@@ -12,8 +12,8 @@ role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 11%
+source-wordcount: '1883'
+ht-degree: 10%
 
 ---
 
@@ -36,14 +36,14 @@ Solo los usuarios con una licencia de planificación pueden obtener acceso compl
 | Eliminar | ✓&#42; |   |   |   |   |
 | Compartir | ✓&#42; | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Agregar un formulario personalizado | ✓ |   |   |   |   |
 | Actualizar campos personalizados | ✓ | ✓ |   |   |   |
 | Agregar un proceso de aprobación | ✓ |   |   |   |   |
 | Aprobación de un proyecto | ✓ | ✓ | ✓ |   |   |
-| Agregar documento | ✓ | ✓ | ✓ |   |   |
+| Añadir documento | ✓ | ✓ | ✓ |   |   |
 | Agregar problema | ✓ | ✓ |   |   |   |
-| Añadir  tareas | ✓ | ✓ |   |   |   |
+| Añadir tareas | ✓ | ✓ |   |   |   |
 | Proporcionar actualizaciones/comentarios | ✓ | ✓ | ✓ |   |   |
 | Cambiar estado | ✓ |   |   |   |   |
 | Registrar horas | ✓ | ✓ |   |   |   |
@@ -63,7 +63,7 @@ Solo los usuarios con una licencia de planificación pueden obtener acceso compl
 
 
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Tareas
 
@@ -73,9 +73,9 @@ Solo los usuarios con una licencia de planificación pueden obtener acceso compl
 | Eliminar | ✓&#42; | ✓&#42; |   |   |   |
 | Compartir | ✓&#42; | ✓&#42; |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Agregar predecesoras | ✓ | ✓ |   |   |   |
-| Añadir  problemas | ✓ | ✓ |   |   |   |
+| Añadir problemas | ✓ | ✓ |   |   |   |
 | Editar una tarea (excluido el estado) | ✓ | ✓ |   |   |   |
 | Cambiar estado de tarea | ✓ | ✓ |   |   |   |
 | Agregar documentos | ✓ | ✓ | ✓ |   |   |
@@ -95,7 +95,7 @@ Solo los usuarios con una licencia de planificación pueden obtener acceso compl
 
 {style="table-layout:auto"}
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Problemas
 
@@ -106,7 +106,7 @@ Solo los usuarios con una licencia de planificación pueden obtener acceso compl
 | Eliminar | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Adjuntar formularios personalizados | ✓ | ✓ | ✓ | ✓ |   |
 | Editar campos personalizados | ✓ | ✓ | ✓ | ✓ |   |
 | Aprobar problemas | ✓ | ✓ | ✓ | ✓ |   |
@@ -115,15 +115,15 @@ Solo los usuarios con una licencia de planificación pueden obtener acceso compl
 | Copiar problemas | ✓ | ✓ | ✓ | ✓ |   |
 | Mover problemas | ✓ | ✓ | ✓ | ✓ |   |
 | Registrar horas | ✓ | ✓ |   |   |   |
-| Conversión de un problema en un proyecto | ✓ | ✓ |   |   |   |
+| Convertir un problema en un proyecto | ✓ | ✓ |   |   |   |
 | Convertir un problema en una tarea | ✓ |   |   |   |   |
 | Aceptar asignaciones | ✓ | ✓ |   |   |   |
-| Realización de asignaciones | ✓ | ✓ |   |   |   |
+| Hacer asignaciones | ✓ | ✓ |   |   |   |
 | Agregar actualizaciones y comentarios | ✓ | ✓ | ✓ | ✓ |   |
 
 
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Portafolios
 
@@ -135,7 +135,7 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 | Eliminar | ✓&#42; |   |   |   |   |
 | Compartir | ✓&#42; |   |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Editar detalles | ✓ |   |   |   |   |
 | Adjuntar formularios personalizados | ✓ |   |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |   |
@@ -147,7 +147,7 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Programas
 
@@ -159,7 +159,7 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 | Eliminar | ✓&#42; |   |   |   |   |
 | Compartir | ✓&#42; |   |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Editar detalles | ✓ |   |   |   |   |
 | Adjuntar formularios personalizados | ✓ |   |   |   |   |
 | Editar campos personalizados | ✓ |   |   |   |   |
@@ -171,7 +171,7 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Informes, tableros y calendarios
 
@@ -185,13 +185,13 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 | Compartir | ✓&#42; | ✓ | ✓ |   |   |
 | Compartir calendarios e informes públicamente | ✓&#42; |   |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Editar | ✓ |   |   |   |   |
 | Copiar | ✓ |   |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 >[!NOTE]
 >
@@ -256,7 +256,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Vista</td> 
+   <td>Ver</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -274,7 +274,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
  </tbody> 
 </table>
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Documentos
 
@@ -285,7 +285,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 | Compartir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Compartir públicamente (externamente) | ✓&#42; |   |   |   |   |
 | Compartir en todo el sistema | ✓&#42; | ✓&#42; |   |   |   |
-| Vista | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Editar detalles | ✓ | ✓ | ✓ | ✓ |   |
 | Descargar | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Finalizar compra | ✓ | ✓ | ✓ | ✓ |   |
@@ -299,7 +299,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 | Cargar nueva versión | ✓ | ✓ | ✓ | ✓ |   |
 | Eliminar una versión | ✓ | ✓ | ✓ | ✓ |   |
 | Vista previa | ✓ | ✓ | ✓ | ✓ | ✓ |
-|  Proof | ✓ | ✓ | ✓ | ✓ |   |
+| Revisión | ✓ | ✓ | ✓ | ✓ |   |
 | Generar revisión | ✓ | ✓ |   |   |   |
 | Eliminar revisión | ✓ | ✓ | ✓ | ✓ |   |
 | Agregar/Quitar&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
@@ -309,7 +309,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 
 {style="table-layout:auto"}
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Disponible sólo para carpetas de documentos, no para documentos
 
@@ -390,7 +390,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
  </tbody> 
 </table>
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Los usuarios externos solo pueden buscar otros usuarios
 
@@ -465,7 +465,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
  </tbody> 
 </table>
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Plantillas
 
@@ -475,13 +475,13 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 | Eliminar | ✓&#42; |   |   |   |   |
 | Compartir | ✓&#42; |   |   |   |   |
 | Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Vista | ✓&#42; |   |   |   |   |
+| Ver | ✓&#42; |   |   |   |   |
 | Copiar | ✓ |   |   |   |   |
 | Editar detalles de plantilla | ✓ |   |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Datos financieros
 
@@ -498,16 +498,16 @@ Los tipos de licencia de solicitud y usuario externo no se incluyen aquí porque
 | Administrar registros de facturación | ✓ |   |   |
 | Administrar gastos | ✓ | ✓ |   |
 | Ver datos financieros | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Administrar tarjetas de tarifa</span> | ✓ |   |   |
+| <span class="preview">Administrar tarjetas de tarifas</span> | ✓ |   |   |
 | Ver información por costo en las herramientas de planificación de recursos | ✓ |   |   |
 | Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |
-| Ver la asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ | ✓ |
+| Ver asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ | ✓ |
 | Crear riesgos en los proyectos | ✓ |   |   |
 | Ver riesgos en los proyectos | ✓ | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 &#42;&#42;Requiere acceso adicional a Administración de recursos.
 
@@ -528,22 +528,22 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 {style="table-layout:auto"}
 
-&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad. Para obtener más información, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Requiere acceso adicional a datos financieros y permisos para las finanzas del proyecto. Si concede acceso a Administración de recursos a un usuario de Planificador que no tiene acceso a Datos financieros, el usuario puede seguir viendo las asignaciones por hora en el Planificador de recursos, pero no puede cambiar a la vista de costo ni ver el caso comercial. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requiere acceso adicional a datos financieros y permisos para las finanzas del proyecto. Si concede acceso a Administración de recursos a un usuario de Planificador que no tiene acceso a Datos financieros, el usuario puede seguir viendo las asignaciones por hora en el Planificador de recursos, pero no puede cambiar a la vista de costo ni ver el caso comercial. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Requiere permiso para contribuir al objeto, con la opción Asignar asignaciones habilitada en Configuración avanzada. Para obtener más información, consulte la sección [Comprender los permisos heredados y la jerarquía de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Requiere permiso para Contribute en el objeto, con la opción Realizar asignaciones habilitada en Configuración avanzada. Para obtener más información, consulte la sección [Comprender los permisos heredados y la jerarquía de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Área del planificador de escenarios
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
 | Crear/editar planes e iniciativas existentes | ✓ | ✓ | ✓ |   |   |
-| Adición o edición de información sobre funciones en planes e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
-| Agregar o editar información de costos sobre planes e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
+| Agregar o editar información de rol en planes e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
+| Agregar o editar información de costos en planes e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
 | Eliminar planes e iniciativas | ✓ | ✓ | ✓ |   |   |
 | Ver escenarios en el menú principal ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
-| Ver los planes e iniciativas que ha creado el usuario&#42; | ✓ | ✓ | ✓ |   |   |
+| Ver los planes e iniciativas que creó el usuario&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -551,11 +551,11 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 >
 >Los usuarios pueden ver un plan que otro usuario haya creado solamente si se comparte con ellos un vínculo al plan.
 
-&#42; Para que los usuarios puedan ver los datos financieros en un plan o iniciativa, necesitan tener acceso a los Datos financieros. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Para que los usuarios vean los datos financieros en un plan o iniciativa, necesitan acceso a los Datos financieros. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Área Objetivos de Workfront
 
-| Acciones | Vista | Editar |
+| Acciones | Ver | Editar |
 |---|---|---|
 | Crear |   | ✓ |
 | Editar/eliminar todas las metas |   | ✓ |

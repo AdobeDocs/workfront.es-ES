@@ -2,7 +2,7 @@
 content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
-title: Crear y administrar paneles
+title: Crear y administrar paneles de control
 description: Lea estos artículos para aprender a crear paneles en Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
@@ -15,14 +15,14 @@ ht-degree: 10%
 
 ---
 
-# Crear y administrar paneles
+# Crear y administrar paneles de control
 
 Esta sección contiene los siguientes artículos:
 
 * [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 * [Agregar un informe a un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 * [Copiar un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
-* [Edición de un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
+* [Editar un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
 * [Eliminar un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
 * [Imprimir un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
 * [Exportar un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)

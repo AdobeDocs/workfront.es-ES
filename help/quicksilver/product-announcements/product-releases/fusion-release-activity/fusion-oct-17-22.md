@@ -27,4 +27,4 @@ Anteriormente, la carga de archivos en este módulo estaba limitada a 5 MB.
 
 Para obtener más información sobre los módulos de Bibliotecas Adobe Creative Cloud, consulte [Módulos de bibliotecas Adobe Creative Cloud](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
-Para obtener información sobre otras protecciones de rendimiento de Workfront Fusion, incluidos los límites de tamaño de archivo, consulte [Protecciones de rendimiento de Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+Para obtener información sobre otras protecciones de rendimiento de Workfront Fusion, incluidos los límites de tamaño de archivo, consulte [protecciones de rendimiento de Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).

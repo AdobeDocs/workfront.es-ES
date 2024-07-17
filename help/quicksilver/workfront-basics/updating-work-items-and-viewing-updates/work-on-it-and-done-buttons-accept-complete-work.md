@@ -31,9 +31,9 @@ Según el área de Workfront desde la que acceda a la tarea o al problema, el bo
 
   >[!TIP]
   >
-  >Puede reemplazar el botón Trabajar en ello por un botón Iniciar. Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar, consulte  [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >Puede reemplazar el botón Trabajar en ello por un botón Iniciar. Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar, consulte [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* Después de hacer clic en Trabajar en ello para aceptar, el botón cambia a Marcar como listo o Listo , según desde dónde acceda a la tarea o al problema en Workfront. Para obtener información sobre dónde puede acceder al botón Trabajar en ello, consulte la sección [Busque el botón Trabajar en ello y Listo](#locate-the-work-on-it-and-done-button) en este artículo.
+* Después de hacer clic en Trabajar en ello para aceptar, el botón cambia a Marcar como listo o Listo , según desde dónde acceda a la tarea o al problema en Workfront. Para obtener información sobre dónde puede obtener acceso al botón Trabajar en ello, vea la sección [Busque el botón Trabajar en ello y Listo](#locate-the-work-on-it-and-done-button) en este artículo.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -47,22 +47,22 @@ Puede localizar el botón Trabajar en ello y Listo en las siguientes áreas de W
 
 * El área de Inicio, tanto en la Lista de trabajos como en el panel de detalles
 
-  Para obtener información sobre cómo marcar un elemento como Listo en el área de Inicio, consulte [Marcar un elemento como Listo en el área de Inicio](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Para obtener información sobre cómo marcar un elemento como Listo en el área de Inicio, vea [Marcar un elemento como Listo en el área de Inicio](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * En el encabezado de la tarea o el problema
 
-  Para obtener información sobre los encabezados de objeto, consulte [Nuevos encabezados de objeto](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Para obtener información acerca de los encabezados de objeto, vea [Nuevos encabezados de objeto](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * En el panel Resumen de tareas o problemas de una lista o en el Distribuidor de cargas de trabajo
 
-  Para obtener información sobre el uso del panel Resumen, consulte [Resumen, descripción general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Para obtener información sobre el uso del Panel de resumen, consulte [Resumen general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Información general sobre los campos que se actualizan automáticamente al hacer clic en el botón Trabajar en ello y Listo
 
 La ventaja de utilizar los botones Trabajar en ello y Listo es que puede permitir que Workfront actualice automáticamente la información sobre el elemento de trabajo que tiene asignado.
 
 * [Botón Trabajar en ello](#work-on-it-button)
-* [Botón Inicio](#start-button)
+* [Botón de inicio](#start-button)
 * [Botón Listo](#the-done-button)
 
 ### Botón Trabajar en ello {#work-on-it-button}
@@ -73,11 +73,11 @@ Al hacer clic en Trabajar en ello, también se actualizan los siguientes element
 
   >[!TIP]
   >
-  >El campo Estado de asignación sólo está visible en informes y listas. Para obtener información sobre el campo Estado de asignación, consulte la [Glosario de terminología de Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >El campo Estado de asignación sólo está visible en informes y listas. Para obtener información acerca del campo Estado de asignación, consulte el [Glosario de terminología de Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Fecha de confirmación
 
-  Para obtener información sobre la fecha de compromiso, consulte [Resumen de fecha de confirmación](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Para obtener información sobre la fecha de confirmación, consulte [Resumen de la fecha de confirmación](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### Botón Inicio {#start-button}
 
@@ -88,11 +88,11 @@ Además de los campos que se actualizan al hacer clic en el botón Trabajar en e
 * Estado
 * Fecha real de inicio
 
-  Para obtener información sobre la fecha real de inicio, consulte [Descripción general de la fecha real de inicio del proyecto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Para obtener información sobre la fecha real de inicio, vea [Información general sobre la fecha real de inicio del proyecto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 * Fecha real de finalización si el botón Inicio está asociado con un estado que equivale a Completado o Cerrado.
 
-  Para obtener información acerca de la fecha real de finalización, consulte [Descripción general del proyecto Fecha real de finalización](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+  Para obtener información acerca de la fecha real de finalización, vea [Información general sobre la fecha real de finalización del proyecto](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 >[!NOTE]
 >

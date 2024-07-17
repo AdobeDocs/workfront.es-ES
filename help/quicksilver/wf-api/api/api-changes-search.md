@@ -10,8 +10,8 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
@@ -51,9 +51,9 @@ Para Estado De Grupo De Problemas:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Los tres extremos aceptan el **includeHidden=true** para recuperar los estados ocultos de proyecto, tarea o problema de un grupo determinado. Modelar las consultas de búsqueda de estado después de estos ejemplos de prácticas recomendadas garantizará que toda la información de estado del grupo se incluya en cada respuesta.
+Los tres extremos aceptan el parámetro **includeHidden=true** para recuperar los estados ocultos de proyecto, tarea o problema de un grupo determinado. Modelar las consultas de búsqueda de estado después de estos ejemplos de prácticas recomendadas garantizará que toda la información de estado del grupo se incluya en cada respuesta.
 
-A continuación se muestra un ejemplo de una consulta de búsqueda de estado realizada a un grupo de tareas que incluye un estado bloqueado de nivel de sistema **Custom_1** y un estado desbloqueado **Personalizado_2**:
+Este es un ejemplo de una consulta de búsqueda de estado que se está realizando en un grupo de tareas que incluye un estado bloqueado de nivel de sistema **Custom_1** y un estado desbloqueado **Custom_2**:
 
 >**Ejemplo:**
 

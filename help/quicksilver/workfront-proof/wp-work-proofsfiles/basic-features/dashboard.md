@@ -3,15 +3,15 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
-title: El panel de [!DNL Workfront Proof]
-description: El tablero es la primera página que ve cuando inicia sesión en su [!DNL Workfront Proof] cuenta. Resume la actividad en su [!DNL Workfront Proof] proporciona vínculos rápidos a otras secciones y funciones dentro de [!DNL Workfront Proof].
+title: El panel en  [!DNL Workfront Proof]
+description: El panel es la primera página que ves cuando inicias sesión en tu cuenta de  [!DNL Workfront Proof] . Resume la actividad de tu cuenta de  [!DNL Workfront Proof] y proporciona vínculos rápidos a otras secciones y funciones dentro de [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 2%
+source-wordcount: '973'
+ht-degree: 3%
 
 ---
 
@@ -19,64 +19,64 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-El tablero es la primera página que ve cuando inicia sesión en su [!DNL Workfront Proof] cuenta. Resume la actividad en su [!DNL Workfront Proof] proporciona vínculos rápidos a otras secciones y funciones dentro de [!DNL Workfront Proof].
+El panel es la primera página que ve al iniciar sesión en su cuenta de [!DNL Workfront Proof]. Resume la actividad de su cuenta de [!DNL Workfront Proof] y proporciona vínculos rápidos a otras secciones y funciones dentro de [!DNL Workfront Proof].
 
 El tablero contiene lo siguiente:
 
 * Logotipo de la organización (1)
 * Navegación superior (2)
-* Búsqueda (3)
+* Buscar (3)
 
-* Menú Encabezado (4)
+* Menú de cabecera (4)
 * Nuevo menú (5)
 * Barra lateral (6)
 * Sección de bienvenida (7)
 * Información general (8)
-* Elementos a los que se ha accedido recientemente (9)
+* Artículos a los que se accede recientemente (9)
 * Actividad reciente (10)
 
 >[!NOTE]
 >
->Los menús y vínculos que puede ver y utilizar en el panel dependerán del perfil de usuario y los permisos.
+>Los menús y vínculos que puede ver y utilizar en el panel dependerán del perfil de usuario y de los permisos.
 
 ![](assets/dashboard-350x495.png)
 
-Puede marcar su cuenta para mostrar el logotipo, los colores, los vínculos personalizados y mucho más de su propia organización. Para obtener más información, consulte [Marca la variable [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
+Puede personalizar la marca de su cuenta para mostrar el logotipo de su propia organización, los colores, los vínculos personalizados y mucho más. Para obtener más información, vea [Marcar el [!DNL Workfront Proof] sitio](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)&quot;.
 
-Si no marca su cuenta, la variable [!DNL Workfront Proof] aparecen el logotipo y los colores estándar.
+Si no marca su cuenta, aparecerán el logotipo de [!DNL Workfront Proof] y los colores estándar.
 
-## Menú Encabezado
+## Menú del encabezado
 
 ![](assets/header-menu-350x150.png)
 
 ### El nombre de usuario
 
-El nombre de usuario (2) que ha elegido aparecerá aquí. Se puede cambiar en Ajustes personales.
+El nombre de usuario (2) que ha elegido aparecerá aquí. Se puede cambiar en la configuración personal.
 
 ### Configuración
 
-Aquí (3) puede acceder a:
+Aquí (3) puede acceder a su:
 
-* Ajustes personales
-* Configuración de la cuenta
+* Configuración personal
+* Configuración de cuenta
 * Facturación
 
 >[!NOTE]
 >
->La visibilidad de los menús anteriores depende de su perfil. Consulte Perfiles de usuario y permisos para obtener más información.
+>La visibilidad de los menús anteriores depende de su perfil de. Consulte Perfiles de usuario y permisos para obtener más información.
 
 ### Ayuda
 
 Aquí (4) puede acceder a:
 
 * Artículos de ayuda
-* Demostración de películas
+* Películas de demostración
 
 >[!NOTE]
 >
->Con nuestros planes Select and Premium, puede configurar las opciones de Ayuda para que los usuarios apunten a su propio contenido. Consulte nuestras opciones avanzadas de promoción de la marca para obtener más información.
+>Con nuestros planes Select y Premium puede configurar las opciones de Ayuda para que sus usuarios apunten a su propio contenido. Consulte nuestras Opciones avanzadas de promoción de la marca para obtener más información.
 
 ### Cerrar sesión
 
@@ -84,22 +84,22 @@ Haga clic aquí para cerrar la sesión de su cuenta.
 
 ## El nuevo menú
 
-Para abrir el menú Nuevo ,
+Para abrir el menú Nuevo,
 
 1. Haga clic en la flecha desplegable (7).
 
-   La variable **[!UICONTROL Nuevo]** tiene las siguientes opciones:
+   El menú **[!UICONTROL Nuevo]** tiene las siguientes opciones:
 
-   * Nueva prueba (8)
-   * Cargar archivo (9)
+   * Nueva revisión (8)
+   * Subir archivo (9)
    * Nueva carpeta (10)
-   * Cliente nuevo (11)
+   * Nuevo invitado (11)
    * Nuevo usuario (12)
    * Nuevo grupo (13)
 
 ![](assets/new-proof-350x256.png)
 
-## Menú Tablero
+## El menú Tablero
 
 El menú Tablero contiene los siguientes menús:
 
@@ -110,11 +110,11 @@ El menú Tablero contiene los siguientes menús:
 
 ## Editar etiquetas
 
-La variable [!UICONTROL Editar etiquetas] El menú (1) le permite:
+El menú [!UICONTROL Editar etiquetas] (1) le permite:
 
-* Aplicar una etiqueta a un elemento o elementos
-* Crear nuevas etiquetas
-* Administración de etiquetas (2)
+* Aplicar una etiqueta a uno o varios elementos
+* Creación de nuevas etiquetas
+* Gestión de etiquetas (2)
 
 ![](assets/edit-tags-350x204.png)
 
@@ -124,15 +124,15 @@ Esta función permite mover pruebas y archivos a una de las carpetas. Para ello:
 
 1. Seleccione la casilla de verificación de los elementos relevantes.
 1. Haga clic en **[!UICONTROL Mover a]** (3) y elija la carpeta correspondiente (4).
-1. Haga clic en **[!UICONTROL Guardar]** (5)
+1. Haga clic en **[!UICONTROL Guardar]** (5).
 
    ![](assets/move-to-350x297.png)
 
 ### Más acciones
 
-En el [!UICONTROL Más acciones] (6) puede realizar las siguientes acciones:
+En el menú [!UICONTROL Más acciones] (6) puede realizar las siguientes acciones:
 
-* Bloqueo (solo pruebas)
+* Bloquear (solo pruebas)
 * Activar
 * Archivar (solo pruebas)
 * Desarchivar (solo pruebas)
@@ -144,11 +144,11 @@ En el [!UICONTROL Más acciones] (6) puede realizar las siguientes acciones:
 
 Para eliminar elementos:
 
-1. Seleccione la casilla de verificación a la izquierda de los elementos y haga clic en **[!UICONTROL Eliminar]** (7)
+1. Seleccione la casilla a la izquierda de los elementos y haga clic en **[!UICONTROL Eliminar]** (7).
 
 ![](assets/delete-350x109.png)
 
-1. En la pantalla de confirmación que aparece, compruebe los detalles y confirme haciendo clic en **[!UICONTROL Sí]** (8)
+1. En la pantalla de confirmación que aparece, compruebe los detalles y confirme haciendo clic en **[!UICONTROL Sí]** (8).
 
 ![](assets/deleteing-items-350x237.png)
 
@@ -156,8 +156,8 @@ Para eliminar elementos:
 
 La barra lateral tiene vínculos a las siguientes páginas:
 
-* Panel (1)
-* Vistas (2)
+* Tablero (1)
+* Cajas de cartón (2)
 * Flujos de trabajo (3) (solo planes Premium)
 * Dropzone (4) (Planes Select y Premium)
 * Contactos (5)
@@ -172,49 +172,49 @@ La barra lateral tiene vínculos a las siguientes páginas:
 
 La barra lateral se describe con más detalle en la página de ayuda de la barra lateral.
 
-### [!UICONTROL Bienvenido] sección
+### [!UICONTROL Sección Bienvenido]
 
-La variable [!UICONTROL Bienvenido] tiene los siguientes vínculos útiles:
+La sección [!UICONTROL Bienvenido] tiene los siguientes vínculos útiles:
 
 * Ver nuestras películas de demostración (1)
 * Páginas de ayuda (2)
-* Detalles de contacto de asistencia (3)
-* Vínculo &quot;No volver a mostrarme la sección de bienvenida&quot; (4)
+* Detalles de contacto de soporte (3)
+* Vínculo &quot;No volver a mostrar la sección de bienvenida&quot; (4)
 
 ![](assets/welcome-350x73.png)
 
 ### Información general
 
-En esta sección encontrará vínculos rápidos a:
+En esta sección encontrará los vínculos rápidos a:
 
 * Crear una nueva prueba Cargar un archivo
-* Crear una carpeta nueva
-* Agregar un nuevo usuario
+* Crear una nueva carpeta
+* Añadir un nuevo usuario
 * Cambiar la contraseña
 
-La sección Información general también muestra información prefiltrada. Estos son:
+La sección de información general también muestra información prefiltrada. Estos son:
 
-* Pruebas para administrar: número total de pruebas activas que usted posee y delegadas en usted
-* Pruebas en espera de decisión: número total de pruebas activas que requieren sus decisiones
+* Pruebas que se van a administrar: número total de pruebas activas que son propiedad suya y que se le han delegado
+* Pruebas pendientes de decisión: número total de pruebas activas que requieren sus decisiones
 
-   ![](assets/dashboard-overview-350x169.png)
+  ![](assets/dashboard-overview-350x169.png)
 
 Aquí puede ver de inmediato cuántas pruebas requieren una acción inmediata por su parte o por parte de sus revisores:
 
 * Total
-* A tiempo: pruebas que no tienen plazo o que no hay más de 24 horas hasta la fecha límite
-* Riesgo: pruebas con plazo inferior a 24 horas
-* Retraso: pruebas con no todas las acciones completadas y vencidas
+* A tiempo: pruebas que no tienen fecha límite o que faltan más de 24 horas para la fecha límite
+* En riesgo: pruebas con un plazo inferior a 24 horas
+* Pruebas tardías: no todas las acciones se han completado y se ha superado la fecha límite
 
 >[!NOTE]
 >
->Se puede hacer clic en los valores de los gráficos: puede ir fácilmente a la lista detallada de los elementos.
+>Los valores del gráfico se pueden seleccionar: puede ir fácilmente a la lista detallada de los elementos.
 
-### Elementos a los que se ha accedido recientemente
+### Elementos a los que se accedió recientemente
 
-La variable [!UICONTROL Elementos a los que se ha accedido recientemente] muestra los elementos a los que ha accedido recientemente. Esto incluye los elementos que posee, los elementos que tiene permisos para ver según sus permisos de perfil y los elementos que se compartieron con usted. Esta sección incluirá solo los elementos que usted mismo ha abierto (a través del [!DNL Workfront Proof] Visualizador o a través de la página de detalles de la prueba).
+La sección [!UICONTROL Elementos a los que se ha tenido acceso recientemente] muestra los elementos a los que ha tenido acceso recientemente. Esto incluye los elementos que posee, los elementos para los que tiene permisos de visualización según los permisos de perfil y los elementos compartidos con usted. Esta sección incluirá solamente los elementos que usted mismo haya abierto (ya sea a través del visor [!DNL Workfront Proof] o a través de la página de detalles de la revisión).
 
-La variable [!UICONTROL Elementos a los que se ha accedido recientemente] muestra la siguiente información sobre pruebas y archivos recientes:
+La sección [!UICONTROL Elementos a los que se ha accedido recientemente] muestra la siguiente información sobre revisiones y archivos recientes:
 
 * Nombre
 * Progreso
@@ -226,16 +226,16 @@ Resumen (esta información se contraerá de forma predeterminada: haga clic en e
 
 Menú Acciones
 
-Consulte Presentaciones de página para ver las distintas opciones de diseño disponibles para esta sección.
+Consulte Diseños de página para ver las distintas opciones de diseño disponibles en esta sección.
 
 >[!NOTE]
 >
->Haga clic en el nombre de la prueba en [!UICONTROL Elementos a los que se ha accedido recientemente] le llevará directamente a la prueba en el visor de pruebas.
+>Al hacer clic en el nombre de la revisión en la sección [!UICONTROL Elementos a los que se ha accedido recientemente], accederá directamente a la revisión en el Visor de pruebas.
 
-Para acceder a la página Detalles de la prueba :
+Para acceder a la página de detalles de Proof:
 
-1. Haga clic en el **[!UICONTROL Acciones]** (1) disponible a la derecha del nombre de la prueba.
-1. Select **[!UICONTROL Ver detalles de prueba]** (2) del menú.
+1. Haga clic en el menú **[!UICONTROL Acciones]** (1) que se encuentra disponible a la derecha del nombre de la revisión.
+1. Seleccione **[!UICONTROL Ver detalles de revisión]** (2) en el menú.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
@@ -247,15 +247,15 @@ Esta sección muestra los siguientes detalles sobre la actividad reciente en su 
 * Acción
 * Detalles
 
-También puede ir a la página Detalles de un elemento haciendo clic en abrir el menú Acciones del elemento y seleccionando Ver detalles. Para obtener más información sobre la actividad en su cuenta, consulte Pista de auditoría de actividades.
+También puede ir a la página Detalles de un elemento haciendo clic en el menú Acciones del elemento y seleccionando Ver detalles. Para obtener más información sobre la actividad de su cuenta, consulte Pista de auditoría de actividades.
 
 >[!NOTE]
 >
->Haga clic en el nombre de la prueba en la [!UICONTROL Actividad reciente] se abrirá en el visor de pruebas.
+>Al hacer clic en el nombre de la prueba en la sección [!UICONTROL Actividad reciente], se abrirá la prueba en el Visor de pruebas.
 
 Para ir a la página de detalles de la prueba de esa prueba:
 
-1. Haga clic en el **[!UICONTROL Acciones]** (1).
-1. Select **[!UICONTROL Ver detalles de prueba]** (2) en el menú desplegable.
+1. Haga clic en el menú **[!UICONTROL Acciones]** (1).
+1. Seleccione **[!UICONTROL Ver detalles de revisión]** (2) en el menú desplegable.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

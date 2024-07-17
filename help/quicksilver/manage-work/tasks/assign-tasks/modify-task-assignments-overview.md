@@ -30,10 +30,10 @@ Puede asignar tareas a usuarios, equipos o roles o anular su asignación. Puede 
 
 Este artículo contiene información general sobre el impacto de la modificación de asignaciones de tareas. Para obtener información sobre cómo asignar tareas, consulte los siguientes artículos:
 
-* Para obtener información sobre la asignación de tareas, consulte [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) y [Modificar varias asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+* Para obtener información acerca de la asignación de tareas, vea [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) y [Modificar asignaciones de varios usuarios en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 * Para obtener información sobre la modificación de asignaciones de varias tareas en el área Programación, consulte &quot;Modificación de asignaciones de varios usuarios a tareas en las áreas Programación&quot;.
-* Para obtener información sobre la asignación de tareas mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Para obtener información acerca de cómo asignar tareas mediante el Distribuidor de cargas de trabajo, vea [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Parte de la información de este artículo también se aplica a las asignaciones a problemas. Para obtener más información sobre la asignación de problemas y otras consideraciones adicionales, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -46,7 +46,7 @@ Es posible que desee modificar las asignaciones de usuario para tareas por vario
 
   >[!NOTE]
   >
-  >Al asignar usuarios para que trabajen, su disponibilidad según sus programaciones afecta a las Fechas planificadas y proyectadas de las tareas. Para obtener información sobre las programaciones, consulte [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >Al asignar usuarios para que trabajen, su disponibilidad según sus programaciones afecta a las Fechas planificadas y proyectadas de las tareas. Para obtener información acerca de las programaciones, vea [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Un rol o usuario específico se establece como el usuario asignado para varias tareas y desea modificar rápidamente todos los elementos para asignarlos a un usuario o rol diferente
 
@@ -54,7 +54,7 @@ Es posible que desee modificar las asignaciones de usuario para tareas por vario
 
 Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo:
 
-* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre la asociación de usuarios con funciones del puesto, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Los usuarios pueden tener más de una función de trabajo asociada a su perfil. Para obtener información sobre cómo asociar usuarios con roles de trabajo, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Las tareas o los problemas suelen asignarse primero a una o varias funciones del puesto o a un equipo. Cuando los proyectos están listos para iniciarse, es posible que también deban asignarse a usuarios.\
   Si se asigna una tarea o un problema a una o varias funciones y, a continuación, también se asigna un usuario, Adobe Workfront decide qué función de trabajo se asocia al usuario adicional (si corresponde) según las siguientes reglas:
@@ -67,7 +67,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 
 ## Cómo afecta la eliminación de usuarios asignados a las horas de tarea y los porcentajes de asignación
 
-La eliminación de usuarios puede afectar a las horas de tareas y a los porcentajes de asignación. El efecto que tiene la eliminación de un usuario en la tarea depende del Tipo de duración seleccionado para la tarea. Para obtener información sobre el tipo de duración, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+La eliminación de usuarios puede afectar a las horas de tareas y a los porcentajes de asignación. El efecto que tiene la eliminación de un usuario en la tarea depende del Tipo de duración seleccionado para la tarea. Para obtener información acerca del tipo de duración, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Cuando elimina un usuario de una tarea con los siguientes tipos de duración:
 
@@ -85,7 +85,7 @@ Cuando elimina un usuario de una tarea con los siguientes tipos de duración:
 
 Puede quitar asignaciones de una tarea a la vez o puede quitar asignaciones de varias tareas de forma masiva.
 
-Para obtener más información acerca de cómo quitar asignaciones de tareas de forma masiva, vea [Modificar varias asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+Para obtener más información acerca de cómo quitar asignaciones de tareas de forma masiva, vea [Modificar asignaciones de varios usuarios en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Tenga en cuenta lo siguiente al eliminar asignaciones de tareas:
 

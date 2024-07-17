@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Los objetivos de Adobe Workfront incluyen un conjunto de notificaciones de eventos que puede habilitar para su cuenta. Estas notificaciones de eventos almacenan en déclencheur la comunicación por correo electrónico cada vez que se cumple la condición definida por el evento.
 
-Para obtener información sobre las notificaciones que puede habilitar para Workfront Goals, consulte [Notificaciones: Objetivos](../../workfront-basics/using-notifications/notifications-goals.md).
+Para obtener información acerca de las notificaciones que puede habilitar para Workfront Goals, vea [Notificaciones: Goals](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Para obtener información sobre la administración de notificaciones en Adobe Workfront, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener información sobre cómo administrar las notificaciones en Adobe Workfront, consulte [Modificar tus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

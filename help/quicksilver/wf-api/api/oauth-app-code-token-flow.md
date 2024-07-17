@@ -27,7 +27,7 @@ Para integrarse con Workfront y permitir que la aplicación cliente se comunique
 
 ## Crear una aplicación OAuth2
 
-Para obtener instrucciones sobre la creación de la aplicación OAuth2, consulte [Crear una aplicación OAuth2 con credenciales de usuario (flujo de código de autorización)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Para obtener instrucciones sobre cómo crear la aplicación OAuth2, consulte [Crear una aplicación OAuth2 con credenciales de usuario (Flujo de código de autorización)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) en [Crear aplicaciones OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -46,9 +46,9 @@ Los usuarios deben iniciar sesión para autorizar esta integración en su propia
 
 * `client_id`: Este es el ID de cliente generado al crear la aplicación OAuth2 en Workfront.
 
-* `redirect_uri`: Esta es la URL de redireccionamiento que introdujo al crear la aplicación. Los usuarios serán dirigidos a esta página una vez que hayan autorizado la aplicación para su cuenta.
+* `redirect_uri`: Esta es la URL de redireccionamiento que ingresó al crear la aplicación. Los usuarios serán dirigidos a esta página una vez que hayan autorizado la aplicación para su cuenta.
 
-* `response_type`: Debe tener el valor `code`.
+* `response_type`: debe tener el valor `code`.
 
 Por lo tanto, la URL de la página de autorización es:
 
@@ -95,7 +95,7 @@ Para iniciar sesión con OAuth2, siga este proceso:
 
    ![](assets/consent-screen-350x227.png)
 
-1. Si el usuario permite el acceso, la página se redirige al `redirect_url`. El redireccionamiento debe incluir los siguientes parámetros de consulta:
+1. Si el usuario permite el acceso, la página se redirigirá a `redirect_url`. El redireccionamiento debe incluir los siguientes parámetros de consulta:
 
 * `code`: el código de autorización necesario para obtener el token de acceso/actualización.
 * `domain`: dominio de su organización. Ejemplo: en `myorganization.my.workfront.com`, el dominio es `myorganization`.
@@ -103,9 +103,9 @@ Para iniciar sesión con OAuth2, siga este proceso:
 
   >[!IMPORTANT]
   >
-  >El `code` solo es válido durante 2 minutos. Por lo tanto, debe obtener los tokens de actualización y acceso en ese plazo de tiempo.
+  >`code` solo es válido por 2 minutos. Por lo tanto, debe obtener los tokens de actualización y acceso en ese plazo de tiempo.
 
-1. Cuando tenga un código, puede solicitar tokens de actualización y acceso enviando el código junto con las credenciales de la aplicación del cliente a `/integrations/oauth2/api/v1/token` punto final.
+1. Cuando tenga un código, puede solicitar tokens de actualización y acceso enviando el código junto con las credenciales de la aplicación cliente al extremo `/integrations/oauth2/api/v1/token`.
 
    La URL completa de la solicitud de token es
 
@@ -113,7 +113,7 @@ Para iniciar sesión con OAuth2, siga este proceso:
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **Ejemplos:**  Ejemplo de llamada CURL al extremo de token:
+   **Ejemplos:** Ejemplo de llamada CURL al extremo de token:
 
    Ejemplo 1
 
@@ -157,7 +157,7 @@ Para iniciar sesión con OAuth2, siga este proceso:
    }
    ```
 
-   El token de acceso es el mismo que ```sessionID```y caduca del mismo modo que la versión normal ```sessionID```
+   El token de acceso es el mismo que ```sessionID``` y caduca de la misma manera que el ```sessionID``` normal
 
    >[!IMPORTANT]
    >
@@ -208,4 +208,4 @@ Devolverá el siguiente resultado:
 }
 ```
 
-Y de nuevo el token de acceso es el `sessionID` que se puede utilizar para realizar una solicitud de API a Workfront.
+Y de nuevo el token de acceso es `sessionID`, que se puede usar para realizar una solicitud de API a Workfront.

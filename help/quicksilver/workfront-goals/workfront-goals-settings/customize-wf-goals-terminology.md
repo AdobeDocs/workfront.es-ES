@@ -19,7 +19,7 @@ Su organización debe tener lo siguiente para utilizar la funcionalidad descrita
 
 * Para el plan y la estructura de licencias actuales:
 
-   * A Pro o superior [plan de Adobe Workfront](https://www.workfront.com/plans).
+   * Un [plan Adobe Workfront](https://www.workfront.com/plans) profesional o superior.
    * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 
 * Para el nuevo plan y la estructura de licencias:
@@ -32,7 +32,7 @@ Su organización debe tener lo siguiente para utilizar la funcionalidad descrita
 
 Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 
-Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -48,4 +48,4 @@ Como administrador, puede personalizar los siguientes nombres de objeto de Workf
 
 La personalización de la terminología de Workfront Goals es idéntica a la personalización de la terminología en Workfront.
 
-Para obtener información sobre cómo personalizar la terminología en Workfront, consulte [Personalización de la terminología de la interfaz de usuario mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Para obtener información sobre cómo personalizar la terminología en Workfront, consulte [Personalizar la terminología de la interfaz de usuario mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

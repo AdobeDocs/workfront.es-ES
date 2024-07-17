@@ -22,12 +22,12 @@ Esta sección contiene los siguientes artículos:
 * [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md)
 * [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md)
 * [Comprender los KPI de análisis mejorados](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
-* [Visualización del plan de vuelo en el análisis mejorado](../enhanced-analytics/flight-plan-overview.md)
-* [Vea la visualización Evolución en el análisis mejorado](../enhanced-analytics/burndown-overview.md)
-* [Visualización de las tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md)
-* [Vea la visualización de la actividad del proyecto en el análisis mejorado](../enhanced-analytics/project-activity-overview.md)
-* [Vea la visualización del diagrama de proyecto en el análisis mejorado](../enhanced-analytics/project-treemap-overview.md)
-* [Vea la visualización Actividad por equipo en el análisis mejorado](../enhanced-analytics/activity-by-team-overview.md)
+* [Ver la visualización del plan de vuelo en el análisis mejorado](../enhanced-analytics/flight-plan-overview.md)
+* [Ver la visualización de evolución en el análisis mejorado](../enhanced-analytics/burndown-overview.md)
+* [Ver la visualización Tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md)
+* [Ver la visualización de la actividad del proyecto en el análisis mejorado](../enhanced-analytics/project-activity-overview.md)
+* [Ver la visualización del diagrama de proyecto en el análisis mejorado](../enhanced-analytics/project-treemap-overview.md)
+* [Ver la visualización Actividad por equipo en el análisis mejorado](../enhanced-analytics/activity-by-team-overview.md)
 <!--
 * [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
 * [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 
@@ -37,4 +37,4 @@ Esta sección contiene los siguientes artículos:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Para obtener formación detallada sobre el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejoradas](https://one.workfront.com/s/enhanced-analytics-program).
+Para obtener información detallada sobre el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://one.workfront.com/s/enhanced-analytics-program).

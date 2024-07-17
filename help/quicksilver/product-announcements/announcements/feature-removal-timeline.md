@@ -25,7 +25,7 @@ Se están eliminando varias funciones del producto Adobe Workfront. A continuaci
  <tbody> 
   <tr> 
    <td><b>Función o área de producto</b></td> 
-   <td><strong>Última versión con nuevas funciones</strong> </td> 
+   <td><strong>Última versión con nuevas características</strong> </td> 
    <td> <p rowspan="2"><strong>Fechas clave</strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -34,12 +34,12 @@ Se están eliminando varias funciones del producto Adobe Workfront. A continuaci
    <td> <p>Última versión con nuevas mejoras en las funciones de la versión Classic con la versión 21.2</p> <p>Ya no es compatible el 31 de marzo de 2022</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Compatibilidad con Internet Explorer</p> <p>Con la eliminación de la compatibilidad con Internet Explorer, Workfront ahora admite oficialmente Microsoft Edge. </p> <p>Para obtener más información sobre los exploradores compatibles, consulte <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Requisitos del explorador Adobe Workfront</a>.</p> </td> 
+   <td> <p>Compatibilidad con Internet Explorer</p> <p>Con la eliminación de la compatibilidad con Internet Explorer, Workfront ahora es compatible oficialmente con Microsoft Edge. </p> <p>Para obtener más información sobre los exploradores admitidos, consulte <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Requisitos para exploradores Adobe Workfront</a>.</p> </td> 
    <td>Con la versión 21.1</td> 
    <td>Ya no es compatible con la versión 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Horario de recursos</p> <p>El Distribuidor de cargas de trabajo proporciona una experiencia mejorada en la programación de recursos.</p> <p>Para obtener información más detallada sobre el Distribuidor de cargas de trabajo, consulte <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Resumen del Distribuidor de cargas</a>.</p> </td> 
+   <td> <p>Horario de recursos</p> <p>El Distribuidor de cargas de trabajo proporciona una experiencia mejorada en la programación de recursos.</p> <p>Para obtener información más detallada sobre el Distribuidor de cargas de trabajo, consulte <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Resumen del Distribuidor de cargas de trabajo</a>.</p> </td> 
    <td> </td> 
    <td> <p>Ya no es compatible el 9 de noviembre de 2020 (con la versión 20.4)</p> <p>—</p> <p>Eliminado de la plataforma de Workfront después del primer semestre de 2022</p> </td> 
   </tr> 

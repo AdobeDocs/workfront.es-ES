@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Cuando un usuario abandona la organización, puede desactivarlo, haciendo que su licencia de Adobe Workfront esté disponible para otro usuario y evitando que se le asigne trabajo de forma involuntaria. Al desactivar un usuario, conserva su historial laboral, incluidas sus asignaciones de trabajo y su asociación con notas, horas y documentos.
 
-Para obtener más información sobre cómo desactivar un usuario, consulte [Desactivar o reactivar un usuario](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+Para obtener más información sobre cómo desactivar un usuario, consulte &quot; [Desactivar o reactivar un usuario](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-Para obtener información sobre el uso de la API principal, consulte [Conceptos básicos de API](../../wf-api/general/api-basics.md).
+Para obtener información acerca del uso de la API principal, consulte [Conceptos básicos de la API](../../wf-api/general/api-basics.md).
 
 Para desactivar un usuario a través de la API:
 
@@ -34,19 +34,19 @@ Para desactivar un usuario a través de la API:
 
 1. Busque el GUID del usuario que desea desactivar.
 
-   1. Utilice la siguiente solicitud de API para recuperar el GUID de todos los usuarios del sistema. Tenga en cuenta que la variable **isActive** presentaciones de campo **true** para usuarios que están activos actualmente y **false** para usuarios que se han desactivado:
+   1. Utilice la siguiente solicitud de API para recuperar el GUID de todos los usuarios del sistema. Tenga en cuenta que el campo **isActive** muestra **true** para los usuarios que están activos actualmente y **false** para los usuarios que se han desactivado:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
-1. Busque el GUID del usuario que desea desactivar; utilice el siguiente **PUT** solicitud para cambiar el nombre del usuario **isActive** valor de campo a **false**:
+1. Busque el GUID del usuario que desea desactivar. Use la siguiente solicitud de **PUT** para cambiar el valor del campo **isActive** del usuario a **false**:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
-1. La respuesta mostrará que la variable **isActive** el valor del campo ha cambiado de **true** hasta **false** que indica que se ha desactivado el usuario:
+1. La respuesta mostrará que el valor del campo **isActive** ha cambiado de **true** a **false** indicando que el usuario ha sido desactivado:
 
 <!-- [Copy](javascript:void(0);) -->
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

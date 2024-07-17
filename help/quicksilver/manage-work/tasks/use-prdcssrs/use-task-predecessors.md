@@ -20,11 +20,11 @@ ht-degree: 0%
 Esta sección contiene los siguientes artículos:
 
 * [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
-* [Crear una relación de predecesoras en la lista de tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
-* [Cree una relación de predecesoras mediante el área Predecesoras](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
+* [Crear una relación de predecesora en la lista de tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
+* [Cree una relación de predecesora mediante el área de predecesoras](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
 * [Crear relaciones de predecesoras encadenando tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
 * [Crear predecesoras entre proyectos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
-* [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
-* [Forzar predecesoras](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
+* [Información general sobre los tipos de dependencia de tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+* [Aplicar predecesoras](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
 * [Resumen de tipos de retardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [Resumen de bucle de dependencia de tareas](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

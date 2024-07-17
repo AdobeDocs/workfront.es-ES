@@ -9,8 +9,8 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 39%
+source-wordcount: '538'
+ht-degree: 34%
 
 ---
 
@@ -66,13 +66,13 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles
+<sup>1</sup> cambios en valores posibles
 
-<sup>2</sup> el atributo hasFilters ha cambiado a true
+<sup>2</sup> ha cambiado el atributo hasFilters a true
 
  
 
-### Ruta de aprobación
+### Aprobación
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -84,9 +84,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validación de fecha agregada
+Se agregó la validación de fecha <sup>1</sup>
 
-<sup>2</sup> Indicador NOT_FILTERABLE añadido
+Se agregó el indicador <sup>2</sup> NOT_FILTERABLE
 
  
 
@@ -110,7 +110,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles
+<sup>1</sup> cambios en valores posibles
 
  
 
@@ -127,13 +127,13 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 | isPrivate |   |   |   |   |   | Buscar |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name<sup>2</sup> |   |   |   |   |   |   |
+| nombre<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Se ha cambiado a Informable
+Se cambió <sup>1</sup> a Informable
 
-<sup>2</sup> Se agregó el validador de longitud máxima
+Se agregó el validador de longitud máxima de <sup>2</sup>
 
  
 
@@ -146,9 +146,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validación de fecha añadida
+Se agregó la validación de fecha <sup>1</sup>
 
-<sup>2</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>2</sup> Not_Filterable
 
  
 
@@ -172,7 +172,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>1</sup> Not_Filterable
 
  
 
@@ -184,7 +184,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>1</sup> Not_Filterable
 
  
 
@@ -196,7 +196,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> se ha añadido el indicador de campo NO_TIME
+<sup>1</sup> agregó el indicador de campo NO_TIME
 
 ### Evento de evolución 
 
@@ -243,15 +243,15 @@ Documento 
 
  
 
-tarifa de cambio 
+Tipo de cambio 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| clasificar<sup>1</sup> |   |   |   |   |   |   |
+| tarifa<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Se ha cambiado el validador de PRECISION de 8 a 9.
+<sup>1</sup> ha cambiado el validador de PRECISION de 8 a 9
 
  
 
@@ -273,7 +273,7 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles
+<sup>1</sup> cambios en valores posibles
 
  
 
@@ -285,9 +285,9 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marcado como RESTAURABLE
+<sup>1</sup> marcado como RESTAURABLE
 
-<sup>2</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>2</sup> Not_Filterable
 
  
 
@@ -304,9 +304,9 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marcado como RESTAURABLE y RESOURCE_MANAGEABLE
+<sup>1</sup> marcado como RESTAURABLE y RESOURCE_MANAGEABLE
 
-<sup>2</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>2</sup> Not_Filterable
 
  
 
@@ -319,11 +319,11 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marcado como RESTAURABLE
+<sup>1</sup> marcado como RESTAURABLE
 
-<sup>2</sup> Se ha añadido el validador AT_DATE_YEAR_BEFORE
+Se agregó el validador <sup>2</sup> AT_DATE_YEAR_BEFORE
 
-<sup>3</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>3</sup> Not_Filterable
 
  
 
@@ -346,7 +346,7 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marcado como RESTAURABLE y RESOURCE_MANAGEABLE
+<sup>1</sup> marcado como RESTAURABLE y RESOURCE_MANAGEABLE
 
 ### Tarea de plantilla<sup>1</sup> 
 
@@ -356,9 +356,9 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Marcado como RESTAURABLE
+<sup>1</sup> marcado como RESTAURABLE
 
-<sup>2</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>2</sup> Not_Filterable
 
  
 
@@ -370,7 +370,7 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Violadores de MAX_LENGTH
+<sup>1</sup> infractores de MAX_LENGTH
 
  
 
@@ -382,9 +382,9 @@ tarifa de cambio 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Valores posibles cambiados
+<sup>1</sup> valores posibles cambiados
 
-<sup>2</sup> tiene filtros Cambiados a `[true]`
+<sup>2</sup> ha cambiado los filtros a `[true]`
 
  
 

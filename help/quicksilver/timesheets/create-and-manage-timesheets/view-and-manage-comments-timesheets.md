@@ -55,17 +55,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Ver comentarios de entradas de horas en una plantilla de horas {#view-hour-entry-comments-on-a-timesheet}
 
-Puede configurar los comentarios realizados en entradas de hora individuales para que se muestren en la plantilla de horas. La opción de mostrar y ocultar comentarios no afecta a los comentarios realizados en la plantilla de horas general ni a los comentarios realizados en elementos individuales. Para obtener más información, consulte  [Realizar comentarios en una plantilla de horas](#make-comments-on-a-timesheet).
+Puede configurar los comentarios realizados en entradas de hora individuales para que se muestren en la plantilla de horas. La opción de mostrar y ocultar comentarios no afecta a los comentarios realizados en la plantilla de horas general ni a los comentarios realizados en elementos individuales. Para obtener más información, consulte  [Realizar comentarios en una hoja de horas](#make-comments-on-a-timesheet).
 
 De forma predeterminada, los comentarios se ocultan la primera vez que se accede a una plantilla de horas.
 
 Para mostrar comentarios en una hoja de horas:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Clic **Plantillas de horas**.
+1. Haga clic en **Plantillas de horas**.
 1. Abra la hoja de horas en la que desee mostrar los comentarios.
-1. Clic **Mostrar comentarios** en la esquina superior derecha de la plantilla de horas.
+1. Haga clic en **Mostrar comentarios** en la esquina superior derecha de la hoja de horas.
 Los comentarios se muestran debajo del elemento en el que se registraron la entrada de hora y el comentario.
 
    ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
@@ -73,46 +73,46 @@ Los comentarios se muestran debajo del elemento en el que se registraron la entr
 
 ## Realizar comentarios en una plantilla de horas {#make-comments-on-a-timesheet}
 
-* [Comentario sobre la plantilla de horas general](#comment-on-the-overall-timesheet)
-* [Comentario sobre una entrada de hora individual en una plantilla de horas](#comment-on-an-individual-hour-entry-in-a-timesheet)
+* [Comentario sobre la hoja de horas general](#comment-on-the-overall-timesheet)
+* [Comentario sobre una entrada de hora individual en una hoja de horas](#comment-on-an-individual-hour-entry-in-a-timesheet)
 * [Comentario sobre un elemento de trabajo en una plantilla de horas](#comment-on-a-work-item-in-a-timesheet)
 
 ### Comentario sobre la plantilla de horas general {#comment-on-the-overall-timesheet}
 
 Puede realizar comentarios generales sobre la plantilla de horas. Comentar la plantilla de horas general es similar a comentar otros objetos.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** icono ![](assets/lines-main-menu.png) en la esquina superior izquierda o Workfront, si está disponible.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda o Workfront, si está disponible.
 
-1. Clic **Plantillas de horas**.
+1. Haga clic en **Plantillas de horas**.
 1. Vaya a la plantilla de horas en la que desea realizar un comentario.
-1. Clic **Actualizaciones** en el panel izquierdo, haga clic en **Comentarios** pestaña.
-1. Comience a agregar nuevos comentarios o responda a los existentes, tal como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Agregue personas o equipos a la variable **Etiquetar personas o equipos** para incluir a otros en la actualización. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Opcional) Seleccione la **Privado para mi compañía** si desea que solamente personas de su compañía vean la actualización.
-1. Escriba el comentario y haga clic en **Enviar**.
+1. Haga clic en **Actualizaciones** en el panel izquierdo y, a continuación, haga clic en la ficha **Comentarios**.
+1. Empiece a agregar nuevos comentarios o responda a los existentes, tal como se describe en [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Agregue personas o equipos en el campo **Etiquetar personas o equipos** para incluir a otros en la actualización. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Opcional) Seleccione la opción **Privado para mi compañía** si desea que solamente personas de su compañía vean la actualización.
+1. Escriba su comentario y haga clic en **Enviar**.
 
-   Su comentario se muestra en la [!UICONTROL Actualizaciones] de la plantilla de horas, en la pestaña Comentarios.
+   Su comentario se muestra en la sección [!UICONTROL Actualizaciones] de la hoja de horas, en la pestaña Comentarios.
 
-1. (Opcional) Haga clic en **Actividad del sistema** para revisar las actualizaciones generadas por el sistema
+1. (Opcional) Haga clic en la ficha **Actividad del sistema** para revisar las actualizaciones generadas por el sistema
 
    O
 
-   Haga clic en **Todo** para ver la actividad del sistema y los comentarios del usuario en orden cronológico.
+   Haga clic en la ficha **Todos** para ver la actividad del sistema y los comentarios de los usuarios en orden cronológico.
 
    >[!TIP]
    >
    >   La ficha Todos es de sólo lectura y no puede responder a los comentarios desde ella.
 
 
-   Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Comentario sobre una entrada de hora individual en una plantilla de horas {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Clic **Plantillas de horas**.
-1. Vaya a la plantilla de horas donde desee realizar un comentario y haga clic en **Hoja de horas** en el panel izquierdo.
-1. Haga clic en el campo de entrada de hora donde desee realizar un comentario y haga clic en **Comentario** para agregar un comentario para la entrada de horas.
+1. Haga clic en **Plantillas de horas**.
+1. Vaya a la hoja de horas donde quiera hacer un comentario y haga clic en **Hoja de horas** en el panel izquierdo.
+1. Haga clic en el campo de entrada de hora donde desee hacer un comentario y haga clic en **Comentario** para agregar un comentario para la entrada de hora.
 
    >[!TIP]
    >
@@ -121,9 +121,9 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
 
    Realice una de las siguientes acciones:
 
-   * Escriba un nuevo comentario y haga clic en **Listo**.
-   * Edite un comentario existente y haga clic en **Listo** o haga clic en **Cancelar** para descartar los cambios.
-   * Haga clic en **Eliminar** icono ![](assets/delete.png) para eliminar un comentario guardado.
+   * Escriba un comentario nuevo y haga clic en **Listo**.
+   * Edite un comentario existente y haga clic en **Listo**, o bien haga clic en **Cancelar** para descartar los cambios.
+   * Haga clic en el icono **Eliminar** ![](assets/delete.png) para eliminar un comentario guardado.
 
      Aparece un marcador azul en la esquina superior derecha del cuadro de entrada de hora para indicar que hay comentarios registrados con la entrada de hora.
 
@@ -136,7 +136,7 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
    >   * Cmd + Devolución para equipos Mac.
 
 
-1. (Opcional) Para configurar los comentarios de entrada de horas para que se muestren en la plantilla de horas, consulte la sección [Ver comentarios de entradas de horas en una hoja de horas](#view-hour-entry-comments-on-a-timesheet) en este artículo.
+1. (Opcional) Para configurar los comentarios de entrada de horas para que se muestren en la hoja de horas, consulte la sección [Ver comentarios de entrada de horas en una hoja de horas](#view-hour-entry-comments-on-a-timesheet) en este artículo.
 
 ### Comentario sobre un elemento de trabajo en una plantilla de horas {#comment-on-a-work-item-in-a-timesheet}
 
@@ -147,12 +147,12 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
 
 Solo puede realizar comentarios sobre las tareas y los problemas de una plantilla de horas. No puede realizar comentarios sobre proyectos ni sobre el tiempo general.
 
-1. Haga clic en [!UICONTROL **Menú principal**] icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Clic [!UICONTROL **Plantillas de horas**].
-1. Vaya a la plantilla de horas donde desee realizar un comentario y haga clic en [!UICONTROL **Hoja de horas**] en el panel izquierdo.
+1. Haga clic en el icono [!UICONTROL **Menú principal**] ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en [!UICONTROL **Plantillas de horas**].
+1. Vaya a la hoja de horas donde quiera hacer un comentario y haga clic en [!UICONTROL **Hoja de horas**] en el panel izquierdo.
 1. Haga clic en la fila de una tarea o un problema y, a continuación, haga clic en [!UICONTROL **Abrir resumen**].
-1. Empiece a escribir una actualización en [!UICONTROL **Actualizaciones**] del panel Resumen y, a continuación, haga clic en [!UICONTROL **Enviar**].
+1. Empiece a escribir una actualización en el área [!UICONTROL **Actualizaciones**] del Panel de resumen y, a continuación, haga clic en [!UICONTROL **Enviar**].
 La actualización se muestra en la sección Actualizaciones de la tarea y el problema.
 1. (Opcional) Haga clic en [!UICONTROL **Cerrar resumen**] para cerrar el Panel de resumen.
 
-   Para obtener más información sobre la actualización de tareas y problemas en el Panel de resumen, consulte [Resumen, descripción general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Para obtener más información sobre la actualización de tareas y problemas en el Panel de resumen, consulte [Resumen general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

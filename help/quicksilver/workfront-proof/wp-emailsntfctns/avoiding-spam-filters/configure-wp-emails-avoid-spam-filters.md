@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Configurar [!DNL Workfront Proof] correos electrónicos para evitar filtros de correo no deseado
-description: '"El filtro de correo no deseado de su cliente de correo electrónico tiene un propósito importante: protegerle de los correos electrónicos no deseados y posiblemente malintencionados. Pero, si no tiene la configuración correcta en el filtro de correo no deseado, puede evitar ver lo siguiente importante [!DNL Workfront Proof] correos electrónicos: prueba de notificaciones por correo electrónico, boletines informativos y comunicaciones especiales".'
+title: Configurar  [!DNL Workfront Proof] correos electrónicos para evitar filtros de spam
+description: '"El filtro de spam de su cliente de correo electrónico tiene un propósito importante: protegerle de correos electrónicos spam molestos y posiblemente maliciosos. Sin embargo, si no tiene la configuración correcta en el filtro de correo no deseado, no podrá ver los siguientes  [!DNL Workfront Proof] correos electrónicos importantes: notificaciones de prueba por correo electrónico, boletines informativos y comunicaciones especiales".'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Configurar [!DNL Workfront Proof] correos electrónicos para evitar filtros de correo no deseado
+# Configurar [!DNL Workfront Proof] correos electrónicos para evitar filtros de spam
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-El filtro de correo no deseado de su cliente de correo electrónico tiene un propósito importante: protegerle de los correos electrónicos no deseados y posiblemente malintencionados. Pero, si no tiene la configuración correcta en el filtro de correo no deseado, puede evitar ver lo siguiente importante [!DNL Workfront Proof] correos electrónicos: probar notificaciones por correo electrónico, boletines informativos y comunicaciones especiales.
+El filtro de correo no deseado de su cliente de correo electrónico tiene un propósito importante: protegerle de mensajes de correo electrónico no deseado molestos y posiblemente malintencionados. Sin embargo, si no tiene la configuración correcta en el filtro de correo no deseado, puede impedir que vea los siguientes [!DNL Workfront Proof] correos electrónicos importantes: notificaciones de prueba por correo electrónico, boletines informativos y comunicaciones especiales.
 
-Para asegurarse de que su [!DNL Workfront Proof] Los correos electrónicos siempre se dirigen a la bandeja de entrada en lugar de a la carpeta de correo no deseado, debe añadir lo siguiente a la lista de permitidos :
+Para asegurarse de que los mensajes de correo electrónico de [!DNL Workfront Proof] siempre se enruten a la bandeja de entrada en lugar de a la carpeta de correo no deseado, debe agregar lo siguiente a la lista de permitidos:
 
 * [!DNL Workfront Proof] servidor de correo: **[!DNL mx.proofhq.com]**
-* [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; direcciones de correo electrónico (por ejemplo, notification@proofhq.com)
+* [!DNL Workfront Proof] direcciones de correo electrónico &quot;[!UICONTROL de]&quot; (por ejemplo, notification@proofhq.com)
 
-Para obtener más información sobre las direcciones URL que se agregarán a la lista de permitidos, consulte [Configurar la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) en el artículo [Configurar la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obtener más información acerca de las direcciones URL que se agregarán a la lista de permitidos, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) en el artículo [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; direcciones de correo electrónico
+## [!DNL Workfront Proof] direcciones de correo electrónico &quot;[!UICONTROL de]&quot;
 
-Según el tipo de cliente de correo electrónico, es posible que tenga que agregar [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; direcciones de correo electrónico a una de las siguientes para evitar que el filtro de correo no deseado dirija sus correos electrónicos a su carpeta de correo no deseado en el futuro:
+Según el tipo de cliente de correo electrónico, es posible que deba agregar [!DNL Workfront Proof] direcciones de correo electrónico &quot;[!UICONTROL de]&quot; a una de las siguientes direcciones para evitar que el filtro de correo no deseado enrute los mensajes de correo electrónico a la carpeta de correo no deseado en el futuro:
 
 * Su lista de contactos
-* Su [!UICONTROL Remitentes seguros] list
-* Un filtro que crea para enviar correos electrónicos de esas direcciones a la bandeja de entrada
+* Su lista de [!UICONTROL remitentes seguros]
+* Un filtro que crea para enviar correos electrónicos desde esas direcciones a la bandeja de entrada
 
-También es posible que tenga que eliminar cualquier [!DNL Workfront Proof] correos electrónicos de su carpeta de correo no deseado y compruebe si alguno de los[!UICONTROL from]&quot; las direcciones están en la lista de direcciones bloqueadas. Esta página de ayuda enumera las [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; y muestra cómo agregarlos al filtro de correo no deseado en los siguientes clientes de correo electrónico:
+También es posible que tenga que eliminar cualquier correo electrónico existente de [!DNL Workfront Proof] de su carpeta de correo no deseado y comprobar si alguna de las direcciones &quot;[!UICONTROL de]&quot; está en la lista de direcciones bloqueadas. Esta página de ayuda enumera las direcciones &quot;[!UICONTROL de]&quot; de [!DNL Workfront Proof] y muestra cómo agregarlas al filtro de correo no deseado en los siguientes clientes de correo electrónico:
 
 * [!DNL Gmail]
 * [!DNL Microsoft Outlook 2003 - 2007]
@@ -51,21 +51,21 @@ También es posible que tenga que eliminar cualquier [!DNL Workfront Proof] corr
 
 Para obtener más información, consulte [Configuración de correo no deseado para clientes de correo electrónico comunes](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md).
 
-## La variable [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; direcciones de correo electrónico para copiar
+## Las [!DNL Workfront Proof] direcciones de correo electrónico &quot;[!UICONTROL de]&quot; que se van a copiar
 
-Para asegurarse de que su [!DNL Workfront Proof] los correos electrónicos llegan a la bandeja de entrada; deberá agregar dos [!DNL Workfront Proof] direcciones de correo electrónico por separado para el filtro de correo no deseado de su cliente de correo electrónico:
+Para asegurarse de que los correos electrónicos de [!DNL Workfront Proof] lleguen a la bandeja de entrada, deberá agregar dos direcciones de correo electrónico de [!DNL Workfront Proof] por separado al filtro de correo no deseado del cliente de correo electrónico:
 
-* La dirección general de apoyo, [!DNL support@proofhq.com], a partir de las cuales [!DNL Workfront Proof] envía muchas comunicaciones por correo electrónico
-* Una dirección de notificación desde la que [!DNL Workfront Proof] envía correos electrónicos de notificación de prueba al creador de pruebas y a los revisores con vínculos a la prueba. Puede ser una dirección general, notification@support.proofhq.com o una dirección específica si tiene un subdominio personalizado o un dominio de etiqueta blanca.
+* La dirección de soporte general [!DNL support@proofhq.com], desde la cual [!DNL Workfront Proof] envía muchas comunicaciones por correo electrónico
+* Una dirección de notificación desde la cual [!DNL Workfront Proof] envía correos electrónicos de notificación de prueba al creador de la prueba y a los revisores con vínculos a la prueba. Puede ser una dirección general, notification@support.proofhq.com o una dirección específica si tiene un subdominio personalizado o un dominio de etiqueta blanca.
 
-Para agregar [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; al filtro de su cliente de correo electrónico:
+Para agregar [!DNL Workfront Proof] direcciones &quot;[!UICONTROL from]&quot; al filtro del cliente de correo electrónico:
 
-1. Copiar el general [!DNL Workfront Proof] soporte &quot;[!UICONTROL from]&quot; dirección de correo electrónico (support@proofhq.com) y péguela en el campo indicado para su cliente de correo electrónico.
-1. Copie el que corresponda de la siguiente manera [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; direcciones de correo electrónico y péguelas SEPARADAMENTE en el campo indicado para su cliente de correo electrónico:
+1. Copie la dirección de correo electrónico general [!DNL Workfront Proof] de soporte &quot;[!UICONTROL from]&quot; (support@proofhq.com) y péguela en el campo indicado para su cliente de correo electrónico.
+1. Copie una de las siguientes [!DNL Workfront Proof] direcciones de correo electrónico &quot;[!UICONTROL de]&quot; y péguela POR SEPARADO en el campo indicado para su cliente de correo electrónico:
 
    * notification@support.proofhq.com si NO tiene un subdominio personalizado o un dominio de etiqueta blanca
-   * notification@yoursubdomain.proofhq.com si tiene un subdominio personalizado; sustituya su nombre de subdominio por esta dirección
-   * notification@yoursubdomain.yourdomain.com si tiene un dominio de etiqueta blanca; sustituya el nombre de subdominio y el nombre de dominio por esta dirección
+   * notification@yoursubdomain.proofhq.com si tiene un subdominio personalizado; sustituya el nombre de subdominio en esta dirección
+   * notification@yoursubdomain.yourdomain.com si tiene un dominio de marca blanca; sustituya su nombre de subdominio y nombre de dominio en esta dirección
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">See the relevant section below for your email client to find out where to paste in these two Workfront Proof "[!UICONTROL from]" addresses.</p>

@@ -47,9 +47,9 @@ Si desea que las aprobaciones de nuevos documentos estén habilitadas en su ento
 
 ## Uso de nuevas aprobaciones de documentos
 
-Para los usuarios que buscan crear o administrar aprobaciones de documentos, consulte los artículos enumerados en [Configurar y administrar aprobaciones de recursos y documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Para los usuarios que buscan crear o administrar aprobaciones de documentos, vea los artículos enumerados en [Configurar y administrar aprobaciones de recursos y documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Para los usuarios que buscan revisar o aprobar documentos para los que han recibido una solicitud, consulte los artículos enumerados en [Aprobar y revisar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Para los usuarios que buscan revisar o aprobar documentos para los que han recibido una solicitud, vea los artículos enumerados en [Aprobar y revisar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

@@ -63,7 +63,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -75,7 +75,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -97,11 +97,11 @@ Realice al menos una de las siguientes acciones para poder activar un objetivo:
 
 * Añadir un resultado a la meta
 
-  Para obtener más información, consulte [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Para obtener más información, consulte [Agregar resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Añadir una actividad a la meta
 
-  Para obtener más información, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Para obtener más información, consulte [Agregar actividades a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Conectar un proyecto a la meta
 
@@ -109,7 +109,7 @@ Realice al menos una de las siguientes acciones para poder activar un objetivo:
 
 * Alinee otra meta con la meta que desee activar
 
-  Para obtener más información, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Para obtener más información, consulte [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Activar metas
 
@@ -117,7 +117,7 @@ Puede activar los objetivos que ha creado o un objetivo para el que tenga permis
 
 1. Vaya a la meta que desee activar. Se abre la página de la meta.
 
-1. Haga clic en **Más** menú ![](../goal-management/assets/more-icon.png) a la derecha del nombre de la meta y haga clic en **Activar**.
+1. Haga clic en el menú **Más** ![](../goal-management/assets/more-icon.png) que se encuentra a la derecha del nombre de la meta y, a continuación, haga clic en **Activar**.
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

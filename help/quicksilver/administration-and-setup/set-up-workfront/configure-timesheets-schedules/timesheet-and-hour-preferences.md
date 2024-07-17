@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configurar preferencias de horas y hojas de horas
-description: Como un [!DNL Adobe Workfront] administrador, puede especificar preferencias para plantillas de horas y horas en [!DNL Workfront] para definir con qué elementos pueden rellenarse previamente las plantillas de horas y con qué elementos pueden registrar los usuarios el tiempo.
+description: Como administrador de  [!DNL Adobe Workfront] puede especificar preferencias para hojas de horas y horas en [!DNL Workfront] para definir con qué elementos pueden rellenar previamente las hojas de horas y con qué elementos pueden registrar los usuarios el tiempo.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Como un [!DNL Adobe Workfront] administrador, puede especificar preferencias para plantillas de horas y horas en [!DNL Workfront] para definir con qué elementos pueden rellenarse previamente las plantillas de horas y con qué elementos pueden registrar los usuarios el tiempo.
+Como administrador de [!DNL Adobe Workfront], puede especificar preferencias para hojas de horas y horas en [!DNL Workfront] a fin de definir con qué elementos pueden rellenar previamente las hojas de horas y con qué elementos pueden registrar los usuarios el tiempo.
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser un [!DNL Workfront] administrador.</p>  </td>
+   <td> <p>Debe ser administrador de [!DNL Workfront].</p>  </td>
 </tr> 
  </tbody> 
 </table>
@@ -69,17 +69,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. Clic **[!UICONTROL Hoja de horas y horas]** > **[!UICONTROL Preferencias]**.
+1. Haga clic en **[!UICONTROL Hoja de horas y horas]** > **[!UICONTROL Preferencias]**.
 
    Se muestra la página Preferencias de horas y hojas de horas.
 
-1. (Opcional) En el **Preferencias de horas y hojas de horas del sistema** cuadro de búsqueda, empiece a escribir el nombre de un grupo y, a continuación, selecciónelo cuando aparezca en la lista.
+1. (Opcional) En el cuadro de búsqueda **Preferencias de horas y hojas de horas del sistema**, empiece a escribir el nombre de un grupo y, a continuación, selecciónelo cuando se muestre en la lista.
 
    ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    La página Preferencias de horas y hoja de horas se actualiza con las preferencias del grupo seleccionado. Las preferencias de nivel de sistema deben estar desbloqueadas para poder modificar las preferencias de nivel de grupo. Para obtener más información, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](#unlock-timesheet-and-hour-preferences-for-groups) en este artículo.
 
-1. En el **[!UICONTROL Preferencias generales]** , configure cualquiera de las siguientes opciones:
+1. En la sección **[!UICONTROL Preferencias generales]**, configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -105,7 +105,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restringir la edición de hojas de horas a propietarios y administradores]</td> 
-      <td> <p>Restringir la edición a propietarios de hojas de horas y [!DNL Workfront] administradores. Si se deshabilita esta opción, las plantillas de horas también se pueden editar:</p> 
+      <td> <p>Restringir la edición a propietarios de hojas de horas y administradores de [!DNL Workfront]. Si se deshabilita esta opción, las plantillas de horas también se pueden editar:</p> 
        <ul> 
         <li> <p>Usuarios con acceso administrativo a hojas de horas y horas en su nivel de acceso</p> </li> 
         <li> <p>Aprobadores de hojas de horas si "Puede editar horas" está habilitado en la hoja de horas</p> </li> 
@@ -114,12 +114,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restringir la edición de horas a propietarios y administradores]</td> 
-      <td>Restringir la edición al usuario que introduce las horas y [!DNL Workfront] administradores. Esta opción se aplica a la ficha [!UICONTROL Horas] de un proyecto o de un informe de horas.</td> 
+      <td>Restrinja la edición al usuario que ingresó las horas y a los administradores de [!DNL Workfront]. Esta opción se aplica a la ficha [!UICONTROL Horas] de un proyecto o de un informe de horas.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. En el **[!UICONTROL Donde los usuarios pueden registrar el tiempo]** , configure cualquiera de las siguientes opciones:
+1. En la sección **[!UICONTROL Donde los usuarios pueden registrar el tiempo]**, configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto">
     <tr>
@@ -136,14 +136,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tr>
    </table>
 
-1. En el **[!UICONTROL Rellenar de forma previa las hojas de horas]** , configure cualquiera de las siguientes opciones:
+1. En la sección **[!UICONTROL Rellenar previamente hojas de horas]**, configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Trabajo que se encuentra dentro] &lt;number of="" weeks=""&gt; [!UICONTROL del intervalo de trabajo de la hoja de horas]</td> 
+      <td role="rowheader">[!UICONTROL Trabajo que se encuentra dentro] &lt;número de semanas&gt; [!UICONTROL del intervalo de trabajo de la hoja de horas]</td> 
       <td> <p>Define el número de semanas antes y después del intervalo de fechas de la hoja de horas que contiene las fechas de las tareas y problemas asignados al usuario.</p> 
       <p>La configuración predeterminada es 1 semana y puede ampliar este intervalo a 4 semanas.</p> 
       <p>Esto significa que la hoja de horas se rellena previamente con tareas y problemas que tienen fechas entre cuatro semanas antes del intervalo de fechas de la hoja de horas y hasta cuatro semanas después del intervalo de fechas de la hoja de horas, si selecciona 4 semanas para el intervalo de fechas. </p> </td> 
@@ -163,7 +163,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. En el **[!UICONTROL Proyectos, tareas y problemas eliminados]** , especifique lo siguiente:
+1. En la sección **[!UICONTROL Proyectos, tareas y problemas eliminados]**, especifique lo siguiente:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,16 +173,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td role="rowheader"> Al eliminar proyectos</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Mantener el tiempo registrado ya añadido a las hojas de horas como tiempo general]</strong>: Si este proyecto se restaura más adelante, el tiempo permanece en la plantilla de horas.</li> 
-        <li><strong>[!UICONTROL Eliminar cualquier hora registrada]</strong>: si se restaura este proyecto posteriormente, el tiempo ya registrado se restaura en el proyecto.</li> 
+        <li><strong>[!UICONTROL Mantener el tiempo registrado ya agregado a las hojas de horas como tiempo general]</strong>: Si este proyecto se restaura más adelante, el tiempo permanece en la hoja de horas.</li> 
+        <li><strong>[!UICONTROL Eliminar el tiempo registrado]</strong>: si se restaura este proyecto posteriormente, el tiempo registrado se restaura en el proyecto.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Al eliminar tareas o problemas</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Mover el tiempo registrado al proyecto]</strong> dónde reside la tarea o el problema: si se restaura esta tarea o este problema posteriormente, el tiempo permanece en el proyecto.<br></li> 
-        <li> <p><strong>[!UICONTROL Eliminar cualquier hora registrada]</strong>: si esta tarea o este problema se restaura posteriormente, el tiempo registrado se restaura en la tarea o el problema.</p> <p>Para obtener información más detallada sobre estas opciones, consulte <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configurar efecto] en horas en que se elimina y restaura un objeto</a>.</p> </li> 
+        <li><strong>[!UICONTROL Mover el tiempo registrado al proyecto]</strong> donde resida la tarea o el problema: si se restaura esta tarea o este problema posteriormente, el tiempo permanece en el proyecto.<br></li> 
+        <li> <p><strong>[!UICONTROL Eliminar el tiempo registrado]</strong>: si se restaura esta tarea o este problema posteriormente, el tiempo registrado se restaura en la tarea o el problema.</p> <p>Para obtener información más detallada sobre estas opciones, vea <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configurar afecto] en horas en que se elimina y restaura un objeto</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,22 +196,22 @@ Es posible que los grupos de su organización necesiten plantillas de horas o pr
 
 Cuando una preferencia está desbloqueada y un administrador de grupo la modifica, afecta a los propietarios de plantillas de horas si el grupo es su grupo de inicio.
 
-Para obtener información sobre cómo un administrador de grupo configura las preferencias de horas y hojas de horas de un grupo, consulte [Configurar las preferencias de horas y hojas de horas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Para obtener información sobre cómo un administrador de grupo configura las preferencias de horas y de hojas de horas de un grupo, consulte [Configurar las preferencias de horas y hojas de horas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 >[!NOTE]
 >
->Después de un [!DNL Workfront] Un administrador desbloquea una preferencia en el sistema. Cualquier administrador de grupo puede configurarla y, a continuación, bloquearla para garantizar que todos los miembros de su grupo y de los subgrupos siguientes utilicen la misma configuración. Esto es paralelo a la capacidad de que un [!DNL Workfront] El administrador de debe configurar y bloquear una preferencia para todos los usuarios del sistema. Para obtener más información, consulte [Bloquear o desbloquear una plantilla de horas de grupo y sus preferencias horarias](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>Después de que un administrador de [!DNL Workfront] desbloquee una preferencia en el sistema, cualquier administrador de grupo puede configurarla y después bloquearla para asegurarse de que todos los miembros de su grupo y de los subgrupos que se muestran a continuación usan la misma configuración. Esto es paralelo a la capacidad que tiene un administrador de [!DNL Workfront] para configurar y bloquear una preferencia para todos los miembros del sistema. Para obtener más información, consulte [Bloquear o desbloquear una hoja de horas de grupo y preferencia de horas](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 Para desbloquear una preferencia de proyecto de modo que los grupos puedan configurarla:
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **[!UICONTROL Hojas de horas y horas]**, luego haga clic en **[!UICONTROL Preferencias]**.
+1. En el panel izquierdo, haga clic en **[!UICONTROL Plantillas de horas y horas]** y, a continuación, haga clic en **[!UICONTROL Preferencias]**.
 
 1. Realice una de las siguientes acciones:
 
-   * Si desea que los administradores de grupo puedan configurar una preferencia para sus grupos, haga clic en **desbloquear** alternar ![](assets/unlock-toggle-button.png) para desbloquearlo .
-   * Si desea que todos los grupos utilicen la configuración de para una preferencia, asegúrese de que sea la opción bloqueada ![](assets/locked-preference-toggle.png) (esta es la opción predeterminada).
+   * Si desea que los administradores de grupo puedan configurar una preferencia para sus grupos, haga clic en la opción **desbloquear** ![](assets/unlock-toggle-button.png) para desbloquearlo
+   * Si desea que todos los grupos usen su configuración para una preferencia, asegúrese de que sea la opción bloqueada ![](assets/locked-preference-toggle.png) (esta es la opción predeterminada).
 
      >[!IMPORTANT]
      >

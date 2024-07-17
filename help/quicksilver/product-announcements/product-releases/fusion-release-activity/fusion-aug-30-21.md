@@ -1,6 +1,6 @@
 ---
-title: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 30 de agosto de 2021
-description: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 30 de agosto de 2021
+title: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 30 de agosto de 2021'
+description: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 30 de agosto de 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 30 de agosto de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Filtrar eventos que almacenan en déclencheur el módulo Workfront > Ver eventos
 
@@ -43,5 +43,5 @@ Para obtener una lista de las correcciones de errores recientes en Workfront Fus
 
    Anteriormente, este filtro no estaba disponible. Por lo tanto, era más fácil para los cambios realizados en los módulos de Workfront almacenar en déclencheur los escenarios que contenían esos módulos, lo que provocaba que los escenarios se almacenaran en déclencheur en un bucle infinito.
 
-Para obtener más información sobre los filtros de eventos en el módulo Workfront > Ver eventos, consulte [Módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información sobre los filtros de eventos en el módulo Workfront > Ver eventos, consulte [módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

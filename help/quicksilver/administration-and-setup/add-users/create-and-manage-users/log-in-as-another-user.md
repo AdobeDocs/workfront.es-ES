@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Adobe Admin Console. Si su organización se ha incorporado a Adobe Admin Console, esta acción no está disponible.
 >
->Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Como administrador de Adobe Workfront, a veces es posible que deba acceder a Workfront en nombre de otro usuario.
 
@@ -71,9 +71,9 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Con el nivel de acceso de administrador del sistema, puede iniciar sesión como cualquier persona. Para obtener información sobre este nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> <p>Con un nivel de acceso de Planificador, puede iniciar sesión como un usuario con un nivel de licencia inferior si la variable <b>Usuarios</b> La configuración del nivel de acceso se configura en <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTA</b>: de estas dos opciones, si el usuario <b>Administrador (usuarios de grupo)</b> está habilitada, debe ser administrador de un grupo del que sea miembro el usuario.</p> 
-   <p>Para obtener más información sobre <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </td> 
+   <td> <p>Con el nivel de acceso de administrador del sistema, puede iniciar sesión como cualquier persona. Para obtener información acerca de este nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>. </p> <p>Con un nivel de acceso de Planificador, puedes iniciar sesión como un usuario con un nivel de licencia inferior si la configuración de <b>Usuarios</b> en el nivel de acceso está configurada para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>NOTA</b>: de estas dos opciones, si el usuario <b>Administrador (usuarios del grupo)</b> está habilitado, debe ser administrador de un grupo del que el usuario sea miembro.</p> 
+   <p>Para obtener más información sobre la configuración de <b>Usuarios</b> en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a usuarios</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +90,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    >   
    >  ![](assets/group-admin-user.png)
    >   
-   >  Esta configuración está deshabilitada de forma predeterminada. Para obtener más información, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  Esta configuración está deshabilitada de forma predeterminada. Para obtener más información, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
    >* No puede restablecer la contraseña de un administrador de Workfront.
 
@@ -98,7 +98,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 1. En el panel izquierdo, haga clic en **Iniciar sesión como**.
 
-1. En el **Usuarios** en el cuadro **Iniciar sesión como** , empiece a escribir el nombre del usuario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el cuadro **Usuarios** de la ficha **Iniciar sesión como**, empiece a escribir el nombre del usuario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    El usuario debe tener un nivel de acceso definido en Workfront. No puede iniciar sesión en el sistema de Workfront como un usuario que no tiene derechos para iniciar sesión.
 
@@ -106,7 +106,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    >
    >Los administradores de grupos solo pueden iniciar sesión como los usuarios que son miembros de los grupos que administran. No pueden iniciar sesión como administradores de Workfront.
 
-1. Clic **Iniciar sesión.**
+1. Haga clic en **Iniciar sesión.**
 
    <!--
    <p> Might come in a future story:</p>
@@ -155,9 +155,9 @@ Por ejemplo, si comenta un elemento mientras está conectado como otro usuario, 
 ### Ver información de auditoría {#view-audit-information}
 
 1. Inicie sesión en Workfront como administrador de Workfront o de grupo.
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Iniciar sesión como,** luego haga clic en **Acceder al registro** pestaña.
+1. Haz clic en **Iniciar sesión como,** y luego haz clic en la pestaña **Acceder al registro**.
 
    Cada vez que un administrador de sistemas o de grupos inicia sesión en Workfront como otro usuario, el evento se registra en la pista de auditoría. Además, todas las acciones auditables que se realizan mientras el administrador inicia sesión como otro usuario se registran en la pista de auditoría.
 

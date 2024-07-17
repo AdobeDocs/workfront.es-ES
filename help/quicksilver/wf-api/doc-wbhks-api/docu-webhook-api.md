@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 4%
+source-wordcount: '3620'
+ht-degree: 2%
 
 ---
 
@@ -108,7 +108,7 @@ acceso para actuar en su nombre. Este proceso de establecimiento de la mano solo
 1. El usuario comienza a conectar la integración del webhook a su cuenta. Actualmente, esto se hace haciendo clic en el menú desplegable &quot;Agregar documento&quot; > &quot;Agregar servicio&quot; > Nombre de integración personalizado.
 1. Workfront navega por el usuario a través de la URL de autenticación, que puede pedirle que inicie sesión en el proveedor de documentos externo. Esta página está alojada por el proveedor de webhook o por el sistema de gestión de documentos externo. Al hacerlo, Workfront agrega un parámetro &quot;state&quot; a la URL de autenticación. Este valor debe devolverse a Workfront añadiendo el mismo valor al URI de retorno de Workfront en el paso siguiente.
 1. Después de iniciar sesión en el sistema externo (o si el usuario ya ha iniciado sesión), se le redirige a una página &quot;Autenticación&quot;, que indica que Workfront está solicitando el acceso para realizar un conjunto de acciones en su nombre.
-1. Si el usuario hace clic en el botón &quot;Permitir&quot;, el navegador redirecciona al URI de redireccionamiento de Workfront , añadiendo &quot;code=`<code>`&quot; a la cadena de consulta. Según la especificación de OAuth2, este token es de corta duración. La cadena de consulta también debe tener lo siguiente, &quot;state=`<sent_by_workfront>`&quot;.
+1. Si el usuario hace clic en el botón &quot;Permitir&quot;, el explorador redireccionará al URI de redireccionamiento de Workfront y agregará &quot;code=`<code>`&quot; a la cadena de consulta. Según la especificación de OAuth2, este token es de corta duración. La cadena de consulta también debe tener lo siguiente, &quot;state=`<sent_by_workfront>`&quot;.
 1. Workfront procesa esta solicitud y realiza una llamada de API a la dirección URL de extremo de token con el código de autorización.
 1. La URL de extremo de token devuelve un token de actualización y un token de acceso.
 1. Workfront almacena estos tokens y aprovisiona completamente la integración de ganchos web para este usuario.
@@ -277,7 +277,7 @@ Devuelve los metadatos del archivo o la carpeta especificados.
 
 **URL**
 
-GET /metadata?id=[ID de documento o carpeta]
+GET /metadata?id=[id. de documento o carpeta]
 
 **Parámetros de consulta**
 
@@ -595,7 +595,7 @@ Los metadatos del archivo, tal como se definen en el extremo /metadata.
 
 **Respuesta**
 
-`[file_metadata]` incluye el nuevo ID de documento utilizado por el proveedor de documentos.
+`[file_metadata]` incluye el nuevo identificador de documento usado por el proveedor de documentos.
 
 ### Cargar un archivo: parte 2 de 2
 
@@ -654,7 +654,7 @@ GET /serviceInfo
 
 Parámetros de consulta
 
-Ninguno. Además, las llamadas a este extremo no deben requerir autenticación.
+Ninguna. Además, las llamadas a este extremo no deben requerir autenticación.
 
 **Respuesta**
 
@@ -819,7 +819,7 @@ PUT /name
 
  
 
-respuesta
+Respuesta
 
 Una cadena JSON que indica éxito o error, como se especifica en la sección Gestión de errores a continuación.
 

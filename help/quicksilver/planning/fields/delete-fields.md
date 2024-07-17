@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 En Adobe Workfront Planning, puede crear campos personalizados para almacenar información sobre registros.
 
-Para obtener información sobre la creación de campos personalizados en Workfront Planning, consulte [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+Para obtener información acerca de cómo crear campos personalizados en Workfront Planning, vea [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
 
@@ -42,7 +42,7 @@ Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
 * La información almacenada en el campo se elimina y no se puede recuperar.
 * Cuando se elimina un campo de registro vinculado, todos los campos de búsqueda vinculados también se eliminan del tipo de registro desde el que se establece el vínculo. Los campos de registro vinculados de los tipos de registro a los que está vinculado no se eliminan.
 
-  Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -88,12 +88,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en la tarjeta de un tipo de registro.
 
-1. (Condicional) Si no está seleccionado, haga clic en la pestaña de un **Vista de tabla** en la página tipo de registro.
+1. (Condicional) Si aún no está seleccionado, haga clic en la ficha de una **vista de tabla** en la página de tipo de registro.
 
    Todos los registros existentes asociados al tipo de registro se muestran en las filas de la vista de tabla.
 
@@ -127,10 +127,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Clic **Eliminar**. <!-- check this: they might replace it with **Delete field**-->
+1. Haga clic en **Eliminar**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. Clic **Eliminar** para confirmar.
+1. Haga clic en **Eliminar** para confirmar.
 
    El campo se elimina, no se puede recuperar y ya no se puede asociar a ningún registro.

@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Actualizar el estado de los artículos y las subtareas en el panel Anulación
-description: Puede cambiar el estado de una historia directamente desde el tablero de la historia ágil para reflejar cómo están progresando las historias a través de la iteración o del proyecto.
+title: Actualizar el estado de las historias y subtareas en el panel de exploración
+description: Puede cambiar el estado de una historia directamente desde el panel de historias Agile para reflejar cómo progresan las historias a través de la iteración o el proyecto.
 author: Lisa
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Actualice el estado de los artículos y las subtareas en la [!UICONTROL Anulación] tablero
+# Actualizar el estado de las historias y subtareas en el tablero [!UICONTROL Scrum]
 
-Puede cambiar el estado de una historia directamente desde el tablero de la historia ágil para reflejar cómo están progresando las historias a través de la iteración o del proyecto.
+Puede cambiar el estado de una historia directamente desde el panel de historias Agile para reflejar cómo progresan las historias a través de la iteración o el proyecto.
 
 >[!NOTE]
 >
->Solo los estados seleccionados en la variable [!UICONTROL Tablero de historias] en el área de configuración de equipo [!UICONTROL Anulación] tablero y en el menú desplegable de estado. Para obtener más información, consulte [Configurar la anulación](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Solo los estados seleccionados en la sección [!UICONTROL Story Board] del área de configuración del equipo están disponibles en el tablero [!UICONTROL Scrum] y en el menú desplegable de estado. Para obtener más información, consulte [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Requisitos de acceso
 
@@ -37,23 +37,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Work] o superior</p> </td> 
+   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede cambiar el nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-## Actualizar el estado de un artículo o una subtarea
+## Actualizar el estado de una historia o subtarea
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Equipos]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
 
-1. (Opcional) Haga clic en el **[!UICONTROL Cambiar equipo]** icono ![Icono Cambiar equipo](assets/switch-team-icon.png), seleccione un nuevo equipo de Anulación en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya a una iteración activa.
-1. Arrastre un artículo de una columna de estado del tablero de artículos a otra columna.\
-   ![Mover el artículo a otra columna](assets/agile-storyboard-progress.png)
+1. Navegue hasta una iteración activa.
+1. Arrastre una historia desde una columna de estado del guion gráfico a otra columna.\
+   ![Mover historia a otra columna](assets/agile-storyboard-progress.png)

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Fuentes de actualizaciones rastreadas por el sistema
-description: Adobe Workfront registra la actividad que tiene lugar en ciertos objetos de su [!UICONTROL Actualizaciones] área. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el objeto. [!DNL Workfront] Los administradores de pueden definir qué tipo de cambios debe seguir el sistema en la [!UICONTROL Actualizaciones] sección.
+description: Adobe Workfront registra la actividad que tiene lugar en ciertos objetos del área [!UICONTROL Updates]. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el objeto.Los administradores de  [!DNL Workfront] pueden definir qué tipo de cambios debe rastrear el sistema en la sección [!UICONTROL Actualizaciones].
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--Audited: April, 2024-->
 
-Adobe Workfront registra automáticamente la actividad que tiene lugar en ciertos objetos de su [!UICONTROL Actualizaciones] como una actualización del sistema. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el objeto. [!DNL Workfront] Los administradores de pueden definir qué tipo de cambios debe seguir el sistema en la [!UICONTROL Actualizaciones] sección.
+Adobe Workfront registra automáticamente como una actualización del sistema la actividad que tiene lugar en ciertos objetos de su sección [!UICONTROL Actualizaciones]. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el objeto. Los administradores de [!DNL Workfront] pueden definir qué tipo de cambios debe rastrear el sistema en la sección [!UICONTROL Actualizaciones].
 
 Esta sección contiene los siguientes artículos:
 

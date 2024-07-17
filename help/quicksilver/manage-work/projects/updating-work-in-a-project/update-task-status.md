@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Puede actualizar el estado de una tarea para informar a otros sobre dónde se encuentra la tarea (y el proyecto general) y cómo progresa.
 
-Los estados predeterminados son Nuevo, En curso y Completado. El administrador de Adobe Workfront puede agregar estados personalizados para su organización. Para obtener más información, consulte [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Los estados predeterminados son Nuevo, En curso y Completado. El administrador de Adobe Workfront puede agregar estados personalizados para su organización. Para obtener más información, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Puede actualizar manualmente los estados de las tareas o dejar que Workfront los actualice automáticamente cuando se realicen determinadas acciones.
 
@@ -75,8 +75,8 @@ Puede actualizar el estado de la tarea en las siguientes áreas de Workfront:
 Para actualizar manualmente el estado de la tarea en el encabezado de tarea:
 
 1. Vaya a una tarea cuyo estado desee actualizar.
-1. Haga clic en **Estado** en el encabezado de la tarea y seleccione un nuevo estado.
-1. Para proporcionar una indicación visual de la finalización de la tarea, arrastre o haga doble clic en la burbuja debajo de **Porcentaje completado** en el encabezado de la tarea
+1. Haga clic en el campo **Estado** del encabezado de la tarea y seleccione un nuevo estado.
+1. Para proporcionar una indicación visual de la finalización de la tarea, arrastre o haga doble clic en la burbuja bajo **Porcentaje completado** en el encabezado de la tarea
 
    O
 
@@ -86,12 +86,12 @@ Para actualizar manualmente el estado de la tarea en el encabezado de tarea:
 
 1. (Opcional) Realice una de las siguientes acciones para proporcionar información adicional sobre la actualización:
 
-   * Para añadir una nota sobre la actualización, vaya a **Actualizaciones** y haga clic en **Nuevo comentario** y, a continuación, escriba una nota.
+   * Para agregar una nota sobre la actualización, ve a la sección **Actualizaciones**, haz clic en **Nuevo comentario** y luego escribe una nota.
 
      ![](assets/add-update-to-task.png)
 
-   * Para notificar la actualización a determinados usuarios, escriba sus nombres en la **Etiquetar personas o equipos** que aparece al escribir un comentario. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Para actualizar la fecha de confirmación de la tarea, haga clic en **Detalles de tarea**, luego edite el **Fecha de confirmación** field. Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Para notificar la actualización a determinados usuarios, escriba sus nombres en el campo **Etiquetar personas o equipos** que aparece al escribir un comentario. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Para actualizar la fecha de confirmación de la tarea, haga clic en **Detalles de la tarea** y, a continuación, edite el campo **Fecha de confirmación**. Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
@@ -119,7 +119,7 @@ Workfront actualiza automáticamente el estado existente de una tarea a un estad
 
 >[!NOTE]
 >
->Los estados de la tabla siguiente son estados de sistema predeterminados. El administrador de Workfront o de un grupo puede cambiar el nombre de los estados de su instancia de Workfront. Para obtener información sobre la creación y administración de estados en Workfront, consulte [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>Los estados de la tabla siguiente son estados de sistema predeterminados. El administrador de Workfront o de un grupo puede cambiar el nombre de los estados de su instancia de Workfront. Para obtener información sobre cómo crear y administrar estados en Workfront, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -142,9 +142,9 @@ Workfront actualiza automáticamente el estado existente de una tarea a un estad
    <td>En curso</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Haga clic en el botón Iniciar tarea para aceptar el trabajo en una tarea asignada</span> </td> 
+   <td><span>Haga clic en el botón Iniciar tarea para aceptar que se trabaje en una tarea asignada a usted</span> </td> 
    <td><span>Nuevo</span> </td> 
-   <td> <p>Cualquier estado asociado con el botón Iniciar tarea en la configuración de Equipo de inicio.</p> <p>Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar tarea, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por un botón Iniciar</a></span>.</p> <p>Sugerencia: <span>Clic</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">el botón Deshacer</span>después de hacer clic en Iniciar tarea, revierte el estado a Nuevo. </p> </td> 
+   <td> <p>Cualquier estado asociado con el botón Iniciar tarea en la configuración de Equipo de inicio.</p> <p>Para obtener información acerca de cómo reemplazar el botón Trabajar en ello por un botón Iniciar tarea, vea <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por un botón Iniciar</a></span>.</p> <p>Sugerencia: <span>Al hacer clic</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">en el botón Deshacer</span>después de hacer clic en Iniciar tarea, se revierte el estado a Nuevo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

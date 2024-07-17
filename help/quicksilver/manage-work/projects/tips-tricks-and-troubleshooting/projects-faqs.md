@@ -20,13 +20,13 @@ Las siguientes son las preguntas más frecuentes sobre los proyectos.
 
 ### Respuesta
 
-Para utilizar las opciones de inserción, la lista de tareas debe estar ordenada por número. Para ordenar la columna por número, haga clic en **#** en el encabezado de columna a la izquierda de **Nombre de tarea** para recurrir a la tarea por número.
+Para utilizar las opciones de inserción, la lista de tareas debe estar ordenada por número. Para ordenar la columna por número, haga clic en **#** en el encabezado de columna a la izquierda de **Nombre de tarea** para reorganizar la tarea por número.
 
 ## ¿Cuál es la fecha real de finalización?
 
 ### Respuesta
 
-La Fecha real de finalización representa la fecha y la hora en que se completó el trabajo. Para obtener más información, consulte [Descripción general del proyecto Fecha real de finalización](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+La Fecha real de finalización representa la fecha y la hora en que se completó el trabajo. Para obtener más información, vea [Información general sobre la fecha real de finalización del proyecto](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 ## ¿Por qué falta el botón de sangría/ anulación de sangría?
 
@@ -38,7 +38,7 @@ Para utilizar el botón de sangría/ anulación de sangría, asegúrese de que l
 
 Aparece el siguiente mensaje de error cuando intento marcar mi proyecto como completado:
 
-![Project_FAQ_Complete_Error_message.png](assets/project-faq-complete-error-message-350x138.png)
+![Mensaje de error_completo_FAQ_del_proyecto.png](assets/project-faq-complete-error-message-350x138.png)
 
 ### Respuesta
 
@@ -51,7 +51,7 @@ No puede cambiar el estado de un proyecto a completo si tiene alguno de los sigu
 
 ### Respuesta
 
-Si el proyecto tiene el modo de finalización establecido en automático, una vez que se hayan completado todas las tareas y problemas, el estado del proyecto cambiará automáticamente a Completo y no podrá modificarlo a ningún otro estado. El modo de finalización del proyecto debe establecerse a Manual para poder convertir un proyecto completo a Actual. Para obtener más información, consulte [El estado del proyecto no cambiará de completo a actual](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Si el proyecto tiene el modo de finalización establecido en automático, una vez que se hayan completado todas las tareas y problemas, el estado del proyecto cambiará automáticamente a Completo y no podrá modificarlo a ningún otro estado. El modo de finalización del proyecto debe establecerse a Manual para poder convertir un proyecto completo a Actual. Para obtener más información, vea [El estado del proyecto no cambiará de Completo a Actual](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## ¿Por qué no puedo agregar un proyecto a un Portfolio aunque tengo los permisos correctos para hacerlo?
 
@@ -61,11 +61,11 @@ Aunque tengo los permisos correctos, el botón Agregar proyectos no aparece en l
 
 Esto se debe a que el estado del Portfolio es Inactivo. Para cambiar el estado del Portfolio:
 
-1. Haga clic en **Detalles del Portfolio > Información general**.
-1. Cambie el **Estado** hasta **Activo.**
+1. Haz clic en **Detalles del Portfolio > Información general**.
+1. Cambiar **estado** a **Activo.**
 
 1. Haga clic en **Guardar**.\
-   El **Agregar proyectos** ahora debe ser visible en la **Proyectos** pestaña.
+   El botón **Agregar proyectos** ahora debería estar visible en la ficha **Proyectos**.
 
 ## ¿Qué acceso recibe un Administrador de recursos cuando se agrega a un proyecto?
 
@@ -79,7 +79,7 @@ Los administradores de recursos reciben automáticamente acceso de administraci�
 
 Los estados del proyecto cambian debido a los estados predeterminados del grupo. Al agregar un grupo a un proyecto, se cambia la lista de estados a los estados predeterminados establecidos para el grupo.
 
-Para obtener más información, consulte el artículo [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Para obtener más información, consulte el artículo [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## ¿Qué es el estado del presupuesto?
 
@@ -101,4 +101,4 @@ El administrador de Adobe Workfront le ha restringido la visualización de solo 
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Para obtener información sobre cómo permitir que un usuario vea todos los equipos del sistema, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Para obtener información acerca de cómo permitir que un usuario vea todos los equipos del sistema, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

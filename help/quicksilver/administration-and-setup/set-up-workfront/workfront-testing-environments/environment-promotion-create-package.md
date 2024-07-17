@@ -45,7 +45,7 @@ Debe tener lo siguiente:
    <tr>
    <td>Configuraciones de nivel de acceso
    </td>
-   <td>Debe ser un [!DNL Workfront] administrador.
+   <td>Debe ser administrador de [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -54,18 +54,18 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Creación de un paquete
 
-1. Vaya al entorno en el que desea crear el paquete. Este es el entorno en el que está copiando los objetos **de**.
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
-1. Seleccionar **Sistema** en el panel de navegación izquierdo, seleccione **Promoción de entorno**.
-1. Clic **Crear paquete**.
+1. Vaya al entorno en el que desea crear el paquete. Este es el entorno donde está copiando los objetos **de**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Seleccione **Sistema** en el panel de navegación izquierdo, luego seleccione **Promoción de entorno**.
+1. Haga clic en **Crear paquete**.
 
    Se abre la página Nuevo paquete de promociones.
 
-1. En el **Nombre del paquete** , introduzca un nombre para el paquete.
-1. En el **Descripción** , introduzca una descripción para este paquete.
-1. Para añadir un objeto al paquete, haga clic en **Agregar objetos** en el panel de navegación izquierdo, seleccione el tipo de objeto que desea añadir.
+1. En el campo **Nombre del paquete**, escriba un nombre para el paquete.
+1. En el campo **Descripción**, escriba una descripción para este paquete.
+1. Para agregar un objeto al paquete, haga clic en **Agregar objetos** en el panel de navegación izquierdo y seleccione el tipo de objeto que desea agregar.
 1. Seleccione uno o varios objetos de la lista o escriba el nombre en la barra de búsqueda y seleccione el objeto cuando aparezca en la lista. Puede seleccionar más de un objeto en la lista.
-1. Clic **Agregar (objetos X)** para añadir los objetos seleccionados al paquete.
+1. Haga clic en **Agregar (X objetos)** para agregar los objetos seleccionados al paquete.
 
    >[!INFO]
    >
@@ -77,11 +77,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Para agregar otro tipo de objeto, repita los pasos 7-9.
 1. (Opcional) Para eliminar un objeto del paquete, pase el ratón sobre el objeto en el área Contenido del paquete y, a continuación, haga clic en la X junto al objeto.
-1. Una vez añadidos todos los objetos deseados al paquete, haga clic en **Guardar y cerrar** para guardar el paquete sin montarlo.
+1. Una vez que haya agregado todos los objetos deseados al paquete, haga clic en **Guardar y cerrar** para guardar el paquete sin combinarlo.
 
    O
 
-   Clic **Guardar y montar** para guardar y montar el paquete.
+   Haga clic en **Guardar y ensamblar** para guardar y ensamblar el paquete.
 
    >[!NOTE]
    >
@@ -90,14 +90,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Editar o montar un paquete existente
 
-1. Vaya al entorno en el que desea crear el paquete. Este es el entorno en el que está copiando los objetos **de**.
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
-1. Seleccionar **Sistema** en el panel de navegación izquierdo, seleccione **Promoción de entorno**.
+1. Vaya al entorno en el que desea crear el paquete. Este es el entorno donde está copiando los objetos **de**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Seleccione **Sistema** en el panel de navegación izquierdo, luego seleccione **Promoción de entorno**.
 1. Seleccione el paquete en la lista mostrada.
-1. (Condicional) Para ver los paquetes deshabilitados, habilite la variable **Mostrar paquetes retirados** opción.
-1. (Opcional) Para ver el contenido, incluidos todos los objetos y sus subobjetos, haga clic en la flecha desplegable situada junto al tipo de objeto en la **Contenido** sección.
-1. (Opcional) Para ver las instalaciones anteriores y los intentos de instalación de este paquete, haga clic en **Implementaciones**.
+1. (Condicional) Para ver los paquetes deshabilitados, habilite la opción **Mostrar paquetes retirados**.
+1. (Opcional) Para ver el contenido, incluidos todos los objetos y sus subobjetos, haga clic en la flecha desplegable situada junto al tipo de objeto en la sección **Contenido**.
+1. (Opcional) Para ver instalaciones e intentos de instalación anteriores de este paquete, haga clic en **Implementaciones**.
 1. (Opcional) Para editar el paquete, haga clic en **Editar paquete** en la parte superior derecha de la pantalla.
-1. Para instalar el paquete, haga clic en **Instalar** en la parte superior derecha de la pantalla.
+1. Para instalar el paquete, haz clic en **Instalar** en la parte superior derecha de la pantalla.
 
-   Para obtener instrucciones sobre la instalación de un paquete, consulte [Instalación de un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+   Para obtener instrucciones sobre cómo instalar un paquete, consulte [Instalar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

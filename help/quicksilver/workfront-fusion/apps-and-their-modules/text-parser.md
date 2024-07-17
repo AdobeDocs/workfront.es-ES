@@ -4,20 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Analizador de texto
-description: Puede utilizar la herramienta Text parser para analizar el texto y utilizarlo en otros [!DNL Adobe Workfront Fusion] módulos de escenarios. El analizador de texto no requiere una conexión.
+description: Puede usar la herramienta Analizador de texto para analizar el texto y utilizarlo en otros  [!DNL Adobe Workfront Fusion] módulos de escenarios. El analizador de texto no requiere una conexión.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Analizador de texto]
 
-Puede usar el complemento [!UICONTROL Herramienta Analizador de texto] para analizar texto para utilizarlo en otros [!DNL Adobe Workfront Fusion] módulos de escenarios. El [!UICONTROL Analizador de texto] no requiere una conexión.
+Puede usar la [!UICONTROL herramienta de análisis de texto] para analizar texto y utilizarlo en otros módulos de [!DNL Adobe Workfront Fusion] escenarios. El [!UICONTROL analizador de texto] no requiere una conexión.
 
 ## Requisitos de acceso
 
@@ -38,31 +38,31 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Analizador de texto] módulos y sus campos
 
-Al configurar [!UICONTROL Analizador de texto] módulos, [!DNL Adobe Workfront Fusion] muestra los campos que se indican a continuación. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar los módulos de [!UICONTROL Analizador de texto], [!DNL Adobe Workfront Fusion] muestra los campos que se indican a continuación. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -148,15 +148,15 @@ Analiza elementos de texto en función del patrón determinado.
 
 #### [!UICONTROL Patrón de coincidencia]
 
-El [!UICONTROL Patrón de coincidencia] Este módulo permite buscar y extraer elementos de cadena que coincidan con un patrón de búsqueda de un texto determinado. Este módulo utiliza expresiones regulares (también conocidas como regex o regexp).
+El módulo [!UICONTROL Patrón de coincidencia] le permite buscar y extraer elementos de cadena que coincidan con un patrón de búsqueda de un texto determinado. Este módulo utiliza expresiones regulares (también conocidas como regex o regexp).
 
 Una expresión regular es una secuencia de caracteres en la que cada carácter es un metacarácter, que tiene un significado especial, o un carácter regular que tiene un significado literal. Estos caracteres y metacaracteres identifican un patrón que se puede utilizar para buscar texto. Por ejemplo, si desea buscar nombres, puede configurar una expresión regular para buscar un patrón que consista en dos palabras consecutivas que comiencen con mayúsculas. Las expresiones regulares son una potente herramienta para buscar y manipular texto.
 
 El análisis de las expresiones regulares excede el ámbito de este artículo. Recomendamos los siguientes recursos:
 
-* Para ver la lista completa de metacaracteres, consulte [Expresiones regulares](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) en documentos web de MDN.
+* Para obtener la lista completa de metacaracteres, consulte [Expresiones regulares](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) en los documentos web de MDN.
 * Para ver un tutorial sobre cómo crear expresiones regulares, recomendamos [RegexOne](https://regexone.com/).
-* Para experimentar con expresiones regulares, recomendamos el [Expresiones regulares 101](https://regex101.com/) sitio web. Seleccione ECMAScript (JavaScript) FLAVOR en el panel izquierdo.
+* Para experimentar con expresiones regulares, recomendamos el sitio web [Expresiones regulares 101](https://regex101.com/). Seleccione ECMAScript (JavaScript) FLAVOR en el panel izquierdo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -176,7 +176,7 @@ El análisis de las expresiones regulares excede el ámbito de este artículo. R
   </tr> 
   <tr> 
    <td>[!UICONTROL Multilínea] </td> 
-   <td> <p>Active esta opción para asegurarse de que los metacaracteres inicial y final (<code>^</code> y <code>$</code>) coincide con el principio o el final de cada línea, no solo con el principio o el final de toda la cadena de entrada.</p> </td> 
+   <td> <p>Habilite esta opción para asegurarse de que los metacaracteres inicial y final (<code>^</code> y <code>$</code>) coinciden con el principio o final de cada línea, no sólo con el principio o el final de toda la cadena de entrada.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
@@ -203,7 +203,7 @@ Busca un valor o una expresión regular especificados en el texto introducido y 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Patrón] </td> 
-   <td> <p>Introduzca el término de búsqueda. También puede utilizar una expresión regular. Para obtener más información sobre la expresión regular, consulte la <a href="#match-pattern" class="MCXref xref">[!UICONTROL Patrón de coincidencia]</a> módulo.</p> </td> 
+   <td> <p>Introduzca el término de búsqueda. También puede utilizar una expresión regular. Para obtener más información sobre la expresión regular, consulte el módulo <a href="#match-pattern" class="MCXref xref">[!UICONTROL Match Pattern]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nuevo valor]</td> 
@@ -219,7 +219,7 @@ Busca un valor o una expresión regular especificados en el texto introducido y 
   </tr> 
   <tr> 
    <td>[!UICONTROL Multilínea] </td> 
-   <td> <p>Active esta opción para asegurarse de que los metacaracteres inicial y final (<code>^</code> y <code>$</code>) coincide con el principio o el final de cada línea, no solo con el principio o el final de toda la cadena de entrada.</p> </td> 
+   <td> <p>Habilite esta opción para asegurarse de que los metacaracteres inicial y final (<code>^</code> y <code>$</code>) coinciden con el principio o final de cada línea, no sólo con el principio o el final de toda la cadena de entrada.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
@@ -236,4 +236,4 @@ Busca un valor o una expresión regular especificados en el texto introducido y 
 
 El raspado de datos, a veces denominado raspado web, extracción de datos o recolección web, es el proceso de recopilar datos de sitios web y almacenarlos en la base de datos o hojas de cálculo locales. Si desea obtener datos de un sitio web y no está familiarizado con las expresiones regulares, puede utilizar una herramienta de extracción de datos.
 
-Si la herramienta de raspado de datos proporciona una API de REST, puede conectarse a ella a través de nuestro [[!UICONTROL HTTP] módulos](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) y [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) módulos.
+Si la herramienta de raspado de datos proporciona una API de REST, puede conectarse a ella a través de nuestros módulos [[!UICONTROL HTTP] universales](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) y [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).

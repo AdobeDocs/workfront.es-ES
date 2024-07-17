@@ -2,212 +2,200 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Cree un escenario de automatización de prácticas en [!DNL Adobe Workfront Fusion]
+title: Crear un escenario de automatización de prácticas en  [!DNL Adobe Workfront Fusion]
 description: En este artículo se describe cómo crear un escenario de automatización con Adobe Workfront Fusion. Los escenarios de automatización automatizan los procesos de Workfront, incluida la manipulación y transformación de datos. Este ejemplo muestra el proceso de creación de un escenario que busca un proyecto y, a continuación, devuelve todas las tareas asociadas a dicho proyecto.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 8769ed5844e340e007f844370791e93393696819
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
 
-# Cree un escenario de automatización de prácticas en [!DNL Adobe Workfront Fusion]
+# Crear un escenario de automatización de prácticas en [!DNL Adobe Workfront Fusion]
 
-En este artículo se describe cómo crear un escenario de automatización con Adobe Workfront Fusion. Los escenarios de automatización automatizan los procesos de Workfront, incluida la manipulación y transformación de datos. Este ejemplo muestra el proceso de creación de un escenario que busca un proyecto y, a continuación, devuelve todas las tareas asociadas a dicho proyecto.
+Los escenarios de automatización automatizan los procesos de Workfront, incluida la manipulación y transformación de datos. Este artículo explica el proceso de creación de un escenario que busca un proyecto y, a continuación, devuelve todas las tareas asociadas a dicho proyecto.
 
-Para obtener instrucciones sobre la creación de un escenario de integración que conecte aplicaciones independientes, consulte [Creación de un escenario de integración de prácticas en Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+<!-- not sure why these are here?
+For instructions on building an integration scenario that connects separate apps, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
-Para obtener más información sobre la funcionalidad disponible con cada licencia de Workfront Fusion, consulte [Licencias de Adobe Workfront Fusion](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For more information on functionality available with each Workfront Fusion license, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+-->
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] o superior</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
-   <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
-   </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto"> 
+  <tbody>  
+    <tr>  
+      <td>plan de Adobe Workfront</td>  
+      <td>Cualquiera</td>  
+    </tr>  
+    <tr>  
+      <td>Licencia de Adobe Workfront</td>  
+      <td>
+        Nuevo: Estándar<br>
+        O<br>
+        Actual: Trabajo o superior
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Licencia de Adobe Workfront Fusion</td>  
+      <td> 
+        Actual: No se requiere licencia de Workfront Fusion.<br>
+        O<br>
+        Heredado: cualquiera
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Product</td>  
+      <td> 
+        Nuevo: Plan Select or Prime Workfront: su organización debe adquirir Adobe Workfront Fusion.<br>
+        Plan Workfront definitivo: Workfront Fusion está incluido.<br>
+        O<br>
+        Actual: Su organización debe adquirir Adobe Workfront Fusion.
+      </td>  
+    </tr> 
+  </tbody>  
 </table>
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Crear un escenario de práctica
++++
 
-La función de [!DNL Adobe Workfront Fusion] es automatizar sus procesos para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez. Funciona vinculando acciones dentro de las aplicaciones y servicios y entre ellos para crear un escenario que transfiera y transforme los datos automáticamente. El escenario que cree inspecciona los datos de una aplicación o servicio y procesa esos datos para proporcionar el resultado deseado.
+## Crear un escenario de práctica de automatización
 
-Un escenario se compone de una serie de módulos que indican cómo se deben transformar los datos dentro de una aplicación o transferirlos entre aplicaciones y servicios web.
-Este ejemplo muestra el proceso de creación de un escenario que busca un [!DNL Workfront] proyecto y devuelve las tareas del proyecto.
+[!DNL Adobe Workfront Fusion] le ayuda a centrarse en tareas importantes mediante la automatización de las repetitivas. Crea escenarios que administran automáticamente los datos en varias aplicaciones y servicios.
+
+Cada escenario consta de módulos que guían el modo en que los datos se procesan dentro de una aplicación o se transfieren entre diferentes aplicaciones y servicios. Por ejemplo, puede crear un escenario en Fusion para buscar automáticamente un proyecto de [!DNL Workfront] y enumerar sus tareas. De este modo, Fusion le ahorra tiempo y esfuerzo al gestionar las tareas rutinarias.
+
+Este escenario de práctica lo llevará a través del proceso de creación de un escenario que busque un proyecto [!DNL Workfront] y devuelva las tareas del proyecto.
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
-La creación de un escenario consta de varias tareas principales:
+### Antes de empezar
 
-## Elija las aplicaciones y asigne un nombre al escenario
+Cree un proyecto con tareas en Workfront que pueda usar para este ejercicio. No es necesario que realice ninguna configuración adicional aparte de agregar tareas al proyecto.
 
-1. Inicie sesión en su [!DNL Workfront Fusion] cuenta.
-1. Clic **[!UICONTROL Escenarios]** ![](assets/scenarios-icon.png) en el panel izquierdo.
+Para obtener información sobre cómo crear un proyecto en Workfront, consulte xxx.
+
+### 1. Cree y asigne un nombre al escenario
+
+1. Inicie sesión en su cuenta de [!DNL Workfront Fusion].
+1. Haga clic en **[!UICONTROL Escenarios]** ![](assets/scenarios-icon.png) en el panel izquierdo.
 
    >[!NOTE]
    >
-   >Si no ve el panel de navegación izquierdo o sus iconos, haga clic en el menú ![Menú](assets/main-menu-icon-left-nav.png) icono.
+   >Si no ve el panel de navegación izquierdo o sus iconos, haga clic en el icono Menú ![Menú](assets/main-menu-icon-left-nav.png).
 
-   En el gris [!UICONTROL Carpetas] , puede organizar los escenarios en carpetas.
-
-   En la parte superior del área principal a la derecha, puede ver **[!UICONTROL Todo]** escenarios que ha creado, sus **[!UICONTROL Escenarios activos]**, **[!UICONTROL Escenarios inactivos]**, y **[!UICONTROL Conceptos]**. Los conceptos son escenarios en los que es necesario trabajar más antes [!DNL Workfront Fusion] Puede clasificarlos como activos o inactivos.
-
-<!--
-   ![](assets/scenarios-left-panel-350x215.png)
--->
-
-1. En el [!UICONTROL Carpetas] , haga clic en **[!UICONTROL Añadir carpeta]** icono ![](assets/add-folder-icon.png)A continuación, escriba un nombre como &quot;Escenarios de práctica&quot; para la primera carpeta.
+1. En el panel [!UICONTROL **Carpetas**], haga clic en el icono **[!UICONTROL Agregar carpeta]** ![](assets/add-folder-icon.png) y, a continuación, escriba un nombre como &quot;Escenarios de práctica&quot; para la primera carpeta.
 
 1. Abra la carpeta y haga clic en **[!UICONTROL Crear un nuevo escenario]** en la esquina superior derecha de la página.
 
-   La página de aterrizaje que se muestra le permite cargar previamente cualquier aplicación que desee utilizar en el escenario que va a crear.
+1. Para este ejercicio, selecciona la aplicación **[!DNL Adobe Workfront]** y luego haz clic en **Buscar** cerca de la parte inferior.
 
-1. Para este ejercicio, busque y seleccione **[!DNL Workfront]** aplicación.
-1. Clic **[!UICONTROL Continuar]** en la esquina superior derecha.
 
-   El editor de escenarios muestra, con un módulo vacío en el centro, el [!DNL Workfront] La aplicación que ha cargado previamente y algunas opciones en la barra de herramientas de la parte inferior.
+1. Seleccione el nombre del marcador de posición **[!UICONTROL New scenario]** en la esquina superior izquierda y, a continuación, escriba un nombre como &quot;Practice scenario 1&quot;.
 
-<!--
-   ![](assets/scenario-editor-350x235.png)
--->
+   ![](assets/name-the-scenario.png)
 
-Cuando empiece a crear un nuevo escenario, es aconsejable empezar creando un nombre para él.
+1. Continuar con [Conecte el primer módulo](#2-connect-the-first-module) a continuación.
 
-1. Seleccione el **[!UICONTROL Nuevo escenario]** Nombre del marcador de posición en la esquina superior izquierda y, a continuación, escriba un nombre como &quot;Escenario de práctica 1&quot;.
-1. Continuar con [Adición y configuración del primer módulo](#add-and-configure-the-first-module) más abajo.
+### 2. Conecte el primer módulo
 
-## Adición y configuración del primer módulo
+Ahora necesita establecer una conexión autenticada con su cuenta de [!DNL Workfront]. Cada módulo que agregue a un escenario debe tener una conexión con su aplicación.
 
-El módulo vacío con un signo de interrogación representa el módulo de déclencheur que debe agregar. Este módulo iniciará el escenario cada vez que se ejecute. El icono de reloj del módulo vacío indica que es un módulo programado.
-
-![](assets/empty-module.png)
-
-Este módulo contendrá los datos que desea que el escenario observe.
-
-Para este ejemplo, no se utiliza un módulo de déclencheur. En su lugar, este escenario comienza con una búsqueda.
-
-1. Haga clic en el módulo vacío para elegir la aplicación desde la que seleccionará un módulo.
-
-   La aplicación que ha cargado previamente anteriormente se muestra junto al módulo vacío. Puede agregar cualquier otra aplicación que tenga módulos usando [!UICONTROL Buscar] cuadro.
-
-   ![](assets/pre-loaded-app-wf-350x172.png)
-
-1. Clic **[!DNL Workfront]**.
-
-   La lista cambia para mostrar todo [!DNL Workfront] módulos que puede utilizar como módulo de déclencheur.
-
-1. Haga clic en el módulo Buscar **[!UICONTROL Buscar]**.
-
-   Ahora debe establecer una conexión autenticada con su [!DNL Workfront] cuenta. Cada módulo que agregue a un escenario debe tener una conexión con su aplicación.
-
-1. En el **[!DNL Workfront]** cuadro, debajo de **[!UICONTROL Conexión]**, haga clic en **[!UICONTROL Añadir]** A continuación, escriba un nombre para la conexión, como &quot;Cuenta de Workfront de Olivia&quot;, y haga clic en **[!UICONTROL Continuar]**.
+1. En el cuadro **[!DNL Workfront]**, en **[!UICONTROL Conexión]**, haga clic en **[!UICONTROL Agregar]**, escriba un nombre para la conexión, como &quot;Cuenta de Workfront de Olivia&quot;, y haga clic en **[!UICONTROL Continuar]**.
 1. Autentique la conexión en la ventana que aparece.
 
-   El proceso de autenticación de una conexión puede variar un poco entre aplicaciones. El siguiente proceso es específico de [!DNL Workfront], pero el proceso es similar al de muchas aplicaciones.
+   El proceso de autenticación de una conexión puede variar un poco entre aplicaciones. El siguiente proceso es específico de [!DNL Workfront], pero el proceso es similar al de muchas aplicaciones:
 
-   1. Introduzca su [!DNL Workfront] dominio y haga clic en **[!UICONTROL Continuar]**.
+   1. Escriba su dominio [!DNL Workfront] y haga clic en **[!UICONTROL Continuar]**.
    1. Iniciar sesión en [!DNL Workfront].
-   1. Examine el acceso que [!DNL Workfront Fusion] está solicitando y haga clic en **[!UICONTROL Permitir el acceso]**.
+   1. Examine el acceso que [!DNL Workfront Fusion] está solicitando y luego haga clic en **[!UICONTROL Permitir acceso]**.
 
-   Si necesita ayuda, consulte [Información general sobre Conexiones](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Si necesita ayuda, consulte [Información general sobre las conexiones](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
-## Configuración del primer módulo
+### 3. Configurar el primer módulo
 
-Después de conectar [!DNL Workfront Fusion] a su [!DNL Workfront] cuenta, puede especificar una [!DNL Workfront] la cola de solicitudes a la que tiene acceso y los datos que desea que procese el primer módulo.
+Después de conectar [!DNL Workfront Fusion] a su cuenta de [!DNL Workfront], puede especificar un proyecto de [!DNL Workfront] al que tenga acceso y los datos que desea que procese el primer módulo.
 
-1. En el [!UICONTROL Tipo de registro] , seleccione **[!UICONTROL Proyecto]**. Esto configura el módulo para que solo busque proyectos.
-
-   >[!TIP]
-   >
-   >Puede encontrar **[!UICONTROL Proyecto]** en la lista si empieza a escribir la palabra &quot;[!UICONTROL proyecto].&quot;
-
-1. En el **[!UICONTROL Conjunto de resultados]** , seleccione **[!UICONTROL Primer registro coincidente]**. Esto configura el módulo para que devuelva únicamente el primer registro que encuentre que cumpla los criterios. Para este ejemplo, solo necesitamos devolver un registro.
-1. En el **[!UICONTROL Criterios de búsqueda]** área, configuraremos un filtro para devolver el proyecto específico.
-
-   1. En el primer cuadro debajo de [!UICONTROL Criterios de búsqueda], seleccione el campo en el que desea buscar los valores. Para este ejemplo, seleccione **[!UICONTROL Nombre]**.
-   1. Para el operador, seleccione [!UICONTROL Contiene (sin distinción de mayúsculas)]. Esto permite que el módulo encuentre proyectos con las palabras elegidas en el nombre, aunque no introduzca el nombre completo o el nombre con mayúsculas o minúsculas incorrectas (como todas las mayúsculas).
-   1. En el último campo debajo de [!UICONTROL Criterios de búsqueda], escriba una palabra o frase que sepa que está en el nombre del proyecto que está buscando.
-
-1. En el **[!UICONTROL Salidas]** , seleccione los campos de salida que desea que muestre el módulo. Para este ejemplo, seleccione **[!UICONTROL ID]** y **[!UICONTROL Nombre]** campos.
+1. En el cuadro [!UICONTROL Tipo de registro], seleccione **[!UICONTROL Proyecto]**. Esto configura el módulo para que solo busque proyectos.
 
    >[!TIP]
    >
-   >Puede utilizar **Cmd+F** ([!DNL Mac] OS) o **Ctrl-F** ([!DNL Windows] OS) para buscar un campo rápidamente.
+   >Puede encontrar **[!UICONTROL Proyecto]** en la lista si empieza a escribir la palabra &quot;[!UICONTROL proyecto]&quot;.
 
-1. Clic **[!UICONTROL OK]**.
+1. En el cuadro **[!UICONTROL Conjunto de resultados]**, seleccione **[!UICONTROL Primer registro coincidente]**. Esto configura el módulo para que devuelva únicamente el primer registro que encuentre que cumpla los criterios. Para este ejemplo, solo necesitamos devolver un registro.
+1. En el área **[!UICONTROL Criterios de búsqueda]**, configuraremos un filtro para que devuelva el proyecto específico:
+
+   | Campo | Acción |
+   |--------|-------------|
+   | Campos de criterios de búsqueda | Seleccione el campo en el que desea buscar los valores. Para este ejemplo, seleccione **[!UICONTROL Nombre]**. |
+   | Criterios de búsqueda | En el primer menú desplegable, seleccione **[!UICONTROL Nombre]**. |
+   | Operadores básicos | En la segunda lista desplegable, seleccione [!UICONTROL Contiene (sin distinción de mayúsculas y minúsculas)]. Esto permite que el módulo encuentre proyectos con las palabras elegidas en el nombre, aunque no introduzca el nombre completo o el nombre con mayúsculas o minúsculas incorrectas (como todas las mayúsculas). |
+   | Cuadro de texto | Escriba una palabra o frase que sepa que está en el nombre del proyecto que está buscando. |
+
++++ Amplíe para ver un ejemplo en pantalla.
+   ![](assets/search-name.png)
++++
+
+1. En la lista **[!UICONTROL Resultados]**, seleccione los campos de los que desea que salga el módulo. Para este ejemplo, seleccione los campos **[!UICONTROL ID]** y **[!UICONTROL Name]**.
+
+   >[!TIP]
+   >
+   >Puede usar **Cmd+F** ([!DNL Mac] OS) o **Ctrl-F** ([!DNL Windows] OS) para buscar un campo rápidamente.
+
+1. Haga clic en **[!UICONTROL Aceptar]**.
 
    >[!NOTE]
    >
-   >(Solo información) Dado que no se trata de un módulo de déclencheur, no elige dónde iniciarlo. Al utilizar un módulo de déclencheur, ahora debe seleccionar dónde iniciarlo.
+   >Dado que no se trata de un módulo de déclencheur, no elige dónde iniciarlo. Al utilizar un módulo de déclencheur, ahora debe seleccionar dónde iniciarlo.
    >
    >
-   >Para obtener más información, consulte [Elija dónde comienza un módulo de déclencheur en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+   >Para obtener más información, vea [Elegir dónde se inicia un módulo de déclencheur en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
 
-1. Haga clic con el botón derecho en el módulo y seleccione **[!UICONTROL Cambiar nombre]**, escriba un nombre y describa lo que desea que haga el módulo (por ejemplo, &quot;Buscar proyecto&quot;) y haga clic en **[!UICONTROL OK]**.
+1. Haga clic con el botón secundario en el módulo, haga clic en **[!UICONTROL Cambiar nombre]**, escriba un nombre que describa lo que desea que haga el módulo (como &quot;Buscar proyecto&quot;) y, a continuación, haga clic en **[!UICONTROL Aceptar]**.
 
    El nombre aparece justo debajo del módulo. Debajo de eso, [!DNL Workfront Fusion] incluye una breve descripción del tipo de acción realizada por el módulo.
 
    ![](assets/module-renamed-wf.png)
 
-1. Continuar con [Adición y configuración del segundo módulo](#add-and-configure-the-second-module).
+1. Continúe con [Agregar y configurar el segundo módulo](#add-and-configure-the-second-module).
 
-## Adición y configuración del segundo módulo
+### 4. Añada y configure el segundo módulo
 
-1. Haga clic en el círculo parcial a la derecha del del del módulo para **[!UICONTROL Añadir otro módulo]**.
-1. Seleccionar [!DNL Workfront] en la lista de aplicaciones, seleccione el módulo de búsqueda **[!UICONTROL Leer registros relacionados]**.
-1. Ya ha creado una conexión con [!DNL Workfront] para el módulo anterior. No es necesario que vuelva a crearlo aquí, pero debe asegurarse de que este módulo utiliza la misma conexión que el módulo anterior.\
-   En el **[!UICONTROL Conexión]** , seleccione la conexión que creó para el módulo anterior.
-1. Clic **[!UICONTROL Tipo de registro]**, luego seleccione **[!UICONTROL Proyecto]**, porque queremos leer registros relacionados con un proyecto.
+1. Haga clic en el círculo parcial a la derecha del del del módulo para **[!UICONTROL agregar otro módulo]**.
+1. Seleccione [!DNL Workfront] de la lista de aplicaciones y después elija el módulo de búsqueda **[!UICONTROL Leer registros relacionados]**.
+1. En el cuadro **[!UICONTROL Conexión]**, seleccione la conexión que creó para el módulo anterior. Debe asegurarse de que este módulo utiliza la misma conexión que el módulo anterior.
+1. Haga clic en **[!UICONTROL Tipo de registro]** y, a continuación, seleccione **[!UICONTROL Proyecto]**, porque queremos leer registros relacionados con un proyecto.
 
    >[!TIP]
    >
-   >Puede encontrar **[!UICONTROL Proyecto]** en la lista si empieza a escribir la palabra &quot;proyecto&quot;.
+   >Puedes encontrar **[!UICONTROL Proyecto]** en la lista si empiezas a escribir la palabra &quot;proyecto&quot;.
 
-1. Haga clic en **[!UICONTROL Identificador de registro principal]** field. Este campo necesita el Workfront ID del proyecto desde el que desea devolver las tareas.
+1. Haga clic en el campo **[!UICONTROL Identificador de registro principal]**. Este campo necesita el Workfront ID del proyecto desde el que desea devolver las tareas.
 
-   Al hacer clic en el campo se abre la lista de variables que puede utilizar en la variable **[!UICONTROL Identificador de registro principal]** para identificar el proyecto en Workfront.
+   Al hacer clic en el campo, se abre la lista de variables que puede utilizar en el campo **[!UICONTROL Id. de registro principal]** para identificar el proyecto en Workfront.
 
    ![](assets/list-of-available-variables-wf-350x368.png)
 
-1. Haga clic en la variable **[!UICONTROL ID]** para agregarlo al **[!UICONTROL Identificador de registro principal]** field. Esto permite que el ID devuelto por el primer módulo se utilice como identificador del proyecto con el que desea trabajar en el segundo módulo, lo que garantiza que las tareas devueltas pertenezcan a ese proyecto.
-1. En el **[!UICONTROL Colecciones]** , seleccione **[!UICONTROL Tareas]**. Esto indica que el módulo debe devolver las tareas asociadas con el proyecto elegido.
-1. Clic **[!UICONTROL OK]**
+1. Haga clic en la variable **[!UICONTROL ID]** para agregarla al campo **[!UICONTROL Id. de registro principal]**. Esto permite que el ID devuelto por el primer módulo se utilice como identificador del proyecto con el que desea trabajar en el segundo módulo, lo que garantiza que las tareas devueltas pertenezcan a ese proyecto.
+1. En el campo **[!UICONTROL Colecciones]**, seleccione **[!UICONTROL Tareas]**. Esto indica que el módulo debe devolver las tareas asociadas con el proyecto elegido.
+1. En el campo **[!UICONTROL Resultados]**, seleccione **[!UICONTROL Id]** y **[!UICONTROL Nombre]**.
+1. Haga clic en **[!UICONTROL Aceptar]**
 
    Ahora tiene un escenario de trabajo.
 
-1. Asigne un nombre al segundo módulo, como &quot;Devolver tareas asociadas con el proyecto&quot; y, a continuación, continúe con [Prueba del escenario](#test-the-scenario).
+1. Asigne un nombre al segundo módulo, como &quot;Devolver tareas asociadas con el proyecto&quot; y, a continuación, continúe con [Probar el escenario](#test-the-scenario).
 
 ## Prueba del escenario
 
@@ -215,7 +203,7 @@ Antes de activar el escenario, es importante probarlo ejecutándolo al menos una
 
 Elegimos que se devolviera 1 proyecto, así como las tareas asociadas con dicho proyecto. Si ejecuta el escenario, eso es lo que debería suceder.
 
-1. Clic **[!UICONTROL Ejecutar una vez]** en la esquina inferior izquierda del editor de escenarios.
+1. Haga clic en **[!UICONTROL Ejecutar una vez]** en la esquina inferior izquierda del editor de escenarios.
 1. Una vez que el escenario termine de ejecutarse, haga clic en la burbuja situada encima del primer módulo.
 
    ![](assets/click-bubble.png)
@@ -230,10 +218,10 @@ Elegimos que se devolviera 1 proyecto, así como las tareas asociadas con dicho 
 
    Puede obtener más información sobre cómo leer la información de ejecución de escenarios en los siguientes artículos:
 
-   * Para obtener información general, consulte [Flujo de ejecución de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * Para obtener información sobre los paquetes procesados, consulte [Ejecución de escenarios, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * Para obtener información general, vea [Flujo de ejecución de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * Para obtener información acerca de los paquetes procesados, vea [Ejecución de escenarios, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-1. Entrada [!DNL Workfront Fusion], haga clic en **[!UICONTROL Guardar]** ![](assets/save-icon.png) cerca de la esquina inferior izquierda para guardar el progreso del escenario.
+1. En [!DNL Workfront Fusion], haga clic en **[!UICONTROL Guardar]** ![](assets/save-icon.png) cerca de la esquina inferior izquierda para guardar su progreso en el escenario.
 
    >[!IMPORTANT]
    >
@@ -243,24 +231,22 @@ Elegimos que se devolviera 1 proyecto, así como las tareas asociadas con dicho 
 >
 >Recomendamos la práctica opcional pero útil de agregar notas sobre cada módulo.
 >
->1. Haga clic con el botón derecho en [!DNL Workfront] módulo y haga clic en **[!UICONTROL Añadir una nota]**.
+>1. Haga clic con el botón secundario en un módulo de [!DNL Workfront] y luego haga clic en **[!UICONTROL Agregar una nota]**.
 >1. En la nota que se muestra, escriba una descripción general del módulo.
 >
 >    Puede agregar varias notas para un módulo.
 >
->1. Cierre el **[!UICONTROL Notas]** área.
+>1. Cierre el área **[!UICONTROL Notas]**.
 >
->     Después de agregar una nota a un escenario, aparece un punto naranja en la etiqueta **[!UICONTROL Notas]** icono ![](assets/notes-icon-w-dot.png) en la parte inferior del editor de escenarios.
+>     Después de agregar una nota a un escenario, aparece un punto naranja en el icono **[!UICONTROL Notas]** ![](assets/notes-icon-w-dot.png) en la parte inferior del editor de escenarios.
 >
->1. Haga clic en **[!UICONTROL Notas]** icono ![](assets/notes-icon-w-dot.png) para ver las notas.
+>1. Haga clic en el icono **[!UICONTROL Notas]** ![](assets/notes-icon-w-dot.png) para ver sus notas.
 >
-
-
 
 ## Activación del escenario
 
 Este escenario de ejemplo no tiene un módulo de déclencheur. Si este fuera un escenario que usaría para datos reales, empezaría con un módulo de déclencheur y lo último que haría es activarlo. Después de activar un escenario, de forma predeterminada, se ejecuta cada 15 minutos. Puede cambiar esto definiendo cuándo y con qué frecuencia desea que se ejecute.
 
-Para obtener más información sobre la activación de escenarios, consulte [Activación o desactivación de un escenario en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+Para obtener más información sobre cómo activar escenarios, consulte [Activar o desactivar un escenario en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 Para obtener información sobre las programaciones, consulte [Programar un escenario en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).

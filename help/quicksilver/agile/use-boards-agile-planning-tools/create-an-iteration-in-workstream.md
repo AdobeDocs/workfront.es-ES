@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * En la ficha Lista de tarjetas, en la vista de iteración, haga clic en [!UICONTROL **Crear iteración**].
    * En la ficha Lista de tarjetas, en la vista de lista, haga clic en [!UICONTROL **Crear iteración**].
-   * En la pestaña Tableros, haga clic en [!UICONTROL **Añadir tablero**] y seleccione [!UICONTROL **Proceso de iteración**] como plantilla del tablero. A continuación, abra el panel de iteraciones y haga clic en [!UICONTROL **Configuración de iteraciones**].
+   * En la ficha Tableros, haga clic en [!UICONTROL **Agregar tablero**] y seleccione [!UICONTROL **Proceso de iteración**] como plantilla del tablero. A continuación, abra el panel de iteraciones y haga clic en [!UICONTROL **Configurar iteraciones**].
 
 1. En el cuadro de diálogo Detalles de iteración, agregue la siguiente información:
 
@@ -77,17 +77,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    La iteración ahora aparece en la vista de iteración de la lista de tarjetas y en el área de métricas del panel de iteraciones.
 
-   Para añadir tarjetas a una iteración, consulte [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Para agregar tarjetas a una iteración, vea [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Editar una iteración existente
 
 1. Para abrir un flujo de trabajo, haga clic en [!UICONTROL **Ver flujo de trabajo**].
 1. Abra la iteración utilizando uno de estos métodos:
 
-   * En la ficha Lista de tarjetas, en la vista de iteración, haga clic en [!UICONTROL **Detalles de iteración**] icono ![Detalles de iteración](assets/iteration-details-button.png).
-   * En el tablero de iteraciones, haga clic en [!UICONTROL **Detalles de iteración**] icono ![Detalles de iteración](assets/iteration-details-button.png) en el área de métricas, en la parte superior derecha.
+   * En la ficha Lista de tarjetas, en la vista de iteración, haga clic en el icono [!UICONTROL **Detalles de iteración**] ![Detalles de iteración](assets/iteration-details-button.png).
+   * En el panel de iteraciones, haga clic en el icono [!UICONTROL **Detalles de iteración**] ![Detalles de iteración](assets/iteration-details-button.png) en el área de métricas de la parte superior derecha.
 
-1. En el [!UICONTROL Configuración de iteración] , edite la iteración según sea necesario.
+1. En el panel [!UICONTROL Configuración de iteración], edite la iteración según sea necesario.
 1. Para cambiar el nombre de la iteración, expanda [!UICONTROL **Detalles de iteración**].
 
    Una vez iniciada una iteración, sólo se puede cambiar el nombre de la iteración y no las fechas o la longitud de la iteración.
@@ -115,6 +115,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Eliminación de una iteración
 
-1. Haga clic en [!UICONTROL **Lista de tarjetas**] en el flujo de trabajo y abra la vista de iteración.
-1. Haga clic en **Eliminar** icono ![Icono Eliminar](assets/delete.png) junto a la iteración.
-1. Clic [!UICONTROL **Eliminar iteración**] en el mensaje de confirmación.
+1. Haga clic en la ficha [!UICONTROL **Lista de tarjetas**] del flujo de trabajo y abra la vista de iteración.
+1. Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) junto a la iteración.
+1. Haga clic en [!UICONTROL **Eliminar iteración**] en el mensaje de confirmación.

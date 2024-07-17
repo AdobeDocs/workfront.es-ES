@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Agile realizadas con la versión 22.4 en el entorno de vista previa. Estas mejoras estarán disponibles la semana del 3 de octubre de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Información general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Descripción general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Columna de admisión disponible en tableros
 
@@ -29,9 +29,9 @@ La columna de entrada puede servir como columna de registro de asuntos pendiente
 
 Solo se permite una columna de admisión en un tablero.
 
-Para obtener más información, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
+Para obtener más información, vea [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Panel de filtro actualizado en tableros
 
@@ -39,9 +39,9 @@ NOTA: Esta función solo está disponible mediante la inclusión de funciones an
 
 Los iconos de filtro y búsqueda de un tablero se han movido a la izquierda de la pantalla. Al hacer clic en el icono de filtro, se abre un panel a la izquierda para mostrar todas las opciones de filtro. Anteriormente, los filtros se mostraban en una lista desplegable en el lado derecho del tablero.
 
-Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Para obtener más información, vea [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Uso de grupos en un tablero para crear rutas de baño
 
@@ -51,9 +51,9 @@ También puede definir lo que sucede cuando una tarjeta se mueve de un grupo a o
 
 Las tarjetas de la columna de entrada no se incluyen en un grupo.
 
-Para obtener más información, consulte [Uso de grupos en un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
+Para obtener más información, consulte [Usar grupos en un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Mejoras en los elementos de listas de comprobación de los tableros
 
@@ -63,7 +63,7 @@ Para obtener más información, consulte [Uso de grupos en un tablero](/help/qui
 
 Abrir un elemento de la lista de comprobación en una tarjeta ahora le permite agregar información más detallada sobre el elemento, incluida una descripción, fecha de vencimiento, usuarios asignados y estimación. También puede copiar un elemento de lista de comprobación, que no estaba disponible anteriormente.
 
-Para obtener más información, consulte [Administrar elementos de listas de comprobación en tarjetas](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Para obtener más información, consulte [Administrar elementos de lista de comprobación en tarjetas](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
 ## Agregar un equipo a un tablero o a una tarjeta
 
@@ -75,9 +75,9 @@ Ahora puede agregar un equipo como miembro del tablero. Los miembros individuale
 
 Después de agregar el equipo al tablero, puede asignarlo a las tarjetas. En las tarjetas conectadas, solo se permite una asignación de equipo. En las tarjetas Ad Hoc, puede asignar más de un equipo.
 
-Para obtener más información, consulte [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Para obtener más información, vea [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## El límite de trabajo en curso ya está disponible en las columnas de tablero
 
@@ -89,7 +89,7 @@ Ahora puede establecer un límite de trabajo en curso (WIP) para cualquier colum
 
 Para obtener más información, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Campo de estimación añadido a las tarjetas
 
@@ -99,4 +99,4 @@ Para obtener más información, consulte [Administrar columnas del tablero](/hel
 
 Un nuevo campo Estimación en las tarjetas ad hoc y conectadas le permite introducir el número estimado de horas para completar la tarjeta. Es una entrada manual, no un valor calculado, y el valor no puede ser superior a 99. La estimación se muestra en la tarjeta del tablero, así como en los detalles de la tarjeta.
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412872/){target=_blank}

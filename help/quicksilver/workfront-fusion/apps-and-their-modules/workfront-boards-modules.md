@@ -16,17 +16,17 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront] Módulos de tableros
+# [!DNL Adobe Workfront] módulos de tableros
 
 >[!NOTE]
 >
->Este conector está actualmente en versión beta.
+>Este conector se encuentra actualmente en Beta.
 
 Los tableros de Adobe Workfront son herramientas flexibles que permiten la colaboración en equipo al proporcionar acceso a un tablero compartido que contiene columnas y tarjetas.
 
 Puede utilizar los módulos de Tableros de Adobe Workfront para leer o actualizar registros, realizar una llamada de API a la API de Tableros de Workfront o almacenar en déclencheur un escenario cuando se produzca una acción en un tablero.
 
-Para obtener información general sobre los tableros de Workfront, consulte [Información general de tableros](/help/quicksilver/agile/boards-overview.md).
+Para obtener información general sobre los paneles de Workfront, consulte [Información general sobre paneles](/help/quicksilver/agile/boards-overview.md).
 
 ## Requisitos de acceso
 
@@ -47,17 +47,17 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -80,7 +80,7 @@ Debe tener configurado un tablero en Adobe Workfront para poder conectarse a él
 
 Para crear una conexión de Workfront Boards:
 
-1. En cualquier [!DNL Adobe Workfront Boards] , haga clic en **[!UICONTROL Añadir]** situado junto al cuadro Conexión.
+1. En cualquier módulo de [!DNL Adobe Workfront Boards], haga clic en **[!UICONTROL Agregar]** junto al cuadro Conexión.
 
 1. Rellene los campos siguientes:
 
@@ -106,11 +106,11 @@ Para crear una conexión de Workfront Boards:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL ID de cliente]<p>(Opcional)</p></td>
-          <td>Introduzca su [!DNL Adobe] [!UICONTROL ID de cliente]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].</td>
+          <td>Escriba su [!UICONTROL Client ID] [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Secreto de cliente]<p>(Opcional)</p></td>
-          <td>Introduzca su [!DNL Adobe] [!UICONTROL Secreto de cliente]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+          <td>Escriba su [!UICONTROL Secreto de cliente] [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL URL de autenticación]<p>(Opcional)</p></td>
@@ -122,13 +122,13 @@ Para crear una conexión de Workfront Boards:
         </tr>
       </tbody>
     </table>
-1. Clic **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
+1. Haga clic en **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
 
 ## Módulos de tableros de Adobe Workfront y sus campos
 
-Al configurar los módulos de Tableros de Workfront, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, pueden mostrarse campos adicionales de Tableros de Workfront, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar los módulos de los paneles de Workfront, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, pueden mostrarse campos adicionales de Tableros de Workfront, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -203,7 +203,7 @@ Este módulo de acción agrega un elemento de lista de comprobación a la tarjet
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
@@ -226,7 +226,7 @@ Este módulo de acción agrega una subtarea a una tarjeta en los paneles. La tar
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de tarjeta principal]</td> 
@@ -253,7 +253,7 @@ Este módulo de acción crea una nueva tarjeta en un tablero de Workfront.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de tablero]</td> 
@@ -280,7 +280,7 @@ Este módulo de acción mueve una tarjeta a una columna diferente en el mismo ta
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
@@ -311,7 +311,7 @@ Este módulo de acción recupera información sobre una tarjeta específica.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
@@ -330,7 +330,7 @@ Este módulo de acción actualiza la información de una tarjeta especificada.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
@@ -366,7 +366,7 @@ Este módulo de acción crea un tablero en Workfront. Puede especificar el tipo 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nombre de tablero]</td> 
@@ -389,7 +389,7 @@ Este módulo de acción devuelve información sobre un único tablero, como las 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de tablero]</td> 
@@ -414,7 +414,7 @@ Este módulo de acción crea una nueva columna en el tablero especificado.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de tablero]</td> 
@@ -445,7 +445,7 @@ Este módulo de búsqueda devuelve información sobre la columna con el nombre e
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de tablero]</td> 
@@ -468,7 +468,7 @@ Este módulo de acción actualiza el nombre o el límite de trabajo en curso de 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de tablero]</td> 
@@ -496,7 +496,7 @@ Este módulo de acción agrega una etiqueta a una tarjeta.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
@@ -523,7 +523,7 @@ Este módulo de acción crea una etiqueta nueva y le asigna un color.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Id. de tablero]</td> 
@@ -555,7 +555,7 @@ Este módulo de acción creó un comentario en la tarjeta especificada.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
@@ -578,7 +578,7 @@ Este módulo de acción recupera los comentarios de la tarjeta especificada.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID de tarjeta]</td> 
@@ -603,15 +603,15 @@ Este módulo de acción realiza una llamada personalizada a la API de Workfront 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones acerca de cómo conectar su [!DNL Workfront] aplicación a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creación de una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
+      <td> <p>Puede utilizar una conexión existente de Workfront para conectarse a los tableros de Workfront o puede utilizar una conexión específica de los tableros de Workfront. </p><p>Para obtener instrucciones sobre cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], consulte <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Crear una conexión a los paneles de Workfront</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Introduzca una ruta relativa a<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
+   <td> <p>Escriba una ruta relativa a <code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p><p>Para la mayoría de las llamadas de tableros, el método es POST. </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p><p>Para la mayoría de las llamadas de tableros, el método es POST. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -623,11 +623,11 @@ Este módulo de acción realiza una llamada personalizada a la API de Workfront 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cuerpo]</td> 
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de Graphql incrustado de JSON </p> <p>Ejemplo:</p><p>En este ejemplo se actualiza un nombre de columna. Puede incluir la variable <code>boardId</code> y <code>columnId</code> como GUID codificados o asignados desde un módulo anterior.<p><pre>{
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de Graphql incrustado de JSON </p> <p>Ejemplo:</p><p>En este ejemplo se actualiza un nombre de columna. Puede incluir <code>boardId</code> y <code>columnId</code> como GUID codificados o asignados desde un módulo anterior.<p><pre>{
 
   &quot;query&quot;: &quot;mutation { updateColumn(boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }) { id name }}&quot;
 
-}</pre><p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p>
+}</pre><p>Nota:  <p>Cuando se usan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>

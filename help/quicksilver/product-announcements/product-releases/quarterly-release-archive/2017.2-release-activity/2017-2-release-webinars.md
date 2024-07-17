@@ -20,11 +20,11 @@ Estos seminarios web se centraron en la funcionalidad incluida en la versión 20
 
 La versión 2017.2 está disponible actualmente para probarla en la versión de vista previa; la versión 2017.2 estará disponible en el entorno de producción el a finales de julio o principios de agosto de 2017.
 
-Para obtener información más detallada sobre las funciones incluidas en los seminarios web, consulte la [información general sobre la actividad de la versión 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) página.
+Para ver información más detallada sobre la funcionalidad que se cubre en los seminarios web, consulte la página de [descripción general de la actividad de la versión 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
 Las siguientes grabaciones de seminarios web están disponibles:
 
-* [Seminario web sobre la versión 2017.2 (27 de junio de 2017)](#2017-2-release-webinar-june-27-2017)
+* Seminario web sobre la versión [2017.2 (27 de junio de 2017)](#2017-2-release-webinar-june-27-2017)
 * [2017.2 Beta 1 y 2 (24 de mayo de 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
 ## Seminario web sobre la versión 2017.2 (27 de junio de 2017) {#2017-2-release-webinar-june-27-2017}
@@ -38,7 +38,7 @@ Para su comodidad, el seminario web se divide en los siguientes temas:
 * [Revisión](#proofing)
 * [Otras mejoras](#other-enhancements)
 * [Móvil](#mobile)
-* [Funcionalidad que se elimina](#functionality-being-removed)
+* [Se Está Eliminando La Funcionalidad](#functionality-being-removed)
 * [Administradores y desarrolladores](#administrators-and-developers)
 
 ### Introducción {#introduction}
@@ -102,4 +102,4 @@ Esta parte del seminario web contiene los siguientes temas:
 
 ## 2017.2 Beta 1 y 2 (24 de mayo de 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-El seminario web de la versión se presentó el 24 de mayo de 2017. Este seminario web abarcó la funcionalidad disponible con las versiones beta 1 y beta 2 de 2017.2.
+El seminario web de la versión se presentó el 24 de mayo de 2017. Este seminario web abarcó la funcionalidad disponible con las versiones de 2017.2 de Beta 1 y Beta 2.

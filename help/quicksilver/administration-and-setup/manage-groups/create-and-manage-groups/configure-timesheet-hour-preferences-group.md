@@ -30,11 +30,11 @@ Las siguientes secciones de la página Preferencias de plantilla de horas y hora
 
 * Proyectos, tareas y problemas eliminados
 
-Para obtener información sobre cómo un administrador de Workfront desbloquea una plantilla de horas y preferencias de hora, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener información sobre cómo un administrador de Workfront desbloquea una hoja de horas y preferencias de horas, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->La configuración de nivel de grupo también es posible para las preferencias de proyecto y para las preferencias de tarea y problema. Para obtener más información, consulte [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>La configuración de nivel de grupo también es posible para las preferencias de proyecto y para las preferencias de tarea y problema. Para obtener más información, vea [Configurar las preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configurar las preferencias de tarea y problema para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Requisitos de acceso
 
@@ -73,7 +73,7 @@ Tenga en cuenta la siguiente información sobre la configuración de una plantil
   Add example here?
   -->
 
-* Una vez que un administrador de Workfront desbloquea una preferencia en el sistema y usted la configura para su grupo, puede bloquearla para asegurarse de que todos los miembros de los grupos debajo del suyo estén usando la misma configuración. Esto es paralelo a la capacidad que tiene un administrador de Workfront para configurar y bloquear una preferencia para todos los miembros del sistema. Para obtener más información, consulte [Bloquear o desbloquear una plantilla de horas de grupo y sus preferencias horarias](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Una vez que un administrador de Workfront desbloquea una preferencia en el sistema y usted la configura para su grupo, puede bloquearla para asegurarse de que todos los miembros de los grupos debajo del suyo estén usando la misma configuración. Esto es paralelo a la capacidad que tiene un administrador de Workfront para configurar y bloquear una preferencia para todos los miembros del sistema. Para obtener más información, consulte [Bloquear o desbloquear una hoja de horas de grupo y preferencia de horas](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Configurar una hoja de horas o preferencia de horas desbloqueadas para un grupo
 
@@ -81,14 +81,14 @@ Tenga en cuenta la siguiente información sobre la configuración de una plantil
 >
 >Si es administrador de Workfront, puede omitir los pasos del 1 al 4 en Configuración > Plantilla de horas y Horas > Preferencias y, a continuación, buscar el nombre del grupo en el cuadro de la parte superior de la página.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo cuya hoja de horas o preferencias de hora desee configurar.
 1. En el panel izquierdo, haga clic en **Hojas de horas y horas**.
 
-1. En la página que se muestra, en la variable **Preferencias generales** , configure cualquiera de las siguientes opciones:
+1. En la página que se muestra, en la sección **Preferencias generales**, configure cualquiera de las siguientes opciones:
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Tenga en cuenta la siguiente información sobre la configuración de una plantil
        <li>Sus hojas de horas como Hora general</li>
        </ul> 
        <p>Esto resulta útil cuando los usuarios planean estar fuera de la oficina y desean registrar esa hora de antemano.</p> 
-       <p><b>NOTA</b>: no puede evitar que los usuarios registren el tiempo en tareas o problemas que se han cerrado o cancelado. Solo puede evitar que los usuarios registren el tiempo en proyectos completos o inactivos. Le recomendamos que utilice filtros en listas de tareas y problemas para excluir de la visibilidad a los usuarios los que se hayan completado o cancelado.</p> </td> 
+       <p><b>NOTA</b>: no puede evitar que los usuarios registren la hora en tareas o problemas que se hayan cerrado o cancelado. Solo puede evitar que los usuarios registren el tiempo en proyectos completos o inactivos. Le recomendamos que utilice filtros en listas de tareas y problemas para excluir de la visibilidad a los usuarios los que se hayan completado o cancelado.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Agregar gastos de una hoja de horas</td> 
@@ -138,7 +138,7 @@ Tenga en cuenta la siguiente información sobre la configuración de una plantil
     </tbody> 
    </table>
 
-1. En el **Donde los usuarios pueden registrar el tiempo** , configure cualquiera de las siguientes opciones:
+1. En la sección **Donde los usuarios pueden registrar el tiempo**, configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Tenga en cuenta la siguiente información sobre la configuración de una plantil
    >
    >Esta preferencia se aplica según la configuración de las preferencias del grupo de inicio del usuario. Si esta configuración está habilitada en las preferencias de grupo de inicio del usuario, podrá registrar tiempo directamente en los proyectos, incluidos los proyectos completados o inactivos, independientemente de si las preferencias de grupo del proyecto lo permiten o no.
 
-1. En el **Rellenar de forma previa hojas de horas** , configure cualquiera de las siguientes opciones:
+1. En la sección **Rellenar previamente hojas de horas**, configure cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Trabajo que se encuentra dentro &lt;number of="" weeks=""&gt; del rango de trabajo de la hoja de horas</td> 
+      <td role="rowheader">Trabajo que se encuentra dentro de un &lt;number of week&gt; del intervalo de trabajo de la plantilla de horas</td> 
       <td> <p>Define el número de semanas antes y después del intervalo de fechas de la hoja de horas que contiene las fechas de las tareas y problemas asignados al usuario. La configuración predeterminada es 1 semana y puede ampliar este intervalo a 4 semanas. Esto significa que la hoja de horas se rellena previamente con tareas y problemas que tienen fechas entre cuatro semanas antes del intervalo de fechas de la hoja de horas y hasta cuatro semanas después del intervalo de fechas de la hoja de horas, si selecciona 4 semanas para el intervalo de fechas. </p> </td> 
      </tr> 
      <tr> 

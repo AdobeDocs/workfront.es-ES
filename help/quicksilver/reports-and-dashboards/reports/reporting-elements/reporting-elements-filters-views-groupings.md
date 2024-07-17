@@ -35,11 +35,11 @@ Tenga en cuenta lo siguiente al trabajar con filtros, vistas y agrupaciones:
 * Los informes de Workfront son específicos de un objeto. Debe definir el objeto principal de un informe antes de poder crear el informe. Por lo tanto, todos los elementos de la creación de informes son específicos del objeto.
 * El administrador de Workfront debe otorgarle acceso a filtros, vistas y agrupaciones en su nivel de acceso para poder verlos o editarlos en listas e informes.
 
-  Para obtener información sobre la concesión de acceso a filtros, vistas y agrupaciones, consulte [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Para obtener información sobre cómo conceder acceso a filtros, vistas y agrupaciones, vea [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * El administrador de Workfront debe otorgarle acceso a los informes, tableros y calendarios de su nivel de acceso para poder ver o editar informes.
 
-  Para obtener información sobre la concesión de acceso a informes, paneles y calendarios, consulte [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Para obtener información sobre cómo conceder acceso a informes, paneles y calendarios, vea [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Si selecciona un filtro, una vista o una agrupación en un informe o una lista, Workfront conserva esta selección para las listas de ese objeto incluso después de cerrar la sesión o cerrar el explorador. Por ejemplo, si selecciona una vista específica para un informe de tareas, esa selección aparece para otras listas de tareas, como la lista de tareas de un proyecto.
 
@@ -54,7 +54,7 @@ Algunos atributos de los filtros son:
 * Workfront proporciona una serie de filtros para varios objetos de forma predeterminada.
 * Puede personalizar los filtros que administra o que es suyo.
 
-  Para obtener más información sobre los filtros, consulte el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obtener más información acerca de los filtros, vea el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ![Icono de filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
@@ -69,7 +69,7 @@ Algunos atributos de las vistas son:
 * Puede aplicar vistas adicionales desde el campo desplegable Vista después de ejecutar un informe.
 * Las vistas adicionales reemplazan temporalmente la vista que se define al crear el informe; sin embargo, la vista predeterminada se muestra la próxima vez que vuelva al informe.
 
-  Para obtener más información sobre las vistas, consulte el artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Para obtener más información acerca de las vistas, vea el artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Agrupaciones
 
@@ -83,7 +83,7 @@ Algunos atributos de las agrupaciones son:
 * Las agrupaciones muestran un valor agregado en los resultados&#x200B;
 * Las agrupaciones determinan el eje en los gráficos.
 * Las agrupaciones determinan la identificación del encabezado en los informes de matriz.\
-  Para obtener más información sobre los informes de matriz, consulte el artículo [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  Para obtener más información acerca de los informes de matriz, vea el artículo [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * Las agrupaciones ayudan a crear la pestaña Resumen de un informe, que proporciona los valores agregados del informe.
 * Workfront proporciona una serie de agrupaciones para diferentes objetos de forma predeterminada.
@@ -95,8 +95,8 @@ Algunos atributos de las agrupaciones son:
 
 Además de los filtros, las vistas y las agrupaciones, también puede agregar los siguientes elementos a un informe:
 
-* **Preguntar**: Filtro abierto que se puede personalizar y aplicar de forma diferente cada vez que se ejecuta un informe.\
-  Para obtener más información sobre los indicadores, consulte el artículo [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Mensaje**: Un filtro abierto que se puede personalizar y aplicar de forma diferente cada vez que se ejecuta un informe.\
+  Para obtener más información acerca de las solicitudes, vea el artículo [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Gráfico**: Puede mejorar los informes añadiéndoles un gráfico y mostrándoles la información de forma visual.\
-  Para obtener más información sobre los gráficos de los informes, consulte el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **Gráfico**: puede mejorar los informes agregándoles un gráfico y mostrándoles la información de forma visual.\
+  Para obtener más información sobre los gráficos de los informes, vea el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

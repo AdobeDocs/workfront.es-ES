@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Project realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.4, consulte [Descripción general de la versión 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Incluir imágenes en las actualizaciones
 
@@ -27,9 +27,9 @@ Puede agregar imágenes tanto en las actualizaciones como en las respuestas. Una
 
 Anteriormente, la única manera de compartir una imagen en Workfront era adjuntarla a un objeto como documento. Las imágenes agregadas en la ficha Actualizaciones sólo están disponibles en esa ficha y no en la ficha Documentos.
 
-Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para que los usuarios de Workfront puedan incluir imágenes en las actualizaciones, el administrador de Adobe Workfront debe habilitar primero esta función, tal como se describe en [Configurar preferencias para actualizaciones de usuarios](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Para que los usuarios de Workfront puedan incluir imágenes en las actualizaciones, el administrador de Adobe Workfront debe habilitar primero esta característica, tal como se describe en [Configurar las preferencias para las actualizaciones de usuarios](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 ## Algoritmo actualizado para asignaciones inteligentes
 
@@ -37,7 +37,7 @@ Hemos mejorado el algoritmo utilizado al realizar asignaciones inteligentes. Con
 
 Antes de esta mejora, Workfront tenía en cuenta las asignaciones de las tareas principales y otros atributos de usuario relacionados con esas asignaciones al sugerir usuarios.
 
-Para obtener información sobre las asignaciones inteligentes, consulte [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Para obtener información acerca de las asignaciones inteligentes, vea [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Nueva experiencia al crear un proyecto a partir de una plantilla
 
@@ -48,7 +48,7 @@ Para que el uso de Workfront sea coherente con la nueva experiencia de Workfront
 
 Hemos actualizado la interfaz para crear el proyecto tanto al crearlo desde el área Proyectos como desde el área Plantillas.
 
-Para obtener más información, [Creación de un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Para obtener información, [Cree un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Nueva experiencia al adjuntar plantillas a proyectos
 
@@ -62,7 +62,7 @@ Para que el uso de Workfront sea coherente con la nueva experiencia de Workfront
 * Agregar plantillas a una lista de favoritos durante el proceso de datos adjuntos
 * Ver todas las opciones para administrar la configuración de plantillas y proyectos en una página continua
 
-Para obtener más información, consulte [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Para obtener información, vea [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Valores unificados de duración y unidad de duración para tareas
 
@@ -97,5 +97,5 @@ Esto depende de cómo coloque los campos en el formulario personalizado: si colo
 
 Para obtener información sobre cómo rellenar un formulario personalizado, consulte [Editar información en campos de formulario personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-Para obtener información sobre la creación de un campo de casilla de verificación o de botón de opción en un formulario personalizado, consulte las secciones [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) y [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) en el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener información sobre cómo crear un campo de casilla de verificación o de botón de opción en un formulario personalizado, consulte las secciones [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) y [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) en el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

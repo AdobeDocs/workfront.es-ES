@@ -3,7 +3,7 @@ content-type: reference
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Utilizar la vista de Adobe Workfront
-description: Revise estos artículos para aprender a utilizar [!DNL Adobe Workfront] Ver.
+description: Revise estos artículos para aprender a usar  [!DNL Adobe Workfront] Ver.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ---
 
-# Uso [!DNL Adobe Workfront View]
+# Usar [!DNL Adobe Workfront View]
 
 Esta sección contiene los siguientes artículos:
 
-* [Introducción a [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
-* [Mostrar proyectos en [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
-* [Filtrado de listas de proyectos en [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
-* [Actualizar widgets en la [!UICONTROL Detalles del proyecto] vista](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
-* [Añadir actualizaciones en [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
+* [Introducción a  [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
+* [Mostrar proyectos en  [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
+* [Filtrar listas de proyectos en  [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
+* [Actualizar widgets en la vista [!UICONTROL Detalles del proyecto]](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
+* [Agregar actualizaciones en  [!DNL Adobe Workfront View]](../../../workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)

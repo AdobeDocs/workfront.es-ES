@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
@@ -62,12 +62,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 ## Configurar ajustes del visor de revisión
 
@@ -75,32 +75,32 @@ Para configurar el visor de revisiones:
 
 1. Abra el Visor de corrección web o el Visor de corrección de escritorio de una de las siguientes maneras:
 
-   * Si realiza la prueba en Adobe Workfront, vaya a la lista de documentos que contiene la prueba que desea ver, pase el ratón sobre el documento y haga clic en **Abrir revisión**.
-   * Si utiliza Workfront Proof, haga clic en el botón **Ir a la revisión** para la prueba en el panel o en una lista de vistas ![](assets/go-to-proof-blue-icon.png).
+   * Si realiza la revisión en Adobe Workfront, vaya a la lista de documentos que contiene la revisión que desea ver, pase el ratón sobre el documento y haga clic en **Abrir revisión**.
+   * Si usa Workfront Proof, haga clic en el icono **Ir a la revisión** para la revisión en el panel o en una lista de vistas ![](assets/go-to-proof-blue-icon.png).
 
-1. Si la barra de herramientas izquierda no se muestra, haga clic en **Menú** , situado en la esquina superior izquierda del Visor de pruebas web.
+1. Si no aparece la barra de herramientas izquierda, haga clic en el icono **Menú**, que se encuentra en la esquina superior izquierda del Visor de revisión web.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. En la barra de herramientas izquierda, haga clic en **Configuración** icono ![](assets/settings-icon-in-pv.png).
+1. En la barra de herramientas izquierda, haga clic en el icono **Configuración** ![](assets/settings-icon-in-pv.png).
 
-1. Configure cualquiera de las siguientes opciones **Configuración** que se muestran.
+1. Configure cualquiera de las **configuraciones** que se muestran a continuación.
 
    La configuración disponible puede variar según el tipo de prueba que haya abierto.
 
-   * **Mostrar marcas** (siempre disponible en el Visor de pruebas web y en el Visor de pruebas de escritorio): estas son las marcas de comentario que los revisores agregan a las pruebas cuando utilizan las herramientas de marcado. Si los desactiva, aún podrá verlos cuando haga clic en un comentario de la lista de comentarios.
+   * **Mostrar marcas** (siempre disponibles en el Visor de revisiones web y en el Visor de revisiones de escritorio): Estas son las marcas de comentarios que los revisores agregan a las revisiones cuando utilizan las herramientas de revisiones. Si los desactiva, aún podrá verlos cuando haga clic en un comentario de la lista de comentarios.
 
      Esta configuración afecta a todas las pruebas que abra.
 
-   * **Mostrar anclajes** (siempre disponible en el Visor de pruebas web y en el Visor de pruebas de escritorio): estos son los pines numerados que los revisores agregan a las pruebas cuando utilizan las herramientas de marcado. Indican dónde y en qué orden agregó los comentarios el revisor. Si los desactiva, aún podrá verlos cuando haga clic en un comentario de la lista de comentarios.
+   * **Mostrar anclajes** (siempre disponible en el Visor de revisiones web y en el Visor de revisiones de escritorio): Estos son los anclajes numerados que los revisores agregan a las revisiones cuando utilizan las herramientas de marcado. Indican dónde y en qué orden agregó los comentarios el revisor. Si los desactiva, aún podrá verlos cuando haga clic en un comentario de la lista de comentarios.
 
      Esta configuración afecta a todas las pruebas que abra.
 
-   * **Usar herramientas de marcado expandidas** (siempre disponible en el Visor de revisión web y en el Visor de revisión de escritorio): de forma predeterminada, las opciones de la herramienta de marcado se muestran en la parte superior del visor de revisión. Puede configurarlos para que se muestren en un menú vertical que solo se abra al hacer clic en él.
+   * **Usar herramientas de marcado expandidas** (siempre disponibles en el Visor de revisión web y en el Visor de revisión de escritorio): de forma predeterminada, las opciones de la herramienta de marcado se muestran en la parte superior del visor de revisión. Puede configurarlos para que se muestren en un menú vertical que solo se abra al hacer clic en él.
 
      Esta configuración está vigente para todas las pruebas que abra.
 
-   * **Enviarme notificaciones por correo electrónico sobre** (siempre disponible en el Visor de revisión web y en el Visor de revisión de escritorio): haga clic en una de las opciones siguientes. Esta configuración solo afecta a la prueba que haya abierto. Para obtener más información, consulte [Resumen de notificaciones de comentarios de prueba y decisiones](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **Enviarme notificaciones por correo electrónico acerca de** (siempre disponible en el Visor de revisión web y en el Visor de revisión de escritorio): haz clic en una de las opciones siguientes. Esta configuración solo afecta a la prueba que haya abierto. Para obtener más información, consulte [Notificaciones para comentarios de prueba y descripción general de decisiones](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,7 +112,7 @@ Para configurar el visor de revisiones:
        </tr> 
        <tr> 
         <td role="rowheader">Respuestas a mis comentarios</td> 
-        <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener más información sobre los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder comentarios sobre la prueba</a>.</p></td> 
+        <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener información acerca de los comentarios, vea <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisiones</td> 
@@ -128,11 +128,11 @@ Para configurar el visor de revisiones:
        </tr> 
        <tr> 
         <td role="rowheader">Resumen diario</td> 
-        <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administración de notificaciones para comentarios y decisiones de prueba</a>.</p></td> 
+        <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Sin correo electrónico</td> 
-        <td>Workfront no envía alertas por correo electrónico.<br>Esto resulta útil para una persona que se añade a una prueba solo con fines de referencia y no necesita que se le notifique ningún cambio.<p>El valor predeterminado del sistema es Resumen diario (también se ve como No configurado). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
+        <td>Workfront no envía alertas por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es Resumen diario (también se ve como No configurado). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
        </tr> 
       </tbody> 
      </table>
@@ -141,7 +141,7 @@ Para configurar el visor de revisiones:
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **Al hacer clic en hipervínculos en una prueba** (disponible solo en el Visor de pruebas de escritorio): seleccione una opción para especificar qué sucede en el Visor de pruebas de escritorio al hacer clic en un vínculo configurado para abrirse en una nueva pestaña o ventana del explorador.
+   * **Al hacer clic en hipervínculos en una revisión** (disponible solamente en el Visor de revisión de escritorio): seleccione una opción para especificar qué sucede en el Visor de revisión de escritorio al hacer clic en un vínculo configurado para abrirse en una nueva pestaña o ventana del explorador.
 
      Esta configuración está vigente para todas las pruebas interactivas que abra.
 
@@ -168,7 +168,7 @@ Para configurar el visor de revisiones:
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **Borrar caché**: borra los datos de caché del explorador que podrían guardarse con una prueba interactiva que está viendo. Esto permite que el contenido, como las ventanas emergentes (que pueden bloquearse con los datos de caché del explorador), se muestre en el Visor de corrección de escritorio.
+   * **Borrar caché**: borra los datos de la caché del explorador que podrían guardarse con una revisión interactiva que está viendo. Esto permite que el contenido, como las ventanas emergentes (que pueden bloquearse con los datos de caché del explorador), se muestre en el Visor de corrección de escritorio.
 
      Los datos que se borran incluyen la caché HTTP (como las imágenes que se van a reutilizar después de la siguiente actualización de página) y la caché de datos de almacenamiento web (como las cookies y los datos que identifican a los usuarios).
 

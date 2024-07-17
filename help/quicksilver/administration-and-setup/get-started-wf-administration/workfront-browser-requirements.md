@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Requisitos del explorador para Workfront
-description: La información de este artículo se ha movido. Consulte los requisitos del explorador de Adobe Workfront.
+description: La información de este artículo se ha movido. Consulte los requisitos del explorador Adobe Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La información de este artículo se ha movido. Consulte [Requisitos del explorador Adobe Workfront](../../workfront-basics/workfront-browser-requirements.md).
+>La información de este artículo se ha movido. Consulte [Requisitos para exploradores Adobe Workfront](../../workfront-basics/workfront-browser-requirements.md).

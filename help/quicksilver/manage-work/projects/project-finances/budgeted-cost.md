@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Calcular costo presupuestado
-description: Calcular el progreso del proyecto de seguimiento de costes presupuestados con un informe de uso""
+description: "Calcular progreso de proyecto de seguimiento de costes presupuestado con un informe de utilización"
 author: Alina
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
@@ -23,46 +23,46 @@ ht-degree: 2%
 </div>
 -->
 
-El costo presupuestado de un proyecto es el costo total asociado con el proyecto, según se estima al planificar el proyecto.
+El costo presupuestado de un proyecto es el costo total asociado con el proyecto según lo estimado al planificar el proyecto.
 
-## Descripción general del coste presupuestado en un proyecto
+## Visión General de Costes Presupuestados en un Proyecto
 
-No se puede cambiar manualmente el costo presupuestado de un proyecto. Adobe Workfront calcula el coste presupuestado mediante la fórmula siguiente:
+No puede cambiar manualmente el costo presupuestado de un proyecto. Adobe Workfront calcula el coste presupuestado mediante la siguiente fórmula:
 
 `Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project`
 
-* La variable **Coste de trabajo presupuestado del planificador de recursos** en el cálculo anterior es el coste asociado a las funciones de trabajo del proyecto.
+* **Costo de mano de obra presupuestado del planificador de recursos** en el cálculo anterior es el costo asociado con los roles en el proyecto.
 
-   Puede realizar un seguimiento del Coste de trabajo presupuestado de un proyecto en el área Presupuestación de recursos del Caso de negocio o del Planificador de recursos.
+  Puede realizar un seguimiento del costo de mano de obra presupuestado de un proyecto en el área de presupuesto de recursos del caso comercial o del planificador de recursos.
 
-   >[!TIP]
-   >
-   >  El Coste Laboral Presupuestado de un proyecto en el Caso Empresarial aparece como Coste Laboral Presupuestado del Planificador de Recursos en los informes y listas.
+  >[!TIP]
+  >
+  >  El costo de mano de obra presupuestado de un proyecto en el caso empresarial se muestra como Costo de mano de obra presupuestado del Planificador de recursos en informes y listas.
 
-   Para obtener información sobre los costes laborales presupuestados, consulte el artículo [Comprender el costo presupuestado del trabajo y las horas presupuestadas para los proyectos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  Para obtener información acerca de los costos laborales presupuestados, vea el artículo [Comprender el costo laboral presupuestado y las horas presupuestadas de los proyectos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
-* La variable **Coste de gastos presupuestados** en el cálculo anterior se encuentra el Coste planeado asociado con los gastos del proyecto, ya que se calculan en el área Gastos del Caso de negocio o en la pestaña Gastos del proyecto.\
-   Para obtener más información sobre los gastos de un proyecto, consulte el artículo [Administrar los gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+* El **costo de gastos presupuestado** en el cálculo anterior es el costo planificado asociado con los gastos del proyecto, ya que se calculan en el área Gastos del caso comercial o en la pestaña Gastos del proyecto.\
+  Para obtener más información sobre los gastos de un proyecto, consulte el artículo [Administrar gastos de proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* La variable **Coste fijo** en el cálculo anterior se indica la cantidad fija asociada al coste del proyecto, tal como se define en el área Finanzas de la sección Detalles del proyecto.\
-   Para obtener más información sobre la subpestaña Finanzas de un proyecto, consulte el artículo [Administrar información en el área de finanzas del proyecto](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+* El **Costo fijo** del cálculo anterior es la cantidad fija asociada con el Costo del proyecto, tal como se define en el área Finanzas de la sección Detalles del proyecto.\
+  Para obtener más información acerca de la subficha Finanzas de un proyecto, vea el artículo [Administrar información en el área Finanzas del proyecto](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 >[!NOTE]
 >
->Workfront calcula toda la información de coste utilizando la moneda del proyecto. Si especifica Horario presupuestado para los recursos en el Planificador de recursos, la opción para cambiar la moneda del proyecto estará deshabilitada.
+>Workfront calcula toda la información de costes utilizando la divisa del proyecto. Si especifica Horas presupuestadas para los recursos en el Planificador de recursos, se deshabilita la opción para cambiar la divisa del proyecto.
 >
->Para obtener más información sobre cómo cambiar la moneda de un proyecto, consulte el artículo [Cambiar la moneda del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md).
+>Para obtener más información acerca de cómo cambiar la moneda de un proyecto, vea el artículo [Cambiar la moneda del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md).
 
-## Localizar el coste presupuestado de un proyecto
+## Buscar el costo presupuestado de un proyecto
 
-El Coste presupuestado tal como se refleja en el área de Presupuestación de Recursos del Caso de Negocio o el Planificador de Recursos se muestra en las siguientes áreas de Workfront con los nombres siguientes:
+El costo presupuestado tal como se refleja en el área de presupuesto de recursos del caso comercial o del planificador de recursos se muestra en las siguientes áreas de Workfront con los siguientes nombres:
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
-     <td><strong>Nombre para mostrar de Coste presupuestado</strong></td> 
+     <td><strong>Nombre para mostrar Costo presupuestado</strong></td> 
      <td><strong>Área de Workfront</strong></td> 
     </tr> 
     <tr> 
@@ -71,13 +71,13 @@ El Coste presupuestado tal como se refleja en el área de Presupuestación de Re
     </tr> 
     <tr> 
      <td>Costo</td> 
-     <td> <p>Optimizador de Portfolio</p> <p>Sugerencia: El total de todos los valores de Coste presupuestado del proyecto es el Coste presupuestado del portafolio.</p> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>Sugerencia: El total de todos los valores de Coste presupuestado de proyecto es el Coste presupuestado del portafolio.</p> </td> 
     </tr> 
     <tr> 
      <td>Costo presupuestado de proyecto</td> 
      <td> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Informe del proyecto</p> <p>Informe de proyecto (datos financieros)</p> <p>Informe de tareas</p> <p>Informe de problemas</p> <p>Informe de hora presupuestada</p> <p>Para obtener más información sobre la creación de informes, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+      --> <p>Informe de proyecto</p> <p>Informe de proyecto (datos financieros)</p> <p>Informe de tareas</p> <p>Informe de problema</p> <p>Informe de horas presupuestadas</p> <p>Para obtener más información acerca de cómo crear un informe, vea el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table>

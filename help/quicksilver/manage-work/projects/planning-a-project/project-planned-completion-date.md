@@ -74,16 +74,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Proyectos</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Establecer manualmente la fecha planificada de finalización de un proyecto
 
@@ -96,20 +96,20 @@ Debe establecer manualmente la fecha planificada de finalización de un proyecto
 
 Para programar un proyecto desde la fecha de finalización:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Proyectos**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Proyectos**.
 
-1. Clic **Nuevo proyecto** entonces **Nuevo proyecto**.
+1. Haga clic en **Nuevo proyecto** y luego en **Nuevo proyecto**.
 
-   Para obtener más información sobre la creación de proyectos, consulte el artículo [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+   Para obtener más información sobre la creación de proyectos, vea el artículo [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Seleccionar **Detalles del proyecto** en el panel izquierdo, haga clic en **Editar proyecto** en la esquina superior derecha.
+1. Seleccione **Detalles del proyecto** en el panel izquierdo y, a continuación, haga clic en el icono **Editar proyecto** en la esquina superior derecha.
 
-1. En el **Modo de horario** , seleccione **Fecha de finalización**.
+1. En el campo **Modo de horario**, seleccione **Fecha de finalización**.
 
-1. Especifique el **Fecha planificada de finalización** del proyecto.
+1. Especifique la **Fecha planificada de finalización** del proyecto.
 1. Haga clic en **Guardar cambios**.
 
-   Cuando comience a agregar tareas al proyecto, la variable **Fecha planificada de inicio** del proyecto se calcula según la duración total de todas las tareas. 
+   A medida que comienza a agregar tareas al proyecto, la **Fecha planificada de inicio** del proyecto se calcula según la duración total de todas las tareas. 
 
 ## Establecer automáticamente la fecha planificada de finalización de un proyecto
 
@@ -117,22 +117,22 @@ Workfront calcula automáticamente la fecha planificada de finalización de un p
 
 Para programar un proyecto a partir de la fecha de inicio:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Proyectos**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Proyectos**.
 
-1. Clic **Nuevo proyecto** entonces **Nuevo proyecto**.
+1. Haga clic en **Nuevo proyecto** y luego en **Nuevo proyecto**.
 
-   Para obtener más información sobre la creación de proyectos, consulte el artículo [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+   Para obtener más información sobre la creación de proyectos, vea el artículo [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Seleccionar **Detalles del proyecto** en el panel izquierdo, haga clic en **Editar proyecto** en la esquina superior derecha.
+1. Seleccione **Detalles del proyecto** en el panel izquierdo y, a continuación, haga clic en el icono **Editar proyecto** en la esquina superior derecha.
 
-1. En el **Modo de horario** , seleccione **Fecha de inicio**.
+1. En el campo **Modo de horario**, seleccione **Fecha de inicio**.
 
-1. Especifique el **Fecha planificada de inicio** del proyecto.
+1. Especifique la **Fecha planificada de inicio** del proyecto.
 1. Haga clic en **Guardar cambios**.
 
-   Cuando comience a agregar tareas al proyecto, la variable **Fecha planificada de finalización** del proyecto se calcula según la duración total de todas las tareas. 
+   A medida que comienza a agregar tareas al proyecto, la **Fecha planificada de finalización** del proyecto se calcula según la duración total de todas las tareas. 
 
-   Para obtener más información sobre la Duración de la tarea, vea el artículo [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Para obtener más información acerca de la duración de la tarea, vea el artículo [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    La fecha planificada de finalización del proyecto coincide, en este caso, con la fecha planificada de finalización de la última tarea del proyecto.
 

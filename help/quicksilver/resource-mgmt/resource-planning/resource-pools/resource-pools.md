@@ -22,8 +22,8 @@ En los siguientes artículos se describe la funcionalidad al utilizar conjuntos 
 
 * [Resumen de conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 * [Crear conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [Asociar conjuntos de recursos a proyectos y plantillas](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Asociar conjuntos de recursos a los usuarios](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [Asociar conjuntos de recursos con proyectos y plantillas](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [Asociar conjuntos de recursos con usuarios](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Quitar usuarios de conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
  

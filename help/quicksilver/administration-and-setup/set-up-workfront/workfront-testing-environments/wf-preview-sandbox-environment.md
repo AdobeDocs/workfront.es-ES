@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: El [!DNL Adobe Workfront] Previsualizar entorno de espacio aislado
+title: El  [!DNL Adobe Workfront] Entorno De Vista Previa De Zona Protegida
 description: La zona protegida de vista previa es un entorno de prueba que sirve como réplica del entorno en directo. Workfront lo actualiza todos los fines de semana. Los datos agregados a su entorno en directo el viernes aparecerán en su zona protegida de vista previa el lunes que viene. Todos los paquetes de asistencia tienen acceso a esta zona protegida.
 author: Lisa
 feature: System Setup and Administration
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ---
 
-# El [!DNL Adobe Workfront] Previsualizar entorno de espacio aislado
+# Entorno De Zona Protegida De Vista Previa [!DNL Adobe Workfront]
 
 <!-- Audited: 12/2023 -->
 
-Existen dos entornos de prueba para [!DNL Workfront] que son réplicas de su [!DNL Workfront] entorno de producción:
+Hay dos entornos de prueba para [!DNL Workfront] que son réplicas de su entorno de producción [!DNL Workfront]:
 
 * La zona protegida de previsualización
 
-  La zona protegida de vista previa es un entorno de prueba que sirve como réplica del entorno en directo y se actualiza cada fin de semana con [!DNL Workfront]. Los datos agregados a su entorno en directo el viernes aparecerán en su zona protegida de vista previa el lunes que viene.
+  La zona protegida de vista previa es un entorno de prueba que sirve como réplica de su entorno activo y se actualiza cada fin de semana por [!DNL Workfront]. Los datos agregados a su entorno en directo el viernes aparecerán en su zona protegida de vista previa el lunes que viene.
 
   Todos los paquetes de asistencia tienen acceso a la zona protegida de vista previa.
 
 * La zona protegida de actualización personalizada
 
-  La zona protegida de actualización personalizada es un entorno de prueba independiente que actualiza manualmente. Hay un coste adicional para obtener la zona protegida de actualización personalizada. Para obtener más información sobre este entorno, consulte [El [!DNL Adobe Workfront] Entorno de espacio aislado de actualización personalizado](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  La zona protegida de actualización personalizada es un entorno de prueba independiente que actualiza manualmente. Hay un coste adicional para obtener la zona protegida de actualización personalizada. Para obtener más información sobre este entorno, consulte [El [!DNL Adobe Workfront] entorno de espacio aislado de actualización personalizado](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ Existen dos entornos de prueba para [!DNL Workfront] que son réplicas de su [!D
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Paquete de soporte de [!UICONTROL Standard]</strong> </p> </th> 
-   <th> <p><strong>Paquetes de soporte de [!UICONTROL Plus], [!UICONTROL preferido] y [!UICONTROL Enterprise]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Standard] Paquete de soporte</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Plus], [!UICONTROL preferido] y paquetes de soporte de [!UICONTROL Enterprise]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -63,9 +63,9 @@ La vista previa de espacio aislado sirve como entorno en el que los usuarios de 
 
 La zona protegida de vista previa contiene los datos de producción reales; sin embargo, se actualiza cada fin de semana para que los datos puedan retrasarse hasta una semana respecto al entorno de producción. Los elementos creados desde la última actualización se encuentran en el entorno de vista previa de espacio aislado hasta la siguiente actualización.
 
-Los datos fluyen unidireccionalmente, de Producción a Vista previa y no a la inversa. siempre programa una actualización del entorno de vista previa [!DNL Workfront] cada fin de semana.
+Los datos fluyen unidireccionalmente, de Producción a Vista previa y no a la inversa. Una actualización del entorno de vista previa siempre se programa para [!DNL Workfront] cada fin de semana.
 
-La zona protegida de previsualización también permite [!DNL Workfront] para implementar nuevas funciones en un entorno seguro, antes de que estén listas para implementarse en el entorno de producción. Puede probar las nuevas funciones y proporcionar [!DNL Workfront] comentarios sobre su funcionalidad accediendo a la zona protegida de vista previa. Por este motivo, el código de la zona protegida de vista previa siempre va por delante del código de producción, aunque los datos se actualicen semanalmente.
+La vista previa de espacio aislado también permite que [!DNL Workfront] implemente nuevas características en un entorno seguro antes de que estén listas para implementarse en el entorno de producción. Puede probar las nuevas características y proporcionar comentarios de [!DNL Workfront] sobre su funcionalidad al acceder a la vista previa de espacio aislado. Por este motivo, el código de la zona protegida de vista previa siempre va por delante del código de producción, aunque los datos se actualicen semanalmente.
 
 El entorno de vista previa es ideal para ejecutar cursos de formación, probar nuevas funciones y determinar la funcionalidad de la configuración.
 
@@ -73,26 +73,26 @@ El entorno de vista previa es ideal para ejecutar cursos de formación, probar n
 >
 >Cuando acceda a la Vista previa de espacio aislado, observe el banner azul en la parte superior de la pantalla. El titular no se puede quitar mientras esté trabajando en este entorno.
 >
->El nombre del entorno al que accede (Vista previa) y la versión de lanzamiento del código se muestran en el banner. Clic **[!UICONTROL Ver las novedades]** para obtener más información sobre esa versión.
+>El nombre del entorno al que accede (Vista previa) y la versión de lanzamiento del código se muestran en el banner. Haz clic en **[!UICONTROL Ver las novedades]** para obtener información sobre esa versión.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
 ## Acceso a la zona protegida de previsualización
 
-De forma predeterminada, como [!DNL Workfront] administrador, tiene acceso a la [!UICONTROL Previsualizar] Entorno de zona protegida. Si no puede acceder a [!UICONTROL Previsualizar] Entorno de zona protegida como se describe en esta sección, póngase en contacto con su [!DNL Workfront] o nuestro equipo de asistencia al cliente.
+De manera predeterminada, como administrador de [!DNL Workfront], tiene acceso al entorno de espacio aislado [!UICONTROL Vista previa]. Si no puede acceder al entorno de espacio aislado [!UICONTROL Preview] como se describe en esta sección, póngase en contacto con su administrador de [!DNL Workfront] o con nuestro equipo de atención al cliente.
 
 
-### Acceder a la vista previa de espacio aislado desde [!DNL Workfront] Interfaz {#accessing-the-preview-sandbox-from-the-workfront-interface}
+### Acceder a la zona protegida de vista previa desde la interfaz [!DNL Workfront] {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
-As a [!DNL Workfront] administrador, puede acceder a la vista previa de la zona protegida mediante el [!DNL Workfront] interfaz.
+Como administrador de [!DNL Workfront], puede acceder a la vista previa de espacio aislado a través de la interfaz [!DNL Workfront].
 
 Para acceder a la zona protegida de vista previa:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
 
-1. Clic **[!UICONTROL Sistema]** > **[!UICONTROL Preferencias]**.
+1. Haga clic en **[!UICONTROL Sistema]** > **[!UICONTROL Preferencias]**.
 
-1. En el **[!UICONTROL Entornos de prueba]** , haga clic en **[!UICONTROL Previsualización de zona protegida]**.
+1. En la sección **[!UICONTROL Entornos de prueba]**, haga clic en **[!UICONTROL Vista previa de espacio aislado]**.
 
 1. Inicie sesión con sus credenciales de vista previa.
 
@@ -104,7 +104,7 @@ Puede acceder a la vista previa de la zona protegida mediante una URL.
 
 #### Acceder a la vista previa de espacio aislado para cuentas en el clúster 1, 2, 3 y 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-La URL de la zona protegida de vista previa es: `https://companyname.preview.workfront.com/`.
+La dirección URL de la zona protegida de vista previa es: `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Para iniciar sesión en la zona protegida de vista previa con una dirección URL
 
 1. Vaya a esta dirección URL: `https://companyname.preview.workfront.com/`.
 
-   También puede acceder a la Vista previa de espacio aislado accediendo a [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
+   También puede obtener acceso a la Vista previa de espacio aislado en [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
 
 1. Inicie sesión con sus credenciales de vista previa.
 
@@ -137,28 +137,28 @@ Para iniciar sesión en la zona protegida de vista previa con una dirección URL
 
 ## Recepción de correos electrónicos desde la zona protegida de previsualización
 
-Workfront deshabilita toda la comunicación por correo electrónico desde el entorno de vista previa de espacio aislado. Si desea recibir notificaciones por correo electrónico desde el entorno de vista previa de espacio aislado, debe habilitar esta funcionalidad en la configuración de usuario. Para obtener más información sobre la activación de notificaciones por correo electrónico en el entorno de vista previa de espacio aislado, consulte [Habilitar el envío de correos electrónicos desde el entorno de vista previa de espacio aislado](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront deshabilita toda la comunicación por correo electrónico desde el entorno de vista previa de espacio aislado. Si desea recibir notificaciones por correo electrónico desde el entorno de vista previa de espacio aislado, debe habilitar esta funcionalidad en la configuración de usuario. Para obtener más información sobre cómo habilitar las notificaciones por correo electrónico en el entorno de vista previa de espacio aislado, consulte [Habilitar el envío de correos electrónicos desde el entorno de vista previa de espacio aislado](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->Las notificaciones push y de envío de informes en la aplicación móvil siempre están desactivadas para el entorno de vista previa de espacio aislado. Ni tú ni el [!DNL Workfront] El administrador de puede activar la entrega de informes o las notificaciones push para la aplicación móvil al acceder al entorno de vista previa de espacio aislado.
+>Las notificaciones push y de envío de informes en la aplicación móvil siempre están desactivadas para el entorno de vista previa de espacio aislado. Ni usted ni el administrador de [!DNL Workfront] pueden habilitar la entrega de informes ni las notificaciones push para la aplicación móvil al acceder al entorno de vista previa de espacio aislado.
 >
 >Para obtener más información sobre los envíos de informes para el entorno de producción, consulte [Resumen de entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 
 ## Inicio de sesión único (SSO)
 
-Si utiliza SSO, colabore con nuestro equipo de asistencia al cliente para asegurarse de que está configurado correctamente y de que puede utilizar sus credenciales de SSO para iniciar sesión en [!UICONTROL Previsualizar] Zona protegida. Si falla su inicio de sesión, póngase en contacto con su contacto de asistencia habitual o [!DNL Workfront] administrador para obtener ayuda.
+Si usa SSO, colabore con nuestro equipo de atención al cliente para asegurarse de que esté configurado correctamente y de que pueda usar sus credenciales de SSO para iniciar sesión en la zona protegida de [!UICONTROL Preview]. Si falla el inicio de sesión, comuníquese con el contacto de atención al cliente habitual o con el administrador de [!DNL Workfront] para obtener ayuda.
 
-Para obtener más información sobre el inicio de sesión único, consulte [Información general sobre el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Para obtener más información acerca del inicio de sesión único, vea [Información general sobre el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Configuración del inicio de sesión único en la zona protegida de vista previa
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al [!DNL Adobe Admin Console]. Si su organización se ha incorporado al [!DNL Adobe Admin Console]No es necesario realizar ninguna acción.
+>El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al [!DNL Adobe Admin Console]. Si su organización se ha incorporado a [!DNL Adobe Admin Console], no es necesario realizar ninguna acción.
 >
->Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado al [!DNL Adobe Admin Console], consulte [Diferencias de administración basadas en la plataforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a [!DNL Adobe Admin Console], consulte [Diferencias de administración basadas en la plataforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 Si desea configurar la zona protegida de vista previa para que funcione con una solución de inicio de sesión único, puede configurarla por separado desde el entorno de producción. La configuración de SSO de la zona protegida de vista previa es independiente de la configuración de SSO del entorno de producción.
@@ -167,7 +167,7 @@ Cuando se actualiza la zona protegida de vista previa (todos los fines de semana
 
 Los pasos para configurar el inicio de sesión único en la zona protegida de vista previa son similares a los necesarios para configurarlo en el entorno de producción.
 
-Para obtener más información sobre la configuración [!DNL Workfront] con SSO, consulte [Información general sobre el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Para obtener más información sobre la configuración de [!DNL Workfront] con SSO, consulte [Información general sobre el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Previsualizar rendimiento y disponibilidad del entorno
 
@@ -175,6 +175,6 @@ Para obtener más información sobre la configuración [!DNL Workfront] con SSO,
 
 [!DNL Workfront] Los entornos de vista previa están pensados para estar siempre disponibles.
 
-Cualquier interrupción en un [!DNL Workfront] El entorno de vista previa durante el horario laboral normal será una primera prioridad inmediatamente después de que se resuelvan los problemas de producción, si los hay.
+Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] durante el horario laboral normal será una primera prioridad inmediatamente después de que se resuelva cualquier problema de producción, si existe.
 
-Cualquier interrupción en un [!DNL Workfront] Se abordará el entorno de vista previa los fines de semana (sábados y domingos) para que el entorno funcione durante el horario laboral los lunes.
+Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] los fines de semana (sábados y domingos) se solucionará para que el entorno funcione durante el horario laboral los lunes.

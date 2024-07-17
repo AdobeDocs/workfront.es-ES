@@ -86,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -102,11 +102,11 @@ Al crear una vista de tabla, todos los registros del tipo seleccionado se muestr
 
 Para administrar una vista de tabla:
 
-1. Cree una vista de tabla como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
 
-1. (Opcional) Haga clic en **Altura de fila**, luego seleccione entre las siguientes opciones para modificar la altura de las filas de la tabla:
+1. (Opcional) Haga clic en **Alto de fila** y, a continuación, seleccione una de las siguientes opciones para modificar el alto de las filas de la tabla:
    * Baja
    * Media
    * Alta
@@ -121,7 +121,7 @@ Para administrar una vista de tabla:
 
 ### Agregar columnas (o campos) {#add-columns}
 
-Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los mismos campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro. Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los mismos campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -129,10 +129,10 @@ Añadir columnas a una vista es idéntico a añadir campos a un tipo de registro
 
 Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
-1. Vaya a una página de tipo de registro y seleccione un **Tabla** vista desde el menú desplegable vista.
+1. Vaya a una página de tipo de registro y seleccione una vista de **Tabla** en el menú desplegable de vista.
 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
    Las columnas que agregue serán visibles para todos los usuarios que tengan acceso al tipo de registro y se agregarán como campos nuevos en la página del registro.
 
@@ -140,7 +140,7 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
    * Coja el encabezado de la columna y arrástrela y suéltela en la posición deseada. La columna que ha movido aparece brevemente con un fondo azul hasta que realice otros ajustes en la tabla.
 
-   * Clic **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera de **Visibilidad y orden de los campos** para cerrarlo.
+   * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad de campos y orden** para cerrarlo.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -159,11 +159,11 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
    ![](assets/set-as-primary-field-option-table-view.png)
 
-1. Clic **Definir campo** para confirmar.
+1. Haga clic en **Establecer campo** para confirmar.
 
    El campo se convierte en un campo principal, lo que significa que se muestra como la primera columna de la vista de tabla. El campo principal anterior se desplaza a la segunda columna.
 
-   Los campos principales se convierten en el título del registro y se muestran en el área de encabezado de la página del registro y en cualquier lugar donde se muestren los registros. Por ejemplo, el título del registro se muestra en los campos conectados y en todas las vistas. Para obtener más información sobre los campos principales, consulte [Resumen del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Los campos principales se convierten en el título del registro y se muestran en el área de encabezado de la página del registro y en cualquier lugar donde se muestren los registros. Por ejemplo, el título del registro se muestra en los campos conectados y en todas las vistas. Para obtener más información acerca de los campos principales, vea [Información general sobre el campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Haga clic en las líneas de separación de columnas, arrástrelas y suéltelas en el lugar deseado para aumentar el ancho de las columnas.
 
@@ -171,22 +171,22 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
    >
    >Los cambios que realice en el ancho y el orden de las columnas son permanentes y visibles para todos los usuarios que tengan acceso al tipo de registro.
 
-1. Pase el ratón sobre el encabezado de la columna, haga clic en la flecha hacia abajo y luego haga clic en **Ocultar campo**
+1. Pase el ratón sobre el encabezado de la columna, luego haga clic en la flecha que apunta hacia abajo y luego haga clic en **Ocultar campo**
 
    O
 
-   Clic **Campos** en la barra de herramientas de la tabla, deshabilite la opción asociada a los campos (o columnas) que desee ocultar. El **Visibilidad y orden de los campos** aparece el cuadro.
+   Haga clic en **Campos** en la barra de herramientas de la tabla y deshabilite la opción asociada a los campos (o columnas) que desee ocultar. Se muestra el cuadro **Visibilidad de campos y orden**.
 
    >[!TIP]
    >
    >El número de campos ocultos se muestra a la izquierda del icono Campos de la barra de herramientas.
 
 
-1. Haga clic en **Campos** y active la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se muestran de forma predeterminada.
+1. Haga clic en el icono **Campos** y active la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se muestran de forma predeterminada.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en **Buscar** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta está resaltado.
+   1. Haga clic en el icono **Search** ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta está resaltado.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -194,11 +194,11 @@ Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
       No se pueden utilizar palabras clave asociadas a campos que están ocultos en la vista de tabla.
 
-   1. Prensa **Entrar** en el teclado para ir al siguiente campo encontrado.
+   1. Presione **Enter** en el teclado para ir al siguiente campo encontrado.
 
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
 
-   1. Haga clic en **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
+   1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
 
 ### Agregar filas (o registros) {#add-rows}
@@ -207,18 +207,18 @@ Las filas de una vista de tabla muestran registros individuales del tipo de regi
 
 Puede tener hasta 50 000 registros (o filas) para un tipo de registro S.
 
-1. Vaya a una página de tipo de registro y seleccione un **Tabla** vista desde el menú desplegable vista.
+1. Vaya a una página de tipo de registro y seleccione una vista de **Tabla** en el menú desplegable de vista.
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Empiece a agregar registros (o filas), tal como se describe en el artículo [Creación de registros](/help/quicksilver/planning/records/create-records.md).
+1. Empiece a agregar registros (o filas), tal como se describe en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
    Los registros que agregue a la vista de tabla se guardan inmediatamente y son visibles para todos los usuarios que tengan permisos de Vista o superiores en el área de trabajo.
 
-1. (Opcional) Agregue una miniatura a cada registro y haga clic en **Campos** en la esquina superior derecha de la tabla, seleccione la opción para **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada.
+1. (Opcional) Agregue una miniatura a cada registro, haga clic en **Campos** en la esquina superior derecha de la tabla y, a continuación, seleccione el botón de alternancia del campo **Miniatura** para mostrarlo a la izquierda del campo principal. De forma predeterminada, no está seleccionada.
 
-   Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   Para obtener más información, vea [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el **manipular** icono ![](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
+1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el icono **controlador** ![](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
 
    >[!NOTE]
    >
@@ -259,10 +259,10 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de tabla:
 Para agregar un filtro a una vista de tabla:
 
 1. Cree una vista de tabla para una página de tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Seleccione una vista de tabla y haga clic en **Filtros** en la esquina superior derecha de la tabla.
-1. Clic **Añadir condición** y añada la siguiente información:
+1. Seleccione una vista de tabla y luego haga clic en **Filtros** en la esquina superior derecha de la tabla.
+1. Haga clic en **Agregar condición** y agregue la siguiente información:
 
-   * **Seleccionar un campo** por el que desea filtrar <!-- the tip below might change-->
+   * **Seleccione un campo** por el que desee filtrar <!-- the tip below might change-->
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 
@@ -336,16 +336,16 @@ Para agregar un filtro a una vista de tabla:
 
    No hay límite en cuanto a las condiciones de filtrado que se pueden añadir.
 
-1. (Opcional) Haga clic en **Añadir condición** para añadir otra opción de filtrado y repita los pasos anteriores. El número de filtros aplicados se muestra a la izquierda del icono Filtros.
+1. (Opcional) Haga clic en **Agregar condición** para agregar otra opción de filtrado y repita los pasos anteriores. El número de filtros aplicados se muestra a la izquierda del icono Filtros.
 1. Haga clic en los siguientes operadores para indicar cómo se unen y deben aplicarse las condiciones de filtro:
 
-   * **Y**: se deben cumplir todas las condiciones especificadas.
+   * **And**: se deben cumplir todas las condiciones especificadas.
    * **O**: se debe cumplir cualquiera de las condiciones especificadas. Esta es la opción predeterminada.
 
    La lista de registros se filtra automáticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Opcional) Haga clic en **Filtros**, luego haga clic en **x** para eliminar un filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Opcional) Haga clic en **Filtros** y, a continuación, haga clic en el icono **x** para quitar un filtro. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Agregar agrupaciones {#add-groupings}
 
@@ -372,29 +372,29 @@ Tenga en cuenta lo siguiente:
 
 Para agregar una agrupación:
 
-1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clic **Agrupación** en la esquina superior derecha de la vista de tabla.
+1. Cree una vista de escala de tiempo para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de tabla.
 
    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. Haga clic en uno de los campos sugeridos o en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
+1. Haga clic en uno de los campos sugeridos o haga clic en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
    La agrupación se aplica automáticamente a la tabla y los registros se muestran bajo la línea de separación de agrupación.
 
-1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para agregar hasta 3 agrupaciones.
+1. (Opcional) Haga clic en **Agregar condición** y repita los pasos anteriores para agregar hasta 3 agrupaciones.
 
    El número de campos seleccionados para la agrupación se muestra junto al icono Grouping.
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. (Opcional) Dentro de **Agrupar registros por** , haga clic en **x** a la derecha de un campo seleccionado para que la agrupación elimine la agrupación
+1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
    O
 
-   Clic **Borrar todo** para eliminar todos los campos.
+   Haga clic en **Borrar todo** para eliminar todos los campos.
 
-1. Haga clic fuera de **Agrupar registros por** para cerrarlo.
-1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para agregar nuevos registros, actualice la página para agregar el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
+1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para agregar nuevos registros y, a continuación, actualice la página para agregar el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Agregar un orden {#sort-information}
 
@@ -425,32 +425,32 @@ Tenga en cuenta lo siguiente al ordenar registros en la vista de tabla:
 
 * Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una ordenación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la ordenación que está creando para el tipo de registro de actividad.
 
-Para ordenar <!--ungrouped (add this when sorting for groupings will be available--> Registros, haga lo siguiente:
+Para ordenar <!--ungrouped (add this when sorting for groupings will be available--> registros, haga lo siguiente:
 
-1. Cree una vista de tabla como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Haga clic en **Ordenar** icono ![](assets/sort-icon.png) en la esquina superior derecha de la tabla
+1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Haga clic en el icono **Sort** ![](assets/sort-icon.png) en la esquina superior derecha de la tabla
 
    O
 
    Pase el ratón sobre el nombre de una columna en la vista de tabla, haga clic en la flecha hacia abajo a la derecha del nombre del encabezado de la columna y, a continuación, haga clic en **Ordenar por este campo**. El campo se agrega como una selección de ordenación en el icono Ordenar de la esquina superior derecha de la vista de tabla.
 
-1. (Condicional) En el **Ordenar registros por** , haga clic en uno de los campos sugeridos o en **Elija un campo diferente** y busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
+1. (Condicional) En el cuadro **Ordenar registros por**, haga clic en uno de los campos sugeridos o haga clic en **Elegir un campo diferente** y buscar un campo diferente; a continuación, haga clic en él cuando se muestre en la lista.
 
    El orden se aplica automáticamente a la vista de tabla y los registros se muestran ordenados según los criterios seleccionados.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para ordenar por campos adicionales.
+1. (Opcional) Haga clic en **Agregar condición** y repita los pasos anteriores para ordenar por campos adicionales.
 
    El número de campos por el que está ordenando se muestra a la izquierda del icono Ordenar en la esquina superior derecha de la barra de herramientas. Sólo puede elegir campos que se muestran en las columnas de la vista de tabla.
 
-1. (Opcional) En el **Ordenar registros por** , haga clic en **x** a la derecha de un campo de clasificación para eliminar la clasificación
+1. (Opcional) En el cuadro **Ordenar registros por**, haga clic en el icono **x** a la derecha de un campo de ordenación para quitar la ordenación
 
    O
 
-   Clic **Borrar todo** para eliminar todos los campos de la ordenación.
+   Haga clic en **Borrar todo** para quitar todos los campos de la ordenación.
 
-1. Haga clic fuera de **Ordenar registros por** para cerrarlo.
+1. Haga clic fuera del cuadro **Ordenar registros por** para cerrarlo.
 
    ![](assets/sorting-in-table-view.png)
 

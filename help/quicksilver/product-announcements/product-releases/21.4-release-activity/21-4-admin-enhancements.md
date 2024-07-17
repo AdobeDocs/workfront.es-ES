@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas por el administrador con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.4, consulte [Descripción general de la versión 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Para administradores: ver qué grupos están asociados con un proceso de aprobación
 
 Para ayudarle a averiguar qué grupos están asociados con los procesos de aprobación de su sistema, hemos agregado una columna Nombre de grupo a la vista Estándar en la página Aprobaciones de Configuración. Ahora puede ver esta información sin tener que crear una vista personalizada.
 
-Para obtener información sobre los procesos de aprobación, consulte [Resumen del proceso de aprobación](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Para obtener información acerca de los procesos de aprobación, vea [Introducción al proceso de aprobación](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-Para obtener información sobre la administración de procesos de aprobación de grupos, consulte [Procesos de aprobación de nivel de grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Para obtener información acerca de la administración de procesos de aprobación de grupos, vea [Procesos de aprobación de grupos](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## Nuevo para administradores: los grupos pueden configurar sus propias preferencias de horas y hojas de horas
 
@@ -37,27 +37,27 @@ En una organización grande, es posible que algunos grupos necesiten configurar 
 
 Esta capacidad también se ha agregado recientemente para preferencias de proyecto y para preferencias de tarea y problema.
 
-Para obtener información sobre cómo un administrador de Workfront desbloquea una plantilla de horas y preferencias de hora, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener información sobre cómo un administrador de Workfront desbloquea una hoja de horas y preferencias de horas, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Para obtener información sobre cómo un administrador de grupo configura las preferencias de tareas y problemas desbloqueados para un grupo, consulte [Configurar las preferencias de horas y hojas de horas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Para obtener información sobre cómo un administrador de grupo configura las preferencias de tareas y problemas desbloqueados para un grupo, consulte [Configurar las preferencias de horas y hojas de horas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Nuevo para administradores de Workfront: configuración de plantillas de diseño para usuarios con aprovisionamiento automático en la nueva experiencia de Workfront
 
 Ahora puede configurar las plantillas de diseño en la nueva experiencia de Workfront para los usuarios que se aprovisionan automáticamente. En el menú desplegable Atributo de usuario de Workfront, donde se asignan los atributos de usuario (Configuración > Sistema > Inicio de sesión único), ahora hay disponible un nuevo elemento de menú &quot;Nueva plantilla de diseño&quot; para realizar esta configuración. Anteriormente, solo se podían configurar plantillas de diseño para usuarios con aprovisionamiento automático en Workfront Classic.
 
-Para obtener instrucciones sobre la asignación de atributos de usuario, consulte [Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Para obtener instrucciones sobre cómo asignar atributos de usuario, consulte [Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## El nuevo campo muestra los grupos a los que pertenecen los usuarios
 
 Ahora es fácil averiguar a qué grupos pertenecen sus usuarios. En un informe o vista que enumera usuarios, puede crear una columna con el nuevo campo Otros grupos. Este campo enumera los grupos a los que pertenece cada usuario.
 
-Para obtener información sobre el uso de informes y vistas, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) y [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obtener información sobre el uso de informes y vistas, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) y [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## La página de detalles de modelos ahora muestra una imagen
 
 La página de detalles de cada modelo ahora muestra una imagen de la plantilla de proyecto que se instala con el modelo. La imagen proporciona una vista previa del contenido del modelo para que sepa lo que va a instalar. Si lo desea, puede previsualizar la imagen completa en el explorador o descargar la imagen.
 
-Para obtener más información, consulte [Información general de modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Para obtener más información, vea [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ![](assets/blueprint-detailspage.png)
 
@@ -79,7 +79,7 @@ Para obtener más información, consulte [Configurar un modelo](../../../adminis
 
 Seguimos facilitando la administración de sus grupos y sus objetos asociados en un solo lugar. Ahora puede ver y trabajar con los elementos recientemente eliminados y restaurados de un grupo desde el área de Grupos. Esto evita tener que ir al área Eliminados recientemente o Restaurados recientemente en la Configuración para administrar esos elementos. Además, mantiene la lista de los elementos del grupo con los que está trabajando separada de los demás elementos eliminados y restaurados del sistema.
 
-Para obtener más información, consulte [Ver y administrar los elementos eliminados recientemente de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) y [Ver y administrar los elementos restaurados recientemente de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+Para obtener más información, vea [Ver y administrar los elementos eliminados recientemente](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) de un grupo y [Ver y administrar los elementos restaurados recientemente](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md) de un grupo.
 
 ## Nuevo para administradores de grupos: Las preferencias de grupo ahora afectan a las plantillas de grupo
 
@@ -108,7 +108,7 @@ Para obtener más información, vea la sección Cómo se aplican las preferencia
 
 Ahora es más fácil cambiar un campo personalizado en un formulario personalizado. Con un solo clic en el formulario personalizado, puede obtener información sobre cualquier otro formulario personalizado que también utilice el campo. Es importante evaluar si esos formularios necesitarán ajustes para seguir funcionando correctamente después de realizar el cambio.
 
-Para obtener más información, consulte [Ver todos los formularios personalizados que utilizan un campo o widget personalizado en particular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
+Para obtener más información, consulte [Ver todos los formularios personalizados que usan un campo personalizado o widget en particular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
 ## Novedades para los administradores de grupos: bloquear y desbloquear preferencias de proyectos, tareas y problemas de un grupo
 
@@ -118,11 +118,11 @@ Ahora puede asegurarse de que todos los miembros de los subgrupos debajo de su g
 
   Por el contrario, puede desbloquear una preferencia para su grupo. Esto permite a los administradores de subgrupos configurarlo para el proyecto, la tarea o el flujo de trabajo de problemas únicos de sus usuarios.
 
-  Para obtener más información, consulte [Bloquear o desbloquear una preferencia de proyecto, tarea o problema para subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Para obtener más información, vea [Bloquear o desbloquear las preferencias de proyecto, tarea o problema de los subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Si es administrador de Workfront, no es necesario que vaya al área de Grupos para configurar las preferencias de un subgrupo. En el área principal Preferencias de proyecto, Preferencias de tareas y problemas o Preferencias de horas y hojas de horas, puede usar el cuadro de búsqueda en la parte superior de la página para buscar el subgrupo y configurar sus preferencias.
 
-  Para obtener más información, consulte [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Para obtener más información, vea [Configurar las preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Configurar las preferencias de tareas y problemas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Nuevo para administradores de grupos: cree y edite plantillas desde el área de Grupos
 
@@ -132,7 +132,7 @@ Ahora puede asegurarse de que todos los miembros de los subgrupos debajo de su g
 
 Seguimos facilitando la administración de sus grupos y sus objetos asociados en un solo lugar. Ahora puede ver y trabajar con las plantillas de un grupo desde el área Grupos en Configuración. Esto evita tener que ir al área Plantillas para administrar las plantillas de un grupo. Y mantiene la lista de plantillas de grupo en las que está trabajando separada de las demás en todo el sistema.
 
-Para obtener más información, consulte [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Para obtener más información, vea [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Introduzca y guarde información en un formulario personalizado adjunto a la vez
 
@@ -180,4 +180,4 @@ Se ha añadido una nueva opción al proceso de asociar una plantilla con un grup
 
 En la versión 21.3, cuando añadimos la capacidad de asociar una plantilla de grupo con un grupo, se podía seleccionar un proceso de aprobación específico de grupo en la plantilla, pero no se podía hacer en los Detalles de cola o en los Temas de cola de la plantilla.
 
-Para obtener más información, consulte [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Para obtener más información, vea [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

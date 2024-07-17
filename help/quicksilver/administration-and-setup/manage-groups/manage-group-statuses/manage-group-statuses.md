@@ -27,7 +27,7 @@ Esta sección contiene los siguientes artículos:
 * [Estados de grupo bloqueados y desbloqueados](../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
 * [Cómo heredan los grupos los estados](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
 * [Eliminar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
-* [Estados personalizados en un grupo que se mueve o elimina](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
+* [Estados personalizados en un grupo que se ha movido o eliminado](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
 * [Estados personalizados de una tarea o un problema que se mueve o copia](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
 
-Para obtener información sobre cómo reordenar los estados de grupo, consulte [Reordenar los estados de grupo y de nivel del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Para obtener información acerca de cómo reordenar los estados de grupo, vea [Reordenar los estados de grupo y de nivel de sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Permitir correos electrónicos desde la aplicación Adobe Workfront
-description: Si ha configurado el firewall o el servidor de correo para permitir el acceso solo a proveedores específicos, debe añadir determinadas direcciones IP de Adobe Workfront a la lista de permitidos del cortafuegos. Para obtener instrucciones, consulte Configuración de la lista de permitidos del cortafuegos.
+title: Autorización de correos electrónicos desde la aplicación Adobe Workfront
+description: Si ha configurado el cortafuegos o el servidor de correo para permitir el acceso solo a proveedores específicos, debe añadir determinadas direcciones IP de Adobe Workfront a la lista de permitidos del cortafuegos. Para obtener instrucciones, consulte Configuración de la lista de permitidos del cortafuegos.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,6 +15,6 @@ ht-degree: 0%
 
 ---
 
-# Permitir correos electrónicos desde la aplicación Adobe Workfront
+# Autorización de correos electrónicos desde la aplicación Adobe Workfront
 
-Si ha configurado el firewall o el servidor de correo para permitir el acceso solo a proveedores específicos, debe añadir determinadas direcciones IP de Adobe Workfront a la lista de permitidos del cortafuegos. Para obtener instrucciones, consulte [Configurar la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Si ha configurado el cortafuegos o el servidor de correo para permitir el acceso solo a proveedores específicos, debe añadir determinadas direcciones IP de Adobe Workfront a la lista de permitidos del cortafuegos. Para obtener instrucciones, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

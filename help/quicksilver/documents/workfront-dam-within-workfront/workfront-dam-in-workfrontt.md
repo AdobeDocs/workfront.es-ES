@@ -21,7 +21,7 @@ Adobe Workfront DAM es un sistema nativo de administración de activos digitales
 
 Esta sección contiene los siguientes artículos:
 
-* [Habilitación de Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
+* [Habilitando DAM Adobe Workfront](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
 * [Administrar documentos con Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-* [Tipos de funciones de licencias de Adobe Workfront frente a tipos de funciones DAM de Adobe Workfront](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
+* [Tipos de roles de licencias de Adobe Workfront frente a tipos de roles de DAM de Adobe Workfront](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
 * [Acceso a la ayuda de Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

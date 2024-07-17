@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Ver y editar el informe de [!DNL Workfront Proof] detalles de la cuenta
-description: Como [!DNL Workfront Proof] administrador, puede ver la configuración de la cuenta de [!DNL Workfront Proof] cuenta.
+title: Ver y editar los  [!DNL Workfront Proof] detalles de la cuenta de su organización
+description: Como administrador de  [!DNL Workfront Proof] puede ver la configuración de la cuenta de [!DNL Workfront Proof] su organización.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
@@ -14,41 +14,41 @@ ht-degree: 0%
 
 ---
 
-# Ver y editar el informe de [!DNL Workfront Proof] detalles de la cuenta
+# Ver y editar los detalles de la cuenta de [!DNL Workfront Proof] de su organización
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Como [!DNL Workfront Proof] administrador, puede ver la configuración de la cuenta de [!DNL Workfront Proof] cuenta.
+Como administrador de [!DNL Workfront Proof], puede ver la configuración de la cuenta de [!DNL Workfront Proof] de su organización.
 
-1. Haga clic en **[!UICONTROL Configuración]** en la esquina superior derecha de su [!DNL Workfront Proof] y, a continuación, seleccione **[!UICONTROL Configuración de la cuenta]** en el menú desplegable.
+1. Haga clic en **[!UICONTROL Configuración]** en la esquina superior derecha de la ventana de [!DNL Workfront Proof] y, a continuación, seleccione **[!UICONTROL Configuración de la cuenta]** en el menú desplegable.
 
-1. En el [!UICONTROL Configuración de la cuenta] que aparece, asegúrese de que la variable **[!UICONTROL Detalles]** está abierta.
+1. En la página [!UICONTROL Configuración de la cuenta] que aparece, asegúrese de que la pestaña **[!UICONTROL Detalles]** esté abierta.
 Puede ver las secciones siguientes en esta pestaña:
 
 ## Editar detalles de la cuenta
 
-La variable [!UICONTROL Detalles de las cuentas] muestra la información de contacto de su organización, que se utiliza como información de contacto predeterminada para los usuarios de la cuenta.
+La sección [!UICONTROL Detalles de cuentas] muestra la información de contacto de su organización, que se usa como información de contacto predeterminada para los usuarios de la cuenta.
 
-1. Para editar la información de la sección **[!UICONTROL Detalles de las cuentas]** , haga clic en **[!UICONTROL Editar]** a la derecha de cualquiera de los siguientes:
+1. Para editar la información en la sección **[!UICONTROL Detalles de cuentas]**, haga clic en **[!UICONTROL Editar]** a la derecha de cualquiera de las siguientes opciones:
 
-   * **Nombre de la organización:** El nombre de su empresa.
-   * **Información de contacto:** La información de contacto predeterminada para los usuarios de [!DNL Workfront] Cuenta de prueba.
-   * **Idioma predeterminado:** El idioma predeterminado utilizado en su [!DNL Workfront] Cuenta de prueba.
+   * **Nombre de organización:** El nombre de su compañía.
+   * **Información de contacto:** La información de contacto predeterminada para los usuarios de la cuenta de revisión [!DNL Workfront].
+   * **Idioma predeterminado:** El idioma predeterminado usado en su cuenta de revisión [!DNL Workfront].
    * **Zona horaria predeterminada:** Zona horaria predeterminada de su organización.
 
 ## Estadísticas de uso
 
-La variable [!UICONTROL Estadística de uso] muestra los recuentos y límites de su organización para el periodo de facturación actual:
+La sección [!UICONTROL Estadísticas de uso] muestra los recuentos y límites de su organización para el período de facturación actual:
 
-* **Almacenamiento utilizado:** Cantidad de almacenamiento que utiliza actualmente [!DNL Workfront Proof].
-* **Pruebas utilizadas:** Número de pruebas utilizadas durante el periodo de facturación.
+* **Almacenamiento utilizado:** Cantidad de almacenamiento utilizado actualmente por [!DNL Workfront Proof].
+* **Pruebas utilizadas:** El número de pruebas utilizadas durante el período de facturación.
 * **Límite de usuarios:** El número de usuarios que utilizan [!DNL Workfront Proof].
 
 ## Su plan
 
-La variable [!UICONTROL Su plan] muestra información sobre el [!DNL Workfront Proof] plan:
+La sección [!UICONTROL Su plan] muestra información sobre el plan [!DNL Workfront Proof] de su organización:
 
-* **Plan actual:** El estado actual de su organización [!DNL Workfront Proof] plan.
-* **Fecha de renovación del plan:** La fecha de renovación de la organización [!DNL Workfront Proof] plan.
+* **Plan actual:** El plan [!DNL Workfront Proof] actual de su organización.
+* **Fecha de renovación del plan:** Fecha de renovación del plan [!DNL Workfront Proof] de su organización.

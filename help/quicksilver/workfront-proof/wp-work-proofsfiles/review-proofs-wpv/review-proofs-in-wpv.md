@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 
-* [Apertura de una prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [Abriendo una revisión en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
 * [Revisar un flujo de trabajo en el visor de pruebas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
 * [Revisión de una prueba simultáneamente con varios revisores](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
 * [Vista de la actividad de una prueba en el visor de pruebas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -32,5 +32,5 @@ Esta sección contiene los siguientes artículos:
 * [Comparar pruebas en el visor de pruebas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [Visualización de versiones de revisión anteriores en el Visor de revisión web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [Descarga de una prueba en el visualizador de pruebas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [Métodos abreviados de teclado en [!DNL Workfront Proof] visualizador de pruebas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [Métodos abreviados de teclado en el visor de  [!DNL Workfront Proof] revisión](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [Visualizador de revisiones heredado eliminado](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

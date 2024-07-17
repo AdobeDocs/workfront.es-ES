@@ -23,7 +23,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->En este artículo se describen los niveles de acceso integrados actuales en Adobe Workfront. Para obtener información sobre los nuevos niveles de acceso integrados, consulte [Información general sobre nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>En este artículo se describen los niveles de acceso integrados actuales en Adobe Workfront. Para obtener información acerca de los nuevos niveles de acceso integrados, vea [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Cada uno de los seis niveles de acceso integrados actuales está diseñado para un tipo particular de usuario. Estos niveles de acceso le permiten controlar lo que los usuarios pueden editar y ver en el sistema.
@@ -60,13 +60,13 @@ Si necesita un nivel de acceso personalizado de Planificador, Trabajador, Solici
 >
 >No puede modificar los niveles de acceso de Administrador del sistema o Usuario externo.
 
-Para obtener información sobre cómo crear un nivel de acceso personalizado o modificar uno de los niveles de acceso integrados, consulte [Crear y modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Para obtener información sobre cómo crear un nivel de acceso personalizado o modificar uno de los niveles de acceso integrados, vea [Crear y modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
 >Le recomendamos encarecidamente que deje los niveles de acceso integrados sin cambios para que pueda hacer referencia a ellos después de configurar los usuarios.
 
-Para obtener información general sobre estos niveles de acceso, consulte [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Para obtener información general sobre estos niveles de acceso, consulte [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Nivel de acceso del administrador del sistema
 
@@ -74,9 +74,9 @@ Adjuntado a la licencia de planificación, el nivel de acceso integrado Administ
 
 Los usuarios con nivel de acceso de administrador del sistema pueden hacer de todo en Workfront. Pueden ver y editar todos los objetos de Workfront y la información introducida en Workfront por todos los demás usuarios.
 
-También tienen acceso completo al área de Configuración, donde pueden cambiar cualquier configuración en el sistema. Y pueden acceder a todas las áreas en el menú principal ![](assets/main-menu-icon.png) o el menú principal ![](assets/lines-main-menu.png), si está disponible.
+También tienen acceso completo al área de Configuración, donde pueden cambiar cualquier configuración en el sistema. Y pueden acceder a todas las áreas del menú principal ![](assets/main-menu-icon.png) o del menú principal ![](assets/lines-main-menu.png), si están disponibles.
 
-Para obtener más información, consulte [Conceder a un usuario acceso administrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Para obtener más información, consulte [Conceder acceso administrativo completo a un usuario](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Nivel de acceso del planificador
 
@@ -86,9 +86,9 @@ También se adjunta a la licencia de planificación, el nivel de acceso de Plani
 * Cualquier persona responsable de planificar, crear y administrar tareas, proyectos, portafolios y programas
 * Cualquiera que sea responsable de asignar trabajo (tareas y problemas) a otros usuarios
 * Usuarios que crean informes y aprueban hojas de horas, elementos de trabajo y documentos
-* Usuarios que necesitan acceder a todas las áreas del menú principal ![](assets/main-menu-icon.png) o el menú principal ![](assets/lines-main-menu.png), si está disponible
+* Usuarios que necesitan acceso a todas las áreas del menú principal ![](assets/main-menu-icon.png) o del menú principal ![](assets/lines-main-menu.png), si están disponibles
 
-Puede crear una versión personalizada del nivel de acceso integrado del Planificador y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, consulte [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Puede crear una versión personalizada del nivel de acceso integrado del Planificador y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, vea [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 A continuación, se muestran las opciones de acceso más altas disponibles para los objetos en el nivel de acceso de Planificador:
 
@@ -122,10 +122,10 @@ Usuarios con este nivel de acceso:
 * Pueden aprobar trabajos y documentos, pero no plantillas de horas
 * Puede acceder a informes y compartirlos
 * Puede comunicarse con otros usuarios del sistema
-* No se puede acceder a todas las áreas del menú principal ![](assets/main-menu-icon.png) o el menú principal ![](assets/lines-main-menu.png), si está disponible, y su área &quot;Usuarios&quot; se denomina Equipos. En el área Equipos, los usuarios con este nivel de acceso solo pueden ver los equipos a los que pertenecen, junto con el trabajo asignado a esos equipos.
+* No se puede obtener acceso a todas las áreas del menú principal ![](assets/main-menu-icon.png) o del menú principal ![](assets/lines-main-menu.png), si están disponibles, y el área &quot;Usuarios&quot; se denomina Equipos. En el área Equipos, los usuarios con este nivel de acceso solo pueden ver los equipos a los que pertenecen, junto con el trabajo asignado a esos equipos.
 * Tienen una capacidad limitada para crear objetos: no pueden crear proyectos, portafolios, programas o informes.
 
-Puede crear una versión personalizada del nivel de acceso integrado Trabajador y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, consulte [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Puede crear una versión personalizada del nivel de acceso integrado Trabajador y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, vea [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 A continuación se muestran las opciones de acceso más altas disponibles para los objetos en el nivel de acceso Trabajador:
 
@@ -142,7 +142,7 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Usuarios |   |   | ✓ |
 | Equipos |   |   | ✓ (acceso limitado) |
 | Plantillas | ✓ |   |   |
-| Datos financieros |   | ✓ (La configuración predeterminada es Sin acceso. La configuración Ver permite al usuario ver únicamente el área Finanzas en Detalles del proyecto.) |   |
+| Datos financieros |   | ✓ (La configuración predeterminada es Sin acceso. La configuración Ver permite al usuario ver solo el área de Finanzas   en Detalles del proyecto). |   |
 | Administración de recursos |   | ✓ |   |
 | Planificador de escenarios |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
 | Workfront Goals |   |   | ✓ (La configuración predeterminada es Sin acceso.) |
@@ -158,10 +158,10 @@ Por ejemplo, una parte interesada con este nivel de acceso podría iniciar sesi�
 Usuarios con nivel de acceso de Revisor:
 
 * No se pueden asignar elementos de trabajo ni aprobar plantillas de horas
-* Puede acceder a las áreas Solicitudes y Documentos en el menú principal ![](assets/main-menu-icon.png) o el menú principal ![](assets/lines-main-menu.png), si está disponible
+* Puede acceder a las áreas Solicitudes y Documentos en el menú principal ![](assets/main-menu-icon.png) o en el menú principal ![](assets/lines-main-menu.png), si están disponibles
 * Tienen una capacidad limitada para crear objetos: no pueden crear proyectos, portafolios, programas o informes.
 
-Puede crear una versión personalizada del nivel de acceso integrado del Revisor y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, consulte [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Puede crear una versión personalizada del nivel de acceso integrado del Revisor y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, vea [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Más limitada para los proyectos y tareas que el nivel de acceso de Trabajador, la configuración de acceso más alta disponible para los objetos en el nivel de acceso de Revisor es la siguiente:
 
@@ -249,7 +249,7 @@ Más limitada para los proyectos y tareas que el nivel de acceso de Trabajador, 
   <tr> 
    <td>Datos financieros</td> 
    <td> </td> 
-   <td> <p>✓ (La configuración predeterminada es Sin acceso. La configuración Ver permite al usuario ver únicamente el área Finanzas en Detalles del proyecto.)</p> </td> 
+   <td> <p>✓ (La configuración predeterminada es Sin acceso. La configuración Ver permite al usuario ver solo el área de Finanzas   en Detalles del proyecto).</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -285,9 +285,9 @@ Usuarios con este nivel de acceso:
 * Puede cargar y aprobar documentos
 * Puede revisar el estado de los problemas que han enviado
 * No se puede asignar a elementos de trabajo
-* Solo puede acceder a las solicitudes desde el área Solicitudes del menú principal ![](assets/main-menu-icon.png) o el menú principal ![](assets/lines-main-menu.png), si está disponible. Para obtener más información sobre las colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Solo puede acceder a las solicitudes desde el área Solicitudes del menú principal ![](assets/main-menu-icon.png) o el menú principal ![](assets/lines-main-menu.png), si están disponibles. Para obtener más información acerca de las colas de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Puede crear una versión personalizada del nivel de acceso integrado del solicitante y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, consulte [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Puede crear una versión personalizada del nivel de acceso integrado del solicitante y determinar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener más información, vea [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Las siguientes son las opciones de acceso más altas disponibles para los objetos en el nivel de acceso Solicitante:
 

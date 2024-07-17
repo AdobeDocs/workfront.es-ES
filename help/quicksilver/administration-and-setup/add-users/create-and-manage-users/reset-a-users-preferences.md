@@ -64,7 +64,7 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
  <thead> 
   <tr> 
    <th><strong>Preferencia</strong> </th> 
-   <th><strong>Estado tras el restablecimiento</strong> </th> 
+   <th><strong>Estado después del restablecimiento</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -107,10 +107,10 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 
 {{step-1-to-setup}}
 
-1. Seleccionar **Iniciar sesión como**.
+1. Seleccione **Iniciar Sesión Como**.
 1. Empiece a escribir el nombre del usuario cuyas preferencias desee restablecer y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
-1. Seleccionar  **Iniciar sesión**.
-1. En el campo URL de la parte superior del explorador web, añada `/resetUser` después `workfront.com`.
+1. Seleccione **Iniciar sesión**.
+1. En el campo URL en la parte superior del navegador web, agregue `/resetUser` después de `workfront.com`.
 
    >[!NOTE]
    >
@@ -118,9 +118,9 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. Prensa **Entrar**.
+1. Presione **Intro**.
 1. Para restablecer todas las preferencias de usuario, seleccione **Restablecer**.
 
    O
 
-   Para restablecer solo las pestañas personalizadas, seleccione **Restablecer fichas**.
+   Para restablecer solamente las fichas personalizadas, seleccione **Restablecer fichas**.

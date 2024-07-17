@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Control de errores de lanzamiento en [!DNL Adobe Workfront Fusion]
+# Generar control de errores en [!DNL Adobe Workfront Fusion]
 
-En algunos casos, es posible que desee detener a la fuerza la ejecución del escenario seguida de [Reversión](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) o [Confirmar](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) fase o para detener el procesamiento de una ruta y, opcionalmente, almacenarla en la cola de ejecuciones incompletas.
+En algunos casos, es posible que desee detener a la fuerza la ejecución del escenario seguida de la fase [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) o [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit), o bien detener el procesamiento de una ruta y, opcionalmente, almacenarla en la cola de ejecuciones incompletas.
 
-Actualmente, las directivas de gestión de errores no se pueden usar fuera del ámbito de un [Ruta del controlador de error](../../workfront-fusion/errors/error-handling.md#error) y [!DNL Adobe Workfront Fusion] no ofrece un módulo que le permita generar (arrojar) errores de forma condicional y sencilla.
+Actualmente, las directivas de control de errores no se pueden usar fuera del ámbito de una [ruta del controlador de errores](../../workfront-fusion/errors/error-handling.md#error) y [!DNL Adobe Workfront Fusion] no ofrece un módulo que le permita generar (producir) errores de forma fácil y condicional.
 
-Para obtener información sobre ejecuciones incompletas, consulte [Ver y resolver ejecuciones incompletas en Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Para obtener información sobre las ejecuciones incompletas, consulte [Ver y resolver ejecuciones incompletas en Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-Para obtener información sobre las directivas de gestión de errores, consulte [Directivas para la gestión de errores en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+Para obtener información acerca de las directivas de control de errores, vea [Directivas para el control de errores en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 ## Requisitos de acceso
 
@@ -44,37 +44,37 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion licenses]](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Solución alternativa para el lanzamiento
 
-Para generar un error de forma condicional, puede configurar un módulo para que, opcionalmente, falle durante su funcionamiento. Una posibilidad es utilizar el [!UICONTROL JSON] > [!UICONTROL Analizar JSON] módulo (consulte [Módulos JSON](../../workfront-fusion/apps-and-their-modules/json-modules.md)), configurado para generar opcionalmente un error (BundleValidationError en este caso):
+Para generar un error de forma condicional, puede configurar un módulo para que, opcionalmente, falle durante su funcionamiento. Una posibilidad es emplear el módulo [!UICONTROL JSON] > [!UICONTROL Analizar JSON] (consulte [módulos JSON](../../workfront-fusion/apps-and-their-modules/json-modules.md)), configurado para generar opcionalmente un error (BundleValidationError en este caso):
 
 A continuación, puede adjuntar una de las directivas de gestión de errores a la ruta de gestión de errores a:
 
 * Forzar la ejecución del escenario para que se detenga y realice la fase de reversión: [!UICONTROL Reversión]
 * Forzar la ejecución del escenario para que se detenga y realice la fase de confirmación: [!UICONTROL Confirmar]
-* Detener el procesamiento de una ruta: [!UICONTROL Ignorar]
-* Detenga el procesamiento de una ruta y almacénela en la carpeta de cola de ejecuciones incompletas: [!UICONTROL Descanso]
+* Detener el procesamiento de una ruta: [!UICONTROL Omitir]
+* Detener el procesamiento de una ruta y almacenarla en la cola de la carpeta de ejecuciones incompletas: [!UICONTROL Break]
 
-El siguiente ejemplo muestra el uso de la variable [!DNL Rollback] directiva:
+El ejemplo siguiente muestra el uso de la directiva [!DNL Rollback]:
 
 ![](assets/rollback-directive-350x175.png)

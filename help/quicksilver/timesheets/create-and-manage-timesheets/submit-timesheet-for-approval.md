@@ -35,11 +35,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver el acceso o superior a Tareas y problemas</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Ver el acceso o superior a Tareas y problemas</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores en tareas y problemas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos superiores en tareas y problemas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,53 +53,53 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ### Enviar hoja de horas para su aprobación
 
-Después de establecer un aprobador de hoja de horas (como se describe en la sección ). [Designar aprobadores de hojas de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) en el artículo [Aprobar una hoja de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), el **Cerrar** botón situado en la parte inferior de la plantilla de horas cambia a **Enviar para aprobación** botón.
+Después de establecer un aprobador de hoja de horas (como se describe en la sección [Designar aprobadores de hoja de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) del artículo [Aprobar una hoja de horas](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), el botón **Cerrar** de la parte inferior de la hoja de horas cambia a un botón **Enviar para aprobación**.
 
 Para enviar una hoja de horas para su aprobación:
 
 1. Vaya a una hoja de horas configurada para tener un aprobador.
-1. Registrar tiempo, tal como se describe en [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Clic **Enviar para aprobación** para iniciar el proceso de aprobación de plantillas de horas.
+1. Registrar tiempo, como se describe en [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
+1. Haga clic en **Enviar para aprobación** para iniciar el proceso de aprobación de hoja de horas.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   El **Enviar para aprobación** se reemplaza por el botón **Aprobar**, **Rechazar**, y **Recordar** botones. El estado de la plantilla de horas cambia a **Enviado**.
+   El botón **Enviar para aprobación** se ha reemplazado por los botones **Aprobar**, **Rechazar** y **Recuperar**. El estado de la hoja de horas cambia a **Enviado**.
 
-   Cuando la plantilla de horas se envía para su aprobación, el aprobador la ve enumerada en la **Aprobaciones** en el área **Inicio** página. Pueden ocurrir lo siguiente:
+   Cuando la hoja de horas se envía para su aprobación, el aprobador la ve en el área de **Aprobaciones** de la página **Inicio**. Pueden ocurrir lo siguiente:
 
-   * Si lo aprueban, el **Recordar** el botón cambia a **Volver a abrir** y el estado de la plantilla de horas se actualiza a **Abrir**.
-   * Si lo rechazan, el **Enviar para aprobación** reemplaza el botón de **Recordar** y el estado de la plantilla de horas se actualiza a **Rechazado**.
+   * Si lo aprueban, el botón **Recuperar** cambia a **Volver a abrir** y el estado de la hoja de horas se actualiza a **Abrir**.
+   * Si lo rechazan, el botón **Enviar para aprobación** reemplaza el botón **Recuperar** y el estado de la hoja de horas se actualiza a **Rechazado**.
 
-1. (Opcional) Haga clic en **Recordar** si necesita volver a abrir la plantilla de horas y actualizar la hora. Para obtener más información, consulte [Recuperar una hoja de horas](#recall-a-timesheet) de este artículo.
+1. (Opcional) Haga clic en **Recuperar** si necesita volver a abrir la hoja de horas y actualizar la hora. Para obtener más información, consulte la sección [Recuperar una hoja de horas](#recall-a-timesheet) en este artículo.
 
 ### Ver el estado de una hoja de horas enviada {#view-the-status-of-a-submitted-timesheet}
 
 Puede ver el estado de una plantilla de horas después de enviarla.
 
-Si el administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario, se le notificará una vez aprobada o rechazada la plantilla de horas. Para obtener información sobre la activación de notificaciones de eventos, consulte [Tipos de notificación de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Si el administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario, se le notificará una vez aprobada o rechazada la plantilla de horas. Para obtener información acerca de cómo habilitar las notificaciones de eventos, vea [Tipos de notificaciones de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Sin estas notificaciones, puede obtener más información sobre el estado de las hojas de horas enviadas en el área Hoja de horas de Workfront.
 
 Para ver el estado de una plantilla de horas:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Clic **Plantillas de horas**. El **Todo** El filtro está seleccionado de forma predeterminada.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en **Plantillas de horas**. El filtro **Todos** está seleccionado de manera predeterminada.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
-   * Seleccionar **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solo las plantillas de horas que apruebe
+   * Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe
 
      O
 
-     Seleccionar **Mis hojas de horas** para ver únicamente las hojas de horas.
+     Seleccione **Mis hojas de horas** para ver solamente sus hojas de horas.
 
      Esto aplica los filtros Mis aprobaciones de hojas de horas o Mis hojas de horas a la lista de hojas de horas.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Haga clic en el icono Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Creación o edición de filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -107,11 +107,11 @@ Para ver el estado de una plantilla de horas:
    >
    >   
    >   
-   >   * [Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Condicional) Si ha seleccionado **Mis hojas de horas**, asegúrese de que las variables **Standard** se aplique la vista y observe el **Estado** columna.
+1. (Condicional) Si seleccionó **Mis hojas de horas**, asegúrese de que se aplique la vista **Estándar** y observe la columna **Estado**.
 
    Las plantillas de horas pueden tener los siguientes estados:
 
@@ -121,11 +121,11 @@ Para ver el estado de una plantilla de horas:
     <tbody> 
      <tr> 
       <td role="rowheader">Abrir</td> 
-      <td> <p>Su hoja de horas está abierta actualmente y puede registrar las horas. </p> <p>Aparece una hoja de horas recuperada con el estado Abierto. Para obtener más información, consulte <a href="#recall-a-timesheet" class="MCXref xref">Recuperar una hoja de horas</a> de este artículo. </p> </td> 
+      <td> <p>Su hoja de horas está abierta actualmente y puede registrar las horas. </p> <p>Aparece una hoja de horas recuperada con el estado Abierto. Para obtener más información, consulte la sección <a href="#recall-a-timesheet" class="MCXref xref">Recuperar una hoja de horas</a> en este artículo. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Enviado</td> 
-      <td>Ha enviado su hoja de horas para su aprobación, pero aún no se ha aprobado. Puede recuperar una hoja de horas enviada para seguir editándola. Para obtener más información, consulte <a href="#recall-a-timesheet" class="MCXref xref">Recuperar una hoja de horas</a> de este artículo. </td> 
+      <td>Ha enviado su hoja de horas para su aprobación, pero aún no se ha aprobado. Puede recuperar una hoja de horas enviada para seguir editándola. Para obtener más información, consulte la sección <a href="#recall-a-timesheet" class="MCXref xref">Recuperar una hoja de horas</a> en este artículo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cerrado</td> 
@@ -148,11 +148,11 @@ Puede recuperar una hoja de horas que ya se haya enviado para su aprobación. So
 
 Para recuperar una hoja de horas:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Clic **Plantillas de horas**.
-1. Clic **Mis hojas de horas** en la esquina superior derecha de la pantalla o seleccione **Mis hojas de horas** desde el **Filtrar** ![](assets/filter-nwepng.png) menú desplegable.
+1. Haga clic en **Plantillas de horas**.
+1. Haga clic en **Mis hojas de horas** en la esquina superior derecha de la pantalla o seleccione **Mis hojas de horas** del menú desplegable **Filtrar** ![](assets/filter-nwepng.png).
 1. Haga clic en el lapso de tiempo de una hoja de horas con un estado de **Enviado**.
-1. Clic **Recordar**.
+1. Haga clic en **Recuperar**.
 
-   La plantilla de horas vuelve a poder editarse y su estado cambia a **Abrir**.
+   La hoja de horas vuelve a poder editarse y su estado cambia a **Abrir**.

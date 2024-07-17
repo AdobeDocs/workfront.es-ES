@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Una vez completado y enviado el caso empresarial para una solicitud de proyecto, el caso empresarial debe aprobarse. Esto depende del flujo de trabajo de su organización. Un proyecto puede iniciarse sin que sea necesario aprobar el caso empresarial, pero es posible que el administrador de Adobe Workfront y los propietarios del proyecto no lo consideren ideal. 
 
-Para obtener más información sobre cómo completar y enviar un caso empresarial, consulte el artículo [Crear un caso comercial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obtener más información sobre cómo completar y enviar un caso empresarial, consulte el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Requisitos de acceso
 
@@ -36,16 +36,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos en un proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en un proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Descripción general de la aprobación de caso empresarial
 
@@ -56,7 +56,7 @@ Tenga en cuenta lo siguiente al aprobar un caso empresarial de un proyecto:
 * Debe ir manualmente a los proyectos individuales que necesitan la aprobación de su caso empresarial para ver que están pendientes de aprobación. No hay ningún mecanismo de notificación de Workfront que alerte a alguien de que debe aprobar el caso empresarial de un proyecto.
 * Puede encontrar los proyectos que esperan la aprobación del caso empresarial creando un informe del proyecto o accediendo al portafolio con el que están asociados. 
 
-  Para obtener más información sobre los Portfolio, consulte el artículo [Información general sobre el Portfolio en Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Para obtener más información acerca de los Portfolio, consulte el artículo [Información general del Portfolio en Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Aprobar el caso comercial creando un informe de proyecto
 
@@ -66,18 +66,18 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 
 1. Cree un informe para los proyectos.
 
-   Para obtener más información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener más información acerca de la creación de informes, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Seleccione el **Ver** del informe y haga clic en **Agregar columna**.
+1. Seleccione la ficha **Ver** del informe y, a continuación, haga clic en **Agregar columna**.
 
-1. Empiece a escribir &quot;Estado&quot; en **Mostrar en esta columna** y seleccione este campo cuando aparezca en la lista.
+1. Empiece a escribir &quot;Estado&quot; en el campo **Mostrar en esta columna** y seleccione este campo cuando aparezca en la lista.
 
     Esta columna muestra el estado de los proyectos.
 
-1. Seleccione el **Filtros** del informe y haga clic en **Agregar una regla de filtro**.
+1. Seleccione la ficha **Filtros** del informe y, a continuación, haga clic en **Agregar una regla de filtro**.
 
-1. Empiece a escribir &quot;Estado&quot; en **Mostrarme solo los proyectos en los que...** y selecciónelo cuando aparezca en la lista.
-1. Seleccionar **Igual** para el modificador de filtro.
+1. Empiece a escribir &quot;Estado&quot; en **Mostrar solo los proyectos en los que el campo ...** y selecciónelo cuando aparezca en la lista.
+1. Seleccione **Equal** para el modificador de filtro.
 1. Empiece a escribir &quot;Solicitado&quot; en el campo disponible. 
 
    Esto garantiza que el informe incluya solo los proyectos que están en el estado Solicitado.
@@ -108,19 +108,19 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 
    para mostrar dónde se le designa como administrador de Portfolio. 
 
-1. Haga clic en **Guardar + Cerrar**.
+1. Haga clic en **Guardar+Cerrar**.
 
    Observe que todos los proyectos del informe se encuentran en el estado de **Solicitado**.
 
 1. Haga clic en el nombre de un proyecto en el informe para abrirlo.
-1. Clic **Caso comercial** en el panel izquierdo.
-1. Clic **Aprobar** o **Rechazar** en el área Resumen del caso empresarial para aprobar o rechazar el caso empresarial.
+1. Haga clic en **Caso comercial** en el panel izquierdo.
+1. Haga clic en **Aprobar** o **Rechazar** en el área Resumen de caso comercial para aprobar o rechazar el caso comercial.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
    El estado del proyecto se cambia a **Aprobado** si se aprueba el caso comercial.
 
-   El estado del proyecto se cambia a **Rechazado** si se rechaza el caso comercial.
+   El estado del proyecto se cambia a **Rechazado** si se rechaza el caso empresarial.
 
    >[!NOTE]
    >
@@ -128,4 +128,4 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 
 ## Aprobar el caso empresarial accediendo a los proyectos solicitados en un portafolio
 
-Para obtener más información sobre la revisión de proyectos solicitados, consulte el artículo [Revisar proyectos solicitados](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+Para obtener más información acerca de la revisión de proyectos solicitados, vea el artículo [Revisar proyectos solicitados](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

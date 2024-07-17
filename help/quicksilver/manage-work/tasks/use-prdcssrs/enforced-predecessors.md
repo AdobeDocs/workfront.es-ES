@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Las tareas predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesoras afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la cronología del proyecto.
 
-Para obtener información sobre predecesoras, consulte [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Para obtener información acerca de las tareas predecesoras, vea [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Al establecer relaciones de predecesoras entre tareas, se define cómo el comienzo o el fin de una tarea dependiente depende del comienzo o del fin de sus tareas predecesoras. Esto se realiza mediante diferentes tipos de dependencia.
 
-Para obtener información sobre los tipos de dependencias, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Para obtener información acerca de los tipos de dependencia, vea [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Información general sobre predecesoras forzadas
 
@@ -75,24 +75,24 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 ## Exigir un predecesor en el nivel de tarea
 
 1. Vaya a la tarea sucesora cuyo predecesor desea aplicar.
-1. Clic **Predecesoras** en el panel izquierdo, haga clic en **Agregar predecesora**. Es posible que tenga que hacer clic en **Mostrar más**, entonces **Predecesoras**.
-1. (Condicional) Si desea agregar una tarea predecesora entre proyectos, quite el nombre del proyecto en la **Proyecto principal** y reemplácelo por otro proyecto.
-1. Especifique el nombre de la tarea o tareas predecesoras en el **Tareas** field.
+1. Haga clic en **Predecesoras** en el panel izquierdo y luego haga clic en **Agregar predecesora**. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Predecesoras**.
+1. (Condicional) Si desea agregar una tarea predecesora entre proyectos, quite el nombre del proyecto en el campo **Proyecto principal** y reemplácelo por otro proyecto.
+1. Especifique el nombre de las tareas predecesoras en el campo **Tareas**.
 1. Especifique el **Tipo de dependencia** entre estas dos tareas.
 
-   El valor predeterminado **Tipo de dependencia** es **Finalizar-Iniciar**.
+   El **tipo de dependencia** predeterminado es **Finalizar-Inicio**.
 
-1. Seleccione el **Forzado** para aplicar el predecesor.
+1. Seleccione el campo **Forzado** para forzar el predecesor.
 1. Haga clic en **Guardar**.
 
 ## Forzar un predecesor en una lista de tareas
 
 1. Ir a una lista de tareas de un proyecto.
-1. Desde el **Ver** menú desplegable, seleccione la opción **Vista estándar**.
+1. En el menú desplegable **Vista**, seleccione la **Vista estándar**.
 
 1. Tome nota mentalmente del número de tareas que va a designar como predecesoras.
 1. Busque la tarea sucesora cuyo predecesor desea aplicar.
-1. En el **Predecesoras** , empiece a introducir el número de la tarea predecesora seguida de &quot;e&quot;. Por ejemplo, escriba &quot;1e&quot; para agregar la tarea número 1 como predecesora de la tarea seleccionada.
+1. En la columna **Predecesoras**, empiece a escribir el número de la tarea predecesora seguida de &quot;e&quot;. Por ejemplo, escriba &quot;1e&quot; para agregar la tarea número 1 como predecesora de la tarea seleccionada.
 1. Haga clic en Entrar para guardar la información de predecesoras de la tarea.
 
-   ![predecessor_forced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![predecesora_forzada_en_lista.png](assets/predecessor-enforced-in-list-350x308.png)

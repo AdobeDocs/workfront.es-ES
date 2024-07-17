@@ -37,7 +37,7 @@ Puede crear campos personalizados en Adobe Workfront Planning haciendo referenci
 
 Los campos de fórmula generan un nuevo valor utilizando valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
 
-Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Requisitos de acceso
 
@@ -81,13 +81,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -108,7 +108,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Fórmulas compatibles
 
-Los campos de fórmula de Adobe Workfront Planning admiten todas las expresiones de los campos calculados de Workfront. Para obtener más información, consulte [Resumen de las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Los campos de fórmula de Adobe Workfront Planning admiten todas las expresiones de los campos calculados de Workfront. Para obtener más información, vea [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Además, se admiten las siguientes expresiones para los campos de fórmula de Workfront Planning:
 

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Final de la versión beta 2017.2
+title: Final de Beta 2017.2
 description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2017.2. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 28 de junio de 2017. Estará disponible en el entorno de producción el 26 de julio de 2017.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Final de la versión beta 2017.2
+# Final de Beta 2017.2
 
 Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2017.2. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 28 de junio de 2017. Estará disponible en el entorno de producción el 26 de julio de 2017.
 
@@ -22,43 +22,43 @@ Esta página describe todos los cambios disponibles más recientemente en el ent
 >
 >La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2017.2, consulte [información general sobre la actividad de la versión 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2017.2, consulte [Resumen de la actividad de la versión 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-La versión beta final de 2017.2 incluye mejoras para administradores de Workfront y otros usuarios:
+La versión final de Beta 2017.2 incluye mejoras para administradores de Workfront y otros usuarios:
 
 **Para administradores:**
 
-* [Determinar la disponibilidad del visualizador de pruebas de vídeo HTML5 (ProofHQ y Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
-* [Compatibilidad con certificados SHA-256 para SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
-* [Tipo previo para atributos de asignación](#type-ahead-for-mapping-attributes)
+* [Determinar la disponibilidad del visualizador de pruebas de vídeo de HTML5 (ProofHQ y Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
+* [Admitir certificados SHA-256 para SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
+* [Tipo previo para los atributos de asignación](#type-ahead-for-mapping-attributes)
 * [Mejora de la API: Acceso a asignaciones de usuarios](#api-enhancement-access-user-allocations)
 
-**Para todos los usuarios:**
+**Para Todos Los Usuarios:**
 
 * [Planificador de recursos](#resource-planner)
-* [Nueva área de programación en un proyecto (Generador de equipos)](#new-scheduling-area-in-a-project-team-builder)
-* [Programación de Recursos: Mostrar Menos Elementos por Defecto](#resource-scheduling-show-fewer-items-by-default)
-* [Programación de recursos: Mostrar indicador de colocación y asignación excesiva al arrastrar tareas y problemas](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
+* [Nueva área de horario en un proyecto (Generador de equipos)](#new-scheduling-area-in-a-project-team-builder)
+* [Programación de recursos: mostrar menos elementos de forma predeterminada](#resource-scheduling-show-fewer-items-by-default)
+* [Programación de recursos: mostrar indicador de pérdida y asignación excesiva al arrastrar tareas y problemas](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
 * [Horario de recursos: las asignaciones de usuarios ya no se redondean a la media hora más cercana](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [Exportación del informe de utilización en formatos TSV y PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
-* [Final de la versión beta 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
-* [Final de la versión beta 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
-* [La decisión sobre la revisión se muestra en el área Mi trabajo (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
-* [Visualización de pruebas de medios enriquecidos en resoluciones preestablecidas (ProofHQ y Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
-* [Ver la URL de las páginas secundarias en los comentarios sobre las pruebas de medios enriquecidos (ProofHQ y Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
-* [Creación de vistas personalizadas basadas en vistas estándar existentes (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
-* [Filtrado del área de informes (ProofHQ)](#filter-the-reporting-area-proofhq)
-* [Visualización de los valores mínimo y máximo en los informes (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
-* [Notificación en la aplicación para la aprobación de pruebas](#in-app-notification-for-proof-approval)
-* [Mejoras de Mobile](#mobile-improvements)
+* [Exportar el informe de utilización en formatos TSV y PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [Final de Beta de 2017.2](#user-calendar-enhancements-in-the-my-work-area%22)
+* [Final de Beta de 2017.2](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
+* [Se muestra la decisión de revisión en Mi área de trabajo (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
+* [Ver pruebas de medios enriquecidos en resoluciones preestablecidas (ProofHQ y Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
+* [Ver la URL de las subpáginas en los comentarios de las revisiones de medios enriquecidos (ProofHQ y Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
+* [Crear vistas personalizadas basadas en vistas estándar existentes (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
+* [Filtrar el área de informes (ProofHQ)](#filter-the-reporting-area-proofhq)
+* [Mostrar valores mínimos y máximos en los informes (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
+* [Notificación en la aplicación para aprobación de revisión](#in-app-notification-for-proof-approval)
+* [Mejoras móviles](#mobile-improvements)
 * [Se agregó una barra diagonal a las instrucciones de filtro para los valores de campo que contienen comas](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
-* [Tarifas de facturación múltiples](#multiple-billing-rates)
-* [Nuevo campo Hora presupuestada de recurso](#new-resource-budgeted-hour-field)
+* [Múltiples tarifas de facturación](#multiple-billing-rates)
+* [Nuevo campo de hora presupuestado de recurso](#new-resource-budgeted-hour-field)
 * [Mostrar la función del usuario en el área &quot;Asignado a&quot; de la página de detalles de tareas y problemas](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Nueva área de programación en un proyecto (Generador de equipos) {#new-scheduling-area-in-a-project-team-builder}
 
@@ -123,7 +123,7 @@ Ahora puede exportar el informe Utilización de un proyecto en los formatos TSV 
 
 Antes de este cambio, el informe Utilización solo se podía exportar en formato XLSX.
 
-Para obtener más información sobre la exportación del informe Utilización, consulte [Descripción general del informe Utilización de los recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Descripción general del informe Utilización de los recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obtener más información acerca de cómo exportar el informe Utilización, vea [Información general sobre el informe Utilización de recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) en [Información general sobre el informe Utilización de recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## La decisión sobre la revisión se muestra en el área Mi trabajo (Workfront) {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ Ahora, cuando visualice las aprobaciones de revisión en la pestaña Mis aprobac
 
 Antes de este cambio, no había indicios de que ya se hubiera tomado una decisión sobre la prueba y esta permanecía en la pestaña Mis aprobaciones hasta que actualizó el explorador.
 
-Para obtener más información, consulte [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Para obtener más información, consulte [Aprobación de trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md) en [Aprobación de trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Visualización de pruebas de medios enriquecidos en resoluciones preestablecidas (ProofHQ y Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -139,7 +139,7 @@ En una versión anterior del entorno de vista previa, presentamos la capacidad d
 
 Ahora puede seleccionar entre las opciones de resolución preestablecidas de varios teléfonos, tabletas, portátiles y equipos de escritorio.
 
-Para obtener más información, consulte &quot;Visualización de una resolución de ajuste preestablecido&quot; en [Cambiar la resolución de prueba interactiva en el visor de pruebas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Para obtener más información, consulte &quot;Visualización de una resolución de ajuste preestablecido&quot; en [Cambiar la resolución de prueba interactiva en el visor de revisión](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## Ver la URL de las páginas secundarias en los comentarios sobre las pruebas de medios enriquecidos (ProofHQ y Workfront) {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
@@ -165,19 +165,19 @@ Ahora puede crear una vista personalizada basada en una vista estándar. Las op
 
 Antes de este cambio, para crear una vista personalizada, tenía que crear la vista desde cero. 
 
-Para obtener más información, consulte [Creación de una vista personalizada](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Crear y administrar vistas personalizadas en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Para obtener más información, consulte [Crear una vista personalizada](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) en [Crear y administrar vistas personalizadas en Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Filtrado del área de informes (ProofHQ) {#filter-the-reporting-area-proofhq}
 
 De forma predeterminada, los datos que se muestran en la ficha Informes incluyen toda la información del sistema de ProofHQ. Ahora puede utilizar filtros para mostrar únicamente información que sea relevante para sus necesidades. 
 
-Para obtener más información, consulte [Filtrado de informes](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Ejecutar informes en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Para obtener más información, consulte [Filtrado de informes](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) en  [Ejecutar informes en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Visualización de los valores mínimo y máximo en los informes (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Ahora puede configurar si los valores mínimo y máximo se muestran en el gráfico al ver los informes.
 
-Para obtener más información, consulte [Visualización de informes](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Ejecutar informes en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Para obtener más información, consulte [Ver informes](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) en  [Ejecutar informes en Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Compatibilidad con certificados SHA-256 para SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
@@ -203,7 +203,7 @@ SAML 1.1 no es compatible con la asignación de atributos.
 >
 > La aplicación móvil se lanza de forma independiente de la aplicación principal de Workfront. La funcionalidad descrita en esta sección se lanza a principios de agosto.
 
-Verá las siguientes funciones agregadas en las aplicaciones móviles, tanto para las plataformas Android como iOS:
+Verá las siguientes funciones agregadas en las aplicaciones móviles, tanto para Android como para iOS:
 
 * Envío de solicitudes desde la aplicación móvil
 * Nueva entrada de hoja de horas en la aplicación móvil
@@ -226,7 +226,7 @@ Cuando crea un filtro en modo de texto y filtra valores de campo que contienen c
 
 Antes de este cambio, no se podía filtrar por campos que tuvieran opciones con comas.
 
-Para obtener más información sobre este cambio, consulte [Resumen de filtros](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obtener más información acerca de este cambio, vea [Resumen de filtros](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Tarifas de facturación múltiples {#multiple-billing-rates}
 
@@ -234,9 +234,9 @@ Ahora puede agregar varias invalidaciones de tarifas de facturación para el mis
 
 Antes de este cambio, podía anular la tarifa de facturación de un rol una sola vez y los ingresos reales se recalcularían para reflejar la tarifa de facturación actual para todas las horas registradas antes de que se cambiara la tarifa de facturación.
 
-Para obtener más información sobre las tarifas de facturación y los ingresos, consulte [Resumen de facturación e ingresos](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obtener más información sobre las tarifas de facturación y los ingresos, consulte [Información general sobre facturación e ingresos](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-Para obtener más información sobre la anulación de tarifas de facturación para roles de trabajo en el nivel de proyecto, consulte [Resumen de anulación de Tarifas de facturación de rol y cálculo de ingresos en un proyecto](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obtener más información sobre la anulación de tarifas de facturación para roles de trabajo en el nivel de proyecto, consulte [Información general sobre la anulación de tarifas de facturación de rol y el cálculo de ingresos en un proyecto](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Planificador de recursos {#resource-planner}
 
@@ -254,7 +254,7 @@ Para obtener más información sobre el uso del Planificador de recursos, consul
 
 Para admitir la nueva funcionalidad de Planning y el Planificador de recursos, se ha agregado un nuevo campo al Report Builder, que le permite informar sobre las horas presupuestadas del recurso. Este campo registra la cantidad de horas presupuestadas de un recurso en un proyecto. Este campo no está disponible cuando se presupuestan recursos utilizando la funcionalidad Planificación de recursos de legado.
 
-Para obtener más información sobre el uso de horas presupuestadas en el Planificador de recursos, consulte [Resumen del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener más información sobre el uso de horas presupuestadas en el Planificador de recursos, consulte [Información general del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Notificación en la aplicación para la aprobación de pruebas {#in-app-notification-for-proof-approval}
 
@@ -262,7 +262,7 @@ Cuando se le designe como aprobador de una prueba, recibirá una notificación e
 
 Antes de esta mejora, la única indicación visual de que había sido designado aprobador de una prueba era una nueva solicitud de prueba en su área de Mi trabajo.
 
-Para obtener más información sobre las notificaciones en la aplicación, consulte [Visualización y administración de notificaciones en la aplicación](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Para obtener más información sobre las notificaciones en la aplicación, consulte [Ver y administrar notificaciones en la aplicación](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Mostrar la función del usuario en el área &quot;Asignado a&quot; de la página de detalles de tareas y problemas {#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues}
 

@@ -8,7 +8,8 @@ title: Módulos OpenAI (ChatGPT)
 description: En un escenario de Adobe Workfront Fusion, puede automatizar los flujos de trabajo que utilizan OpenAIT (ChatGPT), así como conectarlo a varias aplicaciones y servicios de terceros.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: aa672a81b0899c45c1c7e6abba03b6d975dc7017
+exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 0%
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL OpenAI (ChatGPT & DALL-E)] módulos
 
-En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL OpenAI (ChatGPT & DALL-E)], así como conectarlo a múltiples aplicaciones y servicios de terceros.
+En un escenario de [!DNL Adobe Workfront Fusion], puede automatizar los flujos de trabajo que utilizan [!DNL OpenAI (ChatGPT & DALL-E)], así como conectarlo a varias aplicaciones y servicios de terceros.
 
-Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si necesita instrucciones para crear un escenario, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obtener información acerca de los módulos, vea [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acceso
 
@@ -45,24 +46,24 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</td> 
+   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Requisitos previos
 
-Para usar [!DNL OpenAI (ChatGPT & DALL-E)] módulos, debe tener un [!DNL OpenAI] Cuenta de, incluida una clave de API y un ID de organización.
+Para usar módulos de [!DNL OpenAI (ChatGPT & DALL-E)], debe tener una cuenta de [!DNL OpenAI], que incluya una clave de API y un identificador de organización.
 
-## Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]
+## Conectando [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]
 
-Puede crear una conexión con su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta directamente desde dentro de un [!DNL OpenAI (ChatGPT & DALL-E)] módulo.
+Puede crear una conexión con su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] directamente desde un módulo de [!DNL OpenAI (ChatGPT & DALL-E)].
 
-1. En cualquier [!DNL OpenAI (ChatGPT & DALL-E)] , haga clic en **[!UICONTROL Añadir]** junto al [!UICONTROL Conexión] field.
+1. En cualquier módulo de [!DNL OpenAI (ChatGPT & DALL-E)], haga clic en **[!UICONTROL Agregar]** junto al campo [!UICONTROL Conexión].
 1. Introduzca la siguiente información:
 
    <table style="table-layout:auto"> 
@@ -84,14 +85,14 @@ Puede crear una conexión con su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta directa
     </tbody> 
    </table>
 
-1. Clic **[!UICONTROL Continuar]** para crear la conexión y volver al módulo.
+1. Haga clic en **[!UICONTROL Continuar]** para crear la conexión y volver al módulo.
 
 
 ## [!DNL OpenAI (ChatGPT & DALL-E)] módulos y sus campos
 
-Al configurar [!DNL OpenAI (ChatGPT & DALL-E)] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL OpenAI (ChatGPT & DALL-E)] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL OpenAI (ChatGPT & DALL-E)] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL OpenAI (ChatGPT & DALL-E)] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -140,11 +141,11 @@ Este módulo de acción determina si el texto infringe la política de contenido
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrada]</td> 
-   <td> Para cada muestra de texto que desee incluir, haga clic en <b>Añadir elemento</b> y escriba o asigne el texto. Incluya todo el ejemplo de texto.</td> 
+   <td> Para cada muestra de texto que desee incluir, haga clic en <b>Agregar elemento</b> y escriba o asigne el texto. Incluya todo el ejemplo de texto.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Modelo]</td> 
@@ -163,7 +164,7 @@ Este módulo de acción devuelve una versión editada de un mensaje que ha propo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Modelo]</td> 
@@ -179,7 +180,7 @@ Este módulo de acción devuelve una versión editada de un mensaje que ha propo
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Configuración avanzada]</td> 
-   <td> <p>Para obtener información sobre la configuración avanzada opcional de este módulo, consulte la información sobre la creación de ediciones en la <a href="https://platform.openai.com/docs/api-reference/edits/create" class="MCXref xref">Documentación de API de OpenAI</a>.</p> </td> 
+   <td> <p>Para obtener información sobre la configuración avanzada opcional de este módulo, consulte la información sobre la creación de ediciones en la <a href="https://platform.openai.com/docs/api-reference/edits/create" class="MCXref xref">documentación de la API de OpenAI</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -194,7 +195,7 @@ Este módulo de acción crea un vector de incrustación que representa el texto 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Modelo]</td> 
@@ -225,7 +226,7 @@ Dada una lista de mensajes que describen una conversación, este módulo de acci
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Modelo]</td> 
@@ -233,17 +234,17 @@ Dada una lista de mensajes que describen una conversación, este módulo de acci
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mensajes]</td> 
-   <td>Los mensajes describen la conversación hasta el momento. Para cada mensaje que desee añadir, haga clic en <b>Añadir elemento</b> y rellene lo siguiente:
+   <td>Los mensajes describen la conversación hasta el momento. Para cada mensaje que desee agregar, haga clic en <b>Agregar elemento</b> y rellene lo siguiente:
    <ul>
-   <li> <b>Rol</b>: seleccione la función del autor de este mensaje.</li>
-   <li> <b>Contenido</b>: introduzca o asigne el contenido de este mensaje.</li>
-   <li> <b>Nombre</b>: introduzca o asigne el nombre del autor de este mensaje. El nombre puede contener letras en mayúsculas y minúsculas, números y guiones bajos. La longitud máxima del nombre es de 64 caracteres.</li>
+   <li> <b>Rol</b>: seleccione el rol del autor de este mensaje.</li>
+   <li> <b>Contenido</b>: escriba o asigne el contenido de este mensaje.</li>
+   <li> <b>Nombre</b>: escriba o asigne el nombre del autor de este mensaje. El nombre puede contener letras en mayúsculas y minúsculas, números y guiones bajos. La longitud máxima del nombre es de 64 caracteres.</li>
    </ul>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Configuración avanzada]</td> 
-   <td> <p>Para obtener información sobre la configuración avanzada opcional de este módulo, consulte la información sobre la creación de finalizaciones de chat en el <a href="https://platform.openai.com/docs/api-reference/chat/create" class="MCXref xref">Documentación de API de OpenAI</a>.</p> </td> 
+   <td> <p>Para obtener información acerca de la configuración avanzada opcional de este módulo, consulte la información sobre la creación de finalizaciones de chat en la <a href="https://platform.openai.com/docs/api-reference/chat/create" class="MCXref xref">documentación de la API de OpenAI</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,7 +296,7 @@ Este módulo de acción genera o manipula imágenes con modelos Dall-E.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Descripción de texto de la imagen deseada]</td> 
@@ -304,7 +305,7 @@ Este módulo de acción genera o manipula imágenes con modelos Dall-E.
   </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL Configuración avanzada]</td> 
-   <td> <p>Para obtener información sobre la configuración avanzada opcional de este módulo, consulte la información sobre la creación de imágenes en <a href="https://platform.openai.com/docs/api-reference/images/create" class="MCXref xref">Documentación de API de OpenAI</a>.</p> </td> 
+   <td> <p>Para obtener información acerca de la configuración avanzada opcional de este módulo, consulte la información sobre la creación de imágenes en la <a href="https://platform.openai.com/docs/api-reference/images/create" class="MCXref xref">documentación de la API de OpenAI</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,7 +320,7 @@ Este módulo enumera y describe los distintos modelos disponibles en la API de O
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Acción]</td> 
@@ -342,15 +343,15 @@ Este módulo de acción envía una solicitud HTTP personalizada a la API de Open
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Introduzca una ruta relativa a <code>https://api.openai.com/v1/</code> </p> </td> 
+   <td> <p>Escriba una ruta relativa a <code>https://api.openai.com/v1/</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -362,7 +363,7 @@ Este módulo de acción envía una solicitud HTTP personalizada a la API de Open
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cuerpo]</td> 
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -416,7 +417,7 @@ Este módulo de acción enumera, elimina o recupera archivos o contenido de arch
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Acción]</td> 
@@ -439,7 +440,7 @@ Administre trabajos de ajuste para adaptar un modelo a los datos de formación e
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL OpenAI (ChatGPT & DALL-E)] cuenta de Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conectando [!DNL OpenAI (ChatGPT & DALL-E)] hasta [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OpenAI (ChatGPT & DALL-E)] a Workfront Fusion, consulte <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Conexión de [!DNL OpenAI (ChatGPT & DALL-E)] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seleccione la operación]</td> 
@@ -458,4 +459,3 @@ Administre trabajos de ajuste para adaptar un modelo a los datos de formación e
    <td> Si está eliminando un archivo o recuperando un archivo o contenido de archivo, introduzca o asigne el ID del archivo. 
   </tr> 
 </tbody>
-

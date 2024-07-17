@@ -19,12 +19,12 @@ ht-degree: 0%
 Para agregar varios campos en Adobe Workfront y mostrar ese valor agregado en un nuevo campo, puede crear lo siguiente:
 
 * Campo personalizado calculado en un formulario personalizado\
-  Para obtener más información sobre cómo agregar un campo personalizado calculado a un formulario personalizado, consulte la sección [Agregar un campo calculado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) en el artículo [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Para obtener más información acerca de cómo agregar un campo personalizado calculado a un formulario personalizado, vea la sección [Agregar un campo calculado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) en el artículo [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Una columna calculada en una vista\
-  Para obtener más información sobre el uso de cálculos en una vista, vea la sección [Uso del modo Texto en las vistas](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) en el artículo [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Para obtener más información acerca del uso de cálculos en una vista, vea la sección [Usar el modo de texto en las vistas](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) en el artículo [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Aunque se utiliza el modo de texto para crear campos calculados y columnas calculadas, la sintaxis para crearlos es diferente. Consulte los artículos enumerados anteriormente para aprender a crear campos calculados y columnas calculadas. Para obtener información sobre las distintas sintaxis utilizadas en las expresiones de datos calculados, como los campos personalizados calculados y las columnas, consulte la sección [Sintaxis de campos personalizados calculados frente a columnas personalizadas calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) en este artículo.
+Aunque se utiliza el modo de texto para crear campos calculados y columnas calculadas, la sintaxis para crearlos es diferente. Consulte los artículos enumerados anteriormente para aprender a crear campos calculados y columnas calculadas. Para obtener información acerca de las distintas sintaxis que se usan en las expresiones de datos calculados, como campos personalizados calculados y columnas, vea la sección [Sintaxis de los campos personalizados calculados frente a columnas personalizadas calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) en este artículo.
 
 Puede utilizar los mismos cálculos en ambos campos calculados, así como en una columna calculada. Sin embargo, según cuál sea el propósito de estos cálculos, puede que desee considerar la posibilidad de crear uno frente al otro.
 
@@ -61,21 +61,21 @@ Las diferencias entre las dos sintaxis son las siguientes:
    <td><strong>Elemento de informe personalizado calculado</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>Utilice el nombre de los campos tal como aparecen en la interfaz de Workfront.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Ejemplo de nombre de campo utilizado en un campo personalizado calculado: <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Utilice el nombre de los objetos o campos tal como aparecen en la base de datos de Workfront. Los nombres de los objetos y campos se escriben en minúsculas o en minúscula, si son nombres compuestos. </p> <p>Para ver un inventario de todos los objetos y campos de Workfront que aparecen en la base de datos, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Ejemplo de nombre de campo utilizado en un elemento de informe personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Utilice el nombre de los campos tal como aparecen en la interfaz de Workfront.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Ejemplo de nombre de campo usado en un campo personalizado calculado: <code>Planned Completion Date</code>.</p> </td> 
+   <td> <p>Utilice el nombre de los objetos o campos tal como aparecen en la base de datos de Workfront. Los nombres de los objetos y campos se escriben en minúsculas o en minúscula, si son nombres compuestos. </p> <p>Para obtener un inventario de todos los objetos y campos de Workfront tal como aparecen en la base de datos, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>Ejemplo de nombre de campo utilizado en un elemento de informe personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Escriba los nombres de los campos entre paréntesis o llaves</td> 
-   <td> <p>No escriba los nombres de los campos entre corchetes o paréntesis cuando los utilice en una <code>valuefield </code>línea.</p> <p>Incluya los nombres de los campos entre llaves cuando los utilice en una <code>valueexpression</code> línea.</p> </td> 
+   <td> <p>No escriba los nombres de los campos entre corchetes o paréntesis cuando los utilice en una línea <code>valuefield </code>.</p> <p>Escriba los nombres de los campos entre llaves cuando los utilice en una línea de <code>valueexpression</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Separar los campos por puntos</td> 
-   <td> <p>Separe los campos por dos puntos al usarlos en una <code>valuefield</code>línea.</p> <p>Separe los campos por puntos al usarlos en una <code>valueexpression</code>línea.</p> </td> 
+   <td> <p>Separe los campos por dos puntos cuando los utilice en una línea <code>valuefield</code>.</p> <p>Separe los campos por puntos cuando los utilice en una línea <code>valueexpression</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre la sintaxis que debe utilizar en una columna personalizada calculada, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obtener más información acerca de la sintaxis que debe usar en una columna personalizada calculada, vea [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Cuándo utilizar campos personalizados calculados
 
@@ -85,10 +85,10 @@ Para obtener más información sobre la sintaxis que debe utilizar en una column
 
 ## Acciones que almacenan en déclencheur la actualización de un campo personalizado calculado
 
-* En la página principal de un objeto, haga clic en el icono Más ![](assets/more-icon.png)y luego haciendo clic en **Recalcular expresiones**
+* En la página principal de un objeto, haga clic en el icono Más ![](assets/more-icon.png) y, a continuación, en **Volver a calcular expresiones**
 
-* Edición masiva de varios objetos al **Volver a calcular expresiones personalizadas** está habilitado
-* Edición de un formulario personalizado al **Actualizar cálculos anteriores** está habilitado para el campo personalizado calculado
+* Edición masiva de varios objetos cuando **Volver a calcular expresiones personalizadas** está habilitado
+* Editar un formulario personalizado cuando **Actualizar cálculos anteriores** está habilitado para el campo personalizado calculado
 
 ## Cuándo utilizar columnas calculadas en una vista
 
@@ -106,9 +106,9 @@ Para obtener más información sobre la sintaxis que debe utilizar en una column
 
 ## Ejemplos de campos personalizados calculados y columnas
 
-Para ver ejemplos de campos personalizados calculados, consulte [Datos personalizados calculados en informes](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Para ver ejemplos de campos personalizados calculados, vea [Datos personalizados calculados en los informes](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
 Para ver ejemplos de columnas personalizadas calculadas en vistas, consulte los siguientes artículos:
 
-* [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

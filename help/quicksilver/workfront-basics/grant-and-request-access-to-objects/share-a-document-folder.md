@@ -1,33 +1,32 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Compartir una carpeta de documento
-description: Puede compartir una carpeta y su contenido desde el área Documentos .
+title: Compartir una carpeta de documentos
+description: Puede compartir una carpeta y su contenido desde el área Documentos.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
-# Compartir una carpeta de documento
+# Compartir una carpeta de documentos
 
-Puede compartir una carpeta y su contenido desde el área Documentos .
+Puede compartir una carpeta y su contenido desde el área Documentos.
 
 >[!NOTE]
 >
->* La carpeta debe estar en los cinco niveles superiores de una jerarquía de carpetas de un objeto. Cada carpeta del sexto nivel o inferior hereda sus configuraciones de uso compartido de la carpeta directamente superior.
+>* La carpeta debe estar en los cinco niveles superiores de una jerarquía de carpetas en un objeto. Cada carpeta del sexto nivel o inferior hereda sus configuraciones de uso compartido de la carpeta directamente superior a ella.
 >
->  Para obtener información sobre cómo agregar subcarpetas para crear una jerarquía de carpetas, consulte la sección [Crear carpetas y subcarpetas](../../documents/organizing-documents/create-documents-folder.md#creating-folders) en el artículo [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
+>  Para obtener información acerca de cómo agregar subcarpetas para crear una jerarquía de carpetas, vea la sección [Crear carpetas y subcarpetas](../../documents/organizing-documents/create-documents-folder.md#creating-folders) en el artículo [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
 >
 >* Las carpetas inteligentes no se pueden compartir.
->* Si configura las opciones de uso compartido para una carpeta de documento dentro de una plantilla y, a continuación, alguien crea un proyecto a partir de esa plantilla, las configuraciones de uso compartido no se transfieren a la carpeta de documento del nuevo proyecto.
->* Si configura las opciones de uso compartido para una carpeta de documento dentro de un elemento de trabajo y después copia el elemento de trabajo, las configuraciones de uso compartido no se transfieren a la carpeta del documento en el nuevo elemento de trabajo.
+>* Si configura opciones de uso compartido para una carpeta de documentos dentro de una plantilla y alguien crea un proyecto a partir de esa plantilla, las configuraciones de uso compartido no se transfieren a la carpeta de documentos del nuevo proyecto.
+>* Si configura opciones de uso compartido para una carpeta de documentos dentro de un elemento de trabajo y, a continuación, copia el elemento de trabajo, las configuraciones de uso compartido no se transfieren a la carpeta de documentos del nuevo elemento de trabajo.
 >
-
 
 ## Requisitos de acceso
 
@@ -70,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -79,11 +78,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver acceso a documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Ver acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver acceso a un objeto</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver el acceso a un objeto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,18 +91,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Compartir una carpeta
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Documentos**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Documentos**.
 
    O
 
-   Con un objeto Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
+   Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
 
-1. Seleccione la carpeta y, a continuación, haga clic en el icono Compartir ![](assets/share-icon.png) en la barra de herramientas.
+1. Seleccione la carpeta y, a continuación, haga clic en el icono Compartir ![](assets/share-icon.png) de la barra de herramientas.
 
-   La carpeta debe estar en los cinco niveles superiores de una jerarquía de carpetas de un objeto y no puede ser una carpeta inteligente.
+   La carpeta debe estar en los cinco niveles superiores de una jerarquía de carpetas en un objeto y no puede ser una carpeta inteligente.
 
-1. En el cuadro que aparece, debajo de **Dar acceso a la carpeta a**, empiece a escribir el nombre del usuario, equipo, función de trabajo, grupo o empresa con la que desee compartir la carpeta y, a continuación, presione **Entrar** cuando se muestre el nombre.
-1. Para ajustar el acceso del usuario, equipo, función de trabajo, grupo o empresa que acaba de agregar, haga clic en el menú desplegable a la derecha del nombre y, a continuación, configure una de las siguientes opciones disponibles y cualquiera de sus ajustes avanzados:
+1. En el cuadro que se muestra, en **Dar acceso a la carpeta a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con el que desea compartir la carpeta y, a continuación, presione **Entrar** cuando se muestre el nombre.
+1. Para ajustar el acceso del usuario, equipo, función del trabajo, grupo o compañía que acaba de agregar, haga clic en el menú desplegable situado a la derecha del nombre y, a continuación, configure una de las siguientes opciones disponibles y cualquiera de sus opciones avanzadas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,35 +113,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td> <p>Capacidad para ver la carpeta y su contenido.</p> <p>Haga clic en <strong>Configuración avanzada</strong> para especificar si desea permitir lo siguiente:</p> 
        <ul> 
         <li><strong>Descargar</strong>: Capacidad para descargar la carpeta y su contenido como archivo ZIP</li> 
-        <li> <p><strong>Compartir</strong>: Capacidad de compartir la carpeta con otros usuarios del sistema</p> </li> 
+        <li> <p><strong>Compartir</strong>: capacidad para compartir la carpeta con otros usuarios del sistema</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Administrarlo</td> 
       <td> <p>Capacidad para ver y editar la carpeta y su contenido</p> <p>Haga clic en <strong>Configuración avanzada</strong> para especificar si desea permitir que los usuarios hagan lo siguiente:</p> 
        <ul> 
-        <li><strong>Eliminar</strong>: Eliminar la carpeta y su contenido del sistema</li> 
+        <li><strong>Eliminar</strong>: elimine la carpeta y su contenido del sistema</li> 
         <li><b>Descargar</b>: Descargue la carpeta y su contenido como archivo ZIP</li> 
-        <li><strong>Compartir</strong>: Compartir la carpeta y su contenido con otros usuarios del sistema</li> 
+        <li><strong>Compartir</strong>: comparte la carpeta y su contenido con otros usuarios del sistema</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Repita los pasos del 3 al 4 para agregar otros nombres a la lista y configurar sus opciones.
-1. (Opcional) Si desea que todos los miembros del sistema puedan ver la carpeta y su contenido, haga clic en el icono de engranaje ![](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro de uso compartido, haga clic en **Haga que esto sea visible en todo el sistema.**
+1. (Opcional) Repita los pasos 3-4 para añadir otros nombres a la lista y configurar sus opciones.
+1. (Opcional) Si desea que todos los usuarios del sistema puedan ver la carpeta y su contenido, haga clic en el icono de engranaje ![](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro para compartir y, a continuación, haga clic en **Hacer esto visible en todo el sistema.**
 
-   Si cambia de opinión, puede hacer clic en **Eliminar el acceso a todo el sistema** (la opción predeterminada).
+   Si cambia de opinión, puede hacer clic en **Quitar el acceso en todo el sistema** (la opción predeterminada).
 
-## Acceso de los usuarios al contenido de una carpeta compartida con ellos
+## Cómo acceden los usuarios al contenido de una carpeta compartida con ellos
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
-Actualmente, cuando comparte una carpeta, los destinatarios no ven la carpeta en el área Documentos . Sin embargo, pueden acceder a sus documentos ejecutando un informe de documento.
+Actualmente, cuando comparte una carpeta, los destinatarios no ven la carpeta en su área de Documentos. Sin embargo, pueden acceder a sus documentos ejecutando un informe de documento.
 
-Para obtener información sobre cómo ejecutar un informe, consulte la sección [Informar sobre objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) en el artículo [Explicación de los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). Consulte también [Crear un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener información acerca de cómo ejecutar un informe, vea la sección [Informe sobre objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) en el artículo [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). Vea también [Crear un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -158,20 +157,20 @@ Para obtener información sobre cómo ejecutar un informe, consulte la sección 
 
 ## Permisos heredados al compartir un objeto que contiene una carpeta
 
-Cuando comparte un objeto que tiene una carpeta de documento, los destinatarios también obtienen acceso a la carpeta:
+Cuando comparte un objeto que tiene una carpeta de documentos, los destinatarios también obtienen acceso a la carpeta:
 
-* Si concede a los destinatarios el acceso de vista al objeto principal, tendrán acceso de vista a la carpeta.
-* Si concede a sus destinatarios el acceso de Contribute o Administrar al objeto principal, tendrán acceso de Gestión a la carpeta.
-* Si concede un tipo de acceso (Ver, Contribute o Administrar) al objeto principal y otro tipo a la carpeta, los destinatarios tendrán el mayor de estos dos tipos de acceso a los documentos de la carpeta
+* Si concede a los destinatarios acceso de Vista al objeto principal, tendrán acceso de Vista a la carpeta.
+* Si concede a los destinatarios acceso de Contribute o de Administración al objeto principal, tendrán acceso de Administración a la carpeta.
+* Si concede un tipo de acceso (Ver, Contribute o Administrar) al objeto principal y otro tipo a la carpeta, los destinatarios tendrán el mayor de esos dos tipos de acceso a los documentos de la carpeta
 
-   Por ejemplo, si comparte el objeto principal con Acceso de vista y la carpeta con Acceso de administración, los destinatarios tendrán Acceso de administración a los documentos de la carpeta.
+  Por ejemplo, si comparte el objeto principal con acceso de visualización y la carpeta con acceso de administración, los destinatarios tendrán acceso de administración a los documentos de la carpeta.
 
-   >[!NOTE]
-   >
-   >Un documento adjunto hereda los permisos únicamente del objeto al que estaba adjunto. Si crea una carpeta en el objeto y mueve el documento a la carpeta, heredará los permisos de la carpeta. Sin embargo, si crea una carpeta en un objeto principal o principal y mueve el documento a esa carpeta, no heredará los permisos de esa carpeta.
+  >[!NOTE]
+  >
+  >Un documento adjunto hereda permisos únicamente del objeto en el que se adjuntó. Si crea una carpeta en el objeto y mueve el documento a la carpeta, heredará los permisos de la carpeta. Sin embargo, si crea una carpeta en un objeto principal o abuelo y mueve el documento a esa carpeta, no heredará los permisos de esa carpeta.
 
-* Si la opción &quot;Nunca heredar acceso a documentos de proyectos, tareas, problemas, etc.&quot; está habilitada en el nivel de acceso del destinatario, no heredarán permisos para documentos en una carpeta que comparta con ellos. Para que tengan acceso a un documento de la carpeta, debe compartir el documento.
+* Si la opción &quot;Nunca heredar el acceso a documentos de proyectos, tareas, problemas, etc.&quot; está habilitada en el nivel de acceso del destinatario, no heredarán los permisos de los documentos de una carpeta que comparta con ellos. Para que tengan acceso a un documento de la carpeta, debe compartir el documento.
 
-   Para obtener información sobre la opción &quot;Nunca heredar&quot;, consulte [Configuración del acceso a Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+  Para obtener información acerca de la opción &quot;No heredar nunca&quot;, vea [Configurar el acceso a Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 
-   Para obtener información sobre cómo compartir un documento, consulte [Compartir un documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+  Para obtener información acerca de cómo compartir un documento, vea [Compartir un documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).

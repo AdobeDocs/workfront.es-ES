@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Agile realizadas con la versión 23.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.2.
 
-Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.2, consulte [Descripción general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Agregar tareas y problemas desde los detalles del objeto a un tablero o flujo de trabajo de Workfront
 
@@ -35,9 +35,9 @@ Varias funciones nuevas disponibles en los tableros de Workfront permiten utiliz
 
 Tenga en cuenta que se ha cambiado el nombre de las colecciones a flujos de trabajo. Los flujos de trabajo le ayudan a visualizar los datos de diferentes maneras. Puede mostrar elementos en tarjetas en una lista, en un tablero o en una iteración. Las tarjetas de un flujo de trabajo también se pueden compartir entre varios tableros. Puede facilitar fácilmente los flujos de trabajo mediante tarjetas y tableros en un flujo de trabajo.
 
-Para obtener más información, consulte [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), y [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+Para obtener más información, vea [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Crear una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) y [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3417059/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Agregar tareas y problemas de listas e informes a una lista de tarjetas de flujo de trabajo
 
@@ -53,7 +53,7 @@ Al igual que los campos predeterminados, puede elegir mostrar el campo personali
 
 Cualquier dato del campo personalizado de la tarjeta es de solo lectura.
 
-Para obtener más información, consulte [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Para obtener más información, consulte [Personalizar qué campos se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 ## Agregar tareas y problemas de listas e informes a un tablero de Workfront
 
@@ -72,7 +72,7 @@ Para obtener más información, consulte [Agregar tareas o problemas existentes 
 
 Ahora puede registrar horas en tarjetas conectadas, del mismo modo que lo haría en una tarea o un problema. Debe tener los permisos correctos para la tarea o el problema para registrar el tiempo.
 
-Los campos de registro de hora no se muestran en las tarjetas conectadas de forma predeterminada. Debe activar **Horas** en el área Configurar, en Tarjetas.
+Los campos de registro de hora no se muestran en las tarjetas conectadas de forma predeterminada. Debe habilitar **Horas** en el área Configurar en Tarjetas.
 
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -86,9 +86,9 @@ Para obtener más información, consulte [Usar tarjetas conectadas en tableros](
 
 Ahora está disponible la personalización para configurar qué campos se muestran en una tarjeta, tanto en la vista completa cuando la tarjeta está abierta, como en la vista de tarjeta condensada del tablero. Cuando se deshabilita un campo, no se muestra en ninguna de las vistas. También puede habilitar un campo en la vista completa y ocultarlo de la vista condensada.
 
-Para obtener más información, consulte [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Para obtener más información, consulte [Personalizar qué campos se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3415710/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
 ## Definir un estado predeterminado para las tarjetas trasladadas a una columna del tablero
 
@@ -102,7 +102,7 @@ Anteriormente, se le pedía que seleccionara un estado para cada tarjeta movida 
 
 Para obtener más información, consulte [Administrar columnas](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3415711/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
 ## Colecciones ahora disponibles en tableros de Adobe Workfront
 
@@ -116,7 +116,7 @@ Añadir miembros a una colección funciona del mismo modo que agregar miembros a
 
 Para obtener más información, consulte [Administrar colecciones](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3415609/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
 ## El campo de estimación de las tarjetas conectadas se asigna al campo de puntos de la historia de los objetos Workfront
 

@@ -51,7 +51,7 @@ Según el nivel de acceso, hay disponibles hasta 3 permisos para la mayoría de 
     </tr>
 </table>
 
-Si necesita un nivel de acceso personalizado, puede copiar el nivel de acceso integrado y ajustar la cantidad de acceso que desea que permita para los distintos tipos de objetos de Workfront. Para obtener información sobre la creación de un nivel de acceso personalizado, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Si necesita un nivel de acceso personalizado, puede copiar el nivel de acceso integrado y ajustar la cantidad de acceso que desea que permita para los distintos tipos de objetos de Workfront. Para obtener información sobre cómo crear un nivel de acceso personalizado, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Los usuarios con nivel de acceso de administrador del sistema pueden hacer de to
 
 También tienen acceso al área de Configuración completa, donde pueden cambiar cualquier ajuste a nivel del sistema, y pueden acceder a todas las áreas en el menú principal.
 
-Para obtener más información, consulte [Conceder a un usuario acceso administrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Para obtener más información, consulte [Conceder acceso administrativo completo a un usuario](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Nivel de acceso estándar
 
@@ -81,7 +81,7 @@ Este nivel de acceso, que también se adjunta a la licencia estándar, está dis
 
 >[!NOTE]
 >
->Puede crear una versión personalizada del nivel de acceso integrado Estándar y ajustar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener información sobre la creación de un nivel de acceso personalizado, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Puede crear una versión personalizada del nivel de acceso integrado Estándar y ajustar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener información sobre cómo crear un nivel de acceso personalizado, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Detalles de acceso**
 
@@ -127,7 +127,7 @@ Usuarios con el nivel de acceso Ligero:
 
 >[!NOTE]
 >
->Puede crear una versión personalizada del nivel de acceso integrado Ligero y ajustar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener información sobre la creación de un nivel de acceso personalizado, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Puede crear una versión personalizada del nivel de acceso integrado Ligero y ajustar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener información sobre cómo crear un nivel de acceso personalizado, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Detalles de acceso**
 
@@ -266,11 +266,11 @@ Usuarios con este nivel de acceso integrado:
 * Puede aprobar proyectos, tareas y problemas
 * Puede revisar el estado de los problemas que han enviado
 * Se puede asignar a elementos de trabajo pero no se pueden completar
-* Solo puede acceder a las solicitudes desde el menú principal. Para obtener más información sobre las colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Solo puede acceder a las solicitudes desde el menú principal. Para obtener más información acerca de las colas de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
 >
->Puede crear una versión personalizada del nivel de acceso integrado Colaborador y ajustar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener información sobre la creación de un nivel de acceso personalizado, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Puede crear una versión personalizada del nivel de acceso integrado Colaborador y ajustar la cantidad de acceso que permite para los distintos tipos de objetos de Workfront. Para obtener información sobre cómo crear un nivel de acceso personalizado, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Detalles de acceso**
 
@@ -393,14 +393,14 @@ Los usuarios obtienen acceso a objetos individuales cuando otros usuarios compar
 
 Un usuario puede conceder al destinatario cualquiera de los siguientes permisos al objeto individual:
 
-* **Ver**: este nivel de permiso permite al destinatario compartir el objeto de una de las siguientes maneras:
+* **Vista**: este nivel de permiso permite al destinatario compartir el objeto de una de las siguientes maneras:
 
    * En todo el sistema para que todos los usuarios puedan verlo (no disponible para todos los objetos)
    * Con usuarios externos sin licencia de Workfront (no disponible para todos los objetos)
    * Con una dirección de correo electrónico (disponible solo para documentos y calendarios)
 
 * **Contribute**: (no disponible para todos los objetos)
-* **Administrar**: Cuando alguien comparte un objeto, los derechos del destinatario sobre el objeto están determinados por una combinación del nivel de acceso del destinatario y los permisos para el objeto concedidos por el que comparte. El grado más bajo de acceso disponible en esa combinación es lo que determina lo que el destinatario puede hacer con el objeto.
+* **Administrar**: cuando alguien comparte un objeto, los derechos del destinatario sobre el objeto están determinados por una combinación del nivel de acceso del destinatario y los permisos para el objeto que concedió el que comparte. El grado más bajo de acceso disponible en esa combinación es lo que determina lo que el destinatario puede hacer con el objeto.
 
 ### Casos de ejemplo
 

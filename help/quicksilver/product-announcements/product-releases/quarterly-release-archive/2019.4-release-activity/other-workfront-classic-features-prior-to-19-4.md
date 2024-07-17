@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Las siguientes funciones estaban disponibles para el entorno de producción de Workfront Classic antes de la versión 2019.4 para Producción.
 
-Para obtener información sobre el lapso de tiempo de lanzamiento y todas las funcionalidades disponibles con la versión 2019.4, consulte [Información general de la versión 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Para obtener información sobre el lapso de tiempo de lanzamiento y todas las funcionalidades disponibles con la versión 2019.4, consulte [Información general sobre la versión 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Para obtener información sobre el lapso de tiempo de lanzamiento y todas las fu
   <tr> 
    <td> 
     <div> 
-     <strong>Cambiar el tipo de visualización de un campo en un formulario personalizado</strong> 
+     <strong>Cambiar el tipo de presentación de un campo en un formulario personalizado</strong> 
      <p>Ahora puede cambiar el tipo de visualización de un campo en un formulario personalizado.</p> 
      <p>Por ejemplo, si ha creado un campo Casillas de verificación, puede cambiarlo a un campo Desplegable o a un campo Botones de opción. Estos tres tipos de visualización de campo son intercambiables.</p> 
      <p>O bien, si ha creado un campo de texto de una sola línea, puede cambiarlo a un campo de texto de párrafo. Estos dos tipos de visualización de campo son intercambiables.</p> 
@@ -52,7 +52,7 @@ Para obtener información sobre el lapso de tiempo de lanzamiento y todas las fu
        <li>Workfront Classic</li> 
        <li>La nueva experiencia de Workfront</li> 
       </ul> 
-      <p><strong>Primero disponible en Vista previa:</strong> </p> 
+      <p><strong>Primero disponible en vista previa:</strong> </p> 
       <ul> 
        <li>sábado, 09 de agosto de 2019</li> 
       </ul> 
@@ -62,7 +62,7 @@ Para obtener información sobre el lapso de tiempo de lanzamiento y todas las fu
   <tr> 
    <td> 
     <div> 
-     <strong>Creación de calendarios e informes de días libres</strong> 
+     <strong>Crear calendarios e informes de días libres</strong> 
      <p>Ahora puede ver el tiempo libre del usuario para una mejor planificación y ejecución. También puede agregar nuevos informes y calendarios de días libres a sus paneles para obtener una vista en tiempo real de la disponibilidad del usuario.</p> 
      <div class="workfront_plans"> 
       <p><strong>Disponible en estos entornos:</strong> </p> 
@@ -70,7 +70,7 @@ Para obtener información sobre el lapso de tiempo de lanzamiento y todas las fu
        <li>Workfront Classic</li> 
        <li>La nueva experiencia de Workfront</li> 
       </ul> 
-      <p><strong>Primero disponible en Vista previa:</strong> </p> 
+      <p><strong>Primero disponible en vista previa:</strong> </p> 
       <ul> 
        <li>sábado, 09 de agosto de 2019</li> 
       </ul> 

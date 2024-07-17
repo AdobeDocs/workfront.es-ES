@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. Haga clic en el recurso conectado Frame.io para abrir el panel Resumen del documento.
 
-1. (Opcional) En el **Versión** , seleccione la versión del recurso para el que desea crear una aprobación. La última versión está seleccionada de forma predeterminada.
+1. (Opcional) En el menú desplegable **Versión**, seleccione la versión del recurso para la que desea crear una aprobación. La última versión está seleccionada de forma predeterminada.
 
-1. Desplácese hacia abajo hasta el **Aprobaciones** y haga clic en **Añadir**.
+1. Desplácese hacia abajo hasta la sección **Aprobaciones** y, a continuación, haga clic en **Agregar**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
 
-1. Para agregar un aprobador, haga clic en **Aprobador** y y empiezan a escribir el nombre de un usuario o equipo.
+1. Para agregar un aprobador, haga clic en **Aprobador** y y empiece a escribir el nombre de un usuario o equipo.
 
-1. Para agregar un revisor, haga clic en el **Revisor** y empiece a escribir el nombre de un usuario o equipo.
+1. Para agregar un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
 ## Crear una solicitud de revisión o aprobación desde la página Detalles del documento
 
-1. Pase el ratón sobre el documento y haga clic en **Detalles del documento**.
+1. Pase el ratón sobre el documento y luego haga clic en **Detalles del documento**.
    ![](assets/doc-details.png)
 
 1. Cerca del nombre del documento, seleccione la versión del documento para la que desea crear una aprobación. La última versión está seleccionada de forma predeterminada.
@@ -88,9 +88,9 @@ You must have the following access to perform the steps in this article:
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
 
-1. Para agregar un aprobador, haga clic en **Aprobador** y y empiezan a escribir el nombre de un usuario o equipo.
+1. Para agregar un aprobador, haga clic en **Aprobador** y y empiece a escribir el nombre de un usuario o equipo.
 
-1. Para agregar un revisor, haga clic en el **Revisor** y empiece a escribir el nombre de un usuario o equipo.
+1. Para agregar un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
 
    ![](assets/add-approver-and-deadline.png)
 

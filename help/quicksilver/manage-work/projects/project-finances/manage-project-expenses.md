@@ -38,50 +38,50 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Proyectos y datos financieros</p> <p><b>NOTA</b> </p>
-   <p> Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <p> Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Aportar o permisos superiores al proyecto con permisos para Ver o Administrar finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Contribute o permisos superiores del proyecto con permisos para Ver o Administrar finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Agregar gastos
 
 1. Vaya al proyecto en el que desea introducir los gastos.\
    Si desea agregar gastos a una tarea, vaya a una tarea en su lugar. 
-1. Clic **Mostrar más**, luego haga clic en **Gastos**.
-1. Clic **Agregar un gasto** .
-El **Agregar un gasto** Cuadro de diálogo.
+1. Haz clic en **Mostrar más** y luego haz clic en **Gastos**.
+1. Haga clic en **Agregar un gasto** .
+Se muestra el cuadro de diálogo **Agregar un gasto**.
 1. Actualice lo siguiente:
 
    * **Descripción:** Descripción del gasto.
 
-   * **Tipo de gasto:** (Obligatorio) Seleccione la categoría que mejor describa el gasto.
-   * **Tarea:** Comience a escribir el nombre de la tarea a la que está asociado este gasto y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.
+   * **Tipo de gasto:** (obligatorio) Seleccione la categoría que mejor describa el gasto.
+   * **Tarea:** Empiece a escribir el nombre de la tarea a la que está asociado este gasto y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.
    * **Importe planificado:** El importe presupuestado planificado para el gasto.\
      Esto afecta al costo presupuestado del proyecto.
 
-   * **Importe real:** El importe que representa el coste real del gasto.\
+   * **Importe real:** Importe que representa el costo real del gasto.\
      Esto afecta al costo real del proyecto.
 
-   * **Fecha planificada:** La fecha prevista para que se produzca el gasto. Puede escribir la fecha en el campo mediante la variable *dd/mm/aa* o puede hacer clic en el icono de calendario  ![](assets/calendar-icon.png) y seleccione la fecha de forma dinámica.
+   * **Fecha planificada:** Fecha prevista para que se produzca el gasto. Puede escribir la fecha en el campo con el formato *mm/dd/aa* o hacer clic en el icono del calendario  ![](assets/calendar-icon.png) y seleccione la fecha de forma dinámica.
 
-   * **Fecha de pago:** La fecha en la que se pagó el gasto.
+   * **Fecha de pago:** Fecha en que se pagó el gasto.
    * **Facturable:** Seleccione esta opción si desea facturar este gasto. Categorizar un gasto como facturable es importante al crear registros de facturación.
    * **Reembolsable:** Seleccione esta opción si es necesario reembolsar el gasto. A continuación, puede marcar el gasto como reembolsado después de que se haya reembolsado el gasto.
 
-1. Seleccione una **Formulario personalizado** y especifique la información adicional que necesite. Debe crear un formulario personalizado para poder asociarlo a un gasto. En la lista solo se muestran los formularios personalizados activos. Para obtener información sobre la creación de formularios personalizados, consulte el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Seleccione un **formulario personalizado** y especifique la información adicional que necesite. Debe crear un formulario personalizado para poder asociarlo a un gasto. En la lista solo se muestran los formularios personalizados activos. Para obtener información acerca de cómo crear formularios personalizados, vea el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Haga clic en **Guardar cambios**.
 
 ## Eliminar gastos
 
 1. Vaya al proyecto en el que desea eliminar los gastos.
-1. Clic **Mostrar más**, luego haga clic en **Gastos**.
-1. Seleccione los gastos que desea eliminar y haga clic en **Eliminar** ![Eliminar](assets/delete.png).
+1. Haz clic en **Mostrar más** y luego haz clic en **Gastos**.
+1. Seleccione los gastos que desee eliminar y, a continuación, haga clic en **Eliminar** ![Eliminar](assets/delete.png).
 
-1. Clic **Sí, eliminarla** para confirmar la eliminación.
+1. Haga clic en **Sí, eliminarlo** para confirmar la eliminación.

@@ -24,7 +24,7 @@ La vista previa de registros es una vista más pequeña de la página de registr
 
 Al cambiar el diseño de una vista previa y una página de registro, los cambios afectan a los cuadros de vista previa y a las páginas de detalles de todos los registros del mismo tipo.
 
-Este artículo describe cómo puede cambiar el diseño y el aspecto de un cuadro de vista previa de registro o de una página de registro. Para obtener información sobre cómo editar registros, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Este artículo describe cómo puede cambiar el diseño y el aspecto de un cuadro de vista previa de registro o de una página de registro. Para obtener información sobre cómo editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 Debe crear tipos de registros y registros antes de poder empezar a editar páginas de registros.
 
@@ -78,13 +78,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -108,7 +108,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Los cambios de visualización que realice en la vista previa del registro se pueden ver inmediatamente en la página de detalles del registro. Los cambios realizados en la página de registro también se pueden ver en el cuadro de vista previa del registro.
 
-* La adición de una imagen de portada o una miniatura a un registro no forma parte del diseño general de la vista previa o la página del registro. Puede agregar imágenes de portada o miniaturas únicas a cada registro. Para obtener más información, consulte [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) y [Añadir una miniatura en un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+* La adición de una imagen de portada o una miniatura a un registro no forma parte del diseño general de la vista previa o la página del registro. Puede agregar imágenes de portada o miniaturas únicas a cada registro. Para obtener más información, vea [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) y [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## Agregar secciones a una vista previa de registro o página
 
@@ -116,7 +116,7 @@ Tenga en cuenta lo siguiente al agregar secciones a una página de registro:
 
 * No hay límite en cuanto a la cantidad de secciones que se pueden tener en una página.
 * No puede tener una sección vacía. Debe haber al menos un campo en una sección.
-* Puede arrastrar y soltar campos de una sección a otra. Para obtener más información, consulte la sección [Reorganizar campos en la página de vista previa o detalles del registro](#rearrange-fields-in-the-record-preview-or-details-page) en este artículo.
+* Puede arrastrar y soltar campos de una sección a otra. Para obtener más información, vea la sección [Reorganizar campos en la vista previa de registro o en la página de detalles](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
 * Al eliminar todos los campos de una sección, esta se elimina automáticamente y no se puede recuperar.
 
 Para agregar una sección a una vista previa de registro o a una página:
@@ -135,46 +135,46 @@ Para agregar una sección a una vista previa de registro o a una página:
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
+   En la vista de tabla, haga clic en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
 
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    Se abre la página de registro.
 
    ![](assets/details-page.png)
 
-1. En la página o vista previa del registro, pase el ratón sobre el espacio en blanco a la izquierda de los campos y, a continuación, haga clic en **Agregar sección** icono ![](assets/add-section-icon.png) para añadir una sección.
-1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** con un nombre y, a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
-1. Arrastre y suelte los campos en la nueva sección, tal como se describe en la sección [Reorganizar campos en la página de vista previa o detalles del registro](#rearrange-fields-in-the-record-preview-or-details-page) en este artículo.
+1. En la página o vista previa del registro, pase el ratón sobre el espacio en blanco que hay a la izquierda de los campos y, a continuación, haga clic en el icono **Agregar sección** ![](assets/add-section-icon.png) para agregar una sección.
+1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** por un nombre; a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
+1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Reorganizar campos en la vista previa del registro o en la página de detalles](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
 
-1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el botón **Más** menú ![](assets/more-menu.png).
+1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
 1. (Opcional) Realice una de las siguientes acciones para editar la sección:
 
-   * Clic **Cambiar nombre** para cambiar el nombre de la sección
+   * Haga clic en **Cambiar nombre** para cambiar el nombre de la sección
 
      >[!TIP]
      >
      > Puede cambiar el nombre de una sección en línea haciendo clic en el nombre.
 
-   * Clic **Mover hacia arriba** para subir la sección una posición
+   * Haga clic en **Subir** para subir la sección una posición
 
      O
 
-     Clic **Mover hacia abajo** para bajar la sección una posición.
+     Haga clic en **Bajar** para bajar la sección una posición.
 Todos los campos de la sección se mueven con la sección.
 
-   * Clic **Eliminar** para eliminar la sección. La sección se elimina y no se puede recuperar. Todos los usuarios que accedan a los registros de este tipo ya no verán la sección eliminada.
+   * Haga clic en **Eliminar** para eliminar la sección. La sección se elimina y no se puede recuperar. Todos los usuarios que accedan a los registros de este tipo ya no verán la sección eliminada.
 
 1. Haga clic en la flecha hacia abajo situada a la izquierda del nombre de la sección para contraerla o en la flecha hacia la derecha para expandirla.
 Todas las secciones se expanden de forma predeterminada.
 
-1. (Opcional) Haga clic en **agarrar** icono ![](assets/grab-icon.png) a la izquierda del nombre de una sección y, a continuación, arrástrela y suéltela en el lugar que desee.
+1. (Opcional) Haga clic en el icono **asidero** ![](assets/grab-icon.png) a la izquierda del nombre de una sección y, a continuación, arrástrela y suéltela en el lugar que desee.
 
    La nueva posición de la sección se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 
@@ -196,19 +196,19 @@ Todas las secciones se expanden de forma predeterminada.
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
+   En la vista de tabla, haga clic en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
 
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
    Se abre la página de registro.
 
    ![](assets/details-page.png)
 
-1. En la página de vista previa o de registro, haga clic en **agarrar** icono ![](assets/grab-icon.png) a la izquierda del nombre de un campo, arrástrelo y suéltelo en el lugar que desee. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. En la página o vista previa del registro, haga clic en el icono **asir** ![](assets/grab-icon.png) que hay a la izquierda del nombre de campo y, a continuación, arrástrelo y suéltelo en el lugar que desee. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    La nueva posición del campo se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 

@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Descripción general de "Restricción de tareas": Iniciar no más tarde de"'
-description: Start No Later Than (SNLT) es una restricción de tarea que programa una tarea para que se inicie antes de la fecha especificada.
+title: "Información general sobre la restricción de tarea: No comenzar después del"
+description: No comenzar después del (SNLT) es una delimitación de tarea que programa una tarea para que comience antes de la fecha especificada.
 author: Alina
 feature: Work Management
 exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
@@ -14,33 +14,34 @@ ht-degree: 0%
 
 ---
 
-# Información general sobre la restricción de tareas: Iniciar a más tardar
+# Información general sobre la restricción de tarea: No iniciar después del
 
-Start No Later Than (SNLT) es una restricción de tarea que programa una tarea para que se inicie antes de la fecha especificada.
+No comenzar después del (SNLT) es una delimitación de tarea que programa una tarea para que comience antes de la fecha especificada.
 
 Tenga en cuenta lo siguiente al trabajar con la restricción SNLT:
 
-* Debe utilizar la restricción Iniciar no más tarde que cuando el proyecto esté programado desde la fecha de finalización. En este caso, puede proporcionar una restricción suave a una tarea antes de que obligue a otras tareas dependientes a mostrarse como En riesgo.
-* Iniciar no más tarde de es la restricción predeterminada si un proyecto utiliza un modo de programación de Fecha de finalización y el valor predeterminado del sistema o grupo para la Fecha de inicio de una tarea es Hoy. Para obtener información sobre dónde establecer la restricción predeterminada para una nueva tarea, consulte [Configurar las preferencias de problemas y tareas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* Cuando se utiliza la restricción SNLT con un proyecto Programar desde fecha de inicio, Adobe Workfront programa la tarea como lo haría en una tarea tan pronto como sea posible.
-* Cuando se mueve o copia una tarea con una restricción SNLT en otro proyecto, la restricción de la tarea o las fechas del proyecto pueden cambiar según las fechas de restricción y las fechas de inicio y finalización del proyecto. Existen los siguientes escenarios:
+* Debe usar la restricción No comenzar después del cuando el proyecto esté programado desde la fecha de finalización. En este caso, puede proporcionar una restricción suave a una tarea antes de que obligue a otras tareas dependientes a mostrarse como En riesgo.
+* No comenzar después de es la delimitación predeterminada si un proyecto utiliza un modo de programación de Programar desde la fecha de finalización y el valor predeterminado del sistema o grupo para la fecha de inicio de una tarea es Hoy. Para obtener información sobre dónde establecer la restricción predeterminada para una tarea nueva, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Cuando se utiliza la restricción SNLT con un proyecto Programar desde la fecha de inicio, Adobe Workfront programa la tarea como lo haría con una tarea Lo antes posible.
+* Cuando se mueve o copia una tarea con una delimitación SNLT a otro proyecto, la delimitación de la tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de delimitación y cuáles sean las fechas de inicio y finalización del proyecto. Existen los siguientes escenarios:
 
-   * Cuando el proyecto de destino está programado Desde el inicio:
+   * Cuando el proyecto de destino está programado desde el inicio:
 
-      * Cuando la fecha de restricción de la tarea es anterior a la fecha de inicio prevista del proyecto, la restricción de la tarea cambia a Tan pronto como sea posible.
-      * Cuando la fecha de restricción de la tarea es posterior a la fecha de finalización prevista del proyecto, la fecha de finalización prevista del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
+      * Cuando la fecha de delimitación de la tarea es anterior a la fecha planificada de inicio del proyecto, la delimitación de la tarea cambia a Lo antes posible.
+      * Cuando la fecha de delimitación de la tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de delimitación de finalización de la tarea.
 
-      * Cuando el proyecto de destino está programado Desde su finalización:
+      * Cuando se programa el proyecto de destino desde la finalización:
 
-         * Cuando la fecha de restricción de la tarea es posterior a la fecha de finalización del proyecto, la restricción de la tarea cambia a Tan tarde como sea posible.
-         * Cuando la fecha de restricción de la tarea es anterior a la fecha de inicio planeada del proyecto, la fecha de inicio planeada del proyecto cambia para coincidir con la fecha de restricción inicial de la tarea.
-      * Independientemente de la programación del proyecto, cuando la fecha de restricción de la tarea se encuentra dentro de las fechas de inicio y finalización del proyecto, no hay cambios en la restricción de la tarea ni en las fechas del proyecto.
+         * Cuando la fecha de delimitación de la tarea es posterior a la fecha de finalización del proyecto, la delimitación de la tarea cambia a Lo más tarde posible.
+         * Cuando la fecha de delimitación de la tarea es anterior a la fecha planificada de inicio del proyecto, la fecha planificada de inicio del proyecto cambia para coincidir con la fecha de delimitación de inicio de la tarea.
 
-   Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+      * Independientemente de la programación del proyecto, cuando la fecha de delimitación de la tarea se encuentra dentro de las Fechas de inicio y finalización del proyecto, no hay cambios en las fechas de delimitación de la tarea o del proyecto.
 
-   Para obtener información sobre cómo copiar tareas, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Para obtener información acerca de cómo mover tareas, vea [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-Para obtener información sobre cómo actualizar la restricción de tareas en una tarea, consulte [Actualizar la restricción de tareas de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Para obtener información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

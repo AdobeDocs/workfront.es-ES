@@ -13,7 +13,7 @@ exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -260,7 +260,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
 
-&#42;&#42;Los usuarios externos solo pueden buscar otros usuarios.
+&#42;&#42;Los usuarios externos solamente pueden buscar otros usuarios.
 
 ## Equipos
 
@@ -306,10 +306,10 @@ Solo los usuarios con una licencia Standard pueden tener acceso completo a los d
 | Administrar registros de facturación | ✓ |   |   |   |
 | Administrar gastos | ✓ |   |   |   |
 | Ver datos financieros | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">Administrar tarjetas de tarifa</span> | ✓ |   |   |   |
+| <span class="preview">Administrar tarjetas de tarifas</span> | ✓ |   |   |   |
 | Ver información por costo en las herramientas de planificación de recursos | ✓ |   |   |   |
 | Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |
-| Ver la asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ |   |   |
+| Ver asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ |   |   |
 | Crear riesgos en los proyectos | ✓ |   |   |   |
 | Ver riesgos en los proyectos | ✓ | ✓ |   |   |
 
@@ -336,20 +336,20 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 
 &#42; Con un nivel de acceso, los administradores de Workfront pueden deshabilitar o habilitar esta funcionalidad.
 
-&#42;&#42;Requiere acceso adicional a datos financieros y permisos para las finanzas del proyecto. Si concede acceso a Administración de recursos a un usuario de Planificador que no tiene acceso a Datos financieros, el usuario puede seguir viendo las asignaciones por hora en el Planificador de recursos, pero no puede cambiar a la vista de costo ni ver el caso comercial. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requiere acceso adicional a datos financieros y permisos para las finanzas del proyecto. Si concede acceso a Administración de recursos a un usuario de Planificador que no tiene acceso a Datos financieros, el usuario puede seguir viendo las asignaciones por hora en el Planificador de recursos, pero no puede cambiar a la vista de costo ni ver el caso comercial. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Requiere permiso para contribuir al objeto, con la opción Asignar asignaciones habilitada en Configuración avanzada. Para obtener más información, consulte la sección [Comprender los permisos heredados y la jerarquía de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Requiere permiso para Contribute en el objeto, con la opción Realizar asignaciones habilitada en Configuración avanzada. Para obtener más información, consulte la sección [Comprender los permisos heredados y la jerarquía de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Área del planificador de escenarios
 
 | Acción | Estándar | Ligero | Colaborador | Usuario externo |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Crear/editar planes e iniciativas existentes | ✓ | ✓ |   |   |
-| Adición o edición de información sobre funciones en planes e iniciativas&#42; | ✓ | ✓ |   |   |
-| Agregar o editar información de costos sobre planes e iniciativas&#42; | ✓ | ✓ |   |   |
+| Agregar o editar información de rol en planes e iniciativas&#42; | ✓ | ✓ |   |   |
+| Agregar o editar información de costos en planes e iniciativas&#42; | ✓ | ✓ |   |   |
 | Eliminar planes e iniciativas | ✓ | ✓ |   |   |
 | Ver escenarios en el menú principal | ✓ | ✓ |   |   |
-| Ver los planes e iniciativas que ha creado el usuario&#42; | ✓ | ✓ |   |   |
+| Ver los planes e iniciativas que creó el usuario&#42; | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -357,7 +357,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 >
 >Los usuarios pueden ver un plan que otro usuario haya creado solamente si se comparte con ellos un vínculo al plan.
 
-&#42; Para que los usuarios puedan ver los datos financieros en un plan o iniciativa, necesitan tener acceso a los Datos financieros. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Para que los usuarios vean los datos financieros en un plan o iniciativa, necesitan acceso a los Datos financieros. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Área Objetivos de Workfront
 

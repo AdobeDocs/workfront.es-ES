@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Trabajo con pruebas y archivos en [!DNL Workfront Proof]
-description: Trabajo con pruebas y archivos en [!DNL Workfront Proof].
+title: Trabajar con pruebas y archivos en  [!DNL Workfront Proof]
+description: Trabajar con pruebas y archivos en  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 ---
 
-# Trabajo con pruebas y archivos en [!DNL Workfront Proof]
+# Trabajar con pruebas y archivos en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Flujo de trabajo automatizado en [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [Funciones básicas de [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [Flujo de trabajo automatizado en  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [Características básicas de  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [Creación de pruebas y archivos](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [Administre su trabajo](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [Organizar su trabajo](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
@@ -36,4 +36,4 @@ Esta sección contiene las siguientes subsecciones:
   -->
 
 * [Revisión de pruebas en el Visor de pruebas web](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [[!UICONTROL Uso compartido de pruebas y archivos]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
+* [[!UICONTROL Compartir pruebas y archivos]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Administrar carpetas en [!DNL Workfront Proof]
-description: Todas las carpetas están asignadas en la barra lateral de navegación izquierda de la [!UICONTROL Carpetas] pestaña . Si un usuario de un [!DNL Workfront Proof] la cuenta comparte una carpeta con usted (o comparte pruebas que están en una carpeta), la carpeta también aparece en la [!UICONTROL Carpetas] pestaña .
+title: Administrar carpetas en  [!DNL Workfront Proof]
+description: Todas las carpetas están asignadas en la barra lateral de navegación izquierda de la ficha [!UICONTROL Carpetas]. Si un usuario de una cuenta diferente de  [!DNL Workfront Proof] comparte una carpeta con usted (o comparte pruebas que están en una carpeta), la carpeta también se muestra en la ficha [!UICONTROL Carpetas].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Todas las carpetas están asignadas en la barra lateral de navegación izquierda de la [!UICONTROL Carpetas] pestaña . Si un usuario de un [!DNL Workfront Proof] la cuenta comparte una carpeta con usted (o comparte pruebas que están en una carpeta), la carpeta también aparece en la [!UICONTROL Carpetas] pestaña .
+Todas las carpetas están asignadas en la barra lateral de navegación izquierda de la ficha [!UICONTROL Carpetas]. Si un usuario de una cuenta de [!DNL Workfront Proof] diferente comparte una carpeta con usted (o comparte pruebas que están en una carpeta), la carpeta también se muestra en la ficha [!UICONTROL Carpetas].
 
-## Administración de carpetas desde [!UICONTROL Carpetas de cuenta] Página
+## Administrar carpetas desde la página [!UICONTROL Carpetas de cuenta]
 
-La variable [!UICONTROL Carpetas de cuenta] La página muestra todas las carpetas de la cuenta (incluidas las carpetas que han compartido con usted los usuarios en otros [!DNL Workfront Proof] ) y le permite administrarlas con facilidad.
+La página [!UICONTROL Carpetas de cuenta] muestra todas las carpetas de su cuenta (incluidas las carpetas que compartieron con usted usuarios de otras [!DNL Workfront Proof] cuentas) y le permite administrarlas con facilidad.
 
-1. Haga clic en **[!UICONTROL [Su nombre de cuenta] carpetas]** en la barra lateral de navegación izquierda.\
+1. Haga clic en **[!UICONTROL [Nombre de cuenta] carpetas]** en la barra lateral de navegación izquierda.\
    Esta página muestra la siguiente información para cada carpeta:
 
    * Nombre
@@ -38,94 +38,94 @@ La variable [!UICONTROL Carpetas de cuenta] La página muestra todas las carpeta
 
 1. Seleccione las carpetas que desee administrar de una de las siguientes maneras:
 
-   * Para seleccionar una carpeta, seleccione la casilla que hay junto a ella.
-   * Seleccione todas las carpetas seleccionando la casilla situada encima de la lista.
+   * Seleccione una carpeta seleccionando la casilla que hay junto a ella.
+   * Seleccione todas las carpetas seleccionando la casilla de verificación situada encima de la lista.
 
-      >[!NOTE]
-      >
-      >Solo puede seleccionar carpetas para las que tenga derechos de edición.
+     >[!NOTE]
+     >
+     >Solo puede seleccionar carpetas para las que tenga derechos de edición.
 
-      Aparece una barra de herramientas encima de la lista de carpetas.
+     Aparecerá una barra de herramientas sobre la lista de carpetas.
 
-1. Desde la barra de herramientas, realice cualquiera de las siguientes acciones:
+1. En la barra de herramientas, realice cualquiera de las siguientes acciones:
 
-   * Mueva las carpetas a otra carpeta.
+   * Mueva las carpetas a una carpeta diferente.
    * Comparta las carpetas con otros usuarios.
    * Elimine las carpetas.
-   * En el **[!UICONTROL Más]** , cambie el propietario de la carpeta.
+   * En el menú **[!UICONTROL Más]**, cambie el propietario de la carpeta.
 
-1. Seleccione la casilla de verificación de una sola carpeta y haga clic en el botón **[!UICONTROL Más]** (tres puntos) a la derecha para ver las siguientes opciones adicionales (según su nivel de acceso):
+1. Seleccione la casilla de verificación de una sola carpeta y, a continuación, haga clic en el menú **[!UICONTROL Más]** (tres puntos) que aparece a la derecha para ver las siguientes opciones adicionales (según el nivel de acceso):
 
-   * **[!UICONTROL Ver detalles de la carpeta]**: Muestra la página Detalles de carpeta de esa carpeta.
-   * **[!UICONTROL Nueva prueba]**: Muestra la nueva página de prueba con el campo de carpeta rellenado automáticamente con el nombre de la carpeta seleccionada.
-   * **[!UICONTROL Cargar archivo]**: Muestra la nueva página de archivo; el campo de carpeta se rellena automáticamente con el nombre de la carpeta seleccionada.
-   * **[!UICONTROL Nueva subcarpeta]**: Permite crear una carpeta anidada en la carpeta seleccionada.
-   * **[!UICONTROL Compartir]**: Le permite añadir nuevas personas a la carpeta.
-   * **[!UICONTROL Resumen de Excel]**: Permite descargar un resumen de Excel de las pruebas de la carpeta.
-   * **[!UICONTROL Eliminar]**: Mueve la carpeta a la Papelera.
+   * **[!UICONTROL Ver detalles de la carpeta]**: muestra la página Detalles de la carpeta para esa carpeta.
+   * **[!UICONTROL Nueva revisión]**: muestra la nueva página de revisión con el campo de carpeta que se rellena automáticamente con el nombre de la carpeta seleccionada.
+   * **[!UICONTROL Cargar archivo]**: muestra la nueva página de archivo, el campo de carpeta se rellenará automáticamente con el nombre de la carpeta seleccionada.
+   * **[!UICONTROL Nueva subcarpeta]**: permite crear una carpeta anidada dentro de la carpeta seleccionada.
+   * **[!UICONTROL Compartir]**: permite agregar nuevas personas a la carpeta.
+   * **[!UICONTROL Resumen de Excel]**: permite descargar un resumen de Excel de las pruebas en la carpeta.
+   * **[!UICONTROL Eliminar]**: mueve la carpeta a la papelera.
 
 >[!NOTE]
 >
 >Al eliminar una carpeta principal, también se eliminan todas las subcarpetas, pruebas y archivos de la carpeta.
 
-## Administración de una carpeta desde la página Detalles de la carpeta
+## Administración de una carpeta desde la página Detalles de carpeta
 
-1. Haga clic en el **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.\
-   También puede hacer clic en el nombre de la carpeta en la **[!UICONTROL Mis carpetas]** en la barra lateral izquierda para acceder a la **[!UICONTROL Detalles de carpeta]** página.
+1. Haga clic en el menú **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.\
+   También puede hacer clic en el nombre de la carpeta en la lista **[!UICONTROL Mis carpetas]** de la barra lateral izquierda para acceder a la página **[!UICONTROL Detalles de la carpeta]**.
 
 1. Realice cualquiera de las siguientes acciones:
 
-   * Mueva la carpeta para que se encuentre en otra carpeta principal.\
+   * Mueva la carpeta para que se encuentre en una carpeta principal diferente.\
 
-      Para mover la carpeta al nivel superior, haga clic en **[!UICONTROL No hay ninguna carpeta seleccionada]** en el menú desplegable.
+     Mueva la carpeta al nivel superior haciendo clic en **[!UICONTROL No se ha seleccionado ninguna carpeta]** en el menú desplegable.
 
    * Comparta la carpeta con otros usuarios.
    * Cree una nueva subcarpeta.
-   * Solicite un resumen de Excel de las pruebas de la carpeta.
-   * Elimine la carpeta .
+   * Solicite un resumen de Excel de las pruebas en la carpeta.
+   * Elimine la carpeta.
 
-## Cambio del nombre de una carpeta
+## Cambiar nombre de carpeta
 
-1. Haga clic en el **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.\
-   También puede hacer clic en el nombre de la carpeta en la **[!UICONTROL Mis carpetas]** en la barra lateral izquierda para acceder a la **[!UICONTROL Detalles de carpeta]** página.
+1. Haga clic en el menú **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.\
+   También puede hacer clic en el nombre de la carpeta en la lista **[!UICONTROL Mis carpetas]** de la barra lateral izquierda para acceder a la página **[!UICONTROL Detalles de la carpeta]**.
 
 1. Haga clic en el nombre de la carpeta en la parte superior de la página.
-1. Edite el nombre y, a continuación, haga clic fuera del cuadro.\
+1. Edite el nombre y, a continuación, haga clic en fuera del cuadro.\
    Workfront Proof guarda los cambios automáticamente.
 
-## Cambio de una carpeta pública a una carpeta privada
+## Cambiar una carpeta pública a una carpeta privada
 
-1. Haga clic en el **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.
+1. Haga clic en el menú **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.
 
-1. Haga clic en el icono de carpeta junto al nombre de la carpeta.
+1. Haga clic en el icono de la carpeta junto al nombre de la carpeta.
 
 ## Eliminación de una carpeta
 
 Puede eliminar una carpeta de las siguientes ubicaciones:
 
-* [Eliminación de una carpeta de [!UICONTROL Carpetas de cuenta] Página](#deleting-a-folder-from-the-account-folders-page)
-* [Eliminación de una carpeta de [!UICONTROL Detalles de carpeta] Página](#deleting-a-folder-from-the-folder-details-page)
+* [Eliminando una carpeta de la página [!UICONTROL Carpetas de cuenta]](#deleting-a-folder-from-the-account-folders-page)
+* [Eliminando una carpeta de la página [!UICONTROL Detalles de carpeta]](#deleting-a-folder-from-the-folder-details-page)
 
 >[!NOTE]
 >
->Cuando elimina una carpeta principal, todas las subcarpetas, pruebas y archivos de la carpeta se mueven a la [Restaurar y vaciar la papelera en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+>Cuando elimina una carpeta principal, todas las subcarpetas, pruebas y archivos de la carpeta se mueven a [Restaurar y vaciar la papelera en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-### Eliminación de una carpeta de [!UICONTROL Carpetas de cuenta] Página {#deleting-a-folder-from-the-account-folders-page}
+### Eliminando una carpeta de la página [!UICONTROL Carpetas de cuenta] {#deleting-a-folder-from-the-account-folders-page}
 
-1. Haga clic en **(El nombre de su cuenta) [!UICONTROL carpetas]** en la barra lateral de navegación izquierda para acceder al [!UICONTROL Carpetas de cuenta] página.\
-   También puede hacer clic en el nombre de la carpeta en la **[!UICONTROL Mis carpetas]** en la barra lateral izquierda para acceder a la **[!UICONTROL Detalles de carpeta]** página.
+1. Haga clic en **(nombre de su cuenta) [!UICONTROL carpetas]** en la barra lateral de navegación izquierda para acceder a la página [!UICONTROL Carpetas de cuenta].\
+   También puede hacer clic en el nombre de la carpeta en la lista **[!UICONTROL Mis carpetas]** de la barra lateral izquierda para acceder a la página **[!UICONTROL Detalles de la carpeta]**.
 
 1. Seleccione la casilla de verificación de una o varias carpetas.
-1. Haga clic en el **[!UICONTROL Eliminar]** (papelera).
+1. Haga clic en el icono **[!UICONTROL Eliminar]** (papelera).
 
    >[!NOTE]
    >
-   >Los elementos eliminados permanecen en la carpeta Papelera hasta que la papelera se vacía (o se restaura).
+   >Los elementos eliminados permanecerán en la carpeta Papelera hasta que se vacíe la Papelera (o hasta que se restaure la carpeta).
 
 ### Eliminación de una carpeta de la página Detalles de la carpeta {#deleting-a-folder-from-the-folder-details-page}
 
-1. Haga clic en el **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.\
-   También puede hacer clic en el nombre de la carpeta en la **[!UICONTROL Mis carpetas]** en la barra lateral izquierda para acceder a la **[!UICONTROL Detalles de carpeta]** página.
+1. Haga clic en el menú **[!UICONTROL Más]** (tres puntos) a la derecha de una carpeta y, a continuación, haga clic en **[!UICONTROL Ver detalles de la carpeta]**.\
+   También puede hacer clic en el nombre de la carpeta en la lista **[!UICONTROL Mis carpetas]** de la barra lateral izquierda para acceder a la página **[!UICONTROL Detalles de la carpeta]**.
 
-1. Haga clic en el **[!UICONTROL Eliminar]** icono (papelera) en la parte superior de la página.
-1. Haga clic en **[!UICONTROL OK]** para confirmar la eliminación.
+1. Haga clic en el icono **[!UICONTROL Eliminar]** (papelera) en la parte superior de la página.
+1. Haga clic en **[!UICONTROL Aceptar]** para confirmar la eliminación.

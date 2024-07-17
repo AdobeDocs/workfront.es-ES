@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Esta sección contiene los artículos de las siguientes subsecciones:
 
-* [Detalles de hoja de horas: índice de artículos](../timesheets/timesheets/timesheets.md)
-* [Crear y administrar hojas de horas: índice de artículos](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [Configure cómo se registra el tiempo: índice de artículos](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [Detalles de hoja de horas: índice de artículo](../timesheets/timesheets/timesheets.md)
+* [Crear y administrar hojas de horas: índice de artículo](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+* [Configurar cómo se registra el tiempo: índice del artículo](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [Sugerencias, trucos y solución de problemas: índice de artículos](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

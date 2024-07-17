@@ -43,7 +43,7 @@ Los niveles de acceso predeterminados son:
 * Solicitante (adjunto a la licencia de solicitud)
 * Usuario externo (adjunto a la licencia de correo electrónico externo)
 
-La licencia de Workfront para cada nivel de acceso predeterminado determina qué está disponible y qué se puede configurar en el nivel de acceso. Para obtener más información sobre las licencias de Workfront, consulte [Resumen de licencias de Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+La licencia de Workfront para cada nivel de acceso predeterminado determina qué está disponible y qué se puede configurar en el nivel de acceso. Para obtener información sobre las licencias de Workfront, consulte [Descripción general de las licencias de Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 Para los usuarios asignados a él, un nivel de acceso define lo que pueden ver y hacer con los siguientes tipos de objetos y áreas en Workfront:
 
@@ -67,26 +67,26 @@ En un nivel de acceso personalizado, puede establecer la configuración de estos
 >
 >Le recomendamos encarecidamente que deje los niveles de acceso integrados sin cambios para que pueda hacer referencia a ellos después de configurar los usuarios. Para personalizar un nivel de acceso, copie el nivel de acceso predeterminado y modifique la copia. (Puede hacerlo para todos los niveles de acceso, excepto para el Administrador del sistema y el Usuario externo).
 
-Para obtener una explicación detallada de cada uno de los niveles de acceso predeterminados, consulte [Niveles de acceso integrados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Para obtener una explicación detallada de cada uno de los niveles de acceso predeterminados, vea [Niveles de acceso integrados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
-Para obtener instrucciones sobre cómo asignar un nivel de acceso a un usuario, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obtener instrucciones sobre cómo asignar un nivel de acceso a un usuario, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Permisos
 
 Al compartir un objeto con alguien en el sistema, un usuario puede otorgar al destinatario cualquiera de los siguientes permisos para el objeto.
 
-* **Ver**: este nivel de permiso permite al destinatario compartir el objeto de una de las siguientes maneras:
+* **Vista**: este nivel de permiso permite al destinatario compartir el objeto de una de las siguientes maneras:
 
    * En todo el sistema para que todos los usuarios puedan verlo (no disponible para todos los objetos)
    * Con usuarios externos sin licencia de Workfront (no disponible para todos los objetos)
    * Con una dirección de correo electrónico (disponible solo para documentos)
 
 * **Contribute**: (no disponible para todos los objetos)
-* **Administrar**: Cuando alguien comparte un objeto, los derechos del destinatario sobre el objeto están determinados por una combinación del nivel de acceso del destinatario y los permisos para el objeto concedidos por el que comparte. El grado más bajo de acceso disponible en esa combinación es lo que determina lo que el destinatario puede hacer con el objeto.
+* **Administrar**: cuando alguien comparte un objeto, los derechos del destinatario sobre el objeto están determinados por una combinación del nivel de acceso del destinatario y los permisos para el objeto que concedió el que comparte. El grado más bajo de acceso disponible en esa combinación es lo que determina lo que el destinatario puede hacer con el objeto.
 
   >[!INFO]
   >
-  >**Ejemplo:** Si el nivel de acceso del destinatario no permite la edición del proyecto, esa persona no puede editar ni eliminar un proyecto aunque el usuario que comparte haya concedido permisos para administrarlo.
+  >**Ejemplo:** Si el nivel de acceso del destinatario no permite la edición del proyecto, esa persona no podrá editar ni eliminar un proyecto aunque el que comparte haya concedido permisos para administrarlo.
   >
   >O bien, si el nivel de acceso del destinatario permite la edición del proyecto, pero el usuario que comparte ha concedido permisos de solo vista a un proyecto, el usuario no puede editar ni eliminar el proyecto.
 

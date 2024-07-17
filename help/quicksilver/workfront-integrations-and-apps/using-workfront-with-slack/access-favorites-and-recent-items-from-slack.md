@@ -1,23 +1,23 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: Acceda a sus favoritos y elementos recientes desde [!DNL Slack]
-description: Después de instalar y configurar [!DNL Adobe Workfront] para Slack, puede ver los favoritos de Workfront y los elementos recientes, así como acceder a los elementos desde cualquier lista desde el Slack.
+title: Acceda a sus favoritos y elementos recientes de  [!DNL Slack]
+description: Una vez que haya instalado y configurado  [!DNL Adobe Workfront] for Slack, podrá ver los Favoritos y elementos recientes de Workfront y tener acceso a los elementos desde cualquier lista de Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Acceda a sus favoritos y elementos recientes desde [!DNL Slack]
+# Acceda a sus favoritos y a elementos recientes de [!DNL Slack]
 
-Después de instalar y configurar [!DNL Adobe Workfront for Slack], puede ver su [!UICONTROL Workfront] Favoritos y elementos recientes y acceda a elementos de cualquier lista desde [!DNL Slack].
+Una vez que haya instalado y configurado [!DNL Adobe Workfront for Slack], podrá ver los elementos favoritos y recientes de [!UICONTROL Workfront], así como acceder a los elementos desde [!DNL Slack].
 
-Para obtener más información sobre la configuración [!DNL Workfront with Slack], consulte [Configurar [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Para obtener más información sobre la configuración de [!DNL Workfront with Slack], consulte [Configurar [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Requisitos de acceso
 
@@ -34,43 +34,43 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.\
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].\
 
 ## Requisitos previos
 
-Antes de poder acceder a sus favoritos y elementos recientes desde [!DNL Slack], debe
+Para poder tener acceso a sus favoritos y a los elementos recientes de [!DNL Slack], debe
 
 * Configurar [!DNL Workfront for Slack]\
-   Para obtener instrucciones sobre la configuración [!DNL Workfront for Slack], consulte [Configurar [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Para obtener instrucciones sobre cómo configurar [!DNL Workfront for Slack], consulte [Configurar [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Acceda a su [!UICONTROL Favoritos] de [!DNL Slack]
+## Acceder a tu lista de [!UICONTROL Favoritos] desde [!DNL Slack]
 
-1. Inicie sesión en su [!DNL Slack] instancia e inicie sesión en [!DNL Workfront] from [!DNL Slack].\
-   Para obtener más información sobre cómo iniciar sesión en [!DNL Workfront] from [!DNL Slack], consulte &quot;Inicio de sesión en [!DNL Workfront] from [!DNL Slack]&quot; en [Acceso [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Inicie sesión en la instancia de [!DNL Slack] e inicie sesión en [!DNL Workfront] desde [!DNL Slack].\
+   Para obtener más información sobre el inicio de sesión en [!DNL Workfront] desde [!DNL Slack], consulte la sección &quot;Inicio de sesión en [!DNL Workfront] desde [!DNL Slack]&quot; en [Acceso [!DNL Adobe Workfront] desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Desde cualquier canal, empiece a escribir el siguiente comando en la [!UICONTROL message] campo: `/workfront favorites`
-
-   >[!NOTE]
-   >
-   >Los comandos distinguen entre mayúsculas y minúsculas. Puede iniciar el comando con `/wf` en lugar de `/workfront`.
-
-   Se muestra una lista de favoritos.
-
-1. (Opcional) Haga clic en **[!UICONTROL Mostrar más]** para mostrar más Favoritos.
-1. Haga clic en el nombre de un favorito para abrirlo en [!DNL Workfront] en una nueva pestaña del explorador.
-
-## Acceda a la lista de elementos recientes desde [!DNL Slack]
-
-1. Inicie sesión en su [!DNL Slack] instancia e inicie sesión en [!DNL Workfront] del Slack.\
-   Para obtener más información sobre cómo iniciar sesión en [!DNL Workfront] from [!DNL Slack], consulte &quot;Inicio de sesión en [!DNL Workfront] from [!DNL Slack]&quot; en [Acceso [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
-
-1. Desde cualquier canal, empiece a escribir el siguiente comando en la [!UICONTROL message] campo: `/workfront recent`
+1. Desde cualquier canal, empiece a escribir el siguiente comando en el campo [!UICONTROL message]: `/workfront favorites`
 
    >[!NOTE]
    >
    >Los comandos distinguen entre mayúsculas y minúsculas. Puede iniciar el comando con `/wf` en lugar de `/workfront`.
 
-   Se muestra una lista de los elementos recientes, en el orden en que se accedió al final, con el más reciente en la parte superior. Los elementos se enumeran de tres en uno y se agrupan por tipo de objeto.\
+   Se muestra una lista de Favoritos.
 
-1. (Opcional) Haga clic en **[!UICONTROL Mostrar más]** para mostrar elementos más recientes.
-1. (Opcional) Haga clic en el nombre de un elemento al que ha accedido recientemente para abrirlo en [!DNL Workfront] en una nueva pestaña del explorador.
+1. (Opcional) Haga clic en **[!UICONTROL Mostrar más]** para ver más Favoritos.
+1. Haga clic en el nombre de un favorito para abrirlo en [!DNL Workfront] en una nueva ficha del explorador.
+
+## Acceda a su lista de elementos recientes de [!DNL Slack]
+
+1. Inicie sesión en la instancia de [!DNL Slack] e inicie sesión en [!DNL Workfront] desde el Slack.\
+   Para obtener más información sobre el inicio de sesión en [!DNL Workfront] desde [!DNL Slack], consulte la sección &quot;Inicio de sesión en [!DNL Workfront] desde [!DNL Slack]&quot; en [Acceso [!DNL Adobe Workfront] desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+
+1. Desde cualquier canal, empiece a escribir el siguiente comando en el campo [!UICONTROL message]: `/workfront recent`
+
+   >[!NOTE]
+   >
+   >Los comandos distinguen entre mayúsculas y minúsculas. Puede iniciar el comando con `/wf` en lugar de `/workfront`.
+
+   Se muestra una lista de los elementos recientes, en el orden en que se accedió en último lugar, con los más recientes en la parte superior. Los elementos se enumeran de tres en tres y se agrupan por tipo de objeto.\
+
+1. (Opcional) Haga clic en **[!UICONTROL Mostrar más]** para enumerar elementos más recientes.
+1. (Opcional) Haga clic en el nombre de un elemento al que haya tenido acceso recientemente para abrirlo en [!DNL Workfront] en una nueva pestaña del explorador.

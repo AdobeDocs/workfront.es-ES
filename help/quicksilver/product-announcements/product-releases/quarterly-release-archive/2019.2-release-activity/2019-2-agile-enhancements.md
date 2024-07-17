@@ -22,7 +22,7 @@ Esta página describe todas las mejoras de Agile incluidas en la versión 2019.2
 >
 >La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2019.2, consulte [Información general de la actividad de versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.2, consulte [Información general sobre la actividad de la versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Seguimiento del progreso del porcentaje completado en los problemas de las herramientas de Agile
 

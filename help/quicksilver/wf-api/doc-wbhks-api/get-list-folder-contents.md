@@ -10,8 +10,8 @@ role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
@@ -29,11 +29,11 @@ GET /files
 | Nombre  | Descripción |
 |---|---|
 | parentId  | ID de la carpeta. Para obtener los metadatos del directorio raíz, utilice el valor &quot;/&quot;. |
-| máximo de  | Número máximo de elementos que se van a devolver. Se utiliza para la paginación. |
+| max  | Número máximo de elementos que se van a devolver. Se utiliza para la paginación. |
 | offset  |  El desplazamiento de página, utilizado junto con &quot;max&quot;. |
 
 
-## respuesta
+## Respuesta
 
 JSON que contiene una lista de archivos y carpetas. Los metadatos de cada elemento son los mismos que los devueltos por el extremo /metadata.
 

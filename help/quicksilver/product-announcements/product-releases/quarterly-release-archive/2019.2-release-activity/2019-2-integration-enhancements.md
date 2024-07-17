@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de integración y móviles incluidas en la versión 2019.2. La funcionalidad está planificada para estar disponible en el entorno de producción la semana del 20 de mayo de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.2, consulte [Información general de la actividad de versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.2, consulte [Información general sobre la actividad de la versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Mejoras de Workfront para Microsoft Teams
 

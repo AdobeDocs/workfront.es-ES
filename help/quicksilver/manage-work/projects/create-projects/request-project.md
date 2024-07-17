@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Al crear una solicitud de proyecto, recibe automáticamente permisos de administración en el proyecto </p> <p> Para obtener información sobre los permisos del proyecto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Al crear una solicitud de proyecto, recibe automáticamente permisos de administración en el proyecto </p> <p> Para obtener información acerca de los permisos del proyecto, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,12 +68,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
-   * Vaya a un portafolio y amplíe **Nuevo proyecto**.
+   * Haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **Proyectos** y expanda **Nuevo proyecto**.
+   * Vaya a un portafolio y expanda **Nuevo proyecto**.
    * Vaya a un programa y expanda **Nuevo proyecto**.
-   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, consulte [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Clic **Solicitar proyecto**.
+1. Haga clic en **Solicitar proyecto**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -81,10 +81,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Siga los mismos pasos que para crear un proyecto al definir un caso empresarial. (recomendado)
 
-     Para obtener información sobre la definición de un caso empresarial y la solicitud de un proyecto, consulte [Crear un caso comercial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Para obtener información sobre cómo definir un caso empresarial y solicitar un proyecto, vea [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-   * Cree un proyecto desde cero o utilice una plantilla y cambie el estado a **Solicitado**.
+   * Cree un proyecto desde cero o use una plantilla y cambie el estado a **Solicitado**.
 
-     Para obtener información sobre la creación de un proyecto, consulte [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md) o [Creación de un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Para obtener información sobre cómo crear un proyecto, vea [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md) o [Crear un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   El proyecto que solicita tiene el estado de **Solicitado** y se muestra en la **Proyectos solicitados** de un Portfolio, si lo ha asociado a un Portfolio. Un administrador de portafolios ahora puede revisarlo y aprobarlo o rechazarlo, en cuyo caso el estado del proyecto cambia a **Aprobado** o **Rechazado**.
+   El proyecto que solicita tiene el estado **Solicitado** y se muestra en la ficha **Proyectos solicitados** de un Portfolio, si lo ha asociado con un Portfolio. Un administrador de portafolios ahora puede revisarlo y aprobarlo o rechazarlo, en cuyo caso el estado del proyecto cambia a **Aprobado** o **Rechazado**.

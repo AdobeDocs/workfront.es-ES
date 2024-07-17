@@ -55,10 +55,10 @@ Los objetos de Workfront (y, por lo tanto, de su lago de datos) se definen no so
 
 Existen varios objetos de fecha que proporcionan información sobre cuándo se producen eventos específicos.
 
-* `DL_LOAD_TIMESTAMP`: Esta fecha se utiliza como referencia interna y refleja cuándo se cargaron los datos en la tabla Actual, Evento o Historial diario. Esta fecha no debe utilizarse para el análisis de datos y se prevé eliminarla durante la fase beta del lago de datos de Workfront.
-* `CALENDAR_DATE`: Esta fecha solo está presente en la tabla Historial diario. Esta tabla proporciona un registro del aspecto de los datos a las 11:59 UTC para cada fecha especificada en `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: Esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo cambió un registro _hasta_ el valor que tiene en la fila actual.
-* `END_EFFECTIVE_TIMESTAMP`: Esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo cambió un registro _de_ el valor de la fila actual a un valor de una fila diferente. Para permitir consultas entre `BEGIN_EFFECTIVE_TIMESTAMP` y `END_EFFECTIVE_TIMESTAMP` este valor nunca es nulo, aunque no haya ningún valor nuevo. En el caso de que un registro siga siendo válido (es decir, el valor no haya cambiado), `END_EFFECTIVE_TIMESTAMP` tendrá un valor de 2300-01-01.
+* `DL_LOAD_TIMESTAMP`: esta fecha se usa como referencia interna y refleja cuándo se cargaron los datos en la tabla Historial actual, Evento o Diario. Esta fecha no debe utilizarse para el análisis de datos y se prevé eliminarla durante la fase beta del lago de datos de Workfront.
+* `CALENDAR_DATE`: esta fecha solo está presente en la tabla Historial diario. Esta tabla proporciona un registro del aspecto de los datos a las 11:59 UTC para cada fecha especificada en `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _a_ el valor que tiene en la fila actual.
+* `END_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _de_ el valor de la fila actual a un valor de una fila diferente. Para permitir el intervalo entre consultas en `BEGIN_EFFECTIVE_TIMESTAMP` y `END_EFFECTIVE_TIMESTAMP`, este valor nunca es nulo, aunque no haya ningún valor nuevo. En el caso de que un registro siga siendo válido (es decir, el valor no haya cambiado), `END_EFFECTIVE_TIMESTAMP` tendrá el valor 2300-01-01.
 
 ## Tabla de terminología
 
@@ -128,7 +128,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
     <td>Hito</td>
     <td>Hito</td>
     <td>MILLA | Hito</td>
-    <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
+    <td>HITOS_ACTUALES<br>HITOS_DIARIOS_HISTORIAL<br>HITOS_EVENTO</td>
     <td></td>
   </tr>
   <tr>
@@ -156,28 +156,28 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
     <td>Portafolio</td>
     <td>Portafolio</td>
     <td>PUERTO | Portfolio</td>
-    <td>PORTFOLIO_ACTUALES<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br><br>PORTFOLIO_VALOR_PERSONALIZADO_ACTUAL<br>PORTFOLIO_VALOR_PERSONALIZADO_HISTORIAL_DIARIO<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIO_ACTUALES<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Programar</td>
     <td>Programar</td>
     <td>PRGM | Programa</td>
-    <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMAS_VALOR_PERSONALIZADO_ACTUAL<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
+    <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Proyecto</td>
     <td>Proyecto</td>
     <td>PROYECTO | Proyecto</td>
-    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROYECTOS_VALOR_PERSONALIZADO_ACTUAL<br>PROYECTOS_VALOR_PERSONALIZADO_HISTORIAL_DIARIO<br>PROYECTOS_VALOR_PERSONALIZADO_EVENTO</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Función</td>
     <td>Función</td>
     <td>ROL | Rol</td>
-    <td>ROLES_ACTUALES<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
+    <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -205,7 +205,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
     <td>Hoja de horas</td>
     <td>Hoja de horas</td>
     <td>HOJA TSHET | Hoja de horas</td>
-    <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+    <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>EVENTO_DE_HOJAS DE HORAS</td>
     <td></td>
   </tr>
   <tr>

@@ -19,7 +19,7 @@ ht-degree: 7%
 
 Los valores numéricos, incluida la moneda, se pueden configurar para que se muestren en diversos formatos en los informes y las listas de Adobe Workfront.
 
-Para modificar el formato de un valor numérico, debe editar la variable **valueformat** de la columna.
+Para modificar el formato de un valor numérico, debe editar la línea **valueformat** de la columna.
 
 Por ejemplo, si desea mostrar la columna Presupuesto como 1000 $, la línea de formato de valor tendría el siguiente aspecto:
 
@@ -28,13 +28,13 @@ valueformat=currencyStringCurrencyRounded
 valuefield=budget
 ```
 
-Para obtener más información sobre la aplicación de formato condicional en informes y listas de Workfront mediante el modo de texto, consulte [Uso del formato condicional en el modo Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+Para obtener más información acerca de la aplicación de formato condicional en informes y listas de Workfront mediante el modo de texto, vea [Usar formato condicional en el modo de texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-Puede dar formato a los números con los siguientes valores para `valueformat` línea de la columna:
+Puede dar formato a los números utilizando los siguientes valores para la línea `valueformat` de la columna:
 
 | Ejemplo | `valueformat=` |
 |---|---|
-| 1234 | <pre>doubleAsString</pre> <br>o <br><pre>int</pre> |
+| 1234 | <pre>doubleAsString</pre> <br> o <br><pre>int</pre> |
 | 1.234 | <pre>doubleAsInt</pre> |
 | $1,234 | <pre>currencyStringCurrencyRounded</pre> |
 | 1234,56 | <pre>doubleAsDouble</pre> |

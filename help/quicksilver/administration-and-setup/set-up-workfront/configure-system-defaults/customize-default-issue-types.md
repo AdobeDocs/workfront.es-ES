@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Personalización de tipos de problemas predeterminados
-description: Puede personalizar las etiquetas de cada tipo de problema predeterminado para que coincidan mejor con la terminología utilizada en su organización. Los tipos de problemas son útiles para personalizar estados de problemas y crear colas de solicitud.
+title: Personalizar tipos de problemas predeterminados
+description: Puede personalizar las etiquetas para cada tipo de problema predeterminado para que coincidan mejor con la terminología utilizada en su organización. Los tipos de problemas son útiles para personalizar los estados de los problemas y crear colas de solicitudes.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ---
 
-# Personalización de tipos de problemas predeterminados
+# Personalizar tipos de problemas predeterminados
 
 Los tipos de problemas son útiles en las siguientes circunstancias:
 
-* Al personalizar los estados de problemas, tal como se describe en [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-* Al crear una cola de solicitudes, tal como se describe en [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Al personalizar los estados de problemas, como se describe en [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+* Al crear una cola de solicitudes, como se describe en [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Puede personalizar las etiquetas de cada tipo de problema predeterminado para que coincidan mejor con la terminología utilizada en su organización.
+Puede personalizar las etiquetas para cada tipo de problema predeterminado para que coincidan mejor con la terminología utilizada en su organización.
 
 ## Requisitos de acceso
 
@@ -42,19 +42,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser [!DNL Workfront] administrador.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede modificar el nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de [!DNL Workfront].</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Tipos de problemas predeterminados
 
-Si tiene [!DNL Adobe Workfront] [!UICONTROL administrador] acceso, hay cuatro tipos de problemas predeterminados que puede configurar y cambiar de nombre:
+Si tiene acceso de [!DNL Adobe Workfront] [!UICONTROL administrador], hay cuatro tipos de problemas predeterminados que puede configurar y cambiar de nombre:
 
-* **[!UICONTROL Informe de errores]** Se utiliza para rastrear los errores notificados en el sistema.
-* **[!UICONTROL Cambiar orden]** Se utiliza para realizar el seguimiento de los problemas que deben actualizarse o revisarse.
-* **[!UICONTROL Problema]** Un objeto de [!DNL Workfront] que comunica el trabajo no planificado, un problema que surge o algo que debe resolverse para poder continuar con una tarea.
-* **[!UICONTROL Solicitud]** Tipo de problema que se aplica a una cola de solicitudes donde los usuarios realizan solicitudes en Workfront.
+* **[!UICONTROL Informe de errores]** se usa para rastrear los errores notificados en el sistema.
+* **[!UICONTROL Pedido de cambio]** se usa para hacer un seguimiento de los problemas que deben actualizarse o revisarse.
+* **[!UICONTROL Problema]** Un objeto de [!DNL Workfront] que comunica trabajo no planeado, un problema que surge o algo que debe resolverse para continuar una tarea.
+* **[!UICONTROL Solicitud]** Tipo de problema que se aplica a una cola de solicitudes en la que los usuarios realizan solicitudes en Workfront.
 
 ![](assets/default-issue-types.png)
 
@@ -62,23 +62,23 @@ Si tiene [!DNL Adobe Workfront] [!UICONTROL administrador] acceso, hay cuatro ti
 
 Tenga en cuenta lo siguiente sobre la personalización de tipos de problemas:
 
-* Puede modificar la etiqueta para un tipo de problema, pero no puede cambiar su función.
+* Puede modificar la etiqueta de un tipo de problema, pero no puede cambiar su función.
 * No puede crear tipos de problemas adicionales.
-* No se pueden cambiar los valores de filtro para el nombre de un tipo de problema. Por lo tanto, si crea un filtro en un informe de problemas, el valor del filtro (clave) no refleja el nombre personalizado del tipo de problema.
-* Hay tres estados predeterminados asociados a cada tipo de problema: [!UICONTROL Nuevo], [!UICONTROL En curso]y [!UICONTROL Cerrado]. No es posible eliminar estos estados ni quitarlos de un tipo de problema, pero sí cambiarles el nombre.
-* Puede volver a ordenar las opciones que aparecen en el menú desplegable para cada tipo de problema.
+* No puede cambiar los valores de filtro para el nombre de un tipo de problema. Por lo tanto, si crea un filtro en un informe de problemas, el valor del filtro (clave) no refleja el nombre personalizado del tipo de problema.
+* Hay tres estados predeterminados asociados a cada tipo de problema: [!UICONTROL Nuevo], [!UICONTROL En curso] y [!UICONTROL Cerrado]. No puede eliminar estos estados ni quitarlos de un tipo de problema, pero puede cambiarles el nombre.
+* Puede reordenar las opciones que aparecen en el menú desplegable para cada tipo de problema.
 
 Para personalizar un tipo de problema:
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Configuración]** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
 
-1. Haga clic en **[!UICONTROL Preferencias de proyecto]** > **[!UICONTROL Estados]**.
+1. Haga clic en **[!UICONTROL Preferencias del proyecto]** > **[!UICONTROL Estados]**.
 
-1. Haga clic en el **[!UICONTROL Problemas]** pestaña .
+1. Haga clic en la ficha **[!UICONTROL Problemas]**.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre el tipo de problema que quiera personalizar y haga clic en el botón [!UICONTROL Editar] icono ![](assets/edit-icon.png) que aparece en el extremo derecho y, a continuación, escriba un nuevo nombre para el tipo de problema.
+   * Pase el ratón sobre el tipo de problema que quiera personalizar, haga clic en el icono [!UICONTROL Editar] ![](assets/edit-icon.png) que aparece en el extremo derecho y, a continuación, escriba un nombre nuevo para el tipo de problema.
 
-      ![](assets/customize-issue-type.png)
+     ![](assets/customize-issue-type.png)
 
-   * Haga clic en [!UICONTROL tipo de problema] para enumerar sus estados asociados, arrastre los controladores que aparecen cuando pasa el ratón sobre ellos y suéltelos en el orden en que desea que aparezcan en el problema de los usuarios **[!UICONTROL Estado]** menú desplegable.
+   * Haga clic en un [!UICONTROL tipo de problema] para enumerar sus estados asociados y, a continuación, arrastre los controladores que aparecen cuando pasa el ratón por encima de ellos y suéltelos en el orden en que desea que aparezcan en el menú desplegable **[!UICONTROL Estado]** del problema de los usuarios.

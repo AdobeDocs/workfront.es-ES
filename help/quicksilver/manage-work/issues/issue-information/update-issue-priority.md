@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Actualizar prioridad del problema
 
-Puede definir una prioridad para un problema para indicar la importancia del mismo.
+Puede definir una prioridad para un problema  para indicar la importancia del problema.
 
 Debe tener permisos de administración en el problema para modificar la prioridad del problema.  [Actualizar la prioridad de un problema](#update-the-priority-of-an-issue).
 
@@ -37,16 +37,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Resumen de las prioridades de los problemas
 
@@ -57,7 +57,7 @@ Los administradores de Adobe Workfront pueden modificar las etiquetas de priorid
 Debe familiarizarse con la secuencia de numeración de las prioridades utilizadas en su organización.\
 Por ejemplo, su organización puede utilizar el número 1 para hacer referencia a tareas urgentes, si se ha modificado la etiqueta de la prioridad.
 
-Para obtener más información sobre cómo personalizar los nombres de las prioridades en su instancia, consulte [Creación y personalización de prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Para obtener más información acerca de cómo personalizar los nombres de las prioridades en su instancia, vea [Crear y personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 Consulte la siguiente tabla para comprender cada etiqueta de prioridad predeterminada y su número correspondiente:
 
@@ -66,8 +66,8 @@ Consulte la siguiente tabla para comprender cada etiqueta de prioridad predeterm
  <col> 
  <thead> 
   <tr> 
-   <th>Etiqueta de prioridad <br>(Se puede modificar) </th> 
-   <th>Número de prioridad <br>(No se puede modificar) </th> 
+   <th>Etiqueta de prioridad <br>(se puede modificar) </th> 
+   <th>Número de prioridad <br>(no se puede modificar) </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,15 +97,15 @@ Consulte la siguiente tabla para comprender cada etiqueta de prioridad predeterm
 ## Actualizar la prioridad de un problema {#update-the-priority-of-an-issue}
 
 1. Vaya al problema cuya prioridad desee modificar.
-1. Clic **Detalles del problema** en el panel izquierdo.
+1. Haga clic en **Detalles del problema** en el panel izquierdo.
 
-   El **Información general** La sección debería mostrarse de forma predeterminada.
+   La sección **Información general** debería mostrarse de manera predeterminada.
 
-1. Haga clic en **Prioridad** en el campo **Información básica** área.
+1. Haga clic en el campo **Prioridad** en el área **Información básica**.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. Seleccione un valor para **Prioridad** field.
+1. Seleccione un valor para el campo **Prioridad**.
 
    Las opciones pueden variar según la configuración que haga el administrador de Workfront en las prioridades de su sistema.
 

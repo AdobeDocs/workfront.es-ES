@@ -32,7 +32,7 @@ La planificación del proyecto significa determinar exactamente qué objetivos p
 
 En las fases iniciales de un proyecto, es posible que aún no haya determinado si realmente debe realizar el proyecto. Puede que no sea rentable o que no tenga los recursos. En esta fase de planificación, puede crear un proyecto en Workfront sin añadir ninguna tarea y establecer el estado en Planificación.
 
-Para obtener más información sobre cómo crear un proyecto, consulte el artículo [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+Para obtener más información sobre cómo crear un proyecto, consulte el artículo [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
 Tenga en cuenta las siguientes preguntas antes de planificar un proyecto:
 
@@ -42,14 +42,14 @@ Tenga en cuenta las siguientes preguntas antes de planificar un proyecto:
 
 Con el caso comercial de un proyecto puede definir sus objetivos y asegurarse de que el proyecto se ajuste a la estrategia de su organización.
 
-Para obtener más información sobre la definición de un caso empresarial para un proyecto, consulte el artículo [Crear un caso comercial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Para obtener más información acerca de cómo definir un caso empresarial para un proyecto, vea el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 Una vez definido el ámbito general del proyecto, puede determinar si desea llevar a cabo el proyecto y comenzar a planificarlo.
 
 ## Planificación preliminar del proyecto
 
-* [Defina la fecha de inicio y finalización del proyecto](#define-the-start-and-completion-date-of-the-project)
-* [Defina la programación del proyecto](#define-the-project-schedule)
+* [Definir la fecha de inicio y finalización del proyecto](#define-the-start-and-completion-date-of-the-project)
+* [Definir la programación del proyecto](#define-the-project-schedule)
 * [Administrar la información adicional necesaria para planificar el proyecto](#manage-additional-information-needed-for-planning-the-project)
 
 ### Defina la fecha de inicio y finalización del proyecto {#define-the-start-and-completion-date-of-the-project}
@@ -72,7 +72,7 @@ Saber cuándo los usuarios están disponibles para trabajar es importante para c
 
 Puede crear varias programaciones de proyectos y aplicar una programación predeterminada al proyecto. Se pueden aplicar programaciones personalizadas adicionales a diferentes personas.
 
-Para obtener más información sobre los horarios, consulte el artículo [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Para obtener más información acerca de Programaciones, consulte el artículo [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ### Administrar la información adicional necesaria para planificar el proyecto {#manage-additional-information-needed-for-planning-the-project}
 
@@ -82,20 +82,20 @@ Considere la posibilidad de hacer las siguientes preguntas:
 
 * ¿Existe una regulación que le ordene mantener un registro de los eventos y procesos? En caso afirmativo, ¿de qué debe hacer un seguimiento?\
   Workfront permite registrar ediciones, cambios de ámbito, cambios de estado y acciones para que pueda cumplir con las regulaciones específicas de su sector.\
-  Para obtener más información sobre cómo definir qué actualizaciones se rastrearán en Workfront, consulte el artículo [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Para obtener más información sobre cómo definir qué actualizaciones rastrear en Workfront, consulte el artículo [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * ¿Hay alguna información que se le pida que rastree que no tenga un campo en Workfront en el que almacenarlo? Si es así, cree Forms personalizado para proyectos o tareas en los que pueda almacenar esta información.\
   Para obtener más información sobre la creación de formularios personalizados, consulte el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * ¿Hay algún punto de comprobación de aprobación que deba otorgarse antes de que pueda continuar el trabajo en un proyecto? Si es así, cree procesos de aprobación para proyectos o tareas que pueda utilizar mientras crea el proyecto.\
-  Para obtener más información sobre los procesos de aprobación, consulte el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Para obtener más información acerca de los procesos de aprobación, vea el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Crear la cronología del proyecto
 
 Después de determinar los objetivos principales de un proyecto y de decidir si merece la pena ejecutarlo, debe calcular la cronología de cada objetivo. Cada objetivo puede convertirse en una de las tareas del proyecto.
 
 Esto ayuda a priorizar los objetivos y a planificar la estructura de desglose de trabajo en consecuencia. La estructura de desglose de trabajo define la cronología del proyecto.\
-Para obtener más información sobre la creación de tareas en un proyecto, consulte la sección [Definición de tareas](#define-tasks).
+Para obtener más información acerca de cómo crear tareas en un proyecto, vea la sección [Definir tareas](#define-tasks).
 
 Tenga en cuenta lo siguiente al crear la cronología del proyecto:
 
@@ -108,13 +108,13 @@ Tenga en cuenta lo siguiente al crear la cronología del proyecto:
 
   Cuando se utilizan tareas principales para organizar objetivos, se puede crear una tarea para cada objetivo principal y agregar subtareas cuando se llega a la fase de dividir los objetivos principales en tareas individuales. Esto mantiene organizadas las tareas que forman parte del objetivo del proyecto.
 
-  Para obtener más información sobre las tareas predecesoras, consulte [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Para obtener más información acerca de las tareas predecesoras, vea [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Considere los objetivos más importantes para su proyecto y márquelos como tareas de hito.
 
   Se recomienda utilizar las tareas principales como hitos.
 
-  Para obtener más información sobre el uso de tareas de hitos, consulte [Creación de una trayectoria del hito](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Para obtener más información acerca del uso de tareas de hitos, vea [Crear una ruta de hitos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Defina una cronología para cada objetivo. Si trabaja con tareas principales, cada tarea secundaria debe tener una fecha de inicio y de finalización definidas. Hora entre la primera fecha de inicio de una tarea y la última fecha de finalización de una tarea en el mismo proyecto que resulta en la escala de tiempo del proyecto.
 
@@ -129,19 +129,19 @@ Puede crear tareas en un proyecto de las siguientes maneras:
 
   Las Tareas de plantilla pasan a ser las Tareas del proyecto.
 
-  Para obtener más información sobre la creación de tareas, consulte el artículo [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+  Para obtener más información acerca de cómo crear tareas, vea el artículo [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 Al definir tareas, tenga en cuenta lo siguiente:
 
 * Defina la cronología de cada tarea. Esto se captura en el campo Duración de cada tarea.
 
-  Para obtener información sobre la duración de la tarea, consulte el artículo [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Para obtener información acerca de la duración de la tarea, vea el artículo [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Defina la relación principal-secundario entre las tareas.
 * Defina la relación de predecesoras entre las tareas.
 * Asocie una ruta de hitos al proyecto y asocie un hito a su tarea correspondiente.
 
-  Para obtener más información sobre el uso de tareas de Milestone, consulte el artículo [Creación de una trayectoria del hito](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Para obtener más información acerca del uso de tareas de hitos, vea el artículo [Crear una ruta de hitos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Defina la cantidad de trabajo necesario para completar cada tarea. Esto se captura en el campo Horas planificadas de cada tarea.
 
@@ -153,5 +153,5 @@ Al definir tareas, tenga en cuenta lo siguiente:
    * Reduzca las horas planificadas de cada tarea.
    * Agregue más usuarios a una tarea para asegurarse de que se puede completar durante el tiempo asignado para ella.
    * Reasigne las tareas a usuarios que estén disponibles sin otras restricciones.\
-     Para obtener más información sobre la planificación de los recursos del proyecto, consulte el artículo [Planificación de recursos: índice de artículos](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-     Para obtener más información sobre cómo programar los recursos para que realicen el trabajo en un proyecto, consulte [Resumen del Distribuidor de cargas](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     Para obtener más información acerca de cómo planificar los recursos del proyecto, vea el artículo [Planificación de recursos: índice de artículos](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Para obtener más información sobre cómo programar los recursos para que realicen el trabajo en un proyecto, vea [Resumen del Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

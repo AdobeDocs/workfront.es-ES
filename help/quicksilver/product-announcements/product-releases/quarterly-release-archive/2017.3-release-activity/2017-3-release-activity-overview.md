@@ -28,7 +28,7 @@ La versión 2017.3 contiene mejoras para administradores de Workfront y otros us
 
 * [Mejoras para administradores](#enhancements-for-administrators)
 * [Mejoras para todos los usuarios](#enhancements-for-all-users)
-* [Mejoras de Mobile](#mobile-enhancements)
+* [Mejoras móviles](#mobile-enhancements)
 * [Seminarios web sobre versiones](#release-webinars)
 
   <!--
@@ -39,11 +39,11 @@ La versión 2017.3 contiene mejoras para administradores de Workfront y otros us
 
 En las siguientes secciones se describen las mejoras disponibles para los administradores de Workfront en la versión de Workfront 2017.3:
 
-* [Plantilla de diseño actualizada para admitir el área de inicio](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated-layout-template-to-support-the-home-area) (Solo vista previa)
+* [Plantilla de diseño actualizada para admitir el área de inicio](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated-layout-template-to-support-the-home-area) (solo vista previa)
 
-* [Nueva área de preferencias de administración de recursos en el área de configuración](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-resource-management-preferences-area-in-the-setup-area)
-* [Evitar que se eliminen tareas y problemas al registrar las horas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#new-setting-to-prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
-* [Eliminación de la configuración &quot;Acceso anticipado&quot; del área de instalación](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#removal-of-the-early-access-setting)
+* [Nuevo área de preferencias de administración de recursos en el área de configuración](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-resource-management-preferences-area-in-the-setup-area)
+* [Impedir que se eliminen tareas y problemas al registrar horas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#new-setting-to-prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
+* [Eliminación de la configuración de &quot;Acceso anticipado&quot; del área de instalación](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#removal-of-the-early-access-setting)
 * [Cambio de dirección de correo electrónico predeterminada de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#workfront-default-email-address-change)
 * [Restringir el acceso a los flujos de trabajo por activación de fase (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#restrict-access-to-workflows-by-stage-activation)
 * [La información de SSO para las zonas protegidas de actualización y vista previa personalizadas no se actualiza](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#sso-information-for-custom-refresh-sandboxes-does-not-refresh)
@@ -57,28 +57,28 @@ En las siguientes secciones se describen las mejoras disponibles para los usuari
 
 * [Aplicar distribución de FTE al Planificador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#apply-fte-distribution-to-the-resource-planner)
 * [Mejora del Planificador de recursos: Filtros](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#resource-planner-improvement-filters)
-* [Mejora del Planificador de recursos: mostrar las horas del problema en el área de &quot;Configuración&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#resource-planner-improvement-show-issue-hours-in-settings)
+* [Mejora del Planificador de recursos: mostrar las horas del problema en el área de &quot;configuración&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#resource-planner-improvement-show-issue-hours-in-settings)
 * [Opción de Planificador de recursos para cambiar la vista](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#resource-planner-option-to-change-the-view)
 * [Planificador de recursos: mostrar datos por ETC](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-show-data-by-fte)
 * [Planificador de recursos: mostrar datos por semana y trimestre](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-show-data-by-week-and-quarter)
 * [Planificador de recursos: ver por usuario](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-view-by-user)
-* [Planificador de recursos: arrastre y suelte proyectos para establecer la prioridad](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-drag-and-drop-projects)
+* [Planificador de recursos: arrastre y suelte los proyectos para establecer la prioridad](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-drag-and-drop-projects)
 * [Planificador de recursos: exporte los datos del Planificador de recursos a Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-export-data)
 
 ### Mejoras en Resource Scheduling
 
 * [Automatizar asignaciones al programar recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#automate-assignments-when-scheduling-resources)
 * [Ver área de programación en modo de pantalla completa](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-scheduling-area-in-full-screen-mode)
-* [Más Opciones de Intervalo de Fechas para Ver el Área de Programación de Recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#more-date-range-options-for-viewing-the-resource-scheduling-area)
-* [Ver fechas proyectadas en la línea de tiempo de programación](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-projected-dates-on-the-scheduling-timeline)
+* [Más opciones de intervalo de fechas para ver el área de horario de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#more-date-range-options-for-viewing-the-resource-scheduling-area)
+* [Ver fechas proyectadas en la escala de tiempo de programación](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-projected-dates-on-the-scheduling-timeline)
 * [Modificar asignaciones para varias tareas al programar recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#modify-assignments-for-specific-tasks-within-a-project)
 
 ### Mejoras en informes
 
-* [Mostrar información del problema original en informes de proyectos y tareas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#show-information-in-project-and-taks-reports)
-* [Personalizar colores de gráfico](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#customize-chart-colors)
+* [Mostrar información original del problema en los informes de proyectos y tareas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#show-information-in-project-and-taks-reports)
+* [Personalizar colores para gráficos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#customize-chart-colors)
 * [Cambiar el tamaño y reordenar columnas en informes y listas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#resize-and-reorder-columns-in-reports-and-lists)
-* [Información de tablero en listas de informes](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#dashboar)
+* [Información del panel en las listas de informes](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#dashboar)
 * [Planificador de recursos: exporte los datos del Planificador de recursos a Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-export-data)
 * [Los Informes Integrados Contienen Descripciones Actualizadas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#built-in-reports-contain-updated-descriptions)
 * [Nueva agrupación para informes de horas presupuestados de recurso: fecha de asignación](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#new-grouping-for-resource-budgeted-hour-reports)
@@ -86,15 +86,15 @@ En las siguientes secciones se describen las mejoras disponibles para los usuari
 ### Mejoras de Agile
 
 * [Kanban para Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#kanban-for-agile)
-* [Incluir problemas en el registro de Scrum para un equipo Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-backlog) Eliminado
+* Se eliminaron [problemas de inclusión en el registro de Scrum para un equipo Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-backlog)
 
-* [Incluir problemas en el guion gráfico de Scrum Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-story-board) Eliminado
+* Se eliminaron [Incluir problemas en el panel de historias de Scrum Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-story-board)
 
-* [Aplicar agrupaciones y filtros al registro de pendientes de un equipo Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#apply-groupings-and-filters-to-the-backlog) Eliminado
+* Se eliminaron [Aplicar agrupaciones y filtros al registro de pendientes para un equipo ágil](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#apply-groupings-and-filters-to-the-backlog)
 
 ### Mejoras de Mi trabajo
 
-* [Área de inicio (se ha actualizado mi área de trabajo)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#home-area) (Solo vista previa)
+* [Área de inicio (se ha actualizado mi área de trabajo)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#home-area) (solo vista previa)
 
 ### Mejoras en los informes de utilización
 
@@ -102,9 +102,9 @@ En las siguientes secciones se describen las mejoras disponibles para los usuari
 * [Opciones de filtrado adicionales en el informe de utilización](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#additional-filtering-options-in-the-utilization-report)
 * [Ver el informe de utilización por programa o Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#run-the-utilization-report-at-the-program-and-portfolio-level)
 * [Incluir información de asignación de usuarios en el informe de utilización de un proyecto](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#include-user-allocation-information-in-the-utilization-report-on-a-project)
-* [Filtrado de contenido dentro de un informe de utilización en un proyecto](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#filter-content-within-a-utilization-report-on-a-project)
-* [Consultar Información de Costes en el Informe de Utilización de un Proyecto](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#view-cost-information-in-the-utilization-report-on-a-project)
-* [Visualización de datos en el informe de utilización](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#visualize-data-in-the-utilization-report)
+* [Filtrar contenido dentro de un informe de utilización en un proyecto](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#filter-content-within-a-utilization-report-on-a-project)
+* [Ver información de costos en el informe de utilización de un proyecto](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#view-cost-information-in-the-utilization-report-on-a-project)
+* [Visualizar datos en el informe de utilización](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#visualize-data-in-the-utilization-report)
 * [Mejora del rendimiento del informe de utilización](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#utilization-report-performance-improvement)
 
 ### Mejoras de suscripción
@@ -115,23 +115,23 @@ En las siguientes secciones se describen las mejoras disponibles para los usuari
 
 ### Mejoras del proyecto
 
-* [Duplicar tareas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#duplicate-tasks)
-* [Opción Borrar datos personalizados al copiar tareas y problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#clear-custom-data-option-when-copying-tasks-and-issues)
+* [Tareas duplicadas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#duplicate-tasks)
+* [Borrar opción de datos personalizados al copiar tareas y problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#clear-custom-data-option-when-copying-tasks-and-issues)
 * [Crear un proyecto directamente a partir de una plantilla](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#create-a-project-directly-from-a-template)
 * [Opciones Adicionales Al Copiar Proyectos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#additional-options-when-copying-projects)
-* [Mejoras de documentos: interfaz optimizada](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#document-enhancements-streamlined-interface)
+* [Mejoras en el documento: interfaz optimizada](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#document-enhancements-streamlined-interface)
 * [Nuevo rediseño del gráfico Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#new-gantt-chart)
-* [Personalización de marca en informes, listas y paneles exportados](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#branding-in-exported-reports-lists-and-dashboards)
+* [Marcas en informes, listas y paneles exportados](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#branding-in-exported-reports-lists-and-dashboards)
 * [Mejoras al copiar tareas y mover tareas o problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#improvements-when-copying-tasks-and-moving-tasks-or-issues)
 
 ### Mejoras de corrección
 
-**Mejoras de corrección en Workfront**
+**Mejoras de revisión en Workfront**
 
-* [Experiencia del usuario mejorada y funciones adicionales](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#improved-user-experience-and-additiona-functionality)
-* [Informe sobre etapas de prueba activas en Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#report-on-active-proof-stages-within-workfront)
-* [Asignación de perfiles de permisos de Workfront Proof personalizados a usuarios de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
-* [Compartir directamente desde el visor de pruebas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#share-directly-from-the-proofing-viewer)
+* [Experiencia del usuario mejorada y funcionalidad adicional](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#improved-user-experience-and-additiona-functionality)
+* [Informe sobre etapas de revisión activas en Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#report-on-active-proof-stages-within-workfront)
+* [Asignar perfiles de permisos de Workfront Proof personalizados a usuarios de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
+* [Compartir directamente desde el visor de revisión](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#share-directly-from-the-proofing-viewer)
 * [Configurar roles de prueba predeterminados](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#configuring-default-proof-roles)
 
 **Mejoras de revisión tanto en Workfront Proof como en Workfront**
@@ -143,8 +143,8 @@ En las siguientes secciones se describen las mejoras disponibles para los usuari
 
 * [Pantalla panorámica](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#widescreen-display)
 * [Nueva apariencia para correos electrónicos de comunicación](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#new-look-form-communication-emails)
-* [La sección Rol para la configuración de usuario incluye el porcentaje de disponibilidad de FTE](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-job-roles-interface-for-user-settings)
-* [Las actualizaciones del sistema de filtros en el flujo de actualización ahora son persistentes entre objetos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#filter-system-updates-in-the-update-stream)
+* [La sección de rol para la configuración de usuario incluye el porcentaje de disponibilidad de FTE](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-job-roles-interface-for-user-settings)
+* [Las actualizaciones del sistema de filtros en el flujo de actualizaciones ahora son persistentes entre objetos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#filter-system-updates-in-the-update-stream)
 * [Formato de texto enriquecido para actualizaciones y correos electrónicos](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#rich-text-formatting)
 * [Integración de Workfront con Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#workfront-integration-with-slack)
 * [Mejoras de Outlook 365](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#outlook-365-improvements)
@@ -182,4 +182,4 @@ Las siguientes funciones adicionales estarán disponibles antes del lanzamiento 
 
 ## Seminarios web sobre versiones {#release-webinars}
 
- Para ver las grabaciones de los seminarios web de la versión 2017.3, consulte [Seminarios web de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md).
+ Para ver las grabaciones de los seminarios web de la versión 2017.3, consulte [seminarios web de la versión 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md).

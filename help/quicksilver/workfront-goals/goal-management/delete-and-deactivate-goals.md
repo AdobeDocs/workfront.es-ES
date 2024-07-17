@@ -54,7 +54,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nivel de acceso</p></td>
@@ -66,7 +66,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -90,14 +90,14 @@ Puede desactivar un objetivo que ya no sea relevante y que quizá desee reactiva
 
 Al desactivar metas, recuerde lo siguiente:
 
-* Solo puede desactivar las metas en estado Activo. Para obtener información sobre cómo activar un objetivo, consulte [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+* Solo puede desactivar las metas en estado Activo. Para obtener información sobre cómo activar una meta, consulte [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!TIP]
   >
   >No se pueden desactivar las metas en estado de Borrador.
 
 * Workfront deja de calcular el progreso de las metas desactivadas.
-* Las metas inactivas ya no se muestran en la sección Gráficos de las metas de Workfront o no se tienen en cuenta. Para obtener información sobre los gráficos de Workfront Goals, consulte [Revise los gráficos para comprender las tendencias del progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Las metas inactivas ya no se muestran en la sección Gráficos de las metas de Workfront o no se tienen en cuenta. Para obtener información acerca de los gráficos de Workfront Goals, vea [Revisar gráficos para entender las tendencias del progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -132,7 +132,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Metas**.
 
    Se muestra la lista de metas.
 
@@ -141,7 +141,7 @@ Deactivating goals differs depending on which environment you use.
 
 1. (Opcional) Modifique los filtros para mostrar solo las metas que están activas.
 
-   Para obtener información sobre el filtrado de información en Workfront Goals, consulte [Filtrar información en Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
+   Para obtener información sobre cómo filtrar información en Workfront Goals, consulte [Filtrar información en Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 
 1. Haga clic en un objetivo activo.
 
@@ -149,7 +149,7 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre de la meta y haga clic en **Desactivar**.
+1. Haga clic en el menú **Más** ![](assets/more-icon.png) a la derecha del nombre de la meta y, a continuación, haga clic en **Desactivar**.
 
 1. El objetivo se desactiva y su estado se vuelve Inactivo.
 
@@ -189,14 +189,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Metas**.
+1. Haga clic en el icono del menú principal ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
 
    Se muestra la lista de metas.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Haga clic en el nombre de una meta. Se abre la página de objetivo.
-1. Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre de la meta y haga clic en **Eliminar meta**, entonces **Eliminar**.
+1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre de la meta, luego haga clic en **Eliminar meta** y después en **Eliminar**.
 
    El objetivo, sus actividades y resultados también se eliminan y no se puede recuperar. No se eliminan los proyectos asociados con la meta o las metas secundarias.
 

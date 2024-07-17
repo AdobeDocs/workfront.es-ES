@@ -67,29 +67,29 @@ El administrador de Workfront o de grupo determina el valor predeterminado del c
 
 Al crear un proyecto, la condición del proyecto se establece automáticamente para que coincida con el estado de progreso del proyecto en ese momento. El estado del progreso del proyecto se basa en el progreso de las tareas del proyecto.
 
-Para obtener información sobre las condiciones del proyecto y cómo se calculan en función del estado de progreso, consulte [Resumen del estado del progreso del proyecto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Para obtener información sobre las condiciones del proyecto y cómo se calculan en función del estado de progreso, consulte [Resumen del estado de progreso del proyecto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
 ## Actualizar manualmente la condición de un proyecto
 
 Si establece el tipo de condición del proyecto en Manual en lugar del estado de progreso, puede actualizar manualmente la condición de un proyecto.
 
 1. Vaya al proyecto para el que desea actualizar la condición.
-1. Haga clic en **Detalles del proyecto** en el panel izquierdo.
+1. Haga clic en la sección **Detalles del proyecto** en el panel izquierdo.
 
-1. Asegúrese de que la variable **Tipo de condición** el campo está configurado como **Manual**.
+1. Asegúrese de que el campo **Tipo de condición** esté establecido en **Manual**.
 
    ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
 
-1. En el **Condición** , seleccione entre las siguientes opciones la que coincida con su comprensión de si el trabajo asociado a él se está realizando sin problemas o si hay algún retraso:
+1. En el campo **Condición**, seleccione entre las siguientes opciones la que coincida con su comprensión de si el trabajo asociado a ella se está realizando sin problemas o si hay algún retraso:
 
-   * **En Target**
+   * **En destino**
    * **En riesgo**
-   * **Con problemas**
+   * **Con Problemas**
 
-   Para obtener más información sobre las condiciones del proyecto, consulte [Descripción general de la condición y el tipo de condición del proyecto](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+   Para obtener más información sobre las condiciones del proyecto, vea [Información general sobre la condición del proyecto y el tipo de condición](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
    >[!NOTE]
    >
-   >Las condiciones se pueden personalizar para su entorno, por lo que puede encontrar más de tres opciones para Condición en su entorno. Los nombres de las condiciones pueden ser diferentes a los enumerados anteriormente. Para obtener información sobre la personalización de condiciones en Workfront, consulte [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >Las condiciones se pueden personalizar para su entorno, por lo que puede encontrar más de tres opciones para Condición en su entorno. Los nombres de las condiciones pueden ser diferentes a los enumerados anteriormente. Para obtener información acerca de cómo personalizar condiciones en Workfront, vea [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 1. Haga clic en **Guardar cambios**.

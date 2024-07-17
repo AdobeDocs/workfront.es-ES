@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">plan de Adobe Workfront</td> 
    <td> 
    <p>Nuevo: Cualquiera </p>
-   <p>Actual: Pro o Superior</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <p>Actual: Pro o Superior</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -65,51 +65,51 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 ## Cargar un documento y crear una prueba
 
 1. Vaya al proyecto, tarea o problema en el que desea crear una nueva prueba.
-1. Haga clic en **Documentos** pestaña.
+1. Haga clic en la ficha **Documentos**.
 1. Haga clic en Documentos ![](assets/document-icon.png) en el panel izquierdo.
-1. Clic **Añadir nuevo**, luego haga clic en **Proof** en el menú que aparece.
+1. Haga clic en **Agregar nuevo** y, a continuación, haga clic en **Revisión** en el menú que aparece.
 
    >[!TIP]
    >
-   >Puede activar la variable **Generar automáticamente revisiones al cargar documentos** configuración en el perfil de usuario para automatizar este proceso. Para obtener más información, consulte [Configurar mis ajustes](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+   >Puede habilitar la configuración **Generar revisiones automáticamente al cargar documentos** en su perfil de usuario para automatizar este proceso. Para obtener más información, consulte [Configurar mis opciones](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
 
-1. En el **Nueva revisión** página que aparece, puede
+1. En la página **Nueva revisión** que aparece, puede
 
-   * [Creación de una prueba avanzada con un flujo de trabajo básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [Crear una revisión avanzada con un flujo de trabajo básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Creación de una prueba avanzada con un flujo de trabajo automatizado](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 ## Cargar un documento y crear una nueva versión de una prueba
 
 1. Vaya al proyecto, tarea o problema en el que desea crear una nueva versión de una revisión existente.
-1. Haga clic en **Documentos** pestaña.
+1. Haga clic en la ficha **Documentos**.
 1. Seleccione el documento en el que desea agregar una nueva versión.
-1. Clic **Añadir nuevo** > **Versión** > **Proof**.
-1. En el **Nueva versión de revisión** página que aparece, puede
+1. Haga clic en **Agregar nuevo** > **Versión** > **Revisión**.
+1. En la página **Nueva versión de revisión** que aparece, puede
 
-   * [Creación de una prueba avanzada con un flujo de trabajo básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [Crear una revisión avanzada con un flujo de trabajo básico](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Creación de una prueba avanzada con un flujo de trabajo automatizado](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 ## Utilice arrastrar y soltar para generar una prueba sencilla para una nueva versión
 
 Puede arrastrar y soltar un documento desde el sistema de archivos (como el escritorio) para crear una nueva prueba o una nueva versión de una prueba existente. La prueba contiene la siguiente configuración, en función de si va a crear una nueva prueba o una nueva versión:
 
-* **Nueva revisión:** Crea una prueba simple que solo se comparte con usted. Puede modificar la configuración del recurso compartido una vez creada la prueba, tal como se describe en [Editar configuración de revisión](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **Nueva revisión:** Crea una revisión simple que se comparte solamente con usted. Puede modificar la configuración del recurso compartido una vez que se haya creado la revisión tal como se describe en [Editar la configuración de la revisión](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
 * **Nueva versión de revisión existente:** Crea una nueva versión con la misma configuración de revisión que la versión anterior.
 
 Para usar arrastrar y soltar para generar una nueva prueba o versión:
 
 1. Asegúrese de que las pruebas estén configuradas para generarse automáticamente, tal como se describe en
-1. Continuar con  [Agregar documentos a Adobe Workfront desde el sistema de archivos](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), que explica el método de arrastrar y soltar para agregar documentos. 
+1. Continuar con  [Agregue documentos a Adobe Workfront desde su sistema de archivos](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), lo que explica el método de arrastrar y soltar para agregar documentos. 
 
 ## Crear una prueba para un documento existente
 
-1. Vaya al proyecto, tarea o problema donde desee la prueba y haga clic en **Documentos** sección.
-1. Pase el ratón sobre el documento y haga clic en **Crear revisión** que aparece debajo del nombre del documento.
+1. Vaya al proyecto, tarea o problema donde desee la prueba y, a continuación, haga clic en la sección **Documentos**.
+1. Pase el ratón sobre el documento y luego haga clic en el vínculo **Crear revisión** que aparece debajo del nombre del documento.
 
    >[!NOTE]
    >
-   >Si tiene **Generar automáticamente revisiones al cargar documentos** activado en el perfil de usuario, el sistema crea automáticamente una prueba sencilla.
+   >Si tiene **Generar revisiones automáticamente al cargar documentos** habilitados en su perfil de usuario, el sistema crea automáticamente una revisión simple.
 
 1. Elija una de las siguientes opciones:
 
@@ -119,14 +119,14 @@ Para usar arrastrar y soltar para generar una nueva prueba o versión:
     <tbody> 
      <tr> 
       <td role="rowheader">Corrección simple</td> 
-      <td>Esta opción crea una prueba sin flujo de trabajo adjunto y aplica la configuración de prueba predeterminada. Puede actualizar la configuración de revisión predeterminada o agregar un flujo de trabajo después de crear la revisión. Para obtener más información sobre la configuración de prueba, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Editar configuración de revisión</a>.</td> 
+      <td>Esta opción crea una prueba sin flujo de trabajo adjunto y aplica la configuración de prueba predeterminada. Puede actualizar la configuración de revisión predeterminada o agregar un flujo de trabajo después de crear la revisión. Para obtener más información sobre la configuración de prueba, consulte <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Editar configuración de prueba</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corrección avanzada</td> 
       <td> <p>Esta opción le permite configurar un flujo de trabajo Básico o Avanzado y modificar la configuración de prueba de la prueba que cree. Para obtener más información, consulte </p> 
        <ul> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Creación de una prueba avanzada con un flujo de trabajo básico</a> </p> </li> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Creación de una prueba avanzada con un flujo de trabajo automatizado</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Crear una revisión avanzada con un flujo de trabajo básico</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Crear una revisión avanzada con un flujo de trabajo automatizado</a> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

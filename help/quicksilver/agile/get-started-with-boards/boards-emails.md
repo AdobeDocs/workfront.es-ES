@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Notificaciones y preferencias por correo electrónico de Tableros
 
-[!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar en las preferencias de sus tableros qué correos electrónicos desea recibir.
+[!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un mensaje de correo electrónico cuando se le agrega a un tablero y cuando se le asigna una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar en las preferencias de sus tableros qué correos electrónicos desea recibir.
 
 También recibirá un correo electrónico cuando esté etiquetado en un comentario en una tarjeta conectada, según la configuración de las notificaciones por correo electrónico. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
 
@@ -41,13 +41,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Definir preferencias para correos electrónicos de tableros
 
 {{step1-to-boards}}
 
-1. Clic [!UICONTROL **Preferencias**] en el tablero de mandos.
+1. Haga clic en [!UICONTROL **Preferencias**] en el panel de tableros.
 1. Seleccione si desea recibir correos electrónicos para que se agreguen a un tablero y se asignen a una tarjeta.
 
    ![Preferencias de correo electrónico de tableros](assets/boards-email-preferences.png)

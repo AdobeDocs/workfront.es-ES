@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Resumen de los grupos de recursos
-description: Como gestor de recursos, puede administrar sus recursos añadiendo usuarios a los grupos de recursos.
+title: Resumen de conjuntos de recursos
+description: Como administrador de recursos, puede administrar los recursos agregando usuarios a los conjuntos de recursos.
 author: Alina
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 ---
 
-# Resumen de los grupos de recursos
+# Resumen de conjuntos de recursos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
 -->
 
-Como gestor de recursos, puede administrar sus recursos añadiendo usuarios a los grupos de recursos.
+Como administrador de recursos, puede administrar los recursos agregando usuarios a los conjuntos de recursos.
 
-La administración eficiente de recursos no puede suceder sin rellenar los grupos de recursos con usuarios y adjuntarlos a los proyectos. Este es un requisito previo para utilizar la funcionalidad de planificación de recursos.
+La administración eficaz de los recursos no puede realizarse sin rellenar los conjuntos de recursos con usuarios y adjuntarlos a los proyectos. Es un requisito previo para utilizar la funcionalidad de planificación de recursos.
 
-Para obtener más información sobre los requisitos previos necesarios para empezar a utilizar la planificación de recursos, consulte la sección &quot;Requisitos previos para trabajar en el planificador de recursos&quot; en [Información general del planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener más información acerca de los requisitos previos necesarios para empezar a utilizar la planificación de recursos, vea la sección Requisitos previos para trabajar en el Planificador de recursos en [Información general del Planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Para obtener información sobre la creación y administración de grupos de recursos, consulte los siguientes artículos:
+Para obtener información sobre la creación y administración de conjuntos de recursos, consulte los siguientes artículos:
 
-* [Crear grupos de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [Asociación de grupos de recursos con proyectos y plantillas](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Asociación de grupos de recursos con usuarios](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [Eliminar usuarios de grupos de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [Crear conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [Asociar conjuntos de recursos con proyectos y plantillas](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [Asociar conjuntos de recursos con usuarios](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [Quitar usuarios de conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -66,30 +66,30 @@ If you still don't have access, ask your Workfront administrator if they set add
 </div>
 -->
 
-## Resumen de los grupos de recursos
+## Información general sobre conjuntos de recursos
 
-* Un grupo de recursos es una colección de usuarios que se necesitan al mismo tiempo para completar un proyecto.
-* Un grupo de recursos se puede compartir entre varios proyectos, programas o portafolios cuando esté asociado con todos los proyectos de los programas y portafolios.
-* Puede crear un grupo de recursos y rellenarlo con usuarios existentes una vez creado, o bien puede crear el grupo de recursos y asociarlo con un usuario existente o con un nuevo usuario a medida que esté creando o editando el usuario.
-* Después de rellenar los grupos de recursos con los usuarios, puede asociarlos con proyectos y plantillas y administrar la asignación de usuarios a los proyectos de forma más eficaz.
-* Puede asociar tantos grupos de recursos como sea necesario con un proyecto, plantilla o usuario.
+* Un conjunto de recursos es un conjunto de usuarios que se necesitan al mismo tiempo para la finalización de un proyecto.
+* Un conjunto de recursos se puede compartir en varios proyectos, programas o portafolios cuando está asociado a todos los proyectos de los programas y portafolios.
+* Puede crear un conjunto de recursos y rellenarlo con los usuarios existentes tras su creación, o bien puede crear el conjunto de recursos y asociarlo a un usuario existente o a un nuevo usuario mientras crea o edita el usuario.
+* Después de rellenar los conjuntos de recursos con los usuarios, puede asociarlos a proyectos y plantillas y administrar la asignación de usuarios a los proyectos de forma más eficaz.
+* Puede asociar tantos conjuntos de recursos como sea necesario con un proyecto, una plantilla o un usuario.
 
-## Criterios para asociar usuarios con un grupo de recursos
+## Criterios para asociar usuarios a un conjunto de recursos
 
-Existen varias formas de estructurar los grupos de recursos.
+Existen varias formas de estructurar los conjuntos de recursos.
 
 Recomendamos los siguientes enfoques:
 
-* Puede hacer que todos los usuarios del mismo grupo de recursos pertenezcan al mismo equipo.
+* Puede hacer que todos los usuarios del mismo conjunto de recursos pertenezcan al mismo equipo.
 
-   Por ejemplo, si desea que todos los usuarios de un equipo de marketing estén disponibles para un proyecto, desea un grupo de recursos de marketing donde agregue todos los usuarios de ese equipo. A continuación, puede asociar el grupo de recursos de marketing con los proyectos a los que están asignados los miembros de ese equipo.
+  Por ejemplo, si desea que todos los usuarios de un equipo de marketing estén disponibles para un proyecto, debe crear un conjunto de recursos de marketing en el que agregue todos los usuarios de ese equipo. A continuación, puede asociar el conjunto de recursos de marketing con los proyectos a los que están asignados los miembros de ese equipo.
 
-* Puede hacer que todos los usuarios del mismo grupo de recursos cumplan funciones similares, especialmente si las funciones tienen una gran demanda y deben presupuestarse por separado.
+* Puede hacer que todos los usuarios del mismo conjunto de recursos cumplan funciones similares, especialmente si las funciones son muy demandadas y deben presupuestarse por separado.
 
-   Por ejemplo, puede tener recursos externos que funcionen como consultores y que de vez en cuando deban estar disponibles para un proyecto. Puede crear un grupo de recursos para consultores que puede adjuntar a sus proyectos, donde puede colocar tanto a usuarios que sean consultores internos como externos.
+  Por ejemplo, es posible que tenga recursos externos que funcionen como consultores y que desee tener disponibles para un proyecto periódicamente. Puede crear un Conjunto de recursos para consultores que puede adjuntar a sus proyectos, donde puede colocar tanto a los usuarios que son consultores internos como a los externos.
 
-* También puede crear Grupos de Recursos por departamento o centro de costes.
-* No se recomienda agregar todos los usuarios del sistema a un grupo de recursos si tiene un gran número de usuarios o si administra los recursos de un gran número de proyectos a la vez.
+* También puede crear conjuntos de recursos por departamento o centro de coste.
+* No se recomienda agregar todos los usuarios del sistema a un conjunto de recursos si tiene un gran número de usuarios o si administra los recursos de un gran número de proyectos a la vez.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

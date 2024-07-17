@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al [!UICONTROL Adobe Admin Console].
+>El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a [!UICONTROL Adobe Admin Console].
 >
->Si su organización se ha incorporado al [!UICONTROL Adobe Admin Console], consulte [Diferencias de administración basadas en la plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si su organización se ha incorporado a [!UICONTROL Adobe Admin Console], vea [Diferencias de administración basadas en la plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problema
 
@@ -47,14 +47,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe [!DNL Workfront]</td> 
    <td> 
    <p>Nuevo: estándar</p>
    <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser un [!DNL Workfront] administrador. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p>  </td> 
+   <td> <p>Debe ser administrador de [!DNL Workfront]. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,9 +65,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Solución
 
-1. En el servidor del administrador de ADFS, vaya a **[!UICONTROL Relaciones de confianza]** > **[!UICONTROL Confianza de usuario fiable]** > `<your party trust>` propiedades.
+1. En el servidor del administrador de ADFS, vaya a **[!UICONTROL Relaciones de confianza]** > **[!UICONTROL Confianzas de usuario de confianza]** > `<your party trust>` propiedades.
 
-1. En el **[!UICONTROL Extremos]** pestaña, haga clic en **[!UICONTROL Añadir]**.
+1. En la ficha **[!UICONTROL Puntos finales]**, haga clic en **[!UICONTROL Agregar]**.
 
 1. **[!UICONTROL Tipo de extremo]** = Cierre de sesión SAML, Enlace = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 

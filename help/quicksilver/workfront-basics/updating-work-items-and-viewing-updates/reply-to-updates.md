@@ -49,7 +49,7 @@ Cuando alguien responde a un comentario o a una actualización del sistema de un
 >
 >No es posible responder a las actualizaciones del sistema en la pestaña Actividad del sistema. Cualquier respuesta a las actualizaciones del sistema realizadas en la experiencia de comentarios heredada antes del 11 de abril de 2024 se muestra como de solo lectura .
 
-Este artículo describe cómo responder a los comentarios de la mayoría de los objetos de Workfront. Para ver las diferencias entre las secciones Actualizaciones de varios objetos, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Este artículo describe cómo responder a los comentarios de la mayoría de los objetos de Workfront. Para ver las diferencias entre las secciones Actualizaciones de varios objetos, consulte [Información general sobre la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Requisitos de acceso
 
@@ -83,35 +83,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Responder a una actualización o una respuesta en Workfront
 
-Puede responder a un comentario en el hilo de un objeto que pueda ver, o puede iniciar sesión como Workfront o administrador de grupo y responder a un comentario en nombre de otro usuario. Para obtener más información, consulte [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Puede responder a un comentario en el hilo de un objeto que pueda ver, o puede iniciar sesión como Workfront o administrador de grupo y responder a un comentario en nombre de otro usuario. Para obtener más información, vea [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 ### Responder a un comentario
 
 Responder a un comentario en la sección Actualizaciones de un objeto es similar para la mayoría de los objetos de Workfront.
 
 1. Vaya al objeto al que desea agregar una respuesta.
-1. Clic **Actualizaciones**, luego haga clic en **Comentarios** para el objeto y busque el comentario o la respuesta a los que desea responder
+1. Haga clic en **Actualizaciones** y, a continuación, haga clic en la ficha **Comentarios** del objeto y busque el comentario o la respuesta a los que desea responder
 
    O
 
-   Haga clic en **Todo** y haga clic en **Responder en comentarios** para abrir el comentario en la pestaña Comentarios y responder a él. No puede responder en la pestaña Todos.
+   Haga clic en la ficha **Todos** y, a continuación, haga clic en **Responder en comentarios** para abrir el comentario en la ficha Comentarios y responder a él. No puede responder en la pestaña Todos.
 
-1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en **Más** en la esquina superior derecha del comentario al que desea responder y, a continuación, haga clic en **Cita respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
-1. Clic **Responder**.
+1. (Opcional) Para incluir texto de una actualización anterior en su respuesta, haga clic en el menú **Más** en la esquina superior derecha del comentario al que desea responder y, a continuación, haga clic en **Citar respuesta**. El texto de la actualización anterior aparece en el área de entrada, marcado con una línea gris vertical.
+1. Haga clic en **Responder**.
 
    ![](assets/reply-to-update-empty-box.png)
 
-   Puede ver los usuarios que participan activamente en la conversación en la parte inferior de la **Añadir respuesta...** y puede agregar más, o eliminar los que ya no son relevantes. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o respuesta sobre el objeto. También puede etiquetar a más usuarios para incluirlos en la respuesta.  Para etiquetar a más usuarios, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Puede ver los usuarios que participan activamente en la conversación en la parte inferior del cuadro **Agregar respuesta...** y puede agregar más o eliminar los que ya no sean relevantes. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o respuesta sobre el objeto. También puede etiquetar a más usuarios para incluirlos en la respuesta.  Para etiquetar a más usuarios, consulta [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    >[!TIP]
    >
-   >   Para agregar respuestas adicionales a una respuesta existente, puede empezar a escribir en el **Añadir respuesta...** o haga clic en **Responder** sobre el comentario original. Su respuesta se añade al final del hilo.
+   >   Para agregar respuestas adicionales a una respuesta existente, puede empezar a escribir en el cuadro **Agregar respuesta ...** o hacer clic en **Responder** en el comentario original. Su respuesta se añade al final del hilo.
 
-1. Empiece a escribir la respuesta y utilice las opciones adicionales de la barra de herramientas Texto enriquecido. Para obtener información sobre el uso de texto enriquecido u otras funciones de actualización, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+1. Empiece a escribir la respuesta y utilice las opciones adicionales de la barra de herramientas Texto enriquecido. Para obtener información sobre cómo usar texto enriquecido u otras funciones de actualización, consulte [Actualizar el trabajo](../updating-work-items-and-viewing-updates/update-work.md).
 
-1. Clic **Enviar** para guardar la respuesta.
+1. Haga clic en **Enviar** para guardar la respuesta.
 
-1. (Opcional) Haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha del comentario al que desea responder para obtener más opciones y administrar la respuesta. Para obtener más información, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha del comentario al que desea responder para obtener más opciones y administrar la respuesta. Para obtener más información, consulte [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -147,9 +147,9 @@ Puede responder a una actualización desde una notificación por correo electró
 
 A continuación se muestra un ejemplo de una notificación por correo electrónico activada como resultado de una actualización realizada en la pestaña Actualizaciones de una tarea:
 
-![email.png](assets/email-350x202.png)
+![correo electrónico.png](assets/email-350x202.png)
 
-Para obtener más información, consulte [Responder a notificaciones por correo electrónico](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+Para obtener más información, consulte [Responder a las notificaciones por correo electrónico](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
 
 

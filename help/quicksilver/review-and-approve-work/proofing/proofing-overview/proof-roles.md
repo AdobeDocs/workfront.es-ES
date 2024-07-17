@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Resumen de funciones de prueba
 
-Las funciones de prueba permiten conceder permisos en pruebas individuales. Las funciones de prueba son diferentes de los perfiles de permiso de prueba. Para obtener más información sobre los perfiles de permisos de prueba, consulte [Resumen del perfil de permisos de revisión](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+Las funciones de prueba permiten conceder permisos en pruebas individuales. Las funciones de prueba son diferentes de los perfiles de permiso de prueba. Para obtener más información acerca de los perfiles de permisos de revisión, vea [Introducción al perfil de permisos de revisión](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 
 ## Funciones de prueba
 
@@ -28,7 +28,7 @@ Las funciones de prueba se otorgan a los usuarios para una prueba individual en 
 
 La función de prueba define qué acciones puede realizar un revisor en relación con esa prueba específica.
 
-**Ejemplo:** Si se le asigna la función Revisor, se le pedirá que revise la prueba añadiendo marcas y comentarios, pero no tendrá la opción de aprobarla o denegarla.
+**Ejemplo:** Si se le asigna la función Revisor, se le pedirá que revise la revisión agregando marcas y comentarios, pero no tendrá la opción de aprobar o denegar la revisión.
 
 Ciertas funciones de prueba otorgan a un revisor derechos de edición sobre la prueba (incluso si su perfil de cuenta no lo hace) y les permiten utilizar algunas funciones adicionales, como añadir acciones en comentarios, crear nuevas versiones y añadir más revisores a la prueba.
 
@@ -50,24 +50,24 @@ Ciertas funciones de prueba otorgan a un revisor derechos de edición sobre la p
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Visualización de una prueba</strong> </p> </th> 
+   <th> <p><strong>Ver una revisión</strong> </p> </th> 
    <th> <p><strong>Agregar marcas</strong> </p> </th> 
-   <th> <p><strong>Añadir comentarios</strong> </p> </th> 
+   <th> <p><strong>Agregar comentarios</strong> </p> </th> 
    <th> <p><strong>Editar sus propios comentarios si no hay respuestas</strong> </p> </th> 
    <th> <p><strong>Tomar una decisión</strong> </p> </th> 
-   <th> <p><strong>Eliminar los comentarios de otros usuarios</strong> </p> </th> 
+   <th> <p><strong>Eliminar comentarios de otros</strong> </p> </th> 
    <th>Resolver comentarios</th> 
    <th>Aplicar acciones a comentarios</th> 
    <th> <p><strong>Editar la revisión</strong> </p> </th> 
    <th>Compartir la prueba con otros usuarios</th> 
    <th>Crear nueva versión</th> 
-   <th> <p><strong>Ver solicitudes de aprobación en el área de Inicio</strong> </p> </th> 
+   <th> <p><strong>Ver solicitudes de aprobación en el área de inicio</strong> </p> </th> 
    <th>Añadir nuevos revisores</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Solo lectura</strong> </p> </td> 
+   <td> <p><strong>Sólo lectura</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -150,7 +150,7 @@ Ciertas funciones de prueba otorgan a un revisor derechos de edición sobre la p
    <td> <p><strong>Moderador</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓ <strong></strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p> </p> </td> 

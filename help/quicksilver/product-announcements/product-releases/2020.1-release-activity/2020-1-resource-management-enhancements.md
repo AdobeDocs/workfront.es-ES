@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en la funcionalidad de Administración de recursos con la versión 2020.1. Estas mejoras están disponibles actualmente en el entorno de vista previa y estarán disponibles en el entorno de producción a finales de marzo o principios de abril de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general de la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general sobre la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Mostrar horas planificadas a diario para proyectos, tareas y elementos inaccesibles en el área de Trabajo asignado del Distribuidor de cargas de trabajo
 
 Para ayudarle a comprender cómo los proyectos, las tareas o los elementos inaccesibles individuales contribuyen a la carga de trabajo de los usuarios y para poder tomar decisiones correctas de reasignación en el Distribuidor de cargas de trabajo, hemos introducido una configuración que le permite ver la distribución por hora de los proyectos, las tareas y los elementos inaccesibles individuales.
 
-Para obtener información sobre la administración de horas en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información sobre cómo administrar horas en el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Mostrar horas planificadas diarias para tareas y elementos inaccesibles en el área de Trabajo no asignado del Distribuidor de cargas de trabajo
 
@@ -32,13 +32,13 @@ Para ayudarle a comprender cómo los proyectos, las tareas o los elementos inacc
 
 Antes de este cambio, esta configuración solo actualizaba información en el área de Trabajo asignado del Distribuidor.
 
-Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Ajuste de la duración de la cronología en el Distribuidor de cargas de trabajo
 
 Ahora tiene la flexibilidad de seleccionar cuántas semanas se muestran en el Distribuidor de cargas de trabajo: puede seleccionar entre 2, 4 o 6 semanas. Anteriormente, el número de semanas se establecía en 4 de forma predeterminada.
 
-Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## La configuración Mostrar horas reales se ha eliminado del Planificador de recursos
 
@@ -52,4 +52,4 @@ Para obtener información sobre cómo navegar por el Planificador de recursos, c
 
 Ahora puede navegar hacia atrás y adelante en el Distribuidor de cargas de trabajo de un período de tiempo a la vez. Antes de esta mejora, al hacer clic en los iconos de atrás y adelante, el periodo de tiempo cambiaba de uno en cuatro.
 
-Para obtener información sobre el uso del Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información acerca del uso del Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).

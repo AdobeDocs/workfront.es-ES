@@ -37,28 +37,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr>
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td>
-   <td><p>Acceso de [!UICONTROL Edit] a documentos</p><p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p></td>
+   <td><p>Acceso de [!UICONTROL Edit] a documentos</p><p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Agregar un documento a una tarjeta
 
 {{step1-to-boards}}
 
 1. Abra la tarjeta conectada a la que desee agregar un documento.
-1. Arrastre y suelte el archivo en el [!UICONTROL Documentos] o haga clic en [!UICONTROL **Agregar documento**] para seleccionar un archivo.
+1. Arrastre y suelte el archivo en el área [!UICONTROL Documentos], o bien haga clic en [!UICONTROL **Agregar documento**] para seleccionar un archivo.
 
-   El archivo aparece en la [!UICONTROL Documentos] área.
+   El archivo aparece en el área [!UICONTROL Documentos].
 
    ![Documentos agregados a la tarjeta](assets/add-document-to-card.png)
 
 ## Ver un documento existente de la tarjeta
 
-1. En la tarjeta, busque [!UICONTROL Documentos] área. Clic ![Icono de lista](assets/docs-list-icon.png) para ver todos los documentos de una lista, o haga clic en ![Icono de Galería](assets/docs-gallery-icon.png) para ver los documentos en una galería.
-1. Pase el ratón sobre la miniatura del documento y haga clic en [!UICONTROL **Previsualizar**] para ver el archivo en el explorador o [!UICONTROL **Descargar**] para descargar el archivo en el equipo.
+1. En la tarjeta, busque el área [!UICONTROL Documentos]. Haga clic en ![Icono de lista](assets/docs-list-icon.png) para ver todos los documentos de una lista o haga clic en ![Icono de galería](assets/docs-gallery-icon.png) para ver los documentos de una galería.
+1. Pase el ratón sobre la miniatura del documento y haga clic en [!UICONTROL **Vista previa**] para ver el archivo en el explorador o en [!UICONTROL **Descargar**] para descargar el archivo en el equipo.
 
    >[!NOTE]
    >

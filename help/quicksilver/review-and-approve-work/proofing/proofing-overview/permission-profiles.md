@@ -58,7 +58,7 @@ La siguiente tabla muestra los permisos disponibles con cada perfil de permisos 
   <tr>
    <td>
    </td>
-   <td><strong>Añadir</strong>
+   <td><strong>Agregar</strong>
    </td>
    <td><strong>Vista</strong>
    </td>
@@ -139,7 +139,7 @@ La siguiente tabla muestra los permisos disponibles con cada perfil de permisos 
 
 ### Administrador
 
-Los administradores tienen acceso a [Configuración de cuenta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) y tienen los siguientes permisos:
+Los administradores tienen acceso a [Configuración de la cuenta](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) y tienen los permisos siguientes:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Los administradores tienen acceso a [Configuración de cuenta](https://support.w
  </tbody> 
 </table>
 
-&#42;Disponible solo en el producto independiente Workfront Proof.
+&#42;Disponible únicamente en el producto independiente de Workfront Proof.
 
 ### Supervisor
 

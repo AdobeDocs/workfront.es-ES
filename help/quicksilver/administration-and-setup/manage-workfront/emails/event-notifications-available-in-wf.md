@@ -23,8 +23,8 @@ Las notificaciones de eventos son correos electrónicos activados por varios tip
 
 Estas notificaciones se pueden configurar en los sistemas y grupos:
 
-* Para obtener información sobre la configuración de notificaciones de eventos en el sistema, consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Para obtener información sobre la configuración de notificaciones de eventos en el nivel de grupo, consulte [Visualización y configuración de notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* Para obtener información acerca de cómo configurar notificaciones de eventos en el sistema, consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* Para obtener información acerca de cómo configurar notificaciones de eventos en el nivel de grupo, vea [Ver y configurar notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 Los usuarios individuales también pueden activar y desactivar sus notificaciones de eventos individuales en su perfil individual. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -36,7 +36,7 @@ En las tablas siguientes se enumeran todas las notificaciones de eventos de Adob
 
 ## Se requiere una acción
 
-Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Ver también [Notificaciones: Acción necesaria](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
    <td> <p>Problema</p> </td> 
    <td> <p>Problema con aprobación pendiente</p> </td> 
    <td> <p>Aprobadores</p> </td> 
-   <td> <p>Necesito aprobar un problema.</p> <p>Los usuarios que reciben una notificación por correo electrónico para este evento dependen de si la opción "Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen una función)" está habilitada (como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>). </p> <p>Si esta opción está habilitada</strong>, se envía una notificación por correo electrónico a todos los usuarios del sistema con la función de trabajo de "Aprobador".</p> <p>Si esta opción está desactivada</strong>, solo los miembros del equipo del proyecto con la función de trabajo de "Aprobador" reciben una notificación por correo electrónico.</p> <p>Se envía una notificación si el proyecto se encuentra en estado Planificación o Actual. </p> </td> 
+   <td> <p>Necesito aprobar un problema.</p> <p>Los usuarios que recibirán una notificación por correo electrónico para este evento dependen de si la opción "Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen un rol)" está habilitada (tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurar la aprobación global</a>). </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con la función de trabajo de "aprobador".</p> <p>Si esta opción está deshabilitada</strong>, solamente los miembros del equipo del proyecto con el rol de trabajo de "Aprobador" recibirán una notificación por correo electrónico.</p> <p>Se envía una notificación si el proyecto se encuentra en estado Planificación o Actual. </p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
    <td> <p>Proyecto</p> </td> 
    <td> <p>Proyecto con aprobación pendiente</p> </td> 
    <td> <p>Aprobadores</p> </td> 
-   <td> <p>Necesito aprobar un proyecto.</p> <p>Los usuarios que reciben una notificación por correo electrónico para este evento dependen de si la opción "Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen un rol)" está habilitada (como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>).</p> <p>Si esta opción está habilitada</strong>, se envía una notificación por correo electrónico a todos los usuarios del sistema con la función de trabajo de "Aprobador".</p> <p>Si esta opción está desactivada</strong>, solo los miembros del equipo del proyecto con la función de trabajo de "Aprobador" reciben una notificación por correo electrónico.</p> </td> 
+   <td> <p>Necesito aprobar un proyecto.</p> <p>Los usuarios que recibirán una notificación por correo electrónico para este evento dependen de si la opción "Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen un rol)" está habilitada (tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurar la aprobación global</a>).</p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con la función de trabajo de "aprobador".</p> <p>Si esta opción está deshabilitada</strong>, solamente los miembros del equipo del proyecto con el rol de trabajo de "Aprobador" recibirán una notificación por correo electrónico.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
    <td> <p>Tarea</p> </td> 
    <td> <p>Tarea con aprobación pendiente</p> </td> 
    <td> <p>Aprobadores</p> </td> 
-   <td> <p>Necesito aprobar una tarea.</p> <p>Los usuarios que reciben una notificación por correo electrónico para este evento dependen de si la opción "Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen una función)" está habilitada (como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuración de la aprobación global</a>). </p> <p>Si esta opción está habilitada</strong>, se envía una notificación por correo electrónico a todos los usuarios del sistema con la función de trabajo de "Aprobador".</p> <p>Si esta opción está desactivada</strong>, solo los miembros del equipo del proyecto con la función de trabajo de "Aprobador" reciben una notificación por correo electrónico.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual en el momento de la solicitud.</p> </td> 
+   <td> <p>Necesito aprobar una tarea.</p> <p>Los usuarios que recibirán una notificación por correo electrónico para este evento dependen de si la opción "Aprobador no debe estar en el equipo del proyecto (para procesos de aprobación que incluyen un rol)" está habilitada (tal como se describe en <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurar la aprobación global</a>). </p> <p>Si esta opción está habilitada</strong>, se enviará una notificación por correo electrónico a todos los usuarios del sistema con la función de trabajo de "aprobador".</p> <p>Si esta opción está deshabilitada</strong>, solamente los miembros del equipo del proyecto con el rol de trabajo de "Aprobador" recibirán una notificación por correo electrónico.</p> <p>Solo se envía una notificación si el estado del proyecto es Actual en el momento de la solicitud.</p> </td> 
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Consulte también [Notificaciones: acción necesaria](../../../workfront-basics/
 
 ## Solicitudes que he realizado
 
-Consulte también [Notificaciones: Solicitudes que he realizado](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Ver también [Notificaciones: solicitudes que he hecho](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Consulte también [Notificaciones: Solicitudes que he realizado](../../../workfr
    <td> <p>Documento</p> </td> 
    <td> <p>Solicitar documento agregado</p> </td> 
    <td> <p>Contacto principal del problema</p> </td> 
-   <td> <p>Se ha cambiado o subido un documento en un problema en el cual soy el autor.</p> <p>El contacto principal del problema recibe una notificación por correo electrónico cuando se carga o cambia un documento en el problema, a menos que el usuario que cargó o cambió el documento también sea el contacto principal.</p> <p>Se envía una notificación únicamente si el estado del proyecto es Actual y si el proyecto tiene habilitada la opción "Publicar como cola de solicitud de ayuda" en la ficha Configurar cola.</p> </td> 
+   <td> <p>Se ha cambiado o subido un documento en un problema en el cual soy el autor.</p> <p>El contacto principal del problema recibe una notificación por correo electrónico cuando se carga o cambia un documento en el problema, a menos que el usuario que cargó o cambió el documento también sea el contacto principal.</p> <p>Se envía una notificación únicamente si el estado del proyecto es Actual y si el proyecto tiene la "Publish como Cola de solicitudes de ayuda" habilitada en la ficha Configuración de cola.</p> </td> 
    <td> <p>Activo (solo diario)</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Consulte también [Notificaciones: Solicitudes que he realizado](../../../workfr
 
 ## Comunicación
 
-Consulte también [Notificaciones: Comunicación](../../../workfront-basics/using-notifications/notifications-communication.md).
+Vea también [Notificaciones: Comunicación](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,7 +297,7 @@ Consulte también [Notificaciones: Comunicación](../../../workfront-basics/usin
    <td> <p>Documento</p> </td> 
    <td> <p>Comentario sobre el documento</p> </td> 
    <td> <p>Propietario de documento</p> </td> 
-   <td> <p>Se agrega un comentario en mi documento.</p> <p>El propietario de un documento en Workfront recibe una notificación por correo electrónico cuando se publica un comentario en el documento, a menos que el usuario que publicó el comentario también sea el propietario del documento.</p> <p>Los usuarios que estén directamente incluidos en el comentario también recibirán una notificación por correo electrónico.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>Comentario sobre &lt;request name=""&gt; el &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> El asunto de la notificación de resumen diario es:<em> Resumen de comunicación &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>Se agrega un comentario en mi documento.</p> <p>El propietario de un documento en Workfront recibe una notificación por correo electrónico cuando se publica un comentario en el documento, a menos que el usuario que publicó el comentario también sea el propietario del documento.</p> <p>Los usuarios que estén directamente incluidos en el comentario también recibirán una notificación por correo electrónico.</p> <p>Se envía una notificación solo si el estado del proyecto es Actual. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>Comentario sobre &lt;Nombre de solicitud&gt; en &lt;Nombre de proyecto&gt; (ref# &lt;Número de referencia de solicitud&gt;)</em></p> <p> El asunto de la notificación de resumen diario es:<em> Resumen de la comunicación &lt;Fecha del resumen diario&gt;</em></p> </td> 
    <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
@@ -311,14 +311,14 @@ Consulte también [Notificaciones: Comunicación](../../../workfront-basics/usin
    <td> <p>Usuario</p> </td> 
    <td>Actualización dirigida</td> 
    <td>Usuario</td> 
-   <td> <p>Alguien me incluye en una actualización dirigida.</p> <p>Una actualización dirigida se produce cuando un usuario incluye específicamente a otro usuario en una actualización, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar a otros en las actualizaciones</a>.</p> <p>En este caso, el usuario que se incluye en la actualización dirigida recibe una notificación por correo electrónico sobre la actualización.</p> <p>La notificación por correo electrónico se envía únicamente si el usuario tiene derechos de acceso al objeto y si lo mantiene activado en su perfil.  </p> <p>Esta notificación de eventos está activada de forma predeterminada y no se puede desactivar.</p> </td> 
+   <td> <p>Alguien me incluye en una actualización dirigida.</p> <p>Una actualización dirigida es cuando un usuario incluye específicamente a otro usuario en una actualización, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar a otros en las actualizaciones</a>.</p> <p>En este caso, el usuario que se incluye en la actualización dirigida recibe una notificación por correo electrónico sobre la actualización.</p> <p>La notificación por correo electrónico se envía únicamente si el usuario tiene derechos de acceso al objeto y si lo mantiene activado en su perfil.  </p> <p>Esta notificación de eventos está activada de forma predeterminada y no se puede desactivar.</p> </td> 
    <td> <p>Activo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Equipo</p> </td> 
    <td> <p>Actualización dirigida</p> </td> 
    <td> <p>Integrantes del equipo</p> </td> 
-   <td> <p>Alguien incluye a mi equipo en una actualización dirigida.</p> <p>Una actualización dirigida se produce cuando un usuario incluye específicamente a otro usuario en una actualización, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar a otros en las actualizaciones</a>.</p> <p>En este caso, cualquier miembro del equipo que se incluya en la actualización dirigida recibe una notificación por correo electrónico sobre la actualización.</p> <p>La notificación por correo electrónico se envía únicamente a los usuarios que tienen derechos de acceso al objeto de la actualización.</p> <p>Si el usuario que envía la actualización dirigida es miembro del equipo que se incluye, el usuario que envía la actualización no recibe una notificación por correo electrónico.</p> </td> 
+   <td> <p>Alguien incluye a mi equipo en una actualización dirigida.</p> <p>Una actualización dirigida es cuando un usuario incluye específicamente a otro usuario en una actualización, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar a otros en las actualizaciones</a>.</p> <p>En este caso, cualquier miembro del equipo que se incluya en la actualización dirigida recibe una notificación por correo electrónico sobre la actualización.</p> <p>La notificación por correo electrónico se envía únicamente a los usuarios que tienen derechos de acceso al objeto de la actualización.</p> <p>Si el usuario que envía la actualización dirigida es miembro del equipo que se incluye, el usuario que envía la actualización no recibe una notificación por correo electrónico.</p> </td> 
    <td> <p>Activo (solo diario)</p> </td> 
   </tr> 
   <tr> 
@@ -360,7 +360,7 @@ Consulte también [Notificaciones: Comunicación](../../../workfront-basics/usin
 
 ## Información de aprobación
 
-Consulte también [Notificaciones: Información de aprobación](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+Ver también [Notificaciones: Información de aprobación](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -424,7 +424,7 @@ Consulte también [Notificaciones: Información de aprobación](../../../workfro
 
 ## Información sobre el trabajo asignado a mí
 
-Consulte también [Notificaciones: Información sobre el trabajo asignado a mí](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Ver también [Notificaciones: información sobre el trabajo asignado a mí](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -494,7 +494,7 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
    <td> <p>Documento</p> </td> 
    <td> <p>Solicitar documento agregado</p> </td> 
    <td> <p>Usuario al que se ha asignado el problema</p> </td> 
-   <td> <p>Los documentos se cargan o se cambian en las solicitudes a las que estoy asignado.</p> <p>El usuario asignado del problema recibe una notificación por correo electrónico cuando se cargan o modifican documentos sobre un problema que ha añadido.</p> <p>No se envía una notificación por correo electrónico si el usuario que ha introducido el problema es el usuario asignado del problema.</p> <p>Se envía una notificación únicamente si el estado del proyecto es Actual y si el proyecto tiene habilitada la opción "Publicar como cola de solicitud de ayuda" en la ficha Configurar cola.</p> </td> 
+   <td> <p>Los documentos se cargan o se cambian en las solicitudes a las que estoy asignado.</p> <p>El usuario asignado del problema recibe una notificación por correo electrónico cuando se cargan o modifican documentos sobre un problema que ha añadido.</p> <p>No se envía una notificación por correo electrónico si el usuario que ha introducido el problema es el usuario asignado del problema.</p> <p>Se envía una notificación únicamente si el estado del proyecto es Actual y si el proyecto tiene la "Publish como Cola de solicitudes de ayuda" habilitada en la ficha Configuración de cola.</p> </td> 
    <td> <p>Activo (solo diario)</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ Consulte también [Notificaciones: Información sobre el trabajo asignado a mí]
 
 ## Información sobre proyectos en los que participo
 
-Consulte también [Notificaciones: Información sobre proyectos en los que participo](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Ver también [Notificaciones: información sobre proyectos en los que estoy](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -627,7 +627,7 @@ Consulte también [Notificaciones: Información sobre proyectos en los que parti
 
 ## Información sobre proyectos de mi propiedad
 
-Consulte también [Notificaciones: Información sobre proyectos de mi propiedad](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+Ver también [Notificaciones: información sobre proyectos de mi propiedad](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -726,7 +726,7 @@ Consulte también [Notificaciones: Información sobre proyectos de mi propiedad]
 
 ## Información sobre proyectos que patrocino
 
-Consulte también [Notificaciones: Información sobre proyectos que patrocino](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+Ver también [Notificaciones: información sobre proyectos que patrocino](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -811,7 +811,7 @@ Consulte también [Notificaciones: Información sobre proyectos que patrocino](.
 
 ## Información variada
 
-Consulte también [Notificaciones: Información variada](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Ver también [Notificaciones: información diversa](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -861,7 +861,7 @@ Consulte también [Notificaciones: Información variada](../../../workfront-basi
    <td> <p>Usuario</p> </td> 
    <td> <p>Nuevo usuario</p> </td> 
    <td> <p>Usuario</p> </td> 
-   <td> <p>Cuando se crea un nuevo usuario en Workfront, enviar un correo electrónico al usuario.</p> <p>Una vez creado el nuevo usuario, este recibe una invitación por correo electrónico en la que se le notifica que se ha creado una cuenta de Workfront y se le solicita que defina su contraseña.</p> <p>Al crear un nuevo usuario, los usuarios pueden seleccionar la opción "Enviar un correo electrónico de invitación a esta persona" (como se describe en <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Adición de usuarios</a><span style="font-weight: 400;">). Sin embargo, cuando la opción "Nuevo usuario a usuario" está habilitada globalmente, todos los usuarios nuevos reciben la invitación por correo electrónico, independientemente de si la opción "Enviar un correo electrónico de invitación a esta persona" está seleccionada.</span></p> </td> 
+   <td> <p>Cuando se crea un nuevo usuario en Workfront, enviar un correo electrónico al usuario.</p> <p>Una vez creado el nuevo usuario, este recibe una invitación por correo electrónico en la que se le notifica que se ha creado una cuenta de Workfront y se le solicita que defina su contraseña.</p> <p>Al crear un usuario nuevo, los usuarios pueden seleccionar la opción "Enviar un correo electrónico de invitación a esta persona" (como se describe en <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Agregar usuarios</a><span style="font-weight: 400;">). Sin embargo, cuando la opción "Nuevo usuario a usuario" está habilitada globalmente, todos los usuarios nuevos reciben la invitación por correo electrónico independientemente de si la opción "Enviar un correo electrónico de invitación a esta persona" está seleccionada.</span></p> </td> 
    <td> Inactivo </td> 
   </tr> 
   <tr> 
@@ -900,10 +900,10 @@ Consulte también [Notificaciones: Información variada](../../../workfront-basi
    <td> <p>Inactivo</p> </td> 
   </tr> 
   <tr> 
-   <td> Proyecto <br>Tarea <br>Problema</td> 
+   <td> Problema <br>de tarea <br> del proyecto</td> 
    <td>Nueva actualización</td> 
    <td>Suscriptor </td> 
-   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Se envía un correo electrónico cuando se realiza una actualización de una tarea, un problema o un proyecto al que estoy suscrito.</span> </p> </td> 
+   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Se envía un mensaje de correo electrónico cuando se actualiza una tarea, un problema o un proyecto al que estoy suscrito.</span> </p> </td> 
    <td>Activo (solo instantáneo)</td> 
   </tr> 
  </tbody> 
@@ -919,7 +919,7 @@ Consulte también [Notificaciones: Información variada](../../../workfront-basi
 
 ## Delegación
 
-Consulte también [Notificaciones: Delegación](../../../workfront-basics/using-notifications/notifications-delegation.md).
+Vea también [Notificaciones: Delegación](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
 | Tipo de objeto | Evento | Destinatario | Descripción | Estado predeterminado |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 La visualización Evolución muestra la evolución de un proyecto específico a lo largo del tiempo y le ayuda a comprender la relación entre las condiciones del proyecto, la velocidad y las horas o días restantes.
 
-![Ejemplo de evolución de análisis mejorada](assets/burndown120623.png)
+![Ejemplo de evolución de análisis mejorado](assets/burndown120623.png)
 
 ## Requisitos de acceso
 
@@ -60,7 +60,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprender la visualización Evolución
 
@@ -74,15 +74,15 @@ La línea real muestra el número de horas o días empleados en el proyecto a lo
 
   ![En el destino](assets/burndown-green.png)
 
-* **Naranja**: el proyecto está en riesgo.
+* **Naranja**: El proyecto está en riesgo.
 
   ![En riesgo](assets/burndown-orange.png)
 
-* **Rojo**: el proyecto está en problemas.
+* **Rojo**: El proyecto está en problemas.
 
-  ![En problemas](assets/burndown-red.png)
+  ![Con problemas](assets/burndown-red.png)
 
-Para obtener más información sobre estas condiciones de proyecto, consulte [Descripción general de la condición y el tipo de condición del proyecto](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Para obtener más información sobre estas condiciones de proyecto, vea [Información general sobre la condición del proyecto y el tipo de condición](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 Cuando la línea real se mueve verticalmente, se ha añadido trabajo al proyecto. Cuando la línea se desplaza verticalmente, se ha eliminado o completado el trabajo del proyecto.
 
@@ -94,7 +94,7 @@ Ver toda esta información en la visualización de evolución le ayuda a determi
 * Impacto en el trabajo planificado de los problemas que se presentaban (o del trabajo no planificado)
 * Qué eventos extendieron el proyecto más allá de la fecha de finalización original
 
-Para obtener los mejores datos para esta visualización, consulte [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obtener los mejores datos para esta visualización, consulte [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Ver la visualización de evolución
 
@@ -104,11 +104,11 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    ![Seleccionar fechas](assets/filters-select-date-range-350x344.png)
 
-   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Si necesita limitar el conjunto de datos del proyecto, seleccione y aplique los filtros que desee utilizar.
 
-   Para obtener más información sobre la adición de filtros en el análisis mejorado, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre cómo agregar filtros en el análisis mejorado, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Después de agregar filtros, se muestran datos de hasta 50 proyectos y los filtros permanecen activos incluso después de abandonar la página o cerrar la sesión de Workfront.
 
@@ -126,9 +126,9 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
    >
    >Para obtener más información sobre estas otras visualizaciones, consulte:
    >
-   >   * [Visualización del plan de vuelo en el análisis mejorado](../enhanced-analytics/flight-plan-overview.md)
-   >   * [Vea la visualización del diagrama de proyecto en el análisis mejorado](../enhanced-analytics/project-treemap-overview.md)
-   >   * [Visualización de las tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md)
+   >   * [Ver la visualización del plan de vuelo en el análisis mejorado](../enhanced-analytics/flight-plan-overview.md)
+   >   * [Ver la visualización del diagrama de proyecto en el análisis mejorado](../enhanced-analytics/project-treemap-overview.md)
+   >   * [Ver la visualización Tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md)
    >
 
 1. (Opcional) Cambie la vista de horas planificadas a **duration**.
@@ -137,9 +137,9 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    >[!NOTE]
    >
-   >Seleccionar **duration** cambia toda la información de horas a días.\
+   >Si se selecciona **duration**, toda la información de horas se cambia a días.\
    >![Evolución de duración](assets/duration-burndown-350x112.png)\
-   >Para obtener más información sobre la duración en el área de Análisis mejorado, consulte la sección &quot;Vista de duración&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
+   >Para obtener más información acerca de la duración en el área de Análisis mejorados, consulte la sección &quot;Vista de duración&quot; en [Información general de Análisis mejorados](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. Haga clic en cualquier punto del gráfico de líneas.
 
@@ -152,9 +152,9 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
    >Si la velocidad real es una línea plana que se ejecuta a lo largo del eje x (en línea con 0 horas o 0 días) de la visualización, significa que no se añadieron horas planificadas (o días) al proyecto.\
    >Si la velocidad real es una línea plana por encima del eje x (en línea con un número de horas o de días) que nunca desciende, significa que no se completó ninguna tarea dentro del período de tiempo filtrado.
 
-1. (Opcional) Para exportar los datos de visualización, haga clic en **Exportar** icono ![Icono Exportar](assets/export.png) en la esquina superior derecha de la visualización y seleccione el formato de exportación:
+1. (Opcional) Para exportar los datos de visualización, haga clic en el icono **Exportar** ![Icono de exportación](assets/export.png) en la esquina superior derecha de la visualización y seleccione el formato de exportación:
 
    * Gráfico (PNG)
    * Tabla de datos (XSLX)
 
-1. (Opcional) Para ver detalles sobre el progreso de las tareas en el proyecto seleccionado, observe la visualización Tareas en vuelo que aparece debajo de la Visualización de evolución. Para obtener más información, consulte [Visualización de las tareas en vuelo en Análisis mejorado](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
+1. (Opcional) Para ver detalles sobre el progreso de las tareas en el proyecto seleccionado, observe la visualización Tareas en vuelo que aparece debajo de la Visualización de evolución. Para obtener más información, consulte [Ver la visualización de las tareas en vuelo en el análisis mejorado](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).

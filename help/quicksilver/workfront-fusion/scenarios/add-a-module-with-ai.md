@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -51,14 +52,14 @@ Fusion AI puede generar actualmente módulos que se conectan a las siguientes ap
 
 ## Generar un módulo
 
-1. Añada un módulo y seleccione **Generar con IA** de la lista de aplicaciones.
+1. Agregue un módulo y seleccione **Generar con IA** de la lista de aplicaciones.
 
    O
 
-   Haga clic con el botón derecho en un área en blanco del editor de escenarios y seleccione **Generar con IA**.
+   Haga clic con el botón derecho en un área en blanco del editor de escenarios y luego seleccione **Generar con IA**.
 1. Escriba un mensaje de texto en el cuadro.
 
-   Para obtener sugerencias sobre los mensajes, consulte [Sugerencias para crear mensajes de texto](#tips-for-creating-text-prompts) en este artículo.
+   Para obtener sugerencias sobre las solicitudes, consulte [Sugerencias para crear solicitudes de texto](#tips-for-creating-text-prompts) en este artículo.
 1. Añada el token de API para la aplicación en el módulo.
 1. Compruebe el módulo para asegurarse de que parece estar configurado para la aplicación y la acción adecuadas.
 1. (Condicional) Si el módulo no está adjunto a su escenario, arrástrelo a su lugar.
@@ -89,6 +90,3 @@ Tenga en cuenta lo siguiente al crear mensajes de texto:
 * Dado que cada módulo Fusion realiza una única acción, el mensaje de texto debe describir una acción específica.
 * Utilice un lenguaje directo y sencillo.
 * Compruebe y pruebe su módulo. Si no funciona como se espera, perfeccione el mensaje e inténtelo de nuevo.
-
-
-

@@ -10,7 +10,7 @@ exl-id: fa37920a-c08b-4af3-9896-7e4044834860
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ El punto final de tiempo de los usuarios disponibles recupera los datos en el ti
 
 * **userIDs**: matriz de cadenas. Requerido. Ejemplo: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
-* **fromDate**: datetime. cadena. Requerido. Ejemplo:  `"2022-07-10T00:00:00"`.
+* **fromDate**: datetime. cadena. Requerido. Ejemplo: `"2022-07-10T00:00:00"`.
 
 * **toDate**: datetime. cadena. Requerido. Ejemplo `"2022-07-20T23:59:59"`.
 
@@ -75,5 +75,5 @@ El punto final de tiempo de los usuarios disponibles recupera los datos en el ti
 
 ## Parámetros de respuesta
 
-* **AVL**: Horas disponibles reales. Matriz de números.
+* AVL ****: horas disponibles reales. Matriz de números.
 * **PAVL**: Horas puramente disponibles para la programación que no incluyen días no laborables o días libres del usuario. Cadena.

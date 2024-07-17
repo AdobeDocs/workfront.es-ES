@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Se requieren los siguientes requisitos previos para ejecutar las pruebas:
 
 Estas pruebas también suponen que la instancia de Document Webhook está registrada. (Puede registrar la instancia en Workfront en Configuración > Documentos > Integraciones personalizadas).
 
-**Prueba 1: Aprovisionar el servicio de webhook de documentos para un usuario**
+**Prueba 1: aprovisionar el servicio de webhook de documentos para un usuario**
 
 Prueba la URL de autenticación y la URL de extremo de token para proveedores de webhook basados en OAuth.
 
@@ -41,7 +41,7 @@ Prueba la URL de autenticación y la URL de extremo de token para proveedores de
 1. (Solo servicios de OAuth) Después de completar el paso anterior, verá cómo se carga la página de autenticación OAuth2 del servicio en una ventana emergente. (Nota: es posible que se le pida que inicie sesión en el servicio primero.) En la página de autenticación, conceda acceso a Workfront a la cuenta del usuario haciendo clic en el botón Confiar o Permitir.
 1. Compruebe que el servicio se haya agregado a la lista desplegable Agregar documentos. Si no lo ve al principio, intente actualizar el explorador.
 
-**Prueba 2: Vincular un documento a Workfront Prueba los siguientes extremos: /files, /metadata**
+**Prueba 2: vincular un documento a Workfront Prueba los siguientes extremos: /files, /metadata**
 
 1. En Workfront, vaya a la página principal de Documentos haciendo clic en el vínculo Documentos en la barra de navegación superior.
 1. Seleccione el servicio webhook de documentos en Agregar documentos.
@@ -49,7 +49,7 @@ Prueba la URL de autenticación y la URL de extremo de token para proveedores de
 1. Compruebe que puede desplazarse por la estructura de carpetas.
 1. Seleccionar y vincular un documento a Workfront
 
-**Prueba 3: Navegar a un documento en el sistema de administración de contenido**
+**Prueba 3: desplácese a un documento en el sistema de administración de contenido**
 
 Prueba los siguientes extremos: /metadata (específicamente viewLink)
 
@@ -57,7 +57,7 @@ Prueba los siguientes extremos: /metadata (específicamente viewLink)
 1. Seleccione el documento y haga clic en el vínculo Open.
 1. Compruebe que el documento se abre en una nueva ficha.
 
-**Prueba 4: Navegar a un documento en el sistema de administración de contenido (con inicio de sesión)**
+**Prueba 4: Vaya a un documento en el sistema de administración de contenido (con inicio de sesión)**
 
 Prueba los siguientes extremos: /metadata (específicamente viewLink)
 
@@ -75,7 +75,7 @@ Prueba los siguientes extremos (específicamente el vínculo de descarga): /meta
 1. Seleccione el documento y haga clic en el vínculo Descargar.
 1. Compruebe que comienza la descarga.
 
-**Prueba 6: Buscar contenido**
+**Prueba 6: buscar contenido**
 
 Prueba los siguientes extremos: /search
 
@@ -84,7 +84,7 @@ Prueba los siguientes extremos: /search
 1. En el modal, realice una búsqueda.
 1. Compruebe que los resultados de la búsqueda son correctos.
 
-**Prueba 7: Enviar documento de Workfront al sistema de administración de contenido**
+**Prueba 7: enviar documento de Workfront al sistema de administración de contenido**
 
 Prueba los siguientes extremos: /files, /uploadInit, /upload
 
@@ -112,7 +112,7 @@ Prueba los siguientes extremos: /download
 1. Envíe el documento a Workfront seleccionando Acciones de documento > Enviar a... > Workfront. Se creará una nueva versión del documento en Workfront.
 1. Descargue el documento desde Workfront haciendo clic en el vínculo Descargar.
 
-**Prueba 10: Actualizar el token de acceso (solo proveedores de webhook de OAuth2)**
+**Prueba 10: Actualizar token de acceso (solo proveedores de webhook de OAuth2)**
 
 Prueba los siguientes extremos: URL de extremo de token
 

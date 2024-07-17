@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de tableros realizadas con la versión del cuarto trimestre de 2023 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.10 de.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Resumen de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Información general de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones para tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones en los tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Subtareas ahora disponibles en los tableros de Adobe Workfront
 
@@ -28,9 +28,9 @@ El uso de subtareas en tarjetas permite crear una jerarquía de trabajo.
 
 En este momento, las subtareas no están visibles en el tablero como tarjetas independientes y las subtareas no están disponibles para solucionar problemas.
 
-Para obtener más información, consulte [Administración de subtareas en tableros](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
+Para obtener más información, consulte [Administrar subtareas en tableros](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Agregar documentos en tarjetas conectadas
 
@@ -40,7 +40,7 @@ En este momento, no puede eliminar documentos de la tarjeta, pero puede eliminar
 
 Para obtener más información, consulte [Agregar documentos en tarjetas](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Mejoras en las asignaciones de usuarios a tableros y tarjetas
 
@@ -50,9 +50,9 @@ Las siguientes mejoras ya están disponibles cuando se añaden usuarios a tabler
 * Al agregar un usuario como usuario asignado a una tarjeta, ya no se agrega automáticamente ese usuario como miembro del tablero.
 * Al eliminar un usuario de un tablero, ya no se eliminará ese usuario de todas las asignaciones de tarjetas del tablero.
 
-Para obtener más información, consulte [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Para obtener más información, vea [Agregar o quitar miembros de un tablero](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documentos disponibles en tarjetas conectadas como de solo lectura
 
@@ -70,4 +70,4 @@ Ahora puede acceder a la vista del tablero de una lista de problemas del proyect
 >
 >La vista de tablero solo existe en un único proyecto porque es una vista alternativa del proyecto y no se puede acceder a ella desde otras áreas de Workfront, como el tablero de tableros.
 
-Para obtener más información, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obtener más información, vea [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

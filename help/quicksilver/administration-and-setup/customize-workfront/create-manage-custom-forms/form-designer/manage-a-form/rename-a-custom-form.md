@@ -51,15 +51,15 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizado** en el panel izquierdo.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
 
    En la vista que aparece, puede revisar todos los formularios personalizados que se han creado para su organización. También puede ver quién creó cada formulario, con qué tipo de objeto funciona y si está activo.
 
-1. Seleccione el formulario personalizado cuyo nombre desea cambiar y haga clic en ![Icono Editar](assets/edit-icon2.png).
+1. Seleccione el formulario personalizado al que desee cambiar el nombre y haga clic en ![Editar icono](assets/edit-icon2.png).
 1. Para cambiar el título, haga clic en el nombre del formulario.
 1. Para cambiar la descripción, haga clic en el cuadro de texto de la descripción.
 
-1. Clic **Guardar y cerrar**.
+1. Haga clic en **Guardar y cerrar**.
 
    >[!TIP]
    >

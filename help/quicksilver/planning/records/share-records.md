@@ -27,7 +27,7 @@ Puede compartir un registro de Adobe Workfront Planning de las siguientes manera
 
 * Copie un vínculo a la página del registro cuando vea registros en la vista de tabla del tipo de registro.
 
-* Puede compartir todos los registros de un área de trabajo con otros usuarios compartiendo el área de trabajo. Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+* Puede compartir todos los registros de un área de trabajo con otros usuarios compartiendo el área de trabajo. Para obtener más información, vea [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
 
 En este artículo se describe cómo copiar un vínculo a la página de un registro desde la vista de tabla de un tipo de registro.
 
@@ -80,7 +80,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -111,14 +111,14 @@ Se abre el espacio de trabajo al que accedió por última vez.
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
-1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior derecha de la tabla, seleccione una vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+1. (Condicional) En el menú desplegable **Ver** de la esquina superior derecha de la tabla, seleccione una vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
 1. Hacer clic con el botón derecho en una fila de registro
 
    O
 
-   Pase el ratón sobre el nombre de un registro y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Copiar vínculo**.
+   Pase el ratón sobre el nombre de un registro, haga clic en el menú **Más** ![](assets/more-menu.png) y luego haga clic en **Copiar vínculo**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
@@ -139,4 +139,4 @@ Puede compartir todos los registros de un área de trabajo cuando comparta el á
 
 Solo los usuarios con permisos de Administración de un espacio de trabajo pueden compartirlo con otros.
 
-Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+Para obtener más información, vea [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).

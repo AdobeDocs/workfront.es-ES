@@ -20,7 +20,7 @@ Estos seminarios web se centraron en la funcionalidad incluida en la versión R1
 
 La versión de R1 está disponible actualmente para probarse en la versión de vista previa; versiones de R1 en el entorno de producción el 26 de abril de 2017.
 
-Para obtener información más detallada sobre las funciones incluidas en los seminarios web, consulte la [Resumen de actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) página.
+Para ver información más detallada acerca de la funcionalidad cubierta en los seminarios web, consulte la página [Resumen de la actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 Las siguientes grabaciones de seminarios web están disponibles:
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todos los cambios y las mejoras realizadas en la página de inicio con la versión 2019.3. Se publicó en el entorno de producción la semana del 19 de agosto de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.3, consulte [información general sobre la actividad de la versión 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.3, consulte [Resumen de la actividad de la versión 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Actualizaciones en la apariencia en Inicio
 

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 En esta página se describen actualizaciones menores del aspecto y la presentación de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión 23.2. Estas mejoras estarán disponibles en el entorno de producción al menos 2 semanas después del lanzamiento a Vista previa.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.2, consulte [Información general de la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 23.2, consulte [Información general sobre la versión 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Actualizaciones del aspecto de la lista Borradores en el área Solicitudes
 
@@ -53,7 +53,7 @@ La información adicional del usuario ahora se muestra al agregar usuarios en la
 
 Ahora, cuando agregue un usuario a las áreas enumeradas anteriormente, además del nombre y el avatar del usuario, también se mostrarán su función principal y su correo electrónico. Esto ayuda a distinguir entre varios usuarios con nombres similares o idénticos.
 
-Para obtener más información y ver un vídeo de demostración de una función similar, consulte &quot;Selección inteligente de usuarios para funciones de proyecto en las áreas de Edición y Detalles&quot; en [22.4 Mejoras del proyecto](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Para obtener más información y ver una demostración en vídeo de una característica similar, vea &quot;Selección inteligente de usuarios para las funciones de proyecto en las áreas Editar y Detalles&quot; en [Mejoras de proyecto de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Icono de versión de documento actualizado en Detalles del documento
 

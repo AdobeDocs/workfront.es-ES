@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
-title: Tasas de cambio
+title: Tipos de cambio
 description: Como administrador de Workfront, puede configurar tipos de cambio de divisa en Workfront.
 feature: System Setup and Administration
 role: Admin
@@ -16,7 +16,7 @@ ht-degree: 29%
 
 ---
 
-# Tasas de cambio
+# Tipos de cambio
 
 Esta sección contiene los siguientes artículos:
 

@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos sobre cómo puede conceder y solicitar permisos a objetos:
 
-* [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+* [Información general sobre permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 * [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-* [Conceder acceso a los objetos del área de Inicio](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
-* [Solicitud de acceso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
+* [Conceder acceso a objetos del área de inicio](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
+* [Solicitar acceso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
-* [Eliminación de permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Uso compartido de un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+* [Compartir un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [Compartir una tarea](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [Compartir un problema](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
@@ -35,14 +35,14 @@ Esta sección contiene los siguientes artículos sobre cómo puede conceder y so
 * [Compartir un programa](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
 * [Compartir un documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
-* [Uso compartido de informes, tableros y calendarios](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
-* [Compartir un filtro, una vista o una agrupación](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Compartir informes, tableros y calendarios](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
+* [Compartir un filtro, vista o agrupación](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Compartir un plan en el Scenario Planner](../../scenario-planner/share-a-plan.md)
 
-  Esto requiere una licencia adicional para el Scenario Planner de Workfront. Para obtener más información, consulte [Acceso necesario para utilizar el Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
+  Esto requiere una licencia adicional para el Scenario Planner de Workfront. Para obtener más información, consulte [Acceso necesario para usar el Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 
 * [Compartir una meta en Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-  Esto requiere una licencia adicional para Workfront Goals. Para obtener más información, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  Esto requiere una licencia adicional para Workfront Goals. Para obtener más información, consulte [Requisitos para usar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* [Configuración del acceso a Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+* [Configurar el acceso a Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

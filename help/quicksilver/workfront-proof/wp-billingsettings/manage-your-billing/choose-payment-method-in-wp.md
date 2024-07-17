@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Elección de la forma de pago en [!DNL Workfront] Proof
-description: Obtenga más información sobre los pagos en Workfront Proof.
+title: Elegir el método de pago en  [!DNL Workfront] Proof
+description: Más información sobre los pagos en Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '338'
+ht-degree: 0%
 
 ---
 
-# Elección de la forma de pago en [!DNL Workfront Proof]
+# Elegir el método de pago en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Explicación de las opciones de pago
 
@@ -47,12 +47,12 @@ No aceptamos cheques
 
 Para cambiar la siguiente forma de pago y actualizar los datos de la tarjeta de crédito:
 
-1. Clic **[!UICONTROL Cambiar datos de pago]** (1) al principio de la página\
+1. Haz clic en **[!UICONTROL Cambiar datos de pago]** (1) en la parte superior de la página\
    O\
-   Clic **[!UICONTROL Siguiente forma de pago]**. (2)\
+   Haz clic en **[!UICONTROL Siguiente forma de pago]**. (2)\
    ![Payment_and_CC_details1.png](assets/payment-and-cc-details1-350x205.png)
 
-1. En el **[!UICONTROL Cambiar datos de pago]** emergente, selecciona la siguiente forma de pago. (3)
+1. En la ventana emergente **[!UICONTROL Cambiar datos de pago]**, selecciona la siguiente forma de pago. (3)
 1. (Condicional) Para los pagos con tarjeta de crédito, introduce los datos de tu tarjeta.\
    Si solo desea cambiar los datos de su tarjeta de crédito, rellene los campos de datos de la tarjeta de crédito (4) con los nuevos datos de la tarjeta y guarde (5) los cambios. Puede cambiar los datos de su tarjeta de crédito en cualquier momento. La nueva tarjeta se utiliza para todos los pagos de suscripción con efecto inmediato.\
    Aceptamos [!DNL Visa], [!DNL American Express] y [!DNL MasterCard].
@@ -62,12 +62,12 @@ Para cambiar la siguiente forma de pago y actualizar los datos de la tarjeta de 
 
 ## Cambio de los detalles del método de pago para cuentas satélite
 
-Si tienes cuentas satélite, debes actualizar los datos de tu tarjeta de crédito y la forma de pago por separado para cada cuenta. Para obtener más información sobre las cuentas satélite, consulte  [Cuentas satélite.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
+Si tienes cuentas satélite, debes actualizar los datos de tu tarjeta de crédito y la forma de pago por separado para cada cuenta. Para obtener más información acerca de las cuentas satélite, vea [Cuentas satélite.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
-1. Vaya a la [!UICONTROL Factura] en su cuenta de Hub.\
-   Para obtener más información sobre la página Facturación, consulte [El [!DNL Workfront] Página de facturación de revisión](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+1. Vaya a la página [!UICONTROL Facturación] de su cuenta de Hub.\
+   Para obtener más información sobre la página Facturación, consulte [La [!DNL Workfront] página de facturación de revisión](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Abra el [!UICONTROL lista de cuentas] menú desplegable. (1)
+1. Abra el menú desplegable [!UICONTROL lista de cuentas]. (1)
 1. Elija la cuenta satélite (2) asociada a la tarjeta de crédito que desea actualizar.
-1. Continuar con [Cambiar la forma de pago y los datos de la tarjeta de crédito](#changing-your-payment-method-and-credit-card-details).\
-   ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)
+1. Continuar con [Cambiando la forma de pago y los datos de la tarjeta de crédito](#changing-your-payment-method-and-credit-card-details).\
+   ![Página_Facturación_Cuenta_Satélite.png](assets/satellite-account-billing-page-350x167.png)

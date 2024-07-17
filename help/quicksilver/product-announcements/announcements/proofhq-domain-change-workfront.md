@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: announcements
 title: Cambio necesario para agregar pruebas a la lista de permitidos
-description: El dominio de prueba está cambiando de proofhq.com a workfront.com.
+description: El dominio de revisión cambia de proofhq.com a workfront.com.
 author: Luke
 feature: Product Announcements
 exl-id: 05a1fd37-224b-4a0b-abef-4d9a015de524
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 # Cambio necesario para agregar pruebas a la lista de permitidos
 
-El dominio de prueba está cambiando de proofhq.com a workfront.com.
+El dominio de revisión está cambiando de from proofhq.com a workfront.com.
 
-Si el servidor de seguridad o de correo está configurado para permitir acceso solo a proveedores específicos, debe agregar la siguiente URL adicional a la lista de permitidos para garantizar que los usuarios de su organización puedan ver pruebas en Adobe Workfront tanto en el visor de pruebas del explorador como en el visor de pruebas del escritorio:
+Si el cortafuegos o el servidor de correo están configurados para permitir el acceso solo a proveedores específicos, debe añadir la siguiente URL adicional a su lista de permitidos para garantizar que los usuarios de su organización puedan ver las pruebas en Adobe Workfront tanto en el visor de revisión del explorador como en el visor de revisión de escritorio:
 
 &#42;.workfront.com
 
-La variable &#42;la URL de proofhq.com también es obligatoria.
+La dirección URL &#42;proofhq.com también es obligatoria.
 
-Para obtener más información sobre cómo actualizar la lista de permitidos, consulte [Configurar la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obtener más información sobre cómo actualizar la lista de permitidos, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
->Esta actualización solo se aplica a las pruebas en Workfront; no se aplica cuando se utiliza la aplicación independiente Workfront Proof.
+>Esta actualización solo se aplica a las pruebas en Workfront; no se aplica al utilizar la aplicación independiente de Workfront Proof.

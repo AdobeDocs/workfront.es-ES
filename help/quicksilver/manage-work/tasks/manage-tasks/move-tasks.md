@@ -47,11 +47,11 @@ Debe tener el siguiente acceso para realizar las acciones de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Tareas y Proyectos</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para las tareas</p> <p>Aportar o permisos superiores al proyecto con capacidad para Agregar tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para las tareas</p> <p>Contribute o permisos superiores al proyecto con capacidad para Agregar tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,14 +79,14 @@ Los elementos siguientes no se mueven con la tarea de forma predeterminada:
 ## Mover tareas a una lista
 
 1. Vaya al proyecto que contiene la tarea o tareas que desea mover.
-1. Clic **Tareas** en el panel izquierdo para mostrar la lista de tareas.
-1. Haga clic en **Modo de planificación** icono ![](assets/plan-mode-icon.png) y asegurarse de que las **Autoguardar** la opción está activada y, a continuación, seleccione la tarea o tareas que desee mover.
+1. Haga clic en **Tareas** en el panel izquierdo para mostrar la lista de tareas.
+1. Haga clic en el icono **Modo de plan** ![](assets/plan-mode-icon.png), compruebe que la opción **Guardar automáticamente** esté habilitada y, a continuación, seleccione las tareas que desee mover.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >No puede mover tareas cuando la variable **Autoguardar** La opción está desactivada.
+   >No puede mover tareas cuando la opción **Guardar automáticamente** esté deshabilitada.
 
 1. (Opcional y condicional) Si desea mover las tareas seleccionadas dentro del mismo proyecto, haga clic en las tareas seleccionadas, arrástrelas y suéltelas donde desee que se muevan en el proyecto.
 
@@ -94,15 +94,15 @@ Los elementos siguientes no se mueven con la tarea de forma predeterminada:
 
 1. (Condicional) Seleccione la tarea o tareas que desee mover y realice una de las siguientes acciones:
 
-   * Haga clic en **Más** menú ![](assets/qs-more-menu.png) en la parte superior de la lista de tareas y haga clic en **Mover a**.
+   * Haga clic en el menú **Más** ![](assets/qs-more-menu.png) en la parte superior de la lista de tareas y, a continuación, haga clic en **Mover a**.
    * Haga clic con el botón derecho en las tareas seleccionadas y luego haga clic en **Mover a**.
-   * Al seleccionar una tarea, haga clic en **Más** menú ![](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y haga clic en **Mover a**.
+   * Al seleccionar una tarea, haga clic en el menú **Más** ![](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y, a continuación, haga clic en **Mover a**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
    Aparece el cuadro Mover tarea
 
-1. Continúe moviendo la tarea, tal como se describe en la sección [Mover una tarea al nivel de tarea](#move-a-task-at-the-task-level) en este artículo, a partir del paso 4.
+1. Continúe moviendo la tarea, como se describe en la sección [Mover una tarea al nivel de tarea](#move-a-task-at-the-task-level) de este artículo, empezando por el paso 4.
 
    <!--
    is this still accurate?!
@@ -114,11 +114,11 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
 
 1. Busque una tarea en el sistema de Workfront.
 1. Haga clic en el nombre de la tarea para abrirla.
-1. Haga clic en **Más** menú desplegable ![](assets/qs-more-menu.png) junto al nombre de la tarea y haga clic en **Mover a**. Aparece el cuadro Mover tarea.
+1. Haga clic en el menú desplegable **Más** ![](assets/qs-more-menu.png) junto al nombre de la tarea y, a continuación, haga clic en **Mover a**. Aparece el cuadro Mover tarea.
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. (Opcional) Actualice el **Nombre de tarea**. La tarea se mueve con el nuevo nombre a la nueva ubicación. Workfront no registra el nombre original de la tarea.
+1. (Opcional) Actualice **Nombre de tarea**. La tarea se mueve con el nuevo nombre a la nueva ubicación. Workfront no registra el nombre original de la tarea.
 
    >[!TIP]
    >
@@ -127,7 +127,7 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. Escriba el nombre del **Proyecto de destino** donde desea que se mueva la tarea en el **Seleccionar proyecto de destino** field.
+1. Escriba el nombre del **Proyecto de destino** al que desea mover la tarea en el campo **Seleccionar proyecto de destino**.
 
    Si desea mover la tarea dentro del mismo proyecto, escriba el nombre del proyecto actual.
 
@@ -137,7 +137,7 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
    >* También puede empezar a escribir el número de referencia o introducir el ID del proyecto. Esto puede ayudarle a distinguir entre proyectos con nombres idénticos.
    >* En la lista solo se muestran 100 proyectos.
 
-1. (Condicional) Haga clic en **Solicitar acceso** para solicitar acceso al proyecto, en caso de que no tenga acceso al proyecto seleccionado.
+1. (Condicional) Haz clic en **Solicitar acceso** para solicitar acceso al proyecto si no tienes acceso al proyecto seleccionado.
 1. (Condicional) Continúe moviendo la tarea al proyecto de destino seleccionado sin solicitar acceso si tiene acceso para agregar tareas a una de las tareas del proyecto de destino.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
@@ -150,7 +150,7 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
 
    O
 
-   Desplácese hacia abajo hasta el **Opciones** en el cuadro Mover tarea y, a continuación, anule la selección de cualquiera de los elementos que aparecen en la tabla siguiente para quitarlos de las tareas que se han movido Todas las opciones están seleccionadas de forma predeterminada.
+   Desplácese hacia abajo hasta la sección **Opciones** del cuadro Mover tarea y, a continuación, anule la selección de cualquiera de los elementos que aparecen en la tabla siguiente para quitarlos de las tareas que se han movido Todas las opciones están seleccionadas de forma predeterminada.
 
    >[!IMPORTANT]
    >
@@ -179,7 +179,7 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
       <li> No iniciar después del</li>
       </ul>
 
-   Para obtener información sobre las delimitaciones de tareas y cómo pueden verse afectadas las delimitaciones de tareas o las fechas de proyectos, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre restricciones de tarea</a> y busque una restricción específica.</p> </td>
+   Para obtener información sobre las delimitaciones de tareas y cómo pueden verse afectadas las delimitaciones de tareas o las fechas de proyectos, vea <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la delimitación de tareas</a> y busque una delimitación específica.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Asignaciones</td> 
@@ -233,7 +233,7 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
 
    O
 
-   Desplácese hasta **Seleccionar principal** y, a continuación, seleccione la tarea en el proyecto de destino en la que desea que se convierta en la principal de la tarea desplazada.
+   Desplácese hasta la sección **Seleccionar principal** y, a continuación, seleccione la tarea en el proyecto de destino que desea que sea la principal de la tarea desplazada.
 
    >[!TIP]
    >
@@ -246,16 +246,16 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
 
    La tarea se muestra en la lista.
 
-   ![Seleccionar tarea principal al mover una tarea con funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Seleccione el botón de opción del elemento principal, una vez encontrado.
 
    Si no selecciona una tarea principal, las tareas se mueven como tareas principales en lugar de como subtareas y se colocan al final de la lista de tareas en el proyecto de destino.
 
-1. Clic **Mover tarea**
+1. Haga clic en **Mover tarea**
 
    O
 
-   Clic **Mover tareas** cuando selecciona varias tareas en una lista.
+   Haga clic en **Mover tareas** al seleccionar varias tareas en una lista.
 
    Las tareas movidas ahora se encuentran en el proyecto especificado y son subtareas de una tarea principal o las últimas tareas del proyecto.

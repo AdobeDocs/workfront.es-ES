@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront para Android
-description: El [!DNL Adobe Workfront] La aplicación de le permite acceder a su trabajo en cualquier dispositivo Android. Puede instalar y utilizar el [!DNL Workfront] aplicación móvil en teléfonos y tabletas con Android 5.0 o posterior.
+description: La aplicación  [!DNL Adobe Workfront] te permite acceder a tu trabajo en cualquier dispositivo Android. Puedes instalar y usar la  [!DNL Workfront] aplicación móvil en teléfonos y tabletas con Android 5.0 o posterior.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # [!DNL Adobe Workfront] para [!DNL Android]
 
-El [!DNL Adobe Workfront] La aplicación le permite acceder a su trabajo en cualquier [!DNL Android] dispositivo. Puede instalar y utilizar el [!DNL Workfront] aplicación móvil en teléfonos y tabletas en ejecución [!DNL Android] 5.0 o posterior.
+La aplicación [!DNL Adobe Workfront] le permite acceder a su trabajo en cualquier dispositivo [!DNL Android]. Puede instalar y usar la aplicación móvil [!DNL Workfront] en teléfonos y tabletas con [!DNL Android] 5.0 o posterior.
 
-Para obtener información sobre cómo iniciar sesión en la aplicación móvil, consulte la sección [Inicie sesión en [!DNL Workfront] aplicación móvil](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) en el artículo [Iniciar sesión en [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Para obtener información sobre cómo iniciar sesión en la aplicación móvil, consulte la sección [Iniciar sesión en la [!DNL Workfront] aplicación móvil](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) en el artículo [Iniciar sesión en [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Inicio]
 
-El [!UICONTROL Inicio] le permite trabajar directamente en las tareas, problemas y aprobaciones que le han sido asignadas. Desde el [!UICONTROL Inicio] de la aplicación, puede:
+El área [!UICONTROL Inicio] le permite trabajar directamente en las tareas, problemas y aprobaciones que se le hayan asignado. En el área [!UICONTROL Hogar] de la aplicación, puede:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,13 +48,13 @@ El [!UICONTROL Inicio] le permite trabajar directamente en las tareas, problemas
  </tbody> 
 </table>
 
-Para obtener más información, consulte [[!UICONTROL Inicio] widgets de área](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) y [[!UICONTROL Mi trabajo] en la aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Para obtener más información, consulte [[!UICONTROL Widgets del área de inicio]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) y la sección [[!UICONTROL Mi trabajo] en la aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Área de inicio](assets/mobile-home-area.png)
 
 ## [!UICONTROL Tableros]
 
-El [!UICONTROL Tableros] le permite acceder a su [!DNL Workfront] tableros.
+El área [!UICONTROL Tableros] le permite acceder a sus [!DNL Workfront] tableros.
 
 ![Área de tableros](assets/mobile-all-boards-displayed.png)
 
@@ -62,7 +62,7 @@ Para obtener más información, consulte [[!DNL Adobe Workfront] [!UICONTROL Tab
 
 ## [!UICONTROL Proyectos]
 
-El [!UICONTROL Proyectos] le permite interactuar con sus proyectos y los proyectos en los que participa y administrarlos. Desde el [!UICONTROL proyectos] de la aplicación, puede:
+El área [!UICONTROL Proyectos] le permite interactuar con proyectos que usted posee y en los que participa y administrar los mismos. Desde el área de [!UICONTROL proyectos] de la aplicación, puede:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +91,7 @@ El [!UICONTROL Proyectos] le permite interactuar con sus proyectos y los proyect
 
 ## [!UICONTROL Rutas de aprobación]
 
-El [!UICONTROL Aprobaciones] permite ver y aprobar las aprobaciones que se le han asignado o delegado. Desde el [!UICONTROL aprobaciones] área, puede aprobar:
+El área [!UICONTROL Aprobaciones] le permite ver y aprobar las aprobaciones que se le hayan asignado o delegado. Desde el área [!UICONTROL aprobaciones], puede aprobar:
 
 <table style="table-layout:auto">
  <col>
@@ -115,13 +115,13 @@ El [!UICONTROL Aprobaciones] permite ver y aprobar las aprobaciones que se le ha
 
 Para obtener más información sobre las aprobaciones, consulte [Aprobaciones en la [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Para obtener información sobre la revisión y aprobación de pruebas, consulte [Revise y tome decisiones sobre las pruebas en [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Para obtener información sobre cómo revisar y aprobar pruebas, consulte [Revisar y tomar decisiones sobre pruebas en la [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Lista de aprobaciones en la aplicación móvil](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Notificaciones]
 
-El [!UICONTROL Notificaciones] le permite ver y responder a las notificaciones en la aplicación de su trabajo.
+El área [!UICONTROL Notificaciones] le permite ver y responder notificaciones dentro de la aplicación para su trabajo.
 
 >[!NOTE]
 >Los hipervínculos no están disponibles en las notificaciones de actualización a menos que todo el contenido de una nota sea un hipervínculo sin texto para mostrar.
@@ -130,7 +130,7 @@ El [!UICONTROL Notificaciones] le permite ver y responder a las notificaciones e
 
 ## [!UICONTROL Solicitudes]
 
-El [!UICONTROL Solicitudes] le permite ver detalles sobre las solicitudes. Desde el [!UICONTROL Solicitudes] de la aplicación, puede:
+El área [!UICONTROL Solicitudes] le permite ver detalles sobre las solicitudes. Desde el área de [!UICONTROL Solicitudes] de la aplicación, puede:
 
 <table style="table-layout:auto">
  <col>
@@ -158,31 +158,31 @@ El [!UICONTROL Solicitudes] le permite ver detalles sobre las solicitudes. Desde
 
 ## [!UICONTROL Plantillas de horas]
 
-El [!UICONTROL plantillas de horas] le permite ver detalles sobre sus plantillas de horas. En el área Plantillas de horas de la aplicación, puede:
+El área [!UICONTROL hojas de horas] le permite ver detalles sobre las hojas de horas. En el área Plantillas de horas de la aplicación, puede:
 
-* Post en la [!UICONTROL Actualizaciones] área
+* Post en el área [!UICONTROL Actualizaciones]
 * Ajustar tipos de horas
 * Cambiar el tiempo que ha iniciado sesión
 * Escriba comentarios en la hoja de horas
 * Cerrar hoja de horas
 
-![Área Hojas de horas](assets/mobile-timesheets-area.png)
+![Área de hojas de horas](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favoritos]
 
-Puede acceder a los elementos existentes desde el [!UICONTROL Favoritos] y agregue nuevos elementos al menú Favoritos.
+Puede obtener acceso a los elementos existentes desde el menú [!UICONTROL Favoritos] y agregar nuevos elementos al menú Favoritos.
 
 ![Área de favoritos](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL Contactos]
 
-El [!UICONTROL Contactos] permite ver la información de contacto de todos los usuarios de la compañía.
+El área [!UICONTROL Contactos] le permite ver la información de contacto de todos los usuarios de su compañía.
 
 ![Área de contactos](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Configuración]
 
-El [!UICONTROL Configuración] le permite:
+El área [!UICONTROL Configuración] le permite:
 
 * Administrar la configuración
 * Ver equipos asignados

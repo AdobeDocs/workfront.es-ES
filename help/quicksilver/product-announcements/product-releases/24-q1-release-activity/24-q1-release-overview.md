@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Esta página proporciona información sobre la funcionalidad que se incluye en la versión del primer trimestre de 2024. Estas mejoras están planificadas para que estén disponibles en el entorno de producción para todos los clientes con la versión 24.1 el 18 y 19 de enero de 2024.
 
-El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístrese en el seminario web para ver una grabación bajo demanda aquí](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puedes [registrarte en el seminario web para ver una grabación bajo demanda aquí](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
-<span class="preview">Las funciones fuera de ciclo (las que se lanzaron a Producción antes de la fecha de lanzamiento del primer trimestre de 2024) se resaltan en amarillo.</span>
+<span class="preview">Las características que no están en ciclo de producción (las que se lanzaron a Producción antes de la fecha de lanzamiento del primer trimestre de 2024) aparecen resaltadas en amarillo.</span>
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
 >| <ul><li>Sin versión (noviembre de 2024)</li><li>Sin versión (diciembre de 2024)</li><li>24.1 (enero de 2024)</li></ul> | <ul><li>24.1 (enero de 2024)</li></ul> |
 >| <ul><li>24.2 (febrero de 2024)</li><li>24.3 (marzo de 2024)</li><li>24.4 (abril de 2024)</li></ul> | <ul><li>24.4 (abril de 2024)</li></ul> |
 >
->Para obtener más información sobre el proceso de liberación rápida, consulte [Habilitar o deshabilitar el proceso de liberación rápida](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Para obtener más información sobre el proceso de publicación rápida, consulte [Habilitar o deshabilitar el proceso de publicación rápida](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
 ## Mejoras de Adobe Workfront
@@ -52,7 +52,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -89,7 +89,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -123,7 +123,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -153,7 +153,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para dejar más claro cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo <strong>Completar mi revisión</strong> botón.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para aclarar cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo botón <strong>Completar mi revisión</strong>.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">El estado de revisión y aprobación del documento se muestra en el encabezado del documento</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para que el proceso de revisión y aprobación sea más transparente, hemos agregado el estado al encabezado de la página Detalles del documento.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Se muestra el estado de revisión y aprobación del documento en el encabezado del documento</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para que el proceso de revisión y aprobación sea más transparente, hemos agregado el estado al encabezado de la página Detalles del documento.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -200,7 +200,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -229,7 +229,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles de administrador para el nuevo Inicio mediante plantillas de diseño</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Los administradores ahora pueden personalizar la nueva página de inicio para los usuarios que utilizan plantillas de diseño. Las opciones de personalización incluyen la selección de widgets obligatorios y su posición, la elección de un fondo y opciones específicas de los widgets para elegir los filtros y grupos disponibles (y establecer los valores predeterminados).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles de administrador para la nueva página de inicio mediante plantillas de diseño</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Los administradores ahora pueden personalizar la nueva página de inicio para los usuarios que utilizan plantillas de diseño. Las opciones de personalización incluyen la selección de widgets obligatorios y su posición, la elección de un fondo y opciones específicas de los widgets para elegir los filtros y grupos disponibles (y establecer los valores predeterminados).</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -247,7 +247,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Los botones de acción rápida Mi trabajo se han cambiado para que solo se muestren al pasar el ratón</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para mejorar el rendimiento, los botones de acción rápida disponibles en el widget Mi trabajo ahora solo se mostrarán cuando se pase el ratón sobre un elemento de trabajo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Los botones de acción rápida Mi trabajo se cambiaron para mostrarse solamente al pasar el ratón por encima</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para mejorar el rendimiento, los botones de acción rápida disponibles en el widget Mi trabajo ahora solo se mostrarán cuando se pase el ratón sobre un elemento de trabajo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -271,7 +271,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -281,7 +281,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">La asignación de metadatos en Experience Manager Assets Essentials ahora utiliza <code>xcm:keywords</code> en lugar de <code>dc:subject</code></a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Hemos actualizado la integración de Experience Manager Assets Essentials para que coincida con la experiencia de la integración as a Cloud Service de Experience Manager Assets. Ahora, al asignar varios campos de texto de una sola línea a un único campo en Experience Manager Assets, ambos servicios utilizan el <code>xcm:keywords</code> field.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">La asignación de metadatos en Experience Manager Assets Essentials ahora utiliza <code>xcm:keywords</code> en lugar de <code>dc:subject</code></a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Hemos actualizado la integración de Experience Manager Assets Essentials para que coincida con la experiencia en la integración as a Cloud Service de Experience Manager Assets. Ahora, cuando se asignan varios campos de texto de una sola línea a un único campo en Experience Manager Assets, ambos servicios utilizan el campo <code>xcm:keywords</code>.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -298,7 +298,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                     </td>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos de escritura anticipada ahora están disponibles en la integración de Adobe Experience Manager</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para facilitar el vínculo de campos entre Workfront y Adobe Experience Manager, se ha añadido la compatibilidad con los campos de escritura anticipada en la asignación de metadatos. Ahora puede asignar campos de escritura anticipada a los campos correspondientes en Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos de escritura anticipada ya están disponibles en la integración de Adobe Experience Manager</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para facilitar el vínculo de campos entre Workfront y Adobe Experience Manager, se ha añadido la compatibilidad con los campos de escritura anticipada en la asignación de metadatos. Ahora puede asignar campos de escritura anticipada a los campos correspondientes en Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -338,7 +338,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -376,7 +376,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -386,7 +386,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [regístr
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arrastre y suelte la imagen en un comentario en la sección Actualizaciones</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para mejorar el contenido de sus comentarios, ahora puede arrastrar y soltar rápidamente una imagen en un comentario o una respuesta en la sección Actualizaciones de un objeto.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arrastrar y soltar la imagen en un comentario en la sección Actualizaciones</a></p><p>[!BADGE en producción ]{type=Informative}</p><p>Para mejorar el contenido de sus comentarios, ahora puede arrastrar y soltar rápidamente una imagen en un comentario o una respuesta en la sección Actualizaciones de un objeto.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -478,9 +478,9 @@ No hay actualizaciones de Workfront Goals en este punto de la versión. Esta ár
 
 Para la versión 17 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 17 de la API](/help/quicksilver/wf-api/api/new-api-version-17.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 17](/help/quicksilver/wf-api/api/new-api-version-17.md) de la API.
 
-Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de asistencia](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Actualizaciones de mantenimiento de Workfront 
 
@@ -488,4 +488,4 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 
 ### Actualizaciones de formación
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).

@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-users-and-contacts
-title: Editar masivamente otros grupos del usuario
-description: Al editar masivamente intenté agregar un solo Otro Grupo a numerosos usuarios. Después de Save Changes, se eliminaron todos los otros grupos existentes y sólo quedó el nuevo otro grupo.
+title: Otros grupos del usuario de edición masiva
+description: Cuando realizaba ediciones masivas, intentaba añadir un solo grupo Otros a numerosos usuarios. Después de guardar los cambios, se eliminaron todos los otros grupos existentes y solo permaneció el nuevo grupo.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f2402830-3263-4204-ba8a-9028ef937577
@@ -15,25 +15,28 @@ ht-degree: 0%
 
 ---
 
-# Editar masivamente otros grupos del usuario
+# Otros grupos del usuario de edición masiva
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problema:
 
-Al editar masivamente intenté agregar un solo Otro Grupo a numerosos usuarios.
-Después de Save Changes, se eliminaron todos los otros grupos existentes y sólo quedó el nuevo otro grupo.
+Cuando realizaba ediciones masivas, intentaba añadir un solo grupo Otros a numerosos usuarios.
+Después de guardar los cambios, se eliminaron todos los otros grupos existentes y solo permaneció el nuevo grupo.
 
 ## Respuesta:
 
 El comportamiento resultante depende de la pertenencia al grupo actual de los usuarios seleccionados:
 
-* Si todos los usuarios seleccionados, las pertenencias a Otros grupos coinciden exactamente... Después de seleccionar los usuarios y seleccionar [!UICONTROL editar], el [!UICONTROL Otros grupos] mostrará la lista completa de todos los grupos a los que pertenecen estos usuarios.
+* Si todos los usuarios seleccionados y las suscripciones a Otros grupos coinciden exactamente...
+Después de seleccionar los usuarios y seleccionar [!UICONTROL editar], el campo [!UICONTROL Otros grupos] mostrará el listado completo
+de todos los grupos a los que pertenecen estos usuarios.
 
-* Si los usuarios seleccionados tienen miembros de Otros grupos diferentes... Después de seleccionar los usuarios y hacer clic en [!UICONTROL Editar], el [!UICONTROL Otros grupos] se deja en blanco.
+* Si los usuarios seleccionados tienen diferentes pertenencias de Otro grupo...
+Después de seleccionar los usuarios y hacer clic en [!UICONTROL Editar], el campo [!UICONTROL Otros grupos] quedará en blanco.
 
-Al hacer clic en **[!UICONTROL Guardar cambios]**, se guardará lo que se muestre en el campo Otros grupos .
+Al hacer clic en **[!UICONTROL Guardar cambios]**, se guardará lo que aparezca en el campo Otros grupos.
 
-Se sobrescribe el contenido anterior del campo.
+El contenido anterior del campo se sobrescribe.

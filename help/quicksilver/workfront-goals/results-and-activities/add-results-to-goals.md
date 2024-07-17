@@ -55,7 +55,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nivel de acceso</p></td>
@@ -67,7 +67,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -87,7 +87,7 @@ Debe tener lo siguiente para poder iniciar:
 * Plantilla de diseño que incluye el área de Objetivos en el menú principal.
 * Un objetivo existente.
 
-  Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+  Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >Una meta no puede tener más de un total de 1000 actividades, resultados, proyectos o metas alineadas.
@@ -138,25 +138,25 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Haga clic en el menú principal ![](assets/main-menu-icon.png), entonces **Metas**.
+1. Haga clic en el menú principal ![](assets/main-menu-icon.png) y luego en **Objetivos**.
 
-1. Desde el **Lista de metas**, haga clic en el nombre de una meta para abrir su página.
-1. Clic **Indicadores de progreso** en el panel izquierdo.
-1. Expanda el **Nuevo indicador de progreso** y, a continuación, haga clic en **Crear resultado**.
+1. En la **Lista de metas**, haga clic en el nombre de una meta para abrir la página de metas.
+1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
+1. Expanda el menú desplegable **Nuevo indicador de progreso** y luego haga clic en **Crear resultado**.
 
    Se abrirá el cuadro Nuevo resultado.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Introduzca un nombre para el resultado en la **Nombre del resultado** field. Este campo es obligatorio.
-1. (Opcional) Elimine su nombre de la **Propietario del resultado** si desea asignar el resultado a otro usuario. De forma predeterminada, usted es el propietario de una actividad que crea.
+1. Escriba un nombre para el resultado en el campo **Nombre del resultado**. Este campo es obligatorio.
+1. (Opcional) Elimine su nombre del campo **Propietario del resultado** si desea asignar el resultado a otro usuario. De forma predeterminada, usted es el propietario de una actividad que crea.
 
    >[!NOTE]
    >
    >No se puede asignar un equipo, grupo o compañía como propietario del resultado.
 
-1. En el **¿Cómo quiere medir su resultado?** , especifique la siguiente información:
-   * **Tipo de valor**: Indica cómo desea medir el progreso del resultado. Puede medir el progreso numéricamente, con un valor porcentual o mediante una cantidad de moneda.
+1. En el **¿Cómo desea medir su resultado?** área, especifique la siguiente información:
+   * **Tipo de valor**: esto indica cómo desea medir el progreso en el resultado. Puede medir el progreso numéricamente, con un valor porcentual o mediante una cantidad de moneda.
 
      Seleccione un tipo de valor de las opciones que se muestran en la tabla siguiente:
 
@@ -168,8 +168,8 @@ Adding results to goals differs depending on which environment you use.
 
    * **Valor inicial**: El valor que tiene el resultado al principio, antes de que se registre cualquier progreso en él.
    * **Valor de destino**: Valor que el resultado pretende alcanzar cuando se considera completado.
-1. Clic **Crear resultado**.
+1. Haga clic en **Crear resultado**.
 
    El resultado se muestra en la sección Indicadores de progreso de la página de objetivos, en la agrupación Resultados.
 
-   Después de activar la meta, el progreso de la meta se actualiza automáticamente cuando se actualiza el progreso de un resultado. Para obtener información sobre cómo activar un objetivo, consulte [Activar metas en Adobe Workfront Goals](../goal-management/activate-goals.md).
+   Después de activar la meta, el progreso de la meta se actualiza automáticamente cuando se actualiza el progreso de un resultado. Para obtener información sobre cómo activar una meta, consulte [Activar metas en Adobe Workfront Goals](../goal-management/activate-goals.md).

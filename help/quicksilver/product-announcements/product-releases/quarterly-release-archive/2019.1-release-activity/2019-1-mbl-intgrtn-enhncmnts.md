@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos incluidas en la versión 2019.1. La funcionalidad ya está disponible en el entorno de producción.
 
-Para ver una lista de todos los cambios realizados en 2019.1, consulte [información general sobre la actividad de la versión 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.1, consulte [Resumen de la actividad de la versión 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Se ha actualizado el filtro predeterminado en el Planificador de recursos
 
@@ -37,15 +37,15 @@ Anteriormente, el filtro predeterminado recuperaba la información de los siguie
 * Con un estado de Actual o Planificación.
 * Con un Grupo que coincida con el Grupo de inicio del usuario que ha iniciado sesión.
 
-Para obtener información sobre la aplicación de filtros al Planificador de recursos, consulte [Filtrar información en el Planificador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obtener información sobre cómo aplicar filtros al Planificador de recursos, consulte [Información sobre filtros en el Planificador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Uso de caracteres comodín para los filtros del Planificador de recursos
 
-Ahora puede utilizar caracteres comodín al crear filtros en el Planificador de recursos. Por ejemplo, puede usar $$USER.ID para filtrar por información sobre el usuario que ha iniciado sesión, o $$USER.companyID para filtrar por información sobre todos los usuarios que pertenecen a la misma empresa que el usuario que ha iniciado sesión. Para obtener una lista completa de las variables basadas en usuarios, consulte la [Variables de filtro comodín basadas en usuarios](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) sección en [Variables de filtro comodín](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Ahora puede utilizar caracteres comodín al crear filtros en el Planificador de recursos. Por ejemplo, puede usar $$USER.ID para filtrar por información sobre el usuario que ha iniciado sesión, o $$USER.companyID para filtrar por información sobre todos los usuarios que pertenecen a la misma empresa que el usuario que ha iniciado sesión. Para obtener una lista completa de las variables basadas en usuarios, consulte la sección [Variables de filtro comodín basadas en usuarios](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) en [Variables de filtro comodín](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 Anteriormente, los caracteres comodín no estaban disponibles para los filtros del Planificador de recursos.
 
-Para obtener información sobre el filtrado en el Planificador de recursos, consulte [Filtrar información en el Planificador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)
+Para obtener información acerca del filtrado en el Planificador de recursos, vea [Filtrar información en el Planificador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)
 
 VÍDEO
 
@@ -57,7 +57,7 @@ Antes de esta mejora, solo podía utilizar variables de filtro comodín basadas 
 
 Para obtener información sobre el filtrado en el Planificador de recursos, consulte [Filtrar información en el Planificador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-Para obtener información sobre las variables de filtro comodín, consulte [Variables de filtro comodín](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obtener información acerca de las variables de filtro comodín, vea [Variables de filtro comodín](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 VÍDEO
 
@@ -73,7 +73,7 @@ Puede exportar cualquiera de las siguientes opciones:
 
 Antes de esta mejora, todos los niveles de información se exportaban en la vista de funciones. Estas opciones se han introducido en las vistas Proyecto y Usuario en una versión anterior.
 
-Para obtener información sobre cómo exportar información desde el Planificador de recursos, consulte [Exportar información del Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obtener información acerca de cómo exportar información desde el Planificador de recursos, vea [Exportar información desde el Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VÍDEO
 
@@ -88,7 +88,7 @@ Puede mostrar la disponibilidad y la asignación de la información exportada de
 
 Antes de esta mejora, la información del archivo exportado aparecía como aparece en Workfront.
 
-Para obtener información sobre cómo exportar información desde el Planificador de recursos, consulte [Exportar información del Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obtener información acerca de cómo exportar información desde el Planificador de recursos, vea [Exportar información desde el Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VÍDEO
 
@@ -96,7 +96,7 @@ VÍDEO
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 La programación de escalas de tiempo ahora mantiene el periodo de tiempo seleccionado al actualizar la escala de tiempo o al salir de la página.
 
@@ -130,7 +130,7 @@ En la vista de usuario, puede exportar cualquiera de las siguientes opciones:
 
 Antes de esta mejora, todos los niveles de información se exportaban de forma predeterminada en todas las vistas del Planificador de recursos.
 
-Para obtener información sobre cómo exportar información desde el Planificador de recursos, consulte [Exportar información del Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obtener información acerca de cómo exportar información desde el Planificador de recursos, vea [Exportar información desde el Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VÍDEO
 
@@ -142,4 +142,4 @@ Antes de esta actualización, en la vista de usuario del Planificador de recurso
 
 Puede utilizar filtros basados en usuarios para reducir el número de usuarios que se muestran en la vista de usuarios a aquellos que están asignados a los proyectos que desea mostrar.
 
-Para obtener información sobre los filtros del Planificador de recursos, consulte [Filtrar información en el Planificador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obtener información sobre los filtros del Planificador de recursos, consulte [Información sobre filtros en el Planificador de recursos](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).

@@ -19,15 +19,15 @@ ht-degree: 1%
 
 Como administrador de grupo, puede crear estados personalizados para un grupo que administre. Esto ayuda a eliminar la necesidad de decenas de estados personalizados en toda la compañía y permite una mayor autonomía en las jerarquías de su grupo.
 
-También puede editar un estado de nivel de sistema para un grupo que administre si un administrador de Workfront ha desbloqueado el estado. Para obtener más información, consulte [Estados bloqueados y desbloqueados en el nivel del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+También puede editar un estado de nivel de sistema para un grupo que administre si un administrador de Workfront ha desbloqueado el estado. Para obtener más información, consulte [Estados de nivel de sistema bloqueados y desbloqueados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
 Si hay grupos por encima de su grupo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
 >[!NOTE]
 >
->Los estados de grupo personalizados no se pueden mostrar en un proyecto cuando se visualiza el proyecto en una vista Agile. Solo los estados de bloqueo predeterminados y personalizados están visibles al ver un proyecto en una vista Agile. Para obtener información sobre cómo personalizar una vista Agile para un proyecto, consulte la sección [Creación o personalización de una vista de Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) en el artículo [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Los estados de grupo personalizados no se pueden mostrar en un proyecto cuando se visualiza el proyecto en una vista Agile. Solo los estados de bloqueo predeterminados y personalizados están visibles al ver un proyecto en una vista Agile. Para obtener información acerca de cómo personalizar una vista Agile para un proyecto, vea la sección [Crear o personalizar una vista Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) en el artículo [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-Para obtener información general sobre los estados, consulte [Resumen de estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Para obtener información general sobre los estados, vea [Información general sobre los estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Requisitos de acceso
 
@@ -52,7 +52,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 ## Creación o edición de un estado para un grupo
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
@@ -69,11 +69,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    * Estados bloqueados que pertenecen a los grupos por encima del subgrupo.
    * Estados desbloqueados que pertenecían a los grupos por encima del subgrupo cuando se creó.
 
-     Después de crear un subgrupo, los estados desbloqueados creados en los grupos por encima de él no se incluyen en la lista de estados del subgrupo. Sin embargo, si alguien bloquea uno de ellos más adelante, se incluye en la lista de estado del subgrupo. Para obtener más información, consulte [Cómo heredan los grupos los estados](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     Después de crear un subgrupo, los estados desbloqueados creados en los grupos por encima de él no se incluyen en la lista de estados del subgrupo. Sin embargo, si alguien bloquea uno de ellos más adelante, se incluye en la lista de estado del subgrupo. Para obtener más información, vea [Cómo heredan los grupos los estados](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
-1. Seleccione la pestaña del tipo de objeto (**Proyecto**, **Tareas**, o **Problemas**) que desee asociar con el estado.
+1. Seleccione la ficha del tipo de objeto (**Proyecto**, **Tareas** o **Problemas**) que desea asociar con el estado.
 
-1. (Condicional) Si el estado es un estado de problema, asegúrese de que **Lista maestra** está seleccionado.
+1. (Condicional) Si el estado es un estado de problema, asegúrese de que **Master List** está seleccionado.
 
    ![](assets/master-list.png)
 
@@ -83,7 +83,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    O
 
-   Para editar un estado existente, pase el ratón sobre el estado que desea editar y, a continuación, haga clic en **Editar** que se muestra en el extremo derecho.
+   Para editar un estado existente, pasa el ratón sobre el estado que deseas editar y luego haz clic en la opción **Editar** que se muestra al extremo derecho.
 
    ![](assets/group-statuses-edit.jpg)
 
@@ -138,8 +138,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td> 
        <p>Si deja esta opción habilitada, los usuarios del grupo y sus subgrupos pueden ver y utilizar el estado y los administradores del grupo no pueden personalizarlo para subgrupos inferiores.</p> 
        <p>Cuando esta opción está desactivada, los administradores de grupos pueden personalizar el estado de los subgrupos inferiores.</p> 
-       <p><b>NOTA</b>: Puede utilizar los estados bloqueado y desbloqueado en un proceso de aprobación de grupo. Si crea un proceso de aprobación de grupo con un estado de grupo desbloqueado, los usuarios pueden adjuntar el proceso de aprobación a cualquier proyecto, tarea o problema asociado con el grupo.</p> 
-       <p>Para obtener más información sobre los estados de bloqueo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Estados de grupo bloqueados y desbloqueados</a>.</p> 
+       <p><b>NOTA</b>: Puede usar los estados bloqueado y desbloqueado en un proceso de aprobación de grupo. Si crea un proceso de aprobación de grupo con un estado de grupo desbloqueado, los usuarios pueden adjuntar el proceso de aprobación a cualquier proyecto, tarea o problema asociado con el grupo.</p> 
+       <p>Para obtener más información sobre los estados de bloqueo, vea <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Estados de grupos bloqueados y desbloqueados</a>.</p> 
        </td> 
      </tr>
     </tbody> 
@@ -149,7 +149,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    El estado ya está disponible para todos los proyectos asociados con su grupo o subgrupo. Si lo ha bloqueado, está disponible para su uso en subgrupos inferiores.
 
-   Puede configurar el estado para que sea un estado predeterminado para el grupo. Para obtener más información, consulte [Usar un estado personalizado como estado predeterminado para un grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+   Puede configurar el estado para que sea un estado predeterminado para el grupo. Para obtener más información, vea [Usar un estado personalizado como estado predeterminado para un grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
 ## Crear un estado personalizado para varios grupos
 
@@ -157,13 +157,13 @@ Si es administrador de Workfront, puede crear un estado personalizado para vario
 
 Si es administrador de un grupo (o de Workfront), puede crear un estado personalizado para varios subgrupos dentro de una jerarquía de grupo que administre creando un estado para un grupo de nivel superior y ocultando ese estado a cualquier subgrupo inferior que no lo necesite.
 
-1. Si es administrador de Workfront, cree un estado de desbloqueo en todo el sistema como se describe en [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-1. En el cuadro de la esquina superior derecha, elimine **Estados del sistema**, empiece a escribir el nombre del grupo en el que desea ocultar el estado y, a continuación, haga clic en el nombre cuando aparezca.
-1. Pase el ratón sobre el estado que quiera ocultar del grupo y haga clic en **Editar** cuando aparezca.
+1. Si es administrador de Workfront, cree un estado desbloqueado en todo el sistema como se describe en [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. En el cuadro de la esquina superior derecha, elimine **Estados del sistema**, empiece a escribir el nombre del grupo donde desea ocultar el estado y, a continuación, haga clic en el nombre cuando aparezca.
+1. Pase el ratón sobre el estado que quiera ocultar del grupo y luego haga clic en **Editar** cuando aparezca.
 
    ![](assets/hover-click-edit.jpg)
 
-1. Habilite la **Ocultar estado** opción que aparece.
+1. Habilite la opción **Ocultar estado** que aparece.
 
    ![](assets/hide-group-status.png)
 

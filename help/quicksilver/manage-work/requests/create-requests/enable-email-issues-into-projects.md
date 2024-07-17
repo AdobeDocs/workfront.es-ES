@@ -19,7 +19,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico. Puede permitir que los problemas se envíen por correo electrónico a un proyecto solo si el proyecto está designado como Cola de solicitudes. Para obtener más información sobre la creación de un proyecto de la cola de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico. Puede permitir que los problemas se envíen por correo electrónico a un proyecto solo si el proyecto está designado como Cola de solicitudes. Para obtener más información acerca de cómo crear un proyecto de cola de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Requisitos de acceso
 
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,7 +53,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Requisitos previos
 
@@ -80,12 +80,12 @@ Antes de habilitar esta función, deben cumplirse las siguientes condiciones:
 >Se recomienda que el proyecto configurado para recibir solicitudes por correo electrónico no tenga más de un tema en cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe enrutarlas o moverlas manualmente, una vez enviadas.
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
-1. Clic **Detalles de cola** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** primero.
-1. En el **Tipo de cola** , seleccione **Publish como cola de solicitudes de ayuda**.
+1. Haga clic en **Detalles de cola** en el panel izquierdo. Es posible que primero deba hacer clic en **Mostrar más**.
+1. En el área **Tipo de cola**, seleccione **Publish como Cola de solicitud de ayuda**.
 
-1. Desplácese hacia abajo hasta el **Configuración de cola de correo electrónico** , luego seleccione **Habilitar la admisión de solicitudes por correo electrónico**.
+1. Desplácese hacia abajo hasta el área **Configuración de la cola de correo electrónico** y, a continuación, seleccione **Habilitar la admisión de solicitudes por correo electrónico**.
 
-1. Introduzca el principio de la dirección de correo electrónico en la **Dirección de correo electrónico de admisión** cuadro.
+1. Escriba el principio de la dirección de correo electrónico en el cuadro **Dirección de correo electrónico de admisión**.
 
    Debe crear una dirección de correo electrónico única. Se recomienda usar el nombre de la empresa como parte de la dirección de correo electrónico de admisión.
 
@@ -98,7 +98,7 @@ Antes de habilitar esta función, deben cumplirse las siguientes condiciones:
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. (Opcional) Seleccione la **Reenviar todos los problemas que no se envíen por correo electrónico**, luego ingrese una dirección de correo electrónico de reenvío en el cuadro de abajo.
+1. (Opcional) Seleccione **Reenviar todos los problemas que no se envíen por correo electrónico** y, a continuación, escriba una dirección de correo electrónico de reenvío en el cuadro siguiente.
 
    Esta dirección de correo electrónico recibe información sobre los correos electrónicos que no se han enviado al proyecto.
 

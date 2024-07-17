@@ -2,57 +2,57 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Ser un probador beta de iOS
-description: Lea este artículo para probar la versión beta de iOS para [!DNL Adobe Workfront] aplicación móvil.
+description: Lea este artículo para probar la versión beta de iOS para la aplicación móvil  [!DNL Adobe Workfront] iOS.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
-# Sea un [!UICONTROL iOS] probador beta
+# Ser un probador beta de [!UICONTROL iOS]
 
 ## Descargar la aplicación beta
 
-Hay un par de formas de convertirse en un probador beta para el [!DNL Adobe Workfront] aplicación:
+Hay un par de formas de probar la versión beta de la aplicación [!DNL Adobe Workfront]:
 
 ### [!DNL App Store]
 
-Puede usar el complemento [!DNL Apple App Store] para buscar y descargar la aplicación.
+Puede usar [!DNL Apple App Store] para buscar y descargar la aplicación.
 
 >[!IMPORTANT]
 >
->Después de instalar el [!DNL TestFlight] y conviértase en un evaluador beta de su aplicación [!DNL iOS] del dispositivo, debe descargar las versiones actualizadas de [!DNL Workfront] uso del [!DNL TestFlight] aplicación, en lugar del [!DNL Apple Store]. Si no es un evaluador beta de [!DNL iOS], puede seguir actualizando la aplicación móvil desde el [!DNL Apple Store].
+>Después de instalar la aplicación [!DNL TestFlight] y convertirse en un evaluador beta en su dispositivo [!DNL iOS], debe descargar versiones actualizadas de [!DNL Workfront] mediante la aplicación [!DNL TestFlight], en lugar de [!DNL Apple Store]. Si no es un evaluador beta de [!DNL iOS], puede seguir actualizando su aplicación móvil desde [!DNL Apple Store].
 
-#### 1. Instale el [!DNL TestFlight] aplicación
+#### 1. Instale la aplicación [!DNL TestFlight]
 
-Para instalar la versión beta de [!DNL Workfront] aplicación para la que se requiere tener el [!DNL TestFlight] aplicación instalada en el dispositivo. Después de la instalación [!DNL TestFlight], debe instalar el [!DNL Workfront] aplicación.
+Para instalar la versión beta de la aplicación [!DNL Workfront], es necesario que tenga instalada la aplicación [!DNL TestFlight] en el dispositivo. Después de instalar [!DNL TestFlight], debe instalar la aplicación [!DNL Workfront].
 
-1. Instale el [!DNL Workfront] aplicación si aún no lo ha hecho.
-1. Abra el [!DNL Workfront] aplicación móvil.
-1. Tocar **[!UICONTROL Más]** en la barra de navegación inferior.
-1. Pulse su nombre y, a continuación, pulse **[!UICONTROL Sea un probador beta]**.
-1. Tocar **[!UICONTROL Ver en[!DNL App Store]]** para ver la [!DNL TestFlight] aplicación.
-1. Tocar **[!UICONTROL Obtener]** para instalar [!DNL TestFlight] en el dispositivo y pulse **[!UICONTROL Instalar]**.
-1. Tocar **[!UICONTROL Abrir]**, entonces **[!UICONTROL Continuar]** en el [!DNL TestFlight] aplicación.
-1. Tocar **[!UICONTROL Aceptar]** para aceptar los Términos y condiciones de la [!DNL TestFlight] aplicación.\
-   El [!DNL TestFlight] La aplicación está instalada en el dispositivo. Continúe con la sección siguiente.
+1. Instale la aplicación [!DNL Workfront] si aún no lo ha hecho.
+1. Abra la aplicación móvil [!DNL Workfront].
+1. Puntee **[!UICONTROL Más]** en la barra de navegación inferior.
+1. Puntee en su nombre y luego en **[!UICONTROL Ser evaluador de Beta]**.
+1. Pulse **[!UICONTROL Ver en[!DNL App Store]]** para ver la aplicación [!DNL TestFlight].
+1. Pulsa **[!UICONTROL Obtener]** para instalar [!DNL TestFlight] en tu dispositivo y, a continuación, pulsa **[!UICONTROL Instalar]**.
+1. Pulsa **[!UICONTROL Abrir]** y luego **[!UICONTROL Continuar]** en la aplicación [!DNL TestFlight].
+1. Pulse **[!UICONTROL Aceptar]** para aceptar los términos y condiciones de la aplicación [!DNL TestFlight].\
+   La aplicación [!DNL TestFlight] está instalada en el dispositivo. Continúe con la sección siguiente.
 
-#### 2. Instale el [!DNL Workfront] Aplicación beta en [!DNL TestFlight]
+#### 2. Instale la aplicación Beta [!DNL Workfront] en [!DNL TestFlight]
 
-Debe tener el [!DNL Workfront] y la [!DNL TestFlight] aplicación instalada en el dispositivo iOS antes de poder probar la versión beta en un dispositivo iOS.
+Debe tener la aplicación [!DNL Workfront] y la aplicación [!DNL TestFlight] instaladas en el dispositivo iOS para poder probar la versión beta en un dispositivo iOS.
 
-1. Abra el [!DNL Workfront] aplicación móvil.
-1. Tocar **[!UICONTROL Más]** en la barra de navegación inferior.
-1. Pulse su nombre y, a continuación, pulse **[!UICONTROL Sea un probador beta]**.\
-   El [!DNL TestFlight] se abre la aplicación y [!DNL Workfront] aparece como una aplicación disponible para descargar.
+1. Abra la aplicación móvil [!DNL Workfront].
+1. Puntee **[!UICONTROL Más]** en la barra de navegación inferior.
+1. Puntee en su nombre y luego en **[!UICONTROL Ser evaluador de Beta]**.\
+   La aplicación [!DNL TestFlight] se abre y [!DNL Workfront] se muestra como una aplicación disponible para descargar.
 
-1. Tocar **[!UICONTROL Aceptar]**.
-1. Cuando la aplicación haya terminado de actualizarse, pulse **[!UICONTROL Abrir]**.\
-   Se le redirigirá a su [!DNL Workfront] y ahora es un evaluador beta de [!DNL Workfront]. Un punto naranja aparece junto a la aplicación móvil de Workfront en la pantalla de inicio para indicar que la aplicación de la versión beta está instalada en el dispositivo.
+1. Pulse **[!UICONTROL Aceptar]**.
+1. Cuando la aplicación haya terminado de actualizarse, pulsa **[!UICONTROL Abrir]**.\
+   Se le redirigirá a su aplicación [!DNL Workfront] y ahora es evaluador beta de [!DNL Workfront]. Un punto naranja aparece junto a la aplicación móvil de Workfront en la pantalla de inicio para indicar que la aplicación de la versión beta está instalada en el dispositivo.
 
 ### código QR
 
@@ -64,21 +64,21 @@ También puede escanear el siguiente código QR para inscribirse en la versión 
 
 Para proporcionar comentarios sobre la aplicación beta o informar de un problema:
 
-1. Tocar **[!UICONTROL Más]** en la barra de navegación inferior.
-1. Pulsa tu nombre, entonces **[!UICONTROL Enviar comentarios]**.
-1. Elegir **[!UICONTROL Iniciar encuesta]** para proporcionar comentarios generales sobre la aplicación.\
+1. Puntee **[!UICONTROL Más]** en la barra de navegación inferior.
+1. Pulsa tu nombre y luego **[!UICONTROL Enviar comentarios]**.
+1. Elija **[!UICONTROL Iniciar encuesta]** para proporcionar comentarios generales sobre la aplicación.\
    o\
-   Elegir **[!UICONTROL Informar de un problema]** para enviar un ticket a [!DNL Workfront] Equipo de atención al cliente.
+   Elija **[!UICONTROL Informar de un problema]** para enviar un ticket al equipo de atención al cliente de [!DNL Workfront].
 
-## Actualice el [!DNL Workfront] Aplicación beta
+## Actualizar la aplicación de Beta [!DNL Workfront]
 
-Si está inscrito como probador beta, debe actualizar el [!DNL Workfront] aplicación en [!DNL TestFlight] para acceder a las nuevas funciones disponibles en la versión beta.
+Si se ha inscrito como probador beta, debe actualizar la aplicación [!DNL Workfront] en [!DNL TestFlight] para acceder a las nuevas funciones disponibles en la versión beta.
 
-1. Abra el [!DNL TestFlight] aplicación.
-1. Tocar **[!UICONTROL Actualizar]**.
+1. Abra la aplicación [!DNL TestFlight].
+1. Pulse **[!UICONTROL Actualizar]**.
 
 ## Exclusión de las pruebas beta
 
-1. Abra el [!DNL TestFlight] aplicación.
-1. Pulse el botón [!DNL Workfront] Icono.
+1. Abra la aplicación [!DNL TestFlight].
+1. Pulse el icono [!DNL Workfront].
 1. En la parte inferior de la página, pulse **[!UICONTROL Detener prueba]**.

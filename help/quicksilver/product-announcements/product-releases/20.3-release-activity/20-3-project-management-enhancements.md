@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en la administración de proyectos con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Descripción general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Formato de campo personalizado en listas
 
@@ -60,7 +60,7 @@ Además de una apariencia y presentación actualizadas, las siguientes mejoras e
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-Para obtener información sobre el nuevo cuadro Editar proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Para obtener información acerca del nuevo cuadro Editar proyecto, vea [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Nuevo panel de resumen y mejoras de actualizaciones para la lista de documentos
 
@@ -72,7 +72,7 @@ El nuevo panel de resumen a la derecha de la lista de documentos ya está dispon
 
 Algunas acciones no están disponibles actualmente, pero se añadirán en una versión futura. Estas acciones incluyen el flujo de trabajo de revisión.
 
-Para obtener más información, consulte [Resumen de la información general sobre documentos](../../../documents/managing-documents/summary-for-documents.md).
+Para obtener más información, consulte [Resumen de documentos](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Mejoras en los detalles del documento
 
@@ -87,7 +87,7 @@ Busque las siguientes mejoras en la página Detalles del documento:
 * Miniatura de vista previa más grande, que permite identificar fácilmente el documento
 * Se ha añadido el icono Editar global, que permite editar varios campos a la vez.
 
-Para obtener más información, consulte [Resumen de detalles del documento](../../../documents/managing-documents/document-details-overview.md).
+Para obtener más información, vea [Información general sobre los detalles del documento](../../../documents/managing-documents/document-details-overview.md).
 
 ## Para administradores: establezca las preferencias del proyecto en el nivel de grupo
 
@@ -99,7 +99,7 @@ Para dar más autonomía a los administradores del grupo y permitir una mayor pe
 
 Todas las preferencias del proyecto se pueden personalizar en el nivel de grupo, excepto Cálculos de cronología y Trimestres personalizados.
 
-Para obtener más información sobre las Preferencias de proyecto de grupo, consulte [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Para obtener más información acerca de las Preferencias del proyecto de grupo, vea [Configurar las preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 ## Nuevo para administradores: cree campos de formulario personalizados donde los usuarios puedan dar formato al texto
 
@@ -109,7 +109,7 @@ Para obtener más información, consulte Crear un formulario personalizado en la
 
 ## Nuevo para administradores: cree un nombre interno y una etiqueta orientada al usuario para un campo de formulario personalizado
 
-Para ofrecerle una mayor flexibilidad de etiquetado y reetiquetado de los campos de formulario personalizados, ahora puede crear un *name* para un campo además del de cara al usuario *etiqueta* que ha estado usando. Esto le proporciona la libertad de cambiar la etiqueta del campo que ven los usuarios sin cambiar el nombre del campo que ve el sistema.
+Para ofrecerle más flexibilidad a la hora de etiquetar y volver a etiquetar campos de formulario personalizados, ahora puede crear un *nombre* interno para un campo, además de la *etiqueta* orientada al usuario que ha estado utilizando. Esto le proporciona la libertad de cambiar la etiqueta del campo que ven los usuarios sin cambiar el nombre del campo que ve el sistema.
 
 En el pasado, la etiqueta se mostraba encima del campo para los usuarios y el sistema la utilizaba para identificar el campo. Por lo tanto, al cambiar la etiqueta para los usuarios, el campo fallaba dondequiera que se usara porque el sistema ya no podía identificarlo.
 

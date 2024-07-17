@@ -22,10 +22,10 @@ Esta página describe todas las mejoras de administración incluidas en la versi
 >
 >La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2019.2, consulte [Información general de la actividad de versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.2, consulte [Información general sobre la actividad de la versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Especificar roles en entradas de horas
 
 Ahora puede especificar una función al registrar el tiempo en Workfront. Para utilizar esta función, el administrador de Workfront debe habilitar una configuración en Plantilla de horas y Horas > Preferencias.
 
-Para obtener más información sobre cómo especificar una función del trabajo al registrar el tiempo, consulte el artículo [Registrar tiempo](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obtener más información sobre cómo especificar un rol al registrar el tiempo, consulte el artículo [Registrar tiempo](../../../../timesheets/create-and-manage-timesheets/log-time.md).

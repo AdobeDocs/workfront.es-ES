@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de contribución para el proyecto y la tarea principal con capacidad para Agregar tareas o superior</p> <p>Una vez creada la tarea, recibirá automáticamente permisos de administración.</p>  </td> 
+   <td> <p>Permisos de Contribute para el proyecto y la tarea principal con capacidad para Agregar tareas o superior</p> <p>Una vez creada la tarea, recibirá automáticamente permisos de administración.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,11 +61,11 @@ Puede crear subtareas desde la lista de tareas o desde la sección de subtareas 
 ### Crear subtareas de la lista de tareas {#create-subtasks-from-the-task-list}
 
 1. Vaya al proyecto donde desea crear subtareas.
-1. Haga clic en **Tareas** en el panel izquierdo.
+1. Haga clic en la sección **Tareas** del panel izquierdo.
 1. (Condicional) Si la tarea que desea convertir en la tarea secundaria no se encuentra ya directamente debajo de la tarea que desea convertir en la principal, arrástrela a la ubicación adecuada en la lista de tareas.
 1. Seleccione la tarea que desea convertir en subtarea y realice una de las siguientes acciones:
 
-   * Haga clic en **Sangría** icono ![](assets/indent-icon-nwe-33x29.png) para hacer que la tarea seleccionada sea una subtarea a la tarea directamente encima de ella.
+   * Haga clic en el icono **Sangrar** ![](assets/indent-icon-nwe-33x29.png) para que la tarea seleccionada sea una subtarea de la tarea directamente encima de ella.
    * Cuando utilice un teclado estándar inglés QWERTY, pulse Option + > (Mac) o Alt + > (Windows) en el teclado. Otros idiomas pueden utilizar los comandos Opción + , (Mac) o Alt + , (Windows) para aplicar sangría.
 
      >[!TIP]
@@ -81,21 +81,21 @@ Puede crear subtareas desde la lista de tareas o desde la sección de subtareas 
 ### Crear subtareas desde la sección Subtareas {#create-subtasks-from-the-task-subtasks-section}
 
 1. Vaya al proyecto donde desea crear subtareas.
-1. Haga clic en **Tareas** en el panel izquierdo.
+1. Haga clic en la sección **Tareas** del panel izquierdo.
 1. Haga clic en el nombre de la tarea donde desea crear una subtarea.
-1. Haga clic en **Subtareas** en el panel izquierdo.
-1. Clic **Nueva tarea.**
+1. Haga clic en la sección **Subtareas** del panel izquierdo.
+1. Haga clic en **Nueva tarea.**
 
-   Siga los pasos del siguiente artículo para continuar creando la subtarea: [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Siga los pasos del siguiente artículo para continuar creando la subtarea: [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Clic **Guardar tarea.**
+1. Haga clic en **Guardar tarea.**
 
 ## Hacer de una subtarea una tarea principal
 
 1. Vaya al proyecto donde desea convertir una subtarea en una tarea principal.
-1. Haga clic en **Tareas** en el panel izquierdo.
+1. Haga clic en la sección **Tareas** del panel izquierdo.
 1. Seleccione la subtarea que desea convertir en tarea principal.
-1. Haga clic en **Anular sangría** icono ![](assets/outdent-icon-nwe-31x29.png) para que la subtarea sea una tarea principal.
+1. Haga clic en el icono **Anular sangría** ![](assets/outdent-icon-nwe-31x29.png) para que la subtarea sea una tarea principal.
 
    O
 

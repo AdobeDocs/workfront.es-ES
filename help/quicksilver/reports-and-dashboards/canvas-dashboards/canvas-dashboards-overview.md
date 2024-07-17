@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Información general sobre paneles de lienzo
 
-Los paneles de lienzo le permiten visualizar fácilmente los datos de Adobe Workfront añadiendo varios tipos de informes a un lienzo personalizable. Para obtener instrucciones básicas sobre el uso de los paneles de lienzo, comience con el artículo [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). De lo contrario, consulte el siguiente índice de artículos para obtener más información sobre un tema específico.
+Los paneles de lienzo le permiten visualizar fácilmente los datos de Adobe Workfront añadiendo varios tipos de informes a un lienzo personalizable. Para obtener instrucciones básicas sobre el uso de paneles de lienzo, comience con el artículo [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). De lo contrario, consulte el siguiente índice de artículos para obtener más información sobre un tema específico.
 
 ## Paneles de lienzo: índice de artículos
 
@@ -26,7 +26,7 @@ Esta sección contiene los siguientes artículos:
    * [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [Compartir un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Tipos de informes de Panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [Tipos de informes de paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [Agregar un informe existente a un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [Creación de un informe de KPI en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [Creación de un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

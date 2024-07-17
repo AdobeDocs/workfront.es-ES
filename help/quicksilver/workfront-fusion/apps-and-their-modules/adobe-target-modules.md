@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Módulos de Adobe Target
-description: En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] Los módulos de le permiten crear, leer, actualizar o eliminar registros, enumerar todos los registros de un tipo determinado, buscar registros basados en los criterios especificados o realizar una llamada de API personalizada a [!DNL Adobe Target] API.
+description: En un escenario  [!DNL Adobe Workfront Fusion] puede automatizar los flujos de trabajo que usan [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] módulos que le permiten crear, leer, actualizar o eliminar registros, enumerar todos los registros de un tipo determinado, buscar registros según los criterios especificados o realizar una llamada de API personalizada a la API  [!DNL Adobe Target] API.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Target] Módulos
+# [!DNL Adobe Target] módulos
 
-En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL Adobe Target], así como conectarlo a múltiples aplicaciones y servicios de terceros. [!DNL Adobe Target] Los módulos de le permiten crear, leer, actualizar o eliminar registros, enumerar todos los registros de un tipo determinado, buscar registros basados en los criterios especificados o realizar una llamada de API personalizada a [!DNL Adobe Target] API.
+En un escenario de [!DNL Adobe Workfront Fusion], puede automatizar los flujos de trabajo que utilizan [!DNL Adobe Target], así como conectarlo a varias aplicaciones y servicios de terceros. Los módulos de [!DNL Adobe Target] le permiten crear, leer, actualizar o eliminar registros, enumerar todos los registros de un tipo determinado, buscar registros basados en los criterios especificados o realizar una llamada de API personalizada a la API de [!DNL Adobe Target].
 
 
-Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si necesita instrucciones para crear un escenario, consulte [Crear un escenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obtener información acerca de los módulos, vea [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acceso
 
@@ -48,17 +48,17 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>
       <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td>
     </tr>
     </tr>
@@ -66,17 +66,17 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 </table>
 
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Requisitos previos
 
-Antes de usar el [!DNL Adobe Target] Conector de, debe asegurarse de que se cumplen los siguientes requisitos previos:
+Antes de poder usar el conector [!DNL Adobe Target], debe asegurarse de que se cumplen los siguientes requisitos previos:
 
-* Debe tener un activo [!DNL Adobe Target] cuenta.
+* Debe tener una cuenta de [!DNL Adobe Target] activa.
 
-## Cree una conexión con [!DNL Adobe Target]
+## Crear una conexión con [!DNL Adobe Target]
 
 >[!IMPORTANT]
 >
@@ -85,9 +85,9 @@ Antes de usar el [!DNL Adobe Target] Conector de, debe asegurarse de que se cump
 >* Las conexiones de cuenta de servicio existentes seguirán funcionando hasta enero de 2025. Debe reemplazar las conexiones de su cuenta de servicio con las conexiones de servidor a servidor de Adobe Target para enero de 2024.
 >* Debe ser un desarrollador para su organización para crear una conexión de servidor a servidor de Adobe Target. La función de desarrollador se establece en Adobe Admin Console.
 
-Para crear una conexión para su [!DNL Adobe Target] módulos:
+Para crear una conexión para los módulos de [!DNL Adobe Target]:
 
-1. Clic **[!UICONTROL Añadir]** situado junto al cuadro Conexión.
+1. Haga clic en **[!UICONTROL Agregar]** junto al cuadro Conexión.
 
 1. Rellene los campos siguientes:
 
@@ -120,39 +120,39 @@ Para crear una conexión para su [!DNL Adobe Target] módulos:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID de cliente]</td>
-        <td>Introduzca su [!DNL Adobe] ID de cliente. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Escriba su ID de cliente [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Secreto de cliente]</td>
-        <td>Introduzca su [!DNL Adobe] Secreto del cliente. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Escriba el secreto de cliente de [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID de cuenta técnica]</td>
-        <td>Introduzca su [!DNL Adobe] ID de cuenta técnica. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Escriba su ID de cuenta técnica de [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID de organización]</td>
-        <td>Introduzca su [!DNL Adobe] ID de organización. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Escriba su ID de organización [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Inquilino]</td>
         <td>
-          <p> Para localizar a su inquilino, inicie sesión en [!DNL Adobe Experience Cloud], abrir [!DNL Target]y haga clic en [!DNL Target] Tarjeta de. Utilice el valor ID de inquilino como se indica en el subdominio URL.</p>
-          <p>Por ejemplo, si su dirección URL al iniciar sesión en [!DNL Adobe Target] es <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> a continuación, su ID de inquilino es "mycompany".</p>
+          <p> Para localizar a su inquilino, inicie sesión en [!DNL Adobe Experience Cloud], abra [!DNL Target] y haga clic en la tarjeta [!DNL Target]. Utilice el valor ID de inquilino como se indica en el subdominio URL.</p>
+          <p>Por ejemplo, si la dirección URL cuando inició sesión en [!DNL Adobe Target] es <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code>, el identificador de inquilino es "mycompany".</p>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL MetaÁmbitos]</td>
-        <td>Entrar <code>ent_marketing_sdk</code>       </td>
+        <td>Ingresar <code>ent_marketing_sdk</code>       </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Clave privada]</td>
         <td>
-          <p>Introduzca la clave privada que se generó cuando se crearon las credenciales en la [!DNL Adobe Developer Console]. </p>
+          <p>Escriba la clave privada que se generó cuando se crearon las credenciales en [!DNL Adobe Developer Console]. </p>
           <p>Para extraer la clave privada o el certificado:</p>
           <ol>
             <li value="1">
-              <p>Clic <b>[!UICONTROL Extraer]</b>.</p>
+              <p>Haga clic en <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Seleccione el tipo de archivo que está extrayendo.</p>
@@ -164,7 +164,7 @@ Para crear una conexión para su [!DNL Adobe Target] módulos:
               <p>Introduzca la contraseña del archivo.</p>
             </li>
             <li value="5">
-              <p>Clic <b>[!UICONTROL Guardar]</b> para extraer el archivo y volver a la configuración de conexión.</p>
+              <p>Haga clic en <b>[!UICONTROL Guardar]</b> para extraer el archivo y volver a la configuración de conexión.</p>
             </li>
           </ol>
         </td>
@@ -172,13 +172,13 @@ Para crear una conexión para su [!DNL Adobe Target] módulos:
     </tbody>
     </table>
 
-1. Clic **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
+1. Haga clic en **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
 
 ## [!DNL Adobe Target] módulos y sus campos
 
-Al configurar [!DNL Adobe Target] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL Adobe Target] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL Adobe Target] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL Adobe Target] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -189,18 +189,18 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ### Acciones
 
-* [[!UICONTROL Creación de un registro]](#create-a-record)
+* [[!UICONTROL Crear un registro]](#create-a-record)
 
 * [[!UICONTROL Realizar una llamada de API personalizada]](#make-a-custom-api-call)
 
-* [[!UICONTROL Eliminación de un registro]](#delete-a-record)
+* [[!UICONTROL Eliminar un registro]](#delete-a-record)
 
 * [[!UICONTROL Leer un registro]](#read-a-record)
 
-* [[!UICONTROL Actualización de un registro]](#update-a-record)
+* [[!UICONTROL Actualizar un registro]](#update-a-record)
 
 
-#### [!UICONTROL Creación de un registro]
+#### [!UICONTROL Crear un registro]
 
 Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
 
@@ -210,7 +210,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], vea <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Crear una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -218,17 +218,17 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
       <p>Seleccione el tipo de registro que desea crear.</p>
       <ul>
         <li>
-        <b>Propiedad</b><p>Para obtener más información sobre los campos, consulte <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">Creación de una propiedad</a> en la documentación de la API de Adobe Target.</p>
+        <b>Propiedad</b><p>Para obtener más información sobre los campos, consulte <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">Crear una propiedad</a> en la documentación de la API de Adobe Target.</p>
         </li>
         <li>
-        <b>Recomendación de oferta</b><p>Para obtener más información sobre los campos, consulte <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">Crear una nueva oferta de Recs</a> en la documentación de la API de Adobe Target.</p>
+        <b>Recomendación de oferta</b><p>Para obtener más información sobre los campos, consulte <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">Crear una nueva oferta de recomendaciones</a> en la documentación de la API de Adobe Target.</p>
         </li>
         <li>
-          <b>Oferta [!UICONTROL JSON]</b>
+          <b>[!UICONTROL Oferta JSON]</b>
           <p>Continuar a <a href="#offer-fields" class="MCXref xref" >Campos de oferta</a>.</p>
         </li>
         <li>
-          <b>[!UICONTROL Contenido de oferta]</b>
+          <b>[!UICONTROL Contenido de la oferta]</b>
           <p>Continuar a <a href="#offer-fields" class="MCXref xref" >Campos de oferta</a>.</p>
         </li>
         <li>
@@ -244,10 +244,10 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
         </li>
         <li>
           <b>[!UICONTROL XT Activity]</b>
-          <p>Continuar a <a href="#xt-activity-fields" class="MCXref xref" >Campos de actividad XT</a>.</p>
+          <p>Continuar a <a href="#xt-activity-fields" class="MCXref xref" >campos de actividad XT</a>.</p>
         </li>
         <li>
-          <b>[!UICONTROL Actividad AP]</b>
+          <b>[!UICONTROL Actividad de AP]</b>
           <p>Para obtener más información sobre los campos, consulte <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">Crear actividad AP</a> en la documentación de la API de Adobe Target.</p>
         </li>
         <li>
@@ -476,10 +476,10 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
     <tr>
       <td role="rowheader">[!UICONTROL Opciones]</td>
       <td>
-        <p>Para cada opción que desee añadir a la actividad, haga clic en <b>[!UICONTROL Agregar elemento]</b> y rellene los campos siguientes:</p>
+        <p>Para cada opción que desee agregar a la actividad, haga clic en <b>[!UICONTROL Agregar elemento]</b> y rellene los campos siguientes:</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL Id. local de opción]</b>
+            <p><b>[!UICONTROL Option local ID]</b>
             </p>
             <p>Introduzca o asigne una cadena para utilizar en el seguimiento de la opción entre solicitudes de API.</p>
           </li>
@@ -501,7 +501,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
     <tr>
       <td role="rowheader">[!UICONTROL Ubicaciones]</td>
       <td>
-        <p>Para cada Mbox que desee añadir a la actividad, haga clic en <b>[!UICONTROL Agregar elemento]</b> y rellene los campos siguientes:</p>
+        <p>Para cada Mbox que desee agregar a la actividad, haga clic en <b>[!UICONTROL Agregar elemento]</b> y rellene los campos siguientes:</p>
         <ul>
           <li>
             <p>[!UICONTROL ID de audiencia]</p>
@@ -541,7 +541,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>Para cada audiencia en la que desee ver la experiencia, haga clic en <b>[!UICONTROL Agregar elemento]</b> e introduzca el ID de audiencia.
+            <p>Para cada audiencia para la que desee ver la experiencia, haga clic en <b>[!UICONTROL Agregar elemento]</b> e introduzca el ID de audiencia.
 
 </p>
           </li>
@@ -563,11 +563,11 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Empieza en]</td>
-      <td>Introduzca o asigne la fecha y la hora de inicio de la actividad con el formato <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Escriba o asigne la fecha y la hora de inicio de la actividad con el formato <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Finaliza en]</td>
-      <td>Introduzca o asigne la fecha y la hora de finalización de la actividad con el formato <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Escriba o asigne la fecha y la hora de finalización de la actividad con el formato <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Estado]</td>
@@ -609,7 +609,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Id. de propiedad] </td>
-      <td>Para cada propiedad que desee añadir a la actividad, haga clic en <b>[!UICONTROL Agregar elemento]</b> y seleccione o asigne el ID de la propiedad.</td>
+      <td>Para cada propiedad que desee agregar a la actividad, haga clic en <b>[!UICONTROL Agregar elemento]</b> y seleccione o asigne el ID de la propiedad.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Reporting audiences]</td>
@@ -617,7 +617,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
         <p>Para cada audiencia de informes que desee agregar a la actividad, haga clic en [!UICONTROL Agregar elemento] e introduzca la siguiente información:</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL Reporting Audience local ID]</b>
+            <p><b>[!UICONTROL Reporting ID local de audiencia]</b>
             </p>
             <p>Introduzca o asigne una cadena para utilizar en el seguimiento de la audiencia de informes en las solicitudes de API.</p>
           </li>
@@ -656,7 +656,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
       <td>
-        <p>Introduzca o asigne el ID del espacio de trabajo asociado a la oferta. Si se deja en blanco, la oferta se asocia al espacio de trabajo predeterminado de la cuenta. Esta funcionalidad solo se aplica a [!DNL Target] Cuentas Premium.</p>
+        <p>Introduzca o asigne el ID del espacio de trabajo asociado a la oferta. Si se deja en blanco, la oferta se asocia al espacio de trabajo predeterminado de la cuenta. Esta funcionalidad se aplica solamente a [!DNL Target] cuentas de Premium.</p>
       </td>
     </tr>
     <tr>
@@ -742,7 +742,7 @@ Este módulo de acción crea una actividad AB o XT, una oferta o una audiencia.
 
 #### [!UICONTROL Realizar una llamada de API personalizada]
 
-Este módulo realiza una llamada de API personalizada a [!DNL Adobe Target] API.
+Este módulo realiza una llamada de API personalizada a la API [!DNL Adobe Target].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -750,25 +750,25 @@ Este módulo realiza una llamada de API personalizada a [!DNL Adobe Target] API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], vea <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Crear una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] URL base]</td>
-      <td>Introduzca o asigne su [!DNL Target] URL base.</td>
+      <td>Escriba o asigne la dirección URL base [!DNL Target].</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Ruta]</p>
       </td>
       <td>
-        <p>Introduzca una ruta relativa a {baseURL}/</p>
+        <p>Escriba una ruta relativa a {baseURL}/</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Método]</p>
       </td>
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Encabezados]</td>
@@ -786,14 +786,14 @@ Este módulo realiza una llamada de API personalizada a [!DNL Adobe Target] API.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Cuerpo]</td>
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Eliminación de un registro]
+#### [!UICONTROL Eliminar un registro]
 
 Este módulo de acción elimina una sola actividad AB, actividad XT, oferta o audiencia.
 
@@ -803,7 +803,7 @@ Este módulo de acción elimina una sola actividad AB, actividad XT, oferta o au
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], vea <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Crear una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -826,7 +826,7 @@ Este módulo de acción recupera datos de una sola actividad, oferta, audiencia,
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], vea <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Crear una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -839,7 +839,7 @@ Este módulo de acción recupera datos de una sola actividad, oferta, audiencia,
 </tbody>
 </table>
 
-#### [!UICONTROL Actualización de un registro]
+#### [!UICONTROL Actualizar un registro]
 
 Este módulo de acción actualiza un registro en Target.
 
@@ -849,7 +849,7 @@ Este módulo de acción actualiza un registro en Target.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], vea <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Crear una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -860,7 +860,7 @@ Este módulo de acción actualiza un registro en Target.
     <tr>
       <td role="rowheader">[!UICONTROL Nombres de campos]</td>
       <td>Seleccione los campos que desea actualizar. Los campos aparecen a continuación.
-          <p>Para obtener más información sobre los campos, consulte <a href="https://developer.adobe.com/target/administer/admin-api/">la documentación de la API de Adobe Target</a>.</p>
+          <p>Para obtener detalles sobre los campos, consulte <a href="https://developer.adobe.com/target/administer/admin-api/">la documentación de la API de Adobe Target</a>.</p>
       </td>
     </tr>
   </tbody>
@@ -883,7 +883,7 @@ Este módulo de búsqueda recupera una lista de registros del tipo seleccionado.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], vea <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Crear una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -897,14 +897,14 @@ Este módulo de búsqueda recupera una lista de registros del tipo seleccionado.
       <td role="rowheader">[!UICONTROL Comienza En]</td>
       <td>
         <p>Introduzca la fecha más temprana para la que desea recuperar registros. </p>
-        <p>Para obtener una lista de los formatos de fecha y hora admitidos, consulte <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Coerción de tipos en [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>Para obtener una lista de los formatos de fecha y hora admitidos, vea <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Coerción de tipos en [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Finaliza En]</td>
       <td>
         <p>Introduzca la última fecha para la que desea recuperar registros. </p>
-        <p>Para obtener una lista de los formatos de fecha y hora admitidos, consulte <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Coerción de tipos en [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>Para obtener una lista de los formatos de fecha y hora admitidos, vea <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Coerción de tipos en [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
   </tbody>
@@ -920,7 +920,7 @@ Este módulo de búsqueda busca Actividades, Ofertas o Audiencias en función de
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Conexión]</td>
-    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], consulte <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Cree una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
+    <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Target], vea <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Crear una conexión con [!DNL Adobe Target]</a> en este artículo.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Tipo de registro]</td>
@@ -932,7 +932,7 @@ Este módulo de búsqueda busca Actividades, Ofertas o Audiencias en función de
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Criterios de búsqueda]</td>
-    <td>Para cada regla que desee configurar, seleccione el campo, el operador y el valor. Clic <b>[!UICONTROL Agregar regla AND]</b> para crear reglas adicionales.</td>
+    <td>Para cada regla que desee configurar, seleccione el campo, el operador y el valor. Haga clic en <b>[!UICONTROL Agregar regla AND]</b> para crear reglas adicionales.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Desplazamiento]</td>

@@ -21,9 +21,9 @@ ht-degree: 1%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 20 de junio de 2022.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Ya están disponibles el conector y los módulos AEM Assets de Adobe
 
@@ -42,4 +42,4 @@ Ahora puede utilizar Adobe Workfront Fusion para conectarse a su cuenta de Adobe
 * Realizar una llamada de API personalizada
 
 
-Para obtener más información, consulte [Módulos de Adobe Experience Manager Assets](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).
+Para obtener más información, consulte [módulos de Adobe Experience Manager Assets](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).

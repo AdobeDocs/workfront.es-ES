@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general sobre la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Orden ascendente predeterminado para la fecha planificada de finalización y capacidad de agrupar por fecha planificada de inicio en la lista de inicio de trabajo
 
@@ -33,7 +33,7 @@ Para que sea más fácil y rápido encontrar los elementos que requieren su aten
 
 Antes de estas mejoras, solo podías agrupar los artículos por fecha planificada de finalización y por fecha de confirmación.
 
-Para obtener más información, consulte [Mostrar elementos en la Lista de trabajos en el área de Inicio](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Para obtener más información, vea [Mostrar elementos en la Lista de trabajos en el área de Inicio](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Agregar el área Mis actualizaciones para todos los usuarios con licencia
 
@@ -48,7 +48,7 @@ Al abrir el área Mis actualizaciones, ahora puede encontrar rápidamente la sig
 * Las aprobaciones que esperan su decisión se muestran en la primera mitad de la página Mis actualizaciones. Puede aprobar, rechazar, sugerir cambios, conceder acceso o delegar sus aprobaciones a otros.
 * Los comentarios en los que se le ha incluido se muestran en la mitad inferior de la página Mis actualizaciones, en la sección Menciones.
 
-Para obtener más información, consulte [Utilice el área Mis actualizaciones](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Para obtener más información, vea [Usar el área Mis actualizaciones](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Mejoras en las hojas de horas
 
@@ -63,7 +63,7 @@ Algunas de estas actualizaciones incluyen:
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Comprender el diseño de Hoja de horas](../../../timesheets/timesheets/timesheet-layout.md)
+* [Comprender el diseño de la hoja de horas](../../../timesheets/timesheets/timesheet-layout.md)
 * [Hora de registro](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## Nueva barra de herramientas para listas de usuarios

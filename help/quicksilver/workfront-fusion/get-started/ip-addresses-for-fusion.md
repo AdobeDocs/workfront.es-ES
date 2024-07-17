@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una licencia de [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] requiere una licencia de [!DNL Adobe Workfront Fusion] además de [!DNL Adobe Workfront license].
 
-Si el cortafuegos o el servidor de correo están configurados para permitir el acceso solo a determinados proveedores, debe añadir determinadas direcciones IP a su lista de permitidos para permitir la comunicación abierta entre su entorno y [!DNL Adobe Workfront Fusion].
+Si el firewall o el servidor de correo están configurados para permitir el acceso sólo a determinados proveedores, debe agregar determinadas direcciones IP a su lista de permitidos para permitir la comunicación abierta entre su entorno y [!DNL Adobe Workfront Fusion].
 
-Añada las siguientes direcciones IP a su lista de permitidos para habilitar [!DNL Workfront Fusion] para acceder a su sistema.
+Agregue las siguientes direcciones IP a su lista de permitidos para permitir que [!DNL Workfront Fusion] acceda a su sistema.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,4 +87,4 @@ Además, si su organización utiliza el filtrado de red saliente, añada el sigu
 >
 >El filtrado de red saliente es poco común. Consulte con el administrador de la red si necesita actualizar la lista de permitidos para adaptarla.
 
-Para obtener más información sobre la configuración de la lista de permitidos de su organización, consulte [Configuración de la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obtener más información sobre cómo configurar la lista de permitidos de su organización, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

@@ -1,6 +1,6 @@
 ---
-title: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 23 de agosto de 2021
-description: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 23 de agosto de 2021
+title: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 23 de agosto de 2021'
+description: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 23 de agosto de 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 23 de agosto de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Los campos de escritura anticipada ahora están disponibles en los módulos de Workfront
 
@@ -28,7 +28,7 @@ Para facilitar el uso de los módulos, se han sustituido algunas listas desplega
 
 Anteriormente, los usuarios seleccionaban elementos de las listas desplegables. Según el objeto, estas listas podrían ser largas y podría resultar incómodo desplazarse y localizar elementos.
 
-Para obtener más información sobre los módulos de Workfront, consulte [Módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información sobre los módulos Workfront, consulte [módulos Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## El objeto de registro de facturación ya está disponible en los módulos de Workfront
 
@@ -43,7 +43,7 @@ El objeto de registro Facturación está disponible en las listas desplegables d
 
 Anteriormente, el objeto de registro de facturación solo estaba disponible a través de la asignación.
 
-Para obtener más información, consulte [Módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información, consulte [módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

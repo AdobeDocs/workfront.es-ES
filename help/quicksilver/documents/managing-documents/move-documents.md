@@ -34,7 +34,7 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -43,11 +43,11 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar el acceso al documento</p> <p>Permiso para agregar documentos al nuevo objeto</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar el acceso al documento</p> <p>Permiso para agregar documentos al nuevo objeto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,13 +56,13 @@ Debe tener lo siguiente:
 
 ## Mover un documento
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. Haga clic en el **Mover** icono ![](assets/move-document--25x19.png).
+1. Haga clic en el icono **Mover** ![](assets/move-document--25x19.png).
 1. En el menú desplegable del cuadro que aparece, haga clic en **Problema**, **Proyecto** o **Tarea** para indicar el tipo de objeto al que desea mover el documento. 
 
-1. Escriba el nombre del **Problema**, **Proyecto** o **Tarea** en el cuadro de texto.
+1. Escriba el nombre de **Problema**, **Proyecto** o **Tarea** en el cuadro de texto.
 
 1. Haga clic en **Finalizar**.
 

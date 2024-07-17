@@ -17,15 +17,15 @@ ht-degree: 1%
 
 <!--Audited: 01/2024-->
 
-[!DNL Adobe Workfront] permite a los equipos de agile completar el trabajo de forma incremental y organizada.
+[!DNL Adobe Workfront] permite que los equipos de Agile completen el trabajo de forma incremental y organizada.
 
-Cualquier usuario de la organización puede ver el equipo Agile y todos los componentes Agile del equipo, incluidos el registro de pendientes, las iteraciones, el guion gráfico y las historias individuales. Sin embargo, solo los miembros del equipo con [!UICONTROL Editar] el acceso al trabajo puede realizar cambios en el trabajo asignado al equipo.
+Cualquier usuario de la organización puede ver el equipo Agile y todos los componentes Agile del equipo, incluidos el registro de pendientes, las iteraciones, el guion gráfico y las historias individuales. Sin embargo, solo los miembros del equipo con acceso de [!UICONTROL Editar] pueden realizar cambios en el trabajo asignado al equipo.
 
-[!DNL Workfront] admite las siguientes metodologías agile:
+[!DNL Workfront] admite las siguientes metodologías Agile:
 
-* **[!UICONTROL Scrum]**: los equipos tienen un registro de pendientes del trabajo que debe realizarse. Cuando el equipo está listo para trabajar en una parte específica del trabajo, el trabajo se mueve del registro de pendientes a una iteración. Para obtener información más detallada sobre la administración de un equipo de Scrum, consulte [Scrum en un equipo ágil](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **[!UICONTROL Scrum]**: los equipos tienen un trabajo pendiente que debe completarse. Cuando el equipo está listo para trabajar en una parte específica del trabajo, el trabajo se mueve del registro de pendientes a una iteración. Para obtener información más detallada sobre cómo administrar un equipo de Scrum, consulta [Scrum en un equipo Agile](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* **[!UICONTROL Kanban]:** Los equipos mueven el trabajo en la vista Kanban a través de estados predeterminados. Los estados predeterminados son: registro de pendientes, en proceso y listo. Para obtener información más detallada sobre la gestión de un equipo Kanban, consulte [Kanban en un equipo ágil](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **[!UICONTROL Kanban]:** Los equipos mueven el trabajo en la vista Kanban a través de estados predeterminados. Los estados predeterminados son: registro de pendientes, en proceso y listo. Para obtener información más detallada sobre cómo administrar un equipo Kanban, consulte [Kanban en un equipo Agile](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Requisitos de acceso
 
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 +++
 
@@ -61,42 +61,42 @@ Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con su [
 
 Puede utilizar una metodología Agile de Scrum o Kanban para su equipo Agile. Cada metodología ofrece varios beneficios. La forma en que trabaja su equipo Agile determina la metodología Agile que elija utilizar.
 
-Metodologías ágiles de Scrum y Kanban en [!DNL Workfront] permite mover historias a través de un guion gráfico para indicar un cambio de estado y el progreso de la historia.
+Tanto la metodología Agile de Scrum como la de Kanban en [!DNL Workfront] le permiten mover historias a través de un guion gráfico para indicar un cambio de estado y el progreso de la historia.
 
-Metodologías ágiles de Scrum y Kanban en [!DNL Workfront] difieren en los siguientes aspectos:
+Las metodologías Scrum y Kanban Agile en [!DNL Workfront] difieren en los siguientes aspectos:
 
-### Ventajas de utilizar Kanban en [!DNL Workfront]
+### Ventajas de usar Kanban en [!DNL Workfront]
 
-El [!DNL Kanban] metodología Agile en [!DNL Workfront] le permite mover con mayor facilidad las historias a través de un panel de historias Agile al mismo tiempo que limita la cantidad de trabajo en curso. No hay fechas de inicio y finalización al utilizar [!DNL Kanban] metodología Agile.
+La metodología Agile [!DNL Kanban] de [!DNL Workfront] le permite mover más fácilmente las historias a través de un panel de historias Agile al mismo tiempo que limita la cantidad de trabajo en curso. No hay fechas de inicio y finalización al usar la metodología Agile [!DNL Kanban].
 
 La siguiente funcionalidad es compatible con esta metodología:
 
-* Mostrar el registro de pendientes en [!DNL Kanban] agile story board.\
-   Para obtener más información, consulte [Añada el registro de pendientes a [!UICONTROL Kanban] tablero](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+* Mostrar el registro de pendientes en el panel de historias Agile [!DNL Kanban].\
+   Para obtener más información, consulte [Agregar el registro de pendientes al tablero [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configure los elementos del registro de pendientes para que se agreguen automáticamente al [!UICONTROL Kanban] guion gráfico de Agile cuando otros elementos se mueven a un estado que equivale a Completado.\
-   Para obtener más información, consulte la sección [Configurar historias para que se agreguen automáticamente desde el registro de pendientes](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) en el artículo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+* Configure los elementos del registro de pendientes para que se agreguen automáticamente al panel de historias ágil [!UICONTROL Kanban] cuando otros elementos se muevan a un estado que sea igual a Completo.\
+   Para obtener más información, consulte la sección [Configurar historias para que se agreguen automáticamente del registro de pendientes](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) en el artículo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure un límite de trabajo en curso (WIP) para que se muestre en la [!UICONTROL Kanban] agile story board.\
+* Configure un límite de trabajo en curso (WIP) para que se muestre en el [!UICONTROL Panel de historias Agile de Kanban].\
    Para obtener más información, consulte [Administrar el límite de trabajo en curso (WIP) en el Panel Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Ventajas de usar Scrum en [!DNL Workfront]
 
-La metodología Scrum agile en [!DNL Workfront] permite agregar un conjunto de historias a una iteración Agile y crear un guion gráfico para esa iteración. La iteración se basa en las fechas de inicio y finalización definidas.
+La metodología Scrum agile de [!DNL Workfront] le permite agregar un conjunto de historias a una iteración Agile y crear un guion gráfico para esa iteración. La iteración se basa en las fechas de inicio y finalización definidas.
 
 La siguiente funcionalidad es compatible con esta metodología:
 
-* Incluir problemas en [!UICONTROL Scrum] guion gráfico
+* Incluir problemas en el guion gráfico de [!UICONTROL Scrum]
 * Incluir problemas en el registro de pendientes de un equipo Agile
-* Las subtareas se pueden mostrar en la [!UICONTROL Scrum] guion gráfico
+* Las subtareas se pueden mostrar en el guion gráfico de [!UICONTROL Scrum]
 * Ver un gráfico de evolución para ver el progreso de las historias durante la iteración\
-   Para obtener más información, consulte [Resumen del gráfico de evolución Agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+   Para obtener más información, consulte [Resumen del gráfico de evolución de Agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Crear un equipo ágil
 
 {{step1-to-team}}
 
-1. Haga clic en **[!UICONTROL Cambiar equipos]** icono ![Icono Cambiar equipo](assets/switch-team-icon.png), luego haga clic en **[!UICONTROL Crear nuevo equipo]**.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipos]** ![Cambiar equipo](assets/switch-team-icon.png) y, a continuación, haga clic en **[!UICONTROL Crear nuevo equipo]**.
 
    ![Seleccione Crear nuevo equipo.](assets/create-new-team-350x198.png)
 
@@ -124,12 +124,12 @@ La siguiente funcionalidad es compatible con esta metodología:
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL Grupo]</strong> </td> 
-      <td> <p>Empiece a escribir el nombre de un grupo para agregarlo al equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.</p> <p><b>NOTA</b></p> <p> Cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro del equipo. Los administradores de grupos pueden ir al área de [!UICONTROL Teams] desde el menú principal de [!UICONTROL] y hacer clic en la flecha de [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> para enumerar todos los equipos asignados a los grupos que administran.</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
+      <td> <p>Empiece a escribir el nombre de un grupo para agregarlo al equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.</p> <p><b>NOTA</b></p> <p> Cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro del equipo. Los administradores del grupo pueden ir al área de [!UICONTROL Teams] desde el menú principal de [!UICONTROL] y hacer clic en la flecha <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> de [!UICONTROL Switch Teams] para ver una lista de todos los equipos asignados a los grupos que administran.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Miembros del equipo]</strong> </td> 
-      <td>Empiece a escribir el nombre de un usuario para que esté en el equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.<br>Repita este proceso para agregar varios usuarios al equipo.<br>Dado que los usuarios pueden estar en más de un equipo, pueden estar en equipos Agile y no Agile.</td> 
+      <td>Empiece a escribir el nombre de un usuario para que esté en el equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.<br>Repita este proceso para agregar varios usuarios al equipo.<br>Como los usuarios pueden estar en más de un equipo, pueden estar en equipos Agile y no Agile.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descripción]</strong> </td> 
@@ -150,19 +150,19 @@ La siguiente funcionalidad es compatible con esta metodología:
 
 Puede convertir un equipo existente en un equipo Agile:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Equipos]**.
-1. Haga clic en **[!UICONTROL Cambiar equipo]** icono ![Icono Cambiar equipo](assets/switch-team-icon.png), seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Seleccione el equipo que desea convertir en un equipo Agile.
-1. Haga clic en **[!UICONTROL Más]** menú, luego seleccione **[!UICONTROL Editar]**.\
-   Solo los miembros del equipo con un [!UICONTROL Plan] o [!UICONTROL Trabajo] licencia consulte esta opción.\
+1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.\
+   Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.\
    ![](assets/edit-team-settings-350x205.png)
 
-1. En el **[!UICONTROL Agile]** , seleccione **[!UICONTROL Este es un equipo ágil]**.
+1. En la sección **[!UICONTROL Agile]**, seleccione **[!UICONTROL Este es un equipo Agile]**.
 
-1. En el **[!UICONTROL Metodología]** , seleccione si el equipo va a utilizar un **[!UICONTROL Scrum]** o **[!UICONTROL Kanban]** metodología Agile.
+1. En la sección **[!UICONTROL Metodología]**, seleccione si el equipo utilizará una metodología ágil de **[!UICONTROL Scrum]** o **[!UICONTROL Kanban]**.
 
-1. Clic **Guardar cambios.**
+1. Haga clic en **Guardar cambios.**
 
    El equipo se guarda como un equipo Agile. Puede configurar el nuevo equipo como un equipo de Scrum o Kanban cuando edite el equipo.
 

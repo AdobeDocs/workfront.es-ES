@@ -17,13 +17,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Su organización debe adquirir una licencia adicional para [!DNL Adobe Workfront Scenario Planner] para poder ver la información de la iniciativa de un proyecto. Para obtener información sobre la obtención de [!DNL Workfront Scenario Planner], consulte [Acceso necesario para utilizar [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+>Su organización debe adquirir una licencia adicional para [!DNL Adobe Workfront Scenario Planner] a fin de poder ver la información de la iniciativa en un proyecto. Para obtener información acerca de cómo obtener [!DNL Workfront Scenario Planner], vea [Acceso necesario para usar  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Después de conectar proyectos e iniciativas, puede administrar su asignación de recursos en paralelo para asegurarse de que coincidan. Esto evita una asignación excesiva o una infrautilización.
 
-Este artículo describe cómo puede reconciliar recursos mediante el [!UICONTROL Asignación de funciones] panel en [!UICONTROL Distribuidor de cargas de trabajo] de un proyecto.
+Este artículo describe cómo puede reconciliar recursos mediante el panel [!UICONTROL Asignación de funciones] en el [!UICONTROL Distribuidor de cargas de trabajo] de un proyecto.
 
-Para obtener información general sobre la conciliación de recursos entre proyectos e iniciativas, incluidos los requisitos previos, consulte [Resumen de la conciliación de asignaciones de recursos entre proyectos e iniciativas](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Para obtener información general sobre cómo conciliar recursos entre proyectos e iniciativas, incluidos los requisitos previos, vea [Información general sobre la conciliación de asignaciones de recursos entre proyectos e iniciativas](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 ## Requisitos de acceso
 
@@ -42,29 +42,29 @@ Debe hacer lo siguiente:
    <td> <p>[!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Product</b> </td> 
-   <td> <p>Debe adquirir una licencia adicional para el [!DNL Adobe Workfront Scenario Planner] para acceder a la funcionalidad descrita en este artículo.</p> <p>Para obtener información sobre la obtención de [!DNL Workfront Scenario Planner], consulte <a href="../scenario-planner/access-needed-to-use-sp.md">Acceso necesario para utilizar [!DNL Scenario Planner]</a>. </p> </td> 
+   <td><b>Producto</b> </td> 
+   <td> <p>Debe adquirir una licencia adicional para la funcionalidad [!DNL Adobe Workfront Scenario Planner] de acceso descrita en este artículo.</p> <p>Para obtener información acerca de cómo obtener [!DNL Workfront Scenario Planner], vea <a href="../scenario-planner/access-needed-to-use-sp.md">Acceso necesario para usar [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configuraciones de nivel de acceso*</strong> </td> 
-   <td> <p>[!UICONTROL View] o acceso superior a Proyectos </p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede cambiar su nivel de acceso. Consulte <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] o acceso superior a Proyectos </p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permisos de objeto</strong> </p> </td> 
-   <td> <p>[!UICONTROL View] o permisos superiores en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional a un plan, consulte <a href="../scenario-planner/request-access-to-plan.md">[!UICONTROL Request] acceso a un plan en el [!DNL Workfront Scenario Planner]</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional a un proyecto, consulte <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>. </p> </td> 
+   <td> <p>[!UICONTROL View] o permisos superiores en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional a un plan, vea <a href="../scenario-planner/request-access-to-plan.md">[!UICONTROL Request] acceso a un plan en [!DNL Workfront Scenario Planner]</a>.</p> <p>Para obtener información acerca de cómo solicitar acceso adicional a un proyecto, vea <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Mostrar la asignación de funciones para proyectos e iniciativas en [!UICONTROL Distribuidor de cargas de trabajo]
 
-Si su empresa ha adquirido un [!DNL Workfront Scenario Planner] licencia, puede reconciliar las asignaciones de recursos entre la iniciativa y el proyecto vinculado en el nivel de proyecto [!UICONTROL Distribuidor de cargas de trabajo].
+Si su compañía ha adquirido una licencia de [!DNL Workfront Scenario Planner], puede reconciliar las asignaciones de recursos entre la iniciativa y el proyecto vinculado a ella en el nivel de proyecto [!UICONTROL Distribuidor de cargas de trabajo].
 
 1. (Condicional) Conecte un proyecto con una iniciativa mediante uno de los métodos descritos en los siguientes artículos:
 
-   * [Proyectos importados a planes en [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
+   * [Importar proyectos a planes en [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
    * [Actualice o cree proyectos publicando iniciativas en [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md).
 
    >[!IMPORTANT]
@@ -72,28 +72,28 @@ Si su empresa ha adquirido un [!DNL Workfront Scenario Planner] licencia, puede 
    >Si realiza cambios en los recursos de la iniciativa, debe volver a publicar el escenario al que pertenece la iniciativa para que se actualice la información de recursos más reciente de la iniciativa en el proyecto.
 
 1. Vaya al proyecto en el que desea revisar la asignación de funciones del puesto para el proyecto y para la iniciativa asociada.
-1. Clic [!UICONTROL Distribuidor de cargas de trabajo] en el panel izquierdo.
+1. Haga clic en [!UICONTROL Distribuidor de cargas de trabajo] en el panel izquierdo.
 
-   Es posible que tenga que hacer clic en **[!UICONTROL Programación]**, entonces **[!UICONTROL Cambiar al Distribuidor de cargas de trabajo]**.
+   Es posible que tenga que hacer clic en **[!UICONTROL Programación]** y luego **[!UICONTROL Cambiar al Distribuidor de cargas de trabajo]**.
 
 1. Realice una de las siguientes acciones:
 
-   * Clic **[!UICONTROL Mes]** para ver el Distribuidor de cargas de trabajo por mes, haga clic en el menú desplegable situado junto a un mes en la cronología ![](assets/drop-down-next-to-month-month-view-wb.png), luego haga clic en **[!UICONTROL Más]**.
-   * Haga clic en **[!UICONTROL Mostrar asignación de funciones]** icono ![](assets/show-role-allocation-icon.png) en la esquina superior derecha de la barra de herramientas.
+   * Haga clic en **[!UICONTROL Mes]** para ver el Distribuidor de cargas de trabajo por mes, haga clic en el menú desplegable situado junto a un mes en la escala de tiempo ![](assets/drop-down-next-to-month-month-view-wb.png) y, a continuación, haga clic en **[!UICONTROL Más]**.
+   * Haga clic en el icono **[!UICONTROL Mostrar asignación de funciones]** ![](assets/show-role-allocation-icon.png) en la esquina superior derecha de la barra de herramientas.
 
-   El [!UICONTROL Asignación de funciones] se muestra el panel.
+   Se muestra el panel [!UICONTROL Asignación de funciones].
 
    ![](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
-   >Aunque se puede ver la variable [!UICONTROL Asignación de funciones] panel incluso si su organización no ha comprado un [!DNL Workfront Scenario Planner] licencia, no puede ver información sobre los roles de las iniciativas.
+   >Aunque puede ver el panel [!UICONTROL Asignación de funciones] aunque su organización no haya adquirido una licencia de [!DNL Workfront Scenario Planner], no podrá ver información sobre las funciones del puesto de las iniciativas.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
    -->
 
-1. Revise la siguiente información en la **[!UICONTROL Totales de proyecto]** del panel Asignación de funciones:
+1. Revise la siguiente información en el área **[!UICONTROL Totales del proyecto]** del panel Asignación de roles:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -110,7 +110,7 @@ Si su empresa ha adquirido un [!DNL Workfront Scenario Planner] licencia, puede 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Horas de la iniciativa]</td> 
-      <td>El número de horas requeridas asociadas con cada función del puesto en la iniciativa durante la duración total de la iniciativa. </td> 
+      <td>El número de horas requeridas asociadas con cada rol en la iniciativa durante la duración total de la iniciativa. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Horas planificadas]</td> 
@@ -130,38 +130,38 @@ Si su empresa ha adquirido un [!DNL Workfront Scenario Planner] licencia, puede 
    >   
    >   
    >   * Cuando las tareas o los problemas no están asignados a funciones del puesto, o a usuarios con una función del puesto asociada a ellos.
-   >   * Cuando las tareas o los problemas tengan un [!UICONTROL Duración] de cero.
+   >   * Cuando las tareas o los problemas tienen una [!UICONTROL Duración] de cero.
+   >   
+   >
 
 
 
-
-1. (Opcional) Si la variable [!UICONTROL Desviación] La columna muestra que los recursos están sobreasignados y ajuste una de las siguientes opciones:
+1. (Opcional) Si la columna [!UICONTROL Varianza] muestra que sus recursos están sobreasignados, ajuste una de las siguientes opciones:
 
    * Reduzca el número de horas planificadas para un rol que muestre sobreasignado o agregue más recursos a las tareas y distribuya más horas planificadas a los nuevos recursos. Al editarlas, puede actualizar las asignaciones o el número de horas planificadas de las tareas o problemas. Para obtener más información, consulte los siguientes artículos:
 
       * [Editar tareas](../manage-work/tasks/manage-tasks/edit-tasks.md)
       * [Editar problemas](../manage-work/issues/manage-issues/edit-issues.md)
 
-      >[!NOTE]
-      >
-      >Debe tener acceso y permisos adicionales para editar tareas y problemas.
+     >[!NOTE]
+     >
+     >Debe tener acceso y permisos adicionales para editar tareas y problemas.
 
-   * Aumente el número de horas necesarias para el rol que muestra la sobreasignación en la iniciativa. Para obtener más información, consulte [Cree y edite iniciativas en [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md).
+   * Aumente el número de horas necesarias para el rol que muestra la sobreasignación en la iniciativa. Para obtener más información, consulte [Crear y editar iniciativas en [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md).
 
-      >[!NOTE]
-      >
-      >Debe tener acceso y permisos adicionales para editar planes.
+     >[!NOTE]
+     >
+     >Debe tener acceso y permisos adicionales para editar planes.
 
-
-1. (Opcional) Haga clic en el icono desplegable para expandir uno de los meses en la [!UICONTROL Asignación de funciones] o en la cronología del panel [!UICONTROL Distribuidor de cargas de trabajo].
+1. (Opcional) Haga clic en el icono desplegable para expandir uno de los meses en el panel [!UICONTROL Asignación de funciones] o en la cronología del [!UICONTROL Distribuidor de cargas de trabajo].
 
    ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
-   El mismo tipo de información que se muestra en la variable [!UICONTROL Totales de proyecto] también se muestra para cada mes.
+   El mismo tipo de información que se muestra en el área [!UICONTROL Totales de proyectos] también se muestra para cada mes.
 
    >[!TIP]
    >
-   >Los meses enumerados en la [!UICONTROL Asignación de funciones] panel son los meses de la cronología mostrados en la pantalla del [!UICONTROL Distribuidor de cargas de trabajo]. Desplácese hacia atrás y hacia adelante en la cronología para ver meses adicionales.
+   >Los meses enumerados en el panel [!UICONTROL Asignación de funciones] son los meses de la cronología mostrados en la pantalla del [!UICONTROL Distribuidor de cargas de trabajo]. Desplácese hacia atrás y hacia adelante en la cronología para ver meses adicionales.
 
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p> </p> </li>

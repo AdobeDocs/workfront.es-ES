@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -37,28 +37,28 @@ Se modificaron los siguientes recursos para la versión 13 de la API.
   <tr> 
    <td> 
     <ul> 
-     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">NivelDeAcceso</a> </p> </li> 
      <li> <p><a href="#breadcrumb" class="MCXref xref">RutaPan</a> </p> </li> 
-     <li> <p><a href="#burndownevent" class="MCXref xref">BurndownEvent</a> </p> </li> 
-     <li> <p><a href="#customerpreferences" class="MCXref xref">Preferencias del cliente</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#burndownevent" class="MCXref xref">EventoDeEvolución</a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">PreferenciasDelCliente</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">VersiónDocumento</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Grupo </a> </p> </li> 
-     <li> <p><a href="#journalentry" class="MCXref xref">JournalEntry</a> </p> </li> 
-     <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
-     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+     <li> <p><a href="#journalentry" class="MCXref xref">EntradaDiario</a> </p> </li> 
+     <li> <p><a href="#layouttemplate" class="MCXref xref">PlantillaDiseño</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">CarpetaVinculada</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">TareaOperación</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Proyecto</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">AprobaciónRevisión</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Tarea</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Equipo</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Hoja de horas</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">Perfil de hoja de horas</a> </p> </li> 
      <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
-     <li> <p><a href="#userdelegation" class="MCXref xref">UserDelegation</a> </p> </li> 
+     <li> <p><a href="#userdelegation" class="MCXref xref">Delegación de usuario</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Trabajo </a> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -69,7 +69,7 @@ Se modificaron los siguientes recursos para la versión 13 de la API.
 
 Un objeto AccessLevel está asociado a los usuarios y describe el conjunto de AccessLevelPermissions que determinan a qué puede tener acceso el usuario.
 
-Para obtener más información sobre los niveles de acceso, consulte [Funcionamiento de los niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Para obtener más información sobre los niveles de acceso, vea [Funcionamiento de los niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -89,7 +89,7 @@ Para obtener más información sobre los niveles de acceso, consulte [Funcionami
 
 Un objeto BreadCrumb representa un elemento en la jerarquía principal/secundario de un elemento de trabajo de Workfront. Las rutas de exploración indican cómo encaja un elemento de trabajo en la mayor estructura de Portfolio, Proyectos, Proyectos y Tareas.
 
-Para obtener más información sobre las rutas de exploración, consulte [Información general sobre las rutas en la nueva experiencia de Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Para obtener más información sobre las rutas de exploración, consulte [Información general sobre las rutas de exploración en la nueva experiencia de Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ Para obtener más información sobre las rutas de exploración, consulte [Inform
    <td> <p>Campos directos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Los códigos de objeto se encuentran en <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>Los códigos de objeto se encuentran en <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -166,7 +166,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
 
 Un objeto DocumentVersion representa una versión específica de un archivo (como material escrito, imágenes u otras formas de información).
 
-Para obtener más información sobre las versiones de los documentos, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obtener más información acerca de las versiones de documentos, vea [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -241,7 +241,7 @@ El recurso JournalEntry agregó el indicador REPORTABLE.
 
 Los administradores de Adobe Workfront o de grupos pueden crear plantillas para personalizar los elementos de diseño en Adobe Workfront. El objeto LayoutTemplate es específico de Adobe Workfront Classic.
 
-Para ver el objeto que representa las plantillas de diseño en la nueva experiencia de Adobe Workfront, consulte [UITemplate](#uitemplate)
+Para el objeto que representa las plantillas de diseño en la nueva experiencia de Adobe Workfront, consulte [UITemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -261,7 +261,7 @@ Para ver el objeto que representa las plantillas de diseño en la nueva experien
 
 Un objeto LinkedFolder representa una carpeta vinculada desde un proveedor de documentos externo, como Google Drive o Dropbox.
 
-Para obtener más información sobre las carpetas vinculadas, consulte [Vinculación de documentos desde aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obtener más información sobre las carpetas vinculadas, consulte [Enlazar documentos desde aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -330,8 +330,8 @@ Un objeto ProofApproval representa una aprobación que está conectada directame
    <td> <p>Campos directos</p> </td> 
    <td> <p>Se agregaron los campos siguientes al recurso ProofApproval.</p> 
     <ul> 
-     <li> <p><b>approverStage</b> </p> </li> 
-     <li> <p><b>DecisionDate</b> </p> </li> 
+     <li> <p><b>aprobadorStage</b> </p> </li> 
+     <li> <p><b>FechaDecisión</b> </p> </li> 
      <li> <p><b>workflowTemplate</b> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -342,7 +342,7 @@ Un objeto ProofApproval representa una aprobación que está conectada directame
 
 Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviar problemas al mismo.
 
-Para obtener más información sobre las colas de solicitudes, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información sobre las colas de solicitudes, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -352,7 +352,7 @@ Para obtener más información sobre las colas de solicitudes, consulte [Crear u
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li> <p><b>documentPosition</b> </p> <p>Agregado. Los valores posibles son:</p> 
+     <li> <p><b>documentPosition</b> </p> <p>Añadido. Los valores posibles son:</p> 
       <ul> 
        <li> <p>0 (después de formularios personalizados)</p> </li> 
        <li> <p>1 (Antes de formularios personalizados)</p> </li> 
@@ -459,7 +459,7 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
 
 Los administradores de Adobe Workfront o de grupos pueden crear plantillas para personalizar los elementos de diseño en Adobe Workfront. El objeto UITemplate es específico de la nueva experiencia de Adobe Workfront.
 
-Para ver el objeto que representa las plantillas de diseño en Adobe Workfront Classic, consulte [LayoutTemplate](#layouttemplate).
+Para el objeto que representa las plantillas de diseño en Adobe Workfront Classic, vea [LayoutTemplate](#layouttemplate).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -473,7 +473,7 @@ Para ver el objeto que representa las plantillas de diseño en Adobe Workfront C
       <ul> 
        <li> <p>overrideIfExists (booleano)</p> </li> 
       </ul> </li> 
-     <li> <p><b>migrationLayoutTemplates</b> </p> <p>Toma los argumentos:</p> 
+     <li> <p><b>migrarPlantillasDiseño</b> </p> <p>Toma los argumentos:</p> 
       <ul> 
        <li> <p>layoutTemplateIDs (string[])</p> </li> 
        <li> <p>overrideIfExists (booleano)</p> </li> 

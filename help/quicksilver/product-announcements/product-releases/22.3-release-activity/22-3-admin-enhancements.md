@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Mejoras del administrador
 
-Esta página describe todas las mejoras realizadas por el administrador con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general de la versión 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página describe todas las mejoras realizadas por el administrador con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integración de Adobe Workfront con JumpSeat
 
@@ -31,11 +31,11 @@ Ahora puede editar la siguiente configuración de revisión dentro del área de 
 
 * Configuración de decisión de revisión
 
-Para obtener más información, consulte [Configurar ajustes de prueba predeterminados](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Para obtener más información, consulte [Configurar opciones predeterminadas de revisión](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Uso de estados desbloqueados en procesos de aprobación
 
-**Nota:** Se ha eliminado de la versión de producción 22.3. Está previsto que esta función se publique en Production el 15 de septiembre de 2022.
+**Nota:** se eliminó de la versión de producción 22.3. Está previsto que esta función se publique en Production el 15 de septiembre de 2022.
 
 Para darle más control sobre los procesos y estados de aprobación de su sistema, hemos hecho posible crear un proceso de aprobación basado en un estado de sistema desbloqueado. Además, ahora puede desbloquear cualquier estado que ya se esté utilizando en un proceso de aprobación.
 
@@ -64,7 +64,7 @@ Para obtener más información, consulte [Agregar o editar una imagen u otro wid
 
 Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el ratón por encima de la parte resaltada, se muestra información del objeto para describir el problema.
 
-Para obtener más información, consulte [Añadir datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información, consulte [Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Personalización del encabezado del proyecto
 
@@ -81,7 +81,7 @@ Esta actualización incluye las siguientes mejoras:
 
 Antes de esta versión, los campos de los encabezados de objeto no se podían personalizar.
 
-Para obtener más información, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Controlar la creación de un proyecto en blanco
 
@@ -100,11 +100,11 @@ Para obtener más información, consulte [Configurar las preferencias de proyect
 
 ## Desactivar un grupo de la página Grupos
 
-Recientemente, hemos agregado la capacidad de desactivar y reactivar grupos. Para que esa acción sea más rápida y sencilla, la hemos agregado a la página de un grupo. Ahora, después de hacer clic en el nombre de un grupo para ir a su página, puede seleccionar el menú Más ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) junto al nombre del grupo y, a continuación, seleccione Desactivar o Reactivar.
+Recientemente, hemos agregado la capacidad de desactivar y reactivar grupos. Para que esa acción sea más rápida y sencilla, la hemos agregado a la página de un grupo. Ahora, después de hacer clic en el nombre de un grupo para ir a su página, puede seleccionar el menú Más ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) junto al nombre del grupo y, a continuación, seleccionar Desactivar o Reactivar.
 
 Anteriormente, sólo se podía desactivar o reactivar un grupo mediante la casilla de verificación Está activo en la página Detalles.
 
-Para obtener más información, consulte [Desactivar o reactivar un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Para obtener más información, vea [Desactivar o reactivar un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 ## Agregar vídeos a formularios personalizados
 

@@ -1,6 +1,6 @@
 ---
-title: Vincular recursos y carpetas con el conector mejorado
-description: Puede vincular un recurso o una carpeta de Experience Manager Assets a cualquier objeto de Workfront que admita documentos.
+title: Vinculación de recursos y carpetas con el conector mejorado
+description: Puede vincular un recurso o una carpeta desde Experience Manager Assets a cualquier objeto de Workfront que admita documentos.
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Vincular recursos y carpetas con el conector mejorado
+# Vinculación de recursos y carpetas con el conector mejorado
 
-Puede vincular un recurso o una carpeta de Experience Manager Assets a cualquier objeto de Workfront que admita documentos. Los recursos enviados desde Experience Manager Assets no se contabilizan en el almacenamiento general de documentos en Workfront. Los documentos cargados y enviados desde Workfront a Experience Manager Assets sí se contabilizan en el almacenamiento general.
+Puede vincular un recurso o una carpeta desde Experience Manager Assets a cualquier objeto de Workfront que admita documentos. Assets enviado desde Experience Manager Assets no cuenta para el almacenamiento general de documentos en Workfront. Los documentos cargados y enviados desde Workfront a Experience Manager Assets no se contabilizan en el almacenamiento general.
 
 ## Requisitos de acceso
 
@@ -25,7 +25,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -38,11 +38,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver acceso o superior en un documento</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver el acceso o superior en un documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,23 +53,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Antes de empezar, debe
 
-* Instalación del conector mejorado de Workfront for Experience Manager
+* Instalación del conector mejorado de Workfront para Experience Manager
 
-## Vinculación de recursos desde Experience Manager Assets
+## Vincular un recurso desde Experience Manager Assets
 
-Puede vincular un recurso de Experience Manager Assets a Workfront. Una vez que el recurso esté vinculado, puede
+Puede vincular un recurso de Experience Manager Assets a Workfront. Una vez vinculado el recurso, puede
 
-* [Prueba de un recurso vinculado para Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [Probar un recurso vinculado para Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Cargar una nueva versión de un documento](../../../documents/managing-documents/upload-new-document-version.md)
 
 Para vincular un recurso a Experience Manager Assets:
 
-1. Vaya a la **Documentos** en Workfront donde desee agregar el documento.
+1. Vaya al área de **Documentos** de Workfront donde desea agregar el documento.
 1. Haga clic en **Agregar nuevo** y, a continuación, elija la integración de Experience Manager Assets que configuró el administrador.
 
    >[!NOTE]
    >
-   >Se puede elegir cualquier nombre para esta integración, por lo que no se puede mencionar específicamente Experience Manager Assets.
+   >Se puede elegir cualquier nombre para esta integración, por lo que no se puede mencionar específicamente a Experience Manager Assets.
 
 1. Seleccione los recursos que desee.
 
@@ -77,18 +77,18 @@ Para vincular un recurso a Experience Manager Assets:
 
 1. Haga clic en **Vínculo**.
 
-## Vinculación de una carpeta desde Experience Manager Assets
+## Vincular una carpeta desde Experience Manager Assets
 
 Los permisos para ver recursos individuales dentro de una carpeta dependen de los permisos de Experience Manager Assets.
 
 Para vincular una carpeta a Experience Manager Assets:
 
-1. Vaya a la **Documentos** en Workfront donde desee agregar el documento.
+1. Vaya al área de **Documentos** de Workfront donde desea agregar el documento.
 1. Haga clic en **Agregar nuevo** y, a continuación, elija la integración de Experience Manager Assets que configuró el administrador.
 
    >[!NOTE]
    >
-   >Se puede elegir cualquier nombre para esta integración, por lo que no se puede mencionar específicamente Experience Manager Assets.
+   >Se puede elegir cualquier nombre para esta integración, por lo que no se puede mencionar específicamente a Experience Manager Assets.
 
 1. Seleccione las carpetas que desee.
 
@@ -96,9 +96,9 @@ Para vincular una carpeta a Experience Manager Assets:
 
 1. Haga clic en **Vínculo**.
 
-## Vinculación de una nueva versión desde Experience Manager Assets
+## Vincular una nueva versión desde Experience Manager Assets
 
-Puede extraer un nuevo recurso de Experience Manager Assets y agregarlo a un recurso existente como una nueva versión en Workfront. Si el documento ya está vinculado y se agrega una nueva versión en Experience Manager Assets, la nueva versión aparece automáticamente en Workfront.
+Puede extraer un nuevo recurso de Experience Manager Assets y añadirlo a un recurso existente como una nueva versión en Workfront. Si el documento ya está vinculado y se agrega una nueva versión en Experience Manager Assets, la nueva versión aparece automáticamente en Workfront.
 
 >[!TIP]
 >
@@ -106,13 +106,13 @@ Puede extraer un nuevo recurso de Experience Manager Assets y agregarlo a un rec
 
 Para vincular una nueva versión desde Experience Manager Assets:
 
-1. Vaya a la **Documentos** en Workfront donde desee agregar el documento.
+1. Vaya al área de **Documentos** de Workfront donde desea agregar el documento.
 1. Seleccione el recurso que desea reemplazar con una nueva versión. No puede crear una nueva versión de un recurso en una carpeta vinculada.
 1. Haga clic en **Agregar nuevo** y, a continuación, elija la integración de Experience Manager Assets que configuró el administrador.
 
    >[!NOTE]
    >
-   >Se puede elegir cualquier nombre para esta integración, por lo que no se puede mencionar específicamente Experience Manager Assets.
+   >Se puede elegir cualquier nombre para esta integración, por lo que no se puede mencionar específicamente a Experience Manager Assets.
 
 1. Seleccione el recurso que desee.
 

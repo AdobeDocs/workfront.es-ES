@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe actualizaciones menores de la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión del tercer trimestre de 2024.
 
-Para obtener una lista de todos los cambios disponibles con la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión del tercer trimestre de 2024, consulte [Información general de la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 
@@ -28,7 +28,7 @@ Para obtener una lista de todos los cambios disponibles con la versión del terc
 
 Hemos actualizado la lista de sugerencias de asignaciones a un diseño más moderno y coherente en todas las áreas de Workfront. Cuando se agrega una asignación a una tarea o un problema desde el encabezado, la vista de lista o la pantalla Asignación avanzada, la experiencia es la misma. Las sugerencias se dividen en secciones para ayudarle a encontrar rápidamente la persona, el equipo o la función correcta para la asignación.
 
-Para obtener más información, consulte [Asignar tareas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Asignar problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md), y [Crear asignaciones avanzadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Para obtener más información, consulte [Asignar tareas](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Asignar problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) y [Crear asignaciones avanzadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Actualizaciones de aspecto y funcionamiento para formularios personalizados en detalles del documento
 
@@ -38,7 +38,7 @@ Para obtener más información, consulte [Asignar tareas](/help/quicksilver/mana
 
 Hemos actualizado la página Detalles del documento > Forms personalizado a un diseño más moderno y coherente con otras áreas de Workfront. La página ahora admite funciones de formulario personalizadas avanzadas como los campos de búsqueda externa.
 
-Para obtener más información, consulte [Resumen de detalles del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+Para obtener más información, vea [Información general sobre los detalles del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
 ## Actualizaciones de aspecto y funcionamiento para formularios personalizados en detalles de iteración
 
@@ -48,7 +48,7 @@ Para obtener más información, consulte [Resumen de detalles del documento](/he
 
 Hemos actualizado la página Detalles de iteración > Forms personalizado a un diseño más moderno y coherente con otras áreas de Workfront. La página ahora admite funciones de formulario personalizadas avanzadas como los campos de búsqueda externa.
 
-Para obtener más información, consulte [Crear una historia Agile en una iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Para obtener más información, vea [Crear una historia Agile en una iteración](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Actualizaciones de aspecto y funcionamiento para el área de Grupos
 

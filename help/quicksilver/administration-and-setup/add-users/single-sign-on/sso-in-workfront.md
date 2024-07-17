@@ -36,7 +36,7 @@ Las soluciones federadas permiten a los usuarios iniciar sesión en todas sus ap
 
 Al utilizar una solución de SSO, Workfront inicia una conexión con el servidor en el puerto especificado.
 
-Si el cortafuegos o el servidor de correo están configurados para permitir el acceso únicamente a proveedores específicos, debe añadir determinadas direcciones IP de Workfront a la lista de permitidos del cortafuegos. Para obtener más información, consulte [Configuración de la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Si el cortafuegos o el servidor de correo están configurados para permitir el acceso únicamente a proveedores específicos, debe añadir determinadas direcciones IP de Workfront a la lista de permitidos del cortafuegos. Para obtener más información, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Configurar inicio de sesión único
 

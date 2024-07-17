@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas por el administrador con la versión 22.4 en el entorno de vista previa. Estas mejoras estarán disponibles la semana del 3 de octubre de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Información general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Descripción general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Uso de estados desbloqueados en procesos de aprobación
 
@@ -41,9 +41,9 @@ El icono Modelos aparece en el menú principal cuando:
 
 Las plantillas de diseño existentes incluyen automáticamente el icono Modelos y los administradores pueden eliminarlo de las plantillas de diseño para restringir la visibilidad del catálogo de Modelos. Las nuevas plantillas de diseño creadas después de la versión 22.4 incluirán el icono Modelos en la lista Elementos activos.
 
-Para obtener más información, consulte [Configuración del acceso a los modelos](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+Para obtener más información, consulte [Configurar el acceso a modelos](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Personalizar encabezado de problema
 
@@ -63,9 +63,9 @@ Antes de esta versión, solo se podían personalizar los encabezados de proyecto
 
 
 
-Para obtener más información, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Personalización del encabezado de tarea
 
@@ -81,9 +81,9 @@ Esta actualización incluye las siguientes mejoras:
 
 Antes de esta versión, solo se podían personalizar los encabezados de proyecto.
 
-Para obtener más información, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Inclusión anticipada de funciones para las últimas funciones de los tableros
 
@@ -93,7 +93,7 @@ Solo un administrador de Workfront puede adherirse a las primeras funciones. Cua
 
 Para obtener más información, consulte [Inclusión anticipada de funciones para tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## El editor de cálculo de campos de formulario personalizados muestra información de error
 
@@ -103,9 +103,9 @@ Para obtener más información, consulte [Inclusión anticipada de funciones par
 
 Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el ratón por encima de la parte resaltada, se muestra información del objeto para describir el problema.
 
-Para obtener más información, consulte [Añadir datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información, consulte [Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migración a la experiencia unificada de Adobe
 
@@ -123,4 +123,4 @@ La experiencia unificada de Adobe incluye lo siguiente:
 
 Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412388/){target=_blank}

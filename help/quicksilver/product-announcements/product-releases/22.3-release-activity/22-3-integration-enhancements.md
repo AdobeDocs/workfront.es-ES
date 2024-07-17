@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Mejoras en la integración
 
-Esta página describe todas las mejoras de integración realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción en enero de 2022, la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general de la versión 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página describe todas las mejoras de integración realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción en enero de 2022, la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integración de Adobe Workfront para Experience Manager Assets
 

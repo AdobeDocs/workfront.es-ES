@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Mobile con la versión 2020.1.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general de la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general sobre la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Experiencia perfecta entre la aplicación móvil y la web
 
 Para que su experiencia sea más coherente al utilizar Workfront tanto en la aplicación móvil como en la web, cualquier personalización de la navegación secundaria del panel izquierdo en las plantillas de diseño nuevas o existentes se reflejará automáticamente en la aplicación móvil.
 
-Para obtener más información sobre cómo personalizar el panel izquierdo, consulte [Personalización del panel izquierdo con una plantilla de diseño en la nueva experiencia de Workfront](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
+Para obtener más información sobre cómo personalizar el panel izquierdo, consulte [Personalizar el panel izquierdo con una plantilla de diseño en la nueva experiencia de Workfront](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
 
 ## Me gustan las actualizaciones en la aplicación móvil
 

@@ -21,6 +21,6 @@ Adobe Workfront calcula automáticamente la duración de un problema, que no se 
 
 Puede mostrar la Duración de un problema en un informe de problemas o la vista de una lista de problemas.
 
-Para obtener más información sobre la creación de informes, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información sobre cómo generar un informe, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ![](assets/nwe-issue-duration-view-highlighted-350x73.png)

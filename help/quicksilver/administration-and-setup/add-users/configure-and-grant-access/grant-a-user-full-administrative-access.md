@@ -18,9 +18,9 @@ ht-degree: 1%
 >
 >El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
 >
->Para obtener instrucciones sobre la concesión de acceso de administrador completo en Adobe Admin Console, consulte [Administración de administradores de sistemas en Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Para obtener instrucciones sobre cómo conceder acceso de administrador completo en Adobe Admin Console, consulte [Administrar administradores del sistema en Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Como administrador de Adobe Workfront, puede crear otro administrador de Workfront asignándole el nivel de acceso de administrador del sistema. Un usuario con este nivel de acceso tiene acceso administrativo completo a todo lo que hay en Workfront, incluidos los elementos que no creó él mismo.
 
@@ -28,7 +28,7 @@ Como administrador de Adobe Workfront, puede crear otro administrador de Workfro
 >
 >Esto es diferente a usar un nivel de acceso para otorgar a los usuarios acceso administrativo a ciertas áreas del sistema. Para obtener más información, consulte lo siguiente:
 >
->* [Conceder a los usuarios acceso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [Conceder a los usuarios acceso administrativo a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
 >* [Acceso de un administrador de Workfront frente a acceso de un usuario de Plan con derechos administrativos](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) en este artículo
 >
 
@@ -50,25 +50,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront. Para obtener más información, consulte <a href="#" class="MCXref xref selected">Conceder a un usuario acceso administrativo completo</a>.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront. Para obtener más información, consulte <a href="#" class="MCXref xref selected">Conceder acceso administrativo completo a un usuario</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Conceder acceso completo de administrador del sistema a un solo usuario
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
 1. Haga clic en el nombre del usuario al que desea conceder derechos de administrador.
-1. Haga clic en el menú Más ![](assets/more-icon.png), luego haga clic en **Editar**.
+1. Haga clic en el menú Más ![](assets/more-icon.png) y luego haga clic en **Editar**.
 
-1. En el **Editar persona** que aparece, haga clic en **Acceso**.
+1. En el cuadro **Editar persona** que aparece, haga clic en **Acceder**.
 
-1. En el **nivel de acceso** , seleccione la opción **Administrador del sistema** nivel de acceso.
+1. En la lista desplegable **nivel de acceso**, seleccione el nivel de acceso **Administrador del sistema**.
 
    Según los cambios realizados en el sistema, el nombre de este nivel de acceso podría haber cambiado.
 
-1. Clic **Guardar cambios.**
+1. Haga clic en **Guardar cambios.**
 
    Ahora el usuario tiene derechos completos de administrador del sistema en el sistema.
 
@@ -179,7 +179,7 @@ Los usuarios con una licencia de planificación que pueden editar la funcionalid
   <tr> 
    <td>Iniciar sesión como</td> 
    <td>Acceso total </td> 
-   <td> <p>Si el acceso administrativo a su grupo está habilitado en su nivel de acceso y se les designa como administrador de grupo, pueden iniciar sesión como los usuarios del grupo que administran y sus subgrupos. No pueden iniciar sesión como administrador del sistema.<br>Para obtener más información sobre cómo habilitar el acceso administrativo de grupo para los usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </td> 
+   <td> <p>Si el acceso administrativo a su grupo está habilitado en su nivel de acceso y se les designa como administrador de grupo, pueden iniciar sesión como los usuarios del grupo que administran y sus subgrupos. No pueden iniciar sesión como administrador del sistema.<br>Para obtener más información acerca de cómo habilitar el acceso administrativo de grupo para los usuarios, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Horarios</td> 
@@ -411,7 +411,7 @@ Los usuarios con una licencia de planificación que pueden editar la funcionalid
   <tr> 
    <td>Usuarios</td> 
    <td>Acceso total</td> 
-   <td> <p>Acceso limitado</p> <p>No pueden asignar grupos a usuarios para los que no son administradores de grupos ni a grupos que no son públicos.</p> <p>No pueden asignar a los usuarios un nivel de acceso superior a su propio nivel de acceso.</p> <p>Si el acceso administrativo de grupo está habilitado en su nivel de acceso y está designado como administrador de grupo en un grupo, puede restablecer la contraseña de e iniciar sesión como los usuarios del grupo que administra y sus subgrupos. No pueden restablecer la contraseña de ni iniciar sesión como administrador del sistema.<br>Para obtener más información sobre cómo habilitar el acceso administrativo de grupo para los usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </td> 
+   <td> <p>Acceso limitado</p> <p>No pueden asignar grupos a usuarios para los que no son administradores de grupos ni a grupos que no son públicos.</p> <p>No pueden asignar a los usuarios un nivel de acceso superior a su propio nivel de acceso.</p> <p>Si el acceso administrativo de grupo está habilitado en su nivel de acceso y está designado como administrador de grupo en un grupo, puede restablecer la contraseña de e iniciar sesión como los usuarios del grupo que administra y sus subgrupos. No pueden restablecer la contraseña de ni iniciar sesión como administrador del sistema.<br>Para obtener más información acerca de cómo habilitar el acceso administrativo de grupo para los usuarios, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

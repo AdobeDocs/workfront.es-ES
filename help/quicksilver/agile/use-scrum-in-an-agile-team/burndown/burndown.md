@@ -20,7 +20,7 @@ ht-degree: 4%
 Esta sección contiene los siguientes artículos:
 
 * [Resumen del gráfico de evolución Agile](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
-* [Resumen del estado de finalización de iteraciones](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
+* [Resumen del estado de finalización de iteración](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
 * [Cambiar el tamaño y contraer el gráfico de evolución](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
-* [Sincronización de datos en el gráfico de evolución](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
+* [Sincronizar datos en el gráfico de evolución](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
 * [Usar un horario de equipo alternativo para los gráficos de evolución](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

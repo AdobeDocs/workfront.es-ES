@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Si usted es un colaborador individual que tiene un objetivo personal, es posible que desee alinearlo con los objetivos de su equipo para mostrar de forma eficaz el progreso de su propia meta en el contexto más amplio de la estrategia de su organización.
 
-Cuando todos los miembros de su organización tienen sus objetivos alineados con los objetivos de su organización, pueden ver claramente cómo sus contribuciones individuales y los esfuerzos de equipo ayudan a avanzar en las prioridades más grandes a nivel de empresa. Para obtener más información sobre las prácticas recomendadas para alinear objetivos, consulte [Información general sobre la alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
+Cuando todos los miembros de su organización tienen sus objetivos alineados con los objetivos de su organización, pueden ver claramente cómo sus contribuciones individuales y los esfuerzos de equipo ayudan a avanzar en las prioridades más grandes a nivel de empresa. Para obtener más información acerca de las prácticas recomendadas para alinear metas, consulte [Resumen de alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
 Existen dos métodos para conectar objetivos en Adobe Workfront Goals:
 
@@ -29,7 +29,7 @@ Existen dos métodos para conectar objetivos en Adobe Workfront Goals:
 >
 >Una meta puede tener un total de 1000 indicadores de progreso.
 
-Este artículo describe cómo puede alinear los objetivos conectándolos entre sí. Para obtener información sobre cómo alinear metas convirtiendo resultados y actividades en metas, consulte [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+Este artículo describe cómo puede alinear los objetivos conectándolos entre sí. Para obtener información sobre cómo alinear metas convirtiendo resultados y actividades en metas, vea [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Requisitos de acceso
 
@@ -63,7 +63,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -75,7 +75,7 @@ Debe tener lo siguiente:
 
 <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
    </td>
  </tr>
 <tr>
@@ -128,7 +128,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
 -->
-1. Cree dos metas que desee alinear. Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+1. Cree dos metas que desee alinear. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 1. (Opcional) Active las metas que desee alinear. Puede alinear metas que tengan un estado Borrador, Activo o Inactivo. Para obtener información sobre cómo activar metas, consulte [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 1. Vaya a la meta que desea alinear (meta secundaria) con otra meta (meta principal) y haga clic en su nombre para abrir la página de meta.
 
@@ -136,15 +136,15 @@ Aligning goals by connecting them differs depending on what environment you use.
    >
    >Por ejemplo, si desea que el Objetivo 2 influya en el progreso del Objetivo 1, debe ir al Objetivo 2.
 
-1. Clic **Detalles de la meta** en el panel izquierdo.
+1. Haga clic en **Detalles de la meta** en el panel izquierdo.
 
-1. En el **Información de la meta principal** , haga clic en **Añadir** en el **Meta principal** campo si no hay ninguna meta principal,
+1. En el área **Información sobre la meta principal**, haga clic en **Agregar** en el campo **Meta principal** si no hay ninguna meta principal,
 
    O
 
    Haga clic en el nombre de la meta principal para elegir otra.
 
-1. Empiece a escribir el nombre de un objetivo existente en la **Meta principal** y, a continuación, selecciónelo cuando aparezca en la lista. En la lista solo se muestran las metas que son del mismo periodo o de periodos futuros.
+1. Empiece a escribir el nombre de una meta existente en el campo **Meta principal** y selecciónela cuando aparezca en la lista. En la lista solo se muestran las metas que son del mismo periodo o de periodos futuros.
 
 1. Haga clic en **Guardar cambios**.
 
@@ -154,12 +154,12 @@ La meta secundaria se muestra en la sección Indicadores de progreso de la meta 
 
    ![](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. (Opcional) Para ver los objetivos en la sección Alineación de objetivos, vaya al área Objetivos de Workfront y, a continuación, haga clic en **Alineación de metas** en el panel izquierdo. Para obtener información sobre la sección Alineación de objetivos, consulte [Navegue hasta la sección Alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. (Opcional) Para ver los objetivos en la sección Alineación de objetivos, vaya al área Objetivos de Workfront y, a continuación, haga clic en la sección **Alineación de objetivos** del panel izquierdo. Para obtener información acerca de la sección Alineación de metas, vea [Desplazarse por la sección Alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 1. (Opcional) Añada actividades y resultados a cualquiera de los objetivos para indicar su progreso. Para obtener información sobre cómo agregar actividades y resultados, consulte los siguientes artículos:
 
-   * [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Agregar actividades a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-1. (Opcional) Elimine la alineación entre dos objetivos, cuando considere que ya no es relevante para la estrategia general de su organización. Para obtener información sobre cómo quitar la alineación entre los objetivos, consulte [Quitar la alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
+1. (Opcional) Elimine la alineación entre dos objetivos, cuando considere que ya no es relevante para la estrategia general de su organización. Para obtener información acerca de cómo quitar la alineación entre metas, vea [Quitar la alineación entre metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 

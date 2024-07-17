@@ -6,7 +6,8 @@ title: Adición de un módulo de déclencheur a un escenario básico
 description: Aprenda a añadir un módulo de déclencheur para permitir que el escenario busque periódicamente nuevas solicitudes y las convierta en proyectos.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -37,11 +38,11 @@ Debe crear el escenario descrito en [Crear un escenario básico](/help/quicksilv
    El módulo se elimina y se deja un marcador de posición en blanco.
 
 1. Haga clic en el módulo en blanco y seleccione **Adobe Workfront** de la lista de aplicaciones.
-1. Seleccionar **Ver registro**.
+1. Seleccionar **Registro de inspección**.
 1. Asegúrese de que el módulo utiliza la misma conexión que el resto de módulos del escenario.
 1. En el campo Filtro, seleccione **Solo registros nuevos**.
-1. En el cuadro Salidas, seleccione `ID`, `Name`, y `Project ID`.
-1. Clic **OK** para guardar la configuración del módulo.
+1. En el cuadro Resultados, seleccione `ID`, `Name` y `Project ID`.
+1. Haga clic en **Aceptar** para guardar la configuración del módulo.
 
    Aparece la ventana Elija por dónde comenzar.
 
@@ -55,7 +56,7 @@ Debe crear el escenario descrito en [Crear un escenario básico](/help/quicksilv
 
 1. En el campo Ejecutar escenario, seleccione **A intervalos regulares**.
 
-1. Clic **OK**.
+1. Haga clic en **Aceptar**.
 
 ### Actualización del segundo módulo
 
@@ -64,17 +65,17 @@ Dado que se ha reemplazado el primer módulo, el segundo debe asignarse al nuevo
 1. Abra el módulo Convertir objeto.
 1. En el campo ID de problema, elimine el bloque de ID negro. El bloque es negro porque el módulo desde el que se asignó ya no está disponible.
 1. Seleccione el bloque de ID bajo el primer módulo (Ver registros) para asignarlo al segundo módulo.
-1. Clic **OK**.
+1. Haga clic en **Aceptar**.
 
 ### Prueba y activación
 
 1. Vaya al entorno de Workfront al que se está conectando Fusion y añada un problema.
-1. Clic **[!UICONTROL Ejecutar una vez]** en la esquina inferior izquierda del editor de escenarios.
+1. Haga clic en **[!UICONTROL Ejecutar una vez]** en la esquina inferior izquierda del editor de escenarios.
 1. Examine el resultado para asegurarse de que el escenario se ejecutó según lo esperado.
-1. Cuando esté seguro de que el escenario funciona correctamente, haga clic en **Programación** en la parte inferior izquierda de la pantalla, seleccione **Activado**.
+1. Cuando esté seguro de que el escenario funciona según lo esperado, haga clic en el botón de alternancia **Programando** en la parte inferior izquierda de la pantalla para **Activar**.
 
    Esto activa el escenario.
-1. Entrada [!DNL Workfront Fusion], haga clic en **[!UICONTROL Guardar]** cerca de la esquina inferior izquierda para guardar el progreso del escenario.
+1. En [!DNL Workfront Fusion], haga clic en **[!UICONTROL Guardar]** cerca de la esquina inferior izquierda para guardar su progreso en el escenario.
 
    >[!IMPORTANT]
    >
@@ -82,4 +83,4 @@ Dado que se ha reemplazado el primer módulo, el segundo debe asignarse al nuevo
 
 ## Recursos
 
-* Para obtener más información sobre los webhooks, consulte [Déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).
+* Para obtener más información sobre los webhooks, vea [déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
-title: Recortar a un revisor acerca de las asignaciones en [!DNL Workfront Proof]
-description: Puede enviar un único mensaje a un revisor recordándole que se han compartido con ellos varios elementos.
+title: Recordar a un revisor las asignaciones de  [!DNL Workfront Proof]
+description: Puede enviar un solo mensaje a un revisor recordándole varios elementos que se han compartido con él.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 ---
 
-# Recortar a un revisor acerca de las asignaciones en [!DNL Workfront Proof]
+# Recordar a un revisor las asignaciones de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Puede enviar un único mensaje a un revisor recordándole que se han compartido con ellos varios elementos.
+Puede enviar un solo mensaje a un revisor recordándole varios elementos que se han compartido con él.
 
-El correo electrónico replicará el correo electrónico de notificación sobre el que se enviaron originalmente (y puede incluir un mensaje personalizado), pero mostrará los detalles de todos los elementos que ha seleccionado para ponerse en contacto con ellos.
+El correo electrónico replicará el correo electrónico de notificación que se envió originalmente (y puede incluir un mensaje personalizado), pero mostrará los detalles de todos los elementos que ha seleccionado para ponerse en contacto con ellos.
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Contactos]**.
-1. Abra el **[!UICONTROL Más]** (tres puntos) al final de la fila del contacto.
-1. Seleccione el [!UICONTROL Ver detalles] en la parte superior del menú desplegable.\
-   Esta opción varía en función de si está contactando con un usuario, invitado o miembro.
-1. En la página que aparece, abra la **[!UICONTROL Elementos compartidos]** para obtener más información.
-1. Seleccione la casilla de los elementos de los que desee recordar a este revisor.\
+1. Abra el menú **[!UICONTROL Más]** (tres puntos) al final de la fila del contacto.
+1. Seleccione la opción [!UICONTROL Ver detalles] en la parte superior del menú desplegable.\
+   Esta opción varía en función de si va a ponerse en contacto con un usuario, invitado o abonado.
+1. En la página que aparece, abra la sección **[!UICONTROL Elementos compartidos]**.
+1. Active la casilla de verificación de los elementos sobre los que desee recordar a este revisor.\
    O\
    Si desea recordarles todas sus pruebas, active la casilla de verificación situada encima de la lista.
 
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Mensaje.]**
 
-1. En el **[!UICONTROL Enviar mensaje]** que aparece, escriba una **[!UICONTROL Título]** y **[!UICONTROL Mensaje],** a continuación, haga clic en **[!UICONTROL Enviar].**&#x200B; El contacto recibe un correo electrónico que contiene información y vínculos personales para todas las pruebas en un único correo electrónico.
+1. En el cuadro **[!UICONTROL Enviar mensaje]** que aparece, escriba un **[!UICONTROL Título]** y **[!UICONTROL Mensaje],** y, a continuación, haga clic en **[!UICONTROL Enviar].** El contacto recibe un correo electrónico con información y vínculos personales para todas las pruebas en un solo correo electrónico.
 
 

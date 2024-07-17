@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Esta página describe varias mejoras realizadas con la versión 2019.4. Estará disponible en el entorno de producción la semana del 11 de noviembre de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.4, consulte [Información general de la versión 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.4, consulte la [descripción general de la versión 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>Iniciar un flujo de trabajo de revisión automatizado desde un documento de Adobe CC</strong> <p>Sin salir de Adobe CC, puede iniciar un flujo de trabajo de revisión automatizado para un documento de Adobe CC que haya creado. Para obtener más información, consulte la sección <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Generación de una prueba desde Illustrator o InDesign</a> en el artículo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Uso de la extensión de Workfront para Illustrator y InDesign</a>.</p> </td> 
+   <td> <strong>Iniciar un flujo de trabajo de revisión automatizado desde un documento CC de Adobe</strong> <p>Sin salir de Adobe CC, puede iniciar un flujo de trabajo de revisión automatizado para un documento de Adobe CC que haya creado. Para obtener más información, consulte la sección <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Generar una revisión desde Illustrator o InDesign</a> en el artículo <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Usar la extensión de Workfront para Illustrator y InDesign</a>.</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -50,7 +50,7 @@ Para ver una lista de todos los cambios realizados en 2019.4, consulte [Informac
    </tr>
   --> 
   <tr> 
-   <td> <strong>Evitar direcciones de correo electrónico duplicadas</strong> <p>Ya no puede utilizar la misma dirección de correo electrónico al crear varios usuarios en Workfront, aunque esas direcciones de correo electrónico varíen según el caso. Por ejemplo, no se puede crear un usuario con la dirección de correo electrónico de JohnDoe@example.com y otro usuario con la dirección de correo electrónico de johndoe@example.com. </p> <p>Antes de este cambio, se admitía la creación de usuarios con direcciones de correo electrónico coincidentes que solo diferían según el caso. </p> <p>Nota: Los usuarios existentes con direcciones de correo electrónico coincidentes que solo difieran en función del caso deberán actualizarse en una fecha futura. Si tiene usuarios en una instancia de Workfront con direcciones de correo electrónico coincidentes que solo difieren según el caso, Workfront se pondrá en contacto con usted para proporcionarle información adicional y una cronología cuando sea necesario actualizarlas.</p> </td> 
+   <td> <strong>Impedir direcciones de correo electrónico duplicadas</strong> <p>Ya no puede utilizar la misma dirección de correo electrónico al crear varios usuarios en Workfront, aunque esas direcciones de correo electrónico varíen según el caso. Por ejemplo, no se puede crear un usuario con la dirección de correo electrónico de JohnDoe@example.com y otro usuario con la dirección de correo electrónico de johndoe@example.com. </p> <p>Antes de este cambio, se admitía la creación de usuarios con direcciones de correo electrónico coincidentes que solo diferían según el caso. </p> <p>Nota: Los usuarios existentes con direcciones de correo electrónico coincidentes que solo difieran en función del caso deberán actualizarse en una fecha futura. Si tiene usuarios en una instancia de Workfront con direcciones de correo electrónico coincidentes que solo difieren según el caso, Workfront se pondrá en contacto con usted para proporcionarle información adicional y una cronología cuando sea necesario actualizarlas.</p> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -62,7 +62,7 @@ Para ver una lista de todos los cambios realizados en 2019.4, consulte [Informac
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Nombre de archivo de la última versión de un documento mostrado</strong> <p>Ahora, cuando se carga una versión de documento con un nombre de archivo diferente al de la versión existente, el nuevo nombre de archivo se muestra en Workfront.</p> <p>Anteriormente, cuando se agregaba una nueva versión con un nombre de archivo diferente, el nombre de archivo de la versión anterior seguía apareciendo en Workfront.</p> <p>Para obtener más información, consulte <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Cargar una nueva versión de un documento</a>.</p> </td> 
+   <td> <strong>Se muestra el nombre de archivo de la última versión de un documento</strong> <p>Ahora, cuando se carga una versión de documento con un nombre de archivo diferente al de la versión existente, el nuevo nombre de archivo se muestra en Workfront.</p> <p>Anteriormente, cuando se agregaba una nueva versión con un nombre de archivo diferente, el nombre de archivo de la versión anterior seguía apareciendo en Workfront.</p> <p>Para obtener más información, consulte <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Cargar una nueva versión de un documento</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <strong>Agregar un filtro a un campo de escritura anticipada en un formulario personalizado</strong> <p>Ahora, cuando agregue un campo de escritura anticipada a un formulario personalizado, puede agregar un filtro para limitar los objetos disponibles cuando alguien utiliza el campo. Por ejemplo, puede limitar el campo para que el usuario pueda seleccionar solo miembros de los equipos de marketing y ventas de su organización.</p> <p>Para obtener más información, consulte la sección Creación y adición de un nuevo campo en el artículo Creación de una Forms personalizada.</p> </td> 
@@ -70,7 +70,7 @@ Para ver una lista de todos los cambios realizados en 2019.4, consulte [Informac
   <tr> 
    <td> 
     <div> 
-     <strong>Cambiar el tipo de visualización de un campo en un formulario personalizado</strong> 
+     <strong>Cambiar el tipo de presentación de un campo en un formulario personalizado</strong> 
      <p>Ahora puede cambiar el tipo de visualización de un campo en un formulario personalizado.</p> 
      <p>Por ejemplo, si ha creado un campo Casillas de verificación, puede cambiarlo a un campo Desplegable o a un campo Botones de opción. Estos tres tipos de visualización de campo son intercambiables.</p> 
      <p>O bien, si ha creado un campo de texto de una sola línea, puede cambiarlo a un campo de texto de párrafo. Estos dos tipos de visualización de campo son intercambiables.</p> 
@@ -81,7 +81,7 @@ Para ver una lista de todos los cambios realizados en 2019.4, consulte [Informac
   <tr> 
    <td> 
     <div> 
-     <strong>Creación de calendarios e informes de días libres</strong> 
+     <strong>Crear calendarios e informes de días libres</strong> 
      <p>Ahora puede ver el tiempo libre del usuario para una mejor planificación y ejecución. También puede agregar nuevos informes y calendarios de días libres a sus paneles para obtener una vista en tiempo real de la disponibilidad del usuario.</p> 
     </div> </td> 
   </tr> 

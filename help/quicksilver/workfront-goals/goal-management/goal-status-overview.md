@@ -57,7 +57,7 @@ Los estados de objetivo indican si una meta está activa y registra progreso act
 
 ## Información general sobre los estados de objetivos en Workfront Goals
 
-Para obtener información sobre la creación de objetivos de Workfront, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+Para obtener información sobre cómo crear metas de Workfront Goals, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 Para obtener información sobre cómo activar metas, consulte [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
@@ -70,7 +70,7 @@ Las metas pueden tener uno de los siguientes estados en Workfront Goals:
 
 ### Borrador {#draft}
 
-* Este es el estado predeterminado de una meta recién creada. Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+* Este es el estado predeterminado de una meta recién creada. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 * Los objetivos de Workfront no registran el progreso en un objetivo esbozado.
 * No se puede actualizar el progreso de un objetivo esbozado.
 * No puede cerrar ni desactivar las metas esbozadas porque carecen de información de progreso.
@@ -102,7 +102,7 @@ Las metas pueden tener uno de los siguientes estados en Workfront Goals:
 
 * Puede desactivar un objetivo activo cuando el propietario haya dejado de trabajar en él de forma temporal o permanente. Puede guardarlo para obtener información histórica. Esto actualiza el estado de la meta a Inactiva.
 
-  Para obtener información sobre cómo desactivar metas, consulte la sección &quot;Desactivar metas&quot; en el artículo [Eliminar y desactivar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
+  Para obtener información acerca de cómo desactivar metas, consulte la sección &quot;Desactivar metas&quot; en el artículo [Eliminar y desactivar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
 
 * No se puede desactivar un objetivo esbozado o cerrado.
 * Puede reactivar una meta inactiva y continuar trabajando en ella.
@@ -117,7 +117,7 @@ Las metas pueden tener uno de los siguientes estados en Workfront Goals:
 
 ### Cerrado {#closed}
 
-* Puede cerrar un objetivo cuando desee indicar que lo ha conseguido o que ya no está trabajando en él, ni lo hará en el futuro. Para obtener información sobre cómo cerrar los objetivos, consulte [Cerrar y volver a abrir metas en Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md).
+* Puede cerrar un objetivo cuando desee indicar que lo ha conseguido o que ya no está trabajando en él, ni lo hará en el futuro. Para obtener información sobre cómo cerrar metas, vea [Cerrar y volver a abrir metas en Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md).
 
   >[!TIP]
   >

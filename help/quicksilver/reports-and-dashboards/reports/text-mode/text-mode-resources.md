@@ -27,13 +27,13 @@ Utilice la siguiente documentación para comprender el uso de la interfaz de mod
 
 Esta sección contiene los siguientes artículos:
 
-* [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Edición de una vista mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [Edición de un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Editar una vista usando el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Editar un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Editar modo de texto en una agrupación](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
-* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Ejemplos de vista personalizada, filtro y agrupación: índice de artículo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -49,11 +49,11 @@ Esta sección contiene los siguientes artículos:
   </MadCap:conditionalText>
   -->
 
-* [Uso del formato condicional en el modo Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
-* [Formato de fechas en informes de modo de texto](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Formato de números, moneda y valores de porcentaje en los informes de modo de texto](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [Usar formato condicional en modo de texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
+* [Dar formato a las fechas en los informes en modo texto](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
+* [Formatear números, moneda y valores porcentuales en los informes en modo texto](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
 * [Comparar campos en formato condicional](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
 * [Colecciones de referencia en un informe](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [Crear instrucciones &quot;OR&quot; en los filtros del modo de texto](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
-* [Creación de filtros complejos de modo de texto mediante instrucciones EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* [Crear instrucciones &quot;OR&quot; en los filtros de modo de texto](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
+* [Crear filtros de modo de texto complejos mediante instrucciones EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

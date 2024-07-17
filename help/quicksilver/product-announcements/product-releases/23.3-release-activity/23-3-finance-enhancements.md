@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Financial Management con la versión 23.3.
 
-Para ver una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Descripción general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Coste efectivo por fecha y tarifas de facturación
 
@@ -40,4 +40,4 @@ Además, los conjuntos de funciones del puesto con fecha en vigor ya están disp
 
 Una nueva función, las tarjetas de tarifas, le permite definir varias tarifas de facturación por rol, según la ubicación. Una tarifa de facturación para un rol y una ubicación también puede incluir fechas en vigor. Se pueden adjuntar tarjetas de tarifas a los proyectos para aplicar toda la información de tarifas a la vez para el rol y la ubicación específicos. Los roles basados en la ubicación también se pueden asignar a tareas con la posibilidad de anular sus tasas en el nivel de asignación.
 
-Para obtener más información, consulte [Edición del perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Administrar tarjetas de tarifa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), y [Resumen de facturación e ingresos](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obtener más información, consulte [Editar el perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) y [Información general sobre facturación e ingresos](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

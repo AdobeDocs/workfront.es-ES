@@ -63,11 +63,11 @@ Si no es así, puede seguir los pasos a continuación.
 
 1. Realice una de las siguientes acciones para descargar la aplicación:
 
-   * Si está utilizando el entorno Producción, haga clic en [Descarga de producción de Mac para el Visor de pruebas de escritorio.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg)
-   * Si está utilizando el entorno de vista previa, haga clic en [Descarga de vista previa de Mac para el Visor de corrección de escritorio.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg)
+   * Si está usando el entorno de producción, haga clic en [Descarga de producción de Mac para el Visor de revisiones de escritorio](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.35.pkg).
+   * Si está usando el entorno de vista previa, haga clic en [Descarga de vista previa de Mac para el Visor de revisiones de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.35.pkg).
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
-1. En el cuadro de instalación que aparece, haga clic en **Continuar**, luego haga clic en **Instalar**.
+1. En el cuadro de instalación que aparece, haga clic en **Continuar** y, a continuación, en **Instalar**.
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -75,7 +75,7 @@ Si no es así, puede seguir los pasos a continuación.
 
 >[!NOTE]
 >
->Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurar el Visor de pruebas de escritorio como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente esto signifique que el administrador de Workfront o Workfront Proof tenga que configurar el Visor de pruebas de escritorio como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el Visor de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Instalación del Visor de corrección de escritorio en Windows
 
@@ -83,20 +83,20 @@ Si el administrador de Workfront o Workfront Proof ha descargado la aplicación 
 
 >[!TIP]
 >
->Puede utilizar la línea de comandos para instalar el Visor de corrección de escritorio ejecutando `Workfront Proof Setup 2.1.34.exe" /S`
+>Puede usar la línea de comandos para instalar el Visor de corrección de escritorio ejecutando `Workfront Proof Setup 2.1.34.exe" /S`
 
 1. Realice una de las siguientes acciones para descargar la aplicación:
 
-   * En el entorno Producción, haga clic en [Descarga de producción de Windows para el Visor de corrección de escritorio.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
-   * En el entorno de vista previa, haga clic en [Descarga de Vista previa de Windows para el Visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
+   * En el entorno Producción, haga clic en [Descarga de producción de Windows para el Visor de revisiones de escritorio.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.35.exe)
+   * En el entorno de vista previa, haga clic en [Descarga de vista previa de Windows para el Visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.35.exe)
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
 1. En el cuadro de instalación que aparece, abra el archivo que acaba de descargar para iniciar la instalación.
 
-   ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
+   ![Captura de pantalla_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. En el cuadro que aparece, haga clic en **Ejecutar**. El Visor de corrección de escritorio se instala y ejecuta automáticamente.
+1. En el cuadro de advertencia de seguridad que aparece, haga clic en **Ejecutar**. El Visor de corrección de escritorio se instala y ejecuta automáticamente.
 1. (Condicional) Si instala la aplicación mediante Internet Explorer, actualice la página de inicio en el explorador después de que se instale la aplicación.
 1. Abra una prueba interactiva desde el área Documentos.
 
-Una vez instalado el Visor de pruebas de escritorio, todas las pruebas interactivas se abren en el Visor de pruebas de escritorio. Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente signifique que el administrador de Workfront o Workfront Proof tenga que configurar el Visor de pruebas de escritorio como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el visualizador de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+Una vez instalado el Visor de pruebas de escritorio, todas las pruebas interactivas se abren en el Visor de pruebas de escritorio. Si el Visor de pruebas de escritorio no se inicia al abrir una prueba interactiva, probablemente esto signifique que el administrador de Workfront o Workfront Proof tenga que configurar el Visor de pruebas de escritorio como el visor predeterminado para las pruebas interactivas, tal como se describe en [Configuración de usuario para abrir pruebas no interactivas en el Visor de pruebas de escritorio](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).

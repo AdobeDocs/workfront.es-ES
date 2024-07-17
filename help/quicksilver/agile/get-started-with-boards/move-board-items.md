@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Administrar tarjetas
-description: Puede mover una tarjeta a cualquier columna del tablero o copiar una tarjeta.
+description: Puede mover una tarjeta a cualquier columna del tablero o copiarla.
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
 source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Administrar tarjetas
 
-Puede mover una tarjeta a cualquier columna del tablero o copiar una tarjeta.
+Puede mover una tarjeta a cualquier columna del tablero o copiarla.
 
-Si tiene directivas de columna habilitadas para actualizar valores de campo, el estado, los asignadores y las etiquetas se pueden actualizar automáticamente al mover una tarjeta de una columna a otra. Para obtener más información, consulte &quot;Definición de configuración de columna y políticas&quot; en el artículo [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Si tiene habilitadas las directivas de columna para actualizar los valores de campo, el estado, los usuarios asignados y las etiquetas podrían actualizarse automáticamente al mover una tarjeta de una columna a otra. Para obtener más información, consulte &quot;Definir configuración y directivas de columna&quot; en el artículo [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
@@ -44,46 +44,46 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Mover tarjetas entre columnas
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Arrastre y suelte la tarjeta en otra columna, en la posición en la que desee que aparezca.
 
    O
 
-   Haga clic en el **[!UICONTROL Más]** menú ![Más menú](assets/more-icon-spectrum.png) en la tarjeta y seleccione **[!UICONTROL Mover]**. A continuación, en el **[!UICONTROL Mover elemento]** , elija otra columna y seleccione **[!UICONTROL Mover]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Mover]**. A continuación, en el cuadro **[!UICONTROL Mover elemento]**, elija otra columna y seleccione **[!UICONTROL Mover]**.
 
    ![Mover tarjeta](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >Al usar la variable **[!UICONTROL Mover elemento]** , la tarjeta siempre se mueve a la parte superior de la columna.
+   >Cuando se usa el cuadro **[!UICONTROL Mover elemento]**, la tarjeta siempre se mueve a la parte superior de la columna.
 
 ## Mover tarjetas a la parte superior o inferior de una columna
 
 1. Acceda al tablero.
-1. Arrastre y suelte la tarjeta en la posición en la que desea que aparezca en la columna .
+1. Arrastre y suelte la tarjeta en la posición en la que desee que aparezca en la columna.
 
    O
 
-   Haga clic en el **[!UICONTROL Más]** menú ![Más menú](assets/more-icon-spectrum.png) en la tarjeta y seleccione **[!UICONTROL Principio de la columna]** o **[!UICONTROL Final de columna]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Parte superior de la columna]** o **[!UICONTROL Parte inferior de la columna]**.
 
-   ![Más menú](assets/boards-moremenu-350x329.png)
+   ![Menú más](assets/boards-moremenu-350x329.png)
 
 ## Copiar una tarjeta
 
-Al copiar una tarjeta ad hoc se duplican todos los campos de la tarjeta, incluidos los elementos de la lista de comprobación.
+Copiar una tarjeta ad hoc duplica todos los campos de la tarjeta, incluidos los elementos de la lista de comprobación.
 
 >[!NOTE]
 >
 >No se pueden copiar tarjetas conectadas.
 
 1. Acceda al tablero.
-1. Haga clic en el **[!UICONTROL Más]** menú ![[!UICONTROL Más menú]](assets/more-icon-spectrum.png) en la tarjeta y seleccione **[!UICONTROL Copiar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Copiar]**.
 
-   ![Más menú](assets/boards-moremenu-350x329.png)
+   ![Menú más](assets/boards-moremenu-350x329.png)
 
-   Se añade una nueva tarjeta en la misma columna con el título &quot;copia de - [nombre de la tarjeta original].&quot;
+   Se agrega una tarjeta nueva en la misma columna con el título &quot;copia de: [nombre original de la tarjeta]&quot;.

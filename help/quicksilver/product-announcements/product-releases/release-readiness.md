@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Prepárese para una [!DNL Adobe Workfront] versión
+title: Prepararse para una versión de  [!DNL Adobe Workfront]
 description: Siga estas sugerencias para actualizar sin problemas su organización para cada nueva versión de Workfront.
 author: Becky
 feature: Product Announcements
@@ -14,48 +14,48 @@ ht-degree: 0%
 
 ---
 
-# Prepárese para una [!DNL Adobe Workfront] lanzamiento programado
+# Prepararse para una versión programada de [!DNL Adobe Workfront]
 
 >[!NOTE]
 >
 >Workfront ofrece dos modelos para la publicación de nuevas funciones y actualizaciones. Su organización puede elegir si desea recibir nuevas funciones trimestralmente o con una programación de versiones más rápida. El proceso de preparación para una versión es similar, independientemente del modelo que utilice su organización.
 >
->Para ver una explicación detallada de los dos modelos de versión, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Para obtener una explicación detallada de los dos modelos de versión, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-[!DNL Adobe Workfront] publica actualizaciones principales en el entorno de producción de forma regular. As a [!DNL Workfront] administrador, tiene la oportunidad de asegurarse de que su organización tiene una transición sin problemas a cada nueva versión de [!DNL Workfront] producto.
+[!DNL Adobe Workfront] publica actualizaciones principales en el entorno de producción de forma regular. Como administrador de [!DNL Workfront], tiene la oportunidad de asegurarse de que su organización tenga una transición sin problemas a cada nueva versión del producto [!DNL Workfront].
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Vea el siguiente vídeo para obtener más información sobre las formas de prepararse para una [!DNL Adobe Workfront] versión.
+Vea el siguiente vídeo para obtener más información sobre los preparativos para una versión de [!DNL Adobe Workfront].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
-## Comprender el [!DNL Workfront] proceso de liberación
+## Comprender el proceso de lanzamiento de [!DNL Workfront]
 
-Para obtener una descripción detallada de [!DNL Workfront] proceso de versión, consulte [[!DNL Adobe Workfront] Programación y proceso de versiones](workfront-release-schedule.md).
+Para obtener una descripción detallada del proceso de la versión [!DNL Workfront], consulte [[!DNL Adobe Workfront] programación y proceso de la versión](workfront-release-schedule.md).
 
-## Prepárese para una [!DNL Workfront] versión
+## Prepararse para una versión de [!DNL Workfront]
 
 >[!TIP]
 >
->Puede crear una plantilla de proyecto para realizar un seguimiento del trabajo relacionado con los proyectos programados [!DNL Workfront] versiones.
+>Puede crear una plantilla de proyecto para hacer un seguimiento del trabajo relacionado con las versiones programadas de [!DNL Workfront].
 >
->Para obtener más información, consulte [Utilice un [!DNL Workfront] proyecto para realizar un seguimiento del trabajo de versiones](#use-a-workfront-project-to-track-release-work) en este artículo.
+>Para obtener más información, consulta [Usar un [!DNL Workfront] proyecto para hacer un seguimiento del trabajo de la versión](#use-a-workfront-project-to-track-release-work) en este artículo.
 
 
 Le recomendamos que tenga en cuenta algunas o todas las acciones siguientes que pueden ayudarle a preparar a su organización para próximas versiones:
 
 * [Manténgase al día con las notas de la versión](#stay-up-to-date-with-release-notes)
-* [Vea la [!DNL Workfront] Centro de anuncios](#watch-the-workfront-announcement-center)
-* [Explore la [!UICONTROL Previsualizar zona protegida] entorno](#explore-the-preview-sandbox-environment)
+* [Ver el  [!DNL Workfront] Centro de anuncios](#watch-the-workfront-announcement-center)
+* [Explorar el entorno de [!UICONTROL vista previa de espacio aislado]](#explore-the-preview-sandbox-environment)
 * [Asista al seminario web de lanzamiento](#attend-the-release-webinar)
 * [Ofrecer comentarios a Workfront](#offer-feedback-to-workfront)
 
 ### Manténgase al día con las notas de la versión
 
-Las notas de la versión de una función determinada se publican cuando esta se dirige a su [!UICONTROL Previsualizar zona protegida] entorno. De este modo, puede conocer y explorar la funcionalidad antes de que forme parte del entorno de producción.
+Las notas de la versión de una característica determinada se publican cuando esta se dirige al entorno de [!UICONTROL Vista previa de espacio aislado]. De este modo, puede conocer y explorar la funcionalidad antes de que forme parte del entorno de producción.
 
 Cada versión tiene una página de información general de la versión con breves descripciones de cada función y vínculos a notas más detalladas que contienen información adicional y vídeos de demostración. Estas notas detalladas se organizan por semana a medida que se producen las versiones de vista previa y, a continuación, se reorganizan por área más cerca de la fecha real de lanzamiento trimestral de Producción.
 
@@ -63,13 +63,13 @@ Recomendamos encarecidamente ver los vídeos de demostración disponibles en las
 
 Para ver los vínculos a las descripciones generales de la versión, consulte [Versiones de productos](product-releases.md).
 
-### Vea la [!DNL Workfront] Centro de anuncios
+### Ver el Centro de anuncios [!DNL Workfront]
 
 >[!IMPORTANT]
 >
->Mensajes del Centro de anuncios directamente desde [!DNL Workfront] solo están disponibles para [!DNL Workfront] administradores.
+>Los mensajes del Centro de anuncios directamente de [!DNL Workfront] solo están disponibles para los administradores de [!DNL Workfront].
 
-As a [!DNL Workfront] administrador, recibirá un mensaje del Centro de anuncios de [!DNL Workfront] sobre varios aspectos de la versión. Recibirá un mensaje del Centro de anuncios cuando se produzca alguna de las siguientes situaciones:
+Como administrador de [!DNL Workfront], recibirá un mensaje del Centro de anuncios de [!DNL Workfront] acerca de diversos aspectos de la versión. Recibirá un mensaje del Centro de anuncios cuando se produzca alguna de las siguientes situaciones:
 
 * Hay nuevas funciones disponibles en el entorno de producción de
 * Las funciones incluidas en la vista previa se lanzarán al entorno de producción antes del lanzamiento programado.
@@ -78,28 +78,28 @@ As a [!DNL Workfront] administrador, recibirá un mensaje del Centro de anuncios
 
 >[!TIP]
 >
->Asegúrese de recibir información sobre nuevas versiones anulando la selección de &quot;[!UICONTROL Nuevas versiones]&quot; en su [!UICONTROL Centro de anuncios] configuración.
+>Asegúrese de recibir información sobre nuevas versiones anulando la selección de &quot;[!UICONTROL Nuevas versiones]&quot; en la configuración de [!UICONTROL Centro de anuncios].
 >
->Para obtener más información, consulte [Cancelar suscripción a los mensajes del Centro de anuncios](../announcements/unsubscribe-from-ac-messages.md).
+>Para obtener más información, consulte [Cancelar la suscripción a los mensajes del Centro de anuncios](../announcements/unsubscribe-from-ac-messages.md).
 
 
-### Explore la [!UICONTROL Previsualizar zona protegida] entorno
+### Explorar el entorno de [!UICONTROL vista previa de espacio aislado]
 
-El [!UICONTROL Previsualizar zona protegida] entorno de, también conocido como [!UICONTROL Previsualizar] , sirve como entorno en el que los usuarios de su organización pueden probar y trabajar con seguridad con una copia independiente de los datos del entorno de producción. [!UICONTROL Workfront] normalmente lanza nuevas funciones y funcionalidades para el entorno de vista previa al menos dos semanas antes de que se lancen al entorno de producción. Tiene la oportunidad de familiarizarse con estas funciones antes de que se publiquen en los flujos de trabajo diarios de los usuarios. A continuación, si los usuarios tienen dificultades para aprovechar las nuevas funciones, podrán ayudarles a adaptarse con mayor facilidad.
+El entorno [!UICONTROL Vista previa de espacio aislado], también conocido como el entorno [!UICONTROL Vista previa], sirve como un entorno en el que los usuarios de su organización pueden probar y trabajar con seguridad con una copia independiente de los datos del entorno Producción. [!UICONTROL Workfront] suele publicar nuevas características y funcionalidades en el entorno de vista previa al menos dos semanas     antes de lanzarse al entorno de producción. Tiene la oportunidad de familiarizarse con estas funciones antes de que se publiquen en los flujos de trabajo diarios de los usuarios. A continuación, si los usuarios tienen dificultades para aprovechar las nuevas funciones, podrán ayudarles a adaptarse con mayor facilidad.
 
 >[!TIP]
 >
 >Se recomienda utilizar el entorno de vista previa para probar las funciones y obtener más información sobre ellas antes de su lanzamiento en el entorno de producción.
 
-Cuando se libera una función al entorno de vista previa de espacio aislado, [!DNL Workfront] La documentación de se actualiza para incluir la nueva funcionalidad. Puede buscar el artículo aplicable o seguir los vínculos a la documentación de las notas de la versión.
+Cuando se libera una característica en el entorno de vista previa de espacio aislado, se actualiza la documentación de [!DNL Workfront] para incluir la nueva funcionalidad. Puede buscar el artículo aplicable o seguir los vínculos a la documentación de las notas de la versión.
 
-Para obtener más información sobre [!UICONTROL Previsualizar zona protegida] entorno, consulte [El [!DNL Adobe Workfront] [!UICONTROL Previsualizar zona protegida] entorno](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Para obtener más información sobre el entorno [!UICONTROL Vista previa de espacio aislado], consulte [El entorno [!DNL Adobe Workfront] [!UICONTROL Vista previa de espacio aislado]](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### Asista al seminario web de lanzamiento
 
-[!DNL Workfront] organiza un seminario web sobre la versión poco antes de algunas versiones. Aquí, el [!DNL Workfront] El equipo de productos de explica y demuestra las nuevas funciones y funcionalidades de, y puede responder a las preguntas de los asistentes.
+[!DNL Workfront] organiza un seminario web sobre la versión poco antes de algunas versiones. Aquí, el equipo de [!DNL Workfront] explica y muestra las nuevas características y funcionalidades, y puede responder a las preguntas de los asistentes.
 
-Los seminarios web sobre la versión se anuncian a través de [!DNL Workfront] Centro de anuncios. Los vínculos de registro se encuentran en la página de información general de la versión.
+Los seminarios web sobre la versión se anuncian a través del Centro de anuncios [!DNL Workfront]. Los vínculos de registro se encuentran en la página de información general de la versión.
 
 Para ver los vínculos a las descripciones generales de la versión, consulte [Versiones de productos](product-releases.md).
 
@@ -107,7 +107,7 @@ Para ver los vínculos a las descripciones generales de la versión, consulte [V
 
 Algunas funciones nuevas pueden tener el botón &quot;Proporcionar comentarios&quot;. Tenemos en cuenta estos comentarios al preparar el lanzamiento de la función en Producción.
 
-Además, si encuentra un error o tiene algún problema con las nuevas funciones, póngase en contacto con el Soporte técnico de Workfront. Para obtener más información, consulte [Contactar con Atención al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Además, si encuentra un error o tiene algún problema con las nuevas funciones, póngase en contacto con el Soporte técnico de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 
@@ -124,11 +124,11 @@ A medida que se prepara para comunicar la información de la versión a los usua
 
 * Boletines internos
 * Correo electrónico
-* Mensajes del Centro de anuncios (reenviados desde [!DNL Workfront] o creado por usted)
-* Anuncios sobre herramientas de colaboración, como [!DNL Slack] o [!DNL Microsoft Teams]
+* Mensajes del Centro de anuncios (reenviados desde [!DNL Workfront] o creados por usted)
+* Anuncios en herramientas de colaboración, como [!DNL Slack] o [!DNL Microsoft Teams]
 * Seminarios web o formación internos
 
-Puede elegir el equilibrio entre [!DNL Workfront] Recursos (como documentación, notas de la versión y formación) con información más adaptada a las necesidades y flujos de trabajo de su organización. Mostrar a los usuarios cómo las nuevas funciones pueden mejorar su trabajo o ahorrar tiempo y energía ayudará a los usuarios a aceptar los cambios, pero puede ahorrar tiempo utilizando las demostraciones o la documentación ya disponible a través de [!DNL Workfront].
+Puede elegir el equilibrio entre [!DNL Workfront] recursos (como documentación, notas de la versión y formación) con información que se adapte mejor a las necesidades y flujos de trabajo de su organización. Mostrar a los usuarios cómo las nuevas funciones pueden mejorar su trabajo o ahorrar tiempo y energía ayudará a los usuarios a aceptar los cambios, pero puede ahorrar tiempo utilizando las demostraciones o la documentación ya disponible a través de [!DNL Workfront].
 
 Con el tiempo, reconocerá la comunicación más eficaz para su organización. Le recomendamos que documente sus procesos, evalúe el éxito y perfeccione su comunicación para la próxima versión.
 
@@ -136,15 +136,15 @@ Con el tiempo, reconocerá la comunicación más eficaz para su organización. L
 
 Al recopilar información acerca de la versión, puede decidir que los usuarios no están listos para una nueva función. En este caso, es posible que pueda utilizar plantillas de diseño para limitar lo que ven los usuarios y, por lo tanto, evitar que encuentren y utilicen la nueva función. A continuación, cuando los usuarios tengan suficiente comunicación y aprendizaje sobre la nueva función, puede actualizar la plantilla de diseño para que esta esté disponible.
 
-Para obtener más información sobre las plantillas de diseño, consulte [Creación y administración de plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener información sobre las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-## Utilice un [!DNL Workfront] proyecto para realizar un seguimiento del trabajo de versiones
+## Usar un proyecto [!DNL Workfront] para realizar el seguimiento del trabajo de lanzamiento
 
 Se recomienda crear un proyecto con cuenta para garantizar que su organización está lista para la nueva versión. Aquí puede crear tareas para cada flujo de trabajo o aspecto de [!DNL Workfront] que desee probar en el entorno de vista previa. Al centrarse en los flujos de trabajo, tendrá en cuenta las nuevas funciones que pueden cambiar los flujos de trabajo existentes, así como los flujos de trabajo que no se verán afectados. Es posible que tenga tareas como las siguientes:
 
 * Prueba de creación de un proyecto
 * Prueba para aprobar una prueba
-* Probar los niveles de acceso para [!UICONTROL Trabajadores] y [!UICONTROL Planificadores]
+* Probar niveles de acceso para [!UICONTROL trabajadores] y [!UICONTROL planificadores]
 * Prueba de aplicaciones móviles
 
 También puede resultar útil rastrear las responsabilidades de la versión además de las pruebas. Puede agregar estas tareas a este proyecto o crear una nueva. Aquí puede agregar tareas como las siguientes:

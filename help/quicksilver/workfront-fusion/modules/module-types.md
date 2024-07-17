@@ -38,9 +38,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
@@ -65,11 +65,11 @@ A diferencia de los módulos de déclencheur, los módulos de acción se pueden 
 >**Ejemplos:**
 >
 >* **[!DNL Workfront]> [!UICONTROL Cargar un archivo]** envía un archivo a [!DNL Workfront] y devuelve su identificador.
->* **[!UICONTROL Imagen] > [!UICONTROL Redimensionar]** recibe una imagen, cambia su tamaño a las dimensiones especificadas y pasa la imagen cambiada a la siguiente acción.
+>* **[!UICONTROL Imagen] > [!UICONTROL Cambiar tamaño]** recibe una imagen, la cambia a las dimensiones especificadas y pasa la imagen cambiada a la siguiente acción.
 
 El tipo de acción tiene cuatro subtipos: Crear, Leer, Actualizar y Eliminar. El subtipo Update habilita las tres operaciones siguientes:
 
-* **Borrar el contenido de un campo**. Esta operación tiene lugar cuando el contenido del campo se evalúa para borrar la palabra clave (no confundirlo con *vaciar*).
+* **Borrar el contenido de un campo**. Esta operación tiene lugar cuando el contenido del campo se evalúa para borrar la palabra clave (no confundirlo con *empty*).
 
   ![](assets/erase-content-of-field.png)
 
@@ -81,8 +81,8 @@ El tipo de acción tiene cuatro subtipos: Crear, Leer, Actualizar y Eliminar. El
 
 >[!NOTE]
 >
->* Si no ve el `erase` palabra clave en el panel asignación, el módulo no es un módulo de actualización o no se ha actualizado a las especificaciones más recientes para la aplicación.
->* &quot;[!UICONTROL Empty]&quot; no cambia el contenido del campo. Si es necesario borrar el campo, se puede utilizar la siguiente fórmula:
+>* Si no ve la palabra clave `erase` en el panel de asignación, el módulo no es un módulo de actualización o no se ha actualizado a las especificaciones más recientes para la aplicación.
+>* &quot;[!UICONTROL Vacío]&quot; no cambia el contenido del campo. Si es necesario borrar el campo, se puede utilizar la siguiente fórmula:
 >
 >![](assets/formula-ifempty-name-erase.png)
 >
@@ -100,9 +100,9 @@ Los escenarios pueden contener un número ilimitado de búsquedas.
 >
 >**Ejemplo:**
 >
->**[!DNL Workfront]> [!UICONTROL Leer registros relacionados]**  lee registros que coinciden con la consulta de búsqueda especificada, en un objeto primario concreto
+>**[!DNL Workfront]> [!UICONTROL Leer registros relacionados]** lee registros que coinciden con la consulta de búsqueda especificada, en un objeto primario concreto
 
-## módulos de déclencheur
+## Módulos de activador
 
 Los déclencheur generan paquetes cuando se ha producido un cambio en un servicio determinado. El cambio puede consistir en la creación de registros nuevos, la eliminación de registros, la actualización de registros, etc.
 
@@ -116,9 +116,9 @@ Cada escenario solo puede contener un Déclencheur.
 
 ### Déclencheur de sondeo
 
-Los déclencheur encuestadores encuestan con regularidad un servicio determinado aunque no haya habido cambios desde la ejecución anterior. Le recomendamos que programe un escenario que contenga un déclencheur de sondeo para que se ejecute a intervalos regulares. Si hay un *cambiar*, el déclencheur devuelve paquetes que contienen información sobre el cambio. Si no hay *cambiar*, el déclencheur no genera ningún paquete. Para obtener instrucciones sobre cómo programar un escenario, consulte [Programar un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+Los déclencheur encuestadores encuestan con regularidad un servicio determinado aunque no haya habido cambios desde la ejecución anterior. Le recomendamos que programe un escenario que contenga un déclencheur de sondeo para que se ejecute a intervalos regulares. Si hay un *cambio*, el déclencheur devuelve paquetes que contienen información sobre el cambio. Si no hay *change*, el déclencheur no genera ningún paquete. Para obtener instrucciones sobre cómo programar un escenario, vea [Programar un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
-Los déclencheur de sondeo le permiten seleccionar el primer paquete que debe generar a través del panel epoch. El panel se muestra automáticamente después de guardar un déclencheur déclencheur o cambiar su configuración. Para obtener más información, consulte [Elija dónde comienza un módulo de déclencheur en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+Los déclencheur de sondeo le permiten seleccionar el primer paquete que debe generar a través del panel epoch. El panel se muestra automáticamente después de guardar un déclencheur déclencheur o cambiar su configuración. Para obtener más información, consulte [Elegir dónde se inicia un módulo de déclencheur en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
 
 >[!NOTE]
 >
@@ -128,20 +128,20 @@ Los déclencheur de sondeo le permiten seleccionar el primer paquete que debe ge
 >
 >**Ejemplos:**
 >
->* **[!DNL Workfront]> [!UICONTROL Ver registros]** devuelve los archivos que se agregaron recientemente desde la última vez que se ejecutó el escenario
+>* **[!DNL Workfront]> [!UICONTROL Observar registros]** devuelve archivos que se agregaron recientemente desde la última vez que se ejecutó el escenario
 >
->* **[!DNL Google Sheets]> [!UICONTROL Observar filas]** devuelve las filas nuevas agregadas por el usuario desde la última vez que se ejecutó el escenario
+>* **[!DNL Google Sheets]> [!UICONTROL Filas de observación]** devuelve nuevas filas agregadas por el usuario desde la última vez que se ejecutó el escenario
 
 ### Déclencheur instantáneos
 
-Los déclencheur instantáneos permiten que el servicio notifique [!DNL Workfront Fusion] acerca de a *cambiar* inmediatamente. Le recomendamos que programe un escenario que contenga un déclencheur instantáneo para que se ejecute de inmediato. Para obtener instrucciones, consulte [Programar un escenario en Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Consulte también [Déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) para obtener más información sobre cómo se gestionan los datos entrantes.
+Las déclencheur inmediatas permiten que el servicio notifique a [!DNL Workfront Fusion] un *cambio* inmediatamente. Le recomendamos que programe un escenario que contenga un déclencheur instantáneo para que se ejecute de inmediato. Para obtener instrucciones, consulte [Programar un escenario en Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). Consulte también [déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) para obtener detalles sobre cómo se gestionan los datos entrantes.
 
 >[!INFO]
 >
 >**Ejemplos:**
 >
 >* **[!DNL Workfront]> [!UICONTROL Ver eventos]** devuelve información cuando se produce un determinado tipo de evento en Workfront, como la creación de una tarea.
->* **[!DNL Google Sheets]> [!UICONTROL Ver cambios]** devuelve información cada vez que se actualiza una celda.
+>* **[!DNL Google Sheets]> [!UICONTROL Observar cambios]** devuelve información cada vez que se actualiza una celda.
 
 ## Agregadores
 
@@ -157,8 +157,8 @@ Los escenarios pueden contener un número ilimitado de acumuladores.
 >
 >**Ejemplos:**
 >
->* **[!UICONTROL Archivar] > [!UICONTROL Crear un archivo]** comprime los archivos recibidos en un archivo zip
->* **[!UICONTROL CSV] > [!UICONTROL Agregar a CSV]** combina varias cadenas de un archivo CSV en una sola fila
+>* **[!UICONTROL Archivo] > [!UICONTROL Crear un archivo]** comprime los archivos recibidos en un archivo zip
+>* **[!UICONTROL CSV] > [!UICONTROL Agregado a CSV]** combina varias cadenas de un archivo CSV en una sola fila
 >* **[!UICONTROL Herramientas] > [!UICONTROL Agregador de texto]** combina varias cadenas en una sola
 
 Para obtener más información, consulte [Módulo de agregado en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
@@ -177,6 +177,6 @@ Los escenarios pueden contener un número ilimitado de iteradores.
 >
 >**Ejemplo:**
 >
->**[!UICONTROL Correo electrónico] > [!UICONTROL Recuperar archivos adjuntos]** divide una matriz de archivos adjuntos en paquetes independientes
+>**[!UICONTROL Correo electrónico] > [!UICONTROL Recuperar archivos adjuntos]** divide una matriz de archivos adjuntos en paquetes separados
 
-Para obtener más información, consulte [Módulo iterador en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) y [Asignación de una matriz en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md).
+Para obtener más información, vea [Módulo iterador en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) y [Asignar una matriz en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md).

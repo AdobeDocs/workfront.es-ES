@@ -24,21 +24,21 @@ Para obtener información sobre la creación de filtros, consulte los siguientes
 
 ## Operadores de filtro de modo de texto
 
-Para obtener información sobre los operadores de filtro de Adobe Workfront en la interfaz de filtro estándar, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obtener información acerca de los operadores de filtros de Adobe Workfront en la interfaz de filtros estándar, vea [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Workfront tiene dos operadores de filtro que conectan cada instrucción de filtro:
 
-* **Y**: Cuando se une a 2 instrucciones de filtro por el operador AND, indica que desea que ambas instrucciones de filtro se cumplan al mismo tiempo.
+* **AND**: cuando se une a 2 instrucciones de filtro del operador AND, se indica que se desea que ambas instrucciones de filtro se cumplan al mismo tiempo.
 
   De forma predeterminada, las instrucciones de un filtro se unen mediante el operador AND.
 
   Al crear un filtro AND en la interfaz de modo de texto, no es necesario utilizar el operador AND. Se supone.
 
-  **Ejemplo:** Para filtrar por tareas que tengan una fecha planificada de finalización de hoy y un porcentaje completado inferior al 100%, utilice el siguiente código de modo de texto:
+  **Ejemplo:** Para filtrar por tareas que tengan una Fecha planificada de finalización de hoy y un porcentaje completado inferior al 100%, use el siguiente código de modo de texto:
 
   <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
 
-* **O**: Cuando se unen 2 instrucciones de filtro del operador OR, se indica que se desea cumplir cualquiera de las instrucciones.
+* **OR**: Cuando se unen 2 instrucciones de filtro del operador OR, se indica que se desea cumplir cualquiera de las instrucciones.
 
   >[!TIP]
   >
@@ -46,9 +46,9 @@ Workfront tiene dos operadores de filtro que conectan cada instrucción de filtr
 
   Al crear un filtro OR mediante la interfaz de modo de texto, debe utilizar el operador OR.
 
-  **Ejemplo:** Para filtrar por tareas que tengan una fecha planificada de finalización de hoy o un porcentaje completado inferior al 100%, utilice el siguiente código de modo de texto:
+  **Ejemplo:** Para filtrar por tareas que tengan una Fecha planificada de finalización de hoy o un porcentaje completado inferior al 100%, use el siguiente código de modo de texto:
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>O:1:percentComplete=100</pre><pre>O:1:percentComplete_Mod=lt</pre>
+  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>O:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre>
 
 ## Sintaxis del modo de texto para filtros OR
 
@@ -66,13 +66,13 @@ La sintaxis del modo de texto para un filtro OR debe contener lo siguiente:
 
   Puede tener varias instrucciones OR en un filtro. En este caso, cada instrucción OR recibe un número, en el orden en que desea que se apliquen las instrucciones.
 
-  **Ejemplo:**  Para filtrar por tareas que tengan una fecha planificada de finalización de hoy O un porcentaje completado menor que el 100% o un estado de nuevo, utilice el siguiente código de modo de texto:
+  **Ejemplo:** Para filtrar por tareas que tengan una fecha planificada de finalización de hoy O un porcentaje completado inferior al 100% O un estado de nuevo, use el siguiente código de modo de texto:
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>O:1:status=NUEVO</pre><pre>O:1:status_Mod=in</pre><pre>O:2:percentComplete=100</pre><pre>O:2:percentComplete_Mod=lt</pre>
+  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:status=NUEVO</pre><pre>OR:1:status_Mod=in</pre><pre>O:2:percentComplete=100</pre><pre>OR:2:percentComplete_Mod=lt</pre>
 
-* El nombre de los campos o los atributos a los que hace referencia en un filtro deben escribirse en minúscula. Para obtener más información sobre camel case, consulte [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+* El nombre de los campos o los atributos a los que hace referencia en un filtro deben escribirse en minúscula. Para obtener información acerca de camel case, vea [Introducción a la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 * Cuando haga referencia a campos personalizados en un filtro OR, debe insertar DE: entre la sintaxis del modificador OR y el nombre del campo personalizado. Debe deletrear el nombre del campo personalizado tal como aparece en la interfaz de Workfront.
 
-  **Ejemplo:** Para filtrar por tareas que tengan un estado de Nuevo o un porcentaje completado inferior al 100 % O un campo personalizado llamado &quot;Tipo de cuenta&quot; con un valor de &quot;Igual que&quot;, utilice el siguiente código de modo de texto:
+  **Ejemplo:** Para filtrar por tareas que tengan un estado de Nuevo o un porcentaje completado inferior al 100%, o bien, para un campo personalizado denominado &quot;Tipo de cuenta&quot; con un valor de &quot;Igual que&quot;, use el siguiente código de modo de texto:
 
-  <pre>status=NUEVO</pre><pre>status_Mod=in</pre><pre>O:1:percentComplete=100</pre><pre>O:1:percentComplete_Mod=lt</pre><pre>O:2:DE:Tipo de cuenta=Capital</pre><pre>O:2:DE:Account Type_Mod=in</pre>
+  <pre>status=NUEVO</pre><pre>status_Mod=in</pre><pre>O:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:Tipo de cuenta=Capital</pre><pre>OR:2:DE:Tipo de cuenta_Mod=in</pre>

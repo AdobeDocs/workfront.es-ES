@@ -23,7 +23,7 @@ La visualización Actividad por equipo muestra las actividades que se producen d
 >[!NOTE]
 >
 >La visualización de la actividad del proyecto es similar a esta visualización, pero muestra la actividad en función de las personas asignadas a proyectos, en lugar de las personas asignadas a un equipo de inicio.\
->Para obtener información sobre la visualización de la actividad del proyecto, consulte [Vea la visualización de la actividad del proyecto en el análisis mejorado](../enhanced-analytics/project-activity-overview.md).
+>Para obtener información sobre la visualización de la actividad del proyecto, consulte [Ver la visualización de la actividad del proyecto en el análisis mejorado](../enhanced-analytics/project-activity-overview.md).
 
 ![](assets/activity-by-team-350x113.png){width="700"}
 
@@ -63,21 +63,21 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprender la visualización Actividad por equipo
 
 Las diferentes actividades se muestran en diferentes colores para resumir eventos específicos durante el período de tiempo filtrado:
 
-* **Usuarios que han iniciado sesión**: los cuadros morados muestran que las personas del equipo de inicio iniciaron sesión ese día. Un tono más oscuro indica un número mayor de personas que iniciaron sesión.
+* **Usuarios que iniciaron sesión**: Los cuadros morados muestran que las personas del equipo de inicio iniciaron sesión ese día. Un tono más oscuro indica un número mayor de personas que iniciaron sesión.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Cambio de estado de tarea**: los cuadros rosas muestran que las personas del equipo de inicio cambiaron el estado de una tarea ese día. Un sombreado más oscuro indica que se ha cambiado un número mayor de estados de tarea.
+* **Cambio de estado de la tarea**: los cuadros rosas muestran que las personas del equipo de inicio cambiaron el estado de una tarea en ese día. Un sombreado más oscuro indica que se ha cambiado un número mayor de estados de tarea.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Tareas completadas**: los cuadros azules muestran que las personas del equipo de inicio completaron una tarea ese día. Un tono más oscuro indica que se está completando un número mayor de tareas.
+* **Tareas completadas**: Los cuadros azules muestran que las personas del equipo de inicio completaron una tarea ese día. Un tono más oscuro indica que se está completando un número mayor de tareas.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -89,12 +89,12 @@ Ver esta información le ayuda a determinar lo siguiente:
 * Qué equipos de inicio están sobrecargados de trabajo o están usando más el sistema.
 * Si la distribución del trabajo es adecuada para el equipo local.
 
-Para obtener los mejores datos para esta visualización, consulte [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obtener los mejores datos para esta visualización, consulte [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualización de la actividad por equipo
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
-1. En el panel izquierdo, seleccione **People**.
+1. Haga clic en el icono del menú principal ![](assets/main-menu-icon-16x12.png) y, a continuación, seleccione **Analytics**.
+1. En el panel izquierdo, seleccione **Personas**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
@@ -102,11 +102,11 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Si no ha establecido el filtro Equipo, agregue el filtro Equipo y seleccione cada equipo cuyos datos desee ver.
 
-   Para obtener más información sobre la adición de filtros en el análisis mejorado, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre cómo agregar filtros en el análisis mejorado, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Después de agregar filtros, se muestran datos de hasta 50 proyectos y los filtros permanecen activos incluso después de abandonar la página o cerrar la sesión de Workfront.
 
@@ -138,7 +138,7 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Opcional) Para exportar los datos de visualización, haga clic en el icono Exportar ![](assets/export.png) en la esquina superior derecha de la visualización, seleccione el formato de exportación:
+1. (Opcional) Para exportar los datos de visualización, haga clic en el icono Exportar ![](assets/export.png) en la esquina superior derecha de la visualización y, a continuación, seleccione el formato de exportación:
 
    * **Gráfico (PNG)**
    * **Tabla de datos (XSLX)**

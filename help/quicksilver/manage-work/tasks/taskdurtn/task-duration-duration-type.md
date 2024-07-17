@@ -23,10 +23,10 @@ Este índice contiene vínculos a los siguientes artículos:
 
 * [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 * [Actualizar el tipo de duración de una tarea](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
-* [Información general del tipo de duración: Asignación calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
+* [Descripción general del tipo de duración: asignación calculada](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
 * [Información general sobre el tipo de duración: Condicionada por el esfuerzo](../../../manage-work/tasks/taskdurtn/effort-driven.md)
-* [Información general sobre el tipo de duración: Trabajo calculado](../../../manage-work/tasks/taskdurtn/calculated-work.md)
-* [Información general del tipo de duración: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
+* [Descripción general del tipo de duración: Trabajo calculado](../../../manage-work/tasks/taskdurtn/calculated-work.md)
+* [Información general sobre el tipo de duración: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 * [Actualizar las horas planificadas y la duración de una tarea con un tipo de duración simple](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
 * [Tipos de duración en proyectos de Adobe Workfront y Microsoft](../../../manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
 

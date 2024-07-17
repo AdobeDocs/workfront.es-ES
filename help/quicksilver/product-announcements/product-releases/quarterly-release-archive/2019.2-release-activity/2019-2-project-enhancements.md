@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Esta página describe todas las mejoras de Project incluidas en la versión 2019.2. La funcionalidad está planificada para estar disponible en el entorno de producción la semana del 20 de mayo de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.2, consulte [Información general de la actividad de versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.2, consulte [Información general sobre la actividad de la versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Búsqueda De Grupos Más Rápida Al Personalizar Estados
 
@@ -26,13 +26,13 @@ El menú desplegable de la pestaña Estados del área Configuración es ahora un
 
 Anteriormente, el menú desplegable mostraba un número limitado de grupos. Si el grupo deseado no se mostraba, tenía que ir a Configuración > Grupos y buscar el grupo específico para personalizar sus estados.
 
-Para obtener más información, consulte [Creación o edición de un estado](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Para obtener más información, consulte [Crear o editar un estado](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Adjuntar procesos personalizados de Forms y aprobación predeterminados a las tareas
 
 Ahora puede configurar formularios personalizados y procesos de aprobación predeterminados para adjuntarlos a las tareas cuando agregue tareas a un proyecto. Puede establecer la configuración predeterminada en el nivel de proyecto.
 
-Para obtener información sobre la configuración de formularios personalizados predeterminados y los procesos de aprobación para tareas en el nivel de proyecto, consulte la sección &quot;Tareas&quot; en la [Editar proyectos](../../../../manage-work/projects/manage-projects/edit-projects.md) artículo.
+Para obtener información sobre la configuración de formularios personalizados y procesos de aprobación predeterminados para tareas en el nivel de proyecto, consulte la sección &quot;Tareas&quot; en el artículo [Editar proyectos](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Mostrar toda la fila de una tarea principal en negrita en una lista de tareas
 
@@ -44,9 +44,9 @@ Un nuevo botón Guardar automáticamente en la lista de tareas le permite selecc
 
 Antes de esta mejora, todos los cambios se guardaban siempre automáticamente.
 
-Para obtener información sobre la edición de tareas en una lista de tareas, consulte [Editar tareas](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Para obtener información acerca de cómo editar tareas en una lista de tareas, consulte [Editar tareas](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-Para obtener información sobre la edición de tareas en el gráfico Gantt, consulte [Actualizar información en el gráfico Gantt de lista de tareas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obtener información acerca de la edición de tareas en el diagrama de Gantt, vea [Actualizar información en la lista de tareas Diagrama de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Valores predeterminados de ancho de columna nuevos en listas nuevas
 
@@ -54,7 +54,7 @@ Ahora, Workfront ajusta automáticamente la anchura de las columnas según la in
 
 Antes de esta mejora, las anchuras de columna en las vistas de nuevo proyecto y tarea se establecían en 100 píxeles, a menos que se especifique lo contrario.
 
-Para obtener información sobre los anchos de columna, consulte [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Para obtener información acerca de los anchos de columna, vea [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Desactivar objetos no utilizados
 
@@ -86,7 +86,7 @@ Ahora puede mostrar el costo presupuestado del trabajo programado (CPTP) y el co
 
 Aunque estas métricas de rendimiento del proyecto se utilizaban antes en cálculos financieros en Workfront, no eran visibles en el sistema antes de esta mejora.
 
-Para obtener más información sobre el cálculo de CPTP, consulte [Calcular costo presupuestado de trabajo programado (CPTP)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Para obtener información acerca del cálculo del CPTP, vea [Calcular el costo presupuestado del trabajo programado (CPTP)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
-Para obtener más información sobre el cálculo de CPTR, consulte [Calcular costo presupuestado de trabajo realizado (CPTR)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Para obtener información acerca del cálculo del CPTR, vea [Calcular el costo presupuestado del trabajo realizado (CPTR)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

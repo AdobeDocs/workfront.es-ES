@@ -5,7 +5,8 @@ title: Compartir un panel de lienzo
 description: Puede compartir un panel de lienzo con otros usuarios de Adobe Workfront para que puedan verlo o editarlo.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -45,14 +46,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Compartir un panel de lienzo
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Paneles**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo** A continuación, haga clic en el nombre del panel de lienzo que desee compartir.
+1. En el panel izquierdo, haga clic en **Paneles de lienzo** y, a continuación, haga clic en el nombre del panel de lienzo que desee compartir.
 
-1. Haga clic en **Compartir** en la esquina superior derecha de la página.
+1. Haga clic en el botón **Compartir** en la esquina superior derecha de la página.
 
-1. En el **Conceder acceso a:** del campo **Uso compartido de paneles** que aparece, empiece a escribir los nombres de usuarios, equipos, funciones, grupos o empresas específicos de la instancia de Workfront con los que desea compartir el panel de lienzo. Cuando el nombre que está buscando aparezca en la lista de autocompletar debajo del campo, haga clic en él para añadirlo a la lista de destinatarios previstos.
+1. En el campo **Dar acceso a:** de la ventana de **Uso compartido de paneles** que aparece, empiece a escribir los nombres de usuarios, equipos, roles, grupos o compañías específicos de la instancia de Workfront con los que desea compartir el panel de lienzo. Cuando el nombre que está buscando aparezca en la lista de autocompletar debajo del campo, haga clic en él para añadirlo a la lista de destinatarios previstos.
 
-1. (Opcional) Una vez añadida una entidad a la lista de destinatarios deseados, puede editar el tipo de acceso que recibirán para este panel de lienzo. De forma predeterminada, solo recibirán **Ver** , pero puede otorgarles acceso de Administración haciendo clic en **Ver >** junto a la entidad y seleccionando **Administrar** en la lista desplegable. Tenga en cuenta que algunas entidades no pueden tener su nivel de acceso cambiado, como los administradores.
+1. (Opcional) Una vez añadida una entidad a la lista de destinatarios deseados, puede editar el tipo de acceso que recibirán para este panel de lienzo. De manera predeterminada, solo recibirán acceso para **Ver**, pero puede darles acceso de administración si hace clic en **Ver >** junto a la entidad y, a continuación, selecciona **Administrar** en la lista desplegable. Tenga en cuenta que algunas entidades no pueden tener su nivel de acceso cambiado, como los administradores.
 
-1. Una vez que haya agregado a todas las personas con las que desee compartir el panel de lienzo, haga clic en **Compartir** botón.
+1. Una vez que haya agregado a todas las personas con quienes desea compartir el panel de lienzo, haga clic en el botón **Compartir**.

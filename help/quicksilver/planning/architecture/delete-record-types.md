@@ -31,9 +31,9 @@ hide: yes
 
 Puede eliminar los tipos de registro cuando ya no sean relevantes.
 
-Sin embargo, al eliminar los tipos de registro también se elimina toda la información asociada a los tipos de registro. Para obtener más información, consulte la [Consideraciones al eliminar tipos de registros](#considerations-when-deleting-record-types) de este artículo.
+Sin embargo, al eliminar los tipos de registro también se elimina toda la información asociada a los tipos de registro. Para obtener más información, consulte la sección [Consideraciones al eliminar tipos de registros](#considerations-when-deleting-record-types) en este artículo.
 
-Para obtener información sobre los tipos de registros, consulte [Resumen de tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Para obtener información acerca de los tipos de registros, vea [Información general sobre los tipos de registros](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -80,13 +80,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -131,11 +131,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Se abre el espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de tipo de registro y haga clic en el menú Más. **Eliminar**.
-   * Haga clic en la tarjeta del tipo de registro que desee eliminar y, en la página de tipo de registro, haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Eliminar**.
+   * Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el menú Más y luego **Eliminar**.
+   * Haga clic en la tarjeta del tipo de registro que desee eliminar y, en la página de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Eliminar**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Tipo **eliminar** en el cuadro de confirmación, haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
+1. Escriba **delete** en el cuadro de confirmación y luego haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
 
    El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se eliminan.

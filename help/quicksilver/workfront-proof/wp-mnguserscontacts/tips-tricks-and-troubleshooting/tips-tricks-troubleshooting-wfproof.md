@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
-title: Sugerencias, trucos y solución de problemas para [!DNL Workfront Proof] usuarios y contactos
+title: Sugerencias, trucos y solución de problemas para  [!DNL Workfront Proof] usuarios y contactos
 description: Obtenga información sobre cómo solucionar problemas de Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# Sugerencias, trucos y solución de problemas para [!DNL Workfront Proof] usuarios y contactos
+# Sugerencias, trucos y solución de problemas para usuarios y contactos de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 

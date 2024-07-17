@@ -18,7 +18,7 @@ ht-degree: 0%
 
 El gráfico de evolución proporciona una representación visual de cómo las historias progresan a través de la iteración. La tasa de evolución real se mide comparándola con la tasa de evolución ideal para la cronología de la iteración.
 
-El gráfico de evolución se ajusta en función del día seleccionado. El día actual es el predeterminado. Cuando se selecciona un día anterior, todos los datos del gráfico de evolución y todos los valores del [!UICONTROL estado de finalización] Esta sección encima del gráfico de evolución se vuelve a calcular para representar los datos tal como estaban al final del día seleccionado. (Puede seleccionar días pasados o el día actual; no puede seleccionar días en el futuro).
+El gráfico de evolución se ajusta en función del día seleccionado. El día actual es el predeterminado. Cuando se selecciona un día anterior, todos los datos del gráfico de evolución y todos los valores de la sección [!UICONTROL estado de finalización] por encima del gráfico de evolución se vuelven a calcular para representar los datos tal como estaban al final del día seleccionado. (Puede seleccionar días pasados o el día actual; no puede seleccionar días en el futuro).
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -58,7 +58,7 @@ El gráfico de evolución contiene los siguientes indicadores visuales:
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
    <td> <p>Se muestra un punto verde o rojo en la tasa de evolución real cada vez que se quema el trabajo. (Cuando la tasa de evolución real de ese día es de color rojo, el punto es de color rojo; cuando la tasa de evolución real de ese día es de color verde, el punto es de color verde).</p> <p>El trabajo se incendia cuando se produce cualquiera de las siguientes situaciones:</p> 
     <ul> 
-     <li> El [!UICONTROL Percent Complete] aumenta en la historia.<br>[!UICONTROL Porcentaje completado] aumenta cuando: 
+     <li> El [!UICONTROL Percent Complete] aumenta en la historia.<br>[!UICONTROL Percent Complete] aumenta cuando: 
       <ul> 
        <li> <p>Cambiado manualmente</p> </li> 
        <li> <p>La cantidad de puntos u horas se actualiza en la historia</p> </li> 
@@ -71,9 +71,9 @@ El gráfico de evolución contiene los siguientes indicadores visuales:
 
 ## Cómo afectan los días libres al gráfico de evolución {#how-days-off-affect-the-burndown-chart}
 
-El horario predeterminado definido en [!DNL Workfront] afecta al gráfico de evolución excluyendo los días libres (fines de semana y festivos) de la evolución. El gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal y como se describe en  [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+La programación predeterminada definida en [!DNL Workfront] afecta el gráfico de evolución al excluir los días libres (fines de semana y festivos) de la evolución. El gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal y como se describe en  [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-Los equipos de Agile pueden incorporar días no laborables específicos del equipo definiendo un horario alternativo (como se describe en el artículo ) [Usar un horario de equipo alternativo para los gráficos de evolución](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Esta programación alternativa se refleja en el gráfico de evolución de cualquier iteración asignada al equipo. La programación alternativa solo afecta al gráfico de evolución.
+Los equipos de Agile pueden incorporar días no laborables específicos del equipo definiendo un horario alternativo (como se describe en el artículo [Usar un horario de equipo alternativo para los gráficos de evolución](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Esta programación alternativa se refleja en el gráfico de evolución de cualquier iteración asignada al equipo. La programación alternativa solo afecta al gráfico de evolución.
 
 Los días libres solo se reflejan en el gráfico de evolución si:
 
@@ -88,8 +88,8 @@ Los días libres solo se reflejan en el gráfico de evolución si:
 * Está viendo el gráfico de evolución en un día libre. (El día que está viendo se muestra en el gráfico de evolución).
 * El trabajo total restante de la iteración se completa en un día libre.
 
-  Cuando un usuario completa el trabajo total restante para la iteración en un día libre, la variable [!UICONTROL Finalización estimada] muestra la fecha en la que se completó la iteración.
+  Cuando un usuario completa el trabajo total restante para la iteración en un día libre, el campo [!UICONTROL Finalización estimada] muestra la fecha en la que se completó la iteración.
 
-  Al planificar la iteración, si establece la fecha de finalización de la iteración para un día no laborable y la iteración está realizando un seguimiento para finalizar a tiempo, la variable [!UICONTROL Finalización estimada] La fecha se define para el último día laborable anterior a la fecha de finalización de la iteración que haya definido (porque no está previsto quemar el trabajo en días no laborables).
+  Al planificar la iteración, si establece la fecha de finalización de la iteración para un día no laborable y la iteración está realizando un seguimiento para finalizar a tiempo, la [!UICONTROL fecha estimada de finalización] se establece para el último día laborable anterior a la fecha de finalización de la iteración establecida (porque el trabajo no está programado para ser quemado en días no laborables).
 
-  La fecha de finalización de la iteración se especifica cuando se planifica, tal como se describe en el artículo [Creación de una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  La fecha de finalización de la iteración se especifica cuando se planea la iteración, tal como se describe en el artículo [Crear una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

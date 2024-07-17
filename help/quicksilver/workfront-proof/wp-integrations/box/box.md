@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 
-* [Introducción a la [!DNL Workfront Proof] y [!DNL Box] integración](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Cree una revisión a través de su [!DNL Box] Cuenta](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [Sincronización [!DNL Box] Carpetas con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [Ver el archivo original de una prueba en [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [Introducción a la integración de  [!DNL Workfront Proof] y [!DNL Box] n](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Crear una revisión a través de su cuenta  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Sincronizar  [!DNL Box] carpetas con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [Ver el archivo original de una revisión en  [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

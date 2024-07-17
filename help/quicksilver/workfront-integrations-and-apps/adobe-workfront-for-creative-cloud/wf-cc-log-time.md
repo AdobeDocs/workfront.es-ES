@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Hora de registro mediante el complemento de Adobe Workfront
-description: Puede registrar el tiempo para proyectos, tareas y problemas en los que está trabajando directamente en las aplicaciones de Adobe Creative Cloud.
+title: Registrar tiempo mediante el complemento de Adobe Workfront
+description: Puede registrar tiempo para proyectos, tareas y problemas en los que está trabajando directamente en aplicaciones de Adobe Creative Cloud.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# El tiempo de registro se utiliza para [!DNL Adobe Workfront] plugin
+# Registrar tiempo usando el complemento [!DNL Adobe Workfront]
 
-Puede registrar el tiempo para proyectos, tareas y problemas en los que esté trabajando directamente en cualquiera de los siguientes [!DNL Adobe Creative Cloud] aplicaciones:
+Puede registrar tiempo para proyectos, tareas y problemas en los que esté trabajando directamente en cualquiera de las [!DNL Adobe Creative Cloud] aplicaciones siguientes:
 
 {{cc-app-list}}
 
@@ -41,39 +41,39 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> -->
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a tareas o problemas</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede modificar el nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a tareas o problemas</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permiso de [!UICONTROL Log Hours] para la tarea o el problema</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Permiso de [!UICONTROL Log Hours] para la tarea o el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
 {{cc-install-prereq}}
 
-## Hora de registro mediante el complemento de Adobe Workfront
+## Registrar tiempo mediante el complemento de Adobe Workfront
 
-La variable [!DNL Workfront] el administrador determina qué tipos de hora específicos del proyecto están disponibles, tal como se describe en [Administrar tipos de hora](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+El administrador de [!DNL Workfront] determina qué tipos de horas específicas del proyecto están disponibles tal como se describe en [Administrar tipos de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 Para registrar el tiempo mediante el complemento de Workfront:
 
-1. Haga clic en el **[!UICONTROL Menú]** en la esquina superior derecha y, a continuación, seleccione **[!UICONTROL Lista de trabajo]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en el icono **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. En el **[!UICONTROL Lista de trabajo]**, seleccione el elemento de trabajo al que debe registrar la hora.
-1. Haga clic en **[!UICONTROL Tiempo]** en la barra de navegación.
+1. En **[!UICONTROL Lista de trabajos]**, seleccione el elemento de trabajo en el que debe registrar el tiempo.
+1. Haga clic en **[!UICONTROL Hora]** en la barra de navegación.
 
    ![](assets/log-time-350x337.png)
 
-1. (Opcional) Elija la **[!UICONTROL Tipo de hora]** en el menú desplegable.
+1. (Opcional) Elija **[!UICONTROL Tipo de hora]** en el menú desplegable.
 1. Escriba la hora en horas del día que necesite.
 
    ![](assets/copy-of-log-hours-350x236.png)
 
-1. Haga clic en **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Enviar]**.

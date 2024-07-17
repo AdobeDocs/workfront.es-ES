@@ -3,7 +3,7 @@ title: Establecer una condición personalizada como predeterminada para tareas y
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: Cuando un usuario hace clic en Trabajar en él o agrega un comentario de actualización a una nueva tarea a la que se ha asignado (sin configurar manualmente una condición para la tarea), Adobe Workfront muestra la condición predeterminada para las tareas, que se configura en Configuración. Lo mismo es válido para los problemas.
+description: Cuando un usuario hace clic en Trabajar en ello o agrega un comentario de actualización a una nueva tarea a la que se les ha asignado (sin configurar manualmente una condición para la tarea), Adobe Workfront muestra la condición predeterminada para las tareas, que se configura en Configuración. Lo mismo ocurre con los problemas.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Establecer una condición personalizada como predeterminada para tareas y problemas
 
-Cuando un usuario hace clic en Trabajar en él o agrega un comentario de actualización a una nueva tarea a la que se ha asignado (sin configurar manualmente una condición para la tarea), Adobe Workfront muestra la condición predeterminada para las tareas, que se configura en Configuración. Lo mismo es válido para los problemas.
+Cuando un usuario hace clic en Trabajar en ello o agrega un comentario de actualización a una nueva tarea a la que se les ha asignado (sin configurar manualmente una condición para la tarea), Adobe Workfront muestra la condición predeterminada para las tareas, que se configura en Configuración. Lo mismo ocurre con los problemas.
 
-Workfront utiliza la condición integrada Going Smoothly como condición predeterminada para las tareas y, por separado, para los problemas. Como administrador de Workfront, puede cambiar la condición predeterminada para ambos tipos de objetos a una condición personalizada que haya creado.
+Workfront utiliza la condición integrada Ir sin problemas como condición predeterminada para las tareas y, por separado, para los problemas. Como administrador de Workfront, puede cambiar la condición predeterminada para ambos tipos de objetos a una condición personalizada que haya creado.
 
 ## Requisitos de acceso
 
@@ -39,18 +39,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Establezca una condición personalizada como condición predeterminada para tareas o problemas:
+## Establezca una condición personalizada como condición predeterminada para las tareas o para los problemas:
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Haga clic en **Preferencias de proyecto** > **Condiciones**.
+1. Haga clic en **Preferencias del proyecto** > **Condiciones**.
 
-1. Haga clic en el **Tareas** o **Problemas** pestaña .
+1. Haga clic en la ficha **Tareas** o **Problemas**.
 
 1. Haga clic en **Establecer condiciones predeterminadas**.
 1. En el menú desplegable, haga clic en la condición personalizada que desee como condición predeterminada para las tareas (o problemas).
@@ -58,11 +58,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 >[!NOTE]
 >
->* Un usuario asignado a una tarea o problema, o que tenga permisos de gestión en él, puede cambiar su condición manualmente. Para obtener más información, consulte [Actualizar condición para tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
->* Las tres condiciones predeterminadas para las tareas y los problemas que se incluyen con Workfront van sin problemas, algunas preocupaciones y los bloques de ruta principales. Estas condiciones no se pueden ocultar ni eliminar, pero se pueden cambiar sus nombres y colores. O puede crear otros nuevos para usarlos en su lugar, tal como se describe en [Creación o edición de una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+>* Un usuario asignado a una tarea o un problema, o que tenga permisos de administración en ellos, puede cambiar su condición manualmente. Para obtener más información, consulte [Actualizar condición para tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+>* Las tres condiciones predeterminadas para las tareas y los problemas que se incluyen en Workfront son Continuar sin problemas, Algunas preocupaciones y Obstáculos principales. No puede ocultar ni eliminar estas condiciones, pero puede cambiar sus nombres y colores. O puede crear otras nuevas para usarlas en su lugar, tal como se describe en [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 >
 
+Para obtener información acerca de cómo configurar una condición personalizada como condición predeterminada para los proyectos, vea [Establecer una condición personalizada como predeterminada para los proyectos](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
-Para obtener información sobre cómo configurar una condición personalizada como condición predeterminada para los proyectos, consulte [Establecer una condición personalizada como predeterminada para los proyectos](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
-
-Para obtener información sobre las condiciones personalizadas, consulte [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Para obtener información acerca de las condiciones personalizadas, vea [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

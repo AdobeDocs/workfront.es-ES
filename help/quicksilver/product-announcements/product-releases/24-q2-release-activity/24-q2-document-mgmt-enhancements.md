@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Esta página describe todas las mejoras realizadas en la administración de documentos con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión del segundo trimestre de 2024.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 Ahora puede especificar una fecha límite para los usuarios o equipos asignados para revisar o aprobar un documento. Los revisores y aprobadores reciben notificaciones por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado. El plazo también se refleja en el widget de aprobaciones del nuevo área de Inicio.
 
-Para obtener más información, consulte [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Para obtener más información, vea [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Crear y usar plantillas de aprobación
 
@@ -62,4 +62,4 @@ Para ayudarle a administrar y analizar sus solicitudes de aprobación de un vist
 
 Puede explorar en profundidad las categorías enumeradas anteriormente para obtener una vista más detallada. El widget de todas las aprobaciones está disponible en nuevos paneles de inicio y de lienzo.
 
-Para obtener más información, consulte [Introducción a la nueva página Inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener más información, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

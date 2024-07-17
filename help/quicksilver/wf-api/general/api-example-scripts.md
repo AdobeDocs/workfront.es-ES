@@ -9,7 +9,7 @@ role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ A continuación se muestran ejemplos de diferentes lenguajes de programación qu
 
 Puede descargar estos ejemplos en la página Github de Workfront:  [https://github.com/Workfront](https://github.com/Workfront)
 
-Para buscar ejemplos en el repositorio, introduzca `example` en el **Buscar un repositorio...** cuadro.
+Para buscar ejemplos en el repositorio, escriba `example` en el cuadro **Buscar un repositorio...**.
 
 >[!NOTE]
 >

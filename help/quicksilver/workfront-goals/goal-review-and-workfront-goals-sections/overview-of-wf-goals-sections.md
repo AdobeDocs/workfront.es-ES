@@ -46,7 +46,7 @@ Puede aplicar filtros para mostrar solo los objetivos que son importantes para u
 A continuación se ofrece una breve descripción general de las secciones de los Objetivos de Workfront y las opciones disponibles para administrarlos. Para obtener más información sobre las acciones adicionales que puede realizar en cada sección de los objetivos de Workfront, también recomendamos los siguientes artículos:
 
 * [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
-* [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Actualizar progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Filtrar información en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
@@ -54,7 +54,7 @@ A continuación se ofrece una breve descripción general de las secciones de los
 
 Puede usar la Lista de metas para revisar las metas que le pertenecen a usted, a sus equipos, a grupos o a su organización. Puede ver las metas en cualquier estado y período de tiempo.
 
-Para obtener información sobre cómo navegar por la Lista de metas y administrar las metas, consulte [Administrar metas en la lista de metas de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Para obtener información sobre cómo navegar por la Lista de metas y administrar las metas, consulte [Administrar metas en la Lista de metas de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
@@ -76,7 +76,7 @@ Utilice la Lista de objetivos para hacer lo siguiente:
 
 Puede utilizar la sección Gráficos para obtener una vista integral del estado de las metas que le pertenecen a usted o a su organización. Puede ver la información de progreso de los objetivos en cualquier estado desde cualquier periodo de tiempo en esta sección.
 
-Para obtener información sobre el uso de la sección Gráficos, consulte [Revise los gráficos para comprender las tendencias del progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+Para obtener información acerca del uso de la sección Gráficos, vea [Revisar gráficos para comprender las tendencias del progreso de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
@@ -90,11 +90,11 @@ Utilice la sección Gráficos para hacer lo siguiente:
 
 Si las metas están alineadas entre sí, puede utilizar la sección Alineación de metas para mostrar y revisar todas las metas de su organización y su alineación entre sí. Los objetivos que están alineados se muestran aquí en las tarjetas conectadas para ilustrar su alineación entre sí. Las metas principales se muestran primero y las metas secundarias se apilan detrás de ellas. Puede ver las metas en cualquier estado y período de tiempo en esta sección.
 
-Para obtener información sobre cómo navegar por la sección Alineación de objetivos para administrar los objetivos, consulte [Navegue hasta la sección Alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+Para obtener información sobre cómo navegar por la sección Alineación de metas para administrar las metas, consulte [Navegar por la sección Alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 Para obtener información sobre cómo alinear objetivos, consulte los siguientes artículos:
 
-* [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)

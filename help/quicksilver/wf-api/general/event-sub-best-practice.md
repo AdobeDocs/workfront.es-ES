@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Prácticas recomendadas de suscripción de eventos
 
-Los mensajes de suscripción a eventos de Adobe Workfront se envían automáticamente desde Workfront después de configurar correctamente el servicio y crear una suscripción a eventos para almacenar en déclencheur los envíos de mensajes. Para obtener más información sobre la configuración correcta de las suscripciones a eventos, consulte [Requisitos de envío de suscripción a evento](../../wf-api/general/setup-event-sub-endpoint.md).
+Los mensajes de suscripción a eventos de Adobe Workfront se envían automáticamente desde Workfront después de configurar correctamente el servicio y crear una suscripción a eventos para almacenar en déclencheur los envíos de mensajes. Para obtener más información sobre cómo configurar correctamente las suscripciones a eventos, consulte [Requisitos para la entrega de suscripciones a eventos](../../wf-api/general/setup-event-sub-endpoint.md).
 
 
 A continuación se enumeran algunas prácticas recomendadas para ayudarle a crear suscripciones a eventos de forma eficaz.
 
 ## Proporcione todos los campos obligatorios del cuerpo de la solicitud
 
-Asegúrese de que todos los campos del cuerpo de la solicitud requeridos se proporcionen a la API. Para obtener información sobre todos los atributos de solicitud requeridos, consulte [API de suscripción de evento](../../wf-api/general/event-subs-api.md).
+Asegúrese de que todos los campos del cuerpo de la solicitud requeridos se proporcionen a la API. Para obtener información acerca de todos los atributos de solicitud requeridos, consulte [API de suscripción a evento](../../wf-api/general/event-subs-api.md).
 
 ## Evite incluir campos de cuerpo adicionales
 
@@ -32,22 +32,22 @@ No incluya campos de cuerpo adicionales en la solicitud, ya que esto provocará 
 
 ## Completar pruebas dentro del período de gracia
 
-Intente realizar todas las pruebas de suscripción dentro del período de gracia de 100 mensajes. Para obtener más información sobre este periodo de gracia, consulte [Preguntas frecuentes - Suscripciones de eventos](../../wf-api/general/event-subs-faq.md).
+Intente realizar todas las pruebas de suscripción dentro del período de gracia de 100 mensajes. Para obtener más información acerca de este período de gracia, consulte [Preguntas más frecuentes - Suscripciones a eventos](../../wf-api/general/event-subs-faq.md).
 
 ## Cumplir los requisitos de entrega de mensajes de suscripción de evento estándar
 
-Asegúrese de que el punto final de suscripción se ajuste a los requisitos de entrega de mensajes de suscripción de evento estándar. Para obtener más información sobre estos requisitos, consulte [Requisitos de envío de suscripción a evento](../../wf-api/general/setup-event-sub-endpoint.md).
+Asegúrese de que el punto final de suscripción se ajuste a los requisitos de entrega de mensajes de suscripción de evento estándar. Para obtener más información sobre estos requisitos, consulte [Requisitos de entrega de suscripción a eventos](../../wf-api/general/setup-event-sub-endpoint.md).
 
 ## Lista de permitidos de direcciones IP por región global
 
-Para recibir cargas útiles de suscripciones de eventos a través del cortafuegos, debe añadir las direcciones IP a la lista de permitidos por región global. Para obtener más información, consulte [API de suscripción de evento](../../wf-api/general/event-subs-api.md).
+Para recibir cargas útiles de suscripciones de eventos a través del cortafuegos, debe añadir las direcciones IP a la lista de permitidos por región global. Para obtener más información, consulte [API de suscripción a evento](../../wf-api/general/event-subs-api.md).
 
 ## Tener el nivel de acceso adecuado y una clave de API
 
 Para crear, consultar o eliminar una suscripción a evento, el usuario de Workfront necesita lo siguiente:
 
 * Un nivel de acceso de **Administrador del sistema**
-Para obtener más información, consulte [Conceder a un usuario acceso administrativo completo](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Conceder a los usuarios acceso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Para obtener más información, consulte [Conceder acceso administrativo completo a un usuario](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Conceder acceso administrativo a usuarios de ciertas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Una clave de API
 

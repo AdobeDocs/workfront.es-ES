@@ -65,15 +65,15 @@ En cada entrada de registro de auditoría se registran los campos siguientes:
 ## Tipos de registros de auditoría y las acciones que los almacenan en déclencheur
 
 * [Nivel de acceso](#access-level)
-* [Compañía](#company)
+* [Empresa](#company)
 * [Condición](#condition)
 * [Campo personalizado](#custom-field)
 * [Formularios personalizados](#custom-forms)
 * [Sección personalizada](#custom-section)
-* [Tipo de cambio](#exchange-rate)
+* [Tasa de cambio](#exchange-rate)
 * [Grupo](#group)
-* [Funciones del puesto](#job-roles)
-* [Intento de inicio](#login-attempt)
+* [Roles](#job-roles)
+* [Intento de inicio de sesión](#login-attempt)
 * [Prioridad](#priority)
 * [Preferencia del proyecto](#project-preference)
 * [Gravedad](#severity)
@@ -115,7 +115,7 @@ El sistema genera una entrada de registro de auditoría de la compañía cuando 
 
 * Elimina una compañía
 
-Para obtener más información sobre los estados, consulte [Resumen de estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Para obtener más información sobre los estados, vea [Información general sobre los estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Condición {#condition}
 
@@ -132,7 +132,7 @@ El sistema genera una entrada de registro de auditoría de condiciones cuando un
 
 * Elimina una condición
 
-Para obtener más información sobre la configuración de funciones, consulte [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Para obtener más información acerca de cómo configurar los roles, vea [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ### Campo personalizado {#custom-field}
 
@@ -207,7 +207,7 @@ El sistema genera una entrada de registro de auditoría de tasa de cambio cuando
 
 * Elimina una tasa de cambio
 
-Para obtener más información acerca de la configuración de tasas de cambio, consulte [Configurar tasas de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Para obtener más información acerca de cómo configurar tasas de cambio, vea [Configurar tasas de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Grupo {#group}
 
@@ -234,7 +234,7 @@ El sistema genera una entrada de registro de auditoría de funciones de trabajo 
 
 * Elimina un rol
 
-Para obtener más información sobre la configuración de funciones, consulte [Crear y administrar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Para obtener más información acerca de cómo configurar los roles, consulte [Crear y administrar los roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Intento de inicio de sesión {#login-attempt}
 
@@ -265,7 +265,7 @@ El sistema genera una entrada de registro de auditoría de prioridad cuando un u
 
 * Elimina una prioridad
 
-Para obtener más información sobre la configuración de prioridades, consulte [Creación y personalización de prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Para obtener más información acerca de la configuración de prioridades, vea [Crear y personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Preferencia del proyecto {#project-preference}
 
@@ -281,7 +281,7 @@ El sistema genera una entrada de registro de auditoría Preferencias del proyect
 
 * Elimina un trimestre personalizado
 
-Para obtener más información sobre las preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obtener más información acerca de las preferencias del proyecto, vea [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Gravedad {#severity}
 
@@ -298,7 +298,7 @@ El sistema genera una entrada de registro de auditoría de gravedad cuando un us
 
 * Elimina una gravedad del problema
 
-Para obtener más información sobre la configuración de funciones, consulte [Crear o personalizar gravedades de problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Para obtener más información acerca de cómo configurar los roles, consulte [Crear o personalizar gravedades de problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Estado {#status}
 
@@ -315,7 +315,7 @@ El sistema genera una entrada de registro de auditoría de estado cuando un usua
 
 * Elimina un estado en el sistema o en el nivel de grupo
 
-Para obtener más información sobre los estados, consulte [Resumen de estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Para obtener más información sobre los estados, vea [Información general sobre los estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Preferencias de tareas y problemas {#tasks-issues-preferences}
 
@@ -325,7 +325,7 @@ El sistema genera una entrada de registro de auditoría Preferencias de tareas y
 * Cambia la configuración de una preferencia
 * Cambia una configuración de Access para tareas, problemas o solicitudes
 
-Para obtener más información sobre las preferencias de tareas y problemas, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obtener más información acerca de las preferencias de tareas y problemas, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Usuario {#user}
 

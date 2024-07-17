@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en las áreas generales de Workfront con la versión 2020.1. Estas mejoras están disponibles actualmente en el entorno de vista previa y estarán disponibles en el entorno de producción a finales de marzo o principios de abril de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general de la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general sobre la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Cambio necesario para agregar pruebas a la lista de permitidos
 
@@ -32,17 +32,17 @@ Si el cortafuegos o el servidor de correo están configurados para permitir el a
 
 &#42;.workfront.com
 
-El &#42;La URL de proofhq.com también es obligatoria.
+La dirección URL &#42;proofhq.com también es obligatoria.
 
-Para obtener más información sobre cómo actualizar la lista de permitidos, consulte [Configuración de la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obtener más información sobre cómo actualizar la lista de permitidos, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
->Esta actualización solo se aplica a las pruebas en Workfront; no se aplica al utilizar la aplicación independiente Workfront Proof.
+>Esta actualización solo se aplica a las pruebas en Workfront; no se aplica al utilizar la aplicación independiente de Workfront Proof.
 
 ## Se ha actualizado el comportamiento de las cookies de Workfront para mantener la compatibilidad con Chrome
 
-Para mantener la compatibilidad con una próxima actualización de Google Chrome (Chrome v80), hemos actualizado la plataforma de Workfront para garantizar que las cookies se envíen correctamente con las solicitudes de.
+Para mantener la compatibilidad con una próxima actualización de Google Chrome (Chrome v80), hemos actualizado Workfront Platform para garantizar que las cookies se envíen correctamente con las solicitudes.
 
 Esta actualización de Chrome cambia el valor predeterminado del atributo de cookie SameSite. Si desea probar cómo se comportará la instancia de Workfront después de la actualización de Google Chrome, ajuste los indicadores en Chrome y habilite las siguientes opciones:
 
@@ -63,4 +63,4 @@ Hemos eliminado la capacidad de cambiar entre el nuevo y el Portfolio Optimizer 
 
 Para obtener información sobre el optimizador de portafolios, consulte https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Para obtener información sobre la desaprobación de herramientas basadas en Flash en Workfront, consulte [Reemplazo de herramientas basadas en Flash en Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Para obtener información sobre cómo dejar de utilizar las herramientas basadas en Flash en Workfront, consulte [Reemplazo de herramientas basadas en Flash en Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

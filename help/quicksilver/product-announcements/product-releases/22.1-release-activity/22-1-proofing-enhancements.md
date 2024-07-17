@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general sobre la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Funciones de revisión mejoradas para revisores y solicitantes
 
@@ -47,7 +47,7 @@ Todos los usuarios también se benefician de la conectividad mejorada entre Work
 
 Para obtener más información, consulte
 
-* [Resumen de funciones de prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Resumen de funciones de revisión](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## Mejoras en la firma electrónica para pruebas
@@ -56,18 +56,18 @@ Hemos facilitado a los usuarios la firma electrónica de pruebas. Ahora los usua
 
 >[!IMPORTANT]
 >
->Para firmar electrónicamente una prueba con credenciales de SSO, debe configurarlo en Workfront Proof. Para obtener más información sobre la activación de SSO, consulte [Configuración del inicio de sesión único para usuarios de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Para firmar electrónicamente una prueba con credenciales de SSO, debe configurarlo en Workfront Proof. Para obtener más información sobre cómo habilitar SSO, consulte [Configuración del inicio de sesión único para usuarios de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
 Anteriormente, los usuarios tenían que usar credenciales de Workfront Proof, que son diferentes de sus credenciales de Workfront.
 
-Para obtener más información, consulte [Resumen de seguridad de revisión](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Para obtener más información, consulte [Información general sobre la seguridad de pruebas](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Actualización del visor de escritorio
 
-Hemos actualizado el Visor de corrección de escritorio para que admita hasta la versión 91 de Chrome y, así, aumente la compatibilidad con las pruebas interactivas.
+Hemos actualizado el Visor de corrección de escritorio para que admita hasta la versión 91 de Chrome y, de ese modo, se logre una mayor compatibilidad con las pruebas interactivas.
 
 >[!IMPORTANT]
 >
->Los usuarios de Windows deben reinstalar manualmente el visor de escritorio para actualizar a la versión más reciente. Después, las futuras actualizaciones del Visor de pruebas de escritorio se realizarán automáticamente. Para obtener ayuda sobre la reinstalación, consulte [Instalación del Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Los usuarios de Windows deben reinstalar manualmente el visor de escritorio para actualizar a la versión más reciente. Después, las futuras actualizaciones del Visor de pruebas de escritorio se realizarán automáticamente. Para obtener ayuda para la reinstalación, consulte [Instalar el Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Los usuarios de Mac se actualizarán automáticamente a la última versión.

@@ -2,46 +2,46 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Cargar documentos y pruebas desde el [!DNL Adobe Workfront plugin] a [!DNL Creative Cloud]
-description: Cargar documentos y pruebas desde el [!DNL Adobe Workfront plugin] a [!DNL Creative Cloud]
+title: Cargar documentos y pruebas de  [!DNL Adobe Workfront plugin]  en  [!DNL Creative Cloud]
+description: Cargar documentos y pruebas de  [!DNL Adobe Workfront plugin]  en  [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 67952bf88a782595e13e559bfbc14ce1c622d432
+exl-id: 88870441-8895-477c-9409-f2c33654545a
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-
-# Cargar documentos y pruebas desde el [!DNL Adobe Workfront plugin] a [!DNL Creative Cloud]
+# Cargar documentos y pruebas de [!DNL Adobe Workfront plugin] en [!DNL Creative Cloud]
 
 Puede cargar sus proyectos como documentos para una revisión y aprobación rápidas o simplemente para almacenarlos en [!DNL Adobe Workfront].
 
 >[!NOTE]
 >
->Actualmente, Premiere Pro y After Effects no admiten la carga de documentos y pruebas.
+>La carga de documentos y pruebas no se admite actualmente en Premiere Pro ni en After Effects.
 
 
 ## Limitaciones de documentos
 
-Esta sección describe las limitaciones conocidas de los documentos en la sección [!DNL Workfront for Adobe Creative Cloud plugins].
+Esta sección describe las limitaciones de documentos conocidas en [!DNL Workfront for Adobe Creative Cloud plugins].
 
-### Las nuevas versiones de los documentos solo aceptan un archivo para su carga
+### Las nuevas versiones del documento solo aceptan un archivo para cargar
 
-Porque [!DNL Workfront] los documentos no pueden contener varios archivos, ciertos ajustes deben deshabilitarse para poder cargar las nuevas versiones del documento en Workfront.
+Debido a que los documentos de [!DNL Workfront] no pueden contener varios archivos, se debe deshabilitar ciertas opciones de configuración para poder cargar nuevas versiones de documentos en Workfront.
 
 >[!NOTE]
 >
->Si debe generar varios archivos, puede crear una prueba en su lugar. La nueva prueba no se asociará con el documento original.
+>Si debe generar varios archivos, puede crear una prueba en su lugar. La nueva revisión no se asociará con el documento original.
 
 
 
-Para volver a cambiar el conmutador a un solo archivo en [!DNL InDesign]:
+Para volver a cambiar el modificador a un solo archivo en [!DNL InDesign]:
 
-1. Abra el **Definir configuración de archivo de exportación** para abrir el Navegador.
+1. Abra el cuadro de diálogo **Establecer configuración de archivo de exportación**.
 
    ![](assets/file-export-settings.png)
 
@@ -49,21 +49,21 @@ Para volver a cambiar el conmutador a un solo archivo en [!DNL InDesign]:
 
    <table>
     <tr>
-    <td><strong>PDF y PDF IMPRIMIR</strong>
+    <td><strong>PDF y PDF-PRINT</strong>
     </td>
-    <td>Anular selección <strong>Crear archivos de PDF separados</strong>.
+    <td>Anular la selección de <strong>Crear archivos de PDF independientes</strong>.
     </td>
     </tr>
     <tr>
     <td><strong>EPS</strong>
     </td>
-    <td>Select <strong>Intervalos</strong> y escriba un solo número de página. 
+    <td>Seleccione <strong>Intervalos</strong> y escriba un solo número de página. 
     <p>
-    <strong>Nota</strong>: Si desea cargar el documento completo, debe crear una prueba. 
+    <strong>Nota</strong>: si desea cargar el documento completo, debe crear una revisión. 
     </td>
     </tr>
     <tr>
-    <td><strong>ePub y EPUB FIJO</strong>
+    <td><strong>EPUB y EPUB-FIJO</strong>
     </td>
     <td>No es necesario realizar ajustes.
     </td>
@@ -75,19 +75,19 @@ Para volver a cambiar el conmutador a un solo archivo en [!DNL InDesign]:
     </td>
     </tr>
     <tr>
-    <td><strong>JPG</strong>
+    <td>JPG <strong></strong>
     </td>
-    <td>Select <strong>Intervalos</strong> y escriba un solo número de página. 
+    <td>Seleccione <strong>Intervalos</strong> y escriba un solo número de página. 
     <p>
-    <strong>Nota</strong>: Si desea cargar el documento completo, debe crear una prueba. 
+    <strong>Nota</strong>: si desea cargar el documento completo, debe crear una revisión. 
     </td>
     </tr>
     <tr>
     <td><strong>PNG</strong>
     </td>
-    <td>Select <strong>Intervalos</strong> y escriba un solo número de página. 
+    <td>Seleccione <strong>Intervalos</strong> y escriba un solo número de página. 
     <p>
-    <strong>Nota</strong>: Si desea cargar el documento completo, debe crear una prueba. 
+    <strong>Nota</strong>: si desea cargar el documento completo, debe crear una revisión. 
     </td>
     </tr>
     <tr>

@@ -40,7 +40,7 @@ Puede modificar el porcentaje completado de una tarea manualmente. Esto no es un
 
 Workfront utiliza el porcentaje completado de una tarea individual para calcular el porcentaje completado de su tarea principal o el porcentaje completado del proyecto.
 
-Para obtener información sobre cómo actualizar el porcentaje completado de una tarea, consulte [Ver y actualizar el porcentaje completado de las tareas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Para obtener información acerca de cómo actualizar el porcentaje completado de una tarea, vea [Ver y actualizar el porcentaje completado de las tareas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Cómo calcula Workfront el porcentaje completado en una tarea principal {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

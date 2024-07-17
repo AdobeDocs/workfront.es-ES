@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información acerca de los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Si el proyecto tiene tareas o problemas con las horas registradas, el administrador del grupo o de Workfront debe permitir la eliminación de estas tareas configurando las Preferencias de tareas y problemas en la instancia de Workfront para que pueda eliminar el proyecto que contiene las tareas.
 
-  Para obtener más información sobre cómo habilitar la eliminación de tareas, problemas o proyectos en los que se registran horas, consulte la sección &quot;Eliminación&quot; en [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obtener más información sobre cómo habilitar la eliminación de tareas, problemas o proyectos en los que se registran horas, consulte la sección &quot;Eliminación&quot; en [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -87,7 +87,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Documentos
 
-     No se puede eliminar un proyecto que tenga un documento adjunto que se haya desprotegido. Para obtener más información sobre la retirada de documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
+     No se puede eliminar un proyecto que tenga un documento adjunto que se haya desprotegido. Para obtener más información acerca de cómo desproteger documentos, vea [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
    * Tareas
    * Subtareas
@@ -109,7 +109,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Las horas permanecen en la hoja de horas como tiempo general.
    * Las horas se eliminan y se restaurarán si alguna vez se restaura el proyecto.
 
-  Para obtener más información sobre la configuración de las preferencias de eliminación para los problemas de horas de sesión, consulte [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Para obtener más información acerca de cómo configurar las preferencias de eliminación para los problemas de horas registradas, consulte [Configurar la hoja de horas y las preferencias de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Si el proyecto que elimina está vinculado a una iniciativa en el Scenario Planner de Workfront:
 
@@ -117,9 +117,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Si el proyecto que elimina está vinculado a la única iniciativa publicada de un plan, también se elimina la indicación de que el plan se ha publicado.
    * Si recupera un proyecto eliminado, el proyecto se recupera, pero su vínculo a la iniciativa no se restaura y el área del Planificador de escenarios ya no se muestra en Detalles del proyecto.
 
-     El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
-     Para obtener información sobre los proyectos vinculados a iniciativas en el Scenario Planner, consulte [Actualizar o crear proyectos publicando iniciativas en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+     Para obtener información acerca de los proyectos vinculados a iniciativas en el Scenario Planner, vea [Actualizar o crear proyectos mediante la publicación de iniciativas en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * Si el proyecto también es una actividad para un objetivo en Workfront Goals:
 
@@ -127,32 +127,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Si recupera el proyecto eliminado, este también se restaurará como la actividad del objetivo.
 
-     Esto requiere una licencia adicional. Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Esto requiere una licencia adicional. Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Para obtener información sobre cómo asociar proyectos con objetivos, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Para obtener información acerca de cómo asociar proyectos con metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Eliminación de un proyecto de una lista
 
 Puede eliminar proyectos de una lista.
 
 1. Ir a una lista de proyectos o a un informe de proyecto.
-1. Seleccione el proyecto o proyectos que desee eliminar y haga clic en el botón **Eliminar** icono ![](assets/delete-icon.png) al principio de la lista.
+1. Seleccione el proyecto o proyectos que desee eliminar y, a continuación, haga clic en el icono **Eliminar** ![](assets/delete-icon.png) en la parte superior de la lista.
 
-1. Clic **Sí, eliminarla** para confirmar la eliminación.
+1. Haga clic en **Sí, eliminarlo** para confirmar la eliminación.
 
    Los proyectos se eliminan y se almacenan en la papelera de reciclaje durante 30 días. El administrador de Workfront puede restaurar los proyectos eliminados de la papelera de reciclaje durante este tiempo.
 
 ## Eliminar un proyecto en el nivel de proyecto
 
 1. Vaya al proyecto que desee eliminar.
-1. Haga clic en **Más** icono ![](assets/qs-more-menu.png) a la derecha del nombre del proyecto y haga clic en **Eliminar proyecto**.
+1. Haga clic en el icono **Más** ![](assets/qs-more-menu.png) a la derecha del nombre del proyecto y luego haga clic en **Eliminar proyecto**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 
-1. Clic **Sí, eliminarla**.
+1. Haga clic en **Sí, eliminarlo**.
 
    El proyecto se elimina y se almacena en la papelera de reciclaje durante 30 días. El administrador de Workfront puede restaurarla desde la papelera de reciclaje durante este tiempo.
 
 ## Restauración de proyectos eliminados
 
-Un administrador de sistema o de grupo puede restaurar proyectos en un plazo de 30 días después de haberlos eliminado, tal como se describe en el artículo [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Un administrador de sistema o de grupo puede restaurar proyectos dentro de los 30 días siguientes a su eliminación, tal como se describe en el artículo [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

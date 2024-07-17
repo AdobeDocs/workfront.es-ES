@@ -1,9 +1,9 @@
 ---
-title: Crear o personalizar grupos de problemas
+title: Crear o personalizar gravedades de problemas
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: Los usuarios pueden usar gravámenes para definir la gravedad de un problema. Puede personalizar cualquiera de las cinco gravedad predeterminadas que existen en Adobe Workfront o crear una nueva gravedad para los usuarios.
+description: Los usuarios pueden usar gravedades para definir la gravedad de un problema. Puede personalizar cualquiera de las cinco gravedades predeterminadas existentes en Adobe Workfront o crear una nueva gravedad para los usuarios.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 ---
 
-# Crear o personalizar grupos de problemas
+# Crear o personalizar gravedades de problemas
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -23,11 +23,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Linked to Understanding Issue Severity.
 -->
 
-Los usuarios pueden usar gravámenes para definir la gravedad de un problema. Puede personalizar cualquiera de las cinco gravedad predeterminadas que existen en Adobe Workfront o crear una nueva gravedad para los usuarios.
+Los usuarios pueden usar gravedades para definir la gravedad de un problema. Puede personalizar cualquiera de las cinco gravedades predeterminadas existentes en Adobe Workfront o crear una nueva gravedad para los usuarios.
 
 >[!NOTE]
 >
->Las tareas y los proyectos no tienen seriedad.
+>Las tareas y los proyectos no tienen gravedades.
 
 ## Requisitos de acceso
 
@@ -47,14 +47,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Grupos de problemas integrados
+## Gravedades de problemas integradas
 
-Workfront tiene cinco grupos de problemas integrados:
+Workfront tiene cinco gravedades de problemas integradas:
 
 * Cosmético
 * Causa confusión
@@ -62,34 +62,34 @@ Workfront tiene cinco grupos de problemas integrados:
 * Error sin solución
 * Error fatal
 
-<p>Puede editar lo siguiente para estos grupos:</p>
+<p>Puede editar lo siguiente para estas gravedades:</p>
 
 * Nombre
 * Color
 
-   El color de una gravedad se conserva en un informe de gráfico si se agrupan los resultados por gravedad del problema. Para obtener información sobre los informes de gráficos, consulte [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  El color de una gravedad se conserva en un informe de gráfico si se agrupan los resultados por Gravedad del problema. Para obtener información sobre los informes de gráficos, consulte [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-* ¿Qué gravedad es la predeterminada?
+* Qué gravedad es la predeterminada
 
-   Para obtener más información sobre la gravedad predeterminada, consulte [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity) en este artículo.
+  Para obtener más información acerca de las gravedades predeterminadas, vea [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity) en este artículo.
 * Descripción
 * Si una gravedad está oculta en Workfront
 
-   Para obtener más información sobre cómo ocultar una gravedad, consulte [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity")
+  Para obtener más información acerca de cómo ocultar una gravedad, vea [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity")
 
 * Eliminar una gravedad
 
-   Al hacerlo, debe seleccionar una gravedad de reemplazo.
+  Al hacerlo, debe seleccionar una gravedad de reemplazo.
 
 ## Crear o editar una gravedad de problema {#create-or-edit-an-issue-severity}
 
-Como administrador de Workfront, puede crear y editar grupos de problemas para adaptarlos a las necesidades de sus usuarios.
+Como administrador de Workfront, puede crear y editar gravedades de problemas para adaptarlas a las necesidades de los usuarios.
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. En el panel izquierdo, haga clic en **Preferencias de proyecto** > **Versiones**.
+1. En el panel izquierdo, haga clic en **Preferencias del proyecto** > **Gravedades**.
 
-1. Si está creando una nueva gravedad, haga clic en **Agregar una nueva gravedad**.
+1. Si está creando una gravedad nueva, haga clic en **Agregar una gravedad nueva**.
 1. Configure las siguientes opciones para la nueva gravedad o edítelas para una existente:
 
    <table style="table-layout:auto"> 
@@ -102,18 +102,18 @@ Como administrador de Workfront, puede crear y editar grupos de problemas para a
      </tr> 
      <tr> 
       <td role="rowheader">Importancia</td> 
-      <td>Aumente o disminuya el nivel de gravedad, asignado originalmente por Workfront, para la gravedad.
+      <td>Aumente o reduzca el nivel de gravedad, asignado originalmente por Workfront, para la gravedad.
       <p>El número de importancia de cada gravedad debe ser único. El número más alto corresponde al nivel más alto de gravedad.</p> <p>No puede editar este número después de guardar la gravedad.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
       <td> <p>Elija un color para la gravedad.</p> 
-      <p>El color de la gravedad se utiliza en los informes de gráficos cuando se agrupan los resultados por gravedad del problema. Para obtener información sobre los informes de gráficos, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Agregar un gráfico a un informe</a>.</p> </td> 
+      <p>El color de la gravedad se utiliza en los informes de gráficos al agrupar los resultados por gravedad del problema. Para obtener información sobre los informes de gráficos, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Agregar un gráfico a un informe</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gravedad predeterminada</td> 
-      <td>Seleccione la gravedad que desea que Workfront seleccione automáticamente todos los problemas recién creados.</p>
-      <p>La métrica es la gravedad predeterminada para los problemas en Workfront.</p></td> 
+      <td>Seleccione la gravedad en la que desea que Workfront seleccione automáticamente todos los problemas recién creados.</p>
+      <p>La gravedad cosmética es la predeterminada para los problemas en Workfront.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descripción</td> 
@@ -122,16 +122,16 @@ Como administrador de Workfront, puede crear y editar grupos de problemas para a
      <tr> 
       <td role="rowheader">Ocultar</td> 
       <td> Oculte una gravedad que ya no sea necesaria. 
-      <p>Una gravedad oculta no se muestra en ninguna parte de Workfront, por lo que los usuarios no pueden seleccionarla para sus problemas.</p> 
-      <p><b>IMPORTANTE</b>: En lugar de eliminar gravámenes que ya no desea utilizar, le sugerimos que los oculte. De este modo, se mantienen todos los datos históricos de los objetos que ya se han completado con la gravedad, al tiempo que se evita que las personas utilicen la gravedad en el futuro.</p> </td> 
+      <p>Una gravedad oculta no se muestra en ninguna parte de Workfront, por lo que los usuarios no pueden elegirla para sus problemas.</p> 
+      <p><b>IMPORTANTE</b>: En lugar de eliminar gravedades que ya no desea usar, le sugerimos que las oculte. De este modo, se conservan todos los datos históricos de los objetos ya completados con la gravedad, al tiempo que se evita que las personas utilicen la gravedad en el futuro.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Cambie el orden de las listas de sus gravedad arrastrándolas y soltándolas en el orden que desee.
+1. (Opcional) Para cambiar el orden en que aparecen las gravedades, arrastre y suelte las gravedades en el orden que desee.
 
-   Esto cambia el orden en que se muestran para los problemas. No cambia la variable **Importancia** número.
+   Esto cambia el orden en que se muestran para los problemas. No cambia el número **Importance**.
 
 1. Haga clic en **Guardar**.
 
-Para obtener más información sobre cómo utilizar las gravedad mientras se trabaja con problemas, consulte [Actualizar gravedad del problema](../../../manage-work/issues/issue-information/update-issue-severity.md).
+Para obtener más información sobre cómo usar gravedades mientras se trabaja con problemas, consulte [Actualizar la gravedad del problema](../../../manage-work/issues/issue-information/update-issue-severity.md).

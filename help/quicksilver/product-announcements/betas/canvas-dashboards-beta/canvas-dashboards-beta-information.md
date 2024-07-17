@@ -16,12 +16,12 @@ ht-degree: 0%
 
 # Información beta de paneles de lienzo
 
-Paneles de lienzo es una función que se está desarrollando actualmente y que le permite visualizar fácilmente los datos de Adobe Workfront agregando varios tipos de informes a un lienzo personalizable. Tenga en cuenta que, aunque le agradecemos su participación durante la fase de prueba de la versión beta, es posible que algunas partes de la funcionalidad no estén completas o que no funcionen según lo previsto. Envíe sus comentarios sobre su experiencia siguiendo las instrucciones del [Proporcionar comentarios](#provide-feedback) más abajo.
+Paneles de lienzo es una función que se está desarrollando actualmente y que le permite visualizar fácilmente los datos de Adobe Workfront agregando varios tipos de informes a un lienzo personalizable. Tenga en cuenta que, aunque le agradecemos su participación durante la fase de prueba de la versión beta, es posible que algunas partes de la funcionalidad no estén completas o que no funcionen según lo previsto. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](#provide-feedback) que aparece a continuación.
 
 Para obtener información básica sobre el uso de paneles de lienzo, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Para obtener una lista de toda la documentación de paneles de lienzo, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Programación beta:**
+**Programación de Beta:**
 
 * Fecha de inicio de la versión beta cerrada: por determinar
 * Fecha de inicio de la versión beta abierta: TBA
@@ -33,9 +33,9 @@ Para obtener una lista de toda la documentación de paneles de lienzo, consulte 
 
 Para inscribirse en la versión beta:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Paneles**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
 
-1. Haga clic en **Únase a la versión beta de paneles de lienzo** botón beta en la esquina superior derecha de la página.
+1. Haga clic en el botón beta **Unirse a los paneles de lienzo beta** en la esquina superior derecha de la página.
 
    >[!NOTE]
    >
@@ -47,11 +47,11 @@ Para inscribirse en la versión beta:
 
 Los comentarios se agradecen a medida que desarrollamos esta herramienta durante el transcurso de la versión beta. Siga las instrucciones a continuación para compartir su experiencia con nosotros.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Paneles**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
 
 1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
 
-1. Haga clic en **Enviar comentarios** en la esquina inferior derecha de la página, introduzca sus comentarios en el formulario que aparece y haga clic en **Enviar**.
+1. Haga clic en el botón **Enviar comentarios** en la esquina inferior derecha de la página, luego ingrese sus comentarios en el formulario que aparece y haga clic en **Enviar**.
 
 ## Funciones planificadas
 

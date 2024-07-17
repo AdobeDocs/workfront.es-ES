@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de proyecto realizadas con la versión del tercer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general de la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Edite la tarea y emita la fecha y condición de confirmación desde el encabezado o la sección Detalles
@@ -30,9 +30,9 @@ Para facilitar la actualización de tareas y problemas, ahora se han añadido lo
 Para obtener información sobre la actualización de la fecha y la condición de confirmación, consulte los siguientes artículos:
 
 * [Actualizar condición para tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [Actualizar la fecha de confirmación en tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+* [Actualizar fecha de confirmación en tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Asignaciones inteligentes más relevantes
 
@@ -56,4 +56,4 @@ Considere también lo siguiente:
 
 * No hay cambios en la forma en que se calculan las asignaciones inteligentes para los problemas. El nombre de la lista de asignaciones inteligentes de una lista de problemas es &quot;Estas son algunas recomendaciones&quot;.
 
-Para obtener más información, consulte [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Para obtener más información, vea [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

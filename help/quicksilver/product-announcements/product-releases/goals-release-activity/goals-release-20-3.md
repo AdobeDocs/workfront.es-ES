@@ -42,4 +42,4 @@ Con Workfront Goals, puede establecer y administrar metas en una sola plataforma
 * ¿Cuál es el progreso de mis KPI respecto a mis objetivos?
 * ¿Qué trabajo está en riesgo, detrás o en camino para alcanzar mis metas?
 
-Para obtener más información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+Para obtener más información sobre las metas de Workfront, consulte [Información general sobre las metas de Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).

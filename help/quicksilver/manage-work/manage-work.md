@@ -28,9 +28,9 @@ Además, puede utilizar el gráfico Gantt para definir una escala de tiempo del 
 Esta sección contiene las siguientes subsecciones:
 
 * [Proyectos: índice de artículos](../manage-work/projects/projects-overview.md)
-* [Tasks: índice de artículos](../manage-work/tasks/tasks-overview.md)
+* [Tareas: índice de artículo](../manage-work/tasks/tasks-overview.md)
 * [Problemas](../manage-work/issues/issues-overview.md)
 * [El gráfico Gantt](../manage-work/gantt-chart/the-gantt-chart.md)
-* [Gestión de Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
+* [Administración de Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
 * [Solicitudes](../manage-work/requests/requests-overview.md)
 * [Delegar trabajo](../manage-work/delegate-work/delegate-work.md)

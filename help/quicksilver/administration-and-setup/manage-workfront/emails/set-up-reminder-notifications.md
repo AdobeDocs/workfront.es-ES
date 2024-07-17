@@ -20,7 +20,7 @@ Como administrador de Workfront, puede crear notificaciones de recordatorio para
 
 Las notificaciones de recordatorio generan correos electrónicos que se envían a los usuarios en función de criterios específicos. Las notificaciones de recordatorio recuerdan a los usuarios de una acción que deben realizar para una tarea, un problema, un proyecto o una hoja de horas.
 
-Después de crear las notificaciones de recordatorio, los usuarios pueden asociarlas manualmente a elementos de trabajo, como proyectos, tareas, problemas y plantillas de horas. Para obtener más información, consulte [Adjuntar una notificación de recordatorio a un objeto](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+Después de crear las notificaciones de recordatorio, los usuarios pueden asociarlas manualmente a elementos de trabajo, como proyectos, tareas, problemas y plantillas de horas. Para obtener más información, vea [Adjuntar una notificación de aviso a un objeto](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -77,17 +77,17 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
 
 {{step-1-to-setup}}
 
-1. Clic **Correo electrónico** > **Notificaciones** > **Notificaciones de recordatorio**.
+1. Haga clic en **Correo electrónico** > **Notificaciones** > **Notificaciones de recordatorio**.
 
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
-1. Clic **Nueva notificación de recordatorio**.
+1. Haga clic en **Nueva notificación de recordatorio**.
 
 1. En la lista desplegable, haga clic en el tipo de objeto que desee asociar a la notificación de recordatorio.
 
-   Por ejemplo, si desea adjuntar una notificación de recordatorio a una plantilla de horas, haga clic en **Hoja de horas**.
+   Por ejemplo, si desea adjuntar una notificación de recordatorio a una hoja de horas, haga clic en **Hoja de horas**.
 
-1. En el **Nueva notificación de recordatorio** que aparece, especifique la siguiente información.
+1. En el cuadro **Nueva notificación de recordatorio** que aparece, especifique la siguiente información.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
      </tr> 
      <tr> 
       <td role="rowheader">Período de calificación</td> 
-      <td> <p>Especifique el número de horas, días laborables, días (días del calendario), semanas o meses antes o después de la fecha en el <strong>Programación</strong> field.</p> <p><b>NOTA</b>:  
+      <td> <p>Especifique el número de horas, días laborables, días (días del calendario), semanas o meses antes o después de la fecha en el campo <strong>Intervalos</strong>.</p> <p><b>NOTA</b>:  
         <ul> 
          <li> <p>Las notificaciones de recordatorio comienzan 24 horas después de la fecha especificada y una vez que se cumplen todos los criterios.</p> </li> 
          <li> <p>Notificaciones de recordatorio para proyectos, tareas y problemas déclencheur todas las noches a medianoche, hora de la montaña de EE. UU. Todos los objetos que cumplen los requisitos para recibir una notificación de recordatorio a partir de ese día déclencheur una notificación a los usuarios designados poco después de esa hora.</p> </li> 
@@ -122,14 +122,14 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
       <td role="rowheader">Criterios</td> 
       <td> <p>Seleccione los criterios para calificar la notificación de recordatorio para que se programe. Las notificaciones de recordatorio no están programadas a menos que se cumpla la selección de criterios.</p> <p>Las siguientes opciones de criterios están disponibles, según el tipo de objeto seleccionado en el paso 4:</p> 
        <ul> 
-        <li><strong>Incompleto en proyectos actuales:</strong> <i>(Disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio se programa para enviarse únicamente cuando el estado del objeto al que está asociada la notificación de recordatorio no sea Completo y el estado del proyecto sea Actual.</li> 
-        <li><strong>Todo en proyectos actuales:</strong> <i>(Disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del objeto y solo cuando el estado del proyecto al que está asociada la notificación de recordatorio es Actual.</li> 
-        <li><strong>Proyectos incompletos:</strong> <i>(Disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse cuando el estado del proyecto sea cualquier cosa menos Completado.</li> 
-        <li><strong>Todos los proyectos:</strong> <i>(Disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del proyecto.</li> 
-        <li><strong>Abrir hojas de horas:</strong> <i>(Disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando el estado de la plantilla de horas es Abierto.</li> 
-        <li><strong>Hojas de horas enviadas:</strong> <i>(Disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando se envía el estado de la plantilla de horas.</li> 
-        <li><strong>Abrir hoja de horas o menos de 40 horas a la semana:</strong> <i>(Disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando el estado de la plantilla de horas es Abierto o cuando la plantilla de horas tiene menos de 40 horas registradas.</li> 
-        <li><strong>Plantilla de correo electrónico:</strong> En la lista desplegable, seleccione una plantilla de correo electrónico para adjuntarla al recordatorio.<br>Para obtener información sobre cómo crear una plantilla de correo electrónico, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurar plantillas de correo electrónico</a>.</li> 
+        <li><strong>Incompleto en proyectos actuales:</strong> <i>(disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio está programada para enviarse solamente cuando el estado del objeto con el que está asociada la notificación de recordatorio no es Completo y el estado del proyecto es Actual.</li> 
+        <li><strong>Todo en proyectos actuales:</strong> <i>(disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del objeto y solo cuando el estado del proyecto con el que está asociada la notificación de recordatorio es Actual.</li> 
+        <li><strong>Proyectos incompletos:</strong> <i>(disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse cuando el estado del proyecto sea cualquier cosa menos Completado.</li> 
+        <li><strong>Todos los proyectos:</strong> <i>(disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del proyecto.</li> 
+        <li><strong>Abrir hojas de horas:</strong> <i>(disponible para recordatorios de hojas de horas)</i> Se ha programado el envío de la notificación de recordatorio cuando el estado de la hoja de horas sea Abierto.</li> 
+        <li><strong>Hojas de horas enviadas:</strong> <i>(disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando se envíe el estado de la hoja de horas.</li> 
+        <li><strong>Abrir hoja de horas o menos de 40 horas a la semana:</strong> <i>(disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando el estado de la hoja de horas es Abierta o cuando la hoja de horas tiene menos de 40 horas registradas.</li> 
+        <li><strong>Plantilla de correo electrónico:</strong> En la lista desplegable, seleccione una plantilla de correo electrónico para adjuntarla al recordatorio.<br>Para obtener información sobre cómo generar una plantilla de correo electrónico, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurar plantillas de correo electrónico</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -151,13 +151,13 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
    </table>
 
 1. Haga clic en **Guardar**.
-1. Adjunte la notificación de recordatorio a un elemento de trabajo como se describe en [Adjuntar una notificación de recordatorio a un objeto](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
+1. Adjuntar la notificación de recordatorio a un elemento de trabajo, como se describe en [Adjuntar una notificación de recordatorio a un objeto](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 ## Recibir una notificación de recordatorio
 
 Cuando se cumple la condición en el elemento que tiene adjunta la notificación de recordatorio, se activa una notificación por correo electrónico al usuario definido en la notificación de recordatorio.
 
-Para obtener más información sobre la recepción de notificaciones de recordatorio, consulte la [Notificaciones de recordatorio](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sección en [Notificaciones de Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Para obtener más información sobre cómo recibir notificaciones de recordatorio, consulte la sección [Notificaciones de recordatorio](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) en [Notificaciones de Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Envío de notificación de recordatorio de prueba
 
@@ -170,9 +170,9 @@ Para que una notificación de recordatorio se almacene en déclencheur manualmen
 
 {{step-1-to-setup}}
 
-1. Clic **Sistema** > **Diagnóstico** en la esquina inferior izquierda de Workfront.
+1. Haga clic en **Sistema** > **Diagnóstico** en la esquina inferior izquierda de Workfront.
 
-1. Clic **Enviar notificaciones de recordatorio** y espere a que se confirme su envío en la parte superior de la pantalla.
+1. Haga clic en **Enviar notificaciones de recordatorio** y espere a que se confirme en la parte superior de la pantalla que se han enviado.
 
    Los usuarios designados en la notificación de recordatorio recibirán un correo electrónico.
 

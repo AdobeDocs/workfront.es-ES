@@ -9,8 +9,8 @@ role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 43%
+source-wordcount: '257'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 
 ## Recursos actualizados
 
-Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de la versión 9, puede visitar [Novedades de la versión 9 de la API](../../wf-api/api/new-api-version-9.md) y [Novedades de la versión 9 de la API (continuación)](../../wf-api/api/new-api-version-9-continue.md). Los cambios realizados en un recurso se indican de la siguiente manera:
+Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de la versión 9, visita [Novedades de la versión 9](../../wf-api/api/new-api-version-9.md) de la API y [Novedades de la versión 9 de la API (continuación)](../../wf-api/api/new-api-version-9-continue.md). Los cambios realizados en un recurso se indican de la siguiente manera:
 
 * Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
@@ -33,10 +33,10 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador eliminado: INFORMABLE\
-<sup>2</sup> Indicador eliminado: NOT_GROUPABLE
+<sup>1</sup> Indicador eliminado: NOTIFICABLE\
+Se quitó el marcador <sup>2</sup>: NOT_GROUPABLE
 
-### Ruta de aprobación
+### Aprobación
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -55,7 +55,7 @@ Asignación
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Campo añadido: lockToRole
+<sup>1</sup> Campo agregado: lockToRole
 
 ### Preferencias del cliente
 
@@ -65,7 +65,7 @@ Asignación
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en possibleValues
+<sup>1</sup> cambios en possibleValues
 
 ### Hora
 
@@ -121,7 +121,7 @@ Asignación
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador eliminado: INFORMABLE
+<sup>1</sup> Indicador eliminado: NOTIFICABLE
 
 ### Programación
 

@@ -26,8 +26,8 @@ Para obtener una lista de todos los cambios realizados en 2019.1, consulte &quot
 
 **Para administradores**
 
-* [Restaurar plantillas desde la papelera de reciclaje](#restore-templates-from-the-recycle-bin)
-* [Mostrar marcas de hora para los campos de fecha en Inicio](#show-timestamps-for-date-fields-in-home)
+* [Restaurar plantillas de la papelera](#restore-templates-from-the-recycle-bin)
+* [Mostrar marcas de hora para los campos de fecha de inicio](#show-timestamps-for-date-fields-in-home)
 * [Todos los tipos de duración disponibles en Preferencias de proyecto](#all-duration-types-available-under-project-preferences)
 
 **Para todos los usuarios**
@@ -35,15 +35,15 @@ Para obtener una lista de todos los cambios realizados en 2019.1, consulte &quot
 * [Mejoras de Agile](#agile-improvements)
 * [Agregar tareas y problemas de una lista a una iteración](#add-tasks-and-issues-from-a-list-to-an-iteration)
 * [Nuevos tamaños de papel para la exportación del gráfico Gantt](#new-paper-sizes-for-gantt-chart-export)
-* [Se ha eliminado el acceso a los cuadros de diálogo del gráfico Gantt en el modo de edición](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Ver información de tareas en el diagrama de Gantt de lista de proyectos en un programa o Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [Acceso al diagrama de Gantt de lista de tareas en plantillas](#access-the-task-list-gantt-chart-on-templates)
+* [Se eliminó el acceso a los cuadros de diálogo del gráfico Gantt mientras se encontraba en el modo de edición](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [Ver información de tarea en el gráfico Gantt de lista de proyectos de un programa o Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [Acceder al gráfico Gantt de lista de tareas en las plantillas](#access-the-task-list-gantt-chart-on-templates)
 * [Se cambió el nombre de la vista de proyecto en el gráfico Gantt](#renamed-the-project-view-on-the-gantt-chart)
 * [Escenarios hipotéticos en el gráfico Gantt de lista de tareas](#what-if-scenarios-in-the-task-list-gantt-chart)
 * [Mejoras en la lista de tareas](#task-list-improvements)
 * [Mostrar listas en pantalla completa](#display-lists-in-full-screen)
 * [Listas nuevas en áreas adicionales](#new-lists-in-additional-areas)
-* [Envío de un informe enviado en formato XLSX](#send-a-delivered-report-in-xlsx-format)
+* [Enviar un informe enviado en formato XLSX](#send-a-delivered-report-in-xlsx-format)
 * [Exportar registros de auditoría](#export-audit-logs)
 
 ## Restaurar plantillas desde la papelera de reciclaje {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ Para obtener información sobre la programación de informes para su envío, con
 
 ## Mejoras en la lista de tareas {#task-list-improvements}
 
-[actualización 18.3 Beta 4 de donde se eliminó esto]
+[actualización 18.3 de Beta 4 de la cual se eliminó esto]
 
 Las listas de tareas recién rediseñadas se han vuelto a habilitar, después de una breve eliminación durante la versión 18.3 beta 4. También hemos introducido las siguientes funciones adicionales en las listas de tareas que no formaban parte de la versión original:
 

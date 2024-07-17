@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Crear [!DNL Adobe Workfront] tareas de [!DNL Microsoft] Equipos
-description: Puede crear tareas personales en Adobe [!DNL Workfront] de Microsoft Teams si el propietario de un equipo ha instalado y configurado [!DNL Workfront] para Microsofts Teams de su equipo y ha iniciado sesión en Workfront desde Microsoft Teams.
+title: Crear [!DNL Adobe Workfront] tareas de [!DNL Microsoft] equipos
+description: Puede crear tareas personales en Adobe [!DNL Workfront] desde Microsoft Teams si el propietario de un equipo ha instalado y configurado [!DNL Workfront] para Microsoft Teams para su equipo y ha iniciado sesión en Workfront desde Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Crear [!DNL Adobe Workfront] tareas de [!DNL Microsoft Teams]
+# Crear [!DNL Adobe Workfront] tareas a partir de [!DNL Microsoft Teams]
 
 >[!NOTE]
 >
@@ -38,50 +38,50 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
-Puede crear tareas personales en [!DNL Adobe Workfront] de [!DNL Microsoft Teams] si se cumplen las siguientes condiciones:
+Puede crear tareas personales en [!DNL Adobe Workfront] a partir de [!DNL Microsoft Teams] si se cumplen las siguientes condiciones:
 
 * El propietario de un equipo ha instalado y configurado [!DNL Workfront for Microsoft Teams] para su equipo.
-* Ha iniciado sesión en [!DNL Workfront] de [!DNL Microsoft Teams].
+* Ha iniciado sesión en [!DNL Workfront] desde [!DNL Microsoft Teams].
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] ya no es compatible [!DNL Internet Explorer]. Para usar la variable [!DNL Adobe Workfront for Microsoft Teams] integración, debe utilizar un explorador web distinto de [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] ya no admite [!DNL Internet Explorer]. Para usar la integración de [!DNL Adobe Workfront for Microsoft Teams], debe usar un explorador web que no sea [!DNL Internet Explorer].
 
-Para obtener información acerca de la instalación [!DNL Workfront for Microsoft Teams] e iniciar sesión en [!UICONTROL Workfront] de [!DNL Microsoft Teams], consulte [Instalar [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Para obtener información sobre cómo instalar [!DNL Workfront for Microsoft Teams] e iniciar sesión en [!UICONTROL Workfront] desde [!DNL Microsoft Teams], consulte [Instalar [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Creación de tareas personales desde [!DNL Microsoft Teams]
+## Crear tareas personales a partir de [!DNL Microsoft Teams]
 
-1. Iniciar sesión en [!DNL Workfront] de [!DNL Microsoft Teams].
+1. Iniciar sesión en [!DNL Workfront] desde [!DNL Microsoft Teams].
 
    Para obtener información sobre cómo iniciar sesión en [!DNL Workfront], consulte [Instalar [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Para abrir un **[!UICONTROL Nueva tarea]** tarjeta:
+1. Para abrir una tarjeta de **[!UICONTROL Nueva tarea]**:
 
-   * Si está en la [!DNL Workfront] canal de chat de bots, tipo **[!UICONTROL Nueva tarea]** en el [!UICONTROL conversación] para crear una nueva tarea.
-   * Si está en un canal de chat que no sea el [!DNL Workfront] canal de chat de bots:
+   * Si se encuentra en el canal de chat de bots [!DNL Workfront], escriba **[!UICONTROL Nueva tarea]** en el campo [!UICONTROL conversación] para crear una nueva tarea.
+   * Si se encuentra en un canal de chat que no sea el canal de chat para bots [!DNL Workfront]:
 
-      * Empiece a escribir **[!DNL @workfront]** en el [!UICONTROL conversación] y, a continuación, seleccione el [!DNL Workfront] canal de bots que desee.
-      * Siga escribiendo **[!UICONTROL Nueva tarea]** en el [!UICONTROL conversación] para crear una nueva tarea.
+      * Empiece a escribir **[!DNL @workfront]** en el campo [!UICONTROL conversación] y, a continuación, seleccione el canal de bots [!DNL Workfront] que desee.
+      * Siga escribiendo **[!UICONTROL Nueva tarea]** en el campo [!UICONTROL conversación] para crear una nueva tarea.
 
-        El [!UICONTROL Nueva tarea] La tarjeta se muestra en [!DNL Workfront] canal de bots.
+        La tarjeta [!UICONTROL Nueva tarea] se muestra en el canal de bots [!DNL Workfront].
 
         ![ms_team_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. En el [!UICONTROL Workfront] canal de bots, especifique la siguiente información en la [!UICONTROL Nueva tarea] tarjeta:
+1. En el canal de bots [!UICONTROL Workfront], especifique la siguiente información en la tarjeta [!UICONTROL Nueva tarea]:
 
-   * Nombre de tarea en **[!UICONTROL Escribir el título de la tarea]** field.
-   * Descripción de la tarea en **[!UICONTROL Escribir la descripción de las tareas]** field.
-   * La fecha en la que debe completarse la tarea, en el **[!UICONTROL Fecha de vencimiento]** field.
+   * Nombre de tarea en el campo **[!UICONTROL Escriba el título de la tarea]**.
+   * Descripción de tarea en el campo **[!UICONTROL Escriba la descripción de las tareas]**.
+   * La fecha debe ser completada por, en el campo **[!UICONTROL Fecha de vencimiento]**.
 
-1. Clic **[!UICONTROL Guardar].**
+1. Haga clic en **[!UICONTROL Guardar].**
 
-   La nueva tarea personal se crea en [!DNL Workfront]. A [!UICONTROL Número de referencia] tiene asignado y es visible en la [!UICONTROL nueva tarea] Tarjeta de.
+   La nueva tarea personal se creó en [!DNL Workfront]. Se le ha asignado un [!UICONTROL número de referencia] que está visible en la tarjeta de [!UICONTROL nueva tarea].
 
-   Para obtener información sobre los números de referencia, consulte la [[!UICONTROL Números de referencia] de objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) de la sección [Explicación de los objetos en [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) artículo.
+   Para obtener información acerca de los números de referencia, vea la sección [[!UICONTROL Números de referencia] de objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) en el artículo [Comprender los objetos en [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Opcional) Haga clic en **[!UICONTROL Editar]** para editar más la información de la tarea.
-1. (Opcional) Haga clic en **[!UICONTROL Ver en[!DNL Workfront]]** para abrir la tarea en una nueva pestaña en [!DNL Workfront] y seguir editando la tarea, moverla a un proyecto o asignarla a otra persona.
+1. (Opcional) Haga clic en **[!UICONTROL Ver en[!DNL Workfront]]** para abrir la tarea en una nueva pestaña de [!DNL Workfront] y editarla más adelante, moverla a un proyecto o asignarla a otra persona.

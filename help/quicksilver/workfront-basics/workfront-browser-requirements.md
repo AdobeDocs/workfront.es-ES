@@ -21,12 +21,12 @@ Tanto Adobe Workfront como Workfront Proof requieren el uso de un explorador de 
 
 ## Exploradores compatibles con Workfront
 
-* **Explorador web:** Workfront es compatible oficialmente con la versión actual del explorador y con una versión anterior (y con cualquier versión anterior que represente al menos el cinco por ciento del tráfico total de Workfront) para los exploradores siguientes:
+* **Explorador web:** Workfront admite oficialmente la versión actual del explorador y una versión anterior (así como cualquier versión anterior que represente al menos el cinco por ciento del tráfico total de Workfront) para los exploradores siguientes:
 
    * Chrome
    * Firefox
    * Safari
-   * Microsoft Edge (no Microsoft Edge Legacy)
+   * Microsoft Edge (no Microsoft Edge heredado)
 
   >[!NOTE]
   >
@@ -34,12 +34,12 @@ Tanto Adobe Workfront como Workfront Proof requieren el uso de un explorador de 
 
 ## Exploradores Workfront no es compatible con
 
-* **Internet Explorer 11** a partir de la versión 21.2 de (mayo de 2021), ya no es compatible.
+* **Internet Explorer 11** ya no es compatible a partir de la versión 21.2 (mayo de 2021).
 
-* **Internet Explorer versiones 7, 8, 9 y 10**: Microsoft dejó de ofrecer asistencia técnica (incluidas las vulnerabilidades de seguridad graves) para IE 7 e IE 8 el 12 de enero de 2016. Además, IE 9 y IE 10 también se han interrumpido en la mayoría de las circunstancias. El fundamento de Microsoft tras esta decisión se basó en los importantes problemas de seguridad con la arquitectura de estos navegadores que podrían afectar gravemente a los usuarios.
-  >Para obtener más información, consulte la [Preguntas frecuentes sobre el ciclo vital: Internet Explorer y Microsoft Edge](https://support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer) en el sitio de soporte de Microsoft. <!--the title of this page changes; ensure accuracy-->
+* **Internet Explorer versiones 7, 8, 9 y 10**: Microsoft dejó de admitir (incluidas las vulnerabilidades de seguridad graves) IE 7 e IE 8 el 12 de enero de 2016. Además, IE 9 y IE 10 también se han interrumpido en la mayoría de las circunstancias. El fundamento de Microsoft tras esta decisión se basó en los importantes problemas de seguridad con la arquitectura de estos navegadores que podrían afectar gravemente a los usuarios.
+  >Para obtener más información, consulte las [Preguntas frecuentes sobre el ciclo de vida: Internet Explorer y Microsoft Edge](https://support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer) en el sitio de soporte técnico de Microsoft. <!--the title of this page changes; ensure accuracy-->
 
-* **Exploradores en un dispositivo móvil:** Workfront no admite ningún explorador en un dispositivo móvil. En su lugar, utilice las aplicaciones móviles de Workfront, disponibles tanto para iOS como para Android. Para obtener más información, consulte [Uso de la aplicación móvil de Adobe Workfront](../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+* **Exploradores de un dispositivo móvil:** Workfront no admite ningún explorador de un dispositivo móvil. En su lugar, utilice las aplicaciones móviles de Workfront, disponibles tanto para iOS como para Android. Para obtener más información, consulte [Usar la aplicación móvil de Adobe Workfront](../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
 
 

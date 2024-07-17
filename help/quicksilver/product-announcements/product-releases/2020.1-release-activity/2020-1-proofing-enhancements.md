@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de revisión de la versión 2020.1. Estas mejoras están disponibles actualmente en el entorno de vista previa y estarán disponibles en el entorno de producción a finales de marzo o principios de abril de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general de la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general sobre la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Actualizaciones de la herramienta de medición en el visor de pruebas
 
@@ -36,7 +36,7 @@ Ahora, cuando establece la fecha límite de la fase y la configuración de activ
 
 Además, los nombres de la configuración de las fases ahora son coherentes de una actividad de flujo de trabajo automatizado a otra. Anteriormente, algunos ajustes de fase del flujo de trabajo automatizado para configurar una nueva prueba eran diferentes de los ajustes correspondientes de una prueba existente.
 
-Para obtener más información, consulte y [Crear o editar un flujo de trabajo automatizado para una revisión existente](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+Para obtener más información, vea y [Crear o editar un flujo de trabajo automatizado para una revisión existente](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
 
 ## Adición de una zona horaria a una plantilla de flujo de trabajo automatizado
 

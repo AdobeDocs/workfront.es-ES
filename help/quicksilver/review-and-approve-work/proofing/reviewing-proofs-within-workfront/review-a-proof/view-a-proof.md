@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
@@ -37,22 +37,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 ## Cambiar la vista de la prueba
 
 Puede ver una prueba estática que contiene varias páginas en una sola vista, en una vista de continuación o en una vista de revista.
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir revisión**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
 1. En el área superior izquierda del visor de pruebas, busque las opciones de visualización.\
-   ![changing_the_view.png](assets/changing-the-view-350x213.png)
+   ![cambiando_la_vista.png](assets/changing-the-view-350x213.png)
 
 1. Haga clic en cualquiera de las siguientes opciones:
 
@@ -87,9 +87,9 @@ El panel de miniaturas se muestra en la parte izquierda del visor de pruebas. Pu
 El panel de miniaturas se muestra de forma predeterminada. Puede ocultar o ajustar el tamaño del panel.
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir revisión**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. Haga clic en **Miniatura** en la esquina superior izquierda del visor de pruebas.\
+1. Haga clic en el icono **Miniatura** en la esquina superior izquierda del visor de revisión.\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Opcional) Vuelva a hacer clic en el icono de miniatura para mostrar el panel de miniaturas.
@@ -105,7 +105,7 @@ El área de zoom del panel de miniaturas muestra el área de la prueba que está
 Para hacer zoom y desplazarse en la vista de miniaturas:
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir revisión**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
 1. Busque el área de zoom actual en el panel de miniaturas.\
    El área de zoom se muestra como un marco azul alrededor de los bordes de la miniatura.
@@ -120,36 +120,36 @@ Para hacer zoom y desplazarse en la vista de miniaturas:
 Puede rotar la prueba dentro del visor de pruebas. Al girar una prueba que contiene varias páginas, todas las páginas se giran simultáneamente.
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir revisión**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. Haga clic en **Rotar** en la parte inferior del visor de pruebas.
+1. Haga clic en el icono **Rotar** en la parte inferior del visor de revisión.
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   La prueba gira 90 grados cada vez que hace clic en el botón **Rotar** icono.
+   La revisión gira 90 grados cada vez que hace clic en el icono **Rotar**.
 
 ## Zoom y desplazamiento de una prueba
 
 Puede ajustar el porcentaje de zoom al ver la prueba. Cuando se visualiza una prueba con un porcentaje de zoom mayor, la opción Panorámica permite utilizar el cursor para desplazarse a diferentes áreas de la prueba.
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir revisión**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
 1. Realice una de las siguientes acciones para ajustar el porcentaje de zoom de la prueba:
 
-   * Haga clic en **Zoom** y luego haga clic en la prueba para verla en un nivel de zoom más alto, o arrastre por un área de la prueba para ver solo esa área.
+   * Haga clic en el icono **Zoom** y, a continuación, haga clic en la prueba para verla a un nivel de zoom más alto o arrástrela por un área de la prueba para ver solo esa área.
 
      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-   * Haga clic en el porcentaje de zoom actual y luego en un nuevo porcentaje de zoom o haga clic en **Ajustar a anchura**, **Ajustar a altura**, o **Ajustar a página**.
+   * Haga clic en el porcentaje de zoom actual y, a continuación, haga clic en un nuevo porcentaje de zoom o haga clic en **Ajustar a la anchura**, **Ajustar a la altura** o **Ajustar a la página**.
 
      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * Haga clic en **Plus** o **Menos** para aumentar o disminuir el porcentaje de zoom.
+   * Haga clic en los iconos **Más** o **Menos** para aumentar o disminuir el porcentaje de zoom.
 
      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Si necesita desplazarse a un área concreta de la prueba de vídeo, haga clic en el **Panorámica** y arrastre la prueba según sea necesario.
+1. Si necesita desplazarse a un área concreta de la revisión de vídeo, haga clic en el icono **Panorámica** y, a continuación, arrastre la revisión según sea necesario.
 
    ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 

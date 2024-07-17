@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Otras mejoras
 
-Esta página describe todas las otras mejoras realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [21.2 Información general de la versión](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página describe todas las otras mejoras realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [Información general sobre la versión 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Ahora somos oficialmente Adobe Workfront
 
@@ -37,7 +37,7 @@ Ahora se actualizan las áreas más destacadas de la aplicación de Adobe Workfr
 * Exportaciones de PDF para listas e informes
 * Icono de Favicon en la pestaña del navegador
 
-**Áreas que se actualizan más tarde**
+**Áreas actualizándose más tarde**
 
 * Notificaciones por correo electrónico
 
@@ -49,7 +49,7 @@ Ahora se actualizan las áreas más destacadas de la aplicación de Adobe Workfr
 
 Si utiliza la lista de permitidos de correo electrónico, las direcciones de correo electrónico de los usuarios nuevas y actualizadas ahora se validan con la lista de permitidos. Cuando agrega un usuario nuevo o edita un usuario existente e introduce un dominio de correo electrónico que no está en la lista de permitidos, un mensaje le notifica que el usuario no recibirá mensajes de correo electrónico. Puede seguir guardando el perfil de usuario, pero debe agregar el dominio a la lista de permitidos para que el usuario reciba correos electrónicos.
 
-Para obtener más información, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obtener más información, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Nueva apariencia para los encabezados de objeto
 
@@ -80,7 +80,7 @@ Workfront ahora almacena los estados de objetos de una nueva manera.
 
 Estos cambios no afectan a la forma en que se realizan las solicitudes de búsqueda de estado. Sin embargo, las solicitudes de API que contengan una búsqueda de estado de objeto devolverán una lista incompleta de estados de grupo.
 
-Para obtener más información, consulte [Cambios en la API principal: Respuestas de búsqueda de estado](../../../wf-api/api/api-changes-search.md) .
+Para obtener más información, consulte [Cambios principales en la API: respuestas de búsqueda de estado](../../../wf-api/api/api-changes-search.md) .
 
 ## Las cargas de suscripción de evento se han actualizado para incluir todos los campos que terminan en ID
 
@@ -96,4 +96,4 @@ Es importante tener en cuenta que cada objeto tiene su propio conjunto único de
 
 Blueprints proporciona bloques de construcción básicos para ayudarle a crear un sistema de administración de trabajo que crezca con usted. Los administradores del sistema pueden examinar el catálogo de modelos e instalar plantillas de proyecto listas para usar.
 
-Para obtener más información, consulte [Modelos](../../../administration-and-setup/blueprints/blueprints.md).
+Para obtener más información, vea [Modelos](../../../administration-and-setup/blueprints/blueprints.md).

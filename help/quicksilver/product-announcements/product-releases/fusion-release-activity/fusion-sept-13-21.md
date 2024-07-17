@@ -1,6 +1,6 @@
 ---
-title: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 13 de septiembre de 2021
-description: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 13 de septiembre de 2021
+title: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 13 de septiembre de 2021'
+description: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 13 de septiembre de 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 23 de septiembre de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Filtrado y ordenación del historial de ejecución de escenarios de Workfront Fusion
 
@@ -41,7 +41,7 @@ También hemos hecho posible ordenar el historial de ejecución de escenarios. P
 * Número de operaciones
 * Cantidad de datos transferidos
 
-Para obtener más información sobre el filtrado y la ordenación del historial de ejecución, consulte [Visualización del historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Para obtener más información sobre cómo filtrar y ordenar el historial de ejecución, consulte [Ver el historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Los enlaces de ayuda en Fusion ahora conducen a artículos específicos
 
@@ -57,7 +57,7 @@ Para crear más claridad en la tabla de ejecución de escenarios, hemos hecho vi
 
 Anteriormente, todas las ejecuciones tenían un botón Detalles y, ocasionalmente, los usuarios hacían clic en los detalles solo para comprobar que no había detalles disponibles.
 
-Para obtener más información, consulte [Visualización del historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Para obtener más información, consulte [Ver el historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Tiempo de espera del conector de traducción gestionada de SDL aumentado a 120 segundos
 

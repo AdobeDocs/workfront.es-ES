@@ -39,13 +39,13 @@ Un campo personalizado calculado puede contener:
 
   >[!INFO]
   >
-  >**Ejemplo:** Para calcular el beneficio generado por proyectos y tareas, puede crear un campo personalizado calculado denominado Beneficio que contenga una expresión matemática que reste costos de los ingresos.
+  >**Ejemplo:** Para calcular el beneficio generado por proyectos y tareas, puede crear un campo personalizado calculado denominado Beneficio que contenga una expresión matemática que reste costos de ingresos.
   >
   >Para ello, se puede utilizar la expresión matemática SUB (subtract) con los campos integrados de Workfront Coste real e Ingresos reales.
   >
   >En los pasos siguientes, puede ver cómo se puede llevar a cabo este ejemplo.
 
-Para obtener información sobre la creación de formularios personalizados para su organización y el tipo de campos que puede asociar a ellos, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener información sobre cómo crear formularios personalizados para su organización y comprender el tipo de campos que puede asociar a ellos, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -75,7 +75,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información acerca de los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,9 +88,9 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
 >
 >Antes de crear un campo personalizado calculado, identifique los campos existentes que desee incluir para estar seguro de que los datos necesarios para el cálculo están presentes en Workfront.
 
-1. Comience a crear o editar un formulario personalizado, tal como se describe en [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Empiece a crear o editar un formulario personalizado, tal como se describe en [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. En el **Añadir un campo** pestaña, haga clic en **Calculado**.
+1. En la ficha **Agregar un campo**, haga clic en **Calculado**.
 
    En el área de visualización de la derecha, el campo muestra un valor de relleno de 12345. Este indicador le recuerda que el campo es un campo personalizado calculado mientras crea o edita el formulario personalizado. Cuando el formulario se adjunta a un objeto y los usuarios lo rellenan, ven el resultado del cálculo en el campo y no el valor 12345.
 
@@ -104,12 +104,12 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
     <tbody> 
      <tr> 
       <td role="rowheader">Etiqueta</td> 
-      <td>Escriba una etiqueta para el campo. Esto es lo que ven los usuarios cuando utilizan el formulario personalizado. El campo <b>Nombre</b>, que se rellena automáticamente y coincide con Label, Workfront hace referencia a él en los informes. Este campo es obligatorio.</td> 
+      <td>Escriba una etiqueta para el campo. Esto es lo que ven los usuarios cuando utilizan el formulario personalizado. Workfront hace referencia al campo <b>Name</b>, que se rellena automáticamente y coincide con Label, en los informes. Este campo es obligatorio.</td> 
      </tr>
 
    <tr> 
    <td role="rowheader">Nombre</td> 
-   <td>De forma predeterminada, el Nombre de un campo es el mismo que la Etiqueta. Sin embargo, puede modificar el Nombre de un campo para que sea diferente a la Etiqueta de un campo. El campo <b>Nombre</b> Workfront hace referencia a en los informes. Este campo es obligatorio.</td> 
+   <td>De forma predeterminada, el Nombre de un campo es el mismo que la Etiqueta. Sin embargo, puede modificar el Nombre de un campo para que sea diferente a la Etiqueta de un campo. Workfront hace referencia al campo <b>Name</b> en los informes. Este campo es obligatorio.</td> 
    </tr>
 
    <tr> 
@@ -123,40 +123,40 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
       <li> <p>Como recordatorio de qué es la fórmula y cómo funciona. Esto resulta especialmente útil si planea utilizar este campo personalizado calculado en varios formularios.</p> </li> 
        <li> <p>Como información de objeto, los usuarios pueden ver cuando pasan el ratón por encima del campo. Aquí puede agregar el texto que desee que vea en la información del objeto.</p> </li> 
        </ul>
-       <p>Si no desea que los usuarios vean la fórmula en la información del objeto, lo que podría resultar confuso para ellos, no la agregue al campo Instrucciones. En su lugar, utilice la configuración "Mostrar fórmula en instrucciones" para mostrar u ocultar la fórmula, tal como se describe más adelante en este artículo <a href="#build-the-calculation-for-your-calculated-custom-field">Cree el cálculo para el campo personalizado calculado</a> en este artículo.</p>
+       <p>Si no desea que los usuarios vean la fórmula en la información del objeto, lo que podría resultar confuso para ellos, no la agregue al campo Instrucciones. En su lugar, use la configuración "Mostrar fórmula en instrucciones" para mostrar u ocultar la fórmula, tal como se describe más detalladamente en este artículo <a href="#build-the-calculation-for-your-calculated-custom-field">Genere el cálculo para el campo personalizado calculado</a> en este artículo.</p>
 
-   <p>Para obtener información sobre el uso del mismo campo personalizado calculado en un formulario nuevo, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Reutilizar un campo personalizado calculado existente en un formulario personalizado</a>.</p>
+   <p>Para obtener información sobre cómo usar el mismo campo personalizado calculado en un formulario nuevo, vea <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Reutilizar un campo personalizado calculado existente en un formulario personalizado</a>.</p>
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Formato</td> 
-      <td> <p>El formato en el que desea que se almacenen y muestren los resultados del campo.</p> <p>Si planea utilizar el campo en cálculos matemáticos, utilice siempre un <strong>Número</strong> o una <strong>Moneda</strong> formato. Al seleccionar Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</p> 
+      <td> <p>El formato en el que desea que se almacenen y muestren los resultados del campo.</p> <p>Si planea usar el campo en cálculos matemáticos, use siempre un formato <strong>Número</strong> o <strong>Moneda</strong>. Al seleccionar Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</p> 
       <p><b>IMPORTANTE</b>: <p>Antes de elegir un formato, tenga en cuenta el formato correcto para el nuevo campo. El campo de formato no se puede editar después de guardar el formulario personalizado. Y seleccionar el formato incorrecto podría afectar a futuros cálculos y valores acumulados en las agrupaciones de informes y listas.</p>
-      <p><strong>NOTA:</strong> Los campos calculados con un formato de moneda no deben incluir comillas. (Por ejemplo, use 800,00 y no "800,00"). El uso de comillas puede tener consecuencias inesperadas debido a los matices del formato de idioma para los tipos de moneda.</p></td> 
+      <p><strong>NOTA:</strong> Los campos calculados con un formato Moneda no deben incluir comillas. (Por ejemplo, use 800,00 y no "800,00"). El uso de comillas puede tener consecuencias inesperadas debido a los matices del formato de idioma para los tipos de moneda.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Continúe actualizando la información del campo personalizado como se describe en la sección [Cree el cálculo para el campo personalizado calculado](#build-the-calculation-for-your-calculated-custom-field) en este artículo.
+1. Continúe actualizando la información del campo personalizado, tal como se describe en la sección [Genere el cálculo para el campo personalizado calculado](#build-the-calculation-for-your-calculated-custom-field) en este artículo.
 
 ## Cree el cálculo para el campo personalizado calculado {#build-the-calculation-for-your-calculated-custom-field}
 
 1. Comience a crear el campo personalizado calculado, tal como se describe en la sección [Agregar un campo calculado a un formulario personalizado](#add-a-calculated-field-to-a-custom-form) en este artículo.
 
-1. Clic **Maximizar** para abrir **Editor de cálculo** y genere su cálculo.
+1. Haga clic en **Maximizar** para abrir el **Editor de cálculos** y generar el cálculo.
 
    >[!INFO]
    >
-   >**Ejemplo:** Con el ejemplo de la introducción a este artículo, puede crear un campo personalizado calculado llamado Beneficio en un formulario personalizado para proyectos y tareas. Este campo puede contener un cálculo que muestre la diferencia entre los ingresos reales y el costo real:
+   >**Ejemplo:** Con el ejemplo de la introducción a este artículo, podría crear un campo personalizado calculado denominado Beneficio en un formulario personalizado para proyectos y tareas. Este campo puede contener un cálculo que muestre la diferencia entre los ingresos reales y el costo real:
    >
    >`SUB({actualRevenue},{actualCost})`
    >
    >En este ejemplo, `SUB` es la expresión y los campos a los que se hace referencia son `actualRevenue` y `actualCost`.
 
-   Un cálculo suele comenzar con una expresión, seguida de paréntesis que contienen los campos a los que se desea hacer referencia cuando se adjunta el formulario personalizado a un objeto. Para obtener información sobre las expresiones disponibles, consulte [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Un cálculo suele comenzar con una expresión, seguida de paréntesis que contienen los campos a los que se desea hacer referencia cuando se adjunta el formulario personalizado a un objeto. Para obtener información acerca de las expresiones disponibles, vea [Información general sobre expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   Cada campo debe estar comprendido entre llaves, tal como se explica en la sección [Sintaxis requerida en los campos personalizados calculados](#syntax-required-in-calculated-custom-fields) en este artículo. Cuando empiece a escribir el nombre de un campo, el sistema realiza sugerencias y puede seleccionar una para insertarla en el cálculo.
+   Cada campo debe estar entre llaves, como se explica en la sección [Sintaxis requerida en los campos personalizados calculados](#syntax-required-in-calculated-custom-fields) de este artículo. Cuando empiece a escribir el nombre de un campo, el sistema realiza sugerencias y puede seleccionar una para insertarla en el cálculo.
 
    >[!NOTE]
    >
@@ -165,9 +165,9 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
    >   * Campo de texto con formato
    >   * Texto descriptivo.
    >   
-   >   Para obtener información sobre los tipos de campos personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   >   Para obtener información acerca de los tipos de campos personalizados, vea [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-1. Haga clic en el cuadro de texto grande del cuadro Editor de cálculos y, a continuación, haga clic en buscar o expandir y haga clic en una opción del **Expresiones** y **Campos** secciones a la derecha del cuadro de texto. Esto los añade al cálculo.
+1. Haga clic en el cuadro de texto grande del cuadro Editor de cálculos y, a continuación, haga clic en Buscar o expandir y haga clic en una opción de las secciones **Expresiones** y **Campos** a la derecha del cuadro de texto. Esto los añade al cálculo.
 
    También puede empezar a escribir una expresión o campo en el cuadro de texto grande y, a continuación, seleccionarlo cuando se muestre. Cada elemento se muestra con una &quot;F&quot; para el campo o una &quot;E&quot; para la expresión.
 
@@ -177,18 +177,18 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
    >
    >Puede realizar cualquiera de las siguientes acciones para obtener ayuda con el cálculo:
    > 
-   >* Pase el ratón sobre una expresión del cálculo para ver una descripción, un ejemplo que muestre cómo se puede utilizar y un vínculo &quot;Más información&quot; para obtener más información en el artículo [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Pase el ratón sobre una expresión del cálculo para ver una descripción, un ejemplo que muestre cómo se puede usar y un vínculo &quot;Más información&quot; para obtener más información en el artículo [Información general sobre las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Utilice la codificación de color para identificar los componentes que ha añadido. Las expresiones se muestran en azul y los campos en verde.
    >  ![](assets/colors-fields-expressions.jpg)
    >* Busque errores de cálculo resaltados en rosa a medida que avanza. Puede situarse sobre un error resaltado para mostrar una breve descripción de su causa.
    >  ![](assets/error-help.png)
-   >* En el **Vista previa de un objeto existente** debajo del cálculo, empiece a escribir el nombre de un objeto Workfront, selecciónelo cuando se muestre en la lista. Esto le proporciona una vista previa del aspecto que tendrá el campo cuando se adjunte el formulario al objeto.
+   >* En el área **Vista previa de un objeto existente** debajo del cálculo, empiece a escribir el nombre de un objeto Workfront, selecciónelo cuando se muestre en la lista. Esto le proporciona una vista previa del aspecto que tendrá el campo cuando se adjunte el formulario al objeto.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Expresiones de referencia en un cálculo largo utilizando los números de línea que se muestran a la izquierda.
 
-1. Clic **Minimizar** cuando haya terminado de crear el cálculo para el campo personalizado calculado.
+1. Haga clic en **Minimizar** cuando termine de crear el cálculo para el campo personalizado calculado.
 
    >[!NOTE]
    >
@@ -202,7 +202,7 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
     <tbody> 
      <tr> 
       <td role="rowheader">Agregar lógica</td> 
-      <td>Puede agregar Lógica de visualización para determinar si el campo calculado se muestra, en función de al menos una opción que realice un usuario en un campo de opción múltiple anterior (Lista desplegable, Casillas de verificación o Botones de opción) al rellenar el formulario. Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Agregar lógica de visualización y saltar lógica a un formulario personalizado</a>. <p>Esto solo está disponible cuando al menos una casilla de verificación, un botón de opción o un campo desplegable precede al campo personalizado calculado en el formulario. </p> <p>La lógica de omisión no está disponible para los campos personalizados calculados.</p> </td> 
+      <td>Puede agregar Lógica de visualización para determinar si el campo calculado se muestra, en función de al menos una opción que realice un usuario en un campo de opción múltiple anterior (Lista desplegable, Casillas de verificación o Botones de opción) al rellenar el formulario. Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Agregar lógica de visualización y omitir lógica a un formulario personalizado</a>. <p>Esto solo está disponible cuando al menos una casilla de verificación, un botón de opción o un campo desplegable precede al campo personalizado calculado en el formulario. </p> <p>La lógica de omisión no está disponible para los campos personalizados calculados.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Actualizar cálculos anteriores</td> 
@@ -210,24 +210,24 @@ Puede utilizar tanto los campos integrados de Workfront como los campos personal
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar fórmula en las instrucciones</td> 
-      <td>Deje esta opción habilitada si desea que los usuarios que rellenan el formulario personalizado vean la fórmula del campo cuando pasan el ratón por encima del campo. Para obtener más información, consulte la información sobre <a href="#instructions" class="MCXref xref">Instrucciones</a> anteriormente en esta tabla.</td> 
+      <td>Deje esta opción habilitada si desea que los usuarios que rellenan el formulario personalizado vean la fórmula del campo cuando pasan el ratón por encima del campo. Para obtener más información, vea la información sobre <a href="#instructions" class="MCXref xref">Instrucciones</a> anteriormente en esta tabla.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Listo** cuando se completen todos los cambios en el campo personalizado calculado.
+1. Haga clic en **Listo** cuando se hayan completado todos los cambios en el campo personalizado calculado.
 
-   O haga clic en **Aplicar** para aplicar los cambios al formulario hasta el momento si desea seguir agregando campos personalizados al formulario.
+   O bien, haga clic en **Aplicar** para aplicar los cambios al formulario hasta el momento si desea seguir agregando campos personalizados al formulario.
 
-   O haga clic en **Guardar + Cerrar** cuando se completen todos los cambios en el formulario personalizado.
+   O bien, haga clic en **Guardar + Cerrar** cuando se hayan completado todos los cambios en el formulario personalizado.
 1. Para comprobar que el campo personalizado calculado funciona correctamente, adjunte el formulario personalizado a un objeto y, a continuación, revise el resultado en el campo personalizado calculado.
 
-   Para obtener instrucciones sobre cómo adjuntar un formulario personalizado, consulte [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+   Para obtener instrucciones sobre cómo adjuntar un formulario personalizado, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Si desea seguir creando el formulario personalizado de otras formas, puede continuar con uno de los siguientes artículos:
 
    * [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-   * [Colocar campos y widgets personalizados en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Coloque campos y widgets personalizados en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
    * [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
    * [Reutilizar un campo personalizado calculado existente en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Agregar lógica de visualización y saltar lógica a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
@@ -249,15 +249,15 @@ Por ejemplo: `{actualRevenue}`
 
 Los nombres de los campos distinguen entre mayúsculas y minúsculas y deben aparecer en mayúsculas o minúsculas, tal y como aparecen en el sistema de Workfront.
 
-* Si desea que el cálculo haga referencia a un campo personalizado, el nombre del campo debe estar entre llaves y precedido por `DE:` entre corchetes. Los campos personalizados distinguen entre mayúsculas y minúsculas y deben recibir el formato que muestran en la interfaz de Workfront.
+* Si desea que el cálculo haga referencia a un campo personalizado, el nombre del campo debe ir entre llaves y precedido de `DE:` entre corchetes. Los campos personalizados distinguen entre mayúsculas y minúsculas y deben recibir el formato que muestran en la interfaz de Workfront.
 
 Por ejemplo: `{DE:Profit}`
 
-El sistema enumera todos los campos personalizados entre los que puede elegir al escribir `DE:`.
+El sistema enumera todos los campos personalizados que puede elegir al escribir `DE:`.
 
 * Si desea que el cálculo haga referencia a un campo que extraerá datos del objeto principal cuando el formulario personalizado esté adjunto a un objeto, debe anteponer el nombre del campo al tipo de objeto del objeto principal, también entre llaves.
 
-  Por ejemplo, si el formulario personalizado está configurado para trabajar con tareas y desea que el campo calcule los ingresos reales del objeto principal cuando el formulario se adjunta a una tarea, debe indicar `project` como tipo de objeto del campo:
+  Por ejemplo, si el formulario personalizado está configurado para trabajar con tareas y desea que el campo calcule los ingresos reales del objeto principal cuando el formulario se adjunta a una tarea, debe indicar `project` como el tipo de objeto del campo:
 
   `{project}.{actualRevenue}`
 
@@ -292,7 +292,7 @@ Por ejemplo, para hacer referencia a la opción seleccionada en un campo persona
 
 >[!NOTE]
 >
->La sintaxis de un campo de escritura anticipada es diferente a la de otros tipos de campos porque es necesario agregar `:name` al final.
+>La sintaxis de un campo de escritura anticipada es diferente a la de otros tipos de campos porque necesita agregar `:name` al final.
 >
 >Por ejemplo, para hacer referencia a la opción seleccionada en un campo de escritura anticipada personalizado denominado &quot;Patrocinador ejecutivo&quot;, escribiría:
 >
@@ -315,17 +315,17 @@ En un formulario personalizado de varios objetos, los tipos de objeto selecciona
 Cuando esto sucede, puede realizar una de las siguientes acciones:
 
 * Quite uno de los dos elementos incompatibles del formulario personalizado: el tipo de objeto o el campo personalizado calculado al que se hace referencia.
-* Mantener ambos elementos y utilizar la variable de filtro comodín `$$OBJCODE` como condición en una expresión IF para crear dos versiones diferentes del campo In Charge. Esto permite que el campo funcione correctamente, independientemente del tipo de objeto al que esté adjunto el formulario.
+* Mantenga ambos elementos y utilice la variable de filtro comodín `$$OBJCODE` como condición en una expresión IF para crear dos versiones diferentes del campo In Charge. Esto permite que el campo funcione correctamente, independientemente del tipo de objeto al que esté adjunto el formulario.
 
 >[!INFO]
 >
->**Ejemplo:** Aunque no hay ningún campo Asignado a: Nombre en los proyectos, hay un campo Propietario integrado (que se rellena automáticamente con el nombre de la persona que creó el proyecto, a menos que alguien cambie esto manualmente).
+>**Ejemplo:** Aunque no hay ningún campo Asignado a: Nombre en los proyectos, hay un campo Propietario integrado (que se rellena automáticamente con el nombre de la persona que creó el proyecto, a menos que alguien lo cambie manualmente).
 >
->Por lo tanto, en el campo a cargo personalizado, puede utilizar `$$OBJCODE` como se muestra a continuación, para hacer referencia al campo Propietario cuando el formulario personalizado se adjunta a un proyecto y al campo Asignado a: Nombre cuando el formulario se adjunta a una tarea:
+>Por lo tanto, en su campo personalizado A cargo, puede utilizar `$$OBJCODE` como se muestra a continuación para hacer referencia al campo Propietario cuando el formulario personalizado se adjunta a un proyecto y al campo Asignado a: Nombre cuando el formulario se adjunta a una tarea:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Para obtener más información sobre variables como `$$OBJCODE,` consulte [Resumen de variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obtener más información acerca de variables como `$$OBJCODE,`, vea [Resumen de las variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Actualizaciones automáticas de campos personalizados calculados
 

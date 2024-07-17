@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Guardar un archivo de encabezado de correo electrónico
-description: Ocasionalmente, [!DNL Adobe Workfront] la asistencia técnica puede solicitar un archivo de encabezado de correo electrónico. Cada aplicación de correo electrónico tiene su propia forma de obtener este archivo. Estas son algunas instrucciones diferentes de la aplicación de correo electrónico para localizar y guardar el encabezado. [!DNL Outlook]
+description: En ocasiones, el soporte técnico de  [!DNL Adobe Workfront] puede solicitar un archivo de encabezado de correo electrónico. Cada aplicación de correo electrónico tiene su propia forma de obtener este archivo. Estas son algunas instrucciones diferentes de la aplicación de correo electrónico para localizar y guardar el encabezado. [!DNL Outlook]
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,33 +18,33 @@ ht-degree: 0%
 
 # Guardar un archivo de encabezado de correo electrónico
 
-Ocasionalmente, [!DNL Adobe Workfront] la asistencia técnica puede solicitar un archivo de encabezado de correo electrónico. Cada aplicación de correo electrónico tiene su propia forma de obtener este archivo. Estas son algunas instrucciones diferentes de la aplicación de correo electrónico para localizar y guardar el encabezado.
+En ocasiones, el soporte de [!DNL Adobe Workfront] puede solicitar un archivo de encabezado de correo electrónico. Cada aplicación de correo electrónico tiene su propia forma de obtener este archivo. Estas son algunas instrucciones diferentes de la aplicación de correo electrónico para localizar y guardar el encabezado.
 
 ## Outlook
 
 1. Abra el mensaje de correo electrónico.
 1. Haga clic en **[!UICONTROL Ver]** y seleccione **[!UICONTROL Opciones de mensaje]**.
 
-1. Haga clic en **[!UICONTROL Encabezados de Internet]**.
+1. Haga clic en **[!UICONTROL encabezados de Internet]**.
 1. Guarde el archivo de encabezado completo.
 
 ## Outlook para Mac
 
 1. Haga clic con el botón derecho en el mensaje de correo electrónico.
-1. Select **[!UICONTROL Ver origen]**.
+1. Seleccione **[!UICONTROL Ver Source]**.
 1. Guarde el archivo de encabezado completo.
 
 ## Gmail
 
 1. Abra el mensaje de correo electrónico.
-1. Haga clic en el **[!UICONTROL Responder]** menú desplegable en la esquina superior derecha de la pantalla.
+1. Haga clic en el menú desplegable **[!UICONTROL Responder]** en la esquina superior derecha de la pantalla.
 1. Desplácese hacia abajo y seleccione **[!UICONTROL Mostrar original]**.
 1. Guarde el archivo de encabezado completo.
 
 ## Thunderbird
 
 1. Abra el mensaje de correo electrónico.
-1. Haga clic en **[!UICONTROL Ver]** y seleccione **[!UICONTROL Administrar origen]**.
+1. Haga clic en **[!UICONTROL Ver]** y seleccione **[!UICONTROL Administrar Source]**.
 
 1. Guarde el archivo de encabezado completo.
 
@@ -58,5 +58,5 @@ Ocasionalmente, [!DNL Adobe Workfront] la asistencia técnica puede solicitar un
 ## Hotmail
 
 1. Vaya a la lista de mensajes.
-1. Haga clic con el botón derecho en el mensaje y seleccione **[!UICONTROL Ver origen de mensaje]**.
+1. Haga clic con el botón derecho en el mensaje y seleccione **[!UICONTROL Ver mensaje Source]**.
 1. Guarde el archivo de encabezado completo.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Agregar un informe a un tablero
 
-Puede agregar un informe a un tablero nuevo o existente directamente desde un informe. También puede agregar un informe existente a un panel, tal como se describe en [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Puede agregar un informe a un tablero nuevo o existente directamente desde un informe. También puede agregar un informe existente a un panel, como se describe en [Crear un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 >[!NOTE]
 >
@@ -39,28 +39,28 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos en el tablero</p> <p>Ver permisos para el informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en el tablero</p> <p>Ver permisos para el informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Requisitos previos
 
 Debe crear un informe antes de agregarlo a un panel.
 
-Para obtener información sobre cómo crear un informe, consulte [Creación de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Para obtener información sobre cómo crear un informe, consulte [Crear un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Agregar un informe a un tablero existente
 
 1. Vaya a un informe que tenga permisos de Administración y desee agregar a un tablero.
-1. Haga clic en **Acciones de informe** menú desplegable.
-1. Clic **Añadir a tablero**. Un máximo de 10 paneles modificados recientemente (propiedad del usuario que ha iniciado sesión) aparecen en orden del más reciente al más antiguo.
+1. Haga clic en el menú desplegable **Acciones de informe**.
+1. Haga clic en **Agregar al panel**. Un máximo de 10 paneles modificados recientemente (propiedad del usuario que ha iniciado sesión) aparecen en orden del más reciente al más antiguo.
 1. Seleccione el tablero al que desee agregar el informe.
 
    Después de seleccionar el tablero, puede agregar el informe como si estuviera editando ese tablero.
@@ -68,9 +68,9 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
 ## Agregar un informe a un nuevo tablero
 
 1. Vaya a un informe que tenga permisos de Administración y desee agregar a un tablero.
-1. Haga clic en **Acciones de informe** menú desplegable.
-1. Clic **Añadir a tablero**, luego haga clic en **Nuevo panel** para añadir el informe.\
+1. Haga clic en la lista desplegable **Acciones de informe**.
+1. Haga clic en **Agregar al panel** y, a continuación, haga clic en **Nuevo panel** para agregar el informe.\
    Aparece un generador de tableros.
 
 1. (Opcional) Seleccione un diseño e incluya informes adicionales en el nuevo tablero.
-1. Clic **Guardar + Cerrar** para añadir el informe.
+1. Haga clic en **Guardar+Cerrar** para agregar el informe.

@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Descripción general de "Restricción de tareas": Fechas fijas'''
-description: Puede utilizar la restricción de tareas Fechas fijas cuando desee especificar la fecha de inicio y la fecha de finalización exactas de las tareas. Para obtener más información acerca de las restricciones de tareas, consulte Información general sobre la restricción de tareas.
+title: "Resumen de restricción de tarea: fechas fijas"
+description: Puede utilizar la delimitación de tareas Fechas fijas cuando desee especificar la fecha exacta de inicio y finalización de las tareas. Para obtener más información sobre las delimitaciones de tareas, vea Información general sobre las delimitaciones de tareas.
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
@@ -14,32 +14,34 @@ ht-degree: 0%
 
 ---
 
-# Información general sobre la restricción de tareas: Fechas fijas
+# Información general sobre la restricción de tarea: fechas fijas
 
-Puede utilizar la restricción de tareas Fechas fijas cuando desee especificar la fecha de inicio y la fecha de finalización exactas de las tareas. Para obtener más información sobre las restricciones de tareas, consulte [Información general sobre la restricción de tareas](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+Puede utilizar la delimitación de tareas Fechas fijas cuando desee especificar la fecha exacta de inicio y finalización de las tareas. Para obtener más información acerca de las restricciones de tareas, vea [Información general sobre la restricción de tareas](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 ## Información general sobre la restricción Fechas fijas
 
-Tenga en cuenta lo siguiente al utilizar la restricción Fechas fijas :
+Tenga en cuenta lo siguiente al utilizar la restricción Fechas fijas:
 
-* Al seleccionar la restricción de tareas Fechas fijas (FIXT), debe especificar la Fecha de inicio planeada y la Fecha de finalización planeada de la tarea. En este caso, se ignora la relación predecesora de la tarea.
-* El campo Duration de la tarea no se puede editar al utilizar la restricción FIXT. La duración se calcula como la diferencia entre las fechas de inicio y finalización planeadas de la tarea.
-* Si el tipo de duración de la tarea está impulsado por el esfuerzo, el número de personas asignadas a la tarea también afecta a la duración de la tarea.
-* Cuando se mueve o copia una tarea con una restricción FIXT en otro proyecto, la restricción de la tarea o las fechas del proyecto pueden cambiar según las fechas de restricción y las fechas de inicio y finalización del proyecto. Existen los siguientes escenarios:
+* Al seleccionar la delimitación de tareas Fechas fijas (FIXT), debe especificar la Fecha planificada de inicio y la Fecha planificada de finalización de la tarea. En este caso, se ignora la relación de predecesora de la tarea.
+* El campo Duración de la tarea no se puede editar al utilizar la restricción FIXT. La duración se calcula como la diferencia entre las fechas planificadas de inicio y finalización de la tarea.
+* Si el Tipo de duración de la tarea es Condicionada por el esfuerzo, el número de personas asignadas a la tarea también afectará a la Duración de la tarea.
+* Cuando se mueve o copia una tarea con una delimitación FIXT a otro proyecto, la delimitación de la tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de delimitación y cuáles sean las fechas de inicio y finalización del proyecto. Existen los siguientes escenarios:
 
-   * Cuando el proyecto de destino está programado Desde el inicio:
+   * Cuando el proyecto de destino está programado desde el inicio:
 
-      * Cuando alguna fecha de restricción de la tarea es anterior a la fecha de inicio del proyecto, la restricción de la tarea cambia a Tan pronto como sea posible.
-      * Cuando una o ambas fechas de restricción de la tarea son posteriores a la fecha de finalización prevista del proyecto, la fecha de finalización prevista del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
-   * Cuando el proyecto de destino está programado Desde su finalización:
+      * Cuando las fechas de delimitación de la tarea son anteriores a la fecha de inicio del proyecto, la delimitación de la tarea cambia a Lo antes posible.
+      * Cuando una o ambas fechas de delimitación de la tarea son posteriores a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de delimitación de finalización de la tarea.
 
-      * Cuando cualquier fecha de restricción de la tarea es posterior a la fecha de finalización del proyecto, la restricción de la tarea cambia a Tan tarde como sea posible.
-      * Cuando una o ambas fechas de restricción de la tarea son anteriores a la fecha de inicio planeada del proyecto, la fecha de inicio planeada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
-   * Independientemente de la programación del proyecto, cuando las fechas de restricción de la tarea se encuentran dentro de las fechas de inicio y finalización del proyecto, no hay cambios en la restricción de la tarea ni en las fechas del proyecto.
+   * Cuando se programa el proyecto de destino desde la finalización:
 
-   Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener información sobre cómo copiar tareas, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+      * Cuando las fechas de delimitación de la tarea son posteriores a la fecha de finalización del proyecto, la delimitación de la tarea cambia a Lo más tarde posible.
+      * Cuando una o ambas fechas de delimitación de la tarea son anteriores a la fecha planificada de inicio del proyecto, la fecha planificada de inicio del proyecto cambia para coincidir con la fecha de delimitación de inicio de la tarea.
 
-Para obtener información sobre cómo actualizar la restricción de tareas en una tarea, consulte [Actualizar la restricción de tareas de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+   * Independientemente de la programación del proyecto, cuando las fechas de delimitación de la tarea se encuentran dentro de las fechas de comienzo y finalización del proyecto, no hay cambios en las fechas de delimitación de tarea o de proyecto.
+
+  Para obtener información acerca de cómo mover tareas, vea [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

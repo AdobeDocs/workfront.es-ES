@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1253'
 ht-degree: 3%
 
 ---
@@ -34,11 +34,11 @@ Tenga en cuenta lo siguiente:
 
 * Si falta alguno de los elementos representados por los iconos en el objeto, el icono que representa el elemento que falta aparece atenuado en la columna Iconos de estado en lugar de en una imagen de color.
 
-  ![task_status_icon.png](assets/task-status-icons.png)
+  ![iconos_estado_tarea.png](assets/task-status-icons.png)
 
-  Para obtener más información, consulte la [Información general sobre los iconos y las marcas de estado](#overview-of-status-icons-and-flags) de este artículo.
+  Para obtener más información, consulte la sección [Información general sobre los iconos y las marcas de estado](#overview-of-status-icons-and-flags) en este artículo.
 
-* En algunas vistas, la variable **Iconos de estado** el nombre del campo es **Indicadores** o **Ver iconos**.\
+* En algunas vistas, el campo **Iconos de estado** se llama **Marcas** o **Iconos de vista**.\
   No se puede personalizar el aspecto de los iconos que se incluyen en el campo Iconos de estado.
 
 * No puede editar el número de iconos en el campo Iconos de estado.
@@ -65,16 +65,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para agregar columnas a un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para agregar columnas a un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos en una vista existente</p> <p>Administrar permisos para agregar columnas a un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en una vista existente</p> <p>Administrar permisos para agregar columnas a un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Agregar el campo Iconos de estado a una vista
 
@@ -94,29 +94,29 @@ Para agregar el campo Iconos de estado a una vista personalizada que cree desde 
    * Gastos
    * Documentos
    * Usuarios\
-     Solo estos objetos tienen el valor **Iconos de estado** campo disponible.\
-     Para obtener información sobre listas de objetos, consulte [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     Solo estos objetos tienen disponible el campo **Iconos de estado**.\
+     Para obtener información sobre las listas de objetos, consulte [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. Desde el **Ver** menú desplegable, seleccione **Nueva vista**.
+1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. Haga clic en **Añadir columna**.
-1. En el **Mostrar en esta columna** , empiece a escribir cualquiera de los siguientes nombres de campo y, a continuación, selecciónelo cuando aparezca en la lista:
+1. En el cuadro **Mostrar en esta columna**, empiece a escribir cualquiera de los siguientes nombres de campo y selecciónelo cuando aparezca en la lista:
 
    * *Iconos de estado*
-   * *Banderas*
+   * *Indicadores*
    * *Iconos de vista *(solo en vistas de documento).
 
    Los iconos integrados se enumeran con cualquiera de estos nombres.\
-   Una vista de plantilla contiene las variables **Iconos de estado** y el **Indicadores** campos. En este caso, las dos columnas contienen iconos idénticos.\
-   Las vistas de documento contienen un **Ver iconos** field.
+   Una vista de plantilla contiene los campos **Iconos de estado** y **Indicadores**. En este caso, las dos columnas contienen iconos idénticos.\
+   Las vistas de documento contienen un campo **Ver iconos**.
 
-1. Clic **Guardar vista**.
+1. Pulse **Guardar vista**.
 1. (Opcional) Especifique un nuevo nombre para la vista y haga clic en **Guardar vista**.\
-   Esto agrega el **Iconos de estado** a su Vista.
+   Esto agrega la columna **Iconos de estado** a la vista.
 1. (Opcional) Pase el ratón sobre un icono para comprender qué representa.
 1. (Opcional) Haga clic en un icono para ir al área del objeto que representa.\
    No todos los iconos son vínculos a objetos.\
-   Para obtener una lista completa de los atributos de cada icono, consulte la [Información general sobre los iconos y las marcas de estado](#overview-of-status-icons-and-flags) sección.
+   Para obtener una lista completa de los atributos de cada icono, consulte la sección [Información general sobre iconos y marcas de estado](#overview-of-status-icons-and-flags).
 
 ## Información general sobre los iconos y las marcas de estado {#overview-of-status-icons-and-flags}
 
@@ -142,7 +142,7 @@ Debe tener permisos de al menos Ver los objetos para poder hacer clic en algunos
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">o <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_issue.png" style="width: 29;height: 26;"> o <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> o <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>Indica que la condición del proyecto es En el destino (verde), Con problemas (rojo) o En riesgo (amarillo).<br>Para obtener información sobre las condiciones del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Descripción general de la condición y el tipo de condición del proyecto</a>.</td> 
+   <td>Indica que la condición del proyecto es En el destino (verde), Con problemas (rojo) o En riesgo (amarillo).<br>Para obtener información acerca de la condición del proyecto, vea <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Información general sobre la condición del proyecto y el tipo de condición</a>.</td> 
    <td>Proyectos</td> 
    <td>Haga clic en para abrir la lista de tareas del proyecto. </td> 
    <td> </td> 
@@ -150,14 +150,14 @@ Debe tener permisos de al menos Ver los objetos para poder hacer clic en algunos
   <tr> 
    <td> <img src="assets/notes-icon-44x34.png" alt="notes_icon.png" style="width: 44;height: 34;"> </td> 
    <td>Indica que el objeto tiene notas (actualizaciones) en la ficha Actualizaciones.</td> 
-   <td> <p>Proyectos<br>Tareas<br>Problemas<br>Plantillas<br>Tareas de plantilla</p> </td> 
+   <td> <p>Proyectos<br>Tareas<br>Problemas<br>Plantillas<br>Tareas de plantillas</p> </td> 
    <td> <p>Haga clic para abrir la pestaña Actualizaciones del objeto. </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/document-icon-35x42.png" alt="document_icon.png" style="width: 35;height: 42;">o <img src="assets/new-documents-icon-36x43.png" alt="new_documents_icon.png" style="width: 36;height: 43;"></td> 
    <td>Indica que el objeto tiene documentos adjuntos. </td> 
-   <td> Proyectos<br>Tareas<br>Problemas<br>Plantillas<br>Tareas de plantilla </td> 
+   <td> Proyectos<br>Tareas<br>Problemas<br>Plantillas<br>Tareas de plantillas </td> 
    <td>Haga clic para abrir la pestaña Documentos del objeto. </td> 
    <td> </td> 
   </tr> 
@@ -171,7 +171,7 @@ Debe tener permisos de al menos Ver los objetos para poder hacer clic en algunos
   <tr> 
    <td> <img src="assets/approval-icon-42x38.png" alt="approval_icon.png" style="width: 42;height: 38;"> o <img src="assets/new-approval-icon-33x35.png" alt="new_approval_icon.png" style="width: 33;height: 35;"></td> 
    <td>Indica que hay una aprobación en el objeto.</td> 
-   <td> Proyectos<br>Tareas<br>Problemas<br>Plantillas<br>Tareas de plantilla </td> 
+   <td> Proyectos<br>Tareas<br>Problemas<br>Plantillas<br>Tareas de plantillas </td> 
    <td>Haga clic en para abrir el objeto. </td> 
    <td> </td> 
   </tr> 
@@ -190,21 +190,21 @@ Debe tener permisos de al menos Ver los objetos para poder hacer clic en algunos
      <li>Retrasado (círculo rojo)</li> 
      <li>En riesgo (diamante azul)</li> 
      <li>Detrás (triángulo amarillo)</li> 
-    </ul> <p>Para obtener información sobre el estado de progreso de las tareas, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Resumen del estado de progreso de tareas</a>.</p> </td> 
+    </ul> <p>Para obtener información sobre el estado de progreso de las tareas, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Resumen del estado de progreso de la tarea</a>.</p> </td> 
    <td>Tareas</td> 
    <td>Haga clic en para abrir la tarea. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-critical-path-icon-36x35.png" alt="task_critical_path_icon.png" style="width: 36;height: 35;"> o <img src="assets/new-critical-path-icon-34x34.png" alt="new_critical_path_icon.png" style="width: 34;height: 34;"></td> 
-   <td>Indica que la tarea se encuentra actualmente en la ruta crítica. <br>Para obtener información sobre las tareas de una ruta crítica del proyecto, consulte <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Información general sobre la ruta crítica del proyecto</a>.</td> 
+   <td>Indica que la tarea se encuentra actualmente en la ruta crítica. <br>Para obtener información acerca de las tareas en una ruta crítica del proyecto, consulte <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Información general sobre la ruta crítica del proyecto</a>.</td> 
    <td>Tareas</td> 
    <td>Haga clic en para abrir la tarea.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>Indica que la tarea está asociada a un hito. El administrador del sistema puede personalizar el color del diamante en su entorno.<br>Para obtener información sobre los hitos, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Creación de una trayectoria del hito</a>.</td> 
+   <td>Indica que la tarea está asociada a un hito. El administrador del sistema puede personalizar el color del diamante en su entorno.<br>Para obtener información acerca de los hitos, vea <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Crear una ruta de hitos</a>.</td> 
    <td>Tareas</td> 
    <td>Haga clic en para abrir la tarea. </td> 
    <td> </td> 
@@ -218,7 +218,7 @@ Debe tener permisos de al menos Ver los objetos para poder hacer clic en algunos
   </tr> 
   <tr> 
    <td> <img src="assets/resolving-object-icon-43x45.png" alt="resolve_object_icon.png" style="width: 43;height: 45;"> </td> 
-   <td>Indica que hay un objeto de resolución que, en última instancia, resuelve el problema. En este caso, no puede completar el problema. Se completa cuando finaliza el objeto de resolución. <br>Para obtener información sobre la resolución de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</td> 
+   <td>Indica que hay un objeto de resolución que, en última instancia, resuelve el problema. En este caso, no puede completar el problema. Se completa cuando finaliza el objeto de resolución. <br>Para obtener información acerca de la resolución de objetos, vea <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</td> 
    <td>Problemas</td> 
    <td>Haga clic en para abrir el objeto de resolución del problema. </td> 
    <td> </td> 
@@ -274,21 +274,21 @@ Debe tener permisos de al menos Ver los objetos para poder hacer clic en algunos
   </tr> 
   <tr> 
    <td> <img src="assets/billable-expense-icon-44x45.png" alt="billable_cost_icon.png" style="width: 44;height: 45;"> </td> 
-   <td>Indica que un gasto es facturable.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos del proyecto </a>.</td> 
+   <td>Indica que un gasto es facturable.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos de proyecto </a>.</td> 
    <td>Gastos</td> 
    <td>No disponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="cost_reembolsable_icon.png" style="width: 44;height: 45;"> </td> 
-   <td> Indica que un gasto es reembolsable.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos del proyecto </a>.</td> 
+   <td> Indica que un gasto es reembolsable.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos de proyecto </a>.</td> 
    <td>Gastos</td> 
    <td>No disponible</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="reembolsed_cost_icon.png" style="width: 44;height: 43;"></td> 
-   <td> Indica que se ha reembolsado un gasto.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos del proyecto </a>.</td> 
+   <td> Indica que se ha reembolsado un gasto.<br>Para obtener información sobre los gastos, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Administrar gastos de proyecto </a>.</td> 
    <td>Gastos</td> 
    <td>No disponible</td> 
    <td> </td> 

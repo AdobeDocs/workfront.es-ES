@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general sobre la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Mejoras en el panel Configuración y en la capacidad de codificar por color los proyectos y sus tareas en el Distribuidor de cargas de trabajo
 
@@ -34,7 +34,7 @@ Para mejorar su experiencia al utilizar el Distribuidor de cargas de trabajo, he
 * Se ha rediseñado el panel Configuración para incluir las opciones que anteriormente se encontraban en la barra de herramientas. Esto mejora el uso del espacio en la barra de herramientas.
 * Se ha añadido la capacidad de personalizar el tema de color por proyecto. Al seleccionar para codificar por color por proyecto, cada proyecto y sus elementos de trabajo se muestran en el mismo color. Los colores son exclusivos de cada proyecto. Antes de esta mejora, solo se podía codificar por color por estado del proyecto.
 
-Para obtener más información, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información, consulte [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo
 
@@ -44,7 +44,7 @@ Antes de esta mejora, solo se podía asignar un usuario a un elemento de trabajo
 
 Las nuevas asignaciones masivas también incluyen nuevas funcionalidades de filtrado por proyecto y estado de tarea, además del nombre.
 
-Para obtener más información, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obtener más información, vea [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Anular moneda al administrar roles
 

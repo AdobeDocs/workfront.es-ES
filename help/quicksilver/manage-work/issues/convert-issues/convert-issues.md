@@ -19,14 +19,14 @@ ht-degree: 2%
 
 Si es necesario trabajar más para completar un problema después de enviarlo, puede convertir el problema en un proyecto o en una tarea.
 
-Para obtener información sobre cómo convertir problemas en tareas, consulte [Conversión de un problema en una tarea en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Para obtener información sobre cómo convertir problemas en tareas, consulte [Convertir un problema en una tarea en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-Para obtener información sobre la conversión de problemas en proyectos, consulte [Conversión de un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener información sobre cómo convertir problemas en proyectos, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Consideraciones al convertir problemas
 
 * Al convertir problemas en tareas o proyectos, la mayor parte de la información del problema se transfiere a la tarea o al proyecto, a menos que se especifique lo contrario en este artículo.
-* El administrador de Workfront o del grupo ya ha establecido las preferencias de qué sucede con un problema, su resolución y el acceso de su contacto principal cuando se convierte en un proyecto o una tarea, como se describe en [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* El administrador de Workfront o del grupo ya ha establecido las preferencias de qué sucede con un problema, su resolución y el acceso de su Contacto principal cuando se convierte en un proyecto o tarea, como se describe en [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront elimina todas las aprobaciones asociadas con problemas durante la conversión.
 * Workfront sobrescribe el objeto de resolución del problema al convertirlo en una tarea o un proyecto. La nueva tarea o problema se convierte en el nuevo objeto de resolución del problema después de la conversión.
 * Tenga en cuenta lo siguiente:
@@ -38,26 +38,26 @@ Para obtener información sobre la conversión de problemas en proyectos, consul
 
 * Al convertir un problema, los permisos de los problemas originales no se transfieren al objeto convertido (tarea o proyecto).
 
-* Al convertir un problema en un proyecto mediante una plantilla, la mayoría de la información de la plantilla se transfiere al nuevo proyecto. Sin embargo, parte de la información del problema también se puede transferir al nuevo proyecto. Para obtener más información, consulte la [Información general sobre los campos de proyecto al convertir un problema en un proyecto mediante una plantilla](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) de este artículo.
+* Al convertir un problema en un proyecto mediante una plantilla, la mayoría de la información de la plantilla se transfiere al nuevo proyecto. Sin embargo, parte de la información del problema también se puede transferir al nuevo proyecto. Para obtener más información, consulte la sección [Información general sobre los campos de proyecto al convertir un problema en un proyecto mediante una plantilla](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) en este artículo.
 * Al convertir un problema, no todos los documentos o su información se mueven al nuevo objeto al que se convierte el problema. Los siguientes elementos se incluyen al convertir un problema que tiene documentos o vínculos a documentos adjuntos:
 
    * Documento
    * Vínculos de documentos a servicios de terceros, como Google Drive o SharePoint.
    * Versiones
-   * Las pruebas se incluyen solo cuando la opción **Mantener el problema original y enlazar su solución a esta tarea** no está seleccionado.
+   * Las pruebas solo se incluyen cuando la opción **Conservar el problema original y enlazar su solución a esta tarea** no está seleccionada.
    * Las aprobaciones de documentos no se incluyen al convertir un problema que tiene documentos y vínculos a documentos adjuntos.
 
 * Si ha decidido mantener el problema en la conversión y tiene documentos adjuntos, el documento y sus versiones se copian en el proyecto o en la tarea. Las pruebas y las aprobaciones de documentos no se copian en el proyecto ni en la tarea.
 * Si decide no mantener el problema en la conversión y tiene documentos adjuntos, el documento, sus versiones y las pruebas se transfieren al proyecto o a la tarea. Las aprobaciones de documentos no se transferirán al proyecto o a la tarea.
 * Si tiene documentos y carpetas vinculados al problema original desde servicios de terceros, como Google Drive, independientemente de si mantiene el problema o no durante la conversión, esos vínculos se copiarán al nuevo objeto.
 * Los comentarios del problema también se copian en la tarea o el proyecto convertido a partir del problema, pero los usuarios etiquetados no se transferirán.
-* Si desea transferir información de formulario personalizada del problema al proyecto o tarea al que la está convirtiendo, asegúrese de tener un formulario personalizado de proyecto o tarea que incluya los mismos campos que desea transferir del problema. Para obtener más información, consulte [Transferir datos de formulario personalizados al convertir un objeto](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* Si desea transferir información de formulario personalizada del problema al proyecto o tarea al que la está convirtiendo, asegúrese de tener un formulario personalizado de proyecto o tarea que incluya los mismos campos que desea transferir del problema. Para obtener más información, vea [Transferir datos de formulario personalizados al convertir un objeto](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 ## Información general sobre los campos de proyecto al convertir un problema en un proyecto mediante una plantilla {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
 Al convertir un problema en un proyecto, puede convertirlo en un proyecto en blanco o utilizar una plantilla.
 
-Para obtener más información, consulte [Conversión de un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 Al utilizar una plantilla, algunos campos que se rellenan en la plantilla se transfieren al proyecto creado a partir del problema convertido. Otros campos se transfieren al proyecto desde el problema convertido.
 
@@ -73,7 +73,7 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
   </tr> 
   <tr> 
    <td>Estado</td> 
-   <td>Estado predeterminado seleccionado para el grupo en la plantilla. Si la plantilla no está asociada al grupo, el estado del proyecto se establece en el estado predeterminado establecido por el administrador de Workfront en el área Preferencias de proyecto de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</td> 
+   <td>Estado predeterminado seleccionado para el grupo en la plantilla. Si la plantilla no está asociada al grupo, el estado del proyecto se establece en el estado predeterminado establecido por el administrador de Workfront en el área Preferencias de proyecto de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto en todo el sistema</a>.</td> 
   </tr> 
   <tr> 
    <td>Prioridad</td> 
@@ -91,7 +91,7 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
   </tr> 
   <tr> 
    <td>Condición del proyecto</td> 
-   <td>Coincide con la preferencia predeterminada del sistema según lo determinado por el administrador de Workfront en el área de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Establecer una condición personalizada como predeterminada para los proyectos</a></td> 
+   <td>Coincide con la preferencia predeterminada del sistema según lo determinado por el administrador de Workfront en el área de Configuración. Para obtener más información, vea <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Establecer una condición personalizada como predeterminada para los proyectos</a></td> 
   </tr> 
   <tr> 
    <td>Programar desde</td> 
@@ -101,8 +101,8 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
    <td>Fechas del proyecto</td> 
    <td> 
     <ul> 
-     <li> <p><b>Fecha planificada de inicio</b>: El tiempo de trabajo más cercano basado en el tiempo de trabajo de la programación de plantilla debe preseleccionarse, según la zona horaria de la programación de la plantilla. Este campo está desactivado si el campo Programar desde está definido como Desde la finalización. </p> </li> 
-     <li> <p><b>Fecha planificada de finalización</b>: El tiempo de trabajo más cercano basado en el tiempo de trabajo de la programación de plantilla debe preseleccionarse, según la zona horaria de la programación de la plantilla. Este campo está desactivado si el campo Programar desde está establecido en Desde el inicio. </p> </li> 
+     <li> <p><b>Fecha planificada de inicio</b>: el horario laboral más cercano basado en el horario laboral de la plantilla debe preseleccionarse, de acuerdo con la zona horaria del horario de la plantilla. Este campo está desactivado si el campo Programar desde está definido como Desde la finalización. </p> </li> 
+     <li> <p><b>Fecha planificada de finalización</b>: el horario laboral más cercano basado en el horario laboral de la plantilla debe preseleccionarse, de acuerdo con la zona horaria del horario de la plantilla. Este campo está desactivado si el campo Programar desde está establecido en Desde el inicio. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
 
 ## Ver información del problema original de proyectos y tareas {#view-original-issue-information-on-projects-and-tasks}
 
-Puede ver la información original del problema en las listas y los informes de proyectos y tareas, o en el área Detalles del proyecto. Para obtener información sobre la creación de informes, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Puede ver la información original del problema en las listas y los informes de proyectos y tareas, o en el área Detalles del proyecto. Para obtener información sobre cómo generar informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 La siguiente tabla ilustra qué campos de problema son visibles desde los proyectos y tareas convertidos.
 

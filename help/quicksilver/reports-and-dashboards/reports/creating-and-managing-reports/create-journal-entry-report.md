@@ -19,7 +19,7 @@ El informe Entrada de cuaderno muestra las actualizaciones del sistema desde el 
 >[!TIP]
 >
 >El informe Entrada de cuaderno sólo contiene actualizaciones del sistema desde el área de Actualizaciones de objetos. Para informar sobre los comentarios que queden en el área de Actualizaciones, debe utilizar el informe Nota.\
->Para obtener más información sobre el informe Nota, consulte [Ver todas las actualizaciones en un informe de notas](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). DATADOM
+>Para obtener más información sobre el informe Nota, vea [Ver todas las actualizaciones en un informe Nota](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
 El informe Entrada de cuaderno puede mostrar:
 
@@ -70,7 +70,7 @@ Antes de realizar las acciones descritas en este artículo, debe asegurarse de l
 
   Para obtener información sobre cómo agregar campos de los que desea que Workfront realice un seguimiento, consulte [Configurar actualizaciones del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-* Los campos personalizados sobre los que desee informar tienen la configuración **Mostrar cambios de los campos en las fuentes de actualización** activado.
+* Cualquier campo personalizado del que desee informar tiene habilitada la configuración **Mostrar cambios de campo en las fuentes de actualización**.
 
   Para obtener información sobre cómo habilitar esta configuración para un campo personalizado, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
@@ -78,7 +78,7 @@ Antes de realizar las acciones descritas en este artículo, debe asegurarse de l
 
 Como el informe Entrada de cuaderno consulta las actualizaciones del sistema, puede devolver un número significativo de resultados. Por este motivo, le recomendamos que filtre a objetos específicos, como proyectos, programas, portafolios, grupos, etc., al crear el informe.
 
-Para obtener más información sobre los distintos tipos de objetos en Workfront, consulte [Explicación de los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener más información acerca de los distintos tipos de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ La vista predeterminada para este informe contiene las siguientes columnas:
  <tbody> 
   <tr> 
    <td><strong>Nombre de campo</strong> </td> 
-   <td> <p><span style="font-weight: normal;">Nombre del campo afectado. En función de cómo configure el informe, esta columna puede contener los campos Estado, ID de propietario, Nombre de tarea, Fecha planificada de finalización u otros.</span> </p> <p><span style="font-weight: normal;">Cuándo</span> <strong>DE</strong>:<span style="font-weight: normal;"> aparece en esta columna e indica que el campo mostrado es un campo personalizado.</span></p> </td> 
+   <td> <p><span style="font-weight: normal;">Nombre del campo afectado. Según la configuración del informe, esta columna puede contener los campos Estado, Identificador de propietario, Nombre de tarea, Fecha planificada de finalización u otros.</span> </p> <p><span style="font-weight: normal;">Cuando </span> <strong>DE</strong>:<span style="font-weight: normal;"> se muestra en esta columna, indica que el campo que se muestra es un campo personalizado.</span></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Cambiar tipo</strong> </td> 
+   <td><strong>Tipo de cambio</strong> </td> 
    <td> <p>El tipo de cambio realizado en el campo afectado. Según las reglas de filtro que configure y las acciones realizadas por los usuarios, puede aparecer lo siguiente en este campo:</p> 
     <ul> 
      <li> <p>Agregar</p> </li> 
@@ -113,7 +113,7 @@ La vista predeterminada para este informe contiene las siguientes columnas:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>ObjCode superior</strong> </td> 
+   <td><strong>Código de objeto superior</strong> </td> 
    <td> <p>El objeto principal más alto de la jerarquía.</p> </td> 
   </tr> 
   <tr> 
@@ -142,9 +142,9 @@ Para obtener información sobre cómo configurar las vistas, los filtros y las a
 </div>
 -->
 
-* [Ver qué cambios de estado se han producido](#see-what-status-changes-occurred)
+* [Ver qué cambios de estado se produjeron](#see-what-status-changes-occurred)
 * [Ver cuándo se eliminó una tarea o un problema](#see-when-a-task-or-issue-was-deleted)
-* [Ver cómo cambiaron los campos personalizados durante el ciclo de vida de un proyecto](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
+* [Vea cómo cambiaron los campos personalizados durante el ciclo de vida de un proyecto](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
 * [Ver cómo cambió la fecha planificada de finalización a lo largo del ciclo de vida de un proyecto](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
 * [Ver si ha cambiado el propietario de un proyecto](#see-if-the-owner-of-a-project-changed)
 
@@ -158,7 +158,7 @@ Puede configurar el informe Asientos para que muestre:
 * Quién cambió el estado
 * Cuando se produjo el cambio de estado
 
-Si desea ver el estado de un proyecto, también puede configurar el informe para que muestre esta misma información utilizando el proyecto **Condición** field.
+Si desea ver el estado de un proyecto, también puede configurar el informe para que muestre esta misma información usando el campo del proyecto **Condición**.
 
 Esta información se puede utilizar para ayudar con la auditoría y para ilustrar lo bien que usted y su organización están planificando.
 
@@ -169,16 +169,16 @@ Esta información se puede utilizar para ayudar con la auditoría y para ilustra
 >[!TIP]
 >
 >Si desea comparar la diferencia de días entre los cambios de condición, puede utilizar el análisis mejorado.\
->Para obtener más información sobre el análisis mejorado, consulte [Resumen de análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Para obtener más información acerca de los análisis mejorados, consulte [Descripción general de los análisis mejorados](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
-1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
+1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
-1. En el **Columnas (vista)** , añada las siguientes columnas:
+1. En la ficha **Columnas (Ver)**, agregue las siguientes columnas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -196,7 +196,7 @@ Esta información se puede utilizar para ayudar con la auditoría y para ilustra
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Cambiar tipo</p> </td> 
-      <td> <p>El tipo de cambio realizado en el campo afectado, como <strong>Añadir</strong>, <strong>Eliminar</strong>, o <strong>Editar</strong>.</p> </td> 
+      <td> <p>El tipo de cambio realizado en el campo afectado, como <strong>Agregar</strong>, <strong>Eliminar</strong> o <strong>Editar</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nombre</p> </td> 
@@ -211,12 +211,12 @@ Esta información se puede utilizar para ayudar con la auditoría y para ilustra
       <td> <p>La clave del estado anterior. Las siguientes son las claves de estado de los estados de proyecto predeterminados:</p> 
        <ul> 
         <li> <p> <strong>CUR</strong>: Actual</p> </li> 
-        <li> <p><strong>MUERTO</strong>: Inactivo</p> </li> 
+        <li> <p><strong>DED</strong>: Inactivo</p> </li> 
         <li> <p><strong>ONH</strong>: En espera</p> </li> 
         <li> <p><strong>PLN</strong>: Planificación</p> </li> 
-        <li> <p><strong>CPL</strong>: completo</p> </li> 
-        <li> <p><strong>REQ</strong>: Solicitado</p> </li> 
-        <li> <p><strong>ABR</strong>: aprobado</p> </li> 
+        <li> <p><strong>CPL</strong>: completado</p> </li> 
+        <li> <p><strong>REQ</strong>: solicitado</p> </li> 
+        <li> <p><strong>APR</strong>: aprobado</p> </li> 
         <li> <p><strong>REJ</strong>: rechazado</p> </li> 
         <li> <p><strong>IDA</strong>: idea</p> </li> 
        </ul> <p>Si su organización ha configurado estados personalizados, es posible que en esta columna aparezcan otras claves de estado. Para saber qué estado personalizado está relacionado con una clave de estado, póngase en contacto con el administrador de Workfront o del grupo.</p> </td> 
@@ -238,23 +238,23 @@ Esta información se puede utilizar para ayudar con la auditoría y para ilustra
       <td> <p>El nombre del problema que tuvo un cambio de estado.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nombre de tarea<br>(Opcional)</p> </td> 
+      <td> <p style="font-weight: bold;">Nombre de tarea <br>(opcional)</p> </td> 
       <td> <p>Nombre de la tarea cuyo estado ha cambiado.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obtener más información sobre cómo agregar columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** y luego agregue la regla de filtro **Nombre de campo** > **Igual** > **status**.
+1. En la ficha **Filtros**, haga clic en **Agregar regla de filtro**, luego agregue la regla de filtro **Nombre de campo** > **Igual** > **estado**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >Para informar sobre los cambios de condición, en su lugar puede agregar la regla de filtro **Nombre de campo** > **Igual** > **Condición**.
+   >Para informar sobre los cambios de condición, puede agregar la regla de filtro **Nombre de campo** > **Igual** > **Condición**.
 
-   Para obtener más información sobre cómo añadir filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obtener más información sobre cómo agregar filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) Para reducir el enfoque del informe y los tiempos de carga, añada un mensaje.
 
@@ -264,11 +264,11 @@ Esta información se puede utilizar para ayudar con la auditoría y para ilustra
 
    >[!IMPORTANT]
    >
-   >Creación de una regla de filtro que utilice el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos utilizar un modificador diferente como **Igual** cuando sea posible, para filtrar por un proyecto específico o ID de objeto de nivel superior.
+   >Crear una regla de filtro que use el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos usar un modificador diferente como **Equal** cuando sea posible para filtrar por un proyecto específico o un ID de objeto de nivel superior.
 
-   Para obtener información sobre cómo agregar un mensaje, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Para obtener información sobre cómo agregar una solicitud, vea [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. En el **Agrupaciones** pestaña, haga clic en **Aplicar agrupación existente**, luego seleccione **Proyecto**.
+1. En la ficha **Agrupaciones**, haga clic en **Aplicar una agrupación existente** y, a continuación, seleccione **Proyecto**.
 
    Para obtener más información sobre cómo agregar agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -285,14 +285,14 @@ Puede configurar el informe Asientos para que muestre:
 
 Para ver cuándo se eliminó una tarea o un problema:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
-1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
+1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
-1. En el **Columnas (vista)** , añada las siguientes columnas:
+1. En la ficha **Columnas (Ver)**, agregue las siguientes columnas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -310,7 +310,7 @@ Para ver cuándo se eliminó una tarea o un problema:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Cambiar tipo</p> </td> 
-      <td> <p>El tipo de cambio que se produjo. El <strong>Eliminar</strong> el cambio se muestra en esta columna.</p> </td> 
+      <td> <p>El tipo de cambio que se produjo. El cambio <strong>Delete</strong> se muestra en esta columna.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Fecha de entrada</p> </td> 
@@ -327,17 +327,17 @@ Para ver cuándo se eliminó una tarea o un problema:
     </tbody> 
    </table>
 
-   Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obtener más información sobre cómo agregar columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** A continuación, añada los siguientes filtros:
+1. En la ficha **Filtros**, haga clic en **Agregar regla de filtro** y, a continuación, agregue los siguientes filtros:
 
    * **Cambiar tipo** > **Igual** > **Eliminar**
-   * **Identificador de proyecto** > **Igual** > **`<project>`**
+   * **Id. de proyecto** > **Igual** > **`<project>`**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   Para obtener más información sobre cómo añadir filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obtener más información sobre cómo agregar filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) Para reducir el enfoque del informe y los tiempos de carga, añada un mensaje.
 
@@ -347,11 +347,11 @@ Para ver cuándo se eliminó una tarea o un problema:
 
    >[!IMPORTANT]
    >
-   >Creación de una regla de filtro que utilice el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos utilizar un modificador diferente como **Igual** cuando sea posible, para filtrar por un proyecto específico o ID de objeto de nivel superior.
+   >Crear una regla de filtro que use el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos usar un modificador diferente como **Equal** cuando sea posible para filtrar por un proyecto específico o un ID de objeto de nivel superior.
 
-   Para obtener información sobre cómo agregar un mensaje, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Para obtener información sobre cómo agregar una solicitud, vea [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Opcional) En el **Agrupaciones** pestaña, haga clic en **Aplicar agrupación existente**, luego seleccione **Proyecto**.
+1. (Opcional) En la ficha **Agrupaciones**, haga clic en **Aplicar una agrupación existente** y, a continuación, seleccione **Proyecto**.
 
    Para obtener más información sobre cómo agregar agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -369,14 +369,14 @@ Puede realizar un seguimiento de los cambios importantes en los campos a lo larg
 
 Para ver cómo han cambiado los campos personalizados durante el ciclo de vida de un proyecto:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
-1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
+1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
-1. En el **Columnas (vista)** , añada las siguientes columnas:
+1. En la ficha **Columnas (Ver)**, agregue las siguientes columnas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -390,11 +390,11 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nombre de campo</p> </td> 
-      <td> <p>Nombre del campo personalizado afectado.</p> <p><span style="font-weight: normal;">Cuándo</span> <strong>DE</strong>:<span style="font-weight: normal;"> aparece en esta columna e indica que el campo mostrado es un campo personalizado.</span></p> </td> 
+      <td> <p>Nombre del campo personalizado afectado.</p> <p><span style="font-weight: normal;">Cuando </span> <strong>DE</strong>:<span style="font-weight: normal;"> se muestra en esta columna, indica que el campo que se muestra es un campo personalizado.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Cambiar tipo</p> </td> 
-      <td> <p>El tipo de cambio realizado en el campo afectado, como <strong>Añadir</strong>, <strong>Eliminar</strong>, o <strong>Editar</strong>.</p> </td> 
+      <td> <p>El tipo de cambio realizado en el campo afectado, como <strong>Agregar</strong>, <strong>Eliminar</strong> o <strong>Editar</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nombre</p> </td> 
@@ -426,26 +426,26 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nuevo valor de texto</p> </td> 
-      <td> <p>El valor de texto actual en el campo personalizado.</p> <p>Si el campo personalizado es un campo de escritura anticipada, la variable <strong>Nuevo valor de texto</strong> muestra el ID de objeto.</p> </td> 
+      <td> <p>El valor de texto actual en el campo personalizado.</p> <p>Si el campo personalizado es un campo de escritura anticipada, la columna <strong>Nuevo valor de texto</strong> muestra el identificador de objeto.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obtener más información sobre cómo agregar columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** A continuación, añada los siguientes filtros:
+1. En la ficha **Filtros**, haga clic en **Agregar regla de filtro** y, a continuación, agregue los siguientes filtros:
 
-   * **Nombre del campo de entrada de diario** > **Contains** > **DE**
+   * **Nombre de campo de entrada de diario** > **Contiene** > **DE**
 
      >[!TIP]
      >
      >Para limitar este informe a campos personalizados específicos, agregue la regla de filtro **Nombre del campo de entrada de diario** > **Igual** > **`<custom field>`**.
 
-   * **Identificador de proyecto** > **Igual** > **`<project>`**
+   * **Id. de proyecto** > **Igual** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-   Para obtener más información sobre cómo añadir filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obtener más información sobre cómo agregar filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) Para reducir el enfoque del informe y los tiempos de carga, añada un mensaje.
 
@@ -455,11 +455,11 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 
    >[!IMPORTANT]
    >
-   >Creación de una regla de filtro que utilice el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos utilizar un modificador diferente como **Igual** cuando sea posible, para filtrar por un proyecto específico o ID de objeto de nivel superior.
+   >Crear una regla de filtro que use el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos usar un modificador diferente como **Equal** cuando sea posible para filtrar por un proyecto específico o un ID de objeto de nivel superior.
 
-   Para obtener información sobre cómo agregar un mensaje, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Para obtener información sobre cómo agregar una solicitud, vea [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. En el **Agrupaciones** pestaña, haga clic en **Aplicar agrupación existente**, luego seleccione **Proyecto**.
+1. En la ficha **Agrupaciones**, haga clic en **Aplicar una agrupación existente** y, a continuación, seleccione **Proyecto**.
 
    Para obtener más información sobre cómo agregar agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -471,14 +471,14 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 
 Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con la que cambia la fecha planificada de finalización a lo largo de la vida útil de un proyecto.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
-1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
+1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
-1. En el **Columnas (vista)** , añada las siguientes columnas:
+1. En la ficha **Columnas (Ver)**, agregue las siguientes columnas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -492,11 +492,11 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nombre de campo</p> </td> 
-      <td> <p>Nombre del campo afectado.</p> <p><span style="font-weight: normal;">Cuándo</span> <strong>DE</strong>:<span style="font-weight: normal;"> aparece en esta columna e indica que el campo mostrado es un campo personalizado.</span></p> </td> 
+      <td> <p>Nombre del campo afectado.</p> <p><span style="font-weight: normal;">Cuando </span> <strong>DE</strong>:<span style="font-weight: normal;"> se muestra en esta columna, indica que el campo que se muestra es un campo personalizado.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Cambiar tipo</p> </td> 
-      <td>El tipo de cambio que se produjo, como <strong>Añadir</strong>, <strong>Eliminar</strong>, o <strong>Editar</strong>.</td> 
+      <td>El tipo de cambio que se produjo, como <strong>Agregar</strong>, <strong>Eliminar</strong> o <strong>Editar</strong>.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nombre</p> </td> 
@@ -537,16 +537,16 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
     </tbody> 
    </table>
 
-   Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obtener más información sobre cómo agregar columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** y, a continuación, agregue lo siguiente:
+1. En la ficha **Filtros**, haga clic en **Agregar regla de filtro** y, a continuación, agregue lo siguiente:
 
    * **Nombre de campo** > **Igual** > **Fecha**
-   * **Identificador de proyecto** > **Igual** > **`<project>`**
+   * **Id. de proyecto** > **Igual** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   Para obtener más información sobre cómo añadir filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obtener más información sobre cómo agregar filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) Para reducir el enfoque del informe y los tiempos de carga, añada un mensaje.
 
@@ -556,11 +556,11 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
 
    >[!IMPORTANT]
    >
-   >Creación de una regla de filtro que utilice el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos utilizar un modificador diferente como **Igual** cuando sea posible, para filtrar por un proyecto específico o ID de objeto de nivel superior.
+   >Crear una regla de filtro que use el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos usar un modificador diferente como **Equal** cuando sea posible para filtrar por un proyecto específico o un ID de objeto de nivel superior.
 
-   Para obtener información sobre cómo agregar un mensaje, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Para obtener información sobre cómo agregar una solicitud, vea [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. En el **Agrupaciones** pestaña, haga clic en **Aplicar agrupación existente**, luego seleccione **Proyecto**.
+1. En la ficha **Agrupaciones**, haga clic en **Aplicar una agrupación existente** y, a continuación, seleccione **Proyecto**.
 
    Para obtener más información sobre cómo agregar agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -572,14 +572,14 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
 
 Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces cambia el propietario del proyecto (o el jefe de proyecto) a lo largo de la vida de un proyecto.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Informes**.
-1. Clic **Nuevo informe**, luego seleccione **Entrada de diario**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
+1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
-1. En el **Columnas (vista)** , añada las siguientes columnas:
+1. En la ficha **Columnas (Ver)**, agregue las siguientes columnas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -593,11 +593,11 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nombre de campo</p> </td> 
-      <td>Nombre del campo afectado. El <strong>ownerID</strong> se muestra en esta columna.</td> 
+      <td>Nombre del campo afectado. <strong>ownerID</strong> se muestra en esta columna.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Cambiar tipo</p> </td> 
-      <td> <p>El tipo de cambio que se produjo, como <strong>Añadir</strong>, <strong>Eliminar</strong>, o <strong>Editar</strong>.</p> </td> 
+      <td> <p>El tipo de cambio que se produjo, como <strong>Agregar</strong>, <strong>Eliminar</strong> o <strong>Editar</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Código de objeto superior</p> </td> 
@@ -626,16 +626,16 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
     </tbody> 
    </table>
 
-   Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obtener más información sobre cómo agregar columnas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En el **Filtros** pestaña, haga clic en **Agregar regla de filtro** y, a continuación, agregue lo siguiente:
+1. En la ficha **Filtros**, haga clic en **Agregar regla de filtro** y, a continuación, agregue lo siguiente:
 
    * **Nombre de campo** > **Igual** > **ownerID**
-   * **Identificador de proyecto** > **Igual** > **`<project name>`**
+   * **Id. de proyecto** > **Igual** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
-   Para obtener más información sobre cómo añadir filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obtener más información sobre cómo agregar filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) Para reducir el enfoque del informe y los tiempos de carga, añada un mensaje.
 
@@ -645,11 +645,11 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
 
    >[!IMPORTANT]
    >
-   >Creación de una regla de filtro que utilice el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos utilizar un modificador diferente como **Igual** cuando sea posible, para filtrar por un proyecto específico o ID de objeto de nivel superior.
+   >Crear una regla de filtro que use el modificador **Contains** puede aumentar los tiempos de carga. Por este motivo, recomendamos usar un modificador diferente como **Equal** cuando sea posible para filtrar por un proyecto específico o un ID de objeto de nivel superior.
 
-   Para obtener información sobre cómo agregar un mensaje, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Para obtener información sobre cómo agregar una solicitud, vea [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Opcional) En el **Agrupaciones** pestaña, haga clic en **Aplicar agrupación existente**, luego seleccione **Proyecto**.
+1. (Opcional) En la ficha **Agrupaciones**, haga clic en **Aplicar una agrupación existente** y, a continuación, seleccione **Proyecto**.
 
    Para obtener más información sobre cómo agregar agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 

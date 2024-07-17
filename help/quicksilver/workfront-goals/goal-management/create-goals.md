@@ -54,7 +54,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
 <tr>
 <td role="rowheader">Nivel de acceso</td>
@@ -65,7 +65,7 @@ Debe tener lo siguiente:
 <td>
 <p>Ver o permisos superiores a la meta para verla</p>
 <p>Administrar permisos para el objetivo y editarlo</p>
-<p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+<p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
 </td>
 </tr>
 <tr>
@@ -80,11 +80,11 @@ Debe tener lo siguiente:
 
 ## Directrices para crear objetivos
 
-Antes de empezar a usar los objetivos de Workfront, le recomendamos que lea nuestras prácticas recomendadas y directrices para administrar los objetivos de forma eficaz. Para obtener más información sobre las directrices para crear y administrar objetivos, consulte [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md).
+Antes de empezar a usar los objetivos de Workfront, le recomendamos que lea nuestras prácticas recomendadas y directrices para administrar los objetivos de forma eficaz. Para obtener más información acerca de las directrices para crear y administrar metas, vea [Información general sobre las metas de Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Crear metas
 
-En este artículo se describe cómo crear un objetivo estratégico en Workfront Goals. Para obtener información sobre cómo crear un objetivo de caso empresarial, consulte [Crear metas de caso comercial](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+En este artículo se describe cómo crear un objetivo estratégico en Workfront Goals. Para obtener información sobre cómo crear un objetivo de caso empresarial, consulte [Crear metas de caso empresarial](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 Puede crear un objetivo estratégico de una de las siguientes maneras:
 
@@ -171,48 +171,48 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Se muestra la lista de metas.
-1. Clic **Nueva meta**.
+1. Haga clic en **Nueva meta**.
 
    Se muestra el cuadro Nueva meta.
 
    ![](assets/new-goal-box-unshimmed.png)
 
 1. Introduzca información en los campos siguientes:
-   * **Nombre de meta**: introduzca un nombre para la meta. Este campo es obligatorio.
-   * **Periodo**: seleccione un trimestre o año predefinido de la **Periodo** campo desplegable
+   * **Nombre de meta**: escriba un nombre para la meta. Este campo es obligatorio.
+   * **Periodo**: seleccione un trimestre o año predefinido del campo desplegable **Periodo**
 
      O
 
-     Seleccione el **Habilitar fechas personalizadas** , luego seleccione una **Inicio** y **Fecha de finalización** para el objetivo.
+     Seleccione la opción **Habilitar fechas personalizadas** y, a continuación, seleccione **Fecha de inicio** y **Fecha de finalización** para la meta.
 
      Los años anteriores, actuales y siguientes y sus trimestres respectivos se muestran como opciones predefinidas en el campo desplegable Periodo.
 
      El Periodo de la meta indica el lapso de tiempo en el que espera que se complete la meta.
 
-   * **Propietario de meta**: Empiece a escribir el nombre de un usuario, un equipo, un grupo o de su organización para indicar quién es el propietario de la meta. De forma predeterminada, se le selecciona como propietario del objetivo.
-   * **Descripción**: introduzca información adicional sobre la meta.
-1. Clic **Crear meta**.
+   * **Propietario de la meta**: Empiece a escribir el nombre de un usuario, un equipo, un grupo o de su organización para indicar quién es el propietario de la meta. De forma predeterminada, se le selecciona como propietario del objetivo.
+   * **Descripción**: escribe información adicional sobre la meta.
+1. Haga clic en **Crear meta**.
 
-   La nueva meta se enumera en la lista Objetivo y tiene el estado de **Borrador**.
+   La nueva meta aparece en la lista de metas y tiene el estado **Borrador**.
 
    Debe asociar una meta con un indicador de progreso para activarlo y comenzar a trabajar en él.
 
    Realice al menos una de las siguientes acciones para preparar un objetivo que activar:
    * Añadir un resultado
 
-     Para obtener información sobre cómo añadir resultados, consulte [Añadir resultados a metas en Objetivos de Adobe Workfront](../results-and-activities/add-results-to-goals.md).
+     Para obtener información sobre cómo agregar resultados, consulte [Agregar resultados a metas en Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md).
    * Añadir una actividad
 
-     Para obtener información sobre cómo añadir actividades, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md).
+     Para obtener información sobre cómo agregar actividades, consulte [Agregar actividades a metas en Objetivos de Adobe Workfront](../results-and-activities/add-activities-to-goals.md).
    * Alinear otra meta con ella
 
-     Para obtener información sobre cómo alinear objetivos, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md).
+     Para obtener información acerca de cómo alinear metas, vea [Alinear metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md).
 
 
 ### Copiar una meta existente {#copy-an-existing-goal}
@@ -225,5 +225,5 @@ Para obtener información sobre cómo copiar metas, consulte [Copiar metas en Ad
 
 Puede crear una meta convirtiendo el resultado o la actividad de una meta existente en una meta. El nuevo objetivo se alinea con el objetivo original.
 
-Para obtener información sobre cómo convertir resultados y actividades en objetivos, consulte [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+Para obtener información acerca de cómo convertir resultados y actividades en metas, vea [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 

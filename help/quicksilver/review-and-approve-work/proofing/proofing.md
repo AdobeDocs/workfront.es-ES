@@ -24,8 +24,8 @@ Revise y comente en el mismo documento en el que trabajan los equipos creativos.
 Esta sección contiene las siguientes subsecciones:
 
 * [Resumen de revisión](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
-* [Creación de pruebas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
-* [Administración de pruebas en Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-* [Revisión de pruebas en Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+* [Crear pruebas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+* [Administrar revisiones en Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+* [Revisar pruebas en Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
 * [Uso del Visor de corrección de escritorio](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
 * [Sugerencias, trucos y solución de problemas para la revisión en Adobe Workfront](../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)

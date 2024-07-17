@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas con la versión del cuarto trimestre de 2023 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.10 de.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Resumen de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Información general de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Botón Delegar trabajo para widgets de proyecto, tarea y problema
 
@@ -34,25 +34,25 @@ Para obtener más información sobre los widgets disponibles en la nueva página
 
 La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato. En su primera visita a la página, también se darán instrucciones a los colaboradores para que utilicen la nueva página de inicio y los widgets específicos disponibles de forma predeterminada en un tutorial personalizado. Estos widgets predeterminados para los colaboradores son: Mis solicitudes, Menciones, Esperando mi aprobación y Tableros. Tenga en cuenta que si una cuenta de colaborador está utilizando un diseño con una página de inicio personalizada, seguirá siendo su página de inicio.
 
-Para obtener más información sobre el uso de la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener más información sobre cómo usar la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Cambios en el seguimiento de trabajo en la nueva página de inicio
 
 En función de los comentarios de los usuarios, hemos eliminado el filtro de intervalo de tiempo para toda la página y la barra de resumen que contabilizaba las tareas pendientes y completadas. Los widgets Proyecto, Tarea y Problema tienen funciones de filtrado integradas que le permiten personalizar su ámbito de manera individual. Además, estos widgets ahora solo incluirán contenido que esté activo actualmente en función del estado, lo que garantiza que el trabajo que rastrean siempre sea relevante. También hemos limitado qué widgets muestran burbujas de recuento de elementos a aquellos donde son más útiles: Mi trabajo, Menciones, Esperando mi aprobación y Tareas pendientes.
 
-Para obtener más información sobre el seguimiento del trabajo en la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener más información sobre el seguimiento del trabajo en la nueva página de inicio, vea [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Nuevos botones de acción rápida para el widget Mi trabajo
 
 Para ampliar aún más su capacidad de administrar el trabajo directamente desde la nueva página de inicio, se han agregado nuevos botones de acción rápida al widget Mi trabajo. Estos nuevos botones, que se encuentran en cada proyecto, tarea, problema o solicitud del widget, le permiten abrir rápidamente el panel de resumen, cargar archivos, editar formularios personalizados, crear una actualización y registrar tiempo sin salir de la nueva página de inicio, así como un botón más grande de Trabajar en ello/Listo.
 
-Para obtener más información sobre las funciones de los widgets en la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener más información sobre las capacidades de los widgets en la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Nuevas opciones de filtro para Nuevo inicio
 
 Ahora hay nuevas opciones de filtro disponibles para el widget Mi trabajo en Nueva página de inicio. Las opciones incluyen filtros para tipos de objeto (tareas, problemas y solicitudes) y estados (no listo, listo para iniciar, trabajando en y completado).
 
-Para obtener más información sobre el filtrado de contenido en la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener más información sobre cómo filtrar contenido en la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Compatibilidad con terminología personalizada para el nuevo inicio
 
@@ -70,4 +70,4 @@ Para obtener más información sobre los widgets disponibles en la nueva página
 
 El botón Probar nueva página de inicio ya no está presente en las cuentas en las que se ha deshabilitado la nueva página de inicio. El administrador del sistema debe volver a habilitar la nueva página de inicio para que los usuarios individuales puedan utilizar el botón para probar la nueva página de inicio.
 
-Para obtener más información sobre cómo activar o desactivar el Nuevo Inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener más información sobre cómo habilitar o deshabilitar la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

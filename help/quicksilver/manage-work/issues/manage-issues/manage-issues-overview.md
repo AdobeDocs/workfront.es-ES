@@ -28,5 +28,5 @@ Esta sección contiene los siguientes artículos:
 * [Copiar problemas](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [Mover problemas](../../../manage-work/issues/manage-issues/move-issues.md)
 * [Eliminar problemas](../../../manage-work/issues/manage-issues/delete-issues.md)
-* [Modificar asignaciones de usuarios para varios problemas de una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
+* [Modificar asignaciones de usuarios para varios problemas en una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Actualizar automáticamente los estados de los problemas de Esperando comentarios a En curso](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)

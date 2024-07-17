@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Puede agregar una vista personalizada en el área de Forms personalizado que muestre qué informes están usando un campo o widget personalizado en particular. Esto resulta útil cuando necesita editar o eliminar el campo o widget, porque es posible que ya esté implementado en uno o más informes. Es importante evaluar si esos informes necesitarán ajustes para seguir funcionando correctamente.
 
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recurso en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -51,27 +51,27 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Clic **Campos** para mostrar un informe con todos los campos personalizados y widgets de la instancia de Workfront.
+1. Haga clic en **Campos** para mostrar un informe con todos los campos y widgets personalizados de la instancia de Workfront.
 
-1. Haga clic en **Ver** menú y, a continuación, compruebe si hay vistas personalizadas en la lista que incluyan **Informes** (que no es una columna predeterminada en esta ficha).
+1. Haga clic en el menú **Ver** y, a continuación, compruebe si hay vistas personalizadas en la lista que incluyan la columna **Informes** (que no es una columna predeterminada en esta ficha).
 
-   En la columna Informes se puede ver qué informes utilizan cada campo personalizado y widget que se ha agregado a un formulario personalizado del sistema. Es posible que alguien ya haya creado una vista que incluya el **Informes** columna.
+   En la columna Informes se puede ver qué informes utilizan cada campo personalizado y widget que se ha agregado a un formulario personalizado del sistema. Es posible que alguien ya haya creado una vista que incluya la columna **Informes**.
 
-1. Si no ve una vista que incluya la variable **Informes** , cree una nueva vista que la incluya:
+1. Si no ve una vista que incluya la columna **Informes**, cree una nueva vista que la incluya:
 
-   1. Haga clic en **Ver** y haga clic en **Nueva vista**.
+   1. Haga clic en el menú **Ver** y, a continuación, haga clic en **Nueva vista**.
 
-   1. En el **Nueva vista** página que aparece, en el cuadro situado cerca de la esquina superior izquierda, reemplazar **Nueva vista de parámetros** con un nombre descriptivo para la vista, como *Campos y widgets*.
+   1. En la página **Nueva vista** que aparece, en el cuadro cerca de la esquina superior izquierda, reemplace **Nueva vista de parámetro** con un nombre descriptivo para la vista, como *Campos y widgets*.
 
-   1. Clic **Agregar columna** cerca de la esquina inferior derecha.
-   1. En el **Mostrar en esta columna** que aparece cerca de la esquina superior izquierda, empiece a escribir *informe*, luego seleccione **Informes** cuando aparece en la lista debajo del cuadro.
+   1. Haga clic en **Agregar columna** cerca de la esquina inferior derecha.
+   1. En el cuadro **Mostrar en esta columna** que aparece cerca de la esquina superior izquierda, empiece a escribir *informe* y, a continuación, seleccione **Informes** cuando aparezca en la lista debajo del cuadro.
 
-   1. (Condicional) Si desea mover la variable **Informes** columna que acaba de añadir a una posición horizontal diferente, arrastre su encabezado a la **Previsualización de columna** en la parte inferior de la página.
+   1. (Condicional) Si desea mover la columna **Informes** que acaba de agregar a una posición horizontal diferente, arrastre su encabezado al área **Vista previa de columna** en la parte inferior de la página.
 
-   1. Clic **Listo**, luego haga clic en **Guardar vista**.
+   1. Haz clic en **Listo** y luego haz clic en **Guardar vista**.
 
-1. Haga clic en **Ver** menú desplegable y, a continuación, seleccione el nombre de la vista personalizada que acaba de crear.
-1. En el **Nombre** , busque el campo personalizado o widget que desea editar o eliminar y, a continuación, observe la columna **Informes** en esa fila para ver qué informes la utilizan, si los hay.
+1. Haga clic en el menú desplegable **Vista** y, a continuación, seleccione el nombre de la vista personalizada que acaba de crear.
+1. En la columna **Nombre**, busque el campo o widget personalizado que planea editar o eliminar y, a continuación, observe la columna **Informes** de esa fila para ver qué informes lo utilizan, si los hay.
 
    Para encontrar la información de esta columna, Workfront busca los campos y widgets personalizados en todos los filtros, vistas y agrupaciones de informes.
 
@@ -88,9 +88,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    >Esta vista también está disponible en el informe Parámetro:
    >      
    > 1. En el menú principal, haga clic en **Informes**.
-   > 1. Cerca de la esquina superior izquierda, haga clic en **Nuevo informe**, luego haga clic en **Parámetro** en la lista que se muestra.
-   > 1. Clic **Agregar columna** cerca de la esquina inferior derecha.
-   > 1. En el **Mostrar en esta columna** que aparece cerca de la esquina superior izquierda, empiece a escribir *informe*, luego seleccione **Informes** cuando aparece en la lista debajo del cuadro.
-   > 1. (Condicional) Si desea mover la variable **Informes** columna que acaba de añadir a una posición horizontal diferente, arrastre su encabezado a la **Previsualización de columna** en la parte inferior de la página.
-   > 1. Clic **Listo**, luego haga clic en **Guardar + Cerrar**.
-   > 1. Escriba un nombre descriptivo para el informe, como *Campos y widgets*.
+   > 1. Cerca de la esquina superior izquierda, haga clic en **Nuevo informe** y, a continuación, haga clic en **Parámetro** en la lista que se muestra.
+   > 1. Haga clic en **Agregar columna** cerca de la esquina inferior derecha.
+   > 1. En el cuadro **Mostrar en esta columna** que aparece cerca de la esquina superior izquierda, empiece a escribir *informe* y, a continuación, seleccione **Informes** cuando aparezca en la lista debajo del cuadro.
+   > 1. (Condicional) Si desea mover la columna **Informes** que acaba de agregar a una posición horizontal diferente, arrastre su encabezado al área **Vista previa de columna** en la parte inferior de la página.
+   > 1. Haga clic en **Listo** y luego haga clic en **Guardar+Cerrar**.
+   > 1. Escriba un nombre descriptivo para el informe, tal como *Campos y widgets*.

@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >El representante de cuentas le informará si forma parte de esta fase.
 >
->Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+>Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 >En algunos casos, la documentación a la que se hace referencia en las secciones siguientes puede estar disponible después de que las funciones documentadas se publiquen en el entorno de producción.
 
@@ -61,7 +61,7 @@ Vista previa: por determinar
 
 Hemos cambiado los tipos de usuarios que pueden crear vistas. Ahora, solo los usuarios con licencia Standard o Plan pueden crear vistas. Todos los demás usuarios tienen acceso de solo vista a las vistas que se comparten con ellos. Antes de esta actualización, los usuarios con licencia Light y Worker podían crear vistas.
 
-Para obtener más información, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Para obtener más información, consulte [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ### Ordenar y agrupar registros por campos de búsqueda con varios valores
 
@@ -115,7 +115,7 @@ Vista previa: por determinar
 
 Para mejorar y acelerar su experiencia en la vista de tabla de registros, hemos añadido la capacidad de agregar un nuevo campo entre dos columnas, insertándolo a la derecha o a la izquierda de uno existente.
 
-Para obtener más información, consulte [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Semana del 17 de junio de 2024
 
@@ -127,7 +127,7 @@ Vista previa: por determinar
 
 Hemos actualizado el aspecto de la página Detalles de registros. Como parte de esta actualización, se han eliminado los iconos de campo.
 
-Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ### Plantillas de Workspace actualizadas
 
@@ -149,9 +149,9 @@ Esta actualización incluye las siguientes mejoras:
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Lista de plantillas de Workspace](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md)
 
-* [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md)
+* [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md)
 
 ### Nueva experiencia al agregar una miniatura o una imagen de portada a un registro
 
@@ -171,7 +171,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 * [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
-* [Añadir una miniatura en un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+* [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ### Actualizar el título del registro en la página Detalles
 
@@ -185,7 +185,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
 
-* [Edición de registros](/help/quicksilver/planning/records/edit-records.md)
+* [Editar registros](/help/quicksilver/planning/records/edit-records.md)
 
 ### Adición del vínculo &quot;Mostrar más/Mostrar menos&quot; en los campos de registro conectados
 
@@ -205,7 +205,7 @@ Vista previa: por determinar
 
 Cuando se crea una conexión entre dos registros o entre un registro y un objeto de otra aplicación, el campo Nombre de la conexión se rellena automáticamente con el nombre del registro conectado. Antes de esta mejora, tenía que agregar manualmente un Nombre para el campo de conexión.
 
-Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Definir cómo se muestran los registros conectados en los campos conectados
 
@@ -219,7 +219,7 @@ El título de un registro es el nombre del registro o cualquier campo que esté 
 
 Esta mejora está disponible para registros conectados desde Workfront Planning y para recursos conectados desde Adobe Experience Manager.
 
-Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Solo los usuarios con licencia Standard o Plan pueden tener permisos de administración en los espacios de trabajo (título)
 
@@ -229,7 +229,7 @@ Vista previa: por determinar
 
 Hemos cambiado los tipos de usuarios que pueden tener acceso completo a los espacios de trabajo. Ahora, solo los usuarios con licencia Estándar o Planificar pueden tener permisos de Administración en los espacios de trabajo. El acceso a los tipos de registro, registros y campos se hereda de un espacio de trabajo. Todos los demás usuarios tienen acceso de solo vista a los espacios de trabajo y sus tipos de objetos. Antes de esta actualización, los usuarios con licencia Light y Worker podían recibir permisos de Contribute para los espacios de trabajo.
 
-Para obtener más información, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Para obtener más información, consulte [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Semana del 10 de junio de 2024
 
@@ -251,7 +251,7 @@ Ahora puede hacer referencia a campos que están hasta 4 niveles fuera del regis
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Creación de campos](/help/quicksilver/planning/fields/create-fields.md)
+* [Crear campos](/help/quicksilver/planning/fields/create-fields.md)
 
 * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
 
@@ -279,7 +279,7 @@ Parte de la información de la página de aterrizaje incluye lo siguiente:
 
 * Tutorial de introducción para Workfront Planning
 
-Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nueva experiencia de incorporación para Workfront Planning
 
@@ -309,7 +309,7 @@ El operador UNIQUE está disponible para todos los tipos de campo excepto para l
 * Personas
 * Campo de casilla
 
-Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Compartir vistas con todos los miembros de un área de trabajo de forma predeterminada
 
@@ -327,7 +327,7 @@ Producción: 30 de mayo de 2024
 
 Vista previa: por determinar
 
-Hemos actualizado el aspecto del icono del área de planificación en el menú principal. Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Hemos actualizado el aspecto del icono del área de planificación en el menú principal. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Cambio del nombre del programa de Workfront Planning
 
@@ -357,7 +357,7 @@ Vista previa: por determinar
 
 Ahora puede establecer las Fechas de inicio y finalización de la vista de escala de tiempo en un campo de búsqueda a partir de un registro conectado o un tipo de objeto.
 
-Para obtener más información sobre la creación de vistas, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+Para obtener más información sobre cómo crear vistas, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Semana del 20 de mayo de 2024
 
@@ -399,7 +399,7 @@ Vista previa: por determinar
 
 Hemos añadido el botón &quot;Nuevo registro&quot; en el encabezado de una página de tipo de registro. Ahora puede crear registros desde cualquier vista. Antes de esta mejora, sólo se podían crear registros desde la vista de tabla.
 
-Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
+Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
 
 ### Nueva advertencia sobre la visibilidad de los objetos al conectar registros
@@ -412,7 +412,7 @@ Al crear conexiones a tipos de objeto fuera de Workfront Planning, ahora se le n
 
 Por ejemplo, si vincula proyectos de campañas de Workfront Planning, todas las personas con acceso a Ver la campaña también tendrán acceso para ver los proyectos vinculados y la información de sus campos de búsqueda, incluso cuando no tengan permisos para los proyectos vinculados o acceso a proyectos en general. Puede obtener acceso a los registros de Planning cuando reciba permisos para espacios de trabajo.
 
-Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Agregar secciones a las páginas de vista previa y detalles del registro
 
@@ -422,7 +422,7 @@ Vista previa: por determinar
 
 Para organizar mejor la información en la página del registro para una legibilidad y navegación más eficientes, hemos introducido secciones en la página del registro. Los títulos de las secciones sirven como encabezados que organizan los campos en distintas categorías. Las secciones son totalmente personalizables y se pueden expandir o contraer, si es necesario.
 
-Para obtener más información, consulte [Administrar el diseño de página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Actualizaciones en tiempo real de los cambios de configuración de los campos
 
@@ -456,7 +456,7 @@ Hemos actualizado el aspecto de las tarjetas de tipo de registro al verlas en es
 
 * Adición de la descripción del tipo de registro
 
-Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ### Habilitar notificaciones de Workfront Planning para clientes de experiencia unificada de Adobe
 
@@ -464,9 +464,9 @@ Producción: 8 de mayo de 2024
 
 Vista previa: pendiente de determinación
 
-Si es un cliente de Adobe de experiencia unificada y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Si es un cliente de Adobe de experiencia unificada y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
-Para obtener más información sobre las notificaciones de planificación de Workfront, consulte [Notificaciones de Adobe Workfront Planning: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
+Para obtener más información acerca de las notificaciones de planificación de Workfront, vea [Notificaciones de planificación de Adobe Workfront: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
 
 
 ## Semana del 29 de abril de 2029
@@ -479,7 +479,7 @@ Vista previa: por determinar
 
 Cuando un usuario actualiza la información de un registro en la vista de tabla, otros usuarios pueden ver la información actualizada en el cuadro de detalles del registro (dentro de una vista) o en la página en tiempo real. Esto garantiza que todos los usuarios vean la información actualizada al mismo tiempo, en sincronización con el momento en que se producen los cambios.
 
-Para obtener información sobre cómo editar registros, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener información sobre cómo editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ### Actualizaciones en tiempo real en la vista de calendario después de editar registros
 
@@ -519,7 +519,7 @@ Ahora puede copiar el contenido de una celda en la vista de tabla y pegarlo en v
 
 Esta funcionalidad es compatible con todos los tipos de campo excepto para los campos calculados.
 
-Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ## Semana del 1 de abril de 2024
 
@@ -531,7 +531,7 @@ Vista previa: por determinar
 
 Como administrador de Workspace, ahora puede reordenar los campos enumerados en la página de registro o en la vista previa. Al actualizar el orden de los campos, cambia el orden de los campos en todos los registros del mismo tipo, para todos los que ven la página de registros o la vista previa de registros.
 
-Para obtener más información, consulte [Administrar el diseño de página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Agregar imagen de portada a las páginas de registro
@@ -542,7 +542,7 @@ Vista previa: por determinar
 
 A medida que administra páginas de registro, ahora puede agregar, cambiar la posición y reemplazar una imagen de portada en una página de registro o vista previa para enriquecer la presentación del registro y la participación de las partes interesadas. Las imágenes de portada son visibles para todos los usuarios que ven los registros.
 
-Para obtener más información, consulte [Administrar el diseño de página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Semana del 25 de marzo de 2024
 
@@ -560,7 +560,7 @@ Para crear eficiencia al configurar espacios de trabajo, hemos modificado la for
 
 * Mueva de forma dinámica tipos de registros dentro de un espacio de trabajo arrastrándolos y soltándolos donde deban estar, incluso en diferentes secciones.
 
-Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Para obtener más información, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ### Duplicar vistas
 
@@ -582,7 +582,7 @@ Vista previa: por determinar
 
 Hemos cambiado el nombre del área Maestro en el menú principal a Planificación.
 
-Para obtener una descripción general de Adobe Workfront Planning, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener una descripción general de Adobe Workfront Planning, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nueva experiencia al eliminar un tipo de registro
 
@@ -592,7 +592,7 @@ Vista previa: por determinar
 
 Hemos rediseñado el cuadro de confirmación al eliminar un tipo de registro. La eliminación de un tipo de registro es impactante, ya que también elimina todos los registros, sus campos, la información de los campos, así como las vistas asociadas con el tipo de registro. Los tipos de registros eliminados y su información eliminada no se pueden recuperar.
 
-Por este motivo, queremos asegurarnos de que la intención del usuario sea precisa al eliminar un tipo de registro, por lo que hemos introducido un paso adicional para confirmar la eliminación. Para obtener más información, consulte [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
+Por este motivo, queremos asegurarnos de que la intención del usuario sea precisa al eliminar un tipo de registro, por lo que hemos introducido un paso adicional para confirmar la eliminación. Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 ## Semana del 18 de marzo de 2024
 
@@ -614,7 +614,7 @@ Ahora puede acceder a la vista previa con detalles de registro desde las vistas 
 
 Desde la vista previa del registro, puede abrir la página del registro en una nueva pestaña del explorador.
 
-Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ### La importación de Excel del tipo de registro está desactivada temporalmente
 
@@ -640,7 +640,7 @@ Para facilitar la visualización de información adicional sobre los registros a
 
 * Un vínculo para abrir la página del registro
 
-Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ### Nuevo diseño con pestañas para vistas de registros
 
@@ -656,14 +656,15 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
 ### Diseño dinámico de una vista de registros
 
-Producción: 14 de marzo de 2024 Vista previa: Por determinar
+Producción: 14 de marzo de 2024
+Vista previa: por determinar
 
 Hemos actualizado el aspecto de las vistas en la página de tipo de registro. Las nuevas vistas responden de forma dinámica y se ajustan rápidamente al tamaño de la pantalla. Las etiquetas de opciones de la barra de herramientas están ocultas en pantallas más pequeñas para facilitar su uso.
 
 Para obtener más información, consulte los siguientes artículos:
 
 * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+* [Administrar vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Permitir que los administradores del sistema administren todas las vistas compartidas
 
@@ -694,7 +695,7 @@ Vista previa: por determinar
 
 Ahora se muestra la etiqueta &quot;Admin&quot; junto al nombre del administrador del sistema en el cuadro de diálogo de uso compartido al compartir una vista o un espacio de trabajo.
 
-Para obtener más información, consulte [Información general sobre permisos de uso compartido](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obtener más información, vea [Información general sobre los permisos de uso compartido](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Página no autorizada al compartir una vista sin permisos
 
@@ -724,7 +725,7 @@ Puede actualizar el alto de fila a uno de los siguientes tamaños:
 * Media
 * Alto.
 
-Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ### Nueva vista de calendario para registros
 
@@ -748,7 +749,7 @@ Ahora puede filtrar, ordenar y agrupar por registros conectados o sus campos de 
 
 No puede filtrar, ordenar ni agrupar por campos de búsqueda que permitan conexiones con varios registros.
 
-Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md) y [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md) y [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del 5 de febrero de 2024
 
@@ -768,9 +769,9 @@ Los siguientes son los niveles más altos de permisos que los usuarios pueden re
 
 * Los usuarios con una licencia de revisión o solicitante (o colaborador, en el nuevo modelo de licencia) solo pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro y registros de dichos espacios de trabajo. No pueden crear, editar ni eliminar tipos de registros o registros.
 
-Para obtener más información sobre el nuevo modelo de licencia, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener información acerca del nuevo modelo de licencia, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Para obtener información acerca de la conexión entre el tipo de licencia y los permisos en las funciones de Planning, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Nueva apariencia de la barra de herramientas Texto enriquecido para campos de registro
@@ -781,7 +782,7 @@ Vista previa: por determinar
 
 Hemos actualizado el aspecto de la barra de herramientas Texto enriquecido al editar un campo de tipo Párrafo.
 
-Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ### Experiencia mejorada al editar los campos Selección única, Selección múltiple, Personas y al añadir objetos conectados
 
@@ -834,7 +835,7 @@ Vista previa: por determinar
 
 Ahora puede agregar miniaturas individuales a cada registro para distinguirlas en una vista. En la vista de tabla, puede agregar como miniaturas archivos de imagen guardados anteriormente en el equipo. Las miniaturas pueden ser únicas para cada registro y mostrarse tanto en la tabla como en las vistas de cronología de la página de tipo de registro.
 
-Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+Para obtener más información, vea [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ### Quitar tarjetas de tipo de registro conectadas
 
@@ -866,7 +867,7 @@ La siguiente información se registra en la nueva sección Historial:
 
 * Una marca de fecha y hora de cuándo se produjo el cambio.
 
-Para obtener más información, consulte [Resumen de la sección Historial](/help/quicksilver/planning/records/history-section-overview.md).
+Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).
 
 ### Nueva etiqueta para nuevo vínculo de registro
 
@@ -874,7 +875,7 @@ Producción: 25 de enero de 2024
 
 Vista previa: por determinar
 
-Para crear coherencia al crear registros, se ha vuelto a etiquetar el vínculo + Nuevo para crear registros como &quot;+ Nuevo registro&quot;.  Antes de esta actualización, el vínculo contenía el nombre del tipo de registro. El nuevo vínculo ya está disponible al crear registros operativos y de taxonomía. Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
+Para crear coherencia al crear registros, se ha vuelto a etiquetar el vínculo + Nuevo para crear registros como &quot;+ Nuevo registro&quot;.  Antes de esta actualización, el vínculo contenía el nombre del tipo de registro. El nuevo vínculo ya está disponible al crear registros operativos y de taxonomía. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
 ## Semana del 8 de enero de 2024
 
@@ -909,7 +910,7 @@ A continuación se indican los niveles de permisos para las vistas de registros:
 * Vista: Los usuarios pueden seleccionar la vista en el menú desplegable Ver de una página de tipo de registro.
 * Administrar: los usuarios pueden editar, compartir y eliminar la vista.
 
-Para obtener más información, consulte [Acceso a información general](/help/quicksilver/planning/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las funciones de Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obtener más información, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las funciones de Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nuevo tipo de campo Fórmula
 
@@ -923,7 +924,7 @@ Los campos de fórmula generan un nuevo valor utilizando valores existentes de o
 
 No se pueden utilizar campos de búsqueda de tipos de registros vinculados en un cálculo de fórmula. Esta funcionalidad estará disponible más adelante.
 
-Para obtener más información, consulte [Información general sobre campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
+Para obtener más información, vea [Información general sobre los campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
 
 ### Acciones Deshacer/ Rehacer al administrar registros en la vista de tabla
 
@@ -945,10 +946,10 @@ Puede utilizar las siguientes pulsaciones de teclas para deshacer o rehacer acci
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Edición de registros](/help/quicksilver/planning/records/edit-records.md)
+* [Editar registros](/help/quicksilver/planning/records/edit-records.md)
 
-* [Eliminación de registros](/help/quicksilver/planning/records/delete-records.md)
+* [Eliminar registros](/help/quicksilver/planning/records/delete-records.md)
 
-* [Creación de registros](/help/quicksilver/planning/records/create-records.md)
+* [Crear registros](/help/quicksilver/planning/records/create-records.md)
 
 

@@ -21,7 +21,7 @@ Puede crear, editar y asignar perfiles de hojas de horas que generen hojas de ho
 * Aprobadores
 * Tipos de horas generales
 
-Para obtener más información sobre cómo crear una plantilla de horas manualmente, consulte [Crear hoja de horas de un solo uso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Para obtener más información sobre cómo crear manualmente una hoja de horas, consulte [Crear una hoja de horas de un solo uso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 ## Requisitos de acceso
 
@@ -66,7 +66,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 >[!IMPORTANT]
 >
->Para habilitar los cambios de perfil de hoja de horas en las hojas de horas actuales, debe eliminar las hojas de horas existentes y luego generar otras nuevas. Para obtener instrucciones, consulte [Eliminación de plantillas de horas en Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) y [Generar manualmente hojas de horas](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Para habilitar los cambios de perfil de hoja de horas en las hojas de horas actuales, debe eliminar las hojas de horas existentes y luego generar otras nuevas. Para obtener instrucciones, consulte [Eliminar hojas de horas en Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) y [Generar manualmente hojas de horas](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
@@ -74,19 +74,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    O
 
-   Si está creando o editando un perfil de plantilla de horas para un grupo, haga clic en **Grupos** y, a continuación, haga clic en el nombre del grupo.
+   Si está creando o editando un perfil de hoja de horas para un grupo, haga clic en **Grupos** y, a continuación, haga clic en el nombre del grupo.
 
-1. Clic **Perfiles de hoja de horas**.
-1. Para crear un nuevo perfil de hoja de horas, haga clic en **Nuevo perfil**.
+1. Haga clic en **Perfiles de hojas de horas**.
+1. Para crear un nuevo perfil de hoja de horas, haz clic en **Nuevo perfil**.
 
    O
 
-   Para editar un perfil de plantilla de horas existente, seleccione el perfil de plantilla de horas que desee editar y haga clic en **Editar**.
+   Para editar un perfil de hoja de horas existente, selecciona el perfil de hoja de horas que deseas editar y luego haz clic en **Editar**.
 
    Se muestra el perfil de hoja de horas nuevo o existente.
 
 
-1. En el **Establecer detalles** pestaña, escriba un **Nombre** y **Descripción** para el perfil de la plantilla de horas y proporcione la siguiente información:
+1. En la ficha **Establecer detalles**, escriba un **Nombre** y **Descripción** para el perfil de hoja de horas y proporcione la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,7 +101,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      <ul> 
       <li> <p>Si está creando un perfil de hoja de horas para un grupo que administra, identifique el grupo aquí.</p> <p>Esto no asigna el perfil de plantilla de horas a los usuarios del grupo; solo permite a los administradores del grupo modificar el perfil de plantilla de horas. Asignará el perfil a los usuarios en el paso 6.</p>
 
-   <p><b>NOTA</b>: Cuando los usuarios fuera del grupo adjuntan perfiles de plantilla de horas a otros usuarios, no podrán ver ni adjuntar este perfil de plantilla de horas.</p> </li> 
+   <p><b>NOTA</b>: Cuando los usuarios fuera del grupo están adjuntando perfiles de hojas de horas a otros usuarios, no podrán ver ni adjuntar este perfil de hojas de horas.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -110,38 +110,38 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <p>Una hoja de horas semanal comienza en la fecha en que se genera. Por ejemplo, si crea hojas de horas semanales todos los jueves, el primer día de la semana en la hoja de horas es el jueves.</p>
 
 
-   <p><b>NOTA</b>: Workfront siempre crea dos plantillas de horas a la vez: la primera incluye siempre la fecha actual y la segunda comienza cuando termina el lapso de tiempo de la primera.</p> </p> </td> 
+   <p><b>NOTA</b>: Workfront siempre crea dos hojas de horas a la vez: la primera hoja de horas siempre incluye la fecha actual y la segunda hoja de horas comienza cuando finaliza el lapso de tiempo de la primera.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Aprobadores</strong></p> </td> 
-      <td> <p> <p>Los aprobadores son usuarios que aprueban la hoja de horas de los usuarios asociados con ella. Puede identificar hasta 7 usuarios como aprobadores en una hoja de horas. La identificación de varios usuarios resulta útil para garantizar que un aprobador esté disponible cuando alguien esté fuera de la oficina. Se notifica a todos los aprobadores cuando un usuario envía la plantilla de horas para su aprobación. Solo se requiere un usuario para aprobar la plantilla de horas.</p> <p>Solo los usuarios con derechos administrativos de hoja de horas pueden establecerse como aprobadores. Para obtener más información sobre los derechos administrativos de plantillas de horas, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> <p>Utilice el menú desplegable para seleccionar el aprobador de la plantilla de horas (si se requiere un aprobador). Puede seleccionar las siguientes opciones:</p> 
+      <td> <p> <p>Los aprobadores son usuarios que aprueban la hoja de horas de los usuarios asociados con ella. Puede identificar hasta 7 usuarios como aprobadores en una hoja de horas. La identificación de varios usuarios resulta útil para garantizar que un aprobador esté disponible cuando alguien esté fuera de la oficina. Se notifica a todos los aprobadores cuando un usuario envía la plantilla de horas para su aprobación. Solo se requiere un usuario para aprobar la plantilla de horas.</p> <p>Solo los usuarios con derechos administrativos de hoja de horas pueden establecerse como aprobadores. Para obtener más información sobre los derechos administrativos de la hoja de horas, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acceso administrativo a los usuarios a ciertas áreas</a>.</p> <p>Utilice el menú desplegable para seleccionar el aprobador de la plantilla de horas (si se requiere un aprobador). Puede seleccionar las siguientes opciones:</p> 
       <ul> 
-      <li><strong>Ninguno</strong>: no es necesario aprobar la plantilla de horas.</li> 
-      <li><strong>Su responsable</strong>: Es el aprobador predeterminado, establecido por el sistema. En este caso, el usuario designado como su responsable aprueba la plantilla de horas cuando se envía para su aprobación.</li> 
-      <li><strong>Personas específicas:</strong> Puede designar a usuarios concretos, por su nombre, como aprobadores de plantillas de horas. Puede tener varios aprobadores en una hoja de horas. En este caso, una vez que uno de los aprobadores aprueba la plantilla de horas, esta se marca como <strong>Cerrado</strong> y desaparece de la lista de aprobaciones de hojas de horas de todos los aprobadores restantes.</li> 
+      <li><strong>Ninguno</strong>: no es necesario aprobar la hoja de horas.</li> 
+      <li><strong>Su administrador</strong>: Este es el aprobador predeterminado, establecido por el sistema. En este caso, el usuario designado como su responsable aprueba la plantilla de horas cuando se envía para su aprobación.</li> 
+      <li><strong>Personas específicas:</strong> Puede designar a usuarios específicos, por su nombre, como aprobadores de hojas de horas. Puede tener varios aprobadores en una hoja de horas. En este caso, una vez que uno de los aprobadores aprueba la hoja de horas, esta se marca como <strong>Cerrada</strong> y desaparece de la lista de aprobaciones de hojas de horas de todos los aprobadores restantes.</li> 
        </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Puede editar el tiempo </strong> </td> 
+      <td role="rowheader"><strong>Puede editar la hora </strong> </td> 
       <td> <p> <p>Seleccione esta opción para permitir que los aprobadores editen las horas en la hoja de horas.
 
-   Esta opción funciona junto con la variable **Restringir la edición de hojas de horas a propietarios y administradores** en el área Configuración > Hoja de horas y Horas > Preferencias. Para obtener más información, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar preferencias de horas y hojas de horas</a>.
+   Esta opción funciona junto con **Restringir la edición de hojas de horas a propietarios y administradores** en el área Configuración > Hoja de horas y horas > Preferencias. Para obtener más información, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar la hoja de horas y las preferencias de horas</a>.
 
    Existen los siguientes escenarios:
 
    <ul>
-      <li>Si la variable <b>Restringir la edición de hojas de horas a propietarios y administradores</b> La opción está activada:</li>
-      <ul><li>Los aprobadores solo pueden aprobar y rechazar plantillas de horas, independientemente de si <b>Puede editar el tiempo</b> está activada o no. </li>
+      <li>Cuando la opción <b>Restringir la edición de hojas de horas a propietarios y administradores</b> esté habilitada:</li>
+      <ul><li>Los aprobadores solo pueden aprobar y rechazar hojas de horas, independientemente de si <b>Puede editar el tiempo</b> está habilitado o no. </li>
       <li>Los administradores de propietarios de hojas de horas solo pueden ver las hojas de horas de sus subordinados directos.</li></ul>
-      <li>Si la variable <b>Restringir la edición de hojas de horas a propietarios y administradores</b> La opción está desactivada:</li>
-    <ul><li>Si la variable <b>Puede editar el tiempo</b> está activada, los aprobadores pueden enviar, volver a abrir o cerrar la plantilla de horas y editar la hora.</li>
-      <li>Si la variable <b>Puede editar el tiempo</b> está desactivada, los aprobadores no pueden enviar, volver a abrir ni cerrar la plantilla de horas y no pueden editar la hora. Los aprobadores solo pueden aprobar o rechazar la hoja de horas. </li>
+      <li>Cuando la opción <b>Restringir la edición de hojas de horas a propietarios y administradores</b> esté deshabilitada:</li>
+    <ul><li>Cuando la opción <b>Puede editar la hora</b> está habilitada, los aprobadores pueden enviar, reabrir o cerrar la hoja de horas y pueden editar la hora.</li>
+      <li>Si la opción <b>Puede editar la hora</b> está deshabilitada, los aprobadores no podrán enviar, volver a abrir ni cerrar la hoja de horas y no podrán editar la hora. Los aprobadores solo pueden aprobar o rechazar la hoja de horas. </li>
       <li>Los administradores de los propietarios de las hojas de horas pueden enviar, recuperar, volver a abrir y editar las hojas de horas de sus subordinados directos.</li></ul>
       </ul>
 
    <p>
 
-   <b>NOTA</b>: Una vez enviada una plantilla de horas para su aprobación, ya no puede editar las horas. Para devolver una hoja de horas enviada a un estado editable, recupere la hoja de horas o pida al aprobador que la rechace. Para obtener más información, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar hoja de horas para su aprobación</a> y<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprobar una hoja de horas</a>.</p> </p> </td>
+   <b>NOTA</b>: Una vez que envíe una hoja de horas para su aprobación, ya no podrá editar las horas. Para devolver una hoja de horas enviada a un estado editable, recupere la hoja de horas o pida al aprobador que la rechace. Para obtener más información, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar una hoja de horas para su aprobación</a> y<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprobar una hoja de horas</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de horas disponibles</strong> </td> 
@@ -155,13 +155,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     </tbody> 
     </table>
 
-1. Haga clic en **Asignar personas** para asociar el perfil de la plantilla de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). Empiece a escribir el nombre del usuario, grupo o equipo y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
+1. Haga clic en la ficha **Asignar personas** para asociar el perfil de hoja de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). Empiece a escribir el nombre del usuario, grupo o equipo y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
 
-   Si es administrador de un grupo, puede asignar el perfil de la plantilla de horas a los grupos que administre, pero no a los equipos. Para obtener más información, consulte [Limitaciones para un administrador de grupo que asigna un perfil de hoja de horas](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) en este artículo.
+   Si es administrador de un grupo, puede asignar el perfil de la plantilla de horas a los grupos que administre, pero no a los equipos. Para obtener más información, consulte [Limitaciones para que un administrador de grupo asigne un perfil de hoja de horas](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) en este artículo.
 
    >[!NOTE]
    >
-   >* También puede asociar un usuario con un perfil de plantilla de horas editando el perfil del usuario. Para obtener más información, consulte [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   >* También puede asociar un usuario con un perfil de plantilla de horas editando el perfil del usuario. Para obtener más información, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* Cuando se agrega un grupo, sólo aparece el nombre del grupo en la ficha Asignar personas, no la lista de miembros del grupo. Si desea ver los miembros del grupo enumerados aquí, haga clic en Guardar cambios y, a continuación, haga clic en el nombre del perfil de hoja de horas que acaba de crear.
    >* Cuando termina estos pasos, el perfil de hoja de horas genera hojas de horas únicamente para los usuarios o miembros del grupo asignados que no tienen hojas de horas existentes para el periodo actual.
 
@@ -182,9 +182,9 @@ Para estos grupos y usuarios, no tendrá acceso a las plantillas de horas que ge
 
 Además, si la opción Administración de usuarios (Usuarios del grupo) también está desactivada en su nivel de acceso, puede asignar el perfil de plantilla de horas a un grupo que administre, pero esto solo afecta a los usuarios del grupo al que tenga acceso para editar. Si el grupo contiene usuarios a los que no tiene acceso para editar, no se les asigna el perfil de plantilla de horas junto con el resto del grupo.
 
-Para obtener información sobre la opción Hojas de horas y horas en su nivel de acceso, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Para obtener información acerca de la opción Hojas de horas y horas en su nivel de acceso, vea [Conceder a los usuarios acceso administrativo a ciertas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Para obtener información sobre la opción Administración de usuarios (usuarios de grupo) en su nivel de acceso, consulte [Concesión de acceso a los usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Para obtener información acerca de la opción Administración de usuarios (usuarios de grupo) en su nivel de acceso, vea [Conceder acceso a usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 ## Varios perfiles de hojas de horas recurrentes
 

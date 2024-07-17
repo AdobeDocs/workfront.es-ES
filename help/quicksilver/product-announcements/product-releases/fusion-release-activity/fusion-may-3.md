@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 3 de mayo de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Ahora, el conector Salesforce puede buscar mediante SOQL
 
@@ -45,4 +45,4 @@ Para mejorar la seguridad, hemos agregado un nuevo tipo de conector al conector 
 
 Le recomendamos que utilice el tipo de conexión de Azure DevOps en todos los escenarios nuevos que utilicen Azure DevOps. También le recomendamos que cambie cualquier módulo de Azure DevOps en sus escenarios existentes para utilizar el nuevo tipo de conexión. El tipo de conexión heredada de Azure DevOps (Solicitar todos los ámbitos) quedará obsoleto en un futuro próximo.
 
-Para obtener más información, consulte [Módulos de Azure DevOps](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+Para obtener más información, consulte [Módulos de DevOps de Azure](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).

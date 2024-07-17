@@ -1,34 +1,34 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Crear una nueva versión de una prueba
-description: Administrar comentarios en varias versiones o revisiones de un trabajo puede ser un gran desafío. Workfront simplifica este proceso al permitirle crear y comparar varias versiones de una prueba.
+title: Crear una nueva versión de una revisión
+description: Gestionar los comentarios en varias versiones o revisiones de una parte del trabajo puede ser un gran desafío. Workfront simplifica este proceso al permitirle crear y comparar varias versiones de una prueba.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
 
-# Crear una nueva versión de una prueba
+# Crear una nueva versión de una revisión
 
-Administrar comentarios en varias versiones o revisiones de un trabajo puede ser un gran desafío. Workfront simplifica este proceso al permitirle crear y comparar varias versiones de una prueba.
+Gestionar los comentarios en varias versiones o revisiones de una parte del trabajo puede ser un gran desafío. Workfront simplifica este proceso al permitirle crear y comparar varias versiones de una prueba.
 
-Tenga en cuenta la siguiente información cuando esté creando una nueva versión de una prueba:
+Tenga en cuenta la siguiente información al crear una nueva versión de una prueba:
 
-* Puede dar a un usuario permiso para ver una versión, pero no otra. Por el contrario, si comparte una versión posterior con un usuario, ese usuario no puede ver versiones anteriores a menos que vuelva atrás y conceda explícitamente al usuario acceso a esas versiones anteriores.
-* Para crear una nueva versión de una prueba, debe tener derechos de edición en la prueba.
+* Puede conceder permiso a un usuario para ver una versión, pero no otra. Por el contrario, si comparte una versión posterior con un usuario, ese usuario no puede ver las versiones anteriores a menos que vuelva atrás y conceda explícitamente al usuario acceso a esas versiones anteriores.
+* Para crear una nueva versión de una prueba, debe tener derechos de edición sobre la prueba.
 
-   Consulte [Administrar funciones de prueba en la prueba de Workfront](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) y [Perfiles de permisos de prueba en Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) para obtener más información sobre quién tiene derechos de edición en una prueba.
+  Consulte [Administrar roles de prueba en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) y [Permisos de prueba en Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) para obtener más información sobre quién tiene derechos de edición en una prueba.
 
-   Para obtener información sobre cómo compartir versiones de prueba, consulte  [Uso compartido de una prueba en la prueba de Workfront](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Para obtener información sobre cómo compartir versiones de prueba, consulte  [Compartir una revisión en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->Si se crea una prueba dentro de Adobe Workfront, cualquier versión nueva creada para esa prueba también se debe crear dentro de Workfront. No se puede crear una nueva versión de una prueba en Workfront Proof si dicha prueba se creó en Workfront.
+>Si se crea una prueba en Adobe Workfront, también se deben crear en Workfront las nuevas versiones creadas para esa prueba. No puede crear una nueva versión de una prueba en Workfront Proof si dicha prueba se creó en Workfront.
 
 ## Requisitos de acceso
 
@@ -39,51 +39,51 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o plan</p> <p>Plan heredado: Cualquiera (debe tener las pruebas habilitadas para el usuario)</p> </td> 
+   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Administrador o superior</td> 
+   <td>Responsable o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con el administrador de Workfront o Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 ## Creación de una nueva versión de una prueba en Workfront
 
-Existen varias formas de cargar una nueva versión de prueba en Workfront. La configuración de prueba predeterminada puede o no continuar desde la versión anterior dependiendo del método que elija:
+Existen varias formas de cargar una nueva versión de prueba en Workfront. La configuración de prueba predeterminada puede ser o no transferida de la versión anterior según el método que elija:
 
-* **Generar pruebas automáticamente al cargar documentos**: La configuración de prueba predeterminada no se transfiere. Si tiene esta configuración habilitada en el perfil de usuario, la configuración de prueba predeterminada no se mantiene cuando arrastra y suelta una nueva versión.
-* **Crear prueba > Simple**: La configuración de prueba predeterminada no se transfiere. Si elige Simple al crear una nueva versión de prueba, la configuración de prueba predeterminada no se transfiere desde la versión anterior.
-* **Agregar nuevo > Versión > Prueba**: La configuración de prueba predeterminada se transfiere desde la versión anterior.
-* **Crear prueba > Avanzado**: La configuración de prueba predeterminada se transfiere desde la versión anterior.
+* **Generar automáticamente revisiones al cargar documentos**: La configuración de revisión predeterminada no se transfiere. Si tiene esta configuración habilitada en el perfil de usuario, la configuración de prueba predeterminada no se traslada al arrastrar y soltar una nueva versión.
+* **Crear revisión > Simple**: la configuración de revisión predeterminada no se transfiere. Si elige Simple al crear una nueva versión de prueba, los ajustes de prueba predeterminados no se transfieren de la versión anterior.
+* **Agregar nuevo > Versión > Prueba**: la configuración de prueba predeterminada se transfiere desde la versión anterior.
+* **Crear revisión > Avanzado**: la configuración de revisión predeterminada se transfiere desde la versión anterior.
 
-   <table>
+  <table>
   <tbody>
   <tr>
   <td>Generar automáticamente revisiones al subir documentos</td>
-  <td>La configuración de prueba predeterminada no se transfiere. Si tiene esta configuración habilitada en el perfil de usuario, la configuración de prueba predeterminada no se mantiene cuando arrastra y suelta una nueva versión.</td>
+  <td>La configuración de prueba predeterminada no se transfiere. Si tiene esta configuración habilitada en el perfil de usuario, la configuración de prueba predeterminada no se traslada al arrastrar y soltar una nueva versión.</td>
   </tr>
   <tr>
-  <td>Crear prueba &gt; Simple</td>
-  <td>La configuración de prueba predeterminada no se transfiere. Si elige Simple al crear una nueva versión de prueba, la configuración de prueba predeterminada no se transfiere desde la versión anterior.</td>
+  <td>Crear prueba &gt; Sencilla</td>
+  <td>La configuración de prueba predeterminada no se transfiere. Si elige Simple al crear una nueva versión de prueba, los ajustes de prueba predeterminados no se transfieren de la versión anterior.</td>
   </tr>
   <tr>
-  <td>Agregar nuevo &gt; Versión &gt; Prueba</td>
+  <td>Añadir nuevo &gt; Versión &gt; Prueba</td>
   <td>La configuración de prueba predeterminada se transfiere desde la versión anterior.</td>
   </tr>
   <tr>
-  <td>Crear prueba &gt; Avanzado</td>
+  <td>Creación de una prueba &gt; Avanzada</td>
   <td>La configuración de prueba predeterminada se transfiere desde la versión anterior.</td>
   </tr>
   </tbody>
@@ -99,26 +99,26 @@ Para crear una nueva versión de una prueba:
 
    O
 
-   Seleccione la fila donde se muestra la prueba, haga clic en **Agregar nuevo** > **Versión** y, a continuación, haga clic en la opción que desee utilizar para añadir la nueva versión de la prueba.
+   Seleccione la fila donde aparece la revisión, haga clic en **Agregar nueva** > **Versión** y, a continuación, haga clic en la opción que desee usar para agregar la nueva versión de la revisión.
 
    ![](assets/add-new-version-350x185.png)
 
-## Cree una nueva versión de una prueba desde el visor de pruebas (solo Workfront Proof)
+## Crear una nueva versión de una revisión desde el visor de pruebas (solo Workfront Proof)
 
-Si utiliza la prueba independiente de Workfront, puede crear una nueva versión de una prueba que contenga un solo archivo o captura web. 
+Si utiliza el Workfront Proof independiente, puede crear una nueva versión de una prueba que contenga un solo archivo o captura web. 
 
 >[!NOTE]
 >
->Si su cuenta está en un plan de Enterprise y carga varios archivos o capturas web, se combinarán automáticamente en una única versión nueva. Consulte [Creación de una prueba de varias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) para obtener más información.
+>Si su cuenta está en un plan Enterprise y carga varios archivos o capturas web, se combinarán automáticamente en una sola versión nueva. Consulte [Crear una revisión de varias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) para obtener más información.
 
 Para crear una nueva versión de una prueba en Workfront Proof:
 
 1. Abra la prueba.
-1. Haga clic en el **Versión** menú desplegable en la esquina superior izquierda y haga clic en **+ Nueva versión** en el cuadro que aparece.
+1. Haga clic en el menú desplegable **Versión** en la esquina superior izquierda y, a continuación, haga clic en **+ Nueva versión** en el cuadro que aparece.
 
-   En el **Nueva versión de prueba de** que aparece, puede ver todos los revisores de la versión anterior, incluidos sus roles y la configuración de notificación por correo electrónico. Puede editar fácilmente las funciones y notificaciones de los revisores existentes o eliminar los revisores existentes de la nueva versión de esta página.
+   En la página **Nueva versión de revisión de** que aparece, puede ver todos los revisores de la versión anterior, incluidos sus roles y la configuración de las notificaciones por correo electrónico. Puede editar fácilmente las funciones y notificaciones de los revisores existentes o eliminar los existentes de la nueva versión de esta página.
 
-1. En **Añadir archivos**, cargue un archivo como una nueva versión de la prueba arrastrando y soltando desde el equipo o haciendo clic en **navegar** y seleccione el archivo que desee. Puede escribir una **Nombre de la prueba** para la versión o deje este cuadro en blanco para utilizar el mismo nombre de archivo con un número de versión añadido al final.
+1. En **Agregar archivos**, cargue un archivo como una nueva versión de la revisión arrastrando y soltando desde el equipo o haciendo clic en **examinar** y seleccionando el archivo que desee. Puede escribir un **Nombre de revisión** para la versión o dejar este cuadro en blanco para usar el mismo nombre de archivo con un número de versión agregado al final.
 
    O
 
@@ -126,51 +126,51 @@ Para crear una nueva versión de una prueba en Workfront Proof:
 
    >[!NOTE]
    >
-   >Arrastrar y soltar solo está disponible con exploradores que admiten HTML5. Esto excluye Internet Explorer 7 a 9 y Safari.
+   >Arrastrar y soltar solo está disponible con navegadores totalmente compatibles con HTML5. Esto excluye Internet Explorer 7 a 9 y Safari.
 
-1. En **Flujo de trabajo**, realice cualquiera de los cambios siguientes para especificar los revisores de esta versión de la prueba.
+1. En **Flujo de trabajo**, realice cualquiera de los cambios siguientes para especificar los revisores de esta versión de la revisión.
 
    Los revisores de la versión anterior se sustituyen por los revisores que agregue.
 
-   * Cambie el **Propietario** de la versión a otro usuario de su cuenta.\
-      Para obtener información sobre los permisos de propietario, consulte [Perfiles de permisos de prueba en Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * Cambie **Owner** de la versión a otro usuario de su cuenta.\
+     Para obtener información acerca de los permisos de propietario, consulte [Perfiles de permisos de revisión en Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * Al usar la variable **Escriba el nombre de contacto o la dirección de correo electrónico para agregar un cuadro de destinatario**, agregue revisores a la versión . Puede especificar un **Función de prueba** y **Alertas de correo electrónico** para cada destinatario.
+   * Usando **Escriba el nombre de contacto o la dirección de correo electrónico para agregar un cuadro de destinatario**, agregue revisores a la versión. Puede especificar un **Rol de prueba** y un tipo de **Alertas por correo electrónico** para cada destinatario.
 
-      Para obtener información sobre cómo agregar grupos a la prueba, consulte  [Agregar grupos a una prueba](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Para obtener información sobre las funciones, consulte [Administrar funciones de prueba en la prueba de Workfront](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+     Para obtener información sobre cómo agregar grupos a la prueba, consulte  [Agregar grupos a una revisión](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Para obtener información sobre los roles, consulte [Administrar roles de prueba en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-      >[!NOTE]
-      >
-      >Si el creador o el propietario de la prueba [El correo electrónico de prueba realizada](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) desactivada de forma predeterminada (en su configuración personal), no recibirán ningún correo electrónico de prueba o prueba nueva aunque la casilla Notificar a las personas por correo electrónico esté marcada en la página Nueva prueba . Para obtener información sobre las notificaciones por correo electrónico, consulte [Configuración de las notificaciones por correo electrónico en Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Consulte también [El correo electrónico de prueba realizada](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) y [Nuevo correo electrónico de prueba](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >[!NOTE]
+     >
+     >Si el creador o propietario de  Si la prueba tiene [Correo electrónico de prueba hecha](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) deshabilitado de forma predeterminada (en su configuración personal), no recibirá ningún correo electrónico de prueba hecha o nueva prueba aunque el cuadro Notificar a las personas por correo electrónico esté marcado en la página Nueva prueba. Para obtener información acerca de las notificaciones por correo electrónico, consulte [Configuración de notificaciones por correo electrónico en Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Ver también [Correo electrónico sobre la prueba hecha](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) y [Nuevo correo electrónico sobre la prueba](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Establezca una fecha límite de prueba para la versión.
-   * Pase el ratón sobre el nombre de un revisor para ver las decisiones que ha tomado en una versión anterior.
+   * Establezca un plazo de prueba para la versión.
+   * Pase el ratón sobre el nombre de un revisor para ver qué decisiones ha tomado en una versión anterior.
 
 1. En **Notificación por correo electrónico**, realice una de las acciones siguientes:
 
-   * Especifique si desea notificar a los revisores la nueva versión.\
-      La selección se registrará en la sección Actividad de la página Detalles de la prueba . Para obtener más información, consulte [Administrar detalles de prueba en la prueba de Workfront](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Especifique si desea notificar la nueva versión a los revisores.\
+     Su selección se registrará en la sección Actividad de la página Detalles de la prueba. Para obtener más información, consulte [Administrar detalles de revisión en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
    * Añada un asunto y un mensaje personalizados.
 
-1. En el **Organización** , realice una de las acciones siguientes: 
+1. En la sección **Organización**, realice una de las acciones siguientes: 
 
-   * Aplique una o más etiquetas a la prueba. Para obtener más información, consulte [Crear y administrar etiquetas en la prueba de Workfront](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
-      Tenga en cuenta que las etiquetas también se heredan de la versión anterior de la prueba. Si agrega una etiqueta nueva a la nueva versión, también se etiquetarán las versiones anteriores.
+   * Aplique una o más etiquetas a la prueba. Para obtener más información, consulte [Crear y administrar etiquetas en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
+     Tenga en cuenta que las etiquetas también se heredan de la versión anterior de la prueba. Si añade una etiqueta nueva a la nueva versión, las versiones anteriores también se etiquetan.
 
-   * Añada la versión a una carpeta. Consulte [Administrar carpetas en la prueba de Workfront](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) para obtener más información. La carpeta se copia desde la versión anterior de la prueba. Si selecciona una carpeta diferente, se moverá toda la prueba (todas las versiones).
+   * Añada la versión a una carpeta. Consulte [Administrar carpetas en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) para obtener más información. La carpeta se copiará de la versión anterior de la revisión. Si selecciona una carpeta diferente, se moverá toda la prueba (todas las versiones).
 
-   * Los administradores de facturación y los administradores pueden hacer que el campo de carpeta sea obligatorio en toda la cuenta en la pestaña Configuración . Consulte para obtener más información.
+   * Los administradores de facturación y los administradores pueden hacer que el campo de carpeta sea obligatorio en toda la cuenta en la pestaña Configuración. Consulte para obtener más información.
 
 1. En Configuración de prueba, realice cualquiera de los cambios siguientes:
 
    * Requerir inicio de sesión en la prueba
-   * Requerir firmas electrónicas en la prueba (solo Enterprise Plan)
+   * Requerir firmas electrónicas en la prueba (solo para el plan empresarial)
    * Bloquear la prueba cuando se tomen todas las decisiones
    * Permitir o bloquear la descarga del archivo original
-   * Uso compartido público de la prueba, incluida la configuración de uso compartido en público
+   * Uso compartido público de la prueba, incluida la configuración de uso compartido público
    * Suscripción a la prueba\
-      Las selecciones realizadas en esta sección se mostrarán en la página de detalles de la prueba (donde se pueden editar algunos campos). Para obtener más información, consulte [Administrar detalles de prueba en la prueba de Workfront](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+     Las selecciones realizadas en esta sección se mostrarán en la página Proof details (donde se pueden editar algunos campos). Para obtener más información, consulte [Administrar detalles de revisión en Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -221,20 +221,21 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
 ## Acerca del mensaje Nueva versión
 
-Si había un asunto o mensaje personalizado incluido en la versión anterior de la prueba, se mostrará de forma predeterminada en la página Nueva versión . Puede:
+Si había un asunto/mensaje personalizado incluido en la versión anterior de la prueba, se mostrará de forma predeterminada en la página Nueva versión. Puede:
 
 * Edite el asunto y el mensaje.
-* Desmarque la casilla Notificar a las personas por correo electrónico , lo que significa que no se enviará ningún correo electrónico a los revisores para notificarles que tienen una nueva versión para revisar.
+* Anule la selección del cuadro Notificar a las personas por correo electrónico, lo que significa que no se enviará ningún correo electrónico a los revisores para notificarles que tienen una nueva versión que revisar.
 
-   >[!NOTE]
-    Esto no se ve afectado por ningún asunto o mensaje personalizado predeterminado guardado en su configuración personal.
+  >[!NOTE]
+  >
+  > Esto no se ve afectado por ningún asunto o mensaje personalizado predeterminado guardado en su configuración personal.
 
-Si tiene un asunto predeterminado y un mensaje guardados en su configuración personal, esto afectará al mensaje que se muestra de forma predeterminada en la página Nueva versión :
+Si tiene un asunto y un mensaje predeterminados guardados en su configuración personal, esto afectará en qué mensaje se muestra de forma predeterminada en la página Nueva versión:
 
-* Si decide notificar a los revisores por correo electrónico la versión anterior de la prueba utilizando el correo electrónico estándar (por ejemplo, sin asunto/mensaje personalizado), su asunto/mensaje personalizado predeterminado (su configuración personal) se mostrará en la página Nueva versión . A continuación, puede editar el asunto y el mensaje personalizados o desmarcar la casilla Notificar a las personas por correo electrónico (lo que significa que no se enviará ningún correo electrónico a los revisores para notificarles que tienen una nueva versión para revisar).
-* Si decide no notificar a los revisores por correo electrónico la versión anterior de la prueba (por ejemplo, sin correo electrónico estándar o personalizado), la página Nueva versión no incluirá ningún mensaje de forma predeterminada. Para notificar a los revisores la nueva versión, haga clic en el vínculo Send a Message , que muestra el asunto/mensaje personalizado predeterminado (según su configuración personal). A continuación, puede editar el asunto y el mensaje personalizados si es necesario.
+* Si decide notificar a los revisores por correo electrónico la versión anterior de la prueba mediante el correo electrónico estándar (por ejemplo, sin asunto/mensaje personalizado), el asunto/mensaje personalizado predeterminado (su configuración personal) se mostrará en la página Nueva versión. A continuación, puede editar el asunto y el mensaje personalizados o anular la selección del cuadro Notificar a las personas por correo electrónico (lo que significa que no se enviará ningún correo electrónico a los revisores para notificarles que tienen una nueva versión que revisar).
+* Si decide no notificar a los revisores por correo electrónico la versión anterior de la prueba (por ejemplo, sin correo electrónico estándar o personalizado), la página Nueva versión no incluirá ningún mensaje de forma predeterminada. Para notificar la nueva versión a los revisores, haga clic en el vínculo Enviar un mensaje, que mostrará el asunto o mensaje personalizado predeterminado (según su configuración personal). A continuación, puede editar el asunto y el mensaje personalizados si es necesario.
 
-Si no tiene un asunto predeterminado y un mensaje guardados en su configuración personal, se mostrará lo siguiente en la página Nueva versión :
+Si no tiene un asunto y un mensaje predeterminados guardados en su configuración personal, se mostrará lo siguiente en la página Nueva versión:
 
-* Si decide notificar a los revisores por correo electrónico la versión anterior de la prueba utilizando el correo electrónico estándar (por ejemplo, sin asunto/mensaje personalizado), la opción Notificar a las personas por correo electrónico se selecciona de forma predeterminada en la página Nueva versión . Para añadir un mensaje personalizado, haga clic en el vínculo .
-* Si decide no notificar a los revisores por correo electrónico la versión anterior de la prueba (por ejemplo, sin correo electrónico estándar o personalizado), la página Nueva versión no incluirá ningún mensaje de forma predeterminada. Para notificar a los revisores la nueva versión, haga clic en el vínculo Send a Message . A continuación, puede agregar un asunto y mensaje personalizados haciendo clic en el vínculo Agregar mensaje personalizado .
+* Si decide notificar a los revisores por correo electrónico la versión anterior de la prueba mediante el correo electrónico estándar (por ejemplo, sin asunto/mensaje personalizado), la opción Notificar a las personas por correo electrónico se seleccionará de forma predeterminada en la página Nueva versión. Para añadir un mensaje personalizado, haga clic en el vínculo.
+* Si decide no notificar a los revisores por correo electrónico la versión anterior de la prueba (por ejemplo, sin correo electrónico estándar o personalizado), la página Nueva versión no incluirá ningún mensaje de forma predeterminada. Para notificar la nueva versión a los revisores, haga clic en el vínculo Enviar un mensaje. A continuación, puede agregar un asunto y un mensaje personalizados haciendo clic en el vínculo Agregar mensaje personalizado.

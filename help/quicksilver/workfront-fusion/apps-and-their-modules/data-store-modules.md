@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Módulos de almacén de datos
-description: Un [!DNL Adobe Workfront Fusion] Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
+description: Un almacén de datos  [!DNL Adobe Workfront Fusion] similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Almacén de datos] módulos
+# [!UICONTROL Módulos del almacén de datos]
 
-Un [!DNL Adobe Workfront Fusion] Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
+Un almacén de datos [!DNL Adobe Workfront Fusion], similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
 
-Los módulos del almacén de datos permiten agregar, reemplazar, actualizar, recuperar, eliminar, buscar o contar registros en su [!DNL Adobe Workfront Fusion] almacén de datos.
+Los módulos del almacén de datos permiten agregar, reemplazar, actualizar, recuperar, eliminar, buscar o contar registros en el almacén de datos de [!DNL Adobe Workfront Fusion].
 
-Para obtener información sobre la creación, edición y solución de problemas con los almacenes de datos, consulte [Almacenes de datos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Para obtener información sobre cómo crear, editar y solucionar problemas de almacenes de datos, consulte [Almacenes de datos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 Para ver un vídeo introductorio a los almacenes de datos de Workfront Fusion, consulte:
 
@@ -46,29 +46,29 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Requisitos previos
 
-Para usar [!UICONTROL Almacén de datos] , primero debe crear un almacén de datos.
+Para usar módulos de [!UICONTROL Almacén de datos], primero debe crear un almacén de datos.
 
 Para obtener información sobre la creación de almacenes de datos, consulte [Almacenes de datos en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
@@ -76,11 +76,11 @@ Para obtener información sobre la creación de almacenes de datos, consulte [Al
 
 Al configurar los módulos del almacén de datos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto a estos, pueden mostrarse campos de almacén de datos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Todo [!UICONTROL Almacén de datos] Los módulos de son módulos de tipo Acción.
+Todos los módulos de [!UICONTROL Almacén de datos] son módulos de tipo acción.
 
 * [Agregar o reemplazar un registro](#addreplace-a-record)
 * [Actualizar un registro](#update-a-record)
@@ -101,7 +101,7 @@ El módulo devuelve el ID del registro y cualquier campo asociado, junto con cua
 
 >[!NOTE]
 >
->El módulo genera un error cuando intenta agregar el registro que ya está en el almacén de datos con el mismo nombre y el [!UICONTROL Sobrescribir un registro existente] La opción está desactivada.
+>El módulo genera un error cuando intenta agregar el registro que ya está en el almacén de datos con el mismo nombre y la opción [!UICONTROL Sobrescribir un registro existente] está deshabilitada.
 
 Al configurar este módulo, se muestran los campos siguientes.
 
@@ -245,7 +245,7 @@ Usted especifica el almacén de datos.
  </tbody> 
 </table>
 
-### [!UICONTROL Buscar registros]
+### [!UICONTROL Registros de búsqueda]
 
 Este módulo de búsqueda busca registros en un objeto del almacén de datos que coincidan con la consulta de búsqueda especificada.
 
@@ -271,7 +271,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr> 
    <td>[!UICONTROL Límite]</td> 
-   <td> <p> Establecer el número máximo de resultados de búsqueda [!DNL Workfront Fusion] devuelve durante un ciclo de ejecución.</p> </td> 
+   <td> <p> Establezca el número máximo de resultados de búsqueda que devuelve [!DNL Workfront Fusion] durante un ciclo de ejecución.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continuar la ejecución de la ruta aunque el módulo no devuelva resultados]</td> 

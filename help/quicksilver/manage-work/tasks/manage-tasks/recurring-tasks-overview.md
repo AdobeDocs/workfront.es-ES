@@ -11,7 +11,7 @@ role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '688'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Puede crear tareas recurrentes para actividades que tenga que repetir como parte
 
 Este artículo describe información y consideraciones sobre la creación y edición de tareas recurrentes.
 
-Para obtener información sobre cómo crear tareas recurrentes en Adobe Workfront, consulte [Creación de tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Para obtener información sobre cómo crear tareas recurrentes en Adobe Workfront, consulte [Crear tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ## Información general y consideraciones sobre tareas recurrentes
 
@@ -59,7 +59,7 @@ Tenga en cuenta lo siguiente al crear tareas recurrentes en Workfront:
    * El estado se desactiva en la tarea principal y se establece automáticamente en Nuevo en las tareas secundarias. La tarea principal se completa automáticamente y el estado se actualiza a Completo cuando se completan todos los elementos secundarios.
    * Los únicos tipos de duración disponibles para tareas recurrentes son:
 
-      * Sencilla
+      * Simple
       * Condicionada por el esfuerzo
 * La Duración y las Horas planificadas indicadas para una nueva tarea recurrente son la Duración y las Horas planificadas de cada ocurrencia. La duración de la tarea principal es el tiempo entre la fecha planificada de inicio de la tarea más temprana y la fecha planificada de finalización de la tarea más reciente. Las horas planificadas de la tarea principal son el total de todas las horas planificadas de todas las ocurrencias.
 
@@ -93,7 +93,7 @@ La siguiente tabla ilustra si los cambios realizados en el déclencheur principa
 
 {style="table-layout:auto"}
 
-&#42; Cuando se actualiza la frecuencia de periodicidad de una tarea principal, existen los siguientes escenarios:
+&#42; Al actualizar la frecuencia de periodicidad de una tarea principal, existen los siguientes escenarios:
 
 * Si cambia la Frecuencia de periodicidad en una tarea principal existente, las subtareas existentes se eliminan y reemplazan por nuevas subtareas que siguen a la nueva frecuencia de periodicidad si no muestran ningún progreso y si no las ha actualizado manualmente.
 * Si cambia la Frecuencia de periodicidad en una tarea principal existente, las subtareas que muestran progreso no se eliminan. Estas tareas se consideran separadas de la periodicidad en este punto.

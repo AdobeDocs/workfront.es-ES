@@ -37,7 +37,7 @@ Esto devolverá el siguiente cuerpo de respuesta:
 }
 ```
 
-Si no se establece la moneda para el proyecto, esta respuesta incluiría una moneda con el valor `null`:
+Si la moneda no está establecida para el proyecto, esta respuesta incluiría una moneda con el valor `null`:
 
 ```
 {

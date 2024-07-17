@@ -51,21 +51,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Configuración de tarjetas {#configure-cards}
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
+1. Haga clic en [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
 1. Expandir [!UICONTROL **Tarjetas**].
 
    La mayoría de los campos y secciones están habilitados de forma predeterminada.
 
 1. Desactive un campo o una sección para deshabilitarlo en ambas vistas de tarjeta.
-1. Haga clic en el icono Ocultar ![Icono Ocultar](assets/eye-hide-icon.png) situado junto a un campo o sección para ocultarlo en la vista condensada.
-1. Para mostrar todos los campos y secciones de ambas vistas, haga clic en [!UICONTROL **Restaurar todos los campos a los valores predeterminados**].
-1. Clic [!UICONTROL **Ocultar configuración**] para cerrar el panel Configurar.
+1. Haga clic en el icono Ocultar ![Ocultar icono](assets/eye-hide-icon.png) junto a un campo o sección para ocultarlo en la vista resumida.
+1. Para mostrar todos los campos y secciones de ambas vistas, haga clic en [!UICONTROL **Restaurar todos los campos al valor predeterminado**].
+1. Haga clic en [!UICONTROL **Ocultar configuración**] para cerrar el panel Configurar.
 
 ## Agregar campos personalizados a las tarjetas
 
@@ -75,8 +75,8 @@ Los datos de los campos personalizados se pueden editar en la tarjeta, aunque al
 
 1. Acceda a un tablero y haga clic en [!UICONTROL **Configurar**] para abrir el panel Configurar.
 1. Expandir [!UICONTROL **Tarjetas**].
-1. En [!UICONTROL Campos de tarjeta], haga clic en [!UICONTROL **Añadir campo personalizado**].
-1. Seleccionar [!UICONTROL **Tarea**] o [!UICONTROL **Problema**].
+1. En [!UICONTROL Campos de tarjeta], haga clic en [!UICONTROL **Agregar campo personalizado**].
+1. Seleccione [!UICONTROL **Tarea**] o [!UICONTROL **Problema**].
 
    Aparecerán las categorías de los campos disponibles para tareas o problemas. Expanda una categoría para ver todos los campos. También puede buscar un campo.
 
@@ -87,13 +87,13 @@ Los datos de los campos personalizados se pueden editar en la tarjeta, aunque al
    >Los siguientes tipos de campo no están disponibles para añadirlos a las tarjetas: Adobe XD, Imagen, PDF, Vídeo.
 
 1. Seleccione el nombre del campo.
-1. (Opcional) Haga clic en el icono **[!UICONTROL Valor de campo]** para cambiar este campo personalizado por otro diferente.
-1. (Opcional) Cambie el **[!UICONTROL Etiqueta de campo]** al nombre de campo que desee que aparezca en las tarjetas.
-1. Cuando haya terminado de realizar los cambios, haga clic en [!UICONTROL **Guardar campo**].
+1. (Opcional) Haga clic en el campo **[!UICONTROL Valor del campo]** para cambiar este campo personalizado por otro diferente.
+1. (Opcional) Cambie **[!UICONTROL Etiqueta de campo]** por el nombre de campo que desee que aparezca en las tarjetas.
+1. Cuando haya terminado de realizar cambios, haga clic en [!UICONTROL **Guardar campo**].
 
-   ![Valor de campo personalizado y etiqueta](assets/save-custom-field-value-label.png)
+   ![Etiqueta y valor de campo personalizado](assets/save-custom-field-value-label.png)
 
-   El campo personalizado se añade a la lista de campos disponibles y se activa de forma predeterminada. Puede deshabilitar el campo personalizado siguiendo los pasos de la [Configuración de tarjetas](customize-fields-on-card.md#configure-cards) en la sección anterior, edite el campo o elimínelo de todas las tarjetas.
+   El campo personalizado se añade a la lista de campos disponibles y se activa de forma predeterminada. Puede deshabilitar el campo personalizado siguiendo los pasos de la sección [Configurar tarjetas](customize-fields-on-card.md#configure-cards) anterior, editar el campo o eliminarlo de todas las tarjetas.
 
 >[!NOTE]
 >
@@ -109,8 +109,8 @@ Debe activar un ajuste de configuración para mostrar las tarjetas archivadas en
 
    Ahora, puede filtrar el tablero para mostrar cualquier tarjeta que se haya archivado. Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-1. Clic [!UICONTROL **Ocultar configuración**] para cerrar el panel Configurar.
+1. Haga clic en [!UICONTROL **Ocultar configuración**] para cerrar el panel Configurar.
 
 ## Configurar la caída de tarjetas
 
-Para quitar automáticamente las tarjetas del tablero después de un período de tiempo, consulte [Configurar la caída de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Para quitar tarjetas del tablero después de un período de tiempo, consulta [Configurar la caída de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

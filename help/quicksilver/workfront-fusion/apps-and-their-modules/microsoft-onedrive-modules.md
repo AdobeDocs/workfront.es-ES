@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de Microsoft OneDrive
-description: En un [!DNL Adobe Workfront Fusion] En este escenario, puede automatizar los flujos de trabajo que utilizan OneDrive, así como conectarlo a varias aplicaciones y servicios de terceros.
+description: En un escenario de  [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan OneDrive, así como conectarlo a varias aplicaciones y servicios de terceros.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Microsoft OneDrive] módulos
 
-En un [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan [!DNL OneDrive], así como conectarlo a múltiples aplicaciones y servicios de terceros.
+En un escenario de [!DNL Adobe Workfront Fusion], puede automatizar los flujos de trabajo que utilizan [!DNL OneDrive], así como conectarlo a varias aplicaciones y servicios de terceros.
 
-Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si necesita instrucciones para crear un escenario, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obtener información acerca de los módulos, vea [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acceso
 
@@ -43,36 +43,36 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Requisitos previos
 
-Para usar [!DNL OneDrive] módulos, debe tener un [!DNL Microsoft OneDrive] cuenta.
+Para usar módulos de [!DNL OneDrive], debe tener una cuenta de [!DNL Microsoft OneDrive].
 
 
 
 
-## Conexión del [!DNL OneDrive] servicio a [!DNL Workfront Fusion]
+## Conectando el servicio [!DNL OneDrive] a [!DNL Workfront Fusion]
 
-Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!UICONTROL Workfront Fusion], consulte [Cree una conexión con [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Para obtener instrucciones sobre cómo conectar tu cuenta de [!DNL OneDrive] a [!UICONTROL Workfront Fusion], consulta [Crear una conexión a [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -82,9 +82,9 @@ Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a 
 
 ## [!DNL Microsoft OneDrive] módulos y sus campos
 
-Al configurar [!DNL OneDrive] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL OneDrive] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL OneDrive] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL OneDrive] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -94,15 +94,15 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 ### Archivo/Carpeta
 
 * [[!UICONTROL Archivos/carpetas de inspección]](#watch-filesfolders)
-* [[!UICONTROL Buscar archivos/carpetas]](#search-filesfolders)
+* [[!UICONTROL Archivos/carpetas de búsqueda]](#search-filesfolders)
 * [[!UICONTROL Obtener un archivo]](#get-a-file)
 * [[!UICONTROL Descargar un archivo]](#download-a-file)
 * [[!UICONTROL Cargar un archivo]](#upload-a-file)
 * [[!UICONTROL Crear una carpeta]](#create-a-folder)
-* [[!UICONTROL Obtener un vínculo para compartir]](#get-a-share-link)
-* [[!UICONTROL Mover un archivo o una carpeta]](#move-a-filefolder)
+* [[!UICONTROL Obtener un vínculo compartido]](#get-a-share-link)
+* [[!UICONTROL Mover un archivo/carpeta]](#move-a-filefolder)
 * [[!UICONTROL Copiar un archivo]](#copy-a-file)
-* [[!UICONTROL Eliminar un archivo o una carpeta]](#delete-a-filefolder)
+* [[!UICONTROL Eliminar un archivo o carpeta]](#delete-a-filefolder)
 
 #### [!UICONTROL Archivos/carpetas de inspección]
 
@@ -114,18 +114,18 @@ Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un a
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Observar archivos/carpetas]</td> 
    <td> <p>Seleccione cómo desea inspeccionar archivos o carpetas:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Por hora de creación]</b> </p> <p>Busque nuevos archivos o carpetas.</p> </li> 
-     <li> <p><b>[!UICONTROL Por hora de actualización]</b> </p> <p>Busque archivos o carpetas existentes actualizados.</p> </li> 
+     <li> <p><b>[!UICONTROL Por Hora De Creación]</b> </p> <p>Busque nuevos archivos o carpetas.</p> </li> 
+     <li> <p><b>[!UICONTROL Por Hora De Actualización]</b> </p> <p>Busque archivos o carpetas existentes actualizados.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación que desee ver:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -134,8 +134,8 @@ Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un a
        <li> <p><b>[!UICONTROL No]</b> </p> <p>Desplácese hasta la carpeta que desee que vea el módulo. También puede introducir una consulta para filtrar los resultados devueltos.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Compartido Conmigo]</b> </p> <p>El módulo inspecciona los archivos que se han compartido con el propietario de la unidad.</p> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el sitio de SharePoint que desea que vea el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad desea que vea el módulo.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que desea que vea el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad desea que vea el módulo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -151,7 +151,7 @@ Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un a
 
 
 
-#### [!UICONTROL Buscar archivos/carpetas]
+#### [!UICONTROL Archivos/carpetas de búsqueda]
 
 Este módulo de búsqueda devuelve archivos y carpetas en función de los criterios definidos.
 
@@ -161,10 +161,10 @@ Este módulo de búsqueda devuelve archivos y carpetas en función de los criter
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación en la que desea buscar:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -173,8 +173,8 @@ Este módulo de búsqueda devuelve archivos y carpetas en función de los criter
        <li> <p><b>[!UICONTROL No]</b> </p> <p>Desplácese hasta la carpeta en la que desee buscar el módulo. También puede introducir una consulta para filtrar los resultados devueltos.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Compartido Conmigo]</b> </p> <p>El módulo busca los archivos que se han compartido con el propietario de la unidad.</p> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el [!DNL SharePoint] Sitio en el que desea que busque el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad desea que busque el módulo.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea que busque el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad desea que busque el módulo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -198,7 +198,7 @@ Este módulo de acción obtiene los metadatos de un archivo especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
@@ -213,7 +213,7 @@ Este módulo de acción obtiene los metadatos de un archivo especificado.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación en la que desea buscar:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -221,8 +221,8 @@ Este módulo de acción obtiene los metadatos de un archivo especificado.
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo que desea obtener.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea obtener. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea obtener.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea obtener. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea obtener.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ Este módulo de acción descarga el archivo especificado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
@@ -261,7 +261,7 @@ Este módulo de acción descarga el archivo especificado.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación que desee que contenga el archivo que desea descargar:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -269,8 +269,8 @@ Este módulo de acción descarga el archivo especificado.
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo que desea descargar.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea descargar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea descargar.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea descargar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea descargar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -334,14 +334,14 @@ Este módulo de acción carga un archivo en la carpeta especificada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Introducir (ID y ruta de ubicación de la carpeta)</td> 
    <td>Seleccione si desea identificar la carpeta de destino por ID o por ruta.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación donde desea cargar un archivo:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -349,8 +349,8 @@ Este módulo de acción carga un archivo en la carpeta especificada.
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Seleccione la unidad que contiene el archivo que desea obtener.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el [!DNL SharePoint] Sitio que contiene la carpeta donde desea cargar un archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad contiene la carpeta donde desea cargar un archivo.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene la carpeta donde desea cargar un archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene la carpeta donde desea cargar un archivo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -358,7 +358,7 @@ Este módulo de acción carga un archivo en la carpeta especificada.
    <td> <p>Seleccione la unidad que contiene la carpeta donde desea cargar un archivo. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Archivo de origen]</td> 
+   <td role="rowheader">[!UICONTROL archivo Source]</td> 
    <td> <p>Seleccione un archivo de origen de un módulo anterior o asigne el nombre y los datos del archivo de origen.</p> </td> 
   </tr> 
   <tr> 
@@ -382,10 +382,10 @@ Este módulo de acción crea una nueva carpeta en la unidad especificada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación donde desea crear una carpeta:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -393,8 +393,8 @@ Este módulo de acción crea una nueva carpeta en la unidad especificada.
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Seleccione la unidad donde desea crear una carpeta.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el [!DNL SharePoint] Sitio donde desea crear una carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo propietario de la unidad donde desea crear una carpeta.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea crear una carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo propietario de la unidad donde desea crear una carpeta.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -416,7 +416,7 @@ Este módulo de acción crea una nueva carpeta en la unidad especificada.
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtener un vínculo para compartir]
+#### [!UICONTROL Obtener un vínculo compartido]
 
 Este módulo de acción devuelve un vínculo compartido para el archivo especificado.
 
@@ -426,7 +426,7 @@ Este módulo de acción devuelve un vínculo compartido para el archivo especifi
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
@@ -441,7 +441,7 @@ Este módulo de acción devuelve un vínculo compartido para el archivo especifi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación para la que desea recuperar un vínculo compartido:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -449,8 +449,8 @@ Este módulo de acción devuelve un vínculo compartido para el archivo especifi
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo para el que desea recuperar un vínculo compartido.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo para el que desea recuperar un vínculo compartido. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo para el que desea recuperar un vínculo compartido.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo para el que desea recuperar un vínculo compartido. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo para el que desea recuperar un vínculo compartido.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -472,7 +472,7 @@ Este módulo de acción devuelve un vínculo compartido para el archivo especifi
  </tbody> 
 </table>
 
-#### [!UICONTROL Mover un archivo o una carpeta]
+#### [!UICONTROL Mover un archivo/carpeta]
 
 Este módulo de acción mueve un archivo o carpeta a una nueva ubicación de carpeta
 
@@ -482,7 +482,7 @@ Este módulo de acción mueve un archivo o carpeta a una nueva ubicación de car
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
@@ -497,7 +497,7 @@ Este módulo de acción mueve un archivo o carpeta a una nueva ubicación de car
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación que contiene el archivo o la carpeta que desea mover:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -505,8 +505,8 @@ Este módulo de acción mueve un archivo o carpeta a una nueva ubicación de car
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea mover.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el [!DNL SharePoint] Sitio que contiene el archivo o la carpeta que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea mover.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene el archivo o la carpeta que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea mover.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -530,7 +530,7 @@ Este módulo de acción mueve un archivo o carpeta a una nueva ubicación de car
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación a la que desea mover el archivo o la carpeta:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -538,13 +538,13 @@ Este módulo de acción mueve un archivo o carpeta a una nueva ubicación de car
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad donde desea mover el archivo o la carpeta.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el [!DNL SharePoint] Sitio donde desea mover el archivo o la carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo al que desea mover el archivo o la carpeta.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] al que desee mover el archivo o la carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo al que desea mover el archivo o la carpeta.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene la carpeta a la que desea mover el archivo o carpeta. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> <p>Si deja esto en blanco, el archivo o la carpeta solo se pueden mover dentro del mismo [!DNL OneDrive].</p> <p>Puede mover archivos y carpetas de [!UICONTROL Mi unidad] a una unidad de sitio de [!UICONTROL] o a una unidad de grupo de [!UICONTROL]. </p> <p>Solo puede mover archivos de una unidad de [!UICONTROL Site] a la misma unidad del mismo sitio.</p> <p>Solo puede mover archivos de una unidad de [!UICONTROL Group] a la misma unidad del mismo grupo.</p> </td> 
+   <td> <p>Seleccione o asigne la unidad que contiene la carpeta a la que desea mover el archivo o carpeta. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> <p>Si deja esto en blanco, el archivo o la carpeta solamente se podrá mover dentro del mismo [!DNL OneDrive].</p> <p>Puede mover archivos y carpetas de [!UICONTROL Mi unidad] a una unidad de sitio de [!UICONTROL] o a una unidad de grupo de [!UICONTROL]. </p> <p>Solo puede mover archivos de una unidad de [!UICONTROL Site] a la misma unidad del mismo sitio.</p> <p>Solo puede mover archivos de una unidad de [!UICONTROL Group] a la misma unidad del mismo grupo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Carpeta]</td> 
@@ -563,7 +563,7 @@ Este módulo de acción copia un archivo en una nueva ubicación de carpeta
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
@@ -578,7 +578,7 @@ Este módulo de acción copia un archivo en una nueva ubicación de carpeta
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación que contiene el archivo que desea copiar:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -586,8 +586,8 @@ Este módulo de acción copia un archivo en una nueva ubicación de carpeta
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea copiar.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea copiar.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea copiar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -615,8 +615,8 @@ Este módulo de acción copia un archivo en una nueva ubicación de carpeta
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad donde desea copiar el archivo.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el [!DNL SharePoint] Sitio donde desea copiar el archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo en cuya unidad desee copiar el archivo.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea copiar el archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo en cuya unidad desee copiar el archivo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -634,7 +634,7 @@ Este módulo de acción copia un archivo en una nueva ubicación de carpeta
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminar un archivo o una carpeta]
+#### [!UICONTROL Eliminar un archivo o carpeta]
 
 Este módulo de acción elimina el archivo seleccionado.
 
@@ -644,7 +644,7 @@ Este módulo de acción elimina el archivo seleccionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entrar (Archivo/Id. de carpeta y ruta)]</td> 
@@ -659,7 +659,7 @@ Este módulo de acción elimina el archivo seleccionado.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su [!DNL OneDrive] [location]</td> 
+   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
    <td> <p>Seleccione la ubicación en la que desea buscar:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
@@ -667,8 +667,8 @@ Este módulo de acción elimina el archivo seleccionado.
        <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea eliminar.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>Unidad del sitio [!UICONTROL]</b> </p> <p>Seleccione el [!DNL SharePoint] Sitio que contiene el archivo o la carpeta que desea eliminar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>Unidad de [!UICONTROL Group]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea eliminar.</p> </li> 
+     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene el archivo o la carpeta que desea eliminar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea eliminar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -688,7 +688,7 @@ Este módulo de acción elimina el archivo seleccionado.
 
 ### Otro
 
-#### [!UICONTROL Realizar una llamada de API]
+#### [!UICONTROL Realizar una llamada API]
 
 Este módulo realiza una llamada de API personalizada.
 
@@ -698,15 +698,15 @@ Este módulo realiza una llamada de API personalizada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su [!DNL OneDrive] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Cree una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas</a></td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Introduzca una ruta relativa a <code>https://graph.microsoft.com</code>. Ejemplo:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Escriba una ruta relativa a <code>https://graph.microsoft.com</code>. Ejemplo:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método]</td> 
-   td&gt; <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -718,7 +718,7 @@ Este módulo realiza una llamada de API personalizada.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cuerpo]</td> 
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -732,6 +732,6 @@ Este módulo realiza una llamada de API personalizada.
 
 Existen varios problemas posibles cuando falla la carga o actualización de un archivo:
 
-* El archivo cargado es demasiado grande y supera el límite de tamaño máximo para su [!DNL OneDrive] plan o ha utilizado todos sus [!DNL OneDrive] cuota de almacenamiento de la cuenta. Para obtener más espacio de almacenamiento, elimine los archivos existentes de [!DNL OneDrive] o actualice su [!DNL OneDrive] cuenta.
-* OneDrive no permite cargar dos archivos con el mismo nombre en una sola carpeta. Si la carpeta de destino contiene un archivo con el mismo nombre que el archivo que se está cargando, la ejecución del escenario finaliza con un error. La solución consiste simplemente en cambiar el nombre del archivo que se está cargando. Si su objetivo es actualizar un archivo, utilice el [!UICONTROL Actualización de un archivo] acción.
+* El archivo cargado es demasiado grande y supera el límite máximo de tamaño de archivo para el plan [!DNL OneDrive] o ha utilizado toda la cuota de almacenamiento de la cuenta [!DNL OneDrive]. Para obtener más espacio de almacenamiento, elimine los archivos existentes de [!DNL OneDrive] o actualice la cuenta de [!DNL OneDrive].
+* OneDrive no permite cargar dos archivos con el mismo nombre en una sola carpeta. Si la carpeta de destino contiene un archivo con el mismo nombre que el archivo que se está cargando, la ejecución del escenario finaliza con un error. La solución consiste simplemente en cambiar el nombre del archivo que se está cargando. Si su objetivo es actualizar un archivo, use la acción [!UICONTROL Actualizar un archivo].
 * La carpeta seleccionada anteriormente, en la que se está cargando el archivo, ya no existe. El escenario se detiene y tendrá que volver a seleccionar la carpeta de destino.

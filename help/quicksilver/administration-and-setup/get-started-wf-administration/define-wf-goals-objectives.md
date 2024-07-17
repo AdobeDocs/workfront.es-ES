@@ -37,11 +37,11 @@ Puede conseguirlo en Workfront configurando lo siguiente:
 
 * Cree una cola de solicitudes de Workfront para administrar solicitudes específicas dentro de la organización.
 
-  Para obtener más información sobre las colas de solicitudes, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Para obtener más información acerca de las colas de solicitudes, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 * Cree un informe para mostrar los problemas pendientes que no se hayan cerrado en un plazo de 5 días.
 
-  Para obtener más información sobre la creación de informes, consulte [Creación de un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Mejorar el tiempo dedicado a los proyectos y mejorar el gasto presupuestario en el próximo año
 
@@ -49,9 +49,9 @@ Puede conseguirlo en Workfront configurando lo siguiente:
 
 * Desarrolle una metodología de proyecto estándar para su organización. Esto incluye la identificación de los usuarios responsables de la creación y administración de proyectos, así como la concesión de aprobaciones.
 
-  Para obtener más información sobre la creación de proyectos, consulte [Creación de un proyecto](../../manage-work/projects/create-projects/create-project.md).
+  Para obtener más información sobre cómo crear proyectos, vea [Crear un proyecto](../../manage-work/projects/create-projects/create-project.md).
 
-  Para obtener más información sobre la creación de procesos de aprobación, consulte [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Para obtener más información acerca de cómo crear procesos de aprobación, vea [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 * Determine si debe organizar los proyectos en portafolios y programas para una administración más detallada del presupuesto y los recursos.
 
@@ -60,11 +60,11 @@ Puede conseguirlo en Workfront configurando lo siguiente:
 * Incluya un enfoque de prácticas recomendadas para ofrecer calidad en cada proyecto.
 * Identifique cualquier proyecto repetible que pueda utilizarse para crear plantillas.
 
-  Para obtener más información sobre la creación de plantillas, consulte [Creación de una plantilla de proyecto](../../manage-work/projects/create-and-manage-templates/create-template.md).
+  Para obtener más información sobre cómo crear plantillas, vea [Crear una plantilla de proyecto](../../manage-work/projects/create-and-manage-templates/create-template.md).
 
 * Cree un panel que muestre el progreso de los portafolios de proyectos de este año.
 
-  Para obtener más información sobre la creación de tableros, consulte [Crear un tablero](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+  Para obtener más información sobre cómo crear un tablero, vea [Crear un tablero](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Mejorar la calidad de los servicios con una mejor gestión de los procesos internos
 
@@ -72,7 +72,7 @@ Puede conseguirlo en Workfront configurando lo siguiente:
 
 * Desarrolle un proceso para la entrega de servicios y utilice Workfront para administrar las tareas asociadas con cualquier responsabilidad diaria o semanal.
 * Utilice las herramientas de administración de recursos para ver la asignación de recursos a las tareas y comprender mejor cómo mejorar la productividad y la calidad de la entrega.\
-  Para obtener más información sobre la planificación de recursos, consulte [Planificación de recursos: índice del artículo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Para obtener más información acerca de Planificación de recursos, vea [Planificación de recursos : índice de artículo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Definir criterios de éxito
 

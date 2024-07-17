@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión beta 1 de 2018.2
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 1 de 2018.2. La funcionalidad se publicó en el entorno de vista previa el 22 de marzo de 2018. Estará disponible en el entorno de producción en junio de 2018.
+title: Actividad de la versión 2018.2 de Beta 1
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2018.2 Beta 1. La funcionalidad se publicó en el entorno de vista previa el 22 de marzo de 2018. Estará disponible en el entorno de producción en junio de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión beta 1 de 2018.2
+# Actividad de la versión 2018.2 de Beta 1
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 1 de 2018.2. La funcionalidad se publicó en el entorno de vista previa el 22 de marzo de 2018. Estará disponible en el entorno de producción en junio de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2018.2 Beta 1. La funcionalidad se publicó en el entorno de vista previa el 22 de marzo de 2018. Estará disponible en el entorno de producción en junio de 2018.
 
 >[!IMPORTANT]
 >
 >La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.2, consulte [información general sobre la actividad de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2018.2, consulte [Resumen de la actividad de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La versión beta 1 de 2018.2 incluye las siguientes mejoras:
+La versión 2018.2 de Beta 1 incluye las siguientes mejoras:
 
-* [Modificar fechas de tarea en el diagrama de Gantt](#modify-task-dates-in-the-gantt-chart)
-* [Acceda al diagrama de Gantt del proyecto desde la pestaña Actualizaciones](#access-the-project-gantt-chart-from-the-updates-tab) (Eliminado temporalmente)
+* [Modificar fechas de tarea en el gráfico Gantt](#modify-task-dates-in-the-gantt-chart)
+* [Acceder al gráfico Gantt del proyecto desde la ficha Actualizaciones](#access-the-project-gantt-chart-from-the-updates-tab) (Eliminado temporalmente)
 
 * [Se han vuelto a introducir varios vínculos a documentos de la lista de documentos](#various-links-re-introduced-to-documents-on-the-document-list)
-* [Mejoras en la vista de usuarios del Planificador de recursos](#user-view-improvements-in-the-resource-planner)
+* [Mejoras en la vista de usuario en el Planificador de recursos](#user-view-improvements-in-the-resource-planner)
 * [Nueva experiencia de lista de proyectos](#new-project-list-experience)
-* [Nueva pestaña Buscar actualizaciones](#new-look-for-updates-tab)
+* [Nueva ficha Buscar actualizaciones](#new-look-for-updates-tab)
 * [Mejoras de Mobile](#mobile-improvements)
 
 ## Modificar fechas de tarea en el diagrama de Gantt {#modify-task-dates-in-the-gantt-chart}
@@ -41,7 +41,7 @@ Ahora puede arrastrar la burbuja de tareas para cambiar las fechas planificadas 
 
 Antes de este cambio, las fechas de las tareas solo se podían cambiar en la lista de tareas o en el nivel de tarea.
 
-Para obtener más información, consulte [Actualizar información en el gráfico Gantt de lista de tareas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obtener más información, vea [Actualizar información en la lista de tareas Diagrama de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Acceda al diagrama de Gantt del proyecto desde la pestaña Actualizaciones {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ Ahora puede acceder al nuevo gráfico Gantt del proyecto desde la pestaña Actua
 
 Antes de este cambio, el vínculo Escala de tiempo del proyecto abría el Diagrama de Gantt heredado.
 
-Para obtener más información, consulte [Resumen de fecha de confirmación](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Para obtener más información, consulte [Resumen de la fecha de confirmación](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-Para obtener más información, consulte [Información general de Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Para obtener más información, consulte [Descripción general de Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Se han vuelto a introducir varios vínculos a documentos de la lista de documentos {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -119,10 +119,10 @@ En su mayor parte, los cambios están en la velocidad y la eficacia de la lista.
 
 Las siguientes funciones se han deshabilitado temporalmente en las listas de proyectos especificadas:
 
-* Cambio de tamaño de columna (esta funcionalidad se volvió a introducir en la versión beta 5 de 2018.2)
+* Cambio de tamaño de columna (esta funcionalidad se volvió a introducir en la versión 2018.2 de Beta 5)
 * Reordenación de columnas
-* Los campos del icono de estado se muestran en blanco (esta funcionalidad se volvió a introducir en la versión Beta 5 de 2018.2)
-* No se puede acceder al gráfico Gantt (esta funcionalidad se volvió a introducir en la versión beta 3 de 2018.2).
+* Los campos del icono de estado se muestran en blanco (esta funcionalidad se volvió a introducir en la versión 2018.2 de Beta 5)
+* No se puede acceder al gráfico Gantt (esta funcionalidad se volvió a introducir en la versión 2018.2 de Beta 3).
 
 Para obtener más información sobre cómo trabajar en listas, consulte [Introducción a las listas en Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -144,7 +144,7 @@ La siguiente tabla muestra las actualizaciones realizadas en la pestaña Actuali
  <thead> 
   <tr> 
    <th> <p><strong>Tarea</strong> </p> </th> 
-   <th> <p><strong>Acción del usuario anterior</strong> </p> </th> 
+   <th> <p><strong>Acción anterior del usuario</strong> </p> </th> 
    <th> <p><strong>Nueva acción de usuario</strong> </p> </th> 
    <th> <p><strong>Para obtener más información, consulte...</strong> </p> </th> 
   </tr> 
@@ -154,25 +154,25 @@ La siguiente tabla muestra las actualizaciones realizadas en la pestaña Actuali
    <td> <p>Registrar las horas en una plantilla de horas</p> </td> 
    <td> <p>Haga clic en el vínculo Registrar tiempo</p> </td> 
    <td> <p>Haga clic en el botón Registrar tiempo</p> </td> 
-   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Registrar tiempo</a> </p> </td> 
+   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Hora de registro</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Filtrado de actualizaciones del sistema en la ficha Actualizaciones</p> </td> 
    <td> <p>Haga clic en el vínculo Filtrar actualizaciones del sistema</p> </td> 
    <td> <p>Desactive la opción Mostrar registro de actividad</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Actualizar trabajo</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Visualización de actualizaciones del sistema en la ficha Actualizaciones</p> </td> 
    <td> <p>Haga clic en Mostrar todas las actualizaciones</p> </td> 
    <td> <p>Activar la opción Mostrar registro de actividad</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Actualizar trabajo</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Etiquetado de otros usuarios en una actualización o comentario</p> </td> 
    <td> <p>Haga clic en el icono Incluir a otros en esta actualización</p> </td> 
    <td> <p>Agregar usuarios y equipos en el campo Notificar</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Actualizar trabajo</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Permitir que solo los usuarios de su empresa vean un objeto</p> </td> 
@@ -190,7 +190,7 @@ La siguiente tabla muestra las actualizaciones realizadas en la pestaña Actuali
    <td> <p>Agregar una respuesta o una actualización a un comentario o una actualización</p> </td> 
    <td> <p>Haga clic en el botón Comentario</p> </td> 
    <td> <p>Haga clic en el botón Responder o Actualizar</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Actualizar trabajo</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Actualizar estado de la tarea</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Actualizar condición para tareas y problemas</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Añadir una actualización a un documento</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Actualizar estado de la tarea</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Actualizar condición para tareas y problemas</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Agregar una actualización a un documento</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ La aplicación móvil incluye las siguientes mejoras:
 
   Para obtener más información sobre cómo compartir vínculos, consulte .
 
-  Esta actualización se publicará en iOS a veces esta semana, y la actualización de Android debería producirse poco después.
+  Esta actualización se lanzará a iOS a veces esta semana y la actualización de Android debe realizarse poco después.
 
 * Hemos actualizado nuestros requisitos de soporte para la plataforma iOS para admitir iPhone X.
 

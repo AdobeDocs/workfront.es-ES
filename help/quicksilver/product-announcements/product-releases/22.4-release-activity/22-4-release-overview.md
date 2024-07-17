@@ -41,7 +41,7 @@ Estas mejoras estaban disponibles en el entorno de producción con la versión 2
 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -72,14 +72,14 @@ Estas mejoras estaban disponibles en el entorno de producción con la versión 2
                                 <p>Versión de vista previa: N/D<br /></p>
                             </li>
                             <li>
-                                <p>Versión de producción: con la versión 22.4 <span style="color: #ff0000;">Esta migración se ha pospuesto para el primer y segundo trimestre de 2023. </span></p>
+                                <p>Versión de producción: con la versión de 22.4 <span style="color: #ff0000;">Esta migración se ha pospuesto al primer trimestre de 2023. </span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">El icono Modelos del menú principal ahora se controla mediante plantillas de diseño</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">El icono de modelos del menú principal ahora se controla mediante plantillas de diseño</a></p>
                         <p>Los administradores del sistema ahora pueden añadir o quitar el icono Modelos en el menú principal mediante la configuración de la plantilla de diseño. Esto proporciona un mayor control sobre quién puede examinar el catálogo de modelos.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -97,7 +97,7 @@ Estas mejoras estaban disponibles en el entorno de producción con la versión 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Personalizar encabezado de problema</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Personalización del encabezado del problema</a></p>
                         <p>Como administrador de Workfront o de un grupo, ahora puede personalizar los campos que se muestran en el encabezado de un problema al utilizar una plantilla de diseño. Esta actualización incluye varias mejoras, incluida la capacidad de quitar o reorganizar los campos existentes del encabezado del problema y agregar nuevos campos de Información general del problema que no se pueden editar.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -174,7 +174,7 @@ Estas mejoras estaban disponibles en el entorno de producción con la versión 2
             <tbody>
  <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -209,10 +209,10 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
   </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Selección inteligente de usuarios para las funciones de proyecto en las áreas Editar y Detalles</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Selección inteligente de usuarios para los roles de proyecto en las áreas de edición y detalles</a> </p>
                         <p>Hemos mejorado la forma en que se muestran los usuarios al agregarlos a los campos de proyecto Propietario del proyecto, Patrocinador del proyecto y Administrador de recursos desde el cuadro de diálogo Editar y la sección Detalles del proyecto.</p>
                         <p>Ahora, cuando agregue un usuario a cualquiera de estos campos en las áreas Editar o Detalles, además de su nombre y avatar, también se mostrarán su función principal y su correo electrónico. Esto ayuda a distinguir entre varios usuarios con nombres similares o idénticos.</p>
-                        <p><b>NOTA:</b> En futuras versiones se actualizarán los campos de usuario adicionales para proyectos, tareas y problemas con esta funcionalidad.</p>
+                        <p><b>NOTA:</b> Los campos de usuario adicionales para proyectos, tareas y problemas se actualizarán con esta funcionalidad en futuras versiones.</p>
                     </td>
                     <td><b>Disponible en estas fechas:</b>
                         <ul>
@@ -227,7 +227,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos de fecha calculados siempre se guardan en función de la hora universal coordinada (UTC)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos de fecha calculados siempre se guardan según la hora universal coordinada (UTC)</a> </p>
                         <p>Ahora puede estar seguro de que todas las funciones de fecha de los campos calculados funcionan de forma coherente y producen el mismo resultado para todos, independientemente de cómo se actualice una expresión de datos personalizada o de dónde colaboren los usuarios en el objeto en todo el mundo. </p>
                         <p>Ahora, todos los cálculos se calculan y guardan según un estándar (hora universal coordinada (UTC)), no según las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario individual. Sin embargo, los cálculos se muestran en un formulario personalizado basado en las zonas horarias individuales de cada usuario establecidas en el explorador.</p>
                         <p>Anteriormente, la configuración de tiempo en los cálculos causaba confusión cuando variaba en estas situaciones:</p>
@@ -254,7 +254,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de filtro para proyectos, tareas y problemas (Beta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de filtrado para proyectos, tareas y problemas (Beta)</a> </p>
                         <p>El filtrado en las listas de proyectos, tareas y problemas se ha rediseñado para ayudarle a crear y compartir filtros rápidamente. Las funciones incluyen:</p>
                         <ul>
                             <li>
@@ -328,7 +328,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -338,7 +338,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Columna de admisión disponible en tableros</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Columna de admisión disponible en los tableros</a></p>
                         <p>Ahora puede añadir una columna de entrada a un tablero. Esta columna extrae automáticamente las tareas y los problemas del tablero a medida que se añaden en Workfront, según los filtros que defina.</p>
                         <p>La columna de entrada puede servir como columna de registro de asuntos pendientes para un equipo de Kanban, como ubicación de entrada para que un equipo de asistencia vea los problemas a medida que se añaden a una cola de solicitudes o para cualquier otro fin que necesite.</p>
                         <p>Solo se permite una columna de admisión en un tablero.</p>
@@ -359,7 +359,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Panel de filtro actualizado en tableros</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Se ha actualizado el panel de filtros en los tableros</a></p>
                         <p>Los iconos de filtro y búsqueda de un tablero se han movido a la izquierda de la pantalla. Al hacer clic en el icono de filtro, se abre un panel a la izquierda para mostrar todas las opciones de filtro.</p>
                         <p>Anteriormente, los filtros se mostraban en una lista desplegable en el lado derecho del tablero.</p>
                     </td>
@@ -379,7 +379,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Uso de grupos en un tablero para crear rutas de baño</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Use grupos en un tablero para crear calles</a></p>
                         <p>Ahora puede agrupar tarjetas en un tablero por usuario asignado o por etiqueta. Al seleccionar una opción para agrupar por, las tarjetas aparecen en formato de calle. Las tarjetas sin asignar o las tarjetas sin etiquetas aparecen en su propia calle.</p>
                         <p>También puede definir lo que sucede cuando una tarjeta se mueve de un grupo a otro. El usuario asignado o la etiqueta en el grupo al que se mueve la tarjeta se pueden agregar a los usuarios asignados o las etiquetas existentes, o anular los demás usuarios asignados o etiquetas de la tarjeta.</p>
                         <p>Las tarjetas de la columna de entrada no se incluyen en un grupo.</p>
@@ -397,7 +397,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en los elementos de listas de comprobación de los tableros</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en los elementos de la lista de comprobación en los tableros</a> </p>
                         <p>Abrir un elemento de la lista de comprobación en una tarjeta ahora le permite agregar información más detallada sobre el elemento, incluida una descripción, fecha de vencimiento, usuarios asignados y estimación. También puede copiar un elemento de lista de comprobación, que no estaba disponible anteriormente.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -437,7 +437,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">El límite de trabajo en curso ya está disponible en las columnas de tablero</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">El límite de trabajo en curso ya está disponible en las columnas del tablero</a> </p>
                         <p>Ahora puede establecer un límite de trabajo en curso (WIP) para cualquier columna de un tablero. Al habilitar un límite de WIP, aparece un contador en la columna con el número actual de tarjetas y el límite. El contador se vuelve rojo si la columna contiene más tarjetas que el límite. Esto es simplemente una advertencia visual y no se le impide agregar más tarjetas que el límite.</p>
                     </td>
                     <td><b>Disponible en estas fechas:</b>
@@ -456,7 +456,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Campo de estimación añadido a las tarjetas</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Campo de estimación agregado a las tarjetas</a> </p>
                         <p>Un nuevo campo Estimación en las tarjetas ad hoc y conectadas le permite introducir el número estimado de horas para completar la tarjeta. Es una entrada manual, no un valor calculado, y el valor no puede ser superior a 99. La estimación se muestra en la tarjeta del tablero y en los detalles de la tarjeta.</p>
                     </td>
                     <td>
@@ -486,7 +486,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -496,7 +496,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Mostrar todos los usuarios del Distribuidor de cargas de trabajo de un proyecto</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Mostrar todos los usuarios para el Distribuidor de cargas de trabajo de un proyecto</a></p>
                         <p>Para permitirle tener visibilidad de todos los usuarios del sistema y de su capacidad sin salir del Distribuidor de cargas de trabajo de un proyecto, hemos añadido la opción "Mostrar todos los usuarios". Cuando se habilita, el Distribuidor de cargas de trabajo del proyecto muestra todos los usuarios del sistema en el área de Trabajo asignado. Con esta mejora, puede identificar fácilmente a quién debe asignarse a un trabajo enumerado en el área de Trabajo no asignado.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -577,7 +577,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -604,7 +604,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront para InDesign</a> <span style="color: #ff0000;"> ¡Novedades en producción!</span> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront para el InDesign</a> <span style="color: #ff0000;"> ¡Nuevo en producción!</span> </p>
                         <p>Este complemento ya está disponible para su instalación en InDesign. XD Permite acceder a los detalles del elemento de trabajo, colaborar con sus compañeros en el área de Actualizaciones y enviar pruebas para su revisión sin salir de la sala de. Vaya a Adobe Creative Cloud Marketplace para descargar el complemento hoy mismo. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -621,7 +621,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 <tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sincronización de metadatos de objeto con la integración nativa de Experience Manager Assets</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sincronizar metadatos de objeto con la integración nativa de Experience Manager Assets</a> </p>
                         <p>Ahora, los campos de portafolio, programa, proyecto, tarea, problema y documento de Workfront se actualizan automáticamente cuando se modifican en Workfront.</p>
                         <p>Para permitir que los metadatos de objeto se sincronicen automáticamente, debe habilitar la opción Sincronizar metadatos de objeto para sus integraciones en Configuración &gt; Integraciones de Experience Manager.</p>
                         <p>Anteriormente, solo se actualizaban automáticamente los campos de proyecto.</p>
@@ -639,7 +639,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Inserciones de metadatos para objetos principales de programa y portafolio</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Inserciones de metadatos para objetos principales de portafolio y programa</a></p>
                         <p>Ahora, cuando se envía un recurso por primera vez a Experience Manager Assets o a Assets Essentials, también se envían los metadatos configurados para asignarlos a objetos principales de programa y portafolio.</p>
                         <p>Anteriormente, solo se enviaban los datos del proyecto principal.</p>
                     </td>
@@ -656,7 +656,7 @@ Nota: Actualmente, esta funcionalidad no está disponible en el Distribuidor de 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campañas de Workfront (Beta)</a> </p>
                         <p>Presentamos un nuevo objeto para Adobe Workfront que tiene el potencial de cambiar la forma en que administra el trabajo. </p>
                         <p>Workfront Campaigns permite organizar proyectos de diferentes portafolios y programas en un nuevo contenedor de trabajo.
 Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en julio de 2022.</p>
@@ -666,19 +666,19 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
     &lt;td>&lt;p>&lt;b>Disponible en estas fechas:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Versión de vista previa: durante todo el periodo de tiempo de la versión 22.4&lt;br />&lt;/p>
+    &lt;p>Versión de vista previa:&amp;#160;Durante todo el periodo de tiempo de la versión de 22.4&lt;br />&lt;/p>
     &lt;/li>
     &lt;li>
-    &lt;p>Versión de producción: por determinar&lt;/p>
+    &lt;p>Versión de producción:&amp;#160;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
-    &lt;/tr>
-    &lt;tr>
+    &lt;/tr> 12}&lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Descripción del equipo ampliada&lt;/a>&lt;/p>
-    &lt;p>En el área Equipos, ahora puede ver la descripción completa del equipo haciendo clic en la descripción para mostrarla en una ventana emergente. {para} Se puede hacer clic en cualquier dirección URL de la descripción en la ventana emergente y hacer clic en el texto de la descripción para editarlo (si tiene acceso para editar la configuración del equipo).&lt;/p>
-    &lt;p>Anteriormente, el desplazamiento por la descripción en un área estrecha era la única manera de ver todo el contenido.&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Descripción del equipo ampliada&lt;/a>&lt;/p>
+    &lt;p>En el área Equipos, ahora puede ver la descripción completa del equipo haciendo clic en la descripción para mostrarla en una ventana emergente. 
+     Se puede hacer clic en cualquier dirección URL de la descripción en la ventana emergente y hacer clic en el texto de la descripción para editarlo (si tiene acceso para editar la configuración del equipo).&lt;/p>
+    &lt;p>Anteriormente, la única manera de ver todo el contenido era desplazarse por la descripción en un área estrecha.&lt;/p>
 <p>Esta mejora en la descripción se aplica tanto a los equipos Agile como a los no Agile.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -728,21 +728,21 @@ No hay actualizaciones de Workfront Goals en este punto de la versión. Esta ár
 
 Para la versión 14 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 14 de la API](/help/quicksilver/wf-api/api/new-api-version-14.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 14](/help/quicksilver/wf-api/api/new-api-version-14.md) de la API.
 
-Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de asistencia](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Seminario web sobre la versión 22.4
 
-El seminario web de la versión 22.4 se celebrará el jueves, 22 de septiembre de 2022 a las 9:00 (PDT). Puede [regístrese aquí para unirse al seminario web](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+El seminario web de la versión 22.4 se celebrará el jueves, 22 de septiembre de 2022 a las 9:00 (PDT). Puedes [registrarte para el seminario web aquí](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Actualizaciones de formación
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la [Página Actualizaciones de versión de formación](https://one.workfront.com/s/training-release-updates).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la [página Actualizaciones de la versión de formación](https://one.workfront.com/s/training-release-updates).
 
 ### Funcionalidad que se elimina con la versión 22.4
 
@@ -773,4 +773,4 @@ La siguiente función se eliminará en noviembre de 2022:
 
   Este tipo de evento permitía a los clientes observar cuándo se actualizaban los permisos de los objetos.
 
-  Para obtener más información sobre las Suscripciones de eventos, así como otros tipos de eventos que seguirán siendo compatibles, consulte [API de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Para obtener más información acerca de las suscripciones a eventos, así como otros tipos de eventos que seguirán siendo compatibles, consulte [API de suscripción a eventos](/help/quicksilver/wf-api/general/event-subs-api.md)

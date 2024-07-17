@@ -53,8 +53,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes:</p> 
     <ul> 
-     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> </li> 
-     <li> <p><b>Usuarios</b> en su nivel de acceso configurado en <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Administrador (usuarios de grupo)</b> está habilitada, debe ser administrador de un grupo del que sea miembro el usuario.</p> <p>Para obtener más información sobre <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
+     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>. </p> </li> 
+     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Admin (usuarios del grupo)</b> está habilitado, debe ser administrador de un grupo del que el usuario sea miembro.</p> <p>Para obtener más información sobre la configuración de <b>Usuarios</b> en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a usuarios</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 Al desactivar un usuario, suceden las siguientes cosas:
 
-* Quita las licencias del usuario tanto a Workfront como a Workfront Proof si el componente de Workfront Proof está asociado a su cuenta de Workfront. Para obtener más información sobre Workfront Proof, consulte [Workfront Proof: índice de artículos](../../../workfront-proof/workfront-proof.md).
+* Quita las licencias del usuario tanto a Workfront como a Workfront Proof si el componente de Workfront Proof está asociado a su cuenta de Workfront. Para obtener más información acerca de Workfront Proof, vea [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
 * Ya no se puede asignar trabajo al usuario.
 * El usuario ya no puede añadirse a las actualizaciones.
 * El usuario ya no se puede agregar a equipos o grupos.
@@ -76,18 +76,18 @@ Al desactivar un usuario, suceden las siguientes cosas:
 
      >[!NOTE]
      >
-     >Si desactiva un usuario y ya no puede ver los informes o paneles asociados a él, es posible que tenga que actualizar el **Ejecutar este informe con los derechos de acceso de:** field.\
-     >Para obtener más información, consulte la [¿Por qué no puedo acceder a un informe propiedad de un usuario desactivado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de la sección [Preguntas frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artículo.
+     >Si desactiva un usuario y ya no puede ver los informes o tableros asociados con un usuario, es posible que tenga que actualizar el campo **Ejecutar este informe con los derechos de acceso de:**.\
+     >Para obtener más información, consulte [¿Por qué no puedo acceder a un informe propiedad de un usuario desactivado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) sección del artículo [Preguntas más frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Documentos
    * Actualizaciones
    * Horas
 
-* Si el usuario tiene documentos desprotegidos, éstos permanecen desprotegidos cuando se desactivan. Solo un administrador de Workfront puede volver a registrarlos. Para obtener más información sobre la retirada de documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
+* Si el usuario tiene documentos desprotegidos, éstos permanecen desprotegidos cuando se desactivan. Solo un administrador de Workfront puede volver a registrarlos. Para obtener más información acerca de cómo desproteger documentos, vea [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
 Al eliminar un usuario, ocurren las siguientes cosas:
 
-* Quita las licencias del usuario tanto a Workfront como a Workfront Proof, si el componente Workfront Proof está asociado a su cuenta de Workfront. Para obtener más información sobre Workfront Proof, consulte [Workfront Proof: índice de artículos](../../../workfront-proof/workfront-proof.md).
+* Quita las licencias del usuario tanto a Workfront como a Workfront Proof, si el componente de Workfront Proof está asociado a su cuenta de Workfront. Para obtener más información acerca de Workfront Proof, vea [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
 * Ya no se puede asignar trabajo al usuario.
 * El usuario ya no puede añadirse a las actualizaciones.
 * El usuario ya no se puede agregar a equipos o grupos.
@@ -100,7 +100,7 @@ Al eliminar un usuario, ocurren las siguientes cosas:
      >[!NOTE]
      >
      >También pierde acceso a las secciones personalizadas que contenían paneles asociados al usuario eliminado.\
-     >Para obtener más información, consulte la [¿Cómo puedo acceder a un tablero que contiene un informe propiedad de un usuario eliminado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) de la sección [Preguntas frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artículo.
+     >Para obtener más información, consulte [¿Cómo puedo acceder a un tablero que contiene un informe propiedad de un usuario eliminado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) sección del artículo [Preguntas más frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Actualizaciones
    * Horas
@@ -110,18 +110,18 @@ Al eliminar un usuario, ocurren las siguientes cosas:
      >Estos objetos permanecen en Workfront, pero su propietario está ahora en blanco.
 
 * Si el usuario ha cargado algún documento en el área Documentos de la barra de navegación global, los documentos también se eliminan.
-* Si el usuario ha retirado los documentos que le pertenecen y los documentos se cargan en el área principal de Documentos (a la que se accede desde el menú principal), los documentos se eliminan con el usuario. Para obtener más información sobre la retirada de documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
+* Si el usuario ha retirado los documentos que le pertenecen y los documentos se cargan en el área principal de Documentos (a la que se accede desde el menú principal), los documentos se eliminan con el usuario. Para obtener más información acerca de cómo desproteger documentos, vea [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
-Para obtener más información sobre la desactivación de usuarios, consulte [Desactivar o reactivar un usuario](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+Para obtener más información sobre cómo desactivar usuarios, consulte [Desactivar o reactivar un usuario](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
 Puede eliminar usuarios de forma permanente de uno en uno, o bien puede eliminar varios usuarios de forma simultánea de forma permanente. Cuando elimine usuarios individuales, debe esperar a que se complete el proceso de eliminación antes de pasar a otras actividades en Workfront. El proceso de eliminar varios usuarios se ejecuta simultáneamente como un proceso en segundo plano, por lo que puede seguir utilizando Workfront a medida que se eliminan los usuarios.
 
 ## Eliminar uno o más usuarios
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Clic **Usuarios**.
-1. Seleccione al menos un usuario que desee eliminar y haga clic en el menú Más ![](assets/more-icon.png), luego haga clic en **Eliminar**.
+1. Haga clic en **Usuarios**.
+1. Seleccione al menos un usuario que desee eliminar, haga clic en el menú Más ![](assets/more-icon.png) y luego haga clic en **Eliminar**.
 1. En el cuadro que aparece, haga clic en **Eliminar** para confirmar la eliminación.
 
    El proceso de eliminación de usuarios se ejecuta como un proceso en segundo plano, por lo que puede seguir utilizando Workfront a medida que se eliminan los usuarios.

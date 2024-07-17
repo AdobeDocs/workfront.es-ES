@@ -19,7 +19,7 @@ ht-degree: 1%
 
 {{important-admin-console-onboard}}
 
-Después de desactivar el inicio de sesión único (SSO) en Adobe Workfront, los usuarios deben iniciar sesión con sus credenciales de Workfront. Estas son las credenciales que el usuario configuró originalmente. (Si necesita cambiar las credenciales del usuario, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
+Después de desactivar el inicio de sesión único (SSO) en Adobe Workfront, los usuarios deben iniciar sesión con sus credenciales de Workfront. Estas son las credenciales que el usuario configuró originalmente. (Si necesita cambiar las credenciales de usuario, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)).
 
 
 ## Requisitos de acceso
@@ -40,16 +40,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Desactivar SSO
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Haga clic en **Sistema** > **Inicio de sesión único (SSO)**.
 
-1. Desplácese hasta la parte inferior de la página y deshabilite la **Habilitar** .
+1. Desplácese hasta la parte inferior de la página y deshabilite la opción **Habilitar**.
 1. Haga clic en **Guardar**.

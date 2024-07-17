@@ -93,18 +93,18 @@ Debe tener lo siguiente:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Configuraciones de nivel de acceso*</strong> </td> 
-   <td> <p>Editar acceso a Proyectos con capacidad de Creación <span>y Copiar</span> proyectos</p> <p><b>NOTA</b>
+   <td> <p>Editar acceso a Proyectos con capacidad para Crear <span>y Copiar</span> proyectos</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Permisos de objeto</strong> </p> </td> 
-   <td> <p>Ver permisos o superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos o superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Copiar un solo proyecto
 
@@ -112,27 +112,27 @@ Al copiar un proyecto también se copia parte de la información del proyecto or
 
 Para copiar un proyecto:
 
-1. Vaya al proyecto que desee copiar y haga clic en **Más** icono ![](assets/qs-more-menu.png) a la derecha del nombre del proyecto
+1. Vaya al proyecto que desee copiar y haga clic en el icono **Más** ![](assets/qs-more-menu.png) a la derecha del nombre del proyecto
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    O
 
-   Vaya a una lista de proyectos o a un informe y seleccione un proyecto. A continuación, haga clic en **Más** icono ![](assets/qs-more-menu.png) al principio de la lista.
+   Vaya a una lista de proyectos o a un informe y seleccione un proyecto. Luego, haga clic en el icono **Más** ![](assets/qs-more-menu.png) que se encuentra en la parte superior de la lista.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. Clic **Copiar**.
+1. Haga clic en **Copiar**.
 
 1. Actualice el nombre del nuevo proyecto.
 
-   De forma predeterminada, el nuevo nombre es **Copia de `<Original project name>`.**
+   De manera predeterminada, el nuevo nombre es **Copia de `<Original project name>`.**
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
-1. Seleccione el **Estado** para el nuevo proyecto.
+1. Seleccione **Estado** para el nuevo proyecto.
 
-   De forma predeterminada, la variable **Estado** coincide con el del proyecto original.
+   De manera predeterminada, **Status** coincide con el proyecto original.
 
 1. (Opcional) Anule la selección de los elementos que no quiera copiar en el nuevo proyecto. En la tabla siguiente se describe lo que sucede cuando se anula la selección de los elementos:
 
@@ -145,7 +145,7 @@ Para copiar un proyecto:
       <td role="rowheader">Seleccionar todo</td> 
       <td> <p>Selecciona todas las opciones y borra todos los campos y objetos enumerados del nuevo proyecto.</p> <p><b>SUGERENCIA</b>
 
-   Anulando selección <strong>Seleccionar todo</strong> anula la selección de todos los elementos. </p> </td>
+   Al anular la selección de <strong>Seleccionar todo</strong>, se anularán todos los elementos. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Asignaciones</td> 
@@ -183,7 +183,7 @@ Para copiar un proyecto:
 
 <b>NOTA</b>
 
-Las horas presupuestadas con el Scenario Planner nunca se copian en el nuevo proyecto porque el nuevo proyecto no está vinculado a una iniciativa del Scenario Planner. Para obtener más información, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Presupuestar recursos en el caso empresarial con el Scenario Planner</a>
+Las horas presupuestadas con el Scenario Planner nunca se copian en el nuevo proyecto porque el nuevo proyecto no está vinculado a una iniciativa del Scenario Planner. Para obtener más información, consulte <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Recursos presupuestarios en el caso comercial con Scenario Planner</a>
 </tr></td>
     <tr> 
       <td role="rowheader">Información financiera</td> 
@@ -192,7 +192,7 @@ Las horas presupuestadas con el Scenario Planner nunca se copian en el nuevo pro
         <li>Subpestaña Finanzas del proyecto</li> 
         <li> Beneficio planificado en el caso comercial</li> 
         <li>Información financiera de todas las tareas<br></li> 
-       </ul> <p>Para obtener más información sobre la subpestaña Project Finance, consulte <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Administrar información en el área de finanzas del proyecto</a>.</p> </td> 
+       </ul> <p>Para obtener más información acerca de la subficha Finanzas del proyecto, vea <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Administrar información en el área Finanzas del proyecto</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Proceso de aprobación</td> 
@@ -213,7 +213,7 @@ Las horas presupuestadas con el Scenario Planner nunca se copian en el nuevo pro
     </tbody> 
    </table>
 
-1. Clic **Copiar** para crear una copia del proyecto.
+1. Haga clic en **Copiar** para crear una copia del proyecto.
 
    Esto crea un nuevo proyecto similar al proyecto que ha copiado.
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras en el flujo de actualización y las notificaciones realizadas con la versión del primer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión del primer trimestre de 2024.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2024, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2024, consulte [Información general de la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Arrastre y suelte la imagen en un comentario en la sección Actualizaciones
 
@@ -26,7 +26,7 @@ Puede agregar imágenes guardadas en el equipo únicamente en los siguientes for
 
 Esta funcionalidad existía en el flujo de comentarios heredado y ahora se ha agregado a la nueva experiencia de comentarios.
 
-Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## La nueva experiencia de comentarios captura toda la información de proyectos, tareas, problemas y documentos
 
@@ -38,9 +38,9 @@ Para buscar rápidamente información en la sección Actualizaciones de un objet
 
 Los comentarios que son relevantes para su búsqueda se filtran y las palabras clave se resaltan, por lo que puede encontrarlos fácilmente.
 
-Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3425730/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3425730/){target=_blank}
 
 ## Copiar y pegar una imagen en un comentario en la sección Actualizaciones
 
@@ -48,6 +48,6 @@ Para proporcionar contexto al contenido de un mensaje, ahora puede adjuntar ráp
 
 Se admiten los siguientes formatos de archivo: .jpg, .jpeg, .png, .gif.
 
-Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Vea un vídeo de demostración de esta función.](https://video.tv.adobe.com/v/3425731/){target=_blank}
+[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3425731/){target=_blank}

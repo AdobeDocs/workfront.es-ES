@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Información general de la versión 22.3
 
-Esta página proporciona información sobre la funcionalidad incluida en la versión 22.3. Todas las funciones enumeradas están disponibles en la nueva experiencia de Adobe Workfront. Algunas funciones también están disponibles en Adobe Workfront Classic; sin embargo, [Workfront Classic dejará de utilizarse en marzo de 2022](https://one.workfront.com/s/new-workfront-experience), seguida en breve por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022.
+Esta página proporciona información sobre la funcionalidad incluida en la versión 22.3. Todas las funciones enumeradas están disponibles en la nueva experiencia de Adobe Workfront. Algunas funciones también están disponibles en Adobe Workfront Classic; sin embargo, [Workfront Workfront Classic dejará de usarse en marzo de 2022](https://one.workfront.com/s/new-workfront-experience), y poco después finalizará su vida útil en julio de 2022.
 
 Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022.
 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras del administrador](#administrator-enhancements)
-* [Mejoras del proyecto](#project-enhancements)
+* [Mejoras en el proyecto](#project-enhancements)
 * [Mejoras en Administración de recursos](#resource-management-enhancements)
 * [Mejoras de informes](#reporting-enhancements)
-* [Mejoras de integración](#integration-enhancements)
+* [Mejoras en la integración](#integration-enhancements)
 * [Mejoras de Mobile](#mobile-enhancements)
 * [Otras mejoras](#other-enhancements)
 
@@ -36,8 +36,8 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Función</strong> </p> </td> 
-   <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
+   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Integración de Adobe Workfront con JumpSeat
@@ -98,7 +98,7 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">El editor de cálculo de campos de formulario personalizados muestra información de error
-</a><span style="color: #ff0000; font-weight: bold;"> (Temporalmente no disponible)</span></p></p> <p>Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el ratón por encima de la parte resaltada, se muestra información del objeto para describir el problema.</p>
+</a><span style="color: #ff0000; font-weight: bold;"> (no disponible temporalmente)</span></p></p> <p>Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el ratón por encima de la parte resaltada, se muestra información del objeto para describir el problema.</p>
     </td> 
     <td> <p><b>Disponible en estas fechas:</b> </p> 
     <ul> 
@@ -139,7 +139,7 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Desactivar un grupo de la página Grupos</a> </p> <p>Recientemente, hemos agregado la capacidad de desactivar y reactivar grupos. Para que esa acción sea más rápida y sencilla, la hemos agregado a la página de un grupo. Ahora, después de hacer clic en el nombre de un grupo para ir a su página, puede seleccionar el menú Más <img src="assets/more-icon.png"> junto al nombre del grupo y, a continuación, seleccione Desactivar o Reactivar.</p> <p>Anteriormente, sólo se podía desactivar o reactivar un grupo mediante la casilla de verificación Está activo en la página Detalles. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Desactivar un grupo de la página Grupos</a> </p> <p>Recientemente, hemos agregado la capacidad de desactivar y reactivar grupos. Para que esa acción sea más rápida y sencilla, la hemos agregado a la página de un grupo. Ahora, después de hacer clic en el nombre de un grupo para ir a su página, puede seleccionar el menú Más <img src="assets/more-icon.png"> junto al nombre del grupo y, a continuación, seleccionar Desactivar o Reactivar.</p> <p>Anteriormente, sólo se podía desactivar o reactivar un grupo mediante la casilla de verificación Está activo en la página Detalles. </p> </td> 
    <td> <p><b>Disponible en estas fechas:</b> </p> 
     <ul> 
      <li> <p>Versión de vista previa: 14 de abril de 2022<br></p> </li> 
@@ -170,8 +170,8 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Función</strong> </p> </td> 
-   <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
+   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Delegación de trabajo fuera de la oficina</a></p> <p>Ahora puede delegar temporalmente las tareas y problemas asignados a otros usuarios cuando planee estar fuera de la oficina por un breve período de tiempo. Esto garantiza que su ausencia no se convierta en un obstáculo para que el trabajo se complete.</p> 
@@ -232,7 +232,7 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mantener información precisa cuando dos usuarios con una función común participen en un proceso de aprobación</a> </p> <p>Para garantizar la precisión de sus datos a la hora de aprobar el trabajo, hemos realizado un cambio en la forma en que se registra la información de aprobación en un elemento cuando se asocia un proceso de aprobación de varias funciones con dicho elemento.</p> <p>Algunos procesos de aprobación requieren la aprobación de dos funciones diferentes, y dos aprobadores diferentes pueden tener una de esas funciones en común. Ahora, cuando esto sucede, una vez tomadas las decisiones de aprobación, Workfront registra a cada aprobador y su función respectiva asociada al proceso de aprobación.</p> <p>Antes de este cambio, ambas aprobaciones se registraban para el segundo usuario porque compartían una de las funciones de aprobación con el primer aprobador. En este caso, el segundo aprobador sobrescribía la información del primer aprobador.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mantener información precisa cuando dos usuarios con un rol común están involucrados en un proceso de aprobación</a> </p> <p>Para garantizar la precisión de sus datos a la hora de aprobar el trabajo, hemos realizado un cambio en la forma en que se registra la información de aprobación en un elemento cuando se asocia un proceso de aprobación de varias funciones con dicho elemento.</p> <p>Algunos procesos de aprobación requieren la aprobación de dos funciones diferentes, y dos aprobadores diferentes pueden tener una de esas funciones en común. Ahora, cuando esto sucede, una vez tomadas las decisiones de aprobación, Workfront registra a cada aprobador y su función respectiva asociada al proceso de aprobación.</p> <p>Antes de este cambio, ambas aprobaciones se registraban para el segundo usuario porque compartían una de las funciones de aprobación con el primer aprobador. En este caso, el segundo aprobador sobrescribía la información del primer aprobador.</p> </td> 
    <td> <p><b>Disponible en estas fechas:</b> </p> 
     <ul> 
      <li> <p>Versión de vista previa: 21 de abril de 2022<br></p> </li> 
@@ -240,7 +240,7 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic dejó de utilizarse en marzo de 2022</a>, seguida en breve por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic dejó de usarse en marzo de 2022</a>, seguida en breve por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -248,25 +248,25 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
    <td><strong>Disponible en estas fechas:</strong> 
     <ul> 
      <li> <p>Versión de vista previa: 8 de diciembre de 2021<br></p> </li> 
-     <li> <p>Versión de producción: despliegue gradual a partir del 28 de abril de 2022 <span style="color: #ff0000; font-weight: bold;">Esta función se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes.</span></p> </li> 
+     <li> <p>Versión de producción: implementación por fases a partir del 28 de abril de 2022 <span style="color: #ff0000; font-weight: bold;">Esta característica se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes.</span></p> </li> 
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Convertir problemas en proyectos mediante una plantilla de listas, informes y paneles</a> </p> <p>Para aumentar la eficacia de su trabajo y facilitar la conversión de problemas en un entorno acelerado, hemos añadido la capacidad de convertir un problema en un proyecto mediante una plantilla de una lista, un informe o un panel.</p> <p>Antes de esta mejora, esta funcionalidad solo existía cuando convertía el problema desde la página de problemas.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Convertir problemas a proyectos mediante una plantilla de listas, informes y paneles</a> </p> <p>Para aumentar la eficacia de su trabajo y facilitar la conversión de problemas en un entorno acelerado, hemos añadido la capacidad de convertir un problema en un proyecto mediante una plantilla de una lista, un informe o un panel.</p> <p>Antes de esta mejora, esta funcionalidad solo existía cuando convertía el problema desde la página de problemas.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> 
     <ul> 
      <li> <p>Versión de vista previa: 8 de diciembre de 2021<br></p> </li> 
-     <li> <p>Versión de producción: despliegue gradual a partir del 28 de abril de 2022 <span style="color: #ff0000; font-weight: bold;">Esta función se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes.</span></p> </li> 
+     <li> <p>Versión de producción: implementación por fases a partir del 28 de abril de 2022 <span style="color: #ff0000; font-weight: bold;">Esta característica se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes.</span></p> </li> 
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#allocati" class="MCXref xref" xrefformat="{para}">Las horas de asignación ya no se eliminarán al realizar cambios en las asignaciones</a> </p> <p>Para garantizar la precisión de sus datos, hemos realizado un cambio para conservar las horas de asignación y mantener las Horas planificadas de la tarea sin cambios al realizar cambios en las asignaciones de la tarea.</p> <p>Se han realizado los siguientes cambios en las tareas con un tipo de duración simple:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#allocati" class="MCXref xref" xrefformat="{para}">Ya no se quitarán las horas de asignación al realizar cambios en las asignaciones</a> </p> <p>Para garantizar la precisión de sus datos, hemos realizado un cambio para conservar las horas de asignación y mantener las Horas planificadas de la tarea sin cambios al realizar cambios en las asignaciones de la tarea.</p> <p>Se han realizado los siguientes cambios en las tareas con un tipo de duración simple:</p> 
     <ul> 
      <li> <p>Las asignaciones de asignación individuales se conservan al reemplazar usuarios y roles.</p> </li> 
      <li> <p>Las asignaciones de asignación individuales se conservan en el rol al eliminar el usuario.</p> </li> 
@@ -278,34 +278,34 @@ Estas mejoras estuvieron disponibles en el entorno de producción la semana del 
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic dejó de utilizarse en marzo de 2022</a>, seguida en breve por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic dejó de usarse en marzo de 2022</a>, seguida en breve por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Compartir carpetas solo en los cinco niveles principales de una jerarquía de carpetas</a> (Esto se vincula a las notas de la versión 20.2, cuando esta función se introdujo por primera vez en Vista previa).</p> <p>Para garantizar el mejor rendimiento a los usuarios que comparten carpetas, actualmente limitamos el uso compartido a los cinco niveles principales de una jerarquía de carpetas en un objeto.</p> <p>Cada carpeta del sexto nivel o inferior hereda sus configuraciones de uso compartido de la carpeta directamente superior a ella.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Compartir carpetas solo en los cinco niveles principales de una jerarquía de carpetas</a> (Esto vincula a las notas de la versión 20.2, cuando esta característica se introdujo por primera vez en Vista previa).</p> <p>Para garantizar el mejor rendimiento a los usuarios que comparten carpetas, actualmente limitamos el uso compartido a los cinco niveles principales de una jerarquía de carpetas en un objeto.</p> <p>Cada carpeta del sexto nivel o inferior hereda sus configuraciones de uso compartido de la carpeta directamente superior a ella.</p> </td> 
    <td><strong>Disponible en estas fechas:</strong> 
     <ul> 
      <li> <p>Versión de vista previa: 10 de febrero de 2022<br></p> </li> 
-     <li> <p>Versión de producción: con la versión 22.2 <span style="color: #ff0000; font-weight: bold;">Esta función no está disponible temporalmente. Esta página se actualizará cuando la función esté disponible en Producción.</span></p> </li> 
+     <li> <p>Versión de producción: con la versión 22.2 <span style="color: #ff0000; font-weight: bold;">Esta característica no está disponible temporalmente. Esta página se actualizará cuando la característica esté disponible en producción.</span></p> </li> 
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic dejará de utilizarse en marzo de 2022</a>, seguida en breve por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic dejará de usarse en marzo de 2022</a>, seguida en breve por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Campañas de Workfront (Beta)</a> </p>
                         <p>Presentamos un nuevo objeto para Adobe Workfront que tiene el potencial de cambiar la forma en que administra el trabajo. </p>
                         <p>Workfront Campaigns permite organizar proyectos de diferentes portafolios y programas en un nuevo contenedor de trabajo.
-Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en julio de 2022. Para obtener más información, consulte <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Mejoras del proyecto</a> </p>
+Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en julio de 2022. Para obtener más información, vea <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Mejoras en el proyecto</a> </p>
 <p>Este nuevo contenedor evolucionará en futuras versiones para conectar objetos de trabajo que actualmente se administran en silos independientes.</p>
 
 </td>
                     <td><span class="bold">Disponible en estas fechas:</span>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: durante todo el periodo de tiempo de la versión 22.4<br /><span style="color: #ff0000; font-weight: bold;">Está previsto eliminar esta función de la vista previa el 9 de enero de 2023. Para obtener más información, consulte la <a href="../23.1-release-activity/23-1-release-overview.md">Página de información general de la versión 23.1.</a> </span></p>
+                                <p>Versión de vista previa: en el periodo de tiempo de la versión 22.4<br /><span style="color: #ff0000; font-weight: bold;">Esta característica se planea eliminar de la vista previa el 9 de enero de 2023. Para obtener más información, consulte la página de información general de la versión <a href="../23.1-release-activity/23-1-release-overview.md">23.1.</a> </span></p>
                             </li>
                             <li>
                                 <p>Versión de producción: por determinar</p>
@@ -323,8 +323,8 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Función</strong> </p> </td> 
-   <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
+   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Preferencias de ordenación y mejoras de uso en el Distribuidor de cargas de trabajo</a> </p> <p>Para mejorar su experiencia al utilizar el Distribuidor de cargas de trabajo, hemos introducido las siguientes mejoras, incluida la ordenación mejorada en las secciones Sin asignar y Asignado, una nueva apariencia para las barras de proyecto, un diseño actualizado y más fácil de leer para las fechas proyectadas, y más.</p> 
@@ -347,8 +347,8 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Función</strong> </p> </td> 
-   <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
+   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Eliminación y adición de campos de presupuestación de recursos en listas e informes
@@ -372,8 +372,8 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Función</strong> </p> </td> 
-   <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
+   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Integración de Adobe Workfront para Experience Manager Assets</a> </p> <p>Nos complace anunciar que la integración de Adobe Workfront Experience Manager Assets ya está disponible para Cloud Service.</p>
@@ -388,7 +388,7 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Combine varios archivos en una sola prueba en el complemento de Creative Cloud</a> </p> <p>Ahora puede cargar archivos externos con el contenido que ha creado en el complemento Adobe Workfront para Creative Cloud para crear pruebas de varios archivos en Workfront. Los archivos externos aparecen como páginas de prueba adicionales dentro de Workfront. Con esta mejora, también hemos actualizado el aspecto de la experiencia de creación de pruebas.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Combine varios archivos en una sola revisión en el complemento de Creative Cloud</a> </p> <p>Ahora puede cargar archivos externos con el contenido que ha creado en el complemento Adobe Workfront para Creative Cloud para crear pruebas de varios archivos en Workfront. Los archivos externos aparecen como páginas de prueba adicionales dentro de Workfront. Con esta mejora, también hemos actualizado el aspecto de la experiencia de creación de pruebas.</p> </td> 
    <td> <p><b>Disponible en estas fechas:</b> </p> 
     <ul> 
      <li> <p>Versión de vista previa: N/D<br></p> </li> 
@@ -421,8 +421,8 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Función</strong> </p> </td> 
-   <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
+   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras de revisión en la aplicación móvil</a> </p> <p>La aplicación móvil de Adobe Workfront ahora le permite ver archivos adjuntos en comentarios de prueba y agregar nuevos archivos adjuntos. Los tipos de archivo compatibles con los archivos adjuntos son imágenes, documentos y vídeos.</p> </td>
@@ -446,8 +446,8 @@ Las campañas se lanzaron a la versión preliminar beta con la versión 22.3 en 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Función</strong> </p> </td> 
-   <td> <p><strong>Fechas y entornos de lanzamiento</strong> </p> </td> 
+   <td> <p><strong>Característica</strong> </p> </td> 
+   <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hojas de horas actualizadas</a> </p> <p>Seguimos mejorando y actualizando su experiencia al trabajar con plantillas de horas. </p> </td>
@@ -528,13 +528,13 @@ No hay actualizaciones de Workfront Goals en este punto de la versión. Esta ár
 
 Para la versión 14 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 14 de la API](../../../wf-api/api/new-api-version-14.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 14](../../../wf-api/api/new-api-version-14.md) de la API.
 
-Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de asistencia](../../../wf-api/api/api-version-support-schedule.md).
+Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## Seminario web sobre la versión 22.3
 
@@ -565,12 +565,12 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Actualizaciones de formación
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la [Página Actualizaciones de versión de formación](https://one.workfront.com/s/training-release-updates).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la [página Actualizaciones de la versión de formación](https://one.workfront.com/s/training-release-updates).
 
 ## Funcionalidad ya no admitida
 
 ### Internet Explorer 11
 
-Con la eliminación de la compatibilidad con Internet Explorer, Workfront ahora admite oficialmente Microsoft Edge.
+Con la eliminación de la compatibilidad con Internet Explorer, Workfront ahora es compatible oficialmente con Microsoft Edge.
 
-Para obtener más información sobre los exploradores compatibles, consulte [Requisitos del explorador Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).
+Para obtener más información sobre los exploradores admitidos, consulte [Requisitos para exploradores Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).

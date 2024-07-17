@@ -9,14 +9,14 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 2%
 
 ---
 
 # Novedades de la versión 11 de la API
 
-* [Recursos añadidos](#added-resources)
+* [Recursos agregados](#added-resources)
 * [Recursos eliminados](#removed-resources)
 * [Recursos modificados](#modified-resources)
 
@@ -187,7 +187,7 @@ ReportableBudgedHour se ha agregado a la API de Adobe Workfront como recurso par
    <td> 
     <ul> 
      <li> <p style="font-weight: bold;">proyecto</p> <p>Proyecto al que está asociada una ReportableBudgetedHour.</p> </li> 
-     <li> <p style="font-weight: bold;">rol</p> <p>La función a la que está asociada una ReportBudgetedHour.</p> </li> 
+     <li> <p style="font-weight: bold;">función</p> <p>La función a la que está asociada una ReportBudgetedHour.</p> </li> 
      <li> <p style="font-weight: bold;">usuario</p> <p>Usuario con el que está asociado ReportableBudgetedHour.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -234,34 +234,34 @@ No se ha eliminado ningún recurso para la API v11.
   <tr> 
    <td> 
     <ul> 
-     <li><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </li> 
-     <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
-     <li><a href="#accessrule" class="MCXref xref">AccessRule</a> </li> 
-     <li><a href="#approval" class="MCXref xref">Ruta de aprobación</a> </li> 
-     <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
-     <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
+     <li><a href="#accesslevelpermissions" class="MCXref xref">PermisosDeNivelDeAcceso</a> </li> 
+     <li><a href="#accessrequest" class="MCXref xref">Solicitud de acceso</a> </li> 
+     <li><a href="#accessrule" class="MCXref xref">Regla de acceso</a> </li> 
+     <li><a href="#approval" class="MCXref xref">Aprobación</a> </li> 
+     <li><a href="#approvalpath" class="MCXref xref">Ruta de aprobación</a> </li> 
+     <li><a href="#approvalprocess" class="MCXref xref">Proceso de aprobación</a> </li> 
      <li><a href="#assignment" class="MCXref xref">Asignación</a> </li> 
-     <li><a href="#baselinetask" class="MCXref xref">BaselineTask</a> </li> 
+     <li><a href="#baselinetask" class="MCXref xref">TareaLíneaBase</a> </li> 
      <li><a href="#category" class="MCXref xref">Categoría</a> </li> 
-     <li><a href="#company" class="MCXref xref">Compañía</a> </li> 
+     <li><a href="#company" class="MCXref xref">Empresa</a> </li> 
      <li><a href="#customenum" class="MCXref xref">CustomEnum</a> </li> 
      <li><a href="#customer" class="MCXref xref">Cliente</a> </li> 
-     <li><a href="#customerpreferences" class="MCXref xref">Preferencias del cliente</a> </li> 
+     <li><a href="#customerpreferences" class="MCXref xref">PreferenciasDelCliente</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
+     <li><a href="#docmetadatalinkgroup" class="MCXref xref">Grupo DocMetadataLink</a> </li> 
      <li><a href="#document" class="MCXref xref">Documento</a> </li> 
      <li><a href="#iteration" class="MCXref xref">Iteración</a> </li> 
      <li><a href="#layout-template" class="MCXref xref">Plantilla de diseño</a> </li> 
-     <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
+     <li><a href="#milestonepath" class="MCXref xref">Ruta de hitos</a> </li> 
      <li><a href="#note" class="MCXref xref">Nota</a> </li> 
-     <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
+     <li><a href="#optask" class="MCXref xref">TareaOperación</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Parámetro</a> </li> 
-     <li><a href="#portfolio" class="MCXref xref">Portafolio</a> </li> 
-     <li><a href="#program" class="MCXref xref">Programar</a> </li> 
+     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
+     <li><a href="#program" class="MCXref xref">Programa</a> </li> 
      <li><a href="#project" class="MCXref xref">Proyecto</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">AprobaciónRevisión</a> </li> 
      <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
      <li><a href="#reservedtime" class="MCXref xref">TiempoReservado</a> </li> 
     </ul> </td> 
@@ -269,18 +269,18 @@ No se ha eliminado ningún recurso para la API v11.
     <ul> 
      <li><a href="#resourceplannerfilter" class="MCXref xref">ResourcePlannerFilter</a> </li> 
      <li><a href="#risk" class="MCXref xref">Riesgo</a> </li> 
-     <li><a href="#scheduledreport" class="MCXref xref">InformeProgramado</a> </li> 
-     <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
+     <li><a href="#scheduledreport" class="MCXref xref">Informe programado</a> </li> 
+     <li><a href="#scorecardquestion" class="MCXref xref">PreguntaDeTarjetaDePuntuación</a> </li> 
      <li><a href="#task" class="MCXref xref">Tarea</a> </li> 
      <li><a href="#team" class="MCXref xref">Equipo</a> </li> 
      <li><a href="#template" class="MCXref xref">Plantilla</a> </li> 
-     <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
-     <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
+     <li><a href="#templateassignment" class="MCXref xref">AsignaciónPlantilla</a> </li> 
+     <li><a href="#templatetask" class="MCXref xref">TareaPlantilla</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Hoja de horas</a> </li> 
-     <li><a href="#update" class="MCXref xref">Actualizar</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Actualización</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
-     <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
+     <li><a href="#usernote" class="MCXref xref">NotaDeUsuario</a> </li> 
      <li><a href="#work" class="MCXref xref">Trabajo </a> </li> 
     </ul> </td> 
   </tr> 
@@ -347,7 +347,7 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
  </tbody> 
 </table>
 
-### Ruta de aprobación {#approval}
+### Aprobación {#approval}
 
 Un elemento de trabajo determinado, como una tarea, un documento o una plantilla de horas, puede requerir que un supervisor u otro usuario firme el elemento de trabajo. Un objeto Approval representa la acción de cerrar sesión en un elemento de trabajo.
 

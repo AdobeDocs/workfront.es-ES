@@ -82,7 +82,7 @@ Puede empezar a preparar el archivo de importación creando un informe de todos 
 
 1. Cree un informe de usuario en Workfront.
 
-   Para obtener instrucciones sobre la creación de informes de usuario en Workfront, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener instrucciones sobre cómo generar informes de usuarios en Workfront, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Seleccione los campos siguientes en el informe:
 
@@ -95,18 +95,18 @@ Puede empezar a preparar el archivo de importación creando un informe de todos 
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Guarde el informe.
-1. Clic **Exportar** en la parte superior del informe y exporte el informe a Excel.
+1. Haga clic en **Exportar** en la parte superior del informe y exporte el informe a Excel.
 1. Abra el archivo de Excel exportado y añada los nombres de usuario de SSO para cada usuario en el informe, en la columna Nombre de usuario de SSO.
 
    >[!IMPORTANT]
    >
    >Los nombres de usuario de SSO distinguen entre mayúsculas y minúsculas.
 
-1. Eliminar todas las columnas del archivo de Excel, excepto la **ID** y el **Nombre de usuario de SSO** columnas.
+1. Elimine todas las columnas del archivo de Excel, excepto las columnas **ID** y **SSO Username**.
 
 1. Elimine los encabezados de columna y asegúrese de que no haya filas en blanco en la parte superior del informe.
 
-   El archivo que está utilizando para actualizar los usuarios de Workfront con los nombres de usuario SSO **debe** contener solo 2 columnas, en este orden:
+   El archivo que está usando para actualizar a los usuarios de Workfront con los nombres de usuario SSO **debe** contener solo 2 columnas, en este orden:
 
    * La primera columna debe mostrar el ID de usuario de Workfront (el GUID de usuario encontrado en Workfront).
    * La segunda columna debe contener el nombre de usuario de SSO, tal como se muestra en el sistema de SSO.
@@ -120,23 +120,23 @@ Puede empezar a preparar el archivo de importación creando un informe de todos 
 
 El proceso de actualización de usuarios para SSO añade el campo Nombre de usuario de SSO a los usuarios de Workfront si no hay ninguno presente, o actualiza el valor de ese campo si hay un valor ya asociado a los usuarios.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Haga clic en, **Sistema** luego seleccione **Actualizar usuarios para SSO**.
+1. Haga clic en **Sistema** y, a continuación, seleccione **Actualizar usuarios para SSO**.
 
-1. Clic **Elegir archivo** para buscar el archivo que ha preparado.
+1. Haga clic en **Elegir archivo** para buscar el archivo que ha preparado.
 
-   Para obtener más información sobre cómo preparar este archivo, consulte [Preparación del archivo de importación](#prepare-the-import-file).
+   Para obtener más información acerca de cómo preparar este archivo, vea [Preparar el archivo de importación](#prepare-the-import-file).
 
-1. Seleccione el archivo desde el que está guardado en el equipo y haga clic en **Abrir**.
+1. Seleccione el archivo desde donde se guardó en el equipo y, a continuación, haga clic en **Abrir**.
 
    Esto inserta las credenciales de SSO en Workfront, lo que permite a todos los usuarios iniciar sesión en Workfront con sus credenciales de SSO.
 
-   El **Solamente permitir `<SSO Configuration>` Autenticación** Esta opción está habilitada para todos los usuarios incluidos en el CSV. Esto garantiza que los usuarios deben iniciar sesión mediante SSO.
+   La configuración **Permitir solo la autenticación `<SSO Configuration>`** está habilitada para todos los usuarios incluidos en el CSV. Esto garantiza que los usuarios deben iniciar sesión mediante SSO.
 
 ## Comprobación del SSO con los nombres de usuario de Workfront de los usuarios
 
-Para obtener instrucciones sobre la creación de un informe de usuario que contenga información sobre el nombre de usuario SSO, consulte [Preparación del archivo de importación](#prepare-the-import-file).
+Para obtener instrucciones sobre cómo generar un informe de usuario que contenga información sobre el nombre de usuario SSO, consulte [Preparar el archivo de importación](#prepare-the-import-file).
 
 1. Ejecute un informe de usuario que contenga información sobre el nombre de usuario de SSO.
 
@@ -147,4 +147,4 @@ Para obtener instrucciones sobre la creación de un informe de usuario que conte
 
    ![](assets/users-with-sso-field-updated.png)
 
-   Para obtener instrucciones sobre cómo actualizar los usuarios para SSO, consulte [Actualizar los usuarios para SSO](#update-your-users-for-sso).
+   Para obtener instrucciones sobre cómo actualizar los usuarios de SSO, consulte [Actualizar los usuarios de SSO](#update-your-users-for-sso).

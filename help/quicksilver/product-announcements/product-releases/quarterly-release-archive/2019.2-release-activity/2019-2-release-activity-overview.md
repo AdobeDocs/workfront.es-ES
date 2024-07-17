@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # información general sobre la actividad de la versión 2019.2
 
-Esta página proporciona información sobre la funcionalidad incluida en la versión 2019.2. Para descargar este contenido en formato PDF, vaya a [aquí](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Esta página proporciona información sobre la funcionalidad incluida en la versión 2019.2. Para descargar este contenido en formato de PDF, ve [aquí](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Esta página proporciona información sobre la funcionalidad incluida en la vers
 >
 >* *Entorno de producción de Workfront para los clústeres 2, 4 y 6: 23 de mayo*
 >* *Entorno de producción de Workfront para los clústeres 1, 3 y 5: 24 de mayo*
->* *Entorno de producción de Workfront Proof: 21 de mayo*
+>* *Entorno de producción de Workfront Proof - 21 de mayo*
 
 La versión 2019.2 contiene mejoras tanto para administradores de sistemas como para otros usuarios.
 
@@ -88,13 +88,13 @@ La versión 2019.2 contiene mejoras tanto para administradores de sistemas como 
 
   Ahora puede configurar formularios personalizados y procesos de aprobación predeterminados para adjuntarlos a las tareas cuando agregue tareas a un proyecto.
 
-* [Búsqueda De Grupos Más Rápida Al Personalizar Estados](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [Buscar grupos más rápido al personalizar estados](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   El menú desplegable de la pestaña Estados del área Configuración es ahora un menú de escritura anticipada.
 
 ### Mejoras de integración
 
-* [Integración actualizada de Workfront para Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
+* [Se ha actualizado Workfront para la integración con Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
 
   La extensión de Workfront para Adobe Creative Cloud ahora incluye la integración con la biblioteca de Workfront.
 
@@ -126,15 +126,15 @@ La versión 2019.2 contiene mejoras tanto para administradores de sistemas como 
 
 * Si tiene objetos que ya no se utilizan, ahora puede desactivarlos para ocultarlos de las listas a fin de evitar que los usuarios los asocien a otros objetos.
 
-* [Búsqueda De Grupos Más Rápida Al Personalizar Estados](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [Buscar grupos más rápido al personalizar estados](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   El menú desplegable de la pestaña Estados del área Configuración es ahora un menú de escritura anticipada.
 
 
 ## Anuncios
 
-* [Ya está disponible la biblioteca Workfront](#workfront-library-now-available)
-* [La versión 3 de la API ya no es compatible](#api-version-3-no-longer-supported)
+* [Biblioteca Workfront ya disponible](#workfront-library-now-available)
+* [Ya no se admite la versión 3 de la API](#api-version-3-no-longer-supported)
 * [Finaliza la compatibilidad con TLS](#tls-support-is-ending)
 * [Eliminación de aplicación de Flash](#flash-application-removal)
 * [Se eliminarán varias opciones de inicio de sesión único](#various-single-sign-on-options-to-be-removed)
@@ -145,7 +145,7 @@ La biblioteca Workfront es un centro de contenido digital empresarial que puede 
 
 ### La versión 3 de la API ya no es compatible {#api-version-3-no-longer-supported}
 
-La compatibilidad con la versión 3 de la API finalizó en noviembre de 2018. Para obtener más información sobre el programa de soporte de las versiones de la API de Workfront, consulte [Versiones de API y programación de asistencia](../../../../wf-api/api/api-version-support-schedule.md).
+La compatibilidad con la versión 3 de la API finalizó en noviembre de 2018. Para obtener más información sobre el horario de soporte de las versiones de la API de Workfront, consulte [Versiones de API y horario de soporte](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### Finaliza la compatibilidad con TLS {#tls-support-is-ending}
 
@@ -157,7 +157,7 @@ Para obtener más información, consulte [Se requiere TLS 1.2 en Adobe Workfront
 
 Todas las funcionalidades que dependen de la tecnología de Flash se han eliminado de Workfront desde la versión 2018.3 y se han sustituido por una nueva solución.
 
-Para obtener información detallada sobre las herramientas de Flash heredadas y sus sustitutos, consulte [Reemplazo de herramientas basadas en Flash en Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Para obtener información detallada sobre las herramientas de Flash heredadas y sus reemplazos, consulte [Reemplazo de herramientas basadas en Flash en Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Se eliminarán varias opciones de inicio de sesión único {#various-single-sign-on-options-to-be-removed}
 
@@ -165,11 +165,11 @@ Ahora, las siguientes opciones de inicio de sesión único (SSO) solo son compat
 
 * LDAP
 
-  Para obtener más información sobre el uso de LDAP con Workfront, consulte [Configuración de Adobe Workfront con LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Para obtener más información acerca del uso de LDAP con Workfront, consulte [Configuración de Adobe Workfront con LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
 
 * Active Directory
 
-  Para obtener más información acerca del uso de Active Directory con Workfront, consulte [Configuración de Adobe Workfront con Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Para obtener más información acerca del uso de Active Directory con Workfront, vea [Configurar Adobe Workfront con Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
 
 * SAML 1.1
 

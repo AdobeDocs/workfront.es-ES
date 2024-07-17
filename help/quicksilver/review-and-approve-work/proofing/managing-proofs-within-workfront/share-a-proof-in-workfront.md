@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Si comparte la prueba, como se explica en este artículo, su destinatario tiene 
 
 >[!TIP]
 >
->También puede compartir una prueba desde el visualizador de pruebas. Para obtener instrucciones, consulte [Compartir una prueba desde el visor de pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+>También puede compartir una prueba desde el visualizador de pruebas. Para obtener instrucciones, vea [Compartir una revisión del visor de revisión](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Requisitos de acceso
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
@@ -49,12 +49,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 ## Compartir un vínculo de prueba
 
@@ -68,8 +68,8 @@ Al compartir un vínculo de prueba, los usuarios de Workfront pueden ver el acce
 
    Solo puede seleccionar un documento. No se puede compartir el vínculo para varios documentos al mismo tiempo.
 
-1. Clic **Compartir** > **Vínculo de revisión**.
-1. En el **Enlace de revisión** que aparece, realice una de las acciones siguientes:
+1. Haga clic en **Compartir** > **Vínculo de revisión**.
+1. En el cuadro **Vínculo de prueba** que aparece, realice una de las acciones siguientes:
 
    * Para copiar el vínculo en el portapapeles, haga clic en **Copiar vínculo**.
 
@@ -77,7 +77,7 @@ Al compartir un vínculo de prueba, los usuarios de Workfront pueden ver el acce
 
    * Para enviar por correo electrónico el vínculo directamente desde Adobe Workfront, haga lo siguiente:
 
-      1. En el **O bien, envíe un enlace a** , empiece a escribir y seleccione el nombre del destinatario. O especifique la dirección de correo electrónico de un usuario externo con el que desee compartir.
+      1. En el campo **O enviar un vínculo por correo electrónico a**, empiece a escribir y seleccione el nombre del destinatario. O especifique la dirección de correo electrónico de un usuario externo con el que desee compartir.
 
          >[!NOTE]
          >
@@ -91,7 +91,7 @@ Al compartir un vínculo de prueba, los usuarios de Workfront pueden ver el acce
           <tbody>
            <tr>
             <td role="rowheader">Enviar vínculo público</td>
-            <td><p>Incluye un botón en la notificación por correo electrónico que dirige a los usuarios a la prueba dentro del visor de pruebas que están utilizando y concede acceso de visualización.</p><p>If <strong>Suscribirse a la revisión mediante una URL pública o un código para insertar</strong> está desactivado para la revisión, los usuarios pueden iniciar sesión con sus credenciales de inicio de sesión de Workfront para agregar comentarios a la revisión. Si está activada, cualquier persona que proporcione su dirección de correo electrónico y nombre (sin contraseña) puede firmar y agregar comentarios a la prueba.</p></td>
+            <td><p>Incluye un botón en la notificación por correo electrónico que dirige a los usuarios a la prueba dentro del visor de pruebas que están utilizando y concede acceso de visualización.</p><p>Si <strong>Suscribirse a la revisión mediante una dirección URL pública o código incrustado</strong> está desactivado para la revisión, los usuarios podrán iniciar sesión con sus credenciales de inicio de sesión de Workfront para agregar comentarios a la revisión. Si está activada, cualquier persona que proporcione su dirección de correo electrónico y nombre (sin contraseña) puede firmar y agregar comentarios a la prueba.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Enviar vínculo de descarga</td>
@@ -104,9 +104,9 @@ Al compartir un vínculo de prueba, los usuarios de Workfront pueden ver el acce
           </tbody>
          </table>
 
-      1. Clic **Enviar**.
+      1. Haga clic en **Enviar**.
 
-         Los destinatarios recibirán una notificación por correo electrónico con información sobre la prueba y los botones que eligió incluir.
+         Los destinatarios reciben una notificación por correo electrónico que contiene información sobre la prueba y los botones que ha elegido incluir.
 
          ![](assets/proof-share-email-350x87.png)
 
@@ -132,18 +132,18 @@ Puede añadir cualquier usuario de Workfront a la prueba si tiene derechos de ed
 ### Añada usuarios a una revisión existente desde la pestaña Documentos
 
 1. Seleccione el documento que contiene la prueba a la que desea agregar usuarios.
-1. Si la prueba no tiene un flujo de trabajo automatizado (fases), haga clic en **Más** en la esquina superior derecha de la sección Fase 1 y haga clic en **Compartir** en el menú desplegable.
+1. Si la revisión no tiene un flujo de trabajo automatizado (fases), haga clic en el icono **Más** en la esquina superior derecha de la sección Fase 1 y, a continuación, haga clic en **Compartir** en el menú desplegable.
 
    O
 
-   Si la prueba tiene un flujo de trabajo automatizado, haga clic en **Más** en la esquina superior derecha del escenario en el que desea añadir al revisor y, a continuación, haga clic en **Compartir** en el menú desplegable.
+   Si la revisión no tiene un flujo de trabajo automatizado, haga clic en el icono **Más** en la esquina superior derecha del escenario donde desea agregar al revisor y, a continuación, haga clic en **Compartir** en el menú desplegable.
 
-1. En el **Compartir esta versión** cuadro que aparece, debajo de **Compartir** A continuación, empiece a escribir el nombre o la dirección de correo electrónico de un usuario con el que desee compartir la prueba y, cuando aparezca en la lista desplegable, haga clic en el nombre.
+1. En el cuadro **Compartir esta versión** que aparece, en **Compartir**, empiece a escribir el nombre o la dirección de correo electrónico del usuario con el que desea compartir la prueba y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
 1. (Opcional) Repita este paso para agregar varios usuarios a la prueba.
 1. (Opcional) Establezca una fecha límite para los revisores.
-1. (Opcional) Asegúrese de que **Notificar a las personas por correo electrónico** está seleccionado si desea informar a los revisores de que los ha añadido a la prueba.
-1. (Opcional) **Añadir un mensaje personalizado** al correo electrónico.
+1. (Opcional) Asegúrese de que **Notificar a las personas por correo electrónico** esté seleccionado si desea que los revisores sepan que las ha agregado a la prueba.
+1. (Opcional) **Agregue un mensaje personalizado** al correo electrónico.
 1. Cuando haya agregado todos los revisores, haga clic en **Compartir**.
 
 ### Agregar usuarios a una prueba existente desde el visor de pruebas
@@ -162,12 +162,12 @@ Puede crear un informe que informe sobre las aprobaciones de revisión compartid
 * Identificador de revisión
 * Fecha de creación de revisión
 
-Puede acceder a esta aprobación cuando cree un informe basado en un objeto, como se describe en [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Puede obtener acceso a esta aprobación al crear un informe basado en un objeto, como se describe en [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obtener más información sobre el informe de objetos de aprobaciones de pruebas, consulte la [Informar sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) sección en [Explicación de los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+Para obtener más información sobre el informe de objetos de aprobaciones de pruebas, consulte la sección [Informe sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) en [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 
 ## Aprobar una revisión compartida
 
 Cuando un usuario le añade a una prueba y concede la función Aprobador o la función Revisor y aprobador mediante un flujo de trabajo automatizado, la solicitud de aprobación se muestra en la pestaña Aprobaciones del área de Inicio o Mi trabajo. A continuación, puede ver la prueba y tomar una decisión de aprobación directamente desde Workfront.
 
-Para obtener información sobre cómo tomar decisiones de aprobación desde el área Mi trabajo, consulte [Aprobar trabajo desde el área de Inicio](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) o [Aprobación del trabajo](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Aprobación del trabajo](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Para obtener información sobre cómo tomar decisiones de aprobación en el área de Mi trabajo, vea [Aprobar trabajo del área de inicio](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) o [Aprobar trabajo](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) en [Aprobar trabajo](../../../review-and-approve-work/manage-approvals/approving-work.md).

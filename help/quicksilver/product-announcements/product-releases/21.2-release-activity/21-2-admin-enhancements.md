@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Mejoras del administrador
 
-Esta página describe todas las mejoras de administrador realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [21.2 Información general de la versión](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página describe todas las mejoras de administrador realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [Información general sobre la versión 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Para administradores: vea la información del registro de auditoría sobre muchas más áreas de Workfront.
 
@@ -36,7 +36,7 @@ En el área Registros de auditoría, ahora puede realizar un seguimiento y soluc
 
 Para obtener más información, consulte [Registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Esta función ahora se incluye en la [Aspectos básicos de administración para la nueva experiencia de Workfront, parte 2: Configuración del proyecto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de administración para la nueva experiencia de Workfront, Parte 2: Configuración del proyecto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) ruta de aprendizaje en Workfront One.
 
 ## Para administradores de grupos: controles mejorados para mover subgrupos y una barra de herramientas actualizada
 
@@ -48,7 +48,7 @@ Hemos realizado las siguientes mejoras en el área de Subgrupos en Configuració
 
 * Para ofrecerle una forma rápida de reorganizar los grupos que gestiona, hemos añadido un botón de barra de herramientas &quot;Añadir subgrupos&quot; que le permite crear nuevos subgrupos y mover los existentes.
 
-  Para obtener más información, consulte [Administración de un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Para obtener más información, consulte [Administrar un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 * La barra de herramientas del área de Subgrupos ahora crea listas coherentes con otras listas modernizadas de la nueva experiencia de Workfront. Al seleccionar grupos, los iconos representan las funciones disponibles en la barra de herramientas.
 
@@ -60,7 +60,7 @@ Las secciones y las opciones individuales son más fáciles de leer porque está
 
 Las etiquetas de las opciones de los dos botones de opción están divididas de modo que no sean tan largas; la segunda parte de cada etiqueta es ahora un mensaje de información en una línea independiente.
 
-Para obtener información sobre las hojas de horas y la preferencia de horas, consulte [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener información sobre las hojas de horas y la preferencia de horas, consulte [Configurar la hoja de horas y las preferencias de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Para administradores de grupos: enumere las mejoras en el área Grupos
 
@@ -73,9 +73,9 @@ Dos mejoras en el área Grupos de la configuración hacen que las listas sean co
 * Al seleccionar grupos, los iconos representan las funciones disponibles en la barra de herramientas.
 * En la lista de grupos, las columnas, la ordenación y la jerarquía tienen la apariencia más reciente a la que está acostumbrado en otras listas. Además, de forma predeterminada, las listas muestran hasta 2000 elementos en una sola página en lugar de 100.
 
-Para obtener información sobre las listas modernizadas en Workfront, consulte [Modificación del modo en que se muestra una lista](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
+Para obtener información acerca de las listas modernizadas en Workfront, vea [Modificar la presentación de una lista](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
 
-Para obtener información sobre el área Grupos, consulte [Administrar grupos](../../../administration-and-setup/manage-groups/manage-groups.md).
+Para obtener información sobre el área de Grupos, consulte [Administrar grupos](../../../administration-and-setup/manage-groups/manage-groups.md).
 
 ## Para administradores de grupos: cree y edite programas desde el área Grupos en Configuración
 
@@ -85,7 +85,7 @@ Para obtener información sobre el área Grupos, consulte [Administrar grupos](.
 
 Seguimos facilitando la administración de sus grupos y sus objetos asociados en un solo lugar. Ahora puede ver y trabajar con los programas de un grupo desde el área Grupos en Configuración. Esto evita tener que ir al área de Programas para administrar los programas del grupo. Y mantiene la lista de programas de grupo con los que se trabaja separada de los demás programas del sistema.
 
-Para obtener más información, consulte [Crear, modificar y ver los programas de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+Para obtener más información, vea [Crear, modificar y ver los programas de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 ## Para administradores: encabezados actualizados en el área de Configuración
 
@@ -101,7 +101,7 @@ Para orientar mejor a los administradores en el área de Configuración y manten
 
   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
-Para obtener más información sobre el área de Configuración, consulte [Administración y configuración](../../../administration-and-setup/administration-and-setup.md).
+Para obtener más información sobre el área de configuración, consulte [Administración y configuración](../../../administration-and-setup/administration-and-setup.md).
 
 ## Para administradores de grupos: vea y administre más objetos de grupo desde la página Grupos
 
@@ -125,7 +125,7 @@ Hasta ahora, se requería habilitar la opción Hojas de horas y horas para asign
 
 Para obtener más información, consulte [Crear, editar y asignar perfiles de hojas de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-Para obtener información sobre la opción Plantillas de horas y horas en un nivel de acceso, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Para obtener información acerca de la opción Hojas de horas y horas en un nivel de acceso, vea [Conceder a los usuarios acceso administrativo a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Para administradores: defina el filtro, la vista y la agrupación que los usuarios ven en las listas de objetos
 
@@ -135,9 +135,9 @@ Por ejemplo, en lugar de dejar el control Lista de filtros establecido en Todos,
 
 Anteriormente, estos valores predeterminados no se podían personalizar, por lo que siempre se establecían como Todo para filtros, Estándar para vistas y Nada para agrupaciones. Una ventaja adicional de la nueva funcionalidad es que puede ocultar estas tres configuraciones a los usuarios si no las necesitan.
 
-Para obtener más información, consulte [Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Para obtener más información, vea [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del administrador en la nueva experiencia de Workfront, parte 3: Experiencia de control e interfaz](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva ruta de aprendizaje de la experiencia Workfront Experience, Parte 3: Experiencia de control e interfaz](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) en Workfront One.
 
 ## Nuevo para administradores: enumere fácilmente los informes que están utilizando actualmente un campo personalizado
 
@@ -151,7 +151,7 @@ Puede agregar una vista personalizada en el área de Personalizado Forms con una
 
 Anteriormente, sin esta columna, tenía que crear manualmente un informe con el modo de texto o utilizar otra solución para averiguar qué campos personalizados se estaban utilizando en los informes. Esto resultaba difícil y tedioso si su organización utiliza muchos campos personalizados.
 
-Para obtener más información, [Ver todos los informes que utilizan un campo o widget personalizado en particular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+Para obtener más información, [vea todos los informes que usan un campo personalizado o widget en particular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 
 ## Para administradores de grupos: vea y administre un grupo y sus objetos en un solo lugar
 
@@ -165,7 +165,7 @@ Además, puede ver y trabajar con las plantillas de diseño del grupo, las progr
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
+* [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
 * [Crear y modificar las programaciones de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
 * [Crear y administrar perfiles de hojas de horas de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [Ver y administrar miembros de subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)

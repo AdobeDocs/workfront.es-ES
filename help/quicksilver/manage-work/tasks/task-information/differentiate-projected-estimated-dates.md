@@ -27,7 +27,7 @@ Este artículo describe las diferencias entre las fechas estimadas y proyectadas
 
 Cuando se crea la tarea por primera vez, las fechas planificadas, proyectadas y estimadas suelen coincidir. Existen algunas excepciones. 
 
-Para obtener más información sobre el proyecto, la tarea y las fechas de los problemas en Adobe Workfront, consulte [Información general sobre las fechas del proyecto, la tarea y el problema en Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Para obtener más información sobre el proyecto, las tareas y las fechas de los problemas en Adobe Workfront, consulte [Información general sobre las fechas de los proyectos, las tareas y los problemas en Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Resumen de las fechas planificadas
 
@@ -60,7 +60,7 @@ La diferencia entre las fechas proyectadas y estimadas es:
 
 * Las fechas estimadas solo tienen en cuenta el progreso real de una tarea en un momento determinado.
 
-**Ejemplo:** Si tenemos una tarea con una fecha planificada de inicio del 20 de septiembre y una fecha planificada de finalización del 24 de septiembre y tiene que finalizar con la delimitación, la fecha proyectada de finalización del 24 de septiembre. Esta tarea tiene una duración de 4 días.
+**Ejemplo:** Si tenemos una tarea que tiene una Fecha planificada de inicio del 20 de septiembre y una Fecha planificada de finalización del 24 de septiembre y debe finalizar con la restricción, la Fecha proyectada de finalización del 24 de septiembre. Esta tarea tiene una duración de 4 días.
 
 La Fecha estimada de finalización se calcula según el progreso actual del trabajo en la tarea. Por lo tanto, si hoy es 23 de septiembre y la tarea aún no ha comenzado, la fecha estimada de finalización es el 27 de septiembre (debe completarse después de 4 días, suponiendo que el trabajo se inicie hoy).
 
@@ -85,17 +85,17 @@ La siguiente lista muestra varios escenarios en los que las Fechas proyectadas d
 
   *Fecha proyectada de inicio = Fecha de restricción*
 
-  Para obtener información sobre la fecha de restricción, consulte [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Para obtener información acerca de la fecha de restricción, consulte [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Cuando una tarea no tiene una fecha de inicio real y la tarea no tiene una fecha de delimitación forzada:
 
-  *Fecha proyectada de inicio = la siguiente fecha disponible en el futuro que se encuentra dentro del horario laboral*
+  *Fecha proyectada de inicio = la próxima fecha disponible en el futuro que se encuentre dentro del horario de trabajo*
 
 * Cuando el usuario asignado actualice la fecha de confirmación:
 
   *Fecha proyectada de finalización = Fecha de confirmación*
 
-  Para obtener información sobre la fecha de confirmación, consulte [Resumen de fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Para obtener información sobre la fecha de confirmación, consulte [Resumen de la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Cuando la tarea no tiene una fecha de confirmación actualizada y la tarea tiene una delimitación forzada (Debe finalizar el) para la fecha planificada de finalización futura:
 
@@ -103,7 +103,7 @@ La siguiente lista muestra varios escenarios en los que las Fechas proyectadas d
 
 * Cuando una tarea no tiene una fecha de compromiso actualizada, una fecha de restricción forzada en el futuro o tiene una fecha de restricción en el pasado:
 
-  *Fecha proyectada de finalización = cálculo del sistema para la fecha de finalización basado en el progreso actual y el trabajo restante por hacer*
+  *Fecha proyectada de finalización = cálculo del sistema para la fecha de finalización basado en el progreso actual y el trabajo que queda por hacer*
 
 ### Comprenda cuándo se actualizan las fechas estimadas en las tareas {#understand-when-the-estimated-dates-update-on-tasks}
 

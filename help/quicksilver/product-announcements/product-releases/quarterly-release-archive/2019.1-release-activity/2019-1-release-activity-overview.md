@@ -34,7 +34,7 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   Los administradores de Workfront ahora pueden elegir mostrar u ocultar las marcas de tiempo de las fechas de vencimiento en la Lista de trabajos y el Calendario mediante plantillas de diseño.
 
-* [Configuración de la función de corrección predeterminada para los no destinatarios que abren una prueba](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
+* [Configurar el rol de corrección predeterminado para los no destinatarios que abren una revisión](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
 
   Los administradores de Workfront ahora pueden configurar la función de corrección predeterminada para los usuarios que no están designados como destinatarios en el flujo de trabajo de la revisión, pero que tienen acceso a la revisión a través de su objeto de Workfront (como proyecto, tarea o problema).
 
@@ -90,7 +90,7 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   Hemos mejorado el rendimiento y la apariencia de las listas de proyectos y tareas en áreas adicionales.
 
-* [Envío de un informe enviado en formato XLSX](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [Enviar un informe enviado en formato XLSX](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   Ahora puede programar la entrega de un informe en formato MS Excel (.xlsx), además de todos los demás formatos actuales.
 
@@ -98,7 +98,7 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   Ahora puede exportar entradas del registro de auditoría a un archivo CSV. Puede exportar hasta 50 000 entradas de registro de auditoría a un archivo CSV al mismo tiempo.
 
-* [La vista EDT de una lista de tareas ya no está disponible haciendo clic con el botón secundario en la columna Número de tarea](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [La vista EDT de una lista de tareas ya no está disponible al hacer clic con el botón secundario en la columna Número de tarea](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   Ya no puede hacer clic con el botón secundario en la columna Número de tarea de una lista de tareas para mostrar la Estructura de desglose de trabajo (EDT) del proyecto.
 
@@ -112,11 +112,11 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   Ahora puede utilizar caracteres comodín al crear filtros en el Planificador de recursos.
 
-* [Compatibilidad con variables de filtro comodín basadas en fechas en el Planificador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [Compatibilidad con variables de filtro comodín basadas en fecha en el Planificador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   Ahora puede usar cualquier versión de la variable de filtro comodín $$TODAY cuando genere un filtro en el Planificador de recursos.
 
-* [Opciones de exportación para la vista de rol en el Planificador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
+* [Opciones de exportación para la vista de roles en el Planificador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
 
   Ahora puede seleccionar los niveles de información que desea exportar desde el Planificador de recursos en la vista de funciones.
 
@@ -132,17 +132,17 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   Ahora puede seleccionar los niveles de información que desea exportar desde el Planificador de recursos.
 
-* [Actualización de la vista de usuario en el Planificador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
+* [Actualización a la vista de usuario en el Planificador de recursos](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
 
   Cuando no se aplica ningún filtro basado en usuarios al Planificador de recursos, todos los usuarios del sistema se muestran ahora en la Vista de usuario del Planificador de recursos.
 
 ### Mejoras de corrección
 
-* [Revisión de contenido interactivo en el visor de revisión web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [Revisar contenido interactivo en el visor de revisión web](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
 
   Si las políticas de seguridad de su organización no permiten el uso de la aplicación independiente Desktop Proofing Viewer, su administrador de Workfront ahora puede activar el contenido interactivo en el visor de revisión web.
 
-* [El orden de clasificación predeterminado de los comentarios en el visor de revisión es ahora del más antiguo al más reciente](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [El orden predeterminado para los comentarios en el visor de revisión es ahora del más antiguo al más reciente](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   En el visor de pruebas, el orden de clasificación predeterminado de los comentarios de una prueba es ahora De más antiguo a más reciente, como en una conversación verbal.
 
@@ -150,11 +150,11 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   Cuando revise un comentario asociado a un rango de material de archivo de vídeo en el visor de pruebas, ahora puede hacer clic en Reproducir para ver todo el rango de material de archivo.
 
-* [Vínculo a los detalles del documento desde una notificación de prueba o el visor de pruebas](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
+* [Vínculo a los detalles del documento desde una notificación de revisión o el visor de revisión](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
 
   Cuando reciba un correo electrónico que le invita a revisar una prueba o cuando esté revisándola en el visor de pruebas, ahora puede acceder rápidamente a la página de detalles del documento para la prueba.
 
-* [Cambio de las notificaciones por correo electrónico en el visor de pruebas](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
+* [Cambiar las notificaciones por correo electrónico en el visor de revisión](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
 
   Ahora todos los revisores de revisión pueden especificar qué notificaciones de prueba desean recibir para una prueba. Esto es especialmente importante a la hora de colaborar con partes interesadas externas.
 
@@ -172,7 +172,7 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   La búsqueda de elementos en la aplicación móvil de Workfront es ahora más fácil de usar e intuitiva.
 
-* [Inicio es la nueva página de aterrizaje predeterminada de las aplicaciones móviles de Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [Inicio es la nueva página de aterrizaje predeterminada en las aplicaciones móviles de Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   El área de Inicio es ahora la nueva página de aterrizaje predeterminada para las aplicaciones móviles de Workfront. Esto es compatible con dispositivos iOS y Android.
 
@@ -180,11 +180,11 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
   Ahora puede filtrar, ordenar y ordenar las listas en la aplicación móvil de Workfront.
 
-* [Compatibilidad con la aplicación beta de Workfront para dispositivos iOS](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
+* [Compatibilidad con la aplicación Workfront Beta para dispositivos iOS](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
 
   Ahora puede inscribirse para probar la versión beta de la aplicación móvil de Workfront desde un dispositivo iOS.
 
-* [Creación sencilla de tareas para la versión beta de Android](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
+* [Creación sencilla de tareas para Android Beta](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
   Ahora puede crear tareas directamente desde un proyecto, una tarea o desde el área de Inicio para la versión beta de la aplicación móvil de Android.
 
@@ -209,7 +209,7 @@ La versión 2019.1 incluye mejoras para administradores y otros usuarios.
 
 ### La versión 4 de la API ya no es compatible
 
-La compatibilidad con la versión 4 de API finaliza junto con la versión 2019.1. Para obtener más información sobre el programa de soporte de las versiones de la API de Workfront, consulte  [Versiones de API y programación de asistencia](../../../../wf-api/api/api-version-support-schedule.md).
+La compatibilidad con la versión 4 de API finaliza junto con la versión 2019.1. Para obtener más información sobre el programa de soporte de las versiones de la API de Workfront, consulte  [Versiones de API y programación de soporte](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### Actualizaciones de herramientas de Agile
 
@@ -227,22 +227,22 @@ La versión 10 de la API ya está disponible en el entorno de vista previa. Esta
 Ahora, las siguientes opciones de inicio de sesión único (SSO) solo son compatibles con una capacidad limitada; se eliminarán del producto en el segundo semestre de 2019:
 
 * LDAP\
-  Para obtener más información sobre el uso de LDAP con Workfront, consulte [Configuración de Workfront con LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
+  Para obtener más información acerca del uso de LDAP con Workfront, consulte [Configuración de Workfront con LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
 
 * Active Directory\
-  Para obtener más información acerca del uso de Active Directory con Workfront, consulte [Configuración de Workfront con Active Directory.](https://support.workfront.com/hc/en-us/articles/217223547)
+  Para obtener más información acerca del uso de Active Directory con Workfront, vea [Configurar Workfront con Active Directory.](https://support.workfront.com/hc/en-us/articles/217223547)
 
 * SAML 1.1\
   Para obtener más información sobre el uso de SAML 1.1 con Workfront, consulte [Configuración de Workfront con SAML 1.1.](https://support.workfront.com/hc/en-us/articles/217194887)
 
 A continuación se muestra la cronología de eliminación de estas opciones de SSO:
 
-* **Asistencia limitada:** De agosto de 2018 a enero de 2019\
+* **Asistencia limitada:** de agosto de 2018 a enero de 2019\
   Se solucionarán los problemas principales; no se solucionarán los problemas de baja gravedad.
 
-* **Obsoleto:** De enero a agosto de 2019\
+* **Desaprobación:** de enero de 2019 a agosto de 2019\
   No compatible.
 
-* **Ya no está disponible en Workfront:** Agosto de 2019
+* **Ya no está disponible en Workfront:** agosto de 2019
 
-Estos cambios se están realizando como preparación para la experiencia de autenticación mejorada, que actualmente solo está disponible para un número limitado de clientes. Para obtener más información sobre estos cambios, consulte [Introducción a la experiencia de autenticación mejorada.](https://support.workfront.com/hc/en-us/articles/360008329033)
+Estos cambios se están realizando como preparación para la experiencia de autenticación mejorada, que actualmente solo está disponible para un número limitado de clientes. Para obtener más información acerca de estos cambios, vea [Introducción a la experiencia de autenticación mejorada.](https://support.workfront.com/hc/en-us/articles/360008329033)

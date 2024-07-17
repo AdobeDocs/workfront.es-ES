@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>
    <p>Nuevo: Cualquiera</p>
     <p>Plan actual: Pro o Superior</p>
-   <p>Plan heredado: Select o Superior</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <p>Plan heredado: Select o Superior</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -53,22 +53,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 +++
 
 ## Creación de una prueba avanzada con un flujo de trabajo básico
 
-1. Vaya al proyecto, tarea o problema donde desee la prueba y haga clic en **Documentos** pestaña.
-1. Clic **Añadir nuevo** > Prueba, cargue el contenido y, a continuación, revise las secciones que se indican a continuación.
+1. Vaya al proyecto, tarea o problema donde desee la prueba y, a continuación, haga clic en la ficha **Documentos**.
+1. Haga clic en **Agregar nuevo** > Prueba, cargue el contenido y luego revise las secciones que se indican a continuación.
 
    o
 
-   Pase el ratón sobre un documento existente y luego haga clic en **Crear revisión** > **Corrección avanzada** y trabaje en las secciones que se enumeran a continuación.
+   Pase el ratón sobre un documento existente y luego haga clic en **Crear revisión** > **Revisión avanzada**, y revise las secciones que se indican a continuación.
 
 ## Configuración del flujo de trabajo y adición de revisores
 
-1. En la sección Workflow type, elija **Básico**.
+1. En la sección Tipo de flujo de trabajo, elija **Básico**.
 1. Especifique los usuarios que desea agregar y, a continuación, elija una Función de prueba.
 
    ![](assets/new-proof---roles-350x213.png)
@@ -93,24 +93,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <thead> 
      <tr> 
       <th> <p> </p> </th> 
-      <th> <p><strong>Visualización de una prueba</strong> </p> </th> 
+      <th> <p><strong>Ver una revisión</strong> </p> </th> 
       <th> <p><strong>Agregar marcas</strong> </p> </th> 
-      <th> <p><strong>Añadir comentarios</strong> </p> </th> 
+      <th> <p><strong>Agregar comentarios</strong> </p> </th> 
       <th> <p><strong>Editar sus propios comentarios si no hay respuestas</strong> </p> </th> 
       <th> <p><strong>Tomar una decisión</strong> </p> </th> 
-      <th> <p><strong>Eliminar los comentarios de otros usuarios</strong> </p> </th> 
+      <th> <p><strong>Eliminar comentarios de otros</strong> </p> </th> 
       <th>Resolver comentarios</th> 
       <th>Aplicar acciones a comentarios</th> 
       <th> <p><strong>Editar la revisión</strong> </p> </th> 
       <th>Compartir la prueba con otros usuarios</th> 
       <th>Crear nueva versión</th> 
-      <th> <p><strong>Ver solicitudes de aprobación en el área de Inicio</strong> </p> </th> 
+      <th> <p><strong>Ver solicitudes de aprobación en el área de inicio</strong> </p> </th> 
       <th>Añadir nuevos revisores</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><strong>Solo lectura</strong> </p> </td> 
+      <td> <p><strong>Sólo lectura</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p> </p> </td> 
       <td> <p> </p> </td> 
@@ -193,7 +193,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td> <p><strong>Moderador</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
-      <td> <p><strong>✓</strong> </p> </td> 
+      <td> <p>✓ <strong></strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> <p> </p> </td> 
@@ -219,19 +219,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td role="rowheader">Resolver comentarios y aplicar acciones </td> 
       <td> <p>Permite al usuario de Workfront hacer lo siguiente:</p> 
        <ul> 
-        <li>Resuelva un comentario una vez abordado, tal como se explica en <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Resolver comentarios de revisión</a>.</li> 
-        <li>Aplique acciones a los comentarios, tal como se explica en <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Uso de acciones en comentarios de prueba</a>. </li> 
+        <li>Resuelva un comentario una vez que se haya dirigido, tal como se explica en <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Resolver comentarios de prueba</a>.</li> 
+        <li>Aplicar acciones a comentarios, como se explica en <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Usar acciones en comentarios de revisión</a>. </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Compartir la revisión mediante etiquetado</td> 
-      <td> <p>Permite al revisor añadir cualquier usuario de Workfront a la prueba, tal como se explica en <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Etiquete a los usuarios para compartir una prueba</a>.</p> <p>Nota:  <p>Si estas dos opciones no están disponibles (atenuadas), el usuario ya tiene un perfil de permisos que permite resolver comentarios, aplicar acciones a los comentarios y etiquetar a cualquier usuario. </p> <p>Si no aparecen las opciones, la persona que ha añadido no es titular de una licencia de Workfront.</p> </p> </td> 
+      <td> <p>Permite que el revisor agregue cualquier usuario de Workfront a la revisión, tal como se explica en <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Etiquete a los usuarios para que compartan una revisión</a>.</p> <p>Nota:  <p>Si estas dos opciones no están disponibles (atenuadas), el usuario ya tiene un perfil de permisos que permite resolver comentarios, aplicar acciones a los comentarios y etiquetar a cualquier usuario. </p> <p>Si no aparecen las opciones, la persona que ha añadido no es titular de una licencia de Workfront.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Repita los pasos del 1 al 3 con los demás usuarios que haya agregado a la prueba.
-1. Para cada usuario con el que comparta, en la **Alertas de correo electrónico** , seleccione el tipo de alertas de correo electrónico que este usuario recibe cuando las personas realizan comentarios y toman decisiones sobre la prueba:
+1. Para cada usuario con el que comparta, en la lista desplegable **Alertas de correo electrónico**, seleccione el tipo de alertas de correo electrónico que este usuario recibe cuando las personas realizan comentarios y toman decisiones sobre la prueba:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -243,7 +243,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Respuestas a mis comentarios</td> 
-      <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener más información sobre los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder comentarios sobre la prueba</a>.</p></td> 
+      <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener información acerca de los comentarios, vea <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Decisiones</td> 
@@ -259,26 +259,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Resumen diario</td> 
-      <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administración de notificaciones para comentarios y decisiones de prueba</a>.</p></td> 
+      <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Sin correo electrónico</td> 
-      <td>Workfront no envía alertas por correo electrónico.<br>Esto resulta útil para una persona que se añade a una prueba solo con fines de referencia y no necesita que se le notifique ningún cambio.<p>El valor predeterminado del sistema es Resumen diario (también se ve como No configurado). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
+      <td>Workfront no envía alertas por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es Resumen diario (también se ve como No configurado). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Continuar con [Configuración de correo electrónico para la prueba](#configure-email-settings-for-the-proof) más abajo.
+1. Continúe con [Configurar correo electrónico para la revisión](#configure-email-settings-for-the-proof) a continuación.
 
 ## Configuración de correo electrónico para la prueba {#configure-email-settings-for-the-proof}
 
-1. En el **Notificación por correo electrónico** , seleccione si desea enviar notificaciones por correo electrónico y un mensaje personalizado a los usuarios seleccionados en [Creación de una prueba avanzada con un flujo de trabajo básico](#workflow) anteriormente en este artículo:
+1. En la sección **Notificación por correo electrónico**, seleccione si desea enviar notificaciones por correo electrónico y un mensaje personalizado a los usuarios seleccionados en [Crear una prueba avanzada con un flujo de trabajo básico](#workflow), anteriormente en este artículo:
 
    <table>
    <tbody>
    <tr>
    <td>Notificar a los destinatarios sobre esta revisión</td>
-   <td>Seleccione esta opción para enviar una notificación por correo electrónico a los usuarios. Cuándo <strong>Uso compartido básico</strong> está seleccionado en la <strong>Flujo de trabajo</strong> , se envía una notificación por correo electrónico cuando se crea la prueba. Cuándo <strong>Flujo de trabajo automatizado</strong> está seleccionado en la <strong>Flujo de trabajo</strong> , se enviará una notificación por correo electrónico cuando la prueba entre en la fase del flujo de trabajo automatizado a la que está asociado el usuario.</td>
+   <td>Seleccione esta opción para enviar una notificación por correo electrónico a los usuarios. Cuando se selecciona <strong>Uso compartido básico</strong> en la sección <strong>Flujo de trabajo</strong>, se envía una notificación por correo electrónico cuando se crea la prueba. Cuando se selecciona <strong>Flujo de trabajo automatizado</strong> en la sección <strong>Flujo de trabajo</strong>, se envía una notificación por correo electrónico cuando la prueba entra en la fase del flujo de trabajo automatizado con el que está asociado el usuario.</td>
    </tr>
    <tr>
    <td>Añadir mensaje personalizado</td>
@@ -288,11 +288,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </table>
 
 
-1. Continuar con [Configurar ajustes de prueba](#configure-proof-settings) más abajo.
+1. Continúe con [Configurar opciones de revisión](#configure-proof-settings) a continuación.
 
 ## Configurar ajustes de prueba {#configure-proof-settings}
 
-1. En el **Configuración de revisión** , seleccione cualquiera de las siguientes opciones:
+1. En la sección **Configuración de prueba**, seleccione cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -309,7 +309,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Solo se requiere una decisión para esta prueba</td> 
-      <td>Cuando se selecciona esta opción, la revisión se completa después de que uno de los responsables de la toma de decisiones tome su decisión.<br>Esta opción está desactivada de forma predeterminada.</td> 
+      <td>Cuando se selecciona esta opción, la revisión se completa después de que uno de los responsables de la toma de decisiones tome su decisión.<br>Esta opción está deshabilitada de manera predeterminada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Requerir que las decisiones se firmen electrónicamente</td> 
@@ -317,11 +317,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Bloquear la revisión cuando se tomen todas las decisiones necesarias</td> 
-      <td>Cuando esta configuración está habilitada, el estado de prueba se bloquea después de que se hayan tomado todas las decisiones. El estado cambia automáticamente de desbloqueado a bloqueado cuando el aprobador final toma su decisión.<br>Esta opción está desactivada de forma predeterminada.</td> 
+      <td>Cuando esta configuración está habilitada, el estado de prueba se bloquea después de que se hayan tomado todas las decisiones. El estado cambia automáticamente de desbloqueado a bloqueado cuando el aprobador final toma su decisión.<br>Esta opción está deshabilitada de manera predeterminada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descargar archivo original</td> 
-      <td>Cuando se selecciona esta opción, los revisores pueden descargar el archivo original desde el que se creó la prueba.<br>Cuando esta opción no está seleccionada, el icono Descargar ya no está visible.<br>Esta opción está habilitada de forma predeterminada.</td> 
+      <td>Cuando se selecciona esta opción, los revisores pueden descargar el archivo original desde el que se creó la prueba.<br>Cuando esta opción no está seleccionada, el icono Descargar ya no está visible.<br>Esta opción está habilitada de manera predeterminada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Compartir la revisión mediante una URL pública o código para insertar</td> 
@@ -331,21 +331,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td role="rowheader">Suscribirse a la revisión mediante una URL pública o un código para insertar</td> 
       <td>Si se selecciona esta opción, las personas que no se hayan añadido explícitamente a la prueba podrán suscribirse a ella. A la persona que se suscribe a la prueba se le concede la función y el correo electrónico que defina en la siguiente configuración:
        <ul>
-        <li><strong>Función del suscriptor:</strong> La función de prueba predeterminada que se asigna a todos los revisores que se suscriben a la prueba. </li>
-        <li><strong>Configuración de alertas de correo electrónico para suscriptores:</strong> La alerta de correo electrónico predeterminada asignada a todos los revisores que se suscriben a la prueba.</li>
+        <li><strong>Rol de suscriptor:</strong> El rol de prueba predeterminado que se asigna a todos los revisores que se suscriben a la prueba. </li>
+        <li><strong>Configuración de alertas de correo electrónico para suscriptores:</strong> La alerta de correo electrónico predeterminada asignada a todos los revisores que se suscriben a la revisión.</li>
        </ul><p>
         <ul>
-         <li><strong>Se requiere acceso de revisión por correo electrónico para:</strong> Configure si el suscriptor recibe un correo electrónico con un vínculo a la prueba. Puede seleccionar <strong>Sin correo electrónico</strong> (no se requiere un enlace de correo electrónico para acceder a la prueba), <strong>Solo correo electrónico de notificación de revisión</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico sin ninguna verificación), o <strong>Correos electrónicos de validación y notificación de prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico y debe hacer clic en el vínculo para acceder a una prueba, el propósito de esta opción es garantizar que la persona haya introducido una dirección de correo electrónico correcta a la que tenga acceso).</li>
-        </ul><p>Nota: Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
+         <li><strong>Se requiere acceso a la prueba mediante un vínculo de correo electrónico para:</strong> Configure si el suscriptor recibe un correo electrónico con un vínculo a la prueba. Puede seleccionar <strong>Sin correo electrónico</strong> (el vínculo de correo electrónico no es necesario para acceder a la prueba), <strong>Solo correo electrónico de notificación de prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico sin ninguna verificación) o <strong>Correos electrónicos de notificación de validación y prueba</strong> (el suscriptor recibe un vínculo a la prueba por correo electrónico y debe hacer clic en el vínculo para acceder a una prueba, el propósito de esta opción es garantizar que la persona haya escrito una dirección de correo electrónico correcta a la que tenga acceso).</li>
+        </ul><p>Nota:  Si las pruebas tienen un flujo de trabajo automatizado adjunto, todas las suscripciones generarán correos electrónicos de confirmación a los propietarios de la prueba para que puedan decidir a qué fase se debe agregar a la persona.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Crear revisión**.
+1. Haga clic en **Crear revisión**.
 
    Workfront comienza a generar una prueba de los documentos o sitios web seleccionados. Según el tamaño y el tipo de archivo, el tiempo de posposición de la carga de un documento puede variar. Tenga paciencia, ya que los archivos más grandes tardan más en generarse. Puede salir de la página y Workfront seguirá generando el archivo. El tamaño máximo de carga de archivo es de 4 GB.
 
-1. Una vez generada la prueba, haga clic en **Abrir revisión** para iniciar el visor de revisión.
+1. Una vez generada la revisión, haga clic en **Abrir revisión** para iniciar el visor de revisiones.
 
    ![](assets/open-proof-350x132.png)
 

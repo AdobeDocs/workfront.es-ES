@@ -23,11 +23,11 @@ Un informe de calendario es un informe dinámico que proporciona una representac
 
 Revise los siguientes artículos para comprender mejor los informes de calendario en Adobe Workfront:
 
-* [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
+* [Resumen de informes del calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Usar campos de fecha personalizados en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [Uso [!UICONTROL Fechas planificadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Uso [!UICONTROL Fechas proyectadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-* [Ver informes de calendario y detalles de eventos](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
+* [Usar [!UICONTROL Fechas planificadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Usar [!UICONTROL Fechas proyectadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [Ver informes de calendario y detalles del evento](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
 * [Compartir un informe de calendario](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 * [Editar un informe de calendario existente](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
 * [Eliminar un informe de calendario](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)

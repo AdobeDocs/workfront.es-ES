@@ -21,14 +21,14 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 8 de marzo de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Buscar elementos en el panel de asignación
 
 Para facilitarle la búsqueda de los elementos que desea asignar en sus escenarios, hemos añadido la capacidad de buscar en el panel de asignación. Esto facilita en gran medida la asignación en escenarios que tienen muchos módulos o datos.
 
-Para obtener más información sobre la asignación, consulte [Asignación de información de un módulo a otro en Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
+Para obtener más información sobre la asignación, vea [Asignar información de un módulo a otro en Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-Esta función ahora se incluye en la [Conectores universales y enrutamiento en Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) ruta de aprendizaje en Adobe Experience League.
+Esta característica ahora se incluye en los [conectores universales y en el enrutamiento de la ruta de aprendizaje de Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) en Adobe Experience League.

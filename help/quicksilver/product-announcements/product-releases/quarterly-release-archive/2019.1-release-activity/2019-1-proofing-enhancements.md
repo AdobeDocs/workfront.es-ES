@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de corrección incluidas en la versión 2019.1. La funcionalidad ya está disponible en el entorno de producción.
 
-Para ver una lista de todos los cambios realizados en 2019.1, consulte [información general sobre la actividad de la versión 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.1, consulte [Resumen de la actividad de la versión 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Para administradores
 
@@ -26,11 +26,11 @@ Para ver una lista de todos los cambios realizados en 2019.1, consulte [informac
 
 ## Para todos los usuarios
 
-* [Proof Interactive Content in the Web Proofing Viewer](#proof-interactive-content-in-the-web-proofing-viewer)
+* [Revisar contenido interactivo en el visor de revisión web](#proof-interactive-content-in-the-web-proofing-viewer)
 * [El orden de clasificación predeterminado de los comentarios en el Visor de pruebas ahora es del más antiguo al más reciente](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [Revisión mejorada para comentarios en el visualizador de pruebas asociado a un rango de vídeos](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
-* [Vínculo a los detalles del documento desde una notificación de prueba o el visor de pruebas](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [Cambio de las notificaciones por correo electrónico en el visualizador de pruebas](#change-your-email-notifications-in-the-proofing-viewer)
+* [Revisión mejorada para comentarios en el visor de revisiones asociado a un intervalo de vídeos](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [Vínculo a los detalles del documento desde una notificación de revisión o el visor de revisión](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
+* [Cambiar las notificaciones por correo electrónico en el Visor de pruebas](#change-your-email-notifications-in-the-proofing-viewer)
 * [Cambiar el color de fondo en el visor de corrección de escritorio](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [Borrar datos de explorador en caché de una prueba en el visualizador de pruebas de escritorio](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
@@ -88,7 +88,7 @@ Anteriormente, solo el propietario de la prueba o el administrador de tráfico p
 
 Esta configuración es independiente de la configuración de alertas de correo electrónico que se puede establecer en Workfront.
 
-Para obtener más información, consulte [Administración de notificaciones para comentarios y decisiones de prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+Para obtener más información, consulte [Administrar notificaciones para comentarios y decisiones sobre pruebas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 VÍDEO
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Los filtros y los indicadores son similares en el sentido de que ambos restringen la cantidad de información que se muestra en un informe.
 
-Se genera un filtro cuando se desea que la información que se muestra en el informe se filtre con los mismos criterios cada vez que se ejecuta el informe. Los filtros se crean una vez y se codifican en el informe. Para obtener más información sobre la creación de filtros, consulte el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Se genera un filtro cuando se desea que la información que se muestra en el informe se filtre con los mismos criterios cada vez que se ejecuta el informe. Los filtros se crean una vez y se codifican en el informe. Para obtener más información acerca de cómo generar filtros, vea el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Los indicadores son filtros abiertos que se pueden personalizar y aplicar de forma diferente cada vez que se ejecuta un informe.
 
@@ -53,37 +53,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Requisitos previos
 
 Debe crear un informe antes de agregar una solicitud.
 
-Para obtener instrucciones sobre cómo crear un informe, consulte [Creación de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
+Para obtener instrucciones sobre cómo crear un informe, consulte [Crear un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 
 ## Crear una solicitud
 
 1. Vaya al informe en el que desee agregar un mensaje.
-1. Expandir **Acciones de informe** y haga clic en **Editar**.
+1. Expanda **Acciones de informe** y, a continuación, haga clic en **Editar**.
 
-1. Clic **Configuración de informes**.
-1. En el **Indicadores de informe** , haga clic en **Agregar un indicador**.\
+1. Haga clic en **Configuración del informe**.
+1. En el área **Indicadores de informe**, haga clic en **Agregar un mensaje**.\
    ![](assets/qs-add-a-prompt-350x216.png)
 
 1. (Condicional) Seleccione el campo en el que desea basar la solicitud. Empiece a escribir el nombre del campo y haga clic en para seleccionarlo cuando aparezca en la lista.\
    Las opciones disponibles para los usuarios que ejecuten el informe variarán según el campo que seleccione.\
-   Por ejemplo, si selecciona un campo de fecha como Fecha real de finalización en un informe de tareas, &quot;Fecha real de finalización&quot; es el nombre de la solicitud. Al editar esta solicitud mientras ejecuta este informe, puede elegir entre un conjunto de modificadores para crear la sentencia de filtrado. Este proceso es idéntico al de creación de un filtro. Para obtener más información sobre los modificadores, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Por ejemplo, si selecciona un campo de fecha como Fecha real de finalización en un informe de tareas, &quot;Fecha real de finalización&quot; es el nombre de la solicitud. Al editar esta solicitud mientras ejecuta este informe, puede elegir entre un conjunto de modificadores para crear la sentencia de filtrado. Este proceso es idéntico al de creación de un filtro. Para obtener más información acerca de los modificadores, vea [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Condicional) Haga clic en **Mensaje personalizado** para crear una petición de datos personalizada.
+1. (Condicional) Haga clic en **Mensaje personalizado** para crear un mensaje personalizado.
 
    Una solicitud personalizada es una solicitud predefinida en la que se codifican los criterios de filtrado antes de ejecutar el informe. En este sentido, un mensaje personalizado está más cerca de un filtro que un mensaje.
 
@@ -92,12 +92,12 @@ Para obtener instrucciones sobre cómo crear un informe, consulte [Creación de 
    Especifique la siguiente información para la solicitud personalizada: La condición de una solicitud personalizada solo se puede editar en modo de texto. Esto permite aplicar varias condiciones en un solo campo.
 
    * **Nombre de campo:** Este es el nombre de la solicitud, tal como lo ve antes de ejecutar el informe.
-   * **Etiqueta:** Es el nombre de una de las opciones dentro de la petición de datos tal como la ve antes de ejecutar el informe.
-   * **Condición:** Introduzca una condición que defina la solicitud.
+   * **Etiqueta:** Este es el nombre de una de las opciones dentro de la solicitud tal como lo ve antes de ejecutar el informe.
+   * **Condición:** Escriba una condición que defina el mensaje.
 
-   Utilice la misma sintaxis que utilizaría al introducir un filtro de modo de texto y una sus instrucciones con &quot;&amp;&quot;. Para obtener más información sobre cómo editar un filtro en modo de texto, consulte [Edición de un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Utilice la misma sintaxis que utilizaría al introducir un filtro de modo de texto y una sus instrucciones con &quot;&amp;&quot;. Para obtener más información sobre cómo editar un filtro en modo de texto, vea [Editar un filtro en modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-   Por ejemplo, la variable **Condición** El campo del mensaje personalizado para los siguientes escenarios podría tener este aspecto:
+   Por ejemplo, el campo **Condición** del mensaje personalizado para los siguientes escenarios podría tener este aspecto:
 
    * todas las tareas de proyectos futuros cuyo estado sea Idea, Solicitada, Planificada y Actual:
 
@@ -111,14 +111,14 @@ Para obtener instrucciones sobre cómo crear un informe, consulte [Creación de 
      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
      ```
 
-   Para obtener más información sobre los modificadores del modo de texto, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Para obtener más información acerca de los modificadores de modo de texto, vea [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
    >No se pueden cambiar las condiciones de una petición de datos personalizada cuando se ejecuta el informe, como lo haría con una petición de datos estándar. Puede tener tantas condiciones predefinidas para un mensaje personalizado como necesite.
 
 1. (Opcional) Repita el paso 4 o el paso 5 para crear tantos mensajes como sea necesario.
-1. Clic **Listo**, luego haga clic en **Guardar + Cerrar** para guardar el informe.
+1. Haga clic en **Listo** y, a continuación, haga clic en **Guardar+Cerrar** para guardar el informe.
 
 ## Aplicar una solicitud a un informe
 
@@ -130,7 +130,7 @@ Para ejecutar un informe con una solicitud:
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. Elija una condición para uno o todos los mensajes mostrados en la **Indicadores** pestaña.\
+1. Elija una condición para uno o todos los indicadores mostrados en la ficha **Indicadores**.\
    (Opcional) Puede dejar los indicadores en blanco y no filtrar el informe según las condiciones del mensaje.
 
 1. Haga clic en **Ejecutar informe**.\
@@ -151,7 +151,7 @@ Las siguientes son limitaciones en el uso compartido de informes solicitados des
 
 * Cuando comparte un informe públicamente, los usuarios no pueden ejecutarlo aplicando la solicitud, a menos que tengan credenciales de Workfront e inicien sesión primero para ver el informe en Workfront.
 
-  Para obtener más información sobre cómo compartir informes, consulte el artículo [Uso compartido de informes en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Para obtener más información sobre cómo compartir informes, consulte el artículo [Compartir un informe en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * Cuando se programa un informe solicitado para su envío, el informe que aparece en el archivo adjunto de correo electrónico incluye los datos del informe sin que se le solicite. Cuando el usuario hace clic en el vínculo del correo electrónico para acceder al informe, debe iniciar sesión primero para ver el informe y ejecutar la solicitud por su cuenta.
 
-  Para obtener información sobre la programación de un informe enviado, consulte [Programar una entrega automática de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Para obtener información sobre cómo programar un informe entregado, consulte [Programar un envío automático de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

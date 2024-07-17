@@ -16,12 +16,12 @@ ht-degree: 0%
 
 A continuación se muestran varios recursos sobre suscripciones a eventos en Adobe Workfront:
 
-* [API de suscripción de evento](../../wf-api/general/event-subs-api.md)
-* [Prácticas recomendadas de suscripción de eventos](../../wf-api/general/event-sub-best-practice.md)
-* [Requisitos de envío de suscripción a evento](../../wf-api/general/setup-event-sub-endpoint.md)
+* [API de suscripción a evento](../../wf-api/general/event-subs-api.md)
+* [Prácticas recomendadas de suscripción a eventos](../../wf-api/general/event-sub-best-practice.md)
+* [Requisitos para la entrega de suscripciones a eventos](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Campos de recurso de suscripción de evento](../../wf-api/api/event-sub-resource-fields.md)
-* [Reintentos de suscripción de evento](../../wf-api/api/event-sub-retries.md)
-* [Filtrado de mensajes de suscripción de eventos](../../wf-api/api/filter-event-sub-messages.md)
+* [Reintentos de suscripción a evento](../../wf-api/api/event-sub-retries.md)
+* [Filtrar mensajes de suscripción de evento](../../wf-api/api/filter-event-sub-messages.md)
 * [Formato de mensaje saliente para suscripciones a eventos](../../wf-api/api/message-format-event-subs.md)
 * [Preguntas frecuentes - Suscripciones de eventos](../../wf-api/general/event-subs-faq.md)
 

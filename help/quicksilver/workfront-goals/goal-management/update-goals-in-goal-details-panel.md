@@ -64,7 +64,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso*</td>
@@ -76,7 +76,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Haga clic en el nombre de una meta en la Lista de metas y, a continuación, haga clic en el nombre de una meta.
 
-   Esto abre el **Detalles de la meta** de la izquierda.
+   Se abre la sección **Detalles de la meta** a la izquierda.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Haga clic en **Icono Editar** ![](assets/edit-icon.png) en la esquina superior derecha, haga clic en **Editar todo** o **Información general**
+1. Haz clic en el **icono Editar** ![](assets/edit-icon.png) en la esquina superior derecha y, a continuación, haz clic en **Editar todo** o **Información general**
 
    O
 
@@ -196,14 +196,14 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Actualice o revise los siguientes campos:
 
-   * **Descripción**: Añada o actualice información sobre la meta.
-   * **Progreso**: indica qué porcentaje del objetivo se ha completado hasta el momento. No se puede actualizar manualmente el progreso de una meta. El progreso del objetivo es un cálculo de todos los indicadores de progreso.
-   * **Condición**: indica si el objetivo es nuevo y no se ha actualizado aún, si está en el objetivo para completarse a tiempo o si se queda rezagado. No se puede actualizar la condición de un objetivo. Workfront calcula automáticamente la condición del objetivo.\
+   * **Descripción**: agrega o actualiza información sobre la meta.
+   * **Progreso**: indica qué porcentaje de la meta se ha completado hasta el momento. No se puede actualizar manualmente el progreso de una meta. El progreso del objetivo es un cálculo de todos los indicadores de progreso.
+   * **Condición**: indica si el objetivo es nuevo y si aún no se ha actualizado, si está en el destino para completarse a tiempo o si se está retrasando. No se puede actualizar la condición de un objetivo. Workfront calcula automáticamente la condición del objetivo.\
      Para obtener más información sobre la condición de objetivo y el progreso, consulte
-     [Información general sobre el progreso y la condición de los objetivos en Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
-   * **Estado**: no se puede actualizar manualmente el estado de un objetivo. Para obtener más información, consulte [Información general sobre el estado de las metas en Adobe Workfront Goals](../goal-management/goal-status-overview.md).
-   * **Propietario de meta**: Haga clic en para actualizar el nombre del propietario de la meta. Empiece a escribir el nombre de un usuario, equipo, grupo o el nombre de su organización y, a continuación, selecciónela cuando se muestre en la lista. Solo puede tener un propietario para un objetivo.
-   * **Meta principal**: Comience a escribir el nombre de una meta que desee establecer como principal de la meta seleccionada. El progreso de la meta seleccionada actualizará automáticamente el progreso de la meta principal.
+     [Información general sobre el progreso y la condición de la meta en Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
+   * **Estado**: no puede actualizar manualmente el estado de una meta. Para obtener más información, consulte [Resumen del estado de las metas en Adobe Workfront Goals](../goal-management/goal-status-overview.md).
+   * **Propietario de la meta**: haga clic para actualizar el nombre del propietario de la meta. Empiece a escribir el nombre de un usuario, equipo, grupo o el nombre de su organización y, a continuación, selecciónela cuando se muestre en la lista. Solo puede tener un propietario para un objetivo.
+   * **Meta principal**: Empiece a escribir el nombre de una meta que desee establecer como principal de la meta seleccionada. El progreso de la meta seleccionada actualizará automáticamente el progreso de la meta principal.
 
      >[!TIP]
      >
@@ -214,9 +214,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >      
      >Debe actualizar esta información en la propia meta principal.
 
-   * **Periodo**: haga clic en para actualizar el periodo de tiempo de la meta\
+   * **Periodo**: Haga clic para actualizar el periodo de tiempo de la meta\
      O\
-     Seleccionar **Habilitar fechas personalizadas** para especificar las fechas de la meta **Inicio** y **Fechas de finalización**.
-   * **Notas de cierre**: este campo solo es visible para los objetivos con un estado Cerrado. Las metas cerradas no se pueden editar. Volver a abrir un objetivo cerrado elimina permanentemente las notas de cierre.
+     Seleccione **Habilitar fechas personalizadas** para especificar fechas para las **fechas de inicio** y de finalización **de la meta**.
+   * **Notas de cierre**: este campo solo está visible para las metas con el estado Cerrado. Las metas cerradas no se pueden editar. Volver a abrir un objetivo cerrado elimina permanentemente las notas de cierre.
 
 

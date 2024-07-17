@@ -10,18 +10,18 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
 
-# Buscando [!DNL Workfront] Proof
+# Buscando [!DNL Workfront] revisión
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Puede buscar los siguientes tipos de contenido en el [!DNL Workfront Proof] sitio:
+Puede buscar los siguientes tipos de contenido en el sitio [!DNL Workfront Proof]:
 
 * Pruebas (incluidas las pruebas archivadas)
 * Archivos
@@ -33,7 +33,7 @@ Puede buscar los siguientes tipos de contenido en el [!DNL Workfront Proof] siti
 * Nombre del creador
 * Elementos que se han compartido con usted
 
-Para buscar en [!DNL Workfront Proof] sitio:
+Para buscar en el sitio [!DNL Workfront Proof]:
 
 1. Escriba el texto que desea buscar y presione **[!UICONTROL Entrar]**.\
    Tenga en cuenta lo siguiente sobre los resultados de búsqueda:
@@ -44,13 +44,13 @@ Para buscar en [!DNL Workfront Proof] sitio:
    * Si introduce el nombre de una versión de prueba anterior en el campo de búsqueda, la versión más reciente de esa prueba aparece en los resultados de búsqueda.
    * Las carpetas principales y las subcarpetas se muestran por separado.
 
-1. (Opcional) En los resultados de búsqueda que aparecen, ordene por columna haciendo clic en el encabezado en la parte superior de una columna. (Opcional) Añada el filtrado a los resultados haciendo clic en el [!UICONTROL búsqueda] al final de la fila de encabezado. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
+1. (Opcional) En los resultados de búsqueda que aparecen, ordene por columna haciendo clic en el encabezado en la parte superior de una columna. (Opcional) Agregue filtros a los resultados haciendo clic en el icono [!UICONTROL buscar] al final de la fila del encabezado. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
 Esto añade menús desplegables en los que puede seleccionar filtros para restringir la búsqueda.
 1. ![Search_filter_boxes_appearance_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
 
-1. (Opcional) Reduzca la búsqueda abriendo el [!UICONTROL Etiquetas] y haciendo clic en una etiqueta en la barra lateral de navegación de la izquierda. Los elementos asociados con esa etiqueta aparecen en los resultados de la búsqueda.\
+1. (Opcional) Reduzca la búsqueda abriendo la ficha [!UICONTROL Etiquetas] y haciendo clic en una etiqueta en la barra lateral de navegación de la izquierda. Los elementos asociados con esa etiqueta aparecen en los resultados de la búsqueda.\
    ![Buscando_por_etiqueta.png](assets/searching-by-tag-350x209.png)\
    El nombre de la etiqueta aparece en el campo de búsqueda en la esquina superior derecha de Workfront Proof. Puede restringir la búsqueda: seleccione etiquetas adicionales o escriba más palabras clave en el campo de búsqueda. Para quitar una etiqueta del campo de búsqueda, haga clic en el icono x junto al nombre de la etiqueta.
 
-Para obtener información sobre la búsqueda de texto en el contenido de la prueba, consulte [Búsqueda de contenido dentro de una prueba](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Para obtener información sobre cómo buscar texto en el contenido de una prueba, consulte [Buscar contenido en una prueba](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).

@@ -32,7 +32,7 @@ Puede utilizar la API para migrar carpetas y documentos vinculados a Adobe Exper
 1. Cree un nuevo documento o vínculo de carpeta de documentos en Workfront que señale al recurso en su nueva ubicación mediante su nuevo ID externo.
 
    1. **Documentos**: agregue una nueva versión del documento existente con el nuevo proveedor de documentos externo.
-   1. **Carpetas**: cree una nueva carpeta en el mismo lugar con el mismo nombre.
+   1. **Carpetas**: cree una carpeta nueva en el mismo lugar con el mismo nombre.
 
 >[!CAUTION]
 >
@@ -41,7 +41,7 @@ Puede utilizar la API para migrar carpetas y documentos vinculados a Adobe Exper
 
 ## Proceso de ejemplo para migrar vínculos
 
-![simplificado-link-flow](assets/links-flow-simplified.png)
+![flujo de vínculo simplificado](assets/links-flow-simplified.png)
 
 ## Información de API
 
@@ -49,7 +49,7 @@ Para obtener más información sobre las API de Workfront en esta sección, cons
 
 ### Buscar todos los documentos
 
-Buscar todos **Documentos (DOCU)** Vinculado a **Proveedor de documentos** de **providerType** con **documentProviderID**.
+Buscar todos los **documentos (DOCU)** vinculados a **proveedor de documentos** de **providerType** con **documentProviderID**.
 
 ```
 Http Method: GET
@@ -57,11 +57,11 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[Referencia DOCS de API](https://developer.workfront.com/documents.html#get-/docu/search)
+[Referencia de DOCUMENTOS DE API](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### Buscar todas las carpetas
 
-Buscar todos **Carpetas de documentos (DOCFDR)** Vinculado al proveedor de documentos de **providerType** con **documentProviderID**.
+Buscar todas las **carpetas de documentos (DOCFDR)** vinculadas al proveedor de documentos de **providerType** con **documentProviderID**.
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ DOCUMENTOS DE API: (Puntos finales de carpeta de documentos no cubiertos actualm
 
 ### Enlazar documentos
 
-Vínculo **Documentos (DOCU)** de **Proveedor de documentos externos** de **providerType** con **documentProviderID**.
+Vincular **documentos (DOCU)** de **proveedor de documentos externos** de **providerType** con **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ DOCUMENTOS DE API: (Puntos finales de vínculo interno no cubiertos actualmente 
 
 ### Vincular carpetas
 
-Vínculo **Carpetas de documentos (DOCFDR)** de **Proveedor de documentos externos** de **providerType** con **documentProviderID**.
+Vincular **carpetas de documentos (DOCFDR)** de **proveedor de documentos externos** de **providerType** con **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -116,21 +116,21 @@ DOCUMENTOS DE API: (Puntos finales de vínculo interno no cubiertos actualmente 
 
 ## Términos importantes
 
-* **Documento**: un recurso digital en Workfront
+* **Documento**: Un recurso digital en Workfront
 
-* **Carpeta de documentos**: un contenedor para recursos digitales en Workfront
+* **Carpeta de documentos**: Un contenedor para recursos digitales en Workfront
 
 * **ID de documento**: ID interno de Workfront para un recurso digital
 
-* **Identificador de carpeta de documentos**: ID interno de Workfront para una carpeta de recursos digitales
+* **ID de carpeta de documentos**: ID interno de Workfront para una carpeta de recursos digitales
 
-* **Identificador de proveedor de documentos**: ID asociado con proveedores de documentos específicos
+* **ID de proveedor de documentos**: ID asociado con proveedores de documentos específicos
 
 >[!IMPORTANT]
 >
 > Para cualquier tipo de proveedor de documentos determinado, un cliente puede tener varias instancias conectadas. AEM Por ejemplo, pueden tener varios repositorios de datos enlazados, por ejemplo. O varias instancias de Google Drive vinculadas. El ID del proveedor de documentos indica la instancia específica del tipo de conexión que se desea reemplazar o cambiar.
 
-* **Tipo de proveedor de almacenamiento de documentos (también &quot;tipo de integración externa&quot;)**: tipo de integración del proveedor de almacenamiento de documentos que admite Workfront. Mediante una integración dedicada o una &quot;integración personalizada&quot;.
+* **Tipo de proveedor de almacenamiento de documentos (también &quot;Tipo de integración externa&quot;)**: Tipo de integración de proveedor de almacenamiento de documentos que admite Workfront. Mediante una integración dedicada o una &quot;integración personalizada&quot;.
 
 * **Tipos de proveedor de almacenamiento de documentos actuales ( providerType)**:
 
@@ -152,17 +152,17 @@ DOCUMENTOS DE API: (Puntos finales de vínculo interno no cubiertos actualmente 
   MOCK
   ```
 
-* **Documento enlazado**: Un recurso digital alojado en un proveedor de almacenamiento de documentos externo. Workfront tendrá su propio &quot;ID de documento&quot; interno para el recurso, pero los bytes se almacenan externamente. Para facilitarlo, Workfront también almacena un &quot;ID de documento externo&quot; para ayudar a localizar el recurso al que se hace referencia externamente en el repositorio o almacén remoto.
+* **Documento vinculado**: Un recurso digital alojado en un proveedor de almacenamiento de documentos externo. Workfront tendrá su propio &quot;ID de documento&quot; interno para el recurso, pero los bytes se almacenan externamente. Para facilitarlo, Workfront también almacena un &quot;ID de documento externo&quot; para ayudar a localizar el recurso al que se hace referencia externamente en el repositorio o almacén remoto.
 
-* **Carpeta de documentos enlazados**: un contenedor para recursos digitales alojados en un proveedor de almacenamiento de documentos externo. Workfront tendrá su propio &quot;ID de carpeta de documentos&quot; interno para el recurso, pero los bytes se almacenan externamente. Para facilitarlo, Workfront también almacena un &quot;ID de documento externo&quot; para ayudar a localizar el recurso al que se hace referencia externamente en el repositorio o almacén remoto.
+* **Carpeta de documentos vinculados**: Un contenedor para recursos digitales hospedados en un proveedor de almacenamiento de documentos externo. Workfront tendrá su propio &quot;ID de carpeta de documentos&quot; interno para el recurso, pero los bytes se almacenan externamente. Para facilitarlo, Workfront también almacena un &quot;ID de documento externo&quot; para ayudar a localizar el recurso al que se hace referencia externamente en el repositorio o almacén remoto.
 
-* **Identificador de documento externo**: ID asignado cuando los recursos se almacenan fuera de Workfront. Workfront asigna su identificador interno al identificador utilizado para localizar el recurso en el sistema externo, a través de este campo &quot;identificador de documento externo&quot;. Por lo tanto, al vincular el documento o la carpeta desde un nuevo almacén externo, se debe crear un nuevo identificador de documento externo, en el formato adecuado para que el proveedor de documentos externos identifique el documento en el nuevo repositorio o almacén.
+* **ID de documento externo**: ID asignado cuando los recursos se almacenan fuera de Workfront. Workfront asigna su identificador interno al identificador utilizado para localizar el recurso en el sistema externo, a través de este campo &quot;identificador de documento externo&quot;. Por lo tanto, al vincular el documento o la carpeta desde un nuevo almacén externo, se debe crear un nuevo identificador de documento externo, en el formato adecuado para que el proveedor de documentos externos identifique el documento en el nuevo repositorio o almacén.
 
   >[!NOTE]
   >
   > Workfront todavía no tiene un estándar para identificadores de documentos externos. AEM Se está utilizando una nueva especificación para ID de, pero para otros ID, el ID del documento externo puede adoptar diferentes formas según el tipo de proveedor.
 
 
-* **Tipo de objeto**: Este es un término de API únicamente a los efectos de este documento. Es un tipo de objeto genérico dentro de Workfront con el que desea interactuar. En estos casos, interactuará con documentos y carpetas que tengan los tipos &quot;DOCU&quot; y &quot;DOCFDR&quot; respectivamente.
+* **Tipo de objeto**: se trata de un término de API únicamente para los fines de este documento. Es un tipo de objeto genérico dentro de Workfront con el que desea interactuar. En estos casos, interactuará con documentos y carpetas que tengan los tipos &quot;DOCU&quot; y &quot;DOCFDR&quot; respectivamente.
 
-* **ID de objeto**: Identificador interno de Workfront del objeto genérico con el que desea interactuar. Interactuará con documentos y carpetas, por lo que será el ID del documento o el ID de la carpeta del documento respectivamente.
+* **Id. de objeto**: El identificador Workfront interno del objeto genérico con el que desea interactuar. Interactuará con documentos y carpetas, por lo que será el ID del documento o el ID de la carpeta del documento respectivamente.

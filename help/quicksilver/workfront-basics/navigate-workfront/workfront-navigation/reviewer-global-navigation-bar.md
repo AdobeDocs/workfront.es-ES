@@ -1,8 +1,8 @@
 ---
 product-area: user-management
 navigation-topic: workfront-navigation
-title: Comprender la navegación de un usuario de licencia de revisión
-description: El menú principal cambia con el nivel de acceso que ha asignado su [!DNL Adobe Workfront] administrador. De forma predeterminada, solo tiene acceso a las áreas que incluyen funcionalidad permitida por su nivel de acceso.
+title: Comprender la navegación para un usuario con licencia de revisión
+description: El menú principal cambia con el nivel de acceso que le asignó su  [!DNL Adobe Workfront] administrador. De forma predeterminada, solo se le da acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
@@ -13,31 +13,31 @@ ht-degree: 0%
 
 ---
 
-# Comprender la navegación para un [!UICONTROL Consulte]-usuario de licencia
+# Comprenda la navegación de un usuario con licencia para [!UICONTROL Revisar]
 
-La variable  [!UICONTROL Menú principal] cambios con el nivel de acceso que le haya asignado su [!DNL Adobe Workfront] administrador. De forma predeterminada, solo tiene acceso a las áreas que incluyen funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca de los valores predeterminados [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador [!DNL Adobe Workfront]. De forma predeterminada, solo se le da acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, vea [Acerca del diseño predeterminado [!DNL Adobe Workfront] 2}.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 
-## Comprender el valor predeterminado [!UICONTROL Menú principal] de [!UICONTROL Revisor]
+## Comprender el [!UICONTROL menú principal] predeterminado de un [!UICONTROL revisor]
 
-Como [!UICONTROL Revisor], su principal responsabilidad es revisar, comentar y aprobar el trabajo. Las áreas que son visibles en la variable [!UICONTROL Menú principal] permite hacer eso.
+Como [!UICONTROL revisor], tu responsabilidad principal es revisar, comentar y aprobar el trabajo. Las áreas visibles en el [!UICONTROL Menú principal] le permiten hacerlo.
 
-Las siguientes áreas se incluyen en el diseño predeterminado de un [!UICONTROL Revisor]:
+El diseño predeterminado de [!UICONTROL Revisor] incluye las áreas siguientes:
 
-* **[!UICONTROL Mis actualizaciones]**: La variable **[!UICONTROL Página principal]** el área disponible para los usuarios de todos los niveles de acceso se sustituye por el **[!UICONTROL Mis actualizaciones]** de forma predeterminada, para los usuarios con un tipo de licencia de revisión. Como [!UICONTROL Revisor], no se completa el trabajo. Solo necesita ver información sobre el trabajo que tiene que revisar, comentar o aprobar. La variable **[!UICONTROL Mis actualizaciones]** le permite realizar estas acciones. Esta es la zona de aterrizaje predeterminada para los nuevos usuarios de Revisión.
+* **[!UICONTROL Mis actualizaciones]**: El área **[!UICONTROL Hogar]**, que está disponible para usuarios de todos los niveles de acceso, se ha reemplazado por **[!UICONTROL Mis actualizaciones]** para usuarios con un tipo de licencia Revisar de forma predeterminada. Como [!UICONTROL revisor], no completa el trabajo. Solo necesita ver información sobre el trabajo que tiene que revisar, comentar o aprobar. El área **[!UICONTROL Mis actualizaciones]** le permite realizar estas acciones. Esta es la zona de aterrizaje predeterminada para los nuevos usuarios de la revisión.
 
-   >[!TIP]
-   >
-   >Su [!DNL Workfront] o El administrador del grupo puede asignarle una plantilla de diseño que pueda cambiar la página de aterrizaje predeterminada. Con una plantilla de diseño, también puede ver las dos variables [!UICONTROL Página principal] y [!UICONTROL Actualizaciones] área como [!UICONTROL Consulte]-usuario de licencia.
+  >[!TIP]
+  >
+  >Es posible que el administrador de [!DNL Workfront] o del grupo le asigne una plantilla de diseño que podría cambiar su página de aterrizaje predeterminada. Con una plantilla de diseño, también puede ver el área de [!UICONTROL Inicio] y [!UICONTROL Actualizaciones] como un usuario con licencia de [!UICONTROL revisión].
 
-* **[!UICONTROL Solicitudes]**: Puede enviar y revisar solicitudes que usted u otros usuarios de su empresa hayan enviado en esta área.
-* **[!UICONTROL Documentos]**: Puede cargar documentos o revisar documentos compartidos con usted aquí.
-* **[!UICONTROL Analytics]**: Observe los datos del proyecto e identifique las tendencias con la planificación y la finalización. Esta área muestra información sobre los proyectos a los que tiene acceso para ver. Para obtener más información, consulte [Resumen de análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md).
+* **[!UICONTROL Solicitudes]**: puede enviar y revisar solicitudes que usted u otros usuarios de su compañía hayan enviado en esta área.
+* **[!UICONTROL Documentos]**: aquí puede cargar o revisar los documentos que se han compartido con usted.
+* **[!UICONTROL Analytics]**: observe los datos del proyecto e identifique las tendencias con la planificación y finalización. Esta área muestra información sobre los proyectos que puede ver. Para obtener más información, consulte [Descripción general del análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-* **[!UICONTROL Planes]**: Revise los modelos existentes en su sistema y solicite que se instale uno si el [!DNL Workfront] el administrador configuró la cola de solicitudes para modelos. Para obtener más información, consulte [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Modelos]**: revise los modelos existentes en su sistema y solicite que se instale uno, si el administrador de [!DNL Workfront] configuró la cola de solicitudes para los modelos. Para obtener más información, vea [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
 ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
-## Personalización de los valores predeterminados [!UICONTROL Menú principal]
+## Personalizar el [!UICONTROL menú principal] predeterminado
 
-Su [!DNL Workfront] el administrador puede modificar su [!DNL Workfront] diseño predeterminado asignándole una plantilla de diseño. Para obtener más información sobre cómo trabajar con plantillas de diseño, consulte [Personalice el [!UICONTROL Menú principal] uso de una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+El administrador de [!DNL Workfront] puede modificar el diseño predeterminado de [!DNL Workfront] asignándole una plantilla de diseño. Para obtener más información sobre cómo trabajar con plantillas de diseño, consulte [Personalizar el [!UICONTROL menú principal] con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

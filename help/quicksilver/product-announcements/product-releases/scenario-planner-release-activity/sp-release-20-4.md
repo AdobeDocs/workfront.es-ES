@@ -21,7 +21,7 @@ El planificador de escenarios de Workfront solo está disponible con la nueva ex
 
 Se han añadido las siguientes funciones a la versión 20.4:
 
-## Publicar escenarios para actualizar y crear proyectos desde Workfront Scenario Planner
+## Situaciones de Publish para actualizar y crear proyectos desde el Scenario Planner de Workfront
 
 Ahora, una nueva funcionalidad del Planificador de escenarios de Workfront le permite publicar un escenario y asignar sus iniciativas a proyectos normales. Esto crea proyectos a partir de iniciativas existentes o actualiza los proyectos ya vinculados a iniciativas que se han importado en el plan. La información de la iniciativa se transfiere a los proyectos, lo que le ahorra tiempo en la entrada de datos y garantiza la precisión.
 
@@ -34,7 +34,7 @@ Esta nueva funcionalidad incluye lo siguiente:
 * Información sobre iniciativas en el flujo de actualizaciones del proyecto
 * Información de la iniciativa en los informes
 
-Para obtener información sobre cómo publicar un plan, consulte [Actualizar o crear proyectos publicando iniciativas en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+Para obtener información acerca de cómo publicar un plan, vea [Actualizar o crear proyectos mediante iniciativas de publicación en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 Vea el siguiente vídeo para comprender cómo crear un proyecto publicando un escenario:
 

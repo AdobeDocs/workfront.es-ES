@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Como administrador de Adobe Workfront, puede otorgar a los usuarios acceso para ver o editar objetos asignándoles un nivel de acceso. Los artículos siguientes explican cómo funcionan los niveles de acceso.
 
-* [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [Resumen de licencias](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
 * [Niveles de acceso integrados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [Cómo funcionan juntos los niveles de acceso y los permisos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
@@ -30,6 +30,6 @@ Como administrador de Adobe Workfront, puede otorgar a los usuarios acceso para 
 
 ## Consulte también
 
-* Para obtener información sobre cómo crear niveles de acceso, consulte [Configuración del acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* Para obtener información sobre cómo los usuarios pueden compartir objetos entre sí y conceder permisos de Vista y Edición en esos objetos, consulte [Concesión y solicitud de permisos a objetos](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
-* Para obtener información sobre la tabla Requisitos de acceso que se encuentra en los artículos de la documentación, consulte [Requisitos de los niveles de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Para obtener información acerca de cómo crear niveles de acceso, vea [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+* Para obtener información acerca de cómo los usuarios pueden compartir objetos entre sí y conceder permisos de Vista y Edición en esos objetos, vea [Conceder y solicitar permisos para objetos](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Para obtener información acerca de la tabla Requisitos de acceso que se encuentra en los artículos de la documentación, consulte [Requisitos de niveles de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

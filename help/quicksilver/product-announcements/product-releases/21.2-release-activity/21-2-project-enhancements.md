@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 21.2 Mejoras del proyecto
 
-Esta página describe todas las mejoras del proyecto realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [21.2 Información general de la versión](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página describe todas las mejoras del proyecto realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [Información general sobre la versión 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nueva interfaz para crear y editar tareas recurrentes
 
@@ -27,9 +27,9 @@ Esta página describe todas las mejoras del proyecto realizadas con la versión 
 
 Como parte del rediseño de los cuadros Nueva y Editar tarea, se ha agregado la capacidad de hacer que una nueva tarea sea recurrente, así como de editar la tarea principal de una tarea recurrente. Esta funcionalidad no se incluía en el rediseño del cuadro Nueva y Editar tarea publicado anteriormente.
 
-Para obtener más información, consulte [Creación de tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Para obtener más información, consulte [Crear tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del planificador para la nueva experiencia de Workfront, parte 2: Planificar un proyecto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos del planificador para la nueva experiencia de Workfront, Parte 2: Planificar un proyecto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) ruta de aprendizaje en Workfront One.
 
 ## Nuevos botones disponibles en el encabezado de Proyectos
 
@@ -39,7 +39,7 @@ Esta función ahora se incluye en la [Aspectos básicos del planificador para la
 
 Para permitirle filtrar rápidamente la lista de proyectos en la página Proyectos, hay dos nuevos botones en el encabezado que le permiten aplicar rápidamente el filtro Proyectos en los que participo o Proyectos de mi propiedad.
 
-Esta función ahora se incluye en la [Aspectos básicos del planificador para la nueva experiencia de Workfront, parte 1: Creación de un proyecto](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos del planificador para la nueva experiencia de Workfront, Parte 1: Crear un proyecto](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) ruta de aprendizaje en Workfront One.
 
 ## Mover o eliminar una historia o un problema del panel de exploración
 
@@ -115,12 +115,12 @@ Para obtener información sobre la conversión de problemas, consulte [Informaci
 
 Al asignar un grupo a un portafolio, programa o equipo, le hemos facilitado la tarea de asegurarse de que dispone del grupo adecuado: puede hacer clic en el icono de información situado junto al nombre del grupo para mostrar información sobre herramientas que contenga la jerarquía de grupos por encima, junto con los administradores del grupo. Según los detalles configurados para el grupo, también puede ver el coordinador empresarial y la descripción del grupo.
 
-Esta es la misma funcionalidad que se lanzó recientemente para ayudarle a identificar un grupo que debe asignar a un proyecto, como se explica en [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Esta es la misma funcionalidad que se lanzó recientemente para ayudarle a identificar un grupo que necesita asignar a un proyecto, como se explica en [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Para obtener más información, consulte los siguientes artículos:
 
 * [Crear un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [Creación de un programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [Crear un programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [Crear un equipo](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
 ## El formato de texto de los campos personalizados ahora se muestra en todas las listas e informes de Workfront Classic
@@ -133,9 +133,9 @@ Los usuarios ahora pueden ver el formato de texto, como negrita, listas de viñe
 
 Anteriormente, en Workfront Classic el formato de texto solo era visible en las listas de proyectos, tareas y horas.
 
-Para obtener información sobre el formato del texto en un campo personalizado, consulte [Creación de un formulario personalizado](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Para obtener información sobre cómo dar formato al texto en un campo personalizado, vea [Crear un formulario personalizado](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
-Para obtener información sobre cómo mostrar información en listas, consulte [Introducción a las listas](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Para obtener información acerca de cómo mostrar información en listas, vea [Introducción a las listas](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 
 ## Cuadro de diálogo Nueva tarea de edición
 
@@ -156,7 +156,7 @@ Además de una apariencia y presentación actualizadas, también están disponib
 * Hemos agregado los campos Duración, Tipo de duración y Horas planificadas a la sección Asignaciones para proporcionar coherencia al actualizar asignaciones en varios tipos de duración y al tiempo o la duración que invierten en la tarea.
 * Hemos eliminado la funcionalidad de comentarios de la pantalla de edición de tareas para eliminar la redundancia con la sección de Actualizaciones.
 
-Para obtener información sobre el nuevo cuadro Editar tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Para obtener información acerca del nuevo cuadro Editar tarea, vea [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Cuadro Nueva tarea
 
@@ -176,7 +176,7 @@ Además de una apariencia y presentación actualizadas, también están disponib
 * Puede personalizar la plantilla de diseño una vez y reflejar esas personalizaciones tanto en la página Detalles como en el cuadro Nueva tarea.
 * Hemos agregado los campos Duración, Tipo de duración y Horas planificadas a la sección Asignaciones para proporcionar coherencia al actualizar las asignaciones y el tiempo o la duración que invierten en la tarea.
 
-Para obtener información sobre el cuadro Nueva tarea, consulte [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Para obtener información acerca del cuadro Nueva tarea, vea [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ## Desactivar equipos que ya no estén en uso
 
@@ -198,5 +198,5 @@ Para ofrecerle una experiencia coherente en todos los objetos, hemos cambiado el
 
 Antes de este cambio, deshabilitar la configuración impedía que los usuarios eliminaran tareas o problemas, no proyectos.
 
-Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obtener más información, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

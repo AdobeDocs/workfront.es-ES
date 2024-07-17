@@ -1,8 +1,8 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración
-description: Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets].
+title: Configurar la integración de [!UICONTROL Experience Manager Assets as a Cloud Service]
+description: Puede conectar su trabajo con su contenido en  [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 ---
 
-# Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración
+# Configurar la integración de [!UICONTROL Experience Manager Assets as a Cloud Service]
 
 <!-- Audited: 1/2024 -->
 
 
 >[!IMPORTANT]
 >
->Esta funcionalidad solo está disponible para las organizaciones que se han incorporado al [!DNL Adobe Admin Console].
+>Esta funcionalidad solo está disponible para las organizaciones que se han incorporado a [!DNL Adobe Admin Console].
 
-Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets]dividido en:
+Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets]&#x200B;:
 
-* Insertar recursos y metadatos de [!DNL Adobe Workfront] hasta [!DNL Experience Manager Assets]palo de golf
+* Insertar recursos y metadatos de [!DNL Adobe Workfront] a [!DNL Experience Manager Assets]&#x200B;
 * Vincular recursos de [!DNL Experience Manager Assets] a sus proyectos y tareas en [!DNL Workfront&#x200B;]
 * Facilitar casos de uso de versiones
 * Crear carpetas vinculadas a [!DNL Experience Manager Assets]
@@ -33,7 +33,7 @@ Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets]di
 
 >[!NOTE]
 >
->También puede conectar varias [!DNL Experience Manager Assets] repositorios a uno [!UICONTROL Workfront] entorno o varios [!DNL Workfront] Entornos a uno [!DNL Experience Manager Assets] Repositorio en los ID de organización. Siga las instrucciones de configuración de este artículo para cada integración que desee configurar.
+>También puede conectar varios repositorios de [!DNL Experience Manager Assets] a un entorno de [!UICONTROL Workfront] o varios entornos de [!DNL Workfront] a un repositorio de [!DNL Experience Manager Assets] en los identificadores de organización. Siga las instrucciones de configuración de este artículo para cada integración que desee configurar.
 
 ## Requisitos de acceso
 
@@ -62,15 +62,15 @@ Debe tener lo siguiente:
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong>Producto</strong>
    </td>
-   <td>Debe tener [!DNL Experience Manager Assets as a Cloud Service]y se le debe añadir al producto como usuario.
+   <td>Debe tener [!DNL Experience Manager Assets as a Cloud Service] y se le debe agregar al producto como usuario.
    </td>
   </tr>
   <tr>
    <td>Configuraciones de nivel de acceso*
    </td>
-   <td>Debe ser un [!DNL Workfront] administrador.
+   <td>Debe ser administrador de [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -84,26 +84,26 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Antes de empezar,
 
-* Debe tener [!DNL Workfront] y [!DNL Adobe Experience Manager Assets] asociado a un ID de organización en [!DNL Adobe Admin Console]. Para obtener más información, consulte [Diferencias de administración basadas en la plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* Debe tener [!DNL Workfront] y [!DNL Adobe Experience Manager Assets] asociados con un identificador de organización en [!DNL Adobe Admin Console]. Para obtener más información, vea [Diferencias de administración basadas en la plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Configuración de la información de integración
 
 {{step-1-to-setup}}
 
-1. Seleccionar **[!UICONTROL Documentos]** en el panel izquierdo, seleccione **[!UICONTROL [!DNL Experience Manager]Integración]**.
+1. Seleccione **[!UICONTROL Documentos]** en el panel izquierdo y, a continuación, seleccione **[!UICONTROL [!DNL Experience Manager]Integración]**.
 
    >[!NOTE]
    >
-   >Esta área de configuración solo aparece si su [!DNL Workfront] El entorno de se incluye en una [!DNL Adobe Admin Console].
+   >Esta área de configuración solo aparece si el entorno [!DNL Workfront] se incluye en un [!DNL Adobe Admin Console].
 
-1. Seleccionar **[!UICONTROL Añadir [!DNL Experience Manager] Integración]**.
-1. En el **[!UICONTROL Nombre]** , introduzca el nombre que desea que los usuarios vean al interactuar con esta integración en Workfront y Experience Manager Assets.
-1. En el **[!UICONTROL URL de navegación]** , el sistema rellena automáticamente la URL de navegación. Esta dirección URL de solo lectura se utiliza para vincular con la dirección URL de su organización [!DNL Experience Manager] instancia desde el [!UICONTROL Menú principal] para un acceso rápido.
-1. Elija un repositorio de la **[!UICONTROL [!DNL Experience Manager]Repositorio de recursos]** menú desplegable. El sistema rellena automáticamente cualquier [!DNL Experience Manager] repositorios asociados con el ID de organización al que está asignado el perfil de usuario.
-   ![elija el repositorio de experience manager](assets/setup-information.png)
+1. Seleccione **[!UICONTROL Agregar integración de [!DNL Experience Manager]]**.
+1. En el campo **[!UICONTROL Nombre]**, escriba el nombre que desea que los usuarios vean al interactuar con esta integración en Workfront y Experience Manager Assets.
+1. En el campo **[!UICONTROL URL de navegación]**, el sistema rellena automáticamente la URL de navegación. Esta URL de solo lectura se usa para vincular la instancia [!DNL Experience Manager] de su organización desde el [!UICONTROL Menú principal] para obtener acceso rápido.
+1. Elija un repositorio en el menú desplegable **[!UICONTROL [!DNL Experience Manager]repositorio de Assets]**. El sistema rellena automáticamente los repositorios de [!DNL Experience Manager] asociados con el identificador de organización al que está asignado el perfil de usuario.
+   ![elegir repositorio de experience manager](assets/setup-information.png)
 
-1. Clic **[!UICONTROL Guardar]** o continúe con la [Configuración de metadatos (opcional)](#set-up-metadata-optional) de este artículo.
+1. Haga clic en **[!UICONTROL Guardar]** o continúe con la sección [Configurar metadatos (opcional)](#set-up-metadata-optional) de este artículo.
 
    >[!NOTE]
    >
@@ -111,11 +111,11 @@ Antes de empezar,
 
 ## Configuración de metadatos (opcional)
 
-Puede asignar [!DNL Workfront] datos de objeto a campos de medios de recursos en [!DNL Experience Manager] Recursos.
+Puede asignar [!DNL Workfront] datos de objeto a campos de medios de recursos en [!DNL Experience Manager] Assets.
 
 >[!IMPORTANT]
 >
->Los metadatos solo se pueden asignar en una dirección: desde [!DNL Workfront] hasta [!DNL Experience Manager]. Metadatos de documentos vinculados a [!DNL Workfront] de [!DNL Experience Manager] no se puede transferir a [!DNL Workfront].
+>Solo puede asignar metadatos en una dirección: de [!DNL Workfront] a [!DNL Experience Manager]. Los metadatos de los documentos vinculados a [!DNL Workfront] desde [!DNL Experience Manager] no se pueden transferir a [!DNL Workfront].
 
 ### Configurar campos de metadatos
 
@@ -123,7 +123,7 @@ Antes de empezar a asignar campos de metadatos, debe configurarlos tanto en Work
 
 Para configurar campos de metadatos:
 
-1. Configuración de un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configuración de la asignación de metadatos de recursos entre Adobes [!DNL Workfront] y [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Configure un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configure la asignación de metadatos de recursos entre el Adobe [!DNL Workfront]  y  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
 1. Configure campos de formulario personalizados en Workfront. [!DNL Workfront] tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados, tal como se explica en [Crear o editar un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
@@ -138,20 +138,20 @@ Puede asignar cualquier campo compatible con Workfront a una etiqueta de Experie
 * Los valores de los campos de Workfront asignados a las etiquetas de recursos de Experience Manager deben estar en minúsculas, incluso si la etiqueta de Experience Manager Assets parece tener letras mayúsculas.
 * Los valores de los campos de Workfront no deben incluir espacios.
 * El valor del campo en Workfront también debe incluir la estructura de carpetas de la etiqueta Experience Manager Assets.
-* Para asignar varios campos de texto de una sola línea a las etiquetas, introduzca una lista separada por comas de los valores de las etiquetas en el lado Workfront de la asignación de metadatos, y `xcm:keywords` en el lado de Experience Manager Assets. Cada valor de campo se asigna a una etiqueta independiente. Puede utilizar un campo calculado para combinar varios campos de Workfront en un único campo de texto separado por comas.
+* Para asignar varios campos de texto de una sola línea a las etiquetas, escriba una lista separada por comas de los valores de las etiquetas en el lado Workfront de la asignación de metadatos y `xcm:keywords` en el lado Experience Manager Assets. Cada valor de campo se asigna a una etiqueta independiente. Puede utilizar un campo calculado para combinar varios campos de Workfront en un único campo de texto separado por comas.
 * Puede asignar valores de los campos desplegable, botón de opción o casilla de verificación introduciendo una lista separada por comas de los valores disponibles en ese campo.
 
 
 >[!INFO]
 >
->**Ejemplo**: Para que coincida con la etiqueta que se muestra en la estructura de carpetas, el valor del campo en Workfront sería `landscapes:trees/spruce`. Tenga en cuenta las letras minúsculas en el valor del campo Workfront.
+>**Ejemplo**: Para que coincida con la etiqueta mostrada en la estructura de carpetas, el valor del campo en Workfront sería `landscapes:trees/spruce`. Tenga en cuenta las letras minúsculas en el valor del campo Workfront.
 >
->Si desea que la etiqueta sea el elemento situado más a la izquierda en el árbol de etiquetas, debe ir seguida de dos puntos. En este ejemplo, para asignar a la etiqueta de paisajes, el valor de campo en Workfront sería `landscapes:`.
+>Si desea que la etiqueta sea el elemento situado más a la izquierda en el árbol de etiquetas, debe ir seguida de dos puntos. En este ejemplo, para asignar a la etiqueta de paisajes, el valor del campo en Workfront sería `landscapes:`.
 >
->![AEM Estructura de carpetas en el](assets/aem-folder-structure-with-red-boxes.png)
+>AEM ![Estructura de carpetas en la carpeta de la carpeta de la carpeta de la carpeta](assets/aem-folder-structure-with-red-boxes.png)
 
 
-Una vez creadas las etiquetas en Experience Manager Assets, aparecerán en la lista desplegable Etiquetas de la sección Metadatos. Para vincular un campo a una etiqueta, seleccione `xcm:keywords` en el menú desplegable del campo Experience Manager Assets, en el área de asignación de metadatos.
+Una vez creadas las etiquetas en Experience Manager Assets, aparecerán en la lista desplegable Etiquetas de la sección Metadatos. Para vincular un campo a una etiqueta, seleccione `xcm:keywords` en la lista desplegable de campos de Experience Manager Assets en el área de asignación de metadatos.
 
 Para obtener más información sobre las etiquetas en Experience Manager Assets, incluido cómo crear y administrar etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
 
@@ -161,7 +161,7 @@ Puede asignar campos de Workfront integrados y personalizados a campos de esquem
 
 Los campos de metadatos personalizados creados en Experience Manager Assets se organizan en su propia sección, en el área de Configuración de metadatos.
 
-![sección de metadatos personalizada](assets/custom-metadata.png)
+![sección de metadatos personalizados](assets/custom-metadata.png)
 
 <!-- 
 link to documentation about creating schema - waiting on response from Anuj about best article to link to
@@ -179,7 +179,7 @@ Puede asignar campos de Workfront integrados y personalizados a Experience Manag
 > Para comprobar si los valores del campo coinciden exactamente, vaya a
 >
 > * Configuración > Forms personalizado en Workfront o el campo en el objeto
-> * Recursos > Esquemas de metadatos en Experience Manager Assets
+> * Assets > Esquemas de metadatos en Experience Manager Assets
 
 +++
 
@@ -192,17 +192,17 @@ Para asignar metadatos a los recursos:
 <!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
 -->
-1. En el **[!UICONTROL [!DNL Workfront]campo]** , elija un campo integrado o personalizado de Workfront.
+1. En la columna **[!UICONTROL [!DNL Workfront]campo]**, elija un campo Workfront integrado o personalizado.
 
    >[!NOTE]
    >
-   >Puede asignar un solo [!DNL Workfront] campo a múltiple [!UICONTROL Experience Manager Assets] campos. No se pueden asignar varios [!DNL Workfront] campos a un único [!DNL Experience Manager Assets] field.
+   >Puede asignar un solo campo [!DNL Workfront] a varios campos [!UICONTROL Experience Manager Assets]. No se pueden asignar varios campos [!DNL Workfront] a un único campo [!DNL Experience Manager Assets].
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
-1. En el [!DNL Experience Manager Assets] , busque en las categorías previamente completadas o escriba al menos dos letras en el campo de búsqueda para acceder a categorías adicionales.
+1. En el campo [!DNL Experience Manager Assets], busque en las categorías previamente completadas o escriba al menos dos letras en el campo de búsqueda para acceder a categorías adicionales.
 1. Repita los pasos 2 y 3 según sea necesario.
    ![campos de metadatos](assets/metadata-no-asset-toggle.png)
-1. Clic [!UICONTROL Guardar] o continúe con la [Configuración de flujos de trabajo](#set-up-workflows-optional) de este artículo.
+1. Haga clic en [!UICONTROL Guardar] o continúe con la sección [Configurar flujos de trabajo](#set-up-workflows-optional) de este artículo.
 
 <!--
 
@@ -251,18 +251,18 @@ Los flujos de trabajo están habilitados y configurados para Adobe Experience Ma
 Los siguientes flujos de trabajo están disponibles en la integración de Adobe Experience Manager:
 
 * [Crear carpetas vinculadas de Adobe Experience Manager](#create-adobe-experience-manager-linked-folders)
-* [Publicar recursos enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Recursos de Publish enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Crear carpetas vinculadas de Adobe Experience Manager
 
-1. Alternar el **[!UICONTROL Crear carpeta vinculada]** en.
+1. Active la opción **[!UICONTROL Crear carpeta vinculada]**.
 1. Escriba un nombre para la carpeta vinculada que está creando.
-1. (Condicional) Habilite la variable **Árbol de carpetas predeterminado** si desea que esta carpeta vinculada sea la carpeta predeterminada para los proyectos creados con plantillas que utilizan esta integración. Puede seleccionar una o varias carpetas predeterminadas.
+1. (Condicional) Habilite la opción **Árbol de carpetas predeterminado** si desea que esta carpeta vinculada sea la carpeta predeterminada para los proyectos creados con plantillas que utilizan esta integración. Puede seleccionar una o varias carpetas predeterminadas.
 1. Elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
 1. (Condicional) Para agregar un árbol de carpetas (carpetas anidadas) a esta integración, haga lo siguiente:
 
-   1. Haga clic en **Añadir carpeta** icono ![Añadir carpeta](assets/add-folder-aem.png).
-   1. En el **Tipo de nombre** , seleccione cómo desea asignar un nombre a la carpeta:
+   1. Haga clic en el icono **Agregar carpeta** ![Agregar carpeta](assets/add-folder-aem.png).
+   1. En el campo **Tipo de nombre**, seleccione cómo desea asignar un nombre a la carpeta:
 
       * **Nombre**: escriba un nombre para la carpeta.
       * **Datos de objeto**: seleccione el origen del nombre de la carpeta, como Nombre del proyecto.
@@ -274,13 +274,13 @@ Los siguientes flujos de trabajo están disponibles en la integración de Adobe 
       >
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
-   1. Para añadir una carpeta anidada al árbol de carpetas, haga clic en el menú de tres puntos situado junto a la carpeta en la que desea crear una carpeta anidada y seleccione **Añadir carpeta**. Rellene los campos como se describe en el paso anterior.
+   1. Para agregar una carpeta anidada al árbol de carpetas, haga clic en el menú de tres puntos situado junto a la carpeta en la que desea crear una carpeta anidada y seleccione **Agregar carpeta**. Rellene los campos como se describe en el paso anterior.
    1. Para vincular una carpeta a Workfront, selecciónela y haga clic en **Crear carpeta vinculada**   icono ![Vincular carpeta](assets/link-folder.png).
-   1. (Opcional) Para editar una carpeta, selecciónela y haga clic en **Editar carpeta** icono ![Icono Editar](assets/edit-icon.png).
-   1. (Opcional) Para eliminar una carpeta, selecciónela y haga clic en **Eliminar carpeta** icono ![Eliminar carpeta](assets/delete-folder.png).
+   1. (Opcional) Para editar una carpeta, selecciónela y haga clic en el icono **Editar carpeta** ![Icono Editar](assets/edit-icon.png).
+   1. (Opcional) Para eliminar una carpeta, seleccione la carpeta y haga clic en el icono **Eliminar carpeta** ![Eliminar carpeta](assets/delete-folder.png).
 1. (Condicional) Para agregar otro árbol de carpetas, haga clic en **+ Agregar árbol de carpetas** y siga los pasos del paso 5.
 
-1. Clic **[!UICONTROL Guardar]**, o continúe con la [Publicar recursos enviados a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) de este artículo.
+1. Haz clic en **[!UICONTROL Guardar]** o pasa a la sección [Recursos de Publish que se han enviado a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) en este artículo.
 
 >[!NOTE]
 >
@@ -289,22 +289,22 @@ Los siguientes flujos de trabajo están disponibles en la integración de Adobe 
 >* Si no se proporciona ningún árbol de carpetas, la carpeta raíz se convierte en la carpeta vinculada.
 
 
-### Publicar recursos enviados a Adobe Experience Manager Assets
+### Recursos de Publish enviados a Adobe Experience Manager Assets
 
-1. Alternar en **[!UICONTROL Publicar recursos automáticamente]**.
+1. Activar o desactivar **[!UICONTROL recursos de Publish automáticamente]**.
 1. Marque la casilla junto a la ubicación en la que desea publicar los recursos enviados a los recursos de Adobe Experience Manager. Puede activar una o ambas opciones.
 1. (Condicional) Si ha habilitado la opción Brand Portal, seleccione la Brand Portal en la que desea publicar los recursos.
-1. Clic **[!UICONTROL Guardar]** o continúe con la [Configuración de carpetas vinculadas (opcional)](#set-up-linked-folders-optional) de este artículo.
+1. Haga clic en **[!UICONTROL Guardar]** o continúe con la sección [Configurar carpetas vinculadas (opcional)](#set-up-linked-folders-optional) de este artículo.
 
 ## Configuración de carpetas vinculadas (opcional)
 
-Puede permitir a los usuarios crear carpetas vinculadas a [!DNL Experience Manager] mientras está en [!DNL Workfront] proyecto. Cuando se vincula una carpeta, cualquier recurso agregado a la carpeta se muestra automáticamente en ambas [!DNL Workfront] y [!DNL Experience Manager]. Cuando se agrega un recurso a la carpeta vinculada en [!DNL Workfront] por primera vez, los metadatos del recurso se insertan en [!DNL Experience Manager Assets].
+Puede permitir que los usuarios creen carpetas vinculadas a [!DNL Experience Manager] mientras se encuentran en un proyecto de [!DNL Workfront]. Cuando se vincula una carpeta, cualquier recurso agregado a la carpeta se muestra automáticamente en [!DNL Workfront] y [!DNL Experience Manager]. Cuando se agrega un recurso a la carpeta vinculada en [!DNL Workfront] por primera vez, los metadatos del recurso se insertan en [!DNL Experience Manager Assets].
 
 En los pasos siguientes, indique dónde desea que se creen las carpetas vinculadas. Cada integración solo puede tener una ubicación para todas las carpetas vinculadas.
 
 Para configurar carpetas vinculadas:
 
-1. Alternar el **[!UICONTROL Habilitar carpeta vinculada]** en.
+1. Active la opción **[!UICONTROL Habilitar carpeta vinculada]**.
 1. Elija una ruta de carpeta para indicar dónde desea que estén asociadas todas las carpetas vinculadas con esta integración.
 
    >[!NOTE]

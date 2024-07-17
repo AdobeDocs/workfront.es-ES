@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Agile realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.4, consulte [Descripción general de la versión 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Asignaciones de usuarios en paneles Kanban y Scrum
 
@@ -41,7 +41,7 @@ Para obtener más información, consulte [Configurar Scrum](../../../agile/get-s
 >
 >Esta función se publicó en el entorno de vista previa el 16 de septiembre de 2021.
 
-Como parte de la versión 21.3, hemos realizado mejoras en el encabezado de la tarjeta Agile y en los tableros de historia (consulte [Actualizaciones del encabezado y del guion gráfico de la tarjeta Agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Estas actualizaciones se aplicaron a iteraciones, así como a la vista Agile en proyectos.
+Como parte de la versión 21.3, hemos realizado mejoras en el encabezado de la tarjeta Agile y en los paneles de artículos (consulte [Actualizaciones del encabezado y del panel de artículos de la tarjeta Agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Estas actualizaciones se aplicaron a iteraciones, así como a la vista Agile en proyectos.
 
 Con la versión 21.4, revertimos estas mejoras para la vista Agile en proyectos. No se están realizando cambios en las iteraciones Agile.
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Si es administrador de Adobe Workfront o tiene un nivel de acceso de Planificador que le permite editar la configuración de otros usuarios, puede definir la configuración de notificaciones para varios usuarios a la vez. Esto incluye especificar si los usuarios recibirán notificaciones cuando ocurran eventos o en un correo electrónico de resumen diario, como se describe en [Notificaciones de Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Para obtener información sobre el nivel de acceso necesario para editar usuarios, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Si es administrador de Adobe Workfront o tiene un nivel de acceso de Planificador que le permite editar la configuración de otros usuarios, puede definir la configuración de notificaciones para varios usuarios a la vez. Esto incluye especificar si los usuarios recibirán notificaciones cuando ocurran eventos o en un correo electrónico de resumen diario, como se describe en [notificaciones de Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Para obtener información sobre el nivel de acceso necesario para editar usuarios, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 También puede configurar las notificaciones por correo electrónico para un usuario a la vez, incluido su propio perfil. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -57,28 +57,28 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Cuando establece la configuración de las notificaciones de forma masiva, solo puede cambiar la configuración que los usuarios seleccionados tienen en común.
 
-Al modificar una configuración de notificación, la etiqueta **Editado** aparece para esa configuración de notificación, para hacerle saber que esa configuración de notificación se ha modificado.
+Cuando modifica una configuración de notificación, aparece la etiqueta **Edited** para esa configuración de notificación, para que sepa que esa configuración de notificación se ha modificado.
 
 Para modificar la configuración de las notificaciones por correo electrónico para varios usuarios:
 
 {{step-1-to-users}}
 
-1. Seleccione los usuarios y haga clic en **Editar**.
-1. En el **Editar persona** que aparece, haga clic en **Notificaciones**.
+1. Seleccione a los usuarios y haga clic en **Editar**.
+1. En el cuadro **Editar persona** que aparece, haga clic en **Notificaciones**.
 
 1. Expanda una categoría para ver la configuración de notificaciones relacionada con esa categoría.
 
-   Si hay al menos un usuario seleccionado y las notificaciones no coinciden con las de los demás usuarios seleccionados, la casilla de verificación de la categoría de esa notificación contiene una línea horizontal ![](assets/straight-line-instead-of-checkmark.jpg) en lugar de una marca de verificación.
+   Si hay al menos un usuario seleccionado en el que las notificaciones no coinciden con las notificaciones de los demás usuarios seleccionados, la casilla de verificación de categoría de esa notificación contiene una línea horizontal ![](assets/straight-line-instead-of-checkmark.jpg) en lugar de una marca de verificación.
 
 
 1. Haga clic en cualquier notificación que desee que los usuarios reciban diaria o instantáneamente, o borre las notificaciones que desee que dejen de recibir.
 
    >[!NOTE]
    >
-   >   Para el **Comunicación** categoría, puede seleccionar notificaciones individuales solo para envío instantáneo. Debe seleccionar todas las notificaciones que desea enviar en un compendio diario.
+   >   Para la categoría **Comunicación**, puede seleccionar notificaciones individuales solo para envío instantáneo. Debe seleccionar todas las notificaciones que desea enviar en un compendio diario.
 
 
-1. Si ha seleccionado que las notificaciones se envíen como un resumen diario, seleccione la hora del día a la que desea que se envíe el resumen en la parte superior de la **Notificaciones** de la sección **Enviar correo electrónico de resumen diario después de** menú.
+1. Si seleccionó que las notificaciones se envíen como un resumen diario, seleccione la hora del día a la que desea que se envíe el resumen en la parte superior de la sección **Notificaciones** en el menú **Resumen diario de correo electrónico después de**.
 
    ![](assets/daily-digest-time.png)
 

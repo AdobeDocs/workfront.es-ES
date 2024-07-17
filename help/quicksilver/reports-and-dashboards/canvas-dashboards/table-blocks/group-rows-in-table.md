@@ -17,28 +17,28 @@ Puede organizar la información de un informe mostrándola en grupos definidos p
 
 ## Requisitos previos
 
-Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Resumen de Lienzo de informes beta](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Lienzo de informes beta: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Agrupar filas en una tabla
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Informes**.
-1. Clic **Nuevo informe**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Informes**.
+1. Haga clic en **Nuevo informe**.
 
    O
 
-   Vaya a un informe existente y haga clic en **Menú Más** icono ![](assets/more-icon.png) en el encabezado del informe, seleccione **Editar**.
+   Vaya a un informe existente, haga clic en el icono **Más menú** ![](assets/more-icon.png) en el encabezado del informe y, a continuación, seleccione **Editar**.
 
 1. Para agrupar filas en una tabla nueva, arrastre o haga doble clic en un bloque de tabla hasta el lienzo.
 
    O
 
-   Para agrupar filas en una tabla existente, haga clic en **Editar** icono ![](assets/edit-icon.png) en el encabezado de la tabla.
+   Para agrupar filas en una tabla existente, haga clic en el icono **Editar** ![](assets/edit-icon.png) del encabezado de la tabla.
 
-1. En el panel derecho, busque un campo por el que desee agrupar y arrástrelo al **Grupo** sección.
+1. En el panel derecho, busque un campo por el que desee agrupar y arrástrelo a la sección **Grupo**.
 
-   Puede usar el complemento **Buscar** para buscar un grupo específico.
+   Puede usar el cuadro **Buscar** para encontrar un grupo específico.
 
-1. En el menú desplegable situado a la derecha de la barra de herramientas **Grupo** , seleccione cómo desea ordenar el grupo.
+1. En el menú desplegable situado a la derecha del campo **Grupo**, seleccione cómo desea ordenar el grupo.
 
    Las opciones varían según el tipo de campo que utilice para agrupar las filas.
 
@@ -91,10 +91,10 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
 1. Realice una de las siguientes acciones:
 
    * Para agregar otro grupo, arrastre otro campo desde el panel lateral.
-   * Para mostrar las filas de un grupo contraído de forma predeterminada, haga clic en **Menú Más** icono ![](assets/more-icon.png) junto al grupo y haga clic en **Contraer grupo**.
+   * Para mostrar las filas de un grupo contraído de forma predeterminada, haga clic en el icono **Más menú** ![](assets/more-icon.png) junto al grupo y, a continuación, haga clic en **Contraer grupo**.
 
      Cada grupo se puede configurar individualmente para que se muestre con filas contraídas o expandidas. De forma predeterminada, todas las filas agrupadas están contraídas.
 
-   * Para mostrar un recuento en la fila del grupo, haga clic en **Menú Más** icono ![](assets/more-icon-27x15.png) junto al grupo y haga clic en **Mostrar recuento**.
-   * Para quitar un grupo, haga clic en **Menú Más** icono ![](assets/more-icon.png) junto al grupo y haga clic en **Quitar grupo**.
-   * Para reorganizar varios grupos que haya creado, arrástrelos ![](assets/move-icon---dots.png) en un nuevo orden.
+   * Para mostrar un recuento en la fila del grupo, haga clic en el icono **Más menú** ![](assets/more-icon-27x15.png) junto al grupo y, a continuación, haga clic en **Mostrar recuento**.
+   * Para quitar un grupo, haz clic en el icono **Más del menú** ![](assets/more-icon.png) que está al lado del grupo y luego haz clic en **Quitar grupo**.
+   * Para reorganizar varios grupos que haya creado, arrástrelos ![](assets/move-icon---dots.png) a un nuevo orden.

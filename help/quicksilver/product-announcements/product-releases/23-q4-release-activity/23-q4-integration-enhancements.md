@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de integración realizadas con la versión del cuarto trimestre de 2023 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.10 de.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Resumen de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2023, consulte [Información general de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Mejoras en la experiencia al enviar documentos a SharePoint (GraphAPI)
 
@@ -26,7 +26,7 @@ Hemos realizado algunos cambios en la forma de enviar documentos a las carpetas 
 * La ventana Enviar a ahora muestra hasta 500 sitios, carpetas y documentos.
 * Los resultados de búsqueda ahora muestran diferentes iconos para los sitios y carpetas de SharePoint, lo que deja en claro qué resultados son sitios y cuáles son carpetas. Los archivos no muestran ningún icono.
 
-Para obtener más información, consulte [Vinculación de documentos con la nueva integración de SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
+Para obtener más información, consulte [Vincular documentos con la nueva integración de SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Actualizaciones a arrastrar y soltar para integraciones de documentos
 

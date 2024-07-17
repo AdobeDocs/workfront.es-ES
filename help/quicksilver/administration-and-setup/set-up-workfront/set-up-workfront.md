@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Configuración de [!DNL Adobe Workfront]
-description: As a [!DNL Workfront] administrador, puede configurar los valores predeterminados del sistema, las plantillas de horas, las programaciones, la forma en que están organizados los usuarios en el sistema, las actualizaciones automáticas del sistema y la [!DNL Workfront] entornos de prueba utilizados.
+title: Configurar  [!DNL Adobe Workfront]
+description: Como administrador, puede configurar los valores predeterminados del sistema, las hojas de horas, las programaciones, la forma en que están organizados los usuarios en el sistema, las actualizaciones automáticas del sistema y los  [!DNL Workfront] entornos de prueba que utiliza en su organización. [!DNL Workfront]
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# Configuración de [!DNL Adobe Workfront]: índice del artículo
+# Configurar [!DNL Adobe Workfront]: índice de artículos
 
 <!--Audited: 01/2024-->
 
-Como un [!DNL Adobe Workfront] administrador, puede configurar los valores predeterminados del sistema, las plantillas de horas, las programaciones, la forma en que están organizados los usuarios en el sistema, las actualizaciones automáticas del sistema y la [!DNL Workfront] entornos de prueba utilizados.
+Como administrador de [!DNL Adobe Workfront], puede configurar los valores predeterminados del sistema, las hojas de horas, las programaciones, la forma en que están organizados los usuarios en el sistema, las actualizaciones automáticas del sistema y los entornos de prueba de [!DNL Workfront] que utiliza en su organización.
 
 Las siguientes subsecciones contienen artículos sobre cómo configurar la instancia de Workfront y las preferencias del sistema:
 

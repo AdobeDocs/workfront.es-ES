@@ -50,9 +50,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 {{step1-to-boards}}
 
 1. Para abrir un flujo de trabajo, haga clic en [!UICONTROL **Ver flujo de trabajo**].
-1. Haga clic en [!UICONTROL **Lista de tarjetas**] pestaña.
-1. Clic [!UICONTROL **Añadir tarjeta**].
-1. En el [!UICONTROL **Crear/editar tarjeta**] , añada la siguiente información:
+1. Haga clic en la ficha [!UICONTROL **Lista de tarjetas**].
+1. Haga clic en [!UICONTROL **Agregar tarjeta**].
+1. En el cuadro de diálogo [!UICONTROL **Crear/editar tarjeta**], agregue la siguiente información:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -98,17 +98,17 @@ Para eliminar una tarjeta, selecciónela en la lista y haga clic en [!UICONTROL 
 
 ### Filtrar tarjetas
 
-Las tarjetas sólo se pueden archivar desde el tablero de iteraciones. Cuando se archiva una tarjeta, esta no se muestra en la lista de tarjetas a menos que filtre para mostrar tarjetas archivadas. Para obtener información sobre cómo archivar una tarjeta, consulte [Eliminar o archivar una tarjeta de un tablero](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
+Las tarjetas sólo se pueden archivar desde el tablero de iteraciones. Cuando se archiva una tarjeta, esta no se muestra en la lista de tarjetas a menos que filtre para mostrar tarjetas archivadas. Para obtener información acerca de cómo archivar una tarjeta, vea [Eliminar o archivar una tarjeta de un tablero](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. Acceda a la lista de tarjetas del flujo de trabajo.
-1. Clic [!UICONTROL **Filtrar**] y seleccione [!UICONTROL **Todo**], [!UICONTROL **Tarjetas activas**], o [!UICONTROL **Tarjetas archivadas**].
+1. Haga clic en [!UICONTROL **Filtro**] y seleccione [!UICONTROL **Todas**], [!UICONTROL **Tarjetas activas**] o [!UICONTROL **Tarjetas archivadas**].
 
    Cuando se aplica un filtro distinto del predeterminado en la lista de tarjetas, se muestra un indicador en el icono de filtro ![Filtro aplicado](assets/boards-filterapplied-30x30.png).
 
 ### Buscar en la lista de tarjetas
 
 1. Acceda a la lista de tarjetas del flujo de trabajo.
-1. Clic [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
+1. Haga clic en [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
 
    Se muestran todas las tarjetas que contienen el término de búsqueda.
 Haga clic en la X para borrar la búsqueda.
@@ -119,19 +119,19 @@ Haga clic en la X para borrar la búsqueda.
 
 >[!NOTE]
 >
->Debe crear una iteración para poder agregarle tarjetas. Para obtener más información, consulte [Creación de una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+>Debe crear una iteración para poder agregarle tarjetas. Para obtener más información, vea [Crear una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Acceda a la lista de tarjetas del flujo de trabajo.
-1. Seleccione el [!UICONTROL **Vista de iteración**] para ver qué tarjetas están asignadas a una iteración y cuáles no están planificadas.
-1. Seleccione una tarjeta no planificada en la lista y haga clic en [!UICONTROL **Editar**].
-1. Seleccione una iteración en la [!UICONTROL **Iteraciones**] field.
-1. Si utiliza puntos de artículo, introduzca un valor en la variable [!UICONTROL **Estimación**] field.
+1. Seleccione la [!UICONTROL **vista de iteración**] para ver qué tarjetas están asignadas a una iteración y cuáles no están planificadas.
+1. Seleccione una tarjeta no planeada en la lista y haga clic en [!UICONTROL **Editar**].
+1. Seleccione una iteración en el campo [!UICONTROL **Iteraciones**].
+1. Si usa puntos de historia, escriba un valor en el campo [!UICONTROL **Estimación**].
 1. Haga clic en [!UICONTROL **Guardar**].
 
    La tarjeta se mueve a la iteración, y las métricas de iteración reflejan el número de tarjetas y puntos.
 
-   También puede arrastrar y soltar una tarjeta del grupo Tarjetas no planificadas en la iteración o hacer clic en [!UICONTROL **Añadir tarjeta**] para añadir una tarjeta nueva a la iteración.
+   También puede arrastrar y soltar una tarjeta del grupo Tarjetas no planificadas en la iteración, o hacer clic en [!UICONTROL **Agregar tarjeta**] para agregar una nueva tarjeta a la iteración.
 
 >[!TIP]
 >
->Si ha creado un tablero de proceso de iteración, todas las tarjetas no planificadas de la lista de tarjetas aparecerán en el [!UICONTROL Registro Pendiente] columna. Cuando una tarjeta se mueve a otra columna, pasa a formar parte de la iteración activa. Las tarjetas que agregue a la iteración en la lista de tarjetas se agregarán a una columna en función de su estado.
+>Si ha creado un tablero de proceso de iteración, todas las tarjetas no planeadas de la lista de tarjetas aparecerán en la columna [!UICONTROL Registro de pendientes]. Cuando una tarjeta se mueve a otra columna, pasa a formar parte de la iteración activa. Las tarjetas que agregue a la iteración en la lista de tarjetas se agregarán a una columna en función de su estado.

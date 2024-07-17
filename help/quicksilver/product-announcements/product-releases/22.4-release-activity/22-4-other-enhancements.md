@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las demás mejoras realizadas con la versión 22.4 en el entorno de vista previa. Estas mejoras estarán disponibles la semana del 3 de octubre de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Información general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Descripción general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Adobe Workfront para InDesign
 
@@ -25,9 +25,9 @@ Este complemento ya está disponible para su instalación en InDesign. XD Permit
 
 Para obtener más información sobre el complemento, consulte [[!DNL Adobe Workfront] complemento para [!DNL Creative Cloud] Aplicaciones](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Descargue Adobe Workfront para InDesign en el mercado hoy mismo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Descargue Adobe Workfront para InDesign en el mercado hoy](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Los administradores también pueden [creación de un paquete con los complementos](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) desde el Admin Console e implemente a los usuarios de forma administrada o autoadministrada.
+Los administradores también pueden [crear un paquete con los complementos](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) del Admin Console e implementarlo para los usuarios de forma administrada o autoadministrada.
 
 ## Sincronización de metadatos de objeto con la integración nativa de Experience Manager Assets
 
@@ -37,7 +37,7 @@ Para permitir que los metadatos de objeto se sincronicen automáticamente, debe 
 
 Anteriormente, solo se actualizaban automáticamente los campos de proyecto.
 
-Para obtener más información, consulte [Configuración de la integración as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Para obtener más información, consulte [Configuración de la as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 ## Inserciones de metadatos para objetos principales de programa y portafolio
 
@@ -45,7 +45,7 @@ Ahora, cuando se envía un recurso por primera vez a Experience Manager Assets o
 
 Anteriormente, solo se enviaban los datos del proyecto principal.
 
-Para obtener más información, consulte [Enviar un documento a Experience Manager Assets o a los Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Para obtener más información, consulte [Enviar un documento a Experience Manager Assets o a Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
 ## Descripción del equipo ampliada
 
@@ -57,7 +57,7 @@ Esta mejora en la descripción se aplica tanto a los equipos Agile como a los no
 
 Para obtener más información, consulte [Crear un equipo](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-## Campañas de Workfront (beta): una nueva forma de administrar su trabajo
+## Campañas de Workfront (Beta): una nueva forma de administrar su trabajo
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Esta versión incluye las siguientes funciones:
 
 * Un nuevo objeto de Workfront llamado Campaign
 
-* Una nueva área de Campañas (Beta) en el menú principal
+* Una nueva área de Campaigns (Beta) en el menú principal
 
 * Una lista de campañas en el área Campañas
 
@@ -87,6 +87,6 @@ Esta versión incluye las siguientes funciones:
 
 * Posibilidad de cambiar el nombre del objeto de campaña desde la plantilla de diseño
 
-  Los administradores de sistemas y grupos de Workfront pueden añadir el área de Campañas (beta) en el menú principal de una plantilla de diseño. Esto lo hace disponible para todos los usuarios asignados a la plantilla. Una vez disponible, cualquier usuario de Workfront puede crear una campaña.
+  Los administradores de sistemas y de grupos de Workfront pueden añadir el área de Campañas (Beta) en el menú principal de una plantilla de diseño. Esto lo hace disponible para todos los usuarios asignados a la plantilla. Una vez disponible, cualquier usuario de Workfront puede crear una campaña.
 
 

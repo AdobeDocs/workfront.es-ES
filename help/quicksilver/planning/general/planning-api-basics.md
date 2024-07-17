@@ -28,12 +28,12 @@ Los objetos se manipulan enviando una solicitud HTTP a su URI único. La operaci
 
 Los métodos HTTP estándar corresponden a las siguientes operaciones:
 
-* **GET** - Recupera un objeto por ID, busca todos los objetos por una consulta
+* **GET**: recupera un objeto por identificador y busca todos los objetos por consulta
 * **POST** - Inserta un nuevo objeto
-* **PUT** - Edita un objeto existente
+* **PUT**: edita un objeto existente
 * **DELETE** - Elimina un objeto
 
-Para obtener más detalles y ejemplos de cada operación, consulte la [Documentación para desarrolladores de API de Workfront Planning](https://developer.adobe.com/wf-planning/).
+Para obtener más detalles y ejemplos de cada operación, consulte la [documentación para desarrolladores de API de Workfront Planning](https://developer.adobe.com/wf-planning/).
 
 ### Tipos de campo y modificadores de búsqueda utilizados con ellos
 
@@ -116,25 +116,25 @@ Workfront Planning admite los siguientes modificadores de búsqueda:
         <td>$isAfter </td>
         <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Devuelve registros cuyo valor de campo esté después del filtro  </td>
-        <td>"2024-05-15T20:00:00,000Z"  </td>
+        <td>"2024-05-15T20:00:00.000Z"  </td>
     </tr>
     <tr>
         <td>$isBefore </td>
         <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Devuelve registros cuyo valor de campo esté antes del filtro </td>
-        <td>"2024-05-12T20:00:00,000Z" </td>
+        <td>"2024-05-12T20:00:00.000Z" </td>
     </tr>
     <tr>
         <td>$isBetween </td>
         <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Devuelve registros cuyo valor de campo esté entre el filtro  </td>
-        <td><ul><li>"2024-05-12T20:00:00,000Z" </li><li>"2024-05-14T20:00:00,000Z" </li><ul>  </td>
+        <td><ul><li>"2024-05-12T20:00:00.000Z" </li><li>"2024-05-14T20:00:00.000Z" </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotBetween </td>
         <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Devuelve registros cuyo valor de campo no esté entre el filtro  </td>
-        <td><ul><li>"2024-05-09T20:00:00,000Z"  </li><li>"2024-05-17T20:00:00,000Z"  </li><ul>  </td>
+        <td><ul><li>"2024-05-09T20:00:00.000Z"  </li><li>"2024-05-17T20:00:00.000Z"  </li><ul>  </td>
     </tr>
     <tr>
         <td>$isAnyOf </td>
@@ -329,9 +329,9 @@ Cuerpo de la solicitud:
 
 ### Límites de consultas y respuestas paginadas
 
-De forma predeterminada, las solicitudes de API de Planning devuelven 500 resultados, empezando desde el principio de la lista. Para anular la limitación predeterminada del número de resultados, puede utilizar el `limit` en sus solicitudes y configúrelo en un número diferente, hasta 2000 resultados.
+De forma predeterminada, las solicitudes de API de Planning devuelven 500 resultados, empezando desde el principio de la lista. Para anular la limitación predeterminada del número de resultados, puede usar el parámetro `limit` en sus solicitudes y establecerlo en un número diferente, hasta 2000 resultados.
 
-Le recomendamos que considere la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes añadiendo el `offset` a sus solicitudes. Las respuestas paginadas le permiten especificar la ubicación del primer resultado que se debe devolver.
+Le recomendamos que considere la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes agregando el parámetro `offset` a sus solicitudes. Las respuestas paginadas le permiten especificar la ubicación del primer resultado que se debe devolver.
 
 Por ejemplo, si desea devolver los resultados 2001-4000, puede utilizar la siguiente solicitud. Este ejemplo devuelve 2000 registros que están en estado activo, a partir del resultado 2001:
 
@@ -354,7 +354,7 @@ Cuerpo de la solicitud:
 
 Para asegurarse de que los resultados estén correctamente paginados, utilice un parámetro de ordenación. Esto permite que los resultados se devuelvan en el mismo orden, para que la paginación no se repita ni omita resultados.
 
-Para obtener más información sobre la ordenación, consulte [Ordenar los resultados de las consultas en la API](#sorting-query-results-in-the-api) en este artículo.
+Para obtener más información sobre la ordenación, vea [Ordenar resultados de consultas en la API](#sorting-query-results-in-the-api) en este artículo.
 
 
 

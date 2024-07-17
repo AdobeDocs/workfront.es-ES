@@ -11,8 +11,8 @@ role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '400'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Cuando alguien comparte un campo personalizado con acceso de Ver o Administrar, puede configurar otras opciones para definir aún más ese acceso. Si es destinatario del campo, esa configuración afecta a lo que puede hacer con el campo. Puede ver lo siguiente al ver el campo.
 
-Para obtener más información sobre cómo configuran los usuarios las opciones de configuración para compartir al compartir un formulario personalizado, consulte [Configuración del uso compartido para campos y widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Para obtener más información sobre cómo configuran los usuarios la configuración para compartir al compartir un formulario personalizado, consulte [Configurar el uso compartido para campos y widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Para obtener más información sobre cómo configuran los usuarios las opciones 
   <tr> 
    <td> 
     <ul> 
-     <li>Vista</li> 
+     <li>Ver</li> 
      <li>Añadir a Forms personalizado: no seleccionado</li> 
     </ul> </td> 
    <td> <p>Si está viendo la pestaña Campos en la página principal de Custom Forms, puede ver el campo, pero el botón Editar no está disponible en la barra de herramientas al seleccionar el campo.</p> </td> 
@@ -43,7 +43,7 @@ Para obtener más información sobre cómo configuran los usuarios las opciones 
   <tr> 
    <td> 
     <ul> 
-     <li>Vista</li> 
+     <li>Ver</li> 
      <li>Agregar a Forms personalizado: seleccionado</li> 
     </ul> </td> 
    <td> <p>Si agrega el campo a un formulario personalizado:</p> 

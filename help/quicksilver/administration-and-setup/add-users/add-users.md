@@ -25,9 +25,9 @@ Puede crear y administrar usuarios en Workfront.
 
 Este índice contiene vínculos a las siguientes subsecciones sobre la administración de usuarios:
 
-* [Crear y administrar usuarios: índice de artículos](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+* [Crear y administrar usuarios: índice de artículo](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [Funcionamiento de los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [Funcionamiento de los niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-* [Configuración del acceso a Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
+* [Configurar el acceso a Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
 * [Inicio de sesión único en Workfront: índice de artículos](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [Creación y administración de equipos](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

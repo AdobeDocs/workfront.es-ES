@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Otras mejoras
 
-Esta página describe todas las demás mejoras realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página describe todas las demás mejoras realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Hojas de horas actualizadas
 
@@ -62,7 +62,7 @@ La aplicación debe almacenar el nuevo token de actualización después de cada 
 
 Anteriormente, los tokens de actualización caducaban después de una cantidad de tiempo establecida en la configuración personalizada de la aplicación OAuth2.
 
-Para obtener más información, consulte [Creación de aplicaciones de OAuth2 para integraciones de Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Para obtener más información, consulte [Crear aplicaciones OAuth2 para integraciones de Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Uso de PKCE en las integraciones personalizadas de OAuth2 para aplicaciones web de una sola página
 
@@ -70,4 +70,4 @@ Ahora puede crear aplicaciones web de una sola página en sus integraciones pers
 
 Anteriormente, las opciones disponibles para las aplicaciones OAuth2 personalizadas usaban el nombre y la contraseña de un usuario o un secreto de cliente.
 
-Para obtener más información, consulte [Creación de aplicaciones de OAuth2 para integraciones de Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Para obtener más información, consulte [Crear aplicaciones OAuth2 para integraciones de Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).

@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Esta página describe todos los cambios realizados en la integración y las mejoras móviles realizadas con la versión 2019.3. Estaba disponible en el entorno de producción la semana del 19 de agosto de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.3, consulte [información general sobre la actividad de la versión 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.3, consulte [Resumen de la actividad de la versión 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Compatibilidad con elementos compartidos en la integración de MS OneDrive
 
 Ahora puede vincular los archivos y carpetas compartidos de OneDrive a objetos de Workfront. Por el contrario, puede cargar archivos en Workfront en carpetas compartidas de OneDrive.
 
-Para obtener más información, consulte las secciones [Vinculación de un documento externo a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Vincular una o más carpetas externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder), y [Actualizar y vincular un documento de Workfront a un proveedor de nube externo](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) en el artículo [Vinculación de documentos desde aplicaciones externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obtener más información, consulte las secciones [Vincular un documento externo a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Vincular una o más carpetas externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) y [Actualizar y vincular un documento de Workfront a un proveedor de nube externo](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) en el artículo [Vincular documentos de aplicaciones externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Para obtener más información, consulte la sección [Vinculación de un documento externo a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) en el artículo [Vinculación de documentos desde aplicaciones externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obtener más información, consulte la sección [Vincular un documento externo a Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) en el artículo [Vincular documentos de aplicaciones externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Especificación de dominio necesaria para todos los inicios de sesión de Workfront
 
@@ -35,13 +35,13 @@ Ahora, todos los inicios de sesión de Workfront requieren que el usuario especi
 
 Este cambio puede afectar tanto a los inicios de sesión del usuario como a las integraciones de API:
 
-* **Inicios de sesión del usuario**
+* **Inicios de sesión de usuario**
 
   Si el dominio de su empresa no se incluye en la dirección URL de Workfront, ahora verá un nuevo campo Dominio en la pantalla de inicio de sesión, además de los campos Nombre de usuario y Contraseña.
 
-  Para la mayoría de los clientes, no se requiere ningún cambio porque la información del dominio ya está incluida en la dirección URL de Workfront. Por ejemplo, &quot;*sector*.my.workfront.com.&quot;
+  Para la mayoría de los clientes, no se requiere ningún cambio porque la información del dominio ya está incluida en la dirección URL de Workfront. Por ejemplo, &quot;*dominio*.my.workfront.com.&quot;
 
-* **Integraciones de API**
+* **integraciones de API**
 
   Si tiene algún código API que va a una dirección que no incluye su nombre de dominio, ese código API ya no funcionará.
 
@@ -55,7 +55,7 @@ Ahora puede convertir tareas y problemas individuales en proyectos en la aplicac
 
 Según el dispositivo, puede elegir iniciar sesión en la aplicación móvil de Workfront con la tecnología de huella digital o ID de rostro. Al iniciar sesión en la aplicación móvil, se le preguntará si desea iniciar sesión con el método de autenticación que admita el teléfono.
 
-Para obtener más información sobre cómo administrar esta función, consulte [Adobe Workfront para iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) o [Adobe Workfront para Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Para obtener más información sobre cómo administrar esta característica, consulte [Adobe Workfront para iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) o [Adobe Workfront para Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 ## Nueva configuración para cerrar la sesión de los usuarios automáticamente en dispositivos móviles
 
@@ -85,7 +85,7 @@ Ahora puede eliminar objetos como tareas, problemas y plantillas de horas en la 
 
 >[!NOTE]
 >
->Esta función estará disponible en las tiendas de aplicaciones para iOS y Android la semana del 19 de agosto de 2019.
+>Esta función estará disponible en las tiendas de aplicaciones tanto para iOS como para Android la semana del 19 de agosto de 2019.
 
 Hemos añadido Proyectos inactivados como opción de filtro en la pestaña Proyectos de la aplicación móvil.
 

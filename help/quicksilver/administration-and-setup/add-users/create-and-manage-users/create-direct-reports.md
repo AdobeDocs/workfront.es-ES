@@ -1,9 +1,9 @@
 ---
-title: Crear informes directos
+title: Creación de informes directos
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Los usuarios se pueden designar como informes directos a otro usuario. Esto le permite crear un organigrama que muestre la estructura de administración de su organización.
+description: Puede designar a los usuarios como informes directos para otro usuario. Esto le permite crear un organigrama que muestra la estructura de administración de su organización.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -11,13 +11,13 @@ exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Crear informes directos
+# Creación de informes directos
 
-Los usuarios se pueden designar como informes directos a otro usuario. Esto le permite crear un organigrama que muestre la estructura de administración de su organización. Para obtener más información, consulte [Ver el organigrama](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+Puede designar a los usuarios como informes directos para otro usuario. Esto le permite crear un organigrama que muestra la estructura de administración de su organización. Para obtener más información, vea [Ver el organigrama](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Requisitos de acceso
 
@@ -37,23 +37,23 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe tener una de las siguientes opciones:</p> 
+   <td> <p>Debe tener uno de los siguientes:</p> 
     <ul> 
-     <li> <p>Nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> </li> 
-     <li> <p><b>Usuarios</b> en el nivel de acceso configurado para <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si es Usuario <b>Administración (usuarios del grupo)</b> está activada, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> <p>Para obtener más información sobre la variable <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </li> 
+     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>. </p> </li> 
+     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Admin (usuarios del grupo)</b> está habilitado, debe ser administrador de un grupo del que el usuario sea miembro.</p> <p>Para obtener más información sobre la configuración de <b>Usuarios</b> en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a usuarios</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Crear informes directos
+## Creación de informes directos
 
-1. Comience a editar un usuario como se describe en [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-1. En el **Organización** asegúrese de que una empresa esté seleccionada en la sección **Empresa** campo .
+1. Empiece a editar un usuario como se describe en [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. En la sección **Organización**, asegúrese de seleccionar una compañía en el campo **Empresa**.
 
    Este campo no puede estar en blanco.
 
-1. En el **Informes directos** , especifique cualquier usuario que informe al usuario que esté editando.
+1. En el campo **Subordinados directos**, especifique los usuarios que informan al usuario que está editando.
 
-1. (Opcional) En la **Informes para** especifique el nombre del usuario al que informa este usuario.
+1. (Opcional) En el campo **Notificar a**, especifique el nombre del usuario ante el que informa este usuario.
 1. Haga clic en **Guardar cambios**.

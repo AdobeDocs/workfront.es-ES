@@ -30,7 +30,7 @@ Le recomendamos que configure grupos para que coincidan con la estructura de su 
 
 Por ejemplo, puede tener un grupo Finanzas que contenga usuarios en el Departamento Finanzas. Dentro del Departamento de Finanzas, las personas pueden estar estructuradas en equipos que trabajen de forma independiente entre sí.
 
-Para obtener más información sobre cómo crear y administrar grupos, consulte [Crear un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) y [Administrar un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Para obtener más información sobre cómo crear y administrar grupos, vea [Crear un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) y [Administrar un grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Utilizar equipos para representar la estructura de trabajo dentro de un departamento
 
@@ -38,7 +38,7 @@ Le recomendamos que configure Equipos para que coincidan con la estructura de tr
 
 Por ejemplo, puede tener un equipo de nóminas, un equipo de cuentas por pagar y un equipo de cuentas por cobrar. Normalmente, las personas de cada uno de estos equipos trabajan en proyectos, tareas o problemas similares para esos equipos.
 
-Para obtener más información sobre la creación y administración de equipos, consulte [Creación y administración de equipos](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
+Para obtener más información sobre cómo crear y administrar equipos, vea [Crear y administrar equipos](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
 ## Comparación de funcionalidades de grupos y equipos
 
@@ -67,5 +67,5 @@ La siguiente tabla ilustra las diferencias y similitudes entre los grupos y los 
 | Asignar plantillas de diseño | ✓ | ✓ |
 | Cualquier usuario con una licencia de planificación puede asignarla a otro usuario |  | ✓ |
 | Personalizar estados | ✓ |  |
-| Personalización de [!UICONTROL Listo] botón |  | ✓ |
+| Personalizar el botón [!UICONTROL Listo] |  | ✓ |
 | Seguimiento de licencias | ✓ |  |

@@ -35,34 +35,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eliminar una condición personalizada
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Haga clic en **Preferencias de proyecto** > **Condiciones**.
+1. Haga clic en **Preferencias del proyecto** > **Condiciones**.
 
    <!--
    <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
    -->
 
-1. Seleccione la pestaña del tipo de objeto (**Proyecto**, **Tarea** o **Problema**) donde se encuentra la condición que desea eliminar.
+1. Seleccione la ficha del tipo de objeto (**Proyecto**, **Tarea** o **Problema**) donde se encuentra la condición que desea eliminar.
 
-1. Pase el ratón sobre la condición que quiera eliminar y luego haga clic en el botón **Eliminar** icono ![](assets/delete.png) que aparece en el extremo derecho.
+1. Pase el ratón sobre la condición que quiera eliminar y luego haga clic en el icono **Eliminar** ![](assets/delete.png) que aparece en el extremo derecho.
 1. En el mensaje de confirmación que aparece, haga clic en **Eliminar condición**.
 
-1. En el **Eliminar condición** que aparece, seleccione una nueva condición en la lista desplegable para todos los proyectos que estaban utilizando la condición que está eliminando.
+1. En el cuadro **Eliminar condición** que aparece, seleccione una nueva condición en la lista desplegable para todos los proyectos que estaban utilizando la condición que está eliminando.
 
-   Las condiciones personalizadas están disponibles en la lista desplegable solo si se equiparan con la misma condición integrada que la que está eliminando. Por ejemplo, si está eliminando una condición que coincide con En riesgo, solo se pueden seleccionar las condiciones personalizadas que también se equiparan con En riesgo.
+   Las condiciones personalizadas solo están disponibles en la lista desplegable si se equiparan con la misma condición integrada que la que está eliminando. Por ejemplo, si elimina una condición que es igual a En riesgo, solo se podrán seleccionar las condiciones personalizadas que también sean iguales a En riesgo.
 
 1. Haga clic en **Eliminar condición**.
 
 >[!NOTE]
 >
->No puede eliminar las condiciones integradas, que están en Target, en riesgo y en problemas. Sin embargo, puede cambiar sus nombres y colores.
+>No puede eliminar las condiciones integradas, que son En el destino, En riesgo y Con problemas. Sin embargo, puede cambiar sus nombres y colores.
 
-Para obtener información sobre las condiciones personalizadas, consulte [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Para obtener información acerca de las condiciones personalizadas, vea [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

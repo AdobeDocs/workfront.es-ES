@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe actualizaciones menores de la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del segundo trimestre de 2024.
 
-Para obtener una lista de todos los cambios disponibles con la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión del segundo trimestre de 2024, consulte [Información general de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Actualizaciones de aspecto y funcionamiento para dos plantillas de correo electrónico
 
@@ -34,4 +34,4 @@ Las plantillas de correo electrónico para añadir un aprobador a un recurso y p
 
 Hemos actualizado las pestañas de Forms, Campos y Secciones en el área Configuración > Forms personalizado para lograr un diseño más moderno y coherente con otras áreas de Workfront. Ahora puede acceder a las tres áreas desde el menú de navegación de la izquierda. Los filtros, las vistas y las agrupaciones siguen estando disponibles para las listas. El diseño actualizado se aplica a los formularios, campos y secciones personalizados creados tanto en el nuevo diseñador de formularios como en el generador de formularios heredados.
 
-Para obtener más información, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) y [Crear o editar un formulario personalizado con el generador de formularios heredado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) y [Crear o editar un formulario personalizado con el generador de formularios heredados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).

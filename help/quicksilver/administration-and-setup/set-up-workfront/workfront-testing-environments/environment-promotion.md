@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ---
 
-# Mover objetos entre [!DNL Workfront] entornos que utilizan la variable [!DNL Workfront] API de promoción de entorno
+# Mover objetos entre entornos [!DNL Workfront] mediante la API de promoción de entorno [!DNL Workfront]
 
 La capacidad Promoción de entornos permite mover objetos relacionados con la configuración de un entorno a otro. Puede mover estos objetos mediante la API de Workfront como se describe en este artículo.
 
@@ -47,7 +47,7 @@ Debe tener lo siguiente:
    <tr>
    <td>Configuraciones de nivel de acceso
    </td>
-   <td>Debe ser un [!DNL Workfront] administrador.
+   <td>Debe ser administrador de [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -62,7 +62,7 @@ El punto final Crear paquete promocional supone que ya ha configurado el entorno
 
 La función Promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. No admite la capacidad de mover objetos transaccionales (con excepciones limitadas).
 
-Para ver una lista de objetos promocionales y sus subobjetos promocionales incluidos, consulte [Objetos compatibles para la promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) en el artículo [Información general sobre el movimiento de objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Para obtener una lista de objetos promocionales y sus subobjetos promocionales incluidos, consulte [Objetos admitidos para la promoción de entornos](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) en el artículo [Información general sobre cómo mover objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Autenticación
 
@@ -72,7 +72,7 @@ La autenticación se realiza pasando un ID de sesión o una clave de API, que se
 
 ### Autenticación de encabezado de solicitud
 
-El método de autenticación preferido es pasar un encabezado de solicitud denominado SessionID que contenga el token de sesión. Esto tiene la ventaja de estar seguro contra [Falsificación de solicitud en sitios múltiples (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ataques y no interferir con el URI con fines de almacenamiento en caché.
+El método de autenticación preferido es pasar un encabezado de solicitud denominado SessionID que contenga el token de sesión. Esto tiene la ventaja de estar a salvo de [ataques de falsificación de solicitudes entre sitios (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) y de no interferir con el URI con fines de almacenamiento en caché.
 
 A continuación se muestra un ejemplo de encabezado de solicitud:
 
@@ -108,18 +108,18 @@ Esta llamada ejecuta un proceso de varios pasos.
 
 El primer paso resulta en la creación de un paquete de promoción vacío con el estado &quot;ENSAMBLANDO&quot;.
 
-El segundo paso utiliza el `objectCollections` matriz proporcionada en el cuerpo del POST para ensamblar los registros solicitados de Workfront. Este paso puede tardar varios minutos en completarse, según la cantidad de registros solicitados y la configuración de Workfront. Al final de este proceso, el paquete de promoción vacío se actualiza con la variable `packageEntities` y el estado se establece automáticamente como &quot;BORRADOR&quot;.
+El segundo paso utiliza la matriz `objectCollections` proporcionada en el cuerpo del POST para ensamblar los registros solicitados de Workfront. Este paso puede tardar varios minutos en completarse, según la cantidad de registros solicitados y la configuración de Workfront. Al final de este proceso, el paquete de promoción vacío se actualiza con `packageEntities` y el estado se establece automáticamente como &quot;BORRADOR&quot;.
 
 
 >[!NOTE]
 >
->Tenga en cuenta la estructura del `objectCollections`  matriz.
+>Observe la estructura de la matriz `objectCollections`.
 >
->Cada elemento de la matriz contiene un `objCode` que corresponde al código de objeto documentado en el Explorador de API de Workfront.
+>Cada elemento de la matriz contiene una clave `objCode` que corresponde al código de objeto documentado en el Explorador de API de Workfront.
 >
->Cada elemento también contiene un `entities` colección. Se espera el `ID` field. También puede aceptar un `name` para que sea más fácil saber qué `ID` representa.
+>Cada elemento también contiene una colección `entities`. Se espera el campo `ID`. También puede aceptar un atributo opcional `name` para que sea más fácil saber qué representa `ID`.
 >
->Para obtener la lista de códigos de objeto permitidos que se van a solicitar en la `objectCollections` , consulte la [Objetos compatibles para la promoción del entorno](#supported-objects-for-environment-promotion) de este artículo.
+>Para obtener la lista de códigos de objeto permitidos que se van a solicitar en la lista `objectCollections`, vea la sección [Objetos admitidos para la promoción del entorno](#supported-objects-for-environment-promotion) en este artículo.
 
 #### URL
 
@@ -250,7 +250,7 @@ O
 
 #### Cuerpo
 
-_Empty_
+_Vacío_
 
 #### Respuesta
 
@@ -315,7 +315,7 @@ O
 
 #### Cuerpo
 
-_Empty_
+_Vacío_
 
 #### Respuesta
 
@@ -373,7 +373,7 @@ Los atributos editables son:
 1. description (cadena)
 1. estado (cadena con validación de valor)
 
-Para ver una descripción detallada de los estados disponibles, consulte [Estados de promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) en el artículo [Información general sobre el movimiento de objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Para obtener una descripción detallada de los estados disponibles, consulte [Estados de promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) en el artículo [Información general sobre cómo mover objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -485,7 +485,7 @@ O
 
 #### Cuerpo
 
-_Empty_
+_Vacío_
 
 #### Respuesta
 
@@ -516,7 +516,7 @@ Esta llamada realiza una comparación entre la definición del paquete y el ento
 
 El resultado es un cuerpo JSON que identifica si un objeto de promoción se encuentra o no en el entorno de destino.
 
-Para cada objeto de promoción, siga uno de estos procedimientos `actions`  se configurará:
+Para cada objeto de promoción, se establecerá uno de los `actions` siguientes:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -524,24 +524,24 @@ Para cada objeto de promoción, siga uno de estos procedimientos `actions`  se c
  <tbody> 
   <tr> 
    <td>CREAR</td> 
-   <td><p>Cuando no se encuentra un registro correspondiente en el entorno de destino, la acción se establece en CREATE.</p><p>Cuando esta acción se establece en la variable <code>translationmap</code> que se proporciona al <code>/install</code> extremo, el servicio de instalación creará el registro.</p></td> 
+   <td><p>Cuando no se encuentra un registro correspondiente en el entorno de destino, la acción se establece en CREATE.</p><p>Cuando esta acción se establece en <code>translationmap</code> que se proporciona al extremo <code>/install</code>, el servicio de instalación creará el registro.</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>Cuando se encuentra un registro correspondiente en el entorno de destino, la acción se establece en USEEXISTING y se crea un <code>targetId</code> también se captura en el <code>translationmap</code>.</p><p>Cuando esta acción se establece en la variable <code>translationmap</code> que se proporciona al <code>/install</code> extremo, el servicio de instalación no creará el registro. Sin embargo, utilizará el <code>targetId</code> incluido en la entrada del mapa para otros objetos que puedan tener una referencia a este registro.</p><p>Por ejemplo, se puede encontrar un "Grupo predeterminado" en el entorno de destino en el que se está implementando un paquete. No es posible tener dos registros de "Grupo predeterminado", por lo que el servicio de instalación utilizará el GUID del grupo existente en cualquier otra acción de creación de objetos que incluya una referencia al "Grupo predeterminado", como un proyecto, formulario o cualquier otra entidad relacionada con este grupo.</p><p><b>Nota:</b> <ul><li><p>Cuando se asigna la acción USEEXISTING, no se modifica el registro existente en el entorno de destino. </p><p>Por ejemplo, si la descripción del "grupo predeterminado" ha cambiado en la zona protegida desde la que se creó el paquete y el valor de la descripción es diferente en el entorno de destino, el valor permanecerá sin cambios después de una instalación con este <code>translationmap</code>.</li></ul></td> 
+   <td><p>Cuando se encuentra un registro correspondiente en el entorno de destino, la acción se establece en USEEXISTING y también se captura un <code>targetId</code> en el <code>translationmap</code>.</p><p>Cuando esta acción se establece en <code>translationmap</code> que se proporciona al extremo <code>/install</code>, el servicio de instalación no creará el registro. Sin embargo, usará el <code>targetId</code> incluido en la entrada de asignación para otros objetos que puedan tener una referencia a este registro.</p><p>Por ejemplo, se puede encontrar un "Grupo predeterminado" en el entorno de destino en el que se está implementando un paquete. No es posible tener dos registros de "Grupo predeterminado", por lo que el servicio de instalación utilizará el GUID del grupo existente en cualquier otra acción de creación de objetos que incluya una referencia al "Grupo predeterminado", como un proyecto, formulario o cualquier otra entidad relacionada con este grupo.</p><p><b>Nota:</b> <ul><li><p>Cuando se asigna la acción USEEXISTING, no se modifica el registro existente en el entorno de destino. </p><p>Por ejemplo, si la descripción del "grupo predeterminado" ha cambiado en la zona protegida desde la que se creó el paquete y el valor de la descripción es diferente en el entorno de destino, el valor permanecerá sin cambios después de una instalación con este <code>translationmap</code>.</li></ul></td> 
   </tr> 
   <tr> 
    <td>SOBRESCRITURA</td> 
-   <td><p>Esta acción no se establecerá automáticamente.</p><p>Esta acción permite actualizar un objeto que existe en el entorno de destino. Proporciona la capacidad de anular manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar el <code>/install</code> llamada.<ul><li>Un usuario puede actualizar un objeto en el entorno de prueba y, a continuación, utilizar la acción SOBRESCRIBIR para actualizar ese objeto en el entorno de destino.</p></li><li><p>Si el usuario instala un paquete de promoción inicialmente y, posteriormente, un paquete nuevo (o actualizado) contiene cambios en los objetos del paquete inicial, el usuario puede utilizar OVERWRITING para reemplazar (anular) los objetos instalados anteriormente. </p><p>Para obtener más información sobre la sobrescritura, consulte la sección [Sobrescritura](#overwriting) en este artículo.</li><ul></td> 
+   <td><p>Esta acción no se establecerá automáticamente.</p><p>Esta acción permite actualizar un objeto que existe en el entorno de destino. Proporciona la capacidad de invalidar manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar la llamada a <code>/install</code>.<ul><li>Un usuario puede actualizar un objeto en el entorno de prueba y, a continuación, utilizar la acción SOBRESCRIBIR para actualizar ese objeto en el entorno de destino.</p></li><li><p>Si el usuario instala un paquete de promoción inicialmente y, posteriormente, un paquete nuevo (o actualizado) contiene cambios en los objetos del paquete inicial, el usuario puede utilizar OVERWRITING para reemplazar (anular) los objetos instalados anteriormente. </p><p>Para obtener más información sobre la sobrescritura, consulte la sección [Sobrescritura](#overwriting) en este artículo.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORAR</td> 
-   <td><p>Esta acción no se establecerá automáticamente.</p><p>Proporciona la capacidad de anular manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar el <code>/install</code> llamada.</p><p><b>Notas: </b><ul><li><p>Si un registro que originalmente se estableció en CREATE se establece en IGNORE, cualquier registro secundario también se debe establecer en IGNORE.</p><p>Por ejemplo, si un registro de plantilla se ha asignado con una acción CREAR y el usuario que lo instala desea excluirlo de la implementación, puede establecer la acción de la plantilla en IGNORAR.</p><p>En este caso, si el usuario que realiza la instalación no establece las tareas de plantilla, las asignaciones de tareas de plantilla, las predecesoras de tareas de plantilla, la definición de cola, los temas de cola, las reglas de enrutamiento, etc. en IGNORE, la implementación resultará en un intento de instalación fallido.</p></li><li><p>Si un registro que originalmente se estableció en USEEXISTING se establece en IGNORE, puede haber algunos efectos adversos durante el proceso de instalación.</p><p>Por ejemplo, si se asignó un registro de grupo con la acción USEEXISTING y el usuario que realiza la instalación cambia la acción a IGNORE, para los objetos que requieren un grupo (por ejemplo, un proyecto no puede existir sin un grupo asignado), el grupo predeterminado del sistema se asignará a ese proyecto.</p></li><li><p>Si un registro que originalmente se estableció en USEEXISTING se establece en CREATE, puede haber algunos efectos adversos durante el proceso de instalación porque muchas entidades de Workfront tienen restricciones de nombre único.</p><p>Por ejemplo, si se asignó un registro de "Grupo predeterminado" con la acción USEEXISTING y el usuario que realiza la instalación cambia la acción a CREATE, dado que ya existe un "Grupo predeterminado", el intento de instalación no podrá completar todos los pasos. Los nombres de grupo deben ser únicos.</p><p>Algunas entidades no tienen una restricción de nombre único. Para esos objetos, realizar este cambio dará como resultado dos registros con nombres idénticos. Por ejemplo, las plantillas, los proyectos, las vistas, los filtros, las agrupaciones, los informes y los paneles no requieren restricciones de nombre único. Se recomienda tener nombres únicos para estos registros, pero no se aplica.</p></li></ul></p></td> 
+   <td><p>Esta acción no se establecerá automáticamente.</p><p>Proporciona la capacidad de invalidar manualmente una acción CREATE o USEEXISTING asignada antes de ejecutar la llamada a <code>/install</code>.</p><p><b>Notas: </b><ul><li><p>Si un registro que originalmente se estableció en CREATE se establece en IGNORE, cualquier registro secundario también se debe establecer en IGNORE.</p><p>Por ejemplo, si un registro de plantilla se ha asignado con una acción CREAR y el usuario que lo instala desea excluirlo de la implementación, puede establecer la acción de la plantilla en IGNORAR.</p><p>En este caso, si el usuario que realiza la instalación no establece las tareas de plantilla, las asignaciones de tareas de plantilla, las predecesoras de tareas de plantilla, la definición de cola, los temas de cola, las reglas de enrutamiento, etc. en IGNORE, la implementación resultará en un intento de instalación fallido.</p></li><li><p>Si un registro que originalmente se estableció en USEEXISTING se establece en IGNORE, puede haber algunos efectos adversos durante el proceso de instalación.</p><p>Por ejemplo, si se asignó un registro de grupo con la acción USEEXISTING y el usuario que realiza la instalación cambia la acción a IGNORE, para los objetos que requieren un grupo (por ejemplo, un proyecto no puede existir sin un grupo asignado), el grupo predeterminado del sistema se asignará a ese proyecto.</p></li><li><p>Si un registro que originalmente se estableció en USEEXISTING se establece en CREATE, puede haber algunos efectos adversos durante el proceso de instalación porque muchas entidades de Workfront tienen restricciones de nombre único.</p><p>Por ejemplo, si se asignó un registro de "Grupo predeterminado" con la acción USEEXISTING y el usuario que realiza la instalación cambia la acción a CREATE, dado que ya existe un "Grupo predeterminado", el intento de instalación no podrá completar todos los pasos. Los nombres de grupo deben ser únicos.</p><p>Algunas entidades no tienen una restricción de nombre único. Para esos objetos, realizar este cambio dará como resultado dos registros con nombres idénticos. Por ejemplo, las plantillas, los proyectos, las vistas, los filtros, las agrupaciones, los informes y los paneles no requieren restricciones de nombre único. Se recomienda tener nombres únicos para estos registros, pero no se aplica.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-Actualmente no se admite una actualización `action` en las capacidades alpha de este servicio. La opción para permitir una ACTUALIZACIÓN `action` es algo que estamos investigando.
+Actualmente no se admite UPDATE `action` en las capacidades alfa de este servicio. La opción de permitir una ACTUALIZACIÓN `action` es algo que estamos investigando.
 
 #### URL
 
@@ -671,7 +671,7 @@ O
 
 >[!NOTE]
 >
->El ID que necesitará para ejecutar la instalación es el `id` field. En este ejemplo, la variable `id` el campo es el tercero desde arriba y tiene un valor que comienza por `c0bc79bd`.
+>El identificador que necesitará para ejecutar la instalación es el campo `id`. En este ejemplo, el campo `id` es el tercero desde arriba y tiene un valor que comienza por `c0bc79bd`.
 
 ### Ejecutar una instalación
 
@@ -681,7 +681,7 @@ O
 >
 >Si se han realizado cambios en el entorno de destino (el entorno en el que se está implementando el paquete) después de ejecutar la preejecución, se recomienda volver a ejecutar la preejecución. Si no vuelve a ejecutar la ejecución previa, es posible que la ejecución no se complete con precisión o que la instalación falle.
 >
->Para obtener instrucciones sobre cómo ejecutar una ejecución previa, consulte [Ejecutar una ejecución previa](#execute-a-pre-run).
+>Para obtener instrucciones sobre cómo ejecutar una ejecución previa, vea [Ejecutar una ejecución previa](#execute-a-pre-run).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -774,7 +774,7 @@ O
 
 #### Cuerpo
 
-_Empty_
+_Vacío_
 
 #### Respuesta
 
@@ -837,15 +837,15 @@ _Empty_
   </tbody> 
 </table>
 
-Esta llamada devolverá el `translationMap` producido por el servicio de instalación para una instalación específica.
+Esta llamada devolverá el `translationMap` final producido por el servicio de instalación para una instalación específica.
 
-Cada registro indicará lo prescrito `action` era y si esa acción fue exitosa o no.
+Cada registro indicará cuál fue el `action` prescrito y si la acción se realizó correctamente o no.
 
-Para registros con CREATE `action` el `targetId` se establecerá con el valor del registro recién creado en el sistema de destino. Además, la variable `installationStatus` El campo se establecerá en INSTALADO.
+Para los registros con CREATE `action`, el campo `targetId` se establecerá con el valor del registro recién creado en el sistema de destino. Además, el campo `installationStatus` se establecerá en INSTALADO.
 
-Para registros con USEEXISTING `action` el `targetId` también se establecerá el campo, y la variable `installationStatus` se establecerá en REGISTERED. Esto significa que el proceso de asignación se ha completado y el servicio de instalación reconoce que ha evaluado el registro y que no hay nada en lo que actuar.
+Para los registros con USEEXISTING `action`, el campo `targetId` también se establecerá y el campo `installationStatus` se establecerá en REGISTERED. Esto significa que el proceso de asignación se ha completado y el servicio de instalación reconoce que ha evaluado el registro y que no hay nada en lo que actuar.
 
-Si el registro tiene un elemento CREATE `action` pero no crea correctamente el registro y, a continuación, el `installationStatus` se establecerá en FAILED y también se proporcionará el motivo del error.
+Si el registro tiene un objeto CREATE `action` pero no consigue crear el registro correctamente, `installationStatus` se establecerá en FAILED y también se proporcionará el motivo del error.
 
 #### URL
 
@@ -871,7 +871,7 @@ O
 
 #### Cuerpo
 
-_Empty_
+_Vacío_
 
 #### Respuesta
 
@@ -919,14 +919,14 @@ _Empty_
 Este es un proceso de tres pasos.
 
 1. Crear un mapa de traducción (esto es análogo a la fase de &quot;preparación de la instalación&quot;).
-1. Edite el mapa de traducción generado configurando la variable `action` y `targetId` campos para cualquier objeto que desee sobrescribir. La acción debe ser `OVERWRITING`, y el `targetId` debe ser el uuid del objeto que se debe sobrescribir
+1. Edite la asignación de traducción generada, estableciendo los campos `action` y `targetId` para cualquier objeto que desee sobrescribir. La acción debe ser `OVERWRITING` y `targetId` debe ser el uuid del objeto que debe sobrescribirse
 1. Ejecute la instalación.
 
 * [Paso 1: Creación de un mapa de traducción](#step-1---create-a-translation-map)
 * [Paso 2: Modificación del mapa de traducción](#step-2---modify-the-translation-map)
 * [Paso 3: Instalación](#step-3---install)
 
-### **Paso 1: Creación de un mapa de traducción**
+### **Paso 1 - Crear un mapa de traducción**
 
 #### URL
 
@@ -940,7 +940,7 @@ Ninguno
 
 #### Respuesta
 
-Un mapa de traducción, con un `202 - OK` status
+Un mapa de traducción, con un estado `202 - OK`
 
 ```json
 {
@@ -1019,13 +1019,13 @@ No hay punto final para este paso.
 
 1. En el mapa de traducción devuelto en [Paso 1: Creación de un mapa de traducción](#step-1---create-a-translation-map), inspeccione la lista de objetos que se instalarán.
 1. Actualice el campo de acción de cada objeto a la acción de instalación deseada.
-1. Validar la `targetId` en cada objeto. Si la acción establecida es `USEEXISTING` o `OVERWRITING`, el `targetId` debe establecerse en el UUID del objeto de destino en el entorno de destino. Para cualquier otra acción, targetId debe ser una cadena vacía.
+1. Valide `targetId` en cada objeto. Si la acción establecida es `USEEXISTING` o `OVERWRITING`, `targetId` debe establecerse en el UUID del objeto de destino en el entorno de destino. Para cualquier otra acción, targetId debe ser una cadena vacía.
 
    >[!NOTE]
    >
-   >El `targetId` ya se ha rellenado si se detecta una colisión.
+   >`targetId` ya se ha rellenado si se detectó un conflicto.
 
-### **Paso 3: Instalación**
+### **Paso 3 - Instalar**
 
 #### URL
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### Cuerpo
 
-Es un objeto con un solo campo `translationMap`, que debe coincidir con el mapa de traducción modificado de [Paso 2: Modificación del mapa de traducción](#step-2---modify-the-translation-map).
+Este es un objeto con un solo campo `translationMap`, que debe coincidir con el mapa de traducción modificado de [Paso 2 - Modificar el mapa de traducción](#step-2---modify-the-translation-map).
 
 ```json
 {
@@ -1114,7 +1114,7 @@ Es un objeto con un solo campo `translationMap`, que debe coincidir con el mapa 
 
 #### Respuesta
 
-La respuesta incluye lo siguiente `{uuid of the created installation}` y una `202 - ACCEPTED` estado.
+La respuesta incluye el estado `{uuid of the created installation}` y `202 - ACCEPTED`.
 
 Ejemplo: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

@@ -39,30 +39,30 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información acerca de cómo los administradores de Workfront conceden este acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acceso administrativo a los usuarios a ciertas áreas</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué configuraciones de plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Previsualizar y finalizar la creación de un formulario personalizado
 
-1. Comience a crear y configurar un formulario personalizado, tal como se describe en los artículos [Crear o editar un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md), y otros.
+1. Comience a crear y configurar un formulario personalizado, tal como se describe en los artículos [Cree o edite un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Agregue un campo personalizado a un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Agregue o edite un widget de recursos en un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) y otros.
 
-1. (Opcional) Haga clic en **Previsualizar** para ver el aspecto que tendrá el formulario cuando se utilice, haga clic en **Finalizar previsualización** para volver a la edición del formulario.
+1. (Opcional) Haga clic en **Vista previa** para ver el aspecto que tendrá el formulario cuando se utilice y, a continuación, haga clic en **Finalizar vista previa** para regresar a la edición del formulario.
 
-1. Clic **Guardar + Cerrar** para guardar los cambios.
+1. Haga clic en **Guardar+Cerrar** para guardar los cambios.
 
    O
 
-   Si no desea conservar los cambios en el formulario, haga clic en **Cancelar**, luego haga clic en **Continuar y cerrar**.
+   Si no desea conservar los cambios en el formulario, haga clic en **Cancelar** y, a continuación, haga clic en **Continuar y cerrar**.
 
    >[!NOTE]
    >
    >Si el formulario ya está adjunto a muchos objetos, es posible que los cambios tarden unos minutos en aplicarse a todos. Esto sucede en segundo plano, por lo que puede trabajar en otras tareas de Workfront mientras espera.
 
-1. (Opcional) Agregue el formulario al objeto Workfront donde desee utilizarlo, tal como se describe en [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Opcional) Agregue el formulario al objeto de Workfront donde desee utilizarlo, tal como se describe en [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Los usuarios normales también pueden hacerlo si tienen derechos de administración del objeto.
 

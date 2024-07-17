@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Los informes proporcionan visibilidad de lo que está pasando con los usuarios y el trabajo. Con los informes, puede mostrar información sobre los objetos de Adobe Workfront.
 
-Para obtener información sobre los objetos y cómo se pueden registrar en la aplicación de Workfront, consulte [Información general sobre objetos Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener información sobre los objetos y cómo se pueden incluir en los informes en la aplicación Workfront, consulte [Descripción general de los objetos Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Elementos de informe
 
@@ -32,15 +32,15 @@ Los informes son una combinación de los tres elementos siguientes en Workfront:
  <tbody> 
   <tr> 
    <td role="rowheader">Ver</td> 
-   <td> <li>Define las columnas del informe y qué información puede incluir en cada columna.</li> <li>Para obtener información sobre las vistas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Información general sobre vistas en Adobe Workfront</a>.</li> </td> 
+   <td> <li>Define las columnas del informe y qué información puede incluir en cada columna.</li> <li>Para obtener información acerca de las vistas, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Información general sobre vistas en Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Agrupación</td> 
-   <td> <li>Clasifica la información en función de un fragmento común de información y enumera los resultados del informe en encabezados.</li> <li>Para obtener información sobre las agrupaciones, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Información general sobre agrupaciones en Adobe Workfront</a>.</li> </td> 
+   <td> <li>Clasifica la información en función de un fragmento común de información y enumera los resultados del informe en encabezados.</li> <li>Para obtener información acerca de las agrupaciones, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Información general sobre agrupaciones en Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filtro</td> 
-   <td> <li>Controla la cantidad de información que aparece en un informe.</li> <li>Para obtener información sobre los filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Resumen de filtros</a>.</li> <li>Para obtener información sobre los modificadores de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</li> <li>Puede filtrar mediante caracteres comodín para que los filtros sean más generales y les proporcionen más flexibilidad de uso.</li> <li>Para obtener información sobre el uso de caracteres comodín en los filtros, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variables de filtro comodín</a>.</li> </td> 
+   <td> <li>Controla la cantidad de información que aparece en un informe.</li> <li>Para obtener información acerca de los filtros, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Resumen de filtros</a>.</li> <li>Para obtener información acerca de los modificadores de filtro, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</li> <li>Puede filtrar mediante caracteres comodín para que los filtros sean más generales y les proporcionen más flexibilidad de uso.</li> <li>Para obtener información acerca del uso de caracteres comodín en los filtros, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variables de filtro comodín</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,30 +49,30 @@ Los informes son una combinación de los tres elementos siguientes en Workfront:
 >
 >Al seleccionar un nuevo filtro, vista o agrupación de una lista, esa selección se conserva aunque cierre la sesión de Workfront o del explorador.
 
-Para obtener información sobre los elementos de informe, consulte [Elementos de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Para obtener información acerca de los elementos de informe, vea [Elementos de informe: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 Para mejorar los informes, puede añadir los siguientes elementos:
 
 * Un gráfico: una representación visual de los resultados del informe.\
-  Para obtener información sobre los informes de gráficos, consulte [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Para obtener información acerca de los informes de gráficos, vea [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * A matrix grouping: resume la información del informe en un formato de tabla agregado.\
-  Para obtener información sobre los informes de matriz, consulte [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  Para obtener información sobre los informes de matriz, consulte [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * Una solicitud: un filtro abierto que se puede personalizar y aplicar de forma diferente cada vez que se ejecuta el informe.\
-  Para obtener información sobre los indicadores, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Para obtener información acerca de las solicitudes, vea [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 Al crear un informe, puede modificar cualquiera de estos elementos de forma individual en Report Builder.
 
 Otra forma de mejorar la relevancia de la información incluida en los informes es aplicar formato condicional a las vistas.\
-Para obtener información sobre el uso del formato condicional, consulte [Uso de formato condicional en vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Para obtener información acerca del uso del formato condicional, vea [Usar formato condicional en las vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Informes del sistema
 
 Workfront proporciona varios informes del sistema que se cargan en el sistema de forma predeterminada.\
 Después de introducir la información en el sistema, puede utilizar estos informes para mostrarla visualmente.
 
-Para obtener más información sobre cómo acceder a los informes del sistema y qué informes del sistema están disponibles, consulte [Uso de informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Para obtener más información sobre cómo obtener acceso a los informes del sistema y qué informes del sistema están disponibles, consulte [Usar informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
 ## Creación de informes
 
@@ -82,21 +82,21 @@ Para crear un informe, puede realizar una de las siguientes acciones:
 
 * Cree un informe desde cero.
 * Copie un informe existente.\
-  Debe tener al menos permiso de visualización para copiar un informe creado por otra persona. Para obtener más información sobre cómo copiar un informe, consulte [Creación de una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+  Debe tener al menos permiso de visualización para copiar un informe creado por otra persona. Para obtener más información sobre cómo copiar un informe, vea [Crear una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Para obtener información sobre la creación de informes, consulte [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obtener información sobre cómo crear informes, consulte [Resumen de informes del calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ### Requisitos previos para crear informes {#prerequisites-for-creating-reports}
 
 * Debe tener una licencia de planificación (licencias actuales) o una licencia estándar (nuevas licencias) para crear sus propios informes.\
-  Para obtener información sobre los tipos de licencia de Workfront, consulte [Resumen de licencias](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para las licencias actuales, y [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para las nuevas licencias.
+  Para obtener información sobre los tipos de licencia de Workfront, consulte [Resumen de licencias](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para las licencias actuales y [Resumen de licencias nuevas](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para las licencias nuevas.
 
 * El administrador de Workfront debe darle acceso a Editar informes en su nivel de acceso.\
-  Para obtener información sobre la concesión de acceso a Editar informes, consulte [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Para obtener información acerca de cómo conceder acceso a Editar informes, vea [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * El administrador de Workfront debe darle acceso a Editar filtros, vistas y agrupaciones en su nivel de acceso.
 
-  Para obtener información sobre la concesión de acceso a Editar filtros, vistas y agrupaciones, consulte [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Para obtener información sobre cómo conceder acceso a Editar filtros, vistas y agrupaciones, vea [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Debe definir un objeto sobre el que desee crear un informe. Los informes son específicos de objetos en Workfront y debe empezar por seleccionar un tipo de objeto antes de poder empezar a crear el informe. Solo puede crear informes sobre los objetos disponibles en la interfaz de Workfront.
 
@@ -105,27 +105,27 @@ Para obtener información sobre la creación de informes, consulte [Resumen de i
 Cuando crea un informe en Workfront, se convierte en el propietario predeterminado del informe y se muestra en la sección Mis informes. No se puede cambiar el propietario de un informe.
 
 Al copiar un informe, se convierte automáticamente en el propietario del informe copiado.
-Para obtener información sobre cómo copiar informes, consulte [Creación de una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Para obtener información sobre cómo copiar informes, consulte [Crear una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Para ver a quién pertenece un informe, consulte la **Ingresado por** field.
+Puede ver a quién pertenece un informe revisando el campo **Ingresado por**.
 
-![Introducido por campo](assets/nwe-entered-by-350x218.png)
+![Ingresado por campo](assets/nwe-entered-by-350x218.png)
 
 ### Creación de informes en la interfaz del generador {#create-reports-in-the-builder-interface}
 
 Le recomendamos que utilice primero la interfaz de generación de informes para generar un nuevo informe. La interfaz ofrece un conjunto optimizado de herramientas que le guían a través de la recopilación de elementos para crear el informe que desee. Tiene objetos y campos que puede seleccionar en las listas y añadir a todos los elementos de informes.\
-Para obtener más información sobre la creación de informes en la interfaz de generación de informes, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información sobre la creación de informes en la interfaz de generación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Para obtener una lista de los objetos sobre los que puede crear informes, consulte la [Informar sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) en el artículo [Información general sobre objetos Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener una lista de los objetos sobre los que puede generar informes, consulte la sección [Informar sobre objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) en el artículo [Información general sobre objetos de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Para obtener más información sobre los campos que se pueden mostrar en los informes, consulte [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ### Creación de informes en modo texto {#create-reports-in-text-mode}
 
 A veces, es posible que no encuentre ciertos campos en la interfaz del generador, pero podrían estar disponibles en la API.\
-Para obtener información sobre los campos disponibles en la API, consulte el artículo [Explorador de API](../../../wf-api/general/api-explorer.md).
+Para obtener información sobre los campos que están disponibles en la API, consulte el artículo [Explorador de API](../../../wf-api/general/api-explorer.md).
 
-Para obtener información sobre cómo utilizar el Explorador de API, consulte el artículo [Uso del Explorador de API](../../../wf-api/general/using-api-explorer.md).
+Para obtener información sobre cómo usar el Explorador de API, consulte el artículo [Uso del Explorador de API](../../../wf-api/general/using-api-explorer.md).
 
 >[!NOTE]
 >
@@ -137,32 +137,32 @@ El modo de texto permite crear vistas, filtros, agrupaciones y peticiones de dat
 
 Debe utilizar una sintaxis específica para utilizar la interfaz de modo de texto de Workfront.
 
-Para obtener más información sobre la sintaxis de Workfront para el modo de texto, consulte [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Para obtener más información acerca de la sintaxis de Workfront para el modo de texto, consulte [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 #### Columnas calculadas, formato condicional y otros usos del modo Texto {#calculated-columns-conditional-formatting-and-other-uses-of-text-mode}
 
 Fuera de los informes sobre campos que no están disponibles en la interfaz del generador, puede utilizar el modo Texto para mostrar cálculos o comparaciones entre determinados campos.
 
-Para obtener una lista de los usos más comunes del modo de texto en un informe, consulte [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obtener una lista de los usos más comunes del modo de texto en un informe, vea [Información general sobre los usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Para obtener información sobre cómo incluir datos personalizados calculados en los informes, consulte [Datos personalizados calculados en informes](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Para obtener información sobre cómo incluir datos personalizados calculados en los informes, consulte [Datos personalizados calculados en los informes](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Para obtener información sobre la comparación de campos en formato condicional, consulte [Comparar campos en formato condicional](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+Para obtener información acerca de cómo comparar campos en formato condicional, vea [Comparar campos en formato condicional](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 También puede hacer referencia a los campos de colección mediante el Modo de texto en los informes.\
-Para obtener información sobre el uso del modo Texto para mostrar la información de colección en un informe, consulte [Colecciones de referencia en un informe](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Para obtener información acerca del uso del modo Texto para mostrar la información de colección en un informe, vea [Colecciones de referencia en un informe](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 #### Ejemplos de modo de texto {#text-mode-samples}
 
 Tenemos una biblioteca de muestras de las vistas, filtros y agrupaciones más utilizados que puede crear con el modo de texto.
 
-Para examinar esta biblioteca y utilizar algunos de los ejemplos que ofrecemos, consulte el artículo [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Para examinar esta biblioteca y usar algunos de los ejemplos que ofrecemos, vea el artículo [Ejemplos de vista personalizada, filtro y agrupación: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Las pestañas de un informe
 
 Un informe puede contener varias pestañas cuando se ejecuta en la interfaz de.
 
-Para obtener información sobre cómo ejecutar un informe, consulte el artículo [Ejecutar un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
+Para obtener información acerca de cómo ejecutar un informe, vea el artículo [Ejecutar un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 En cada ficha, la información incluida en el informe se muestra en formatos ligeramente diferentes. Elija el formato que mejor se adapte a las necesidades de su organización.
 
@@ -183,7 +183,7 @@ Los informes que incluyen una agrupación tienen una pestaña Resumen.
 
 La misma información mostrada en formato de lista en la pestaña Detalles se resume y agrega según las agrupaciones del informe en la pestaña Resumen.
 
-Para obtener información sobre las agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obtener información acerca de las agrupaciones, vea [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ### Pestaña Matriz {#matrix-tab}
 
@@ -193,7 +193,7 @@ La misma información mostrada en formato de lista en la ficha Detalles se muest
 
 Cuando se agrega una agrupación de matriz a un informe, la ficha Resumen se reemplaza por la ficha Matriz.
 
-Para obtener información acerca de cómo crear una agrupación de matriz, vea el artículo [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+Para obtener información acerca de cómo crear una agrupación de matriz, vea el artículo [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 ### Pestaña Gráfico {#chart-tab}
 
@@ -206,7 +206,7 @@ Considere la posibilidad de incluir un gráfico en los informes para ver paneles
 >Al hacer clic en un elemento del gráfico, la información expandida puede mostrarse de forma diferente a la del gráfico en función de la zona horaria.\
 >Por ejemplo, un usuario de California completó una tarea a las 21:30 (PST) del 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye la finalización de esta tarea, la fecha de finalización real se muestra como 13 de febrero tanto en la pestaña Detalles como en los detalles del gráfico porque se completó a las 12:30 h EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
 
-Para obtener información sobre la creación de un informe con un gráfico, consulte el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+Para obtener información acerca de cómo crear un informe con un gráfico, vea el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 ### Pestaña Indicadores {#prompts-tab}
 
@@ -214,7 +214,7 @@ Los informes que incluyen una solicitud tienen una ficha Peticiones de datos.
 
 Una solicitud permite agregar un filtro a un informe cada vez que se ejecuta el informe. Cuando se agrega una solicitud al informe, la ficha Indicadores se convierte automáticamente en la ficha predeterminada del informe. No se puede cambiar a otra pestaña.
 
-Para obtener información acerca de cómo crear un símbolo del sistema para un informe, vea el artículo [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Para obtener información acerca de cómo generar una solicitud para un informe, vea el artículo [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Compartir informes
 
@@ -222,7 +222,7 @@ Después de crear un informe, puede compartirlo con otros usuarios.
 
 ### Conceder permisos de uso compartido a un informe {#give-sharing-permissions-to-a-report}
 
-Puede conceder permisos de uso compartido a otro usuario para Ver o Administrar un informe que cree. Puede otorgar a otro usuario un nivel de permisos igual o inferior al suyo. También puede hacer que un informe sea público usando permisos de uso compartido. Para obtener información sobre cómo compartir un informe, consulte [Uso compartido de informes en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+Puede conceder permisos de uso compartido a otro usuario para Ver o Administrar un informe que cree. Puede otorgar a otro usuario un nivel de permisos igual o inferior al suyo. También puede hacer que un informe sea público usando permisos de uso compartido. Para obtener información sobre cómo compartir un informe, vea [Compartir un informe en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 ### Programar una entrega de informes {#schedule-a-report-delivery}
 
@@ -233,7 +233,7 @@ Puede programar la entrega de un informe. Los usuarios con los que comparte el i
 * Excel
 * .TSV
 
-Para obtener información sobre cómo programar la entrega de un informe, consulte [Resumen de entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Para obtener información sobre cómo programar la entrega de un informe, consulte [Resumen de la entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ### Exportación de los resultados de un informe {#export-the-results-of-a-report}
 
@@ -243,24 +243,24 @@ Puede exportar los resultados de un informe a los siguientes formatos de archivo
 * Excel (formatos .xls y .xlsx)
 * Delimitado por tabulaciones
 
-Para obtener información sobre cómo exportar los resultados de un informe, consulte [Exportación de datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Para obtener información acerca de cómo exportar los resultados de un informe, vea [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 Una vez exportado el informe a uno de estos formatos, puede compartirlo con otros usuarios enviándolo por correo electrónico como datos adjuntos o imprimiéndolo.
 
 ### Agregar un informe a un tablero {#add-a-report-to-a-dashboard}
 
-Puede agregar un informe a un tablero y compartirlo con otros usuarios. Para obtener información sobre cómo agregar informes a un tablero, consulte [Agregar un informe a un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
+Puede agregar un informe a un tablero y compartirlo con otros usuarios. Para obtener información acerca de cómo agregar informes a un panel, vea [Agregar un informe a un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
 
 ## Creación de calendarios
 
 Si desea mostrar los datos en formato de calendario, puede crear calendarios en lugar de informes.
 
-Para obtener información sobre la creación y el uso de los calendarios, consulte [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obtener información acerca de cómo generar y usar calendarios, vea [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Uso del informe
 
 Después de crear informes y compartirlos con otros usuarios, puede realizar un seguimiento de la frecuencia con la que los usan.
-Para obtener información sobre el uso de los informes, incluida la frecuencia con la que se ven, por qué usuario y en qué paneles se muestran, consulte el artículo [Resumen del uso de informes](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
+Para obtener información sobre el uso de los informes, incluida la frecuencia con la que se visualizan, el usuario y los paneles en los que se muestran, consulte el artículo [Resumen del uso de los informes](../../../reports-and-dashboards/reports/report-usage/report-usage-overview.md).
 
 ## Términos comunes utilizados en referencia a los informes
 
@@ -287,7 +287,7 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
   </tr> 
   <tr> 
    <td>Atributo</td> 
-   <td> Campo de un objeto tal como se define en la base de datos. Se utiliza en una expresión Text Mode. <br>Por ejemplo, el campo Estado se muestra como <em>status</em> cuando se utiliza en una expresión Text Mode. </td> 
+   <td> Campo de un objeto tal como se define en la base de datos. Se utiliza en una expresión Text Mode. <br>Por ejemplo, el campo Estado se muestra como <em>estado</em> cuando se usa en una expresión de modo de texto. </td> 
   </tr> 
   <tr> 
    <td>Bean o JavaBean</td> 
@@ -299,7 +299,7 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
   </tr> 
   <tr> 
    <td>Camel Case</td> 
-   <td> <p>Camel Case hace referencia a una forma específica de escribir elementos de programación para encadenar atributos de varias palabras. Cuando se escribe un atributo en Mayúsculas y minúsculas, la primera letra de la primera palabra es minúscula, no hay espacio entre las palabras y la primera letra de cualquier palabra posterior es mayúscula.</p> <p>Por ejemplo, Grupo de inicio se escribiría como <em>homeGroup</em>, el conjunto de recursos sería <em>resourcePool</em>, y la fecha real de inicio sería <em>actualStartDate</em>.</p> </td> 
+   <td> <p>Camel Case hace referencia a una forma específica de escribir elementos de programación para encadenar atributos de varias palabras. Cuando se escribe un atributo en Mayúsculas y minúsculas, la primera letra de la primera palabra es minúscula, no hay espacio entre las palabras y la primera letra de cualquier palabra posterior es mayúscula.</p> <p>Por ejemplo, el grupo de inicio se escribiría como <em>homeGroup</em>, el conjunto de recursos sería <em>resourcePool</em> y la fecha de inicio real sería <em>actualStartDate</em>.</p> </td> 
   </tr> 
   <tr> 
    <td>Gráfico</td> 
@@ -311,7 +311,7 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
      <li>Línea de</li> 
      <li>Medidor</li> 
      <li>Burbujas</li> 
-    </ul> <p>Para obtener más información sobre cómo agregar gráficos a los informes, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Agregar un gráfico a un informe</a>.</p> </td> 
+    </ul> <p>Para obtener más información sobre cómo agregar gráficos a los informes, vea el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Agregar un gráfico a un informe</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Detalles</td> 
@@ -323,15 +323,15 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
   </tr> 
   <tr> 
    <td>Campos</td> 
-   <td> <p>Se refiere a los atributos de los objetos. Por ejemplo, "Estado" es un campo para Proyectos, Tareas o Problemas. "Administrador de Portfolio" es un campo para el objeto de Portfolio.</p> <p>También puede tener campos personalizados que cree usted mismo y agregue a los formularios personalizados.<br>Para obtener información sobre la creación de formularios personalizados, consulte el artículo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</p> </td> 
+   <td> <p>Se refiere a los atributos de los objetos. Por ejemplo, "Estado" es un campo para Proyectos, Tareas o Problemas. "Administrador de Portfolio" es un campo para el objeto de Portfolio.</p> <p>También puede tener campos personalizados que cree usted mismo y agregue a los formularios personalizados.<br>Para obtener información sobre cómo crear formularios personalizados, consulte el artículo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Nombre de campo </td> 
-   <td>El valor de un atributo que se muestra en una vista, o que se utiliza en la condición de un filtro, o como el elemento común de una agrupación. Las opciones del Nombre de campo dependen de la selección Origen del campo.</td> 
+   <td>El valor de un atributo que se muestra en una vista, o que se utiliza en la condición de un filtro, o como el elemento común de una agrupación. Las opciones del Nombre de campo dependen de la selección del Campo Source.</td> 
   </tr> 
   <tr> 
    <td>Origen de campo </td> 
-   <td>El valor de un objeto que se muestra en una vista, o que se utiliza en la condición de filtro, o como elemento común de una agrupación. Las opciones del origen del campo dependen del tipo de objeto del elemento de interfaz de usuario que se crea. El origen de campo permite hacer referencia a atributos de objetos que no sean el tipo de objeto del elemento de interfaz de usuario.</td> 
+   <td>El valor de un objeto que se muestra en una vista, o que se utiliza en la condición de filtro, o como elemento común de una agrupación. Las opciones de Field Source dependen del tipo de objeto del elemento de interfaz de usuario que se crea. El Source de campo permite hacer referencia a atributos de objetos que no sean el tipo de objeto del elemento de interfaz de usuario.</td> 
   </tr> 
   <tr> 
    <td>Filtro</td> 
@@ -347,11 +347,11 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
   </tr> 
   <tr> 
    <td>Objeto u Tipo de objeto</td> 
-   <td> Un objeto es un elemento de aplicación de Workfront (por ejemplo, proyecto, tarea, grupo, compañía, filtro). El tipo de objeto se utiliza al crear un nuevo informe, vista, filtro o agrupación para identificar qué objeto es el enfoque del informe. Los informes solo pueden tener un tipo de objeto, que es el objeto principal del informe.<br>Se puede hacer referencia a los objetos principales en el mismo informe.<br>Para obtener más información sobre la jerarquía de objetos, vea la sección "Explicación de la interdependencia y la jerarquía de objetos" en el artículo <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Información general sobre objetos Adobe Workfront</a>.</td> 
+   <td> Un objeto es un elemento de aplicación de Workfront (por ejemplo, proyecto, tarea, grupo, compañía, filtro). El tipo de objeto se utiliza al crear un nuevo informe, vista, filtro o agrupación para identificar qué objeto es el enfoque del informe. Los informes solo pueden tener un tipo de objeto, que es el objeto principal del informe.Se puede hacer referencia a <br>objetos principales en el mismo informe.<br>Para obtener más información acerca de la jerarquía de objetos, vea la sección "Explicación de la interdependencia y la jerarquía de objetos" en el artículo <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Descripción general de los objetos de Adobe Workfront</a>.</td> 
   </tr> 
   <tr> 
    <td>Solicitud</td> 
-   <td> <p>Elemento de informe opcional que se puede agregar a un informe cuando necesite utilizar un filtro diferente cada vez que ejecute el informe.</p> <p>Para obtener información sobre los indicadores, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Agregar una solicitud a un informe</a>.</p> </td> 
+   <td> <p>Elemento de informe opcional que se puede agregar a un informe cuando necesite utilizar un filtro diferente cada vez que ejecute el informe.</p> <p>Para obtener información acerca de las solicitudes, vea <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Agregar una solicitud a un informe</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Modificadores de cualificador o condición</td> 
@@ -359,8 +359,8 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
     <ul> 
      <li>En la pestaña Filtro</li> 
      <li>La pantalla Opciones avanzadas de la columna de la pestaña Columnas (Ver). Al definir un cualificador, puede comparar el Nombre de campo con otro campo o valor.</li> 
-     <li> En un indicador personalizado<br><p>Para obtener información sobre los indicadores, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Agregar una solicitud a un informe</a>.</p>.</li> 
-    </ul> <p>Por ejemplo, al crear un filtro para tareas con una fecha planificada de finalización de hoy, seleccionaría <strong>Igual</strong> en el campo Calificador y en el campo Fecha de hoy:</p> <p><em>Tarea&gt; Fecha planificada de finalización&gt;Igual&gt;(fecha de hoy)</em> </p> <p>En esta situación, el calificador es <strong>Igual</strong>.<br>Para obtener más información sobre los calificadores, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</p> </td> 
+     <li> En un indicador personalizado<br><p>Para obtener información acerca de las solicitudes, vea <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Agregar una solicitud a un informe</a>.</p>.</li> 
+    </ul> <p>Por ejemplo, al generar un filtro para tareas con una Fecha planificada de finalización de hoy, debe seleccionar <strong>Igual</strong> en el campo Calificador y la fecha de hoy en el campo Fecha:</p> <p><em>Tarea&gt; Fecha planificada de finalización&gt;Igual&gt;(fecha de hoy)</em> </p> <p>En este escenario, el calificador es <strong>Igual</strong>.<br>Para obtener más información acerca de los calificadores, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Informe </td> 

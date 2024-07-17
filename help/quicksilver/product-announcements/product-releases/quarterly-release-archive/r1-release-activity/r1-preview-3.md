@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1.3. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 1 de febrero de 2017.
 
-Para ver una lista de todos los cambios realizados en R1, consulte [Resumen de actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Para obtener una lista de todos los cambios realizados en R1, consulte [Descripción general de la actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Método mejorado para vincular archivos externos
 
@@ -28,13 +28,13 @@ Además, la acción de autorizar a un proveedor de documentos antes de vincular 
 
 Antes de realizar estos cambios, la opción para vincular archivos de un origen externo se encontraba en el cuadro de diálogo Agregar documentos dentro del área Documentos. Antes de vincular un documento desde una fuente externa por primera vez, el usuario que lo vinculaba tenía que autorizar al proveedor de documentos en el área de Configuración.
 
-Para obtener más información, consulte  [Vinculación de documentos desde aplicaciones externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Para obtener más información, consulte  [Enlazar documentos desde aplicaciones externas](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Calendario actualizado de Equipo trabajando en
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 El calendario de Trabajando en disponible para los equipos ahora contiene funcionalidades adicionales y una apariencia actualizada. El calendario Equipo que trabaja en funciona ahora de forma similar a la herramienta de programación de recursos de los proyectos.
 
@@ -70,7 +70,7 @@ El calendario de programación incluye las siguientes mejoras:
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 El filtro ahora se puede utilizar para controlar qué usuarios se muestran en la escala de tiempo de la programación, además de qué tareas y problemas se muestran en el área sin asignar. Cuando se seleccionan usuarios en el filtro, sólo se muestran los usuarios seleccionados, independientemente de si tienen una asignación de función que coincida con la asignación de función de las tareas del área No asignada. También se muestran todas las tareas asignadas actualmente a ese usuario.
 
@@ -120,7 +120,7 @@ Las áreas siguientes no muestran el nombre actualizado de los objetos:
 * Aplicaciones móviles
 * Complemento de Outlook
 
-Para obtener más información sobre cómo personalizar la terminología de Workfront mediante una plantilla de diseño, consulte la sección &quot;Personalización de la terminología&quot; en &quot;Creación y administración de plantillas de diseño&quot; y la sección &quot;Explicación de las implicaciones de la personalización de nombres de objetos&quot; en [Explicación de los objetos en Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener más información acerca de cómo personalizar la terminología de Workfront mediante una plantilla de diseño, vea la sección &quot;Personalización de la terminología&quot; en &quot;Creación y administración de plantillas de diseño&quot; y la sección &quot;Explicación de las implicaciones de la personalización de nombres de objetos&quot; en [Explicación de los objetos de Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Incluir las fechas de inicio y finalización de la aprobación en los informes
 
@@ -133,7 +133,7 @@ Estos campos le permiten obtener información sobre cuándo se inició la ruta d
 
 Para obtener más información sobre estos campos, consulte [Glosario de terminología de Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Para obtener más información sobre las rutas de aprobación, cómo se crean y activan y la función que cumplen en los procesos de aprobación, consulte [Crear un proceso de aprobación para elementos de trabajo](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Para obtener más información sobre las rutas de aprobación, cómo se crean y desencadenan y la función que sirven en los procesos de aprobación, vea [Crear un proceso de aprobación para los elementos de trabajo](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Los campos siguientes se han eliminado de Workfront y ya no pueden incluirse en los informes (estos campos proporcionaban información sobre el proyecto en lugar de información sobre las aprobaciones en sí, y a menudo se utilizaban indebidamente):
 
@@ -166,4 +166,4 @@ La vista de Hito que está disponible al ver una lista de proyectos o un informe
 
 Antes de este cambio, para editar las fechas o ver el porcentaje completado, tenía que ir a la tarea individual.
 
-Para obtener más información, consulte [Uso de la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Para obtener más información, vea [Usar la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

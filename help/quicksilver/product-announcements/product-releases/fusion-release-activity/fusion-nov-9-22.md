@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Actividad de la versión de Workfront Fusion: Semana del 7 de noviembre de 2022
 
-**Optimización de cola de webhook**
+**Optimización de cola de ganchos web**
 
 La cola de ganchos web de Fusion se ha optimizado con esta versión. El servicio que acepta webhooks ahora está separado de la cola y otros procesos. Este cambio hace posible que Fusion procese las colas de los ganchos web a una velocidad más rápida y coherente.
 
@@ -30,7 +30,7 @@ Para ver los eventos de webhook en cola, vaya a Webhooks, en la navegación de l
 ![](assets/fusion-webhook-queue-1866x567.png)
 
 
-**Los webhooks que no se usen ahora se desactivarán o eliminarán**
+**Ahora se desactivarán o eliminarán los webhooks que no se usen**
 
 Hemos realizado algunos cambios en la forma en que Workfront Fusion gestiona los webhooks que no se utilizan. Ahora, los webhooks se desactivan automáticamente si se aplica cualquiera de las siguientes opciones:
 

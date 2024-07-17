@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Configurar valores predeterminados del sistema
-description: Como un [!DNL Adobe Workfront] administrador, puede configurar los valores predeterminados del sistema, como las preferencias de todos los proyectos que creen los usuarios.
+description: Como administrador, puede configurar los valores predeterminados del sistema, como las preferencias de todos los proyectos que creen los usuarios. [!DNL Adobe Workfront]
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -13,7 +13,7 @@ exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Esta sección contiene los siguientes artículos:
 * [Configuración de tipos de solicitud](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Personalizar tipos de problemas predeterminados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Crear, editar y compartir filtros, vistas y agrupaciones predeterminados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [Configurar [!UICONTROL Administración de recursos] preferencias](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [Configurar las preferencias de [!UICONTROL Administración de recursos]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Editar y crear tipos de riesgos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Crear tipos de gastos personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Crear un informe de valoración](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

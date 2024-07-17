@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
@@ -45,31 +45,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 ## Creación de una prueba interactiva para un sitio web u otro contenido web
 
 1. Vaya al proyecto, tarea o problema en el que desea crear una nueva revisión de sitio web o una nueva versión de una existente.
-1. Clic **Documentos** en el panel izquierdo.
-1. (Condicional) Si está creando una nueva prueba, haga clic en **Añadir nuevo**, luego haga clic en **Proof** en el menú que aparece.
+1. Haga clic en **Documentos** en el panel izquierdo.
+1. (Condicional) Si está creando una nueva prueba, haga clic en **Agregar nuevo** y, a continuación, haga clic en **Prueba** en el menú que aparece.
 
-1. (Condicional) En el **Nueva revisión** página, si está creando una nueva versión de una revisión existente:
+1. (Condicional) En la página **Nueva revisión** aparecerá, si está creando una nueva versión de una revisión existente:
 
    1. Pase el ratón sobre la revisión de la URL para la que desea crear una nueva versión y, a continuación, selecciónela haciendo clic en el fondo azul claro que la rodea.
 
-      ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![Seleccionar_revisión_por_seleccionar_fondo_azul_claro.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
-   1. En el **Añadir nuevo** , haga clic en **Versión** > **Proof**.
+   1. En el menú desplegable **Agregar nuevo**, haga clic en **Versión** > **Revisión**.
 
-1. En el **Añadir archivos** , escriba la dirección URL del sitio web que desea revisar y pulse **Entrar**.  Puede repetir este proceso para agregar varios sitios web para revisarlos.
+1. En la sección **Agregar archivos**, escriba la dirección URL del sitio web que desea revisar y, a continuación, presione **Entrar**.  Puede repetir este proceso para agregar varios sitios web para revisarlos.
 
-   ![proof_website.png](assets/proof-website-350x65.png)
+   ![sitio_web_de_revisión.png](assets/proof-website-350x65.png)
 
 
    >[!NOTE]
@@ -80,14 +80,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![](assets/click-url-350x137.png)
 
-1. (Opcional) Si desea cambiar el nombre de la prueba de la URL del sitio web a otra cosa, escriba un **Nombre de revisión**.
-1. Seleccionar **Interactivo**, luego haga clic en **Listo**.
+1. (Opcional) Si desea cambiar el nombre de la revisión de la URL del sitio web a otra cosa, escriba un **Nombre de revisión**.
+1. Seleccione **Interactivo** y, a continuación, haga clic en **Listo**.
 
    >[!NOTE]
    >
    >Si agrega una nueva versión a una revisión de URL existente, todas las opciones configuradas en la revisión original o en la versión anterior se mantienen en esta versión.
 
-1. Clic **Crear revisión** para crear una prueba simple sin proceso de revisión.\
+1. Haga clic en **Crear revisión** para crear una revisión simple sin proceso de revisión.\
    o\
    Siga configurando una revisión avanzada:
 

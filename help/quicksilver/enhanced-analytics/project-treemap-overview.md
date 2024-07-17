@@ -57,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprender la visualización del diagrama de proyecto
 
@@ -65,15 +65,15 @@ Los cuadros de la visualización Diagrama de árbol del proyecto representan pro
 
 La visualización del diagrama de proyecto consta de:
 
-* **Cajas azules más pequeñas y claras**: los proyectos con menos horas (o días) se muestran como cuadros más pequeños con un color azul claro.
+* **Cuadros más pequeños de color azul claro**: Los proyectos que tienen menos horas o días se muestran como cuadros más pequeños de color azul claro.
 
   ![](assets/project-treemap-smaller-box.png)
 
-* **Cajas azules oscuras más grandes**: los proyectos que tienen más horas, o días, se muestran como cuadros más grandes con un color azul oscuro.
+* **Cuadros azules oscuros más grandes**: Los proyectos que tienen más horas o días se muestran como cuadros más grandes con un color azul oscuro.
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Cuadros azules de tamaño medio**: los proyectos que se encuentran entre las dos categorías se muestran como cuadros de tamaño medio con un tono de azul entre los colores azul oscuro y azul claro. Hay 3 posibles tonos de azul para las cajas de tamaño mediano.
+* **Cuadros azules de tamaño Medium**: Los proyectos que se encuentran entre las dos categorías se muestran como cuadros de tamaño mediano con un tono azul entre los colores azul oscuro y azul claro. Hay 3 posibles tonos de azul para las cajas de tamaño mediano.
 
 La leyenda de la derecha muestra un desglose de las horas completadas para cada tono de azul. Esta leyenda es dinámica y se actualiza según los datos.
 
@@ -91,29 +91,29 @@ Ver esta información le ayuda a determinar lo siguiente:
 * Si los equipos se centran en las cosas correctas.
 * Cuando se hace clic en un proyecto específico, cuánto cambió el ámbito de un proyecto durante ese período de tiempo.
 
-Para obtener los mejores datos para esta visualización, consulte [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obtener los mejores datos para esta visualización, consulte [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Ver la visualización del diagrama de proyecto
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
+1. Haga clic en el icono del menú principal ![](assets/main-menu-icon-16x12.png) y, a continuación, seleccione **Analytics**.
 1. (Opcional) Para utilizar un intervalo de fechas diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fechas.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Si necesita limitar el conjunto de datos del proyecto, seleccione y aplique los filtros que desee utilizar.
 
-   Para obtener más información sobre la adición de filtros en el análisis mejorado, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre cómo agregar filtros en el análisis mejorado, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Después de agregar filtros, se muestran datos de hasta 50 proyectos y los filtros permanecen activos incluso después de abandonar la página o cerrar la sesión de Workfront.
 
-1. (Opcional) Para cambiar la forma en que se ordenan los proyectos, haga clic en **Ordenar por** en la esquina superior derecha de la visualización del diagrama de proyecto y, a continuación, seleccione una nueva opción de clasificación:
+1. (Opcional) Para cambiar la forma en que se ordenan los proyectos, haga clic en el menú **Ordenar por** en la esquina superior derecha de la visualización del diagrama de proyecto y, a continuación, seleccione una nueva opción de ordenación:
 
    * **A - Z**
    * **Z - A**
    * **Fecha planificada de finalización**
-   * **Fecha de inicio planificada**
+   * **Fecha planificada de inicio**
 
    Todas las demás visualizaciones de la página se actualizarán para que coincidan con la selección de ordenación.
 
@@ -123,7 +123,7 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    ![](assets/pagination-350x118.png)
 
-1. (Opcional) Cambie la vista de **horas planificadas** hasta **duration**.
+1. (Opcional) Cambie la vista de **horas planificadas** a **duration**.
 
    Las horas planificadas están seleccionadas de forma predeterminada.
 
@@ -133,21 +133,21 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    >[!NOTE]
    >
-   >Si seleccionó la **duration** En la vista, verá los siguientes detalles de duración:
+   >Si seleccionó la vista **duration**, verá los siguientes detalles de duración:
    >
-   >* **Plazo planificado**: número de días planificados para completar el proyecto.
-   >* **Días trabajados**: duración planeada para cada tarea que se completó dentro del intervalo de fechas seleccionado en la parte superior, dividido por el número de horas en un día.
+   >* **Plazo planificado**: La cantidad de días planificados para completar el proyecto.
+   >* **Días trabajados**: duración planeada de cada tarea que se completó dentro del intervalo de fechas seleccionado en la parte superior, dividida por el número de horas en un día.
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >Para obtener más información sobre la duración, consulte la sección &quot;Vista de duración&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+   >Para obtener más información sobre la duración, consulte la sección &quot;Vista de duración&quot; en [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Opcional) Para exportar los datos de visualización, haga clic en **Icono Exportar** ![](assets/export.png) en la esquina superior derecha de la visualización, seleccione el formato de exportación:
+1. (Opcional) Para exportar los datos de visualización, haga clic en el **icono Exportar** ![](assets/export.png) en la esquina superior derecha de la visualización y, a continuación, seleccione el formato de exportación:
 
    * **Gráfico (PNG)**
    * **Tabla de datos (XSLX)**
 
 1. Haga clic en un proyecto para abrir las visualizaciones Evolución y tareas en vuelo para obtener una perspectiva más detallada de cómo las tareas y las horas, o los días, contribuyeron al tamaño de un proyecto.
 
-Para obtener más información sobre la visualización Evolución, consulte [Vea la visualización Evolución en el análisis mejorado](../enhanced-analytics/burndown-overview.md). Para obtener más información sobre la visualización Tareas en vuelo, consulte [Visualización de las tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md).
+Para obtener más información sobre la visualización de evolución, consulte [Ver la visualización de evolución en Análisis mejorado](../enhanced-analytics/burndown-overview.md). Para obtener más información sobre la visualización de Tareas en vuelo, consulte [Ver la visualización de Tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md).
 

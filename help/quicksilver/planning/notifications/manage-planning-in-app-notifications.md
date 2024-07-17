@@ -76,7 +76,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Administración de notificaciones en la aplicación
 
-1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya a la aplicación **Notificaciones** icono ![](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
+1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya al icono **Notificaciones** de la aplicación ![](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
@@ -93,5 +93,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Se abre la página de detalles de registro en Workfront Planning. Puede realizar actualizaciones en el registro o responder al comentario.
 
-1. (Opcional) Haga clic en **Marcar todos como leídos** para indicar que ha leído todas las notificaciones.
-1. (Opcional) Haga clic en **Ver todo** para ir a **Notificaciones** página en Adobe Experience Cloud.
+1. (Opcional) Haga clic en **Marcar todo como leído** para indicar que ha leído todas las notificaciones.
+1. (Opcional) Haga clic en **Ver todo** para ir a la página **Notificaciones** en Adobe Experience Cloud.

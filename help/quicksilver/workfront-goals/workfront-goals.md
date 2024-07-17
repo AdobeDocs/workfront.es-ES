@@ -32,12 +32,12 @@ Su organización debe tener lo siguiente para utilizar la funcionalidad descrita
 
 Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 
-Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Esta sección contiene las siguientes subsecciones:
 
 * [Información general sobre Adobe Workfront Goals](../workfront-goals/goal-management/wf-goals-overview.md)
-* [Administración de objetivos en Adobe Workfront Goals](../workfront-goals/goal-management/goal-management.md)
+* [Administración de metas en Adobe Workfront Goals](../workfront-goals/goal-management/goal-management.md)
 * [Alineación de metas en Adobe Workfront Goals](../workfront-goals/goal-alignment/goal-alignment.md)
 * [Revisión de metas y secciones de metas de Adobe Workfront](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Resultados y actividades en Adobe Workfront Goals](../workfront-goals/results-and-activities/results-and-activities.md)

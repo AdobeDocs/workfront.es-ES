@@ -26,11 +26,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Debe ser administrador de Workfront. Para obtener información sobre los administradores de Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront. Para obtener información sobre los administradores de Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo total a un usuario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de revisión </td> 
@@ -38,26 +38,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de pruebas tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 ## Edite el campo Perfil de permiso de prueba en lote
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
-1. Ordenar los usuarios por **Nivel de acceso**. Se recomienda la edición por lotes por nivel de acceso para garantizar que **Perfil de permiso de revisión** aparece el campo.
+1. Ordene los usuarios por **Nivel de acceso**. Se recomienda la edición por lotes por nivel de acceso para garantizar que aparece el campo **Perfil de permiso de revisión**.
 
 1. Haga clic en la casilla de verificación situada junto a los usuarios que desee seleccionar en el mismo nivel de acceso. El campo Perfil de permiso de prueba solo está disponible para los niveles de acceso de los trabajadores y superiores.
-1. Clic **Editar** al principio de la lista.
-1. En el **Acceso** , busque la sección **Perfil de permiso de revisión** menú desplegable y realice la selección.
+1. Haga clic en **Editar** en la parte superior de la lista.
+1. En la sección **Acceso**, busque el menú desplegable **Perfil de permiso de revisión** y realice su selección.
 
    >[!NOTE]
    >
-   >Según el plan de Workfront, es posible que tenga que habilitar la variable **El usuario puede generar pruebas** casilla de verificación para que **Perfil de permiso de revisión** menú para que aparezca.
+   >Según el plan de Workfront, es posible que tenga que habilitar la casilla de verificación **El usuario puede generar pruebas** para que aparezca el menú **Perfil de permisos de pruebas**.
 
    ![](assets/proof-permission-profile-350x203.png)
 

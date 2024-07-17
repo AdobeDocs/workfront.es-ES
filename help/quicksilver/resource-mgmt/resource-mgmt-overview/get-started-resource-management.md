@@ -34,13 +34,13 @@ Workfront tiene varios conjuntos de herramientas para administrar recursos. Cada
 
 * Para planificar cómo se asignan los recursos a un nivel superior, antes de que comience el trabajo real en los proyectos, utilice las siguientes herramientas:
 
-   * **El Planificador de recursos**: puede utilizar el Planificador de recursos en la primera etapa de la administración de recursos para presupuestar el tiempo de proyecto de los recursos según su disponibilidad programada. Durante la fase de planificación de los recursos, puede organizar a los usuarios en conjuntos de recursos y asignar varios conjuntos de recursos a un proyecto.
+   * **El Planificador de recursos**: puede usar el Planificador de recursos en la primera etapa de la administración de recursos para presupuestar el tiempo de proyecto de los recursos según su disponibilidad programada. Durante la fase de planificación de los recursos, puede organizar a los usuarios en conjuntos de recursos y asignar varios conjuntos de recursos a un proyecto.
 
-     Para obtener más información sobre la planificación de recursos, consulte [Planificación de recursos: índice de artículos](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Para obtener más información acerca de Planificación de recursos, vea [Planificación de recursos: índice de artículo](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-   * **El planificador de escenarios**: Se trata de una planificación de recursos de alto nivel que le permite administrarlos en varias iniciativas que pueden abarcar un plan de uno, tres o cinco años e incluir varios proyectos. Puede utilizar el mejor escenario para aprovechar al máximo su disponibilidad y su presupuesto.
+   * **El planificador de escenarios**: se trata de una planificación de recursos de nivel superior que le permite administrarlos en varias iniciativas que pueden abarcar un plan de uno, tres o cinco años e incluir varios proyectos. Puede utilizar el mejor escenario para aprovechar al máximo su disponibilidad y su presupuesto.
 
-     El Scenario Planner requiere una licencia independiente, además de la licencia de Workfront. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+     El Scenario Planner requiere una licencia independiente, además de la licencia de Workfront. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
@@ -48,9 +48,9 @@ Workfront tiene varios conjuntos de herramientas para administrar recursos. Cada
 
 * Para programar o asignar recursos a trabajo real (tareas y problemas), utilice la siguiente herramienta:
 
-   * **Distribuidor de cargas de trabajo**: Pertenece a una etapa inferior de la administración de recursos, en la que puede asignar los recursos al trabajo real (tareas y problemas) que deben completar, según la cantidad de horas necesarias para completarlos y su disponibilidad. Con el Distribuidor de cargas de trabajo, puede asignar usuarios a trabajo real que no esté asignado o asignado a roles actualmente.
+   * **Distribuidor de cargas de trabajo**: pertenece a una etapa de nivel inferior de la administración de recursos, en la que puede asignar los recursos al trabajo real (tareas y problemas) que deben completar, según la cantidad de horas necesarias para completarlos y su disponibilidad. Con el Distribuidor de cargas de trabajo, puede asignar usuarios a trabajo real que no esté asignado o asignado a roles actualmente.
 
-     Para obtener información sobre el Workfront Balancer, consulte [Índice de artículos del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Para obtener información acerca del Distribuidor de cargas de trabajo de Workfront, consulte [El Distribuidor de cargas de trabajo: índice de artículos](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -72,9 +72,9 @@ Workfront tiene varios conjuntos de herramientas para administrar recursos. Cada
 -->
 * Para analizar las asignaciones presupuestadas, planificadas y reales en varios proyectos, utilice la siguiente herramienta:
 
-   * **Informe de utilización**: utilice este informe para ver la utilización de los recursos para los proyectos. Puede comparar las asignaciones presupuestadas, planificadas y reales de los proyectos y su impacto en el coste y en los ingresos.
+   * **Informe de utilización**: Use este informe para ver la utilización de los recursos de los proyectos. Puede comparar las asignaciones presupuestadas, planificadas y reales de los proyectos y su impacto en el coste y en los ingresos.
 
-     Para obtener información sobre el informe de utilización, consulte [Ver información de utilización de recursos](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+     Para obtener información sobre el informe de utilización, vea [Ver información sobre la utilización de los recursos](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Los componentes del proceso de gestión de recursos
 
@@ -84,17 +84,17 @@ Workfront tiene varios conjuntos de herramientas para administrar recursos. Cada
 
 El proceso de administración de recursos en Workfront incluye las siguientes etapas:
 
-* **Configuración**: como administrador del sistema, administrador de recursos o propietario del proyecto, debe configurar ciertos campos y objetos en la instancia de Workfront antes de administrar los recursos. Para obtener más información sobre los requisitos previos necesarios para comenzar a administrar recursos en Workfront, consulte la [Requisitos previos para una administración precisa de los recursos](#prerequisites-for-accurate-resource-management) de este artículo.\
+* **Configuración**: como administrador del sistema, administrador de recursos o propietario del proyecto, debe configurar ciertos campos y objetos en la instancia de Workfront antes de administrar los recursos. Para obtener más información sobre los requisitos previos necesarios para empezar a administrar recursos en Workfront, consulte la sección [Requisitos previos para una administración precisa de los recursos](#prerequisites-for-accurate-resource-management) en este artículo.\
   Además de tener proyectos con elementos de trabajo, debe configurar los siguientes elementos en Workfront:
 
    * Usuarios\
-     Para obtener más información sobre la creación de usuarios, consulte el artículo [Adición de usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+     Para obtener más información acerca de cómo crear usuarios, vea el artículo [Agregar usuarios](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
    * Roles\
-     Para obtener más información sobre la creación de funciones, consulte el artículo [Crear y administrar roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+     Para obtener más información sobre cómo crear roles, consulte el artículo [Crear y administrar roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
    * Horarios\
-     Para obtener más información sobre la creación de programaciones, consulte el artículo [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Para obtener más información acerca de cómo crear programaciones, vea el artículo [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Preferencias de proyecto
 
@@ -102,17 +102,17 @@ El proceso de administración de recursos en Workfront incluye las siguientes et
      >
      >Solamente un administrador de sistema o de grupo puede modificar las Preferencias del proyecto para su sistema o para su grupo.
 
-     Para obtener más información sobre la definición de Preferencias de proyecto, consulte el artículo [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+     Para obtener más información acerca de la definición de Preferencias de proyecto, vea el artículo [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * Conjuntos de recursos
 
-     Para obtener más información sobre la creación de conjuntos de recursos, consulte [Crear conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+     Para obtener más información acerca de cómo crear conjuntos de recursos, vea [Crear conjuntos de recursos](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
    * Preferencias de administración de recursos
 
      Como sistema, debe decidir cómo calcula Workfront la disponibilidad de los usuarios en el nivel del sistema, ya sea mediante la programación del usuario o mediante la programación predeterminada del sistema.
 
-     Para obtener más información, consulte [Configurar preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     Para obtener más información, consulte [Configurar las preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * **Asignación de recursos**: como administrador de recursos o propietario de un proyecto, puede definir la asignación de recursos para sus proyectos, así como asignar trabajo. Para este paso, puede administrar la estimación de la asignación de los recursos mediante el Planificador de recursos o el Planificador de escenarios, y asignar el trabajo real a los usuarios en el Distribuidor de cargas de trabajo.
 
@@ -128,7 +128,7 @@ El proceso de administración de recursos en Workfront incluye las siguientes et
   For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
-* **Análisis**: como administrador de recursos, propietario del proyecto o administrador de personas, revise el informe Utilización para comprender cómo se comparan las asignaciones presupuestadas y planificadas de los recursos con las reales. Revise la información por horas, coste o ingresos. Para obtener información sobre el informe Utilización, consulte [Ver información de utilización de recursos](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Análisis**: como gerente de recursos, propietario de proyecto o gerente de personas, revise el informe de utilización para comprender cómo se comparan las asignaciones presupuestadas y planificadas de sus recursos con las asignaciones reales. Revise la información por horas, coste o ingresos. Para obtener información acerca del informe Utilización, vea [Ver información sobre la utilización de los recursos](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Acceso necesario para ver y administrar los recursos mediante las herramientas de administración de recursos de Workfront
 
@@ -147,7 +147,7 @@ Debe ser uno de los siguientes usuarios y tener los siguientes permisos y acceso
    * Editar acceso a datos financieros para mostrar información de costos en el Planificador de recursos
    * Consulte el acceso a los datos financieros para ver la información de costes e ingresos en el informe Utilización (sólo usuarios con licencia de planificación)
 
-* Permisos de contribución o superiores que incluyen Realización de asignaciones en los proyectos para los que desea administrar recursos.
+* Permisos de Contribute o superiores que incluyen Realización de asignaciones en los proyectos para los que desea administrar recursos.
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
@@ -157,9 +157,9 @@ Debe ser uno de los siguientes usuarios y tener los siguientes permisos y acceso
   >You do not have to be a Resource Manager to use the Resource Planner, Scenario Planner, or the Workload Balancer. 
 -->
 
-Para obtener información sobre el acceso necesario a los recursos del presupuesto, consulte el artículo [Acceso necesario a los recursos del presupuesto](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Para obtener información sobre el acceso necesario para presupuestar recursos, consulte el artículo [Acceso necesario para presupuestar recursos](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para obtener información sobre el acceso necesario para administrar recursos en el Distribuidor de cargas de trabajo, consulte [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+Para obtener información sobre el acceso necesario para administrar recursos en el Distribuidor de cargas de trabajo, consulte [Acceso necesario para administrar recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 ## Requisitos previos para una administración precisa de los recursos  {#prerequisites-for-accurate-resource-management}
 
@@ -167,11 +167,11 @@ Debe cumplir una serie de requisitos para poder utilizar de forma eficaz las her
 
 Para obtener información sobre los requisitos de cada herramienta de administración de recursos en Workfront, consulte lo siguiente:
 
-* La sección [Requisitos previos para trabajar en el Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) en el artículo [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* La sección [Requisitos previos para trabajar en el Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) del artículo [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* La sección [Prácticas recomendadas para utilizar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) en el artículo [Resumen del Distribuidor de cargas](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-* [Acceso necesario a los recursos del presupuesto en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
-* [Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+* La sección [Prácticas recomendadas para usar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) del artículo [Información general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+* [Acceso necesario para administrar recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

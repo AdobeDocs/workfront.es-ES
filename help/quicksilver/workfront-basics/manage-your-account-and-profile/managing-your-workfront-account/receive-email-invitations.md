@@ -1,8 +1,8 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Reciba invitaciones por correo electrónico y cree una contraseña para [!DNL Adobe Workfront]
-description: Cuando [!DNL Workfront] administrador crea un nuevo usuario, el nuevo usuario puede recibir una invitación por correo electrónico en función de varios factores.
+title: Recibir invitaciones por correo electrónico y crear una contraseña para  [!DNL Adobe Workfront]
+description: Cuando un administrador de  [!DNL Workfront] crea un nuevo usuario, el nuevo usuario puede recibir un correo electrónico de invitación en función de varios factores.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Reciba invitaciones por correo electrónico y cree una contraseña para [!DNL Adobe Workfront]
+# Recibir invitaciones por correo electrónico y crear una contraseña para [!DNL Adobe Workfront]
 
 ## Requisitos de acceso
 
@@ -36,42 +36,42 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Recibir invitaciones por correo electrónico
 
-Cuando [!DNL Workfront] administrador crea un nuevo usuario, el nuevo usuario puede recibir una invitación por correo electrónico en función de varios factores:
+Cuando un administrador de [!DNL Workfront] crea un nuevo usuario, el nuevo usuario puede recibir un correo electrónico de invitación en función de varios factores:
 
-* Si la organización del usuario se ha incorporado a la variable [!DNL Adobe Admin Console]
-* Si el usuario se agregó en [!DNL Workfront] o [!DNL Admin Console]
-* Si el usuario tiene acceso a otros [!DNL Adobe] o es un producto nuevo [!DNL Adobe] usuario
-* Indica si el administrador eligió enviar una invitación por correo electrónico al usuario (solo se aplica a las organizaciones que aún no están en el [!DNL Admin Console])
+* Si la organización del usuario se ha incorporado a [!DNL Adobe Admin Console]
+* Si el usuario se agregó en [!DNL Workfront] o en [!DNL Admin Console]
+* Si el usuario tiene acceso a otros [!DNL Adobe] productos o es un nuevo usuario de [!DNL Adobe]
+* Si el administrador eligió enviar al usuario una invitación por correo electrónico (solo se aplica a las organizaciones que aún no están en [!DNL Admin Console])
 
-Para obtener más información sobre cómo [!DNL Workfront] el administrador envía invitaciones por correo electrónico mientras crea nuevos usuarios; consulte [Administrar invitaciones por correo electrónico a nuevos usuarios](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
+Para obtener más información sobre cómo un administrador de [!DNL Workfront] envía invitaciones por correo electrónico al crear usuarios nuevos, consulte [Administrar invitaciones por correo electrónico a usuarios nuevos](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
 
 Para obtener más información sobre cómo un administrador de Workfront agrega nuevos usuarios a [!DNL Adobe Workfront], consulte [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Crear una contraseña para [!DNL Workfront]
 
-Como nuevo usuario, después de recibir el correo electrónico de invitación, puede seguir el vínculo de la invitación por correo electrónico y terminar de crear su [!DNL Workfront] eligiendo una contraseña.
+Como usuario nuevo, después de recibir el correo electrónico de invitación, puede seguir el vínculo de la invitación por correo electrónico y terminar de crear su cuenta de [!DNL Workfront] eligiendo una contraseña.
 
 >[!NOTE]
 >
->El vínculo del correo electrónico solo es válido durante los días especificados en la variable [!UICONTROL opciones generales] del [!UICONTROL Invitaciones] por su [!DNL Workfront] administrador.
+>El vínculo del correo electrónico solo es válido durante la cantidad de días especificada en el área [!UICONTROL opciones generales] de la página [!UICONTROL Invitaciones] por el administrador de [!DNL Workfront].
 
 Para crear una contraseña para [!DNL Workfront] mediante el correo electrónico de invitación:
 
-1. Haga clic en **[!UICONTROL Introducción]** en el correo electrónico de invitación de Workfront.
+1. Haga clic en **[!UICONTROL Comenzar]** en el correo electrónico de invitación de Workfront.
 
-   ![Nueva pantalla de usuario a partir de una invitación por correo electrónico](assets/new-user-screen-from-invitation-adobe-350x292.png)
+   ![Nueva pantalla de usuario de la invitación por correo electrónico](assets/new-user-screen-from-invitation-adobe-350x292.png)
 
 1. Especifique la siguiente información:\
-   **[!UICONTROL Nombre]**: Su nombre (debe estar prerellenado).\
-   **[!UICONTROL Apellidos]**: Su apellido (debe estar prerellenado).\
+   **[!UICONTROL Nombre]**: Su nombre (debe rellenarse previamente).\
+   **[!UICONTROL Apellido]**: Su apellido (debe rellenarse previamente).\
    **[!UICONTROL Título]**: Su título en su organización.\
    **[!UICONTROL Contraseña]**: Elija una contraseña para iniciar sesión en Workfront.\
-   **[!UICONTROL Confirmar contraseña]**: Confirme su [!DNL Workfront] contraseña.
+   **[!UICONTROL Confirmar contraseña]**: Confirma tu contraseña de [!DNL Workfront].
 
-1. Select **[!UICONTROL Acepto los términos y condiciones]**.
-1. Haga clic en **[!UICONTROL Iniciar sesión]**.\
+1. Seleccione **[!UICONTROL Acepto los Términos y condiciones]**.
+1. Haga Clic En **[!UICONTROL Iniciar Sesión]**.\
    Esto completa la creación de la cuenta de usuario en Workfront.

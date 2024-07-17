@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ La suma de todos los hitos predefinidos se denomina trayectoria del hito.
 
 El primer paso para construir una trayectoria del hito es identificar cuáles son los pasos del hito y establecer los hitos. Dado que puede asociar una trayectoria del hito a varios proyectos, los pasos del hito deben ser fases o etapas generales de cualquier proyecto.
 
-Para obtener más información sobre cómo asociar una trayectoria del hito a un proyecto y un hito a una tarea, consulte [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Para obtener más información sobre cómo asociar una ruta de hitos a un proyecto y un hito a una tarea, vea [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 ## Creación de una trayectoria del hito
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Procesos** > **Rutas de hitos**.
-1. Clic **Nueva ruta de hitos.**
-1. Especifique la siguiente información en la **Información básica** área:
+1. Haga clic en **Procesos** > **Rutas de hitos**.
+1. Haga clic en **Nueva ruta de hitos.**
+1. Especifique la siguiente información en el área **Información básica**:
 
    <table style="table-layout:auto">
     <tr>
@@ -87,7 +87,7 @@ Para obtener más información sobre cómo asociar una trayectoria del hito a un
     </tr>
    </table>
 
-1. Especifique la siguiente información en la **Hitos** área:
+1. Especifique la siguiente información en el área **Hitos**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ Para obtener más información sobre cómo asociar una trayectoria del hito a un
     </tbody> 
    </table>
 
-1. Clic **Agregar hito** y continúe añadiendo hitos según sea necesario hasta completar la ruta.
-1. Clic **Crear ruta de hitos** para guardar los cambios.
+1. Haga clic en **Agregar hito** y continúe agregando hitos según sea necesario hasta que finalice la ruta de acceso.
+1. Haga clic en **Crear ruta de hitos** para guardar los cambios.
 
    La ruta de hitos está lista para asociarse a un proyecto.
 
-   Para obtener más información sobre cómo asociar rutas de hitos a proyectos e hitos a tareas, consulte [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   Para obtener más información sobre cómo asociar rutas de hitos a proyectos e hitos a tareas, vea [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).

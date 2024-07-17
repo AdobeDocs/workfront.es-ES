@@ -26,13 +26,13 @@ Este artículo documenta algunas prácticas recomendadas que recomendamos al com
 
 El módulo Workfront Planning es una de las tres funcionalidades de Workfront distintas pero conectadas que, juntas, crean un sistema de registro de marketing. Las tres capacidades son:
 
-* **Planificación**: las nuevas funciones avanzadas incluidas en Workfront Planning.
+* **Planificación**: Las nuevas funciones avanzadas incluidas en Workfront Planning.
 
-* **Flujo de trabajo**: las funciones de administración del trabajo en colaboración que utiliza hoy en día en Workfront (administración de proyectos, administración de recursos, etc.)
+* **Flujo de trabajo**: Las funcionalidades de administración de trabajo en colaboración que utiliza hoy en día en Workfront (administración de proyectos, administración de recursos, etc.)
 
-* **Automatización e integración**: las completas funciones de integración y automatización que ofrece Workfront Fusion.
+* **Automatización e integración**: Las completas capacidades de integración y automatización que ofrece Workfront Fusion.
 
-Workfront Planning ofrece un alto grado de personalización. Para obtener más información sobre la terminología y el concepto clave de Workfront Planning, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning ofrece un alto grado de personalización. Para obtener más información sobre la terminología y el concepto clave de Workfront Planning, consulte [Información general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Preguntas que se deben hacer antes de configurar Workfront Planning
 
@@ -40,7 +40,7 @@ Una vez que se haya familiarizado con la terminología y arquitectura de Workfro
 
 Algunas de las preguntas que puede hacerse a sí mismo al configurar Planning son las siguientes:
 
-* **¿Deseo utilizar espacios de trabajo para grupos organizativos más grandes? ¿O debería animar a la gente a que configure otras personales?**
+* **¿Quiero usar espacios de trabajo para grupos organizativos más grandes? ¿O debería animar a las personas a que configuren elementos personales?**
 
   Es posible que descubra que hay un buen uso para ambos. Se recomienda no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 
@@ -52,7 +52,7 @@ Algunas de las preguntas que puede hacerse a sí mismo al configurar Planning so
 
   Los tipos de registro son como los tipos de objetos de Workfront. Piense en los flujos de trabajo y decida qué tipos de registros (objetos de trabajo, objetos de personas, taxonomías, etc.) cada flujo de trabajo puede necesitar.
 
-  Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md)
+  Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md)
 
 * **¿Cómo voy a crear mis registros? ¿Existe alguna lista externa o hoja de cálculo que ya contenga los registros que necesito agregar a Planning y que pueda utilizar? ¿Se añadirán registros gradualmente según las necesidades? ¿O se importarán mediante una integración de Fusion o API personalizada?**
 
@@ -63,13 +63,13 @@ Algunas de las preguntas que puede hacerse a sí mismo al configurar Planning so
 
 * **¿Qué campos debo crear para mis registros?**
 
-  Para obtener más información, consulte [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+  Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
-* **¿Qué tipos de objetos de Workfront o AEM Assets necesito para conectarme a los tipos de registros de Workfront Planning para poder mostrar dependencias y crear un flujo de trabajo sin problemas para mi organización?**
+* **¿Qué tipos de objetos Workfront o AEM Assets necesito para conectarme a los tipos de registros de Workfront Planning para poder mostrar dependencias y crear un flujo de trabajo sin problemas para mi organización?**
 
-  Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
+  Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **¿Qué calendarios y vistas de marketing necesito para contar la historia de mis campañas? ¿Y qué partes interesadas podría poner a disposición estas opiniones para una colaboración sin fisuras?**
+* **¿Qué calendarios y vistas de marketing necesito para contar la historia de mis campañas? ¿Y qué partes interesadas podría poner estas vistas a disposición de para una colaboración perfecta?**
 
   Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 

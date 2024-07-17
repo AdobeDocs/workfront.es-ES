@@ -25,7 +25,7 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >
 >* Por motivos de seguridad, algunos sitios web no permiten incrustar páginas web como un iframe. Si la página web que desea incrustar en un panel no lo permite, la página no se muestra en el panel. Sin embargo, aún puede acceder a la página externa haciendo clic en el nombre del panel.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->Para permitir la incrustación en un sitio web de su propiedad, trabaje con el administrador web para ajustar la variable **X-Frame-Options** configuración. Para obtener más información, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>Para permitir la incrustación en un sitio web de su propiedad, trabaje con el administrador web para ajustar la configuración de **X-Frame-Options**. Para obtener más información, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
 >* Las páginas de panel ya no se admiten como páginas externas incrustadas en los paneles. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un tablero que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
@@ -47,7 +47,7 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >     * /group/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
->Como solución alternativa, considere la posibilidad de incluir un informe de lista en su panel de control como se explica en [Adición de un informe a un panel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>Como solución alternativa, considere la posibilidad de incluir un informe de lista en su panel como se explica en [Agregar un informe a un panel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Requisitos de acceso
 
@@ -88,13 +88,13 @@ Debe tener lo siguiente:
 
 Debe crear un tablero para poder incrustar una página externa en él.
 
-Para obtener información sobre la creación de paneles, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Para obtener información sobre cómo crear paneles, consulte [Crear un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Incrustar una página externa en un panel
 
 >[!IMPORTANT]
 >
->Puede quitar una página externa de un panel si ya no la necesita. Sin embargo, no puede eliminar una página externa después de crearla en Workfront. Solo puede eliminar una página externa mediante la API. Para obtener más información, consulte [Eliminación de una página externa de un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>Puede quitar una página externa de un panel si ya no la necesita. Sin embargo, no puede eliminar una página externa después de crearla en Workfront. Solo puede eliminar una página externa mediante la API. Para obtener más información, consulte [Quitar una página externa de un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 
 1. Busque la dirección URL de la página que se mostrará en Workfront y copie la dirección URL ubicada en la barra de direcciones.
 
@@ -104,22 +104,22 @@ Para obtener información sobre la creación de paneles, consulte [Crear un tabl
 
 {{step1-to-dashboards}}
 
-1. Para editar un tablero existente, seleccione el tablero en el que desea incrustar la página del sitio web y, a continuación, haga clic en **Acciones de panel**, luego haga clic en **Editar**
+1. Para editar un tablero existente, seleccione el tablero en el que desea incrustar la página del sitio web, haga clic en **Acciones de tablero** y, a continuación, haga clic en **Editar**
 O\
-   Para crear un nuevo tablero, haga clic en **Nuevo panel**.\
-   Para obtener más información sobre la creación de tableros, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+   Para crear un nuevo panel, haga clic en **Nuevo panel**.\
+   Para obtener más información sobre cómo crear un tablero, vea [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-1. Clic **Agregar página externa** en el **Seleccionar diseño/ Agregar informes/ Agregar calendarios** área.
+1. Haga clic en **Agregar página externa** en el área **Seleccionar diseño/ Agregar informes/ Agregar calendarios**.
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   El **Agregar página externa** aparece el cuadro.
+   Se muestra el cuadro **Agregar página externa**.
 
 1. Especifique la siguiente información sobre la página externa:
 
-   * **Nombre**: Añada un nombre para el tablero.
-   * **Descripción**: Agregue más información sobre el tablero para identificar la información que contiene. La descripción se muestra en el panel para todas las personas que tengan acceso a ella después de guardarla.
-   * **URL**: Pegue la dirección URL que ha copiado anteriormente en este campo.
+   * **Nombre**: agregue un nombre para el tablero.
+   * **Descripción**: agregue más información sobre el tablero para identificar la información que contiene. La descripción se muestra en el panel para todas las personas que tengan acceso a ella después de guardarla.
+   * **URL**: pegue la URL que copió anteriormente en este campo.
 
      Puede especificar los siguientes tipos de direcciones URL:
 
@@ -130,9 +130,9 @@ O\
       * Dirección URL de plantilla que contiene información de la sesión de un sitio web específico.\
         Por ejemplo: *https://localhost/?session={!$$SESSION}*
 Debe haber iniciado sesión en el sitio web especificado para mostrar la página externa.\
-        Para obtener información sobre cómo obtener un SessionID de Workfront, consulte [Conceptos básicos de API](../../../wf-api/general/api-basics.md).\
+        Para obtener información sobre cómo obtener un SessionID de Workfront, consulte [Conceptos básicos de la API](../../../wf-api/general/api-basics.md).\
         El administrador de Workfront puede configurar las preferencias del sistema de forma que no permita el uso de información de sesión en las páginas externas por motivos de seguridad. En este caso, la página externa no se carga en el panel.\
-        Para obtener más información sobre las preferencias de seguridad del sistema, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+        Para obtener más información acerca de las preferencias de seguridad del sistema, vea [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
@@ -158,15 +158,15 @@ Para actualizar la información de una página externa utilizada en un panel:
 
 {{step1-to-dashboards}}
 
-1. Haga clic en el nombre del tablero que desea actualizar para abrirlo y haga clic en **Acciones de panel**, entonces **Editar**.
+1. Haga clic en el nombre del panel que desea actualizar para abrirlo, haga clic en **Acciones de panel** y, a continuación, en **Editar**.
 
-   El **Detalles del panel** se abre el cuadro.
+   Se abre el cuadro **Detalles del panel**.
 
-1. En el **Seleccionar diseño / Agregar informes / Agregar calendarios** área de la **Detalles del panel** , busque la página externa que desea actualizar, pase el ratón sobre ella y haga clic en **Editar** icono.\
+1. En el área **Seleccionar diseño / Agregar informes / Agregar calendarios** del cuadro **Detalles del panel**, busque la página externa que desee actualizar, pase el ratón sobre ella y haga clic en el icono **Editar**.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. En el **Editar página externa** , actualice los campos que desee cambiar y haga clic en **Guardar**.
-1. (Opcional) Haga clic en **Eliminar** icono ![](assets/delete.png) para eliminar la página externa del panel. Para obtener más información, consulte [Eliminación de una página externa de un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. En el cuadro **Editar página externa**, actualice los campos que desee cambiar y, a continuación, haga clic en **Guardar**.
+1. (Opcional) Haga clic en el icono **Eliminar** ![](assets/delete.png) para eliminar la página externa del panel. Para obtener más información, consulte [Quitar una página externa de un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Haga clic en **Guardar + Cerrar**.
 
 ## Visualización de páginas externas en un informe
@@ -175,15 +175,15 @@ Puede ver todas las páginas externas en Workfront en un informe de página exte
 
 {{step1-to-reports}}
 
-1. Clic **Nuevo informe** > seleccionar **Página externa**.
+1. Haga clic en **Nuevo informe** > seleccione **Página externa**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Opcional) Actualice las pestañas Ver, Filtros o Agrupaciones del informe.
 
-   Para obtener más información, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener más información, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Clic **Guardar + Cerrar**.
+1. Haga clic en **Guardar+Cerrar**.
 
    Puede ver el nombre y la dirección URL asociada con las páginas externas en el sistema en el nuevo informe.
 

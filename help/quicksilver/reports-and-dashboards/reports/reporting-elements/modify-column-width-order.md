@@ -18,21 +18,21 @@ ht-degree: 0%
 A continuación se ofrecen directrices sobre cómo funcionan los anchos de columna en Adobe Workfront:
 
 * Workfront define el ancho de las columnas de las listas y los informes de forma predeterminada.
-* Workfront ajusta automáticamente el ancho de las columnas según el `valueformat`información en todas las listas e informes, a menos que se especifique lo contrario en el modo de texto de la columna.
+* Workfront ajusta automáticamente el ancho de las columnas según la información `valueformat` de todas las listas e informes, a menos que se especifique lo contrario en el modo de texto de la columna.
 
   >[!NOTE]
   >
-  >Workfront no ajusta el ancho de las columnas según la variable `valueformat` información en las listas disponibles en las áreas Configuración e Informes.
+  >Workfront no ajusta el ancho de las columnas según la información de `valueformat` en las listas disponibles en las áreas Configuración e Informes.
 
-  El `valueformat` define qué tipo de información se muestra en la columna. Por ejemplo, las columnas que muestran un número son más estrechas que las columnas que muestran el campo Descripción.
+  El valor `valueformat` define qué tipo de información se muestra en la columna. Por ejemplo, las columnas que muestran un número son más estrechas que las columnas que muestran el campo Descripción.
 
 * Puede personalizar el ancho de las columnas de las listas e informes de Workfront para que coincida con sus necesidades, según el tipo de información que desee mostrar en las columnas.
 
-  Puede modificar el ancho de las columnas temporalmente, mientras ve una lista o informe, o permanentemente, ajustando el ancho de la columna en el generador de vistas. Para obtener información sobre cómo modificar temporalmente el ancho de las columnas, consulte la [Consideraciones al modificar temporalmente el ancho y el orden de las columnas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) de este artículo.
+  Puede modificar el ancho de las columnas temporalmente, mientras ve una lista o informe, o permanentemente, ajustando el ancho de la columna en el generador de vistas. Para obtener información acerca de cómo modificar temporalmente el ancho de las columnas, vea la sección [Consideraciones al modificar temporalmente el ancho y el orden de las columnas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) en este artículo.
 
 * Las columnas que aparecen en las vistas integradas tienen anchos definidos previamente por Workfront y codificados. Para modificar estos anchos, debe actualizar manualmente el ancho de estas columnas con el modo de texto en el generador de vistas.
 
-  Para obtener información sobre cómo modificar la columna en el modo de texto, consulte [Ver: editar de forma permanente la anchura de una columna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  Para obtener información acerca de cómo modificar la columna en modo de texto, vea [Ver: editar permanentemente el ancho de una columna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Requisitos de acceso
 
@@ -52,32 +52,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar la vista de un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar la vista de un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos de un informe para editar una vista de un informe</p> <p>Administrar permisos a una vista para editarla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe para editar una vista de un informe</p> <p>Administrar permisos a una vista para editarla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Modificar el ancho y el orden de las columnas
 
 Puede modificar el ancho y el orden de las columnas de los informes de las siguientes maneras:
 
-* [Modificar temporalmente el ancho y el orden de las columnas](#modify-width-and-order-of-columns-temporarily)
+* [Modificar el ancho y el orden de las columnas temporalmente](#modify-width-and-order-of-columns-temporarily)
 * [Modificar el ancho y el orden de las columnas de forma permanente](#modify-width-and-order-of-columns-permanently)
 
 ### Modificar temporalmente el ancho y el orden de las columnas {#modify-width-and-order-of-columns-temporarily}
 
 Puede arrastrar bordes de columna para cambiar el tamaño de las columnas y arrastrar y soltar columnas para reordenarlas temporalmente en la mayoría de las listas del sitio de Workfront. Esto incluye informes, vistas, informes sobre paneles y la vista Gantt.
 
-Para obtener más información sobre las listas de Workfront, consulte el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Para obtener más información acerca de las listas de Workfront, consulte el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 * [Consideraciones al modificar temporalmente el ancho y el orden de las columnas](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
-* [Cambiar el tamaño de columnas temporalmente](#resize-columns-temporarily)
+* [Cambiar tamaño de columnas temporalmente](#resize-columns-temporarily)
 * [Reordenar las columnas temporalmente](#reorder-columns-temporarily)
 
 #### Consideraciones al modificar temporalmente el ancho y el orden de las columnas {#considerations-when-temporarily-modifying-the-width-and-order-of-columns}
@@ -90,7 +90,7 @@ Tenga en cuenta lo siguiente al cambiar temporalmente el tamaño y ordenar las c
 
 >[!NOTE]
 > 
->El ancho de las columnas está limitado por el tamaño de la ventana del explorador; si se actualiza la página, el ancho de las columnas se reduce hasta que todas las columnas caben en la ventana sin necesidad de desplazarse horizontalmente. Para forzar que una columna sea más ancha de lo que cabría en el explorador, debe establecer el ancho de la columna en el modo de texto como se describe en [Modificar el ancho y el orden de las columnas de forma permanente](#modify-width-and-order-of-columns-permanently) y evite ajustar manualmente los anchos de columna arrastrando sus bordes.
+>El ancho de las columnas está limitado por el tamaño de la ventana del explorador; si se actualiza la página, el ancho de las columnas se reduce hasta que todas las columnas caben en la ventana sin necesidad de desplazarse horizontalmente. Para forzar que una columna sea más ancha de lo que cabrá en el explorador, debe establecer el ancho de la columna en el modo de texto tal como se describe en [Modificar el ancho y el orden de las columnas de forma permanente](#modify-width-and-order-of-columns-permanently) y evitar ajustar manualmente el ancho de las columnas arrastrando sus bordes.
 >
 
 * Al reordenar las columnas, el orden elegido se mantiene únicamente hasta que se aleja de la lista o se actualiza la página del explorador. Después de salir de la lista o actualizar la página del explorador, las columnas vuelven a su orden predeterminado.
@@ -108,7 +108,7 @@ Tenga en cuenta lo siguiente al cambiar temporalmente el tamaño y ordenar las c
 
 * Si exporta cualquier lista a un archivo, el orden temporal de las columnas no se transfiere al archivo exportado. El archivo exportado muestra el orden de las columnas en la lista original, antes de que se hayan reorganizado las columnas.
 
-Para obtener más información sobre cómo exportar datos desde listas e informes, consulte el artículo [Exportación de datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Para obtener más información acerca de cómo exportar datos de listas e informes, vea el artículo [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 #### Cambiar el tamaño de columnas temporalmente {#resize-columns-temporarily}
 
@@ -131,8 +131,8 @@ Para obtener más información sobre cómo exportar datos desde listas e informe
 
 ### Modificar el ancho y el orden de las columnas de forma permanente {#modify-width-and-order-of-columns-permanently}
 
-Para reorganizar las columnas de forma permanente, consulte la sección [Creación o personalización de una vista estándar](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) en el artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para reordenar las columnas de forma permanente, consulte la sección [Crear o personalizar una vista estándar](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) en el artículo [Información general de las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Solo se puede modificar de forma permanente el ancho de una columna mediante el modo de texto.
 
-Para obtener más información sobre el uso del modo de texto y la modificación permanente del ancho de una columna, consulte el artículo [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obtener más información acerca del uso del modo de texto y la modificación permanente del ancho de una columna, vea el artículo [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

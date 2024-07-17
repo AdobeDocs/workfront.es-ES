@@ -32,8 +32,8 @@ Este artículo describe las áreas en las que puede acceder al Distribuidor de c
 >
 >Para obtener información sobre el Distribuidor de cargas de trabajo y cómo utilizarlo para administrar y programar los recursos para el trabajo, consulte los siguientes artículos:
 >
->* [Resumen del Distribuidor de cargas](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
->* [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+>* [Resumen del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+>* [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
@@ -66,11 +66,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <li> <p>Problemas</p> </li> 
     </ul> <p><b> NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores de los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos o superiores de los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,21 +83,21 @@ Las secciones siguientes ilustran dónde puede acceder al Distribuidor de cargas
 
 ### Acceso al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png), luego haga clic en **Recursos**.
-1. Clic **Distribuidor de cargas de trabajo** en el panel izquierdo.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y luego haga clic en **Recursos**.
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.
 
    ![](assets/nwe-balancer-global.png)
 
    El Distribuidor de cargas de trabajo muestra, de forma predeterminada, lo siguiente según la información del área de Recursos:
 
    * **Trabajo sin asignar**: no hay elementos de trabajo sin asignar.
-   * **Trabajo asignado**: todos los usuarios activos del sistema.
+   * **Trabajo asignado**: todos los usuarios activos en el sistema.
 
-     Se recomienda utilizar filtros al mostrar los usuarios en el área de Trabajo asignado. Para obtener más información, consulte [Filtrado de información en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md).
+     Se recomienda utilizar filtros al mostrar los usuarios en el área de Trabajo asignado. Para obtener más información, consulte [Filtrar información en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Acceso al Distribuidor de cargas de trabajo para un equipo
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png), luego haga clic en Equipos.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y, a continuación, haga clic en Equipos.
 Se muestra la página de su equipo de inicio.
 
    El Distribuidor de cargas de trabajo del equipo se muestra de forma predeterminada.
@@ -117,9 +117,9 @@ Se muestra la página de su equipo de inicio.
 
 ### Acceso al Distribuidor de cargas de trabajo para un proyecto
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png), luego haga clic en **Proyectos**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y luego haga clic en **Proyectos**.
 1. Haga clic en el nombre de un proyecto para abrir su página.
-1. Clic **Distribuidor de cargas de trabajo** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, entonces **Distribuidor de cargas de trabajo**.
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Distribuidor de cargas de trabajo**.
 
    Se muestra el Distribuidor de cargas de trabajo para el proyecto.
 
@@ -127,12 +127,12 @@ Se muestra la página de su equipo de inicio.
 
    El Distribuidor de cargas de trabajo de un proyecto muestra lo siguiente a modo de información de forma predeterminada:
 
-   * **Trabajo sin asignar**: elementos del proyecto que están asignados a roles de trabajo o equipos y no están asignados a usuarios.
+   * **Trabajo sin asignar**: elementos del proyecto que están asignados a roles o equipos de trabajo y no están asignados a usuarios.
    * **Trabajo asignado**: usuarios asignados a elementos del proyecto.
 
      >[!TIP]
      >
-     >Puede mostrar todos los usuarios del sistema en lugar de solo los del proyecto (en el área de Trabajo asignado) activando la opción Mostrar todos los usuarios. Para obtener más información, consulte [Navegación por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
+     >Puede mostrar todos los usuarios del sistema en lugar de solo los del proyecto (en el área de Trabajo asignado) activando la opción Mostrar todos los usuarios. Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Añadir el Distribuidor de cargas de trabajo a una sección personalizada
@@ -147,14 +147,14 @@ La mayoría de las personalizaciones que ya se han aplicado al Distribuidor de c
    * Un equipo
    * Un proyecto
 
-1. Obtenga un vínculo que se puede compartir y cópielo en el portapapeles tal como se describe en [Uso compartido del Distribuidor de cargas de trabajo con un vínculo](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
-1. Cree un tablero con una página externa como se describe en [Incrustar una página web externa en un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Utilice el vínculo que se puede compartir obtenido en el paso 2 para la página externa.
+1. Obtenga un vínculo que se puede compartir y cópielo en el portapapeles tal como se describe en [Compartir el Distribuidor de cargas de trabajo con un vínculo](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
+1. Cree un panel con una página externa como se describe en [Incrustar una página web externa en un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Utilice el vínculo que se puede compartir obtenido en el paso 2 para la página externa.
 
    <!--
       (NOTE: ensure this stays correct)
       -->
 
-1. Cree una sección personalizada como se describe en [Crear fichas o secciones personalizadas](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) para colocar el tablero en la ficha personalizada.
+1. Cree una sección personalizada tal como se describe en [Cree fichas o secciones personalizadas](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) para colocar el tablero en la ficha personalizada.
 
    Al acceder al Distribuidor de cargas de trabajo desde la sección personalizada, puede verlo como si estuviera accediendo directamente desde una de sus áreas originales enumeradas en el paso 1.
 
@@ -162,7 +162,7 @@ La mayoría de las personalizaciones que ya se han aplicado al Distribuidor de c
       (NOTE: ensure this stays correct)
      -->
 
-1. (Opcional) Comparta la pestaña personalizada en una plantilla de diseño como se describe en  [Personalización del panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Opcional) Comparta la pestaña personalizada en una plantilla de diseño como se describe en [Personalice el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 
 
 <!--

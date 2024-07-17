@@ -7,7 +7,7 @@ role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
 source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -45,26 +45,27 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 ## Ver el número de licencias utilizadas en un grupo
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo.
-1. En la página que se muestra, en el área de encabezado cerca de la esquina superior derecha, vea el **Licencias en uso** para ver el número de **Plan** y **Trabajo** licencias en uso actualmente.
+1. En la página que se muestra, en el área del encabezado cerca de la esquina superior derecha, vea el área de **Licencias en uso** para ver el número de licencias de **Plan** y **Trabajo** que se están usando actualmente.
 
    Si está viendo un grupo de nivel superior y el administrador de Workfront ha definido un número máximo de cada tipo de licencia para el grupo, también se muestran estos números. Por ejemplo, en el grupo siguiente, un máximo de 10 usuarios pueden tener una licencia de planificación y un máximo de 15 pueden tener una licencia de trabajo:
 
    ![](assets/licenses-used-allocated.png)
 
-   Para obtener información sobre cómo un administrador de Workfront define un número máximo de licencias asignadas para un grupo, consulte la sección [Establecer el número máximo de licencias para un grupo de inicio](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) en el artículo [Administrar las licencias disponibles en el sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+   Para obtener información sobre cómo un administrador de Workfront define un número máximo de licencias asignadas para un grupo, consulte la sección [Establecer el recuento máximo de licencias para un grupo de inicio](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) en el artículo [Administrar licencias disponibles en el sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
    >[!NOTE]
    >
    >Si el grupo que está viendo es un subgrupo, sólo puede ver el número de licencias que se están utilizando, no el número máximo de licencias asignadas para el grupo. Esto se debe a que los administradores de Workfront no definen un recuento máximo de licencias para un subgrupo.
    >
    >![](assets/subgroup-used-licenses-only.png)
+   >
 
-1. Para obtener recuentos independientes de cada tipo de licencia que se utilice actualmente en el grupo (incluidas Revisión y Solicitud), haga clic en el área de texto que aparece directamente a continuación **Licencias en uso:**
+1. Para obtener recuentos independientes de cada tipo de licencia que se use actualmente en el grupo (incluidas Revisar y Solicitar), haga clic en el área de texto que se encuentra directamente debajo de **Licencias en uso:**
 
    ![](assets/click-text-to-see-more.png)
 

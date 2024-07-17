@@ -2,7 +2,7 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Ver información adicional sobre Adobe Workfront para Outlook y cerrar la sesión
-description: Puede ver detalles sobre la versión del complemento Adobe Workfront para Outlook, navegar directamente a la versión web, enviar comentarios o cerrar la sesión.
+description: Puede ver detalles sobre la versión del complemento de Adobe Workfront para Outlook, desplazarse directamente a la versión web, enviar comentarios o cerrar la sesión.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Ver información adicional sobre [!DNL Adobe Workfront for Outlook] y cerrar sesión
+# Ver información adicional acerca de [!DNL Adobe Workfront for Outlook] y cerrar la sesión
 
-Puede ver los detalles sobre la versión del [!DNL Adobe Workfront] complemento para [!DNL Outlook], navegue directamente a la versión web, envíe comentarios o cierre la sesión.
+Puede ver detalles sobre la versión del complemento [!DNL Adobe Workfront] para [!DNL Outlook], navegar directamente a la versión web, enviar comentarios o cerrar la sesión.
 
 ## Requisitos de acceso
 
@@ -31,28 +31,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
-Su [!DNL Workfront] el administrador debe habilitar [!DNL Outlook for Office] con [!DNL Workfront] antes de poder utilizar esta integración.
+El administrador de [!DNL Workfront] debe habilitar [!DNL Outlook for Office] con [!DNL Workfront] para poder usar esta integración.
 
-## Ver información adicional sobre [!DNL Adobe Workfront for Outlook] y cerrar sesión
+## Ver información adicional acerca de [!DNL Adobe Workfront for Outlook] y cerrar la sesión
 
-1. Seleccione un correo electrónico en [!DNL Outlook].
-1. Haga clic en **[!DNL Workfront]** para mostrar el complemento de Workfront.
+1. Seleccionar un correo electrónico en [!DNL Outlook].
+1. Haga clic en el icono **[!DNL Workfront]** para mostrar el complemento de Workfront.
 1. Haga clic en la flecha desplegable situada junto al nombre de usuario.
 
 1. Haga clic en una de las siguientes opciones:
 
-   * **[!UICONTROL Acerca de]:** Vea información sobre el complemento de Workfront, incluida la versión actual, las novedades y un vínculo a información sobre procedimientos en el sitio de ayuda de Workfront.
-   * **[!UICONTROL Versión web]:** Inicie la aplicación completa de Workfront en una nueva ventana del explorador.
-   * **Enviar comentarios:** Enviar comentarios a [!DNL Workfront] acerca del complemento de Workfront.
-   * **[!UICONTROL Cerrar sesión]:** Cierre la sesión de [!DNL Workfront] complemento.
+   * **[!UICONTROL Acerca de]:** Vea información sobre el complemento de Workfront, incluida la versión actual, las novedades y un vínculo a información de procedimientos en el sitio de Ayuda de Workfront.
+   * **[!UICONTROL Versión web]:** Inicie la aplicación Workfront completa en una nueva ventana del explorador.
+   * **Enviar comentarios:** Enviar comentarios a [!DNL Workfront] con respecto al complemento de Workfront.
+   * **[!UICONTROL Cerrar sesión]:** Cierre la sesión del complemento [!DNL Workfront].
 
-      Esta opción no le cierra la sesión [!DNL Outlook].
+     Esta opción no lo cierra de [!DNL Outlook].

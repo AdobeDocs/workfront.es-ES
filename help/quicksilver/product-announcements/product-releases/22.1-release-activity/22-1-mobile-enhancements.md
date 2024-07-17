@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general sobre la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Mejoras en la funcionalidad de prueba en la aplicación móvil
 

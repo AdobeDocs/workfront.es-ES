@@ -26,7 +26,7 @@ Como administrador de Adobe Workfront, puede crear grupos para organizar usuario
 
 Cada subgrupo necesita al menos un administrador de grupo. Los administradores de grupos pueden utilizar la página Grupos para administrar sus grupos en un solo lugar.
 
-Si es administrador de un grupo o de Workfront, también puede crear subgrupos en un grupo. Para obtener instrucciones, consulte [Creación de un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
+Si es administrador de un grupo o de Workfront, también puede crear subgrupos en un grupo. Para obtener instrucciones, vea [Crear un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 ## Requisitos de acceso
 
@@ -51,11 +51,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 ## Crear un grupo de nivel superior desde cero
 
-Estos pasos explican cómo crear un nuevo grupo desde cero. Para obtener información sobre cómo crear un grupo o subgrupo copiando uno existente, consulte [Crear un grupo de nivel superior copiando un grupo o subgrupo existente](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) en este artículo.
+Estos pasos explican cómo crear un nuevo grupo desde cero. Para obtener información acerca de cómo crear un grupo o subgrupo copiando uno existente, vea [Crear un grupo de nivel superior copiando un grupo o subgrupo existente](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) en este artículo.
 
 Debe ser administrador de Workfront para crear un grupo de nivel superior.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
@@ -63,9 +63,9 @@ Debe ser administrador de Workfront para crear un grupo de nivel superior.
 
    >[!TIP]
    >
-   >Al final de la lista de grupos, también puede hacer clic en **Añadir más grupos** para añadir un grupo en línea, haga clic en **Entrar** cuando haya terminado de agregar la información del grupo.
+   >En la parte inferior de la lista de grupos, también puede hacer clic en **Agregar más grupos** para agregar un grupo en línea y, a continuación, hacer clic en **Introducir** cuando termine de agregar la información del grupo.
 
-1. En el **Nuevo grupo** que aparece, escriba un nombre para el grupo.
+1. En el cuadro **Nuevo grupo** que aparece, escriba un nombre para el grupo.
 1. Especifique la siguiente información:
 
    <table style="table-layout:auto"> 
@@ -82,7 +82,7 @@ Debe ser administrador de Workfront para crear un grupo de nivel superior.
      </tr> 
      <tr> 
       <td role="rowheader">Activo</td> 
-      <td> <p>(Habilitado de forma predeterminada) Activa el grupo en la instancia de Workfront.</p> <p>En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo se muestran en la lista los grupos activos.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para optimizar esto para los usuarios, puede deshabilitar la opción Está activo para los grupos que no están en uso actualmente.</p> <p>Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información sobre el uso de vistas, filtros y agrupaciones en listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de informes: filtros, vistas y agrupaciones</a>.</p> </td> 
+      <td> <p>(Habilitado de forma predeterminada) Activa el grupo en la instancia de Workfront.</p> <p>En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo se muestran en la lista los grupos activos.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para optimizar esto para los usuarios, puede deshabilitar la opción Está activo para los grupos que no están en uso actualmente.</p> <p>Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información acerca del uso de vistas, filtros y agrupaciones en listas, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de informes: filtros, vistas y agrupaciones</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Convertir este grupo y sus subgrupos en públicos</td> 
@@ -90,15 +90,15 @@ Debe ser administrador de Workfront para crear un grupo de nivel superior.
         <ul> 
          <li>No puede hacer público un subgrupo por sí solo, pero puede hacer público su grupo principal de nivel superior, que también hace públicos todos los subgrupos del grupo principal.</li> 
          <li>Un subgrupo que pertenece a un grupo público es público de forma predeterminada, por lo que cualquier usuario con acceso de edición de usuarios también puede agregar el subgrupo a otros usuarios.</li> 
-        </ul> </p> <p>Si necesita información sobre el acceso necesario para editar usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>. Para obtener información sobre cómo editar usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edición del perfil de un usuario</a>.</p> </td> 
+        </ul> </p> <p>Si necesita información sobre el acceso necesario para editar usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a usuarios</a>. Para obtener información sobre cómo editar usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Coordinador empresarial </td> 
-      <td> <p>Puede asignar un usuario como coordinador empresarial a un grupo que administre. Un líder empresarial es alguien que toma decisiones comerciales para el grupo. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Información general de Business Leader</a><span>.</span></p> <p>Si la persona aún no es miembro del grupo, al agregar su nombre a este campo también se agrega al grupo.</p> <p><b>NOTA</b>:  
+      <td> <p>Puede asignar un usuario como coordinador empresarial a un grupo que administre. Un líder empresarial es alguien que toma decisiones comerciales para el grupo. Para obtener más información, vea <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Descripción general del coordinador empresarial</a><span>.</span></p> <p>Si la persona aún no es miembro del grupo, al agregar su nombre a este campo también se agrega al grupo.</p> <p><b>NOTA</b>:  
         <ul> 
          <li>Antes de poder quitar el coordinador empresarial de un grupo, debe quitar su nombre del campo Coordinador empresarial.</li> 
          <li>Si quita el nombre del campo coordinador empresarial, ese usuario seguirá siendo miembro del grupo a menos que lo quite de él. Para obtener instrucciones sobre cómo quitar a alguien de un grupo, consulte la sección <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Administrar las pertenencias de un grupo</a> en el artículo <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Administrar un grupo</a>.</li> 
-        </ul> </p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Información general de Business Leader</a>.</p> </td> 
+        </ul> </p> <p>Para obtener más información, vea <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Resumen del coordinador empresarial</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Miembros y administradores de grupo</td> 
@@ -114,7 +114,7 @@ Debe ser administrador de Workfront para crear un grupo de nivel superior.
     </tbody> 
    </table>
 
-1. Clic **Crear grupo**.
+1. Haga clic en **Crear grupo**.
 
 ## Crear un grupo de nivel superior copiando un grupo o subgrupo existente {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
 
@@ -127,14 +127,14 @@ Tenga en cuenta lo siguiente cuando desee hacer esto:
 
 Para crear un nuevo grupo de nivel superior copiando un grupo o subgrupo:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
    En la lista que se muestra, puede ver los grupos que administra, junto con los subgrupos que tengan. Los administradores de Adobe Workfront pueden ver todos los grupos.
 
-1. Seleccione el grupo que desee copiar y haga clic en el icono Copiar ![](assets/copy-icon.png).
-1. En el **Copiar grupo** que aparece, escriba un **Nombre de grupo** para el grupo copiado.
+1. Seleccione el grupo que desea copiar y luego haga clic en el icono Copiar ![](assets/copy-icon.png).
+1. En el cuadro **Copiar grupo** que aparece, escriba un **Nombre de grupo** para el grupo copiado.
 
 1. Especifique la siguiente información:
 
@@ -152,7 +152,7 @@ Para crear un nuevo grupo de nivel superior copiando un grupo o subgrupo:
      </tr> 
      <tr> 
       <td role="rowheader">Activo</td> 
-      <td> <p>(Habilitado de forma predeterminada) Activa el grupo en la instancia de Workfront.</p> <p>En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo se muestran en la lista los grupos activos.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para optimizar esto para los usuarios, puede deshabilitar la opción Está activo para los grupos que no están en uso actualmente.</p> <p>Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información sobre el uso de vistas, filtros y agrupaciones en listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementos de informes: filtros, vistas y agrupaciones</a>.</p>  </td> 
+      <td> <p>(Habilitado de forma predeterminada) Activa el grupo en la instancia de Workfront.</p> <p>En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo se muestran en la lista los grupos activos.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para optimizar esto para los usuarios, puede deshabilitar la opción Está activo para los grupos que no están en uso actualmente.</p> <p>Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información acerca del uso de vistas, filtros y agrupaciones en listas, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementos de informes: filtros, vistas y agrupaciones</a>.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Convertir este grupo y sus subgrupos en públicos</td> 
@@ -160,15 +160,15 @@ Para crear un nuevo grupo de nivel superior copiando un grupo o subgrupo:
         <ul> 
          <li>No puede hacer público un subgrupo por sí solo, pero puede hacer público su grupo principal de nivel superior, que también hace públicos todos los subgrupos del grupo principal.</li> 
          <li>Un subgrupo que pertenece a un grupo público es público de forma predeterminada, por lo que cualquier usuario con acceso de edición de usuarios también puede agregar el subgrupo a otros usuarios.</li> 
-        </ul> </p> <p>Si necesita información sobre el acceso necesario para editar usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Concesión de acceso a los usuarios</a>. Para obtener información sobre cómo editar usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Edición del perfil de un usuario</a>.</p> </td> 
+        </ul> </p> <p>Si necesita información sobre el acceso necesario para editar usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Conceder acceso a usuarios</a>. Para obtener información sobre cómo editar usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Editar el perfil de un usuario</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Coordinador empresarial </td> 
-      <td> <p>Puede asignar un usuario como coordinador empresarial a un grupo que administre. Un líder empresarial es alguien que toma decisiones comerciales para el grupo. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Información general de Business Leader</a><span>.</span></p> <p>Si la persona aún no es miembro del grupo, al agregar su nombre a este campo también se agrega al grupo.</p> <p><b>NOTA</b>:  
+      <td> <p>Puede asignar un usuario como coordinador empresarial a un grupo que administre. Un líder empresarial es alguien que toma decisiones comerciales para el grupo. Para obtener más información, vea <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Descripción general del coordinador empresarial</a><span>.</span></p> <p>Si la persona aún no es miembro del grupo, al agregar su nombre a este campo también se agrega al grupo.</p> <p><b>NOTA</b>:  
         <ul> 
          <li>Antes de poder quitar el coordinador empresarial de un grupo, debe quitar su nombre del campo Coordinador empresarial.</li> 
          <li>Si quita el nombre del campo coordinador empresarial, ese usuario seguirá siendo miembro del grupo a menos que lo quite de él. Para obtener instrucciones sobre cómo quitar a alguien de un grupo, consulte la sección <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Administrar las pertenencias de un grupo</a> en el artículo <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Administrar un grupo</a>.</li> 
-        </ul> </p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Información general de Business Leader</a>.</p> </td> 
+        </ul> </p> <p>Para obtener más información, vea <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Resumen del coordinador empresarial</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Miembros y administradores de grupo</td> 
@@ -190,4 +190,4 @@ Para crear un nuevo grupo de nivel superior copiando un grupo o subgrupo:
    >* Si el grupo original tiene subgrupos, estos se agregan al nuevo grupo y sus nombres son, de forma predeterminada, &quot;El nombre del subgrupo original (Copiar)&quot;.
    >* Puede eliminar cualquier usuario o subgrupo del grupo original haciendo clic en la X a la derecha del nombre del usuario o subgrupo.
 
-1. Clic **Crear grupo**.
+1. Haga clic en **Crear grupo**.

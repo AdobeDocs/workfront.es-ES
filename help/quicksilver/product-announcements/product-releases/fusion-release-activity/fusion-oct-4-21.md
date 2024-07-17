@@ -1,6 +1,6 @@
 ---
-title: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 4 de octubre de 2021
-description: Actividad de la versión de Workfront Fusion:&nbsp;Semana del 4 de octubre de 2021
+title: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 4 de octubre de 2021'
+description: 'Actividad de la versión de Workfront Fusion: &nbsp;Semana del 4 de octubre de 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Consulte los filtros de evento existentes en los módulos Workfront > Ver eventos
 
@@ -28,7 +28,7 @@ Para una mayor claridad, hemos hecho posible ver los filtros de evento utilizado
 
 Anteriormente, los usuarios solo podían ver filtros de evento al configurar el gancho web y no había forma de ver los filtros en un módulo de Workfront > Ver eventos existente.
 
-Para obtener más información, consulte [Filtros de suscripción a eventos en los módulos Workfront > Ver eventos](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información, consulte [Filtros de suscripción de eventos en Workfront > Ver módulos de eventos](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) en [módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Adjunte formularios personalizados a objetos de Workfront mediante los módulos Workfront > Crear registro y Actualizar registro
 
@@ -36,7 +36,7 @@ Para que el uso de formularios personalizados sea más similar a la experiencia 
 
 Anteriormente, se podían introducir valores en los campos de los formularios personalizados, pero no estaban organizados por formulario y podían ser difíciles de encontrar.
 
-Para obtener más información, consulte [Módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información, consulte [módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Utilizar texto enriquecido en comentarios y campos personalizados creados por Workfront Fusion
 
@@ -55,6 +55,6 @@ Las actualizaciones admiten los siguientes formatos de texto enriquecido:
 
 Anteriormente, el texto enriquecido solo se podía agregar a comentarios o campos personalizados mediante el propio Workfront o la API de Workfront.
 
-Para obtener más información sobre los módulos Crear registro y Actualizar registro, consulte [Módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información sobre los módulos Crear registro y Actualizar registro, consulte [módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-Para obtener más información sobre el texto enriquecido disponible en comentarios o campos personalizados, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información sobre el texto enriquecido disponible en comentarios o campos personalizados, vea [Actualizar el trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

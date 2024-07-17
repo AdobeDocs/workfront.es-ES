@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Lists con la versión 2020.1. Estas mejoras están disponibles actualmente en el entorno de vista previa y estarán disponibles en el entorno de producción a finales de marzo o principios de abril de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general de la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.1, consulte [Información general sobre la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Nuevo modo de guardado al realizar cambios en una lista de tareas: el modo de planificación de la cronología
 
@@ -30,7 +30,7 @@ Tenga en cuenta las siguientes ventajas al utilizar el modo de planificación de
 * El envío de cada cambio es más rápido que con los modos de guardado automático o manual.
 * Puede invertir los cambios antes de guardarlos.
 
-Para obtener más información sobre cómo guardar los cambios en una lista de tareas, consulte la sección &quot;Editar tareas con la configuración de planificación de la cronología&quot; en el artículo [Edición de tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Para obtener más información acerca de cómo guardar los cambios en una lista de tareas, vea la sección &quot;Editar tareas con la configuración de planificación de la escala de tiempo&quot; en el artículo [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 ## Apariencia actualizada de las nuevas listas
 
@@ -40,7 +40,7 @@ Para obtener más información sobre cómo guardar los cambios en una lista de t
 
 Las listas de proyectos, tareas y horas ahora tienen un aspecto actualizado.
 
-Para obtener información sobre la visualización de elementos en listas, consulte [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Para obtener información sobre cómo ver elementos en listas, consulte [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 Algunas de las actualizaciones incluyen:
 
@@ -54,7 +54,7 @@ Algunas de las actualizaciones incluyen:
 
 Ahora puede ver con mayor claridad la diferenciación entre varias capas de agrupaciones en listas con un nuevo esquema de colores. Los resultados de la agrupación también se describen con mayor claridad en un marco separado. Este cambio se ha aplicado a todas las listas nuevas.
 
-Para obtener información sobre cómo crear y personalizar agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obtener información sobre cómo crear y personalizar agrupaciones, vea [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Resaltar los elementos coincidentes en las listas al utilizar los filtros rápidos
 
@@ -76,13 +76,13 @@ Utilice el menú Más de una actualización para:
 * Copie el vínculo directo a un hilo de actualización o a una sola actualización
 * Eliminar una actualización
 
-Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nueva barra de progreso en el área de Actualizaciones
 
 La barra de progreso de porcentaje completado en el área de actualizaciones tiene un nuevo aspecto. Haga clic y arrastre para actualizar el porcentaje, o haga doble clic para introducir manualmente el número.
 
-Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Mostrar encabezados de columna de listas e informes en mayúsculas y minúsculas
 
@@ -100,4 +100,4 @@ De forma predeterminada, los resultados se muestran en una lista expandida debaj
 
 Antes de este cambio, los resultados siempre se mostraban en una lista contraída.
 
-Para obtener información sobre cómo crear una agrupación, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obtener información acerca de cómo crear una agrupación, vea [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).

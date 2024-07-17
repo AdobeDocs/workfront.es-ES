@@ -22,7 +22,7 @@ Las siguientes funciones están disponibles en el entorno de vista previa en 201
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Ahora puede ver todas las tareas de los proyectos en los que es gerente de recursos, lo que le permite estar más informado cuando toma decisiones de programación.
 
@@ -44,7 +44,8 @@ El sombreado de asignación de usuarios en la cronología de programación cuand
 
 Anteriormente, el sombreado de asignación se mostraba de forma predeterminada y no se podía deshabilitar.
 
-Para obtener más información sobre cómo habilitar las opciones de asignación de usuarios, consulte &quot;Administrar asignaciones de usuarios en las áreas de programación&quot;.
+Para obtener más información sobre cómo habilitar las opciones de asignación de usuarios, consulte
+&quot;Administrar asignaciones de usuarios en las áreas de Programación&quot;.
 
 ## La plantilla de diseño determina si el calendario nuevo o heredado se muestra en el área Mi trabajo
 
@@ -58,15 +59,15 @@ Al utilizar el calendario heredado en el área de Mi trabajo, solo se muestra el
 
 Para configurar Workfront para que muestre el nuevo calendario en el área Mi trabajo cuando se aplique una plantilla de diseño, configúrela para mostrar la Fecha planificada de finalización de las tareas y los problemas y, a continuación, asigne esa plantilla de diseño a los usuarios correspondientes.
 
-Para obtener más información sobre la configuración de la plantilla de diseño, consulte [Creación y administración de plantillas de diseño](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Creación y administración de plantillas de diseño](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener más información sobre cómo configurar la plantilla de diseño, consulte [Crear y administrar plantillas de diseño](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) en [Crear y administrar plantillas de diseño](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Outlook 365 Beta
 
-**Beta: por determinar; Disponibilidad pública: por determinar**
+**Beta: por determinar; disponibilidad pública: por determinar**
 
 Puede utilizar Workfront desde Outlook para Office 365, tal como se describe en las secciones siguientes:
 
-* [Configuración de Adobe Workfront para Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+* [Configurar Adobe Workfront para Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * &quot;Actualizar un elemento existente desde un correo electrónico con Outlook 365&quot;
 
 ## Reordenar columnas en cualquier lista con arrastrar y soltar
@@ -77,13 +78,13 @@ Puede cambiar el orden de las columnas en cualquier lista arrastrando una column
 
 Esto resulta especialmente útil cuando se ven simultáneamente el gráfico Gantt y la vista de lista y la columna que desea ver no se muestra en la parte izquierda de la página. 
 
-Para obtener más información, consulte [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Para obtener más información, vea [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## Aspecto actualizado en la lista de paneles
 
 Ahora, al ver una lista de tableros, el aspecto es más moderno y escalable.
 
-Para obtener más información sobre los paneles, consulte [Crear un tablero](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+Para obtener más información acerca de los paneles, vea [Crear un panel](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 
 ## Control del acceso a Forms personalizado
 

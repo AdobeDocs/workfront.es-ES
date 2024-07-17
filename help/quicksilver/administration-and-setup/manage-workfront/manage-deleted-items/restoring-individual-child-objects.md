@@ -9,7 +9,7 @@ role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -25,18 +25,18 @@ Los datos de su entorno en directo están disponibles en la zona protegida de vi
 * Kick-Starts
 * Creación de informes y exportación de resultados
 
-Para obtener más información sobre la exportación de datos desde Workfront, consulte [Exportación de datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Para obtener más información acerca de cómo exportar datos desde Workfront, vea [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 Puede importar los datos exportados de las siguientes maneras:
 
 * Manualmente, si utiliza informes exportados
 * De forma masiva, si utiliza Kick-Starts
 
-   Para obtener más información sobre cómo importar datos en Workfront mediante Kick-Starts, consulte [Importación de datos en Adobe Workfront mediante una plantilla de KickStart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Para obtener más información sobre cómo importar datos a Workfront mediante Kick-Starts, consulte [Importar datos a Adobe Workfront mediante una plantilla de Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 El entorno de vista previa de espacio aislado se actualiza durante nuestras ventanas de mantenimiento durante el fin de semana.
 
-Para obtener más información sobre los períodos de mantenimiento del entorno de vista previa de espacio aislado, consulte [el sitio de estado del Adobe](https://status.adobe.com/es).
+Para obtener más información acerca de los períodos de mantenimiento del entorno de vista previa de espacio aislado, vea [el sitio sobre el estado del Adobe](https://status.adobe.com/es).
 
 >[!IMPORTANT]
 >
@@ -51,10 +51,10 @@ Una vez que haya determinado que nuestro equipo de base de datos debe restaurar 
 * Fecha y hora estimadas de eliminación
 * GUID de objeto (si es posible)
 
-   Consulte la siguiente información cuando busque el GUID de un objeto:
+  Consulte la siguiente información cuando busque el GUID de un objeto:
 
    * El GUID se puede encontrar haciendo referencia a las notificaciones de correo electrónico activadas por la interacción con el objeto (asignaciones a, comentarios en, etc.)
-   * Ejemplo de un GUID encontrado al final de una dirección URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
+   * Ejemplo de GUID encontrado al final de una dirección URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
 
 Una vez que haya recopilado esta información o si necesita ayuda, llame a nuestro Equipo de Atención al Cliente al 844-306-HELP(4357) o envíe un ticket en línea.
 

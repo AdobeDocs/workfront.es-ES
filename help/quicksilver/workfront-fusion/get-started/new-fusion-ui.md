@@ -47,20 +47,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront Fusion] administrador.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront Fusion].
 
 ## Navegar [!DNL Workfront Fusion]
 
-El [!UICONTROL Organización] y [!UICONTROL Equipo] Los menús se encuentran en el panel de navegación izquierdo de Fusion. Si es un [!DNL Workfront Fusion] administrador, su [!UICONTROL Administration] también aparece aquí.
+Los menús [!UICONTROL Organización] y [!UICONTROL Equipo] se encuentran en el panel de navegación izquierdo de Fusion. Si usted es administrador de [!DNL Workfront Fusion], su menú de [!UICONTROL Administración] también aparece aquí.
 
-Para cambiar de equipo, haga clic en el nombre del equipo en la parte superior de la página y, a continuación, seleccione el equipo. El selector de equipo solo aparece en páginas específicas de un equipo, como un generador de escenarios o el [!UICONTROL Conexiones] página.
+Para cambiar de equipo, haga clic en el nombre del equipo en la parte superior de la página y, a continuación, seleccione el equipo. El selector de equipo solo aparece en páginas específicas de un equipo, como un generador de escenarios o la página [!UICONTROL Conexiones].
 
 Para cambiar de organización, haga clic en el nombre de la organización en la parte superior derecha de la pantalla y, a continuación, seleccione la organización.
 
@@ -71,10 +71,10 @@ Puede acceder a sus opciones de perfil y preferencias haciendo clic en su imagen
 En su perfil, puede ver las siguientes pestañas:
 
 * **[!UICONTROL Organizaciones]**: vea las organizaciones de Fusion a las que pertenece.
-* **[!UICONTROL Opciones de zona horaria]**: Aquí puede establecer las zonas horarias utilizadas en la interfaz de usuario de Fusion y las zonas horarias utilizadas para los escenarios individuales.
-* **[!UICONTROL API]**: aquí puede copiar los tokens de API existentes o crear otros nuevos.
+* **[!UICONTROL Opciones de zona horaria]**: aquí puede establecer las zonas horarias utilizadas en la interfaz de usuario de Fusion y las zonas horarias utilizadas para los escenarios individuales.
+* **[!UICONTROL API]**: aquí puede copiar tokens de API existentes o crear otros nuevos.
 
 
 ## Acceso a las notificaciones
 
-Para ver las notificaciones, haga clic en el icono Notificaciones ![Icono de notificaciones](assets/notifications-icon.png) cerca de la esquina superior derecha de la pantalla. Un punto rojo en el icono Notificaciones indica que tiene notificaciones o anuncios sin leer.
+Para ver las notificaciones, haga clic en el icono Notificaciones ![icono Notificaciones](assets/notifications-icon.png) cerca de la esquina superior derecha de la pantalla. Un punto rojo en el icono Notificaciones indica que tiene notificaciones o anuncios sin leer.

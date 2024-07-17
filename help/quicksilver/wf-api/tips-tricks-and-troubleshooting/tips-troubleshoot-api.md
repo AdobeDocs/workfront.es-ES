@@ -22,8 +22,8 @@ Esta sección contiene los siguientes artículos:
 
 * [Formato de dominio para llamadas a la API de Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
 * [Error de API: &quot;El servidor remoto devolvió un error: (400) Solicitud incorrecta&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
-* [Duplicados devueltos durante una búsqueda paginada grande](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
-* [Ordenar los resultados de las consultas en la API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
+* [Se devolvieron duplicados durante una búsqueda paginada grande](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
+* [Ordenando resultados de consulta en la API](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
 * [La actualización a emailAddress no actualiza el nombre de usuario](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
 * [Añada opciones avanzadas de revisión al crear una prueba a través de la API de Adobe Workfront](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * [Configuración de opciones para OPTASK copyIssue](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)

@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 21.2 Mejoras de Mobile
 
-Esta página describe todas las mejoras de Mobile realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [21.2 Información general de la versión](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página describe todas las mejoras de Mobile realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [Información general sobre la versión 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Comentarios de hoja de horas
 
@@ -56,4 +56,4 @@ Para obtener más información, consulte [Crear o editar un formulario personali
 
 Ahora puede guardar solicitudes parcialmente rellenadas como borradores en la aplicación móvil. Hemos agregado una nueva sección Borradores en el área de Solicitud para que pueda encontrar fácilmente sus borradores.
 
-Para obtener más información, consulte [Adobe Workfront para Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront para iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Para obtener más información, consulta [Adobe Workfront para Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront para iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

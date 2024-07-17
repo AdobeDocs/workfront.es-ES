@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las demás mejoras realizadas con la versión 23.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 16 de enero de 2023.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general sobre la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Presentación de la adición de Illustrator al complemento de Adobe Workfront para diseño y vídeo
 
@@ -27,13 +27,13 @@ El complemento actualizado, Adobe Workfront para diseño y vídeo, ahora admitir
 
 Este complemento le permite acceder a los detalles del elemento de trabajo, colaborar con compañeros de trabajo en el área de Actualizaciones y registrar todo el tiempo sin salir de su aplicación de Creative Cloud favorita.
 
-Descargar [Adobe Workfront para diseño y vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) en el Marketplace hoy.
+Descargue [Adobe Workfront para diseño y vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) en Marketplace hoy mismo.
 
-Los administradores también pueden [creación de un paquete con los complementos](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) desde el Admin Console e implemente a los usuarios de forma administrada o autoadministrada.
+Los administradores también pueden [crear un paquete con los complementos](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) del Admin Console e implementarlo para los usuarios de forma administrada o autoadministrada.
 
 ## La experiencia de filtrado mejorada suele estar disponible en Adobe Workfront
 
-En agosto de 2022 se publicó una actualización de la experiencia de filtro en versión beta pública de las listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [Notas de la versión de actualizaciones de aspecto y funcionamiento de 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+En agosto de 2022 se publicó una actualización de la experiencia de filtro en versión beta pública de las listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [nota de la versión de actualizaciones de aspecto y presentación de ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
 
 Como continuación rápida de la versión 23.1, la experiencia de filtrado mejorada estará disponible de forma general y se convertirá en el generador de filtros estándar en el periodo de tiempo de febrero/marzo de 2023.
 
@@ -47,15 +47,15 @@ Estas funciones solucionan los problemas relacionados con las listas de filtros 
 
 Puede seguir accediendo a los filtros heredados en las listas activándolos en el panel de filtros. Los filtros heredados quedarán obsoletos en las listas en el futuro, pero permanecerán disponibles en los informes porque los filtros mejorados no están disponibles en los informes.
 
-Para obtener más información sobre los filtros mejorados y una demostración en vídeo, consulte la [nota de la versión beta pública de filtros](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Para obtener más información sobre los filtros mejorados y ver un vídeo de demostración, consulte la [nota de la versión beta pública de los filtros](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Nueva funcionalidad de control de lista en Interfaz > Filtros, vistas y agrupaciones
 
 Se ha agregado funcionalidad de control de lista a las páginas Filtros, Vistas y Agrupaciones del área de Configuración. Aquí puede habilitar o deshabilitar filtros, vistas y agrupaciones para la plantilla de diseño.
 
-Para obtener más información, consulte [Crear, editar y compartir filtros, vistas y agrupaciones predeterminados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Para obtener más información, vea [Crear, editar y compartir filtros, vistas y agrupaciones predeterminados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## Presentación de Adobe Workfront para diseño y vídeo
 
@@ -65,9 +65,9 @@ El complemento actualizado, Adobe Workfront para diseño y vídeo, ahora admitir
 
 Este complemento le permite acceder a los detalles del elemento de trabajo, colaborar con compañeros de trabajo en el área de Actualizaciones y registrar todo el tiempo sin salir de su aplicación de Creative Cloud favorita.
 
-Descargar [Adobe Workfront para diseño y vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) en el mercado hoy.
+Descargue [Adobe Workfront para diseño y vídeo](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) en el mercado hoy mismo.
 
-Los administradores también pueden [creación de un paquete con los complementos](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) desde el Admin Console e implemente a los usuarios de forma administrada o autoadministrada.
+Los administradores también pueden [crear un paquete con los complementos](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) del Admin Console e implementarlo para los usuarios de forma administrada o autoadministrada.
 
 ## Cómo acceder a la ayuda de Workfront para clientes con experiencia unificada de Adobe
 
@@ -96,4 +96,4 @@ Las opciones para cambiar el nombre de un pin y eliminar un pin aparecen en un m
 
 Para obtener más información, consulte [Anclar páginas para personalizar el espacio de trabajo](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412389/){target=_blank}

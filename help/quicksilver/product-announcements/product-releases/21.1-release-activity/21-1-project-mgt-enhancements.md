@@ -19,21 +19,21 @@ ht-degree: 1%
 
 Esta página describe todas las mejoras realizadas en Administración de proyectos con la versión 21.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 15 de febrero de 2021.
 
-Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general de la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general sobre la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## La exportación ya está disponible en la sección de Métricas de un proyecto
 
 Para compartir más fácilmente el estado y el progreso de un proyecto, ahora puede exportar todo el tablero de la sección Métricas de un proyecto a un archivo .png.
 
-Para obtener más información, consulte [Resumen de las métricas del proyecto](../../../manage-work/projects/manage-projects/project-metrics.md).
+Para obtener más información, vea [Información general sobre las métricas del proyecto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del planificador para la nueva experiencia de Workfront, parte 3: Administración de un proyecto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos del planificador para la nueva experiencia de Workfront, Parte 3: Administrar un proyecto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) ruta de aprendizaje en Workfront One.
 
 ## Actualizar el porcentaje completado del problema cuando el proyecto o la tarea se convirtieron a partir de la actualización del problema
 
 Hemos actualizado el modo en que funciona el porcentaje completado de problemas para problemas que se han convertido en proyectos o tareas. Con la nueva funcionalidad, cuando un problema se convierte en una tarea o un proyecto, el porcentaje completado del problema se actualiza de forma sincronizada con el porcentaje completado de la tarea o el proyecto de resolución cuando la configuración &quot;Actualizar automáticamente el estado del problema solucionable cuando cambia el estado del objeto de resolución&quot; está habilitada desde la configuración.
 
-Para obtener información sobre la conversión de problemas, consulte [Información general sobre la resolución y los objetos solucionables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Para obtener información acerca de la conversión de problemas, vea [Información general sobre la resolución y los objetos solucionables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Nueva lista de solicitudes enviadas
 
@@ -41,9 +41,9 @@ Para permitirle administrar sus Solicitudes enviadas de una manera más fácil y
 
 Para obtener información sobre cómo localizar las solicitudes enviadas, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del colaborador para la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de Collaborator para la nueva ruta de aprendizaje de Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) en Workfront One.
 
-Esta función ahora se incluye en la [Solicitudes en la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Solicitudes en la nueva ruta de aprendizaje de la experiencia Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) en Workfront One.
 
 ## Campos eliminados de la página Nueva solicitud
 
@@ -65,7 +65,7 @@ Los siguientes Campos de nuevos problemas solo se muestran al crear un problema 
 
 Hemos reemplazado los campos Asignado a, Rol y Equipo con el nuevo campo Asignaciones en la página Nueva solicitud para designar de forma eficaz un usuario, rol o equipo en un campo común al enviar una nueva solicitud.
 
-Para obtener información sobre la definición de nuevos campos de problema para un proyecto, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener información acerca de cómo definir nuevos campos de problema para un proyecto, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Nueva experiencia al enviar solicitudes en el área de solicitudes
 
@@ -81,7 +81,7 @@ Para mantener la coherencia con la nueva experiencia de Workfront y aumentar la 
 
 Posibilidad de compartir un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola al introducir la solicitud.
 
-Para obtener información sobre el envío de solicitudes, consulte [Creación y envío de solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Compartir un vínculo a una cola de solicitudes al enviar una solicitud
 
@@ -93,7 +93,7 @@ Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de
 
 Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel.
 
-Para obtener información sobre cómo compartir un vínculo a una cola de solicitudes al enviar una solicitud, consulte [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Para obtener información sobre cómo compartir un vínculo a una cola de solicitudes al enviar una solicitud, vea [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Busque un grupo que desee asignar a un proyecto y vea sus detalles
 
@@ -105,7 +105,7 @@ Según los detalles configurados para el grupo, también puede ver el coordinado
 
 Con esta información, puede estar seguro de que está seleccionando el grupo correcto para asignarlo al proyecto.
 
-Para obtener más información, consulte [Administrar información en el área de Información general del proyecto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+Para obtener más información, vea [Administrar información en el área Información general del proyecto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
 ## Informe Nueva delegación de usuario
 
@@ -115,4 +115,4 @@ Anteriormente, la información de las delegaciones de tareas, problemas y aproba
 * Qué usuario ha delegado estas aprobaciones
 * La fecha de inicio y finalización de estas delegaciones
 
-Para obtener más información, consulte [Creación de un informe de delegación de usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).
+Para obtener más información, consulte [Crear un informe de delegación de usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).

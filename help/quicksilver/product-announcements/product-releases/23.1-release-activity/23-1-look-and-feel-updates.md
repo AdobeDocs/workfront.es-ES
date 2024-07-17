@@ -17,7 +17,7 @@ ht-degree: 3%
 
 En esta página se describen actualizaciones menores del aspecto y la presentación de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión 23.1. Estas mejoras estarán disponibles en el entorno de producción al menos 2 semanas después del lanzamiento a Vista previa.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general sobre la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Se han actualizado las listas en el área Configuración > Interfaz
 
@@ -83,7 +83,7 @@ Hay información de usuario adicional que se muestra cuando se agregan usuarios 
 
 Ahora, cuando agregue un usuario a los campos de usuario enumerados arriba, además del nombre y el avatar del usuario, también se mostrarán su función principal y su correo electrónico. Esto ayuda a distinguir entre varios usuarios con nombres similares o idénticos.
 
-Para obtener más información y ver un vídeo de demostración de una función similar, consulte &quot;Selección inteligente de usuarios para funciones de proyecto en las áreas de Edición y Detalles&quot; en [22.4 Mejoras del proyecto](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Para obtener más información y ver una demostración en vídeo de una característica similar, vea &quot;Selección inteligente de usuarios para las funciones de proyecto en las áreas Editar y Detalles&quot; en [Mejoras de proyecto de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Actualizaciones de aspecto y funcionamiento en la página Notificaciones
 
@@ -99,7 +99,7 @@ La experiencia del filtro beta se agregó a las listas de proyectos, tareas y pr
 
 Esta página registra cuándo se añaden los nuevos filtros a otras áreas de la aplicación Adobe Workfront durante el periodo de tiempo de la versión 23.1.
 
-Para obtener información sobre cómo utilizar los nuevos filtros, consulte [Creación o edición de filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Para obtener información sobre cómo usar los nuevos filtros, consulte [Crear o editar filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ### Listas actualizadas con los nuevos filtros
 

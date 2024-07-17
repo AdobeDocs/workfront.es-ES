@@ -34,15 +34,15 @@ Debe tener lo siguiente:
    </td>
   </tr>
   <tr>
-   <td><strong>Licencias de Adobe Workfront*</strong>
+   <td><strong>licencias de Adobe Workfront*</strong>
    </td>
    <td>Solicitud o superior
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong>Producto</strong>
    </td>
-   <td><p>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials, y se le debe añadir al producto como usuario en el Admin Console.</p><p>Debe tener acceso de escritura al repositorio en Adobe Experience Manager.</p>
+   <td><p>Debe tener Assets Essentials as a Cloud Service de Experience Manager Assets y se le debe agregar al producto como usuario en el Admin Console.</p><p>Debe tener acceso de escritura al repositorio en Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ Debe tener lo siguiente:
    </td>
    <td>Editar acceso a documentos
 <p>
-<strong>Nota: </strong>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <strong>Crear o modificar niveles de acceso personalizados</strong>.
+<strong>Nota: </strong>Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <strong>Crear o modificar niveles de acceso personalizados</strong>.
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Debe tener lo siguiente:
    </td>
    <td>Administrar el acceso o superior en el proyecto 
 <p>
-Para obtener información sobre cómo solicitar acceso adicional, consulte <strong>Solicitud de acceso a objetos </strong>.
+Para obtener información sobre cómo solicitar acceso adicional, vea <strong>Solicitar acceso a los objetos </strong>.
    </td>
   </tr>
 </table>
@@ -67,23 +67,23 @@ Para obtener información sobre cómo solicitar acceso adicional, consulte <stro
 
 Antes de empezar,
 
-* El administrador de Workfront debe configurar los flujos de trabajo en una integración de Adobe Experience Manager. Para obtener más información, consulte [Configuración de la integración as a Cloud Service de Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* El administrador de Workfront debe configurar los flujos de trabajo en una integración de Adobe Experience Manager. Para obtener más información, consulte [Configuración de la as a Cloud Service de Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
 ## Adición de un flujo de trabajo a una plantilla
 
 Puede agregar un flujo de trabajo a una plantilla de proyecto. El flujo de trabajo se aplicará a cualquier proyecto creado a partir de la plantilla.
 
-1. Abra una plantilla haciendo clic en **Plantillas** en el menú principal y, a continuación, seleccione la plantilla en la lista.
-1. Clic **Experience Manager Assets** en el panel de navegación izquierdo.
+1. Para abrir una plantilla, haga clic en **Plantillas** en el menú principal y seleccione la plantilla en la lista.
+1. Haga clic en **Experience Manager Assets** en el panel de navegación izquierdo.
 
    >[!NOTE]
    >
    >Si la sección Experience Manager Assets no está visible en el panel de navegación izquierdo, el administrador de Workfront no ha habilitado flujos de trabajo para su organización. <!--Is this right?-->
 
-1. En el **Seleccione un campo Integration for automated workflows**, seleccione la integración con los flujos de trabajo que desee utilizar para los proyectos creados a partir de esta plantilla.
+1. En el campo **Seleccionar una integración para flujos de trabajo automatizados**, seleccione la integración con los flujos de trabajo que desee utilizar para los proyectos creados a partir de esta plantilla.
 1. (Opcional) Edite los valores de flujo de trabajo que desee aplicar a los proyectos creados a partir de esta plantilla.
 
-   Para obtener instrucciones sobre flujos de trabajo específicos, consulte [Edición de valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project) en este artículo.
+   Para obtener instrucciones sobre flujos de trabajo específicos, consulte [Editar valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project) en este artículo.
 
    Solo los flujos de trabajo que se han activado en el área de Experience Manager de la configuración están disponibles en las plantillas o proyectos.
 
@@ -97,10 +97,10 @@ Puede agregar un flujo de trabajo al crear un proyecto o agregar un flujo de tra
 
 1. Empiece a crear un proyecto.
 
-   Para obtener instrucciones, consulte [Creación de un proyecto con una plantilla](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   Para obtener instrucciones, vea [Crear un proyecto con una plantilla](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. Al seleccionar una plantilla para el proyecto, seleccione la plantilla que contiene los flujos de trabajo que desea utilizar para este proyecto.
-1. (Opcional) Edite los valores de flujo de trabajo del proyecto, tal como se describe en [Edición de valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project).
+1. (Opcional) Edite cualquier valor de flujo de trabajo del proyecto, tal como se describe en [Editar valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project).
 
    Solo los flujos de trabajo que se han activado en el área de Experience Manager de la configuración están disponibles en las plantillas o proyectos.
 
@@ -113,10 +113,10 @@ Puede agregar un flujo de trabajo al crear un proyecto o agregar un flujo de tra
 
 1. Comience a añadir una plantilla al proyecto.
 
-   Para obtener instrucciones, consulte [Adjuntar una plantilla a un proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   Para obtener instrucciones, vea [Adjuntar una plantilla a un proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 1. Al seleccionar una plantilla para el proyecto, seleccione la plantilla que contiene los flujos de trabajo que desea utilizar para este proyecto.
-1. (Opcional) Edite los valores de flujo de trabajo del proyecto, tal como se describe en [Edición de valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project).
+1. (Opcional) Edite cualquier valor de flujo de trabajo del proyecto, tal como se describe en [Editar valores de flujo de trabajo en un proyecto](#edit-workflow-values-in-a-project).
 
    Solo los flujos de trabajo que se han activado en el área de Experience Manager de la configuración están disponibles en las plantillas o proyectos.
 
@@ -147,30 +147,30 @@ Todos los valores de flujo de trabajo se encuentran en:
 Para editar el flujo de trabajo de las carpetas vinculadas:
 
 
-1. Alternar el **[!UICONTROL Crear carpeta vinculada]** active o desactive según desee. Si lo activa, puede editar la configuración de la carpeta vinculada.
+1. Activa o desactiva **[!UICONTROL Crear carpeta vinculada]** según quieras. Si lo activa, puede editar la configuración de la carpeta vinculada.
 
-   Para obtener más información sobre la configuración de la carpeta vinculada, consulte [Crear carpetas vinculadas de Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) en el artículo [Configure las variables [!UICONTROL Experience Manager Assets as a Cloud Service] integración](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   Para obtener más información sobre la configuración de las carpetas vinculadas, consulte [Crear carpetas vinculadas de Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) en el artículo [Configurar la integración de [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-1. (Opcional) Si desea que el árbol de carpetas se cree únicamente si determinados valores están presentes en un formulario personalizado adjunto al proyecto, haga clic en **Aplicar filtro** para ese árbol de carpetas, seleccione el formulario personalizado que contiene el campo, el campo y el valor del campo. Si el campo del formulario personalizado adjunto al nuevo proyecto contiene el valor elegido, se crea el árbol de carpetas.
+1. (Opcional) Si desea que el árbol de carpetas se genere solamente si ciertos valores están presentes en un formulario personalizado adjunto al proyecto, haga clic en el **Aplicar filtro** para ese árbol de carpetas y, a continuación, seleccione el formulario personalizado que contiene el campo, el campo y el valor del campo. Si el campo del formulario personalizado adjunto al nuevo proyecto contiene el valor elegido, se crea el árbol de carpetas.
 1. (Opcional) Al configurar los nombres de las carpetas, puede seleccionar las siguientes opciones:
 
    * **Nombre**: escriba un nombre para la carpeta.
 
    * **Datos de objeto**: seleccione el origen del nombre de la carpeta, como Nombre del proyecto.
 
-   * **Datos de formulario personalizados**: seleccione los datos del formulario personalizado que se utilizarán como nombre de la carpeta.
+   * **Datos de formulario personalizados**: seleccione los datos de formulario personalizados que se usarán como nombre de carpeta.
 
      El uso de datos de formulario personalizados para nombres de carpeta solo está disponible en el nivel de plantilla y no se puede configurar en el nivel de integración.
 
      Si el nombre de una carpeta se establece en datos personalizados que no existen en el formulario personalizado adjunto al proyecto, se asigna un ID aleatorio como nombre de la carpeta.
 
-1. Para ver el árbol de carpetas, haga clic en **Previsualizar** ![Icono de previsualización](assets/preview-icon.png) icono
+1. Para ver el árbol de carpetas, haga clic en el icono **Vista previa** ![Icono de vista previa](assets/preview-icon.png)
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 #### Publicación de recursos
 
 Para editar el flujo de trabajo para publicar recursos:
 
-1. Alternar **Publicar recursos automáticamente** active o desactive según desee.
+1. Activar o desactivar **recursos de Publish automáticamente** según lo desee.
 1. (Condicional) Si está habilitando la publicación, seleccione si desea publicarla en el servicio de publicación, en el portal de marca o en ambos.
 1. Haga clic en **[!UICONTROL Guardar]**.

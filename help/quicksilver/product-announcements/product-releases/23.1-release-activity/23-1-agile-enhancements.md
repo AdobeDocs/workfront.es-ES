@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Agile realizadas con la versión 23.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 16 de enero de 2023.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general sobre la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Planificación de Scrum para tableros de Workfront
 
@@ -43,7 +43,7 @@ La fecha de vencimiento en las tarjetas conectadas y en las tarjetas ad hoc ahor
 
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Los elementos de la lista de comprobación de tableros y las subtareas de Workfront ahora están vinculados
 
@@ -57,7 +57,7 @@ Anteriormente, los elementos de la lista de comprobación y las subtareas no est
 
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) y [Administrar elementos de listas de comprobación en tarjetas](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Contador de tarjetas en columnas del tablero
 
@@ -77,7 +77,7 @@ Para obtener más información, consulte [Administrar columnas del tablero](/hel
 
 Ahora puede ordenar el tablero por nombre o fecha del tablero y buscar un tablero específico en la lista.
 
-Para obtener más información, consulte [Uso del tablero de mandos](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+Para obtener más información, consulte [Usar el tablero de tableros](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
 
 ## El estado se muestra en la tarjeta
 
@@ -87,7 +87,7 @@ Para obtener más información, consulte [Uso del tablero de mandos](/help/quick
 
 Si se asigna un estado a una tarjeta de un tablero, el estado ahora se muestra en la tarjeta para que no tenga que abrirla para ver su estado. Esta mejora se aplica tanto a tarjetas ad hoc como a tarjetas conectadas.
 
-Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) y [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) y [Agregar una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 ![estado en la tarjeta](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
@@ -109,7 +109,7 @@ Puede copiar la dirección URL completa y enviarla a otra persona. Irán directa
 
 Anteriormente, los vínculos estaban disponibles para tableros, pero no para tarjetas específicas.
 
-Para obtener información sobre las tarjetas, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obtener información sobre las tarjetas, consulte [Agregar una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filtrar por conexión en tableros
 
@@ -119,9 +119,9 @@ Para obtener información sobre las tarjetas, consulte [Añadir una tarjeta ad h
 
 La lista de filtros de un tablero ahora incluye la opción de filtrar por conexión, que muestra todas las tarjetas conectadas para un proyecto específico. También puede filtrar por tarjetas que no estén conectadas.
 
-Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Para obtener más información, vea [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Archivar tarjetas de un tablero en una programación
 
@@ -133,6 +133,6 @@ Puede configurar un tablero para que se archiven las tarjetas o &quot;se caigan&
 
 Si desea volver a mostrar las tarjetas después de que se caigan del tablero, puede definir el filtro del tablero para que muestre las tarjetas archivadas.
 
-Para obtener más información, consulte [Configurar la caída de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Para obtener más información, consulte [Configurar la caída de la tarjeta](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412323/){target=_blank}

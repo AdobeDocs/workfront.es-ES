@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página proporciona información sobre la funcionalidad de Adobe Workfront Proof que se lanza al entorno de producción dentro del periodo de tiempo de la versión 23.3.
 
-Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de la versión 23.3, consulte [Descripción general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -27,7 +27,7 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -55,7 +55,7 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Cambio de la compatibilidad con pruebas de Microsoft Office</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Cambiando la compatibilidad con las pruebas de Microsoft Office</a></p>
                         <p>Para mantener una solución de procesamiento de pruebas sólida y escalable, estamos cambiando los tipos de archivo compatibles de Microsoft Office y los límites de tamaño de archivo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -72,7 +72,7 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Actualización del Visor de corrección de escritorio</a></p>
-                        <p>El Visor de corrección de escritorio se ha actualizado a la versión 2.1.24. Esta actualización incluye compatibilidad con Chrome v100 para revisar pruebas interactivas, así como una serie de correcciones de problemas.</p>
+                        <p>El Visor de corrección de escritorio se ha actualizado a la versión 2.1.24. Esta actualización incluye la compatibilidad con Chrome v100 para revisar pruebas interactivas, así como una serie de correcciones de problemas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                      <p>

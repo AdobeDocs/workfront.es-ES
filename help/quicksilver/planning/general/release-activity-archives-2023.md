@@ -26,12 +26,12 @@ ht-degree: 0%
 >
 >El representante de cuentas le informará si forma parte de esta fase.
 >
->Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+>Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
 Este artículo enumera las funciones que se han lanzado después del lanzamiento del programa de Adobe Workfront Planning, el 22 de mayo de 2023 para el año 2023.
 
-Para obtener información sobre las funciones lanzadas durante 2024, consulte [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+Para obtener información acerca de las características lanzadas durante 2024, consulte [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más recientes primero. Los clientes que participan en el programa de Workfront Planning pueden acceder a todas las funciones de sus entornos de producción.
 
@@ -45,7 +45,7 @@ Workfront Planning se ha eliminado temporalmente de los entornos Vista previa y 
 
 Previsualización y producción: 27 de diciembre de 2023
 
-Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de escala de tiempo. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de escala de tiempo. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del 18 de diciembre de 2023
 
@@ -69,7 +69,7 @@ Ahora puede colaborar con otros en registros individuales agregando comentarios 
 
 Los registros de experiencia de comentarios para las capacidades de planificación coinciden con la nueva experiencia de comentarios para los objetos de Workfront.
 
-Para obtener más información, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+Para obtener más información, vea [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ### Conector de Workfront Planning para Adobe Workfront Fusion
 
@@ -79,7 +79,7 @@ Producción: 21 de diciembre de 2023
 >
 >Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con las funciones de Adobe Workfront Planning.
 >
->Para obtener más información, consulte [Información general sobre Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Para obtener más información, consulte [Información general de Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de planificación. Con la nueva conexión Fusion, puede:
 
@@ -125,7 +125,7 @@ Con esta mejora, observe lo siguiente:
 
 * Todas las vistas de tabla de un tipo de registro tienen el mismo campo principal que seleccione.
 
-Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ### Conexión de registros de capacidad de planificación con Adobe Experience Manager Assets
 
@@ -137,7 +137,7 @@ Versión de producción: 21 de diciembre de 2023
 >
 >La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de capacidades de Adobe Workfront Planning a Adobe Experience Manager Assets.
 >
->Si tiene alguna pregunta acerca de la incorporación a Adobe Admin Console, consulte la [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Si tiene preguntas acerca de la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Ahora puede establecer una conexión entre los tipos de registro de las capacidades de Adobe Workfront Planning y Adobe Experience Manager Assets.
 
@@ -153,7 +153,7 @@ Después de establecer la conexión, esta actualización incluye las siguientes 
 
 * Puede hacer clic en el nombre del recurso en la vista de tabla del registro de capacidad de planificación desde el campo de registro conectado y ver una ventana emergente con la miniatura del recurso y varios campos clave. En la ventana emergente, puede navegar hasta el visualizador de recursos en Experience Manager y ver todos los detalles sobre él.
 
-Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semana del 4 de diciembre de 2023
 
@@ -174,9 +174,9 @@ Tenga en cuenta lo siguiente:
 
 * No se pueden copiar y pegar valores de campo para campos que se muestran en el área Detalles de un registro.
 
-Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-Para obtener información sobre los campos vinculados, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener información acerca de los campos vinculados, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semana del 27 de noviembre de 2023
 
@@ -200,7 +200,7 @@ Tenga en cuenta lo siguiente:
 
    * Campos vinculados creados como resultado de la conexión de registros
 
-Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ## Semana del 6 de noviembre de 2023
 
@@ -208,9 +208,9 @@ Para obtener más información, consulte [Edición de registros](/help/quicksilv
 
 Previsualización y producción: 7 de noviembre de 2023
 
-Ahora puede agrupar registros en la vista de tabla de una página de tipo de registro. Puede agrupar por tres campos únicos en la interfaz de capacidad de planificación<!--checking into this for now: and by four fields when using the API-->.
+Ahora puede agrupar registros en la vista de tabla de una página de tipo de registro. Puede agrupar por tres campos únicos en la interfaz de capacidad de planificación <!--checking into this for now: and by four fields when using the API-->.
 
-Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 30 de octubre de 2023
 
@@ -230,7 +230,7 @@ Hemos introducido los siguientes tipos de campos para los registros de capacidad
 
 Los valores de campo de los campos creados a partir de estos tipos de campo son de solo lectura y capturan el nombre del usuario que creó o modificó por última vez un registro, o la fecha en la que se creó o modificó por última vez el registro.
 
-Para obtener más información, consulte [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ### Navegar a objetos de Workfront desde un registro de funciones de planificación
 
@@ -266,13 +266,13 @@ Para obtener más información, consulte [Conectar registros](/help/quicksilver/
 
 Previsualización y producción: 16 de octubre de 2023
 
-Ahora puede agregar un campo de tipo Personas a los tipos de registro de capacidades de planificación. Puede utilizar campos de tipo Personas para asociar usuarios existentes con un registro. Para obtener más información, consulte [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+Ahora puede agregar un campo de tipo Personas a los tipos de registro de capacidades de planificación. Puede utilizar campos de tipo Personas para asociar usuarios existentes con un registro. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ### Texto enriquecido: formato para campos de párrafo
 
 Previsualización y producción: 16 de octubre de 2023
 
-Se han agregado controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página de registro. Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Se han agregado controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página de registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 
 ### Registrar y agrupar códigos de color para la vista Cronología
@@ -301,7 +301,7 @@ Las siguientes son opciones para los colores que puede elegir mostrar para las b
 
 Al hacer coincidir colores con un campo determinado, solo puede seleccionar campos con opciones codificadas por colores.
 
-Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del 9 de octubre de 2023
 
@@ -309,7 +309,7 @@ Para obtener más información, consulte [Administrar la vista de cronología](/
 
 Previsualización y producción: 9 de octubre de 2023
 
-Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 18 de septiembre de 2023
 
@@ -317,7 +317,7 @@ Ahora puede buscar una palabra clave para encontrar rápidamente un registro en 
 
 Previsualización y producción: 20 de septiembre de 2023
 
-Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro. Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 4 de septiembre de 2023
 
@@ -358,7 +358,7 @@ Para mostrar la información correcta en un conjunto determinado de registros, e
 
 Puede ocultar o mostrar campos individuales de cada encabezado de las columnas de campo, o bien puede administrar todos los campos del tipo de registro desde una configuración de la barra de herramientas de la vista de tabla.
 
-Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 21 de agosto de 2023
 

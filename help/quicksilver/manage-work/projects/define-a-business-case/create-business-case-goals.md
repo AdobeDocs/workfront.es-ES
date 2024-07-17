@@ -22,12 +22,12 @@ Como parte del caso empresarial, puede crear un conjunto de metas para definir l
 
 >[!TIP]
 >
->Puede crear objetivos estratégicos para su organización que no estén conectados al caso empresarial individual de un proyecto. Debe tener acceso a las metas de Adobe Workfront para poder crear metas estratégicas. A continuación, puede conectarlos con proyectos fuera de sus casos comerciales. Para obtener información sobre la creación de objetivos con Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>Puede crear objetivos estratégicos para su organización que no estén conectados al caso empresarial individual de un proyecto. Debe tener acceso a las metas de Adobe Workfront para poder crear metas estratégicas. A continuación, puede conectarlos con proyectos fuera de sus casos comerciales. Para obtener información sobre cómo crear metas con Workfront Goals, consulta [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Tenga en cuenta lo siguiente al crear objetivos de caso empresarial para sus proyectos:
 
 * Los objetivos del caso empresarial son específicos del proyecto. No puede copiar metas de un proyecto a otro ni establecerlas en el sistema. Deben definirse al nivel de cada proyecto.
-* El administrador de Adobe Workfront o del grupo debe habilitar la sección Objetivos para sus proyectos antes de que se muestre en el caso empresarial de sus proyectos. Para obtener información sobre cómo habilitar los campos de caso empresarial para los proyectos, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* El administrador de Adobe Workfront o del grupo debe habilitar la sección Objetivos para sus proyectos antes de que se muestre en el caso empresarial de sus proyectos. Para obtener información acerca de cómo habilitar los campos de caso empresarial para los proyectos, vea [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Los objetivos no son una sección obligatoria en el caso comercial de un proyecto.
 
@@ -57,34 +57,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos o superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos o superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Agregar una meta al caso comercial de un proyecto
 
 1. Vaya a un proyecto para el cual desee definir los objetivos del caso empresarial.
-1. Clic **Caso comercial en el panel izquierdo.**
+1. Haga clic en **Caso comercial en el panel izquierdo.**
 
    Se muestra el caso comercial.
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. En el **Metas** , haga clic en **Editar metas**.
+1. En la sección **Metas**, haga clic en **Editar metas**.
 
 1. Especifique sus objetivos.
-En el **Importancia** , seleccione el nivel de importancia que desee:
+En el menú desplegable **Importancia**, seleccione el nivel de importancia:
 
    * Máximo
    * Alto
-   * Medio
+   * Media
    * Bajo
    * Mínimo
 
@@ -92,5 +92,5 @@ En el **Importancia** , seleccione el nivel de importancia que desee:
 
      No puede personalizar los niveles de importancia de los objetivos.
 
-1. (Opcional) Para agregar otra meta, haga clic en **Agregar otra meta** y repita los pasos 5 y 6.
-1. Clic **Guardar**.
+1. (Opcional) Para agregar otra meta, haga clic en **Agregar otra meta** y repita los pasos 5 y 6.
+1. Haga clic en **Guardar**.

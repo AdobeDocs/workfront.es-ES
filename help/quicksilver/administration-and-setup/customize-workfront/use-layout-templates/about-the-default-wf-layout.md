@@ -24,7 +24,7 @@ Para obtener información sobre cómo un administrador de Workfront puede modifi
 
 >[!NOTE]
 >
->Los usuarios pueden cambiar su propio diseño editando sus preferencias de perfil de usuario. Para obtener más información, consulte la [Preferencias](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) sección en [Configurar mis ajustes](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Los usuarios pueden cambiar su propio diseño editando sus preferencias de perfil de usuario. Para obtener más información, consulte la sección [Preferencias](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) en [Configurar mis opciones](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Diseños predeterminados para cada nivel de acceso
 
@@ -57,8 +57,8 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
   <tr> 
    <td rowspan="2"><strong>Proyectos</strong> </td> 
    <td><strong>Proyectos</strong> </td> 
-   <td>✔ <br>(Área de aterrizaje predeterminada)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Área de aterrizaje predeterminada)</td> 
+   <td>✔ <br>(área de aterrizaje predeterminada)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br> (área de aterrizaje predeterminada)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -102,7 +102,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>People</strong> (cambiado a <strong>Equipos</strong> para usuarios con una licencia de trabajo)</td> 
+   <td rowspan="5"><strong>Personas</strong> (se cambió el nombre a <strong>Equipos</strong> para los usuarios con licencia de trabajo)</td> 
    <td><strong>Equipos</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -112,7 +112,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>People</strong> </td> 
+   <td><strong>Personas</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -164,8 +164,8 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>(Área de aterrizaje predeterminada)</td> 
-   <td>✔ <br>(Área de aterrizaje predeterminada)</td> 
+   <td>✔ <br>(área de aterrizaje predeterminada)</td> 
+   <td>✔ <br>(área de aterrizaje predeterminada)</td> 
   </tr> 
   <tr> 
    <td><strong>Todas las solicitudes</strong> </td> 
@@ -187,7 +187,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Hojas de horas que apruebo</strong> </td> 
+   <td><strong>Hojas De Horas Que Apruebo</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 

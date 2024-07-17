@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: Añadir un correo electrónico de Outlook como tarea a la lista de trabajo
-description: Puede convertir [!DNL Outlook] correos electrónicos a [!DNL Adobe Workfront] tareas. Después de convertir un correo electrónico, la tarea está disponible en la lista de trabajo del área principal.
+title: Agregar un correo electrónico de Outlook como tarea a su lista de trabajos
+description: Puede convertir [!DNL Outlook] correos electrónicos en [!DNL Adobe Workfront] tareas. Después de convertir un correo electrónico, la tarea está disponible en la Lista de trabajos en el área de Inicio.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Agregue un [!DNL Outlook] enviar correo electrónico como tarea a la lista de trabajo
+# Agregar un correo electrónico [!DNL Outlook] como tarea a su lista de trabajos
 
-Puede convertir [!DNL Outlook] correos electrónicos a [!DNL Adobe Workfront] tareas. Después de convertir un correo electrónico, la tarea está disponible en el [!UICONTROL Trabajo] Haga clic en [!UICONTROL Página principal] .
+Puede convertir [!DNL Outlook] correos electrónicos en [!DNL Adobe Workfront] tareas. Después de convertir un correo electrónico, la tarea estará disponible en su lista de [!UICONTROL Trabajar] en el área de [!UICONTROL Inicio].
 
 ## Requisitos de acceso
 
@@ -31,39 +31,39 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
-Su [!DNL Workfront] el administrador debe habilitar [!DNL Outlook for Office] con [!DNL Workfront] antes de poder utilizar esta integración.
+El administrador de [!DNL Workfront] debe habilitar [!DNL Outlook for Office] con [!DNL Workfront] para poder usar esta integración.
 
-## Agregue un [!DNL Outlook] enviar correo electrónico como tarea a la lista de trabajo
+## Agregar un correo electrónico [!DNL Outlook] como tarea a su lista de trabajos
 
-1. Seleccione el correo electrónico en [!DNL Outlook] que desea convertir en una tarea.
-1. Haga clic en el **[!DNL Workfront]** en la esquina superior derecha del mensaje de correo electrónico para mostrar la variable [!DNL Workfront] complemento.\
-   Es posible que tenga que hacer clic en la flecha hacia abajo situada en la parte superior derecha del correo electrónico para acceder a la [!DNL Workfront] icono.
+1. Seleccione el correo electrónico de [!DNL Outlook] que desea convertir en una tarea.
+1. Haga clic en el icono **[!DNL Workfront]** en la esquina superior derecha del mensaje de correo electrónico para mostrar el complemento [!DNL Workfront].\
+   Es posible que deba hacer clic en la flecha hacia abajo situada en la parte superior derecha del correo electrónico para acceder al icono [!DNL Workfront].
 
-1. Haga clic en el **[!UICONTROL Menú]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) para mostrar la lista de [!DNL Workfront] opciones.\
+1. Haga clic en el icono **[!UICONTROL Menú]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) para mostrar la lista de las opciones de [!DNL Workfront] disponibles.\
 
 
-1. Haga clic en **[!UICONTROL Agregar a trabajo]**.\
+1. Haga clic en **[!UICONTROL Agregar al trabajo]**.\
 
-1. Anule la selección de **[!UICONTROL Agregar a proyecto]** campo .
-1. (Opcional) Puede actualizar la siguiente información del correo electrónico antes de guardarla como tarea:
+1. Anule la selección del campo **[!UICONTROL Agregar al proyecto]**.
+1. (Opcional) Puede actualizar la siguiente información del correo electrónico antes de guardarlo como una tarea:
 
-   * **[!UICONTROL Nombre de la tarea]:** De forma predeterminada, el nombre de la tarea es el mismo que el asunto del correo electrónico. Puede modificar el nombre de la tarea como desee.
+   * **[!UICONTROL Nombre de tarea]:** De forma predeterminada, el nombre de tarea es el mismo que el Asunto del correo electrónico. Puede modificar el nombre de la tarea como desee.
    * **[!UICONTROL Descripción]:** De forma predeterminada, la descripción es la misma que el cuerpo del correo electrónico. Puede modificar la descripción como desee.
-   * **[!UICONTROL Archivos adjuntos]:** Los archivos adjuntos de correo electrónico se guardan en la variable [!UICONTROL Documentos] del área de la tarea. Puede eliminar los archivos adjuntos antes de guardar el correo electrónico como una tarea.
+   * **[!UICONTROL Archivos adjuntos]:** Los archivos adjuntos de los mensajes de correo electrónico se guardarán en el área de [!UICONTROL Documentos] de la tarea. Puede eliminar los archivos adjuntos antes de guardar el correo electrónico como una tarea.
 
 1. Haga clic en **[!UICONTROL Agregar]**.\
-   La tarea se agrega al [!UICONTROL Lista de trabajo] en su área de inicio sin fecha de confirmación.
+   La tarea se agrega a la [!UICONTROL Lista de trabajos] en su área de Inicio sin fecha de confirmación.
 
-1. (Opcional) Haga clic en **[!UICONTROL Ver en Workfront]** para mostrar la tarea dentro de la variable [!DNL Workfront] en una pestaña nueva.
+1. (Opcional) Haga clic en **[!UICONTROL Ver en Workfront]** para mostrar la tarea dentro de la aplicación [!DNL Workfront] en una nueva pestaña.
 
-1. (Opcional) Vuelva a [!DNL Outlook]y seleccione el correo electrónico original.\
-   En la parte superior del [!DNL Workfront] panel de complementos, observe la confirmación con un vínculo de que el correo electrónico se ha agregado a Workfront como tarea. El vínculo incluye la fecha en la que se convirtió.\
+1. (Opcional) Vuelva a [!DNL Outlook] y seleccione el correo electrónico original.\
+   En la parte superior del panel del complemento [!DNL Workfront], observe la confirmación con un vínculo de que el correo electrónico se agregó a Workfront como una tarea. El vínculo incluye la fecha en la que se convirtió.\

@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: HTTP &gt; Otros módulos
-description: El [!DNL Adobe Workfront Fusion] La aplicación HTTP proporciona varios módulos de comunicación basados en el protocolo HTTP (Protocolo de transferencia de hipertexto). HTTP es la base de la comunicación de datos para el World Wide Web. Puede utilizar los módulos para descargar páginas web y archivos, llamar a enlaces web y extremos de API, etc.
+description: La aplicación HTTP  [!DNL Adobe Workfront Fusion] proporciona varios módulos de comunicación basados en el protocolo HTTP (Protocolo de transferencia de hipertexto). HTTP es la base de la comunicación de datos para el World Wide Web. Puede utilizar los módulos para descargar páginas web y archivos, llamar a enlaces web y extremos de API, etc.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] requiere un [!UICONTROL Adobe Workfront Fusion] además de una licencia de [!UICONTROL Adobe Workfront] licencia.
+>[!UICONTROL Adobe Workfront Fusion] requiere una licencia de [!UICONTROL Adobe Workfront Fusion] además de una licencia de [!UICONTROL Adobe Workfront].
 
-El [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] La aplicación proporciona varios módulos de comunicación basados en el protocolo HTTP (Protocolo de transferencia de hipertexto). HTTP es la base de la comunicación de datos para el World Wide Web. Puede utilizar los módulos para descargar páginas web y archivos, llamar a enlaces web y extremos de API, etc.
+La aplicación [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] proporciona varios módulos de comunicación basados en el protocolo HTTP (Protocolo de transferencia de hipertexto). HTTP es la base de la comunicación de datos para el World Wide Web. Puede utilizar los módulos para descargar páginas web y archivos, llamar a enlaces web y extremos de API, etc.
 
 La elección correcta del módulo depende del mecanismo de autenticación/autorización que utilice el recurso al que desee acceder. Los siguientes son ejemplos de módulos
 
 * Realice una solicitud: módulo universal destinado principalmente a recursos que no utilizan ningún tipo de autenticación o autorización
-* Realizar una solicitud de autenticación básica: para recursos que utilizan [!DNL HTTP] Autenticación básica (BA)
+* Realizar una solicitud de autenticación básica:para recursos que emplean [!DNL HTTP] autenticación básica (BA)
 * Realizar una solicitud de OAuth 2.0: para recursos que utilizan el protocolo de autorización de OAuth 2.0
 * Realizar una solicitud de autenticación de certificado de cliente: para recursos que emplean un protocolo de autorización que requiere un certificado del lado del cliente.
 * Realizar una solicitud de autorización de clave API: para recursos que utilizan claves API para la autorización.
@@ -44,14 +44,14 @@ Consulte los siguientes artículos para obtener instrucciones específicas sobre
 
 * [[!UICONTROL HTTP] >[!UICONTROL Realizar una solicitud] módulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Realizar una solicitud de autorización básica] módulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP] > [!UICONTROL Realizar una solicitud de OAuth 2.0] módulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Realizar una solicitud OAuth 2.0] módulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Realizar una solicitud de autorización de certificado de cliente] módulo](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Realizar una solicitud de autorización de clave API]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## Otros módulos de acción
 
 * [[!UICONTROL Obtener un archivo]](#get-a-file)
-* [[!UICONTROL Resolución de una URL de destino]](#resolve-a-target-url)
+* [[!UICONTROL Resolver una dirección URL de destino]](#resolve-a-target-url)
 
 ### [!UICONTROL Obtener un archivo]
 
@@ -68,7 +68,7 @@ Este módulo de acción descarga un archivo desde la dirección URL especificada
  </tbody> 
 </table>
 
-### [!UICONTROL Resolución de una URL de destino]
+### [!UICONTROL Resolver una dirección URL de destino]
 
 Este módulo de acción resuelve una cadena de redirecciones HTTP y devuelve una dirección URL de destino.
 
@@ -78,7 +78,7 @@ Este módulo de acción resuelve una cadena de redirecciones HTTP y devuelve una
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
-   <td> <p>Introduzca o asigne la dirección URL que desea resolver, como [!DNL bit.ly] URL.</p> </td> 
+   <td> <p>Escriba o asigne la dirección URL que desea resolver, como una dirección URL de [!DNL bit.ly].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Método] </td> 
@@ -98,7 +98,7 @@ Este módulo devuelve cada encabezado (nombre y valor) del módulo HTTP especifi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Módulo de origen]</td> 
+   <td role="rowheader">[!UICONTROL Módulo Source]</td> 
    <td> <p> Seleccione el módulo del que desee recuperar los encabezados.</p> </td> 
   </tr> 
  </tbody> 

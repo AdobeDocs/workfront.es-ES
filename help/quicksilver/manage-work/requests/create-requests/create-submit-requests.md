@@ -28,7 +28,7 @@ ht-degree: 1%
 El trabajo planificado se representa en Adobe Workfront mediante proyectos y tareas. Sin embargo, podría trabajar en un entorno en el que el trabajo no planificado, en forma de solicitudes, pueda realizarse en cualquier momento. Workfront proporciona un flujo de trabajo para dar cabida a este tipo de entorno mediante el uso de colas de solicitudes.
 
 Después de crear una solicitud en una Cola de solicitudes, puede asignarla para que se complete o puede convertirla en una tarea o un proyecto.\
-Para obtener más información sobre cómo convertir problemas en una tarea o un proyecto, consulte el artículo [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Para obtener más información acerca de la conversión de problemas en una tarea o proyecto, consulte el artículo [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 Puede crear una solicitud de las siguientes maneras:
 
@@ -72,13 +72,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Un administrador de Workfront debe crear colas de solicitudes y ponerlas a disposición de los usuarios para que puedan utilizar esta funcionalidad. Un usuario con una licencia de Planificador y con acceso de Edición a Proyectos y Administración de permisos para un proyecto específico también puede crear Colas de solicitudes.
 
-Para obtener información sobre cómo crear colas de solicitudes, consulte el artículo [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener información acerca de cómo crear colas de solicitudes, vea el artículo [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Un administrador de Workfront debe crear los siguientes componentes de una cola de solicitudes:
 
 * Proyecto en estado Actual, publicado como Cola de solicitudes de ayuda.
 * Temas de colas.\
-  Para obtener más información, consulte el artículo [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  Para obtener más información, vea el artículo [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 * Reglas de enrutamiento.\
   Para obtener más información, consulte el artículo [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
@@ -90,7 +90,7 @@ Un administrador de Workfront debe crear los siguientes componentes de una cola 
   Para obtener más información, consulte el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * (Opcional) Solicite el proceso de aprobación.\
-  Para obtener más información, consulte el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Para obtener más información, vea el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Crear solicitudes y generar borradores en la aplicación web de Workfront
 
@@ -106,27 +106,27 @@ Puede seguir enviando la solicitud o puede completar toda la información que te
 >* Si la estructura de una cola de solicitudes cambia, ya no podrá acceder a los borradores existentes. Por ejemplo, si se quita un tema de la cola o se agrega un grupo de temas, los borradores guardados ya no estarán accesibles.
 >
 
-Para obtener información sobre la creación de solicitudes a partir de borradores existentes, consulte [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Para obtener información sobre la eliminación de borradores de solicitudes, consulte también [Eliminar un borrador de solicitud](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Para obtener información sobre cómo crear solicitudes a partir de borradores existentes, consulte [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Para obtener información acerca de cómo eliminar borradores de solicitud, vea también [Eliminar un borrador de solicitud](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 Para crear una solicitud en la aplicación web de Workfront:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-1. Clic  **Solicitudes**, luego haga clic en **Nueva solicitud** en la esquina superior derecha de la página.
+1. Haga clic en **Solicitudes** y, a continuación, haga clic en **Nueva solicitud** en la esquina superior derecha de la página.
 
    >[!TIP]
    >
    >* Puede acceder a la opción Nueva solicitud desde cualquier sección del área de Solicitudes.
    >* La opción Nueva solicitud aparece atenuada cuando no tiene acceso para crear problemas.
 
-1. (Condicional) Haga clic dentro de **Tipo de solicitud** y realice una de las siguientes acciones:
+1. (Condicional) Haga clic dentro del campo **Tipo de solicitud** y realice una de las siguientes acciones:
 
-   * Desde el **Rutas recientes** , seleccione una ruta utilizada recientemente para abrir una cola de solicitudes. Una ruta de acceso incluye la cola de solicitudes, los grupos de temas y el tema de la cola que ha enviado recientemente. Las tres últimas rutas se muestran de forma predeterminada.
+   * En la sección **Rutas recientes**, seleccione una que haya utilizado recientemente para abrir una cola de solicitudes. Una ruta de acceso incluye la cola de solicitudes, los grupos de temas y el tema de la cola que ha enviado recientemente. Las tres últimas rutas se muestran de forma predeterminada.
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ Para crear una solicitud en la aplicación web de Workfront:
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * Desde el **Colas de solicitudes** , seleccione una cola de solicitudes.
+   * En la sección **Colas de solicitudes**, seleccione una cola de solicitudes.
    * Escriba una palabra clave que pertenezca a una ruta a la que se haya accedido anteriormente para buscar una cola de solicitudes.
 
      Por ejemplo, si tiene una cola de solicitudes llamada &quot;Servicio de asistencia&quot; con un grupo de temas llamado &quot;Ubicación&quot; y un tema de colas llamado &quot;Remoto&quot;, puede escribir &quot;remoto&quot; y se mostrarán todas las colas de solicitudes que contienen &quot;remoto&quot; en cualquier elemento de su ruta.
@@ -170,9 +170,9 @@ Para crear una solicitud en la aplicación web de Workfront:
    >* El nombre de la cola de solicitudes es el nombre del proyecto que se ha publicado como cola de solicitudes de ayuda.
    >* La descripción del proyecto configurado como cola de solicitudes seleccionada se muestra a la derecha del nombre de la cola de solicitudes.
    >   
-   >Para obtener más información sobre cómo publicar un proyecto como cola de solicitudes de ayuda, vea el artículo [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >Para obtener más información acerca de cómo publicar un proyecto como cola de solicitudes de ayuda, vea el artículo [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. En el **Nueva solicitud** en el formulario, realice una de las siguientes acciones:
+1. En el formulario **Nueva solicitud**, realice una de las siguientes acciones:
 
    * (Condicional) Seleccione un borrador disponible en el mensaje de notificación que se muestra en el campo Tipo de solicitud.
 
@@ -197,13 +197,13 @@ Para crear una solicitud en la aplicación web de Workfront:
    >
 
    Puede tener hasta 10 niveles de grupos de temas integrados en la cola de solicitudes.\
-   Para obtener más información sobre cómo crear grupos de temas, consulte el artículo [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obtener más información sobre la creación de temas de colas, vea el artículo [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Para obtener más información sobre cómo crear grupos de temas, consulte el artículo [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obtener más información acerca de cómo crear temas de colas, vea el artículo [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    >[!TIP]
    >
    >Si seleccionó un borrador o una ruta de acceso anterior, los grupos de temas y los temas de colas ya están seleccionados. Puede seleccionar otro diferente, si es necesario.
 
-1. Según los campos que haya activado el administrador de Workfront en la **Campos de nuevos problemas** de la sección **Detalles de cola** subpestaña del proyecto, puede encontrar cualquiera de los siguientes campos al enviar una nueva solicitud:
+1. Según los campos que habilitó el administrador de Workfront en la sección **Nuevos campos de problema** de la subpestaña **Detalles de la cola** del proyecto, podría encontrar cualquiera de los siguientes campos al enviar una nueva solicitud:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -261,7 +261,7 @@ Para crear una solicitud en la aplicación web de Workfront:
       <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Crear reglas de enrutamiento</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>Se recomienda utilizar reglas de enrutamiento para las colas de solicitudes, de modo que se puedan enrutar automáticamente a los recursos adecuados.</span> </p> </td> 
+   <p><span>Se recomienda utilizar reglas de enrutamiento para las colas de solicitudes de modo que se puedan enrutar automáticamente a los recursos apropiados.</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -289,29 +289,29 @@ Para crear una solicitud en la aplicación web de Workfront:
 
 1. (Opcional) Si el administrador de Workfront ha asociado un formulario personalizado a la cola de solicitudes o al tema de la cola, especifique los campos dentro del formulario personalizado.\
    Los formularios personalizados son diferentes para cada instancia de Workfront.
-1. (Opcional y condicional) En cualquier momento mientras introduce la solicitud, haga clic en [!UICONTROL **Descartar borrador**] si desea eliminar el borrador que se crea automáticamente. Esto elimina el borrador que no se puede recuperar. Se mostrará un mensaje de confirmación para confirmar que está eliminando el borrador.
+1. (Opcional y condicional) En cualquier momento mientras escribe la solicitud, haga clic en [!UICONTROL **Descartar borrador**] si desea eliminar el borrador que se crea automáticamente. Esto elimina el borrador que no se puede recuperar. Se mostrará un mensaje de confirmación para confirmar que está eliminando el borrador.
 
 1. (Opcional) Haga clic en [!UICONTROL **Deshacer**] en el mensaje de confirmación si desea revertir la acción y conservar el borrador.
 
 1. Realice una de las siguientes acciones:
 
-   * Clic **Enviar** si está listo para enviar la solicitud. La solicitud se guarda en la sección Enviada En función de la regla de enrutamiento de la cola de solicitudes, esta solicitud puede redirigirse a un proyecto diferente al designado como cola de solicitudes. Para obtener información sobre las reglas de enrutamiento, consulte [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Haga clic en **Enviar** si está listo para enviar la solicitud. La solicitud se guarda en la sección Enviada En función de la regla de enrutamiento de la cola de solicitudes, esta solicitud puede redirigirse a un proyecto diferente al designado como cola de solicitudes. Para obtener información acerca de las reglas de enrutamiento, vea [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      O
 
-     Clic **Cerrar** si no está listo para enviarlo y es posible que vuelva y lo termine más tarde. La solicitud se guardará en la sección Borradores y estará disponible la próxima vez que envíe una solicitud para esta cola de solicitudes.
+     Haz clic en **Cerrar** si no estás listo para enviarlo y es posible que vuelvas y lo termines más tarde. La solicitud se guardará en la sección Borradores y estará disponible la próxima vez que envíe una solicitud para esta cola de solicitudes.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Al enviar la solicitud, el borrador se eliminará automáticamente y no se podrá restaurar.
 
-   Para obtener información sobre cómo abordar las solicitudes entrantes, consulte el artículo [Administrar solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Para obtener información acerca de cómo atender las solicitudes entrantes, consulte el artículo [Administrar solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   Para obtener información sobre cómo localizar solicitudes enviadas o redactadas, consulte también [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   Para obtener información sobre cómo buscar solicitudes enviadas o redactadas, vea también [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Crear solicitudes desde fuera de Workfront
 
-Puede compartir un vínculo directo a una cola de solicitudes cuando envíe una nueva solicitud e incrustarla en otras aplicaciones. Los usuarios que acceden a este vínculo desde la web o desde otras aplicaciones también deben iniciar sesión con una cuenta activa de Workfront para poder acceder a esta cola y enviar solicitudes a la misma. Para obtener más información, consulte [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Puede compartir un vínculo directo a una cola de solicitudes cuando envíe una nueva solicitud e incrustarla en otras aplicaciones. Los usuarios que acceden a este vínculo desde la web o desde otras aplicaciones también deben iniciar sesión con una cuenta activa de Workfront para poder acceder a esta cola y enviar solicitudes a la misma. Para obtener más información, vea [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Creación de solicitudes por correo electrónico en Workfront
 
@@ -323,13 +323,13 @@ El texto del cuerpo del correo electrónico se agrega como descripción de la so
 >
 >El formato de HTML se elimina cuando la solicitud entra en Workfront, pero las firmas y el contenido del subproceso Responder a existente no se eliminan y aparecen en la descripción de la solicitud.
 
-Para obtener información sobre cómo habilitar una cola de solicitudes para recibir solicitudes por correo electrónico, consulte [Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Para obtener información acerca de cómo habilitar una cola de solicitudes para recibir solicitudes por correo electrónico, vea [Permitir que los usuarios envíen un problema por correo electrónico a un proyecto de cola de solicitudes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Crear solicitudes con el cliente de Outlook
 
 Puede enviar solicitudes utilizando el cliente de Outlook. Puede crear una nueva solicitud o convertir un correo electrónico en una solicitud.
 
-Para obtener información acerca del envío de solicitudes mediante el cliente de Outlook, vea el artículo [Crear una solicitud de Adobe Workfront desde un correo electrónico de Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+Para obtener información sobre cómo enviar solicitudes con el cliente de Outlook, consulte el artículo [Crear una solicitud de Adobe Workfront a partir de un correo electrónico de Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Creación de solicitudes mediante la aplicación móvil de Workfront
 
@@ -345,11 +345,11 @@ Para obtener información sobre el envío de solicitudes a través de la aplicac
 Puede enviar solicitudes utilizando cualquier aplicación que se haya integrado con Workfront:
 
 * Puede crear una integración personalizada entre Workfront y otra aplicación que le permita enviar solicitudes a Workfront desde la otra aplicación.\
-  Para obtener más información sobre las integraciones de Workfront personalizadas, consulte el artículo [Integraciones de Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
+  Para obtener más información acerca de las integraciones de Workfront personalizadas, consulte el artículo [Integraciones de Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * Puede enviar solicitudes desde Salesforce si ha instalado la aplicación de Workfront para Salesforce.\
-  Para obtener información sobre el envío de solicitudes desde Salesforce mediante nuestra aplicación de Workfront para Salesforce, consulte el artículo [Envío de solicitudes de Adobe Workfront desde objetos de Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Para obtener información sobre cómo enviar solicitudes desde Salesforce usando nuestra aplicación Workfront para Salesforce, consulte el artículo [Enviar solicitudes de Adobe Workfront desde objetos de Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Localizar solicitudes enviadas
 
-Para obtener información sobre cómo localizar solicitudes enviadas o redactadas, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Para obtener información sobre cómo buscar solicitudes enviadas o redactadas, vea [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

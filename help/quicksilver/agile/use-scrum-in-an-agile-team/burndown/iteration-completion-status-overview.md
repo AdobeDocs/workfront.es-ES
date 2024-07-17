@@ -2,55 +2,55 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Resumen del estado de finalización de iteración
-description: La información de finalización descrita en este artículo se muestra encima del gráfico desplegable.
+title: Resumen del estado de finalización de iteraciones
+description: La información de finalización descrita en este artículo se muestra encima del gráfico de evolución.
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
 source-git-commit: 373f2522b85196d6395f189ae6cfe03449cac61a
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# Resumen del estado de finalización de iteración
+# Resumen del estado de finalización de iteraciones
 
-La información de finalización descrita en este artículo se muestra encima del gráfico desplegable.
+La información de finalización descrita en este artículo se muestra encima del gráfico de evolución.
 
 Porcentaje de finalización en una iteración:
 
 ![](assets/burndown-percentcomplete-350x47.png)
 
-Esta información indica el estado de finalización de la iteración para el día que está seleccionado actualmente en el gráfico desplegable. De forma predeterminada, el estado de finalización se muestra en función de la fecha del día actual.
+Esta información indica el estado de finalización de la iteración del día seleccionado actualmente en el gráfico de evolución. De forma predeterminada, el estado de finalización se muestra en función de la fecha del día actual.
 
-La siguiente información está disponible:
+La información disponible es la siguiente:
 
 * **[!UICONTROL Porcentaje completado]:** Progreso general de la iteración
 
-   [!UICONTROL Porcentaje completado] se ajusta según el porcentaje completado de cada artículo o tarea dentro de la iteración, incluidos los artículos o tareas que solo se han completado parcialmente.
+  [!UICONTROL Porcentaje completado] se ajusta en función del porcentaje completado de cada artículo o tarea dentro de la iteración, incluidos los artículos o las tareas que solo se han completado parcialmente.
 
-   El color de la variable [!UICONTROL Porcentaje completado] la barra de estado se muestra en rojo o verde para que coincida con el color de la tasa de interrupción real. Se muestra en rojo cuando la tasa de división es inferior al ideal (quedan más puntos o horas por día que el cálculo de desglose ideal) y se muestra en verde cuando la tasa de división es igual o mejor que el ideal (se restan puntos iguales o menores por día que el cálculo de desglose ideal).
+  El color de la barra de estado [!UICONTROL Porcentaje completado] se muestra en rojo o verde para coincidir con el color de la tasa de evolución real. Se muestra en rojo cuando la tasa de evolución es menor que la ideal (quedan más puntos o horas por día que el cálculo de evolución ideal) y en verde cuando la tasa de evolución es igual o mejor que la ideal (quedan menos puntos por día que el cálculo de evolución ideal).
 
-* **[!UICONTROL Artículos completados]:** (Disponible solo en iteraciones) El número de artículos marcados [!UICONTROL Completar]. Esto se muestra en relación con la cantidad total de artículos en la iteración. Por ejemplo, &quot;3 de 6&quot; indica que se han marcado 3 de los 6 artículos de la iteración [!UICONTROL Completar].
-* **[!UICONTROL Puntos/horas completados]:** (Disponible solo en iteraciones) El número de puntos u horas marcados [!UICONTROL Completar]. Se muestra en relación con el número total de puntos u horas en la iteración. Por ejemplo, &quot;5 de 11&quot; indica que se han marcado 5 de los 11 artículos de la iteración [!UICONTROL Completar]. Este número está directamente relacionado con la variable [!UICONTROL Porcentaje completado] y se actualiza al mismo tiempo [!UICONTROL Porcentaje completado] se actualiza.
+* **[!UICONTROL Historias completadas]:** (disponible solo en iteraciones) El número de historias marcadas como [!UICONTROL Completas]. Esto se muestra en relación con el número total de historias en la iteración. Por ejemplo, &quot;3 de 6&quot; indica que 3 de las 6 historias de la iteración se han marcado como [!UICONTROL Completadas].
+* **[!UICONTROL Puntos/Horas completados]:** (disponible solo en iteraciones) El número de puntos o horas marcadas [!UICONTROL Completar]. Se muestra en relación con el número total de puntos u horas de la iteración. Por ejemplo, &quot;5 de 11&quot; indica que 5 de las 11 historias de la iteración se han marcado como [!UICONTROL Completas]. Este número está directamente relacionado con el cálculo [!UICONTROL Porcentaje completado] y se actualiza al mismo tiempo que el [!UICONTROL Porcentaje completado].
 
-   Los puntos y las horas están asociados a los artículos. Cuando se marca un artículo [!UICONTROL Completar], los puntos u horas asociados con ese artículo se marcan como Completada.
+  Los puntos y las horas están asociados a las historias. Cuando un artículo se marca como [!UICONTROL Completo], los puntos o las horas asociados con ese artículo se marcan como Completado.
 
-   De forma predeterminada, se utilizan puntos. Puede cambiar esto modificando la configuración de su equipo, tal como se describe en [Crear un equipo ágil](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+  De forma predeterminada, se utilizan puntos. Puede cambiar esto modificando la configuración de su equipo, tal como se describe en [Crear un equipo Agile](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-* **[!UICONTROL Puntos/horas por día]:** (Disponible solo en iteraciones) El número promedio de puntos u horas marcados [!UICONTROL Completar] cada día desde el principio de la iteración hasta el día actual.
+* **[!UICONTROL Puntos / Horas por día]:** (Disponible solo en iteraciones) El número promedio de puntos u horas marcados [!UICONTROL Completar] cada día desde el comienzo de la iteración hasta el día actual.
 
-   Esto se calcula mediante el total de puntos u horas completadas, dividido por el número total de días hasta el día actual. (Los días parciales se registran como un día completo).
+  Se calcula mediante el total de puntos u horas completadas, dividido por el número total de días hasta el día actual. (Los días parciales se registran como un día entero).
 
-   Esta información puede resultar útil al planificar una iteración futura.
+  Esta información puede resultar útil al planificar una iteración futura.
 
-* **[!UICONTROL Finalización estimada]:** La fecha estimada en la que se completará la iteración, según la tasa actual en Puntos / Horas por día (para iteraciones).
+* **[!UICONTROL Finalización estimada]:** La fecha estimada en que se completará la iteración, basada en la tasa actual en Puntos/Horas por día (para iteraciones).
 
-   Cuando la variable [!UICONTROL Finalización estimada] La fecha es posterior a la fecha de finalización definida para la iteración, el número de días laborables restantes se muestra como rojo entre paréntesis junto al [!UICONTROL Finalización estimada] fecha.
+  Cuando la [!UICONTROL fecha de finalización estimada] es posterior a la fecha de finalización definida para la iteración, el número de días laborables restantes se muestra en rojo entre paréntesis junto a la [!UICONTROL fecha de finalización estimada].
 
-   Cuando la variable [!UICONTROL Finalización estimada] fecha anterior a la fecha de finalización planificada de la iteración, el número de días laborables restantes se muestra en verde. (La fecha de finalización de la iteración se especifica cuando se planifica la iteración, tal como se describe en [Crear una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md); la fecha de finalización del proyecto es la [!UICONTROL Fecha de finalización planeada]o es la fecha actual si la variable [!UICONTROL Fecha de finalización planeada] es en el pasado. La variable [!UICONTROL Fecha de finalización planeada] para el proyecto se calcula en función de la duración de las tareas del proyecto). Al planificar la iteración, si establece la fecha de finalización de la iteración para un día que no es de trabajo y la iteración está rastreando para finalizar a tiempo, la fecha de finalización estimada se establece para el último día laborable antes de la fecha de finalización de la iteración que configuró (porque el trabajo no está programado para ser quemado en días que no sean de trabajo).
+  Cuando la [!UICONTROL fecha estimada de finalización] es anterior a la fecha planificada de finalización de la iteración, el número de días laborables restantes se muestra en verde. (La fecha de finalización de la iteración se especifica cuando se planea la iteración, tal como se describe en [Crear una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md); la fecha de finalización del proyecto es la [!UICONTROL Fecha planificada de finalización], o bien es la fecha actual si la [!UICONTROL Fecha planificada de finalización] es anterior. La [!UICONTROL fecha planificada de finalización] del proyecto se calcula en función de la duración de las tareas del proyecto.) Al planificar la iteración, si establece la fecha de finalización de la iteración para un día no laborable y la iteración está realizando un seguimiento para finalizar a tiempo, la fecha de finalización estimada se establece para el último día laborable anterior a la fecha de finalización de la iteración establecida (porque el trabajo no está programado para quemarse en días no laborables).
 
-   Por ejemplo, &quot;(+9 días)&quot; indica que la fecha de finalización estimada es 9 días hábiles después de la fecha de finalización planificada de la iteración.
+  Por ejemplo, &quot;(+9 días)&quot; indica que la fecha de finalización estimada es 9 días hábiles después de la fecha de finalización planificada de la iteración.
 
-   Para obtener más información, consulte [Resumen del estado de finalización de iteración](#Understanding-How-Days-Off-Affect-the-Burndown-Chart).
+  Para obtener más información, vea [Información general sobre el estado de finalización de iteraciones](#Understanding-How-Days-Off-Affect-the-Burndown-Chart).

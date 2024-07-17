@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general sobre la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Descargas de documentos registradas en el área de Actualizaciones
 
@@ -35,7 +35,7 @@ Para ayudar a los usuarios a realizar un seguimiento de las descargas de documen
 >
 >Se recomienda probar esta función en Vista previa en un documento recién cargado.
 
-Para obtener información sobre cómo registra Workfront las actualizaciones automáticas de los objetos, consulte [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Para obtener información sobre cómo Workfront registra las actualizaciones automáticas de los objetos, consulte [Actualizaciones con seguimiento del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Conceder acceso a los equipos que utilizan niveles de acceso
 
@@ -57,7 +57,7 @@ Para obtener más información, consulte [Configurar un modelo](../../../adminis
 
 El área de Forms personalizado tiene un nuevo aspecto que la pone al día con muchas otras áreas de la nueva experiencia de Workfront.
 
-Para obtener información sobre la creación de un formulario personalizado, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener información sobre cómo crear un formulario personalizado, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Muchas mejoras para crear campos personalizados calculados
 
@@ -71,7 +71,7 @@ Crear campos personalizados calculados ahora es mucho más fácil con estas adic
 
 Además, en el texto &quot;Instrucciones&quot; personalizable que pasa por encima de un campo personalizado calculado, puede mostrar u ocultar la fórmula del campo. Esto resulta útil si cree que los usuarios que rellenen el formulario personalizado no necesitarán esa información.
 
-Para obtener más información sobre la creación de un campo personalizado calculado, consulte [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información sobre cómo crear un campo personalizado calculado, vea [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Ver información de registro de auditoría sobre estados y compañías
 
@@ -82,7 +82,7 @@ Por ejemplo:
 * Puede averiguar quién cambió el nombre, bloqueó u ocultó un estado y cuándo lo hizo.
 * Puede averiguar quién eliminó algunos miembros o roles de trabajo de una compañía y cuándo lo hicieron.
 
-Para obtener información sobre cómo ver la información del registro de auditoría, consulte [Ver y exportar registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Para obtener información acerca de cómo ver la información del registro de auditoría, vea [Ver y exportar registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Modelos de asignación de empresas y otras mejoras
 
@@ -108,7 +108,7 @@ Para obtener más información, consulte [Administrar suscripciones a compañía
 
 Seguimos facilitando la creación de un campo calculado en un formulario personalizado. Ahora, al hacer clic en Maximizar para abrir el nuevo Editor de cálculos, puede buscar y seleccionar las expresiones y los campos que necesite.
 
-Para obtener más información, consulte [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información, consulte [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Los grupos pueden configurar sus propias preferencias de horas y hojas de horas
 
@@ -120,9 +120,9 @@ En una organización grande, es posible que algunos grupos necesiten configurar 
 
 Esta capacidad también se ha agregado recientemente para preferencias de proyecto y para preferencias de tarea y problema.
 
-Para obtener información sobre cómo un administrador de Workfront desbloquea una plantilla de horas y preferencias de hora, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener información sobre cómo un administrador de Workfront desbloquea una hoja de horas y preferencias de horas, consulte la sección [Desbloquear hoja de horas y preferencias de horas para grupos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) en el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Para obtener información sobre cómo un administrador de grupo configura las preferencias de tareas y problemas desbloqueados para un grupo, consulte [Configurar las preferencias de horas y hojas de horas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Para obtener información sobre cómo un administrador de grupo configura las preferencias de tareas y problemas desbloqueados para un grupo, consulte [Configurar las preferencias de horas y hojas de horas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Seleccione varias notificaciones que desee desbloquear o volver a bloquear para grupos
 
@@ -139,13 +139,13 @@ Al eliminar un grupo, dos mejoras en el cuadro Eliminar grupo facilitan la selec
 * Puede empezar a escribir el nombre del grupo para encontrarlo rápidamente. Anteriormente, solo había una lista desplegable en la que no se podía escribir. Esto resultaba problemático para las organizaciones con muchos grupos, ya que había que desplazarse por la lista para encontrar el grupo deseado. Además, la lista desplegable tenía un límite de elementos, por lo que era posible que el grupo que quería no se mostrara.
 * Puede utilizar el icono de información nueva para asegurarse de que está seleccionando el grupo de sustitución que desea. Al pasar el ratón por encima del icono, se muestra información de objeto sobre el grupo, como la jerarquía de grupos que hay encima y los nombres de sus administradores.
 
-Para obtener más información, consulte [Eliminar un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+Para obtener más información, vea [Eliminar un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
 
 ## Área más grande para crear campos calculados
 
 Ahora es más fácil crear campos calculados complejos en un formulario personalizado. Haga clic en el nuevo botón Maximizar para abrir una ventana de edición grande y generar el cálculo. Cuando haya terminado, haga clic en Minimizar para continuar trabajando en el formulario personalizado.
 
-Para obtener más información, consulte [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información, consulte [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Agregar formularios personalizados a grupos
 
@@ -157,7 +157,7 @@ Ahora se admiten formularios personalizados para el objeto Group. Esto facilita 
 * Eliminación de un formulario personalizado
 * Edite datos personalizados de listas y, en la nueva experiencia de Workfront, de la página Grupo
 
-Para obtener información sobre los formularios personalizados, consulte [Formularios personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+Para obtener información sobre formularios personalizados, consulte [Formularios personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 ## Creación de aplicaciones de OAuth2 para integrar aplicaciones con Workfront
 
@@ -165,10 +165,10 @@ Ahora puede integrar Workfront con otras aplicaciones para las que Workfront no 
 
 Anteriormente, solo se podía integrar con otras aplicaciones mediante integraciones integradas, Workfront Fusion o la API de Workfront.
 
-Para obtener más información, consulte [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Para obtener más información, consulte [Crear aplicaciones OAuth2 para integraciones de Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Mejoras en el texto de la interfaz en el área Compañías
 
 En el área Compañías de la Configuración, los nuevos mensajes de confirmación y los ligeros cambios de redacción facilitan la administración de las suscripciones a la empresa. Por ejemplo, el nombre de sección &quot;Personas&quot; en el panel izquierdo es ahora &quot;Miembros de la compañía&quot;.
 
-Para obtener información sobre la administración de empresas como miembros, consulte [Administrar suscripciones a compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Para obtener información sobre cómo administrar las suscripciones a compañías, consulte [Administrar suscripciones a compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

@@ -59,7 +59,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de Workfront.
 
 +++
 
@@ -97,7 +97,7 @@ Al restaurar un proyecto, una tarea o un problema, se recupera junto con ella la
 
 * Horas (e ID de hora)
 
-  La restauración de las horas en el elemento eliminado depende de la configuración que elija al configurar las preferencias para las plantillas de horas y las horas. Para obtener más información, consulte [Configurar el efecto en horas cuando se elimina y restaura un objeto](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  La restauración de las horas en el elemento eliminado depende de la configuración que elija al configurar las preferencias para las plantillas de horas y las horas. Para obtener más información, vea [Configurar el efecto en horas cuando se elimina y restaura un objeto](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 * La dirección URL del elemento
 
@@ -131,9 +131,9 @@ Al restaurar un proyecto, una tarea o un problema, la siguiente información aso
 
 * Resolver objetos
 
-  Un objeto de resolución es un problema convertido configurado con la opción **Mantener el problema original y enlazar su solución a esto** &lt;**proyecto** o **task)**>. Si elimina el proyecto o la tarea principal, el problema ya no se identifica como objeto de resolución porque ya no hay un vínculo que lo conecte al proyecto o la tarea. Si restaura el elemento principal, el vínculo no se restaura.
+  Un objeto de resolución es un problema convertido configurado con la opción **Mantener el problema original y enlazar su solución a este** &lt;**proyecto** o **tarea)**>. Si elimina el proyecto o la tarea principal, el problema ya no se identifica como objeto de resolución porque ya no hay un vínculo que lo conecte al proyecto o la tarea. Si restaura el elemento principal, el vínculo no se restaura.
 
-  Para obtener más información sobre cómo un administrador de Workfront o de grupo configura problemas para que coincidan con el objeto de resolución cuando se convierte, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) y [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Para obtener más información sobre cómo un administrador de Workfront o de grupo configura problemas para que coincidan con el objeto de resolución cuando se convierte, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) y [Configurar las preferencias de tareas y problemas para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
   Para obtener más información sobre la conversión de problemas, consulte [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -141,10 +141,10 @@ Al restaurar un proyecto, una tarea o un problema, la siguiente información aso
 
 {{step-1-to-setup}}
 
-1. Clic **Papelera de reciclaje** > **Eliminados recientemente**.
-1. Haga clic en **Proyectos**, **Tareas**, **Problemas**, **Plantillas**, o **Documentos** , según el tipo de elemento que desee restaurar.
+1. Haga clic en **Papelera de reciclaje** > **Eliminada recientemente**.
+1. Haga clic en la ficha **Proyectos**, **Tareas**, **Problemas**, **Plantillas** o **Documentos**, según el tipo de elemento que desee restaurar.
 
-   Los elementos se ordenan por la variable **Fecha de eliminación** de forma predeterminada.
+   Los elementos se ordenan por la columna **Fecha de eliminación** de manera predeterminada.
 
 1. Seleccione hasta 10 elementos que desee restaurar.
 
@@ -152,8 +152,8 @@ Al restaurar un proyecto, una tarea o un problema, la siguiente información aso
 
    Si elimina una tarea principal, solo se muestra la tarea principal en la lista. Sin embargo, todas las tareas secundarias se restauran al restaurar una tarea principal.
 
-1. Clic **Restaurar** para restaurar los elementos seleccionados a su ubicación original.
-1. (Opcional) Para ver rápidamente el elemento restaurado, siga los pasos que se indican en [Ver elemento restaurado](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. Haga clic en **Restaurar** para restaurar los elementos seleccionados a su ubicación original.
+1. (Opcional) Para ver rápidamente el elemento restaurado, siga los pasos de [Ver elemento restaurado](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
    Para obtener más información acerca de lo que sucede después de restaurar un elemento, vea la sección [Qué sucede después de restaurar los elementos](#what-happens-after-you-restore-items) en este artículo.
 

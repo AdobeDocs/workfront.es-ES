@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Cree un equipo desde el área de Configuración](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
+* [Crear un equipo desde el área de instalación](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
 * [Editar la configuración de un equipo desde el área de Configuración](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Project realizadas con la versión 2020.2 en el entorno de producción. Estas mejoras estaban disponibles en el entorno de producción en la semana del 11 de mayo de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.2, consulte [información general sobre la versión 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.2, consulte [Información general sobre la versión 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Para administradores de Workfront: nueva seguridad contra fallos cuando el estado del proyecto de los nuevos proyectos se oculta o desbloquea
 
@@ -26,7 +26,7 @@ En Configuración, configure una preferencia para asegurarse de que cada nuevo p
 
 Para asegurarse de que los nuevos proyectos siempre tienen un estado, incluso si un administrador oculta o desbloquea el estado configurado para nuevos proyectos, el sistema ahora asigna el primer estado de la lista Estado a todos los nuevos proyectos hasta que se vuelva a configurar el nuevo estado para nuevos proyectos.
 
-Para obtener información sobre cómo establecer la preferencia para el estado de todos los proyectos nuevos, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (o si utiliza Adobe Workfront Classic, consulte [Estableciendo preferencias del proyecto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Para obtener información acerca de cómo establecer la preferencia para el estado de todos los proyectos nuevos, vea [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (o si usa Adobe Workfront Classic, vea [Establecer preferencias de proyecto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **Disponible en estos entornos:**
 
@@ -42,7 +42,7 @@ La experiencia de establecer preferencias de proyecto ahora es más intuitiva y 
 * Si escribe un número no válido para una opción como &quot;Horas habituales por día laborable&quot;, aparece un mensaje de advertencia inmediatamente en lugar de aparecer después de hacer clic en Guardar.
 * Las etiquetas de opción coinciden con el texto de interfaz correspondiente en cualquier otra parte de Workfront, como el área de Detalles e informes.
 
-Para obtener información sobre el área Preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (o si utiliza Adobe Workfront Classic, consulte [Estableciendo preferencias del proyecto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Para obtener información sobre el área de Preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (o si usa Adobe Workfront Classic, consulte [Configurar las preferencias del proyecto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
 **Disponible en estos entornos:**
 
@@ -68,11 +68,11 @@ Por ejemplo, cuando mueve o copia una tarea con una delimitación Debe comenzar 
 
 Antes de este cambio, la restricción de tarea siempre cambia a Lo antes posible.
 
-Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o si utiliza Adobe Workfront Classic, consulte [Mover tareas](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o si está usando Adobe Workfront Classic, consulte [Mover tareas](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Para obtener información sobre cómo copiar tareas, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (o si utiliza Adobe Workfront Classic, consulte [Copiar y duplicar tareas](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Para obtener información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (o si usa Adobe Workfront Classic, vea [Copiar y duplicar tareas](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-Para obtener una descripción general de todas las restricciones de tarea, consulte [Información general sobre restricciones de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o si utiliza Adobe Workfront Classic, consulte [Información general sobre restricciones de tarea](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Para obtener una descripción general de todas las restricciones de tarea, vea [Información general sobre las restricciones de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o si está usando Adobe Workfront Classic, vea [Información general sobre las restricciones de tarea](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
 **Disponible en estos entornos:**
 
@@ -83,7 +83,7 @@ Para obtener una descripción general de todas las restricciones de tarea, consu
 
 Para evitar la pérdida de datos al actualizar información en la página Detalles de un objeto o tareas de una lista de tareas en el nivel de proyecto al guardar los cambios manualmente, ahora se muestra un mensaje de advertencia para notificarle que tiene cambios sin guardar antes de intentar editar la información en el encabezado. Las únicas acciones permitidas antes de guardar los cambios son suscribirse o agregar el objeto a los favoritos.
 
-Para obtener información sobre la edición de tareas en una lista, consulte [Edición de tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+Para obtener información acerca de la edición de tareas en una lista, vea [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
 **Disponible en estos entornos:**
 

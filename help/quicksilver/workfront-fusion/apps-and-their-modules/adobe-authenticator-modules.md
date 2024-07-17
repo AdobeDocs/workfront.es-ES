@@ -45,17 +45,17 @@ Para ver una lista de las API de Adobe disponibles, consulte [API de Adobe](http
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia</td>
       <td>
-   <p>Requisito de licencia de Fusion actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia de Fusion actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia de Fusion heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia de Fusion heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Nuevo plan de Workfront: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Nuevo plan de Workfront: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Plan Workfront actual: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Plan actual de Workfront: su organización debe adquirir [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para poder usar la funcionalidad descrita en este artículo.</p>
    </td>
     </tr>
   </tbody>
@@ -72,7 +72,7 @@ Para ver una lista de las API de Adobe disponibles, consulte [API de Adobe](http
      O
    * Añada la API a un proyecto existente.
 
-  Para obtener información sobre cómo crear o añadir una API a un proyecto en Adobe Developer Console, consulte [Creación de un proyecto](https://developer.adobe.com/dep/guides/dev-console/create-project/) en la documentación del Adobe.
+  Para obtener información sobre cómo crear o agregar una API a un proyecto en Adobe Developer Console, consulte [Crear un proyecto](https://developer.adobe.com/dep/guides/dev-console/create-project/) en la documentación de Adobe.
 
 ## Crear una conexión
 
@@ -84,11 +84,11 @@ Puede crear conexiones independientes a proyectos independientes, pero no puede 
 >
 >Con el conector de Adobe Authenticator, puede elegir entre realizar una conexión de servidor a servidor OAuth o una conexión de cuenta de servicio (JWT). La Adobe tiene credenciales de JWT obsoletas, que dejarán de funcionar el 1 de enero de 2025. **Por lo tanto, recomendamos encarecidamente la creación de conexiones de OAuth.**
 >
->Para obtener más información sobre estos tipos de conexiones, consulte [Autenticación de servidor a servidor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) en la documentación del Adobe
+>Para obtener más información sobre estos tipos de conexiones, consulte [Autenticación de servidor a servidor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) en la documentación de Adobe
 
 Para crear una conexión:
 
-1. En cualquier módulo de Adobe Authenticator, haga clic en **Añadir** junto al campo Conexión.
+1. En cualquier módulo de Adobe Authenticator, haga clic en **Agregar** junto al campo Conexión.
 1. Rellene los campos siguientes:
 
    <table style="table-layout:auto"> 
@@ -111,11 +111,11 @@ Para crear una conexión:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID de cliente]</td>
-        <td>Introduzca su [!DNL Adobe] ID de cliente. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Escriba su ID de cliente [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Secreto de cliente]</td>
-        <td>Introduzca su [!DNL Adobe] Secreto del cliente. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Escriba el secreto de cliente de [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Ámbitos]</td>
@@ -123,11 +123,11 @@ Para crear una conexión:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID de cuenta técnica]</td>
-        <td>Introduzca su [!DNL Adobe] ID de cuenta técnica. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Escriba su ID de cuenta técnica de [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID de organización]</td>
-        <td>Si ha seleccionado una conexión JWT, introduzca su [!DNL Adobe] ID de organización. Esto se puede encontrar en la sección [!UICONTROL Credentials details] del [!DNL Adobe Developer Console].
+        <td>Si ha seleccionado una conexión JWT, introduzca su ID de organización [!DNL Adobe]. Esto se puede encontrar en la sección [!UICONTROL Credentials details] de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL MetaÁmbitos]</td>
@@ -136,11 +136,11 @@ Para crear una conexión:
       <tr>
         <td role="rowheader">[!UICONTROL Clave privada]</td>
         <td>
-          <p>Si ha seleccionado una conexión JWT, introduzca la clave privada que se generó cuando se crearon las credenciales en [!DNL Adobe Developer Console]. </p>
+          <p>Si ha seleccionado una conexión JWT, introduzca la clave privada que se generó cuando se crearon sus credenciales en [!DNL Adobe Developer Console]. </p>
           <p>Para extraer la clave privada o el certificado:</p>
           <ol>
             <li value="1">
-              <p>Clic <b>[!UICONTROL Extraer]</b>.</p>
+              <p>Haga clic en <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Seleccione el tipo de archivo que está extrayendo.</p>
@@ -152,18 +152,18 @@ Para crear una conexión:
               <p>Introduzca la contraseña del archivo.</p>
             </li>
             <li value="5">
-              <p>Clic <b>[!UICONTROL Guardar]</b> para extraer el archivo y volver a la configuración de conexión.</p>
+              <p>Haga clic en <b>[!UICONTROL Guardar]</b> para extraer el archivo y volver a la configuración de conexión.</p>
             </li>
           </ol>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL URL base]</td>
-        <td>Debe agregar las direcciones URL base que desea que permita este autenticador. Cuando utilice el módulo Crear una llamada de API personalizada más adelante en el escenario, agregará una ruta relativa a la dirección URL elegida. Al introducir las direcciones URL aquí, puede controlar a qué se puede conectar el módulo Crear una llamada de API personalizada, lo que aumenta la seguridad.<p>Para cada URL base que desee añadir al autenticador, haga clic en <b>Añadir elemento</b> e introduzca la dirección URL base.</td>
+        <td>Debe agregar las direcciones URL base que desea que permita este autenticador. Cuando utilice el módulo Crear una llamada de API personalizada más adelante en el escenario, agregará una ruta relativa a la dirección URL elegida. Al introducir las direcciones URL aquí, puede controlar a qué se puede conectar el módulo Crear una llamada de API personalizada, lo que aumenta la seguridad.<p>Para cada URL base que desee agregar al autenticador, haga clic en <b>Agregar elemento</b> e introduzca la URL base.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL URL de autenticación]</td>
-        <td>Deje esto en blanco para utilizar la URL de autenticación IMS estándar de Adobe. <code>https://ims-na1.adobelogin.com</code>. Si no utiliza Adobe IMS para la autenticación, introduzca la URL que desea utilizar para la autenticación.</td>
+        <td>Deje esto en blanco para usar la URL de autenticación estándar IMS de Adobe de <code>https://ims-na1.adobelogin.com</code>. Si no utiliza Adobe IMS para la autenticación, introduzca la URL que desea utilizar para la autenticación.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Entorno]</td>
@@ -176,7 +176,7 @@ Para crear una conexión:
     </tbody>
     </table>
 
-1. Clic **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
+1. Haga clic en **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
 
 ## Módulo
 
@@ -194,7 +194,7 @@ Este módulo de acción le permite realizar una llamada a cualquier API de Adobe
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Conexión]</td>
-     <td>Para obtener instrucciones sobre cómo crear una conexión con el módulo de Adobe Authenticator, consulte <a href="#create-a-connection" class="MCXref xref" >Crear una conexión</a> en este artículo.</td>
+     <td>Para obtener instrucciones sobre cómo crear una conexión con el módulo Adobe Authenticator, consulte <a href="#create-a-connection" class="MCXref xref" >Crear una conexión</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -207,7 +207,7 @@ Este módulo de acción le permite realizar una llamada a cualquier API de Adobe
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Método]</p>
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
@@ -226,7 +226,7 @@ Este módulo de acción le permite realizar una llamada a cualquier API de Adobe
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Cuerpo]</td>
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

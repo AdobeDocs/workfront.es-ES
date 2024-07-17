@@ -5,8 +5,8 @@ title: Migración de tarjetas Agile Team Kanban a tableros de Workfront
 description: Puede migrar los elementos de trabajo de un panel Kanban de equipo Agile a un tablero de Workfront nuevo o existente.
 author: Lisa
 feature: Agile
-exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Puede migrar los elementos de trabajo de un panel Kanban de equipo Agile a un ta
 
 La ubicación de las tarjetas en el tablero de Workfront se basa en las políticas de columna. (Por ejemplo, una directiva podría mover todas las tarjetas con el estado &quot;En curso&quot; a una columna específica. Para obtener más información sobre las directivas de columna, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Si no hay políticas o las tarjetas no coinciden con las políticas, las tarjetas se colocan en la columna situada más a la izquierda del tablero. En este momento, las tarjetas de la columna Registro de pendientes del tablero heredado no se añaden al tablero de Workfront.
 
-Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de estado de las tarjetas se sincronizarán con ambos paneles. Puede mantener ambos tableros activos hasta que esté preparado para cambiar a los tableros de Workfront.
+Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de estado de las tarjetas se sincronizarán con ambos paneles. Puede mantener ambos tableros activos hasta que esté listo para cambiar a los tableros de Workfront.
 
 ## Requisitos de acceso
 
@@ -42,15 +42,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody>
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Migración de tarjetas Kanban a un nuevo tablero
 
 {{step1-to-team}}
 
 1. Acceda al panel Kanban.
-1. Clic [!UICONTROL **Añadir a tableros**] y seleccione [!UICONTROL **Nuevo tablero**].
-1. En el [!UICONTROL Añadir a nuevo tablero] , escriba un nombre para el nuevo tablero (el nombre del tablero actual [!UICONTROL Kanban] tablero se muestra automáticamente) y haga clic [!UICONTROL **Añadir**].
+1. Haga clic en [!UICONTROL **Agregar a tableros**] y seleccione [!UICONTROL **Nuevo tablero**].
+1. En el cuadro de diálogo [!UICONTROL Agregar al nuevo tablero], escriba un nombre para el nuevo tablero (el nombre del tablero actual [!UICONTROL Kanban] se muestra automáticamente) y haga clic en [!UICONTROL **Agregar**].
 
    ![Agregar tarjetas Kanban al nuevo tablero](assets/add-kanban-cards-to-new-board-dialog.png)
 
@@ -61,8 +61,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 {{step1-to-team}}
 
 1. Acceda al panel Kanban.
-1. Clic [!UICONTROL **Añadir a tableros**] y seleccione [!UICONTROL **Tablero existente**].
-1. En el [!UICONTROL Añadir a tablero existente] , busque y seleccione el tablero al que desea migrar las tarjetas. A continuación, haga clic en [!UICONTROL **Añadir**].
+1. Haga clic en [!UICONTROL **Agregar a tableros**] y seleccione [!UICONTROL **Tablero existente**].
+1. En el cuadro de diálogo [!UICONTROL Agregar al tablero existente], busque y seleccione el tablero al que migrar las tarjetas. A continuación, haga clic en [!UICONTROL **Agregar**].
 
    ![Agregar tarjetas Kanban al tablero existente](assets/add-kanban-cards-to-existing-board-dialog.png)
 

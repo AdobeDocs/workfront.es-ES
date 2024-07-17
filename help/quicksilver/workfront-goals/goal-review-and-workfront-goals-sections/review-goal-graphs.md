@@ -60,7 +60,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nivel de acceso</p></td>
@@ -72,7 +72,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -99,7 +99,7 @@ Los siguientes gráficos están disponibles en la sección Gráficos o en Workfr
     <ul> 
      <li>Un número total de metas para el período de tiempo seleccionado. Se tienen en cuenta los objetivos con cualquier estado. </li> 
      <li>El estado de progreso de los objetivos con un estado Activo y Cerrado.</li> 
-    </ul> <p>Para obtener información sobre cómo Workfront Goals calcula el estado de progreso, consulte <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Información general sobre el progreso y la condición de los objetivos en Adobe Workfront Goals</a>.</p> </td> 
+    </ul> <p>Para obtener información acerca de cómo Workfront Goals calcula el estado de progreso, vea <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Información general sobre el progreso y la condición de las metas en Adobe Workfront Goals</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">El gráfico de progreso del objetivo</td> 
@@ -114,14 +114,14 @@ Los siguientes gráficos están disponibles en la sección Gráficos o en Workfr
 
 ## Revisar el progreso de la meta en gráficos
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Se abrirá el área Objetivos de Workfront.
 
-1. Clic **Gráficos** en el panel izquierdo.
+1. Haga clic en **Gráficos** en el panel izquierdo.
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -134,7 +134,7 @@ Los siguientes gráficos están disponibles en la sección Gráficos o en Workfr
 
 1. (Opcional) Seleccione el tipo de información que desea mostrar actualizando los filtros en la esquina superior derecha de la sección Gráficos.
 
-   Para obtener más información sobre los objetivos de filtrado, consulte [Filtrar información en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Para obtener más información acerca de los objetivos de filtrado, vea [Filtrar información en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -171,14 +171,14 @@ Los siguientes gráficos están disponibles en la sección Gráficos o en Workfr
 
 1. Pase el ratón sobre el nodo de una semana en el gráfico de progreso del objetivo y revise lo siguiente:
 
-   * **Fecha de semana**: mes, día y año de la semana seleccionada.
+   * **Fecha de la semana**: El mes, el día y el año de la semana seleccionada.
    * **Progreso**: Un promedio del porcentaje completado real de todas las metas de la semana seleccionada.
-   * **Línea base**: Un promedio del porcentaje completado esperado de todos los objetivos para la semana seleccionada.
+   * **Línea de base**: Un promedio del porcentaje esperado completado de todas las metas de la semana seleccionada.
 
 1. (Opcional) Haga clic en **Progreso** en la parte inferior del gráfico de progreso para eliminar la línea de progreso general real
 
    O
 
-   Clic **Línea base** en la parte inferior del gráfico de progreso para eliminar el progreso esperado del gráfico.
+   Haga clic en **Línea de base** en la parte inferior del gráfico de progreso para eliminar el progreso esperado del gráfico.
 
  

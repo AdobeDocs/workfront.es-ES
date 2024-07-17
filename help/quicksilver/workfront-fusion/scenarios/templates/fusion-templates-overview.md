@@ -3,21 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Resumen de plantillas de Adobe Workfront Fusion
-description: La función de plantillas de Workfront Fusion le permite crear y utilizar plantillas existentes como punto de partida para sus [!DNL Workfront Fusion] escenarios.
+description: La función de plantillas de Workfront Fusion le permite crear y usar plantillas existentes como punto de partida para sus  [!DNL Workfront Fusion] escenarios.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ebc1853906e56b95601c1fe202ddc19d147fa7c2
+exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] información general sobre plantillas
+# Resumen de [!DNL Adobe Workfront Fusion] plantillas
 
-[!DNL Workfront Fusion] La función de plantillas de le permite crear y utilizar plantillas existentes como punto de partida para sus [!DNL Workfront Fusion] escenarios. Las plantillas representan casos de uso comunes que puede configurar y modificar para satisfacer las necesidades de su organización y los casos de uso específicos.
+La característica de plantillas [!DNL Workfront Fusion] le permite crear y usar plantillas existentes como punto de partida para sus escenarios [!DNL Workfront Fusion]. Las plantillas representan casos de uso comunes que puede configurar y modificar para satisfacer las necesidades de su organización y los casos de uso específicos.
 
-Para ver una lista de las plantillas de Fusion disponibles actualmente, consulte [Plantillas de Adobe Workfront Fusion disponibles actualmente](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
+Para obtener una lista de las plantillas de Fusion disponibles actualmente, consulte [Plantillas de Adobe Workfront Fusion disponibles actualmente](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
 
 ## Requisitos de acceso
 
@@ -38,7 +39,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>  
    <td> 
-   <p>Actual: No [!DNL Workfront Fusion] requisito de licencia.</p> 
+   <p>Actual: no se requiere licencia para [!DNL Workfront Fusion].</p> 
    <p>O</p> 
    <p>Heredado: cualquiera </p> 
    </td>  
@@ -46,9 +47,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">Product</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>[!UICONTROL Seleccionar] o [!UICONTROL Prime] [!DNL Workfront] Plan: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] está incluido.</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
    <p>O</p> 
-   <p>Actual: Su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -62,7 +63,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 En el área Plantillas, puede ver las plantillas disponibles, las aplicaciones que incluyen y su estructura. También puede buscar aplicaciones o nombres específicos y filtrar por caso de uso.
 
-1. Clic **Plantillas** ![Icono de plantilla](assets/fusion-template-icon.png) en el panel de navegación izquierdo.
+1. Haga clic en **Plantillas** ![Icono de plantilla](assets/fusion-template-icon.png) en el panel de navegación izquierdo.
 1. Para ver las plantillas disponibles públicamente, haga clic en la pestaña Plantillas públicas.
 
    O
@@ -79,6 +80,6 @@ En el área Plantillas, puede ver las plantillas disponibles, las aplicaciones q
 
    Se muestra un diagrama de la plantilla.
 
-1. Para empezar a crear un escenario a partir de la plantilla, haga clic en **Crear nuevo escenario a partir de plantilla** en la esquina inferior izquierda.
+1. Para empezar a crear un escenario a partir de la plantilla, haga clic en **Crear nuevo escenario a partir de la plantilla** en la esquina inferior izquierda.
 
-Para obtener instrucciones sobre la creación de un escenario a partir de una plantilla, consulte [Creación de escenarios con [!DNL Adobe Workfront Fusion] templates](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+Para obtener instrucciones sobre cómo crear un escenario a partir de una plantilla, consulte [Crear escenarios con [!DNL Adobe Workfront Fusion] plantillas](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).

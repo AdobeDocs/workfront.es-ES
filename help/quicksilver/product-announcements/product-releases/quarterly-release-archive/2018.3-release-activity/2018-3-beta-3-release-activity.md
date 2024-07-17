@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión 2018.3 Beta 3
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 3 de 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 16 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
+title: Actividad de la versión 2018.3 de Beta 3
+description: Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión Beta 3 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 16 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión 2018.3 Beta 3
+# Actividad de la versión 2018.3 de Beta 3
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 3 de 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 16 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
+Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión Beta 3 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 16 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
 
 >[!NOTE]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.3, consulte  [información general sobre la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.3, consulte  [resumen de la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versión beta 3 de 2018.3 contiene mejoras para administradores de Workfront y otros usuarios:
+La versión 2018.3 de Beta 3 contiene mejoras para administradores de Workfront y otros usuarios:
 
-**Para administradores**
+**Para Administradores**
 
 * [Actualizar roles en el perfil de usuario como administrador de grupo](#update-roles-in-the-user-profile-as-a-group-administrator)
 
-**Para todos los usuarios**
+**Para Todos Los Usuarios**
 
 * [El área de inicio es ahora la predeterminada](#home-area-is-now-the-default)
 * [Priorizar el trabajo en Inicio](#prioritize-your-work-in-home)
 * [URL única para la vista de usuario del Planificador de recursos](#unique-url-for-the-resource-planner-user-view)
 * [Cargar imagen de perfil en la aplicación móvil de Workfront](#upload-profile-picture-in-the-workfront-mobile-app) 
-* [Mejora de formularios personalizados en la aplicación móvil de Workfront](#custom-form-improvement-in-the-workfront-mobile-app)
-* [Registrar tiempo en la aplicación móvil de Workfront en orientación horizontal](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
+* [Mejora de formulario personalizado en la aplicación móvil de Workfront](#custom-form-improvement-in-the-workfront-mobile-app)
+* [Registrar tiempo en la aplicación móvil de Workfront con orientación horizontal](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
 * [Reorganizar los iconos en la barra de navegación inferior de la aplicación móvil de Workfront](#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app)
 
 ## El área de inicio es ahora la predeterminada {#home-area-is-now-the-default}
@@ -50,7 +50,7 @@ Con la opción de ordenación Mi prioridad, ahora puede dar prioridad a cualquie
 
 Anteriormente, en el área Mi trabajo sólo se podía dar prioridad a tareas y problemas.
 
-Para obtener más información, consulte [Priorizar el trabajo en el área de Inicio](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+Para obtener más información, vea [Priorizar el trabajo en el área de inicio](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ## Actualizar roles en el perfil de usuario como administrador de grupo {#update-roles-in-the-user-profile-as-a-group-administrator}
 

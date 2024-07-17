@@ -68,7 +68,7 @@ El administrador de Adobe Workfront puede agregar estados personalizados para pr
 
 Para obtener más información sobre los estados personalizados y los tipos de problemas, consulte los siguientes artículos:
 
-* [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+* [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [Crear problemas](../../../manage-work/issues/manage-issues/create-issues.md)
 
 Puede actualizar manualmente los estados de los problemas o dejar que Workfront los actualice automáticamente cuando se realicen determinadas acciones.
@@ -86,8 +86,8 @@ Puede actualizar el estado del problema en las siguientes áreas de Workfront:
 Para actualizar de forma manual el estado del problema en el encabezado del mismo:
 
 1. Vaya a un problema en el que desee actualizar el estado.
-1. Haga clic en **Estado** en el encabezado del problema y seleccione un nuevo estado.
-1. Para proporcionar una indicación visual de la finalización del problema, arrastre o haga doble clic en la burbuja debajo de **Porcentaje completado** en el encabezado del problema
+1. Haga clic en el campo **Estado** en el encabezado del problema y seleccione un nuevo estado.
+1. Para proporcionar una indicación visual de la finalización del problema, arrastre o haga doble clic en la burbuja bajo **Porcentaje completado** en el encabezado del problema
 
    O
 
@@ -97,12 +97,12 @@ Para actualizar de forma manual el estado del problema en el encabezado del mism
 
 1. (Opcional) Realice una de las siguientes acciones para proporcionar información adicional sobre la actualización:
 
-   * Para añadir una nota sobre la actualización, vaya a **Actualizaciones** y haga clic en **Nuevo comentario** y, a continuación, escriba una nota.
+   * Para agregar una nota sobre la actualización, ve a la sección **Actualizaciones**, haz clic en **Nuevo comentario** y luego escribe una nota.
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Para notificar la actualización a determinados usuarios, escriba sus nombres en la **Etiquetar personas o equipos** que aparece al escribir un comentario. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Para actualizar la fecha de confirmación del problema, haga clic en **Detalles del problema**, luego edite el **Fecha de confirmación** field. Para obtener más información, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * Para notificar la actualización a determinados usuarios, escriba sus nombres en el campo **Etiquetar personas o equipos** que aparece al escribir un comentario. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Para actualizar la fecha de confirmación del problema, haga clic en **Detalles del problema** y, a continuación, edite el campo **Fecha de confirmación**. Para obtener más información, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 
    >[!IMPORTANT]
@@ -136,7 +136,7 @@ Workfront actualiza automáticamente el estado existente de un problema a un est
 
 >[!NOTE]
 >
->Los estados de la tabla siguiente son estados de sistema predeterminados. El administrador de Workfront o de un grupo puede cambiar el nombre de los estados de su instancia de Workfront. Para obtener información sobre la creación y administración de estados en Workfront, consulte [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>Los estados de la tabla siguiente son estados de sistema predeterminados. El administrador de Workfront o de un grupo puede cambiar el nombre de los estados de su instancia de Workfront. Para obtener información sobre cómo crear y administrar estados en Workfront, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,12 +161,12 @@ Workfront actualiza automáticamente el estado existente de un problema a un est
   <tr> 
    <td>Actualizar el estado de un objeto de resolución adjunto al problema</td> 
    <td>Varios estados</td> 
-   <td> <p>Varios estados</p> <p>Para obtener información sobre la resolución de objetos y cómo afectan al estado de los problemas, consulte la sección "Sincronización del estado del objeto solucionable con el del objeto de resolución" en el artículo <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</p> </td> 
+   <td> <p>Varios estados</p> <p>Para obtener información sobre la resolución de objetos y cómo afectan al estado de los problemas, consulte la sección "Sincronizar el estado del objeto solucionable con el del objeto solucionable" en el artículo <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Haga clic en el botón Iniciar problema para aceptar que se trabaje en un problema asignado a usted</span> </td> 
+   <td><span>Haga clic en el botón Iniciar problema para aceptar que se esté trabajando en un problema que se le haya asignado</span> </td> 
    <td><span>Nuevo</span> </td> 
-   <td> <p>Cualquier estado asociado con el botón Iniciar problema en la configuración de Equipo de inicio. </p> <p>Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar problema, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por un botón Iniciar</a></span><span>.</span> </p> <p>Sugerencia: hacer clic <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">el botón Deshacer</span> después de hacer clic en Iniciar problema, el estado cambia a Nuevo. </p> </td> 
+   <td> <p>Cualquier estado asociado con el botón Iniciar problema en la configuración de Equipo de inicio. </p> <p>Para obtener información acerca de cómo reemplazar el botón Trabajar en ello por un botón Iniciar problema, vea <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por un botón Iniciar</a></span><span>.</span> </p> <p>Sugerencia: Al hacer clic en <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">el botón Deshacer</span> después de hacer clic en Iniciar problema, se revierte el estado a Nuevo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

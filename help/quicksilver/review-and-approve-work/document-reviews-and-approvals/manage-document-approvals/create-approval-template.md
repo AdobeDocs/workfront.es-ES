@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Crear una plantilla de aprobación para recursos y documentos
 
-<span class="preview">La información de esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 En el área Configuración de Workfront, los usuarios con una licencia Estándar pueden crear plantillas de aprobación reutilizables. Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un proyecto, tarea o problema.
 
@@ -51,13 +51,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Revisión y aprobación** > **Plantillas de aprobación**.
-1. Clic **Nueva plantilla** en el lado derecho de la página.
+1. En el panel izquierdo, haga clic en **Revisar y aprobar** > **Plantillas de aprobación**.
+1. Haga clic en **Nueva plantilla** en el lado derecho de la página.
 1. Especifique la siguiente información:
 
    | Nombre de plantilla | Empiece a escribir un nombre para esta plantilla. |
    |----------------------------|---|
-   | **(Opcional) Periodo de tiempo** | Introduzca el periodo de tiempo en días El plazo de aprobación se calcula a partir de este campo una vez que la plantilla se aplica a un recurso. |
+   | **(Opcional) Intervalo de tiempo** | Introduzca el periodo de tiempo en días El plazo de aprobación se calcula a partir de este campo una vez que la plantilla se aplica a un recurso. |
    | **Agregar aprobadores o revisores** | Empiece escribiendo el nombre de los usuarios o equipos y, a continuación, designa a los mismos como revisores o aprobadores. |
 1. Haga clic en **Guardar**.
 

@@ -10,7 +10,7 @@ exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -36,21 +36,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Problema
 
 Al ejecutar un informe o mostrarlo en un panel, se devuelve el siguiente error:\
-*Intentémoslo de nuevo. Aún no ha iniciado sesión.*
+*Intentémoslo de nuevo. Actualmente no ha iniciado sesión.*
 
 No se muestran resultados en el informe.
 
@@ -64,12 +64,12 @@ Debe tener permisos de administración en el informe para poder cambiar la confi
 Para ajustar el informe y ver los resultados:
 
 1. Vaya al informe.
-1. Clic **Acciones de informe** > **Editar** > **Configuración de informes**.
+1. Haga clic en **Acciones de informe** > **Editar** > **Configuración de informe**.
 
-1. Especifique el nombre de un usuario activo en la variable **Ejecutar este informe con los derechos de acceso de:** field.\
+1. Especifique el nombre de un usuario activo en el campo **Ejecutar este informe con los derechos de acceso de:**.\
    O\
-   Deje el **Ejecutar este informe con los derechos de acceso de:** en blanco.
+   Deje el campo **Ejecutar este informe con los derechos de acceso de:** en blanco.
 
-1. Clic **Listo**.
+1. Haga clic en **Listo**.
 1. Haga clic en **Guardar + Cerrar**.\
    El error no debería aparecer de nuevo al ejecutar este informe.

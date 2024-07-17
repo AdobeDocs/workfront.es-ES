@@ -22,4 +22,4 @@ Estas mejoras estarán disponibles en el entorno de producción con la versión 
 
 En función de los comentarios de los usuarios, hemos añadido la opción de posponer las actualizaciones para el Visor de pruebas de escritorio. Los usuarios ahora pueden optar por retrasar una actualización y continuar con su trabajo, pero se les recordará que hay una actualización disponible cada vez que abren el Visor de corrección de escritorio.
 
-Para obtener más información sobre la actualización del Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Para obtener más información sobre cómo actualizar el Visor de corrección de escritorio, consulte [Actualizar el Visor de corrección de escritorio](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

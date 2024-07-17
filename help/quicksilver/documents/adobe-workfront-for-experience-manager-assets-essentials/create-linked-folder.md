@@ -31,19 +31,19 @@ Debe tener lo siguiente:
    </td>
   </tr>
   <tr>
-   <td><strong>Licencias de Adobe Workfront*</strong>
+   <td><strong>licencias de Adobe Workfront*</strong>
    </td>
    <td>Plan
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong>Producto</strong>
    </td>
-   <td>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials y se le debe añadir al producto como usuario.
+   <td>Debe tener Assets Essentials as a Cloud Service de Experience Manager Assets y se le debe agregar al producto como usuario.
    </td>
   </tr>
   <tr>
-   <td><strong>Permisos de Experience Manager</strong>
+   <td><strong>permisos de Experience Manager</strong>
    </td>
    <td>Debe tener acceso de escritura a la carpeta de destino en la integración de Experience Manager.
    </td>
@@ -78,11 +78,11 @@ Para crear una carpeta vinculada:
 
 
 1. Vaya al proyecto donde desee colocar la carpeta.
-1. Seleccionar **Añadir nuevo** y, a continuación, vaya a la integración de Experience Manager que configuró su administrador.
+1. Seleccione **Agregar nuevo** y, a continuación, vaya a la integración de Experience Manager que configuró su administrador.
 
    >[!NOTE]
    >
    >El administrador de Workfront puede elegir cualquier nombre para esta integración, por lo que es posible que no mencione específicamente a Experience Manager Assets ni a los Assets Essentials.
 
-1. Seleccionar **Crear carpeta vinculada**. El sistema crea automáticamente una carpeta en Experience Manager en función de la ubicación especificada cuando se configuró la integración.
+1. Seleccione **Crear carpeta vinculada**. El sistema crea automáticamente una carpeta en Experience Manager en función de la ubicación especificada cuando se configuró la integración.
    ![crear una carpeta vinculada](assets/linked-folder.png)

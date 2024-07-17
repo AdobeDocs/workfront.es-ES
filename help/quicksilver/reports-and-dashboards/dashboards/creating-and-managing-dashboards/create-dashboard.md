@@ -62,17 +62,17 @@ Debe tener lo siguiente:
 
 Debe crear cualquiera de los siguientes objetos antes de agregarlos a un panel:
 
-* **Informes**: Para obtener información sobre la creación de informes, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* **Informes**: para obtener información sobre cómo crear informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* **Calendarios**: Para obtener información sobre la creación de calendarios, consulte [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **Calendarios**: para obtener información sobre cómo crear calendarios, consulte [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-Puede agregar páginas externas existentes a un panel o crear una desde el nuevo panel. Para obtener información sobre la creación de páginas externas, consulte [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Puede agregar páginas externas existentes a un panel o crear una desde el nuevo panel. Para obtener información sobre cómo crear páginas externas, consulte [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Crear un tablero
 
 {{step1-to-dashboards}}
 
-1. Clic **Nuevo panel**.\
+1. Haga clic en **Nuevo panel**.\
    Aparece el cuadro de diálogo Nuevo panel.
 
 1. Especifique lo siguiente:
@@ -92,27 +92,27 @@ Puede agregar páginas externas existentes a un panel o crear una desde el nuevo
     </tbody>
    </table>
 
-1. Para seleccionar un diseño, haga clic en el botón de opción correspondiente en la parte superior del **Seleccionar diseño/ Agregar informes/ Agregar calendarios** sección. Diseño en el que se muestran los informes, calendarios o páginas externas en el panel.
+1. Seleccione un diseño haciendo clic en el botón de opción correspondiente en la parte superior de la sección **Seleccionar diseño/ Agregar informes/ Agregar calendarios**. Diseño en el que se muestran los informes, calendarios o páginas externas en el panel.
 
    El diseño de una sola columna es el predeterminado.
 
-   Para obtener información sobre el diseño del informe en los paneles, consulte [Comprender cómo se muestran los informes en un panel](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
+   Para obtener información sobre el diseño de informes en los paneles, consulte [Comprender cómo se muestran los informes en un panel](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
 
    <!--
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Busque informes, calendarios o páginas externas en la **Buscar por nombre o tipo...** y, a continuación, arrástrelos al panel de diseño cuando aparezcan en la lista.
+1. Busque informes, calendarios o páginas externas en el campo **Buscar por nombre o tipo ...** y, a continuación, arrástrelos al panel de diseño cuando aparezcan en la lista.
 
    >[!NOTE]
    >
    >Al buscar un elemento, la búsqueda devuelve cualquiera de los 2000 informes creados más recientemente. Los nombres de los informes que incluyen caracteres Unicode no se devuelven en los resultados de búsqueda. Como práctica recomendada, evite incluir caracteres Unicode al nombrar objetos en Workfront escribiendo nombres en lugar de copiar y pegar nombres de otra fuente.
 
-   ![Búsqueda de informes](assets/qs-new-dashboard-ui-0722.png)
+   ![Buscar informes](assets/qs-new-dashboard-ui-0722.png)
 
 1. (Opcional) Haga clic en **Agregar página externa** para agregar una nueva página externa al panel.
 
-   Para obtener más información sobre la creación de páginas externas y su incrustación en los paneles, consulte [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Para obtener más información sobre cómo crear páginas externas e incrustarlas en los paneles, vea [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 1. Haga clic en **Guardar + Cerrar**.
 

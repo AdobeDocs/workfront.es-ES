@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-la semana del 4 de abril de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general de la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+la semana del 4 de abril de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general sobre la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Los tableros de Adobe Workfront ya están disponibles.
 
@@ -40,7 +40,7 @@ Tenga en cuenta que las tarjetas de un tablero no están conectadas a objetos y 
 
 Un administrador del sistema debe habilitar Tableros en plantillas de diseño para que la opción esté disponible para todos los usuarios en el menú principal.
 
-Para obtener más información, consulte [Información general de tableros](../../../agile/boards-overview.md).
+Para obtener más información, consulte [Información general sobre tableros](../../../agile/boards-overview.md).
 
 ## Mejoras adicionales en los tableros de Workfront
 
@@ -71,7 +71,7 @@ Para obtener más información, consulte [Introducción a los tableros en Adobe 
 
 Ahora es más fácil detectar errores al publicar una actualización. Al finalizar un comentario en la pestaña Actualizar de un objeto, ahora se crea una ventana emergente durante 7 segundos que le permite cancelar la publicación y volver a la edición, antes de que el sistema lo marque con la hora o envíe correos electrónicos y notificaciones en la aplicación. Si cierra la ventana emergente, abandona la página o espera 7 segundos a que se agote el tiempo de espera de la ventana, la publicación se realizará de forma normal.
 
-Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Experiencia actualizada al copiar y mover problemas
 
@@ -111,7 +111,7 @@ Se ha agregado un nuevo menú Más en las listas de proyectos y los informes par
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Recalcular escalas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [Recalcular escalas de tiempo de proyectos](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Recalcular finanzas del proyecto](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Editar información en campos de formulario personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
@@ -124,7 +124,7 @@ Para aumentar la eficacia y eliminar el número de clics, hemos publicado una me
 
 Los usuarios permanecen en la lista, el informe o un panel después de convertir un problema en un proyecto en lugar de ser redirigidos a la página del proyecto. Una vez completada la conversión, se muestra una notificación de éxito con el vínculo al proyecto para permitirle navegar fácilmente al proyecto, si es necesario.
 
-Para obtener más información, consulte [Conversión de un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Las horas de asignación ya no se eliminarán al realizar cambios en las asignaciones
 
@@ -152,5 +152,5 @@ Para garantizar el mejor rendimiento a los usuarios que comparten carpetas, actu
 
 Cada carpeta del sexto nivel o inferior hereda sus configuraciones de uso compartido de la carpeta directamente superior a ella.
 
-Para obtener más información sobre cómo compartir carpetas, consulte [Compartir una carpeta de documentos](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Para obtener más información sobre cómo compartir carpetas, vea [Compartir una carpeta de documentos](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 

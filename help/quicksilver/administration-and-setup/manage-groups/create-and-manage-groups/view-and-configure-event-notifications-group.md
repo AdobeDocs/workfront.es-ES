@@ -28,7 +28,7 @@ La configuración de una notificación de eventos para un grupo afecta a los usu
 
 Para obtener información sobre cómo un administrador de Workfront desbloquea una notificación de eventos, consulte [Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Para obtener información sobre la configuración de notificación predeterminada para un evento, consulte [Tipos de notificación de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obtener información acerca de la configuración de notificación predeterminada para un evento, vea [Tipos de notificación de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Requisitos de acceso
 
@@ -54,24 +54,24 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 ## Visualización y configuración de las notificaciones de eventos de un grupo
 
 1. (Condicional y opcional) Si es administrador de Workfront y ya se encuentra en la página Notificaciones por correo electrónico (Configuración > Correo electrónico > Notificaciones), puede hacer lo siguiente y pasar al paso 6: Eliminar **Notificaciones de eventos del sistema** en el cuadro situado encima de la lista, empiece a escribir el nombre del grupo en el cuadro y, a continuación, haga clic en él cuando aparezca.
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo de nivel superior.
-1. En el menú izquierdo, haga clic en **Notificaciones de eventos**.
+1. En el menú de la izquierda, haga clic en **Notificaciones de eventos**.
 
-   En la lista que se muestra, la variable **Activo** La columna de la izquierda muestra qué notificaciones están activas (azul) e inactivas (gris) para el grupo.
+   En la lista que se muestra, la columna **Activo** de la izquierda muestra qué notificaciones están activas (azules) e inactivas (grises) para el grupo.
 
-1. Para activar o desactivar una notificación de evento desbloqueado: haga clic en el botón del <strong>Activo</strong> columna para activar <img src="assets/email-notification-enabled-unlocked.png"> o desactivar <img src="assets/email-notification-disabled-unlocked.png"> it.
+1. Para activar o desactivar una notificación de eventos desbloqueados: haga clic en el botón de la columna <strong>Activo</strong> para activarla <img src="assets/email-notification-enabled-unlocked.png"> o desactivar lo <img src="assets/email-notification-disabled-unlocked.png">.
 
    >[!INFO]
    >
    >**Ejemplo:** Puede configurar las dos notificaciones de eventos de grupos de marketing principales que se muestran a continuación y que se han desbloqueado para grupos.</p> <p> <img src="assets/configure-group-event-notifications.png">
-   >* Si aparece un botón en <strong>Activo</strong> columna gris y atenuada <img src="assets/email-notification-disabled-locked.png">, la notificación de eventos se desactiva para todos los usuarios y los administradores de grupos no pueden activarla ni editar la línea de asunto de su correo electrónico
-   >* Si aparece un botón en <strong>Activo</strong> la columna es gris y no está atenuada <img src="assets/email-notification-disabled-unlocked.png">, la notificación de eventos es <strong>desactivado para todos los usuarios y</strong> los administradores de grupos pueden activarlo para sus grupos.
-   >* Si aparece un botón en <strong>Activo</strong> la columna está en azul y atenuada <img src="assets/email-notification-enabled-locked.png">Además, la notificación de eventos se activa para todos los usuarios y los administradores de grupos no pueden desactivarla ni editar la línea de asunto de correo electrónico para sus grupos.
-   >* Si aparece un botón en <strong>Activo</strong> la columna es azul y no está atenuada <img src="assets/email-notification-enabled-unlocked.png">, la notificación de eventos es <strong>activado para todos los usuarios y</strong> los administradores de grupos pueden desactivarlo para sus grupos.
+   >* Si un botón de la columna <strong>Activo</strong> está atenuado y en gris <img src="assets/email-notification-disabled-locked.png">, la notificación de eventos está desactivada para todos los usuarios y los administradores del grupo no pueden activarla ni editar la línea de asunto del correo electrónico
+   >* Si un botón de la columna <strong>Activo</strong> es gris y no está atenuado <img src="assets/email-notification-disabled-unlocked.png">, la notificación de eventos está <strong>desactivada para todos los usuarios y </strong> los administradores del grupo pueden activarla para sus grupos.
+   >* Si un botón de la columna <strong>Activo</strong> aparece en azul y atenuado <img src="assets/email-notification-enabled-locked.png">, la notificación de eventos está activada para todos los usuarios y los administradores del grupo no pueden desactivarla ni editar la línea de asunto de correo electrónico para sus grupos.
+   >* Si un botón de la columna <strong>Activo</strong> es azul y no está atenuado <img src="assets/email-notification-enabled-unlocked.png">, la notificación de eventos está <strong>activada para todos los usuarios y </strong> los administradores del grupo pueden desactivarla para sus grupos.
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

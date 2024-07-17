@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras móviles realizadas con la versión 20.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 9 de noviembre de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Información general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Descripción general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Funcionalidad añadida en las notificaciones de Microsoft Teams
 
@@ -32,7 +32,7 @@ Para facilitar el uso de Workfront a través de Microsoft Teams, hemos añadido 
 * Le hemos permitido ver los formularios personalizados de un elemento de trabajo en la notificación y expandir el formulario personalizado para ver sus campos.
 * Cuando recibe una notificación sobre un proyecto, una tarea o un problema, ahora puede cambiar el estado del elemento de trabajo directamente en la notificación.
 
-Para obtener más información, consulte [Administración de notificaciones de Adobe Workfront en Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Para obtener más información, consulte [Administrar notificaciones de Adobe Workfront en Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Presentación de Workfront para MobileIron
 
@@ -40,7 +40,7 @@ Workfront se ha asociado con MobileIron, una plataforma de administración de di
 
 Con Workfront para MobileIron, los administradores pueden restringir cosas como la funcionalidad de copiar/pegar y las capturas de pantalla. Puede descargar la aplicación de Workfront para MobileIron en [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Para obtener información sobre la configuración de la aplicación, consulte [Configuración de Adobe Workfront para MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Para obtener información sobre cómo configurar la aplicación, consulta [Configuración de Adobe Workfront para MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Cree una tarea rápidamente en la aplicación móvil de Workfront
 
@@ -62,4 +62,4 @@ En la aplicación móvil, puede pedir al asistente virtual que le ayude con los 
 
 Estos comandos muestran una lista de las diferentes cosas que puede preguntar al asistente.
 
-**Nota: El Asistente virtual móvil ha quedado obsoleto en abril de 2024.**
+**Nota: el Asistente virtual móvil quedó obsoleto en abril de 2024.**

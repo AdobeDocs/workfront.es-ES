@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Tome una decisión sobre una prueba en el visor de pruebas
-description: Puede tomar una decisión sobre una prueba directamente en el visor de pruebas.
+title: Tome una decisión sobre una prueba en el visualizador de pruebas
+description: Puede tomar una decisión sobre una prueba directamente en el visualizador de pruebas.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
@@ -13,9 +13,9 @@ ht-degree: 3%
 
 ---
 
-# Tome una decisión sobre una prueba en el visor de pruebas
+# Tome una decisión sobre una prueba en el visualizador de pruebas
 
-Puede tomar una decisión sobre una prueba directamente en el visor de pruebas.
+Puede tomar una decisión sobre una prueba directamente en el visualizador de pruebas.
 
 ## Requisitos de acceso
 
@@ -26,38 +26,38 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o plan</p> <p>Plan heredado: Cualquiera (debe tener las pruebas habilitadas para el usuario)</p> </td> 
+   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Administrador o superior</td> 
+   <td>Responsable o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Función de prueba</td> 
-   <td>Aprobador, revisor y aprobador, autor, moderador</td> 
+   <td>Aprobador, Revisor y aprobador, Autor, Moderador</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con el administrador de Workfront o Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
-## Tome una decisión sobre una prueba en el visor de pruebas
+## Tome una decisión sobre una prueba en el visualizador de pruebas
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir prueba**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. Haga clic en **Tomar una decisión** en el centro superior del visor de pruebas.
+1. Haga clic en **Tomar decisión** en la parte superior central del visor de revisión.
 
-1. En el **Decisión probatoria** que aparece, haga clic en una de las siguientes decisiones:
+1. En el cuadro **Decisión de la revisión** que aparece, haga clic en una de las siguientes decisiones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -69,11 +69,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Aprobado con cambios</td> 
-      <td>La prueba requiere algunos cambios, pero no es necesario que vea la revisión antes de pasar a la siguiente etapa del flujo de trabajo automatizado.</td> 
+      <td>La revisión requiere algunos cambios, pero no es necesario que vea la revisión antes de pasar a la siguiente fase del flujo de trabajo automatizado.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Es necesario hacer cambios</td> 
-      <td>La prueba requiere cambios y debe ver otra revisión antes de pasar a la siguiente fase del flujo de trabajo automatizado.</td> 
+      <td>La prueba requiere cambios y debe ver otra revisión antes de pasar a la siguiente etapa del flujo de trabajo automatizado.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">No es relevante</td> 
@@ -81,14 +81,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Decisión personalizada</td> 
-      <td> <p>En los planes Select and Premium, el administrador de Workfront o el administrador de Workfront Proof pueden cambiar el nombre, reordenar y ocultar las decisiones. Para obtener más información, consulte <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configurar las opciones de decisión de aprobación en Workfront Proof</a>.</p> </td> 
+      <td> <p>En los planes Select y Premium, el administrador de Workfront o de Workfront Proof puede cambiar el nombre, reordenar y ocultar las decisiones. Para obtener más información, consulte <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configurar las opciones de decisión de aprobación en Workfront Proof</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Si el administrador de Adobe Workfront o el administrador de prueba de Workfront han agregado una sección Motivos , seleccione los motivos aplicables para la decisión. Para obtener más información sobre cómo los administradores pueden configurar motivos de decisión, consulte  [Configurar las opciones de decisión de aprobación en Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
-1. (Opcional) Seleccione **Enviarme una confirmación por correo electrónico** para recibir una confirmación por correo electrónico de su decisión.
-1. Haga clic en **Tomar una decisión**.
+1. (Condicional) Si el administrador de Adobe Workfront o de Workfront Proof ha agregado una sección Motivos, seleccione los motivos aplicables para su decisión. Para obtener más información sobre cómo los administradores pueden configurar motivos de decisión, consulte  [Configurar opciones de decisión de aprobación en Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Opcional) Seleccione **Enviarme una confirmación por correo electrónico** para recibir una confirmación por correo electrónico de su decisión.
+1. Haga clic en **Tomar decisión**.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a decision when the proof is configured with an approval process</h2>

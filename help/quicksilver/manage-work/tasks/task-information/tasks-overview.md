@@ -22,7 +22,7 @@ Una tarea es un elemento de trabajo dentro de un proyecto. Representa una cantid
 
 Se pueden asignar tareas a los usuarios para que las completen. Cuando se hayan completado todas las tareas de un proyecto, el estado del proyecto se puede marcar como Completado.
 
-Para obtener más información sobre los proyectos de Adobe Workfront, consulte [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+Para obtener más información sobre los proyectos de Adobe Workfront, vea [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
 Los siguientes son tipos de tareas en un proyecto:
 
@@ -38,15 +38,15 @@ Puede desglosar una tarea de mayor alcance en varias tareas más pequeñas que s
 
 Según el modo de finalización de resumen del proyecto, es posible que pueda completar una tarea principal independientemente de sus tareas secundarias. De forma predeterminada, no se puede completar ni actualizar una tarea principal independientemente de sus tareas secundarias.
 
-Para obtener más información sobre el modo de finalización de resumen de los proyectos, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Para obtener más información sobre el modo de finalización de resumen de los proyectos, vea [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Información general sobre subtareas o tareas secundarias
 
 Las subtareas o tareas secundarias son tareas enumeradas en una tarea principal. Normalmente influyen en la actualización y la resolución de la tarea principal.
 
-Para obtener más información sobre las tareas principales, consulte [Información general sobre las tareas principales](#overview-of-parent-tasks) en este artículo.
+Para obtener más información acerca de las tareas principales, vea [Información general sobre las tareas principales](#overview-of-parent-tasks) en este artículo.
 
-Para obtener más información sobre la creación de tareas secundarias, consulte [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Para obtener más información sobre cómo crear una tarea secundaria, vea [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ## Información general sobre las tareas de nivel superior
 
@@ -62,4 +62,4 @@ Puede actualizar y completar las tareas de trabajo sin influir en la actualizaci
 
 ## Tareas recurrentes
 
-Si tiene una tarea que se produce repetidamente, puede crearla como una tarea recurrente con varias repeticiones. Para obtener información sobre las tareas recurrentes, consulte [Información general sobre tareas recurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Si tiene una tarea que se produce repetidamente, puede crearla como una tarea recurrente con varias repeticiones. Para obtener información acerca de tareas recurrentes, vea [Información general sobre tareas recurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

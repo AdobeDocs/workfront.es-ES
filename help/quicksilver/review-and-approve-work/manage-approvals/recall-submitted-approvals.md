@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Puede recuperar cualquiera de los siguientes objetos enviados para su aprobació
 * Proyectos
 * Tareas
 * Problemas
-* Plantillas de horas
+* Hojas de horas
 * Documentos
 * Solicitudes de acceso
 
@@ -42,16 +42,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos, Tareas, Problemas, Hojas de horas, Documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior a Proyectos, Tareas, Problemas, Hojas de horas, Documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de visualización o superior al objeto asociado con la aprobación </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior al objeto asociado con la aprobación </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Proyectos
 
@@ -65,24 +65,24 @@ Si recupera una aprobación asociada al estado inicial del proyecto, se omite el
 
 Para recuperar una aprobación de proyecto enviada:
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. En el **Lista de trabajos** , vaya al **Aprobaciones que he enviado** agrupación.
+1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
 
-1. Haga clic en **Proyecto** aprobación en la Lista de trabajos.
+1. Haga clic en una aprobación de **Proyecto** en la Lista de trabajos.
 
    Esto abre el proyecto a la derecha de la Lista de trabajos.
 
    ![](assets/project-pending-approval-phome-nwe-350x106.png)
 
-1. Clic **Recordar** en la esquina superior derecha del panel derecho.
+1. Haga clic en **Recuperar** en la esquina superior derecha del panel derecho.
 
 ## Tareas
 
@@ -92,28 +92,28 @@ Si recupera una aprobación asociada al estado inicial de la tarea, el proceso d
 
 >[!NOTE]
 >
-Puede asociar el primer estado de un proyecto o tarea con un proceso de aprobación mediante una plantilla. Para obtener más información sobre cómo añadir aprobaciones a una plantilla, consulte [Editar plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Puede asociar el primer estado de un proyecto o tarea con un proceso de aprobación mediante una plantilla. Para obtener más información sobre cómo agregar aprobaciones a una plantilla, consulte [Editar plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Para recuperar una aprobación de tarea enviada:
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. En el **Lista de trabajos** , vaya al **Aprobaciones que he enviado** agrupación.
+1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
 
-1. Haga clic en **Tarea** aprobación en la Lista de trabajos.
+1. Haga clic en una aprobación de **Tarea** en la Lista de trabajos.
 
    Esto abre la tarea a la derecha de la Lista de trabajos.
 
    ![](assets/task-pending-approval-home-nwe-350x97.png)
 
-1. Clic **Recordar** en la esquina superior derecha del panel derecho.
+1. Haga clic en **Recuperar** en la esquina superior derecha del panel derecho.
 
 ## Problemas
 
@@ -123,93 +123,93 @@ Si recupera una aprobación asociada al estado inicial del problema, el proceso 
 
 >[!NOTE]
 >
-Puede asociar el primer estado de un problema con un proceso de aprobación mediante una plantilla. Para obtener más información sobre cómo crear una cola de solicitudes, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+>Puede asociar el primer estado de un problema con un proceso de aprobación mediante una plantilla. Para obtener más información acerca de cómo crear una cola de solicitudes, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. En el **Lista de trabajos** , vaya al **Aprobaciones que he enviado** agrupación.
+1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
 
-1. Haga clic en un **Problema** aprobación en la Lista de trabajos.
+1. Haga clic en una aprobación de **Problema** en la Lista de trabajos.
 
    Esto abre el problema a la derecha de la Lista de trabajos.
 
    ![](assets/issue-pending-approval-home-nwe-350x103.png)
 
-1. Clic **Recordar** en la esquina superior derecha del panel derecho.
+1. Haga clic en **Recuperar** en la esquina superior derecha del panel derecho.
 
-## Plantillas de horas
+## Hojas de horas
 
 Cuando recupera una aprobación de plantilla de horas, la plantilla vuelve al estado en el que estaba antes de enviarse para su aprobación.
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. En el **Lista de trabajos** , vaya al **Aprobaciones que he enviado** agrupación.
+1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
 
-1. Haga clic en **Hoja de horas** aprobación en la Lista de trabajos.
+1. Haga clic en una aprobación de **Hoja de horas** en la Lista de trabajos.
 
    Se abre la hoja de horas a la derecha de la Lista de trabajos.
 
    ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
-1. Clic **Recordar** en la esquina superior derecha del panel derecho.
+1. Haga clic en **Recuperar** en la esquina superior derecha del panel derecho.
 
 ## Documentos
 
 Para recuperar una aprobación de documento, debe quitar manualmente uno o todos los usuarios de la aprobación.
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. En el **Lista de trabajos** , vaya al **Aprobaciones que he enviado** agrupación.
+1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
 
-1. Haga clic en **Documento** aprobación en la Lista de trabajos.
+1. Haga clic en una aprobación de **documento** en la Lista de trabajos.
 
    Esto abre el documento a la derecha de la Lista de trabajos.
 
-   ![Document.png](assets/document-350x232.png)
+   ![Documento.png](assets/document-350x232.png)
 
-1. Clic **Administrar aprobaciones** en la esquina superior derecha del panel derecho. Se abrirá la casilla Administrar aprobaciones.
-1. Haga clic en **Eliminar** en línea con el nombre de un usuario dentro de la ventana Administrar aprobaciones. Elimine todos los usuarios para recuperar completamente la aprobación del documento.
+1. Haga clic en **Administrar aprobaciones** en la esquina superior derecha del panel derecho. Se abrirá la casilla Administrar aprobaciones.
+1. Haga clic en el icono **Quitar** en línea con el nombre de un usuario dentro de la casilla Administrar aprobaciones. Elimine todos los usuarios para recuperar completamente la aprobación del documento.
 
-   ![Remove_User.png](assets/remove-user-350x41.png)
+   ![Quitar_usuario.png](assets/remove-user-350x41.png)
 
 ## Solicitudes de acceso
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. En el **Lista de trabajos** , vaya al **Aprobaciones que he enviado** agrupación.
+1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
 
-1. Haga clic en un **Solicitud de acceso** aprobación en la Lista de trabajos.
+1. Haga clic en una aprobación de **Solicitud de acceso** en la Lista de trabajos.
 
    Esto abre la solicitud de acceso a la derecha de la Lista de trabajos.
 
    ![](assets/access-request-pending-approval-nwe-350x104.png)
 
-1. Clic **Recordar** en la esquina superior derecha del panel derecho.
+1. Haga clic en **Recuperar** en la esquina superior derecha del panel derecho.

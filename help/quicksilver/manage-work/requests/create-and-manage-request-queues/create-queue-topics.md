@@ -96,7 +96,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    * [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Vaya al proyecto que eligió habilitar como cola de solicitudes de ayuda y donde desea crear un nuevo tema de cola.\
-   Para obtener más información sobre cómo designar un proyecto como cola de solicitudes de ayuda, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obtener más información sobre cómo designar un proyecto como cola de solicitudes de ayuda, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Puede organizar temas de la cola relacionados en un grupo de temas. Esto proporcionará al solicitante una serie de menús desplegables al realizar una solicitud.
 
@@ -104,11 +104,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    Puede anidar los temas de la cola directamente en el proyecto designado como cola de solicitudes de ayuda, sin un grupo de temas.
 
-   Para obtener información sobre la creación de grupos de temas, consulte [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   Para obtener información sobre cómo crear grupos de temas, consulte [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Clic **Temas de cola** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, entonces **Temas de cola**.
-1. Clic **Nuevo tema de cola**.
-1. En el **Nuevo tema de cola** , escriba lo siguiente:
+1. Haga clic en **Temas de cola** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Temas de la cola**.
+1. Haga clic en **Nuevo tema de cola**.
+1. En el formulario **Nuevo tema de cola**, escriba lo siguiente:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -123,18 +123,18 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td>Describa la cola de solicitudes. La descripción se muestra cuando los usuarios seleccionan el tema de la cola en el proceso de envío de una nueva solicitud. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Añadir a grupo de temas</strong> </td> 
+      <td role="rowheader"><strong>Agregar al grupo de temas</strong> </td> 
       <td> Si no hay grupos de temas en el proyecto, el nombre predeterminado del proyecto será un grupo de temas.<br>Si desea crear grupos de temas adicionales desde aquí, seleccione <strong>Crear nuevo grupo de temas</strong> en el menú desplegable.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_Within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formularios personalizados</strong> </td> 
-      <td>Seleccione los formularios personalizados que desee asociar al tema de la cola. Debe crear formularios personalizados para los problemas antes de poder asociarlos a los temas en cola. Para obtener información sobre la creación de formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</td> 
+      <td>Seleccione los formularios personalizados que desee asociar al tema de la cola. Debe crear formularios personalizados para los problemas antes de poder asociarlos a los temas en cola. Para obtener información sobre cómo crear formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprobación predeterminada</strong></td> 
-      <td> <p>Asociar un proceso de aprobación a este tema de la cola. En este menú desplegable solo están visibles los procesos de aprobación de problemas. Todos los problemas enviados a esta cola se asociarán con este proceso de aprobación. El administrador de Adobe Workfront debe definir los procesos de aprobación en el sistema para poder asociarlos a los temas de la cola. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información sobre la creación de procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.<br></p> 
+      <td> <p>Asociar un proceso de aprobación a este tema de la cola. En este menú desplegable solo están visibles los procesos de aprobación de problemas. Todos los problemas enviados a esta cola se asociarán con este proceso de aprobación. El administrador de Adobe Workfront debe definir los procesos de aprobación en el sistema para poder asociarlos a los temas de la cola. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información acerca de cómo crear procesos de aprobación, vea <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.<br></p> 
        <div> 
-        <p>Importante: Si el grupo del proyecto cambia, el proceso de aprobación específico del grupo adjunto a los problemas existentes se convierte en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en los procesos de aprobación y de grupo a los procesos de aprobación asignados</a>.</p> 
+        <p>Importante: Si el grupo del proyecto cambia, el proceso de aprobación específico del grupo adjunto a los problemas existentes se convierte en un proceso de aprobación de un solo uso. Para obtener más información acerca de cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, vea <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>.</p> 
         <p>Tenga en cuenta lo siguiente al agregar procesos de aprobación a los temas en cola: </p> 
         <ul style="list-style-type: circle;"> 
          <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
@@ -152,11 +152,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de solicitud</strong> </td> 
-      <td> <p>Elija el tipo de solicitudes que almacena este tema de cola. Las opciones visibles se definen en la variable <strong>Detalles de cola</strong> del proyecto. Este campo es obligatorio. </p>
+      <td> <p>Elija el tipo de solicitudes que almacena este tema de cola. Las opciones visibles se establecen en la ficha <strong>Detalles de cola</strong> del proyecto. Este campo es obligatorio. </p>
 
    <p><b>NOTA</b>:
 
-   Los tipos se muestran como una selección en el área Solicitudes sólo si el tipo de solicitud está seleccionado en las páginas Detalles de Cola y Tema de Cola. Para obtener información sobre cómo configurar el área Detalles de cola de un proyecto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> <p>Seleccione entre los siguientes tipos:</p>
+   Los tipos se muestran como una selección en el área Solicitudes sólo si el tipo de solicitud está seleccionado en las páginas Detalles de Cola y Tema de Cola. Para obtener información acerca de cómo configurar el área Detalles de cola de un proyecto, vea <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> <p>Seleccione entre los siguientes tipos:</p>
    <ul>
    <li>Informe de errores</li>
    <li>Solicitud de cambio</li>
@@ -167,7 +167,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     </tbody> 
    </table>
 
-   ![Cuadro Nuevo tema de cola](assets/new-queue-topic-box.png)
+   ![Nuevo cuadro de tema de cola](assets/new-queue-topic-box.png)
 
 1. Haga clic en **Guardar**.\
    El tema de la cola ya está disponible para usar y se puede ver en el área de solicitudes de Workfront, después de seleccionar una cola de solicitudes y un grupo de temas.

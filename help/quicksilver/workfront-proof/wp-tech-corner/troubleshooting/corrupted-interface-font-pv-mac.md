@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Si observa que el visor de revisión no muestra correctamente la fuente de la interfaz, podría deberse a algunos problemas con las fuentes del equipo con Mac. Para resolver el problema, pruebe las siguientes soluciones:
 
@@ -29,10 +29,10 @@ Compruebe si hay fuentes duplicadas en el sistema.
 
 1. Cierre el explorador que está utilizando.
 1. Abra la aplicación Libro de fuentes en la carpeta Aplicaciones.
-1. Clic **[!UICONTROL Todas las fuentes]** (1).
-1. Clic **[!UICONTROL Editar]** > **[!UICONTROL Buscar duplicados habilitados]**.
+1. Haga clic en **[!UICONTROL Todas las fuentes]** (1).
+1. Haga clic en **[!UICONTROL Editar]** > **[!UICONTROL Buscar duplicados habilitados]**.
 
-1. Clic **[!UICONTROL Sí]** para resolver duplicados.
+1. Haga clic en **[!UICONTROL Sí]** para resolver duplicados.
 1. Si ve una advertencia sobre las fuentes dañadas, haga clic en **[!UICONTROL Sí]**.
 1. Reinicie el equipo.
 1. Vuelva a intentar la prueba.
@@ -47,7 +47,7 @@ El segundo paso sería borrar la caché de fuentes y hay varias formas de lograr
 
 La primera es simplemente reiniciar en Modo Seguro manteniendo pulsada la tecla Mayús inmediatamente cuando oiga el timbre de arranque durante el arranque. Cuando se carga este modo, debería aparecer una barra de progreso, durante la cual el sistema ejecutará varias comprobaciones y rutinas de mantenimiento, una de las cuales es borrar la caché de fuentes.
 
-El segundo enfoque es utilizar el terminal, que se puede hacer ejecutando el siguiente comando desde una cuenta administrativa: *sudo atsutil bases de datos -remove*
+El segundo método consiste en usar el Terminal, que se puede realizar ejecutando el siguiente comando desde una cuenta administrativa: *sudo atsutil database -remove*
 
 >[!NOTE]
 >
@@ -55,21 +55,21 @@ El segundo enfoque es utilizar el terminal, que se puede hacer ejecutando el sig
 
 Otro método sería utilizar una utilidad de caché de fuentes como, por ejemplo, FontNuke y borrar la caché con su ayuda.
 
-Muchos estudios de preimpresión y diseño también usan el software Universal Type Server para administrar licencias y distribución de fuentes. A veces, puede producirse un problema con la caché de fuentes del servidor de tipo universal, que puede causar lo siguiente [!DNL Workfront Proof] anotaciones que deben desaparecer.
+Muchos estudios de preimpresión y diseño también usan el software Universal Type Server para administrar licencias y distribución de fuentes. A veces, puede producirse un problema con la caché de fuentes del servidor de tipo universal, que puede hacer que desaparezcan las anotaciones de [!DNL Workfront Proof].
 
 Para solucionarlo, borre la caché de fuentes del servidor de tipo universal y reinicie el servidor de tipo universal.
 
-## Fix [!DNL Flash] conflicto de fuentes
+## Corregir [!DNL Flash] conflicto de fuentes
 
 Es posible que no tenga acceso a esta funcionalidad porque es compatible con [!DNL Flash], que ha quedado obsoleta en la mayoría de los entornos.
 
-El visor de revisión de elementos heredados se basa en [!DNL Flash Player] y a veces, cuando falta el texto en el visor de pruebas, es posible que haya un conflicto de fuentes entre OS X y [!DNL Flash Player]. Pruebe lo siguiente:
+El visor de revisión heredado se basa en [!DNL Flash Player] y, a veces, cuando falta el texto en el visor de revisión, es posible que haya un conflicto de fuentes entre OS X y [!DNL Flash Player]. Pruebe lo siguiente:
 
-1. Abra el buscador y abra **[!UICONTROL Ir]** pestaña.
-1. Pulse la tecla Opción (⌥ Alt) para abrir [!UICONTROL Biblioteca] en la lista desplegable.
-1. Mientras mantiene pulsada la tecla Opción, haga clic en [!UICONTROL Biblioteca] carpeta.
-1. Después del [!UICONTROL Biblioteca] se abre la carpeta, vaya a [!UICONTROL Fuentes] carpeta ubicada en.
-1. Mueva todas las fuentes ubicadas en el [!UICONTROL Fuentes] carpeta en otra carpeta, tal vez en el escritorio (no cree otra carpeta dentro de la carpeta Fuentes).
+1. Abra Finder y abra la ficha **[!UICONTROL Ir]**.
+1. Presione la tecla Opción (⌥ Alt) para abrir la carpeta [!UICONTROL Library] en la lista desplegable.
+1. Mientras mantiene la tecla Opción, haga clic en la carpeta [!UICONTROL Biblioteca].
+1. Una vez abierta la carpeta [!UICONTROL Library], ve a la carpeta [!UICONTROL Fonts] ubicada en.
+1. Mueva todas las fuentes ubicadas en la carpeta [!UICONTROL Fonts] a otra carpeta, tal vez en el escritorio (no cree otra carpeta dentro de la carpeta Fonts).
 1. Esta acción oculta todas las fuentes personalizadas; aún debe tener las fuentes del sistema estándar guardadas en su ubicación independiente.
 1. Salir y reiniciar [!DNL Safari].
 1. Vuelva a abrir la prueba.

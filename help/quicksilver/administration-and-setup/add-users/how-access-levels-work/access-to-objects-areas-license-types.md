@@ -27,7 +27,7 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
 
   >[!NOTE]
   >
-  >Cuando otro usuario comparte un objeto, el que comparte puede especificar permisos que limiten su capacidad para editarlo. Para obtener más información, consulte [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Cuando otro usuario comparte un objeto, el que comparte puede especificar permisos que limiten su capacidad para editarlo. Para obtener más información, vea [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -144,7 +144,7 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
     </tr>
 </table>
 
-&#42; Los usuarios con una licencia de colaborador sólo pueden ver los informes, tableros y calendarios que se han compartido con ellos.
+&#42; Los usuarios con una licencia de colaborador solamente pueden ver los informes, tableros y calendarios que se han compartido con ellos.
 
 >[!NOTE]
 >
@@ -154,18 +154,18 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
 
 Puede encontrar información detallada sobre lo que permiten los niveles de acceso para cada objeto y área en los siguientes artículos:
 
-* [Concesión de acceso a proyectos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+* [Conceder acceso a proyectos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Conceder acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Conceder acceso a los problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Conceder acceso a problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Conceder acceso a documentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Conceder acceso a portafolios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [Concesión de acceso a los programas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [Conceder acceso a los programas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
 * [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Conceder acceso a los equipos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
-* [Concesión de acceso a las plantillas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
-* [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
+* [Conceder acceso a las plantillas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
+* [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Conceder acceso a Administración de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Conceder acceso al Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Concesión de acceso a Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Esquina técnica de Workfront Proof
-description: Esquina técnica de Workfront Proof
+title: rincón técnico de Workfront Proof
+description: rincón técnico de Workfront Proof
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] rincón tecnológico
+# Esquina técnica de [!DNL Workfront Proof]
 
 Esta sección contiene las siguientes subsecciones:
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
 * [Tipos de prueba](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)

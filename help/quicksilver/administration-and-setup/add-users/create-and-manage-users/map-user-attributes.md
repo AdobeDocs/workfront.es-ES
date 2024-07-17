@@ -77,13 +77,13 @@ Para determinar si su organización se encuentra en la experiencia unificada de 
 
 ### Asignar atributos de usuario en la experiencia clásica
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Sistema** > **Inicio de sesión único (SSO)**.
+1. Haga clic en **Sistema** > **Inicio de sesión único (SSO)**.
 
-1. En el **Tipo** , haga clic en **SAML 2.0**.
+1. En la lista desplegable **Tipo**, haga clic en **SAML 2.0**.
 
-1. Clic **Asignar atributos de usuario**.
+1. Haga clic en **Asignar atributos de usuario**.
 
    ![](assets/map-user-attributes.png)
 
@@ -127,16 +127,16 @@ Para determinar si su organización se encuentra en la experiencia unificada de 
 
    Puede hacer clic en **Agregar regla** para agregar más reglas al atributo.
 
-1. (Opcional) Para asignar más atributos de usuario, haga clic en **Agregar asignación** y repita los pasos 6-7.
+1. (Opcional) Para asignar más atributos de usuario, haga clic en **Agregar asignación** y repita los pasos del 6 al 7.
 1. Haga clic en **Guardar**.
 
 ### Asignar atributos de usuario en la experiencia unificada de Adobe
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-left.png) en la esquina superior izquierda de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-left.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Sistema** > **Inicio de sesión único (SSO)**.
+1. Haga clic en **Sistema** > **Inicio de sesión único (SSO)**.
 
-1. Seleccione el **Adobe** pestaña.
+1. Seleccione la ficha **Adobe**.
 
 1. (Opcional y condicional) Si su organización tenía la asignación de atributos configurada en la experiencia clásica y desea copiar esa asignación de atributos en la experiencia unificada de Adobe, haga clic en **Migrar asignaciones**. A continuación, puede descartar, eliminar o editar estas asignaciones.
 
@@ -146,7 +146,7 @@ Para determinar si su organización se encuentra en la experiencia unificada de 
 
 1. Para crear una nueva asignación de atributos, haga clic en **Agregar asignación**.
 
-1. Haga clic en la flecha situada junto al nombre del campo Workfront y seleccione la variable [!DNL Workfront] campo al que desea asignar.
+1. Haga clic en la flecha situada junto al nombre del campo Workfront y seleccione el campo [!DNL Workfront] al que desee asignar.
 
 1. (Opcional) Si desea crear más de una regla para un campo determinado, haga clic en la flecha situada junto a **Siempre** y seleccione el operador que desea que utilice la regla.
 
@@ -160,15 +160,15 @@ Para determinar si su organización se encuentra en la experiencia unificada de 
 
 1. Introduzca el nombre del campo del administrador de identidades que desea aplicar o el texto del valor de constante que desea aplicar.
 
-1. (Opcional) Para agregar más reglas para el mismo campo de Workfront, haga clic en **Añadir nueva regla** y siga los pasos 4-9.
+1. (Opcional) Para agregar más reglas para el mismo campo de Workfront, haga clic en **Agregar nueva regla** y siga los pasos 4-9.
 
    >[!IMPORTANT]
    >
    > * Se ignorará cualquier regla que se encuentre por debajo de la regla Always. Si tiene una regla Always, debe moverla al final de la lista de reglas. Para mover reglas en la lista, haga clic en el menú de tres puntos situado a la derecha de la regla y mueva la regla hacia arriba o hacia abajo.
-   > * Para crear una regla en medio de la lista, haga clic en el menú de tres puntos situado junto a la regla que desea que esté encima o debajo de la nueva regla y seleccione **Agregar regla arriba** o **Agregar regla a continuación**.
+   > * Para crear una regla en medio de la lista, haz clic en el menú de tres puntos al lado de la regla que quieres que esté encima o debajo de la nueva regla y selecciona **Agregar regla arriba** o **Agregar regla abajo**.
 
-1. Para eliminar una regla, haga clic en el menú de tres puntos situado junto a la regla que desee eliminar y seleccione **Eliminar**.
-1. Para eliminar una asignación, haga clic en **Eliminar** que está en la tarjeta de para esa asignación.
+1. Para eliminar una regla, haga clic en el menú de tres puntos situado junto a la regla que desea eliminar y seleccione **Eliminar**.
+1. Para eliminar una asignación, haga clic en el icono **Eliminar** que se encuentra en la tarjeta de esa asignación.
 
 1. Para guardar, desplácese hasta la parte superior de la página y haga clic en **Guardar**.
 

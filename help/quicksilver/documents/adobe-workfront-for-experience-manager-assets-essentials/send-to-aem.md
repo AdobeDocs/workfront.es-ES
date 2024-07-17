@@ -25,7 +25,7 @@ Los campos de metadatos se asignan por primera vez al enviar un recurso desde Wo
 
 >[!INFO]
 >
->**Ejemplo** Cuando envía por primera vez un recurso adjunto a una tarea, los metadatos de la tarea se asignan a Experience Manager Assets o a Assets Essentials, así como cualquier metadato asignado de objetos principales como un proyecto, portafolio y programa.
+>**Ejemplo**: cuando envía por primera vez un recurso adjunto a una tarea, los metadatos de la tarea se asignan a Experience Manager Assets o a Assets Essentials, así como cualquier metadato asignado de objetos principales como un proyecto, portafolio y programa.
 
 ## Requisitos de acceso
 
@@ -38,7 +38,7 @@ Debe tener el siguiente acceso para completar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan de Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan Adobe Workfront</a>*</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -52,16 +52,16 @@ Debe tener el siguiente acceso para completar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver acceso o superior en Documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver acceso o superior en Documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 +++
 
@@ -78,8 +78,8 @@ Cuando un usuario envía un documento desde Workfront a Experience Manager Asset
 
 Para enviar un documento:
 
-1. Vaya a la **Documentos** en Workfront y seleccione el documento que desee enviar.
-1. Clic **Enviar a** y, a continuación, elija la integración de Experience Manager que configuró el administrador.
+1. Vaya al área de **Documentos** en Workfront y seleccione el documento que desea enviar.
+1. Haga clic en **Enviar a** y, a continuación, elija la integración de Experience Manager que configuró el administrador.
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Para enviar un documento:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Elija a dónde desea que vaya el recurso y haga clic en **Seleccionar carpeta**.
-1. Cuando encuentre el destino deseado, haga clic en **Guardar**.
+1. Cuando encuentres el destino deseado, haz clic en **Guardar**.
 
 ## Enviar una nueva versión
 
@@ -100,8 +100,8 @@ Puede agregar una nueva versión a un documento que haya cargado anteriormente e
 
 Para enviar la versión más reciente:
 
-1. Vaya a la **Documentos** en Workfront y busque el documento.
-1. Seleccionar **Enviar a** y, a continuación, elija la integración de Experience Manager que configuró el administrador.
+1. Vaya al área de **Documentos** en Workfront y busque el documento.
+1. Seleccione **Enviar a** y, a continuación, elija la integración de Experience Manager que configuró el administrador.
 
    >[!NOTE]
    >

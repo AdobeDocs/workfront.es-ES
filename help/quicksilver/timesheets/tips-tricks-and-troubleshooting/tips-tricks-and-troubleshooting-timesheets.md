@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Corregir el día de inicio de la semana laboral para hojas de horas](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [Evitar que la acción Recalcular finanzas afecte a las horas históricas cuando cambian las tarifas](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [Seguimiento de registros de horas con la API de Adobe Workfront](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [Corregir el día de inicio de la semana laboral para las hojas de horas](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
+* [Evite que la acción Recalcular finanzas afecte las horas históricas cuando las tarifas cambien](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+* [Rastrear registros de horas con la API de Adobe Workfront](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [No se puede registrar el tiempo para las fechas futuras](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

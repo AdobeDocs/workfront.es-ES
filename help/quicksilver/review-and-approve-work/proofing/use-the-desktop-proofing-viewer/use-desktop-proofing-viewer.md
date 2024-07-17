@@ -17,8 +17,8 @@ ht-degree: 0%
 
 # Uso del Visor de corrección de escritorio
 
-* [Instalación del Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
-* [Actualizar el Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
-* [Abrir pruebas en el Visor de pruebas de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
+* [Instalar el Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
+* [Actualizar el visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
+* [Abrir pruebas en el Visor de revisiones de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
 * [Revisar contenido no interactivo en el Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
 * [Preguntas frecuentes - Visor de corrección de escritorio](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)

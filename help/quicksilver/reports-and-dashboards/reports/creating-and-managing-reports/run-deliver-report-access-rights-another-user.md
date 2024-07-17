@@ -23,8 +23,8 @@ Si ejecuta un informe con los derechos de acceso de otro usuario con acceso supe
 
 >[!TIP]
 >
->Debe reemplazar el **Ejecutar este informe con los derechos de acceso de:** con un usuario activo solo cuando desee que el informe se muestre con los derechos de acceso de ese usuario. Por ejemplo, es posible que un usuario con licencia de trabajo no tenga permisos para ver todos los elementos de un informe creado por un usuario con licencia de planificación o un administrador del sistema, a menos que el informe se muestre con los derechos de acceso de un planificador o un administrador del sistema.\
-Si el informe se comparte con usuarios con acceso similar al especificado en la variable **Ejecutar este informe con los derechos de acceso de:** , puede dejar este campo en blanco.
+>Debe reemplazar el campo **Ejecutar este informe con los derechos de acceso de:** por un usuario activo solamente cuando desee que el informe se muestre con los derechos de acceso de ese usuario. Por ejemplo, es posible que un usuario con licencia de trabajo no tenga permisos para ver todos los elementos de un informe creado por un usuario con licencia de planificación o un administrador del sistema, a menos que el informe se muestre con los derechos de acceso de un planificador o un administrador del sistema.\
+>Si el informe se comparte con usuarios con acceso similar al especificado en el campo **Ejecutar este informe con los derechos de acceso de:**, puede dejar este campo en blanco.
 
 ## Requisitos de acceso
 
@@ -44,70 +44,70 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver los permisos de un informe (para ver el informe enviado)</p> <p>Administración de permisos de un informe (para ejecutar el informe)</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver los permisos de un informe (para ver el informe enviado)</p> <p>Administración de permisos de un informe (para ejecutar el informe)</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Mostrar un informe con los derechos de acceso de otro usuario
 
-Rellenar el **Ejecutar este informe con los derechos de acceso de:** garantiza que un informe contenga los mismos datos, independientemente de qué usuario acceda al informe. El informe se muestra tal como lo haría para el usuario especificado.
+Rellenar el campo **Ejecutar este informe con los derechos de acceso de:** garantiza que un informe contenga los mismos datos, independientemente de qué usuario tenga acceso al informe. El informe se muestra tal como lo haría para el usuario especificado.
 
-Los usuarios que accedan al informe deben tener al menos permisos de visualización en el informe para poder verlo. Si el usuario aparece en la lista **Ejecutar este informe con los derechos de acceso de:** Cuando el campo está desactivado, el informe ya no se muestra a los demás usuarios con los que se comparte.
+Los usuarios que accedan al informe deben tener al menos permisos de visualización en el informe para poder verlo. Si el usuario que aparece en el campo **Ejecutar este informe con los derechos de acceso de:** está desactivado, el informe ya no se mostrará a ningún otro usuario con el que se comparta el informe.
 
 Para ejecutar un informe con los derechos de acceso de otro usuario:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront, haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Informes**.
 
 1. Seleccione el informe que desea mostrar con los derechos de acceso de otro usuario.
-1. Clic **Acciones de informe**, luego haga clic en **Editar**.
+1. Haga clic en **Acciones de informe** y luego haga clic en **Editar**.
 
-1. Clic **Configuración de informes**.
+1. Haga clic en **Configuración del informe**.
 
-1. En el **Ejecutar este informe con los derechos de acceso de:** , empiece a escribir el nombre del usuario con el que desea que se muestre el informe y selecciónelo cuando lo vea en la lista.\
+1. En el campo **Ejecutar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario con el que desea que se muestre el informe y, a continuación, selecciónelo cuando lo vea en la lista.\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
    >
-   Los usuarios con un nivel de acceso menor que pueden crear informes no tienen la capacidad de seleccionar a otro usuario que no sea él para el **Ejecutar este informe con los derechos de acceso de:** field.
+   >Los usuarios con un nivel de acceso inferior que tienen permiso para generar informes no tienen la capacidad de seleccionar a un usuario que no sean ellos mismos para el campo **Ejecutar este informe con los derechos de acceso de:**.
 
-1. Clic **Listo**.
+1. Haga clic en **Listo**.
 1. Haga clic en **Guardar + Cerrar**.\
-   El informe ahora se muestra para todos los usuarios con los que se comparte el informe como si lo viera el usuario especificado en la variable **Ejecutar este informe con los derechos de acceso de:** field.
+   El informe ahora se muestra para todos los usuarios con los que se comparte el informe como si lo viera el usuario especificado en el campo **Ejecutar este informe con los derechos de acceso de:**.
 
 >[!IMPORTANT]
 >
-Introducción de un usuario distinto del que ha iniciado sesión para **Ejecutar este informe con los derechos de acceso de:** Este campo afecta a la información mostrada en el informe si este contiene un filtro que utiliza un comodín que hace referencia al usuario que ha iniciado sesión. El informe se muestra según el valor especificado en la variable **Ejecutar este informe con los derechos de acceso de:** en lugar de lo que se define en el filtro comodín.
+>La introducción de un usuario distinto del que inició sesión para el campo **Ejecutar este informe con los derechos de acceso de:** afecta a la información que se muestra en el informe si éste contiene un filtro que utiliza un comodín que hace referencia al usuario que ha iniciado sesión. El informe se muestra de acuerdo con el valor especificado en el campo **Ejecutar este informe con los derechos de acceso de:** en lugar de lo que se defina en el filtro comodín.
 >
-Para obtener más información sobre los caracteres comodín de los campos de usuario, consulte la sección &quot;Variables basadas en usuarios&quot; en [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Para obtener más información sobre los caracteres comodín de los campos de usuario, consulte la sección &quot;Variables basadas en usuarios&quot; en [Información general sobre las variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Enviar un informe con los derechos de acceso de otro usuario
 
-Puede configurar los informes para que se envíen como archivos adjuntos a un correo electrónico. Puede configurar estos informes enviados para que se muestren a medida que los usuarios de un nivel de acceso superior, de modo que todos los usuarios puedan ver la misma información en los informes enviados. Los usuarios que vayan a ver el informe entregado en el correo electrónico deben añadirse a la lista de envío de destinatarios dentro de la entrega del informe. Para obtener más información sobre la configuración de un informe para su envío, consulte el artículo [Resumen de entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Puede configurar los informes para que se envíen como archivos adjuntos a un correo electrónico. Puede configurar estos informes enviados para que se muestren a medida que los usuarios de un nivel de acceso superior, de modo que todos los usuarios puedan ver la misma información en los informes enviados. Los usuarios que vayan a ver el informe entregado en el correo electrónico deben añadirse a la lista de envío de destinatarios dentro de la entrega del informe. Para obtener más información sobre la configuración de un informe para su entrega, consulte el artículo [Resumen de la entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Para entregar un informe con los derechos de acceso de otro usuario:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront, haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Informes**.
 
 1. Seleccione el informe que desea enviar con los derechos de acceso de otro usuario.
 1. Haga clic en el nombre del informe para seleccionarlo.
-1. Clic **Acciones de informe**.
-1. Clic **Enviar informe**.
+1. Haga clic en **Acciones de informe**.
+1. Haga clic en **Enviar informe**.
 
-1. En el **Entregar este informe con los derechos de acceso de:** , empiece a escribir el nombre del usuario que desea que muestre el informe como cuando se envía en un mensaje de correo electrónico y, a continuación, selecciónelo cuando lo vea en la lista. El valor predeterminado es el nombre del usuario que está creando el informe.\
+1. En el campo **Enviar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario que desea que muestre el informe como cuando se envía en un mensaje de correo electrónico y, a continuación, selecciónelo cuando lo vea en la lista. El valor predeterminado es el nombre del usuario que está creando el informe.\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
    >
-   Los usuarios con un nivel de acceso menor que pueden crear informes no tienen la capacidad de seleccionar a otro usuario que no sea él para el **Entregar este informe con los derechos de acceso de:** field.
+   >Los usuarios con un nivel de acceso inferior que pueden generar informes no tienen la capacidad de seleccionar a otro usuario que no sea a sí mismos para el campo **Enviar este informe con los derechos de acceso de:**.
 
-1. Seleccione el **Formato** desea que el informe se muestre en el correo electrónico:
+1. Seleccione el **formato** que desea que el informe muestre en el correo electrónico:
 
    * HTML
    * PDF
@@ -115,24 +115,24 @@ Para entregar un informe con los derechos de acceso de otro usuario:
    * MS Excel (.xlsx)
    * TSV
 
-1. Clic **Enviar ahora** para enviarlo inmediatamente.\
+1. Haga clic en **Enviar ahora** para enviarlo inmediatamente.\
    O\
-   Clic **Hacer entrega repetida** para programar una entrega recurrente para el informe.\
+   Haga clic en **Hacer entrega repetida** para programar una entrega recurrente para el informe.\
    Para obtener más información sobre las entregas de informes, consulte el artículo [Resumen de entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Limitaciones para los informes con una columna de origen
+## Limitaciones para informes con una columna Source
 
-Los siguientes informes muestran una columna Origen en la que puede ver información sobre el objeto principal:
+Los siguientes informes muestran una columna Source en la que puede ver información sobre el objeto principal:
 
 * Informes de problemas
 * Informes por hora
 * Informes de documentos
 
-Si los usuarios no tienen permisos para el objeto principal de un problema, hora o documento, la columna Origen del informe se muestra vacía, incluso cuando el informe está configurado para mostrarse o para entregarse con los derechos de acceso de otro usuario.
+Si los usuarios no tienen permisos para el objeto principal de un problema, hora o documento, la columna Source del informe se muestra vacía, incluso cuando el informe está configurado para mostrarse o para entregarse con los derechos de acceso de otro usuario.
 
 Para mostrar información sobre el objeto principal en el informe, se recomienda añadir una columna para el objeto principal en la que se pueda mostrar el nombre del objeto principal.
 
-Por ejemplo, puede agregar cualquiera de las siguientes opciones a un informe con una columna Origen:
+Por ejemplo, puede agregar cualquiera de las siguientes opciones a un informe con una columna Source:
 
 * Las columnas Nombre del proyecto, Nombre de tarea o Nombre del problema se transfieren a un documento o informe de horas.
 * Las columnas Nombre del proyecto o Nombre de tarea se transfieren a un informe de problemas.
@@ -154,4 +154,4 @@ Por ejemplo, puede agregar cualquiera de las siguientes opciones a un informe co
 
   `valueformat=HTML`
 
-  Para obtener información sobre las vistas del modo de texto, consulte [Edición de una vista mediante el modo de texto](../text-mode/edit-text-mode-in-view.md).
+  Para obtener información acerca de las vistas en modo de texto, vea [Editar una vista con modo de texto](../text-mode/edit-text-mode-in-view.md).

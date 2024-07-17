@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Descarga de una prueba en el visor de pruebas
-description: Puede descargar archivos de una prueba existente. Los comentarios y otra información asociada con la prueba no se incluyen en la descarga.
+title: Descarga de una prueba en el visualizador de pruebas
+description: Puede descargar archivos de una revisión existente. Los comentarios y otra información asociada con la prueba no se incluyen en la descarga.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---
 
-# Descarga de una prueba en el visor de pruebas
+# Descarga de una prueba en el visualizador de pruebas
 
-Puede descargar archivos de una prueba existente. Los comentarios y otra información asociada con la prueba no se incluyen en la descarga.
+Puede descargar archivos de una revisión existente. Los comentarios y otra información asociada con la prueba no se incluyen en la descarga.
 
 ## Requisitos de acceso
 
@@ -26,32 +26,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o plan</p> <p>Plan heredado: Cualquiera (debe tener las pruebas habilitadas para el usuario)</p> </td> 
+   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Administrador o superior</td> 
+   <td>Responsable o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con el administrador de Workfront o Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
-## Descarga de una prueba en el visor de pruebas
+## Descarga de una prueba en el visualizador de pruebas
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir prueba**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. En la barra de herramientas de la izquierda del visualizador de pruebas, haga clic en el botón **Descargar** botón.\
-   ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
+1. En la barra de herramientas de la izquierda del visor de revisión, haga clic en el botón **Descargar**.\
+   ![Botón_barra_herramientas_Visor_pruebas_-_Descargar.png](assets/proofing-viewer-toolbar-button---download.png)
 
-1. Vaya a la ubicación del sistema de archivos en la que desea descargar la prueba y, a continuación, haga clic en **Guardar**.
+1. Busque la ubicación en el sistema de archivos donde quiera descargar la revisión y luego haga clic en **Guardar**.

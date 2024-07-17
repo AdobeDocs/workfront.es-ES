@@ -36,17 +36,17 @@ A continuación se indican las opciones posibles del campo Propietario del proye
 
 * Solo puede designar a un usuario como Propietario del proyecto.
 * Puede designar a los propietarios del proyecto como aprobadores de horas del proyecto.
-* Puede designar al Propietario del proyecto como aprobador genérico al definir los procesos de aprobación de proyectos, tareas o problemas. Para obtener más información sobre las aprobaciones, consulte [Edición de un proceso de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Puede designar al Propietario del proyecto como aprobador genérico al definir los procesos de aprobación de proyectos, tareas o problemas. Para obtener información acerca de las aprobaciones, consulte [Editar un proceso de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
   >[!IMPORTANT]
   >
-  >Cuando asigna una aprobación al Propietario del proyecto y no se designa a nadie como propietario del proyecto, la aprobación se reasigna al administrador principal de Workfront, tal como se indica en la sección Información del cliente del área de Configuración. Para obtener más información, consulte [Configurar la información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >Cuando asigna una aprobación al Propietario del proyecto y no se designa a nadie como propietario del proyecto, la aprobación se reasigna al administrador principal de Workfront, tal como se indica en la sección Información del cliente del área de Configuración. Para obtener más información, vea [Configurar información básica para el sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
   >
 
 
 * Puede activar determinadas notificaciones que se envían únicamente al propietario del proyecto.
 
-  Para obtener más información sobre las notificaciones por correo electrónico, consulte la sección [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) en el artículo [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Para obtener más información acerca de las notificaciones por correo electrónico, consulte la sección [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) en el artículo [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Puede mostrar el campo Propietario del proyecto en un informe o lista.
 
@@ -58,7 +58,7 @@ A continuación se indican las opciones posibles del campo Propietario del proye
   ownerID=$$USER.ID
   ```
 
-Para obtener más información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información acerca de la creación de informes, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,10 +80,10 @@ Puede designar a cualquier usuario del sistema como patrocinador del proyecto. E
 
 Tenga en cuenta lo siguiente al asignar un patrocinador del proyecto:
 
-* El patrocinador del proyecto no obtiene acceso adicional al proyecto, pero se añade a las notificaciones por correo electrónico del proyecto. Para obtener información sobre las notificaciones, consulte el artículo [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* El patrocinador del proyecto no obtiene acceso adicional al proyecto, pero se añade a las notificaciones por correo electrónico del proyecto. Para obtener información acerca de las notificaciones, consulte el artículo [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Solo puede designar un patrocinador del proyecto.
-* Puede designar al patrocinador del proyecto como aprobador genérico al definir procesos de aprobación de proyectos, tareas o problemas. Para obtener más información sobre las aprobaciones, consulte [Edición de un proceso de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* Puede designar al patrocinador del proyecto como aprobador genérico al definir procesos de aprobación de proyectos, tareas o problemas. Para obtener información acerca de las aprobaciones, consulte [Editar un proceso de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
   >[!IMPORTANT]
   >
@@ -101,7 +101,7 @@ Tenga en cuenta lo siguiente al asignar un patrocinador del proyecto:
 
    
 
-  Para obtener más información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Para obtener más información acerca de la creación de informes, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -31,7 +31,7 @@ Tenga en cuenta lo siguiente cuando utilice una plantilla de flujo de trabajo au
 1. Cuando se añade una persona a una etapa en una plantilla de flujo de trabajo automatizado, pero también está presente como revisor en la prueba, al aplicar la plantilla se elimina al revisor de la etapa. Si no agrega otro revisor al escenario, aparecerá un mensaje en el que se le pedirá que agregue uno.
 1. La posibilidad de modificar una plantilla de flujo de trabajo automatizado depende de la configuración de la plantilla que establezca el administrador de Workfront, tal como se describe en Si la capacidad para modificar la plantilla está desactivada, solo el propietario de la plantilla puede modificarla.
 
-Para obtener información sobre los flujos de trabajo automatizados, consulte [Resumen del flujo de trabajo automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Para obtener información acerca de los flujos de trabajo automatizados, vea [Resumen del flujo de trabajo automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Requisitos de acceso
 
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan de Adobe Workfront</td> 
-   <td> <p>Nuevo: Cualquiera</p><p>Actual: Pro o Superior</p><p>Heredado: Premium o Select</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Nuevo: Cualquiera</p><p>Actual: Pro o Superior</p><p>Heredado: Premium o Select</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -66,10 +66,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step1-to-proofing}}
 
-1. Clic **Flujos de trabajo** en el panel izquierdo.
-1. En el **Flujo de trabajo** pestaña, haga clic en **Nuevo** > **Nueva plantilla**.
+1. Haga clic en **Flujos de trabajo** en el panel izquierdo.
+1. En la ficha **Flujo de trabajo**, haga clic en **Nuevo** > **Nueva plantilla**.
 
-1. En el **Detalles** , especifique la siguiente información:
+1. En la sección **Detalles**, especifique la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -94,14 +94,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      <tr> 
       <td role="rowheader">Permitir</td> 
       <td> <p>Puede seleccionar las actividades de fase que desea que estén disponibles para la persona que crea las pruebas mediante la plantilla.</p> 
-      <p><b>ADVERTENCIA</b>: Si no selecciona las opciones Añadir una fase y Añadir personas a las fases, ni el propietario de la plantilla ni el propietario de ninguna prueba que utilice esta plantilla podrán añadir una fase o compartir la prueba. 
+      <p><b>ADVERTENCIA</b>: Si no selecciona las opciones Agregar un escenario y Agregar personas a las fases, ni el propietario de la plantilla ni el propietario de ninguna prueba que utilice esta plantilla podrán agregar un escenario ni compartir la prueba. 
       </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. En el **Fases** , configure cada fase de la plantilla Flujo de trabajo automatizado.
+1. En la sección **Fases**, configure cada fase de la plantilla Flujo de trabajo automatizado.
 
    Puede agregar varias fases y crear interacciones.
 
@@ -115,14 +115,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader">Activar fase</td> 
-      <td> <p>Especifique si la fase se activa automática o manualmente. Para la primera fase, puede seleccionar <strong>Al crear la prueba</strong>, <strong>En una fecha y hora específicas</strong>, o <strong>Manualmente</strong>.</p> <p>Las demás opciones estarán disponibles cuando añada una segunda fase, ya que es necesario seleccionar una fase principal. </p> </td> 
+      <td> <p>Especifique si la fase se activa automática o manualmente. En la primera etapa, puede seleccionar <strong>Al crear la prueba</strong>, <strong>En una fecha y hora específicas</strong> o <strong>Manualmente</strong>.</p> <p>Las demás opciones estarán disponibles cuando añada una segunda fase, ya que es necesario seleccionar una fase principal. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Plazo calculado a partir de</td> 
       <td> <p>Especifique cómo desea calcular la fecha límite:</p> 
        <ul> 
-        <li> <p><strong>Creación de pruebas</strong>: en la lista desplegable debajo de <strong>Plazo (+ días laborables)</strong>, seleccione el número de días laborables que desee añadir a la fecha de creación de la prueba para establecer automáticamente una fecha límite en la prueba.</p> </li> 
-        <li><strong>Cuando comienza la fase</strong>: en la lista desplegable debajo de <strong>Plazo (+ días laborables)</strong>, seleccione el número de días laborables que desee añadir a la fecha de activación de la fase para establecer automáticamente una fecha límite en la prueba.</li> 
+        <li> <p><strong>Creación de revisión</strong>: en la lista desplegable bajo <strong>Plazo (+ días hábiles)</strong>, seleccione el número de días hábiles que desee agregar a la fecha de creación de la revisión para establecer automáticamente un plazo en la revisión.</p> </li> 
+        <li><strong>Al iniciarse la fase</strong>: en la lista desplegable bajo <strong>Plazo (+ días hábiles)</strong>, seleccione el número de días hábiles que desee agregar a la fecha de activación de la fase para establecer automáticamente un plazo en la prueba.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -135,7 +135,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader">Solamente se requiere una decisión</td> 
-      <td>El proceso de revisión de la fase se completará tan pronto como uno de los responsables de la toma de decisiones presente su decisión. Para obtener más información, consulte <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configuración de revisión en Workfront Proof</a>.</td> 
+      <td>El proceso de revisión de la fase se completará tan pronto como uno de los responsables de la toma de decisiones presente su decisión. Para obtener más información, consulte <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurar opciones de revisión en Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fase privada</td> 
@@ -150,9 +150,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Si las pruebas que utilizarán esta plantilla siempre se envían a las mismas personas en la fase, agréguelas aquí para que los usuarios no tengan que agregarlas cada vez que creen una prueba.
 
-   Elija la de cada persona **Rol** en las pruebas que utilizarán esta plantilla y la variable **Alertas de correo electrónico** desea que el usuario reciba cuando trabaje en pruebas que utilicen esta plantilla.
+   Elija la **función** de cada persona en las pruebas que usarán esta plantilla y las **alertas por correo electrónico** que desea que el usuario reciba cuando trabaje en pruebas que usen esta plantilla.
 
-   Para obtener información sobre las funciones de una prueba, consulte [Configurar funciones de corrección predeterminadas](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Para obtener información sobre las alertas de prueba por correo electrónico, consulte la sección [Configurar valores predeterminados de prueba para un usuario](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) en el artículo  [Configuración de notificaciones por correo electrónico en Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   Para obtener información sobre las funciones de una prueba, consulte [Configurar las funciones de revisión predeterminadas](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). Para obtener información acerca de las alertas de prueba por correo electrónico, consulte la sección [Configuración de valores predeterminados de prueba para un usuario](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) en el artículo [Configuración de notificaciones por correo electrónico en Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
    Cada usuario solo puede agregarse a una fase. Puede agregar tantos usuarios como desee a una fase.
 
@@ -162,11 +162,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Repita los dos pasos anteriores para cualquier otra etapa que desee agregar a la plantilla.
 
-   En la parte superior del **Flujo de trabajo** , puede ver un diagrama del flujo de trabajo automatizado que está configurando. A medida que vaya añadiendo fases, estas aparecerán en el diagrama con líneas que muestran las dependencias entre ellas. Puede hacer clic en un escenario del diagrama para ver la configuración de dicho escenario.
+   En la parte superior de la sección **Flujo de trabajo**, puede ver un diagrama del flujo de trabajo automatizado que está configurando. A medida que vaya añadiendo fases, estas aparecerán en el diagrama con líneas que muestran las dependencias entre ellas. Puede hacer clic en un escenario del diagrama para ver la configuración de dicho escenario.
 
    Si no necesita ver el diagrama, puede hacer clic en **Ocultar diagrama**.
 
-1. En el **Compartir plantilla con** , haga clic en una opción (si la plantilla aún no se ha compartido con toda la organización) para especificar quién podrá utilizarla.
+1. En la sección **Compartir plantilla con**, haga clic en una opción (si la plantilla aún no se ha compartido con toda la organización) para especificar quién podrá utilizarla.
 
    De forma predeterminada, las nuevas plantillas de flujo de trabajo automatizado se comparten con todos los miembros de la organización.
 
@@ -178,9 +178,9 @@ Como administrador de Workfront Proof, puede modificar una plantilla de flujo de
 
 {{step1-to-proofing}}
 
-1. Clic **Flujos de trabajo** en el panel izquierdo.
-1. En el **Plantillas de flujo de trabajo** que aparece, haga clic en la plantilla que desee modificar.
-1. En el **Detalles** , especifique la siguiente información:
+1. Haga clic en **Flujos de trabajo** en el panel izquierdo.
+1. En la lista **Plantillas de flujo de trabajo** que aparece, haga clic en la plantilla que desee modificar.
+1. En la sección **Detalles**, especifique la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -204,12 +204,12 @@ Como administrador de Workfront Proof, puede modificar una plantilla de flujo de
      </tr> 
      <tr> 
       <td role="rowheader">Permitir</td> 
-      <td> <p>Seleccione las actividades de fase que desee que estén disponibles para los que crean pruebas con la plantilla. </p> <p><b>ADVERTENCIA</b>: Si no selecciona las opciones Añadir una fase y Añadir personas a las fases, ni el propietario de la plantilla ni el propietario de ninguna prueba que utilice esta plantilla podrán añadir una fase o compartir la prueba.</p> </td> 
+      <td> <p>Seleccione las actividades de fase que desee que estén disponibles para los que crean pruebas con la plantilla. </p> <p><b>ADVERTENCIA</b>: Si no selecciona las opciones Agregar un escenario y Agregar personas a las fases, ni el propietario de la plantilla ni el propietario de ninguna prueba que utilice esta plantilla podrán agregar un escenario ni compartir la prueba.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. En el **Flujo de trabajo** , cambie el nombre de cualquier etapa y expanda su configuración ![](assets/arrow-button.png) para realizar los cambios necesarios:
+1. En la sección **Flujo de trabajo**, cambie el nombre de cualquier etapa y expanda su configuración ![](assets/arrow-button.png) para realizar los cambios necesarios:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -219,13 +219,13 @@ Como administrador de Workfront Proof, puede modificar una plantilla de flujo de
       <td role="rowheader">Plazo calculado a partir de</td> 
       <td> <p>Especifique cómo desea calcular la fecha límite:</p> 
        <ul> 
-        <li> <p><strong>Plazo calculado a partir de la creación de pruebas</strong>: en el <strong>Establecer la fecha límite de la fase</strong> , seleccione el número de días laborables que desee añadir a la fecha de creación de la prueba para establecer automáticamente una fecha límite en la prueba.</p> </li> 
-        <li><strong>Plazo calculado desde la activación de la fase</strong>: en el <strong>Establecer la fecha límite de la fase</strong> , seleccione el número de días laborables que desee añadir a la fecha de activación de la fase para establecer automáticamente una fecha límite en la prueba.</li> 
+        <li> <p><strong>Plazo calculado a partir de la creación de la prueba</strong>: en la lista desplegable <strong>Establecer la fecha límite de la fase</strong>, seleccione el número de días laborables que desee agregar a la fecha de creación de la prueba para establecer automáticamente una fecha límite en la prueba.</p> </li> 
+        <li><strong>Plazo calculado desde la activación de la fase</strong>: en la lista desplegable <strong>Establecer el plazo de la fase</strong>, seleccione el número de días laborables que desee agregar a la fecha de activación de la fase para establecer automáticamente un plazo en la prueba.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Activar fase</td> 
-      <td> <p>Especifique si la fase se activa automática o manualmente. Para la primera fase, puede seleccionar <strong>Al crear la prueba</strong>, <strong>En una fecha y hora específicas</strong>, o <strong>Manualmente</strong>.</p> <p>Las demás opciones estarán disponibles cuando añada una segunda fase, ya que es necesario seleccionar una fase principal. </p> </td> 
+      <td> <p>Especifique si la fase se activa automática o manualmente. En la primera etapa, puede seleccionar <strong>Al crear la prueba</strong>, <strong>En una fecha y hora específicas</strong> o <strong>Manualmente</strong>.</p> <p>Las demás opciones estarán disponibles cuando añada una segunda fase, ya que es necesario seleccionar una fase principal. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bloquear fase</td> 
@@ -233,7 +233,7 @@ Como administrador de Workfront Proof, puede modificar una plantilla de flujo de
      </tr> 
      <tr> 
       <td role="rowheader">Decisión</td> 
-      <td>Finaliza la fase la primera vez que uno de los responsables de la toma de decisiones presenta su decisión. Para obtener más información, consulte <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configuración de revisión en Workfront Proof</a>.</td> 
+      <td>Finaliza la fase la primera vez que uno de los responsables de la toma de decisiones presenta su decisión. Para obtener más información, consulte <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurar opciones de revisión en Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Privacidad</td> 
@@ -245,18 +245,18 @@ Como administrador de Workfront Proof, puede modificar una plantilla de flujo de
      </tr> 
      <tr> 
       <td role="rowheader">Más <img src="assets/more-icon.png"></td> 
-      <td>Agregar revisores a la fase o eliminar la fase.<p>Si cada una de las pruebas se envía a las mismas personas en una fase concreta, puede especificar sus nombres aquí nombre para que no tenga que agregarlos cada vez que cree una prueba. Escriba y seleccione el nombre de un usuario que desee añadir a la fase y, a continuación, añada su <strong>Rol</strong> en la prueba y <strong>Alertas de correo electrónico</strong> la configuración que desee para el usuario. Para obtener información sobre las funciones de revisión, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configurar funciones de corrección predeterminadas</a>. Para obtener información sobre las alertas de prueba por correo electrónico, consulte la sección <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configurar valores predeterminados de prueba para un usuario</a> en el artículo <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configuración de notificaciones por correo electrónico en Workfront Proof</a>.</p><p>Puede agregar tantos usuarios como desee a una fase</p><p>Sugerencia: Puede arrastrar y soltar nombres de revisores entre fases en el diagrama de fases. Las fases disponibles se resaltan en azul.</p></td> 
+      <td>Agregar revisores a la fase o eliminar la fase.<p>Si cada una de las pruebas se envía a las mismas personas en una fase concreta, puede especificar sus nombres aquí nombre para que no tenga que agregarlos cada vez que cree una prueba. Escriba y seleccione el nombre de un usuario que desee agregar al escenario, luego agregue su <strong>función</strong> en la configuración de prueba y <strong>alertas por correo electrónico</strong> que desee para el usuario. Para obtener información acerca de las funciones de revisión, vea <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configurar las funciones de revisión predeterminadas</a>. Para obtener información acerca de las alertas de prueba por correo electrónico, consulte la sección <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configuración de valores predeterminados de prueba para un usuario</a> en el artículo <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configuración de notificaciones por correo electrónico en Workfront Proof</a>.</p><p>Puede agregar tantos usuarios como desee a una fase</p><p>Sugerencia: Puede arrastrar y soltar nombres de revisores entre fases en el diagrama de fases. Las fases disponibles se resaltan en azul.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Repita el paso para cualquier otra etapa que desee agregar a la plantilla.
 
-   En la parte superior del **Flujo de trabajo** , puede ver un diagrama del flujo de trabajo automatizado que está configurando. A medida que vaya añadiendo fases, estas aparecerán en el diagrama con líneas que muestran las dependencias entre ellas. Puede hacer clic en un escenario del diagrama para ver la configuración de dicho escenario.
+   En la parte superior de la sección **Flujo de trabajo**, puede ver un diagrama del flujo de trabajo automatizado que está configurando. A medida que vaya añadiendo fases, estas aparecerán en el diagrama con líneas que muestran las dependencias entre ellas. Puede hacer clic en un escenario del diagrama para ver la configuración de dicho escenario.
 
    Si no necesita ver el diagrama, puede hacer clic en **Ocultar diagrama**.
 
-1. En el **Compartido con** , si desea eliminar un usuario, haga clic en el botón Más ![](assets/more-icon.png) a la derecha, y luego haga clic en **Eliminar**.
+1. En la sección **Compartido con**, si desea eliminar un usuario, haga clic en el botón Más ![](assets/more-icon.png) de la derecha y, a continuación, haga clic en **Quitar**.
 
 ## Crear grupos de plantillas de flujo de trabajo automatizado {#create-automated-workflow-template-groups}
 
@@ -266,9 +266,9 @@ Para crear un grupo de plantillas de flujo de trabajo automatizado:
 
 {{step1-to-proofing}}
 
-1. Clic **Flujos de trabajo** en el panel izquierdo.
-1. En el **Flujo de trabajo** pestaña, haga clic en **Nuevo** > **Nuevo grupo de plantillas**.
-1. Escriba un nombre descriptivo para el nuevo grupo de plantillas y pulse **Entrar**.
+1. Haga clic en **Flujos de trabajo** en el panel izquierdo.
+1. En la ficha **Flujo de trabajo**, haga clic en **Nuevo** > **Nuevo grupo de plantillas**.
+1. Escriba un nombre descriptivo para el nuevo grupo de plantillas y presione **Entrar**.
 
 Puede mover las plantillas entre grupos arrastrándolas y soltándolas.
 
@@ -277,7 +277,7 @@ Puede mover las plantillas entre grupos arrastrándolas y soltándolas.
 {{step1-to-proofing}}
 
 1. En el panel izquierdo de Workfront Proof, haga clic en **Flujos de trabajo**.
-1. En el **Flujos de trabajo** que aparezca, realice una de las acciones siguientes:
+1. En la página **Flujos de trabajo** que aparece, realice una de las siguientes acciones:
 
    * Añadir una plantilla nueva
    * Agregar un nuevo grupo de plantillas

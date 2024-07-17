@@ -22,5 +22,5 @@ ht-degree: 0%
 Esta sección contiene los siguientes artículos:
 
 * [Información general de grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
-* [Información general sobre subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
+* [Resumen de subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
 * [Información general de grupos de inicio](../../../administration-and-setup/manage-groups/groups-overview/home-groups.md)

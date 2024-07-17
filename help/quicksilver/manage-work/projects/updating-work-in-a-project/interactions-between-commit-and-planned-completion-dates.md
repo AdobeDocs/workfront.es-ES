@@ -33,11 +33,11 @@ La siguiente tabla contiene información sobre la diferencia entre las fechas de
  <tbody> 
   <tr> 
    <td role="rowheader">Fecha de confirmación</td> 
-   <td> <p>La fecha de confirmación es la fecha en la que la persona asignada manualmente a una tarea o problema estima que habrá completado la tarea o problema.</p> <p>Para obtener información sobre las fechas de confirmación, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Resumen de fecha de confirmación</a>.</p> </td> 
+   <td> <p>La fecha de confirmación es la fecha en la que la persona asignada manualmente a una tarea o problema estima que habrá completado la tarea o problema.</p> <p>Para obtener información sobre las fechas de confirmación, consulte <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Resumen de la fecha de confirmación</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Fecha planificada de finalización</td> 
-   <td> <p>La fecha planificada de finalización indica cuándo espera el propietario del proyecto que se complete la tarea o el problema. Puede establecerlo manualmente el propietario del proyecto o cualquier persona con permisos de administración en la tarea o el problema, o Adobe Workfront puede calcularlo automáticamente.</p> <p>Para obtener más información sobre las fechas planificadas de finalización, consulte <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Información general sobre la fecha planificada de finalización de la tarea</a></p> </td> 
+   <td> <p>La fecha planificada de finalización indica cuándo espera el propietario del proyecto que se complete la tarea o el problema. Puede establecerlo manualmente el propietario del proyecto o cualquier persona con permisos de administración en la tarea o el problema, o Adobe Workfront puede calcularlo automáticamente.</p> <p>Para obtener más información acerca de las fechas planificadas de finalización, vea <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Información general sobre la fecha planificada de finalización de la tarea</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

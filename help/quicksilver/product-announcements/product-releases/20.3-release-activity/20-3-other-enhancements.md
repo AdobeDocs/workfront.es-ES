@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las demás mejoras realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Descripción general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Compartir un calendario con un vínculo privado
 
@@ -26,13 +26,13 @@ Para aliviar la carga de compartir calendarios en Workfront, puede compartir un 
 
 Anteriormente, se podía compartir una dirección URL pública que no requería un inicio de sesión para verla.
 
-Para obtener más información, consulte [Compartir un informe de calendario](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+Para obtener más información, vea [Compartir un informe de calendario](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 ## Área de nuevos borradores al crear solicitudes
 
 Para ofrecerle una mayor flexibilidad a la hora de trabajar con solicitudes, Workfront ahora guarda automáticamente todas las solicitudes que crea como borrador en el área de nuevos borradores. Si no tiene toda la información necesaria para completar la nueva solicitud, puede dejarlo como borrador, volver a él y terminarlo más tarde. Workfront guarda una solicitud por tema de cola en el nuevo área Borradores. Las solicitudes de borrador se pueden guardar durante el tiempo que las necesite hasta que esté listo para completarlas y enviarlas. También puede quitar o cambiar la posición del área Borradores del panel izquierdo mediante una plantilla de diseño.
 
-Para obtener más información sobre la creación de solicitudes, consulte [Creación y envío de solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener más información sobre la creación de solicitudes, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Para controlar mejor cómo se muestran los objetos en los informes del calendari
 
 Anteriormente, el calendario utilizaba automáticamente las fechas reales una vez que estaban disponibles.
 
-Para obtener más información, consulte [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obtener más información, consulte [Resumen de informes del calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 ## Usar campos de fecha personalizados en informes de calendario
 
@@ -72,7 +72,7 @@ Para ayudarle a visualizar y administrar mejor su trabajo diario con los calenda
 
 Anteriormente, el calendario solo se podía administrar con fechas proyectadas y planificadas cuando las fechas reales no estaban disponibles.
 
-Para obtener más información, consulte [Usar campos de fecha personalizados en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o si utiliza Workfront Classic, consulte [Usar campos de fecha personalizados en un informe de calendario](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Para obtener más información, consulte [Usar campos de fecha personalizados en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o si usa Workfront Classic, vea [Usar campos de fecha personalizados en un informe de calendario](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
 
 ## Cambios de correo electrónico
 
@@ -80,9 +80,9 @@ Para obtener más información, consulte [Usar campos de fecha personalizados en
 
 Anteriormente, los administradores del sistema podían agregar una dirección de correo electrónico personalizada en el área Configuración de correo electrónico.
 
-**Cambios en la respuesta POP del correo electrónico entrante:** Los administradores del sistema ya no tendrán la capacidad de configurar un servidor de correo electrónico POP personalizado para las respuestas de correo electrónico entrantes a las notificaciones.
+**Cambios en la respuesta POP de correo electrónico entrante:** Los administradores del sistema ya no podrán configurar un servidor de correo electrónico POP personalizado para las respuestas de correo electrónico entrantes a las notificaciones.
 
-Para obtener más información, consulte [Suplantación de correo electrónico y cambios en el correo electrónico de respuesta POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Para obtener más información, consulte [suplantación de correo electrónico y cambios en el correo electrónico de respuesta POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
 
 ## DomainKeys Identified Mail (DKIM) ahora se incluye en los correos electrónicos salientes de Workfront
 
@@ -107,7 +107,7 @@ Ahora también hay un vínculo de Detalles del usuario que muestra la siguiente 
 
 Ahora puede utilizar una plantilla de diseño para cambiar los logotipos en el área de navegación superior y en el menú principal para grupos, equipos, funciones y usuarios específicos que tengan su propia marca.
 
-Para obtener más información, consulte [Marca su instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Para obtener más información, consulte [Crear una marca para su instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Los administradores de grupo pueden crear y administrar procesos de aprobación
 
@@ -115,7 +115,7 @@ Para permitir una mayor autonomía y control de los flujos de trabajo de sus gru
 
 Para garantizar que los administradores de grupo no editen de forma involuntaria los procesos de aprobación que se utilizan en todo el sistema o que crean otros grupos, solo pueden acceder a los procesos de aprobación asociados con los grupos que administran.
 
-Para obtener más información, consulte [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Para administradores: la página Nuevos grupos facilita la creación y administración de grupos
 
@@ -152,22 +152,22 @@ La barra lateral izquierda de la Configuración ahora es más rápida y fácil d
 * Mientras la barra lateral está contraída, solo verá los iconos de cada función. Para ver los subelementos debajo de un elemento de la barra lateral principal, pase el ratón sobre su icono para mostrarlos en un menú flotante. Por ejemplo, pase el ratón sobre el icono Procesos para mostrar un menú que contenga Aprobaciones y Rutas de hitos.
 * Puede acceder a las dos opciones de Kick-Starts (Importar datos y Exportar datos) con un clic más rápido. Se han movido desde Sistema para mostrarse en el nivel principal de la barra lateral.
 
-Para obtener información sobre cómo utilizar el área de Configuración, consulte [Administración y configuración](../../../administration-and-setup/administration-and-setup.md).
+Para obtener información sobre cómo usar el área de configuración, consulte [Administración y configuración](../../../administration-and-setup/administration-and-setup.md).
 
 ## Incluir número de clúster en el área Información del cliente
 
 Como administrador de Workfront, ahora puede encontrar fácilmente el número de clúster dentro de Workfront, sin tener que dedicar tiempo ni esfuerzo adicionales a obtenerlo de nuestro equipo de asistencia. Hemos agregado un campo Configuración de clúster en el área Información del cliente de Configuración.
 
-Para obtener información sobre el área de Información del cliente, consulte [Configurar la información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+Para obtener información acerca del área Información del cliente, vea [Configurar información básica para el sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ## Codificación Base64 para suscripciones a eventos
 
 El campo base64Encoding es un campo opcional que se utiliza para habilitar la codificación Base64 de las cargas útiles de suscripción de eventos. Si se realiza una solicitud utilizando el campo base64Encoding establecido en true, los objetos newState y oldState de la carga útil se entregan como cadenas de codificación Base64. Esta función puede resultar útil si la red está configurada de tal manera que no permite caracteres especiales en las suscripciones a eventos.
 
-Para obtener más información, consulte [API de suscripción de evento](../../../wf-api/general/event-subs-api.md).
+Para obtener más información, consulte [API de suscripción a evento](../../../wf-api/general/event-subs-api.md).
 
 ## Se ha eliminado la capacidad de crear suscripciones de eventos duplicadas
 
 Para evitar la entrega de mensajes duplicados, ya no puede crear suscripciones duplicadas. Además, se han eliminado todas las suscripciones duplicadas creadas anteriormente.
 
-Para obtener más información, consulte [Preguntas frecuentes - Suscripciones de eventos](../../../wf-api/general/event-subs-faq.md).
+Para obtener más información, consulte [Preguntas más frecuentes - Suscripciones de eventos](../../../wf-api/general/event-subs-faq.md).

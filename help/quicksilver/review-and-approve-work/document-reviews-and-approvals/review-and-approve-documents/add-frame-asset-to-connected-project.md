@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> -->
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser colaborador del proyecto en Frame.io. Para obtener más información, consulte <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Se me ha invitado a colaborar en un proyecto</a>
+   <td> <p>Debe ser colaborador del proyecto en Frame.io. Para obtener más información, vea <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Se me ha invitado a colaborar en un proyecto</a>
  en el sitio de ayuda de Frame.io.</p> </td> 
   </tr> 
    <tr>
@@ -69,13 +69,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    >
    >Debe tener una licencia de miembro del equipo para poder revisar en Frame.io.
 
-1. Haga clic en el menú de tres puntos del recurso y haga clic en **Añadir a Workfront**.
+1. Haga clic en el menú de tres puntos del recurso y, a continuación, haga clic en **Agregar a Workfront**.
 
 1. Elija dónde cargar el recurso en el proyecto de Workfront conectado.
 
 1. (Opcional) Establezca el estado de la tarea.
 
-1. Clic **Enviar**.
+1. Haga clic en **Enviar**.
 
 El recurso aparece en la ubicación elegida y el estado de la tarea se actualiza en consecuencia.
 

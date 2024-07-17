@@ -29,11 +29,11 @@ Puede asignar o cancelar la asignación de problemas de usuarios, equipos o role
 
 Este artículo contiene información general sobre el impacto de la modificación de las asignaciones de problemas. Para obtener información sobre cómo asignar problemas, consulte los siguientes artículos:
 
-* Para obtener información sobre la asignación de problemas, consulte [Asignar problemas](../../../manage-work/issues/manage-issues/assign-issues.md) y [Modificar asignaciones de usuarios para varios problemas de una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* Para obtener información acerca de la asignación de problemas, vea [Asignar problemas](../../../manage-work/issues/manage-issues/assign-issues.md) y [Modificar asignaciones de usuarios para varios problemas en una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
-* Para obtener información sobre la asignación de problemas mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Para obtener información sobre cómo asignar problemas mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Parte de la información de este artículo también se aplica a las asignaciones a tareas. Para obtener más información sobre la asignación de tareas y otras consideraciones adicionales, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Parte de la información de este artículo también se aplica a las asignaciones a tareas. Para obtener más información acerca de la asignación de tareas y consideraciones adicionales, vea [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Cuándo modificar las asignaciones de los usuarios en los problemas
 
@@ -47,7 +47,7 @@ Es posible que desee modificar las asignaciones de usuario para varios problemas
 
 Puede eliminar asignaciones de un problema a la vez, o puede eliminar asignaciones de varios problemas de forma masiva.
 
-Para obtener más información sobre cómo quitar asignaciones de problemas de forma masiva, consulte [Modificar asignaciones de usuarios para varios problemas de una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+Para obtener más información sobre cómo quitar asignaciones de problemas en lotes, vea [Modificar asignaciones de usuarios para varios problemas en una lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
 Tenga en cuenta lo siguiente al eliminar asignaciones de los problemas:
 

@@ -54,7 +54,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -66,7 +66,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png), luego haga clic en **Metas**.\
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y luego haga clic en **Metas**.\
    Se muestra una lista de objetivos.
 1. Haga clic en una meta.\
    Se muestra la página de objetivo.
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. Realice una de las siguientes acciones para editar la información del objetivo:
    * Haga clic en los campos que se muestran en el encabezado de la meta para actualizarlos. No todos los campos del encabezado son editables.
-   * Haga clic en **Icono Más** ![](assets/more-icon.png) a la derecha del nombre de la meta y haga clic en **Editar**.
-   * Clic **Detalles de la meta** en el panel izquierdo y haga clic en **Icono Editar** ![](assets/edit-icon.png) en la esquina superior derecha, haga clic en **Editar todo**. Comience a actualizar los campos en la sección Detalles del objetivo.
+   * Haga clic en el icono **Más** ![](assets/more-icon.png) a la derecha del nombre de la meta y, a continuación, haga clic en **Editar**.
+   * Haga clic en **Detalles de la meta** en el panel izquierdo, haga clic en el **icono Editar** ![](assets/edit-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Editar todo**. Comience a actualizar los campos en la sección Detalles del objetivo.
 
      >[!IMPORTANT]
      >
@@ -164,28 +164,28 @@ Editing goals differs depending on what environment you use.
 1. (Condicional) Según lo que haya seleccionado en el paso anterior, actualice la siguiente información sobre el objetivo:
 
    * Actualice la siguiente información en el encabezado de objetivo y, a continuación, pulse Intro para guardar los cambios:
-      * **Nombre de meta**: haga clic en el nombre del objetivo y empiece a escribir un nombre nuevo.
-      * **Propietario**: haga clic en el nombre del propietario y empiece a escribir el nombre de un usuario, equipo, grupo o empresa y, a continuación, selecciónelo cuando se muestre en la lista. Solo puede tener un propietario para un objetivo.
-   * Actualice la siguiente información en el cuadro Editar objetivo y, a continuación, haga clic en **Guardar**:
+      * **Nombre de la meta**: haga clic en el nombre de la meta y empiece a escribir un nombre nuevo.
+      * **Propietario**: haga clic en el nombre del propietario, empiece a escribir el nombre de un usuario, equipo, grupo o empresa y, a continuación, selecciónelo cuando se muestre en la lista. Solo puede tener un propietario para un objetivo.
+   * Actualice la siguiente información en el cuadro Editar meta y, a continuación, haga clic en **Guardar**:
       * **Nombre de meta**
-      * **Periodo**: haga clic en para actualizar el periodo de tiempo de la meta\
+      * **Periodo**: Haga clic para actualizar el periodo de tiempo de la meta\
         O\
-        Seleccionar **Habilitar fechas personalizadas** para especificar las fechas de la meta **Inicio** y **Fechas de finalización**.
+        Seleccione **Habilitar fechas personalizadas** para especificar fechas para las **fechas de inicio** y de finalización **de la meta**.
 
         >[!TIP]
         >
-        >Anular selección **Habilitar fechas personalizadas** para volver al período de tiempo original de la meta.
+        >Anule la selección de **Habilitar fechas personalizadas** para volver al período de tiempo original de la meta.
 
-      * **Propietario de meta**
-      * **Descripción**: Añada o actualice información sobre la meta.
-   * Actualice o revise la información en la sección Detalles del objetivo. Para obtener más información, consulte [Actualice las metas en la sección Detalles de las metas de Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
+      * **Propietario de la meta**
+      * **Descripción**: agrega o actualiza información sobre la meta.
+   * Actualice o revise la información en la sección Detalles del objetivo. Para obtener más información, consulte [Actualizar metas en la sección Detalles de las metas en Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
 1. (Opcional) Haga clic en **Indicadores de progreso** en el panel izquierdo para agregar resultados, actividades o proyectos a la meta. Al agregar indicadores de progreso, se asegura de poder rastrear el progreso de la meta.
 Para obtener más información, consulte los siguientes artículos:
    * [Añadir actividades a objetivos en Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
-   * [Añadir resultados a metas en Objetivos de Adobe Workfront](../results-and-activities/add-results-to-goals.md).
+   * [Agregar resultados a metas en Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md).
    * [Agregar proyectos a metas en Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

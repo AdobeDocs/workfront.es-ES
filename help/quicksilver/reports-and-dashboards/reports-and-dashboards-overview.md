@@ -27,4 +27,4 @@ Para obtener más información sobre informes y paneles, consulte los artículos
 * [Informes](../reports-and-dashboards/reports/reports-overview.md)
 * [Paneles](../reports-and-dashboards/dashboards/dashboards-overview.md)
 * [Análisis mejorado](../enhanced-analytics/enhanced-analytics.md)
-* [Paneles de lienzo](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+* [Paneles de control de lienzo](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)

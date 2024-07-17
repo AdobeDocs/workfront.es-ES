@@ -15,11 +15,11 @@ ht-degree: 3%
 
 # Actualizar demora de nivelación de tarea
 
-A veces, puede haber conflictos entre las programaciones de tareas de un proyecto. Puede redistribuir recursos o solucionar conflictos de recursos reprogramando recursos y tareas para que todas las tareas se puedan completar dentro de una programación realista. Para obtener información sobre la redistribución de tareas, consulte [Nivelar recursos en el gráfico Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
+A veces, puede haber conflictos entre las programaciones de tareas de un proyecto. Puede redistribuir recursos o solucionar conflictos de recursos reprogramando recursos y tareas para que todas las tareas se puedan completar dentro de una programación realista. Para obtener información acerca de redistribuir tareas, vea [Nivelar recursos en el diagrama de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 Como jefe de proyecto o como encargado de la tarea, también puede agregar un Retraso por redistribución en tareas individuales para tener en cuenta los conflictos de recursos o de programación. En otras palabras, una tarea se puede programar con un retraso para garantizar que, cuando Adobe Workfront nivele las tareas, una programación más realista supere los conflictos de recursos.
 
-Si se agrega un retraso de redistribución a una tarea, se ajusta la Fecha proyectada de finalización de la tarea. Para obtener información sobre la fecha proyectada de finalización, consulte [Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Si se agrega un retraso de redistribución a una tarea, se ajusta la Fecha proyectada de finalización de la tarea. Para obtener información acerca de la fecha proyectada de finalización, vea [Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
 ## Requisitos de acceso
 
@@ -39,27 +39,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Tareas y Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos para tareas </p> <p>Permisos de contribución o superiores para proyectos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos para tareas </p> <p>Permisos de Contribute o superiores para proyectos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Agregar un retraso de nivelación a una tarea
 
 1. Vaya a una tarea para la que desee agregar un retraso de nivelación.
-1. Haga clic en **Icono Más** a la derecha del nombre de la tarea y haga clic en **Editar**.
+1. Haga clic en el icono **Más** a la derecha del nombre de la tarea y, a continuación, haga clic en **Editar**.
 
-1. Clic **Configuración**.
+1. Haga clic en **Configuración**.
 
    ![](assets/leveling-delay-edit-task-nwe-350x345.png)
 
-1. Especifique el **Retraso de nivelación**, en horas, y después elija una unidad de tiempo.\
+1. Especifique el **retraso de nivelación**, en horas, y después elija una unidad de tiempo.\
    Este es el tiempo en que el recurso se retrasará al iniciar la tarea debido a conflictos de recursos.
 
    Seleccione entre las siguientes opciones para unidades de tiempo:
@@ -79,6 +79,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la Fecha planificada de inicio y la Fecha planificada de finalización de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
 
-1. Clic **Guardar**. 
+1. Haga clic en **Guardar**. 
 
  

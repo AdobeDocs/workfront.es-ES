@@ -6,19 +6,19 @@ description: Al utilizar la acción Documento moveToFolder, se devuelve un error
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # La acción moverAcarpeta del documento no funciona
 
 ## Problema
 
-Cuando se utiliza el objeto Document `moveToFolder` acción, se devuelve un error 422.
+Al utilizar la acción `moveToFolder` del objeto Document, se devuelve un error 422.
 
 O
 

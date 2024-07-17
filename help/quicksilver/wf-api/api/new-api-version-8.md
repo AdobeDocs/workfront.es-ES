@@ -9,8 +9,8 @@ role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 30%
+source-wordcount: '269'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 30%
 
 ## Nuevos recursos
 
-Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para obtener una lista de las actualizaciones realizadas en los recursos de la versión 8, visite [Actualizaciones de la versión 8 de API](../../wf-api/api/new-api-version-8-updates.md)
+Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para obtener una lista de las actualizaciones realizadas en los recursos de la versión 8, visite [Actualizaciones de la versión 8 de la API](../../wf-api/api/new-api-version-8-updates.md)
 
 **AgileWork**
 
@@ -82,7 +82,7 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 {style="table-layout:auto"}
 
-**ProofFileMetadata**
+**MetadatosDeArchivoDeRevisión**
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -94,7 +94,7 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 {style="table-layout:auto"}
 
-**ResourceBudgetedHour**
+**HoraPresupuestadaDeRecursos**
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -137,7 +137,7 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-|  Identificador |   |   |   | addSubscribers | suscriptores | AÑADIR |
+|  ID |   |   |   | addSubscribers | suscriptores | AÑADIR |
 |   |   |   |   | removeSubscribers |   | RECUENTO  |
 |   |   |   |   | suscribe |   | ELIMINAR |
 |   |   |   |   | cancela la suscripción |   | GET |
@@ -150,6 +150,6 @@ Esta es una lista de recursos que son nuevos en la versión 9 de la API. Para ob
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| roleID | rol |   |   |   |   |   |
+| roleID | función |   |   |   |   |   |
 | timePercentage | usuario |   |   |   |   |   |
 | userID |   |   |   |   |   |   |

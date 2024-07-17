@@ -85,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -95,9 +95,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 
 
-## Compartir permisos en una vista <!--internally-->
+## Permisos para compartir en una vista <!--internally-->
 
-Puede compartir las vistas que ha creado o las vistas para las que tiene permisos de administración <!--with users or groups in Workfront-->.
+Puede compartir las vistas que creó o las vistas para las que tiene permisos de administración para <!--with users or groups in Workfront-->.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Puede compartir las vistas que ha creado o las vistas para las que tiene permiso
 
    Se abre la página de tipo de registro.
 
-1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Compartir**.
+1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir, haga clic en el menú **Más** ![](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -119,10 +119,10 @@ Puede compartir las vistas que ha creado o las vistas para las que tiene permiso
 
 1. (Opcional) Seleccione entre las siguientes opciones para compartir la vista:
 
-   * **Solo las personas invitadas pueden acceder a**: debe especificar los usuarios o grupos con los que desea compartir la vista. Esta es la opción predeterminada.
-   * **Todos los usuarios del espacio de trabajo pueden ver**: todos los usuarios que tengan permiso de Vista o superior en los espacios de trabajo pueden acceder a la vista.
+   * **Solo las personas invitadas pueden tener acceso**: debe especificar los usuarios o grupos con los que desea compartir la vista. Esta es la opción predeterminada.
+   * **Todos los usuarios del área de trabajo pueden ver**: todos los usuarios que tengan permisos de Vista o superiores en los espacios de trabajo pueden tener acceso a la vista.
 
-1. En el **Conceder acceso de visualización a** , empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando se muestre en la lista.  <!--***********replace screen shot below when public sharing is released***********-->
+1. En el campo **Conceder acceso de vista a**, empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando aparezca en la lista.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -130,17 +130,17 @@ Puede compartir las vistas que ha creado o las vistas para las que tiene permiso
    * Ver
    * Administrar
 
-     Para obtener información sobre los niveles de permisos y las acciones que los usuarios pueden realizar para cada nivel, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Para obtener información acerca de los niveles de permisos y las acciones que los usuarios pueden realizar en cada nivel, vea [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
      Los administradores del sistema siempre reciben permisos de administración para las vistas compartidas con ellos.
 
-1. Clic **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
+1. Haga clic en **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
 1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 1. Haga clic en **Guardar**.
 
    >[!TIP]
    >
-   >   Las vistas compartidas con usted tienen un indicador de personas ![](assets/view-shared-with-others-people-icon.png) junto al icono ver. Las vistas sin el indicador Personas son vistas que ha creado.
+   >   Las vistas compartidas con usted tienen un indicador de personas ![](assets/view-shared-with-others-people-icon.png) junto al icono de vista. Las vistas sin el indicador Personas son vistas que ha creado.
 
 
 
@@ -189,9 +189,9 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. Abra el espacio de trabajo cuya vista desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
-1. Pase el ratón sobre el nombre de la pestaña de la vista desde la que quiera quitar el uso compartido y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Compartir**.
-1. Busque el usuario o grupo que desea eliminar y haga clic en **Eliminar** en el menú desplegable de permisos, a la derecha del nombre del usuario o grupo.
-1. Clic **Guardar**.
+1. Pase el ratón sobre el nombre de la ficha de la vista de la que quiera quitar el uso compartido y haga clic en el menú **Más** ![](assets/more-menu.png); a continuación, haga clic en **Compartir**.
+1. Busque el usuario o grupo que desea quitar y, a continuación, haga clic en **Quitar** en el menú desplegable de permisos que aparece a la derecha del nombre del usuario o grupo.
+1. Haga clic en **Guardar**.
 El usuario o los usuarios que pertenecen al grupo eliminado ya no tienen acceso a la vista. No hay ninguna notificación para los usuarios que se han eliminado del acceso a la vista de que perdieron este acceso.
 
 <!--Replace the above instructions with the following when public sharing is released: 

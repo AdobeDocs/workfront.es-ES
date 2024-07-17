@@ -1,6 +1,6 @@
 ---
-title: El [!DNL Adobe Workfront] Sitio de estado
-description: Puede ver el estado de la [!DNL Workfront] la plataforma, incluidos los incidentes, las ventanas de mantenimiento programadas y el estado actual de todos los [!DNL Workfront] mediante el acceso a la [!DNL Workfront Status] sitio.
+title: El  [!DNL Adobe Workfront] sitio de estado
+description: Puede ver el estado de la plataforma  [!DNL Workfront] incluyendo incidentes, ventanas de mantenimiento programadas y el estado actual de todos los clústeres [!DNL Workfront] accediendo al sitio [!DNL Workfront Status] s.
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
@@ -11,42 +11,42 @@ ht-degree: 0%
 
 ---
 
-# El [!DNL Adobe Workfront] Sitio de estado
+# El sitio de estado [!DNL Adobe Workfront]
 
 <!-- Audited: 1/2024 -->
 
 ## Información general del sitio Estado
 
-Puede ver el estado de la [!DNL Workfront] la plataforma, incluidos los incidentes, las ventanas de mantenimiento programadas y el estado actual de todos los [!DNL Workfront] mediante el acceso a la [!DNL Workfront Status] sitio.
+Puede ver el estado de la plataforma [!DNL Workfront], incluidos incidentes, ventanas de mantenimiento programadas y el estado actual de todos los clústeres de [!DNL Workfront] si accede al sitio [!DNL Workfront Status].
 
 Tiene acceso a la siguiente información en el sitio Estado:
 
 * Estadísticas de rendimiento del sistema en tiempo real
 * Programación de mantenimiento planificada
-* Información sobre las garantías empleadas por [!DNL Workfront] para proteger los datos de usuario
+* Información sobre las medidas de seguridad empleadas por [!DNL Workfront] para proteger los datos de usuario
 * Estados de vulnerabilidad asignados
 
 ## Ver [!DNL Adobe Workfront] actualizaciones de estado
 
-Puede ver las actualizaciones de estado en [!DNL Adobe] Sitio de estado.
+Puede ver las actualizaciones de estado en el sitio de estado [!DNL Adobe].
 
-1. Tipo [status.adobe.com](https://status.adobe.com/) en el explorador para acceder al sitio de estado.
+1. Escriba [status.adobe.com](https://status.adobe.com/) en el explorador para obtener acceso al sitio de estado.
 
-1. Seleccionar **[!UICONTROL Experience Cloud]**.
+1. Seleccione **[!UICONTROL Experience Cloud]**.
 1. Desplácese hacia abajo y seleccione **[!UICONTROL Adobe Workfront]** de la lista de soluciones.
 
 ## Suscribirse o administrar su suscripción
 
 Para suscribirse al sitio Estado o administrar su suscripción después de haberse suscrito:
 
-1. Ir a [status.adobe.com](https://status.adobe.com/).
+1. Vaya a [status.adobe.com](https://status.adobe.com/).
 1. En la barra de estado, seleccione **[!UICONTROL Administrar suscripciones]**.
    ![](assets/manage-subs.png)
 1. Si ya tiene una cuenta, inicie sesión en ella; de lo contrario, cree una nueva.
-1. Haga clic en **[!UICONTROL Creación de suscripciones]** botón.
-1. Seleccionar **[!UICONTROL Adobe Workfront]** en el **[!UICONTROL Experience Cloud]** y haga clic en **[!UICONTROL Continuar]**.
-1. Seleccione las preferencias regionales y de tipo de evento y haga clic en **[!UICONTROL Continuar]**.
-1. Clic **[!UICONTROL Listo]** para confirmar su suscripción.
+1. Haga clic en el botón **[!UICONTROL Crear suscripciones]**.
+1. Seleccione **[!UICONTROL Adobe Workfront]** en el encabezado de **[!UICONTROL Experience Cloud]** y, a continuación, haga clic en **[!UICONTROL Continuar]**.
+1. Seleccione sus preferencias regionales y de tipo de evento y haga clic en **[!UICONTROL Continuar]**.
+1. Haga clic en **[!UICONTROL Listo]** para confirmar la suscripción.
 
 ## Comprender las vulnerabilidades con nombre
 
@@ -54,11 +54,11 @@ Para suscribirse al sitio Estado o administrar su suscripción después de haber
 
 En seguridad informática, una vulnerabilidad es una debilidad que permite a un atacante reducir la estabilidad, la seguridad o la integridad de un sistema.
 
-Los investigadores de vulnerabilidades y los creadores de explosiones nombran sus proyectos internamente para facilitar su referencia (por ejemplo, [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE], y [!DNL WannaCry]/[!DNL Petya]). Cuando una vulnerabilidad tiene un impacto generalizado, estos nombres se hacen públicos cuando se revelan las vulnerabilidades.
+Los investigadores de vulnerabilidades y los creadores de vulnerabilidades asignan nombres internos a sus proyectos para facilitar la referencia a ellos (por ejemplo, [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE] y [!DNL WannaCry]/[!DNL Petya]). Cuando una vulnerabilidad tiene un impacto generalizado, estos nombres se hacen públicos cuando se revelan las vulnerabilidades.
 
-### ¿Cómo puedo ver las vulnerabilidades con nombre identificadas por? [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
+### ¿Cómo puedo ver las vulnerabilidades con nombre identificadas por [!DNL Workfront?]? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Ir a  [status.adobe.com](https://status.adobe.com/), luego haga clic en **[!UICONTROL Seguridad]**.
+1. Vaya a [status.adobe.com](https://status.adobe.com/) y haga clic en **[!UICONTROL Seguridad]**.
 
 ## ¿Por qué es esto importante? {#why-is-this-important}
 

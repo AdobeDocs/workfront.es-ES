@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 21.3 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción en la semana del 21 de julio de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.3, consulte [Resumen de la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.3, consulte [Información general sobre la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Desactivar funciones que ya no están en uso
 
@@ -29,5 +29,5 @@ Para ofrecerle la misma experiencia que con los usuarios, equipos y empresas, he
 
 Las tareas y los problemas asignados a un rol desactivado, así como los procesos de aprobación o las reglas de enrutamiento, siguen asignándose a estos roles. Debe actualizar estos objetos para reemplazar el rol inactivo por uno activo, en caso de que aún no se hayan completado.
 
-Para obtener más información, consulte [Desactivar funciones del puesto](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+Para obtener más información, consulte [Desactivar funciones](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 

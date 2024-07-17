@@ -2,37 +2,37 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular costo presupuestado de trabajo programado (BCWS)
-description: También conocido como valor planeado, el costo presupuestado del trabajo programado (BCWS) es una métrica de rendimiento del proyecto que representa la cantidad de tarea que debería haberse completado en el momento en que se calcula esta métrica.
+title: Calcular costo presupuestado de trabajo programado (CPTP)
+description: También conocido como Valor planificado, el Costo presupuestado del trabajo programado (CPTP) es una métrica de rendimiento del proyecto que representa la cantidad de la tarea que debería haberse completado en el momento en que se calcula esta métrica.
 author: Alina
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
 source-git-commit: 1d5de5ff0ebebd84482507c71730cfbd05c513a5
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
-# Calcular costo presupuestado de trabajo programado (BCWS)
+# Calcular costo presupuestado de trabajo programado (CPTP)
 
-## Visión General del Coste de Trabajo Presupuestado Programado (BCWS)
+## Visión General del Costo Presupuestado de Trabajo Programado (CPTP)
 
-También conocido como valor planeado, el costo presupuestado del trabajo programado (BCWS) es una métrica de rendimiento del proyecto que representa la cantidad de tarea que debería haberse completado en el momento en que se calcula esta métrica.
+También conocido como Valor planificado, el Costo presupuestado del trabajo programado (CPTP) es una métrica de rendimiento del proyecto que representa la cantidad de la tarea que debería haberse completado en el momento en que se calcula esta métrica.
 
-Adobe Workfront calcula el costo presupuestado del trabajo programado (BCWS) tanto para proyectos como para tareas.
+Adobe Workfront calcula el costo presupuestado del trabajo programado (CPTP) tanto para proyectos como para tareas.
 
-Tenga en cuenta lo siguiente al revisar los valores de BCWS en una tarea o proyecto:
+Tenga en cuenta lo siguiente cuando revise los valores del CPTP en una tarea o proyecto:
 
-* Workfront calcula el CPTP de una tarea en función de su configuración para el método de índice de rendimiento (PIM) del proyecto.
+* Workfront calcula el CPTP de una tarea en función de la configuración del Método de índice de rendimiento (PIM) del proyecto.
 
-   Puede configurar el proyecto para que calcule el PIM utilizando horas o coste, y el BCWS también se calcula utilizando los mismos valores.
+  Puede configurar el proyecto para que calcule el PIM mediante horas o costo y el CPTP también se calcula utilizando los mismos valores.
 
-   Para obtener información sobre cómo se calcula el CPTP, consulte la sección [Configurar cómo se calcula el CPTP](#configure-how-bcws-is-calculated) en este artículo.
+  Para obtener información acerca de cómo configurar el CPTP, vea la sección [Configurar cómo se calcula el CPTP](#configure-how-bcws-is-calculated) en este artículo.
 
-* Workfront calcula el CPTP de un proyecto añadiendo todos los valores de CPTP de todas las tareas principales y tareas individuales del proyecto.
+* Workfront calcula el CPTP de un proyecto agregando todos los valores del CPTP de todas las tareas principales y de las tareas individuales del proyecto.
 
-   Los valores de las tareas secundarias no se agregan al CPTP del proyecto.
+  Los valores de las tareas secundarias no se agregan al CPTP del proyecto.
 
 ## Requisitos de acceso
 
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -52,11 +52,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p>Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Proyectos</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para el proyecto</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,10 +65,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Configurar cómo se calcula el CPTP {#configure-how-bcws-is-calculated}
 
-Puede configurar si el CPTP se calcula en horas o en costes configurando cómo se calcula el método de índice de rendimiento (PIM) del proyecto.
+Puede configurar si el CPTP se calcula en horas o costos configurando cómo se calcula el método de índice de rendimiento (PIM) del proyecto.
 
 1. Vaya a un proyecto y haga clic en **Detalles del proyecto** en el panel izquierdo.
-1. En el **Finanzas** , ubique la variable **Método de índice de rendimiento** y haga doble clic en él para editarlo.
+1. En el área **Finanzas**, busque el campo **Método del índice de rendimiento** y haga doble clic en él para editarlo.
 
    ![](assets/pim-options-hour-cost-based-nwe.png)
 
@@ -77,16 +77,16 @@ Puede configurar si el CPTP se calcula en horas o en costes configurando cómo s
    | Opción | Cómo se realiza el cálculo |
    |---|---|
    | Basado en horas | Workfront calcula el CPTP utilizando las horas planificadas de las tareas. |
-   | Basado en costos | Workfront calcula el CPTP utilizando el coste planificado de las tareas. |
+   | Basado en costos | Workfront calcula el CPTP utilizando el costo planificado de las tareas. |
 
 
 1. Haga clic en **Guardar cambios**.
 
-   El CPTP de las tareas del proyecto se calcula mediante horas o costes.
+   El CPTP de las tareas del proyecto se calcula mediante horas o costos.
 
-## Calcular BCWS
+## Calcular CPTP
 
-Workfront calcula el costo presupuestado del trabajo programado (BCWS) para tareas o proyectos mediante las siguientes fórmulas:
+Workfront calcula el costo presupuestado del trabajo programado (CPTP) para tareas o proyectos mediante las siguientes fórmulas:
 
 ```
 Task BCWS = Planned Percent Complete x Task Budget
@@ -96,30 +96,30 @@ Task BCWS = Planned Percent Complete x Task Budget
 Project BCWS = SUM(BCWS values of all parent and individual tasks)
 ```
 
-En este cálculo se utilizan los valores siguientes:
+En este cálculo se utilizan los siguientes valores:
 
 | Valor utilizado | Descripción del valor utilizado |
 |---|---|
-| Porcentaje completado planificado | Esto es lo que debe ser el porcentaje completado de la tarea mirando la cantidad de tiempo transcurrido entre el comienzo de la tarea y hoy. |
-| Presupuesto de tareas | Este es el valor de las horas planificadas o el coste planificado de la tarea. |
+| Porcentaje planificado completado | Este es el porcentaje completado de la tarea al observar la cantidad de tiempo transcurrido entre el comienzo de la tarea y hoy. |
+| Presupuesto de tareas | Es el valor de las horas planificadas o el costo planificado de la tarea. |
 
-Por ejemplo, si hoy es 12 de febrero y una tarea está programada para durar desde el 10 de febrero hasta el 20 de febrero, la tarea debe estar 20% completa hoy. Si el presupuesto de la tarea (costo planificado) es de 10.000 $, el CPTP de la tarea es:
+Por ejemplo, si hoy es 12 de febrero y una tarea está programada para durar del 10 al 20 de febrero, la tarea debería estar completada al 20 %. Si el presupuesto de la tarea (costo planificado) es de 10.000 $, el CPTP de la tarea es:
 
 ```
 Task BCWS = 20% x $10,000 = $2,000
 ```
 
-## Localización del CPTP para un proyecto o una tarea
+## Busque el CPTP para un proyecto o una tarea
 
-Puede ver el valor del Coste de trabajo presupuestado programado en un informe o lista, agregando la columna de CPTP a la vista.
+Puede ver el valor del costo presupuestado del trabajo programado en un informe o lista, agregando la columna CPTP a la vista.
 
-1. Vaya a una lista de tareas o proyectos.
-1. Expanda el **Ver** y seleccione **Nueva vista** o **Personalizar vista**.
+1. Ir a una lista de tareas o proyectos.
+1. Expanda el menú **Vista** y seleccione **Nueva vista** o **Personalizar vista**.
 
-1. Haga clic en **Agregar columna**.
-1. En el **Mostrar en esta columna:** introducción de campo **BCWS** y haga clic en para seleccionarlo cuando aparezca en la lista.
+1. Haga clic en **Añadir columna**.
+1. En el campo **Mostrar en esta columna:** empiece a escribir **BCWS** y haga clic para seleccionarlo cuando se muestre en la lista.
 
    ![](assets/bcws-in-project-view.png)
 
-1. Haga clic en **Guardar vista**.
-1. La variable **BCWS** se muestra en la vista .
+1. Pulse **Guardar vista**.
+1. El campo **BCWS** se muestra en la vista.

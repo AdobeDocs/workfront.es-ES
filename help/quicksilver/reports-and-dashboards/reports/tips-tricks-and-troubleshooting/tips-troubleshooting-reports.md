@@ -20,7 +20,7 @@ ht-degree: 0%
 Esta sección contiene los siguientes artículos:
 
 * [Preguntas frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
-* [Mensaje de error en el calendario: &quot;Este calendario tiene los derechos de visualización de un usuario desactivado&quot;.](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
-* [Mensaje de error al ejecutar un informe: &quot;Actualmente no ha iniciado sesión&quot;.](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
+* [Mensaje de error en el calendario: &quot;Este calendario tiene los derechos de visualización de un usuario desactivado.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
+* [Mensaje de error al ejecutar un informe: &quot;Actualmente no ha iniciado sesión.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
 * [La edición en línea de fechas desplaza la visualización del calendario fuera del cuadro](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
 * [Los datos de las columnas compartidas no se muestran en los informes del panel](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)

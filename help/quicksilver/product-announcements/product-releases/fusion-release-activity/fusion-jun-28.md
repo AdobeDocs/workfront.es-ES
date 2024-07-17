@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 28 de junio de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Nuevo módulo de búsqueda en el conector de Salesforce
 
@@ -32,7 +32,7 @@ Para facilitar la búsqueda de objetos de Salesforce, hemos agregado otro módul
 
 Si prefiere introducir las consultas usted mismo, puede utilizar la funcionalidad existente anteriormente en el módulo Buscar con consulta.
 
-Para obtener más información, [Módulos de Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Para obtener más información, [módulos de Salesforce](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## Filtro de suscripción de eventos disponible en el módulo Workfront > Ver registros
 
@@ -40,4 +40,4 @@ Para acompañar la nueva funcionalidad de filtrado de suscripción a eventos de 
 
 Anteriormente, el módulo Observar registros recuperaba todos los registros. Los usuarios solo podían filtrar configurando filtros en módulos de escenarios posteriores.
 
-Para obtener más información, consulte [Módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Para obtener más información, consulte [módulos de Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

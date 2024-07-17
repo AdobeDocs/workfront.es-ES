@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Agregar tareas o problemas existentes a un [!DNL Adobe Workfront] tablero o flujo de trabajo
+# Agregar tareas o problemas existentes a un tablero o flujo de trabajo de [!DNL Adobe Workfront]
 
 >[!IMPORTANT]
 >
@@ -39,28 +39,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
   <tr>
    <td role="rowheader"><strong>Permisos de objeto</strong></td>
-   <td> <p>[!UICONTROL View] o permisos superiores para la tarea o el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td>
+   <td> <p>[!UICONTROL View] o permisos superiores para la tarea o el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Agregar tareas o problemas existentes a un tablero o flujo de trabajo desde una lista
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
-1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]**, o **[!UICONTROL Paneles]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]** o **[!UICONTROL Paneles]**.
 1. Vaya al proyecto, informe o panel que contiene la tarea o el problema que desea agregar al tablero o flujo de trabajo.
 1. Seleccione una o varias tareas o problemas.
 
    Si selecciona una subtarea, también se agregará como una tarjeta en el tablero.
 
-1. Clic [!UICONTROL **Más**] > [!UICONTROL **Añadir a tableros**] o [!UICONTROL **Añadir a flujos de trabajo**].
-1. En el [!UICONTROL Añadir a] , seleccione el tablero o flujo de trabajo al que desea añadir los elementos.
+1. Haga clic en [!UICONTROL **Más**] > [!UICONTROL **Agregar a tableros**] o [!UICONTROL **Agregar a flujos de trabajo**].
+1. En el cuadro de diálogo [!UICONTROL Agregar a], seleccione el tablero o flujo de trabajo al que desea agregar los elementos.
 
    En el caso de las placas, solo están disponibles las placas independientes, no las que forman parte de los flujos de trabajo.
 
-1. Clic [!UICONTROL **Añadir**].
+1. Haga clic en [!UICONTROL **Agregar**].
 
    Para un tablero: la tarea o el problema se añaden al tablero como una tarjeta. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se añade en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de entrada.
 
@@ -70,16 +70,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Agregar tareas o problemas existentes a un tablero o flujo de trabajo desde los detalles del objeto
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
-1. Clic [!UICONTROL **Proyectos**] A continuación, haga clic en el nombre de un proyecto para abrirlo.
-1. Clic [!UICONTROL **Tareas**] o [!UICONTROL **Problemas**] en el panel izquierdo.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+1. Haga clic en [!UICONTROL **Proyectos**] y, a continuación, haga clic en el nombre de un proyecto para abrirlo.
+1. Haga clic en [!UICONTROL **Tareas**] o [!UICONTROL **Problemas**] en el panel izquierdo.
 1. Haga clic en la tarea, subtarea o problema que desee agregar a un tablero o flujo de trabajo.
-1. Haga clic en **[!UICONTROL Más]** junto al nombre del objeto y seleccione [!UICONTROL **Añadir a tableros**] o [!UICONTROL **Añadir a flujos de trabajo**].
-1. En el [!UICONTROL Añadir a] , seleccione el tablero o flujo de trabajo al que desea añadir los elementos.
+1. Haga clic en el menú **[!UICONTROL Más]** junto al nombre del objeto y seleccione [!UICONTROL **Agregar a tableros**] o [!UICONTROL **Agregar a flujos de trabajo**].
+1. En el cuadro de diálogo [!UICONTROL Agregar a], seleccione el tablero o flujo de trabajo al que desea agregar los elementos.
 
    En el caso de las placas, solo están disponibles las placas independientes, no las que forman parte de los flujos de trabajo.
 
-1. Clic [!UICONTROL **Añadir**].
+1. Haga clic en [!UICONTROL **Agregar**].
 
    Para un tablero: la tarea o el problema se añaden al tablero como una tarjeta. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se añade en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de entrada.
 
@@ -91,11 +91,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Vaya al proyecto, informe o panel que contiene la tarea o el problema cuya información desea ver en los tableros.
 1. Seleccione una vista que incluya la columna Tableros o cree una nueva vista con la columna Tableros.
-Para obtener información sobre las vistas, consulte [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
-1. Clic [!UICONTROL **Mostrar**] en la columna para mostrar la lista de tableros en los que se encuentra la tarea o el problema.
+Para obtener información sobre las vistas, consulte [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. Haga clic en [!UICONTROL **Mostrar**] en la columna para mostrar la lista de tableros en los que se encuentra la tarea o el problema.
 
    ![Mostrar tableros en la columna](assets/show-boards-in-column.png)
 
 1. Haga clic en el nombre de un tablero para abrir la tarea o el problema conectado en el tablero.
 
-   ![Seleccione un tablero](assets/select-board-in-column.png)
+   ![Seleccionar un tablero](assets/select-board-in-column.png)

@@ -1,6 +1,6 @@
 ---
-title: Crear y personalizar prioridades
-description: Puede controlar las prioridades de los proyectos, tareas y problemas en el área de configuración de Workfront. Las prioridades dan importancia a sus proyectos, tareas o problemas en Adobe Workfront.
+title: Creación y personalización de prioridades
+description: Puede controlar las prioridades de los proyectos, tareas y problemas en el área de Configuración de Workfront. Las prioridades otorgan importancia a sus proyectos, tareas o problemas en Adobe Workfront.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# Crear y personalizar prioridades
+# Creación y personalización de prioridades
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Puede controlar las prioridades de los proyectos, tareas y problemas en el área de configuración de Workfront. Las prioridades dan importancia a sus proyectos, tareas o problemas en Adobe Workfront.
+Puede controlar las prioridades de los proyectos, tareas y problemas en el área de Configuración de Workfront. Las prioridades otorgan importancia a sus proyectos, tareas o problemas en Adobe Workfront.
 
 ## Requisitos de acceso
 
@@ -38,42 +38,42 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalización de prioridades existentes
+## Personalizar las prioridades existentes
 
-Como administrador de Workfront, puede realizar las siguientes modificaciones en las prioridades predeterminadas que se proporcionan en Workfront:
+Como administrador de Workfront, puede realizar las siguientes modificaciones en las prioridades predeterminadas proporcionadas en Workfront:
 
-* Cambie el nombre de las prioridades.
-* Reordenar las prioridades.
+* Cambie el nombre de prioridades.
+* Reordene las prioridades.
 
-   Para obtener más información sobre cómo reordenar las prioridades, consulte [Crear una prioridad para una tarea de proyecto o un problema](#create-a-priority-for-a-project-task-or-issue).
+  Para obtener más información sobre cómo reordenar las prioridades, vea [Crear una prioridad para una tarea o un problema de proyecto](#create-a-priority-for-a-project-task-or-issue).
 
 * Cambie la prioridad predeterminada.
 
-   Para obtener más información sobre la funcionalidad de cambiar la prioridad predeterminada, consulte [Crear una prioridad para una tarea de proyecto o un problema](#create-a-priority-for-a-project-task-or-issue).
+  Para obtener más información sobre la funcionalidad de cambiar la prioridad predeterminada, vea [Crear una prioridad para una tarea de proyecto o un problema](#create-a-priority-for-a-project-task-or-issue).
 
 * Edite la descripción de las prioridades.
-* Establezca un color para cada prioridad.
+* Defina un color para cada prioridad.
 
-   El color de la prioridad se utiliza en los informes de gráficos, cuando se agrupan los resultados por **Prioridad**.
+  El color de la prioridad se usa en los informes de gráficos cuando se agrupan los resultados por **Prioridad**.
 
-   Para obtener más información sobre los informes de gráficos, consulte [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Para obtener más información sobre los informes de gráficos, consulte [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * Eliminar prioridades.
 
-   Cuando elimine una prioridad existente, debe seleccionar una que la sustituya.
+  Al eliminar una prioridad existente, debe seleccionar una de reemplazo.
 
 * Ocultar prioridades.
 
-   Para obtener más información sobre la funcionalidad de ocultar prioridades, consulte [Crear una prioridad para una tarea de proyecto o un problema](#create-a-priority-for-a-project-task-or-issue).
+  Para obtener más información sobre la funcionalidad de ocultar prioridades, vea [Crear una prioridad para una tarea de proyecto o un problema](#create-a-priority-for-a-project-task-or-issue).
 
-   >[!NOTE]
-   >
-   >Debe tener al menos una prioridad en la cuenta de Workfront para cada objeto.
+  >[!NOTE]
+  >
+  >Debe tener al menos una prioridad en la cuenta de Workfront para cada objeto.
 
 Las prioridades proporcionadas de forma predeterminada para cada tipo de objeto (proyecto, tarea y problema) son idénticas:
 
@@ -83,16 +83,16 @@ Las prioridades proporcionadas de forma predeterminada para cada tipo de objeto 
 * Alto
 * Urgente
 
-## Crear una prioridad para una tarea de proyecto o un problema {#create-a-priority-for-a-project-task-or-issue}
+## Crear una prioridad para una tarea o un problema de proyecto {#create-a-priority-for-a-project-task-or-issue}
 
-Además de las prioridades predeterminadas que se proporcionan en Workfront, puede agregar sus propias prioridades para reflejar las necesidades de su organización.
+Además de las prioridades predeterminadas proporcionadas en Workfront, puede agregar sus propias prioridades para reflejar las necesidades de su organización.
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto** > **Prioridades**.
 
-1. Haga clic en la pestaña del tipo de objeto para el que desea crear una prioridad (**Proyecto**, **Tarea** o **Problema**).
-1. Haga clic en **Añadir una nueva prioridad**.
+1. Haga clic en la ficha del tipo de objeto para el que desea crear una prioridad (**Proyecto**, **Tarea** o **Problema**).
+1. Haga clic en **Agregar nueva prioridad**.
 1. Especifique la siguiente información para la nueva prioridad:
 
    <table style="table-layout:auto"> 
@@ -105,15 +105,15 @@ Además de las prioridades predeterminadas que se proporcionan en Workfront, pue
      </tr> 
      <tr> 
       <td role="rowheader">Importancia</td> 
-      <td> <p>Al añadir una nueva prioridad, se le asigna un número de forma predeterminada. Edite este número si no se ajusta a sus necesidades.</p> <p>La variable <strong>Importancia</strong> para cada prioridad debe ser único para el objeto seleccionado.<br>El número de la prioridad refleja la importancia del proyecto, la tarea o el problema: el número más alto corresponde a la prioridad más alta.</p> <p><b>NOTA</b>: Después de guardar la prioridad, no se puede editar el número de importancia. </p> </td> 
+      <td> <p>Al agregar una nueva prioridad, se le asigna un número de forma predeterminada. Edite este número si no coincide con sus necesidades.</p> <p>El número <strong>Importance</strong> de cada prioridad debe ser único para el objeto seleccionado.<br>El número de la prioridad refleja la importancia del proyecto, tarea o problema: el número más alto corresponde a la prioridad más alta.</p> <p><b>NOTA</b>: no puede editar el número de importancia después de guardar la prioridad. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Elija un color para la prioridad.</p> <p>El color de la prioridad se utiliza en los informes de gráficos y en la configuración del equipo de Agile. Para obtener más información sobre los informes de gráficos, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Agregar un gráfico a un informe</a>.</p> <p>Para obtener más información sobre la configuración de Agile Team, consulte en .</p> </td> 
+      <td> <p>Elija un color para su prioridad.</p> <p>El color de la prioridad se utiliza en los informes de gráficos y en la configuración del equipo de Agile. Para obtener más información sobre los informes de gráficos, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Agregar un gráfico a un informe</a>.</p> <p>Para obtener más información sobre la configuración de Agile Team, consulte en .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Prioridad predeterminada</td> 
-      <td> <p>Decida si esta debería ser una prioridad predeterminada o no, seleccionando el botón de opción .</p> <p>Si se designa una prioridad como la variable <strong>Prioridad predeterminada</strong>, se selecciona automáticamente para todos los proyectos, tareas o problemas de Workfront. <strong>Normal</strong> es la prioridad predeterminada para todos los objetos de Workfront.</p> </td> 
+      <td> <p>Decida si debe ser una prioridad predeterminada o no, seleccionando el botón de opción.</p> <p>Si se designa una prioridad como <strong>Prioridad predeterminada</strong>, se selecciona automáticamente para todos los proyectos, tareas o problemas de Workfront. <strong>Normal</strong> es la prioridad predeterminada para todos los objetos de Workfront.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descripción</td> 
@@ -121,17 +121,17 @@ Además de las prioridades predeterminadas que se proporcionan en Workfront, pue
      </tr> 
      <tr> 
       <td role="rowheader">Ocultar</td> 
-      <td> <p>Seleccione este cuadro si desea ocultar la prioridad.</p><p>Al seleccionar la variable <b>Ocultar</b> , la prioridad no se muestra en ninguna parte de Workfront y los usuarios no pueden elegirla para sus proyectos, tareas y problemas.</p> 
-      <p><b>IMPORTANTE</b>: Le recomendamos que oculte las prioridades que ya no desea utilizar, en lugar de eliminarlas. Al ocultarlas, se conservarán todos los datos históricos, de los objetos que se hayan completado con esta prioridad, a la vez que se evita que las personas elijan esta prioridad en el futuro. </p>
-      <p>De forma opcional, puede cambiar el orden de las prioridades arrastrándolas y soltándolas en el orden deseado. Esto cambia el orden en que se muestran para los proyectos, las tareas y los problemas. Esto no cambia la variable <b>Importancia</b> número. </p></td> 
+      <td> <p>Seleccione esta casilla si desea ocultar la prioridad.</p><p>Al seleccionar la opción <b>Ocultar</b>, la prioridad no se muestra en ninguna parte de Workfront y los usuarios no pueden elegirla para sus proyectos, tareas y problemas.</p> 
+      <p><b>IMPORTANTE</b>: Le recomendamos que oculte las prioridades que ya no desee usar, en lugar de eliminarlas. Al ocultarlos, se conservan todos los datos históricos, de los objetos que se han completado con esta prioridad, al tiempo que se impide que las personas elijan esta prioridad en el futuro. </p>
+      <p>Si lo desea, puede cambiar el orden de los listados de sus prioridades arrastrándolas y soltándolas en el orden deseado. Esto cambia el orden en que se muestran para los proyectos, las tareas y los problemas. Esto no cambia el número <b>Importance</b>. </p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Haga clic en **Guardar**.
 
-Para obtener instrucciones sobre la aplicación de prioridades a proyectos, tareas y problemas, consulte los siguientes artículos:
+Para obtener instrucciones sobre cómo aplicar prioridades a proyectos, tareas y problemas, consulte los siguientes artículos:
 
 * [Comprender y actualizar las prioridades del proyecto](../../../manage-work/projects/planning-a-project/project-priority.md)
-* [Actualizar prioridad de tareas](../../../manage-work/tasks/task-information/task-priority.md)
+* [Actualizar prioridad de tarea](../../../manage-work/tasks/task-information/task-priority.md)
 * [Actualizar prioridad del problema](../../../manage-work/issues/issue-information/update-issue-priority.md)

@@ -25,7 +25,7 @@ Como Adobe Workfront es un producto de Adobe, puede acceder a él a través de A
 
 Todos los clientes de Workfront se transferirán finalmente a Adobe Admin Console. Una vez que la organización se ha trasladado a Adobe Admin Console, la autenticación de Workfront se administra mediante la consola. Preparar y realizar este movimiento antes sienta las bases para una gestión eficiente del trabajo y posiciona a su organización para una innovación más rápida en el futuro
 
-Para obtener una descripción general de Adobe Admin Console, consulte [Resumen del Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+Para obtener una descripción general de Adobe Admin Console, consulte [Información general del Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
 ## Lista de comprobación de migración
 
@@ -45,7 +45,7 @@ Para garantizar que su organización pueda migrar a Adobe Admin Console, debe re
    >
    >Prepárese para hablar con el Soporte de Workfront y con su equipo de TI sobre las preferencias de autenticación, como el inicio de sesión único (SSO) o no SSO.
 
-   Para obtener instrucciones, consulte la sección Identity Management del [Guía de implementación para Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Para obtener instrucciones, consulte la sección Identity Management de la [Guía de implementación para Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Condicional) Si utiliza el inicio de sesión único, conecte el nuevo Adobe Admin Console a su proveedor de SSO existente.
 
@@ -59,9 +59,9 @@ Para garantizar que su organización pueda migrar a Adobe Admin Console, debe re
 
    1. Elimine los correos electrónicos duplicados de Workfront.
 
-      Para obtener instrucciones, consulte [Actualizar las direcciones de correo electrónico de los usuarios existentes en la instancia de Workfront](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Impedir usuarios duplicados](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      Para obtener instrucciones, consulte [Actualizar las direcciones de correo electrónico de los usuarios existentes en su instancia de Workfront](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) en [Impedir usuarios duplicados](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
 
-      Si hay direcciones de correo electrónico duplicadas en su organización, el usuario representado por la dirección de correo electrónico con el más reciente. `lastLoginDate` se moverán a la organización de Adobe Admin Console. Se desactivarán todos los demás usuarios con esa dirección de correo electrónico.
+      Si hay direcciones de correo electrónico duplicadas en su organización, el usuario representado por la dirección de correo electrónico con la última `lastLoginDate` se moverá a la organización de Adobe Admin Console. Se desactivarán todos los demás usuarios con esa dirección de correo electrónico.
 
       >[!NOTE]
       >
@@ -77,7 +77,7 @@ Para garantizar que su organización pueda migrar a Adobe Admin Console, debe re
 
 1. (Opcional) Actualice todas las integraciones personalizadas para utilizar OAuth2.
 
-   Para obtener instrucciones sobre la configuración de integraciones de OAuth2, consulte [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   Para obtener instrucciones sobre la configuración de integraciones de OAuth2, consulte [Crear aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
    >[!NOTE]
    >
@@ -85,6 +85,6 @@ Para garantizar que su organización pueda migrar a Adobe Admin Console, debe re
 
 Una vez configurado Adobe Admin Console con Workfront, puede utilizarlo para crear los administradores del sistema de Workfront.
 
-Para obtener más información, consulte [Administración de administradores de sistemas en Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Para obtener más información, consulte [Administrar administradores del sistema en Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 Para obtener una lista de otras acciones que son diferentes en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

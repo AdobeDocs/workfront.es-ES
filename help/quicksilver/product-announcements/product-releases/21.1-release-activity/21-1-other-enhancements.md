@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página describe todas las demás mejoras realizadas con la versión 21.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 15 de febrero de 2021.
 
-Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general de la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general sobre la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Actualizaciones de los requisitos de error de suscripción de evento
 
@@ -33,7 +33,7 @@ Para obtener información adicional sobre los nuevos requisitos de deshabilitaci
 
 Hemos agregado los campos de Aprobación del equipo y Asignaciones al correo electrónico de resumen diario de la acción necesaria.
 
-Para obtener más información, consulte [Notificaciones: acción necesaria](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Para obtener más información, consulte [Notificaciones: Acción necesaria](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 ## Sustituir opción de correo electrónico POP en colas de solicitudes
 
@@ -41,13 +41,13 @@ Estamos reemplazando la opción de correo electrónico POP para las colas de sol
 
 Estos cambios están disponibles para probarlos en la vista previa.
 
-El correo electrónico se desactiva automáticamente en todos los entornos de vista previa. Para activar el correo electrónico con fines de prueba, consulte [Habilitar el envío de correos electrónicos desde el entorno de vista previa de espacio aislado](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+El correo electrónico se desactiva automáticamente en todos los entornos de vista previa. Para habilitar el correo electrónico con fines de prueba, consulte [Habilitar el envío de correos electrónicos desde el entorno de vista previa de espacio aislado](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-Para obtener más información, consulte [Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Para obtener más información, consulte [Permitir que los usuarios envíen un problema por correo electrónico a un proyecto de cola de solicitudes](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-Para obtener más información sobre por qué hemos realizado este cambio, consulte [Nuevo sistema administrado por Adobe Workfront que reemplazará el correo electrónico POP en las colas de solicitudes con 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+Para obtener más información sobre el motivo por el que realizamos este cambio, consulte [Nuevo sistema administrado de Adobe Workfront para reemplazar el correo electrónico POP en las colas de solicitudes con 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Esta función ahora se incluye en la [Administración de colas en la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Administración de colas en la nueva ruta de aprendizaje de la experiencia Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) en Workfront One.
 
 ## Restringir la edición de horas en hojas de horas
 
@@ -55,7 +55,7 @@ Para proporcionar más control sobre las plantillas de horas y la edición de ho
 
 Anteriormente, los usuarios con la opción Plantillas de horas y Horas habilitada en su nivel de acceso podían editar las horas en cualquier plantilla de horas.
 
-Para obtener más información, consulte [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener más información, consulte [Configurar la hoja de horas y las preferencias de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Filtros y vistas mejorados en el área de Plantillas de horas
 
@@ -70,7 +70,7 @@ Para obtener más información, consulte [Registrar tiempo](../../../timesheets/
 
 Ahora puede ocultar el cuadro de horas extra para facilitar la confusión del usuario si no rastrea las horas extra en Workfront. Puede ocultar el cuadro de horas extra de una plantilla de horas de un solo uso o en el Perfil de plantilla de horas:
 
-* Hoja de horas de un solo uso: cuando opta por ocultar la casilla de horas extra en una hoja de horas individual, solo está oculta para esa hoja de horas. Para obtener más información, consulte [Crear hoja de horas de un solo uso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Hoja de horas de un solo uso: cuando opta por ocultar la casilla de horas extra en una hoja de horas individual, solo está oculta para esa hoja de horas. Para obtener más información, consulte [Crear una hoja de horas de un solo uso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 * Perfil de hoja de horas: cuando opta por ocultar la casilla de horas extra del perfil de hoja de horas, todas las hojas de horas futuras creadas para los usuarios asignados a ese perfil no verán la casilla de horas extra. Para obtener más información, consulte [Crear, editar y asignar perfiles de hojas de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Anteriormente, no se podía ocultar la casilla de horas extra en las plantillas de horas.

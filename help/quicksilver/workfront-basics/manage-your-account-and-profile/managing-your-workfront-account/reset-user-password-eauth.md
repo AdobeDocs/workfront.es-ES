@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Restablecer la contraseña de un usuario con autenticación mejorada
-description: Cuando la autenticación mejorada (eAuth) está habilitada para su [!DNL Workfront] Entorno, a [!DNL Workfront] el administrador no puede restablecer las credenciales de inicio de sesión de otro usuario. Esto difiere de [!DNL Workfront] Entornos sin eAuth o los entornos para los que está habilitado el inicio de sesión único (SSO).
+description: Cuando la autenticación mejorada (eAuth) está habilitada para tu [!DNL Workfront] entorno, un administrador de [!DNL Workfront] no puede restablecer las credenciales de inicio de sesión de otro usuario. Esto difiere de  [!DNL Workfront] entornos sin eAuth o aquellos entornos para los que el inicio de sesión único (SSO) está habilitado.
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--This article has been hidden by request-->
 
-Cuando la autenticación mejorada (eAuth) está habilitada para su [!DNL Workfront] Entorno, a [!DNL Workfront] el administrador no puede restablecer las credenciales de inicio de sesión de otro usuario. Esto difiere de [!DNL Workfront] Entornos sin eAuth o los entornos para los que está habilitado el inicio de sesión único (SSO).
+Cuando la autenticación mejorada (eAuth) está habilitada para su entorno [!DNL Workfront], un administrador de [!DNL Workfront] no puede restablecer las credenciales de inicio de sesión de otro usuario. Esto difiere de [!DNL Workfront] entornos sin eAuth o aquellos entornos para los que el inicio de sesión único (SSO) está habilitado.
 
 ## Requisitos de acceso
 
@@ -44,21 +44,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Restablecer la contraseña de un usuario en un entorno habilitado para eAuth
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Workfront], luego haga clic en **[!UICONTROL Usuarios]** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Workfront] y luego haga clic en **[!UICONTROL Usuarios]** ![](assets/users-icon-in-main-menu.png).
 
    ![](assets/main-menu-options-350x481.png)
 
-1. Seleccione el **[!UICONTROL Usuario]** que requiere un restablecimiento de contraseña.
+1. Seleccione el **[!UICONTROL usuario]** que requiere un restablecimiento de contraseña.
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Haga clic en **[!UICONTROL Más] botón** que aparece después de elegir el deseado **[!UICONTROL Usuario]** y seleccione la **[!UICONTROL Enviar correo electrónico sobre contraseña olvidada]** en el menú desplegable.
+1. Haga clic en el botón **[!UICONTROL Más]** que aparece después de elegir el **[!UICONTROL Usuario]** deseado y seleccione la opción **[!UICONTROL Enviar correo electrónico sobre contraseña olvidada]** del menú desplegable.
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-Después de seleccionar el **[!UICONTROL Enviar correo electrónico sobre contraseña olvidada]** opción, se envía un correo electrónico al usuario seleccionado que contiene instrucciones para que cambie su propia contraseña.
+Después de seleccionar la opción **[!UICONTROL Enviar correo electrónico sobre contraseña olvidada]**, se envía un mensaje de correo electrónico al usuario seleccionado que contiene instrucciones para que cambie su propia contraseña.
 
 ![](assets/pwresetemail-resized-350x461.png)

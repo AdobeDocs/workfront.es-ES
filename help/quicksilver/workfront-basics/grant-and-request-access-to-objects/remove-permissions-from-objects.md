@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Puede quitar los permisos de otros usuarios en los objetos a los que tiene acceso para compartir. La eliminación de permisos de los objetos es idéntica para todos los objetos que se pueden compartir.
 
-Consideraciones similares a las de los objetos compartidos se aplican a la eliminación de permisos de los objetos. Para obtener más información, consulte la sección [Consideraciones acerca de compartir objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+Consideraciones similares a las de los objetos compartidos se aplican a la eliminación de permisos de los objetos. Para obtener más información, vea la sección [Consideraciones sobre cómo compartir objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) en el artículo [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Requisitos de acceso
 
@@ -66,28 +66,28 @@ Puede quitar entidades (usuarios, funciones, equipos, grupos y empresas) de la l
 
 1. Vaya al objeto del que desee quitar permisos.
 
-   Para obtener información sobre los objetos que se pueden compartir, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Para obtener información acerca de los objetos que se pueden compartir, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Condicional) Para programas, portafolios y documentos, haga lo siguiente:
 
-   1. Haga clic en **Más** icono ![](assets/more-icon.png)junto al nombre del objeto y haga clic en **Uso compartido** o **Compartir.**
+   1. Haga clic en el icono **Más** ![](assets/more-icon.png)junto al nombre del objeto y, a continuación, haga clic en **Compartir** o en **Compartir.**
 
       ![](assets/share-a-document-350x160.png)
 
-   1. Haga clic en **x** junto al nombre de un usuario, equipo, grupo, empresa o rol para eliminarlos en el cuadro acceso a objetos.
+   1. Haga clic en **x** junto al nombre de un usuario, equipo, grupo, empresa o rol para quitarlos en el cuadro de acceso a objetos.
 
       ![](assets/remove-permissions-on-portfolio.png)
 
-   1. En el **El acceso de Workfront de &lt; Nombre de usuario > se eliminará de esta** menú desplegable, seleccione si desea que su acceso se elimine sólo del objeto seleccionado o de todos los objetos secundarios asociados a él.
+   1. En el acceso Workfront de **&lt; Nombre de usuario > se eliminará de este menú desplegable de**, seleccione si desea que su acceso se elimine únicamente del objeto que ha seleccionado o de todos los objetos secundarios asociados a él.
 
 1. (Condicional) Para proyectos, tareas y problemas, haga lo siguiente:
 
-   1. Clic **Compartir** a la derecha del nombre del objeto.
+   1. Haga clic en **Compartir** a la derecha del nombre del objeto.
 
       ![](assets/new-share-button.png)
    1. Busque el usuario, la función, el equipo, el grupo o la compañía que desee quitar del objeto.
-   1. Clic **Eliminar**.
-En el **Eliminar &lt; Nombre de usuario > de** menú desplegable, seleccione si desea que su acceso se elimine sólo del objeto seleccionado o de todos los objetos secundarios asociados a él.
+   1. Haga clic en **Quitar**.
+En el menú desplegable **Quitar &lt; Nombre de usuario > de**, seleccione si desea que su acceso se elimine sólo del objeto que ha seleccionado, o de todos los objetos secundarios asociados a él.
 
       ![](assets/remove-permissions-on-project-nwe-350x479.png)
 
@@ -108,15 +108,15 @@ Puede eliminar entidades (usuarios, funciones, equipos, grupos y empresas) de va
 
 1. Vaya a la lista de objetos que desea compartir.
 
-   Para obtener información sobre los objetos que se pueden compartir, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Para obtener información acerca de los objetos que se pueden compartir, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Seleccione varios objetos de la lista y haga clic en **Compartir** icono ![](assets/share-icon.png)al principio de la lista.
-1. Escriba el nombre del usuario, rol, equipo, grupo o compañía para el que desea quitar el acceso en la **Editar `<Object Name>` acceso a** field.
+1. Seleccione varios objetos de la lista y, a continuación, haga clic en el icono **Compartir** ![](assets/share-icon.png)en la parte superior de la lista.
+1. Escriba el nombre del usuario, rol, equipo, grupo o compañía para el que desea quitar el acceso en el campo **Editar acceso de `<Object Name>` a**.
 1. En el menú desplegable de acceso, seleccione **Sin acceso**.
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. En el `<User Name>`El acceso de Workfront de se eliminará de este menú desplegable; seleccione si desea que su acceso se elimine solo de los objetos seleccionados o de todos los objetos secundarios asociados a él.\
+1. En el elemento Workfront del elemento `<User Name>` se quitará el acceso a este menú desplegable, seleccione si desea que su acceso se quite sólo de los objetos que ha seleccionado, o de todos los objetos secundarios asociados a él.\
    Existen los siguientes escenarios:
 
    * Si quita la entidad sólo del objeto, esa entidad pierde sus permisos sobre el objeto y sus permisos heredados sobre los objetos secundarios. Si anteriormente se les habían concedido permisos para los elementos secundarios de forma individual, conservan los mismos permisos en todos los objetos secundarios asociados a él al seleccionar esta opción. 
@@ -128,7 +128,7 @@ Puede eliminar entidades (usuarios, funciones, equipos, grupos y empresas) de va
 
 1. (Opcional) Para cambiar los permisos de forma masiva para varios objetos, seleccione otro nivel de uso compartido para la entidad seleccionada.
 
-   Por ejemplo, si tienen permisos de gestión, seleccione Contribuir o Ver en su lugar.
+   Por ejemplo, si tienen permisos de administración, seleccione Contribute o Ver en su lugar.
 
 1. Haga clic en **Guardar**.
 
@@ -143,33 +143,33 @@ Los permisos heredados se pueden eliminar de los objetos, lo que permite a los p
 Para eliminar permisos heredados:
 
 1. Vaya a un objeto para el que tenga permisos de administración. Por ejemplo, ir a una tarea.
-1. Vaya al cuadro de acceso a objetos como se describe en la [Eliminación de entidades de la lista de uso compartido de un objeto](#remove-entities-from-the-sharing-list-of-an-object) de este artículo.
-1. Seleccione el **x** junto a **Permiso heredado** en el cuadro de uso compartido para quitar a los usuarios que estén allí enumerados.
+1. Vaya al cuadro de acceso a objetos como se describe en la sección [Quitar entidades de la lista de uso compartido de un objeto](#remove-entities-from-the-sharing-list-of-an-object) de este artículo.
+1. Seleccione **x** junto a **Permiso heredado** en el cuadro para compartir para quitar a cualquiera que aparezca allí.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-   Esto garantiza que nadie que tenga permisos concedidos para el objeto principal (por ejemplo, el proyecto) tenga permisos para esta tarea de forma predeterminada. Debe enumerar entidades individuales en la lista de uso compartido de la tarea para conceder permisos sobre la tarea.
+   Esto garantiza que nadie que tenga permisos concedidos para el objeto principal (por ejemplo, el proyecto) tenga permisos para esta tarea de forma predeterminada. Debe enumerar  entidades individuales en la lista de uso compartido de la tarea para conceder permisos sobre la tarea.
 
    >[!TIP]
    >
    >No se pueden quitar entidades individuales de la lista Permisos heredados. Solo puede desactivar los Permisos heredados para todas las entidades enumeradas.
 
-1. Clic **Guardar**. 
+1. Haga clic en **Guardar**. 
 
 ## Convertir un objeto en privado
 
 Si ha compartido un objeto en todo el sistema o lo ha compartido con usuarios externos haciéndolo público, puede hacerlo privado de nuevo eliminando los permisos públicos o de todo el sistema. 
 
-Para obtener más información acerca de cómo hacer que un objeto esté disponible para todo el sistema o para el público, consulte [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+Para obtener más información sobre cómo hacer que un objeto esté disponible en todo el sistema o de manera pública, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 Para convertir un objeto en privado:
 
 1. Vaya al objeto que desea convertir en privado.\
    Por ejemplo, navegue hasta un informe.
-1. Clic **Acciones de informe**, entonces **Uso compartido**.
+1. Haga clic en **Acciones de informe** y luego en **Compartir**.
 
    ![](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Clic **Eliminar acceso público** para eliminar el acceso de los usuarios externos a la visualización del informe.
-1. Clic **Eliminar acceso en todo el sistema** para dejar de compartirlo con todos los usuarios de Workfront. 
+1. Haga clic en **Eliminar acceso público** para eliminar el acceso de los usuarios externos a la visualización del informe.
+1. Haga clic en **Eliminar acceso en todo el sistema** para dejar de compartirlo con todos los usuarios de Workfront. 
 1. Haga clic en **Guardar**.

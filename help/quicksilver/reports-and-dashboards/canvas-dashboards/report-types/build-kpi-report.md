@@ -5,7 +5,8 @@ title: Creación de un informe de KPI en un panel de lienzo
 description: Se puede agregar a un panel de lienzo un informe de KPI que muestre de forma destacada un único KPI agregado.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Se puede agregar a un panel de lienzo un informe de KPI que muestre de forma destacada un único KPI agregado.
 
-Para obtener información general sobre cómo añadir y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Para obtener información general sobre cómo agregar y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Requisitos de acceso
 

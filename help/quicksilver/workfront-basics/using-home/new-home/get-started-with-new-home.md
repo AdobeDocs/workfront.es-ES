@@ -31,7 +31,7 @@ La nueva página de inicio está diseñada para ser altamente personalizable, lo
 
 Los widgets son la base del nuevo Inicio. Al agregar widgets a la página de inicio, puede elegir el tipo de información que se muestra para satisfacer mejor sus necesidades laborales. Algunos widgets solo están disponibles para tipos de licencia específicos, ya que los objetos que rastrean solo están disponibles para esas licencias.
 
-Para obtener información sobre cómo añadir, mover, cambiar el tamaño o eliminar widgets, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Para obtener información sobre cómo agregar, mover, cambiar el tamaño o eliminar widgets, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 A continuación se muestran los diez widgets disponibles actualmente para elegir, así como un resumen de la información que muestran:
 
@@ -57,7 +57,7 @@ A continuación se muestran los diez widgets disponibles actualmente para elegir
     Muestra todas las aprobaciones pendientes asignadas o delegadas, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
 
 * **Todas las aprobaciones**\
-        <span class="preview"> Muestra dos gráficos con información sobre el tiempo medio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas.</span> <span style="color: #ff0000;">Esta función forma parte de una versión por fases y actualmente solo está disponible para clientes específicos.</span>
+        <span class="preview"> muestra 2 gráficos con información sobre el tiempo promedio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas.</span> <span style="color: #ff0000;">Esta característica forma parte de una versión por fases y actualmente sólo está disponible para clientes específicos.</span>
 
 * **Menciones**\
     Muestra los hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones. Puede utilizar el botón de respuesta para crear una respuesta dentro del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que es el propietario, que es el contacto principal de o que ha creado, siempre y cuando la tarea o el problema se hayan actualizado en los últimos 30 días.
@@ -129,20 +129,20 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
 
 Puede añadir un toque personal a su página de inicio seleccionando un banner colorido en la parte superior de la página.
 
-**Para cambiar el color del fondo de Inicio:**
+**Para cambiar el color del fondo de la página principal:**
 
 1. Vaya a la página principal siguiendo uno de estos procedimientos:
 
-   * Si Inicio se establece como su página de aterrizaje, haga clic en **Adobe Workfront** icono ![Icono de Adobe Workfront](../new-home/assets/home-icon-30x29.png) en la esquina superior izquierda de la pantalla.
-   * Haga clic en **Menú principal** en la esquina superior derecha de la pantalla, o el icono **Menú principal** icono ![Icono del menú principal](../new-home/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, si está disponible, haga clic en **Inicio**.
+   * Si Inicio está configurado como página de aterrizaje, haga clic en el icono **Adobe Workfront** ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) en la esquina superior izquierda de la pantalla.
+   * Haga clic en el icono **Menú principal** en la esquina superior derecha de la pantalla, o en el icono **Menú principal** ![Icono del menú principal](../new-home/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Inicio**.
 
-1. Clic **Personalizar** en la esquina superior derecha de la pantalla.
+1. Haga clic en **Personalizar** en la esquina superior derecha de la pantalla.
 
    ![Botón Personalizar](../new-home/assets/customize-button.png)
 
    Se abrirá el panel Personalizar.
 
-1. En el **Fondo** de la sección **Personalizar** , haga clic en el color que desee seleccionar para el fondo de Inicio. También puede hacer clic en **Ninguno** para quitar el fondo.
+1. En la sección **Fondo** del panel **Personalizar**, haga clic en el color que desee seleccionar para el fondo de Inicio. También puede hacer clic en **Ninguno** para quitar el fondo.
 
 ## Volver a la experiencia de inicio actual
 
@@ -150,15 +150,15 @@ Si prefiere la experiencia de Inicio existente, puede desactivar la nueva experi
 
 Para volver a la experiencia de Inicio actual:
 
-1. Vaya a la página de inicio haciendo clic en el icono **Adobe Workfront** icono ![Icono de Adobe Workfront](../new-home/assets/home-icon-30x29.png) en la esquina superior izquierda de la pantalla si Inicio está configurado como página de aterrizaje o haga clic en el botón **Menú principal** en la esquina superior derecha ![](assets/dots-main-menu.png) o el **Menú principal** icono ![Icono del menú principal](../new-home/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, si está disponible, haga clic en **Inicio**.
+1. Vaya a la página principal, ya sea haciendo clic en el icono de **Adobe Workfront** ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) en la esquina superior izquierda de la pantalla si Inicio está configurado como página de aterrizaje, o haga clic en el icono de **Menú principal** en la esquina superior derecha de ![](assets/dots-main-menu.png) o en el icono de **Menú principal** ![Menú principal](../new-home/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Inicio**.
 
-1. Haga clic en **Volver a la página principal actual** en la esquina inferior derecha de la página.
+1. Haz clic en el botón **Volver al inicio actual** en la esquina inferior derecha de la página.
 
    ![Volver al botón Inicio actual](../new-home/assets/go-back-to-current-home-button.png)
 
    Aparece una ventana de confirmación.
 
-1. Haga una breve encuesta sobre su experiencia con el nuevo Inicio o haga clic en **Volver a la página de inicio actual** para volver a la experiencia de Inicio actual.
+1. Realice una breve encuesta sobre su experiencia con la nueva página de inicio o haga clic en **Volver a la página de inicio actual** para volver a la página de inicio actual.
 
 >[!NOTE]
 >

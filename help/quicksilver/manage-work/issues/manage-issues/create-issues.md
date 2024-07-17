@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Mientras trabaja en un proyecto, es posible que descubra que se producen eventos inesperados. Puede registrar esos eventos inesperados como problemas para un proyecto en particular o de una tarea. Los usuarios con el acceso adecuado pueden ver y supervisar el estado de los problemas a medida que el proyecto o la tarea progresa hasta su finalización, lo que elimina la necesidad de largas cadenas de correo electrónico o reuniones de estado. A diferencia de las tareas, que son eventos planificados, los problemas representan elementos de trabajo no planificados en Adobe Workfront.
 
-También puede agregar problemas a proyectos como solicitudes. Para obtener más información, consulte [Creación y envío de solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+También puede agregar problemas a proyectos como solicitudes. Para obtener más información, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!TIP]
 >
@@ -55,11 +55,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a Proyectos y tareas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los problemas del nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td> 
+   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a Proyectos y tareas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los problemas de su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de contribución o superiores con capacidad para agregar problemas a la tarea o proyecto donde crea el problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Contribute o permisos superiores con capacidad para Agregar problemas a la tarea o el proyecto donde crea el problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,9 +83,9 @@ Cuando tenga los permisos y el acceso correctos, podrá crear problemas en un pr
 
 Su organización debe tener un proceso bien definido para cuándo y cómo registrar un problema. Al configurar este proceso, el primer paso es crear el formulario necesario para enviar un problema. Tanto si permite que los problemas se agreguen directamente a tareas y proyectos, como si tiene colas de solicitudes en las que se envían problemas, puede definir qué campos de Workfront, así como qué campos personalizados están disponibles para los usuarios cuando envían nuevos problemas y deben completarse. El formulario Nuevo problema puede contener información importante que resulta útil para resolver el problema rápidamente.
 
-Los campos para los nuevos problemas de un proyecto se definen en la sección Detalles de cola del proyecto, donde se registrarán los problemas. Para obtener información sobre cómo configurar la sección Detalles de cola del proyecto, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Los campos para los nuevos problemas de un proyecto se definen en la sección Detalles de cola del proyecto, donde se registrarán los problemas. Para obtener información acerca de cómo configurar la sección Detalles de cola del proyecto, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Para obtener información sobre cómo crear problemas enviándolos a una cola de solicitudes, consulte la [Crear problemas al introducir una nueva solicitud](#create-issues-by-entering-a-new-request) de este artículo.
+Para obtener información sobre cómo crear problemas enviándolos a una cola de solicitudes, consulte la sección [Crear problemas al escribir una nueva solicitud](#create-issues-by-entering-a-new-request) en este artículo.
 
 ## Crear problemas en una tarea o proyecto mediante el botón Nuevo problema
 
@@ -155,25 +155,25 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 Para crear un problema en una tarea o un proyecto:
 
 1. Vaya a un proyecto en el que desee crear el problema.
-1. (Opcional) Si desea registrar el problema de una tarea, vaya a **Tareas** y, a continuación, haga clic en el nombre de una tarea.
-1. Haga clic en **Problemas** sección.
+1. (Opcional) Si desea registrar el problema de una tarea, vaya al área **Tareas** y luego haga clic en el nombre de una tarea.
+1. Haga clic en la sección **Problemas**.
 
    Se muestra la lista de problemas del proyecto
 
-1. Clic **Nuevo problema** en la parte superior de la lista de problemas.
+1. Haga clic en **Nuevo problema** en la parte superior de la lista de problemas.
 Se muestra el cuadro Nuevo problema.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. (Condicional) Si el creador del proyecto creó temas de la cola o grupos de temas en el proyecto, se agregarán al formulario de nuevo problema. Especifique el **Grupo de temas** o el **Tema de cola** de su nuevo problema. Los grupos de temas y los temas de colas tienen nombres personalizados según su entorno.\
-   Para obtener más información sobre la creación de grupos de temas, consulte [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obtener más información sobre la creación de temas de colas, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (Condicional) Si el creador del proyecto creó temas de la cola o grupos de temas en el proyecto, se agregarán al formulario de nuevo problema. Especifique el **Grupo de temas** o el **Tema de cola** del nuevo problema. Los grupos de temas y los temas de colas tienen nombres personalizados según su entorno.\
+   Para obtener más información sobre cómo crear grupos de temas, vea [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Para obtener más información acerca de cómo crear temas de colas, vea [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    * Si solo hay un tema de la cola definido en el proyecto, se muestra automáticamente.
    * Si el grupo de temas no tiene ningún tema de cola o grupo de temas debajo, no hay nada disponible en la lista desplegable Grupo de temas.
 
-1. Añada el nombre del problema en la **Asunto** y, a continuación, añada un **Descripción**.
+1. Agregue el nombre del problema en el campo **Asunto** y después agregue una **Descripción**.
 
-1. (Condicional) Si el creador del proyecto permite el **Tipo de solicitud** para mostrar en el formulario Nuevo problema, seleccione el tipo de problema de entre las siguientes opciones:
+1. (Condicional) Si el creador del proyecto permitió que el campo **Tipo de solicitud** se mostrara en el formulario Nuevo problema, seleccione el tipo de problema en las siguientes opciones:
 
    * Informe de errores
    * Solicitud de cambio
@@ -187,29 +187,29 @@ Se muestra el cuadro Nuevo problema.
    >* [Crear una cola de solicitudes](../../requests/create-and-manage-request-queues/create-request-queue.md)
    >  * [Crear temas de cola](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. Siga especificando los campos disponibles en la **Nuevo problema** formulario. Para obtener más información sobre los campos disponibles al introducir un problema nuevo, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Continúe especificando los campos disponibles en el formulario **Nuevo problema**. Para obtener más información acerca de los campos disponibles al ingresar un problema nuevo, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
-   >No todos los campos relacionados con el problema están disponibles en el formulario Nuevo problema. El creador del proyecto habilita los campos disponibles al crear un problema cuando definen el área Detalles de cola del proyecto. Para obtener más información, consulte [Crear una cola de solicitudes](../../requests/create-and-manage-request-queues/create-request-queue.md).
+   >No todos los campos relacionados con el problema están disponibles en el formulario Nuevo problema. El creador del proyecto habilita los campos disponibles al crear un problema cuando definen el área Detalles de cola del proyecto. Para obtener más información, vea [Crear una cola de solicitudes](../../requests/create-and-manage-request-queues/create-request-queue.md).
 
 
-1. (Condicional) Si los temas de la cola están asociados a un formulario personalizado, ese formulario personalizado se mostrará en la **Nuevo problema** formulario.\
+1. (Condicional) Si los temas de la cola están asociados a un formulario personalizado, ese formulario personalizado se mostrará en el formulario **Nuevo problema**.\
    O\
-   Si el proyecto está asociado con un formulario personalizado de problema mediante el área Detalles de la cola, el formulario se muestra en la variable **Nuevo problema** , después de los campos predeterminados de Workfront.
+   Si el proyecto está asociado con un formulario personalizado de problema mediante el área Detalles de cola, el formulario se mostrará en el formulario **Nuevo problema**, después de los campos predeterminados de Workfront.
 
-   Para obtener más información, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Clic **Enviar**.
+1. Haga clic en **Enviar**.
 
-   Los problemas se pueden asignar a varios usuarios, funciones del puesto o a un equipo. Para obtener más información sobre la asignación y administración de solicitudes, consulte [Administrar solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   Los problemas se pueden asignar a varios usuarios, funciones del puesto o a un equipo. Para obtener más información sobre cómo asignar y administrar solicitudes, vea [Administrar solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 
 ## Crear problemas en línea de una tarea o proyecto
 
 >[!IMPORTANT]
 >
->El propietario del proyecto debe habilitar **Permitir que los usuarios agreguen problemas en línea** al definir la configuración de problemas del proyecto, antes de agregar problemas en línea al proyecto o a las tareas. Para obtener información sobre cómo configurar los problemas de un proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+>El propietario del proyecto debe habilitar **Permitir que los usuarios agreguen problemas en línea** al definir la configuración de problemas del proyecto para que pueda agregar problemas en línea al proyecto o a las tareas. Para obtener información acerca de cómo configurar los problemas de un proyecto, vea [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 >
 
 Si desea agregar varios problemas rápidamente, puede crear problemas para una tarea o un proyecto en línea agregándolos a una lista de problemas.
@@ -221,9 +221,9 @@ Si desea agregar varios problemas rápidamente, puede crear problemas para una t
 Para crear problemas en línea:
 
 1. Vaya a un proyecto en el que desee crear el problema.
-1. (Opcional) Si desea registrar el problema de una tarea, vaya a **Tareas** y, a continuación, haga clic en el nombre de una tarea.
+1. (Opcional) Si desea registrar el problema de una tarea, vaya a la sección **Tareas** y, a continuación, haga clic en el nombre de una tarea.
 1. Haga clic en **Problemas** en el panel izquierdo.
-1. Clic **Agregar más problemas** en la parte inferior de la lista de problemas.
+1. Haga clic en **Agregar más problemas** en la parte inferior de la lista de problemas.
 
    Se crea una nueva línea en la lista de problemas de la sección Problemas.
 
@@ -253,4 +253,4 @@ Puede designar proyectos para que sean receptáculos para la recepción de probl
 >
 >Los términos &quot;problema&quot; y &quot;solicitud&quot; son intercambiables en Workfront.
 
-Para obtener más información sobre cómo configurar proyectos como colas de solicitudes para recibir problemas, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). Para obtener información sobre el envío de solicitudes, consulte [Creación y envío de solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener más información acerca de cómo configurar proyectos como colas de solicitudes para recibir problemas, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). Para obtener información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -220,7 +220,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
   <tr> 
-   <td>Panel</td> 
+   <td>Panel de control</td> 
    <td>PTLTAB</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -445,9 +445,9 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>DocumentVersion</span> </td> 
+   <td><span>VersiónDocumento</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>accessorIDs</span> </td> 
+   <td><span>id. de descriptor de acceso</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -487,7 +487,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ext.</span> </td> 
+   <td><span>ext</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -502,17 +502,17 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileName</span> </td> 
+   <td><span>nombreDeArchivo</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileType</span> </td> 
+   <td><span>tipoDeArchivo</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>Identificador</span> </td> 
+   <td><span>ID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -542,7 +542,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofDecision</span> </td> 
+   <td><span>decisiónDeRevisión</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -567,7 +567,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofProgress</span> </td> 
+   <td><span>progresoDeRevisión</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -577,7 +577,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>version</span> </td> 
+   <td><span>versión</span> </td> 
   </tr> 
   <tr> 
    <td>Gasto</td> 
@@ -1780,19 +1780,19 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>ProofApproval</span> </td> 
+   <td><span>AprobaciónRevisión</span> </td> 
    <td><span>PRFAPL</span> </td> 
-   <td><span>accessorIDs</span> </td> 
+   <td><span>id. de descriptor de acceso</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>approverDecision</span> </td> 
+   <td><span>decisiónDeAprobador</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>approverID</span> </td> 
+   <td><span>aprobador</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1812,7 +1812,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>Identificador</span> </td> 
+   <td><span>ID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1832,7 +1832,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>requesterID</span> </td> 
+   <td><span>idDeSolicitante</span> </td> 
   </tr> 
   <tr> 
    <td>Registro</td> 

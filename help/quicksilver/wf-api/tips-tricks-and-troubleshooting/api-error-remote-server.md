@@ -9,7 +9,7 @@ role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Este error se produce cuando intenta importar, a través de la API, un campo per
 
 Agregue el formulario personalizado correcto al tema de la cola.
 
-Para obtener más información sobre los temas de colas, consulte [Crear temas de cola](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Para obtener más información acerca de los temas de colas, vea [Crear temas de colas](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

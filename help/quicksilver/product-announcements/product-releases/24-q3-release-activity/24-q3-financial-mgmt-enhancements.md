@@ -4,7 +4,8 @@ description: Mejoras en la gestión financiera del tercer trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2681e878b3366b08343aa8d0a513b71126d2a67b
+exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
+source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 Esta página describe todas las mejoras de administración financiera realizadas con la versión del tercer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión del tercer trimestre de 2024.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general de la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Campos de gastos facturables y no facturables disponibles para proyectos y tareas
 
@@ -34,4 +35,4 @@ Los informes Línea base, Plantilla y Proyecto (Datos financieros) también incl
 
 Los gastos facturables se marcan como facturables al cliente. Los gastos no facturables no se marcan como facturables.
 
-Para obtener más información sobre cómo marcar un gasto como facturable, consulte [Administrar gastos del proyecto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Para obtener más información sobre cómo marcar un gasto como facturable, consulte [Administrar gastos de proyecto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

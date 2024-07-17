@@ -57,18 +57,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configuración de tipos de cambio
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Preferencias de proyecto** > **Tasas de cambio.**
+1. Haga clic en **Preferencias del proyecto** > **Tasas de cambio.**
 
-1. Clic **Agregar divisa.**
+1. Haga clic en **Agregar moneda.**
 1. Empiece a escribir el nombre de la moneda y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.
 
 1. En el campo proporcionado, especifique la tasa para la moneda seleccionada, en relación con la moneda configurada como moneda base en el sistema.
@@ -76,7 +76,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Esta es la moneda que se usa como predeterminada para todos los proyectos e informes de todo el sistema.
 
-1. Clic **Guardar** para guardar los cambios.
+1. Haga clic en **Guardar** para guardar los cambios.
 
 ## Permitir que los usuarios modifiquen la moneda predeterminada de un proyecto
 
@@ -84,11 +84,11 @@ Los usuarios pueden modificar la moneda predeterminada de un proyecto cuando se 
 
 * El usuario tiene una licencia de planificación con acceso administrativo a las tasas de cambio.
 
-  Para obtener más información, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Para obtener más información, consulte [Conceder a los usuarios acceso administrativo a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Hay más de una divisa habilitada en el sistema de Workfront.
 
-Para obtener información sobre cómo los usuarios pueden cambiar la moneda predeterminada en un proyecto determinado, consulte [Cambiar la divisa del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md).
+Para obtener información sobre cómo los usuarios pueden cambiar la moneda predeterminada en un proyecto determinado, vea [Cambiar la moneda del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Permitir que los usuarios modifiquen la moneda predeterminada de un rol
 
@@ -96,7 +96,7 @@ Los usuarios pueden modificar la moneda de un rol cuando se cumplan las siguient
 
 * El usuario tiene una licencia de planificación con acceso administrativo a las funciones del puesto.
 
-  Para obtener más información, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Para obtener más información, consulte [Conceder a los usuarios acceso administrativo a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Hay más de una divisa habilitada en el sistema de Workfront.
 

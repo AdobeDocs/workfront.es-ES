@@ -17,11 +17,11 @@ ht-degree: 12%
 
 El lago de datos de Workfront es una nueva herramienta que se encuentra en desarrollo y que proporciona una interfaz específica para que las organizaciones extraigan datos para utilizarlos en herramientas populares de analistas de negocios o para almacenarlos en almacenes de datos externos, sin necesidad de complicadas soluciones de fusión o API. Esta página contiene información sobre cómo puede ayudarnos probando y proporcionando comentarios sobre esta herramienta durante la versión beta en curso.
 
-Para obtener información sobre el uso del lago de datos de Workfront, consulte [Información general del lago de datos Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Para obtener información sobre el uso del lago de datos de Workfront, consulte [Información general sobre el lago de datos de Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-**Programación beta:**
+**Programación de Beta:**
 
-* Fecha de inicio de la versión beta: 15 de abril de 2024
+* Fecha de inicio de Beta: 15 de abril de 2024
 * Fecha de lanzamiento planificada: por determinar
 
 ## Participar en la versión beta
@@ -34,17 +34,17 @@ Para obtener información sobre el uso del lago de datos de Workfront, consulte 
 
 Para inscribir a su organización en la versión beta, rellene y envíe el formulario en el siguiente vínculo:
 
-[inscripción beta en el lago de datos de Workfront](https://adobe.ly/workfrontdatalake)
+[Inscripción beta en el lago de datos de Workfront](https://adobe.ly/workfrontdatalake)
 
 ### Proporcionar comentarios
 
 Los comentarios se agradecen a medida que desarrollamos esta herramienta durante el transcurso de la versión beta. Siga las instrucciones a continuación para compartir su experiencia con nosotros.
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Configurar**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Configurar**.
 
 1. En el panel izquierdo, haga clic en **Sistema** > **Acceso a datos**.
 
-1. Haga clic en **Enviar comentarios** botón situado en la parte inferior de la página y, a continuación, rellene el formulario con sus comentarios.
+1. Haz clic en el botón **Enviar comentarios** en la parte inferior de la página y rellena el formulario con tus comentarios.
 
 ## Funciones planificadas
 

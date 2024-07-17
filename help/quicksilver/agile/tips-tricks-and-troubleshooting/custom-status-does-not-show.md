@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: agile-and-teams
 navigation-topic: tips-tricks-and-troubleshooting-agile
-title: Los estados personalizados no aparecen en el tablero de artículos ágil
-description: Si desea utilizar un estado personalizado en un tablero de artículos ágil, su [!DNL Adobe Workfront] el administrador debe crear primero ese estado personalizado como estado de todo el sistema.
+title: Los estados personalizados no aparecen en el panel de historias Agile
+description: Si desea usar un estado personalizado en un panel de historias Agile, su administrador de  [!DNL Adobe Workfront] debe crear primero ese estado personalizado como un estado para todo el sistema.
 author: Lisa
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 ---
 
-# Los estados personalizados no aparecen en el tablero de artículos ágil
+# Los estados personalizados no aparecen en el panel de historias Agile
 
-Si desea utilizar un estado personalizado en un tablero de artículos ágil, su [!DNL Adobe Workfront] el administrador debe crear primero ese estado personalizado como estado de todo el sistema. Para obtener más información, pida a su [!DNL Workfront] administrador consulte [Crear o editar un estado](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Si desea usar un estado personalizado en un panel de historias Agile, su administrador de [!DNL Adobe Workfront] debe crear primero ese estado personalizado como un estado para todo el sistema. Para obtener más información, pídale al administrador de [!DNL Workfront] que vea [Crear o editar un estado](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

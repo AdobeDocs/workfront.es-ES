@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Estados personalizados en una tarea o problema que se mueve o copia
-description: Cuando se mueve o copia una tarea o un problema en un proyecto diferente, algunos estados de la tarea o el problema se pueden actualizar para que coincidan con los estados utilizados por el grupo del proyecto de destino.
+title: Estados personalizados de una tarea o un problema que se mueve o copia
+description: Cuando mueve o copia una tarea o un problema a un proyecto diferente, algunos estados de la tarea o el problema pueden actualizarse para coincidir con los estados utilizados por el grupo del proyecto de destino.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ---
 
-# Estados personalizados en una tarea o problema que se mueve o copia
+# Estados personalizados de una tarea o un problema que se mueve o copia
 
-Cuando se mueve o copia una tarea o un problema en un proyecto diferente, algunos estados de la tarea o el problema se pueden actualizar para que coincidan con los estados utilizados por el grupo del proyecto de destino. Esto depende de si existen estados con la misma clave en ese grupo:
+Cuando mueve o copia una tarea o un problema a un proyecto diferente, algunos estados de la tarea o el problema pueden actualizarse para coincidir con los estados utilizados por el grupo del proyecto de destino. Esto depende de si existen estados con la misma clave en ese grupo:
 
-* Si un estado de la tarea o del problema tiene la misma clave que un estado utilizado por el grupo del proyecto de destino, el estado de la tarea o del problema sigue siendo el mismo.
+* Si un estado de la tarea o del problema tiene la misma clave que un estado utilizado por el grupo del proyecto de destino, el estado de la tarea o del problema seguirá siendo el mismo.
 
-   Si la etiqueta de estos dos estados no coincide, el estado de la tarea o del problema hereda la etiqueta del estado utilizado por el grupo del proyecto de destino.
+  Si la etiqueta de estos dos estados no coincide, el estado de la tarea o el problema hereda la etiqueta del estado utilizada por el grupo del proyecto de destino.
 
 * Si un estado de la tarea o del problema no tiene la misma clave que el estado equivalente en el grupo del proyecto de destino, el estado de la tarea o del problema cambia al estado predeterminado equivalente en el grupo del proyecto de destino.
 
-Para obtener información sobre las claves de estado, consulte [Crear o editar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Para obtener información acerca de las claves de estado, vea [Crear o editar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).

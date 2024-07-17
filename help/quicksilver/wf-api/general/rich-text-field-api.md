@@ -9,7 +9,7 @@ role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Algunos objetos de Adobe Workfront permiten almacenar texto con formato de texto
 
 ## Ejemplo de descripción general
 
-Se llama a un campo personalizado con formato de texto enriquecido **Campo con texto enriquecido** y pueden tener asociados los siguientes valores:
+Un campo personalizado con formato de texto enriquecido se denomina **Campo con texto enriquecido** y puede tener asociados los siguientes valores:
 
 ![](assets/rich-text-example-350x158.png)
 
@@ -30,7 +30,7 @@ Se llama a un campo personalizado con formato de texto enriquecido **Campo con t
 <!-- [Copy](javascript:void(0);) -->
 <pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
 
-**Ejemplo:** Esta solicitud devolverá el valor de **Campo con texto enriquecido** en JSON almacenado en el **parameterValue** **DE:Campo con texto enriquecido**
+**Ejemplo:** Esta solicitud devolverá el valor de **Campo con texto enriquecido** en JSON almacenado en **parameterValue** **DE:Campo con texto enriquecido**
 
 <!-- [Copy](javascript:void(0);) -->
 <pre><code>{<br>data: {<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: <span style="color: #dd1144; ">"5e85e3f10000b99e8cef10af4e5c6c7b"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;name: <span style="color: #dd1144; ">"Zoom Integration Test"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: <span style="color: #dd1144; ">"PROJ"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;parameterValues: {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"DE:Field with rich text"</span>: <span style="color: #dd1144; ">"{"</span>blocks<span style="color: #dd1144; ">":[{"</span>key<span style="color: #dd1144; ">":"</span>dpfce<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>This is a regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span>a9ic6<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>Bold text and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":9,"</span>style<span style="color: #dd1144; ">":"</span>BOLD<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span><span style="color: #008080; ">1</span>b2a4<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>Italic text and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":11,"</span>style<span style="color: #dd1144; ">":"</span>ITALIC<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span><span style="color: #008080; ">4</span>dle1<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>Underline text and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":14,"</span>style<span style="color: #dd1144; ">":"</span>UNDERLINE<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span><span style="color: #008080; ">10</span>mip<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>With all formating and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":18,"</span>style<span style="color: #dd1144; ">":"</span>BOLD<span style="color: #dd1144; ">"},{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":18,"</span>style<span style="color: #dd1144; ">":"</span>ITALIC<span style="color: #dd1144; ">"},{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":18,"</span>style<span style="color: #dd1144; ">":"</span>UNDERLINE<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}}],"</span>entityMap<span style="color: #dd1144; ">":{}}"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"DE:Other Type of Field"</span>: <span style="color: #dd1144; ">"Value"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>}</code></pre> 
@@ -44,22 +44,22 @@ Se llama a un campo personalizado con formato de texto enriquecido **Campo con t
 
 Los objetos JSON que almacenan el contenido de texto enriquecido están compuestos de dos partes principales: **bloques** y **entityMaps**.
 
-Un bloque es un objeto JSON que representa una sola línea de texto con formato. Dado que un solo campo personalizado puede tener más de una línea de texto, cada línea de texto tiene su propio bloque y cada bloque se representa como un elemento en una matriz principal denominada **bloques**.
+Un bloque es un objeto JSON que representa una sola línea de texto con formato. Dado que un solo campo personalizado puede tener más de una línea de texto, cada línea de texto tiene su propio bloque y cada bloque se representa como un elemento en una matriz principal denominada **blocks**.
 
-**Ejemplo:** En este caso, cada línea de texto de un campo personalizado se asigna a un elemento de bloque en los bloques de matriz
+**Ejemplo:** Aquí, cada línea de texto de un campo personalizado se asigna a un elemento de bloque en los bloques de matriz
 
 ![](assets/copy-of-rich-text-mapping-350x159.png)
 
-Dado que cada elemento de bloque también es un objeto JSON, cada bloque está compuesto por los siguientes elementos: **key**, **texto**, **type**, **profundidad**, **inlineStyleRanges**, **entityRanges**, y **datos**. Cada uno de estos elementos funciona de la siguiente manera:
+Dado que cada elemento de bloque también es un objeto JSON, cada bloque está compuesto por los elementos: **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges** y **data**. Cada uno de estos elementos funciona de la siguiente manera:
 
-* **Clave** es el identificador único de ese bloque. La clave se utiliza para asignar una línea de texto a través de entityMaps. Puede encontrar más información sobre entityMaps en la sección entityMaps de este documento.
-* **Texto** es la línea de contenido de texto que se almacena desde el campo personalizado.
+* **Key** es el identificador único de ese bloque. La clave se utiliza para asignar una línea de texto a través de entityMaps. Puede encontrar más información sobre entityMaps en la sección entityMaps de este documento.
+* **Texto** es la línea de contenido de texto que se está almacenando desde el campo personalizado.
 * **Tipo** describe el tipo de texto que se representa. Por ejemplo, una línea de texto almacenada en un bloque podría ser parte de una lista. Si esa línea de texto formaba parte de una lista sin ordenar, su tipo se definiría como: unordered-list-item.
 * Actualmente, las listas no son compatibles, pero deberían estar disponibles próximamente.
-* **Profundidad** Este parámetro define la profundidad de la línea cuando la línea es una parte anidada de una lista ordenada o sin ordenar.
-* **inlineStyleRanges** Es una matriz que describe los tipos de formato que se aplicaron a la línea de texto representada por el bloque actual.
+* **Profundidad**: este parámetro define la profundidad de la línea cuando esta es una parte anidada de una lista ordenada o sin ordenar.
+* **inlineStyleRanges** es una matriz que describe los tipos de formato que se aplicaron a la línea de texto representada por el bloque actual.
 
-**Ejemplo:** Esta es una matriz inlineStyleRanges que describe cada estilo en el nivel de carácter. En este caso: 9 caracteres (longitud: 9) a partir del índice 0 (desplazamiento: 0) tenía el estilo **Negrita** aplicado:
+**Ejemplo:** Esta es una matriz inlineStyleRanges que describe cada estilo en el nivel de caracteres. En este caso: se ha aplicado el estilo **Bold** a los 9 caracteres (longitud: 9) a partir del índice 0 (desplazamiento: 0).
 
 ![](assets/copy-of-rich-text-mapping-2-350x136.png)
 
@@ -82,7 +82,7 @@ Un bloque de datos puede contener entidades como hipervínculos u otros tipos de
 
 ### Recuperando texto sin formato de JSON
 
-Cuando se envía un campo personalizado con formato de texto enriquecido, todo el texto se almacena en la matriz **bloques**. Sin embargo, cada línea del texto completo se almacena en la variable **parámetro de texto** dentro de cada uno de los elementos de bloque independientes que conforman la matriz principal **bloques**. Por lo tanto, para recuperar el texto completo, es necesario extraer y volver a unir cada línea de texto independiente. Esto se puede lograr recorriendo en bucle todos los elementos de los bloques y concatenando cada parámetro de texto con un delimitador de línea (\n).
+Cuando se envía un campo personalizado con formato de texto enriquecido, todo el texto se almacena en la matriz **bloques**. Sin embargo, cada línea del texto completo se almacena en el **parámetro de texto** dentro de cada uno de los elementos de bloque independientes que conforman la matriz principal **blocks**. Por lo tanto, para recuperar el texto completo, es necesario extraer y volver a unir cada línea de texto independiente. Esto se puede lograr recorriendo en bucle todos los elementos de los bloques y concatenando cada parámetro de texto con un delimitador de línea (\n).
 
 **Ejemplo:** Este es el aspecto que podría tener el JS:
 
@@ -93,15 +93,15 @@ Cuando se envía un campo personalizado con formato de texto enriquecido, todo e
 
 Para guardar los siguientes valores de un campo de texto enriquecido mediante la API de Workfront:
 <pre>
-        Hola <strong>World</strong>!!!
-        Esta es mi primera <strong>Texto enriquecido</strong></pre>
+        Hola <strong>Mundo</strong>!!!
+        Este es mi primer <strong>texto enriquecido</strong></pre>
 
-1. Construya un JSON que represente el valor del campo de texto enriquecido que está intentando capturar organizando cada línea de texto en un elemento de bloque, en la matriz **bloques**
+1. Construya un archivo JSON que represente el valor del campo de texto enriquecido que está intentando capturar organizando cada línea de texto en un elemento de bloque, en la matriz **blocks**
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"blocks"</span>:[<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"key"</span>:<span style="color: #dd1144; ">"0"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"text"</span>:<span style="color: #dd1144; ">"Hello World!!!"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"key"</span>:<span style="color: #dd1144; ">"1"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"text"</span>:<span style="color: #dd1144; ">"This is my first Rich Text"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]<br>}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></pre>
 
-1. Capturar el formato de texto enriquecido mediante la variable **inlineStyleRanges** parámetro
+1. Capturar el formato de texto enriquecido mediante el parámetro **inlineStyleRanges**
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"blocks"</span>:[<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"key"</span>:<span style="color: #dd1144; ">"0"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"text"</span>:<span style="color: #dd1144; ">"Hello World!!!"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"inlineStyleRanges"</span>: [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"offset"</span>:<span style="color: #008080; ">6</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"length"</span>:<span style="color: #008080; ">11</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"style"</span>:<span style="color: #dd1144; ">"BOLD"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"key"</span>:<span style="color: #dd1144; ">"1"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"text"</span>:<span style="color: #dd1144; ">"This is my first Rich Text"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]<br>}</code></pre>
@@ -115,7 +115,7 @@ Para guardar los siguientes valores de un campo de texto enriquecido mediante la
    >
    >Aunque la funcionalidad entityMap no se admite durante la versión inicial, sigue siendo un campo obligatorio para pasar este JSON en una solicitud
 
-1. Utilice el **estringificar** en el JSON descrito anteriormente para realizar una **PUT** solicitar y enviar actualizaciones
+1. Utilice el método **stringify** en el archivo JSON descrito anteriormente para realizar una solicitud de **PUT** y enviar actualizaciones
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><OBJ Code><OBJ ID></pre>

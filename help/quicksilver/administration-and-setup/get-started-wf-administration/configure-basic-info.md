@@ -68,19 +68,19 @@ Para acceder a la página Información del cliente:
 
    * **Información básica**
 
-     Para obtener información sobre la configuración de información básica en Workfront, consulte [Configurar información básica](#configure-basic-info).
+     Para obtener información acerca de cómo configurar información básica en Workfront, vea [Configurar información básica](#configure-basic-info).
 
    * **Configuración de clave API**
 
-     Para obtener información sobre la configuración de claves API, consulte [Administración de claves API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     Para obtener información acerca de la configuración de claves API, consulte [Administrar claves API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **LISTA DE PERMITIDOS IP**
+   * **Lista de permitidos IP**
 
-     Para obtener información sobre cómo agregar direcciones IP a la lista de permitidos para saber dónde pueden acceder los usuarios a Workfront, consulte [Configuración de la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Para obtener información acerca de cómo agregar direcciones IP a la lista de permitidos para que los usuarios tengan acceso a Workfront, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **Licencia**
 
-     Para obtener más información sobre las licencias, consulte [Administrar las licencias disponibles en el sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Para obtener información sobre las licencias, consulte [Administrar licencias disponibles en el sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Configurar información básica {#configure-basic-info}
 
@@ -92,7 +92,7 @@ Para configurar la sección Información básica en el área Información del cl
 
 1. En el panel izquierdo, haga clic en **Sistema** > **Información del cliente**.
 
-1. En el **Información básica** en la parte superior de la **Información del cliente** , busque la siguiente información sobre su instancia con Workfront:
+1. En la sección **Información básica** de la parte superior de la página **Información del cliente**, encuentre la siguiente información sobre su instancia con Workfront:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,11 +108,11 @@ Para configurar la sección Información básica en el área Información del cl
      </tr> 
      <tr> 
       <td role="rowheader">Correo electrónico de administrador</td> 
-      <td> <p>La dirección de correo electrónico del administrador de Workfront. Puede editar este campo para que coincida con la dirección de correo electrónico de uno de sus administradores de Workfront. El usuario asociado con esta dirección de correo electrónico se considera el administrador principal de Workfront de su sistema de Workfront. Cualquier comunicación de todo el sitio desde Workfront se dirige a esta dirección de correo electrónico, por lo que es importante mantenerla actualizada.</p> <p><b>NOTA</b>: no puede desactivar, eliminar ni cambiar el nivel de acceso del usuario asociado al correo electrónico del administrador.</p> </td> 
+      <td> <p>La dirección de correo electrónico del administrador de Workfront. Puede editar este campo para que coincida con la dirección de correo electrónico de uno de sus administradores de Workfront. El usuario asociado con esta dirección de correo electrónico se considera el administrador principal de Workfront de su sistema de Workfront. Cualquier comunicación de todo el sitio desde Workfront se dirige a esta dirección de correo electrónico, por lo que es importante mantenerla actualizada.</p> <p><b>NOTA</b>: no puede desactivar, eliminar ni cambiar el nivel de acceso del usuario asociado con el correo electrónico del administrador.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dominio</td> 
-      <td> <p>Workfront establece el dominio cuando se crea la cuenta.</p> <p>El dominio identifica el subdominio único de la dirección URL que utiliza para acceder a Workfront.<p>Por ejemplo, si a su organización se le ha asignado el dominio "mycompany", la URL que utiliza para acceder a Workfront es <i>https://mycompany.my.workfront.com.</i></p><p>No puede editar el dominio usted mismo. Si desea cambiar el dominio, puede ponerse en contacto con Asistencia al cliente de Workfront. Para obtener más información sobre cómo ponerse en contacto con Asistencia al cliente de Workfront, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contactar con Atención al cliente</a>.</p> </td> 
+      <td> <p>Workfront establece el dominio cuando se crea la cuenta.</p> <p>El dominio identifica el subdominio único de la dirección URL que utiliza para acceder a Workfront.<p>Por ejemplo, si a su organización se le ha asignado el dominio "mycompany", la dirección URL que utiliza para acceder a Workfront es <i>https://mycompany.my.workfront.com.</i></p><p>No puede editar el dominio usted mismo. Si desea cambiar el dominio, puede ponerse en contacto con Asistencia al cliente de Workfront. Para obtener más información sobre cómo ponerse en contacto con la Atención al cliente de Workfront, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contactar con la Atención al cliente</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zona horaria</td> 
@@ -120,11 +120,11 @@ Para configurar la sección Información básica en el área Información del cl
        <ul> 
         <li>La fecha y la hora mostradas en los correos electrónicos salientes</li> 
         <li>Zona horaria predeterminada para los nuevos usuarios cuando se crean</li> 
-       </ul> <p>Los usuarios pueden modificar la zona horaria de su instancia de Workfront en su perfil. Cuando los usuarios modifican su zona horaria, la fecha y la hora de sus correos electrónicos desde Workfront coinciden con sus preferencias de perfil. Para obtener más información sobre la modificación de las preferencias de perfil de usuario, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar mis ajustes</a>. Se selecciona como zona horaria predeterminada al crear una nueva programación. Para obtener más información sobre la creación de programaciones, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creación de una programación</a>.</p> <p>Para obtener información sobre el uso de programaciones para ayudar a los usuarios a colaborar en Workfront en diferentes zonas horarias, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabajo entre zonas horarias</a>.</p> </td> 
+       </ul> <p>Los usuarios pueden modificar la zona horaria de su instancia de Workfront en su perfil. Cuando los usuarios modifican su zona horaria, la fecha y la hora de sus correos electrónicos desde Workfront coinciden con sus preferencias de perfil. Para obtener más información acerca de cómo modificar las preferencias del perfil de usuario, vea <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar mis opciones</a>. Se selecciona como zona horaria predeterminada al crear una nueva programación. Para obtener más información acerca de cómo crear programaciones, vea <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener información sobre cómo usar las programaciones para ayudar a los usuarios a colaborar en Workfront en diferentes zonas horarias, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Uso entre zonas horarias</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configuración regional</td> 
-      <td>Controla el idioma, la fecha y el formato de número utilizado en los mensajes de correo electrónico salientes. La configuración regional seleccionada aquí es la predeterminada cuando se crean nuevos usuarios. Los usuarios pueden modificar su configuración regional en el perfil de usuario. Cuando los usuarios modifican su configuración regional, el idioma, la fecha y el formato de número de sus correos electrónicos de Workfront coinciden con sus preferencias de perfil. Para obtener más información sobre cómo modificar las preferencias de perfil, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar mis ajustes</a>.</td> 
+      <td>Controla el idioma, la fecha y el formato de número utilizado en los mensajes de correo electrónico salientes. La configuración regional seleccionada aquí es la predeterminada cuando se crean nuevos usuarios. Los usuarios pueden modificar su configuración regional en el perfil de usuario. Cuando los usuarios modifican su configuración regional, el idioma, la fecha y el formato de número de sus correos electrónicos de Workfront coinciden con sus preferencias de perfil. Para obtener más información acerca de cómo modificar las preferencias de perfil, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar mi configuración</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cuota de almacenamiento</td> 
@@ -136,7 +136,7 @@ Para configurar la sección Información básica en el área Información del cl
      </tr> 
      <tr> 
       <td role="rowheader">Versión del producto</td> 
-      <td>Este es el tipo de instancia de Workfront que se le ha asignado. La versión del producto para la mayoría de los clientes de Workfront es <strong>Empresa</strong>.</td> 
+      <td>Este es el tipo de instancia de Workfront que se le ha asignado. La versión del producto para la mayoría de los clientes de Workfront es <strong>Enterprise</strong>.</td> 
      </tr> 
     </tbody> 
    </table>

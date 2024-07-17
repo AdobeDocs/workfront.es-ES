@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Cargar XD tableros como documentos a Workfront
-description: Puede cargar las mesas de trabajo como documentos para una revisión y aprobación rápidas o simplemente para almacenarlas en Adobe Workfront.
+title: XD Cargar tableros de trabajo de la como documentos a Workfront
+description: Puede cargar las mesas de trabajo como documentos para su rápida revisión y aprobación, o simplemente para almacenarlos en Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
@@ -14,9 +14,9 @@ ht-degree: 0%
 ---
 
 
-# Cargar [!DNL XD] tableros como documentos para [!DNL Workfront]
+# Cargar [!DNL XD] mesas de trabajo como documentos en [!DNL Workfront]
 
-Puede cargar las mesas de trabajo como documentos para una revisión y aprobación rápidas o simplemente para almacenarlas en [!DNL Adobe Workfront].
+Puede cargar las mesas de trabajo como documentos para revisarlos y aprobarlos rápidamente o simplemente para almacenarlos en [!DNL Adobe Workfront].
 
 ## Requisitos de acceso
 
@@ -36,35 +36,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> -->
    <td role="rowheader">Product</td> 
-   <td>Debe tener un [!DNL Adobe Creative Cloud] además de una [!DNL Workfront] licencia.</td> 
+   <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a [!UICONTROL Documents]</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede modificar el nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos de [!UICONTROL]</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>[!UICONTROL View] tiene acceso o superior al objeto en el que desea cargar un documento.</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] tiene acceso o es superior al objeto donde desea cargar un documento.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
-* Debe instalar el [!DNL Adobe Workfront for XD] antes de poder cargar XD tableros de arte como documentos en Workfront.
+* XD Debe instalar el complemento [!DNL Adobe Workfront for XD] para poder cargar tableros de arte como documentos en Workfront para poder cargar los tableros de arte de la.
 
 Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 ## Agregar un nuevo documento
 
-1. Haga clic en el **[!UICONTROL Menú]** en la esquina superior derecha y, a continuación, seleccione **[!UICONTROL Lista de trabajo]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en el icono **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![](assets/menu-350x440.png)
 
-1. Vaya al elemento de trabajo en el que desea cargar un documento.
-1. Haga clic en el **[!UICONTROL Documento]** icono ![](assets/documents.png) en la barra de navegación.
+1. Vaya al elemento de trabajo donde desea cargar un documento.
+1. Haga clic en el icono **[!UICONTROL Documento]** ![](assets/documents.png) en la barra de navegación.
 
 1. Haga clic en **[!UICONTROL Nuevo archivo]** cerca de la parte inferior del complemento.
 1. Seleccione la mesa de trabajo que desee cargar.
@@ -72,8 +72,8 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
    >[!TIP]
    >
    >Para seleccionar más de una mesa de trabajo, haga clic y arrastre el ratón sobre las mesas de trabajo que desee.
-1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
-1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable:
+1. (Opcional) Escriba un comentario en el área **[!UICONTROL Actualizaciones]**.
+1. Elija **[!UICONTROL Tipo de recurso]** del menú desplegable:
 
    <table style="table-layout:auto">
     <col>
@@ -84,47 +84,47 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>Las mesas de trabajo se cargan como PNG a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. </td>
+      <td>Las mesas de trabajo se cargan como un PNG en la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Las mesas de trabajo se cargan como JPG en la ficha [!UICONTROL Documents] del elemento de trabajo [!DNL Workfront]. <br></td>
+      <td>JPG Las mesas de trabajo se cargan como un a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Las mesas de trabajo se cargan como SVG en la ficha [!UICONTROL Documents] del elemento de trabajo [!DNL Workfront]. </td>
+      <td>Las mesas de trabajo se cargan como un SVG a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>Elija si desea que las mesas de trabajo seleccionadas se carguen como <strong>Archivo de PDF único</strong> o <strong>Varios archivos de PDF</strong>. Las mesas de trabajo se cargan como PDF a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront].</td>
+      <td>Elija si desea que las mesas de trabajo seleccionadas se carguen como <strong>archivo de un solo PDF</strong> o <strong>varios archivos de PDF</strong>. Las mesas de trabajo se cargan como un PDF a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>
 
 
 1. Haga clic en **[!UICONTROL Cargar]**.\
-   El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
+   El documento aparece en el área [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
 
-## Agregar una nueva versión
+## Añadir una nueva versión
 
-1. Haga clic en el **[!UICONTROL Menú]** en la esquina superior derecha y, a continuación, seleccione **[!UICONTROL Lista de trabajo]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en el icono **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![](assets/menu-350x440.png)
 
-1. Vaya al elemento de trabajo en el que desea cargar un documento.
-1. Haga clic en el **[!UICONTROL Documento]** icono ![](assets/documents.png)en la barra de navegación.
+1. Vaya al elemento de trabajo donde desea cargar un documento.
+1. Haga clic en el icono **[!UICONTROL Documento]** ![](assets/documents.png)de la barra de navegación.
 
-1. Haga clic en el documento al que desee agregar una versión nueva.
+1. Haga clic en el documento al que desea agregar una nueva versión.
 1. Haga clic en **[!UICONTROL Nueva versión]** cerca de la parte inferior del complemento.
 1. Seleccione las mesas de trabajo que desee cargar.
 
    >[!NOTE]
    >
-   >Si desea cargar una nueva versión de un SVG, PNG o JPG, solo puede cargar una mesa de trabajo.
+   >Si desea cargar una nueva versión de un SVG, PNG o un JPG, solo puede cargar una mesa de trabajo.
 
-1. (Opcional) Escriba un comentario en el **[!UICONTROL Actualizaciones]** .
+1. (Opcional) Escriba un comentario en el área **[!UICONTROL Actualizaciones]**.
 
-1. Elija la **[!UICONTROL Tipo de recurso]** en el menú desplegable:
+1. Elija **[!UICONTROL Tipo de recurso]** del menú desplegable:
 
    <table style="table-layout:auto">
     <col>
@@ -135,11 +135,11 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>La mesa de trabajo se carga como PNG a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. </td>
+      <td>La mesa de trabajo se carga como un PNG en la ficha [!UICONTROL Documents] del elemento de trabajo de [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>La mesa de trabajo se carga como JPG a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. <br></td>
+      <td>JPG La mesa de trabajo se cargará como un a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
@@ -147,12 +147,12 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>Las mesas de trabajo se cargan como PDF en la ficha [!UICONTROL Documents] del elemento de trabajo [!DNL Workfront].</p>
-      <p><strong>Nota</strong>: Solo se puede cargar una mesa de trabajo para una nueva versión del documento.</p>
+      <td><p>Las mesas de trabajo se cargan como PDF a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront].</p>
+      <p><strong>Nota</strong>: solo puede cargar una mesa de trabajo para una nueva versión del documento.</p>
       </td>
      </tr>
     </tbody>
    </table>
 
 1. Haga clic en **[!UICONTROL Cargar]**.\
-   El documento aparece en la [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
+   El documento aparece en el área [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.

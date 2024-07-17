@@ -65,13 +65,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Permisos de contribución o superiores en un espacio de trabajo</a> </p>  
+   <td> <p>Permisos de Contribute o superiores para un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Puede eliminar un registro de las siguientes áreas:
 1. Realice una de las siguientes acciones:
 
    * En la vista Tabla, haga clic en el nombre de un registro.
-   * En la vista Tabla, pase el ratón sobre el nombre de un registro y haga clic en **Más** menú ![](assets/more-menu.png), luego haga clic en **Ver**
+   * En la vista Tabla, pase el ratón sobre el nombre de un registro, haga clic en el menú **Más** ![](assets/more-menu.png) y, a continuación, haga clic en **Ver**
 
      ![](assets/contextual-menu-for-record-row.png)
    * En una vista Línea de tiempo, haga clic en una barra de registros.
 
    Se abre la página de registro.
 
-1. Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del registro y haga clic en **Eliminar**, entonces **Eliminar** de nuevo para confirmar.
+1. Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del registro, luego haga clic en **Eliminar** y después en **Eliminar** de nuevo para confirmar.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 El registro se elimina y no se puede recuperar.
@@ -136,17 +136,17 @@ El registro se elimina y no se puede recuperar.
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
-1. (Condicional) Desde el **Ver** menú desplegable en la esquina superior izquierda de la tabla, seleccione una Vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+1. (Condicional) En el menú desplegable **Vista** de la esquina superior izquierda de la tabla, seleccione una Vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
 1. Realice una de las siguientes acciones:
 
    * Haga clic con el botón secundario en una fila de registro y luego haga clic en **Eliminar**.
-   * Haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre del registro y haga clic en **Eliminar**
+   * Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, haga clic en **Eliminar**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro con la información detallada del registro y haga clic en **Más** ![](assets/more-menu.png) a la derecha del nombre del registro, **Eliminar**.
+   * Haga clic en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro con la información detallada del registro, y haga clic en **Más** ![](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, en **Eliminar**.
 
    El registro se elimina y no se puede recuperar.
 

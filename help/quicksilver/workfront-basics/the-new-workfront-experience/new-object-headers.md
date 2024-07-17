@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Información general sobre encabezados de objeto
-description: Puede ver información rápida sobre los objetos de [!DNL Adobe Workfront] cuando revise su encabezado. La información de un encabezado puede incluir el propietario del objeto, el estado o el porcentaje completado.
+description: Puede ver de un vistazo información acerca de los objetos de  [!DNL Adobe Workfront]  al revisar su encabezado. La información de un encabezado puede incluir el propietario del objeto, el estado o el porcentaje completado.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Información general sobre encabezados de objeto
 
-Puede ver información rápida sobre los objetos de [!DNL Adobe Workfront] cuando revise su encabezado.
+Puede ver de un vistazo información acerca de los objetos de [!DNL Adobe Workfront] cuando revise su encabezado.
 
 Además del nombre del objeto, el encabezado puede incluir el propietario del objeto, el estado o el porcentaje completado.
 
-[!DNL Workfront] da prioridad al nombre del objeto, asignándole la mayor cantidad de espacio posible en el encabezado. Cuando el nombre de un objeto es demasiado largo, se trunca. Para mostrar el nombre completo de un objeto, puede pasar el ratón sobre él.
+[!DNL Workfront] da prioridad al nombre del objeto, asignándole el mayor espacio posible en el encabezado. Cuando el nombre de un objeto es demasiado largo, se trunca. Para mostrar el nombre completo de un objeto, puede pasar el ratón sobre él.
 
 ## Acceso al encabezado de un objeto
 
-Acceso al encabezado para un objeto en [!DNL Workfront] es idéntico para todos los objetos que lo tienen.
+El acceso al encabezado de un objeto de [!DNL Workfront] es idéntico para todos los objetos que lo tienen.
 
 Por ejemplo, para acceder al encabezado de un proyecto:
 
@@ -31,20 +31,20 @@ Por ejemplo, para acceder al encabezado de un proyecto:
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Inicio] encabezado información general
+## Información general sobre el encabezado [!UICONTROL Inicio]
 
 Los siguientes encabezados están disponibles en Inicio:
 
-* Tarea: Para obtener más información sobre cómo utilizar este encabezado, consulte la [Resumen del encabezado de tarea](#task-header-overview) en este artículo.
-* Problema: Para obtener más información sobre cómo puede utilizar este encabezado, consulte la [Resumen del encabezado del problema](#issue-header-overview) en este artículo.
+* Tarea: para obtener más información sobre cómo usar este encabezado, consulte [Descripción general del encabezado de la tarea](#task-header-overview) en este artículo.
+* Problema: para obtener más información sobre cómo usar este encabezado, consulte [Resumen del encabezado del problema](#issue-header-overview) en este artículo.
 
 ## Encabezados personalizables
 
-Su [!DNL Workfront]  Un administrador de grupo o puede personalizar el encabezado de proyectos, tareas y problemas mediante una plantilla de diseño.
+Su administrador de [!DNL Workfront] o de grupo puede personalizar el encabezado de proyectos, tareas y problemas mediante una plantilla de diseño.
 
 Este artículo describe los encabezados predeterminados para todos los objetos, incluidos los proyectos y las tareas y los problemas.
 
-Para obtener información sobre cómo personalizar la información en el encabezado de un objeto, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Para obtener información acerca de cómo personalizar información en el encabezado de un objeto, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ## Resumen del encabezado del proyecto
@@ -69,7 +69,7 @@ El encabezado del proyecto muestra la siguiente información de forma predetermi
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono púrpura de [!UICONTROL Project] <img src="assets/nwe-projects-icon.png"> se muestra a la izquierda del nombre del proyecto.</p> </td> 
+   <td> <p>El icono púrpura <img src="assets/nwe-projects-icon.png"> de [!UICONTROL Project] aparece a la izquierda del nombre del proyecto.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del proyecto</td> 
@@ -128,11 +128,11 @@ El encabezado de la tarea incluye la siguiente información de forma predetermin
  <tbody> 
   <tr> 
    <td role="rowheader">Ruta de exploración con objetos principales</td> 
-   <td> <p>Los objetos principales de la tarea se muestran en la ruta de exploración. Al hacer clic en el nombre del objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Resumen de rutas</a>.</p> </td> 
+   <td> <p>Los objetos principales de la tarea se muestran en la ruta de exploración. Al hacer clic en el nombre del objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Información general sobre las rutas de exploración</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono verde de [!UICONTROL Tarea] <img src="assets/nwe-tasks-icon.png"> se muestra a la izquierda del nombre de la tarea.</p> </td> 
+   <td> <p>El icono verde de [!UICONTROL Task] <img src="assets/nwe-tasks-icon.png"> se muestra a la izquierda del nombre de la tarea.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre de la tarea</td> 
@@ -156,11 +156,11 @@ El encabezado de la tarea incluye la siguiente información de forma predetermin
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Botón [!UICONTROL Trabajar en ello], [!UICONTROL Listo] o [!UICONTROL Iniciar tarea]</p> </td> 
-   <td> <p>Si la tarea está asignada a usted, puede hacer clic en [!UICONTROL Trabajar en ello] <span>o [!UICONTROL Iniciar tarea]</span> para indicar que está trabajando en la tarea o el botón [!UICONTROL Listo] para indicar que ha completado la tarea.</p> <p><span>Para obtener información sobre cómo reemplazar el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar tarea], consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplace el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar]</a></span>.</p> </td> 
+   <td> <p>Si la tarea está asignada a usted, puede hacer clic en el botón [!UICONTROL Trabajar en ello] <span> o [!UICONTROL Iniciar tarea]</span> para indicar que está trabajando en la tarea o en el botón [!UICONTROL Listo] para indicar que ha completado la tarea.</p> <p><span>Para obtener información acerca de cómo reemplazar el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar tarea], vea <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar]</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fecha planificada de finalización]</td> 
-   <td> <p>Puede editar la tarea [!UICONTROL Fecha planificada de finalización] <span>y hora</span> en el encabezado.</p> <p>Sugerencia: Observe que [!UICONTROL Commit Date] no está visible en el encabezado. Puede verlo en la página [!UICONTROL Detalles].</p> </td> 
+   <td> <p>Puede editar la tarea [!UICONTROL Fecha planificada de finalización] <span>y la hora</span> en el encabezado.</p> <p>Sugerencia: Observe que [!UICONTROL Commit Date] no está visible en el encabezado. Puede verlo en la página [!UICONTROL Detalles].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Estado]</td> 
@@ -191,11 +191,11 @@ El encabezado de problema incluye la siguiente información de forma predetermin
  <tbody> 
   <tr> 
    <td role="rowheader">Ruta de exploración con objetos principales</td> 
-   <td> <p>Los objetos principales del problema se muestran en la ruta de exploración. Al hacer clic en el nombre del objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Resumen de rutas</a>.</p> </td> 
+   <td> <p>Los objetos principales del problema se muestran en la ruta de exploración. Al hacer clic en el nombre del objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Información general sobre las rutas de exploración</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>Icono rosa de [!UICONTROL Issue] <img src="assets/nwe-issues-icon.png"> se muestra a la izquierda del nombre del problema.</p> </td> 
+   <td> <p>El icono rosa [!UICONTROL Issue] <img src="assets/nwe-issues-icon.png"> aparece a la izquierda del nombre del problema.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del problema</td> 
@@ -218,12 +218,12 @@ El encabezado de problema incluye la siguiente información de forma predetermin
    <td>Puede editar los usuarios asignados de un problema desde el encabezado.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Trabajar en ello], [!UICONTROL Listo], <span>o botón [!UICONTROL Iniciar problema]</span></td> 
-   <td>Si el problema está asignado a usted, puede hacer clic en [!UICONTROL Trabajar en ello] <span>o [!UICONTROL Iniciar problema]</span> para indicar que está trabajando en el problema o pulse el botón [!UICONTROL Listo] para indicar que ha completado el problema.<span>Para obtener información sobre cómo reemplazar el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar tarea], consulte</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplace el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar]</a></span><span>.</span></td> 
+   <td role="rowheader">Botón [!UICONTROL Trabajar en ello], [!UICONTROL Listo], <span>o [!UICONTROL Iniciar problema]</span></td> 
+   <td>Si el problema está asignado a usted, puede hacer clic en el botón [!UICONTROL Trabajar en ello] <span> o [!UICONTROL Iniciar problema]</span> para indicar que está trabajando en el problema o en el botón [!UICONTROL Listo] para indicar que ha completado el problema.<span>Para obtener información acerca de cómo reemplazar el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar tarea], vea</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar]</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fecha planificada de finalización]</td> 
-   <td> <p>Puede editar el problema [!UICONTROL Fecha planificada de finalización] <span>y hora</span> en el encabezado.</p> <p>Sugerencia: Observe que [!UICONTROL Commit Date] no está visible en el encabezado. Puede verlo en la página [!UICONTROL Detalles].</p> </td> 
+   <td> <p>Puede editar el problema [!UICONTROL Fecha planificada de finalización] <span>y la hora</span> en el encabezado.</p> <p>Sugerencia: Observe que [!UICONTROL Commit Date] no está visible en el encabezado. Puede verlo en la página [!UICONTROL Detalles].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Estado]</td> 
@@ -254,11 +254,11 @@ El encabezado del programa muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Ruta con el nombre del Portfolio</td> 
-   <td> <p>Puede obtener acceso al [!UICONTROL Portfolio] desde el encabezado del [!UICONTROL Programa]. Al hacer clic en el nombre del objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Resumen de rutas</a>.</p> </td> 
+   <td> <p>Puede obtener acceso al [!UICONTROL Portfolio] desde el encabezado del [!UICONTROL Programa]. Al hacer clic en el nombre del objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Información general sobre las rutas de exploración</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono naranja de [!UICONTROL Program] <img src="assets/nwe-programs-icon.png"> se muestra a la izquierda del nombre del programa.</p> </td> 
+   <td> <p>El icono <img src="assets/nwe-programs-icon.png"> naranja de [!UICONTROL Program] se muestra a la izquierda del nombre del programa.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del programa</td> 
@@ -313,7 +313,7 @@ El encabezado del portafolio incluye la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono azul [!UICONTROL Portfolio] <img src="assets/nwe-portfolios-icon.png">se muestra a la izquierda del nombre del portafolio.</p> </td> 
+   <td> <p>El icono [!UICONTROL Portfolio] azul <img src="assets/nwe-portfolios-icon.png"> se muestra a la izquierda del nombre del portafolio.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del portafolio</td> 
@@ -376,7 +376,7 @@ El encabezado de la plantilla muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono verde de [!UICONTROL Template] <img src="assets/nwe-templates-icon.png">se muestra a la izquierda del nombre de la plantilla.</p> </td> 
+   <td> <p>El icono <img src="assets/nwe-templates-icon.png"> verde de [!UICONTROL Template] se muestra a la izquierda del nombre de la plantilla.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre de la plantilla</td> 
@@ -423,11 +423,11 @@ El encabezado de tarea de plantilla muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Ruta de exploración a objetos principales</td> 
-   <td> <p>Los objetos principales de la tarea de plantilla se muestran en la ruta de exploración. Al hacer clic en el nombre de un objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Resumen de rutas</a>.</p> </td> 
+   <td> <p>Los objetos principales de la tarea de plantilla se muestran en la ruta de exploración. Al hacer clic en el nombre de un objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Información general sobre las rutas de exploración</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono verde de [!UICONTROL Tarea] <img src="assets/nwe-tasks-icon.png">se muestra a la izquierda del nombre de la tarea de plantilla.</p> </td> 
+   <td> <p>El icono verde de [!UICONTROL Task] <img src="assets/nwe-tasks-icon.png"> se muestra a la izquierda del nombre de la tarea de plantilla.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre de la tarea de plantilla</td> 
@@ -470,7 +470,7 @@ La cabecera del registro de facturación muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Ruta de exploración a objetos principales</td> 
-   <td> <p>Los objetos principales del registro de facturación se muestran en la ruta de exploración. Al hacer clic en el nombre de un objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Resumen de rutas</a>.</p> </td> 
+   <td> <p>Los objetos principales del registro de facturación se muestran en la ruta de exploración. Al hacer clic en el nombre de un objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Información general sobre las rutas de exploración</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
@@ -486,7 +486,7 @@ La cabecera del registro de facturación muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">El área de acciones del registro de facturación</td> 
-   <td> <p>Junto al nombre del registro de facturación, el menú [!UICONTROL Más] <img src="assets/more-menu.png"> muestra, lo que le permite seleccionar las siguientes opciones:</p> 
+   <td> <p>Junto al nombre del registro de facturación, aparece el menú [!UICONTROL Más] <img src="assets/more-menu.png">, que le permite seleccionar las siguientes opciones:</p> 
     <ul> 
      <li> <p>[!UICONTROL Editar]</p> </li> 
      <li> <p> </p> </li> 
@@ -577,7 +577,7 @@ El encabezado de equipo muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono púrpura de [!UICONTROL Team] <img src="assets/nwe-teams-icon.png"> aparece a la izquierda del nombre del equipo.</p> </td> 
+   <td> <p>El icono púrpura <img src="assets/nwe-teams-icon.png"> de [!UICONTROL Team] aparece a la izquierda del nombre del equipo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del equipo</td> 
@@ -620,7 +620,7 @@ El encabezado de iteración muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>Icono naranja de [!UICONTROL Iteration] <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> se muestra a la izquierda del nombre de la iteración.</p> </td> 
+   <td> <p>El icono [!UICONTROL Iteration] naranja <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> se muestra a la izquierda del nombre de la iteración.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre de la iteración</td> 
@@ -667,7 +667,7 @@ El encabezado de grupo muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono naranja de [!UICONTROL Group] <img src="assets/nwe-group-icon.png"> aparece a la izquierda del nombre del grupo.</p> </td> 
+   <td> <p>El icono [!UICONTROL Group] naranja <img src="assets/nwe-group-icon.png"> se muestra a la izquierda del nombre del grupo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del grupo</td> 
@@ -679,7 +679,7 @@ El encabezado de grupo muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">Área de [!UICONTROL actions] del grupo</td> 
-   <td> <p>Junto al nombre del grupo, el menú [!UICONTROL Más] <img src="assets/more-menu.png"> muestra, lo que le permite seleccionar las siguientes opciones:</p> 
+   <td> <p>Junto al nombre del grupo, aparece el menú <img src="assets/more-menu.png"> de [!UICONTROL Más], que le permite seleccionar las siguientes opciones:</p> 
     <ul> 
      <li> <p>[!UICONTROL Editar]</p> </li> 
      <li> <p>[!UICONTROL Copy]</p> </li> 
@@ -692,7 +692,7 @@ El encabezado de grupo muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licencias en uso] </td> 
-   <td> <p>El cuadro [!UICONTROL Licencias en uso] muestra el número de usuarios con licencias de [!UICONTROL Plan] y [!UICONTROL Trabajo] del grupo y sus subgrupos. Puede hacer clic en los números para ver esta información para los 5 tipos de licencia.</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Ver el número de licencias asignadas y utilizadas en un grupo en el nuevo [!DNL Adobe Workfront] experiencia</a>.</p> </td> 
+   <td> <p>El cuadro [!UICONTROL Licencias en uso] muestra el número de usuarios con licencias de [!UICONTROL Plan] y [!UICONTROL Trabajo] del grupo y sus subgrupos. Puede hacer clic en los números para ver esta información para los 5 tipos de licencia.</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Ver el número de licencias asignadas y utilizadas en un grupo en la nueva experiencia [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Administradores de [!UICONTROL Group]</td> 
@@ -719,11 +719,11 @@ El encabezado del documento muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Ruta de exploración con objetos principales</td> 
-   <td> <p>Los objetos principales del documento se muestran en la ruta de exploración. Al hacer clic en el nombre de un objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Resumen de rutas</a>.</p> </td> 
+   <td> <p>Los objetos principales del documento se muestran en la ruta de exploración. Al hacer clic en el nombre de un objeto principal, se abre ese objeto principal.</p> <p>Para obtener más información, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Información general sobre las rutas de exploración</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono azul de [!UICONTROL Document] <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> se muestra a la izquierda del nombre del documento.</p> </td> 
+   <td> <p>El icono [!UICONTROL Document] azul <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> se muestra a la izquierda del nombre del documento.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del documento</td> 
@@ -739,7 +739,7 @@ El encabezado del documento muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">El área de aprobación de [!UICONTROL Decision]</td> 
-   <td> El área de [!UICONTROL Decisions] se muestra en la esquina superior derecha del encabezado del documento. Esta área difiere según la fase de aprobación y si es aprobador, revisor o ninguno de los dos. <ul><li> <p>Si es aprobador, puede utilizar los iconos siguientes para gestionar las aprobaciones del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Aprobar]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rechazar]</p> <p>Para obtener más información sobre las decisiones de aprobación, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo</a>.</li><li><p>Si es revisor, puede hacer clic en el botón Completar mi revisión para indicar que ha revisado el documento.</p><p>Para obtener más información sobre cómo revisar un documento, consulte <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar un documento</a>.</p></li><li>De lo contrario, esta área muestra el estado actual de revisión y aprobación del documento.</li><ul></p> </td> 
+   <td> El área de [!UICONTROL Decisions] se muestra en la esquina superior derecha del encabezado del documento. Esta área difiere según la fase de aprobación y si es aprobador, revisor o ninguno de los dos. <ul><li> <p>Si es aprobador, puede utilizar los iconos siguientes para gestionar las aprobaciones del documento:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Aprobar]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Rechazar]</p> <p>Para obtener más información sobre las decisiones de aprobación, consulte <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación de trabajo</a>.</li><li><p>Si es revisor, puede hacer clic en el botón Completar mi revisión para indicar que ha revisado el documento.</p><p>Para obtener más información sobre cómo revisar un documento, vea <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Revisar un documento</a>.</p></li><li>De lo contrario, esta área muestra el estado actual de revisión y aprobación del documento.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -762,7 +762,7 @@ El encabezado de empresa muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono azul de [!UICONTROL Company] <img src="assets/nwe-company-icon.png"> aparece a la izquierda del nombre de la empresa.</p> </td> 
+   <td> <p>El icono azul [!UICONTROL Company] <img src="assets/nwe-company-icon.png"> se muestra a la izquierda del nombre de la compañía.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre de la empresa</td> 
@@ -774,7 +774,7 @@ El encabezado de empresa muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">El área de acciones de la empresa</td> 
-   <td> <p>Junto al nombre de la compañía, el menú [!UICONTROL Más] <img src="assets/more-menu.png"> muestra, lo que le permite seleccionar las siguientes opciones:</p> 
+   <td> <p>Junto al nombre de la empresa, aparece el menú [!UICONTROL Más] <img src="assets/more-menu.png">, que le permite seleccionar las siguientes opciones:</p> 
     <ul> 
      <li> <p>[!UICONTROL Editar]</p> </li> 
      <li> <p>[!UICONTROL Eliminar compañía]</p> </li> 
@@ -787,7 +787,7 @@ El encabezado de empresa muestra la siguiente información:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Los planes son los objetos del [!DNL Workfront Scenario Planner]. Para obtener más información sobre [!DNL Scenario Planner], consulte [El [!DNL Scenario Planner] descripción general](../../scenario-planner/scenario-planner-overview.md).
+Los planes son los objetos de [!DNL Workfront Scenario Planner]. Para obtener información acerca de [!DNL Scenario Planner], vea [La [!DNL Scenario Planner] descripción general](../../scenario-planner/scenario-planner-overview.md).
 
 La cabecera del plan muestra la siguiente información:
 
@@ -807,7 +807,7 @@ La cabecera del plan muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono azul de [!UICONTROL Plan] <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">aparece a la izquierda del nombre del plan.</p> </td> 
+   <td> <p>El icono azul <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;"> de [!UICONTROL Plan] se muestra a la izquierda del nombre del plan.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre del plan</td> 
@@ -825,9 +825,9 @@ La cabecera del plan muestra la siguiente información:
    <td role="rowheader">Acciones adicionales del plan</td> 
    <td> <p>Debajo del área de nombre y acciones del plan, puede completar las siguientes acciones:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Mostrar conflictos]</strong>: Al hacer clic en esta opción, se muestran u ocultan conflictos en las iniciativas.</p> </li> 
-     <li> <p><strong>[!UICONTROL Comparar escenarios]</strong>: Al hacer clic en este vínculo, se muestra una comparación en paralelo de los escenarios que ha creado.</p> </li> 
-     <li> <p><strong>[!UICONTROL Selección de escenario]</strong>: en este menú desplegable, puede copiar un escenario o seleccionar para ver uno diferente.</p> </li> 
+     <li> <p><strong>[!UICONTROL Mostrar conflictos]</strong>: al hacer clic en esta opción, se muestran u ocultan conflictos en las iniciativas.</p> </li> 
+     <li> <p><strong>[!UICONTROL Comparar escenarios]</strong>: al hacer clic en este vínculo, se muestra una comparación en paralelo de los escenarios que ha creado.</p> </li> 
+     <li> <p><strong>[!UICONTROL Selección de escenario]</strong>: en este menú desplegable, puede copiar un escenario o seleccionar para ver un escenario diferente.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -847,8 +847,8 @@ La cabecera del plan muestra la siguiente información:
    <td>Los usuarios que tienen acceso para ver o administrar el plan se muestran en la esquina superior derecha del encabezado. Al pasar el ratón por encima de las imágenes de perfil, se muestran sus nombres.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ir a publicar]</td> 
-   <td>Al hacer clic en [!UICONTROL Ir a publicar], puede crear o actualizar un proyecto vinculado a una iniciativa en el escenario que está viendo.</td> 
+   <td role="rowheader">[!UICONTROL Ir a Publish]</td> 
+   <td>Al hacer clic en [!UICONTROL Ir a Publish], puede crear o actualizar un proyecto vinculado a una iniciativa en el escenario que está viendo.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -858,7 +858,7 @@ La cabecera del plan muestra la siguiente información:
 
 ![](assets/goal-header.png)
 
-Puede crear objetivos estratégicos cuando su empresa tenga acceso a los objetivos de Workfront. Para obtener más información acerca de [!DNL Workfront Goals], consulte [Introducción a [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Puede crear objetivos estratégicos cuando su empresa tenga acceso a los objetivos de Workfront. Para obtener más información acerca de [!DNL Workfront Goals], vea [Introducción a  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 El encabezado de objetivo muestra la siguiente información:
 
@@ -874,7 +874,7 @@ El encabezado de objetivo muestra la siguiente información:
  <tbody> 
   <tr> 
    <td role="rowheader">Icono de objeto </td> 
-   <td> <p>El icono púrpura [!UICONTROL Goal] <img src="assets/goal-icon.png" > se muestra a la izquierda del nombre de la meta.</p> </td> 
+   <td> <p>El icono púrpura <img src="assets/goal-icon.png" > de [!UICONTROL Goal] se muestra a la izquierda del nombre de la meta.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nombre de la meta</td> 
@@ -914,7 +914,7 @@ El encabezado de objetivo muestra la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Estado]</td> 
-   <td>Indica si la meta está activa, nueva o cerrada. No se puede actualizar el estado del objetivo manualmente. Para obtener más información, consulte <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Resumen del estado de las metas en [!DNL Adobe Workfront Goals]</a></td> 
+   <td>Indica si la meta está activa, nueva o cerrada. No se puede actualizar el estado del objetivo manualmente. Para obtener más información, consulte <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Resumen del estado de la meta en [!DNL Adobe Workfront Goals]</a></td> 
   </tr> 
  </tbody> 
 </table>

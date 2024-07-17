@@ -55,7 +55,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso*</td>
@@ -67,7 +67,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -84,13 +84,13 @@ Debe tener lo siguiente:
 
 Debe tener un objetivo existente para agregarle actividades.
 
-Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
 >Una meta no puede tener más de un total de 1000 actividades, resultados u objetivos alineados.
 
-Para obtener más información sobre las actividades, consulte [Introducción a resultados y actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+Para obtener más información acerca de las actividades, vea [Introducción a los resultados y las actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 ## Añadir una actividad a una meta
 
@@ -145,9 +145,9 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-icon.png), entonces **Metas**.
+1. Haga clic en el **Menú principal** ![](assets/main-menu-icon.png) y luego en **Metas**.
 1. En la Lista de metas, haga clic en el nombre de una meta para abrir su página.
-1. Clic **Indicadores de progreso** en el panel izquierdo.
+1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
 1. En el menú desplegable Nuevo indicador de progreso, haga clic en **Crear actividad**.
 
    Se abrirá el cuadro Nueva actividad.
@@ -155,13 +155,13 @@ Adding activities to goals differs depending on which environment you use.
    ![](assets/new-activity-box-unshimmed.png)
 
 1. Introduzca un nombre para la actividad en el campo Nombre de la actividad. Este campo es obligatorio.
-1. (Opcional) Elimine su nombre de la **Propietario de actividad** si desea asignar la actividad a otro usuario. De forma predeterminada, usted es el propietario de una actividad que crea.
+1. (Opcional) Elimine su nombre del campo **Propietario de la actividad** si desea asignar la actividad a otro usuario. De forma predeterminada, usted es el propietario de una actividad que crea.
 
    >[!NOTE]
    >
    >No puede asignar un equipo, grupo o compañía como propietario de una actividad.
 
-1. Clic **Crear actividad** para guardarlo y añadirlo a la meta seleccionada.
+1. Haga clic en **Crear actividad** para guardarla y agregarla al objetivo seleccionado.
 
    La actividad se muestra en la sección Indicadores de progreso de la página de la meta, en la agrupación Actividad.
 

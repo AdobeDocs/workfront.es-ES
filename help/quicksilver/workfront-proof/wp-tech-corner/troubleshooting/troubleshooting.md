@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
-title: Solución de problemas en [!DNL Workfront Proof]
+title: Solucionando problemas en  [!DNL Workfront Proof]
 description: Aprenda a solucionar problemas de Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# Solución de problemas en [!DNL Workfront Proof]
+# Solucionando problemas en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 
 * [Solución de problemas: fuente de interfaz dañada en el visor de pruebas en Mac](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-* [Comprender cómo afectan la caché y las cookies [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [Problemas de velocidad en [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-* [Solución de problemas - [!DNL Workfront Proof] visualizador de pruebas](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+* [Comprender cómo afectan la caché y las cookies a  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+* [Problemas de velocidad en  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [Solución de problemas - [!DNL Workfront Proof] visor de revisión](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

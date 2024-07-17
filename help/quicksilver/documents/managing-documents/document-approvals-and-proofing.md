@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Puede pedir a los usuarios que aprueben un documento que cargue en Workfront. Para obtener más información, consulte [Solicitar aprobaciones de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
-También puede pedir a los usuarios que revisen un documento como prueba en Adobe Workfront con el visualizador de pruebas. El visor de revisión contiene herramientas para marcar contenido y realizar comentarios. Para obtener más información, consulte [Creación de pruebas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+También puede pedir a los usuarios que revisen un documento como prueba en Adobe Workfront con el visualizador de pruebas. El visor de revisión contiene herramientas para marcar contenido y realizar comentarios. Para obtener más información, consulte [Crear pruebas](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).

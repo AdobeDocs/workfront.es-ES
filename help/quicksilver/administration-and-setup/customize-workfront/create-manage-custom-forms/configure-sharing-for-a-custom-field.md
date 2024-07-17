@@ -21,7 +21,7 @@ ht-degree: 0%
 
 De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
 
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -58,18 +58,18 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
 1. Si está configurando el uso compartido de un campo o widget personalizado en la instancia de Workfront de su organización, haga lo siguiente:
 
-   1. Clic **Campos** para abrir el área Campos.
-   1. Seleccione el elemento para el que desea configurar el uso compartido y haga clic en ![Icono Compartir](assets/share-icon.png).
+   1. Haga clic en **Campos** para abrir el área Campos.
+   1. Seleccione el elemento para el que desea configurar el uso compartido y, a continuación, haga clic en ![Icono de compartir](assets/share-icon.png).
 
    O bien, si está configurando el uso compartido de un campo o widget personalizado en un formulario personalizado existente, haga lo siguiente:
 
-   1. Seleccione el formulario personalizado y haga clic en ![Icono Editar](assets/edit-icon.png).
+   1. Seleccione el formulario personalizado y luego haga clic en ![Editar icono](assets/edit-icon.png).
    1. En el área de edición del formulario de la derecha, seleccione el elemento para el que desea configurar el uso compartido.
    1. En el panel izquierdo, haga clic en **Compartir campo**.
 
-1. En el **Acceso a campos personalizados** , especifique con quién desea compartir el elemento y cómo desea compartirlo:
+1. En el cuadro **Acceso a campos personalizados** que aparece, especifique con quién desea compartir el elemento y cómo desea compartirlo:
 
-   1. Cerca de la esquina inferior izquierda del **Acceso a campos personalizados** cuadro, debajo de **Conceder acceso a campo personalizado a**, empiece a escribir el nombre de un usuario, equipo, función del puesto, grupo o empresa con el que desee compartir el elemento y, a continuación, haga clic en el nombre cuando aparezca.
+   1. Cerca de la esquina inferior izquierda del cuadro **Acceso a campos personalizados**, en **Dar acceso a campos personalizados a**, empiece a escribir el nombre de un usuario, equipo, rol, grupo o compañía con el que desee compartir el elemento y, a continuación, haga clic en el nombre cuando aparezca.
 
       ![](assets/share-field-give-access-to.jpg)
 
@@ -83,31 +83,31 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
        <tbody> 
         <tr> 
          <td role="rowheader">Verlo</td> 
-         <td> <p>Puede hacer clic en <strong>Configuración avanzada</strong> para especificar si desea que el usuario o los usuarios puedan utilizar su acceso para agregar el elemento a un formulario personalizado o compartirlo con otros usuarios.</p> </td> 
+         <td> <p>Puede hacer clic en <strong>Configuración avanzada</strong> para especificar si desea que el usuario o los usuarios puedan usar su acceso para agregar el elemento a un formulario personalizado o compartirlo con otros usuarios.</p> </td> 
         </tr> 
         <tr> 
          <td role="rowheader">Administrarlo</td> 
-         <td> <p>Permite acceder para editar el campo personalizado y verlo en la biblioteca de campos y en la página donde se generan los formularios personalizados.</p> <p>Puede hacer clic en <strong>Configuración avanzada</strong> para especificar si desea que el usuario o los usuarios puedan utilizar su acceso para eliminar el elemento del sistema o compartirlo con otros usuarios.</p> </td> 
+         <td> <p>Permite acceder para editar el campo personalizado y verlo en la biblioteca de campos y en la página donde se generan los formularios personalizados.</p> <p>Puede hacer clic en <strong>Configuración avanzada</strong> para especificar si desea que el usuario o los usuarios puedan usar su acceso para eliminar el elemento del sistema o compartirlo con otros usuarios.</p> </td> 
         </tr> 
        </tbody> 
       </table>
 
 1. (Opcional) Repita el paso anterior para agregar otros nombres a la lista y configurar sus opciones.
-1. (Opcional) Haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en la esquina superior derecha si desea elegir una opción de uso compartido para todo el sistema para el campo.
+1. (Opcional) Haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en la esquina superior derecha si desea elegir una opción de uso compartido en todo el sistema para el campo.
 
    No todas las opciones siguientes se muestran en este menú desplegable al mismo tiempo. Por ejemplo, el segundo solo se muestra cuando se selecciona uno de los otros dos.
 
-   * **Convertirlo en editable en todo el sistema para que todos los usuarios de Workfront puedan editarlo** (la opción predeterminada)
+   * **Haga que esto se pueda editar en todo el sistema para que todos los usuarios de Workfront puedan editarlo** (la opción predeterminada)
 
      Cuando se agrega un campo o widget personalizado y no se limita el uso compartido, todos los usuarios del sistema que tengan acceso a los formularios personalizados pueden verlo y editar sus propiedades.
 
-   * **Eliminar acceso de edición en todo el sistema**
+   * **Quitar acceso de edición en todo el sistema**
 
      Limita el acceso únicamente a las personas agregadas a la lista.
 
-   * **Convertirlo en visible en todo el sistema para que todos los usuarios de Workfront puedan verlo**
+   * **Haga esto visible en todo el sistema para que todos los usuarios de Workfront puedan verlo**
 
-1. Clic **Guardar** o **Guardar + Cerrar**.
+1. Haz clic en **Guardar** o en **Guardar + Cerrar**.
 
 ## Acceso heredado a campos y widgets personalizados cuando se comparte un formulario personalizado
 
@@ -119,18 +119,18 @@ Puede averiguar quién ha heredado el acceso a un campo o widget personalizado y
 >
 >Si un destinatario tiene acceso de Administración a un campo o widget personalizado en el formulario personalizado compartido, ese acceso se conserva para el destinatario.
 
-* [Descubra quién ha heredado el acceso a un campo o widget personalizado](#find-out-who-has-inherited-access-to-a-custom-field-or-widget)
+* [Averiguar quién ha heredado el acceso a un campo o widget personalizado](#find-out-who-has-inherited-access-to-a-custom-field-or-widget)
 * [Eliminar el acceso a un campo o widget personalizado de un formulario personalizado que se haya compartido](#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared)
 
 ### Descubra quién ha heredado el acceso a un campo o widget personalizado {#find-out-who-has-inherited-access-to-a-custom-field-or-widget}
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Clic **Campos**, luego seleccione el campo, la imagen o el widget de acceso.
-1. En el cuadro que aparece, haga clic en **Permisos heredados** y vea los nombres que se muestran.
-1. Clic **Cancelar**.
+1. Haga clic en **Campos** y luego seleccione el campo, la imagen o el widget de acceso.
+1. En el cuadro que se muestra, haga clic en **Permisos heredados** y vea los nombres que se muestran.
+1. Haga clic en **Cancelar**.
 
 ### Eliminar el acceso a un campo o widget personalizado de un formulario personalizado que se haya compartido {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-Si necesita eliminar el acceso a un campo o widget personalizado en un formulario personalizado que se compartió, debe dejar de compartir el formulario. Para obtener instrucciones, consulte en la sección [Eliminar el acceso a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#unshare) en el artículo [Compartir un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Si necesita eliminar el acceso a un campo o widget personalizado en un formulario personalizado que se compartió, debe dejar de compartir el formulario. Para obtener instrucciones, consulte en la sección [Quitar el acceso a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#unshare) en el artículo [Compartir un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).

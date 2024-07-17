@@ -17,7 +17,7 @@ ht-degree: 0%
 
 La creación de un informe en Adobe Workfront permite mostrar un conjunto de objetos, sus campos respectivos u objetos vinculados en una lista, una cuadrícula o un formato de gráfico.
 
-Para obtener más información sobre la creación de informes en Workfront, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información sobre cómo generar un informe en Workfront, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Requisitos de acceso
 
@@ -39,11 +39,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Administrar permisos para una vista, filtro o agrupación </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Administrar permisos para una vista, filtro o agrupación </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,22 +58,22 @@ Una colección es una lista de objetos vinculados a otro objeto.
 
 Tiene las dos relaciones siguientes entre objetos en Workfront:
 
-* **Una relación uno a uno**: Un objeto solo se puede vincular a otro objeto a la vez.\
+* **Relación uno a uno**: Un objeto solo se puede vincular a otro objeto a la vez.\
   Por ejemplo, un proyecto solo se puede vincular a un portafolio a la vez.
 
-* **Una relación &quot;uno a varios&quot;**: Un objeto se puede vincular a varios objetos a la vez.\
+* **Relación uno a varios**: Un objeto se puede vincular a varios objetos a la vez.\
   Por ejemplo, un proyecto puede tener varias tareas. En este caso, la lista de tareas forma una colección para el proyecto.
 
 >[!IMPORTANT]
 >
 >Se puede generar un informe que muestre la relación uno a uno entre objetos mediante Report Builder estándar. Sin embargo, solo se puede generar un informe que muestre la relación &quot;uno a varios&quot; entre objetos mediante la interfaz de modo de texto de Report Builder.
 
-Para obtener más información sobre la creación de informes en Report Builder estándar, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información sobre cómo generar un informe en Report Builder estándar, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Para obtener más información sobre la creación de un informe con la interfaz de modo de texto, consulte:
 
-* [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+* [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 * [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 
 ## Busque objetos de colección y sus campos en el Explorador de API {#find-collection-objects-and-their-fields-in-the-api-explorer}
@@ -81,13 +81,13 @@ Para obtener más información sobre la creación de un informe con la interfaz 
 No se pueden crear informes de todas las colecciones.
 
 Para comprender qué objetos se pueden asociar a una colección de otros, debe utilizar el Explorador de API.\
-Para obtener más información sobre la tabla del Explorador de API, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
+Para obtener más información sobre la tabla del Explorador de API, consulte [Explorador de API](../../../wf-api/general/api-explorer.md).
 
 Para averiguar sobre qué colecciones se pueden crear informes:
 
-1. Vaya a la [Explorador de API](../../../wf-api/general/api-explorer.md).
+1. Vaya a [Explorador de API](../../../wf-api/general/api-explorer.md).
 1. Busque el objeto del informe.
-1. Seleccione el **colecciones** pestaña.
+1. Seleccione la ficha **colecciones**.
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ Para averiguar sobre qué colecciones se pueden crear informes:
 
 1. Expanda el objeto de la colección haciendo clic en él.
 1. Haga clic en el vínculo mostrado para ir al objeto de la colección.\
-   Esto abre el **campos** para el objeto de la colección.
+   Se abre la ficha **campos** para el objeto de la colección.
 
    >[!NOTE]
    >
@@ -132,31 +132,31 @@ La vista muestra la información de tareas o problemas en formato de lista, y ca
 ![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
 
 * [Agregar una columna de colección en una vista de informe](#add-a-collection-column-in-a-report-view)
-* [Comprender las líneas de una colección Ver en modo texto](#understand-the-lines-of-a-collection-view-in-text-mode)
+* [Comprender las líneas de una vista de colección en modo texto](#understand-the-lines-of-a-collection-view-in-text-mode)
 * [Limitaciones de una vista de colección](#limitations-of-a-collection-view)
 
 ### Agregar una columna de colección en una vista de informe {#add-a-collection-column-in-a-report-view}
 
 Para agregar una columna de colección en una vista de informe:
 
-1. Haga clic en **Principal** menú ![](assets/main-menu-icon.png), luego haga clic en **Informes**.
-1. Clic **Nuevo informe**.
+1. Haga clic en el menú **Principal** ![](assets/main-menu-icon.png) y luego haga clic en **Informes**.
+1. Haga clic en **Nuevo informe**.
 1. Seleccione el objeto del informe.
-1. Salga del informe y use el botón [Explorador de API](../../../wf-api/general/api-explorer.md), determine qué colecciones están disponibles para el objeto seleccionado para el informe.
+1. Salga del informe y, con el [Explorador de API](../../../wf-api/general/api-explorer.md), determine qué colecciones están disponibles para el objeto que seleccionó para el informe.
 
-   Para obtener más información sobre la selección del objeto de la colección, consulte la sección [Busque objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.\
+   Para obtener más información acerca de cómo seleccionar el objeto de su colección, vea la sección [Buscar objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.\
    Anote el nombre del objeto de la colección.
 
-1. Uso del [Explorador de API](../../../wf-api/general/api-explorer.md), vaya a la lista de campos del objeto que desea mostrar en la colección.
+1. Con el [Explorador de API](../../../wf-api/general/api-explorer.md), vaya a la lista de campos del objeto que desea mostrar en la colección.
 
-   Para obtener más información sobre cómo buscar los campos del objeto de la colección, vea la sección [Busque objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.
+   Para obtener más información acerca de cómo buscar los campos del objeto de su colección, vea la sección [Buscar objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.
 
    Anote cuál es el nombre del campo que desea mostrar en la colección.
 
-1. Vuelva al informe y, en el **Columnas (vista)** pestaña, haga clic en **Agregar columna**.
-1. Clic **Cambiar a modo de texto**.
-1. Pase el ratón sobre el cuadro de diálogo y haga clic en **Haga clic para editar el texto**.
-1. Seleccionar todo el texto de la **Modo de texto** y, a continuación, pegue el código siguiente si hace referencia a un campo del objeto de recopilación:
+1. Vuelva al informe y, en la ficha **Columnas (Ver)**, haga clic en **Agregar columna**.
+1. Haga clic en **Cambiar al modo de texto**.
+1. Pase el cursor sobre el cuadro de diálogo y haga clic **Haga clic para editar el texto**.
+1. Seleccione todo el texto del cuadro de diálogo **Modo de texto**, quítelo y pegue el código siguiente si hace referencia a un campo del objeto de colección:
 
    ```
    valueformat=HTML
@@ -168,16 +168,16 @@ Para agregar una columna de colección en una vista de informe:
    valuefield=collection object field
    ```
 
-1. Reemplazar **Nombre de columna** con el nombre de su columna en la `displayname` línea.
-1. Reemplazar **nombre de objeto de colección** con el nombre del objeto de colección en el `listmethod` línea, tal como aparece en la [Explorador de API](../../../wf-api/general/api-explorer.md).
+1. Reemplace **Column Name** con el nombre de su columna en la línea `displayname`.
+1. Reemplace **nombre de objeto de colección** por el nombre de su objeto de colección en la línea `listmethod`, tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md).
 
-1. Reemplazar **campo de objeto de colección** con el nombre del campo del objeto de colección en el `valuefield` línea, tal como aparece en la [Explorador de API](../../../wf-api/general/api-explorer.md).
+1. Reemplace **campo de objeto de colección** por el nombre del campo del objeto de colección en la línea `valuefield`, tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md).
 
-   Puede reemplazar **valuefield** con **valueexpression**, si desea crear una expresión personalizada en la vista.
+   Puede reemplazar **valuefield** por **valueexpression** si desea crear una expresión personalizada en la vista.
 
-   Para obtener más información sobre las expresiones personalizadas calculadas, consulte [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Para obtener más información sobre las expresiones personalizadas calculadas, consulte [Información general sobre las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   Por ejemplo, si desea mostrar una lista de las tareas en un informe de proyecto. Esta colección utiliza un `valuefield` línea para hacer referencia a los nombres de las tareas.
+   Por ejemplo, si desea mostrar una lista de las tareas en un informe de proyecto. Esta colección usa una línea `valuefield` para hacer referencia a los nombres de las tareas.
 
    Realice una de las siguientes acciones:
 
@@ -205,9 +205,9 @@ Para agregar una columna de colección en una vista de informe:
      valueformat=HTML
      ```
 
-     Observe que en una colección debe utilizar **problemas** para el **listmethod** línea, en lugar de **opTasks** que es el nombre de la base de datos de los problemas. Para obtener información sobre cuándo usar **problema** y cuándo usar **opTask** cuando consulte problemas, consulte [Utilice &quot;opTask&quot; y &quot;issue&quot; al hacer referencia a problemas](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Observe que en una colección debe usar **issues** para la línea **listmethod**, en lugar de **opTasks**, que es el nombre de base de datos de los problemas. Para obtener información sobre cuándo usar **problema** y cuándo usar **opTask** al hacer referencia a problemas, consulte [Usar &quot;opTask&quot; y &quot;problema&quot; al hacer referencia a problemas](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
-   * Si desea mostrar una lista de las tareas de un informe de proyecto junto con su principal asignado, debe utilizar un **valueexpression** línea para hacer referencia a los nombres de las tareas adyacentes a los nombres de sus principales usuarios asignados en lugar de **valuefield**.
+   * Si desea mostrar una lista de las tareas en un informe de proyecto junto con su usuario asignado principal, debe utilizar una línea **valueexpression** para hacer referencia a los nombres de las tareas adyacentes a los nombres de sus usuarios asignados principales en lugar de **valuefield**.
 
      Utilice el siguiente código para generar su columna:
 
@@ -230,7 +230,7 @@ Para agregar una columna de colección en una vista de informe:
 
    O
 
-   Clic **Guardar + Cerrar** para guardar el informe.
+   Haga clic en **Guardar + Cerrar** para guardar el informe.
 
 #### Comprender las líneas de una colección Ver en modo texto
 
@@ -248,7 +248,7 @@ Las líneas de una vista de modo de texto de una colección se describen en la s
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>Puede utilizar varios valores para esta línea, pero le recomendamos que utilice la variable <code style="font-weight: normal;">valueformat</code> para una lista de colección debe ser <strong>HTML.</strong></p>
+   <td> <p>Puede usar varios valores para esta línea, pero se recomienda que <code style="font-weight: normal;">valueformat</code> para una lista de colección sea <strong>HTML.</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -257,23 +257,23 @@ Las líneas de una vista de modo de texto de una colección se describen en la s
   </tr> 
   <tr> 
    <td><code>type=iterate</code> </td> 
-   <td> <p>El <code>type</code> de una lista es siempre <code>iterate</code>, al crear una vista.</p> </td> 
+   <td> <p>El <code>type</code> de una lista siempre es <code>iterate</code>, al generar una vista.</p> </td> 
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Este es el delimitador que se utiliza para separar los valores de la lista.<br>Se recomienda utilizar <code>&lt;p&gt;</code> que agrega un salto de línea entre los valores.</p> <p>También puede utilizar lo siguiente:</p> <p><code>&amp;zwj;</code> (carpintero de anchura cero). Los valores de la colección no tienen separación entre ellos.<br><strong>,</strong> =separador de comas. Los valores de la colección están separados por una coma seguidos de sin espacio.<br><strong>/</strong> = separador de barras. Los valores de la colección están separados por una barra diagonal.<br><strong>-</strong> = separador de guiones. Los valores de la colección están separados por un guión.<br>Si se deja vacía esta línea, se agrega una coma seguida de un espacio entre los valores de la colección de forma predeterminada.</p> </td> 
+   <td> <p>Este es el delimitador que se utiliza para separar los valores de la lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que agrega un salto de línea entre los valores.</p> <p>También puede utilizar lo siguiente:</p> <p><code>&amp;zwj;</code> (carpintero de anchura cero). Los valores de la colección no tienen separación entre ellos.<br><strong>,</strong> =separador de comas. Los valores de la colección están separados por una coma seguidos de sin espacio.<br><strong>/</strong> = separador de barras. Los valores de la colección están separados por una barra diagonal.<br><strong>-</strong> = separador de guiones. Los valores de la colección están separados por un guión.<br>Si deja vacía esta línea, se agrega una coma seguida de un espacio entre los valores de la colección, de manera predeterminada.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nombre de columna</em> </td> 
-   <td> <p>Reemplazar <strong>Nombre de columna</strong> con el nombre real de la nueva columna.</p> </td> 
+   <td> <p>Reemplazar <strong>Nombre de columna</strong> por el nombre real de la nueva columna.</p> </td> 
   </tr> 
   <tr> 
    <td><code>listmethod=nested(collection object name).list</code> </td> 
-   <td> <p> Esta línea define la colección a la que hace referencia.</p> <p>Reemplazar <strong>nombre de objeto de colección</strong> con el nombre del objeto al que hace referencia en la colección, tal como aparece en el <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>. Este valor suele ser la forma plural del nombre del objeto de colección.</p> </td> 
+   <td> <p> Esta línea define la colección a la que hace referencia.</p> <p>Reemplace <strong>nombre de objeto de colección</strong> por el nombre del objeto al que hace referencia en su colección, tal como aparece en el <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>. Este valor suele ser la forma plural del nombre del objeto de colección.</p> </td> 
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>Esta línea define a qué campo se hace referencia desde el objeto de colección.</p> <p>Reemplazar <strong>campo de objeto de colección</strong> con el nombre del campo del objeto al que se hace referencia en la colección, tal como aparece en el <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> <p>Puede reemplazar esta línea por:</p> <p><strong>valueexpression</strong>=campo/ campos de objeto de recopilación calculada</p> <p>Uso de <strong>valueexpression</strong>, puede mostrar una expresión personalizada calculada en la columna.</p> <p>Para obtener más información sobre el formato <strong>valueexpression</strong> líneas, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Resumen de sintaxis de modo de texto</a>.</p> </td> 
+   <td> <p>Esta línea define a qué campo se hace referencia desde el objeto de colección.</p> <p>Reemplace <strong>campo de objeto de colección</strong> por el nombre del campo del objeto al que hace referencia en su colección, tal como aparece en el <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> <p>Puede reemplazar esta línea por:</p> <p><strong>valueexpression</strong>=campo/ campos de objeto de colección calculada</p> <p>Con <strong>valueexpression</strong>, puede  mostrar una expresión personalizada calculada en la columna.</p> <p>Para obtener más información sobre cómo dar formato a <strong>valueexpression</strong> líneas, vea <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Información general sobre la sintaxis en modo texto</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,38 +296,38 @@ Por ejemplo, puede filtrar la información de tareas o problemas de un informe d
 
 Para agregar una referencia a una colección en un filtro de informe:
 
-1. Haga clic en **Principal** menú ![](assets/main-menu-icon.png), luego haga clic en **Informes**.
-1. Clic **Nuevo informe**.
+1. Haga clic en el menú **Principal** ![](assets/main-menu-icon.png) y luego haga clic en **Informes**.
+1. Haga clic en **Nuevo informe**.
 1. Seleccione el objeto del informe.
-1. Salga del informe y use el botón [Explorador de API](../../../wf-api/general/api-explorer.md), determine qué colecciones están disponibles para el objeto seleccionado para el informe.
+1. Salga del informe y, con el [Explorador de API](../../../wf-api/general/api-explorer.md), determine qué colecciones están disponibles para el objeto que seleccionó para el informe.
 
-   Para obtener más información sobre la selección del objeto de la colección, consulte la sección [Busque objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.
+   Para obtener más información acerca de cómo seleccionar el objeto de su colección, vea la sección [Buscar objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.
 
    Anote el nombre del objeto de la colección.
 
-1. Uso del [Explorador de API](../../../wf-api/general/api-explorer.md), vaya a la lista de campos del objeto que desea mostrar en la colección.
+1. Con el [Explorador de API](../../../wf-api/general/api-explorer.md), vaya a la lista de campos del objeto que desea mostrar en la colección.
 
-   Para obtener más información sobre cómo buscar los campos del objeto de la colección, vea la sección [Busque objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.
+   Para obtener más información acerca de cómo buscar los campos del objeto de su colección, vea la sección [Buscar objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.
 
    Anote el campo que desee mostrar en la colección.
 
-1. Vuelva al informe y, en el **Filtros** pestaña, haga clic en **Cambiar a modo de texto**.
+1. Vuelva al informe y, en la ficha **Filtros**, haga clic en **Cambiar a modo de texto**.
 
-1. En el **Definición de reglas de filtro para el informe** , pegue el siguiente código:
+1. En el área **Establecer reglas de filtro para su informe**, pegue el siguiente código:
 
    ```
    collection object name:collection object field=collection object value
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. Reemplazar **nombre de objeto de colección** con el nombre del objeto de colección tal como aparece en la [Explorador de API](../../../wf-api/general/api-explorer.md). Este valor suele ser la forma plural del nombre del objeto de colección.
+1. Reemplace **nombre de objeto de colección** por el nombre del objeto de colección tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md). Este valor suele ser la forma plural del nombre del objeto de colección.
 
-1. Reemplazar **campo de objeto de colección** con el nombre del campo del objeto de colección en, tal como aparece en la [Explorador de API](../../../wf-api/general/api-explorer.md).
+1. Reemplace **campo de objeto de colección** con el nombre del campo de su objeto de colección en, tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md).
 
-1. Reemplazar **valor de objeto de colección** con el valor del objeto de colección tal como aparece en Workfront.
-1. Reemplazar **valor del modificador** con un modificador válido.
+1. Reemplazar **valor de objeto de colección** por el valor del objeto de colección tal como aparece en Workfront.
+1. Reemplazar **valor del modificador** por un modificador válido.
 
-   Para ver una lista de modificadores, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
+   Para obtener una lista de modificadores, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
    Por ejemplo, para generar un informe de proyecto que muestre solo los proyectos con tareas que tienen &quot;Marketing&quot; en su nombre, utilice el siguiente código:
 
    ```
@@ -348,14 +348,14 @@ Para agregar una referencia a una colección en un filtro de informe:
 
    >[!TIP]
    >
-   >Tenga en cuenta que debe utilizar `issues` para el nombre del objeto de colección, en lugar de `optask` así es como aparecen los problemas en el Explorador de API.
+   >Observe que debe usar `issues` para el nombre del objeto de colección, en lugar de `optask`, que es el modo en que aparecen los problemas en el Explorador de API.
 
-1. Clic **Listo**.
+1. Haga clic en **Listo**.
 1. (Opcional) Continúe editando el informe.
 
    O
 
-   Clic **Guardar + Cerrar** para guardar el informe.
+   Haga clic en **Guardar + Cerrar** para guardar el informe.
 
 ### Hacer referencia a una colección en la solicitud personalizada de un informe {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
@@ -369,39 +369,39 @@ Por ejemplo, puede solicitar información sobre tareas en un informe de proyecto
 
 Una petición de datos personalizada es un filtro personalizado en el que las sentencias se unen mediante símbolos ampersand. Le recomendamos que genere su enunciado en un filtro, primero, y luego que una las líneas de las instrucciones con el símbolo et.
 
-Para obtener más información sobre cómo generar una instrucción de filtro con una referencia de colección, vea la sección [Hacer referencia a una colección en el filtro de un informe](#reference-a-collection-in-the-filter-of-a-report) en este artículo.
+Para obtener más información acerca de cómo generar una instrucción de filtro con una referencia de colección, vea la sección [Hacer referencia a una colección en el filtro de un informe](#reference-a-collection-in-the-filter-of-a-report) en este artículo.
 
 Para agregar una referencia a una colección en la petición de datos personalizada de un informe:
 
-1. Haga clic en **Principal** menú ![](assets/main-menu-icon.png), luego haga clic en **Informes**.
-1. Clic **Nuevo informe**.
+1. Haga clic en el menú **Principal** ![](assets/main-menu-icon.png) y luego haga clic en **Informes**.
+1. Haga clic en **Nuevo informe**.
 1. Seleccione el objeto del informe.
-1. Cree un filtro con una referencia de colección como se describe en la sección [Hacer referencia a una colección en el filtro de un informe](#reference-a-collection-in-the-filter-of-a-report) en este artículo.
-1. Clic **Configuración de informes**.
-1. Clic **Indicadores de informe**.
-1. Clic **Agregar indicador**.
-1. Clic **Mensaje personalizado**.
-1. Especifique el nombre de la solicitud en la **Field****name** field.
+1. Genere un filtro con una referencia de colección como se describe en la sección [Hacer referencia a una colección en el filtro de un informe](#reference-a-collection-in-the-filter-of-a-report) en este artículo.
+1. Haga clic en **Configuración del informe**.
+1. Haga clic en **Indicadores de informe**.
+1. Haga clic en **Agregar solicitud**.
+1. Haga clic en **Mensaje personalizado**.
+1. Especifique el nombre de la solicitud en el campo **Field****name**.
 
-1. Especifique un **Etiqueta de elemento desplegable**.
-1. Especifique lo siguiente en la **Condición** campo:
+1. Especifique una **etiqueta de elemento desplegable**.
+1. Especifique lo siguiente en el campo **Condición**:
 
    ```
    collection object name:collection object field_Mod=value of the modifier
    ```
 
 1. (Opcional) Especifique si esta opción se muestra de forma predeterminada en la solicitud.
-1. Reemplazar **nombre de objeto de colección** con el nombre del objeto de colección tal como aparece en la [Explorador de API](../../../wf-api/general/api-explorer.md). Este valor suele ser la forma plural del nombre del objeto de colección.
-1. Reemplazar **campo de objeto de colección** con el nombre del campo del objeto de colección, tal como aparece en la [Explorador de API](../../../wf-api/general/api-explorer.md).
-1. Reemplazar **valor de objeto de colección** con el valor del objeto de colección tal como aparece en Workfront.
+1. Reemplace **nombre de objeto de colección** por el nombre del objeto de colección tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md). Este valor suele ser la forma plural del nombre del objeto de colección.
+1. Reemplace **campo de objeto de colección** por el nombre del campo del objeto de colección, tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md).
+1. Reemplazar **valor de objeto de colección** por el valor del objeto de colección tal como aparece en Workfront.
 
-   Por ejemplo, si está filtrando por proyectos en los que el nombre de la tarea contiene &quot;Marketing&quot;, sustituya **valor de objeto de colección** con **marketing**.
+   Por ejemplo, si está filtrando proyectos en los que el nombre de la tarea contiene &quot;Marketing&quot;, reemplace **valor de objeto de colección** por **marketing**.
 
-1. Reemplazar **valor del modificador** con un modificador válido.
+1. Reemplazar **valor del modificador** por un modificador válido.
 
    Para ver una lista de modificadores, consulte  [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   **Ejemplo:** Por ejemplo, para generar un informe de proyecto con una solicitud personalizada en la que desee mostrar solo los proyectos que tengan al menos una tarea asignada a un usuario específico, utilice el siguiente código:
+   **Ejemplo:** Por ejemplo, para generar un informe de proyecto con una solicitud personalizada en el que desee mostrar solamente los proyectos que tengan al menos una tarea asignada a un usuario específico, use el código siguiente:
 
    ```
    tasks:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&tasks:assignedToID_Mod=in
@@ -423,11 +423,11 @@ Para agregar una referencia a una colección en la petición de datos personaliz
 
    >[!NOTE]
    >
-   >Tenga en cuenta que debe utilizar **problemas** para el nombre del objeto de colección. El Explorador de API no ofrece un nombre de objeto de colección para los problemas en este momento.
+   >Observe que debe usar **issues** para el nombre del objeto de colección. El Explorador de API  no ofrece un nombre de objeto de colección para los problemas en este momento.
 
-1. Clic **Listo**.
+1. Haga clic en **Listo**.
 1. (Opcional) Continúe editando el informe.
 
    O
 
-   Clic **Guardar + Cerrar** para guardar el informe.
+   Haga clic en **Guardar + Cerrar** para guardar el informe.

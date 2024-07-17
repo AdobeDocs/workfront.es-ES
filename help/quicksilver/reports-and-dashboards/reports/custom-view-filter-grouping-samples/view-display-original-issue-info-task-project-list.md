@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Para obtener información sobre cómo crear una vista con Report Builder estánd
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Para obtener más información sobre cómo incluir información adicional de problemas en listas de proyectos y tareas, consulte [Ver: detalles del problema de origen para tareas y proyectos.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Para obtener más información acerca de cómo incluir información adicional sobre problemas en proyectos y listas de tareas, consulte también [Ver: detalles del problema de origen de tareas y proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

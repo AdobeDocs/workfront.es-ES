@@ -32,7 +32,7 @@ Su organización debe tener lo siguiente para utilizar la funcionalidad descrita
 
 Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 
-Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calcula automáticamente el progreso de la meta en función del progreso de sus indicadores de progreso.
 
@@ -68,15 +68,15 @@ Los siguientes puntos se consideran indicadores de progreso para los objetivos:
 
 * Resultados
 
-  Para obtener información sobre cómo agregar resultados a las metas, consulte [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Para obtener información acerca de cómo agregar resultados a las metas, vea [Agregar resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Actividades
 
-  Para obtener información sobre cómo agregar actividades, incluidos proyectos, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Para obtener información acerca de cómo agregar actividades, incluidos proyectos, a las metas, vea [Agregar actividades a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Metas secundarias alineadas
 
-  Para obtener información sobre las metas principales y secundarias, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Para obtener información acerca de las metas principales y secundarias, vea [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
   Workfront Goals calcula el porcentaje real completado con la fórmula siguiente:
 
@@ -137,13 +137,13 @@ En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los 
   </tr> 
   <tr> 
    <td>Nuevo</td> 
-   <td> <p>La meta es de nueva creación y aún no está registrando el progreso. El progreso de una meta se muestra como Nuevo hasta que alguien actualice su progreso por primera vez. </p> <p>Para obtener información sobre cómo actualizar el progreso del objetivo, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Actualización del progreso de la meta en Adobe Workfront Goals</a>.</p> </td> 
+   <td> <p>La meta es de nueva creación y aún no está registrando el progreso. El progreso de una meta se muestra como Nuevo hasta que alguien actualice su progreso por primera vez. </p> <p>Para obtener información sobre cómo actualizar el progreso de la meta, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Actualizar progreso de la meta en Adobe Workfront Goals</a>.</p> </td> 
    <td>Sin porcentaje</td> 
    <td>Sin barra</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>En Target</span> </p> </td> 
+   <td> <p><span>En destino</span> </p> </td> 
    <td>El objetivo está funcionando según lo esperado y hay una gran probabilidad de que se complete a tiempo. </td> 
    <td>90-100 %</td> 
    <td>Verde</td> 
@@ -157,7 +157,7 @@ En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los 
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>Con problemas</span> </p> </td> 
+   <td> <p><span>Con Problemas</span> </p> </td> 
    <td> <p>Es muy probable que el objetivo no se complete a tiempo. </p> </td> 
    <td>0-69,99 %</td> 
    <td>Rojo</td> 

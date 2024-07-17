@@ -78,16 +78,16 @@ Cuando reciba una notificación por correo electrónico, puede abrir rápidament
 
 1. Abra la notificación por correo electrónico generada por una actualización en Workfront.
 
-   ![email.png](assets/email-350x202.png)
-1. Clic **Comentario** en la notificación por correo electrónico.
+   ![correo electrónico.png](assets/email-350x202.png)
+1. Haga clic en **Comentario** en la notificación por correo electrónico.
 
    La página Detalles del objeto se abre en Workfront.
 
 1. Vaya a la actualización a la que desea agregar una respuesta.
 
-   Además de ver los usuarios que participan activamente en la conversación, puede ver quién fue etiquetado en cada respuesta en la parte superior de ese hilo de actualización. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o una respuesta sobre el objeto. Para etiquetar a más usuarios, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Además de ver los usuarios que participan activamente en la conversación, puede ver quién fue etiquetado en cada respuesta en la parte superior de ese hilo de actualización. Estos usuarios, junto con los usuarios suscritos al objeto, reciben una notificación cada vez que se realiza una actualización o una respuesta sobre el objeto. Para etiquetar a más usuarios, consulta [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Clic **Responder,** introduzca su respuesta y haga clic en **Responder**.
+1. Haz clic en **Responder,** escribe tu respuesta y luego haz clic en **Responder**.
 
    La respuesta se agrega como un nuevo comentario al hilo de comentarios.
 

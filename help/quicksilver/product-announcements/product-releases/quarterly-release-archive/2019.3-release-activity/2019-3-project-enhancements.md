@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todos los cambios realizados en las mejoras de Project con la versión 2019.3. Se publicó en el entorno de producción la semana del 19 de agosto de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.3, consulte [información general sobre la actividad de la versión 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.3, consulte [Resumen de la actividad de la versión 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Cambiar el tipo de visualización de un campo en un formulario personalizado
 
@@ -75,13 +75,13 @@ Antes de esta mejora, las nuevas listas se aplicaban únicamente a lo siguiente:
 * Una lista de tareas
 * Una lista de proyectos
 
-Para obtener información sobre la visualización de elementos en una lista, consulte [Introducción a las listas en Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Para obtener información sobre cómo ver elementos en una lista, consulte [Introducción a las listas en Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Editar Gantt sin activar un modo especial de edición
 
 Ahora puede editar el gráfico Gantt de lista de tareas cuando el guardado automático esté habilitado o no. No se pueden deshacer los cambios cuando la opción está activada. En este caso, los cambios realizados en el proyecto se guardan automáticamente.
 
-Para obtener información sobre cómo editar el gráfico Gantt de lista de tareas, consulte [Actualizar información en el gráfico Gantt de lista de tareas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obtener información acerca de cómo editar el gráfico Gantt de lista de tareas, vea [Actualizar información en el gráfico Gantt de lista de tareas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Eliminación de la pestaña Problemas del Panel Kanban
 
@@ -95,8 +95,8 @@ Se está eliminando la pestaña Problemas del panel Kanban de la versión de pro
 
 Se están eliminando las fichas Documentos y Problemas de la página de detalles de iteración Agile:
 
-* **Documentos:** Todos los documentos almacenados en la pestaña Documents deben moverse antes de la versión de producción. Si no mueve sus documentos, ya no tendrá acceso a ellos.
-* **Problemas:** Esta pestaña generalmente se encuentra en el menú desplegable Más. Puede seguir accediendo a la subpestaña Problemas desde la pestaña Elementos de trabajo en la iteración.
+* **Documentos:** Todos los documentos almacenados en la ficha Documentos deben moverse antes de la versión de producción. Si no mueve sus documentos, ya no tendrá acceso a ellos.
+* **Problemas:** Esta ficha se encuentra generalmente en el menú desplegable Más. Puede seguir accediendo a la subpestaña Problemas desde la pestaña Elementos de trabajo en la iteración.
 
 ## Tener en cuenta o ignorar los días libres del usuario en las fechas de tareas
 
@@ -106,7 +106,7 @@ Puede tomar esta decisión en el nivel del sistema, como administrador de Workfr
 
 Antes de este cambio, el tiempo libre de la persona asignada principal siempre ajustaba las fechas planificadas de la tarea, si la restricción de tarea permite modificar las fechas.
 
-Para obtener información sobre la configuración de tiempo de espera del usuario en el nivel del sistema, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obtener información sobre la configuración de tiempo libre del usuario en el nivel de sistema, consulte [Configurar las preferencias de proyecto en todo el sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Para obtener información sobre la configuración de tiempo libre del usuario en el nivel de proyecto, consulte [Editar proyectos](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -159,7 +159,7 @@ Si el objeto forma parte de un proyecto, el comentario del documento también ap
 
 Anteriormente, los comentarios de actualización solo aparecían en la pestaña Actualizaciones del documento.
 
-Para obtener más información, consulte la sección [Actualizar trabajo](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) en el artículo [Actualizar trabajo](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte la sección [Actualización del trabajo](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) en el artículo [Actualización del trabajo](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ Para obtener más información, consulte la sección [Actualizar trabajo](../../
 
 Al asignar un usuario a una tarea o un problema, ahora puede ver una advertencia en línea si el usuario seleccionado tiene tiempo libre programado en cualquier momento entre las fechas planificadas de la tarea o el problema.
 
-Para obtener información sobre la asignación de tareas, consulte [Asignar tareas](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+Para obtener información sobre cómo asignar tareas, vea [Asignar tareas](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Para obtener más información sobre los días libres, consulte [Configuración del tiempo libre personal](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Para obtener información sobre los días libres, consulte [Configurar los días libres personales](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 >[!NOTE]
 >
@@ -209,5 +209,5 @@ Ahora, cuando envíe una nueva solicitud a una Cola de solicitudes, introduzca e
 
 Antes de este cambio, debe introducir el nombre de la solicitud en el campo &quot;Asunto&quot;.
 
-Para obtener información sobre la creación de solicitudes, consulte [Creación y envío de solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener información sobre cómo crear solicitudes, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 

@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En Workfront Planning, puede crear tipos de registros personalizados que ilustran los elementos relacionados con el trabajo necesarios en el ciclo de vida de su organización.
 
-Para obtener más información sobre los tipos de registros, consulte [Resumen de tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Para obtener más información acerca de los tipos de registros, vea [Información general sobre los tipos de registros](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ## Requisitos de acceso
 
@@ -67,12 +67,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon
 </td>
   </tr>
@@ -97,7 +97,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Automáticamente:
       * Cuando se crea un espacio de trabajo mediante una plantilla.
 
-        Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+        Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
       * Cuando se importan mediante un archivo CSV o de Excel.
 
@@ -127,9 +127,9 @@ Al crear un espacio de trabajo a partir de una plantilla, los tipos de registro 
 
 Puede añadir manualmente tipos de registros en las secciones Tipos de registros operativos y Taxonomías.
 
-Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+Para obtener información acerca de cómo crear espacios de trabajo, vea [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-Para obtener información sobre los tipos de registros que se incluyen con cada plantilla, consulte [Lista de plantillas de Workspace](/help/quicksilver/planning/architecture/workspace-templates.md).
+Para obtener información sobre los tipos de registros que se incluyen en cada plantilla, vea [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ## Crear un tipo de registro desde cero
 
@@ -140,16 +140,16 @@ Para obtener información sobre los tipos de registros que se incluyen con cada 
    O
 
    Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
-1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al espacio de trabajo.
-1. Clic **Añadir tipo de registro**.
-1. (Condicional) Cuando esté habilitada la creación de tipos de registros mediante la importación de un archivo de Excel o CSV, haga clic en **Desde cero**. De lo contrario, la variable **Añadir tipo de registro** se abre el cuadro.
+1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al área de trabajo.
+1. Haga clic en **Agregar tipo de registro**.
+1. (Condicional) Cuando esté habilitada la creación de tipos de registros mediante la importación de un archivo de Excel o CSV, haga clic en **Desde cero**. De lo contrario, se abre el cuadro **Agregar tipo de registro**.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
 1. Actualice la siguiente información:
 
    * Sustituya &quot;Tipo de registro sin título&quot; por el nombre del tipo de registro futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
-   * **Descripción**: Añada más información sobre el tipo de registro.
+   * **Descripción**: Agregue más información sobre el tipo de registro.
    * Seleccione un color y una forma para el icono asociado al tipo de registro. Haga lo siguiente:
       * Seleccione un color para identificar el nuevo tipo de registro. Es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
@@ -161,7 +161,7 @@ La descripción del tipo de registro se muestra en la tarjeta.
 
    ![](assets/record-type-card-with-description.png)
 
-1. (Opcional) Pase el ratón sobre la tarjeta de tipo de registro y haga clic en **Más** icono ![](assets/more-menu.png) en la esquina superior derecha, haga clic en **Editar** para modificar información sobre el tipo de registro.
+1. (Opcional) Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el icono **Más** ![](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Editar** para modificar la información sobre el tipo de registro.
 1. (Opcional) Haga clic en la tarjeta de tipo de registro para abrir la página de tipo de registro.
 
    ![](assets/operational-record-type-blank.png)
@@ -184,12 +184,12 @@ La descripción del tipo de registro se muestra en la tarjeta.
 
    O
 
-   Haga clic en **Más** icono ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Editar** para cambiarle el nombre o cambiar la información sobre él. Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Haga clic en el icono **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Editar** para cambiarle el nombre o cambiar la información sobre él. Para obtener más información, vea [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Opcional) Haga clic en **+ Nuevo registro** para agregar registros del tipo de registro seleccionado. Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
-1. (Opcional) Haga clic en **+** en la esquina superior derecha de la tabla para agregar más campos al tipo de registro.
+1. (Opcional) Haga clic en **+ Nuevo registro** para agregar registros del tipo de registro seleccionado. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Haga clic en el icono **+** en la esquina superior derecha de la tabla para agregar más campos al tipo de registro.
 
-   Para obtener más información sobre la creación de campos, consulte [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+   Para obtener más información sobre cómo crear campos, vea [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 1. (Opcional) Haga clic en la flecha que señala a la izquierda del nombre del tipo de registro, en el encabezado, para volver al espacio de trabajo seleccionado.
 
@@ -231,10 +231,10 @@ Para importar tipos de registros mediante un archivo de Excel:
    O
 
    Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
-1. Clic **Añadir tipo de registro**.
-1. Clic **Excel/CSV**.
+1. Haga clic en **Agregar tipo de registro**.
+1. Haga clic en **Excel/CSV**.
 1. Arrastre y suelte un archivo de Excel o CSV guardado anteriormente en el equipo, o haga clic en **Seleccione un archivo CSV o de Excel** para buscar uno.
-1. Clic **Revisión de los datos**.
+1. Haga clic en **Revisar los datos**.
 
    El cuadro Vista previa y edición muestra la siguiente información:
 
@@ -251,13 +251,13 @@ Para importar tipos de registros mediante un archivo de Excel:
    >    Las hojas vacías no son compatibles y aparecen atenuadas.
 
 
-1. (Opcional) Haga clic en **Seleccionar hojas para importar** menú desplegable y deseleccione las hojas que no desee importar.
+1. (Opcional) Haga clic en el menú desplegable **Seleccionar hojas para importar** y deseleccione las hojas que no desee importar.
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    Las hojas que no haya seleccionado se muestran con un fondo gris.
 
-1. Clic **Importar** cuando esté listo para importar el archivo.
+1. Haga clic en **Importar** cuando esté listo para importar el archivo.
 
    La siguiente información se importa en Workfront Planning:
 

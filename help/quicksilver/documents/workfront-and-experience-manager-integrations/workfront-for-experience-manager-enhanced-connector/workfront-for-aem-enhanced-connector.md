@@ -17,8 +17,8 @@ ht-degree: 0%
 # Conector mejorado de Workfront para Experience Manager
 
 * [Información general sobre el conector mejorado de Workfront para Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-* [Información general sobre los metadatos de conectores mejorados de Workfront para Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
-* [Vinculación de recursos y carpetas con el conector mejorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
+* [Resumen de metadatos de conector mejorado de Workfront para Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+* [Vincule recursos y carpetas con el conector mejorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
 * [Enviar un documento con el conector mejorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
 * [Probar un recurso vinculado con el conector mejorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Ver o descargar un recurso vinculado con el conector mejorado](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)

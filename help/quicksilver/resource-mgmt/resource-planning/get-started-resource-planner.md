@@ -33,12 +33,12 @@ Puede utilizar el Planificador de recursos para comprender fácilmente la dispon
 >[!IMPORTANT]
 >
 >No puede usar el Planificador de recursos para asignar trabajo real (tareas y problemas) a los usuarios. Solo puede calcular la cantidad de tiempo necesario para que los usuarios o los roles completen un proyecto, independientemente de las tareas y problemas a los que estén asignados.\
->Para asignar trabajo real a usuarios, debe utilizar el Distribuidor de cargas de trabajo. Para obtener más información sobre el Distribuidor de cargas de trabajo, consulte [Resumen del Distribuidor de cargas](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Para asignar trabajo real a usuarios, debe utilizar el Distribuidor de cargas de trabajo. Para obtener más información sobre el Distribuidor de cargas de trabajo, consulte [Resumen del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Puede ver información en el Planificador de recursos utilizando tres vistas independientes. Puede utilizar cada vista para cumplir uno de los siguientes propósitos:
 
 * Para presupuestar el tiempo o el costo de los recursos para el trabajo que debe realizarse, use las vistas Proyecto y Rol. Este es el propósito principal del Planificador de recursos.\
-  Para obtener más información sobre la presupuestación en el Planificador de recursos, consulte el artículo [Presupuestar recursos en el Planificador de recursos utilizando las vistas Proyecto y Rol](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Para obtener más información acerca de cómo presupuestar en el Planificador de recursos, consulte el artículo [Presupuesto de recursos en el Planificador de recursos mediante las vistas de proyecto y función](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * Para ver la siguiente información mediante la vista Usuario:
 
@@ -46,13 +46,13 @@ Puede ver información en el Planificador de recursos utilizando tres vistas ind
    * La cantidad de tiempo planificada necesaria para completar el trabajo según el plan del proyecto
    * Cantidad de tiempo que los usuarios ya han iniciado sesión en elementos de trabajo reales
 
-  Para obtener más información sobre la visualización de las horas disponibles, planificadas y reales o FTE de los usuarios en el Planificador de recursos, consulte el artículo [Ver las horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Para obtener más información sobre cómo ver las horas disponibles, planificadas y reales o FTE de los usuarios en el Planificador de recursos, consulte el artículo [Ver horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
 ## Consideraciones del Planificador de recursos
 
 * Puede priorizar los proyectos en los que está trabajando y presupuestar la asignación de recursos según su prioridad, para asegurarse de que primero tenga los recursos asignados a los proyectos más importantes.
 
-  Para obtener información sobre la priorización de proyectos en el Planificador de recursos, consulte [Priorizar proyectos en el Planificador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Para obtener información sobre cómo priorizar proyectos en el Planificador de recursos, consulte [Priorizar proyectos en el Planificador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * Puede mostrar información de horas, ETC y costos de las tareas y problemas de los proyectos.
 
@@ -64,7 +64,7 @@ Puede ver información en el Planificador de recursos utilizando tres vistas ind
 
   Para obtener información sobre las tareas principales, consulte los siguientes artículos:
 
-   * [Información general sobre tareas](../../manage-work/tasks/task-information/tasks-overview.md)
+   * [Resumen de tareas](../../manage-work/tasks/task-information/tasks-overview.md)
    * [Creación de subtareas](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
   >[!TIP]
@@ -74,9 +74,9 @@ Puede ver información en el Planificador de recursos utilizando tres vistas ind
 * No puede administrar la asignación de equipos en los proyectos en los que tienen tareas o problemas en el Planificador de recursos.
 * Puede presupuestar recursos para varios proyectos a la vez usando el Planificador de recursos o para un solo proyecto usando el área de Presupuestación de recursos del Caso comercial. La información presupuestada para un proyecto también se muestra en el Planificador de recursos.
 
-  Para obtener información sobre cómo puede presupuestar recursos para un solo proyecto, consulte el artículo [Recursos de presupuesto en el caso comercial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Para obtener información acerca de cómo puede presupuestar recursos para un solo proyecto, vea el artículo [Recursos de presupuesto en el caso comercial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Para obtener información sobre cómo puede presupuestar recursos en el Planificador de recursos para varios proyectos a la vez, vea la sección &quot;Presupuestar recursos en el Planificador de recursos&quot; en el artículo [Presupuestar recursos en el Planificador de recursos utilizando las vistas Proyecto y Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Para obtener información sobre cómo puede presupuestar recursos en el Planificador de recursos para varios proyectos a la vez, consulte la sección &quot;Presupuestar recursos en el Planificador de recursos&quot; en el artículo [Recursos presupuestarios en el Planificador de recursos mediante las vistas Proyecto y Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Requisitos previos para trabajar en el Planificador de recursos {#prerequisites-for-working-in-the-resource-planner}
 
@@ -101,7 +101,7 @@ Se requieren los siguientes tipos de requisitos previos para la correcta funcion
 
 * [Requisitos previos del usuario](#user-prerequisites)
 * [Requisitos previos del proyecto](#project-prerequisites)
-* [Requisitos previos de tareas y problemas](#tasks-and-issues-prerequisites)
+* [Requisitos previos para tareas y problemas](#tasks-and-issues-prerequisites)
 * [Requisitos previos de nivel de sistema](#system-level-prerequisites)
 
 ### Requisitos previos del usuario {#user-prerequisites}
@@ -110,11 +110,11 @@ Asegúrese de que exista la siguiente configuración de usuario antes de empezar
 
 * Tiene el acceso correcto a los recursos del presupuesto.
 
-  Para obtener información sobre el acceso necesario a los recursos del presupuesto, consulte el artículo [Acceso necesario a los recursos del presupuesto en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Para obtener información sobre el acceso necesario para presupuestar recursos, consulte el artículo [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Los usuarios asignados a tareas se agregan a los conjuntos de recursos asociados con el proyecto.
 
-  Para obtener información sobre cómo agregar usuarios a conjuntos de recursos, consulte [Asociar conjuntos de recursos a los usuarios](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Para obtener información acerca de cómo agregar usuarios a los conjuntos de recursos, vea [Asociar conjuntos de recursos a los usuarios](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
   >[!NOTE]
   >
@@ -130,7 +130,7 @@ Asegúrese de que exista la siguiente configuración de usuario antes de empezar
 
 * Los usuarios asignados a conjuntos de recursos y de trabajo deben tener los programas y los roles asociados a su perfil.
 
-  Para obtener información sobre cómo asociar horarios y funciones de trabajo a los usuarios, consulte [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obtener información sobre cómo asociar horarios y roles con usuarios, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
   >[!NOTE]
   >
@@ -142,19 +142,19 @@ Asegúrese de que exista la siguiente configuración de usuario antes de empezar
   >
   >Si un usuario no está asociado a un Horario, el Horario por Defecto de su sistema Workfront está asociado al usuario por defecto, a los efectos del Planificador de Recursos.
 
-  Para obtener información sobre la creación de programaciones, consulte el artículo [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Para obtener información acerca de cómo crear programaciones, vea el artículo [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Si desea presupuestar los recursos por Coste, debe asociar los Roles con Coste/Hora. tarifas. El costo asociado con los roles asignados a los usuarios de los conjuntos de recursos se utiliza para calcular el costo de mano de obra presupuestado y el costo presupuestado del proyecto.\
   Para obtener información sobre cómo asociar roles con tasas, consulte el artículo [Crear y administrar roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-  Para obtener información sobre el cálculo del costo de mano de obra presupuestado, consulte el artículo [Comprender el costo laboral presupuestado y las horas presupuestadas de los proyectos](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-  Para obtener información sobre el cálculo del costo presupuestado, consulte el artículo [Calcular costo presupuestado](../../manage-work/projects/project-finances/budgeted-cost.md).
+  Para obtener información sobre el cálculo del costo de mano de obra presupuestado, consulte el artículo [Comprender el costo de mano de obra presupuestado y las horas presupuestadas para proyectos](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
+  Para obtener información acerca del cálculo del costo presupuestado, vea el artículo [Calcular costo presupuestado](../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ### Requisitos previos del proyecto {#project-prerequisites}
 
 Asegúrese de que exista la siguiente configuración de proyecto antes de empezar a usar el Planificador de recursos:
 
 * Sus proyectos están asociados a conjuntos de recursos.\
-  Para obtener más información sobre cómo agregar conjuntos de recursos a proyectos, consulte [Asociar conjuntos de recursos a proyectos y plantillas](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  Para obtener más información acerca de cómo agregar conjuntos de recursos a proyectos, vea [Asociar conjuntos de recursos a proyectos y plantillas](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
   >[!IMPORTANT]
   >
@@ -191,7 +191,7 @@ Debe comprender cómo calcula la instancia de Workfront la disponibilidad del us
 
 El administrador de Workfront configura las preferencias de administración de recursos.
 
-Para obtener más información, consulte [Configurar preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Para obtener más información, consulte [Configurar las preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Busque el Planificador de recursos
 
@@ -201,7 +201,7 @@ Para obtener más información, consulte [Configurar preferencias de administrac
 
 Puede ubicar el Planificador de recursos en dos áreas de Workfront, en función de si desea presupuestar los recursos para varios proyectos o para un solo proyecto.
 
-Para obtener información sobre cómo localizar el Planificador de recursos, consulte [Busque el Planificador de recursos](../../resource-mgmt/resource-planning/locate-resource-planner.md).
+Para obtener información sobre cómo encontrar el Planificador de recursos, consulte [Localizar el Planificador de recursos](../../resource-mgmt/resource-planning/locate-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -241,7 +241,7 @@ Puede ver la siguiente información o realizar las siguientes acciones en el Pla
 * Sobreasignación o infrautilización de los recursos en el Planificador de recursos.
 * Presupueste los recursos para trabajar de forma manual o automática.
 
-Para obtener más información sobre las áreas que se muestran en el Planificador de recursos y cómo configurar la información que se muestra en estas áreas, consulte el artículo [Resumen de navegación del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Para obtener más información sobre las áreas que se muestran en el Planificador de recursos y cómo configurar la información que se muestra en estas áreas, consulte el artículo [Información general sobre la navegación del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Limitaciones al mostrar información en el Planificador de recursos
 
@@ -253,9 +253,9 @@ Para obtener más información sobre estas limitaciones, consulte el artículo [
 
 Puede mostrar la disponibilidad, la asignación y los valores planificados en el Planificador de recursos en Horas, ETC o Coste.
 
-Para obtener más información sobre cómo cambiar la información que se muestra en el Planificador de recursos, vea la sección [Ver información por hora, ETC o costo](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) en el artículo [Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+Para obtener más información acerca de cómo cambiar la información que se muestra en el Planificador de recursos, vea la sección [Ver información por hora, ETC o costo](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) en el artículo [Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Para obtener más información sobre cómo se calculan las horas y el valor de FTE de los usuarios y las funciones en Workfront, consulte el artículo [Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Para obtener más información acerca de cómo se calculan las horas y el valor de FTE para los usuarios y las funciones en Workfront, vea el artículo [Información general sobre el cálculo de horas y el valor de FTE para los usuarios y las funciones en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Calcular costos en el Planificador de recursos
 
@@ -267,8 +267,8 @@ Además de mostrar la disponibilidad, la asignación y los valores planificados 
 >
 >Debe asociar los usuarios y sus roles con las tasas de costo por hora para mostrar información por costos en el Planificador de recursos.
 
-Para obtener más información sobre cómo asociar las tasas de costo por hora con los roles de trabajo, consulte el artículo [Crear y administrar roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-Para obtener más información sobre cómo asociar tarifas de costo por hora con usuarios, consulte el artículo [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obtener más información acerca de cómo asociar tasas de costo por hora con roles de trabajo, vea el artículo [Crear y administrar roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+Para obtener más información acerca de cómo asociar tarifas de costo por hora con usuarios, vea el artículo [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Tenga en cuenta lo siguiente cuando visualice información por costo en el Planificador de recursos:
 
@@ -276,7 +276,7 @@ Tenga en cuenta lo siguiente cuando visualice información por costo en el Plani
 * El costo planificado se ve afectado por el tipo de costo de las tareas de los proyectos.
 * Al aplicar la Vista de usuario al Planificador de recursos, no puede mostrar la información de asignación y disponibilidad por costo.
 
-Para obtener más información sobre cómo se calculan los costos de los usuarios y las funciones en el Planificador de recursos, vea el artículo [Calcular costos en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Para obtener más información acerca de cómo se calculan los costos de los usuarios y las funciones en el Planificador de recursos, vea el artículo [Calcular costos en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -294,4 +294,4 @@ Para obtener más información sobre cómo se calculan los costos de los usuario
 ## Filtrar información en el Planificador de recursos
 
 Puede reducir el número de proyectos, funciones o usuarios que se muestran en el Planificador de recursos creando un filtro.\
-Para obtener más información, consulte el artículo [Filtrar información en el Planificador de recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Para obtener más información, vea el artículo [Filtrar información en el Planificador de recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md).

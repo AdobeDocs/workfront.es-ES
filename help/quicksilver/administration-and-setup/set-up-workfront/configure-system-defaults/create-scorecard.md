@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear un informe de valoración
-description: Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un informe de valoración suele reflejar la misión, los valores y los objetivos estratégicos de una organización.Los administradores de Portfolio suelen definir las preguntas y respuestas del informe de valoración para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un [!DNL Adobe Workfront] El administrador crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
+description: Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un informe de valoración suele reflejar la misión, los valores y los objetivos estratégicos de una organización.Los administradores de Portfolio suelen definir las preguntas y respuestas del informe de valoración para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un  [!DNL Adobe Workfront] administrador crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y los objetivos estratégicos de una organización.
 
-Los administradores de Portfolio suelen definir las preguntas y respuestas del cuadro de resultados para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un [!DNL Adobe Workfront] El administrador crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
+Los administradores de Portfolio suelen definir las preguntas y respuestas del cuadro de resultados para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un administrador de [!DNL Adobe Workfront] crea los cuadros de resultados basándose en las recomendaciones de los administradores de portafolios.
 
 Las preguntas y respuestas seleccionadas para un cuadro de resultados deben ser cuantificables para proporcionar un valor de alineación y comparar diferentes proyectos.
 
@@ -60,13 +60,13 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. Clic **[!UICONTROL Cuadros de resultados]**, luego haga clic en **[!UICONTROL Nuevo informe de valoración]** para iniciar el generador de cuadros de resultados y crear un cuadro de resultados.
+1. Haga clic en **[!UICONTROL Cuadros de resultados]** y, a continuación, haga clic en **[!UICONTROL Nuevo cuadro de resultados]** para iniciar el generador de cuadros de resultados y crear uno.
 
-1. Especifique un **[!UICONTROL Nombre del informe de valoración]** y una **[!UICONTROL Descripción]**.
+1. Especifique un **[!UICONTROL Nombre de informe de valoración]** y una **[!UICONTROL Descripción]**.
 
    El nombre se muestra al asociar el cuadro de resultados con el proyecto. La descripción se muestra junto al nombre del cuadro de mandos en la lista Cuadro de mandos.
 
-1. Haga clic en **[!UICONTROL Añadir pregunta]** menú desplegable para abrir el [!UICONTROL pregunta del cuadro de resultados] y, a continuación, especifique la siguiente información para la pregunta:
+1. Haga clic en el menú desplegable **[!UICONTROL Agregar pregunta]** para abrir la sección [!UICONTROL pregunta del cuadro de mandos] y, a continuación, especifique la siguiente información para la pregunta:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -86,26 +86,26 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tipo de pantalla]</td> 
-      <td>Seleccionar <strong>[!UICONTROL Valor(0-100)]</strong> si desea mostrar un campo numérico en el cuadro de mandos en el que los usuarios pueden especificar cualquier valor entre 0 y 100.<p>O bien, seleccione <strong>Lista desplegable de [!UICONTROL]</strong> o <strong>Botones de opción [!UICONTROL]</strong> para crear una respuesta, los usuarios pueden especificar mediante ese control. Clic <strong>[!UICONTROL Agregar respuesta]</strong>, luego escriba el <strong>[!UICONTROL Valor]</strong> en puntos porcentuales para esta respuesta, en caso de que se cumpla. Si elige 100%, el número de puntos asignados para esta pregunta se alcanza por completo. Si desea indicar que esta respuesta sólo incluye una parte de la cantidad total de puntos asignados a esta pregunta, seleccione un valor porcentual inferior. Por ejemplo, si su pregunta tiene un valor de 10 puntos y desea que esta respuesta contenga 5 de esos puntos, elija 50% para su valor.</p>
-      <p>Seleccionar <strong>[!UICONTROL Predeterminado]</strong> si desea indicar que esta respuesta es la predeterminada.</strong></p>
+      <td>Seleccione <strong>[!UICONTROL Value(0-100)]</strong> si desea mostrar un campo numérico en el cuadro de mandos donde los usuarios puedan especificar cualquier valor entre 0 y 100.<p>O bien, seleccione <strong>[!UICONTROL Drop Down]</strong> o <strong>[!UICONTROL Radio Buttons]</strong> para crear una respuesta que los usuarios puedan especificar mediante ese control. Haga clic en <strong>[!UICONTROL Agregar respuesta]</strong> y, a continuación, escriba el <strong>[!UICONTROL Valor]</strong> en puntos porcentuales para esta respuesta, en caso de que se complete. Si elige 100%, el número de puntos asignados para esta pregunta se alcanza por completo. Si desea indicar que esta respuesta sólo incluye una parte de la cantidad total de puntos asignados a esta pregunta, seleccione un valor porcentual inferior. Por ejemplo, si su pregunta tiene un valor de 10 puntos y desea que esta respuesta contenga 5 de esos puntos, elija 50% para su valor.</p>
+      <p>Seleccione <strong>[!UICONTROL Default]</strong> si desea indicar que esta respuesta es la predeterminada.</strong></p>
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **[!UICONTROL Añadir pregunta]** para agregar más preguntas y respuestas al informe de valoración, siga los mismos pasos.
+1. Haga clic en **[!UICONTROL Agregar pregunta]** para agregar más preguntas y respuestas a su cuadro de resultados, siguiendo los mismos pasos.
 
    >[!NOTE]
    >
    >Puede reordenar las preguntas del cuadro de resultados arrastrando y soltando las preguntas en el orden correcto.
 
-1. Clic **[!UICONTROL Guardar]** cuando haya terminado de introducir toda la información.
+1. Haga clic en **[!UICONTROL Guardar]** cuando termine de escribir toda la información.
 
    Esto crea el cuadro de resultados y los jefes de proyecto ahora pueden adjuntarlo a su caso comercial del proyecto.
 
 ## Aplicar un cuadro de resultados a un proyecto
 
-Un usuario con [!UICONTROL administrar] Los permisos de para un proyecto pueden aplicar un cuadro de resultados a un proyecto, una vez que el [!DNL Workfront] administrador.
+Un usuario con permisos para [!UICONTROL administrar] en un proyecto puede aplicar un cuadro de mandos a un proyecto una vez que el administrador de [!DNL Workfront] haya creado el cuadro de mandos.
 
-Se agrega un cuadro de mandos a un proyecto como parte de la creación de un caso empresarial para el proyecto. Para obtener más información sobre cómo agregar un cuadro de mandos a un proyecto, consulte [Aplicar un cuadro de resultados a un proyecto y generar una puntuación de alineación](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Se agrega un cuadro de mandos a un proyecto como parte de la creación de un caso empresarial para el proyecto. Para obtener más información sobre cómo agregar un cuadro de mandos a un proyecto, vea [Aplicar un cuadro de mandos a un proyecto y generar una puntuación de alineación](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Para obtener más información sobre los permisos del proyecto, consulte [Uso compartido de un proyecto en [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Para obtener más información acerca de los permisos del proyecto, vea [Compartir un proyecto en [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

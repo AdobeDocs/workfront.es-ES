@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Reemplazar el botón Trabajar en él con un botón Inicio
-description: La configuración predeterminada de Adobe Workfront incluye un botón Trabajar en él para las tareas y los problemas que se muestran para los elementos a los que ha sido asignado.
+title: Reemplazar el botón Trabajar en ello por un botón Iniciar
+description: La configuración predeterminada de Adobe Workfront incluye un botón Trabajar en ello para tareas y problemas que se muestra para elementos a los que se le ha asignado.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Sustituya el [!UICONTROL Trabajar En Él] botón con un [!UICONTROL Inicio] botón
+# Reemplazar el botón [!UICONTROL Trabajar en ello] por un botón [!UICONTROL Iniciar]
 
-[!DNL Adobe Workfront]La configuración predeterminada de incluye un [!UICONTROL Trabajar En Él] para las tareas y los problemas que se muestran para los elementos que se le han asignado. Al hacer clic en [!UICONTROL Trabajar En Él] en los artículos asignados a usted, le indica a otros usuarios que recibió el trabajo y reconoce que trabajará en él. Sin embargo, la variable [!DNL Work On It] no actualiza la tarea o el estado del problema para indicar que el trabajo se ha iniciado.
+La configuración predeterminada de [!DNL Adobe Workfront] incluye un botón [!UICONTROL Trabajar en ello] para tareas y problemas que se muestra para elementos a los que se le ha asignado. Al hacer clic en [!UICONTROL Trabajar en ello] en los elementos que tiene asignados, indica a otros usuarios que ha recibido el trabajo y reconoce que trabajará en él. Sin embargo, el botón [!DNL Work On It] no actualiza el estado de la tarea o del problema para indicar que el trabajo se ha iniciado.
 
-Puede reemplazar la variable [!DNL Work On It] botón con un [!UICONTROL Inicio] para un equipo al que pertenezca. En este caso, haga clic en el botón [!UICONTROL Inicio] en lugar de [!UICONTROL Trabajar En Él], que actualiza automáticamente el estado y la variable [!UICONTROL Fecha de inicio real] del elemento de trabajo, indicando que ha empezado a trabajar. Para obtener información sobre la configuración de qué equipo puede afectar a los cambios en la variable [!UICONTROL Trabajar En Él] , consulte la sección [Configure las variables [!UICONTROL Inicio] botón](#configure-the-uicontrol-start-button) en este artículo.
+Puede reemplazar el botón [!DNL Work On It] por un botón [!UICONTROL Iniciar] para un equipo al que pertenezca. En este caso, hace clic en el botón [!UICONTROL Iniciar] en lugar de en [!UICONTROL Trabajar en ello], que actualiza automáticamente el estado y la [!UICONTROL Fecha real de inicio] del elemento de trabajo, lo que indica que ha iniciado el trabajo. Para obtener información sobre la configuración de qué equipo podría afectar a los cambios en el botón [!UICONTROL Trabajar en ello], consulte la sección [Configurar el botón [!UICONTROL Iniciar]](#configure-the-uicontrol-start-button) en este artículo.
 
 >[!IMPORTANT]
 >
->Al hacer clic en [!UICONTROL Inicio] cambia el estado del elemento y [!UICONTROL Fecha de inicio real]. Si otra persona ha empezado a trabajar en una tarea o problema (lo que ha cambiado el estado a [!UICONTROL En curso] y rellenan el [!UICONTROL Fecha de inicio real]), el botón del elemento se muestra como [!UICONTROL Trabajar En Él] incluso cuando a un equipo al que pertenezca se le ha reemplazado el botón por un [!UICONTROL Inicio] botón.
+>Al hacer clic en el botón [!UICONTROL Iniciar] se cambia el estado del elemento y se cambia [!UICONTROL la fecha real de inicio]. Si otra persona ha empezado a trabajar en una tarea o problema (que cambió el estado a [!UICONTROL En curso] y rellenó la [!UICONTROL Fecha de inicio real]), el botón del elemento se mostrará como [!UICONTROL Trabajar en ello] incluso cuando se ha reemplazado el botón por un botón [!UICONTROL Iniciar] en un equipo al que pertenece.
 
 ## Requisitos de acceso
 
@@ -44,60 +44,59 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-## Configure las variables [!UICONTROL Inicio] botón
+## Configurar el botón [!UICONTROL Iniciar]
 
-Si tiene una [!UICONTROL Plan] licencia, puede configurar la [!UICONTROL Inicio] para un equipo de [!UICONTROL Editar] ventana del equipo. A continuación se muestra cómo funciona el botón después de activarlo para un equipo:
+Si tiene una licencia de [!UICONTROL Plan], puede configurar el botón [!UICONTROL Iniciar] para un equipo en la ventana [!UICONTROL Editar] equipo. A continuación, se muestra cómo funciona el botón después de habilitarlo para un equipo:
 
-* **El equipo está asignado a un elemento de trabajo**: Si un equipo está asignado al elemento de trabajo, los miembros de ese equipo verán la variable [!UICONTROL Inicio] y los estados configurados para ese equipo.
-* **El usuario pertenece a un equipo de inicio**: Si no hay ningún equipo asignado al elemento de trabajo pero el usuario está asignado a un equipo de inicio en su perfil, el usuario verá la variable [!UICONTROL Inicio] y los estados configurados para ese equipo. Este es el escenario que recomendamos si desea que los usuarios utilicen la variable [!UICONTROL Inicio] con frecuencia.
-* **El usuario está asignado a un elemento de trabajo**: Si no hay ningún equipo asignado al elemento de trabajo y ningún equipo de inicio asignado al usuario pero el usuario está asignado al elemento de trabajo, el usuario verá la variable [!UICONTROL Inicio] y los estados combinados configurados para que todos los equipos a los que están asignados.
-* **El usuario no está asignado a ningún equipo:** Si no hay ningún equipo asignado al elemento de trabajo ni ningún equipo para el usuario, incluido el Equipo principal, y el elemento está asignado al usuario, el usuario parece que el [!UICONTROL Trabajar En Él] botón.
+* **El equipo está asignado a un elemento de trabajo**: si se asigna un equipo al elemento de trabajo, los miembros de ese equipo verán el botón [!UICONTROL Iniciar] y los estados configurados para ese equipo.
+* **El usuario pertenece a un equipo de inicio**: Si no se ha asignado ningún equipo al elemento de trabajo, pero el usuario está asignado a un equipo de inicio en su perfil, el usuario verá el botón [!UICONTROL Iniciar] y los estados configurados para ese equipo. Este es el escenario que recomendamos si desea que los usuarios usen el botón [!UICONTROL Iniciar] con frecuencia.
+* **El usuario está asignado a un elemento de trabajo**: si no hay ningún equipo asignado al elemento de trabajo ni hay ningún equipo de inicio asignado al usuario, pero el usuario está asignado al elemento de trabajo, el usuario verá el botón [!UICONTROL Inicio] y los estados combinados configurados para todos los equipos a los que están asignados.
+* **El usuario no está asignado a ningún equipo:** Si no hay ningún equipo asignado al elemento de trabajo ni ningún equipo para el usuario, incluido el equipo de inicio, y el elemento está asignado al usuario, el usuario parece tener el botón [!UICONTROL Trabajar en ello].
 
 >[!NOTE]
 >
 >Esta función no está disponible actualmente en
 >
->* La variable [!DNL Workfront] aplicación móvil
+>* La aplicación móvil [!DNL Workfront]
 >* [!DNL Workfront for Office 365]
 >* [!DNL Workfront] notificaciones por correo electrónico
 >
 
+Para configurar el botón Start:
 
-Para configurar el botón Inicio:
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Equipos]**.
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **[!UICONTROL Equipos]**.
-
-1. En el **[!UICONTROL Equipos]** menú desplegable, seleccione un equipo.\
+1. En el menú desplegable **[!UICONTROL Equipos]**, seleccione un equipo.\
    o\
    Haga clic en **[!UICONTROL Crear equipo]**.
 
-1. Haga clic en el **[!UICONTROL Más]** icono ![](assets/more-icon.png)y haga clic en **[!UICONTROL Editar]**.
+1. Haga clic en el icono **[!UICONTROL Más]** ![](assets/more-icon.png) y luego haga clic en **[!UICONTROL Editar]**.
 
-1. Busque la **[!UICONTROL Trabajar En Él]** sección del botón cerca de la parte inferior del [!UICONTROL Editar equipos] página.
-1. Seleccione el **[!UICONTROL Cambie el botón Trabajar en él a un botón Inicio para actualizar automáticamente el estado de un elemento]** en el Navegador.
-1. Seleccione uno o más estados para cada tipo de elemento de trabajo. Si selecciona más de un estado, aparecerá un menú desplegable al hacer clic en [!UICONTROL Inicio] donde puede elegir el estado deseado.
-1. Haga clic en **[!UICONTROL Guardar cambios]**. Los usuarios ahora ven una [!UICONTROL Iniciar tarea] o [!UICONTROL Iniciar problema] en lugar de [!UICONTROL Trabajar En Él] cuando se les asigna un elemento de trabajo.
+1. Busque la sección de botones **[!UICONTROL Trabajar en ello]** cerca de la parte inferior de la página [!UICONTROL Editar equipos].
+1. Active la casilla de verificación **[!UICONTROL Cambiar el botón Trabajar en ello por un botón Iniciar para actualizar automáticamente el estado de un elemento]**.
+1. Seleccione uno o varios estados para cada tipo de elemento de trabajo. Si selecciona más de un estado, aparecerá un menú desplegable al hacer clic en [!UICONTROL Iniciar], donde podrá elegir el estado que desee.
+1. Haga clic en **[!UICONTROL Guardar cambios]**. Los usuarios ahora ven un botón [!UICONTROL Iniciar tarea] o [!UICONTROL Iniciar problema] en lugar del botón [!UICONTROL Trabajar en ello] cuando se les asigna un elemento de trabajo.
 
    >[!NOTE]
    >
-   >Se recomienda configurar el equipo como el equipo de inicio de un usuario para que aparezca el botón de inicio en todos los elementos de trabajo asignados. Consulte [Asociar usuarios a un equipo de inicio](#associate-users-with-a-home-team) más abajo.
+   >Se recomienda configurar el equipo como el equipo de inicio de un usuario para que aparezca el botón de inicio en todos los elementos de trabajo asignados. Consulte [Asociar usuarios con un equipo de inicio](#associate-users-with-a-home-team) a continuación.
 
 ## Asociar usuarios a un equipo de inicio
 
-Para asociar usuarios con un equipo de inicio:
+Para asociar usuarios a un equipo de inicio:
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
 
-1. Haga clic en **[!UICONTROL Usuarios]** y, a continuación, seleccione el usuario o usuarios que desea asociar a un equipo de inicio.
-1. Haga clic en el **[!UICONTROL Más]** a continuación, seleccione **[!UICONTROL Editar]**.\
+1. Haga clic en **[!UICONTROL Usuarios]** y, a continuación, seleccione el usuario o los usuarios que desee asociar con un equipo de inicio.
+1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. En el **[!UICONTROL Organización]** seleccione **[!UICONTROL Equipo principal]** campo . Empiece a escribir el nombre del equipo cuya configuración desee asociar a los usuarios. Haga clic en el nombre del equipo cuando lo vea en la lista.
+1. En la sección **[!UICONTROL Organización]**, seleccione el campo **[!UICONTROL Equipo de inicio]**. Empiece a escribir el nombre del equipo cuya configuración desea asociar con los usuarios. Haga clic en el nombre del equipo cuando lo vea en la lista.
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.\
-   Los usuarios seleccionados ahora están asociados a un equipo de inicio.
+   Los usuarios que ha seleccionado ahora están asociados a un equipo de inicio.
 
-   Cualquier configuración de equipo, incluidos los estados asociados con la variable [!UICONTROL Listo] ahora son visibles para estos usuarios.
+   Cualquier configuración del equipo, incluidos los estados asociados con el botón [!UICONTROL Listo], ahora es visible para estos usuarios.
 

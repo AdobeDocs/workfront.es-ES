@@ -24,8 +24,8 @@ Puede quitar resultados, actividades y proyectos de los objetivos si ya no son r
 Para obtener información sobre cómo crear metas y agregarles resultados y actividades, consulte los siguientes artículos:
 
 * [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
-* [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Agregar actividades a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Agregar resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Editar resultados y actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Las metas también pueden alinearse con las metas de los padres, convirtiéndose en metas de los hijos. Las metas de los niños también son indicadores de progreso de las metas de los padres.
@@ -69,7 +69,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -81,7 +81,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -105,7 +105,7 @@ Debe tener un objetivo asociado a resultados, actividades o proyectos.
 * Cuando se elimina el resultado o la actividad de una meta, el progreso del resultado eliminado o la actividad afecta al progreso general de la meta.
 * No puede eliminar un proyecto de una meta, pero puede desconectarlo de la meta. Al desconectar el proyecto de la meta, el porcentaje completado del proyecto ya no afecta al progreso de la meta.
 
-  Para obtener información sobre cómo afectan los proyectos al progreso de la meta, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Para obtener información acerca de cómo afectan los proyectos al progreso de las metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * No se puede quitar un resultado o una actividad de una meta ni desconectar una meta secundaria o un proyecto, si son el último indicador de progreso de la meta.
 * Si un proyecto se elimina del área de Proyectos y es el último indicador de progreso de una meta, la meta se vuelve Inactiva.
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    Se abre la página de objetivo.
 
-1. Clic **Indicadores de progreso** en el panel izquierdo.
+1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
 
-1. Seleccione un resultado o una actividad y haga clic en **Eliminar** icono ![](assets/delete-icon.png) al principio de la lista.
+1. Seleccione un resultado o una actividad y, a continuación, haga clic en el icono **Delete** ![](assets/delete-icon.png) en la parte superior de la lista.
 
-1. Clic **Eliminar** para confirmar la eliminación. El resultado o la actividad se elimina y no se puede recuperar. El porcentaje completado de las actualizaciones de objetivos para excluir la actividad o el resultado eliminado.
+1. Haga clic en **Eliminar** para confirmar la eliminación. El resultado o la actividad se elimina y no se puede recuperar. El porcentaje completado de las actualizaciones de objetivos para excluir la actividad o el resultado eliminado.
 
 
 ## Quitar proyectos de metas
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Haga clic en **Menú principal** en la esquina superior derecha y haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** en la esquina superior derecha y luego haga clic en **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. Haga clic en el nombre de una meta de la que desee quitar resultados y actividades.
 
    Se abre la página de objetivo.
-1. Clic **Indicadores de progreso** en el panel izquierdo.
-1. Seleccione un proyecto y haga clic en **Desconectar** icono ![](assets/disconnect-icon.png) al principio de la lista.
-1. Clic **Desconectar** para confirmar.
+1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
+1. Seleccione un proyecto y luego haga clic en el icono **Desconectar** ![](assets/disconnect-icon.png) que se encuentra en la parte superior de la lista.
+1. Haga clic en **Desconectar** para confirmar.
 
    El proyecto ya no está conectado a la meta. El porcentaje completado de las actualizaciones de objetivos para excluir el proyecto desconectado.
 

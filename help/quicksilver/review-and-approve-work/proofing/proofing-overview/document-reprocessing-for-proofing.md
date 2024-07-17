@@ -25,7 +25,7 @@ Todo el texto de la fuente se extrae en su capa siempre que se incluya la extens
 
 >[!NOTE]
 >
->Workfront admite actualmente documentos que contienen hasta 2000 páginas. Esto incluye pruebas combinadas. Para obtener más información, consulte [Creación de una prueba de varias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+>Workfront admite actualmente documentos que contienen hasta 2000 páginas. Esto incluye pruebas combinadas. Para obtener más información, consulte [Crear una revisión de varias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 ## Sugerencias generales
 
@@ -54,4 +54,4 @@ Los archivos enviados siguen algunos o todos los pasos siguientes:
 
 1. **Envío**. Al cargar un documento en el sistema, lo hace mediante la página Nueva prueba o mediante una interfaz de programación de aplicaciones (API). 
 1. **Cola**. Durante períodos de mucho tráfico, es posible que Workfront tenga que poner en cola los envíos para evitar sobrecargar el sistema. La mayoría de las pruebas solo permanecen unos segundos en cola. 
-1. **Procesando.** Los archivos llegan a los equipos de procesamiento según el tipo de contenido. Utilizamos diferentes herramientas para procesar pruebas de vídeo, capturas web, imágenes estáticas y documentos. Los contenedores de medios enriquecidos (ZIP) y los envíos de capturas web interactivas no requieren procesamiento.
+1. **Procesando.** Los archivos llegan a los equipos de procesamiento según el tipo de contenido. Utilizamos diferentes herramientas para procesar pruebas de vídeo, capturas web, imágenes estáticas y documentos. Los contenedores de medios enriquecidos (ZIP) y los envíos de capturas web interactivas no requieren procesamiento.

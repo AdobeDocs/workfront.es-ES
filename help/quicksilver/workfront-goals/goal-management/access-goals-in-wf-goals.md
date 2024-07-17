@@ -55,7 +55,7 @@ Debe tener lo siguiente para realizar las actividades descritas en este artícul
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -71,7 +71,7 @@ Debe tener lo siguiente para realizar las actividades descritas en este artícul
     <div> 
      <p>Ver o permisos superiores a la meta para verla</p> 
      <p>Administrar permisos para el objetivo y editarlo</p> 
-     <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p> 
+     <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
   <tr>
@@ -86,7 +86,7 @@ Debe tener lo siguiente para realizar las actividades descritas en este artícul
 
 ## Acceder a Workfront Goals
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Metas**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -106,9 +106,9 @@ Debe tener lo siguiente para realizar las actividades descritas en este artícul
 
    O
 
-   Clic **Nueva meta** para añadir una nueva meta.
+   Haga clic en **Nueva meta** para agregar una nueva meta.
 
-   Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+   Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 ## Apertura y administración de objetivos individuales
 
@@ -154,13 +154,13 @@ To access an individual goal in the Production environment:
 
 Para acceder a un objetivo individual:
 
-1. Haga clic en **Menú principal** en la esquina superior derecha de Workfront y haga clic en **Metas** .
+1. Haga clic en el icono **Menú principal** en la esquina superior derecha de Workfront y luego haga clic en **Metas** .
 La Lista de objetivos se muestra de forma predeterminada.
    ![](assets/goal-list-unshimmed.png)
 1. Haga clic en el nombre de una meta en la lista.
 Se muestra la página de la meta.
    ![](assets/goal-page-unshimmed.png)
-1. Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre de la meta para editarla o compartirla más.
-1. Clic **Detalles de la meta** en el panel izquierdo para editar información sobre la meta. Para obtener más información, consulte [Actualice las metas en la sección Detalles de las metas de Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
+1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre de la meta para editarla o compartirla.
+1. Haga clic en **Detalles de la meta** en el panel izquierdo para editar la información sobre la meta. Para obtener más información, consulte [Actualizar metas en la sección Detalles de las metas en Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
 
 

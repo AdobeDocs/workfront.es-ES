@@ -38,7 +38,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>  
    <td> 
-   <p>Actual: No [!DNL Workfront Fusion] requisito de licencia.</p> 
+   <p>Actual: no se requiere licencia para [!DNL Workfront Fusion].</p> 
    <p>O</p> 
    <p>Heredado: cualquiera </p> 
    </td>  
@@ -46,9 +46,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">Product</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>[!UICONTROL Seleccionar] o [!UICONTROL Prime] [!DNL Workfront] Plan: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] está incluido.</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
    <p>O</p> 
-   <p>Actual: Su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -58,11 +58,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL media ([matriz de valores]) average(valor1; [value2], ...)]
+## [!UICONTROL average ([matriz de valores]) average(valor1; [valor2], ...)]
 
 Devuelve el valor promedio de los valores numéricos de una matriz específica o el valor promedio de los valores numéricos introducidos individualmente.
 
-## [!UICONTROL ceil (número)]
+## [!UICONTROL techo (número)]
 
 Devuelve el menor entero que sea mayor o igual que un número especificado.
 
@@ -78,7 +78,7 @@ Devuelve el menor entero que sea mayor o igual que un número especificado.
 >
 >   Devuelve 4
 
-## [!UICONTROL floor (número)]
+## [!UICONTROL piso (número)]
 
 Devuelve el mayor entero que sea menor o igual que un número especificado.
 
@@ -106,7 +106,7 @@ Devuelve el número mayor de una matriz especificada o el número mayor entre lo
 
 Devuelve el menor número de una matriz especificada o el menor número entre los números introducidos individualmente.
 
-## [!UICONTROL round (número)]
+## [!UICONTROL ronda (número)]
 
 Redondea un valor numérico al entero más cercano.
 
@@ -138,7 +138,7 @@ Devuelve la suma de los valores de una matriz especificada o la suma de los núm
 
 Analiza una cadena con un número y devuelve el número. Por ejemplo, parseNumber(1 756,456;,)
 
-## [!UICONTROL formatNumber (número; decimalPOINTS; [decimalSeparator]; [milesSeparator])]
+## [!UICONTROL formatNumber (number; decimalPOINTS; [decimalSeparator]; [milesSeparator])]
 
 Devuelve un número en formato solicitado. De forma predeterminada, el punto decimal es una coma (,) y el separador de miles es un punto (.).
 

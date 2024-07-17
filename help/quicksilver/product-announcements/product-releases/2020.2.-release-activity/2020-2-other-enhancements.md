@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las demás mejoras realizadas con la versión 2020.2 en el entorno de producción. Estas mejoras estaban disponibles en el entorno de producción en la semana del 11 de mayo de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.2, consulte [información general sobre la versión 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.2, consulte [Información general sobre la versión 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Para administradores de Workfront: las plantillas de diseño más recientes creadas en Workfront Classic ahora están disponibles en la nueva experiencia de Workfront
 
@@ -55,9 +55,9 @@ Los estados personalizados ahora se pueden utilizar en procesos de aprobación d
 * Cree un proceso de aprobación de un solo uso para un objeto (proyecto, tarea o problema) y baselo en los estados asociados con el grupo que trabaja en ese objeto. Esto incluye cualquier estado personalizado asociado con el grupo.
 * Cree un proceso de aprobación global y haga que esté disponible solo para el grupo o para todos los miembros del sistema.
 
-Para los usuarios con acceso administrativo a los procesos de aprobación, la información sobre la configuración de los procesos de aprobación está disponible en [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o si utiliza Adobe Workfront Classic, consulte [Creación de procesos de aprobación](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Para los usuarios con acceso administrativo a los procesos de aprobación, la información sobre la configuración de los procesos de aprobación está disponible en [Crear un proceso de aprobación para los elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o si utiliza Adobe Workfront Classic, consulte [Creación de procesos de aprobación](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Para los usuarios de, la información sobre la asociación de procesos de aprobación con elementos de trabajo está disponible en [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (o si utiliza Adobe Workfront Classic, consulte [Asociar un proceso de aprobación nuevo o existente con trabajo](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Para los usuarios, la información sobre cómo asociar procesos de aprobación con elementos de trabajo está disponible en [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (o si está usando Adobe Workfront Classic, vea [Asociar un proceso de aprobación nuevo o existente con el trabajo](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
 **Disponible en estos entornos:**
 
@@ -70,7 +70,7 @@ Para permitir que los usuarios naveguen más fácilmente entre las páginas de b
 
 Ahora, al hacer clic en Búsqueda avanzada en el menú Buscar o realizar una búsqueda básica, se abre una página desde la parte derecha de la pantalla.
 
-Para obtener más información, consulte [Buscar Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Para obtener más información, consulte [Buscar en Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 **Disponible en estos entornos:**
 
@@ -84,4 +84,4 @@ Para permitir que los usuarios clasifiquen, resuelvan problemas y resuelvan prob
 * Se ha vuelto a compilar el servicio para que tenga dependencias menos complejas y, por lo tanto, se escale más eficientemente
 * Se han realizado mejoras en la monitorización y las alertas
 
-Para obtener más información, consulte [Preguntas frecuentes - Suscripciones de eventos](../../../wf-api/general/event-subs-faq.md) y [Prácticas recomendadas de suscripción de eventos](../../../wf-api/general/event-sub-best-practice.md).
+Para obtener más información, consulte [Preguntas más frecuentes - Suscripciones de eventos](../../../wf-api/general/event-subs-faq.md) y [Prácticas recomendadas de suscripción de eventos](../../../wf-api/general/event-sub-best-practice.md).

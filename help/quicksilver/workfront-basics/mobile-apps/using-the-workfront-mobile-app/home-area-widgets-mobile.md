@@ -13,16 +13,16 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Inicio] widgets de área
+# Widgets del área [!UICONTROL Inicio]
 
-Los widgets del área de inicio para ambos [!DNL iOS] y [!DNL Android] le ayudará a encontrar sus elementos de trabajo rápidamente.
+Los widgets del área de inicio de [!DNL iOS] y [!DNL Android] le ayudan a encontrar los elementos de trabajo rápidamente.
 
-![Widgets del área de inicio](assets/mobile-home-area-widgets.png)
+![Widgets de área de inicio](assets/mobile-home-area-widgets.png)
 
 **[!UICONTROL Vence hoy]:** Muestra el número de elementos de trabajo que vencen hoy. Seleccione el widget para ver la lista de elementos.
 
-**[!UICONTROL Trabajo semanal]:** Muestra el número de elementos de trabajo que vencen esta semana. Seleccione el widget para ver la lista de elementos.
+**[!UICONTROL Trabajo semanal]:** Muestra el número de elementos de trabajo pendientes esta semana. Seleccione el widget para ver la lista de elementos.
 
-**[!UICONTROL Trabajo tardío]:** Muestra el número de elementos de trabajo que están atrasados (después de la fecha planificada de finalización). Seleccione el widget para ver la lista de elementos.
+**[!UICONTROL Trabajo atrasado]:** Muestra el número de elementos de trabajo que están atrasados (después de la fecha planificada de finalización). Seleccione el widget para ver la lista de elementos.
 
-**[!UICONTROL Menciones]:** Muestra el número de menciones no leídas. Una mención es una notificación en la que se le etiqueta o se le notifica en la [!UICONTROL Actualizaciones] para un objeto en [!DNL Adobe Workfront]. Seleccione el widget para ver la lista de menciones.
+**[!UICONTROL Menciones]:** Muestra el número de menciones no leídas. Una mención es una notificación en la que se le etiqueta o notifica en la ficha [!UICONTROL Actualizaciones] para un objeto de [!DNL Adobe Workfront]. Seleccione el widget para ver la lista de menciones.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las otras mejoras realizadas con la versión 21.3 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción en la semana del 21 de julio de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.3, consulte [Resumen de la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.3, consulte [Información general sobre la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Rediseño del área de inicio para aplicaciones móviles
 
@@ -44,4 +44,4 @@ Los siguientes artículos se actualizarán cuando la aplicación se publique en 
 
 Los filtros de suscripción de evento ahora están habilitados en entornos de vista previa. El filtrado de suscripción de eventos se puede utilizar para garantizar que solo recibe mensajes relevantes. La creación de filtros para sus suscripciones puede disminuir significativamente la cantidad de mensajes que debe consumir su punto final.
 
-Para obtener más información sobre las suscripciones a eventos, consulte [API de suscripción de evento](../../../wf-api/general/event-subs-api.md) y [Preguntas frecuentes - Suscripciones de eventos](../../../wf-api/general/event-subs-faq.md).
+Para obtener más información acerca de las suscripciones a eventos, consulte [API de suscripción a eventos](../../../wf-api/general/event-subs-api.md) y [preguntas frecuentes - Suscripciones a eventos](../../../wf-api/general/event-subs-faq.md).

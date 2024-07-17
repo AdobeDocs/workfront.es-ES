@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: Configurar las preferencias de programación y hoja de horas
-description: As a [!DNL Workfront] administrador, puede definir la semana laboral mediante programaciones y asociar una programación a un usuario o proyecto. Esto permite [!DNL Adobe Workfront] para calcular las escalas de tiempo y la disponibilidad del usuario. También puede configurar las preferencias de horas y hojas de horas.
+description: Como administrador, puede definir su semana laboral mediante horarios y asociar un horario con un usuario o proyecto.  [!DNL Workfront]  Esto permite a [!DNL Adobe Workfront] calcular las escalas de tiempo y la disponibilidad del usuario. También puede configurar las preferencias de horas y hojas de horas.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

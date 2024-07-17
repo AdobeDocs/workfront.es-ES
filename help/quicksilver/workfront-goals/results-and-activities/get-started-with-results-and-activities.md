@@ -33,7 +33,7 @@ Su organización debe tener lo siguiente para utilizar la funcionalidad descrita
 
 Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 
-Cuando se crea una meta, esta tiene el estado Borrador. Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+Cuando se crea una meta, esta tiene el estado Borrador. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 Para empezar a registrar el progreso de una meta, debe activarlo. Para activar la meta y cambiar su estado a Activo, primero debe agregarle lo siguiente:
 
@@ -49,7 +49,7 @@ Después de agregar al menos uno de estos elementos, puede activar la meta. Debe
 >
 > Una meta no puede tener más de un total de 1000 actividades, resultados, proyectos o metas alineadas.</span>
 
-Este artículo ofrece una descripción general de las actividades y los resultados. Para obtener información sobre cómo alinear objetivos, consulte [Alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). Para obtener información sobre cómo conectar proyectos con objetivos, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
+Este artículo ofrece una descripción general de las actividades y los resultados. Para obtener información sobre cómo alinear metas, consulte [Alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). Para obtener información acerca de cómo conectar proyectos con metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Resumen de resultados
 
@@ -59,7 +59,7 @@ Este artículo ofrece una descripción general de las actividades y los resultad
 
 Los resultados miden el progreso de su objetivo o lo cerca que está de alcanzarlo. Como propietario del objetivo, también puede ser el propietario del resultado. Un resultado para su objetivo también puede asignarse a un usuario diferente.
 
-Para obtener información sobre cómo agregar resultados a las metas, consulte [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Para obtener información acerca de cómo agregar resultados a las metas, vea [Agregar resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 Puede agregar resultados a sus propias metas u objetivos que pertenezcan a otras entidades de su organización.
 
@@ -76,7 +76,7 @@ Tenga en cuenta lo siguiente al trabajar con resultados:
    * Número
    * Porcentaje
 
-Para obtener más información sobre los resultados, consulte la lista de similitudes entre los resultados y las actividades en la sección [Similitudes entre resultados, actividades y proyectos](#similarities-between-results-activities-and-projects) en este artículo.
+Para obtener más información acerca de los resultados, vea la lista de similitudes entre los resultados y las actividades en la sección [Similitudes entre los resultados, las actividades y los proyectos](#similarities-between-results-activities-and-projects) de este artículo.
 
 ## Resumen de actividades
 
@@ -86,7 +86,7 @@ This will have additional types in the future - add another section for types?
 
 Las actividades, como los resultados, son específicas y mensurables, y generalmente incluyen un indicador de porcentaje completado. Como propietario del objetivo, también puede ser propietario de las actividades asociadas con el objetivo. También se puede asignar una actividad en su objetivo a un usuario diferente.
 
-Para obtener información sobre cómo agregar actividades a los objetivos, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Para obtener información acerca de cómo agregar actividades a las metas, vea [Agregar actividades a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 Tenga en cuenta lo siguiente al asociar actividades con sus objetivos:
 
@@ -115,15 +115,15 @@ Tenga en cuenta lo siguiente al asociar actividades con sus objetivos:
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-Para obtener más información sobre los resultados y las actividades, consulte la lista de similitudes entre los resultados y las actividades en la sección [Similitudes entre resultados, actividades y proyectos](#similarities-between-results-activities-and-projects) en este artículo.
+Para obtener más información acerca de los resultados y las actividades, vea la lista de similitudes entre los resultados y las actividades en la sección [Similitudes entre los resultados, las actividades y los proyectos](#similarities-between-results-activities-and-projects) de este artículo.
 
 ## Similitudes entre resultados, actividades y proyectos {#similarities-between-results-activities-and-projects}
 
 Los resultados, las actividades y los proyectos son indicadores de progreso de los objetivos.
 
-Hay algunas diferencias entre la forma en que administra los proyectos y la forma en que administra los resultados y las actividades. Para obtener información sobre cómo agregar proyectos a las metas, consulte [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obtener información sobre los proyectos relacionados con los objetivos, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Hay algunas diferencias entre la forma en que administra los proyectos y la forma en que administra los resultados y las actividades. Para obtener información acerca de cómo agregar proyectos a las metas, vea [Agregar actividades a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Para obtener información acerca de los proyectos conectados a las metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-Además de los resultados, las actividades y los proyectos, también puede asociar las metas de los niños a una meta. Las metas para niños también son un tipo de indicador de progreso para una meta. Para obtener más información, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md). El progreso de los indicadores de progreso de la meta para niños también impulsa el progreso de la meta para padres.
+Además de los resultados, las actividades y los proyectos, también puede asociar las metas de los niños a una meta. Las metas para niños también son un tipo de indicador de progreso para una meta. Para obtener más información, consulte [Alinear metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md). El progreso de los indicadores de progreso de la meta para niños también impulsa el progreso de la meta para padres.
 
 La siguiente tabla muestra las similitudes y diferencias entre los resultados, las actividades y los proyectos, como indicadores de objetivo:
 

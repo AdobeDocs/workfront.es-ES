@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Este artículo contiene una lista de las preguntas más frecuentes sobre Adobe Workfront Planning.
 
-Para obtener más información sobre Workfront Planning, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener más información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## ¿Qué es Workfront Planning?
 
@@ -30,15 +30,15 @@ Antes denominado Project Maestro, Workfront Planning es una nueva funcionalidad 
 
 El módulo Workfront Planning es una de las tres funcionalidades de Workfront distintas pero conectadas que, juntas, crean un sistema de registro de marketing. Las tres capacidades son:
 
-* **Planificación**: las nuevas funciones avanzadas incluidas en Workfront Planning.
+* **Planificación**: Las nuevas funciones avanzadas incluidas en Workfront Planning.
 
-* **Flujo de trabajo**: las funciones de administración del trabajo en colaboración que utiliza hoy en día en Workfront (administración de proyectos, administración de recursos, etc.)
+* **Flujo de trabajo**: Las funcionalidades de administración de trabajo en colaboración que utiliza hoy en día en Workfront (administración de proyectos, administración de recursos, etc.)
 
-* **Automatización e integración**: las completas funciones de integración y automatización que ofrece Workfront Fusion.
+* **Automatización e integración**: Las completas capacidades de integración y automatización que ofrece Workfront Fusion.
 
 ## ¿Cuándo se lanzará Workfront Planning?
 
-La última versión de Workfront Planning para disponibilidad general está planificada para el 28 de agosto de 2024. Para obtener información actualizada sobre las funciones que se están lanzando, consulte [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+La última versión de Workfront Planning para disponibilidad general está planificada para el 28 de agosto de 2024. Para obtener información actualizada sobre las características que se están lanzando actualmente, consulte [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 ## ¿Qué sucede después de que finalice la fase inicial de Workfront Planning?
 
@@ -68,7 +68,7 @@ A partir de junio de 2024, los espacios de trabajo no se pueden conectar entre s
 
 ## ¿Hay algún límite flexible o estricto en el número de espacios de trabajo permitidos en una organización?
 
-Puede tener hasta 1000 espacios de trabajo en la instancia de Workfront de su organización. Para obtener más información sobre los límites, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+Puede tener hasta 1000 espacios de trabajo en la instancia de Workfront de su organización. Para obtener más información sobre los límites, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## ¿Pueden estar disponibles los objetos actuales del sistema de Workfront en Planning o debe crearse manualmente?
 
@@ -125,7 +125,7 @@ No durante la fase de acceso anticipado.
 
 ## ¿Tiene un ERD documentado y disponible para compartir para el modelo de Planning y los tipos de registros?
 
-No tenemos un ERD en este momento, pero tenemos documentación detallada que le guiará a través de todos los detalles relacionados con Workfront Planning. Para obtener más información, consulte [Adobe Workfront Planning: índice de artículos](/help/quicksilver/planning/planning-information.md).
+No tenemos un ERD en este momento, pero tenemos documentación detallada que le guiará a través de todos los detalles relacionados con Workfront Planning. Para obtener más información, vea [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md).
 
 ## ¿Cómo está estructurado el precio de Workfront Planning? ¿Se trata de una tarifa anual única? ¿O nos cobran por usuario?
 
@@ -187,7 +187,7 @@ Las vistas se comparten por separado desde los espacios de trabajo. Debe compart
 
 ## ¿Puede personalizar los permisos más allá de la base? Actualmente, con otros objetos de Workfront puede personalizar lo que pueden hacer los permisos de Contribute/Administrar/Ver.
 
-En este momento no. Para obtener información sobre lo que permite cada permiso, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+En este momento no. Para obtener información acerca de lo que permite cada permiso, vea [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Actualmente solo tenemos permisos de nivel de espacio de trabajo y de vista, pero no permisos de nivel de registro o de nivel de registro individual. Los tipos de registro y los registros heredan los permisos del espacio de trabajo al que pertenecen.
 

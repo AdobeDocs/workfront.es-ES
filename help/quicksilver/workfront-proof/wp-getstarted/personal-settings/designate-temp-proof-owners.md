@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
-title: Designación de propietarios temporales de pruebas en [!DNL Workfront Proof]
-description: Si va a estar fuera de la oficina durante un periodo prolongado de tiempo, puede delegar la propiedad de sus pruebas a otro usuario de su cuenta.
+title: Designando propietarios de revisión temporales en  [!DNL Workfront Proof]
+description: Si va a estar fuera de la oficina durante un período de tiempo prolongado, puede delegar la propiedad de las pruebas a otro usuario de la cuenta.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d00636d7-1eb1-4aac-9663-6335e7675836
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Designación de propietarios temporales de pruebas en [!DNL Workfront Proof]
+# Designando propietarios de revisión temporales en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Si va a estar fuera de la oficina durante un periodo prolongado de tiempo, puede delegar la propiedad de sus pruebas a otro usuario de su cuenta.
+Si va a estar fuera de la oficina durante un período de tiempo prolongado, puede delegar la propiedad de las pruebas a otro usuario de la cuenta.
 
 >[!NOTE]
 >
@@ -28,39 +28,39 @@ Si va a estar fuera de la oficina durante un periodo prolongado de tiempo, puede
 
 Para designar la propiedad temporal de las pruebas:
 
-1. Within [!DNL Workfront Proof], vaya a **[!UICONTROL Ajustes personales]**.\
+1. En [!DNL Workfront Proof], vaya a **[!UICONTROL Configuración personal]**.\
    ![personal-settings.png](assets/personal-settings-350x83.png)
 
-1. Haga clic en el **[!UICONTROL Fuera de la oficina]** pestaña . Las opciones disponibles son las siguientes:
+1. Haga clic en la ficha **[!UICONTROL Fuera de la oficina]**. Las configuraciones disponibles son las siguientes:
 
-   * **[!UICONTROL Delegación de pruebas en]** otro usuario de su cuenta.
-   * Habilitar y deshabilitar el **[!UICONTROL Fuera de la oficina]** al marcar o desmarcar la casilla de verificación.
-   * Seleccione el **[!UICONTROL Fecha de inicio]**.
+   * **[!UICONTROL Delega tus pruebas a]** otro usuario en tu cuenta.
+   * Habilite y deshabilite la función **[!UICONTROL Fuera de la oficina]** marcando o desmarcando la casilla de verificación.
+   * Seleccione la **[!UICONTROL fecha de inicio]**.
 
-      Si la variable **[!UICONTROL Iniciar inmediatamente]** , la propiedad de las pruebas se delegará al usuario seleccionado inmediatamente después de activar la función.
+     Si se elige la opción **[!UICONTROL Iniciar inmediatamente]**, la propiedad de las pruebas se delegará al usuario seleccionado inmediatamente después de activar la característica.
 
-      Si se establece una fecha y hora de inicio específicas, la función se activará en el día seleccionado y a la hora elegida.
+     Si se establece una fecha y hora de inicio específicas, la función se activará en el día y la hora seleccionados.
 
-   * Seleccione el **[!UICONTROL Fecha final]**.
+   * Seleccione la **[!UICONTROL fecha de finalización]**.
 
-      Si no se elige ninguna fecha de finalización, la propiedad de las pruebas se delegará hasta que la función se deshabilite manualmente.
+     Si no se elige una fecha de finalización, la propiedad de las pruebas se delega hasta que la función se deshabilite manualmente.
 
-      Si se establecen una fecha y hora de finalización específicas, la función se desactivará el día seleccionado y a la hora elegida.
+     Si se establece una fecha y hora de finalización específicas, la función se desactivará en el día y la hora seleccionados.
 
-      ![opciones fuera de la oficina.png](assets/out-of-office-options-350x234.png)
+     ![opciones-fuera-de-la-oficina.png](assets/out-of-office-options-350x234.png)
 
-1. Cuando se delegan pruebas, el propietario delegado se muestra en el **[!UICONTROL Detalles]** de la página de detalles de la prueba. La nota de la delegación de propiedad aparece en la sección **[!UICONTROL Actividad]** de la página de detalles de la prueba.
+1. Cuando se delegan las pruebas, se muestra el propietario delegado en la sección **[!UICONTROL Detalles]** de la página de detalles de la prueba. La nota de delegación de propiedad aparece en la sección **[!UICONTROL Actividad]** de la página de detalles de la prueba.
 
    ![activity-section-delegate.png](assets/activity-section-delegated-350x318.png)
 
-   Un [!UICONTROL Fuera de la oficina] la notificación también se muestra en la cuenta del propietario de la prueba original durante el tiempo en que se habilita la función. Esto sirve como recordatorio para el propietario original y también les permite finalizar la delegación inmediatamente o ir a [!UICONTROL Ajustes personales] para ajustar esto.
+   También se muestra una notificación [!UICONTROL Fuera de la oficina] en la cuenta del propietario de la revisión original durante el tiempo en que la característica está habilitada. Esto sirve como recordatorio para el propietario original y también les permite finalizar la delegación inmediatamente o ir a [!UICONTROL Configuración personal] para ajustarla.
 
    ![notification-on-account.png](assets/notification-on-account-350x15.png)
 
-   Cuando el propietario original recupera la propiedad de sus pruebas, el propietario delegado desaparece del [!UICONTROL Detalles] de la página de detalles de la prueba y la [!UICONTROL Fuera de la oficina] ya no se muestra en la cuenta del propietario de la prueba original. Aparece una nota que muestra que la propiedad de la prueba se ha revertido en la [!UICONTROL Actividad] de la página de detalles de la prueba.
+   Cuando el propietario original recupera la propiedad de las pruebas, el propietario delegado desaparece de la sección [!UICONTROL Detalles] de la página de detalles de prueba y la notificación [!UICONTROL Fuera de la oficina] ya no se muestra en la cuenta del propietario de la prueba original. Aparece una nota que muestra que la propiedad de la prueba se ha revertido en la sección [!UICONTROL Actividad] de la página de detalles de la prueba.
 
    >[!NOTE]
    >
-   >El propietario delegado permanece en el flujo de trabajo de prueba a menos que los elimine manualmente.
+   >El propietario delegado permanece en el flujo de trabajo de prueba a menos que se eliminen manualmente.
 
-   ![[!UICONTROL activity-section-take-back].png](assets/activity-section-taken-back-350x99.png)
+   ![[!UICONTROL activity-section-taken-back].png](assets/activity-section-taken-back-350x99.png)

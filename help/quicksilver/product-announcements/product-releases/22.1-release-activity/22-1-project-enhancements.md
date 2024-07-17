@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general sobre la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Cambiar la opción predeterminada para las tareas predecesoras al copiar o mover tareas
 
@@ -49,7 +49,7 @@ Las páginas con la barra de herramientas actualizada son:
 * Lista Mis paneles
 * Lista de paneles compartidos
 
-Para obtener más información, consulte [Creación y administración de paneles](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+Para obtener más información, consulte [Crear y administrar paneles](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
 
 ## Agregar y editar formularios personalizados Panel de resumen para documentos
 
@@ -59,7 +59,7 @@ Con este cambio, también verá una nueva apariencia en el documento Resumen. Ha
 
 Anteriormente, había que ir a la pestaña de formularios personalizados en Detalles del documento para realizar ediciones o agregar formularios personalizados.
 
-Para obtener más información, consulte [Resumen de la información general sobre documentos](../../../documents/managing-documents/summary-for-documents.md).
+Para obtener más información, consulte [Resumen de documentos](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Nueva experiencia al copiar una o varias tareas
 
@@ -71,7 +71,7 @@ Algunas de las mejoras incluyen:
 * Workfront comprueba si tiene acceso al proyecto de destino inmediatamente después de elegir el proyecto. Antes de esta mejora, se mostraba un mensaje de advertencia que indicaba que no tenía el acceso correcto después de confirmar la copia, lo que provocaba pasos adicionales y que no se permitía la copia.
 * Capacidad para solicitar acceso a un proyecto en el que desea copiar la tarea sin salir del cuadro Copiar tarea.
 
-Para obtener más información, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Para obtener más información, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 ## Nueva experiencia al mover una o varias tareas de una lista
 
@@ -95,7 +95,7 @@ Para obtener más información, consulte [Mover tareas](../../../manage-work/tas
 
 >[!NOTE]
 >
->Esta función se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes. (Para obtener las últimas actualizaciones sobre el estado de esta función de lanzamiento en producción, consulte [Información general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Esta función se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes. (Para obtener las últimas actualizaciones sobre el estado de esta característica que se lanza a producción, consulte [Descripción general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)).
 
 Para que su uso de Workfront sea coherente con la nueva experiencia de Workfront, hemos rediseñado la interfaz para convertir un problema en un proyecto al utilizarlo cuando lo convierte desde la página de problemas.
 
@@ -103,19 +103,19 @@ Ahora puede acceder más fácilmente a su lista de favoritos inmediatamente desp
 
 La interfaz rediseñada coincide con la experiencia al crear un proyecto a partir de una plantilla que también hemos actualizado recientemente.
 
-Para obtener más información, consulte [Conversión de un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Convertir problemas en proyectos mediante una plantilla de listas, informes y paneles
 
 >[!NOTE]
 >
->Esta función se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes. (Para obtener las últimas actualizaciones sobre el estado de esta función de lanzamiento en producción, consulte [Información general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Esta función se eliminó temporalmente del entorno de producción el 4 de marzo de 2022. Más tarde se publicó en una implementación por fases a partir del 28 de abril de 2022. El despliegue se completó el 5 de mayo de 2022. Ahora está disponible en Previsualización y Producción para todos los clientes. (Para obtener las últimas actualizaciones sobre el estado de esta característica que se lanza a producción, consulte [Descripción general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)).
 
 Para aumentar la eficacia de su trabajo y facilitar la conversión de problemas en un entorno acelerado, hemos añadido la capacidad de convertir un problema en un proyecto mediante una plantilla de una lista, un informe o un panel.
 
 Antes de esta mejora, esta funcionalidad solo existía cuando convertía el problema desde la página de problemas.
 
-Para obtener más información, consulte [Conversión de un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## La lista Filtrar por usuario en los paneles Agile muestra primero los usuarios con la mayoría de las asignaciones
 
@@ -138,11 +138,11 @@ A veces, las personas agregan documentos a una plantilla de proyecto pensando qu
 
 Para obtener instrucciones sobre cómo compartir una plantilla, consulte [Compartir plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-Para obtener información sobre la nueva configuración avanzada Agregar documentos, consulte la sección del artículo [Uso compartido de una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+Para obtener información acerca de la nueva configuración avanzada Agregar documentos, vea la sección en el artículo [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 ## Compartir una carpeta de documentos
 
 Ahora puede compartir una carpeta de documentos y su contenido desde el área Documentos. Anteriormente, esto no era posible; tenía que compartir cada documento en una carpeta por separado.
 
-Para obtener más información, consulte [Compartir una carpeta de documentos](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Para obtener más información, vea [Compartir una carpeta de documentos](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 

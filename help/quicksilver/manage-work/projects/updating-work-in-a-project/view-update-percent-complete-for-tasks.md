@@ -57,9 +57,9 @@ Debe tener el siguiente acceso para actualizar las tareas manualmente:
 Puede actualizar el porcentaje completado de una tarea en cualquiera de las siguientes áreas:
 
 * **En una lista de tareas**: puede actualizar el porcentaje completado de una tarea cuando se muestre la columna Porcentaje completado.\
-  Para obtener más información sobre la edición en línea, consulte [Edición en línea de elementos en una lista en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+  Para obtener más información acerca de la edición en línea, vea [Editar elementos en línea en una lista de Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **En la vista Hito**: puede actualizar el porcentaje completado de una tarea al utilizar la vista de Hito en una lista de proyectos o un informe de proyecto. Para obtener más información, consulte [Uso de la vista de Hito](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **En la vista Hito**: puede actualizar el porcentaje completado de una tarea al usar la vista Hito en una lista de proyectos o un informe de proyectos. Para obtener más información, vea [Usar la vista de Hito](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 <!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
@@ -72,11 +72,11 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
-* **En el encabezado de la tarea**: puede actualizar el porcentaje completado de una tarea en el encabezado de la tarea. Para obtener más información, consulte [Editar tareas](../../tasks/manage-tasks/edit-tasks.md).
+* **En el encabezado de tarea**: puede actualizar el porcentaje completado de una tarea en el encabezado de tarea. Para obtener más información, consulte [Editar tareas](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **En el panel Resumen de una tarea**: puede actualizar el porcentaje completado de una tarea en la parte superior del Panel de resumen al ver la tarea en las siguientes áreas:
+* **En el panel de resumen de una tarea**: puede actualizar el porcentaje completado de una tarea en la parte superior del panel de resumen al ver la tarea en las siguientes áreas:
 
    * Lista de tareas o informe
    * Hoja de horas
@@ -84,11 +84,11 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  Para obtener más información, consulte [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  Para obtener más información, consulte [Resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
-* **Inicio**: puede actualizar el porcentaje completado de una tarea o un problema desde el Panel de resumen en el área de Inicio o desde el widget Mi trabajo.
+* **Inicio**: puede actualizar el porcentaje completado de una tarea o problema desde el Panel de resumen en el área de Inicio o desde el widget Mi trabajo.
 
-Para obtener más información, consulte  [Introducción al nuevo Inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener más información, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Consideraciones acerca de la actualización del porcentaje completado de una tarea
 
@@ -106,18 +106,18 @@ Para obtener más información, consulte  [Introducción al nuevo Inicio](/help/
    * Una lista de tareas
    * Una lista de proyectos y aplicar la vista de Hito
    * Una tarea, accediendo a la página de tareas
-1. Busque el **Porcentaje completado** para la tarea cuyo porcentaje completado desee actualizar.
+1. Busque el campo **Porcentaje completado** para la tarea cuyo porcentaje completado desee actualizar.
 
    >[!TIP]
    >
    >  El campo Porcentaje completado siempre se muestra en la parte superior del panel Resumen.
 
 
-1. Haga clic dentro de **Porcentaje completado** y escriba un número entre 0 y 100
+1. Haga clic dentro del campo **Porcentaje completado** y escriba un número entre 0 y 100
 
    O
 
-   Haga clic en y arrastre **Porcentaje completado** barra hasta el número necesario para indicar la cantidad de la tarea que ha completado, cuando está disponible.
+   Haga clic en la barra **Porcentaje completado** y arrástrela hasta el número necesario para indicar la cantidad de la tarea que ha completado, cuando esté disponible.
 
    >[!NOTE]
    >

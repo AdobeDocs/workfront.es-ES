@@ -18,8 +18,8 @@ ht-degree: 0%
 Esta sección contiene los siguientes artículos:
 
 * [Enumerar usuarios con una licencia de revisión en Adobe Workfront](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
-* [Edite el campo Perfil de permiso de prueba en lote](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
-* [Deshabilitar el uso compartido de la revisión mediante una URL pública o código para insertar](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
+* [Editar el campo Perfil de permiso de revisión en lote](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
+* [Deshabilitar el uso compartido de la revisión a través de una URL pública o código para insertar](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [Preguntas más frecuentes: revisión en la migración de Adobe Workfront a EMEA.](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [El nombre del documento cambió después de la carga y contiene un carácter no válido](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [Probar un PowerPoint con un vídeo incrustado](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)

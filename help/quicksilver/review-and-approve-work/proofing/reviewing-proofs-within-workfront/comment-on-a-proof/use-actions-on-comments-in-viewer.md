@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Usar acciones en comentarios de prueba
-description: Puede utilizar acciones para realizar un seguimiento de lo que debe suceder en cada subproceso de comentario de una prueba. Una acción es una palabra o frase como "Para hacer", "Listo" o "En curso" que el administrador de Adobe Workfront configura en el sistema de su organización. Los revisores pueden agregar una acción a un comentario para proporcionar información sobre lo que se ha hecho o lo que queda por hacer en respuesta al comentario.
+title: Uso de acciones en comentarios de prueba
+description: Puede utilizar acciones para realizar un seguimiento de lo que debe suceder en cada hilo de comentarios de una prueba. Una acción es una palabra o frase como "Por hacer", "Listo" o "En curso" que el administrador de Adobe Workfront configura en el sistema para su organización. Los revisores pueden agregar una acción a un comentario para proporcionar información sobre lo que se ha hecho o lo que aún debe hacerse en respuesta al comentario.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
 
-# Usar acciones en comentarios de prueba
+# Uso de acciones en comentarios de prueba
 
-Puede utilizar acciones para realizar un seguimiento de lo que debe suceder en cada subproceso de comentario de una prueba. Una acción es una palabra o frase como &quot;Para hacer&quot;, &quot;Listo&quot; o &quot;En curso&quot; que el administrador de Adobe Workfront configura en el sistema de su organización. Los revisores pueden agregar una acción a un comentario para proporcionar información sobre lo que se ha hecho o lo que queda por hacer en respuesta al comentario.
+Puede utilizar acciones para realizar un seguimiento de lo que debe suceder en cada hilo de comentarios de una prueba. Una acción es una palabra o frase como &quot;Por hacer&quot;, &quot;Listo&quot; o &quot;En curso&quot; que el administrador de Adobe Workfront configura en el sistema para su organización. Los revisores pueden agregar una acción a un comentario para proporcionar información sobre lo que se ha hecho o lo que aún debe hacerse en respuesta al comentario.
 
-Para obtener información sobre cómo el administrador de Workfront habilita y configura las acciones, consulte .
+Para obtener información sobre cómo el administrador de Workfront habilita y configura acciones, consulte .
 
 ## Requisitos de acceso
 
@@ -28,16 +28,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o plan</p> <p>Plan heredado: Cualquiera (debe tener las pruebas habilitadas para el usuario)</p> </td> 
+   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Administrador o superior</td> 
+   <td>Responsable o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Función de prueba</td> 
@@ -45,36 +45,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con el administrador de Workfront o Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
-## Usar acciones en comentarios
+## Uso de acciones en comentarios
 
 Para aplicar una acción a un comentario existente en el visor de pruebas:
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir prueba**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el icono del indicador en la esquina inferior derecha del comentario y, a continuación, haga clic en la acción que desee en el menú desplegable.
+   * Haga clic en el icono de marca en la esquina inferior derecha del comentario y, a continuación, haga clic en la acción que desee en el menú desplegable.
 
-      ![](assets/actions-flag-icon-350x198.png)
+     ![](assets/actions-flag-icon-350x198.png)
 
-   * Haga clic en el **Más** (tres puntos horizontales en el comentario) y, a continuación, haga clic en la acción que desee en la sección inferior del menú desplegable que aparece.
+   * Haga clic en el icono **Más** (tres puntos horizontales en el comentario) y, a continuación, haga clic en la acción que desee en la sección inferior del menú desplegable que aparece.
 
-      ![Actions_on_components-More_menu.png](assets/actions-on-coments-more-menu-350x347.png)
+     ![Acciones_en_comentarios-Menú_Más.png](assets/actions-on-coments-more-menu-350x347.png)
 
-1. (Opcional) Si cambia de opinión, puede realizar una de las siguientes acciones:
+1. (Opcional) Si cambia de opinión, puede hacer una de las siguientes acciones:
 
-   * Haga clic en el icono de la marca o en el **Más** de nuevo, haga clic en **Quitar acción**.
+   * Vuelva a hacer clic en el icono de marca o en el icono **Más** y, a continuación, haga clic en **Eliminar acción**.
 
    * Repita el paso 1 para aplicar una acción diferente.
 
 >[!TIP]
 >
->Puede filtrar los comentarios según una determinada acción. Para obtener más información, consulte [Buscar, filtrar y ordenar comentarios de prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).
+>Puede filtrar los comentarios por una acción determinada. Para obtener más información, consulte [Buscar, filtrar y ordenar comentarios de revisión](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).

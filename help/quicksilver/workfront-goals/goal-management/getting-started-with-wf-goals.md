@@ -32,7 +32,7 @@ Su organización debe tener lo siguiente para utilizar la funcionalidad descrita
 
 Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 
-Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cada organización necesita establecer y comunicar objetivos claros para mantener a sus equipos productivos, centrados y comprometidos. Saber realmente cómo el trabajo está alineado con la estrategia es clave para el éxito. Sin embargo, sin un sistema de registro que conecte su estrategia y objetivos con el trabajo en la organización, lograr la alineación puede ser realmente difícil.
 
@@ -40,7 +40,7 @@ Workfront Goals le ayuda a definir, comunicar y lograr resultados estratégicos 
 
 Workfront Goals es un módulo complementario para la plataforma principal de administración del trabajo de Workfront. Está diseñado para funcionar junto con Workfront Platform y aprovecha muchas de las entidades de configuración y configuración de la plataforma, como usuarios, equipos, grupos y proyectos.
 
-Para obtener información sobre los objetivos de Workfront, consulte [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md).
+Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Establezca una visión y una estrategia para su organización
 
@@ -118,7 +118,7 @@ Haga lo siguiente:
   Para obtener información sobre cómo activar, añadir actividades y actualizar objetivos, consulte los siguientes artículos:
 
    * [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md)
-   * [Añadir actividades a objetivos en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Agregar actividades a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Directrices para configurar Workfront Goals
@@ -134,11 +134,11 @@ Siga estas directrices para asegurarse de que está correctamente configurado pa
 >
 >Al identificar a los propietarios principales, tenga en cuenta que está estableciendo objetivos estratégicos para los resultados empresariales y no objetivos de desarrollo personal.
 
-Para obtener información sobre la configuración del acceso a Workfront Goals, consulte [Requisitos para utilizar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obtener información sobre cómo configurar el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Objetos Workfront Goals
 
-En la tabla siguiente se describen los objetos Workfront Goals. Puede personalizar su nombre modificando una plantilla de diseño y asignándola a usuarios, equipos o grupos. Para obtener información sobre cómo personalizar nombres de objetos mediante una plantilla de diseño, consulte [Personalización de la terminología de la interfaz de usuario mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+En la tabla siguiente se describen los objetos Workfront Goals. Puede personalizar su nombre modificando una plantilla de diseño y asignándola a usuarios, equipos o grupos. Para obtener información acerca de cómo personalizar nombres de objetos mediante una plantilla de diseño, vea [Personalizar la terminología de la interfaz de usuario mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Workfront Goals usa los siguientes objetos principales:
 

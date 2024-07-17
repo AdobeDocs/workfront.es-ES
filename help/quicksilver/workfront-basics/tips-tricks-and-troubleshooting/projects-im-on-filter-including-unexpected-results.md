@@ -28,7 +28,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licencia</strong></td> 
+   <td role="rowheader"><strong>Licencia de Adobe [!DNL Workfront]</strong></td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
@@ -40,16 +40,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Problema
 
-El [!UICONTROL **Proyectos en los que trabajo**] El filtro incluye resultados que no esperaba, ya que no estoy asignado o asociado a esos proyectos.
+El filtro [!UICONTROL **Proyectos en los que participo**] incluye resultados que no esperaría, ya que no estoy asignado o asociado con esos proyectos.
 
 ## Solución
 
-El [!UICONTROL **Proyectos en los que trabajo**] el filtro incluye proyectos que contienen el usuario en cualquiera de sus [!UICONTROL **Detalles del proyecto**] campos, incluidos los campos que se pasan por alto fácilmente o que se rellenan automáticamente, como [!UICONTROL **Ingresado por**] o [!UICONTROL **Identificador de patrocinador**]. Para eliminar los resultados no deseados, existen dos soluciones posibles:
+El filtro [!UICONTROL **Proyectos en los que participo**] incluye proyectos que contienen al usuario en cualquiera de sus campos [!UICONTROL **Detalles del proyecto**], incluidos los campos que se pueden perder fácilmente o que se rellenan automáticamente, como [!UICONTROL **Ingresado por**] o [!UICONTROL **Identificador de patrocinador**]. Para eliminar los resultados no deseados, existen dos soluciones posibles:
 
-1. Compruebe la [!UICONTROL **Detalles del proyecto**] para cada proyecto inesperado incluido por el filtro y elimine su nombre de todos los campos.
+1. Compruebe [!UICONTROL **Detalles del proyecto**] para cada proyecto inesperado incluido por el filtro y quite el nombre de todos los campos.
 
    O
 
-1. Intente utilizar un filtro similar, como [!UICONTROL **Proyectos de mi propiedad**], que solo incluye proyectos que se le han asignado específicamente.
+1. Intente usar un filtro similar, como [!UICONTROL **Proyectos de mi propiedad**], que solo incluye los proyectos que se le hayan asignado específicamente.
 
-Para obtener más información sobre el uso de filtros en [!DNL Workfront], consulte [Resumen de filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obtener más información sobre el uso de filtros en [!DNL Workfront], vea [Información general sobre filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

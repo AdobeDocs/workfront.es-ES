@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Estructuras de datos en [!DNL Adobe Workfront Fusion]
+title: Estructuras de datos en  [!DNL Adobe Workfront Fusion]
 description: Una estructura de datos es un documento que describe en detalle el formato de los datos que se transfieren a Adobe Workfront Fusion. En función de este documento, el editor de escenarios es capaz de averiguar qué módulo devuelve o recibe qué tipo de datos. Los documentos de estructura de datos se utilizan principalmente para serializar y analizar formatos de datos como JSON, XML, CSV y otros.
 author: Becky
 feature: Workfront Fusion
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Estructuras de datos en [!DNL Adobe Workfront Fusion]
 
-Una estructura de datos es un documento que describe en detalle el formato de los datos que se transfieren a [!DNL Adobe Workfront Fusion]. En función de este documento, el editor de escenarios es capaz de averiguar qué módulo devuelve o recibe qué tipo de datos. Los documentos de estructura de datos se utilizan principalmente para serializar y analizar formatos de datos como JSON, XML, CSV y otros.
+Una estructura de datos es un documento que describe en detalle el formato de los datos que se están transfiriendo a [!DNL Adobe Workfront Fusion]. En función de este documento, el editor de escenarios es capaz de averiguar qué módulo devuelve o recibe qué tipo de datos. Los documentos de estructura de datos se utilizan principalmente para serializar y analizar formatos de datos como JSON, XML, CSV y otros.
 
-Para crear una estructura de datos, haga clic en [!UICONTROL Crear una nueva estructura de datos] botón en el [!UICONTROL Resumen de estructura de datos] o en la configuración del módulo que requiera la especificación de la estructura de datos.
+Puede crear una estructura de datos haciendo clic en el botón [!UICONTROL Crear una nueva estructura de datos] de la sección [!UICONTROL Descripción general de la estructura de datos] o en la configuración del módulo que requiera la especificación de la estructura de datos.
 
-Los tipos de datos admitidos se describen en la sección [[!UICONTROL Tipos de módulos]](../../workfront-fusion/modules/module-types.md) artículo.
+Los tipos de datos admitidos se describen en el artículo [[!UICONTROL Tipos de módulos]](../../workfront-fusion/modules/module-types.md).
 
 ## Requisitos de acceso
 
@@ -42,23 +42,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 

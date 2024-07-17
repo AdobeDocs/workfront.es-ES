@@ -2,24 +2,24 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Incrustar una cola de solicitudes en un panel
-description: Puede incrustar una nueva cola de solicitudes en un tablero para proporcionar acceso directo a la cola de solicitudes a los usuarios, sin tener que ir al área Solicitudes .
+description: Puede incrustar una nueva cola de solicitudes en un panel para proporcionar acceso directo a la cola a los usuarios, sin tener que ir al área de Solicitudes.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
 
 # Incrustar una cola de solicitudes en un panel
 
-Puede incrustar una nueva cola de solicitudes en un tablero para proporcionar acceso directo a la cola de solicitudes a los usuarios, sin tener que ir al área Solicitudes . 
+Puede incrustar una nueva cola de solicitudes en un panel para proporcionar acceso directo a la cola a los usuarios, sin tener que ir al área de Solicitudes. 
 
-Por ejemplo, si tiene una cola de solicitud abierta a toda la organización, como una cola de asistencia técnica o una cola de solicitud de pago a la que todos deben acceder con regularidad, puede que sea conveniente insertar la cola de solicitudes directamente en uno de sus paneles para acceder fácil y rápidamente a ella. El proceso de configuración es similar al de creación de una página externa en un tablero.
+Por ejemplo, si tiene una cola de solicitudes abierta a toda la organización, como una cola del servicio de asistencia o una cola de solicitudes de PTO a la que todos deben tener acceso de forma regular, puede que sea conveniente insertar la cola de solicitudes directamente en uno de sus paneles para tener un acceso rápido y sencillo. El proceso de configuración es similar a la creación de una página externa en un panel.
 
-En primer lugar, debe obtener una URL a la cola de solicitudes. En segundo lugar, puede incrustar la dirección URL en un panel agregando una página externa.
+En primer lugar, debe obtener una dirección URL a la cola de solicitudes. En segundo lugar, puede incrustar la dirección URL en un panel añadiendo una página externa.
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plan Adobe Workfront*</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -39,11 +39,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administrar permisos en el tablero</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en el tablero</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,48 +52,48 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Para poder incrustar una cola de solicitudes en un tablero, se deben crear las dos opciones siguientes:
+Para poder incrustar una cola de solicitudes en un panel, se deben crear los dos elementos siguientes:
 
-* **El tablero**: Para obtener información sobre la creación de tableros, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-* **La cola de solicitudes**: Para obtener información sobre la creación de colas de solicitud, consulte [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* **El tablero**: Para obtener información sobre cómo crear tableros, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+* **La cola de solicitudes**: Para obtener información sobre cómo crear colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Obtener la dirección URL de la cola de solicitudes {#obtain-the-url-of-the-request-queue}
 
-Puede obtener la dirección URL de una cola de solicitudes de varias formas, dependiendo de la parte de la cola de solicitudes que desee exponer a los usuarios cuando accedan a ella desde un panel.
+Puede obtener la dirección URL de una cola de solicitudes de varias formas, en función de qué parte de la cola desee exponer a los usuarios cuando accedan a ella desde un panel.
 
-* [Obtener un vínculo a un tema de cola específico con la capacidad de cambiar el tipo de solicitud](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
-* [Obtener un vínculo a una cola de solicitud y la capacidad de cambiar el tipo de solicitud](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
-* [Obtener un vínculo a una cola de solicitud sin capacidad para cambiar el tipo de solicitud](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
+* [Obtener un vínculo a un tema específico de la cola con capacidad para cambiar el tipo de solicitud](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+* [Obtener un vínculo a una cola de solicitudes y poder cambiar el tipo de solicitud](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+* [Obtener un vínculo a una cola de solicitudes sin poder cambiar el tipo de solicitud](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
-### Obtener un vínculo a un tema de cola específico con la capacidad de cambiar el tipo de solicitud {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
+### Obtener un vínculo a un tema específico de la cola con capacidad para cambiar el tipo de solicitud {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
 
-Cuando comparte un vínculo a un tema de cola específico con otros usuarios, el formulario de solicitud se abre con el tema de cola exacto que necesitan utilizar para enviar la solicitud. Esto es útil cuando los usuarios podrían no estar seguros de qué tema de cola elegir al registrar solicitudes para una cola de solicitudes específica.
+Cuando comparte un vínculo a un tema específico de la cola con otros usuarios, el formulario de solicitud se abre en el tema exacto de la cola que necesitan utilizar para enviar la solicitud. Esto resulta útil cuando los usuarios pueden no estar seguros de qué tema de la cola elegir al registrar solicitudes para una cola de solicitudes específica.
 
-Los usuarios pueden cambiar el tipo de solicitud o elegir otro tema si lo necesitan. También se muestra la navegación del área Solicitudes .
+Los usuarios pueden cambiar el tipo de solicitud o elegir otro tema si lo necesitan. También se muestra la navegación en el área Solicitudes.
 
-1. Haga clic en el **Menú principal** > **Solicitudes** > **Nueva solicitud**.
-1. Siga seleccionando grupos de temas y temas de cola hasta que llegue a la cola que desee compartir en el tablero, si desea compartir una cola específica. Para obtener información sobre el envío de solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Haga clic en **Menú principal** > **Solicitudes** > **Nueva solicitud**.
+1. Continúe seleccionando grupos de temas y temas de colas hasta que llegue a la cola que desea compartir en el panel, si desea compartir una cola específica. Para obtener información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
    >
-   >La selección de grupos de temas y de temas de cola es opcional.
+   >La selección de grupos de temas y temas de colas es opcional.
 
-1. Haga clic en **Compartir ruta** en la esquina superior derecha del área Nueva solicitud .
+1. Haga clic en **Compartir ruta** en la esquina superior derecha del área Nueva solicitud.
 
-   Esto copia el vínculo a la cola de solicitudes o el tema de la cola mientras lo muestra en la pantalla. Los usuarios pueden actualizar el tipo de solicitud o cualquiera de los grupos de temas y los temas de cola disponibles.
+   Esto copia el vínculo a la cola de solicitudes o al tema de la cola a medida que se muestra en la pantalla. Los usuarios pueden actualizar el tipo de solicitud o cualquiera de los grupos de temas y los temas de colas disponibles.
 
    ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
-### Obtener un vínculo a una cola de solicitud y la capacidad de cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
+### Obtener un vínculo a una cola de solicitudes y poder cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
-Cuando comparte un vínculo a un tipo de solicitud, se selecciona el tipo de solicitud para el usuario. Esto es útil cuando los usuarios necesitan elegir entre varios grupos de temas o temas de cola para el mismo tipo de solicitud. Los usuarios pueden cambiar el tipo de solicitud y elegir otra. También se muestra la navegación del área Solicitudes .
+Cuando comparte un vínculo a un tipo de solicitud, se selecciona el tipo de solicitud para el usuario. Esto resulta útil cuando los usuarios necesitan elegir entre varios grupos de temas o temas en cola para el mismo tipo de solicitud. Los usuarios pueden cambiar el tipo de solicitud y elegir otro. También se muestra la navegación en el área Solicitudes.
 
-1. Vaya a un proyecto designado como cola de solicitud.
+1. Vaya a un proyecto designado como cola de solicitudes.
 
-   Para obtener información sobre la creación de una cola de solicitudes desde un proyecto, vaya a [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obtener información acerca de cómo crear una cola de solicitudes a partir de un proyecto, vaya a [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Vaya a **Detalles de cola**.
-1. Copie el código que encuentra en la **Dirección URL de acceso directo** campo .
+1. Ir a **Detalles de cola**.
+1. Copie el código que encuentre en el campo **URL de acceso directo**.
 
    El código debe tener un aspecto similar al siguiente:
 
@@ -101,32 +101,32 @@ Cuando comparte un vínculo a un tipo de solicitud, se selecciona el tipo de sol
 
    Este es el vínculo a la cola de solicitudes asociada al proyecto seleccionado. El tipo de solicitud está preseleccionado.
 
-   Los usuarios pueden seleccionar cualquier grupo de temas o tema de cola que necesiten, o pueden elegir otro tipo de solicitud.
+   Los usuarios pueden seleccionar cualquier grupo de temas o tema de cola que necesiten, o bien elegir otro tipo de solicitud.
 
    ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
-### Obtener un vínculo a una cola de solicitud sin capacidad para cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
+### Obtener un vínculo a una cola de solicitudes sin poder cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
-Cuando comparte un vínculo a un tipo de solicitud preseleccionado, el tipo de solicitud se selecciona para el usuario y no se puede cambiar (está atenuado). Los usuarios pueden elegir los grupos de temas o los temas de cola que necesiten. Esto es útil cuando no desea que los usuarios vean y seleccionen otros tipos de solicitud. La navegación del área Solicitudes no se muestra.
+Cuando comparte un vínculo a un tipo de solicitud preseleccionado, el tipo de solicitud se selecciona para el usuario y no se puede cambiar (está atenuado). Los usuarios pueden elegir los grupos de temas o los temas de cola que necesiten. Esto resulta útil cuando no desea que los usuarios vean y seleccionen otros tipos de solicitud. No aparece la navegación en el área de Solicitudes.
 
-1. Vaya a un proyecto designado como cola de solicitud.
+1. Vaya a un proyecto designado como cola de solicitudes.
 
-   Para obtener información sobre la creación de una cola de solicitudes desde un proyecto, vaya a [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obtener información acerca de cómo crear una cola de solicitudes a partir de un proyecto, vaya a [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Vaya a **Detalles de cola**.
-1. Copie el código que encuentra en la **Código incrustado** campo .
+1. Ir a **Detalles de cola**.
+1. Copie el código que encuentre en el campo **Código incrustado**.
 
    El código debe tener un aspecto similar al siguiente:
 
    `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
-1. Edite el código para conservar solo la información siguiente:
+1. Edite el código para conservar solo la siguiente información:
 
    `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >Puede añadir un `<samp>iframe </samp>` al incrustar el código en una aplicación que no sea Workfront.
+   >Puede agregar una etiqueta `<samp>iframe </samp>` al incrustar el código en una aplicación que no sea Workfront.
 
    Este es el vínculo a la cola de solicitudes asociada al proyecto seleccionado. El tipo de solicitud está preseleccionado y no se puede cambiar.
 
@@ -136,23 +136,23 @@ Cuando comparte un vínculo a un tipo de solicitud preseleccionado, el tipo de s
 
 ## Incrustar una cola de solicitudes en un panel
 
-Puede incrustar un vínculo a la cola de solicitudes o a un tema de cola anidado en una cola de solicitudes en un tablero para que los usuarios tengan acceso directo a la introducción de solicitudes.
+Puede incrustar un vínculo a la cola de solicitudes o a un tema de la cola anidado en una cola de solicitudes en un panel para proporcionar a los usuarios acceso directo a la introducción de solicitudes.
 
-1. Obtenga una URL de cola de solicitud mediante uno de los métodos descritos en la sección [Obtener la dirección URL de la cola de solicitudes](#obtain-the-url-of-the-request-queue) de este artículo.
-1. Haga clic en el **Menú principal** > **Tableros** > **Nuevo tablero**.
-1. Tipo a **Nombre** para el tablero. Este campo es obligatorio.
+1. Obtenga una URL de cola de solicitudes mediante uno de los métodos descritos en la sección [Obtener la URL de la cola de solicitudes](#obtain-the-url-of-the-request-queue) de este artículo.
+1. Haga clic en **Menú principal** > **Paneles** > **Nuevo panel**.
+1. Escriba un **Nombre** para el tablero. Este campo es obligatorio.
 1. Haga clic en **Agregar página externa**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
 
-1. En el **Agregar página externa** , edite los campos siguientes:
+1. En el cuadro **Agregar página externa**, edite los campos siguientes:
 
-   * **Nombre**: introduzca el nombre de la cola de solicitudes tal como desea que aparezca en el panel. Este campo es obligatorio.
+   * **Nombre**: escriba el nombre de la cola de solicitudes tal como desea que aparezca en el panel. Este campo es obligatorio.
 
-   * **Descripción**: introduzca una descripción sobre la visualización de esta página externa. Este campo no es obligatorio y solo es importante para la generación de informes. No se muestra en el tablero.
-   * **URL**: pegue la dirección URL que obtuvo mediante uno de los métodos descritos en el paso 1.
+   * **Descripción**: escriba una descripción sobre la página externa que se muestra. Este no es un campo obligatorio y solo es importante para fines de creación de informes. No se muestra en el panel.
+   * **URL**: pegue la URL que obtuvo mediante uno de los métodos descritos en el paso 1.
 
-      <!--   
+     <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      <MadCap:conditionalText data-mc-conditions="">   
      (NOTE: ensure this stays accurate)   
@@ -160,7 +160,7 @@ Puede incrustar un vínculo a la cola de solicitudes o a un tema de cola anidado
      </MadCap:conditionalText>   
      -->
 
-   * **Altura**: introduzca la altura de la página externa. Esto define cuánto espacio ocupa la página externa que contiene la cola de solicitudes en el panel. Se trata de un campo obligatorio y el valor predeterminado es 500.
+   * **Altura**: introduzca la altura de la página externa. Define la cantidad de espacio que ocupa la página externa que contiene la cola de solicitudes en el panel. Este campo es obligatorio y el valor predeterminado es 500.
 
 1. Haga clic en **Guardar**.
 1. Haga clic en **Guardar + Cerrar**. 
@@ -169,8 +169,8 @@ Puede incrustar un vínculo a la cola de solicitudes o a un tema de cola anidado
 
    ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
 
-1. (Opcional) Haga clic en **Acciones del panel**, luego **Editar** para agregar informes, calendarios o páginas externas adicionales al mismo tablero.\
-   Para obtener información sobre cómo agregar componentes a un tablero, consulte [Crear un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+1. (Opcional) Haga clic en **Acciones de panel** y luego en **Editar** para agregar informes, calendarios o páginas externas adicionales al mismo panel.\
+   Para obtener información acerca de cómo agregar componentes a un panel, vea [Crear un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
  
 

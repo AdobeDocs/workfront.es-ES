@@ -53,8 +53,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes:</p> 
     <ul> 
-     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> </li> 
-     <li> <p><b>Usuarios</b> en su nivel de acceso configurado en <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Administrador (usuarios de grupo)</b> está habilitada, debe ser administrador de un grupo del que sea miembro el usuario.</p> <p>Para obtener más información sobre <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
+     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>. </p> </li> 
+     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Admin (usuarios del grupo)</b> está habilitado, debe ser administrador de un grupo del que el usuario sea miembro.</p> <p>Para obtener más información sobre la configuración de <b>Usuarios</b> en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a usuarios</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,17 +62,17 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 ## Uso de un archivo de importación de hoja de cálculo para importar usuarios
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
-1. Haga clic en **Nuevo usuario** flecha desplegable y haga clic en **Importar usuarios**.
+1. Haga clic en la flecha desplegable **Nuevo usuario** y luego haga clic en **Importar usuarios**.
 
-1. En el **Importar usuarios** , descargue el archivo de muestra y, a continuación, actualice el archivo de muestra para incluir la información personal del usuario.
+1. En el cuadro **Importar usuarios** que aparece, descargue el archivo de muestra y, a continuación, actualice el archivo de muestra para que incluya su propia información personal de usuario.
 
    Cada fila incluye los siguientes campos:
 
    * **Nombre**
    * **Apellidos**
-   * **Correo electrónico**
+   * **Dirección de correo electrónico**
 
      Las direcciones de correo electrónico deben ser únicas.
 
@@ -80,7 +80,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
      Los niveles de acceso distinguen entre mayúsculas y minúsculas.
 
-   * **Identificador de inicio de sesión SSO**
+   * **ID de inicio de sesión SSO**
 
      Este campo se incluye únicamente si el SSO está activado en el sistema. Debe agregar el identificador de federación en este campo para cada usuario. Cuando crea un usuario desde la pestaña Personas, puede configurar una contraseña para el usuario si desea permitir que los usuarios inicien sesión sin SSO. Sin embargo, la función de importación no permite dejar en blanco el ID de INICIO DE SESIÓN SSO.
 
@@ -88,16 +88,16 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
    Cuando termine con una fila, debería tener este aspecto:
 
-   ![import-new-users.png](assets/importing-new-users.png)
+   ![importando-nuevos-usuarios.png](assets/importing-new-users.png)
 
 1. Guarde el archivo en una ubicación de la estación de trabajo.
-1. Clic **Elegir archivo** en el **Importar usuarios** cuadro.
+1. Haga clic en **Elegir archivo** en el cuadro **Importar usuarios**.
 
 1. Desplácese hasta el archivo que ha guardado y selecciónelo.
-1. (Opcional) Seleccione la **Enviar invitación por correo electrónico a este usuario** opción para enviar una invitación por correo electrónico al usuario, notificándole que se ha creado una cuenta de Workfront y pidiéndole que establezca su contraseña.
+1. (Opcional) Seleccione la opción **Enviar un correo electrónico de invitación a este usuario** para enviar una invitación por correo electrónico al usuario, notificándole que se ha creado una cuenta de Workfront y pidiéndole que establezca su contraseña.
 
    Anule la selección de esta opción si desea establecer la contraseña del usuario.
 
-1. Clic **Importar**.
+1. Haga clic en **Importar**.
 
    Recibirá un mensaje de confirmación en la parte superior de la pantalla que indica que el usuario se importó correctamente.

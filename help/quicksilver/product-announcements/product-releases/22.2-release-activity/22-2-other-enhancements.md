@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 4 de abril de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general de la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general sobre la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Mejoras en la barra de navegación superior
 
@@ -35,7 +35,7 @@ Hemos realizado varias mejoras en la barra de navegación superior de Adobe Work
 * El aspecto de ambos pines y el menú principal se actualizaron para ajustarse a los estándares de diseño de Adobe, incluidos los colores y las fuentes. La forma de añadir y quitar anclajes y las áreas a las que tiene acceso en el menú principal no han cambiado.
 * Los iconos de la derecha de la barra de navegación superior se han reorganizado para que sean más intuitivos. El orden de los iconos es: vínculo de ayuda, notificaciones, favoritos, recientes, búsqueda, menú principal.
 
-Para obtener más información, consulte [Información general de la barra de navegación superior](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+Para obtener más información, consulte [Descripción general de la barra de navegación superior](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 ## Listas de hojas de horas rediseñadas
 
@@ -46,5 +46,5 @@ Algunos de los aspectos destacados de este rediseño son:
 * La lista de hojas de horas ahora coincide con la experiencia en todas las demás listas de Workfront.
 * La experiencia de filtro ahora coincide con los filtros de todas las demás listas. Tendrá más flexibilidad para crear sus propios filtros con los campos y atributos que más le interesen, así como para compartirlos con otros usuarios.
 
-Para obtener más información sobre la creación de plantillas de horas con las nuevas listas, consulte [Crear hoja de horas de un solo uso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Para obtener más información sobre cómo crear hojas de horas usando las nuevas listas, consulte [Crear una hoja de horas de un solo uso](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 

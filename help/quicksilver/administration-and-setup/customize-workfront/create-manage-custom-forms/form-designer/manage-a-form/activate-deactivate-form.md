@@ -62,8 +62,8 @@ Para desactivar un formulario personalizado:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, elija **Forms personalizado**.
-1. En el **Forms** , seleccione el formulario personalizado que desee desactivar.
-1. En la columna Is Active, elija **Falso** y haga clic en fuera de la columna. El formulario ya no está activo.
+1. En el área **Forms**, seleccione el formulario personalizado que desee desactivar.
+1. En la columna Está activo, elija **Falso** y haga clic fuera de la columna. El formulario ya no está activo.
 
 ## Reactivar un formulario personalizado
 
@@ -72,5 +72,5 @@ Si reactiva un formulario personalizado, conservará la configuración que tení
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, elija **Forms personalizado**.
-1. En el **Forms** , seleccione el formulario personalizado que desee reactivar.
-1. En la columna Is Active, elija **Verdadero** y haga clic en fuera de la columna. El formulario ahora está activo.
+1. En el área **Forms**, seleccione el formulario personalizado que desea reactivar.
+1. En la columna Está activo, elija **Verdadero** y haga clic fuera de la columna. El formulario ahora está activo.

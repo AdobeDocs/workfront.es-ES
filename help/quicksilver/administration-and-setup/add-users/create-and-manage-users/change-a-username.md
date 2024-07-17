@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Cambiar un nombre de usuario
-description: Puede editar el nombre de usuario de un usuario (dirección de correo electrónico) editando su perfil de usuario.
+description: Puede editar el nombre de usuario (dirección de correo electrónico) de un usuario editando su perfil de usuario.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # Cambiar un nombre de usuario
 
-Puede editar el nombre de usuario de un usuario (dirección de correo electrónico) editando su perfil de usuario. Para obtener instrucciones, consulte la información sobre el campo Dirección de correo electrónico en [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Puede editar el nombre de usuario (dirección de correo electrónico) de un usuario editando su perfil de usuario. Para obtener instrucciones, vea la información acerca del campo Dirección de correo electrónico en [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 20.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 9 de noviembre de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Información general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Descripción general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Planificar el trabajo mediante esfuerzo de trabajo en lugar de horas planificadas
 
@@ -30,21 +30,21 @@ Las siguientes mejoras ya están disponibles con esta nueva función:
 * Deshabilite esta configuración con una plantilla de diseño para los usuarios que prefieran seguir usando las horas planificadas.
 * Mostrar el valor de este nuevo campo en una lista de tareas o un informe.
 
-Para obtener información sobre el esfuerzo de trabajo, consulte [Resumen de esfuerzo de trabajo](../../../manage-work/tasks/task-information/work-effort.md).
+Para obtener información sobre el esfuerzo de trabajo, consulte [Resumen del esfuerzo de trabajo](../../../manage-work/tasks/task-information/work-effort.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del planificador, parte 2, ruta de aprendizaje](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del planificador, parte 2](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) en Workfront One.
 
 ## Colores basados en el estado del proyecto para elementos de trabajo en el Distribuidor de cargas de trabajo
 
 Para obtener una mejor visibilidad y una mayor personalización de la experiencia en el Distribuidor de cargas de trabajo, ahora puede cambiar los colores de los proyectos y sus elementos de trabajo para que coincidan con el estado de los proyectos. Los colores corresponden a estados de proyecto de nivel de grupo o de nivel de sistema. Los colores mostrados pueden corresponder tanto a los estados del sistema como a los del proyecto personalizado.
 
-Para obtener información sobre cómo personalizar la vista en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información sobre cómo personalizar la vista en el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Ajustar la asignación de usuarios mediante valores de porcentaje en el Distribuidor de cargas de trabajo
 
 Ahora puede administrar las asignaciones de los usuarios en el Distribuidor de cargas de trabajo mediante porcentajes en lugar de horas.
 
-Para obtener información sobre la administración de asignaciones en el Distribuidor de cargas de trabajo, consulte [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Para obtener información sobre cómo administrar asignaciones en el Distribuidor de cargas de trabajo, consulte [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Mostrar u ocultar trabajo completado en el Distribuidor de cargas de trabajo
 
@@ -52,7 +52,7 @@ Ahora, una nueva configuración le permite mostrar u ocultar los elementos de tr
 
 Antes de esta mejora, los elementos de trabajo completados siempre se mostraban en el Distribuidor de cargas de trabajo.
 
-Para obtener más información sobre cómo ajustar la configuración en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información acerca de cómo ajustar la configuración en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Mejoras de uso en el Distribuidor de cargas de trabajo
 
@@ -68,19 +68,19 @@ Para garantizar una experiencia optimizada y fácil de usar al administrar los r
 * Puede acceder a las funciones de asignación con un método abreviado de teclado. Anteriormente, solo estaba disponible en el menú Más.
 * Puede cargar todos los elementos restantes bajo el nombre de un usuario en lugar de solo los 20 elementos siguientes haciendo clic en Cargar más.
 
-Para obtener más información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Gráfico de asignación de usuarios en el Distribuidor de cargas de trabajo
 
 Para permitirle tener una representación visual de alto nivel de la asignación de los usuarios en un lapso de tiempo determinado, una nueva configuración ahora habilita una vista de gráfico de cómo se muestran las asignaciones en el Distribuidor de cargas de trabajo. Al habilitar esta configuración, se muestra la asignación de los usuarios en un gráfico de líneas que indica las sobreasignaciones en bloques rojos y las infraasignaciones en azul.
 
-Para obtener más información sobre la configuración en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información acerca de la configuración en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Visualizar el trabajo completado en el Distribuidor de cargas de trabajo
 
 Para permitirle identificar fácilmente el trabajo que ya se ha completado y poder administrar las asignaciones de usuario correctamente, hemos habilitado un indicador visual en el Distribuidor de cargas de trabajo que muestra cuándo se han completado los elementos de un lapso de tiempo seleccionado. Ahora puede ver una marca de verificación verde para las tareas y los problemas cuando se completan. El proyecto también muestra la marca de verificación verde cuando hay elementos de trabajo completados durante el lapso de tiempo mostrado en la pantalla.
 
-Para obtener información sobre la visualización de información en el Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información acerca de cómo ver información en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Nuevo filtro predeterminado para el área de Trabajo asignado en el Distribuidor de cargas de trabajo
 
@@ -96,11 +96,11 @@ Se ha agregado una nueva configuración que le permite cambiar entre las horas a
 
 Esta mejora elimina los clics y hace que la navegación por el Distribuidor de cargas de trabajo sea más fácil y eficiente.
 
-Para obtener información sobre la administración de la configuración del Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información acerca de cómo administrar la configuración del Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Un nuevo filtro integrado para el Distribuidor de cargas de trabajo: usuarios en proyectos
 
 Para que su experiencia de filtrado en el Distribuidor de cargas de trabajo sea más eficiente, hemos añadido un nuevo filtro integrado en el área de Trabajo asignado. Ahora puede aplicar el filtro Usuarios en proyectos, que muestra los usuarios asignados a tareas y problemas en los proyectos que especifique.
 
-Para obtener información sobre el uso de filtros en el Distribuidor de cargas de trabajo, consulte [Filtrado de información en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Para obtener información sobre el uso de filtros en el Distribuidor de cargas de trabajo, consulte [Información sobre filtros en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 

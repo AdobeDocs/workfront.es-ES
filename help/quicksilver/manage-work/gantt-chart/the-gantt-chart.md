@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: El gráfico Gantt
-description: Encuentre información acerca de [!UICONTROL Gantt] Gráfico en la siguiente subsección.
+description: Encuentre información sobre el gráfico [!UICONTROL Gantt] en la siguiente subsección.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# El [!UICONTROL Gráfico Gantt]
+# El [!UICONTROL gráfico Gantt]
 
 Esta sección contiene las siguientes subsecciones:
 
-* [[!UICONTROL Gráfico Gantt] descripción general](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
+* [Resumen de [!UICONTROL gráfico Gantt]](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
 

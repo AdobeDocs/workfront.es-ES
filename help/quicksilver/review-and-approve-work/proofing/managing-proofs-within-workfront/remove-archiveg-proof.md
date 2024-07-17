@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Eliminar una prueba
+title: Eliminar una revisión
 description: Para eliminar una prueba de un documento, debe eliminar todo el documento. Para obtener más información, consulte Eliminar documentos.
 author: Courtney
 feature: Digital Content and Documents
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 ---
 
-# Eliminar una prueba
+# Eliminar una revisión
 
-Para eliminar una prueba de un documento, debe eliminar todo el documento. Para obtener más información, consulte [Eliminar documentos](../../../documents/managing-documents/delete-documents.md).
+Para eliminar una prueba de un documento, debe eliminar todo el documento. Para obtener más información, vea [Eliminar documentos](../../../documents/managing-documents/delete-documents.md).

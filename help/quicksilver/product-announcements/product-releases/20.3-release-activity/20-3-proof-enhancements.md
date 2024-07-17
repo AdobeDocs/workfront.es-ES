@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de prueba realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Descripción general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Se ha mejorado la visibilidad entre la pestaña Actualizaciones y los comentarios de Prueba
 
@@ -31,7 +31,7 @@ Las siguientes mejoras están disponibles en el área de documentos:
 * Cuando se muestra un comentario de prueba en la pestaña Actualizar, aparece un nuevo botón Responder en prueba que le permite entrar en el visor de pruebas para responder.
 * Cuando se etiqueta un comentario de prueba con una acción dentro del visor de pruebas, la acción se muestra en la pestaña Actualizar.
 
-Para obtener más información, consulte [Añadir una actualización a un documento](../../../documents/managing-documents/add-update-documents.md).
+Para obtener más información, vea [Agregar una actualización a un documento](../../../documents/managing-documents/add-update-documents.md).
 
 ## Actualizar campos personalizados de revisión en Detalles del documento
 
@@ -43,7 +43,7 @@ Para optimizar el proceso de revisión, ahora puede ver y editar los campos pers
 
 Anteriormente, solo se podían ver campos personalizados en el visor de pruebas.
 
-Para obtener más información, consulte [Resumen de detalles del documento](../../../documents/managing-documents/document-details-overview.md).
+Para obtener más información, vea [Información general sobre los detalles del documento](../../../documents/managing-documents/document-details-overview.md).
 
 ## Nueva apariencia para la barra de herramientas Documento
 
@@ -61,5 +61,5 @@ Para facilitar la configuración de un flujo de trabajo al convertir un document
 
 Anteriormente, tenía que generar la prueba y, a continuación, ir al área Flujo de trabajo de prueba para configurar el flujo de trabajo.
 
-Para obtener más información, consulte [Creación de una prueba para un documento](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+Para obtener más información, consulte [Crear una revisión para un documento](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 

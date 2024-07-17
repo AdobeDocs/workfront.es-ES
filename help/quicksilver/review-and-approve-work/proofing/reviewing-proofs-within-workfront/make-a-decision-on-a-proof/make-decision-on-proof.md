@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # Tomar una decisión sobre una prueba
 
-* [Aprobar una prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
-* [Tome una decisión sobre una prueba en el visualizador de pruebas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+* [Aprobar una revisión](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
+* [Tome una decisión sobre una prueba en el visor de pruebas](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
 * [Cambiar una decisión existente en una prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)

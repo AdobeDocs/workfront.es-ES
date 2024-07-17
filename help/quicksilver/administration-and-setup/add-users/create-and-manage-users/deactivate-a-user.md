@@ -43,7 +43,7 @@ Puede reactivar un usuario en cualquier momento.
 >
 >Al desactivar un usuario en Workfront, se eliminan sus licencias tanto de Workfront como de revisión digital. Además, ya no se puede asignar trabajo al usuario. Cuando se desactiva un usuario, su licencia de Workfront y su licencia de revisión quedan disponibles para que las utilice otro usuario. El resto de la información del perfil del usuario desactivado permanece sin cambios.
 >
->Para obtener más información sobre el impacto de la eliminación y la desactivación de usuarios, consulte [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Para obtener más información sobre el impacto de eliminar y desactivar usuarios, consulte [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Requisitos de acceso
 
@@ -65,8 +65,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes:</p> 
     <ul> 
-     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>. </p> </li> 
-     <li> <p><b>Usuarios</b> en su nivel de acceso configurado en <b>Editar</b> acceso, con <b>Crear</b> y al menos uno de los dos <b>Administrador de usuarios</b> opciones activadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Administrador (usuarios de grupo)</b> está habilitada, debe ser administrador de un grupo del que sea miembro el usuario.</p> <p>Para obtener más información sobre <b>Usuarios</b> configuración en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concesión de acceso a los usuarios</a>.</p> </li> 
+     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>. </p> </li> 
+     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si el usuario <b>Admin (usuarios del grupo)</b> está habilitado, debe ser administrador de un grupo del que el usuario sea miembro.</p> <p>Para obtener más información sobre la configuración de <b>Usuarios</b> en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a usuarios</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 Antes de desactivar un administrador de Workfront o un usuario con licencia estándar o de planificación, debe asociar sus objetos y actividades a otro usuario.
 
-Para obtener más información, consulte [Acerca de la desactivación de administradores de Workfront y usuarios de licencias de planificación](#about-deactivating-workfront-administrators-and-plan-license-users) en este artículo.
+Para obtener más información, consulte [Acerca de la desactivación de administradores de Workfront y los usuarios con licencia de planificación](#about-deactivating-workfront-administrators-and-plan-license-users) en este artículo.
 
 ## Desactivar un usuario
 
@@ -90,11 +90,11 @@ Tenga en cuenta lo siguiente al desactivar un usuario:
 
 Para desactivar un usuario:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
-1. Seleccione un usuario y haga clic en **Más** icono ![](assets/more-icon.png), luego haga clic en **Desactivar**.
+1. Seleccione un usuario, haga clic en el icono **Más** ![](assets/more-icon.png) y luego haga clic en **Desactivar**.
 
-1. Clic **Desactivar** en el cuadro que aparece.
+1. Haga clic en **Desactivar** en el cuadro que aparece.
 
 ## Programar usuarios para su desactivación
 
@@ -104,7 +104,7 @@ Los administradores de Workfront y los usuarios de licencias de planificación p
 
 Para programar la desactivación de un usuario:
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
 1. Seleccione el nombre del usuario.
 
@@ -112,9 +112,9 @@ Para programar la desactivación de un usuario:
 
    (Opcional) Seleccione varios usuarios para programarlos y desactivarlos de forma masiva.
 
-1. Haga clic en el icono Edit ![](assets/edit-icon.png).
-1. En el cuadro Editar usuario que aparece, haga clic en **Planificación de recursos** para ir a esa zona.
-1. Habilite la **Programar desactivación** opción.
+1. Haga clic en el icono Editar ![](assets/edit-icon.png).
+1. En el cuadro Editar usuario que aparece, haga clic en **Planificación de recursos** para ir a ese área.
+1. Habilite la opción **Programar desactivación**.
 
 1. En el calendario que se muestra, especifique la fecha y la hora de la **Fecha programada de desactivación**.
 
@@ -131,11 +131,11 @@ Le recomendamos que cree un informe para los usuarios cuya desactivación haya p
 
 ## Reactivar un usuario
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
 
-1. Seleccione un usuario y haga clic en el icono Más ![](assets/more-icon.png), luego haga clic en **Activar**.
+1. Seleccione un usuario, haga clic en el icono Más ![](assets/more-icon.png) y luego haga clic en **Activar**.
 
-1. Asignar un nuevo **Nivel de acceso** en el menú desplegable, haga clic en **Reactivar**.
+1. Asigne un nuevo **nivel de acceso** en el menú desplegable y luego haga clic en **Reactivar**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -146,7 +146,7 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 Los usuarios desactivados pierden la función de corrección predeterminada que se les ha asignado y la licencia de revisión (si cuenta con un plan heredado de Workfront Premium). Si decide reactivar el usuario, deberá:
 
 * Reasigne la licencia (si cuenta con un plan heredado de Workfront Premium). Para obtener más información sobre los planes de revisión de Workfront, consulte [Acceso a la funcionalidad de revisión en Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Compruebe que tienen la función de prueba correcta. A los usuarios de prueba reactivados se les asigna la función que se especifique como predeterminada para los nuevos usuarios. Consulte [Configurar funciones de corrección predeterminadas](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) para obtener más información.
+* Compruebe que tienen la función de prueba correcta. A los usuarios de prueba reactivados se les asigna la función que se especifique como predeterminada para los nuevos usuarios. Consulte [Configurar funciones de revisión predeterminadas](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) para obtener más información.
 
 ## Acerca de la desactivación de administradores de Workfront y usuarios con licencias Standard o Plan
 

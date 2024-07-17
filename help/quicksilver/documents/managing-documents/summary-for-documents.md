@@ -55,8 +55,8 @@ Debe tener lo siguiente:
 
 ## Abrir la vista Resumen
 
-1. Vaya a la **Documentos** y seleccione un elemento de la lista.
-1. Haga clic en **Icono Abrir resumen** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Vaya al área **Documentos** y seleccione un elemento de la lista.
+1. Haga clic en el icono **Abrir resumen** ![](assets/qs-summary-in-new-toolbar-small.png).
 
    Después de abrir el Resumen, permanece abierto a medida que hace clic en otros documentos y permanece abierto hasta que lo cierra manualmente.
 
@@ -64,7 +64,7 @@ Debe tener lo siguiente:
 
 ## Detalles
 
-Utilice la sección Detalles para ver información general de alto nivel e interactuar con formularios personalizados. Clic **Detalles** en la parte superior de la sección para ir a la página completa de detalles del documento.
+Utilice la sección Detalles para ver información general de alto nivel e interactuar con formularios personalizados. Haga clic en **Detalles** en la parte superior de la sección para ir a la página completa Detalles del documento.
 
 * [Información general](#overview)
 * [Formularios personalizados](#custom-forms)
@@ -85,9 +85,9 @@ Utilice la sección Forms personalizado para agregar, editar o ver cualquier for
 
 ## Actualizaciones
 
-Utilice la sección Actualizaciones para leer una actualización realizada por alguien en el documento o la prueba. El resumen muestra los dos primeros comentarios realizados. Para obtener más información sobre las actualizaciones, consulte [Comentario sobre una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Utilice la sección Actualizaciones para leer una actualización realizada por alguien en el documento o la prueba. El resumen muestra los dos primeros comentarios realizados. Para obtener más información sobre las actualizaciones, consulte [Comentario sobre una revisión](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Actualiza la sección en el panel Resumen](assets/summary-updates-section-new-comments.png)
+![Actualiza la sección en el Panel de resumen](assets/summary-updates-section-new-comments.png)
 
 ## Rutas de aprobación
 
@@ -95,14 +95,14 @@ Utilice la sección Aprobaciones para solicitar la aprobación de un documento. 
 
 Las aprobaciones de pruebas deben agregarse al flujo de trabajo de pruebas. Para obtener más información sobre las aprobaciones, consulte
 
-* [Aprobación del trabajo](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Aprobando trabajo](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Solicitar aprobaciones de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versiones
 
-Utilice la sección Versiones para ver el número de versiones creadas para un documento específico. Haga clic en **Menú Más** hasta
+Utilice la sección Versiones para ver el número de versiones creadas para un documento específico. Haga clic en el **menú Más** para
 
 * Abrir una prueba
 * Descargar una prueba o un documento

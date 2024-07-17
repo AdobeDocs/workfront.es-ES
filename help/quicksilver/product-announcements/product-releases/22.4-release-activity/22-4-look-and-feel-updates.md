@@ -17,13 +17,13 @@ ht-degree: 0%
 
 En esta página se describen actualizaciones menores del aspecto y la presentación de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión 22.4. Estas mejoras estarán disponibles en el entorno de producción al menos 2 semanas después del lanzamiento a Vista previa.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Información general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Descripción general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Actualizaciones de aspecto y funcionamiento en la página de licencias
 
 Hemos movido información importante sobre la licencia a la esquina superior derecha de la página y hemos actualizado el aspecto del texto y los botones para que coincidan con otras áreas de Workfront.
 
-Para obtener más información, consulte [Administrar las licencias disponibles en el sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Para obtener más información, consulte [Administrar licencias disponibles en el sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Listas actualizadas en el área de Forms personalizado
 

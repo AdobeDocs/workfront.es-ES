@@ -41,7 +41,7 @@ Para obtener más información sobre la creación de informes con el modo de tex
 
 >[!TIP]
 >
->También puede ampliar las capacidades de los campos personalizados calculados utilizando una versión del modo texto para los campos personalizados. La sintaxis y las reglas para crear un campo personalizado calculado son diferentes de las que se usan en informes y listas. Para obtener información sobre cómo agregar un campo personalizado calculado, consulte [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>También puede ampliar las capacidades de los campos personalizados calculados utilizando una versión del modo texto para los campos personalizados. La sintaxis y las reglas para crear un campo personalizado calculado son diferentes de las que se usan en informes y listas. Para obtener información acerca de cómo agregar un campo personalizado calculado, vea [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Antes de empezar a usar el modo de texto en los informes, le recomendamos encarecidamente que tome nuestras clases sobre informes avanzados para comprender mejor nuestro lenguaje del modo de texto. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Se recomienda utilizar el modo estándar para garantizar que los informes que cree permanezcan intactos cuando se actualice el software de Workfront. Aunque el modo de texto le permite crear vistas, filtros y agrupaciones más complejos, también es más complicado de mantener y no se garantiza cuando se actualiza el software de Workfront.
@@ -53,7 +53,7 @@ Para obtener más información sobre la creación de informes con el modo de tex
 
 * Hay un conjunto de reglas y una sintaxis única que debe utilizar para generar correctamente informes y listas en modo de texto. Antes de comenzar, asegúrese de estar familiarizado con la sintaxis de Workfront para el modo de texto.
 
-  Para obtener información sobre la sintaxis y las reglas para utilizar el modo de texto, consulte [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Para obtener información acerca de la sintaxis y las reglas para usar el modo de texto, vea [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Después de personalizar un elemento de creación de informes en el modo de texto, es posible que no pueda volver al modo estándar (en una vista) o que se elimine el código del elemento que ha creado (en filtros y agrupaciones). Esto se debe a que no todos los campos compatibles con el modo de texto son compatibles con el modo estándar.
 
@@ -63,7 +63,7 @@ La interfaz del modo Estándar muestra campos para asignar los elementos de la a
 
 Para obtener más información sobre la interfaz de modo estándar y aprender a crear un informe o una lista, consulte:
 
-* [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [Elementos de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Interfaz de modo de texto
@@ -74,7 +74,7 @@ Para obtener más información sobre la interfaz de modo estándar y aprender a 
 
 El modo de texto permite crear vistas, filtros, agrupaciones y peticiones de datos más complejos, lo que permite utilizar campos que no están disponibles en la interfaz del modo estándar. En el modo de texto de Workfront es una colección de instrucciones codificadas que indican qué objetos desea mostrar en un informe o una lista.
 
-Para obtener una lista completa de todos los campos de los que se puede realizar informes, consulte la [Explorador de API](../../../wf-api/general/api-explorer.md).
+Para obtener una lista completa de todos nuestros campos sobre los que se puede realizar informes, consulte el [Explorador de API](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -90,19 +90,19 @@ Para obtener información sobre el uso del modo de texto en vistas, filtros y ag
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>
 -->
 
-* [Edición de una vista mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [Edición de un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Editar una vista usando el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Editar un filtro mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Editar modo de texto en una agrupación](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 Las peticiones de datos personalizadas solo se pueden editar en modo de texto. Solo puede acceder a las solicitudes de datos desde un informe.
 
-Para obtener información sobre el acceso a la interfaz de modo de texto para las peticiones de datos personalizadas, consulte [Agregar una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Para obtener información sobre cómo obtener acceso a la interfaz de modo de texto para las peticiones de datos personalizadas, vea [Agregar una petición de datos a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Razones comunes para utilizar el modo Texto {#common-reasons-to-use-text-mode}
 
 Además de crear indicadores personalizados que solo se pueden configurar mediante el modo de texto, le recomendamos que utilice Report Builder para crear sus vistas, filtros y agrupaciones. Sin embargo, hay algunos casos en los que puede utilizar el modo de texto para mejorar los informes y las listas.
 
-Para obtener más información sobre los usos comunes del modo de texto, consulte [Descripción general de los usos comunes del modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obtener más información acerca de los usos comunes del modo de texto, vea [Información general sobre los usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 
 <!--

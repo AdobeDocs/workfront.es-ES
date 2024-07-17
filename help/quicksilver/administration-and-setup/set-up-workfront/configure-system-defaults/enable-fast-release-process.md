@@ -7,10 +7,11 @@ description: Puede seleccionar si desea recibir las nuevas funciones de Workfron
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
+source-wordcount: '376'
+ht-degree: 0%
 
 ---
 
@@ -34,11 +35,11 @@ Ejemplo:
 
 Tenga en cuenta lo siguiente al habilitar o deshabilitar el proceso de liberación rápida:
 
-* **Habilitando** el proceso de versión rápida, que se lleva a cabo a mediados de trimestre, permite a su organización acceder a las funciones y características que ya se han incluido en la versión rápida.
+* **Al habilitar** el proceso de liberación rápida en medio de un trimestre, su organización tendrá acceso a las características y funcionalidades que ya se han publicado en la versión rápida.
 
   Por ejemplo, si la función A se lanza en agosto y la función B se lanza en septiembre, cualquier organización que habilite el proceso de lanzamiento rápido en septiembre tendrá acceso inmediato a las funciones A y B.
 
-* **Desactivando** el proceso de liberación rápida no surtirá efecto hasta la próxima versión trimestral.
+* **Al deshabilitar** el proceso de publicación rápida no surtirá efecto hasta la próxima versión trimestral.
 
   Por ejemplo, si una organización que ha habilitado la publicación rápida la deshabilita en agosto, seguirá recibiendo las funciones de publicación rápida en septiembre, porque no pasará a la versión trimestral hasta que la próxima versión trimestral se produzca en octubre.
 
@@ -46,13 +47,13 @@ Tenga en cuenta lo siguiente al habilitar o deshabilitar el proceso de liberaci�
 
 Para activar o desactivar el proceso de liberación rápida:
 
-1. Haga clic en **Icono del menú principal**, luego haga clic en **Configurar**.
-1. Expandir **Sistema** en el panel de navegación izquierdo, haga clic en **Preferencias**.
-1. Para activar las versiones rápidas, consulte **Permitir proceso de liberación rápida** casilla de verificación
+1. Haga clic en el icono **Menú principal** y, a continuación, haga clic en **Configurar**.
+1. Expanda **Sistema** en el panel de navegación izquierdo y luego haga clic en **Preferencias**.
+1. Para habilitar las versiones rápidas, marque la casilla de verificación **Permitir proceso de publicación rápido**.
 
    O
 
-   Para desactivar las versiones rápidas y pasar a un ciclo de versiones trimestrales, desmarque la **Permitir proceso de liberación rápida** casilla de verificación
+   Para deshabilitar las versiones rápidas y pasar a un ciclo de versiones trimestrales, anule la selección de la casilla de verificación **Permitir proceso de publicación rápida**.
 
 1. Confirme su elección en la ventana emergente.
 1. Haga clic en **Guardar**.

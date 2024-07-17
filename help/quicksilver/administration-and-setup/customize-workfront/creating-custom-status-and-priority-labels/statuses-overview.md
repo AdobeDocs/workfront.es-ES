@@ -24,7 +24,7 @@ Para saber cuál es el estado actual de desarrollo de un proyecto, tarea o probl
 
 Por ejemplo, en este proyecto, el estado Planificación indica que el jefe del proyecto está planificando aspectos del proyecto, como su cronología, asignaciones de tareas y aprobaciones.
 
-![Estado del proyecto de muestra](assets/statuses-overview.png)
+![Estado de proyecto de muestra](assets/statuses-overview.png)
 
 Debe tener los siguientes permisos y acceso a un proyecto, tarea o problema para ver su estado:
 
@@ -41,13 +41,13 @@ Cambiar el estado de un proyecto, tarea o problema suele ser un proceso manual. 
 
 Adobe Workfront incluye 9 estados de proyecto, 3 estados de tarea y 10 estados de problema. Para obtener más información, consulte los siguientes artículos:
 
-* [Acceso a la lista de estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [Acceso a la lista de estados de tareas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [Acceder a la lista de estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [Acceder a la lista de estados de tareas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [Acceso a la lista de estados de problemas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## Estados personalizados
 
-Además de los estados predeterminados que vienen con Workfront, un administrador de Workfront puede agregar estados personalizados de proyecto, tarea y problema para que coincidan con las necesidades de su organización. Puede crear estados de nivel de sistema utilizados por todos los miembros de su instancia de Workfront o estados de nivel de grupo utilizados únicamente por determinados grupos. Para obtener más información, consulte [Creación o edición de un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Además de los estados predeterminados que vienen con Workfront, un administrador de Workfront puede agregar estados personalizados de proyecto, tarea y problema para que coincidan con las necesidades de su organización. Puede crear estados de nivel de sistema utilizados por todos los miembros de su instancia de Workfront o estados de nivel de grupo utilizados únicamente por determinados grupos. Para obtener más información, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Estados de grupo
 

@@ -24,7 +24,7 @@ A diferencia de las tareas, los problemas no pueden determinar el porcentaje com
 Esta sección contiene los siguientes artículos:
 
 * [Resumen de duración del problema](../../../manage-work/issues/issue-information/issue-duration.md)
-* [Actualizar prioridad del problema](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [Actualizar prioridad de problema](../../../manage-work/issues/issue-information/update-issue-priority.md)
 * [Actualizar gravedad del problema](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [Resumen de la fecha planificada de finalización del problema](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [Información general sobre la fecha planificada de finalización del problema](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Utilice &quot;opTask&quot; y &quot;issue&quot; al hacer referencia a problemas](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

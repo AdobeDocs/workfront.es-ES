@@ -90,7 +90,7 @@ Workfront tiene los límites siguientes:
 * FLC - Animación de cine
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Formato de intercambio de gráficos (GIF animado solo en el nuevo Visor de pruebas de Workfront)
+* GIF - Formato de intercambio de gráficos (GIF animado solo en el nuevo visor de Workfront Proof)
 * GIF HDP - Foto de Windows HD
 * ICO: icono de Windows
 * IFF - Formato de archivo de intercambio
@@ -132,7 +132,7 @@ Workfront tiene los límites siguientes:
 * PNM - Utilidades de mapa de bits portátiles
 * PPM - Utilidades de mapa de bits portátiles
 * PPT: presentación de PowerPoint
-* PPTX - Presentación de PowerPoint 2007 PS - Archivo PostScript
+* PPTX - Presentación de PowerPoint 2007 PS - Archivo de PostScript
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
@@ -193,7 +193,7 @@ Workfront tiene los límites siguientes:
 * DOCX: documento de Microsoft Word
 * PDF - Archivo de documento portátil de Adobe
 * PPT: presentación de PowerPoint
-* PPTX - Presentación de PowerPoint 2007 PS - Archivo PostScript
+* PPTX - Presentación de PowerPoint 2007 PS - Archivo de PostScript
 * PSD - PHOTOSHOP
 * RTF - Texto enriquecido
 * XLS - Hoja de cálculo de Microsoft Excel
@@ -239,7 +239,7 @@ Workfront tiene los límites siguientes:
 
 ## Capturas web
 
-Puede crear pruebas de página web estáticas. Para obtener más información, consulte [Creación de una prueba estática para un sitio web u otro contenido web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) y [Creación de una revisión de sitio web estático mediante Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+Puede crear pruebas de página web estáticas. Para obtener más información, consulte [Crear una revisión estática para un sitio web u otro contenido web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) y [Crear una revisión estática de sitio web mediante Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Archivos Zip
 
@@ -247,7 +247,7 @@ No admitimos ni extraemos archivos de archivos ZIP por motivos de seguridad. Des
 
 Solo puede enviar archivos zip si contienen un proyecto interactivo completo y si su cuenta tiene habilitadas las funciones interactivas (planes Premium).
 
-Para obtener más información, consulte [Resumen de pruebas de contenido interactivo](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Para obtener más información, consulte [Resumen de las pruebas de contenido interactivo](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## Archivos de InDesign y Quark
 

@@ -16,7 +16,7 @@ ht-degree: 16%
 # Alinear metas convirtiendo resultados y actividades en metas
 
 Puede alinear manualmente dos metas o convertir los resultados y las actividades de una meta existente en otra meta. El resultado o la actividad convertidos se convierten en el objetivo secundario del objetivo original.
-Para obtener información sobre cómo alinear manualmente dos objetivos, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+Para obtener información acerca de cómo alinear manualmente dos metas, vea [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Requisitos de acceso
 
@@ -49,7 +49,7 @@ Para obtener información sobre cómo alinear manualmente dos objetivos, consult
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -61,7 +61,7 @@ Para obtener información sobre cómo alinear manualmente dos objetivos, consult
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -80,7 +80,7 @@ Debe tener lo siguiente para poder iniciar:
 
 * Una meta existente con resultados y actividades existentes.
 
-  Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+  Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -120,15 +120,15 @@ Tenga en cuenta lo siguiente al convertir resultados y actividades en objetivos:
 
 1. Vaya a una meta que tenga un resultado o a una actividad que desee convertir en una meta.
 1. En la página de la meta, haga clic en **Indicadores de progreso** en el panel izquierdo.
-1. Seleccione un resultado o una actividad en la lista de indicadores de progreso y, a continuación, haga clic en **Convertir en meta** icono ![](assets/convert-to-goal-icon-unshimmed.png) en la parte superior de la lista de indicadores de progreso. Se abrirá el cuadro Convertir en meta.
+1. Seleccione un resultado o una actividad en la lista de indicadores de progreso y, a continuación, haga clic en el icono **Convertir en objetivo** ![](assets/convert-to-goal-icon-unshimmed.png) en la parte superior de la lista de indicadores de progreso. Se abrirá el cuadro Convertir en meta.
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. Actualice la siguiente información:
-   * **Nombre de meta**: De forma predeterminada, el nuevo objetivo tiene el mismo nombre que el resultado o la actividad original.
-   * **Periodo**: De forma predeterminada, el periodo de la nueva meta es el trimestre actual. Puede seleccionar el **Habilitar fechas personalizadas** para definir un período de tiempo personalizado para el nuevo objetivo.
-   * **Propietario de meta**: De forma predeterminada, el nuevo propietario de la meta es el propietario del resultado o de la actividad original.
-   * **Descripción**: Añada más información sobre la nueva meta.
-1. Clic **Guardar**
+   * **Nombre de la meta**: De forma predeterminada, la nueva meta tiene el mismo nombre que el resultado o actividad original.
+   * **Periodo**: De manera predeterminada, el periodo de la nueva meta es el trimestre actual. Puede seleccionar la configuración **Habilitar fechas personalizadas** para definir un período de tiempo personalizado para la nueva meta.
+   * **Propietario de la meta**: de forma predeterminada, el nuevo propietario de la meta es el propietario de la actividad o el resultado original.
+   * **Descripción**: agrega más información sobre la nueva meta.
+1. Haga clic en **Guardar**
 
    El resultado o la actividad se convierte ahora en un objetivo secundario del objetivo original. Se enumera como una meta en la lista Indicadores de progreso de la meta original.
 

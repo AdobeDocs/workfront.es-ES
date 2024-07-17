@@ -10,7 +10,7 @@ role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,26 +53,27 @@ Para corregir direcciones de correo electrónico duplicadas dentro de una instan
 
 1. Examine los usuarios duplicados y decida qué usuario ya no es necesario.
 
-   1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront, haga clic en **Usuarios**. ![](assets/users-icon-in-main-menu.png)
+   1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y, a continuación, haga clic en **Usuarios**. ![](assets/users-icon-in-main-menu.png)
 
-   1. En el **Filtrar** menú, seleccione **Todo**.
+   1. En el menú **Filtro**, seleccione **Todos**.
 
-   1. En el **Ver** menú, seleccione **Inicio de sesión de usuario**.
+   1. En el menú **Ver**, seleccione **Inicio de sesión de usuario**.
 
-   1. En el **Agrupación** menú, seleccione **Nada**.
+   1. En el menú **Agrupación**, seleccione **Nada**.
 
    1. Personalice la vista Inicio de sesión de usuario.
 
-      1. Clic **Ver** > **Personalizar vista**.
+      1. Haga clic en **Vista** > **Personalizar vista**.
 
-      1. Reemplace el **ID** con la columna **Correo electrónico** columna.
+      1. Reemplace la columna **ID** con la columna **Dirección de correo electrónico**.
 
       1. Cambie el nombre de la vista y guárdela.
+
    1. Crear nueva agrupación.
 
-      1. Clic **Agrupación** > **Nueva agrupación**.
+      1. Haga clic en **Agrupación** > **Nueva agrupación**.
 
-      1. Clic **Cambiar a modo de texto** en la esquina superior derecha de la página.
+      1. Haga clic en **Cambiar al modo de texto** en la esquina superior derecha de la página.
       1. Pegue el siguiente código de modo de texto:
 
          `group.0.linkedname=direct`
@@ -80,37 +81,35 @@ Para corregir direcciones de correo electrónico duplicadas dentro de una instan
          `group.0.valueexpression=LOWER({emailAddr})`
          `group.0.valueformat=string`
          `textmode=true`
+
    1. Cambie el nombre de la agrupación y guárdela.
-
-
 
 1. Realice una de las siguientes acciones:
 
    * (Método preferido) Agregue una dirección + a la dirección de correo electrónico del usuario para cada cuenta adicional.
 
-      Elija esta opción si un solo usuario de su organización necesita acceder a más de una cuenta de usuario. Si su proveedor de correo electrónico no admite el direccionamiento plus, debe proporcionar una cuenta de correo electrónico independiente para cada cuenta de Workfront.
+     Elija esta opción si un solo usuario de su organización necesita acceder a más de una cuenta de usuario. Si su proveedor de correo electrónico no admite el direccionamiento plus, debe proporcionar una cuenta de correo electrónico independiente para cada cuenta de Workfront.
 
-      Por ejemplo, John Doe puede tener una cuenta de usuario para su cuenta de uso diario y otra para utilizarla con fines de prueba:
+     Por ejemplo, John Doe puede tener una cuenta de usuario para su cuenta de uso diario y otra para utilizarla con fines de prueba:
 
       * johndoe@workfront.com
       * johndoe+reviewer@workfront.com
+
    * Cambie el dominio para utilizar un dominio falso añadiendo el siguiente texto a la dirección de correo electrónico:
 
-      `.inactive`
+     `.inactive`
 
-      Por ejemplo, Juan García podría tener los siguientes dominios: (Estos deben ser únicos).
+     Por ejemplo, Juan García podría tener los siguientes dominios: (Estos deben ser únicos).
 
       * johndoe@workfront.inactive
       * johndoe@workfront.inactive2
 
-      Ya no puede iniciar sesión en estas cuentas porque los restablecimientos de contraseña requieren una dirección de correo electrónico válida. Solo se puede acceder a estas cuentas mediante la función Iniciar sesión como.
+     Ya no puede iniciar sesión en estas cuentas porque los restablecimientos de contraseña requieren una dirección de correo electrónico válida. Solo se puede acceder a estas cuentas mediante la función Iniciar sesión como.
 
    * Eliminar usuarios innecesarios
 
-      >[!IMPORTANT]
-      >
-      >Elija esta opción solo para las cuentas que se crearon por error o para las cuentas de prueba. Esta opción solo se suele aplicar a cuentas con cero o un inicio de sesión erróneo. Las cuentas que se han utilizado con regularidad nunca deben eliminarse.
-
-
+     >[!IMPORTANT]
+     >
+     >Elija esta opción solo para las cuentas que se crearon por error o para las cuentas de prueba. Esta opción solo se suele aplicar a cuentas con cero o un inicio de sesión erróneo. Las cuentas que se han utilizado con regularidad nunca deben eliminarse.
 
 Si tiene usuarios en una instancia de Workfront con direcciones de correo electrónico coincidentes que solo difieren según el caso, Workfront se pondrá en contacto con usted para proporcionarle información adicional y una cronología cuando sea necesario actualizarlas.

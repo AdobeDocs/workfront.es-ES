@@ -94,15 +94,15 @@ Puede indicar tipos de retardo en las tareas cuando defina sus relaciones de pre
 ### Indicar tipos de retardo en la sección Predecesoras de una tarea {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Vaya a una tarea para la que desee definir el predecesor y el Tipo de retardo.
-1. Clic **Predecesoras** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, y luego **Predecesoras**.
-1. Clic **Agregar predecesora**.
-1. (Opcional) Si desea agregar una predecesora entre proyectos, reemplace la variable **Proyecto principal** nombre con otro proyecto.
+1. Haga clic en **Predecesoras** en el panel izquierdo. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Predecesoras**.
+1. Haga clic en **Agregar predecesora**.
+1. (Opcional) Si desea agregar una tarea predecesora entre proyectos, reemplace el nombre de **Proyecto principal** por otro proyecto.
 1. Comience a escribir el nombre de la tarea predecesora y, a continuación, selecciónela cuando aparezca en la lista.
-1. Seleccione el **Tipo de dependencia**.
+1. Seleccione el **tipo de dependencia**.
 
-   Para obtener más información sobre los tipos de dependencias predecesoras, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Para obtener más información acerca de los tipos de dependencias predecesoras, vea [Información general sobre los tipos de dependencias entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Especifique un **Retardo** importe con un valor numérico. Puede especificar números negativos para indicar un retardo negativo.
+1. Especifique una cantidad de **Lag** con un valor numérico. Puede especificar números negativos para indicar un retardo negativo.
 1. Seleccione entre las siguientes opciones para identificar el tipo de retardo que desea indicar para su predecesor:
 
    * **Días**
@@ -111,30 +111,30 @@ Puede indicar tipos de retardo en las tareas cuando defina sus relaciones de pre
    * **Día de la semana**
    * **Día de la semana (distinto de cero)**
 
-     Para obtener más información sobre estos tipos de retardo y cómo se calculan, consulte la sección [Tipos de retardo](#lag-types) en este artículo.
+     Para obtener más información acerca de estos tipos de retardo y cómo se calculan, vea la sección [Tipos de retardo](#lag-types) en este artículo.
 
 1. Haga clic en **Guardar**.
 
 ### Indicar tipos de retardo en una lista de tareas  {#indicate-lag-types-in-a-task-list}
 
-1. Vaya a una lista de tareas y seleccione. **Standard** vista.
+1. Vaya a una lista de tareas y seleccione la vista **Estándar**.
 
-1. Haga clic dentro de **Predecesoras** columna correspondiente a la tarea para la que desea especificar un predecesor y una cantidad de posposición.
+1. Haga clic dentro de la columna **Predecesoras** correspondiente a la tarea para la que desea especificar un predecesor y una cantidad de posposición.
 1. Introduzca lo siguiente sin espacios:
 
    * el número de la tarea que desea indicar como predecesora de la tarea seleccionada
    * la abreviatura del tipo de dependencia que desea indicar entre las tareas
 
-     Para obtener más información sobre las abreviaciones para los tipos de dependencia, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Para obtener más información acerca de las abreviaciones para los tipos de dependencia, vea [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * ya sea una **+** para un retardo positivo o un **-** para un retardo negativo
+   * un **+** para un retardo positivo o un **-** para un retardo negativo
 
    * el importe del retardo
    * la abreviatura del tipo de retardo que desee utilizar
 
-     Para obtener más información sobre las abreviaturas para los tipos de retardo, consulte la sección [Tipos de retardo](#lag-types) en este artículo.
+     Para obtener más información acerca de las abreviaturas para los tipos de retardo, vea la sección [Tipos de retardo](#lag-types) en este artículo.
 
-   Por ejemplo, para indicar que una tarea tiene una tarea predecesora y un retraso positivo de 2 días, debe introducir `1fs+2d` en la columna Predecesoras.
+   Por ejemplo, para indicar que una tarea tiene un predecesor y un retardo positivo de 2 días, debe escribir `1fs+2d` en la columna Predecesores.
 
 1. Pulse Enter en el teclado para guardar los cambios en la tarea.
 

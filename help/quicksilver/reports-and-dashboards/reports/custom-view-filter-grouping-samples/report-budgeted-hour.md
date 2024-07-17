@@ -48,26 +48,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Generar un informe de horas presupuestadas
 
-1. Haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Informes**.
+1. Haga clic en el **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Informes**.
 
-1. Clic **Nuevo informe > Hora presupuestada**.
+1. Haga clic en **Nuevo informe > Hora presupuestada**.
 
    La vista predeterminada se aplica al informe.
 
-1. (Opcional) Para facilitar la lectura del informe, haga clic en el icono **Horas presupuestadas** y luego **Cambiar a modo de texto**, luego cambie la
+1. (Opcional) Para que el informe sea más fácil de leer, haga clic en la columna **Horas presupuestadas**, luego en **Cambiar a modo de texto** y cambie el
 
    ```
    valuefield
@@ -83,20 +83,20 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    Esto redondea el número de horas presupuestadas al número de decimales que especifique.
 
-   Para obtener información sobre cómo redondear un número en Workfront, consulte el artículo [Resumen de las expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Para obtener información acerca de cómo redondear un número en Workfront, vea el artículo [Información general sobre expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. (Opcional) Haga clic en **Agregar columna** para añadir columnas adicionales.
+1. (Opcional) Haga clic en **Agregar columna** para agregar columnas adicionales.
 1. (Opcional) Para que el informe sea más fácil de leer, le recomendamos que le agregue una agrupación. Sugerimos la siguiente agrupación:
 
-   Haga clic en **Agrupaciones** y, a continuación, siga uno o varios de estos procedimientos:
+   Haga clic en la ficha **Agrupaciones** y, a continuación, siga uno o varios de estos procedimientos:
 
-   1. Clic **Agregar agrupación** y empiece a escribir &quot;Nombre del proyecto&quot; y, a continuación, selecciónelo cuando aparezca en la lista.
-   1. Clic **Agregar agrupación** y empiece a escribir &quot;Nombre de rol&quot;, luego selecciónelo cuando aparezca en la lista.
-   1. Clic **Agregar agrupación** y empiece a escribir **Fecha de asignación**, selecciónelo cuando aparezca en la lista y, a continuación, seleccione el periodo de tiempo por el que desee agrupar en el **Agrupar fechas por** field.
+   1. Haga clic en **Agregar agrupación** y empiece a escribir &quot;Nombre del proyecto&quot;. A continuación, selecciónelo cuando aparezca en la lista.
+   1. Haga clic en **Agregar agrupación** y empiece a escribir &quot;Nombre de rol&quot;. A continuación, selecciónelo cuando aparezca en la lista.
+   1. Haga clic en **Agregar agrupación** y empiece a escribir **Fecha de asignación**, selecciónela cuando aparezca en la lista y, a continuación, seleccione el periodo de tiempo por el que desea agrupar desde el campo **Agrupar fechas por**.
 
-1. (Opcional) Haga clic en **Filtros** para añadir filtros al informe.
-1. (Opcional) Haga clic en **Gráfico** para agregar un gráfico al informe.
-1. Clic **Guardar + Cerrar**.
+1. (Opcional) Haga clic en **Filtros** para agregar filtros al informe.
+1. (Opcional) Haga clic en **Gráfico** para agregar un gráfico al informe.
+1. Haga clic en **Guardar + Cerrar**.
 
 ## Revisar el informe de horas presupuestadas
 

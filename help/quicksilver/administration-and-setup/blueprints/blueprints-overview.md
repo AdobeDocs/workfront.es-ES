@@ -32,7 +32,7 @@ Los modelos son conjuntos de objetos de Workfront que se ocupan de casos de uso 
 >
 >   Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un departamento de recursos humanos.
 >
->* **Agregar lista de comprobación de TI de nuevo empleado**
+>* **Agregar nueva lista de comprobación de TI de empleado**
 >
 >   Este modelo contiene una plantilla para organizar las actividades de incorporación de nuevos empleados. El uso de esta plantilla permite a los equipos de TI operar de forma eficiente, lo que conduce a una nueva experiencia positiva para los empleados y a un camino más rápido hacia la productividad.
 >
@@ -40,14 +40,14 @@ Los modelos son conjuntos de objetos de Workfront que se ocupan de casos de uso 
 >
 >    Este modelo contiene una plantilla de proyecto (o lista de comprobación) que puede revisar con una breve lista de preguntas, recursos y vínculos para comprender claramente cómo se ha configurado la instancia de Workfront. Utilícelo cuando haya heredado recientemente una instancia de Workfront y necesite instrucciones sobre por dónde empezar.
 >
->Para revisar los modelos actuales, consulte [Lista de modelos disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+>Para revisar los modelos actuales, vea [Lista de modelos disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 
-Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que crezca con usted. Los administradores del sistema pueden examinar el catálogo de modelos e instalar plantillas de proyecto, tableros y estructuras organizativas listos para usar. Otros usuarios pueden examinar el catálogo y solicitar la instalación de un modelo. Para obtener más información, consulte [Examinar el catálogo de modelos y solicitar la instalación de modelos](../../administration-and-setup/blueprints/browse-catalog.md).
+Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que crezca con usted. Los administradores del sistema pueden examinar el catálogo de modelos e instalar plantillas de proyecto, tableros y estructuras organizativas listos para usar. Otros usuarios pueden examinar el catálogo y solicitar la instalación de un modelo. Para obtener más información, vea [Examinar el catálogo de modelos y solicitar la instalación de los modelos](../../administration-and-setup/blueprints/browse-catalog.md).
 
 Cada modelo está dirigido a un departamento y a un nivel de madurez específico para ayudarle a implementar las prácticas recomendadas comprobadas en su sistema más rápido. Los niveles de vencimiento detallados a continuación se indican en la tarjeta del catálogo de modelos y detalles.
 
-* **[!UICONTROL Gestionado]:** Las plantillas de proyecto administradas ayudan a apoyar la adopción de un nuevo proceso empresarial antes de que las actividades y los entregables se acepten completamente como un procedimiento estándar. Contienen tareas para garantizar que se sigue cada paso del nuevo proceso.
+* **[!UICONTROL Administrado]:** Las plantillas de proyecto administradas ayudan a admitir la adopción de un nuevo proceso empresarial antes de que las actividades y los entregables se acepten completamente como un procedimiento estándar. Contienen tareas para garantizar que se sigue cada paso del nuevo proceso.
 
 * **[!UICONTROL Integrado]:** Las plantillas de proyecto integradas suponen que las funciones empresariales son compatibles mediante un procedimiento operativo estándar. Los colaboradores del proceso conocen los pasos y las tareas que deben completar para seguir el proceso. Las plantillas de proyecto compatibles con este proceso contienen menos tareas para realizar el seguimiento de hitos y otros resultados clave necesarios para la creación de informes.
 
@@ -62,7 +62,7 @@ El tipo de modelo muestra lo que se incluye en el modelo. El tipo se muestra en 
 Están disponibles los siguientes tipos de modelos:
 
 * **Plantillas de proyecto**: incluye objetos estándar asociados a una plantilla de proyecto (tareas, problemas, funciones y equipos) y algunas preferencias relacionadas con esos objetos. Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
-* **Estructuras organizativas**: incluye objetos asociados a la estructura de una organización (compañías, grupos, funciones y equipos). Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Estructuras organizativas**: incluye objetos asociados con la estructura de una organización (compañías, grupos, roles y equipos). Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
 * **Paneles**: incluye uno o más paneles para un caso de uso específico, como los servicios de implementación.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
@@ -70,7 +70,7 @@ Están disponibles los siguientes tipos de modelos:
 * Setup features: Includes one or more elements that are configured in the Setup area of Workfront, such as layout templates.
 -->
 
-Para revisar los modelos actuales, consulte [Lista de modelos disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+Para revisar los modelos actuales, vea [Lista de modelos disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 ### Ver detalles
 
@@ -78,22 +78,22 @@ Cada modelo contiene una página de detalles. Desde esta página, puede:
 
 * Ver un resumen del contenido del flujo de trabajo
 * Lea un breve resumen del modelo
-* Ver historial de instalación (haga clic en **[!UICONTROL Ver detalles]** para ver la lista completa de objetos instalados con el modelo)
+* Ver el historial de instalación (haga clic en **[!UICONTROL Ver detalles]** para ver la lista completa de objetos instalados con el modelo)
 * Consulte descripciones de funciones, equipos, empresas y grupos
 * Vea un ejemplo visual del modelo específico, como una plantilla de proyecto (puede previsualizar la imagen completa en el explorador o descargarla)
 
-![[!UICONTROL Detalles del modelo] página](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Detalles de modelo] página](assets/blueprint-details-page-2022.png)
 
 ## Instalar un modelo
 
-Un administrador de Workfront puede instalar un modelo directamente en cualquier entorno (entornos de producción, vista previa o zona protegida). Para obtener más información, consulte [Instalar un modelo](../../administration-and-setup/blueprints/blueprints-install.md) o [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
+Un administrador de Workfront puede instalar un modelo directamente en cualquier entorno (entornos de producción, vista previa o zona protegida). Para obtener más información, consulta [Instalar un modelo](../../administration-and-setup/blueprints/blueprints-install.md) o [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
 
 Después de la instalación, es posible que no esté seguro de cuáles son las mejores acciones siguientes que debe realizar. Para obtener más información, consulte [Acciones que se deben realizar después de instalar un modelo](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
 ## Notas adicionales sobre modelos y plantillas
 
-Los modelos no reemplazan la funcionalidad de plantillas de proyecto en [!DNL Adobe Workfront]. Los modelos son una forma de crear nuevas plantillas más rápido para organizar más su trabajo en [!DNL Workfront].
+Los modelos no reemplazan la funcionalidad de plantillas de proyecto en [!DNL Adobe Workfront]. Los modelos son una forma de crear nuevas plantillas más rápido para organizar más trabajo en [!DNL Workfront].
 
-No puede copiar ni editar un modelo. Sin embargo, una vez que haya instalado la solución desde un modelo, puede modificar la plantilla de proyecto, los roles de trabajo o los equipos creados a partir del modelo de la misma manera que suele actualizar esos registros en la [!DNL Workfront] interfaz. Además, al instalar un modelo, la plantilla se almacena en la variable [!UICONTROL Plantillas] área de [!DNL Workfront] y el modelo original permanece en la [!UICONTROL Modelos] área. No es necesario que realice una copia de la plantilla antes de empezar a adaptarla a sus necesidades.
+No puede copiar ni editar un modelo. Sin embargo, una vez que haya instalado la solución desde un modelo, puede modificar la plantilla de proyecto, los roles de trabajo o los equipos creados a partir del modelo de la misma manera que suele actualizar esos registros en la interfaz [!DNL Workfront]. Además, al instalar un modelo, la plantilla se almacena en el área [!UICONTROL Plantillas] de [!DNL Workfront] y el modelo original permanece en el área [!UICONTROL Modelos]. No es necesario que realice una copia de la plantilla antes de empezar a adaptarla a sus necesidades.
 
 Los modelos no eliminan ni reemplazan nada configurado en su entorno. Si tiene intención de reemplazar una plantilla existente mediante la instalación de un modelo que cree una nueva plantilla, le recomendamos que desactive la versión anterior para evitar confusiones entre los planificadores que crean proyectos a partir de plantillas.

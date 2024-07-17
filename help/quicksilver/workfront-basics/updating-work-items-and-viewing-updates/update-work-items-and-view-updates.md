@@ -23,11 +23,11 @@ Puede utilizar la sección Actualizaciones de la mayoría de los objetos para ag
 
 Esta sección contiene los siguientes artículos:
 
-* [Información general de la sección Actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
-* [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+* [Actualizaciones de información general de sección](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Límites de caracteres en campos](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
 * [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
-* [Responder a notificaciones por correo electrónico](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
+* [Responder a las notificaciones por correo electrónico](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
 * [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [Ver todas las actualizaciones en un informe de notas](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Información general sobre el botón Trabajar en ello y Listo](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)

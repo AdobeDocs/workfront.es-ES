@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
-title: Actualización del visualizador de pruebas de escritorio
-description: En ocasiones, nuevas actualizaciones de software que contienen mejoras y correcciones de errores están disponibles para Desktop Proofing Viewer. Los usuarios pueden ejecutar estas actualizaciones sin la ayuda de un administrador de Adobe Workfront.
+title: Actualizar el Visor de corrección de escritorio
+description: En ocasiones, hay nuevas actualizaciones de software que contienen mejoras y correcciones de errores disponibles para el Visor de corrección de escritorio. Los usuarios pueden ejecutar estas actualizaciones sin la ayuda de un administrador de Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Actualización del visualizador de pruebas de escritorio
+# Actualizar el Visor de corrección de escritorio
 
-En ocasiones, nuevas actualizaciones de software que contienen mejoras y correcciones de errores están disponibles para Desktop Proofing Viewer. Los usuarios pueden ejecutar estas actualizaciones sin la ayuda de un administrador de Adobe Workfront.
+En ocasiones, hay nuevas actualizaciones de software que contienen mejoras y correcciones de errores disponibles para el Visor de corrección de escritorio. Los usuarios pueden ejecutar estas actualizaciones sin la ayuda de un administrador de Adobe Workfront.
 
 <!--
 >[!IMPORTANT]
@@ -32,50 +32,50 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan de Adobe Workfront</td> 
-   <td> <p>Plan actual: Pro o superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> <p>Plan heredado: Cualquiera (debe tener las pruebas habilitadas para el usuario)</p> </td> 
+   <td> <p>Cualquiera</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 {{latest-version}}
 
-## Comprobar actualizaciones manualmente
+## Comprobar manualmente si hay actualizaciones
 
-El Visor de pruebas de escritorio comprueba automáticamente si hay actualizaciones al iniciarse. 
+El Visor de corrección de escritorio comprueba automáticamente si hay actualizaciones cuando se inicia. 
 
 Para buscar actualizaciones manualmente:
 
-1. En un Mac, haga clic en **Prueba de Workfront** > **Acerca de la prueba de Workfront** en la barra de navegación de Apple situada encima del Visor de prueba de escritorio. 
+1. En un Mac, haga clic en **Workfront Proof** > **Acerca de Workfront Proof** en la barra de navegación de Apple sobre el Visor de corrección de escritorio. 
 
    O
 
-   En Windows, haga clic en **Ventana** > **Acerca de la prueba de Workfront** en la barra de menú situada encima del Visor de prueba de escritorio.
+   En Windows, haga clic en **Ventana** > **Acerca de Workfront Proof** en la barra de menús situada encima del Visor de corrección de escritorio.
 
-   El Visor de pruebas de escritorio comprueba si hay actualizaciones.
+   El Visor de corrección de escritorio busca actualizaciones.
 
-1. Si hay actualizaciones disponibles, siga las indicaciones que aparecen en la pantalla para actualizar el Visor de prueba de escritorio.
+1. Si hay actualizaciones disponibles, siga las indicaciones de la pantalla para actualizar el Visor de corrección de escritorio.
 
 ## Actualizaciones estándar
 
-El Visor de prueba de escritorio puede funcionar sin las actualizaciones no críticas. Sin embargo, para una funcionalidad óptima, le recomendamos que las aplique cuando esté disponible. Recibirá una notificación cuando estén disponibles mediante un **Actualización de aplicaciones** en la barra lateral izquierda del Visor de prueba de escritorio.
+El Visor de corrección de escritorio puede funcionar sin las actualizaciones no críticas. Sin embargo, para obtener una funcionalidad óptima, le recomendamos que las aplique cuando esté disponible. Se le notificará cuando estén disponibles mediante un botón **Actualización de la aplicación** en la barra lateral izquierda del Visor de corrección de escritorio.
 
-1. Haga clic en **Actualización de aplicación.**
+1. Haga clic en **Actualización de la aplicación.**
 
    Las actualizaciones se descargan.
 
-1. Haga clic en **Reinicie.**
+1. Haga clic en **Reiniciar.**
 
-   La variable **Visor de prueba de escritorio** se vuelve a iniciar y puede reanudar el trabajo en la prueba.
+   **Visor de corrección de escritorio** se reinicia y usted puede reanudar el trabajo en la revisión.
 
-## Actualizaciones necesarias
+## Actualizaciones requeridas
 
-Es importante que ejecute las actualizaciones necesarias para Desktop Proofing Viewer. Después, debe reiniciar para seguir utilizando el visor.
+Es importante que ejecute las actualizaciones necesarias para el Visor de pruebas de escritorio. Después, debe reiniciar para seguir utilizando el visualizador.
 
-1. Abra el Visor de prueba de escritorio.
-1. En el cuadro que aparece, haga clic en **Reinicie.**
+1. Abra el Visor de corrección de escritorio.
+1. En el cuadro que aparece, haga clic en **Volver a iniciar.**
 
-   El Visor de prueba de escritorio se vuelve a iniciar y puede reanudar el trabajo en la prueba. 
+   El Visor de corrección de escritorio se vuelve a iniciar y puede reanudar el trabajo de revisión. 

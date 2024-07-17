@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Enviar [!DNL Adobe Workfront] solicitudes de [!DNL Microsoft] Equipos
+title: Enviar  [!DNL Adobe Workfront] solicitudes de [!DNL Microsoft] equipos
 description: Una vez que el propietario del equipo haya instalado Adobe Workfront para Microsoft Teams, podrá enviar solicitudes de Workfront desde su cuenta de Microsoft Teams. Para ello, debe tener una cuenta de Workfront con acceso para enviar solicitudes. Para obtener información sobre la instalación de Workfront para Microsoft Teams, consulte Instalación de Workfront para Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Enviar [!DNL Adobe Workfront] solicitudes de [!DNL Microsoft] Equipos
+# Enviar [!DNL Adobe Workfront] solicitudes de [!DNL Microsoft] equipos
 
 >[!NOTE]
 >
 >Actualmente, la integración de Adobe Workfront para Microsoft Teams solo es compatible con la experiencia clásica de Microsoft Teams.
 
-Después de que el propietario del equipo instale [!DNL Adobe Workfront for Microsoft Teams], puede enviar [!DNL Workfront] solicitudes de su [!DNL Microsoft Teams] cuenta. Para ello, debe tener una cuenta de Workfront con acceso para enviar solicitudes. Para obtener información acerca de la instalación [!DNL Workfront for Microsoft Teams], consulte [Instalación [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Una vez que el propietario del equipo haya instalado [!DNL Adobe Workfront for Microsoft Teams], podrá enviar [!DNL Workfront] solicitudes desde su cuenta de [!DNL Microsoft Teams]. Para ello, debe tener una cuenta de Workfront con acceso para enviar solicitudes. Para obtener información acerca de la instalación de [!DNL Workfront for Microsoft Teams], vea [Instalar [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] ya no es compatible [!DNL Internet Explorer]. Para usar la variable [!DNL Adobe Workfront for Microsoft Teams integration], debe utilizar un explorador web distinto de [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] ya no admite [!DNL Internet Explorer]. Para usar [!DNL Adobe Workfront for Microsoft Teams integration], debe usar un explorador web que no sea [!DNL Internet Explorer].
 
 
 ## Requisitos de acceso
@@ -45,24 +45,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
-Su [!DNL Microsoft Teams] el propietario del equipo debe instalar [!DNL Workfront] para [!DNL Microsoft Teams] antes de poder usarlo.
+El propietario del equipo [!DNL Microsoft Teams] debe instalar [!DNL Workfront] para [!DNL Microsoft Teams] para que pueda usarlo.
 
 ## Enviar [!DNL Workfront] solicitudes de [!DNL Microsoft Teams]
 
-1. Haga clic en **[!UICONTROL Más aplicaciones añadidas]** Icono (tres puntos) en la barra de navegación izquierda de [!DNL Microsoft Teams].
+1. Haz clic en el icono **[!UICONTROL Más aplicaciones agregadas]** (tres puntos) en la barra de navegación izquierda de [!DNL Microsoft Teams].
 
-1. Clic **[!DNL Workfront]** en la lista que aparece.
-1. Haga clic en **[!UICONTROL Solicitudes]** pestaña.
-1. Clic **[!UICONTROL Nueva solicitud]**.
-1. En el **[!UICONTROL Seleccionar un tipo de solicitud]** , seleccione la cola de solicitudes en la que desea enviar la solicitud.
+1. Haga clic en **[!DNL Workfront]** en la lista que aparece.
+1. Haga clic en la ficha **[!UICONTROL Solicitudes]**.
+1. Haga clic en **[!UICONTROL Nueva solicitud]**.
+1. En el cuadro **[!UICONTROL Seleccionar un tipo de solicitud]**, seleccione la cola de solicitudes en la que desea enviar la solicitud.
 1. (Opcional) Seleccione un grupo de temas o un tema de la cola, si están disponibles en la cola de solicitudes.
 1. Especifique la siguiente información:
 
-   (Según la configuración de la cola de solicitudes, las opciones y cuadros que vea pueden variar. Para obtener una lista y una descripción completas de los posibles campos, consulte [Crear y enviar [!DNL Adobe Workfront] solicitudes](../../manage-work/requests/create-requests/create-submit-requests.md).)
+   (Según la configuración de la cola de solicitudes, las opciones y cuadros que vea pueden variar. Para obtener una lista y una descripción completas de los campos posibles, consulte [Crear y enviar [!DNL Adobe Workfront] solicitudes](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,28 +83,28 @@ Su [!DNL Microsoft Teams] el propietario del equipo debe instalar [!DNL Workfron
     </tbody> 
    </table>
 
-1. (Opcional) Si la variable [!DNL Workfront] el administrador ha adjuntado formularios personalizados a la cola de solicitudes y ha proporcionado la información en los campos disponibles en los formularios personalizados.
+1. (Opcional) Si el administrador de [!DNL Workfront] adjunta formularios personalizados a la cola de solicitudes, proporcione la información en los campos disponibles en los formularios personalizados.
 1. Los formularios personalizados se muestran en la parte inferior de la nueva solicitud.
-1. Clic **[!UICONTROL Enviar]**.
+1. Haga clic en **[!UICONTROL Enviar]**.
 
    La solicitud aparece en [!DNL Workfront], en la cola de solicitudes especificada. Recibirá una confirmación de que la solicitud se ha enviado correctamente.
 
-## Ver [!DNL Workfront] solicitudes enviadas en [!DNL Microsoft Teams]
+## Ver [!DNL Workfront] solicitudes que envió en [!DNL Microsoft Teams]
 
-1. Haga clic en **[!UICONTROL Más aplicaciones añadidas]** Icono (tres puntos) en la barra de navegación izquierda de [!DNL Microsoft Teams].
+1. Haz clic en el icono **[!UICONTROL Más aplicaciones agregadas]** (tres puntos) en la barra de navegación izquierda de [!DNL Microsoft Teams].
 
-1. Clic **[!DNL Workfront]** en la lista que aparece.
-1. Haga clic en **[!UICONTROL Solicitudes]** pestaña.
+1. Haga clic en **[!DNL Workfront]** en la lista que aparece.
+1. Haga clic en la ficha **[!UICONTROL Solicitudes]**.
 
-   Las solicitudes enviadas se enumeran en [!UICONTROL Mis solicitudes enviadas] área de la [!UICONTROL Solicitudes] pestaña. No se puede configurar la información mostrada en esta ficha acerca de las solicitudes enviadas.
+   Las solicitudes que ha enviado se enumeran en el área [!UICONTROL Mis solicitudes enviadas] de la pestaña [!UICONTROL Solicitudes]. No se puede configurar la información mostrada en esta ficha acerca de las solicitudes enviadas.
 
-   Puede ver la siguiente información sobre las solicitudes enviadas en la [!UICONTROL Mis solicitudes enviadas] área de la [!UICONTROL Solicitudes] pestaña:
+   Puede ver la siguiente información sobre sus solicitudes enviadas en el área de [!UICONTROL Mis solicitudes enviadas] de la pestaña [!UICONTROL Solicitudes]:
 
-   * **[!UICONTROL Asunto]**: nombre de la solicitud
+   * **[!UICONTROL Asunto]**: El nombre de la solicitud
    * **[!UICONTROL Número de referencia]**
    * **[!UICONTROL Tipo de solicitud]**: Nombre de la cola de solicitudes donde envió la solicitud
    * **[!UICONTROL Estado]**
    * **[!UICONTROL Enviado el]**: La fecha en la que envió la solicitud
    * **[!UICONTROL Asignado a]**
 
-1. (Opcional) Haga clic en el encabezado de cualquiera de las columnas de la lista para ordenar la lista por esa columna. De forma predeterminada, [!DNL Workfront] ordena la lista por el [!UICONTROL Enviado el] fecha, a partir de la solicitud enviada más recientemente.
+1. (Opcional) Haga clic en el encabezado de cualquiera de las columnas de la lista para ordenar la lista por esa columna. De manera predeterminada, [!DNL Workfront] ordena la lista por la fecha [!UICONTROL Enviado el], a partir de la solicitud enviada más recientemente.

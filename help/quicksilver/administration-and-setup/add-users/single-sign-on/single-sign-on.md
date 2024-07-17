@@ -27,7 +27,7 @@ Esta sección contiene los siguientes artículos:
 
 * [Información general sobre el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 * [Actualizar usuarios para el inicio de sesión único](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Configuración de Adobe Workfront con SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [Actualización de metadatos de SAML 2.0 en el proveedor de identidad](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Configuración de Adobe Workfront con SAML 2.0 mediante ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [Configurar Adobe Workfront con SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+* [Actualizar metadatos de SAML 2.0 en su proveedor de identidad](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [Configurar Adobe Workfront con SAML 2.0 mediante ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Desactivar el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)

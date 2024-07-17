@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 1%
 
 Puede localizar los siguientes tipos de solicitudes que usted u otra persona ha enviado, o solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
 
-* **Sección Enviada**: Todas las solicitudes que usted u otra persona hayan enviado y a las que tenga acceso como mínimo a Ver.
-* **Borrador de sección** : Todas las solicitudes que ha iniciado, pero que nunca ha finalizado y que nunca ha enviado. Para obtener más información sobre las solicitudes de borrador, consulte [Creación y envío de solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **Sección enviada**: todas las solicitudes que usted u otra persona ha enviado y tiene acceso al menos a Ver.
+* **Sección de borrador** : Todas las solicitudes que ha iniciado, pero que nunca ha finalizado y nunca ha enviado. Para obtener más información sobre las solicitudes de borrador, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
@@ -48,11 +48,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos en las solicitudes o superior</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos en las solicitudes o superior</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,8 +63,8 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 Para localizar solicitudes que usted u otros usuarios hayan enviado:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Clic **Enviado** en el panel izquierdo para ver todas las solicitudes enviadas.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en **Enviado** en el panel izquierdo para ver todas las solicitudes enviadas.
 
    Puede ver hasta 2000 solicitudes y es posible que se muestren en varias páginas.
 
@@ -116,17 +116,17 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado:
    >
    >Cuando se aleja de la lista de solicitudes enviadas, se conserva la opción de ordenación seleccionada.
 
-1. (Opcional) Seleccione una solicitud en la lista y haga clic en el botón **Abrir resumen** icono ![](assets/open-summary-with-text-nwe.png) para abrir el Panel de resumen y mostrar información adicional sobre la solicitud, agregar comentarios, documentos o asignarla. Para obtener información sobre el panel Resumen, consulte [Resumen, descripción general](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Opcional) Seleccione una solicitud en la lista y, a continuación, haga clic en el icono **Abrir resumen** ![](assets/open-summary-with-text-nwe.png) para abrir el Panel de resumen y mostrar información adicional sobre la solicitud, agregar comentarios, documentos o asignarla. Para obtener información sobre el Panel de resumen, consulte [Resumen general](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Si el panel Resumen ya está abierto, el icono Abrir resumen cambia a Cerrar resumen.
 
-1. (Opcional y condicional) Haga clic en **X** en la esquina superior derecha o en el icono **Cerrar resumen** icono ![](assets/close-summary-with-text-nwe.png) para cerrar el Panel de resumen.
+1. (Opcional y condicional) Haga clic en el icono **X** en la esquina superior derecha o en el icono **Cerrar resumen** ![](assets/close-summary-with-text-nwe.png) para cerrar el Panel de resumen.
 
    Si un problema se convirtió en una tarea o proyecto y el problema se eliminó en el proceso de conversión, el Panel de resumen está en blanco. Para obtener información sobre la conversión de problemas, consulte [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Desde el **Icono de filtro** ![](assets/filter-nwepng.png) en la parte superior derecha de la lista, seleccione cualquiera de los filtros enumerados en la tabla siguiente.
+1. Desde el **icono de filtro** ![](assets/filter-nwepng.png) en la parte superior derecha de la lista, seleccione cualquiera de los filtros enumerados en la tabla siguiente.
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado:
     </tbody> 
    </table>
 
-1. (Opcional) Haga clic en **Página de filtro** icono ![](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por su nombre. La lista se actualiza con resultados que coinciden con los criterios de búsqueda.
+1. (Opcional) Haga clic en el icono **Filtrar página** ![](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por su nombre. La lista se actualiza con resultados que coinciden con los criterios de búsqueda.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado:
    </ul></li>
    -->
 
-1. Clic **Borradores** para ver todas las solicitudes redactadas. Workfront guarda un número ilimitado de borradores para cada cola de solicitudes en esta carpeta. Cuando se introduce una nueva solicitud para un tema de la cola que ya tiene un borrador, se le pedirá que utilice uno existente. Para obtener más información, consulte [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. Haga clic en **Borradores** para ver todas las solicitudes redactadas. Workfront guarda un número ilimitado de borradores para cada cola de solicitudes en esta carpeta. Cuando se introduce una nueva solicitud para un tema de la cola que ya tiene un borrador, se le pedirá que utilice uno existente. Para obtener más información, consulte [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
  
 

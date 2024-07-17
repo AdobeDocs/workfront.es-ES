@@ -43,20 +43,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuración del nivel de acceso</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a Proyectos y tareas</p>  <p>Para obtener información sobre el acceso a los problemas del nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>.  </p> </td> 
+   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a Proyectos y tareas</p>  <p>Para obtener información sobre el acceso a los problemas de su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>.  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos sobre el problema</p> <p>Aportar o permisos superiores en el proyecto o tarea</p> <p> Para obtener información sobre la concesión de permisos a los problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> </td> 
+   <td> <p>Administrar permisos sobre el problema</p> <p>Contribute o permisos superiores en el proyecto o la tarea</p> <p> Para obtener información sobre la concesión de permisos a los problemas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront. Para obtener más información acerca de los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Consideraciones para eliminar problemas
 
-* El administrador de Workfront o de un grupo debe habilitar la eliminación de problemas en un proyecto que tenga el estado Completo en el área de Preferencias del proyecto. Para obtener información sobre la configuración de preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* El administrador de Workfront o de un grupo debe habilitar la eliminación de problemas en un proyecto que tenga el estado Completo en el área de Preferencias del proyecto. Para obtener información sobre cómo configurar las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Si el problema ha registrado horas, el administrador de Workfront o de un grupo debe permitir la eliminación de estos problemas configurando las Preferencias de tarea y problema en la instancia de Workfront. Esto también se aplica cuando intenta eliminar proyectos que tienen problemas con horas registradas en ellos.
 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </MadCap:conditionalText>
   -->
 
-  Para obtener más información sobre cómo habilitar la eliminación de problemas en los que se registran horas, consulte la sección &quot;Eliminación&quot; en [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obtener más información sobre cómo habilitar la eliminación de problemas en los que se registran horas, consulte la sección &quot;Eliminación&quot; en [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Impacto de la eliminación de problemas
 
@@ -76,12 +76,12 @@ Los siguientes objetos adjuntos a un problema también se eliminan al eliminar u
 
 * Documentos
 
-  No se puede eliminar un problema que tenga adjunto un documento desprotegido. Para obtener más información sobre la retirada de documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
+  No se puede eliminar un problema que tenga adjunto un documento desprotegido. Para obtener más información acerca de cómo desproteger documentos, vea [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
 * Notas
 * Rutas de aprobación
 
-Según la configuración de Workfront o del administrador del grupo en las Preferencias de eliminación de proyectos, tareas o problemas en **Hoja de horas y preferencias de horas** En la instancia de Workfront, las horas registradas para los problemas se gestionan de una de las siguientes maneras al eliminar un problema:
+Según la forma en que el administrador de Workfront o del grupo configure las preferencias de eliminación de proyecto, tarea o problema en **Preferencias de horas y hoja de horas** de la instancia de Workfront, las horas registradas para los problemas se gestionan de una de las siguientes maneras al eliminar un problema:
 
 * Mover al proyecto y no se restaurará en el problema, si el problema se restaura más adelante.
 * Se eliminarán y se restaurarán en función del problema si este se restaura más adelante.
@@ -94,10 +94,10 @@ Según la configuración de Workfront o del administrador del grupo en las Prefe
   </MadCap:conditionalText>
   -->
 
-  Para obtener más información sobre la configuración de las preferencias de eliminación para los problemas de horas de sesión, consulte [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Para obtener más información acerca de cómo configurar las preferencias de eliminación para los problemas de horas registradas, consulte [Configurar la hoja de horas y las preferencias de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Los usuarios asignados al problema o a la aprobación del problema permanecen en el equipo del proyecto.\
-  Para obtener más información sobre los equipos de proyecto, consulte [Información general del equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Para obtener más información sobre los equipos del proyecto, vea [Información general del equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Eliminar problemas
 
@@ -106,11 +106,11 @@ Según la configuración de Workfront o del administrador del grupo en las Prefe
 
 ### Eliminar varios problemas en un proyecto simultáneamente  {#delete-multiple-issues-in-a-project-simultaneously}
 
-1. Vaya a la **Menú principal**.
-1. Clic **Proyectos**.
+1. Ir al **menú principal**.
+1. Haga clic en **Proyectos**.
 1. Haga clic en el nombre del proyecto que contiene los problemas que desea eliminar.
-1. Clic **Problemas** en el panel izquierdo.
-1. Seleccione un problema y haga clic en **Eliminar** icono ![](assets/delete.png) al principio de la lista.
+1. Haga clic en **Problemas** en el panel izquierdo.
+1. Seleccione un problema y luego haga clic en el icono **Eliminar** ![](assets/delete.png) en la parte superior de la lista.
 
 1. Si la eliminación está permitida, haga clic en **Sí, eliminarla**.\
    Es posible que el administrador de Workfront no permita la eliminación de problemas en los que se registran horas.\
@@ -121,16 +121,16 @@ Según la configuración de Workfront o del administrador del grupo en las Prefe
 {{step1-to-projects}}
 
 1. Haga clic en el nombre del proyecto que contiene el problema que desea eliminar.
-1. Clic **Problemas** en el panel izquierdo.
+1. Haga clic en **Problemas** en el panel izquierdo.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Haga clic en el nombre del problema que desee eliminar.
-1. Haga clic en **Más** a la derecha del nombre del problema.
+1. Haga clic en el menú **Más** que se encuentra a la derecha del nombre del problema.
 
    ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
-1. Clic **Eliminar problema**.
+1. Haga clic en **Eliminar problema**.
 1. Si la eliminación está permitida, haga clic en **Sí, eliminarla**.
 
    Es posible que el administrador de Workfront no permita la eliminación de problemas en los que se registran horas.\
@@ -138,4 +138,4 @@ Según la configuración de Workfront o del administrador del grupo en las Prefe
 
 ## Restaurar problemas eliminados
 
-Un administrador de Workfront o de grupo puede restaurar los problemas en un plazo de 30 días después de eliminarlos. Para obtener más información sobre la restauración de elementos en Workfront, consulte [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Un administrador de Workfront o de grupo puede restaurar los problemas en un plazo de 30 días después de eliminarlos. Para obtener más información acerca de cómo restaurar elementos en Workfront, vea [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

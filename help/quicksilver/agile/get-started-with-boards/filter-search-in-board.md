@@ -28,9 +28,9 @@ Al ordenar el tablero, se ordenan todas las tarjetas de las columnas. No puede o
 
 La búsqueda también le ayuda a localizar una tarjeta específica en el tablero.
 
-Cuando se aplican filtros, se muestra un indicador en el tablero ![Filtro aplicado al tablero](assets/boards-filterapplied-30x30.png). Clic **[!UICONTROL Borrar todo]** para eliminar todos los filtros del tablero y haga clic en el icono contraer para cerrar el panel de filtros.
+Cuando se aplican filtros, se muestra un indicador en el panel ![Filtro aplicado al panel](assets/boards-filterapplied-30x30.png). Haga clic en **[!UICONTROL Borrar todo]** para eliminar todos los filtros del tablero y, a continuación, haga clic en el icono contraer para cerrar el panel de filtros.
 
-![Panel Filtro](assets/boards-all-filters-collapsed-0823.png)
+![Panel de filtro](assets/boards-all-filters-collapsed-0823.png)
 
 ## Requisitos de acceso
 
@@ -51,27 +51,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Filtrar un tablero por personas asignadas
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic [!UICONTROL **Filtrar**], expanda el [!UICONTROL Miembros] y seleccione la persona o personas cuyas tarjetas desee ver. También puede mostrar las tarjetas sin asignar.
+1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Miembros] y seleccione la persona o personas cuyas tarjetas desee ver. También puede mostrar las tarjetas sin asignar.
 
    ![Filtrar por miembro](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrado de tableros por etiquetas
 
 1. Acceda al tablero.
-1. Clic [!UICONTROL **Filtrar**], expanda el [!UICONTROL Etiquetas] y seleccione las etiquetas que desee ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Etiquetas] y seleccione las etiquetas que desee ver.
 
    ![Filtrar por etiqueta](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrar un tablero por estado
 
 1. Acceda al tablero.
-1. Clic [!UICONTROL **Filtrar**], expanda el [!UICONTROL Estados] y seleccione los tipos de estado que desee ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Estados] y seleccione los tipos de estado que desee ver.
 
    También puede ocultar las tarjetas completadas.
 
@@ -80,7 +80,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Filtrar un tablero por fecha de vencimiento
 
 1. Acceda al tablero.
-1. Clic [!UICONTROL **Filtrar**], expanda el [!UICONTROL Fecha de vencimiento] y seleccione las opciones de fecha que desee ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Fecha de vencimiento] y seleccione las opciones de fecha que desee ver.
 
    Solo se muestran las tarjetas en los intervalos de fechas seleccionados.
 
@@ -91,10 +91,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Puede filtrar el tablero para que también muestre las tarjetas archivadas.
 
 1. Acceda al tablero.
-1. Clic [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
+1. Haga clic en [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
 1. Expandir [!UICONTROL **Tarjetas**].
 1. Activar [!UICONTROL **Mostrar tarjetas archivadas en el tablero**].
-1. Clic [!UICONTROL **Filtrar**], expanda el [!UICONTROL Tarjetas archivadas] y seleccione. **[!UICONTROL Tarjetas archivadas]** para mostrar cualquier tarjeta archivada.
+1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Tarjetas archivadas] y seleccione **[!UICONTROL Tarjetas archivadas]** para mostrar cualquier tarjeta archivada.
 
    El filtro muestra el número de tarjetas archivadas.
 
@@ -102,14 +102,14 @@ De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Pu
 
    >[!NOTE]
    >
-   >El [!UICONTROL Tarjetas archivadas] La sección no está disponible en el filtro si no ha activado la configuración para mostrar tarjetas archivadas. Para obtener más información, consulte [Personalizar los campos que se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >La sección [!UICONTROL Tarjetas archivadas] no está disponible en el filtro si no ha activado la opción de configuración para mostrar las tarjetas archivadas. Para obtener más información, consulte [Personalizar qué campos se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Seleccionar **[!UICONTROL Tarjetas archivadas]** de nuevo para desactivar la opción y mostrar solo las tarjetas activas.
+1. Vuelva a seleccionar **[!UICONTROL tarjetas archivadas]** para borrar la opción y mostrar solo las tarjetas activas.
 
 ## Filtrar un tablero por conexión
 
 1. Acceda al tablero.
-1. Clic [!UICONTROL **Filtrar**], expanda el [!UICONTROL Conexión] y seleccione la sección [!DNL Workfront] proyectos para las tarjetas conectadas que desee ver.
+1. Haga clic en [!UICONTROL **Filtro**], expanda la sección [!UICONTROL Conexión] y seleccione los [!DNL Workfront] proyectos de las tarjetas conectadas que desee ver.
 
    También puede mostrar tarjetas que no estén conectadas a un proyecto.
 
@@ -120,24 +120,24 @@ De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Pu
 Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.
 
 1. Acceda al tablero.
-1. Clic [!UICONTROL **Ordenar por**] y seleccione [!UICONTROL **Nombre**], [!UICONTROL **Fecha de vencimiento**], [!UICONTROL **Estimación**], [!UICONTROL **Estado**], o [!UICONTROL **Conexión**].
+1. Haga clic en [!UICONTROL **Ordenar por**] y seleccione [!UICONTROL **Nombre**], [!UICONTROL **Fecha de vencimiento**], [!UICONTROL **Estimación**], [!UICONTROL **Estado**] o [!UICONTROL **Conexión**].
 
    La conexión (nombre de proyecto) se aplica solo a tarjetas conectadas y las demás opciones ordenarán tarjetas conectadas y ad hoc en las columnas.
 
    La opción &quot;orden del usuario&quot; devuelve las tarjetas en el orden en que se establecieron manualmente, antes de que se aplicaran otras opciones de ordenación. Este es el orden predeterminado para las columnas.
 
-1. Seleccionar [!UICONTROL **Orden inverso**] para ordenar las columnas en orden inverso a la opción ordenar.
+1. Seleccione [!UICONTROL **Orden inverso**] para ordenar las columnas en orden inverso a la opción de ordenación.
 
    La flecha del icono de ordenación indica si las columnas se ordenan en orden ascendente o descendente.
 
-   Cuando se aplica una ordenación distinta de la predeterminada, se muestra un indicador en el icono de ordenación ![Orden aplicado](assets/sort-applied-boards.png).
+   Cuando se aplica una ordenación distinta de la predeterminada, se muestra un indicador en el icono de ordenación ![Ordenar aplicado](assets/sort-applied-boards.png).
 
    ![Ordenar por columnas en un tablero](assets/sort-by-columns-in-board.png)
 
 ## Buscar en un tablero
 
 1. Acceda al tablero.
-1. Clic [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
+1. Haga clic en [!UICONTROL **Buscar**] y escriba un término de búsqueda. A continuación, pulse Intro.
 
    Se muestran todas las tarjetas que contienen el término de búsqueda.
 

@@ -19,7 +19,7 @@ Utilice la sección Alineación de objetivos para mostrar una vista holística d
 
 Para obtener información sobre la alineación de objetivos y cómo conseguirla, consulte también los siguientes artículos:
 
-* [Información general sobre la alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Resumen de alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
 ## Requisitos de acceso
@@ -54,7 +54,7 @@ O
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
 <p>O</p>
-<p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+<p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Nivel de acceso</td>
@@ -66,7 +66,7 @@ O
 <div>
 <p>Ver o permisos superiores a la meta para verla</p>
 <p>Administrar permisos para el objetivo y editarlo</p>
-<p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+<p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
 </div> </td>
 </tr>
 <tr>
@@ -81,11 +81,11 @@ O
 
 ## Navegue por la sección Alineación de objetivos
 
-1. Haga clic en **Menú principal** icono ![Icono del menú principal](../goal-alignment/assets/dots-main-menu-icon.png) en la esquina superior derecha de la pantalla, haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](../goal-alignment/assets/dots-main-menu-icon.png) en la esquina superior derecha de la pantalla y, a continuación, haga clic en **Metas**.
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. Clic **Alineación de metas** en el panel izquierdo.
-1. Utilice los filtros de la esquina superior derecha del gráfico de alineación para seleccionar solo las metas que sean importantes para usted. Para obtener información sobre el uso de filtros en Workfront Goals, consulte [Filtrar información en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. Haga clic en **Alineación de metas** en el panel izquierdo.
+1. Utilice los filtros de la esquina superior derecha del gráfico de alineación para seleccionar solo las metas que sean importantes para usted. Para obtener información acerca del uso de filtros en Workfront Goals, vea [Información sobre filtros en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    Los objetivos que coinciden con los filtros se muestran en el gráfico de alineación de las tarjetas.
 
@@ -112,13 +112,13 @@ O
       <td>Nombre de la meta. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Barra de progreso de objetivos <span>y progreso</span></td> 
-      <td> <p>El progreso de la meta indica cuánto de la meta se ha alcanzado actualmente. Se trata de un cálculo automático de la media del progreso de todas las metas, resultados y actividades alineados para la meta en función del tiempo transcurrido desde el inicio del periodo de tiempo de la meta. Para obtener información sobre el cálculo del progreso en los objetivos, consulte <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Información general sobre el progreso y la condición de los objetivos en Adobe Workfront Goals</a>. </p> 
+      <td role="rowheader">Barra de progreso de objetivo <span>y progreso</span></td> 
+      <td> <p>El progreso de la meta indica cuánto de la meta se ha alcanzado actualmente. Se trata de un cálculo automático de la media del progreso de todas las metas, resultados y actividades alineados para la meta en función del tiempo transcurrido desde el inicio del periodo de tiempo de la meta. Para obtener información acerca de cómo calcular el progreso de los objetivos, vea <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Información general sobre el progreso y la condición de los objetivos en Adobe Workfront Goals</a>. </p> 
        <div> 
         <p>El progreso real de la meta en la fecha actual. Los siguientes valores y colores de progreso indican la probabilidad de que el objetivo se alcance a tiempo: </p> 
         <ul> 
-         <li><span>En Target</span> (indicador verde): el objetivo es puntual y se alcanzará a tiempo.</li> 
-         <li> <span>En riesgo</span> (indicador amarillo): el objetivo se queda atrás y es posible que no se alcance a tiempo.</li> 
+         <li><span>En Target</span> (indicador verde): el objetivo se ha cumplido a tiempo y se alcanzará a tiempo.</li> 
+         <li> <span>En riesgo</span> (indicador amarillo): el objetivo se retrasa y es posible que no se logre a tiempo.</li> 
          <li> <span>Con problemas</span> (indicador rojo): el objetivo corre el riesgo de no alcanzarse a tiempo. </li> 
         </ul> 
        </div> </td> 
@@ -139,7 +139,7 @@ O
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
-1. Haga clic en **flecha hacia abajo** debajo de una meta para expandir y ver aún más las metas secundarias.
+1. Haga clic en el icono **flecha** que apunta hacia abajo debajo de una meta para expandir y ver aún más las metas secundarias.
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
@@ -151,7 +151,7 @@ O
 
    ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Clic **Muéstrelos.** para mostrar las metas eliminadas actualmente por el filtro.
+1. Haga clic en **Mostrarlos** para mostrar las metas que el filtro ha eliminado actualmente.
 
    Observe los siguientes cambios en el gráfico de alineación:
 
@@ -162,7 +162,7 @@ O
 
      A la izquierda del nombre del filtro se muestra el vínculo Reaplicar filtro.
 
-1. (Opcional) Haga clic en **Volver a aplicar filtro** para volver a los resultados originales y mostrar la jerarquía de objetivos.
+1. (Opcional) Haga clic en **Volver a aplicar el filtro** para volver a los resultados originales y mostrar la jerarquía de objetivos.
 1. (Opcional) Pase el ratón sobre el indicador de progreso para saber dónde debe estar el progreso de la meta para el día actual.
 
    ![](assets/progress-mouse-over-alignment-chart-350x163.png)
@@ -188,12 +188,12 @@ O
     </tbody> 
    </table>
 
-1. Haga clic en una tarjeta de objetivos para abrir la página de objetivos. Para obtener información sobre cómo editar los objetivos existentes, consulte [Editar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). Para obtener información sobre la actualización del progreso para los objetivos, consulte [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Haga clic en una tarjeta de objetivos para abrir la página de objetivos. Para obtener información sobre cómo editar metas existentes, consulte [Editar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). Para obtener información acerca de cómo actualizar el progreso de las metas, consulte [Actualizar el progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 1. Haga clic en la flecha hacia arriba de la meta del nivel actual para volver al nivel anterior en la jerarquía del gráfico.
 
    O
 
-   (Opcional) Haga clic en **Salir de jerarquía de metas** para mostrar las tarjetas de todos los objetivos que coinciden con el filtro actual, sin mostrar su conexión entre sí.
+   (Opcional) Haga clic en **Salir de la jerarquía de metas** para mostrar las tarjetas de todas las metas que coincidan con el filtro actual, sin mostrar su conexión entre sí.
 
 

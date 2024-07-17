@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >El representante de cuentas le informará si forma parte de esta fase.
 >
->Para obtener más información, consulte [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
+>Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Puede utilizar el Asistente de IA para generar, actualizar o quitar registros basados en el contexto de página y la estructura de registros actuales.
 
@@ -38,7 +38,7 @@ Los comandos del usuario y la ejecución por parte de la IA de esos comandos tra
 
 * El asistente de IA está disponible para los administradores de Workfront de forma predeterminada.
 
-* El administrador de Workfront debe habilitar el asistente de IA para todos los demás usuarios. Para obtener más información, consulte [Habilitar o deshabilitar el Ayudante de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* El administrador de Workfront debe habilitar el asistente de IA para todos los demás usuarios. Para obtener más información, consulte [Habilitar o deshabilitar el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 * El asistente de IA funciona en el contexto de cada página. Las solicitudes que envía para el asistente de IA deben hacer referencia a la funcionalidad que está disponible en la página que ha abierto.
 
@@ -72,15 +72,15 @@ Puede utilizar el asistente de IA para realizar las siguientes acciones en este 
 
 ## Acceso al asistente de IA
 
-1. Inicie sesión en Workfront y vaya a **Planificación** área.
+1. Inicie sesión en Workfront y luego vaya al área de **Planning**.
 
-1. Haga clic en **tarjeta de workspace**.
+1. Haga clic en una **tarjeta del área de trabajo**.
 
-1. (Opcional) Haga clic en un **tarjeta de tipo de registro**.
+1. (Opcional) Haga clic en una **tarjeta de tipo de registro**.
 
-1. (Opcional) Haga clic en un **registro** para abrir el archivo del registro **Detalles** página.
+1. (Opcional) Haga clic en un **registro** para abrir la página **Detalles** del registro.
 
-1. Haga clic en **Icono de asistente de IA** en la esquina superior derecha de la pantalla, en la barra de navegación global.
+1. Haga clic en el icono **Asistente de IA** en la esquina superior derecha de la pantalla en la barra de navegación global.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

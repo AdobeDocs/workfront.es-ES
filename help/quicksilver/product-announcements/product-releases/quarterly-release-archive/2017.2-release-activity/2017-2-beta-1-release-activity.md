@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión beta 1 de 2017.2
-description: Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión beta 1 de 2017.2. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 10 de mayo de 2017.
+title: Actividad de la versión 2017.2 de Beta 1
+description: Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión 2017.2 Beta 1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 10 de mayo de 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión beta 1 de 2017.2
+# Actividad de la versión 2017.2 de Beta 1
 
-Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión beta 1 de 2017.2. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 10 de mayo de 2017.
+Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión 2017.2 Beta 1. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 10 de mayo de 2017.
 
 >[!IMPORTANT]
 >
 >La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-La versión beta 1 de 2017.2 contiene mejoras para administradores de Workfront y otros usuarios:
+La versión 2017.2 de Beta 1 contiene mejoras para administradores de Workfront y otros usuarios:
 
 **Para administradores:**
 
@@ -30,14 +30,14 @@ La versión beta 1 de 2017.2 contiene mejoras para administradores de Workfront 
 * [Nuevo titular de vista previa con información de la versión](#new-preview-banner-with-release-information) 
 * [Disponibilidad de API 7](#api-7-availability)
 
-**Para todos los usuarios:**
+**Para Todos Los Usuarios:**
 
 * [Suscribirse a tareas y problemas](#subscribe-to-tasks-and-issues)
-* [Mejoras en Resource Scheduling](#resource-scheduling-improvements)
+* [Mejoras en la programación de recursos](#resource-scheduling-improvements)
 * [Comparar revisiones](#compare-proofs)
 * [Nuevo campo para conjuntos de recursos para usuarios y proyectos](#new-field-for-resource-pools-for-users-and-projects)
 * [Aspecto actualizado en la lista de paneles](#updated-look-and-feel-in-the-dashboard-list)
-* [Eliminación de la funcionalidad Endosos en Workfront](#removing-the-endorsements-functionality-in-workfront)
+* [Quitar la funcionalidad de endosos en Workfront](#removing-the-endorsements-functionality-in-workfront)
 * [Reordenar columnas en cualquier lista con arrastrar y soltar (se está eliminando la funcionalidad)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
 ## Restaurar documentos {#restore-documents}
@@ -46,17 +46,17 @@ Los administradores de Workfront ahora pueden restaurar documentos individuales 
 
 Antes de este cambio, los administradores de Workfront solo podían restaurar proyectos, tareas y problemas (incluidos los documentos eliminados junto con el proyecto, la tarea o el problema eliminados).
 
-Para obtener más información, consulte [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Para obtener más información, vea [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Nuevo titular de vista previa con información de la versión {#new-preview-banner-with-release-information}
 
-El banner azul en la parte superior del entorno de vista previa de espacio aislado ahora muestra el nombre de la versión y el número de versión del entorno de vista previa. Al hacer clic en el nombre de la versión, accederá a un artículo del sitio de ayuda en el que puede encontrar más información sobre la versión de vista previa actual. Para obtener más información sobre la vista previa del entorno de espacio aislado, consulte [Entorno de zona protegida de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
+El banner azul en la parte superior del entorno de vista previa de espacio aislado ahora muestra el nombre de la versión y el número de versión del entorno de vista previa. Al hacer clic en el nombre de la versión, accederá a un artículo del sitio de ayuda en el que puede encontrar más información sobre la versión de vista previa actual. Para obtener más información sobre el entorno de vista previa de espacio aislado, consulte [Entorno de espacio aislado de vista previa de Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## Disponibilidad de API 7 {#api-7-availability}
 
 La API 7 ya está disponible e incluye objetos nuevos y actualizados.
 
-Para obtener más información, consulte [Novedades de la versión 7 de la API](../../../../wf-api/api/new-api-version-7.md).
+Para obtener más información, consulte [Novedades de la versión 7](../../../../wf-api/api/new-api-version-7.md) de la API.
 
 ## Suscribirse a tareas y problemas {#subscribe-to-tasks-and-issues}
 
@@ -66,20 +66,20 @@ A partir de la versión actual, si desea seguir elementos que no están asignado
 
 Puede suscribirse a problemas y tareas para los que tiene permisos al menos de Ver. Cuando se agrega un nuevo comentario al problema o la tarea a la que se suscribe, se le notificará por correo electrónico ese comentario.
 
-Para obtener más información sobre la suscripción a problemas y tareas, consulte [Suscribirse a elementos en Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+Para obtener más información acerca de la suscripción a problemas y tareas, vea [Suscribirse a elementos en Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Mejoras en Resource Scheduling {#resource-scheduling-improvements}
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Las siguientes mejoras están disponibles al programar recursos:
 
 * [Ver más elementos en la escala de tiempo de programación de recursos en una sola vista](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
-* [Configurar el nombre del proyecto para que se muestre en las tareas y los problemas de la cronología de programación](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
-* [Configurar si las tareas principales se muestran en la cronología de programación](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
-* [Expandir o contraer más fácilmente todas las tareas y problemas de la cronología de programación](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [Configurar el nombre del proyecto para que se muestre en las tareas y problemas de la cronología de programación](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
+* [Configurar si las tareas principales se muestran en la escala de tiempo de programación](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
+* [Expandir o contraer más fácilmente todas las tareas y problemas en la escala de tiempo de programación](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [La información sobre roles y usuarios permanece en la parte superior de la cronología de programación al desplazarse](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Ver más elementos en la escala de tiempo de programación de recursos en una sola vista {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}
@@ -88,7 +88,7 @@ Al programar recursos para un equipo o para cualquier proyecto del que sea geren
 
 Si decide mostrar los nombres de los proyectos en cada tarea y problema en la escala de tiempo de la programación, el espacio vertical de cada tarea y problema se expande, lo que da como resultado menos tareas y problemas que se muestran en una sola vista.
 
-Para obtener más información sobre la programación de recursos, consulte &quot;Introducción a la programación de recursos&quot;.
+Para obtener más información sobre la programación de recursos, consulte  &quot;Introducción a la programación de recursos&quot;.
 
 ### Configurar el nombre del proyecto para que se muestre en las tareas y los problemas de la cronología de programación {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ Ahora, cuando se desplaza hacia abajo en la escala de tiempo de la programación
 
 Antes de este cambio, el nombre de función y el nombre de usuario se desplazaban fuera de la vista actual.
 
-Para obtener más información sobre la programación de recursos, consulte &quot;Introducción a la programación de recursos&quot;.
+Para obtener más información sobre la programación de recursos, consulte  &quot;Introducción a la programación de recursos&quot;.
 
 ## Comparar revisiones {#compare-proofs}
 
@@ -134,7 +134,7 @@ La versión R1.5 introdujo nuevas funciones en torno a la planificación de recu
 
 Ahora puede asociar estos conjuntos de recursos con proyectos y con usuarios. Ahora verá un nuevo campo llamado &quot;Conjuntos de recursos&quot; en el proyecto, así como en el objeto de usuario.
 
-Para obtener más información sobre los nuevos conjuntos de recursos y cómo se pueden asociar a proyectos y usuarios, consulte [Resumen de conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Para obtener más información sobre los nuevos conjuntos de recursos y cómo se pueden asociar a proyectos y usuarios, vea [Resumen de los conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Aspecto actualizado en la lista de paneles {#updated-look-and-feel-in-the-dashboard-list}
 
@@ -142,7 +142,7 @@ Ahora, al ver una lista de tableros, el aspecto es más moderno y escalable.
 
 Anteriormente, esta funcionalidad solo estaba disponible para los usuarios inscritos en Acceso anticipado. Ahora está disponible para todos los usuarios en el entorno de vista previa. Se pondrá a disposición de todos los usuarios en el entorno de producción con la versión 2017.2. 
 
-Para obtener más información sobre los paneles, consulte [Crear un tablero](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Para obtener más información acerca de los paneles, vea [Crear un panel](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Eliminación de la funcionalidad Endosos en Workfront {#removing-the-endorsements-functionality-in-workfront}
 
@@ -161,4 +161,4 @@ Los endosos no han sido un objeto de informe, por lo que no hay cambios en los i
 
 La funcionalidad para cambiar el orden de las columnas en cualquier lista arrastrando una columna desde una ubicación y soltándola en otra se está eliminando del acceso anticipado en el entorno de producción con la versión 2017.2 y ya no estará disponible para ningún usuario. 
 
-Para obtener más información sobre esta funcionalidad, consulte [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Para obtener más información acerca de esta funcionalidad, vea [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).

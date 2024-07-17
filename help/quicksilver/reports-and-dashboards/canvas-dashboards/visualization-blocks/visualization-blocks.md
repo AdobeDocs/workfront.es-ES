@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Adición o edición de un bloque de visualización en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
+* [Agregar o editar un bloque de visualización en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
 * [Configurar una visualización de barras en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
 * [Configuración de una visualización de columnas en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
 * [Configuración de la visualización circular en lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)

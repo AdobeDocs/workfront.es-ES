@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, no es necesario realizar ninguna acción.
 >
->Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Los servidores de Adobe Workfront utilizan el protocolo SAML 2.0 para la autenticación y la autorización. Una vez actualizado, el nuevo certificado sigue siendo válido durante un año. Cuando sea el momento de renovar el certificado de su proveedor de identidad, recibirá una advertencia en Workfront que le avisará de que este cambio debe producirse. Como administrador de Workfront, puede administrar este cambio en el sistema.
 
@@ -72,13 +72,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Para revisar el mensaje de advertencia y confirmar la actualización de los metadatos de SAML 2.0 en su proveedor de identidad:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Sistema** > **Inicio de sesión único**.
+1. Haga clic en **Sistema** > **Inicio de sesión único**.
 
-1. En el **Tipo** menú desplegable, seleccione **SAML 2.0**.
+1. En el menú desplegable **Tipo**, seleccione **SAML 2.0**.
 
-1. Clic **Descargar metadatos de SAML 2.0**.
+1. Haga clic en **Descargar metadatos de SAML 2.0**.
 
    Esto descarga el certificado renovado de Workfront para SAML 2.0, que contiene los metadatos correctos para el servidor.
 
@@ -93,7 +93,7 @@ Para revisar el mensaje de advertencia y confirmar la actualización de los meta
 
 1. En el servidor del proveedor de identidad, actualice el nuevo certificado que descargó.
 1. (Condicional) Si la URL del servicio de consumidor de afirmación (ACS) o la URL de respuesta han cambiado en su proveedor de identidad, vuelva a cambiarla a la URL que copió en el paso 5.
-1. En Workfront, en la **Página de inicio de sesión único (SSO)**, asegúrese de que esta opción está seleccionada: **El nuevo certificado de Workfront ya se ha cargado al proveedor de identidad**.
+1. En Workfront, en la **página Inicio de sesión único (SSO)**, asegúrese de que está seleccionada esta opción: **El nuevo certificado de Workfront ya se ha cargado al proveedor de identidad**.
 
    >[!NOTE]
    >
@@ -107,8 +107,8 @@ Para revisar el mensaje de advertencia y confirmar la actualización de los meta
 
    El mensaje de advertencia ya no se muestra porque ha reconocido la renovación del certificado SAML 2.0 en el servidor de su proveedor de identidad.
 
-1. Clic **Probar conexión** para probar la configuración.
+1. Haga clic en **Probar conexión** para probar la configuración.
 
    Debería ver un mensaje que confirme que la conexión se ha realizado correctamente.
 
-Para obtener más información o ayuda con la configuración manual de los metadatos, póngase en contacto con nuestro equipo de asistencia, tal como se explica en [Contactar con Atención al cliente](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Para obtener más información o ayuda con la configuración manual de los metadatos, póngase en contacto con nuestro equipo de asistencia, tal como se explica en [Póngase en contacto con la atención al cliente](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

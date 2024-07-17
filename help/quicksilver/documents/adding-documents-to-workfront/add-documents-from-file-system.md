@@ -21,7 +21,7 @@ Puede agregar documentos a proyectos, tareas o problemas en las siguientes área
 * El área Documentos de un objeto Workfront
 * Tarjeta conectada en una placa Workfront
 
-También puede cargar nuevas versiones de documentos y agregar vínculos a documentos de proveedores de la nube de terceros, como Google Drive, Dropbox y Microsoft OneDrive. Para obtener información sobre cómo agregar nuevas versiones de documentos, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md). Para obtener información sobre cómo agregar documentos de proveedores de la nube de terceros, consulte [Vinculación de documentos desde aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+También puede cargar nuevas versiones de documentos y agregar vínculos a documentos de proveedores de la nube de terceros, como Google Drive, Dropbox y Microsoft OneDrive. Para obtener información acerca de cómo agregar nuevas versiones de documentos, vea [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md). Para obtener información sobre cómo agregar documentos de proveedores de la nube de terceros, consulte [Vincular documentos de aplicaciones externas](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 No hay restricciones en cuanto a los tipos y tamaños de archivos que se pueden cargar en Workfront. Sin embargo, para que la carga se realice correctamente, debe completarse en un plazo de cinco minutos y tener disponible un espacio de almacenamiento adecuado.
 
@@ -47,7 +47,7 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ Puede añadir nuevos documentos a Workfront desde el sistema de archivos de su e
 Para agregar un documento:
 
 1. Vaya al proyecto, tarea o problema en el que desee agregar un documento nuevo.
-1. Haga clic en **Documentos** y, a continuación, haga clic en **Añadir nuevo** menú desplegable.
+1. Haga clic en la ficha **Documentos** y, a continuación, haga clic en el menú desplegable **Agregar nuevo**.
 
    ![](assets/add-new-doc.png)
 
@@ -83,28 +83,28 @@ Para agregar un documento:
       <td role="rowheader">Cargar documentos desde el sistema de archivos en la estación de trabajo</td> 
       <td> 
        <ol> 
-        <li value="1">Desde el <strong>Añadir nuevo</strong> menú desplegable, seleccione <strong>Documento.</strong></li> 
+        <li value="1">En el menú desplegable <strong>Agregar nuevo</strong>, seleccione <strong>Documento.</strong></li> 
         <li value="2"> <p>Busque y seleccione el documento que desea añadir del sistema de archivos de la estación de trabajo.<br></p> <p>Para seleccionar varios documentos, pulse la tecla Mayús mientras selecciona otros archivos.</p> </li> 
-        <li value="3">Clic <strong>Abrir</strong>.</li> 
+        <li value="3">Haga clic en <strong>Abrir</strong>.</li> 
        </ol> 
-       <p><b>NOTA</b>: también puede arrastrar y soltar archivos directamente desde el administrador de archivos a la lista de documentos.</td> 
+       <p><b>NOTA</b>: También puede arrastrar y soltar archivos directamente desde el administrador de archivos a la lista de documentos.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cargar documentos desde una aplicación de terceros, como Google Drive o SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Desde el <strong>Añadir nuevo</strong> menú desplegable, seleccione <strong>Desde &lt;name_of_third-party_application&gt;</strong>.</p> <p>Por ejemplo, para cargar un documento desde Google Drive, haga clic en <strong>Desde Google Drive</strong>.</p> </li> 
-        <li value="2"> <p>Siga las indicaciones para seleccionar el documento en la aplicación de terceros.<br></p> <p>Para obtener más información sobre los documentos vinculados, consulte <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Vinculación de documentos desde aplicaciones externas</a>.</p> </li> 
+        <li value="1"> <p>En el menú desplegable <strong>Agregar nuevo</strong>, seleccione <strong>De &lt;name_of_third-party_application&gt;</strong>.</p> <p>Por ejemplo, para cargar un documento desde Google Drive, haz clic en <strong>Desde Google Drive</strong>.</p> </li> 
+        <li value="2"> <p>Siga las indicaciones para seleccionar el documento en la aplicación de terceros.<br></p> <p>Para obtener más información acerca de los documentos vinculados, vea <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Vincular documentos de aplicaciones externas</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Solicitar un documento a otro usuario de Workfront</td> 
       <td> 
        <ol> 
-        <li value="1">Desde el <strong>Añadir nuevo</strong> menú desplegable, seleccione <strong>Solicitar un documento</strong>.</li> 
-        <li value="2">En el <strong>¿A quién se lo solicita?</strong> , escriba el nombre del usuario desde el que desea solicitar el documento.</li> 
-        <li value="3">En el <strong>Dígales lo que está solicitando</strong> , escriba el nombre del documento.</li> 
-        <li value="4"> <p>Clic <strong>Enviar solicitud</strong>.</p> <p>La solicitud se mostrará en la ficha Documentos.</p> <p>Para obtener más información sobre la solicitud de documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar un documento</a>.</p> </li> 
+        <li value="1">En el menú desplegable <strong>Agregar nuevo</strong>, seleccione <strong>Solicitar un documento</strong>.</li> 
+        <li value="2">En el cuadro <strong>Quién se lo solicita a</strong>, escriba el nombre del usuario al que desea solicitar el documento.</li> 
+        <li value="3">En el cuadro <strong>Dígales lo que solicita</strong>, escriba el nombre del documento.</li> 
+        <li value="4"> <p>Haga clic en <strong>Enviar solicitud</strong>.</p> <p>La solicitud se mostrará en la ficha Documentos.</p> <p>Para obtener más información sobre cómo solicitar documentos, consulte <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Solicitar un documento</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -129,4 +129,4 @@ Los archivos dañados se eliminan en un plazo de 24 horas tras la detección, a 
 
 ### Restricciones de nombre de archivo {#file-name-restrictions}
 
-Los archivos cargados en Workfront no pueden contener ciertos caracteres en los nombres de archivo. Si un archivo contiene cualquiera de los siguientes caracteres en el nombre del archivo, los caracteres se quitan del nombre del archivo cuando se carga el archivo: `! # % * \ | ' " / ? < > { } [ ]`.
+Los archivos cargados en Workfront no pueden contener ciertos caracteres en los nombres de archivo. Si un archivo contiene cualquiera de los siguientes caracteres en el nombre de archivo, los caracteres se quitarán del nombre de archivo cuando se cargue el archivo: `! # % * \ | ' " / ? < > { } [ ]`.

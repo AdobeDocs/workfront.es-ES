@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Categorizar artículos por color en el tablero Anulación
-description: La asociación de color predeterminada de los artículos de tablero de Anulación varía en función de si el tablero de artículos se encuentra en una iteración o en un proyecto.
+title: Categorizar historias por color en el panel Scrum
+description: La asociación de colores predeterminada de las historias del guion gráfico de Scrum difiere según si el guion gráfico se encuentra en una iteración o en un proyecto.
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Categorizar artículos por color en la variable [!UICONTROL Anulación] tablero
+# Categorizar historias por color en el tablero [!UICONTROL Scrum]
 
-## Cambiar la asociación de color predeterminada de los artículos
+## Cambiar la asociación de colores predeterminada de las historias
 
-La asociación de color predeterminada de los artículos varía en función de si el tablero de artículos se encuentra en una iteración o en un proyecto:
+La asociación de colores predeterminada de las historias difiere según si el guion gráfico se encuentra en una iteración o en un proyecto:
 
-* **[!UICONTROL Iteración]**: En una iteración, los mosaicos del tablero de historia están codificados por colores según el proyecto al que esté asociado el artículo. (A cada proyecto se le asigna arbitrariamente un color en el tablero de artículos). Puede cambiar este comportamiento predeterminado para cada equipo ágil. Los colores de los artículos ágiles de una iteración se pueden asociar al proyecto (predeterminado), a la prioridad del artículo, al propietario o a la forma libre. Para obtener más información, consulte [Configurar cómo se utilizan los indicadores de color para los artículos en el tablero de artículos ágil](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) en el artículo [Configurar la anulación](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iteración]**: en una iteración, los mosaicos del guion gráfico tienen un código de color según el proyecto con el que esté asociado el artículo. (A cada proyecto se le asigna arbitrariamente un color en el guion gráfico). Puede cambiar este comportamiento predeterminado para cada equipo Agile. Los colores de las historias Agile en una iteración pueden vincularse al proyecto (predeterminado), a la prioridad de la historia, al propietario o a la forma libre. Para obtener más información, consulte [Configurar cómo se usan los indicadores de color para las historias en el panel de historias Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Proyecto]**: En un proyecto, todas las subtareas coinciden con el color de la tarea principal, de modo que los colores de todas las historias en cualquier espacio en blanco determinado sean los mismos. Los colores se asignan aleatoriamente a tareas cuando se crean si la tarea no tiene ninguna subtarea o no tiene una tarea principal. Puede cambiar este comportamiento predeterminado modificando la vista ágil. Los colores de artículos ágiles de un proyecto se pueden asociar al artículo principal (predeterminado), a la prioridad del artículo, al propietario o a la forma libre. Para obtener más información, consulte [Crear o personalizar un [!UICONTROL Águila] ver](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) en [Información general sobre vistas en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Proyecto]**: en un proyecto, todas las subtareas coinciden con el color de la tarea principal, de modo que los colores de todas las historias de cualquier carril de baño son iguales. Los colores se asignan aleatoriamente a las tareas cuando se crean si la tarea no tiene subtareas o no tiene una tarea principal. Puede cambiar este comportamiento predeterminado modificando la vista Agile. Los colores de las historias Agile de un proyecto se pueden asociar a la historia principal (predeterminada), la prioridad de la historia, el propietario o la forma libre. Para obtener más información, consulte [Crear o personalizar una vista de [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) en [Información general de vistas en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisitos de acceso
 
@@ -39,27 +39,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Work] o superior</p> </td> 
+   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede cambiar el nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-## Cambiar el color de los artículos al utilizar el formato libre
+## Cambiar el color de las historias al usar la forma libre
 
-Si la configuración del equipo ágil se ha configurado para que la variable [!UICONTROL Asociar color de tarjeta a] está configurada en [!UICONTROL Forma libre], los usuarios pueden cambiar manualmente el color de los mosaicos de artículos individuales. Esto puede resultar útil para comunicar otros tipos de información que son importantes para el equipo o la organización:
+Si la configuración del equipo Agile se ha configurado de modo que la opción [!UICONTROL Asociar color de tarjeta a] se establezca en [!UICONTROL Forma libre], los usuarios podrán cambiar manualmente el color de los mosaicos de artículos individuales. Esto puede resultar útil para comunicar otros tipos de información que son importantes para el equipo o la organización:
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y, a continuación, haga clic en **[!UICONTROL Equipos]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront, y luego haga clic en **[!UICONTROL Equipos]**.
 
-1. (Opcional) Haga clic en el **[!UICONTROL Cambiar equipo]** icono ![Icono Cambiar equipo](assets/switch-team-icon.png), seleccione un nuevo equipo de Anulación en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica, o seleccione **[!UICONTROL Iteración actual]**.
-1. Pase el ratón sobre el banner de color que aparece en la parte superior del mosaico de la historia.
+1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
+1. Pase el ratón sobre el titular de color que hay en la parte superior del mosaico de la historia.
 
    ![](assets/agile-story-color1-nwe-350x140.png)
 

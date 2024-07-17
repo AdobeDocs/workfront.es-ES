@@ -3,27 +3,27 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: "Preguntas frecuentes: Workfront Proof: migración de EE. UU. a EMEA"
+title: "Preguntas frecuentes: Migración de Workfront Proof a EE. UU. a EMEA"
 description: Workfront se está poniendo en contacto directamente con todas las organizaciones afectadas por la migración de Workfront Proof US a EMEA.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# FAQ: [!UICONTROL Workfront Proof] - Migración de Estados Unidos a EMEA
+# Preguntas frecuentes: [!UICONTROL Workfront Proof] - Migración de EE. UU. a EMEA
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 ## ¿Cómo sé si este cambio afecta a mi organización?
 
-[!DNL Workfront] se está poniendo en contacto directamente con todas las organizaciones afectadas por el [!DNL Workfront Proof] Migración de Estados Unidos a EMEA.
+[!DNL Workfront] se está poniendo en contacto directamente con todas las organizaciones afectadas por la migración de EE. UU. a EMEA de [!DNL Workfront Proof].
 
 ## ¿Tengo que hacer algo para prepararme para la migración?
 
@@ -39,15 +39,15 @@ Una vez completada la migración de cuentas, empezaremos a trasladar todos sus a
 
 Una vez completada la migración, usted y los usuarios únicamente podrán acceder a los archivos y pruebas desde el centro de datos de EMEA.
 
-## Qué ocurrirá con la dirección URL con la que accedo [!DNL Workfront Proof]?
+## ¿Qué ocurrirá con la dirección URL que use para acceder a [!DNL Workfront Proof]?
 
-Esta dirección URL no se cambiará. Podrá acceder a la [!DNL Workfront] sistema exactamente como lo ha hecho en el pasado.
+Esta dirección URL no se cambiará. Podrá tener acceso al sistema [!DNL Workfront] exactamente como lo ha hecho en el pasado.
 
 ## ¿Puedo seguir utilizando mis vínculos de prueba y marcadores antiguos?
 
-Los marcadores específicos de la prueba ya no funcionarán después de la migración. Cualquier persona que utilice uno recibirá un mensaje que le permitirá acceder a la prueba a través de un [!UICONTROL Ir a la revisión] botón:
+Los marcadores específicos de la prueba ya no funcionarán después de la migración. Cualquiera que utilice una recibirá un mensaje que le dará acceso a la revisión mediante el botón [!UICONTROL Ir a la revisión]:
 
-![This_proof_has_migration.png](assets/this-proof-has-been-migrated-350x361.png)
+![This_proof_has_been_migration.png](assets/this-proof-has-been-migrated-350x361.png)
 
 ## ¿Seguirán siendo el mismo nombre de usuario y contraseña que antes?
 
@@ -61,4 +61,4 @@ Si tiene otra cuenta de EE. UU. con la que se asocia y está obligado a mantener
 
 ## ¿Qué sucede si utilizo SSO en mi cuenta?
 
-Si utiliza SSO en su cuenta de prueba, deberá volver a configurar la cuenta para que utilice la nueva [!DNL proofhq.eu] dominio.
+Si utiliza SSO en su cuenta de revisión, deberá volver a configurar la cuenta para que utilice el nuevo dominio [!DNL proofhq.eu].

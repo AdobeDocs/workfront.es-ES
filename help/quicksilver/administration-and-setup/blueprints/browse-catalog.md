@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: Examine el catálogo de modelos y solicite la instalación de modelos
-description: Los modelos proporcionan componentes básicos para ayudarle a crear un sistema de gestión del trabajo que crezca con usted. Todo [!DNL Adobe Workfront] los usuarios pueden examinar el catálogo de modelos. Además, puede realizar una solicitud para que su [!DNL Workfront] administrador instale un modelo específico si el administrador ha habilitado las solicitudes de modelo.
+title: Examinar el catálogo de modelos y solicitar la instalación de modelos
+description: Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que crezca con usted. Todos los usuarios  [!DNL Adobe Workfront] pueden examinar el catálogo de modelos. Además, puede solicitar que su administrador de  [!DNL Workfront] instale un modelo específico para usted si el administrador ha habilitado las solicitudes de modelo.
 author: Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Examine el catálogo de modelos y solicite la instalación de modelos
+# Examinar el catálogo de modelos y solicitar la instalación de modelos
 
-Los modelos proporcionan componentes básicos para ayudarle a crear un sistema de gestión del trabajo que crezca con usted. Todo [!DNL Adobe Workfront] los usuarios pueden examinar el catálogo de modelos. Además, puede realizar una solicitud para que su [!DNL Workfront] administrador instale un modelo específico si el administrador ha habilitado las solicitudes de modelo.
+Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que crezca con usted. Todos los usuarios de [!DNL Adobe Workfront] pueden examinar el catálogo de modelos. Además, puede solicitar que su administrador de [!DNL Workfront] le instale un modelo específico si el administrador ha habilitado las solicitudes de modelo.
 
-Solo el administrador del sistema puede instalar modelos. Para obtener más información, consulte [Instalación de un modelo](../../administration-and-setup/blueprints/blueprints-install.md).
+Solo el administrador del sistema puede instalar modelos. Para obtener más información, consulte [Instalar un modelo](../../administration-and-setup/blueprints/blueprints-install.md).
 
 ## Requisitos de acceso
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licencia</strong></td> 
+   <td role="rowheader"><strong>Licencia de Adobe [!DNL Workfront]</strong></td> 
    <td> <p>[!UICONTROL Request] o superior</p> </td> 
   </tr>
  </tbody> 
@@ -41,31 +41,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Examinar el catálogo de modelos
 
-El catálogo muestra todos los modelos disponibles para su organización. Para obtener información sobre modelos como tipos de modelo y niveles de vencimiento, consulte [Información general sobre modelos](../../administration-and-setup/blueprints/blueprints-overview.md).
+El catálogo muestra todos los modelos disponibles para su organización. Para obtener información sobre modelos, como tipos de modelos y niveles de madurez, consulte [Información general sobre modelos](../../administration-and-setup/blueprints/blueprints-overview.md).
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Planes]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Modelos]**.
 1. Examine el catálogo de modelos.
-1. Utilice el panel de filtro de la derecha para filtrar el catálogo mediante las siguientes opciones:
+1. Utilice el panel de filtro de la derecha para filtrar el catálogo con las siguientes opciones:
 
    * Caso de uso (como [!UICONTROL Recursos humanos] o [!UICONTROL Marketing])
-   * Nivel de vencimiento ([!UICONTROL gestionado] o [!UICONTROL integrado])
+   * Nivel de madurez ([!UICONTROL administrado] o [!UICONTROL integrado])
    * Estado de instalación ([!UICONTROL instalado] o no [!UICONTROL instalado])
    * Tipo de modelo (<!--Custom Form, -->[!UICONTROL Panel], [!UICONTROL Estructura organizativa], [!UICONTROL Plantilla de proyecto]<!--, Request Queue, Setup Feature-->)
 
-1. (Opcional) Haga clic en **[!UICONTROL Detalles]** en un modelo para aprender cómo funciona.
+1. (Opcional) Haga clic en **[!UICONTROL Detalles]** de un modelo para saber cómo funciona.
 
-   Para obtener información sobre el contenido disponible en la [!UICONTROL Detalles] página, consulte [Información general sobre modelos](../../administration-and-setup/blueprints/blueprints-overview.md).
+   Para obtener información sobre el contenido disponible en la página [!UICONTROL Detalles], consulte [Información general sobre modelos](../../administration-and-setup/blueprints/blueprints-overview.md).
 
-## Solicitud de instalación de un modelo
+## Solicitar la instalación de un modelo
 
-Puede solicitar la instalación de un modelo si el administrador del sistema permite solicitudes de modelo. Para obtener más información, consulte [Configuración del acceso a los modelos](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+Puede solicitar la instalación de un modelo si el administrador del sistema permite las solicitudes de modelo. Para obtener más información, consulte [Configurar el acceso a los modelos](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-Cuando se solicita la instalación de un modelo, la solicitud se envía al administrador del sistema. Se le notifica cuando se completa la solicitud, según sus preferencias de notificación.
+Cuando solicita que se instale un modelo, la solicitud se envía al administrador del sistema. Se le notificará cuando se complete la solicitud, según sus preferencias de notificación.
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Planes]**.
-1. Busque el modelo que desea instalar. Puede filtrar por caso de uso, nivel de vencimiento, estado de instalación y escribir utilizando los filtros del panel derecho.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Modelos]**.
+1. Busque el modelo que desee instalar. Puede filtrar por caso de uso, nivel de madurez, estado de instalación y tipo mediante los filtros del panel derecho.
 1. Haga clic en **[!UICONTROL Solicitud]** en el modelo.
 
-   Si la variable **[!UICONTROL Solicitud]** no aparece en el modelo, el administrador del sistema no ha habilitado las solicitudes.
+   Si el botón **[!UICONTROL Solicitud]** no aparece en el modelo, el administrador del sistema no ha habilitado las solicitudes.
 
    ![Solicitar modelo](assets/blueprints-non-admin-request-bp-350x283.png)

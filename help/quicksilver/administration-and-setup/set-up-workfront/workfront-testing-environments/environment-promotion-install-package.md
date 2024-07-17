@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Después de crear un paquete, puede instalarlo en un entorno diferente.
 
-Debe instalar un paquete en el entorno en el que desee copiar los objetos **hasta**. Por ejemplo, si está configurando un proyecto en el entorno de espacio aislado de actualización personalizado y lo está promocionando al entorno de producción, debe instalar el paquete en el entorno de producción.
+Debe instalar un paquete en el entorno en el que desea copiar los objetos **a**. Por ejemplo, si está configurando un proyecto en el entorno de espacio aislado de actualización personalizado y lo está promocionando al entorno de producción, debe instalar el paquete en el entorno de producción.
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ Debe tener lo siguiente:
    <tr>
    <td>Configuraciones de nivel de acceso
    </td>
-   <td>Debe ser un [!DNL Workfront] administrador.
+   <td>Debe ser administrador de [!DNL Workfront].
    </td>
   </tr>
 </table>
@@ -68,28 +68,28 @@ Se recomienda mover el paquete al estado TESTING e instalarlo en otra zona prote
 
 Para editar el estado de un paquete:
 
-1. Seleccione el paquete como se describe en  [Editar o montar un paquete existente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) en el artículo Crear y editar paquetes de promoción de entorno.
-1. Clic **Editar paquete**.
-1. Clic **Estado**.
+1. Seleccione el paquete como se describe en [Editar o ensamblar un paquete existente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) en el artículo Crear y editar paquetes de promoción de entorno.
+1. Haga clic en **Editar paquete**.
+1. Haga clic en **Estado**.
 1. Seleccione el estado que desee en el menú desplegable.
 
-Para obtener más información sobre los estados, consulte [Estados de promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) en el artículo Información general sobre el movimiento de objetos entre entornos de Workfront.
+Para obtener más información sobre los estados, consulte [Estados de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) en el artículo Información general sobre cómo mover objetos entre entornos de Workfront.
 
 ## Instalación de un paquete
 
 >[!NOTE]
 >
->* Para instalar un paquete, debe haber iniciado sesión en el entorno en el que desea instalarlo. Este es el entorno en el que está copiando los objetos **hasta**.
+>* Para instalar un paquete, debe haber iniciado sesión en el entorno en el que desea instalarlo. Este es el entorno en el que está copiando los objetos **a**.
 
 1. Vaya al entorno en el que desea instalar el paquete.
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
-1. Seleccionar **Sistema** en el panel de navegación izquierdo, seleccione **Promoción de entorno**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Seleccione **Sistema** en el panel de navegación izquierdo, luego seleccione **Promoción de entorno**.
 1. Seleccione el paquete en la lista mostrada.
 1. Para cada objeto que tenga un conflicto, seleccione cómo resolver el conflicto.
 
    Para resolver un conflicto, haga clic en la flecha desplegable situada junto al tipo de objeto y seleccione la acción que desee realizar.
 
-   Para obtener más información, consulte [Conflictos](#collisions) en este artículo
+   Para obtener más información, vea [Conflictos](#collisions) en este artículo
 1. Para implementar el paquete en el nuevo entorno, haga clic en **Implementar** en la parte superior derecha de la pantalla.
 
 ## Conflictos
@@ -106,18 +106,18 @@ Para ver los conflictos, haga clic en la lista desplegable situada junto a cada 
 
 Para resolver un conflicto, seleccione una acción en la columna Acción de implementación o utilice la acción predeterminada que ya se muestra.
 
-* **Crear con nombre nuevo**: cree un nuevo objeto en el entorno de destino. Si el objeto existe en el entorno de destino, puede crear un nuevo objeto con un nombre nuevo. Si no existe en el entorno de destino, puede crear el objeto con un nombre nuevo o con el nombre que tiene el objeto en el paquete.
-* **Usar los existentes**: el objeto del paquete no está instalado y el objeto que ya existía en el entorno de destino no cambia.
-* **Sobrescribir**: el objeto del paquete reemplaza al objeto existente en el entorno de destino.
+* **Crear con nuevo nombre**: cree un nuevo objeto en el entorno de destino. Si el objeto existe en el entorno de destino, puede crear un nuevo objeto con un nombre nuevo. Si no existe en el entorno de destino, puede crear el objeto con un nombre nuevo o con el nombre que tiene el objeto en el paquete.
+* **Usar existente**: el objeto del paquete no está instalado y el objeto que ya existía en el entorno de destino no se ha modificado.
+* **Sobrescribir**: el objeto del paquete reemplaza el objeto existente en el entorno de destino.
 
   También puede elegir objetos para sobrescribirlos incluso si no se detecta ninguna colisión.
 
-  Para obtener más información sobre cómo la sobrescritura afecta a los objetos principales y secundarios, consulte [Sobrescribir objetos principales y secundarios](#overwriting-parent-and-child-objects) en este artículo.
+  Para obtener detalles sobre cómo la sobrescritura afecta a los objetos principales y secundarios, consulte [Sobrescritura de objetos principales y secundarios](#overwriting-parent-and-child-objects) en este artículo.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
-Los valores predeterminados son `Create new` si el objeto no existe en el entorno de destino, y `Use existing` si el objeto no existe en el entorno de destino. Para volver a la asignación predeterminada, haga clic en **Restablecer asignación predeterminada**.
+Los valores predeterminados son `Create new` si el objeto no existe en el entorno de destino y `Use existing` si el objeto no existe en el entorno de destino. Para volver a la asignación predeterminada, haga clic en **Restablecer asignación predeterminada**.
 
 ## Sobrescribir objetos principales y secundarios
 

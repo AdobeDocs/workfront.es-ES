@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 11 de enero de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Ya están disponibles el conector y los módulos ampliados
 
@@ -36,7 +36,7 @@ Ahora puede utilizar Workfront Fusion para conectarse a su cuenta de Widen. Con 
 * Recuperación de una lista de recursos de una colección
 * Realizar una llamada de API personalizada.
 
-Para obtener más información, consulte [Ampliar módulos](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+Para obtener más información, consulte [Módulos anchos](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
 ## Ya están disponibles el conector Datadog y los módulos
 
@@ -44,7 +44,7 @@ Ahora puede utilizar Workfront Fusion para conectarse a su cuenta de Datadog.
 
 Con los módulos Datadog puede:
 
-* Publicar puntos de series temporales
+* Puntos de la serie temporal Post
 * Realizar una llamada de API personalizada
 
 Para obtener información sobre los módulos Datadog, consulte [Módulos Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
@@ -62,7 +62,7 @@ Con los módulos de Cvent puede:
 * Actualizar o eliminar contactos
 * Realizar una llamada de API personalizada
 
-Para obtener información sobre los módulos Cvent disponibles, consulte [Módulos Cvent](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+Para obtener información acerca de los módulos Cvent disponibles, consulte [Módulos Cvent](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
 ## Módulos y conector de Microsoft Dynamics 365 ya disponibles
 
@@ -94,7 +94,7 @@ Le hemos facilitado la localización de información específica de ejecuciones 
 
 Anteriormente, para encontrar información de ejecución específica era necesario ver cada ejecución individualmente.
 
-Para obtener más información, consulte [Visualización del historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Para obtener más información, consulte [Ver el historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Actualizaciones en el almacén de datos de Fusion 2.0
 
@@ -104,7 +104,7 @@ Para facilitarle la personalización de sus almacenes de datos, hemos añadido a
 * Editar una sola celda
 * Añadir varias filas
 
-Para obtener más información sobre los almacenes de datos, consulte [Módulos de almacén de datos](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Para obtener más información sobre los almacenes de datos, consulte [Módulos de almacenes de datos](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ## Realizar una solicitud de autorización de clave API a través del conector HTTP
 
@@ -138,6 +138,6 @@ Para ayudarle a personalizar y simplificar fórmulas en sus módulos, hemos agre
 
   es una función de cadena que omite todas las etiquetas Markdown de un texto.
 
-Para obtener más información sobre las funciones de omisión y selección, consulte [Funciones generales en Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
+Para obtener más información sobre las funciones de omitir y seleccionar, consulte [Funciones generales en Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 
 Para obtener más información sobre la función escapeMarkdown, consulte [Funciones de cadena en Adobe Workfront Fusion](../../../workfront-fusion/functions/string-functions.md).

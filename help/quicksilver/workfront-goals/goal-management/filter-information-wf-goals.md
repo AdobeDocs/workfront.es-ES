@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Filtrar información en Adobe Workfront Goals
 
-Puede ver las metas que usted o cualquier otra persona haya agregado en las metas de Adobe Workfront. Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). Cuando visualice las metas, puede filtrar la información en las metas de Workfront para ver solo las metas que sean importantes para usted.
+Puede ver las metas que usted o cualquier otra persona haya agregado en las metas de Adobe Workfront. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). Cuando visualice las metas, puede filtrar la información en las metas de Workfront para ver solo las metas que sean importantes para usted.
 
 ## Requisitos de acceso
 
@@ -54,7 +54,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -91,7 +91,7 @@ Puede localizar y filtrar objetivos en las siguientes secciones del área Objeti
 * Gráficos
 * Alineación de metas
 
-Para obtener información sobre las secciones del área Objetivos, consulte [Información general sobre las secciones Objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Para obtener información acerca de las secciones del área Objetivos, vea [Información general sobre las secciones Objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ Tenga en cuenta lo siguiente al trabajar con filtros en Workfront Goals:
 
 Puede utilizar un filtro rápido en una lista de objetivos para que le ayude a localizar únicamente los elementos que son importantes para usted. Los filtros rápidos no se pueden guardar y no son persistentes. Workfront borra los resultados de un filtro rápido al actualizar la página.
 
-Para obtener más información, consulte [Aplicar el filtro rápido a una lista](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+Para obtener más información, vea [Aplicar el filtro rápido a una lista](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 ## Creación y aplicación de un filtro en Workfront Goals
 
@@ -123,15 +123,15 @@ Puede crear un filtro desde cero o editar uno de los filtros integrados.
 
 1. Vaya a los Objetivos de Workfront.
 
-   Para obtener información sobre el acceso a Workfront Goals, consulte [Acceder y abrir metas en Adobe Workfront Goals](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Para obtener información sobre cómo acceder a las metas de Workfront, consulte [Acceso y apertura de metas en las metas de Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    De forma predeterminada, se muestra la sección Lista de objetivos.
 
-1. Clic **Filtrar** en la esquina superior derecha de la lista.
+1. Haga clic en **Filtro** en la esquina superior derecha de la lista.
 
    ![](assets/filter-icon-and-label.png)
 
-   De forma predeterminada, Workfront aplica la variable **Todo** filtro que muestra todas las metas del sistema.
+   De manera predeterminada, Workfront aplica el filtro **Todos** que muestra todas las metas del sistema.
 
    >[!TIP]
    >
@@ -173,9 +173,9 @@ Puede crear un filtro desde cero o editar uno de los filtros integrados.
       </tbody> 
      </table>
 
-   * Pase el ratón sobre el nombre de un filtro y haga clic en **Editar** icono ![](assets/edit-icon.png) junto a su nombre para personalizarlo y agregar nombres específicos de usuarios, equipos, grupos o el nombre de su organización, y luego selecciónelo cuando aparezca en la lista.
+   * Pase el ratón sobre el nombre de un filtro, luego haga clic en el icono **Editar** ![](assets/edit-icon.png) junto a su nombre para personalizarlo y agregar nombres específicos de usuarios, equipos, grupos o el nombre de su organización, y después selecciónelo cuando aparezca en la lista.
 
-   * Clic **Nuevo filtro** para crear un nuevo filtro, seleccione una de las siguientes opciones para personalizar el nuevo filtro:
+   * Haga clic en **Nuevo filtro** para crear un nuevo filtro y, a continuación, seleccione una de las siguientes opciones para personalizar el nuevo filtro:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -208,18 +208,18 @@ Puede crear un filtro desde cero o editar uno de los filtros integrados.
         <td role="rowheader">Propietario</td> 
         <td> <p>Empiece a escribir el nombre de un propietario y, a continuación, selecciónelo cuando aparezca en la lista. </p> <p>Puede escribir los nombres de los usuarios, equipos, grupos o el nombre de su organización, o bien puede seleccionar entre las opciones predefinidas. </p> <p>Las siguientes opciones de filtro predefinidas siempre hacen referencia al usuario que ha iniciado sesión actualmente: </p> 
          <ul> 
-          <li> <p><strong>Yo</strong>: Muestra las metas donde usted es el propietario.</p> </li> 
-          <li> <p><strong>Mi equipo de inicio</strong> y <strong>Todos mis equipos</strong>: Muestra los objetivos en los que su equipo de inicio o cualquiera de sus equipos están designados como propietarios. </p> <p>Sugerencia: No se muestran metas cuando no se le ha asignado ningún equipo. </p> </li> 
-          <li> <p><strong>Mi grupo de inicio</strong> y <strong>Todos mis grupos</strong>: Muestra los objetivos en los que el grupo de inicio o cualquiera de los grupos están designados como propietarios.</p> </li> 
+          <li> <p><strong>Me</strong>: muestra las metas donde usted es el propietario.</p> </li> 
+          <li> <p><strong>Mi equipo local</strong> y <strong>Todos mis equipos</strong>: muestra las metas en las que su equipo local o cualquiera de sus equipos han sido designados como propietarios. </p> <p>Sugerencia: No se muestran metas cuando no se le ha asignado ningún equipo. </p> </li> 
+          <li> <p><strong>Mi grupo de inicio</strong> y <strong>Todos mis grupos</strong>: muestra las metas en las que su grupo de inicio o cualquiera de sus grupos están designados como propietarios.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-1. (Opcional) Haga clic en **Restablecer** en la esquina inferior derecha del cuadro de filtro para borrar todos los campos seleccionados y comenzar a crear el filtro desde cero.
+1. (Opcional) Haga clic en **Restablecer** en la esquina inferior derecha del cuadro de filtro para borrar todos los campos que ha seleccionado y comenzar a crear el filtro desde cero.
 1. (Opcional) Haga clic en **Aplicar** para aplicar el filtro sin guardar.
 
-   El filtro se muestra en la **Sin guardar** del generador de filtros como **Nuevo filtro**.
+   El filtro se muestra en el área **Sin guardar** del generador de filtros como **Nuevo filtro**.
 
    No puede cambiar el nombre de un filtro sin guardar.
 
@@ -229,26 +229,26 @@ Puede crear un filtro desde cero o editar uno de los filtros integrados.
    >
    >Solo se puede tener un nuevo filtro sin guardar a la vez.
 
-1. Clic **Guardar** para guardar el filtro y utilizarlo más adelante, agregue un nombre para el filtro en la **Agregar nombre de filtro** y haga clic en **Listo**.
+1. Haga clic en **Guardar** para guardar el filtro y utilizarlo más adelante, luego agregue un nombre para el filtro en el campo **Agregar nombre de filtro** y haga clic en **Listo**.
 
-   Esto guarda el filtro en la **Guardado** del generador de filtros. Puede utilizar este filtro en el futuro.
+   Esto guarda el filtro en la sección **Guardado** del generador de filtros. Puede utilizar este filtro en el futuro.
 
    El último filtro guardado y aplicado se muestra de forma predeterminada la próxima vez que vuelva a iniciar sesión en Workfront
 
-1. (Opcional) Haga clic en **flecha hacia la izquierda** junto a **Nuevo filtro** para salir del generador de filtros y volver a la lista de filtros.
-1. (Opcional) Pase el ratón sobre el nombre de un filtro personalizado y haga clic en **Más** y haga clic en **Eliminar**, entonces **Eliminar**. Esto elimina el filtro y no puede recuperarlo.
+1. (Opcional) Haga clic en la **flecha hacia la izquierda** junto a **Nuevo filtro** para salir del generador de filtros y volver a la lista de filtros.
+1. (Opcional) Pase el ratón sobre el nombre de un filtro personalizado, haga clic en el menú **Más**, a continuación, haga clic en **Eliminar** y luego en **Eliminar**. Esto elimina el filtro y no puede recuperarlo.
 
    >[!TIP]
    >
    >No puede eliminar ninguno de los filtros predefinidos.
 
-1. Haga clic en **Icono X** en la esquina superior derecha del generador de filtros para cerrarlo.
+1. Haga clic en el icono **X** en la esquina superior derecha del generador de filtros para cerrarlo.
 
    El nombre del filtro aplicado actualmente se muestra a la derecha del icono Filtro, en la esquina superior derecha de la lista de metas.
 
    La lista de objetivos se filtra según los criterios de filtro.
 
-1. (Opcional y condicional) Cuando visualice los objetivos en la sección Alineación de objetivos, haga clic en **Muéstrelos.** si desea ver las metas filtradas.
+1. (Opcional y condicional) Cuando visualice las metas en la sección Alineación de metas, haga clic en **Mostrarlas** si desea ver las metas filtradas.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ Puede crear un filtro desde cero o editar uno de los filtros integrados.
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. (Opcional y condicional) Haga clic en **Volver a aplicar filtro** para aplicar el filtro y omitir los elementos mostrados en el paso anterior.
+1. (Opcional y condicional) Haga clic en **Volver a aplicar el filtro** para aplicar el filtro y omitir los elementos mostrados en el paso anterior.
 
 

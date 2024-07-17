@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Puede personalizar los registros agregando una imagen de portada a la página de registros en Adobe Workfront Planning, al editar un registro.
 
-Para obtener información sobre cómo editar registros, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener información sobre cómo editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 Debe crear tipos de registros antes de empezar a crear y editar registros.
 
-Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisitos de acceso
 
@@ -78,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td>  <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td>  <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -122,46 +122,46 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
    O
 
-   En la vista de tabla de tabla, haga clic en **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
+   En la vista de tabla, haga clic en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
 
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
    Se abre la página de registro.
 
    ![](assets/details-page.png)
 
-1. En la página de vista previa o de registro, haga clic en **Añadir portada**
+1. En la página o vista previa del registro, haga clic en **Agregar portada**
 
 
    O
 
-   Pase el ratón sobre una imagen de portada existente y haga clic en **Más** menú ![](assets/more-menu.png) , luego haga clic en **Cargar**. <!--check the casing here; I logged a bug for this-->
-El **Cubierta de registro** se abre en el **Cargar** pestaña.
+   Pase el ratón sobre una imagen de portada existente, haga clic en el menú **Más** ![](assets/more-menu.png) y luego haga clic en **Cargar**. <!--check the casing here; I logged a bug for this-->
+El cuadro **Cubierta de registro** se abre en la ficha **Cargar**.
 
    ![](assets/record-cover-box-for-upload.png)
 
-1. Clic **Examinar imágenes** y busque una imagen en el equipo para seleccionarla y agregarla.
+1. Haz clic en **Examinar imágenes** y busca una imagen en tu equipo para seleccionarla y agregarla.
 
-1. (Opcional) Para quitar la imagen antes de guardarla, haga clic en **Cargar nueva imagen** icono ![](assets/upload-new-image-icon.png) y cargue una imagen nueva.
+1. (Opcional) Para quitar la imagen antes de guardarla, haga clic en el icono **Cargar nueva imagen** ![](assets/upload-new-image-icon.png) y cargue una nueva imagen.
 
-1. (Opcional) Haga clic en **Galería** , luego haga clic en una imagen de la galería de imágenes. La galería de imágenes no se puede modificar.
+1. (Opcional) Haga clic en la ficha **Galería** y luego haga clic en una imagen de la galería de imágenes. La galería de imágenes no se puede modificar.
 
    ![](assets/record-cover-box-for-gallery.png)
 
-1. Clic **Usar imagen**.
+1. Haga clic en **Usar imagen**.
 
    La imagen se carga en la parte superior de la página o vista previa del registro y los cambios se guardan automáticamente.
 
    ![](assets/record-page-with-cover-image.png)
 
-1. (Opcional) Pase el ratón sobre la imagen y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina inferior derecha de la imagen de la portada, siga uno de estos procedimientos:
+1. (Opcional) Pase el ratón sobre la imagen, luego haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina inferior derecha de la imagen de la portada y siga uno de estos procedimientos:
 
-   * Clic **Cargar** Si desea reemplazar la imagen de portada, repita el Paso 6 para cargar y guardar una nueva imagen.
-   * Clic **Cambiar posición** y utilice el **Cambiar posición** herramienta ![](assets/reposition-tool-icon.png) para centrar la imagen de la portada, haga clic en **Guardar** cuando termine.
-   * Clic **Eliminar** para quitar la imagen de portada.
+   * Haz clic en **Cargar** si deseas reemplazar la imagen de portada y repite el paso 6 para cargar y guardar una nueva imagen.
+   * Haga clic en **Cambiar posición**, use la herramienta **Cambiar posición** ![](assets/reposition-tool-icon.png) para centrar la imagen de portada y, después, haga clic en **Guardar** cuando haya terminado.
+   * Haz clic en **Quitar** para quitar la imagen de la portada.
 
    Workfront guarda automáticamente los cambios.

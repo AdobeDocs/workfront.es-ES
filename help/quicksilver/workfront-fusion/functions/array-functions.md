@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>  
    <td> 
-   <p>Actual: No [!DNL Workfront Fusion] requisito de licencia.</p> 
+   <p>Actual: no se requiere licencia para [!DNL Workfront Fusion].</p> 
    <p>O</p> 
    <p>Heredado: cualquiera </p> 
    </td>  
@@ -44,9 +44,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">Product</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>[!UICONTROL Seleccionar] o [!UICONTROL Prime] [!DNL Workfront] Plan: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] está incluido.</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
    <p>O</p> 
-   <p>Actual: Su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -67,7 +67,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 * [quitar](#remove-array-value1-value2)
 * [añadir](#add-array-value1-value2)
 * [asignar](#map-complex-array-keykey-for-filteringpossible-values-for-filtering)
-* [barajar]
+* [orden aleatorio]
 * [sort](#sort-array-order-key)
 * [reverso](#reverse-array)
 * [aplanar](#flatten-array)
@@ -81,15 +81,15 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Concatena todos los elementos de una matriz en una cadena, utilizando el separador especificado entre cada elemento.
 
-### [!UICONTROL longitud (matriz)]
+### [!UICONTROL length (array)]
 
 Devuelve el número de elementos de una matriz.
 
-### [!UICONTROL keys, objeto]
+### [!UICONTROL claves (objeto)]
 
 Devuelve una matriz de las propiedades de un objeto o matriz determinados.
 
-### [!UICONTROL segmento (matriz; inicio; [fin])]
+### [!UICONTROL sector (matriz; inicio; [fin])]
 
 Devuelve una nueva matriz que contiene solo los elementos seleccionados.
 
@@ -101,15 +101,15 @@ Combina una o más matrices en una matriz.
 
 Comprueba si una matriz contiene el valor.
 
-### [!UICONTROL remove (matriz; valor1; valor2; ...)]
+### [!UICONTROL quitar (matriz; valor1; valor2; ...)]
 
 Quita los valores especificados en los parámetros de una matriz. Esta función sólo es efectiva en matrices primitivas de texto o números.
 
-### [!UICONTROL add (matriz; valor1; valor2; ...)]
+### [!UICONTROL agregar (matriz; valor1; valor2; ...)]
 
 Agrega los valores especificados en parámetros a una matriz y devuelve esa matriz.
 
-### [!UICONTROL map (matriz compleja; clave;[clave de filtrado];[valores posibles de filtrado])]
+### [!UICONTROL mapa (matriz compleja; clave;[clave para filtrar];[valores posibles para filtrar])]
 
 Devuelve una matriz primitiva que contiene los valores de una matriz compleja. Esta función permite filtrar valores. Utilice nombres de variables sin procesar para las claves.
 
@@ -125,13 +125,13 @@ Devuelve una matriz primitiva que contiene los valores de una matriz compleja. E
 >
 >  Devuelve una matriz primitiva con correos electrónicos que tienen una etiqueta igual a trabajo o inicio
 
-Para obtener más información, consulte [Asignación de información de un módulo a otro en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+Para obtener más información, vea [Asignar información de un módulo a otro en [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 ### barajar
 
-### [!UICONTROL sort (matriz; [pedido]; [key])]
+### [!UICONTROL ordenar (matriz; [orden]; [clave])]
 
-Ordena los valores de una matriz. Los valores válidos del `order` Los parámetros son:
+Ordena los valores de una matriz. Los valores válidos del parámetro `order` son:
 
 * `asc`
 
@@ -149,7 +149,7 @@ Ordena los valores de una matriz. Los valores válidos del `order` Los parámetr
 
   orden descendente sin distinción de mayúsculas y minúsculas: ..., C, c, B, b, A, a para el tipo Texto.
 
-Utilice el `key` para acceder a propiedades dentro de objetos complejos.
+Utilice el parámetro `key` para tener acceso a las propiedades de objetos complejos.
 
 Utilice nombres de variables sin procesar para las claves.
 
@@ -185,9 +185,9 @@ El primer elemento de la matriz se convierte en el último elemento, el segundo 
 
 Crea una nueva matriz con todos los elementos de submatriz concatenados en ella, de forma recursiva, hasta la profundidad especificada.
 
-### [!UICONTROL distinct (matriz; [key])]
+### [!UICONTROL distinct (matriz; [clave])]
 
-Elimina los duplicados dentro de una matriz. Utilice el &quot;[!UICONTROL key]&quot; para acceder a las propiedades dentro de objetos complejos. Para acceder a las propiedades anidadas, utilice la notación de puntos. El primer elemento de una matriz es el índice 1.
+Elimina los duplicados dentro de una matriz. Utilice el argumento &quot;[!UICONTROL key]&quot; para tener acceso a las propiedades de objetos complejos. Para acceder a las propiedades anidadas, utilice la notación de puntos. El primer elemento de una matriz es el índice 1.
 
 >[!INFO]
 >
@@ -217,17 +217,17 @@ Esta función convierte una colección en una matriz de pares clave-valor.
 >
 >`[{ key1: "value1"}, { key2: "value2"}]`
 
-### [!UICONTROL arrayDifference [matriz1, matriz2, modo]]
+### [!UICONTROL arrayDifference [array1, array2, mode]]
 
 Devuelve la diferencia entre dos matrices.
 
-Introduzca uno de los siguientes valores para `mode` parámetro.
+Escriba uno de los siguientes valores para el parámetro `mode`.
 
 * `classic`: devuelve una nueva matriz que contiene todos los elementos de `array1` que no existen en `array2`.
 
-* `symmetric`: Devuelve una matriz de elementos que no son comunes a ambas matrices.
+* `symmetric`: devuelve una matriz de elementos que no son comunes a ambas matrices.
 
-  En otras palabras, la función devuelve una matriz que contiene todos los elementos de `array1` que no existen en `array2`y todos los elementos de `array2` que no existen en `array1`.
+  En otras palabras, la función devuelve una matriz que contiene todos los elementos de `array1` que no existen en `array2` y todos los elementos de `array2` que no existen en `array1`.
 
   >[!INFO]
   >

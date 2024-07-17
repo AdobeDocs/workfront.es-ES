@@ -25,5 +25,5 @@ Esta sección contiene los siguientes artículos:
 * [Eliminar y desactivar portafolios](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
 * [Editar portafolios](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
 * [Agregar proyectos a un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Eliminación de un proyecto de un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
+* [Quitar un proyecto de un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
 * [Revisar proyectos solicitados](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)

@@ -48,23 +48,23 @@ A medida que defina las tareas, asegúrese de no planificar demasiado trabajo pa
 Para definir los resultados de la EDT y los entregables en Workfront, se recomienda realizar las siguientes actividades para crear una vista jerárquica de las tareas del proyecto:
 
 * Si aún no lo ha hecho, cree un nuevo proyecto.\
-  Para obtener información sobre cómo crear un proyecto, consulte el artículo [Creación de un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+  Para obtener información acerca de cómo crear un proyecto, vea el artículo [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
 * Cree tareas para todos los elementos de acción necesarios para completar cada resultado y entrega.\
-  Para obtener información sobre la creación de tareas, consulte el artículo [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  Para obtener información acerca de cómo crear tareas, vea el artículo [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * A partir de las tareas que acaba de crear, identifique cuáles son los resultados principales y asócielos a hitos.\
-  Para obtener información sobre la creación de tareas de hitos, consulte los artículos [Creación de una trayectoria del hito](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) y [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Para obtener información acerca de cómo crear tareas de hitos, vea los artículos [Crear una ruta de hitos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) y [Asociar hitos con tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Desglose las tareas con un ámbito demasiado grande en subtareas. Asociarlos con el elemento principal que define la entrega\
-  Para obtener información sobre cómo crear subtareas, vea el artículo [Creación de subtareas](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  Para obtener información acerca de cómo crear subtareas, vea el artículo [Crear subtareas](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identificar relaciones de dependencia entre subtareas y entre hitos.\
   En una relación de dependencia, el inicio de una tarea depende de la finalización de otra tarea o grupo de tareas.\
-  Para obtener información sobre las dependencias entre tareas, consulte los artículos [Información general sobre predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) y [Crear una relación de predecesoras en la lista de tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  Para obtener información acerca de las dependencias entre tareas, vea los artículos [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) y [Crear una relación de predecesoras en la lista de tareas](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Determine si en algún momento de la duración del proyecto se necesitan aprobaciones y revisiones. Cree procesos de aprobación para satisfacer esta necesidad.\
-  Para obtener información sobre las aprobaciones, consulte el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Para obtener información acerca de las aprobaciones, vea el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Calcular las restricciones de horario y horario de trabajo
 
@@ -74,13 +74,13 @@ Tenga en cuenta lo siguiente:
 
 * Las restricciones de tareas definen cuándo debe comenzar o finalizar el trabajo en una tarea.
 
-  Para obtener información sobre la definición de delimitaciones de tareas, vea el artículo [Información general sobre restricciones de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  Para obtener información acerca de cómo definir restricciones de tarea, vea el artículo [Introducción a la restricción de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * La duración de una tarea es el periodo de tiempo disponible para completar una tarea. Al calcular la Duración, es posible que desee introducir un valor que tenga en cuenta la posibilidad de un retraso. Si se han completado proyectos similares en el pasado, es posible que tenga una buena idea de dónde establecer este valor.
 
   Como la duración es una estimación, asegúrese de establecer valores de tiempo optimistas para tener en cuenta los factores que podrían afectar a la tarea, como el clima, los cortes de energía, las dificultades del proveedor u otros eventos imprevistos. Además, asegúrese de tener en cuenta si hay alguna tarea predecesora o de dependencia asociada y cómo pueden establecer restricciones en el trabajo y afectar a la finalización de la tarea.
 
-  Según el tipo de duración de la tarea, puede modificar la duración de una tarea durante la duración de un proyecto, pero esto también afectará a la cronología del proyecto. Para obtener información sobre la duración de una tarea, consulte el artículo [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Según el tipo de duración de la tarea, puede modificar la duración de una tarea durante la duración de un proyecto, pero esto también afectará a la cronología del proyecto. Para obtener información acerca de la duración de una tarea, vea el artículo [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Asignar tareas
 
@@ -89,12 +89,12 @@ Después de definir la duración y las restricciones de cada tarea, puede determ
 * Usuarios\
   Solo los usuarios con un nivel de acceso de Planificador o Trabajador pueden asignarse a tareas. Aunque puede asignar tareas a los solicitantes y a los revisores, no pueden completarlas. Por este motivo, no se recomienda asignarles tareas.
 
-  Para obtener información sobre los niveles de acceso y cómo definen lo que los usuarios pueden hacer con los objetos de Workfront, consulte [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  Para obtener información sobre los niveles de acceso y cómo definen lo que los usuarios pueden hacer con los objetos de Workfront, consulte [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * Roles
 * Equipos
 
-Para obtener información sobre la asignación de tareas, consulte los artículos de la [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) sección.
+Para obtener información acerca de cómo asignar tareas, vea los artículos de la sección [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md).
 
 ## Administración de recursos
 
@@ -105,22 +105,22 @@ La administración de recursos en Workfront le permite determinar si hay persona
 >Siempre que el proyecto tenga un estado de Planificación, las tareas asignadas a los usuarios no aparecen en sus listas de tareas.
 
 Al principio de un año o trimestre fiscal, puede que desee administrar los recursos en un nivel superior, en varios proyectos, sin tener conocimientos de una estructura de desglose de trabajo específica.\
-Para obtener información sobre cómo planificar el uso de los recursos en un nivel superior, consulte el artículo [Introducción a la planificación de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Para obtener información acerca de cómo planear el uso de los recursos en un nivel superior, vea el artículo [Introducción a la planeación de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Cuando administra los recursos en el contexto de la creación de la estructura de desglose de trabajo de un proyecto y se asegura de que cada tarea se asigna al recurso correcto, está listo para programar los recursos para el trabajo que se debe realizar.\
-Para obtener información sobre cómo programar los recursos, consulte los artículos de la [Índice de artículos del Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/workload-balancer.md) sección.
+Para obtener información sobre cómo programar los recursos, vea los artículos de la sección [Distribuidor de cargas de trabajo: índice de artículos](../../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 ## Estimar las finanzas del proyecto
 
 Workfront calculará los costes planificados para cada tarea y los costes globales de un proyecto. Los costes planificados para una tarea incluyen todos los gastos de la tarea más el coste del empleado o rol asignado a la tarea. Las tarifas por hora de la tarea, el rol y el empleado se asignan durante la creación de la tarea, el rol y el usuario.
 
-Para obtener información sobre las finanzas del proyecto, consulte la sección [Finanzas del proyecto: índice del artículo](../../../manage-work/projects/project-finances/project-finances-overview.md).
+Para obtener información acerca de las finanzas del proyecto, vea la sección [Finanzas del proyecto: índice de artículos](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determinar puntos de aprobación para el proyecto
 
 Al crear los procesos de aprobación en Workfront, puede establecer puntos de revisión para el proyecto a fin de supervisar el progreso y las posibles áreas problemáticas. A través del proceso de aprobación, los propietarios del proyecto pueden discernir qué tareas se retrasan y se adelantan, ver las pistas de auditoría que enumeran quién cambió el estado de una tarea y ver los historiales de problemas, incluidos cómo se resolvieron los problemas y cuándo se cerraron. Al revisar un proyecto, los propietarios del proyecto pueden determinar qué pasos deben seguir y actualizar el plan del proyecto, si es necesario.
 
-Para obtener información sobre las aprobaciones, consulte el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+Para obtener información acerca de las aprobaciones, vea el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
 ## Ver su WBS
 
@@ -141,12 +141,12 @@ Una vez completada la EDT, puede verla en una lista de tareas a nivel de proyect
 Puede ver la lista de tareas en el nivel de proyecto.
 
 1. Vaya al proyecto para el que desea ver la estructura de desglose de trabajo.
-1. Seleccione el **Tareas** pestaña.
-1. (Opcional) Seleccione **Nada** en el **Agrupación** menú desplegable.
+1. Seleccione la ficha **Tareas**.
+1. (Opcional) Seleccione **Nothing** en el menú desplegable **Agrupación**.
 
    La estructura de desglose de trabajo no muestra la sangría de las tareas en la EDT.
 
-1. Desde el **Ver** menú desplegable y seleccione la opción **Desglose de trabajo** vista.
+1. En el menú desplegable **Vista** y seleccione la vista **Desglose de trabajo**.
 
    La estructura de desglose de trabajo se muestra en la segunda columna de la vista seleccionada.
 
@@ -163,7 +163,7 @@ Puede generar un informe de tareas y mostrar la EDT de las tareas realizando una
 >
 >Se recomienda agregar una agrupación de proyecto para aclarar a qué proyectos pertenecen las tareas. La sangría de las tareas no se muestra en un informe de tareas.
 
-Para obtener información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener información acerca de cómo generar informes, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Guardar la EDT de un proyecto como plantilla
 
@@ -188,4 +188,4 @@ Los siguientes elementos de una estructura de desglose de trabajo se pueden guar
 * Compartir información
 * Formularios personalizados
 
-Para obtener información sobre cómo guardar proyectos como plantillas, consulte el artículo [Crear plantilla a partir de proyecto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) .
+Para obtener información acerca de cómo guardar proyectos como plantillas, vea el artículo [Crear plantilla a partir del proyecto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) .

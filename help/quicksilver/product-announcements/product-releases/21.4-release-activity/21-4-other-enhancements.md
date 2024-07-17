@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las demás mejoras realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.4, consulte [Descripción general de la versión 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nuevos métodos abreviados de teclado para aplicar sangría y anular la sangría en listas
 
@@ -31,4 +31,4 @@ Anteriormente, el método abreviado de teclado para aplicar sangría en una list
 
 Este cambio solo se aplica a las listas actualizadas y no a las listas heredadas.
 
-Para obtener más información, consulte [Creación de subtareas](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+Para obtener más información, vea [Crear subtareas](../../../manage-work/tasks/create-tasks/create-subtasks.md).

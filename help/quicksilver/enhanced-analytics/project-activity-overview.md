@@ -23,7 +23,7 @@ La visualización de la actividad del proyecto muestra una vista agregada de las
 >[!NOTE]
 >
 >La visualización Actividad por equipo se comporta de manera similar a esta visualización, pero la visualización Actividad por equipo muestra la actividad del equipo de inicio de todos los proyectos.\
->Para obtener información sobre la visualización Actividad por equipo, consulte [Vea la visualización Actividad por equipo en el análisis mejorado](../enhanced-analytics/activity-by-team-overview.md).
+>Para obtener información sobre la visualización Actividad por equipo, consulte [Ver la visualización Actividad por equipo en Análisis mejorado](../enhanced-analytics/activity-by-team-overview.md).
 
 ## Requisitos de acceso
 
@@ -60,21 +60,21 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para utilizar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprender la visualización de actividades del proyecto
 
 Las actividades de proyecto se muestran en diferentes colores para resumir eventos específicos de un proyecto durante un periodo de tiempo:
 
-* **Usuarios que han iniciado sesión**: los cuadros morados muestran que las personas asignadas al proyecto iniciaron sesión ese día. Un tono más oscuro indica un número mayor de personas que iniciaron sesión.
+* **Usuarios que iniciaron sesión**: Los cuadros morados muestran que las personas asignadas al proyecto iniciaron sesión ese día. Un tono más oscuro indica un número mayor de personas que iniciaron sesión.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Cambio de estado de tarea**: los cuadros rosas muestran que las personas cambiaron el estado de una tarea del proyecto ese día. Un sombreado más oscuro indica que se ha cambiado un número mayor de estados de tarea.
+* **Cambio de estado de la tarea**: Los cuadros rosas muestran que las personas cambiaron el estado de una tarea para el proyecto ese día. Un sombreado más oscuro indica que se ha cambiado un número mayor de estados de tarea.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Tareas completadas**: los cuadros azules muestran que las personas completaron una tarea para el proyecto. Un tono más oscuro indica que se está completando un número mayor de tareas.
+* **Tareas completadas**: Los cuadros azules muestran que las personas completaron una tarea para el proyecto. Un tono más oscuro indica que se está completando un número mayor de tareas.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -86,16 +86,16 @@ Ver esta información le ayuda a determinar lo siguiente:
 * La actividad de un proyecto en comparación con otros proyectos.
 * Qué usuarios están trabajando en un proyecto y con qué frecuencia.
 
-Para obtener los mejores datos para esta visualización, consulte [Resumen de análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obtener los mejores datos para esta visualización, consulte [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualización de la visualización de actividad del proyecto
 
-1. Haga clic en el icono Menú principal ![](assets/main-menu-icon-16x12.png), luego seleccione **Analytics**.
+1. Haga clic en el icono del menú principal ![](assets/main-menu-icon-16x12.png) y, a continuación, seleccione **Analytics**.
 1. (Opcional) Para utilizar un intervalo de fechas diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fechas.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
 1. (Condicional) Si necesita limitar el conjunto de datos del proyecto, seleccione y aplique los filtros que desee utilizar.
 
-   Para obtener más información sobre la adición de filtros en el análisis mejorado, consulte [Aplicar filtros en análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre cómo agregar filtros en el análisis mejorado, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Después de agregar filtros, se muestran datos de hasta 50 proyectos y los filtros permanecen activos incluso después de abandonar la página o cerrar la sesión de Workfront.
 
@@ -113,12 +113,12 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Opcional) Para cambiar la forma en que se ordenan los proyectos, haga clic en **Ordenar por** y, a continuación, seleccione una nueva opción de clasificación:
+1. (Opcional) Para cambiar la forma en que se ordenan los proyectos, haga clic en el menú **Ordenar por** y, a continuación, seleccione una nueva opción de ordenación:
 
    * **A - Z**
    * **Z - A**
    * **Fecha planificada de finalización**
-   * **Fecha de inicio planificada**
+   * **Fecha planificada de inicio**
 
    Todas las demás visualizaciones de la página se actualizarán para que coincidan con la selección de ordenación.
 
@@ -136,7 +136,7 @@ Para obtener los mejores datos para esta visualización, consulte [Resumen de an
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Opcional) Para exportar los datos de visualización, haga clic en **Icono Exportar** ![](assets/export.png) en la esquina superior derecha de la visualización, seleccione el formato de exportación:
+1. (Opcional) Para exportar los datos de visualización, haga clic en el **icono Exportar** ![](assets/export.png) en la esquina superior derecha de la visualización y, a continuación, seleccione el formato de exportación:
 
    * **Gráfico (PNG)**
    * **Tabla de datos (XSLX)**

@@ -24,11 +24,11 @@ Puede utilizar expresiones de datos calculados en:
 
 * Un campo personalizado calculado en un formulario personalizado
 
-  Para obtener más información sobre la creación de campos personalizados calculados en formularios personalizados en Workfront, consulte [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Para obtener más información sobre la creación de campos personalizados calculados en formularios personalizados en Workfront, consulte [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Columna personalizada calculada en un informe o una lista, cuando se utiliza el modo de texto
 
-  Para obtener más información sobre el uso del modo de texto en informes y vistas, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Para obtener más información acerca del uso del modo de texto en informes y vistas, vea [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Sintaxis de campos personalizados calculados frente a columnas personalizadas calculadas
 
@@ -77,7 +77,7 @@ Por ejemplo:
   >
   >La misma sintaxis se aplica a todos los elementos de creación de informes en modo de texto donde se utilizan expresiones calculadas: vistas, filtros, agrupaciones, indicadores.
 
-Para obtener más información sobre la sintaxis que debe utilizar en una columna personalizada calculada, consulte [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obtener más información acerca de la sintaxis que debe usar en una columna personalizada calculada, vea [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Expresiones de datos que puede utilizar
 
@@ -87,7 +87,7 @@ Las siguientes listas definen las expresiones disponibles que puede utilizar al 
 * [Campos personalizados calculados matemáticos](#mathematical-calculated-custom-fields)
 * [Campos personalizados calculados de texto](#text-calculated-custom-fields)
 
-Puede utilizar las expresiones enumeradas a continuación para crear columnas personalizadas calculadas. Sin embargo, debe utilizar la sintaxis correcta para una columna personalizada calculada, tal como se describe en la sección  [Sintaxis de campos personalizados calculados frente a columnas personalizadas calculadas](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) en este artículo.
+Puede utilizar las expresiones enumeradas a continuación para crear columnas personalizadas calculadas. Sin embargo, debe utilizar la sintaxis correcta para una columna personalizada calculada, tal como se describe en la sección [Sintaxis de los campos personalizados calculados frente a columnas personalizadas calculadas](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) de este artículo.
 
 ### Campos personalizados calculados por fecha y hora {#date-time-calculated-custom-fields}
 
@@ -192,7 +192,7 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>HOUR</strong> </td> 
+   <td><strong>HORA</strong> </td> 
    <td> <p>Devuelve la hora de la fecha en forma de número entre 0 y 23.</p> <p>La expresión tiene el siguiente formato. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p>
 
 <p><code>HOUR({entryDate})</code></p> </td> 
@@ -257,7 +257,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>ABS({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>AVERAGE</strong> </td> 
+   <td><strong>PROMEDIO</strong> </td> 
    <td>Devuelve el promedio de números y tiene el siguiente formato:
 
 <p><code>AVERAGE(number1, number2, ...)</code></p></td> 
@@ -275,7 +275,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOOR</strong> </td> 
+   <td><strong>PISO</strong> </td> 
    <td>Redondea un número hacia abajo hasta el entero más próximo y tiene el siguiente formato. En este ejemplo se utiliza el número de objetos situados debajo del objeto donde está adjunto el formulario personalizado.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -309,7 +309,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
    <td>Convierte una cadena en un número y tiene el siguiente formato:<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>POWER</strong> </td> 
+   <td><strong>POTENCIA</strong> </td> 
    <td>Devuelve un número elevado a una potencia y tiene el siguiente formato:
 
 <p><code>POWER(number, power)</code></p></td> 
@@ -325,7 +325,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
    </td> 
   </tr> 
   <tr> 
-   <td><strong>ROUND</strong> </td> 
+   <td><strong>RONDA</strong> </td> 
    <td>Redondea el número hacia arriba para especificar los decimales de precisión y tiene el siguiente formato:
 
 <p><code>ROUND(number, precision)</code></p></td> 
@@ -355,7 +355,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>SUB(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong>SUMA</strong> </td> 
    <td>Suma todos los números y tiene el siguiente formato:
 
 <p><code>SUM(number1, number2, ...)</code></p></td> 
@@ -378,7 +378,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>CASE</strong> </td> 
+   <td><strong>CASO</strong> </td> 
    <td> <p>Se utiliza con otras expresiones para elegir un valor de una lista, según un número de índice. </p>
    <p>Un número de índice es un campo o una función que devuelve un valor numérico (normalmente en un intervalo conocido).</p> 
    <p>La expresión tiene el siguiente formato:</p>
@@ -402,7 +402,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>CONTAINS</strong> </td> 
+   <td><strong>CONTIENE</strong> </td> 
    <td>Devuelve true si la cadena texto se encuentra dentro de la cadena enTexto y tiene el siguiente formato:
 
 <p><code>CONTAINS(findText, withinText)</code></p></td> 
@@ -414,7 +414,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>IF</strong> </td> 
+   <td><strong>SI</strong> </td> 
    <td> <p>Evalúa una condición especificada y devuelve el valor de la expresión verdadera si es verdadera o el valor de la expresión falsa si es falsa.</p>
 
 <p>La expresión tiene el siguiente formato:</p>
@@ -434,7 +434,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Para obtener más información sobre la creación de instrucciones "IF", consulte <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Información general sobre las instrucciones "IF"</a>.</p> </td> 
+<p>Para obtener más información acerca de la creación de instrucciones "IF", vea <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref"> información general sobre instrucciones "IF"</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -452,13 +452,13 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","")</code></p> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>IN</strong> </td> 
+   <td><strong>EN</strong> </td> 
    <td> <p>Devuelve verdadero si el valor equivale a uno de los valores proporcionados; de lo contrario, la expresión devuelve falso.</p> <p>La expresión tiene el siguiente formato:
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ISBLANK</strong> </td> 
+   <td><strong>ESBLANCO</strong> </td> 
    <td> <p>Devuelve verdadero si el valor es nulo o está vacío; de lo contrario, la expresión devuelve falso.</p> <p>La expresión tiene el siguiente formato:
 
 </p><p><code>ISBLANK(value)</code></p> </td> 
@@ -476,19 +476,19 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LOWER</strong> </td> 
+   <td><strong>INFERIOR</strong> </td> 
    <td>Devuelve la cadena en minúsculas y tiene el siguiente formato:
 
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>REPLACE</strong> </td> 
+   <td><strong>REEMPLAZAR</strong> </td> 
    <td> <p>Reemplaza todas las apariciones de cadena2 por cadena3 en cadena1.</p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DERECHA</strong> </td> 
+   <td><strong>DERECHO</strong> </td> 
    <td> <p>Devuelve el número de caracteres especificado del lado derecho de una cadena y tiene el siguiente formato:</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
@@ -530,7 +530,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 <p><code>TRIM(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>UPPER</strong> </td> 
+   <td><strong>SUPERIOR</strong> </td> 
    <td> <p>Devuelve una cadena en mayúsculas con el siguiente formato:</p>
 
 <p><code>UPPER(string)</code></p> </td> 

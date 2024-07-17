@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos incluidas en la versión 2019.2. La funcionalidad está planificada para estar disponible en el entorno de producción la semana del 20 de mayo de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.2, consulte [Información general de la actividad de versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.2, consulte [Información general sobre la actividad de la versión 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Mostrar la prioridad del Portfolio en el Planificador de recursos
 
@@ -26,7 +26,7 @@ Ahora puede habilitar una configuración en el Planificador de recursos que le p
 
 Antes de esta mejora, no se podía ver la prioridad de portafolio de un proyecto en el Planificador de recursos.
 
-Para obtener información sobre cómo habilitar esta configuración, consulte la [Configuración](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) de la sección [Explicación de las áreas del Planificador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Para obtener información acerca de cómo habilitar esta configuración, vea la sección [Configuración](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) de [Explicación de las áreas del Planificador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Compartir filtros en el Planificador de recursos
 
@@ -50,9 +50,9 @@ Con este cambio, la administración de conjuntos de recursos ahora forma parte d
 
 También con este cambio, ya no es necesario ser designado como gerente de recursos en un proyecto; sin embargo, tener el acceso correcto a la administración de recursos es necesario para poder administrar los recursos.
 
-Para obtener información sobre el nuevo acceso necesario para los recursos de presupuesto, consulte [Acceso necesario a los recursos del presupuesto](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Para obtener información sobre el nuevo acceso necesario para los recursos presupuestarios, consulte [Acceso necesario a los recursos presupuestarios](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para obtener información sobre el nuevo nivel de acceso de Administración de recursos, consulte [Explicación del acceso a administración de recursos](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Para obtener información acerca del nuevo nivel de acceso a Administración de recursos, vea [Comprender el acceso a Administración de recursos](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Ordenar proyectos por prioridades de Portfolio en el Planificador de recursos
 

@@ -21,7 +21,7 @@ Los programas representan una colección de proyectos que comparten una estrateg
 
 Esta sección contiene los siguientes artículos:
 
-* [Creación de un programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [Crear un programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [Editar programas](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [Agregar un programa existente a un portafolio](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [Agregar un proyecto a un programa](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)

@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Puede utilizar el mismo campo personalizado calculado en formularios personalizados que pertenezcan a objetos diferentes. Por ejemplo, puede utilizar el campo calculado Beneficio que ha creado para el formulario personalizado del proyecto en un formulario personalizado de tarea.
 
-Para obtener información sobre cómo agregar un campo personalizado calculado a un formulario personalizado, consulte [Agregar datos calculados a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener información acerca de cómo agregar un campo personalizado calculado a un formulario personalizado, vea [Agregar datos calculados a un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Cuando se utiliza un campo personalizado calculado existente, el cálculo no se transfiere al nuevo formulario. Debe volver a agregar el cálculo, en el mismo campo, en el nuevo formulario personalizado.
 
 >[!TIP]
 >
->Esto es cuando se utiliza el cálculo almacenado en **Instrucciones** del formulario personalizado ayuda a.
+>Esto sucede cuando se utiliza el cálculo almacenado en el campo **Instrucciones** del formulario personalizado para ayudar.
 
 También puede tener un cálculo diferente para el mismo campo, en el nuevo formulario. Mantener el mismo nombre para el campo personalizado calculado garantiza la coherencia y la cohesión en la convención de nombres.
 
@@ -35,7 +35,7 @@ También puede tener un cálculo diferente para el mismo campo, en el nuevo form
 >
 >Los campos personalizados calculados pueden quedar obsoletos con el tiempo. Para asegurarse de ver siempre el cálculo actualizado en estos campos, realice una de las siguientes acciones:
 >
->* Después de guardar un objeto en el que haya editado los datos en un formulario personalizado adjunto, haga clic en el icono Más ![](assets/more-icon.png) en la página principal del objeto y, a continuación, vuelva a calcular las expresiones personalizadas.
+>* Después de guardar un objeto en el que ha editado datos en un formulario personalizado adjunto, haga clic en el icono Más ![](assets/more-icon.png) de la página principal del objeto y, a continuación, vuelva a calcular las expresiones personalizadas.
 >* Seleccione la opción Recalcular expresiones personalizadas al editar objetos de forma masiva.
 >* Seleccione la opción Actualizar cálculos anteriores al editar un campo personalizado calculado en un formulario personalizado.
 >

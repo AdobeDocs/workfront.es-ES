@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Esta página proporciona información sobre la funcionalidad incluida en la versión 23.1 de. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.2 del 6 y 7 de abril de 2023.
 
-Para obtener sugerencias sobre la preparación de la próxima versión, consulte [Preparación para una versión trimestral de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
+Para obtener sugerencias sobre cómo prepararse para la próxima versión, consulte [Prepararse para una versión trimestral de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
 ## Seminario web de lanzamiento
 
 En lugar de un seminario web sobre la versión, le invitamos a registrarse para el Adobe Summit y ver las siguientes sesiones de Workfront:
 
-[Experiencias impactantes: desde la creación de contenido hasta la personalización](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) el 21 de marzo de 2023, para aprender nuevas formas de crear, administrar y personalizar contenido y ofrecer experiencias impactantes con una mayor eficiencia. Esta sesión se transmitirá en directo para audiencias virtuales.
+[Experiencias impactantes: desde la creación de contenido hasta Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) el 21 de marzo de 2023, para aprender nuevas formas de crear, administrar y personalizar contenido y ofrecer experiencias impactantes con mayor eficacia. Esta sesión se transmitirá en directo para audiencias virtuales.
 
-[El futuro de Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) el 23 de marzo de 2023, para ver la visión de Workfront y su lugar dentro del ecosistema de Adobe y echar un vistazo a la futura hoja de ruta. Esta sesión se grabará y estará disponible más adelante como contenido bajo demanda.
+[El futuro de Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) el 23 de marzo de 2023, para ver la visión de Workfront y su lugar dentro del ecosistema de Adobe y obtener un vistazo a la futura hoja de ruta. Esta sesión se grabará y estará disponible más adelante como contenido bajo demanda.
 
-<span class="preview">Las funciones fuera de ciclo (las que se lanzaban a Producción antes de la fecha de lanzamiento de la versión 23.2) se resaltan en amarillo.</span>
+<span class="preview">Las características que no están en ciclo de producción (las que se lanzaron a Producción antes de la fecha de lanzamiento de la versión 23.2) aparecen resaltadas en amarillo.</span>
 
 ## Mejoras de Adobe Workfront
 
@@ -47,7 +47,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -57,7 +57,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignación de valores de campo de Workfront a etiquetas en Experience Manager Assets</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignar valores de campo de Workfront a etiquetas en Experience Manager Assets</a>
                         <p>Ahora puede categorizar y encontrar recursos rápidamente en función de los datos de Workfront.  Puede asignar estos datos como parte de la configuración de metadatos en la integración de Workfront para Experience Manager Assets.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -77,9 +77,9 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                         <p>El nuevo diseñador de formularios tiene un nuevo espacio de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo.</p>
                         <p>Con el nuevo diseñador de formularios, hemos agregado la capacidad de 
                         <ul>
-                        <li><strong>Copiar un campo</strong>: Ahora puede copiar campos existentes haciendo clic en el icono Copiar en los campos directamente desde el lienzo.</li>
-                        <li><strong>Utilizar una sección predeterminada</strong>: Si el creador del formulario no ha agregado una sección en la parte superior del formulario, ahora se puede ver una sección Predeterminada en el lienzo para que los usuarios puedan ajustar los permisos de los campos que no tengan asignada ninguna sección personalizada. </li>
-                        <li><strong>Cambio del tamaño del texto descriptivo</strong>: Ahora puede asignar tamaños pequeños, medianos o grandes a los campos de texto descriptivo. También puede utilizarlos en la misma fila con otros campos. <span style="color: #ff0000;"> El cambio del tamaño del texto descriptivo se ha retrasado temporalmente, pero llegará pronto.</span></li> 
+                        <li><strong>Copiar un campo</strong>: ahora puede copiar campos existentes haciendo clic en el icono Copiar en los campos directamente desde el lienzo.</li>
+                        <li><strong>Usar una sección predeterminada</strong>: si el creador del formulario no ha agregado una sección en la parte superior del formulario, ahora se ve una sección predeterminada en el lienzo para que los usuarios puedan ajustar los permisos de los campos que no tengan asignada ninguna sección personalizada. </li>
+                        <li><strong>Cambiar el tamaño del texto descriptivo</strong>: ahora puede asignar tamaños pequeños, medianos o grandes a los campos de texto descriptivo. También puede utilizarlos en la misma fila con otros campos. <span style="color: #ff0000;"> El cambio del tamaño del texto descriptivo se ha retrasado temporalmente, pero estará disponible próximamente.</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -90,14 +90,14 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                             </li>
                             <li>
                                  <p>Versión de producción: con la versión 23.2<br />
-                                 <span style="color: #ff0000;">La versión beta del diseñador de formularios se desactivó temporalmente en Previsualización y producción del 24 de mayo al 21 de julio de 2023.</span></p>
+                                 <span style="color: #ff0000;">La versión beta del diseñador de formularios se deshabilitó temporalmente en Vista previa y producción del 24 de mayo al 21 de julio de 2023.</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambiar nombre de anclajes en plantilla de diseño</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambiar el nombre de los anclajes en la plantilla de diseño</span></a>
                         <p>Ahora puede cambiar el nombre de los anclajes en una plantilla de diseño para que tenga más sentido para los usuarios, en lugar de utilizar el nombre predeterminado para la página anclada. Los anclajes que crean los administradores se muestran para todos los usuarios asignados a la plantilla de diseño y los usuarios no pueden cambiarles el nombre.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -122,7 +122,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -227,7 +227,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                                 <p>Versión de vista previa: 23 de febrero de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versión de producción para la inclusión temprana: 2 de marzo de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión anticipada: 2 de marzo de 2023 <span style="color: #ff0000;"> Esta característica solo está disponible en producción en esta fecha mediante la inclusión de características anticipadas para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.2</p>
                             </li>
                         </ul>
@@ -244,7 +244,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                                 <p>Versión preliminar: 16 de febrero de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 23 de febrero de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión anticipada: 23 de febrero de 2023 <span style="color: #ff0000;"> Esta característica solo está disponible en producción en esta fecha mediante la inclusión de características anticipadas para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.2</p>
                             </li>
                         </ul>
@@ -261,7 +261,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                                 <p>Versión preliminar: 16 de febrero de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 23 de febrero de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión anticipada: 23 de febrero de 2023 <span style="color: #ff0000;"> Esta característica solo está disponible en producción en esta fecha mediante la inclusión de características anticipadas para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.2</p>
                             </li>
                         </ul>
@@ -269,7 +269,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colecciones ahora disponibles en tableros de Adobe Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colecciones ahora disponibles en los tableros de Adobe Workfront</a></p>
                         <p>Ahora puede crear colecciones en el panel de tableros. Una colección es un grupo de tableros para colaborar en el trabajo. Una vez que haya asignado un nombre a la colección, puede agregar tableros a la colección utilizando un conjunto de plantillas que ofrecen configuraciones predefinidas, como nombres de columnas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -278,7 +278,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                                 <p>Versión preliminar: 16 de febrero de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 23 de febrero de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión anticipada: 23 de febrero de 2023 <span style="color: #ff0000;"> Esta característica solo está disponible en producción en esta fecha mediante la inclusión de características anticipadas para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.2</p>
                             </li>
                         </ul>
@@ -286,7 +286,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">El campo de estimación de las tarjetas conectadas se asigna al campo de puntos de la historia de los objetos Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">El campo de estimación de las tarjetas conectadas se asigna al campo Puntos de historia de los objetos Workfront</a></p>
                         <p>El campo Estimación en tarjetas conectadas en los paneles de Workfront ahora se asigna al campo Puntos de la historia para el objeto de Workfront asociado. </p>
                         <p>El nuevo campo Puntos de historia es un campo de forma libre editable que se puede agregar a una vista de una lista o informe para tareas o problemas. No está vinculado a las horas planificadas o a las asignaciones de equipo.</p>
                     </td>
@@ -296,7 +296,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                                 <p>Versión preliminar: 26 de enero de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de la producción para la inclusión temprana: esta función se retrasó y se lanzará el 9 de febrero. <span style="color: #ff0000;">En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
+                                 <p>Lanzamiento de la producción para la inclusión temprana: esta función se retrasó y se lanzará el 9 de febrero. <span style="color: #ff0000;">Esta característica solo está disponible en producción en esta fecha mediante la inclusión de características anticipada para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.2</p>
                             </li>
                         </ul>
@@ -304,7 +304,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Vista previa de tarjeta en columna de entrada</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Tarjeta de vista previa en la columna de entrada</a></p>
                         <p>Ahora puede hacer clic en una tarjeta conectada de la columna de entrada para ver una versión de solo lectura de su contenido. No puede editar el contenido de la tarjeta hasta que la tarjeta se mueva fuera de la columna de entrada a otra columna del tablero.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -313,7 +313,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                                 <p>Versión preliminar: 26 de enero de 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Lanzamiento de producción para la inclusión temprana: 2 de febrero de 2023 <span style="color: #ff0000;"> En esta fecha, esta función solo está disponible en producción mediante la inclusión temprana de funciones para los paneles de Workfront.</span></p>
+                                 <p>Lanzamiento de producción para la inclusión anticipada: 2 de febrero de 2023 <span style="color: #ff0000;"> Esta característica solo está disponible en producción en esta fecha mediante la inclusión de características anticipadas para los paneles de Workfront.</span></p>
                                 <p>Versión de producción para todos los clientes: con la versión 23.2</p>
                             </li>
                         </ul>
@@ -330,7 +330,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -356,7 +356,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">La experiencia de filtrado mejorada suele estar disponible en Adobe Workfront</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">La experiencia de filtro mejorada está disponible en general en Adobe Workfront</a>
                         <p>La experiencia de filtro mejorada estará disponible de forma general y se convertirá en el generador de filtros estándar en Vista previa el 2 de marzo de 2023. El 2 de marzo también se iniciará un despliegue gradual en el entorno de producción, disponible para todos los clientes en la versión 23.2.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -397,7 +397,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -407,7 +407,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Introducción al campo Tiempo de trabajo para calcular con precisión la capacidad del usuario</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Presentamos el campo Tiempo de trabajo para calcular con precisión la capacidad del usuario</a>
                         <p>Para permitir que los administradores de recursos calculen con precisión la disponibilidad de sus usuarios y tengan en cuenta el tiempo que los usuarios dedican al trabajo real relacionado con el proyecto, presentamos el concepto de Tiempo de trabajo a Adobe Workfront.</p>
                         <p>Puede definir el valor del campo Tiempo de trabajo de cada usuario al crear o editar su perfil.</p>
                     </td>
@@ -435,7 +435,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -470,7 +470,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -480,7 +480,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Inicio de sesión biométrico y colecciones de tableros en la aplicación móvil</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Colecciones biométricas de inicio de sesión y tableros en la aplicación móvil</span></a>
                         <p>El inicio de sesión biométrico es ahora una opción para iniciar sesión más rápido en la aplicación móvil. Una vez configurada la verificación biométrica después de un inicio de sesión inicial, los usuarios podrán utilizar la huella digital o el reconocimiento facial para volver a iniciar sesión rápidamente en la aplicación con solo una reverificación ocasional de la contraseña. Además, en una actualización posterior se incorporarán varias mejoras de aspecto y funcionamiento en la experiencia general de inicio de sesión.</p>
                         <p>Las colecciones de tableros ahora también son compatibles con la aplicación móvil, lo que permite a los usuarios móviles ver cualquier colección a la que tengan acceso en la versión de escritorio desde su lista de tableros móviles.</p>
                     </td>
@@ -506,7 +506,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Función</span>
+                        <p><span class="bold">Característica</span>
                         </p>
                     </td>
                     <td>
@@ -516,7 +516,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo en los complementos de Workfront para Creative Cloud</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo en Workfront para complementos de Creative Cloud</a>
                         <p>Hemos añadido los siguientes cambios a los complementos de Workfront para Creative Cloud:
                         <ul>
                         <li>El complemento ahora le notifica cuando una tarea tiene una predecesora</li>
@@ -536,7 +536,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de comentarios para los problemas beta</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva experiencia de comentarios para problemas con Beta</a>
                         <p>Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de algunos objetos. </p>
                         <p>Esta nueva experiencia finalmente unificará los comentarios en Adobe Workfront y más allá, en todo Adobe Experience Cloud. </p>
                     </td>
@@ -575,7 +575,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El visor de revisión se abre en una nueva pestaña para los usuarios de la experiencia unificada</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El visor de revisión se abre en una nueva ficha para los usuarios de la experiencia unificada</a></p>
                         <p>El visor de revisión ahora se abre en una nueva pestaña para los usuarios de la experiencia unificada.
                         </p>
                     </td>
@@ -592,7 +592,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportar mesas de trabajo como un solo PDF o como varios archivos de PDF en Adobe Workfront XD para su uso en el</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportar mesas de trabajo como un solo PDF o como varios archivos de PDF en Adobe Workfront XD para el</span></a>
                         <p>En el complemento Adobe Workfront XD para la, ahora puede elegir exportar las mesas de trabajo como un solo archivo de PDF o como varios archivos de PDF.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -641,23 +641,23 @@ No hay actualizaciones de Workfront Proof en este punto de la versión. Esta ár
 
 ### Mejoras en Workfront Goals
 
-Nuevas funciones incluidas en la versión Workfront Goals con la versión 23.2. Para obtener más información sobre estas nuevas funciones ahora disponibles en Vista previa, consulte [Adobe Workfront Goals con la versión 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
+Nuevas funciones incluidas en la versión Workfront Goals con la versión 23.2. Para obtener más información sobre estas nuevas características que ya están disponibles en Vista previa, consulte [Objetivos de Adobe Workfront con la versión 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### Versión de API 16
 
 La versión 16 de la API se lanzará con la versión 22.3. Para la versión 16 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 16 de la API](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 16](/help/quicksilver/wf-api/api/new-api-version-16.md) de la API.
 
-Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de asistencia](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión 23.2, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 23.2, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Actualizaciones de formación
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [Página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
 
 ### Funcionalidad que se eliminará pronto de Workfront
 
@@ -665,7 +665,7 @@ Las siguientes funciones se eliminarán pronto de Workfront:
 
 #### **Las páginas externas del panel ya no admiten las direcciones URL del panel**
 
-Para mejorar la estabilidad del panel y los tiempos de carga, las páginas externas de los paneles ya no podrán hacer referencia a las direcciones URL del panel. Los administradores de sistemas para cuentas que contengan páginas externas que hagan referencia a paneles recibirán una notificación dentro de la aplicación para avisarles de este cambio. Para obtener más información, consulte [Incrustar una página externa en un panel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+Para mejorar la estabilidad del panel y los tiempos de carga, las páginas externas de los paneles ya no podrán hacer referencia a las direcciones URL del panel. Los administradores de sistemas para cuentas que contengan páginas externas que hagan referencia a paneles recibirán una notificación dentro de la aplicación para avisarles de este cambio. Para obtener más información, vea [Incrustar una página externa en un panel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 #### **Cambios en la API predeterminada de Workfront**
 
@@ -677,7 +677,7 @@ Anteriormente, la API predeterminada utilizaba la versión 2.0 de la API de Work
 
 Si su organización utiliza actualmente la API predeterminada obsoleta, su administrador de Workfront ha recibido un mensaje del Centro de anuncios con más instrucciones sobre la API predeterminada.
 
-Para obtener más información, consulte [Actualizar integraciones que utilizan el control de versiones de API predeterminado](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
+Para obtener más información, consulte [Actualizar integraciones que usan versiones predeterminadas de API](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--

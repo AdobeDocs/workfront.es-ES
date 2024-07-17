@@ -7,9 +7,10 @@ title: Metadatos de conexión en Adobe Workfront Fusion
 description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 3a7983279a38c30cb58078d129ea22dee137d9a5
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una licencia de [!DNL Adobe Workfront] licencia.
+>[!DNL Adobe Workfront Fusion] requiere una licencia [!DNL Adobe Workfront Fusion] además de una licencia [!DNL Adobe Workfront].
 
 No todas las conexiones son iguales. Comprender las diferencias entre conexiones es muy importante para conocer su contexto empresarial. Fusion utiliza metadatos para identificar atributos importantes de una conexión.
 
@@ -41,6 +42,3 @@ Las conexiones de Fusion se pueden utilizar tanto para cuentas de servicio como 
 Tenga en cuenta que, al igual que otros metadatos de conexión, solo se utiliza con fines informativos. Los usuarios siguen siendo responsables de configurar este atributo de forma manual con precisión.
 
 Para obtener más información sobre los tipos de autenticación, consulte [Autenticación](https://developer.adobe.com/developer-console/docs/guides/authentication/) en la Guía de autenticación de Adobe.
-
-
-

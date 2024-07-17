@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Workfront calcula el índice de rendimiento de costos (CSI) de un proyecto o tar
 
 `CSI = CPI x SPI`
 
-Para obtener más información sobre CPI, consulte el artículo [Calcular índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Para obtener información acerca del IRC, consulte el artículo [Calcular el índice de rendimiento de costos (IRC)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-Para obtener información sobre SPI, consulte el artículo [Calcular índice de rendimiento del horario (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+Para obtener información acerca de SPI, vea el artículo [Calcular el índice de rendimiento de horario (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
 
 CSI tiene los tres valores posibles siguientes:
 

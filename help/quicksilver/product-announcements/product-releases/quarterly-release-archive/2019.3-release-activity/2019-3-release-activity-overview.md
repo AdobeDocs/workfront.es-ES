@@ -152,11 +152,11 @@ La versión 2019.3 incluye las siguientes mejoras:
 
   Para que la aplicación móvil de Workfront sea más segura para usted y para su empresa, la sesión de los usuarios se cerrará automáticamente tras 8 minutos de inactividad.
 
-* [Filtrar por proyectos inactivados en la aplicación móvil](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrar por proyectos inactivados en la aplicación móvil](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [Filtrar por proyectos inactivos en la aplicación móvil](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrar por proyectos inactivos en la aplicación móvil](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   Hemos añadido Proyectos inactivados como opción de filtro en la pestaña Proyectos de la aplicación móvil.
 
-* [Eliminación de objetos mediante la aplicación móvil en iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* [Eliminar objetos mediante la aplicación móvil en iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -198,7 +198,7 @@ Se han añadido varias mejoras de aspecto para mejorar su experiencia en la apli
 
 En esta sección se describen los cambios realizados durante el periodo de tiempo de lanzamiento de 2019.3 que se lanzará al entorno de producción antes de la versión general de 2019.3.
 
-* [Cambiar el tipo de visualización de un campo en un formulario personalizado](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
+* [Cambiar el tipo de presentación de un campo en un formulario personalizado](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -357,9 +357,9 @@ Para obtener más información sobre las actualizaciones de mantenimiento realiz
 
 ## Anuncios
 
-* [La nueva versión beta de Workfront Experience Cloud ya está disponible en Vista previa](#the-new-workfront-experience-beta-now-available-in-preview)
-* [Ya está disponible la biblioteca Workfront](#workfront-library-now-available)
-* [La versión 3 de la API ya no es compatible](#api-version-3-no-longer-supported)
+* [La nueva versión beta de la experiencia Workfront ya está disponible en versión de vista previa](#the-new-workfront-experience-beta-now-available-in-preview)
+* [Biblioteca de Workfront ya disponible](#workfront-library-now-available)
+* [Ya no se admite la API versión 3](#api-version-3-no-longer-supported)
 * [Finaliza la compatibilidad con TLS 1.0 y 1.1](#tls-1-0-and-1-1-support-is-ending)
 * [eliminación de aplicación de Flash](#flash-application-removal)
 * [Se eliminarán varias opciones de inicio de sesión único](#various-single-sign-on-options-to-be-removed)
@@ -375,7 +375,7 @@ La biblioteca Workfront es un centro de contenido digital empresarial que puede 
 
 ### La versión 3 de la API ya no es compatible {#api-version-3-no-longer-supported}
 
-La compatibilidad con la versión 3 de la API finalizó en noviembre de 2018. Para obtener más información sobre el programa de soporte de las versiones de la API de Workfront, consulte [Versiones de API y programación de asistencia](../../../../wf-api/api/api-version-support-schedule.md)
+La compatibilidad con la versión 3 de la API finalizó en noviembre de 2018. Para obtener más información sobre el horario de soporte de las versiones de la API de Workfront, consulte [Versiones de API y horario de soporte](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Todas las funcionalidades que dependen de la tecnología de Flash se han eliminado de Workfront desde la versión 2018.3 y se han sustituido por una nueva solución.
 
-Para obtener información detallada sobre las herramientas de Flash heredadas y sus sustitutos, consulte [Reemplazo de herramientas basadas en Flash en Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Para obtener información detallada sobre las herramientas de Flash heredadas y sus reemplazos, consulte [Reemplazo de herramientas basadas en Flash en Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ Ahora, las siguientes opciones de inicio de sesión único (SSO) solo son compat
 
 * LDAP
 
-  Para obtener más información sobre el uso de LDAP con Workfront, consulte [Configuración de Adobe Workfront con LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Para obtener más información acerca del uso de LDAP con Workfront, consulte [Configuración de Adobe Workfront con LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -431,7 +431,7 @@ Ahora, las siguientes opciones de inicio de sesión único (SSO) solo son compat
 
 * Active Directory
 
-  Para obtener más información acerca del uso de Active Directory con Workfront, consulte [Configuración de Adobe Workfront con Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Para obtener más información acerca del uso de Active Directory con Workfront, vea [Configurar Adobe Workfront con Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ A continuación se muestra la cronología de eliminación de estas opciones de S
 
 ### Seminario web de roadmap del producto del tercer trimestre {#q3-product-roadmap-webinar}
 
-Obtenga más información acerca de lo que vendrá durante la [Seminario web de roadmap del tercer trimestre](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) el 1 de agosto a las 9:00 am. MST.
+Obtenga más información sobre lo que vendrá durante el [Seminario web de hoja de ruta T3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) el 1 de agosto a las 9:00 a.m. MST.

@@ -22,11 +22,11 @@ Después de seleccionar un tipo de registro en el área de Adobe Workfront Plann
 
 * Tabla
 
-  Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Cronología
 
-  Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 * Calendario
 
@@ -34,9 +34,9 @@ Después de seleccionar un tipo de registro en el área de Adobe Workfront Plann
 
 Este artículo describe la siguiente información sobre las vistas de registros:
 
-* [Creación y edición de una vista](#create-or-edit-record-views)
+* [Crear y editar una vista](#create-or-edit-record-views)
 * [Eliminación de una vista](#delete-views)
-* [Duplicación de una vista](#duplicate-views)
+* [Duplicar una vista](#duplicate-views)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -94,7 +94,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -168,7 +168,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Clic **+ Ver** para añadir una nueva vista.
+1. Haga clic en **+ Vista** para agregar una vista nueva.
 1. Seleccione entre los siguientes tipos de vistas:
 
    * Tabla
@@ -177,7 +177,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    Se crea una nueva pestaña con la vista seleccionada.
 
-   Según el ancho de la pantalla, podrían mostrarse vistas adicionales en la **Más** menú ![](assets/more-menu.png).
+   Según el ancho de la pantalla, es posible que se muestren vistas adicionales en el menú **Más** ![](assets/more-menu.png).
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Condicional) Haga clic en **Siguiente**, al crear una vista de calendario o de cronología.
+1. (Condicional) Haga clic en **Siguiente** al crear una vista de calendario o de cronología.
 
    De forma predeterminada, Workfront asigna a la vista uno de los nombres siguientes:
 
@@ -201,19 +201,19 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    El número es un incremento generado automáticamente.
 
-1. (Condicional) Seleccione la variable **Inicio** y **Fechas de finalización** para los registros que se mostrarán en la vista cronología o calendario.
+1. (Condicional) Seleccione las **fechas de inicio** y de finalización **3} para los registros que se mostrarán en la vista de calendario o de cronología.**
 
    >[!TIP]
    >
-   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado. Debe utilizar acumuladores para los campos de fecha (MAX o MIN) cuando seleccione los campos de búsqueda como fechas de inicio y finalización para las vistas de calendario y de escala de tiempo. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado. Debe utilizar acumuladores para los campos de fecha (MAX o MIN) cuando seleccione los campos de búsqueda como fechas de inicio y finalización para las vistas de calendario y de escala de tiempo. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Haga clic en **Crear**.
 
    La vista se muestra como una nueva pestaña. Las vistas se muestran en orden cronológico a partir del momento en que se crearon o compartieron con usted.
-1. (Opcional) Haga clic en **Más** menú ![](assets/more-caret-down-icon-views.png) situado junto a la última vista para mostrar todas las vistas del tipo de registro seleccionado.
+1. (Opcional) Haga clic en el menú **Más** ![](assets/more-caret-down-icon-views.png) que está junto a la última vista para mostrar todas las vistas del tipo de registro seleccionado.
 
-   Las vistas adicionales se muestran en **Más** después de la última pestaña de vista. El número situado junto al **Más** El menú muestra el número de vistas adicionales.
-1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en **Más** menú ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista
+   Se muestran vistas adicionales en el menú **Más** después de la última ficha de vista. El número al lado del menú **Más** muestra el número de vistas adicionales.
+1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en el menú **Más** ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista
 
    O
 
@@ -240,10 +240,10 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de vista y haga clic en **Más** ![](assets/more-menu.png) a la izquierda del nombre de la vista y haga clic en **Eliminar**.
-Primero, es posible que tenga que hacer clic en **Más** a la izquierda de la última pestaña para buscar la vista que desea eliminar.
+1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de la vista, luego haga clic en **Más** ![](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
+En primer lugar, es posible que deba hacer clic en **Más** a la izquierda de la última pestaña para encontrar la vista que desee eliminar.
 
-1. Clic **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
+1. Haga clic en **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 
    La vista se elimina para todos los usuarios que pueden acceder al área de registros y no se puede recuperar.
 
@@ -270,10 +270,10 @@ Los permisos de uso compartido de la vista original no se transfieren a la vista
    Se abre la página de tipo de registro.
 De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el ratón sobre la pestaña de la vista que quiera duplicar y haga clic en **Más** menú ![](assets/more-menu.png) a la derecha del nombre de la vista y haga clic en **Duplicar**.
+1. Pase el ratón sobre la pestaña de la vista que quiera duplicar, haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre de la vista y luego haga clic en **Duplicar**.
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   La vista se duplica y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva pestaña de vista se muestra al final de todas las pestañas de vista.
+   La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva pestaña de vista se muestra al final de todas las pestañas de vista.
 

@@ -65,20 +65,20 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 El formato de una regla de negocio es &quot;SI se cumple la condición definida, se impide al usuario realizar la acción en el objeto y se muestra el mensaje&quot;.
 
-La sintaxis de las propiedades y otras funciones de una regla de negocio es la misma que la sintaxis de un campo calculado en un formulario personalizado. Para obtener más información sobre la sintaxis, consulte [Agregar campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La sintaxis de las propiedades y otras funciones de una regla de negocio es la misma que la sintaxis de un campo calculado en un formulario personalizado. Para obtener más información sobre la sintaxis, vea [Agregar campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Para obtener información sobre las instrucciones IF, consulte [Información general sobre las instrucciones &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) y [Operadores de condición en campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Para obtener información acerca de las instrucciones IF, vea [&quot;IF&quot; instrucciones overview](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) y [Operadores de condición en los campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Para obtener información sobre los comodines basados en usuarios, consulte [Utilice comodines basados en usuarios para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+Para obtener información acerca de los comodines basados en usuarios, vea [Usar comodines basados en usuarios para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-Para obtener información sobre los comodines basados en fecha, consulte [Utilice comodines basados en fecha para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Para obtener información acerca de los comodines basados en fecha, vea [Usar comodines basados en fecha para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-También hay un comodín de API disponible en las reglas empresariales. Puede utilizar `$$ISAPI` para almacenar en déclencheur la regla solo en la interfaz de usuario o solo en la API.
+También hay un comodín de API disponible en las reglas empresariales. Puede usar `$$ISAPI` para almacenar la regla en déclencheur solamente en la interfaz de usuario o solamente en la API.
 
 Algunos escenarios de reglas de negocio simples son:
 
-* Los usuarios no pueden agregar nuevos gastos durante la última semana de febrero. Esta fórmula puede expresarse de la siguiente manera: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Los usuarios no pueden editar un proyecto que esté en estado completo. Esta fórmula puede expresarse de la siguiente manera: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Los usuarios no pueden agregar nuevos gastos durante la última semana de febrero. Esta fórmula se puede establecer como: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Los usuarios no pueden editar un proyecto que esté en estado completo. Esta fórmula se puede establecer como: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Un escenario con instrucciones IF anidadas es:
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. Clic **Reglas comerciales** en el panel izquierdo.
-1. Clic **Nueva regla empresarial**.
+1. Haga clic en **Reglas de negocio** en el panel izquierdo.
+1. Haga clic en **Nueva regla de negocio**.
 1. Seleccione el tipo de objeto al que asignar la regla de negocio y haga clic en **Continuar**.
 
    ![Seleccionar un objeto](assets/object-for-business-rule2.png)
 
-1. Escriba el **Nombre** para la regla de negocio.
-1. En el **Está activo** , seleccione si la regla debe estar activa al guardarla.
+1. Escriba **Name** para la regla de negocio.
+1. En el campo **Está activo**, seleccione si la regla debe estar activa al guardarla.
 
-   Si selecciona **No** Sin embargo, la regla se guarda como inactiva y puede activarla más adelante.
+   Si selecciona **No**, la regla se guardará como inactiva y podrá activarla más tarde.
 
-1. Seleccione una **Déclencheur** para la regla de negocio. Las opciones son:
+1. Seleccione un **Déclencheur** para la regla de negocio. Las opciones son:
 
-   * **Al crear el objeto:** La regla se aplica cuando un usuario intenta crear un objeto.
-   * **Al editar el objeto:** La regla se aplica cuando un usuario intenta editar un objeto.
-   * **Al eliminar el objeto:** La regla se aplica cuando un usuario intenta eliminar un objeto.
+   * **Al crear un objeto:** La regla se aplica cuando un usuario intenta crear un objeto.
+   * **Al editar un objeto:** La regla se aplica cuando un usuario intenta editar un objeto.
+   * **Al eliminar un objeto:** La regla se aplica cuando un usuario intenta eliminar un objeto.
 
-1. (Opcional) Introduzca una **Descripción** de la regla de negocio y qué sucede cuando se aplica.
+1. (Opcional) Escriba una **Descripción** de la regla de negocio y qué sucede cuando se aplica.
 1. Cree la fórmula en el editor de fórmulas, en el centro del cuadro de diálogo de la regla de negocio.
 
    El formato de una regla de negocio es &quot;SI se cumple la condición definida, se impide al usuario realizar la acción en el objeto y se muestra el mensaje&quot;.
@@ -127,19 +127,19 @@ IF(
    * Como el objeto y la acción ya están definidos, no los incluye en la fórmula.
    * El mensaje de error personalizado se muestra al usuario cuando almacena en déclencheur la regla de negocio. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
 
-   ![Cuadro de diálogo Agregar regla de negocio](assets/add-business-rule-dialog-no-ai-button.png)
+   ![Agregar cuadro de diálogo de regla de negocio](assets/add-business-rule-dialog-no-ai-button.png)
 
    Este ejemplo es una regla de negocio para gastos. Si el mes actual es junio, no se permite a los usuarios crear nuevos gastos y en el mensaje se explica esto.
 
-   Para ver más ejemplos de reglas de negocio, consulte [Escenarios para reglas de negocio](#scenarios-for-business-rules) en este artículo.
+   Para obtener más ejemplos de reglas de negocio, consulte [Escenarios para reglas de negocio](#scenarios-for-business-rules) en este artículo.
 
-1. (Opcional) Utilice la fórmula **Expresiones** y **Campos** en el panel derecho para ayudar a crear la regla.
+1. (Opcional) Use la fórmula **Expresiones** y **Campos** en el panel derecho para ayudar a crear la regla.
 
    Busque una expresión o un campo para reducir la lista de elementos disponibles.
 
    La lista de campos disponibles se limita a los campos relacionados con el tipo de objeto de la regla de negocio.
 
-1. Clic **Guardar** cuando haya terminado de crear la regla de negocio.
+1. Haga clic en **Guardar** cuando termine de crear la regla de negocio.
 
 >[!NOTE]
 >
@@ -152,5 +152,5 @@ Cuando una regla de negocio está inactiva, el campo Está activo en la lista de
 Para activar una regla de negocio:
 
 1. Seleccione la regla de negocio en la lista de reglas y haga clic en el icono Editar.
-1. Seleccionar **Sí** para **Está activo** en el cuadro de diálogo regla de negocio.
+1. Seleccione **Yes** para **Is Active** en el cuadro de diálogo de regla de negocio.
 1. Haga clic en **Guardar**.

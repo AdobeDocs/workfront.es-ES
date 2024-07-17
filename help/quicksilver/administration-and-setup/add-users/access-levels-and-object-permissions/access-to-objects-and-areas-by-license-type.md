@@ -25,23 +25,23 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
 
   >[!NOTE]
   >
-  >Cuando otro usuario comparte un objeto, el que comparte puede especificar permisos que limiten su capacidad para editarlo. Para obtener más información, consulte [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Cuando otro usuario comparte un objeto, el que comparte puede especificar permisos que limiten su capacidad para editarlo. Para obtener más información, vea [Información general sobre los permisos de uso compartido en objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 |   | Plan | Trabajo | Revisar | Solicitud | Externo |
 |---|---|---|---|---|---|
-| Proyectos | Editar | Editar (sin permisos de creación) | Vista | Ver (solo la página Detalles) | Sin acceso |
-| Tareas | Editar | Editar | Vista | Vista | Vista |
+| Proyectos | Editar | Editar (sin permisos de creación) | Ver | Ver (solo la página Detalles) | Sin acceso |
+| Tareas | Editar | Editar | Ver | Ver | Ver |
 | Problemas | Editar | Editar | Editar | Editar | Sin acceso |
-| Portafolios | Editar | Vista | Vista | Sin acceso | Sin acceso |
-| Programas | Editar | Vista | Vista | Sin acceso | Sin acceso |
-| Informes, tableros y calendarios | Editar | Vista | Vista | Vista&#42; | Ver (solo para calendarios, sin permisos de uso compartido) |
+| Portafolios | Editar | Ver | Ver | Sin acceso | Sin acceso |
+| Programas | Editar | Ver | Ver | Sin acceso | Sin acceso |
+| Informes, tableros y calendarios | Editar | Ver | Ver | Vista&#42; | Ver (solo para calendarios, sin permisos de uso compartido) |
 | Filtros, vistas y agrupaciones | Editar | Editar | Editar | Editar | Sin acceso |
 | Documentos | Editar | Editar | Editar | Editar | Ver (sin permisos de uso compartido) |
-| Usuarios | Editar | Vista | Vista | Vista | Vista |
-| Equipos | Editar | Editar | Vista | Vista | Sin acceso |
+| Usuarios | Editar | Ver | Ver | Ver | Ver |
+| Equipos | Editar | Editar | Ver | Ver | Sin acceso |
 | Plantillas | Editar | Sin acceso | Sin acceso | Sin acceso | Sin acceso |
-| Datos financieros | Editar | Ver (solo el área Finanzas en Detalles del proyecto) | Vista | Sin acceso | Sin acceso |
-| Administración de recursos | Editar | Vista | Vista | Sin acceso | Sin acceso |
+| Datos financieros | Editar | Ver (solo el área Finanzas en Detalles del proyecto) | Ver | Sin acceso | Sin acceso |
+| Administración de recursos | Editar | Ver | Ver | Sin acceso | Sin acceso |
 | Planificador de escenarios | Editar | Editar | Editar | Sin acceso | Sin acceso |
 | Workfront Goals | Editar | Editar | Editar | Editar | Sin acceso |
 
@@ -55,18 +55,18 @@ La siguiente tabla indica el nivel más alto de acceso (Editar o Ver) que cada u
 
 Puede encontrar información detallada sobre lo que permiten los niveles de acceso para cada objeto y área en los siguientes artículos:
 
-* [Concesión de acceso a proyectos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+* [Conceder acceso a proyectos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Conceder acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Conceder acceso a los problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Conceder acceso a problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Conceder acceso a documentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Conceder acceso a portafolios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [Concesión de acceso a los programas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [Conceder acceso a los programas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
 * [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Conceder acceso a los equipos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
-* [Concesión de acceso a las plantillas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
-* [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
+* [Conceder acceso a las plantillas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
+* [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Conceder acceso a Administración de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Conceder acceso al Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Concesión de acceso a Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

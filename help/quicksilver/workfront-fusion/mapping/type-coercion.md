@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Coerción de tipos en Adobe Workfront Fusion
-description: Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situaciones en las que recibe valores en formatos de datos esperados e inesperados.
+description: Este documento describe cómo se comporta  [!DNL Adobe Workfront Fusion] en situaciones en las que recibe valores en formatos de datos esperados e inesperados.
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 1%
+source-wordcount: '641'
+ht-degree: 3%
 
 ---
 
@@ -36,29 +36,29 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ### Coerción de tipo
 
-Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situaciones en las que recibe valores en formatos de datos esperados e inesperados.
+Este documento describe cómo se comporta [!DNL Adobe Workfront Fusion] en situaciones en las que recibe valores en formatos de datos esperados e inesperados.
 
 <table style="table-layout:auto">
  <col> 
@@ -80,7 +80,7 @@ Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situa
   <tr> 
    <td>matriz </td> 
    <td>otro </td> 
-   <td> <p>Si el valor recibido no es del tipo matriz, [!DNL Workfront Fusion] creará una matriz y el primer elemento (y el único) será el valor recibido.</p> </td> 
+   <td> <p>Si el valor recibido no es del tipo de matriz, [!DNL Workfront Fusion] creará una matriz y el primer (y único) elemento será el valor recibido.</p> </td> 
   </tr> 
   <tr> 
    <td>booleano </td> 
@@ -105,7 +105,7 @@ Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situa
   <tr> 
    <td>amortiguador </td> 
    <td>amortiguador </td> 
-   <td> <p>El valor se entrega sin cambios solo si la página de códigos cumple lo esperado. Si la página de códigos es diferente, [!DNL Workfront Fusion] intentará convertir el valor recibido en la página de códigos solicitada. Si no se admite esta conversión, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
+   <td> <p>El valor se entrega sin cambios solo si la página de códigos cumple lo esperado. Si la página de códigos difiere, [!DNL Workfront Fusion] intentará convertir el valor recibido a la página de códigos solicitada. Si no se admite esta conversión, [!DNL Workfront Fusion] devolverá un error de validación.</p> </td> 
   </tr> 
   <tr> 
    <td>amortiguador </td> 
@@ -215,7 +215,7 @@ Este documento describe cómo [!DNL Adobe Workfront Fusion] se comporta en situa
   <tr> 
    <td>hora </td> 
    <td>texto </td> 
-   <td> <p>[!DNL Workfront Fusion] intentará convertir el tiempo en horas:minutes:formato de segundos. Si la conversión falla, devolverá un error de validación.</p> </td> 
+   <td> <p>[!DNL Workfront Fusion] intentará convertir la hora al formato de horas:minutes:segundos. Si la conversión falla, devolverá un error de validación.</p> </td> 
   </tr> 
   <tr> 
    <td>hora </td> 

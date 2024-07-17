@@ -63,11 +63,11 @@ Un formulario personalizado debe tener al menos un tipo de objeto.
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizado** en el panel izquierdo.
-1. Seleccione el formulario personalizado que desee editar y haga clic en ![Icono Editar](assets/edit-icon.png).
-1. Haga clic en la X de cualquiera de las **Tipos de objetos** que desee eliminar del formulario y, a continuación, haga clic en **Eliminar** en el mensaje de advertencia que se muestra.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
+1. Seleccione el formulario personalizado que desee editar y luego haga clic en ![Editar icono](assets/edit-icon.png).
+1. Haga clic en la X de cualquiera de los **tipos de objetos** que desee eliminar del formulario y, a continuación, haga clic en **Eliminar** en el mensaje de advertencia que aparece.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Opcional) Repita el paso anterior para cualquier otro tipo de objeto que desee quitar del formulario.
-1. Clic **Listo**, luego haga clic en **Guardar y cerrar**.
+1. Haga clic en **Listo** y luego haga clic en **Guardar y cerrar**.

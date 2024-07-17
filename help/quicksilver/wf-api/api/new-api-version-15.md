@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2349'
-ht-degree: 3%
+source-wordcount: '2286'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ Para obtener más información sobre Iniciativas, consulte [Información general
             <p>El ID asociado con el usuario que envió la solicitud.</p>
           </li>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
             <p>El ID asociado con la acción</p>
           </li>
@@ -82,22 +82,22 @@ Para obtener más información sobre Iniciativas, consulte [Información general
             <p>La fecha en la que se publicó por última vez la iniciativa en el Scenario Planner de Workfront.</p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>nombre</b>
             </p>
             <p>El nombre de la iniciativa</p>
           </li>
           <li>
-            <p><b>planID</b>
+            <p><b>ID de plan</b>
             </p>
             <p>El ID del plan asociado con la iniciativa.</p>
           </li>
           <li>
-            <p><b>planName</b>
+            <p><b>nombreDePlan</b>
             </p>
             <p>El nombre del plan asociado con la iniciativa.</p>
           </li>
           <li>
-            <p><b>projectID</b>
+            <p><b>ID de proyecto</b>
             </p>
             <p>El ID del proyecto asociado con la iniciativa.</p>
           </li>
@@ -138,11 +138,11 @@ Para obtener más información sobre Iniciativas, consulte [Información general
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>nombre</b>
             </p>
           </li>
           <li>
@@ -169,7 +169,7 @@ Para obtener más información sobre Iniciativas, consulte [Información general
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>BUSCAR</b>
             </p>
           </li>
         </ul>
@@ -191,7 +191,7 @@ El objeto IssueDef representa un conjunto de datos relativos al formato de los p
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
           <li>
@@ -206,7 +206,7 @@ El objeto IssueDef representa un conjunto de datos relativos al formato de los p
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
           <li>
@@ -242,7 +242,7 @@ En algunos casos, es posible vincular elementos de trabajo de Workfront directam
             <p>La fecha y hora en que se ingresó la integración de objetos en el sistema de Workfront.</p>
           </li>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
             <p>ID de Workfront único del objeto ObjectIntegration específico.</p>
           </li>
@@ -310,7 +310,7 @@ En algunos casos, es posible vincular elementos de trabajo de Workfront directam
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
           <li>
@@ -340,7 +340,7 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
             </p>
           </li>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
         </ul>
@@ -374,7 +374,7 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
           <li>
@@ -398,7 +398,7 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
       <td>
         <ul>
           <li>
-            <p><b>approverID</b>
+            <p><b>aprobador</b>
             </p>
           </li>
           <li>
@@ -406,7 +406,7 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
             </p>
           </li>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
           <li>
@@ -414,15 +414,15 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>IDsolicitante</b>
             </p>
           </li>
           <li>
-            <p><b>status</b>
+            <p><b>estado</b>
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b>idDeUsuario</b>
             </p>
           </li>
         </ul>
@@ -456,7 +456,7 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
           </li>
           <li>
@@ -471,19 +471,19 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
       <td >
         <ul>
           <li>
-            <p><b>approverID</b>
+            <p><b>aprobador</b>
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>IDsolicitante</b>
             </p>
           </li>
           <li>
-            <p><b>status</b>
+            <p><b>estado</b>
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b>idDeUsuario</b>
             </p>
           </li>
         </ul>
@@ -509,7 +509,7 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
       <td>
         <ul>
           <li>
-            <p><b>AÑADIR</b>
+            <p><b>AGREGAR</b>
             </p>
           </li>
           <li>
@@ -529,7 +529,7 @@ El objeto TaskDef representa un conjunto de datos relativos al formato de las ta
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>BUSCAR</b>
             </p>
           </li>
         </ul>
@@ -604,7 +604,7 @@ No se ha eliminado ningún recurso para la versión 15 de la API.
 
 Un objeto AccessLevel está asociado a los usuarios y describe el conjunto de AccessLevelPermissions que determinan a qué puede tener acceso el usuario.
 
-Para obtener más información sobre los niveles de acceso, consulte [Niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Para obtener más información sobre los niveles de acceso, vea [Niveles de acceso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table>
   <col/>
@@ -805,18 +805,18 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
           <li>
             <p><b>iniciativa</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
             <p>El objeto Initiative crea estimaciones en el Scenario Planner de Workfront para el tipo y el número de funciones del puesto, los costes fijos y el beneficio planificado. </p>
           </li>
           <li>
             <p><b>issueDef</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
           <li>
             <p><b>taskDef</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -829,7 +829,7 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
             <p style="font-weight: bold;"><b>objectIntegrations
 </b>
             </p>
-            <p style="font-weight: normal;">Agregado.</p>
+            <p style="font-weight: normal;">Añadido.</p>
             <p>En algunos casos, es posible vincular elementos de trabajo de Workfront directamente a objetos de un producto de software externo. El objeto ObjectIntegration representa este vínculo.</p>
           </li>
         </ul>
@@ -861,7 +861,7 @@ Un objeto Category es un formulario personalizado.
           </li>
           <li>
             <p><b>objTypes</b> (cadena[])</p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
             <p style="font-weight: normal;">Este parámetro es una matriz de objetos posibles a los que se puede adjuntar el formulario personalizado. Se agregó para admitir la capacidad de adjuntar un formulario personalizado a varios tipos de objetos.</p>
             <p>Valores posibles: </p>
             <p>CMPY, PUERTO, PRGM, PROJ, TAREA, OPTASK, USUARIO, DOCU, EXPNS, ITRN, FACTURA, GRUPO</p>
@@ -875,7 +875,7 @@ Un objeto Category es un formulario personalizado.
         <ul>
           <li>
             <p><b>objTypes</b> (cadena[])</p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
             <p style="font-weight: normal;">Este parámetro es una matriz de objetos posibles a los que se puede adjuntar el formulario personalizado. Se agregó para admitir la capacidad de adjuntar un formulario personalizado a varios tipos de objetos.</p>
             <p>Valores posibles: </p>
             <p>CMPY, PUERTO, PRGM, PROJ, TAREA, OPTASK, USUARIO, DOCU, EXPNS, ITRN, FACTURA, GRUPO</p>
@@ -899,17 +899,17 @@ Un objeto Category es un formulario personalizado.
           <li>
             <p><b>hideFormulaFromDescription</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
           <li>
             <p><b>journalObjCodes</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
           <li>
             <p><b>rawCustomExpression</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -930,16 +930,16 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nombre</b>
             </p>
             <p>Se agregaron los siguientes valores:</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (Integración de SharePoint (API de gráficos) activada)</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> (Integración de SharePoint (API de gráficos) habilitada)</p>
                 <p>Este valor admite la integración actualizada con Sharepoint.</p>
               </li>
               <li>
-                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Permitir a los usuarios crear proyectos sin usar una plantilla)</p>
+                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Permitir que los usuarios creen proyectos sin usar una plantilla)</p>
               </li>
               <li>
                 <p><code>project.mgmt:taskissue.delegate</code> (config.taskissue.delegate)</p>
@@ -956,13 +956,13 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
 
 Los documentos se pueden organizar en carpetas. Puede crear carpetas personales en el área de Documentos personales. El objeto DocumentFolder representa una de estas carpetas.
 
-El objeto DocumentFolder agregó el indicador `SHARABLE`.
+El objeto DocumentFolder agregó el marcador `SHARABLE`.
 
 ### DocumentVersion (DOCV)
 
 Un objeto DocumentVersion representa una versión específica de un archivo (como material escrito, imágenes u otras formas de información).
 
-Para obtener más información sobre las versiones de los documentos, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obtener más información acerca de las versiones de documentos, vea [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table>
   <col/>
@@ -995,7 +995,7 @@ Un objeto Group representa un conjunto de usuarios y equipos. Los grupos a menud
 
 Para obtener más información sobre los grupos, consulte Grupos frente a equipos.
 
-El objeto Group agregó el indicador `DATA_EXTENDIBLE`
+El objeto Group agregó el marcador `DATA_EXTENDIBLE`
 
 <table>
   <col/>
@@ -1181,7 +1181,7 @@ Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de tr
         <p>Se modificó la siguiente acción:</p>
         <ul>
           <li>
-            <p><b>copyIssue</b>
+            <p><b>problemaDeCopia</b>
             </p>
             <p>Campo añadido <code>parentID</code></p>
           </li>
@@ -1214,13 +1214,13 @@ Un objeto Parameter es un campo personalizado.
           <li>
             <p><b>dataType</b>
             </p>
-            <p>Se ha añadido el valor posible <code>WIDGET </code>(Widget) </p>
+            <p>Se agregó el valor posible <code>WIDGET </code>(Widget) </p>
             <p>Este valor admite el uso de imágenes en formularios personalizados.</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Se ha añadido el valor posible <code>WIDGET </code>(Widget)</p>
+            <p>Se agregó el valor posible <code>WIDGET </code>(Widget)</p>
             <p>Este valor admite el uso de imágenes en formularios personalizados.</p>
           </li>
         </ul>
@@ -1361,7 +1361,7 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
 
 Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviar problemas al mismo.
 
-Para obtener más información sobre las colas de solicitudes, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información sobre las colas de solicitudes, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table>
   <col/>
@@ -1420,7 +1420,7 @@ Para obtener más información sobre las preguntas del informe de valoración, c
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Se ha añadido el valor posible <code>WIDGET </code>(Widget)</p>
+            <p>Se agregó el valor posible <code>WIDGET </code>(Widget)</p>
           </li>
         </ul>
       </td>
@@ -1574,7 +1574,7 @@ Los elementos de trabajo de Workfront se pueden actualizar para mantener a los u
           <li>
             <p><b>updateType</b>
             </p>
-            <p>Se ha añadido el valor posible <code>documentVersionDownload </code>(enum.updatetype.documentversiondownload)</p>
+            <p>Se agregó el valor posible <code>documentVersionDownload </code>(enum.updatetypenum.documentversiondownload)</p>
           </li>
         </ul>
       </td>

@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Cambio de la configuración de perfil en [!DNL Adobe Workfront Fusion]
-description: Puede cambiar la información en su [!DNL Adobe Workfront Fusion] perfil de cuenta.
+title: Cambiar la configuración de perfil en  [!DNL Adobe Workfront Fusion]
+description: Puede cambiar la información en el perfil de su cuenta  [!DNL Adobe Workfront Fusion] .
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Cambio de la configuración de perfil en [!DNL Adobe Workfront Fusion]
+# Cambiar configuración de perfil en [!DNL Adobe Workfront Fusion]
 
-Puede cambiar la información en su [!DNL Adobe Workfront Fusion] perfil de cuenta.
+Puede cambiar la información en el perfil de cuenta de [!DNL Adobe Workfront Fusion].
 
 ## Requisitos de acceso
 
@@ -41,15 +41,15 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -66,17 +66,17 @@ Si su organización se encuentra en el Unified Shell de Adobe, puede acceder a l
 
 Este menú le permite:
 
-* Elegir **[!UICONTROL Tema oscuro]** formato para [!DNL Adobe Experience Cloud].
-* Establecer **[!UICONTROL Preferencias]** para [!DNL Adobe Experience Cloud], incluidas las preferencias de idioma principal y secundario.
-* Acceda a su **[!UICONTROL [!DNL Workfront]Perfil]**. Una vez que esté en el perfil, haga clic en **[!UICONTROL Más]** y seleccione **[!UICONTROL Editar]**. Para obtener más información sobre el perfil, consulte [Configurar mis ajustes](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Elija el formato de **[!UICONTROL Tema oscuro]** para [!DNL Adobe Experience Cloud].
+* Establecer **[!UICONTROL preferencias]** para [!DNL Adobe Experience Cloud], incluidas las preferencias de idioma principal y secundario.
+* Acceda a su perfil **[!UICONTROL [!DNL Workfront]]**. Una vez que esté en el perfil, haga clic en el menú **[!UICONTROL Más]** y seleccione **[!UICONTROL Editar]**. Para obtener más información sobre el perfil, consulte [Configurar mis opciones](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Cerrar sesión]** de Adobe Experience Cloud.
 
 ### Cambiar la configuración de perfil sin el shell unificado
 
 Para cambiar información en el perfil de cuenta en organizaciones que no utilizan Unified Shell de Adobe:
 
-1. Haga clic en el avatar en la parte inferior del panel izquierdo y luego haga clic en **[!UICONTROL Perfil]**.
-1. Haga clic: **[!UICONTROL Opciones generales]** y, a continuación, cambie cualquiera de las siguientes opciones:
+1. Haga clic en su avatar en la parte inferior del panel izquierdo y luego haga clic en **[!UICONTROL Perfil]**.
+1. Haga clic en: **[!UICONTROL Opciones generales]** y cambie cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,13 +90,13 @@ Para cambiar información en el perfil de cuenta en organizaciones que no utiliz
       <td role="rowheader">[!UICONTROL Opciones de zona horaria]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Web]</strong>: cambie la zona horaria utilizada para las fechas y horas mostradas en la [!DNL Workfront Fusion] sitio web.</li> 
-        <li><strong>[!UICONTROL Escenarios]</strong>: cambie la zona horaria utilizada para analizar y dar formato a las fechas y horas durante las ejecuciones de escenarios (cuando no especifique la zona horaria explícitamente). Puede elegir una zona horaria para cada configuración.</li> 
+        <li><strong>[!UICONTROL Web]</strong>: cambie la zona horaria usada para las fechas y horas mostradas en el sitio web [!DNL Workfront Fusion].</li> 
+        <li><strong>[!UICONTROL Scenarios]</strong>: cambie la zona horaria utilizada para analizar y dar formato a las fechas y horas durante las ejecuciones de escenarios (cuando no especifique la zona horaria explícitamente). Puede elegir una zona horaria para cada configuración.</li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL API]</td> 
-      <td> <p>Puede añadir un token de API que desee utilizar para las llamadas entre [!DNL Workfront Fusion] y otra aplicación o servicio web. Se trata de una función avanzada.</p> </td> 
+      <td> <p>Puede agregar un token de API que desee usar para las llamadas entre [!DNL Workfront Fusion] y otra aplicación o servicio web. Se trata de una función avanzada.</p> </td> 
      </tr> 
     </tbody> 
    </table>

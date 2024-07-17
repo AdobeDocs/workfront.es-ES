@@ -19,26 +19,25 @@ ht-degree: 1%
 
 Puede eliminar un estado de sistema personalizado si ya no resulta útil para su organización.
 
-Si el estado está bloqueado o desbloqueado determina si se elimina el estado de todos los grupos del sistema:
+Si el estado es bloqueado o desbloqueado, determina si el estado se elimina para todos los grupos del sistema:
 
-* Cuando se elimina un estado del sistema que está bloqueado actualmente, se elimina el estado de todos los grupos del sistema, independientemente de si el grupo lo ha renombrado o no.
-* Por el contrario, cuando se elimina un estado del sistema que está actualmente desbloqueado, el estado se mantiene para todos los grupos del sistema.
+* Cuando se elimina un estado del sistema que está bloqueado actualmente, el estado se elimina para todos los grupos del sistema, independientemente de si el grupo le ha cambiado el nombre.
+* Por el contrario, cuando se elimina un estado del sistema que está desbloqueado actualmente, el estado permanece para todos los grupos del sistema.
 
 
 >[!NOTE]
 >
 >No puede eliminar lo siguiente:
 >
->* Estado del sistema bloqueado o desbloqueado utilizado en un proceso de aprobación del sistema que actualmente está pendiente de aprobación para al menos un objeto del sistema.
+>* Estado del sistema bloqueado o desbloqueado utilizado en un proceso de aprobación del sistema que está actualmente pendiente de aprobación para al menos un objeto del sistema.
 >
->  Sin embargo, puede eliminar un estado del sistema desbloqueado que se utilice en un proceso de aprobación de un solo uso o de nivel de grupo que esté pendiente de aprobación.
+>  Sin embargo, puede eliminar un estado de sistema desbloqueado utilizado en un proceso de aprobación de un solo uso o de nivel de grupo que esté pendiente de aprobación en ese momento.
 >
->  Puede ejecutar un informe para buscar los objetos, resolver las aprobaciones pendientes e intentar de nuevo eliminar el estado. Para obtener instrucciones, consulte [Enumerar objetos con procesos de aprobación pendientes con un estado determinado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
+>  Puede ejecutar un informe para buscar los objetos, resolver las aprobaciones pendientes y, a continuación, intentar de nuevo eliminar el estado. Para obtener instrucciones, vea [Enumerar objetos con procesos de aprobación pendientes que utilizan un estado determinado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
 >
->* Estados utilizados en procesos de aprobación que actualmente están pendientes de aprobación para al menos un objeto del sistema.
+>* Estados utilizados en los procesos de aprobación que están actualmente pendientes de aprobación para al menos un objeto del sistema.
 
-
-Para obtener instrucciones sobre la eliminación de un estado de grupo, consulte [Eliminar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
+Para obtener instrucciones sobre cómo eliminar un estado de grupo, consulte [Eliminar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
 
 ## Requisitos de acceso
 
@@ -58,31 +57,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Eliminar un estado de sistema personalizado
 
-1. Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto** > **Estados**.
 
-1. Para eliminar el estado en todo el sistema (incluso para grupos individuales), pase el ratón sobre el estado y haga clic en **Editar** y, a continuación, asegúrese de que **Bloqueo para todos los grupos** está seleccionado. Haga clic en **Guardar**.
+1. Para eliminar el estado en todo el sistema (incluidos los grupos individuales), pasa el ratón sobre el estado, haz clic en **Editar** y asegúrate de que la opción **Bloquear para todos los grupos** está seleccionada. Haga clic en **Guardar**.
 
    O
 
-   Para eliminar el estado del sistema pero conservarlo para grupos individuales, pase el ratón sobre el estado y haga clic en **Editar** y, a continuación, asegúrese de que **Bloqueo para todos los grupos** no está seleccionado. Haga clic en **Guardar**.
+   Para eliminar el estado del sistema pero conservarlo para grupos individuales, pasa el ratón sobre el estado, haz clic en **Editar** y, a continuación, asegúrate de que la opción **Bloquear para todos los grupos** no esté seleccionada. Haga clic en **Guardar**.
 
-1. Pase el ratón sobre el estado que quiera eliminar y haga clic en **Eliminar**.
+1. Pase el ratón sobre el estado que quiera eliminar y luego haga clic en **Eliminar**.
 1. En el mensaje que aparece, haga clic en **Eliminar estado**.
-1. En el **Eliminar estado** que aparece, seleccione un estado en el campo etiquetado **Defina todos los proyectos que tengan este estado en**.
+1. En el cuadro **Eliminar estado** que se muestra, seleccione un estado en el campo denominado **Establecer todos los proyectos actualmente con este estado en**.
 
    Los proyectos que utilizaban el estado que está eliminando se establecen en el estado que seleccione.
 
-   Los estados están disponibles en la lista desplegable solo si coinciden con el mismo estado que el estado que está eliminando.
+   Los estados solo están disponibles en la lista desplegable si coinciden con el mismo estado que el estado que está eliminando.
 
-   Por ejemplo, si está eliminando un estado que coincide con Actual, solo los estados que también se equiparan con Actual estarán disponibles para seleccionarlos.
+   Por ejemplo, si elimina un estado que es igual a Actual, solo se pueden seleccionar los estados que también son iguales a Actual.
 
 1. Haga clic en **Eliminar estado**.

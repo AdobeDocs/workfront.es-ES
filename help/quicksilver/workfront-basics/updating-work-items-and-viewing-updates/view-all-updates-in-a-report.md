@@ -23,7 +23,7 @@ El área Actualizaciones de un objeto muestra un número máximo de 200 actualiz
 
 >[!NOTE]
 >
->Puede crear un informe para ver las actualizaciones de los objetos en Vista previa con el informe Entrada de cuaderno. Para obtener más información, consulte [Informe sobre el área de Actualizaciones](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Puede crear un informe para ver las actualizaciones de los objetos en Vista previa con el informe Entrada de cuaderno. Para obtener más información, consulte [Informe sobre el área de actualizaciones](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisitos de acceso
 
@@ -68,26 +68,26 @@ La creación de un informe para Notas para cualquier objeto es idéntica, indepe
 
 Por ejemplo, para crear un informe de notas para todas las notas de un proyecto:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Clic **Informes**.
-1. Clic **Nuevo informe**, luego elija **Nota**.
+1. Haga clic en **Informes**.
+1. Haga clic en **Nuevo informe** y, a continuación, elija **Nota**.
 
-1. (Opcional) Haga clic en **Vistas**, entonces **Agregar columna** para añadir el **Nombre** de la **Proyecto** en la vista del informe. 
+1. (Opcional) Haga clic en **Vistas**, luego en **Agregar columna** para agregar el **Nombre** del **Proyecto** en la vista del informe. 
 
-1. (Opcional) Haga clic en **Agrupaciones**, entonces **Agregar agrupación** para agrupar por el **Nombre de proyecto**, si realiza informes sobre varios proyectos al mismo tiempo.\
+1. (Opcional) Haga clic en **Agrupaciones** y, a continuación, en **Agregar agrupación** al grupo por el **Nombre del proyecto**, si realiza informes sobre varios proyectos al mismo tiempo.\
    Esto garantiza que las notas se agrupen por sus respectivos proyectos, lo que facilita la lectura del informe. 
 
-1. (Opcional) Haga clic en **Filtros,** entonces **Agregar una regla de filtro**.
-1. Añadir un filtro para **Nota** > **Texto de nota** > **No en blanco**.
+1. (Opcional) Haga clic en **Filtros,** y después en **Agregar una regla de filtro**.
+1. Agregar un filtro para **Nota** > **Texto de la nota** > **No está en blanco**.
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   Si se actualizó un campo de proyecto pero no se agregó ninguna nota en el momento de la actualización, la variable **Texto de nota** de la actualización se muestra como **(No se ha agregado texto para actualizar)**.
+   >   Si se actualizó un campo de proyecto pero no se agregó ninguna nota en el momento de la actualización, el **Texto de la nota** de la actualización se muestra como **(No se agregó texto para la actualización)**.
 
 
-1. (Opcional) Añada otro filtro para **Proyecto** > **Nombre** > **Igual a** y agregue uno o varios nombres de proyecto para los que desee ver notas.
+1. (Opcional) Agregue otro filtro para **Proyecto** > **Nombre** > **Es igual a** y agregue uno o varios nombres de proyecto para los que desee ver notas.
 1. Haga clic en **Guardar + Cerrar**.\
    Todas las actualizaciones introducidas en el proyecto por todos los usuarios con permisos de al menos Ver el proyecto se muestran en el informe.

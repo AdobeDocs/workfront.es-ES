@@ -19,7 +19,7 @@ Puede quitar la alineación entre dos objetivos si ya no tiene sentido que esté
 
 Para obtener información sobre cómo alinear objetivos, consulte los siguientes artículos:
 
-* [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Requisitos de acceso
@@ -54,7 +54,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -65,7 +65,7 @@ Debe tener lo siguiente:
  <td>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </td>
  </tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Acceda a la **Metas** en Workfront y haga clic en el nombre de una meta para abrir su página.
+1. Acceda al área **Metas** en Workfront y haga clic en el nombre de una meta para abrir su página.
 1. En la página de la meta de una meta principal, haga clic en **Indicadores de progreso** en el panel izquierdo.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. En el **Tipo: meta** Para agrupar, seleccione un objetivo y haga clic en **Desconectar** icono ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) al principio de la lista.
+1. En la agrupación **Type: Goal**, seleccione una meta y haga clic en el icono **Desconectar** ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) que se encuentra en la parte superior de la lista.
 
    Aparece la casilla Desconectar.
 
-1. Clic **Desconectar** para desconectar la meta seleccionada de su elemento principal.
+1. Haga clic en **Desconectar** para desconectar la meta seleccionada de su elemento principal.
 
    El objetivo se convierte en un objetivo independiente y ya no aparece como indicador de progreso del objetivo original. El progreso de la meta desconectada ya no influye en el progreso de la meta original.
 

@@ -29,7 +29,7 @@ Puede colaborar en registros de Adobe Workfront Planning agregando comentarios o
 El panel derecho de un registro muestra las siguientes secciones:
 
 * **Comentarios**: Muestra comentarios y respuestas que los usuarios agregan a los registros.
-* **Historial**: Muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro. Para obtener más información, consulte [Resumen de la sección Historial](/help/quicksilver/planning/records/history-section-overview.md).
+* **Historial**: muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro. Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Requisitos de acceso
 
@@ -80,7 +80,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -130,14 +130,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en una tarjeta de tipo de registro.
 Se abre la página de tipo de registro y se muestran todos los registros de ese tipo.
 
-1. Elija una vista de tabla de la **Ver** menú desplegable.
+1. Elija una vista de tabla en el menú desplegable **Ver**.
 1. Haga clic en el nombre de un registro en la vista de tabla.
 
-   El registro es... **Detalles** se abre la página. El área Comentarios se abre de forma predeterminada en el panel derecho.
+   Se abre la página **Detalles** del registro. El área Comentarios se abre de forma predeterminada en el panel derecho.
 
-1. (Condicional) Si el panel derecho no se abre de forma predeterminada, haga clic en **Mostrar comentarios** ![](assets/show-comments-icon.png) en la esquina superior derecha para abrir la sección Comentarios.
+1. (Condicional) Si el panel derecho no se abre de forma predeterminada, haga clic en el icono **Mostrar comentarios** ![](assets/show-comments-icon.png) en la esquina superior derecha para abrir la sección Comentarios.
 
-1. Comience a escribir un comentario en **Nuevo comentario** cuadro.
+1. Empiece a escribir un comentario en el cuadro **Nuevo comentario**.
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -148,11 +148,11 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
    * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
    * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
-1. (Opcional) Añadir **@** seguido del nombre de un usuario para etiquetar a alguien en la actualización.
+1. (Opcional) Agregue **@** seguido del nombre de un usuario para etiquetar a alguien en la actualización.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la sección &quot;Uso de texto enriquecido en una actualización de Workfront&quot; en el artículo [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la sección &quot;Usar texto enriquecido en una actualización de Workfront&quot; en el artículo [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
@@ -162,8 +162,8 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. Clic **Enviar** para agregar la actualización al registro.
-1. (Opcional) Para editar un comentario, haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha del comentario y haga clic en **Editar**.
+1. Haga clic en **Enviar** para agregar la actualización al registro.
+1. (Opcional) Para editar un comentario, haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha del comentario y luego haga clic en **Editar**.
 
    >[!IMPORTANT]
    >
@@ -175,32 +175,32 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
    >
    >Los comentarios del año actual no muestran el año en el sello de fecha. Al pasar el ratón por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
 
-1. (Opcional y condicional) Para buscar un comentario existente, empiece a escribir una palabra clave en el cuadro de búsqueda situado en la esquina superior derecha de la etiqueta **Comentarios** área.
+1. (Opcional y condicional) Para buscar un comentario existente, empiece a escribir una palabra clave en el cuadro de búsqueda situado en la esquina superior derecha del área **Comentarios**.
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (Opcional) Haga clic en **Responder** o empiece a escribir un comentario en la **Añadir respuesta...** , para responder a un comentario existente, siga los pasos 4-8 anteriores. <!--(**************accurate??***********)-->
+1. (Opcional) Haga clic en **Responder** o empiece a escribir un comentario en el área **Agregar respuesta...** para responder a un comentario existente y, a continuación, siga los pasos del 4 al 8 anteriores. <!--(**************accurate??***********)-->
 
-1. (Condicional y opcional) Si otros usuarios han agregado comentarios que se muestran fuera del área visible en la sección Comentarios mientras agregaba los comentarios, haga clic en **Ver** dentro de **titular de nuevos comentarios** en la parte inferior de la pantalla para mostrar estos comentarios.
+1. (Condicional y opcional) Si otros usuarios han agregado comentarios que se muestran fuera del área visible en la sección Comentarios mientras agregaba los comentarios, haga clic en **Ver** dentro del **nuevo titular de comentarios** en la parte inferior de la pantalla para mostrar estos comentarios.
 
    ![](assets/new-comments-banner-on-record.png)
 
    Los comentarios adicionales se muestran en la parte inferior de la pantalla.
 
-1. (Opcional) Haga clic en **Like** para que le guste una actualización o reconozca que la ha leído. El icono se actualiza con el número de me gusta.
+1. (Opcional) Haga clic en el icono **Me gusta** para que le guste una actualización o para que reconozca que la ha leído. El icono se actualiza con el número de me gusta.
 1. (Condicional y opcional) Si ha incluido más personas en el comentario, haga clic en los avatares de los usuarios incluidos en la actualización para mostrar una lista de usuarios con los que se comparte el comentario.
-1. (Opcional) Haga clic en **Más** icono ![](assets/more-menu.png) en la esquina superior derecha del comentario y haga clic en una de las siguientes opciones para copiar información de un comentario:
+1. (Opcional) Haga clic en el icono **Más** ![](assets/more-menu.png) en la esquina superior derecha del comentario y haga clic en una de las siguientes opciones para copiar la información de un comentario:
 
-   * **Copiar vínculo**: copia un vínculo al comentario en el portapapeles.
-   * **Copiar el texto del cuerpo**: copia el texto del comentario en el portapapeles.
-   * **Cita respuesta**: copia el contenido del comentario en una nueva respuesta. Las imágenes no se incluyen en la respuesta copiada.
+   * **Copiar vínculo**: Esto copia un vínculo al comentario en el portapapeles.
+   * **Copiar texto principal**: copia el texto del comentario en el portapapeles.
+   * **Respuesta de cita**: copia el contenido del comentario en una nueva respuesta. Las imágenes no se incluyen en la respuesta copiada.
 
-   Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Haga clic en **Más** icono ![](assets/more-menu.png) en la esquina superior derecha del comentario y haga clic en **Eliminar** para eliminar el comentario.
-1. (Opcional) Haga clic en **Ocultar comentarios** icono ![](assets/hide-comments-icon.png) para cerrar el panel derecho.
+   Para obtener más información, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Haga clic en el icono **Más** ![](assets/more-menu.png) en la esquina superior derecha del comentario y, a continuación, haga clic en **Eliminar** para eliminar el comentario.
+1. (Opcional) Haga clic en el icono **Ocultar comentarios** ![](assets/hide-comments-icon.png) para cerrar el panel derecho.
 
 ## Resumen de la sección Historial
 
 Puede revisar los cambios realizados en el registro en la sección Historial del panel derecho de un registro.
 
-Para obtener más información, consulte [Resumen de la sección Historial](/help/quicksilver/planning/records/history-section-overview.md).
+Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).

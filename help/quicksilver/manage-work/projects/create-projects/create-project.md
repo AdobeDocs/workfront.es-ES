@@ -96,23 +96,23 @@ Puede crear un proyecto en Workfront mediante uno de los métodos siguientes:
 * Cree un proyecto desde cero sin usar una plantilla. Este artículo describe cómo crear un proyecto desde cero.
 
 * Copie un proyecto existente.\
-  Para obtener más información sobre cómo copiar un proyecto, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
+  Para obtener más información sobre cómo copiar el proyecto, vea [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilice una plantilla.\
-  Para obtener más información sobre el uso de una plantilla para crear un nuevo proyecto, consulte [Creación de un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
+  Para obtener más información sobre cómo usar una plantilla para crear un nuevo proyecto, vea [Crear un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 * Importe un proyecto desde Microsoft Project.\
-  Para obtener más información sobre cómo importar un proyecto desde MS Project, consulte [Importar un proyecto desde Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Para obtener más información sobre cómo importar un proyecto desde MS Project, vea [Importar un proyecto desde un proyecto de Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * Importar un proyecto mediante kick-starts.
 
   Como administrador de Workfront, puede importar proyectos mediante una &quot;kick-start&quot;.
 
-  Para obtener información sobre la importación de datos mediante kick-starts en Workfront, consulte [Importación de datos en Adobe Workfront mediante una plantilla de KickStart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Para obtener información acerca de cómo importar datos mediante kick-starts en Workfront, consulte [Importar datos en Adobe Workfront mediante una plantilla de Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Para obtener información sobre la importación de proyectos mediante kick-starts, consulte [Escenario de Kick-Starts: preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Para obtener información sobre la importación de proyectos mediante los puntapié inicial, consulte [Escenario de Kick-Starts: preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publique una iniciativa desde un escenario en Adobe Workfront Scenario Planner. El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general del Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Para obtener información sobre la creación de proyectos a partir de iniciativas de publicación, consulte  [Actualizar o crear proyectos publicando iniciativas en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish crea una iniciativa a partir de un escenario en el Scenario Planner de Adobe Workfront. El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Para obtener información acerca de cómo crear proyectos a partir de iniciativas de publicación, vea [Actualizar o crear proyectos mediante iniciativas de publicación en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Requisitos previos
 
@@ -136,7 +136,7 @@ Tenga en cuenta lo siguiente:
   >
   >Se recomienda que el estado predeterminado de un nuevo proyecto sea Planificación. A medida que realiza cambios en el nuevo proyecto, esto garantiza que no se envíen notificaciones a los usuarios asignados al proyecto.
   >
-  >Para obtener más información sobre la configuración del estado predeterminado y otros ajustes predeterminados para un nuevo proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+  >Para obtener más información acerca de cómo configurar el estado predeterminado y otras opciones predeterminadas para un nuevo proyecto, vea [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurar las preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 * Existen los siguientes escenarios para la forma en que Workfront define el grupo y el estado de un nuevo proyecto:
 
@@ -160,36 +160,36 @@ Tenga en cuenta lo siguiente:
 
 >[!NOTE]
 >
->Si está creando un proyecto con una plantilla, le recomendamos que también vea el artículo [Creación de un proyecto con una plantilla](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+>Si está creando un proyecto con una plantilla, le recomendamos que también vea el artículo [Crear un proyecto con una plantilla](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda. Clic **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
-   * Vaya a un portafolio y amplíe **Nuevo proyecto**.
+   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda. Haga clic en **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
+   * Vaya a un portafolio y expanda **Nuevo proyecto**.
    * Vaya a un programa y expanda **Nuevo proyecto**.
-   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, consulte [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![Menú Nuevo proyecto](assets/new-project-dropdown-nwe-350x358.png)
+   ![Nuevo menú de proyecto](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Clic **Nuevo proyecto** en el menú para crear un proyecto desde cero.
+1. Haga clic en **Nuevo proyecto** en el menú para crear un proyecto desde cero.
 1. Escriba un nombre para el proyecto. Pulse Intro para guardar el nombre.
 
    ![Escriba un nombre para el proyecto](assets/rename-untitled-project.png)
 
    El encabezado de la página del proyecto muestra una descripción general rápida del estado y el progreso actuales de un proyecto. La información del encabezado del proyecto cambia a medida que se actualiza la información del proyecto.
 
-1. Clic **Comenzar a agregar tareas**.
+1. Haga clic en **Comenzar a agregar tareas**.
 
    O
 
-   Clic **Nueva tarea** para agregar tareas al proyecto y asignarles recursos.
+   Haga clic en **Nueva tarea** para agregar tareas al proyecto y asignarles recursos.
 
-   Para obtener más información sobre cómo agregar tareas a un proyecto, consulte [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Para obtener más información sobre cómo agregar tareas a un proyecto, vea [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edite los detalles del proyecto haciendo clic en **Más** y luego **Editar** ![](assets/qs-edit-icon.png) junto al nombre del proyecto.
+1. Edite los detalles del proyecto haciendo clic en el menú **Más** y, a continuación, **Editar** ![](assets/qs-edit-icon.png) junto al nombre del proyecto.
 
-   El **Editar proyecto** se abre el cuadro de diálogo.
+   Se abre el cuadro de diálogo **Editar proyecto**.
 
    Para obtener más información sobre cómo editar un proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -197,4 +197,4 @@ Tenga en cuenta lo siguiente:
 
    Esto indica que el proyecto está listo para iniciarse y que los usuarios asignados a las tareas pueden empezar a trabajar en él.
 
-   Para obtener más información sobre los estados de los proyectos, consulte [Acceso a la lista de estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   Para obtener más información acerca de los estados de los proyectos, vea [Obtener acceso a la lista de estados de proyectos del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).

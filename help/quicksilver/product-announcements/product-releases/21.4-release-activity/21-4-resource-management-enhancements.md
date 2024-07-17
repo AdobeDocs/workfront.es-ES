@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.4, consulte [Descripción general de la versión 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Realizar asignaciones rápidas en el Distribuidor de cargas de trabajo
 
@@ -25,7 +25,7 @@ Ahora puede equilibrar eficazmente los recursos en el Distribuidor de cargas de 
 
 Antes de esta mejora, solo podía asignar elementos haciendo clic en el menú Más de una tarea o un problema y, a continuación, utilizando la opción Asignar. Ahora, las horas planificadas asignadas al usuario se actualizan en tiempo real mientras arrastra las tareas.
 
-Para obtener información sobre la asignación de elementos de trabajo en el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obtener información acerca de la asignación de elementos de trabajo en el Distribuidor de cargas de trabajo, vea [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Nueva opción predeterminada para el Distribuidor de cargas de trabajo
 
@@ -48,5 +48,5 @@ Para obtener más información, consulte [Administrar filtros en el Distribuidor
 
 >[!NOTE]
 >
->Con las actualizaciones de filtros, hemos eliminado el **Todos los elementos de trabajo** y **Elementos de trabajo de este proyecto** filtros integrados en el Distribuidor de cargas de trabajo de un proyecto.
+>Con las actualizaciones de filtros, hemos eliminado los filtros integrados de **Todos los elementos de trabajo** y **Los elementos de trabajo de este proyecto** en el Distribuidor de cargas de trabajo de un proyecto.
 

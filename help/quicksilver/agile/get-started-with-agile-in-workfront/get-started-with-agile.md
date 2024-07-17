@@ -3,7 +3,7 @@ content-type: reference
 product-area: agile-and-teams
 keywords: agile
 navigation-topic: agile-navigation-topic
-title: Introducción a [!DNL agile] in [!DNL Adobe Workfront]
+title: Introducción a  [!DNL agile] en [!DNL Adobe Workfront]
 description: Revise estos artículos para empezar a utilizar Agile en Workfront.
 author: Lisa
 feature: Agile
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 ---
 
-# Introducción a [!DNL agile] in [!DNL Adobe Workfront]
+# Introducción a [!DNL agile] en [!DNL Adobe Workfront]
 
 Esta sección contiene los siguientes artículos:
 

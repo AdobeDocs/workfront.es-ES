@@ -38,7 +38,7 @@ Puede vincular documentos y carpetas a Adobe Workfront desde las siguientes fuen
   </tr> 
   <tr> 
    <td role="rowheader">Revisión de Workfront </td> 
-   <td>Puede hacer que las pruebas creadas originalmente en Workfront Proof estén disponibles en Workfront. Para las licencias actuales, se requiere un plan Pro Workfront o superior para utilizar esta función. Para las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los distintos planes disponibles, consulte <a href="https://www.workfront.com/plans">Planes de Workfront</a>.</td> 
+   <td>Puede hacer que las pruebas creadas originalmente en Workfront Proof estén disponibles en Workfront. Para las licencias actuales, se requiere un plan Pro Workfront o superior para utilizar esta función. Para las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los diversos planes disponibles, consulte <a href="https://www.workfront.com/plans">Planes de Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -50,7 +50,7 @@ Puede vincular documentos y carpetas a Adobe Workfront desde las siguientes fuen
   </tr> 
   <tr> 
    <td role="rowheader">Otros proveedores de documentos (mediante integraciones de documentos personalizadas)</td> 
-   <td> <p class="workfront_plans">Para las licencias actuales, se requiere un plan Pro Workfront o superior para utilizar esta función. Para las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los distintos planes disponibles, consulte <a href="https://www.workfront.com/plans">Planes de Workfront</a>.</p> </td>
+   <td> <p class="workfront_plans">Para las licencias actuales, se requiere un plan Pro Workfront o superior para utilizar esta función. Para las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los diversos planes disponibles, consulte <a href="https://www.workfront.com/plans">Planes de Workfront</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -115,19 +115,19 @@ Puede vincular documentos a Workfront desde una aplicación externa como Google 
 >
 >El Dropbox almacena los documentos en función de la ruta de acceso del archivo. Debido a esto, si se mueve, se cambia el nombre o se elimina un archivo vinculado desde el Dropbox, no se puede acceder a él en Workfront.
 
-1. Vaya a la **Documentos** área de Workfront donde desea colocar el documento.
-1. Clic **Añadir nuevo**, luego haga clic en el proveedor de documentos externo donde desee vincular documentos a Workfront.
+1. Vaya al área de **Documentos** de Workfront donde desee colocar el documento.
+1. Haga clic en **Agregar nuevo** y, a continuación, haga clic en el proveedor de documentos externo donde desee vincular documentos a Workfront.
 
-   Por ejemplo, para vincular documentos desde Dropbox, haga clic en **Del Dropbox**.
+   Por ejemplo, para vincular documentos desde el Dropbox, haga clic en **Desde el Dropbox**.
 
    Los proveedores externos que ya ha autorizado aparecen en la parte superior de la lista.
 
-1. (Condicional) Si se le solicita que inicie sesión en el servicio externo, escriba sus credenciales de inicio de sesión para el servicio en el cuadro que aparece y haga clic en **Iniciar sesión**.
-1. (Condicional) Si se le solicita que autorice la aplicación externa, haga clic en **Autorizar** botón.
+1. (Condicional) Si se le pide que inicie sesión en el servicio externo, escriba sus credenciales de inicio de sesión para el servicio en el cuadro que aparece y, a continuación, haga clic en **Iniciar sesión**.
+1. (Condicional) Si se le pide que autorice la aplicación externa, haga clic en el botón **Autorizar**.
 
    Tienes que hacer esto solo una vez.
 
-1. En el cuadro de búsqueda de **Vincular archivos y carpetas externos** que aparece, escriba el nombre del elemento que desea buscar y, a continuación, presione **Entrar** para ver todos los resultados de la aplicación externa, independientemente de la carpeta en la que estén almacenados.
+1. En el cuadro de búsqueda del cuadro **Vincular archivos y carpetas externos** que aparece, escriba el nombre del elemento que desea buscar y, a continuación, presione **Entrar** para ver todos los resultados de la aplicación externa, independientemente de la carpeta en la que se almacenen.
 
    O
 
@@ -135,13 +135,13 @@ Puede vincular documentos a Workfront desde una aplicación externa como Google 
 
    Aunque puede seleccionar varios documentos, sólo se vinculan los documentos seleccionados en la vista actual. Por ejemplo, si selecciona un documento y luego va a una carpeta, el documento seleccionado originalmente no está vinculado.
 
-1. (Condicional) Si es cliente de Workfront DAM, haga clic en **Miniatura** para mostrar archivos como imágenes en miniatura.
+1. (Condicional) Si es cliente de Workfront DAM, haga clic en el icono **Miniatura** para mostrar los archivos como imágenes en miniatura.
 
    >[!NOTE]
    >
    >Los clientes de Workfront DAM pueden ver miniaturas al vincular documentos desde Workfront DAM. Las miniaturas también se pueden mostrar para los clientes de Workfront DAM para otros servicios como Dropbox y Box. Sin embargo, no se admite la visualización de miniaturas para servicios que no sean Workfront DAM en Workfront, y las miniaturas nunca se muestran al vincular documentos desde SharePoint o Google Drive.
 
-1. Clic **Vínculo**.
+1. Haga clic en **Vínculo**.
 
    En Workfront, el icono del proveedor de la nube aparece junto a los documentos.
 
@@ -154,24 +154,24 @@ Puede vincular documentos a Workfront desde una aplicación externa como Google 
 
 Puede añadir una nueva versión de un documento vinculado a Workfront desde una aplicación externa.
 
-1. Vaya a la **Documentos** área en la que está vinculado el documento y, a continuación, seleccione el documento vinculado.
+1. Vaya al área de **Documentos** donde está vinculado el documento y, a continuación, seleccione el documento vinculado.
 
    >[!IMPORTANT]
    >
    >El documento debe estar fuera de una carpeta vinculada para crear una nueva versión.
 
-1. Clic **Añadir nuevo** > **Versión**, luego haga clic en el proveedor de documentos externo.
+1. Haga clic en **Agregar nuevo** > **Versión** y, a continuación, haga clic en el proveedor de documentos externo.
 
-   Por ejemplo, para vincular una nueva versión de un documento desde Dropbox, haga clic en **Del Dropbox**.
+   Por ejemplo, para vincular una nueva versión de un documento desde el Dropbox, haga clic en **Desde el Dropbox**.
 
    Los proveedores externos que ya ha autorizado aparecen en la parte superior de la lista.
 
-1. (Condicional) Si se le solicita que inicie sesión en el servicio externo, escriba sus credenciales de inicio de sesión para el servicio en el cuadro que aparece y haga clic en **Iniciar sesión**.
-1. (Condicional) Si se le solicita que autorice la aplicación externa, haga clic en **Autorizar**.
+1. (Condicional) Si se le pide que inicie sesión en el servicio externo, escriba sus credenciales de inicio de sesión para el servicio en el cuadro que aparece y, a continuación, haga clic en **Iniciar sesión**.
+1. (Condicional) Si se le pide que autorice la aplicación externa, haga clic en **Autorizar**.
 
    Tienes que hacer esto solo una vez.
 
-1. En el cuadro de búsqueda de **Vincular archivos y carpetas externos** que aparece, escriba el nombre del elemento que desea buscar y, a continuación, presione **Entrar** para ver todos los resultados de la aplicación externa, independientemente de la carpeta en la que estén almacenados.
+1. En el cuadro de búsqueda del cuadro **Vincular archivos y carpetas externos** que aparece, escriba el nombre del elemento que desea buscar y, a continuación, presione **Entrar** para ver todos los resultados de la aplicación externa, independientemente de la carpeta en la que estén almacenados.
 
    O
 
@@ -179,13 +179,13 @@ Puede añadir una nueva versión de un documento vinculado a Workfront desde una
 
    Puede seleccionar varios documentos; sin embargo, sólo se vinculan los documentos seleccionados en la vista actual. Por ejemplo, si selecciona un documento y luego va a una carpeta, el documento seleccionado originalmente no está vinculado.
 
-1. (Condicional) Si es cliente de Workfront DAM, haga clic en **Miniatura** para mostrar archivos como imágenes en miniatura.
+1. (Condicional) Si es cliente de Workfront DAM, haga clic en el icono **Miniatura** para mostrar los archivos como imágenes en miniatura.
 
    >[!NOTE]
    >
    >Los clientes de Workfront DAM pueden ver miniaturas al vincular documentos desde Workfront DAM. Las miniaturas también se pueden mostrar para los clientes de Workfront DAM para otros servicios como Dropbox y Box. Sin embargo, no se admite la visualización de miniaturas para servicios que no sean Workfront DAM en Workfront, y las miniaturas nunca se muestran al vincular documentos desde SharePoint o Google Drive.
 
-1. Clic **Vínculo**.
+1. Haga clic en **Vínculo**.
 
    En Workfront, el icono del proveedor de la nube aparece junto a los documentos, lo que indica que están vinculados al proveedor de la nube externo.
 
@@ -193,7 +193,7 @@ Puede añadir una nueva versión de un documento vinculado a Workfront desde una
    >
    >En el caso de los documentos vinculados a Box, el vínculo al documento en Box no se muestra hasta que se actualiza la página.
 
-Para obtener información sobre cómo agregar una nueva versión de un documento que ha cargado en Workfront desde el sistema de archivos, consulte [Agregar documentos a Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Agregar documentos a Adobe Workfront desde el sistema de archivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Para obtener información sobre cómo agregar una nueva versión de un documento que ha subido a Workfront desde su sistema de archivos, consulte [Agregar documentos a Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) en [Agregar documentos a Adobe Workfront desde su sistema de archivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Vincular documentos de Workfront Proof {#link-workfront-proof-documents}
 
@@ -201,14 +201,14 @@ Puede vincular pruebas a Workfront que existían originalmente en Workfront Proo
 
 Solo puede vincular las pruebas para las que tenga acceso de visualización en Workfront Proof.
 
-1. Vaya a la **Documentos** área de Workfront donde desea colocar el documento.
-1. Clic **Añadir nuevo**, luego haga clic en **De Workfront Proof**.
+1. Vaya al área de **Documentos** de Workfront donde desee colocar el documento.
+1. Haz clic en **Agregar nuevo** y luego haz clic en **Desde Workfront Proof**.
 
    >[!NOTE]
    >
    >Las opciones de este menú pueden variar según los proveedores de terceros que estén configurados en su entorno.
 
-1. En el **Enlaces de revisión de Workfront Proof** Cuando aparezca, empiece a escribir el nombre de la revisión que desea que esté disponible en Workfront.
+1. En el cuadro **Enlazar revisiones desde Workfront Proof** que aparece, empiece a escribir el nombre de la revisión que desea que esté disponible en Workfront.
 
    La lista se filtra a medida que escribe.
 
@@ -216,7 +216,7 @@ Solo puede vincular las pruebas para las que tenga acceso de visualización en W
 
    No es posible vincular ningún nombre de revisión atenuado porque la revisión ya está asociada a un documento en Workfront.
 
-1. Clic **Vínculo**.
+1. Haga clic en **Vínculo**.
 
    La versión más actual de la revisión está vinculada a Workfront. Al abrir la prueba, todas las versiones están disponibles en el visualizador de pruebas.
 
@@ -224,11 +224,11 @@ Solo puede vincular las pruebas para las que tenga acceso de visualización en W
 
 Puede crear un nuevo documento de Google desde Workfront. No puede crear nuevos documentos desde Workfront para otros proveedores de la nube.
 
-1. Vaya a la **Documentos** área de Workfront donde desea colocar el documento.
-1. Clic **Añadir nuevo** > **Archivo de Google**, luego seleccione el tipo de documento de Google que desea crear.
-1. Si la variable **Agregar cuenta de Google Drive** , haga clic en **Autorizar Google Drive**.
+1. Vaya al área de **Documentos** de Workfront donde desee colocar el documento.
+1. Haga clic en **Agregar nuevo** > **Archivo de Google** y, a continuación, seleccione el tipo de documento de Google que desea crear.
+1. Si aparece el cuadro **Agregar cuenta de Google Drive**, haga clic en **Autorizar Google Drive**.
 
-   Se agrega un documento de Google a **Documentos** pestaña.
+   Se agregó un documento de Google a la ficha **Documentos**.
 
    >[!NOTE]
    >
@@ -245,9 +245,9 @@ Puede cargar y vincular un documento de Workfront a un proveedor de nube externo
 Los usuarios sin acceso a Workfront pueden ver el documento en la aplicación externa si tienen acceso a la aplicación.
 
 1. Seleccione un documento que se haya cargado en Workfront.
-1. Clic **Más** >**Enviar a**, luego seleccione el proveedor de nube que desea que almacene el documento vinculado.
+1. Haga clic en **Más** >**Enviar a** y, a continuación, seleccione el proveedor de la nube que desea que almacene el documento vinculado.
 
-   También puede utilizar el menú Más ![](assets/more-icon.png) en la página Detalles del documento para hacerlo.
+   También puede usar el menú Más ![](assets/more-icon.png) de la página Detalles del documento para hacerlo.
 
 1. Seleccione la carpeta de la aplicación del proveedor en la que desea almacenar el documento.
 
@@ -277,18 +277,18 @@ Al sincronizar el contenido de la carpeta desde una aplicación de documento ext
 
 ### Vincular una o más carpetas externas {#link-one-or-more-external-folders}
 
-1. Vaya al área de Workfront donde desee la carpeta y haga clic en  **Documentos** ![](assets/document-icon.png) en el panel izquierdo
+1. Vaya al área de Workfront donde desee la carpeta y haga clic en **Documentos** ![](assets/document-icon.png) en el panel izquierdo
 
-1. Clic **Añadir nuevo** A continuación, haga clic en el proveedor de documentos externo desde el que desea vincular una carpeta a Workfront.
+1. Haga clic en **Agregar nuevo** y, a continuación, haga clic en el proveedor de documentos externo desde el que desea vincular una carpeta a Workfront.
 1. (Condicional) Si aún no ha autorizado el servicio externo, especifique sus credenciales de inicio de sesión para el proveedor externo y haga clic en **Iniciar sesión**.
 
    Los proveedores externos que ya ha autorizado aparecen en la parte superior de la lista.
 
-1. En el **Vincular archivos y carpetas externos** que aparece, busque y seleccione las carpetas que desea vincular.
+1. En el cuadro **Vincular archivos y carpetas externos** que aparece, busque y seleccione las carpetas que desee vincular.
 
    O
 
-   Escriba el nombre de la carpeta que desea buscar y pulse **Entrar**.
+   Escriba el nombre de la carpeta que desea buscar y, a continuación, presione **Entrar**.
 
    Puede seleccionar varias carpetas; sin embargo, solo las carpetas seleccionadas en la vista actual están vinculadas. Por ejemplo, si selecciona una carpeta y luego entra en una carpeta, la carpeta que seleccionó originalmente no está vinculada.
 
@@ -296,11 +296,11 @@ Al sincronizar el contenido de la carpeta desde una aplicación de documento ext
    >
    >Al vincular carpetas desde Google Drive, sólo puede vincular carpetas que se encuentren en su unidad personal (Mi unidad) y en Team Drive. No puede vincular carpetas desde el área Compartida conmigo.
 
-1. Clic **Vínculo**.
+1. Haga clic en **Vínculo**.
 
    En Workfront, el logotipo del proveedor de la nube se muestra junto a la carpeta, lo que indica que está vinculado al proveedor de la nube externo.
 
-1. (Opcional) Para cambiar el nombre de la carpeta de modo que el nombre de la carpeta en Workfront sea diferente del nombre de la carpeta en la aplicación de documento externa, seleccione la carpeta en la **Carpetas** , haga clic en el menú Más ![](assets/more-icon.png)  que se muestra junto al nombre de la carpeta y haga clic en **Cambiar nombre**.
+1. (Opcional) Para cambiar el nombre de la carpeta de modo que el nombre de la carpeta en Workfront sea diferente del nombre de la carpeta en la aplicación de documento externa, seleccione la carpeta en la sección **Carpetas**, haga clic en el menú Más ![](assets/more-icon.png) que aparece junto al nombre de la carpeta y, a continuación, haga clic en **Cambiar nombre**.
 
    ![](assets/documents-folderlink-rename-nwe-350x154.png)
 
@@ -310,7 +310,7 @@ Esto no cambia el nombre de la carpeta en la aplicación externa.
 
 Puede crear una carpeta nueva dentro de una carpeta vinculada existente. También puede arrastrar otra carpeta a una carpeta vinculada existente.
 
-1. Para crear una nueva carpeta dentro de una carpeta vinculada existente, vaya a la carpeta existente y, a continuación, cree la nueva carpeta como se describe en [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
+1. Para crear una carpeta nueva dentro de una carpeta vinculada existente, vaya a la carpeta existente y, a continuación, cree la carpeta nueva tal como se describe en [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
 
    O
 
@@ -329,11 +329,11 @@ Puede crear una carpeta nueva dentro de una carpeta vinculada existente. Tambié
 
 Cuando se agrega un documento a una carpeta vinculada mediante Workfront, se agrega automáticamente como documento vinculado.
 
-1. Seleccione la carpeta vinculada en la que desea colocar el documento y haga clic en **Agregar nuevo > Documento** A continuación, busque el documento y agréguelo a la carpeta.
+1. Seleccione la carpeta vinculada en la que desea el documento, haga clic en **Agregar nuevo > Documento**, desplácese hasta el documento y agréguelo a la carpeta.
 
    O
 
-   En el **Documentos** donde desee colocar el documento, arrástrelo a una carpeta vinculada.
+   En el área **Documentos** donde desee colocar el documento, arrástrelo a una carpeta vinculada.
 
    Se crea automáticamente una nueva versión del documento en la aplicación externa y se vincula a Workfront.
 
@@ -349,8 +349,8 @@ Cuando se agrega un documento a una carpeta vinculada mediante Workfront, se agr
 
 Cuando se elimina un documento o una carpeta vinculados de la aplicación externa, el documento o la carpeta permanece en el sistema de Workfront hasta que también se elimina de Workfront.
 
-1. Seleccione el documento o la carpeta vinculados y haga clic en **Eliminar**.
-1. En el cuadro de confirmación que aparece, haga clic en **Sí, desvincular**.
+1. Seleccione el documento o la carpeta vinculados y luego haga clic en **Eliminar**.
+1. En el cuadro de confirmación que aparece, haga clic en **Sí, desvincularlo**.
 
    El documento se desenlazará del sitio de Workfront. No se ve afectado en la aplicación externa.
 

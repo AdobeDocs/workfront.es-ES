@@ -24,7 +24,7 @@ Puede añadir los siguientes tipos de visualizaciones a un informe:
 
 ## Requisitos previos
 
-Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Resumen de Lienzo de informes beta](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Lienzo de informes beta: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Añadir o editar un bloque de visualización
 
@@ -32,36 +32,36 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
 >
 >Todos los cambios se guardan automáticamente al crear y editar los bloques del informe.
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Informes**.
-1. Clic **Nuevo informe** A continuación, cree un informe con tablas que contengan datos, tal como se describe en [Creación de informes en lienzo de informes](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) y [Adición o edición de un bloque de tabla en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Informes**.
+1. Haga clic en **Nuevo informe** y, a continuación, cree un informe con tablas que contengan datos, tal como se describe en [Crear un informe en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) y [Agregar o editar un bloque de tabla en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    O
 
-   En un informe existente con tablas que contengan datos, haga clic en **Menú Más** icono ![](assets/more-icon.png) en el encabezado del informe, seleccione **Editar**.
+   En un informe existente con tablas que contienen datos, haga clic en el icono **Más menú** ![](assets/more-icon.png) en el encabezado del informe y, a continuación, seleccione **Editar**.
 
-1. En el lado derecho de la pantalla, debajo de **Agregar un bloque**, bien:
+1. En el lado derecho de la pantalla, en **Agregar un bloque**, ya sea:
 
-   Arrastre el **Visualización** **** en el lienzo directamente a la ubicación deseada.
-
-   O
-
-   Haga doble clic en **Visualización** icono **** para añadir una visualización de a la parte superior del lienzo.
+   Arrastre el icono **Visualización** **** al lienzo directamente a la ubicación deseada.
 
    O
 
-   Seleccione el **Visualizar** **** en la parte superior de una tabla existente en el lienzo.
+   Haga doble clic en el icono **Visualización** **** para agregar una visualización a la parte superior del lienzo.
+
+   O
+
+   Seleccione el icono **Visualizar** **** en la parte superior de una tabla del lienzo.
 
    >[!TIP]
    >
    >Puede cambiar el tamaño del bloque una vez que lo haya colocado arrastrando sus controladores de esquina.
 
-1. (Condicional) Si el informe contiene más de una tabla, en la variable **Cree su visualización** que se muestra, seleccione la tabla de origen para la visualización.
+1. (Condicional) Si el informe contiene más de una tabla, en el cuadro **Generar la visualización** que aparece, seleccione la tabla de origen para la visualización.
 
    ![](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
-   >Si selecciona **+ Agregar nueva tabla**, se crea un nuevo bloque de tabla debajo del bloque de visualización. Debe rellenar la tabla con datos para poder agregarle una visualización. Para obtener más información sobre la creación y edición de tablas, consulte [ [Adición o edición de un bloque de tabla en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Si selecciona **+ Agregar nueva tabla**, se crea un nuevo bloque de tabla debajo del bloque de visualización. Debe rellenar la tabla con datos para poder agregarle una visualización. Para obtener más información sobre cómo crear y editar tablas, consulte [ [Agregar o editar un bloque de tabla en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Seleccione el tipo de visualización que desee añadir.
 
@@ -75,7 +75,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
 
 1. Continúe para configurar la visualización:
 
-   * **Barra** visualización: para obtener instrucciones, consulte [Configurar una visualización de barras en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **Columna** visualización: para obtener instrucciones, consulte [Configuración de una visualización de columnas en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **Circular** visualización: para obtener instrucciones, consulte [Configuración de la visualización circular en lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** visualización: para obtener instrucciones, consulte [Configurar una visualización de KPI en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * Visualización de **barras**: para obtener instrucciones, consulte [Configurar una visualización de barras en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * Visualización **Column**: para obtener instrucciones, consulte [Configurar una visualización de columna en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * Visualización **Circular**: para obtener instrucciones, consulte [Configurar la visualización circular en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * Visualización de **KPI**: para obtener instrucciones, consulte [Configurar una visualización de KPI en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

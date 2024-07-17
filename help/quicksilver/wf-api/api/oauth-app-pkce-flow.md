@@ -22,21 +22,21 @@ PKCE es un flujo de autorización seguro que funciona bien con aplicaciones que 
 
 Un flujo PKCE tiene los pasos siguientes. Los pasos de esta sección se presentan solo a título informativo. Para realizar estos procedimientos, consulte otras secciones de este artículo.
 
-1. El cliente crea el `code_challenge` transformando el `code_verifier` usando `S256` cifrado.
+1. El cliente crea `code_challenge` al transformar `code_verifier` mediante el cifrado `S256`.
 
-1. El cliente dirige el explorador a la página de inicio de sesión de OAuth2, junto con el `code_challenge`. Debe registrar la aplicación (cliente) para que OAuth2 pueda aceptar la solicitud de autorización. Después del registro, la aplicación puede redirigir el explorador a OAuth2.
+1. El cliente dirige el explorador a la página de inicio de sesión de OAuth2, junto con el `code_challenge` generado. Debe registrar la aplicación (cliente) para que OAuth2 pueda aceptar la solicitud de autorización. Después del registro, la aplicación puede redirigir el explorador a OAuth2.
 
 1. El servidor de autorización de OAuth2 redirige la solicitud de autenticación al usuario.
 
 1. El usuario se autentica utilizando una de las opciones de inicio de sesión configuradas y puede ver una página de consentimiento en la que se enumeran los permisos que OAuth2 concederá a la aplicación.
 
-1. OAuth2 redirige de nuevo a la aplicación con un `authorization code`.
+1. OAuth2 redirige a su aplicación con un `authorization code`.
 
-1. La aplicación envía este código, junto con el código `code_verifier`, a OAuth2.
+1. Su aplicación envía este código, junto con `code_verifier`, a OAuth2.
 
-1. El servidor de autorización de OAuth2 transforma el `code_verifier` uso del `code_challenge_method` de la solicitud de autorización inicial, y comprueba el resultado comparándolo con el `code_challenge`. Si el valor de ambas cadenas coincide, el servidor ha comprobado que las solicitudes proceden del mismo cliente y emitirán un `access token`.
+1. El servidor de autorización de OAuth2 transforma `code_verifier` utilizando `code_challenge_method` de la solicitud de autorización inicial y comprueba el resultado con `code_challenge`. Si el valor de ambas cadenas coincide, el servidor ha comprobado que las solicitudes proceden del mismo cliente y emitirán un `access token`.
 
-1. OAuth2 devuelve el `access token`y, opcionalmente, un `refresh token`.
+1. OAuth2 devuelve `access token` y, opcionalmente, `refresh token`.
 
 1. La aplicación ahora puede utilizar estos tokens para llamar al servidor de recursos, como una API en nombre del usuario.
 
@@ -47,7 +47,7 @@ Un flujo PKCE tiene los pasos siguientes. Los pasos de esta sección se presenta
 
 Para poder implementar la autorización, debe registrar la aplicación en OAuth2 creando una integración de aplicaciones desde Workfront.
 
-Para obtener instrucciones sobre la creación de la aplicación OAuth2, consulte [Creación de una aplicación web de una sola página de OAuth2 mediante PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Para obtener instrucciones sobre cómo crear la aplicación OAuth2, consulte [Crear una aplicación web de una sola página de OAuth2 mediante PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) en [Crear aplicaciones OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Para obtener instrucciones sobre la creación de la aplicación OAuth2, consulte
 
 ## Crear la clave de revisión para el intercambio de código
 
-De forma similar al flujo estándar del Código de autorización, la aplicación se inicia redireccionando el explorador del usuario al del Servidor de autorización `/authorize` punto final. Sin embargo, en este caso también tiene que pasar un reto de código.
+De forma similar al flujo estándar del Código de autorización, la aplicación se inicia redireccionando el explorador del usuario al extremo `/authorize` del servidor de autorización. Sin embargo, en este caso también tiene que pasar un reto de código.
 
 El primer paso es generar un verificador de códigos y un desafío.
 
@@ -95,7 +95,7 @@ El código del generador PKCE crea un resultado similar al siguiente:
 >}
 >```
 
-Su aplicación guardará `code_verifier` para más tarde, y envía el `code_challenge` junto con la solicitud de autorización al servidor de autorización `/authorize` URL.
+Su aplicación guarda `code_verifier` para más adelante y envía `code_challenge` junto con la solicitud de autorización a la dirección URL `/authorize` del servidor de autorización.
 
 ## Solicitar un código de autorización
 
@@ -113,22 +113,22 @@ Si utiliza el servidor de autorización personalizado predeterminado, la direcci
 
 Tenga en cuenta los parámetros que se pasan:
 
-* `client_id` coincide con el ID de cliente de la aplicación OAuth2 que creó en el al configurar la aplicación.
+* `client_id` coincide con el ID de cliente de la aplicación OAuth2 que creó en al configurar la aplicación.
 
   Para obtener instrucciones, consulte Creación de una aplicación web de una sola página de OAuth2 mediante PKCE en Creación de aplicaciones de OAuth2 para integraciones de Workfront.
 
-* `response_type` es `code`, porque la aplicación utiliza el tipo de concesión Código de autorización.
+* `response_type` es `code`, porque la aplicación usa el tipo de concesión Código de autorización.
 
-* `redirect_uri` es la ubicación de devolución de llamada a la que se dirige el agente de usuario junto con el `code`. Debe coincidir con una de las direcciones URL de redireccionamiento que especificó al crear la aplicación OAuth2.
+* `redirect_uri` es la ubicación de devolución de llamada a la que se dirige el agente de usuario junto con `code`. Debe coincidir con una de las direcciones URL de redireccionamiento que especificó al crear la aplicación OAuth2.
 
-* `code_challenge_method` es el método hash utilizado para generar el desafío, que siempre es `S256` para aplicaciones Oauth2 de Workfront que utilizan PKCE.
+* `code_challenge_method` es el método hash utilizado para generar el desafío, que siempre es `S256` para las aplicaciones Oauth2 de Workfront que utilizan PKCE.
 
-* `code_challenge` es el reto de código utilizado para PKCE.
+* `code_challenge` es el desafío de código utilizado para PKCE.
 
 
 ## Intercambio del código por tokens
 
-Para intercambiar el código de autorización por un token de acceso, páselo al servidor de autorización `/token` punto final junto con el `code_verifier`.
+Para intercambiar el código de autorización por un token de acceso, páselo al extremo `/token` del servidor de autorización junto con `code_verifier`.
 
 >[!INFO]
 >
@@ -148,15 +148,15 @@ Para intercambiar el código de autorización por un token de acceso, páselo al
 
 Tenga en cuenta los parámetros que se pasan:
 
-* `grant_type` es `authorization_code`, porque la aplicación utiliza el tipo de concesión Código de autorización.
+* `grant_type` es `authorization_code`, porque la aplicación usa el tipo de concesión Código de autorización.
 
-* `redirect_uri` debe coincidir con el URI utilizado para obtener el código de autorización.
+* `redirect_uri` debe coincidir con el URI que se usó para obtener el código de autorización.
 
-* `code` es el código de autorización que ha recibido del extremo /authorize.
+* `code` es el código de autorización que recibió del extremo /authorize.
 
-* `code_verifier` es el verificador de código PKCE que su aplicación generó en [Crear la clave de revisión para el intercambio de código](#Create).
+* `code_verifier` es el verificador de código PKCE que su aplicación generó en [Crear la clave de revisión para el intercambio de código](#Create).
 
-* `client_id` identifica a su cliente y debe coincidir con el valor preregistrado en OAuth2.
+* `client_id` identifica a su cliente y debe coincidir con el valor preregistrado en OAuth2.
 
 
 Si el código sigue siendo válido y el verificador de códigos coincide, la aplicación recibe un token de acceso.

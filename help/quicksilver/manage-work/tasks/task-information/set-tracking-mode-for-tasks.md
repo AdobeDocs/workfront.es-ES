@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: Configurar el modo de seguimiento para tareas
+title: Establecer el modo de seguimiento para las tareas
 description: El modo de seguimiento de una tarea determina cómo se actualiza el estado de progreso de la tarea en Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
 
-# Configurar el modo de seguimiento para tareas
+# Establecer el modo de seguimiento para las tareas
 
 El modo de seguimiento de una tarea determina cómo se actualiza el estado de progreso de la tarea en Adobe Workfront.
 
-Para obtener información sobre el modo de seguimiento en las tareas, consulte [Información general sobre el modo de seguimiento de tareas](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Para obtener información sobre el modo de seguimiento de las tareas, consulte [Información general sobre el modo de seguimiento de tareas](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 ## Requisitos de acceso
 
@@ -59,47 +59,47 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan de Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan Adobe Workfront</a>*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>*</td> 
    <td> <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas </p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a></p> </td> 
+   <td> <p>Editar acceso a Tareas </p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en una tarea</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en una tarea</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
-## Configurar el modo de seguimiento para tareas
+## Establecer el modo de seguimiento para las tareas
 
-Para configurar el modo de seguimiento:
+Para establecer el modo de seguimiento:
 
-1. Vaya a la tarea para la que desee configurar el modo de seguimiento.
-1. Haga clic en el **Más** icono ![](assets/qs-more-icon-on-an-object.png)junto al nombre de la tarea y, a continuación, haga clic en **Editar**.
+1. Vaya a la tarea para la que desee establecer el modo de seguimiento.
+1. Haga clic en el icono **Más** ![](assets/qs-more-icon-on-an-object.png)junto al nombre de la tarea y, a continuación, haga clic en **Editar**.
 
-   Se abre el cuadro de diálogo Editar tarea.
+   Se abrirá el cuadro de diálogo Editar tarea.
 
-1. En el **Configuración** utilice la **Modo de seguimiento** menú desplegable para seleccionar el modo de seguimiento de la tarea.
+1. En la sección **Configuración**, use el menú desplegable **Modo de seguimiento** para seleccionar el Modo de seguimiento para la tarea.
 
    ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Seleccione entre las siguientes opciones:
 
    * El usuario debe actualizar (esta es la opción predeterminada)
-   * Supongamos que está a tiempo
+   * Asumir a tiempo
    * Ignorar advertencias tardías
-   * Finalización automática
+   * Completar automáticamente
    * Predecesora
 
-   Para obtener más información sobre las opciones del modo de seguimiento, consulte [Información general sobre el modo de seguimiento de tareas](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   Para obtener más información acerca de las opciones del modo de seguimiento, vea [Información general sobre el modo de seguimiento de tareas](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
 1. Haga clic en **Guardar**.

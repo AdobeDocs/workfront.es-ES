@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront Fusion] organizaciones y equipos
 
-[!DNL Adobe Workfront Fusion]Las funciones de organización y equipos de permiten a las empresas controlar el acceso a escenarios y otras funciones dentro de Fusion.
+Las características de organización y equipos de [!DNL Adobe Workfront Fusion] permiten a las empresas controlar el acceso a escenarios y otras características dentro de Fusion.
 
 ## Requisitos de acceso
 
@@ -34,37 +34,37 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> 
-     <p>Debe ser un [!DNL Workfront Fusion] administrador de su organización.</p>
-     <p>Debe ser un [!DNL Workfront Fusion] administrador de su equipo.</p>
+     <p>Debe ser administrador de [!DNL Workfront Fusion] para su organización.</p>
+     <p>Debe ser administrador de [!DNL Workfront Fusion] para su equipo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-<p>**Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] licencias</a></p>
+<p>**Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, vea <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] licencias</a></p>
 
 
 ## Organizaciones
 
-[!DNL Workfront Fusion] los usuarios pertenecen a una organización.
+[!DNL Workfront Fusion] usuarios pertenecen a una organización.
 
 * [Funciones de organización](#organization-roles)
 * [Invitación de usuarios a una organización](#inviting-users-to-an-organization)
@@ -75,9 +75,9 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 Un usuario tiene una de las siguientes funciones en una organización:
 
 * **[!UICONTROL Propietario]**: el propietario tiene todos los permisos disponibles en la organización.
-* **[!UICONTROL Administrador]**: la función de administrador permite a un usuario crear y administrar equipos y usuarios para la organización.
-* **[!UICONTROL Miembro]**: los miembros pueden utilizar [!DNL Workfront Fusion] pero no puede realizar cambios organizativos.
-* **[!UICONTROL Contable]**: una función de contador solo permite a los usuarios ver la información de licencia en el panel de organización.
+* **[!UICONTROL Administrador]**: El rol de administrador permite a un usuario crear y administrar equipos y usuarios para la organización.
+* **[!UICONTROL Miembro]**: Los miembros pueden usar [!DNL Workfront Fusion] pero no pueden realizar cambios organizativos.
+* **[!UICONTROL Contador]**: un rol de contador solo permite a los usuarios ver la información de licencia en el panel de la organización.
 * **[!UICONTROL Desarrollador de aplicaciones]**: la funcionalidad de esta función no está disponible actualmente y estará disponible en un futuro próximo. No se recomienda asignar usuarios a esta función en este momento.
 
 Para obtener información sobre las acciones específicas disponibles para los usuarios en cada función de organización, consulte [Funciones de organización y equipo](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
@@ -88,8 +88,8 @@ De forma predeterminada, un propietario de organización (o usuario autorizado) 
 
 Para invitar a un usuario a unirse a una organización:
 
-1. Clic **[!UICONTROL Cambiar detalles]** en la esquina superior derecha de la pantalla.
-1. Seleccionar **[!UICONTROL Invitar a un nuevo usuario]**.
+1. Haga clic en **[!UICONTROL Cambiar detalles]** en la esquina superior derecha de la pantalla.
+1. Seleccione **[!UICONTROL Invitar a un nuevo usuario]**.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
 
@@ -98,7 +98,7 @@ Para invitar a un usuario a unirse a una organización:
 1. (Opcional) Añada una nota. Esta nota aparece en el correo electrónico de invitación que recibe el usuario.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-[!DNL Fusion] envía un correo electrónico con una invitación a la organización específica y un [!UICONTROL Aceptar La Función] botón.
+[!DNL Fusion] envía un correo electrónico con una invitación a la organización específica y un botón [!UICONTROL Aceptar el rol].
 
 Cuando el destinatario hace clic en el botón, se le redirige a la página de invitación, donde puede aceptar la invitación.
 
@@ -106,7 +106,7 @@ La invitación caducará dentro de un día.
 
 >[!NOTE]
 >
->Si el usuario es nuevo en [!DNL Fusion], [!DNL Fusion] crea automáticamente una cuenta para ellos y envía un correo electrónico con una contraseña temporal, indicando al nuevo usuario que inicie sesión y cambie su contraseña.
+>Si el usuario es nuevo en [!DNL Fusion], [!DNL Fusion] crea automáticamente una cuenta para ellos y envía un mensaje de correo electrónico con una contraseña temporal, indicando al nuevo usuario que inicie sesión y cambie su contraseña.
 
 ### Cambio entre organizaciones
 
@@ -128,7 +128,7 @@ Los equipos son grupos de usuarios que comparten el acceso a recursos específic
 
 >[!NOTE]
 >
->Dado que los equipos controlan el acceso a los recursos, a veces resulta útil que un equipo tenga solo un miembro. Por ejemplo, los usuarios en formación pueden crear conexiones con su [!DNL Google] cuentas. Cualquier miembro del equipo también podría conectarse a la persona [!DNL Google] , por lo que en este caso es mejor que el usuario sea el único miembro de un equipo de formación.
+>Dado que los equipos controlan el acceso a los recursos, a veces resulta útil que un equipo tenga solo un miembro. Por ejemplo, los usuarios en formación pueden crear conexiones con sus cuentas individuales de [!DNL Google]. Cualquier miembro del equipo también podría conectarse a la cuenta individual de [!DNL Google], por lo que en este caso es mejor que el usuario sea el único miembro de un equipo de formación.
 
 Las organizaciones pueden tener tantos equipos como necesiten y los usuarios pueden pertenecer a uno o más equipos.
 
@@ -141,13 +141,13 @@ Los usuarios pueden seleccionar su equipo en la lista desplegable del panel de n
 
 Un usuario tiene una de las siguientes funciones en cada uno de sus equipos:
 
-* **[!UICONTROL Administrador de equipo]**: además de las capacidades de los otros roles de equipo, la función Administrador permite al usuario añadir, quitar o cambiar la función de un miembro del equipo.
-* **[!UICONTROL Miembro del equipo]**: la función de miembro del equipo permite a los usuarios crear y ejecutar escenarios.
-* **[!UICONTROL Monitorización del equipo]**: La [!UICONTROL control] permite a los usuarios acceder a la información de ejecución de los escenarios, pero no pueden diseñarlos ni cambiar su estado &quot;Activo&quot;.
-* **[!UICONTROL Operador de equipo]**: La [!UICONTROL operador] permite a los usuarios ver los datos de ejecución y cambiar el estado &quot;Activo&quot; de los escenarios.
-* **[!UICONTROL Miembro restringido del equipo]**: la funcionalidad de esta función no está disponible actualmente y estará disponible en un futuro próximo. No se recomienda asignar usuarios a esta función en este momento.
+* **[!UICONTROL Administrador del equipo]**: además de las capacidades de los otros roles de equipo, el rol Administrador permite al usuario agregar, quitar o cambiar el rol de un miembro del equipo.
+* **[!UICONTROL Miembro del equipo]**: La función de miembro del equipo permite a los usuarios crear y ejecutar escenarios.
+* **[!UICONTROL Supervisión del equipo]**: La función [!UICONTROL Supervisión] permite a los usuarios acceder a la información de ejecución de los escenarios, pero no pueden diseñarlos ni cambiar su estado &quot;Activo&quot;.
+* **[!UICONTROL Operador de equipo]**: El rol [!UICONTROL operator] permite a los usuarios ver los datos de ejecución y cambiar el estado &quot;Activo&quot; de los escenarios.
+* **[!UICONTROL Miembro restringido del equipo]**: la funcionalidad de este rol no está disponible actualmente y estará disponible en un futuro próximo. No se recomienda asignar usuarios a esta función en este momento.
 
-Para obtener información sobre las acciones específicas disponibles para los usuarios en cada función del equipo, consulte [Funciones de organización y equipo](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Para obtener información sobre las acciones específicas disponibles para los usuarios en cada rol de equipo, consulte [Funciones de organización y equipo](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Administración de equipo
 
@@ -161,9 +161,9 @@ Los propietarios y administradores de organizaciones pueden crear equipos.
 Para crear un equipo:
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Organización]**
-1. Seleccione el **[!UICONTROL Equipo]** pestaña.
-1. Clic **[!UICONTROL Añadir un nuevo equipo]** en la lista de equipos.
-1. Introduzca un nombre para el nuevo equipo y haga clic en **Añadir**.
+1. Seleccione la ficha **[!UICONTROL Equipo]**.
+1. Haga clic en **[!UICONTROL Agregar un nuevo equipo]** en la lista de equipos.
+1. Escriba un nombre para el nuevo equipo y haga clic en **Agregar**.
 
 #### Establecer opciones de notificación del equipo
 
@@ -173,12 +173,12 @@ Para crear un equipo:
 >
 >Para usar la experiencia Unified Shell, incluido el área de Notificaciones de Adobe, haga clic en el botón Probar nueva interfaz de usuario de Fusion en Unified Experience situado cerca de la parte superior de la página. Este botón solo está disponible si su organización se ha trasladado a Unified Shell.
 >
->Para obtener más información, consulte [Acceso a las notificaciones](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] para [!DNL Workfront Fusion].
+>Para obtener más información, consulte [Acceder a tus notificaciones](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) en [!DNL Adobe Unified Experience] para [!DNL Workfront Fusion].
 
 Las opciones de notificación por correo electrónico se establecen en el nivel de equipo.
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Equipo]**
-1. Seleccione el **[!UICONTROL Opciones de notificación]** pestaña.
+1. Seleccione la ficha **[!UICONTROL Opciones de notificación]**.
 1. Habilite las notificaciones que desea que reciba el equipo.
 
    <table style="table-layout:auto"> 
@@ -195,7 +195,7 @@ Las opciones de notificación por correo electrónico se establecen en el nivel 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Desactivación de escenario]</p> </td> 
-      <td><p>Reciba un correo electrónico cuando se desactive un escenario.</p><p><b>Nota:</b> Se le notifica la desactivación del escenario solo cuando el escenario se ha desactivado automáticamente debido a errores. No recibe notificaciones sobre escenarios que se desactivan manualmente.</p><p>En algunos casos, un escenario puede ser desactivado por el [!DNL Workfront Fusion] equipo de ingeniería porque el escenario está causando problemas de rendimiento u otros. En estos casos, no recibe notificaciones en [!DNL Workfront Fusion]. </p></td>
+      <td><p>Reciba un correo electrónico cuando se desactive un escenario.</p><p><b>Nota:</b> Se le notifica la desactivación del escenario solamente cuando el escenario se ha desactivado automáticamente debido a errores. No recibe notificaciones sobre escenarios que se desactivan manualmente.</p><p>En algunos casos, el equipo de ingeniería de [!DNL Workfront Fusion] podría desactivar un escenario debido a que el escenario está causando problemas de rendimiento o de otro tipo. En estos casos, no recibe notificaciones en [!DNL Workfront Fusion]. </p></td>
 
 </tr>
 </tbody>

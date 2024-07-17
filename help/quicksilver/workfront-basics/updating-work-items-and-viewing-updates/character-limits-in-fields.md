@@ -30,7 +30,7 @@ Los administradores de Workfront o de grupo no pueden modificar los límites de 
  <thead> 
   <tr> 
    <th> <p><strong>Tipo de campo</strong> </p> </th> 
-   <th> <p><strong>Límite de caracteres (</strong><strong>incluyendo espacios)</strong> </p> </th> 
+   <th> <p><strong>Límite de caracteres (</strong><strong>incluidos los espacios)</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

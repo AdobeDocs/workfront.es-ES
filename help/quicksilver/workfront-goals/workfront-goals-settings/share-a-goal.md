@@ -54,7 +54,7 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para utilizar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -66,7 +66,7 @@ Debe tener lo siguiente:
   <div>
   <p>Ver o permisos superiores a la meta para verla</p>
   <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información sobre cómo compartir objetivos, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -118,7 +118,7 @@ Debe tener lo siguiente:
 
 ## Compartir una meta
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Debe tener lo siguiente:
 
 1. Haga clic en el nombre de una meta en la lista. Se abre la página de la meta.
 
-1. Haga clic en **Icono Más** junto al nombre de la meta y haga clic en **Compartir**.
+1. Haga clic en el **icono Más** junto al nombre de la meta y, a continuación, haga clic en **Compartir**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,20 +137,20 @@ Debe tener lo siguiente:
 
 1. Realice una de las siguientes acciones:
 
-   * Seleccione el **Administrar todo el sistema** para otorgar permisos de administración a todas las personas del sistema que tengan acceso de edición a los objetivos en su nivel de acceso. De forma predeterminada, esta opción no está seleccionada para todas las metas nuevas.
-   * Empiece a escribir el nombre de un usuario al que desee conceder permisos de administración en la **Conceder acceso de administración a** cuadro. Seleccione el nombre cuando aparezca en la lista.
+   * Seleccione la configuración **Administrar en todo el sistema** para dar permisos de Administración a todos los usuarios del sistema que tengan acceso de Edición a las Metas en su nivel de acceso. De forma predeterminada, esta opción no está seleccionada para todas las metas nuevas.
+   * Empiece a escribir el nombre de un usuario al que desee conceder permisos de administración en el cuadro **Dar acceso de administración a**. Seleccione el nombre cuando aparezca en la lista.
 
      >[!TIP]
      >
      >Solo puede compartir un objetivo con otros usuarios. No puede compartir objetivos con grupos, equipos o su compañía.
 
-1. Clic **Compartir**.
+1. Haga clic en **Compartir**.
 
    El objetivo se comparte con los usuarios especificados. Una etiqueta &quot;en todo el sistema&quot; o el nombre de los usuarios que tienen permisos de Administración para la meta se muestran en el campo Acceso a Administrar del panel Detalles de la meta.
 
 ## Opciones de permiso de objetivo
 
-En la tabla siguiente se enumeran los permisos que puede conceder al compartir un objetivo. Para obtener más información sobre el acceso que los usuarios obtienen en función de su licencia, consulte [Concesión de acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+En la tabla siguiente se enumeran los permisos que puede conceder al compartir un objetivo. Para obtener más información sobre el acceso que obtienen los usuarios según su licencia, consulte [Conceder acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -234,8 +234,8 @@ En la tabla siguiente se enumeran los permisos que puede conceder al compartir u
 
 **Debe tener acceso a Ver proyectos y permiso de visualización en los proyectos agregados o que desee agregar al objetivo para verlos.
 
-Para obtener información sobre el nivel de acceso al proyecto, consulte [Concesión de acceso a proyectos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Para obtener información acerca del nivel de acceso al proyecto, vea [Conceder acceso a proyectos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Para obtener información sobre los permisos del proyecto, consulte [Uso compartido de un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Para obtener información acerca de los permisos del proyecto, vea [Compartir un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
  

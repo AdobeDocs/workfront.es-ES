@@ -10,14 +10,14 @@ role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
 
 # Personalización del panel izquierdo con una plantilla de diseño
 
-En una plantilla de diseño, puede personalizar lo que los usuarios ven en el área del panel izquierdo en todo [!DNL Adobe Workfront].
+En una plantilla de diseño, puede personalizar lo que los usuarios ven en el área del panel izquierdo en [!DNL Adobe Workfront].
 
 Por ejemplo, puede determinar cuál de los siguientes elementos ven los usuarios en el panel izquierdo al ver una tarea:
 
@@ -27,11 +27,11 @@ Por ejemplo, puede determinar cuál de los siguientes elementos ven los usuarios
 >
 >Los cambios realizados en el orden y la visibilidad se reflejan en la aplicación móvil.
 
-Para obtener información sobre la creación de plantillas de diseño, consulte [Creación y administración de plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información sobre plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información sobre cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -51,25 +51,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> Para realizar estos pasos en el sistema, necesita el nivel de acceso de [!UICONTROL System Administrator].<p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> Para realizar estos pasos en el sistema, necesita el nivel de acceso de [!UICONTROL System Administrator].<p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalización del panel izquierdo de un área en [!DNL Workfront]:
+## Personalizar el panel izquierdo de un área de [!DNL Workfront]:
 
-1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Haga clic en la flecha hacia abajo ![](assets/dropdown-arrow.png) bajo **[!UICONTROL Personalizar lo que ven los usuarios]** A continuación, haga clic en el panel izquierdo que desee personalizar.
+1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Haga clic en la flecha abajo ![](assets/dropdown-arrow.png) bajo **[!UICONTROL Personalizar lo que ven los usuarios]** y, a continuación, haga clic en el panel izquierdo que desee personalizar.
 
    >[!NOTE]
    >
-   >Para obtener más información sobre [!UICONTROL Inicio] opción en esta lista desplegable, consulte [Personalizar [!UICONTROL Inicio] y [!UICONTROL Resumen] uso de una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Para obtener información sobre la opción Lists, consulte [Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Para obtener información acerca de la opción [!UICONTROL Hogar] en esta lista desplegable, consulte [Personalizar [!UICONTROL Hogar] y [!UICONTROL Resumen] con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Para obtener información acerca de la opción Listas, vea [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. En el **[!UICONTROL Panel izquierdo]** , realice una de las siguientes acciones para determinar qué verán los usuarios en el panel izquierdo para la opción ([!DNL Workfront] área o tipo de objeto) que ha seleccionado:
+1. En la lista **[!UICONTROL Panel izquierdo]**, realice una de las acciones siguientes para determinar qué verán los usuarios en el panel izquierdo para la opción ([!DNL Workfront] área o tipo de objeto) que ha seleccionado:
 
-   * Mostrar ![](assets/add-secondary-nav-item.png) o ocultar ![](assets/delete-secondary-nav-item.png) elementos. Cualquier elemento sin ![](assets/add-secondary-nav-item.png) o ![](assets/delete-secondary-nav-item.png) no se puede ocultar.
+   * Mostrar ![](assets/add-secondary-nav-item.png) u ocultar ![](assets/delete-secondary-nav-item.png) elementos. Cualquier elemento sin ![](assets/add-secondary-nav-item.png) o ![](assets/delete-secondary-nav-item.png) no se puede ocultar.
 
-   * Arrastrar elementos ![](assets/move-icon---dots.png) para cambiar el orden en el panel izquierdo.
+   * Arrastre los elementos ![](assets/move-icon---dots.png) para cambiar su orden en el panel izquierdo.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -142,12 +142,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <tr> 
       <td>[!UICONTROL Tableros]</td> 
       <td>El nombre de un tablero</td> 
-      <td>[!UICONTROL Mis paneles], [!UICONTROL Paneles compartidos], [!UICONTROL Todos los paneles]<p><b>NOTA</b>: si ha creado fichas personalizadas para el área de [!UICONTROL Informes] mediante una plantilla de diseño en [!DNL Adobe Workfront Classic], se muestran en la parte inferior de esta lista. Para los usuarios, se muestran en la parte inferior del panel izquierdo del área de [!UICONTROL Dashboards].</p> </td> 
+      <td>[!UICONTROL Mis paneles], [!UICONTROL Paneles compartidos], [!UICONTROL Todos los paneles]<p><b>NOTA</b>: si creó fichas personalizadas para el área de [!UICONTROL Reports] usando una plantilla de diseño en [!DNL Adobe Workfront Classic], se mostrarán en la parte inferior de esta lista. Para los usuarios, se muestran en la parte inferior del panel izquierdo del área de [!UICONTROL Dashboards].</p> </td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Equipo de Scrum]</td> 
       <td>El nombre de un equipo de Scrum</td> 
-      <td><p>[!UICONTROL Iteraciones], [!UICONTROL Iteración actual], [!UICONTROL Registro de pendientes], [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Actualizaciones], [!UICONTROL Configuración de equipo]</p> <p><strong>NOTA:</strong> El <strong>[!UICONTROL Iteración actual]</strong> el elemento solo se muestra en el panel izquierdo cuando hay al menos una tarea o un problema en la iteración.</p></td> 
+      <td><p>[!UICONTROL Iteraciones], [!UICONTROL Iteración actual], [!UICONTROL Registro de pendientes], [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Actualizaciones], [!UICONTROL Configuración de equipo]</p> <p><strong>NOTA:</strong> El elemento <strong>[!UICONTROL Iiteración actual]</strong> solo se muestra en el panel izquierdo cuando hay al menos una tarea o un problema en la iteración.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Equipo Kanban]</td> 
@@ -197,20 +197,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!NOTE]
    >
-   >Los últimos 3 elementos de la **[!UICONTROL Personalizar lo que ven los usuarios]** lista desplegable ([!UICONTROL Listas], [!UICONTROL Inicio y resumen], y [!UICONTROL Marca]) son para configurar áreas que no sean el panel izquierdo. Para obtener información sobre ellos, consulte estos artículos:
+   >Los últimos tres elementos de la lista desplegable **[!UICONTROL Personalizar lo que ven los usuarios]** ([!UICONTROL Listas], [!UICONTROL Inicio y resumen] y [!UICONTROL Marca]) son para configurar áreas que no sean el panel izquierdo. Para obtener información sobre ellos, consulte estos artículos:
 >   >   
-* [Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Personalizar [!UICONTROL Inicio] y [!UICONTROL Resumen] uso de una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Brand Adobe [!DNL Workfront] uso de una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+* [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+>* [Personalizar [!UICONTROL Inicio] y [!UICONTROL Resumen] con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Adobe de marca [!DNL Workfront] usando una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Opcional) Si desea agregar un elemento del panel izquierdo que se vincule a uno de los paneles de su organización, haga clic en **[!UICONTROL Agregar sección personalizada]**, escriba a **[!UICONTROL Título de sección personalizada]** para el elemento y, a continuación, agregue el tablero.
+1. (Opcional) Si desea agregar un elemento del panel izquierdo que se vincule a uno de los paneles de su organización, haga clic en **[!UICONTROL Agregar sección personalizada]**, escriba un **[!UICONTROL título de sección personalizada]** para el elemento y, a continuación, agregue el panel.
 
    Los elementos del panel aparecen en la parte inferior del panel izquierdo. Los usuarios ven el título de la sección personalizada que escriba junto al elemento de panel cuando pasan el ratón por encima del panel izquierdo.
 
    >[!NOTE]
    >
-   Los usuarios pueden agregar elementos de tablero personalizados a su propio panel izquierdo. Cuando se agregan elementos de panel personalizados a una plantilla de diseño, los elementos se combinan con los suyos, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño con elementos de panel personalizados. Para obtener información sobre cómo los usuarios pueden personalizar el panel izquierdo, consulte [Crear fichas o secciones personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   Los usuarios pueden agregar elementos de tablero personalizados a su propio panel izquierdo. Cuando se agregan elementos de panel personalizados a una plantilla de diseño, los elementos se combinan con los suyos, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño con elementos de panel personalizados. Para obtener información acerca de cómo personalizar el panel izquierdo, vea [Crear fichas o secciones personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Para obtener información sobre los paneles, consulte [Paneles](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -222,4 +222,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   Puede hacer clic en [!UICONTROL Guardar] en cualquier momento para guardar el progreso y, a continuación, continúe modificando la plantilla más adelante.
+   Puede hacer clic en [!UICONTROL Guardar] en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

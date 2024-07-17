@@ -24,30 +24,30 @@ La funcionalidad de corrección disponible para los usuarios depende del plan de
 
 Actualmente hay tres opciones de plan para la revisión en Workfront:
 
-* **Nuevos planes de Workfront**: La revisión se incluye automáticamente para todas las licencias en los nuevos planes de Workfront.
-* **Planes actuales de Workfront Pro+**: la revisión se incluye automáticamente para las licencias de Trabajo y Plan si tiene los planes profesionales, empresariales o de Workfront empresarial.
-* **Planes heredados de Workfront Premium**: esta opción es para planes Workfront heredados: Seleccionar, Empresa, Premium. Las licencias de este plan no incluyen la revisión automáticamente. Debe conceder acceso de revisión a usuarios específicos de su perfil de usuario.
+* **Nuevos planes de Workfront**: La revisión se incluye automáticamente para todas las licencias de los nuevos planes de Workfront.
+* **Planes actuales de Workfront Pro+**: La revisión se incluye automáticamente para las licencias de Trabajo y Plan si tiene los planes profesionales, empresariales o de Workfront empresariales.
+* **Planes Workfront Premium heredados**: esta opción es para planes Workfront heredados: Select, Enterprise y Premium. Las licencias de este plan no incluyen la revisión automáticamente. Debe conceder acceso de revisión a usuarios específicos de su perfil de usuario.
 
   Si es administrador de Workfront, puede comprobar y ver en qué plan se encuentra su instancia accediendo a Configuración > Sistema > Licencias.
 
 ### Funciones de corrección en Workfront
 
-Para obtener información sobre la concesión y revocación del acceso de un usuario para crear y ver pruebas en Workfront, consulte [Configuración del acceso de revisión de un usuario](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+Para obtener información sobre cómo conceder y revocar el acceso de un usuario para crear y ver pruebas en Workfront, consulte [Configurar el acceso de revisión de un usuario](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Generar pruebas estáticas o interactivas en documentos y direcciones URL externas. Para obtener más información, consulte [Creación de pruebas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+* Generar pruebas estáticas o interactivas en documentos y direcciones URL externas. Para obtener más información, consulte [Crear pruebas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Incluya flujos de trabajo automatizados en las pruebas. Para obtener más información, consulte [Resumen del flujo de trabajo automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
-* Defina la configuración de acceso y suscripciones en las pruebas. Para obtener más información, consulte [Configuración de acceso y suscripción para una prueba](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
-* Asigne perfiles de permiso de revisión personalizados al habilitar las funciones de revisión para un usuario en Workfront. Para obtener más información, consulte [Habilitar y deshabilitar la revisión para un usuario (solo para planes heredados)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Configuración del acceso de revisión de un usuario](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
-* Rastree el progreso y el estado de la prueba. Para obtener más información, consulte [Progreso de prueba e información general de estado](../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
-* Establezca el perfil de permiso de Workfront Proof al crear usuarios de revisión en Workfront, tal como se describe en esta sección.
+* Defina la configuración de acceso y suscripciones en las pruebas. Para obtener más información, consulte [Configurar el acceso y la suscripción para una revisión](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
+* Asigne perfiles de permiso de revisión personalizados al habilitar las funciones de revisión para un usuario en Workfront. Para obtener más información, consulte [Habilitar y deshabilitar la revisión para un usuario (solo planes heredados)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) en [Configurar el acceso de revisión de un usuario](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+* Rastree el progreso y el estado de la prueba. Para obtener más información, consulte [Progreso de la prueba e información general del estado](../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+* Establezca el perfil de permisos de Workfront Proof al crear usuarios de revisión en Workfront, tal como se describe en esta sección.
 
   Estos perfiles afectan a los permisos solo en los permisos de Workfront Proof, no en Workfront.
 
 * Compare dos pruebas o dos versiones de la misma prueba. Para obtener más información, consulte [Comparar pruebas](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
-* Cree un informe de aprobación de pruebas. Para obtener más información, consulte  [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* Cree un informe de aprobación de pruebas. Para obtener más información, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * Vea la fase de prueba que está activa actualmente en cada versión del documento en el informe Versión del documento. El nombre de la etapa se muestra en la columna &quot;Etapas de prueba activas&quot;. Si no hay ninguna fase activa actualmente en la versión del documento, la columna está en blanco. Para obtener más información sobre los campos disponibles en vistas e informes, consulte [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
-* Configure cuándo los usuarios asociados a una fase determinada pueden ver las pruebas con un flujo de trabajo automatizado. Para obtener más información, consulte [Configure la visibilidad de la prueba en función de la actividad de fase del flujo de trabajo](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity) in  [Configure las opciones de uso compartido para los usuarios](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
-* Acceso sin problemas a Workfront Proof directamente desde la barra de navegación global de Workfront (no se requiere inicio de sesión adicional). Para obtener más información, consulte [Acceso a Workfront Proof desde Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+* Configure cuándo los usuarios asociados a una fase determinada pueden ver las pruebas con un flujo de trabajo automatizado. Para obtener más información, consulte [Configurar la visibilidad de la prueba en función de la actividad de la fase del flujo de trabajo](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity) en [Configurar la configuración de uso compartido para los usuarios](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
+* Acceso sin problemas a Workfront Proof directamente desde la barra de navegación global de Workfront (no se requiere inicio de sesión adicional). Para obtener más información, consulte [Acceder a Workfront Proof desde Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 <!--
 >[!NOTE]

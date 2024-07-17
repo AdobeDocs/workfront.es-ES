@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: announcements
 title: Nuevas direcciones IP para correo electrónico de Adobe Workfront con la versión 21.1
-description: En un esfuerzo por aumentar el envío de correo electrónico correcto, agregamos nuevas direcciones IP con la versión de producción 21.1 para los clústeres que se enumeran a continuación. Para saber en qué clúster se encuentra su instancia, vaya a Setup &gt; System &gt; Customer Info.
+description: En un esfuerzo por aumentar el envío de correo electrónico correcto, agregamos nuevas direcciones IP con la versión de producción 21.1 para los clústeres que se enumeran a continuación. Para saber en qué clúster se encuentra la instancia, vaya a Setup &gt; System &gt; Customer Info.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 En un esfuerzo por aumentar el envío de correo electrónico correcto, agregamos nuevas direcciones IP con la versión de producción 21.1 para los clústeres que se enumeran a continuación. Para saber en qué clúster se encuentra su instancia, vaya a Configuración > Sistema > Información del cliente.
 
-**Grupos 1, 2, 3 y 5**
+**Clústeres 1, 2, 3 y 5**
 
 Añada las siguientes direcciones IP a su lista de permitidos para asegurarse de que los usuarios siguen recibiendo su correo electrónico:
 
@@ -33,7 +33,7 @@ Añada las siguientes direcciones IP a su lista de permitidos para asegurarse de
 * 23 251 239 98
 * 23 251 239 99
 
-(Para obtener más información sobre el contexto de la lista de permitidos y otras direcciones IP que ya se pueden añadir a la lista de permitidos, consulte [Configuración de la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(Para obtener contexto adicional acerca de la lista de permitidos y otras direcciones IP que podrían haberse agregado a la lista de permitidos, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 ¿Cuándo se debe hacer esto?
 

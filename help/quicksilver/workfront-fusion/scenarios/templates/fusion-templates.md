@@ -20,17 +20,17 @@ ht-degree: 0%
 
 >[!INFO]
 >
->[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una licencia de [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] requiere una licencia de [!DNL Adobe Workfront Fusion] además de [!DNL Adobe Workfront license].
 
-[!DNL Workfront Fusion]La función Plantillas de le permite crear y utilizar plantillas existentes como punto de partida para sus [!DNL Workfront Fusion] escenarios.
+La característica Plantillas de [!DNL Workfront Fusion] le permite crear y usar plantillas existentes como punto de partida para sus escenarios [!DNL Workfront Fusion].
 
 Esta sección contiene los siguientes artículos:
 
-* [[!DNL Adobe Workfront Fusion] información general sobre plantillas](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
-* [Creación de nuevas plantillas en [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-* [Publicación y uso compartido [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
-* [Creación de escenarios con [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
-* [Ver, editar y eliminar [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
+* [Resumen de [!DNL Adobe Workfront Fusion] plantillas](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
+* [Crear nuevas plantillas en [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+* [Publish y compartir [!DNL Adobe Workfront Fusion] plantillas](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+* [Crear escenarios con [!DNL Adobe Workfront Fusion] plantillas](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+* [Ver, editar y eliminar [!DNL Adobe Workfront Fusion] plantillas](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] Administración de plantillas](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
-* [[!DNL Adobe Workfront Fusion] preguntas frecuentes sobre plantillas](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
-* [Actualmente disponible [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
+* [Preguntas frecuentes sobre plantillas [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+* [Disponibles actualmente [!DNL Adobe Workfront Fusion] plantillas](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

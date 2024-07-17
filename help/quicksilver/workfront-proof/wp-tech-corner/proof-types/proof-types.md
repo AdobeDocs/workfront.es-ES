@@ -20,8 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Esta sección contiene los siguientes artículos:
 
-* [Creación de una prueba de sitio web estático mediante [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+* [Crear una revisión de sitio web estático usando  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)

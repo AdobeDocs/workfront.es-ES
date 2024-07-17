@@ -1,8 +1,8 @@
 ---
 product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
-title: Configure si la hora se registra en horas o días
-description: Como usuario con una licencia de Plan, puede configurar si inicia sesión en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta configuración para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran la hora en horas.
+title: Configurar si se registran horas y días
+description: Como usuario con una licencia de planificación, puede configurar si registra tiempo en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta opción para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran el tiempo en horas.
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Configure si la hora se registra en horas o días
+# Configurar si se registran horas y días
 
-Como usuario con una licencia de Planificador, puede configurar si inicia sesión en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta configuración para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran la hora en horas. Para obtener información sobre cómo iniciar sesión en Workfront, consulte [Tiempo de registro](../../timesheets/create-and-manage-timesheets/log-time.md).
+Como usuario con una licencia de Planner, puede configurar si registra tiempo en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta opción para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran el tiempo en horas. Para obtener información acerca de cómo registrar tiempo en Workfront, vea [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!NOTE]
 >
->Recomendamos registrar la hora del mismo modo, ya sea de horas o de días, en toda la organización para garantizar la precisión de los informes.
+>Se recomienda registrar el tiempo del mismo modo, ya sea horas o días, en toda la organización para garantizar la precisión de la creación de informes.
 
 ## Requisitos de acceso
 
@@ -32,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -41,36 +41,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Los planificadores pueden configurar el tiempo por sí mismos. Solo los administradores de Workfront pueden configurar el tiempo para otros usuarios.</p> </td> 
+   <td> <p>Los planificadores pueden configurar el tiempo por sí mismos. Solo un administrador de Workfront puede configurar el tiempo para otros usuarios.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
-1. Realice una de las siguientes acciones, según su objetivo y nivel de acceso en el sistema:
+1. Realice una de las siguientes acciones, según el objetivo y el nivel de acceso del sistema:
 
-   * **Usuario planificador configurando el registro de tiempo por su cuenta:** Haga clic en el **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en su nombre de usuario junto a su imagen de perfil. A continuación, haga clic en el **Más** junto a su nombre y seleccione **Editar**.
+   * **Usuario del planificador que configura el registro de tiempo para usted mismo:** Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en su nombre de usuario junto a la imagen de perfil. A continuación, haga clic en el icono **Más** junto a su nombre y seleccione **Editar**.
 
-   * **Administrador del sistema configurando el registro de tiempo para otros usuarios:** Comience a editar una o varias cuentas de usuario, tal como se describe en [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   * **Administrador del sistema configurando el registro de tiempo para otros:** Empiece a editar una o más cuentas de usuario, tal como se describe en [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. En el cuadro de diálogo resultante, en la **Planificación de recursos** , ubique la sección **Iniciar sesión** .
+1. En el cuadro de diálogo resultante, en la sección **Planificación de recursos**, busque la opción **Registrar tiempo en**.
 
    ![](assets/new-timesheet-log-hours-350x249.png)
 
-1. (Condicional) Si es un administrador del sistema que edita varios usuarios simultáneamente, seleccione **Iniciar sesión**.
-1. Seleccione entre las siguientes opciones para el tiempo de registro:
+1. (Condicional) Si es administrador del sistema y edita varios usuarios simultáneamente, seleccione **Registrar tiempo en**.
+1. Seleccione entre las siguientes opciones para registrar el tiempo:
 
    | Opción | Descripción |
    |---|---|
-   | **Horas** | Los usuarios especifican horas al iniciar sesión en Workfront. |
-   | **Días** | Los usuarios especifican días al iniciar sesión en Workfront. |
+   | **Horas** | Los usuarios especifican horas al registrar el tiempo en Workfront. |
+   | **Días** | Los usuarios especifican días al registrar la hora en Workfront. |
 
-1. (Condicional) Si seleccionó registrar la hora en días, en la variable **Horas equivalentes para Workday completo** , escriba el número de horas que sean iguales a un día completo. Un día en el parte de horas de un usuario es el equivalente al número de horas que escriba aquí.
+1. (Condicional) Si seleccionó registrar el tiempo en días, en el campo **Horas equivalentes a Workday completo**, escriba el número de horas que equivale a un día completo. Un día en la plantilla de horas de un usuario equivale al número de horas que se introduce aquí.
 
-   Tenga en cuenta lo siguiente al configurar esta configuración:
+   Tenga en cuenta lo siguiente al configurar esta opción:
 
    * Esta opción no está disponible al configurar para registrar el tiempo en horas.
-   * Esta opción solo se utiliza para registrar el tiempo. Esta opción no está relacionada con la variable **Programación** que también está disponible al editar un usuario. La variable **Programación** se utiliza para calcular líneas de tiempo y en otras áreas de Workfront. (Para obtener más información sobre el uso de la variable **Programación** , consulte [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
+   * Esta opción solo se utiliza para registrar el tiempo. Esta opción no está relacionada con la opción **Programar** que también está disponible al editar un usuario. La opción **Schedule** se usa al calcular escalas de tiempo y en otras áreas de Workfront. (Para obtener más información sobre el uso de la opción **Programar**, consulte [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
 
 1. Haga clic en **Guardar cambios**.

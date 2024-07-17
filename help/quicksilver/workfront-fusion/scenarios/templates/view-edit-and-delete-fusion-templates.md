@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Ver, editar y eliminar [!DNL Adobe Workfront Fusion] templates
+title: Ver, editar y eliminar  [!DNL Adobe Workfront Fusion] plantillas
 description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Ver, editar y eliminar [!DNL Adobe Workfront Fusion] templates
+# Ver, editar y eliminar [!DNL Adobe Workfront Fusion] plantillas
 
-[!DNL Adobe Workfront Fusion] requiere una licencia de Adobe Workfront Fusion además de una [!DNL Adobe Workfront license].
+[!DNL Adobe Workfront Fusion] requiere una licencia de Adobe Workfront Fusion además de [!DNL Adobe Workfront license].
 
 ## Requisitos de acceso
 
@@ -37,29 +37,29 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Ver una plantilla
 
-1. Haga clic en [!UICONTROL Plantillas] icono ![](assets/fusion-template-icon.png) en el menú de navegación lateral.
+1. Haga clic en el icono [!UICONTROL Plantillas] ![](assets/fusion-template-icon.png) en el menú de navegación lateral.
 1. Seleccione la pestaña que contiene la plantilla que desea ver.
 
    <table style="table-layout:auto"> 
@@ -89,24 +89,24 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Edición de una plantilla
 
-Puede editar cualquier plantilla que esté disponible en la [!UICONTROL Plantillas de equipo] pestaña.
+Puede editar cualquier plantilla que esté disponible en la ficha [!UICONTROL Plantillas de equipo].
 
-1. Haga clic en **[!UICONTROL Plantillas]** icono ![](assets/fusion-template-icon.png) en el menú de navegación lateral.
-1. Haga clic en **[!UICONTROL Plantillas de equipo]** pestaña.
-1. Haga clic en **[!UICONTROL Privado]** pestaña.
+1. Haga clic en el icono **[!UICONTROL Plantillas]** ![](assets/fusion-template-icon.png) en el menú de navegación lateral.
+1. Haga clic en la ficha **[!UICONTROL Plantillas de equipo]**.
+1. Haga clic en la ficha **[!UICONTROL Privado]**.
 1. Haga clic en la plantilla que desee editar.
-1. Clic **[!UICONTROL Editar]** en la esquina superior derecha
+1. Haga clic en **[!UICONTROL Editar]** en la esquina superior derecha
 
    o
 
    Haga clic en el diagrama de plantilla.
 
-1. Realice cambios en la plantilla. Puede acceder a todas las opciones disponibles al crear la plantilla. Para ver estas opciones, consulte [Creación de nuevas plantillas en [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Luego haga clic en [!UICONTROL guardar] en la parte inferior de la página.
-1. Haga clic en **[!UICONTROL Guardar]** icono ![](assets/save-icon.png).
+1. Realice cambios en la plantilla. Puede acceder a todas las opciones disponibles al crear la plantilla. Para ver estas opciones, consulte [Crear nuevas plantillas en [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). A continuación, haga clic en el icono [!UICONTROL save] en la parte inferior de la página.
+1. Haga clic en el icono **[!UICONTROL Guardar]** ![](assets/save-icon.png).
 
 >[!NOTE]
 >
->El [!UICONTROL Plantillas de equipo] incluye no solo las plantillas publicadas, sino también copias de las plantillas que ya fueron publicadas por el administrador. Esto significa que puede editar una plantilla que ya sea visible para todos. Si modifica una de estas plantillas, los cambios no sobrescriben la plantilla pública de inmediato. La plantilla de la [!UICONTROL Plantillas públicas] La pestaña sigue intacta y permanece pública, pero su versión más reciente con los cambios de la [!UICONTROL Plantillas de equipo] va al principio del proceso de publicación. Cuando el administrador publica y aprueba la modificación, se sobrescribe la plantilla pública original.
+>La ficha [!UICONTROL Plantillas de equipo] incluye no solo las plantillas publicadas, sino también copias de las plantillas que ya hizo públicas el administrador. Esto significa que puede editar una plantilla que ya sea visible para todos. Si modifica una de estas plantillas, los cambios no sobrescriben la plantilla pública de inmediato. La plantilla de la ficha [!UICONTROL Plantillas públicas] sigue intacta y permanece pública, pero su versión más reciente con los cambios de la ficha [!UICONTROL Plantillas de equipo] se dirige al principio del proceso de publicación. Cuando el administrador publica y aprueba la modificación, se sobrescribe la plantilla pública original.
 
 ## Eliminación de una plantilla
 
@@ -114,12 +114,12 @@ Solo puede eliminar plantillas que aún no estén aprobadas. Si desea eliminar u
 
 Tenga en cuenta que una vez eliminada una plantilla, no se puede restaurar. Las plantillas de equipo están disponibles para todos los miembros del equipo, por lo que antes de eliminarlas, le recomendamos que compruebe si otros miembros del equipo no las necesitan.
 
-1. Haga clic en **[!UICONTROL Plantillas]** icono ![](assets/fusion-template-icon.png) en el menú de navegación lateral.
-1. Haga clic en **[!UICONTROL Plantillas de equipo]** pestaña.
-1. Clic **[!UICONTROL Eliminar]** junto al nombre de la plantilla
+1. Haga clic en el icono **[!UICONTROL Plantillas]** ![](assets/fusion-template-icon.png) en el menú de navegación lateral.
+1. Haga clic en la ficha **[!UICONTROL Plantillas de equipo]**.
+1. Haga clic en **[!UICONTROL Eliminar]** junto al nombre de la plantilla
 
    O
 
-   Haga clic en el nombre de la plantilla para ir a la plantilla. Clic **[!UICONTROL Opciones]** en la esquina superior derecha y seleccione **[!UICONTROL Eliminar]**.
+   Haga clic en el nombre de la plantilla para ir a la plantilla. Haga clic en **[!UICONTROL Opciones]** en la esquina superior derecha y seleccione **[!UICONTROL Eliminar]**.
 
-1. Clic **[!UICONTROL ¿En serio?]** para confirmar la eliminación.
+1. ¿Realmente hizo clic en **[!UICONTROL ?]** para confirmar la eliminación.

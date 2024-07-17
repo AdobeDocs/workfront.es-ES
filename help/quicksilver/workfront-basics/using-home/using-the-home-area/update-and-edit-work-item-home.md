@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Actualizar o editar un elemento de trabajo en el área de Inicio
-description: Puede ver y agregar actualizaciones a un elemento de trabajo dentro del [!UICONTROL Inicio] en Adobe Workfront. También puede editar otros datos relacionados con el elemento de trabajo si tiene acceso para editarlo.
+description: Puede ver y agregar actualizaciones a un elemento de trabajo dentro del área [!UICONTROL Inicio] en Adobe Workfront. También puede editar otros datos relacionados con el elemento de trabajo si tiene acceso para editarlo.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Actualizar o editar un elemento de trabajo en [!UICONTROL Inicio] área
+# Actualizar o editar un elemento de trabajo en el área [!UICONTROL Inicio]
 
 <!--Audited: April 2024-->
 
-Puede ver y agregar actualizaciones a un elemento de trabajo dentro del [!UICONTROL Inicio] área en [!DNL Adobe Workfront]. También puede editar otros datos relacionados con el elemento de trabajo si tiene acceso para editarlo.
+Puede ver y agregar actualizaciones a un elemento de trabajo dentro del área [!UICONTROL Inicio] en [!DNL Adobe Workfront]. También puede editar otros datos relacionados con el elemento de trabajo si tiene acceso para editarlo.
 
 ## Requisitos de acceso
 
@@ -46,31 +46,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Aportar permisos o superiores a las tareas y problemas en los que necesita trabajar</p> </td> 
+   <td> <p>Permisos de Contribute o superiores para las tareas y problemas en los que debe trabajar</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront]. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ver actualizaciones de un elemento de trabajo
 
 Puede ver las actualizaciones de cualquier elemento de trabajo en la [!UICONTROL Lista de trabajos]:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **[!UICONTROL Inicio]**.
-1. En el **[!UICONTROL Lista de trabajos]** , seleccione el elemento en el que desea ver las actualizaciones.\
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
+1. En el área **[!UICONTROL Lista de trabajos]**, seleccione el elemento donde desee ver las actualizaciones.\
    Las actualizaciones se muestran en el panel derecho.
 
-1. (Opcional) Para filtrar las actualizaciones del sistema de modo que solo se muestren las actualizaciones del usuario, cambie **[!UICONTROL Mostrar actualizaciones del sistema]** a Desactivado.
+1. (Opcional) Para filtrar las actualizaciones del sistema de modo que solo se muestren las actualizaciones del usuario, active **[!UICONTROL Mostrar actualizaciones del sistema]** para desactivarlas.
 
    ![](assets/show-system-updates-home-350x114.png)
 
 ## Proporcionar actualizaciones de un elemento de trabajo
 
-Puede proporcionar actualizaciones sobre cualquier elemento de trabajo en [!UICONTROL Trabajo] Lista:
+Puede proporcionar actualizaciones sobre cualquier elemento de trabajo de la lista [!UICONTROL Trabajo]:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **[!UICONTROL Inicio]**.
-1. En el **[!UICONTROL Lista de trabajos]** , seleccione el elemento en el que desea proporcionar una actualización.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
+1. En el área **[!UICONTROL Lista de trabajos]**, seleccione el elemento donde desea proporcionar una actualización.
 1. En el panel derecho, haga clic en **[!UICONTROL Actualizar]** para mostrar un campo de texto.
 
    ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
@@ -78,18 +78,18 @@ Puede proporcionar actualizaciones sobre cualquier elemento de trabajo en [!UICO
 1. En el campo proporcionado, especifique la actualización.
 1. (Opcional) Especifique cualquiera de la siguiente información:\
    **[!UICONTROL Fecha de confirmación]:** Seleccione una fecha del selector de fechas cuando se comprometa a completar el elemento de trabajo.\
-   **[!UICONTROL ¿Cómo va todo?]:** Seleccione una nueva condición para la tarea o el problema. Para obtener más información sobre las condiciones de tareas y problemas, consulte [Actualizar condición para tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Estado]:** Seleccione un nuevo estado para la tarea o el problema. Para obtener más información sobre los estados de las tareas, consulte [Actualizar estado de la tarea](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Para obtener más información sobre los estados de problemas, consulte [Acceso a la lista de estados de problemas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Barra de finalización]:** Indique el porcentaje de trabajo completado desplazando la barra de progreso hasta el porcentaje deseado. También puede hacer doble clic en la barra de finalización e introducir el porcentaje completado.
+   **[!UICONTROL ¿Cómo te va?]:** Seleccione una nueva condición para la tarea o el problema. Para obtener más información acerca de las condiciones de tarea y problema, vea [Actualizar condición para tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
+   **[!UICONTROL Estado]:** Seleccione un nuevo estado para la tarea o el problema. Para obtener más información acerca de los estados de tareas, vea [Actualizar el estado de las tareas](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Para obtener más información sobre los estados de problemas, consulte [Acceso a la lista de estados de problemas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
+   **[!UICONTROL Barra de finalización]:** Indique el porcentaje de trabajo completado desplazando la barra de progreso al porcentaje deseado. También puede hacer doble clic en la barra de finalización e introducir el porcentaje completado.
 
-1. Clic **[!UICONTROL Actualizar]**.
+1. Haga clic en **[!UICONTROL Actualizar]**.
 
 ## Editar un elemento de trabajo
 
 Puede editar cualquier campo de cualquier elemento de trabajo al que tenga acceso para editar.
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha, o la **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **[!UICONTROL Inicio]**.
-1. En el **[!UICONTROL Lista de trabajos]** , seleccione el elemento que desee editar.\
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
+1. En el área **[!UICONTROL Lista de trabajos]**, seleccione el elemento que desee editar.\
    Todos los campos a los que tiene acceso se muestran en el panel derecho.
 
 1. En el panel derecho, pase el ratón sobre el campo que desea editar.\

@@ -22,9 +22,9 @@ En el área Documentos puede organizar, administrar y ver los metadatos de los d
 
 Existen dos tipos de áreas de Documentos. Las funciones y la funcionalidad son las mismas para ambas:
 
-* **Área de documentos de un programa, portafolio, proyecto, tarea o problema:** Enumera todos los documentos a los que tiene acceso para un proyecto, tarea o problema en particular. Para acceder a esta área, haga clic en **Documentos** ![](assets/document-icon-12x14.png) en el panel izquierdo mientras ve un proyecto, una tarea o un problema.
+* **Área de documentos de un programa, portafolio, proyecto, tarea o problema:** Enumera todos los documentos a los que tiene acceso para un proyecto, tarea o problema en particular. Para acceder a esta área, haga clic en **Documentos** ![](assets/document-icon-12x14.png) en el panel izquierdo mientras ve un proyecto, tarea o problema.
 
-* **Área de documentos globales:** Enumera todos los documentos a los que tiene acceso en Workfront. Para acceder a esta área, haga clic en **Documentos** ![](assets/document-icon.png) en el menú principal ![](assets/main-menu-icon.png).
+* **Área de documentos globales:** Enumera todos los documentos a los que tiene acceso en Workfront. Para obtener acceso a esta área, haga clic en **Documentos** ![](assets/document-icon.png) en el menú principal ![](assets/main-menu-icon.png).
 
 Para obtener información sobre cómo cargar documentos en Workfront, consulte [Agregar documentos a Adobe Workfront desde el sistema de archivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -46,7 +46,7 @@ Puede hacer clic en el encabezado Detalles para ir al área completa Detalles de
 
 ![](assets/documents-area-v2-350x199.png)
 
-Para obtener más información sobre el Resumen, consulte [Resumen de la información general sobre documentos](../../documents/managing-documents/summary-for-documents.md).
+Para obtener información sobre el resumen, consulte [Resumen de documentos](../../documents/managing-documents/summary-for-documents.md).
 
 ## Decisión de revisión
 
@@ -60,9 +60,9 @@ En un proyecto, tarea o problema en el que se hayan cargado documentos, puede co
 
 En el área de Documentos global, puede configurar dos tipos de carpetas para organizar los documentos a los que tiene acceso:
 
-* **Carpetas inteligentes:** Mostrar sólo los documentos que desee ver. Para obtener más información, consulte [Crear y administrar carpetas inteligentes](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **Carpetas inteligentes:** muestra sólo los documentos que desea ver. Para obtener más información, consulte [Crear y administrar carpetas inteligentes](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Mis carpetas:** Organice los documentos como desee. Para obtener más información, consulte [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
+* **Mis carpetas:** Organice los documentos como desee. Para obtener más información, consulte [Crear carpetas de documentos](../../documents/organizing-documents/create-documents-folder.md).
 
 ## Detalles del documento ampliado
 

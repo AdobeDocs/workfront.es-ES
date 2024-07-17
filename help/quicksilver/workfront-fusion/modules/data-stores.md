@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Almacenes de datos en [!DNL Adobe Workfront Fusion]
+title: Almacenes de datos en  [!DNL Adobe Workfront Fusion]
 description: Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
 author: Becky
 feature: Workfront Fusion
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
 
-Los módulos del almacén de datos permiten realizar las siguientes acciones en los registros de su [!DNL Adobe Workfront Fusion] almacén de datos:
+Los módulos del almacén de datos permiten realizar las siguientes acciones en los registros del almacén de datos [!DNL Adobe Workfront Fusion]:
 
 * Agregar
 * Reemplazar
@@ -29,7 +29,7 @@ Los módulos del almacén de datos permiten realizar las siguientes acciones en 
 * Buscar
 * Cuenta
 
-Para obtener información sobre el uso de módulos de almacén de datos, consulte [[!UICONTROL Almacén de datos] módulos](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Para obtener información sobre el uso de módulos de almacén de datos, consulte [[!UICONTROL Módulos del almacén de datos]](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 Para ver un vídeo introductorio a los almacenes de datos de Workfront Fusion, consulte:
 
@@ -54,7 +54,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Actual: no se requiere licencia para [!DNL Workfront Fusion].</p>
    <p>O</p>
    <p>Heredado: cualquiera </p>
    </td> 
@@ -62,9 +62,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nuevo:</p> <ul><li>[!UICONTROL Seleccionar] o [!UICONTROL Prime] [!DNL Workfront] Plan: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] está incluido.</li></ul>
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul>
    <p>O</p>
-   <p>Actual: Su organización debe comprar [!DNL Adobe Workfront Fusion].</p>
+   <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
@@ -99,7 +99,7 @@ Las instancias de Fusion en los paquetes Select o Prime reciben:—>
 
 Su organización puede tener hasta 50 almacenes de datos. El tamaño combinado de estos almacenes de datos no puede superar el tamaño total del almacén de datos de su organización.
 
-## Creación de un almacén de datos en [!DNL Workfront Fusion]
+## Crear un almacén de datos en [!DNL Workfront Fusion]
 
 * [Configuración del almacén de datos](#set-up-the-data-store)
 * [Configuración de la estructura de datos](#set-up-the-data-structure)
@@ -110,16 +110,16 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
 
 >[!NOTE]
 >
->Su organización tiene un número limitado de almacenes de datos disponibles. Si intenta crear más almacenes de datos de los que tiene disponibles, [!DNL Workfront] devuelve un valor [!UICONTROL Se alcanzó el máximo de tiendas] error.
+>Su organización tiene un número limitado de almacenes de datos disponibles. Si intenta crear más almacenes de datos de los que tiene disponibles, [!DNL Workfront] devolverá un error [!UICONTROL Se alcanzó el número máximo de almacenes].
 >
->Para obtener más información, consulte [Error de número máximo de tiendas alcanzado](#maximum-stores-reached-error) en este artículo.
+>Para obtener más información, consulte [Error alcanzado en el número máximo de tiendas](#maximum-stores-reached-error) en este artículo.
 
-1. Inicie sesión en su [!DNL Workfront Fusion] cuenta.
-1. Clic **[!UICONTROL Almacenes de datos]** en el panel de navegación izquierdo.
-1. Clic **[!UICONTROL Añadir almacén de datos]** en la esquina superior derecha de la pantalla.
+1. Inicie sesión en su cuenta de [!DNL Workfront Fusion].
+1. Haga clic en **[!UICONTROL Almacenes de datos]** en el panel de navegación izquierdo.
+1. Haga clic en **[!UICONTROL Agregar almacén de datos]** en la esquina superior derecha de la pantalla.
 1. Introduzca la configuración del nuevo almacén de datos.
 
-   Un título en negrita en un campo de una [!DNL Workfront Fusion] module indica una configuración requerida.
+   Un título en negrita en un campo de un módulo [!DNL Workfront Fusion] indica que se requiere una configuración.
 
    <table style="table-layout:auto">
     <col> 
@@ -134,7 +134,7 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
       <td> <p>Una estructura de datos es una lista de las columnas de una tabla. Esta lista indica el nombre de columna y el tipo de datos.</p> <p>Realice una de las siguientes acciones:</p> 
        <ul> 
         <li style="font-weight: bold;">Seleccione una estructura de datos que ya se haya creado</li> 
-        <li> <p style="font-weight: bold;">Añadir una nueva estructura de datos</p> <p>Clic <strong>[!UICONTROL Agregar]</strong> para crear una nueva estructura de datos.</p> <p>Para obtener más información, consulte la <a href="#set-up-the-data-structure" class="MCXref xref">Configuración de la estructura de datos</a> de este artículo.</p> </li> 
+        <li> <p style="font-weight: bold;">Añadir una nueva estructura de datos</p> <p>Haga clic en <strong>[!UICONTROL Agregar]</strong> para crear una nueva estructura de datos.</p> <p>Para obtener más información, consulte la sección <a href="#set-up-the-data-structure" class="MCXref xref">Configurar la estructura de datos</a> en este artículo.</p> </li> 
         <li style="font-weight: bold;"> <p>Deje el campo vacío.</p> <p style="font-weight: normal;">Si no selecciona ni añade una estructura de datos, la base de datos solo contendrá la clave principal. Este tipo de base de datos es útil si sólo desea guardar claves y sólo le interesa saber si existe o no una clave específica en la base de datos.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -147,8 +147,8 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
 
 ### Configuración de la estructura de datos
 
-1. Al crear o editar un almacén de datos, haga clic en **[!UICONTROL Añadir]**.
-1. En el **[!UICONTROL Añadir estructura de datos]** que se muestra, configure los campos siguientes:
+1. Al crear o editar un almacén de datos, haga clic en **[!UICONTROL Agregar]**.
+1. En el cuadro **[!UICONTROL Agregar estructura de datos]** que aparece, configure los campos siguientes:
 
    <table style="table-layout:auto">
     <col> 
@@ -162,8 +162,8 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
       <td> <p>[!UICONTROL Especificación]</p> </td> 
       <td> <p>Realice una de las siguientes acciones para configurar las columnas del almacén de datos.</p> 
        <ul> 
-        <li> <p>Clic <strong>[!UICONTROL Agregar elemento]</strong> para especificar las propiedades de una columna manualmente.</p> <p>Introduzca el <strong>[!UICONTROL Nombre]</strong> y <strong>[!UICONTROL Tipo]</strong> para la columna del almacén de datos y defina las propiedades correspondientes.</p> </li> 
-        <li> <p>Clic <strong>[!UICONTROL Generator]</strong> para determinar las columnas a partir de los datos de ejemplo proporcionados.</p> 
+        <li> <p>Haga clic en <strong>[!UICONTROL Agregar elemento]</strong> para especificar manualmente las propiedades de una columna.</p> <p>Escriba <strong>[!UICONTROL Name]</strong> y <strong>[!UICONTROL Type]</strong> para la columna del almacén de datos y defina las propiedades correspondientes.</p> </li> 
+        <li> <p>Haga clic en <strong>[!UICONTROL Generator]</strong> para determinar las columnas a partir de los datos de ejemplo proporcionados.</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
           <span class="autonumber"><span><b>Ejemplo: </b></span></span> 
           <p>Por ejemplo, los siguientes datos de ejemplo de JSON crean tres columnas: nombre, edad y número de teléfono. Número de teléfono es una colección de números de teléfono móviles y de teléfono fijo.</p> 
@@ -177,7 +177,7 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
           <p><code>&rbrace;</code> </p> 
           <p>Las columnas vacías en la vista del almacén de datos:</p> 
           <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-          <p>A continuación, puede agregar valores al almacén de datos manualmente o utilizando [!DNL Workfront Fusion] módulos de almacén de datos.</p> 
+          <p>A continuación, puede agregar valores al almacén de datos manualmente o mediante los módulos del almacén de datos [!DNL Workfront Fusion].</p> 
          </div> </li> 
        </ul> </td> 
      </tr> 
@@ -190,7 +190,7 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
 
 ## Editar un almacén de datos existente
 
-Puede editar las propiedades y el contenido de un almacén de datos existente en la [!UICONTROL Almacén de datos] área de [!DNL Workfront Fusion].
+Puede editar las propiedades y el contenido de un almacén de datos existente en el área [!UICONTROL Almacén de datos] de [!DNL Workfront Fusion].
 
 * [Editar las propiedades de un almacén de datos](#edit-the-properties-of-a-data-store)
 * [Editar el contenido de un almacén de datos](#edit-the-contents-of-a-data-store)
@@ -199,24 +199,24 @@ Puede editar las propiedades y el contenido de un almacén de datos existente en
 
 Las propiedades de un almacén de datos incluyen la estructura de datos que utiliza el almacén de datos, así como el tamaño de éste.
 
-1. Clic **[!UICONTROL Almacén de datos]** ![](assets/data-store-icon.png) en el panel de navegación izquierdo para abrir [!UICONTROL Almacén de datos] área.
-1. Clic **[!UICONTROL Editar]** ![](assets/data-store-edit.png) situado junto al almacén de datos que desea editar.
-1. (Opcional) Si desea cambiar la estructura de datos utilizada por este almacén de datos a otra estructura de datos existente, selecciónela en el **[!UICONTROL Estructura de datos]** menú desplegable.
+1. Haga clic en **[!UICONTROL Almacén de datos]** ![](assets/data-store-icon.png) en el panel de navegación izquierdo para abrir el área de [!UICONTROL Almacén de datos].
+1. Haga clic en **[!UICONTROL Editar]** ![](assets/data-store-edit.png) junto al almacén de datos que desee editar.
+1. (Opcional) Si desea cambiar la estructura de datos utilizada por este almacén de datos a otra estructura de datos existente, selecciónela en la lista desplegable **[!UICONTROL Estructura de datos]**.
 
    O
 
-   (Opcional) Si desea cambiar la estructura de datos utilizada por este almacén de datos a una estructura de datos completamente nueva, consulte [Configuración de la estructura de datos](#set-up-the-data-structure) en este artículo.
+   (Opcional) Si desea cambiar la estructura de datos usada por este almacén de datos a una estructura de datos completamente nueva, consulte [Configurar la estructura de datos](#set-up-the-data-structure) en este artículo.
 
-1. (Opcional) Cambie el tamaño del almacén de datos introduciendo el nuevo tamaño en la variable **[!UICONTROL Tamaño de almacenamiento de datos en MB]** field.
+1. (Opcional) Cambie el tamaño del almacén de datos introduciendo el nuevo tamaño en el campo **[!UICONTROL Tamaño de almacenamiento de datos en MB]**.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ### Editar el contenido de un almacén de datos
 
-1. Haga clic en **[!UICONTROL Almacén de datos]** icono ![](assets/data-store-icon.png) en el panel de navegación izquierdo para abrir [!UICONTROL Almacén de datos] área.
-1. Clic **[!UICONTROL Examinar]**  situado junto al almacén de datos que desea editar.
+1. Haga clic en el icono **[!UICONTROL Almacén de datos]** ![](assets/data-store-icon.png) del panel de navegación izquierdo para abrir el área [!UICONTROL Almacén de datos].
+1. Haga clic en **[!UICONTROL Examinar]** junto al almacén de datos que desea editar.
 1. (Opcional) Reordene las columnas arrastrándolas a la ubicación deseada.
-1. (Opcional) [!UICONTROL Editar] una sola celda haciendo clic en el botón **[!UICONTROL Editar]** en esa celda y, a continuación, introduzca el valor deseado.
-1. (Opcional) Agregue un nuevo elemento al almacén de datos haciendo clic en **[!UICONTROL Añadir]**, a continuación, introduzca la información del nuevo elemento.
+1. (Opcional) [!UICONTROL Edite] una sola celda haciendo clic en el icono **[!UICONTROL Editar]** de esa celda y, a continuación, introduciendo el valor deseado.
+1. (Opcional) Agregue un nuevo elemento al almacén de datos haciendo clic en **[!UICONTROL Agregar]** y, a continuación, escribiendo la información del nuevo elemento.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Resolución de problemas
@@ -233,16 +233,16 @@ Actualmente no hay ninguna herramienta que pueda automatizar la restauración de
 
 1. Examine todos los registros de ejecución de escenarios en los que se insertaron elementos en el almacén de datos.
 
-   Para obtener más información sobre el examen de los registros de ejecución, consulte [Visualización del historial de ejecución de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+   Para obtener más información sobre el examen de los registros de ejecución, vea [Ver el historial de ejecución de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 1. Copie los datos.
 1. Vuelva a insertar los datos en el almacén de datos.
 
    Para obtener información sobre cómo insertar datos en un almacén de datos, consulte [Editar el contenido de un almacén de datos](#edit-the-contents-of-a-data-store) en este artículo.
 
-### [!UICONTROL Espacio insuficiente] error
+### Error de [!UICONTROL espacio insuficiente]
 
-Un [!UICONTROL Espacio insuficiente] Se produce un error porque los almacenes de datos creados anteriormente ya se han asignado al almacenamiento del almacén de datos asignado.
+Se produce un error de [!UICONTROL espacio insuficiente] porque ya se ha asignado el almacenamiento del almacén de datos asignado a los almacenes de datos creados anteriormente.
 
 #### Solución
 
@@ -254,9 +254,9 @@ Un [!UICONTROL Espacio insuficiente] Se produce un error porque los almacenes de
 >
 >Le recomendamos que no asigne todo su espacio a un único almacén de datos a menos que esté seguro de que no necesitará más almacenes de datos.
 
-### [!UICONTROL Se alcanzó el máximo de tiendas] error
+### Error [!UICONTROL Se alcanzó el máximo de tiendas]
 
-A [!UICONTROL Se alcanzó el máximo de tiendas] Este error se produce porque su organización ha utilizado todos sus almacenes de datos disponibles. Una organización tiene un número de almacenes de datos disponibles que equivale al doble del número de escenarios disponibles. Por lo tanto, el número total de almacenes de datos disponibles depende del plan que haya adquirido.
+Se produce el error [!UICONTROL Se alcanzó el número máximo de almacenes] porque su organización ha utilizado todos los almacenes de datos disponibles. Una organización tiene un número de almacenes de datos disponibles que equivale al doble del número de escenarios disponibles. Por lo tanto, el número total de almacenes de datos disponibles depende del plan que haya adquirido.
 
 Por ejemplo, si su organización ha adquirido un plan con 15 escenarios, puede tener hasta 30 almacenes de datos.
 

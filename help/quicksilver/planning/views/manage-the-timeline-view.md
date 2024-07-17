@@ -86,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -115,7 +115,7 @@ Tenga en cuenta lo siguiente:
 Para administrar una vista de cronología:
 
 1. Vaya a la página del tipo de registro cuya cronología desea ver.
-1. Cree una vista de cronología, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cree una vista de escala de tiempo, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/timeline-view-example.png)
 
@@ -129,23 +129,23 @@ Para administrar una vista de cronología:
 1. Realice una de las siguientes acciones para navegar por la cronología:
 
    * Haga clic en los iconos izquierdo y derecho o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en la cronología.
-   * Clic **Hoy** para centrar la cronología en la fecha actual.
+   * Haga clic en **Hoy** para centrar la escala de tiempo en la fecha de hoy.
    * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo:
 
       * Año
       * Trimestre
       * Mes
-1. Clic **Cambiar a estándar** vista para mostrar registros en líneas independientes <!--check to see if they updated the name of the setting here-->
+1. Haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas independientes <!--check to see if they updated the name of the setting here-->
 
    O
 
-   Clic **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
+   Haga clic en **Cambiar a la vista compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
 
    Los registros se muestran en la vista Compacta de forma predeterminada.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en **Buscar** icono ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
+   1. Haga clic en el icono **Search** ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
@@ -155,7 +155,7 @@ Para administrar una vista de cronología:
 
    1. Pulse Enter en el teclado para ir al siguiente campo encontrado.
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
-   1. Haga clic en **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
+   1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
@@ -214,12 +214,12 @@ Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronolo
 
 Para agregar una agrupación en la vista de escala de tiempo:
 
-1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clic **Agrupación** en la esquina superior derecha de la vista de la cronología.
+1. Cree una vista de escala de tiempo para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de escala de tiempo.
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Haga clic en uno de los campos sugeridos o en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
+1. Haga clic en uno de los campos sugeridos o haga clic en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
    La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
 
@@ -233,14 +233,14 @@ Para agregar una agrupación en la vista de escala de tiempo:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Opcional) Dentro de **Agrupar registros por** , haga clic en **x** a la derecha de un campo seleccionado para que la agrupación elimine la agrupación
+1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
    O
 
-   Clic **Borrar todo** para eliminar todos los campos.
+   Haga clic en **Borrar todo** para eliminar todos los campos.
 
-1. Haga clic fuera de **Agrupar registros por** para cerrarlo.
-1. (Opcional) Haga clic en **Configuración**, entonces **Color** a agrupaciones de código de color. Para obtener más información, consulte la [Editar la configuración de vista de cronología](#edit-the-timeline-view-settings) de este artículo.
+1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
+1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de la cronología](#edit-the-timeline-view-settings) en este artículo.
 
 <!-- 
 
@@ -254,15 +254,15 @@ this is not possible right now; if this is the same functionality as the table v
 
 Actualice la configuración de vista de escala de tiempo para indicar qué información se muestra en la sección de escala de tiempo de la vista y cómo.
 
-1. Cree una vista de cronología para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clic **Configuración**.
-1. Clic **Fecha y hora** en el panel izquierdo, seleccione una **Fecha de inicio** y un **Fecha de finalización** para mostrar en la cronología. Puede elegir las fechas de inicio y finalización predeterminadas, o bien puede elegir cualquier campo de fecha disponible. Las barras que representan los registros comienzan en la fecha que se indica para la fecha Start y finalizan en la fecha correspondiente a End date.
+1. Cree una vista de escala de tiempo para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Haga clic en **Configuración**.
+1. Haga clic en **Fecha y hora** en el panel izquierdo, luego seleccione una **fecha de inicio** y una **fecha de finalización** para mostrar en la cronología. Puede elegir las fechas de inicio y finalización predeterminadas, o bien puede elegir cualquier campo de fecha disponible. Las barras que representan los registros comienzan en la fecha que se indica para la fecha Start y finalizan en la fecha correspondiente a End date.
 
    >[!NOTE]
    >
    >Los registros que no tienen valores para las fechas Start o End o que tienen una fecha Start posterior a End no se muestran en la vista de escala de tiempo.
 
-1. Clic **Estilo de barra** en el panel izquierdo, para indicar qué campos desea mostrar en las barras de registros.
+1. Haga clic en **Estilo de barra** en el panel izquierdo para indicar qué campos desea mostrar en las barras de registros.
 
    El campo principal (o título) del registro, tal como se define en la vista de tabla del registro, está seleccionado de forma predeterminada. <!--adjust this when the primary field is released??-->
 
@@ -270,28 +270,28 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 
    >[!NOTE]
    >
-   >    Primero debe agregar miniaturas en la vista de tabla para poder mostrarlas en la vista de escala de tiempo. Para obtener más información, consulte [Añadir una miniatura en un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >    Primero debe agregar miniaturas en la vista de tabla para poder mostrarlas en la vista de escala de tiempo. Para obtener más información, vea [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Clic **Añadir campo** para agregar hasta 4 campos a las barras de registros.
-1. Haga clic dentro de **Campos de búsqueda** y haga clic en el campo que desee añadir.
+1. Haga clic en **Agregar campo** para agregar hasta 4 campos a las barras de registros.
+1. Haga clic dentro del cuadro **Buscar campos** y haga clic en el campo que desee agregar.
 
    >[!TIP]
    >
    >   * Debe crear los campos para poder agregarlos a las barras de registros.
    > 
-   >   * Debe haber seleccionado al menos un campo. **Nombre** está seleccionado de forma predeterminada.
+   >   * Debe haber seleccionado al menos un campo. **Nombre** está seleccionado de manera predeterminada.
 
    A la derecha aparece una vista previa del aspecto que tendrán las barras en la cronología.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Clic **Color** en el panel izquierdo, para personalizar los colores de los registros y las agrupaciones en la cronología.
+1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la cronología.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Condicional y opcional) Si ha agregado una agrupación a la vista de escala de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la vista de escala de tiempo **Definir color de agrupación** sección:
+1. (Condicional y opcional) Si agregó una agrupación a la vista de escala de tiempo, seleccione entre las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
 
-   * **Predeterminado (gris)**: el color de las agrupaciones se establece en gris. Esta es la opción predeterminada.
+   * **Predeterminado (gris)**: el color de las agrupaciones está establecido en gris. Esta es la opción predeterminada.
    * **Valores de campo**: El color de las agrupaciones coincide con el color del campo por el que se agrupa.
 
      >[!NOTE]
@@ -309,14 +309,14 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
    >
    >Si no ha agregado agrupaciones a la vista de cronología, esta sección no se muestra.
 
-1. En el **Establecer color de registro** , seleccione entre las siguientes opciones para definir un color para los registros:
+1. En la sección **Establecer color de registro**, seleccione entre las siguientes opciones para establecer un color para los registros:
 
    * **Tipo de registro**: El color de los registros coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
-   * **Valores de campo**: El color de los registros coincide con el color de un campo especificado. Continúe con el paso 10. <!--ensure this stays accurate-->
+   * **Valores de campo**: El color de los registros coincide con el color de un campo que especifique. Continúe con el paso 10. <!--ensure this stays accurate-->
    * **Agrupación**: El color de los registros coincide con el color indicado para las agrupaciones. Esta opción aparece atenuada cuando no se han aplicado agrupaciones a la vista de escala de tiempo.
    * **Ninguno**: los registros se muestran en una barra blanca.
 
-1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo de la **Hacer coincidir el color del registro con** menú desplegable.
+1. (Condicional) Si seleccionó **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Coincidir el color del registro con**.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 

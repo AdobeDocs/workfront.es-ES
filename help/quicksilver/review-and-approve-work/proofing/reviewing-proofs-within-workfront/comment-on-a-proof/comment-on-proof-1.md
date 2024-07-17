@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Comentar en una prueba
+title: Comentario sobre una prueba
 description: Los comentarios le permiten proporcionar comentarios sobre el contenido y colaborar con otros usuarios en el visor de pruebas.
 author: Courtney
 feature: Digital Content and Documents
@@ -13,14 +13,14 @@ ht-degree: 0%
 
 ---
 
-# Comentar en una prueba
+# Comentario sobre una prueba
 
 Los comentarios le permiten proporcionar comentarios sobre el contenido y colaborar con otros usuarios en el visor de pruebas.
 
-Al etiquetar usuarios en comentarios en una prueba, los usuarios que puede etiquetar pueden variar según varios factores, como los permisos de usuario individuales y la pertenencia a la organización:
+Al etiquetar a los usuarios en comentarios de una prueba, es posible que los usuarios a los que puede etiquetar difieran según varios factores, como los permisos de usuario individuales y la pertenencia a la organización:
 
-* Si es el creador, propietario o tiene permisos específicos activados, puede etiquetar usuarios fuera del flujo de trabajo de prueba y compartir la prueba con ellos.
-* Si se le agregó a la prueba como usuario externo y es miembro de otro entorno con una cuenta de prueba diferente, solo puede etiquetar a esos usuarios del entorno original. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
+* Si es el creador de la prueba, el propietario o tiene permisos específicos habilitados, puede etiquetar a los usuarios fuera del flujo de trabajo de prueba y compartir la prueba con ellos.
+* Si se le añadió a la prueba como usuario externo y es miembro de otro entorno con una cuenta de prueba diferente, solo puede etiquetar a esos usuarios del entorno original. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisitos de acceso
 
@@ -31,47 +31,46 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o plan</p> <p>Plan heredado: Cualquiera (debe tener las pruebas habilitadas para el usuario)</p> </td> 
+   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Administrador o superior</td> 
+   <td>Responsable o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Función de prueba</td> 
-   <td>Revisor, Revisor y Aprobador, Moderador, Autor</td> 
+   <td>Revisor, Revisor y aprobador, Moderador, Autor</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con el administrador de Workfront o Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
-## Comentar en una prueba
+## Comentario sobre una prueba
 
-1. Vaya al proyecto, la tarea o el problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la prueba que necesita y haga clic en **Abrir prueba**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. En la parte superior del visor de pruebas, haga clic en **Añadir comentario**.
-1. (Condicional) Si se trata de una prueba de vídeo, reproduzca la prueba de vídeo y haga clic en **Añadir comentario** en el punto del vídeo en el que desea que el comentario se realice con los cabezales de reproducción
+1. En la parte superior del visor de revisión, haga clic en **Agregar comentario**.
+1. (Condicional) Si es una prueba de vídeo, reproduzca la prueba de vídeo y, a continuación, haga clic en **Agregar comentario** en el punto del vídeo en el que desee que se muestre el comentario con los cabezales de reproducción
 
    >[!TIP]
    >
-   >1. Para facilitar el uso, ponga en pausa el vídeo y haga clic en la línea temporal en la que desee realizar el comentario.
+   >1. Para facilitar el uso, ponga en pausa el vídeo y haga clic en la línea de tiempo en la que desee el comentario.
    >1. Para obtener una mejor precisión, puede hacer clic en los valores situados encima de los cabezales de reproducción y escribir nuevos valores.
-   >1. Para comentar sobre un rango de material de archivo de vídeo, arrastre los cabezales de reproducción a izquierda y derecha en la cronología para indicar el rango de material en el que desee comentar.
-   >1. Para comentar sobre un rango de material de archivo de vídeo, arrastre los cabezales de reproducción a izquierda y derecha en la cronología para indicar el rango de material en el que desee comentar.
+   >1. Para comentar un rango de material de archivo de vídeo, arrastre los cabezales de reproducción a la izquierda y a la derecha en la cronología para indicar un rango de material de archivo sobre el que desee comentar.
+   >1. Para comentar un rango de material de archivo de vídeo, arrastre los cabezales de reproducción a la izquierda y a la derecha en la cronología para indicar un rango de material de archivo sobre el que desee comentar.
 
-
-1. Para llamar la atención sobre una ubicación específica de la prueba, haga clic en la herramienta de marcado que desee en la barra de herramientas y, a continuación, marque el área de la prueba en la que desea realizar un comentario:
+1. Para llamar la atención sobre una ubicación específica en la prueba, haga clic en la herramienta de marcado que desee en la barra de herramientas y, a continuación, marque el área de la prueba sobre la que desee comentar:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,19 +78,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Dibujar una línea a mano alzada</strong> </td> 
+      <td role="rowheader"><strong>Draw tiene una línea a mano alzada</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Permite agregar una línea a mano alzada en el área seleccionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Dibujar una línea</strong> </td> 
+      <td role="rowheader"><strong>Draw una línea</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Permite dibujar una línea en el área seleccionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Dibujar una flecha</strong> </td> 
+      <td role="rowheader"><strong>Draw y flecha</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
-      <td>Permite añadir una flecha al área seleccionada.</td> 
+      <td>Permite agregar una flecha a un área seleccionada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Resaltar un área</strong> </td> 
@@ -99,34 +98,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td>Resalta el área seleccionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Dibujar un rectángulo</strong> </td> 
+      <td role="rowheader"><strong>Draw es un rectángulo</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Permite dibujar un rectángulo alrededor de un área.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Polilínea</strong> </td> 
       <td> <img src="assets/polyline.png"> </td> 
-      <td> <p>Dibuja una secuencia conectada de segmentos de línea que puede dejar abierta o cerrada como forma. Puede mover o eliminar cualquiera de los puntos que agregue. </p> <p>Esta herramienta es útil para trabajar con imágenes técnicas y arquitectónicas.</p> </td> 
+      <td> <p>Dibuja una secuencia conectada de segmentos de línea que se pueden dejar abiertos o cerrados como forma. Puede mover o eliminar cualquiera de los puntos añadidos. </p> <p>Esta herramienta es útil para trabajar con imágenes técnicas y arquitectónicas.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Cambiar el color, el grosor o la opacidad del marcado</strong> </td> 
+      <td role="rowheader"><strong>Cambiar color, grosor u opacidad de marcado</strong> </td> 
       <td> <img src="assets/change-color.png"> </td> 
       <td>Permite cambiar el color, el grosor y la opacidad de las herramientas de marcado.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Texto</strong> </td> 
       <td> <img src="assets/copy-of-text.png"> </td> 
-      <td> <p>Esta herramienta aparece a la izquierda de las otras herramientas cuando la prueba es un documento basado en texto. Proporciona herramientas de marcado para comentar texto en pruebas. <br></p> <p>Al hacer clic en esta herramienta y seleccionar texto en la prueba, aparecerán las opciones de anotación debajo del texto seleccionado.<br></p> </td> 
+      <td> <p>Esta herramienta aparece a la izquierda de las demás herramientas cuando la prueba es un documento basado en texto. Proporciona herramientas de marcado para comentar texto en pruebas. <br></p> <p>Al hacer clic en esta herramienta y seleccionar texto en la prueba, aparecen opciones de anotación debajo del texto seleccionado.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. En las pruebas estáticas, puede marcar varias áreas en varias páginas para un comentario. Por ejemplo, si desea hacer el mismo comentario en varias páginas, seleccione un área en una página y, a continuación, vaya a la página siguiente donde desee hacer el mismo comentario y seleccione un área allí. (Esto solo se aplica a las herramientas de marcado de anotaciones normales, no a las herramientas de marcado de texto).
-1. Escriba el comentario en la **Añadir comentario** a la derecha.
-1. (Opcional) Para etiquetar a otro usuario en el comentario y agregarlo al flujo de trabajo de la prueba, escriba @ en el cuadro de comentarios, después escriba el nombre del usuario o la dirección de correo electrónico y seleccione el usuario en el menú que aparece. Para obtener más información, consulte [Etiquetar usuarios para compartir una prueba](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
+1. En las pruebas estáticas, puede marcar varias áreas en varias páginas para un comentario. Por ejemplo, si desea hacer el mismo comentario en varias páginas, seleccione un área de una página y vaya a la página siguiente donde desee hacer el mismo comentario y seleccione un área allí. (Esto se aplica sólo a las herramientas de marcado de anotaciones normales, no a las herramientas de marcado de texto).
+1. Escriba su comentario en el cuadro **Agregar comentario** de la derecha.
+1. (Opcional) Para etiquetar a otro usuario en el comentario y agregarlo al flujo de trabajo de la prueba, escriba @ en el cuadro de comentarios, luego escriba el nombre o la dirección de correo electrónico del usuario y seleccione el usuario en el menú que aparece. Para obtener más información, consulte [Etiquetar usuarios para compartir una revisión](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Opcional) Para adjuntar un archivo a un comentario, realice una de las acciones siguientes:
 
-   * Haga clic en el icono de clip en la esquina inferior derecha del comentario y, a continuación, busque y seleccione el archivo que desea cargar.
+   * Haga clic en el icono de clip de papel en la esquina inferior derecha del comentario y, a continuación, busque y seleccione el archivo que desea cargar.
    * Arrastre un archivo desde una ubicación del equipo y suéltelo en el área de comentarios.
 
-1. Haga clic en **Publicación**.
+1. Haga clic en **Post**.

@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 42%
+source-wordcount: '487'
+ht-degree: 39%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | Identificador |   |   |   |   |   | AÑADIR |
 |   |   |   |   |   |   | RECUENTO  |
-|   |   |   |   |   |   | ELIMINAR  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | EDITAR  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | INFORME  |
@@ -54,7 +54,7 @@ ht-degree: 42%
 | Identificador |   |   |   |   |   | RECUENTO |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | INFORME  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | BUSCAR  |
 
 {style="table-layout:auto"}
 
@@ -64,11 +64,11 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | Identificador |   |   |   |   |   | AÑADIR |
 |   |   |   |   |   |   | RECUENTO |
-|   |   |   |   |   |   | ELIMINAR  |
+|   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | EDITAR  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | INFORME  |
-|   |   |   |   |   |   | SEARCH  |
+|   |   |   |   |   |   | BUSCAR  |
 
 {style="table-layout:auto"}
 
@@ -109,7 +109,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 * Las eliminaciones se indican con texto tachado
 * Los cambios se enumeran en la nota después de la tabla
 
-### Ruta de aprobación
+### Aprobación
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -134,7 +134,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>`se ha agregado el validador LESS_THAN_EQUAL
+`<sup>1</sup>`se agregó el validador LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -150,11 +150,11 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| name `<sup>1</sup>` |   |   |   |   |   |   |
+| nombre `<sup>1</sup>` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en possibleValues
+<sup>1</sup> cambios en possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -191,7 +191,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en possibleValues
+<sup>1</sup> cambios en possibleValues
 
 Gasto
 
@@ -218,7 +218,7 @@ Gasto
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en possibleValues
+<sup>1</sup> cambios en possibleValues
 
 ### OpTask
 
@@ -228,7 +228,7 @@ Gasto
 
 {style="table-layout:auto"}
 
-<sup>1</sup> El tipo cambió de nulo a booleano
+El tipo <sup>1</sup> cambió de nulo a booleano
 
 ### SecciónPortal
 
@@ -274,7 +274,7 @@ Gasto
 
 {style="table-layout:auto"}
 
-<sup>1</sup>se agregó validador de CURRENCY
+<sup>1</sup>AGREGÓ MONEDA DE validador
 
 ### Tarea
 
@@ -296,7 +296,7 @@ Gasto
 
 {style="table-layout:auto"}
 
-<sup>1</sup> se ha agregado el validador LESS_THAN
+<sup>1</sup> agregó el validador LESS_THAN
 
 ### AsignaciónEquipo
 
@@ -360,7 +360,7 @@ Gasto
 
 {style="table-layout:auto"}
 
-<sup>1</sup> El tipo cambió de nulo a booleano
+El tipo <sup>1</sup> cambió de nulo a booleano
 
 ## Recursos eliminados {#removed-resources}
 
@@ -370,7 +370,7 @@ Gasto
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | AÑADIR  |
 | budgetHours |   |   |   |   |   | RECUENTO  |
-| Identificador |   |   |   |   |   | ELIMINAR  |
+| Identificador |   |   |   |   |   | DELETE  |
 | plannedBudgetedHours |   |   |   |   |   | EDITAR  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | INFORME  |

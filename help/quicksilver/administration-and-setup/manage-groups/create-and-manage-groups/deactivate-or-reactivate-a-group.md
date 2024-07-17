@@ -52,12 +52,12 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 >
 >Si necesita reactivar uno de ellos, puede hacerlo después de realizar una de las siguientes acciones:
 >
->* Elimínelo de su grupo principal. Para obtener más información, consulte la sección [Eliminar un subgrupo de su grupo principal y convertirlo en un grupo de nivel superior](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) en el artículo [Administración de un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Elimínelo de su grupo principal. Para obtener más información, vea la sección [Quitar un subgrupo de su grupo principal y convertirlo en un grupo de nivel superior](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) en el artículo [Administrar un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
->* Muévalo a un grupo activo. Para obtener más información, consulte la sección [Crear, mover, ver, editar, copiar, cambiar el nombre, exportar o eliminar un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) en el artículo [Administración de un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Muévalo a un grupo activo. Para obtener más información, vea la sección [Crear, mover, ver, editar, copiar, cambiar el nombre, exportar o eliminar un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) en el artículo [Administrar un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, seleccione **Grupos**.
 
@@ -65,25 +65,25 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 1. Haga clic en el nombre del grupo para abrir su página.
 
-1. Haga clic en el menú Más ![](assets/more-icon.png) junto al nombre del grupo y haga clic en **Desactivar** o **Reactivar**.
+1. Haga clic en el menú Más ![](assets/more-icon.png) junto al nombre del grupo y, a continuación, haga clic en **Desactivar** o **Reactivar**.
 
    >[!NOTE]
    >
    >La opción Está activo (Reactivar en Vista previa) no está disponible si el grupo es un subgrupo de un grupo desactivado. Antes de poder reactivarlo, debe eliminarlo de su grupo principal o moverlo a un grupo que esté activo, tal como se describe en la nota importante anterior.
 
-1. (Condicional) Si va a desactivar el grupo, haga clic en **Desactivar** en el **Desactivar grupo** que se muestra.
+1. (Condicional) Si está desactivando el grupo, haga clic en **Desactivar** en el cuadro **Desactivar grupo** que aparece.
 
 ## Consideraciones para grupos inactivos
 
-Tenga en cuenta lo siguiente en relación con un grupo que desactive desactivando la opción Está activo que se explica en la sección [Desactivar o reactivar un grupo](#View) en este artículo.
+Tenga en cuenta lo siguiente en relación con un grupo que desactive deshabilitando la opción Está activo, como se explica en la sección [Desactivar o reactivar un grupo](#View) de este artículo.
 
 * Al desactivar un grupo también se desactivan todos los subgrupos por debajo de él. Esto incluye los subgrupos que se agregan después de desactivarlos.
 
   Para obtener información sobre cómo reactivar un subgrupo en esta situación, consulte [Acerca de la reactivación de un subgrupo debajo de un grupo principal inactivo](#about-reactivating-a-subgroup-below-an-inactive-parent-group) en este artículo.
 
-* Si va al área Grupos en Configuración, sólo verá los grupos activos en la lista porque Activo es el filtro predeterminado ![](assets/filter-nwepng.png) por él. Si desea ver todos los grupos que administra, incluidos los inactivos, puede utilizar el filtro Todos. O utilice el filtro Inactivo para enumerar solo los inactivos.
+* Cuando vaya al área Grupos en la configuración, solo verá los grupos activos en la lista, ya que Activo es el filtro predeterminado ![](assets/filter-nwepng.png) para ella. Si desea ver todos los grupos que administra, incluidos los inactivos, puede utilizar el filtro Todos. O utilice el filtro Inactivo para enumerar solo los inactivos.
 
-  Para obtener más información sobre los filtros de las listas, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obtener más información sobre los filtros de las listas, vea [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * La desactivación de un grupo no cambia lo siguiente:
 
@@ -102,10 +102,10 @@ Tenga en cuenta lo siguiente en relación con un grupo que desactive desactivand
 
 Al desactivar un grupo también se desactivan todos los subgrupos por debajo de él. Si necesita reactivar uno de los subgrupos en un grupo inactivo, puede hacer una de las dos cosas:
 
-* Mueva el subgrupo a un grupo activo. A continuación, habilite la opción Está activo para el grupo movido, como se explica en la sección [Desactivar o reactivar un grupo](#View) en este artículo.
+* Mueva el subgrupo a un grupo activo. A continuación, habilite la opción Está activo para el grupo movido, como se explica en la sección [Desactivar o reactivar un grupo](#View) de este artículo.
 
-  Para obtener instrucciones sobre cómo mover un grupo, consulte [Mover un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+  Para obtener instrucciones sobre cómo mover un grupo, vea [Mover un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
 
-* Eliminar el subgrupo de su grupo principal (lo que lo convierte en un grupo de nivel superior). A continuación, habilite la opción Está activo para el grupo movido, como se explica en la sección [Desactivar o reactivar un grupo](#View) en este artículo.
+* Eliminar el subgrupo de su grupo principal (lo que lo convierte en un grupo de nivel superior). A continuación, habilite la opción Está activo para el grupo movido, como se explica en la sección [Desactivar o reactivar un grupo](#View) de este artículo.
 
-  Para obtener instrucciones sobre cómo quitar un subgrupo de su grupo principal, consulte la sección [Eliminar un subgrupo de su grupo principal y convertirlo en un grupo de nivel superior](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) en el artículo [Administración de un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Para obtener instrucciones sobre cómo quitar un subgrupo de su grupo principal, vea la sección [Quitar un subgrupo de su grupo principal y convertirlo en un grupo de nivel superior](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) en el artículo [Administrar un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).

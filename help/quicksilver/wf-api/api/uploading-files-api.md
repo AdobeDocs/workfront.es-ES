@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Puede cargar archivos mediante las API de Workfront con herramientas de API como Postman o con comandos cURL simples.
 
-Para cargar documentos, consulte las instrucciones de **Cargar documentos** en Workfront [Comportamiento de publicación](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). También puede utilizar estas mismas instrucciones para las solicitudes cURL.
+Para cargar documentos, consulte las instrucciones de **Carga de documentos** en Workfront [Comportamiento de Post](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). También puede utilizar estas mismas instrucciones para las solicitudes cURL.
 
 **Cuando utilice herramientas API para cargar archivos, siga estas directrices:**
 
-* Utilice la opción de la herramienta API para cargar el archivo. Estos suelen ser un **Elegir archivo** en la pantalla de solicitud.
+* Utilice la opción de la herramienta API para cargar el archivo. Normalmente es un botón **Elegir archivo** en la pantalla de solicitud.
 
 * Utilice el método HTTP del POST para realizar la solicitud y cargar el archivo.
 

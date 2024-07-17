@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: Configuración de notificaciones por correo electrónico en [!DNL Workfront Proof]
+title: Configurar las notificaciones por correo electrónico en  [!DNL Workfront Proof]
 description: Las notificaciones por correo electrónico generadas desde Workfront Proof informan a los colaboradores sobre la actividad reciente en las pruebas, como comentarios, respuestas o decisiones.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 ---
 
-# Configuración de notificaciones por correo electrónico en [!DNL Workfront Proof]
+# Configurar las notificaciones por correo electrónico en [!DNL Workfront Proof]
 
 <!--Audited: 01/2024-->
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Las notificaciones por correo electrónico informan a los colaboradores sobre la actividad reciente en las pruebas, como comentarios, respuestas o decisiones.
 
 Puede establecer notificaciones por correo electrónico para los revisores en las siguientes áreas:
 
-Las notificaciones por correo electrónico para los revisores se pueden configurar en la página Nueva prueba, [!UICONTROL Nueva versión] y se gestionan en la [!UICONTROL Flujo de trabajo] de la sección [!UICONTROL Detalles de revisión] página. Para obtener más información, consulte [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Las notificaciones por correo electrónico para los revisores se pueden establecer en la página Nueva prueba, [!UICONTROL Nueva versión] y administrar en la sección [!UICONTROL Flujo de trabajo] de la página [!UICONTROL Detalles de la prueba]. Para obtener más información, consulte [Generar pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * La página Nueva prueba
-* El [!UICONTROL Nueva versión] página
-* El [!UICONTROL Flujo de trabajo] de la sección [!UICONTROL Detalles de revisión] página.
+* La página [!UICONTROL Nueva versión]
+* La sección [!UICONTROL Flujo de trabajo] de la página [!UICONTROL Detalles de la prueba].
 
-Para obtener más información, consulte [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Para obtener más información, consulte [Generar pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 
-* [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generación de pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [Generar pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generar pruebas en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Administrar detalles de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
@@ -48,9 +48,9 @@ Cada usuario también puede establecer su propia configuración de alertas por c
 >
 >Estos ajustes se sugieren cuando los usuarios crean las pruebas y agregan estos colaboradores. Sin embargo, solo son sugerencias, por lo que se pueden ajustar en cualquier momento durante el proceso de revisión y los cambios se aplican a toda la actividad realizada después del cambio. La configuración predeterminada de la prueba se anula en el nivel de prueba.
 
-Usuarios con [!UICONTROL Administrador] o [!UICONTROL Administrador de facturación] Los perfiles también pueden establecer los valores predeterminados de prueba para otros usuarios de su cuenta desde Configuración de cuenta.
+Los usuarios con perfiles de [!UICONTROL Administrador] o [!UICONTROL Administrador de facturación] también pueden establecer los valores predeterminados de prueba para otros usuarios de su cuenta desde Configuración de la cuenta.
 
-Para obtener información sobre los perfiles, consulte [Perfiles de permisos de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Para obtener información acerca de los perfiles, vea [Perfiles de permisos de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Requisitos de acceso
 
@@ -67,20 +67,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-## Configure los valores predeterminados de prueba en la configuración personal ([!DNL Workfront Proof] solo usuarios)
+## Configurar valores predeterminados de revisión en la configuración personal ([!DNL Workfront Proof] usuarios solamente)
 
 Puede configurar los ajustes de prueba para las pruebas que cree.
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Clic **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
+1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
 
-1. Haga clic en **[!UICONTROL Valores predeterminados de revisión]** pestaña.
-1. Clic **[!UICONTROL Configuración predeterminada de notificaciones por correo electrónico]** para expandirlo.
+1. Haga clic en la ficha **[!UICONTROL Valores predeterminados de revisión]**.
+1. Haga clic en **[!UICONTROL Configuración predeterminada de notificaciones por correo electrónico]** para expandirla.
 1. En la lista desplegable a la derecha de las dos configuraciones siguientes, seleccione una de las opciones explicadas en la tabla siguiente.
 
-   * **[!UICONTROL Alerta de correo electrónico predeterminada]**: Afecta a todas las pruebas que se comparten con usted. Esta configuración se puede sobrescribir en el nivel de prueba.
-   * **[!UICONTROL Alerta de correo electrónico predeterminada para nuevos revisores invitados]**: Afecta a los revisores que anteriormente no existían como contactos en la cuenta.
+   * **[!UICONTROL Alerta de correo electrónico predeterminada]**: Afecta a todas las revisiones compartidas con usted. Esta configuración se puede sobrescribir en el nivel de prueba.
+   * **[!UICONTROL Alerta de correo electrónico predeterminada para nuevos revisores invitados]**: afecta a los revisores que no existían anteriormente como contactos de su cuenta.
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Puede configurar los ajustes de prueba para las pruebas que cree.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Respuestas a mis comentarios]</td> 
-      <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener más información sobre los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder comentarios sobre la prueba</a>.</p></td> 
+      <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener información acerca de los comentarios, vea <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Decisiones]</td> 
@@ -112,11 +112,11 @@ Puede configurar los ajustes de prueba para las pruebas que cree.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Resumen diario]</td> 
-      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administración de notificaciones para comentarios y decisiones de prueba</a>.</p></td> 
+      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Sin correo electrónico]</td> 
-      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto resulta útil para una persona que se añade a una prueba solo con fines de referencia y no necesita que se le notifique ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
+      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,7 +129,7 @@ Puede configurar los ajustes de prueba para las pruebas que cree.
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Confirmación por correo electrónico cuando las pruebas estén listas]</td> 
-      <td>Especifique si desea recibir un correo electrónico de [!UICONTROL Proof made] al crear una prueba. Para obtener más información, consulte <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">Correo electrónico de [!UICONTROL Proof Made]</a></td> 
+      <td>Especifique si desea recibir un correo electrónico de [!UICONTROL Proof made] al crear una prueba. Para obtener más información, vea <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">El correo electrónico de [!UICONTROL Proof Made]</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Formato de correos electrónicos enviados a mí] </td> 
@@ -139,46 +139,46 @@ Puede configurar los ajustes de prueba para las pruebas que cree.
     </tbody> 
    </table>
 
-1. En **[!UICONTROL Configuración de mensajes]**, cambie cualquiera de las siguientes opciones:
+1. En **[!UICONTROL Configuración del mensaje]**, cambie cualquiera de las siguientes opciones:
 
    | Plantilla de prueba | Descripción |
    |---|---|
-   | **[!UICONTROL Plantilla del asunto de prueba]** | Se muestra en las páginas Nueva prueba, Nueva versión, Mensaje y Recordatorio. Se puede editar antes de enviarlo. |
-   | **[!UICONTROL Plantilla de mensaje de prueba]** | Se muestra en las páginas Nueva prueba, Nueva versión, Mensaje y Recordatorio. Se puede editar antes de enviarlo. |
+   | **[!UICONTROL Plantilla de asunto de revisión]** | Se muestra en las páginas Nueva prueba, Nueva versión, Mensaje y Recordatorio. Se puede editar antes de enviarlo. |
+   | **[!UICONTROL Plantilla de mensaje de revisión]** | Se muestra en las páginas Nueva prueba, Nueva versión, Mensaje y Recordatorio. Se puede editar antes de enviarlo. |
 
 ## Cambiar las alertas de correo electrónico de un destinatario
 
 Puede cambiar las alertas de correo electrónico de un destinatario determinado en una acción por lotes.
 
-1. Clic **[!UICONTROL Contactos]** en el panel de navegación izquierdo.
-1. Haga clic en **[!UICONTROL Más]** menú ![](assets/more-button-small.png) para el destinatario y haga clic en **[!UICONTROL Ver detalles del miembro]** en el menú desplegable.
+1. Haga clic en **[!UICONTROL Contactos]** en el panel de navegación izquierdo.
+1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-button-small.png) del destinatario y, a continuación, haga clic en **[!UICONTROL Ver detalles del miembro]** en el menú desplegable.
 
-1. Abra el **[!UICONTROL Elementos compartidos]** sección.
+1. Abra la sección **[!UICONTROL Elementos compartidos]**.
 1. Seleccione la casilla a la izquierda de cada elemento para el que desee cambiar la alerta de correo electrónico.
-1. Clic **[!UICONTROL Más]** sobre la lista de elementos compartidos y haga clic en **[!UICONTROL Cambiar alerta de correo electrónico]** en el menú desplegable.
+1. Haga clic en **[!UICONTROL Más]** sobre la lista de elementos compartidos y luego haga clic en **[!UICONTROL Cambiar alerta de correo electrónico]** en el menú desplegable.
 
 1. Cambie la alerta por correo electrónico y haga clic en **[!UICONTROL Enviar]**.
 
 ## Configurar valores predeterminados de prueba para un usuario
 
-Si es un [!DNL Workfront Proof] administrador, puede establecer valores predeterminados de prueba para los usuarios de su cuenta.
+Si es administrador de [!DNL Workfront Proof], puede establecer valores predeterminados de revisión para los usuarios de su cuenta.
 
-1. Clic **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de cuenta]**.
+1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la cuenta]**.
 
-1. Abra el **[!UICONTROL Usuarios]** pestaña.
-1. Abra el **[!UICONTROL Más]** menú ![More_button_small.png](assets/more-button-small.png) a la derecha del nombre del usuario.
+1. Abra la ficha **[!UICONTROL Usuarios]**.
+1. Abra el menú **[!UICONTROL Más]** ![More_button_small.png](assets/more-button-small.png) a la derecha del nombre del usuario.
 
-1. Clic **[!UICONTROL Ver detalles de los usuarios]** en el menú desplegable.
-1. En **[!UICONTROL Configuración]**, haga clic en **[!UICONTROL Configuración predeterminada de alertas de correo electrónico]** para expandirlo.
+1. Haga clic en **[!UICONTROL Ver detalles de los usuarios]** en el menú desplegable.
+1. En **[!UICONTROL Configuración]**, haga clic en **[!UICONTROL Configuración predeterminada de alertas de correo electrónico]** para expandirla.
 
 1. En la lista desplegable a la derecha de las dos configuraciones siguientes, seleccione una de las opciones explicadas en la tabla siguiente:
 
-   * **[!UICONTROL Alerta de correo electrónico predeterminada]**: Afecta a todas las pruebas que se comparten con usted. Esta configuración se puede sobrescribir en el nivel de prueba.
-   * **[!UICONTROL Alerta de correo electrónico predeterminada para nuevos revisores invitados]**: Afecta a los revisores que anteriormente no existían como contactos en la cuenta.
+   * **[!UICONTROL Alerta de correo electrónico predeterminada]**: Afecta a todas las revisiones compartidas con usted. Esta configuración se puede sobrescribir en el nivel de prueba.
+   * **[!UICONTROL Alerta de correo electrónico predeterminada para nuevos revisores invitados]**: afecta a los revisores que no existían anteriormente como contactos de su cuenta.
 
    >[!NOTE]
    >
-   >Si no elige una de las siguientes opciones para un usuario, [!DNL Workfront Proof] envía a los usuarios un resumen diario sobre la actividad de sus pruebas.
+   >Si no elige una de las siguientes opciones para un usuario, [!DNL Workfront Proof] envía a los usuarios un resumen diario de la actividad en sus pruebas.
 
    <table style="table-layout:auto">
     <col>
@@ -190,7 +190,7 @@ Si es un [!DNL Workfront Proof] administrador, puede establecer valores predeter
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Respuestas a mis comentarios]</td>
-      <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener más información sobre los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder comentarios sobre la prueba</a>.</p></td>
+      <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener información acerca de los comentarios, vea <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Decisiones]</td>
@@ -206,16 +206,16 @@ Si es un [!DNL Workfront Proof] administrador, puede establecer valores predeter
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Resumen diario]</td>
-      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administración de notificaciones para comentarios y decisiones de prueba</a>.</p></td>
+      <td>[!DNL Workfront] envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL Sin correo electrónico]</td>
-      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto resulta útil para una persona que se añade a una prueba solo con fines de referencia y no necesita que se le notifique ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td>
+      <td>[!DNL Workfront] no envía ninguna alerta por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es [!UICONTROL Daily summary] (también se ve como [!UICONTROL Not Set]). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td>
      </tr>
     </tbody>
    </table>
 
-1. En los restantes **[!UICONTROL Configuración predeterminada de alertas de correo electrónico]**, cambie cualquiera de las siguientes opciones:
+1. En los restantes **[!UICONTROL valores predeterminados de alertas de correo electrónico]**, cambie cualquiera de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -223,7 +223,7 @@ Si es un [!DNL Workfront Proof] administrador, puede establecer valores predeter
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Confirmación por correo electrónico cuando las pruebas estén listas]</td> 
-      <td>Especifique si desea recibir un correo electrónico de [!UICONTROL Proof made] al crear una prueba. Para obtener más información, consulte <a href="https://support.workfront.com/hc/en-us/article">Correo electrónico de [!UICONTROL Proof Made].</a></td> 
+      <td>Especifique si desea recibir un correo electrónico de [!UICONTROL Proof made] al crear una prueba. Para obtener más información, vea <a href="https://support.workfront.com/hc/en-us/article">El correo electrónico de [!UICONTROL Proof Made].</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Formato de correos electrónicos enviados a mí] </td> 

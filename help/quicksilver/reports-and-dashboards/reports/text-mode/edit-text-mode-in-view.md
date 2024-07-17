@@ -53,8 +53,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
-Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información acerca de los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,8 +64,8 @@ Antes de empezar a utilizar el modo de texto en un informe o una lista, asegúre
 
 Para obtener más información, consulte:
 
-* [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Edición del modo de texto en una vista
@@ -76,14 +76,14 @@ La edición de una vista mediante el modo de texto es idéntica para los informe
 >
 >Le recomendamos que genere la mayor parte posible de la vista en el modo estándar y luego la convierta al modo de texto para editarla.
 
-Para obtener información sobre la creación de vistas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obtener información sobre cómo generar vistas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-Para obtener información sobre cómo crear un informe, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener información sobre cómo crear un informe, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Realice una de las siguientes acciones:
 
-   1. Para acceder a la vista desde un informe, vaya al informe y haga clic en **Acciones de informe** > **Editar** > **Columnas (vista)** pestaña.
-   1. Para acceder a la vista desde una lista, vaya a la lista y, desde **Ver** , pase el ratón sobre la vista que desee modificar y haga clic en el icono **Editar** icono ![](assets/edit-icon.png).
+   1. Para obtener acceso a la vista desde un informe, vaya al informe y, a continuación, haga clic en **Acciones de informe** > **Editar** > pestaña **Columnas (vista)**.
+   1. Para acceder a la vista desde una lista, ve a la lista y, en el menú desplegable **Ver**, pasa el ratón sobre la vista que deseas modificar y haz clic en el icono **Editar** ![](assets/edit-icon.png).
 
       Se abre el generador de vistas.
 
@@ -91,17 +91,17 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
 
    O
 
-   Seleccione el **Columnas (vista)** de report builder y, a continuación, seleccione una columna.
+   Seleccione la ficha **Columnas (Ver)** del Report Builder y, a continuación, seleccione una columna.
 
    >[!TIP]
    >
    >Para editar una vista con el modo de texto, debe editar las columnas de una en una.
 
-1. Clic **Cambiar a modo de texto** en la esquina superior derecha del generador.
+1. Haga clic en **Cambiar al modo de texto** en la esquina superior derecha del generador.
 
    >[!NOTE]
    >
-   >Cuando edita una columna en modo de texto, Workfront agrega la variable `textmode=true` línea de código a la columna. Esto indica que la columna se modifica en modo de texto.
+   >Cuando edita una columna en modo de texto, Workfront agrega la línea de código `textmode=true` a la columna. Esto indica que la columna se modifica en modo de texto.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,15 +201,15 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
        </div>
 
    <div>
-      El <code>aggregator. </code>las líneas pueden contener un <code>valuefield </code>o una <code>valueexpression</code>.
+      Las <code>aggregator. </code>líneas pueden contener <code>valuefield </code>o <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Aplicar** si desea guardar los cambios y continuar editando la vista.
-1. Clic **Guardar + Cerrar** para guardar el informe.
+1. Haga clic en **Aplicar** si desea guardar los cambios y seguir editando la vista.
+1. Haga clic en **Guardar + Cerrar** para guardar el informe.
 
    O
 
-   Clic **Guardar vista** para guardar la vista en una lista.
+   Haga clic en **Guardar vista** para guardar la vista en una lista.

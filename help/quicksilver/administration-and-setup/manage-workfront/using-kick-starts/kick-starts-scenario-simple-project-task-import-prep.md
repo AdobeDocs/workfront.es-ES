@@ -40,7 +40,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
    | Gerente del proyecto | Jennifer Campbell |
    | Patrocinador de proyecto | Marc Lewis |
    | Grupo | Marketing |
-   | Compañía | *Su empresa* |
+   | Compañía | *SuCompañía* |
 
    {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
    | Gerente del proyecto | Pam Reynolds |
    | Patrocinador de proyecto | Marc Lewis |
    | Grupo | Marketing |
-   | Compañía | *Su empresa* |
+   | Compañía | *SuCompañía* |
 
    {style="table-layout:auto"}
 
@@ -62,7 +62,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
    | Gerente del proyecto | Jennifer Campbell |
    | Patrocinador de proyecto | Ray Andrews |
    | Grupo | IT |
-   | Compañía | *Su empresa* |
+   | Compañía | *SuCompañía* |
 
    {style="table-layout:auto"}
 
@@ -73,7 +73,7 @@ En este escenario se supone que ya se han importado los usuarios a Adobe Workfro
    | Gerente del proyecto | Pam Reynolds |
    | Patrocinador de proyecto | Ray Andrews |
    | Grupo | IT |
-   | Compañía | *Su empresa* |
+   | Compañía | *SuCompañía* |
 
    {style="table-layout:auto"}
 
@@ -85,7 +85,7 @@ Las tareas principales heredan la duración, el trabajo y el porcentaje completa
 
 >[!NOTE]
 >
->Las instrucciones proporcionadas en esta situación no son tan explícitas como las instrucciones paso a paso proporcionadas en [Escenario de Kick-Starts: preparación de Kick-Starts de la empresa, el grupo, el rol y el usuario](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Se supone que ya ha aprendido a buscar y copiar valores de las hojas Compañía y Grupo, por lo que se mencionarán estos pasos, pero no se describirán específicamente.
+>Las instrucciones proporcionadas en este escenario no son tan explícitas como las instrucciones paso a paso proporcionadas en [Escenario de Kick-Starts: preparación de empresa, grupo, función y Kick-Starts de usuario](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Se supone que ya ha aprendido a buscar y copiar valores de las hojas Compañía y Grupo, por lo que se mencionarán estos pasos, pero no se describirán específicamente.
 
 1. Configure.
 1. Importar usuarios.
@@ -286,23 +286,23 @@ Establezca los valores de los siguientes campos de proyecto:
 
 * **Establecer columna isNew**
 Introduzca TRUE en las filas 3 a 6 de la columna isNew.
-* **Establecimiento de ID únicos**
+* **Establecer ID únicos**
 Introduzca un ID único en cada fila para la columna de ID: normalmente, los enteros que comienzan en 1 funcionan bien al crear nuevos registros.
-* **Definir nombres de proyecto**
+* **Establecer nombres de proyecto**
 Escriba los nombres de cada proyecto en la columna setName.
-* **Establecer programación del proyecto**
+* **Establecer programación de proyecto**
 
   Introduzca el ID de la programación que desea que el proyecto utilice en el campo setScheduleID
 
-* **Establezca la fecha planificada de inicio del proyecto**
+* **Establecer la fecha planificada de inicio del proyecto**
 
   Escriba la fecha y la hora en la columna setPlannedStartDate con la hora y la fecha en que desea que comience el proyecto. Si se deja vacío, Workfront importa el proyecto con la fecha del día actual y una marca de tiempo de la medianoche de ese día según la zona horaria del explorador.
 
 * **Establecer números de tarea**
 Introduzca valores en la columna setTaskNumber para controlar el orden en que aparecerán las tareas en el plan del proyecto.
-* **Especifique las fechas del proyecto.**
+* **Proporcione fechas de proyecto.**
 Introduzca la fecha planificada de inicio de cada proyecto en la columna setPlannedStartDate.
-* **Establezca otros detalles necesarios.**
+* **Establecer otros detalles necesarios.**
 Complete otros detalles, como una descripción o el estado actual, según sea necesario. Busque los ID de grupo de cada proyecto en la hoja Grupo de grupo y escríbalos en la columna setGroupID de los proyectos respectivos. Busque el ID de compañía de los proyectos en la hoja Compañía de CMPY y escríbalo en la columna setCompanyID. Busque el ID de usuario de cada propietario de proyecto en la hoja de usuario USUARIO y escríbalo en la columna setOwnerID. Busque el ID de usuario para cada patrocinador del proyecto en la hoja de usuario USUARIO y escríbalo en la columna setSponsorID.
 
 ![](assets/im9.png)
@@ -315,7 +315,7 @@ Complete otros detalles, como una descripción o el estado actual, según sea ne
 
 Puede agregar información sobre las tareas del proyecto a medida que lo importa mediante los KickStart.
 
-Abra el archivo Workfront.xlsx que acaba de descargar. **Vaya a la hoja de tareas TAREA.**
+Abra el archivo Workfront.xlsx que acaba de descargar. **Ir a la hoja de tareas TAREA.**
 
 A menos que ya haya creado tareas en Workfront, esta hoja debe estar vacía.
 
@@ -329,15 +329,15 @@ La forma más sencilla de asignar tareas es un proyecto a la vez (especialmente 
 
 Establezca los valores de los siguientes campos de tarea:
 
-* **Establecimiento de ID**
+* **Set ID**
 Introduzca un ID único en cada fila para la columna de ID.
-* **Definir nombres**
+* **Nombres de conjunto**
 Introduzca los nombres de las tareas en la columna setName.
 * **Confirmar ID de proyecto**
 Introduzca el ID que ha definido para el proyecto Implementar Workfront; revise la hoja del proyecto PROJ para asegurarse de que es el ID correcto.
 * **Definir usuarios**
 Vaya a la hoja USER User para buscar el ID del usuario asignado a cada tarea e introduzca estos valores en las celdas respectivas de la columna setAssignedToID.
-* **Identificar relaciones de tarea**
+* **Identificar relaciones de tareas**
 Para las tareas 2 a 5, escriba un 1 en la columna setParentID. Para la tarea 9, escriba un 8 en la columna setParentID. En la columna setPredecessorString, escriba el número de tarea para cada tarea predecesora. En los casos en los que una tarea tiene varias predecesoras, como la tarea 8 en esta situación, deberá utilizar una coma para separar cada ID de tarea predecesora. Las predecesoras se pueden definir con retardos en las relaciones que no son de tipo Fin-Comienzo mediante el método abreviado descrito en el artículo Crear relaciones predecesoras.
 * **Establecer duración**
 Establezca la duración de cada tarea introduciendo el número de horas, días, semanas o meses para la tarea en el campo setDuration. A continuación, introduzca la unidad de duración en el campo setDurationUnit.
@@ -378,4 +378,4 @@ Establezca la duración de cada tarea introduciendo el número de horas, días, 
 
 * **Importar el archivo de Excel**
 
-  Siga las instrucciones indicadas en [Importación de datos en Adobe Workfront mediante una plantilla de KickStart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Siga las instrucciones proporcionadas en [Importar datos a Adobe Workfront mediante una plantilla de KickStart](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

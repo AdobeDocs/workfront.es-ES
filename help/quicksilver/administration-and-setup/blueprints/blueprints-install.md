@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Instalación de un modelo
-description: Puede instalar un modelo en el entorno de producción o un entorno de espacio aislado.
+title: Instalar un modelo
+description: Puede instalar un modelo en el entorno de producción o un entorno de zona protegida.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
 source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-# Instalación de un modelo
+# Instalar un modelo
 
-Puede instalar un modelo en el entorno de producción o un entorno de espacio aislado.
+Puede instalar un modelo en el entorno de producción o un entorno de zona protegida.
 
 ## Requisitos de acceso
 
@@ -33,12 +33,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licencia</strong></td> 
+   <td role="rowheader"><strong>Licencia de Adobe [!DNL Workfront]</strong></td> 
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+   <td> <p>[!UICONTROL Administrador del sistema]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,38 +53,38 @@ Puede instalar el paquete en cualquiera de los siguientes entornos:
         <td>La producción es su entorno en directo.</td>
     </tr>
     <tr>
-        <td><strong>Vista previa de espacio aislado</strong></td>
-        <td>La vista previa de espacio aislado es un entorno de prueba que sirve como réplica del entorno en directo y Workfront la actualiza todos los fines de semana. Todos los paquetes de soporte tienen acceso a la vista previa de Sandbox. Para obtener más información, consulte <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">La variable [!DNL Adobe Workfront] Entorno de espacio aislado de vista previa</a>.</td>
+        <td><strong>Vista previa de zona protegida</strong></td>
+        <td>La vista previa de zona protegida es un entorno de prueba que sirve como réplica del entorno en directo y Workfront la actualiza cada fin de semana. Todos los paquetes de asistencia tienen acceso a la vista previa de espacio aislado. Para obtener más información, vea <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">El entorno de espacio aislado de vista previa [!DNL Adobe Workfront]</a>.</td>
     </tr>
     <tr>
-        <td><strong>Simulador para pruebas 1 y 2</strong></td>
-        <td>El Simulador para pruebas de actualización personalizado es un entorno de prueba independiente que usted actualiza manualmente. Hay un coste adicional para obtener el Simulador para pruebas de actualización personalizado. Para obtener más información, consulte <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">La variable [!DNL Adobe Workfront] Entorno de espacio aislado de actualización personalizada</a>.</td>
+        <td><strong>Espacio aislado 1 y 2</strong></td>
+        <td>La zona protegida de actualización personalizada es un entorno de prueba independiente que actualiza manualmente. Hay un coste adicional para obtener la zona protegida de actualización personalizada. Para obtener más información, consulte <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">El entorno de espacio aislado de actualización personalizado de [!DNL Adobe Workfront]</a>.</td>
     </tr>
 </table>
 
 >[!TIP]
 >
->Se recomienda instalar primero el modelo en un entorno de entorno limitado. De este modo, puede probar el contenido del modelo y asegurarse de que es adecuado para su organización sin realizar cambios en los datos activos.
+>Se recomienda instalar primero el modelo en un entorno de zona protegida. De este modo, puede probar el contenido del modelo y asegurarse de que sea adecuado para su organización sin realizar cambios en los datos activos.
 
 >[!NOTE]
 >
->Ciertos modelos solo están disponibles para instalarse en el entorno de Vista previa para realizar pruebas. Si accede al contenido de solo vista previa en el entorno de producción, el Simulador para pruebas 1 o el Simulador para pruebas 2, el botón de instalación no está activo y puede que aparezca un mensaje de advertencia.\
->Además, la capacidad de conmutación de entorno es limitada al acceder al contenido solo de vista previa, incluso cuando se encuentra en el entorno de vista previa.
+>Algunos modelos solo están disponibles para su instalación en el entorno de vista previa con fines de prueba. Si accede al contenido de solo vista previa en el entorno de producción, en la zona protegida 1 o en la zona protegida 2, el botón de instalación no estará activo y podría ver un mensaje de advertencia.\
+>Además, la capacidad de cambiar de entorno es limitada al acceder a contenido de solo vista previa, incluso cuando se encuentra en el entorno de vista previa.
 
-## Instalación del modelo
+## Instalar el modelo
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y, a continuación, haga clic en **[!UICONTROL Planes]**.
-1. Busque el modelo que desea instalar. Puede filtrar por caso de uso, nivel de vencimiento, estado de instalación y escribir a la derecha.
-1. (Opcional) Haga clic en **[!UICONTROL Detalles]** para aprender cómo funciona el modelo.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y luego haga clic en **[!UICONTROL Modelos]**.
+1. Busque el modelo que desee instalar. Puede filtrar por caso de uso, nivel de madurez, estado de instalación y tipo en el lado derecho.
+1. (Opcional) Haga clic en **[!UICONTROL Detalles]** para conocer el funcionamiento del modelo.
 1. Haga clic en **[!UICONTROL Instalar]**.
-1. Elija instalar en el entorno de producción o en un entorno de simulación de pruebas.\
-   Para obtener más información, consulte la [¿Dónde debo instalar un modelo?](#where-should-i-install-a-blueprint) en este artículo.
-1. En el [!UICONTROL Configurar] , puede elegir realizar una de las siguientes acciones:
+1. Elija instalar en el entorno de producción o en un entorno de zona protegida.\
+   Para obtener más información, consulte [¿Dónde debo instalar un modelo?](#where-should-i-install-a-blueprint) sección de este artículo.
+1. En la página [!UICONTROL Configurar], puede elegir realizar una de las siguientes acciones:
 
-   * Instale el modelo tal cual. Para los tipos de modelo que no requieren ninguna configuración, esta es la única opción. Para los tipos de modelo que necesitan configuración, puede optar por instalar el modelo ahora y configurarlo más tarde. Haga clic en **[!UICONTROL Instalar tal cual]**.
-   * Configure el modelo antes de la instalación, para los modelos que requieren configuración. Realice las selecciones de configuración y haga clic en **[!UICONTROL Instalar modelo]**.\
+   * Instale el modelo tal cual. Para los tipos de modelo que no requieren ninguna configuración, esta es la única opción. Para los tipos de modelo que necesitan configuración, puede elegir instalar el modelo ahora y configurarlo más adelante. Haga clic en **[!UICONTROL Instalar tal cual]**.
+   * Configure el modelo antes de la instalación para los modelos que requieran configuración. Realice las selecciones de configuración y haga clic en **[!UICONTROL Instalar modelo]**.\
 
-      Para obtener más información, consulte [Configuración de un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
-Cuando se completa la instalación, un mensaje muestra una lista de los objetos específicos (como roles, equipos o grupos) que se instalaron correctamente con el modelo y cualquier objeto que no se instaló.
+     Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
+Cuando finaliza la instalación, un mensaje muestra una lista de los objetos específicos (como roles, equipos o grupos) que se instalaron correctamente con el modelo y los objetos que no se instalaron.
 
-Después de instalar el modelo, es posible que se necesiten algunas acciones adicionales para implementarlo completamente. Para obtener más información, consulte [Acciones que deben realizarse después de instalar un modelo](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+Después de instalar el modelo, es posible que se necesiten algunas acciones adicionales para implementarlo por completo. Para obtener más información, consulte [Acciones que se deben realizar después de instalar un modelo](../../administration-and-setup/blueprints/best-next-actions-after-install.md).

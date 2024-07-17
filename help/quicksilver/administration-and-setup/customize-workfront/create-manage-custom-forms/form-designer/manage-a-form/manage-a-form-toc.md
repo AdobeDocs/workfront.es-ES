@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Puede administrar los formularios personalizados existentes con el diseñador de formularios.
+description: Puede administrar los formularios personalizados existentes con Form Designer.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

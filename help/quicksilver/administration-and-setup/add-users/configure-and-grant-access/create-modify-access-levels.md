@@ -65,8 +65,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. Clic **Niveles de acceso** en el panel izquierdo.
-1. Seleccione el nivel de acceso que desee copiar y personalizar y, a continuación, haga clic en **Copiar**.
+1. Haga clic en **Niveles de acceso** en el panel izquierdo.
+1. Seleccione el nivel de acceso que quiera copiar y personalizar y luego haga clic en **Copiar**.
 
    O
 
@@ -88,12 +88,12 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de licencia</td> 
-      <td>Asegúrese de que la licencia seleccionada aquí sea la que esté más estrechamente asociada al tipo de nivel de acceso que está creando o editando. La licencia seleccionada determina qué configuración está disponible para el nivel de acceso. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Información general sobre nuevas licencias</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Resumen de licencias</a>.</td> 
+      <td>Asegúrese de que la licencia seleccionada aquí sea la que esté más estrechamente asociada al tipo de nivel de acceso que está creando o editando. La licencia seleccionada determina qué configuración está disponible para el nivel de acceso. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Información general sobre nuevas licencias</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Información general sobre licencias</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional) Si **Standard** o **Plan** está seleccionado en la **Tipo de licencia** , desplácese hasta la sección **Permitir acceso administrativo para** y seleccione permisos de acceso administrativo para los que tendrán este nivel de acceso.
+1. (Condicional) Si **Estándar** o **Plan** está seleccionado en el cuadro **Tipo de licencia**, desplácese hasta la sección **Permitir acceso administrativo para** y seleccione permisos de acceso administrativo para los que tendrán este nivel de acceso.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
         <li>Agregar nuevos roles</li> 
         <li>Editar tarifas de facturación y de costo de rol</li> 
        </ul> 
-       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario de Standard o Planner con acceso administrativo a las funciones del puesto, consulte <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Usuarios estándar o planificadores con acceso administrativo a los roles</a>.</p>
+       <p>Para obtener información importante sobre el acceso a los datos financieros disponibles para un usuario de Standard o Planner con acceso administrativo a los roles, consulte <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Usuarios de Standard o Planner con acceso administrativo a los roles</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     </tbody> 
    </table>
 
-1. Clic **Establecer restricciones adicionales**, y establezca cualquiera de las siguientes restricciones para el nivel de acceso.
+1. Haga clic en **Establecer restricciones adicionales** y, a continuación, establezca cualquiera de las restricciones siguientes para el nivel de acceso.
 
    >[!IMPORTANT]
    >
@@ -168,7 +168,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <tbody> 
      <tr> 
       <td role="rowheader">Nunca dar acceso a todo el proyecto al asignar una tarea o un problema</td> 
-      <td> Evita que los usuarios asignados a tareas o problemas también obtengan permisos en el proyecto principal, aunque los permisos del proyecto lo permitan.<p>Para obtener más información sobre cómo configurar los permisos en un proyecto, consulte la sección <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> en el artículo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar proyectos</a>.</p></td> 
+      <td> Evita que los usuarios asignados a tareas o problemas también obtengan permisos en el proyecto principal, aunque los permisos del proyecto lo permitan.<p>Para obtener más información acerca de cómo configurar los permisos en un proyecto, vea la sección <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> en el artículo <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar proyectos</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Nunca heredar el acceso a documentos de proyectos, tareas, problemas, etc.</td> 
@@ -176,11 +176,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader">Ver solamente las actualizaciones en las cuales se les haya incluido en la conversación</td> 
-      <td> Permite a los usuarios ver solo comentarios donde se ha incluido su nombre o el nombre de su equipo. <p> <p><b>NOTA</b>: Esto evita que los usuarios se suscriban a los elementos de Workfront. Para obtener más información sobre la suscripción a elementos, consulte <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Suscribirse a elementos en Adobe Workfront</a>.</p> </p> </td> 
+      <td> Permite a los usuarios ver solo comentarios donde se ha incluido su nombre o el nombre de su equipo. <p> <p><b>NOTA</b>: Esto evita que los usuarios se suscriban a elementos en Workfront. Para obtener más información acerca de la suscripción a elementos, vea <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Suscribirse a elementos en Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir que los usuarios eliminen comentarios </td> 
-      <td> Impide que los usuarios eliminen los comentarios que realizan sobre los elementos.  <p><b>NOTA</b>: Nadie puede eliminar los comentarios de otros usuarios.</p> </td> 
+      <td> Impide que los usuarios eliminen los comentarios que realizan sobre los elementos.  <p><b>NOTA</b>: nadie puede eliminar los comentarios de otros usuarios.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ver solamente compañías, grupos y equipos a los que pertenecen</td> 
@@ -192,27 +192,27 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader">Nunca permitir que los usuarios eliminen anuncios</td> 
-      <td>Impide que los usuarios eliminen anuncios en el Centro de anuncios. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Envío de anuncios</a>.</td> 
+      <td>Impide que los usuarios eliminen anuncios en el Centro de anuncios. Para obtener más información, consulte <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Enviar anuncios</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condicional y opcional) Si el sistema Workfront está configurado para usuarios que pertenecen a varias empresas, limite la visibilidad a otros usuarios en función de la empresa a la que pertenezcan en la sección **Las personas de otras empresas solo deben ver a los usuarios de**.
+1. (Condicional y opcional) Si el sistema Workfront está configurado para usuarios que pertenecen a varias empresas, limite la visibilidad a otros usuarios en función de la empresa a la que pertenezcan en la sección **Las personas de otras empresas solo deben ver a los usuarios desde**.
 
-   Puede restringir el acceso de los usuarios para que solo vean usuarios de su propia compañía o de la compañía que designó como compañía principal. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios. Para obtener más información sobre la empresa principal, consulte [Crear y editar compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Puede restringir el acceso de los usuarios para que solo vean usuarios de su propia compañía o de la compañía que designó como compañía principal. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios. Para obtener más información acerca de la compañía principal, vea [Crear y editar compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
    >Si dos usuarios pertenecen a dos empresas diferentes, pero ambos pueden ver usuarios de la empresa principal, pueden ver el área de Actualizaciones asociada a la empresa principal.
 
-1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas del nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configuración del acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a las tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Haga clic en **Guardar**.
 
    Una vez creado el nivel de acceso, puede asignarlo a un usuario (a menos que sea un nivel de acceso de administrador del sistema).
 
-   Para obtener más información, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Para obtener más información, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Para obtener información sobre cómo un administrador de Adobe asigna un nivel de acceso de administrador del sistema a un usuario, consulte [Conceder a un usuario acceso administrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Para obtener información acerca de cómo un administrador de Adobe asigna un nivel de acceso de administrador del sistema a un usuario, vea [Conceder acceso administrativo completo a un usuario](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Usuarios estándar o planificadores con acceso administrativo a los roles {#planner-users}
 
@@ -220,4 +220,4 @@ Si concede a un usuario estándar o planificador acceso administrativo a los rol
 
 Posteriormente, si desactiva el acceso administrativo a los roles para el usuario, los roles de trabajo seguirán siendo visibles para el usuario porque la opción Editar tarifas de facturación y de coste del rol seguirá activada.
 
-Si esto sucede y necesita eliminar el acceso del usuario para ver los roles de trabajo, debe deshabilitar la configuración de permiso Editar tarifas de facturación y de costo de rol del usuario. Para obtener instrucciones, consulte [Concesión de acceso a los datos financieros](grant-access-financial.md).
+Si esto sucede y necesita eliminar el acceso del usuario para ver los roles de trabajo, debe deshabilitar la configuración de permiso Editar tarifas de facturación y de costo de rol del usuario. Para obtener instrucciones, consulte [Conceder acceso a datos financieros](grant-access-financial.md).

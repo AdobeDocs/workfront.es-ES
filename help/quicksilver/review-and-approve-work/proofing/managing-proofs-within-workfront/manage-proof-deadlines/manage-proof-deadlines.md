@@ -19,5 +19,5 @@ ht-degree: 0%
 
 * [Establecer una fecha límite para una revisión básica existente](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
 * [Agregar, editar o eliminar una fecha límite para una etapa](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
-* [Establecer fechas límites para revisores individuales](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
+* [Establecer plazos para revisores individuales](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
 * [Eliminar fechas límite de revisores individuales](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)

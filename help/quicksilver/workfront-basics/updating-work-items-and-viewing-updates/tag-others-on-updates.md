@@ -49,7 +49,7 @@ En lugar de incluir a esos usuarios en el objeto asignándolos a él o haciendo 
 
 * Los usuarios etiquetados en las actualizaciones deben habilitar una notificación personal en su perfil para que reciban la notificación por correo electrónico. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-  Para obtener información sobre cómo agregar actualizaciones a objetos de Workfront, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  Para obtener información sobre cómo agregar actualizaciones a objetos de Workfront, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Cuando un problema se convierte en un proyecto o tarea, las actualizaciones se copian en el nuevo proyecto o tarea, pero los usuarios etiquetados no. Para continuar la conversación, debe volver a etiquetar a los participantes.
 
@@ -87,22 +87,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Puede etiquetar a otros en las actualizaciones de las siguientes maneras:
 
-* **Automáticamente**: Cuando un usuario inicia un hilo de conversación, añade un comentario o añade una respuesta, se etiquetan automáticamente y se añaden al área de Etiquetar personas o equipos del cuadro de comentarios.
-* **Manualmente**: Cuando agrega manualmente un usuario al área de Etiquetar personas del cuadro de comentarios.
+* **Automáticamente**: Cuando un usuario inicia un subproceso, agrega un comentario o agrega una respuesta, se etiquetan automáticamente y se agregan al área de Etiquetado de personas o equipos del cuadro de comentarios.
+* **Manualmente**: Cuando agregue manualmente un usuario al área Etiquetar personas del cuadro de comentarios.
 
 También puede quitar usuarios etiquetados por error cuando edite o responda a un comentario.
 
-1. Comience a actualizar un elemento de trabajo como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Como propietario del comentario, se le etiqueta automáticamente y se le agrega al área Etiquetar personas o equipos del cuadro de comentarios.
+1. Empiece a actualizar un elemento de trabajo, tal como se describe en [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Como propietario del comentario, se le etiqueta automáticamente y se le agrega al área Etiquetar personas o equipos del cuadro de comentarios.
 
    >[!TIP]
    >
    >El propietario del comentario no puede ver su propio nombre en el área Etiquetar personas o equipos del cuadro de comentarios.
 
-1. En el **Etiquetar personas o equipos** , empiece a escribir el nombre del usuario o equipo que desea incluir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Etiquetar personas o equipos**, empiece a escribir el nombre del usuario o equipo que desee incluir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    O
 
-   Escriba el símbolo @ en la **Escribir un comentario** , empiece a escribir el nombre del usuario o equipo que desee incluir en la actualización y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+   Escriba el símbolo @ en el área **Escribir un comentario**, empiece a escribir el nombre del usuario o equipo que desee incluir en la actualización y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    > 
@@ -110,11 +110,11 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
    > 
    >Los usuarios deben estar asociados con al menos una función del trabajo para verla a medida que los etiqueta en una actualización.
    > 
-   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![Etiquetado de un usuario](assets/tag-others-unified-commenting-with-all-tab.png)
+   ![Etiquetar a un usuario](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Opcional) Para que la actualización sea privada, habilite **Privado para mi compañía** en la esquina inferior derecha del cuadro actualizar. Esto hace que la actualización sea visible solo para los usuarios de la compañía. El **Privado para mi compañía** Esta opción solo está disponible cuando se especifica una Compañía en el perfil de Workfront.
+1. (Opcional) Para que la actualización sea privada, habilite **Privado para mi empresa** en la esquina inferior derecha del cuadro de actualización. Esto hace que la actualización sea visible solo para los usuarios de la compañía. La opción **Privado para mi compañía** solo está disponible cuando se especifica una compañía en su perfil de Workfront.
 
    >[!NOTE]
    >
@@ -125,9 +125,9 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
 
    >[!NOTE]
    >
-   >Todos los usuarios y miembros del equipo enumerados en el campo &quot;Etiquetar personas o equipos&quot; reciben una notificación en la aplicación para la actualización y pueden recibir un correo electrónico, según la configuración de su notificación por correo electrónico. Los usuarios que se etiquetan a sí mismos en un comentario o respuesta reciben una notificación por ese comentario o respuesta y pueden ver su nombre en la lista como miembro del hilo durante el resto del hilo, pero no reciben otra notificación a menos que se vuelvan a etiquetar a sí mismos. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) y [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Todos los usuarios y miembros del equipo enumerados en el campo &quot;Etiquetar personas o equipos&quot; reciben una notificación en la aplicación para la actualización y pueden recibir un correo electrónico, según la configuración de su notificación por correo electrónico. Los usuarios que se etiquetan a sí mismos en un comentario o respuesta reciben una notificación por ese comentario o respuesta y pueden ver su nombre en la lista como miembro del hilo durante el resto del hilo, pero no reciben otra notificación a menos que se vuelvan a etiquetar a sí mismos. Para obtener más información, consulta [Modificar tus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) y [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Clic **Enviar**.\
+1. Haga clic en **Enviar**.\
    A los usuarios incluidos en la actualización se les concede automáticamente el permiso Ver al objeto y pueden ver y responder a las actualizaciones realizadas en el objeto.
 
    Los nombres de las entidades etiquetadas se muestran junto a sus avatares, con un máximo de dos entidades. Si se etiquetan más de dos entidades, se muestra el nombre de la primera, además de una serie de entidades adicionales.
@@ -136,9 +136,9 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
 
    Cuando se le etiqueta en el texto del comentario, su nombre se resalta en esos comentarios.
 
-   Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Para obtener información acerca de la funcionalidad adicional disponible al actualizar un elemento de trabajo, vea [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha del comentario y haga clic en **Editar**. Elimine cualquiera de los usuarios etiquetados y haga clic en **Enviar**.
+1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha del comentario y, a continuación, haga clic en **Editar**. Elimine cualquiera de los usuarios etiquetados y luego haga clic en **Enviar**.
 
    >[!IMPORTANT]
    >
@@ -193,7 +193,7 @@ You can manually tag users in the legacy Updates section.
    ![](assets/tagging-transparency-350x192.png)
 -->
 
-Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener información acerca de la funcionalidad adicional disponible al actualizar un elemento de trabajo, vea [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

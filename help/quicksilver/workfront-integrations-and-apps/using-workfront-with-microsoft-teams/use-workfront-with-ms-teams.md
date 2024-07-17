@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront for Microsoft Teams]: índice del artículo
+# [!DNL Adobe Workfront for Microsoft Teams]: índice de artículo
 
 <!--Audited: 01/2024-->
 
 Adobe Workfront ofrece una integración con Microsoft Teams. Este artículo contiene vínculos a instrucciones para instalar y configurar esta integración, así como a cómo utilizarla en su trabajo diario.
 
-* [[!DNL Adobe Workfront] Información general sobre para Microsofts Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
+* [Información general sobre [!DNL Adobe Workfront] para Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
 * [Instalar [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
-* [Acceso [!DNL Adobe Workfront] de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
-* [Buscar y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-* [Crear [!DNL Adobe Workfront] tareas de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
-* [Enviar [!DNL Adobe Workfront] solicitudes de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
+* [Acceder [!DNL Adobe Workfront] desde [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
+* [Buscar y compartir  [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
+* [Crear [!DNL Adobe Workfront] tareas a partir de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+* [Enviar  [!DNL Adobe Workfront] solicitudes de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
 * [Administrar [!DNL Adobe Workfront] notificaciones en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)

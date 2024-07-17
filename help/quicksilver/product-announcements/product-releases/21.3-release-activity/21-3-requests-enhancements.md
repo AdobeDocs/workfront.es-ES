@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de solicitudes realizadas con la versión 21.3 en el entorno de vista previa. Estas mejoras estaban disponibles en el entorno de producción en la semana del 21 de julio de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.3, consulte [Resumen de la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.3, consulte [Información general sobre la versión 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Buscar solicitudes por rutas recientes o buscando con una palabra clave
 
@@ -32,5 +32,5 @@ Para ayudarle a encontrar la cola de solicitudes correcta más rápido haciendo 
 
 Una ruta incluye la cola de solicitudes y todos los grupos de temas y temas de colas que haya seleccionado anteriormente al enviar una solicitud.
 
-Para obtener más información, consulte [Creación y envío de solicitudes de Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener más información, consulte [Crear y enviar solicitudes de Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 

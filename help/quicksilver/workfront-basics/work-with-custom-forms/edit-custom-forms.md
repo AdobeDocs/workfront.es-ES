@@ -3,20 +3,20 @@ product-area: projects;user-management
 keywords: editar,formularios,enriquecido,texto,especial,formato,campos,personalizado,información,personalizar,objetos
 navigation-topic: work-with-custom-forms
 title: Editar información en campos de formulario personalizados
-description: Puede editar información sobre un formulario personalizado después de adjuntarlo a un objeto. Para obtener información sobre cómo agregar formularios personalizados a objetos, consulte Agregar un formulario personalizado a un objeto.
+description: Puede editar la información de un formulario personalizado después de adjuntar el formulario a un objeto. Para obtener información sobre cómo agregar formularios personalizados a objetos, consulte Agregar un formulario personalizado a un objeto.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 3%
+source-wordcount: '1034'
+ht-degree: 0%
 
 ---
 
 # Editar información en campos de formulario personalizados
 
-Puede editar información sobre un formulario personalizado después de adjuntarlo a un objeto. Para obtener información sobre cómo agregar formularios personalizados a objetos, consulte [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Puede editar la información de un formulario personalizado después de adjuntar el formulario a un objeto. Para obtener información acerca de cómo agregar formularios personalizados a objetos, vea [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Requisitos de acceso
 
@@ -36,37 +36,37 @@ Debe tener lo siguiente:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Nivel de acceso*</td> 
-   <td> <p>Editar el acceso al objeto para el que desea editar el formulario personalizado</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar el acceso al objeto para el que desea editar el formulario personalizado</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Permisos de objeto</p> </td> 
    <td> 
     <ul> 
-     <li> <p>Permisos de contribución o superiores en el objeto para el que desea editar el formulario personalizado</p> </li> 
-     <li>Vea los permisos de los campos que desea editar. Para obtener información sobre los permisos de uso compartido para campos personalizados, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configuración del uso compartido para campos y widgets personalizados</a>.</li> 
+     <li> <p>Contribute o permisos superiores en el objeto para el que desea editar el formulario personalizado</p> </li> 
+     <li>Vea los permisos de los campos que desea editar. Para obtener información acerca de los permisos de uso compartido para campos personalizados, vea <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar el uso compartido para campos y widgets personalizados</a>.</li> 
      <li> <p>Editar permisos para las secciones del formulario en las que se encuentran los campos que desea editar</p> </li> 
-    </ul> <p>Para obtener información sobre cómo solicitar acceso adicional para objetos, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+    </ul> <p>Para obtener información sobre cómo solicitar acceso adicional para objetos, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Requisitos previos
 
 * El administrador de Workfront o un usuario de Plan con acceso administrativo a los formularios personalizados deben crear formularios personalizados en su entorno. Para obtener más información, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 * Debe tener formularios personalizados adjuntos a un objeto.
 
-  Para obtener información sobre cómo aplicar formularios personalizados a un objeto, consulte [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+  Para obtener información acerca de cómo aplicar formularios personalizados a un objeto, vea [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Edición de información en un formulario personalizado
 
-La edición de información en un formulario personalizado adjunto a un objeto es idéntica para todos los objetos. Para obtener información sobre qué objetos pueden tener un formulario personalizado, consulte [Información general sobre formularios personalizados](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+La edición de información en un formulario personalizado adjunto a un objeto es idéntica para todos los objetos. Para obtener información sobre qué objetos pueden tener un formulario personalizado, vea [Información general sobre formularios personalizados](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Vaya a un objeto cuya información desee editar en el formulario personalizado.
-1. Clic **`<Object type>`Detalles** en el panel izquierdo.
+1. Haga clic en **`<Object type>`detalles** en el panel izquierdo.
 
-   Por ejemplo, al editar información en un formulario personalizado de proyecto, haga clic en **Detalles del proyecto**.
+   Por ejemplo, cuando edite información en un formulario personalizado de proyecto, haga clic en **Detalles del proyecto**.
 
 1. Desplácese hasta el formulario personalizado. Cuando hay un formulario personalizado adjunto al objeto, el nombre del formulario se muestra como un área en la sección Detalles.
 1. Si es necesario, haga clic en la flecha ![](assets/expand-arrow-right.png) a la izquierda del nombre del formulario personalizado para expandirlo.
@@ -77,7 +77,7 @@ La edición de información en un formulario personalizado adjunto a un objeto e
 
    O
 
-   Si todavía no se ha introducido información en el formulario, haga clic en **Agregar+** para cualquier campo al que tenga acceso y empiece a introducir información.
+   Si todavía no se ha especificado información en el formulario, haga clic en **Agregar+** para cualquier campo al que tenga acceso y empiece a escribir información.
 
    ![](assets/plus-add-to-edit-info-350x180.png)
 
@@ -91,7 +91,7 @@ La edición de información en un formulario personalizado adjunto a un objeto e
    * Solo se puede aplicar formato a los campos de texto (negrita, cursiva o subrayado) si el usuario que ha creado el formulario los ha configurado como campos de texto con formato. No se puede dar formato a los campos de texto de una sola línea y a los campos de texto de párrafo.
    * Solo se puede actualizar la hora del día en un tipo de campo de fecha si el usuario que ha creado el formulario lo ha incluido al crear el campo.
 
-   Para obtener información sobre todos los tipos de campo, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Para obtener información acerca de todos los tipos de campo, vea [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Haga clic en **Guardar cambios**.
 
@@ -101,16 +101,16 @@ La edición de información en un formulario personalizado adjunto a un objeto e
    >
    >![](assets/nwe-required-custom-field.png)
 
-   Cuando alguien cambia datos en otro objeto al que se hace referencia mediante campos personalizados calculados en su objeto, los cambios no se reflejan automáticamente en su objeto. Para obtener información sobre la actualización manual de todos los campos personalizados calculados en el objeto, consulte [Volver a calcular todos los campos personalizados calculados para un objeto](#recalculate-all-calculated-custom-fields-for-an-object) en este artículo.
+   Cuando alguien cambia datos en otro objeto al que se hace referencia mediante campos personalizados calculados en su objeto, los cambios no se reflejan automáticamente en su objeto. Para obtener información acerca de cómo actualizar manualmente todos los campos personalizados calculados en el objeto, vea [Volver a calcular todos los campos personalizados calculados para un objeto](#recalculate-all-calculated-custom-fields-for-an-object) en este artículo.
 
    Cuando se modifican los campos dependientes de la página, los campos calculados del formulario personalizado se vuelven a calcular dinámicamente en tiempo real. Puede ver el nuevo valor de campo calculado sin guardar el formulario, pero en realidad no se aplica al formulario y al objeto hasta que no guarda los cambios. Esto se aplica a los campos calculados en los formularios predeterminados y a los formularios personalizados.
 
-   También puede actualizar manualmente todos los campos personalizados calculados para un objeto al editar el objeto de forma masiva junto con otros objetos de una lista. Para obtener instrucciones, consulte [Volver a calcular todos los campos personalizados calculados para varios objetos de una lista al editar los objetos](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) en este artículo.
+   También puede actualizar manualmente todos los campos personalizados calculados para un objeto al editar el objeto de forma masiva junto con otros objetos de una lista. Para obtener instrucciones, vea [Volver a calcular todos los campos personalizados calculados para varios objetos de una lista al editar los objetos](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) en este artículo.
 
 ## Volver a calcular todos los campos personalizados calculados para un objeto  {#recalculate-all-calculated-custom-fields-for-an-object}
 
 1. Vaya a la página principal del objeto cuyos campos personalizados desea volver a calcular.
-1. Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre del objeto y haga clic en **Recalcular expresiones**.
+1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre del objeto y, a continuación, haga clic en **Volver a calcular expresiones**.
 
    Esto vuelve a calcular todos los campos personalizados del formulario del objeto.
 
@@ -124,9 +124,9 @@ Puede recalcular manualmente los campos personalizados de varios objetos editán
 
 1. Vaya a una lista de objetos que contienen formularios personalizados con campos calculados.
 1. Seleccione los objetos cuyos campos personalizados calculados desee actualizar.
-1. Haga clic en **Icono Editar**.
-1. Clic **Forms personalizado** en el menú de la izquierda, seleccione **Volver a calcular expresiones personalizadas**.
-1. Clic **Guardar** **Cambios**.
+1. Haga clic en el **icono Editar**.
+1. Haga clic en **Forms personalizado** en el menú de la izquierda y, a continuación, seleccione **Volver a calcular expresiones personalizadas**.
+1. Haga clic en **Guardar** **Cambios**.
 
    Workfront calcula todos los campos personalizados de todos los objetos seleccionados.
 
@@ -137,7 +137,7 @@ Puede recalcular manualmente los campos personalizados de varios objetos editán
 >Para volver a calcular las expresiones personalizadas de forma masiva desde una lista de proyectos:
 >
 >1. Vaya a un informe o lista de proyectos y seleccione uno o varios proyectos.
->1. Haga clic en **Más** menú ![](assets/more-icon.png), luego haga clic en **Volver a calcular expresiones personalizadas**.
+>1. Haga clic en el menú **Más** ![](assets/more-icon.png) y, a continuación, haga clic en **Volver a calcular expresiones personalizadas**.
 >
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >

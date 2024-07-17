@@ -62,7 +62,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Por ejemplo, si tiene una cola de solicitudes para solicitudes de marketing, puede tener un grupo de temas de &quot;Campaña del día de la madre&quot;, con un grupo de temas de segundo nivel de &quot;Medios digitales&quot; y un grupo de temas de segundo nivel adicional de &quot;Medios impresos&quot;. A continuación, puede tener varios temas de la cola dentro de cada grupo de temas. Por ejemplo, &quot;Anuncio de banner&quot; y &quot;Blog&quot; pueden ser temas de cola para el grupo de temas &quot;Medios digitales&quot;.
 
-Para obtener más información sobre cómo crear colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información acerca de cómo crear colas de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!TIP]
 >
@@ -73,15 +73,15 @@ Para obtener más información sobre cómo crear colas de solicitudes, consulte 
 
 ## Crear grupos de temas
 
-Se recomienda crear Grupos de temas antes de crear un Tema de la cola. Sin embargo, se puede crear un grupo de temas dentro de en el Generador de temas de colas. Para obtener más información sobre la creación de temas de colas, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Se recomienda crear Grupos de temas antes de crear un Tema de la cola. Sin embargo, se puede crear un grupo de temas dentro de en el Generador de temas de colas. Para obtener más información acerca de cómo crear temas de colas, vea [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Para crear un grupo de temas:
 
 1. Vaya al proyecto que ha publicado como Cola de solicitudes de ayuda.\
-   Para obtener más información sobre cómo publicar un proyecto como cola de solicitudes de ayuda, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obtener más información sobre cómo publicar un proyecto como cola de solicitud de ayuda, vea [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Clic **Grupos de temas** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más**, entonces **Grupos de temas**.
-1. Clic **Nuevo grupo de temas**.
+1. Haga clic en **Grupos de temas** en el panel izquierdo. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Grupos de temas**.
+1. Haga clic en **Nuevo grupo de temas**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
@@ -89,8 +89,8 @@ Para crear un grupo de temas:
 
    * **Nombre**: el nombre es visible para los usuarios que envían solicitudes a esta cola de solicitudes.
    * **Descripción**: la descripción se muestra cuando los usuarios seleccionan el grupo de temas en el proceso de envío de una nueva solicitud.
-   * **Añadir a grupo de temas**: puede agregar el nuevo grupo de temas a un grupo de temas existente o puede agregarlo directamente al proyecto publicado como una cola de solicitudes de ayuda.
+   * **Agregar al grupo de temas**: puede agregar el nuevo grupo de temas a un grupo de temas existente o puede agregarlo directamente al proyecto publicado como cola de solicitudes de ayuda.
 
 1. Haga clic en **Guardar**.\
    Esto crea un nuevo grupo de temas en la cola de solicitudes. Ahora puede seleccionar categorías adicionales en el primer menú desplegable debajo de una Cola de solicitudes.\
-   Para obtener más información sobre el envío de solicitudes, consulte [Creación y envío de solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+   Para obtener más información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).

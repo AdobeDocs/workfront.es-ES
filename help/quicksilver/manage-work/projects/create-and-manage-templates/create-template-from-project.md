@@ -9,7 +9,7 @@ role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Después de guardar un proyecto existente como plantilla, puede utilizar la nuev
 >
 >Al guardar un proyecto como plantilla, las fechas reales de las tareas y del proyecto no se guardan para la plantilla.
 >
->Una plantilla y sus tareas no tienen fechas reales, sino una indicación de qué día (a partir de cuándo podría comenzar el proyecto futuro) podría comenzar una tarea y en qué día debería completarse la tarea. Al utilizar plantillas para crear proyectos futuros, los proyectos recibirán fechas reales. Para obtener más información, consulte [Creación de un proyecto](../create-projects/create-project.md).
+>Una plantilla y sus tareas no tienen fechas reales, sino una indicación de qué día (a partir de cuándo podría comenzar el proyecto futuro) podría comenzar una tarea y en qué día debería completarse la tarea. Al utilizar plantillas para crear proyectos futuros, los proyectos recibirán fechas reales. Para obtener más información, consulte [Crear un proyecto](../create-projects/create-project.md).
 
 ## Requisitos de acceso
 
@@ -48,21 +48,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a plantillas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a plantillas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores a un proyecto </p> <p>Los permisos de administración se obtienen en la plantilla después de crearla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos superiores a un proyecto </p> <p>Los permisos de administración se obtienen en la plantilla después de crearla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Crear plantilla a partir de proyecto
 
 1. Vaya al proyecto que desea guardar como plantilla.
-1. Haga clic en **Más** menú ![](assets/qs-more-icon-on-an-object.png), entonces **Guardar como plantilla**.
+1. Haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) y luego en **Guardar como plantilla**.
 1. Especifique la siguiente información para la plantilla:
 
    <table style="table-layout:auto"> 
@@ -92,21 +92,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. Clic **Administrar Forms** para quitar o reordenar los formularios. Para obtener información sobre cómo quitar y reordenar formularios personalizados en la plantilla, consulte [Formularios personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Haga clic en **Administrar Forms** para quitar o reordenar los formularios. Para obtener información sobre cómo quitar y reordenar formularios personalizados en la plantilla, consulte [Formularios personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Clic **Paso siguiente.**
-1. En el **Opciones** , active la casilla de verificación situada junto a la información que desee borrar de la plantilla.
+1. Haga clic en **Siguiente paso.**
+1. En la sección **Opciones**, active la casilla de verificación situada junto a la información que desee borrar de la plantilla.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Clic **Paso siguiente.**
-1. En el **Excluir** , seleccione cualquier tarea que desee excluir del proyecto.
+1. Haga clic en **Siguiente paso.**
+1. En la sección **Excluir**, seleccione las tareas que desee excluir del proyecto.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Clic **Finalizar y guardar plantilla.**
+1. Haga clic en **Finalizar y guardar plantilla.**
 
    La plantilla ahora aparece en la lista de plantillas disponibles y se puede adjuntar a un proyecto existente o utilizar para crear uno nuevo.
 

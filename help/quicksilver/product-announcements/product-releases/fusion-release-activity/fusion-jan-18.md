@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 18 de enero de 2021.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 ## Depuración de escenarios con la herramienta de desarrollo de Workfront Fusion
 
-Para facilitarle la depuración de sus escenarios, hemos creado una extensión para Chrome Workfront Fusion 2.0 DevTool. Con esta extensión, puede comprobar las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API. DevTool también incluye herramientas que le permiten modificar su escenario sin tener que modificar módulos o filtros uno por uno.
+Para facilitarle la depuración de sus escenarios, hemos creado una extensión Chrome Workfront Fusion 2.0 DevTool. Con esta extensión, puede comprobar las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API. DevTool también incluye herramientas que le permiten modificar su escenario sin tener que modificar módulos o filtros uno por uno.
 
-Para obtener instrucciones y descargar la herramienta de desarrollo de Workfront Fusion 2.0, consulte [Depuración de escenarios con la herramienta de desarrollo de Adobe Workfront Fusion](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
+Para obtener instrucciones y descargar la herramienta de desarrollo de Workfront Fusion 2.0, consulte [Escenarios de depuración con la herramienta de desarrollo de Adobe Workfront Fusion](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
 
 ## Módulos y conector de Azure Active Directory ya disponibles
 
@@ -41,7 +41,7 @@ Ahora puede utilizar Workfront Fusion para conectarse a sus aplicaciones de Azur
 * Buscar registros según los criterios especificados.
 * Realizar una llamada de API personalizada.
 
-Para obtener más información, consulte [Módulos de Azure Active Directory](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
+Para obtener más información, vea [Módulos de Azure Active Directory](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
 
 ## Ya están disponibles el conector y los módulos de Azure DevOps
 
@@ -55,7 +55,7 @@ Ahora puede utilizar Workfront Fusion para conectarse a sus aplicaciones de Azur
 * Recupere una lista de elementos de trabajo.
 * Realizar una llamada de API personalizada.
 
-Para obtener más información, consulte [Módulos de Azure DevOps](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+Para obtener más información, consulte [Módulos de DevOps de Azure](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
 
 ## Ya están disponibles el conector y los módulos Qualtrics
 

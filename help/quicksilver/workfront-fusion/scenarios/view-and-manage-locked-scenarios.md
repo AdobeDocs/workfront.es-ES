@@ -2,14 +2,14 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Administrar escenarios bloqueados en [!DNL Adobe Workfront Fusion]
-description: Administrar escenarios bloqueados en [!DNL Adobe Workfront Fusion]
+title: Administrar escenarios bloqueados en  [!DNL Adobe Workfront Fusion]
+description: Administrar escenarios bloqueados en  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,12 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</td> 
+   <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -74,6 +74,6 @@ Desbloquear manualmente un escenario puede provocar errores en las ejecuciones d
 >Desbloquear manualmente un escenario puede provocar errores en las ejecuciones de un escenario.
 
 1. Vaya a la página de detalles del escenario del escenario bloqueado.
-1. Clic **[!UICONTROL Opciones]** en la esquina superior derecha de la pantalla.
-1. Seleccionar **[!UICONTROL Desbloquear ejecución]**.
-1. Clic **[!UICONTROL Desbloquear]**.
+1. Haga clic en **[!UICONTROL Opciones]** en la esquina superior derecha de la pantalla.
+1. Seleccione **[!UICONTROL Desbloquear ejecución]**.
+1. Haga clic en **[!UICONTROL Desbloquear]**.

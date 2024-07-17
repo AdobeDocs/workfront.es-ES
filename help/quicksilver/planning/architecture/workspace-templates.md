@@ -31,13 +31,13 @@ role: User
 
 En Adobe Workfront Planning, un área de trabajo es una colección de tipos de registros que utiliza un equipo y representa el ciclo de vida del trabajo del equipo.
 
-Workfront Planning incluye un conjunto de plantillas para ayudarle a empezar con los tipos de registros y campos básicos al crear su espacio de trabajo. Para obtener información sobre la creación de espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+Workfront Planning incluye un conjunto de plantillas para ayudarle a empezar con los tipos de registros y campos básicos al crear su espacio de trabajo. Para obtener información acerca de cómo crear espacios de trabajo, vea [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 En este artículo se describen las plantillas de espacio de trabajo disponibles en Adobe Workfront Planning.
 
 ## Consideraciones sobre las plantillas de Adobe Workfront Planning
 
-* Cada plantilla viene con un conjunto de tipos de registros. Para obtener más información, consulte [Resumen de tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Cada plantilla viene con un conjunto de tipos de registros. Para obtener más información, vea [Información general sobre los tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Los tipos de registros de cada plantilla están organizados en las siguientes secciones:
 
    * Tipos de registros operativos
@@ -100,7 +100,7 @@ You must have the following:
 
 A continuación, se muestran las plantillas de espacio de trabajo de Workfront Planning y el número de campos que incluyen:
 
-* **Básico: gestión de marketing**: Ideal para organizaciones que establecen las bases de un sistema de marketing fundacional. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+* **Básico: Administración de marketing**: ideal para organizaciones que establecen la base de un sistema de marketing básico. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
@@ -111,7 +111,7 @@ A continuación, se muestran las plantillas de espacio de trabajo de Workfront P
       * **Marcas**: 6 campos
       * **Productos**: 5 campos
 
-* **Avanzado: Gestión de marketing**: adecuado para equipos listos para explorar estrategias de marketing más matizadas. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+* **Avanzado: Administración de marketing**: apropiado para equipos listos para explorar estrategias de marketing más matizadas. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
@@ -125,7 +125,7 @@ A continuación, se muestran las plantillas de espacio de trabajo de Workfront P
       * **Entregables**: 12 campos
       * **Marcas**: 6 campos
 
-* **Empresa: gestión de marketing**: Diseñado para organizaciones grandes o maduras con sistemas de marketing complejos. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+* **Empresa: administración de mercadotecnia**: diseñado para organizaciones grandes o maduras con sistemas de mercadotecnia complejos. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
@@ -138,14 +138,14 @@ A continuación, se muestran las plantillas de espacio de trabajo de Workfront P
 
       * **Productos**: 10 campos
       * **Entregables**: 18 campos
-      * **Audiencias de Target**: 8 campos
+      * **Audiencias de destino**: 8 campos
       * **Regiones**: 8 campos
       * **Subregiones**: 7 campos
       * **Socios**: 7 campos
       * **Casos de uso**: 7 campos
       * **Fases de Recorrido del cliente**: 3 campos
 
-* **Administración de ventas**: Puede crear un sistema de ventas completo que optimice su proceso de ventas y mejore la eficiencia. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+* **Administración de ventas**: puede crear un sistema de ventas completo que optimice su proceso de ventas y mejore la eficiencia. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
@@ -157,24 +157,24 @@ A continuación, se muestran las plantillas de espacio de trabajo de Workfront P
       * **Posible cliente**: 14 campos
       * **Contacto**: 12 campos
       * **Región**: 3 campos
-      * **Industria**: campo 2
+      * **Sector**: campo 2
       * **Centro de compras**: 1 campo
-      * **Producto/ servicio**: 1 campo
+      * **Producto/ Servicio**: 1 campo
       * **Competencia**: 1 campo
 
-* **Administración de productos**: Puede crear un proceso de administración de productos eficiente y estructurado con esta plantilla. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
+* **Administración de productos**: puede crear un proceso de administración de productos eficiente y estructurado mediante esta plantilla. La plantilla incluye los siguientes tipos de registro y número de campos, incluidos los campos conectados a otros tipos de registro:
 
    * Tipos de registros operativos:
 
       * **Tema**: 10 campos
       * **Iniciativa**: 10 campos
-      * **Épico**: 12 campos
-      * **Historia del usuario**: 11 campos
+      * **Épica**: 12 campos
+      * **Historia de usuario**: 11 campos
 
    * Taxonomías:
 
       * **Cliente**: 8 campos
       * **Sprint**: 9 campos
-      * **Equipo de productos**: 4 campos
-      * **Solicitudes de función**: 9 campos
-      * **Industria**: 2 campos
+      * **Equipo de producto**: 4 campos
+      * **Solicitudes de características**: 9 campos
+      * **Sector**: 2 campos

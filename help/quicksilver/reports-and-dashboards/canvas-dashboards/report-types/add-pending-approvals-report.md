@@ -5,7 +5,8 @@ title: Añadir un informe de aprobaciones pendientes a un panel de lienzo
 description: Se puede agregar a un panel de lienzo un informe de aprobaciones pendientes que incluya datos sobre las decisiones de aprobación pendientes y pasadas.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Se puede agregar a un panel de lienzo un informe de aprobaciones pendientes que incluya datos sobre las decisiones de aprobación pendientes y pasadas.
 
-Para obtener información general sobre cómo añadir y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Para obtener información general sobre cómo agregar y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Requisitos de acceso
 

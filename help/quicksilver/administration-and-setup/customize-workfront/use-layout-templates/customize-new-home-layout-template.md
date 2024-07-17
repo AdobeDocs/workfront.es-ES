@@ -31,13 +31,13 @@ Puede configurar lo siguiente:
 >
 >Cuando se guardan los cambios realizados en una plantilla de diseño, se cambiará la nueva página de inicio de los usuarios para que coincida con la plantilla y las selecciones de widgets existentes se colocarán en la parte inferior de la página. Aunque el usuario puede cambiar la posición de los widgets seleccionados por el administrador y cambiar su tamaño, no se pueden eliminar.
 
-Para obtener información sobre la nueva página Inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener información sobre la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-Para obtener información sobre la creación de plantillas de diseño, consulte [Creación y administración de plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información sobre plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información sobre cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -58,18 +58,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.
-Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Personalizar una nueva página de inicio con una plantilla de diseño
 
-1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Haga clic en la flecha hacia abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios**, luego haga clic en **Inicio Workspace**.
+1. Haga clic en la flecha abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Workspace particular**.
 
-1. En las pestañas que aparecen a la derecha, haga clic en **Diseño y diseño** para elegir y organizar los widgets y el fondo, o **Configuración del widget** para administrar la configuración de widgets individuales como filtros y grupos disponibles.
+1. En las pestañas que aparecen a la derecha, haz clic en **Diseño y diseño** para elegir y organizar los widgets y el fondo, o en **Configuración de los widgets** para administrar la configuración de widgets individuales como filtros y grupos disponibles.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,8 +79,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
       <td role="rowheader">Diseño y disposición</td> 
       <td>
       <p>Seleccione los widgets que estarán presentes en los espacios de trabajo de los usuarios, su posición y elija un fondo. Tenga en cuenta que, aunque los usuarios no pueden eliminar los widgets seleccionados, pueden moverlos y cambiarles el tamaño libremente, así como agregar widgets adicionales.</p>
-      <p>Esta pestaña funciona esencialmente como un pequeño espacio de trabajo nuevo en Inicio; como tal, se puede personalizar según los pasos descritos en <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Agregar, editar o quitar widgets en la nueva página de inicio</a>. Seleccione los widgets y organice el espacio de trabajo tal como desea que aparezca para los usuarios.</p>
-      <p>Para cambiar el fondo, siga los pasos que aparecen debajo de <b>Personalización de fondo</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Introducción a la nueva página de inicio</a>.</p>
+      <p>Esta ficha funciona esencialmente como un pequeño espacio de trabajo de Inicio; como tal, se puede personalizar según los pasos descritos en <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Agregar, editar o quitar widgets en la nueva página de inicio</a>. Seleccione los widgets y organice el espacio de trabajo tal como desea que aparezca para los usuarios.</p>
+      <p>Para cambiar el fondo, sigue los pasos de <b>Personalización del fondo</b> en <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Introducción a la nueva página de inicio</a>.</p>
       <p>
 
 >[!NOTE]
@@ -99,7 +99,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
         <li>Mis tareas</li>
         <li>Mis problemas</li>
       </ul>
-      <p>Una vez que haya seleccionado el widget que desea editar, las opciones disponibles se mostrarán a la derecha. Estas opciones incluyen <b>Filtros</b>, <b>Columnas</b>, y <b>Grupos</b>. Puede:</p>
+      <p>Una vez que haya seleccionado el widget que desea editar, las opciones disponibles se mostrarán a la derecha. Estas opciones incluyen <b>Filtros</b>, <b>Columnas</b> y <b>Grupos</b>. Puede:</p>
       <ul>
       <li><p><b>Seleccione y ordene los filtros, columnas o grupos disponibles para los usuarios:</b></p>
       <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios. Arrastre y suelte las opciones de la lista para establecer un orden.</li></p>

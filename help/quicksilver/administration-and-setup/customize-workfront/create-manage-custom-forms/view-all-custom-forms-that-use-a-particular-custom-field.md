@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Puede averiguar qué formularios personalizados utilizan un campo o widget personalizado que desee cambiar o eliminar. Es importante evaluar si esos formularios personalizados necesitarán ajustes para seguir funcionando correctamente o para seguir siendo útiles después de cambiar o eliminar el campo o el widget.
 
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recurso en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 
@@ -54,5 +54,5 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Forms personalizado**.
-1. Clic **Campos**, busque el campo o widget en el **Nombre** y, a continuación, vea la columna **Forms** para ver qué formularios personalizados utilizan el campo o el widget.
+1. Haga clic en **Campos**, busque el campo o widget en la columna **Nombre** y, a continuación, vea la columna **Forms** para ver qué formularios personalizados utilizan el campo o widget.
 1. (Opcional) Haga clic en el nombre de cualquiera de esos formularios personalizados para ir al formulario y tener en cuenta los cambios que puede necesitar realizar si modifica el campo o el widget.

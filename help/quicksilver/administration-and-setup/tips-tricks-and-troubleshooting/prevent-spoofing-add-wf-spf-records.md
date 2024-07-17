@@ -3,24 +3,24 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Evite la suplantación y añada [!DNL Adobe Workfront] Registros de SPF
-description: Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe añadir [!DNL Workfront] Registros de SPF en el cortafuegos. Debe trabajar con su equipo de TI para añadir registros SPF.
+title: Evitar la suplantación de identidad y agregar  [!DNL Adobe Workfront] registros SPF
+description: Si los usuarios no reciben  [!DNL Adobe Workfront] notificaciones por correo electrónico, debe agregar [!DNL Workfront] registros SPF al firewall. Debe trabajar con su equipo de TI para añadir registros SPF.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Evite la suplantación y añada [!DNL Adobe Workfront] Registros de SPF
+# Evitar la suplantación de identidad y agregar [!DNL Adobe Workfront] registros SPF
 
 ## Problema
 
-Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe añadir [!DNL Workfront] Registros de SPF en el cortafuegos. Debe trabajar con su equipo de TI para añadir registros SPF.
+Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe agregar [!DNL Workfront] registros SPF al firewall. Debe trabajar con su equipo de TI para añadir registros SPF.
 
 ## Requisitos de acceso
 
@@ -40,20 +40,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser un [!DNL Workfront] administrador. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de [!DNL Workfront]. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Solución
 
-Si ya agregó las direcciones IP a la lista de permitidos para el entorno de producción como se describe en [Configuración de la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) y los usuarios de siguen sin recibir correos electrónicos:
+Si ya agregó las direcciones IP a su lista de permitidos para su entorno de producción como se describe en [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) y los usuarios siguen sin recibir correos electrónicos:
 
 1. Añada el siguiente registro SPF al cortafuegos:
 
    *spf.workfront.com*
 
-   Esto agrega automáticamente todo [!DNL Workfront] Direcciones IP a su lista de permitidos en su cortafuegos y permite que todos los filtros de spam (que utilizan registros SPF) validen [!DNL Workfront] como remitentes válidos para su dominio.
+   Esto agrega automáticamente todas las direcciones IP de [!DNL Workfront] a la lista de permitidos en el firewall y permite que todos los filtros de correo no deseado (que usan registros SPF) validen los servidores de [!DNL Workfront] como remitentes válidos para su dominio.
 
    >[!NOTE]
    >
@@ -72,4 +72,4 @@ Si ya agregó las direcciones IP a la lista de permitidos para el entorno de pro
 
    Por ejemplo, &quot;v=spf1 a mx include: spf.workfront.com -all&quot;
 
-Si no puede añadir registros SPF al cortafuegos debido a la directiva de la empresa, colabore con su [!DNL Workfront] Representante de asistencia.
+Si no puede agregar registros SPF al firewall debido a la directiva de la compañía, comuníquese con el representante de soporte técnico de [!DNL Workfront].

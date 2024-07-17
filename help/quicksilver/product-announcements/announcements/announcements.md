@@ -25,4 +25,4 @@ Los siguientes son anuncios con los que puede que desee estar familiarizado:
 
 
 
-Para ver los anuncios más antiguos, consulte la [Archivo de anuncios](announcement-archive/announcement-archive.md).
+Para ver anuncios más antiguos, consulte [Archivo de anuncios](announcement-archive/announcement-archive.md).

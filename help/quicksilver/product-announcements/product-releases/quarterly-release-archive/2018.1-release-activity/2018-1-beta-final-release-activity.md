@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión final de la beta 2018.1
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de la versión beta 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 31 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
+title: Actividad de la versión final de Beta 2018.1
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de Beta 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 31 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión final de la beta 2018.1
+# Actividad de la versión final de Beta 2018.1
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de la versión beta 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 31 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de Beta 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 31 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
 
 >[!IMPORTANT]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.1, consulte  [información general sobre la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.1, consulte  [resumen de la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La versión beta final de 2018.1 incluye mejoras para administradores de Workfront y otros usuarios:
+La versión final de Beta 2018.1 incluye mejoras para administradores de Workfront y otros usuarios:
 
-**Para administradores**
+**Para Administradores**
 
 * [Configurar disponibilidad de recursos y asignaciones de usuarios para calcular según el horario de usuario](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
-**Para todos los usuarios**
+**Para Todos Los Usuarios**
 
-* [Mejoras de Mobile](#mobile-enhancements)
+* [Mejoras móviles](#mobile-enhancements)
 * [Integración de Jira](#jira-integration)
-* [Actualización de los nombres de visualizador de revisión](#update-to-proofing-viewer-names)
+* [Actualización de los nombres de los visualizadores de revisión](#update-to-proofing-viewer-names)
 * [Cambio en la cadencia de sincronización al sincronizar desde el entorno de producción de revisión a vista previa](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [El mensaje de advertencia aparece cuando se alcanza el límite de 2000 elementos en el Planificador de recursos](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
@@ -45,7 +45,7 @@ Las siguientes funciones llegarán a las tiendas de aplicaciones móviles a prin
 * Nueva navegación: Se ha rediseñado la página de inicio de nuestras aplicaciones móviles.
 * Inicio en móvil: Nuestra nueva funcionalidad de Inicio ahora también se ha actualizado en nuestras aplicaciones móviles.
 
-La nueva funcionalidad es compatible tanto con las plataformas iOS como Android.
+La nueva funcionalidad es compatible tanto con las plataformas iOS como con las Android.
 
 ## Integración de Jira {#jira-integration}
 
@@ -72,13 +72,13 @@ Se ha cambiado el nombre del visualizador de pruebas basado en HTML 5 y del visu
 
 {style="table-layout:auto"}
 
- Para obtener más información sobre el uso del nuevo visor de pruebas, consulte [Revisión de pruebas en el visor de pruebas.](https://support.workfront.com/hc/en-us/sections/115000275214)
+ Para obtener más información acerca del uso del nuevo visor de revisión, vea [Revisión de pruebas en el visor de revisión.](https://support.workfront.com/hc/en-us/sections/115000275214)
 
 ## Configurar disponibilidad de recursos y asignaciones de usuarios para calcular según el horario de usuario {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 El administrador de Workfront ahora puede determinar cómo calcula Workfront la disponibilidad de recursos y la asignación de usuarios en el nivel del sistema (teniendo en cuenta las horas y la disponibilidad de FTE). El administrador de Workfront puede configurar la disponibilidad de recursos y la asignación de usuarios para que se calculen mediante la programación predeterminada o la del usuario.
 
@@ -92,7 +92,7 @@ Para obtener más información, consulte &quot;Configuración del modo en que Wo
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 
 ## Cambio en la cadencia de sincronización al sincronizar desde el entorno de producción de revisión a vista previa {#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview}
@@ -105,7 +105,7 @@ Los datos del entorno de producción de Workfront Proof ahora se sincronizan con
 
 Antes de este cambio, los datos se sincronizaban mensualmente desde el entorno de producción de Workfront Proof al entorno de vista previa, mientras que los datos del entorno de producción de Workfront se sincronizaban semanalmente con el entorno de vista previa de Workfront. Esta discrepancia provocaba algunos errores de sincronización al utilizar la funcionalidad de revisión en el entorno de vista previa de Workfront. 
 
-Para obtener más información, consulte [Previsualizar entorno de prueba de zona protegida - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+Para obtener más información, consulte [Vista previa del entorno de prueba de espacio aislado- Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## El mensaje de advertencia aparece cuando se alcanza el límite de 2000 elementos en el Planificador de recursos {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 

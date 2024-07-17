@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Registros de Workfront Proof SPF
-description: Workfront Proof envía notificaciones por correo electrónico a los revisores desde una dirección de correo electrónico de Workfront Proof como notification@proofing.yourdomain.com. Para asegurarse de que los servidores de correo de los destinatarios confían en todas las notificaciones de correo electrónico de Workfront Proof, debe configurar un [!DNL Sender Policy] Registro de marco (SPF) para su dominio personalizado conectado al [!DNL Workfront Proof] (por ejemplo, proofing.yourdomain.com).
+description: Workfront Proof envía notificaciones por correo electrónico a los revisores desde una dirección de correo electrónico de Workfront Proof como notification@proofing.yourdomain.com. Para garantizar que los servidores de correo de los destinatarios confíen en todas las notificaciones de correo electrónico de Workfront Proof, debe configurar un registro de  [!DNL Sender Policy] Framework (SPF) para el dominio personalizado conectado a la cuenta  [!DNL Workfront Proof] por ejemplo, proofing.yourdomain.com).
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5295d451-2ad2-4835-9200-f10d4e6286a2
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-[!DNL Workfront Proof] envía notificaciones por correo electrónico a los revisores desde un [!DNL Workfront Proof] dirección de correo electrónico como notification@proofing.yourdomain.com. Para garantizar que los servidores de correo de los destinatarios confíen en todo [!DNL Workfront Proof] notificaciones por correo electrónico, debe configurar un [!UICONTROL Marco de políticas del remitente] (SPF) registro para su dominio personalizado conectado al [!DNL Workfront Proof] (por ejemplo, **proofing.yourdomain.com**).
+[!DNL Workfront Proof] envía notificaciones por correo electrónico a los revisores desde una dirección de correo electrónico de [!DNL Workfront Proof], como notification@proofing.yourdomain.com. Para garantizar que los servidores de correo de los destinatarios confíen en todas las notificaciones de correo electrónico de [!DNL Workfront Proof], debe configurar un registro de [!UICONTROL Marco de directivas de remitente] (SPF) para el dominio personalizado conectado a la cuenta de [!DNL Workfront Proof] (por ejemplo, **proofing.yourdomain.com**).
 
 Para configurar un registro SPF, deberá incluir el registro SPF utilizado para nuestro dominio principal.
 
-1. Agregue un **[!UICONTROL TXT de DNS]** para su dominio con el siguiente valor:
+1. Agregue una entrada **[!UICONTROL DNS TXT]** para su dominio con el siguiente valor:
 
    `v=spf1 a:mx.proofhq.com -all`
 
@@ -32,4 +32,4 @@ Para configurar un registro SPF, deberá incluir el registro SPF utilizado para 
 
    >[!TIP]
    >
-   >Puede utilizar la herramienta gratuita en [[!DNL https://mxtoolbox.com/spf.aspx]](https://mxtoolbox.com/spf.aspx) para revisar [!DNL Workfront] Registros SPF.
+   >Puede usar la herramienta gratuita en [[!DNL https://mxtoolbox.com/spf.aspx]](https://mxtoolbox.com/spf.aspx) para revisar [!DNL Workfront] registros SPF.

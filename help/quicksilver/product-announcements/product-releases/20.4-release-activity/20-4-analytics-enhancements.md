@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de análisis realizadas con la versión 20.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 9 de noviembre de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Información general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Descripción general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Paginación y ordenación agregadas al análisis mejorado
 
@@ -29,4 +29,4 @@ Para permitirle ver la información que desea ver sin tener que aplicar filtros 
 
 Anteriormente, el área de Análisis mejorado limitaba la cantidad de proyectos que se podían ver a 50.
 
-Esta función ahora se incluye en la [Análisis mejorado, ruta de aprendizaje de la parte 1](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Enhanced Analytics, Part 1](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) en Workfront One.

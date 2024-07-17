@@ -21,7 +21,7 @@ Puede eliminar un formulario personalizado del sistema.
 
 >[!CAUTION]
 >
->Al eliminar un formulario personalizado, también se eliminan todos los datos personalizados de los objetos asociados con el formulario. Los datos eliminados no se pueden recuperar. Considere la posibilidad de desactivar un formulario personalizado en su lugar; cuando desactive un formulario personalizado que ya no utilice, conservará todos los datos históricos asociados. Para obtener más información, consulte [Reactivar o desactivar un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+>Al eliminar un formulario personalizado, también se eliminan todos los datos personalizados de los objetos asociados con el formulario. Los datos eliminados no se pueden recuperar. Considere la posibilidad de desactivar un formulario personalizado en su lugar; cuando desactive un formulario personalizado que ya no utilice, conservará todos los datos históricos asociados. Para obtener más información, consulte [Volver a activar o desactivar un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## Requisitos de acceso
 
@@ -55,6 +55,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizado.**
-1. Seleccione el formulario personalizado y haga clic en ![Icono Eliminar](assets/delete-icon.png).
-1. Si está seguro de que desea eliminar permanentemente el formulario personalizado y todos los datos asociados en los objetos donde se adjuntó, haga clic en **Sí, eliminarla**.
+1. Haga clic en **Forms personalizado.**
+1. Seleccione el formulario personalizado y luego haga clic en ![Eliminar icono](assets/delete-icon.png).
+1. Si está seguro de que desea eliminar permanentemente el formulario personalizado y todos los datos asociados en los objetos donde se adjuntó, haga clic en **Sí, eliminarlo**.

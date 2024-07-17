@@ -41,11 +41,11 @@ Puede asociar hitos con tareas para indicar cuándo se alcanzan pasos importante
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Tareas</p> <p><b>NOTA</b>
 
-Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para la tarea</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para la tarea</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para poder asociar un hito a una tarea, debe existir lo siguiente:
 
-* El administrador de Workfront debe crear una trayectoria del hito, tal como se describe en [Creación de una trayectoria del hito](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* El administrador de Workfront debe crear una ruta de hitos, tal como se describe en [Crear una ruta de hitos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Debe asociar una ruta de hitos a un proyecto.
 
@@ -74,18 +74,18 @@ Para poder asociar un hito a una tarea, debe existir lo siguiente:
 
 Una vez asociada una trayectoria del hito a un proyecto, se puede asignar un hito a las tareas.
 
-1. Vaya a una tarea y haga clic en **Más** icono ![](assets/more-icon.png) a la derecha del nombre de la tarea, luego **Editar**.
+1. Vaya a una tarea, haga clic en el icono **Más** ![](assets/more-icon.png) a la derecha del nombre de la tarea y, a continuación, **Editar**.
 
    Las tareas y los hitos tienen una relación 1:1. No se puede adjuntar el mismo hito a varias tareas. Cada tarea se puede vincular a un solo hito, o cada hito se puede asignar a una tarea.
 
-1. Clic **Configuración**, luego seleccione un hito en la **Hito** para la tarea.
+1. Haga clic en **Configuración** y, a continuación, seleccione un hito en el campo **Hito** para la tarea.
 1. Haga clic en **Guardar**.
-1. (Opcional) Agregue el campo de **Iconos de estado** para identificar qué tareas tienen hitos. El indicador de rombo de hito aparece en la columna Iconos de estado.
+1. (Opcional) En una lista de tareas, agregue la columna **Iconos de estado** para identificar qué tareas tienen hitos. El indicador de rombo de hito aparece en la columna Iconos de estado.
 
-   Para obtener más información, consulte [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+   Para obtener más información, consulte [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
    ![](assets/amwt3.png)
 
-1. (Opcional) Vaya a una lista de proyectos y seleccione **Hito** para identificar el progreso de las tareas de Milestone.
+1. (Opcional) Vaya a una lista de proyectos y seleccione la vista **Hito** para identificar el progreso de sus tareas de hito.
 
    ![](assets/milestone-view-project-list.png)

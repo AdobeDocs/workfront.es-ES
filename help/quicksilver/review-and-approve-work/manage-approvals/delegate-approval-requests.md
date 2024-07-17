@@ -29,8 +29,8 @@ No puede delegar aprobaciones de hojas de horas, documentos o pruebas.
 >
 >Para garantizar que no se produzcan incoherencias con las fechas programadas para delegar sus aprobaciones, recomendamos que la zona horaria del perfil de usuario coincida con la de su programación. Para obtener más información, consulte los siguientes artículos:
 >
->* [Creación de una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+>* [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+>* [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
 ## Requisitos de acceso
@@ -54,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de Workfront.
 
 ## Comprender el acceso de los usuarios para aprobaciones delegadas
 
@@ -66,8 +66,8 @@ Durante el período de aprobación designado, el usuario al que delega una solic
 
   >[!NOTE]
   >
-  > El administrador de Adobe Workfront puede restringir el acceso de los usuarios a ciertos tipos de objetos. Cuando un usuario no tiene acceso a un tipo de objeto y se le delega una aprobación de ese tipo, el usuario no tiene acceso de visualización al objeto. Sin embargo, el usuario aún puede aprobar o rechazar solicitudes de aprobación de **Inicio** , tal como se describe en [Aprobación del trabajo](../../review-and-approve-work/manage-approvals/approving-work.md).\
-  Por ejemplo, el usuario A pertenece al grupo A. El administrador de Workfront ha restringido los derechos de acceso del grupo A, de modo que los usuarios de este grupo no pueden ver las tareas dentro de Workfront. Si se delega una solicitud de aprobación de tarea al usuario A, este no podrá ver la tarea a la que está asociada la aprobación. Sin embargo, el usuario A puede aprobar o rechazar la solicitud de aprobación desde la página de inicio.
+  > El administrador de Adobe Workfront puede restringir el acceso de los usuarios a ciertos tipos de objetos. Cuando un usuario no tiene acceso a un tipo de objeto y se le delega una aprobación de ese tipo, el usuario no tiene acceso de visualización al objeto. Sin embargo, el usuario puede aprobar o rechazar solicitudes de aprobación desde la página **Inicio**, tal como se describe en [Aprobación del trabajo](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  >Por ejemplo, el usuario A pertenece al grupo A. El administrador de Workfront ha restringido los derechos de acceso del grupo A, de modo que los usuarios de este grupo no pueden ver las tareas dentro de Workfront. Si se delega una solicitud de aprobación de tarea al usuario A, este no podrá ver la tarea a la que está asociada la aprobación. Sin embargo, el usuario A puede aprobar o rechazar la solicitud de aprobación desde la página de inicio.
 
   Para obtener información acerca de cómo el administrador de Workfront puede restringir el acceso a los tipos de objeto en la instalación, consulte  [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
@@ -80,7 +80,7 @@ Una vez cancelada o detenida la delegación de aprobación, el usuario designado
 ## Delegar solicitudes de aprobación en el área de Inicio
 
 * [Delegar sus aprobaciones a otro usuario](#delegate-your-approvals-to-another-user)
-* [Actualización o detención de una delegación de aprobación](#update-or-stop-an-approval-delegation)
+* [Actualizar o detener una delegación de aprobación](#update-or-stop-an-approval-delegation)
 * [Ver aprobaciones delegadas](#view-delegated-approvals)
 
 ### Delegar sus aprobaciones a otro usuario {#delegate-your-approvals-to-another-user}
@@ -103,65 +103,65 @@ Tenga en cuenta lo siguiente al delegar aprobaciones:
 
 Para delegar aprobaciones a otro usuario:
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
    O
 
-   Haga clic en **Menú principal** icono > **su nombre** > **Tiempo libre** en el panel izquierdo.
+   Haga clic en el icono **Menú principal** > **su nombre** > **Tiempo libre** en el panel izquierdo.
 
-1. (Opcional y condicional) En el área de Inicio, haga clic en **Filtrar** y, a continuación, haga clic en **Aprobaciones**.
+1. (Opcional y condicional) En el área de Inicio, haga clic en el menú desplegable **Filtro** y luego haga clic en **Aprobaciones**.
 
-1. (Condicional) Haga clic en **Delegar mis aprobaciones**
+1. (Condicional) Haga Clic En **Delegar Mis Aprobaciones**
 
    O
 
-   Si el administrador del sistema o del grupo habilitó la delegación de tareas y problemas, haga clic en **Delegar**, luego haga clic en **Delegar aprobaciones**.
+   Si el administrador del sistema o del grupo habilitó la delegación de tareas y problemas, haga clic en **Delegar** y luego en **Delegar aprobaciones**.
 
    ![](assets/delegate-approvals-nwe.png)
 
 1. Especifique la siguiente información en la sección Delegar mis aprobaciones:
 
-   * **Nombre**: Empiece escribiendo el nombre del usuario al que desea delegar las aprobaciones y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
-   * **Fecha de inicio**: seleccione la fecha para que se empiecen a reenviar las aprobaciones. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
+   * **Nombre**: empiece a escribir el nombre del usuario al que desea delegar las aprobaciones y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
+   * **Fecha de inicio**: seleccione la fecha para que las aprobaciones comiencen a reenviarse. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
      La fecha de inicio debe ser la fecha actual o una fecha futura.
    * **Fecha de finalización**:Realice una de las siguientes acciones:
 
       * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 23:59 en la fecha que seleccione.
-      * Seleccionar **Sin fecha de finalización** para configurar Workfront para que delegue aprobaciones indefinidamente.
+      * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
 
 1. Haga clic en **Guardar**.
 
 ### Actualización o detención de una delegación de aprobación {#update-or-stop-an-approval-delegation}
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. Haga clic en **Filtrar** y, a continuación, haga clic en **Aprobaciones**.
+1. Haga clic en el menú desplegable **Filtro** y luego haga clic en **Aprobaciones**.
 
 1. (Condicional) Haga clic en **Editar delegación**
 
    O
 
-   Si el administrador del sistema o del grupo habilitó la delegación de tareas y problemas, haga clic en **Editar delegación**, luego haga clic en **Delegar aprobaciones**.
+   Si el administrador del sistema o del grupo habilitó la delegación de tareas y problemas, haga clic en **Editar delegación** y luego haga clic en **Delegar aprobaciones**.
 
 1. (Condicional) Realice una de las acciones siguientes:
 
    * Para actualizar la delegación de aprobación existente: cambie la información mostrada y haga clic en **Guardar**.
 
-   * Para detener la delegación existente: Haga clic en **Detener delegación**, luego haga clic en **Detener delegación** para confirmar.
+   * Para detener la delegación existente: haga clic en **Detener delegación** y luego haga clic en **Detener delegación** para confirmar.
 
      ![](assets/stop-delegation-nwe.png)
 
@@ -175,16 +175,16 @@ En la Lista de trabajos se pueden ver únicamente los siguientes tipos de delega
 
 Para ver aprobaciones delegadas:
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
-   El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
-   * Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   * Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
-1. Haga clic en **Filtrar** y, a continuación, haga clic en **Aprobaciones**.\
+1. Haga clic en el menú desplegable **Filtro** y luego haga clic en **Aprobaciones**.\
    Todas las aprobaciones se muestran en la lista de forma predeterminada, incluidas las aprobaciones que se le han asignado y las que le han delegado.
 
    ![](assets/delegated-to-me-nwe-350x93.png)

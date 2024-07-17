@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión final de la versión beta 2018.2
-description: Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión final de la versión beta 2018.2. La funcionalidad se publicó en el entorno de vista previa el 20 de junio de 2018. Estará disponible en el entorno de producción en julio de 2018.
+title: Actividad de la versión final de Beta 2018.2
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de Beta 2018.2. La funcionalidad se publicó en el entorno de vista previa el 20 de junio de 2018. Estará disponible en el entorno de producción en julio de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión final de la versión beta 2018.2
+# Actividad de la versión final de Beta 2018.2
 
-Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión final de la versión beta 2018.2. La funcionalidad se publicó en el entorno de vista previa el 20 de junio de 2018. Estará disponible en el entorno de producción en julio de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de Beta 2018.2. La funcionalidad se publicó en el entorno de vista previa el 20 de junio de 2018. Estará disponible en el entorno de producción en julio de 2018.
 
 >[!IMPORTANT]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.2, consulte  [información general sobre la actividad de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.2, consulte  [resumen de la actividad de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Las siguientes funciones nuevas se lanzarán en el momento del lanzamiento de la versión de producción 18.2:
 
 * [Especifique los servicios de envío de correo para responder a las notificaciones de correo electrónico de Workfront](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
 * [Recibir notificaciones por correo electrónico para comentarios sobre documentos](#receive-email-notifications-for-comments-on-documents)
-* [Las actualizaciones rastreadas por el sistema ya no contienen ningún icono](#system-tracked-updates-no-longer-contain-an-icon)
-* [Se ha eliminado la opción para convertir un comentario en una tarea](#option-to-convert-a-comment-to-a-task-was-removed)
+* [Las actualizaciones rastreadas por el sistema ya no contienen un icono](#system-tracked-updates-no-longer-contain-an-icon)
+* Se eliminó la opción [para convertir un comentario en una tarea](#option-to-convert-a-comment-to-a-task-was-removed)
 * [Workfront para Salesforce](#workfront-for-salesforce)
 * [Mejoras de Workfront para Slack](#workfront-for-slack-improvements)
 * [Mejoras de Mobile](#mobile-improvements)
@@ -62,7 +62,7 @@ Cada vez que el sistema de Workfront crea una actualización en el área de Actu
 
 Antes de este cambio, cualquier actualización del sistema también incluía un icono que representaba la actualización realizada.
 
-Para obtener más información sobre las actualizaciones del sistema, consulte [Actualizaciones rastreadas por el sistema](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Para obtener más información sobre las actualizaciones del sistema, consulte [Actualizaciones con seguimiento del sistema](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Se ha eliminado la opción para convertir un comentario en una tarea {#option-to-convert-a-comment-to-a-task-was-removed}
 
@@ -113,10 +113,10 @@ Las siguientes nuevas funciones se lanzarán a las tiendas móviles en el moment
 
   Esta función solo estará disponible para la aplicación móvil de iOS.
 
-Las siguientes funciones ya se han publicado en la versión beta para Android de la aplicación móvil de Workfront, y también se están publicando en las aplicaciones móviles públicas de Android y iOS. La experiencia para la plataforma iOS contiene las siguientes diferencias con respecto a la experiencia de Android ya lanzada:
+Las siguientes funciones ya se han publicado en la versión Android Beta de la aplicación móvil de Workfront, y también se están publicando en las aplicaciones móviles públicas de Android y iOS. La experiencia para la plataforma iOS contiene las siguientes diferencias con respecto a la experiencia de Android ya lanzada:
 
 * Nueva barra de navegación inferior para iOS 
 
 * Nueva experiencia de tutorial para iOS 
 
-Para obtener más información sobre estas funciones y ver vídeos en los que se muestran, consulte [Actividad de la versión beta 4 de 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) y [Actividad de la versión beta 5 de 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+Para obtener más información sobre estas características y ver vídeos que las muestran, consulte [Actividad de la versión de Beta 4 de 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) y [Actividad de la versión de Beta 5 de 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).

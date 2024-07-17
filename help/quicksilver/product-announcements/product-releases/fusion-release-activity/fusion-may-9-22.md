@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en Adobe Workfront Fusion durante la semana del 9 de mayo de 2022.
 
-Para ver una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Para obtener una lista de todos los cambios recientes, consulte [Actividad de la versión de Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y compruebe si hay alguna actualización denominada Actualización de mantenimiento de Workfront Fusion.
+Para obtener una lista de las correcciones de errores recientes en Workfront Fusion, consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) y busque cualquier actualización denominada Actualización de mantenimiento de Workfront Fusion.
 
 
 ## Mejoras en la funcionalidad de búsqueda del Historial de ejecución de escenarios
@@ -39,4 +39,4 @@ Para facilitar la localización de los datos que necesita en su Historial de eje
 
 Anteriormente, los usuarios solo podían buscar texto y usar filtros en la lista completa de ejecuciones.
 
-Para obtener más información, consulte [Visualización del historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Para obtener más información, consulte [Ver el historial de ejecución de un escenario en Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).

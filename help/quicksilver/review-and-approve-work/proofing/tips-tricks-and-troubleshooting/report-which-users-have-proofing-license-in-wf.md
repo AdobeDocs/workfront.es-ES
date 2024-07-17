@@ -2,21 +2,21 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: Enumerar usuarios con una licencia de prueba en Adobe Workfront
-description: 'Puede ver qué usuarios de Adobe Workfront tienen actualmente la opción "El usuario puede generar pruebas" activada de cualquiera de las formas siguientes:'
+title: Enumerar usuarios con una licencia de revisión en Adobe Workfront
+description: Puede ver qué usuarios de Adobe Workfront tienen actualmente activada la opción "Usuario puede generar pruebas" de cualquiera de las siguientes maneras.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4d45ecd9-4348-43a4-9fa7-090b996b4695
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
-# Enumerar usuarios con una licencia de prueba en Adobe Workfront
+# Enumerar usuarios con una licencia de revisión en Adobe Workfront
 
-Puede ver qué usuarios de Adobe Workfront tienen actualmente la opción &quot;El usuario puede generar pruebas&quot; activada de cualquiera de las formas siguientes:
+Puede ver qué usuarios de Adobe Workfront tienen actualmente activada la opción &quot;Usuario puede generar pruebas&quot; de cualquiera de las siguientes maneras.
 
 ## Requisitos de acceso
 
@@ -27,8 +27,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
-   <td> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre la prueba de acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de pruebas en Workfront</a>.</p> </td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
@@ -39,47 +39,47 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Editar acceso a:</p> 
     <ul> 
      <li> <p>Creación de informes, tableros y calendarios</p> </li> 
-     <li> <p>Crear filtros, vistas y grupos</p> </li> 
-    </ul> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+     <li> <p>Creación de filtros, vistas y agrupaciones</p> </li> 
+    </ul> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con el administrador de Workfront o Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 ## Creación de un informe de usuario
 
 Puede crear un informe de usuario para ver qué usuarios pueden generar pruebas:
 
-1. Vaya a **Informes** .
-1. Haga clic en el **Nuevo informe** menú desplegable y haga clic en **Informe de usuario**.
+1. Vaya al área **Informes**.
+1. Haga clic en el menú desplegable **Nuevo informe** y, a continuación, haga clic en **Informe del usuario**.
 
-1. En el **Filtros** , haga clic en **Agregar una regla de filtro**.
+1. En la ficha **Filtros**, haga clic en **Agregar una regla de filtro**.
 
-1. En el campo disponible, expanda **Usuario** y haga clic en **Tiene licencia de prueba**.
+1. En el campo disponible, expanda **Usuario** y luego haga clic en **Tiene licencia de revisión**.
 
-1. Select **Igual** > **True**.
+1. Seleccione **Igual** > **Verdadero**.
 
-   ![report_prooflicense.png](assets/report-prooflicenses-350x135.png)
+   ![report_prooflicenses.png](assets/report-prooflicenses-350x135.png)
 
-1. Haga clic en **Guardar y cerrar**.
+1. Haga clic en **Guardar+Cerrar**.
 
-   El informe muestra todos los usuarios de Workfront que tienen una licencia de prueba asignada.
+   El informe muestra todos los usuarios de Workfront que tienen asignada una licencia de revisión.
 
 ## Actualizar la vista Personas
 
 Puede agregar una nueva columna en la vista Personas para ver qué usuarios pueden generar pruebas:
 
-1. Vaya a la **People** .
-1. Haga clic en el **People** pestaña .
-1. En el **Ver** menú desplegable, realice una de las acciones siguientes:
+1. Vaya al área **Personas**.
+1. Haga clic en la ficha **Personas**.
+1. En el menú desplegable **Ver**, realice una de las acciones siguientes:
 
-   * Para agregar esta información a una vista existente, seleccione la vista que desee personalizar y haga clic en **Personalizar vista**.
-   * Para añadir esta información a una nueva vista, haga clic en **Nueva vista**.
+   * Para agregar esta información a una vista existente, seleccione la vista que desee personalizar y, a continuación, haga clic en **Personalizar vista**.
+   * Para agregar esta información a una nueva vista, haga clic en **Nueva vista**.
 
-1. Haga clic en **Agregar columna**.
-1. En el campo disponible, expanda **Usuario** y haga clic en **Tiene licencia de prueba**.
+1. Haga clic en **Añadir columna**.
+1. En el campo disponible, expanda **Usuario** y luego haga clic en **Tiene licencia de revisión**.
 
-1. Haga clic en **Listo** y haga clic en **Guardar vista** o **Guardar como vista nueva**.
+1. Haga clic en **Listo** y, a continuación, haga clic en **Guardar vista** o en **Guardar como nueva vista**.
 
-   Se muestra la vista **True** o **False** dependiendo de si el usuario tiene una licencia de prueba asignada.
+   La vista muestra **True** o **False**, dependiendo de si el usuario tiene asignada una licencia de revisión.

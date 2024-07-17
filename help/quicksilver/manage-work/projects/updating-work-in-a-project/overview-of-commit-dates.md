@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Resumen de fecha de confirmación
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 La fecha de confirmación es la fecha en la que un usuario asignado a una tarea o un problema se compromete a completar la tarea o el problema.
 
 Esto es diferente a la fecha planificada de finalización de una tarea o problema, ya que es una estimación más realista de la fecha de finalización dada solamente por el usuario a cargo del trabajo.
 
-Para obtener información sobre la fecha planificada de finalización, consulte [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Para obtener información acerca de la fecha planificada de finalización, vea [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Resumen de fecha de confirmación
 
@@ -37,9 +37,9 @@ Tenga en cuenta lo siguiente al trabajar con fechas de compromiso:
   Al crear una tarea o un problema, no hay ninguna fecha de confirmación asignada a la tarea o al problema.
 * Si se le asigna una tarea o un problema, puede establecer la fecha de confirmación mediante uno de los procedimientos siguientes:
 
-   * Permita que Workfront establezca la fecha de confirmación para que coincida con la fecha planificada de finalización existente de la tarea o problema al hacer clic en Trabajar en ello, Iniciar problema o Iniciar tarea en la tarea o problema. Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar, consulte  [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Permita que Workfront establezca la fecha de confirmación para que coincida con la fecha planificada de finalización existente de la tarea o problema al hacer clic en Trabajar en ello, Iniciar problema o Iniciar tarea en la tarea o problema. Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar, consulte [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Establezca manualmente la fecha de confirmación según el momento en el que crea que se puede completar la tarea o el problema. Esta es su estimación y compromiso, como persona asignada, con el administrador del proyecto de que la tarea o problema se habrá completado en una fecha determinada.
-Para obtener más información, consulte [Actualizar fechas de confirmación en tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Para obtener más información, consulte [Actualizar fechas de confirmación de tareas y problemas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -59,8 +59,8 @@ Para obtener más información, consulte [Actualizar fechas de confirmación en 
 Puede encontrar la Fecha de confirmación para tareas y problemas en las siguientes áreas de Workfront:
 
 * La página Detalles
-* El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">Encabezado de una tarea o problema, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* <span class="preview">Encabezado de una tarea o un problema después de que un administrador de Workfront o de un grupo lo agregue a la plantilla de diseño. Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Notificaciones y actualizaciones activadas al cambiar la fecha de confirmación {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -76,7 +76,7 @@ Al establecer manualmente la fecha de confirmación para un déclencheur de tare
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  El cambio de la fecha de confirmación se muestra en el área de actualizaciones de la tarea o del problema cuando el administrador de Workfront habilita esta actualización en el área de fuentes de actualizaciones en la configuración. Para obtener más información, consulte [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  El cambio de la fecha de confirmación se muestra en el área de actualizaciones de la tarea o del problema cuando el administrador de Workfront habilita esta actualización en el área de fuentes de actualizaciones en la configuración. Para obtener más información, consulte [Actualizaciones con seguimiento del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
   Si el propietario de un proyecto no desea aceptar el cambio, le recomendamos que realice un comentario de nuevo al usuario que propone una nueva fecha utilizando la pestaña Comentarios en la sección Actualizaciones para pedirle que vuelva a cambiar la fecha de compromiso a la fecha planificada original o que seleccione una nueva fecha.
 
@@ -90,9 +90,9 @@ Al establecer manualmente la fecha de confirmación para un déclencheur de tare
   >
   >Para obtener más información, consulte los siguientes artículos:
   >
-  >* [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [Resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Personalizar inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -107,7 +107,7 @@ Al establecer manualmente la fecha de confirmación para un déclencheur de tare
 
 * La fecha proyectada de finalización de la tarea o problema se establece en la misma fecha porque la tarea tiene ahora una indicación más precisa de cuándo es probable que se complete.
 
-  Para obtener más información sobre la fecha proyectada de finalización, consulte [Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  Para obtener más información sobre la Fecha proyectada de finalización, vea [Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -121,11 +121,11 @@ Al establecer manualmente la fecha de confirmación para un déclencheur de tare
 
   >[!TIP]
   >
-  >La notificación de que la fecha de confirmación ha cambiado se envía al propietario del proyecto solo cuando el administrador de Workfront habilita la visualización de la fecha de confirmación en el área de fuentes de actualizaciones en Configuración. Para obtener más información, consulte [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >La notificación de que la fecha de confirmación ha cambiado se envía al propietario del proyecto solo cuando el administrador de Workfront habilita la visualización de la fecha de confirmación en el área de fuentes de actualizaciones en Configuración. Para obtener más información, consulte [Actualizaciones con seguimiento del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte  [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener información acerca de la funcionalidad adicional disponible al actualizar un elemento de trabajo, vea [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Para obtener información sobre la actualización de fechas de confirmación de tareas y problemas, consulte [Actualizar fechas de confirmación en tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Para obtener información sobre cómo actualizar las fechas de confirmación de tareas y problemas, consulte [Actualizar fechas de confirmación de tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

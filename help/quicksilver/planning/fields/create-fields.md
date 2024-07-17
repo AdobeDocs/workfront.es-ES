@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 En Adobe Workfront Planning, puede crear campos personalizados para los tipos de registro. A continuación, puede asociar los campos con los registros de Workfront Planning para mejorar la información de los registros.
 
-Debe crear tipos de registros antes de poder crear campos que se asocien a ellos. Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Debe crear tipos de registros antes de poder crear campos que se asocien a ellos. Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 Puede crear campos de las siguientes maneras en Workfront Planning:
 
@@ -47,7 +47,7 @@ Puede crear campos de las siguientes maneras en Workfront Planning:
 * Creando un tipo de registro
 * Al crear un espacio de trabajo a partir de una plantilla
 
-Para obtener más información sobre los campos de Workfront Planning, consulte [Resumen de campo](/help/quicksilver/planning/fields/fields-overview.md).
+Para obtener más información acerca de los campos de Workfront Planning, vea [Información general de los campos](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## Requisitos de acceso
 
@@ -92,13 +92,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -135,12 +135,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >    Algunos campos pueden estar ocultos. Haga clic en Campos y active la opción de los campos que desee ver como columnas en la vista de tabla.
 
-1. Haga clic en **+** en la esquina superior derecha de la vista de tabla
+1. Haga clic en el icono **+** en la esquina superior derecha de la vista de tabla
 
    O
 
-   Pase el ratón sobre el encabezado de cualquier columna, haga clic en la flecha hacia abajo después del nombre del campo y, a continuación, haga clic en **Insertar a la izquierda** o **Insertar derecho** para añadir el nuevo campo.
-1. En el **Nuevo campo** pestaña, busque un tipo de campo en la **Tipo de campo** o seleccione uno de los siguientes tipos de campo:
+   Pase el ratón sobre el encabezado de cualquier columna, haga clic en la flecha hacia abajo después del nombre del campo y, a continuación, haga clic en **Insertar a la izquierda** o **Insertar a la derecha** para agregar el nuevo campo.
+1. En la ficha **Nuevo campo**, busque un tipo de campo en el cuadro **Tipo de campo** o seleccione uno de los siguientes tipos de campo:
 
    * [Texto de línea única](#single-line-text)
    * [Párrafo](#paragraph)
@@ -150,7 +150,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * [Número](#number)
    * [Porcentaje](#percentage)
    * [Divisa](#currency)
-   * [Casilla](#checkbox)
+   * [Casilla de verificación](#checkbox)
    * [Fórmula](#formula)
    * [Personas](#people)
    * [Creado por](#created-by)
@@ -168,12 +168,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Los campos de texto de una sola línea capturan información alfanumérica limitada. Por ejemplo, puede capturar la información del propietario, la parte interesada, el equipo o la unidad organizativa en un campo de texto de una sola línea. El contenido de un campo de texto de una sola línea puede tener hasta 250 caracteres. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Texto de una sola línea** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Texto de una sola línea**.
 
    ![](assets/single-line-text-field-type.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: El nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre el encabezado de columna del campo en una tabla.
 1. Haga clic en **Crear**.
 
@@ -188,15 +188,15 @@ Los campos de párrafo capturan información alfanumérica adicional sobre un re
 >
 >* El contenido de un campo de párrafo puede tener hasta 1000 caracteres.
 >
->* Puede utilizar el formato de texto enriquecido para mejorar el contenido de los campos de párrafo cuando se muestran en la vista de tabla o en la página Detalles de un registro. Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+>* Puede utilizar el formato de texto enriquecido para mejorar el contenido de los campos de párrafo cuando se muestran en la vista de tabla o en la página Detalles de un registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Párrafo** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Párrafo**.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: El nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
 1. Haga clic en **Crear**.
 
@@ -207,19 +207,19 @@ Los campos de párrafo capturan información alfanumérica adicional sobre un re
 
 Puede utilizar un campo de selección múltiple para capturar información adicional en cualquier formato seleccionando más de una opción en un menú desplegable.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Selección múltiple** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Selección múltiple**.
 
    ![](assets/multi-select-field-type.png)
 
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: El nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Opciones**: las opciones disponibles para seleccionar en el menú desplegable después de guardar el campo. Puede tener números y letras para el nombre de cada opción.
-1. Clic **Añadir opción** para agregar tantas opciones como sea necesario. No hay límite en la cantidad de opciones que se pueden agregar a un campo de selección múltiple.
+   * **Opciones**: opciones disponibles para seleccionar en el menú desplegable después de guardar el campo. Puede tener números y letras para el nombre de cada opción.
+1. Haga clic en **Agregar opción** para agregar tantas opciones como sea necesario. No hay límite en la cantidad de opciones que se pueden agregar a un campo de selección múltiple.
 1. (Opcional) Arrastre y suelte manualmente cada opción en el orden deseado o seleccione la
-   **Ordenar opciones A-Z** si desea que las opciones se muestren automáticamente en orden alfabético. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Opcional) Para quitar una opción, haga clic en **x** a la derecha de la imagen.
+   **Ordenar opciones A-Z** opción si desea que las opciones se enumeran automáticamente en orden alfabético. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Opcional) Para quitar una opción, haga clic en el icono **x** a su derecha.
 1. Haga clic en la muestra de color a la izquierda de la opción para expandir el selector de color y personalizar el color de cada opción.
 1. Haga clic en **Crear**.
 
@@ -229,19 +229,19 @@ Puede utilizar un campo de selección múltiple para capturar información adici
 
 Los campos de selección única capturan información adicional en cualquier formato seleccionando una opción en un menú desplegable.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Selección única** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Selección única**.
 
    ![](assets/single-select-field-type.png)
 
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: El nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Opciones**: las opciones disponibles para seleccionar en el menú desplegable después de guardar el campo. Puede tener números y letras para el nombre de cada opción.
+   * **Opciones**: opciones disponibles para seleccionar en el menú desplegable después de guardar el campo. Puede tener números y letras para el nombre de cada opción.
 
-1. Clic **Añadir opción** para agregar tantas opciones como sea necesario. No hay límite en la cantidad de opciones que se pueden agregar a un campo de selección única.
-1. (Opcional) Arrastre y suelte manualmente cada opción en el orden deseado o seleccione la **Ordenar opciones A-Z** si desea que las opciones se muestren automáticamente en orden alfabético. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Opcional) Para quitar una opción, haga clic en **x** a la derecha de la imagen.
+1. Haga clic en **Agregar opción** para agregar tantas opciones como sea necesario. No hay límite en la cantidad de opciones que se pueden agregar a un campo de selección única.
+1. (Opcional) Arrastre y suelte manualmente cada opción en el orden deseado o seleccione la opción **Ordenar opciones A-Z** si desea que las opciones se muestren automáticamente en orden alfabético. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Opcional) Para quitar una opción, haga clic en el icono **x** a su derecha.
 1. Haga clic en la muestra de color a la izquierda de la opción para expandir el selector de color y personalizar el color de cada opción.
 1. Haga clic en **Crear**.
 
@@ -251,28 +251,28 @@ Los campos de selección única capturan información adicional en cualquier for
 
 Puede utilizar un campo de fecha para capturar información adicional en formato de fecha y hora.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Fecha** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Fecha**.
 
    ![](assets/date-field-type.png)
 
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Formato de fecha**: Tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
+   * **Formato de fecha**: El tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
 
      Seleccione entre los siguientes formatos:
-      * **Configuración regional**: coincide con la configuración regional del explorador.
-      * **Standard**: 16/05/2023
-      * **Largo**: 16 de mayo de 2023
-      * **Europeo**: 05/16/2023
+      * **Configuración regional**: Coincide con la configuración regional del explorador.
+      * **Estándar**: 16/05/2023
+      * **Long**: 16 de mayo de 2023
+      * **Europeo**: 16/05/2023
       * **ISO**: 16-05-2023
-   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. <!--update this setting name - submitted bug for it to be changed-->
+   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de hora. De forma predeterminada, esta opción no está seleccionada. <!--update this setting name - submitted bug for it to be changed-->
 
      Seleccione entre las siguientes opciones:
 
-      * **24 horas**: Por ejemplo: 18:00
-      * **12 h**: Por ejemplo: 18:00
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 
@@ -282,12 +282,12 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
 
 Los tipos de campos de número capturan información en formato numérico.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Número** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Número**.
 
    ![](assets/number-field-type.png)
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
    * **Precisión**: El número de decimales que desea registrar para el campo. Se pueden mostrar hasta 6 decimales.
    * **Permitir números negativos**: seleccione esta opción si desea permitir números negativos en este campo. Esta opción está desactivada de forma predeterminada.
@@ -304,12 +304,12 @@ Los tipos de campos de número capturan información en formato numérico.
 
 Los tipos de campo de porcentaje capturan información en un formato numérico seguido de un signo de porcentaje.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Porcentaje** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Porcentaje**.
 
    ![](assets/percentage-field-type.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
    * **Precisión**: El número de decimales que desea registrar para el campo. Se pueden mostrar hasta 6 decimales.
    * **Permitir números negativos**: seleccione esta opción si desea permitir valores de porcentaje negativos en este campo. Esta opción está desactivada de forma predeterminada.
@@ -326,12 +326,12 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
 
 Los tipos de campo Moneda capturan información en un formato de número precedido por un símbolo de moneda.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Moneda** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Moneda**.
 
    ![](assets/currency-field-type.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
    * **Moneda**: El tipo de moneda que desea mostrar en este campo. Esta es una lista de monedas según la Organización Internacional de Normalización (ISO).
    * **Precisión**: El número de decimales que desea registrar para el campo. Se pueden mostrar hasta 6 decimales.
@@ -349,12 +349,12 @@ Los tipos de campo Moneda capturan información en un formato de número precedi
 
 Puede utilizar el tipo de campo Casilla de verificación para agregar una sola opción de casilla de verificación a un registro. Puede utilizar este campo para indicar un atributo o estado específico para ese registro en particular. Por ejemplo, puede utilizarlo como indicador para rastrear la finalización, la aprobación o cualquier otro atributo binario de cada registro.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Casilla** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Casilla de verificación**.
 
    ![](assets/checkbox-field-type.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
 1. Haga clic en **Crear**.
 
@@ -364,23 +364,23 @@ Puede utilizar el tipo de campo Casilla de verificación para agregar una sola o
 
 Los campos de fórmula generan un nuevo valor utilizando valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
 
-Para obtener más información, consulte [Información general sobre campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
+Para obtener más información, vea [Información general sobre los campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Fórmula** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Fórmula**.
 
    ![](assets/new-formula-field-with-list-of-expressions.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
-   * **Nombre**: introduzca un nombre para el nuevo campo.
-   * **Descripción**: Añada información sobre el nuevo campo.
-   * **Fórmula**: Empiece a escribir al menos un carácter para acceder a una expresión y, a continuación, selecciónela cuando se muestre en la lista.
+   * **Nombre**: escriba un nombre para el nuevo campo.
+   * **Descripción**: agregue información sobre el nuevo campo.
+   * **Fórmula**: Empiece a escribir al menos un carácter para tener acceso a una expresión y selecciónela cuando se muestre en la lista.
 
 1. Haga clic en la expresión seleccionada para mostrar la definición y ver su formato.
 
    ![](assets/description-of-formula-expression.png)
 
-   Para obtener más información sobre las expresiones admitidas, consulte [Información general sobre campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
+   Para obtener más información acerca de las expresiones admitidas, vea [Información general sobre los campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
 
 1. Agregue nombres de campo tal y como se muestran en Workfront Planning para hacer referencia a ellos en una fórmula.
 
@@ -397,14 +397,14 @@ Para obtener más información, consulte [Información general sobre campos de f
 
 ### Personas
 
-Puede utilizar el tipo de campo Personas para agregar un usuario <!--, job role, or team--> a un registro. Este es un campo de escritura anticipada y solo puede añadir usuarios<!--, roles, or teams--> que ya existen en su instancia de Workfront.
+Puede usar el tipo de campo Personas para agregar un usuario <!--, job role, or team--> a un registro. Este es un campo de escritura anticipada y solamente puede agregar usuarios <!--, roles, or teams--> que ya existen en su instancia de Workfront.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **People** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Personas**.
 
    ![](assets/people-field-type.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
    * **Permitir varios valores**: seleccione esta opción si desea permitir que los usuarios agreguen más de un usuario en este campo. Esta opción está desactivada de forma predeterminada.
 
@@ -420,13 +420,13 @@ Puede utilizar el tipo de campo Personas para agregar un usuario <!--, job role,
 
 Puede utilizar el tipo de campo Creado por para agregar el usuario que creó el registro a un registro. Este es un campo de solo lectura y se rellena automáticamente con el nombre del usuario que había iniciado sesión cuando se creó el registro.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Creado por** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Creado por**.
 
    ![](assets/created-by-field-type.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
 
 1. Haga clic en **Crear**.
@@ -438,29 +438,29 @@ Puede utilizar el tipo de campo Creado por para agregar el usuario que creó el 
 
 Puede utilizar el tipo de campo Fecha de creación para agregar la fecha en la que se creó el registro a un registro. Este es un campo de solo lectura y se rellena automáticamente con la fecha (y opcionalmente con la hora) en que se creó el registro.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Fecha de creación** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Fecha de creación**.
 
    ![](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Formato de fecha**: Seleccione entre los siguientes formatos:
+   * **Formato de fecha**: seleccione uno de los siguientes formatos:
 
-      * **Configuración regional**: coincide con la configuración regional del explorador.
-      * **Standard**: 16/05/2023
-      * **Largo**: 16 de mayo de 2023
-      * **Europeo**: 05/16/2023
+      * **Configuración regional**: Coincide con la configuración regional del explorador.
+      * **Estándar**: 16/05/2023
+      * **Long**: 16 de mayo de 2023
+      * **Europeo**: 16/05/2023
       * **ISO**: 16-05-2023
-   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. <!--submitted a UI text change for this - check the UI-->
+   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de hora. De forma predeterminada, esta opción no está seleccionada. <!--submitted a UI text change for this - check the UI-->
 
      Seleccione entre las siguientes opciones:
 
-      * **24 horas**: Por ejemplo: 18:00
-      * **12 h**: Por ejemplo: 18:00
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 
@@ -471,13 +471,13 @@ Puede utilizar el tipo de campo Fecha de creación para agregar la fecha en la q
 
 Puede utilizar el tipo de campo Última modificación realizada por para agregar a un registro al usuario que modificó el registro por última vez. Este es un campo de solo lectura y se rellena automáticamente con el nombre del usuario que inició sesión cuando se actualizó el registro por última vez.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Última modificación de:** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Última modificación realizada por**.
 
    ![](assets/last-modified-by-field-type.png)
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
 
 1. Haga clic en **Crear**.
@@ -489,29 +489,29 @@ Puede utilizar el tipo de campo Última modificación realizada por para agregar
 
 Puede utilizar el tipo de campo Fecha de la última modificación para agregar la fecha en la que se modificó por última vez un registro a un registro. Este es un campo de solo lectura y se rellena automáticamente con la fecha (y opcionalmente con la hora) en que se modificó el registro por última vez.
 
-1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) en este artículo, seleccione **Fecha de creación** tipo de campo.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Fecha de creación**.
 
    ![](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Añada la siguiente información en la **Nuevo campo** pestaña:
+1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
-   * **Nombre**: Nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Formato de fecha**: Seleccione entre los siguientes formatos:
+   * **Formato de fecha**: seleccione uno de los siguientes formatos:
 
-      * **Configuración regional**: coincide con la configuración regional del explorador.
-      * **Standard**: 16/05/2023
-      * **Largo**: 16 de mayo de 2023
-      * **Europeo**: 05/16/2023
+      * **Configuración regional**: Coincide con la configuración regional del explorador.
+      * **Estándar**: 16/05/2023
+      * **Long**: 16 de mayo de 2023
+      * **Europeo**: 16/05/2023
       * **ISO**: 16-05-2023
-   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de tiempo. De forma predeterminada, esta opción no está seleccionada. <!--submitted a UI text change for this - check the UI-->
+   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de hora. De forma predeterminada, esta opción no está seleccionada. <!--submitted a UI text change for this - check the UI-->
 
      Seleccione entre las siguientes opciones:
 
-      * **24 horas**: Por ejemplo: 18:00
-      * **12 h**: Por ejemplo: 18:00
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 
@@ -521,18 +521,18 @@ Puede utilizar el tipo de campo Fecha de la última modificación para agregar l
 
 Puede crear campos de registro vinculados al agregar una nueva conexión entre dos tipos de registro o un tipo de registro y un tipo de objeto de otras aplicaciones.
 
-Para obtener información sobre cómo conectar tipos de registros de Workfront Planning, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
+Para obtener información acerca de cómo conectar tipos de registros de Workfront Planning, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
 
 ## Crear campos mediante la importación de tipos de registro mediante un archivo CSV o de Excel
 
-Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Para obtener más información, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Creación de campos creando un tipo de registro
 
-Al crear un tipo de registro, también se crean de forma predeterminada varios campos asociados al nuevo tipo de registro. Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Al crear un tipo de registro, también se crean de forma predeterminada varios campos asociados al nuevo tipo de registro. Para obtener más información, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Creación de campos creando un espacio de trabajo a partir de una plantilla
 
 Adobe Workfront Planning crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla.
 
-Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).

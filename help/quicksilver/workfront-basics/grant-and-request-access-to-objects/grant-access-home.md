@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Conceder acceso a los objetos del área de Inicio
 
-Los usuarios pueden solicitar acceso a objetos dentro de Adobe Workfront. Para obtener más información sobre cómo solicitar acceso, consulte  [Solicitud de acceso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Los usuarios pueden solicitar acceso a objetos dentro de Adobe Workfront. Para obtener más información sobre cómo solicitar acceso, consulte  [Solicitar acceso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 Si es el propietario de un objeto, puede conceder o denegar el acceso a los elementos del área de Inicio.
 
@@ -71,49 +71,49 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Ver el acceso o superior a proyectos, tareas, problemas o documentos</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores de proyectos, tareas, problemas o documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos o superiores de proyectos, tareas, problemas o documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Conceder acceso a los objetos del área de Inicio
 
-1. Haga clic en **Inicio** icono ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
 
    >[!NOTE]
    >
    >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
    >
    >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página, haga clic en **Inicio**.
+   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
 1. (Condicional) En el área de Inicio heredada, haga lo siguiente:
 
-   1. En el **Lista de trabajos**, seleccione la solicitud de acceso que desee administrar en la **Aprobaciones** sección.
+   1. En la **Lista de trabajos**, seleccione la solicitud de acceso que desee administrar en la sección **Aprobaciones**.
 
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
+   ![Captura de pantalla_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
    La solicitud se muestra a la derecha de la Lista de trabajos.
 
    1. En la esquina superior derecha, haga clic en el botón Conceder acceso.\
-      Según el tipo de acceso solicitado, el nombre del botón cambia. Por ejemplo, si el solicitante solicita el acceso de Vista, el botón indica **Conceder acceso de vista**.\
-      ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+      Según el tipo de acceso solicitado, el nombre del botón cambia. Por ejemplo, si el solicitante pide acceso de visualización, el botón indica **Conceder acceso de visualización**.\
+      ![Conceder acceso_2.png](assets/grant-access-2-350x98.png)
 
-   1. (Opcional) Para conceder un nivel de acceso diferente del solicitado, haga clic en la flecha situada junto al botón Conceder acceso, seleccione el nuevo acceso y, a continuación, haga clic en **Conceder &lt; nivel de permiso > Acceso >**.\
+   1. (Opcional) Para conceder un nivel de acceso diferente al solicitado, haga clic en la flecha situada junto al botón Conceder acceso y seleccione el nuevo acceso; a continuación, haga clic en **Conceder &lt; nivel de permiso > Acceso >**.\
       Aparece un mensaje que confirma que se ha concedido el acceso.
 
-   1. (Opcional) Haga clic en **Ignorar** para denegar el acceso.\
+   1. (Opcional) Haga clic en **Omitir** para denegar el acceso.\
       Aparece un mensaje que confirma que se ha omitido el acceso.
 
 1. (Condicional) Desde la nueva área de Inicio, haga lo siguiente:
 
-   1. Vaya a la **Esperando mi aprobación** y busque la solicitud de más acceso y haga clic en **Conceder acceso**.
+   1. Vaya al widget **Esperando mi aprobación**, busque la solicitud para obtener más acceso y haga clic en **Conceder acceso**.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
@@ -121,15 +121,15 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
       La solicitud de acceso se concede y desaparece de la lista de solicitudes de aprobación.
 
-   1. (Opcional) Haga clic en **Ignorar** para denegar el acceso. La solicitud de acceso no se concede y desaparece de la lista de solicitudes de aprobación.
+   1. (Opcional) Haga clic en **Omitir** para denegar el acceso. La solicitud de acceso no se concede y desaparece de la lista de solicitudes de aprobación.
 
 ## Configuración de notificaciones por correo electrónico para solicitudes
 
-Puede configurar si desea recibir notificaciones por correo electrónico para las solicitudes de acceso. El administrador de Workfront puede deshabilitar esta funcionalidad (como se describe en [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Puede configurar si desea recibir notificaciones por correo electrónico para las solicitudes de acceso. El administrador de Workfront puede deshabilitar esta funcionalidad (tal como se describe en [Configuración de notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Preferencias**, o desplácese hasta la sección Preferencias.
-1. En el **Enviarme correo electrónico cuando** , seleccione o anule la selección **Alguien solicita acceso para mí**, dependiendo de si desea recibir notificaciones por correo electrónico cuando otro usuario solicite o no acceso.
+1. Haga clic en **Preferencias** o desplácese hasta la sección Preferencias.
+1. En la lista desplegable **Enviarme correo electrónico cuando**, seleccione o anule la selección de **Alguien me solicita acceso**, dependiendo de si desea recibir notificaciones por correo electrónico cuando otro usuario solicite acceso a usted o no.
 
 1. Haga clic en **Guardar cambios**.

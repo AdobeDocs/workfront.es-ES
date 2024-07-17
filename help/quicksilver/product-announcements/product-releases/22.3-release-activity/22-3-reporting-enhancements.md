@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 22.3 Mejoras en los informes
 
-Esta página describe todas las mejoras de creación de informes realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página describe todas las mejoras de creación de informes realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Eliminación y adición de campos de presupuestación de recursos en listas e informes
 
@@ -35,5 +35,5 @@ Los siguientes campos de presupuestación de recursos se han eliminado de las li
 * Costos presupuestados
 
 
-Para obtener más información, consulte [Comprender el costo laboral presupuestado y las horas presupuestadas de los proyectos](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+Para obtener más información, consulte [Comprender el costo de mano de obra presupuestado y las horas presupuestadas de los proyectos](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
 

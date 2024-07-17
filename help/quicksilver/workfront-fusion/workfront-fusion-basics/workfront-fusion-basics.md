@@ -21,6 +21,6 @@ ht-degree: 0%
 Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
 Esta sección contiene los siguientes artículos:
 
-* [Cambio de la configuración de perfil en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-* [Eliminar datos de usuario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
-* [[!DNL Adobe Workfront Fusion] FAQ](../../workfront-fusion/workfront-fusion-basics/faq.md)
+* [Cambiar la configuración de perfil en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+* [Eliminar datos de usuario en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [Preguntas frecuentes sobre [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/faq.md)

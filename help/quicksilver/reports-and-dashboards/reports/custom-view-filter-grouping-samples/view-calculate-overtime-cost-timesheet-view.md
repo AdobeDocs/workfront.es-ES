@@ -19,11 +19,11 @@ ht-degree: 1%
 Las horas extra no se calculan de forma predeterminada en Adobe Workfront, pero puede crear un informe de hoja de horas que calcule las horas extra.
 
 Si el usuario está asociado con una tarifa de coste por hora en su perfil, también puede calcular la cantidad de coste por las horas extra de ese usuario.\
-Para obtener información sobre cómo asociar usuarios con tasas de costo por hora, vea el artículo [Configurar mis ajustes](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Para obtener información acerca de cómo asociar usuarios con tasas de costo por hora, vea el artículo [Configurar mis opciones](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 >[!NOTE]
 >
->El campo Horas extra que se puede agregar a una vista Hoja de horas de una lista o un informe muestra la información que se encuentra en el campo Horas extra de la hoja de horas. La información la actualiza manualmente un usuario con acceso para modificar la plantilla de horas. Para obtener más información sobre el campo Horas extra en una plantilla de horas, consulte el artículo [Resumen del diseño de hoja de horas](../../../timesheets/timesheets/timesheet-layout.md).
+>El campo Horas extra que se puede agregar a una vista Hoja de horas de una lista o un informe muestra la información que se encuentra en el campo Horas extra de la hoja de horas. La información la actualiza manualmente un usuario con acceso para modificar la plantilla de horas. Para obtener más información sobre el campo Horas extra en una hoja de horas, consulte el artículo [Información general sobre el diseño de la hoja de horas](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Requisitos de acceso
 
@@ -46,16 +46,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Calcular costo de horas extra en una vista de hoja de horas
 
@@ -63,32 +63,32 @@ Para agregar una columna de horas extra calculadas a una vista de hoja de horas:
 
 1. Vaya a una lista de plantillas de horas o cree un informe de plantilla de horas.
 
-   Para obtener información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener información sobre cómo crear informes, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Clic **Personalizar vista** en una lista de plantillas de horas.
+1. Haga clic en **Personalizar vista** en una lista de hojas de horas.
 
    O
 
-   Seleccione el **Columnas (vista)** en un informe de hoja de horas.
+   Seleccione la ficha **Columnas (Ver)** en un informe de hoja de horas.
 
 1. Haga clic en **Añadir columna**.
-1. Clic **Cambiar a modo de texto**.
-1. En el **Mostrar en esta columna** , haga clic en **Haga clic para editar el texto**.
-1. Copie y pegue el siguiente código de modo de texto en la **Modo de texto** Cuadro de diálogo.
-   <pre>displayname=Costo calculado de horas extra<br>linkedname=direct<br>name=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
+1. Haga clic en **Cambiar al modo de texto**.
+1. En el área **Mostrar en esta columna**, haga clic en **Haga clic para editar el texto**.
+1. Copie y pegue el siguiente código de modo de texto en el cuadro de diálogo **Modo de texto**.
+   <pre>displayname=Costo calculado de horas extra<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
 
    >[!NOTE]
    >
    >Este cálculo supone que el usuario suele trabajar una semana de 40 horas.
 
-1. Clic **Guardar**, asigne un nombre a la nueva vista y haga clic en **Guardar vista** en una lista de plantillas de horas.
+1. Haga clic en **Guardar**, asigne un nombre a la nueva vista y haga clic en **Guardar vista** en una lista de hojas de horas.
 
    O
 
-   Clic **Guardar + Cerrar** en un informe de hoja de horas.
+   Haga clic en **Guardar + Cerrar** en un informe de hoja de horas.
 
-1. (Opcional y condicional) Si está creando un informe de plantilla de horas, especifique un nombre para el informe y haga clic en **Guardar informe**.
+1. (Opcional y condicional) Si está generando un informe de hoja de horas, especifique un nombre para el informe y haga clic en **Guardar informe**.
 
-   El coste de las horas extra de cada usuario se muestra en la variable **Costo de horas extra calculado** columna.
+   El costo de las horas extra de cada usuario se muestra en la columna **Costo calculado de horas extra**.
 
-   ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+   ![informe_parte_de_horas_extra_calculadas_costo_en_parte_de_horas.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)

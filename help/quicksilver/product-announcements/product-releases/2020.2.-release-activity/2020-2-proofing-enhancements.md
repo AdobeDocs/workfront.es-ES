@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de revisión realizadas con la versión 2020.2 en el entorno de producción. Estas mejoras estaban disponibles en el entorno de producción en la semana del 11 de mayo de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 2020.2, consulte [información general sobre la versión 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 2020.2, consulte [Información general sobre la versión 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## El dominio de revisión cambia de proofhq.com a workfront.com.
 
@@ -30,11 +30,11 @@ Si el cortafuegos o el servidor de correo están configurados para permitir el a
 
 &#42;.workfront.com
 
-El &#42;La URL de proofhq.com también es obligatoria.
+La dirección URL &#42;proofhq.com también es obligatoria.
 
-Para obtener más información sobre cómo actualizar la lista de permitidos, consulte [Configuración de la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obtener más información sobre cómo actualizar la lista de permitidos, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-Esta actualización solo se aplica a las pruebas en Workfront; no se aplica al utilizar la aplicación independiente Workfront Proof.
+Esta actualización solo se aplica a las pruebas en Workfront; no se aplica al utilizar la aplicación independiente de Workfront Proof.
 
 ## Los comentarios de revisión realizados por los invitados aparecen en el área de Actualizaciones
 

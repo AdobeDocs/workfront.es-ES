@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión beta 4 de 2018.1
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 4 de 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 24 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
+title: Actividad de la versión 2018.1 de Beta 4
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 24 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión beta 4 de 2018.1
+# Actividad de la versión 2018.1 de Beta 4
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 4 de 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 24 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 2018.1. La funcionalidad estaba disponible en el entorno de vista previa el 24 de enero de 2018. Estará disponible en el entorno de producción en marzo de 2018.
 
 >[!IMPORTANT]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.1, consulte  [información general sobre la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.1, consulte  [resumen de la actividad de la versión 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La versión beta 4 de 2018.1 contiene mejoras tanto para administradores de Workfront como para otros usuarios:
+La versión 2018.1 de Beta 4 contiene mejoras tanto para administradores de Workfront como para otros usuarios:
 
-**Para administradores**
+**Para Administradores**
 
 * [Programaciones administradas por administradores de grupo](#schedules-managed-by-group-administrators)
 
-**Para todos los usuarios**
+**Para Todos Los Usuarios**
 
-* [Mejoras de corrección en Workfront](#proofing-improvements-within-workfront)
-* [Creación de pruebas en Workfront Proof: experiencia del usuario mejorada y funcionalidad adicional](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* [Mejoras de revisión en Workfront](#proofing-improvements-within-workfront)
+* [Creación de revisiones en Workfront Proof: experiencia del usuario mejorada y funcionalidad adicional](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
 * [Mejoras de revisión en Workfront y Workfront Proof](#proofing-improvements-within-workfront-and-workfront-proof)
 * [Aspecto actualizado con la integración de Basecamp en Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
-* [Pegar imágenes en Workfront desde el portapapeles](#paste-images-to-workfront-from-the-clipboard)
-* [Mejoras del informe de utilización](#utilization-report-improvements)
+* [Pegar imágenes en Workfront desde el Portapapeles](#paste-images-to-workfront-from-the-clipboard)
+* [Mejoras en el informe de utilización](#utilization-report-improvements)
 * [Quitar el objeto de hora presupuestado de recurso de Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
 * [Estadísticas de uso del informe](#report-usage-statistics)
-* [Actualizaciones de gráfico Gantt](#gantt-chart-updates)
+* [Actualizaciones del gráfico Gantt](#gantt-chart-updates)
 * [Nuevo Portfolio Optimizer](#new-portfolio-optimizer)
-* [Opción de Ajuste de Fecha Presupuestaria en el Planificador de Recursos](#budget-date-adjustment-option-in-the-resource-planner)
-* [Programación de recursos: Restringir asignaciones a usuarios según la pertenencia a grupos](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
+* [Opción de ajuste de fecha de presupuesto en el Planificador de recursos](#budget-date-adjustment-option-in-the-resource-planner)
+* [Programación de recursos: Restringir asignaciones a usuarios según su pertenencia al grupo](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
 * [Horario de recursos: permitir asignaciones a usuarios independientemente del rol](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Compatibilidad con Emoji](#emoji-support)
 
@@ -53,8 +53,8 @@ Se han realizado las siguientes mejoras en la lista de documentos de Workfront:�
 
 * [Ver progreso de revisión de la lista de documentos](#view-proof-progress-from-the-document-list)
 * [Nueva opción para ver el resumen de impresión desde la lista de documentos](#new-option-to-view-the-print-summary-from-the-document-list)
-* [Apariencia actualizada para generar o abrir la prueba desde la lista de documentos](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
-* [Varios vínculos eliminados de documentos en la lista de documentos](#various-links-removed-from-documents-on-the-document-list)
+* [Apariencia actualizada para generar o abrir la revisión desde la lista de documentos](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
+* [Se eliminaron varios vínculos de los documentos de la lista de documentos](#various-links-removed-from-documents-on-the-document-list)
 * [Ver nombres de archivo en pruebas combinadas](#view-file-names-on-combined-proofs)
 * [Ver la fase activa actual de una prueba en la lista de documentos](#view-the-current-active-stage-of-a-proof-from-the-document-list)
 
@@ -64,7 +64,7 @@ Los indicadores de progreso de prueba ahora se muestran para todas las pruebas a
 
 Antes de este cambio, tenía que seleccionar una prueba en la lista de documentos para ver el progreso de la prueba en el panel derecho. 
 
-Para obtener más información, consulte [Progreso de prueba e información general de estado](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+Para obtener más información, consulte [Progreso de la prueba e información general del estado](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 
 ### Nueva opción para ver el resumen de impresión desde la lista de documentos {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -121,7 +121,7 @@ Para obtener más información, consulte Visualización de todos los archivos co
 
 Ahora, al seleccionar una prueba en la lista de documentos, las fases activas actuales se muestran en la columna derecha de la pestaña Detalles. 
 
-Para obtener más información, consulte [Visualización de las fases activas en una prueba](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
+Para obtener más información, vea [Ver las fases activas en una revisión](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
 
 ## Creación de pruebas en Workfront Proof: experiencia del usuario mejorada y funcionalidad adicional {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
@@ -190,7 +190,7 @@ Las siguientes mejoras están disponibles cuando se agregan documentos para revi
 
 ## Aspecto actualizado con la integración de Basecamp en Workfront Proof {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
-Se ha actualizado el aspecto de la integración de Basecamp con Workfront Proof. La funcionalidad sigue siendo la misma.
+El aspecto de la integración de Basecamp con Workfront Proof ya está actualizado. La funcionalidad sigue siendo la misma.
 
 ## Pegar imágenes en Workfront desde el portapapeles {#paste-images-to-workfront-from-the-clipboard}
 
@@ -198,7 +198,7 @@ Ahora puede agregar archivos de imagen a Workfront pegando una imagen del portap
 
 La capacidad de pegar desde el portapapeles se eliminó de Workfront en una versión anterior y se vuelve a incluir en esta versión. El nuevo método es más ágil e intuitivo.
 
-Para obtener más información, consulte [Pegar imágenes desde el portapapeles](../../../../documents/managing-documents/paste-image-clipboard.md). 
+Para obtener más información, vea [Pegar imágenes del Portapapeles](../../../../documents/managing-documents/paste-image-clipboard.md). 
 
 ## Mejoras del informe de utilización {#utilization-report-improvements}
 
@@ -227,7 +227,7 @@ El informe Utilización incluye las siguientes mejoras:
 
 * Rendimiento mejorado
 
-Para obtener más información sobre el informe Utilización, consulte [Descripción general del informe Utilización de los recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obtener más información sobre el informe Utilización, consulte [Información general sobre el informe Utilización de recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Quitar el objeto de hora presupuestado de recurso de Workfront {#remove-the-resource-budgeted-hour-object-from-workfront}
 
@@ -250,13 +250,13 @@ Ahora puede mostrar la siguiente información de uso de los informes de Workfron
 
 Antes de esta actualización, la información de uso que se podía ver en los informes era limitada.
 
-Para obtener más información sobre el uso de los informes, consulte [Ver uso del informe](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+Para obtener más información sobre el uso del informe, consulte [Ver uso del informe](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
 
 ## Programaciones administradas por administradores de grupo {#schedules-managed-by-group-administrators}
 
 Como administrador de grupos, puede crear y editar programaciones asociadas a los grupos que administra, así como a sus subgrupos. Antes de este cambio, solo los administradores de Workfront podían crear y editar programaciones.
 
-Para obtener más información sobre la administración de programaciones, consulte [Creación de una programación](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+Para obtener más información sobre la administración de programaciones, consulte [Crear una programación](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 ## Actualizaciones de gráfico Gantt {#gantt-chart-updates}
 
@@ -269,25 +269,25 @@ El gráfico Gantt ahora se puede editar. Con el diagrama de Gantt, puede realiza
 
 Antes de este cambio, sólo se podían quitar relaciones de predecesoras en el diagrama de Gantt y modificar tareas sólo en la lista de tareas.
 
-Para obtener más información sobre el gráfico Gantt, consulte [Actualizar información en el gráfico Gantt de lista de tareas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+Para obtener más información sobre el diagrama de Gantt, vea [Actualizar información en la lista de tareas Diagrama de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## Nuevo Portfolio Optimizer {#new-portfolio-optimizer}
 
 El área de Portfolio Optimizer de Workfront ahora se actualiza con una nueva apariencia. La funcionalidad no ha cambiado.
 
-Para obtener más información sobre Portfolio Optimizer, consulte [Información general de Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+Para obtener más información sobre Portfolio Optimizer, consulte [Descripción general de Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Opción de Ajuste de Fecha Presupuestaria en el Planificador de Recursos {#budget-date-adjustment-option-in-the-resource-planner}
 
 Se ha añadido una opción para darle una visibilidad rápida de los períodos de tiempo sin conflictos de presupuesto. Después de ver cuándo se producen los períodos de tiempo sin conflictos de presupuestos, puede mover manualmente las horas presupuestadas a esos períodos. Esto también ajusta las fechas presupuestadas de las horas. Antes de esta actualización, no era posible ver de un vistazo los conflictos presupuestarios de un proyecto.
 
-Para obtener más información sobre el ajuste de fechas presupuestadas en el Planificador de recursos, consulte la sección &quot;Ajuste de Fechas de Presupuestación&quot; en el [Resumen del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+Para obtener más información sobre el ajuste de fechas presupuestadas en el Planificador de recursos, consulte la sección &quot;Ajuste de fechas de presupuesto&quot; en la [descripción general del Planificador de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 
 ## Programación de recursos: Restringir asignaciones a usuarios según la pertenencia a grupos {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 
 >[!NOTE]
 >
->Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Descripción general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Las herramientas de programación de recursos han quedado obsoletas y se han eliminado de Workfront con la versión 23.1. Para obtener información sobre la programación de recursos mediante el Distribuidor de cargas de trabajo, consulte [Información general del Distribuidor de cargas de trabajo](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Al realizar asignaciones de usuarios en el área de Programación (como se describe en &quot;Asignar manualmente tareas y problemas no asignados en las áreas de Programación&quot;), ahora puede configurar Workfront para que restrinja las asignaciones de tareas y problemas únicamente a los usuarios que sean miembros del grupo definido en el proyecto en el que se origina la tarea o el problema. 
 
@@ -339,4 +339,4 @@ Para obtener más información sobre la configuración de esta opción, consulte
 
 Ahora puede establecer el tono de los comentarios y las actualizaciones que realice en Workfront insertando emojis. Los emojis añadidos a los comentarios realizados en la pestaña Actualizaciones también se muestran en la notificación de actualización por correo electrónico. 
 
-Para obtener más información, consulte [Actualizar trabajo](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Para obtener más información, consulte [Trabajo de actualización](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

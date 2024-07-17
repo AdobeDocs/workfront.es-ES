@@ -9,8 +9,8 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 34%
+source-wordcount: '537'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 
 ## Recursos actualizados
 
-Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de las versiones 8, consulte [Novedades de la versión 8 de la API](../../wf-api/api/new-api-version-8.md). Los cambios realizados en un recurso se indican de la siguiente manera:
+Los siguientes recursos existentes se han actualizado con esta versión de la API de Adobe Workfront. Para ver los recursos nuevos de las versiones 8, [Novedades de la versión 8 de la API](../../wf-api/api/new-api-version-8.md). Los cambios realizados en un recurso se indican de la siguiente manera:
 
 * Las adiciones se enumeran simplemente
 * Las eliminaciones se indican con texto tachado
@@ -32,9 +32,9 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles
+<sup>1</sup> cambios en valores posibles
 
-### AccessRule<sup>1</sup> 
+### Regla de acceso<sup>1</sup> 
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -44,10 +44,10 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador eliminado: INFORMABLE\
-<sup>2</sup> Cambios en valores posibles
+<sup>1</sup> Indicador eliminado: NOTIFICABLE\
+<sup>2</sup> cambios en valores posibles
 
-### Ruta de aprobación
+### Aprobación
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 {style="table-layout:auto"}
 
 <sup>1</sup>Cambios en valores posibles\
-<sup>2</sup>Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE
+<sup>2</sup>Indicadores agregados: DYNAMIC, LAZY_READ y NOT_GROUPABLE
 
 ### Asignación
 
@@ -86,7 +86,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 | Campos | Referencias | Colecciones | Buscar | Acciones | Consultas | Operaciones |
 |---|---|---|---|---|---|---|
-| name<sup>1</sup> |   |   |   |   |   |   |
+| nombre<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -100,7 +100,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicador añadido: NOT_FILTERABLE
+<sup>1</sup>Indicador agregado: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -126,7 +126,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicador añadido: NOT_FILTERABLE
+<sup>1</sup>Indicador agregado: NOT_FILTERABLE
 
 ### Iteración
 
@@ -209,7 +209,7 @@ Los siguientes recursos existentes se han actualizado con esta versión de la AP
 
 {style="table-layout:auto"}
 
-<sup>1</sup>Indicador añadido: NOT_FILTERABLE
+<sup>1</sup>Indicador agregado: NOT_FILTERABLE
 
 ### QueueDef
 
@@ -334,4 +334,4 @@ Actualizar
 {style="table-layout:auto"}
 
 <sup>1</sup>Cambios en valores posibles\
-<sup>2</sup>Indicadores añadidos: DYNAMIC, LAZY_READ y NOT_GROUPABLE
+<sup>2</sup>Indicadores agregados: DYNAMIC, LAZY_READ y NOT_GROUPABLE

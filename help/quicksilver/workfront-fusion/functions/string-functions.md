@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td>  
    <td> 
-   <p>Actual: No [!DNL Workfront Fusion] requisito de licencia.</p> 
+   <p>Actual: no se requiere licencia para [!DNL Workfront Fusion].</p> 
    <p>O</p> 
    <p>Heredado: cualquiera </p> 
    </td>  
@@ -44,9 +44,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr>  
    <td role="rowheader">Product</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>[!UICONTROL Seleccionar] o [!UICONTROL Prime] [!DNL Workfront] Plan: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] está incluido.</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
    <p>O</p> 
-   <p>Actual: Su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
+   <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -56,7 +56,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL longitud (texto o búfer)]
+## [!UICONTROL length (text or buffer)]
 
 Devuelve la longitud de la cadena de texto (número de caracteres) o del búfer binario (tamaño del búfer en bytes).
 
@@ -80,7 +80,7 @@ Convierte a minúsculas todos los caracteres alfabéticos de una cadena de texto
 >
 >Devuelve: hello
 
-## [!UICONTROL poner en mayúsculas (texto)]
+## [!UICONTROL poner mayúsculas (texto)]
 
 Convierte el primer carácter de una cadena de texto a mayúsculas.
 
@@ -103,7 +103,7 @@ Pone en mayúscula la primera letra de cada palabra y en minúsculas todas las d
 >
 >Devuelve: [!UICONTROL Hello World]
 
-## [!UICONTROL ascii (texto; [eliminar diacríticos])]
+## [!UICONTROL ascii (texto; [quitar diacríticos])]
 
 Quita todos los caracteres que no sean ascii de una cadena de texto.
 
@@ -131,9 +131,9 @@ Reemplaza la cadena de búsqueda por la nueva cadena.
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->Devuelve: [!UICONTROL Hola mundo]
+>Devuelve: [!UICONTROL Hola a todos]
 
-Expresiones regulares (incluidas en `/.../`) se puede usar como cadena de búsqueda con una combinación de indicadores (como `g`, `i`, `m`) anexado:
+Las expresiones regulares (incluidas en `/.../`) se pueden usar como cadena de búsqueda con una combinación de indicadores (como `g`, `i`, `m`) anexados:
 
 >[!INFO]
 >
@@ -253,7 +253,7 @@ Descodifica los caracteres especiales de una dirección URL en texto.
 >**Ejemplo:**
 >`decodeURL( Automate%20your%20workflow )`
 >
->Devuelve: [!UICONTROL Automatización del flujo de trabajo]
+>Devuelve: [!UICONTROL Automatice su flujo de trabajo]
 
 ## [!UICONTROL escapeHTML (texto)]
 
@@ -307,7 +307,7 @@ Comprueba si el texto contiene la cadena de búsqueda.
 >
 >   Devuelve: [!UICONTROL false]
 
-## [!UICONTROL split (texto; separador)]
+## [!UICONTROL división (texto; separador)]
 
 Divide una cadena en una matriz de cadenas separando la cadena en subcadenas.
 
@@ -329,7 +329,7 @@ Calcula el hash md5 de una cadena.
 >
 >Devuelve: `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sha1 (texto; [codificación]; [key])]
+## [!UICONTROL sha1 (texto; [codificación]; [clave])]
 
 Calcula el hash sha1 de una cadena. Si se especifica el argumento clave, se devuelve un hash HMAC sha1 en su lugar. Codificaciones compatibles: &quot;hex&quot; (predeterminado), &quot;base64&quot; o &quot;latin1&quot;.
 
@@ -341,7 +341,7 @@ Calcula el hash sha1 de una cadena. Si se especifica el argumento clave, se devu
 >
 >Devuelve: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256 (texto; [codificación]; [key])]
+## [!UICONTROL sha256 (texto; [codificación]; [clave])]
 
 Calcula el hash sha256 de una cadena. Si se especifica el argumento clave, se devuelve un hash sha256 HMAC en su lugar. Codificaciones compatibles: &quot;hex&quot; (predeterminado), &quot;base64&quot; o &quot;latin1&quot;.>
 
@@ -353,23 +353,23 @@ Calcula el hash sha256 de una cadena. Si se especifica el argumento clave, se de
 >
 >Devuelve: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512 (texto; [codificación de salida]; [key]; [codificación de claves])]
+## [!UICONTROL sha512 (texto; [codificación de salida]; [clave]; [codificación de clave])]
 
 Calcula el hash sha512 de una cadena. Si se especifica el argumento clave, se devuelve un hash HMAC sha512 en su lugar.
 
 Codificaciones compatibles:
 
-* &quot;[!UICONTROL hechizar]&quot; (predeterminado)
+* &quot;[!UICONTROL hex]&quot; (predeterminado)
 * &quot;[!UICONTROL base64]&quot;
 * &quot;[!UICONTROL latin1]&quot;
 
 Codificaciones de clave compatibles:
 
-* &quot;[!UICONTROL texto]&quot; (predeterminado)
-* &quot;[!UICONTROL hechizar]&quot;
+* &quot;[!UICONTROL text]&quot; (predeterminado)
+* &quot;[!UICONTROL hex]&quot;
 * &quot;[!UICONTROL base64]&quot; o &quot;[!UICONTROL binario]&quot;
 
-Al usar &quot;[!UICONTROL binario]&quot;, una clave debe ser un búfer, no una cadena.
+Al utilizar la codificación de claves &quot;[!UICONTROL binary]&quot;, una clave debe ser un búfer, no una cadena.
 
 >[!INFO]
 >

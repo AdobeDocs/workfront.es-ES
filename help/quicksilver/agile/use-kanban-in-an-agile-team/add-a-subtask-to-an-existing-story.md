@@ -1,31 +1,31 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Agregar una subtarea a un artículo existente en el panel Kanban
-description: Lea este artículo para aprender a crear subtareas para artículos existentes en el tablero Kanban.
+title: Agregar una subtarea a un artículo existente en el Panel Kanban
+description: Revise este artículo para aprender a crear subtareas para historias existentes en el Panel Kanban.
 author: Lisa
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
 source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# Agregar una subtarea a un artículo existente en el panel Kanban
+# Agregar una subtarea a un artículo existente en el Panel Kanban
 
 Al crear subtareas para artículos existentes, tenga en cuenta lo siguiente:
 
-**Cuando la variable [!UICONTROL Modo de finalización de resumen] la configuración del proyecto se establece en [!UICONTROL Manual]:**
+**Cuando la configuración de [!UICONTROL Modo de finalización de resumen] del proyecto está establecida en [!UICONTROL Manual]:**
 
-* Puede mover un artículo principal con subtareas a [!UICONTROL Completar], que actualiza el artículo principal al 100 % y la variable [!UICONTROL Estado] a [!UICONTROL Completar]. Las subtareas no se actualizan.
-* Para actualizar el [!UICONTROL Porcentaje completado] para el artículo, debe actualizarlo desde el [!UICONTROL Historias] o desde la pestaña [!UICONTROL Detalles] del objeto.
+* Puede mover una historia principal con subtareas a [!UICONTROL Completar], que actualiza la historia principal al 100% y el [!UICONTROL Estado] a [!UICONTROL Completar]. Las subtareas no se actualizan.
+* Para actualizar el [!UICONTROL Porcentaje completado] de la historia, debe actualizarlo desde la ficha [!UICONTROL Historias] o desde la página [!UICONTROL Detalles] del objeto.
 
-**Cuando la variable [!UICONTROL Modo de finalización de resumen] la configuración del proyecto se establece en [!UICONTROL Automático]:**
+**Cuando la configuración de [!UICONTROL Modo de finalización de resumen] del proyecto está establecida en [!UICONTROL Automático]:**
 
-* No se puede mover el artículo principal a otro lugar. Para actualizar el [!UICONTROL Porcentaje completado] para el artículo, debe actualizar el [!UICONTROL Porcentaje completado] para cualquier subtarea. La variable [!UICONTROL Porcentaje completado] para el artículo se calcula en función de la variable [!UICONTROL Porcentaje completado] de todas las subtareas.
-* Mover un artículo principal con subtareas a [!UICONTROL Completar] actualiza el artículo principal al 100 % y la variable [!UICONTROL Estado] a [!UICONTROL Completar]. Las subtareas también se actualizan al 100% y la variable [!UICONTROL Estado] se actualiza a [!UICONTROL Completar].
+* No se puede mover la historia principal de forma generalizada. Para actualizar el [!UICONTROL Porcentaje completado] de la historia, debe actualizar el [!UICONTROL Porcentaje completado] para cualquier subtarea. El [!UICONTROL porcentaje completado] para la historia se calcula en función del [!UICONTROL porcentaje completado] de todas las subtareas.
+* Al mover una historia principal con subtareas a [!UICONTROL Completar], se actualiza la historia principal al 100% y el [!UICONTROL Estado] a [!UICONTROL Completar]. Las subtareas también se actualizan al 100% y [!UICONTROL Estado] se actualiza a [!UICONTROL Completado].
 
 ## Requisitos de acceso
 
@@ -41,23 +41,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Work] o superior</p> </td> 
+   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establecen restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo se [!DNL Workfront] administrador puede cambiar el nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Acceso de [!UICONTROL Contribute] o [!UICONTROL Manage] a la tarea en la que se encuentra la subtarea</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de [!UICONTROL Contribute] o [!UICONTROL Manage] a la tarea en la que se encuentra la subtarea</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-## Agregue una subtarea a un artículo existente en el [!UICONTROL Kanban] tablero
+## Agregar una subtarea a una historia existente en el tablero [!UICONTROL Kanban]
 
-1. Vaya a la [!UICONTROL Kanban] tablero que contiene el artículo en el que desea agregar una subtarea.
-1. Haga clic en el nombre de la tarea en el mosaico de artículo del [!UICONTROL Kanban] tablero.
-1. Agregue una subtarea a la tarea como lo haría en cualquier otra lista de tareas dentro de [!DNL Workfront], tal como se describe en [Crear subtareas](../../manage-work/tasks/create-tasks/create-subtasks.md).
+1. Vaya al tablero [!UICONTROL Kanban] que contiene la historia donde desea agregar una subtarea.
+1. Haga clic en el nombre de la tarea en el mosaico de la historia del tablero [!UICONTROL Kanban].
+1. Agregue una subtarea a la tarea como lo haría en cualquier otra lista de tareas dentro de [!DNL Workfront], como se describe en [Crear subtareas](../../manage-work/tasks/create-tasks/create-subtasks.md).

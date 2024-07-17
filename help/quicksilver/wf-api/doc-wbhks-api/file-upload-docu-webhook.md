@@ -10,8 +10,8 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ La carga de un archivo a un proveedor de almacenamiento de documentos es un proc
 
 Añadido a la versión 1.1 de esta especificación, el ID de documento y el ID de versión de documento se pueden utilizar para recuperar información adicional de Workfront.
 
-**Ejemplo:** Si el sistema de administración de documentos desea información adicional sobre el documento, el código de implementación del gancho web podría utilizar el ID del documento para recuperar esa información mediante la API RESTful de Workfront. Como práctica recomendada, esta información podría proceder de campos de datos personalizados del documento y contener tareas, problemas o proyectos.
+**Ejemplo:** Si el sistema de administración de documentos desea información adicional sobre el documento, el código de implementación del webhook podría usar el ID del documento para recuperar esa información mediante la API RESTful de Workfront. Como práctica recomendada, esta información podría proceder de campos de datos personalizados del documento y contener tareas, problemas o proyectos.
 
 ## Método POST
 
@@ -61,7 +61,7 @@ POST /uploadInit
  </tbody> 
 </table>
 
-## respuesta
+## Respuesta
 
 Los metadatos del archivo, tal como se definen en el extremo /metadata. Esto incluye el ID de documento utilizado por el proveedor.
 

@@ -9,13 +9,13 @@ exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 # Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados
 
-Las decisiones sobre pruebas y documentos son limitadas para todas las licencias Workfront no pagadas en los nuevos planes. Para obtener más información, consulte [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Las decisiones sobre pruebas y documentos son limitadas para todas las licencias Workfront no pagadas en los nuevos planes. Para obtener más información, vea [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Los límites se restablecen por usuario cada mes. Los límites de decisión para cada licencia difieren según el plan en el que se encuentre:
 
@@ -27,7 +27,7 @@ Los límites se restablecen por usuario cada mes. Los límites de decisión para
    </td>
    <td><strong>Colaborador</strong> 
    </td>
-   <td><strong>Ligero</strong> 
+   <td><strong>Claro</strong> 
    </td>
    <td><strong>Estándar</strong> 
    </td>
@@ -68,7 +68,7 @@ Si un usuario externo alcanza su límite de decisiones, no perderá acceso a Wor
 
 ## Usuarios colaboradores
 
-Una vez que un usuario con una licencia de colaborador alcanza su límite de decisiones, se actualiza automáticamente a la licencia básica con decisiones ilimitadas sobre pruebas y documentos. Para obtener más información sobre la licencia Light, consulte la [Nivel de acceso ligero](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) de la sección [Información general sobre niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artículo.
+Una vez que un usuario con una licencia de colaborador alcanza su límite de decisiones, se actualiza automáticamente a la licencia básica con decisiones ilimitadas sobre pruebas y documentos. Para obtener más información sobre la licencia Light, consulte la sección [Nivel de acceso Light](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) en el artículo [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 >[!NOTE]
 >
@@ -77,4 +77,4 @@ Una vez que un usuario con una licencia de colaborador alcanza su límite de dec
 
 ## Ver el número de decisiones de un usuario
 
-Puede ver el número de decisiones de un usuario en el área Usuarios de Workfront. Para obtener más información, consulte [Ver el número de decisiones de todos los usuarios](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+Puede ver el número de decisiones de un usuario en el área Usuarios de Workfront. Para obtener más información, vea [Ver el número de decisiones de todos los usuarios](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

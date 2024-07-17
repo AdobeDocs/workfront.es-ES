@@ -71,27 +71,27 @@ Los criterios utilizados para determinar la fecha proyectada de finalización di
 
 * **Tareas:** La fecha proyectada de finalización de las tareas se determina según los siguientes criterios:
 
-   * **Actualizaciones de progreso realizadas en la tarea por el usuario asignado de la tarea:** Las actualizaciones de progreso incluyen cambios en el porcentaje completado y cambios en el estado de la tarea.
-   * **Fecha de confirmación:** Si el usuario asignado a la tarea especifica una Fecha de compromiso, la Fecha de finalización prevista cambia para coincidir con la Fecha de compromiso.
+   * **Actualizaciones de progreso realizadas en la tarea por el usuario asignado de la tarea:** Las actualizaciones de progreso incluyen cambios en el porcentaje completado y en el estado de la tarea.
+   * **Fecha de confirmación:** Si el usuario asignado a la tarea especifica una Fecha de confirmación, la Fecha proyectada de finalización cambiará para coincidir con la Fecha de confirmación.
 
-     Para obtener más información sobre las fechas de compromiso, consulte el artículo [Resumen de fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Para obtener más información sobre las fechas de confirmación, consulte el artículo [Resumen de la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Predecesoras:** Si no hay retrasos en las tareas predecesoras, la fecha proyectada de finalización debe coincidir con la fecha planificada de finalización. A medida que se producen retrasos, las tareas dependientes muestran una Fecha proyectada de finalización mayor que la Fecha planificada de finalización.
+   * **Predecesoras:** Si no hay retrasos en las tareas predecesoras, la Fecha proyectada de finalización debe coincidir con la Fecha planificada de finalización. A medida que se producen retrasos, las tareas dependientes muestran una Fecha proyectada de finalización mayor que la Fecha planificada de finalización.
 
-     Para obtener más información sobre la Fecha planificada de finalización de las tareas, consulte [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+     Para obtener más información acerca de la fecha planificada de finalización de las tareas, vea [Información general sobre la fecha planificada de finalización de la tarea](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
   >Cuando la tarea predecesora de una tarea tiene una Fecha real de finalización, las tareas dependientes reciben una Fecha proyectada de finalización como se describe en el siguiente escenario:
   >
   >
-  >Si el proyecto tiene la Tarea A, la Tarea B y la Tarea C, y la Tarea B es la sucesora de la Tarea A, la Tarea C es la sucesora de la Tarea B y se agrega una Fecha de finalización real a la Tarea A, la Fecha proyectada de finalización se vuelve a calcular automáticamente para la Tarea B (siempre que la **Tipo de actualización** del proyecto se establece en automático y al cambiar), pero no se recalculará para la Tarea C. Actualmente, Workfront calcula la Fecha proyectada de finalización para las tareas que están un nivel por encima o por debajo de la Tarea actualizada, por motivos de rendimiento. 
+  >Si el proyecto tiene la Tarea A, la Tarea B y la Tarea C, y la Tarea B es la sucesora de la Tarea A, la Tarea C es la sucesora de la Tarea B y se agrega una Fecha de finalización real a la Tarea A, la Fecha proyectada de finalización se vuelve a calcular automáticamente para la Tarea B (siempre que el **Tipo de actualización** del proyecto esté establecido en Automático y al cambiar), pero no se volverá a calcular para la Tarea C. Actualmente, Workfront calcula la Fecha proyectada de finalización para las tareas que están un nivel por encima o por debajo de la Tarea actualizada, por motivos de rendimiento. 
 
-* **Problemas:** La fecha proyectada de finalización del problema se ha establecido inicialmente para que coincida con la fecha planificada de finalización del problema.
+* **Problemas:** La fecha proyectada de finalización del problema se estableció inicialmente para que coincida con la fecha planificada de finalización del problema.
 
   Si el usuario asignado del problema especifica una fecha de compromiso, tanto la fecha de finalización prevista como la fecha planificada de finalización cambian para coincidir con la fecha de compromiso.
 
-  Para obtener más información sobre las fechas de compromiso, consulte el artículo [Resumen de fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Para obtener más información sobre las fechas de confirmación, consulte el artículo [Resumen de la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Ver la fecha proyectada de finalización
 
@@ -100,14 +100,14 @@ En los informes puede ver la Fecha proyectada de finalización de proyectos, tar
 ### Ver la fecha proyectada de finalización de un proyecto {#view-the-projected-completion-date-of-a-project}
 
 1. Vaya al proyecto en el que desea ver la fecha proyectada de finalización.
-1. Clic **Detalles del proyecto** en el panel izquierdo.
-1. Busque el **Fecha proyectada de finalización** en el campo **Información general** > **Fechas del proyecto** sección.
+1. Haga clic en **Detalles del proyecto** en el panel izquierdo.
+1. Busque el campo **Fecha proyectada de finalización** en la sección **Información general** > **Fechas del proyecto**.
 
 ### Ver la fecha proyectada de finalización de una tarea {#view-the-projected-completion-date-of-a-task}
 
 1. Vaya a la tarea en la que desea ver la Fecha proyectada de finalización.
-1. Clic **Detalles de tarea** en el panel izquierdo.
-1. Busque el **Fecha proyectada de finalización** en el campo **Información general** > **Fechas y restricciones de la tarea** sección.
+1. Haga clic en **Detalles de la tarea** en el panel izquierdo.
+1. Busque el campo **Fecha proyectada de finalización** en la sección **Información general** > **Fechas y restricciones de la tarea**.
 
 ### Ver la fecha proyectada de finalización de un problema {#view-the-projected-completion-date-of-an-issue}
 
@@ -115,13 +115,13 @@ La fecha proyectada de finalización de los problemas solo se puede ver en el in
 
 Para crear un informe de problemas que incluya la fecha proyectada de finalización:
 
-1. Cree un informe de problemas, tal como se describe en el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Seleccione el **Columnas (vista)** pestaña.
-1. Clic **Agregar columna** y empiece a escribir **Fecha proyectada de finalización** en el **Mostrar en esta columna:** field.
+1. Cree un informe de problemas, tal como se describe en el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Seleccione la ficha **Columnas (vista)**.
+1. Haga clic en **Agregar columna** y empiece a escribir **Fecha proyectada de finalización** en el campo **Mostrar en esta columna:**.
 
-1. Selecciónelo cuando aparezca en la lista, bajo el icono **Problema** objeto. 
+1. Selecciónelo cuando aparezca en la lista, bajo el objeto **Issue**. 
 1. Haga clic en **Guardar + Cerrar**.
 
-   El **Fecha proyectada de finalización** en el informe se rellena. 
+   La columna **Fecha proyectada de finalización** del informe se ha rellenado. 
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

@@ -69,7 +69,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 * Puede combinar dos columnas adyacentes y mostrar la información de cada columna separadas por un salto de línea, o puede combinar la información en dos columnas adyacentes sin separador entre la información de cada columna.
 * Puede combinar la información de más de dos columnas aplicando la misma sintaxis descrita en este artículo a una columna ya compartida y a una adyacente.
-* El `valueformat=HTML` La línea es obligatoria en una columna compartida. De lo contrario, las columnas no contienen información (estarán en blanco) cuando el informe se exporte desde Adobe Workfront.
+* La línea `valueformat=HTML` es obligatoria en una columna compartida. De lo contrario, las columnas no contienen información (estarán en blanco) cuando el informe se exporte desde Adobe Workfront.
 * Es posible que no se admita el formato condicional en las columnas combinadas.
 
   Existen las siguientes excepciones:
@@ -78,11 +78,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    * Al exportar la vista a un archivo de PDF, el formato condicional se aplica a la primera columna de una columna combinada.
    * Al exportar la vista a un archivo de Excel, las columnas combinadas se muestran como columnas independientes. Las columnas individuales también muestran sus respectivas reglas de formato condicional.
 
-* Columnas con el **viewalias** puede limitar la cantidad de columnas que se pueden combinar. Para evitar estos límites, evite utilizar la variable **viewalias** atributo. Si debe incluir la variable **viewalias** en una columna, asegúrese de que sea el último elemento enumerado en la columna.
+* Las columnas con el atributo **viewalias** pueden limitar la cantidad de columnas que se pueden combinar. Para evitar estos límites, evite utilizar el atributo **viewalias**. Si debe incluir el atributo **viewalias** en una columna, asegúrese de que sea el último elemento que aparezca en la columna.
 
 * Si exporta una lista con columnas compartidas a un formato de Excel o Delimitado por tabuladores, estas columnas se separan en el archivo exportado.
 
-* Cuando una o ambas columnas muestran un `tile` Campo de tipo, se introduce automáticamente un salto de línea forzado en la columna combinada. Por ejemplo, los campos de texto con formato son `tile` escriba campos. En este caso, hay un código de línea de `type=tile` al ver las columnas en modo texto.
+* Cuando una o ambas columnas muestran un campo de tipo `tile`, se introduce automáticamente un salto de línea forzado en la columna combinada. Por ejemplo, los campos de texto con formato son de tipo `tile`. En este caso, hay un código de línea de `type=tile` cuando se visualizan las columnas en modo de texto.
 
 ## Combinar datos de dos columnas sin un salto de línea
 
@@ -98,13 +98,13 @@ Para combinar datos de dos columnas sin un salto de línea:
 
    `sharecol=true`
 
-   Al combinar las dos primeras columnas de una lista o informe, Workfront precede a cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.` y las líneas de texto que contienen información sobre la segunda columna con `column.1.` .
+   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.` y las líneas de texto que contienen información sobre la segunda columna con `column.1.`
 
    Debe anteponer el número de columna de la primera columna al número de esa columna. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 
    Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información para compartir de cada columna.
 
-   **Ejemplo:** A continuación se muestra el código de modo de texto de una columna combinada que contiene tres columnas independientes, empezando por la segunda columna de la lista. Los valores combinados son Nombre del proyecto, Fecha planificada de inicio y Nombre del propietario del proyecto. No hay ningún salto entre los tres valores:
+   **Ejemplo:** A continuación se muestra el código de modo de texto de una columna combinada que contiene tres columnas independientes, comenzando por la segunda columna de la lista. Los valores combinados son Nombre del proyecto, Fecha planificada de inicio y Nombre del propietario del proyecto. No hay ningún salto entre los tres valores:
 
    `column.1.valuefield=name`
 
@@ -124,7 +124,7 @@ Para combinar datos de dos columnas sin un salto de línea:
 
 ![](assets/shared-column-no-line-breaks-350x142.png)
 
-1. Clic **Guardar**, entonces **Guardar vista**.
+1. Haz clic en **Guardar** y luego en **Guardar vista**.
 
 ## Combinar datos de dos columnas con un salto de línea
 
@@ -137,7 +137,7 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
    >* Las columnas que desee combinar deben ser adyacentes entre sí.
    >* Debe hacer clic en la primera columna que desee combinar.
 
-1. Clic **Cambiar a modo de texto** y agregue el siguiente código en la columna central que agregó en el paso 1:
+1. Haga clic en **Cambiar al modo de texto** y agregue el código siguiente en la columna central que agregó en el paso 1:
 
    `value=<br>`
 
@@ -148,11 +148,11 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
    `sharecol=true`
 
 
-1. Haga clic en la primera columna y luego en **Cambiar a modo de texto** A continuación, añada el siguiente texto a la columna:
+1. Haga clic en la primera columna y haga clic en **Cambiar al modo de texto**; a continuación, agregue el texto siguiente a la columna:
 
    `sharecol=true`
 
-   Al combinar las dos primeras columnas de una lista o informe, Workfront precede a cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.`, la columna con la que se comparte información `column.1.`y las líneas de texto que contienen información sobre la segunda columna con `column.2.`.
+   Al combinar las dos primeras columnas de una lista o informe, Workfront precede cada línea de texto que contiene información sobre el objeto de la primera columna con `column.0.`, la columna con la información de uso compartido con `column.1.` y las líneas de texto que contienen información sobre la segunda columna con `column.2.`.
 
    Si la columna combinada está en el centro de la vista, las columnas se numeran según su lugar en la vista. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 
@@ -203,4 +203,4 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
 
-1. Clic **Guardar**, entonces **Guardar vista**.
+1. Haz clic en **Guardar** y luego en **Guardar vista**.

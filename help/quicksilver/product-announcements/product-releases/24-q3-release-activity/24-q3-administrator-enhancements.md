@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de administrador realizadas con la versión del tercer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2024, consulte [Información general de la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Ya están disponibles las reglas empresariales
 
@@ -28,7 +28,7 @@ Los administradores ahora pueden agregar reglas empresariales en el área de Con
 
 Una regla de negocio permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas se crean mediante una fórmula similar a los campos calculados en los formularios personalizados.
 
-Para obtener más información, consulte [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Para obtener más información, consulte [Crear y editar reglas de negocio](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Con la versión 24.7, el diseñador de formularios estará disponible de forma g
 
 Después de esta versión, ya no tendrá la opción de volver al generador de formularios heredado.
 
-Para obtener más información sobre el diseñador de formularios y una demostración en vídeo, consulte la [nota de la versión beta de form designer](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Para obtener más información acerca del diseñador de formularios y ver un vídeo de demostración, consulte la [nota de la versión beta del diseñador de formularios](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Mover objetos entre entornos de Workfront con la promoción del entorno
 
@@ -58,9 +58,9 @@ La promoción de entornos permite mover objetos de un entorno de Workfront a otr
 
 Anteriormente, los objetos debían configurarse en entornos de producción independientemente de los entornos de zona protegida o de vista previa.
 
-Para obtener más información sobre la promoción del entorno, consulte [Descripción general del movimiento de objetos entre entornos de Workfront (Promoción de entornos)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+Para obtener más información acerca de la promoción de entornos, vea [Información general sobre cómo mover objetos entre entornos de Workfront (Promoción de entornos)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -101,4 +101,4 @@ Todavía puede crear un campo desplegable de selección única y cambiar el tipo
 
 Esta opción no está disponible en el generador de formularios heredado.
 
-Para obtener más información, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

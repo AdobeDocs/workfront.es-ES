@@ -2,47 +2,48 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-tasks
-title: Descripción general de la ruta crítica del proyecto
-description: La determinación de la ruta crítica de un proyecto es una forma automática de que Adobe Workfront marque una secuencia de tareas en un proyecto que pueden afectar a la cronología del proyecto. Las tareas que pueden afectar a la cronología del proyecto se marcan como tareas de ruta crítica.
+title: Información general sobre la ruta crítica del proyecto
+description: La determinación de la ruta crítica de un proyecto es una forma automática para que Adobe Workfront marque una secuencia de tareas en un proyecto que puedan afectar a la cronología del proyecto. Las tareas que pueden afectar a la cronología del proyecto se marcan como tareas de ruta crítica.
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
-# Descripción general de la ruta crítica del proyecto
+# Información general sobre la ruta crítica del proyecto
 
-La determinación de la ruta crítica de un proyecto es una forma automática de que Adobe Workfront marque una secuencia de tareas en un proyecto que pueden afectar a la cronología del proyecto. Las tareas que pueden afectar a la cronología del proyecto se marcan como tareas de ruta crítica.
+La determinación de la ruta crítica de un proyecto es una forma automática para que Adobe Workfront marque una secuencia de tareas en un proyecto que puedan afectar a la cronología del proyecto. Las tareas que pueden afectar a la cronología del proyecto se marcan como tareas de ruta crítica.
 
 Las siguientes funciones pueden afectar a la ruta crítica de un proyecto:
 
-* Estructura de desglose de trabajo del proyecto.
+* La estructura de desglose de trabajo del proyecto.
 
-   Para obtener más información sobre la estructura de desglose de trabajo, consulte [Determinar la estructura de desglose de trabajo de un proyecto](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+  Para obtener más información acerca de la estructura de desglose de trabajo, vea [Determinar la estructura de desglose de trabajo en un proyecto](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
 
-* Tiempo (duración) que tardará cada tarea en completarse.
-* Las dependencias entre las tareas.
+* Tiempo (duración) que tarda cada tarea en completarse.
+* Dependencias entre las tareas.
 
-   Tenga en cuenta lo siguiente:
+  Tenga en cuenta lo siguiente:
 
-   * Cuando una tarea en la ruta crítica tiene una relación predecesora, sus predecesores y sucesores también están en la ruta crítica si los cambios en las fechas de los predecesores o los sucesores afectan directamente a sus dependientes.
+   * Cuando una tarea de la ruta crítica tiene una relación de predecesora, sus predecesoras y sucesoras también se encuentran en la ruta crítica si los cambios en las fechas de las predecesoras o sucesoras afectan directamente a sus dependientes.
 
-      >[!TIP]
-      >
-      >Cuando la fecha del sucesor de una tarea no afecta directamente a la fecha de sus tareas dependientes y no afecta a las fechas del proyecto, la tarea sucesora no está en la ruta crítica.
-      >
-      >
-      >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >[!TIP]
+     >
+     >Cuando la fecha del sucesor de una tarea no afecta directamente a la fecha de sus tareas dependientes y no afecta a las fechas del proyecto, la tarea sucesora no se encuentra en la ruta crítica.
+     >
+     >
+     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >
 
-   * Cuando una subtarea se identifica como una tarea de Ruta crítica, la tarea principal también se identifica como una tarea de Ruta crítica, si la Fecha y hora de inicio proyectadas del elemento principal es la misma que la de la subtarea.
+   * Cuando una subtarea se identifica como una tarea de ruta crítica, la tarea principal también se identifica como una tarea de ruta crítica, si la fecha y hora de inicio proyectadas de la tarea principal es la misma que la de la subtarea.
 
-Teniendo en cuenta estas funciones, el sistema calcula la ruta crítica utilizando la ruta más larga entre la tarea más temprana y la tarea que determina el final del proyecto. El cálculo de ruta crítica tiene en cuenta la hora más temprana y la más reciente en que cada tarea puede comenzar y finalizar sin hacer que el proyecto sea más largo. Este proceso determina qué tareas son &quot;críticas&quot; (y pertenecen a la ruta más larga) y cuáles tienen &quot;flotación total&quot; (se puede retrasar sin hacer el proyecto más largo).
+Teniendo en cuenta estas características, el sistema calcula la ruta crítica utilizando la ruta más larga entre la tarea más temprana y la tarea que determina el final del proyecto. El cálculo de ruta crítica tiene en cuenta cuál es la hora más temprana y la más reciente en la que cada tarea puede comenzar y finalizar sin alargar el proyecto. Este proceso determina qué tareas son &quot;críticas&quot; (y pertenecen a la ruta más larga) y cuáles tienen &quot;flotación total&quot; (se puede retrasar sin hacer que el proyecto sea más largo).
 
-Cualquier retraso en la actividad de una tarea en la ruta crítica afecta directamente a la fecha de finalización prevista del proyecto (no hay flotación en la ruta crítica).
+Cualquier retraso en la actividad de una tarea en la ruta crítica afecta directamente a la fecha proyectada de finalización del proyecto (no hay flotante en la ruta crítica).
 
 ## Requisitos de acceso
 
@@ -53,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -62,11 +63,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver o acceso superior a Tareas</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior a Tareas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o permisos superiores en una tarea </p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver o permisos superiores en una tarea </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,48 +76,48 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Ver la ruta crítica
 
-Puede ver las tareas que pertenecen a la ruta crítica en las siguientes áreas de la aplicación Workfront:
+Puede ver las tareas que pertenecen a la ruta crítica en las siguientes áreas de la aplicación de Workfront:
 
-* [Ver la ruta crítica en el gráfico de Gantt](#view-the-critical-path-in-the-gantt-chart)
+* [Ver la ruta crítica en el gráfico Gantt](#view-the-critical-path-in-the-gantt-chart)
 * [Ver la ruta crítica en una lista de tareas o un informe](#view-the-critical-path-in-a-task-list-or-report)
 
-### Ver la ruta crítica en el gráfico de Gantt {#view-the-critical-path-in-the-gantt-chart}
+### Ver la ruta crítica en el gráfico Gantt {#view-the-critical-path-in-the-gantt-chart}
 
-Para ver las tareas en la ruta crítica del diagrama de Gantt:
+Para ver las tareas de la ruta crítica en el diagrama de Gantt:
 
 1. Vaya a un proyecto para el que desee ver la ruta crítica.
 1. Haga clic en **Tareas** en el panel izquierdo.
-1. Haga clic en el **Diagrama de Gantt** en la esquina superior derecha de la lista de tareas.
+1. Haga clic en el icono **Diagrama de Gantt** en la esquina superior derecha de la lista de tareas.
 
    ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
 
-1. Expanda el **Opciones** y, a continuación, active la **Ruta crítica** .
+1. Expanda el menú **Opciones** y, a continuación, habilite la opción **Ruta crítica**.
 
-   Las tareas que se encuentran en la ruta crítica tienen una línea roja por encima de su cronología en el gráfico de Gantt.
+   Las tareas que se encuentran en la ruta crítica tienen una línea roja sobre su escala de tiempo en el gráfico Gantt.
 
-   ![crtic_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
+   ![ruta_crítica_en_Gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
 ### Ver la ruta crítica en una lista de tareas o un informe {#view-the-critical-path-in-a-task-list-or-report}
 
-Para ver qué tareas están en la ruta crítica en una lista de tareas:
+Para ver qué tareas se encuentran en la ruta crítica en una lista de tareas:
 
 1. Vaya a un proyecto para el que desee ver la ruta crítica.
 1. Haga clic en **Tareas** en el panel izquierdo.
-1. En el **Ver** menú desplegable, seleccione **Estado**.
+1. En el menú desplegable **Ver**, seleccione **Estado**.
 
-   Las tareas que se encuentran en la ruta crítica tienen un **Ruta crítica** en la variable **Indicadores** de la lista.
+   Las tareas que se encuentran en la ruta crítica tienen el indicador **Ruta crítica** en la columna **Indicadores** de la lista.
 
    Puede aplicar la misma vista a un informe de tareas.
 
-   Para obtener más información sobre la creación de informes, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener más información acerca de la creación de informes, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    O
 
-   En el **Filtro** menú desplegable, seleccione **Nuevo filtro**.
+   En el menú desplegable **Filtro**, seleccione **Nuevo filtro**.
 
-1. Haga clic en **Agregar regla de filtro** y empiece a escribir **Es crítico** en el **Mostrar solo tareas en las que ...** campo .
+1. Haga clic en **Agregar regla de filtro** y empiece a escribir **Es crítico** en **Mostrar solo tareas en las que el campo ...**.
 
-1. Selecciónela cuando aparezca en la lista.
+1. Selecciónelo cuando aparezca en la lista.
 1. Haga clic en **Guardar filtro**.
 
    La lista solo debe mostrar las tareas que se encuentran en la ruta crítica.

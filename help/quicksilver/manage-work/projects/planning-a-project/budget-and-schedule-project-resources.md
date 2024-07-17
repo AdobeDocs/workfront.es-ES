@@ -27,7 +27,7 @@ Asegúrese de hacer lo siguiente al finalizar la planificación de sus proyectos
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Planificación de recursos:índice de artículos](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Planificación de recursos:índice de artículo](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Introducción al Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* Programe sus recursos o asígnelos a tareas y problemas. Al asignar los recursos a tareas y problemas, puede asociar usuarios, equipos o roles a elementos de trabajo específicos, haciéndolos responsables de completar estos elementos. Para obtener más información, consulte [Resumen del Distribuidor de cargas](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Programe sus recursos o asígnelos a tareas y problemas. Al asignar los recursos a tareas y problemas, puede asociar usuarios, equipos o roles a elementos de trabajo específicos, haciéndolos responsables de completar estos elementos. Para obtener más información, consulte [Resumen del Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

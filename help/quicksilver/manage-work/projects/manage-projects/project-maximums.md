@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Algunos ejemplos de dependencias entre tareas que podrían influir o impedir que
   </tr> 
   <tr> 
    <td role="rowheader"><p>Cálculos de cronología</p></td> 
-   <td>Workfront no realiza cálculos de escala de tiempo automáticos para proyectos que no se hayan actualizado en seis meses y no se reanudarán hasta que se realice una actualización.<p>En el caso de los proyectos que no se hayan actualizado en tres meses, Workfront realiza cálculos de escala de tiempo semanalmente en lugar de cada noche.</p><p>Para obtener información sobre el cálculo de la escala de tiempo del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular escalas de tiempo del proyecto</a>. </p></td> 
+   <td>Workfront no realiza cálculos de escala de tiempo automáticos para proyectos que no se hayan actualizado en seis meses y no se reanudarán hasta que se realice una actualización.<p>En el caso de los proyectos que no se hayan actualizado en tres meses, Workfront realiza cálculos de escala de tiempo semanalmente en lugar de cada noche.</p><p>Para obtener información sobre cómo calcular la escala de tiempo del proyecto, vea <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular escala de tiempo del proyecto</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>

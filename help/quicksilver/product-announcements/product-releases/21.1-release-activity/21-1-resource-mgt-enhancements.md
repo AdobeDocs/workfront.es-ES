@@ -19,17 +19,17 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 21.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 15 de febrero de 2021.
 
-Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general de la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general sobre la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Distribuidor de cargas de trabajo para proyectos
 
 El Distribuidor de cargas de trabajo ya está disponible dentro de un proyecto. Ahora tiene la opción de seleccionar entre utilizar el Distribuidor de cargas de trabajo o la herramienta Programación para administrar los recursos del proyecto.
 
-Para obtener información sobre dónde se puede encontrar el Distribuidor de cargas de trabajo en Adobe Workfront, consulte [Localización del Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Para obtener información sobre dónde se puede encontrar el Distribuidor de cargas de trabajo en Adobe Workfront, consulte [Localizar el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Workfront Balancer disponible para un equipo
 
 El Distribuidor de cargas de trabajo ya está disponible en un equipo. Ahora tiene la opción de seleccionar entre utilizar el Distribuidor de cargas de trabajo o la herramienta de programación para administrar los recursos del equipo.
 
-Para obtener información sobre dónde se puede encontrar el Distribuidor de cargas de trabajo en Workfront, consulte [Localización del Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Para obtener información sobre dónde se puede encontrar el Distribuidor de cargas de trabajo en Workfront, consulte [Localizar el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

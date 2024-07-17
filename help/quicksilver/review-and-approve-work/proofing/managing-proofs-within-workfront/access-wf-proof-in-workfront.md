@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Puede acceder rápidamente a su cuenta de Workfront Proof directamente desde la 
 
   Póngase en contacto con Asistencia al cliente de Workfront y solicite este acceso para todos los usuarios de revisión del sistema, independientemente de los permisos que tengan.
 
-  Para obtener más información, consulte [Permitir que todos los usuarios de revisión accedan a Workfront Proof en Workfront](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) en este artículo.
+  Para obtener más información, consulte [Habilitar a todos los usuarios de revisión para acceder a Workfront Proof en Workfront](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) en este artículo.
 
 Si no puede acceder a Workfront Proof como se explica en esta sección, póngase en contacto con su administrador de Workfront.
 
@@ -40,8 +40,8 @@ De forma predeterminada, solo los usuarios con derechos administrativos en Workf
 
    Ha iniciado sesión automáticamente en su cuenta de Workfront Proof Premium.
 
-Para obtener información sobre la funcionalidad disponible después de iniciar sesión en la cuenta de Workfront Proof Premium, consulte la [Sitio de ayuda de Workfront](https://support.workfront.com).
+Para obtener información acerca de la funcionalidad disponible después de iniciar sesión en la cuenta de Workfront Proof Premium, consulte el [Sitio de ayuda de Workfront](https://support.workfront.com).
 
 ## Permitir que todos los usuarios de revisión accedan a Workfront Proof en Workfront {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 
-De forma predeterminada, solo los usuarios con derechos administrativos en Workfront pueden acceder a Workfront Proof como se describe en [Acceso a Workfront Proof desde Workfront](#access-workfront-proof-from-workfront)
+De manera predeterminada, solo los usuarios con derechos administrativos en Workfront pueden acceder a Workfront Proof como se describe en [Acceder a Workfront Proof desde Workfront](#access-workfront-proof-from-workfront)

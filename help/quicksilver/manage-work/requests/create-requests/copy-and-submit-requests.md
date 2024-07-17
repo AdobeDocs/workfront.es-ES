@@ -8,8 +8,8 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1381'
+ht-degree: 1%
 
 ---
 
@@ -68,16 +68,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
 
-Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso para agregar solicitudes a una cola de solicitudes</p> <p>Ver permisos superiores en la solicitud existente</p> <p>Para obtener información sobre cómo configurar una cola de solicitudes, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> </td> 
+   <td> <p>Acceso para agregar solicitudes a una cola de solicitudes</p> <p>Ver permisos superiores en la solicitud existente</p> <p>Para obtener información sobre cómo configurar una cola de solicitudes, vea <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Requisitos previos
 
@@ -88,7 +88,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 * Solo puede copiar y enviar solicitudes enviadas. No puede copiar solicitudes redactadas.
 * Puede copiar y enviar solicitudes que haya enviado originalmente, o solicitudes que otros hayan enviado y tenga acceso al menos a Ver.
 * Siempre tiene acceso para copiar y enviar una copia de sus propias solicitudes, a menos que alguien le quite los permisos.
-* El acceso para copiar y enviar solicitudes enviadas originalmente por otros usuarios se puede conceder automáticamente a personas de la misma compañía cuando el creador de la cola de solicitudes habilita la **Las personas de la misma compañía heredarán los mismos permisos en todas las solicitudes** en las áreas Detalles de cola o Editar proyecto. Deshabilitar esta configuración solo permite que el solicitante original vea sus propias solicitudes.
+* El acceso para copiar y enviar solicitudes enviadas originalmente por otros podría concederse automáticamente a personas de la misma compañía cuando el creador de la cola de solicitudes habilite **Las personas de la misma compañía heredarán los mismos permisos para todas las solicitudes** en las áreas Detalles de cola o Editar proyecto. Deshabilitar esta configuración solo permite que el solicitante original vea sus propias solicitudes.
 
   Para obtener más información, consulte los siguientes artículos:
 
@@ -105,7 +105,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
      >
      >Si el tema de la cola era el único en la cola de solicitudes, aún puede copiar y enviar la solicitud y se guardará en la propia cola.
 
-   * La cola de solicitudes ya no se publica como cola de solicitudes de ayuda. Para obtener más información, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * La cola de solicitudes ya no se publica como cola de solicitudes de ayuda. Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Si la cola de solicitudes no tiene ningún tema en cola y la solicitud original se envió antes de enero de 2022.
 
    * El estado del proyecto asociado a la cola de solicitudes ya no es Actual.
@@ -118,8 +118,8 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 
 ## Copiar y enviar solicitudes
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Solicitudes**.
-1. (Condicional) Si la sección Enviada no se muestra de forma predeterminada, haga clic en **Enviado** en el panel izquierdo.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Solicitudes**.
+1. (Condicional) Si la sección Enviados no se muestra de forma predeterminada, haga clic en **Enviados** en el panel izquierdo.
 
    >[!TIP]
    >
@@ -133,11 +133,11 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
    >
    > Si no ha seleccionado una solicitud primero, el icono Copiar aparece atenuado.
 
-   * Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha del nombre de la solicitud y haga clic en **Copiar y enviar como nuevo**
+   * Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre de la solicitud, luego haga clic en **Copiar y enviar como nuevo**
 
      O
 
-     Haga clic con el botón derecho en la solicitud seleccionada y luego haga clic en **Copiar y enviar como nuevo**.
+     Haga clic con el botón derecho en la solicitud seleccionada, luego haga clic en **Copiar y enviar como nuevo**.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -147,14 +147,14 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 
 1. (Opcional) Actualice la siguiente información, si es necesario:
 
-   * **Tipo de solicitud**: la cola de solicitudes en la que se guarda la solicitud copiada. De forma predeterminada, la solicitud copiada se guarda en la cola de solicitudes de la solicitud original.
-   * **Grupos de temas** y **Temas de cola**, si están seleccionadas. Los nombres o los grupos de temas y los temas de colas se personalizan según el entorno. De forma predeterminada, la solicitud copiada se guarda en los grupos de temas y en los temas de cola de la solicitud original.
+   * **Tipo de solicitud**: la cola de solicitudes donde se guardó la solicitud copiada. De forma predeterminada, la solicitud copiada se guarda en la cola de solicitudes de la solicitud original.
+   * **Grupos de temas** y **Temas de colas**, si están seleccionados. Los nombres o los grupos de temas y los temas de colas se personalizan según el entorno. De forma predeterminada, la solicitud copiada se guarda en los grupos de temas y en los temas de cola de la solicitud original.
 
      >[!TIP]
      >
      >Si la ruta cambia de la ruta de la solicitud original, el creador de la cola de solicitudes modifica la cola.
 
-1. (Opcional) Actualice la información de la solicitud copiada. Según los campos que habilite el creador de la cola de solicitudes en la **Campos de nuevos problemas** de la sección **Detalles de cola** en el proyecto, puede encontrar cualquiera de los siguientes campos:
+1. (Opcional) Actualice la información de la solicitud copiada. Según los campos que habilitó el creador de la cola de solicitudes en la sección **Nuevos campos de problema** de la subpestaña **Detalles de la cola** del proyecto, podría encontrar cualquiera de los siguientes campos:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Asunto</strong> </td> 
-      <td>Muestra el nombre de la solicitud original. Actualícelo si es necesario. De lo contrario, Workfront asigna un nombre a la solicitud copiada <b>Copia de &lt;name of="" original="" request=""&gt;</b>. Este es un campo obligatorio.</td> 
+      <td>Muestra el nombre de la solicitud original. Actualícelo si es necesario. De lo contrario, Workfront nombra la solicitud copiada <b>Copia de &lt;Nombre de la solicitud original&gt;</b>. Este es un campo obligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descripción</strong> </td> 
@@ -195,7 +195,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
        </ul> <p>El administrador de Workfront puede modificar los nombres de las gravedades.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Contacto primario</strong> </td> 
+      <td role="rowheader"><strong>Contacto principal</strong> </td> 
       <td>El contacto principal de una solicitud es usted, ya que usted es la persona indicada para abordar cualquier pregunta relacionada con la solicitud. Sin embargo, puede cambiarlo por cualquier otro usuario de Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -241,6 +241,6 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
    >* Todos los formularios personalizados adjuntos a la solicitud original y los valores incluidos en los campos personalizados se transfieren a la solicitud copiada. Esto incluye campos que contienen lógica.
    >* No se pueden eliminar los formularios personalizados de la solicitud copiada.
 
-1. Clic **Enviar**.
+1. Haga clic en **Enviar**.
 
    La solicitud copiada se envía como una nueva solicitud en la cola de solicitudes especificada.

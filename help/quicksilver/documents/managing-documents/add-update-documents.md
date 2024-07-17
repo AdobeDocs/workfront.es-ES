@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: April, 2024-->
 
-Puede añadir o responder a las actualizaciones de un documento para comunicarse con los colaboradores y crear una pista de auditoría. Para obtener información sobre cómo agregar actualizaciones a elementos de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Puede añadir o responder a las actualizaciones de un documento para comunicarse con los colaboradores y crear una pista de auditoría. Para obtener información sobre cómo agregar actualizaciones a elementos de trabajo, vea [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Requisitos de acceso
 
@@ -53,14 +53,14 @@ Debe tener lo siguiente:
 
 ## Agregar o responder a una actualización de un documento
 
-1. Vaya al objeto que contiene el documento y seleccione **Documentos** en el panel izquierdo.
+1. Vaya al objeto que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
 1. Busque el documento que necesita y realice una de las siguientes acciones:
 
-   * Haga clic en el documento de la lista y, a continuación, en **Abrir resumen** icono ![](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha, agregue un nuevo comentario o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener más información sobre el Resumen, consulte [Resumen de la información general sobre documentos](../../documents/managing-documents/summary-for-documents.md).
-   * Pase el ratón sobre el documento y haga clic **Detalles del documento**, entonces **Actualizaciones** en el panel izquierdo.
-Para obtener más información sobre cómo añadir actualizaciones a objetos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * Haga clic en el documento de la lista, haga clic en el icono **Abrir resumen** ![](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha y, a continuación, agregue un nuevo comentario, o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener información sobre el resumen, consulte [Resumen de documentos](../../documents/managing-documents/summary-for-documents.md).
+   * Pase el ratón sobre el documento, haga clic en **Detalles del documento** y luego en **Actualizaciones** en el panel izquierdo.
+Para obtener más información sobre cómo agregar actualizaciones a objetos, vea [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Las actualizaciones y respuestas se añaden al documento y a los objetos de mayor clasificación. Para obtener más información, consulte [Información general de la sección Actualización](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   Las actualizaciones y respuestas se añaden al documento y a los objetos de mayor clasificación. Para obtener más información, consulte [Actualizar información general de sección](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 ## Agregar una respuesta a un comentario de revisión de un documento
@@ -70,6 +70,6 @@ En el área de Actualizaciones, cuando responde a un comentario que alguien hizo
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. Clic **Responder en la prueba**, escriba el comentario en el visor de pruebas que se inicia y haga clic en **Responder**.
+1. Haga clic en **Responder en la revisión**, escriba el comentario en el visor de revisión que se inicia y, a continuación, haga clic en **Responder**.
 
-   Si necesita información sobre cómo escribir comentarios y respuestas en el visor de pruebas, consulte [Comentario sobre una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+   Si necesita información sobre cómo escribir comentarios y respuestas en el visor de revisión, vea [Comentario sobre una revisión](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).

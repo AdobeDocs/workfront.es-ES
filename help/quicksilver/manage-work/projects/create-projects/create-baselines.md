@@ -97,15 +97,15 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 >[!IMPORTANT]
 >
->Una línea base toma una instantánea del nombre, las fechas y la información financiera del proyecto. La línea de base no incluye los valores de los campos personalizados del proyecto. Para obtener información sobre la información financiera incluida en la línea de base, consulte [Finanzas del proyecto incluidas en las bases de referencia del proyecto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Una línea base toma una instantánea del nombre, las fechas y la información financiera del proyecto. La línea de base no incluye los valores de los campos personalizados del proyecto. Para obtener información financiera incluida en la línea de base, consulte [Finanzas del proyecto incluidas en las líneas de base del proyecto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Crear una línea base
 
 Se puede crear una instantánea de las siguientes maneras:
 
-* **Automáticamente**: el administrador de Workfront o de un grupo establece la preferencia de proyecto para que Workfront cree automáticamente una línea de base cuando un proyecto se convierta en Actual. Si se habilita esta configuración, se crea una línea de base cuando el estado del proyecto pasa a ser Actual. Cuando esta configuración no está habilitada, debe crear manualmente las líneas de base.
+* **Automáticamente**: el administrador de Workfront o un administrador de grupo establecen la preferencia de proyecto para que Workfront cree automáticamente una línea de base cuando un proyecto se convierta en Actual. Si se habilita esta configuración, se crea una línea de base cuando el estado del proyecto pasa a ser Actual. Cuando esta configuración no está habilitada, debe crear manualmente las líneas de base.
 
-  Para obtener más información sobre la configuración de las preferencias del proyecto y la creación automática de líneas de base, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obtener más información acerca de cómo configurar las preferencias del proyecto y configurar la creación automática de líneas de base, vea [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!CAUTION]
   >
@@ -120,11 +120,11 @@ Para crear una línea base:
 
    O
 
-   Clic **Mostrar más**, luego haga clic en **Líneas bases**.
+   Haga clic en **Mostrar más** y luego haga clic en **Líneas bases**.
 
-   ![Sección de líneas de base del proyecto](assets/baselines-section-on-project-with-header.png)
+   ![Sección de líneas de base en el proyecto](assets/baselines-section-on-project-with-header.png)
 
-1. Clic **Nueva línea base.**
+1. Haga clic en **Nueva línea de base.**
 1. Especifique el nombre de la instantánea.
 1. (Opcional) Si esta es la primera línea de base, es posible que desee elegirla como predeterminada.
 1. Haga clic en **Guardar**.
@@ -143,7 +143,7 @@ Para crear una línea base:
      >
      >No se puede ver información de dos líneas base al mismo tiempo en la misma vista o informe. Sólo se puede ver información de una línea base determinada y de la línea base predeterminada en el mismo informe. Puede modificar la línea base que considere como predeterminada en cualquier momento durante la duración del proyecto.
 
-1. (Opcional) Haga clic en **Ver** y, a continuación, cree una vista nueva o edite la vista actual para añadir campos a la vista y comparar información adicional entre líneas base. Para obtener más información, consulte [Creación o edición de vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Opcional) Haga clic en el botón **Ver** y, a continuación, cree una nueva vista o edite la vista actual para agregar campos a la vista y comparar información adicional entre líneas de base. Para obtener más información, consulte [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Crear un informe de Línea base o de Tarea de línea base
 
@@ -153,8 +153,8 @@ Para ver la información de línea de base, también puede crear un informe de l
 >
 >Debe crear una línea base antes de crear un informe de Línea base o de Tarea de línea base.
 
-Para obtener información sobre cómo crear un informe, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener información sobre cómo crear un informe, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Se recomienda agregar una agrupación Nombre del proyecto al informe Línea de base o Tarea de línea de base para facilitar la lectura.
 
-Para obtener información sobre cómo crear una agrupación, consulte [Creación de agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Para obtener información sobre cómo crear una agrupación, consulte [Crear agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

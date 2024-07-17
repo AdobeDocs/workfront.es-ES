@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ---
 
-# Actualice su trabajo con el [!DNL Adobe Workfront] plugin
+# Actualice su trabajo mediante el complemento [!DNL Adobe Workfront]
 
-Puede actualizar su trabajo desde cualquiera de las siguientes ubicaciones [!DNL Adobe Creative Cloud] aplicaciones:
+Puede actualizar su trabajo desde cualquiera de las [!DNL Adobe Creative Cloud] aplicaciones siguientes:
 
 {{cc-app-list}}
 
@@ -40,22 +40,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Debe tener un [!DNL Adobe Creative Cloud] licencia además de una [!DNL Workfront] licencia.</td> 
+   <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de [!UICONTROL View] al objeto que desea actualizar. </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de [!UICONTROL View] al objeto que desea actualizar. </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
 {{cc-install-prereq}}
 
-## Publicar una actualización
+## Post y actualización
 
 Puede actualizar su trabajo desde cualquiera de las siguientes áreas del complemento:
 
@@ -81,15 +81,15 @@ Puede actualizar su trabajo desde cualquiera de las siguientes áreas del comple
 
 Para publicar una actualización:
 
-1. Haga clic en **[!UICONTROL Menú]** en la esquina superior derecha, y luego seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en el icono **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Desde el **[!UICONTROL Lista de trabajos]**, seleccione el elemento de trabajo en el que debe publicar una actualización.
-1. Clic **[!UICONTROL Actualizar]** en la barra de navegación.\
+1. En **[!UICONTROL Lista de trabajos]**, seleccione el elemento de trabajo en el que debe publicar una actualización.
+1. Haga clic en **[!UICONTROL Actualizar]** en la barra de navegación.\
    ![](assets/photoshop-update-350x295.png)
 
-1. Clic **[!UICONTROL Nueva actualización]**.
+1. Haga clic en **[!UICONTROL Nueva actualización]**.
 1. Escriba la actualización.
 1. (Opcional) Para etiquetar a un usuario, escriba el símbolo @ y el nombre del usuario y, a continuación, elija su nombre en el menú desplegable.
-1. Clic **[!UICONTROL Enviar]**. Las actualizaciones se sincronizan con la aplicación web de Adobe Workfront en tiempo real.
+1. Haga clic en **[!UICONTROL Enviar]**. Las actualizaciones se sincronizan con la aplicación web de Adobe Workfront en tiempo real.

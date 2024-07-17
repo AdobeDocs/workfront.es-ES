@@ -16,7 +16,7 @@ ht-degree: 13%
 * [Administración y configuración](administration-and-setup/administration-and-setup.md)
 * [Conceptos básicos de Adobe Workfront](workfront-basics/workfront-basics.md)
 * [Personas, equipos y grupos](people-teams-and-groups/people-teams-and-groups.md)
-* [Administración de recursos](resource-mgmt/manage-resources.md)
+* [Administrar recursos](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)
 * [Administrar trabajo](manage-work/manage-work.md)
 * [Revisar y aprobar el trabajo](review-and-approve-work/review-and-approve-work.md)
@@ -28,7 +28,7 @@ ht-degree: 13%
   -->
 
 * [Plantillas de horas: índice de artículos](timesheets/timesheets-all.md)
-* [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
+* [integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Revisión de Workfront](workfront-proof/workfront-proof.md)
 * [Anuncios de productos](product-announcements/product-announcements.md)

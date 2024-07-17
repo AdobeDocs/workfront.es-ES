@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Esta página describe todos los cambios disponibles en el entorno de vista previa con la versión R1 Preview 5. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 16 de marzo de 2017.
 
-Para ver una lista de todos los cambios realizados en R1, consulte [Resumen de actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en R1, consulte [Descripción general de la actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 ## Seguimiento del progreso del proyecto con un informe de utilización
 
@@ -26,7 +26,7 @@ Ahora un usuario con acceso de Administrar a un proyecto puede realizar un segui
 
 El informe de utilización permite mantener el proyecto dentro del presupuesto, ya que permite ver rápidamente cómo se cotejan las horas reales con las horas presupuestadas o planificadas para una semana o mes determinados, o para el proyecto general. Además, puede ver información detallada sobre el número de horas de cada categoría (presupuestadas, planificadas y reales), clasificadas por rol o usuario individual.
 
-Para obtener más información sobre el seguimiento de la utilización en un proyecto, consulte [Descripción general del informe Utilización de los recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Para obtener más información sobre el seguimiento de la utilización en un proyecto, vea [Información general sobre el informe de utilización de recursos](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 Como administrador del sistema, puede configurar si la pestaña Utilización está disponible para los usuarios. De forma predeterminada, la pestaña Utilización se encuentra en el menú desplegable Más dentro de un proyecto. Puede mover la ficha Utilización a otra ubicación u ocultarla por completo. Si ha definido plantillas de diseño personalizadas para los usuarios de su organización, debe añadir manualmente la pestaña Utilización a las plantillas de diseño personalizadas.
 
@@ -36,15 +36,15 @@ Para obtener más información sobre la configuración de la ubicación de la pe
 
 Ahora puede modificar un proceso de aprobación global existente al asociar ese proceso de aprobación global con un objeto. Las modificaciones realizadas se aplican únicamente al proceso de aprobación del objeto donde se asocian.
 
-Para obtener más información, consulte [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+Para obtener más información, vea [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) en [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## Configurar informes para mostrar el nuevo gráfico Gantt de forma predeterminada
 
 Puede configurar los informes de proyectos y tareas que cree para mostrar el nuevo gráfico Gantt de forma predeterminada con la nueva opción, &quot;Mostrar este informe en una vista Gantt de forma predeterminada&quot;.
 
-Para obtener más información sobre la configuración de informes para mostrar el nuevo gráfico Gantt, consulte [Editar configuración del informe](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+Para obtener más información acerca de cómo configurar informes para mostrar el nuevo gráfico Gantt, vea [Editar la configuración del informe](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
 
-Para obtener más información sobre la visualización del diagrama de Gantt en los informes de proyecto y de tarea, consulte [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot; en [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Para obtener más información acerca de cómo ver el gráfico Gantt en los informes de proyectos y tareas, vea [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot; en [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 ## Mejora de la papelera de reciclaje: las tareas y subtareas se restauran a su orden anterior
 
@@ -52,17 +52,17 @@ Ahora, cuando restaura una tarea o subtarea después de eliminarla, la tarea o s
 
 Antes de este cambio, las tareas y subtareas restauradas siempre se restauraban como la última tarea (en la lista de tareas o debajo de la tarea principal), independientemente del orden en que aparecieran antes de eliminarse.
 
-Para obtener más información sobre la restauración de objetos en Workfront, consulte [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Para obtener más información acerca de cómo restaurar objetos en Workfront, vea [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Mejoras en la vista de Milestone
 
 Las siguientes mejoras están ahora disponibles cuando se visualiza una lista de proyectos o un informe de proyectos en la vista de Hito:
 
-* **Configure si Estado de progreso y Porcentaje completado se muestran en la vista:** Hay una nueva opción que le permite configurar si los iconos de estado de progreso se muestran en la vista de Hito. Además, también puede configurar si la información de Porcentaje completado se muestra relacionada con los proyectos y las tareas.\
-  Para obtener más información, consulte [Uso de la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Uso de la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Configurar si el estado de progreso y el porcentaje completado se muestran en la vista:** Hay una nueva opción que le permite configurar si los iconos de estado de progreso se muestran en la vista de Hito. Además, también puede configurar si la información de Porcentaje completado se muestra relacionada con los proyectos y las tareas.\
+  Para obtener más información, vea [Usar la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) en [Usar la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Edite el porcentaje completado directamente desde la vista de Hito:** Ahora puede editar el Porcentaje completado de proyectos y tareas directamente desde la vista de Hito.\
-  Para obtener más información, consulte [Uso de la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Uso de la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+* **Edite el porcentaje completado directamente desde la vista Hito:** Ahora puede editar el porcentaje completado de proyectos y tareas directamente desde la vista Hito.\
+  Para obtener más información, vea [Usar la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) en [Usar la vista de Hito](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## Aspecto actualizado de varias páginas de configuración del sistema
 
@@ -93,13 +93,13 @@ Las siguientes opciones ya están disponibles en las notificaciones instantánea
 
 Ahora, cuando reciba una notificación instantánea por correo electrónico, puede agregar esa notificación a una notificación de resumen diario o puede cancelar completamente la suscripción a esa notificación.
 
-Estas opciones están disponibles en la notificación por correo electrónico. Para obtener más información sobre la recepción de notificaciones por correo electrónico, consulte [Notificaciones de Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md)
+Estas opciones están disponibles en la notificación por correo electrónico. Para obtener más información sobre cómo recibir notificaciones por correo electrónico, consulte [Notificaciones de Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
 ## Varias notificaciones por correo electrónico se movieron de la sección &quot;Acción necesaria&quot; a otras secciones relacionadas con el proyecto
 
 Se han movido varias notificaciones de la sección &quot;Acción necesaria&quot; de la página de perfil del usuario a otras secciones, como se indica a continuación:
 
-Para obtener más información sobre la configuración de notificaciones por correo electrónico, consulte [Modificar sus propias notificaciones por correo electrónico](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+Para obtener más información sobre cómo configurar las notificaciones por correo electrónico, consulte [Modificar tus propias notificaciones por correo electrónico](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -173,10 +173,10 @@ Se agregaron los cambios siguientes para admitir la futura funcionalidad de plan
 
 * Se ha cambiado el nombre de la pestaña actual &quot;Planificación de recursos&quot; a &quot;Planificación de recursos de legado&quot; en el área Personas. 
 * Se ha introducido una nueva pestaña &quot;Planificación de recursos&quot; en el área Personas, donde se desarrollará la nueva funcionalidad.\
-  Para obtener más información sobre la nueva ficha Planificación de recursos, consulte [Introducción a la planificación de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+  Para obtener más información acerca de la nueva ficha Planificación de recursos, vea [Introducción a la planificación de recursos](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * Se ha cambiado el nombre del objeto actual &quot;Conjunto de recursos&quot; a &quot;Conjunto de recursos heredado&quot;.\
-  Para obtener más información sobre la creación de los nuevos conjuntos de recursos basados en usuarios, consulte [Resumen de conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  Para obtener más información sobre cómo crear los nuevos conjuntos de recursos basados en usuarios, consulte [Resumen de los conjuntos de recursos](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * Se ha creado un nuevo objeto &quot;Conjunto de recursos&quot; para admitir los nuevos conjuntos de recursos (basados en el usuario).
 
@@ -185,8 +185,8 @@ Se agregaron los cambios siguientes para admitir la futura funcionalidad de plan
   >
   >   
   >   
-  * Si está ejecutando informes sobre los conjuntos de recursos heredados existentes, los informes existentes no cambiarán.
-  * Si desea crear un nuevo informe para los conjuntos de recursos heredados existentes (basados en funciones del puesto), deberá seleccionar &quot;Conjuntos de recursos heredados&quot; como objeto para el informe.
-  * Si desea crear un nuevo informe para los nuevos conjuntos de recursos (basados en el usuario), deberá seleccionar &quot;Conjuntos de recursos&quot; como objeto para el informe.
+  >   * Si está ejecutando informes sobre los conjuntos de recursos heredados existentes, los informes existentes no cambiarán.
+  >   * Si desea crear un nuevo informe para los conjuntos de recursos heredados existentes (basados en funciones del puesto), deberá seleccionar &quot;Conjuntos de recursos heredados&quot; como objeto para el informe.
+  >   * Si desea crear un nuevo informe para los nuevos conjuntos de recursos (basados en el usuario), deberá seleccionar &quot;Conjuntos de recursos&quot; como objeto para el informe.
   >   
   >

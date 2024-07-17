@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Puede modificar temporalmente el ancho de las columnas arrastrando y soltando sus márgenes para que coincidan con el ancho deseado. Para obtener más información, consulte [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Puede modificar temporalmente el ancho de las columnas arrastrando y soltando sus márgenes para que coincidan con el ancho deseado. Para obtener más información, vea [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 Para cambiar de forma permanente la anchura de cualquier columna de cualquier vista, debe utilizar el modo de texto en la columna mientras edita la vista.
 
@@ -59,21 +59,21 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 >[!IMPORTANT]
 >
->Si modifica manualmente el ancho de una columna como se describe en la sección [Modificar temporalmente el ancho y el orden de las columnas](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) en el artículo [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) después de modificar permanentemente el ancho de la columna, el ancho de la columna se conserva según el cambio de tamaño manual. En este caso, se sobrescribe la anchura de la columna actualizada según los pasos siguientes. Puede ver la columna según el ancho definido en los pasos siguientes después de borrar la caché o iniciar sesión desde otro explorador.
+>Si modifica manualmente el ancho de una columna como se describe en la sección [Modificar el ancho y el orden de las columnas temporalmente](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) en el artículo [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) después de haber modificado permanentemente el ancho de la columna, el ancho de la columna se conservará según el cambio de tamaño manual. En este caso, se sobrescribe la anchura de la columna actualizada según los pasos siguientes. Puede ver la columna según el ancho definido en los pasos siguientes después de borrar la caché o iniciar sesión desde otro explorador.
 >
->Para obtener información adicional sobre cómo personalizar el ancho de las columnas al utilizar la interfaz del Modo de texto, consulte las definiciones de &quot;ancho&quot; y &quot;ampliación&quot; en la [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>Para obtener información adicional acerca de cómo personalizar el ancho de las columnas al usar la interfaz de modo de texto, vea las definiciones de &quot;ancho&quot; y &quot;estirado&quot; en el [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Ir a una lista de objetos.
-1. Desde el **Ver** , haga clic en **Nueva vista**.
+1. En el menú desplegable **Vista**, haz clic en **Nueva vista**.
 
-1. Clic **Agregar columna** para añadir una nueva columna.
+1. Haga clic en **Agregar columna** para agregar una columna nueva.
 
    O
 
    Haga clic en el encabezado de cualquier columna existente.
 
-1. Clic **Cambiar a modo de texto**.
-1. Pase el ratón sobre el área de modo de texto y haga clic en **Haga clic para editar el texto**.
+1. Haga clic en **Cambiar al modo de texto**.
+1. Pase el ratón sobre el área de modo de texto y haga clic **Haga clic para editar el texto**.
 1. Agregue el siguiente código al modo de texto de la columna:
 
    ```
@@ -81,8 +81,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    usewidths=true
    ```
 
-   Para el **anchura** , especifique cualquier número (en píxeles) que represente el ancho que desea que muestre la columna en la vista.
+   En la línea **width**, especifique cualquier número (en píxeles) que represente el ancho que desea que muestre la columna en la vista.
 
-1. Clic **Guardar**, entonces **Guardar vista**.
+1. Haz clic en **Guardar** y luego en **Guardar vista**.
 
 

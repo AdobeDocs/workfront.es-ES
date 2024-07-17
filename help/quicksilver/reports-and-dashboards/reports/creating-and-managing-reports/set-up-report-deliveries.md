@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Los informes se pueden programar para que se envíen automáticamente a los usuarios según una programación definida, o bien para que se envíen informes de forma manual y única. Cuando envía un informe desde Adobe Workfront, el usuario recibe un correo electrónico con el informe de Workfront en un archivo adjunto independiente.
 
-Para obtener información sobre la configuración de un informe para su envío, consulte el artículo [Programar una entrega automática de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Para obtener información sobre cómo configurar un informe para su entrega, consulte el artículo [Programar una entrega automática de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-No puede programar informes para su envío ni entregarlos manualmente en el entorno de vista previa de espacio aislado. Para obtener más información sobre la vista previa de espacio aislado, consulte el artículo [Entorno de zona protegida de vista previa de Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
+No puede programar informes para su envío ni entregarlos manualmente en el entorno de vista previa de espacio aislado. Para obtener más información sobre la vista previa de espacio aislado, consulte el artículo [Entorno de espacio aislado de vista previa de Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
 Para obtener más información sobre la entrega de informes en el entorno de vista previa de espacio aislado, consulte el artículo [Enviar un informe en el entorno de vista previa de espacio aislado](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
 ## Límites de entrega de informes
@@ -45,17 +45,17 @@ Existen varios límites de tamaño que afectan a cómo se muestran los informes 
 
   >[!NOTE]
   >
-  >Los archivos .xlsx de Excel con un tamaño superior a 5 MB no generan un correo electrónico. Puede exportar manualmente el informe a este formato. Para obtener información sobre la exportación de informes, consulte [Exportación de datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Los archivos .xlsx de Excel con un tamaño superior a 5 MB no generan un correo electrónico. Puede exportar manualmente el informe a este formato. Para obtener información sobre la exportación de informes, consulte [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50 000 filas:** Número de filas de datos permitidas en una exportación de informe para archivos .pdf y delimitados por tabuladores.
+* **50.000 filas:** Número de filas de datos permitidas en una exportación de informe para archivos .pdf y delimitados por tabuladores.
 
-  Para archivos .xls de Excel, este límite es **65 000 filas**.
+  Para archivos .xls de Excel, este límite es de **65.000 filas**.
 
-  Para archivos .xlsx de Excel, este límite es **100 000 filas**.
+  Para archivos .xlsx de Excel, este límite es de **100.000 filas**.
 
   Estos límites excluyen los encabezados de columna y las filas de las agrupaciones del informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas de datos, el archivo exportado tendrá 50 000 filas.
 
-  Si el informe tiene más elementos que estos límites, se genera un error que indica que la exportación y la entrega del informe no se han realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número inferior o igual a estos límites para poder ofrecer los resultados. Si desea exportar todos los datos, le sugerimos que utilice filtros para obtener cargas de datos más pequeñas y, a continuación, realice varias exportaciones. Para obtener más información, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Si el informe tiene más elementos que estos límites, se genera un error que indica que la exportación y la entrega del informe no se han realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número inferior o igual a estos límites para poder ofrecer los resultados. Si desea exportar todos los datos, le sugerimos que utilice filtros para obtener cargas de datos más pequeñas y, a continuación, realice varias exportaciones. Para obtener más información, vea [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   Estos límites se aplican a:
 
@@ -64,7 +64,7 @@ Existen varios límites de tamaño que afectan a cómo se muestran los informes 
    * Una exportación a través de una integración de API.
    * Datos exportados mediante un KickStart.
 
-     Para obtener más información sobre la exportación de datos mediante kick-starts, consulte el artículo [Exportación de datos de Adobe Workfront mediante Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Para obtener más información sobre la exportación de datos mediante KickStart, consulte el artículo [Exportar datos de Adobe Workfront mediante Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -72,10 +72,10 @@ Existen varios límites de tamaño que afectan a cómo se muestran los informes 
 
    * Exportación de información de utilización para un proyecto.
 
-     Para obtener más información sobre cómo exportar la información de utilización de un proyecto, consulte [Descripción general del informe Utilización de los recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Para obtener más información sobre cómo exportar la información de utilización de un proyecto, vea [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65.530 hipervínculos:** Se trata de un límite impuesto por Excel a los documentos que contienen más de 65.530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener sólo 200 filas de datos, pero si hay más de 65.530 vínculos dentro del documento, éste no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
-* **256 columnas**: Se trata de un límite impuesto por Excel a los documentos que contienen más de 256 columnas. Estos documentos no se pueden exportar manualmente ni enviar en un informe enviado. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
+* **65.530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65.530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener sólo 200 filas de datos, pero si hay más de 65.530 vínculos dentro del documento, éste no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
+* **256 columnas**: Excel ha impuesto este límite a los documentos que contienen más de 256 columnas. Estos documentos no se pueden exportar manualmente ni enviar en un informe enviado. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
 
 Si intenta exportar datos más allá del límite, es posible que no reciba todos los datos esperados en la exportación. En su lugar, se produce un informe modificado dentro del límite.
 
@@ -95,7 +95,7 @@ Tenga en cuenta lo siguiente:
 
 * Cuando se visualiza un informe en el explorador, la marca de tiempo y el formato del informe coinciden con la configuración regional y la zona horaria del explorador, tal como se definen en la configuración del explorador.
 * Cuando el informe se envía en un correo electrónico, se entrega con la marca de tiempo y el formato que coinciden con la configuración regional y la zona horaria del usuario, tal como se especifican en el perfil de Workfront.\
-  Para obtener más información sobre la configuración regional y la zona horaria del usuario en Workfront, consulte el artículo [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obtener más información sobre la configuración regional y la zona horaria del usuario en Workfront, consulte el artículo [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Informes con una vista especial {#reports-with-a-special-view}
 
@@ -113,13 +113,13 @@ Se consideran opiniones especiales las siguientes:
 >
 >Si también hay una pestaña Matriz en el informe, además de la pestaña predeterminada con una vista especial, el informe se envía tal y como se muestra en la pestaña Matriz.
 
-Para obtener más información sobre cómo aplicar una vista especial a un informe, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información acerca de cómo aplicar una vista especial a un informe, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Usar el archivo enviado
 
 Cuando envía un informe desde Workfront, el usuario recibe un correo electrónico con el informe en un archivo adjunto independiente.
 
-* [Línea de asunto, nombre del archivo adjunto y título del informe](#subject-line-attachment-name-and-report-title)
+* [Línea de asunto, nombre de archivo adjunto y título del informe](#subject-line-attachment-name-and-report-title)
 * [Marcas de hora](#timestamps)
 * [Marca](#branding)
 * [Formato](#formatting)
@@ -133,7 +133,7 @@ El nombre del informe adjunto es: *The_Name_Of_The_Report* seguido del formato d
 
 Si ha programado el informe enviado para que tenga el formato de PDF o archivo de HTML, el título del informe será:
 
-*El nombre del informe.*
+*Nombre del informe.*
 
 Los informes programados para enviarse en formato Excel, Excel (.xlsx) o TSV no tienen título.
 
@@ -157,7 +157,7 @@ Si el administrador de Workfront ha añadido una personalización de la marca a 
 
 Los informes enviados en todos los demás formatos no se pueden personalizar con su logotipo.
 
-Para obtener más información sobre la personalización de la marca de la instancia de Workfront, consulte el artículo [Marca su instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Para obtener más información sobre cómo personalizar la marca de la instancia de Workfront, consulte el artículo [Crear una marca para la instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formato {#formatting}
 
@@ -167,8 +167,8 @@ Si el informe tiene un formato especial en la aplicación web, el informe debe e
 
 El filtro, la vista o la agrupación del informe no se incluyen en el archivo enviado. La descripción del informe solo se incluye cuando se envía el informe como archivo de PDF.
 
-Para obtener más información sobre la recepción de informes con una vista especial, consulte el artículo [Informes con una vista especial](#reports-with-a-special-view).\
-Para obtener más información sobre cómo seleccionar la ficha predeterminada de un informe y sobre el formato especial, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información acerca de cómo recibir informes con una vista especial, vea el artículo [Informes con una vista especial](#reports-with-a-special-view).\
+Para obtener más información sobre cómo seleccionar la ficha predeterminada de un informe y sobre el formato especial, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Vínculos {#links}
 
@@ -180,15 +180,15 @@ El nombre del informe que aparece en el mensaje de correo electrónico también 
 
 Puede ver si un informe se ha configurado para enviarse creando lo siguiente:
 
-* **Una vista** para el objeto Informe en una lista o un informe para informes: cree una vista en una lista de informes o en un informe para informes y agregue la siguiente columna a la vista:\
+* **Vista** para el objeto Informe en una lista o un informe para informes: cree una vista en una lista de informes o en un informe para informes y agregue la siguiente columna a la vista:\
   *Nombre de informe programado.\
   * Los nombres de todas las entregas programadas para ese informe se enumeran en la columna en una lista con viñetas.\
-  ![schedule_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+  ![informes_programados_información_en_vista.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **Un filtro** para el objeto Report: cree un filtro en una lista de informes o en un informe de informes con la siguiente instrucción: *El ID del informe programado no está en blanco*.\
+* **Un filtro** para el objeto de informe: cree un filtro en una lista de informes o en un informe de informes con la siguiente instrucción: *El Id. de informe programado no está en blanco*.\
   Esto solo mostrará los informes que se hayan programado en su lista o informe.\
   ![](assets/qs-scheduled-report-filter-350x101.png)\
-  Para obtener más información sobre la creación de informes, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obtener información sobre la creación de un informe sobre informes, consulte [Creación de un informe sobre las actividades de creación de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obtener información sobre cómo crear un informe de informes, consulte [Crear un informe de actividades de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

@@ -5,7 +5,8 @@ title: Agregar un informe existente a un panel de lienzo
 description: Los informes creados con la herramienta Informes de Adobe Workfront se pueden añadir a un panel de lienzo.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Los informes creados con la herramienta Informes de Adobe Workfront se pueden añadir a un panel de lienzo. Para obtener más información sobre la creación de informes, consulte [Introducción a los informes](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-Para obtener información general sobre cómo añadir y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Para obtener información general sobre cómo agregar y organizar informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Requisitos de acceso
 

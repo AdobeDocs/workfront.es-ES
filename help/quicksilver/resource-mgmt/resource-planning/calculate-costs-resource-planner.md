@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Puede presupuestar sus recursos en el Planificador de recursos de Adobe Workfront utilizando valores de Costo, en lugar de valores de Horas o FTE. Los valores de coste no están disponibles para **Ver por usuario** vista en el Planificador de recursos.
+Puede presupuestar sus recursos en el Planificador de recursos de Adobe Workfront utilizando valores de Costo, en lugar de valores de Horas o FTE. Los valores de costo no están disponibles para la vista **Vista por usuario** en el Planificador de recursos.
 
 >[!IMPORTANT]
 >
 >Debe asociar usuarios y roles con tasas de costo por hora para mostrar la información de costo en el Planificador de recursos.\
->Para obtener más información sobre la asociación de tasas de coste por hora con roles de trabajo, consulte [Crear y administrar roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Para obtener más información sobre cómo asociar las tarifas de costo por hora con los usuarios, consulte [Edición del perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>Para obtener más información sobre cómo asociar las tasas de costo por hora con los roles de trabajo, consulte [Crear y administrar roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+>Para obtener más información acerca de cómo asociar tarifas de costo por hora con usuarios, vea [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Antes de presupuestar los recursos, asegúrese de que comprende bien qué trabajo se debe realizar (Horas planificadas, ETC o Costo) y qué tiempo están abiertos a trabajar los usuarios (Horas disponibles, ETC o Costo).\
-Para obtener más información acerca de cómo comprender la información del Planificador de recursos al realizar presupuestos por horas o ETC, consulte [Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Para obtener más información acerca de cómo comprender la información del Planificador de recursos al realizar presupuestos por horas o ETC, vea [Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Requisitos de acceso
 
@@ -52,16 +52,16 @@ Debe tener lo siguiente:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros, proyectos y usuarios</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administre permisos a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administre permisos a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Mostrar información en el Planificador de recursos por costo
 
@@ -69,20 +69,20 @@ De forma predeterminada, la información de disponibilidad y asignación se mues
 
 Para mostrar la información disponible, planificada y presupuestada por costo en el Planificador de recursos:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Clic **Recursos**.
+1. Haga clic en **Recursos**.
 1. Vaya al Planificador de recursos.
 1. (Condicional) Seleccione **Ver por proyecto** o **Ver por rol**.\
-   De forma predeterminada **Ver por proyecto** está seleccionado.\
+   De manera predeterminada, **Ver por proyecto** está seleccionado.\
    La información de asignación y disponibilidad se muestra en horas.
 
-1. Desde el **Horas** menú desplegable, seleccione **Coste**.
+1. En el menú desplegable **Horas**, seleccione **Costo**.
 
    Si no tiene acceso a los datos financieros en su nivel de acceso, esta opción no está disponible.\
    Si los proyectos tienen una moneda diferente a la del sistema, el costo de estos proyectos se muestra en el Planificador de recursos convertido a la moneda del sistema. El administrador del sistema define la moneda del sistema.\
-   Para obtener más información sobre la configuración de la divisa del sistema en Workfront y las tasas de conversión, consulte [Configurar tasas de cambio](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
-   ![cost_in_the_planner_with_no_budget.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
+   Para obtener más información sobre cómo configurar la divisa del sistema en Workfront y las tasas de conversión, consulte [Configurar tasas de cambio](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   ![costos_en_el_planificador_sin_presupuestación.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Calcular el costo disponible en el planificador de recursos
 
@@ -92,7 +92,7 @@ Para mostrar los valores de Costo disponible en el Planificador de recursos, deb
 * Información sobre la disponibilidad del usuario.
 
   La obtención de información sobre la disponibilidad del usuario depende de cómo configure el administrador de Workfront las Preferencias de administración de recursos.\
-  Para obtener más información sobre cómo calcular la disponibilidad de los usuarios y establecer las Preferencias de administración de recursos, consulte [Configurar preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Para obtener más información acerca de cómo calcular la disponibilidad del usuario y establecer las preferencias de administración de recursos, vea [Configurar las preferencias de administración de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 En la tabla siguiente se muestra cómo se calcula el costo disponible en el Planificador de recursos:
 
@@ -137,8 +137,8 @@ Aunque no puede ver información de tareas en el Planificador de recursos, los c
    * Un equipo\
      Una tarea asignada a un equipo se considera no asignada, desde la perspectiva del Planificador de recursos.
 
-* El **Tipo de coste** de las tareas del proyecto.\
-  Para obtener más información sobre el tipo de coste de una tarea, consulte [Seguimiento de costes](../../manage-work/projects/project-finances/track-costs.md).
+* **Tipo de costo** de las tareas del proyecto.\
+  Para obtener más información sobre el tipo de costo de una tarea, vea [Rastrear costos](../../manage-work/projects/project-finances/track-costs.md).
 
 * Las fechas en vigor de las tasas de coste para los roles de trabajo y los usuarios.
 
@@ -150,7 +150,7 @@ Aunque no puede ver información de tareas en el Planificador de recursos, los c
 
 Existen los siguientes escenarios al calcular el costo planificado para usuarios, roles y el proyecto:
 
-* Si la variable **Tipo de coste** es **Usuario por hora **y hay **sin asignación** en la tarea:
+* Cuando **Tipo de costo** es **Usuario por hora **y no hay **ninguna asignación** en la tarea:
 
    * **Costo planificado por rol y usuario**:
 
@@ -160,7 +160,7 @@ Existen los siguientes escenarios al calcular el costo planificado para usuarios
 
      El costo planificado del proyecto es de $0,00.
 
-* Si la variable **Tipo de coste** es **Usuario por hora** y hay un **asignación de usuario** en la tarea:
+* Cuando **Tipo de costo** es **Usuario por hora** y hay una **asignación de usuario** en la tarea:
 
    * **Costo planificado por rol y usuario**:
 
@@ -182,7 +182,7 @@ Existen los siguientes escenarios al calcular el costo planificado para usuarios
 
      El costo planificado del proyecto es de $0,00.
 
-* Si la variable **Tipo de coste** es **Usuario por hora** y hay un **asignación de rol** en la tarea:
+* Cuando el **tipo de costo** es **usuario por hora** y hay una **asignación de rol** en la tarea:
 
    * **Costo planificado por rol y usuario**:
 
@@ -198,7 +198,7 @@ Existen los siguientes escenarios al calcular el costo planificado para usuarios
 
      El costo planificado del proyecto es de $0,00.
 
-* Si la variable **Tipo de coste** es **Rol por hora** y hay **sin asignación** en la tarea:
+* Cuando el **Tipo de costo** es **Rol por hora** y no hay **ninguna asignación** en la tarea:
 
    * **Costo planificado por rol y usuario**:
 
@@ -208,7 +208,7 @@ Existen los siguientes escenarios al calcular el costo planificado para usuarios
 
      El costo planificado del proyecto es de $0,00.
 
-* Si la variable **Tipo de coste** es **Rol por hora** y hay un **asignación de usuario** en la tarea:
+* Cuando el **Tipo de costo** es **Rol por hora** y hay una **asignación de usuario** en la tarea:
 
    * **Costo planificado por rol y usuario**:
 
@@ -228,7 +228,7 @@ Existen los siguientes escenarios al calcular el costo planificado para usuarios
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* Si la variable **Tipo de coste** es **Rol por hora** y hay un **asignación de rol** en la tarea:
+* Cuando el **Tipo de costo** es **Rol por hora** y hay una **asignación de rol** en la tarea:
 
    * **Costo planificado por rol y usuario**:
 

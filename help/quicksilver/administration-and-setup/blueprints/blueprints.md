@@ -18,8 +18,8 @@ ht-degree: 5%
 
 # Modelos
 
-* [Información general de modelos](../../administration-and-setup/blueprints/blueprints-overview.md)
-* [Configuración del acceso a los modelos](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
+* [Resumen de modelos](../../administration-and-setup/blueprints/blueprints-overview.md)
+* [Configurar el acceso a los modelos](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
 * [Instalar un modelo](../../administration-and-setup/blueprints/blueprints-install.md)
 * [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md)
 * [Acciones que se deben realizar después de instalar un modelo](../../administration-and-setup/blueprints/best-next-actions-after-install.md)

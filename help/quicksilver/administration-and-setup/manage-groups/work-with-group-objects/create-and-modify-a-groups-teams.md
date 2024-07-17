@@ -21,9 +21,9 @@ Cuando visualice un grupo que administre en el área de Grupos, podrá visualiza
 
 Si hay grupos por encima de su grupo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
-Para obtener información sobre cómo los usuarios con una licencia de planificación pueden crear un equipo, consulte [Crear un equipo](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Para obtener información sobre cómo los usuarios con una licencia de Plan pueden crear un equipo, consulte [Crear un equipo](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Para obtener información sobre cómo un administrador de Workfront puede crear un equipo, consulte [Cree un equipo desde el área de Configuración](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Para obtener información sobre cómo un administrador de Workfront puede crear un equipo, vea [Crear un equipo desde el área de instalación](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Requisitos de acceso
 
@@ -48,16 +48,16 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 ## Vea, trabaje con y cree equipos para su grupo desde el área de Grupos
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo para el que desea crear o modificar equipos.
-1. En el panel izquierdo, haga clic en **Equipos** ![](assets/teams.png) para enumerar los equipos asociados con el grupo y con los subgrupos que pueda tener.
+1. En el panel izquierdo, haga clic en **Equipos** ![](assets/teams.png) para ver una lista de los equipos asociados con el grupo y con los subgrupos que pueda tener.
 
 1. Realice una de las siguientes acciones:
 
-   * **Agregar un equipo**: haga clic en **Nuevo equipo** y, a continuación, utilice las siguientes opciones para configurarlo:
+   * **Agregar un equipo**: Haga clic en **Nuevo equipo** y, a continuación, utilice las siguientes opciones para configurarlo:
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
@@ -71,7 +71,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        </tr> 
        <tr> 
        <td role="rowheader">Grupo</td> 
-       <td> <p> El sistema rellena el campo Grupo del nuevo equipo con el grupo que está visualizando. Si desea asociar el equipo con otro grupo, empiece a escribir el nombre del grupo y, a continuación, seleccione el nombre cuando aparezca.</p> <p>Puede asegurarse de que está asociando el grupo correcto con el equipo pasando el puntero sobre él y haciendo clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a ella. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> <p><b>NOTA</b>: cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro de él. Los administradores del grupo pueden ir al área de Equipos desde el menú principal y hacer clic en la flecha para cambiar de equipo <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> para enumerar todos los equipos asignados a los grupos que administran.</p> </td> 
+       <td> <p> El sistema rellena el campo Grupo del nuevo equipo con el grupo que está visualizando. Si desea asociar el equipo con otro grupo, empiece a escribir el nombre del grupo y, a continuación, seleccione el nombre cuando aparezca.</p> <p>Puede asegurarse de que está asociando el grupo correcto con el equipo pasando el puntero sobre él y haciendo clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a él. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> <p><b>NOTA</b>: cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro de él. Los administradores del grupo pueden ir al área Equipos desde el menú principal y hacer clic en la flecha para cambiar de equipo <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> para enumerar todos los equipos asignados a los grupos que administran.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Miembros del equipo</td> 
@@ -96,7 +96,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       </tbody> 
      </table>
 
-   * **Editar equipos**: seleccione al menos un equipo y haga clic en **el** Icono Editar ![](assets/edit-icon.png)y, a continuación, utilice las siguientes opciones para configurarlo:
+   * **Editar equipos**: Seleccione al menos un equipo, haga clic en **el icono de edición** ![](assets/edit-icon.png) y, a continuación, utilice las siguientes opciones para configurarlo:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -108,7 +108,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        </tr> 
        <tr> 
        <td role="rowheader">Grupo</td> 
-       <td> <p>Asocie el equipo a un grupo. Empiece a escribir el nombre del grupo y, a continuación, selecciónelo cuando aparezca.</p> <p>Puede asegurarse de que está asociando el grupo correcto con el equipo pasando el puntero sobre él y haciendo clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a ella. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> <p><b>NOTA</b>: cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro de él. Los administradores del grupo pueden ir al área de Equipos desde el menú principal y hacer clic en la flecha para cambiar de equipo <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> para enumerar todos los equipos asignados a los grupos que administran.</p> </td> 
+       <td> <p>Asocie el equipo a un grupo. Empiece a escribir el nombre del grupo y, a continuación, selecciónelo cuando aparezca.</p> <p>Puede asegurarse de que está asociando el grupo correcto con el equipo pasando el puntero sobre él y haciendo clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a él. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> <p><b>NOTA</b>: cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro de él. Los administradores del grupo pueden ir al área Equipos desde el menú principal y hacer clic en la flecha para cambiar de equipo <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> para enumerar todos los equipos asignados a los grupos que administran.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Propietario</td> 
@@ -116,7 +116,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        </tr> 
        <tr> 
        <td role="rowheader">Miembros del equipo</td> 
-       <td> <p>Agregar y agregar integrantes del equipo. Empiece a escribir el nombre de un usuario y, a continuación, seleccione el nombre cuando aparezca. Repita este proceso para agregar varios usuarios al equipo.</p> <p><b>SUGERENCIA</b>: no hay límite en cuanto a la cantidad de usuarios que puede añadir a un equipo. Sin embargo, se recomienda no tener un número excesivamente grande de usuarios en un equipo, ya que la administración del trabajo del equipo puede llegar a ser demasiado compleja.</p> </td> 
+       <td> <p>Agregar y agregar integrantes del equipo. Empiece a escribir el nombre de un usuario y, a continuación, seleccione el nombre cuando aparezca. Repita este proceso para agregar varios usuarios al equipo.</p> <p><b>SUGERENCIA</b>: No hay límite en la cantidad de usuarios que puede agregar a un equipo. Sin embargo, se recomienda no tener un número excesivamente grande de usuarios en un equipo, ya que la administración del trabajo del equipo puede llegar a ser demasiado compleja.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Descripción</td> 
@@ -124,7 +124,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        </tr> 
        <tr> 
        <td role="rowheader">Plantilla de diseño</td> 
-       <td> <p>Comience a escribir el nombre de la plantilla de diseño que desea que utilice el equipo y, a continuación, haga clic en ella cuando aparezca.</p> <p>Al designar el equipo con esta plantilla de diseño como el equipo de inicio de los usuarios, todos los usuarios de este equipo verán las personalizaciones de esta plantilla de diseño.<br>La configuración individual de la plantilla de diseño anula la configuración de la plantilla de diseño del equipo de inicio. </p> </td> 
+       <td> <p>Comience a escribir el nombre de la plantilla de diseño que desea que utilice el equipo y, a continuación, haga clic en ella cuando aparezca.</p> <p>Al designar el equipo con esta plantilla de diseño como el equipo de inicio de los usuarios, todos los usuarios de este equipo verán las personalizaciones de esta plantilla de diseño.<br>Su configuración de plantilla de diseño individual anulará la configuración de la plantilla de diseño del equipo de inicio. </p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Agile</td> 
@@ -132,7 +132,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        </tr> 
        <tr> 
        <td role="rowheader">Trabajar en ello</td> 
-       <td> <p>Cambie el botón Trabajar en ello por el botón Iniciar. Cuando un usuario hace clic en Inicio, el estado del elemento se actualiza automáticamente.</p> <p>Para obtener más información sobre cómo configurar el botón Start, consulte <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por un botón Iniciar</a>.</p> </td> 
+       <td> <p>Cambie el botón Trabajar en ello por el botón Iniciar. Cuando un usuario hace clic en Inicio, el estado del elemento se actualiza automáticamente.</p> <p>Para obtener más información sobre cómo configurar el botón Inicio, vea <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por un botón Inicio</a>.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Botón Listo</td> 
@@ -145,5 +145,5 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       </tbody> 
      </table>
 
-   * **Eliminar equipos**: seleccione al menos un equipo y haga clic en el icono Eliminar ![](assets/delete.png).
-   * **Exportar la lista de equipos**: haga clic en **Exportar** ![](assets/export.png), luego seleccione el formato de archivo que desee para la lista exportada.
+   * **Eliminar equipos**: Seleccione al menos un equipo y haga clic en el icono Eliminar ![](assets/delete.png).
+   * **Exporte la lista de equipos**: Haga clic en **Exportar** ![](assets/export.png) y, a continuación, seleccione el formato de archivo que desee para la lista exportada.

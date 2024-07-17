@@ -25,7 +25,7 @@ Esta sección contiene las siguientes subsecciones:
 * [Introducción a tableros: índice de artículos](../agile/get-started-with-boards/get-started-with-boards.md)
 * [Uso de herramientas de planificación Agile en tableros](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [Información general de Agile](../agile/agile-overview.md)
-* [Introducción a Agile en [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [Introducción a Agile en  [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban en un equipo ágil](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [Scrum en un equipo ágil](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Trabajar en un entorno ágil](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

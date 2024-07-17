@@ -30,12 +30,12 @@ Los administradores del sistema pueden actualizar una configuración para permit
 
 Como administrador del sistema, haga lo siguiente;
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Expandir **Hojas de horas y horas**, luego haga clic en **Preferencias**.
+1. Expanda **Hojas de horas y horas** y luego haga clic en **Preferencias**.
 
-1. En el **Preferencias generales** , seleccione la **Registrar horas para fechas futuras**.
+1. En la sección **Preferencias generales**, seleccione **Registrar horas para fechas futuras**.
 
 1. Haga clic en **Guardar**.
 
-Para obtener más información sobre esta y otras opciones relacionadas con las plantillas de horas y las horas, consulte [Configurar preferencias de horas y hojas de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener más información sobre esta y otras opciones relacionadas con las hojas de horas y las horas, consulte [Configurar las preferencias de hojas de horas y horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

@@ -21,16 +21,16 @@ Esta sección contiene los siguientes artículos:
 
 Puede utilizar plantillas de proyecto para capturar la mayoría de los procesos, la información y la configuración repetibles asociados con los proyectos de su organización.
 
-* [Resumen de plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
-* [Creación de una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+* [Descripción general de la plantilla del proyecto](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
+* [Crear una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/create-template.md)
 * [Crear plantillas de proyecto a partir de ejemplos](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
-* [Examinar el catálogo de modelos y solicitar la instalación de modelos](../../../administration-and-setup/blueprints/browse-catalog.md)
+* [Examine el catálogo de modelos y solicite la instalación de los modelos](../../../administration-and-setup/blueprints/browse-catalog.md)
 * [Copiar una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
 * [Información general sobre cómo adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
 * [Editar una tarea de plantilla](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
-* [Crear plantilla a partir de proyecto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
+* [Crear plantilla a partir del proyecto](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [Compartir plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Quitar información de plantilla de un proyecto](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
 * [Eliminar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)

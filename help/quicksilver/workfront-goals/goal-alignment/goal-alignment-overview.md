@@ -31,23 +31,23 @@ ht-degree: 1%
 >      
 >* Para el plan y la estructura de licencias actuales:
 >    
->   * A Pro o superior [plan de Adobe Workfront]
+>   * Un [plan Adobe Workfront profesional o superior]
 >   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 >    
 >Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 > 
->Para obtener información adicional sobre el acceso a los objetivos de Workfront, consulte [Requisitos para utilizar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
 La alineación de las metas es una parte importante de su gestión. Puede asegurarse de que todos los miembros de su organización estén en la misma página sobre lo que se debe lograr para impulsar la estrategia alineando sus objetivos entre sí y con los objetivos organizativos de los equipos, grupos y la compañía.
 
 Una vez establecidas y revisadas las metas de grupo, equipo o compañía de nivel superior, los informes directos y los miembros del equipo deben crear metas más enfocadas que se desplacen en cascada desde el nivel superior. El alcance de estos objetivos debe ser más limitado y debe tener en cuenta a la persona designada como responsable del objetivo y su alcance de influencia. El objetivo debe responder a la pregunta de qué deben lograr ellos y su equipo para cumplir el objetivo principal al que está alineado.
 
-Para obtener más información sobre las prácticas recomendadas al alinear objetivos, consulte [Introducción a Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Para obtener más información acerca de las prácticas recomendadas para alinear metas, vea [Introducción a las metas de Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 ## Consideraciones para alinear objetivos
 
-* Un objetivo no puede contribuir a más de otro objetivo al mismo tiempo. Aunque puede tener varias metas secundarias alineadas con la misma meta principal, una meta secundaria solo puede tener una meta principal. Para obtener información sobre las metas principales y secundarias, consulte la [Comprender las metas de padres e hijos](#understand-parent-and-children-goals) de este artículo.
+* Un objetivo no puede contribuir a más de otro objetivo al mismo tiempo. Aunque puede tener varias metas secundarias alineadas con la misma meta principal, una meta secundaria solo puede tener una meta principal. Para obtener información sobre las metas principales y secundarias, consulte la sección [Comprender las metas principales y secundarias](#understand-parent-and-children-goals) en este artículo.
 * Una meta puede tener varias metas alineadas (o secundarias), así como varias actividades y resultados. Además, cada objetivo secundario puede tener otras actividades y resultados que influyen en su progreso, así como en el progreso de la meta principal.
 
   >[!TIP]
@@ -63,11 +63,11 @@ Para obtener más información sobre las prácticas recomendadas al alinear obje
 
 Existen dos métodos para alinear los objetivos:
 
-* **Una alineación ascendente**: puede conectar directamente una meta secundaria a una meta principal. Para obtener información sobre la alineación de objetivos ascendente, consulte [Alinee metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* **Alineación ascendente**: puede conectar directamente una meta secundaria a una meta principal. Para obtener información acerca de la alineación de metas ascendente, vea [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* **Una alineación de arriba a abajo**: Puede convertir un resultado o una actividad de una meta en otra meta. La nueva meta se convierte en la meta secundaria de la meta original que se convierte en la principal. Para obtener información sobre la alineación de objetivos de arriba hacia abajo, consulte [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+* **Alineación descendente**: puede convertir un resultado o una actividad de una meta en otra meta. La nueva meta se convierte en la meta secundaria de la meta original que se convierte en la principal. Para obtener información acerca de la alineación de metas descendente, vea [Alinear metas convirtiendo resultados y actividades en metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-Para obtener información sobre las metas principales y secundarias, consulte la [Comprender las metas de padres e hijos](#understand-parent-and-children-goals) de este artículo.
+Para obtener información sobre las metas principales y secundarias, consulte la sección [Comprender las metas principales y secundarias](#understand-parent-and-children-goals) en este artículo.
 
 ## Comprender las metas de padres e hijos {#understand-parent-and-children-goals}
 
@@ -80,7 +80,7 @@ Tenga en cuenta lo siguiente cuando trabaje con niños y objetivos principales:
 * El progreso de las metas de los niños indicadas por sus resultados y actividades influye en el progreso de la meta de los padres. Otras actividades o resultados asociados con la meta principal también influyen en el progreso de la meta principal.
 * No se puede actualizar el progreso de una meta secundaria en el nivel de la meta principal. Debe actualizar las actividades y los resultados de la meta secundaria, y esto actualiza automáticamente el progreso de la meta secundaria así como el de la meta principal.
 
-  Para obtener información sobre la actualización del progreso de los objetivos, consulte [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  Para obtener información acerca de cómo actualizar el progreso de las metas, consulte [Actualizar el progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Localizar metas alineadas
 

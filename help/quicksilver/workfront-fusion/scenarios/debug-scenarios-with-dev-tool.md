@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Depuración de escenarios con Adobe Workfront Fusion Developer
-description: La herramienta de desarrollo de Adobe Workfront Fusion le permite comprender y solucionar problemas de escenarios. La herramienta de desarrollo añade un panel adicional a las herramientas para desarrolladores de Chrome. Con este panel del depurador, puede comprobar todas las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API realizada. Puede ver qué módulo, operación o respuesta única causó el error y utilizar ese conocimiento para refinar el escenario.
+description: La herramienta de desarrollo de Adobe Workfront Fusion le permite comprender y solucionar problemas de escenarios. Devtool agrega un panel adicional a las herramientas para desarrolladores de Chrome. Con este panel del depurador, puede comprobar todas las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API realizada. Puede ver qué módulo, operación o respuesta única causó el error y utilizar ese conocimiento para refinar el escenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 ---
 
-# Depurar escenarios con [!DNL Adobe Workfront Fusion] Devtool
+# Depurar escenarios con la herramienta de desarrollo [!DNL Adobe Workfront Fusion]
 
-El [!DNL Adobe Workfront Fusion] Devtool le permite comprender y solucionar problemas de escenarios. Devtool añade un panel adicional a [!DNL Chrome Developer Tools]. Con este panel del depurador, puede comprobar todas las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API realizada. Puede ver qué módulo, operación o respuesta única causó el error y utilizar ese conocimiento para refinar el escenario.
+La herramienta Devtool de [!DNL Adobe Workfront Fusion] le permite comprender y solucionar problemas de escenarios. Devtool agrega un panel adicional a [!DNL Chrome Developer Tools]. Con este panel del depurador, puede comprobar todas las ejecuciones manuales de su escenario, revisar todas las operaciones realizadas y ver los detalles de cada llamada de API realizada. Puede ver qué módulo, operación o respuesta única causó el error y utilizar ese conocimiento para refinar el escenario.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ El [!DNL Adobe Workfront Fusion] Devtool le permite comprender y solucionar prob
 Para ver un vídeo introductorio y una guía general de Fusion Devtool, consulte
 
 * [Herramienta de desarrollo de Fusion](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [Tutorial de Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Recorrido de Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## Requisitos de acceso
 
@@ -46,38 +46,38 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
   <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Acceso a Workfront Fusion DevTool
 
-El acceso a Devtool difiere en función de si utiliza Fusion en la [!DNL Adobe Unified Experience].
+El acceso a Devtool difiere en función de si está utilizando Fusion en [!DNL Adobe Unified Experience].
 
-* [Acceda a la herramienta Desarrollo en la [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
-* [Acceda a la herramienta de desarrollo en el clásico [!DNL Fusion] experiencia](#access-the-devtool-in-the-classic-fusion-experience)
+* [Acceda a la herramienta de desarrollo en  [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Acceda a la herramienta de desarrollo en la experiencia clásica  [!DNL Fusion] ](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Acceda a la herramienta Desarrollo en la [!DNL Adobe Unified Experience] o la nueva experiencia Fusion
+### Acceda a la herramienta de desarrollo en [!DNL Adobe Unified Experience] o a la nueva experiencia de Fusion
 
 Si utiliza Fusion en el Unified Shell de Adobe o ha actualizado a la nueva experiencia de Fusion, puede acceder a la herramienta de desarrollo desde el editor de escenarios.
 
-1. Haga clic en **Herramientas de ayuda** ![Herramientas de ayuda](assets/debugger-icon.png) situado cerca de la parte inferior de la pantalla.
+1. Haga clic en el icono **Herramientas de ayuda** ![Herramientas de ayuda](assets/debugger-icon.png) cerca de la parte inferior de la pantalla.
 
 O bien:
 
@@ -86,31 +86,31 @@ O bien:
    Para localizar el Editor de escenarios, consulte [Editor de escenarios](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
 
 1. Haga clic con el botón derecho en un área vacía de la página (no en un módulo).
-1. Seleccionar **Abrir Devtool**.
+1. Seleccione **Abrir Devtool**.
 
-### Acceda a la herramienta de desarrollo en el clásico [!DNL Fusion] experiencia
+### Acceder a Devtool en la experiencia clásica de [!DNL Fusion]
 
-Para utilizar Devtool en el clásico [!DNL Fusion] experiencia, debe instalar un [!DNL Chrome] extensión. A continuación, puede utilizar esta extensión desde el [!DNL Chrome] Herramientas para desarrolladores.
+Para usar Devtool en la experiencia clásica [!DNL Fusion], debe instalar una extensión [!DNL Chrome]. Puede usar esta extensión desde las herramientas para desarrolladores de [!DNL Chrome].
 
-* [Instale el Instale el [!DNL Chrome] Extensión Devtool](#install-the-chrome-devtool-extension)
-* [Busque el [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+* [Instale la extensión Install the [!DNL Chrome] Devtool](#install-the-chrome-devtool-extension)
+* [Busque la herramienta  [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
 
-#### Instale el [!DNL Chrome] Extensión Devtool
+#### Instalar la extensión Devtool [!DNL Chrome]
 
-Puede añadir la variable [!DNL Workfront Fusion] Devtool a [!DNL Chrome] a través de [!UICONTROL [!DNL Chrome] Tienda web].
+Puede agregar la herramienta Devtool de [!DNL Workfront Fusion] a [!DNL Chrome] a través de la tienda web [!UICONTROL [!DNL Chrome]].
 
-1. Clic [este vínculo](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) para ir a [!DNL Workfront Fusion] Devtool en el [!UICONTROL [!DNL Chrome] Tienda web].
-1. Clic **[!UICONTROL Añadir a[!DNL Chrome]]**.
-1. En la ventana que se abre, examine los permisos. Si acepta los permisos, haga clic en **[!UICONTROL Añadir extensión]**.
+1. Haga clic en [este vínculo](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) para ir a la herramienta de desarrollo [!DNL Workfront Fusion] en la tienda web [!UICONTROL [!DNL Chrome]].
+1. Haga clic en **[!UICONTROL Agregar a[!DNL Chrome]]**.
+1. En la ventana que se abre, examine los permisos. Si está de acuerdo con los permisos, haga clic en **[!UICONTROL Agregar extensión]**.
 
-El [!DNL Workfront Fusion] La extensión Devtool se añade a su [!DNL Chrome] extensiones.
+La extensión Devtool [!DNL Workfront Fusion] se ha agregado a las extensiones [!DNL Chrome].
 
 
-#### Busque el [!DNL Workfront Fusion] Devtool
+#### Busque el objeto Devtool [!DNL Workfront Fusion]
 
-Para usar la variable [!DNL Workfront Fusion] Devtool, debe añadir el [!DNL Workfront Fusion] Extensión Devtool a su [!DNL Chrome] explorador, tal como se describe en [Instale la extensión de Chrome DevTool](#install-the-chrome-Devtool-extension).
+Para usar la extensión Devtool de [!DNL Workfront Fusion], debe agregar la extensión Devtool de [!DNL Workfront Fusion] al explorador [!DNL Chrome], tal como se describe en [Instalar la extensión Devtool de Chrome](#install-the-chrome-Devtool-extension).
 
-1. Abra su [!DNL Workfront Fusion] escenario.
+1. Abra su escenario [!DNL Workfront Fusion].
 1. Abrir [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
@@ -130,15 +130,15 @@ Para usar la variable [!DNL Workfront Fusion] Devtool, debe añadir el [!DNL Wor
 
    >[!TIP]
    >
-   >Se recomienda acoplar el [!DNL Chrome Developer Console] hasta la parte inferior para mantener una mejor vista de sus módulos.
+   >Se recomienda acoplar [!DNL Chrome Developer Console] a la parte inferior para mantener una mejor vista de los módulos.
 
-1. Haga clic en **[!DNL Workfront Fusion]** pestaña en [!DNL Chrome Dev Tools].
+1. Haga clic en la ficha **[!DNL Workfront Fusion]** de [!DNL Chrome Dev Tools].
 
-## Utilice el [!DNL Workfront Fusion] Devtool
+## Usar Devtool [!DNL Workfront Fusion]
 
 Workfront Fusion Devtool se divide en 3 secciones principales. Puede encontrarlas en el panel izquierdo de la ventana de Devtool.
 
-* [Emisión en directo](#live-stream)
+* [Emisión en vivo](#live-stream)
 * [Depurador de escenarios](#scenario-debugger)
 * [Herramientas](#tools)
 
@@ -146,7 +146,7 @@ Workfront Fusion Devtool se divide en 3 secciones principales. Puede encontrarla
 
 La emisión en directo muestra lo que está sucediendo en segundo plano cuando hace clic en Ejecutar una vez en su escenario.
 
-1. Haga clic en **[!UICONTROL Emisión en directo]** icono ![](assets/live-stream-icon.png) para abrir la sección Emisión en directo.
+1. Haga clic en el icono **[!UICONTROL Transmisión en directo]** ![](assets/live-stream-icon.png) para abrir la sección Transmisión en directo.
 1. Realice una de las siguientes acciones:
 
    <table style="table-layout:auto"> 
@@ -167,15 +167,15 @@ La emisión en directo muestra lo que está sucediendo en segundo plano cuando h
         <li> <p>Cuerpo de solicitud</p> </li> 
         <li> <p>Encabezados de respuesta</p> </li> 
         <li> <p>Cuerpo de respuesta</p> </li> 
-       </ul> <p>Para ver esta información, haga clic en la pestaña adecuada en el panel derecho del [!DNL Workfront Fusion] Devtool.</p> </td> 
+       </ul> <p>Para ver esta información, haga clic en la ficha correspondiente del panel derecho de la herramienta de desarrollo [!DNL Workfront Fusion].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Solicitudes de búsqueda y respuestas</p> </td> 
-      <td> <p>Introduzca el término de búsqueda en el campo de búsqueda del panel izquierdo del [!DNL Workfront Fusion] Devtool para mostrar solo las solicitudes que contienen el término de búsqueda.</p> </td> 
+      <td> <p>Escriba el término de búsqueda en el campo de búsqueda del panel izquierdo de la herramienta de desarrollo [!DNL Workfront Fusion] para mostrar solamente las solicitudes que contienen el término de búsqueda.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Eliminar lista de solicitudes </p> </td> 
-      <td> <p>Haga clic en el icono de la papelera en la esquina superior derecha del panel izquierdo de Devtool para borrar la lista de solicitudes registradas por. [!DNL Workfront Fusion] Devtool. </p> </td> 
+      <td> <p>Haga clic en el icono de papelera en la esquina superior derecha del panel izquierdo de Devtool para borrar la lista de solicitudes registradas por Devtool [!DNL Workfront Fusion]. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Activar registro de consola</p> </td> 
@@ -185,8 +185,8 @@ La emisión en directo muestra lo que está sucediendo en segundo plano cuando h
       <td role="rowheader"> <p>Recuperar la solicitud en formato JSON sin procesar o cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>JSON sin procesar</strong> </p> <p>Clic <strong>[!UICONTROL Copiar RAW]</strong> en la esquina superior derecha del panel derecho de Devtool.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Clic <strong>[!UICONTROL Copiar cURL]</strong> en la esquina superior derecha del panel derecho de Devtool.</p> </li> 
+        <li> <p><strong>JSON sin procesar</strong> </p> <p>Haga clic en <strong>[!UICONTROL Copiar RAW]</strong> en la esquina superior derecha del panel derecho de Devtool.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Haga clic en <strong>[!UICONTROL Copiar cURL]</strong> en la esquina superior derecha del panel derecho de Devtool.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,25 +196,25 @@ La emisión en directo muestra lo que está sucediendo en segundo plano cuando h
 
 El depurador de escenarios resulta útil para escenarios más complejos. Muestra el historial de ejecuciones de escenarios y le permite buscar módulos por su nombre o ID.
 
-1. Haga clic en **[!UICONTROL Depurador de escenarios]** icono ![](assets/scenario-debugger-icon.png) para abrir Scenario Debugger.
-1. (Opcional) Introduzca el término de búsqueda (nombre o ID de módulo) en el campo de búsqueda del panel izquierdo de [!DNL Workfront Fusion] Devtool en la [!UICONTROL Depurador de escenarios] sección.
+1. Haga clic en el icono **[!UICONTROL Depurador de escenarios]** ![](assets/scenario-debugger-icon.png) para abrir el Depurador de escenarios.
+1. (Opcional) Escriba el término de búsqueda (nombre o ID de módulo) en el campo de búsqueda del panel izquierdo de [!DNL Workfront Fusion] Devtool en la sección [!UICONTROL Depurador de escenarios].
 1. Haga doble clic en el nombre del módulo para abrir su configuración en el editor de escenarios.
 1. Vea los detalles de la solicitud haciendo clic en la operación deseada.
 
 ### Herramientas
 
-El [!DNL Workfront Fusion] Devtool incluye herramientas que facilitan la configuración de su escenario.
+La herramienta de desarrollo [!DNL Workfront Fusion] incluye herramientas que facilitan la configuración del escenario.
 
-1. Haga clic en **[!UICONTROL Herramientas]** icono ![](assets/console-tools-icon.png) para abrir las herramientas.
+1. Haga clic en el icono **[!UICONTROL Herramientas]** ![](assets/console-tools-icon.png) para abrir las herramientas.
 1. Seleccione la herramienta que desee utilizar
 1. Configure los campos como se detalla a continuación.
-1. Clic **[!UICONTROL Ejecutar]**.
+1. Haga clic en **[!UICONTROL Ejecutar]**.
 
 Herramientas y sus campos:
 
-* [Enfoque de un módulo](#focus-a-module)
+* [Enfocar un módulo](#focus-a-module)
 * [Buscar módulos por asignación](#find-modules-by-mapping)
-* [Obtener metadatos de aplicación](#get-app-metadata)
+* [Obtener metadatos de la aplicación](#get-app-metadata)
 * [Copiar asignación](#copy-mapping)
 * [Copiar filtro](#copy-filter)
 * [Intercambiar conexión](#swap-connection)
@@ -222,11 +222,11 @@ Herramientas y sus campos:
 * [Intercambiar aplicación](#swap-app)
 * [Base 64](#base-64)
 * [Copiar nombre de módulo](#copy-module-name)
-* [Origen de reasignación](#remap-source)
+* [Reasignar Source](#remap-source)
 * [Resaltar aplicación](#highlight-app)
 * [Migrar GS](#migrate-gs)
 
-#### [!UICONTROL Enfoque de un módulo]
+#### [!UICONTROL Enfocar un módulo]
 
 Abre la configuración del módulo especificado por identificador.
 
@@ -256,13 +256,13 @@ Permite buscar los valores de los módulos para un término especificado. La sal
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtener metadatos de aplicación]
+#### [!UICONTROL Obtener metadatos de la aplicación]
 
 Recupera los metadatos de la aplicación por el nombre o ID del módulo de la aplicación. Esto resulta útil, por ejemplo, cuando necesita saber la versión de la aplicación utilizada en su escenario.
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Módulo de origen]</td>
+        <td>[!UICONTROL Módulo Source]</td>
         <td>Seleccione el módulo para el que desea recuperar metadatos.</td>
     </tr>
 </table>
@@ -280,7 +280,7 @@ Copia los valores del módulo de origen en el módulo de destino.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Módulo de origen]</td> 
+   <td role="rowheader">[!UICONTROL Módulo Source]</td> 
    <td> <p> Seleccione el módulo o introduzca el ID del módulo desde el que desea copiar los valores de campo.</p> </td> 
   </tr> 
   <tr> 
@@ -303,7 +303,7 @@ Copia la configuración del filtro del módulo de origen al módulo de destino.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Módulo de origen]</td> 
+   <td role="rowheader">[!UICONTROL Módulo Source]</td> 
    <td> <p> Seleccione el módulo o introduzca el ID del módulo desde el que desea copiar los valores de filtro.</p> </td> 
   </tr> 
   <tr> 
@@ -323,7 +323,7 @@ Duplica una conexión desde el módulo de origen a cada módulo en el escenario 
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Módulo de origen]</td>
+        <td>[!UICONTROL Módulo Source]</td>
         <td>Seleccione el módulo o introduzca el ID del módulo desde el que desea duplicar la conexión.</td>
     </tr>
 </table>
@@ -406,7 +406,7 @@ Copia el nombre del módulo seleccionado en el portapapeles.
  </tbody> 
 </table>
 
-#### [!UICONTROL Origen de reasignación]
+#### [!UICONTROL Reasignar Source]
 
 Permite cambiar el origen de asignación de un módulo a otro.
 
@@ -417,7 +417,7 @@ Primero debe agregar el módulo que desea usar como módulo de origen a la ruta 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Módulo de origen] </td> 
+   <td role="rowheader">[!UICONTROL Módulo Source] </td> 
    <td> <p> Seleccione el módulo que desea reemplazar como origen de asignación para otros módulos de su escenario.</p> </td> 
   </tr> 
   <tr> 
@@ -456,6 +456,6 @@ Resalta los módulos de la aplicación especificada en su escenario.
 
 #### [!UICONTROL Migrar GS]
 
-Esta herramienta está diseñada especialmente para actualizar [!DNL Google Sheets] Módulos (heredados) a la última versión [!DNL Google Sheets] versión. Añade una nueva versión del módulo justo después de la versión heredada del módulo en la ruta del escenario.
+Esta herramienta está diseñada especialmente para actualizar módulos [!DNL Google Sheets] (heredados) a la última versión [!DNL Google Sheets]. Añade una nueva versión del módulo justo después de la versión heredada del módulo en la ruta del escenario.
 
 Este módulo no requiere que establezca ningún parámetro.

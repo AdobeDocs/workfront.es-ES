@@ -24,7 +24,7 @@ Un informe de calendario es un informe dinámico que proporciona una representac
 * Problemas
 * Proyectos
 
-Su capacidad para acceder a los informes de calendario en [!DNL Adobe Workfront] se determina a través de su nivel de acceso. Para obtener más información sobre el acceso necesario para ver los informes del calendario, consulte [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Su capacidad para acceder a los informes del calendario en [!DNL Adobe Workfront] se determina a través de su nivel de acceso. Para obtener más información sobre el acceso necesario para ver los informes del calendario, vea [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Crear sus propios calendarios
 
@@ -44,14 +44,14 @@ Además, puede crear calendarios y acceder a los calendarios que otros usuarios 
 
 >[!NOTE]
 >
->Debe tener [!UICONTROL Editar] acceso a [!UICONTROL Informes], [!UICONTROL Paneles], y [!UICONTROL Calendarios] en el nivel de acceso para crear un informe de calendario. Póngase en contacto con su [!DNL Workfront] para obtener más información.
+>Debe tener acceso de [!UICONTROL Editar] a [!UICONTROL Informes], [!UICONTROL Paneles] y [!UICONTROL Calendarios] en su nivel de acceso para crear un informe de calendario. Póngase en contacto con el administrador de [!DNL Workfront] para obtener más información.
 
 ## Agrupar elementos por fechas
 
 En cada informe de calendario, puede crear grupos de elementos que le permitan definir el enfoque del calendario. Por ejemplo, puede tener una agrupación de calendario que muestre las fechas de todas las tareas de un proyecto específico, los integrantes del equipo de marketing que trabajan actualmente en el proyecto y los problemas vencidos asignados al equipo del proyecto. Para obtener más información, consulte los siguientes artículos:
 
-* [Uso [!UICONTROL Fechas planificadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Uso [!UICONTROL Fechas proyectadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [Usar [!UICONTROL Fechas planificadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Usar [!UICONTROL Fechas proyectadas] en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Usar campos de fecha personalizados en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
 >[!NOTE]
@@ -60,4 +60,4 @@ En cada informe de calendario, puede crear grupos de elementos que le permitan d
 
 ## Agregar sus calendarios a un panel
 
-Puede tener acceso rápido a los informes de calendario mostrándolos en un panel. Para obtener información sobre cómo agregar un calendario a un panel, consulte [Edición de un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+Puede tener acceso rápido a los informes de calendario mostrándolos en un panel. Para obtener información sobre cómo agregar un calendario a un panel, consulte [Editar un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Ver una iteración
-description: Puede ver todas las iteraciones de un equipo determinado o una iteración individual. Las iteraciones muestran datos sobre los artículos, problemas y documentos contenidos en la iteración.
+description: Puede ver todas las iteraciones de un equipo determinado o puede ver una iteración individual. Las iteraciones muestran datos sobre los artículos, problemas y documentos que contiene la iteración.
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ver una iteración
 
-Puede ver todas las iteraciones de un equipo determinado o una iteración individual. Las iteraciones muestran datos sobre los artículos, problemas y documentos contenidos en la iteración.
+Puede ver todas las iteraciones de un equipo determinado o puede ver una iteración individual. Las iteraciones muestran datos sobre los artículos, problemas y documentos que contiene la iteración.
 
 ## Requisitos de acceso
 
@@ -38,24 +38,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Ver iteraciones asignadas a un equipo determinado
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Equipos]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
 
-1. (Opcional) Haga clic en el **[!UICONTROL Cambiar equipo]** icono ![Icono Cambiar equipo](assets/switch-team-icon.png), seleccione un nuevo equipo de Anulación en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica, o seleccione **[!UICONTROL Iteración actual]**.
+1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
 
    ![Lista de iteraciones](assets/view-iteration-NWE.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Iteración actual]** solo se muestra en el panel izquierdo cuando está asignado a la plantilla de diseño y hay al menos una tarea o problema en la iteración. Para obtener más información, consulte [Personalización del panel izquierdo mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+   >**[!UICONTROL Iteración actual]** solo se muestra en el panel izquierdo cuando se asigna a la plantilla de diseño y hay al menos una tarea o problema en la iteración. Para obtener más información, consulte [Personalizar el panel izquierdo con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
-1. (Opcional) Haga clic en el nombre de la iteración específica que desee ver.\
-   Se muestran los artículos de iteración.
+1. (Opcional) Haga clic en el nombre de la iteración específica que desea ver.\
+   Se muestran las historias de iteración.
 
    ![[!UICONTROL Historias en iteración]](assets/iteration-stories-list-NWE.png)

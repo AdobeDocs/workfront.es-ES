@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Ver los registros de autenticación en [!DNL Workfront Proof]
-description: Como [!DNL Workfront Proof] administrador, puede ver la información de uso de cada usuario que haya iniciado sesión [!DNL Workfront Proof].
+title: Ver registros de autenticación en  [!DNL Workfront Proof]
+description: Como administrador de  [!DNL Workfront Proof] puede ver la información de uso de todos los usuarios que han iniciado sesión en [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d458989b-884f-4253-8dc9-9a545377cc63
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ---
 
-# Ver los registros de autenticación en [!DNL Workfront Proof]
+# Ver registros de autenticación en [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Como [!DNL Workfront Proof] administrador, puede ver la información de uso de cada usuario que haya iniciado sesión [!DNL Workfront Proof].
+Como administrador de [!DNL Workfront Proof], puede ver la información de uso de todos los usuarios que iniciaron sesión en [!DNL Workfront Proof].
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Actividad]**.
-1. En el **[!UICONTROL Pruebas y registros de medios]** menú desplegable, haga clic en **[!UICONTROL Registros de autenticación]**.
+1. En el menú desplegable **[!UICONTROL Pruebas y registros de medios]**, haga clic en **[!UICONTROL Registros de autenticación]**.
 Se muestra el historial de inicio de sesión de cada usuario del sistema.

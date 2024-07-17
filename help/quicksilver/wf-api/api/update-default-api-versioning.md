@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Las integraciones que no especifican una versión de la API en el URI se enrutan
 >
 >Si su organización utiliza actualmente la API predeterminada, su administrador de Workfront ha recibido un mensaje del Centro de anuncios con más instrucciones sobre la API predeterminada.
 
-Para obtener más información sobre cómo especificar una versión en las solicitudes de API, consulte [Especificar una versión de API en las integraciones](../../wf-api/api/specify-api-version-integrations.md).
+Para obtener más información sobre cómo especificar una versión en sus solicitudes de API, consulte [Especificar una versión de API en sus integraciones](../../wf-api/api/specify-api-version-integrations.md).
 
 ## Consideraciones al utilizar la API predeterminada
 
 Tenga en cuenta lo siguiente al trabajar con la API predeterminada de Workfront:
 
-* La versión predeterminada de la API es la más reciente. Cualquier llamada de API sin la versión especificada utilizará la versión predeterminada. Cada vez que Workfront publica una nueva versión de la API, la versión predeterminada se actualiza a la más reciente. **Por lo tanto, después de publicar una nueva versión de la API de Workfront, cualquier llamada de API que utilice la versión predeterminada debe comprobarse para asegurarse de que la funcionalidad sigue siendo compatible**.
+* La versión predeterminada de la API es la más reciente. Cualquier llamada de API sin la versión especificada utilizará la versión predeterminada. Cada vez que Workfront publica una nueva versión de la API, la versión predeterminada se actualiza a la más reciente. **Por lo tanto, después de que se publique una nueva versión de la API de Workfront, cualquier llamada de API que utilice la versión predeterminada debe comprobarse para asegurarse de que la funcionalidad sigue siendo compatible**.
 * Si su organización utiliza actualmente la API predeterminada obsoleta anterior, su administrador de Workfront ha recibido un mensaje del Centro de anuncios con más instrucciones sobre la API predeterminada.
 
-Para ver la versión más reciente de la API, consulte [Versiones de API y programación de asistencia](../../wf-api/api/api-version-support-schedule.md).
+Para ver la versión más reciente de la API, consulte [Versiones de API y programación de soporte](../../wf-api/api/api-version-support-schedule.md).
 
 ## Actualización de las integraciones a versiones de API compatibles
 
@@ -51,7 +51,7 @@ Para convertir una solicitud de API predeterminada en una solicitud de API con v
 
 Al actualizar las solicitudes de la API de Workfront, puede especificar cualquier versión compatible de nuestra API. Para obtener más información sobre cómo hacer referencia a una API específica, consulte [Especificar una versión de API en las integraciones](../../wf-api/api/specify-api-version-integrations.md).
 
-Para garantizar la ventana de compatibilidad máxima, debe llamar a la versión más reciente. Puede encontrar una lista de las API compatibles en [Versiones de API y programación de asistencia](../../wf-api/api/api-version-support-schedule.md).
+Para garantizar la ventana de compatibilidad máxima, debe llamar a la versión más reciente. Puede encontrar una lista de las API admitidas en [versiones de API y programación de soporte](../../wf-api/api/api-version-support-schedule.md).
 
 ## Historial de la versión predeterminada de la API
 

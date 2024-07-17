@@ -17,7 +17,7 @@ ht-degree: 14%
 
 En esta página se describen actualizaciones menores del aspecto y la presentación de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión 22.3. Estas mejoras estaban disponibles en el entorno de producción al menos 2 semanas después del lanzamiento a Vista previa.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Actualizaciones globales de aspecto y funcionamiento
 
@@ -43,6 +43,6 @@ Las barras de herramientas de las siguientes listas e informes ahora tienen un a
 
 >[!NOTE]
 >
->Este cambio se actualizó en Producción el 23 de mayo de 2022. Consulte la [Actualización de mantenimiento el 26 de mayo de 2022 para obtener más información](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Este cambio se actualizó en Producción el 23 de mayo de 2022. Consulte la [Actualización de mantenimiento del 26 de mayo de 2022 para obtener más información](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
 
 Hemos actualizado los separadores de rutas de exploración en todas las áreas donde hay disponibles rutas de exploración. Ahora, los objetos de las rutas de exploración están separados por barras verticales (|). Antes de esta actualización, estaban separados por barras inclinadas (/).

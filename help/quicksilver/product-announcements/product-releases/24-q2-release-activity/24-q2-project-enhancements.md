@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de proyecto realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 
 ## Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea
@@ -31,7 +31,7 @@ Hemos agregado la misma funcionalidad para asignaciones inteligentes más releva
 
 * En una lista de tareas de proyecto
 
-Para obtener más información, consulte [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Para obtener más información, vea [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Asignaciones inteligentes más relevantes
 
@@ -55,4 +55,4 @@ Considere también lo siguiente:
 
 * No hay cambios en la forma en que se calculan las asignaciones inteligentes para los problemas. El nombre de la lista de asignaciones inteligentes de una lista de problemas es &quot;Estas son algunas recomendaciones&quot;.
 
-Para obtener más información, consulte [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Para obtener más información, vea [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

@@ -37,7 +37,7 @@ Cualquier uso de la API debe probarse en el entorno beta de Workfront antes de e
 
 ## URL de API de Workfront
 
-Para obtener información sobre la dirección URL que utilizará para llamar a la API de Workfront, consulte [Formato de dominio para llamadas a la API de Adobe Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
+Para obtener información acerca de la dirección URL que usará para llamar a la API de Workfront, vea [Formato de dominio para llamadas a la API de Adobe Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
 
 ## Conceptos básicos de REST
 
@@ -63,9 +63,9 @@ Los objetos se manipulan enviando una solicitud HTTP a su URI único. La operaci
 
 Los métodos HTTP estándar corresponden a las siguientes operaciones:
 
-* **GET** : Recupera un objeto por ID, busca todos los objetos por una consulta, ejecuta informes o ejecuta consultas con nombre
+* **GET**: recupera un objeto por identificador, busca todos los objetos mediante una consulta, ejecuta informes o ejecuta consultas con nombre
 * **POST** - Inserta un nuevo objeto
-* **PUT** - Edita un objeto existente
+* **PUT**: edita un objeto existente
 * **DELETE** - Elimina un objeto
 
 Para evitar deficiencias de cliente o límites de longitud de protocolo, se puede utilizar el parámetro de método para anular el comportamiento HTTP. Por ejemplo, se puede implementar una operación de GET publicando el siguiente URI:
@@ -82,13 +82,13 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 devuelve una respuesta JSON similar a la siguiente:
 
 
-<pre>{<br>    "data": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "nombre": "Proyecto completamente nuevo",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
+<pre>{<br>    "datos": [<br>        {<br>            "percentComplete": 0,<br>            "estado": "CUR",<br>            "prioridad": 2,<br>            "nombre": "Proyecto completamente nuevo",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Al ejecutar una solicitud de GET a través de la barra de direcciones del explorador, no es necesario incluir el ID de sesión como parte de la solicitud.
 
-Se ha agregado seguridad especial en torno a las solicitudes del PUT, el POST y el DELETE. Cualquier solicitud que resulte en la escritura o eliminación de la base de datos solo se puede ejecutar si la variable **sessionID=abc123** está incluido en el URI. Los siguientes ejemplos muestran el aspecto que tendría esto para una solicitud de DELETE:
+Se ha agregado seguridad especial en torno a las solicitudes del PUT, el POST y el DELETE. Cualquier solicitud que resulte en la escritura o eliminación en la base de datos solo se puede ejecutar si **sessionID=abc123** está incluido en el URI. Los siguientes ejemplos muestran el aspecto que tendría esto para una solicitud de DELETE:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
 
 ### Autenticación
@@ -99,7 +99,7 @@ La autenticación se realiza pasando un ID de sesión que se puede proporcionar 
 
 #### Autenticación de encabezado de solicitud
 
-El método de autenticación preferido es pasar un encabezado de solicitud denominado SessionID que contenga el token de sesión. Esto tiene la ventaja de estar seguro contra [Falsificación de solicitud en sitios múltiples (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ataques y no interferir con el URI con fines de almacenamiento en caché.
+El método de autenticación preferido es pasar un encabezado de solicitud denominado SessionID que contenga el token de sesión. Esto tiene la ventaja de estar a salvo de [ataques de falsificación de solicitudes entre sitios (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) y de no interferir con el URI con fines de almacenamiento en caché.
 
 A continuación se muestra un ejemplo de encabezado de solicitud:
 
@@ -128,22 +128,22 @@ La API utiliza la misma autenticación basada en cookies que la IU web utiliza p
 
 >[!IMPORTANT]
 >
->Workfront ya no recomienda el uso del `/login` extremo o claves API. En su lugar, utilice uno de los siguientes métodos de autenticación:
+>Workfront ya no recomienda el uso del extremo `/login` ni de las claves API. En su lugar, utilice uno de los siguientes métodos de autenticación:
 >
 >* Autenticación de servidor con JWT
 >* Autenticación de usuario con OAuth2
 >
->Para obtener instrucciones sobre la configuración de estos métodos de autenticación, consulte [Creación de aplicaciones de OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Para obtener instrucciones sobre cómo configurar estos métodos de autenticación, consulte [Crear aplicaciones OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->Para obtener instrucciones sobre el uso de la autenticación de servidor en Workfront, consulte [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](../../wf-api/api/oauth-app-jwt-flow.md)
+>Para obtener instrucciones sobre el uso de la autenticación de servidor en Workfront, consulte [Configuración y uso de las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](../../wf-api/api/oauth-app-jwt-flow.md)
 >
->Para obtener instrucciones sobre el uso de la autenticación de usuarios en Workfront, consulte [Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo del código de autorización](../../wf-api/api/oauth-app-code-token-flow.md)
+>Para obtener instrucciones sobre el uso de la autenticación de usuarios en Workfront, consulte [Configuración y uso de las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo de código de autorización](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
 >El procedimiento descrito en esta sección se aplica solo a las organizaciones que aún no se han incorporado a Adobe Business Platform. El inicio de sesión en Workfront a través de la API de Workfront no está disponible si su organización se ha incorporado a Adobe Business Platform.
 >
->Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Si utiliza un nombre de usuario y una contraseña válidos, puede utilizar la siguiente solicitud para obtener un ID de sesión:
 
@@ -157,7 +157,7 @@ Esto establece una cookie para autenticar solicitudes futuras, así como devolve
 >
 >Si tiene un usuario de API designado que también sea administrador, Workfront le recomienda encarecidamente que utilice una clave de API para iniciar sesión.
 
-**Generación de una clave API**
+**Generando una clave API**
 
 Puede generar una clave API al iniciar sesión en el sistema como ese usuario, como se muestra en el siguiente ejemplo:
 
@@ -166,7 +166,7 @@ Puede generar una clave API al iniciar sesión en el sistema como ese usuario, c
 PUT /attask/api/v15.0/user?action=generateApiKey&username= username&password=password&method=put
 ```
 
-**Recuperación de una clave de API generada anteriormente**
+**Recuperando una clave de API generada anteriormente**
 
 También puede recuperar una clave de API que se haya generado anteriormente para un usuario en particular ejecutando getApiKey:
 
@@ -183,7 +183,7 @@ La siguiente solicitud es un ejemplo de recuperación de datos de un proyecto me
 GET /attask/api/v15.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
 ```
 
-**Invalidación de una clave API**
+**Invalidar una clave API**
 
 Si el valor de apiKey se ha visto comprometido, puede ejecutar &quot;clearApiKey&quot; que invalida la clave de API actual, como se muestra en el siguiente ejemplo:
 
@@ -208,7 +208,7 @@ Para cerrar la sesión de un usuario:
 1. Vaya a la pantalla de inicio de sesión, pero no inicie sesión.
 1. Cambie la dirección URL a /attask/api/v15.0/project/search.\
    Observe que la página no se encuentra.
-1. Reemplace la palabra *búsqueda* con login?username=admin&amp;password=user, sustituyendo su nombre de usuario y contraseña por *administrador* y *usuario\
+1. Reemplace la palabra *search* por login?username=admin&amp;password=user, sustituyendo su nombre de usuario y contraseña por *admin* y *user\
    *Esta sesión se almacena en el explorador como una cookie y no es necesario reiniciarla en cada solicitud de GET posterior.
 
 1. Vuelva a cambiar la dirección URL a **/attask/api/v15.0/project/search**.
@@ -234,7 +234,7 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 devuelve una respuesta similar a la siguiente:
 
-<pre>{<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "priority": 2,<br>    "nombre": "Proyecto completamente nuevo",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
+<pre>{<br>    "percentComplete": 0,<br>    "estado": "CUR",<br>    "prioridad": 2,<br>    "nombre": "Proyecto completamente nuevo",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
 
 
 Para recuperar varios objetos en la misma solicitud, especifique el parámetro de solicitud de ID y proporcione una lista de ID separados por comas, como se muestra en el siguiente ejemplo:
@@ -244,7 +244,7 @@ Para recuperar varios objetos en la misma solicitud, especifique el parámetro d
 GET /attask/api/v15.0/project?id=4c78...54d0,4c78...54d1
 ```
 
-Verá que la solicitud /attask/api/v15.0/project?id=... es la misma que la `/attask/api/v15.0/project/...` solicitud.
+Observe que la solicitud /attask/api/v15.0/project?id=... es la misma que la solicitud `/attask/api/v15.0/project/...`.
 
 #### Recuperación de un objeto mediante el URI
 
@@ -288,7 +288,7 @@ En la tabla siguiente se enumeran algunos de los modificadores que puede utiliza
 
 >[!NOTE]
 >
->Las solicitudes de búsqueda distinguen entre mayúsculas y minúsculas. Si recibe un error, asegúrese de que  **_Mod** y **_Rango** Tener las mayúsculas correctas.
+>Las solicitudes de búsqueda distinguen entre mayúsculas y minúsculas. Si recibe un error, asegúrese de que  **_Mod** y **_Range** tienen las mayúsculas correctas.
 
 #### Uso de instrucciones OR
 
@@ -303,7 +303,7 @@ Por ejemplo, si desea filtrar por
 * Tareas que tienen una tarea principal llamada &quot;Tarea final&quot;
 
 a continuación, utilice la siguiente llamada de API con sus varias instrucciones OR:
-<pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contiene<br>&amp;O:1:portafolio:nombre=Activos fijos<br>&amp;O:1:portafolio:nombre_Mod=eq<br>&amp;O:1:assignedTo:name=Steve<br>&amp;O:1:assignedTo:name_Mod=cicontains<br>&amp;O:2:parent:name=Tarea final<br>&amp;O:2:parent:name_Mod=eq
+<pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portfolio:name=FixedAssets<br>&amp;OR:1:portfolio:name_Mod=eq<br>&amp;OR:1:assignedTo:name=Steve<br>&amp;OR:1:assignedTo:name_Mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
 </pre>
 
 #### Uso de parámetros de filtro
@@ -318,7 +318,7 @@ Para evitar este problema, puede colocar estos valores en parámetros de filtro 
 
 De forma predeterminada, los datos devueltos por una búsqueda son una matriz JSON. Según el caso de uso, puede ser más eficaz obtener el resultado como un objeto JSON indexado por ID. Esto se puede hacer utilizando el parámetro de solicitud de asignación. Por ejemplo, la solicitud de 
 <pre>/attask/api/v15.0/task/search?map=true</pre>devuelve una respuesta indexada por ID similar a la siguiente:
-<pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "first task",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "second task",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
+<pre>{<br>    "datos": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "estado": "NUEVO",<br>            "nombre": "primera tarea",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "estado": "INP:A",<br>            "nombre": "segunda tarea",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br></pre>
 
 #### Uso del parámetro de solicitud de campos
 
@@ -326,7 +326,7 @@ De forma predeterminada, la recuperación de un objeto devuelve solo el subconju
 
 Puede utilizar el parámetro de solicitud de campos para especificar que se devuelve una lista separada por comas de campos específicos. Por ejemplo, la solicitud de
 <pre>/attask/api/v15.0/task/search?fields=plannedStartDate,priority</pre>devuelve una respuesta similar a la siguiente:
-<pre>{<br>    "priority": 2,<br>    "name": "first task",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "30/08/20109:00:00:000-0600" <br>}</pre>
+<pre>{<br>    "prioridad": 2,<br>    "nombre": "primera tarea",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "30T09:00:00:000-0600" <br></pre>
 
 >[!NOTE]
 >
@@ -339,7 +339,7 @@ Para obtener una lista de posibles referencias de campo, consulte la  [Explorad
 Puede buscar objetos anidados. De forma predeterminada, los objetos anidados solo se devuelven con el nombre y el ID. Por ejemplo, para obtener todos los problemas junto con sus propietarios, utilice la siguiente solicitud:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Si se requiere más información, puede solicitar un campo anidado mediante la sintaxis de dos puntos. Por ejemplo, la siguiente solicitud busca todos los problemas junto con el nombre, ID, título y número de teléfono del propietario
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>y devuelve lo siguiente: 
-<pre>{<br>    "nombre": "un problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "propietario": {<br>        "title": "Especialista en operaciones",<br>        "phoneNumber": "555-1234",<br>        "nombre": "Usuario administrador",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{<br>    "nombre": "un problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "propietario": {<br>        "título": "Especialista en operaciones",<br>        "phoneNumber": "555-1234",<br>        "nombre": "Usuario administrador",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
 
 #### Recuperación de colecciones anidadas
 
@@ -358,16 +358,16 @@ Puede recuperar campos de datos personalizados con el prefijo &quot;DE:&quot;. P
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>que devolvería
 <pre>{<br>    "nombre": "proyecto de datos personalizados",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "tarea b" <br>}</pre>También puede recuperar todos los datos personalizados de un objeto solicitando el campo parameterValues. Por ejemplo, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>devuelve datos similares a los siguientes:
-<pre>{<br>    "nombre": "proyecto de datos personalizados",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "tarea b", <br>        "DE:CustomNumber": 1,4, <br>        "DE:CustomCheckBoxes": ["primero", "segundo", "tercero"] <br>    } <br>}</pre>
+<pre>{<br>    "nombre": "proyecto de datos personalizados",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "tarea b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["primero", "segundo", "tercero"] <br>    } <br></pre>
 
 #### Uso de consultas con nombre
 
 Algunos tipos de objeto tienen búsquedas con nombre que se ejecutan normalmente y están disponibles añadiendo el nombre de la consulta al final del URI del tipo de objeto. Por ejemplo, la siguiente solicitud recupera los elementos de trabajo (tareas y problemas) a los que está asignado el usuario actualmente:
-<pre>/attask/api/v15.0/work/myWork</pre>Las consultas con nombre admiten la solicitud del parámetro fields para recuperar campos adicionales. Algunas consultas con nombre también aceptan filtros adicionales. Para obtener una lista de las consultas con nombre permitidas para un objeto, consulte la pestaña Acción del objeto en [Explorador de API](https://developer.adobe.com/workfront/api-explorer/).
+<pre>/attask/api/v15.0/work/myWork</pre>Las consultas con nombre admiten la solicitud del parámetro fields para recuperar campos adicionales. Algunas consultas con nombre también aceptan filtros adicionales. Para obtener una lista de las consultas con nombre permitidas para un objeto, consulte la pestaña Acción del objeto en la  [Explorador de API](https://developer.adobe.com/workfront/api-explorer/).
 
-#### Uso de `Count`
+#### Usando `Count`
 
-Puede utilizar `count` para devolver el número de resultados que coinciden con la consulta. Esto puede resultar útil cuando no necesita los datos en los resultados. Al devolver solo el recuento, el servidor puede procesar la solicitud más rápidamente y ahorrar ancho de banda. Por ejemplo, la solicitud de
+Puede usar `count` para devolver el número de resultados que coincida con su consulta. Esto puede resultar útil cuando no necesita los datos en los resultados. Al devolver solo el recuento, el servidor puede procesar la solicitud más rápidamente y ahorrar ancho de banda. Por ejemplo, la solicitud de
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>devuelve el número de resultados en el siguiente formato:
 <pre>{<br>    "count": 3 <br>}</pre>Devolver un recuento es una transferencia de datos mucho menor que si se devuelven los objetos completos. La sintaxis es idéntica al comando de búsqueda.
 
@@ -375,8 +375,8 @@ Puede utilizar `count` para devolver el número de resultados que coinciden con 
 
 Puede realizar una solicitud de informe donde solo se desee el agregado de algún campo con una o más agrupaciones. SOAP Como se muestra en el ejemplo siguiente, la sintaxis del informe es la misma que la de la API de la:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que devuelve el siguiente resultado
-<pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo proyecto": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
-<pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo proyecto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
+<pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo proyecto": { <br>        "sum_hours": 30 <br>    } <br></pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
+<pre>{<br>    "Primer proyecto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo proyecto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Clasificación de los resultados de consulta en la API
 
@@ -441,17 +441,17 @@ Para garantizar un rendimiento óptimo, la siguiente tabla muestra las limitacio
 
 ### Uso de respuestas paginadas {#using-paginated-responses}
 
-Para anular la limitación de consulta Número predeterminado de resultados y permitir 200 resultados, puede incluir la variable `$$LIMIT=200` filtre en la consulta, como se muestra en el siguiente ejemplo:
+Para anular la limitación de la consulta Número predeterminado de resultados y permitir 200 resultados, puede incluir el filtro `$$LIMIT=200` en la consulta, como se muestra en el ejemplo siguiente:
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intenta especificar un límite mayor, se producirá un error `IllegalArgumentException` mensaje de error. 
+Para garantizar la fiabilidad y el rendimiento de otros inquilinos del sistema, el límite máximo de resultados permitidos por consulta es de 2000 objetos. Si se intenta especificar un límite mayor, aparecerá un mensaje de error de `IllegalArgumentException`. 
 
-Por lo tanto, le recomendamos que considere la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes. Para especificar el primer resultado que se debe devolver, agregue `$$FIRST` filtro. Por ejemplo, la siguiente solicitud devuelve los resultados 201-250 de una consulta:
+Por lo tanto, le recomendamos que considere la posibilidad de utilizar respuestas paginadas para conjuntos de datos grandes. Para especificar el primer resultado que se debe devolver, agregue el filtro `$$FIRST`. Por ejemplo, la siguiente solicitud devuelve los resultados 201-250 de una consulta:
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
 
-Tenga en cuenta que en el ejemplo anterior, `$$FIRST=200` devuelve el resultado 201. `$$FIRST=0` devolverá el primer resultado. Puede ser útil considerar el valor $$FIRST como el número de resultados que desea omitir antes de devolver los resultados.
+Observe que en el ejemplo anterior, `$$FIRST=200` devuelve el resultado 201st. `$$FIRST=0` devolverá el primer resultado. Puede ser útil considerar el valor $$FIRST como el número de resultados que desea omitir antes de devolver los resultados.
 
-Para asegurarse de que los resultados estén correctamente paginados, utilice un parámetro de ordenación. Esto permite que los resultados se devuelvan en el mismo orden, para que la paginación no se repita ni omita resultados. Por ejemplo, para ordenar con el ID de objeto, utilice `ID_Sort=asc`.
+Para asegurarse de que los resultados estén correctamente paginados, utilice un parámetro de ordenación. Esto permite que los resultados se devuelvan en el mismo orden, para que la paginación no se repita ni omita resultados. Por ejemplo, para ordenar usando el identificador de objeto, use `ID_Sort=asc`.
 
 ### Creación de una regla de acceso
 
@@ -484,7 +484,7 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 Puede cargar documentos a través de la siguiente URL de API:
 <pre>POST /attask/api/v15.0/upload</pre>La API espera que el tipo de contenido sea multipart/form-data. El nombre del parámetro para el archivo debe ser uploadFile. El servidor devuelve los siguientes datos JSON:
 <pre>{<br>    "controlador": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>Puede utilizar el controlador y enviar a la siguiente URL al crear un documento de Workfront:
-<pre>POST /attask/api/v15.0/document?updates={<br>    nombre: aFileName,<br>    identificador: abc...123, (identificador de la carga del archivo)<br>    docObjCode: PROJ, (o TASK, OPTASK, etc.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
+<pre>POST /attask/api/v15.0/document?updates={<br>}    nombre: aFileName,<br>    identificador: abc...123, (identificador de la carga del archivo)<br>    docObjCode: PROJ, (o TAREA, OPTASK, etc.)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br></pre>
 
 ## Comportamiento del PUT
 
@@ -495,24 +495,24 @@ La respuesta de un PUT es idéntica a una GET. En ambos casos, el servidor devue
 ### Edición de objetos
 
 Las actualizaciones de objetos siempre se realizan mediante el ID. utilizando el URI único del objeto. Los campos que se van a actualizar se especifican como parámetros de solicitud. Por ejemplo, para cambiar el nombre de un proyecto puede enviar una solicitud de similar a la siguiente:
-<pre>PUT /attask/api/v15.0/project/4c7...?name=Nuevo nombre de proyecto <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=Nuevo nombre del proyecto</pre>Dado que la actualización requiere un ID, esta operación no se realizará correctamente (sin inserción) si el objeto no existe en el servidor.
+<pre>PUT /attask/api/v15.0/project/4c7...?name=Nuevo nombre de proyecto <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=Nuevo nombre de proyecto</pre>Dado que la actualización requiere un ID, esta operación no se realizará correctamente (sin inserción) si el objeto no existe en el servidor.
 
 ### Especificación de ediciones JSON
 
 Como se muestra en el ejemplo siguiente, puede utilizar el parámetro de solicitud de actualizaciones para especificar los campos que se actualizarán con la sintaxis JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nombre: "Nuevo nombre de proyecto", <br>     estado: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?actualizaciones= <br>{<br>     nombre: "Nuevo nombre de proyecto", <br>     estado: "CUR", <br>     ... <br></pre>
 
 ### Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, en el siguiente ejemplo se muestra cómo sobrescribir las asignaciones existentes de una tarea determinada:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?actualizaciones= <br>{<br>    asignaciones: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia pública. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?actualizaciones= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Uso del parámetro de solicitud de acción
 
@@ -523,7 +523,7 @@ Algunos objetos admiten acciones adicionales que se pueden realizar además de e
 
 A continuación se muestra la sintaxis para mover una tarea de un proyecto a otro:
 <pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>Aquí se proporciona un ejemplo para cada tipo de acción: (??)
-<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/reminderApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Solo la acción de mover requiere la identificación de atributos adicionales para especificar el proyecto donde se moverá el elemento de trabajo.
+<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/TIEMPO_APROBACIÓN<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Solo la acción de mover requiere la identificación de atributos adicionales para especificar el proyecto donde se moverá el elemento de trabajo.
 
 A continuación se muestra un ejemplo de cada tipo de acción: 
 <pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
@@ -544,9 +544,9 @@ El DELETE elimina un objeto. En todos los casos, el URI puede incluir el paráme
 
 Una instrucción de actualización masiva actualiza varios objetos al mismo tiempo dentro de una sola llamada de API. Una llamada de API de creación masiva se crea de forma similar a una llamada de actualización normal, como se muestra en los ejemplos siguientes:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
-<pre>datos: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nombre: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioridad: 0,<br>    projpletionDate: "2014-08-28T16:12:00:000-0400",<br>    estado: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nombre: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioridad: 0,<br>    projpletionDate: "2014-08-28T16:12:00:000-0400",<br>    estado: "CUR"<br>}]</pre>También puede realizar una actualización masiva similar a la siguiente:
+<pre>datos: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nombre: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioridad: 0,<br>    projrollmentDate: "2014-08-28T16:12:00:000-0400",<br>    estado: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nombre: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioridad: 0,<br>    plannedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    estado: "CUR"<br>}]</pre>También puede realizar una actualización masiva similar a la siguiente:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}&amp;api Clave=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
-<pre>datos: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     nombre: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioridad: 0,<br>     projpletionDate: "2014-08-28T16:16:00:000-0400",<br>     estado: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    nombre: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioridad: 0,<br>    projpletionDate: "2014-08-28T16:16:00:000-0400",<br>    estado: "CUR"<br>}]</pre>Si desea que todas las operaciones se realicen en la misma transacción, agregue "atomic=true" a la llamada API por lotes como parámetro de solicitud. De este modo, si alguna de las operaciones falla, todas las operaciones se revierten.
+<pre>datos: <br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     nombre: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioridad: 0,<br>     projrollmentDate: "2014-08-28T16:16:00:000-0400",<br>     estado: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    nombre: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioridad: 0,<br>    plannedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    estado: "CUR"<br>}]</pre>Si desea que todas las operaciones se realicen en la misma transacción, agregue "atomic=true" a la llamada API por lotes como parámetro de solicitud. De este modo, si alguna de las operaciones falla, todas las operaciones se revierten.
 
 >[!NOTE]
 >

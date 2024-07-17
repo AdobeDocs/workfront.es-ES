@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Puede editar el aspecto de los tipos de registro que usted o cualquier otra persona hayan creado. Para obtener información sobre la creación de tipos de registros de Workfront Planning, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Puede editar el aspecto de los tipos de registro que usted o cualquier otra persona hayan creado. Para obtener información acerca de cómo crear tipos de registros de Workfront Planning, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisitos de acceso
 
@@ -75,13 +75,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en un espacio de trabajo</a> </p>  
+   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -104,14 +104,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
 
    Se abre el espacio de trabajo y se muestran los tipos de registro.
-1. Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en **Más** menú ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro, haga clic en **Editar**.
+1. Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta del tipo de registro; a continuación, haga clic en **Editar**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. En el **Editar tipo de registro** , actualice la siguiente información:
+1. En el cuadro **Editar tipo de registro**, actualice la siguiente información:
 
    * Edite el nombre del tipo de registro si es necesario. <!--did they add a field label for this? -->
-   * **Descripción**: edite o agregue una descripción para el tipo de registro con más información sobre él.
+   * **Descripción**: edite o agregue una descripción para el tipo de registro con más información al respecto.
    * Edite el color y la forma del icono asociado al tipo de registro. Haga lo siguiente:
       * Seleccione un color para identificar el tipo de registro. Es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
@@ -120,7 +120,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en **Guardar**.
 1. (Opcional) Haga clic en la tarjeta de tipo de registro del área de trabajo para abrir la página del tipo de registro.
-1. Haga clic en **Más** a la derecha del nombre del tipo de registro y haga clic en **Editar** para actualizar información sobre el tipo de registro.
+1. Haga clic en el menú **Más** a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar** para actualizar la información sobre el tipo de registro.
 
    >[!TIP]
    >

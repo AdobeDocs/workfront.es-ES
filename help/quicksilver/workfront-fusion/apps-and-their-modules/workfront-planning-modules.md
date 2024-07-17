@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de Adobe Workfront Planning
-description: Con el [!DNL Adobe Workfront Planning] módulos, puede iniciar un [!DNL Adobe Workfront Fusion] según los eventos de su [!DNL Adobe] Cuenta de Workfront Planning, cree, lea o actualice acuerdos y otros registros, busque registros con los criterios definidos y cargue documentos.
+description: Con los módulos  [!DNL Adobe Workfront Planning] puede iniciar un escenario [!DNL Adobe Workfront Fusion] basado en los eventos de su cuenta de Workfront Planning, crear, leer o actualizar acuerdos y otros registros, buscar registros con los criterios establecidos y cargar documentos. [!DNL Adobe]
 author: Becky
 feature: Workfront Fusion
 hide: true
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront Planning] módulos
 
-Con el [!DNL Adobe Workfront Planning] , puede almacenar en déclencheur un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su [!DNL Adobe Workfront Planning] cuenta.
+Con los módulos [!DNL Adobe Workfront Planning], puede almacenar en déclencheur un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de [!DNL Adobe Workfront Planning].
 
 ## Requisitos de acceso
 
@@ -41,35 +41,35 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Cree una conexión con [!DNL Adobe Workfront Planning]
+## Crear una conexión con [!DNL Adobe Workfront Planning]
 
-Puede crear una conexión con su [!DNL Workfront Planning] cuenta directamente desde dentro de un [!DNL Workfront Fusion] módulo.
+Puede crear una conexión con su cuenta de [!DNL Workfront Planning] directamente desde un módulo de [!DNL Workfront Fusion].
 
-1. En cualquier [!DNL Workfront Planning] módulo de la aplicación, haga clic en **[!UICONTROL Añadir]** junto al [!UICONTROL Conexión] cuadro.
+1. En cualquier módulo de aplicación de [!DNL Workfront Planning], haga clic en **[!UICONTROL Agregar]** junto al cuadro [!UICONTROL Conexión].
 1. Escriba un nombre para esta conexión.
 1. Seleccione si desea conectarse a un entorno de producción o de no producción.
 1. Seleccione si desea conectarse a una cuenta de servicio o a una cuenta personal.
-1. Clic **[!UICONTROL Inicio de sesión de SAML]** para crear la conexión y volver al módulo.
+1. Haga clic en **[!UICONTROL Iniciar sesión en SAML]** para crear la conexión y volver al módulo.
 
 ## [!DNL Adobe Workfront Planning] módulos y sus campos
 
@@ -87,7 +87,7 @@ Este módulo de déclencheur inicia un escenario cuando se crea, actualiza o eli
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tipo de objeto]</td>
@@ -95,7 +95,7 @@ Este módulo de déclencheur inicia un escenario cuando se crea, actualiza o eli
     </tr>
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Filtros de eventos]</p> </td> 
-      <td> <p>Puede establecer filtros para inspeccionar sólo los registros que cumplan los criterios seleccionados.</p> <p>Para cada filtro, introduzca el campo que desea que evalúe el filtro, el operador y el valor que desea que permita el filtro. Puede utilizar más de un filtro añadiendo reglas AND.</p> <p>Nota: No puede editar filtros en filtros existentes [!DNL Workfront] webhooks. Para configurar diferentes filtros para [!DNL Workfront] Suscripciones de eventos, elimine el webhook actual y cree uno nuevo.</p> <p>Para obtener más información sobre los filtros de eventos, consulte <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Filtros de suscripción de evento en la [!DNL Workfront] &gt; Módulos de [!UICONTROL Watch Events]</a> en el artículo módulos de Workfront.</p> </td> 
+      <td> <p>Puede establecer filtros para inspeccionar sólo los registros que cumplan los criterios seleccionados.</p> <p>Para cada filtro, introduzca el campo que desea que evalúe el filtro, el operador y el valor que desea que permita el filtro. Puede utilizar más de un filtro añadiendo reglas AND.</p> <p>Nota: No puede editar filtros en los [!DNL Workfront] webhooks existentes. Para configurar diferentes filtros para [!DNL Workfront] suscripciones de evento, elimine el webhook actual y cree uno nuevo.</p> <p>Para obtener más información sobre los filtros de eventos, consulte <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Filtros de suscripción de eventos en los módulos [!DNL Workfront] &gt; [!UICONTROL Watch Events]</a> en el artículo Módulos de Workfront.</p> </td> 
      </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objetos que ver]</td>
@@ -124,7 +124,7 @@ Este módulo de acción elimina un solo tipo de registro en Workfront Planning p
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -137,7 +137,7 @@ Este módulo de acción elimina un solo tipo de registro en Workfront Planning p
 
 ### Realizar una llamada de API personalizada
 
-Este módulo realiza una llamada de API personalizada a [!DNL Adobe Workfront Planning] API.
+Este módulo realiza una llamada de API personalizada a la API [!DNL Adobe Workfront Planning].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -145,14 +145,14 @@ Este módulo realiza una llamada de API personalizada a [!DNL Adobe Workfront Pl
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
      <tr>
       <td role="rowheader">
         <p>[!UICONTROL Ruta]</p>
       </td>
       <td>
-        <p>Introduzca una ruta relativa a https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</p>
+        <p>Introduzca una ruta relativa a https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
       </td>
     </tr>
      <tr>
@@ -168,14 +168,14 @@ Este módulo realiza una llamada de API personalizada a [!DNL Adobe Workfront Pl
         <p>[!UICONTROL Ruta de API override]</p>
       </td>
       <td>
-        <p>Introduzca una ruta relativa a https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</p>
+        <p>Introduzca una ruta relativa a https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Método]</p>
       </td>
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, consulte <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Encabezados]</td>
@@ -188,12 +188,12 @@ Este módulo realiza una llamada de API personalizada a [!DNL Adobe Workfront Pl
     <tr>
       <td role="rowheader">[!UICONTROL Cadena de consulta]  </td>
       <td>
-        <p>Para cada par clave/valor que desee agregar a la cadena de consulta, haga clic en <b>Añadir elemento</b> e introduzca la clave y el valor.</p>
+        <p>Para cada par clave/valor que desee agregar a la cadena de consulta, haga clic en <b>Agregar elemento</b> e introduzca la clave y el valor.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Cuerpo]</td>
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando se utilizan afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera del enunciado condicional.</p> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -261,7 +261,7 @@ Esta acción crea un único registro en Workfront Planning.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -289,7 +289,7 @@ Este módulo de acción elimina el registro especificado en Workfront Planning.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -327,7 +327,7 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
 
 ### Obtener un registro
 
-Este módulo de acción recupera un único registro de [!DNL Adobe Workfront Planning], especificado por su ID.
+Este módulo de acción recupera un único registro de [!DNL Adobe Workfront Planning], especificado por su identificador.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -335,7 +335,7 @@ Este módulo de acción recupera un único registro de [!DNL Adobe Workfront Pla
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ID de registro]</td>
@@ -354,7 +354,7 @@ Este módulo de acción recupera todos los registros del tipo especificado.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
@@ -374,7 +374,7 @@ Este módulo de acción recupera todos los registros del tipo especificado.
 
 ### Obtener tipos de registros
 
-Este módulo de acción recupera una lista de tipos de registro en una [!DNL Adobe Workfront Planning] cuenta.
+Este módulo de acción recupera una lista de tipos de registro en una cuenta de [!DNL Adobe Workfront Planning].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -382,7 +382,7 @@ Este módulo de acción recupera una lista de tipos de registro en una [!DNL Ado
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
   </tbody>
 </table>
@@ -397,7 +397,7 @@ Esta acción actualiza un único registro en Workfront Planning.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], consulte <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Cree una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
+      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Workfront Planning], vea <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Crear una conexión con [!DNL Adobe Workfront Planning]</a> en este artículo.</td>
     </tr>
      <tr>
       <td role="rowheader">

@@ -3,64 +3,64 @@ title: Compartir un documento
 content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
-description: El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignen niveles de acceso, tal como se explica en Conceder acceso a documentos.
+description: El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignan niveles de acceso, tal como se explica en Conceder acceso a documentos.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 1%
 
 ---
 
 # Compartir un documento
 
-El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignen niveles de acceso, tal como se explica en [Concesión de acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignan niveles de acceso, como se explica en [Conceder acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
-El nivel de acceso que el administrador de Workfront concede a los usuarios les permite ver o editar documentos. Además de esto, otros usuarios también pueden conceder a otros permisos para ver o administrar documentos específicos que ellos mismos cargaron o que tienen acceso a compartir.
+El nivel de acceso que el administrador de Workfront concede a los usuarios les permite ver o editar documentos. Además, otros usuarios también pueden conceder a otros permisos para ver o administrar documentos específicos que hayan cargado ellos mismos o que tengan acceso para compartir.
 
-Los permisos son específicos para un elemento de Workfront y definen qué acciones se pueden realizar en ese elemento. Para obtener información sobre los permisos de objetos, consulte [Información general sobre cómo compartir permisos en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Los permisos son específicos de un elemento en Workfront y definen qué acciones se pueden realizar sobre ese elemento. Para obtener información acerca de los permisos de objetos, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-De forma predeterminada, el usuario que carga un documento en Workfront tiene permisos de administración.
+El usuario que carga un documento en Workfront tiene permisos de administración de forma predeterminada.
 
-Para obtener información sobre cómo compartir una carpeta de documento completa, consulte [Compartir una carpeta de documento](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Para obtener información acerca de cómo compartir una carpeta de documentos completa, vea [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 ## Consideraciones sobre el uso compartido de documentos
 
-Además de las consideraciones siguientes, consulte [Información general sobre cómo compartir permisos en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Además de las consideraciones siguientes, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
->Un administrador de Workfront puede agregar o quitar permisos para cualquier elemento del sistema, para todos los usuarios, sin ser el propietario de esos elementos.
+>Un administrador de Workfront puede agregar o quitar permisos a cualquier elemento del sistema, para todos los usuarios, sin ser el propietario de esos elementos.
 
-* Compartir un documento es similar a compartir cualquier otro objeto en Workfront. Para obtener información sobre cómo compartir documentos en Workfront, consulte [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Compartir un documento es similar a compartir cualquier otro objeto en Workfront. Para obtener información acerca de cómo compartir documentos en Workfront, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a los documentos:
 
-   * Vista
+   * Ver
    * Administrar
 
 * También puede compartir un documento de forma pública o en todo el sistema.
 
-   >[!CAUTION]
-   >
-   >Se recomienda tener cuidado al compartir un objeto que contenga información confidencial con usuarios externos. Esto les permite ver información sin ser usuarios de Workfront ni formar parte de su organización.
+  >[!CAUTION]
+  >
+  >Se recomienda precaución al compartir un objeto que contenga información confidencial con usuarios externos. Esto les permite ver información sin ser usuarios de Workfront ni parte de su organización.
 
-* Puede compartir un documento con alguien que no tenga una cuenta de Workfront agregando su dirección de correo electrónico al campo Dar acceso al documento .
-* Cuando comparte un documento, los usuarios tienen el mismo acceso a todas las versiones del documento y a todas las pruebas del documento.\
-   Para obtener más información sobre las pruebas en Workfront, consulte la [Prueba](../../review-and-approve-work/proofing/proofing.md) para obtener más información.
+* Puede compartir un documento con alguien que no tenga cuenta de Workfront agregando su dirección de correo electrónico en el campo Conceder acceso al documento a.
+* Cuando comparte un documento, los usuarios tienen el mismo acceso a todas las versiones del documento y a todas las revisiones del documento.\
+  Para obtener más información sobre la revisión en Workfront, consulte la sección [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
-* Puede heredar permisos para documentos de los objetos a los que están asociados. El administrador de Workfront puede restringir la herencia de permisos para documentos en el nivel de acceso.
+* Puede heredar los permisos a los documentos de los objetos con los que están asociados. El administrador de Workfront puede restringir la herencia de permisos para documentos de su nivel de acceso.
 
-   Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Para obtener más información acerca de cómo restringir permisos heredados en documentos, vea [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-   Puede quitar manualmente los permisos heredados de los documentos. Para obtener más información, consulte [Eliminación de permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+  Puede quitar manualmente los permisos heredados en los documentos. Para obtener más información, vea [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
-* Un documento adjunto hereda los permisos únicamente del objeto al que estaba adjunto. Si crea una carpeta en el objeto y mueve el documento a la carpeta, heredará los permisos de la carpeta. Sin embargo, si crea una carpeta en un objeto principal o principal y mueve el documento a esa carpeta, no heredará los permisos de esa carpeta.
+* Un documento adjunto hereda permisos únicamente del objeto en el que se adjuntó. Si crea una carpeta en el objeto y mueve el documento a la carpeta, heredará los permisos de la carpeta. Sin embargo, si crea una carpeta en un objeto principal o abuelo y mueve el documento a esa carpeta, no heredará los permisos de esa carpeta.
 
-## Permisos del documento
+## Permisos de documento
 
-La tabla siguiente muestra los permisos que puede conceder a los usuarios cuando les permite ver o administrar documentos:
+La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando les permite ver o administrar documentos:
 
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -95,7 +95,7 @@ La tabla siguiente muestra los permisos que puede conceder a los usuarios cuando
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Cierre de compra</td> 
+   <td scope="row">Finalizar compra</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -155,7 +155,7 @@ La tabla siguiente muestra los permisos que puede conceder a los usuarios cuando
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Proof**</td> 
+   <td scope="row">Prueba**</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -190,7 +190,7 @@ La tabla siguiente muestra los permisos que puede conceder a los usuarios cuando
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Agregar o quitar</td> 
+   <td scope="row">Agregar/ quitar</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -212,6 +212,6 @@ La tabla siguiente muestra los permisos que puede conceder a los usuarios cuando
  </tbody> 
 </table>
 
-&#42; La acción la comparten tanto Documents como Document Folders.
+&#42; La acción es compartida por Documentos y Carpetas de documentos.
 
-&#42;&#42; Debe tener una licencia de prueba independiente asociada a su cuenta de Workfront para poder probar los documentos. Póngase en contacto con el administrador de cuentas para obtener una licencia de prueba. Para obtener más información sobre las pruebas en Workfront, consulte [Prueba](../../review-and-approve-work/proofing/proofing.md).
+&#42;&#42; Para poder revisar documentos, debe tener asociada una licencia de revisión independiente con su cuenta de Workfront. Póngase en contacto con su administrador de cuentas para obtener una licencia de revisión. Para obtener más información sobre la revisión en Workfront, consulte [Revisión](../../review-and-approve-work/proofing/proofing.md).

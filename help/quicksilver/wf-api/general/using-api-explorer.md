@@ -9,8 +9,8 @@ role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 1%
 
 ---
 
@@ -21,16 +21,16 @@ Al utilizar la API principal de Adobe Workfront, el Explorador de API es una her
 
 ## Acceda al Explorador de API:
 
-1. Utilice un explorador web para navegar hasta el [Explorador de API](https://developer.adobe.com/workfront/api-explorer/)\
+1. Use un explorador web para navegar hasta [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
-1. En la parte superior derecha del Explorador de API, seleccione el elemento deseado en Workfront **Versión de API**, de forma predeterminada, se selecciona automáticamente la versión más actual
-1. El **Filtrar** , se puede utilizar para filtrar los objetos enumerados por nombre y truncará la lista de objetos mostrados en consecuencia:
+1. En la parte superior derecha del Explorador de API, seleccione la **Versión de API** de Workfront que desee; de manera predeterminada, se selecciona automáticamente la versión más actual
+1. El campo **Filter** se puede usar para filtrar los objetos enumerados por nombre y truncará la lista de objetos mostrados en consecuencia:
 
    ![](assets/mceclip2-350x147.png)
 
-   * **Campos**: campos disponibles dentro del objeto especificado.
-   * **Referencias**: variables de referencia disponibles para el objeto especificado. Una referencia es un alias para una variable. Una vez inicializada, se puede utilizar una referencia indistintamente con el nombre de la variable. Una referencia utiliza memoria inicializada.
+   * **Campos**: Campos disponibles dentro del objeto especificado.
+   * **Referencias**: Variables de referencia disponibles para el objeto especificado. Una referencia es un alias para una variable. Una vez inicializada, se puede utilizar una referencia indistintamente con el nombre de la variable. Una referencia utiliza memoria inicializada.
    * **Colecciones**: Colecciones disponibles para el objeto. Las colecciones son variables que representan una relación &quot;uno a varios&quot; entre el objeto y el recurso.
    * **Buscar**: Recursos de búsqueda disponibles para el objeto. Los resultados de una búsqueda se basan en los parámetros de consulta especificados por el recurso de búsqueda en la solicitud de API.
    * **Acciones**: Acciones compatibles con el objeto. Las acciones pueden ser procedimientos simples o complejos que se ejecutan con un recurso o un conjunto de recursos. Una acción determinada también puede afectar a los recursos relacionados.

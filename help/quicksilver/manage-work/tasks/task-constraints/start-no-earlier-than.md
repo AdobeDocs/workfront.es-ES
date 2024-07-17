@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Descripción general de "Restricción de tareas": Iniciar no antes de'
-description: Utilice la restricción de tareas Iniciar no antes de (SNET) para programar el inicio de una tarea después de la fecha especificada.
+title: "Información general sobre la restricción de tarea: No comenzar antes del"
+description: Utilice la delimitación de tareas No comenzar antes del (ENVIAR) para programar el comienzo de una tarea después de la fecha especificada.
 author: Alina
 feature: Work Management
 exl-id: 857859fb-87ee-4397-b292-239ed9dc8281
@@ -14,35 +14,36 @@ ht-degree: 0%
 
 ---
 
-# Información general sobre la restricción de tareas: Iniciar antes de
+# Información general sobre la restricción de tarea: No comenzar antes del
 
-Utilice la restricción de tareas Iniciar no antes de (SNET) para programar el inicio de una tarea después de la fecha especificada.
+Utilice la delimitación de tareas No comenzar antes del (ENVIAR) para programar el comienzo de una tarea después de la fecha especificada.
 
-## Información general sobre el inicio no antes de la restricción de tareas
+## Información general sobre la restricción No comenzar antes de la tarea
 
-Tenga en cuenta lo siguiente al usar la restricción Iniciar no antes de la tarea:
+Tenga en cuenta lo siguiente al utilizar la restricción No comenzar antes de la tarea:
 
-* Debe utilizar la restricción Iniciar antes de que termine cuando el proyecto esté programado desde la fecha de inicio. En este caso, puede proporcionar una restricción suave a una tarea antes de que obligue a otras tareas dependientes a mostrarse como En riesgo.
-* Iniciar antes de que sea la restricción predeterminada si un proyecto está programado desde la fecha de inicio y si la fecha de inicio predeterminada del sistema o del grupo para una nueva tarea está establecida en Hoy. Para obtener información sobre la configuración de valores predeterminados para tareas, consulte [Configurar las preferencias de problemas y tareas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Debe utilizar la restricción No comenzar antes del cuando el proyecto esté programado desde la fecha de inicio. En este caso, puede proporcionar una restricción suave a una tarea antes de que obligue a otras tareas dependientes a mostrarse como En riesgo.
+* No comenzar antes de es la delimitación predeterminada si un proyecto está programado desde la fecha de inicio y si la fecha de inicio predeterminada del sistema o grupo para una nueva tarea está establecida en Hoy. Para obtener información acerca de cómo configurar los valores predeterminados de las tareas, vea [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-* Si programa el proyecto desde la fecha de inicio y la fecha de inicio predeterminada del sistema para una nueva tarea se establece en Basado en la fecha planificada del proyecto, la restricción predeterminada para una nueva tarea es lo antes posible.
-* Si programa el proyecto Desde la fecha de finalización y la fecha de inicio predeterminada del sistema para una nueva tarea está establecida en Hoy, la restricción Iniciar No Antes de que Programe la tarea como lo haría en la tarea Tan Tarde como sea posible.
-* Cuando se mueve o copia una tarea con una restricción SNET en otro proyecto, la restricción de la tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de restricción y cuáles son las fechas de inicio y finalización del proyecto. Existen los siguientes escenarios:
+* Si se programa el proyecto desde la fecha de inicio y la fecha de inicio predeterminada del sistema para una nueva tarea se establece en Basada en la fecha planificada del proyecto, la restricción predeterminada para una nueva tarea será Lo antes posible.
+* Si se programa el proyecto desde la fecha de finalización y la fecha de inicio predeterminada del sistema para una tarea nueva se establece en Hoy, la delimitación No comenzar antes del programa la tarea como lo haría con una tarea Lo más tarde posible.
+* Cuando se mueve o copia una tarea con una delimitación SNET a otro proyecto, la delimitación de la tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de delimitación y cuáles sean las fechas de inicio y finalización del proyecto. Existen los siguientes escenarios:
 
-   * Cuando el proyecto de destino está programado Desde el inicio:
+   * Cuando el proyecto de destino está programado desde el inicio:
 
-      * Cuando la fecha de restricción de la tarea es anterior a la fecha de inicio prevista del proyecto, la restricción de la tarea cambia a Tan pronto como sea posible.
-      * Cuando la fecha de restricción de la tarea es posterior a la fecha de finalización prevista del proyecto, la fecha de finalización prevista del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
+      * Cuando la fecha de delimitación de la tarea es anterior a la fecha planificada de inicio del proyecto, la delimitación de la tarea cambia a Lo antes posible.
+      * Cuando la fecha de delimitación de la tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de delimitación de finalización de la tarea.
 
-      * Cuando el proyecto de destino está programado Desde su finalización:
+      * Cuando se programa el proyecto de destino desde la finalización:
 
-         * Cuando la fecha de restricción de la tarea es posterior a la fecha de finalización del proyecto, la restricción de la tarea cambia a Tan tarde como sea posible.
-         * Cuando la fecha de restricción de la tarea es anterior a la fecha de inicio planeada del proyecto, la fecha de inicio planeada del proyecto cambia para coincidir con la fecha de restricción inicial de la tarea.
-      * Independientemente de la programación del proyecto, cuando la fecha de restricción de la tarea se encuentra dentro de las fechas de inicio y finalización del proyecto, no hay cambios en la restricción de la tarea ni en las fechas del proyecto.
+         * Cuando la fecha de delimitación de la tarea es posterior a la fecha de finalización del proyecto, la delimitación de la tarea cambia a Lo más tarde posible.
+         * Cuando la fecha de delimitación de la tarea es anterior a la fecha planificada de inicio del proyecto, la fecha planificada de inicio del proyecto cambia para coincidir con la fecha de delimitación de inicio de la tarea.
 
-   Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener información sobre cómo copiar tareas, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+      * Independientemente de la programación del proyecto, cuando la fecha de delimitación de la tarea se encuentra dentro de las Fechas de inicio y finalización del proyecto, no hay cambios en las fechas de delimitación de la tarea o del proyecto.
 
-Para obtener información sobre cómo actualizar la restricción de tareas en una tarea, consulte [Actualizar la restricción de tareas de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Para obtener información acerca de cómo mover tareas, vea [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

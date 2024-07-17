@@ -11,7 +11,7 @@ exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
 source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Las tareas son elementos de trabajo más pequeños en Adobe Workfront que contribuyen a la finalización de un proyecto. Obtenga información acerca de la administración de tareas en los artículos de las siguientes subsecciones:
 
-* [Información de tarea](../../manage-work/tasks/task-information/task-information.md)
+* [Información de la tarea](../../manage-work/tasks/task-information/task-information.md)
 * [Creación de tareas](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
 * [Asignar tareas](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [Administrar tareas](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [Restricciones de tarea](../../manage-work/tasks/task-constraints/task-constraints.md)
-* [Duración de la tarea y tipos de duración: índice del artículo](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+* [Tipos de duración y duración de tarea: índice de artículo](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
 * [Usar predecesoras de tareas](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [Sugerencias, trucos y solución de problemas para tareas](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

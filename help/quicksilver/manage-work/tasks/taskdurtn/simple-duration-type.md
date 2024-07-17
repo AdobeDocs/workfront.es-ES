@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Información general del tipo de duración: Simple
 
-El tipo de duración simple es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general sobre los tipos de duración en Workfront, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+El tipo de duración simple es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general acerca de los tipos de duración en Workfront, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Descripción general del tipo de duración simple
 
@@ -26,7 +26,7 @@ Cuando una tarea tiene un tipo de duración sencillo, ocurre lo siguiente:
 
 * Los jefes de proyecto pueden modificar tanto la duración como las horas planificadas de una tarea al modificar cómo deben distribuirse esas horas entre las personas asignadas.
 
-  Para obtener más información, consulte [Actualizar las horas planificadas y la duración de una tarea con un tipo de duración simple](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  Para obtener más información, vea [Actualizar las horas y la duración planificadas de una tarea con un tipo de duración simple](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
 
   >[!IMPORTANT]
   >
@@ -36,14 +36,14 @@ Cuando una tarea tiene un tipo de duración sencillo, ocurre lo siguiente:
   >
   > `Task Duration = Task Planned Hours / Typical hours per work day`
   >
-  >El administrador de Workfront define la variable `Typical hours per work day` en el área Preferencias del proyecto de la Configuración de la instancia.
+  >El administrador de Workfront define `Typical hours per work day` en el área de Preferencias de proyecto de la Configuración de la instancia.
 
 * El porcentaje de asignación está oculto y las horas de asignación pueden editarse en su lugar.
 * Todos los clientes nuevos tienen el Tipo de duración de nivel de sistema establecido en Simple.
 
 ## Cambiar el tipo de duración de una tarea a Simple
 
-Para obtener información sobre cómo cambiar el tipo de duración de una tarea, consulte [Actualizar el tipo de duración de una tarea](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Para obtener información acerca de cómo cambiar el tipo de duración de una tarea, vea [Actualizar el tipo de duración de una tarea](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

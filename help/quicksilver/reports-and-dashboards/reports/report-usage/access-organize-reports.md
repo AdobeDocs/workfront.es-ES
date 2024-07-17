@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: report-usage
 title: Acceso y organización de informes
-description: Los informes de Adobe Workfront se pueden usar para revisar o editar información sobre objetos del sistema. Puede crear sus propios informes, organizar los informes que cree y ver los informes que se han compartido con usted o compartido públicamente.
+description: Los informes se pueden usar en Adobe Workfront para revisar o editar la información sobre los objetos del sistema. Puede crear sus propios informes, organizar los informes que cree y ver los informes que se han compartido con usted o compartido públicamente.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Acceso y organización de informes
 
-Los informes de Adobe Workfront se pueden usar para revisar o editar información sobre objetos del sistema. Puede crear sus propios informes, organizar los informes que cree y ver los informes que se han compartido con usted o compartido públicamente.
+Los informes se pueden usar en Adobe Workfront para revisar o editar la información sobre los objetos del sistema. Puede crear sus propios informes, organizar los informes que cree y ver los informes que se han compartido con usted o compartido públicamente.
 
 ## Requisitos de acceso
 
@@ -26,7 +26,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -35,11 +35,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y grupos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,50 +48,50 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Ver informes
 
-Para acceder a los informes que ha creado o que se han compartido con usted o compartido públicamente:
+Para acceder a los informes que ha creado o que se han compartido con usted o que se han compartido públicamente:
 
-1. En el **Menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes**.
+1. En el **menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes**.
 
 1. Haga clic en una de las siguientes opciones, según el informe que desee ver:
 
    * Haga clic en **Mis informes** para ver los informes que ha creado.
    * Haga clic en **Compartido conmigo** para ver los informes que otros usuarios han compartido con usted.
-   * Haga clic en **Todos los informes** para ver los informes que ha creado y los que se han compartido con usted o compartido públicamente.
+   * Haga clic en **Todos los informes** para ver tanto los informes que ha creado como los que se han compartido con usted o compartido públicamente.
 
-## Organice los informes que cree
+## Organizar los informes que cree
 
-Puede utilizar carpetas para organizar los informes que cree. No puede organizar informes que se hayan compartido con usted, compartido públicamente o informes del sistema.
+Puede utilizar carpetas para organizar los informes que cree. No puede organizar informes que se hayan compartido con usted, que se hayan compartido públicamente o que hayan sido informes del sistema.
 
-* [Crear una nueva carpeta para informes](#create-a-new-folder-for-reports)
-* [Agregar informes a una carpeta](#add-reports-to-a-folder)
+* [Crear una carpeta nueva para los informes](#create-a-new-folder-for-reports)
+* [Añadir informes a una carpeta](#add-reports-to-a-folder)
 
-### Crear una nueva carpeta para informes {#create-a-new-folder-for-reports}
+### Creación de una nueva carpeta para informes {#create-a-new-folder-for-reports}
 
-1. En el **Menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes**.
+1. En el **menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes**.
 
-1. Haga clic en el **Nueva carpeta** icono.\
+1. Haga clic en el icono **Nueva carpeta**.\
    ![](assets/nwe-new-folder-350x346.png)
 
-1. Especifique un nombre para la nueva carpeta y pulse Intro.
-1. En el **Mis informes** , agregue informes a la nueva carpeta.\
-   Para obtener información sobre cómo agregar un informe a una carpeta nueva, consulte la [Agregar informes a una carpeta](#add-reports-to-a-folder) en este artículo.
+1. Especifique un nombre para la nueva carpeta y pulse Entrar.
+1. Desde la carpeta **Mis informes**, agregue informes a la nueva carpeta.\
+   Para obtener información sobre cómo agregar un informe a una carpeta nueva, consulte la sección [Agregar informes a una carpeta](#add-reports-to-a-folder) en este artículo.
 
    >[!NOTE]
    >
-   >Solo puede agregar nuevas carpetas a la **Mis informes** carpeta. No se pueden agregar nuevas carpetas ni informes a la variable **Compartido conmigo** o **Todos los informes** carpetas.
+   >Solo puede agregar carpetas nuevas a la carpeta **Mis informes**. No puede agregar nuevas carpetas o informes a las carpetas **Compartido conmigo** o **Todos los informes**.
 
-### Agregar informes a una carpeta {#add-reports-to-a-folder}
+### Añadir informes a una carpeta {#add-reports-to-a-folder}
 
-1. En el **Menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes**.
+1. En el **menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes**.
 
 1. Haga clic en **Mis informes**.\
    O\
-   Haga clic en cualquier carpeta anidada en la sección **Mis informes** carpeta.
+   Haga clic en cualquier carpeta anidada en la carpeta **Mis informes**.
 
-1. Arrastre un informe de la lista de informes a la carpeta donde desee que resida y suéltelo cuando llegue a la carpeta .
+1. Arrastre un informe de la lista de informes a la carpeta en la que desea que resida y suéltelo cuando llegue a la carpeta.
 
    >[!NOTE]
    >
-   >Solo se pueden mover informes desde el **Mis informes** carpeta a otras carpetas anidadas en **Mis informes**. No es posible mover informes de o a la **Compartido conmigo** o **Todos los informes** carpeta desde o hacia otras carpetas.
+   >Solo puede mover informes de la carpeta **Mis informes** a otras carpetas anidadas en **Mis informes**. No puede mover informes de o a la carpeta **Compartido conmigo** o **Todos los informes** a o desde otras carpetas.
 
    ![](assets/nwe-drag-report-to-folder-350x292.png)

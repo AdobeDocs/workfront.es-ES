@@ -1,8 +1,8 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: Navegación izquierda en [!DNL Adobe Workfront]
-description: El panel de navegación izquierdo en [!DNL Workfront] facilita la navegación por el sistema.
+title: Navegación izquierda en  [!DNL Adobe Workfront]
+description: El panel de navegación izquierdo en  [!DNL Workfront]  facilita la navegación por el sistema.
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
@@ -17,13 +17,13 @@ ht-degree: 1%
 La mayoría de las áreas y objetos de WF utilizan un panel de navegación sencillo en el lado izquierdo de la pantalla. Las siguientes son las ventajas de la navegación desde el panel izquierdo:
 
 * Permite una mejor gestión del espacio de pantalla.
-* Su [!DNL Workfront] el administrador puede ocultar cualquier sección del panel izquierdo excepto los detalles del objeto mediante plantillas de diseño.
+* El administrador de [!DNL Workfront] puede ocultar cualquier sección del panel izquierdo excepto los detalles del objeto mediante plantillas de diseño.
 
-   Para obtener información sobre el uso de plantillas de diseño, consulte el artículo [Creación y administración de plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+  Para obtener información acerca del uso de plantillas de diseño, vea el artículo [Crear y administrar plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 * Puede cambiar fácilmente el orden de las secciones en la navegación izquierda sin abrir pantallas adicionales arrastrándolas y soltándolas en el orden que desee.
 
-   Para obtener más información, consulte la siguiente sección en este artículo: [Uso del panel de navegación izquierdo](#use-the-left-navigation-panel).
+  Para obtener más información, vea la siguiente sección en este artículo: [Use el panel de navegación izquierdo](#use-the-left-navigation-panel).
 
 * Puede personalizar el panel izquierdo añadiendo un panel.
 
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Secciones predeterminadas en el panel de navegación izquierdo
 
@@ -73,21 +73,21 @@ El panel izquierdo está disponible para los siguientes objetos:
 
 >[!IMPORTANT]
 >
->Si el panel izquierdo muestra sólo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el **[!UICONTROL Proyectos]** área—a [!DNL Workfront] El administrador debe agregar al menos una sección personalizada a esta área al crear una plantilla de diseño y asignarle a esa plantilla antes de que se muestre el panel izquierdo en esa área.\
->Para obtener información acerca de cómo [!DNL Workfront] El administrador personaliza el panel izquierdo en una plantilla de diseño. Consulte [Personalización del panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Si el panel izquierdo muestra solo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el área de **[!UICONTROL Proyectos]**, un administrador de [!DNL Workfront] debe agregar al menos una sección personalizada a esta área al crear una plantilla de diseño y asignarle a esa plantilla antes de que el panel izquierdo se muestre en esa área.\
+>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 El panel izquierdo está disponible para las siguientes áreas:
 
-* [Secciones predeterminadas en la [!UICONTROL Paneles] área](#default-sections-in-the-dashboards-area)
-* [Secciones predeterminadas en la [!UICONTROL Solicitudes] área](#default-sections-in-the-requests-area)
-* [Secciones predeterminadas en la [!UICONTROL Recursos] área](#default-sections-in-the-resourcing-area)
-* [Secciones predeterminadas en la [!UICONTROL Proyectos] área](#default-sections-in-the-projects-area)
-* [Secciones predeterminadas en la [!UICONTROL Plantillas de horas] área](#default-sections-in-the-timesheets-area)
-* [Secciones predeterminadas en la [!DNL Goals] área](#default-sections-in-the-goals-area)
+* [Secciones predeterminadas en el área [!UICONTROL Paneles]](#default-sections-in-the-dashboards-area)
+* [Secciones predeterminadas en el área de [!UICONTROL Solicitudes]](#default-sections-in-the-requests-area)
+* [Secciones predeterminadas en el área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
+* [Secciones predeterminadas en el área de [!UICONTROL Proyectos]](#default-sections-in-the-projects-area)
+* [Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]](#default-sections-in-the-timesheets-area)
+* [Secciones predeterminadas en el área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
-### Secciones predeterminadas en la [!UICONTROL Paneles] área
+### Secciones predeterminadas en el área [!UICONTROL Paneles]
 
-Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Paneles]** área:
+Las siguientes secciones se muestran en el panel izquierdo para el área **[!UICONTROL Paneles]**:
 
 <table style="table-layout:auto">
     <tr>
@@ -104,9 +104,9 @@ Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Pa
     </tr>
 </table>
 
-Para aprender a utilizar el panel izquierdo en el área de Paneles, consulte la sección [Uso del panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
+Para aprender a usar el panel izquierdo en el área de Paneles, consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
-### Secciones predeterminadas en la [!UICONTROL Solicitudes] área
+### Secciones predeterminadas en el área de [!UICONTROL Solicitudes]
 
 <table style="table-layout:auto">
     <tr>
@@ -115,15 +115,15 @@ Para aprender a utilizar el panel izquierdo en el área de Paneles, consulte la 
     </tr>
     <tr>
         <td><strong>[!UICONTROL Borradores]</strong></td>
-        <td>Muestra las solicitudes que ha iniciado pero aún no las ha enviado. [!DNL Workfront] guarda automáticamente cualquier nueva solicitud en la carpeta Borradores, después de seleccionar el tema de la cola.</td>
+        <td>Muestra las solicitudes que ha iniciado pero aún no las ha enviado. [!DNL Workfront] guarda automáticamente cualquier nueva solicitud en la carpeta Borradores, después de haber seleccionado el tema de la cola.</td>
     </tr>
 </table>
 
-Para aprender a utilizar el panel izquierdo de [!UICONTROL Solicitudes] , consulte la sección [Uso del panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
+Para aprender a usar el panel izquierdo en el área de [!UICONTROL Solicitudes], consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
-### Secciones predeterminadas en la [!UICONTROL Recursos] área
+### Secciones predeterminadas en el área [!UICONTROL Recursos]
 
-Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Recursos]** área:
+Las siguientes secciones se muestran en el panel izquierdo para el área **[!UICONTROL Recursos]**:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -131,30 +131,30 @@ Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Re
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Planificador</strong></td> 
-   <td>Muestra el Planificador de recursos. Utilice esta área para planificar los recursos en varios proyectos. Para obtener información sobre el uso del Planificador de recursos, consulte <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Introducción a la planificación de recursos</a>.</td> 
+   <td>Muestra el Planificador de recursos. Utilice esta área para planificar los recursos en varios proyectos. Para obtener información sobre cómo usar el Planificador de recursos, consulte <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Introducción a la planificación de recursos</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Distribuidor de cargas de trabajo]</strong></td> 
    <td>Muestra el Distribuidor de cargas de trabajo. Utilice esta área para asignar trabajo real a los recursos. <br>
-   Para obtener información sobre el uso de los recursos de programación, consulte <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo</a>.</td> 
+   Para obtener información acerca del uso de los recursos de programación, vea <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Utilización</strong></td> 
-   <td>Muestra el Informe de utilización. Para obtener información sobre cómo leer el Informe de utilización, consulte <a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Descripción general del informe Utilización de los recursos</a>.</td> 
+   <td>Muestra el Informe de utilización. Para obtener información acerca de cómo leer el Informe de utilización, vea <a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Información general sobre el informe de utilización de recursos</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Conjuntos de recursos</strong></td> 
-   <td>Muestra todos los conjuntos de recursos de Workfront. Para obtener información sobre conjuntos de recursos, consulte <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resumen de conjuntos de recursos </a>.</td>
+   <td>Muestra todos los conjuntos de recursos de Workfront. Para obtener información acerca de los conjuntos de recursos, vea <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Información general sobre los conjuntos de recursos </a>.</td>
   </tr> 
  </tbody> 
 </table>
 
 
-Para aprender a utilizar el panel izquierdo de [!UICONTROL Recursos] , consulte la sección [Uso del panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
+Para obtener información sobre cómo usar el panel izquierdo en el área de [!UICONTROL Recursos], consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
-### Secciones predeterminadas en la [!UICONTROL Proyectos] área
+### Secciones predeterminadas en el área de [!UICONTROL Proyectos]
 
-Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Proyectos]** área:
+Las siguientes secciones se muestran en el panel izquierdo para el área **[!UICONTROL Proyectos]**:
 
 <table style="table-layout:auto">
     <tr>
@@ -163,15 +163,15 @@ Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Pr
     </tr>
     <tr>
         <td><strong>[!UICONTROL Secciones personalizadas]</strong></td>
-        <td>Puede ver todas las secciones personalizadas que [!DNL Workfront] El administrador ha agregado al panel izquierdo del área de [!UICONTROL Proyectos] de la plantilla de diseño. Las secciones personalizadas tienen nombres que se han personalizado para su entorno.</td>
+        <td>Puede ver todas las secciones personalizadas que el administrador de [!DNL Workfront] ha agregado al panel izquierdo del área de [!UICONTROL Proyectos] en su plantilla de diseño. Las secciones personalizadas tienen nombres que se han personalizado para su entorno.</td>
     </tr>
 </table>
 
-Para aprender a utilizar el panel izquierdo de [!UICONTROL Proyectos] , consulte la sección [Uso del panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
+Para aprender a usar el panel izquierdo en el área de [!UICONTROL Proyectos], consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
-### Secciones predeterminadas en la [!UICONTROL Plantillas de horas] área
+### Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]
 
-Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Plantillas de horas]** área:
+Las siguientes secciones se muestran en el panel izquierdo para el área **[!UICONTROL Plantillas de horas]**:
 
 <table style="table-layout:auto">
     <tr>
@@ -188,28 +188,28 @@ Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Pl
     </tr>
 </table>
 
-Para aprender a utilizar el panel izquierdo de [!UICONTROL Plantillas de horas] , consulte la sección [Uso del panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
+Para obtener información sobre cómo usar el panel izquierdo en el área de [!UICONTROL Plantillas de horas], consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
-### Secciones predeterminadas en la [!DNL Goals] área
+### Secciones predeterminadas en el área [!DNL Goals]
 
 >[!NOTE]
 >
->El acceso a los objetivos requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Goals], consulte [[!DNL Adobe Workfront Goals] descripción general](../../workfront-goals/goal-management/wf-goals-overview.md).
+>El acceso a los objetivos requiere una licencia adicional. Para obtener información acerca de [!DNL Workfront Goals], vea [[!DNL Adobe Workfront Goals] descripción general](../../workfront-goals/goal-management/wf-goals-overview.md).
 
-Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Metas]** área:
+Las siguientes secciones se muestran en el panel izquierdo para el área **[!UICONTROL Goals]**:
 
 <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Lista de metas]</strong></td>
-        <td>Muestra todas las metas que tiene acceso para ver. Para obtener más información, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">Administrar metas en la [!UICONTROL Lista de metas] de [!DNL Adobe Workfront Goals]</a>.</td>
+        <td>Muestra todas las metas que tiene acceso para ver. Para obtener más información, vea <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">Administrar metas en la [!UICONTROL Lista de metas] de [!DNL Adobe Workfront Goals]</a>.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Gráficos]</strong></td>
-        <td>Muestra el rendimiento de sus objetivos en gráficos. Para obtener más información, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">Revise los gráficos para comprender las tendencias del progreso del objetivo en [!DNL Adobe Workfront] Metas</a>.</td>
+        <td>Muestra el rendimiento de sus objetivos en gráficos. Para obtener más información, vea <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">Revisar gráficos para comprender las tendencias del progreso de objetivos en [!DNL Adobe Workfront] Objetivos</a>.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Alineación de metas]</strong></td>
-        <td>Muestra la alineación de los objetivos entre sí en una jerarquía. Para obtener más información, consulte <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">Información general sobre la alineación de objetivos en [!DNL Adobe Workfront Goals]</a>.</td>
+        <td>Muestra la alineación de los objetivos entre sí en una jerarquía. Para obtener más información, vea <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">Información general sobre la alineación de objetivos en [!DNL Adobe Workfront Goals]</a>.</td>
     </tr>
     </table>
 
@@ -230,7 +230,7 @@ Las siguientes secciones se muestran en el panel izquierdo para **[!UICONTROL Me
     </tr>
 </table>
 -->
-Para aprender a utilizar el panel izquierdo de [!UICONTROL Metas] , consulte la sección [Uso del panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
+Para aprender a usar el panel izquierdo en el área de [!UICONTROL Objetivos], consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
 ## Uso del panel de navegación izquierdo
 
@@ -238,14 +238,14 @@ Buscar y editar información en el panel izquierdo es similar para estos objetos
 
 Para saber qué secciones están disponibles para áreas específicas, consulte [[!UICONTROL Secciones predeterminadas] en el panel de navegación izquierdo](#default-sections-in-the-left-navigation-panel).
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon-16x12.png)A continuación, haga clic en el nombre de un objeto para acceder a él.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon-16x12.png) y, a continuación, haga clic en el nombre de un objeto para acceder a él.
 
    Se muestra la página del objeto.
 
-1. (Condicional) Si seleccionó un área que contiene una lista de objetos, como **[!UICONTROL Proyectos]** o **[!UICONTROL Portfolio]**: debe hacer lo siguiente para acceder a la navegación del panel izquierdo:
+1. (Condicional) Si seleccionó un área que contiene una lista de objetos, como **[!UICONTROL Proyectos]** o **[!UICONTROL Portfolio]**, debe hacer lo siguiente para acceder a la navegación del panel izquierdo:
 
    1. Haga clic en un objeto de la lista.
-   1. (Opcional) En el panel de navegación izquierdo, puede seleccionar otro objeto, como **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]** dentro de un proyecto: en el panel izquierdo para acceder a una lista de objetos y, a continuación, haga clic en el nombre del objeto específico.\
+   1. (Opcional) En el panel de navegación izquierdo, puede seleccionar otro objeto (como **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]** dentro de un proyecto) en el panel izquierdo para acceder a una lista de objetos y, a continuación, hacer clic en el nombre del objeto específico.\
 
       Se muestra la página del objeto.
 
@@ -261,25 +261,25 @@ Para saber qué secciones están disponibles para áreas específicas, consulte 
    >
    >Esta opción no está disponible si todas las secciones se muestran en el panel izquierdo de forma predeterminada.
 
-1. (Opcional) Para añadir un vínculo rápido de panel, haga clic en **[!UICONTROL Agregar panel]** en la parte inferior del panel izquierdo, haga lo siguiente:
+1. (Opcional) Para agregar un vínculo rápido al panel, haga clic en **[!UICONTROL Agregar panel]** en la parte inferior del panel izquierdo y, a continuación, haga lo siguiente:
 
-   1. Escriba un nombre para el tablero en **[!UICONTROL Nombre de vínculo rápido]** field.
-   1. Empiece a escribir el nombre de un tablero existente en la **[!UICONTROL Elegir un tablero]** y, a continuación, haga clic en el panel cuando se muestre en la lista.
+   1. Escriba un nombre para el tablero en el campo **[!UICONTROL Nombre de vínculo rápido]**.
+   1. Empiece a escribir el nombre de un panel existente en el campo **[!UICONTROL Elegir un panel]** y, a continuación, haga clic en el panel cuando se muestre en la lista.
 
       >[!TIP]
       >
       >Debe generar el tablero antes de que aparezca en la lista.
 
-   1. Clic **[!UICONTROL Añadir]**.
+   1. Haga clic en **[!UICONTROL Agregar]**.
 
       El vínculo del panel aparece en la parte inferior del panel izquierdo.
 
-1. (Opcional) Para cambiar el orden de una sección en el panel izquierdo, haga clic en **[!UICONTROL Arrastrar]** icono ![](assets/drag-icon.png) a la derecha de una sección y arrástrela arriba o abajo.
+1. (Opcional) Para cambiar el orden de una sección en el panel izquierdo, haga clic en el icono **[!UICONTROL Arrastrar]** ![](assets/drag-icon.png) a la derecha de una sección y arrástrela hacia arriba o hacia abajo.
 
    ![Arrastrar una sección](assets/drag-section-right.png)
 
-1. (Opcional) Para cerrar el panel izquierdo, haga clic en **[!UICONTROL Contraer]** icono ![](assets/left-panel-collapse-icon.png).
+1. (Opcional) Para cerrar el panel izquierdo, haga clic en el icono **[!UICONTROL Contraer]** ![](assets/left-panel-collapse-icon.png).
 
    >[!NOTE]
    >
-   >Cuando contraiga el panel izquierdo, [!DNL Workfront] conserva su preferencia incluso cuando navega a otro sitio [!DNL Workfront] objeto. Para expandir de nuevo el panel izquierdo, haga clic en **[!UICONTROL Expandir]** icono ![](assets/left-panel-expand-icon.png).
+   >Al contraer el panel izquierdo, [!DNL Workfront] conserva su preferencia incluso cuando se desplaza a otro objeto [!DNL Workfront]. Para expandir de nuevo el panel izquierdo, haga clic en el icono **[!UICONTROL Expandir]** ![](assets/left-panel-expand-icon.png).

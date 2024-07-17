@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de creación de informes realizadas con la versión 21.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 4 de octubre de 2021.
 
-Para ver una lista de todos los cambios disponibles con la versión 21.4, consulte [21.4 Información general de la versión](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.4, consulte [Descripción general de la versión 21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nueva apariencia para el campo Asignaciones en listas e informes actualizados
 
@@ -38,7 +38,7 @@ Para que coincida con el aspecto moderno de otras áreas en la nueva experiencia
 * Un nuevo icono de acceso restringido
 * Otros cambios menores de diseño
 
-Para obtener más información sobre las asignaciones en listas, consulte [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Asignar problemas](../../../manage-work/issues/manage-issues/assign-issues.md).
+Para obtener más información sobre las asignaciones en las listas, consulte [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Asignar problemas](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -58,6 +58,6 @@ Para adaptarse al aspecto moderno de otras áreas en la nueva experiencia de Wor
 * Al hacer clic en un campo de escritura anticipada, el menú de sugerencias ahora se muestra antes de introducir el texto.
 * El menú de sugerencias responde mejor a la longitud de los valores, que ahora se truncan al final cuando se alcanza el límite de caracteres en lugar de en medio del valor.
 
-Para obtener información sobre las listas actualizadas, consulte [La diferencia entre las listas actualizadas y las heredadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) en el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Para obtener información sobre las listas actualizadas, consulte la sección [Diferencia entre las listas actualizadas y las heredadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) en el artículo [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)

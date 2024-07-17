@@ -42,16 +42,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados<br>Para obtener información sobre la concesión de acceso administrativo desde el nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso administrativo a formularios personalizados<br>Para obtener información sobre cómo conceder acceso administrativo desde el nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acceso administrativo a usuarios a ciertas áreas</a>.</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Permisos de objeto</p> </td> 
-   <td> <p>Acceso de contribución al objeto donde se adjunta el formulario con acceso a Editar el formulario personalizado</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de Contribute al objeto donde se adjunta el formulario con acceso a Editar el formulario personalizado</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Mostrar el administrador del creador de un problema en el formulario personalizado del problema
 
@@ -64,7 +64,7 @@ Los siguientes pasos muestran cómo se puede crear un campo calculado para un fo
    * [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
    * [Añadir datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. Copie y pegue el siguiente código de modo de texto en la **Cálculo** del formulario personalizado:
+1. Copie y pegue el siguiente código de modo de texto en el campo **Cálculo** del formulario personalizado:
 
    ```
    {owner}.{manager}.{name}
@@ -74,6 +74,6 @@ Los siguientes pasos muestran cómo se puede crear un campo calculado para un fo
    >
    >Los cálculos de campos personalizados distinguen entre mayúsculas y minúsculas.
 
-1. Clic **Listo**, entonces **Guardar + Cerrar**.
+1. Haga clic en **Listo** y luego en **Guardar + Cerrar**.
 
    El administrador del usuario que creó el problema se muestra en el campo calculado cuando el formulario que contiene el campo se adjunta a un problema.

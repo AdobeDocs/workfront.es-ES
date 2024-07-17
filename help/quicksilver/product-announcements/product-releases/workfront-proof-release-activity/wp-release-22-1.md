@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión de Workfront Proof: semana del 29 de noviembre de 2021
+# Actividad de la versión de Workfront Proof: Semana del 29 de noviembre de 2021
 
 En esta página se describen los cambios realizados en Workfront Proof (aplicación de corrección independiente). Los cambios que se describen aquí no son aplicables a la funcionalidad de revisión de la aplicación de Adobe Workfront.
 
 ## Nuevo perfil de permiso de revisión en Workfront Proof
 
-Se ha agregado un nuevo Perfil de permisos de revisión de visitantes en Workfront Proof. Este nuevo perfil es similar al perfil existente de Observer.
+Se ha añadido un nuevo Perfil de permisos de revisión de visitantes en Workfront Proof. Este nuevo perfil es similar al perfil existente de Observer.
 
 Los usuarios con un perfil de visitante pueden revisar y aprobar las pruebas que se han compartido con ellos. Sin embargo, no pueden ver contactos ni grupos como los observadores.
 

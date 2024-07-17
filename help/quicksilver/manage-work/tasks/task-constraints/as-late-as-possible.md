@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Descripción general de "Restricción de tareas": Tan Tarde como sea posible'''
-description: Tan tarde como sea posible (ALAP) es una restricción de tareas de Adobe Workfront que coloca la hora de finalización de la tarea lo más cerca posible del final del proyecto.
+title: "Resumen de la restricción de tareas: lo más tarde posible"
+description: Lo más tarde posible (ALAP) es una delimitación de tareas de Adobe Workfront que coloca la hora de finalización de la tarea lo más cerca posible del final del proyecto.
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Información general sobre la restricción de tareas: Tan Tarde como sea posible
+# Información general sobre la restricción de tarea: Lo más tarde posible
 
-Tan tarde como sea posible (ALAP) es una restricción de tareas de Adobe Workfront que coloca la hora de finalización de la tarea lo más cerca posible del final del proyecto.
+Lo más tarde posible (ALAP) es una delimitación de tareas de Adobe Workfront que coloca la hora de finalización de la tarea lo más cerca posible del final del proyecto.
 
-El uso de esta restricción puede hacer que el predecesor o las tareas dependientes se reprogramen.
+El uso de esta restricción puede ocasionar que se vuelvan a programar las Tareas predecesoras o dependientes.
 
-Para obtener más información sobre las relaciones predecesoras, consulte [Usar predecesores de tareas](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+Para obtener más información acerca de las relaciones de predecesoras, vea [Usar predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
 
-Tan tarde como sea posible es la restricción predeterminada si un proyecto utiliza un modo de programación de Fecha de finalización y el valor predeterminado del sistema o grupo para la Fecha de inicio de una tarea se basa en la fecha planificada del proyecto.
+Lo más tarde posible es la delimitación predeterminada si un proyecto utiliza un modo de programación de Programar desde la fecha de finalización y el sistema o grupo por defecto para la fecha de inicio de una tarea se basa en la fecha planificada del proyecto.
 
-Para obtener información sobre dónde establecer la restricción predeterminada para una nueva tarea, consulte [Configurar las preferencias de problemas y tareas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Para obtener información sobre dónde establecer la restricción predeterminada para una tarea nueva, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Para obtener información sobre cómo actualizar la restricción de tareas en una tarea, consulte [Actualizar la restricción de tareas de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,31 +43,31 @@ Para obtener información sobre cómo actualizar la restricción de tareas en un
 </div>
 -->
 
-## La diferencia entre la última hora disponible y la más tarde posible
+## La diferencia entre Última hora disponible y Lo más tarde posible
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-La restricción Última hora disponible difiere de la restricción Lo más tarde posible cuando existen los siguientes criterios:
+La restricción Último tiempo disponible difiere de la restricción Lo más tarde posible cuando existen los siguientes criterios:
 
 * El proyecto está programado desde la fecha de inicio
-* Las tareas del proyecto tienen una relación predecesora
+* Las tareas del proyecto tienen una relación de predecesoras
 * La tarea sucesora tiene una restricción de tarea flexible
 
 En esta situación:
 
-* **Última hora disponible:** El uso de la restricción de tiempo disponible más reciente en la tarea predecesora da prioridad a la restricción flexible del sucesor.
+* **Última hora disponible:** Si se usa la restricción de última hora disponible en la tarea predecesora, se da prioridad a la restricción flexible de la tarea sucesora.
 
-   **Ejemplo:** Por ejemplo, la tarea A es la predecesora de la tarea B. La tarea A tiene la última restricción de tiempo disponible y la tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del inicio del proyecto.
+  **Ejemplo:** Por ejemplo, la Tarea A es predecesora de la Tarea B. La Tarea A tiene la última restricción de tiempo disponible y la Tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del comienzo del proyecto.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Tan Tarde Como Sea Posible:** En este escenario, el uso de la restricción Tan tarde como sea posible en la tarea predecesora da prioridad a la tarea predecesora.
+* **Lo más tarde posible:** En este escenario, el uso de la restricción Lo más tarde posible en la tarea predecesora da prioridad a la tarea predecesora.
 
-   **Ejemplo:** Por ejemplo, la tarea A es la predecesora de la tarea B. La tarea A tiene la restricción Lo más tarde posible y la tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del final del proyecto.
+  **Ejemplo:** Por ejemplo, la Tarea A es predecesora de la Tarea B. La Tarea A tiene la restricción Lo más tarde posible y la Tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del final del proyecto.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
-title: Envío de un mensaje recordatorio a los revisores mediante una prueba
+title: Enviar un mensaje recordatorio a los revisores sobre una prueba
 description: Hacer que esto funcione para PiW
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,55 +14,55 @@ ht-degree: 2%
 
 ---
 
-# Envío de un mensaje recordatorio a los revisores mediante una prueba
+# Enviar un mensaje recordatorio a los revisores sobre una prueba
 
 >[!IMPORTANT]
 >
->Este artículo se refiere a la funcionalidad en el producto independiente [!DNL Workfront Proof]. Para obtener información sobre pruebas en el interior [!DNL Adobe Workfront], consulte [Prueba](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this work for PiW</p>
 -->
 
-Durante el proceso de revisión y aprobación, puede enviar un mensaje a uno o a todos los revisores en una prueba para recordarles que completen su revisión o que proporcionen otra información sobre la prueba. Puede enviar el correo electrónico del recordatorio predeterminado o añadir su propio mensaje personalizado.
+Durante el proceso de revisión y aprobación, puede enviar un mensaje a uno o a todos los revisores de una prueba para recordarles que completen la revisión o proporcionen otra información sobre la prueba. Puede enviar el correo electrónico de recordatorio predeterminado o agregar su propio mensaje personalizado.
 
-El correo electrónico del recordatorio predeterminado incluye la siguiente información:
+El correo electrónico de recordatorio predeterminado incluye la siguiente información:
 
-* Enlace personal a la prueba
+* Vínculo personal a la prueba
 * Miniatura de la imagen de prueba
 * Los siguientes detalles de la prueba:
 
    * Nombre de revisión
    * Número de versión
    * Nombre de la carpeta (si corresponde)
-   * Lista de los revisores y su progreso en la prueba
+   * Lista de revisores y su progreso en la prueba
 
-También puede recordar a alguien las pruebas que se han compartido con ellos. Para obtener más información, consulte [Recordar a un revisor acerca de las asignaciones en Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
+También puede recordar a alguien que se han compartido varias pruebas con él. Para obtener más información, vea [Recordar a un revisor las asignaciones de Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
-## Envío de un mensaje a los revisores mediante una prueba
+## Envío de un mensaje a los revisores de una prueba
 
-1. En cualquier vista de lista o en la [!UICONTROL Panel], haga clic en **[!UICONTROL Más]** (tres puntos) para la prueba y, a continuación, haga clic en **[!UICONTROL Mensaje]**.
+1. En cualquier vista de lista o en el [!UICONTROL Panel], haga clic en el menú **[!UICONTROL Más]** (tres puntos) de la prueba y, a continuación, haga clic en **[!UICONTROL Mensaje]**.
 
-1. En el **[!UICONTROL Mensaje]** que aparece, seleccione los destinatarios que desee.
+1. En el cuadro **[!UICONTROL Mensaje]** que aparece, seleccione los destinatarios que desee.
 1. Realice una de las siguientes acciones:
 
-   * Si desea utilizar el valor predeterminado [!DNL Workfront Proof] mensaje, haga clic en **[!UICONTROL Descartar mensaje personalizado]** y haga clic en **[!UICONTROL Enviar]**.\
+   * Si desea usar el mensaje predeterminado [!DNL Workfront Proof], haga clic en **[!UICONTROL Descartar mensaje personalizado]** y, a continuación, haga clic en **[!UICONTROL Enviar]**.\
 
-      El mensaje predeterminado recuerda a los revisores que se han agregado a la prueba e incluye la fecha límite de la prueba.
+     El mensaje predeterminado recuerda a los revisores que se han añadido a la prueba e incluye su fecha límite.
 
-   * Si desea crear su propio mensaje personalizado, escriba una **[!UICONTROL Asunto]** y **[!UICONTROL Mensaje],** a continuación, haga clic en **[!UICONTROL Enviar].**&#x200B; Un correo electrónico recordatorio personalizado contiene la misma información que el correo electrónico recordatorio predeterminado, pero también incluye la línea de asunto personalizada y el mensaje personalizado en el cuerpo del correo electrónico.
+   * Si desea crear su propio mensaje personalizado, escriba un **[!UICONTROL Asunto]** y el **[!UICONTROL Mensaje],** y, a continuación, haga clic en **[!UICONTROL Enviar].** Un correo electrónico de recordatorio personalizado contiene la misma información que el correo electrónico de recordatorio predeterminado, pero también incluye la línea de asunto personalizada y el mensaje personalizado en el cuerpo del correo electrónico.
 
-## Envío de un mensaje a los revisores en una etapa
+## Envío de un mensaje a los revisores de una fase
 
-1. En cualquier vista de lista o en el panel, haga clic en el botón **[!UICONTROL Más]** (tres puntos) para la prueba y, a continuación, haga clic en **[!UICONTROL Ver detalles de prueba]**.
+1. En cualquier vista de lista o panel, haga clic en el menú **[!UICONTROL Más]** (tres puntos) de la prueba y, a continuación, haga clic en **[!UICONTROL Ver detalles de la prueba]**.
 
-1. En **[!UICONTROL Flujo de trabajo,]** en la esquina superior derecha del escenario, haga clic en el botón **[!UICONTROL Más]** (tres puntos) para el escenario y, a continuación, haga clic en **[!UICONTROL Mensaje todo]** en el menú desplegable.
+1. En **[!UICONTROL Flujo de trabajo,]** en la esquina superior derecha del escenario, haga clic en el menú **[!UICONTROL Más]** (tres puntos) del escenario y, a continuación, haga clic en **[!UICONTROL Mensaje todo]** en el menú desplegable.
 
-1. En el **[!UICONTROL Mensaje]** que aparece, seleccione los destinatarios que desee.
+1. En el cuadro **[!UICONTROL Mensaje]** que aparece, seleccione los destinatarios que desee.
 1. Realice una de las siguientes acciones:
 
-   * Si desea utilizar el valor predeterminado [!DNL Workfront Proof] mensaje, haga clic en **[!UICONTROL Descartar mensaje personalizado]** y haga clic en **[!UICONTROL Enviar]**.\
+   * Si desea usar el mensaje predeterminado [!DNL Workfront Proof], haga clic en **[!UICONTROL Descartar mensaje personalizado]** y, a continuación, haga clic en **[!UICONTROL Enviar]**.\
 
-      El mensaje predeterminado recuerda a los revisores que se han agregado a la prueba e incluye la fecha límite de la prueba.
+     El mensaje predeterminado recuerda a los revisores que se han añadido a la prueba e incluye su fecha límite.
 
-   * Si desea crear su propio mensaje personalizado, escriba una **[!UICONTROL Asunto]** y **[!UICONTROL Mensaje],** a continuación, haga clic en **[!UICONTROL Enviar].**&#x200B; Un correo electrónico recordatorio personalizado contiene la misma información que el correo electrónico recordatorio predeterminado, pero también incluye la línea de asunto personalizada y el mensaje personalizado en el cuerpo del correo electrónico.
+   * Si desea crear su propio mensaje personalizado, escriba un **[!UICONTROL Asunto]** y el **[!UICONTROL Mensaje],** y, a continuación, haga clic en **[!UICONTROL Enviar].** Un correo electrónico de recordatorio personalizado contiene la misma información que el correo electrónico de recordatorio predeterminado, pero también incluye la línea de asunto personalizada y el mensaje personalizado en el cuerpo del correo electrónico.

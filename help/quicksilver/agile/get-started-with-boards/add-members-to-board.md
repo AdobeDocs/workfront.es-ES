@@ -38,34 +38,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Añadir miembros a un tablero
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y luego haga clic en **[!UICONTROL Tableros]**.
 1. Cree un tablero nuevo o edite uno existente. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Haga clic en **[!UICONTROL Añadir miembro]** icono ![Añadir miembros](assets/boards-addmember-spectrum-25x25.png).
-1. En el **[!UICONTROL Añadir miembros]** , empiece a escribir un nombre y, a continuación, selecciónelo cuando aparezca en la lista.
+1. Haga clic en el icono **[!UICONTROL Agregar miembro]** ![Agregar miembros](assets/boards-addmember-spectrum-25x25.png).
+1. En el cuadro **[!UICONTROL Agregar miembros]**, empiece a escribir un nombre y, a continuación, selecciónelo cuando aparezca en la lista.
 
    Puede seleccionar un miembro individual o un equipo. Si elige un equipo, el propio equipo se añade al tablero.
 
    >[!NOTE]
    >
-   >Un usuario individual debe tener **[!UICONTROL Ver]** o **[!UICONTROL Editar]** en su nivel de acceso para los equipos o no podrán ver el tablero.
+   >Un usuario individual debe tener la opción **[!UICONTROL Ver]** o **[!UICONTROL Editar]** establecida en su nivel de acceso para equipos o no podrá ver el tablero.
 
 
-   ![Añadir miembros al tablero](assets/boards-add-members.png)
+   ![Agregar miembros al tablero](assets/boards-add-members.png)
 
 ## Quitar miembros de un tablero
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y luego haga clic en **[!UICONTROL Tableros]**.
 1. Cree un tablero nuevo o edite uno existente. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Haga clic en **[!UICONTROL Añadir miembro]** icono ![Añadir miembros](assets/boards-addmember-spectrum-25x25.png).
-1. En el **[!UICONTROL Añadir miembros]** , haga clic en la X situada junto al nombre de una persona o equipo para quitarlos del tablero.
+1. Haga clic en el icono **[!UICONTROL Agregar miembro]** ![Agregar miembros](assets/boards-addmember-spectrum-25x25.png).
+1. En el cuadro **[!UICONTROL Agregar miembros]**, haga clic en la X junto al nombre de una persona o equipo para quitarlos del tablero.
 
    ![Quitar miembro del tablero](assets/boards-remove-member-from-board-350x367.png)
 
-   Cuando se elimina un miembro de un tablero, no se elimina de ninguna tarjeta a la que esté asignado. Para las tarjetas conectadas, las asignaciones también se actualizan en la [!DNL Workfront] tarea o problema.
+   Cuando se elimina un miembro de un tablero, no se elimina de ninguna tarjeta a la que esté asignado. Para las tarjetas conectadas, las asignaciones también se actualizan en la tarea o el problema [!DNL Workfront].
 
    Los miembros solo se eliminan de este tablero. No se eliminan de otros tableros a los que pertenecen.
 

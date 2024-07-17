@@ -22,12 +22,12 @@ Puede exportar un informe completo (o un bloque específico) a un formato de arc
 
 ## Requisitos previos
 
-Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Resumen de Lienzo de informes beta](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Lienzo de informes beta: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Exportación de informes
 
 1. Desplácese hasta el informe que desee exportar.
-1. En el encabezado del informe, haga clic en **Más** icono ![](assets/more-icon-27x15.png), haga clic en **Exportar**, a continuación, seleccione el formato de archivo que desee crear.
+1. En el encabezado del informe, haga clic en el icono **Más** ![](assets/more-icon-27x15.png), haga clic en **Exportar** y, a continuación, seleccione el formato de archivo que desee crear.
 
    >[!NOTE]
    >

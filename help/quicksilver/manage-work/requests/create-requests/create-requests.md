@@ -31,7 +31,7 @@ Todas las solicitudes se muestran en el área Problemas de los proyectos en los 
 
 Para obtener más información sobre cómo crear, enviar o enviar solicitudes por correo electrónico en Workfront, consulte los siguientes artículos:
 
-* [Creación y envío de solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 * [Copiar y enviar solicitudes](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
 * [Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)

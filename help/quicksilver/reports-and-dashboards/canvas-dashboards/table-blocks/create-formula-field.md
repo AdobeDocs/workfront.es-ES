@@ -17,12 +17,12 @@ El generador de campos en el lienzo de informes permite crear campos que realice
 
 ## Requisitos previos
 
-Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Resumen de Lienzo de informes beta](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Lienzo de informes beta: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Crear un campo de fórmula
 
-1. Cree o navegue hasta un bloque de tabla, tal como se describe en [Adición o edición de un bloque de tabla en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. En el encabezado de tabla del informe, haga clic en **Editar** icono ![](assets/edit-icon.png).
+1. Cree o navegue hasta un bloque de tabla, tal como se describe en [Agregue o edite un bloque de tabla en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. En el encabezado de tabla del informe, haga clic en el icono **Editar** ![](assets/edit-icon.png).
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
    >
    >Si acaba de crear la tabla y aún no ha agregado ningún campo, haga clic en el botón Editar en el centro de la tabla.
 
-1. Clic **Nuevo +** en la parte superior del **Campos** en el panel derecho.
-1. En la nueva página que se abre, haga clic en **Editar** icono ![](assets/edit-icon.png) situado junto al nombre del campo en la esquina superior izquierda para cambiar el nombre del campo de fórmula.
-1. Arrastrar **Funciones** o **Campos** desde el panel izquierdo al generador de campos en el centro para añadirlos al campo de fórmula.
+1. Haga clic en **Nuevo +** en la parte superior de la lista **Campos** en el panel derecho.
+1. En la nueva página que se abre, haga clic en el icono **Editar** ![](assets/edit-icon.png) junto al nombre del campo en la esquina superior izquierda para cambiar el nombre del campo de fórmula.
+1. Arrastre **Funciones** o **Campos** desde el panel izquierdo al generador de campos en el centro para agregarlos al campo de fórmula.
 
 
    >[!TIP]
    >
-   >A medida que crea el campo de fórmula, la variable **Previsualización de campo** a la derecha se muestran ejemplos del campo resultante.
+   >A medida que crea el campo de fórmula, la **vista previa del campo** a la derecha muestra ejemplos del campo resultante.
 
    Cada función contiene un número de rectángulos de puntos vacíos que se utilizarán como argumentos para calcular un resultado. Estos se pueden rellenar introduciendo texto estático o números, arrastrando y soltando un campo desde el panel izquierdo (utilizando el valor del campo en el cálculo) o arrastrando y soltando otra función (creando una función anidada). Las funciones posibles incluyen:
 
@@ -67,4 +67,4 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
 
    {style="table-layout:auto"}
 
-1. Haga clic en **Volver atrás** en la esquina superior izquierda de la pantalla para volver a la tabla.
+1. Haga clic en la flecha **Volver** situada en la esquina superior izquierda de la pantalla para volver a la tabla.

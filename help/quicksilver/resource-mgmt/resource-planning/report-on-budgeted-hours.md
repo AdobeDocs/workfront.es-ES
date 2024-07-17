@@ -1,8 +1,8 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: Informe sobre las horas presupuestadas del planificador de recursos
-description: Puede presupuestar recursos en sus proyectos utilizando el planificador de recursos. Para obtener información sobre la presupuestación de los recursos mediante el planificador de recursos de Adobe Workfront, consulte el artículo Recursos presupuestarios en el Planificador de recursos utilizando las vistas Proyecto y Función .
+title: Informe sobre horas presupuestadas del planificador de recursos
+description: Puede presupuestar recursos en sus proyectos mediante el Planificador de recursos. Para obtener información sobre cómo presupuestar los recursos mediante el Planificador de recursos de Adobe Workfront, vea el artículo Presupuestar recursos en el Planificador de recursos mediante las vistas Proyecto y Rol.
 author: Alina
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Informe sobre las horas presupuestadas del planificador de recursos
+# Informe sobre horas presupuestadas del planificador de recursos
 
-Puede presupuestar recursos en sus proyectos utilizando el planificador de recursos. Para obtener información sobre cómo presupuestar los recursos con el planificador de recursos de Adobe Workfront, consulte el artículo [Recursos presupuestarios en el planificador de recursos utilizando las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Puede presupuestar recursos en sus proyectos mediante el Planificador de recursos. Para obtener información sobre cómo presupuestar los recursos mediante el Planificador de recursos de Adobe Workfront, consulte el artículo [Presupuesto de recursos en el Planificador de recursos mediante las vistas de proyecto y función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-Asignar un presupuesto a los recursos significa definir (o presupuestar) un determinado número de horas que los recursos de un proyecto necesitan para completar su trabajo en el proyecto. Para compartir la información de hora presupuestada que especifica en el Planificador de recursos con otros usuarios que podrían no tener acceso al Planificador de recursos, puede crear un informe de hora presupuestada. Para obtener más información, consulte [Informe: Hora presupuestada](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+Presupuestar recursos significa definir (o presupuestar) un determinado número de horas que los recursos de un proyecto necesitan para completar su trabajo en el proyecto. Para compartir la información de horas presupuestadas que especifica en el Planificador de recursos con otros usuarios que podrían no tener acceso al Planificador de recursos, puede generar un informe de horas presupuestadas. Para obtener más información, consulte [Informe: hora presupuestada](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

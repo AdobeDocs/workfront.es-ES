@@ -25,11 +25,11 @@ Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantill
 
 ![](assets/object-header-fields.png)
 
-Para obtener información sobre la creación de plantillas de diseño, consulte [Creación y administración de plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información sobre plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información sobre cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -38,7 +38,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table>
   <tr>
-   <td><strong>plan de Adobe Workfront</strong>
+   <td><strong>plan Adobe Workfront</strong>
    </td>
    <td>Cualquiera
    </td>
@@ -58,21 +58,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 </table>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea [Crear o modificar niveles de acceso personalizados](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Personalizar encabezados de objeto
 
-1. Empiece a trabajar en una plantilla de diseño como se describe en [Creación y administración de plantillas de diseño](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. En el **Personalizar lo que ven los usuarios** menú desplegable, seleccione **Proyectos**, **Tareas**, o **Problemas**.
+1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. En el menú desplegable **Personalizar lo que ven los usuarios**, seleccione **Proyectos**, **Tareas** o **Problemas**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. En el [!UICONTROL Campos de encabezado] , pase el ratón sobre los campos mostrados y realice una de las siguientes acciones:
-   * Haga clic en **x** icono para quitar un campo
+1. En la sección [!UICONTROL Campos de encabezado], pase el ratón sobre los campos mostrados y realice una de las siguientes acciones:
+   * Haga clic en el icono **x** para quitar un campo
 
      O
 
-   * Haga clic y mantenga presionado el botón **agarrar** para arrastrar y soltar el campo en una nueva ubicación.
+   * Mantenga presionado el icono **asir** para arrastrar y soltar el campo en una nueva ubicación.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 1. Se pueden incluir hasta cinco campos en el encabezado de un objeto.
 Si ya tiene cinco campos seleccionados, debe quitar un campo para poder agregar uno nuevo.
-1. En el **Añadir campo** , empiece a escribir el nombre de un campo de Workfront no editable que desee agregar y, a continuación, selecciónelo cuando se muestre en la lista. El campo se añade inmediatamente a la derecha del cuadro Agregar campo y se muestra como el primer campo en la esquina superior izquierda del encabezado del objeto.
+1. En el cuadro **Agregar campo**, empiece a escribir el nombre del campo de Workfront no editable que desea agregar y, a continuación, selecciónelo cuando se muestre en la lista. El campo se añade inmediatamente a la derecha del cuadro Agregar campo y se muestra como el primer campo en la esquina superior izquierda del encabezado del objeto.
 
    >[!TIP]
    >

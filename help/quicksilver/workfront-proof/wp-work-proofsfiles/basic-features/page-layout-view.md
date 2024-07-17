@@ -3,47 +3,47 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
-title: Diseño de página en la pestaña Vistas en Workfront Proof
+title: Diseño de página en la pestaña Vistas de Workfront Proof
 description: Puede ajustar el diseño de página en la pestaña Vistas.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
 
-# Diseño de página en la pestaña Vistas de [!DNL Workfront Proof]
+# Diseño de página en la ficha Vistas de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Puede ajustar el diseño de página en la variable [!UICONTROL Vistas] pestaña. Estas son las opciones de diseño disponibles:
+Puede ajustar el diseño de la página en la ficha [!UICONTROL Vistas]. Estas son las opciones de diseño disponibles:
 
 ## Lista
 
 * Muestra la prueba o el nombre de archivo más las columnas de vista estándar
-* El [!UICONTROL acciones de prueba] El menú se encuentra en el lado derecho de la línea (1)
+* El menú [!UICONTROL acciones de prueba] se encuentra en el lado derecho de la línea (1)
 
-  ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
+  ![Vistas_de_página_-_vista_de_lista.png](assets/page-views---list-view-350x164.png)
 
 ## Lista de vistas en miniaturas
 
 * Muestra el icono de imagen/archivo de prueba, la prueba o el nombre de archivo más las columnas de vista estándar
-* El [!UICONTROL acciones de prueba] El menú se encuentra en el lado derecho de la línea (1)
+* El menú [!UICONTROL acciones de prueba] se encuentra en el lado derecho de la línea (1)
 * Tenga en cuenta que esta es la vista estándar predeterminada.
 
-  ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
+  ![Vistas_de_página_-_miniaturas_vista_lista.png](assets/page-views---thumbnails-list-view-350x164.png)
 
 ## Miniaturas
 
 * Muestra solo el icono de imagen/archivo de prueba y el nombre de la prueba/archivo
-* El [!UICONTROL acciones de prueba] El menú se encuentra en la esquina superior derecha de cada revisión (1)
+* El menú [!UICONTROL acciones de prueba] se encuentra en la esquina superior derecha de cada prueba (1)
 
-  ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
+  ![Vistas_de_página_-_miniaturas_vista.png](assets/page-views---thumbnails-view-350x156.png)
 
 ## Cambiar el diseño de la página
 

@@ -25,7 +25,7 @@ in January 2022
 
 la semana del 17 de enero de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general de la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.1, consulte [Información general sobre la versión 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Mejora de la interfaz para los usuarios que no tienen acceso para crear solicitudes
 
@@ -33,7 +33,7 @@ Para mejorar la experiencia de los usuarios al trabajar con solicitudes de, hemo
 
 Antes de esta mejora, el botón Nueva solicitud no se mostraba en el área Solicitudes de estos usuarios. Copiar y enviar una solicitud como nueva también está restringido.
 
-Para obtener más información sobre la creación de solicitudes, consulte [Creación y envío de solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener más información sobre la creación de solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Copiar y enviar solicitudes
 
@@ -57,4 +57,4 @@ Para mejorar la visibilidad y la interacción con el panel Resumen, se ha añadi
 
 Al abrir el Panel de resumen sin seleccionar primero una solicitud, ahora se muestra una imagen más fácil de usar para indicar claramente al usuario que seleccione un elemento antes de abrir el panel. Para obtener más información, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Con este cambio, también se ha actualizado el Panel de resumen de tareas, problemas y documentos. Para obtener información sobre el panel Resumen, consulte [Resumen, descripción general](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Con este cambio, también se ha actualizado el Panel de resumen de tareas, problemas y documentos. Para obtener información sobre el Panel de resumen, consulte [Resumen general](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

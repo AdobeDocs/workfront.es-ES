@@ -18,17 +18,17 @@ ht-degree: 2%
 
 Esta página describe todos los cambios disponibles en el entorno de vista previa con las versiones R1.1 y R1.2. La funcionalidad de esta página estaba disponible en el entorno de vista previa el 19 de enero de 2017.
 
-Para ver una lista de todos los cambios realizados en R1, consulte [Resumen de actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Para obtener una lista de todos los cambios realizados en R1, consulte [Descripción general de la actividad de la versión R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Restaurar proyectos, tareas y problemas desde la papelera de reciclaje 
 
 Los administradores de Workfront ahora pueden restaurar proyectos, tareas y problemas que se hayan eliminado en los últimos 30 días. Se restaura toda la información asociada con el proyecto, la tarea o el problema, incluidos los documentos y los datos personalizados.
 
-También hay nuevas opciones disponibles para configurar qué sucede con las horas registradas en un proyecto, tarea o problema que se elimina. Para obtener más información, consulte [Configurar el efecto en horas cuando se elimina y restaura un objeto](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+También hay nuevas opciones disponibles para configurar qué sucede con las horas registradas en un proyecto, tarea o problema que se elimina. Para obtener más información, vea [Configurar el efecto en horas cuando se elimina y restaura un objeto](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
-Para obtener más información sobre la restauración de objetos en Workfront, consulte [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Para obtener más información acerca de cómo restaurar objetos en Workfront, vea [Restaurar elementos eliminados](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-Para obtener información sobre cómo ver los proyectos, tareas y problemas que se han restaurado recientemente, consulte [Ver elemento restaurado](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+Para obtener información sobre cómo ver proyectos, tareas y problemas que se han restaurado recientemente, vea [Ver elemento restaurado](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
 ## El diagrama de aprobación muestra la representación visual de los pasos de aprobación anteriores, actuales y futuros
 
@@ -38,20 +38,20 @@ Antes de este cambio, la información sobre los pasos de aprobación estaba disp
 
 En los proyectos, la información de aprobación se muestra en el encabezado junto al título del proyecto. En las tareas y los problemas, la información de aprobación se muestra en el panel derecho.
 
-Para obtener más información, consulte [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Para obtener más información, consulte [Aprobación de trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md) en  [Aprobando trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Configurar objetos que se van a actualizar y que tengan aprobación pendiente
 
 Cuando un proyecto, tarea o problema tiene la aprobación pendiente, ahora puede configurar si los usuarios pueden:
 
 * Editar el formulario personalizado de un proyecto, tarea o problema que esté pendiente de aprobación.\
-  Para obtener información sobre cómo configurar proyectos, tareas y problemas para editarlos cuando estén pendientes de aprobación, consulte [Configuración de la aprobación global](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Para obtener información acerca de cómo configurar proyectos, tareas y problemas que se deben editar cuando están pendientes de aprobación, vea [Configurar la aprobación global](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
 * Agregar problemas a un proyecto que está pendiente de aprobación.\
-  Para obtener información sobre cómo configurar proyectos para permitir que los usuarios agreguen problemas cuando el proyecto está pendiente de aprobación, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obtener información sobre cómo configurar proyectos para permitir que los usuarios agreguen problemas cuando el proyecto está pendiente de aprobación, consulte [Configurar preferencias de proyectos en todo el sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Editar tareas y problemas dentro de un proyecto que está pendiente de aprobación.\
-  Para obtener información sobre cómo configurar proyectos para permitir que los usuarios editen tareas y problemas cuando el proyecto está pendiente de aprobación, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Para obtener información acerca de cómo configurar proyectos para permitir que los usuarios editen tareas y problemas cuando el proyecto está pendiente de aprobación, vea [Configurar las preferencias de proyectos en todo el sistema](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Antes de este cambio, los proyectos, las tareas y los problemas cuya aprobación estaba pendiente no se podían editar; asimismo, los problemas no se podían añadir a proyectos cuya aprobación estaba pendiente y las tareas y los problemas no se podían editar dentro de proyectos cuya aprobación estaba pendiente.
 
@@ -69,7 +69,7 @@ La funcionalidad ha cambiado la edición por lotes de la configuración de las n
 
 Antes de este cambio, se guardaba la configuración de notificaciones por correo electrónico que seleccionó y el resto de configuraciones de notificaciones sin modificar se anulaban al guardar los cambios. 
 
-Para obtener más información, consulte &quot;Modificación masiva de la configuración de notificaciones de usuario&quot; en [Modificar sus propias notificaciones por correo electrónico](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener más información, consulte &quot;Modificar la configuración de notificaciones de usuario en lotes&quot; en [Modificar tus propias notificaciones por correo electrónico](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Aspecto actualizado de varias notificaciones por correo electrónico
 
@@ -101,7 +101,7 @@ Para obtener más información, consulte [Notificaciones de Adobe Workfront](../
 
 Cuando hace público un grupo, ahora puede agregar ese grupo a los usuarios sin ser el propietario de un grupo. Deberá tener acceso administrativo de usuario para poder editar usuarios.
 
-Para obtener más información sobre cómo convertir un grupo en público, consulte la [Crear un grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) sección en [Crear un grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Para obtener más información sobre cómo convertir un grupo en público, consulte la sección [Crear un grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) en [Crear un grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## Compartir la URL de un objeto en la aplicación móvil 
 
@@ -131,7 +131,7 @@ Ahora puede agregar tasas de gastos más exactas al crear tipos de gastos. Las t
 
 Antes de este cambio, las tasas de gasto solo podían contener hasta 2 caracteres después del decimal (por ejemplo, 1,03).
 
-Para obtener más información sobre la creación de tasas de gastos, consulte [Crear tipos de gastos personalizados](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+Para obtener más información sobre cómo crear tasas de gastos, vea [Crear tipos de gastos personalizados](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>

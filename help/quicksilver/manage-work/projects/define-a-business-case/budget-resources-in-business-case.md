@@ -1,7 +1,7 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Recursos presupuestarios en el caso empresarial
-description: Como parte de la planificación de recursos, puede presupuestar las funciones de trabajo necesarias para completar el trabajo en un proyecto al crear el caso empresarial. Para obtener más información sobre la creación de un caso empresarial, consulte Creación de un caso empresarial para un proyecto .
+title: Recursos de presupuesto en el caso comercial
+description: Como parte de la planificación de recursos, puede presupuestar los roles de trabajo necesarios para completar el trabajo en un proyecto al crear el caso empresarial. Para obtener más información sobre la creación de un caso empresarial, consulte Crear un caso empresarial para un proyecto
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# Recursos presupuestarios en el caso empresarial
+# Recursos de presupuesto en el caso comercial
 
-Como parte de la planificación de recursos, puede presupuestar las funciones de trabajo necesarias para completar el trabajo en un proyecto al crear el caso empresarial. Para obtener más información sobre la creación de un caso práctico, consulte [Creación de un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Como parte de la planificación de recursos, puede presupuestar los roles de trabajo necesarios para completar el trabajo en un proyecto al crear el caso empresarial. Para obtener más información sobre cómo crear un caso empresarial, vea [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!NOTE]
 >
->La asignación de recursos no es lo mismo que programar recursos para un proyecto. Al presupuestar recursos, se calculan las funciones que podrían ser necesarias para completar el trabajo en un proyecto. Para programar o asignar usuarios al trabajo de un proyecto, consulte [Administrar asignaciones de usuario en el equilibrador de carga de trabajo](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>Presupuestar recursos no es lo mismo que programar recursos para un proyecto. Cuando se presupuestan recursos, se estiman las funciones que podrían ser necesarias para completar el trabajo de un proyecto. Para programar o asignar usuarios para trabajar en un proyecto, vea [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
-Debe asociar funciones de trabajo con el proyecto antes de poder presupuestar los recursos para él. A continuación se indican las formas de asignar funciones de trabajo a un proyecto:
+Debe asociar los roles al proyecto antes de poder presupuestar los recursos para él. A continuación se indican formas de asignar funciones a un proyecto:
 
-* Utilice el planificador de recursos para aplicar grupos de recursos a las funciones de trabajo de proyecto y presupuesto.
+* Utilice el Planificador de recursos para aplicar conjuntos de recursos a los roles de trabajo del proyecto y del presupuesto.
 
-   Para obtener más información, consulte [Recursos presupuestarios en el caso empresarial utilizando el planificador de recursos](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Para obtener más información, consulte [Recursos de presupuesto en el caso comercial con el Planificador de recursos](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Utilice el Planificador de escenario para crear iniciativas con las funciones de trabajo necesarias y vincularlas al proyecto. Para obtener más información, consulte [Recursos de presupuesto en el caso empresarial con el planificador de escenarios](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Utilice el planificador de escenarios para crear iniciativas con los roles necesarios y vincularlas al proyecto. Para obtener más información, consulte [Recursos de presupuesto en el caso comercial con el Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
 
-   >[!NOTE]
-   >
-   >El planificador de escenarios solo está disponible en la nueva experiencia de Adobe Workfront y requiere una licencia adicional. Para obtener información sobre el planificador de escenarios de Workfront, consulte [Información general del planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >El planificador de escenarios solo está disponible en la nueva experiencia de Adobe Workfront y requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

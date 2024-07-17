@@ -10,7 +10,7 @@ role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-Como administrador de Adobe Workfront, puede definir el acceso de un usuario a lo siguiente a través del nivel de acceso del usuario, como se explica en [Información general sobre niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
+Como administrador de Adobe Workfront, puede definir el acceso de un usuario a lo siguiente a través del nivel de acceso del usuario, como se explica en [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
 * Información financiera sobre proyectos en Workfront
 * Información de presupuestación de recursos en las herramientas de planificación de recursos
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,24 +51,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Tenga en cuenta lo siguiente al conceder a los usuarios acceso a los datos financieros en Workfront:
 
-* Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede crear un riesgo para un proyecto. Para obtener más información, consulte [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+* Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede crear un riesgo para un proyecto. Para obtener más información, vea [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * También puede utilizar un nivel de acceso para determinar qué actividades de Administración de recursos puede utilizar un usuario para presupuestar o ver la asignación de recursos. Para obtener más información, consulte [Conceder acceso a Administración de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Configuración del acceso de los usuarios a los datos financieros mediante un nivel de acceso personalizado
 
 1. Comience a crear o editar el nivel de acceso, tal como se explica en [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en el **Ver** o **Editar** a la derecha de Datos financieros y, a continuación, seleccione las capacidades que desea conceder en **Ajuste la configuración**.
+1. Haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en el botón **Ver** o **Editar** que se encuentra a la derecha de Datos financieros y, a continuación, seleccione las facultades que desea conceder en **Ajustar la configuración**.
 
    ![](assets/financial-data-fine-tune-nwe.png)
 
-1. (Opcional) En el **Permitir acceso administrativo para** , seleccione las siguientes opciones:
+1. (Opcional) En el área **Permitir acceso administrativo para**, seleccione las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Tasas de cambio</td> 
+      <td role="rowheader">Tipos de cambio</td> 
       <td> <p>Añada una nueva moneda en Workfront.</p> <p>Sin este acceso, el usuario solo puede agregar una moneda existente a un proyecto que cree.</p> </td> 
      </tr> 
      <tr> 
@@ -83,14 +83,14 @@ Tenga en cuenta lo siguiente al conceder a los usuarios acceso a los datos finan
     </tbody> 
    </table>
 
-1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas del nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configuración del acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) como [Conceder acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
-1. Cuando haya terminado, haga clic en **Guardar**.
+1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+1. Cuando termine, haga clic en **Guardar**.
 
-   Una vez creado el nivel de acceso, puede asignarlo a un usuario. Para obtener más información, consulte [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Una vez creado el nivel de acceso, puede asignarlo a un usuario. Para obtener más información, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Acceso a información financiera compartida
 
-Puede compartir información financiera sobre un proyecto, una tarea o un problema con otros usuarios otorgándoles permisos para ello, tal como se explica en [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+Puede compartir información financiera sobre un proyecto, tarea o problema con otros usuarios otorgándoles permisos para ello, como se explica en [Compartir permisos financieros en un objeto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 <!--
 If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:
@@ -106,7 +106,7 @@ Cuando comparte cualquier objeto con otro usuario, los derechos del destinatario
 
 ## Acceso a la información financiera por tipo de licencia
 
-Para obtener información sobre lo que los usuarios de cada nivel de acceso pueden hacer con la información financiera, consulte la sección [Datos financieros](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con la información financiera, vea la sección [Datos financieros](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Acceso a la información financiera mediante la configuración
 
@@ -119,7 +119,7 @@ Un usuario sin acceso a datos financieros no tiene acceso a lo siguiente:
 * Sección Finanzas bajo Objetos de proyecto y tarea
 * Caso comercial
 * Tarifas de facturación y registros de facturación
-* <span class="preview">Valorar tarjetas</span>
+* <span class="preview">Tarjetas de tarifa</span>
 * Coste por hora y facturación por hora según las preferencias del usuario
 
   Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4 anterior.
@@ -150,7 +150,7 @@ Un usuario con acceso de edición de datos financieros puede ver y editar lo sig
 * Sección Finanzas bajo Objetos de proyecto y tarea
 * Caso comercial
 * Tarifas de facturación y registros de facturación
-* <span class="preview">Valorar tarjetas</span>
+* <span class="preview">Tarjetas de tarifa</span>
 * Coste por hora y facturación por hora según las preferencias del usuario
 
   Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Editar del paso 4 anterior.

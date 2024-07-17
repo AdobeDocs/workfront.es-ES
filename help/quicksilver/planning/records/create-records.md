@@ -73,13 +73,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Permisos de contribución o superiores en un espacio de trabajo</a> </p>  
+   <td> <p>Permisos de Contribute o superiores para un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p>  
+   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
 </td>
   </tr>
 
@@ -93,11 +93,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Crear registros agregándolos manualmente a un tipo de registro <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Cree registros agregándolos manualmente a un tipo de registro <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 Puede crear registros en la vista de tabla de una página de tipo de registro.
 
-Para obtener información sobre cómo editar la información de registro, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener información acerca de cómo editar información de registro, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 {{step1-to-planning}}
 
@@ -105,7 +105,7 @@ Para obtener información sobre cómo editar la información de registro, consul
 
    El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
-1. Haga clic en una tarjeta de tipo de registro. Para obtener información sobre cómo crear un tipo de registro, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 Todos los registros del tipo seleccionado se muestran en la vista.
@@ -114,15 +114,15 @@ Todos los registros del tipo seleccionado se muestran en la vista.
 
    * Desde la vista de tabla:
 
-      * Clic **Nuevo registro** en la última fila de la tabla
+      * Haga clic en **Nuevo registro** en la última fila de la tabla
 
-      * Clic **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía.
+      * Haz clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
    * Desde cualquier vista:
 
-      * Clic **Nuevo registro** en la esquina superior derecha de la página. Se abre el cuadro de vista previa de registros.
+      * Haga clic en **Nuevo registro** en la esquina superior derecha de la página. Se abre el cuadro de vista previa de registros.
 
      Workfront carga automáticamente una miniatura y una imagen de portada en cada nuevo registro. Puede modificar estas imágenes más adelante. Para obtener más información, consulte los siguientes artículos:
 
@@ -133,22 +133,22 @@ Todos los registros del tipo seleccionado se muestran en la vista.
 
    >[!NOTE]
    >
-   >  * No hay campos obligatorios para los registros. Sin embargo, se recomienda agregar información para el campo principal de un registro, ya que es útil identificar registros al vincular registros entre sí. Para obtener más información sobre los campos principales, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md) y [Resumen del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * No hay campos obligatorios para los registros. Sin embargo, se recomienda agregar información para el campo principal de un registro, ya que es útil identificar registros al vincular registros entre sí. Para obtener más información acerca de los campos principales, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md) y [Información general del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Los campos que hacen referencia a otros tipos de registro o campos calculados son campos de sólo lectura.
 
-1. (Condicional) Al agregar registros en la tabla, continúe agregando información en cada fila y, a continuación, haga clic en **Entrar** en el teclado para guardar los cambios.
+1. (Condicional) Cuando agregue registros a la tabla, siga agregando información en cada fila y, a continuación, haga clic en **Escribir** en el teclado para guardar los cambios.
 
    O
 
-   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** icono ![](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro. Se abrirá en la tabla una vista previa con la información detallada del registro.
+   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) que aparece a la izquierda del nombre del registro. Se abrirá en la tabla una vista previa con la información detallada del registro.
 
    >[!TIP]
    >
-   >Puede acceder a las **Abrir detalles** solo desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
+   >Solo puede obtener acceso al icono **Abrir detalles** desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
 
 1. Comience a editar la información del registro en la vista previa del registro. Workfront guarda automáticamente los cambios.
-1. (Opcional) Haga clic en **Abrir en ficha nueva** icono ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña. Continúe editando el registro en la página de registros. Para obtener más información, consulte [Edición de registros](/help/quicksilver/planning/records/edit-records.md).
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva. Continúe editando el registro en la página de registros. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros o su información al agregarlos en la vista de tabla:
 
@@ -183,7 +183,7 @@ You can import records from other applications by linking them to existing recor
 
    Asegúrese de que la vista de tabla tiene las columnas (o los campos) que desea rellenar con la información del nuevo registro.
 
-1. Clic **Nuevo &lt; Nombre del tipo de registro >** en la última fila de la tabla para agregar a la tabla tantas filas nuevas como desee que estén los registros nuevos.
+1. Haga clic en **Nuevo &lt; Nombre de tipo de registro >** en la última fila de la tabla para agregar tantas filas nuevas a la tabla como desee que sean los registros nuevos.
 
    Por ejemplo, agregue 10 filas a la vista de tabla si desea pegar la información de 10 registros nuevos de otra aplicación.
 

@@ -1,8 +1,8 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: El [!DNL Adobe Workfront] Comunidad
-description: Adobe [!DNL Workfront] La comunidad es un grupo en línea de más de 10.000 [!DNL Workfront] usuarios. A través de la comunidad, puede ayudarle a mantenerse al día con los lanzamientos de productos, obtener información acerca de los eventos de los clientes y hablar con otros usuarios sobre [!DNL Workfront] productos y servicios. Encontrará respuestas a preguntas y establecerá conexiones con otros [!DNL Workfront] clientes.
+title: La  [!DNL Adobe Workfront] comunidad
+description: La comunidad Adobe [!DNL Workfront] es un grupo en línea de más de 10,000 [!DNL Workfront] usuarios. A través de la comunidad, podrá mantenerse informado sobre los lanzamientos de productos, obtener información sobre eventos de clientes y hablar con otros usuarios sobre [!DNL Workfront] productos y servicios. Encontrarás respuestas a preguntas y establecerás conexiones con otros [!DNL Workfront] clientes.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
 source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# El [!DNL Adobe Workfront] Comunidad
+# La comunidad [!DNL Adobe Workfront]
 
-Adobe [!DNL Workfront] La comunidad es un grupo en línea de más de 10.000 [!DNL Workfront] usuarios. A través de la comunidad, puede ayudarle a mantenerse al día con los lanzamientos de productos, obtener información acerca de los eventos de los clientes y hablar con otros usuarios sobre [!DNL Workfront] productos y servicios. Encontrará respuestas a preguntas y establecerá conexiones con otros [!DNL Workfront] clientes.
+La comunidad de Adobe [!DNL Workfront] es un grupo en línea de más de 10 000 usuarios [!DNL Workfront]. A través de la comunidad, podrá mantenerse informado sobre los lanzamientos de productos, obtener información sobre los eventos de clientes y hablar con otros usuarios sobre los productos y servicios de [!DNL Workfront]. Encontrará respuestas a preguntas y establecerá conexiones con otros [!DNL Workfront] clientes.
 
 <!--
 <img src="assets/screen-shot-2018-09-06-at-11.38.27-am-350x112.png" alt="Screen_Shot_2018-09-06_at_11.38.27_AM.png" style="width: 350;height: 112;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -28,13 +28,13 @@ Adobe [!DNL Workfront] La comunidad es un grupo en línea de más de 10.000 [!DN
 
 ### Contacto de soporte autorizado {#authorized-support-contact}
 
-Si es un Contacto de asistencia autorizado de (ASC), tiene credenciales de inicio de sesión para [!UICONTROL Servicio de asistencia], y [!UICONTROL Laboratorio de innovación]. Puede utilizar las mismas credenciales para iniciar sesión en [!DNL Workfront] Comunidad. En este caso, deje el subdominio en blanco.
+Si es un Contacto de soporte autorizado (ASC), tiene credenciales de inicio de sesión para el [!UICONTROL Servicio de asistencia] y [!UICONTROL Laboratorio de innovación]. Puede usar las mismas credenciales para iniciar sesión en la comunidad [!DNL Workfront]. En este caso, deje el subdominio en blanco.
 
 ![community_4.png](assets/community-4-350x129.png)
 
 ### Contacto de soporte no autorizado sin inicio de sesión SSO {#non-authorized-support-contact-without-sso-login}
 
-Si no es un Contacto de asistencia autorizado de, puede iniciar sesión con su [!DNL Workfront] credenciales de instancia. Utilice el mismo subdominio que su [!DNL Workfront] ejemplo.
+Si no es un Contacto de soporte autorizado, puede iniciar sesión con sus credenciales de instancia de [!DNL Workfront] normales. Utilice el mismo subdominio que la instancia [!DNL Workfront].
 
 >[!NOTE]
 >
@@ -42,22 +42,22 @@ Si no es un Contacto de asistencia autorizado de, puede iniciar sesión con su [
 
 ### Contacto de soporte no autorizado con inicio de sesión SSO {#non-authorized-support-contact-with-sso-login}
 
-Si su empresa utiliza SSO, debe ponerse en contacto con [!DNL Workfront] Atención al cliente por teléfono para solicitar una cuenta. Si no puede enviar un ticket o participar en un chat en vivo, póngase en contacto con su [!DNL Workfront] Contacto con Atención al cliente.
+Si su compañía sí usa SSO, debe comunicarse con la atención al cliente de [!DNL Workfront] por teléfono para solicitar una cuenta. Si no puede enviar un ticket o participar en chat en vivo, comuníquese con su contacto de atención al cliente [!DNL Workfront] autorizado.
 
-Si no recuerda su contraseña para el sitio de la comunidad, póngase en contacto con [!DNL Workfront Customer Support] y ellos pueden ayudarle.
+Si no recuerda su contraseña para el sitio de la comunidad, comuníquese con [!DNL Workfront Customer Support] y ellos podrán ayudarle.
 
 ## FAQ
 
 * [¿Cuál es mi subdominio?](#what-s-my-subdomain)
 * [Olvidé mi nombre de usuario o contraseña. ¿Cómo puedo restablecer mi nombre de usuario o contraseña?](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
 
-### ¿Cuál es la dirección URL de? [!DNL Workfront] ¿Comunidad?
+### ¿Cuál es la dirección URL de la comunidad [!DNL Workfront]?
 
-El [!DNL Workfront] La comunidad está disponible en la [!DNL Adobe Experience League] en la siguiente URL:  [[!DNL Workfront] Comunidad](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+La comunidad [!DNL Workfront] está disponible en el sitio web [!DNL Adobe Experience League] en la siguiente URL: [[!DNL Workfront] Comunidad](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### ¿Cuál es mi subdominio? {#what-s-my-subdomain}
 
-Si no está familiarizado con su subdominio, existe una manera fácil de encontrarlo. Si ha iniciado sesión en [!DNL Workfront], el subdominio es la cadena de texto o palabra anterior a *.workfront.com*  o *my.workfront.com* en la dirección URL. Por ejemplo, si la dirección URL de Workfront indica *appetite.workfront.com,* entonces *apetito* es su subdominio. Consulte el marcador C en el diagrama siguiente.
+Si no está familiarizado con su subdominio, existe una manera fácil de encontrarlo. Si ha iniciado sesión en [!DNL Workfront], su subdominio es la cadena de texto o palabra anterior a *.workfront.com* o *my.workfront.com* en la dirección URL. Por ejemplo, si la dirección URL de Workfront indica *appetite.workfront.com,*, *appetite* es su subdominio. Consulte el marcador C en el diagrama siguiente.
 
 ![community_5.png](assets/community-5-350x175.png)
 

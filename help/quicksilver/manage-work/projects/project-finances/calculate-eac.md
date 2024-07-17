@@ -2,27 +2,27 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular estimación al finalizar (CAO)
-description: Como métrica de rendimiento, la estimación al finalizar (EAC) representa el coste total proyectado de su proyecto o tarea cuando se completa.
+title: Calcular estimación al finalizar (EAC)
+description: Como métrica de rendimiento, Estimar al finalizar (EAC) representa el costo total proyectado del proyecto o tarea cuando finaliza.
 author: Alina
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
 
-# Calcular estimación al finalizar (CAO)
+# Calcular estimación al finalizar (EAC)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link!) </p>
 -->
 
-Como métrica de rendimiento, la estimación al finalizar (EAC) representa el coste total proyectado de su proyecto o tarea cuando se completa.
+Como métrica de rendimiento, Estimar al finalizar (EAC) representa el costo total proyectado del proyecto o tarea cuando finaliza.
 
-Como ajuste, le permite definir cómo se debe calcular el valor de EAC. 
+Como configuración, le permite definir cómo se debe calcular el valor EAC. 
 
 ## Requisitos de acceso
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -42,13 +42,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver acceso a Proyectos y Datos Financieros</p> <p><b>NOTA</b>
+   <td> <p>Ver acceso a proyectos y datos financieros</p> <p><b>NOTA</b>
 
-Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o permisos superiores del proyecto con permisos para Ver finanzas</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver o permisos superiores al proyecto con permisos para Ver finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,29 +57,29 @@ Si todavía no tiene acceso, pregunte a su administrador de Workfront si estable
 
 ## Defina cómo calcular EAC
 
-Como parte de las preferencias del sistema del proyecto, el administrador de Adobe Workfront puede definir cómo calcular la CAO. EAC se puede calcular de una de las dos maneras siguientes:
+Como parte de las preferencias del sistema del proyecto, el administrador de Adobe Workfront puede definir cómo calcular el EAC. EAC se puede calcular de una de las dos maneras siguientes:
 
 * [Calcular en el nivel de proyecto](#calculate-at-the-project-level)
-* [Resumen de tareas y subtareas](#roll-up-from-tasks-and-subtasks)
+* [Resumir a partir de tareas y subtareas](#roll-up-from-tasks-and-subtasks)
 
-Para obtener más información sobre la configuración de preferencias de proyecto en Workfront, incluido cómo calcular la estimación al completarse, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obtener más información acerca de cómo configurar las preferencias del proyecto en Workfront, incluido cómo calcular la estimación al finalizar, consulte [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Como administrador de proyectos, también puede cambiar esta preferencia en el nivel de proyecto, en la subpestaña Finanzas del proyecto. Para obtener más información sobre la edición de la subpestaña Finanzas de un proyecto, consulte [Administrar información en el área de finanzas del proyecto](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+Como jefe de proyecto, también puede cambiar esta preferencia en el nivel de proyecto, en la subpestaña Finance del proyecto. Para obtener más información sobre cómo editar la subpestaña Finanzas de un proyecto, consulte [Administrar información en el área Finanzas del proyecto](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
-### Calcular en el nivel de proyecto {#calculate-at-the-project-level}
+### Calcular a nivel de proyecto {#calculate-at-the-project-level}
 
-Las CAO para la tarea principal y el proyecto se determinan introduciendo las horas/coste laboral real en las Fórmulas de CAO. Este cálculo incluye horas/costes reales y gastos añadidos directamente a la tarea o proyecto principal.
+El valor de EAC para la tarea y el proyecto principales se determina introduciendo las horas reales/el coste laboral real en las fórmulas de EAC. Este cálculo incluye las horas, los costos y los gastos reales agregados directamente a la tarea o al proyecto principal.
 
-### Resumen de tareas y subtareas {#roll-up-from-tasks-and-subtasks}
+### Resumir a partir de tareas y subtareas {#roll-up-from-tasks-and-subtasks}
 
-Las CAO para la tarea principal y el proyecto se determinan sumando la CAO para cada tarea secundaria. Este cálculo excluye las horas/costes reales y los gastos añadidos directamente a la tarea o proyecto principal.
+EAC para la tarea principal y el proyecto se determinan sumando el EAC para cada tarea secundaria. Este cálculo excluye las horas, los costos y los gastos reales agregados directamente a la tarea o al proyecto principal.
 
-## Cálculo de EAC en función del método de índice de rendimiento (PIM)
+## Cómo calcular EAC en función del método de índice de rendimiento (PIM)
 
-En Workfront, el cálculo de EAC depende del método de índice de rendimiento (PIM) seleccionado en el proyecto. Para obtener más información sobre cómo configurar el PIM para su sistema o para su proyecto, consulte [Definir el método del índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+En Workfront, el cálculo de EAC depende del Método de índice de rendimiento (PIM) seleccionado del proyecto. Para obtener más información acerca de cómo establecer el PIM para el sistema o para el proyecto, vea [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
-* [Calcular EAC mediante PIM basado en horas](#calculate-eac-using-hour-based-pim)
-* [Calcular EAC mediante PIM basado en costes](#calculate-eac-using-cost-based-pim)
+* [Calcular EAC usando PIM basado en horas](#calculate-eac-using-hour-based-pim)
+* [Calcular EAC utilizando PIM basado en costes](#calculate-eac-using-cost-based-pim)
 
 ### Calcular EAC mediante PIM basado en horas {#calculate-eac-using-hour-based-pim}
 
@@ -87,52 +87,52 @@ En Workfront, el cálculo de EAC depende del método de índice de rendimiento (
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42;Si el índice de rendimiento de los costes [Calcular el índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Total de horas planificadas + Hora real. Esto ocurre cuando se han capturado horas, pero el proyecto/tarea se ha completado al 0%.
+&#42;Si el índice de rendimiento de costos [Calcula el índice de rendimiento de costos (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Total de horas planificadas + Horas reales. Esto ocurre cuando se han capturado horas, pero el proyecto/tarea está al 0% completado.
 
-Para obtener más información sobre el cálculo de CPI, consulte [Calcular el índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Para obtener más información acerca del cálculo del CPI, vea [Calcular el índice de rendimiento de costos (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-### Calcular EAC mediante PIM basado en costes {#calculate-eac-using-cost-based-pim}
+### Calcular EAC utilizando PIM basado en costes {#calculate-eac-using-cost-based-pim}
 
-La CAO de un proyecto se calcula mediante la fórmula siguiente:
+El EAC de un proyecto se calcula mediante la siguiente fórmula:
 
 ```
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>Trabajo EAC =  <em>IF</em> CPI Labor &lt;&gt; 0 ENTONCES Trabajo EAC = Costo laboral planificado / Trabajo CPI</pre><pre><em>ELSE</em> Trabajo de la CAO = costo laboral previsto + costo laboral real</pre><pre>CPI Labor = SI Costo real de la mano de obra &lt;&gt; 0 ENTONCES Trabajo CPI = TotalBudgetedCostWorkPerformance / Coste real de la mano de obra</pre><pre>ELSE CPI Labor = 1 </pre>Los campos siguientes se tienen en cuenta al calcular la CAO:
+<pre>EAC Labor =  <em>IF</em> IPC Mano de obra &lt;&gt; 0 ENTONCES EAC Mano de obra = Costo laboral planificado / IPC Mano de obra</pre><pre><em>ELSE</em> EAC  Mano de Obra = Coste Laboral Planificado + Coste Laboral Real</pre><pre>IRC Mano de Obra = SI Coste Laboral Real &lt;&gt; 0 ENTONCES IRC Mano de Obra = TotalBudgetedCostWorkPerformed / Coste Laboral Real</pre><pre>IRC = Trabajo = 1 </pre>Los campos siguientes se tienen en cuenta al calcular el EAC:
 
-* Total Budgeted Cost Work Performance (BCWP) = El resultado de multiplicar el coste presupuestado del trabajo planificado (costo presupuestado) y el porcentaje de la tarea que se ha completado hasta ahora.
+* Trabajo presupuestado total realizado (CPTR) = Resultado de multiplicar el costo presupuestado del trabajo planeado (costo presupuestado) y el porcentaje de la tarea que se ha completado hasta el momento.
 
-   Para obtener información sobre el trabajo de costo presupuestado total realizado (CPTR), consulte [Calcular el trabajo de coste presupuestado realizado (CPTR)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+  Para obtener información sobre el trabajo de costo presupuestado total realizado (CPTR), vea [Calcular el trabajo de costo presupuestado realizado (CPTR)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-   * **Para una tarea no principal:**
+   * **Para una tarea que no es principal:**
 
-      ```
-      Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
-      ```
+     ```
+     Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
+     ```
 
    * **Para una tarea principal:**
-Total de trabajo de coste presupuestado realizado = la suma del campo Total de trabajo de coste presupuestado realizado para todas las tareas secundarias directas.
+Trabajo presupuestado total realizado = la suma del campo Trabajo presupuestado total realizado para todas las tareas secundarias directas.
 
    * **Para un proyecto:**
-Total de trabajo de coste presupuestado realizado = la suma del campo Total de trabajo de coste presupuestado realizado para todas las tareas de nivel superior (principales y tareas independientes). 
+Trabajo presupuestado total realizado = la suma del campo Trabajo presupuestado total realizado para todas las tareas de nivel superior (tareas principales y autónomas). 
 
-* Gastos EAC = el resultado de agregar el Coste Real Incurrido al Coste de Gastos Planeado No Incurrido. Se calcula mediante la fórmula siguiente:
+* Gasto EAC = el resultado de agregar el costo de gasto real incurrido al costo de gasto planificado no incurrido. Se calcula mediante la fórmula siguiente:
 
-   ```
-   EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
-   ```
+  ```
+  EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
+  ```
 
-   * Coste real incurrido = La suma del campo Importe planeado para todos los gastos donde el campo Importe real > 0. Por ejemplo, si crea un gasto para la Tarea 1 e introduce 500,00 $ en el campo Importe planificado y un importe > 0 en el campo Importe real (es decir, 600,00 $), el costo planeado incurrido para esta tarea es de 500,00 $.
-   * Gastos planificados no incurridos = La suma del campo Importe planeado para todos los gastos donde el campo Importe real = 0. Por ejemplo, si crea dos gastos para la Tarea 1 donde, para el primer gasto, el valor en el campo Importe planificado es de 500,00 $ y el valor en el Importe real es de 600,00 $ y para el segundo gasto, el valor en el campo Importe planificado es de 300,00 $ y el valor del campo Importe real es de 0,00 $, el valor del valor del campo No Importe el gasto planificado currido para esta tarea es de 300,00 $. 
+   * Costo de gasto real incurrido = La suma del campo Importe planificado para todos los gastos donde el campo Importe real > 0. Por ejemplo, si crea un gasto para la Tarea 1 y especifica 500,00 $ en el campo Importe planificado y un importe > 0 en el campo Importe real (es decir, 600,00 $), el costo de gasto planificado incurrido para esta tarea es 500,00 $.
+   * Gasto planificado no incurrido = La suma del campo Importe planificado para todos los gastos donde el campo Importe real = 0. Por ejemplo, si crea dos gastos para la Tarea 1 en los que para el primer gasto el valor del campo Importe planificado es 500,00 $ y el valor del importe real es 600,00 $ y para el segundo gasto, el valor del campo Importe planificado es 300,00 $ y el valor del campo Importe real es 0,00 $, el valor del gasto planificado no incurrido de esta tarea es 300,00 $. 
 
-## Localización de la CAO en un proyecto o una tarea
+## Busque el EAC en un proyecto o una tarea
 
-1. Vaya al proyecto o la tarea donde desea ver el EAC.
-1. Expandir **Detalles del proyecto** o **Detalles de tareas** en el panel izquierdo del proyecto o la tarea, en función de dónde vea la EAC.
+1. Vaya al proyecto o tarea donde desee ver el EAC.
+1. Expanda **Detalles del proyecto** o **Detalles de tareas** en el panel izquierdo del proyecto o tarea, según el lugar donde vea el EAC.
 
 1. Haga clic en **Finanzas**. 
 
-   El valor de EAC se muestra en la variable **Estimación al finalizar** campo .
+   El valor EAC se muestra en el campo **Estimar al finalizar**.
 
    ![](assets/eac-highlighted-on-project-350x112.png)

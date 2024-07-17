@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] descripción general
+# Resumen de [!DNL Adobe Workfront Fusion]
 
 ## Requisitos de acceso
 
@@ -36,23 +36,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -62,7 +62,7 @@ La función de [!DNL Adobe Workfront Fusion] es automatizar sus procesos para qu
 
 Un escenario se compone de una serie de módulos que indican cómo se deben transformar los datos dentro de una aplicación o transferirlos entre aplicaciones y servicios web.
 
-Los módulos de varias aplicaciones y servicios web se colocan en un escenario que ejecuta una tarea. Por ejemplo, con un [!DNL Workfront Fusion for Work Automation and Integration] Con la licencia de, puede crear un escenario que supervise la aparición de nuevos datos en una aplicación o servicio web y, a continuación, utilice esos datos en un módulo subsiguiente del escenario para crear un resultado determinado, como la creación de un nuevo registro. Una vez configurado un escenario, [!DNL Workfront Fusion] ejecuta la tarea automáticamente.
+Los módulos de varias aplicaciones y servicios web se colocan en un escenario que ejecuta una tarea. Por ejemplo, con una licencia de [!DNL Workfront Fusion for Work Automation and Integration], puede generar un escenario que supervise la aparición de nuevos datos en una aplicación o servicio web y, a continuación, utilice esos datos en un módulo subsiguiente del escenario para crear un determinado resultado, como la creación de un nuevo registro. Una vez configurado un escenario, [!DNL Workfront Fusion] ejecuta la tarea automáticamente.
 
 >[!NOTE]
 >
@@ -72,8 +72,8 @@ Los módulos de varias aplicaciones y servicios web se colocan en un escenario q
 
 A medida que empiece a trabajar con Workfront Fusion, puede encontrar útiles los siguientes recursos:
 
-* Para obtener más información acerca de los [!DNL Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+* Para obtener más información acerca de las [!DNL Workfront Fusion] licencias disponibles, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-* Para obtener más información sobre los escenarios, consulte [Cree un escenario de integración de prácticas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+* Para obtener más información acerca de los escenarios, vea [Crear un escenario de integración de prácticas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
-* Para obtener más información sobre los módulos, consulte [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
+* Para obtener más información acerca de los módulos, vea [Tipos de módulos](../../workfront-fusion/modules/module-types.md).

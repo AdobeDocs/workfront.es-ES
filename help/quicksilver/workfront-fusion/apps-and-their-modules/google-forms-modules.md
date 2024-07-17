@@ -5,26 +5,26 @@ product-area: workfront-integrations;documents
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de Google Forms
-description: El [!DNL Adobe Workfront Fusion Google Forms] Los módulos de le permiten supervisar, seleccionar, añadir, actualizar o eliminar respuestas en su Forms de Google.
+description: Los  [!DNL Adobe Workfront Fusion Google Forms] módulos le permiten supervisar, seleccionar, agregar, actualizar o eliminar respuestas en su Forms de Google.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms] módulos
 
-El [!DNL Adobe Workfront Fusion] [!DNL Google Forms] Los módulos de le permiten supervisar, seleccionar, añadir, actualizar o eliminar respuestas en su [!DNL Google Forms].
+Los módulos [!DNL Adobe Workfront Fusion] [!DNL Google Forms] le permiten supervisar, seleccionar, agregar, actualizar o eliminar respuestas en su [!DNL Google Forms].
 
-Para utilizar [!DNL Google Docs] con [!DNL Adobe Workfront Fusion], es necesario tener un [!DNL Google] cuenta. Si no tiene un... [!DNL Google] cuenta de, puede crear una en la [!DNL Google] Página de ayuda de la cuenta.
+Para usar [!DNL Google Docs] con [!DNL Adobe Workfront Fusion], es necesario tener una cuenta de [!DNL Google]. Si todavía no tiene una cuenta [!DNL Google], puede crearla en la página de ayuda de la cuenta [!DNL Google].
 
-Si necesita instrucciones sobre cómo crear un escenario, consulte [Creación de un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Si necesita instrucciones para crear un escenario, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obtener información sobre los módulos, consulte [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obtener información acerca de los módulos, vea [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acceso
 
@@ -45,46 +45,46 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Requisitos previos
 
-Para usar [!DNL Google Forms] módulos, debe tener un [!DNL Google] cuenta.
+Para usar módulos de [!DNL Google Forms], debe tener una cuenta de [!DNL Google].
 
 ## Crear una hoja de cálculo a partir de un formulario
 
 Para trabajar con las respuestas del formulario, se debe crear la hoja de cálculo de las respuestas.
 
 1. Abra el formulario.
-1. Vaya a la **[!UICONTROL Respuestas]** pestaña.
-1. Haga clic en **[!UICONTROL Crear hoja de cálculo]** icono ![](assets/spreadsheet-icon.png).
+1. Vaya a la pestaña **[!UICONTROL Respuestas]**.
+1. Haga clic en el icono **[!UICONTROL Crear hoja de cálculo]** ![](assets/spreadsheet-icon.png).
 
 1. Seleccione si desea crear una hoja de cálculo nueva o una existente
 1. Haga clic en **[!UICONTROL Crear]**.
 
 ## [!DNL Google Forms] módulos y sus campos
 
-Al configurar [!DNL Google Forms] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, se añaden [!DNL Google Forms] Los campos pueden mostrarse, en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL Google Forms] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL Google Forms] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignación de información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -94,7 +94,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ### Déclencheur
 
-#### [!UICONTROL Respuestas de observación]
+#### [!UICONTROL Respuestas de inspección]
 
 Inspecciona el formulario en busca de nuevas respuestas.
 
@@ -104,7 +104,7 @@ Inspecciona el formulario en busca de nuevas respuestas.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Google] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Hoja de cálculo de [!UICONTROL]</td> 
@@ -122,9 +122,9 @@ Inspecciona el formulario en busca de nuevas respuestas.
    <td role="rowheader">[!UICONTROL Opción de procesamiento de valores]</td> 
    <td> <p>Especifique cómo desea que se representen los valores en la salida.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Valor con formato]</strong> </p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y con el formato moneda, <code>A2</code> devoluciones <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Valor sin formato]</strong> </p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y con el formato moneda, <code>A2</code> devuelve el número <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Fórmula]</strong> </p> <p>Los valores no se calculan. La respuesta incluye las fórmulas. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y con el formato moneda, <code>A2</code> devoluciones <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Valor con formato]</strong> </p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devuelve <code>$1. 23</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Valor sin formato]</strong> </p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devuelve el número <code>1. 23</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Fórmula]</strong> </p> <p>Los valores no se calculan. La respuesta incluye las fórmulas. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devuelve <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ Inspecciona el formulario en busca de nuevas respuestas.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Límite]</td> 
-   <td> <p> Establezca el número máximo de respuestas que [!DNL Workfront Fusion] funciona con durante un ciclo.</p> </td> 
+   <td> <p> Establezca el número máximo de respuestas con las que trabaja [!DNL Workfront Fusion] durante un ciclo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,7 +156,7 @@ Al configurar este módulo, se muestran los campos siguientes.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Google] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Hoja de cálculo de [!UICONTROL]</td> 
@@ -174,8 +174,8 @@ Al configurar este módulo, se muestran los campos siguientes.
    <td role="rowheader">[!UICONTROL Opción de entrada de valor]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
-     <li> <p><strong>[!UICONTROL Usuario introducido]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la interfaz de usuario. Los números siguen siendo números, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al introducir texto en una celda a través de [!DNL Google Sheets] IU.</p> </li> 
+     <li> <p><strong>[!UICONTROL RAW]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
+     <li> <p><strong>[!UICONTROL Usuario introducido]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la interfaz de usuario. Los números siguen siendo números, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la interfaz de usuario de [!DNL Google Sheets].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -201,7 +201,7 @@ Al configurar este módulo, se muestran los campos siguientes.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Google] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Hoja de cálculo de [!UICONTROL]</td> 
@@ -223,8 +223,8 @@ Al configurar este módulo, se muestran los campos siguientes.
    <td role="rowheader">[!UICONTROL Opción de entrada de valor]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
-     <li> <p><strong>[!UICONTROL Usuario introducido]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la interfaz de usuario. Los números siguen siendo números, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al introducir texto en una celda a través de [!DNL Google Sheets] IU.</p> </li> 
+     <li> <p><strong>[!UICONTROL RAW]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
+     <li> <p><strong>[!UICONTROL Usuario introducido]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la interfaz de usuario. Los números siguen siendo números, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la interfaz de usuario de [!DNL Google Sheets].</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -240,7 +240,7 @@ Este módulo elimina una respuesta seleccionada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Google] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Hoja de cálculo de [!UICONTROL]</td> 
@@ -260,7 +260,7 @@ Este módulo elimina una respuesta seleccionada.
 ### Búsquedas
 
 * [[!UICONTROL Respuestas de búsqueda]](#search-responses)
-* [[!UICONTROL Respuestas de búsqueda (avanzadas)])](#search-responses-advanced)
+* [[!UICONTROL Respuestas de búsqueda (avanzadas])](#search-responses-advanced)
 
 #### [!UICONTROL Respuestas de búsqueda]
 
@@ -271,7 +271,7 @@ Este módulo devuelve respuestas que coinciden con los criterios dados.
  <col data-mc-conditions=""> 
  <tbody> 
     <td>Conexión</td>
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Google] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
     <td>Hoja de cálculo de [!UICONTROL]</td>
@@ -301,9 +301,9 @@ Este módulo devuelve respuestas que coinciden con los criterios dados.
    <td role="rowheader">[!UICONTROL Opción de procesamiento de valores]</td> 
    <td> <p>Especifique cómo desea que se representen los valores en la salida.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Valor con formato]</strong></p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y con el formato moneda, <code>A2</code> devoluciones <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Valor sin formato]</strong> </p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y con el formato moneda, <code>A2</code> devuelve el número <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Fórmula]</strong> </p> <p>Los valores no se calculan. La respuesta incluye las fórmulas. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y con el formato moneda, <code>A2</code> devoluciones <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Valor con formato]</strong></p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devuelve <code>$1. 23</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Valor sin formato]</strong> </p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devuelve el número <code>1. 23</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Fórmula]</strong> </p> <p>Los valores no se calculan. La respuesta incluye las fórmulas. Por ejemplo, si <code>A1</code> es <code>1. 23</code> y <code>A2 </code>es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devuelve <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions="">
@@ -327,7 +327,7 @@ Este módulo realiza una búsqueda utilizando [[!DNL Google Charts Query Languag
  <tbody> 
   <tr> 
     <td>[!UICONTROL Conexión]</td>
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su [!DNL Google] cuenta a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conecte la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr>
     <td>Hoja de cálculo de [!UICONTROL]</td>

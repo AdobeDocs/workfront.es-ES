@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Mejoras del proyecto
 
-Esta página describe todas las mejoras de Project realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página describe todas las mejoras de Project realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Delegación de trabajo fuera de la oficina
 
@@ -39,7 +39,7 @@ Las siguientes son algunas de las funciones que agregamos con esta actualizació
 >Solo los usuarios con una licencia de revisión o superior pueden delegar su trabajo a otros. El trabajo se puede delegar a cualquier usuario, independientemente de su nivel de acceso. Los usuarios delegados reciben los mismos permisos que los usuarios asignados a los elementos delegados. Si estos permisos son inferiores a la configuración de nivel de acceso de un usuario, es posible que se impida a los usuarios delegados realizar algunas de las actividades en las tareas y problemas que se les han delegado.
 
 
-Para obtener más información, consulte [Delegar tarea y descripción general del problema](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+Para obtener más información, consulte [Delegar tareas y descripción general de problemas](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 ## Nueva experiencia al convertir un problema en una tarea
 
@@ -54,7 +54,7 @@ Esta actualización incluye:
 * Los formularios personalizados predeterminados definidos en el área Configuración de tareas del proyecto de destino se agregaron a la nueva tarea.
 
 
-Para obtener más información, consulte [Conversión de un problema en una tarea en Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Para obtener más información, consulte [Convertir un problema en una tarea en Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Nueva experiencia al convertir un problema en un proyecto sin plantilla
 
@@ -62,7 +62,7 @@ Para que el uso de Workfront sea coherente con la nueva experiencia de Workfront
 
 Además de una interfaz de usuario actualizada que coincide con el resto de la nueva experiencia de Workfront, también hemos agregado la capacidad de convertir un problema en proyectos en blanco de una lista o un informe.
 
-Para obtener más información, consulte [Conversión de un problema en un proyecto en Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Etiquetado inteligente en el flujo de actualización
 
@@ -74,7 +74,7 @@ Para obtener más información, consulte [Etiquetar a otros en las actualizacion
 
 Con el fin de prepararse para futuras mejoras que le ayudarán a agregar cálculos a los formularios personalizados, hemos estandarizado la sintaxis de los campos a los que se hace referencia que agregue a un cálculo. Es fácil utilizar esta nueva sintaxis porque el sistema la introduce automáticamente cuando empieza a escribir el nombre de un campo y, a continuación, lo selecciona.
 
-Para obtener más información, consulte la sección &quot;Generar el cálculo para el campo personalizado calculado&quot; en la [Artículo Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información, consulte la sección &quot;Generar el cálculo para el campo personalizado calculado&quot; en el [artículo Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Mantener información precisa cuando dos usuarios con una función común participen en un proceso de aprobación
 
@@ -139,13 +139,13 @@ Para garantizar el mejor rendimiento a los usuarios que comparten carpetas, actu
 
 Cada carpeta del sexto nivel o inferior hereda sus configuraciones de uso compartido de la carpeta directamente superior a ella.
 
-Para obtener más información sobre cómo compartir carpetas, consulte [Compartir una carpeta de documentos de nivel superior](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Para obtener más información sobre cómo compartir carpetas, vea [Compartir una carpeta de documentos de nivel superior](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Campañas de Workfront (beta): una nueva forma de administrar su trabajo
+## Campañas de Workfront (Beta): una nueva forma de administrar su trabajo
 
 >[!NOTE]
 >
->Está previsto eliminar esta función de la vista previa el 9 de enero de 2023. Para obtener más información, consulte la [Página de información general de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Está previsto eliminar esta función de la vista previa el 9 de enero de 2023. Para obtener más información, consulte la [página de información general sobre la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Esta versión incluye las siguientes funciones:
 
 * Un nuevo objeto de Workfront llamado Campaign
 
-* Una nueva área de Campañas (Beta) en el menú principal
+* Una nueva área de Campaigns (Beta) en el menú principal
 
 * Una lista de campañas en el área Campañas
 
@@ -176,7 +176,7 @@ Esta versión incluye las siguientes funciones:
 
 * Posibilidad de cambiar el nombre del objeto de campaña desde la plantilla de diseño
 
-  Los administradores de sistemas y grupos de Workfront pueden añadir el área de Campañas (beta) en el menú principal de una plantilla de diseño. Esto lo hace disponible para todos los usuarios asignados a la plantilla. Una vez disponible, cualquier usuario de Workfront puede crear una campaña.
+  Los administradores de sistemas y de grupos de Workfront pueden añadir el área de Campañas (Beta) en el menú principal de una plantilla de diseño. Esto lo hace disponible para todos los usuarios asignados a la plantilla. Una vez disponible, cualquier usuario de Workfront puede crear una campaña.
 
 
 

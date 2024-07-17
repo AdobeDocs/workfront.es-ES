@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Cambiar el tamaño y contraer el gráfico desplegable
-description: Puede cambiar el tamaño o contraer el gráfico de repartición para ajustar el espacio que ocupa en el tablero de artículos.
+title: Cambiar el tamaño y contraer el gráfico de evolución
+description: Puede cambiar el tamaño o contraer el gráfico de evolución para ajustar la cantidad de espacio que ocupa en el guion gráfico.
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Cambiar el tamaño y contraer el gráfico desplegable
+# Cambiar el tamaño y contraer el gráfico de evolución
 
-Puede cambiar el tamaño o contraer el gráfico de repartición para ajustar el espacio que ocupa en el tablero de artículos.
+Puede cambiar el tamaño o contraer el gráfico de evolución para ajustar la cantidad de espacio que ocupa en el guion gráfico.
 
-Los cambios que realice en el tamaño o la visibilidad del gráfico desplegable solo serán visibles para usted y se restablecerán cuando borre la caché del explorador.
+Cualquier cambio que realice en el tamaño o la visibilidad del gráfico de evolución solo será visible para usted y se restablecerá cuando borre la caché del explorador.
 
 ## Requisitos de acceso
 
@@ -40,23 +40,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-## Cambiar el tamaño del gráfico desplegable
+## Cambiar el tamaño del gráfico de evolución
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Equipos]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
 
-1. (Opcional) Haga clic en el **[!UICONTROL Cambiar equipo]** icono ![Icono Cambiar equipo](assets/switch-team-icon.png)y, a continuación, seleccione una nueva [!UICONTROL Anulación] del menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya a la iteración que contiene el gráfico desplegable cuyo tamaño desea cambiar.
-1. Pase el ratón sobre la línea inferior del gráfico desplegable y, a continuación, arrastre el gráfico hasta el tamaño deseado.\
+1. Vaya a la iteración que contiene el gráfico de evolución cuyo tamaño desea cambiar.
+1. Pase el ratón sobre la línea inferior del gráfico de evolución y arrastre el gráfico al tamaño deseado.\
    ![](assets/burndown-resize.png)
 
-## Contraer el gráfico desplegable
+## Contraer el gráfico de evolución
 
-1. Haga clic en el **[!UICONTROL Menú principal]** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront]y haga clic en **[!UICONTROL Equipos]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
 
-1. (Opcional) Haga clic en el **[!UICONTROL Cambiar equipo]** icono ![Icono Cambiar equipo](assets/switch-team-icon.png)y, a continuación, seleccione una nueva [!UICONTROL Anulación] del menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya a la iteración que contiene el gráfico desplegable que desea contraer.
-1. Haga clic en el icono de flecha a la izquierda del [!UICONTROL Porcentaje completado] barra de estado.
+1. Vaya a la iteración que contiene el gráfico de evolución que desea contraer.
+1. Haga clic en el icono de flecha a la izquierda de la barra de estado [!UICONTROL Porcentaje completado].

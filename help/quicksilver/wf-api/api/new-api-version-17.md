@@ -9,8 +9,8 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 4%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
@@ -257,7 +257,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>nombre</b>
             </p>
             <p>Se ha agregado el posible valor "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p?<p>Esto permite a una organización hacer que la nueva experiencia de Inicio sea la predeterminada para sus usuarios.</p>
           </li>
@@ -285,7 +285,7 @@ Un objeto DocumentVersion representa una versión específica de un archivo (com
             <p>Se ha añadido el valor posible "Frame.io" (FRAMEIO)</p>
           </li>
           <li>
-            <p><b>fileType</b>
+            <p><b>tipoDeArchivo</b>
             </p>
             <p>Se ha agregado el posible valor "enum.filetype.site" (site)</p>
           </li>
@@ -317,7 +317,7 @@ Un objeto ExchangeRate representa un tipo de cambio de divisa configurado en Wor
       <td>
         <ul>
           <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>Agregado.</p>
+          <p>Añadido.</p>
        </ul>
       </td>
     </tr>
@@ -328,7 +328,7 @@ Un objeto ExchangeRate representa un tipo de cambio de divisa configurado en Wor
 
 Los gastos representan los costos no laborales en los que se podría incurrir durante la duración de un proyecto.
 
-El objeto Expense ha eliminado el indicador **INLINE_EDITABLE**.
+El objeto Expense eliminó el marcador **INLINE_EDITABLE**.
 
 ### Grupo (GROUP)
 
@@ -363,7 +363,7 @@ El objeto Hour quitó el indicador **INLINE_EDITABLE**.
 
 Un objeto Iteration representa una sola iteración Agile. Las iteraciones son períodos de tiempo discretos que se utilizan para planificar y completar historias de Agile.
 
-El objeto Iteration quitó el indicador **INLINE_EDITABLE**.
+El objeto Iteration quitó el marcador **INLINE_EDITABLE**.
 
 
 ### Entrada de diario (JRNLE)
@@ -395,7 +395,7 @@ El objeto JournalEntry se puede configurar para que registre información sobre 
               <li>Revisor cambiado (ARC)</li>
               <li>Revisión finalizada (RDC)</li>
               <li>Revisión revocada (RDR)</li>
-              <li>Publicar (PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -408,7 +408,7 @@ El objeto JournalEntry se puede configurar para que registre información sobre 
 
 Se utiliza un panel Kanban para realizar el seguimiento de tareas en un entorno Agile.
 
-El objeto Panel Kanban ha eliminado el indicador **INLINE_EDITABLE**.
+El objeto Panel Kanban eliminó el indicador **INLINE_EDITABLE**.
 
 
 ### LinkedFolder (LNKFDR)
@@ -438,13 +438,13 @@ Un objeto LinkedFolder representa una carpeta vinculada desde un proveedor de do
 
 Un objeto OpTask suele conocerse como Problema. Un problema es un elemento de trabajo que normalmente indica que hay un problema que impide la finalización de una tarea o proyecto. Un problema también puede ser una solicitud del servicio de asistencia. Las solicitudes de cambio, las solicitudes y los errores también son problemas.
 
-El objeto Problema eliminó el indicador **INLINE_EDITABLE**.
+El objeto Issue eliminó el indicador **INLINE_EDITABLE**.
 
 ### Proyecto (PROJ)
 
 Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de creación principal en la forma en que Workfront ayuda a las personas a realizar su trabajo. Un objeto Project representa un grupo de tareas con un objetivo común y específico.
 
-El objeto Project quitó el indicador **INLINE_EDITABLE**.
+El objeto Project quitó el marcador **INLINE_EDITABLE**.
 
 ### Usuario de proyecto (PRTU)
 
@@ -459,9 +459,9 @@ Un objeto ProjectUser representa un usuario asociado a un proyecto específico.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -471,9 +471,9 @@ Un objeto ProjectUser representa un usuario asociado a un proyecto específico.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -493,7 +493,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 Un objeto Rate representa una tarifa de facturación en Workfront.
 
-El objeto Rate ha eliminado el indicador **INLINE_EDITABLE**.
+El objeto Rate quitó el marcador **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -508,7 +508,7 @@ El objeto Rate ha eliminado el indicador **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>El <b>setRatesForRole</b> se ha modificado la acción para añadir los campos siguientes:
+        <p>La acción <b>setRatesForRole</b> se ha modificado para agregar los campos siguientes:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -523,11 +523,11 @@ El objeto Rate ha eliminado el indicador **INLINE_EDITABLE**.
 
 Un objeto Risk representa un posible evento que puede impedir que un proyecto finalice a tiempo o dentro del presupuesto. Se añaden riesgos a los proyectos en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo.
 
-El objeto Riesgo quitó el indicador **INLINE_EDITABLE**.
+El objeto Risk quitó el marcador **INLINE_EDITABLE**.
 
 ### Rol / Rol (ROLE)
 
-Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría rellenar, como Designer o Product Manager.
+Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como Designer o Product Manager.
 
 <table>
   <col/>
@@ -552,7 +552,7 @@ Un objeto Role (función del puesto) representa una capacidad funcional o un con
 
 Un objeto Task representa un elemento de trabajo que debe realizarse como un paso hacia el logro de un objetivo final (completar un proyecto).
 
-El objeto Task quitó el indicador **INLINE_EDITABLE**.
+El objeto Task quitó el marcador **INLINE_EDITABLE**.
 
 ### Equipo (TEAMOB)
 
@@ -590,9 +590,9 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -602,9 +602,9 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -623,9 +623,9 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -635,9 +635,9 @@ Un objeto TeamMember es un usuario asociado a un equipo específico.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -712,7 +712,7 @@ Los elementos de trabajo de Workfront se pueden actualizar para mantener a los u
 
 Un objeto User representa a una persona con una cuenta en Workfront que puede iniciar sesión e interactuar con el sistema.
 
-El objeto User eliminó el indicador **INLINE_EDITABLE**.
+El objeto User quitó el marcador **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -723,7 +723,7 @@ El objeto User eliminó el indicador **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>workTime</b>
+            <p><b>tiempoDeTrabajo</b>
             </p>
             <p>Este campo se ha agregado y es un número entre 0 y 1 que representa el porcentaje de tiempo que un usuario puede dedicar al trabajo del proyecto (trabajo no general) cada día. El valor 1 significa que el usuario puede dedicar el 100% de su tiempo al trabajo del proyecto.</p>
           </li>
@@ -755,9 +755,9 @@ El objeto User eliminó el indicador **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -767,9 +767,9 @@ El objeto User eliminó el indicador **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -805,14 +805,14 @@ Un objeto UserNote es una notificación.
               <li>Documento aprobado (ADA)</li>
               <li>Documento aprobado con cambios (ADC)</li>
               <li>El documento necesita trabajo (AND)</li>
-              <li>(Usuario) ha marcado (documento) como aprobado. Su aprobación ya no es necesaria. (AAN)</li>
-              <li>(Usuario) ha marcado (documento) como aprobado con cambios. Su aprobación ya no es necesaria. (ACN)</li>
-              <li>(Usuario) ha marcado (documento) como necesita trabajar. Su aprobación ya no es necesaria. (AWN)</li>
+              <li>(Usuario) ha marcado (documento) como aprobado. Ya no necesita su aprobación. (AAN)</li>
+              <li>(Usuario) ha marcado (documento) como aprobado con cambios. Ya no necesita su aprobación. (ACN)</li>
+              <li>(Usuario) ha marcado (documento) como necesita trabajar. Ya no necesita su aprobación. (AWN)</li>
               <li>El documento necesita su revisión ahora, no su aprobación (AAC)</li>
               <li>El documento necesita su aprobación ahora, en lugar de una revisión (Y)</li>
               <li>Documento revisado (RDC)</li>
               <li>Documento revisado (TRC)</li>
-              <li>(Usuario) ha revisado (documento) como completado. Su revisión ya no es necesaria. (TRN)</li>
+              <li>(Usuario) ha revisado (documento) como completado. Ya no necesita su revisión. (TRN)</li>
             </ul>
           </li>
         </ul>
@@ -832,9 +832,9 @@ Un objeto UserNote es una notificación.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>
@@ -844,9 +844,9 @@ Un objeto UserNote es una notificación.
       <td>
         <ul>
           <li>
-            <p><b>Identificador</b>
+            <p><b>ID</b>
             </p>
-            <p>Agregado.</p>
+            <p>Añadido.</p>
           </li>
         </ul>
       </td>

@@ -31,7 +31,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">plan de Adobe Workfront</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Premium o Select</p> <p>Para obtener más información sobre la revisión del acceso con los diferentes planes, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Premium o Select</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe haber seleccionado Administrador en el perfil de permisos de revisión. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configuración del acceso de revisión de un usuario</a>.</p> </td> 
+   <td> <p>Debe haber seleccionado Administrador en el perfil de permisos de revisión. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configurar el acceso de revisión de un usuario</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,13 +63,13 @@ Después de instalar el Visor de corrección de escritorio para su organización
 
 {{step1-to-proofing}}
 
-1. Clic **Configuración de cuenta** situado cerca de la esquina superior derecha de Workfront Proof y, a continuación, haga clic en **Configuración** pestaña.
+1. Haga clic en **Configuración de la cuenta** cerca de la esquina superior derecha de Workfront Proof y, a continuación, haga clic en la ficha **Configuración**.
 
-1. En **Valores predeterminados de revisión**, al final del **Visor de corrección de escritorio para revisión interactiva** fila, haga clic en **Configurar**.
+1. En **Valores predeterminados de revisión**, al final de la fila **Visor de revisión de escritorio para revisión interactiva**, haga clic en **Configurar**.
 
    ![Valores predeterminados de revisión](assets/proof-defaults.png)
 
-1. Clic **Habilitado y predeterminado**, luego haga clic en **Guardar**.
+1. Haga clic en **Habilitado y predeterminado**, luego haga clic en **Guardar**.
 
 ## Instalación del Visor de corrección de escritorio para los usuarios
 
@@ -80,11 +80,11 @@ Después de instalar el Visor de corrección de escritorio para su organización
 
 1. En el equipo del usuario, realice una de las siguientes acciones para descargar la aplicación:
 
-   * Si está utilizando el entorno Producción, haga clic en [Descarga de producción de Mac para el visor de corrección de escritorio](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
-   * Si está utilizando el entorno de vista previa, haga clic en [Descarga de vista previa de Mac para el visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
+   * Si está usando el entorno de producción, haga clic en [Descarga de producción de Mac para el Visor de revisiones de escritorio](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
+   * Si está usando el entorno de vista previa, haga clic en [Descarga de vista previa de Mac para el Visor de revisión de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
-1. Haga clic en el cuadro de instalación que aparece **Continuar**, luego haga clic en **Instalar**.
+1. En el cuadro de instalación que aparece, haga clic en **Continuar** y, a continuación, en **Instalar**.
 
    ![Cuadro de instalación](assets/install-wf-proof-box.png)
 
@@ -94,13 +94,13 @@ Después de instalar el Visor de corrección de escritorio para su organización
 
 1. En el equipo del usuario, realice una de las siguientes acciones para descargar la aplicación:
 
-   * En el entorno Producción, haga clic en [Descarga de producción de Windows para el Visor de corrección de escritorio](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
-   * En el entorno de vista previa, haga clic en [Descarga de Vista previa de Windows para el Visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
+   * En el entorno Producción, haga clic en [Descarga de producción de Windows para el Visor de revisiones de escritorio](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
+   * En el entorno de vista previa, haga clic en [Descarga de vista previa de Windows para el Visor de corrección de escritorio](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
 
 1. Abra el archivo que acaba de descargar para iniciar la instalación.
-1. En el cuadro que aparece, haga clic en **Ejecutar**.
+1. En el cuadro de advertencia de seguridad que aparece, haga clic en **Ejecutar**.
 
-   ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
+   ![Captura de pantalla_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
    Se instala y ejecuta el Visor de corrección de escritorio.
 

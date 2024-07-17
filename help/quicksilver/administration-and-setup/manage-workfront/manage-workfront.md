@@ -12,7 +12,7 @@ exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 20%
+ht-degree: 2%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 20%
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Configuración de la funcionalidad de revisión](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-* [Configuración de informes](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
+* [Configurar funcionalidad de revisión](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+* [Configurar informes](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [Correos electrónicos](../../administration-and-setup/manage-workfront/emails/emails.md)
 * [Seguridad](../../administration-and-setup/manage-workfront/security/security.md)
 * [Tasas de cambio](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
 * [Administrar elementos eliminados](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
-* [Diagnósticos](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+* [Diagnóstico](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
 * [Kick-Starts](../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)

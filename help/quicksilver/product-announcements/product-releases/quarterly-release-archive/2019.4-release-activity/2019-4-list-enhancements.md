@@ -22,13 +22,13 @@ ht-degree: 4%
 
 Esta página describe todas las mejoras de List realizadas con la versión 2019.4. Estas mejoras estarán disponibles en el entorno de producción el 11 de noviembre de 2019.
 
-Para ver una lista de todos los cambios realizados en 2019.4, consulte [Información general de la versión 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Para obtener una lista de todos los cambios realizados en 2019.4, consulte la [descripción general de la versión 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Apariencia actualizada de las nuevas listas</strong> <p>Las listas de proyectos, tareas y horas ahora tienen un aspecto actualizado. Otras listas que se programaron para actualizarse con la versión 2019.4 se actualizarán con una versión futura.</p> <p>Algunas de las actualizaciones incluyen:</p> 
+   <td><strong>Se ha actualizado el aspecto de las nuevas listas</strong> <p>Las listas de proyectos, tareas y horas ahora tienen un aspecto actualizado. Otras listas que se programaron para actualizarse con la versión 2019.4 se actualizarán con una versión futura.</p> <p>Algunas de las actualizaciones incluyen:</p> 
     <ul> 
      <li>Un diseño más limpio y con forma de cuadrícula</li> 
      <li>Colores y fuentes actualizados</li> 
@@ -37,7 +37,7 @@ Para ver una lista de todos los cambios realizados en 2019.4, consulte [Informac
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Nuevo diseño aplicado a listas para informes, tareas de plantilla, Portfolio y mucho más</strong> <p>Importante: Estas mejoras se eliminaron del entorno de vista previa el 8 de noviembre de 2019 y no se incluirán en la versión 2019.4 para Producción. Estas mejoras se volverán a añadir al entorno de vista previa después de la versión 2019.4 en Production y se pondrán a disposición de Production en una versión futura.</p> <p>El nuevo diseño de lista ya está disponible en las siguientes listas:</p> 
+   <td><strong>Se ha aplicado un nuevo diseño a las listas de Informes, Tareas de plantilla, Portfolio y más</strong> <p>Importante: Estas mejoras se eliminaron del entorno de vista previa el 8 de noviembre de 2019 y no se incluirán en la versión 2019.4 para Producción. Estas mejoras se volverán a añadir al entorno de vista previa después de la versión 2019.4 en Production y se pondrán a disposición de Production en una versión futura.</p> <p>El nuevo diseño de lista ya está disponible en las siguientes listas:</p> 
     <ul> 
      <li>Informes </li> 
      <li>Problemas</li> 
@@ -64,12 +64,12 @@ Para ver una lista de todos los cambios realizados en 2019.4, consulte [Informac
      <li> <p>Plantillas </p> </li> 
      <li> <p>Hojas de horas </p> </li> 
      <li> <p>Usuarios </p> </li> 
-    </ul> <p>Para obtener información sobre la visualización de elementos en listas, consulte <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Introducción a las listas en Adobe Workfront</a>.</p> <p>Todas las listas actualizadas funcionan del mismo modo. </p> </td> 
+    </ul> <p>Para obtener información sobre cómo ver elementos en listas, consulte <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Introducción a las listas en Adobe Workfront</a>.</p> <p>Todas las listas actualizadas funcionan del mismo modo. </p> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>Nueva información sobre herramientas añadida a los filtros rápidos</strong> 
+     <strong>Se ha agregado nueva información de objeto a los filtros rápidos</strong> 
      <p> En lugar de utilizar la funcionalidad nativa del explorador para encontrar un elemento en una lista, puede utilizar filtros rápidos en todas las listas rediseñadas. Para facilitar la búsqueda del filtro rápido, ahora hay una nueva información sobre herramientas que le dirige al filtro rápido.</p> 
      <p>Ahora, al hacer clic en CTRL+F o CMD+F en el teclado, aparece información sobre herramientas junto al filtro rápido en una lista para indicar que, en lugar de esos comandos nativos, puede utilizar el filtro rápido para buscar un elemento en la lista. Los métodos abreviados para iniciar el filtro rápido son diferentes al método abreviado del explorador y se muestran en el cuadro de búsqueda del filtro.</p> 
      <p>Para obtener información sobre el uso de filtros rápidos en listas, consulte la sección "Aplicar filtros rápidos a listas" en el artículo <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Introducción a las listas en Adobe Workfront</a>.</p> 
@@ -78,12 +78,12 @@ Para ver una lista de todos los cambios realizados en 2019.4, consulte [Informac
   <tr> 
    <td> 
     <div> 
-     <strong>Nuevos métodos abreviados para filtros rápidos</strong> 
+     <strong>Nuevos métodos abreviados para los filtros rápidos</strong> 
      <p>Los recordatorios de métodos abreviados de teclado ahora están disponibles dentro del cuadro de búsqueda de filtros rápidos en listas para facilitar el acceso a los filtros. </p> 
      <p>Los métodos abreviados son:</p> 
      <ul> 
-      <li><strong>En Windows (solo Internet Explorer):</strong> ALT+Mayús+F</li> 
-      <li><strong>En Mac (todos los navegadores):</strong> Opción + F</li> 
+      <li><strong>En Windows (solo Internet Explorer):</strong> ALT+Mayús+F</li> 
+      <li><strong>En Mac (todos los exploradores):</strong> Opción+F</li> 
      </ul> 
      <p>Los filtros rápidos están disponibles en todas las listas rediseñadas. Para obtener información sobre las listas actualizadas y los filtros rápidos, consulte <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Introducción a las listas en Adobe Workfront</a>.</p>
     </div> </td> 

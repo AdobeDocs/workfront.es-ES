@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Devuelve los metadatos del archivo o la carpeta especificados.
 
 **URL**
 
-GET /metadata?id=[ID de documento o carpeta]
+GET /metadata?id=[id. de documento o carpeta]
 
 ## Parámetros de consulta
 
@@ -46,7 +46,7 @@ GET /metadata?id=[ID de documento o carpeta]
 
  
 
-## respuesta
+## Respuesta
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,7 +109,7 @@ GET /metadata?id=[ID de documento o carpeta]
 </table>
 
 **Ejemplo:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title: "Mi documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45,251",<br>tamaño: "32554694"<br>}</pre>
+<pre>{<br>título:"Mi documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>tamaño: "32554694"<br>}</pre>
 
 >[!NOTE]
 >

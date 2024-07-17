@@ -9,8 +9,8 @@ role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 2%
+source-wordcount: '891'
+ht-degree: 0%
 
 ---
 
@@ -36,12 +36,12 @@ Se modificaron los siguientes recursos para la versión 14 de la API.
 * [Cliente (CUST)](#customer-cust)
 * [Preferencias del cliente (CUSTPR)](#customerpreferences-custpr)
 * [DocumentVersion (DOCV)](#documentversion-docv)
-* [Grupo (GROUP)](#group-group)
-* [Etiqueta de nota (NTAG)](#notetag-ntag)
+* [Grupo (GRUPO)](#group-group)
+* [EtiquetaNota (NTAG)](#notetag-ntag)
 * [Proyecto (PROJ)](#project-proj)
 * [QueueDef (QUED)](#queuedef-qued)
 * [Asignación de recursos (RSALLO)](#resource-allocation-rsallo)
-* [Rol (ROLE)](#role-role)
+* [Rol (ROL)](#role-role)
 * [Plantilla (TMPL)](#template-tmpl)
 * [Hoja de horas (TSHET)](#timesheet-tshet)
 
@@ -61,28 +61,28 @@ El objeto BillingRecord agregó el indicador **DATA_EXTENDIBLE**.
    <td role="rowheader"> <p role="rowheader">Campos directos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>categoryID</b> </p> <p>Agregado. Una categoría es un formulario personalizado. Este parámetro se agregó para admitir la capacidad de agregar Forms personalizado a objetos BillingRecord.</p> </li> 
+     <li> <p><b>categoryID</b> </p> <p>Añadido. Una categoría es un formulario personalizado. Este parámetro se agregó para admitir la capacidad de agregar Forms personalizado a objetos BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Campos de referencia</td> 
    <td> 
     <ul> 
-     <li> <p><b>categoría</b> </p> <p>Agregado. Una categoría es un formulario personalizado. Este parámetro se agregó para admitir la posibilidad de agregar formularios personalizados a objetos BillingRecord.</p> </li> 
+     <li> <p><b>categoría</b> </p> <p>Añadido. Una categoría es un formulario personalizado. Este parámetro se agregó para admitir la posibilidad de agregar formularios personalizados a objetos BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Campos de colección</td> 
    <td> 
     <ul> 
-     <li> <p><b>objectCategories</b> </p> <p>Agregado. Representa una colección de categorías (formularios personalizados) asociados al objeto BillingRecord.</p> </li> 
+     <li> <p><b>objectCategories</b> </p> <p>Añadido. Representa una colección de categorías (formularios personalizados) asociados al objeto BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Acciones</td> 
    <td> 
     <ul> 
-     <li> <p><b>calculateDataExtension</b> </p> <p>Agregado. Esta acción vuelve a calcular las expresiones de los campos de formulario personalizados.</p> </li> 
+     <li> <p><b>calculateDataExtension</b> </p> <p>Añadido. Esta acción vuelve a calcular las expresiones de los campos de formulario personalizados.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +128,7 @@ El objeto CustomEnum ayuda a convertir los códigos de estado en texto legible e
    <td role="rowheader">Consultas</td> 
    <td> 
     <ul> 
-     <li> <p><b>getGroupStatus</b> </p> <p>Agregado. Esta consulta admite la capacidad de crear y administrar estados para grupos y subgrupos. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref">Administrar estados de grupo</a>.</p> </li> 
+     <li> <p><b>getGroupStatus</b> </p> <p>Añadido. Esta consulta admite la capacidad de crear y administrar estados para grupos y subgrupos. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref">Administrar estados de grupo</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -152,10 +152,10 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li> <p><b>name</b> </p> <p>Se ha agregado el valor posible:</p> 
+     <li> <p><b>nombre</b> </p> <p>Se ha agregado el valor posible:</p> 
       <ul> 
        <li> <p>Permitir que los usuarios agreguen imágenes en las actualizaciones (actualizaciones:images.toggle)</p> </li> 
-      </ul> <p>Este parámetro admite la capacidad de agregar imágenes a las actualizaciones de elementos de trabajo. </p> <p>Para obtener más información, consulte <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Actualizar trabajo</a>.</p> </li> 
+      </ul> <p>Este parámetro admite la capacidad de agregar imágenes a las actualizaciones de elementos de trabajo. </p> <p>Para obtener más información, consulte <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -165,7 +165,7 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
 
 Un objeto DocumentVersion representa una versión específica de un archivo (como material escrito, imágenes u otras formas de información).
 
-Para obtener más información sobre las versiones de los documentos, consulte [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
+Para obtener más información acerca de las versiones de documentos, vea [Cargar una nueva versión de un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Para obtener más información sobre las versiones de los documentos, consulte [
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li> <p><b>lastCallbackDate</b> </p> <p>Agregado. Este campo registra la fecha y la hora de la última llamada de retorno de Workfront Proof, si la versión está asociada a una prueba.</p> </li> 
+     <li> <p><b>lastCallbackDate</b> </p> <p>Añadido. Este campo registra la fecha y la hora de la última llamada de retorno de Workfront Proof, si la versión está asociada a una prueba.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -195,7 +195,7 @@ Para obtener más información sobre los grupos, consulte [Grupos vs. equipos en
    <td role="rowheader">Acciones</td> 
    <td> 
     <ul> 
-     <li> <p><b>addSubgroups</b> </p> <p>Agregado. Esta acción toma una matriz de identificadores de grupo y agrega esos grupos como subgrupos al grupo especificado.</p> </li> 
+     <li> <p><b>addSubgroups</b> </p> <p>Añadido. Esta acción toma una matriz de identificadores de grupo y agrega esos grupos como subgrupos al grupo especificado.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -218,7 +218,7 @@ Para obtener más información sobre el etiquetado en las actualizaciones, consu
      <li> <p><b>RECUENTO</b> </p> </li> 
      <li> <p><b>GET</b> </p> </li> 
      <li> <p><b>INFORME</b> </p> </li> 
-     <li> <p><b>SEARCH</b> </p> </li> 
+     <li> <p><b>BUSCAR</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -236,7 +236,7 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
    <td role="rowheader">Acciones</td> 
    <td> 
     <ul> 
-     <li> <p><b>updateBusinessCaseSource</b> </p> <p>Agregado.</p> </li> 
+     <li> <p><b>updateBusinessCaseSource</b> </p> <p>Añadido.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -246,7 +246,7 @@ Los proyectos son elementos de trabajo dentro de Workfront y son un bloque de cr
 
 Un objeto QueueDef representa una cola, que es un proyecto que se ha publicado en el área del servicio de asistencia para permitir a los usuarios enviar problemas al mismo.
 
-Para obtener más información sobre las colas de solicitudes, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información sobre las colas de solicitudes, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Para obtener más información sobre las colas de solicitudes, consulte [Crear u
    <td role="rowheader">Acciones</td> 
    <td> 
     <ul> 
-     <li> <p><b>searchByPath</b> </p> <p>Agregado. Esta acción admite la capacidad de buscar solicitudes utilizando la ruta a través de la cola de solicitudes y los grupos de temas.</p> <p>Para obtener más información sobre la búsqueda de colas de solicitudes por ruta, consulte <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref">Crear solicitudes y generar borradores en la aplicación web de Workfront</a> in <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Creación y envío de solicitudes de Adobe Workfront</a>.</p> </li> 
+     <li> <p><b>searchByPath</b> </p> <p>Añadido. Esta acción admite la capacidad de buscar solicitudes utilizando la ruta a través de la cola de solicitudes y los grupos de temas.</p> <p>Para obtener más información sobre la búsqueda de colas de solicitudes por ruta, consulte <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref">Crear solicitudes y generar borradores en la aplicación web de Workfront</a> en <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Crear y enviar solicitudes de Adobe Workfront</a>.</p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -266,13 +266,13 @@ Para obtener más información sobre las colas de solicitudes, consulte [Crear u
 
 Un objeto Resource Allocation representa la estimación de los recursos necesarios para un proyecto determinado. Este objeto sólo se utiliza en el Planificador de recursos de legado. Para el campo correspondiente en el nuevo Planificador de recursos, utilice Hora presupuestada (BGHR).
 
-El objeto de asignación de recursos quitó el indicador **NOTIFICABLE**.
+El objeto de asignación de recursos quitó el indicador **REPORTABLE**.
 
 ### Rol (ROLE) {#role-role}
 
-Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría rellenar, como Designer o Product Manager.
+Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como Designer o Product Manager.
 
-Para obtener información sobre las funciones, consulte [Resumen de rol](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+Para obtener información sobre los roles, consulte [Resumen del rol](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -282,7 +282,7 @@ Para obtener información sobre las funciones, consulte [Resumen de rol](../../a
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Agregado. Es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos.</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Añadido. Es un parámetro booleano con un valor true si un objeto está activo y false si no lo está. Los objetos que se definen como Activos aparecen en menús desplegables y campos de escritura anticipada y pueden adjuntarse a otros objetos.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -307,14 +307,14 @@ Un objeto Template representa un patrón para un proyecto. Los proyectos se pued
    <td role="rowheader">Campos directos</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Agregado. Este campo se ha añadido para permitir asociar grupos con plantillas.</p> <p style="font-weight: normal;">Para obtener más información, consulte <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Editar plantillas de proyecto</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Añadido. Este campo se ha añadido para permitir asociar grupos con plantillas.</p> <p style="font-weight: normal;">Para obtener más información, consulte <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Editar plantillas de proyecto</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Campos de referencia</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>grupo</p> <p style="font-weight: normal;">Agregado. Este campo se ha añadido para permitir asociar grupos con plantillas.</p> <p style="font-weight: normal;">Para obtener más información, consulte <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Editar plantillas de proyecto</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>grupo</p> <p style="font-weight: normal;">Añadido. Este campo se ha añadido para permitir asociar grupos con plantillas.</p> <p style="font-weight: normal;">Para obtener más información, consulte <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Editar plantillas de proyecto</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

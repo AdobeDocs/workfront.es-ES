@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Workfront Fusion requiere un [!DNL Adobe Workfront Fusion] además de una licencia de Adobe Workfront.
+>Adobe Workfront Fusion requiere una licencia [!DNL Adobe Workfront Fusion] además de una licencia Adobe Workfront.
 
 ## Información general de TLS mutuo
 
@@ -32,7 +32,7 @@ TLS mutuo permite que esta confirmación de identidad funcione en ambos sentidos
 >
 >**Ejemplo:**
 >
->* **TLS**: Cuando una persona escribe &quot;MyGreatBank.com&quot; en un navegador, quiere estar seguro de que va a My Great Bank, no a un sitio web que podría utilizar indebidamente o vender su información bancaria. También quieren asegurarse de que la información de su cuenta bancaria esté cifrada.
+>* **TLS**: Cuando una persona escribe &quot;MyGreatBank.com&quot; en un explorador, quiere estar segura de que va a My Great Bank, no a un sitio web que podría usar indebidamente o vender su información bancaria. También quieren asegurarse de que la información de su cuenta bancaria esté cifrada.
 >
 >   Cuando el explorador (el cliente) se conecta a MyGreatBank.com (el servidor), TLS requiere un certificado de MyGreatBank.com para comprobar su identidad. El certificado lo proporciona una entidad emisora de certificados como [!DNL DigiCert] o [!DNL Thawte]. Dado que el explorador confía en la autoridad de certificación, permite la conexión.
 >
@@ -57,32 +57,32 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 &#42;&#42;Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Proporcionar su [!DNL Workfront Fusion] certificado público
+## Proporcionar su certificado público [!DNL Workfront Fusion]
 
 
-Cuando se conecta a un servicio web con una solicitud HTTP, el servicio web suele requerir un [!DNL Workfront Fusion] certificado público de verificación. Esto permite al servicio web comparar el certificado presentado en la solicitud HTTP con el que está archivado, como una forma de asegurarse de que el certificado esté en la lista de permitidos del servicio web.
+Cuando se conecta a un servicio web con una solicitud HTTP, el servicio web generalmente requiere un certificado público [!DNL Workfront Fusion] para la verificación. Esto permite al servicio web comparar el certificado presentado en la solicitud HTTP con el que está archivado, como una forma de asegurarse de que el certificado esté en la lista de permitidos del servicio web.
 
-Para obtener instrucciones sobre cómo cargar [!DNL Adobe Workfront Fusion] certificado público a un servicio web, consulte la documentación del servicio web.
+Para obtener instrucciones sobre cómo cargar el certificado público [!DNL Adobe Workfront Fusion] en un servicio web, consulte la documentación del servicio web.
 
 >[!NOTE]
 >
@@ -94,15 +94,15 @@ Puede utilizar los siguientes vínculos para descargar los certificados público
 
 >[!IMPORTANT]
 >
->* Estos [!DNL Workfront Fusion] Los certificados públicos de caducan el 7 de mayo de 2025. Una vez que caduque el suyo, deberá cargar un nuevo certificado en el servicio web. Le recomendamos que:
+>* Estos [!DNL Workfront Fusion] certificados públicos caducan el 7 de mayo de 2025. Una vez que caduque el suyo, deberá cargar un nuevo certificado en el servicio web. Le recomendamos que:
 >
 >   * Tome nota de la fecha de caducidad y configure un recordatorio para que usted mismo cargue el certificado en su servicio web.
 >   * Marque esta página para encontrar fácilmente los nuevos certificados.
 >
 >* Son certificados mTLS no comodín.
 
-* [Descargar [!DNL Workfront Fusion] Certificado 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
-* [Descargar [!DNL Workfront Fusion] Certificado UE 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [Descargar  [!DNL Workfront Fusion] certificado 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+* [Descargar  [!DNL Workfront Fusion] Certificado de la UE 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   Para uso en la UE
 
@@ -122,16 +122,16 @@ Puede utilizar los siguientes vínculos para descargar los certificados público
 
    -->
 
-## Habilitación de TLS mutuo en [!DNL Workfront Fusion] Módulos HTTP
+## Habilitando TLS mutuo en [!DNL Workfront Fusion] módulos HTTP
 
-Todo [!DNL Workfront Fusion] [!UICONTROL HTTP] Los módulos de solicitud de tienen la opción de habilitar TLS mutuo.
+Todos los módulos de solicitud [!DNL Workfront Fusion] [!UICONTROL HTTP] tienen la opción de habilitar TLS mutuo.
 
-Para habilitar TLS mutuo en un [!UICONTROL HTTP] módulo de solicitud:
+Para habilitar TLS mutuo en un módulo de solicitud [!UICONTROL HTTP]:
 
-1. Añadir un [!UICONTROL HTTP] módulo de solicitud de a su escenario.
+1. Agregue un módulo de solicitud [!UICONTROL HTTP] a su escenario.
 1. Comience a configurar el módulo.
 
-   Para obtener instrucciones sobre la configuración de un [!UICONTROL HTTP] módulo de solicitud, consulte el artículo correspondiente en [[!UICONTROL HTTP] módulos](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+   Para obtener instrucciones sobre cómo configurar un módulo de solicitud [!UICONTROL HTTP], consulte el artículo correspondiente en [[!UICONTROL módulos HTTP]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
-1. Activar **[!UICONTROL Mostrar configuración avanzada]** cerca de la parte inferior del módulo.
-1. Activar **[!UICONTROL Usar TLS mutuo]**.
+1. Habilitar **[!UICONTROL Mostrar configuración avanzada]** cerca de la parte inferior del módulo.
+1. Habilitar **[!UICONTROL Usar TLS mutuo]**.

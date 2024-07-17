@@ -28,8 +28,8 @@ Puede colaborar en registros de Adobe Workfront Planning agregando comentarios o
 
 El panel derecho de un registro muestra las siguientes secciones:
 
-* **Comentarios**: Muestra comentarios y respuestas que los usuarios agregan a los registros. Para obtener más información sobre la administración de comentarios en registros de Workfront Planning, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* **Historial**: Muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro.
+* **Comentarios**: Muestra comentarios y respuestas que los usuarios agregan a los registros. Para obtener más información acerca de la administración de comentarios en los registros de Workfront Planning, vea [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Historial**: muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro.
 
 ## Busque la sección Historial de un registro
 
@@ -42,12 +42,12 @@ El panel derecho de un registro muestra las siguientes secciones:
 1. Haga clic en una tarjeta de tipo de registro.
 Se abre la página de tipo de registro y se muestran todos los registros de ese tipo.
 
-1. Elija una vista de tabla de la **Ver** menú desplegable.
+1. Elija una vista de tabla en el menú desplegable **Ver**.
 1. Haga clic en el nombre de un registro en la vista de tabla.
 
    Se abre la página del registro. El área Comentarios se abre de forma predeterminada en el panel derecho.
-1. Haga clic en **Mostrar historial** icono ![](assets/show-history-icon.png). Todos los cambios realizados en los campos del registro se muestran en el panel derecho, empezando por el más reciente.
-1. (Opcional) Haga clic en **Ocultar historial** icono ![](assets/hide-history-icon.png) para cerrar el panel derecho.
+1. Haga clic en el icono **Mostrar historial** ![](assets/show-history-icon.png). Todos los cambios realizados en los campos del registro se muestran en el panel derecho, empezando por el más reciente.
+1. (Opcional) Haga clic en el icono **Ocultar historial** ![](assets/hide-history-icon.png) para cerrar el panel derecho.
 
 ## Consideraciones sobre la sección Historial
 
@@ -85,7 +85,7 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 
 * Los campos de tipo casilla de verificación nunca muestran el valor antiguo en formato tachado. Si se edita el campo, solo se muestra el estado actual en el momento en que se realizó el cambio.
 
-  Para obtener más información sobre los campos de Workfront Planning, consulte [Creación de campos](/help/quicksilver/planning/fields/create-fields.md).
+  Para obtener más información acerca de los campos de Workfront Planning, vea [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 * Los cambios en los campos de los siguientes tipos no se muestran en la sección Historial:
 

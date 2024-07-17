@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras realizadas en la administración de recursos y proyectos con la versión 23.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 16 de enero de 2023.
 
-Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general de la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 23.1, consulte [Información general sobre la versión 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Funciones del puesto secundario agregadas a la lista Otras asignaciones al asignar elementos por lotes en el Distribuidor de cargas de trabajo
 
 Al asignar usuarios por lotes en el Distribuidor de cargas de trabajo después de seleccionar un rol en el campo &quot;Asignación de roles&quot;, la lista de usuarios que se rellena en la lista &quot;Otras asignaciones&quot; del campo &quot;Usuario que asignar&quot; ahora mostrará todos los roles asociados con cada usuario bajo su nombre. Anteriormente, solo se mostraba la función principal del usuario.
 
-Para obtener más información, consulte [Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Para obtener más información, consulte [Asignar trabajo de forma masiva mediante el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Reubicación de la opción &quot;Agregar usuarios&quot; en un proyecto
 
@@ -31,7 +31,7 @@ Como preparación para el cese de la compatibilidad y la eliminación de las her
 
 Para obtener más información, consulte [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412443/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412443/){target=_blank}
 
 ## Copiar un vínculo directo para una carpeta de documentos
 
@@ -39,4 +39,4 @@ Ahora puede copiar y compartir vínculos de carpetas de documentos para proporci
 
 Para obtener más información, consulte [Copiar y compartir un vínculo a una carpeta de documentos](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412385/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412385/){target=_blank}

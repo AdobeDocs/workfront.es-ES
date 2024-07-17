@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una licencia de [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] requiere una licencia de [!DNL Adobe Workfront Fusion] además de [!DNL Adobe Workfront license].
 
-La automatización del trabajo requiere un procesamiento rápido, por lo que [!DNL Adobe Workfront Fusion] está diseñado para un alto rendimiento. Hemos diseñado escenarios de larga duración que pueden ralentizar el ritmo de su trabajo [!DNL Workfront Fusion] con protecciones que preservan el rendimiento y limitan el tiempo de ejecución, el tamaño de los datos y otros parámetros de escenario. [!DNL Workfront Fusion] los diseñadores deben tener en cuenta estas barreras e incorporarlas en sus prácticas de diseño.
+La automatización del trabajo requiere un procesamiento rápido, por lo que [!DNL Adobe Workfront Fusion] está diseñado para un alto rendimiento. Dado que los escenarios de larga duración pueden ralentizar el ritmo de trabajo, hemos diseñado [!DNL Workfront Fusion] con protecciones que preservan el rendimiento y limitan el tiempo de ejecución, el tamaño de los datos y otros parámetros de escenario. Los diseñadores de [!DNL Workfront Fusion] deben tener en cuenta estas protecciones e incorporarlas en sus prácticas de diseño.
 
 ## Navegadores
 
@@ -29,19 +29,19 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 
 ## Escenarios
 
-* El tiempo de espera de ejecución del escenario predeterminado es **40 minutos**. Cuando la ejecución alcanza este tiempo de espera, [!DNL Workfront Fusion] interrumpe la ejecución del escenario después del siguiente ciclo u operación, según el escenario. Esto obliga al escenario a detenerse poco después de alcanzar el límite de 40 minutos
-* El tamaño máximo de un modelo de escenario es **5 MB**, pero recomendamos mantener el tamaño del escenario bajo **3 MB**.
+* El tiempo de espera de ejecución del escenario predeterminado es de **40 minutos**. Cuando la ejecución alcanza este tiempo de espera, [!DNL Workfront Fusion] interrumpe la ejecución del escenario después del siguiente ciclo u operación, según el escenario. Esto obliga al escenario a detenerse poco después de alcanzar el límite de 40 minutos
+* El tamaño máximo de un modelo de escenario es de **5 MB**, pero se recomienda mantener el tamaño de escenario por debajo de **3 MB**.
 
   Los módulos de aplicaciones que crean o actualizan datos con una gran cantidad de campos pueden causar modelos muy grandes.
 
-   * Al usar el [!DNL Workfront] , asegúrese de seleccionar solo los campos necesarios para los casos de uso de creación o actualización.
+   * Al usar la aplicación [!DNL Workfront], asegúrese de seleccionar solo los campos necesarios para los casos de uso de creación o actualización.
    * Cuando utilice otras aplicaciones, utilice módulos de API personalizados para interactuar con cualquier tipo de registro que tenga un gran número de campos.
 
-* Aunque no hay un límite en el número de módulos en un escenario, los escenarios con más de 150 módulos afectan negativamente al rendimiento del [!DNL Workfront Fusion] sistema. Por este motivo, no se recomienda crear escenarios con más de 150 módulos.
+* Aunque no hay límite para el número de módulos en un escenario, los escenarios con más de 150 módulos afectan negativamente al rendimiento del sistema [!DNL Workfront Fusion]. Por este motivo, no se recomienda crear escenarios con más de 150 módulos.
 
 ## Operaciones
 
-* El tiempo de espera de operación predeterminado suele ser **40 segundos**.
+* El tiempo de espera de operación predeterminado suele ser de **40 segundos**.
 
 <!--
 * The operation timeout for calls to Adobe Workfront is **120 seconds**.
@@ -49,7 +49,7 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 
 ## Archivos
 
-* La capacidad total de procesamiento de archivos de Fusion es **1 GB**. El límite se basa en el coste total de la memoria. Cada operación contribuye a ese coste. Si se descarga y carga un solo archivo de 400 MB, el coste total de la capacidad del archivo sería de 800 MB.
+* La capacidad total de procesamiento de archivos de Fusion es de **1 GB**. El límite se basa en el coste total de la memoria. Cada operación contribuye a ese coste. Si se descarga y carga un solo archivo de 400 MB, el coste total de la capacidad del archivo sería de 800 MB.
 
 ## Uso de memoria del servidor
 
@@ -60,8 +60,8 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 ## Webhooks
 
 * El tamaño máximo predeterminado de una carga útil es **5 MB**.
-* Los webhooks están limitados a **100 solicitudes por segundo**. Cuando se alcanza este límite, Workfront Fusion envía un 429 ([!UICONTROL Demasiadas solicitudes]) estado.
-* [!DNL Workfront Fusion] almacena cargas útiles de webhook durante 30 días. Acceder a una carga útil de gancho web más de 30 días después de recibirla provoca el error &quot;[!UICONTROL Error al leer el archivo desde el almacenamiento.]&quot;
+* Los enlaces web están limitados a **100 solicitudes por segundo**. Cuando se alcanza este límite, Workfront Fusion envía un estado 429 ([!UICONTROL Demasiadas solicitudes]).
+* [!DNL Workfront Fusion] almacena cargas útiles de ganchos web durante 30 días. Acceder a una carga útil de gancho web más de 30 días después de recibirla provoca el error &quot;[!UICONTROL No se pudo leer el archivo desde el almacenamiento.]&quot;
 * Los webhooks se desactivan automáticamente si se aplica cualquiera de las siguientes opciones:
 
    * El webhook no ha estado conectado a ningún escenario durante más de 5 días
@@ -71,7 +71,7 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 
 ## Historial de ejecución
 
-* Los registros de historial de ejecución están limitados a un tamaño de **100 MB**. Si el historial de ejecución supera este tamaño, solo se mostrarán los primeros 100 MB.
+* Los registros del historial de ejecución están limitados a un tamaño de **100 MB**. Si el historial de ejecución supera este tamaño, solo se mostrarán los primeros 100 MB.
 
 ## Ejecuciones incompletas
 

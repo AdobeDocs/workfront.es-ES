@@ -38,7 +38,7 @@ Actualmente, los usuarios no pueden ver el widget en las siguientes áreas:&#x20
 * El cuadro de edición del objeto, si no tiene el nuevo aspecto y funcionamiento de la experiencia de Adobe Workfront (por ejemplo, el cuadro de edición de gastos )
 * &#x200B;La aplicación móvil de Workfront
 
-Para obtener más información sobre cómo agregar widgets a formularios personalizados, consulte [Agregar o editar una imagen u otro widget de recursos en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener más información sobre cómo agregar widgets a formularios personalizados, consulte [Agregar o editar un widget de imagen u otro recurso en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Asociar un formulario personalizado con varios tipos de objetos
 
@@ -68,7 +68,7 @@ Esto resulta especialmente útil cuando se convierte un problema o una tarea, ya
 >
 >Cuando se realice la conversión, el formulario personalizado ya debe estar asociado al tipo de objeto al que está convirtiendo.
 
-Para obtener instrucciones sobre cómo agregar un widget de recursos a un formulario personalizado, consulte [Agregar o editar una imagen u otro widget de recursos en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener instrucciones sobre cómo agregar un widget de recursos a un formulario personalizado, consulte [Agregar o editar un widget de recursos o de imágenes en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 Tenga en cuenta lo siguiente al crear o editar un formulario personalizado de varios objetos:
 
@@ -94,15 +94,15 @@ Para obtener más información, consulte [Agregar un salto de sección a un form
 
 ### Compatibilidad calculada con campos personalizados
 
-En un formulario personalizado de varios objetos, si un campo calculado hace referencia a campos que están disponibles para su uso con todos los tipos de objetos asociados al formulario (como {name}, {description}, y {entryDate}, que están disponibles para varios tipos de objetos), los datos se calculan correctamente, independientemente del objeto al que se adjunten.
+En un formulario personalizado de varios objetos, si un campo calculado hace referencia a campos que están disponibles para su uso con todos los tipos de objetos asociados al formulario (como {name}, {description} y {entryDate}, que están disponibles para varios tipos de objetos), los datos se calculan correctamente, independientemente del objeto al que se adjunten.
 
-Por ejemplo, si tiene un formulario de varios objetos para proyectos y problemas y agrega un campo calculado que contenga la variable {name} expresión, el campo muestra el nombre del proyecto cuando se agrega el formulario a un proyecto y el nombre de la tarea cuando se agrega el formulario a una tarea.
+Por ejemplo, si tiene un formulario de varios objetos para proyectos y problemas y agrega un campo calculado que contiene la expresión {name}, el campo mostrará el nombre del proyecto cuando agregue el formulario a un proyecto y el nombre de la tarea cuando agregue el formulario a una tarea.
 
 Sin embargo, si un campo calculado del formulario hace referencia a un campo que no es compatible con todos los tipos de objetos del formulario, un mensaje le avisa para que realice los ajustes necesarios.
 
 >[!INFO]
 >
->**Ejemplo:** En un formulario personalizado asociado al tipo de objeto Task, se crea un campo personalizado calculado que hace referencia al campo integrado Asignado a: Name para que pueda mostrar el nombre del usuario asignado principal a cargo siempre que el formulario esté adjunto a una tarea:
+>**Ejemplo:** En un formulario personalizado asociado al tipo de objeto Task, crea un campo personalizado calculado que hace referencia al campo integrado Asignado a: Name para que pueda mostrar el nombre del usuario asignado principal a cargo siempre que el formulario esté adjunto a una tarea:
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +113,9 @@ Sin embargo, si un campo calculado del formulario hace referencia a un campo que
 Cuando esto sucede, puede realizar una de las siguientes acciones:
 
 * Quite uno de los dos elementos incompatibles del formulario personalizado: el tipo de objeto o el campo al que se hace referencia.
-* Mantener ambos elementos y utilizar la variable de filtro comodín `$$OBJCODE` como condición en una expresión IF para crear dos versiones diferentes del campo In Charge. Esto permite que el campo funcione correctamente, independientemente del tipo de objeto al que esté adjunto el formulario.
+* Mantenga ambos elementos y utilice la variable de filtro comodín `$$OBJCODE` como condición en una expresión IF para crear dos versiones diferentes del campo In Charge. Esto permite que el campo funcione correctamente, independientemente del tipo de objeto al que esté adjunto el formulario.
 
-  En el ejemplo anterior, aunque no hay un campo integrado Asignado a: Nombre para los proyectos, hay un campo Propietario integrado (que se rellena automáticamente con el nombre de la persona que creó el proyecto, a menos que alguien cambie esto manualmente). Por lo tanto, en el campo a cargo personalizado, puede utilizar `$$OBJCODE` como se muestra a continuación, para hacer referencia al campo Propietario cuando el formulario personalizado se adjunta a un proyecto y al campo Asignado a: Nombre cuando el formulario se adjunta a una tarea:
+  En el ejemplo anterior, aunque no hay un campo integrado Asignado a: Nombre para los proyectos, hay un campo Propietario integrado (que se rellena automáticamente con el nombre de la persona que creó el proyecto, a menos que alguien cambie esto manualmente). Por lo tanto, en su campo personalizado A cargo, puede utilizar `$$OBJCODE` como se muestra a continuación para hacer referencia al campo Propietario cuando el formulario personalizado se adjunta a un proyecto y al campo Asignado a: Nombre cuando el formulario se adjunta a una tarea:
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,11 +123,11 @@ Cuando esto sucede, puede realizar una de las siguientes acciones:
 
 >[!NOTE]
 >
->  Si agrega un tipo de objeto delante del nombre de un campo, hace referencia al objeto principal del objeto, por lo que no puede utilizar `{project}.{name}` con un proyecto, pero puede utilizarlo con una tarea.
+>  Si agrega un tipo de objeto delante del nombre de campo, hace referencia al objeto principal del objeto, por lo que no puede utilizar `{project}.{name}` con un proyecto, pero puede utilizarlo con una tarea.
 
-Para obtener instrucciones sobre cómo agregar un campo personalizado calculado a un formulario personalizado, consulte [Añadir datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener instrucciones sobre cómo agregar un campo personalizado calculado a un formulario personalizado, vea [Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Para obtener más información sobre variables como `$$OBJCODE`, consulte [Resumen de variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obtener más información acerca de variables como `$$OBJCODE`, vea [Resumen de las variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Precaución al eliminar un tipo de objeto de un formulario personalizado
 

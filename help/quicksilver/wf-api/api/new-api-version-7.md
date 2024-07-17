@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 47%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 47%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Cuenta </td> 
+   <td>Recuento </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -226,7 +226,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles 
+<sup>1</sup> cambios en valores posibles 
 
  
 
@@ -242,9 +242,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
  
 
-### AccessRule<sup>1</sup>
+### Regla de acceso<sup>1</sup>
 
-<sup>1</sup> Marcado como notificable
+<sup>1</sup> marcado como reportable
 
  
 
@@ -268,7 +268,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Indicador de informe eliminado
+Se Quitó El Indicador <sup>1</sup>
 
  
 
@@ -282,9 +282,9 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validación de fecha añadida
+Se agregó la validación de fecha <sup>1</sup>
 
-<sup>2</sup> Indicador Not_Filterable Añadido
+Se agregó el marcador <sup>2</sup> Not_Filterable
 
  
 
@@ -298,7 +298,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> El campo añadido incluye Problemas
+<sup>1</sup> Se agregó el campo includeIssues
 
  
 
@@ -310,7 +310,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles 
+<sup>1</sup> cambios en valores posibles 
 
  
 
@@ -353,7 +353,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Se ha cambiado el validador de PRECISION de 8 a 9.
+<sup>1</sup> ha cambiado el validador de PRECISION de 8 a 9
 
  
 
@@ -379,7 +379,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles
+<sup>1</sup> cambios en valores posibles
 
  
 
@@ -459,7 +459,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> El tipo ha cambiado de Ent a Double 
+Se cambió el tipo <sup>1</sup> de Int a Double 
 
  
 
@@ -499,7 +499,7 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
   <tr> 
    <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">tiposDeHorasDePerfilDeHojaDeHoras</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -566,4 +566,4 @@ Cambios en objetos existentes: las adiciones se enumeran simplemente, las elimin
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Cambios en valores posibles
+<sup>1</sup> cambios en valores posibles

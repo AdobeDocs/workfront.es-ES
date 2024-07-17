@@ -21,13 +21,13 @@ Cuando visualiza un grupo que administra en el área Grupos, puede ver y trabaja
 
 Si hay grupos por encima del grupo que administra, sus administradores también pueden hacerlo en su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
-Para obtener información general sobre cómo crear y editar una programación, consulte [Creación de una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Para obtener información general acerca de cómo crear y editar una programación, vea [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
 >Los administradores de grupos y los usuarios con una licencia de planificación que puedan editar a otros usuarios pueden añadir una programación de nivel de sistema o de grupo a otro usuario cuando estén editando el perfil de ese usuario.
 
-Para obtener información sobre cómo se utilizan las programaciones en la planificación de recursos, consulte [Información general sobre horarios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) y [Resumen del Planificador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener información acerca de cómo se usan las programaciones en la planificación de recursos, vea [Información general sobre las programaciones](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) y [Información general del Planificador de recursos](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Requisitos de acceso
 
@@ -52,16 +52,16 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 ## Crear o modificar las programaciones de un grupo
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Clic **Grupos**.
+1. Haga clic en **Grupos**.
 
    En la lista que se muestra, puede ver los grupos que administra, junto con los subgrupos que tengan. Los administradores de Adobe Workfront pueden ver todos los grupos.
 
 1. Haga clic en el nombre del grupo en el que desea ver las programaciones.
-1. En el panel izquierdo, haga clic en **Horarios**.
+1. En el panel izquierdo, haga clic en **Programas**.
 1. Realice una de las siguientes acciones:
 
-   * Clic **Nuevo horario** para crear una nueva programación
-   * Seleccione una programación y utilice los controles de la barra de herramientas para lo siguiente **Editar**, **Copiar**, o **Eliminar** it.
-   * **Exportar** la lista de programaciones del grupo.
+   * Haga clic en **Nuevo horario** para crear un nuevo horario
+   * Seleccione una programación y, a continuación, use los controles de la barra de herramientas para **editarla**, **copiarla** o **eliminarla**.
+   * **Exporte** la lista de programaciones para el grupo.

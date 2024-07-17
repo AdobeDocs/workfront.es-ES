@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión beta 4 de 2018.3
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 de 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 30 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
+title: Actividad de la versión 2018.3 de Beta 4
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 30 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión beta 4 de 2018.3
+# Actividad de la versión 2018.3 de Beta 4
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 de 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 30 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 4 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 30 de agosto de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
 
-Para ver una lista de todos los cambios realizados en 2018.3, consulte  [información general sobre la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.3, consulte  [resumen de la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versión beta 4 de 2018.3 contiene mejoras para administradores de Workfront y otros usuarios:
+La versión 2018.3 de Beta 4 contiene mejoras para administradores de Workfront y otros usuarios:
 
-**Para administradores**
+**Para Administradores**
 
 * [Actualizar la estructura de informes en el perfil de usuario como administrador de grupo](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
-**Para todos los usuarios**
+**Para Todos Los Usuarios**
 
 * [Exportar más información del Planificador de recursos](#export-more-information-from-the-resource-planner)
-* [Mejoras en la lista de tareas](#task-list-improvements) Eliminado de la versión
+* [Mejoras en la lista de tareas](#task-list-improvements) eliminadas de la versión
 * [Mejoras en la lista de proyectos](#project-list-improvements)
-* [Edición de la lista de tareas en el modo de edición del gráfico Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) Eliminado de la versión
+* Se eliminó la edición [de la lista de tareas en el modo de edición del gráfico Gantt](#editing-the-task-list-in-gantt-chart-edit-mode) de la versión
 * [Colores de herramienta de medición](#measurement-tool-colors)
-* [Pruebas abiertas en una nueva pestaña](#proofs-open-in-a-new-tab)  Eliminado de la versión
+* Se eliminaron [Pruebas abiertas en una nueva pestaña](#proofs-open-in-a-new-tab) de la versión
 
-* [Mejoras en Imprimir resumen](#print-summary-enhancements)
+* [Mejoras en el resumen de impresión](#print-summary-enhancements)
 * [Registrar el tiempo en días en la aplicación móvil de Workfront](#log-time-in-days-in-the-workfront-mobile-app)
 
 ## Actualizar la estructura de informes en el perfil de usuario como administrador de grupo {#update-reporting-structure-in-the-user-profile-as-a-group-administrator}
@@ -44,7 +44,7 @@ Los administradores de grupo ahora pueden editar los campos Subordinados directo
 
 Anteriormente, solo los administradores de Workfront y los usuarios con acceso administrativo a los usuarios tenían esta capacidad.
 
-Para obtener información sobre los administradores de grupos, consulte [Administradores de grupo](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Para obtener información sobre los administradores de grupos, consulte [Administradores de grupos](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Exportar más información del Planificador de recursos {#export-more-information-from-the-resource-planner}
 
@@ -52,7 +52,7 @@ Ahora puede exportar información de hasta 52 semanas, 36 meses o 12 trimestres 
 
 Anteriormente, solo se podía exportar un máximo de 4 semanas, meses o trimestres a la vez.
 
-Para obtener más información, consulte la [Exportar información del Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obtener más información, consulte [Exportar información del Planificador de recursos](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Mejoras en la lista de tareas {#task-list-improvements}
 
@@ -82,7 +82,7 @@ Se ha cambiado la siguiente funcionalidad en las listas de tareas:
 
 Para obtener más información sobre cómo trabajar en listas, consulte [Introducción a las listas en Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Para obtener más información sobre cómo encadenar tareas en el diagrama de Gantt, consulte [Crear relaciones de predecesoras encadenando tareas](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+Para obtener más información sobre cómo encadenar tareas en el gráfico Gantt, vea [Crear relaciones de predecesoras encadenando tareas](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 
 ## Mejoras en la lista de proyectos {#project-list-improvements}
 
@@ -112,7 +112,7 @@ Aunque puede ver cómo afectan los cambios a la escala de tiempo del proyecto, n
 
 Anteriormente, no se podían realizar estas acciones en tareas cuando se mostraban en el modo de edición del gráfico Gantt. Puede realizar estos cambios en una lista de tareas que no se muestre en el diagrama de Gantt, pero que sean inmediatos.
 
-Para obtener información sobre la edición de tareas en el diagrama de Gantt, consulte [Actualizar información en el gráfico Gantt de lista de tareas](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Para obtener información acerca de la edición de tareas en el diagrama de Gantt, vea [Actualizar información en la lista de tareas Diagrama de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Colores de herramienta de medición {#measurement-tool-colors}
 
@@ -128,7 +128,7 @@ Anteriormente, la herramienta de medición solo se mostraba en azul, lo que difi
 >
 >* Esta función se ha eliminado del entorno de vista previa y no se incluirá en la versión 2018.3.
 
-Cuando abre una prueba en cualquier lugar de Workfront o Workfront Proof, el visor de pruebas se inicia en una nueva pestaña del explorador y el enfoque cambia a esa pestaña. Puede trabajar en varias pestañas del explorador, revisar las pruebas y continuar con su trabajo en proyectos, tareas y problemas en Workfront o Workfront Proof.
+Cuando abre una prueba en cualquier lugar de Workfront o Workfront Proof, el visor de pruebas ahora se inicia en una nueva pestaña del explorador y el enfoque cambia a esa pestaña. Puede trabajar en varias pestañas del explorador, revisar las pruebas y continuar con su trabajo en proyectos, tareas y problemas en Workfront o Workfront Proof.
 
 Anteriormente, el visor de revisión se iniciaba en un marco en la parte superior de la pestaña actual del explorador Workfront o Workfront Proof, por lo que no se podía acceder a esa pestaña hasta que se cerraba el visor de revisión.
 
@@ -160,4 +160,4 @@ Anteriormente, solo se podía registrar tiempo utilizando horas en la aplicació
 
 Para obtener más información sobre el registro del tiempo en la aplicación móvil, consulte . 
 
-Esta función está disponible inmediatamente para probarla con la aplicación beta de Android. 
+Esta función está disponible inmediatamente para probarla con la aplicación Android Beta. 

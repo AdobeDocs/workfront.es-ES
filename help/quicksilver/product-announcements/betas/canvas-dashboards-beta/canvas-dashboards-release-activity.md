@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página lista las actualizaciones de desarrollo publicadas para la versión beta de Paneles de lienzo semanalmente.
 
-Para obtener información general sobre la versión beta de Paneles de lienzo, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Para obtener información general sobre la versión beta de Paneles de lienzo, consulte [Información general sobre Paneles de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Semana del 14 de agosto
 

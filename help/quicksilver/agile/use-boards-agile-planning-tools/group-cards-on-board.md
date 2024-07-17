@@ -43,19 +43,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Agrupar tarjetas en un tablero
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront], luego haga clic en **[!UICONTROL Tableros]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Tableros]**.
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clic **[!UICONTROL Grupo]** para abrir el panel de grupo en la parte izquierda del tablero.
+1. Haga clic en **[!UICONTROL Grupo]** para abrir el panel del grupo a la izquierda del tablero.
 
    >[!NOTE]
    >
-   >La configuración predeterminada para agrupar por es **[!UICONTROL Ninguno]**. Puede seleccionar esta opción en cualquier momento para quitar un grupo y mostrar solo las columnas del tablero.
+   >La configuración predeterminada para agrupar por es **[!UICONTROL None]**. Puede seleccionar esta opción en cualquier momento para quitar un grupo y mostrar solo las columnas del tablero.
 
-1. Para agrupar las tarjetas, seleccione **[!UICONTROL Asignados]** o **[!UICONTROL Etiquetas]**.
+1. Para agrupar las tarjetas, seleccione **[!UICONTROL Usuarios asignados]** o **[!UICONTROL Etiquetas]**.
 
    Las tarjetas se agrupan automáticamente. Haga clic en la flecha situada junto al nombre del grupo para contraerlo y expandirlo.
 
@@ -63,9 +63,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Seleccione lo que sucede cuando una tarjeta se mueve a otro grupo.
 
-   * **[!UICONTROL Agregar a usuarios asignados] / [!UICONTROL Agregar en etiquetas]:** Los usuarios asignados o las etiquetas del nuevo grupo se agregan a la lista de usuarios asignados o etiquetas existente en la tarjeta.
-   * **[!UICONTROL Anular asignados] / [!UICONTROL Anular etiquetas]:** Los usuarios asignados o las etiquetas del nuevo grupo anulan a todos los demás usuarios asignados o etiquetas y se convierten en los únicos usuarios asignados o etiquetas de la tarjeta.
+   * **[!UICONTROL Agregar a usuarios asignados] / [!UICONTROL Agregar a etiquetas]:** Los usuarios asignados o las etiquetas del nuevo grupo se agregan a la lista existente de usuarios asignados o etiquetas de la tarjeta.
+   * **[!UICONTROL Anular a los usuarios asignados] / [!UICONTROL Anular las etiquetas]:** Los usuarios asignados o las etiquetas del nuevo grupo anulan a todos los demás usuarios asignados o etiquetas y se convierten en los únicos usuarios asignados o etiquetas de la tarjeta.
 
    ![[!UICONTROL Agrupar por opciones]](assets/group-by-rail.png)
 
-1. Clic **[!UICONTROL Ocultar grupos]** para ocultar el panel de grupo y mostrar el tablero completo.
+1. Haga clic en **[!UICONTROL Ocultar grupos]** para ocultar el panel del grupo y mostrar el tablero completo.

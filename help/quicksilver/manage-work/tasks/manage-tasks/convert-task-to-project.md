@@ -35,16 +35,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y Proyectos</p> <p>Ver o acceder a las plantillas, al convertirlas en un proyecto mediante una plantilla</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Tareas y Proyectos</p> <p>Ver o acceder a las plantillas, al convertirlas en un proyecto mediante una plantilla</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos para una tarea</p> <p>Ver los permisos de una plantilla si se convierte en un proyecto mediante una plantilla</p> <p>Después de crear el proyecto, tiene permisos de administración en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos para una tarea</p> <p>Ver los permisos de una plantilla si se convierte en un proyecto mediante una plantilla</p> <p>Después de crear el proyecto, tiene permisos de administración en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Consideraciones para convertir tareas en proyectos
 
@@ -67,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tr> 
     <tr> 
     <td>Estado</td> 
-    <td> Estado predeterminado seleccionado para el grupo en la plantilla. Si la plantilla no está asociada al grupo, el estado del proyecto se establece en el estado predeterminado establecido por el administrador de Workfront en el área Preferencias de proyecto de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurar las preferencias de proyecto de todo el sistema</a>
+    <td> Estado predeterminado seleccionado para el grupo en la plantilla. Si la plantilla no está asociada al grupo, el estado del proyecto se establece en el estado predeterminado establecido por el administrador de Workfront en el área Preferencias de proyecto de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurar las preferencias de proyecto en todo el sistema</a>
 
   Existen los siguientes escenarios para actualizar el estado del proyecto:
   <ul>
@@ -91,7 +91,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tr> 
     <tr> 
     <td>Condición del proyecto</td> 
-    <td>Coincide con la preferencia predeterminada del sistema según lo determinado por el administrador de Workfront en el área de Configuración. Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Establecer una condición personalizada como predeterminada para los proyectos</a>
+    <td>Coincide con la preferencia predeterminada del sistema según lo determinado por el administrador de Workfront en el área de Configuración. Para obtener más información, vea <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Establecer una condición personalizada como predeterminada para los proyectos</a>
     </td> 
     </tr> 
     <tr> 
@@ -102,8 +102,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <td>Fechas del proyecto</td> 
     <td> 
       <ul> 
-      <li> <p><b>Fecha planificada de inicio</b>: El tiempo de trabajo más cercano basado en el tiempo de trabajo de la programación de plantilla debe preseleccionarse, según la zona horaria de la programación de la plantilla. Este campo está desactivado si el campo Programar desde está definido como Desde la finalización. </p> </li> 
-      <li> <p><b>Fecha planificada de finalización</b>: El tiempo de trabajo más cercano basado en el tiempo de trabajo de la programación de plantilla debe preseleccionarse, según la zona horaria de la programación de la plantilla. Este campo está desactivado si el campo Programar desde está establecido en Desde el inicio. </p> </li> 
+      <li> <p><b>Fecha planificada de inicio</b>: el horario laboral más cercano basado en el horario laboral de la plantilla debe preseleccionarse, de acuerdo con la zona horaria del horario de la plantilla. Este campo está desactivado si el campo Programar desde está definido como Desde la finalización. </p> </li> 
+      <li> <p><b>Fecha planificada de finalización</b>: el horario laboral más cercano basado en el horario laboral de la plantilla debe preseleccionarse, de acuerdo con la zona horaria del horario de la plantilla. Este campo está desactivado si el campo Programar desde está establecido en Desde el inicio. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -132,7 +132,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <td>Transfiere desde el campo Propietario de la plantilla en la plantilla. De lo contrario, se establece en el usuario que ha iniciado sesión y que está realizando la conversión. </td> 
     </tr> 
     <tr> 
-    <td>Patrocinador del proyecto</td> 
+    <td>Patrocinador de proyecto</td> 
     <td>Transfiere desde el campo Patrocinador de plantilla de la plantilla. De lo contrario, este campo está vacío.</td> 
     </tr> 
     <tr> 
@@ -162,34 +162,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Conversión de una tarea en un proyecto
 
 1. Vaya a la tarea que desea convertir en proyecto.
-1. Haga clic en **Más** icono ![](assets/more-icon.png), entonces **Convertir a proyecto**.
+1. Haga clic en el icono **Más** ![](assets/more-icon.png) y luego en **Convertir en proyecto**.
 1. Elija una de las siguientes opciones:
 
    * **Nuevo proyecto**
-   * Una plantilla en el **Seleccionar desde plantillas** sección
+   * Una plantilla en la sección **Seleccionar de plantillas**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
-1. Clic **Continuar** en la notificación que aparece.
-1. En el **Convertir a proyecto** , especifique lo siguiente:
+1. Haga clic en **Continuar** en la notificación que aparece.
+1. En el cuadro **Convertir en proyecto**, especifique lo siguiente:
 
    * **Nombre**: Asigne un nombre al proyecto. El nombre predeterminado es el nombre de la tarea.
-   * (Opcional) **Descripción**: describa el propósito de este proyecto.
-   * (Opcional y condicional) Si ha seleccionado crear un proyecto a partir de una plantilla, actualice los campos disponibles en la **Convertir a proyecto** Cuadro de diálogo.
+   * (Opcional) **Descripción**: describe el propósito de este proyecto.
+   * (Opcional y condicional) Si ha seleccionado crear un proyecto a partir de una plantilla, actualice los campos disponibles en el cuadro de diálogo **Convertir en proyecto**.
 
-     Para obtener más información sobre la edición de campos en proyectos, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-     >[!TIP]
-     >
-     >Para actualizar los campos de la sección Finanzas del cuadro Convertir en proyecto, debe tener acceso de edición a los datos financieros en su nivel de acceso. Si tiene acceso de visualización de datos financieros en su nivel de acceso, toda la información financiera de la plantilla se transfiere al nuevo proyecto y no puede editarla mientras convierte el problema. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-
-   * (Opcional) Añadir **Forms personalizado** al nuevo proyecto.
+     Para obtener más información sobre cómo editar campos en proyectos, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     Si un formulario personalizado de varios objetos adjunto a la tarea está configurado para utilizarse con tareas y proyectos, toda la información guardada en el formulario se conservará cuando realice la conversión.
+     >Para actualizar los campos de la sección Finanzas del cuadro Convertir en proyecto, debe tener acceso de edición a los datos financieros en su nivel de acceso. Si tiene acceso de visualización de datos financieros en su nivel de acceso, toda la información financiera de la plantilla se transfiere al nuevo proyecto y no puede editarla mientras convierte el problema. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
+   * (Opcional) Agregue **Forms personalizado** al nuevo proyecto.
+
+     >[!TIP]
+     >
+     >Si un formulario personalizado de varios objetos adjunto a la tarea está configurado para utilizarse con tareas y proyectos, toda la información guardada en el formulario se conservará cuando realice la conversión.
      >
      >
-     Si utiliza una plantilla para la conversión y un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto a la tarea, el valor del campo de la tarea se utilizará para el nuevo proyecto. Sin embargo, si el campo personalizado está en blanco en la tarea, se utiliza el valor de la plantilla.
+     >Si utiliza una plantilla para la conversión y un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto a la tarea, el valor del campo de la tarea se utilizará para el nuevo proyecto. Sin embargo, si el campo personalizado está en blanco en la tarea, se utiliza el valor de la plantilla.
 
 1. Haga clic en **Guardar cambios**.

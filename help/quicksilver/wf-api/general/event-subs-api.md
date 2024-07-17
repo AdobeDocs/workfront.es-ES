@@ -9,8 +9,8 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 4%
+source-wordcount: '2147'
+ht-degree: 3%
 
 ---
 
@@ -30,19 +30,19 @@ Para recibir cargas útiles de suscripciones de eventos a través del cortafuego
 **Para clientes de Europa:**
 
 * 52.30.133.50
-* 52.208.159.124
-* 54.220.93.204
+* 52 208 159 124
+* 54 220 93 204
 * 52.17.130.201
-* 34.254.76.122
-* 34.252.250.191
+* 34 254 76 122
+* 34 252 250 191
 
-**Para clientes de ubicaciones distintas de Europa:**
+**Para clientes que no se encuentran en Europa:**
 
-* 54.244.142.219
-* 44.241.82.96
-* 52.36.154.34
+* 54 244 142 219
+* 44 241 82 96
+* 52 36 154 34
 * 34.211.224.9
-* 54.218.48.56
+* 54 218 48 56
 * 52.39.217.230
 
 Los siguientes temas admiten la API de suscripción a evento:
@@ -53,7 +53,7 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 
 * Asignación
 * Compañía
-* Panel
+* Panel de control
 * Documento
 * Gasto
 * Campo
@@ -72,16 +72,16 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 * Usuario
 * Espacio de trabajo
 
-Para obtener una lista de los campos admitidos por los objetos de suscripción de evento, consulte [Campos de recurso de suscripción de evento](../../wf-api/api/event-sub-resource-fields.md).
+Para obtener una lista de los campos admitidos por los objetos de suscripción de evento, consulte [Campos de recursos de suscripción de evento](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Autenticación de suscripción de evento
 
 Para crear, consultar o eliminar una suscripción de evento, el usuario de Workfront necesita lo siguiente:
 
 * Se requiere un nivel de acceso de &quot;Administrador del sistema&quot; para utilizar Suscripciones de eventos.
-* A `sessionID`  se requiere para utilizar la API de suscripciones a eventos
+* Se requiere un encabezado `sessionID` para usar la API de suscripciones a eventos
 
-  Para obtener más información, consulte [Autenticación](api-basics.md#authentication) in [Conceptos básicos de API](api-basics.md).
+  Para obtener más información, consulte [Autenticación](api-basics.md#authentication) en [Conceptos básicos de la API](api-basics.md).
 
 ## Formación del recurso de suscripción
 
@@ -89,11 +89,11 @@ El recurso de suscripción contiene los campos siguientes.
 
 * objId (opcional)
 
-   * **Cadena** : ID del objeto del objCode especificado para el que se activan los eventos. Si no se especifica este campo, el usuario recibe eventos para todos los objetos del tipo especificado.
+   * **Cadena**: Id. del objeto del objCode especificado para el que se activan los eventos. Si no se especifica este campo, el usuario recibe eventos para todos los objetos del tipo especificado.
 
 * objCode (obligatorio)
 
-   * **Cadena** - El objCode del objeto al que se está suscribiendo cambia. Los valores posibles de objCode se enumeran en la tabla siguiente.
+   * **Cadena**: objCode del objeto al que se está suscribiendo. Los valores posibles de objCode se enumeran en la tabla siguiente.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -114,7 +114,7 @@ El recurso de suscripción contiene los campos siguientes.
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Panel</td> 
+        <td scope="col">Panel de control</td> 
         <td scope="col">PTLTAB</td> 
        </tr> 
        <tr> 
@@ -190,19 +190,19 @@ El recurso de suscripción contiene los campos siguientes.
 
 * eventType (obligatorio)
 
-   * **Cadena** - Un valor que representa el tipo de evento al que está suscrito el objeto. Los tipos de eventos disponibles incluyen:
+   * **Cadena**: Valor que representa el tipo de evento al que está suscrito el objeto. Los tipos de eventos disponibles incluyen:
 
       * CREAR
-      * ELIMINAR 
+      * DELETE 
       * ACTUALIZACIÓN
 
 * url (obligatorio)
 
-   * **Cadena** : URL del punto de conexión al que se envían las cargas de evento de suscripción mediante HTTP.
+   * **Cadena**: Dirección URL del extremo al que se envían las cargas útiles de evento de suscripción a través de HTTP.
 
 * authToken (obligatorio)
 
-   * **Cadena** : el token de portador de OAuth2 utilizado para autenticarse con la URL especificada en el campo &quot;URL&quot;. 
+   * **Cadena**: El token de portador de OAuth2 utilizado para autenticarse con la dirección URL especificada en el campo &quot;URL&quot;. 
 
 ## Creación de solicitudes de API de suscripción de evento
 
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (No autorizado) | El ID de sesión proporcionado estaba vacío o se consideró no válido. |
 | 403 (Prohibido) | El usuario que coincide con el sessionID proporcionado no tiene acceso de administrador. |
 
-Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo de contenido &quot;application/json&quot;), se crea una suscripción de evento para el objeto especificado. Un código de respuesta 201 (Created) indica que se creó la suscripción. Un código de respuesta distinto de 201 significa que la suscripción fue **NO** creado.
+Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo de contenido &quot;application/json&quot;), se crea una suscripción de evento para el objeto especificado. Un código de respuesta 201 (Created) indica que se creó la suscripción. Un código de respuesta distinto de 201 significa que se creó la suscripción **NOT**.
 
 >[!NOTE]
 >
@@ -283,8 +283,8 @@ Al consultar el código HTTP de Workfront, utilice el método de GET. Existen do
 
 Puede consultar todas las suscripciones de eventos de un cliente o utilizar lo siguiente para administrar la respuesta. También puede utilizar las siguientes opciones para administrar la respuesta:
 
-* **página**: opción de parámetro de consulta para especificar el número de páginas que se devolverán. El valor predeterminado es 1.
-* **límite**: opción de parámetro de consulta para especificar el número de resultados que se devuelven por página. El valor predeterminado es 100, con un máximo de 1000.
+* **página**: opción de parámetro de consulta para especificar el número de páginas que se van a devolver. El valor predeterminado es 1.
+* **limit**: opción de parámetro de consulta para especificar el número de resultados que se devolverán por página. El valor predeterminado es 100, con un máximo de 1000.
 
 La sintaxis de solicitud para enumerar todas las suscripciones de evento de un cliente específico es la siguiente:
 
@@ -373,7 +373,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 Donde
 
-* **página** y **límite** son los valores proporcionados en la solicitud o los predeterminados si no se proporcionan valores
+* **page** y **limit** son los valores proporcionados en la solicitud o el valor predeterminado si no se proporcionan valores
 * **page_count** es el número total de páginas que se pueden consultar.
 * **total_count** es el número total de suscripciones que coinciden con la consulta.
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 El filtrado de suscripción de eventos se puede utilizar para garantizar que solo recibe mensajes relevantes. La creación de filtros para sus suscripciones puede disminuir significativamente la cantidad de mensajes que debe consumir su punto final.
 
-Por ejemplo, un **ACTUALIZACIÓN - TAREA** la suscripción de evento se puede establecer en déclencheur solo cuando la variable **newState** de una carga útil de evento define la variable **taskStatus** as **corriente**.
+Por ejemplo, una suscripción de evento **UPDATE - TASK** solo se puede establecer en déclencheur cuando el **nuevoEstado** de una carga útil de evento define **taskStatus** como **actual**.
 
 >[!IMPORTANT]
 >
-Los atributos siguientes se aplican al filtrado de suscripción de evento
+>Los atributos siguientes se aplican al filtrado de suscripción de evento
 
-* Cuando un campo de filtro tiene un valor no vacío, solo se muestran mensajes con **newState** que contiene las claves de filtro y los valores se envían a la dirección URL suscrita
-* Puede filtrar por datos personalizados incluidos en la variable **newState** Y/O **oldState** del objeto
+* Cuando un campo de filtro tiene un valor no vacío, solo se envían mensajes con un **newState** que contiene las claves de filtro y los valores a la dirección URL suscrita
+* Puede filtrar por datos personalizados incluidos en **newState** Y/O **oldState** del objeto
 * Los filtros se evalúan únicamente en función de si son o no iguales a un valor específico
-* Si la sintaxis del filtro es incorrecta o no coincide con ningún dato contenido en la variable **newState** de la carga útil, no se devolverá un mensaje de validación para indicar que se ha producido un error
+* Si la sintaxis del filtro es incorrecta o no coincide con ningún dato contenido en **newState** de la carga útil, no se devolverá un mensaje de validación para indicar que se ha producido un error
 * Los filtros no se pueden actualizar en una suscripción que exista actualmente; se debe crear una nueva suscripción con nuevos parámetros de filtro.
 * Se pueden aplicar varios filtros a una sola suscripción y esta solo se entregará cuando se hayan cumplido todas las condiciones de filtro.
-* La aplicación de varios filtros a una sola suscripción es una práctica equivalente a utilizar un **Y** operador lógico.
+* Aplicar varios filtros a una sola suscripción es una práctica equivalente a usar un operador lógico **AND**.
 * Se pueden aplicar varias suscripciones de evento a un único objeto siempre que uno o más parámetros de campo de suscripción de evento sean diferentes entre cada suscripción de evento.
-* Cuando se asignan varias suscripciones de evento a un único objeto, todas las suscripciones de evento asociadas con ese objeto se pueden devolver a un único extremo. Esta práctica puede utilizarse como sustituto equivalente del operador lógico **O** que no se puede configurar con parámetros de filtro.
+* Cuando se asignan varias suscripciones de evento a un único objeto, todas las suscripciones de evento asociadas con ese objeto se pueden devolver a un único extremo. Esta práctica se puede usar como un sustituto equivalente del operador lógico **OR** que no se puede establecer mediante parámetros de filtro.
 
 ### Uso de operadores de comparación
 
@@ -459,7 +459,7 @@ Puede especificar un campo de comparación junto con el campo de filtro. Utilice
 
 #### eq: equal
 
-Este filtro permite que los mensajes lleguen si el cambio que se ha producido coincide `fieldValue` en el filtro exactamente. El `fieldValue` El valor distingue entre mayúsculas y minúsculas.
+Este filtro permite que los mensajes lleguen si el cambio que se produjo coincide exactamente con `fieldValue` en el filtro. El valor `fieldValue` distingue entre mayúsculas y minúsculas.
 
 ```
 {
@@ -479,7 +479,7 @@ Este filtro permite que los mensajes lleguen si el cambio que se ha producido co
 
 #### ne: no es igual a
 
-Este filtro permite que los mensajes lleguen si el cambio que se ha producido no coincide `fieldValue` en el filtro exactamente. El `fieldValue` El valor distingue entre mayúsculas y minúsculas.
+Este filtro permite que los mensajes lleguen si el cambio que se produjo no coincide exactamente con `fieldValue` en el filtro. El valor `fieldValue` distingue entre mayúsculas y minúsculas.
 
 ```
 {
@@ -499,7 +499,7 @@ Este filtro permite que los mensajes lleguen si el cambio que se ha producido no
 
 #### gt: greater than
 
-Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es mayor que el valor de `fieldValue`.
+Este filtro permite que los mensajes lleguen si la actualización del `fieldName` especificado es mayor que el valor de `fieldValue`.
 
 ```
 {
@@ -519,7 +519,7 @@ Este filtro permite que los mensajes lleguen si la actualización del especifica
 
 #### get: greater than or equal to
 
-Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es mayor o igual que el valor de `fieldValue`.
+Este filtro permite que los mensajes lleguen si la actualización del `fieldName` especificado es mayor o igual que el valor de `fieldValue`.
 
 ```
 {
@@ -539,7 +539,7 @@ Este filtro permite que los mensajes lleguen si la actualización del especifica
 
 #### lt: less than
 
-Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es menor que el valor de `fieldValue`.
+Este filtro permite que los mensajes lleguen si la actualización del `fieldName` especificado es menor que el valor de `fieldValue`.
 
 ```
 {
@@ -559,7 +559,7 @@ Este filtro permite que los mensajes lleguen si la actualización del especifica
 
 #### lte: menor o igual que
 
-Este filtro permite que los mensajes lleguen si la actualización del especificado `fieldName` es menor o igual que el valor de `fieldValue`.
+Este filtro permite que los mensajes lleguen si la actualización del `fieldName` especificado es menor o igual que el valor de `fieldValue`.
 
 ```
 {
@@ -579,7 +579,7 @@ Este filtro permite que los mensajes lleguen si la actualización del especifica
 
 #### contiene
 
-Este filtro permite que los mensajes lleguen si el cambio que se produjo contiene el `fieldValue` en el filtro. El `fieldValue` El valor distingue entre mayúsculas y minúsculas
+Este filtro permite que se envíen mensajes si el cambio que se produjo contiene `fieldValue` en el filtro. El valor `fieldValue` distingue entre mayúsculas y minúsculas
 
 ```
 {
@@ -599,11 +599,11 @@ Este filtro permite que los mensajes lleguen si el cambio que se produjo contien
 
 #### cambiar
 
-Este filtro permite que los mensajes lleguen únicamente si el campo especificado (`fieldName`) tiene un valor diferente en oldstate y newstate. Actualizando otros campos además del especificado (`fieldName`) no devolverá ese cambio.
+Este filtro permite que los mensajes se transmitan sólo si el campo especificado (`fieldName`) tiene un valor diferente en estado antiguo y estado nuevo. Al actualizar otros campos además del especificado (`fieldName`), no se devolverá ese cambio.
 
 >[!NOTE]
 >
-`fieldValue` en la matriz de filtros a continuación no tiene ningún efecto.
+>`fieldValue` en la matriz de filtros siguiente no tiene ningún efecto.
 
 ```
 {
@@ -628,8 +628,8 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 
 >[!NOTE]
 >
-La suscripción siguiente con el filtro dado solo devolverá mensajes donde el nombre de la tarea contenga `again` en el `oldState`, lo que había antes de realizar una actualización de la tarea.
-Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una cosa a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Buscar un nombre&quot; a &quot;Buscar un nombre de equipo&quot;
+>La suscripción siguiente con el filtro dado solo devolverá mensajes donde el nombre de la tarea contenga `again` en el `oldState`, lo que era antes de que se realizara una actualización en la tarea.
+>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una cosa a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Buscar un nombre&quot; a &quot;Buscar un nombre de equipo&quot;
 
 ```
 {
@@ -650,7 +650,7 @@ Un caso de uso para esto sería encontrar los mensajes de objCode que han cambia
 
 ### Uso de campos de conector
 
-El `filterConnector` en la carga útil de suscripción le permite elegir cómo se deben aplicar los filtros. El valor predeterminado es &quot;Y&quot;, donde todos los filtros deben estar `true` para que aparezca el mensaje de suscripción. Si se especifica &quot;OR&quot;, solo debe coincidir un filtro para que aparezca el mensaje de suscripción.
+El campo `filterConnector` de la carga útil de suscripción le permite elegir cómo se deben aplicar los filtros. El valor predeterminado es &quot;Y&quot;, donde los filtros deben estar todos `true` para que se transmita el mensaje de suscripción. Si se especifica &quot;OR&quot;, solo debe coincidir un filtro para que aparezca el mensaje de suscripción.
 
 ```
 {
@@ -881,7 +881,7 @@ El campo base64Encoding es un campo opcional que se utiliza para habilitar la co
 
 ### Ejemplo de una solicitud que utiliza el campo base64Encoding
 
-Si se realiza una solicitud utilizando el campo base64Encoding establecido en true, la variable **newState** y **oldState** Los objetos de la carga útil se entregan como cadenas de codificación base 64. Si el campo base64Encoding se establece en false, se deja en blanco o no se incluye en la solicitud, la carga útil devuelta no se codificará en base 64.
+Si se realiza una solicitud utilizando el campo base64Encoding establecido en true, los objetos **newState** y **oldState** de la carga útil se entregan como cadenas de codificación base 64. Si el campo base64Encoding se establece en false, se deja en blanco o no se incluye en la solicitud, la carga útil devuelta no se codificará en base 64.
 
 A continuación se muestra un ejemplo de una solicitud que utiliza el campo base64Encoding:
 
@@ -917,7 +917,7 @@ A continuación se muestra un ejemplo de una solicitud que utiliza el campo base
 
 ## Método obsoleto para consultar todas las suscripciones a eventos
 
-El siguiente extremo de API está obsoleto y no debe utilizarse para nuevas implementaciones. También recomendamos la transición de implementaciones antiguas al método en el **Consulta de suscripciones a eventos** sección descrita anteriormente.
+El siguiente extremo de API está obsoleto y no debe utilizarse para nuevas implementaciones. También recomendamos la transición de implementaciones antiguas al método en la sección **Consulta de suscripciones a eventos** descrita anteriormente.
 
 Puede consultar todas las suscripciones de evento de un cliente según lo especificado por el valor sessionID. La sintaxis de solicitud para enumerar todas las suscripciones de evento de un cliente específico es la siguiente URL:
 

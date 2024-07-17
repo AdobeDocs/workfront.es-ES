@@ -48,12 +48,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 {{step1-to-boards}}
 
 1. Para abrir un flujo de trabajo, haga clic en [!UICONTROL **Ver flujo de trabajo**].
-1. Seleccione el [!UICONTROL Proceso de iteración] tablero.
+1. Seleccione el tablero [!UICONTROL Proceso de iteración].
 1. Revise el área de métricas sobre el tablero, en la parte superior derecha. Haga clic en las flechas arriba y abajo para desplazarse entre iteraciones.
 
    Se muestran las métricas siguientes: número total de puntos asignados a la iteración, los puntos restantes que aún no se han completado en la iteración y el número de puntos completados en la iteración.
 
-1. (Opcional) Haga clic en [!UICONTROL **Detalles de iteración**] icono ![Detalles de iteración](assets/iteration-details-button.png) para abrir el cuadro de diálogo de detalles de la iteración seleccionada.
+1. (Opcional) Haga clic en el icono [!UICONTROL **Detalles de la iteración**] ![Detalles de la iteración](assets/iteration-details-button.png) para abrir el cuadro de diálogo de detalles de la iteración seleccionada.
 
 ## Revisar las métricas de iteración en el tablero
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Uso compartido del Distribuidor de cargas de trabajo con un vínculo
 
-Puede compartir el Distribuidor de cargas de trabajo con otros usuarios que podrían no tener el área de Recursos disponible. Para obtener información sobre el uso del Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Puede compartir el Distribuidor de cargas de trabajo con otros usuarios que podrían no tener el área de Recursos disponible. Para obtener información acerca del uso del Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Requisitos de acceso
 
@@ -44,16 +44,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <li> <p>Problemas</p> </li> 
     </ul> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o permisos superiores en los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver o permisos superiores en los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Información incluida en el Distribuidor de cargas de trabajo al verla desde un vínculo compartido
 
@@ -81,7 +81,7 @@ Las siguientes opciones están disponibles para que el usuario que visualiza el 
 * El icono Configuración
 * Icono Mostrar asignaciones
 
-  Para obtener información sobre el uso de estas opciones, consulte [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Para obtener información acerca del uso de estas opciones, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * Icono Mostrar asignaciones de roles
 
@@ -98,27 +98,27 @@ El usuario que recibe el vínculo compartido no puede hacer lo siguiente en el D
 Necesita el siguiente acceso para ver información en el Distribuidor de cargas de trabajo desde un vínculo compartido:
 
 * Una licencia de Adobe Workfront válida y debe iniciar sesión en Workfront.
-* Al menos Ver el acceso a la administración de recursos en su nivel de acceso. Para obtener información sobre la concesión de acceso a Administración de recursos, consulte [Conceder acceso a Administración de recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Al menos Ver el acceso a la administración de recursos en su nivel de acceso. Para obtener información acerca de cómo conceder acceso a Administración de recursos, vea [Conceder acceso a Administración de recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * Ver permisos para los proyectos, tareas, problemas y usuarios mostrados en el Distribuidor de cargas de trabajo.
 
 ## Uso compartido del Distribuidor de cargas de trabajo con otros usuarios desde un vínculo
 
 1. Ir al Distribuidor de cargas de trabajo
 
-   Para obtener información sobre el acceso al Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   Para obtener información sobre el acceso al Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Opcional) Realice una o varias de las siguientes acciones:
 
    * Actualice la selección del período de tiempo.
-   * Clic **Día, semana**, o **Mes** para ver información diaria, semanal o mensual.
+   * Haga clic en **Día, Semana** o **Mes** para ver información diaria, semanal o mensual.
 
      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Aplique filtros a las áreas de trabajo no asignado y asignado.
 
-     Para obtener información sobre el filtrado de información en el Distribuidor de cargas de trabajo, consulte [Filtrado de información en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Para obtener información sobre el filtrado en el Distribuidor de cargas de trabajo, consulte [Filtrar información en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Haga clic en **icono de vínculo** ![](assets/wb-shearable-link-icon-small.png).
+1. Haga clic en el **icono de vínculo** ![](assets/wb-shearable-link-icon-small.png).
 
    Esto agrega el vínculo al portapapeles.
 
@@ -127,7 +127,7 @@ Necesita el siguiente acceso para ver información en el Distribuidor de cargas 
    * Péguelo en un mensaje de correo electrónico, un mensaje de chat o cualquier otra aplicación y compártalo con otros usuarios.
    * Añádala a una sección personalizada como página externa, añada la sección personalizada al perfil de un usuario o a una plantilla de diseño y, a continuación, comparta la plantilla de diseño con usuarios, equipos, funciones o grupos.
 
-     Para obtener información sobre la creación de una página externa, consulte [Incrustar una página web externa en un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obtener información sobre cómo agregar secciones personalizadas a una plantilla de diseño, consulte [Personalización del panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Para obtener información acerca de cómo crear una página externa, vea [Incrustar una página web externa en un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obtener información sobre cómo agregar secciones personalizadas a una plantilla de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >

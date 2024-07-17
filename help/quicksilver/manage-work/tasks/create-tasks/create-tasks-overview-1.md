@@ -21,7 +21,7 @@ Puede crear tareas en un proyecto específico o puede crear tareas desde el áre
 
 Esta sección contiene los siguientes artículos:
 
-* [Información general sobre Crear tareas](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
-* [Creación de tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
-* [Creación de subtareas](../../../manage-work/tasks/create-tasks/create-subtasks.md)
+* [Información general sobre la creación de tareas](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
+* [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+* [Crear subtareas](../../../manage-work/tasks/create-tasks/create-subtasks.md)
 * [Creación de tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)

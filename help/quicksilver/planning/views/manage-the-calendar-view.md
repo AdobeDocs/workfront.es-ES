@@ -82,7 +82,7 @@ Para obtener información sobre las vistas de Adobe Workfront Planning y cómo a
 
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Acceso a información general</a>. </p> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -108,7 +108,7 @@ Tenga en cuenta lo siguiente:
 Para administrar una vista de calendario:
 
 1. Vaya a la página del tipo de registro cuyo calendario desea ver.
-1. Cree una vista de calendario como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cree una vista de calendario, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/calendar-view-example.png)
 
@@ -117,7 +117,7 @@ Para administrar una vista de calendario:
 1. Realice una de las siguientes acciones para navegar por el calendario:
 
    * Haga clic en los iconos izquierdo y derecho o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en el calendario.
-   * Clic **Hoy** para centrar el calendario en la fecha actual.
+   * Haga clic en **Hoy** para centrar el calendario en la fecha de hoy.
    * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo:
 
       * Mes

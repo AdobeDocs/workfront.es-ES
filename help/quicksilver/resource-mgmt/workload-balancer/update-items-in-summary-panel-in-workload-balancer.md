@@ -47,16 +47,16 @@ Debe tener lo siguiente:
      <li> <p>Proyectos</p> </li> 
      <li> <p>Tareas</p> </li> 
      <li> <p>Problemas</p> </li> 
-    </ul> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+    </ul> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Aportar permisos o superiores a los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Permisos de Contribute o superiores para los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Actualizar tareas y problemas en el panel Resumen del Distribuidor de cargas de trabajo
 
@@ -64,21 +64,21 @@ Debe tener lo siguiente:
 
    El Distribuidor de cargas de trabajo muestra información sobre la asignación de trabajo a partir de la semana actual.
 
-1. Vaya a la **Trabajo sin asignar** y buscar un elemento de trabajo.
+1. Vaya al área **Trabajo sin asignar** y busque un elemento de trabajo.
 
    O
 
-   Vaya a la **Trabajo asignado** , expanda un usuario y busque un elemento de trabajo.
+   Vaya al área **Trabajo asignado**, expanda un usuario y busque un elemento de trabajo.
 
 1. Haga clic en la barra de una tarea o un problema para abrir el Panel de resumen a la derecha.
 
    O
 
-   Clic **Abrir resumen** icono ![](assets/summary-panel-icon.png), luego haga clic en la barra de una tarea o problema para abrir el Panel de resumen.
+   Haga clic en el icono **Abrir resumen** ![](assets/summary-panel-icon.png) y, a continuación, haga clic en la barra de una tarea o un problema para abrir el Panel de resumen.
 
    O
 
-   Haga clic en **Más** menú ![](assets/more-icon.png) a la derecha de una tarea o problema y, a continuación, haga clic en **Abrir resumen**.
+   Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha de una tarea o problema y, a continuación, haga clic en **Abrir resumen**.
 
    El panel Resumen se abre a la derecha.
 
@@ -98,7 +98,7 @@ Debe tener lo siguiente:
    >
    >Si se desplaza del Resumen a la sección Subtareas para agregar subtareas, se elimina la tarea original, ya que las tareas principales no se muestran en el Distribuidor de cargas de trabajo.
 
-   Para obtener más información sobre la actualización de información mediante el Resumen, consulte [Resumen, descripción general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Para obtener más información sobre cómo actualizar información mediante el Resumen, consulte [Resumen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Condicional) Si ha abierto cualquiera de las secciones del elemento de trabajo, haga clic en el **Botón Atrás** para volver al Distribuidor de cargas de trabajo.
-1. Haga clic en **Icono Cerrar** ![](assets/close-icon.png) en la esquina superior derecha del Resumen, para cerrarlo.
+1. (Condicional) Si ha abierto cualquiera de las secciones del elemento de trabajo, haga clic en el **botón Atrás** del explorador para volver al Distribuidor de cargas de trabajo.
+1. Haga clic en el icono **Cerrar** ![](assets/close-icon.png), en la esquina superior derecha del resumen, para cerrarlo.

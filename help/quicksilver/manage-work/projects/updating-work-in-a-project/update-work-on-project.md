@@ -23,7 +23,7 @@ Para actualizar el estado y el progreso de un proyecto, debe actualizar el estad
 
 Para obtener información sobre cómo actualizar el trabajo en un proyecto, consulte los siguientes artículos:
 
-* [Aplicar estados al trabajo asociado a un grupo](../../../manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
+* [Aplicar estados a trabajo asociado a un grupo](../../../manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
 * [Actualizar estado de la tarea](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md)
 * [Actualizar estado del problema](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md)
 * [Ver y actualizar el porcentaje completado de las tareas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)

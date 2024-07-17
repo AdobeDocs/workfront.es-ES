@@ -1,22 +1,22 @@
 ---
-title: Exportar formularios personalizados y detalles de objetos
-description: Exportar formularios personalizados y detalles de objetos
+title: Exportar formularios personalizados y detalles del objeto
+description: Exportar formularios personalizados y detalles del objeto
 author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
 source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '598'
 ht-degree: 1%
 
 ---
 
-# Exportar formularios personalizados y detalles de objetos
+# Exportar formularios personalizados y detalles del objeto
 
-Puede exportar la Información general y la información de formulario personalizada desde la sección Detalles de un objeto a un archivo de PDF. A continuación, puede imprimir o compartir el PDF con otros usuarios.
+Puede exportar la Información general y la información del formulario personalizado desde la sección Detalles de un objeto a un archivo de PDF. A continuación, puede imprimir o compartir el PDF con otros usuarios.
 
-Esta funcionalidad se admite en los siguientes objetos:
+Esta funcionalidad es compatible con los siguientes objetos:
 
 * Proyectos
 * Tareas
@@ -30,7 +30,7 @@ Esta funcionalidad se admite en los siguientes objetos:
 
 >[!NOTE]
 >
->Los campos de la sección Detalles que el administrador de Workfront o del grupo ha eliminado mediante una plantilla de diseño no se muestran.
+>No se muestran los campos de la sección Detalles que el Workfront o el administrador del grupo ha eliminado mediante una plantilla de diseño.
 
 ## Requisitos de acceso
 
@@ -41,20 +41,20 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>plan de Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>plan Adobe Workfront*</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Licencia de Adobe Workfront*</p> </td> 
-   <td> <p>Solicitar o superior para problemas</p> <p>Revisión o posterior para proyectos y tareas</p> </td> 
+   <td> <p>Solicitud de problemas o superior</p> <p>Revisar o superior para proyectos y tareas</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong> </td> 
-   <td> <p>Ver o superior para proyectos, tareas y problemas</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Ver o superior para proyectos, tareas y problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Permisos de objeto</p> </td> 
-   <td> <p>Ver o conceder permisos superiores al proyecto, la tarea o el problema cuyo formulario desee exportar</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver o permisos superiores del proyecto, tarea o problema cuyo formulario desee exportar</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,31 +63,31 @@ Debe tener lo siguiente:
 
 ## Requisitos previos
 
-Antes de comenzar, debe tener todo lo siguiente:
+Antes de comenzar, debe tener todos los elementos siguientes:
 
-1. Pida que se cree un formulario personalizado para un objeto específico desde el que desea exportarlo.
-1. Incluir el formulario personalizado en el objeto
+1. Cree un formulario personalizado para un objeto específico desde el que desee exportarlo.
+1. Adjuntar el formulario personalizado al objeto
 
    O
 
-   Tenga el acceso correcto para adjuntar un formulario personalizado y editar la información del formulario.
+   Tener el acceso correcto para adjuntar un formulario personalizado y editar la información del formulario.
 
-Para obtener información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener información sobre cómo crear formularios personalizados, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-Para obtener información sobre cómo adjuntar formularios a objetos, consulte [Adición de un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Para obtener información acerca de cómo adjuntar formularios a objetos, vea [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Exportar información en la sección Detalles
 
-La exportación de información desde la sección Detalles de un objeto es idéntica para todos los objetos admitidos.
+La exportación de información desde la sección Detalles de un objeto es idéntica para todos los objetos en los que es compatible.
 
-1. Vaya a un proyecto, tarea, portafolio, programa o problema para el que tenga al menos permisos de visualización.
-1. Haga clic en el **Elemento &quot;Detalles&quot;** en el panel izquierdo, como **Detalles de la tarea**.
-1. (Opcional) Si no hay ningún formulario personalizado adjunto al objeto, empiece a escribir el nombre de un formulario personalizado en el **Agregar campo de formulario personalizado** y haga clic en ella cuando aparezca en la lista.
+1. Vaya a un proyecto, tarea, portafolio, programa o problema para el cual tenga al menos permisos de visualización.
+1. Haga clic en el elemento **&quot;Detalles&quot;** del panel izquierdo, como **Detalles de la tarea**.
+1. (Opcional) Si no hay ningún formulario personalizado adjunto al objeto, empiece a escribir el nombre de un formulario personalizado en el **Agregar campo de formulario personalizado** y, a continuación, haga clic en él cuando aparezca en la lista.
 
-   Se pueden agregar hasta 10 formularios.
+   Puede agregar hasta 10 formularios.
 
-1. (Opcional) Actualice la información en la sección Detalles y haga clic en **Guardar cambios**.
-1. Haga clic en el **Exportar** menú desplegable en la esquina superior derecha, seleccione **Información general** o los formularios que desea exportar y, a continuación, haga clic en **Exportar**.
+1. (Opcional) Actualice la información en la sección Detalles y, a continuación, haga clic en **Guardar cambios**.
+1. Haga clic en el menú desplegable **Exportar** en la esquina superior derecha, seleccione **Información general** o los formularios que desee exportar y, a continuación, haga clic en **Exportar**.
 
    También puede seleccionar **Seleccionar todo** si desea exportar el área Información general y todos los formularios personalizados.
 
@@ -95,20 +95,21 @@ La exportación de información desde la sección Detalles de un objeto es idén
 
    >[!TIP]
    >
-   >Pueden darse los siguientes escenarios:
+   >Pueden darse los siguientes casos:
    >
    >   
    >   
-   >   * Cuando el administrador del grupo o de Workfront anula la selección de todos los campos del área Información general y el objeto tiene formularios personalizados adjuntos, no se muestra la sección Información general .
-   >   * Cuando el administrador del grupo o de Workfront anula la selección de todos los campos del área Información general y el objeto no tiene formularios personalizados adjuntos, el menú desplegable Exportar no está visible.
-   >   * Si el objeto no tiene formularios personalizados adjuntos, solo puede exportar el área Información general .
-   >   * Los campos personalizados que están detrás de la lógica y no son visibles en el formulario no se exportan. Para obtener información sobre cómo agregar lógica a un formulario personalizado, consulte [Agregar lógica de visualización y de omisión de lógica a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   * Cuando el administrador del grupo o de Workfront anula la selección de todos los campos del área Información general y el objeto tiene adjuntos formularios personalizados, la sección Información general no se muestra.
+   >   * Cuando el administrador del grupo o de Workfront anula la selección de todos los campos del área Información general y el objeto no tiene adjuntos formularios personalizados, el menú desplegable Exportar no está visible.
+   >   * Cuando el objeto no tiene formularios personalizados adjuntos, solo puede exportar el área Información general.
+   >   * Los campos personalizados que están detrás de la lógica y no son visibles en el formulario no se exportan. Para obtener información acerca de cómo agregar lógica a un formulario personalizado, vea [Agregar lógica de visualización y omitir lógica a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   
+   >
 
-
-   Se genera y descarga un archivo PDF en el equipo. El archivo PDF contiene la siguiente información:
+   Se genera un archivo de PDF y se descarga en el equipo. El archivo PDF contiene la siguiente información:
 
    * Nombre del objeto al que está adjunto el formulario
-   * Nombre del usuario que exportó el PDF
-   * Fecha y hora en que se produjo el PDF
-   * Nombre de los formularios exportados
-   * Información de los campos completados en el formulario
+   * El nombre del usuario que exportó el PDF
+   * La fecha y la hora en que se produjo el PDF
+   * El nombre de los formularios exportados
+   * Información de los campos rellenados en el formulario

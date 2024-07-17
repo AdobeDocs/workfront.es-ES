@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Puede editar un filtro en una lista o informe utilizando el modo de texto para acceder a campos que no están disponibles en la interfaz estándar y crear filtros más complejos.
 
-Para obtener más ejemplos en modo texto al crear un filtro, consulte también la sección [Ejemplos de filtros personalizados](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) en el artículo [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Para obtener más ejemplos en modo de texto al crear un filtro, vea también la sección [Ejemplos de filtros personalizados](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) en el artículo [Ejemplos de vista personalizada, filtro y agrupación: índice de artículo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Requisitos de acceso
 
@@ -66,8 +66,8 @@ Antes de empezar a utilizar el modo de texto en un informe o una lista, asegúre
 
 Para obtener más información, consulte:
 
-* [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Resumen de sintaxis de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Edición del modo de texto en un filtro
@@ -78,18 +78,18 @@ La edición de un filtro mediante el modo de texto es idéntica para informes y 
 >
 >Se recomienda crear la mayor cantidad posible de filtro en el modo estándar y, a continuación, convertir el filtro al modo de texto para editarlo.
 
-Para obtener más información sobre la creación de filtros, consulte [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obtener más información acerca de cómo generar filtros, vea [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-Para obtener información sobre cómo crear un informe, consulte [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener información sobre cómo crear un informe, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Realice una de las siguientes acciones:
 
-   1. Para acceder al filtro desde un informe, vaya al informe y, a continuación, haga clic en **Acciones de informe** > **Editar** > **Filtros** pestaña.
-   1. Para acceder al filtro desde una lista, vaya a la lista y desde el **Filtrar** , pase el ratón sobre el filtro que quiere modificar y haga clic en el **Editar** icono ![](assets/edit-icon.png).
+   1. Para acceder al filtro de un informe, ve a él y haz clic en **Acciones de informe** > **Editar** > pestaña **Filtros**.
+   1. Para acceder al filtro desde una lista, ve a la lista y, en el menú **Filtro**, pasa el ratón sobre el filtro que deseas modificar y haz clic en el icono **Editar** ![](assets/edit-icon.png).
 
       Se abre el generador de filtros.
 
-1. Clic **Agregar una regla de filtro** para empezar a añadir las condiciones del filtro, haga clic en **Modo de texto** o **Cambiar a modo de texto** en el lado derecho del generador.
+1. Haga clic en **Agregar una regla de filtro** para empezar a agregar las condiciones del filtro y, a continuación, haga clic en **Modo de texto** o en **Cambiar al modo de texto** a la derecha del generador.
 1. Agregar instrucciones de filtro mediante el modo de texto. Cada declaración de filtro puede contener las siguientes líneas e información adicional:
 
    <table style="table-layout:auto"> 
@@ -118,7 +118,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>Para obtener una lista completa de los modificadores de filtro en el modo de texto, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</p> 
+        <p>Para obtener una lista completa de modificadores de filtro en modo de texto, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificadores de filtro y condición</a>.</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Un comodín, que permite generalizar la información en un filtro y hacer referencia a la hora actual del usuario que ha iniciado sesión.</p> <p>Los caracteres comodín son opcionales.</p> <p>Sugerencia:   <p>Se recomienda utilizar caracteres comodín siempre que sea posible para que los filtros sean más dinámicos y no dupliquen los mismos filtros para cada usuario o lapsos de tiempo similares.</p> <p>Para obtener información sobre los caracteres comodín de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Resumen de variables de filtro comodín</a>.</p> </p> </td> 
+      <td> <p>Un comodín, que permite generalizar la información en un filtro y hacer referencia a la hora actual del usuario que ha iniciado sesión.</p> <p>Los caracteres comodín son opcionales.</p> <p>Sugerencia:   <p>Se recomienda utilizar caracteres comodín siempre que sea posible para que los filtros sean más dinámicos y no dupliquen los mismos filtros para cada usuario o lapsos de tiempo similares.</p> <p>Para obtener información sobre los comodines de filtro, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Información general sobre las variables de filtro comodín</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>EJEMPLO</b></span></span> 
         <p>Para filtrar por tareas asignadas al usuario que ha iniciado sesión actualmente, utilice el siguiente comando:</p> 
@@ -160,7 +160,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
 
       Cada línea de la nueva instrucción debe ir precedida por &quot;OR:`<number>`:&quot;.
 
-      Para obtener información sobre la creación de instrucciones &quot;OR&quot; en un filtro, consulte [Crear instrucciones &quot;OR&quot; en los filtros del modo de texto](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      Para obtener información acerca de cómo crear instrucciones &quot;OR&quot; en un filtro, vea [Crear instrucciones &quot;OR&quot; en los filtros de modo de texto](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
       >[!NOTE]
       >
@@ -175,7 +175,7 @@ Para obtener información sobre cómo crear un informe, consulte [Creación de u
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Clic **Salir del modo de texto** o **Listo** para guardar los cambios del modo de texto y seguir editando el informe o el filtro.
-1. Clic **Guardar + Cerrar** para guardar el informe o **Guardar filtro** para guardar el filtro en la lista.
+1. Haga clic en **Salir del modo de texto** o **Listo** para guardar los cambios del modo de texto y seguir editando el informe o el filtro.
+1. Haga clic en **Guardar + Cerrar** para guardar el informe o en **Guardar filtro** para guardar el filtro en la lista.
 
 

@@ -38,11 +38,11 @@ Workfront Goals le ayuda a definir, comunicar y lograr resultados estratégicos 
 
 Workfront Goals es un módulo complementario para la plataforma principal de administración del trabajo de Workfront. Está diseñado para trabajar junto con Workfront, con el que comparte muchos de los elementos de instalación y entidades de configuración, como usuarios, equipos, grupos y proyectos.
 
-Para obtener más información sobre las prácticas recomendadas para utilizar Workfront Goals, consulte [Introducción a Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Para obtener más información acerca de las prácticas recomendadas para usar Workfront Goals, consulte [Introducción a Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 >[!IMPORTANT]
 >
->Las metas estratégicas que administra con Workfront Goals no deben confundirse con las metas a nivel de proyecto que forman parte del caso comercial del proyecto. Para obtener información sobre los objetivos en el nivel de proyecto, consulte [Crear metas de caso comercial](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>Las metas estratégicas que administra con Workfront Goals no deben confundirse con las metas a nivel de proyecto que forman parte del caso comercial del proyecto. Para obtener información acerca de las metas a nivel de proyecto, vea [Crear metas de caso empresarial](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## Funciones incluidas en Workfront Goals
 
@@ -50,33 +50,33 @@ Actualmente, las siguientes funciones están incluidas en los objetivos de Workf
 
 * Cree objetivos trimestrales o anuales y asígnelos a usuarios, equipos, grupos o a su organización. También puede personalizar las escalas de tiempo de objetivos.
 
-  Para obtener información sobre la creación de objetivos, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+  Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 * Administre objetivos estratégicos para un usuario, un equipo, un grupo o para toda una organización dentro de la plataforma principal de Workfront.
 * Cree resultados y actividades para los objetivos de para indicar su progreso.
 
-  Para obtener información sobre los resultados y las actividades, consulte [Introducción a resultados y actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+  Para obtener información acerca de los resultados y las actividades, vea [Introducción a los resultados y las actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 * Asocie los proyectos existentes con metas para alinear las metas con el trabajo real. A medida que el proyecto progresa, también lo hace su objetivo.
 
-  Para obtener información sobre cómo asociar proyectos con objetivos, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Para obtener información acerca de cómo asociar proyectos con metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Actualice las metas, los resultados y las actividades para mantener las metas en el camino hacia la finalización.
 
-  Para obtener información sobre cómo actualizar el progreso del objetivo, consulte [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  Para obtener información sobre cómo actualizar el progreso de la meta, consulte [Actualizar progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 * Alinee los objetivos entre sí para definir claramente la estrategia de su organización y hacer que cada objetivo cuente.
 
-  Para obtener información sobre cómo alinear objetivos, consulte [Información general sobre la alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
+  Para obtener información sobre cómo alinear metas, consulte [Resumen de alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
 * Revise la jerarquía de objetivos de su organización en el diagrama de flujo de Alineación de objetivos.
 
-  Para obtener más información sobre el gráfico Alineación de objetivos, consulte [Navegue hasta la sección Alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+  Para obtener información sobre el gráfico de alineación de metas, consulte [Desplazarse por la sección de alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 * Revise las tendencias en el progreso de los objetivos en gráficos.
 
-  Para obtener información sobre los gráficos de Workfront Goals, consulte [Revise los gráficos para comprender las tendencias del progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+  Para obtener información acerca de los gráficos de Workfront Goals, vea [Revisar gráficos para entender las tendencias del progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-* Generar informes de metas y mostrar información de metas en informes de proyectos para proyectos asociados a metas. Para obtener información sobre cómo buscar información de objetivos en proyectos, consulte [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* Generar informes de metas y mostrar información de metas en informes de proyectos para proyectos asociados a metas. Para obtener información acerca de cómo buscar información de objetivos en proyectos, vea [Agregar proyectos a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 

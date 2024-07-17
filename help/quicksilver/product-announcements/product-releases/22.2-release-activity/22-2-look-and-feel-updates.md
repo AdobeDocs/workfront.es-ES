@@ -17,7 +17,7 @@ ht-degree: 0%
 
 En esta página se describen actualizaciones de poca envergadura del aspecto y funcionamiento de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo de la versión 22.2. Estas mejoras estarán disponibles en el entorno de producción al menos 2 semanas después del lanzamiento a Vista previa.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general de la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.2, consulte [Información general sobre la versión 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Página de aprobaciones actualizada
 
@@ -35,7 +35,7 @@ Las páginas de aprobación de las siguientes áreas ahora tienen una apariencia
 
 >[!NOTE]
 >
-Versión de vista previa: 24 de febrero de 2022; versión de producción estimada: implementación por fases a partir del 9 de marzo, con disponibilidad para todos los clientes antes del 18 de marzo de 2022.
+>Versión de vista previa: 24 de febrero de 2022; versión de producción estimada: implementación por fases a partir del 9 de marzo, con disponibilidad para todos los clientes antes del 18 de marzo de 2022.
 
 Hemos mejorado el rendimiento del área de documentos en Workfront. La página Documentos ahora se carga mucho más rápido.
 
@@ -55,7 +55,7 @@ Las barras de herramientas de las siguientes listas e informes ahora tienen un a
 
 >[!NOTE]
 >
-La barra de herramientas para estos mismos informes dentro de los paneles también se actualizó en Producción con el [Actualización de mantenimiento](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) el 3 de marzo de 2022.
+>La barra de herramientas para estos mismos informes dentro de los paneles también se actualizó en Producción con la [actualización de mantenimiento](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) semanal del 3 de marzo de 2022.
 
 * Informes de proyecto
 * Informes de tareas

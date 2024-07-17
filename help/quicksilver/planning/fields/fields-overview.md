@@ -35,7 +35,7 @@ Puede agregar nuevos campos en Adobe Workfront Planning que reflejen el ciclo de
 
 * Sólo puede crear campos desde la vista de tabla de una página de tipo de registro. Los campos se muestran como columnas en la vista de tabla. Todos los campos asociados a un tipo de registro también se muestran en la página de registro.
 
-  Para obtener información sobre la administración de columnas de tabla (o campos de registro), consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Para obtener información acerca de cómo administrar columnas de tabla (o campos de registro), vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
   Para obtener información sobre la administración de campos, consulte los siguientes artículos:
 
@@ -58,9 +58,9 @@ Puede agregar nuevos campos en Adobe Workfront Planning que reflejen el ciclo de
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Para obtener más información sobre la conexión de tipos de registros, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+        Para obtener más información acerca de cómo conectar tipos de registros, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * Mediante la importación de tipos de registros mediante un archivo CSV o de Excel. Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+      * Mediante la importación de tipos de registros mediante un archivo CSV o de Excel. Para obtener más información, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
    * Automáticamente:
 
@@ -79,11 +79,11 @@ Puede agregar nuevos campos en Adobe Workfront Planning que reflejen el ciclo de
 
         Puede agregar más valores o cambiar el nombre de los existentes.
 
-     Workfront Planning crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla. Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+     Workfront Planning crea campos para los tipos de registro al crear un espacio de trabajo a partir de una plantilla. Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 * No se puede acceder a los campos de Workfront Planning desde Workfront.
 
-* Los campos de Workfront solo son accesibles desde Workfront Planning cuando se conectan tipos de registro con tipos de objetos de Workfront y se agregan campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Los campos de Workfront solo son accesibles desde Workfront Planning cuando se conectan tipos de registro con tipos de objetos de Workfront y se agregan campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * Puede ver y actualizar la configuración de los campos que ha creado usted o cualquier otro usuario si tiene permisos de administración en el espacio de trabajo al que pertenece el campo.
 

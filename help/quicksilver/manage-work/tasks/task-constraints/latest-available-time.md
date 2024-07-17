@@ -24,7 +24,7 @@ Puede utilizar la restricción LAT cuando desee programar una tarea para que com
 
 Esta restricción difiere de Lo antes posible en que no obligará a que se vuelvan a programar predecesoras o sucesoras. En su lugar, solo afectará a la programación de la tarea con la que está asociado, estableciéndola en la última hora disponible en función de su relación con otras tareas.
 
-Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, consulte [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,13 +54,13 @@ La restricción Último tiempo disponible difiere de la restricción Lo más tar
 
 En esta situación:
 
-* **Última hora disponible:** El uso de la restricción de tiempo disponible más reciente en la tarea predecesora da prioridad a la restricción flexible de la tarea sucesora.
+* **Última hora disponible:** Si se usa la restricción de última hora disponible en la tarea predecesora, se da prioridad a la restricción flexible de la tarea sucesora.
 
-  **Ejemplo:** Por ejemplo, la Tarea A es la predecesora de la Tarea B. La Tarea A tiene la última restricción de tiempo disponible y la Tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del comienzo del proyecto.
+  **Ejemplo:** Por ejemplo, la Tarea A es predecesora de la Tarea B. La Tarea A tiene la última restricción de tiempo disponible y la Tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del comienzo del proyecto.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Lo más tarde posible:** En este escenario, si se utiliza la restricción Lo más tarde posible en la tarea predecesora, se da prioridad a la tarea predecesora.
+* **Lo más tarde posible:** En este escenario, el uso de la restricción Lo más tarde posible en la tarea predecesora da prioridad a la tarea predecesora.
 
   **Ejemplo:** Por ejemplo, la Tarea A es predecesora de la Tarea B. La Tarea A tiene la restricción Lo más tarde posible y la Tarea B tiene la restricción Lo antes posible. En este caso, la tarea A está programada lo más cerca posible del final del proyecto.
 

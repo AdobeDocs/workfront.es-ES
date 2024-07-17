@@ -126,9 +126,9 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * La sección Actualizaciones muestra información en las siguientes pestañas:
 
-   * **Comentarios**: muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información sobre la actualización de objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Actividad del sistema**: Muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña Actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Todo (solo lectura)**: muestra tanto los comentarios del usuario como los de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información sobre la actualización de objetos, consulte [Actualizar trabajo](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Comentarios**: Muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información acerca de cómo actualizar objetos, vea [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Actividad del sistema**: muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña Actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Todos (solo lectura)**: muestra los comentarios del usuario y los comentarios de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información acerca de cómo actualizar objetos, vea [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
@@ -155,13 +155,13 @@ Depending on what objects you access the commenting experience for, you might fi
    * Iteraciones
    * Tarjeta ad hoc
 
-     Para obtener más información sobre actualizaciones de tarjetas, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+     Para obtener más información acerca de las actualizaciones en las tarjetas, consulte [Agregar una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * Los objetos siguientes no tienen una ficha Todos y la experiencia de la ficha Comentarios coincide con la de la mayoría de los objetos:
 
    * Metas
 
-     Para obtener más información sobre las actualizaciones de los objetivos, consulte [Administrar comentarios de metas](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     Para obtener más información acerca de las actualizaciones sobre las metas, vea [Administrar comentarios sobre las metas](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -196,8 +196,8 @@ En la tabla siguiente se muestran los objetos cuyos comentarios también aparece
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Objeto en el que se añadió la actualización original</strong> </th> 
-   <th> <p><strong>Objetos de mayor clasificación en los que también aparece la actualización original</strong> </p> </th> 
+   <th><strong>Objeto donde se agregó la actualización original</strong> </th> 
+   <th> <p><strong>Objetos de clasificación más alta donde también aparece la actualización original</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -290,13 +290,13 @@ Tenga en cuenta lo siguiente al ver las actualizaciones para usuarios y equipos:
 
 * En la sección Actualizaciones para usuarios y equipos, puede ver las actualizaciones introducidas en los últimos 90 días.
 
-  Si desea ver todas las actualizaciones realizadas en un usuario o equipo, más allá del límite de 90 días, puede crear un informe para notas. El informe no debe tener un filtro de tiempo que muestre todas las actualizaciones realizadas para usuarios o equipos. Para obtener más información, consulte [Creación de un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Si desea ver todas las actualizaciones realizadas en un usuario o equipo, más allá del límite de 90 días, puede crear un informe para notas. El informe no debe tener un filtro de tiempo que muestre todas las actualizaciones realizadas para usuarios o equipos. Para obtener más información, consulte [Crear un informe personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Limitaciones al introducir comentarios en nombre de otro usuario
 
 Los administradores de Adobe Workfront y de grupos pueden iniciar sesión como otros usuarios y realizar acciones en Workfront, como introducir comentarios.
 
-Para obtener más información, consulte [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Para obtener más información, vea [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 Tenga en cuenta lo siguiente al iniciar sesión como otro usuario y agregar comentarios:
 
@@ -319,4 +319,4 @@ El informe permite ver lo siguiente:
 * Si la prioridad ha cambiado durante el transcurso de un proyecto
 * Si el propietario de un proyecto ha cambiado
 
-Para obtener más información, consulte [Informe sobre el área de Actualizaciones](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Para obtener más información, consulte [Informe sobre el área de actualizaciones](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

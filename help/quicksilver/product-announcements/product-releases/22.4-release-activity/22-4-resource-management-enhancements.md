@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 22.4 en el entorno de vista previa. Estas mejoras estarán disponibles la semana del 3 de octubre de 2022.
 
-Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Información general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 22.4, consulte [Descripción general de la versión 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Mostrar todos los usuarios del Distribuidor de cargas de trabajo de un proyecto
 
@@ -25,21 +25,21 @@ Para permitirle tener visibilidad de todos los usuarios del sistema y de su capa
 
 Para obtener más información, consulte [Asignar trabajo en el Distribuidor de cargas de trabajo arrastrando y soltando](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
 ## Mostrar todos los usuarios con un rol seleccionado en el Distribuidor de cargas de trabajo al asignar trabajo de forma masiva
 
 Con el fin de facilitar la búsqueda de la persona adecuada al reemplazar roles de trabajo por usuarios en el Distribuidor de cargas de trabajo de forma masiva, hemos mejorado la forma en que se rellena la lista de usuarios disponibles. Ahora puede ver todos los usuarios del sistema que pueden desempeñar la función seleccionada en dos áreas independientes en la misma lista de usuarios:
 
-* La primera área (Asignaciones sugeridas) muestra los usuarios identificados por la lógica de Asignaciones inteligentes. Para obtener más información, consulte [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+* La primera área (Asignaciones sugeridas) muestra los usuarios identificados por la lógica de Asignaciones inteligentes. Para obtener más información, vea [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 * La segunda área (Otras asignaciones) muestra todos los usuarios que pueden desempeñar la función seleccionada.
 
 Antes de esta mejora, solo podía ver la lista de usuarios disponibles para asignar según la lógica de Asignaciones inteligentes.
 
-Para obtener información sobre cómo asignar trabajo de forma masiva mediante el Distribuidor de cargas de trabajo, consulte [Asignación de trabajo por lotes mediante el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Para obtener información acerca de cómo asignar trabajo de forma masiva mediante el Distribuidor de cargas de trabajo, vea [Asignar trabajo de forma masiva mediante el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Vea un vídeo de demostración de esta función](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
 ## Mejoras del Distribuidor de cargas de trabajo para usuarios con licencias de trabajo y configuración de problemas
 
@@ -53,7 +53,7 @@ Antes de estas mejoras, solo los usuarios con licencia de planificación podían
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Navegación por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [Navegue por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

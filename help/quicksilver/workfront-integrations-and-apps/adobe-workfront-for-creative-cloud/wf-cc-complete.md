@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Marcar elementos de trabajo como completados con [!DNL Adobe Workfront] plugin
+# Marcar los elementos de trabajo como completados usando el complemento [!DNL Adobe Workfront]
 
-Puede permanecer en lo siguiente [!DNL Adobe Creative Cloud] aplicaciones y complete sin problemas su trabajo en [!DNL Adobe Workfront] con el complemento:
+Puede permanecer en las [!DNL Adobe Creative Cloud] aplicaciones siguientes y completar sin problemas su trabajo en [!DNL Adobe Workfront] con el complemento:
 
 {{cc-app-list}}
 
@@ -37,16 +37,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> --> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Debe tener un [!DNL Adobe Creative Cloud] licencia además de una [!DNL Workfront] licencia.</td> 
+   <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] al objeto que desea completar.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] al objeto que desea completar.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
@@ -54,23 +54,23 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 ## Completar un elemento de trabajo
 
-1. Haga clic en **[!UICONTROL Menú]** en la esquina superior derecha, y luego seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
+1. Haga clic en el icono **[!UICONTROL Menú]** en la esquina superior derecha y seleccione **[!UICONTROL Lista de trabajos]**. También puede utilizar el menú para desplazarse a los objetos principales.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Desde el **[!UICONTROL Lista de trabajos]**, seleccione la tarea o el problema que desee marcar como completado.
-1. Clic **[!UICONTROL Listo]**.  Si es el único usuario asignado a esta tarea o problema, esto marca el elemento [!UICONTROL Completar] o [!UICONTROL Resuelto] in [!DNL Workfront].
-1. (Condicional) Si hay varios usuarios asignados a esta tarea o problema, haga clic en [!UICONTROL Listo] abre un menú desplegable. A continuación, puede:
+1. En **[!UICONTROL Lista de trabajos]**, seleccione la tarea o el problema que desee marcar como completado.
+1. Haga clic en **[!UICONTROL Listo]**.  Si usted es el único usuario asignado a esta tarea o problema, esto marca el elemento [!UICONTROL Completado] o [!UICONTROL Resuelto] en [!DNL Workfront].
+1. (Condicional) Si se asignan varios usuarios a esta tarea o problema, al hacer clic en [!UICONTROL Listo] se abrirá un menú desplegable. A continuación, puede:
 
-   Clic **[!UICONTROL Terminé mi parte]** si otros usuarios también deben realizar su trabajo para que se complete la tarea o el problema.
+   Haga clic en **[!UICONTROL Listo con mi parte]** si otros usuarios también deben hacer su trabajo para que se complete la tarea o el problema.
 
    O
 
-   Clic **[!UICONTROL Completar]** (para tareas) o **[!UICONTROL Resuelto]** (para problemas) si no es necesario realizar más trabajo en la tarea o el problema. Esto marca el elemento [!UICONTROL Completar] o [!UICONTROL Resuelto] in [!DNL Workfront].
+   Haga clic en **[!UICONTROL Completar]** (para tareas) o **[!UICONTROL Resuelto]** (para problemas) si no es necesario trabajar más en la tarea o el problema. Esto marca el elemento [!UICONTROL Completado] o [!UICONTROL Resuelto] en [!DNL Workfront].
 
    >[!NOTE]
    >
-   >Si el elemento de trabajo tiene predecesoras, el botón Listo aparece en gris hasta que dichas predecesoras se marquen como completadas. Para ver los predecesores dentro de [!DNL Workfront], haga clic en el nombre de la tarea.
+   >Si el elemento de trabajo tiene predecesoras, el botón Listo aparece en gris hasta que dichas predecesoras se marquen como completadas. Para ver las tareas predecesoras dentro de [!DNL Workfront], haga clic en el nombre de la tarea.
    >![](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->

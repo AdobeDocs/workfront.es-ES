@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Final beta 2018.3
-description: Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión final de la versión beta 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 10 de octubre de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
+title: Final de Beta 2018.3
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de Beta 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 10 de octubre de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# Final beta 2018.3
+# Final de Beta 2018.3
 
-Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión final de la versión beta 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 10 de octubre de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión final de Beta 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 10 de octubre de 2018. Estará disponible en el entorno de producción en noviembre de 2018.
 
 >[!NOTE]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.3, consulte  [información general sobre la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.3, consulte  [resumen de la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versión beta final de 2018.3 incluye las siguientes mejoras:
+La versión final de Beta 2018.3 incluye las siguientes mejoras:
 
 * [Sincronización bidireccional entre el Calendario principal y el Calendario de Outlook](#two-way-sync-between-home-calendar-and-outlook-calendar)
 * [Actualizaciones para agregar nuevas tareas en Inicio](#updates-for-adding-new-tasks-in-home)
-* [Herramientas de marcado de revisión ahora ampliadas de forma predeterminada](#proofing-markup-tools-now-expanded-by-default)
+* [Herramientas de marcado de revisión ahora expandidas de forma predeterminada](#proofing-markup-tools-now-expanded-by-default)
 * [Integración de documentos de Microsoft OneDrive](#microsoft-onedrive-document-integration)
-* [Integración de Workfront para Microsoft Teams](#workfront-for-microsoft-teams-integration)
-* [Integración actualizada de Workfront para Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
+* [Integración de Workfront for Microsoft Teams](#workfront-for-microsoft-teams-integration)
+* [Se ha actualizado Workfront para la integración con Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Mejoras en la aplicación móvil de Workfront](#workfront-mobile-app-improvements)
 
 ## Sincronización bidireccional entre el Calendario principal y el Calendario de Outlook {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,14 +40,14 @@ Al configurar el Calendario principal para que se sincronice con el Calendario d
 
 Anteriormente, sólo se podían sincronizar elementos desde el Calendario de Outlook al Calendario principal.
 
-Para obtener información sobre cómo configurar el Calendario principal para que se sincronice con Outlook, consulte [Configurar la configuración de la vista Calendario de Inicio](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Para obtener información sobre cómo configurar el Calendario principal para que se sincronice con Outlook, consulte [Configurar la configuración de la vista Calendario principal](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Actualizaciones para agregar nuevas tareas en Inicio {#updates-for-adding-new-tasks-in-home}
 
 * Ahora puede actualizar la fecha planificada de finalización en una tarea personal.
 * Ahora puede asignar equipos y funciones a las solicitudes y tareas de proyecto creadas en Inicio.
 
-Para obtener más información sobre las actualizaciones anteriores, consulte  [Crear elementos de trabajo desde el área de Inicio](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Para obtener más información sobre las actualizaciones anteriores, consulte  [Crear elementos de trabajo desde el área de inicio](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Herramientas de marcado de revisión ahora ampliadas de forma predeterminada {#proofing-markup-tools-now-expanded-by-default}
 
@@ -68,7 +68,7 @@ Antes de esta mejora, podía vincular los siguientes proveedores de almacenamien
 * Dropbox
 * WebDAM
 
-Para obtener información sobre las integraciones de documentos, consulte [Configurar integraciones de documentos](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Para obtener información acerca de las integraciones de documentos, vea [Configurar integraciones de documentos](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Integración de Workfront para Microsoft Teams {#workfront-for-microsoft-teams-integration}
 
@@ -86,7 +86,7 @@ La integración está disponible sin coste adicional para todos los clientes que
 
 >[!NOTE]
 >
-> Se han modificado algunas áreas de la integración indicadas en el siguiente vídeo. Para obtener la información más reciente sobre Workfront para Microsoft Teams, consulte la [[!DNL Adobe Workfront for Microsoft Teams]: índice del artículo](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) sección.
+> Se han modificado algunas áreas de la integración indicadas en el siguiente vídeo. Para obtener la información más reciente acerca de Workfront para Microsoft Teams, vea la sección [[!DNL Adobe Workfront for Microsoft Teams]: índice de artículo ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
 
 ## Integración actualizada de Workfront para Adobe Creative Cloud {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -137,7 +137,7 @@ Las siguientes nuevas funciones se lanzarán a las tiendas de aplicaciones de iO
 
 * Compatibilidad con la orientación horizontal para dispositivos iOS
 
-  Ahora admitimos completamente las orientaciones horizontal y vertical tanto para las aplicaciones móviles de iOS como para las de Android, excepto para los siguientes tamaños de iPhone:
+  Ahora admitimos completamente las orientaciones horizontal y vertical tanto para las aplicaciones móviles de iOS como de Android, excepto para los siguientes tamaños de iPhone:
 
    * IPHONE 5
    * iPhone 5S

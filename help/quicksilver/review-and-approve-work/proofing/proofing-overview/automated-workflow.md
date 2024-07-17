@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-Los flujos de trabajo automatizados le permiten crear una serie de fases de revisión secuenciales o paralelas, establecer dependencias entre estas fases y limitar su visibilidad a determinados usuarios. Si hay etapas interdependientes en el proceso de revisión, los flujos de trabajo automatizados mueven la prueba a través de las etapas automáticamente, notificando a los revisores y aprobadores correspondientes a lo largo del proceso. Para obtener información sobre la configuración de un flujo de trabajo automatizado, consulte [Creación de una prueba avanzada con un flujo de trabajo automatizado](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Los flujos de trabajo automatizados le permiten crear una serie de fases de revisión secuenciales o paralelas, establecer dependencias entre estas fases y limitar su visibilidad a determinados usuarios. Si hay etapas interdependientes en el proceso de revisión, los flujos de trabajo automatizados mueven la prueba a través de las etapas automáticamente, notificando a los revisores y aprobadores correspondientes a lo largo del proceso. Para obtener información sobre cómo configurar un flujo de trabajo automatizado, consulte [Crear una revisión avanzada con un flujo de trabajo automatizado](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Ejemplos:**  Los flujos de trabajo automatizados le ayudan a administrar procesos de revisión de pruebas complejos como:
+**Ejemplos:** Los flujos de trabajo automatizados le ayudan a administrar procesos de revisión de pruebas complejos como:
 
 * Cuando distintos grupos o revisores necesitan revisar el contenido en un orden determinado
 * Cuando hay dependencias entre la actividad de los usuarios cuando revisan el contenido
@@ -56,7 +56,7 @@ Los comentarios añadidos por los participantes privados del escenario no se inc
 
 El diagrama de flujo de trabajo es una representación visual del proceso de revisión de la prueba. Muestra el orden de las fases y las dependencias entre fases a medida que crea o visualiza los detalles de una prueba. Cualquier etapa privada se muestra con un símbolo de clave.
 
-![intro-to-aw-example-Diagram.png](assets/intro-to-aw-example-diagram-350x199.png)
+![diagrama-ejemplo-introducción-a-aw.png](assets/intro-to-aw-example-diagram-350x199.png)
 
 En las pruebas activas, las dependencias de escenario se muestran con una línea gris discontinua para las etapas inactivas o una línea negra sólida para las etapas activas. Las fases se muestran en verde si el proceso de aprobación se completó dentro de su fecha límite especificada. Las etapas que se aproximan a sus plazos se muestran en naranja y las etapas que han superado sus plazos se muestran en rojo.
 

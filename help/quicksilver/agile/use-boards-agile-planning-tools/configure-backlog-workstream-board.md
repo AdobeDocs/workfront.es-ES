@@ -26,7 +26,7 @@ Puede elegir mostrar una columna de registro de pendientes en un tablero de un f
 >
 >Si agrega una tarjeta nueva en la columna de registro de pendientes que no coincide con los criterios de consulta, la tarjeta desaparecerá del registro de asuntos pendientes cuando se actualice el tablero y solo estará disponible en la lista de tarjetas. Puede cambiar la consulta en cualquier momento para ajustar qué tarjetas aparecen en la columna de registro de pendientes.
 
-La columna de registro de pendientes y la consulta no están disponibles en tableros independientes. Para obtener información sobre cómo añadir una columna de entrada a un tablero independiente, consulte [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+La columna de registro de pendientes y la consulta no están disponibles en tableros independientes. Para obtener información acerca de cómo agregar una columna de entrada a un tablero independiente, vea [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisitos de acceso
 
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 ## Configurar el registro de pendientes en una placa de flujo de trabajo
 
@@ -57,18 +57,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Abra el flujo de trabajo en el que desee trabajar. Para abrir un flujo de trabajo, haga clic en [!UICONTROL **Ver flujo de trabajo**].
 1. Haga clic en cualquier tablero del flujo de trabajo para abrirlo.
-1. Clic [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
+1. Haga clic en [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
 1. Activar [!UICONTROL **Incluir una columna de registro de pendientes en este tablero**].
 
    La columna de registro de pendientes se agrega a la izquierda del tablero. Permanece en blanco hasta que se le aplica una consulta.
 
-1. Expandir [!UICONTROL **Consulta de trabajo pendiente**].
+1. Expandir [!UICONTROL **consulta de registro de pendientes**].
 
    >[!NOTE]
    >
    >Es posible que ya se haya aplicado una consulta predeterminada al registro de pendientes, que muestre todos los elementos de trabajo de la lista de tarjetas que tienen un estado y el estado no es Completo.
 
-1. Clic [!UICONTROL **Añadir condición**] y haga clic en el campo &quot;empty&quot;.
+1. Haga clic en [!UICONTROL **Agregar condición**] y haga clic en el campo &quot;vacío&quot;.
 1. Seleccione el campo por el que desea realizar la consulta.
 
    Los campos que puede elegir son los campos predeterminados de una tarjeta.
@@ -83,11 +83,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Por ejemplo, si elige &quot;Fecha de vencimiento&quot; y &quot;existe&quot;, el registro de pendientes mostrará las tarjetas con fechas de vencimiento asignadas. Las tarjetas que no tengan fecha de vencimiento no se incluirán en el registro de pendientes.
 
-1. (Opcional) Haga clic en [!UICONTROL **Añadir condición**] para agregar otra condición a la consulta.
+1. (Opcional) Haga clic en [!UICONTROL **Agregar condición**] para agregar otra condición a la consulta.
 
-   ![Consulta de Registro de asuntos pendientes](assets/backlog-query-wrkstrm-board.png)
+   ![Consulta de registro de pendientes](assets/backlog-query-wrkstrm-board.png)
 
 1. (Opcional) Haga clic en [!UICONTROL **Crear grupo**] para agregar un grupo de condiciones conectadas a la primera condición con un operador OR.
-1. Clic [!UICONTROL **Guardar consulta**].
+1. Haga clic en [!UICONTROL **Guardar consulta**].
 
    La consulta se aplica y las tarjetas que cumplen los criterios aparecen en la columna registro de pendientes.

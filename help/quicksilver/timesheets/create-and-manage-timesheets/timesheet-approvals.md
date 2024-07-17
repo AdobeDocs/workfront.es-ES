@@ -19,7 +19,7 @@ El proceso de aprobación de hojas de horas proporciona a los administradores vi
 
 Adobe Workfront permite configurar las aprobaciones de plantillas de horas para que sean compatibles en esta área.
 
-Para obtener información sobre cómo enviar una plantilla de horas, consulte [Enviar hoja de horas para su aprobación](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+Para obtener información sobre cómo enviar una hoja de horas, consulte [Enviar una hoja de horas para su aprobación](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Requisitos de acceso
 
@@ -50,23 +50,23 @@ Normalmente, los administradores funcionales o el personal de recursos humanos a
 
 Se define un aprobador de hoja de horas al crear el perfil de hoja de horas. Debe contar con una licencia de planificación para ser designado como aprobador.
 
-Para obtener más información sobre la designación de aprobadores de hojas de horas, consulte la sección [Crear o editar un perfil de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) en el artículo [Crear, editar y asignar perfiles de hojas de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Para obtener más información sobre cómo designar aprobadores de hojas de horas, consulte la sección [Crear o editar un perfil de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) en el artículo [Crear, editar y asignar perfiles de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Aprobar una hoja de horas
 
-Puede aprobar todas las hojas de horas que se hayan enviado donde haya sido designado como aprobador. Cuando se envía una hoja de horas para su aprobación, se muestra en la **Aprobaciones** área de su **Inicio**  página. Para obtener más información, consulte [Aprobación del trabajo](../../review-and-approve-work/manage-approvals/approving-work.md).
+Puede aprobar todas las hojas de horas que se hayan enviado donde haya sido designado como aprobador. Cuando se envía una hoja de horas para su aprobación, la hoja de horas se enumera en el área de **Aprobaciones** de su **Hogar**  página. Para obtener más información, consulte [Aprobación de trabajo](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Si el administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario, se le notificará una vez aprobada o rechazada la plantilla de horas. Para obtener información sobre la activación de notificaciones de eventos, consulte [Tipos de notificación de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Si el administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario, se le notificará una vez aprobada o rechazada la plantilla de horas. Para obtener información acerca de cómo habilitar las notificaciones de eventos, vea [Tipos de notificaciones de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Para aprobar una hoja de horas:
 
-1. Haga clic en **Menú principal** icono ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Clic **Plantillas de horas**.
-1. Seleccione el **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solo las plantillas de horas que apruebe
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en **Plantillas de horas**.
+1. Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe
 
    O
 
-   Seleccione el **Mis aprobaciones de hojas de horas** filtro en la parte superior de la lista de plantilla de horas.
+   Seleccione el filtro **Mis aprobaciones de hojas de horas** en la parte superior de la lista de hojas de horas.
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -76,24 +76,24 @@ Para aprobar una hoja de horas:
    >
    >   
    >   
-   >   * [Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Opcional) Haga clic en **búsqueda** icono ![](assets/search-icon.png) en la parte superior de la lista de hojas de horas y escriba una palabra clave para buscar una hoja de horas específica. Puede buscar un lapso de tiempo, o el nombre de un propietario o aprobador.
+1. (Opcional) Haga clic en el icono **buscar** ![](assets/search-icon.png) en la parte superior de la lista de hojas de horas y escriba una palabra clave para buscar una hoja de horas específica. Puede buscar un lapso de tiempo, o el nombre de un propietario o aprobador.
 1. Haga clic en el lapso de tiempo de la hoja de horas que desee aprobar. Se abre la hoja de horas.
 
    >[!TIP]
    >
-   >Las hojas de horas pendientes de aprobación tienen un estado de [!UICONTROL Enviado].
+   >Las hojas de horas que esperan aprobación tienen un estado de [!UICONTROL Enviado].
 
 
-1. Clic **Aprobar**
+1. Haga clic en **Aprobar**
 
    O
 
-   Si desea rechazar la plantilla de horas, haga clic en **Rechazar** en la esquina inferior izquierda de la plantilla de horas.
+   Si desea rechazar la hoja de horas, haga clic en **Rechazar** en la esquina inferior izquierda de la hoja de horas.
 
-   Si se aprueba, el estado de la plantilla de horas cambia a **Cerrado**.
+   Si se aprueba, el estado de la hoja de horas cambiará a **Cerrado**.
 
    Si se rechaza, el estado de la hoja de horas cambia a **Rechazado**.

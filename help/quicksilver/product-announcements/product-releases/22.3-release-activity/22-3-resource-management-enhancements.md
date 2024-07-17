@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Mejoras en la gestión de recursos
 
-Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general de la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 22.3 en el entorno de vista previa. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 11 de julio de 2022. Para obtener una lista de todos los cambios disponibles con la versión 22.3, consulte [Información general sobre la versión 22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Preferencias de ordenación y mejoras de uso en el Distribuidor de cargas de trabajo
 
@@ -32,5 +32,5 @@ Para mejorar su experiencia al utilizar el Distribuidor de cargas de trabajo, he
 * Un diseño actualizado y fácil de leer para las fechas proyectadas.
 
 
-Para obtener más información, consulte [Navegación por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información, consulte [Desplazarse por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

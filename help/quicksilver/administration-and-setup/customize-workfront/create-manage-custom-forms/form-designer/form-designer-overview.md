@@ -33,17 +33,17 @@ Un botón en la parte superior del nuevo diseñador de formularios y del creador
 
 Con el nuevo diseñador de formularios, se ha agregado la capacidad de:
 
-* **Copiar un campo**: Ahora puede copiar campos existentes haciendo clic en el icono Copiar en los campos directamente desde el lienzo.
+* **Copiar un campo**: ahora puede copiar campos existentes haciendo clic en el icono Copiar en los campos directamente desde el lienzo.
 
-* **Cambio del tamaño del texto descriptivo**: Ahora puede asignar tamaños pequeños, medianos o grandes a los campos de texto descriptivo. También puede utilizarlos en la misma fila con otros campos.
+* **Cambiar el tamaño del texto descriptivo**: ahora puede asignar tamaños pequeños, medianos o grandes a los campos de texto descriptivo. También puede utilizarlos en la misma fila con otros campos.
 
-* **Utilizar una sección predeterminada**: Si el creador del formulario no ha agregado una sección en la parte superior del formulario, ahora se puede ver una sección Predeterminada en el lienzo para que los usuarios puedan ajustar los permisos de los campos que no tengan asignada ninguna sección personalizada.
+* **Usar una sección predeterminada**: si el creador del formulario no ha agregado una sección en la parte superior del formulario, ahora se ve una sección predeterminada en el lienzo para que los usuarios puedan ajustar los permisos de los campos que no tengan asignada ninguna sección personalizada.
 
   >[!NOTE]
   >
   >La sección Predeterminada no está visible dentro de los objetos una vez que el formulario está adjunto al objeto.
 
-* **Usar un campo de búsqueda externa**: este tipo de campo llama a una API externa y devuelve valores como opciones en un campo desplegable.
+* **Usar un campo de búsqueda externa**: Este tipo de campo llama a una API externa y devuelve valores como opciones en un campo desplegable.
 
 ## Funcionalidad quitada del diseñador de formularios
 

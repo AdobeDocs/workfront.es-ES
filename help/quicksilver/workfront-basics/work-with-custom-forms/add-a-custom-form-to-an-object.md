@@ -64,7 +64,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administre permisos al objeto para el que desea adjuntar un formulario personalizado.</p> <p>Ver o permisos superiores del formulario personalizado, con permiso para <b>Adjuntar a datos personalizados</b> objetos (proyectos, tareas y problemas). Para obtener más información, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>.</p> <p>Importante: Si no tiene una licencia de planificación con acceso administrativo a Forms personalizado, debe tener permisos específicos para ver al menos el formulario personalizado, como se describe en <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>. Se le deben otorgar estos permisos incluso si el formulario es visible en todo el sistema. </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos</a>.</p> </td> 
+   <td> <p>Administre permisos al objeto para el que desea adjuntar un formulario personalizado.</p> <p>Ver o permisos superiores en el formulario personalizado, con permiso para <b>Adjuntar a datos personalizados</b> objetos (proyectos, tareas y problemas). Para obtener más información, vea <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>.</p> <p>Importante: Si no cuenta con una licencia de planificación con acceso administrativo a Forms personalizado, debe tener permisos específicos para ver al menos el formulario personalizado, como se describe en <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>. Se le deben otorgar estos permisos incluso si el formulario es visible en todo el sistema. </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,8 +87,8 @@ Puede agregar un formulario personalizado a un objeto de dos formas:
 ### Agregar un formulario personalizado a un objeto editando el objeto {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Vaya al objeto donde desea agregar el formulario personalizado.
-1. Haga clic en **Más** menú ![](assets/more-icon.png), luego haga clic en **Editar** ![](assets/edit-icon.png).
-1. Clic **Forms personalizado** > **Añadir Forms**, luego seleccione hasta 10 formularios en el menú desplegable.
+1. Haga clic en el menú **Más** ![](assets/more-icon.png) y luego haga clic en **Editar** ![](assets/edit-icon.png).
+1. Haga clic en **Forms personalizado** > **Agregar Forms** y, a continuación, seleccione hasta 10 formularios en el menú desplegable.
 
 1. (Opcional) Actualice la información de los campos editables del formulario personalizado.
 
@@ -99,8 +99,8 @@ Puede agregar un formulario personalizado a un objeto de dos formas:
 ### Agregar un formulario personalizado a un objeto desde el área de Detalles {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Vaya al objeto donde desea agregar el formulario personalizado.
-1. Haga clic en **`<Object type>`Detalles** en el panel izquierdo. Por ejemplo, haga clic en **Detalles del proyecto** para agregar formularios personalizados a un proyecto o **Detalles del problema** para agregar formularios personalizados a un problema.
-1. Haga clic en **Añadir formulario personalizado** en la esquina superior derecha, seleccione hasta 10 formularios personalizados en la lista que se muestra.
+1. Haga clic en la sección **`<Object type>`Detalles** en el panel izquierdo. Por ejemplo, haga clic en **Detalles del proyecto** para agregar formularios personalizados a un proyecto o en **Detalles del problema** para agregar formularios personalizados a un problema.
+1. Haga clic en el campo **Agregar formulario personalizado** en la esquina superior derecha y, a continuación, seleccione hasta 10 formularios personalizados de la lista que se muestra.
 
    Si el formulario contiene campos obligatorios (marcados con un asterisco rojo), no tiene que completarlos en este momento.
 
@@ -125,19 +125,19 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Agregar formularios personalizados a objetos es idéntico para todos los objetos, excepto para los proyectos.
 >
->Para obtener información sobre cómo agregar formularios personalizados a proyectos de forma masiva, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+>Para obtener información sobre cómo agregar formularios personalizados a proyectos en lotes, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Navegue hasta una lista de objetos.
 1. Seleccione varios objetos de la lista.
 
-1. Haga clic en **Más** menú ![](assets/more-icon.png), luego haga clic en **Editar** icono  ![](assets/edit-icon.png).
+1. Haga clic en el menú **Más** ![](assets/more-icon.png) y luego haga clic en el icono **Editar** ![](assets/edit-icon.png).
 
    O
 
-   Haga clic en **Editar** icono ![](assets/edit-icon.png) al principio de la lista.
-1. Clic **Forms personalizado** en el panel izquierdo.
-1. en el **Realización de una selección** , seleccione el formulario que desea asociar con todos los objetos seleccionados.
+   Haga clic en el icono **Editar** ![](assets/edit-icon.png) en la parte superior de la lista.
+1. Haga clic en **Forms personalizado** en el panel izquierdo.
+1. en el menú desplegable **Realizar una selección**, seleccione el formulario que desee asociar con todos los objetos seleccionados.
 
    >[!NOTE]
    >

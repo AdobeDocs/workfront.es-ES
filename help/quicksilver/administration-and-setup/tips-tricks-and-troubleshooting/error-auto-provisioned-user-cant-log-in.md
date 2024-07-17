@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser un [!DNL Workfront] administrador. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte a su [!DNL Workfront] administrador si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo [!DNL Workfront] El administrador puede modificar su nivel de acceso. Consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de [!DNL Workfront]. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,11 +55,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Cree un nivel de acceso básico con una licencia de solicitud:
 
-1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Niveles de acceso]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Niveles de acceso]**.
 
-1. Clic **[!UICONTROL Nuevo nivel de acceso]**.
-1. Introduzca una **[!UICONTROL Nombre]**.
-1. En el **[!UICONTROL Tipo de licencia]** en el menú desplegable, seleccione Solicitud.
+1. Haga clic en **[!UICONTROL Nuevo nivel de acceso]**.
+1. Escriba un **[!UICONTROL Nombre]**.
+1. En el menú desplegable **[!UICONTROL Tipo de licencia]**, seleccione Solicitud.
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
 Después de crear un nivel de acceso con una licencia de solicitud, pida al usuario que inicie sesión con sus credenciales de SSO.

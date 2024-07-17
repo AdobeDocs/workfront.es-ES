@@ -21,7 +21,7 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-Como administrador de Adobe Workfront, puede crear estados personalizados para proyectos, tareas y problemas. Pueden ser para usuarios de todo el sistema de Workfront o para grupos o subgrupos específicos. Para obtener más información sobre los estados, consulte [Resumen de estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Como administrador de Adobe Workfront, puede crear estados personalizados para proyectos, tareas y problemas. Pueden ser para usuarios de todo el sistema de Workfront o para grupos o subgrupos específicos. Para obtener más información sobre los estados, vea [Información general sobre los estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Puede agregar un estado personalizado para que lo utilice toda la organización o un solo grupo.
 
-Al crear un estado personalizado para toda la organización, puede configurarlo para que todos los grupos del sistema puedan utilizarlo sin editarlo. O puede configurarlo para que los administradores de grupos puedan modificarlo para sus grupos, como se explica en [Crear o editar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Al crear un estado personalizado para toda la organización, puede configurarlo para que todos los grupos del sistema puedan utilizarlo sin editarlo. O puede configurarlo para que los administradores del grupo puedan modificarlo para sus grupos, como se explica en [Crear o editar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto** > **Estados**.
 
@@ -80,13 +80,13 @@ Al crear un estado personalizado para toda la organización, puede configurarlo 
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Seleccione la pestaña del tipo de objeto (**Proyecto**, **Tareas**, o **Problemas**) que desee asociar con el estado.
+1. Seleccione la ficha del tipo de objeto (**Proyecto**, **Tareas** o **Problemas**) que desea asociar con el estado.
 
 1. Si está creando un nuevo estado, haga clic en **Agregar nuevo estado**.
 
    O
 
-   Si está editando un estado existente, pase el ratón sobre él y haga clic en el **Editar** que se muestra a la derecha.
+   Si está editando un estado existente, pase el ratón sobre él y haga clic en el icono **Editar** que se muestra a la derecha.
 
    ![](assets/custom-status-edit.png)
 
@@ -134,7 +134,7 @@ Al crear un estado personalizado para toda la organización, puede configurarlo 
        <li>Un usuario comienza a editar un proceso de aprobación que utiliza un estado desbloqueado. Un mensaje alerta al usuario sobre el estado de desbloqueado para que pueda evaluar si sería una buena idea volver a bloquearlo o reemplazarlo.</li>
        <li>Un proceso de aprobación de nivel de sistema con un estado desbloqueado está adjunto a un objeto y el estado se eliminó para el grupo asignado al objeto. Cuando un miembro del grupo va a la sección Approvals del objeto, un mensaje explica que no se puede iniciar el proceso de aprobación del objeto.</li>
        </ul>
-       <p>Para obtener más información sobre los estados de bloqueo, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Estados bloqueados y desbloqueados en el nivel del sistema</a>.</p>
+       <p>Para obtener más información sobre los estados de bloqueo, vea <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Estados bloqueados y desbloqueados en el nivel del sistema</a>.</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ Al crear un estado personalizado para toda la organización, puede configurarlo 
 
 1. Haga clic en **Guardar**.
 
-   Para obtener instrucciones sobre cómo convertir este estado en predeterminado, consulte [Usar estados personalizados como estados predeterminados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Para obtener instrucciones sobre cómo hacer que este estado sea un estado predeterminado, consulte [Usar estados personalizados como estados predeterminados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Para obtener información sobre cómo reordenar los estados de grupo, consulte [Reordenar los estados de grupo y de nivel del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Para obtener información acerca de cómo reordenar los estados de grupo, vea [Reordenar los estados de grupo y de nivel de sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

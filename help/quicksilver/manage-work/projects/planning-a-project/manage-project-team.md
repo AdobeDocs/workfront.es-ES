@@ -68,11 +68,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> <p>Editar acceso a Proyectos</p> <p>Acceso de visualización o superior a los usuarios</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Ver permisos superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 ## Agregar usuarios a un equipo del proyecto
 
-Cuando agregue usuarios al equipo del proyecto, obtendrán permisos de visualización en el proyecto y en las tareas, problemas y documentos del proyecto. Para obtener más información, consulte el artículo [Información general del equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Cuando agregue usuarios al equipo del proyecto, obtendrán permisos de visualización en el proyecto y en las tareas, problemas y documentos del proyecto. Para obtener más información, consulte el artículo [Resumen del equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
@@ -109,7 +109,7 @@ Los usuarios también se agregan automáticamente al equipo del proyecto cuando 
 
 Si los usuarios que no cumplen ninguna función en el proyecto desean que se les notifiquen determinadas actualizaciones o cambios durante la duración del proyecto, puede agregarlos manualmente al equipo del proyecto.
 
-Para obtener más información sobre las notificaciones que se pueden habilitar para los usuarios del equipo del proyecto, consulte [Tipos de notificación de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obtener más información sobre las notificaciones que se pueden habilitar para los usuarios del equipo del proyecto, vea [Tipos de notificaciones de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,15 +121,15 @@ Para obtener más información sobre las notificaciones que se pueden habilitar 
 
 1. Vaya al proyecto al que desee agregar usuarios.
 
-1. Clic **People** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** primero.
+1. Haga clic en **Personas** en el panel izquierdo. Es posible que primero deba hacer clic en **Mostrar más**.
 
-1. Clic **Adición de usuarios**.
+1. Haga clic en **Agregar usuarios**.
 
    Aparece el cuadro de diálogo Agregar usuarios al equipo del proyecto.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. En el **Adición de usuarios** , empiece a escribir el nombre de un usuario activo de Workfront que desee agregar al equipo del proyecto y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el cuadro **Agregar usuarios**, empiece a escribir el nombre de un usuario activo de Workfront que desee agregar al equipo del proyecto y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    Repita este paso para agregar varios usuarios al equipo del proyecto. Los usuarios deben pertenecer al grupo asociado al proyecto.
 
@@ -138,10 +138,10 @@ Para obtener más información sobre las notificaciones que se pueden habilitar 
    >* No puede agregar usuarios agregando sus equipos, grupos, empresas o roles.
    >* A medida que agregue usuarios, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
    >
-   >  Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Concesión de acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Clic **Añadir**.
+1. Haga clic en **Agregar**.
 
    Los usuarios obtienen permisos de visualización en el proyecto y reciben notificaciones sobre el proyecto como parte del equipo del proyecto.
 
@@ -153,4 +153,4 @@ Si quita un usuario del equipo del proyecto y el usuario está asignado a tareas
 
 Los usuarios asignados a tareas y problemas completados permanecen asignados incluso después de quitarlos del equipo del proyecto.
 
-Para obtener más información sobre cómo quitar usuarios del equipo del proyecto, consulte [Quitar usuarios de proyectos](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+Para obtener más información sobre cómo quitar usuarios del equipo del proyecto, vea [Quitar usuarios de los proyectos](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).

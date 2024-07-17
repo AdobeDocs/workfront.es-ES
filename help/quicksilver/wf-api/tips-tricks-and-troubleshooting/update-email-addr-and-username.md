@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## Problema
 
-Normalmente, `emailAddr` y `username` son el mismo atributo. Por lo tanto, si cambia el de un usuario `emailAddr` atributo, el `username` se actualiza automáticamente para que coincida con.
+Normalmente, `emailAddr` y `username` son el mismo atributo. Por lo tanto, si cambia el atributo `emailAddr` de un usuario, el atributo `username` se actualiza automáticamente para que coincida.
 
-Si la variable `username` no coincide con el `emailAddr`, una actualización del `emailAddr` no actualiza el `username` automáticamente. Esto es así para ambos `emailAddr` cambios a través de la interfaz de usuario y de la API.
+Cuando `username` no coincide con `emailAddr`, una actualización de `emailAddr` no actualiza `username` automáticamente. Esto es así para los cambios de `emailAddr` realizados a través de la interfaz de usuario y de la API.
 
 ## Causa
 
@@ -29,10 +29,10 @@ El desajuste puede crearse de varias formas:
 
 * Usuarios creados antes de que existiera la regla de sincronización. Las cuentas de usuario muy antiguas pueden no tener estos atributos sincronizados.
 
-* Los usuarios creados mediante SSO en un momento en que la dirección de correo electrónico de Workfront distinguía entre mayúsculas y minúsculas. La opción de aprovisionamiento automático de SSO ejecutaría una comprobación que distingue entre mayúsculas y minúsculas para los usuarios en función de los atributos del usuario del proveedor de identidad. Cuando no existía una coincidencia exacta, los servicios de aprovisionamiento automático creaban un nuevo usuario. Si ya existía un usuario, era posible que el nombre de usuario y `emailAddr` no tendría la misma carcasa.
+* Los usuarios creados mediante SSO en un momento en que la dirección de correo electrónico de Workfront distinguía entre mayúsculas y minúsculas. La opción de aprovisionamiento automático de SSO ejecutaría una comprobación que distingue entre mayúsculas y minúsculas para los usuarios en función de los atributos del usuario del proveedor de identidad. Cuando no existía una coincidencia exacta, los servicios de aprovisionamiento automático creaban un nuevo usuario. Si ya existía un usuario, era posible que el nombre de usuario y `emailAddr` no tuvieran el mismo caso.
 
-* Usuarios que han tenido la `username` se actualizan directamente a través de la API y sus `emailAddr` no se ha actualizado. El `username` y `emailAddr` posiblemente no coincidan.
+* Usuarios que han actualizado el atributo `username` directamente a través de la API y cuyo `emailAddr` no se ha actualizado. Es posible que `username` y `emailAddr` no coincidan.
 
 ## Solución
 
-Utilice la API para cambiar el `username` el atributo debe ser el mismo que `emailAddr`. Después de sincronizar los atributos, cualquier actualización del `emailAddr` también actualizará el `username` para que coincida (cuando el campo de nombre de usuario no se incluye en la actualización).
+Use la API para cambiar el atributo `username` para que sea el mismo que el `emailAddr`. Después de sincronizar los atributos, cualquier actualización de `emailAddr` actualizará también `username` para que coincida (cuando el campo de nombre de usuario no esté incluido en la actualización).

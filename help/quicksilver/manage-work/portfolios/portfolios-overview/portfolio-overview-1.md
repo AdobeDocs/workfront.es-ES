@@ -20,7 +20,7 @@ ht-degree: 7%
 Esta sección contiene los siguientes artículos:
 
 * [Resumen de administración de Portfolio](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [Información general del Portfolio en [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [Introducción al Portfolio en  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [Navegación dentro de un portafolio](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

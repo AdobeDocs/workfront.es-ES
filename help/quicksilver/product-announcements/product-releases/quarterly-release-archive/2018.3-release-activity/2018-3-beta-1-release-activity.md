@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión beta 1 de 2018.3
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 1 de 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 1 de junio de 2018. Las mejoras de revisión incluidas en la versión beta 1 estarán disponibles en el entorno de vista previa el miércoles 18 de julio. Estará disponible en el entorno de producción en noviembre de 2018.
+title: Actividad de la versión 2018.3 de Beta 1
+description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2018.3 Beta 1. La funcionalidad estará disponible en el entorno de vista previa el 1 de junio de 2018. Las mejoras de revisión incluidas en Beta 1 estarán disponibles en el entorno de vista previa el miércoles 18 de julio. Estará disponible en el entorno de producción en noviembre de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión beta 1 de 2018.3
+# Actividad de la versión 2018.3 de Beta 1
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión beta 1 de 2018.3. La funcionalidad estará disponible en el entorno de vista previa el 1 de junio de 2018. Las mejoras de revisión incluidas en la versión beta 1 estarán disponibles en el entorno de vista previa el miércoles 18 de julio. Estará disponible en el entorno de producción en noviembre de 2018.
+Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión 2018.3 Beta 1. La funcionalidad estará disponible en el entorno de vista previa el 1 de junio de 2018. Las mejoras de revisión incluidas en Beta 1 estarán disponibles en el entorno de vista previa el miércoles 18 de julio. Estará disponible en el entorno de producción en noviembre de 2018.
 
 >[!NOTE]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.3, consulte  [información general sobre la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.3, consulte  [resumen de la actividad de la versión 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La versión beta 1 de 2018.3 incluye las siguientes mejoras:
+La versión 2018.3 de Beta 1 incluye las siguientes mejoras:
 
-* [Acceso a solicitudes de equipo en Inicio](#access-team-requests-in-home)
-* [Ver información de la tarea en el diagrama de Gantt de lista de proyectos](#view-task-information-in-the-project-list-gantt-chart)
-* [Mejoras al exportar las vistas de rol y proyecto del Planificador de recursos](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)
+* [Solicitudes de equipo de acceso en Inicio](#access-team-requests-in-home)
+* [Ver información de tarea en el gráfico Gantt de lista de proyectos](#view-task-information-in-the-project-list-gantt-chart)
+* [Mejoras al exportar el rol y las vistas del proyecto del Planificador de recursos](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)
 * [Acceso a varias pruebas directamente desde el visualizador de pruebas (Workfront Proof)](#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof)
 
 ## Acceso a solicitudes de equipo en Inicio {#access-team-requests-in-home}
@@ -37,7 +37,7 @@ Ahora puede acceder a las solicitudes de equipo en el área de Inicio.
 
 Antes de este cambio, solo podía acceder a las solicitudes de trabajo del área de Inicio.
 
-Para obtener más información, consulte [Administrar solicitudes de trabajo y equipo en el área de Inicio](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+Para obtener más información, consulte [Administrar solicitudes de trabajo y equipo en el área de inicio](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
 ## Ver información de la tarea en el diagrama de Gantt de lista de proyectos {#view-task-information-in-the-project-list-gantt-chart}
 
@@ -45,7 +45,7 @@ Ahora puede ver información sobre las tareas de un proyecto en el Diagrama de G
 
 Anteriormente, la información sobre las tareas sólo se podía ver en el diagrama de Gantt de lista de tareas o dentro de un proyecto.
 
-Para obtener más información, consulte [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) en el artículo [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Para obtener más información, vea [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) en el artículo [Ver información en el gráfico Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 ## Mejoras al exportar las vistas de rol y proyecto del Planificador de recursos {#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner}
 
@@ -56,7 +56,7 @@ Antes de esta mejora, tenía que hacer lo siguiente:
 * Expanda manualmente todos los niveles de información (función, proyecto y usuario) y, a continuación, exporte la información desde el Planificador de recursos en la vista de funciones.
 * Desplácese manualmente hasta la parte inferior de la lista para exportar todos los niveles de información (proyecto, función y usuario) desde el Planificador de recursos en la vista Proyecto.
 
-Para obtener más información sobre la exportación del Planificador de recursos, consulte [Limitaciones de visualización del Planificador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Para obtener más información sobre cómo exportar el Planificador de recursos, consulte [Limitaciones de visualización del Planificador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 ## Acceso a varias pruebas directamente desde el visualizador de pruebas (Workfront Proof) {#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof}
 

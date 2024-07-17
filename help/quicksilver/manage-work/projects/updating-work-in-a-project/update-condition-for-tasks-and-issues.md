@@ -15,11 +15,11 @@ ht-degree: 1%
 
 # Actualizar condición para tareas y problemas
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes de o en el entorno de producción para los clientes que habilitaron versiones rápidas de.</span>
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Activar o desactivar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener más información sobre la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 La condición de una tarea o problema es un indicador colocado en él para indicar cómo va. Esto es diferente al Estado del elemento de trabajo, que indica la fase actual de desarrollo del elemento.
 
@@ -74,15 +74,15 @@ Se le debe asignar una tarea o un problema para poder actualizar manualmente su 
 
 ## Busque la Condición de tareas y problemas
 
-Las condiciones se muestran como un indicador asociado a tareas o problemas. También pueden asociarse con un número que se puede mostrar en los informes en lugar de en la etiqueta. Para obtener más información sobre cómo asociar condiciones con números, consulte [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Las condiciones se muestran como un indicador asociado a tareas o problemas. También pueden asociarse con un número que se puede mostrar en los informes en lugar de en la etiqueta. Para obtener más información acerca de cómo asociar condiciones con números, vea [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 Puede localizar la Condición de las tareas y problemas en las siguientes áreas de Workfront:
 
-* <span class="preview">La página Detalles, después de que un administrador de Workfront o de un grupo la añada a la plantilla de diseño. Para obtener más información, consulte [Personalización de la vista Detalles mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* <span class="preview">La página Detalles, después de que un administrador de Workfront o de grupo la agregue a su plantilla de diseño. Para obtener más información, consulte [Personalizar la vista de detalles con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-* <span class="preview">Encabezado de una tarea o problema, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalización de encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">Encabezado de una tarea o un problema después de que un administrador de Workfront o de un grupo lo agregue a la plantilla de diseño. Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
-* El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Informes y listas cuando se muestra el campo Condición en una vista o agrupación.
 
@@ -92,15 +92,15 @@ Puede localizar la Condición de las tareas y problemas en las siguientes áreas
 
 ## Actualizar automáticamente la condición al actualizar el estado
 
-Cuando se le asigne una tarea o un problema y haga clic en **Trabajar en ello** , Iniciar tarea o Iniciar problema, o actualizar su estado, la Condición de la tarea o el problema cambia automáticamente a la Condición predeterminada asociada con **Sin problemas**.
+Cuando se le asigna una tarea o un problema y hace clic en **Trabajar en ello** , Iniciar tarea o Iniciar problema o actualizar su estado, la condición de la tarea o el problema cambia automáticamente a la condición predeterminada asociada con **Avanzar sin problemas**.
 
-Para obtener información sobre el uso de una condición personalizada como condición predeterminada, consulte los artículos  [Establecer una condición personalizada como predeterminada para tareas y problemas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) y [Establecer una condición personalizada como predeterminada para los proyectos](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Para obtener información acerca de cómo usar una condición personalizada como condición predeterminada, vea los artículos [Establecer una condición personalizada como predeterminada para tareas y problemas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) y [Establecer una condición personalizada como predeterminada para proyectos](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
-Para obtener información sobre cómo cambiar el estado de la tarea, consulte [Actualizar estado de la tarea](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
+Para obtener información acerca de cómo cambiar el estado de la tarea, vea [Actualizar el estado de la tarea](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
 Para obtener información sobre cómo cambiar el estado del problema, consulte [Actualizar estado del problema](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
 
-Para obtener información sobre cómo establecer el botón Trabajar en ello en un botón Iniciar tarea o Iniciar problema, consulte [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Para obtener información acerca de cómo establecer el botón Trabajar en ello en un botón Iniciar tarea o Iniciar problema, vea [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 ## Actualizar manualmente la condición
 
@@ -114,8 +114,8 @@ Puede actualizar manualmente la condición de una tarea o problema en un informe
 >
 >Para obtener más información, consulte los siguientes artículos:
 >
->* [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizar Inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Personalizar inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -130,7 +130,7 @@ Para actualizar manualmente la condición de una tarea o un problema, realice un
 
 1. Para actualizar la condición de una tarea o problema en el encabezado de tarea o problema:
 
-   1. (Condicional) Si el administrador de Workfront o del grupo agregó el campo Condición al encabezado de tarea o problema de la plantilla de diseño, haga clic en **Condición** en el encabezado y seleccione una de las siguientes opciones:
+   1. (Condicional) Si el administrador del grupo o de Workfront agregó el campo Condición al encabezado de tarea o problema de la plantilla de diseño, haga clic en el campo **Condición** del encabezado y seleccione una de las siguientes opciones:
       * Sin problemas
       * Algunas preocupaciones
       * Impedimentos mayores
@@ -140,28 +140,28 @@ Para actualizar manualmente la condición de una tarea o un problema, realice un
 
 1. Para actualizar la condición de una tarea o problema en la sección Detalles de la tarea o problema:
 
-   1. (Condicional) Si el administrador de Workfront o del grupo agregó el campo Condición a la sección Detalles de una tarea o problema de la plantilla de diseño, haga clic en **Detalles** en el panel izquierdo, haga clic en **Condición de tarea** o **Condición de problema** y seleccione una de las siguientes opciones:
+   1. (Condicional) Si el administrador del grupo o de Workfront agregó el campo Condición a la sección Detalles de una tarea o problema de la plantilla de diseño, haga clic en **Detalles** en el panel izquierdo y, a continuación, haga clic en **Condición de la tarea** o **Condición del problema** y seleccione una de las siguientes opciones:
       * Sin problemas
       * Algunas preocupaciones
       * Impedimentos mayores
-1. Clic **Guardar cambios**. Se actualiza la condición de la tarea o el problema.
+1. Haga clic en **Guardar cambios**. Se actualiza la condición de la tarea o el problema.
 
 </div>
 
 Para actualizar la condición de una tarea o un problema en un informe o una lista:
 
-1. Vaya a una lista de tareas o problemas para los que tenga permisos de administración. Asegúrese de que **Condición** Este campo es visible en la vista de la lista.
+1. Vaya a una lista de tareas o problemas para los que tenga permisos de administración. Asegúrese de que el campo **Condición** esté visible en la vista de la lista.
 
-1. Actualice el **Condición** del problema o la tarea en línea, haciendo doble clic en la condición existente y seleccionando un nuevo valor del menú desplegable.
+1. Actualice la **condición** del problema o tarea en línea, haciendo doble clic en la condición existente y seleccionando un nuevo valor en el menú desplegable.
 
    ![](assets/condition-drop-down-values-in-task-list.png)
 
    >[!NOTE]
    >
-   >Las condiciones se pueden personalizar para su entorno, por lo que puede encontrar más de tres opciones para Condición en su entorno. Los nombres de las condiciones pueden ser diferentes a los enumerados anteriormente. Para obtener información sobre la personalización de condiciones en Workfront, consulte [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >Las condiciones se pueden personalizar para su entorno, por lo que puede encontrar más de tres opciones para Condición en su entorno. Los nombres de las condiciones pueden ser diferentes a los enumerados anteriormente. Para obtener información acerca de cómo personalizar condiciones en Workfront, vea [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 
-1. Prensa **Entrar** en el teclado o haga clic fuera del campo Condición para guardar la nueva condición de tarea o problema.
+1. Presione **Enter** en el teclado o haga clic fuera del campo Condición para guardar la nueva condición de tarea o problema.
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

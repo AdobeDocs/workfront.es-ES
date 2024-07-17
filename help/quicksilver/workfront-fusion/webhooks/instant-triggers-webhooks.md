@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]
+title: Déclencheur instantáneos (webhooks) en  [!DNL Adobe Workfront Fusion]
 description: Muchos servicios proporcionan webhooks para entregar notificaciones instantáneas cada vez que se produce un determinado cambio en el servicio. Para procesar estas notificaciones, le recomendamos que utilice déclencheur instantáneos. En este artículo se describe el uso y la funcionalidad de los déclencheur instantáneos en Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]
 
-Muchos servicios proporcionan webhooks para entregar notificaciones instantáneas cada vez que se produce un determinado cambio en el servicio. Para procesar estas notificaciones, le recomendamos que utilice déclencheur instantáneos. Puede reconocerlas fácilmente en [!DNL Adobe Workfront Fusion] debido a su etiqueta:
+Muchos servicios proporcionan webhooks para entregar notificaciones instantáneas cada vez que se produce un determinado cambio en el servicio. Para procesar estas notificaciones, le recomendamos que utilice déclencheur instantáneos. Puede reconocerlos fácilmente en [!DNL Adobe Workfront Fusion] debido a su etiqueta:
 
 ![](assets/instant-350x256.png)
 
@@ -46,23 +46,23 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
    <td>
-   <p>Requisito de licencia actual: No [!DNL Workfront Fusion] requisito de licencia.</p>
+   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredada: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Requisito actual del producto: si tiene [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su [!DNL Workfront] administrador.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -70,7 +70,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Todos los mensajes de los webhooks entrantes se almacenan en la cola del webhook.
 
-1. Clic **[!UICONTROL Webhooks]** en el menú de la izquierda.
+1. Haz clic en **[!UICONTROL Webhooks]** en el menú de la izquierda.
 1. Busque el webhook para el que desea ver la cola.
 1. Haga clic en el botón con un icono de camión y el número de webhooks recibidos.
 
@@ -78,7 +78,7 @@ Todos los mensajes de los webhooks entrantes se almacenan en la cola del webhook
 
    >[!NOTE]
    >
-   >Los datos del gancho web entrante siempre se almacenan en la cola, independientemente de cómo haya configurado la opción [!UICONTROL Datos] es confidencial (descrito en [El panel de configuración de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)). Tan pronto como los datos se procesan en un escenario, se eliminan del sistema de forma permanente.
+   >Los datos del gancho web entrante siempre se almacenan en la cola, independientemente de cómo haya establecido la opción [!UICONTROL Datos], que es confidencial (se describe en [El panel de configuración de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)). Tan pronto como los datos se procesan en un escenario, se eliminan del sistema de forma permanente.
 
 ## Programar déclencheur instantáneos
 
@@ -86,7 +86,7 @@ Si el escenario contiene un déclencheur instantáneo, puede programar su ejecuc
 
 ![](assets/schedule-setting-350x185.png)
 
-En este caso, el escenario se ejecutará inmediatamente cuando [!DNL Workfront Fusion] recibe nuevos datos del servicio de. Una vez que se ejecuta el escenario, se cuenta la cantidad total de webhooks pendientes que esperan en la cola y el escenario realiza tantos ciclos como webhooks pendientes, procesando un webhook por ciclo. Para obtener más información, consulte [Ejecución de escenarios, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+En este caso, su escenario se ejecutará inmediatamente cuando [!DNL Workfront Fusion] reciba nuevos datos del servicio. Una vez que se ejecuta el escenario, se cuenta la cantidad total de webhooks pendientes que esperan en la cola y el escenario realiza tantos ciclos como webhooks pendientes, procesando un webhook por ciclo. Para obtener más información, vea [Ejecución de escenarios, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ En este caso, el escenario se ejecutará inmediatamente cuando [!DNL Workfront F
 >
 
 
-Si utiliza cualquier otra configuración de programación que no sea [!UICONTROL Inmediata], el escenario se ejecutará a los intervalos especificados. Dado que se pueden agrupar varios webhooks en la cola durante el intervalo, se recomienda configurar la variable [[!UICONTROL Número máximo de ciclos]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) a un valor mayor que el predeterminado 1 para procesar más webhooks en un escenario ejecute:
+Si usa cualquier otra configuración de programación distinta de [!UICONTROL Inmediatamente], el escenario se ejecutará a los intervalos especificados. Como se pueden reunir varios enlaces web en la cola durante el intervalo, se recomienda establecer el [[!UICONTROL Número máximo de ciclos]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) en un valor mayor que el predeterminado 1 para procesar más enlaces web en una ejecución de escenario:
 
-1. Haga clic en [!UICONTROL Configuración de escenarios] icono ![](assets/gear-icon-settings.png) en la parte inferior de su escenario.
-1. En el **[!UICONTROL Configuración de escenarios]** que aparece, escriba un número en el cuadro **[!UICONTROL Número máximo de ciclos]** para indicar el número de webhooks de la cola que desea ejecutar cada vez que ejecute el escenario.
+1. Haga clic en el icono [!UICONTROL Configuración de escenario] ![](assets/gear-icon-settings.png) en la parte inferior del escenario.
+1. En el cuadro **[!UICONTROL Configuración de escenario]** que aparece, escriba un número en el cuadro **[!UICONTROL Número máximo de ciclos]** para indicar el número de enlaces web de la cola que desea ejecutar cada vez que ejecute el escenario.
 
 ## Límites de velocidad
 
@@ -116,18 +116,18 @@ Se elimina un webhook que no haya sido asignado a ningún escenario por más de 
 
 ## Cargas útiles de Webhook
 
-[!DNL Workfront Fusion] almacena cargas útiles de webhook durante 30 días. Acceder a una carga útil de gancho web más de 30 días después de crearla provoca el error &quot;[!UICONTROL Error al leer el archivo desde el almacenamiento.]&quot;
+[!DNL Workfront Fusion] almacena cargas útiles de ganchos web durante 30 días. Acceder a una carga útil de gancho web más de 30 días después de crearla provoca el error &quot;[!UICONTROL No se pudo leer el archivo desde el almacenamiento.]&quot;
 
 ## Control de errores
 
 Cuando hay un error en su escenario con un déclencheur instantáneo, el escenario:
 
-* Se detiene inmediatamente: cuando el escenario está configurado para ejecutarse [!UICONTROL Inmediata].
+* Se detiene inmediatamente cuando el escenario está configurado para ejecutarse [!UICONTROL Inmediatamente].
 * Se detiene después de tres intentos fallidos (tres errores): cuando el escenario está configurado para ejecutarse según lo programado.
 
-Si se produce un error durante la ejecución del escenario, el gancho web se vuelve a colocar en la cola durante la fase de reversión del déclencheur instantáneo. En tal situación, tiene la posibilidad de corregir el escenario y volver a ejecutarlo. Para obtener más información, consulte [Reversión](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) en el artículo [Ejecución de escenarios, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Si se produce un error durante la ejecución del escenario, el gancho web se vuelve a colocar en la cola durante la fase de reversión del déclencheur instantáneo. En tal situación, tiene la posibilidad de corregir el escenario y volver a ejecutarlo. Para obtener más información, vea [Reversión](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) en el artículo [Ejecución de escenarios, ciclos y fases en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-Si hay un módulo de respuesta de webhook en su escenario, el error se envía a la respuesta de webhook. El módulo de respuesta Webhook siempre se ejecuta en último lugar (en caso de que la variable [!UICONTROL Confirmación automática] en la configuración del escenario (no está activada). Para obtener más información, consulte [Respuesta a los webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) en el artículo [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+Si hay un módulo de respuesta de webhook en su escenario, el error se envía a la respuesta de webhook. El módulo de respuesta Webhook siempre se ejecuta en último lugar (en caso de que la opción [!UICONTROL Confirmación automática] en la configuración de Escenario no esté habilitada). Para obtener más información, consulte [Respuesta a los webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) en el artículo [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 
 ## Webhooks personalizados
 

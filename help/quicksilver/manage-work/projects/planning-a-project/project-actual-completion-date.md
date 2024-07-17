@@ -31,13 +31,13 @@ La fecha real de finalización de un proyecto se establece de las siguientes man
 * Actualizando manualmente el estado del proyecto: si el modo de finalización del proyecto se establece en manual y cambia manualmente el estado del proyecto a completo, el déclencheur es que la fecha real de finalización del proyecto se actualice a la fecha y hora de la última tarea finalizada.
 * Automáticamente, cuando se complete la última tarea del proyecto: si el modo de finalización del proyecto se establece en automático y marca la última tarea como completada o actualiza la fecha de finalización real de la última tarea, la fecha de finalización real del proyecto también se actualiza con esa fecha.
 
-  Para obtener información sobre cómo establecer el modo de finalización de un proyecto, consulte el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obtener información acerca de cómo establecer el modo de finalización de un proyecto, vea el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!NOTE]
   >
   >Workfront utiliza la fecha real de finalización de la última tarea del proyecto como fecha real de finalización de todo el proyecto.
 
-Un administrador de Workfront o de grupo determina si Workfront utiliza la fecha actual o la fecha planificada de finalización de una tarea o un problema cuando se establecen como Completada o Cerrada. Para obtener información sobre cómo establecer las preferencias de tareas y problemas, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Un administrador de Workfront o de grupo determina si Workfront utiliza la fecha actual o la fecha planificada de finalización de una tarea o un problema cuando se establecen como Completada o Cerrada. Para obtener información sobre cómo establecer las preferencias de tareas y problemas, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--this statement is confusing, not sure what it is referring to, so I am drafting this for now: The value for the Actual Completion Date is always what is considered the current date and time.-->
 
@@ -52,4 +52,4 @@ La fecha real de finalización se encuentra en las siguientes áreas de Workfron
 * Actualizaciones de proyectos, tareas y problemas como una actualización del sistema.
 * Listas o informes de proyectos, tareas o problemas.
 
-Para obtener más información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información acerca de la creación de informes, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

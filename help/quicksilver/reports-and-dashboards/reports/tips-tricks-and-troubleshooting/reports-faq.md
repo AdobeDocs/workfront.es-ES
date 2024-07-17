@@ -42,16 +42,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitud de acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## ¿Por qué el cálculo personalizado de una diferencia de hora no muestra el resultado correcto en una columna?
 
@@ -83,7 +83,7 @@ Cuando ejecuto un informe que tiene un gráfico, veo el mensaje de error &quot;V
 
 Este error significa que el gráfico contiene hasta 618 resultados distintos; por ejemplo, más de 618 barras en un gráfico de barras. Para resolver el problema de visualización, debe refinar los resultados modificando las selecciones de filtro y agrupación actuales.
 
-Para obtener información sobre la modificación de filtros y agrupaciones, consulte los artículos [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) y [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Para obtener información sobre cómo modificar filtros y agrupaciones, consulte los artículos [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) y [Resumen de agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## ¿Por qué veo mis tareas (o problemas) cuando accedo al mismo informe (o calendario) que mi compañero y ven sus tareas en su lugar?
 
@@ -92,7 +92,7 @@ Para obtener información sobre la modificación de filtros y agrupaciones, cons
 El informe o el calendario pueden tener una variable de filtro comodín que señala al usuario que ha iniciado sesión. En este caso, el informe muestra la información en función del usuario que ha iniciado sesión. Ajuste el filtro para quitar el comodín que señala al usuario que ha iniciado sesión.\
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-Para obtener una lista completa de la información general sobre las variables de filtro comodín basadas en usuarios, consulte [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obtener una lista completa de la información general sobre las variables de filtro comodín basadas en usuarios, consulte [Información general sobre las variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## ¿Por qué los datos de mi informe parecen incompletos?
 
@@ -102,7 +102,7 @@ Esto puede suceder en la mayoría de los casos si tiene un acceso limitado que l
 
 El creador del informe puede editarlo para ejecutarlo con los derechos de acceso de un administrador del sistema o cualquier usuario de Plan que tenga acceso para ver los datos.
 
-Para obtener más información, consulte [Ejecutar y entregar un informe con los derechos de acceso de otro usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+Para obtener más información, consulte [Ejecutar y enviar un informe con los derechos de acceso de otro usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
 ## ¿Cómo puedo informar sobre las tareas (o problemas) a las que estoy asignado, independientemente de si soy el propietario de las mismas o no?
 
@@ -111,15 +111,15 @@ Para obtener más información, consulte [Ejecutar y entregar un informe con los
 Para ver todas las tareas o problemas que se le han asignado, tanto si es el propietario (o la persona asignada principal) como si no, utilice el siguiente filtro en un informe de tareas o problemas:
 
 1. Acceder a un informe de tarea o problema.
-1. En el **Filtros** pestaña, haga clic en **Agregar una regla de filtro**.
+1. En la ficha **Filtros**, haga clic en **Agregar una regla de filtro**.
 
-1. En el **Empiece a escribir el nombre del campo...** campo, empiece a escribir **Nombre de usuarios de asignación**, luego selecciónelo cuando aparezca en la lista.
+1. En el campo **Empiece a escribir el nombre del campo ...**, empiece a escribir **Nombre de usuarios de asignación** y, a continuación, selecciónelo cuando aparezca en la lista.
 
    >[!NOTE]
    >
-   >No use el **Asignado a nombre** , ya que filtra únicamente las tareas y problemas para los que es el principal asignado o propietario.
+   >No utilice el campo **Asignado a nombre**, ya que este filtro solo para las tareas y problemas de los que es el principal asignado o propietario.
 
-1. Seleccione el **Igual** modificador.
+1. Seleccione el modificador **Equal**.
 1. Empiece a escribir *$$USER.ID* en el cuadro de texto y selecciónelo en la lista desplegable que aparece.\
    Esto garantiza que verá todas las tareas y problemas asignados al usuario que ha iniciado sesión. Puede reemplazar el comodín por un nombre de usuario específico.\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
@@ -130,18 +130,18 @@ Para ver todas las tareas o problemas que se le han asignado, tanto si es el pro
 
 ### Respuesta
 
-En primer lugar, asegúrese de que dispone del acceso y los permisos correctos para agregar problemas y tareas a un proyecto. En este caso, debería ver la variable **Agregar problemas** y **Agregar tareas** vínculos en la parte inferior de **Problemas** y **Tareas** listas.
+En primer lugar, asegúrese de que dispone del acceso y los permisos correctos para agregar problemas y tareas a un proyecto. En este caso, debería ver los vínculos **Agregar problemas** y **Agregar tareas** al final de las listas **Problemas** y **Tareas**.
 
 Sin embargo, hay algunas cosas que pueden impedir que se muestren estos vínculos:
 
 * Si tiene el filtro rápido aplicado a estas listas, los vínculos no se muestran. Elimine el filtro rápido y los vínculos deberían mostrarse para que pueda agregar problemas y tareas a sus proyectos.\
   Para obtener información sobre el filtro rápido, consulte [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* Si tiene un **Agrupación** aplicados a estas listas, los vínculos no se muestran. Retire el **Agrupación** y los vínculos deberían mostrarse para que pueda agregar problemas y tareas a sus proyectos.\
-  Para obtener información sobre la creación de agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+* Si tiene una **agrupación** aplicada a estas listas, los vínculos no se mostrarán. Elimine la **agrupación** y los vínculos se mostrarán para que pueda agregar problemas y tareas a sus proyectos.\
+  Para obtener información acerca de cómo crear agrupaciones, vea [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-* Si tiene un **Ver** Si se aplican a estas listas que tienen seleccionada una moneda distinta de la predeterminada para el proyecto, los vínculos no se muestran. Cambie el **Ver** hasta **Divisa original del proyecto** y los vínculos deberían mostrarse para que pueda agregar problemas y tareas a sus proyectos.\
-  Para obtener más información sobre cómo cambiar la divisa en la vista, consulte [Crear informes de datos financieros con tasas de cambio únicas](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Si se ha aplicado una **vista** a estas listas en las que se ha seleccionado una moneda distinta a la predeterminada para el proyecto, los vínculos no se mostrarán. Cambie la **Vista** a la Moneda original del **proyecto** y los vínculos deberían mostrarse para que pueda agregar problemas y tareas a sus proyectos.\
+  Para obtener más información sobre cómo cambiar la moneda en la vista, vea [Crear informes de datos financieros con tasas de cambio únicas](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![](assets/nwe-project-original-currency-350x229.png)
 
@@ -152,10 +152,10 @@ Sin embargo, hay algunas cosas que pueden impedir que se muestren estos vínculo
 La información de los informes o paneles no se actualiza automáticamente.
 
 La información se puede actualizar manualmente en un informe almacenado en caché.\
-Para obtener más información sobre la actualización de un informe almacenado en caché, consulte [Ejecutar un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
+Para obtener más información sobre cómo actualizar un informe almacenado en caché, vea [Ejecutar un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 La información se puede actualizar manualmente en un panel almacenado en caché.\
-Para obtener más información sobre cómo actualizar un panel en caché, consulte la sección [Mostrar paneles](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) en el artículo [Introducción a los paneles](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Para obtener más información acerca de cómo actualizar un panel en caché, consulte la sección [Paneles de visualización](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) en el artículo [Introducción a los paneles](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## ¿Puedo cambiar el propietario de un informe?
 
@@ -164,20 +164,20 @@ Para obtener más información sobre cómo actualizar un panel en caché, consul
 No puede cambiar el propietario de un informe. Sin embargo, el usuario que creó el informe puede permitir que otros usuarios lo editen. La forma de permitir que los usuarios editen un informe depende del tipo de usuario que sea.
 
 * Los administradores del sistema pueden permitir que los usuarios con una licencia de planificación editen los informes configurando la opción Editar en la fila Informes para incluir el acceso a Crear un informe.\
-  Para obtener más información, consulte [Conceder acceso a informes, tableros y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Para obtener más información, consulte [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Cualquier usuario final con acceso para crear y compartir informes puede permitir que otros editen informes individuales compartiéndolos y concediendo a otros usuarios permisos de administración.\
-  Para obtener más información, consulte [Uso compartido de informes en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Para obtener más información, vea [Compartir un informe en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-Si tiene permisos para ver o administrar un informe, también puede realizar una copia del informe, de la que será el propietario de forma predeterminada. Para obtener más información sobre cómo copiar un informe, consulte [Creación de una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Si tiene permisos para ver o administrar un informe, también puede realizar una copia del informe, de la que será el propietario de forma predeterminada. Para obtener más información sobre cómo copiar un informe, consulte [Crear una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## ¿Por qué no puedo acceder a un informe propiedad de un usuario desactivado?
 
 ### Respuesta
 
-En ocasiones, el propietario del informe es también el usuario especificado en la variable **Ejecutar este informe con los derechos de acceso de:** en el informe. Si la variable **Ejecutar este informe con los derechos de acceso de:** Cuando se desactiva el usuario, el informe ya no se muestra a los usuarios que han compartido el informe con ellos. Si esto sucede, puede volver a tener acceso al informe saliendo de la **Ejecutar este informe con los derechos de acceso de:** en blanco o introduciendo un usuario activo en el campo.
+En ocasiones, el propietario del informe también es el usuario especificado en el campo **Ejecutar este informe con los derechos de acceso de:** en el informe. Si el usuario **Ejecutar este informe con los derechos de acceso de:** está desactivado, el informe ya no se mostrará a los usuarios que hayan compartido el informe con ellos. Cuando esto suceda, puede volver a tener acceso al informe si deja en blanco **Ejecutar este informe con los derechos de acceso de:** o escribe un usuario activo en el campo.
 
-Para obtener más información sobre **Ejecutar este informe con los derechos de acceso de:** campo, consulte [Ejecutar y entregar un informe con los derechos de acceso de otro usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Para obtener información sobre cómo identificar todos los informes propiedad de usuarios desactivados, consulte [Creación de un informe sobre las actividades de creación de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+Para obtener más información acerca del campo **Ejecutar este informe con los derechos de acceso de:**, consulte [Ejecutar y entregar un informe con los derechos de acceso de otro usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Para obtener información sobre cómo identificar todos los informes propiedad de usuarios desactivados, consulte [Crear un informe sobre las actividades de creación de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 ## ¿Cómo puedo acceder a un tablero que contiene un informe propiedad de un usuario eliminado?
 
@@ -193,7 +193,7 @@ Para obtener más información sobre las implicaciones de eliminar un usuario, c
 Si tiene acceso de visualización al informe, puede hacer lo siguiente:
 
 1. Cree una copia del informe.\
-   Para obtener información sobre cómo crear una copia de un informe, consulte [Creación de una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   Para aprender a crear una copia de un informe, vea [Crear una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 1. Actualice el tablero para incluir el informe copiado.\
-   Para obtener información sobre cómo editar un tablero, consulte [Edición de un tablero](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+   Para obtener información sobre cómo editar un panel, consulte [Editar un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

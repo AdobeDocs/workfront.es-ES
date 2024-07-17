@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Actividad de la versión 2018.2 Beta 3
-description: Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 3 de 2018.2. La funcionalidad se publicó en el entorno de vista previa el 19 de abril de 2018. Estará disponible en el entorno de producción en junio de 2018.
+title: Actividad de la versión 2018.2 de Beta 3
+description: Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión Beta 3 2018.2. La funcionalidad se publicó en el entorno de vista previa el 19 de abril de 2018. Estará disponible en el entorno de producción en junio de 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ---
 
-# Actividad de la versión 2018.2 Beta 3
+# Actividad de la versión 2018.2 de Beta 3
 
-Esta página describe todos los cambios disponibles más recientemente en el entorno de vista previa con la versión Beta 3 de 2018.2. La funcionalidad se publicó en el entorno de vista previa el 19 de abril de 2018. Estará disponible en el entorno de producción en junio de 2018.
+Esta página describe todos los cambios más recientes disponibles en el entorno de vista previa con la versión Beta 3 2018.2. La funcionalidad se publicó en el entorno de vista previa el 19 de abril de 2018. Estará disponible en el entorno de producción en junio de 2018.
 
 >[!IMPORTANT]
 >
 > La funcionalidad descrita en esta página está sujeta a cambios antes de su disponibilidad en el entorno de producción de.
 
-Para ver una lista de todos los cambios realizados en 2018.2, consulte  [información general sobre la actividad de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Para ver una lista de todos los cambios realizados en 2018.2, consulte  [resumen de la actividad de la versión 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La versión Beta 3 de 2018.2 incluye las siguientes mejoras:
+La versión 2018.2 de Beta 3 incluye las siguientes mejoras:
 
 * [Administrar licencias en el sistema](#manage-licenses-in-your-system)
-* [Definir indicadores para historias en el Panel Kanban](#set-flags-for-stories-on-the-kanban-board)
+* [Establecer indicadores para historias en el Panel Kanban](#set-flags-for-stories-on-the-kanban-board)
 * [Editar campos directamente en una tarjeta de Agile Story](#edit-fields-directly-on-an-agile-story-card)
 * [Se ha mejorado la relevancia de la búsqueda para varias palabras](#improved-search-relevancy-for-multiple-words)
 
@@ -37,7 +37,7 @@ Hemos creado una nueva página Licencias para administradores de Workfront en la
 
 Antes de este cambio, los administradores de Workfront solo podían ver los recuentos de licencias en la sección Licencia de la página Información del cliente.
 
-Para obtener más información, consulte [Administrar las licencias disponibles en el sistema](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+Para obtener más información, consulte [Administrar licencias disponibles en el sistema](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 
 ## Definir indicadores para historias en el Panel Kanban {#set-flags-for-stories-on-the-kanban-board}
 
@@ -47,7 +47,7 @@ Los indicadores proporcionan una indicación visual de cuándo una historia est�
 
 Para obtener información sobre el uso de indicadores en el Panel Kanban, consulte &quot;Uso de indicadores en historias&quot; en el artículo .
 
-Para obtener información sobre cómo incluir indicadores en los informes de tareas, consulte [Glosario de terminología de Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
+Para obtener información acerca de cómo incluir indicadores en los informes de tareas, consulte [Glosario de terminología de Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
 
 ## Editar campos directamente en una tarjeta de Agile Story {#edit-fields-directly-on-an-agile-story-card}
 
@@ -66,4 +66,4 @@ Hemos introducido un cambio en la forma en que se realizan las búsquedas al uti
 
 Antes de este cambio, si busca varias palabras a la vez, encontrará elementos que contengan alguna o todas las palabras de la frase. 
 
-Para obtener más información sobre la búsqueda, consulte [Buscar Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Para obtener más información sobre la búsqueda, consulte [Buscar en Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).

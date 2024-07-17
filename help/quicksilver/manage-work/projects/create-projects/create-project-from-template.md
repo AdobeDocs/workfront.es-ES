@@ -25,7 +25,7 @@ Las plantillas le proporcionan una forma de capturar procesos, información y co
 >
 >Workfront define el grupo y el estado del nuevo proyecto de la siguiente manera:
 >
->* El estado predeterminado de un nuevo proyecto creado a partir de una plantilla corresponde al estado definido por el administrador de Workfront en el área principal Preferencias de proyecto, o por un administrador de grupo (o administrador de Workfront) en el área Preferencias de proyecto para un grupo. Para obtener información sobre cómo configurar las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurar las preferencias de proyecto de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* El estado predeterminado de un nuevo proyecto creado a partir de una plantilla corresponde al estado definido por el administrador de Workfront en el área principal Preferencias de proyecto, o por un administrador de grupo (o administrador de Workfront) en el área Preferencias de proyecto para un grupo. Para obtener información acerca de cómo configurar las preferencias del proyecto, vea [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurar las preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 >
 >* El grupo del nuevo proyecto es el grupo de la plantilla. Si la plantilla no está asociada a un grupo, el grupo del proyecto es el grupo de inicio del usuario que crea el proyecto.
 >
@@ -37,7 +37,7 @@ Tiene las siguientes opciones para crear un proyecto a partir de una plantilla:
 * Creación de un proyecto a partir de una plantilla en el nivel de plantilla
 * Adjuntar una plantilla a un proyecto existente
 
-  Para obtener más información, consulte [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  Para obtener información, vea [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 * Cree un proyecto a partir de una plantilla en el área Grupos
 
@@ -117,8 +117,8 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda. Clic **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
-   * Vaya a un portafolio y amplíe **Nuevo proyecto**.
+   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda. Haga clic en **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
+   * Vaya a un portafolio y expanda **Nuevo proyecto**.
 
      >[!TIP]
      >
@@ -130,7 +130,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
      >
      >Cuando se crea un proyecto con una plantilla de un programa, el campo Programa de los nuevos proyectos se actualiza para mostrar el Programa desde el que se eligió crear el proyecto. El campo Portfolio de la plantilla se actualiza para mostrar el portafolio del programa desde el que eligió crear el proyecto. Esto sobrescribe los campos Programa y Portfolio de la plantilla, si se especifican.
 
-   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, consulte [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
      >[!TIP]
      >
@@ -142,7 +142,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
    ![Nuevas opciones de proyecto](assets/new-project-dropdown.png)
 
-1. Haga clic en el nombre de una plantilla en la **Plantillas favoritas** lista.
+1. Haga clic en el nombre de una plantilla en la lista **Plantillas favoritas**.
 
    ![Seleccionar una plantilla favorita](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
@@ -150,8 +150,8 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
    Haga lo siguiente:
 
-   1. Seleccionar **Nuevo proyecto a partir de plantilla**.
-   1. En el **Buscar plantillas** , empiece a escribir el nombre de una plantilla y haga clic en ella cuando se muestre en la lista.
+   1. Seleccione **Nuevo proyecto de la plantilla**.
+   1. En el campo **Buscar plantillas**, empiece a escribir el nombre de una plantilla y haga clic en ella cuando se muestre en la lista.
    1. Revise los detalles de la plantilla a la derecha.
 
       Los detalles de la plantilla incluyen lo siguiente:
@@ -162,34 +162,34 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
       * Número de todas las tareas de la plantilla
       * Nombres de los formularios personalizados de plantilla
 
-   1. (Opcional) Pase el ratón sobre el nombre de una plantilla en el panel izquierdo y haga clic en **Favoritos** **icono** ![](assets/favorites-icon-small.png) para marcarlo como favorito para uso futuro.
+   1. (Opcional) Pase el ratón sobre el nombre de una plantilla en el panel izquierdo y haga clic en el **icono de Favoritos** **icono** ![](assets/favorites-icon-small.png) para marcarla como favorita para uso futuro.
 
       O
 
-      Expanda el **Plantillas favoritas** y seleccione una plantilla de la lista desplegable.
+      Expanda la lista **Plantillas favoritas** y seleccione una plantilla de la lista desplegable.
 
       >[!TIP]
       >
       >Puede tener hasta 40 elementos de Workfront marcados como favoritos. Esto incluye plantillas y otros elementos.
 
-   1. Clic **Usar plantilla** cuando haya seleccionado una plantilla.
+   1. Haga clic en **Usar plantilla** cuando haya seleccionado una plantilla.
 
-      ![Detalles de plantilla](assets/new-project-from-template-small-box-with-template-details-panel.png)
+      ![Detalles de la plantilla](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
       >[!NOTE]
       >
-      >Si ha aplicado la Vista de Hito a la lista de proyectos, haga clic en el nombre de una plantilla en la **Nuevo de la sección Plantilla**.
+      >Si ha aplicado la vista de Hito a la lista de proyectos, haga clic en el nombre de una plantilla en la sección **Nuevo a partir de plantilla**.
       >
       >
-      >![Vista de hito de la creación de un proyecto a partir de una plantilla](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Vista de hito al crear un proyecto a partir de una plantilla](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
 
-   El **Nuevo proyecto** se abre el cuadro.
+   Se abre el cuadro **Nuevo proyecto**.
 
-   ![Cuadro Nuevo proyecto](assets/new-project-from-template-box.png)
+   ![Nuevo cuadro de proyecto](assets/new-project-from-template-box.png)
 
-1. Si un campo ya se ha rellenado en la plantilla, el campo se rellena previamente en la **Nuevo proyecto** cuadro. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
-1. Clic **Crear proyecto**.
+1. Si un campo ya se ha rellenado en la plantilla, ya se ha rellenado previamente en el cuadro **Nuevo proyecto**. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Haga clic en **Crear proyecto**.
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.
 
@@ -200,18 +200,18 @@ En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir d
 {{step1-to-templates}}
 
 1. Haga clic en el nombre de la plantilla que desee utilizar.
-1. Haga clic en **Más** menú ![](assets/more-icon.png), luego haga clic en **Crear proyecto**.
+1. Haga clic en el menú **Más** ![](assets/more-icon.png) y luego haga clic en **Crear proyecto**.
 
-   ![Crear proyecto a partir de plantilla](assets/project-sharing-on-template.png)
+   ![Crear proyecto a partir de la plantilla](assets/project-sharing-on-template.png)
 
-   El **Nuevo proyecto** se abre el cuadro.
+   Se abre el cuadro **Nuevo proyecto**.
 
 1. Introduzca un nombre para el proyecto, revise cada sección y realice los cambios que sean necesarios.
 
-   ![Cuadro Nuevo proyecto](assets/new-project-from-template-box.png)
+   ![Nuevo cuadro de proyecto](assets/new-project-from-template-box.png)
 
-   Si un campo ya se ha rellenado en la plantilla, el campo se rellena previamente en la **Nuevo proyecto** cuadro. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Si un campo ya se ha rellenado en la plantilla, ya se ha rellenado previamente en el cuadro **Nuevo proyecto**. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Clic **Crear proyecto**.
+1. Haga clic en **Crear proyecto**.
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.

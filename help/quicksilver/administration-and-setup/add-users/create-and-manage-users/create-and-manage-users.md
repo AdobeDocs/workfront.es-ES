@@ -23,13 +23,13 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Adición de usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+* [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
 * [Importar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)
-* [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
-* [Edición de perfiles de usuario por lotes](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
-* [Creación de informes directos](../../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
+* [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+* [Editar perfiles de usuario de forma masiva](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
+* [Crear informes directos](../../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
 * [Iniciar sesión como otro usuario](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
-* [Restablecer preferencias de usuario](../../../administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
+* [Restablecer las preferencias de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
 * [Cambiar un nombre de usuario](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
 * [Cambiar la contraseña de un usuario aprovisionado automáticamente](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
 * [Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)

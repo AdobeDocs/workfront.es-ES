@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de integración realizadas con la versión 21.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 15 de febrero de 2021.
 
-Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general de la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general sobre la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Mejoras en las notificaciones de Adobe Workfront en Microsoft Teams
 
@@ -31,5 +31,5 @@ Para facilitar el uso de Workfront a través de Microsoft Teams, hemos añadido 
 
 Para aprovechar esta nueva funcionalidad, debe volver a iniciar sesión en su cuenta de Microsoft Teams. No es necesario que realice ninguna otra acción.
 
-Para obtener más información, consulte [Administración de notificaciones de Adobe Workfront en Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Para obtener más información, consulte [Administrar notificaciones de Adobe Workfront en Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 

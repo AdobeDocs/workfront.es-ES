@@ -55,25 +55,25 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Creación de un programa
 
-1. Haga clic en **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el botón **[!UICONTROL Menú principal]** icono ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
 
 1. Realice una de las siguientes acciones.
 
-   * Cree un programa desde el [!UICONTROL Programas] área:
+   * Cree un programa desde el área [!UICONTROL Programas]:
 
-      1. Clic **[!UICONTROL Programas]** en el menú principal.
-      1. Clic **[!UICONTROL Nuevo programa]**.
-      1. En el cuadro que aparece, escriba el nombre de un Portfolio existente en la **[!UICONTROL Seleccionar Portfolio]** field.
-      1. Escriba el nombre del nuevo programa en la **[!UICONTROL Nombre]** field.
+      1. Haga clic en **[!UICONTROL Programas]** en el menú principal.
+      1. Haga clic en **[!UICONTROL Nuevo programa]**.
+      1. En el cuadro que se muestra, escriba el nombre de un Portfolio existente en el campo **[!UICONTROL Seleccionar Portfolio]**.
+      1. Escriba el nombre del nuevo programa en el campo **[!UICONTROL Nombre]**.
       1. Haga clic en **[!UICONTROL Guardar]**.
-   * Cree un programa desde el [!UICONTROL Portfolio] área:
+   * Cree un programa desde el área [!UICONTROL Portfolio]:
 
-      1. Clic **[!UICONTROL Portfolio]** en el [!UICONTROL Menú principal]y, a continuación, abra un portafolio.
+      1. Haga clic en **[!UICONTROL Portfolio]** en el [!UICONTROL menú principal] y, a continuación, abra un portafolio.
       1. En el panel izquierdo, haga clic en **[!UICONTROL Programas]**.
-      1. Haga clic en **[!UICONTROL Nuevo programa]** menú desplegable, luego **[!UICONTROL Nuevo programa]**.
+      1. Haga clic en el menú desplegable **[!UICONTROL Nuevo programa]** y luego en **[!UICONTROL Nuevo programa]**.
 
 
-1. (Condicional) Si ha creado el programa a partir de un portafolio, especifique el nombre del programa en la **[!UICONTROL Programa sin título]** field.
+1. (Condicional) Si ha creado el programa a partir de un portafolio, especifique el nombre del programa en el campo **[!UICONTROL Programa sin título]**.
 
    El nombre puede contener hasta 255 caracteres.
 
@@ -83,8 +83,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    >
    >Como creador del programa, se le asigna el rol de Administrador de programas de forma predeterminada.
 
-1. Clic **[!UICONTROL Detalles del programa]** en el panel izquierdo.
-1. Haga doble clic en cualquier campo para actualizar la información en la **[!UICONTROL Información general]** área.
+1. Haga clic en **[!UICONTROL Detalles del programa]** en el panel izquierdo.
+1. Haga doble clic en cualquier campo para actualizar la información en el área **[!UICONTROL Información general]**.
 
 Puede especificar la siguiente información:
 
@@ -108,7 +108,7 @@ Puede especificar la siguiente información:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Grupo] </td> 
-      <td> <p>Añada el nombre de un solo grupo si el grupo es propietario del programa o tiene la responsabilidad de completarlo. </p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero sobre él y haga clic en el icono [!UICONTROL information] <img src="assets/info-icon.png"> que se muestra junto a ella. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> 
+      <td> <p>Añada el nombre de un solo grupo si el grupo es propietario del programa o tiene la responsabilidad de completarlo. </p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero sobre él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,7 +116,7 @@ Puede especificar la siguiente información:
     </tbody> 
    </table>
 
-1. (Opcional y condicional) Haga clic dentro de **[!UICONTROL Añadir formulario personalizado]** para seleccionar un formulario personalizado para el portafolio y actualizar los campos personalizados.
+1. (Opcional y condicional) Haga clic dentro del cuadro **[!UICONTROL Agregar formulario personalizado]** para seleccionar un formulario personalizado para el portafolio y actualizar los campos personalizados.
 
    >[!TIP]
    >
@@ -124,14 +124,14 @@ Puede especificar la siguiente información:
 
 1. (Opcional y condicional) Si va a agregar un formulario personalizado, haga clic en cualquier campo del formulario personalizado para actualizar la información de ese campo.
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
-1. Clic **[!UICONTROL Proyectos]** en el panel izquierdo, **[!UICONTROL Agregar proyectos]** para agregar proyectos al programa.
+1. Haga clic en **[!UICONTROL Proyectos]** en el panel izquierdo y, a continuación, en **[!UICONTROL Agregar proyectos]** para agregar proyectos al programa.
 
-   Para obtener información sobre cómo agregar proyectos a programas, consulte [Agregar un proyecto a un programa](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   Para obtener información acerca de cómo agregar proyectos a los programas, vea [Agregar un proyecto a un programa](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
-1. (Opcional) Haga clic en **[!UICONTROL Menú Más]** ![](assets/more-icon.png) junto al nombre del programa y haga clic en **[!UICONTROL Desactivar programa]**.
+1. (Opcional) Haga clic en el **[!UICONTROL menú Más]** ![](assets/more-icon.png) junto al nombre del programa y haga clic en **[!UICONTROL Desactivar programa]**.
 
-   Cuando se desactiva un programa, este deja de aparecer en una lista de programas cuando los usuarios intentan agregarlo a un proyecto. Puede seguir accediendo al programa desde el [!UICONTROL Programas] área.
+   Cuando se desactiva un programa, este deja de aparecer en una lista de programas cuando los usuarios intentan agregarlo a un proyecto. Puede seguir teniendo acceso al programa desde el área [!UICONTROL Programas].
 
 ## Resumen del encabezado del programa
 
@@ -164,7 +164,7 @@ La siguiente información se muestra en el encabezado de un programa:
    <td> <p>Haga clic en cualquiera de las siguientes opciones para acceder a más información o a las opciones de edición del programa:</p> 
     <ul> 
      <li>El icono de estrella para agregar el programa a su lista de Favoritos.</li> 
-     <li> <p>Menú [!UICONTROL Más] <img src="assets/qs-more-menu.png"> para realizar una de las siguientes acciones: </p> 
+     <li> <p>El menú [!UICONTROL More] <img src="assets/qs-more-menu.png"> para realizar una de las siguientes acciones: </p> 
       <ul> 
        <li>Editar el programa</li> 
        <li>Desactívela. Cuando se desactiva un programa, ya no puede asociarlo a proyectos en el nivel de proyecto. </li> 

@@ -20,8 +20,8 @@ ht-degree: 0%
 
 # Webhooks en [!DNL Adobe Workfront Fusion]
 
-[!DNL Adobe Workfront Fusion] requiere un [!DNL Adobe Workfront Fusion] además de una licencia de Adobe Workfront.
+[!DNL Adobe Workfront Fusion] requiere una licencia de [!DNL Adobe Workfront Fusion] además de una licencia de Adobe Workfront.
 
 Esta sección contiene los siguientes artículos:
 
-* [Déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [Déclencheur instantáneos (webhooks) en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)

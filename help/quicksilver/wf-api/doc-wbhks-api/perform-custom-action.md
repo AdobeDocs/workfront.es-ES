@@ -11,7 +11,7 @@ exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ GET /customAction
 
  
 
-## respuesta
+## Respuesta
 
 Una cadena JSON que indica éxito o error, como se especifica en la sección Gestión de errores a continuación. En caso de error (es decir, estado = &quot;error&quot;), Workfront mostrará el mensaje de error proporcionado al usuario.
 

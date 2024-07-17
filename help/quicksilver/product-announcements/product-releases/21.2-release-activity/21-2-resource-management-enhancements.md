@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Mejoras en la gestión de recursos
 
-Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [21.2 Información general de la versión](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [Información general sobre la versión 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Vista de nivel de mes en el Distribuidor de cargas de trabajo
 
 Para ayudarle a administrar la asignación de recursos durante períodos de tiempo más largos, ahora hemos implementado una vista de nivel mensual para el Distribuidor de cargas de trabajo. Puede ver hasta tres meses a la vez y actualizar las asignaciones de recursos mensuales. Antes de este cambio, solo podía ver el Distribuidor de cargas de trabajo por día o semana.
 
-Para obtener más información, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Conexión entre el Planificador de escenarios, el Distribuidor de cargas de trabajo y la lista de tareas
 
@@ -35,7 +35,7 @@ Para ayudarle con la planificación estratégica de sus proyectos y garantizar q
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Resumen de la conciliación de asignaciones de recursos entre proyectos e iniciativas](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [Información general sobre la conciliación de asignaciones de recursos entre proyectos e iniciativas](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 * [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
@@ -48,13 +48,13 @@ Una nueva configuración en el Planificador de recursos le permite utilizar las 
 
 Antes de esta mejora, Workfront calculaba los valores netos solo mediante las horas presupuestadas. Los valores netos muestran la diferencia entre las horas disponibles y las presupuestadas o planificadas, las horas completas o el coste. Horas presupuestadas sigue siendo la configuración predeterminada al calcular valores netos.
 
-Para obtener más información, consulte [Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Para obtener más información, vea [Información general sobre horas, ETC e información de costos en las vistas Proyecto y Rol del Planificador de recursos](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Vista de 12 semanas en el Distribuidor de cargas de trabajo
 
 Ahora puede ver hasta 12 semanas de información en el Distribuidor de cargas de trabajo. Antes de esta mejora, se podían ver 2, 4 y 6 semanas de información.
 
-Para obtener información sobre la visualización del Distribuidor de cargas de trabajo, consulte [Navegación por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Vaya al Distribuidor de cargas de trabajo.
+Para obtener información sobre cómo ver el Distribuidor de cargas de trabajo, consulte [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Desplazarse por el Distribuidor de cargas de trabajo.
 
 ## Cambio en la forma en que funciona el filtro Rol en el área sin asignar del Distribuidor de cargas de trabajo
 
@@ -62,4 +62,4 @@ Para mejorar el modo en que funciona el filtro de Función en la Distribuidor de
 
 Antes de esta mejora, al aplicar el filtro de rol al área sin asignar, el Distribuidor de cargas de trabajo mostraba todas las horas asociadas con los elementos de trabajo asignados a los roles
 
-Para obtener información sobre el filtrado de información en el Distribuidor de cargas de trabajo, consulte [Administrar filtros en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Para obtener información sobre el filtrado en el Distribuidor de cargas de trabajo, consulte [Administrar filtros en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

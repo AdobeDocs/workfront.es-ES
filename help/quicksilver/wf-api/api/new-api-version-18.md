@@ -66,7 +66,7 @@ Un objeto AccessLevelPermissions representa un permiso específico para tener ac
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b>acciones prohibidas</b>
             </p>
             <p>Se agregaron los siguientes valores posibles:</p>
             <ul>
@@ -202,7 +202,7 @@ Un objeto AccessRule representa un conjunto de reglas en niveles de acceso perso
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b>acciones prohibidas</b>
             </p>
             <p>Se agregaron los siguientes valores posibles:</p>
             <ul>
@@ -310,7 +310,7 @@ Un elemento de trabajo determinado, como una tarea, un documento o una plantilla
             </p>
             <ul>
               <li>
-                <p><b>AÑADIR</b>
+                <p><b>AGREGAR</b>
                 </p>
               </li>
               <li>
@@ -1089,7 +1089,7 @@ Los elementos de trabajo de Workfront se pueden actualizar para mantener a los u
       <td>
         <ul>
           <li>
-            <p><b>recentUpdatesObjIDs</b>
+            <p><b>recentUpdatesObjID</b>
             </p>
             <p>Añadido.</p>
           </li>

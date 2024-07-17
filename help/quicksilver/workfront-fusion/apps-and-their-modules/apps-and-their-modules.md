@@ -23,9 +23,9 @@ ht-degree: 19%
 >
 >Adobe Workfront Fusion puede conectarse a casi cualquier servicio web. No se limita solo a las aplicaciones de esta lista. Si la aplicación con la que desea trabajar no está en esta lista, puede utilizar los siguientes módulos para conectarse directamente al servicio web:
 >
->* [[!UICONTROL HTTP] módulos](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
->* [[!UICONTROL JABÓN] módulo](../../workfront-fusion/apps-and-their-modules/soap-module.md)
->* [[!UICONTROL JSON] módulos](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+>* [[!UICONTROL módulos HTTP]](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+>* SOAP [[!UICONTROL módulo ] {20000000001000000000000000000000000000000000000000000000000000000 00000000000000000000000000000000000000000000000000000000000000000000000000000000](../../workfront-fusion/apps-and-their-modules/soap-module.md)
+>* [[!UICONTROL módulos JSON]](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >
 
 ## Aplicaciones de Workfront Fusion y sus módulos
@@ -70,7 +70,7 @@ Esta sección contiene los siguientes artículos:
 * [[!DNL Figma] módulos](../../workfront-fusion/apps-and-their-modules/figma-modules.md)
 * [Control de flujo en Adobe Workfront Fusion](../../workfront-fusion/apps-and-their-modules/flow-control.md)
 * [[!DNL Frame.io] módulos](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
-* [[!UICONTROL FTP] módulos](../../workfront-fusion/apps-and-their-modules/ftp-modules.md)
+* [[!UICONTROL Módulos FTP]](../../workfront-fusion/apps-and-their-modules/ftp-modules.md)
 * [[!DNL GitHub] módulos](../../workfront-fusion/apps-and-their-modules/github.md)
 * [[!DNL GitLab] módulos](../../workfront-fusion/apps-and-their-modules/gitlab-modules.md)
 * [[!DNL Gmail] módulos](../../workfront-fusion/apps-and-their-modules/gmail-modules.md)
@@ -81,12 +81,12 @@ Esta sección contiene los siguientes artículos:
 * [[!DNL Google Sheets] módulos](../../workfront-fusion/apps-and-their-modules/google-sheets-modules.md)
 * [[!DNL Google Slides] módulos](../../workfront-fusion/apps-and-their-modules/google-slides-modules.md)
 * [[!DNL Google Team Drive] módulos](../../workfront-fusion/apps-and-their-modules/google-team-drive-modules.md)
-* [[!UICONTROL HTTP] módulos](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+* [[!UICONTROL módulos HTTP]](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] módulos](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [Módulos de imagen](../../workfront-fusion/apps-and-their-modules/image-module.md)
 * [[!DNL Jira] Módulos de software](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
-* [[!UICONTROL JSON] módulos](../../workfront-fusion/apps-and-their-modules/json-modules.md)
-* [[!UICONTROL JWT] módulo](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
+* [Módulos [!UICONTROL JSON]](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+* [Módulo [!UICONTROL JWT]](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] módulos](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)
 * [[!UICONTROL Markdown] módulos](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)
 * [[!DNL Marketo] módulos](../../workfront-fusion/apps-and-their-modules/marketo-modules.md)
@@ -108,10 +108,10 @@ Esta sección contiene los siguientes artículos:
 * [[!DNL Salesforce] módulos](../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)
 * [[!DNL SDL Managed Translation] módulos](../../workfront-fusion/apps-and-their-modules/sdl-managed-translation-modules.md)
 * [[!DNL ServiceNow] módulos](../../workfront-fusion/apps-and-their-modules/servicenow-modules.md)
-* [[!UICONTROL SFTP] módulos](../../workfront-fusion/apps-and-their-modules/sftp.md)
+* [[!UICONTROL Módulos SFTP]](../../workfront-fusion/apps-and-their-modules/sftp.md)
 * [[!DNL SharePoint] módulos](../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
 * [[!DNL Slack] módulos](../../workfront-fusion/apps-and-their-modules/slack-modules.md)
-* [[!UICONTROL JABÓN] módulo](../../workfront-fusion/apps-and-their-modules/soap-module.md)
+* SOAP [[!UICONTROL módulo ] {20000000001000000000000000000000000000000000000000000000000000000 00000000000000000000000000000000000000000000000000000000000000000000000000000000](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 * [[!DNL Split.io] módulos](../../workfront-fusion/apps-and-their-modules/split-io-modules.md)
 * [[!UICONTROL Analizador de texto]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
 * [[!UICONTROL Herramientas]](../../workfront-fusion/apps-and-their-modules/tools-modules.md)

@@ -1,9 +1,9 @@
 ---
-title: Organizar y obtener una vista previa de un formulario con Form Designer
+title: Organizar y previsualizar un formulario con Form Designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Puede organizar un formulario personalizado con el diseñador de formularios.
+description: Puede organizar un formulario personalizado con Form Designer.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -40,7 +40,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información sobre cómo los administradores de Workfront conceden este acceso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p> <p>Para obtener información acerca de cómo los administradores de Workfront conceden este acceso, vea <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acceso administrativo a los usuarios a ciertas áreas</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -53,15 +53,15 @@ Por ejemplo, si necesita realizar el seguimiento de información confidencial qu
 
 La configuración de acceso que seleccione para una sección está directamente vinculada a los permisos que los usuarios tienen en el objeto de Workfront donde está adjunto el formulario personalizado. Puede ocultar o mostrar una sección en función de si el usuario tiene acceso para ver, contribuir o administrar ese objeto. O puede establecer una sección en Solo administrador para que solo los usuarios con un nivel de acceso de administrador del sistema puedan acceder a ella.
 
-Para obtener información sobre los permisos de los objetos, consulte [Información general sobre los permisos de uso compartido en objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Para obtener información acerca de los permisos de los objetos, vea [Información general sobre los permisos de uso compartido de los objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obtener información acerca de los campos y widgets personalizados en los formularios personalizados, vea [Diseñar un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Creación y configuración del acceso a una sección de un formulario personalizado
 
-1. Comience a crear o editar un formulario personalizado y a añadir campos, tal como se describe en [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Empiece a crear o editar un formulario personalizado y a agregar campos, tal como se describe en [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clic **Salto de sección** y arrástrelo a la posición deseada en el lienzo.
+1. Haga clic en **Salto de sección** y arrástrelo a la posición que desee en el lienzo.
 
 1. En el panel derecho, configure las opciones que desee para la sección:
 
@@ -86,42 +86,42 @@ Para obtener información sobre los campos y widgets personalizados en los formu
      <tr> 
       <td role="rowheader"> <p>Conceder acceso</p> </td> 
       <td> <p> Seleccione los permisos que necesitan los usuarios en un objeto donde se adjunta el formulario personalizado para ver esta sección y editar sus valores de campo. 
-       <p>Los siguientes permisos están disponibles en <b>Los usuarios con este acceso al objeto pueden ver valores de campo</b>:</p> 
+       <p>Los siguientes permisos están disponibles en <b>Los usuarios con este acceso al objeto pueden ver los valores de los campos</b>:</p> 
          <ul>
           <li><strong>Ver</strong>: vea los permisos del objeto</li>
-          <li><p><b>Edición limitada</b>: (disponible solo si el objeto es un proyecto, una tarea, un problema o un usuario):</p> 
+          <li><p><b>Edición limitada</b>: (disponible solo si el objeto es un proyecto, tarea, problema o usuario):</p> 
           <p>Permite a los usuarios contribuir al objeto si se trata de un proyecto, una tarea o un problema.</p>
           <p>Permite a los usuarios editar el perfil o poseer el permiso de perfil para el objeto si es un usuario.</p></li> 
-          <li><b>Editar</b>: administre permisos al objeto </li> 
-          <li><b>Solo administrador</b>: nivel de acceso del administrador del sistema</li> 
+          <li><b>Editar</b>: administre permisos para el objeto </li> 
+          <li><b>Solo administrador</b>: nivel de acceso de administrador del sistema</li> 
          </ul> </li> 
-        <p>Los siguientes permisos están disponibles en <b>Los usuarios con este acceso al objeto pueden editar valores de campo</b>: </p> 
+        <p>Los siguientes permisos están disponibles en <b>Los usuarios con este acceso al objeto pueden editar los valores de campo</b>: </p> 
          <ul> 
-          <li> <p><b>Edición limitada</b>: (disponible solo si el objeto es un proyecto, una tarea, un problema o un usuario):</p> 
+          <li> <p><b>Edición limitada</b>: (disponible solo si el objeto es un proyecto, tarea, problema o usuario):</p> 
            <p>Si el objeto es un proyecto, una tarea o un problema, este permiso permite a los usuarios contribuir al objeto</p>
           <p>Si el objeto es un usuario, este permiso permite a los usuarios editar el perfil o poseer el permiso de perfil para el objeto.</p> 
-          <li><b>Editar</b>: administre permisos al objeto </li> 
-          <li><b>Solo administrador</b>: nivel de acceso del administrador del sistema</li> 
+          <li><b>Editar</b>: administre permisos para el objeto </li> 
+          <li><b>Solo administrador</b>: nivel de acceso de administrador del sistema</li> 
          </ul> </li> 
        </ul> 
-       <p>Para obtener información sobre los permisos de los objetos, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Información general sobre los permisos de uso compartido en objetos</a>.</p> 
+       <p>Para obtener información acerca de los permisos de los objetos, vea <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Información general sobre los permisos de uso compartido de los objetos</a>.</p> 
        <p><b>NOTA</b>:  
        <ul> 
        <li> <p>Los usuarios sin los permisos especificados aquí no pueden ver los campos y widgets personalizados en la sección. </p> <p>Esto también se aplica si se muestran los valores de los campos en los informes o si se utilizan en campos calculados en los informes en modo de texto.</p> </li> 
        <li><p>Para formularios personalizados de solicitud/problema: si se necesita acceso de visualización para ver los campos en el salto de sección, pero se necesita acceso de administrador para editar los campos, los usuarios que no sean administradores no podrán ver la sección y todos sus campos cuando rellenen el formulario. Una vez creada la solicitud, los usuarios con acceso de visualización pueden ver los campos en la sección.</p></li>
-       <li> <p>La asociación de varios tipos de objetos con el formulario puede cambiar los permisos de visualización y edición disponibles en estos pasos. Para obtener más información, consulte <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Cómo pueden afectar varios tipos de objetos a los permisos de salto de sección en un formulario personalizado</a> en este artículo.</p> </li> 
+       <li> <p>La asociación de varios tipos de objetos con el formulario puede cambiar los permisos de visualización y edición disponibles en estos pasos. Para obtener más información, consulte <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Cómo pueden afectar varios tipos de objetos a los permisos de saltos de sección en un formulario personalizado</a> en este artículo.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><p>Agregar lógica</p></td> 
-      <td><p>Utilice la lógica de visualización para especificar si la sección debe mostrarse en el formulario, en función de las selecciones que realicen los usuarios en los campos personalizados de opción múltiple al rellenar el formulario.</p><p><strong>NOTA:</strong> Si se les ha aplicado lógica de visualización a todos los campos individuales bajo un salto de sección y, como resultado de la lógica, todos ellos están ocultos, toda la sección estará oculta en el formulario personalizado. Esto sucederá incluso si la lógica de visualización no se aplica al salto de sección.</p><p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Agregar lógica de visualización y lógica de omisión con el diseñador de formularios</a>.</p></td> 
+      <td><p>Utilice la lógica de visualización para especificar si la sección debe mostrarse en el formulario, en función de las selecciones que realicen los usuarios en los campos personalizados de opción múltiple al rellenar el formulario.</p><p><strong>NOTA:</strong> Si se les ha aplicado lógica de visualización a todos los campos individuales bajo un salto de sección y todos están ocultos como resultado de la lógica, toda la sección estará oculta en el formulario personalizado. Esto sucederá incluso si la lógica de visualización no se aplica al salto de sección.</p><p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Agregar lógica de visualización y omitir lógica con el diseñador de formularios</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Arrastre o agregue al menos un campo o widget personalizado a la nueva sección. Es necesario antes de guardar la sección.
 
-1. Clic **Listo**.
+1. Haga clic en **Listo**.
 
    >[!TIP]
    >
@@ -145,7 +145,7 @@ En un formulario personalizado con un salto de sección configurado con el permi
 ## Colocar campos y widgets personalizados en un formulario personalizado
 
 
-1. Comience a crear o editar un formulario personalizado, tal como se describe en [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Comience a crear o editar un formulario personalizado, tal como se describe en [Diseñar un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Para colocar campos y widgets personalizados en la misma fila, arrastre uno junto al otro hasta que aparezca una línea entre ellos.
 
@@ -160,7 +160,7 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* Puede usar el complemento **Previsualizar** en la esquina superior derecha para hacerse una idea de cómo se mostrarán los campos y widgets personalizados en el formulario.
+>* Puede usar el botón **Vista previa** de la esquina superior derecha para hacerse una idea de cómo se mostrarán los campos y widgets personalizados en el formulario.
 >* Es posible que los campos y widgets personalizados no siempre se muestren igual en el formulario, según el espacio de pantalla disponible cuando un usuario lo esté viendo. Por ejemplo, el tercer campo de una fila de campos puede ajustarse a la siguiente fila de campos si el espacio horizontal es limitado.
 
 1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo arriba o abajo hasta que aparezca una línea azul horizontal entre los elementos.
@@ -169,11 +169,11 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
    o
 
-   Clic **Guardar y cerrar**.
+   Haga clic en **Guardar y cerrar**.
 
 ## Previsualización de un formulario personalizado
 
-1. Comience a crear o editar un formulario personalizado y a añadir campos, tal como se describe en [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Empiece a crear o editar un formulario personalizado y a agregar campos, tal como se describe en [Diseño de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clic **Previsualizar** en la esquina superior derecha para ver el aspecto que tendrá el formulario cuando se utilice, haga clic en **Finalizar previsualización** para volver a la edición del formulario.
+1. Haga clic en **Vista previa** en la esquina superior derecha para ver el aspecto que tendrá el formulario cuando se utilice y, a continuación, haga clic en **Finalizar vista previa** para regresar a la edición del formulario.
 

@@ -72,7 +72,7 @@ Debe tener la siguiente configuración para utilizar Adobe Workfront Planning:
 <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
    <td>
-   <p>Permisos de contribución o superiores a espacios de trabajo y vistas que no se hayan creado para editarlos, eliminarlos y compartirlos, así como para crear, editar o eliminar tipos de registros y registros.</p>
+   <p>Permisos de Contribute o superior para espacios de trabajo y vistas que no haya creado para editarlos, eliminarlos y compartirlos, así como para crear, editar o eliminar tipos de registros y registros.</p>
     <p>Los administradores del sistema pueden administrar los espacios de trabajo que no hayan creado. </p>
     <p>Los administradores del sistema no pueden administrar las vistas que no hayan creado. </p>
    <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte  
@@ -81,7 +81,7 @@ Debe tener la siguiente configuración para utilizar Adobe Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalización del menú principal mediante una plantilla de diseño</a> y y <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Asignar usuarios a una plantilla de diseño</a>. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, vea <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalizar el menú principal mediante una plantilla de diseño</a> y y <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Asignar usuarios a una plantilla de diseño</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -96,11 +96,11 @@ Debe tener la siguiente configuración para utilizar Adobe Workfront Planning:
 
 Una vez que su organización se haya inscrito en el programa de Workfront Planning, puede agregar el área de Planning al menú principal de todos los usuarios mediante una plantilla de diseño.
 
-1. Iniciar sesión en **Workfront** como administrador de Workfront.
+1. Inicie sesión en **Workfront** como administrador de Workfront.
 
-1. Añada el **Planificación** icono ![](assets/planning-icon.png) a la **Menú principal** uso de un **Plantilla de diseño**.
+1. Agregue el icono **Planning** ![](assets/planning-icon.png) al **Menú principal** mediante una **plantilla de diseño**.
 
-   Para obtener más información, consulte [Personalización del menú principal mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Asigne la plantilla de diseño a los usuarios a los que desea tener acceso en Workfront Planning.
 
@@ -116,7 +116,7 @@ No hay controles de acceso para Workfront Planning.
 
 Los usuarios con cualquier tipo de licencia pueden acceder a Workfront Planning.
 
-Para obtener información sobre la concesión de acceso en Workfront, consulte [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Para obtener información sobre la concesión de acceso en Workfront, vea [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Conceder permisos
 
@@ -126,6 +126,6 @@ Para obtener más información, consulte [Información general sobre los permiso
 
 El tipo de licencia de Adobe Workfront funciona junto con los permisos de Workfront Planning para proporcionarle acceso para ver, contribuir o administrar objetos de Workfront Planning.
 
-Para obtener información sobre cómo afectan los tipos de licencia a los niveles de permisos de los objetos de Workfront Planning, consulte [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Para obtener información acerca de cómo afectan los tipos de licencia a los niveles de permisos de los objetos de Workfront Planning, vea [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 

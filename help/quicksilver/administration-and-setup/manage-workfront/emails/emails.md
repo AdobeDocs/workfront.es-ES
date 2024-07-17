@@ -27,15 +27,15 @@ Con todas las opciones disponibles para establecer y definir cómo recibirán y 
 
 Esta sección contiene los siguientes artículos:
 
-* [Página Notificaciones por correo electrónico](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+* [Página de notificaciones por correo electrónico](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
 * [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 * [Tipos de notificación de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Personalizar temas de correo electrónico para notificaciones de eventos](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
 * [Modificar la configuración de notificaciones por correo electrónico de varios usuarios](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
-* [Configuración de notificaciones de recordatorio](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
+* [Configurar notificaciones de recordatorio](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [Adjuntar una notificación de recordatorio a un objeto](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
-* [Configuración de recordatorios automáticos](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
+* [Configurar recordatorios automáticos](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
 * [Configurar plantillas de correo electrónico](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
-* [Autorización de correos electrónicos desde la aplicación Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
+* [Permitiendo correos electrónicos de la aplicación Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
 * [Administrar invitaciones por correo electrónico a nuevos usuarios](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)

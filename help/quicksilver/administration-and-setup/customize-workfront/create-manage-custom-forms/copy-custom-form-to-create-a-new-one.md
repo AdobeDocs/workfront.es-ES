@@ -54,9 +54,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizado.**
-1. Seleccione el formulario personalizado que desee utilizar como base para un nuevo formulario personalizado y, a continuación, haga clic en ![Icono Copiar](assets/copy-icon.png).
-1. En el **Copia de formulario personalizado** que aparece, escriba la siguiente información:
+1. Haga clic en **Forms personalizado.**
+1. Seleccione el formulario personalizado que desee usar como base para un nuevo formulario personalizado y luego haga clic en ![Icono de copiar](assets/copy-icon.png).
+1. En el cuadro **Copia de formulario personalizado** que aparece, escriba la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -68,7 +68,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipos de formularios </p> </td> 
-      <td> <p>En el <b>Tipo de formulario</b> , seleccione los tipos de objeto con los que desea que funcione el formulario personalizado y haga clic en la X situada junto a los tipos que desee quitar. Los tipos que ya están asociados con el formulario se deshabilitan en la lista.</p> 
+      <td> <p>En el cuadro <b>Tipo de formulario</b>, seleccione los tipos de objeto con los que desea que funcione el formulario personalizado y haga clic en la X situada junto a los tipos que desee quitar. Los tipos que ya están asociados con el formulario se deshabilitan en la lista.</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>El formulario debe estar asociado al menos a un tipo de objeto.</p> 
       </td> 
@@ -76,7 +76,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     </tbody> 
    </table>
 
-1. Clic **Copiar**.
+1. Haga clic en **Copiar**.
 
    En el formulario original, si los campos calculados hacen referencia a campos incompatibles con un tipo de objeto que agregue al nuevo formulario, un mensaje le pedirá que cambie los cálculos en esos campos.
 
@@ -85,12 +85,12 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. Seleccione el formulario que acaba de copiar y haga clic en **Editar**.
 1. Realice cambios en el formulario, tal como se explica en los siguientes artículos:
 
-   * [Copiar un formulario personalizado para crear uno nuevo con el generador de formularios heredados](#Add2)
+   * [Copie un formulario personalizado para crear uno nuevo con el generador de formularios heredados](#Add2)
    * [Agregar datos calculados a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Coloque los campos y widgets personalizados en un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Agregar o editar un widget de recursos en un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Reutilizar un campo personalizado calculado existente en un formulario personalizado con el creador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Agregar lógica de visualización y saltar lógica a un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Coloque campos y widgets personalizados en un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Agregue o edite un widget de recursos en un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [Reutilizar un campo personalizado calculado existente en un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [Agregue lógica de visualización y omita la lógica a un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Previsualizar y completar un formulario personalizado con el generador de formularios heredado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
-1. (Opcional) Después de hacer clic en **Guardar + Cerrar**, adjunte el formulario al objeto donde desee utilizarlo, tal como se describe en [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Opcional) Después de hacer clic en **Guardar+Cerrar**, adjunte el formulario al objeto donde desea utilizarlo, tal como se describe en [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

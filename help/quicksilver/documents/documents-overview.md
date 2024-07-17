@@ -21,8 +21,8 @@ ht-degree: 0%
 
 Esta sección contiene las siguientes subsecciones:
 
-* [Añadir nuevos documentos a Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-* [Administración de documentos](../documents/managing-documents/manage-documents.md)
-* [Organización de documentos](../documents/organizing-documents/organize-documents.md)
-* [Adobe Workfront DAM en Adobe Workfront](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* [Agregar nuevos documentos a Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [Administrar documentos](../documents/managing-documents/manage-documents.md)
+* [Organizar documentos](../documents/organizing-documents/organize-documents.md)
+* [DAM Adobe Workfront en Adobe Workfront](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 * [Integraciones de Workfront y Experience Manager Assets](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

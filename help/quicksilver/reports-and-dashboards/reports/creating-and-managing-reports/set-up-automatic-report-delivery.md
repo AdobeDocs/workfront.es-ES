@@ -1,27 +1,27 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: Programar un envío automático de informes
-description: Programar un envío automático de informes
+title: Programar una entrega automática de informes
+description: Programar una entrega automática de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 3%
+source-wordcount: '1165'
+ht-degree: 2%
 
 ---
 
-# Programar un envío automático de informes
+# Programar una entrega automática de informes
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
 -->
 
-Los informes se pueden programar para que se entreguen automáticamente a los usuarios según una programación definida, o bien se pueden enviar manualmente de forma única. Cuando se envía un informe desde Adobe Workfront, el usuario recibe un mensaje de correo electrónico con el informe de Workfront en un archivo adjunto independiente.
+Puede programar informes para que se entreguen automáticamente a los usuarios según una programación definida, o puede enviar informes manualmente una vez. Cuando envía un informe desde Adobe Workfront, el usuario recibe un correo electrónico con el informe de Workfront en un archivo adjunto independiente.
 
-Para obtener más información, incluidas las limitaciones de tamaño que pueden afectar a la entrega de los informes, consulte [Resumen del envío de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Para obtener más información, incluidas las limitaciones de tamaño que pueden afectar al envío de los informes, consulte [Resumen de la entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Requisitos de acceso
 
@@ -32,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront*</td> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -41,11 +41,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y grupos</p> <p>Nota: Si todavía no tiene acceso, pregunte a su administrador de Workfront si establece restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe</p> <p>Para obtener información sobre la solicitud de acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,28 +54,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Antes de comenzar, debe crear un informe. Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Antes de empezar, debe crear un informe. Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Programar el envío de informes
+## Programar una entrega de informes
 
-Para programar un informe para su envío automático o para editar o eliminar un envío de informe existente: &#x200B;
+Para programar un informe para su envío automático o editar o eliminar un envío de informe existente:&#x200B;
 
-1. Vaya a un informe que desee programar para su envío.
+1. Vaya al informe que desee programar para su envío.
 
    >[!NOTE]
    >
-   >Los envíos de informes no contienen mensajes. Si desea limitar los datos de un envío de informe, le recomendamos que aplique filtros al informe que desea enviar.
+   >Los envíos de informes no contienen mensajes. Si desea limitar los datos en una entrega de informes, le recomendamos que aplique filtros al informe que desea enviar.
 
-1. Haga clic en **Acciones de informe**, luego **Enviar informe**.
+1. Haga clic en **Acciones de informe** y luego en **Enviar informe**.
 
-   La variable **Enviar informe** se abre.
+   Se muestra el cuadro de diálogo **Enviar informe**.
 
    >[!TIP]
    >
-   >Para enviar un informe manualmente en un momento dado, vaya al informe y haga clic en **Acciones de informe** > **Enviar informe** > **Enviar ahora**.
+   >Para enviar un informe manualmente en cualquier momento dado, vaya al informe y haga clic en **Acciones de informe** > **Enviar informe** > **Enviar ahora**.
 
-1. Seleccione el **Repetición de envíos** pestaña .
-1. (Condicional) Para modificar un envío de informe repetido existente, seleccione el envío de informe en la **Repetición de envíos** para obtener más información.
+1. Seleccione la ficha **Entregas repetidas**.
+1. (Condicional) Para modificar una entrega repetida de informe existente, seleccione la entrega de informe en la sección **Entregas repetidas**.
 1. Especifique la siguiente información:
 
    <table style="table-layout:auto"> 
@@ -84,10 +84,10 @@ Para programar un informe para su envío automático o para editar o eliminar un
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Enviar a</p> </td> 
-      <td> <p>Comience a escribir el nombre del usuario, grupo, equipo o función al que desee enviar el informe y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.</p> <p>O</p> <p>Especifique la dirección de correo electrónico de una persona externa al sistema de Workfront a la que desee tener acceso al informe.</p> <p>Repita este proceso para enviar el informe a varios usuarios, grupos, equipos o funciones.</p> <p>Nota:  <p>Tenga en cuenta lo siguiente al agregar destinatarios de envíos de informes:</p> 
+      <td> <p>Empiece escribiendo el nombre del usuario, grupo, equipo o rol al que desea enviar el informe y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.</p> <p>O</p> <p>Especifique la dirección de correo electrónico de una persona externa al sistema de Workfront a la que desea que tenga acceso al informe.</p> <p>Repita este proceso para enviar el informe a varios usuarios, grupos, equipos o roles.</p> <p>Nota:  <p>Tenga en cuenta lo siguiente al agregar destinatarios de envío de informes:</p> 
         <ul> 
-         <li>Si su organización restringe las notificaciones de Workfront a dominios de correo electrónico específicos, es posible que solo pueda enviar informes a las direcciones de correo electrónico enumeradas en la lista de permitidos de correo electrónico.<p>Para obtener información sobre cómo un administrador de Workfront actualiza la lista de permitidos de correo electrónico, consulte la sección <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurar la lista de permitidos de correo electrónico</a>.</p></li> 
-         <li> <p>Añadir un gran número de usuarios como destinatarios puede provocar que la entrega falle. Si se producen errores en la entrega, puede programar varios envíos de informes con grupos de usuarios más pequeños.</p> </li> 
+         <li>Si su organización restringe las notificaciones de Workfront a dominios de correo electrónico específicos, es posible que solo pueda enviar informes a las direcciones de correo electrónico que aparecen en la lista de permitidos de correo electrónico.<p>Para obtener información sobre cómo un administrador de Workfront actualiza la lista de permitidos de correo electrónico, consulte la sección <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configuración de la lista de permitidos de correo electrónico</a>.</p></li> 
+         <li> <p>Añadir un gran número de usuarios como destinatarios puede provocar errores en la entrega. Si se producen errores en las entregas, se pueden programar varios envíos de informes con grupos de usuarios más pequeños.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -96,25 +96,25 @@ Para programar un informe para su envío automático o para editar o eliminar un
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Mensaje de correo electrónico</p> </td> 
-      <td> <p>Especifique un mensaje para incluirlo en el correo electrónico.</p> <p>De forma predeterminada, el mensaje de correo electrónico es:</p> <p><em>Se adjunta el informe [frecuencia del informe] [Nombre del informe] generado por Workfront el [Fecha].</em> </p> <p>Nota: Para los informes entregados solo como archivo de Excel, también se agrega el siguiente mensaje al correo electrónico: "Tenga en cuenta que con los tipos de archivo de Microsoft Excel (XLS), hay un límite (65.530) en el número de hipervínculos que admiten estos tipos de archivo. Si supera estos límites, el archivo no se abrirá y se recomienda volver a enviar sin los hipervínculos. Vuelva al programador de informes para eliminar los hipervínculos y reenviar el informe". La frase "por favor, vuelva al programador de informes" es un vínculo al informe.</p> </td> 
+      <td> <p>Especifique un mensaje para incluirlo en el correo electrónico.</p> <p>De forma predeterminada, el mensaje de correo electrónico es:</p> <p><em>Se ha adjuntado el informe [Frecuencia del informe] [Nombre del informe] generado por Workfront el [Fecha].</em> </p> <p>Nota: En el caso de los informes enviados únicamente como archivo de Excel, también se añade el siguiente mensaje al correo electrónico: "Tenga en cuenta que con los tipos de archivo de MS Excel (XLS), hay un límite (65 530) en el número de hipervínculos que admiten estos tipos de archivo. Si supera estos límites, el archivo no se abrirá y se recomienda reenviarlo sin los hipervínculos. Vuelva al programador de informes para eliminar los hipervínculos y reenvíe el informe". La frase "vuelva al programador de informes" es un vínculo que lleva al informe.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Entregar este informe con los derechos de acceso de</p> </td> 
-      <td> <p>Empiece a escribir el nombre de un usuario que tenga acceso al informe y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable. A los usuarios que reciban el informe se les otorgará el mismo nivel de acceso que al usuario especificado aquí.<br> Para obtener más información, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y enviar un informe con los derechos de acceso de otro usuario</a>.</p> <p>Nota: Este campo no admite caracteres comodín. Por ejemplo, el uso del comodín $$User.ID no ejecuta el informe con los derechos de acceso del usuario que recibe el informe.</p> </td> 
+      <td> <p>Empiece escribiendo el nombre de un usuario que tiene acceso al informe y, cuando aparezca en la lista desplegable, haga clic en el nombre. A los usuarios que reciban el informe se les otorgará el mismo nivel de acceso que al usuario que especifique aquí.<br> Para obtener más información, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y enviar un informe con los derechos de acceso de otro usuario</a>.</p> <p>Nota: Este campo no admite caracteres comodín. Por ejemplo, si se usa el comodín $$User.ID, el informe no se ejecutará con los derechos de acceso del usuario que recibe el informe.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Formato</p> </td> 
       <td> <p>Seleccione el formato que desee para el informe enviado:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Si selecciona esta opción, puede dar formato a la salida utilizando el complemento <strong>Tamaño del papel</strong> y <strong>Orientación</strong> opciones que se muestran.</p> </li> 
+        <li> <p>PDF</p> <p>Si selecciona esta opción, puede dar formato a la salida utilizando las opciones adicionales <strong>Tamaño de papel</strong> y <strong>Orientación</strong> que se muestran.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Incluir enlaces</p> </td> 
-      <td> <p>Esta opción solo está disponible cuando <strong>MS Excel</strong> se selecciona en la variable <strong>Formato</strong> menú desplegable. Cuando esta opción está activada, los hipervínculos se incluyen en el documento de Excel exportado.</p> <p>Los documentos que contienen más de 65.530 vínculos no se pueden abrir. Si el documento exportado contiene más de 65.530 vínculos, anule la selección de esta opción.</p> <p>Esta opción está activada de forma predeterminada.</p> </td> 
+      <td> <p>Esta opción solo está disponible cuando <strong>MS Excel</strong> está seleccionado en el menú desplegable <strong>Formato</strong>. Cuando esta opción está habilitada, todos los hipervínculos se incluyen en el documento de Excel exportado.</p> <p>No se pueden abrir los documentos que contienen más de 65.530 vínculos. Si el documento exportado va a contener más de 65.530 vínculos, anule la selección de esta opción.</p> <p>Esta opción está habilitada de forma predeterminada.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Resumen</p> </td> 
@@ -126,51 +126,51 @@ Para programar un informe para su envío automático o para editar o eliminar un
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se repite cada</p> </td> 
-      <td> <p>Seleccione la frecuencia con la que desea que se repita la entrega. El valor que seleccione para esta opción se basa en la opción seleccionada en la variable <strong>Repetidas</strong> lista desplegable.</p> </td> 
+      <td> <p>Seleccione la frecuencia con la que desea que se repita la entrega. El valor que seleccione para esta opción se basa en la opción seleccionada en la lista desplegable <strong>Repeticiones</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Hora</p> </td> 
-      <td> <p>Seleccione la hora del día para el envío.</p> <p>Sugerencia: Como las cargas del sistema pueden afectar a los tiempos de entrega de los informes, puede haber un retraso entre la hora programada y la hora de entrega real. Si necesita que un informe se envíe en un momento específico, recomendamos programar la entrega antes del momento en que sea necesario. Por ejemplo, se recomienda programar la entrega un día antes de la fecha en la que es necesario.</p> </td> 
+      <td> <p>Seleccione la hora del día a la que se enviará la entrega.</p> <p>Sugerencia: Debido a que las cargas del sistema pueden afectar a los tiempos de entrega de los informes, puede haber un retraso entre la hora programada y la hora de entrega real. Si necesita que un informe se envíe en un momento específico, le recomendamos que programe la entrega antes del momento en que sea necesario. Por ejemplo, se recomienda programar la entrega un día antes de la fecha en que sea necesario.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se repite el</p> </td> 
-      <td> <p>Esta opción está disponible cuando la variable <strong>Repetidas</strong> se configura como <strong>Semanal</strong> o <strong>Mensual</strong>:</p> 
+      <td> <p>Esta opción está disponible cuando la opción <strong>Repeticiones</strong> está establecida en <strong>Semanal</strong> o <strong>Mensual</strong>:</p> 
        <ul> 
-        <li> <p>Cuando la variable <strong>Repetidas</strong> está configurada en <strong>Semanal</strong>: Seleccione los días de la semana en que se realiza la entrega.</p> </li> 
-        <li> <p>Cuando la variable <strong>Repetidas</strong> está configurada en <strong>Mensual</strong>: Seleccione si la entrega se realiza el día del mes, el día de la semana o el último día del mes (estas opciones aprovechan la fecha seleccionada en la variable <strong>Comienza en</strong> ).</p> </li> 
+        <li> <p>Cuando la opción <strong>Repite</strong> se establece en <strong>Semanal</strong>: seleccione los días de la semana en que se enviará la entrega.</p> </li> 
+        <li> <p>Cuando la opción <strong>Repite</strong> se establece en <strong>Mensual</strong>: selecciona si la entrega se realiza el día del mes, el día de la semana o el último día del mes (estas opciones aprovechan la fecha que seleccionaste en el campo <strong>Comienza el </strong>).</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se inicia los</p> </td> 
-      <td>Seleccione la fecha en la que comenzará la entrega programada.</td> 
+      <td>Seleccione la fecha de inicio de la entrega programada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Finaliza el</p> </td> 
-      <td>Seleccione una fecha para finalizar el envío programado.</td> 
+      <td>Seleccione una fecha para que finalice la entrega programada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Nunca</p> </td> 
-      <td>Select <strong>Nunca</strong> si desea que la entrega programada dure indefinidamente.</td> 
+      <td>Seleccione <strong>Nunca</strong> si desea que la entrega programada dure indefinidamente.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **Guardar** para guardar el envío de informes.
+1. Haga clic en **Guardar** para guardar la entrega del informe.
 
-   El informe se muestra en la sección **Repetición de envíos** (en la sección **Enviar informe** ) y se enviará a la hora programada.
+   El informe se muestra en la sección **Envíos repetidos** (en el cuadro de diálogo **Enviar informe**) y se enviará a la hora programada.
 
-   Para obtener información sobre las limitaciones de tamaño que pueden afectar a la entrega de los informes, consulte las secciones [Límites de entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) y [Límites de exportación](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+   Para obtener información sobre las limitaciones de tamaño que pueden afectar el envío de los informes, consulte las secciones [Límites de envío de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) y [Límites de exportación](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
-1. (Opcional) Para eliminar un envío programado:
+1. (Opcional) Para eliminar una entrega programada:
 
-   1. En el **Repetición de envíos** , haga clic en el envío programado y, a continuación, haga clic en **Eliminar**.
+   1. En el panel **Envíos repetidos**, haga clic en el envío programado y, a continuación, haga clic en **Eliminar**.
    1. Haga clic en **Eliminar** para confirmar.
 
-## Tutorial de vídeo
+## Introducción a los vídeos
 
-Vea el siguiente vídeo para aprender a programar una entrega de informes. Este vídeo se grabó en Workfront Classic. Sin embargo, el contenido también se aplica a la nueva experiencia de Workfront.
+Vea el siguiente vídeo para aprender a programar la entrega de un informe. Este vídeo se grabó en Workfront Classic. Sin embargo, el contenido también se aplica a la nueva experiencia de Workfront.
 
-[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>

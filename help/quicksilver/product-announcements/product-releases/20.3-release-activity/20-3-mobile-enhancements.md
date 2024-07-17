@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Esta página describe todas las mejoras de integración y móviles realizadas con la versión 20.3 en el entorno de producción. Estas mejoras estuvieron disponibles en el entorno de producción la semana del 10 de agosto de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Información general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.3, consulte [Descripción general de la versión 20.3](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Workfront Fusion 2.0 está aquí.
 
@@ -34,7 +34,7 @@ Workfront se ha asociado con MobileIron, una plataforma de administración de di
 
 Con Workfront para MobileIron, los administradores pueden restringir cosas como la funcionalidad de copiar/pegar y las capturas de pantalla. Puede descargar la aplicación de Workfront para MobileIron en [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Para obtener información sobre la configuración de la aplicación, consulte [Configuración de Adobe Workfront para MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Para obtener información sobre cómo configurar la aplicación, consulta [Configuración de Adobe Workfront para MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Nuevo asistente virtual móvil
 
@@ -52,5 +52,5 @@ Anclar comandos
 
 Puede utilizar la función de anclaje para acceder a los comandos guardados del asistente virtual, así como a los anclajes del explorador web.
 
-**Nota: El Asistente virtual móvil ha quedado obsoleto en abril de 2024.**
+**Nota: el Asistente virtual móvil quedó obsoleto en abril de 2024.**
 

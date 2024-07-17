@@ -2,8 +2,8 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Inclusión anticipada de funciones para [!DNL Adobe Workfront] Tableros
-description: Lea este artículo para obtener más información [!DNL Workfront Boards] inclusión de funciones anticipada.
+title: Inclusión en funciones anticipadas para  [!DNL Adobe Workfront] tableros
+description: Lea este artículo para obtener más información acerca de la inclusión de la característica  [!DNL Workfront Boards] Early.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Inclusión anticipada de funciones para [!DNL Adobe Workfront] [!UICONTROL Tableros]
+# Inclusión en la función anticipada para [!DNL Adobe Workfront] [!UICONTROL tableros]
 
-La inclusión de funciones anticipada para [!DNL Adobe Workfront] [!UICONTROL Tableros] se lanzó en julio de 2022.
+La inclusión de funcionalidades anticipada para [!DNL Adobe Workfront] [!UICONTROL Tableros] se inició en julio de 2022.
 
-[!DNL Adobe Workfront] [!UICONTROL Tableros] son herramientas flexibles que permiten la colaboración en equipo al proporcionar acceso a un tablero compartido que contiene columnas y tarjetas.
+[!DNL Adobe Workfront] [!UICONTROL Los tableros] son herramientas flexibles que permiten la colaboración en equipo al proporcionar acceso a un tablero compartido que contiene columnas y tarjetas.
 
-Para obtener información general sobre tableros, consulte [[!UICONTROL Tableros] descripción general](/help/quicksilver/agile/boards-overview.md).
+Para obtener información general acerca de los tableros, vea [[!UICONTROL Información general sobre tableros]](/help/quicksilver/agile/boards-overview.md).
 
 ## Funciones
 
@@ -191,40 +191,40 @@ Las primeras funciones de los tableros están disponibles para todas las organiz
 
 ### Opt-in
 
-Solo [!DNL Workfront] los administradores pueden adherirse a las primeras funciones de los tableros. Cuando un [!DNL Workfront] administrador habilita las funciones anteriores, se incluye a todos los usuarios de la organización.
+Solo los administradores de [!DNL Workfront] pueden incluirse en las primeras funciones de los tableros. Cuando un administrador de [!DNL Workfront] habilita las características iniciales, se incluye a todos los usuarios de la organización.
 
 {{step1-to-boards}}
 
-1. Clic ![Inclusión anticipada de funciones](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Inclusión anticipada de funciones]), en la parte superior de la pantalla del panel.
-1. Clic **[!UICONTROL Activar]**.
+1. Haga clic en ![Inclusión anticipada de característica](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Inclusión anticipada de característica]) en la parte superior de la pantalla del panel.
+1. Haga clic en **[!UICONTROL Habilitar]**.
 1. Empiece a utilizar las primeras funciones de los tableros.
 
 ## Enviar comentarios
 
-1. En un tablero, haga clic en **[!UICONTROL Comentarios]** botón.
+1. En un tablero, haga clic en el botón **[!UICONTROL Comentarios]**.
 1. Rellene el formulario y haga clic en **[!UICONTROL Enviar]**.
 
 ## Preguntas frecuentes sobre la inclusión temprana de funcionalidades
 
 ### ¿Cómo sé si mi organización ha elegido las funciones iniciales?
 
-Póngase en contacto con su [!DNL Workfront] para averiguar si han habilitado las primeras funciones de los tableros.
+Póngase en contacto con su administrador de [!DNL Workfront] para averiguar si ha habilitado las características iniciales para los tableros.
 
 ### ¿Pueden habilitarse las funciones anticipadas solo para determinados usuarios?
 
-Si la variable [!DNL Workfront] administrador activa las funciones iniciales de los tableros. Se incluye a todos los usuarios de la organización.
+Cuando el administrador de [!DNL Workfront] habilita las características iniciales de los tableros, se incluye a todos los usuarios de la organización.
 
-Sin embargo, la variable [!DNL Workfront] El administrador de puede ocultar la opción Tableros de la [!UICONTROL Menú principal] para usuarios individuales o grupos de usuarios con una plantilla de diseño. Para obtener más información, consulte [Personalización de [!UICONTROL Menú principal] uso de una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Sin embargo, el administrador de [!DNL Workfront] puede ocultar la opción Tableros del [!UICONTROL Menú principal] para usuarios individuales o grupos de usuarios con una plantilla de diseño. Para obtener más información, consulte [Personalizar el [!UICONTROL menú principal] con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->Esto no impide que los usuarios accedan a tableros mediante una dirección URL. Solo les impide ver el [!DNL Boards] en la opción [!UICONTROL Menú principal].
+>Esto no impide que los usuarios accedan a tableros mediante una dirección URL. Solo les impide ver la opción [!DNL Boards] en el [!UICONTROL Menú principal].
 
 ### ¿Puedo excluirme de las primeras funciones una vez que me haya unido?
 
-Solo [!DNL Workfront] los administradores pueden optar por no recibir las primeras funciones. Si un [!DNL Workfront] administrador desactiva las funciones iniciales, por lo que todos los usuarios de la organización quedan excluidos.
+Solo los administradores de [!DNL Workfront] pueden optar por no recibir las primeras funciones. Si un administrador de [!DNL Workfront] deshabilita las características iniciales, se excluye a todos los usuarios de la organización.
 
 {{step1-to-boards}}
 
-1. Clic ![Inclusión en la función anticipada habilitada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Inclusión en la función anticipada habilitada]), en la parte superior de la pantalla del panel.
-1. Clic **[!UICONTROL Deshabilitar]**.
+1. Haga clic en ![Inclusión en la característica anticipada habilitada](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Inclusión en la característica anticipada habilitada]) en la parte superior de la pantalla del panel.
+1. Haga clic en **[!UICONTROL Deshabilitar]**.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Solicitudes de mejoras
 
-Esta página describe todas las mejoras de solicitudes realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [21.2 Información general de la versión](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Esta página describe todas las mejoras de solicitudes realizadas con la versión 21.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 10 de mayo de 2021. Para obtener una lista de todos los cambios disponibles con la versión 21.2, consulte [Información general sobre la versión 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Controlar qué tipo de asignaciones realiza en una nueva solicitud
 
@@ -33,7 +33,7 @@ Hay una indicación en el campo Asignaciones acerca de los tipos de asignaciones
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Creación y envío de solicitudes de Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* [Crear y enviar solicitudes de Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
 * [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Mejoras en la creación de solicitudes y administración de borradores
@@ -48,9 +48,9 @@ A medida que incorporamos sus comentarios sobre la creación de solicitudes en l
 * Indique claramente con un icono &quot;x&quot; que una opción para Tipo de solicitud, Grupo de temas o Tema de cola se puede eliminar una vez seleccionada.
 * Proporcione un botón Cerrar al crear una nueva solicitud para salir de ella sin perder el borrador. Además de este cambio, se ha cambiado el nombre del botón &quot;Descartar&quot; a &quot;Descartar borrador&quot;.
 
-Para obtener información sobre la creación de nuevas solicitudes, consulte [Creación y envío de solicitudes de Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener información sobre cómo crear nuevas solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del colaborador para la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de Collaborator para la nueva ruta de aprendizaje de Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) en Workfront One.
 
 ## Mejoras en el flujo de trabajo de solicitudes
 
@@ -60,11 +60,11 @@ Esta función ahora se incluye en la [Aspectos básicos del colaborador para la 
 
 A medida que escuchamos e incorporamos sus comentarios, hemos añadido varias mejoras al nuevo flujo de trabajo de solicitudes para que su interacción con Adobe Workfront sea más fácil e intuitiva. Estas mejoras son:
 
-* Puede seleccionar dónde colocar la sección Documentos para cargar archivos al crear una cola de solicitudes mientras define la Configuración de cola. Puede colocar esta sección antes o después de los campos personalizados del formulario de solicitud. Para obtener más información, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Puede seleccionar dónde colocar la sección Documentos para cargar archivos al crear una cola de solicitudes mientras define la Configuración de cola. Puede colocar esta sección antes o después de los campos personalizados del formulario de solicitud. Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 * Ahora, al salir de la página, se conserva la ordenación de la lista de solicitudes enviadas por una de las columnas. Para obtener más información, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
-* Al crear una nueva solicitud, los botones Enviar y Cancelar ahora se encuentran en la parte inferior del formulario Nueva solicitud. Para obtener más información, consulte [Creación y envío de solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+* Al crear una nueva solicitud, los botones Enviar y Cancelar ahora se encuentran en la parte inferior del formulario Nueva solicitud. Para obtener más información, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del colaborador para la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de Collaborator para la nueva ruta de aprendizaje de Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) en Workfront One.
 
 ## Abra el Panel de resumen en la sección Enviado del área Solicitudes
 
@@ -76,7 +76,7 @@ Para que su experiencia sea coherente en todas las áreas de Adobe Workfront, he
 
 Para obtener información sobre las solicitudes enviadas, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del colaborador para la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de Collaborator para la nueva ruta de aprendizaje de Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) en Workfront One.
 
 ## Devolver los campos de nuevos problemas eliminados en un formulario de nueva solicitud
 
@@ -86,7 +86,7 @@ Esta función ahora se incluye en la [Aspectos básicos del colaborador para la 
 
 Con el rediseño del formulario de nueva solicitud que se lanzó con la versión anterior, habíamos impedido que se mostraran varios campos del área Nuevos campos de problema de la sección Detalles de la cola del proyecto al enviar una nueva solicitud. Después de incorporar sus comentarios, hemos decidido volver a traer los campos para que todos puedan mostrarse en el formulario de nueva solicitud.
 
-Para obtener más información, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Nueva experiencia al enviar solicitudes en el área de solicitudes
 
@@ -102,9 +102,9 @@ Para mantener la coherencia con la nueva experiencia de Workfront y aumentar la 
 
 Posibilidad de compartir un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola al introducir la solicitud.
 
-Para obtener información sobre el envío de solicitudes, consulte [Creación y envío de solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del colaborador para la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de Collaborator para la nueva ruta de aprendizaje de Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) en Workfront One.
 
 ## Compartir un vínculo a una cola de solicitudes al enviar una solicitud
 
@@ -116,6 +116,6 @@ Ahora, es posible compartir un vínculo a una cola de solicitudes, a un grupo de
 
 Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solicitudes, al grupo de temas o al tema de la cola de la solicitud y compartirlo con otros usuarios, o incrustarlo en un panel.
 
-Para obtener información sobre cómo compartir un vínculo a una cola de solicitudes al enviar una solicitud, consulte [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Para obtener información sobre cómo compartir un vínculo a una cola de solicitudes al enviar una solicitud, vea [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Esta función ahora se incluye en la [Aspectos básicos del colaborador para la nueva experiencia de Workfront](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de Collaborator para la nueva ruta de aprendizaje de Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) en Workfront One.

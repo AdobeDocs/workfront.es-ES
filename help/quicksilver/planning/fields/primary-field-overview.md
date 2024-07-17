@@ -4,7 +4,8 @@ description: En la vista de tabla de un tipo de registro en Adobe Workfront Plan
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
+source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -27,7 +28,7 @@ De forma predeterminada, el campo Name es el campo principal. Sin embargo, puede
 
 ![](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-Para obtener información sobre cómo designar un campo como campo principal, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener información acerca de cómo designar un campo como campo principal, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Información general sobre los campos principales
 
