@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 1%
@@ -72,7 +72,7 @@ Antes de comenzar, debe tener todos los elementos siguientes:
 
    Tener el acceso correcto para adjuntar un formulario personalizado y editar la información del formulario.
 
-Para obtener información sobre cómo crear formularios personalizados, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Para obtener información acerca de cómo adjuntar formularios a objetos, vea [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -102,7 +102,7 @@ La exportación de información desde la sección Detalles de un objeto es idén
    >   * Cuando el administrador del grupo o de Workfront anula la selección de todos los campos del área Información general y el objeto tiene adjuntos formularios personalizados, la sección Información general no se muestra.
    >   * Cuando el administrador del grupo o de Workfront anula la selección de todos los campos del área Información general y el objeto no tiene adjuntos formularios personalizados, el menú desplegable Exportar no está visible.
    >   * Cuando el objeto no tiene formularios personalizados adjuntos, solo puede exportar el área Información general.
-   >   * Los campos personalizados que están detrás de la lógica y no son visibles en el formulario no se exportan. Para obtener información acerca de cómo agregar lógica a un formulario personalizado, vea [Agregar lógica de visualización y omitir lógica a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   * Los campos personalizados que están detrás de la lógica y no son visibles en el formulario no se exportan. Para obtener información acerca de cómo agregar lógica a un formulario personalizado, vea [Agregar lógica de visualización y omitir lógica a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
    >   
    >
 

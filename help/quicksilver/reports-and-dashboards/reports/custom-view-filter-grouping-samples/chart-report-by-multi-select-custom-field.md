@@ -7,9 +7,9 @@ description: Puede crear un gráfico de un informe mediante un campo personaliza
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ No se puede crear un gráfico en un informe haciendo referencia a un campo perso
 Para generar un campo calculado que haga referencia a un campo personalizado de selección múltiple, debe cumplir los siguientes requisitos previos:
 
 * Campo personalizado de selección múltiple en un formulario personalizado.\
-  Para obtener información sobre cómo crear formularios personalizados y agregarles campos personalizados, consulte el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Para obtener información acerca de cómo crear formularios personalizados y agregarles campos personalizados, vea el artículo [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Un formulario personalizado con el campo personalizado de selección múltiple adjunto a los objetos.
 * Valores del campo personalizado de selección múltiple para cada objeto.
@@ -95,7 +95,7 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 
 1. Cree un formulario personalizado o edite uno existente.
 
-   Para obtener información sobre cómo crear formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Para obtener información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Seleccione el objeto u objetos que planea utilizar con el formulario personalizado.
 1. Haga clic en **Agregar campo** y después en **Calculado** para agregar el campo personalizado de selección múltiple al formulario.

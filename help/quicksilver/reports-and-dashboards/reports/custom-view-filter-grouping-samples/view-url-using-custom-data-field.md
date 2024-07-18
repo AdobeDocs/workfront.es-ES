@@ -7,9 +7,9 @@ description: Puede mostrar un vínculo a una dirección URL personalizada intern
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 ## Cree el campo personalizado calculado &quot;URL personalizada&quot;
 
-Para obtener información acerca de cómo crear un campo personalizado calculado, vea el artículo [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener información acerca de cómo crear un campo personalizado calculado, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Si tiene acceso para crear un formulario personalizado, puede crear un campo personalizado calculado para las tareas denominadas &quot;URL personalizada&quot;. Este campo se vincula directamente a la subpestaña **Información general** dentro de la pestaña **Detalles de la tarea**.
 

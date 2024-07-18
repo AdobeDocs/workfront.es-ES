@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -29,10 +29,11 @@ Por ejemplo, puede adjuntar un formulario personalizado llamado &quot;Investigac
 
 ## Cómo crear un formulario personalizado
 
-Hay dos opciones para crear un formulario personalizado en [!DNL Workfront]. Puede utilizar el Creador de formularios personalizados heredados o el nuevo diseñador de formularios:
+El diseñador de formularios tiene un área de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo. También permite arrastrar y soltar campos dentro de las secciones al diseñar el formulario.
 
-* [Generador de formularios personalizados heredados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![Diseñador de formularios de ejemplo](assets/form-designer-example.png)
 
 ## Campos y widgets personalizados
 
@@ -42,15 +43,17 @@ En un formulario personalizado, puede crear campos adicionales que soliciten a l
 
 Puede agregar los siguientes tipos de campos personalizados a un formulario personalizado en Workfront:
 
-* Campo de texto de una sola línea o texto de una sola línea en el diseñador de formularios
-* Campo de texto de párrafo o texto de párrafo en el diseñador de formularios
-* Campo de texto con formato o Texto con formato en el diseñador de formularios
+* Texto de línea única
+* Texto de parágrafos
+* Texto con formato
 * Lista desplegable
-* Búsqueda externa: solo disponible en el diseñador de formularios
+* Lista desplegable de selección múltiple
+* Búsqueda externa
+* Campo nativo
 * Escritura anticipada
 * Calculado
-* Campo de fecha o fecha en el diseñador de formularios
-* Casillas de verificación
+* Campo de fecha
+* Grupo de casillas de verificación
 * Botones de radio
 * Texto descriptivo
 * Salto de sección
@@ -58,6 +61,10 @@ Puede agregar los siguientes tipos de campos personalizados a un formulario pers
 * Imagen
 * PDF
 * Vídeo
+
+>[!NOTE]
+>
+>Para realizar un seguimiento de los cambios de los campos en las fuentes de actualización, vaya a Configuración > Interfaz > Actualizar fuentes. Para obtener más información, consulte [Configurar actualizaciones del sistema](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objetos en los que los usuarios pueden adjuntar un formulario personalizado
 
@@ -81,5 +88,4 @@ Los usuarios pueden adjuntar formularios personalizados a los siguientes tipos d
 Para obtener más información sobre cómo adjuntar formularios personalizados a objetos, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Para obtener información acerca de lo que sucede con los formularios personalizados al convertir un objeto, vea [Transferir datos de formulario personalizados al convertir un objeto](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
 

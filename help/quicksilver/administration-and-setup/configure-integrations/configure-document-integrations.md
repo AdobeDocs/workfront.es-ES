@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -216,7 +216,7 @@ La información se asigna en una sola dirección, de [!DNL Workfront] a [!DNL Wo
 Puede asignar el mismo campo [!DNL Workfront] a varios campos [!DNL Workfront DAM], pero no puede usar el mismo campo [!DNL Workfront DAM] para varios campos [!DNL Workfront].
 
 Si debe configurar varios campos [!DNL Workfront] para exportarlos a un campo [!DNL Workfront DAM], cree primero un campo personalizado calculado en [!DNL Workfront] para mostrar todos los campos personalizados individuales de un objeto. A continuación, asigne el campo [!DNL Workfront] calculado a un campo [!DNL Workfront DAM].\
-Para obtener más información sobre los campos personalizados calculados, consulte [Agregar datos calculados a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información sobre los campos personalizados calculados, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 La asignación afecta a todos los documentos cargados por cualquier usuario de [!DNL Workfront] a [!UICONTROL Workfront] DAM.
 

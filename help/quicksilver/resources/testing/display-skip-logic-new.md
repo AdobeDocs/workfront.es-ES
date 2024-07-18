@@ -2,9 +2,9 @@
 title: Agregar lógica de visualización y saltar lógica a un formulario personalizado
 description: Agregar lógica de visualización y saltar lógica a un formulario personalizado
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Los tipos de campo de opción múltiple son Desplegable, Casillas de verificaci�
   Esto sería especialmente útil si agrega muchos otros campos acerca de logotipos, actualizaciones de sitios web y folletos que este usuario no necesita ver.
 Puede aplicar una regla de lógica de omisión solo a un campo personalizado, no a un widget o a una sección.
 
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recurso en un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisitos de acceso
 

@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: acceso,compartido,personalizado,formulario
 navigation-topic: create-and-manage-custom-forms
-title: Acceso para un campo personalizado compartido que desee utilizar
+title: Acceso a un campo personalizado compartido
 description: Cuando alguien comparte un campo personalizado con acceso de Ver o Administrar, puede configurar otras opciones para definir aún más ese acceso. Si es destinatario del campo, esa configuración afecta a lo que puede hacer con el campo. Puede ver lo siguiente al ver el campo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# Acceso para un campo personalizado compartido que desee utilizar
+# Acceso a un campo personalizado compartido
 
 Cuando alguien comparte un campo personalizado con acceso de Ver o Administrar, puede configurar otras opciones para definir aún más ese acceso. Si es destinatario del campo, esa configuración afecta a lo que puede hacer con el campo. Puede ver lo siguiente al ver el campo.
 
-Para obtener más información sobre cómo configuran los usuarios la configuración para compartir al compartir un formulario personalizado, consulte [Configurar el uso compartido para campos y widgets personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Para obtener más información acerca de cómo configuran los usuarios la configuración para compartir al compartir un formulario personalizado, vea [Configurar el uso compartido de campos y widgets personalizados en un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 

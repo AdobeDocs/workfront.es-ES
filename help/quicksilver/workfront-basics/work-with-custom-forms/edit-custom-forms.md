@@ -7,9 +7,9 @@ description: Puede editar la información de un formulario personalizado despué
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Debe tener lo siguiente:
    <td> 
     <ul> 
      <li> <p>Contribute o permisos superiores en el objeto para el que desea editar el formulario personalizado</p> </li> 
-     <li>Vea los permisos de los campos que desea editar. Para obtener información acerca de los permisos de uso compartido para campos personalizados, vea <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configurar el uso compartido para campos y widgets personalizados</a>.</li> 
+     <li>Vea los permisos de los campos que desea editar. Para obtener información acerca de los permisos de uso compartido para campos personalizados, vea <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configurar el uso compartido para campos y widgets personalizados</a>.</li> 
      <li> <p>Editar permisos para las secciones del formulario en las que se encuentran los campos que desea editar</p> </li> 
     </ul> <p>Para obtener información sobre cómo solicitar acceso adicional para objetos, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ Debe tener lo siguiente:
 
 ## Requisitos previos
 
-* El administrador de Workfront o un usuario de Plan con acceso administrativo a los formularios personalizados deben crear formularios personalizados en su entorno. Para obtener más información, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* El administrador de Workfront o un usuario de Plan con acceso administrativo a los formularios personalizados deben crear formularios personalizados en su entorno. Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Debe tener formularios personalizados adjuntos a un objeto.
 
   Para obtener información acerca de cómo aplicar formularios personalizados a un objeto, vea [Agregar un formulario personalizado a un objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -91,7 +91,7 @@ La edición de información en un formulario personalizado adjunto a un objeto e
    * Solo se puede aplicar formato a los campos de texto (negrita, cursiva o subrayado) si el usuario que ha creado el formulario los ha configurado como campos de texto con formato. No se puede dar formato a los campos de texto de una sola línea y a los campos de texto de párrafo.
    * Solo se puede actualizar la hora del día en un tipo de campo de fecha si el usuario que ha creado el formulario lo ha incluido al crear el campo.
 
-   Para obtener información acerca de todos los tipos de campo, vea [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Para obtener información acerca de todos los tipos de campo, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Haga clic en **Guardar cambios**.
 

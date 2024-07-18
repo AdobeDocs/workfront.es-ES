@@ -8,22 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
 # Agregar o editar un campo personalizado, un salto de sección o un widget
 
-{{highlighted-preview}}
-
-<span class="preview">Puede agregar un nuevo campo personalizado o widget directamente desde el área Campos de Workfront, sin abrir un formulario personalizado para crear el campo.</span>
+Puede agregar un nuevo campo o widget personalizado directamente desde el área Campos de Workfront, sin abrir un formulario personalizado para crear el campo.
 
 También puede editar las propiedades de un campo personalizado, un salto de sección o un widget que se utilizan en los formularios personalizados. Estos incluyen la etiqueta del elemento, el nombre, las instrucciones, etc.
 
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Diseño de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md), [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) y [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Para obtener información acerca de los campos y widgets personalizados en los formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisitos de acceso
 
@@ -53,8 +51,6 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<div class="preview">
-
 ## Agregar un campo o widget personalizado
 
 {{step-1-to-setup}}
@@ -64,13 +60,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. Haga clic en **Nuevo campo personalizado**.
 1. En el cuadro que aparece, escriba la información necesaria y opcional para el elemento que está agregando.
 
-   Consulte más información sobre estas opciones:
-   * Si usa el diseñador de formularios, vea [Diseñar un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-   * Si usa el generador de formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) o [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Para obtener más información, vea [Diseñar un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Haga clic en **Crear**.
-
-</div>
 
 ## Editar un campo, un salto de sección o un widget personalizado utilizado en un formulario personalizado
 
@@ -81,8 +73,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. Seleccione el campo personalizado, el salto de sección o el widget y, a continuación, haga clic en ![Editar icono](assets/edit-icon.png).
 1. En el cuadro que aparece, cambie cualquiera de las opciones disponibles para el elemento que está editando.
 
-   Consulte más información sobre estas opciones:
-   * Si usa el diseñador de formularios, vea [Diseñar un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-   * Si usa el generador de formularios personalizados, consulte [Agregar un campo personalizado a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) o [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   Para obtener más información, vea [Diseñar un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cuando termine, haga clic en **Editar**.

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Por ejemplo, si ha creado un campo Casillas de verificación, puede cambiarlo a 
 O bien, si ha creado un campo de texto de una sola línea, puede cambiarlo a un campo de texto de párrafo. Estos dos tipos de visualización de campo son intercambiables.
 
 Anteriormente, para cambiar el tipo de visualización de un campo personalizado, se tenía que crear un nuevo campo y eliminar el antiguo. Esto requería la transferencia de datos, lo que a menudo llevaba mucho tiempo.
-
-Para obtener más información, consulte [Crear o editar un formulario personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) en el artículo [Crear o editar un formulario personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Para obtener información sobre los días libres, consulte [Configurar los días
 Hemos creado un nuevo tipo de campo en el generador de formularios personalizado llamado Escritura anticipada. Este campo permite agregar campos que representan objetos a los formularios personalizados. Actualmente, el objeto Usuario está habilitado con Escritura anticipada y otros objetos aparecerán más adelante.
 
 Anteriormente, los administradores tenían que mantener manualmente a los usuarios como opciones individuales en los menús desplegables de formularios personalizados.
-
-Para obtener más información, consulte [Crear o editar un formulario personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >

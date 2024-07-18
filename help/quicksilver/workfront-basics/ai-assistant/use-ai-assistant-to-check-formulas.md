@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Para revisar una expresión de campo calculado no válida:
 >
 >Se recomienda probar el campo calculado para asegurarse de que recupera el resultado esperado.
 
-Para obtener más información sobre los campos calculados en Workfront, consulte [Agregar datos calculados a un formulario personalizado con el generador de formularios heredados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para obtener más información sobre los campos calculados en Workfront, consulte [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).

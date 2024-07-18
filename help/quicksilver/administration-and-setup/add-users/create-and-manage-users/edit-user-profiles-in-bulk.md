@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
        <p>Para obtener más información sobre los conjuntos de recursos, vea <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Información general sobre los conjuntos de recursos </a>.</p> </li> 
        <li><b>Costo por hora</b>: Cantidad de costo por hora para el usuario. </li> 
        <li><b>Facturación por hora</b>: La cantidad de facturación por hora para el usuario.</li> 
-       <li><b>Forms personalizado</b>: asocie un formulario personalizado de usuario existente con los usuarios. Debe crear un formulario personalizado para poder asociarlo a un usuario. En la lista solo se muestran los formularios personalizados activos. Para obtener información sobre cómo crear formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</li> 
+       <li><b>Forms personalizado</b>: asocie un formulario personalizado de usuario existente con los usuarios. Debe crear un formulario personalizado para poder asociarlo a un usuario. En la lista solo se muestran los formularios personalizados activos. Para obtener información acerca de cómo crear formularios personalizados, vea <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Diseñar un formulario con el diseñador de formularios</a>.</li> 
        <li><b>Comentario</b>: escriba un comentario en el campo proporcionado. Todos los usuarios seleccionados recibirán una notificación dentro de la aplicación, así como una notificación por correo electrónico con su comentario. El comentario se muestra en la pestaña Actualizaciones del perfil de los usuarios.</li> 
        </ul> </td> 
      </tr> 

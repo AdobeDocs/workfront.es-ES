@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
 workflow-type: tm+mt
-source-wordcount: '3662'
+source-wordcount: '3663'
 ht-degree: 3%
 
 ---
@@ -487,7 +487,7 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
 
 1. Haga clic en **Agregar formulario personalizado** y seleccione el formulario o formularios personalizados que desee asociar con la tarea. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos.
 
-   Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Puede agregar hasta diez formularios personalizados a una tarea.
+   Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).Puede agregar hasta diez formularios personalizados a una tarea
 
 1. (Condicional) Si adjuntó un formulario personalizado a la tarea, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar la tarea.
 

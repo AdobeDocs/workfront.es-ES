@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    * [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Vaya al proyecto que eligió habilitar como cola de solicitudes de ayuda y donde desea crear un nuevo tema de cola.\
    Para obtener más información sobre cómo designar un proyecto como cola de solicitudes de ayuda, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -128,7 +128,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formularios personalizados</strong> </td> 
-      <td>Seleccione los formularios personalizados que desee asociar al tema de la cola. Debe crear formularios personalizados para los problemas antes de poder asociarlos a los temas en cola. Para obtener información sobre cómo crear formularios personalizados, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</td> 
+      <td>Seleccione los formularios personalizados que desee asociar al tema de la cola. Debe crear formularios personalizados para los problemas antes de poder asociarlos a los temas en cola. Para obtener información acerca de cómo crear formularios personalizados, vea <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Diseñar un formulario con el diseñador de formularios</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprobación predeterminada</strong></td> 

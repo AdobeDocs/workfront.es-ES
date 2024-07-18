@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Para obtener más información, consulte [Administrar estados de grupo](../../..
 ## Nuevo para administradores: Crear un formulario personalizado de registro de facturación
 
 Ahora puede mejorar la forma en que los usuarios capturan la información de facturación creando un formulario personalizado de registro de facturación. Los usuarios pueden adjuntar el formulario personalizado a un registro de facturación, rellenarlo y ejecutar informes que incluyan la información del formulario.
-
-Para obtener información sobre cómo crear formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-Para obtener información acerca de cómo adjuntar un formulario personalizado de registro de facturación a un proyecto, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '6091'
+source-wordcount: '6101'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    >
    >Al eliminar un formulario personalizado, también se eliminan todos los datos personalizados de los objetos asociados con el formulario. Los datos eliminados no se pueden recuperar. Considere la posibilidad de desactivar un formulario personalizado en su lugar; cuando desactive un formulario personalizado que ya no utilice, conservará todos los datos históricos asociados.
    >
-   >Para obtener más información, vea [Eliminar tipos de objetos en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >Para obtener más información, vea [Agregar o eliminar tipos de objetos de un formulario personalizado existente](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) y [Desactivar o reactivar un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
 1. A continuación, puede empezar a agregar campos de al formulario personalizado. Consulte las secciones siguientes:

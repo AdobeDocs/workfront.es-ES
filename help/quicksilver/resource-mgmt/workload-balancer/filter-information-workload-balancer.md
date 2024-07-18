@@ -6,9 +6,9 @@ description: Para encontrar de forma eficaz los elementos de trabajo y centrarse
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2497'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
 
       >[!IMPORTANT]
       >
-      >Al hacer referencia a campos personalizados, debe escribir el nombre del campo y no la etiqueta del campo. La etiqueta de campo se muestra en un formulario personalizado adjunto a un objeto. Para obtener información sobre la diferencia entre la etiqueta y el nombre de un campo personalizado, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+      >Al hacer referencia a campos personalizados, debe escribir el nombre del campo y no la etiqueta del campo. La etiqueta de campo se muestra en un formulario personalizado adjunto a un objeto. Para obtener información acerca de la diferencia entre la etiqueta y el nombre de un campo personalizado, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. (Condicional) Si hizo clic en **Examinar campos**, escriba el nombre de un campo en el campo **Buscar** y selecciónelo cuando se muestre en la lista.
 

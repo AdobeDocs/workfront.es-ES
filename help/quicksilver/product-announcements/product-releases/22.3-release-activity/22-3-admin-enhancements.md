@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ Para obtener más información, consulte los siguientes artículos:
 
 Seguimos ayudando a que los formularios personalizados sean más visuales e informativos con los nuevos widgets de recursos que puede agregar, como imágenes y vídeos. Ahora puede agregar un vínculo a un archivo de PDF a un formulario personalizado. Cuando el formulario está adjunto a un objeto, los usuarios que trabajan con el objeto pueden ver e interactuar con el PDF desde el formulario.
 
-Para obtener más información, consulte [Agregar o editar una imagen u otro widget de recursos en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## El editor de cálculo de campos de formulario personalizados muestra información de error
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Para obtener más información, consulte [Agregar o editar una imagen u otro wid
 >Esta función no está disponible temporalmente. Esta página se actualizará cuando la función esté disponible.
 
 Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el ratón por encima de la parte resaltada, se muestra información del objeto para describir el problema.
-
-Para obtener más información, consulte [Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Personalización del encabezado del proyecto
 
@@ -111,6 +107,4 @@ Para obtener más información, vea [Desactivar o reactivar un grupo](/help/quic
 Ahora puede proporcionar un nuevo modo de información, interés visual y creatividad a un formulario personalizado agregando un vídeo. Cuando el formulario está adjunto a un objeto, los usuarios que trabajen con el objeto pueden reproducir el vídeo en cualquier momento.
 
 Anteriormente, solo se podían agregar campos basados en texto e imágenes a un formulario personalizado.
-
-Para obtener más información, consulte [Agregar o editar un widget de recursos de vídeo o imagen en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

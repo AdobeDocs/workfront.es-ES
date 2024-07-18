@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -173,6 +173,4 @@ Para obtener más información, consulte los siguientes artículos:
 ## Nuevo para administradores: Hay más opciones de formato de texto disponibles en los campos de formulario personalizado
 
 Cuando los usuarios escriben campos de formulario personalizados que permiten dar formato, ahora pueden organizar el texto con viñetas, numeración, hipervínculos y comillas de bloque, además de usar negrita, cursiva y subrayado.
-
-Para obtener más información, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

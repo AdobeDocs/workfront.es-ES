@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
 workflow-type: tm+mt
-source-wordcount: '7474'
+source-wordcount: '7473'
 ht-degree: 1%
 
 ---
@@ -321,7 +321,7 @@ Cuando se selecciona más de un proyecto para editarlos en lote, existen los sig
 Para obtener información sobre el acceso a formularios personalizados, consulte los siguientes artículos:
 
 * [Compartir un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Agregar un salto de sección a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+* [Organización y previsualización de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 Para editar información sobre formularios personalizados al editar un proyecto:
 
@@ -334,7 +334,7 @@ Para editar información sobre formularios personalizados al editar un proyecto:
 
    >[!NOTE]
    >
-   >Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo aparecen los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Puede agregar hasta diez formularios personalizados a un proyecto.
+   >Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo aparecen los formularios personalizados activos. Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede agregar hasta diez formularios personalizados a un proyecto.
 
 
 1. (Condicional) Si adjuntó un formulario personalizado al proyecto, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar el proyecto.
@@ -556,7 +556,7 @@ Para obtener información acerca de cómo afecta esta configuración a la creaci
    * Cuando se seleccionan varios proyectos del mismo grupo, en este campo se muestran tanto los procesos de aprobación de tareas del sistema como los específicos del grupo.
    * Al seleccionar varios proyectos de diferentes grupos, solo se muestran en este campo los procesos de aprobación de tareas de nivel del sistema.
 
-1. En el cuadro **Forms personalizado predeterminado de tarea**, seleccione el formulario o formularios personalizados que desee asociar con todas las tareas nuevas cuando los agregue al proyecto. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Puede asociar hasta diez formularios personalizados a una tarea.
+1. En el cuadro **Forms personalizado predeterminado de tarea**, seleccione el formulario o formularios personalizados que desee asociar con todas las tareas nuevas cuando los agregue al proyecto. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede asociar hasta diez formularios personalizados a una tarea.
 1. (Opcional) Seleccione **Usar esfuerzo de trabajo para calcular automáticamente las horas planificadas para la tarea** si desea habilitar la administración del esfuerzo de la tarea mediante esfuerzo de trabajo en lugar de horas planificadas.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

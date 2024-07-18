@@ -1,7 +1,7 @@
 ---
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Con la próxima versión, la semana del 15 de julio (la versión 24.7), el diseñador de formularios estará disponible de forma general y se convertirá en la experiencia predeterminada para crear y editar formularios personalizados en Adobe Workfront. El generador de formularios heredado ya no estará disponible. Le recomendamos que cambie al diseñador de formularios ahora y aproveche sus características.
+>El generador de formularios heredado ya no está disponible a partir de la versión 24.7 del 18 de julio de 2024. El diseñador de formularios es ahora la experiencia predeterminada para crear y editar formularios personalizados en Adobe Workfront.
 >
 >Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
->
->El generador de formularios heredado se eliminó del entorno de vista previa el 19 de junio de 2024 y se eliminará del entorno de producción con la versión 24.7 en julio.
 
 ## Asociar el grupo derecho con el equipo {#right-group-team}
 

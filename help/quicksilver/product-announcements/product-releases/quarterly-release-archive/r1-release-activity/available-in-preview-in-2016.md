@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ Para obtener más información acerca de los paneles, vea [Crear un panel](../..
 Ahora puede controlar quién tiene acceso a un formulario personalizado concediendo acceso a usuarios, equipos, funciones, grupos o empresas individuales. 
 
 Antes de este cambio, solo se podía conceder acceso a los grupos.
-
-Para obtener más información, consulte [Crear o editar un formulario personalizado](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 ## Integración con Adobe Creative Cloud
 

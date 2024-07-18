@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Para obtener más información, consulte [Inclusión anticipada de funciones par
 >Esta función se introdujo por primera vez en el entorno de vista previa durante el periodo de tiempo de lanzamiento de la versión 22.3. Se lanza al entorno de producción con la versión 22.4.
 
 Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el ratón por encima de la parte resaltada, se muestra información del objeto para describir el problema.
-
-Para obtener más información, consulte [Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 [Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
