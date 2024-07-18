@@ -7,9 +7,9 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Una lista de tareas o un informe en la columna Asignaciones </span>
+* Lista de tareas o informe en la columna Asignaciones
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">Un encabezado de tarea en el campo Asignaciones</span>
+* Un encabezado de tarea en el campo Asignaciones
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Un encabezado de problema en el campo Asignaciones
 
@@ -63,24 +63,24 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 * El panel Resumen de tareas o problemas del área Asignaciones
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">Campo Asignaciones en el cuadro Nueva tarea, al agregar una tarea a un proyecto</span>
+* El campo Asignaciones del cuadro Nueva tarea, al agregar una tarea a un proyecto
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* El campo Asignaciones de un elemento enumerado en el área de Inicio, al abrir una tarea o un problema
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * Distribuidor de cargas de trabajo en el área Asignado este a al asignar una tarea o un problema
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criterios de asignaciones inteligentes
-
-<div class="preview">
 
 Las asignaciones inteligentes funcionan de forma diferente para las tareas que para los problemas.
 
@@ -134,17 +134,16 @@ Si no se encuentran coincidencias en el primer paso de las asignaciones intelige
 
 Para obtener más información, vea la sección [Criterios de asignaciones inteligentes para tareas y problemas](#smart-assignments-criteria-for-tasks-and-issues) en este artículo.
 
-Las asignaciones identificadas en esta fase se enumeran en las secciones **Usuarios y equipos**, **Asignaciones de funciones** y **Funciones de tarjeta de tarifas** del campo Asignaciones. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Las asignaciones identificadas en esta fase se enumeran en las secciones **Usuarios y equipos**, **Asignaciones de funciones** y <span class="preview">**Funciones de tarjeta de tarifas**</span> del campo Asignaciones. <span class="preview">Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criterios de asignaciones inteligentes para tareas y problemas
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">Los siguientes criterios se aplican a las tareas sólo cuando en la primera fase del cálculo de asignación inteligente de tareas no se encontraron coincidencias. Para obtener más información, vea la sección [Primera fase del cálculo de asignaciones inteligentes para tareas](#first-phase-of-smart-assignment-calculation-for-tasks) en este artículo. Los siguientes criterios siempre se aplican a los problemas de forma predeterminada. </span>
+>Los siguientes criterios se aplican a las tareas sólo cuando la primera fase del cálculo de asignación inteligente de tareas no encontró ninguna coincidencia. Para obtener más información, vea la sección [Primera fase del cálculo de asignaciones inteligentes para tareas](#first-phase-of-smart-assignment-calculation-for-tasks) en este artículo. Los siguientes criterios siempre se aplican a los problemas de forma predeterminada.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 Los usuarios se recomiendan en la lista desplegable asignaciones inteligentes en función de una combinación de los siguientes criterios (enumerados en orden de lo más importante a lo menos importante):
 

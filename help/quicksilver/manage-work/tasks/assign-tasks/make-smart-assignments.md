@@ -6,14 +6,16 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Realización de asignaciones inteligentes
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -27,13 +29,13 @@ Puede utilizar asignaciones inteligentes para identificar quién es el mejor usu
 
 Las asignaciones inteligentes son sugerencias para usuarios, funciones o equipos que Adobe Workfront presenta al asignar elementos de trabajo a recursos. Workfront basa sus sugerencias en un algoritmo que determina el recurso más apropiado para el trabajo.
 
-<span class="preview">Workfront cuenta con dos algoritmos independientes que calculan asignaciones inteligentes que funcionan de manera diferente en las tareas y en los problemas. </span>
+Hay dos algoritmos independientes en Workfront que calculan las asignaciones inteligentes que funcionan de forma diferente para las tareas y para los problemas.
 
 Para obtener más información acerca de los criterios utilizados para determinar las asignaciones inteligentes, vea [Información general sobre las asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Realización de asignaciones inteligentes
 
@@ -71,35 +75,25 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    * Una lista de tareas o problemas o un informe
    * Un encabezado de tarea o problema
    * El panel Resumen de tareas o problemas
-   * <span class="preview">Nueva tarea o nuevo problema al agregar una nueva tarea o problema a un proyecto</span>
+   * Cuadro Nueva tarea o Nuevo problema a medida que agrega una nueva tarea o problema a un proyecto
    * El campo Asignaciones de un elemento enumerado en el área de Inicio
    * Una tarea o un problema en el Distribuidor de cargas de trabajo
 
 1. Coloque el cursor en el campo Asignaciones y espere dos segundos.
 
-   <div class="preview">
-   Se muestra una o varias de las siguientes secciones con sugerencias de asignación inteligente:
+   En el caso de los problemas, las asignaciones inteligentes se muestran en las siguientes secciones:
 
-   * **Asignaciones sugeridas**: se muestra para las tareas. <!--remove the note when we go to production with smarter assignments-->
+   * **Usuarios y equipos**
+   * **Funciones del puesto**
 
-     >[!TIP]
-     >
-     >   El encabezado de la lista muestra **Estas son algunas recomendaciones** en lugar de **Asignaciones sugeridas** en el entorno de producción.
-     >
-   * **Usuarios y equipos**: se muestran para tareas y problemas.
-   * **Funciones del puesto**: muestra las tareas y los problemas.
-   * **Funciones del trabajo de tarifa**: se muestra para las tareas. Para obtener más información, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+   ![](assets/smart-assignments-issue-header.png)
 
    En el caso de las tareas, las asignaciones inteligentes se muestran en las secciones siguientes, según la fase del cálculo del algoritmo en la que se hayan identificado las asignaciones:
 
-   * **Asignaciones sugeridas**: Asignaciones identificadas en la primera fase del cálculo del algoritmo de la asignación inteligente de tareas. <span class="preview">Esta sección no está disponible para problemas.</span>
-   * <span class="preview">**Usuarios y equipos**, **Funciones del puesto** o **Funciones del puesto de la tarjeta de tarifas**: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de la asignación inteligente de tareas. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Asignaciones sugeridas**: Muestra las asignaciones identificadas en la primera fase del algoritmo de asignación inteligente de tareas.
+   * **Usuarios y equipos**, **Funciones del puesto** o <span class="preview">**Funciones del puesto de la tarjeta de tarifas**</span>: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de la asignación inteligente de tareas.
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Para obtener más información, vea [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

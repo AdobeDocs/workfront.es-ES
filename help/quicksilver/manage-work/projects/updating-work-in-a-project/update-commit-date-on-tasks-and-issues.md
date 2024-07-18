@@ -6,9 +6,9 @@ description: Puede actualizar manualmente la fecha de confirmación de una tarea
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Actualizar fechas de confirmación en tareas y problemas
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 Puede actualizar manualmente la fecha de confirmación de una tarea o un problema al que esté asignado. Para obtener más información sobre las fechas de confirmación en Adobe Workfront, consulte [Resumen de la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -28,7 +30,7 @@ Puede actualizar manualmente la fecha de confirmación de una tarea o un problem
 
 <!--Audited: 01/2024-->
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td> 
-   Para las nuevas licencias:
+   Nuevo:
    <ul>
    <li><p>Estándar para tareas</p> </li>
    <li><p>Colaborador o superior para problemas</p></li>
    </ul>
-   Para licencias actuales:
+   Actual:
 <ul>
    <li><p>Trabajo o superior para tareas</p></li> 
    <li><p>Solicitud de problemas o superior</p></li>
@@ -65,7 +67,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -77,10 +81,10 @@ Antes de poder editar la fecha de confirmación de una tarea o problema, se le d
 Puede actualizar la fecha de confirmación de una tarea o problema en las siguientes áreas de Workfront:
 
 * La sección Detalles de una tarea o problema
-* <span class="preview">El encabezado de tarea o problema</span>
+* El encabezado de la tarea o del problema
 
-  <span class="preview">El administrador del grupo o de Workfront debe agregar la fecha de confirmación al encabezado de la tarea o del problema de la plantilla de diseño para verlo desde la página de la tarea o del problema.
-Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  El administrador de Workfront o del grupo debe agregar la fecha de confirmación al encabezado de tarea o problema de la plantilla de diseño para verla desde la página de tareas o problemas.
+Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 La actualización de la fecha de confirmación es idéntica para las tareas y los problemas.
 
@@ -98,9 +102,9 @@ La actualización de la fecha de confirmación es idéntica para las tareas y lo
 
    Para obtener más información sobre cómo averiguar quién es el propietario de la tarea para un problema o tarea, consulte la sección [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) en el artículo [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Condicional y opcional) Si el administrador del grupo o de Workfront agregó la fecha de confirmación al encabezado de tarea o problema, haga clic en el campo **Fecha de confirmación** del encabezado y, a continuación, seleccione una fecha del calendario. Si la fecha de confirmación no está en el encabezado, siga estos pasos. </span>
+1. (Condicional y opcional) Si el administrador del grupo o de Workfront agregó la fecha de confirmación al encabezado de la tarea o del problema, haga clic en el campo **Fecha de confirmación** del encabezado y, a continuación, seleccione una fecha del calendario. Si la fecha de confirmación no está en el encabezado, siga estos pasos.
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>
+   ![](assets/commit-date-task-header.png)
 
 1. Haga clic en **Detalles de la tarea** o en **Detalles del problema** en el panel izquierdo.
 1. Haga clic en **Información general** para expandirlo.

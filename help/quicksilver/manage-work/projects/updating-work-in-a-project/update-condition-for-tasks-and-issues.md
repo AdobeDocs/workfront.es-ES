@@ -6,20 +6,22 @@ description: La condición de una tarea o problema es un indicador colocado en �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
 
 # Actualizar condición para tareas y problemas
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 La condición de una tarea o problema es un indicador colocado en él para indicar cómo va. Esto es diferente al Estado del elemento de trabajo, que indica la fase actual de desarrollo del elemento.
 
@@ -29,7 +31,7 @@ Los valores de Condición a los que nos referimos en este artículo están dispo
 
 ## Requisitos de acceso {#access-requirements}
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>
-
-Para las nuevas licencias:
-<ul><li><p>Estándar para tareas</p></li>
+   <td> 
+   Nuevo:
+   <ul><li><p>Estándar para tareas</p></li>
    <li><p>Colaborador o superior para problemas</p></li></ul>
-
-
-Para licencias actuales:
-<ul><li><p>Trabajo o superior para tareas</p></li>
+   Actual:
+   <ul><li><p>Trabajo o superior para tareas</p></li>
    <li><p>Solicitud de problemas o superior</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ Para licencias actuales:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -78,9 +79,9 @@ Las condiciones se muestran como un indicador asociado a tareas o problemas. Tam
 
 Puede localizar la Condición de las tareas y problemas en las siguientes áreas de Workfront:
 
-* <span class="preview">La página Detalles, después de que un administrador de Workfront o de grupo la agregue a su plantilla de diseño. Para obtener más información, consulte [Personalizar la vista de detalles con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* La página Detalles, después de que un administrador de Workfront o de un grupo la añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar la vista de detalles con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-* <span class="preview">Encabezado de una tarea o un problema después de que un administrador de Workfront o de un grupo lo agregue a la plantilla de diseño. Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* Encabezado de una tarea o problema, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 * El panel Resumen, después de que un administrador de Workfront o de grupo lo añada a la plantilla de diseño. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -110,7 +111,7 @@ Puede actualizar manualmente la condición de una tarea o problema en un informe
 
 >[!NOTE]
 >
->Puede pedir al administrador del sistema o del grupo que añada el campo Condición al Panel de resumen para que sea más fácil actualizarlo en varias áreas de Workfront.
+>Puede pedir al administrador del sistema o del grupo que agregue el campo Condición al Panel de resumen, al encabezado de tarea o problema o a las páginas Detalles.
 >
 >Para obtener más información, consulte los siguientes artículos:
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-Para actualizar manualmente la condición de una tarea o un problema, realice una de las siguientes acciones:
+Puede actualizar de forma manual la Condición de las tareas y los problemas en varias áreas de Workfront. En las siguientes secciones se describe cómo actualizar de forma manual la Condición de las tareas y los problemas.
 
-<div class="preview">
+### Actualizar la condición de una tarea o problema en el encabezado de tarea o problema
 
-1. Para actualizar la condición de una tarea o problema en el encabezado de tarea o problema:
+1. (Condicional) Si el administrador del grupo o de Workfront agregó el campo Condición al encabezado de tarea o problema de la plantilla de diseño, haga clic en el campo **Condición** del encabezado y seleccione una de las siguientes opciones:
+   * Sin problemas
+   * Algunas preocupaciones
+   * Impedimentos mayores
 
-   1. (Condicional) Si el administrador del grupo o de Workfront agregó el campo Condición al encabezado de tarea o problema de la plantilla de diseño, haga clic en el campo **Condición** del encabezado y seleccione una de las siguientes opciones:
-      * Sin problemas
-      * Algunas preocupaciones
-      * Impedimentos mayores
+   ![](assets/condition-in-task-header.png)
+1. Haga clic en Entrar para guardar la condición.
 
-      ![](assets/condition-in-task-header.png)
-   1. Haga clic en Entrar para guardar la condición.
+### Actualizar la condición de una tarea o un problema en la sección Detalles de la tarea o el problema
 
-1. Para actualizar la condición de una tarea o problema en la sección Detalles de la tarea o problema:
-
-   1. (Condicional) Si el administrador del grupo o de Workfront agregó el campo Condición a la sección Detalles de una tarea o problema de la plantilla de diseño, haga clic en **Detalles** en el panel izquierdo y, a continuación, haga clic en **Condición de la tarea** o **Condición del problema** y seleccione una de las siguientes opciones:
-      * Sin problemas
-      * Algunas preocupaciones
-      * Impedimentos mayores
+1. (Condicional) Si el administrador del grupo o de Workfront agregó el campo Condición a la sección Detalles de una tarea o problema de la plantilla de diseño, haga clic en **Detalles** en el panel izquierdo y, a continuación, haga clic en **Condición de la tarea** o **Condición del problema** y seleccione una de las siguientes opciones:
+   * Sin problemas
+   * Algunas preocupaciones
+   * Impedimentos mayores
 1. Haga clic en **Guardar cambios**. Se actualiza la condición de la tarea o el problema.
 
-</div>
-
-Para actualizar la condición de una tarea o un problema en un informe o una lista:
+### Actualizar la condición de una tarea o un problema en un informe o una lista
 
 1. Vaya a una lista de tareas o problemas para los que tenga permisos de administración. Asegúrese de que el campo **Condición** esté visible en la vista de la lista.
 
