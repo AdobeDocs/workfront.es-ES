@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ Anteriormente, se podía configurar un formulario personalizado para que funcion
 
 Esta funcionalidad funciona con todos los formularios personalizados creados anteriormente en el sistema de Workfront. Por ejemplo, si ya tiene un formulario personalizado creado para el tipo de objeto Task, ahora puede configurar el formulario para que funcione también con otros tipos de objeto, como Project y Issue.
 
-Para obtener más información, consulte la sección [Empezar a crear un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) en el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 >[!NOTE]
 >
->* En el momento de la versión inicial de la vista previa de esta funcionalidad, deshabilitamos temporalmente la capacidad de copiar un formulario personalizado de varios objetos. Esa capacidad se habilitó el 24 de marzo. Para obtener información sobre cómo copiar un formulario personalizado, vea [Copiar un formulario personalizado para crear uno nuevo](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* En un campo personalizado calculado, es posible que algunos campos a los que hace referencia no sean compatibles con los tipos de objetos configurados para el formulario. Nuestra solución es un comodín que permite que el cálculo muestre valores diferentes, según el objeto al que esté adjunto el formulario. Añadimos el comodín el 24 de marzo. Para obtener información sobre cómo usarlo, consulte la sección [Campos personalizados calculados en formularios personalizados de varios objetos](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) en el artículo [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* Para los saltos de sección en los formularios personalizados, hemos creado un conjunto de permisos comunes de visualización y edición que funcionan para todos los tipos de objetos que se pueden configurar para un formulario. En un escenario, descubrimos que uno de estos permisos, Edición limitada, podría provocar errores en un formulario. Esto se corrigió el 24 de marzo. Para obtener más información sobre los saltos de sección, consulte [Agregar un salto de sección a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* En el momento de la versión inicial de la vista previa de esta funcionalidad, deshabilitamos temporalmente la capacidad de copiar un formulario personalizado de varios objetos. Esa capacidad se habilitó el 24 de marzo.
+>* En un campo personalizado calculado, es posible que algunos campos a los que hace referencia no sean compatibles con los tipos de objetos configurados para el formulario. Nuestra solución es un comodín que permite que el cálculo muestre valores diferentes, según el objeto al que esté adjunto el formulario. Añadimos el comodín el 24 de marzo.
+>* Para los saltos de sección en los formularios personalizados, hemos creado un conjunto de permisos comunes de visualización y edición que funcionan para todos los tipos de objetos que se pueden configurar para un formulario. En un escenario, descubrimos que uno de estos permisos, Edición limitada, podría provocar errores en un formulario. Esto se corrigió el 24 de marzo.
 >
 
 ## El catálogo de modelos está disponible para todos los usuarios y los administradores pueden permitir solicitudes
@@ -60,7 +58,6 @@ Anteriormente, los formularios personalizados estaban completamente basados en t
 >
 >En las nuevas áreas de experiencia de Adobe Workfront que aún no se han modernizado, como la casilla que se muestra al editar elementos por lotes, las imágenes de formulario personalizadas no se muestran. Se mostrarán a medida que actualicemos esas áreas.
 
-Para obtener más información, consulte [Agregar o editar un widget de recursos en un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Nuevas configuraciones de nivel de acceso predeterminadas
 

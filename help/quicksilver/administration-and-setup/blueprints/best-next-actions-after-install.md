@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ La introducción de un nuevo tablero y sus informes puede hacer posible retirar 
 
 ### Distribuir datos personalizados en formularios relevantes
 
-Algunos informes incluidos en un modelo de panel tienen campos de datos personalizados en la vista, el filtro o la agrupación del informe. En algunos casos, el modelo también tendrá un formulario al que están asociados estos campos. Sin embargo, la mayoría de las veces, los campos personalizados no se aplican a un formulario personalizado. Para que las columnas, los filtros o las agrupaciones funcionen correctamente, estos campos deben asociarse a formularios conectados a un registro de usuario, proyecto, tarea u otro registro de objeto. Para obtener más información, consulte [Agregar un campo personalizado a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+Algunos informes incluidos en un modelo de panel tienen campos de datos personalizados en la vista, el filtro o la agrupación del informe. En algunos casos, el modelo también tendrá un formulario al que están asociados estos campos. Sin embargo, la mayoría de las veces, los campos personalizados no se aplican a un formulario personalizado. Para que las columnas, los filtros o las agrupaciones funcionen correctamente, estos campos deben asociarse a formularios conectados a un registro de usuario, proyecto, tarea u otro registro de objeto. Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

@@ -7,9 +7,9 @@ description: Mediante el uso de caracteres comodín en los filtros, se puede hac
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,6 @@ Puede elegir entre los siguientes comodines basados en objetos:
      <p>La variable $$OBJCODE hace referencia al tipo de un objeto. </p> 
      <p>En un formulario personalizado, cuando los tipos de objeto seleccionados del formulario son incompatibles con un campo al que se hace referencia en un campo personalizado calculado, puede utilizar este comodín para evitar la solución alternativa de crear formularios duplicados para esos tipos de objeto.</p> 
      <p>En el campo personalizado calculado, puede hacerlo incluyendo el comodín en una expresión IF para que el cálculo pueda generar valores diferentes para cada tipo de objeto del formulario. </p> 
-     <p>Para obtener más información y un ejemplo, vea la sección <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Campos personalizados calculados en formularios personalizados de varios objetos</a> en el artículo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Agregar datos calculados a un formulario personalizado</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

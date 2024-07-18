@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Para obtener una lista de todos los cambios disponibles con la versión 20.3, co
 Ahora, cuando el administrador del sistema crea campos de formulario personalizados configurados para dar formato, puede dar formato al texto en los campos en los que más los utiliza: en listas en Workfront. En lugar de ir al área de Detalles para dar formato al texto en el formulario personalizado, puede hacer clic en un campo de una lista y aplicar negrita, cursiva y subrayado al texto.
 
 Tenga en cuenta que esta funcionalidad solo está disponible en las listas actualizadas. Para obtener más información sobre las listas actualizadas, consulte [Introducción a las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-Para obtener información sobre cómo un administrador de Workfront crea campos de texto con formato, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Apariencia actualizada de varios encabezados globales
 
@@ -113,5 +111,4 @@ Para ofrecerle más flexibilidad a la hora de etiquetar y volver a etiquetar cam
 
 En el pasado, la etiqueta se mostraba encima del campo para los usuarios y el sistema la utilizaba para identificar el campo. Por lo tanto, al cambiar la etiqueta para los usuarios, el campo fallaba dondequiera que se usara porque el sistema ya no podía identificarlo.
 
-Para obtener más información, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

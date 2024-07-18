@@ -1,5 +1,5 @@
 ---
-title: Agregar lógica de visualización y lógica de omisión con el diseñador de formularios
+title: Agregar lógica de visualización y saltar lógica a un formulario
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
-# Agregar lógica de visualización y lógica de omisión con el diseñador de formularios
+# Agregar lógica de visualización y saltar lógica a un formulario
 
 Puede decidir qué secciones de un formulario personalizado se deben mostrar o omitir en función de las opciones que realice un usuario al rellenarlo.
 

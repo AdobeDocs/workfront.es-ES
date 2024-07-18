@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
 # Crear asignaciones avanzadas
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
-
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Puede administrar asignaciones de tareas o problemas mediante Asignaciones avanzadas.
 
@@ -97,10 +91,6 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 1. Haga clic en **Avanzado**.
 
-   Imagen de muestra en el entorno de producción:
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Haga clic en Avanzadas](assets/assignments-box-in-task-header.png)
 
 1. En el campo **Buscar personas, roles y equipos**, empiece a escribir el nombre de un usuario, rol o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
@@ -159,10 +149,6 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    * **Rol de asignado:** Seleccione el rol que el usuario debe usar al cumplir esta asignación.  La Función principal del usuario se muestra de forma predeterminada. Haga clic en el cuadro Función de asignado para seleccionar otra función.  Al asignar primero la tarea o el problema a un rol y, a continuación, agregar un usuario que pueda cumplir ese rol como segunda asignación, la lista de usuarios sugeridos se filtra para los usuarios que pueden cumplir los roles ya asignados a la tarea y al problema.
 
-     Imagen de muestra en el entorno de producción:
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
      ![Rol de asignado](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -181,14 +167,6 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    * **Horas planificadas**: cuando el tipo de duración sea Asignación calculada o Simple, actualice el número de horas planificadas. Como resultado, los porcentajes de asignación o las horas de cada recurso se distribuyen de forma uniforme. Workfront calcula las horas planificadas cuando el tipo de duración es Trabajo calculado o Condicionado por el esfuerzo. Para obtener más información, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-     Imagen de muestra en el entorno de producción:
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     Imagen de muestra en el entorno de vista previa:
      ![Asignaciones avanzadas](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. Haga clic en **Guardar**.

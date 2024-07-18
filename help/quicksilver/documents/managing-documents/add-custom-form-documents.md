@@ -6,9 +6,9 @@ description: Puede agregar un formulario personalizado a un documento o a una ve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Para agregar un formulario personalizado a un documento:
 
    >[!NOTE]
    >
-   >En el menú desplegable solo se muestran los formularios personalizados activos. Puede agregar hasta 10 formularios personalizados por documento. Si necesita crear un formulario personalizado, consulte [Crear o editar un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   >En el menú desplegable solo se muestran los formularios personalizados activos. Puede agregar hasta 10 formularios personalizados por documento. Si necesita crear un formulario personalizado, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Edición de un formulario personalizado
 

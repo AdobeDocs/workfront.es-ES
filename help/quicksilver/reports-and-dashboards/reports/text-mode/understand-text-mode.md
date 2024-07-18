@@ -6,9 +6,9 @@ description: Puede crear un informe o una lista en Adobe Workfront utilizando el
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para obtener más información sobre la creación de informes con el modo de tex
 
 >[!TIP]
 >
->También puede ampliar las capacidades de los campos personalizados calculados utilizando una versión del modo texto para los campos personalizados. La sintaxis y las reglas para crear un campo personalizado calculado son diferentes de las que se usan en informes y listas. Para obtener información acerca de cómo agregar un campo personalizado calculado, vea [Agregar datos calculados a un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>También puede ampliar las capacidades de los campos personalizados calculados utilizando una versión del modo texto para los campos personalizados. La sintaxis y las reglas para crear un campo personalizado calculado son diferentes de las que se usan en informes y listas. Para obtener información acerca de cómo agregar un campo personalizado calculado, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Antes de empezar a usar el modo de texto en los informes, le recomendamos encarecidamente que tome nuestras clases sobre informes avanzados para comprender mejor nuestro lenguaje del modo de texto. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Se recomienda utilizar el modo estándar para garantizar que los informes que cree permanezcan intactos cuando se actualice el software de Workfront. Aunque el modo de texto le permite crear vistas, filtros y agrupaciones más complejos, también es más complicado de mantener y no se garantiza cuando se actualiza el software de Workfront.
@@ -254,7 +254,6 @@ Para obtener más información acerca de los usos comunes del modo de texto, vea
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p>
    <note type="important">
    <span>When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see</span>
-   <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.
    </note>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpression=UPPER({DE:Developer Name}</code>) </p>

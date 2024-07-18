@@ -1,5 +1,5 @@
 ---
-title: Organizar y previsualizar un formulario con Form Designer
+title: Organización y previsualización de un formulario
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
-# Organizar y obtener una vista previa de un formulario con el diseñador de formularios
+# Organización y previsualización de un formulario
 
 Puede organizar un formulario personalizado con el diseñador de formularios y obtener una vista previa del mismo para comprobar que está correctamente configurado.
 
@@ -79,10 +79,6 @@ Para obtener información acerca de los campos y widgets personalizados en los f
       <td role="rowheader">Descripción</td> 
       <td>Escriba texto si desea explicar a los usuarios para qué sirve la sección. Esto se muestra debajo de la etiqueta de la sección en el formulario personalizado.</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>Conceder acceso</p> </td> 
       <td> <p> Seleccione los permisos que necesitan los usuarios en un objeto donde se adjunta el formulario personalizado para ver esta sección y editar sus valores de campo. 
@@ -149,19 +145,10 @@ En un formulario personalizado con un salto de sección configurado con el permi
 
 1. Para colocar campos y widgets personalizados en la misma fila, arrastre uno junto al otro hasta que aparezca una línea entre ellos.
 
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
-
->[!NOTE]
->
->* Puede usar el botón **Vista previa** de la esquina superior derecha para hacerse una idea de cómo se mostrarán los campos y widgets personalizados en el formulario.
->* Es posible que los campos y widgets personalizados no siempre se muestren igual en el formulario, según el espacio de pantalla disponible cuando un usuario lo esté viendo. Por ejemplo, el tercer campo de una fila de campos puede ajustarse a la siguiente fila de campos si el espacio horizontal es limitado.
+   >[!NOTE]
+   >
+   >* Puede usar el botón **Vista previa** de la esquina superior derecha para hacerse una idea de cómo se mostrarán los campos y widgets personalizados en el formulario.
+   >* Es posible que los campos y widgets personalizados no siempre se muestren igual en el formulario, según el espacio de pantalla disponible cuando un usuario lo esté viendo. Por ejemplo, el tercer campo de una fila de campos puede ajustarse a la siguiente fila de campos si el espacio horizontal es limitado.
 
 1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo arriba o abajo hasta que aparezca una línea azul horizontal entre los elementos.
 

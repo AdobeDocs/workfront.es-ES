@@ -6,9 +6,9 @@ description: Conversión de un problema en un proyecto en Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1957'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ Puede convertir un problema en un proyecto en blanco.
      >[!TIP]
      >
      >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para usarse tanto con problemas como con proyectos, toda la información guardada en el formulario se conservará cuando realice la conversión si los campos existen tanto en el problema como en los formularios personalizados del proyecto.
-     >* Si se adjunta un formulario personalizado de varios objetos con un campo calculado al problema y al proyecto, el problema y el proyecto deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, consulte la sección &quot;Campos personalizados calculados en formularios personalizados de varios objetos&quot; en [Agregar datos calculados a un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+     >* Si se adjunta un formulario personalizado de varios objetos con un campo calculado al problema y al proyecto, el problema y el proyecto deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, consulte la sección &quot;Campos personalizados calculados en formularios personalizados de varios objetos&quot; en [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 1. Haga clic en [!UICONTROL **Convertir en proyecto**].
 
@@ -237,7 +237,7 @@ Puede convertir un problema en un proyecto mediante una plantilla.
         >[!TIP]
         >
         >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para usarse tanto con problemas como con proyectos, toda la información guardada en el formulario se conservará cuando realice la conversión si los campos existen tanto en el problema como en los formularios personalizados del proyecto.
-        >* Si se adjunta un formulario personalizado de varios objetos con un campo calculado al problema y al proyecto, el problema y el proyecto deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, consulte la sección &quot;Campos personalizados calculados en formularios personalizados de varios objetos&quot; en [Agregar datos calculados a un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+        >* Si se adjunta un formulario personalizado de varios objetos con un campo calculado al problema y al proyecto, el problema y el proyecto deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
         >* Si un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto al problema, el valor de campo del problema se utiliza para el nuevo proyecto. Sin embargo, si el campo personalizado está en blanco sobre el problema, se utiliza el valor de la plantilla.
 
 1. (Opcional) Defina cualquier detalle adicional del proyecto (propietario del proyecto, fechas del proyecto) y las tareas según sea necesario.

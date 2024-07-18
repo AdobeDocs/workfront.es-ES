@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Cuando un usuario envía un documento de [!DNL Workfront] a una aplicación [!DN
 
 Puede asignar el mismo campo [!DNL Workfront] a varios campos de metadatos en [!DNL Workfront DAM], pero no puede utilizar un campo de metadatos en ninguna de esas aplicaciones para varios campos de metadatos de [!DNL Workfront].
 
-Para configurar varios campos [!DNL Workfront] para exportarlos a un campo de metadatos en una aplicación [!DNL Workfront], cree primero un campo personalizado calculado en [!DNL Workfront] para mostrar todos los campos personalizados individuales de un objeto. A continuación, asigne el campo [!DNL Workfront] calculado a un campo de metadatos en la aplicación [!DNL Workfront]. Para obtener más información sobre los campos personalizados calculados, consulte [Agregar datos calculados a un formulario personalizado](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Para configurar varios campos [!DNL Workfront] para exportarlos a un campo de metadatos en una aplicación [!DNL Workfront], cree primero un campo personalizado calculado en [!DNL Workfront] para mostrar todos los campos personalizados individuales de un objeto. A continuación, asigne el campo [!DNL Workfront] calculado a un campo de metadatos en la aplicación [!DNL Workfront]. Para obtener más información sobre los campos personalizados calculados, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Para poder asignar campos para el proceso de asignación de metadatos, debe habilitar la aplicación en [!DNL Workfront]. Para obtener más información, consulte [Configurar integraciones de documentos](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

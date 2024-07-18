@@ -6,9 +6,9 @@ description: Puede hacer referencia a los formularios personalizados de un objet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 El formulario personalizado debe existir antes de poder hacer referencia a él en un informe.
 
-Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Para obtener más información sobre la creación de formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Hacer referencia al contenido de los formularios personalizados
 
@@ -61,7 +61,7 @@ Puede hacer referencia a campos dentro de formularios personalizados. Después d
 >[!NOTE]
 >
 >En el caso de los campos que tienen varias opciones, todas las opciones están disponibles en los filtros y los indicadores del informe, incluidas las que están ocultas.\
->Para obtener más información sobre cómo ocultar las opciones de un campo personalizado con varias opciones, vea el artículo [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Para obtener más información sobre cómo ocultar las opciones de un campo personalizado con varias opciones, vea el artículo [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Al crear el informe, simplemente utilice el tipo de objeto del formulario como origen del campo y utilice el nombre del campo personalizado como nombre del campo.
 

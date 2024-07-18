@@ -1,5 +1,5 @@
 ---
-title: Configurar el uso compartido de campos y widgets personalizados con el diseñador de formularios
+title: Configuración del uso compartido para campos y widgets personalizados
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
 
-# Configurar el uso compartido de campos y widgets personalizados con el diseñador de formularios
+# Configuración del uso compartido para campos y widgets personalizados
 
 De forma predeterminada, cuando se agrega un nuevo campo personalizado o widget a un formulario personalizado, cualquier persona en el sistema con acceso a los formularios personalizados puede editar las propiedades de ese elemento, como su etiqueta y nombre. Puede cambiar esto controlando con quién se puede compartir.
 

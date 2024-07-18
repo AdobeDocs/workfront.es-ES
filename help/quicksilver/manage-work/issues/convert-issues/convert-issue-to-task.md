@@ -6,9 +6,9 @@ description: Si es necesario trabajar más para completar un problema una vez en
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1041'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >[!TIP]
    >
    >* Si un formulario personalizado de varios objetos adjunto al problema está configurado para utilizarse tanto con problemas como con tareas, toda la información guardada en el formulario se conservará al realizar la conversión si los campos existen tanto en el problema como en los formularios personalizados de la tarea.
-   >* Si se adjunta al problema y a la tarea un formulario personalizado de varios objetos con un campo calculado, el problema y la tarea deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, consulte la sección &quot;Campos personalizados calculados en formularios personalizados de varios objetos&quot; en [Agregar datos calculados a un formulario personalizado con el generador de formularios heredados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Si se adjunta al problema y a la tarea un formulario personalizado de varios objetos con un campo calculado, el problema y la tarea deben ser compatibles con todos los campos a los que se hace referencia en los campos personalizados calculados del formulario. Si se produce una incompatibilidad, un mensaje le advierte de que realice los ajustes necesarios. Para obtener más información, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
    >* Si el proyecto de destino tiene formularios predeterminados definidos en el campo Forms personalizado predeterminado de la tarea al editar el proyecto, esos formularios de tareas también se agregan a la nueva tarea. Todos los campos personalizados que sean comunes entre el problema original y los campos de los formularios de tarea predeterminados se rellenan previamente con información de los campos de problema.
 
 

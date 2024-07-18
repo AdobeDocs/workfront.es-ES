@@ -1,5 +1,5 @@
 ---
-title: Agregar campos calculados con el diseñador de formularios
+title: Adición de campos calculados a un formulario
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
+source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
 
-# Agregar campos calculados con el diseñador de formularios
+# Adición de campos calculados a un formulario
 
 Puede agregar un campo personalizado calculado que utilice datos existentes para generar datos nuevos cuando el formulario personalizado se adjunte a un objeto.
 

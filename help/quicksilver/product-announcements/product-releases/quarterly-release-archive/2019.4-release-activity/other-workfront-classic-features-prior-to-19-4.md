@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '354'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,6 @@ Para obtener información sobre el lapso de tiempo de lanzamiento y todas las fu
      <p>Por ejemplo, si ha creado un campo Casillas de verificación, puede cambiarlo a un campo Desplegable o a un campo Botones de opción. Estos tres tipos de visualización de campo son intercambiables.</p> 
      <p>O bien, si ha creado un campo de texto de una sola línea, puede cambiarlo a un campo de texto de párrafo. Estos dos tipos de visualización de campo son intercambiables.</p> 
      <p>Anteriormente, para cambiar el tipo de visualización de un campo personalizado, se tenía que crear un nuevo campo y eliminar el antiguo. Esto requería la transferencia de datos, lo que a menudo llevaba mucho tiempo.</p> 
-     <p>Para obtener más información, consulte <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Crear o editar un formulario personalizado</a> en el artículo <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Crear o editar un formulario personalizado</a></p> 
      <div class="workfront_plans"> 
       <p><strong>Disponible en estos entornos:</strong> </p> 
       <ul> 

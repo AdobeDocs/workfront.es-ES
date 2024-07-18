@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # Asignar problemas
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
-
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -126,11 +120,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 
    * Comience a escribir el nombre del usuario, rol o equipo que desea asignar y, a continuación, haga clic en él cuando aparezca en la lista.
 
-     Imagen de muestra en el entorno de producción:
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-     <span class="preview">![Búsqueda de asignaciones](assets/smart-assignments-issue-header.png)</span>
+     ![Búsqueda de asignaciones](assets/smart-assignments-issue-header.png)
 
    * (Condicional) Haga clic en uno de los nombres, roles o equipos de las listas disponibles
    * Haz clic en **Asignármelo** para asignártelo a ti mismo
@@ -177,10 +167,6 @@ Para asignar problemas en una lista:
 
    * Haga clic dentro del campo **Asignaciones** y empiece a escribir el nombre de un usuario, rol o equipo activo que desee asignar al problema; a continuación, haga clic en él cuando se muestre en la lista.
 
-     Imagen de muestra en el entorno de producción:
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
      ![Campo de asignaciones](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]

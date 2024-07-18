@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '2508'
 ht-degree: 2%
 
 ---
@@ -324,13 +324,13 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. En el campo **Agregar formulario personalizado**, seleccione el formulario o formularios personalizados que desee asociar con el problema. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Puede agregar hasta diez formularios personalizados a un problema.
+1. En el campo **Agregar formulario personalizado**, seleccione el formulario o formularios personalizados que desee asociar con el problema. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede agregar hasta diez formularios personalizados a un problema.
 
 1. (Condicional) Si adjuntó un formulario personalizado al problema, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar el problema.
 
    >[!NOTE]
    >
-   >Según la forma en que el administrador de Workfront haya establecido los permisos para las secciones del formulario personalizado, no todos podrán ver o editar los mismos campos en un formulario personalizado determinado. Los permisos para editar campos dentro de una sección de un formulario personalizado dependen de los permisos que tenga sobre el propio problema. Para obtener información sobre cómo establecer permisos en secciones de un formulario personalizado, consulte [Crear o editar un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Para obtener información sobre cómo establecer permisos para problemas, consulte [Compartir un problema](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Según la forma en que el administrador de Workfront haya establecido los permisos para las secciones del formulario personalizado, no todos podrán ver o editar los mismos campos en un formulario personalizado determinado. Los permisos para editar campos dentro de una sección de un formulario personalizado dependen de los permisos que tenga sobre el propio problema. Para obtener información acerca de cómo establecer permisos en secciones de un formulario personalizado, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Para obtener información sobre cómo establecer permisos para problemas, consulte [Compartir un problema](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Haga clic en **Guardar** o continúe editando la siguiente sección.
 

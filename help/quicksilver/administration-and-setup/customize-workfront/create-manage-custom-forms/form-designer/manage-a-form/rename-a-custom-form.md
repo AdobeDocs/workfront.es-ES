@@ -1,5 +1,5 @@
 ---
-title: Cambiar el nombre de un formulario personalizado con el diseñador de formularios
+title: Cambiar nombre de formulario personalizado
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Cambiar el nombre de un formulario personalizado con el diseñador de formularios
+# Cambiar nombre de formulario personalizado
 
 Puede cambiar el nombre de un formulario personalizado en cualquier momento después de crearlo con el diseñador de formularios.
 

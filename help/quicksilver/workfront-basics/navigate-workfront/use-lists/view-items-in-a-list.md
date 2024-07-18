@@ -5,9 +5,9 @@ description: Puede ver listas de objetos en  [!DNL Adobe Workfront]  para obtene
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2398'
 ht-degree: 0%
 
 ---
@@ -628,7 +628,7 @@ La tabla siguiente muestra algunas de las diferencias entre las listas heredadas
   </tr> 
   <tr> 
    <td>No puede editar en línea campos personalizados con formato de texto enriquecido.</td> 
-   <td> <p>El texto de los campos personalizados con formato se puede configurar para que incluya negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque.</p> <p>Para obtener más información, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Crear o editar un formulario personalizado</a>.</p> </td> 
+   <td> <p>El texto de los campos personalizados con formato se puede configurar para que incluya negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque.</p> <p>Para obtener más información, vea <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Diseñar un formulario con el diseñador de formularios</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>El formato condicional puede cambiar el color del texto de los vínculos de una lista</td> 

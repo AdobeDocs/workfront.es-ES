@@ -4,9 +4,9 @@ description: A continuación, se llevan a cabo mejoras significativas para admin
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ Actualmente, los usuarios no pueden ver el widget en las siguientes áreas:&#x20
 * El cuadro de edición del objeto, si no tiene el nuevo aspecto y funcionamiento de la experiencia de Adobe Workfront (por ejemplo, el cuadro de edición de gastos )
 * &#x200B;La aplicación móvil de Workfront
 
-Para obtener más información sobre cómo agregar widgets a formularios personalizados, consulte [Agregar o editar un widget de imagen u otro recurso en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Asociar un formulario personalizado con varios tipos de objetos
 
 Puede asociar varios tipos de objetos con cualquier formulario personalizado nuevo:
@@ -68,8 +66,6 @@ Esto resulta especialmente útil cuando se convierte un problema o una tarea, ya
 >
 >Cuando se realice la conversión, el formulario personalizado ya debe estar asociado al tipo de objeto al que está convirtiendo.
 
-Para obtener instrucciones sobre cómo agregar un widget de recursos a un formulario personalizado, consulte [Agregar o editar un widget de recursos o de imágenes en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 Tenga en cuenta lo siguiente al crear o editar un formulario personalizado de varios objetos:
 
 * [Opciones de permiso para saltos de sección](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ El conjunto de permisos de salto de sección disponible para todos los demás ti
 En un formulario personalizado asociado a tipos de objeto de ambos grupos, el sistema utiliza un conjunto común de permisos de salto de sección que funcionan para todos los tipos de objeto. En particular, en lugar de utilizar la opción de permiso Editar de forma limitada, este conjunto común sustituye la opción de permiso Editar por la opción de permiso Editar de forma limitada. La opción Editar es compatible con todos los tipos de objetos.
 
 Cuando se asocia un tipo de objeto que utiliza opciones de permiso distintas de las de otros tipos de objeto que ya se encuentran en un formulario personalizado, aparece un mensaje que le permite cambiar al conjunto común de opciones de permiso que se utilizarán para el formulario. Este cambio se aplicará a todos los campos, incluso si no están en un salto de sección.
-
-Para obtener más información, consulte [Agregar un salto de sección a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 
 ### Compatibilidad calculada con campos personalizados
 
@@ -125,7 +119,6 @@ Cuando esto sucede, puede realizar una de las siguientes acciones:
 >
 >  Si agrega un tipo de objeto delante del nombre de campo, hace referencia al objeto principal del objeto, por lo que no puede utilizar `{project}.{name}` con un proyecto, pero puede utilizarlo con una tarea.
 
-Para obtener instrucciones sobre cómo agregar un campo personalizado calculado a un formulario personalizado, vea [Agregar datos calculados a un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 Para obtener más información acerca de variables como `$$OBJCODE`, vea [Resumen de las variables de filtro comodín](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
