@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 5%
 
 ---
@@ -281,8 +281,8 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Proyecto |   | ✓ |   |
 | Tarea |   | ✓ |   |
 | Problema |   |   | ✓ |
-| Portafolios | ✓ |   |   |
-| Programas | ✓ |   |   |
+| Portafolios |   | ✓ |   |
+| Programas |   | ✓ |   |
 | Informes (incluidos informes de tableros y calendarios) |   | ✓ (Solo la pestaña Detalles) |   |
 | Filtros, vistas y agrupaciones |   |   | ✓ |
 | Documento |   |   | ✓ |
@@ -297,6 +297,13 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Metas |   |   | ✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>A partir de la versión 24.7, los colaboradores tienen acceso de visualización a programas y Portfolio de forma predeterminada.
+>
+> 
+>Los colaboradores incorporados antes de la versión 24.7 seguirán sin tener acceso a Programas y Portfolio de forma predeterminada. Puede actualizar su acceso para verlos manualmente si es necesario.
 
 ### Nivel de acceso de usuario externo
 
