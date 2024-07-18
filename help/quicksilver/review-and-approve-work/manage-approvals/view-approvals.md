@@ -6,9 +6,9 @@ description: Los procesos de aprobación proporcionan la flexibilidad para crear
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Para obtener información acerca de cómo crear procesos de aprobación, vea [Cr
 Para obtener información acerca de cómo asociar aprobaciones con trabajo en Workfront, vea [Asociar un proceso de aprobación nuevo o existente con trabajo](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -48,7 +50,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Localización de aprobaciones en Adobe Workfront
 
@@ -111,16 +115,13 @@ Puede ver el estado de aprobación de un objeto en las siguientes secciones del 
  </tbody> 
 </table>
 
-* [Use el área de Actualizaciones para ver un estado de aprobación](#use-the-updates-area-to-view-an-approval-status)
-* [Utilice el área de Aprobaciones para ver un estado de aprobación](#use-the-approvals-area-to-view-an-approval-status)
-
 ### Utilice el área de Actualizaciones para ver un estado de aprobación {#use-the-updates-area-to-view-an-approval-status}
 
 Cuando se inicia una aprobación en un proyecto, tarea o problema, se muestra un estado en la pestaña **Actualizaciones** del objeto, que indica el estado de aprobación. Aparece un nuevo estado cada vez que el objeto pasa por el proceso de aprobación. Esto incluye los siguientes eventos:
 
 * Se inicia un proceso de aprobación en un objeto. El proceso de aprobación se inicia cuando se cambia el estado.
 * El objeto se rechaza
-* Se aprueba el objeto 
+* Se aprueba el objeto
 
 >[!TIP]
 >

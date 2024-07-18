@@ -6,9 +6,9 @@ description: Puede recuperar cualquiera de los siguientes objetos enviados para 
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ Puede recuperar cualquiera de los siguientes objetos enviados para su aprobació
 * Solicitudes de acceso
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -51,7 +53,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Proyectos
 

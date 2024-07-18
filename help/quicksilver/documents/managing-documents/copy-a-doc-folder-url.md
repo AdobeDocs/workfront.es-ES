@@ -6,9 +6,9 @@ description: Puede copiar un vínculo para cualquier carpeta de documentos conte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Puede copiar un vínculo directo para cualquier carpeta de documentos que contenga cualquiera de los siguientes [!DNL Workfront] objetos: [!UICONTROL Programa], [!UICONTROL Portfolio], [!UICONTROL Proyecto], [!UICONTROL Tarea] o [!UICONTROL Problema]. No puede copiar un vínculo de ninguna carpeta contenida en el área de [!UICONTROL Documentos] del menú principal, ya que esas carpetas están vinculadas directamente a su perfil de usuario y no se pueden compartir con otros.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -42,6 +44,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
++++
 
 ## Copiar y compartir un vínculo a una carpeta de documentos
 

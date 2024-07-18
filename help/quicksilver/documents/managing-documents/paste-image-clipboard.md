@@ -6,9 +6,9 @@ description: Puede agregar un archivo de imagen a Adobe Workfront copiándolo y 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 399c56757839a670a39b942d6b57992bd4f94cdc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Esta función es específica del explorador, como se indica a continuación:
 * **Safari:** Esta funcionalidad no es compatible.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -56,6 +58,8 @@ Debe tener lo siguiente:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
++++
 
 ## Pegar desde el portapapeles
 

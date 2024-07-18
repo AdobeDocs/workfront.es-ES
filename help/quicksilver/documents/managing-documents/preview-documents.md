@@ -6,9 +6,9 @@ description: Puede obtener una vista previa de un documento desde el área Docum
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Puede obtener una vista previa de un documento desde el área Documentos. Esto resulta especialmente útil en imágenes.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -47,6 +49,8 @@ Debe tener lo siguiente:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
++++
 
 ## Previsualización de un documento
 

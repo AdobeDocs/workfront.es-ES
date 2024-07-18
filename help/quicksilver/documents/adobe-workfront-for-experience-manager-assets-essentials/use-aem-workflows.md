@@ -6,9 +6,9 @@ description: Uso de flujos de trabajo en la integración de Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe 
 
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -62,6 +64,8 @@ Para obtener información sobre cómo solicitar acceso adicional, vea <strong>So
    </td>
   </tr>
 </table>
+
++++
 
 ## Requisitos previos
 
@@ -145,7 +149,6 @@ Todos los valores de flujo de trabajo se encuentran en:
 >Dado que las carpetas vinculadas se crean cuando se crea el proyecto, la edición del flujo de trabajo de carpetas vinculadas en un proyecto existente no es eficaz. La edición de estos valores al crear un proyecto funciona según lo esperado.
 
 Para editar el flujo de trabajo de las carpetas vinculadas:
-
 
 1. Activa o desactiva **[!UICONTROL Crear carpeta vinculada]** según quieras. Si lo activa, puede editar la configuración de la carpeta vinculada.
 

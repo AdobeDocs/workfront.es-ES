@@ -7,9 +7,9 @@ description: Puede ver una vista en tiempo real de los metadatos asignados en el
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Puede ver una vista en tiempo real de los metadatos asignados en el panel Detalles del documento y resumen de los documentos. Los campos de metadatos se asignan por primera vez al enviar un recurso desde Workfront a Experience Manager Assets o a los Assets Essentials. Si el administrador de Workfront ha activado la sincronización de metadatos de objeto, los campos permanecen actualizados si se cambian en alguna de las aplicaciones.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -62,6 +64,7 @@ Para obtener información sobre cómo solicitar acceso adicional, vea <strong>So
 
 *Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
++++
 
 ## Requisitos previos
 
@@ -77,6 +80,7 @@ Para abrir el panel Metadatos en Detalles del documento:
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Pase el ratón sobre el documento que necesita y luego seleccione **Detalles del documento**.
 1. Busque y expanda la sección **Metadatos**.
+
    >[!NOTE]
    >
    >No puede editar campos en esta sección. Son de solo lectura.
@@ -91,6 +95,7 @@ Para abrir el panel Metadatos en el panel Resumen:
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 1. Haga clic en el **icono de resumen** ![icono de resumen](assets/summary-panel-icon.png) y, a continuación, expanda la sección **Metadatos**.
+
    >[!NOTE]
    >
    >No puede editar campos en esta sección. Son de solo lectura.

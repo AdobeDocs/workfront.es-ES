@@ -6,9 +6,9 @@ description: Las aprobaciones de revisión se muestran en el área de Inicio sol
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Las aprobaciones de revisión se muestran en el área de Inicio solo si el entorno de Adobe Workfront está integrado con una cuenta de Workfront Proof Premium. Si no puede utilizar la revisión como se describe aquí, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -44,7 +46,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Ver aprobaciones de pruebas enviadas
 

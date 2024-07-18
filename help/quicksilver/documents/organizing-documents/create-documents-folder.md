@@ -6,9 +6,9 @@ description: Los documentos se pueden organizar en carpetas. Puede crear carpeta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Los documentos se pueden organizar en carpetas. Puede crear carpetas personales 
 >La organización de los documentos simplemente crea vínculos entre los documentos y los objetos con los que se asocian. No los reubica en el sistema.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -46,15 +48,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
++++
+
 ## Mostrar carpetas
 
 Puede mostrar carpetas en vista de miniaturas, estándar o de lista. Para cambiar la vista, utilice las opciones de vista de la esquina superior derecha.
 
-1. Haga clic en **Documentos** en el menú principal. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   O
+O
 
-   Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
+Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
 
 1. Haga clic en las opciones de vista encima del panel derecho para cambiar la forma en que se muestran los documentos.
 
@@ -64,11 +68,11 @@ Puede mostrar carpetas en vista de miniaturas, estándar o de lista. Para cambia
 
 Cree carpetas para organizar mejor los documentos. Puede crear hasta 2000 carpetas en un objeto y hasta 50 subcarpetas dentro de cada carpeta. Las subcarpetas se cuentan hasta un máximo de 2000 carpetas.
 
-1. Haga clic en **Documentos** en el menú principal. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   O
+O
 
-   Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
+Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
 
 1. Para crear una carpeta de nivel superior, asegúrate de que no hay nada seleccionado y luego haz clic en **Agregar nueva** > **Carpeta**.
 

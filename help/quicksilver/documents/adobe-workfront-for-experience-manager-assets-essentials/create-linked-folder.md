@@ -7,9 +7,9 @@ description: Puede crear una carpeta vinculada a Experience Manager Assets o a A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Puede crear una carpeta vinculada a Experience Manager Assets o a Assets Essenti
 
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -59,6 +61,7 @@ Debe tener lo siguiente:
 
 *Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
++++
 
 ## Requisitos previos
 
@@ -74,8 +77,6 @@ La carpeta vinculada se crea en la ubicación especificada por el administrador 
 El nombre de la carpeta vinculada se crea automáticamente en función del Portfolio, el programa o el proyecto con el que esté asociado y no se puede cambiar. Si el proyecto no está asociado a un Portfolio o a un programa, la carpeta vinculada mostrará el nombre del proyecto y la fecha de creación.
 
 Para crear una carpeta vinculada:
-
-
 
 1. Vaya al proyecto donde desee colocar la carpeta.
 1. Seleccione **Agregar nuevo** y, a continuación, vaya a la integración de Experience Manager que configuró su administrador.

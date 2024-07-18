@@ -6,9 +6,9 @@ description: Las carpetas inteligentes se utilizan para administrar documentos f
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Las carpetas inteligentes se utilizan para administrar documentos fuera de un pr
 Hay dos carpetas inteligentes disponibles de forma predeterminada la primera vez que se accede al área Documentos: Todos los documentos y Recientes. Puede editar, cambiar el nombre o copiar carpetas inteligentes predeterminadas, pero no puede eliminarlas. Puede crear carpetas inteligentes adicionales para satisfacer otras necesidades de administración de recursos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -43,6 +45,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
++++
 
 ## Mostrar carpetas inteligentes 
 
@@ -88,7 +92,7 @@ Puede mostrar carpetas en vista de miniaturas, estándar o de lista. Para cambia
 
 1. Realice los cambios y haga clic en **Guardar carpeta**.
 
-## Eliminar una carpeta inteligente 
+## Eliminar una carpeta inteligente
 
 1. Vaya al área de **Documentos** que contiene la carpeta inteligente que desea eliminar.
 1. En la columna **Carpetas**, haga clic en la flecha desplegable situada junto a la carpeta inteligente que desee eliminar.

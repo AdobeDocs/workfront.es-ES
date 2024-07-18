@@ -6,9 +6,9 @@ description: Aunque no hay restricciones en los tipos y tamaños de archivos ind
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Aunque no hay restricciones en los tipos y tamaños de archivos individuales que los usuarios pueden cargar en la instancia de Workfront, hay un límite en el plan de Workfront en la cantidad total de almacenamiento utilizado por la instancia de Workfront. Como administrador de Adobe Workfront, puede supervisar el almacenamiento de documentos de su instancia desde el área de Configuración.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -38,9 +40,12 @@ Debe tener lo siguiente:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
++++
+
 ## Comprobar almacenamiento de documentos
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. En el panel izquierdo, haga clic en **Sistema** > **Información del cliente**.
 1. En la sección **Información básica**, busque **Cuota de almacenamiento**. Aquí puede ver la cantidad de almacenamiento que está usando actualmente, así como la cantidad total de almacenamiento que incluye su plan de Workfront.
 

@@ -6,9 +6,9 @@ description: Puede vincular un recurso o una carpeta desde Experience Manager As
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Puede vincular un recurso o una carpeta desde Experience Manager Assets o Assets
 Los campos de metadatos se asignan por primera vez al enviar un recurso desde Workfront a Experience Manager Assets o a los Assets Essentials. Si el administrador de Workfront ha activado la sincronización de metadatos de objeto, los campos permanecen actualizados si se cambian en alguna de las aplicaciones.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -55,6 +57,8 @@ Debe tener lo siguiente:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
++++
 
 ## Requisitos previos
 

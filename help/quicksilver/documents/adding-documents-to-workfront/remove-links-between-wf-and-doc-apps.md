@@ -6,9 +6,9 @@ description: Al cargar un documento desde cualquier servicio por primera vez, Ad
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Para obtener información sobre cómo vincular servicios de documentos externos 
 Dado que el servicio de documentos es el que permite vincular permisos a Workfront, Workfront no puede eliminar el permiso concedido por el servicio de documentos. Debe quitar el permiso desde la aplicación del servicio de documentos o llamar a nuestro Equipo de soporte para quitar este vínculo de nuestros servidores.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -45,6 +47,8 @@ Debe tener lo siguiente:
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
++++
 
 ## Eliminar el vínculo entre Workfront y Dropbox
 
