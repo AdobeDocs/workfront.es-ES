@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,7 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 ## Historial de ejecución
 
 * Los registros del historial de ejecución están limitados a un tamaño de **100 MB**. Si el historial de ejecución supera este tamaño, solo se mostrarán los primeros 100 MB.
+* Si un escenario tiene varias ejecuciones simultáneas. solo se muestran 5 ejecuciones en el área Ejecuciones de la página de detalles del escenario. Esto ocurre incluso cuando se están ejecutando más de 5 ejecuciones.
 
 ## Ejecuciones incompletas
 
