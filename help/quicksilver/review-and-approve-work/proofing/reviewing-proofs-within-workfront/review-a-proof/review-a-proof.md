@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Revisión de una prueba
+title: "Revisar una prueba: índice de artículos"
 description: Visualización de contenido en una prueba
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9fbdf8a3-eebc-4ad3-9ad9-7d8ad782b929
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 6%
+source-wordcount: '90'
+ht-degree: 0%
 
 ---
 
-# Revisión de una prueba
+# Revisar una prueba: índice de artículos
 
 * [Ver contenido en una revisión](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
 * [Medir un área dentro de una revisión](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)

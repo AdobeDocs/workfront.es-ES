@@ -6,7 +6,7 @@ title: "Crear una solicitud de revisión o aprobación para un recurso Frame.io"
 description: Puede crear una solicitud de revisión o aprobación para los recursos conectados de Frame.io.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. Desplácese hacia abajo hasta la sección **Aprobaciones** y, a continuación, haga clic en **Agregar**.
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
 

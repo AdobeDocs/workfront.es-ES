@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 1%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 1%
    * Revisión {#proofing}
       * [Corrección: índice de artículos](review-and-approve-work/proofing/proofing.md)
       * Resumen de revisión {#proofing-overview}
-         * [Resumen de revisión](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [Resumen de revisión: índice del artículo](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Resumen del perfil de permisos de revisión](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [Resumen de funciones de prueba](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [Resumen del flujo de trabajo automatizado](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 1%
          * [Progreso de prueba e información general de estado](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Diferencias entre el Visor de revisión web y el Visor de revisión de escritorio](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Crear pruebas {#create-proofs}
-         * [Creación de pruebas](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [Crear pruebas: índice de artículos](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Configurar valores predeterminados de revisión personales](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Creación de una prueba de varias páginas](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Creación de una prueba interactiva para un sitio web u otro contenido web](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 1%
          * [Creación de una prueba avanzada con un flujo de trabajo básico](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Creación de una prueba avanzada con un flujo de trabajo automatizado](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Administrar revisiones en Adobe Workfront {#manage-proofs-in-workfront}
-         * [Administración de pruebas en Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Administrar pruebas en Adobe Workfront: índice de artículos](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * Administrar revisiones {#manage-proofs}
-            * [Administración de pruebas](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [Administrar pruebas: índice de artículos](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Editar configuración de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Imprimir un resumen de prueba en Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [Eliminar una revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 1%
             * [Usar el informe de aprobación de pruebas](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Acceso a Workfront Proof desde Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Administrar versiones de revisión {#manage-proof-versions}
-            * [Administrar versiones de prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Administrar versiones de revisión: índice de artículos](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Crear una nueva versión de una revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Ver versiones de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Ver y administrar detalles de la versión de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [Descargar versiones de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * Administrar revisores de revisión {#manage-proof-reviewers}
-            * [Administrar revisores de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [Administrar revisores de prueba: índice de artículos](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [Configuración de acceso y suscripción para una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Compartir una revisión en Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [Envío de mensajes de correo electrónico a los revisores de una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * Administrar notificaciones de revisión {#manage-proof-notifications}
-            * [Administrar notificaciones de revisión](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [Administrar notificaciones de prueba: índice de artículos](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Administración de notificaciones para comentarios y decisiones de prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * Administrar plazos de revisión {#manage-proof-deadlines}
-            * [Administrar plazos de prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [Administrar plazos de prueba: índice de artículos](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [Establecer una fecha límite para una revisión básica existente](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [Agregar, editar o eliminar una fecha límite para una etapa](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [Establecer fechas límites para revisores individuales](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [Eliminar fechas límite de revisores individuales](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * Administrar revisiones automatizadas {#manage-automated-proofs}
-            * [Administración de pruebas automatizadas](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [Administrar pruebas automatizadas: índice de artículos](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Visualización de las fases del flujo de trabajo automatizado en una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Visualización de las fases activas en una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Crear o editar un flujo de trabajo automatizado para una revisión existente](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 1%
             * [Conversión de un flujo de trabajo básico en un flujo de trabajo automatizado en una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [Adición de fases y usuarios a un flujo de trabajo automatizado en una prueba](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * Usar el Visor de corrección de escritorio {#use-the-desktop-proofing-viewer}
-         * [Uso del Visor de corrección de escritorio](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [Uso del Visor de corrección de escritorio: índice del artículo](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Instalación del Visor de corrección de escritorio](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Actualizar el Visor de corrección de escritorio](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Abrir pruebas en el Visor de pruebas de escritorio](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Revisar contenido no interactivo en el Visor de corrección de escritorio](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Preguntas frecuentes - Visor de corrección de escritorio](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Revisar revisiones en Adobe Workfront {#review-proofs-in-workfront}
-         * [Revisión de pruebas en Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Revisar pruebas en Adobe Workfront: índice de artículos](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Revisar una revisión {#review-a-proof}
-            * [Revisión de una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Revisar una prueba: índice de artículos](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Visualización de contenido en una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Medir un área dentro de una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Cambiar la unidad de medida de la cronología en una prueba de vídeo](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 1%
             * [Cambiar la resolución de prueba interactiva en el visor de pruebas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Configurar ajustes del visor de revisión](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * Comentario en una revisión {#comment-on-a-proof}
-            * [Comentario sobre las pruebas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [Comentario en pruebas: índice de artículos](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Comentario sobre una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Ver y responder comentarios sobre la prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [Buscar, filtrar y ordenar comentarios de prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 1%
             * [Uso de acciones en comentarios de prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Etiquete a los usuarios para compartir una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * Tomar una decisión sobre una revisión {#make-decision-on-proof}
-            * [Tomar una decisión sobre una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [Tomar una decisión sobre una prueba: índice de artículos](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Aprobar una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Tome una decisión sobre una prueba en el visualizador de pruebas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Cambiar una decisión existente en una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Sugerencias, trucos y solución de problemas para la revisión en Adobe Workfront {#ttt-proofing-in-workfront}
-         * [Sugerencias, trucos y solución de problemas para la revisión en Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Sugerencias, trucos y solución de problemas para la revisión en Adobe Workfront: índice de artículos](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Enumerar usuarios con una licencia de revisión en Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Edite el campo Perfil de permiso de prueba en lote](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Deshabilitar el uso compartido de la revisión mediante una URL pública o código para insertar](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 1%
          * [El nombre del documento cambió después de la carga y contiene un carácter no válido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Probar un PowerPoint con un vídeo incrustado](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Sugerencias, trucos y solución de problemas para aprobaciones {#ttt-approvals}
-      * [Sugerencias, trucos y solución de problemas para aprobaciones](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Sugerencias, trucos y solución de problemas para aprobaciones: índice de artículos](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Ver el número de decisiones de prueba y documento para todos los usuarios](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Hojas de horas {#timesheets}
    * [Plantillas de horas: índice de artículos](timesheets/timesheets-all.md)
