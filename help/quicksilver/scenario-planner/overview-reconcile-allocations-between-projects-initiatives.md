@@ -6,18 +6,14 @@ description: Resumen de la conciliación de asignaciones de recursos entre proye
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Resumen de la conciliación de asignaciones de recursos entre proyectos e iniciativas
-
->[!IMPORTANT]
->
->Su organización debe adquirir una licencia adicional para [!DNL Adobe Workfront Scenario Planner] a fin de poder ver la información de la iniciativa en un proyecto. Para obtener información sobre cómo obtener [!DNL Workfront Scenario Planner], consulte [Acceso necesario para usar el Scenario Planner](../scenario-planner/access-needed-to-use-sp.md) .
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>

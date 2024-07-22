@@ -7,31 +7,31 @@ description: Debe agregar resultados, actividades o metas alineadas a una meta p
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # Introducción a resultados y actividades en Adobe Workfront Goals
 
-Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
-
-* Para el nuevo plan y la estructura de licencias:
-
-   * Un plan definitivo
-
-     O
-
-     Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. Para obtener más información, consulte [plan de Adobe Workfront](https://www.workfront.com/plans).
-
-* Para el plan y la estructura de licencias actuales:
-
-   * A Pro o superior
-   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
-
-Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+>[!IMPORTANT]
+>
+>Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>
+>* Para el nuevo plan y la estructura de licencias:
+>
+>   * El plan Ultimate Workfront
+>    
+>* Para el plan y la estructura de licencias actuales:
+>
+>   * Un plan Pro o superior de Workfront
+>   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>
+>Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+> 
+>Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cuando se crea una meta, esta tiene el estado Borrador. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

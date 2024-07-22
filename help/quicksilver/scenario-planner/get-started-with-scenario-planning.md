@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Los siguientes son beneficios de [!DNL Workfront Scenario Planner] para ayudarle
 
 ## Busque [!DNL Workfront Scenario Planner] en Workfront
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **[!UICONTROL Escenarios]**.
+{{step1-to-scenario-planner}}
 
-   <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
+<!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
-   Se muestra [!DNL Workfront Scenario Planner].
+Se muestra [!DNL Workfront Scenario Planner].
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Workfront Scenario Planner] contiene los planes que ha creado. Si necesita ver el plan de otro usuario, debe compartir la dirección URL de ese plan con usted.
+>[!IMPORTANT]
+>
+>[!DNL Workfront Scenario Planner] contiene los planes que ha creado. Si necesita ver el plan de otro usuario, debe compartir la dirección URL de ese plan con usted.
 
 1. (Opcional) Haga clic en el nombre de un plan para abrirlo y ver los detalles.
 

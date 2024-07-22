@@ -7,9 +7,9 @@ description: El administrador de Adobe Workfront debe asegurarse de que se cumpl
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ El administrador de Adobe Workfront debe asegurarse de que se cumplen todas las 
 
 Dependiendo del plan de Workfront en el que se encuentre su compañía, existen las siguientes situaciones:
 
-* Si su empresa tiene un nuevo plan de Workfront, debe tener uno de los siguientes:
-
-   * Un plan Ultimate Workfront. Los objetivos de Workfront están incluidos en este plan.
-   * Un plan Workfront Select o superior y una licencia Workfront Goals independiente.
+* Si su empresa tiene un nuevo plan para Workfront, debe tener un plan Ultimate Workfront. Los objetivos de Workfront solo se incluyen en este plan.
 
 * Si su empresa tiene el plan actual de Workfront, su organización debe adquirir una licencia adicional, además de la licencia de Workfront, para que los usuarios puedan acceder a los objetivos de Workfront.
 

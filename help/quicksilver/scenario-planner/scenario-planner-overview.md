@@ -7,9 +7,9 @@ description: El Scenario Planner requiere una licencia independiente además de 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '565'
 ht-degree: 5%
 
 ---
@@ -18,12 +18,16 @@ ht-degree: 5%
 
 <!-- Audited: 1/2024 -->
 
-[!DNL Scenario Planner] requiere una licencia independiente además de la licencia de [!DNL Adobe Workfront].
-Para obtener información acerca del acceso necesario para usar [!DNL Workfront Scenario Planner], vea [Acceso necesario para usar  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
+El propósito de [!DNL Workfront Scenario Planner] es acelerar la ejecución de sus planes a nivel de organización y ayudarlo a tomar decisiones cruciales que impulsen la entrega de resultados predecibles y deseados para su negocio.
+
+Debe tener el siguiente plan [!DNL Workfront] para acceder a [!DNL Workfront Scenario Planner]:
+
+* Para el nuevo plan Workfront: un plan [!UICONTROL Ultimate].
+* Para el plan [!DNL Workfront] actual: debe tener un plan comercial o superior, además de comprar una licencia de [!DNL Scenario Planner].
+
+Para obtener más información acerca del acceso necesario para usar [!DNL Workfront Scenario Planner], vea [Acceso necesario para usar  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
 ## Resumen de [!DNL Scenario Planner]
-
-El propósito de [!DNL Workfront Scenario Planner] es acelerar la ejecución de sus planes a nivel de organización y ayudarlo a tomar decisiones cruciales que impulsen la entrega de resultados predecibles y deseados para su negocio.
 
 Con [!DNL Workfront Scenario Planner], puede crear planes de nivel empresarial que describan los resultados estratégicos generales de su compañía. Puede definir varias iniciativas para un plan y colocarlas en varios escenarios para encontrar la solución óptima para ejecutarlo.
 

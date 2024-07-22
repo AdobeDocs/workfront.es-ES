@@ -7,31 +7,31 @@ description: Puede acceder a listas de objetivos o metas individuales y administ
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '692'
+ht-degree: 1%
 
 ---
 
 # Información general sobre las secciones Objetivos de Adobe Workfront
 
-Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
-
-* Para el nuevo plan y la estructura de licencias:
-
-   * Un plan definitivo
-
-     O
-
-     Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. Para obtener más información, consulte [plan de Adobe Workfront](https://www.workfront.com/plans).
-
-* Para el plan y la estructura de licencias actuales:
-
-   * A Pro o superior
-   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
-
-Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+>[!IMPORTANT]
+>
+>Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>
+>* Para el nuevo plan y la estructura de licencias:
+>
+>   * El plan Ultimate Workfront
+>    
+>* Para el plan y la estructura de licencias actuales:
+>
+>   * Un plan Pro o superior de Workfront
+>   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>
+>Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+> 
+>Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Una vez que el administrador de Workfront le haya concedido acceso a las metas de Workfront, podrá ver las metas que usted o cualquier otra persona de su organización haya creado en el área de metas de Workfront.
 

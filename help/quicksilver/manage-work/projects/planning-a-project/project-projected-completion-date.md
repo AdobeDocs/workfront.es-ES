@@ -7,9 +7,9 @@ description: La fecha proyectada de finalización es un indicador calculado en t
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ En las secciones siguientes se describe cómo se determina la fecha proyectada d
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td> 
    <p>Nuevo: 
    <ul><li><p>Un colaborador o superior para ver la fecha proyectada de finalización en un informe</p></li> <li><p>Licencia estándar para crear un informe</p></li> </ul>
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a Proyectos</p> <p>Debe tener acceso de edición a informes, paneles y calendarios para crear un informe</p> <p>Debe tener acceso de edición a filtros, vistas y agrupaciones para crear un informe o modificar una vista de lista</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Cómo determina Adobe Workfront la fecha proyectada de finalización
 
@@ -85,7 +87,7 @@ Los criterios utilizados para determinar la fecha proyectada de finalización di
   >Cuando la tarea predecesora de una tarea tiene una Fecha real de finalización, las tareas dependientes reciben una Fecha proyectada de finalización como se describe en el siguiente escenario:
   >
   >
-  >Si el proyecto tiene la Tarea A, la Tarea B y la Tarea C, y la Tarea B es la sucesora de la Tarea A, la Tarea C es la sucesora de la Tarea B y se agrega una Fecha de finalización real a la Tarea A, la Fecha proyectada de finalización se vuelve a calcular automáticamente para la Tarea B (siempre que el **Tipo de actualización** del proyecto esté establecido en Automático y al cambiar), pero no se volverá a calcular para la Tarea C. Actualmente, Workfront calcula la Fecha proyectada de finalización para las tareas que están un nivel por encima o por debajo de la Tarea actualizada, por motivos de rendimiento. 
+  >Si el proyecto tiene la Tarea A, la Tarea B y la Tarea C, y la Tarea B es la sucesora de la Tarea A, la Tarea C es la sucesora de la Tarea B y se agrega una Fecha de finalización real a la Tarea A, la Fecha proyectada de finalización se vuelve a calcular automáticamente para la Tarea B (siempre que el **Tipo de actualización** del proyecto esté establecido en Automático y al cambiar), pero no se volverá a calcular para la Tarea C. Actualmente, Workfront calcula la Fecha proyectada de finalización para las tareas que están un nivel por encima o por debajo de la Tarea actualizada, por motivos de rendimiento.
 
 * **Problemas:** La fecha proyectada de finalización del problema se estableció inicialmente para que coincida con la fecha planificada de finalización del problema.
 
@@ -119,9 +121,9 @@ Para crear un informe de problemas que incluya la fecha proyectada de finalizaci
 1. Seleccione la ficha **Columnas (vista)**.
 1. Haga clic en **Agregar columna** y empiece a escribir **Fecha proyectada de finalización** en el campo **Mostrar en esta columna:**.
 
-1. Selecciónelo cuando aparezca en la lista, bajo el objeto **Issue**. 
+1. Selecciónelo cuando aparezca en la lista, bajo el objeto **Issue**.
 1. Haga clic en **Guardar + Cerrar**.
 
-   La columna **Fecha proyectada de finalización** del informe se ha rellenado. 
+   La columna **Fecha proyectada de finalización** del informe se ha rellenado.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

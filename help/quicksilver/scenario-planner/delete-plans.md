@@ -6,10 +6,10 @@ description: Puede eliminar los planes que ha creado. No puede eliminar planes q
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 1%
 
 ---
 
@@ -19,36 +19,43 @@ Puede eliminar los planes que ha creado. No puede eliminar planes que se hayan c
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Empresa] o superior</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Actual: [!UICONTROL Empresa] o superior</p>
+   <p>Nuevo: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licencia*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] o superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
+   <td> <p>Nuevo: claro o superior</p> 
+   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Producto</b> </td> 
-   <td> <p>Debe adquirir una licencia adicional para la funcionalidad [!DNL Adobe Workfront Scenario Planner] de acceso descrita en este artículo.</p> <p>Para obtener información acerca de cómo obtener [!DNL Workfront Scenario Planner], vea <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para usar [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Producto* </td> 
+   <td> 
+   <p>Para los planes actuales de Workfront: </p>
+   <p>Debe adquirir una licencia adicional para la funcionalidad [!DNL Adobe Workfront Scenario Planner] de acceso descrita en este artículo.</p> <p>Para obtener información acerca del acceso y los permisos para [!DNL Workfront Scenario Planner], vea <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para usar [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configuraciones de nivel de acceso*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] acceso o superior a [!DNL Scenario Planner]</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td>Nivel de acceso </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Permisos de objeto</strong> </p> </td> 
+   <td> <p>Permisos de objeto </p> </td> 
    <td> <p>Permisos de [!UICONTROL Manage] para un plan</p> <p>Para obtener información sobre cómo solicitar acceso adicional a un plan, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acceso a un plan en [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+*Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Eliminar planes
 
@@ -74,9 +81,9 @@ Puede eliminar un plan o un escenario de un plan.
 
 Para suprimir un plan:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) y luego haga clic en [!UICONTROL Escenarios].
+{{step1-to-scenario-planner}}
 
-   Se muestra una lista de planes.
+Se muestra una lista de planes.
 
 1. Haga clic en el nombre de un plan para abrirlo.
 1. Haga clic en el **[!UICONTROL menú Más]** ![](assets/more-menu.png) a la derecha del nombre del plan y, a continuación, haga clic en **[!UICONTROL Eliminar]** > **[!UICONTROL Sí, eliminarlo]**.

@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1374'
 ht-degree: 1%
 
 ---
 
 # Introducción a Adobe Workfront Goals
 
-Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
-
-* Para el nuevo plan y la estructura de licencias:
-
-   * Un plan definitivo
-
-     O
-
-     Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. Para obtener más información, consulte [plan de Adobe Workfront](https://www.workfront.com/plans).
-
-* Para el plan y la estructura de licencias actuales:
-
-   * A Pro o superior
-   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
-
-
-Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
-
-Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>
+>* Para el nuevo plan y la estructura de licencias:
+>
+>   * El plan Ultimate Workfront
+>    
+>* Para el plan y la estructura de licencias actuales:
+>
+>   * Un plan Pro o superior de Workfront
+>   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>
+>Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+> 
+>Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cada organización necesita establecer y comunicar objetivos claros para mantener a sus equipos productivos, centrados y comprometidos. Saber realmente cómo el trabajo está alineado con la estrategia es clave para el éxito. Sin embargo, sin un sistema de registro que conecte su estrategia y objetivos con el trabajo en la organización, lograr la alineación puede ser realmente difícil.
 
