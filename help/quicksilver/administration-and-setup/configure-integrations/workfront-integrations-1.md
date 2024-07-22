@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      <li>Recibir [!DNL Workfront] notificaciones en [!DNL Slack] </li> 
      <li>Administrar aprobaciones en [!DNL Slack] </li> 
      <li>Crear [!DNL Workfront] tareas y problemas a partir de [!DNL Slack] </li> 
-     <li>Comentarios de Post sobre un proyecto o una tarea desde [!DNL Slack]</li> 
+     <li>Publicar comentarios en un proyecto o tarea desde [!DNL Slack]</li> 
     </ul> <p>Para obtener más información, vea <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
@@ -306,9 +306,9 @@ Para obtener más información, consulte [Información general sobre las integra
 
 [!DNL Workfront] tiene muchas integraciones de socios que enriquecen su experiencia con [!DNL Workfront].
 
-Algunos ejemplos de ofertas de socios existentes son las integraciones con [!DNL Salesforce.com], [!DNL Oracle Responsys] y [!DNL Microsoft Visual Studio].
+Workfront tiene muchas integraciones de socios que enriquecen su experiencia con Workfront. Algunos ejemplos de ofertas de socios existentes son las integraciones con Claravine, RWS Group y más.
 
-Para obtener más información sobre estas y otras integraciones de socios, consulte [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Para obtener más información sobre estas y otras integraciones de socios, consulte [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## API [!DNL Workfront]
 
