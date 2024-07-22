@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '516'
 ht-degree: 2%
 
 ---
 
 # Creación de una trayectoria del hito
+
+<!--Audited: 07/2024-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -62,7 +64,7 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
 
 ## Creación de una trayectoria del hito
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Procesos** > **Rutas de hitos**.
 1. Haga clic en **Nueva ruta de hitos.**

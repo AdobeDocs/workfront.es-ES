@@ -7,9 +7,9 @@ description: Retardo es la cantidad de tiempo que debe transcurrir después de l
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -26,36 +26,6 @@ Las fechas planificadas, proyectadas y estimadas de las tareas sucesoras se calc
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +41,7 @@ Las fechas planificadas, proyectadas y estimadas de las tareas sucesoras se calc
        <p>Actual: plan </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td role="rowheader">Nivel de acceso</td> 
    <td> <p>Editar acceso a Tareas y Proyectos</p> </td> 
   </tr> 
   <tr> 
@@ -84,57 +54,6 @@ Las fechas planificadas, proyectadas y estimadas de las tareas sucesoras se calc
 *Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Indicar tipos de retardo y retardo en las tareas
-
-Puede indicar tipos de retardo en las tareas cuando defina sus relaciones de predecesoras.
-
-### Indicar tipos de retardo en la sección Predecesoras de una tarea {#indicate-lag-types-in-the-predecessors-section-of-a-task}
-
-1. Vaya a una tarea para la que desee definir el predecesor y el Tipo de retardo.
-1. Haga clic en **Predecesoras** en el panel izquierdo. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Predecesoras**.
-1. Haga clic en **Agregar predecesora**.
-1. (Opcional) Si desea agregar una tarea predecesora entre proyectos, reemplace el nombre de **Proyecto principal** por otro proyecto.
-1. Comience a escribir el nombre de la tarea predecesora y, a continuación, selecciónela cuando aparezca en la lista.
-1. Seleccione el **tipo de dependencia**.
-
-   Para obtener más información acerca de los tipos de dependencias predecesoras, vea [Información general sobre los tipos de dependencias entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-
-1. Especifique una cantidad de **Lag** con un valor numérico. Puede especificar números negativos para indicar un retardo negativo.
-1. Seleccione entre las siguientes opciones para identificar el tipo de retardo que desea indicar para su predecesor:
-
-   * **Días**
-   * **Días del calendario**
-   * **Porcentaje**
-   * **Día de la semana**
-   * **Día de la semana (distinto de cero)**
-
-     Para obtener más información acerca de estos tipos de retardo y cómo se calculan, vea la sección [Tipos de retardo](#lag-types) en este artículo.
-
-1. Haga clic en **Guardar**.
-
-### Indicar tipos de retardo en una lista de tareas  {#indicate-lag-types-in-a-task-list}
-
-1. Vaya a una lista de tareas y seleccione la vista **Estándar**.
-
-1. Haga clic dentro de la columna **Predecesoras** correspondiente a la tarea para la que desea especificar un predecesor y una cantidad de posposición.
-1. Introduzca lo siguiente sin espacios:
-
-   * el número de la tarea que desea indicar como predecesora de la tarea seleccionada
-   * la abreviatura del tipo de dependencia que desea indicar entre las tareas
-
-     Para obtener más información acerca de las abreviaciones para los tipos de dependencia, vea [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-
-   * un **+** para un retardo positivo o un **-** para un retardo negativo
-
-   * el importe del retardo
-   * la abreviatura del tipo de retardo que desee utilizar
-
-     Para obtener más información acerca de las abreviaturas para los tipos de retardo, vea la sección [Tipos de retardo](#lag-types) en este artículo.
-
-   Por ejemplo, para indicar que una tarea tiene un predecesor y un retardo positivo de 2 días, debe escribir `1fs+2d` en la columna Predecesores.
-
-1. Pulse Enter en el teclado para guardar los cambios en la tarea.
 
 ## Tipos de retardo {#lag-types}
 
@@ -215,3 +134,54 @@ Tenga en cuenta las siguientes reglas cuando utilice retardos negativos:
 
    * Establezca una relación predecesora Fin-Fin entre las tareas.
    * La duración de la tarea sucesora debe ser igual o superior al número deseado de días de posposición entre las tareas.
+
+## Indicar tipos de retardo y retardo en las tareas
+
+Puede indicar tipos de retardo en las tareas cuando defina sus relaciones de predecesoras.
+
+### Indicar tipos de retardo en la sección Predecesoras de una tarea {#indicate-lag-types-in-the-predecessors-section-of-a-task}
+
+1. Vaya a una tarea para la que desee definir el predecesor y el Tipo de retardo.
+1. Haga clic en **Predecesoras** en el panel izquierdo. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Predecesoras**.
+1. Haga clic en **Agregar predecesora**.
+1. (Opcional) Si desea agregar una tarea predecesora entre proyectos, reemplace el nombre de **Proyecto principal** por otro proyecto.
+1. Comience a escribir el nombre de la tarea predecesora y, a continuación, selecciónela cuando aparezca en la lista.
+1. Seleccione el **tipo de dependencia**.
+
+   Para obtener más información acerca de los tipos de dependencias predecesoras, vea [Información general sobre los tipos de dependencias entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+1. Especifique una cantidad de **Lag** con un valor numérico. Puede especificar números negativos para indicar un retardo negativo.
+1. Seleccione entre las siguientes opciones para identificar el tipo de retardo que desea indicar para su predecesor:
+
+   * **Días**
+   * **Días del calendario**
+   * **Porcentaje**
+   * **Día de la semana**
+   * **Día de la semana (distinto de cero)**
+
+     Para obtener más información acerca de estos tipos de retardo y cómo se calculan, vea la sección [Tipos de retardo](#lag-types) en este artículo.
+
+1. Haga clic en **Guardar**.
+
+### Indicar tipos de retardo en una lista de tareas  {#indicate-lag-types-in-a-task-list}
+
+1. Vaya a una lista de tareas y seleccione la vista **Estándar**.
+
+1. Haga clic dentro de la columna **Predecesoras** correspondiente a la tarea para la que desea especificar un predecesor y una cantidad de posposición.
+1. Introduzca lo siguiente sin espacios:
+
+   * el número de la tarea que desea indicar como predecesora de la tarea seleccionada
+   * la abreviatura del tipo de dependencia que desea indicar entre las tareas
+
+     Para obtener más información acerca de las abreviaciones para los tipos de dependencia, vea [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+   * un **+** para un retardo positivo o un **-** para un retardo negativo
+
+   * el importe del retardo
+   * la abreviatura del tipo de retardo que desee utilizar
+
+     Para obtener más información acerca de las abreviaturas para los tipos de retardo, vea la sección [Tipos de retardo](#lag-types) en este artículo.
+
+   Por ejemplo, para indicar que una tarea tiene un predecesor y un retardo positivo de 2 días, debe escribir `1fs+2d` en la columna Predecesores.
+
+1. Pulse Enter en el teclado para guardar los cambios en la tarea.

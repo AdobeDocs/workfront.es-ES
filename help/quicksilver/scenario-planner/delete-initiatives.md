@@ -6,9 +6,9 @@ description: Puede eliminar iniciativas de un plan que haya creado o de un plan 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -96,9 +96,9 @@ Se muestra una lista de planes.
 
 ### Eliminar iniciativas de forma masiva {#delete-initiatives-in-bulk}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) y luego haga clic en [!UICONTROL Escenarios].
+{{step1-to-scenario-planner}}
 
-   Se muestra una lista de planes.
+Se muestra una lista de planes.
 
 1. Haga clic en el nombre de un plan para abrirlo y luego busque la iniciativa que desee eliminar.
 1. Seleccione las casillas a la izquierda de las iniciativas que desea eliminar, luego haga clic en **[!UICONTROL Eliminar]** en el menú que aparece en la parte inferior del plan y luego haga clic en **[!UICONTROL Sí, eliminarlas]**.

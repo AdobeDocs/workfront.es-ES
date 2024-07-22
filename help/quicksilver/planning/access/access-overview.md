@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Existen restricciones de licencia y permisos de uso compartido para utilizar Ado
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -52,14 +54,14 @@ Existen restricciones de licencia y permisos de uso compartido para utilizar Ado
   <tr>
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p>
+   <p>Cualquiera, para ver información de planificación de Workfront</p>
    <p>Para crear espacios de trabajo, debe tener la siguiente licencia:</p>
    <ul>
    <li>
    Nuevo: estándar
    </li>
    <li>
-   Actual: Trabajador o superior
+   Actual: plan
    </li>
    </ul>
   </td>
@@ -118,7 +120,7 @@ No hay controles de acceso para Workfront Planning.
 
 Los usuarios con cualquier tipo de licencia pueden acceder a Workfront Planning.
 
-Para obtener información sobre la concesión de acceso en Workfront, vea [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Conceder permisos
 
