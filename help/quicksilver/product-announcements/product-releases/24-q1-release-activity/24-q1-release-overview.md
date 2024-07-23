@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,8 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puedes [registr
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p><p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
+                        [!BADGE En producción para lanzamiento rápido ]{type=Positive}<p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -360,7 +361,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puedes [registr
                                 <p>Producción para la versión rápida: con la versión 24.3 (marzo de 2024)</p>
                             </li>
                             <li>
-                                <p>Producción para todos los clientes: con la versión 24.4 (abril de 2024)</p>
+                                <p>Producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</p>
                             </li>
                         </ul>
                     </td>

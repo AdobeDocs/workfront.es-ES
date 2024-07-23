@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ El seminario web de la versión 24.7 se canceló, pero [puedes ver una demostrac
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Ya están disponibles las reglas de negocio</a></p>
                         [!BADGE en producción ]{type=Informative}
@@ -74,6 +74,7 @@ El seminario web de la versión 24.7 se canceló, pero [puedes ver una demostrac
                                 <p>Versión de producción para todos los clientes: con la versión 24.7 de (18 de julio de 2024)</p>
                             </li>
                         </ul>
+                        <p><i>Solo disponible para organizaciones con el nuevo plan Ultimate.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ El seminario web de la versión 24.7 se canceló, pero [puedes ver una demostrac
                                 <p>Versión de producción para todos los clientes: con la versión 24.7 de (18 de julio de 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Esta función se ha eliminado temporalmente del entorno de producción para los clientes que no están en la programación de versiones rápidas.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea</a></p>
-                        [!BADGE en producción ]{type=Informative}
+                        [!BADGE En producción para lanzamiento rápido ]{type=Positive}
                         <p>Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en el cuadro Nueva tarea al agregar una tarea a un proyecto y en una lista de tareas de proyecto.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -296,16 +296,15 @@ El seminario web de la versión 24.7 se canceló, pero [puedes ver una demostrac
                                 <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: con la versión 24.7 de (18 de julio de 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Esta característica se ha quitado temporalmente del entorno de producción para los clientes que no se encuentran en la programación de versiones rápidas.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
-                        [!BADGE en producción ]{type=Informative}
+                        [!BADGE En producción para lanzamiento rápido ]{type=Positive}
                         <p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -317,7 +316,7 @@ El seminario web de la versión 24.7 se canceló, pero [puedes ver una demostrac
                                 <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: con la versión 24.7 de (18 de julio de 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</p>
                             </li>
                         </ul>
                     </td>

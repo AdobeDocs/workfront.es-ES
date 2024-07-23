@@ -1,10 +1,9 @@
 ---
-title: Mejoras del proyecto del segundo trimestre de 2024
-description: Mejoras del proyecto del segundo trimestre de 2024
+title: Mejoras del proyecto del cuarto trimestre de 2024
+description: Mejoras del proyecto del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '329'
@@ -12,12 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Mejoras del proyecto del segundo trimestre de 2024
+# Mejoras del proyecto del cuarto trimestre de 2024
 
-Esta página describe todas las mejoras de proyecto realizadas con la versión del segundo trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
+Esta página describe todas las mejoras de proyecto realizadas con la versión del cuarto trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2024, consulte [Información general de la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
-
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2024, consulte [Información general de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea
 

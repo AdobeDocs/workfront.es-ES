@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,25 @@ Para obtener información sobre la actualización de la fecha y la condición de
 
 [Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
+## Se han agregado asignaciones más relevantes al flujo de trabajo Nueva tarea
+
+>[!NOTE]
+>
+>Versión de vista previa: 13 de febrero de 2024; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); versión de producción para todos los clientes: con la versión 24.10 (octubre de 2024).
+
+Hemos agregado la misma funcionalidad para asignaciones inteligentes más relevantes al campo Asignaciones en las siguientes áreas:
+
+* Cuadro de diálogo Nueva tarea al agregar una tarea a un proyecto
+
+* En una lista de tareas de proyecto
+
+Para obtener más información, vea [Información general sobre asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Asignaciones inteligentes más relevantes
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); versión de producción para todos los clientes: con la versión 24.7 (18 de julio de 2024).
+>Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024); versión de producción para todos los clientes: con la versión 24.10 (octubre de 2024).
 
 Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.
 

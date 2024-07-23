@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 4%
 
 ---
@@ -66,11 +66,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Antes de realizar las acciones descritas en este artículo, debe asegurarse de lo siguiente:
 
-* Cualquier campo sobre el que desee crear un informe se rastrea en Workfront. Solo puede informar sobre los datos del área de Actualizaciones de la que se realiza un seguimiento.
+* Cualquier campo (incluidos los campos personalizados) sobre el que desee crear un informe se rastrea en Workfront. Solo puede informar sobre los datos del área de Actualizaciones de la que se realiza un seguimiento.
 
   Para obtener información sobre cómo agregar campos de los que desea que Workfront realice un seguimiento, consulte [Configurar actualizaciones del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Cualquier campo personalizado del que desee informar tiene habilitada la configuración **Mostrar cambios de campo en las fuentes de actualización**.
 
 ## Resumen del informe de entradas de diario
 
