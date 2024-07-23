@@ -6,9 +6,9 @@ description: Puede realizar un seguimiento práctico del progreso de una prueba 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Puede realizar un seguimiento práctico del progreso de una prueba configurada c
 Para obtener información sobre cómo agregar etapas y usuarios a una prueba con un flujo de trabajo automatizado, consulte [Agregar etapas y usuarios a un flujo de trabajo automatizado en una prueba](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,6 +49,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Ver el diagrama de flujo de trabajo automatizado
 

@@ -6,9 +6,9 @@ description: Puede combinar varios archivos en una sola prueba de varias página
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Puede combinar varios archivos en una sola prueba de varias páginas. Los revisores pueden utilizar las herramientas de navegación del visor de pruebas para navegar por las páginas en una prueba de varias páginas.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -45,6 +47,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, licencia o perfil de permiso de revisión tiene, comuníquese con el administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Creación de una prueba de varias páginas
 

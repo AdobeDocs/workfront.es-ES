@@ -6,9 +6,9 @@ description: Puede definir la configuración predeterminada de la revisión pers
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Puede definir la configuración predeterminada de la revisión personal que se aplica a las pruebas que cree. Estos valores predeterminados se aplican cada vez que se genera una prueba por primera vez o se carga una nueva versión de prueba en Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -42,9 +44,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
++++
+
 ## Configurar valores predeterminados de revisión personales
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Revisión**.
+{{step1-to-proofing}}
 
 1. En la esquina superior derecha, haz clic en tu avatar y selecciona **Configuración personal**.
 1. Elija la ficha **Valores predeterminados de revisión** y, a continuación, especifique la siguiente información:

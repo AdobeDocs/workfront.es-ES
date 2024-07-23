@@ -6,9 +6,9 @@ description: Gestionar los comentarios en varias versiones o revisiones de una p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Tenga en cuenta la siguiente información al crear una nueva versión de una pru
 >Si se crea una prueba en Adobe Workfront, también se deben crear en Workfront las nuevas versiones creadas para esa prueba. No puede crear una nueva versión de una prueba en Workfront Proof si dicha prueba se creó en Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -58,6 +60,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Creación de una nueva versión de una prueba en Workfront
 
@@ -228,7 +232,7 @@ Si había un asunto/mensaje personalizado incluido en la versión anterior de la
 
   >[!NOTE]
   >
-  > Esto no se ve afectado por ningún asunto o mensaje personalizado predeterminado guardado en su configuración personal.
+  >Esto no se ve afectado por ningún asunto o mensaje personalizado predeterminado guardado en su configuración personal.
 
 Si tiene un asunto y un mensaje predeterminados guardados en su configuración personal, esto afectará en qué mensaje se muestra de forma predeterminada en la página Nueva versión:
 

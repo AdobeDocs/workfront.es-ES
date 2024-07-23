@@ -6,9 +6,9 @@ description: Puede generar una nueva prueba interactiva o una nueva versión de 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ En una prueba interactiva, los revisores pueden navegar e interactuar como lo ha
 >Asegúrese de que el sitio web o el contenido interactivo sean accesibles para las personas que vayan a revisarlos. Pueden acceder a él en el proceso de revisión solo si también pueden acceder a él en Internet.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -51,6 +53,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Creación de una prueba interactiva para un sitio web u otro contenido web
 

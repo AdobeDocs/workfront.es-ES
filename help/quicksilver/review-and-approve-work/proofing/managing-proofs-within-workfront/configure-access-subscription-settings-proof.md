@@ -6,9 +6,9 @@ description: Puede configurar ciertos ajustes de acceso y suscripción para prue
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Puede configurar ciertos ajustes de acceso y suscripción para pruebas individuales, como exigir a los usuarios que inicien sesión y permitir que se suscriban a la prueba. Puede configurar los ajustes de acceso y suscripción de una prueba mientras la está creando, o bien puede configurarlos para una prueba que ya existe en Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -45,6 +47,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Configuración de acceso y suscripción al crear una prueba
 
