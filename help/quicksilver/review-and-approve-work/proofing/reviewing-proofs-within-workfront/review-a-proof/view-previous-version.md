@@ -6,9 +6,9 @@ description: Si existe, puede ver una versión anterior de una revisión. Las ve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Si existe, puede ver una versión anterior de una revisión. Las versiones anter
 >La información descrita en este artículo solo está disponible con el Visor de pruebas web y solo cuando se revisan pruebas estáticas o de vídeo.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -49,6 +51,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Visualización de versiones de revisión anteriores en el visor de revisión
 

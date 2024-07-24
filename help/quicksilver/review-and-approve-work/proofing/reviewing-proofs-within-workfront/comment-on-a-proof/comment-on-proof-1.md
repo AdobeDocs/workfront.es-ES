@@ -6,9 +6,9 @@ description: Los comentarios le permiten proporcionar comentarios sobre el conte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Al etiquetar a los usuarios en comentarios de una prueba, es posible que los usu
 * Si se le añadió a la prueba como usuario externo y es miembro de otro entorno con una cuenta de prueba diferente, solo puede etiquetar a esos usuarios del entorno original. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -55,6 +57,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
++++
+
 ## Comentario sobre una prueba
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
@@ -78,17 +82,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw tiene una línea a mano alzada</strong> </td> 
+      <td role="rowheader"><strong>Dibujar una línea a mano alzada</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Permite agregar una línea a mano alzada en el área seleccionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw una línea</strong> </td> 
+      <td role="rowheader"><strong>Dibujar una línea</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Permite dibujar una línea en el área seleccionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw y flecha</strong> </td> 
+      <td role="rowheader"><strong>Dibujar una flecha</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>Permite agregar una flecha a un área seleccionada.</td> 
      </tr> 
@@ -98,7 +102,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <td>Resalta el área seleccionada.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw es un rectángulo</strong> </td> 
+      <td role="rowheader"><strong>Dibujar un rectángulo</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Permite dibujar un rectángulo alrededor de un área.</td> 
      </tr> 
@@ -128,4 +132,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Haga clic en el icono de clip de papel en la esquina inferior derecha del comentario y, a continuación, busque y seleccione el archivo que desea cargar.
    * Arrastre un archivo desde una ubicación del equipo y suéltelo en el área de comentarios.
 
-1. Haga clic en **Post**.
+1. Haga clic en **Publicar**.

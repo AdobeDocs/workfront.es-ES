@@ -6,9 +6,9 @@ description: Cuando comenta una prueba en el visor de pruebas, puede etiquetar a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Al etiquetar a los usuarios en comentarios de una prueba, es posible que los usu
 * Si se le añadió a la prueba como usuario externo y es miembro de otro entorno con una cuenta de prueba diferente, solo puede etiquetar a esos usuarios del entorno original. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisitos de acceso {#access-requirements}
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -55,6 +57,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
++++
+
 ## Etiquete a los usuarios para compartir una prueba
 
 Los usuarios con el perfil de permiso de revisión o la función de revisión descrita en la sección [Requisitos de acceso](#access-requirements) anterior pueden etiquetar a los usuarios para que compartan una revisión de forma predeterminada. También puede etiquetar usuarios para compartir una prueba independientemente del perfil de permiso de prueba o la función de prueba si es el propietario o creador de la prueba. Puede habilitar a los usuarios con un perfil de permiso de prueba menor o funciones de prueba para que etiqueten a los usuarios para que compartan una prueba al crearla. Para obtener más información, consulte la sección [Configurar el flujo de trabajo y agregar revisores](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) en el artículo [Crear una prueba avanzada con un flujo de trabajo básico](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
@@ -76,7 +80,7 @@ Para etiquetar a alguien y compartir una prueba en un comentario:
    >Si desea cerrar la lista desplegable sin seleccionar a nadie, puede presionar la tecla **Esc** o hacer clic en cualquier lugar fuera de la lista.
 
 1. Repita los pasos del 1 al 2 con los demás usuarios que desee etiquetar en el comentario.
-1. Finalice el comentario y haga clic en **Post**.
+1. Finalice el comentario y, a continuación, haga clic en **Publicar**.
 1. (Condicional) Si ha etiquetado a alguien que aún no se haya agregado a la prueba, especifique un valor de **Función de prueba** y **Alertas por correo electrónico** para cada usuario enumerado en el cuadro que aparece y, a continuación, haga clic en **Agregar personas y publicar comentario**.
 
    ![](assets/add-people-to-proof-350x220.png)

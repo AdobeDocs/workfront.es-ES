@@ -6,9 +6,9 @@ description: Los comentarios no se pueden editar después de agregar una respues
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Los comentarios no se pueden editar después de agregar una respuesta al comentario. Esta restricción mantiene la integridad del subproceso de comentarios. Cuando edita un comentario, el momento en que se realizó no se ve afectado.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -50,6 +52,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
++++
+
 ## Editar comentarios de revisión
 
 Puede editar cualquier comentario que haga en una prueba. Además, los siguientes usuarios pueden editar los comentarios realizados por otros usuarios:
@@ -69,7 +73,7 @@ Para editar los comentarios de prueba:
 
 1. ![Editar_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
 
-1. Realice cambios en el comentario y, a continuación, haga clic en **Post**.
+1. Realice cualquier cambio en el comentario y, a continuación, haga clic en **Publicar**.
 
    >[!NOTE]
    >

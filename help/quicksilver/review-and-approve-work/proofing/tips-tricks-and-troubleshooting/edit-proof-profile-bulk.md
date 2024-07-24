@@ -7,9 +7,9 @@ description: Obtenga información sobre cómo editar el perfil de permisos de pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 3%
 # Edite el campo Perfil de permiso de prueba en lote
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -45,9 +47,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
++++
+
 ## Edite el campo Perfil de permiso de prueba en lote
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Ordene los usuarios por **Nivel de acceso**. Se recomienda la edición por lotes por nivel de acceso para garantizar que aparece el campo **Perfil de permiso de revisión**.
 

@@ -6,9 +6,9 @@ description: Siempre que la prueba esté activa (no bloqueada ni archivada), pue
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 07825eeb-9dbd-4ad8-9dca-d3b5345012f8
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '236'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Siempre que la prueba esté activa (no bloqueada ni archivada), puede cambiar su decisión en cualquier momento. 
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -49,6 +51,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Cambiar una decisión existente en una prueba
 
