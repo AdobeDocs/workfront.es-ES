@@ -7,7 +7,7 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
   ![](assets/smart-assignments-issue-list.png)
 
-* Lista de tareas o informe en la columna Asignaciones
+* <span class="preview">Una lista de tareas o un informe en la columna Asignaciones</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* Un encabezado de tarea en el campo Asignaciones
+* <span class="preview">Un encabezado de tarea en el campo Asignaciones</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Un encabezado de problema en el campo Asignaciones
 
@@ -67,9 +67,9 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* El campo Asignaciones del cuadro Nueva tarea, al agregar una tarea a un proyecto
+* <span class="preview">Campo Asignaciones en el cuadro Nueva tarea, al agregar una tarea a un proyecto</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* Distribuidor de cargas de trabajo en el área Asignado este a al asignar una tarea o un problema
+* <span class="preview">Distribuidor de cargas de trabajo en el área Asignado este a al asignar una tarea o un problema</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criterios de asignaciones inteligentes
