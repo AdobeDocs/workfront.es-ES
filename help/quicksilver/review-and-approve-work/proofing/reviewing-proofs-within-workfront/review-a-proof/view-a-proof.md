@@ -6,16 +6,25 @@ description: Obtenga información sobre cómo ver contenido en una prueba.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # Visualización de contenido en una prueba
 
+Puede utilizar el visor de revisión para ver y marcar archivos en Workfront.
+
+>[!NOTE]
+>
+>Si la instancia de Workfront está en la experiencia unificada, el visualizador de pruebas se abrirá en una nueva pestaña.
+
+
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -43,6 +52,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+
++++
 
 ## Cambiar la vista de la prueba
 
