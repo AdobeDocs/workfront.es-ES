@@ -6,14 +6,16 @@ description: Puede organizar los proyectos agregándolos a programas dentro de p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # Agregar un proyecto a un programa
+
+<!--Audited: 7/2024-->
 
 Puede organizar los proyectos agregándolos a programas dentro de portafolios. Puede tener varios proyectos dentro de un programa, pero sólo puede asociar un programa a un proyecto.
 
@@ -25,32 +27,35 @@ Para obtener información acerca de cómo crear programas, vea [Crear un program
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Team] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nuevo: estándar</p> 
+   <p>Actual: [!UICONTROL plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL View] a programas o superior</p> <p>Acceso de [!UICONTROL Edit] a proyectos</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a programas o superior</p> <p>Acceso de [!UICONTROL Edit] a proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de [!UICONTROL View] para el programa</p> <p>Permisos de [!UICONTROL Manage] para los proyectos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de [!UICONTROL Manage] para el programa</p> <p>Permisos de [!UICONTROL Manage] para los proyectos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar un proyecto a un programa existente
 
@@ -96,4 +101,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Condicional) Si seleccionó **[!UICONTROL Proyecto existente]**, haga lo siguiente:
 
    1. En el cuadro de diálogo **[!UICONTROL Agregar proyectos]**, escriba el nombre del proyecto en el campo proporcionado y, a continuación, selecciónelo cuando aparezca en la lista. Puede agregar varios proyectos a la vez.
-   1. Haga clic en **[!UICONTROL Agregar proyectos]**.**&#x200B;** El proyecto aparece en la ficha **[!UICONTROL Proyectos]** del programa y ahora está asociado con el programa y el portafolio. 
+   1. Haga clic en **[!UICONTROL Agregar proyectos]**.**&#x200B;** El proyecto aparece en la ficha **[!UICONTROL Proyectos]** del programa y ahora está asociado con el programa y el portafolio.

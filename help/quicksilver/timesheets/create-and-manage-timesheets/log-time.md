@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
+source-wordcount: '3775'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ Para obtener más información, consulte [Usar tarjetas conectadas en tableros](
 
 Puede registrar tiempo desde la aplicación móvil de Workfront.
 Para obtener más información, consulte [Adobe Workfront para Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront para iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Editar horas registradas en listas e informes
+
+Puede editar las horas registradas en las siguientes áreas:
+
+* Todas las áreas donde agregó las horas, incluidas las hojas de horas abiertas
+* Listas de horas e informes.
+
+Puede editar los siguientes elementos de una entrada de hora cuando edita una entrada de hora en una lista o informe:
+
+* Número de horas
+* Tipo de hora
+* Rol asociado con la entrada de horas
+
+Según el tipo de entradas de hora que edite, los siguientes campos están disponibles para su edición:
+
+* Cuando edita las horas específicas del proyecto:
+
+   * Puede editar el número de horas.
+   * Solo puede cambiar el tipo de hora a tipos específicos del proyecto.
+   * Puede cambiar la asignación de rol de hora sólo si estaba habilitada en Configuración. Para obtener más información, consulte [Configurar la hoja de horas y las preferencias de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* Cuando edita las horas generales:
+
+   * Puede editar el número de horas.
+   * Solo puede cambiar el tipo de hora a tipos generales.
+   * No puede cambiar la asignación de funciones de horas porque las horas generales no se pueden asociar a las funciones.
+
+* Cuando edita una combinación de horas generales y específicas del proyecto, de forma masiva:
+
+   * Puede editar el número de horas.
+   * No puede cambiar el tipo de hora, ya que los tipos de horas generales no se pueden cambiar a tipos específicos de proyecto y los tipos de horas específicos de proyecto no se pueden cambiar a tipos generales.
+   * No puede cambiar la asignación de rol, ya que las horas generales no se pueden asociar a los roles.

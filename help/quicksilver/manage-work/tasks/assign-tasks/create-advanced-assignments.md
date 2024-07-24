@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Crear asignaciones avanzadas
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
+
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Puede administrar asignaciones de tareas o problemas mediante Asignaciones avanzadas.
 
@@ -92,7 +100,7 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
 
 1. Haga clic en **Avanzado**.
 
-   ![Haga clic en Avanzadas](assets/assignments-box-in-task-header.png)
+   <span class="preview">![Haga clic en Avanzadas](assets/assignments-box-in-task-header.png)</span>
 
 1. En el campo **Buscar personas, roles y equipos**, empiece a escribir el nombre de un usuario, rol o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
@@ -138,15 +146,10 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * Después de modificar manualmente las asignaciones de las tareas, las horas planificadas de las tareas podrían actualizarse en consecuencia. Para obtener más información, vea la sección &quot;Actualizar las horas planificadas de la tarea al administrar las asignaciones de usuario&quot; en el artículo [Información general sobre las horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * No se pueden modificar manualmente las asignaciones de los problemas.
      >   * No se pueden modificar manualmente las asignaciones de los equipos asignados a tareas.
-     >   
-     >
 
    * **Rol de asignado:** Seleccione el rol que el usuario debe usar al cumplir esta asignación.  La Función principal del usuario se muestra de forma predeterminada. Haga clic en el cuadro Función de asignado para seleccionar otra función.  Al asignar primero la tarea o el problema a un rol y, a continuación, agregar un usuario que pueda cumplir ese rol como segunda asignación, la lista de usuarios sugeridos se filtra para los usuarios que pueden cumplir los roles ya asignados a la tarea y al problema.
 

@@ -6,9 +6,9 @@ description: Puede utilizar las plantillas como un marco de trabajo para crear p
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -45,37 +45,6 @@ Tiene las siguientes opciones para crear un proyecto a partir de una plantilla:
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and to Templates</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a template</p> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -87,23 +56,29 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Workfront</td> 
+   <td role="rowheader">Licencia de Workfront*</td> 
    <td> <p>Nuevo: estándar</p>
         <p>o</p>
         <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Proyectos y Plantillas</p> </td> 
+   <td role="rowheader">Nivel de acceso</td> 
+   <td> <p>Editar el acceso a Proyectos y Plantillas</p>
+
+<p>editar el acceso a Portfolio y Programas, si la plantilla utilizada contiene un Portfolio y un Programa</p>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos de una plantilla</p> <p>Al crear un proyecto, recibirá automáticamente permisos de administración en el proyecto.</p></td> 
+   <td> <p>Ver permisos de una plantilla</p> 
+  <p>Si la plantilla que utiliza contiene un Portfolio y un programa, debe tener permisos de administración en el portafolio y el programa para crear el proyecto </p> 
+   <p>Al crear un proyecto, recibirá automáticamente permisos de administración en el proyecto.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 <span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Puede asignar tareas a usuarios, roles o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
@@ -55,6 +55,8 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
 * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisitos de acceso
+
+<!-- Audited: 07/2024-->
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">Al agregar una asignación de rol, puede buscar el rol o la ubicación. Seleccione una función de la lista Funciones del puesto para utilizar la tarifa de facturación predeterminada para la asignación, o seleccione una función de puesto de la tarjeta Tarifa para utilizar la tarifa de facturación de la tarjeta Tarifa. Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condicional) Haga clic en uno de los nombres de las listas **Asignaciones sugeridas**, **Usuarios y equipos**, o **Funciones del puesto** o <span class="preview">**Funciones de la tarjeta de tarifas**</span> cuando se muestren. Para obtener más información, vea [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condicional) Haga clic en uno de los nombres de las listas <span class="preview">**Asignaciones sugeridas**</span>, **Usuarios y equipos**, o **Funciones del puesto** o <span class="preview">**Funciones de la tarjeta de tarifas**</span> cuando se muestren. Para obtener más información, vea [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Puede empezar a escribir el nombre de cualquier usuario, equipo o función del trabajo que desee asignar a la tarea y, a continuación, seleccionarla cuando se muestre en la lista.
 

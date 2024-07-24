@@ -6,7 +6,7 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 <span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo.
 
 Las asignaciones inteligentes son sugerencias para usuarios, funciones o equipos que Adobe Workfront presenta al asignar elementos de trabajo a recursos. Workfront basa sus sugerencias en un algoritmo que determina el recurso más apropiado para el trabajo.
 
-Hay dos algoritmos independientes en Workfront que calculan las asignaciones inteligentes que funcionan de forma diferente para las tareas y para los problemas.
+<span class="preview">Workfront cuenta con dos algoritmos independientes que calculan asignaciones inteligentes que funcionan de forma diferente en las tareas y en los problemas.</span>
 
-Para obtener más información acerca de los criterios utilizados para determinar las asignaciones inteligentes, vea [Información general sobre las asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Para obtener más información acerca de los criterios utilizados para determinar las asignaciones inteligentes, vea [Información general sobre las asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisitos de acceso
 
@@ -75,7 +75,7 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    * Una lista de tareas o problemas o un informe
    * Un encabezado de tarea o problema
    * El panel Resumen de tareas o problemas
-   * Cuadro Nueva tarea o Nuevo problema a medida que agrega una nueva tarea o problema a un proyecto
+   * <span class="preview">Nueva tarea</span> o nuevo cuadro de problema al agregar <span class="preview">una nueva tarea</span> o problema a un proyecto
    * El campo Asignaciones de un elemento enumerado en el área de Inicio
    * Una tarea o un problema en el Distribuidor de cargas de trabajo
 
@@ -90,14 +90,14 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
 
    En el caso de las tareas, las asignaciones inteligentes se muestran en las secciones siguientes, según la fase del cálculo del algoritmo en la que se hayan identificado las asignaciones:
 
-   * **Asignaciones sugeridas**: Muestra las asignaciones identificadas en la primera fase del algoritmo de asignación inteligente de tareas.
+   * <span class="preview">**Asignaciones sugeridas**: Muestra las asignaciones identificadas en la primera fase del algoritmo de asignación inteligente de tareas.</span>
    * **Usuarios y equipos**, **Funciones del puesto** o <span class="preview">**Funciones del puesto de la tarjeta de tarifas**</span>: Asignaciones identificadas en la segunda fase del cálculo del algoritmo de la asignación inteligente de tareas.
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Para obtener más información, vea [Información general sobre asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-1. Seleccione el usuario en la lista de recomendaciones haciendo clic en su nombre.
+1. Seleccione el recurso en la lista de recomendaciones haciendo clic en su nombre.
 
 1. (Opcional) Haga clic en **Asignármelo** para asignarse a sí mismo el elemento de trabajo.
 

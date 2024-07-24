@@ -7,14 +7,16 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Información general sobre asignaciones inteligentes
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Al administrar asignaciones de tareas y problemas, puede utilizar asignaciones inteligentes para identificar quién es el mejor recurso para completar el trabajo. Las asignaciones inteligentes son sugerencias que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Las asignaciones inteligentes pueden ser usuarios, puestos o equipos.
 
@@ -36,10 +38,10 @@ Este artículo contiene información general sobre las asignaciones inteligentes
 
 Tenga en cuenta lo siguiente al trabajar con asignaciones inteligentes:
 
-* El algoritmo funciona de forma independiente para tareas y problemas. Esto significa que la lista de usuarios sugeridos para problemas puede diferir de la lista de usuarios sugeridos para una tarea, ya que Workfront crea las listas de acuerdo con los criterios pertenecientes a problemas y tareas por separado.
-* Las asignaciones inteligentes no recomiendan roles de trabajo ni equipos. En su lugar, son sugerencias de usuarios que se adaptan mejor a una tarea o a un problema.
-* Las asignaciones sugeridas siempre son usuarios activos.
-* El usuario que aparezca primero debe ser el que mejor coincida con la tarea.
+* <span class="preview">El algoritmo funciona de forma independiente para tareas y problemas. Esto significa que la lista de usuarios sugeridos para problemas puede diferir de la lista de usuarios sugeridos para una tarea, ya que Workfront crea las listas de acuerdo con los criterios pertenecientes a problemas y tareas por separado. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* Las asignaciones sugeridas siempre son usuarios activos, roles o equipos.
+* El recurso que aparece primero debe ser el que mejor coincida con la tarea.
 
 ## Buscar sugerencias de asignación inteligente
 
@@ -51,11 +53,11 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 * Lista de tareas o informe en la columna Asignaciones
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * Un encabezado de tarea en el campo Asignaciones
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * Un encabezado de problema en el campo Asignaciones
 
@@ -67,7 +69,7 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 * El campo Asignaciones del cuadro Nueva tarea, al agregar una tarea a un proyecto
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 * Distribuidor de cargas de trabajo en el área Asignado este a al asignar una tarea o un problema
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Criterios de asignaciones inteligentes
@@ -86,11 +88,13 @@ Las asignaciones inteligentes funcionan de forma diferente para las tareas que p
 
 ### Criterios de asignaciones inteligentes para tareas
 
-El cálculo de asignaciones inteligentes de tareas funciona en dos fases que utilizan dos algoritmos diferentes.
+El cálculo de asignaciones inteligentes de tareas funciona en <span class="preview">dos fases que utilizan dos algoritmos diferentes.</span>
 
-Según el algoritmo que encuentre la asignación inteligente, las asignaciones se enumerarán en dos secciones independientes del campo Asignaciones. Para obtener más información, consulte [Realizar asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">Según el algoritmo que encuentre la asignación inteligente, las asignaciones se enumerarán en dos secciones independientes del campo Asignaciones.</span> Para obtener más información, consulte [Realizar asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### Primera fase del cálculo de asignación inteligente para tareas
 
@@ -127,6 +131,8 @@ El cálculo de la puntuación de similitud y el orden en que se enumeran las asi
 * Las asignaciones identificadas en esta fase se enumeran en la    **Asignaciones sugeridas** sección del campo Asignaciones para tareas.
 
 * Si no hay coincidencias con este cálculo, se inicia la segunda fase de las asignaciones inteligentes, que se calcula con un algoritmo diferente.
+
+</div>
 
 #### Segunda fase del cálculo de asignaciones inteligentes para tareas
 

@@ -6,9 +6,9 @@ description: Le recomendamos que agregue proyectos a portafolios cuando los inic
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,9 @@ Tenga en cuenta lo siguiente al agregar proyectos a portafolios:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Nuevo: Cualquiera</p>
+   <p>Actual:[!UICONTROL Empresa] o superior</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
@@ -42,12 +43,12 @@ Tenga en cuenta lo siguiente al agregar proyectos a portafolios:
    <p>Actual:[!UICONTROL plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL View] a Portfolio o superior</p> <p>Acceso de [!UICONTROL Edit] a proyectos</p> </td> 
+   <td role="rowheader">Nivel de acceso</td> 
+   <td> <p>Portfolio de acceso de [!UICONTROL Edit]</p> <p>Acceso de [!UICONTROL Edit] a proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de [!UICONTROL View] para el portafolio</p> <p>Permisos de [!UICONTROL Manage] para los proyectos</p>  </td> 
+   <td> <p>Permisos de [!UICONTROL Manage] para el portafolio</p> <p>Permisos de [!UICONTROL Manage] para los proyectos</p>  </td> 
   </tr> 
  </tbody> 
 </table>
