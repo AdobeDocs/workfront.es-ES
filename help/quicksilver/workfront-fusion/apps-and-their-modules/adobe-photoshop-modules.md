@@ -9,7 +9,7 @@ description: Con los módulos de Adobe Photoshop, puede iniciar un escenario de 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 1de5018a13f1fbe4383ce9655bc3fe29612b1411
+source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
 workflow-type: tm+mt
 source-wordcount: '3966'
 ht-degree: 0%
@@ -25,9 +25,9 @@ Si necesita instrucciones para crear un escenario, consulte [Crear un escenario]
 
 Para obtener información acerca de los módulos, vea [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-+++**Amplíe para ver los requisitos de acceso para la funcionalidad de este artículo.**
-
 ## Requisitos de acceso
+
++++**Amplíe para ver los requisitos de acceso para la funcionalidad de este artículo.**
 
 Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
