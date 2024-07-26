@@ -6,9 +6,9 @@ description: Puede eliminar tareas que puedan ser duplicadas o que se hayan crea
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Según la forma en que el administrador de Workfront configure las preferencias 
    1. (Condicional) Cuando la opción **Guardar automáticamente** esté habilitada:
 
       1. Seleccione las tareas que desee eliminar y haga clic en **Más**
-      1. Haga clic en **Eliminar** y luego en **Sí, eliminarlo** para confirmar la eliminación.
+      1. Haga clic en **Eliminar** y luego en **Eliminar** para confirmar la eliminación.
 
          Las tareas se eliminan.
 
@@ -149,7 +149,7 @@ Según la forma en que el administrador de Workfront configure las preferencias 
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Haga clic en **Eliminar tarea**.
-1. Si la eliminación está permitida, haga clic en **Sí, eliminarla**.
+1. Si la eliminación está permitida, haga clic en **Eliminar**.
 
    Es posible que el administrador de Workfront o el administrador del grupo no permitan la eliminación de tareas en las que se registran horas.
 
