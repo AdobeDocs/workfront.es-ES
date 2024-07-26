@@ -6,9 +6,9 @@ description: Puede agregar aprobadores o revisores adicionales a un documento qu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Las nuevas aprobaciones de documentos son un rediseño integral del proceso de a
 
 ## Diferencias clave con las aprobaciones de pruebas y documentos heredados
 
-**Revisión**
+**Diferencias con la revisión**
 
 * Los botones de decisión de aprobación de documentos no están disponibles en el visor de pruebas. Las decisiones se pueden tomar en el resumen del documento, en los widgets de inicio de Workfront o en la página Detalles del documento.
 * Los participantes en la aprobación del documento se muestran en el resumen del documento, no en la pestaña del flujo de trabajo de revisión.
@@ -34,13 +34,17 @@ Las nuevas aprobaciones de documentos son un rediseño integral del proceso de a
    * Aprobaciones pendientes
    * Aprobaciones vencidas
 
-**Aprobaciones de documentos heredados**
+**Diferencias con las aprobaciones de documentos heredadas**
 
-* Puede agregar revisores además de aprobadores.
-* Puede designar todo un equipo de Workfront como revisores o aprobadores.
-* Puede establecer una fecha límite para la revisión o aprobación.
-* Puede crear y reutilizar plantillas de aprobación.
-* Puede ver varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront.
+Con las nuevas aprobaciones de documentos, puede
+
+* Agregar revisores además de aprobadores
+* Designar todo un equipo de Workfront como revisores o aprobadores
+* Establecer una fecha límite para la revisión o aprobación
+* Creación y reutilización de plantillas de aprobación
+* Utilizar las nuevas versiones para
+* Vea varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront
+* Utilice los paneles de lienzo para ver los detalles de los informes sobre las nuevas aprobaciones de documentos
 
 ## Uso de nuevas aprobaciones de documentos
 
