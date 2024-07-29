@@ -6,9 +6,9 @@ description: Puede recibir notificaciones en Adobe Creative Cloud de  [!DNL Adob
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ Las notificaciones están disponibles en las siguientes aplicaciones de Adobe Cr
 
 ## Requisitos de acceso
 
-&lt;Debe tener el acceso siguiente para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,6 +51,8 @@ Las notificaciones están disponibles en las siguientes aplicaciones de Adobe Cr
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+
++++
 
 ## Requisitos previos
 
