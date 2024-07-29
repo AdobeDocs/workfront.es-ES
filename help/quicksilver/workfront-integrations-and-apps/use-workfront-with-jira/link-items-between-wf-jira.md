@@ -6,9 +6,9 @@ description: Puede vincular  [!DNL Jira] problemas a [!DNL Adobe Workfront] tare
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -136,18 +136,24 @@ Para obtener más información sobre cómo actualizar los elementos vinculados, 
 Para vincular manualmente [!DNL Jira] problemas a [!DNL Workfront] elementos:
 
 1. (Condicional) Inicie sesión en [!DNL Workfront] y busque un problema o una tarea que desee vincular a [!DNL Jira] problema.
-1. (Condicional) En la barra de direcciones del elemento, copie la **URL** del elemento en Workfront.
+1. (Condicional) En el área [!UICONTROL Detalles], copie el **[!UICONTROL Número de referencia]** del elemento en Workfront.
 
    O
 
-   Desde el área [!UICONTROL Detalles], copie el **[!UICONTROL Número de referencia]** del elemento en Workfront.
+   En la barra de direcciones del elemento, copie la **URL** del elemento en Workfront.
+
+   >[!IMPORTANT]
+   >
+   >Si su organización se ha incorporado a la experiencia unificada de Adobe, debe usar el **Número de referencia** para vincular elementos de Workfront a Jira. (La opción URL está disponible, pero devolverá un error si la utiliza). Para obtener información sobre la experiencia unificada, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >
+   >Para organizaciones que no están en la experiencia unificada de Adobe, no se recomienda utilizar la opción URL porque las direcciones URL pueden cambiar.
 
    >[!NOTE]
    >
    >Debe tener una licencia de [!DNL Workfront] para iniciar sesión en [!DNL Workfront]. De lo contrario, un usuario de [!DNL Workfront] debe proporcionarle esta información.
 
 1. En [!DNL Jira], vaya a un problema que desee vincular manualmente al elemento [!DNL Workfront].
-1. En el panel derecho de [!DNL Workfront], pegue la **URL** o el **[!UICONTROL Número de referencia]** del elemento [!DNL Workfront] al que desea vincular.
+1. En el panel derecho de [!DNL Workfront], pegue el **[!UICONTROL número de referencia]** o la **URL** del elemento [!DNL Workfront] al que desea vincular.
 
 1. Haga clic en **[!UICONTROL Vínculo]**.
 
