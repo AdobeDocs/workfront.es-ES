@@ -7,20 +7,20 @@ description: Puede añadir usuarios a organizaciones en Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
+source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
-# Añadir un usuario a una organización en Adobe Workfront Fusion
+# Añadir un usuario a una organización o equipo en Adobe Workfront Fusion
 
 >[!IMPORTANT]
 >
 >El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al [!DNL Adobe Admin Console]. Si su organización se ha incorporado a [!DNL Adobe Admin Console], debe realizar esta acción mediante [!DNL Adobe Admin Console].
 >
->Para obtener instrucciones sobre cómo agregar un usuario en [!DNL  Adobe Admin Console], consulte la sección &quot;Editar detalles del usuario&quot; en el artículo [Administrar usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) o póngase en contacto con el administrador de [!UICONTROL Adobe Admin Console].
+>Para obtener instrucciones sobre cómo agregar un usuario después de que su organización se haya movido a [!DNL  Adobe Admin Console] y a la experiencia unificada de Adobe, consulte [Agregar usuarios a [!DNL Adobe Workfront Fusion] mediante [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md).
 >
 >Para obtener una lista de procedimientos que difieren en función de si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
@@ -100,13 +100,65 @@ Para añadir un usuario a la organización:
 
 1. Vaya a **[!UICONTROL Organizaciones]** en el menú y seleccione la organización a la que desee agregar un usuario.
 1. Abra la ficha **[!UICONTROL Usuarios]** en su panel.
-1. Haga clic en **[!UICONTROL Invitar a un nuevo usuario]**, rellene el formulario (correo electrónico, mensaje, función) y envíe la invitación haciendo clic en **[!UICONTROL Enviar]**.
+1. Haz clic en **[!UICONTROL Invitar a un nuevo usuario]**. Y envía la invitación haciendo clic en **[!UICONTROL Enviar]**.
 
->[!NOTE]
->
->   
->Si no ve el botón [!UICONTROL Invitar a un nuevo usuario], su organización se ha incorporado al [!DNL Adobe Business Platform.]
->
->  Para obtener instrucciones sobre cómo agregar un usuario a una organización que se ha incorporado a [!DNL Adobe Business Platform], consulte [Agregar usuarios a [!DNL Adobe Workfront Fusion] a través de [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+   >[!NOTE]
+   >
+   >   
+   >Si no ve el botón [!UICONTROL Invitar a un nuevo usuario], su organización se ha incorporado al [!DNL Adobe Business Platform.]
+   >
+   >  Para obtener instrucciones sobre cómo agregar un usuario a una organización que se ha incorporado a [!DNL Adobe Business Platform], consulte [Agregar usuarios a [!DNL Adobe Workfront Fusion] a través de [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+
+1. Rellene el formulario.
+
+   <table style="table-layout:auto">
+<col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Dirección de correo electrónico]</td>
+      <td>
+        Introduzca la dirección de correo electrónico del usuario
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Nombre]</td>
+      <td>
+        <p>Introduzca el nombre completo del usuario</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Función] </td>
+      <td>Seleccione la función del usuario. Para obtener una explicación de las funciones, vea <a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md">Funciones de organización y equipo.</a></p>
+   </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Equipos</td>
+      <td>Seleccione todos los equipos de los que desee que sea miembro el usuario.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Nota</td>
+      <td>Introduzca una nota para el usuario. Esta nota aparecerá en el correo electrónico de invitación del usuario.</td>
+    </tr>
+  </tbody>
+</table>
 
 El usuario recibe un correo electrónico de invitación en el que puede aceptar la invitación.
+
+## Añadir un usuario a un equipo
+
+Los usuarios se asignan a equipos cuando se crean. Si es necesario añadir un usuario existente a un equipo, puede añadirlo en la página Usuarios del equipo.
+
+La adición de un usuario a un equipo se gestiona desde la página para ese equipo.
+
+1. Vaya al equipo al que desee agregar al usuario seleccionando **Organizaciones** en el panel izquierdo, haciendo clic en la ficha **Equipos** de la página de la organización y seleccionando el equipo.
+
+   O
+
+   Si está en la página de otro equipo, haga clic en el menú desplegable de equipo en la parte superior de la página.
+
+1. En la página Equipo (con el nombre del equipo al principio de la página), seleccione la ficha **Usuarios**.
+1. Busque el usuario en la página. Los usuarios de su organización aparecen en esta página aunque no sean miembros del equipo.
+1. Haga clic en **Ninguno** a la derecha del nombre del usuario y, a continuación, seleccione la función que desea que tengan en el equipo.
+
+El usuario se añade al equipo.
