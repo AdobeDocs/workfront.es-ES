@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -75,9 +75,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Cualquiera</p> 
+   <p>Nuevo: estándar</p>
+   <p>Actual: plan</p> 
   </td>
   </tr>
 
@@ -100,7 +101,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody>
 </table>
 
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

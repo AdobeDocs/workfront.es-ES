@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Acceda a los siguientes artículos para obtener una descripción general de la n
   >    El asistente de IA de Workfront está disponible actualmente para clientes seleccionados en una fase beta. Póngase en contacto con su representante de cuentas para saber si cumple los requisitos para participar y probar esta nueva oferta.
 
 * [Módulos de Adobe Workfront Planning para Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Con los módulos de Adobe Workfront Planning, puede almacenar en déclencheur un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
+
+* [Conceptos básicos de la API de Planning de Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): el objetivo de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP.
 
 ## Arquitectura y funcionalidad de Workfront Planning
 

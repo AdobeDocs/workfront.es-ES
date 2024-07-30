@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Puede compartir una vista con las siguientes entidades:
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -93,7 +93,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Permisos para compartir en una vista <!--internally-->
 
@@ -141,8 +141,6 @@ Puede compartir las vistas que creó o las vistas para las que tiene permisos de
    >[!TIP]
    >
    >   Las vistas compartidas con usted tienen un indicador de personas ![](assets/view-shared-with-others-people-icon.png) junto al icono de vista. Las vistas sin el indicador Personas son vistas que ha creado.
-
-
 
 <!--
 ## Share permissions to a view publicly

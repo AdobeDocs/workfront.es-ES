@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Para obtener información sobre cómo etiquetar a otras personas en un comentari
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -82,6 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody>
 </table>
 
++++
 
 ## Administrar notificaciones por correo electrónico
 
