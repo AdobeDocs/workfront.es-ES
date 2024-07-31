@@ -6,9 +6,9 @@ description: Puede cambiar el idioma en el que muestra Adobe Workfront y los cor
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1022'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Workfront es compatible con los siguientes idiomas:
 * Chino simplificado (zh-CN)
 * Chino - Tradicional (zh-TW)
 
-El idioma utilizado para ver Workfront en el navegador se controla mediante la configuración de idioma del explorador. Asegúrese de seleccionar un idioma para el explorador que aparezca en la lista de idiomas admitidos.
+El idioma utilizado para ver Workfront en el explorador se controla mediante la configuración de idioma del explorador si la organización no está en IMS, o mediante el idioma de perfil de Adobe Experience Cloud si la organización no está en IMS. En cualquier caso, asegúrese de seleccionar un idioma que aparezca en la lista de idiomas admitidos.
 
 Para mostrar correos electrónicos salientes en cualquiera de los idiomas admitidos, modifique la configuración regional del correo electrónico del usuario o la información del cliente en Workfront.\
 Debe ser administrador de Workfront para modificar la configuración de la información del cliente.\
@@ -97,22 +97,34 @@ Para obtener más información sobre Workfront Fusion, consulte [Información ge
 
 Puede cambiar el idioma en el que ve Workfront y el idioma de los correos electrónicos salientes modificando la siguiente configuración:
 
-* El idioma del explorador
+* El idioma del explorador (para usuarios que no están en IMS)
+* AEM El idioma principal y secundario del perfil de la (para usuarios con IMS)
 * La configuración Información del cliente y Configuración regional de correo electrónico del usuario en su cuenta de Workfront.
 
 Para ver todas las traducciones disponibles del idioma elegido, tanto la configuración regional de Workfront como la del explorador deben configurarse en el mismo idioma.
 
-* [Cambiar el idioma del explorador](#change-the-browser-language)
+* [Cambio del idioma del explorador](#change-the-browser-language)
+* [Cambio del idioma de Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
 * [Cambio de las configuraciones regionales de correo electrónico de Workfront y usuario](#change-the-workfront-and-user-locales)
 
 ### Cambio del idioma del explorador {#change-the-browser-language}
 
-Al cambiar el idioma del explorador, la interfaz de Workfront se muestra en ese idioma.\
+Si su organización no está en IMS, al cambiar el idioma del explorador, la interfaz de Workfront se muestra en ese idioma.\
 Para obtener más información acerca de los idiomas compatibles con Workfront, consulte [Idiomas compatibles en Adobe Workfront](#supported-languages).
 
 El idioma del explorador debe cambiarse de forma individual para cada usuario.
 
 Consulte el menú &quot;Ayuda&quot; de su navegador para obtener información específica sobre cómo cambiar el idioma del navegador.
+
+## Cambio del idioma de Adobe Experience Cloud
+
+Si su organización está en IMS, el idioma del perfil de Adobe Experience Cloud determina el idioma que se muestra en Workfront.
+
+1. Haga clic en la imagen de perfil en el extremo derecho de la barra de herramientas de Adobe Experience Cloud y, a continuación, haga clic en **Preferencias**. La barra de herramientas de Adobe Experience Cloud se encuentra directamente encima de la barra de herramientas principal de Workfront.
+
+1. En **Perfil** debajo de su nombre y dirección de correo electrónico, haga clic en el nombre del idioma seleccionado actualmente.
+
+1. Seleccione sus idiomas preferidos en los menús desplegables **Primer idioma** y **Segundo idioma**. El primer idioma es la opción de idioma predeterminada, mientras que el segundo solo se muestra si el primer idioma no es compatible con una aplicación específica.
 
 ### Cambio de las configuraciones regionales de correo electrónico de Workfront y usuario {#change-the-workfront-and-user-locales}
 
