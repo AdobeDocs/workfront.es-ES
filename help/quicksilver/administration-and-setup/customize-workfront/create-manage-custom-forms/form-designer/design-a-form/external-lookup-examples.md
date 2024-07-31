@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ Un campo de búsqueda externa en un formulario personalizado llama a una API ext
 
 Este artículo proporciona ejemplos del uso del campo Búsqueda externa para llamar a la misma instancia de Workfront o a una API pública. También puede utilizar la búsqueda externa para comunicarse con un sistema externo como Jira, Salesforce o ServiceNow.
 
-Los campos de búsqueda externa solo están disponibles en el nuevo diseñador de formularios, no en el generador de formularios heredado. Para obtener más información sobre cómo agregar un campo de búsqueda externa a un formulario personalizado y definiciones adicionales de los componentes de búsqueda externa, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obtener más información sobre cómo agregar un campo de búsqueda externa a un formulario personalizado y definiciones adicionales de los componentes de búsqueda externa, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configure un campo de búsqueda externa para la misma instancia de Workfront
 
 Puede utilizar la búsqueda externa para introducir datos de la instancia de Workfront en el formulario personalizado.
+
+### Utilice valores de campo de Workfront nativos en la búsqueda externa
 
 Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos del campo &quot;Consulta de estado&quot; existente al campo de búsqueda externa.
 
@@ -69,6 +71,43 @@ Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos del c
    ![Formulario personalizado con campo de búsqueda externa](assets/external-lookup-project-status-example1.png)
 
    ![Opciones de búsqueda externa basadas en el estado](assets/external-lookup-project-status-example2.png)
+
+### Usar valores de campo personalizados en la búsqueda externa
+
+Este ejemplo muestra cómo llamar a la API de Workfront e introducir datos de un campo personalizado en el campo de búsqueda externa. El campo personalizado de ejemplo se denomina &quot;Colores personalizados&quot;.
+
+1. Abra el formulario personalizado.
+1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
+1. Escriba **Label** y **Name** para el campo.
+1. Seleccione **Formato** para el campo.
+1. Escriba la llamada de URL de API en el campo **URL de API básica**.
+
+   **Ejemplo**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. Revise las **dependencias** para los campos a los que hace referencia este campo de búsqueda en la API.
+
+   Un campo de dependencia puede ser cualquier campo personalizado o nativo existente en la página de detalles del objeto.
+
+1. Seleccione el **método HTTP**.
+
+   Es muy probable que esto sea **Get**.
+
+1. Escriba la **ruta de acceso JSON** para obtener los resultados de su llamada de API.
+
+   **Ejemplo**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * &quot;parameterValues&quot; hace referencia a cualquier campo personalizado de Workfront para el objeto en el que se encuentra.
+   * Para este ejemplo, &quot;DE: Colores combinados&quot; es el campo personalizado específico que contiene los valores que desea recuperar.
+
+   >[!NOTE]
+   >
+   >No se necesita información de **Header** para llamar a la misma instancia de Workfront.
+
+1. Haga clic en **Aplicar**.
+
+   Cuando se agrega el formulario personalizado a un objeto de Workfront, todos los valores del campo &quot;Colores combinados&quot; aparecen en la lista desplegable del campo Búsqueda externa.
 
 ## Configurar un campo de búsqueda externa para una API pública
 
