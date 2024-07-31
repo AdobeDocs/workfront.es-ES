@@ -6,7 +6,7 @@ description: Puede crear plantillas de aprobación para optimizar el proceso de 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 2%
@@ -61,6 +61,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    |----------------------------|---|
    | **(Opcional) Intervalo de tiempo** | Introduzca el periodo de tiempo en días El plazo de aprobación se calcula a partir de este campo una vez que la plantilla se aplica a un recurso. |
    | **Agregar aprobadores o revisores** | Empiece escribiendo el nombre de los usuarios o equipos y, a continuación, designa a los mismos como revisores o aprobadores. |
+
 1. Haga clic en **Guardar**.
 
 

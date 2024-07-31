@@ -6,10 +6,10 @@ description: Puede ver la asignación de funciones para todos los roles asignado
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -114,10 +114,9 @@ Debe tener lo siguiente:
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Revise la siguiente información en el panel **Asignación de funciones**:
-|Campo | Descripción|
-|—|—|
-| **Rol** |Roles asignados a tareas y problemas del proyecto. Pueden ser funciones del puesto asignadas directamente a tareas y problemas o funciones del puesto asociadas a usuarios asignados a tareas y problemas del proyecto.  |
-| **Horas planificadas** |Número total de horas planificadas de tareas y problemas asignados a roles de trabajo o usuarios asociados a un rol en el proyecto.  |
 
-
+   | Campo | Descripción |
+   |---|---|
+   | **Rol** | Funciones del puesto asignadas a tareas y problemas del proyecto. Pueden ser funciones del puesto asignadas directamente a tareas y problemas o funciones del puesto asociadas a usuarios asignados a tareas y problemas del proyecto. |
+   | **Horas planificadas** | Número total de horas planificadas de tareas y problemas asignados a roles de trabajo o usuarios asociados a un rol en el proyecto. |
 
