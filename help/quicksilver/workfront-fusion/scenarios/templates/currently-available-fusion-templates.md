@@ -7,9 +7,9 @@ description: Las siguientes plantillas públicas están disponibles actualmente 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Estas plantillas automatizan los procesos y flujos de trabajo de Workfront.
 ### [!BADGE Nuevo!]{type=Informative}
 
 Esta plantilla de Fusion crea una lista de comprobación estándar para todas las tarjetas que introducen una columna específica en un tablero específico de forma cronometrada.
+
+### [!BADGE Nuevo!]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+Este escenario se activa cuando se crea un nuevo proyecto. En este escenario, puede crear un tablero con el nombre del proyecto, cambiar el nombre de las columnas o crearlas según sus necesidades, crear etiquetas personalizadas y asociar un filtro de columnas de entrada al proyecto de origen.  Se podrían realizar miles de cambios adicionales, pero empezar aquí le permitirá ver las posibilidades de crear un punto de partida para la estandarización del tablero de su organización.
 
 ### Workfront - Creación de proyectos desde CSV
 
