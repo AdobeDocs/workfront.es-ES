@@ -6,9 +6,9 @@ description: Los conjuntos de recursos son conjuntos de usuarios que le ayudan a
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ Debe tener lo siguiente:
     </tbody>
    </table>
 
-1. (Opcional) Use el vínculo **Deshacer** para quitar los usuarios agregados mediante un grupo, equipo, compañía o rol. <span class="preview">(La función Deshacer no está disponible temporalmente en el entorno de vista previa.)</span>
+1. (Opcional) Use el vínculo **Deshacer** para quitar los usuarios agregados mediante un grupo, equipo, compañía o rol.
 
    >[!NOTE]
    >
    >No hay límite en cuanto a la cantidad de usuarios que puede tener en un Conjunto de recursos. Sin embargo, se recomienda no agregar demasiados usuarios a un Conjunto de recursos, ya que de lo contrario la Administración de recursos podría convertirse en un desafío. La lista de usuarios sólo muestra los 2.000 primeros usuarios del Conjunto de recursos y se enumeran alfabéticamente.
 
    <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-   <span class="preview">![Usuarios agregados al conjunto de recursos](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![Usuarios agregados al conjunto de recursos](assets/users-in-resource-pool2.png)</span>
 
    Imagen de muestra en el entorno de producción:
    ![Usuarios agregados al conjunto de recursos](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
