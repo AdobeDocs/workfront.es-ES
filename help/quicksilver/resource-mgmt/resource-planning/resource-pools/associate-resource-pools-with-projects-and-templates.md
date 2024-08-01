@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Asociar conjuntos de recursos a proyectos y plantillas
 description: Los conjuntos de recursos son colecciones de usuarios que le ayudan a administrar los recursos en Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%

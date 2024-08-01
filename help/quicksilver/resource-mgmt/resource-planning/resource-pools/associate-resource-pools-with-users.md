@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Asociar conjuntos de recursos a los usuarios
-description: Asociar conjuntos de recursos a los usuarios
-author: Alina
+description: Debe crear un conjunto de recursos para poder asociarlo a los usuarios. Puede asociar usuarios con conjuntos de recursos al crear los conjuntos de recursos.
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
