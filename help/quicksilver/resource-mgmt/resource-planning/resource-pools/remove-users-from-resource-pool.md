@@ -6,7 +6,7 @@ description: Aunque no hay límite para la cantidad de usuarios que puede tener 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
+source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -75,7 +75,7 @@ O\
    Empiece a escribir el nombre de una empresa, función de trabajo, equipo o grupo si desea quitar todos los usuarios asociados a esas entidades.
 
    <span class="preview">Imagen de muestra en el entorno de vista previa:<span>
-   <span class="preview">![Quitar usuarios del conjunto de recursos](assets/remove-users-from-resource-pool.png)<span>
+   ![Quitar usuarios del conjunto de recursos](assets/remove-users-from-resource-pool.png)
 
    Imagen de muestra en el entorno de producción:
    ![Buscar en el conjunto de recursos](assets/search-inside-new-resource-pool-350x314.png)
