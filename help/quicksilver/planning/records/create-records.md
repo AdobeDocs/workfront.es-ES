@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ En Adobe Workfront Planning, un registro es una instancia de un tipo de registro
 
 Para crear registros, siga uno de estos procedimientos:
 
-* Crearlos manualmente para tipos de registros
-* Crear registros copiando y pegando información de una lista externa.
+* Añádalos desde la página de tipo de registro
+* Copiar y pegar una lista de registros de una lista externa
+* Duplicarlos
 
 Este artículo describe cómo crear registros. Para obtener información acerca de la administración de registros en las vistas de tabla o escala de tiempo, vea los siguientes artículos:
 
@@ -95,7 +96,7 @@ Este artículo describe cómo crear registros. Para obtener información acerca 
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Cree registros agregándolos manualmente a un tipo de registro <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Crear registros agregándolos a un tipo de registro <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 Puede crear registros en la vista de tabla de una página de tipo de registro.
 
@@ -118,7 +119,8 @@ Todos los registros del tipo seleccionado se muestran en la vista.
 
       * Haga clic en **Nuevo registro** en la última fila de la tabla
 
-      * Haz clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía.
+      * Haz clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto agrega una fila vacía debajo del registro desde el que comienza.
+      * Pase el ratón sobre el campo principal de un registro, haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del campo y, a continuación, haga clic en **Insertar registro arriba** o **Insertar registro abajo**.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Crear registros copiando y pegando información de una lista externa
+## Crear registros copiándolos y pegándolos desde una lista externa
 
 1. Comience a crear registros en la vista Tabla, tal como se describe en la sección [Crear registros agregándolos manualmente a un tipo de registro](#create-records-by-manually-adding-them-to-a-record-type) en este artículo.
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * Las filas contienen los registros nuevos
    * Las columnas rellenan la información de los campos de los registros.
+
+
+## Creación de registros duplicándolos
+
+Para obtener información sobre la duplicación de registros, vea [Registros duplicados](/help/quicksilver/planning/records/copy-or-duplicate-records.md).

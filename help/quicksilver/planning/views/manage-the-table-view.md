@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 3%
 
 ---
@@ -135,9 +135,8 @@ Añadir columnas a una vista es idéntico a añadir campos a un tipo de registro
 
 Puede agregar hasta 500 campos (o columnas) en una vista de tabla.
 
-1. Vaya a una página de tipo de registro y seleccione una vista de **Tabla** en el menú desplegable de vista.
+1. Vaya a una página de tipo de registro y haga clic en una ficha de vista de tabla, o bien haga clic en **+ Ver** para agregar una nueva vista y, a continuación, elija **Tabla**.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Empiece a agregar campos (o columnas), tal como se describe en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
    Las columnas que agregue serán visibles para todos los usuarios que tengan acceso al tipo de registro y se agregarán como campos nuevos en la página del registro.
@@ -213,9 +212,8 @@ Las filas de una vista de tabla muestran registros individuales del tipo de regi
 
 Puede tener hasta 50 000 registros (o filas) para un tipo de registro S.
 
-1. Vaya a una página de tipo de registro y seleccione una vista de **Tabla** en el menú desplegable de vista.
+1. Vaya a una página de tipo de registro y haga clic en una ficha de vista de tabla, o bien haga clic en **+ Ver** para agregar una nueva vista y, a continuación, elija **Tabla**.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Empiece a agregar registros (o filas), tal como se describe en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
    Los registros que agregue a la vista de tabla se guardan inmediatamente y son visibles para todos los usuarios que tengan permisos de Vista o superiores en el área de trabajo.
@@ -229,13 +227,8 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro S.
    >[!NOTE]
    >
    >No puede reordenar filas si aplica al menos una ordenación a la vista de tabla.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >Los cambios que realice en el orden de filas serán visibles para todos los usuarios que tengan acceso al tipo de registro
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro S.
 Los filtros le ayudan a reducir la cantidad de información que se muestra en la pantalla.
 
 Tenga en cuenta lo siguiente al trabajar con filtros en la vista de tabla:
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * Los filtros que cree para la vista de tabla funcionan de forma independiente de los filtros de la vista de cronología cuando se aplican al mismo tipo de registro.

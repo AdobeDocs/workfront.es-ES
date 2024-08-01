@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más r
 
 Workfront Planning se ha eliminado temporalmente de los entornos Vista previa y Zona protegida desde enero de 2024. Todas las funciones documentadas en estos artículos están disponibles actualmente en Producción.
 
-## Semana del 29 de julio de 2024
-
-### Ya está disponible la API pública de Adobe Workfront Planning
-
-Producción: 30 de julio de 2024
-
-Vista previa: por determinar
-
-Ya está disponible la API pública de Adobe Workfront Planning.
-
-Para obtener más información, consulte [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Semana del 29 de julio de 2024
+
+### Ya está disponible la API pública de Adobe Workfront Planning
+
+Producción: 30 de julio de 2024
+
+Vista previa: por determinar
+
+Ya está disponible la API pública de Adobe Workfront Planning.
+
+Para obtener más información, consulte [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
+
+### Insertar y duplicar registros en la vista de tabla
+
+Producción: 1 de agosto de 2024
+Vista previa: por determinar
+
+Hemos introducido las siguientes capacidades al trabajar con registros en la vista de tabla:
+
+* Duplicar registros: puede crear rápidamente un registro duplicando uno existente.  Se crea un registro idéntico. Esta capacidad solo está disponible en la vista de tabla.
+
+* Puede insertar un nuevo registro encima o debajo de un registro existente en la vista de tabla. Antes de esta mejora, sólo se agregan registros en la parte inferior de la vista de tabla.
+
+Puede realizar las nuevas funciones desde las siguientes áreas:
+
+* El menú Más de un registro
+
+* La nueva barra de herramientas que se ha agregado a la parte inferior de la página de registro en la vista de tabla
+
+Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md)
+
 
 ## Semana del 8 de julio de 2024
 
