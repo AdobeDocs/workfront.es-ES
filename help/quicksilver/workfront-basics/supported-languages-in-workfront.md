@@ -6,16 +6,16 @@ description: Puede cambiar el idioma en el que muestra Adobe Workfront y los cor
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 1%
 
 ---
 
 # Idiomas admitidos en Adobe Workfront
 
-Puede cambiar el idioma en el que muestra Adobe Workfront y los correos electrónicos procedentes de Workfront, ajustando las preferencias de idioma en el explorador y la configuración regional de correo electrónico predeterminada en Workfront.
+Puede cambiar el idioma en el que muestra Adobe Workfront y los correos electrónicos procedentes de Workfront, ajustando las preferencias de idioma en el explorador (si no en IMS) o las preferencias de idioma del perfil de Adobe Experience Cloud (si está en IMS) y la configuración regional de correo electrónico predeterminada en Workfront.
 
 La terminología de Workfront se actualiza para los idiomas compatibles con cada actualización de Workfront.
 

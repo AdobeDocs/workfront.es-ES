@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,11 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 ### Actualizaciones de formación
 
 Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+
+### Funcionalidad que se eliminará pronto de Workfront
+
+Las siguientes funciones se eliminarán pronto de Workfront:
+
+#### Obsolescencia de la experiencia de inicio heredada con 24.10
+
+La versión 24.10 del Home heredado quedará obsoleta oficialmente. Se recomienda a los usuarios que empiecen a utilizar la nueva página de inicio, que se seguirá mejorando con funciones adicionales antes de que quede obsoleta. Próximamente, se proporcionará más información sobre la transición, incluidos los pasos que pueden realizar los usuarios y administradores para prepararse.
