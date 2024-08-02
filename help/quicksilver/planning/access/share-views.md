@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,8 @@ Cuando comparte una vista, otorga a otros permisos para acceder a todos los elem
 
 Puede compartir una vista con las siguientes entidades:
 
-* Usuarios de Workfront
-* Grupos de Workfront
-<!--* Publicly, with users outside Workfront
--->
+* Internamente, con usuarios y grupos de Workfront
+* Públicamente, con usuarios fuera de Workfront
 
 ## Requisitos de acceso
 
@@ -95,9 +93,21 @@ Puede compartir una vista con las siguientes entidades:
 
 +++
 
-## Permisos para compartir en una vista <!--internally-->
+## Consideraciones al compartir vistas
 
-Puede compartir las vistas que creó o las vistas para las que tiene permisos de administración para <!--with users or groups in Workfront-->.
+* Puede conceder permisos de Vista o Administración a una vista a usuarios internos de Workfront.
+
+* Los usuarios con permisos de Administración pueden modificar la configuración de vista, compartirla, duplicarla o eliminarla.
+
+* Puede compartir vistas con personas fuera de su organización mediante un vínculo público.
+
+* Cuando comparte una vista públicamente, cualquier persona fuera de la compañía puede acceder al vínculo durante un tiempo limitado, indicado por la fecha de caducidad. No se requiere inicio de sesión para ver la vista de tabla compartida.
+
+* Las personas externas a la organización que tienen acceso a una vista no pueden crear otras vistas, editar la vista compartida ni agregar, eliminar o editar la información de los registros de la tabla.
+
+## Compartir permisos en una vista internamente
+
+Puede compartir las vistas que ha creado o las vistas en las que tiene permiso de administración con usuarios o grupos en Workfront.
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ Puede compartir las vistas que creó o las vistas para las que tiene permisos de
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   La ficha **Uso compartido interno** debe estar seleccionada de manera predeterminada.
 
-1. (Opcional) Seleccione entre las siguientes opciones para compartir la vista:
+1. (Opcional) En el área **Que tiene acceso**, seleccione una de las siguientes opciones:
 
    * **Solo las personas invitadas pueden tener acceso**: debe especificar los usuarios o grupos con los que desea compartir la vista. Esta es la opción predeterminada.
    * **Todos los usuarios del área de trabajo pueden ver**: todos los usuarios que tengan permisos de Vista o superiores en los espacios de trabajo pueden tener acceso a la vista.
 
-1. En el campo **Conceder acceso de vista a**, empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando aparezca en la lista.  <!--***********replace screen shot below when public sharing is released***********-->
+1. En el campo **Conceder acceso de vista a**, empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando aparezca en la lista.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ Puede compartir las vistas que creó o las vistas para las que tiene permisos de
    >
    >   Las vistas compartidas con usted tienen un indicador de personas ![](assets/view-shared-with-others-people-icon.png) junto al icono de vista. Las vistas sin el indicador Personas son vistas que ha creado.
 
-<!--
-## Share permissions to a view publicly
+## Compartir permisos en una vista públicamente
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+Puede compartir las vistas que ha creado o las vistas en las que tiene permisos de administración con personas que no tienen una licencia de Workfront y que pueden ser externas a su organización.
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+Para compartir una vista públicamente en Workfront Planning:
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. Abra el espacio de trabajo cuya vista desee compartir y, a continuación, haga clic en una tarjeta de tipo de registro.
 
-   This opens the record type page.
+   Se abre la página de tipo de registro.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir, haga clic en el menú **Más** ![](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. Haga clic en **Uso compartido público**.
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. Habilitar la configuración **Crear vínculo público**.
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   Aparecerá un vínculo disponible. Este es un vínculo público. Cuando se comparte, cualquier persona que tenga el vínculo, incluidas las personas externas a la organización, puede acceder a la página de tipo de registro y ver los registros y campos de la página.
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. Haga clic en el icono **Copiar vínculo** ![](assets/copy-link-view.png) para copiar el vínculo en el portapapeles.
 
-1. Click **Save**.
+1. Escriba una fecha manualmente o use el calendario del campo **Fecha de caducidad del vínculo** para seleccionar una fecha de caducidad para el vínculo público. No se podrá acceder a la vista de página de registros después de la fecha seleccionada.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. Haga clic en **Guardar**.
 
--->
+   El icono de vista se actualiza para indicar que la vista se comparte públicamente.
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. (Opcional) Pegue el vínculo que ha copiado en un correo electrónico, mensaje de chat, documento o comentario de Workfront para compartirlo con otros usuarios.
 
 ## Eliminación de permisos de una vista
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. Abra el espacio de trabajo cuya vista desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
 1. Pase el ratón sobre el nombre de la ficha de la vista de la que quiera quitar el uso compartido y haga clic en el menú **Más** ![](assets/more-menu.png); a continuación, haga clic en **Compartir**.
-1. Busque el usuario o grupo que desea quitar y, a continuación, haga clic en **Quitar** en el menú desplegable de permisos que aparece a la derecha del nombre del usuario o grupo.
+1. Para eliminar el uso compartido interno de una vista, haga lo siguiente:
+
+   1. Asegúrese de que la ficha **Uso compartido interno** esté seleccionada.
+   1. Busque el usuario o grupo que desea quitar, expanda el menú desplegable de permisos a la derecha del nombre del usuario o grupo y, a continuación, haga clic en **Quitar**.
+
+1. Para quitar el uso compartido público de una vista, haga lo siguiente:
+
+   1. Haga clic en la ficha **Uso compartido público**.
+   1. Anule la selección de la opción **Crear vínculo público**.
+
 1. Haga clic en **Guardar**.
-El usuario o los usuarios que pertenecen al grupo eliminado ya no tienen acceso a la vista. No hay ninguna notificación para los usuarios que se han eliminado del acceso a la vista de que perdieron este acceso.
 
-<!--Replace the above instructions with the following when public sharing is released: 
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
-
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
-
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   Las personas ya no tienen acceso a la vista. No hay notificación para los usuarios que se han eliminado del acceso a la vista de que ya no tienen este acceso.

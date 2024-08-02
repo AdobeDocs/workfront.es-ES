@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '800'
 ht-degree: 6%
 
 ---
@@ -37,15 +37,17 @@ Puede compartir los siguientes objetos:
 
 * Espacios de trabajo
 
-  Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo. Las vistas no se comparten.
+   * Puede compartir espacios de trabajo con personas de su organización.
+   * Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo. Las vistas no se comparten.
 
 * Vistas
 
-   * Debe conceder a los usuarios, incluidos los administradores del sistema, permisos para acceder a las vistas por separado de sus permisos para acceder a espacios de trabajo. Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-     <!--move the link above to the end of this section-->
+   * Debe conceder a los usuarios, incluidos los administradores del sistema, permisos para acceder a las vistas por separado de sus permisos para acceder a espacios de trabajo.
+   * Puede compartir una vista públicamente, con personas fuera de su organización cuando genere un vínculo público para una vista.Las personas que accedan a la página de registro desde un vínculo público pueden ver todos los registros y sus campos, incluidos los registros y campos conectados.
 
-Puede compartir un espacio de trabajo o una vista con las siguientes entidades:
+  Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
+
+Internamente, se puede compartir un espacio de trabajo o una vista con las siguientes entidades de Workfront:
 
 * Usuarios
 * Grupos
@@ -59,15 +61,12 @@ Puede compartir un espacio de trabajo o una vista con las siguientes entidades:
 * Otros usuarios, incluidos los administradores del sistema, solo pueden acceder a las vistas que han creado o que se han compartido con ellos. A los administradores del sistema solo se les pueden otorgar permisos para Administrar una vista.
 * Puede compartir un vínculo a un espacio de trabajo o a una vista con otros usuarios.
 
-  Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo o a la página de tipo de registro que se muestra en la vista seleccionada.
+  Existen los siguientes escenarios:
+   * Los usuarios que reciban el vínculo a un espacio de trabajo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo.
+   * Los usuarios que reciban el vínculo a una vista pueden acceder a la vista de las siguientes maneras:
 
-  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
-    The following scenarios exist:
-        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-        * Users who receive the link to a view can access the view in the following ways: 
-        
-            * Must be active users and log in to Workfront
-            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
+      * Deben ser usuarios activos e iniciar sesión en Workfront, si el vínculo a la vista se ha compartido internamente.
+      * Pueden ser usuarios externos de Workfront y acceder a la vista desde un vínculo compartido públicamente, sin iniciar sesión en Workfront.
 
 ## Permisos de uso compartido para objetos de Adobe Workfront Planning
 
@@ -156,37 +155,25 @@ Debe conceder permiso a los usuarios para que puedan acceder a los siguientes el
 * Altura de la fila
 * Configuración
 
-
-<!--You can share views internally or publicly. -->
+Puede compartir vistas de forma interna o pública.
 
 Los siguientes son los niveles de permisos para vistas y elementos de vista:
 
-|        | Administrar (solo pueden acceder las personas invitadas) | Ver (solo pueden acceder las personas invitadas) | Todos los usuarios del espacio de trabajo pueden ver* |
+| Uso compartido interno | Administrar (solo pueden acceder las personas invitadas) | Ver (solo pueden acceder las personas invitadas) | Todos los usuarios del espacio de trabajo pueden ver* |
 |--------|--------|-------|------------------------------|
 | Editar | ✓ |       |                            |
 | Eliminar | ✓ |       |                            |
 | Compartir | ✓ |       |                           |
 | Ver | ✓ | ✓ | ✓ |
-| Acceso a la vista | ✓ | ✓ | ✓ |
-| Aplicar filtros temporales, agrupaciones y ordenación | ✓ | ✓ | ✓ |
+| Aplicar | ✓ | ✓ | ✓ |
+
+| Uso compartido público | Ver |
+|--------|-------|
+| Ver | ✓ |
+| Aplicar | ✓ |
 
 *Los usuarios deben tener permisos de Vista o superiores en un espacio de trabajo para obtener este acceso de vista.
 
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
-|--------|--------|-------|------------------------------|
-| Edit   | ✓      |       |                            |
-| Delete | ✓      |       |                            |
-| Share  | ✓       |       |                           |
-| View   | ✓      | ✓     | ✓                         |
-| Apply  | ✓      | ✓     | ✓                          |
-
-|   Public sharing      | View  |
-|--------|-------|
-| View   | ✓     |
-| Apply  | ✓     |
--->
 
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
@@ -196,5 +183,15 @@ Los siguientes son los niveles de permisos para vistas y elementos de vista:
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |    
+| Apply  | ✓      | ✓     |  
+
+
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 -->
