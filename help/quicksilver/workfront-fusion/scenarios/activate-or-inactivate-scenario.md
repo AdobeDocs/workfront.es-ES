@@ -7,7 +7,7 @@ description: Este artículo describe por qué los escenarios activos o desactiva
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -76,6 +76,6 @@ Debe crear un escenario para poder activarlo.
 ## Activar o desactivar un escenario:
 
 1. Haga clic en **[!UICONTROL Escenarios]** ![](assets/scenarios-icon.png) en el panel izquierdo y, a continuación, haga clic en el escenario para abrirlo.
-1. En la esquina superior derecha de la ventana, haga clic en la opción **[!UICONTROL Activar/desactivar]**.
+1. En la esquina inferior izquierda de la ventana, haga clic en el botón de alternancia **[!UICONTROL Activar/Desactivar]**.
 
    ![](assets/on-off-switch.jpg)
