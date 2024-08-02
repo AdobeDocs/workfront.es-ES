@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ Los mensajes de confirmación de Eliminar usuario y Desactivar usuario que ven l
 
 Para obtener información sobre cómo eliminar y desactivar usuarios, consulte [Eliminar usuarios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) y [Desactivar o reactivar un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
+## Actualizaciones de aspecto para la página Conjuntos de recursos
+
+>[!NOTE]
+>
+>Versión de vista previa: 1 de agosto de 2024; producción para versión rápida: con la versión 24.8 (agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
+
+Hemos actualizado la página Grupos de recursos con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para obtener más información, consulte [Crear conjuntos de recursos](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
 ## Actualización de aspecto para el mensaje Eliminar tarea
 
 >[!NOTE]
@@ -37,17 +47,6 @@ Para obtener información sobre cómo eliminar y desactivar usuarios, consulte [
 El mensaje de confirmación Eliminar tarea que ven los usuarios al eliminar una tarea se ha actualizado a un diseño más moderno y coherente con otras áreas de Workfront.
 
 Para obtener información sobre cómo eliminar una tarea, consulte [Eliminar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md).
-
-
-## Actualizaciones de aspecto para la página Conjuntos de recursos
-
->[!NOTE]
->
->Versión de vista previa: 25 de julio de 2024; producción para versión rápida: con la versión 24.8 (agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
-
-Hemos actualizado la página Grupos de recursos con un diseño más moderno y coherente con otras áreas de Workfront.
-
-Para obtener más información, consulte [Crear conjuntos de recursos](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Actualizaciones de aspecto y funcionamiento para la página Notificaciones
 
