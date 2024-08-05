@@ -6,9 +6,9 @@ description: Puede medir un área dentro de una prueba.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '353'
 ht-degree: 1%
 
 ---
@@ -80,3 +80,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Opcional) Si necesita que el área de medida sea un tamaño exacto, escriba **Tamaño de selección** valores.
 1. (Opcional) Si necesita medir un determinado porcentaje dentro de un área, marque la casilla calcular porcentaje. Aparece una nueva casilla que le permite ajustarla\
    ![](assets/calculate-percentage-350x230.png)
+
+1. Haga clic en el icono **Medir un área** en la parte superior del visor de revisión para descartar la herramienta cuando haya terminado.
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
