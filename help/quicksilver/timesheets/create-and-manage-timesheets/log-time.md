@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
+source-wordcount: '3856'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: 
-   <ul><li>Normal o superior para registrar horas generales en una hoja de horas</li>
-   <li>Estándar para registrar horas en un proyecto, tarea o problema</li></ul>
-
-
-<p>Actual: 
+   <td> <p>Nuevo: </p>
+   <p>Ligero o superior para registrar horas en un proyecto, tarea, problema u horas generales en una hoja de horas</p>
+   <p>Actual: 
    <ul><li>Revise o superior para registrar horas generales en una hoja de horas</li>
    <li>Trabajar o más para registrar horas en un proyecto, tarea o problema</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Para obtener más información, consulte [Adobe Workfront para Android](/help/qu
 
 ## Editar horas registradas en listas e informes
 
+>[!CAUTION]
+>
+>* No se pueden modificar las entradas de horas que pertenecen a una hoja de horas cerrada. Primero debe volver a abrir la hoja de horas y, a continuación, cambiar la información de la entrada de horas.
+>* Cuando cambia el Tipo de hora de un tipo que no cuenta como ingresos a otro tipo que cuenta como ingresos, también se producen cambios en las finanzas del proyecto. Cambiar los tipos de horas de un tipo que cuenta como ingresos a un tipo que no cuenta como ingresos actualiza también las finanzas del proyecto.
+>
+>Para obtener más información, consulte [Administrar tipos de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+>
 Puede editar las horas registradas en las siguientes áreas:
 
 * Todas las áreas donde agregó las horas, incluidas las hojas de horas abiertas

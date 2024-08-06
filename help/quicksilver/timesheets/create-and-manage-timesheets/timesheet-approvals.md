@@ -6,14 +6,16 @@ description: El proceso de aprobación de hojas de horas proporciona a los admin
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 # Aprobar una hoja de horas
+
+<!--Audited: 8/2024-->
 
 El proceso de aprobación de hojas de horas proporciona a los administradores visibilidad sobre las horas de trabajo de sus informes directos. Los aprobadores pueden verificar que todo el tiempo registrado se ha asignado en las áreas correctas y que se ha registrado un número suficiente de horas para el período.
 
@@ -22,6 +24,8 @@ Adobe Workfront permite configurar las aprobaciones de plantillas de horas para 
 Para obtener información sobre cómo enviar una hoja de horas, consulte [Enviar una hoja de horas para su aprobación](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -32,36 +36,41 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader"><p>plan de Adobe Workfront</p></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td> <p>Nuevo: estándar</p>
+   <p>Actual: plan </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Designar aprobadores de hojas de horas
 
 Normalmente, los administradores funcionales o el personal de recursos humanos aprueban las hojas de horas. (Los jefes de proyecto no suelen aprobar las hojas de horas).
 
-Se define un aprobador de hoja de horas al crear el perfil de hoja de horas. Debe contar con una licencia de planificación para ser designado como aprobador.
+Se define un aprobador de hoja de horas al crear el perfil de hoja de horas. Debe contar con una licencia de planificación para ser designado como aprobador.
 
 Para obtener más información sobre cómo designar aprobadores de hojas de horas, consulte la sección [Crear o editar un perfil de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) en el artículo [Crear, editar y asignar perfiles de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Aprobar una hoja de horas
 
-Puede aprobar todas las hojas de horas que se hayan enviado donde haya sido designado como aprobador. Cuando se envía una hoja de horas para su aprobación, la hoja de horas se enumera en el área de **Aprobaciones** de su **Hogar**  página. Para obtener más información, consulte [Aprobación de trabajo](../../review-and-approve-work/manage-approvals/approving-work.md).
+Puede aprobar todas las hojas de horas que se hayan enviado donde haya sido designado como aprobador. Cuando se envía una hoja de horas para su aprobación, esta se enumera en el área de **Aprobaciones** de la página **Inicio**. Para obtener más información, consulte [Aprobación de trabajo](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Si el administrador de Workfront ha habilitado la Aprobación de plantilla de horas para el usuario y el Rechazo de plantilla de horas para los controladores de eventos del usuario, se le notificará una vez aprobada o rechazada la plantilla de horas. Para obtener información acerca de cómo habilitar las notificaciones de eventos, vea [Tipos de notificaciones de eventos](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Para aprobar una hoja de horas:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Haga clic en **Plantillas de horas**.
+{{step1-to-timesheets}}
+
+Se abre el área **Plantillas de horas**.
+
 1. Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe
 
    O
@@ -72,7 +81,7 @@ Para aprobar una hoja de horas:
 
    >[!NOTE]
    >
-   >La opción Mis aprobaciones de hojas de horas no se muestra en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o un administrador de grupo quitó el filtro Mis aprobaciones de hojas de horas de los controles de lista del área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
+   >La opción Mis aprobaciones de hojas de horas no se muestra en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o un administrador de grupo quitó el filtro Mis aprobaciones de hojas de horas de los controles de lista del área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
    >
    >   
    >   

@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-Puede compartir o quitar permisos en un espacio de trabajo o vista en Adobe Workfront Planning.
+Puede compartir o quitar permisos en un espacio de trabajo o vista de Adobe Workfront Planning.
 
 En este artículo se describen los niveles de permisos para los objetos de Workfront Planning.
 
@@ -38,11 +38,16 @@ Puede compartir los siguientes objetos:
 * Espacios de trabajo
 
    * Puede compartir espacios de trabajo con personas de su organización.
-   * Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo. Las vistas no se comparten.
+   * Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo.
+
+     Al compartir un espacio de trabajo, las vistas no se comparten. Las vistas se comparten por separado.
 
 * Vistas
 
    * Debe conceder a los usuarios, incluidos los administradores del sistema, permisos para acceder a las vistas por separado de sus permisos para acceder a espacios de trabajo.
+   * Al compartir una vista, se comparten todos los elementos de la vista, incluidos los filtros, la agrupación, el orden o la configuración.
+
+     Al compartir una vista, los registros visibles en la vista no se comparten. Los registros deben compartirse compartiendo espacios de trabajo.
    * Puede compartir una vista públicamente, con personas fuera de su organización cuando genere un vínculo público para una vista.Las personas que accedan a la página de registro desde un vínculo público pueden ver todos los registros y sus campos, incluidos los registros y campos conectados.
 
   Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
@@ -124,7 +129,7 @@ A continuación se indican los niveles de permisos para los registros:
 
 |        | Administrar | Aportar | Ver |
 |--------|--------|------------|-------|
-| Crear | ✓ |            |       |
+| Crear | ✓ | ✓ |       |
 | Eliminar | ✓ | ✓ |       |
 | Editar | ✓ | ✓ |       |
 | Ver | ✓ | ✓ | ✓ |

@@ -6,20 +6,24 @@ description: Puede ver la cantidad total de horas en su hoja de horas. El númer
 author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
 # Ver las horas totales en la hoja de horas
 
+<!--Audited: 8/2024-->
+
 Puede ver la cantidad total de horas en su hoja de horas. El número total de horas de la hoja de horas incluye las horas registradas en proyectos, tareas, problemas y todas las horas generales.
 
 El total de horas refleja las horas enviadas a través de la hoja de horas, el área de Actualizaciones o el área Horas para los proyectos, tareas o problemas.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -28,25 +32,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar </p> </td> 
+   <td> <p>Nuevo: claro o superior </p>
+   <p>Actual: revisar o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver el acceso o superior a Tareas y problemas</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuración del nivel de acceso</td> 
+   <td> <p>Ver o acceder más arriba a Tareas y problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores en tareas y problemas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Ver permisos superiores en tareas y problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ver las horas totales de una hoja de horas en el encabezado de la hoja de horas
 
@@ -56,9 +63,11 @@ Puede ver las horas totales de una hoja de horas en el encabezado de la hoja de 
 
 ## Ver las horas totales en su hoja de horas en una lista de hojas de horas
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Plantillas de horas**. El filtro **Todos** está seleccionado de manera predeterminada y muestra todas las hojas de horas que tiene acceso para ver.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+Se abre el área **Plantillas de horas**.
+
+![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
@@ -76,7 +85,7 @@ Puede ver las horas totales de una hoja de horas en el encabezado de la hoja de 
 
    >[!NOTE]
    >
-   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado los filtros Mis aprobaciones de hojas de horas y Mis hojas de horas de los controles de Lista en el área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
+   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado los filtros Mis aprobaciones de hojas de horas y Mis hojas de horas de los controles de Lista en el área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
    >
    >   
    >   
@@ -98,4 +107,4 @@ Puede ver las horas totales de una hoja de horas en el encabezado de la hoja de 
 
    >[!TIP]
    >
-   >Al utilizar la vista Estándar para una lista de plantillas de horas, la columna Horas totales se muestra en rojo si el tiempo registrado para los elementos de la plantilla de horas supera el número de horas en el marco de tiempo de la plantilla de horas. Para obtener más información, consulte el campo &quot;Horas totales&quot; en [Glosario de terminología de Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Al utilizar la vista Estándar para una lista de plantillas de horas, la columna Horas totales se muestra en rojo si el tiempo registrado para los elementos de la plantilla de horas supera el número de horas en el marco de tiempo de la plantilla de horas. Para obtener más información, consulte el campo &quot;Horas totales&quot; en [Glosario de terminología de Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

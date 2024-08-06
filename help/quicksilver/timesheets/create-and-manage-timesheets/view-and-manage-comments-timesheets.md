@@ -6,9 +6,9 @@ description: Puede realizar comentarios en las plantillas de horas, los elemento
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Puede realizar comentarios en los siguientes elementos de una plantilla de horas
 * En un elemento individual, como una tarea o un problema
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -42,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuración del nivel de acceso</td> 
-   <td> <p>Ver el acceso o superior a Tareas y problemas</p> </td> 
+   <td> <p>Ver o acceder más arriba a Tareas y problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -53,6 +55,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 *Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Ver comentarios de entradas de horas en una plantilla de horas {#view-hour-entry-comments-on-a-timesheet}
 
 Puede configurar los comentarios realizados en entradas de hora individuales para que se muestren en la plantilla de horas. La opción de mostrar y ocultar comentarios no afecta a los comentarios realizados en la plantilla de horas general ni a los comentarios realizados en elementos individuales. Para obtener más información, consulte  [Realizar comentarios en una hoja de horas](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ De forma predeterminada, los comentarios se ocultan la primera vez que se accede
 
 Para mostrar comentarios en una hoja de horas:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Haga clic en **Plantillas de horas**.
+Se abre el área **Plantillas de horas**.
+
 1. Abra la hoja de horas en la que desee mostrar los comentarios.
 1. Haga clic en **Mostrar comentarios** en la esquina superior derecha de la hoja de horas.
 Los comentarios se muestran debajo del elemento en el que se registraron la entrada de hora y el comentario.

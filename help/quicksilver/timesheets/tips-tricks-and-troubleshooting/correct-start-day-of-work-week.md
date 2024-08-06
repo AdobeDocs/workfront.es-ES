@@ -7,7 +7,7 @@ description: El día de inicio de la semana en mi hoja de horas no coincide con 
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -22,7 +22,7 @@ El día de inicio de la semana en mi hoja de horas no coincide con el día de in
 
 ## Solución
 
-El día de inicio de la semana de una plantilla de horas en Adobe Workfront utiliza la configuración de idioma y configuración regional del explorador para determinar el día de la semana. Debido a esto, debe actualizar la configuración de idioma y configuración regional de su explorador. 
+El día de inicio de la semana de una plantilla de horas en Adobe Workfront utiliza la configuración de idioma y configuración regional del explorador para determinar el día de la semana. Debido a esto, debe actualizar la configuración de idioma y configuración regional de su explorador.
 
 Por ejemplo, con el idioma del explorador establecido en inglés y la configuración regional establecida en Estados Unidos, la semana comienza el domingo. Como alternativa, el idioma del explorador configurado en inglés y la configuración regional configurada en Reino Unido, el día de inicio es lunes.
 
@@ -37,4 +37,4 @@ A continuación se indican las instrucciones para cambiar la configuración regi
 * **IE 11:** Herramientas -> Opciones de Internet -> General -> Idiomas
 * **Safari:** Lamentablemente, Safari no permite cambiar los idiomas de exploración web sin cambiar también todo el idioma del sistema operativo. Probablemente sea más fácil simplemente instalar otro navegador como Chrome o Firefox.
 
- 
+

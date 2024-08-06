@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 1%
 
 Puede compartir una vista con otros usuarios para garantizar la colaboración al trabajar con registros en Adobe Workfront Planning.
 
-Al conceder permisos a un espacio de trabajo, no se conceden permisos a otros usuarios para las vistas de las páginas de tipo de registro. Debe conceder permisos a vistas individuales de una página de tipo de registro para compartirlas con otros usuarios.
-
-Cuando comparte una vista, otorga a otros permisos para acceder a todos los elementos de la vista. Por ejemplo, cuando se les conceden permisos de administración de una vista, pueden modificar la apariencia de agrupación, filtro, ordenación o barra.
+>[!IMPORTANT]
+>
+>* Al conceder permisos a un espacio de trabajo, no se conceden permisos a otros usuarios para las vistas de las páginas de tipo de registro. Debe conceder permisos a vistas individuales de una página de tipo de registro para compartirlas con otros usuarios.
+>
+>* La concesión de permisos a una vista no cambia los permisos de visualización de los registros. Los permisos de registro los concede compartir espacios de trabajo.
+>
+>* Cuando comparte una vista, otorga a otros permisos para acceder a todos los elementos de la vista. Por ejemplo, cuando se les conceden permisos de administración de una vista, pueden modificar la apariencia de agrupación, filtro, ordenación o barra.
 
 
 Puede compartir una vista con las siguientes entidades:
@@ -78,6 +82,7 @@ Puede compartir una vista con las siguientes entidades:
 <tr>
    <td role="rowheader"><p>Permisos</p></td>
    <td> <p>Administración de permisos en una vista</p>  
+   <p>Solo los usuarios con permisos de Administración de un espacio de trabajo pueden compartir una vista públicamente.</p>
 </td>
   </tr>
 
@@ -101,9 +106,9 @@ Puede compartir una vista con las siguientes entidades:
 
 * Puede compartir vistas con personas fuera de su organización mediante un vínculo público.
 
-* Cuando comparte una vista públicamente, cualquier persona fuera de la compañía puede acceder al vínculo durante un tiempo limitado, indicado por la fecha de caducidad. No se requiere inicio de sesión para ver la vista de tabla compartida.
+* Cuando comparte una vista públicamente, cualquier persona fuera de la compañía puede acceder al vínculo durante un tiempo limitado, indicado por la fecha de caducidad. No se requiere inicio de sesión para ver la vista compartida.
 
-* Las personas externas a la organización que tienen acceso a una vista no pueden crear otras vistas, editar la vista compartida ni agregar, eliminar o editar la información de los registros de la tabla.
+* Las personas externas a la organización que tienen acceso a una vista no pueden crear otras vistas, editar la vista compartida ni agregar, eliminar o editar la información de registro de la vista.
 
 ## Compartir permisos en una vista internamente
 
@@ -145,16 +150,25 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
      Los administradores del sistema siempre reciben permisos de administración para las vistas compartidas con ellos.
 
 1. Haga clic en **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
-1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 1. Haga clic en **Guardar**.
 
-   >[!TIP]
-   >
-   >   Las vistas compartidas con usted tienen un indicador de personas ![](assets/view-shared-with-others-people-icon.png) junto al icono de vista. Las vistas sin el indicador Personas son vistas que ha creado.
+   La vista se actualiza con un icono de personas ![](assets/view-shared-with-others-people-icon.png) para indicar que la vista ahora se comparte con otros usuarios.
+
+   >>
+   [!TIP]
+   >>
+   Las vistas sin un icono de persona o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
+
+1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 
 ## Compartir permisos en una vista públicamente
 
 Puede compartir las vistas que ha creado o las vistas en las que tiene permisos de administración con personas que no tienen una licencia de Workfront y que pueden ser externas a su organización.
+
+>[!IMPORTANT]
+>
+Solo los usuarios con permisos de Administración de un espacio de trabajo pueden compartir las vistas del espacio de trabajo de forma pública.
+
 
 Para compartir una vista públicamente en Workfront Planning:
 
@@ -182,9 +196,13 @@ Para compartir una vista públicamente en Workfront Planning:
 
 1. Haga clic en **Guardar**.
 
-   El icono de vista se actualiza para indicar que la vista se comparte públicamente.
+   La vista se actualiza con un icono global ![](assets/public-shared-view-icon-highlighted.png) para indicar que la vista se comparte públicamente.
 
-   ![](assets/public-shared-view-icon-highlighted.png)
+   >>
+   [!TIP]
+   >
+   >Las vistas sin un icono de persona o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
+
 
 1. (Opcional) Pegue el vínculo que ha copiado en un correo electrónico, mensaje de chat, documento o comentario de Workfront para compartirlo con otros usuarios.
 
