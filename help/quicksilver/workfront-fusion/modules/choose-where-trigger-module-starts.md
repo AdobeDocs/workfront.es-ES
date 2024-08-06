@@ -7,9 +7,9 @@ description: Algunos módulos de déclencheur le permiten seleccionar el primer 
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ También puede especificar si desea recuperar todos los paquetes o solo los paqu
 Para obtener más información acerca de los módulos de déclencheur, consulte la sección [Módulos de Déclencheur](../../workfront-fusion/modules/module-types.md#triggers) en el artículo [Tipos de módulos](../../workfront-fusion/modules/module-types.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
@@ -60,6 +62,8 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Elija dónde se inicia un módulo de déclencheur
 
