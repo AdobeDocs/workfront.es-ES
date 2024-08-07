@@ -6,9 +6,9 @@ description: El proceso de aprobación de hojas de horas proporciona a los admin
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
    <td> <p>Nuevo: estándar</p>
-   <p>Actual: plan </p> </td> 
+   <p>Actual: plan </p> 
+   <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a hojas de horas y horas </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Designar aprobadores de hojas de horas
 
-Normalmente, los administradores funcionales o el personal de recursos humanos aprueban las hojas de horas. (Los jefes de proyecto no suelen aprobar las hojas de horas).
+Normalmente, los administradores funcionales o el personal de recursos humanos aprueban las hojas de horas. Los jefes de proyecto no suelen aprobar las hojas de horas. Los jefes de proyecto pueden aprobar los proyectos con registro de tiempo, pero los jefes de equipo o de recursos humanos deben aprobar las plantillas de horas.
 
 Se define un aprobador de hoja de horas al crear el perfil de hoja de horas. Debe contar con una licencia de planificación para ser designado como aprobador.
 

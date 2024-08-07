@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,21 @@ Para obtener más información acerca de los requisitos de acceso, consulte [Req
 
 {{step1-to-planning}}
 
+1. (Condicional) Si es administrador de Workfront, haga clic en **Mis espacios de trabajo** para obtener acceso a los espacios de trabajo que ha creado, o en **Otros espacios de trabajo** para obtener acceso a los espacios de trabajo que otros compartieron con usted. <!--change it to Workspaces I'm on-->
+
 1. Haga clic en una tarjeta del espacio de trabajo para abrirlo.
+
+<!--***********Replace the first step with this:*******
+
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
+1. To edit a workspace, do one of the following:
+
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **Edit**. 
+   * Click a workspace card to open the workspace. 
+   
+   ***********Add (Conditional) If you clicked a workspace card,**********-->
+
 1. Haga clic dentro del nombre del área de trabajo en el encabezado de la nueva área de trabajo para cambiarle el nombre y, a continuación, presione **Entrar**.
 1. Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del área de trabajo en el encabezado y, a continuación, haga clic en **Editar**.
 
