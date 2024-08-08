@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
+source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Esta página describe actualizaciones menores de la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo del cuarto trimestre de 2024.
 
 Para obtener una lista de todos los cambios disponibles con la versión del cuarto trimestre de 2024, consulte [Información general de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Actualizaciones de aspecto y funcionamiento para la página Preferencias del sistema
+
+>[!NOTE]
+>
+>Versión de vista previa: 18 de julio de 2024; producción para versión rápida: con la versión 24.9 (septiembre de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
+
+Hemos actualizado la página Configuración > Sistema > Preferencias a un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para obtener más información, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Actualización de aspecto y funcionamiento para eliminar mensajes de usuario y desactivar mensajes de usuario
 

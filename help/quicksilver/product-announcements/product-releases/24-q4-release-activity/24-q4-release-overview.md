@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 ## Mejoras de Adobe Workfront
 
 * [Mejoras del proyecto](#project-enhancements)
+* [Mejoras de integración](#integration-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras del proyecto
@@ -95,6 +96,42 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 </tr>
            </tbody>
         </table>
+
+### Mejoras de integración
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Característica</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en la experiencia de inicio de sesión de integración con Outlook</a></p>
+                        <p>La experiencia de inicio de sesión para la integración con Outlook se ha optimizado para que todos los clientes vean el mismo botón para iniciar sesión en Workfront, independientemente de si están habilitados para IMS o no. Los pasos de inicio de sesión siguientes siguen siendo diferentes para las instancias de IMS y no de IMS, pero la página inicial es la misma para todos los usuarios.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 6 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Lanzamiento de producción para todos los clientes: 6 de agosto de 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 
 ### Otras mejoras
 
