@@ -1,5 +1,5 @@
 ---
-title: Ejemplos del campo Búsqueda externa en un formulario personalizado
+title: Ejemplos del campo de búsqueda externa en un formulario personalizado
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,22 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
-# Ejemplos del campo Búsqueda externa en un formulario personalizado
+# Ejemplos del campo de búsqueda externa en un formulario personalizado
 
 Un campo de búsqueda externa en un formulario personalizado llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o más de estas opciones en la lista desplegable.
 
-Este artículo proporciona ejemplos del uso del campo Búsqueda externa para llamar a la misma instancia de Workfront o a una API pública. También puede utilizar la búsqueda externa para comunicarse con un sistema externo como Jira, Salesforce o ServiceNow.
+Este artículo proporciona ejemplos del uso del campo Búsqueda externa para llamar a la misma instancia de Workfront o a una API pública. También puede utilizar la Búsqueda externa para comunicarse con un sistema externo como Jira, Salesforce o ServiceNow.
 
 Para obtener más información sobre cómo agregar un campo de búsqueda externa a un formulario personalizado y definiciones adicionales de los componentes de búsqueda externa, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Configure un campo de búsqueda externa para la misma instancia de Workfront
+## Configurar un campo de búsqueda externa para la misma instancia de Workfront
 
 Puede utilizar la búsqueda externa para introducir datos de la instancia de Workfront en el formulario personalizado.
 
@@ -107,11 +107,11 @@ Este ejemplo muestra cómo llamar a la API de Workfront e introducir datos de un
 
 1. Haga clic en **Aplicar**.
 
-   Cuando se agrega el formulario personalizado a un objeto de Workfront, todos los valores del campo &quot;Colores combinados&quot; aparecen en la lista desplegable del campo Búsqueda externa.
+   Cuando se agrega el formulario personalizado a un objeto de Workfront, todos los valores del campo &quot;Colores combinados&quot; aparecen en la lista desplegable Campo de búsqueda externa.
 
 ## Configurar un campo de búsqueda externa para una API pública
 
-Puede utilizar la búsqueda externa para llamar a una API pública externa y recuperar datos.
+Puede utilizar la Búsqueda externa para llamar a una API pública externa y recuperar datos.
 
 Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.org/data/v1/countries>) para que no tenga que codificar en el código todos los nombres de países en las opciones desplegables.
 
@@ -131,7 +131,7 @@ Lista todos los países: <https://api.first.org/data/v1/countries>
    Permite que el usuario busque un país en una región: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * Las regiones disponibles se definen en un campo personalizado independiente en Workfront.
-   * Cuando el usuario selecciona una región en el formulario, el campo Búsqueda externa muestra solo los países de esa región (qué país está en la región definida en la API). El usuario también puede buscar un país en la región seleccionada.
+   * Cuando el usuario selecciona una región en el formulario, el campo Búsqueda externa muestra solo los países de esa región (qué país está en qué región se define en la API). El usuario también puede buscar un país en la región seleccionada.
 
 1. Revise las **dependencias** para los campos a los que hace referencia este campo de búsqueda en la API.
 
@@ -167,3 +167,23 @@ Lista todos los países: <https://api.first.org/data/v1/countries>
    ![Formulario personalizado con campo de búsqueda externa](assets/external-lookup-countries-example1.png)
 
    ![Opciones de búsqueda externa para un país según la región](assets/external-lookup-countries-example2.png)
+
+## Casos de uso adicionales para campos de búsqueda externos
+
+Existen muchos otros casos de uso para crear una búsqueda externa.
+
+**Caso de uso:** Reemplace los campos de escritura anticipada, ya que pueden causar problemas con los informes.
+**Solución:** Use una llamada API a los objetos existentes en el sistema.
+
+Ejemplo de URL de API base para plantillas, para reemplazar un campo de escritura anticipada:
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**Caso de uso:** Cree campos desplegables con más características (por ejemplo, hay ajuste de línea en el campo de búsqueda externa).
+**Solución:** Use una llamada API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada API a este objeto.
+
+**Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para equipos y campos de alto mantenimiento.
+**Solución:** Cree un nuevo objeto y use una llamada API a este objeto.
+
+**Caso de uso:** Integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
+**Solución:** Automatización de Webhook/Fusion para conectarse a otros sistemas.
+

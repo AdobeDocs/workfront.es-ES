@@ -5,18 +5,14 @@ description: Puede ver listas de objetos en  [!DNL Adobe Workfront]  para obtene
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
 
 # Introducción a las listas de [!DNL Adobe Workfront]
-
-<!--
-{{highlighted-preview}}
--->
 
 Puede ver listas de objetos en [!DNL Adobe Workfront] para obtener información sobre ellos, como sus fechas de inicio y vencimiento, los usuarios asignados a ellos y otros objetos asociados a ellos.
 
@@ -208,12 +204,10 @@ A continuación se muestran algunos tipos de listas de objetos que se pueden enc
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">Lista de formularios personalizados</td> 
+   <td>Lista de formularios personalizados</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[!UICONTROL Configuración] &gt;[!UICONTROL Forms personalizado]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>NOTA</b>: Actualmente solo está disponible en el entorno de vista previa</p> </li> 
+     <li>[!UICONTROL Configuración] &gt;[!UICONTROL Forms personalizado] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
