@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Puede designar a los usuarios como informes directos para otro usuario. Esto le permite crear un organigrama que muestra la estructura de administración de su organización.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Puede designar a los usuarios como informes directos para otro usuario. Esto le permite crear un organigrama que muestra la estructura de administración de su organización. Para obtener más información, vea [Ver el organigrama](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -46,6 +48,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Creación de informes directos
 
 1. Empiece a editar un usuario como se describe en [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -54,6 +58,5 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    Este campo no puede estar en blanco.
 
 1. En el campo **Subordinados directos**, especifique los usuarios que informan al usuario que está editando.
-
 1. (Opcional) En el campo **Notificar a**, especifique el nombre del usuario ante el que informa este usuario.
 1. Haga clic en **Guardar cambios**.

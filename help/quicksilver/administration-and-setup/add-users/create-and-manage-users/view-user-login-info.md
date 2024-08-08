@@ -1,16 +1,16 @@
 ---
-title: Ver información de inicio de sesión del usuario
+title: Ver información de inicio de sesión de usuario
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Puede ver la frecuencia con la que los usuarios inician sesión en Workfront, así como la última vez que lo hicieron, indicando que desea incluir esta información en la vista de una lista de usuarios o en un informe para usuarios.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 Puede ver la frecuencia con la que los usuarios inician sesión en Adobe Workfront, así como la última vez que lo hicieron, indicando que desea incluir esta información en la vista de una lista de usuarios o en un informe para usuarios.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -45,6 +47,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Cómo registra Workfront la información de inicio de sesión
 

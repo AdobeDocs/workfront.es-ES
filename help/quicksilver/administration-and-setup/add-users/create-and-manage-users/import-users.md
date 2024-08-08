@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Puede importar usuarios al sitio de Adobe Workfront sincronizando los usuarios desde un servicio de directorio de red (como Active Directory u otro directorio LDAP), o puede importar usuarios mediante un archivo de importación de hoja de cálculo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Puede importar usuarios mediante un archivo de importación de hoja de cálculo.
 Antes de crear un nuevo usuario, asegúrese primero de que ha creado todos los objetos que desea asociar con el usuario. Por ejemplo, si no ha creado una programación, no puede asignarla al nuevo usuario y el campo que utiliza para asociarla no aparece en la pantalla Nuevo usuario.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -60,9 +62,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Uso de un archivo de importación de hoja de cálculo para importar usuarios
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Haga clic en la flecha desplegable **Nuevo usuario** y luego haga clic en **Importar usuarios**.
 

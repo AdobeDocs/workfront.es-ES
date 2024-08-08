@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,8 @@ Cuando un usuario abandona la organización, puede eliminarlo de Adobe Workfront
 -->
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -59,6 +61,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Eliminar o desactivar un usuario
 
@@ -118,9 +122,8 @@ Puede eliminar usuarios de forma permanente de uno en uno, o bien puede eliminar
 
 ## Eliminar uno o más usuarios
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step-1-to-users}}
 
-1. Haga clic en **Usuarios**.
 1. Seleccione al menos un usuario que desee eliminar, haga clic en el menú Más ![](assets/more-icon.png) y luego haga clic en **Eliminar**.
 1. En el cuadro que aparece, haga clic en **Eliminar** para confirmar la eliminación.
 

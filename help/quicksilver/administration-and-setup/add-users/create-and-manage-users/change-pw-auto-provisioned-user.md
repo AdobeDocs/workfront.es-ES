@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Cambiar la contraseña de un usuario aprovisionado automáticamente
-description: A menudo, cuando un nuevo usuario intenta cambiar su contraseña temporal, introduce su dirección de correo electrónico y recibe un error por un nombre de usuario incorrecto. Deben introducir el nombre de usuario asignado por el sistema, que es su identificador único global (GUID). Dado que un GUID es difícil de recordar y usar, se recomienda cambiar el nombre de usuario de un nuevo usuario a su dirección de correo de Workfront y, a continuación, permitirle que cambie su contraseña.
-author: Caroline
+description: Le recomendamos que cambie el nombre de usuario de un nuevo usuario a su dirección de correo de Workfront y que, a continuación, le permita cambiar su contraseña.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Dado que los nombres de usuario GUID pueden ser difíciles de usar, se recomiend
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Cambiar la contraseña de un usuario aprovisionado automáticamente
 
