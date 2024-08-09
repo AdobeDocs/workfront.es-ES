@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Activar o desactivar las versiones rápidas para su organización
+title: Activación o desactivación de las versiones rápidas para su organización
 description: Puede seleccionar si desea recibir las nuevas funciones de Workfront con periodicidad mensual o trimestral.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Tenga en cuenta lo siguiente al habilitar o deshabilitar el proceso de liberaci�
 
 Para activar o desactivar el proceso de liberación rápida:
 
-1. Haga clic en el icono **Menú principal** y, a continuación, haga clic en **Configurar**.
+{{step-1-to-setup}}
+
 1. Expanda **Sistema** en el panel de navegación izquierdo y luego haga clic en **Preferencias**.
 1. Para habilitar las versiones rápidas, marque la casilla de verificación **Permitir proceso de publicación rápido**.
 

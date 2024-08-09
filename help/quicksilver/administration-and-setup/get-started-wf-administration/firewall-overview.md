@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Resumen del cortafuegos
 description: Dado que Adobe Workfront se comunica con la red de su organización, el cortafuegos de esta debe configurarse para permitir dicha comunicación. Los firewalls son medidas de seguridad muy efectivas que funcionan al separar la red de una organización de Internet. Garantizan que solo los datos seleccionados y el tráfico de red puedan entrar o salir de la red de la organización. El cortafuegos permite o bloquea los datos en función del sitio que envía o recibe los datos. Como administrador de Adobe Workfront, debe asegurarse de que los datos enviados a o desde Workfront puedan pasar a través del cortafuegos de su organización.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Proporcione al administrador de red la siguiente información:
 
 ### Ver el clúster y el plan de Workfront de su organización {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Sistema** en el panel izquierdo
 1. Para ver el clúster, seleccione **Información del cliente**.

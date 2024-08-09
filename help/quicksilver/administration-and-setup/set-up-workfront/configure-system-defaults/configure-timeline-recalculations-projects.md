@@ -4,13 +4,13 @@ product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: Configurar cálculos de escala de tiempo para proyectos
 description: Volver a calcular las escalas de tiempo permite a los administradores ver cómo las fuerzas fuera del proyecto están impactando en la cronología del proyecto. La cronología de un proyecto hace referencia a las fechas planificadas y proyectadas del proyecto.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Como administrador de [!DNL Adobe Workfront], puede recalcular manualmente las e
 Este artículo describe cómo usted, como administrador de [!DNL Workfront], puede determinar cómo y cuándo [!DNL Workfront] calcula automáticamente las escalas de tiempo del proyecto mediante la configuración de las preferencias del proyecto en el área [!UICONTROL Configuración].
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -46,11 +48,13 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar cálculos automáticos
 
 Como administrador de [!DNL Adobe Workfront], puede configurar cuándo [!DNL Workfront] recalcula automáticamente las escalas de tiempo del proyecto. [!DNL Workfront] puede recalcular las escalas de tiempo del proyecto cada noche o cuando cambie el ámbito del proyecto, o ambas cosas.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en el icono [!UICONTROL **Menú principal**] ![](assets/lines-main-menu.png) en la esquina superior izquierda de [!DNL Workfront], si está disponible, y luego haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **[!UICONTROL Preferencias de proyecto]** > **[!UICONTROL Proyectos].**
 

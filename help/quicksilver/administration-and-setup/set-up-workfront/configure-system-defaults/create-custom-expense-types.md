@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear tipos de gastos personalizados
 description: Como administrador, puede crear tipos de gastos personalizados para definir y realizar un seguimiento de los gastos asociados con sus tareas y proyectos.  [!DNL Adobe Workfront]  Los gastos son costos no laborales que pueden asociarse con tareas o proyectos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Como administrador de [!DNL Adobe Workfront], puede crear tipos de gastos person
 Puede editar o eliminar cualquier tipo de gasto que cree. No puede eliminar ni editar los tipos de gastos integrados de [!DNL Workfront].
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -46,6 +48,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Tipos de gastos predeterminados
 
 Los tipos de gastos que se encuentran en [!DNL Workfront] de manera predeterminada no se pueden eliminar ni editar; incluyen los siguientes:
@@ -59,7 +63,8 @@ Los tipos de gastos que se encuentran en [!DNL Workfront] de manera predetermina
 
 ## Crear tipos de gastos personalizados
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Haga clic en **[!UICONTROL Tipos de gastos]**.
 1. Haga clic en **[!UICONTROL Nuevo tipo de gasto]**.
 1. En el cuadro **[!UICONTROL Nuevo tipo de gasto]** que se muestra, especifique la siguiente información:
@@ -101,7 +106,8 @@ Los tipos de gastos que se encuentran en [!DNL Workfront] de manera predetermina
 
 ## Modificar tipos de gastos personalizados
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Haga clic en **[!UICONTROL Tipos de gastos]**.
 1. Seleccione el tipo de gasto que desea modificar y luego haga clic en **[!UICONTROL Editar]**.
 

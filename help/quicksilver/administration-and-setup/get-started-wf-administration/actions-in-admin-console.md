@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)
 description: Si su organización se ha incorporado a Adobe Business Platform, los usuarios utilizan Adobe Business Platform para acceder a Adobe Workfront. Esto significa que la administración de usuarios se realiza en gran medida a través de Adobe Admin Console y que el inicio de sesión único (SSO) se gestiona a través de Adobe Business Platform en lugar de a través de Workfront. Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración difieren en función de si su organización se ha incorporado a Adobe Business Platform. Este artículo enumera los procedimientos que deben gestionarse de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

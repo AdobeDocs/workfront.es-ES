@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
-title: Crear y editar reglas empresariales
+title: Crear y editar reglas de negocio
 description: Una regla de negocio permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas empresariales ayudan a mejorar la calidad de los datos y la eficacia operativa mediante la prevención de acciones que podrían poner en peligro la integridad de los datos.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%

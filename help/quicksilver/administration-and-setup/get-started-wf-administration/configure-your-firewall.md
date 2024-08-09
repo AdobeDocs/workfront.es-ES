@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configuración de la lista de permitidos del cortafuegos
+title: Configuración de la Lista de permitidos del cortafuegos
 description: Si el cortafuegos o el servidor de correo están configurados para permitir el acceso solo a determinados proveedores, debe añadir determinadas direcciones IP a su lista de permitidos. Esto abre la comunicación entre su entorno y los servidores de Adobe Workfront y permite a los usuarios enviar mensajes desde Workfront y utilizar SSO con Active Directory o LDAP.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ Las direcciones IP que debe agregar a la lista de permitidos en el cortafuegos d
 
 Para localizar el clúster de su organización:
 
-1. Como administrador de Workfront, haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Configurar**.
+{{step-1-to-setup}}
+
 1. En el panel de navegación izquierdo, haga clic en **Sistema** y, a continuación, seleccione **Información del cliente**.
 1. Busque el campo **Configuración de clúster** en la esquina superior derecha de la página. El clúster de su organización se muestra aquí.
 

@@ -5,12 +5,12 @@ product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Configurar valores predeterminados del sistema
 description: Como administrador, puede configurar los valores predeterminados del sistema, como las preferencias de todos los proyectos que creen los usuarios. [!DNL Adobe Workfront]
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%

@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
-title: Administrar las licencias disponibles en el sistema
+title: Administrar licencias disponibles en el sistema
 description: Como administrador de Adobe Workfront, puede acceder a información sobre su cuenta de Workfront, incluido el número de licencias adquiridas para su organización, así como el número de esas licencias que se utilizan actualmente.
 author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%

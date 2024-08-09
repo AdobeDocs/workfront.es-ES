@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear, editar y compartir filtros, vistas y agrupaciones predeterminados
 description: Puede crear filtros, vistas y agrupaciones predeterminadas y, a continuación, ponerlas a disposición de los usuarios de su organización.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Puede crear filtros, vistas y agrupaciones predeterminadas y, a continuación, p
 Cuando se crean filtros, vistas y agrupaciones predeterminadas como se describe en este artículo, los usuarios con los que se comparten pueden aprovecharlas al ver sus listas. Los usuarios pueden crear sus propios filtros, vistas y agrupaciones en función de los que cree, pero no pueden cambiar directamente los que cree.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,6 +49,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Crear filtros, vistas o agrupaciones predeterminadas
 

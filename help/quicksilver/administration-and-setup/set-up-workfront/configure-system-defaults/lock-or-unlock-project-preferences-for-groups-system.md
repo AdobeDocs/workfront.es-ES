@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Bloquear o desbloquear las preferencias de proyecto de todos los grupos del sistema
+title: Bloquear o desbloquear las preferencias de proyecto para todos los grupos del sistema
 description: Es posible que los grupos de su organización necesiten una preferencia de proyecto configurada de forma diferente para sus flujos de trabajo únicos. Puede desbloquear la preferencia de todos los grupos de la organización para que puedan configurarla ellos mismos.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Es posible que los grupos de su organización necesiten una preferencia de proye
 Cuando una preferencia está desbloqueada y el administrador del grupo la modifica, los proyectos asociados con el grupo adquieren la configuración de dicha preferencia desde la configuración de nivel de grupo en lugar de desde la configuración de nivel de sistema.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -44,6 +46,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Acerca de las preferencias bloqueadas y desbloqueadas
 
 Bloquear una preferencia de proyecto, tarea o problema que haya configurado en el sistema garantiza que todos utilicen la misma configuración para esa preferencia. Aunque puede volver a configurar una preferencia que haya bloqueado, los administradores de grupos no podrán volver a configurarla para sus grupos.
@@ -60,7 +64,7 @@ Para obtener instrucciones sobre cómo bloquear o desbloquear un proyecto, tarea
 
 ## Desbloquear una preferencia de proyecto para que los grupos puedan configurarla
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **[!UICONTROL Preferencias del proyecto]** y, a continuación, haga clic en **[!UICONTROL Proyectos]**.
 
