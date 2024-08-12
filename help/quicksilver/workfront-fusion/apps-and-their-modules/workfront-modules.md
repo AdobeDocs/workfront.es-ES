@@ -9,7 +9,7 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -145,12 +145,12 @@ Al configurar [!DNL Workfront] módulos, [!DNL Workfront Fusion] muestra los cam
 
 Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* Si no ve los campos más actualizados en un módulo de Workfront, puede deberse a problemas de almacenamiento en caché. Espere una hora e inténtelo de nuevo.
 >* Los códigos de estado HTTP 429 de Adobe Workfront no deben provocar desactivaciones, sino almacenar en déclencheur una breve pausa en la ejecución en el escenario.
-
-![](assets/map-toggle-350x74.png)
 
 * [Déclencheur](#triggers)
 * [Acciones](#actions)
