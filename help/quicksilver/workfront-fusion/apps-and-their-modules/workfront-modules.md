@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '6259'
+source-wordcount: '6280'
 ht-degree: 2%
 
 ---
@@ -147,7 +147,8 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 >[!NOTE]
 >
->Si no ve los campos más actualizados en un módulo de Workfront, puede deberse a problemas de almacenamiento en caché. Espere una hora e inténtelo de nuevo.
+>* Si no ve los campos más actualizados en un módulo de Workfront, puede deberse a problemas de almacenamiento en caché. Espere una hora e inténtelo de nuevo.
+>* Los códigos de estado HTTP 429 de Adobe Workfront no deben provocar desactivaciones, sino almacenar en déclencheur una breve pausa en la ejecución en el escenario.
 
 ![](assets/map-toggle-350x74.png)
 
