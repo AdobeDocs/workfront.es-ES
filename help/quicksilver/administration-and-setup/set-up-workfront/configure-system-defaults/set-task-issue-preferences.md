@@ -118,7 +118,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando se convierte un problema en una tarea</td> 
+    <td role="rowheader">[!UICONTROL Cuando se convierte un problema en una tarea]</td> 
     <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a una tarea:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Mantener el problema original y enlazar su resolución a la tarea]</strong>: Cuando convierta el problema, permanecerá visible como un problema hasta que se complete la tarea. El estado del problema cambia automáticamente a [!UICONTROL Cerrado] cuando finaliza la tarea. Si no selecciona esta opción, se elimina el problema.</p> <p><b>NOTA</b>:  <p>Los usuarios sin acceso o permisos para eliminar problemas no podrán eliminar el problema a medida que lo vayan convirtiendo, independientemente del estado de esta configuración. Para obtener información sobre el acceso y los permisos a los problemas, consulte:</p> 
