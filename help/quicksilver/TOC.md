@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
+source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14309'
 ht-degree: 1%
 
 ---
@@ -804,9 +804,6 @@ ht-degree: 1%
       * [Configurar un modelo](administration-and-setup/blueprints/configure-template-package.md)
       * [Acciones que se deben realizar después de instalar un modelo](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [Lista de modelos disponibles](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * Preguntas frecuentes del administrador {#admin-faq}
-      * [Preguntas frecuentes del administrador](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-      * [Política de asistencia de AtTask OnPremise](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
    * Administración en Adobe Admin Console {#admin-in-admin-console}
       * [Administración de Workfront en Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Prepararse para el Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
