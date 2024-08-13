@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 58%
+source-wordcount: '292'
+ht-degree: 56%
 
 ---
 
@@ -22,6 +22,8 @@ Las plantillas de diseño de la experiencia clásica de Workfront ya no están d
 Puede resolver estas incoherencias eliminando las plantillas de diseño clásicas. Dado que no están disponibles en la interfaz de Workfront, el usuario debe utilizar la API de Workfront para eliminarlos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -43,6 +45,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Eliminar las plantillas de diseño clásicas mediante una llamada de API
 

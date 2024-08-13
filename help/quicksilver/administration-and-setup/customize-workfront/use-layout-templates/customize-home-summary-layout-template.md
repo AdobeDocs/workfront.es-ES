@@ -1,5 +1,5 @@
 ---
-title: Personalizar Inicio y resumen mediante una plantilla de diseño
+title: Personalizar Inicio y Resumen Mediante una Plantilla de Diseño
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar Inicio y resumen mediante una plantilla de diseño
 

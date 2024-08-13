@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 >Cuando Solicitudes se establece como página de aterrizaje, los usuarios colaboradores o solicitantes asignados a la plantilla de diseño ven la página de inicio como página de aterrizaje. ¿Se recomienda elegir una página de aterrizaje que no sea Solicitudes para plantillas de diseño destinadas a usuarios colaboradores o solicitantes?
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -52,6 +54,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar la página de aterrizaje
 

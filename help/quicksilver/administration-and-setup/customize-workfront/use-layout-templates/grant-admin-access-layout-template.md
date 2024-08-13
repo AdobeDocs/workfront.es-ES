@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Para obtener más información acerca de las plantillas de diseño, vea [Crear y
 Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,6 +49,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Concesión de acceso administrativo a una plantilla de diseño
 

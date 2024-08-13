@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,8 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -66,6 +68,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalización de la terminología de interfaz de usuario
 

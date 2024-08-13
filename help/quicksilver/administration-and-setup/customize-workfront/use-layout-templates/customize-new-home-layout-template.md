@@ -1,5 +1,5 @@
 ---
-title: Personalizar una nueva página de inicio con una plantilla de diseño
+title: Personalizar una nueva página de inicio mediante una plantilla de diseño
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar una nueva página de inicio con una plantilla de diseño
 

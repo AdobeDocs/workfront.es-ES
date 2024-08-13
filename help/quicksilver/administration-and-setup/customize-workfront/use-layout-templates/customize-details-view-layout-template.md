@@ -1,5 +1,5 @@
 ---
-title: Personalización de la vista Detalles mediante una plantilla de diseño
+title: Personalización de la vista de detalles mediante una plantilla de diseño
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,8 @@ Para obtener información acerca de las plantillas de diseño para grupos, vea [
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo</p> <p><b>NO
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar lo que los usuarios ven en la vista Detalles
 

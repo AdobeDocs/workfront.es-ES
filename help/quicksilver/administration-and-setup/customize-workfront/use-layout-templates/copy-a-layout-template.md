@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Para obtener más información acerca de las plantillas de diseño, vea [Crear y
 Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,9 +49,11 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
  </tbody> 
 </table>
 
++++
+
 ## Copiar una plantilla de diseño
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Interfaz** > **Plantillas de diseño**.
 

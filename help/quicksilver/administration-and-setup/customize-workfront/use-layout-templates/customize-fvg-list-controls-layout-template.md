@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Para obtener información acerca de las plantillas de diseño para grupos, vea [
 Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -50,6 +52,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar controles de lista de filtro, vista y agrupación:
 

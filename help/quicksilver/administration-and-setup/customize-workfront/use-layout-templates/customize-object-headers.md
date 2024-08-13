@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Para obtener información acerca de las plantillas de diseño para grupos, vea [
 Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -59,6 +61,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea [Crear o modificar niveles de acceso personalizados](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+
++++
 
 ## Personalizar encabezados de objeto
 

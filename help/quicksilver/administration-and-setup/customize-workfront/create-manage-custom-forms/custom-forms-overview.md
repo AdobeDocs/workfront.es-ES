@@ -1,5 +1,5 @@
 ---
-title: Información general sobre formularios personalizados
+title: Información general de Forms personalizado
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 10%
+source-wordcount: '441'
+ht-degree: 9%
 
 ---
 
 # Información general sobre formularios personalizados
 
 <!--Audited: 12/2023-->
+
+{{highlighted-preview}}
 
 {{form-designer-default}}
 
@@ -30,6 +32,8 @@ Por ejemplo, puede adjuntar un formulario personalizado llamado &quot;Investigac
 ## Cómo crear un formulario personalizado
 
 El diseñador de formularios tiene un área de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo. También permite arrastrar y soltar campos dentro de las secciones al diseñar el formulario. Puede cambiar el tamaño del lado derecho de la pantalla para proporcionar más espacio para las opciones de campo.
+
+<span class="preview">Un botón **Diseño** (no se muestra en esta imagen) le permite elegir entre un área de trabajo de dos o tres columnas. El botón indica qué diseño está seleccionado actualmente. El diseño de tres columnas muestra la configuración de campo en la columna del extremo derecho. En el diseño de dos columnas, la configuración del campo se muestra junto a la biblioteca de campos en la columna del extremo izquierdo.</span>
 
 Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
