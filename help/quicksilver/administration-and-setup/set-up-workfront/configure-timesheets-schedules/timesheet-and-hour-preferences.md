@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Configurar preferencias de horas y hojas de horas
+title: Configurar las preferencias de horas y hojas de horas
 description: Como administrador de  [!DNL Adobe Workfront] puede especificar preferencias para hojas de horas y horas en [!DNL Workfront] para definir con qué elementos pueden rellenar previamente las hojas de horas y con qué elementos pueden registrar los usuarios el tiempo.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Como administrador de [!DNL Adobe Workfront], puede especificar preferencias par
 >
 >Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md) y [Resumen de hoja de horas](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-
-
 Cualquier cambio que realice en las hojas de horas afectará a todas las que se creen en el futuro.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -64,6 +64,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Establecer preferencias de horas y hojas de horas
 

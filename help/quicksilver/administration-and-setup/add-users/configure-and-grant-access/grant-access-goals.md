@@ -1,16 +1,16 @@
 ---
-title: Concesión de acceso a Adobe Workfront Goals
+title: Conceder acceso a Adobe Workfront Goals
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para definir el acceso de un usuario a los objetivos de Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Como administrador de Adobe Workfront, puede usar un nivel de acceso para definir el acceso de un usuario a las Metas de Adobe Workfront, como se explica en [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para conceder a los usuarios acceso a los objetivos de Workfront:
 
@@ -49,6 +51,8 @@ Debe tener lo siguiente para conceder a los usuarios acceso a los objetivos de W
 &#42;Para saber qué plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con el administrador de Workfront.
 
 Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
++++
 
 ## Conceder acceso al usuario a las Metas de Workfront mediante un nivel de acceso personalizado
 

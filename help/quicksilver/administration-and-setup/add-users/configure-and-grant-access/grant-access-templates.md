@@ -1,16 +1,16 @@
 ---
-title: Concesión de acceso a las plantillas
+title: Conceder acceso a las plantillas
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: configure-access-to-workfront
 description: Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para definir el acceso de un usuario a las plantillas de Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c8e6af1b-8cf3-4522-b0eb-7e5f2d34f5a9
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 Para obtener información acerca del uso de niveles de acceso personalizados para administrar el acceso de los usuarios a otros tipos de objetos en Workfront, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -45,6 +47,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configuración del acceso de los usuarios a las plantillas mediante un nivel de acceso personalizado
 

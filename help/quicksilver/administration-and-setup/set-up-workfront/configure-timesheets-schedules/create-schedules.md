@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Creación de una programación
+title: Crear un horario
 description: Puede definir las semanas laborables de los usuarios con horarios. Puede asociar una programación a un usuario o proyecto. Esto permite a [!DNL Workfront] calcular las escalas de tiempo y la disponibilidad del usuario.
 author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%

@@ -6,14 +6,14 @@ keywords: acceso,modelo,canal,diagrama,niveles,permisos
 navigation-topic: access-levels
 title: Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso
 description: En las tablas siguientes se enumeran las funciones disponibles para cada tipo de objeto en los distintos niveles de acceso.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 45890d5d9346baebe0984d581828c778d98eec5a
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 12%
+source-wordcount: '1610'
+ht-degree: 11%
 
 ---
 
@@ -325,7 +325,7 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Editar prioridades y horas presupuestadas en el Planificador | ✓&#42; |   |   |   |
 | Crear, editar y eliminar conjuntos de recursos&#42;&#42; | ✓&#42; |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
+| Actualizar horas planificadas en el Distribuidor de cargas de trabajo&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Ver las prioridades del proyecto en el Planificador de recursos | ✓&#42; |   |   |   |
 | Ver la asignación de recursos en las herramientas de planificación de recursos | ✓&#42; | ✓&#42; |   |   |
 | Ver conjuntos de recursos | ✓&#42; | ✓&#42; |   |   |

@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configuración de Adobe Workfront con SAML 2.0 mediante ADFS
 description: Puede habilitar la autenticación en Workfront con SAML 2.0.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Como administrador de Adobe Workfront, puede integrar Workfront con una solució
 Esta guía se centra en la configuración de ADFS sin aprovisionamiento automático ni asignaciones de atributos. Le recomendamos que complete la configuración y la pruebe antes de configurar cualquier aprovisionamiento automático.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -46,6 +48,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Habilitar la autenticación en Workfront con SAML 2.0
 
 Para habilitar la autenticación en la aplicación web de Workfront y la aplicación móvil de Workfront con SAML 2.0, complete las siguientes secciones:
@@ -57,7 +61,8 @@ Para habilitar la autenticación en la aplicación web de Workfront y la aplicac
 
 ### Recuperación del archivo de metadatos SSO de Workfront {#retrieve-the-workfront-sso-metadata-file}
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. En el panel izquierdo, haga clic en **Sistema** > **Inicio de sesión único (SSO)**.
 1. En el menú desplegable **Tipo**, haga clic en **SAML 2.0** para mostrar información y opciones adicionales.
 1. Copie la dirección URL que se muestra después de **URL de metadatos**.

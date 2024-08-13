@@ -4,13 +4,13 @@ content-type: overview
 product-area: system-administration;timesheets
 keywords: usuario, programación
 navigation-topic: configure-timesheets-and-schedules
-title: Información general sobre horarios
+title: Resumen de horarios
 description: Puede definir la semana laboral utilizando los horarios. Puede asociar una programación a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront] calcular las escalas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte Creación de una programación.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
