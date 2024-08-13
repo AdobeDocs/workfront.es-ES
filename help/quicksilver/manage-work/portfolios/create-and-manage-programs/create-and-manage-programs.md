@@ -2,22 +2,23 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Creación y administración de programas
-description: Los programas representan una colección de proyectos que comparten una estrategia, un objetivo o una meta común que trasciende los límites del proyecto. Los programas no pueden existir fuera de un portafolio.
+title: Crear y administrar programas
+description: Los programas representan una colección de proyectos que comparten una estrategia, un objetivo o una meta común que trasciende los límites del proyecto. Los programas son una subdivisión de portafolios y no pueden existir fuera de un portafolio.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # Creación y administración de programas
 
-Los programas representan una colección de proyectos que comparten una estrategia, un objetivo o una meta común que trasciende los límites del proyecto. Los programas no pueden existir fuera de un portafolio.
+Los programas representan una colección de proyectos que comparten una estrategia, un objetivo o una meta común que trasciende los límites del proyecto.
+Los programas son una subdivisión de portafolios y no pueden existir fuera de un portafolio.
 
 Esta sección contiene los siguientes artículos:
 
