@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '14309'
-ht-degree: 1%
+source-wordcount: '14317'
+ht-degree: 2%
 
 ---
 
@@ -461,7 +461,7 @@ ht-degree: 1%
          * [Preferencias de administración de recursos](administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
          * [Administrar tipos de riesgos](administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
          * [Crear tipos de gastos](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
-         * [Crear un informe de valoración](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
+         * [Crear cuadro de resultados](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [Recálculos de escala de tiempo del proyecto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Trimestres personalizados para proyectos](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Activar o desactivar las versiones rápidas para su organización](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
@@ -473,8 +473,8 @@ ht-degree: 1%
          * [Información general sobre horarios](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
          * [Configurar tipos de tiempo de registro](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [Hoja de horas y preferencias de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-         * [Administrar tipos de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
-         * [Creación de una programación](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+         * [Administrar tipos de hora](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
+         * [Crear programación](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * Configuración de la organización {#organization-setup}
          * [Configuración organizativa](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Administrar compañías](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
@@ -562,7 +562,7 @@ ht-degree: 1%
       * Inicio de sesión único en Workfront {#sso}
          * [Inicio de sesión único: índice de artículos](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Información general sobre el inicio de sesión único](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-         * [Actualizar usuarios para el inicio de sesión único](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+         * [Actualizar usuarios para inicio de sesión único](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Configuración de Workfront con SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
          * [Actualización de metadatos SAML 2.0 en el proveedor de identidad](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
          * [Configuración de Adobe Workfront con SAML 2.0 mediante ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
@@ -577,11 +577,11 @@ ht-degree: 1%
       * Personalización de marca en Adobe Workfront {#custom-branding}
          * [Personalización de marca](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [Marque su instancia](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [Configuración de una URL de ayuda personalizada](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [Configurar URL de ayuda personalizada](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * Plantillas de diseño {#layout-templates}
          * [Plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Diseño de Workfront predeterminado](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-         * [Creación y administración de plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+         * [Crear y administrar plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
          * [Personalización del menú principal](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [Personalización de encabezados de objeto mediante una plantilla de diseño](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Personalización del panel izquierdo](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
@@ -633,13 +633,13 @@ ht-degree: 1%
          * [Enumerar todos los estados de tareas](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [Estados de tarea](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [Enumerar estados de problemas](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
-         * [Creación o edición de un estado](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+         * [Crear o editar un estado](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
          * [Cambiar el orden de visualización de los estados](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
          * [Estados bloqueados y desbloqueados en el nivel del sistema](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
          * [Establecer estados personalizados como predeterminados](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
          * [Eliminar un estado personalizado](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
          * [Lista de objetos pendientes con un estado determinado](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
-         * [Creación y personalización de prioridades](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+         * [Crear y personalizar prioridades](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [Crear y personalizar gravedades de problemas](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
       * Procesos de aprobación y páginas de hito {#approvals-milestones}
          * [Procesos de aprobación y rutas de hitos](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
@@ -647,7 +647,7 @@ ht-degree: 1%
          * [Edición de un proceso de aprobación](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
          * [Configuración del proceso de aprobación global](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
          * [Cómo afectan los cambios a los procesos de aprobación asignados](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
-         * [Creación de una trayectoria del hito](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
+         * [Crear ruta de hitos](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
       * Crear y administrar condiciones personalizadas {#custom-conditions}
          * [Condiciones personalizadas](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [Creación o edición de una condición](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
@@ -687,7 +687,7 @@ ht-degree: 1%
          * [Invitaciones por correo electrónico a nuevos usuarios](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * Seguridad {#security}
          * [Seguridad](administration-and-setup/manage-workfront/security/security.md)
-         * [Configurar las preferencias del sistema](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [Configurar preferencias del sistema](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [Contraseñas para autenticación](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [Eliminación de las opciones de inicio de sesión único](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [Renovar certificado de metadatos SAML 2.0](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
@@ -695,7 +695,7 @@ ht-degree: 1%
          * [Limitar el acceso de Workfront por dirección IP](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
          * [Cifrado de archivos](administration-and-setup/manage-workfront/security/file-encryption.md)
          * [Cambiar el dominio de Workfront](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
-         * [Administración de claves API](administration-and-setup/manage-workfront/security/manage-api-keys.md)
+         * [Administrar claves API](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [Política de privacidad](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Introducción a la autenticación mejorada](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [Actualización de metadatos de SAML 2.0 en el IDP al utilizar autenticación mejorada](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
@@ -784,7 +784,7 @@ ht-degree: 1%
       * [Integraciones de Adobe Workfront](administration-and-setup/configure-integrations/workfront-integrations-1.md)
       * [Configurar la integración de  [!DNL Workfront] y [!DNL Frame.io] s](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Configuración de la integración as a Cloud Service de Experience Manager Assets](administration-and-setup/configure-integrations/configure-aacs-integration.md)
-      * [Configuración de la integración de Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Configurar la integración de Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Configuración de Workfront con el conector heredado de Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Permitir que los usuarios accedan a la aplicación móvil](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Habilitar Adobe Workfront para Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
@@ -795,7 +795,7 @@ ht-degree: 1%
       * [Cree paquetes de Creative Cloud de Adobe Workfront para los usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Creación de aplicaciones de OAuth2 para integraciones de Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Ver y administrar aplicaciones OAuth2 personalizadas](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-      * [Configuración de la integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+      * [Configurar integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
    * Modelos {#blueprints}
       * [Modelos](administration-and-setup/blueprints/blueprints.md)
       * [Información general de modelos](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1485,7 +1485,7 @@ ht-degree: 1%
    * [Equipos y grupos](people-teams-and-groups/people-teams-and-groups.md)
    * Crear y administrar equipos {#create-manage-teams}
       * [Creación y administración de equipos](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
-      * [Resumen de equipos](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+      * [Información general sobre Teams](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
       * [Crear un equipo](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
       * [Creación y administración de equipos de Agile](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [Editar configuración del equipo](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
@@ -1753,7 +1753,7 @@ ht-degree: 1%
       * [Acceso necesario a los recursos del presupuesto en Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [Resumen del Planificador de recursos](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Busque el Planificador de recursos](resource-mgmt/resource-planning/locate-resource-planner.md)
-      * [Resumen de navegación del Planificador de recursos](resource-mgmt/resource-planning/resource-planner-navigation.md)
+      * [Información general de navegación del planificador de recursos](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
       * [Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
       * [Presupuestar recursos en el Planificador de recursos utilizando las vistas Proyecto y Rol](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
@@ -1943,7 +1943,7 @@ ht-degree: 1%
       * [Resumen del diseño de hoja de horas](timesheets/timesheets/timesheet-layout.md)
    * Crear y administrar hojas de horas {#create-and-manage-timesheets-in-adobe-workfront}
       * [Crear y administrar hojas de horas: índice de artículos](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-      * [Crear, editar y asignar perfiles de hojas de horas](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+      * [Crear, editar y asignar perfiles de plantillas de horas](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definición de tipos de horas y disponibilidad](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Crear hoja de horas de un solo uso](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Editar información de hoja de horas](timesheets/create-and-manage-timesheets/edit-timesheets.md)
@@ -2039,11 +2039,13 @@ ht-degree: 1%
       * [Información general de Adobe Workfront Planning: índice de artículos](planning/general/planning-general-article-index.md)
       * [Resumen de planificación de Adobe Workfront](planning/general/planning-overview.md)
       * [Conceptos básicos de API de Adobe Workfront Planning](planning/general/planning-api-basics.md)
+      * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](planning/general/limitations-overview.md)
       * [Descripción general del Asistente de IA de Adobe Workfront Planning](planning/general/planning-ai-assistant-overview.md)
       * [Actividad de la versión actual de Adobe Workfront Planning](planning/general/release-activity.md)
       * [Archivos de actividades de la versión de Adobe Workfront Planning para 2023](planning/general/release-activity-archives-2023.md)
    * Arquitectura de Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Arquitectura: índice de artículos](planning/architecture/architecture-information.md)
+      * [Información general de Workspaces](planning/architecture/workspaces-overview.md)
       * [Creación de espacios de trabajo](planning/architecture/create-workspaces.md)
       * [Resumen de tipos de registro](planning/architecture/overview-of-record-types.md)
       * [Creación de tipos de registros](planning/architecture/create-record-types.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,14 @@ Los artículos de las secciones que se enumeran a continuación describen cómo 
 
 ## Información general sobre Adobe Workfront Planning
 
-Acceda a los siguientes artículos para obtener una descripción general de la nueva Workfront Planning:
+Acceda a los siguientes artículos para obtener información general sobre la nueva Workfront Planning:
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): Una descripción general de alto nivel de Adobe Workfront Planning, que incluye la terminología y los conceptos exclusivos de esta solución. Le recomendamos que comience su recorrido con Workfront Planning aquí.
+* [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md): Una lista de limitaciones para el número de objetos que puede crear en Workfront Planning.
 * [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md): Una lista de todas las características que se han lanzado desde el lanzamiento del programa Adobe Workfront Planning, el 22 de mayo de 2023 con fechas exactas de lanzamiento y una breve descripción general de cada característica.
 * [Descripción general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con el Asistente de IA de Workfront para Planning puede buscar registros o crear, actualizar y eliminar registros mediante comandos y dejar que el asistente haga el trabajo por usted.
 
@@ -76,7 +77,7 @@ Las secciones siguientes contienen artículos que describen en detalle las funci
    * Crear, editar y eliminar espacios de trabajo
    * Crear, editar y eliminar tipos de registros
    * Conectar tipos de registros y ejemplos de tipos de registros de conexión
-   * Plantilla de Workspace
+   * Workspace templates
 
 * [Campos: el índice de artículos](/help/quicksilver/planning/fields/fields-information.md) contiene la siguiente información:
 

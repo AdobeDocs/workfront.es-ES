@@ -1,13 +1,13 @@
 ---
-title: Información general sobre tipos de registros Connect
+title: Información general sobre tipos de registro de conexión
 description: Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar tipos de registros de Adobe Workfront Planning con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 0%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Puede indicar que los tipos de registro individuales están relacionados entre sí o con objetos de otras aplicaciones conectándolos.
 
-Este artículo es una descripción general de cómo se conectan los tipos de registro y describe los tipos de conexiones que se pueden establecer entre los tipos de registro y de objeto.
+Este artículo es una descripción general de las conexiones de tipo de registro y describe los tipos de conexiones que puede establecer entre los tipos de registro y de objeto.
 
 Para obtener información acerca de los tipos de registros que conecta, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -29,9 +29,9 @@ Para obtener información acerca de los tipos de registros que conecta, vea [Con
 
 * Puede conectar las siguientes entidades en Adobe Workfront Planning:
 
-   * Dos tipos de registros
+   * Dos tipos de registros.
 
-     Los tipos de registro deben pertenecer al mismo espacio de trabajo.
+     De forma predeterminada, puede conectar dos tipos de registros desde el mismo espacio de trabajo. También puede configurar tipos de registros para conectarse con tipos de registros de otros espacios de trabajo.
    * Tipo de registro y tipo de objeto de otra aplicación.
 
 * Puede conectar los tipos de registros de Workfront Planning con los siguientes tipos de objetos desde las siguientes aplicaciones:
@@ -70,38 +70,51 @@ Para obtener información acerca de los tipos de registros que conecta, vea [Con
       * No se puede acceder a los campos de registros de Planning desde objetos de Workfront.
       * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **Cuando agrega campos vinculados (o de búsqueda) desde el registro u objeto al que se conecta**: un campo vinculado (o de búsqueda) con información del registro al que se conecta se muestra en el registro desde el que se conecta.
+   * **Cuando agrega campos vinculados (o de búsqueda) desde el registro u objeto al que se conecta**: además de crear un campo de registro vinculado, también puede conectarse a campos desde el registro conectado o el tipo de objeto que se denominan campos de búsqueda. Un campo vinculado (o de búsqueda) con información del registro al que se está conectando se muestra en el registro desde el que se está conectando.
 
      Puede conectar campos de otros tipos de registro u objetos de otra aplicación al tipo de registro de Workfront Planning.
 
      Los campos vinculados son de sólo lectura y muestran automáticamente información de registros u objetos conectados al conectar los registros o los objetos.
 
+     Puede hacer referencia a campos de búsqueda de otros tipos de registro u objeto en fórmulas, filtros o agrupaciones.
+
      Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con un proyecto de Workfront y selecciona llevar el campo Fecha planificada de finalización del proyecto al registro de Workfront Planning, se crea automáticamente un campo vinculado llamado Fecha planificada de finalización (desde proyecto) para la campaña. Este campo vinculado no se puede editar manualmente. El campo Fecha planificada de finalización (del proyecto) muestra la fecha planificada de finalización de los proyectos vinculados.
 
      >[!IMPORTANT]
      >
-     >Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
+     >Todas las personas con permisos de Vista o superiores en el área de trabajo pueden ver la información en los campos de búsqueda, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados <!--or their permissions in other workspaces-->.
+
+<!--see the commented out text above for the release of cross-workspace connections-->
 
 * Los campos de registros vinculados están precedidos por un icono de relación ![](assets/relationship-field-icon.png).
 
   Los campos vinculados van precedidos de un icono que identifica el tipo de campo. Por ejemplo, los campos vinculados (o de búsqueda) van precedidos de iconos que indican que un campo es un número, un párrafo o una fecha.
 
-* Los campos de búsqueda van precedidos de un icono que indica el tipo de información que se muestra en el campo.
 
 ## Tipos de conexión
 
 Después de establecer una conexión entre dos tipos de registro o entre un registro y un tipo de objeto de otra aplicación, puede agregar registros en los campos de registro conectados.
 
-Según el número de registros que pueda agregar a una conexión, los siguientes son los tipos de conexión entre los que puede elegir al conectar tipos de registros:
+Según el número de registros que pueda agregar a un campo de registro conectado, los siguientes son los tipos de conexión entre los que puede elegir al conectar tipos de registros:
 
-* [Uno a varios](#one-to-many-connection-type)
+* [Uno a muchos](#one-to-many-connection-type)
 * [Uno a uno](#many-to-one-connection-type)
-* [Varios a uno](#many-to-one-connection-type)
+* [Muchos a uno](#many-to-one-connection-type)
 * [Muchos a muchos](#many-to-many-connection-type)
+
+>[!WARNING]
+>
+>Estas opciones no están disponibles al conectar lo siguiente:
+>* Dos registros de diferentes espacios de trabajo
+>
+>* AEM Un tipo de registro y recursos de
+
 
 <!-- add screen shots for each type of connection below-->
 
 ### Tipo de conexión uno a varios
+
+![](assets/one-to-many-connection-picker.png)
 
 Al seleccionar el tipo de conexión uno a varios entre los tipos de registro, puede conectar posteriormente un registro con varios registros a los que se está conectando.
 
@@ -111,6 +124,8 @@ Al seleccionar este tipo de conexión, puede cambiarlo posteriormente sólo a un
 
 ### Tipo de conexión uno a uno
 
+![](assets/one-to-one-connection-picker.png)
+
 Al seleccionar el tipo de conexión uno a uno entre tipos de registro, puede conectar posteriormente un registro con otro registro al que esté conectándose.
 
 Por ejemplo, si conecta campañas con proyectos, puede conectar una campaña con un proyecto. Un proyecto solo se puede conectar a una campaña.
@@ -118,6 +133,8 @@ Por ejemplo, si conecta campañas con proyectos, puede conectar una campaña con
 Al seleccionar este tipo de conexión, puede cambiarlo posteriormente a cualquier otro tipo de conexión.
 
 ### Tipo de conexión varios a uno
+
+![](assets/many-to-one-connection-picker.png)
 
 Al seleccionar el tipo de conexión varios a uno entre los tipos de registro, puede conectar posteriormente muchos registros con un único registro al que se está conectando.
 
@@ -127,8 +144,11 @@ Al seleccionar este tipo de conexión, puede cambiarlo posteriormente sólo a un
 
 ### Tipo de conexión &quot;varios a varios&quot;
 
+![](assets/many-to-many-connection-picker.png)
+
 Al seleccionar el tipo de conexión varios a varios entre los tipos de registro, puede conectar posteriormente muchos registros con varios registros a los que se está conectando.
 
 Por ejemplo, si conecta campañas con proyectos, puede conectar varias campañas con varios proyectos. También puede conectar varios proyectos a varias campañas.
 
 Cuando selecciona este tipo de conexión, no puede cambiarlo después de guardarlo.
+

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 En Adobe Workfront Planning, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
 
 Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
+
+Para obtener información general acerca de los espacios de trabajo, vea [Información general sobre los espacios de trabajo](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Requisitos de acceso
 
@@ -95,27 +97,6 @@ Para obtener más información acerca de los requisitos de acceso, consulte [Req
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Consideraciones sobre espacios de trabajo
-
-* Puede crear espacios de trabajo para unidades organizativas específicas dentro de su organización, de modo que coincidan con el modo exclusivo en que funciona cada unidad.
-* Según la licencia de Workfront, los espacios de trabajo se muestran en las siguientes pestañas del área de Planning:
-
-   * Para los administradores del sistema, los espacios de trabajo se muestran en las siguientes pestañas:
-
-      * **Mis espacios de trabajo**: muestra los espacios de trabajo que creó. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Otros espacios de trabajo**: Muestra todos los demás espacios de trabajo del sistema, incluidos los compartidos con usted. &lt;!—Reemplazar con: Otros espacios de trabajo: muestra todos los demás espacios de trabajo del sistema. >
-
-   * Para el resto de los usuarios, los espacios de trabajo que han creado y los espacios de trabajo que otros han compartido con ellos se muestran en el área Espacios de trabajo.
-
-* Los tipos de registro que contiene un espacio de trabajo deben reflejar el ciclo de vida laboral de una unidad organizativa.
-* Al crear un espacio de trabajo, sólo usted tiene permiso para acceder y administrar el espacio de trabajo. Debe compartirlo con otros usuarios para que puedan colaborar con usted en el mismo espacio. Para obtener más información, vea [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md). Los administradores del sistema pueden administrar todos los espacios de trabajo, incluso los que no hayan creado.
-* Puede tener lo siguiente:
-
-   * Hasta 50 secciones en un espacio de trabajo.
-   * Hasta un total de 1000 tipos de registros de todas las secciones de un espacio de trabajo. Todos los tipos de registro son únicos para cada espacio de trabajo. <!--this might change-->
-   * Hasta 1000 espacios de trabajo en la instancia de Workfront de su organización.
-
-
 ## Crear un espacio de trabajo
 
 Puede crear un espacio de trabajo y agregarle tipos de registro para organizar los objetos en Workfront Planning. Para obtener más información acerca de cómo editar un área de trabajo, vea [Editar áreas de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
@@ -153,7 +134,7 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
    * Un área de trabajo vacía denominada **Workspace sin título** donde puede empezar a agregar tipos de registros manualmente al crear un área de trabajo desde cero.
    * Espacio de trabajo con el nombre de la plantilla seleccionada que se rellena con tipos de registros de ejemplo. Puede personalizar aún más los tipos de registro y el espacio de trabajo.
 
-   Para los administradores de Workfront, el nuevo espacio de trabajo se muestra en la ficha **Mis espacios de trabajo**. <!--replace this with: Workspaces I'm on tab-->
+   Para los administradores de Workfront, el nuevo espacio de trabajo se muestra en la ficha **Mis espacios de trabajo**. <!--replace this with: **Workspaces I'm on** tab-->
 1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse Entrar.
 
 1. (Opcional y condicional) Si creó el área de trabajo a partir de una plantilla, haga clic dentro del nombre de las secciones **Tipos de registros operativos** o **Taxonomías**

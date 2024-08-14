@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 2%
 
 ---
@@ -136,11 +136,11 @@ Para obtener información acerca de los tipos de registros, vea [Información ge
    Se abre el espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el menú Más y luego **Eliminar**.
+   * Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el menú **Más** y luego **Eliminar**.
    * Haga clic en la tarjeta del tipo de registro que desee eliminar y, en la página de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Eliminar**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Escriba **delete** en el cuadro de confirmación y luego haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
 
-   El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se eliminan.
+   El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se elimina y no se puede recuperar.

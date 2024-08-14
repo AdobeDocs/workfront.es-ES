@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 1%
+source-wordcount: '472'
+ht-degree: 2%
 
 ---
 
@@ -35,6 +35,8 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
+
+<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -104,14 +106,16 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 
 1. Haga clic en el espacio de trabajo cuyos tipos de registros desee editar.
 
-   O
+   Se abre la página del espacio de trabajo y se muestran los tipos de registro.
+1. Realice una de las siguientes acciones:
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
-
-   Se abre el espacio de trabajo y se muestran los tipos de registro.
-1. Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta del tipo de registro; a continuación, haga clic en **Editar**.
+   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta del tipo de registro; a continuación, haga clic en **Editar**
+O
+   * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
+
+   <!--replace everything below with the commented out text below-->
 
 1. En el cuadro **Editar tipo de registro**, actualice la siguiente información:
 
@@ -136,3 +140,35 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
    <!--check this screen shot - not sure this is valid ???-->
 
 1. (Opcional) Para editar otro tipo de registro, expanda la flecha hacia abajo a la derecha del nombre de un tipo de registro, busque un tipo de registro y selecciónelo cuando se muestre en la lista.
+
+<!--*******************For GA - replace the above with this:
+
+1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
+
+    * Edit the record type name, if needed. (*****did they add a field label for this?******)
+    * **Description**: Edit or add a description for the record type with more information about it. 
+    * Edit the color and shape of the icon associated with the record type. Do the following: 
+        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
+        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
+
+        ![](assets/update-record-type-box.png)
+
+1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
+
+   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
+   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
+   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+
+   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+
+   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+
+
+1. Click **Save**.
+1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+
+1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+
+   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+
+   -->
