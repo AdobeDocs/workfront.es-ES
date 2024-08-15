@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obtener más información, consulte [Configurar las preferencias del sistem
 
 >[!NOTE]
 >
->Versión de vista previa: 1 de agosto de 2024; producción para versión rápida: con la versión 24.8 (agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
+>Versión de vista previa: 1 de agosto de 2024; producción para versión rápida: con la versión 24.8 (15 de agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
 
 Los mensajes de confirmación de Eliminar usuario y Desactivar usuario que ven los usuarios al eliminar o desactivar un usuario se han actualizado a un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -42,7 +42,7 @@ Para obtener información sobre cómo eliminar y desactivar usuarios, consulte [
 
 >[!NOTE]
 >
->Versión de vista previa: 1 de agosto de 2024; producción para versión rápida: con la versión 24.8 (agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
+>Versión de vista previa: 1 de agosto de 2024; producción para versión rápida: con la versión 24.8 (15 de agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
 
 Hemos actualizado la página Grupos de recursos con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -62,8 +62,8 @@ Para obtener información sobre cómo eliminar una tarea, consulte [Eliminar tar
 
 >[!NOTE]
 >
->Versión de vista previa: 17 de julio de 2024; producción para versión rápida: con la versión 24.8 (agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
+>Versión de vista previa: 17 de julio de 2024; producción para versión rápida: con la versión 24.8 (15 de agosto de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
 
 Hemos actualizado la página Notificación (a la que se accede haciendo clic en el icono de notificación de la barra de herramientas principal y, a continuación, haciendo clic en Todas las notificaciones) con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Para obtener más información, consulte [Crear y administrar roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Para obtener más información, consulte [Ver y administrar notificaciones en la aplicación](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).

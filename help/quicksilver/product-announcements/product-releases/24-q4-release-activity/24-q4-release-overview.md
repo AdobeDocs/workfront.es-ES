@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,49 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 
 ## Mejoras de Adobe Workfront
 
+* [Mejoras del administrador]
 * [Mejoras del proyecto](#project-enhancements)
 * [Mejoras de integración](#integration-enhancements)
 * [Otras mejoras](#other-enhancements)
+
+### Mejoras del administrador
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Característica</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">El botón Diseño del diseñador de formularios personalizados permite dos o tres columnas</a></p>
+                        <p>Un botón "Diseño" en el diseñador de formularios personalizado le permite elegir entre un área de trabajo de dos o tres columnas. El diseñador de formularios original utiliza tres columnas y la configuración del campo se muestra en la columna del extremo derecho. Si selecciona dos columnas, la configuración del campo se muestra junto a la biblioteca de campos en la columna del extremo izquierdo.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 12 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.9 (septiembre de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: por determinar</p>
+                            </li>
+                        </ul>
+                        <p><i>Esta función forma parte de una versión por fases y estará disponible para un número limitado de clientes en septiembre.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Mejoras del proyecto
 
@@ -77,7 +117,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
-                        [!BADGE En producción para lanzamiento rápido ]{type=Positive}
+                        [!BADGE en producción ]{type=Informative}
                         <p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -154,7 +194,29 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Asistente de IA de Adobe disponible en Workfront</a></p>
+                        <p>Para facilitarle la realización de su trabajo, hemos agregado el asistente de IA de Adobe a Workfront. El asistente de IA puede ayudarle con lo siguiente:</p>
+                        <ul>
+                            <li>Resumir elementos y documentos de trabajo le permite obtener rápidamente una comprensión general de las tareas, los proyectos y los recursos.</li>
+                            <li>Proporcionar información de la documentación del Experience League, incorporar instrucciones y material de referencia a Workfront y, al mismo tiempo, vincularla a documentación más detallada.</li>
+                            <li>Crear y refinar fórmulas para campos de formulario personalizados calculados, generar fórmulas a partir de peticiones de texto o localizar errores en fórmulas existentes.</li>
+                            </ul>
+                            <p>El administrador de Workfront puede habilitar o deshabilitar el Asistente de IA para su organización. El asistente de IA está disponible para instancias con planes Select, Prime y Ultimate.</p>
+                        </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 28 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p class="preview">Versión de producción: 28 de agosto de 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 
