@@ -7,7 +7,7 @@ description: Puede mostrar información sobre todas las ejecuciones de un escena
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -70,8 +70,6 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    Si está trabajando en el escenario en el Editor de escenarios, haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
 
 1. Vea la información en la lista de la derecha.
-
-   ![](assets/open-history-tab-350x202.png)
 
    También puede hacer clic en para ver una vista de página completa de esta información. La vista de página completa permite filtrar el historial para ver ejecuciones específicas.
 

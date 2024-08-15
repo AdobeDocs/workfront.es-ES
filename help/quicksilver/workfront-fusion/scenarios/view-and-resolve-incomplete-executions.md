@@ -7,7 +7,7 @@ description: La carpeta [!UICONTROL Ejecuciones incompletas] almacena ejecucione
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 5%
@@ -65,9 +65,13 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Ver ejecuciones incompletas
 
-Si un módulo encuentra un error durante su operación, se agrega una nueva ejecución incompleta a la carpeta Ejecuciones incompletas. Cada ejecución incompleta contiene el modelo del escenario y todos los paquetes que se pueden asignar al módulo fallido. Para abrir la lista de ejecuciones incompletas, haga clic en la ficha [!UICONTROL Ejecuciones incompletas] de la página de detalles del escenario:
+Si un módulo encuentra un error durante su operación, se agrega una nueva ejecución incompleta a la carpeta Ejecuciones incompletas. Cada ejecución incompleta contiene el modelo del escenario y todos los paquetes que se pueden asignar al módulo fallido. Para abrir la lista de ejecuciones incompletas, haga clic en la ficha [!UICONTROL Ejecuciones incompletas] de la página de detalles del escenario.
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 Para obtener más información, consulte [Errores que resultan en ejecuciones incompletas](#errors-resulting-into-incomplete-executions).
 
