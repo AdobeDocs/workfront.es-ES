@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
+source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 1%
@@ -52,14 +52,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Habilitar o deshabilitar el Asistente de IA en Workfront
 
-El Asistente de IA está habilitado de forma predeterminada.
+El Ayudante de IA está desactivado de forma predeterminada.
 
-Para desactivar el Asistente de IA para un nivel de acceso determinado:
+Para habilitar el Asistente de IA para un nivel de acceso determinado:
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **Niveles de acceso** en el panel de navegación izquierdo.
 1. Seleccione el nivel de acceso para el que desea deshabilitar el Asistente de IA.
 1. En la ventana Editar nivel de acceso, desplácese hacia abajo hasta la parte inferior de la ventana y haga clic en **Establecer restricciones adicionales...**.
-1. En el área Establecer restricciones adicionales, habilite la opción **Deshabilitar el Asistente de IA de Workfront**.
+1. En el área Establecer restricciones adicionales, habilite la opción **Habilitar el Asistente para IA de Workfront**.
 1. Haga clic en **Guardar**.
-1. Repita los pasos del 3 al 6 para cada nivel de acceso para el que desee deshabilitar el asistente de IA.
+1. Repita los pasos del 3 al 6 con cada nivel de acceso para el que desee habilitar el asistente de IA.
