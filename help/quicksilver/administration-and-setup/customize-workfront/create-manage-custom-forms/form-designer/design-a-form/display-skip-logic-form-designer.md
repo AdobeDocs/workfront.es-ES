@@ -1,5 +1,5 @@
 ---
-title: Agregar lógica de visualización y saltar lógica a un formulario
+title: Agregar la lógica de visualización y la lógica de omisión a un formulario
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Puede decidir qué secciones de un formulario personalizado se deben mostrar o o
 >La lógica solo se aplica dentro de un formulario y no se puede basar en selecciones de un formulario diferente.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -50,6 +52,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mostrar y omitir iconos lógicos
 
