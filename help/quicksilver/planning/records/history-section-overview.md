@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,7 @@ El panel derecho de un registro muestra las siguientes secciones:
 1. Haga clic en una tarjeta de tipo de registro.
 Se abre la página de tipo de registro y se muestran todos los registros de ese tipo.
 
-1. Elija una vista de tabla en el menú desplegable **Ver**.
-1. Haga clic en el nombre de un registro en la vista de tabla.
+1. En cualquier vista, haga clic en el nombre de un registro.
 
    Se abre la página del registro. El área Comentarios se abre de forma predeterminada en el panel derecho.
 1. Haga clic en el icono **Mostrar historial** ![](assets/show-history-icon.png). Todos los cambios realizados en los campos del registro se muestran en el panel derecho, empezando por el más reciente.

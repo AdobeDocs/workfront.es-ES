@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -211,16 +211,15 @@ You can import records from other applications by linking them to existing recor
    * Las filas contienen los registros nuevos
    * Las columnas rellenan la información de los campos de los registros.
 
-
 ## Creación de registros duplicándolos
 
 Para obtener información sobre la duplicación de registros, vea [Registros duplicados](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 <!--check the steps with the release of in-context record types epic: 
 
-## Create records by connecting them
+## Create records as you connect them
 
-You can create records while you connect them from other records. 
+You can create records as you connect them from other records. 
 
 You must have the following before you can add new records by connecting them from existing records:
 

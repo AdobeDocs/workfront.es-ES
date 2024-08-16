@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -89,8 +89,9 @@ Para obtener información acerca de las nuevas características y cuándo se lan
 | Compartir vistas | ✓ | |  |
 | Uso compartido de vistas públicamente con recursos externos | ✓ | |  |
 | Duplicar vistas | ✓ | |  |
-| Envío de solicitudes |                               |                                  | ✓ |
-| Informe creativo |                               |                                  | ✓ |
+| Envío de solicitudes |                               | ✓ |                 |
+| Exportar detalles de registro a Word |                               | ✓ |                 |
+| Exportar detalles del registro al PDF |                               |                                  | ✓ |
 | Personalizar el color y el icono de un registro | ✓ |                                  |                 |
 | Agregar comentarios a registros | ✓ |                                  |                 |
 | Recibir notificaciones en la aplicación | ✓ |                                  |                 |
@@ -104,8 +105,9 @@ Para obtener información acerca de las nuevas características y cuándo se lan
 | Conexión de registros de Planning desde objetos de Workfront | ✓ |                                  |                 |
 | API pública de Workfront Planning | ✓ |                                  |                 |
 | Asistente de IA de Workfront Planning* | ✓ |                                  |                 |
+| Creación de informes sobre información de Workfront Planning (panel de lienzo) |                               | ✓ |                 |
 
-*El asistente de IA se ha eliminado temporalmente y regresará más adelante.
+*El asistente de IA se ha eliminado temporalmente y estará disponible en una fecha posterior.
 
 ## Habilite Adobe Workfront Planning para los usuarios de la instancia de Workfront
 
