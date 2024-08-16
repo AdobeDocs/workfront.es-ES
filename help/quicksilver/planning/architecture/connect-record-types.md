@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 0%
@@ -39,7 +39,7 @@ En este artículo se describe cómo conectar dos tipos de registros de Workfront
 
 Después de establecer la conexión entre registros o tipos de objeto, puede conectar registros individuales entre sí y mostrar campos de los registros vinculados o tipos de objeto en un registro de Workfront Planning.
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Para obtener información acerca de cómo conectar un registro de Workfront Planning a un objeto desde otra aplicación, vea [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -240,7 +240,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, vea [Ejemplo
         * Many to one
         * Many to many
         
-        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+        For information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto al que se está vinculando en el registro desde el que se está estableciendo el vínculo. Esta opción está seleccionada de forma predeterminada.
 
      >[!TIP]

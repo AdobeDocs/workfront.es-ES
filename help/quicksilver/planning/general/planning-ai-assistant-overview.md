@@ -1,23 +1,24 @@
 ---
-title: "Descripción general del Asistente de IA de Adobe Workfront Planning"
+title: Descripción general del Asistente de IA de Adobe Workfront Planning
 description: Puede utilizar el asistente de IA para generar, actualizar o quitar registros en función del contexto de página actual y la estructura de registros. Los comandos del usuario y la ejecución por parte de la IA de esos comandos trabajan juntos para garantizar que los cambios realizados por la IA se reflejen con precisión en su entorno.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-
 # Descripción general del Asistente de IA de Adobe Workfront Planning
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">El Asistente para IA se ha eliminado temporalmente y regresará en una fecha posterior.</span>
 >La información de este artículo hace referencia a Adobe Workfront Planning y al Asistente de IA de Workfront (beta), que son nuevas ofertas de Adobe Workfront.
 >
 >En la actualidad, Workfront Planning se encuentra en una fase de acceso anticipado y el Asistente de IA de Workfront se encuentra en una fase beta.
@@ -36,7 +37,7 @@ Los comandos del usuario y la ejecución por parte de la IA de esos comandos tra
 
 ## Consideraciones sobre el asistente de IA
 
-* El asistente de IA está disponible para los administradores de Workfront de forma predeterminada.
+* El asistente de IA está disponible para el administrador principal de Workfront de forma predeterminada. Para obtener más información, vea [Configurar información básica para el sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * El administrador de Workfront debe habilitar el asistente de IA para todos los demás usuarios. Para obtener más información, consulte [Habilitar o deshabilitar el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 

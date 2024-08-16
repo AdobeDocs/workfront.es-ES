@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,9 @@ La sección Planificación está disponible para los siguientes objetos de Workf
 
 ## Consideraciones sobre la sección Planificación de objetos de Workfront
 
-* En primer lugar, debe conectar los tipos de registros a los tipos de objetos de Workfront y los registros a los objetos de Workfront para verlos en Workfront.
+* Los tipos de registros de Workfront Planning deben estar conectados a tipos de objetos de Workfront.
+
+* Para poder ver los registros en Workfront, debe haber al menos un registro conectado a un objeto de Workfront.
 
   Para obtener más información, consulte los siguientes artículos:
 

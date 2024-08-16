@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ Para agregar una sección a una vista previa de registro o a una página:
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   Se abre la página de registro.
+   Se abre la página de registro. <!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. En la página o vista previa del registro, pase el ratón sobre el espacio en blanco que hay a la izquierda de los campos y, a continuación, haga clic en el icono **Agregar sección** ![](assets/add-section-icon.png) para agregar una sección.
+1. En la página o vista previa del registro <!--**Details** tab of the-->, pase el ratón sobre el espacio en blanco que hay a la izquierda de los campos y, a continuación, haga clic en el icono **Agregar sección** ![](assets/add-section-icon.png) para agregar una sección.
 1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** por un nombre; a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
 1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Reorganizar campos en la vista previa del registro o en la página de detalles](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
 
@@ -182,7 +182,13 @@ Todas las secciones se expanden de forma predeterminada.
 
    Todos los cambios realizados en las secciones y el orden de los campos se guardan automáticamente.
 
-## Reorganizar campos en la página de vista previa o detalles del registro
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## Reorganizar campos en la vista previa o la página del registro
 
 {{step1-to-planning}}
 
