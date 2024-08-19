@@ -7,24 +7,51 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Revisión de fórmulas de campos calculados con el Asistente de IA
+# Generar o revisar fórmulas de campos calculados con el Asistente de IA
 
-Puede utilizar el Asistente de IA para resolver errores en las expresiones personalizadas no válidas en los campos calculados.
+Puede utilizar el Ayudante de IA para generar fórmulas basadas en una solicitud proporcionada. También puede resolver errores en las expresiones personalizadas no válidas en los campos calculados.
+
+## Requisitos de acceso
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Nuevo: Prime o Ultimate</p>
+       <p>o</p>
+       <p>Actual: no disponible</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: no disponible</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Generación de una expresión de campo calculado
+
+## Revisión de una expresión de campo calculado
 
 Al crear el campo calculado en el generador de formularios personalizado, aparece un mensaje de error debajo del campo si la fórmula no es válida.
 
 ![Error de expresión no válido](assets/invalid-expression.png)
 
 El Asistente de IA puede ayudarle a revisar la fórmula para convertirla en una expresión de campo calculado válida.
-
-## Revisión de una expresión de campo calculado
 
 Para revisar una expresión de campo calculado no válida:
 
