@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Información general sobre los estados de proyectos del sistema
+title: Descripción general de los estados de proyectos del sistema
 description: Workfront tiene 9 estados de proyecto del sistema integrados. Los 3 primeros elementos de la tabla siguiente son obligatorios, lo que significa que puede desbloquearlos, cambiarles el nombre y reordenarlos, pero no puede ocultarlos ni eliminarlos. Cambiar el estado de un proyecto suele ser un proceso manual. Sin embargo, a veces el estado de un proyecto cambia automáticamente en función de las demás actividades que se realizan en el sistema.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%

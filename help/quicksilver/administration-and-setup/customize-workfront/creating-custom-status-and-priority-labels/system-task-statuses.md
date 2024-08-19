@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Estados de tareas del sistema
 description: Se requieren los tres estados de tareas del sistema integrados en Workfront, lo que significa que puede desbloquearlos, cambiarles el nombre y reordenarlos, pero no puede ocultarlos ni eliminarlos. También puede agregar nuevos estados de tareas del sistema para que coincidan con las necesidades de su organización. Cambiar el estado de una tarea suele ser un proceso manual, pero a veces el estado de una tarea cambia automáticamente, según otros factores que estén ocurriendo en el sistema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

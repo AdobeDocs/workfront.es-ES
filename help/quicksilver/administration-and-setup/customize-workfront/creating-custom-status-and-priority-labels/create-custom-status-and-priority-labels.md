@@ -1,23 +1,23 @@
 ---
-title: Estados y etiquetas de prioridad
+title: "Crear estados personalizados y etiquetas de prioridad: Índice de artículos"
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Como administrador de Adobe Workfront, puede crear estados personalizados para proyectos, tareas y problemas. Pueden ser para usuarios de todo el sistema de Workfront o para grupos o subgrupos específicos. El estado de un elemento de trabajo representa su estado actual de desarrollo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '145'
+ht-degree: 3%
 
 ---
 
-# Creación de estados personalizados y etiquetas de prioridad
+# Crear estados personalizados y etiquetas de prioridad: índice de artículos
 
 Esta sección contiene los siguientes artículos:
 
@@ -33,6 +33,6 @@ Esta sección contiene los siguientes artículos:
 * [Eliminar un estado personalizado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
 * [Enumerar objetos con procesos de aprobación pendientes que utilizan un determinado estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
 * [Crear y personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
-* [Crear o personalizar gravedades de problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
+* [Crear o personalizar la gravedad de los problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
 
 Para obtener información acerca de los estados de nivel de grupo, vea [Administrar estados de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

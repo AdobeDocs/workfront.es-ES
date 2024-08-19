@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-title: Edición de un proceso de aprobación
+title: Editar un proceso de aprobación
 description: Si es administrador de Adobe Workfront o tiene acceso administrativo a los procesos de aprobación, puede ver y editar todos los procesos de aprobación en el sistema.
 author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1950'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Para obtener información acerca de cómo crear procesos de aprobación, vea [Cr
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
@@ -58,9 +60,12 @@ Debe tener lo siguiente:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
++++
+
 ## Editar un proceso de aprobación existente
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. (Condicional) Si está editando un proceso de aprobación de nivel de sistema, haga clic en **Procesos** > **Aprobaciones** en el panel izquierdo.
 
    O

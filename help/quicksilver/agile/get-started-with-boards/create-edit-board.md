@@ -6,9 +6,9 @@ description: En el panel [!UICONTROL tableros], puede crear un tablero nuevo o e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
       >[!NOTE]
       >
-      >El límite de tarjetas para los tableros dinámicos es de 700 tareas y 700 problemas, lo que hace un total de 1400 tarjetas. Un alto número de tarjetas en el tablero puede afectar el rendimiento del tablero.
+      >El límite de tarjetas para los tableros dinámicos es de 700 tareas y 700 problemas, lo que hace un total de 1400 tarjetas. Un alto número de tarjetas en el tablero puede afectar el rendimiento del tablero. Todas las tarjetas archivadas, tanto ocultas como visibles, se contabilizan en este límite.
 
    1. (Opcional) Seleccione [!UICONTROL **No archivar las tarjetas completadas**] para llevar las tareas y los problemas completados al tablero como tarjetas visibles en la columna Completada. Cuando esta opción no está seleccionada, las tarjetas completadas en el momento de la creación del tablero se incorporan al tablero como tarjetas archivadas.
 

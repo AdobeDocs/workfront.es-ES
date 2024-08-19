@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Enumerar objetos con procesos de aprobación pendientes que utilizan un estado determinado
+title: Enumerar objetos con un proceso de aprobación pendiente que usa un estado determinado
 description: Si intenta eliminar un estado, un mensaje de error puede indicarle que no se puede eliminar porque se está utilizando en procesos de aprobación pendientes en objetos del sistema. Si desea buscar y revisar esos objetos para decidir lo que debe hacer, puede ejecutar un informe que los enumere.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Enumerar objetos con procesos de aprobación pendientes que utilizan un estado determinado
+# Enumerar objetos con un proceso de aprobación pendiente que usa un estado determinado
 
 Si intenta eliminar un estado, un mensaje de error puede indicarle que no se puede eliminar porque está en al menos un proceso de aprobación pendiente en el sistema. Puede ejecutar un informe para enumerar los objetos en los que se encuentra en un proceso de aprobación pendiente y, a continuación, decidir qué debe hacer para cada uno.
 
 ## En modo estándar
 
-1. Vaya al área de **Informes** en la barra de navegación global y, a continuación, seleccione la pestaña **Informes**.
-1. Haga clic en el icono del menú principal ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Informes**.
+{{step1-to-reports}}
+
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Informe de proyecto**, **Informe de tarea** o **Informe de problema**.
 1. Abra la ficha **Filtros**.
 1. Haga clic en **Agregar una regla de filtro** y, a continuación, haga lo siguiente para configurar la regla:
@@ -42,7 +42,8 @@ Si intenta eliminar un estado, un mensaje de error puede indicarle que no se pue
 
 ## En modo de texto
 
-1. Haga clic en el icono del menú principal ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Informes**.
+{{step1-to-reports}}
+
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Informe de proyecto**, **Informe de tarea** o **Informe de problema**.
 1. Abra la ficha **Filtros**.
 1. Seleccione **Cambiar al modo de texto**.

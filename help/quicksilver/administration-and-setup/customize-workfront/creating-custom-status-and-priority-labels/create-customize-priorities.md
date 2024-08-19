@@ -1,18 +1,18 @@
 ---
-title: Creación y personalización de prioridades
+title: Crear y personalizar prioridades
 description: Puede controlar las prioridades de los proyectos, tareas y problemas en el área de Configuración de Workfront. Las prioridades otorgan importancia a sus proyectos, tareas o problemas en Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
 
-# Creación y personalización de prioridades
+# Crear y personalizar prioridades
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Puede controlar las prioridades de los proyectos, tareas y problemas en el área de Configuración de Workfront. Las prioridades otorgan importancia a sus proyectos, tareas o problemas en Adobe Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -42,6 +44,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Personalizar las prioridades existentes
 
@@ -87,7 +91,7 @@ Las prioridades proporcionadas de forma predeterminada para cada tipo de objeto 
 
 Además de las prioridades predeterminadas proporcionadas en Workfront, puede agregar sus propias prioridades para reflejar las necesidades de su organización.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto** > **Prioridades**.
 

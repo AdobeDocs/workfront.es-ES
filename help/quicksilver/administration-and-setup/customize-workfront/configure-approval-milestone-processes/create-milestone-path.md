@@ -1,5 +1,5 @@
 ---
-title: Creación de una trayectoria del hito
+title: Crear una ruta de hitos
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Creación de una trayectoria del hito
+# Crear ruta de hitos
 
 <!--Audited: 07/2024-->
 
@@ -62,7 +62,7 @@ El primer paso para construir una trayectoria del hito es identificar cuáles so
 
 Para obtener más información sobre cómo asociar una ruta de hitos a un proyecto y un hito a una tarea, vea [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-## Creación de una trayectoria del hito
+## Crear ruta de hitos
 
 {{step-1-to-setup}}
 

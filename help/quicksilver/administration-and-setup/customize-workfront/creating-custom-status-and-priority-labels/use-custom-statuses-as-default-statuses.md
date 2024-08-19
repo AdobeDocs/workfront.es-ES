@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Usar estados personalizados como estados predeterminados
 description: Cuando un estado personalizado se establece como estado predeterminado, el nuevo estado predeterminado se utiliza en todo el sistema de varias formas. La forma en que se usa depende de si se establece como un estado predeterminado de nivel del sistema o como un estado predeterminado de nivel de grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Cuando un estado personalizado se establece como estado predeterminado, el nuevo estado predeterminado se utiliza en todo el sistema de varias formas. La forma en que se usa depende de si se establece como un estado predeterminado de nivel del sistema o como un estado predeterminado de nivel de grupo.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -41,6 +43,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Estados personalizados predeterminados en el nivel del sistema
 
@@ -76,7 +80,8 @@ Si el estado personalizado es un estado de problema, deben habilitarse los cuatr
 
 ## Definir un estado personalizado como estado predeterminado
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto** > **Estados**.
 1. (Condicional) Si está configurando un estado predeterminado para un grupo, empiece a escribir el nombre del grupo en el menú de la esquina superior derecha y, a continuación, selecciónelo cuando aparezca.
 1. Abra la ficha **Proyecto**, **Tareas** o **Problemas**, según el tipo de estado que desee establecer como estado predeterminado.

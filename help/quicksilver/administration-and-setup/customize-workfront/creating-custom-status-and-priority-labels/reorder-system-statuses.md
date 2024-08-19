@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Reordenar los estados de grupo y de nivel del sistema
+title: Reordenar los estados de grupo y de nivel de sistema
 description: Como administrador de Workfront, puede cambiar el orden de los estados de proyectos, tareas y problemas para todos los miembros del sistema o para un solo grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -35,6 +35,8 @@ Como administrador de Workfront, puede cambiar el orden de los estados de proyec
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 </table>
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Orden predeterminado de los estados
 
@@ -108,7 +112,7 @@ De forma predeterminada, los estados se muestran en el siguiente orden:
 
 ## Reordenar estados para tareas y proyectos de todo el sistema o para un grupo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto > Estados**.
 1. (Condicional) Si va a reordenar los estados de un grupo, empiece a escribir el nombre del grupo en el cuadro de la esquina superior derecha y, a continuación, haga clic en el nombre cuando aparezca.
