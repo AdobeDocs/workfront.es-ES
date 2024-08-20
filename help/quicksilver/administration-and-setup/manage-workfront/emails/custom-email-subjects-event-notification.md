@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '604'
 ht-degree: 4%
 
 ---
@@ -32,6 +32,8 @@ Algunas notificaciones de eventos tienen varias líneas de asunto, lo que signif
 >
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -58,9 +60,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
++++
+
 ## Personalizar las líneas de asunto de correo electrónico para notificaciones de eventos {#customize-email-subject-lines-for-event-notifications}
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Correo electrónico** > **Notificaciones**.
 

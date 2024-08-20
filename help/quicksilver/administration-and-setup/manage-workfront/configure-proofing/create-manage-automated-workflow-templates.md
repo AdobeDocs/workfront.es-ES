@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Crear y administrar plantillas de flujo de trabajo automatizado
+title: Crear y administrar plantillas de flujo de trabajo automatizadas
 description: Como administrador de Adobe Workfront, si el proceso de revisión de contenido de su organización se repite con frecuencia o el contenido lo revisan las mismas personas, puede crear plantillas de flujo de trabajo automatizadas que contengan los revisores con las funciones de prueba y la configuración de notificación que especifique. Una plantilla de Flujo de trabajo automatizado puede ser sencilla con solo uno o dos revisores, o compleja con muchas fases y dependencias.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

@@ -2,14 +2,15 @@
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: Ocultar informes integrados
+title: Ocultar Informes Integrados
 description: Adobe Workfront tiene una extensa lista de informes integrados predeterminados a los que los usuarios pueden acceder y ver. Como administrador de Workfront, puede modificar el nivel de acceso de un usuario para ocultar los informes integrados y que así los usuarios no tengan acceso a ellos.
 feature: System Setup and Administration
 role: Admin
+author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -19,6 +20,8 @@ ht-degree: 1%
 Adobe Workfront tiene una extensa lista de informes integrados predeterminados a los que los usuarios pueden acceder y ver. Como administrador de Workfront, puede modificar el nivel de acceso de un usuario para ocultar los informes integrados y que así los usuarios no tengan acceso a ellos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -41,9 +44,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Ocultar informes integrados
 
-1. En el **menú principal** ![](assets/main-menu-icon.png), haga clic en **Configurar**.
+{{step-1-to-setup}}
+
 1. Haga clic en **Niveles de acceso**.
 1. Seleccione el nivel de acceso para el cual desea ocultar los informes integrados y luego haga clic en **Editar**.
 1. Para el objeto **Informes**, haga clic en el icono **Configuración** junto al nivel de acceso más alto disponible y, a continuación, anule la selección de **Ver informes integrados**.

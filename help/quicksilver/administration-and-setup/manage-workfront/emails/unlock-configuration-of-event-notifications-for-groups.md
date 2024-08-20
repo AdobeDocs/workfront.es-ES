@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos
+title: Desbloquear o bloquear la configuración de las notificaciones de eventos para todos los grupos
 description: Si es administrador de Adobe Workfront, puede desbloquear o volver a bloquear la capacidad de los administradores de grupos para configurar una notificación de eventos para los grupos de nivel superior que administran. La configuración de una notificación de eventos consiste en activarla o desactivarla.
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Cuando un administrador configura una notificación de eventos para un grupo, la
 >
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -52,13 +54,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Desbloquear o volver a bloquear la capacidad de configurar una notificación de evento
 
 >[!IMPORTANT]
 >
 >Cuando vuelve a bloquear una notificación, todos los grupos del sistema heredan la notificación exactamente como la establece. Esto anula cualquier cambio que los administradores de grupo puedan haber realizado en sus grupos, por lo que es aconsejable consultar con ellos primero.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Correo electrónico** > **Notificaciones**.
 

@@ -2,24 +2,26 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configurar funciones de corrección predeterminadas
+title: Configurar roles de corrección predeterminados
 description: Como administrador de Adobe Workfront, puede configurar las funciones de revisión predeterminadas para los usuarios y usuarios invitados que acceden a las pruebas creadas en Workfront. Cualquier persona que añada usuarios a una prueba puede ajustar estas funciones para ellos.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 2%
 
 ---
 
-# Configurar funciones de corrección predeterminadas
+# Configurar funciones de revisión predeterminadas
 
 Como administrador de Adobe Workfront, puede configurar las funciones de revisión predeterminadas para los usuarios y usuarios invitados que acceden a las pruebas creadas en Workfront. Cualquier persona que añada usuarios a una prueba puede ajustar estas funciones para ellos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -44,11 +46,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
-## Configurar funciones de corrección predeterminadas
++++
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+## Configurar funciones de revisión predeterminadas
 
-   <!--
+{{step-1-to-setup}}
+
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

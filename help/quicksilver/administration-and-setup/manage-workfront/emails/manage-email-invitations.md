@@ -8,14 +8,14 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# Administrar invitaciones por correo electrónico a nuevos usuarios
+# Administrar las invitaciones por correo electrónico a los nuevos usuarios
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -44,6 +44,8 @@ Para obtener información sobre cómo recibir invitaciones por correo electróni
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Generar invitaciones por correo electrónico {#generate-email-invitations}
 
 Las invitaciones por correo electrónico se generan en los siguientes casos:
@@ -80,7 +84,8 @@ Las invitaciones por correo electrónico se generan en los siguientes casos:
 
 Para generar manualmente invitaciones por correo electrónico a usuarios no registrados existentes:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Seleccione al usuario que muestra la etiqueta **No registrado** después de su nombre.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ Para generar manualmente invitaciones por correo electrónico a usuarios no regi
 
 Como administrador de Workfront, puede configurar el mensaje que incluye con las invitaciones por correo electrónico para nuevos usuarios.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En la lista de la izquierda, haga clic en **Correo electrónico** > **Invitaciones**.
 

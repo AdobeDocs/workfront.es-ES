@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Administrar Adobe Workfront
-description: Como administrador de Workfront, puede configurar la revisión de la funcionalidad de Workfront, los informes, los correos electrónicos, la seguridad, los tipos de cambio, los elementos eliminados y los diagnósticos.
+description: Como administrador de Workfront, puede configurar la funcionalidad de revisión, los informes, los correos electrónicos, la seguridad, los tipos de cambio, los elementos eliminados y los diagnósticos.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%

@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Configurar recordatorios automáticos
-description: Configurar recordatorios automáticos
+description: Puede configurar recordatorios automáticos para almacenar en déclencheur las notificaciones por correo electrónico cuando todas las tareas o problemas venzan, se retrasen o estén cerca de la fecha planificada de finalización.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 4%
+source-wordcount: '627'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,8 @@ Se puede enviar un recordatorio automático a una o varias de las siguientes dir
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar recordatorios automáticos
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Haga clic en **Correo electrónico** >**Recordatorios automáticos**.
+1. Haga clic en **Correo electrónico** > **Recordatorios automáticos**.
 
 1. En el área **Enviar una notificación tardía a**, seleccione cualquiera de las siguientes opciones:
 
@@ -85,7 +89,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
         <td>(En el área <b>Enviar recordatorio de fecha límite al área </b>). Seleccione esta opción si desea que el usuario asignado a una tarea o un problema reciba una notificación sobre su elemento de trabajo cuando se aproxime la fecha de vencimiento.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Seleccione la hora de envío del recordatorio automático seleccionando la cantidad de tiempo antes o después de la fecha de vencimiento del elemento de trabajo.
 

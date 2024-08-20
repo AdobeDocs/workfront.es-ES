@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configure las opciones de uso compartido para los usuarios
+title: Configurar opciones de uso compartido para los usuarios
 description: Como administrador de Adobe Workfront o de Workfront Proof, puede configurar las cuentas de usuario con las que se pueden compartir las pruebas, si los usuarios pueden ver todas las versiones de una prueba y el momento en el que los usuarios obtienen acceso a los elementos compartidos.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Como administrador de Adobe Workfront o de Workfront Proof, puede configurar las cuentas de usuario con las que se pueden compartir las pruebas, si los usuarios pueden ver todas las versiones de una prueba y el momento en el que los usuarios obtienen acceso a los elementos compartidos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -44,9 +46,11 @@ Debe tener lo siguiente:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
++++
+
 ## Configurar el uso compartido con otras cuentas
 
-1. En Workfront, haga clic en el menú principal ![](assets/main-menu-icon.png) y, a continuación, haga clic en Revisión ![](assets/proofing-in-main-menu.png) para acceder a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Haga clic en **Configuración** > **Configuración de la cuenta** y, a continuación, haga clic en la ficha **Configuración**.
 
@@ -57,7 +61,7 @@ Debe tener lo siguiente:
 
 ## Configurar la visibilidad de todas las versiones de una revisión compartida
 
-1. En Workfront, haga clic en el menú principal ![](assets/main-menu-icon.png) y, a continuación, haga clic en Revisión ![](assets/proofing-in-main-menu.png) para acceder a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Haga clic en **Configuración** > **Configuración de la cuenta** y, a continuación, haga clic en la ficha **Configuración**.
 
@@ -75,7 +79,7 @@ Puede especificar cuándo los usuarios asociados a una fase determinada pueden v
 
 Para configurar cuándo los usuarios pueden ver las pruebas con un flujo de trabajo automatizado:
 
-1. En Workfront, haga clic en el menú principal ![](assets/main-menu-icon.png) y, a continuación, haga clic en Revisión ![](assets/proofing-in-main-menu.png) para acceder a Workfront Proof.
+{{step1-to-proofing}}
 
 1. Haga clic en **Configuración** > **Configuración de la cuenta** y, a continuación, haga clic en la ficha **Configuración**.
 

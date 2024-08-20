@@ -1,11 +1,11 @@
 ---
-title: Configurar notificaciones de recordatorio
+title: Configuración de notificaciones de recordatorio
 description: Las notificaciones de recordatorio generan correos electrónicos que se envían a los usuarios en función de criterios específicos. Las notificaciones de recordatorio recuerdan a los usuarios de una acción que deben realizar para una tarea, un problema, un proyecto o una hoja de horas.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 2%
@@ -137,7 +137,7 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
       <td><p>Según el objeto para el que sea la notificación de recordatorio, seleccione entre los siguientes tipos de usuarios que desea que reciban la notificación:</p>
       <ul>
       <li>Asignado a</li>
-      <li>Ingresado por</li>
+      <li>Introducido por</li>
       <li>Equipo del proyecto (todos los usuarios del equipo del proyecto reciben el recordatorio)</li>
       <li>Usuarios asignados a tareas dependientes (los usuarios asignados a tareas dependientes reciben el recordatorio)</li>
       <li>Propietario del proyecto</li>

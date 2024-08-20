@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Como administrador de Adobe Workfront o de Workfront Proof, puede configurar el 
 Para obtener información acerca de la funcionalidad de revisión disponible para la revisión básica e integrada, consulte [Acceso a la funcionalidad de revisión en Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -46,6 +48,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
++++
+
 ## Habilitar y deshabilitar la revisión para un usuario (solo para planes heredados) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 Si su organización utiliza un plan Select o Premium Workfront heredado, como administrador de Workfront, puede habilitar y deshabilitar la funcionalidad de revisión para el usuario.
@@ -63,7 +67,8 @@ Aunque puede habilitar a un usuario como usuario de revisión, debe tener permis
 
 El perfil de permiso seleccionado se concede a los usuarios para cada prueba que exista dentro de su organización.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Usuarios** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Seleccione uno o más usuarios y luego haga clic en **Editar**.
 
 1. En la sección **Acceso**, haga clic en una de las siguientes opciones de permiso de Workfront Proof en el menú desplegable **Perfil de permiso de revisión**:

@@ -2,15 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: Configuración de tipos de cambio
+title: Configurar tasas de cambio
 description: Como administrador de Adobe Workfront, puede configurar tipos de cambio de divisa en Workfront.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 3%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +42,8 @@ La forma en que se configuran los tipos de cambio afecta a la posibilidad de que
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Configuración de tipos de cambio
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Preferencias del proyecto** > **Tasas de cambio.**
 

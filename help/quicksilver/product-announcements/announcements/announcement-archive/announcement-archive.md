@@ -7,15 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # Archivo de anuncios
 
+* [Mejoras de formularios personalizados](custom-form-enhancements.md)
 * [Aplicación móvil actualizada para iOS y Android (principios de agosto de 2017)](updated-mobile-app.md)
 * [Se requiere TLS 1.2 en Adobe Workfront](tls-1-disabled.md)
 * [Ya Está Disponible El Complemento De Outlook 365](../../outlook-365-add-in/outlook-365-add-in-now-available.md)

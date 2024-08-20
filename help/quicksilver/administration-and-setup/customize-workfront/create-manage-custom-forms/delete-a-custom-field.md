@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para mejorar el rendimiento del sistema y facilitar el uso de los formularios po
 
 >[!CAUTION]
 >
->Al eliminar un campo personalizado, también se eliminan todos los datos personalizados que los usuarios han introducido en el campo al rellenar formularios personalizados adjuntos a los objetos. Los datos eliminados no se pueden recuperar.
+>Al eliminar un campo personalizado, también se eliminan todos los datos personalizados que los usuarios han introducido en el campo al rellenar formularios personalizados adjuntos a los objetos. Los datos eliminados no se pueden recuperar. Además, no hay ningún sistema de notificación que avise a las personas que utilizan el formulario personalizado de que se ha eliminado.
 >
 >Puede ver todos los formularios e informes personalizados que utilizan un campo personalizado que desee eliminar para evaluar cuáles podrían ser las repercusiones. Para obtener más información, consulte [Ver todos los formularios personalizados que usan un campo o widget personalizado en particular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) y [Ver todos los informes que usan un campo o widget personalizado en particular](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >

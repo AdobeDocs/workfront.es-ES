@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configurar ajustes de prueba predeterminados
+title: Configuración de la revisión predeterminada
 description: Esta configuración le permite establecer valores predeterminados que se aplican a todas las pruebas nuevas creadas por los usuarios. Sin embargo, los usuarios pueden anular la mayoría de estos ajustes al crear una prueba.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 6%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Configurar nueva configuración predeterminada de revisión
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar**.
+{{step-1-to-setup}}
+
 1. En el panel izquierdo, haga clic en **Pruebas** > **Configuración de pruebas**.
 1. En la sección **Nuevos valores predeterminados de prueba**, configure las siguientes opciones:
 
@@ -113,7 +114,8 @@ Los usuarios pueden utilizar las decisiones sobre pruebas para indicar el estado
 
 Para configurar las decisiones de prueba:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar**.
+{{step-1-to-setup}}
+
 1. En el panel izquierdo, haga clic en **Pruebas** > **Configuración de pruebas**.
 1. En la sección **Decisiones**, puede
 

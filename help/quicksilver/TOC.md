@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
 source-wordcount: '14334'
 ht-degree: 2%
@@ -406,13 +406,13 @@ ht-degree: 2%
             * [Seminarios web de la versión R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * Anuncios {#announcements}
       * [Anuncios](product-announcements/announcements/announcements.md)
-      * [Mejoras de formularios personalizados](product-announcements/announcements/custom-form-enhancements.md)
       * [Programación de funciones que ya no se admiten](product-announcements/announcements/feature-removal-timeline.md)
       * [Preguntas frecuentes sobre la ventana de mantenimiento](product-announcements/announcements/maintenance-window-faq.md)
       * [Cambio necesario para agregar pruebas a la lista de permitidos](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Cancelar suscripción a los mensajes del Centro de anuncios en la nueva experiencia de Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Archivo de anuncios {#announcement-archive}
          * [Archivo de anuncios](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [Mejoras de formularios personalizados](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [Aplicación móvil actualizada para iOS y Android (principios de agosto de 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Se requiere TLS 1.2 en Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Ya Está Disponible El Complemento De Outlook 365](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)

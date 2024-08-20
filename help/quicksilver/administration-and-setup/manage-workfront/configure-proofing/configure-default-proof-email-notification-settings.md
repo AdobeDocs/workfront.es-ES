@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configurar opciones predeterminadas de notificación de prueba por correo electrónico
+title: Configurar ajustes predeterminados de notificación de prueba por correo electrónico
 description: Los usuarios de pruebas en Adobe Workfront pueden recibir notificaciones por correo electrónico tanto de Workfront como de Workfront Proof cuando se realizan comentarios o se toman decisiones sobre una prueba. Si los usuarios ya reciben notificaciones por correo electrónico de Workfront Proof, le recomendamos que deshabilite las notificaciones enviadas desde Workfront para evitar correos electrónicos de notificación duplicados.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 0%
+source-wordcount: '291'
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para establecer la configuración de las notificaciones de prueba por correo electrónico enviadas desde Workfront:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expanda **Correo electrónico** y, a continuación, haga clic en **Revisar y aprobar**.
 
