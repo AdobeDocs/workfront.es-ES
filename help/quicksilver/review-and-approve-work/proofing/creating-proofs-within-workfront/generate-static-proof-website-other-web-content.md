@@ -6,7 +6,7 @@ description: Puede generar una nueva prueba estática o una nueva versión de un
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Para crear una revisión estática, el sitio web debe ser accesible públicament
 
    >[!NOTE]
    >
-   > La dirección URL debe tener menos de 1000 caracteres.
+   > La dirección URL debe tener menos de 2000 caracteres.
 
 1. Haga clic en la dirección URL que ha agregado.
 

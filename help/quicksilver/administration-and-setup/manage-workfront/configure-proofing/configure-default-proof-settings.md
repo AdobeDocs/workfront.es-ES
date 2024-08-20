@@ -8,16 +8,48 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 6%
 
 ---
 
 # Configurar ajustes de prueba predeterminados
 
 Esta configuración le permite establecer valores predeterminados que se aplican a todas las pruebas nuevas creadas por los usuarios. Sin embargo, los usuarios pueden anular la mayoría de estos ajustes al crear una prueba.
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   o
+   <p>Actual: plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td> <p>Debe ser administrador de Workfront. Para obtener información sobre los administradores de Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo total a un usuario</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
++++
 
 ## Configurar nueva configuración predeterminada de revisión
 
