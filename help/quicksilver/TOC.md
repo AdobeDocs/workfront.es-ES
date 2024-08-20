@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 21ce33ccb09e4fd7d0cc8c31631ef66e3ce73211
+source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
 workflow-type: tm+mt
-source-wordcount: '14333'
+source-wordcount: '14334'
 ht-degree: 2%
 
 ---
@@ -2256,6 +2256,7 @@ ht-degree: 2%
       * [Módulos Datadog](workfront-fusion/apps-and-their-modules/datadog-modules.md)
       * [Módulos de almacén de datos](workfront-fusion/apps-and-their-modules/data-store-modules.md)
       * [Módulos de DocuSign](workfront-fusion/apps-and-their-modules/docusign-modules.md)
+      * [[!DNL Draft.js] módulos](/help/quicksilver/workfront-fusion/apps-and-their-modules/draft-js-modules.md)
       * [Módulos de Dropbox](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
       * [Módulos de correo electrónico](workfront-fusion/apps-and-their-modules/email-modules.md)
       * [Cifrador](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
