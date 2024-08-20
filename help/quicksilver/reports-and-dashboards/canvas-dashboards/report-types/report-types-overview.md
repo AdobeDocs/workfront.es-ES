@@ -7,14 +7,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # Resumen de tipos de informes de Panel de lienzo
+
+>[!IMPORTANT]
+>
+>Esta página describe la funcionalidad que solo está disponible para los usuarios inscritos en la versión beta cerrada de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
 
 Hay varios informes diferentes que puede agregar a un panel de lienzo para visualizar los datos de Workfront de diferentes maneras. Se pueden agregar los siguientes tipos de informes a un panel de lienzo:
 

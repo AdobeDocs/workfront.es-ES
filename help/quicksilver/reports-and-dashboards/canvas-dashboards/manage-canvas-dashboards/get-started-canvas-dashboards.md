@@ -6,14 +6,18 @@ description: Instrucciones básicas para utilizar Paneles de lienzo, incluido c�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # Introducción a los paneles de lienzo
+
+>[!IMPORTANT]
+>
+>Esta página describe la funcionalidad que solo está disponible para los usuarios inscritos en la versión beta cerrada de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
 
 Los paneles de lienzo le permiten visualizar fácilmente los datos de Adobe Workfront añadiendo varios tipos de informes a un lienzo personalizable. Esta página proporciona instrucciones básicas para utilizar Paneles de lienzo, incluyendo cómo navegar a la lista de Paneles de lienzo, así como cómo crearlos y editarlos.
 

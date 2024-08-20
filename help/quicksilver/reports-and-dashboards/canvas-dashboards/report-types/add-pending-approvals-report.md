@@ -6,14 +6,18 @@ description: Se puede agregar a un panel de lienzo un informe de aprobaciones pe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # Añadir un informe de aprobaciones pendientes a un panel de lienzo
+
+>[!IMPORTANT]
+>
+>Esta página describe la funcionalidad que solo está disponible para los usuarios inscritos en la versión beta cerrada de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
 
 Se puede agregar a un panel de lienzo un informe de aprobaciones pendientes que incluya datos sobre las decisiones de aprobación pendientes y pasadas.
 

@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ Paneles de lienzo es una función que se está desarrollando actualmente y que l
 Para obtener información básica sobre el uso de paneles de lienzo, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Para obtener una lista de toda la documentación de paneles de lienzo, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Programación de Beta:**
+**Estado de Beta**
 
-* Fecha de inicio de la versión beta cerrada: por determinar
-* Fecha de inicio de la versión beta abierta: TBA
-* Fecha de lanzamiento planificada: por determinar
+Los paneles de lienzo se encuentran actualmente en una fase de prueba beta cerrada y, por lo tanto, solo están disponibles por invitación a clientes específicos.
 
 ## Participar en la versión beta
 

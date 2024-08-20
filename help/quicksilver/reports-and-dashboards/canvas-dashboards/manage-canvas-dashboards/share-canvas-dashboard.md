@@ -6,14 +6,18 @@ description: Puede compartir un panel de lienzo con otros usuarios de Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Compartir un panel de lienzo
+
+>[!IMPORTANT]
+>
+>Esta página describe la funcionalidad que solo está disponible para los usuarios inscritos en la versión beta cerrada de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
 
 Puede compartir un panel de lienzo con otros usuarios de Adobe Workfront para que puedan verlo o editarlo.
 
