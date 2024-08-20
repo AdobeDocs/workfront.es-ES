@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
 workflow-type: tm+mt
-source-wordcount: '14334'
+source-wordcount: '14337'
 ht-degree: 2%
 
 ---
@@ -895,6 +895,7 @@ ht-degree: 2%
          * [Utilice el área Mis actualizaciones](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Asistente de IA {#ai-assistant}
       * [Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [Información general del asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Resumir con el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Obtener ayuda del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [Revisión de fórmulas de campos calculados con el Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
