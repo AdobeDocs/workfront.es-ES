@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 2%
 
 ---
@@ -78,11 +78,11 @@ Para obtener información acerca de las nuevas características y cuándo se lan
 | Ordenar registros en la vista de cronología |                               | ✓ |                  |
 | Ordenar agrupaciones en la vista de tabla |                               | ✓ |                  |
 | Ordenar agrupaciones en la vista de cronología |                               | ✓ |                  |
-| Conectar espacios de trabajo |                               | ✓ |                  |
 | Buscar registros en la vista de tabla | ✓ |   |
 | Buscar registros en la vista de cronología | ✓ |   |
 | Conecte los registros de Workfront Planning a proyectos, programas, portafolios, empresas y grupos de Workfront. | ✓ |                                 |                  |
 | Conexión de registros de Workfront Planning a recursos de Adobe Experience Manager | ✓ |                                  |                 |
+| Conectar registros de Planning de diferentes espacios de trabajo | ✓ |                                  |                 |
 | Registrar página con información detallada | ✓ |                                  |                  |
 | Actualizar el diseño de la página del registro | ✓ |                                 |                  |
 | Compartir espacios de trabajo | ✓ | |  |
@@ -282,10 +282,10 @@ Para localizar Workfront Planning:
 
 
 1. (Condicional y opcional) Si es administrador de Workfront, haga clic en una de las siguientes pestañas:
-   * **Mis espacios de trabajo**: muestra los espacios de trabajo que creó. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **Otros espacios de trabajo**: Muestra todos los demás espacios de trabajo del sistema, incluidos los compartidos con usted. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **Espacios de trabajo en los que trabajo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
+   * **Otros espacios de trabajo**: Muestra todos los demás espacios de trabajo del sistema.
 
-   Para el resto de los usuarios, todos los espacios de trabajo que han creado o que se han compartido con ellos se mostrarán en el área **Espacios de trabajo**.
+   Para todos los demás usuarios, los espacios de trabajo que han creado o que se comparten con ellos se muestran en el área **Espacios de trabajo**.
 
 1. (Opcional y recomendada) Continúe con algunas de las siguientes acciones para crear la estructura de trabajo:
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ En este artículo se describe cómo conectar dos tipos de registros de Workfront
 
 Después de establecer la conexión entre registros o tipos de objeto, puede conectar registros individuales entre sí y mostrar campos de los registros vinculados o tipos de objeto en un registro de Workfront Planning.
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+Para obtener información general acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Para obtener información acerca de cómo conectar un registro de Workfront Planning a un objeto desde otra aplicación, vea [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -111,71 +111,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, vea [Ejemplo
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
-
-## Consideraciones sobre la conexión de tipos de registros
-
-<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
-
-* Puede conectar las siguientes entidades en Adobe Workfront Planning:
-
-   * Dos tipos de registros
-
-     Los tipos de registro deben pertenecer al mismo espacio de trabajo.
-   * Tipo de registro y tipo de objeto de otra aplicación.
-
-* Puede conectar los tipos de registros de Workfront Planning con los siguientes tipos de objetos desde las siguientes aplicaciones:
-
-   * Adobe Workfront:
-
-      * Proyectos
-      * Portafolios
-      * Programas
-      * Compañías
-      * Grupos
-
-   * Adobe Experience Manager Assets:
-
-      * Imágenes
-      * Carpetas
-
-     >[!IMPORTANT]
-     >
-     >Debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o a Adobe Admin Console para conectar los registros de Workfront Planning a Adobe Experience Manager Assets.
-     >
-     >Si tiene preguntas acerca de la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
-
-* Después de crear registros individuales para un tipo de registro, puede seleccionar los registros a los que se conecta desde el campo tipo de registro vinculado. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-
-* Después de conectar un tipo de registro con otro tipo de registro o con un tipo de objeto de otra aplicación, existen los siguientes escenarios:
-
-   * **Al conectar dos tipos de registro**: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. Se crea un campo de registro vinculado similar en el tipo de registro al que se conecta.
-
-     Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con el tipo de registro &quot;Producto&quot;, se crea un campo de registro vinculado denominado &quot;Producto vinculado&quot; en el tipo de registro de Campaña y se crea un tipo de registro vinculado denominado automáticamente &quot;Campaña&quot; en el tipo de registro de Producto.
-
-   * **Cuando conecta un tipo de registro con un tipo de objeto de otra aplicación**:
-
-      * Se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el tipo de objeto de la otra aplicación.
-
-      * No se puede acceder a los campos de registros de Planning desde objetos de Workfront.
-      * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-
-   * **Al agregar campos vinculados (o de búsqueda) del registro u objeto al que se conecta**: puede conectar campos del objeto de la otra aplicación al tipo de registro de Workfront Planning. Los campos vinculados son de sólo lectura y muestran automáticamente información de registros u objetos conectados al conectar los registros o los objetos.
-
-     Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con un proyecto de Workfront y selecciona llevar el campo Fecha planificada de finalización del proyecto al registro de Workfront Planning, se crea automáticamente un campo vinculado llamado Fecha planificada de finalización (desde proyecto) para la campaña. Este campo vinculado no se puede editar manualmente. El campo Fecha planificada de finalización (del proyecto) muestra la fecha planificada de finalización de los proyectos vinculados.
-
-     >[!IMPORTANT]
-     >
-     >    Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
-
-* Los campos de registros vinculados están precedidos por un icono de relación ![](assets/relationship-field-icon.png).
-
-  Los campos vinculados van precedidos de un icono que identifica el tipo de campo. Por ejemplo, los campos vinculados (o de búsqueda) van precedidos de iconos que indican que un campo es un número, un párrafo o una fecha.
 
 
 ## Conectar tipos de registros
@@ -204,15 +140,17 @@ Para ver un ejemplo de conexión de tipos de registros y registros, vea [Ejemplo
 
      >[!TIP]
      >
-     >Solo están disponibles para la conexión los tipos de registro del espacio de trabajo seleccionado.
      > 
      >Si no tiene otros tipos de registro en el espacio de trabajo seleccionado, la sección del espacio de trabajo no se muestra.
 
      <!--remove the first sentence in the tip above at GA-->
 
-     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
-        [!TIP]
-         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+      * Un tipo de registro de otro espacio de trabajo configurado para conectarse desde otros espacios de trabajo. Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+     >[!TIP]
+     >
+     >Si no hay ningún tipo de registro configurado para conectarse desde otro espacio de trabajo, la sección del espacio de trabajo no se muestra.
+
 
    * Un **proyecto, Portfolio, programa, compañía** o **grupo** de la sección **Tipos de objetos de Workfront**.
 

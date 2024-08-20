@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Los artículos de las secciones siguientes describen cómo se pueden configurar 
 * [Resumen de tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md)
 * [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [Información general de tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Ejemplo de conexión de tipos y registros](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [Eliminar espacios de trabajo](/help/quicksilver/planning/architecture/delete-workspaces.md)

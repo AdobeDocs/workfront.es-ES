@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -428,7 +428,6 @@ AEM Para conectar registros con recursos de la:
 Debe tener lo siguiente para conectar registros de Workfront Planning desde objetos de Workfront:
 
 * Conexiones entre tipos de registros y tipos de objetos de Workfront que se establecen en Workfront Planning.
-* Al menos una conexión entre un registro y un objeto de Workfront.
 * El administrador de Workfront o de grupo debe agregar la sección de Planning a los tipos de objeto de Workfront que pueden conectarse a los tipos de registro de Planning en la plantilla de diseño.
 
 Para obtener más información, consulte [Administrar registros en la sección Planificación de objetos de Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

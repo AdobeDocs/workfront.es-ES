@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,10 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
    * Un área de trabajo vacía denominada **Workspace sin título** donde puede empezar a agregar tipos de registros manualmente al crear un área de trabajo desde cero.
    * Espacio de trabajo con el nombre de la plantilla seleccionada que se rellena con tipos de registros de ejemplo. Puede personalizar aún más los tipos de registro y el espacio de trabajo.
 
-   Para los administradores de Workfront, el nuevo espacio de trabajo se muestra en la ficha **Mis espacios de trabajo**. <!--replace this with: **Workspaces I'm on** tab-->
+   Para los administradores de Workfront, el nuevo espacio de trabajo se muestra en la ficha **Espacios de trabajo en los que participo**.
+
+   Para todos los demás usuarios que pueden crear espacios de trabajo, el nuevo espacio de trabajo se muestra en el área **Espacios de trabajo**.
+
 1. Haga clic dentro del nombre del espacio de trabajo en el encabezado del nuevo espacio de trabajo para cambiarle el nombre y, a continuación, pulse Entrar.
 
 1. (Opcional y condicional) Si creó el área de trabajo a partir de una plantilla, haga clic dentro del nombre de las secciones **Tipos de registros operativos** o **Taxonomías**
