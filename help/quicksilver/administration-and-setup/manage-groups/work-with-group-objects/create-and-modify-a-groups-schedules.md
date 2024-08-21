@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Crear y modificar las programaciones de un grupo
+title: Crear y modificar los horarios de un grupo
 description: Cuando visualiza un grupo que administra en el área Grupos, puede ver y trabajar con las programaciones para las que los administradores del grupo, o uno de sus subgrupos, tienen acceso administrativo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Para obtener información acerca de cómo se usan las programaciones en la plani
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -50,9 +52,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Crear o modificar las programaciones de un grupo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Grupos**.
 

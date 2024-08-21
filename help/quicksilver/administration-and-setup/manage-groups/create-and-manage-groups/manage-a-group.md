@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Como administrador de grupo, puede administrar un grupo que administre desde el 
 >Cuando se le asigne como administrador de un grupo, heredará la función de administrador de grupos de los subgrupos que estén debajo de él. Los únicos usuarios que pueden administrar un subgrupo son los administradores de grupo del grupo superior y los administradores de grupo asignados al subgrupo.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -48,6 +50,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 </table>
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+
++++
 
 ## Administrar las pertenencias de un grupo
 
@@ -71,7 +75,7 @@ Para obtener instrucciones, vea [Ver y administrar los detalles de un grupo](../
 
 Sin salir de la página principal de un grupo que esté viendo, puede editar, copiar o eliminar rápidamente el grupo.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Grupos**.
 

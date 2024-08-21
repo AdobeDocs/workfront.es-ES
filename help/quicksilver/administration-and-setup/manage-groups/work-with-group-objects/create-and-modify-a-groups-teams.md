@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Crear y modificar los equipos de un grupo
 description: Cuando visualice un grupo que administre en el área de Grupos, podrá visualizar y trabajar con los equipos asociados al grupo y a cualquiera de sus subgrupos.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1010'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ Para obtener información sobre cómo los usuarios con una licencia de Plan pued
 Para obtener información sobre cómo un administrador de Workfront puede crear un equipo, vea [Crear un equipo desde el área de instalación](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -46,9 +48,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Vea, trabaje con y cree equipos para su grupo desde el área de Grupos
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 

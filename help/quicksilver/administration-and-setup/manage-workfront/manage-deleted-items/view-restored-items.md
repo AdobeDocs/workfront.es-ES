@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Ver elemento restaurado
+title: Ver elementos restaurados
 description: Como administrador de Adobe Workfront o usuario con una licencia de planificación, puede ver qué proyectos, tareas, problemas y documentos se han restaurado en los últimos 7 días.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 2%
 
 ---
 
-# Ver elemento restaurado
+# Ver elementos restaurados
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -25,6 +26,8 @@ Como administrador de Adobe Workfront o usuario con una licencia de planificaci�
 Para obtener información sobre cómo restaurar un proyecto, tarea, problema o documento después de eliminarlo, vea [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -45,9 +48,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de Workfront.
 
++++
+
 ## Ver elementos que se han eliminado recientemente
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expanda **Papelera de reciclaje** y, a continuación, haga clic en **Restaurada recientemente**.
 

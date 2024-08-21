@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Estados personalizados en un grupo que se mueve o elimina
+title: Estados personalizados en un grupo que se mueve o se elimina
 description: Este artículo explica qué sucede con los estados personalizados de grupo cuando se mueve o elimina un grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%

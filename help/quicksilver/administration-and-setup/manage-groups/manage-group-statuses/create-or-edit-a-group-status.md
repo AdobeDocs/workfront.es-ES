@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1341'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,8 @@ Para obtener información general sobre los estados, vea [Información general s
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -50,9 +52,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Creación o edición de un estado para un grupo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 

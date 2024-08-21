@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: KickStart, KickStart, KickStart, KickStart
 navigation-topic: use-kick-starts
-title: Importación de datos en Adobe Workfront mediante una plantilla de KickStart
+title: Importación de datos en Workfront mediante una plantilla de KickStart
 description: Los Kick-Starts son libros de Excel con formato especial que se pueden rellenar con los datos que se desean importar a Workfront. Adobe Workfront proporciona una plantilla de KickStart que puede utilizar para hacerlo, tal como se explica en el importador de datos de KickStarts.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 6%
 
 ---
 
-# Importación de datos en Adobe Workfront mediante una plantilla de KickStart
+# Importación de datos en Workfront mediante una plantilla de KickStart
 
 <!--Audited: 12/2023-->
 

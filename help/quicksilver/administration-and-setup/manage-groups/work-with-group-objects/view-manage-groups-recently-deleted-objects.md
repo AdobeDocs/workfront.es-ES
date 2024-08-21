@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Ver y administrar los elementos eliminados recientemente de un grupo
 description: Cuando vea un grupo que administra en el área Grupos, puede ver, filtrar, restaurar y exportar los elementos de trabajo, documentos y plantillas eliminados recientemente.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Si hay grupos por encima de su grupo, sus administradores también pueden hacer 
 Para obtener más información sobre los elementos eliminados, vea [Administrar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -54,9 +56,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Ver y administrar los elementos eliminados recientemente de un grupo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 

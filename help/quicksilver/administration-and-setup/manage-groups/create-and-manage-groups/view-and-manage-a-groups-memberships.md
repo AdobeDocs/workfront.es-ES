@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: agregar,usuarios,grupo,agregar,otro,asignar,administrador,quitar,usuario,ver,roles,miembros,exportar,pertenencia,datos
 navigation-topic: create-and-manage-groups
-title: Ver y administrar las pertenencias de un grupo
+title: Ver y administrar las suscripciones de un grupo
 description: Como administrador de Adobe Workfront, puede ver, agregar, quitar, exportar, activar y desactivar miembros de cualquier grupo que administre. También puede editar sus perfiles, añadir Actualizaciones a sus perfiles y asignarlos como administradores de grupo adicionales para el grupo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Como administrador de Adobe Workfront, puede ver, agregar, quitar, exportar, act
 Si hay grupos por encima de su grupo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -43,9 +45,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Ver y administrar las pertenencias de un grupo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos**.
 

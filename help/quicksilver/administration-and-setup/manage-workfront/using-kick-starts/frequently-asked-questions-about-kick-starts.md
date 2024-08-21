@@ -4,13 +4,13 @@ content-type: faq
 product-area: system-administration
 keywords: KickStart, KickStart, KickStart, KickStart
 navigation-topic: use-kick-starts
-title: Preguntas frecuentes sobre Kick-Starts
+title: Preguntas más frecuentes sobre Kick-Starts
 description: Encuentre respuestas a las preguntas más frecuentes acerca de la importación y exportación de datos de Workfront mediante Kick-Starts.
-author: Caroline
+author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 1ebdb3797e30a7e06f4dfd4a7e0e5f540351c126
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

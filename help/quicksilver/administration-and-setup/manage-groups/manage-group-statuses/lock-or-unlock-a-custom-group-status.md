@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Estados de grupo bloqueados y desbloqueados
-description: Bloquear los estados personalizados de un grupo es una forma de asegurarse de que las personas del grupo y sus subgrupos estén utilizando los mismos procesos en su flujo de trabajo. Cuando el estado de un grupo está bloqueado, está disponible para todos los usuarios del grupo y de los grupos inferiores. Aunque usted (o un administrador de Workfront) puede editar o eliminar un estado que usted bloquee, los administradores de los subgrupos que aparecen a continuación no pueden hacerlo para esos grupos. Por el contrario, el desbloqueo de los estados personalizados de un grupo permite a los administradores de subgrupos inferiores más flexibilidad para administrar sus flujos de trabajo. Pueden cambiar los atributos de un estado desbloqueado o eliminarlo para sus grupos.
-author: Caroline
+title: Estados de grupos bloqueados y desbloqueados
+description: Bloquear los estados personalizados de un grupo es una forma de asegurarse de que las personas del grupo y sus subgrupos estén utilizando los mismos procesos en su flujo de trabajo. Cuando el estado de un grupo está bloqueado, está disponible para todos los usuarios del grupo y de los grupos inferiores.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---

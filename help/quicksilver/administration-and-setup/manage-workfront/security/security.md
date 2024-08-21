@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: Seguridad
 description: Como administrador de Adobe Workfront, puede configurar las preferencias de seguridad de su sistema Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a8be3e69-0e1d-4a9e-9da8-4cde9643ca25
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 2%

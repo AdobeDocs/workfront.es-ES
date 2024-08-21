@@ -3,14 +3,14 @@ title: Información general de grupos de inicio
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Se asigna un grupo de inicio en el perfil del usuario. Todos los usuarios deben tener un grupo de inicio. Un usuario puede pertenecer a más de un grupo, pero solo puede tener un grupo de inicio. Aunque cualquier grupo existente en el sistema puede asignarse como grupo de inicio de un usuario, se recomienda crear y asignar nuevos grupos que representen unidades organizativas más grandes. Al establecer Grupos de inicio, tenga en cuenta cómo divide su organización a los usuarios de Adobe Workfront.
-author: Caroline
+description: Se asigna un grupo de inicio en el perfil del usuario. Todos los usuarios deben tener un grupo de inicio.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

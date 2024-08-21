@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Impedir usuarios duplicados
 description: Al crear un nuevo usuario en Adobe Workfront, ya no puede utilizar una dirección de correo electrónico que ya esté utilizando otro usuario, aunque la dirección de correo electrónico varíe según las mayúsculas y minúsculas (por ejemplo, JohnDoe@example.com y johndoe@example.com). Además, para prepararse para futuras mejoras de autenticación, asegúrese de que todos los usuarios tengan direcciones de correo electrónico únicas en una instancia de Workfront.
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Al crear un nuevo usuario en Adobe Workfront, ya no puede utilizar una dirección de correo electrónico que ya esté utilizando otro usuario, aunque la dirección de correo electrónico varíe según las mayúsculas y minúsculas (por ejemplo, JohnDoe@example.com y johndoe@example.com). Además, para prepararse para futuras mejoras de autenticación, asegúrese de que todos los usuarios tengan direcciones de correo electrónico únicas en una instancia de Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -42,6 +44,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Crear usuarios con direcciones de correo electrónico únicas
 
 A partir de la versión 2019.4, al crear un nuevo usuario en Workfront, ya no puede utilizar una dirección de correo electrónico que ya esté siendo utilizada por otro usuario, aunque la dirección de correo electrónico varíe según el caso. Por ejemplo, no se puede crear un usuario con la dirección de correo electrónico JohnDoe@example.com si otro usuario tiene la dirección de correo electrónico johndoe@example.com.
@@ -53,7 +57,7 @@ Para corregir direcciones de correo electrónico duplicadas dentro de una instan
 
 1. Examine los usuarios duplicados y decida qué usuario ya no es necesario.
 
-   1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y, a continuación, haga clic en **Usuarios**. ![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. En el menú **Filtro**, seleccione **Todos**.
 

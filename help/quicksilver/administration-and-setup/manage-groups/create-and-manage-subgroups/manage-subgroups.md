@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: administrar, subagrupar, editar
 navigation-topic: create-and-manage-subgroups
-title: Administración de un subgrupo
+title: Administrar un subgrupo
 description: Como administrador de grupo de un subgrupo, puede crear, mover, ver, editar, copiar, cambiar el nombre, exportar y eliminar el subgrupo. También puede convertir un subgrupo en un grupo de nivel superior eliminándolo de su grupo principal.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Si hay grupos por encima de su grupo, sus administradores también pueden hacer 
 Para obtener más información acerca de los subgrupos, vea [Información general sobre los subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -47,9 +49,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Crear, mover, ver, editar, copiar, cambiar el nombre, exportar o eliminar un subgrupo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
@@ -125,9 +129,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 >
 >En Workfront, este departamento de marketing está representado por un grupo denominado Marketing, con 3 subgrupos llamados Marketing de campo, Marketing de producto y Marketing digital. Para enumerar los proyectos que pertenecen a todo el departamento de marketing (los 4 grupos), puede crear un filtro para el área de proyectos con la siguiente regla de filtro:
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >También puede utilizar el campo Nombre principal superior para identificar los datos asociados con un grupo de nivel superior, pero solo en Vistas, no en Filtros o Agrupaciones.
 
@@ -141,7 +143,7 @@ Puede convertir un subgrupo en un grupo de nivel superior eliminándolo de su gr
 >
 >Para obtener instrucciones sobre cómo desactivar y reactivar grupos, consulte las secciones [Ver y administrar los detalles de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) y [Ver y administrar los detalles de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) en el artículo [Ver y administrar los detalles de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
@@ -159,8 +161,6 @@ Tenga en cuenta lo siguiente cuando copie un subgrupo.
 
 * Si un subgrupo que copia tiene sus propios subgrupos, estos se incluyen en la copia y sus nombres tienen el siguiente formato:
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * Cualquier subgrupo que pertenezca a un grupo público también es público, por lo que cualquier usuario con acceso de edición de usuario, dentro o fuera del grupo, puede agregar usuarios al subgrupo.

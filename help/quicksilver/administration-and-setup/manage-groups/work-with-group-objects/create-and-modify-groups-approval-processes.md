@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Procesos de aprobación de nivel de grupo
 description: Cuando visualiza un grupo que administra en el área de Grupos, puede ver y trabajar con los procesos de aprobación para los que los administradores del grupo o uno de sus subgrupos tienen acceso administrativo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d43e7488-28e5-47d2-9401-e3d20e0d0256
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

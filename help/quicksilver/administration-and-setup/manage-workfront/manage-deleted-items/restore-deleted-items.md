@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restaurar elementos eliminados
-description: Si es administrador de Workfront, puede restaurar proyectos, tareas, problemas, documentos y plantillas en Adobe Workfront si se han eliminado en los últimos 30 días. Después de 30 días, estos elementos se eliminan de forma permanente y no se pueden restaurar. Al restaurar un objeto, también se restauran todos sus objetos secundarios y campos. Por ejemplo, si restaura un proyecto, también se restaurarán todas las tareas, problemas, documentos, horas, notas, asignaciones y datos personalizados del proyecto.elementos
+description: Si es administrador de Workfront, puede restaurar proyectos, tareas, problemas, documentos y plantillas en Adobe Workfront si se han eliminado en los últimos 30 días. Después de 30 días, estos elementos se eliminan de forma permanente y no se pueden restaurar.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---

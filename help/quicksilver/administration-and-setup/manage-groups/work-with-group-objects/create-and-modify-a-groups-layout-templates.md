@@ -5,13 +5,13 @@ keywords: grupo,diseño,plantillas
 navigation-topic: work-with-a-groups-objects
 title: Creación y modificación de las plantillas de diseño de un grupo
 description: Cuando visualiza un grupo que administra en el área de Grupos, puede ver y trabajar con la plantilla de diseño para la que los administradores del grupo o uno de sus subgrupos tienen acceso administrativo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Cuando visualiza un grupo que administra en el área de Grupos, puede ver y trab
 Si hay grupos por encima del grupo que administra, sus administradores también pueden hacerlo en su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
@@ -43,9 +45,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 &#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Crear o modificar plantillas de diseño para un grupo que administre
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Grupos**.
 

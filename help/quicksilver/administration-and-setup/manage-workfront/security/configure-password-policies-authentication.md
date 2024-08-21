@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Configurar directivas de contraseña para la autenticación
+title: Configurar políticas de contraseña para autenticación
 description: Como administrador de Adobe Workfront, puede configurar las opciones de la directiva de contraseñas para personalizar la experiencia de autenticación en su sistema Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
-# Configurar directivas de contraseña para la autenticación
+# Configurar políticas de contraseña para autenticación
 
 {{important-admin-console-onboard}}
 
@@ -26,6 +26,8 @@ Le recomendamos que configure las preferencias de autenticación durante la impl
 Próximamente se ofrecerán funcionalidades mejoradas de administración de contraseñas, o es posible que ya se encuentren disponibles para su organización. Utilice cualquiera de las siguientes secciones, en función de si su organización tiene acceso a la nueva experiencia de autenticación.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -48,13 +50,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar autenticación (disponible para todos los clientes) {#configure-authentication-available-for-all-customers}
 
 Las opciones de autenticación se muestran para todos los clientes. Próximamente se ofrecerán funcionalidades mejoradas de administración de contraseñas, o quizá ya se encuentren disponibles para su organización, tal como se describe en la sección [Configurar autenticación mejorada)](#configure-enhanced-authentication-coming-soon) de este artículo.
 
 Para configurar las preferencias de autenticación:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Sistema** > **Autenticación**.
 
@@ -97,7 +101,7 @@ En esta sección se describe la experiencia de autenticación mejorada, que podr
 
 Para configurar las preferencias de autenticación mejorada:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Sistema** > **Autenticación mejorada**.
 1. En el cuadro **Longitud de contraseña**, escriba el número mínimo de caracteres necesarios para una contraseña válida.

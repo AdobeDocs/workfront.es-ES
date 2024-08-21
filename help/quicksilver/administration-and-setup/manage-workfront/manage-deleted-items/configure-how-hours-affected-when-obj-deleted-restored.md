@@ -7,9 +7,9 @@ description: Puede configurar lo que sucede a las horas en las que alguien elimi
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Puede configurar lo que sucede a las horas en las que alguien elimina un proyecto, tarea o problema con el que se registran las horas. La opción que elija también determina qué sucederá con las horas si el proyecto, la tarea o el problema se restauran más adelante. (Para obtener más información acerca de cómo restaurar elementos en Workfront, vea [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -41,9 +43,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Configurar cómo se administran las horas cuando se elimina y restaura un elemento
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expanda **Hojas de horas y horas**, luego haga clic en **Preferencias**.
 

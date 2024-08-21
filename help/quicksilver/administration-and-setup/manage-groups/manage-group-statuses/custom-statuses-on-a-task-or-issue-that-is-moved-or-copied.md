@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Estados personalizados de una tarea o un problema que se mueve o copia
+title: Estados personalizados en una tarea o problema que se ha movido o copiado
 description: Cuando mueve o copia una tarea o un problema a un proyecto diferente, algunos estados de la tarea o el problema pueden actualizarse para coincidir con los estados utilizados por el grupo del proyecto de destino.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Agrupar funciones
-description: El administrador de Workfront concede a los grupos acceso a las áreas de Workfront donde necesitan trabajar y comunicarse. A continuación, cada grupo puede mantener su información de Workfront, como usuarios, plantillas y formularios y proyectos personalizados, separada de la de otros departamentos. Se requiere al menos un administrador de grupo para cada grupo. Pueden existir hasta 14 niveles de subgrupos en un grupo.
-author: Caroline
+description: El administrador de Workfront concede a los grupos acceso a las áreas de Workfront donde necesitan trabajar y comunicarse. A continuación, cada grupo puede mantener su información de Workfront, como usuarios, plantillas y formularios y proyectos personalizados, separada de la de otros departamentos.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '70'
 ht-degree: 2%
 
 ---

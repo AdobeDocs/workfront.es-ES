@@ -5,13 +5,13 @@ keywords: KickStart, KickStart, KickStart, KickStart
 navigation-topic: use-kick-starts
 title: "Escenario de Kick-Starts: importar campos personalizados de varias opciones en Workfront"
 description: Puede importar campos personalizados con varias opciones en Adobe Workfront mediante la funcionalidad de KickStart.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ Si conoce bien los objetos y la estructura de la base de datos de Workfront, pue
 
 Para exportar datos existentes desde Workfront:
 
-1. Haga clic en **Menú principal > Configuración** en la esquina superior derecha de la interfaz de Workfront.
-1. Expanda el menú **Sistema** a la izquierda y haga clic en **Exportar datos (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Expanda **Sistema** en el menú de la izquierda y luego haga clic en **Exportar datos (Kick-Starts)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Para exportar datos existentes desde Workfront:
 
 Después de analizar la información sobre los campos personalizados existentes en el sistema, puede descargar una nueva plantilla de inicio para la importación.
 
-1. Haga clic en **Menú principal > Configuración** en la esquina superior derecha de la interfaz de Workfront.
+{{step-1-to-setup}}
 
-1. Expanda el menú **Sistema** hacia la izquierda.
+1. Expandir **Sistema** en el menú de la izquierda.
 
 1. Haga clic en **Importar datos (Kick-Starts)**.
 
@@ -129,9 +130,6 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
    >Para obtener información sobre los nombres de los objetos de la base de datos de Workfront, consulte [Explorador de API](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. Asegúrese de que la siguiente información tenga el formato correcto:
@@ -245,7 +243,9 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
 Después de realizar los pasos descritos en las secciones anteriores, continúe con lo siguiente para cargar los campos y formularios nuevos en Workfront:
 
-1. Haga clic en **Importar datos** **(Kick-Starts) **en el menú **Menú principal > Configuración > Sistema**.
+{{step-1-to-setup}}
+
+1. Haga clic en **Sistema > Importar datos (Kick-Starts)**.
 
 1. Haga clic en **Elegir archivo** en la sección **Cargar datos con hoja de cálculo de KickStart**.
 

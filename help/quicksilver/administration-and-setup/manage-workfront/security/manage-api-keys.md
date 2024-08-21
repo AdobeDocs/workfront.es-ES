@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Administración de claves API
+title: Administrar claves API
 description: Para minimizar las vulnerabilidades de seguridad de la API, los administradores de Adobe Workfront pueden administrar las claves de API utilizadas para permitir que las aplicaciones accedan a Workfront en nombre de un usuario.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1322'
 ht-degree: 2%
 
 ---
 
-# Administración de claves API
+# Administrar claves API
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
@@ -34,6 +34,8 @@ Algunos ejemplos de aplicaciones que aprovechan la API de Workfront son:
 >Al restablecer o eliminar una clave de API, cualquier aplicación que aproveche la API de Workfront y se autentique en Workfront mediante esta clave de API debe volver a configurarse para recuperar el acceso a Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -56,6 +58,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
++++
+
 ## Claves de API de Workfront
 
 Cada usuario de Workfront tiene una clave de API única. Esta clave se genera por usuario cuando el usuario accede a una integración que aprovecha la API de Workfront (como la aplicación móvil de Workfront o una integración de documentos).
@@ -74,7 +78,7 @@ Puede generar, restablecer o eliminar la clave de API de su cuenta de usuario de
 >
 >También puede generar una clave de API a través de la API. Para obtener más información, consulte la sección [API de suscripción a evento](../../../wf-api/general/event-subs-api.md) en [API de suscripción a evento](../../../wf-api/general/event-subs-api.md).
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Sistema >** **Información del cliente.**
 1. (Condicional) Realice una de las siguientes acciones:
@@ -98,7 +102,7 @@ Puede generar y administrar claves de API para usuarios con funciones distintas 
 
 1. (Condicional) Si su organización utiliza la administración de acceso de inicio de sesión único (SSO), deshabilite temporalmente la opción que requiere autenticación de SSO.
 
-   1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Expanda **Sistema** y haga clic en **Inicio de sesión único (SSO)**.
    1. En el campo **Tipo**, seleccione el tipo de SSO que utiliza su organización.
@@ -115,7 +119,7 @@ Puede generar y administrar claves de API para usuarios con funciones distintas 
 
 1. (Condicional) Habilite la opción que requiere autenticación SSO si la deshabilitó en el paso 1.
 
-   1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Expanda **Sistema** y haga clic en **Inicio de sesión único (SSO)**.
 
@@ -126,7 +130,7 @@ Puede generar y administrar claves de API para usuarios con funciones distintas 
 
 Puede configurar las claves API para que caduquen para todos los usuarios del sistema. Cuando la clave API de un usuario caduca, el usuario debe volver a autenticarse en cualquier aplicación que utilice la API de Workfront para acceder a Workfront. Puede cambiar la frecuencia con la que caducan las claves API. También puede configurar si las claves de API caducan cuando caduca la contraseña de un usuario.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **Sistema** > **Información del cliente**.
 1. En el área **Configuración de clave API**, en la lista desplegable **Después de la creación**, **Las claves API caducan en**, seleccione el periodo de tiempo en el que desea que caduquen las claves API.
@@ -151,9 +155,9 @@ Si le preocupa una infracción de seguridad concreta en relación con su sistema
 >
 >Al eliminar las claves API de todos los usuarios, se invalidan TODAS las claves API de todos los usuarios del sistema. Esta acción hará que todas las integraciones en Workfront fallen hasta que genere una nueva clave de API en Workfront y actualice todas las integraciones.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Expanda **Sistema** y, a continuación, haga clic en **Información del cliente.**
+1. Expanda **Sistema** y, a continuación, haga clic en **Información del cliente**.
 
 1. En el área **Configuración de clave API**, haga clic en **Quitar todas las claves API** y, a continuación, haga clic en **Quitar** **Todo**.
 

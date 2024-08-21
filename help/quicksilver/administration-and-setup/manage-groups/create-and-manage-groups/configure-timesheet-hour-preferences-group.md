@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: grupo,preferencias,tarea,grupos,problema,desbloquear
 navigation-topic: create-and-manage-groups
-title: Configurar las preferencias de horas y hojas de horas de un grupo
+title: Configurar las preferencias de horas y hojas de horas para un grupo
 description: En el nivel del sistema, un administrador de Adobe Workfront puede desbloquear las secciones de plantilla de horas y preferencias de horas Preferencias generales y Rellenar de forma previa las plantillas de horas con. Esto permite a los administradores de grupos configurar las opciones de esas secciones de forma independiente para sus propios grupos.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Un administrador de Adobe Workfront puede desbloquear las siguientes secciones d
 
 * Preferencias generales
 * Dónde pueden registrar el tiempo los usuarios
-* Rellenar de forma previa hojas de horas
+* Rellenar previamente las plantillas de horas
 
 Si hay grupos por encima del grupo que administra, sus administradores también pueden hacerlo en su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
@@ -81,7 +81,7 @@ Tenga en cuenta la siguiente información sobre la configuración de una plantil
 >
 >Si es administrador de Workfront, puede omitir los pasos del 1 al 4 en Configuración > Plantilla de horas y Horas > Preferencias y, a continuación, buscar el nombre del grupo en el cuadro de la parte superior de la página.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
 
