@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f713e8fa72c98b6df2509e71acd7080d4df46a3a
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -102,11 +102,11 @@ Para obtener más información acerca de los tipos de registros, vea [Informaci�
 
         Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Cuando se importan mediante un archivo CSV o de Excel.
+     <!--* When you import them using an Excel or CSV file. 
 
-        >[!IMPORTANT]
-        >
-        >Esta funcionalidad se ha deshabilitado temporalmente desde el 21 de marzo de 2024. Se activará en una fecha posterior.
+            >[!IMPORTANT]
+            >
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -145,7 +145,9 @@ Para obtener información sobre los tipos de registros que se incluyen en cada p
    Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
 1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al área de trabajo.
 1. Haga clic en **Agregar tipo de registro**.
-1. (Condicional) Cuando esté habilitada la creación de tipos de registros mediante la importación de un archivo de Excel o CSV, haga clic en **Desde cero**. De lo contrario, se abre el cuadro **Agregar tipo de registro**.
+
+   Se abre el cuadro Agregar tipo de registro.
+   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -171,9 +173,7 @@ La descripción del tipo de registro se muestra en la tarjeta.
 
    La página de tipo de registro se muestra en la vista de tabla de forma predeterminada. Las columnas de la tabla son campos asociados al nuevo tipo de registro. Cada fila es un registro único que debe agregar.
 
-   >[!TIP]
-   >
-   >    Si importa un tipo de registro desde un archivo de Excel o CSV, también se importan los registros.
+   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    De forma predeterminada, los campos siguientes se muestran en las columnas de la vista de tabla de un tipo de registro operativo:
 
@@ -207,86 +207,69 @@ La descripción del tipo de registro se muestra en la tarjeta.
    * [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Creación de tipos de registros importando un archivo CSV o de Excel
+<!--
+## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->Esta funcionalidad se ha deshabilitado temporalmente desde el 21 de marzo de 2024. Se activará en una fecha posterior.
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
-Tenga en cuenta lo siguiente al importar tipos de registros mediante un archivo CSV o de Excel:
+Consider the following when importing record types using an Excel or CSV file: 
 
-* Cada hoja del archivo de Excel se convierte en un tipo de registro.
-* Las columnas de cada hoja se convierten en los campos asociados a cada tipo de registro.
-* Los campos son únicos para sus respectivos tipos de registros.
-* Cada fila de cada hoja se convierte en un registro único asociado a su tipo de registro respectivo.
-* Cada hoja del archivo de Excel no debe superar lo siguiente:
-   * 50 000 filas
-   * 500 columnas
-* El archivo de Excel no debe tener más de 5 MB.
-* No se admiten hojas vacías.
+* Each sheet of the Excel file becomes a record type. 
+* The columns of each sheet become the fields associated with each record type. 
+* Fields are unique for their respective record types. 
+* Each row in each sheet becomes a unique record associated with its respective record type. 
+* Each sheet of the Excel file should not exceed the following: 
+    * 50,000 rows
+    * 500 columns
+* The Excel file should not be larger than 5MB.
+* Empty sheets are not supported. 
 
-Para importar tipos de registros mediante un archivo de Excel:
+To import record types using an Excel file: 
 
 {{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo donde desee crear los tipos de registro,
+1. Click the workspace where you want to create record types, 
 
-   O
+    Or
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
-1. Haga clic en **Agregar tipo de registro**.
-1. Haga clic en **Excel/CSV**.
-1. Arrastre y suelte un archivo de Excel o CSV guardado anteriormente en el equipo, o haga clic en **Seleccione un archivo CSV o de Excel** para buscar uno.
-1. Haga clic en **Revisar los datos**.
-
-   El cuadro Vista previa y edición muestra la siguiente información:
-
-   * Los nombres de las hojas o de los futuros tipos de registros se muestran en el panel izquierdo. De forma predeterminada, Workfront Planning selecciona un icono y un color para cada nuevo tipo de registro.
-   * Se selecciona el primer tipo de hoja o registro y los nombres de los campos asociados a él se muestran como encabezados de columna. El tipo de cada campo está seleccionado de forma predeterminada.
-   * Cada fila representa un nuevo registro. Solo se muestran los 10 primeros registros en el cuadro Vista previa y edición.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Opcional) Haga clic en el nombre de cada hoja en el panel izquierdo para revisar la información que contiene.
-
-   >[!NOTE]
-   >
-   >    Las hojas vacías no son compatibles y aparecen atenuadas.
-
-
-1. (Opcional) Haga clic en el menú desplegable **Seleccionar hojas para importar** y deseleccione las hojas que no desee importar.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Las hojas que no haya seleccionado se muestran con un fondo gris.
-
-1. Haga clic en **Importar** cuando esté listo para importar el archivo.
-
-   La siguiente información se importa en Workfront Planning:
-
-   * Nuevos tipos de registros
-   * Nuevos campos asociados a cada tipo de registro
-   * Nuevos registros asociados a cada tipo de registro
-
-   Puede empezar a administrar campos y registros en las páginas de tipos de registros.
-
-   Todas las personas con acceso a Workfront Planning ahora pueden ver y editar los tipos de registro importados y su información. <!--this will change with permissions-->
-
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+1. Click **Add record type**. 
+1. Click **Excel/CSV**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Review your data**.
     
-You can import the following objects from the following applications: 
+    The Preview and edit box displays with the following information: 
 
-* From Workfront:
+    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
+    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
+    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
+    ![](assets/preview-and-edit-box.png)
 
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->
+1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+
+    >[!NOTE]
+    >
+    >    Sheets that are empty are not supported and are dimmed. 
+
+
+1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+
+    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+
+    Sheets you deselected display with a gray background. 
+
+1. Click **Import** when you are ready to import your file. 
+
+    The following information imports in to Workfront Planning:
+
+    * New record types
+    * New fields associated with each record type
+    * New records associated with each record type
+
+    You can start managing fields and records on the record types pages. 
+    
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+

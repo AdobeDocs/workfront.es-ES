@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -106,10 +106,12 @@ Para obtener más información, consulte la sección &quot;Fórmula&quot; en el 
 
 ## Consideraciones sobre los campos de fórmula
 
-* Los campos de fórmula hacen referencia a campos que pertenecen al mismo tipo de registro. No se puede hacer referencia a campos de otros tipos de registro al crear un campo de fórmula. <!--is this still accurate??-->
+* Los campos de fórmula hacen referencia a campos que pertenecen al mismo tipo de registro.
+* Sólo se puede hacer referencia a campos de otros tipos de registro cuando se conecta otro tipo de registro con el campo de fórmula para el que se está creando.
 * No se puede cambiar el tipo de campo de un campo Formula después de guardarlo.
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
 * Debe agregar los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Workfront Planning.
+* Sólo puede hacer referencia a campos que se muestran en la vista de tabla de un tipo de registro o en la página de detalles del registro.
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text

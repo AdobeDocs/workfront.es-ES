@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -151,11 +151,11 @@ Para conectar registros con otros registros u objetos, debe tener lo siguiente:
 
 Puede conectar registros desde Workfront Planning en las siguientes áreas:
 
-* Desde un registro de Planning en Workfront Planning en los campos conectados en la vista de tabla.
+* Desde un registro de Planning en Workfront Planning en los campos de registro conectados en la vista de tabla.
 * Desde un registro de Planning en Workfront Planning en la vista previa del registro o página en los campos de registro conectados.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### Conectar registros de Adobe Workfront Planning desde la vista de tabla o desde la página de registro <!--Details tab of the-->
 
@@ -211,7 +211,7 @@ Puede conectar registros desde Workfront Planning en las siguientes áreas:
    >
    >* Utilizamos &quot;campos vinculados&quot; y &quot;campos de búsqueda&quot; indistintamente.
    >
-   >* Si habilitó la opción **Permitir varios registros** al conectar los tipos de registros, los valores de los campos de los objetos seleccionados múltiples se mostrarán separados por comas o se agregarán según el agregador elegido.
+   >* Si elige conectar varios registros al conectar los tipos de registro, los valores de campo de los objetos múltiples se muestran separados por comas o se agregan según el agregador elegido.
 
 1. (Opcional) Cierre la página de tipo de registro y vaya al espacio de trabajo seleccionado.
 1. Haga clic en la tarjeta del tipo de registro al que está vinculado.
@@ -286,7 +286,7 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
 
    >[!TIP]
    >
-   >* Al habilitar la configuración Permitir varios registros, los valores de los campos de búsqueda se muestran separados por comas o se agregan según el agregador elegido.
+   >* Si decide conectar varios registros al conectar los tipos de registro, los valores de los campos de búsqueda se muestran separados por comas o se agregan según el agregador elegido.
    >
    >* No se crea un campo de registro vinculado para los objetos de Workfront vinculados en Workfront.
 
@@ -360,7 +360,7 @@ AEM Para conectar registros con recursos de la:
 
      >[!TIP]
      >
-     >* Si habilitó la configuración Permitir varios registros, los valores de los objetos múltiples se mostrarán separados por comas o agregados según el agregador elegido.
+     >* Cuando se selecciona conectar varios registros al conectar los tipos de registro, los valores de los objetos múltiples se muestran separados por comas o agregados según el agregador elegido.
      >
      >* No se crea un campo de registro vinculado a los registros vinculados de Workfront Planning para los recursos de Experience Manager vinculados en la aplicación de Experience Manager Assets.
 
@@ -408,6 +408,12 @@ AEM Para conectar registros con recursos de la:
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 
