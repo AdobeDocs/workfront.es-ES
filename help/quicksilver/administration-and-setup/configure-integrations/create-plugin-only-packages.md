@@ -1,13 +1,14 @@
 ---
-title: Cree paquetes solo de complementos para los usuarios en Adobe Admin Console
+title: Creación de paquetes solo de complementos para los usuarios en Adobe Admin Console
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Un administrador de Adobe Admin Console puede crear un paquete ligero solo de complementos. Al distribuir estos paquetes preconfigurados, los administradores pueden asegurarse de que los usuarios tengan estos complementos sin depender de que el usuario busque el complemento ellos mismos. Recomendamos utilizar estos complementos ligeros para distribuir los complementos de Adobe Workfront para Creative Cloud a los usuarios de su organización.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%

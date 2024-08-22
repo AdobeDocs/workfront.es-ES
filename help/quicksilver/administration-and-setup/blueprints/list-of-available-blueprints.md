@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: Lista de modelos disponibles
 description: Los  [!DNL Adobe Workfront] modelos enumerados están disponibles para que los administradores de sistemas los instalen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, 
 
 Este modelo contiene un solo tablero con 12 informes para dar a los administradores de personas visibilidad del trabajo de sus informes directos.
 
-**[!UICONTROL Implementación De Post: Nuevo Despliegue De Caso De Uso]**
+**[!UICONTROL Posterior a la implementación: nuevo despliegue de caso de uso]**
 Este modelo contiene una sola plantilla que organiza el trabajo que un cliente de [!DNL Workfront] deberá completar para administrar la expansión a los siguientes procesos después de su implementación inicial.
 
 **[!UICONTROL Producción de recursos de impresión] (integrada)**

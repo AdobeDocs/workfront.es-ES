@@ -1,17 +1,17 @@
 ---
-title: Configuración de la asignación de metadatos
+title: Configurar asignación de metadatos
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Los metadatos son información descriptiva asociada a un documento. Puede configurar [!DNL Adobe Workfront] para que incluya metadatos con los documentos enviados a [!DNL Workfront] aplicaciones.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 Los metadatos son información descriptiva asociada a un documento. Puede configurar [!DNL Adobe Workfront] para que incluya metadatos con los documentos enviados a las aplicaciones [!DNL Workfront].
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -41,6 +43,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Acerca de [!DNL Workfront] metadatos
 
@@ -64,7 +68,7 @@ Para poder asignar campos para el proceso de asignación de metadatos, debe habi
 
 ## Configurar [!DNL Workfront] para enviar metadatos
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL Asignación de metadatos]**.
 
@@ -82,7 +86,8 @@ Para poder asignar campos para el proceso de asignación de metadatos, debe habi
 ## Eliminar campos asignados
 
 1. Inicie sesión en [!DNL Workfront] como administrador.
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL Asignación de metadatos]**.
 

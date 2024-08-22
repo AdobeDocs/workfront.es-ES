@@ -4,13 +4,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configuración del acceso a los modelos
 description: Como administrador del sistema, puede habilitar el acceso para que los usuarios soliciten la instalación de modelos configurando una cola de solicitudes para almacenar las solicitudes. Aquí tiene una sola ubicación para rastrear y actualizar solicitudes.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Como administrador del sistema, puede:
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -41,19 +43,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe [!DNL Workfront]</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>[!UICONTROL Administrador del sistema]</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Debe ser administrador de [!DNL Workfront]. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos {#prerequisites}
 
@@ -68,7 +77,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para que los usuarios puedan solicitar que se instalen modelos para ellos, debe seleccionar una cola de solicitudes para esas solicitudes. Hasta que se defina la cola de solicitudes, los usuarios solo pueden examinar el catálogo de modelos.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Modelos]**.
+{{step1-to-blueprints}}
+
 1. Haga clic en **[!UICONTROL Configurar solicitudes de modelo]** en la parte superior derecha de la pantalla del catálogo.
 
    <!--
