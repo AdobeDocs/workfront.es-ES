@@ -7,10 +7,12 @@ description: Como administrador de  [!DNL Adobe Workfront] puedes integrar [!DNL
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+hide: true
+hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -26,25 +28,23 @@ El administrador de Workfront permite la integración entre Workfront y Frame.io
 >
 >Esta funcionalidad solo está disponible para las organizaciones que se han incorporado a [!DNL Adobe Admin Console].
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
-   </td>
-   <td>Cualquiera
-   </td>
+   <td>[!DNL Adobe Workfront] plan</td>
+   <td>Cualquiera</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licencias</strong>
+   <td>[!DNL Adobe Workfront] licencias
    </td>
-   <td>Actual: [!UICONTROL plan] <br>
-   Nuevo: [!UICONTROL Standard]
-   </td>
+   <td><p>Actual: [!UICONTROL plan]</p>
+   <p>Nuevo: [!UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong>Configuraciones de nivel de acceso</strong>
+  <tr>
+   <td>Configuraciones de nivel de acceso
    </td>
    <td>Debe ser administrador de [!DNL Workfront].
    </td>
@@ -54,6 +54,7 @@ Debe tener lo siguiente:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Configurar una cuenta predeterminada [!DNL Frame.io] [!BADGE Próximamente]{type=Informative}
 

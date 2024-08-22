@@ -2,17 +2,17 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Configuración de integraciones
+title: Configurar integraciones
 description: Puede integrar Adobe Workfront con aplicaciones de terceros. Las integraciones pueden ampliar la utilidad de Workfront y adaptarla a las necesidades de su organización.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
+source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 4%
 Esta sección contiene los siguientes artículos:
 
 * [[!DNL Adobe Workfront] integraciones](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [Configurar la integración de  [!DNL Workfront] y [!DNL Frame.io] s](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [Configurar la integración de  [!DNL Experience Manager Assets as a Cloud Service] ](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Configurar la integración de  [!DNL Experience Manager Assets Essentials] ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] y [!DNL Experience Manager Assets] integraciones](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
