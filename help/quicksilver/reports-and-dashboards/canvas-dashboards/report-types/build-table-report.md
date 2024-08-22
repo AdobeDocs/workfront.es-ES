@@ -6,9 +6,9 @@ description: Se puede agregar a un panel de lienzo un informe de tabla que muest
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Esta página describe la funcionalidad que solo está disponible para los usuarios inscritos en la versión beta cerrada de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
+>Esta página describe la funcionalidad que está disponible como parte de la versión beta de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
 
 Se puede agregar a un panel de lienzo un informe de tabla que muestre los datos como una tabla configurable.
 

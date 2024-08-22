@@ -6,9 +6,9 @@ description: Una vez creado un panel de lienzo, puede agregarle informes que mue
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Esta página describe la funcionalidad que solo está disponible para los usuarios inscritos en la versión beta cerrada de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
+>Esta página describe la funcionalidad que está disponible como parte de la versión beta de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
 
 Una vez creado un panel de lienzo, puede agregarle informes que muestren los datos de Adobe Workfront en varios formatos. Estos informes se pueden mover y cambiar de tamaño en el lienzo como crea conveniente. Para obtener información sobre cómo crear un panel de lienzo, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
