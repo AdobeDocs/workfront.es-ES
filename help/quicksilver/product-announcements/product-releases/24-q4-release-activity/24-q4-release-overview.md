@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,10 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 
 ## Mejoras de Adobe Workfront
 
-* [Mejoras del administrador]
-* [Mejoras del proyecto](#project-enhancements)
+* [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras de integración](#integration-enhancements)
+* [Mejoras del proyecto](#project-enhancements)
+* [Mejoras de corrección](#proofing-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras del administrador
@@ -73,6 +74,41 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                             </li>
                         </ul>
                         <p><i>Esta función forma parte de una versión por fases y estará disponible para un número limitado de clientes en septiembre.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Mejoras de integración
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Característica</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en la experiencia de inicio de sesión de integración con Outlook</a></p>
+                        <p>La experiencia de inicio de sesión para la integración con Outlook se ha optimizado para que todos los clientes vean el mismo botón para iniciar sesión en Workfront, independientemente de si están habilitados para IMS o no. Los pasos de inicio de sesión siguientes siguen siendo diferentes para las instancias de IMS y no de IMS, pero la página inicial es la misma para todos los usuarios.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: 6 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Lanzamiento de producción para todos los clientes: 6 de agosto de 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
            </tbody>
         </table>
 
-### Mejoras de integración
+### Mejoras de corrección
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en la experiencia de inicio de sesión de integración con Outlook</a></p>
-                        <p>La experiencia de inicio de sesión para la integración con Outlook se ha optimizado para que todos los clientes vean el mismo botón para iniciar sesión en Workfront, independientemente de si están habilitados para IMS o no. Los pasos de inicio de sesión siguientes siguen siendo diferentes para las instancias de IMS y no de IMS, pero la página inicial es la misma para todos los usuarios.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización de Chromium para el Visor de revisión de escritorio</a></p>
+                        <p>Estamos actualizando el Visor de pruebas de escritorio para que admita Chromium 126.0.6478.127, que solucionará los problemas con los elementos de la interfaz de usuario en las pruebas interactivas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión preliminar: 6 de agosto de 2024</p>
+                                <p>Versión de vista previa: 29 de agosto de 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Lanzamiento de producción para todos los clientes: 6 de agosto de 2024</span></p>
+                                <p><span class="preview">Versión de producción para todos los clientes: 29 de agosto de 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### Otras mejoras
 
