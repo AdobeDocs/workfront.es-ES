@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error: Los usuarios de SSO no pueden iniciar sesión en  [!DNL Adobe Workfront] debido a varios errores"
-description: Cuando reciba un error de inicio de sesión acerca del inicio de sesión único federado, su combinación de nombre de usuario y contraseña o su acceso a  [!DNL Workfront], the problem might be that your [!DNL Workfront] instancia utiliza SSO y está intentando iniciar sesión con una dirección URL incorrecta. Asegúrese de iniciar sesión con la URL correcta sin nada después de ".com".
-author: Caroline
+description: Cuando reciba un error de inicio de sesión acerca del inicio de sesión único federado, su combinación de nombre de usuario y contraseña o su acceso a  [!DNL Workfront], the problem might be that your [!DNL Workfront] instancia utiliza SSO y está intentando iniciar sesión con una dirección URL incorrecta.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

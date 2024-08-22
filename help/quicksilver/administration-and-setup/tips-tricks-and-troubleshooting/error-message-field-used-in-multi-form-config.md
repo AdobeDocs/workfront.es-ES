@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '"Mensaje de error: Hay un ligero problema. Ese campo se utiliza en una configuración de varios formularios'
+title: "Mensaje de error: Hay un ligero problema. Ese campo se utiliza en una configuración de varios formularios"
 description: Cuando cambia un cálculo en un campo personalizado calculado en un formulario personalizado y un mensaje de error le indica que el campo se utiliza en una configuración de varios formularios, debe reemplazar el campo por un nuevo campo que contenga el cálculo que desee utilizar.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Este artículo explica cómo encontrar el objeto y luego resolver el problema de
 
 ## Busque el objeto donde están adjuntos los formularios personalizados {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Usuarios]** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **[!UICONTROL Forms personalizado]** > **[!UICONTROL Campos]**.
 1. Aplique la vista **[!UICONTROL Lista de campos]** para encontrar el campo calculado que está intentando modificar y anote todos los formularios personalizados en los que se utiliza (por ejemplo, Formulario 1, Formulario 2, Formulario 3)

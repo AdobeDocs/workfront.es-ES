@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Error de inicio de sesión: Los siguientes campos no son válidos: emailAddress no puede ser nulo"
 description: Cuando intento iniciar sesión en [!DNL Adobe Workfront] la dirección URL de mi dominio, se me redirige al portal de inicio de sesión de SAML y después a [!DNL Workfront] con un error que indica que el campo emailAddr no puede ser nulo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 15b702cf-61b8-41dc-8253-77cadc69bd80
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%

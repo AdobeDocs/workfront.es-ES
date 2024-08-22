@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Cuando no se acepta un correo electrónico autenticado debido a la política DMARC del dominio
+title: No se aceptan correos electrónicos no autenticados debido a la directiva DMARC del dominio
 description: Si un correo electrónico enviado desde el sistema  [!DNL Workfront] no se acepta debido a la directiva DMARC del dominio, el administrador de correo electrónico puede solucionar el problema configurando el sistema de correo electrónico para permitir todos los correos electrónicos de workfront.com.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
