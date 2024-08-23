@@ -1,13 +1,13 @@
 ---
-title: Compartir un vínculo a una cola de solicitudes
-description: Compartir un vínculo a una cola de solicitudes
-author: Alina
+title: Compartir un vínculo en una cola de solicitudes
+description: Puede compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola mientras envía la solicitud.
+author: Lisa
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '295'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ Puede compartir un vínculo a una cola de solicitudes, a un grupo de temas o a u
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -29,21 +31,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: Colaborador o superior</p>
+   O
+   <p>Actual: Solicitud o superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Problemas</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Compartir un vínculo a una cola de solicitudes
 

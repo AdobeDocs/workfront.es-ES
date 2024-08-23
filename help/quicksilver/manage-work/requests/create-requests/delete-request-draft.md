@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Eliminar un borrador de solicitud
 description: Puede eliminar los borradores de solicitud a medida que los vaya creando descartándolos.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Puede eliminar las solicitudes de borrador una vez guardadas como borradores si 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -33,21 +35,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: Colaborador o superior</p>
+   O
+   <p>Actual: Solicitud o superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Problemas</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos para eliminar borradores de solicitud
 
@@ -59,8 +66,9 @@ Debe hacer lo siguiente para poder eliminar un borrador de solicitud:
 
 ## Eliminar un borrador de solicitud
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Haga clic en **Solicitudes** y, a continuación, haga clic en **Borradores** en el panel izquierdo.
+{{step1-to-requests}}
+
+1. Seleccione **Borradores** en el panel izquierdo.
 
    Todos los borradores de todas las colas de solicitudes se muestran en esta lista.
 

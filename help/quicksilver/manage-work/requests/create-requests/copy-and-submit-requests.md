@@ -1,14 +1,14 @@
 ---
 title: Copiar y enviar solicitudes
 description: Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud enviada existente. En este caso, puede copiar una solicitud existente, realizar cambios mínimos en ella y volver a enviarla como una solicitud nueva.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1461'
 ht-degree: 1%
 
 ---
@@ -21,35 +21,6 @@ Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud e
 
 ## Requisitos de acceso
 
-<!--drafted - replace table with P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Contributor or higher</p> 
-   Or
-   <p>Legacy license: Request or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -78,6 +49,42 @@ Si no tiene acceso, pregunte al administrador de Workfront si ha establecido res
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: Colaborador o superior</p>
+   O
+   <p>Actual: Solicitud o superior</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Problemas</p>  </td> 
+  </tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td><p>Acceso para agregar solicitudes a una cola de solicitudes</p> <p>Ver permisos superiores en la solicitud existente</p> <p>Para obtener información sobre cómo configurar una cola de solicitudes, vea <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> </td> 
+  <tr>
+  </tr>
+ </tbody> 
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -118,7 +125,8 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 
 ## Copiar y enviar solicitudes
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Solicitudes**.
+{{step1-to-requests}}
+
 1. (Condicional) Si la sección Enviados no se muestra de forma predeterminada, haga clic en **Enviados** en el panel izquierdo.
 
    >[!TIP]

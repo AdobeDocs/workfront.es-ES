@@ -2,13 +2,13 @@
 product-area: requests
 navigation-topic: create-requests
 title: Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes
-description: Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes
-author: Alina
+description: Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico.
+author: LIsa
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -19,41 +19,39 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico. Puede permitir que los problemas se envíen por correo electrónico a un proyecto solo si el proyecto está designado como Cola de solicitudes. Para obtener más información acerca de cómo crear un proyecto de cola de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico. Solo puede permitir que los problemas se envíen por correo electrónico a un proyecto si este está designado como Cola de solicitudes. Para obtener más información acerca de cómo crear un proyecto de cola de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: Colaborador o superior</p>
+   O
+   <p>Actual: Solicitud o superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>To configure the request queue, you must have Manage permissions to the project.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br></p> </td> 
-   </tr>
-  --> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Problemas</p>  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 

@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: Localizar solicitudes enviadas
 description: Obtenga información sobre las áreas de Adobe Workfront en las que puede localizar solicitudes que usted u otra persona haya enviado o solicitudes que nunca haya enviado y que se hayan guardado como borradores.
-author: Alina
+author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -30,40 +30,46 @@ Puede localizar los siguientes tipos de solicitudes que usted u otra persona ha 
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resumen de licencias de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: Colaborador o superior</p>
+   O
+   <p>Actual: Solicitud o superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td><p>Editar acceso a Problemas</p></td> 
+  </tr>
+  <tr>
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos en las solicitudes o superior</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td><p>Ver permisos o superiores en las solicitudes</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Localizar solicitudes enviadas
 
 Para localizar solicitudes que usted u otros usuarios hayan enviado:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-requests}}
+
 1. Haga clic en **Enviado** en el panel izquierdo para ver todas las solicitudes enviadas.
 
    Puede ver hasta 2000 solicitudes y es posible que se muestren en varias páginas.

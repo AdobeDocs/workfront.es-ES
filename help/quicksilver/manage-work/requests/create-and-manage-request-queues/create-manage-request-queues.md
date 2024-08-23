@@ -4,13 +4,13 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Crear y administrar colas de solicitudes
 description: Puede crear colas de solicitudes en Adobe Workfront para capturar el trabajo no planificado de su organización. En los siguientes artículos se describe cómo configurar proyectos para que funcionen como colas de solicitudes.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Crear reglas de enrutamiento
 description: Las reglas de enrutamiento controlan lo que Adobe Workfront hace con los problemas cuando se envían a una cola de solicitudes. Para obtener más información sobre la creación de colas de solicitudes, vea Crear una cola de solicitudes.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -75,12 +75,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td>
    <td> <p>Editar acceso a Proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p> Administración de permisos del proyecto</p> </td> 
+   <td> <p> Administración de permisos del proyecto</p> </td>
   </tr> 
  </tbody> 
 </table>
