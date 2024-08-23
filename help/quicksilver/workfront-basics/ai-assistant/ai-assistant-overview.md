@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 1517f7480bbe481bc918876441d1b70b09963a97
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Para habilitar el Asistente de IA para su organización, se deben aplicar **toda
 * La experiencia unificada de Adobe debe estar habilitada
 * Su organización debe tener un plan Select, Prime o Ultimate Workfront
 * El Adobe debe tener un acuerdo de IA general de Adobe firmado en el archivo
+
+  Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de generación de IA de Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) en este artículo.
 
 ## Consideraciones sobre el asistente de IA
 
