@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Administrar el diseño de página de registro
 
@@ -36,7 +36,11 @@ Para obtener más información, consulte los siguientes artículos:
 
 ## Requisitos de acceso
 
+<!--Updated for GA-->
+
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
+
+Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 <table style="table-layout:auto">
  <col>
@@ -47,51 +51,65 @@ Para obtener más información, consulte los siguientes artículos:
     <tr>
 <tr>
 <td>
-   <p> Product</p> </td>
+   <p> Productos</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
+ <tr>
+   <td role="rowheader"><p>plan Adobe Workfront*</p></td>
    <td>
-<p>Su organización debe estar inscrita en la fase de acceso anticipado para Workfront Planning </p>
+<p>Cualquiera de los siguientes planes de Workfront:</p>
+<ul><li>Seleccionar</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning no está disponible para planes Workfront heredados</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>plan de Adobe Workfront</p></td>
+
+<tr>
+   <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera</p>
+<p>Para obtener más información sobre lo que se incluye en cada plan de Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
+   <td>
+<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Nuevo: estándar</p>
-   O
-   <p>Actual: plan</p> 
+   <p>Estándar</p>
+   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de acceso para Adobe Workfront Planning</p>  
+  <tr>
+   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
-   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
-</td>
+   <td role="rowheader"><p>Permisos de objeto</p></td>
+   <td>
+   <p>Administrar permisos en un espacio de trabajo</a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para proyectos, portafolios y programas. </p> Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Información general sobre el acceso</a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,11 +163,11 @@ Para agregar una sección a una vista previa de registro o a una página:
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   Se abre la página de registro. <!--The Details tab opens by default. -->
+   Se abre la página de registro. La pestaña Detalles se abre de forma predeterminada.
 
    ![](assets/details-page.png)
 
-1. En la página o vista previa del registro <!--**Details** tab of the-->, pase el ratón sobre el espacio en blanco que hay a la izquierda de los campos y, a continuación, haga clic en el icono **Agregar sección** ![](assets/add-section-icon.png) para agregar una sección.
+1. En la ficha **Detalles** de la página o vista previa del registro, pase el ratón sobre el espacio en blanco a la izquierda de los campos y, a continuación, haga clic en el icono **Agregar sección** ![](assets/add-section-icon.png) para agregar una sección.
 1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** por un nombre; a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
 1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Reorganizar campos en la vista previa del registro o en la página de detalles](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
 
@@ -182,11 +200,23 @@ Todas las secciones se expanden de forma predeterminada.
 
    Todos los cambios realizados en las secciones y el orden de los campos se guardan automáticamente.
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. (Opcional) Haga clic en el icono **Exportar** ![](assets/export-icon-in-record-details-page.png) para exportar la pestaña Detalles a un archivo de Word. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+1. (Opcional) Haga clic en la ficha **Conexiones** junto a la ficha **Detalles**. Es posible que tenga que hacer clic en **Más** antes de hacer clic en la ficha **Conexiones**.
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+   Todos los registros u objetos conectados al registro seleccionado se muestran bajo los nombres del tipo de registro o de la aplicación a la que pertenecen.
+
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+1. (Opcional) Seleccione la opción **Mostrar todos los registros** en la esquina superior derecha de la pestaña Conexiones. Se muestran todos los tipos de registros conectados, incluidos los que aún no tienen registros conectados. De forma predeterminada, la opción no está seleccionada y los tipos de registro sin registros conectados están ocultos.
+
+1. (Opcional) Haga clic en **Conectar** para agregar más registros a los tipos de registros conectados. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+1. (Opcional) Pase el ratón sobre una tarjeta de registro, haga clic en el icono de registro de desconexión **-** y, a continuación, haga clic en **Desconectar**. <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+Ocurren lo siguiente:
+   * El registro ya no está conectado al objeto Workfront.
+   * El objeto Workfront también se quita del campo conectado del registro de Workfront Planning.
+   * También se eliminan los valores de los campos de búsqueda de Workfront conectados al registro de Planning.
 
 ## Reorganizar campos en la vista previa o la página del registro
 

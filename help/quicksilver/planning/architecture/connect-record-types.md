@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
+source-wordcount: '2137'
+ht-degree: 1%
 
 ---
 
@@ -23,8 +23,6 @@ author: Alina
 --->
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
-<!--************ THIS MIGHT NO LONGER BE A 'RELATIONSHIP' TYPE FIELD, BECAUSE THEY WILL SHOW IT IN THE CONNECTION TAB*****************************-->
-
 
 # Conectar tipos de registros
 
@@ -49,7 +47,75 @@ Para ver un ejemplo de conexión de tipos de registros y registros, vea [Ejemplo
 
 ## Requisitos de acceso
 
+<!--Updated for GA-->
+
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
+
+Debe tener lo siguiente para poder acceder a Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Productos</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera de los siguientes planes de Workfront:</p> 
+<ul><li>Seleccionar</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera </p> 
+<p>Para obtener más información sobre lo que se incluye en cada plan de Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
+   <td> 
+<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td> <p>Estándar</p> 
+   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td>   <p>Administrar permisos en un espacio de trabajo</a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p></td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Plantilla de diseño</p></td> 
+   <td> <p>Todos los usuarios, incluidos los administradores de Workfront, deben tener asignada una plantilla de diseño que incluya el área de Planning en el menú principal </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!-- OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -63,137 +129,50 @@ Para ver un ejemplo de conexión de tipos de registros y registros, vea [Ejemplo
    <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p> Planificación de Adobe Workfront</p>
-   <p>Para conectar los tipos de registros de Adobe Workfront Planning con Experience Manager Assets, debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe estar integrada en la experiencia unificada de Adobe. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>.</p> </td>
+   <p> Adobe Workfront Planning</p>
+   <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
   </tr>  
- <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Su organización debe estar inscrita en la fase de acceso anticipado para Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>plan de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Cualquiera</p>
+<p>Any</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
-   <td>
-   <p>Nuevo: estándar</p> 
-   <p>Actual: plan</p>
-  </td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administrar permisos en un espacio de trabajo</a> </p>  
-   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
-
-
-<!-- replace the table above with the following table at Planning GA release: 
-
-## Access requirements
-
-You must have the following to be able to access Workfront Planning: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Products</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
-   <td>
-<p>Any of the following Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
-   <td>
-<p>Any of the following Workfront Planning plans:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Standard</p>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+   <p>New: Standard</p> 
+   <p>Current: Plan</p>
   </td>
   </tr>
+  
   <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
+   <td role="rowheader"><p>Access level configurations</p></td>
    <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-  </td>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
  </tbody>
 </table>
 
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
-
-<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
++++
 
 
 ## Conectar tipos de registros
@@ -216,8 +195,6 @@ You must have the following to be able to access Workfront Planning:
 
    * Otro tipo de registro del espacio de trabajo seleccionado
 
-     <!--replace screen shot below-->
-
      ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
      >[!TIP]
@@ -235,8 +212,6 @@ You must have the following to be able to access Workfront Planning:
 
    * Un **proyecto, Portfolio, programa, compañía** o **grupo** de la sección **Tipos de objetos de Workfront**.
 
-     <!--replace screen shot below-->
-
      ![](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** de la sección **Aplicaciones de Adobe**.
@@ -252,14 +227,25 @@ You must have the following to be able to access Workfront Planning:
    >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no edita el nombre del campo conectado, Workfront agrega un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
 
    * **Descripción**: Información adicional acerca del campo de registro conectado. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Permitir varios registros**: seleccione esta opción para indicar que permite que los usuarios puedan agregar varios registros cuando el campo de tipo de registro vinculado se muestra en los registros originales. Esta opción está seleccionada de forma predeterminada. <!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
-   <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
-        * One to one
-        * One to many
-        * Many to one
-        * Many to many
-        
-        For information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+   * **Permitir varios registros**: seleccione esta opción para indicar que permite que los usuarios puedan agregar varios registros cuando el campo de tipo de registro vinculado se muestra en los registros originales. Esta opción está seleccionada de forma predeterminada.
+
+     Esta opción solo está disponible cuando se conectan registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager.
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
+
+   * **Tipo de conexión**: seleccione una de las siguientes opciones para indicar cuántos registros pueden conectar con y desde:
+
+      * Muchos a muchos
+      * Uno a muchos
+      * Muchos a uno
+      * Uno a uno
+
+     Esta opción sólo está disponible cuando se conectan registros del mismo espacio de trabajo o un registro y un tipo de objeto de Workfront.
+
+     ![](assets/many-to-many-connection-picker.png)
+
+     Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
    * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto al que se está vinculando en el registro desde el que se está estableciendo el vínculo. Esta opción está seleccionada de forma predeterminada.
 
      >[!TIP]
@@ -362,7 +348,7 @@ You must have the following to be able to access Workfront Planning:
 
    Se añaden los elementos siguientes:
 
-   * Un campo de registro vinculado en el tipo de registro desde el que está vinculando. El campo de registro vinculado mostrará registros individuales del tipo de registro vinculado, después de agregarlos manualmente. Para obtener información sobre cómo agregar registros, vea [Conectar registros](/help/quicksilver/planning/records/connect-records.md). El nombre del campo de registro vinculado es el nombre seleccionado en el paso 7. <!--accurate-->
+   * Un campo de registro vinculado en el tipo de registro desde el que está vinculando. El campo de registro vinculado mostrará registros individuales del tipo de registro vinculado, después de agregarlos manualmente. Para obtener información sobre cómo agregar registros, vea [Conectar registros](/help/quicksilver/planning/records/connect-records.md). El nombre del campo de registro vinculado es el nombre seleccionado en el paso 6. <!--accurate-->
 
    * Campo (o campos) vinculado (o de búsqueda) que muestra información sobre el registro vinculado o los tipos de objeto después de agregar manualmente los registros u objetos en el campo de registro vinculado. Los campos de búsqueda solo se crean cuando la opción **Seleccionar campos de búsqueda** está seleccionada al crear la conexión. Los campos de búsqueda se nombran automáticamente según este patrón:
 
@@ -385,7 +371,7 @@ You must have the following to be able to access Workfront Planning:
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Para agregar o quitar campos de búsqueda, siga las instrucciones de los pasos 10 a 14 anteriores. <!--ensure these step numbers stay accurate-->
+   Para agregar o quitar campos de búsqueda, siga las instrucciones de los pasos 16-17 anteriores. <!--ensure these step numbers stay accurate-->
 
    >[!NOTE]
    >

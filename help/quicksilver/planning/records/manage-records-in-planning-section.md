@@ -1,13 +1,13 @@
 ---
 title: Administrar registros en la sección Planificación de objetos de Adobe Workfront
-description: Puede mostrar los registros conectados a objetos de Adobe Workfront en la sección Planning de un objeto de Workfront, en el panel izquierdo.
+description: Puede mostrar los registros de Workfront Planning conectados a objetos de Adobe Workfront en la sección Planning de un objeto de Workfront, en el panel izquierdo.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Puede mostrar los registros conectados a objetos de Adobe Workfront en la sección Planning de un objeto de Workfront, en el panel izquierdo.
+Puede mostrar los registros de Workfront Planning conectados a objetos de Adobe Workfront en la sección Planning de un objeto de Workfront, en el panel izquierdo.
 
 La sección Planificación está disponible para los siguientes objetos de Workfront:
 
@@ -35,7 +35,11 @@ La sección Planificación está disponible para los siguientes objetos de Workf
 
 ## Requisitos de acceso
 
+<!--Updated for GA-->
+
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
+
+Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 <table style="table-layout:auto">
  <col>
@@ -46,52 +50,66 @@ La sección Planificación está disponible para los siguientes objetos de Workf
     <tr>
 <tr>
 <td>
-   <p> Product</p> </td>
+   <p> Productos</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
+ <tr>
+   <td role="rowheader"><p>plan Adobe Workfront*</p></td>
    <td>
-<p>Su organización debe estar inscrita en la fase de acceso anticipado para Workfront Planning </p>
+<p>Cualquiera de los siguientes planes de Workfront:</p>
+<ul><li>Seleccionar</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning no está disponible para planes Workfront heredados</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>plan de Adobe Workfront</p></td>
+
+<tr>
+   <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera</p>
+<p>Para obtener más información sobre lo que se incluye en cada plan de Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
+   <td>
+<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td>
-   <p>Nuevo: estándar</p>
-   O
-   <p>Actual: plan</p> 
+   <p>Estándar</p>
+   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
+  <tr>
+   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
    <td> <p>Acceso de visualización o superior a Proyectos, Programas y Portfolio</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>En Workfront, vea o supere los permisos de un proyecto, portafolio o programa</a> </p> 
+   <td role="rowheader"><p>Permisos de objeto</p></td>
+   <td>
+   <p>En Workfront, vea o supere los permisos de un proyecto, portafolio o programa</a> </p> 
    <p>En Workfront Planning, Contribute o permisos superiores para un espacio de trabajo</a> </p>  
-   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo de Workfront Planning, incluidos los que no crearon</p>
-</td>
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo de Workfront Planning, incluidos los que no crearon</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador de su Workfront o de su grupo debe añadir el área de Planning en el menú principal y la sección de Planning en el panel izquierdo a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para proyectos, portafolios y programas. </p> Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Información general sobre el acceso</a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -135,6 +153,7 @@ La página del objeto se abre en Workfront.
 
    ![](assets/planning-section-on-project.png)
 
+1. (Opcional) Haga clic en **Mostrar todas las conexiones** para mostrar todos los tipos de registros conectados, incluidos los que no tienen registros conectados. De forma predeterminada, no se muestran los tipos de registros sin registros conectados.
 1. Haga clic en una tarjeta de registro para mostrar más información sobre el registro. Se muestra el cuadro de vista previa de registros.
 1. (Opcional) Comience a modificar los campos en el cuadro de vista previa del registro. Los cambios se guardarán automáticamente.
 1. (Opcional) Haga clic en el icono **Abrir en una nueva ficha** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro de vista previa para abrir la página de detalles del registro. Se abre la página de detalles del registro en Workfront Planning.
@@ -143,16 +162,12 @@ Ocurren lo siguiente:
    * El registro ya no está conectado al objeto Workfront.
    * El objeto Workfront también se quita del campo conectado del registro de Workfront Planning.
    * También se eliminan los valores de los campos de búsqueda de Workfront conectados al registro de Planning.
-1. Haga clic en **Conectar** para conectar más registros.
+1. Haga clic en **Conectar** para conectar más registros para los tipos de registros conectados. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
-   >[!NOTE]
-   >
-   >   El botón Conectar solo se muestra en los espacios de trabajo en los que tiene permisos de Contribute. <!--they might replace this with one button at the top of the page. Rephrase-->
-
-1. Haga clic en los registros que desee conectar. Ocurren lo siguiente:
+   Ocurren lo siguiente:
 
    * Los registros se conectan inmediatamente al objeto Workfront y se muestran en la sección Planificación.
    * El objeto Workfront se agrega al campo conectado del registro de Workfront Planning.
    * Los valores de los campos de búsqueda de Workfront conectados al registro de Planning se rellenan en Workfront Planning.
 
-<!--add more steps here for what happens after clicking Connect-->
+

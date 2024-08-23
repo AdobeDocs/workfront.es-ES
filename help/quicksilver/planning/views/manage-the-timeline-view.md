@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2636'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,76 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 
 ## Requisitos de acceso
 
+<!--Updated for GA-->
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Productos</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera de los siguientes planes de Workfront:</p> 
+<ul><li>Seleccionar</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera </p> 
+<p>Para obtener más información sobre lo que se incluye en cada plan de Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
+   <td> 
+<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td> <ul><li><p>Cualquiera, para ver información de Workfront Planning</p></li>
+   <li><p>Estándar, para crear espacios de trabajo</p></li></ul>
+   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td>   <p>Administración de permisos en una vista</p>  
+   <p>Ver o permisos superiores a una vista para cambiar temporalmente su configuración</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Plantilla de diseño</p></td> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -51,132 +118,50 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Su organización debe estar inscrita en la fase de acceso anticipado para Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>plan de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Cualquiera</p>
+<p>Any</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
-   <td>
-   <p>Nuevo: estándar</p>
-   O
-   <p>Actual: plan </p> 
-  </td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td>
-   <td> No hay controles de acceso para Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Administración de permisos en una vista</p>  
-   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-
-<!--EDIT PERMISSIONS AND ACCESS AND REPLACE THE table above with the following table at Planning GA release: 
-## Access requirements
-
-You must have the following to be able to access Workfront Planning: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Products</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
-   <td>
-<p>Any of the following new Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
-   <td>
-<p>Any of the following Workfront Planning plans:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <ul><li><p>Any, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces</p></li></ul>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
   <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Manage permissions to a view</p>  
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings</p>
-  </td>
+</td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-*********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
-
--->
-
++++
 
 ## Administrar una vista de cronología {#manage-a-timeline-view}
 
@@ -249,7 +234,11 @@ Para administrar una vista de cronología:
    * [Filtros](#add-filters)
    * [Agrupación](#add-grouping)
    * [Configuración](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
+
+1. (Opcional) Haga clic en **Desglose** para mostrar los registros conectados en la cronología.
+
+   Para obtener más información, vea la sección [Usar la característica Desglose para mostrar los registros conectados en la vista de escala de tiempo](#break-down-connected-records-in-the-timeline-view)
 
 ### Añadir filtros
 
@@ -329,7 +318,6 @@ Para agregar una agrupación en la vista de escala de tiempo:
 
 1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
 1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de la cronología](#edit-the-timeline-view-settings) en este artículo.
-   <!--1. (Optional) Click **Breakdown** to display connected records on the timeline. For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view)-->
 
 <!-- 
 
@@ -419,60 +407,54 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 
    Los registros se muestran en la vista de escala de tiempo con las especificaciones seleccionadas.
 
-<!--
-### Use the Breakdown feature to display connected records in the timeline view
+### Utilice la función Desglose para mostrar los registros conectados en la vista de cronología
 
-You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
+Puede mostrar los registros conectados en la vista de escala de tiempo de un registro mediante la función Desglose. El desglose de registros por sus conexiones le permite ver las escalas de tiempo de otros registros conectados y comprender cómo pueden afectar al rendimiento y a los plazos de los registros.
 
-#### Considerations when using the Breakdown feature
+#### Consideraciones al utilizar la función Desglose
 
-* You can display connected records or objects under the records of the selected record type in the timeline view. 
-* You can display the following in the timeline view, using the Breakdown feature:
-    * Workfront Planning records connected to the selected record type. 
-    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
-    * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
-    
-        For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 
+* Puede mostrar registros u objetos conectados debajo de los registros del tipo de registro seleccionado en la vista de escala de tiempo.
+* Puede mostrar lo siguiente en la vista de cronología mediante la función Desglose:
+   * Registros de Workfront Planning conectados al tipo de registro seleccionado.
+   * Los tipos de objeto de Workfront (************* o AEM Assets *************) se conectaron al tipo de registro seleccionado.
+   * Registros de Workfront Planning u objetos de otra aplicación conectados a registros conectados al tipo de registro seleccionado.
 
-* You cannot display object types that are connected only to Workfront objects in Workfront, but are not connected to a Workfront Planning record type. You can only display object or record types that are connected in Workfront Planning. 
+     Por ejemplo, puede conectar campañas a portafolios. Además, puede conectar otro tipo de registro, productos, con proyectos, así como con campañas. Cuando genere la vista de la cronología de la campaña, puede desglosar las campañas por portafolios, productos y proyectos.
 
-    For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
+* No se pueden mostrar tipos de objetos que sólo están conectados a objetos de Workfront en Workfront, pero que no están conectados a un tipo de registro de Workfront Planning. Sólo se pueden mostrar los tipos de objetos o registros conectados en Workfront Planning.
 
-    If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
-* You can only display record types that are associated with at least two date fields. 
-* The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
-* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
-* There is a limit of 5 record types that you can include in a record's breakdown. 
+  Por ejemplo, las tareas están conectadas a proyectos en Workfront. Con la función Desglose, puede mostrar los proyectos que están conectados a campañas en Planning, pero no las tareas conectadas a proyectos en Workfront.
 
+  Si desea mostrar tanto los portafolios como los proyectos en la vista de escala de tiempo de un tipo de registro de Workfront Planning, tanto los portafolios como los proyectos deben estar conectados al registro de Planning o a un registro conectado al registro de Planning cuya vista de escala de tiempo esté administrando.
+* Solo puede mostrar tipos de registro asociados con al menos dos campos de fecha.
+* Los campos de fecha para los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar visibles en la vista de tabla del tipo de registro seleccionado, como campos de búsqueda.
+* Las fechas de inicio y finalización de los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar en orden cronológico. Por ejemplo, si un registro tiene una fecha de inicio del 31 de enero y una fecha de finalización del 1 de enero, no se muestra en la vista de escala de tiempo. Para obtener más información, consulte la sección [Administrar una vista de escala de tiempo](#manage-a-timeline-view) en este artículo.
+* Hay un límite de 5 tipos de registros que puede incluir en el desglose de un registro.
 
-#### Break down connected records in the timeline view
+#### Desglose de registros conectados en la vista de cronología
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Breakdown**.
-1. Expand the **Select a linked record type** box and select a connected record type. (**************add new screen shot***************)
+1. Cree una vista de escala de tiempo para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. (Condicional) Si está viendo la vista de escala de tiempo en el modo Estándar, haga clic en **Desglose**.
+1. Expanda el cuadro **Seleccionar un tipo de registro vinculado** y seleccione un tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-    ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![](assets/breakdown-picker-and-button-on-timeline.png)
 
-    >[!TIP]
-    >
-    >    If you do not have any connected records, or if the connected records do not have at least two date fields, the **Select a linked record type** box is not available.
+   >[!TIP]
+   >
+   >    Si no tiene ningún registro conectado o si los registros conectados no tienen al menos dos campos de fecha, la casilla **Seleccionar un tipo de registro vinculado** no está disponible.
 
-1. Choose a **Start date** and an **End date field**.
+1. Elija **fecha de inicio** y **campo de fecha de finalización**.
 
-    >[!TIP]
-    >
-    >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
+   >[!TIP]
+   >
+   >    Las fechas de inicio y finalización deben ser secuenciales. Si la fecha de finalización es anterior a la fecha de inicio, no se mostrará ningún registro en la cronología.
 
-    A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
+   Si están conectados con otros registros, aparecerá una flecha hacia la derecha en la barra del registro seleccionado de la escala de tiempo.
+1. Haga clic en la flecha que señala a la derecha para expandir un tipo de registro y mostrar sus conexiones.
 
-    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
-
-1. (Optional) Repeat the steps above to add more connected records. 
-
-    >[!TIP]
-    >
-    >    You can add up to 5 connected records in a timeline using the Breakdown feature. 
+1. (Opcional) Repita los pasos anteriores para agregar más registros conectados.
 
 
--->
+
