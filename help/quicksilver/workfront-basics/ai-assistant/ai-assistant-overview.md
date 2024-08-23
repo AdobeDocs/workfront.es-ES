@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,21 @@ El asistente de IA ofrece actualmente las siguientes funciones:
 
 1. Si el asistente de IA no proporciona la respuesta que necesita, perfeccione el mensaje e inténtelo de nuevo.
 
+## Firma del acuerdo de Adobe Gen AI
 
+Si su organización no tiene un acuerdo de IA de generación de Adobe firmado, el Asistente de IA no se puede habilitar para su organización.
 
+Si un usuario intenta utilizar el asistente de IA cuando no se ha firmado el acuerdo de IA de generación de Adobe, verá un mensaje:
 
+* Usuarios: se informa a los usuarios de que el Asistente de IA no se ha habilitado para su organización y de que pueden ponerse en contacto con el administrador de Workfront para solicitarlo para su organización.
+* Administradores: se informa a los administradores de que no hay un acuerdo de IA general de Adobe firmado y pueden solicitar que se envíe una copia del acuerdo para su firma.
+
+Para solicitar el acuerdo de Adobe Gen AI:
+
+1. Como administrador de Workfront, haga clic en el icono Asistente de IA ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Empiece a escribir en el panel Ayudante de IA.
+1. Cuando aparezca el mensaje del acuerdo de Adobe Gen AI, haga clic en **Revisar acuerdo**.
+1. Introduzca el nombre y la dirección de correo electrónico de la persona de su organización que firmará el acuerdo de generación de IA de Adobe.
+
+   El acuerdo se enviará a esta persona para que lo firme. Una vez firmado y devuelto, el Ayudante de IA se habilita para su organización.
 

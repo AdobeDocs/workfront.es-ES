@@ -6,9 +6,9 @@ description: Puede compartir o quitar permisos a un objeto que haya creado o a u
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -140,7 +140,7 @@ La siguiente tabla ilustra el nivel de permisos que puede seleccionar al compart
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Convertirlo en visible en todo el sistema.</strong></td> 
-   <td> <p>El objeto se puede encontrar en búsquedas y ser visto por usuarios con una cuenta de Workfront.</p><p><b>Nota&gt;/b&gt;: los usuarios con licencias de colaborador o solicitante no pueden ver los proyectos aunque esta opción esté habilitada. </td> 
+   <td> <p>El objeto se puede encontrar en búsquedas y ser visto por usuarios con una cuenta de Workfront.</p><p><b>Nota</b>: los usuarios con licencias de colaborador o solicitante no pueden ver proyectos, aunque esta configuración esté habilitada. </td> 
   </tr> 
  </tbody> 
 </table>
