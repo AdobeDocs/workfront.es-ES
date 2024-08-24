@@ -5,9 +5,9 @@ title: Guía de desaprobación de página principal heredada
 description: Esta página contiene información sobre la próxima obsolescencia de la página principal heredada.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Comunidad de Adobe Workfront, tenemos noticias: pronto eliminaremos la página p
 
 ![](assets/legacy-home-worklist-view.png)
 
-Esta página quedará obsoleta durante la versión de 24.10 (programada para el 17 de octubre de 2024). En ese momento, se le solicitará que pase a la nueva experiencia de Inicio. Si ha estado utilizando la página principal heredada para administrar su trabajo, no se preocupe. Además de mejorar continuamente la nueva página de inicio, hemos estado ocupados creando una experiencia de administración de trabajo optimizada llamada Mis prioridades.
+Esta página quedará obsoleta durante la versión de 24.10 (programada para el 17 de octubre de 2024). En ese momento, se le solicitará que pase a la nueva experiencia de Inicio. Si ha estado utilizando la página principal heredada para administrar su trabajo, no se preocupe. Además de mejorar continuamente la nueva página de inicio, hemos estado ocupados creando una experiencia de administración de trabajo optimizada llamada Prioridades.
 Sin embargo, sabemos que un cambio como este puede ser perturbador, y queremos ayudar con su transición de cualquier manera que podamos. Esta página contiene información sobre qué cambiará exactamente, consejos sobre cómo prepararse para la transición y algunas respuestas a las preguntas más frecuentes.
 
 ## Información de obsolescencia
@@ -35,7 +35,7 @@ Sin embargo, sabemos que un cambio como este puede ser perturbador, y queremos a
 
 * La nueva página de inicio ya está disponible como reemplazo. Consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) para obtener más información sobre cómo usar la nueva página de inicio. Puede ser personalizado por los usuarios a través de opciones de personalización y por los administradores a través de plantillas de diseño.
 
-* Mis prioridades se encuentran en fase de desarrollo y servirán como otro elemento de la experiencia optimizada de gestión del trabajo en Adobe Workfront.
+* Las prioridades están en proceso de desarrollo y servirán como otro elemento de la experiencia racionalizada de gestión del trabajo en Adobe Workfront.
 
 ## Preparación para el desuso
 
@@ -57,7 +57,7 @@ Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva e
 
 ### Siga la experiencia de Inicio a medida que se desarrolla
 
-También recomendamos mantenerse al día con las notas de la versión más recientes (consulte [Versiones de productos](/help/quicksilver/product-announcements/product-releases/product-releases.md)) para obtener más información acerca de cualquier cambio realizado en la experiencia de Inicio a medida que nos acercamos al final del soporte. Además, siga leyendo sobre Mis prioridades para comprender mejor nuestra visión del futuro de la administración del trabajo en Adobe Workfront (próximamente más información).
+También recomendamos mantenerse al día con las notas de la versión más recientes (consulte [Versiones de productos](/help/quicksilver/product-announcements/product-releases/product-releases.md)) para obtener más información acerca de cualquier cambio realizado en la experiencia de Inicio a medida que nos acercamos al final del soporte. Además, siga leyendo sobre Prioridades para comprender mejor nuestra visión del futuro de la administración del trabajo en Adobe Workfront (próximamente más información).
 
 ### Pedir ayuda
 
@@ -70,7 +70,7 @@ Si tiene problemas durante la transición, póngase en contacto con el equipo de
 No, se eliminará completamente de la aplicación.
 +++
 
-+++ ¿Todas las funciones de la página principal heredada están disponibles en la nueva página principal (o, finalmente, en Mis prioridades)?
++++ ¿Todas las funciones de la página principal heredada están disponibles en la nueva página principal (o, finalmente, en Prioridades)?
 
 Casi, con la excepción de:
 
@@ -78,7 +78,7 @@ Casi, con la excepción de:
 
 * Actualmente no está disponible la visualización de marcas de tiempo para las fechas de vencimiento del objeto.
 
-* Actualmente no está disponible la visualización de la fecha de compromiso dentro de la fuente de actualización. Sin embargo, hay una solución disponible: mostrar la fecha de compromiso en la personalización del encabezado a través de las plantillas de diseño.
+* Actualmente no está disponible la visualización de la fecha de compromiso dentro de la fuente de actualización. Sin embargo, hay una solución disponible: mostrar la fecha de compromiso en el encabezado a través de la personalización de la plantilla de diseño.
 +++
 
 +++¿Cómo regulo a qué widgets tienen acceso los usuarios en la nueva página de inicio?
@@ -102,5 +102,5 @@ Los campos personalizados se pueden ver en la nueva página de inicio mediante:
 
 +++¿Puedo enviar comentarios?
 
-¡Sí! Para ello, haga clic en el botón **Enviar comentarios** de la aplicación en su nueva página de inicio, a través de la próxima página Mis prioridades o a través del [Foro de ideas de Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+¡Sí! Para ello, haga clic en el botón **Enviar comentarios** de la aplicación en su nueva página de inicio, a través de la próxima página de prioridades o a través del [Foro de ideas de Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 +++
