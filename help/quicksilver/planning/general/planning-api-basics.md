@@ -1,18 +1,22 @@
 ---
 title: Conceptos básicos de API de Adobe Workfront Planning
 description: El objetivo de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP. En este documento se da por hecho que está familiarizado con las respuestas de REST y JSON y se describe el método que utiliza la API de Planning.
-hidefromtoc: true
-hide: true
+author: Becky
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
 
+
 # Conceptos básicos de API de Adobe Workfront Planning
+
+{{planning-important-intro}}
 
 El objetivo de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP. En este documento se da por hecho que está familiarizado con las respuestas de REST y JSON y se describe el método que utiliza la API de Planning.
 

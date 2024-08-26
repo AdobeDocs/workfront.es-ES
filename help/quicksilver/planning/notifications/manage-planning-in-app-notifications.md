@@ -1,16 +1,17 @@
 ---
 title: Administrar notificaciones en la aplicación de Adobe Workfront Planning
 description: Cuando alguien le etiqueta en un comentario de registro, recibe una notificación por correo electrónico para esa etiqueta.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
+
 
 # Administrar notificaciones en la aplicación de Adobe Workfront Planning
 
@@ -30,6 +31,78 @@ Para obtener información sobre cómo etiquetar a otras personas en un comentari
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
+Debe tener lo siguiente para poder acceder a Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Productos</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera de los siguientes planes de Workfront:</p> 
+<ul><li>Seleccionar</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera </p> 
+<p>Para obtener más información sobre lo que se incluye en cada plan de Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
+   <td> 
+<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td><p> Estándar, Ligero o Colaborador</p>
+   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td>   <p>Ver permisos superiores a un espacio de trabajo</a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Plantilla de diseño</p></td> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--
+OLD:
+
++++ Expand to view access requirements for Workfront Planning. 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -42,47 +115,48 @@ Para obtener información sobre cómo etiquetar a otras personas en un comentari
    <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Para recibir notificaciones de Workfront Planning, la instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>.</p></td>
+   <p>In order to receive notifications from Workfront Planning, your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
   </tr>  
- <td role="rowheader"><p>acuerdo con Adobe Workfront</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Su organización debe estar inscrita en la fase de acceso anticipado para Workfront Planning </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>plan de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Cualquiera</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
-   <p>Cualquiera</p> 
+   <p>Any</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
-   <td> <p>No hay controles de nivel de acceso en Workfront Planning. </p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls in Workfront Planning. </p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Permisos</p></td>
-   <td> <p>Ver permisos superiores a un espacio de trabajo</a> </p>  
-   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>El administrador del grupo o de Workfront debe agregar el área de Planning a la plantilla de diseño. Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Resumen de acceso</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
 +++
+-->
 
 ## Administración de notificaciones en la aplicación
 

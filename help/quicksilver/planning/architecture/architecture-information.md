@@ -1,30 +1,17 @@
 ---
-title: "Arquitectura: índice de artículos"
+title: "Arquitectura: Índice de artículos"
 description: En los siguientes artículos se describe cómo configurar la arquitectura de Adobe Workfront Planning. Como parte de esta configuración, aprenderá a crear espacios de trabajo, tipos de registros y campos personalizados para asignar los flujos de trabajo que desea administrar en Workfront Planning.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
-<!--
----
-title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User, Admin
-hide: yes
----
--->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Arquitectura: índice de artículos
 

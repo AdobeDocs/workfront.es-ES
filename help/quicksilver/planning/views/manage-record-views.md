@@ -1,20 +1,20 @@
 ---
 title: Administrar vistas de registros
 description: Puede mostrar registros en una vista de tabla, escala de tiempo o calendario al utilizar Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
 
-# Administrar vistas de registros
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Administrar vistas de registros
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Este artículo describe la siguiente información sobre las vistas de registros:
 
 
 ## Requisitos de acceso
-
-<!--Updated for GA-->
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
@@ -87,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Cualquiera, para ver información de Workfront Planning</p></li>
+   <td> <ul><li><p>Estándar, Ligero o Colaborador, para ver información de Workfront Planning</p></li>
    <li><p>Estándar, para crear espacios de trabajo</p></li></ul>
    <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 

@@ -1,16 +1,19 @@
 ---
-title: 'Información general de Adobe Workfront Planning: índice de artículos'
+title: 'Información general de Adobe Workfront Planning: Índice de artículos'
 description: Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Los artículos de esta sección describen conceptos generales sobre Workfront Planning, prácticas recomendadas sobre cómo implementarlo y le ofrecen una descripción general de algunas de las funciones disponibles actualmente.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
 
 ---
+
+
 
 # Información general de Adobe Workfront Planning: índice de artículos
 
@@ -22,8 +25,8 @@ Revise los siguientes artículos:
 * [Descripción general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Conceptos básicos de API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
-* [Actividad de la versión actual de Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
-* [Archivos de actividades de la versión de Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md)
+* [Actividad de la versión de Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
 
 

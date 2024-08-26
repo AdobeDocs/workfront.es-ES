@@ -4,9 +4,9 @@ description: Puede crear un formulario de solicitud para cada tipo de registro, 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ Puede crear un formulario de solicitud para cada tipo de registro, compartirlo c
 
 Esta sección contiene los siguientes artículos:
 
-* [Creación de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Envío de solicitudes de Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md)

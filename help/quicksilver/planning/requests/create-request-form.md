@@ -1,23 +1,25 @@
 ---
-title: Creación de un formulario de solicitud en Adobe Workfront Planning
-description: Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede crear un formulario de solicitud asociado a dicho tipo de registro y compartir un vínculo con otros usuarios internos o externos.
+title: Creación y administración de un formulario de solicitud en Adobe Workfront Planning
+description: Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede crear un formulario de solicitud y asociarlo a ese tipo de registro. A continuación, puede compartir un vínculo con otros usuarios internos o externos. Los usuarios con un vínculo al formulario pueden rellenar los valores de campo que contiene y, al enviarlo, pueden agregar un nuevo registro para el tipo de registro asociado a él.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
 
-# Creación de un formulario de solicitud en Adobe Workfront Planning
+# Creación y administración de un formulario de solicitud en Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede crear un formulario de solicitud y asociarlo a ese tipo de registro. A continuación, puede compartir un vínculo con otros usuarios internos o externos. <!--double-check on the external part of it-->
+
+Los usuarios con un vínculo al formulario pueden rellenar los valores de campo que contiene y, al enviarlo, pueden agregar un nuevo registro para el tipo de registro asociado a él.
 
 ## Requisitos de acceso
 
@@ -52,7 +54,8 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 <tr>
    <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td>
    <td>
-<p>Cualquiera </p>   </td>
+<p>Cualquiera </p>  
+<p>Para obtener más información sobre lo que se incluye en cada plan de Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>. </td>
 
 <tr>
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
@@ -118,31 +121,76 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 1. Haga clic en **Crear**. Se abrirá el formulario de solicitud del tipo de registro seleccionado.
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    El formulario de solicitud contiene la siguiente información de forma predeterminada:
 
+   * Todos los campos de registro disponibles en la vista de tabla del tipo de registro seleccionado.
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
    * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible.
    * Todos los campos asociados al tipo de registro.
 
    Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
 
-1. (Opcional) Elimine el campo **Asunto**, ya que esto no es visible en Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Pase el ratón sobre cualquier campo del formulario que quiera eliminar. Se agregarán a la ficha **Campos** en la parte izquierda del formulario.
-1. Haga clic en cualquier campo y, a continuación, utilice los controles situados en el lado derecho del formulario para definir cualquiera de la siguiente información sobre los campos:
+1. (Opcional) Pase el ratón sobre cualquier campo del formulario que quiera quitar y luego haga clic en el icono **x** para quitarlo. Se agregarán a la ficha **Campos** situada a la izquierda del formulario.
+
+   Por ejemplo, quite el campo **Asunto**, ya que esto no es visible en Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. Haga clic en cualquier campo y, a continuación, utilice los controles del lado derecho del formulario para definir su tamaño o cualquiera de la siguiente información sobre los campos:
 
    * **Etiqueta**: este es el nombre del campo tal como aparecerá en el formulario de solicitud. Esto no cambia el nombre del campo de registro.
    * **Instrucciones**: Agregue más información sobre el campo.
    * **Crear un campo obligatorio**: cuando se selecciona, el campo debe tener un valor. De lo contrario, el formulario no se podrá enviar.
    * **Agregar lógica**: defina qué condiciones deben cumplirse para que el campo se muestre o se oculte.
 
-1. Haga clic en la pestaña Elementos de contenido, en la parte derecha del formulario, y añada cualquiera de los siguientes elementos:
+1. (Opcional) Haga clic en la pestaña **Elementos de contenido** de la parte izquierda del formulario y agregue cualquiera de los siguientes elementos:
 
-   * Texto descriptivo
-   * Salto de sección
+   * **Texto descriptivo**
+   * **Salto de sección**
 
    Para obtener más información acerca de cómo crear un formulario personalizado, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+1. (Opcional) Haga clic en **Vista previa** para ver cómo se mostrará el formulario para otros usuarios cuando lo usen para enviar un nuevo registro.
+1. Haga clic en **Publish** para publicar el formulario y obtener un vínculo único para él.
 
+   Ocurren lo siguiente:
+
+   * Se elimina el botón Publish.
+   * Se agrega el botón **Cancelar publicación** al formulario. Si hace clic en él, se impedirá el acceso al formulario.
+   * Se agrega un botón **Compartir** al formulario.
+
+1. Haga clic en **Compartir** para compartir el formulario con otros usuarios.
+
+   ![](assets/share-box-for-request-form.png)
+
+1. Seleccione entre las siguientes opciones para indicar qué tipos de usuarios pueden acceder a este formulario:
+
+   * Cualquiera con acceso de visualización o más alto al espacio de trabajo
+   * Cualquiera con acceso de aportación o más alto al espacio de trabajo
+   * Cualquiera con el vínculo
+
+   >[!IMPORTANT]
+   >
+   >Al seleccionar Cualquiera que tenga el vínculo, cualquier persona, incluso las personas externas a la organización y que no tengan cuenta de Workfront, podrá acceder al formulario y enviar un nuevo registro.
+
+1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible. Las personas recibirán un error una vez que caduque el vínculo y deberá actualizar la fecha del vínculo para que puedan acceder al formulario de nuevo.  <!--add info here about how long the expiration date should be; logged bug-->
+
+1. Haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario.
+
+   Las opciones de uso compartido de formularios se guardan y el vínculo se copia en el portapapeles. Ahora puede compartirlo con otros usuarios.
+
+   Para obtener información sobre cómo crear registros mediante un vínculo a un formulario de solicitud, consulte [Enviar solicitudes de Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Haga clic en **Guardar** en la esquina inferior derecha de la pantalla para guardar el formulario.
+1. Haga clic en la flecha que señala a la izquierda del nombre del formulario en el encabezado para cerrar el formulario.
+
+   Se abre la página de tipo de registro.
+1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado y, a continuación, siga uno de estos procedimientos:
+   * Haga clic en **Actualizar formulario de solicitud** para realizar cualquier cambio en el formulario de solicitud.
+   * Haga clic en **Copiar vínculo al formulario de solicitud** para compartir el vínculo al formulario con otros usuarios.
+
+   >[!TIP]
+   >
+   >Hay indicios de que el vínculo se comparte públicamente cuando este es el caso.
 
 
 
