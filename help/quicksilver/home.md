@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] documentación'
 description: Documentación de  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,7 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 * [Resumen de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Actividad de la versión del cuarto trimestre de 2024 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB Versiones de 2024]
 
