@@ -224,9 +224,8 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    La vista se actualiza con un icono de personas ![](assets/view-shared-with-others-people-icon.png) para indicar que la vista ahora se comparte con otros usuarios.
 
-   >>
-   [!TIP]
-   >>
+   >[!TIP]
+   >
    Las vistas sin un icono de persona o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
 
 1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
@@ -268,8 +267,7 @@ Para compartir una vista públicamente en Workfront Planning:
 
    La vista se actualiza con un icono global ![](assets/public-shared-view-icon-highlighted.png) para indicar que la vista se comparte públicamente.
 
-   >>
-   [!TIP]
+   >[!TIP]
    >
    >Las vistas sin un icono de persona o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
 
