@@ -6,9 +6,9 @@ description: Puede personalizar los campos que se muestran en una tarjeta deshab
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -32,30 +32,37 @@ También puede mostrar campos personalizados creados anteriormente. No se pueden
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configuración de tarjetas {#configure-cards}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en [!UICONTROL **Configurar**] a la derecha del tablero para abrir el panel Configurar.
 1. Expandir [!UICONTROL **Tarjetas**].

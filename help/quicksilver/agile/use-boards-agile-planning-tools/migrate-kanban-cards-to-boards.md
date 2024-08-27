@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: Migración de tarjetas Agile Team Kanban a tableros de Workfront
+title: Migración de las tarjetas Agile Team Kanban a los paneles de Workfront
 description: Puede migrar los elementos de trabajo de un panel Kanban de equipo Agile a un tablero de Workfront nuevo o existente.
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,32 @@ Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de e
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td>
-   <td> <p>Cualquiera</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td>
-   <td> <p>[!UICONTROL Request] o superior</p> </td>
-  </tr>
- </tbody>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Migración de tarjetas Kanban a un nuevo tablero
 

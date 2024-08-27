@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Inclusión en funciones anticipadas para  [!DNL Adobe Workfront] tableros
+title: Inclusión en la función anticipada para  [!DNL Workfront] tableros
 description: Lea este artículo para obtener más información acerca de la inclusión de la característica  [!DNL Workfront Boards] Early.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# Inclusión en la función anticipada para [!DNL Adobe Workfront] [!UICONTROL tableros]
+# Inclusión en la función anticipada para [!DNL Workfront] [!UICONTROL tableros]
 
 La inclusión de funcionalidades anticipada para [!DNL Adobe Workfront] [!UICONTROL Tableros] se inició en julio de 2022.
 

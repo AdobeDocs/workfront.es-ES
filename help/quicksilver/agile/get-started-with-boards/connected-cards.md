@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Usar tarjetas conectadas en tableros
+title: Uso de tarjetas conectadas en tableros
 description: Puede agregar una tarjeta en el tablero que esté conectada a tareas y problemas existentes en Workfront.
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Agregar una tarjeta conectada
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en **[!UICONTROL Agregar tarjeta] > [!UICONTROL Tarjeta conectada]**.
 1. Elija un proyecto y, a continuación, elija una tarea o un problema para añadirlos como tarjeta en el tablero.

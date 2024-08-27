@@ -2,14 +2,14 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: Notificaciones y preferencias por correo electrónico de Tableros
+title: Preferencias y notificaciones por correo electrónico de tableros
 description: Tableros de Adobe Workfront le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta.
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -22,26 +22,32 @@ También recibirá un correo electrónico cuando esté etiquetado en un comentar
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Definir preferencias para correos electrónicos de tableros
 

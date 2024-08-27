@@ -6,9 +6,9 @@ description: Un tablero nuevo contiene tres columnas de forma predeterminada. Pu
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ La configuración de columna incluye directivas, que le permiten definir opcione
 Para obtener información acerca de cómo ordenar las tarjetas en columnas, vea [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,6 +49,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Añadir una columna a un tablero
 

@@ -6,9 +6,9 @@ description: El uso de una lista de comprobación en una tarjeta permite desglos
 author: Lisa
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -21,30 +21,37 @@ Para obtener información sobre las tarjetas, consulte [Agregar una tarjeta ad h
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar una lista de comprobación a una tarjeta
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en la tarjeta para abrir el cuadro [!UICONTROL Detalles de la tarjeta].
 

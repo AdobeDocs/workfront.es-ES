@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Administración de subtareas en tableros
+title: Administrar subtareas en tableros
 description: El uso de subtareas en tarjetas permite establecer una relación principal-secundario entre tareas y crear una jerarquía de trabajo.
 author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -21,26 +21,32 @@ Las subtareas solo están disponibles en tarjetas conectadas y no están disponi
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar una subtarea a una tarjeta
 

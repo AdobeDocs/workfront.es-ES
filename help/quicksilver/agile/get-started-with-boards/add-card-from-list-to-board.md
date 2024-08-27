@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Agregar tareas o problemas existentes a un panel o flujo de trabajo de Adobe Workfront
+title: Agregar tareas o problemas existentes a un tablero de Workfront
 description: Puede agregar cualquier tarea o problema a un tablero de Adobe Workfront desde una vista de lista o de informe.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
-# Agregar tareas o problemas existentes a un tablero o flujo de trabajo de [!DNL Adobe Workfront]
+# Agregar tareas o problemas existentes al tablero [!DNL Workfront]
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ Puede agregar cualquier tarea o problema a un tablero o flujo de trabajo en [!DN
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
@@ -30,25 +32,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
    <td> <p>Cualquiera</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td>
-   <td> <p>[!UICONTROL Trabajo] o superior</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td>
+   <td>
+   <p>Nuevo: [!UICONTROL Standard]</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Work] o superior</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Permisos de objeto</strong></td>
-   <td> <p>[!UICONTROL View] o permisos superiores para la tarea o el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td>
+   <td role="rowheader">Permisos de objeto</td>
+   <td>[!UICONTROL View] o permisos superiores para la tarea o el problema </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar tareas o problemas existentes a un tablero o flujo de trabajo desde una lista
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]** o **[!UICONTROL Paneles]**.
 1. Vaya al proyecto, informe o panel que contiene la tarea o el problema que desea agregar al tablero o flujo de trabajo.
 1. Seleccione una o varias tareas o problemas.
@@ -70,7 +79,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Agregar tareas o problemas existentes a un tablero o flujo de trabajo desde los detalles del objeto
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Haga clic en [!UICONTROL **Proyectos**] y, a continuación, haga clic en el nombre de un proyecto para abrirlo.
 1. Haga clic en [!UICONTROL **Tareas**] o [!UICONTROL **Problemas**] en el panel izquierdo.
 1. Haga clic en la tarea, subtarea o problema que desee agregar a un tablero o flujo de trabajo.

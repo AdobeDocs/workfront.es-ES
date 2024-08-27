@@ -2,19 +2,19 @@
 filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
-title: Demostraciones en vídeo de Adobe Workfront Boards
+title: Demostraciones en vídeo de los tableros de Workfront
 description: Estos vídeos le muestran los diferentes tipos de tableros disponibles en Adobe Workfront y muestran ejemplos de cómo puede utilizar los tableros en su trabajo diario.
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 9ce75ec2daded7f53975857707a39d42a179ba0f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
-# Demostraciones en vídeo de Adobe Workfront Boards
+# Demostraciones en vídeo de Workfront Boards
 
 <!--Audited: 12/2023-->
 

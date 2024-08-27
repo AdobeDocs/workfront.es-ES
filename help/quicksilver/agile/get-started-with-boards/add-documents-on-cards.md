@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Agregar documentos en tarjetas
+title: Agregar documentos a las tarjetas
 description: Puede agregar documentos a las tarjetas conectadas en los paneles de Adobe Workfront.
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,36 @@ Puede agregar documentos a las tarjetas conectadas en los paneles de Adobe Workf
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
   </tr> 
-  <tr>
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td>
-   <td><p>Acceso de [!UICONTROL Edit] a documentos</p><p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p></td>
+   <tr>
+   <td role="rowheader">Configuraciones de nivel de acceso</td>
+   <td>Acceso de [!UICONTROL Edit] a documentos</td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar un documento a una tarjeta
 

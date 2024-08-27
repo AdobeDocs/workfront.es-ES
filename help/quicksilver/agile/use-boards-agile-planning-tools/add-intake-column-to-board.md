@@ -2,14 +2,14 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Agregar una columna de entrada a un tablero
+title: Adición de una columna de admisión a un tablero
 description: Si lo desea, puede agregar una columna de entrada al tablero que recupere automáticamente las tareas y los problemas como tarjetas conectadas cuando se añadan en Workfront, según los filtros que defina.
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 14448432922ec1fa478b805dead2ba1e6c211e86
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -46,30 +46,37 @@ Para obtener más información sobre las columnas, consulte [Administrar columna
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!DNL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creación de una columna de entrada mediante filtros simples
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en **[!UICONTROL Configurar]** a la derecha del tablero para abrir el panel Configurar.
 1. Expandir **[!UICONTROL Tablero]**.
@@ -95,7 +102,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Creación de una columna de entrada con filtros avanzados
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en **[!UICONTROL Configurar]** a la derecha del tablero para abrir el panel Configurar.
 1. Expandir **[!UICONTROL Tablero]**.

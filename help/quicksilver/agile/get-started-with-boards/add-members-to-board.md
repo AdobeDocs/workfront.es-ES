@@ -6,9 +6,9 @@ description: Las personas deben añadirse al tablero como miembros para poder ve
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,37 @@ Las personas y los equipos deben agregarse al tablero como miembros para poder v
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Añadir miembros a un tablero
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Cree un tablero nuevo o edite uno existente. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en el icono **[!UICONTROL Agregar miembro]** ![Agregar miembros](assets/boards-addmember-spectrum-25x25.png).
 1. En el cuadro **[!UICONTROL Agregar miembros]**, empiece a escribir un nombre y, a continuación, selecciónelo cuando aparezca en la lista.
@@ -58,7 +65,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Quitar miembros de un tablero
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. Cree un tablero nuevo o edite uno existente. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
 1. Haga clic en el icono **[!UICONTROL Agregar miembro]** ![Agregar miembros](assets/boards-addmember-spectrum-25x25.png).
 1. En el cuadro **[!UICONTROL Agregar miembros]**, haga clic en la X junto al nombre de una persona o equipo para quitarlos del tablero.

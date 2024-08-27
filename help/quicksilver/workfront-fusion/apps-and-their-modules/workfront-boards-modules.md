@@ -9,10 +9,10 @@ description: Puede utilizar el conector de tableros de Adobe Workfront para auto
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 1%
+source-wordcount: '2631'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Este conector se encuentra actualmente en Beta.
+>El conector Board Fusion está en estado beta. Como resultado, la compatibilidad con este conector es limitada y puede cambiar debido al desarrollo futuro de los paneles. Además, puede haber cambios en la API de GraphQL sin previo aviso que podrían afectar al proceso del conector Fusion.
 
 Los tableros de Adobe Workfront son herramientas flexibles que permiten la colaboración en equipo al proporcionar acceso a un tablero compartido que contiene columnas y tarjetas.
 

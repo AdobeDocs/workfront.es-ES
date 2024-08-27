@@ -7,9 +7,9 @@ description: Puede eliminar o archivar un tablero en Workfront. Eliminar un tabl
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -20,32 +20,39 @@ Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
+   <p>o</p>
+   <p>Actual: [!UICONTROL Request] o superior</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Eliminar un tablero
 
 Al eliminar un tablero, se quita de forma permanente de [!DNL Workfront] y no se puede restaurar. Todas las tarjetas del tablero también se eliminan junto con el tablero.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. En el tablero, seleccione el tablero que desea abrir.
 1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más]](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Eliminar]**. A continuación, haga clic en **[!UICONTROL Eliminar tablero]** en el mensaje de confirmación.
 
@@ -59,7 +66,8 @@ Al eliminar un tablero, se quita de forma permanente de [!DNL Workfront] y no se
 
 Los tableros archivados conservan todas las tarjetas y asignaciones. Cualquier usuario puede archivar o restaurar un tablero en cualquier momento.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. En el tablero, seleccione el tablero que desea abrir.
 1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Menú más]](assets/more-icon-spectrum.png) que está junto al nombre del tablero y seleccione **[!UICONTROL Archivo]**.
 
@@ -69,7 +77,8 @@ Los tableros archivados conservan todas las tarjetas y asignaciones. Cualquier u
 
 Se puede restaurar una placa archivada en cualquier momento. Cualquier usuario puede restaurar un tablero archivado.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Tableros]**.
+{{step1-to-boards}}
+
 1. En el panel, haga clic en el icono de filtro ![Filtro](assets/filter-icon-spectrum-25x25.png) y seleccione **[!UICONTROL Tableros archivados]**.
 1. Busque el tablero que desea restaurar, haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Restaurar]**.
 
