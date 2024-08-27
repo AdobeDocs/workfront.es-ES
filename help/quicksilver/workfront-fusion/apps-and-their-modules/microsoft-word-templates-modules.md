@@ -10,9 +10,9 @@ description: En un escenario de Adobe Workfront Fusion, puede automatizar los fl
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -102,17 +102,13 @@ Una plantilla [!DNL Microsoft Word] es un documento [!DNL Microsoft Word] normal
 
 ### Etiqueta de valor simple {#simple-value-tag}
 
-Una etiqueta de valor simple se sustituye simplemente por un valor correspondiente. El nombre de la etiqueta corresponde al valor del campo [!UICONTROL Key], que se coloca entre llaves dobles; por ejemplo,
-
-
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
-
-
-.
+Una etiqueta de valor simple se sustituye simplemente por un valor correspondiente. El nombre de la etiqueta corresponde al valor del campo [!UICONTROL Key], que se coloca entre llaves dobles; por ejemplo, `{{name}}`.
 
 **Ejemplo:** Para crear un documento que diga &quot;Hola, Petr!&quot;, podría usar un módulo [!DNL Microsoft Word Template] para crear la siguiente plantilla:
 
-<pre>&gt; ¡Hola &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+```
+> Hi {{name}}!
+```
 
 Para ello, debe configurar el módulo de la siguiente manera:
 
@@ -123,12 +119,21 @@ Para ello, debe configurar el módulo de la siguiente manera:
 Puede utilizar una etiqueta de condición para ajustar el texto que se debe representar solo cuando se cumplen determinadas condiciones. Para ajustar el texto, colóquelo entre las etiquetas de condición de apertura y cierre, como &quot;hasPhone&quot; si la condición es si los datos incluyen o no un número de teléfono. El nombre de una etiqueta de apertura va precedido del signo hash # y el nombre de una etiqueta de cierre va precedido de una barra diagonal /, como se muestra en el ejemplo siguiente.
 
 **Ejemplo:** Para generar un documento que incluya el número de teléfono de un cliente si los datos de entrada incluyen un número de teléfono pero ninguna dirección de correo electrónico, puede usar un módulo [!DNL Microsoft Word Template] y crear la siguiente plantilla:
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Teléfono: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;Correo electrónico: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Para ello, debe configurar el módulo de la siguiente manera:
+
+```
+> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}
+> {{#hasEmail}}Email: {{email}} {{/hasEmail}}
+```
+
+Para ello, debe configurar el módulo de la siguiente manera:
 
 ![](assets/word-template-conditional-350x501.png)
 
 En el documento, el número de teléfono aparecería de la siguiente manera:
-<pre>&gt; Teléfono: 4445551234</pre>
+
+```
+> Phone: 4445551234
+```
 
 ### Etiqueta de bucle {#loop-tag}
 
@@ -141,7 +146,11 @@ Puede utilizar una etiqueta de bucle, también conocida como etiqueta de secció
 
 **Ejemplo:** Para producir un documento que muestre el nombre y el número de teléfono de cada contacto en una lista de clientes, puede usar un módulo [!DNL Microsoft Word Template] y crear la siguiente plantilla:
 
-<pre>&gt; {#contact}</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+```
+> {{#contact}}
+>     {{name}}, {{phone}}
+> {{/contact}}
+```
 
 Para ello, debe configurar el módulo de la siguiente manera:
 

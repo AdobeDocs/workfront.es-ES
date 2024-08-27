@@ -6,9 +6,9 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Debe tener lo siguiente para compartir objetos:
 
 1. En el cuadro **Conceder &lt; nombre de objeto > acceso a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con el que desea compartir el objeto y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ Debe tener lo siguiente para compartir objetos:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Ver, Administrar y Contribute tienen diferentes opciones avanzadas en función del objeto seleccionado.\
+   Ver, Administrar y Contribute tienen diferentes opciones avanzadas en función del objeto seleccionado.
+
    Para obtener más información acerca de los niveles de permisos, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Opcional) Para que este objeto esté disponible para todos los usuarios del sistema, haga clic en el menú desplegable bajo **Quién tiene acceso** y, a continuación, en el menú desplegable, haga clic en **Todos los usuarios del sistema pueden ver**.
@@ -187,7 +188,7 @@ Debe tener lo siguiente para compartir objetos:
 
 1. En el cuadro **Dar a &lt; Nombre de objeto > acceso a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con el que desea compartir el objeto y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ Debe tener lo siguiente para compartir objetos:
    >
    >Esta opción no está disponible para todos los objetos.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Condicional) Si ha hecho que el objeto sea público para usuarios externos, haga clic en **copiar vínculo** y distribuya el vínculo a usuarios externos.
 
@@ -254,11 +255,11 @@ Debe tener lo siguiente para compartir objetos:
 
 1. Haga clic en la casilla de verificación situada junto a los objetos que desee compartir y, a continuación, haga clic en el **icono Compartir** ![](assets/share-icon.png) en la parte superior de la página.
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. En la ventana **&lt; Objeto > Acceso**, empiece a escribir en el cuadro **Editar &lt; Nombre del objeto > acceso para** el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir los objetos y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ Debe tener lo siguiente para compartir objetos:
      >
      >Puede conceder permisos de Contribute solo a los siguientes objetos:
      >
-     >   * Proyectos
-     >   * Tareas
-     >   * Problemas
-     >  
+     >* Proyectos
+     >* Tareas
+     >* Problemas
+     >
 
    * **Administrar:** Los usuarios tienen acceso completo al objeto sin derechos administrativos (que se conceden en el nivel de acceso). Además, también tienen todos los permisos de Ver y Contribute.
 
@@ -328,7 +329,7 @@ Debe tener lo siguiente para compartir objetos:
    >
    >Esta opción no está disponible para todos los objetos.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Condicional) Si ha hecho que los objetos sean públicos para usuarios externos, haga clic en **copiar vínculo** y distribuya el vínculo a usuarios externos.
 

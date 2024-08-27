@@ -2,7 +2,7 @@
 title: Workfront Fusion 2.0
 description: Workfront Fusion 2.0
 draft: Probably
-source-git-commit: aa9ff6c08a1808bb2bb95b868826e26b1d49b49e
+source-git-commit: f0b86d475e8ce41764c68c51b80ff675b404393d
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
@@ -22,5 +22,4 @@ ht-degree: 0%
 * [Errores de Adobe Workfront Fusion](../../../workfront-fusion/errors/errors.md)
 * [Organizaciones en Adobe Workfront Fusion](../../../workfront-fusion/organizations/organizations.md)
 * [Aplicaciones y sus módulos](../../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
-*  
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -226,7 +226,7 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    >[!TIP]
    >
-   Las vistas sin un icono de persona o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
+   >Las vistas sin un icono de persona o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
 
 1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 
@@ -236,7 +236,7 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permisos 
 
 >[!IMPORTANT]
 >
-Solo los usuarios con permisos de Administración de un espacio de trabajo pueden compartir las vistas del espacio de trabajo de forma pública.
+>Solo los usuarios con permisos de Administración de un espacio de trabajo pueden compartir las vistas del espacio de trabajo de forma pública.
 
 
 Para compartir una vista públicamente en Workfront Planning:

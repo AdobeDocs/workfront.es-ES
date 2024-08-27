@@ -8,7 +8,7 @@ description: La aplicación JSON de Adobe Workfront Fusion proporciona módulos 
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Si el campo de cadena JSON contiene una colección `{ ... }`, el resultado es un
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Si el campo de cadena JSON contiene una matriz `[ ... ]`, el resultado es una se
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -239,26 +239,26 @@ Este módulo de acción transforma un objeto en una cadena json.
 1. Conecte el módulo [!UICONTROL JSON] > [!UICONTROL Crear JSON] después del módulo [!UICONTROL Agregador de matrices]. La configuración del módulo requiere una estructura de datos que describa el formato JSON. Haga clic en **[!UICONTROL Agregar]** para abrir la configuración de la estructura de datos. La forma más sencilla de crear esta estructura de datos es generarla automáticamente a partir de una muestra JSON. Haga clic en **[!UICONTROL Generador]** y pegue la muestra JSON en el campo **[!UICONTROL Datos de muestra]**:
 >
 **Ejemplo:**
->   
->```
->{
 >
->"books": [
->
->{
->
->"id": "ID",
->
->"title": "Title",
->
->"author": "Author"
->
->}
->
->]
->
->}
->```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Haga clic en **[!UICONTROL Guardar]**. El campo [!UICONTROL Especificación] de la estructura de datos ahora contiene la estructura generada.
 1. Cambie el nombre de la estructura de datos por otro más específico y haga clic en **[!UICONTROL Guardar]**. Un campo correspondiente al atributo de matriz raíz aparece como un campo asignable en la configuración del módulo JSON.

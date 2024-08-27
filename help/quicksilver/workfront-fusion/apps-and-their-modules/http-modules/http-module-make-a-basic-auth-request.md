@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: c84e4b021640a2b145bf4f36ddddbdfe33baacf1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data] es una solicitud HTTP multipart que se utiliza para enviar archivos y datos. Normalmente se utiliza para cargar archivos en el servidor.</p> <p>Añada campos para enviarlos en la solicitud. Cada campo debe contener un par clave-valor.</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Texto]</strong> </p> <p>Introduzca la clave y el valor que se enviarán dentro del cuerpo de la solicitud.</p> </li> 
-       <li> <p><strong>[!UICONTROL Archivo]</strong> </p> <p>Introduzca la clave y especifique el archivo de origen que desea enviar en el cuerpo de la solicitud.</p> <p>Asigne el archivo que desea cargar desde el módulo anterior (como [!UICONTROL HTTP] &gt;[!UICONTROL Obtener un archivo] o [!UICONTROL Google Drive] &gt;[!UICONTROL Descargar un archivo)], o bien introduzca el nombre de archivo y los datos de archivo manualmente.</p> </li> 
+       <li> <p><strong>[!UICONTROL Archivo]</strong> </p> <p>Introduzca la clave y especifique el archivo de origen que desea enviar en el cuerpo de la solicitud.</p> <p>Asigne el archivo que desea cargar desde el módulo anterior (como [!UICONTROL HTTP] &gt; [!UICONTROL Obtener un archivo] o [!UICONTROL Google Drive] &gt; [!UICONTROL Descargar un archivo]), o bien introduzca el nombre de archivo y los datos de archivo manualmente.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

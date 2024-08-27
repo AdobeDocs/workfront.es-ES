@@ -9,9 +9,9 @@ description: Con los módulos  [!DNL Adobe Workfront Fusion] Figma, puede recupe
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 * [Enumerar comentarios](#list-comments)
 
-* [Post un comentario](#post-a-comment)
+* [Publicar un comentario](#post-a-comment)
 
 
 #### [!UICONTROL Eliminar un comentario]
@@ -156,7 +156,7 @@ Este módulo de búsqueda enumera todos los comentarios adjuntos a un solo archi
 </table>
 
 
-#### [!UICONTROL Post agregó un comentario]
+#### [!UICONTROL Publicar un comentario]
 
 Este módulo de acción publica un comentario en un archivo Figma.
 
@@ -363,7 +363,7 @@ Este módulo de acción recupera un solo archivo o imagen de una biblioteca Figm
       <td>Seleccione el archivo desde el que desea devolver JSON.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>ID de nodo]</td>
+      <td role="rowheader">[!UICONTROL ID de nodo]</td>
       <td>
         <p>Introduzca los nodos que desea que procese el módulo.</p>
         <p>Para cada nodo que desee procesar, haga clic en <b>[!UICONTROL Add]</b> e introduzca el texto del nodo.</p>

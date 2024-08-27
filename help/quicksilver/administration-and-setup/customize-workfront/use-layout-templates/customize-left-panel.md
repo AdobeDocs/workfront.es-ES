@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -202,10 +202,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >[!NOTE]
    >
    >Los últimos tres elementos de la lista desplegable **[!UICONTROL Personalizar lo que ven los usuarios]** ([!UICONTROL Listas], [!UICONTROL Inicio y resumen] y [!UICONTROL Marca]) son para configurar áreas que no sean el panel izquierdo. Para obtener información sobre ellos, consulte estos artículos:
->   >   
-* [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Personalizar [!UICONTROL Inicio] y [!UICONTROL Resumen] con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Adobe de marca [!DNL Workfront] usando una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [Personalizar [!UICONTROL Inicio] y [!UICONTROL Resumen] con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Adobe de marca [!DNL Workfront] usando una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Opcional) Si desea agregar un elemento del panel izquierdo que se vincule a uno de los paneles de su organización, haga clic en **[!UICONTROL Agregar sección personalizada]**, escriba un **[!UICONTROL título de sección personalizada]** para el elemento y, a continuación, agregue el panel.
@@ -214,7 +214,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!NOTE]
    >
-   Los usuarios pueden agregar elementos de tablero personalizados a su propio panel izquierdo. Cuando se agregan elementos de panel personalizados a una plantilla de diseño, los elementos se combinan con los suyos, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño con elementos de panel personalizados. Para obtener información acerca de cómo personalizar el panel izquierdo, vea [Crear fichas o secciones personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Los usuarios pueden agregar elementos de tablero personalizados a su propio panel izquierdo. Cuando se agregan elementos de panel personalizados a una plantilla de diseño, los elementos se combinan con los suyos, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño con elementos de panel personalizados. Para obtener información acerca de cómo personalizar el panel izquierdo, vea [Crear fichas o secciones personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Para obtener información sobre los paneles, consulte [Paneles](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -226,4 +226,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   Puede hacer clic en [!UICONTROL Guardar] en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.
+   >Puede hacer clic en [!UICONTROL Guardar] en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

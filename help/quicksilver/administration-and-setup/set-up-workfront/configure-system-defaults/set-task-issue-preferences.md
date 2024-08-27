@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando se convierte un problema en una tarea]</td> 
+    <td role="rowheader">[!UICONTROL Al convertir un problema en una tarea]</td> 
     <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a una tarea:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Mantener el problema original y enlazar su resolución a la tarea]</strong>: Cuando convierta el problema, permanecerá visible como un problema hasta que se complete la tarea. El estado del problema cambia automáticamente a [!UICONTROL Cerrado] cuando finaliza la tarea. Si no selecciona esta opción, se elimina el problema.</p> <p><b>NOTA</b>:  <p>Los usuarios sin acceso o permisos para eliminar problemas no podrán eliminar el problema a medida que lo vayan convirtiendo, independientemente del estado de esta configuración. Para obtener información sobre el acceso y los permisos a los problemas, consulte:</p> 
