@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,10 @@ Puede editar un registro desde las siguientes áreas:
 * [Desde un objeto Workfront en la sección Planificación](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Editar un registro en línea en la vista de tabla de un tipo de registro
+
+Cuando edita registros desde la vista de tabla, existe una indicación de qué campo están editando otros usuarios en el momento en que está viendo el registro.
+
+Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 {{step1-to-planning}}
 

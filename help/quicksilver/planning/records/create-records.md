@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ En Adobe Workfront Planning, un registro es una instancia de un tipo de registro
 
 Para crear registros, siga uno de estos procedimientos:
 
-* Añádalos desde la página de tipo de registro en la vista de tabla
+* Agregar registros desde la página de tipo de registro en la vista de tabla
 * Copiar y pegar una lista de registros de una lista externa
-* Duplicarlos
-* Crearlos a medida que los conecte desde otros registros
-  <!--* Create them by submitting a request form-->
+* Duplicar registros desde una vista de tabla
+* Crear registros a medida que los conecta desde otros registros
+* Crearlos enviando un formulario de solicitud a un tipo de registro
 
 Este artículo describe cómo crear registros.
 
@@ -165,8 +165,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 +++
 
-
-## Crear registros agregándolos a un tipo de registro <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Crear registros agregándolos a un tipo de registro en una tabla de tipo de registro
 
 Puede crear registros en la vista de tabla de una página de tipo de registro.
 
@@ -311,13 +310,12 @@ Para crear registros al conectarlos desde otros registros:
 O
 Haga clic en su nombre para abrir la página de detalles y agregar información allí.
 
-<!--
-## Create records by submitting a request form
+## Crear registros enviando un formulario de solicitud a un tipo de registro
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+Después de que alguien cree un formulario de solicitud para un tipo de registro y comparta un vínculo con usted, puede enviar una solicitud que cree un registro para ese tipo de registro.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+Tanto los usuarios de Workfront como los usuarios externos a su organización pueden enviar solicitudes a los tipos de registros de Planning y crear registros, si tienen un vínculo al formulario de solicitud.
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).

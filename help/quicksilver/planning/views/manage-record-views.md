@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,8 @@ Este artículo describe la siguiente información sobre las vistas de registros:
 
 * [Crear y editar una vista](#create-or-edit-record-views)
 * [Eliminación de una vista](#delete-views)
-* [Duplicar una vista](#duplicate-views)
+* [Duplicación de una vista](#duplicate-views)
+* [Habilitar los indicadores de presencia en tiempo real en una vista](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ De forma predeterminada, todos los registros del tipo seleccionado se muestran e
 
    La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva pestaña de vista se muestra al final de todas las pestañas de vista.
 
+## Habilitar el indicador de presencia en tiempo real en una vista
+
+De forma predeterminada, los avatares de otros usuarios que están editando información de registro al mismo tiempo que se muestran en la esquina superior derecha de todas las vistas de registros.
+
+Al mostrar la vista de tabla, también puede ver qué campo está editando otro usuario en el momento en que está viendo el registro.
+
+1. Vaya a una página de tipo de registro y abra cualquier vista.
+1. (Condicional) Si hay otros usuarios editando al mismo tiempo los registros del tipo seleccionado, sus avatares se mostrarán en la esquina superior derecha de la vista.
+1. Haga clic en el menú desplegable situado junto a los avatares y seleccione la opción **Mostrar colaboradores**. La opción está seleccionada de forma predeterminada.
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Condicional) Abra una vista de tabla y el campo que está editando otra persona se delineará en el color correspondiente al contorno de su avatar en la vista de tabla.
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado solo se describe en la vista de tabla.

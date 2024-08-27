@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3609'
 ht-degree: 2%
 
 ---
@@ -449,34 +449,31 @@ Para obtener más información, vea [Información general sobre los campos de f�
    >
    >* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando un campo de fórmula para un tipo de registro Actividad y la actividad está conectada al tipo de registro Producto que está conectado al tipo de registro Campaña que está conectado a un proyecto de Workfront, puede hacer referencia al presupuesto del proyecto en la fórmula que está creando para el tipo de registro Actividad.
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. En el campo **Formato**, seleccione entre las siguientes opciones para identificar el formato del resultado mostrado en el campo de tipo de fórmula:
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **Texto**: el resultado del campo de fórmula se muestra como texto sin formato.
+   * **Número**: el resultado del campo de fórmula se muestra como un número.
+   * **Porcentaje**: el resultado del campo de fórmula se muestra como un número seguido de un símbolo de porcentaje.
+   * **Moneda**: el resultado del campo de fórmula se muestra como un número precedido o seguido por un símbolo de moneda.
+   * **Etiquetas**: el resultado del campo de fórmula se muestra como una etiqueta con el nombre del objeto.
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >Recomendamos las etiquetas para los campos que muestran matrices. En este caso, cada miembro de la matriz se muestra como una etiqueta independiente.
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **Fecha**: el resultado del campo de fórmula se muestra como una fecha.
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     Se muestra una vista previa del aspecto que tendrá el resultado en el campo **Formato**.
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >Si el resultado de la fórmula no coincide con el formato seleccionado, el campo mostrará un mensaje de error donde se muestra.
 
--->
 1. Haga clic en **Crear**.
 
    El nuevo campo de fórmula se agrega como una columna al tipo de registro y sus valores se pueden asociar a registros.
-
 
 ### Personas
 

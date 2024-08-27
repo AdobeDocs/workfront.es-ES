@@ -1,11 +1,13 @@
 ---
 title: Solicitar permisos a una vista o a un Workspace
 description: Puede solicitar permisos para una vista o un espacio de trabajo al que otros usuarios le hayan enviado un vínculo que no se haya compartido previamente con usted.
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -130,6 +132,6 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
 
    * [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
    * [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico con una confirmación de que los permisos se han concedido o denegado. <!--check this - I was not able to test this-->
+1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this-->
 
 

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 2%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 2%
       * [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Compartir espacios de trabajo](planning/access/share-workspaces.md)
       * [Compartir vistas](planning/access/share-views.md)
+      * [Solicitar permisos para una vista o un espacio de trabajo](planning/access/request-permissions.md)
    * Registros de Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Registros: índice de artículo](planning/records/records-information.md)
       * [Creación de registros](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 2%
       * [Administrar el diseño de página de registro](planning/records/manage-the-record-page.md)
       * [Administrar registros en la sección Planificación de objetos de Adobe Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exportación de los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Solicitudes de Adobe Workfront Planning {#adobe-workfront-planning-requests}
+      * [Solicitudes de Adobe Workfront Planning: índice de artículos](planning/requests/requests-article-index.md)
+      * [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](planning/requests/create-request-form.md)
+      * [Envío de solicitudes de Adobe Workfront Planning para crear registros](planning/requests/submit-requests.md)
    * Vistas de Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Vistas: índice de artículos](planning/views/views-information.md)
       * [Administrar vistas de registros](planning/views/manage-record-views.md)

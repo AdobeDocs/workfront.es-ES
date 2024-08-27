@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '6729'
+source-wordcount: '7338'
 ht-degree: 0%
 
 ---
@@ -63,85 +63,119 @@ La siguiente tabla muestra la cronología de la versión de Workfront Planning, 
 
 *Las fases beta y de lanzamiento anticipado estaban disponibles para un grupo limitado de clientes.
 
-<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  -->
+<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production. -->
+
+## Semana del 26 de agosto de 2024
+
+### Disponibilidad general de Adobe Workfront Planning
+
+Versión de vista previa y producción: 28 de agosto de 2024
+
+Workfront Planning está disponible para todos los clientes que adquirieron una licencia de Workfront Planning, además de su licencia de Workfront. Póngase en contacto con el representante de cuentas para obtener más información sobre la compra de Workfront Planning.
+
+Para obtener información sobre las características lanzadas después del 28 de agosto de 2024 en Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+### Workfront Planning ya está disponible en Vista previa
+
+Vista previa: 28 de agosto de 2024
+
+Con el lanzamiento de Workfront Planning a disponibilidad general, las funciones de Workfront Planning ahora se incluyen en el entorno de vista previa.
+
+### Nuevos paquetes de Adobe Workfront Planning y limitaciones de objetos
+
+Previsualización y producción: 28 de agosto de 2024
+
+Hemos implementado nuevas limitaciones para los objetos de Workfront Planning, de acuerdo con los dos paquetes siguientes:
+
+* Workfront Planning le permite tener:
+
+   * Espacios de trabajo ilimitados
+
+   * 25.000 registros por espacio de trabajo
+
+   * 500 000 registros totales para su instancia
+
+* Workfront Planning Plus le permite tener:
+
+   * Espacios de trabajo ilimitados
+
+   * 500 000 registros por espacio de trabajo
+
+   * 2 millones de registros totales para su instancia.
+
+Para obtener más información, consulte [Resumen de la limitación de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+
+### Habilitar notificaciones de Workfront Planning para solicitudes de acceso
+
+Previsualización y producción: 28 de agosto de 2024
+
+Al solicitar acceso a un espacio de trabajo o a una vista, el usuario desde el que se solicita acceso recibe una notificación por correo electrónico sobre la solicitud. Una vez concedida la solicitud, recibirá una notificación por correo electrónico con una confirmación de que se ha aprobado.
+
+Puede acceder a la vista o al espacio de trabajo desde la notificación por correo electrónico, cuando se haya concedido el permiso.  <!--see if they also get an in-app notification-->
+
+Para obtener más información, consulte [Solicitar permisos para una vista o un área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
+
+### Definir el formato para los valores de campo de fórmula
+
+Previsualización y producción: 28 de agosto de 2024
+
+Como administrador de espacio de trabajo, ahora puede definir el formato para los valores mostrados en un campo de fórmula. Puede elegir entre los siguientes formatos:
+
+* Texto de línea única
+* Número
+* Porcentaje
+* Divisa
+* Fecha
+* Etiquetas
+
+Para obtener más información, consulte la sección &quot;Fórmula&quot; del artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+
+### Habilitar notificaciones de Workfront Planning para solicitudes de acceso
+
+Previsualización y producción: 28 de agosto de 2024
+
+Al solicitar acceso a un espacio de trabajo, el usuario desde el que se solicita acceso recibe una notificación por correo electrónico sobre la solicitud. Una vez concedida la solicitud, recibirá una notificación por correo electrónico con una confirmación o denegación de la solicitud. Puede acceder a la vista o al espacio de trabajo desde la notificación por correo electrónico, cuando se haya concedido el permiso.
+
+Para obtener más información, consulte [Solicitar permisos para una vista o un área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
+
+### Indicadores de presencia en tiempo real en una vista de registros
+
+Previsualización y producción: 28 de agosto de 2024
+
+Para comprender qué información editan otros usuarios al trabajar en una vista, hemos introducido indicadores de presencia en tiempo real para esta área de la planificación de Workfront.
+
+El campo editado por otro usuario ahora se resalta en la vista de tabla y los avatares de otros usuarios se pueden ver en la esquina superior derecha de todas las vistas.
+
+Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+
+### Creación de registros enviando una solicitud
+
+Vista previa: 21 de agosto de 2024
+
+Producción: 28 de agosto de 2024
+
+Ahora puede crear registros enviando una solicitud a un formulario de solicitud asociado a un tipo de registro.
+
+En esta actualización se incluyen las siguientes capacidades:
+
+* Como administrador del espacio de trabajo, puede crear un formulario de solicitud y asociarlo a un tipo de registro. Puede compartir un vínculo a este formulario con otras personas, incluidos usuarios externos.
+
+* Cuando los usuarios acceden al formulario, lo completan y envían la solicitud, se crea un registro para el tipo de registro asociado al formulario de solicitud.
+
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+### Se puede hacer referencia a los registros de Workfront Planning a través de un campo externo
+
+Previsualización y producción: 28 de agosto de 2024
+
+Con el lanzamiento de la API pública de Workfront Planning, ahora puede hacer referencia a los registros de Planning en campos externos en formularios personalizados de Workfront.
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Ejemplos del campo de búsqueda externa en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [Conceptos básicos de API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
 
 <!--
-
-## Week of August 26, 2024
-
-### General availability of Adobe Workfront Planning
-
-Preview and Production release: August 28, 2024
-
-Workfront Planning is available for all customers who purchased a Workfront Planning license, in addition to their Workfront license. Contact your account representative for more information about purchasing Workfront Planning.
-
-For information about features released after August 28, 2024 to Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
-### New Adobe Workfront Planning packages and object limitations 
-
-Preview and Production: August 28, 2024 
-
-We have implemented new limitations for Workfront Planning objects, according to the following two packages:  
-
-* Workfront Planning allows you to have: 
-
-    * Unlimited workspaces 
-
-    * 25,000 records per workspace 
-
-    * 500,000 total records for your instance 
-
-* Workfront Planning Plus allows you to have: 
-
-    * Unlimited workspaces 
-
-    * 500,000 records per workspace 
-
-    * 2 million total records for your instance. 
-
-For more information, see [Adobe Workfront Planning object limitation overview](/help/quicksilver/planning/general/limitations-overview.md). 
-
-### Enable Workfront Planning notifications for access requests  
-
-Production and Preview: August 28, 2024 
-
-When you request access to a workspace or a view, the user you request access from receives  an email notification about the request. After the request is granted, you receive an email notification with a confirmation or a denial of your request. You can access the view or workspace from the email notification, when the permission has been granted.  
-
-For information, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).  
-
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
-
-Production: August 28, 2024 
-
-Preview: To be determined 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
-### Define format for formula field values
-
-Production: <date> 
-
-Preview: To be determined 
-
-As a workspace manager, you can now define the format for the values displayed in a formula field. You can choose from the following formats: 
-
-* Single-line text 
-* Number 
-* Percentage 
-* Currency 
-* Date
-* Tags
-
-For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-### AI Assistant has been re-enabled
-
-Production and Preview: August 28, 2024
-
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
-
-For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
-
 ### New Settings menu in the Calendar view
 
 Preview and Production: August 28, 2024 
@@ -165,14 +199,23 @@ There is a new Settings option with which you can personalize the look and feel 
  When matching colors to a certain field, you can select only fields with color-coded options. 
 
  For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+
+### The AI Assistant has been re-enabled for Workfront Planning
+
+Production and Preview: August 28, 2024
+
+The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+
+For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
  
-### Real-time presence indicators in the table view 
 
-Preview and Production: August, 2024
+### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
-To understand what information is edited by other users when working in the table view, we have introduced user real-time presence indicators for this area of Workfront planning. The field edited by another user will now be highlighted and the other user's avatar will be visible to you in the upper-right corner of the table view. 
+Production and Production: August 28, 2024 
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+
 -->
 
 ## Semana del 19 de agosto de 2024

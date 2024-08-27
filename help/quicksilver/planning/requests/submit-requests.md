@@ -1,19 +1,18 @@
 ---
 title: Envío de solicitudes de Adobe Workfront Planning
 description: Una vez que alguien comparta un vínculo a un formulario de solicitud con usted desde una página de tipo de registro en Adobe Workfront Planning, puede agregar una solicitud para crear registros para el tipo de registro asociado al formulario de solicitud.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
 
 # Envío de solicitudes de Adobe Workfront Planning para crear registros
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 1%
 Una vez que alguien comparta un vínculo a un formulario de solicitud con usted desde una página de tipo de registro en Adobe Workfront Planning, puede agregar una solicitud para crear registros para el tipo de registro asociado al formulario de solicitud.
 
 Los usuarios de Workfront y los usuarios externos pueden enviar solicitudes a los tipos de registros de Planning y crear registros. <!--double check on the external users-->
+
+Este artículo describe cómo puede enviar una solicitud para agregar nuevos registros a un tipo de registro.
+
+Para obtener información sobre cómo un administrador del área de trabajo puede crear un formulario de solicitud y asociarlo a un tipo de registro, vea [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Requisitos de acceso
 
@@ -57,7 +60,6 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    <td>
 <p>Cualquiera </p>  
 <p>Para obtener más información sobre lo que se incluye en cada plan de Workfront Planning, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Precios y empaquetado de Adobe Workfront</a>. </td>
-
 <tr>
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
@@ -110,7 +112,7 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 * El formulario de solicitud debe compartirse con un vínculo para que pueda acceder a él. Existen los siguientes escenarios:
 
    * Si tiene una cuenta de Workfront, el vínculo solo se ha compartido con personas internas y tendrá acceso al espacio de trabajo. Las personas fuera de Workfront no pueden acceder a un vínculo compartido internamente.
-   * Si no tiene una cuenta de Workfront, el vínculo se ha compartido con personas externas. Los usuarios de Workfront también pueden utilizar un vínculo compartido con personas externas.
+   * Si no tiene una cuenta de Workfront, el vínculo se ha compartido con personas externas. Los usuarios de Workfront también pueden acceder a un vínculo compartido con personas externas.
 
 * El vínculo al formulario no debe haber caducado.
 

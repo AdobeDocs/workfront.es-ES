@@ -1,12 +1,13 @@
 ---
 title: Creación y administración de un formulario de solicitud en Adobe Workfront Planning
 description: Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede crear un formulario de solicitud y asociarlo a ese tipo de registro. A continuación, puede compartir un vínculo con otros usuarios internos o externos. Los usuarios con un vínculo al formulario pueden rellenar los valores de campo que contiene y, al enviarlo, pueden agregar un nuevo registro para el tipo de registro asociado a él.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -17,9 +18,13 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede crear un formulario de solicitud y asociarlo a ese tipo de registro. A continuación, puede compartir un vínculo con otros usuarios internos o externos. <!--double-check on the external part of it-->
+Puede crear un formulario de solicitud y asociarlo a un tipo de registro en Adobe Workfront Planning. A continuación, puede compartir un vínculo con otros usuarios internos o externos.
 
-Los usuarios con un vínculo al formulario pueden rellenar los valores de campo que contiene y, al enviarlo, pueden agregar un nuevo registro para el tipo de registro asociado a él.
+Los usuarios con un vínculo al formulario pueden actualizar los valores de campo que contiene y agregar nuevos registros enviándolo.
+
+Este artículo describe cómo un administrador del espacio de trabajo puede crear un formulario de solicitud asociado a un tipo de registro.
+
+Para obtener información sobre cómo enviar una solicitud a un tipo de registro para crear un registro, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Requisitos de acceso
 
@@ -170,9 +175,11 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    >[!IMPORTANT]
    >
-   >Al seleccionar Cualquiera que tenga el vínculo, cualquier persona, incluso las personas externas a la organización y que no tengan cuenta de Workfront, podrá acceder al formulario y enviar un nuevo registro.
+   >Si selecciona **Cualquier persona que tenga el vínculo**, cualquier persona podrá obtener acceso al formulario y enviar un nuevo registro, incluso las personas que no pertenezcan a su organización y que no tengan una cuenta de Workfront.
 
-1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible. Las personas recibirán un error una vez que caduque el vínculo y deberá actualizar la fecha del vínculo para que puedan acceder al formulario de nuevo.  <!--add info here about how long the expiration date should be; logged bug-->
+1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible. Las personas recibirán un error una vez que caduque el vínculo y deberá actualizar la fecha del vínculo para que puedan acceder al formulario de nuevo.
+
+   Puede seleccionar fechas futuras en un plazo de 180 días a partir de la fecha actual.
 
 1. Haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario.
 
@@ -191,6 +198,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    >[!TIP]
    >
    >Hay indicios de que el vínculo se comparte públicamente cuando este es el caso.
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

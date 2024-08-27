@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: c497276579c5d70c29fe961e43356e1ae603262d
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -273,29 +273,27 @@ Para compartir una vista públicamente en Workfront Planning:
 
 1. (Opcional) Pegue el vínculo que ha copiado en un correo electrónico, mensaje de chat, documento o comentario de Workfront para compartirlo con otros usuarios.
 
-<!--
-## Grant permissions to a view from a permission request
+## Conceder permisos a una vista desde una solicitud de permiso
 
-Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+Los usuarios que acceden a un vínculo a una vista para la que no tienen permisos pueden solicitar permisos. Todos los usuarios con permisos de Administración de la vista reciben la solicitud de permiso y pueden concederlos o denegarlos.
 
-1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-   * An email notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
-   The **Pending access requests** box displays. 
+   * Una notificación en la aplicación
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+   * Una notificación por correo electrónico
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
+O
+En la notificación por correo electrónico, haga clic en **Ver todas las notificaciones** y, a continuación, haga clic en la notificación en la lista.
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   Se muestra el cuadro **Solicitudes de acceso pendientes**.
 
-   If you approved the request, the users are added to the sharing box of the view. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. Seleccione el usuario para el que desea aprobar o denegar el permiso y, a continuación, haga clic en **Aprobar todo** o **Denegar todo**.
+1. Haga clic en la flecha que señala a la izquierda de **Solicitudes de acceso pendientes** y, a continuación, haga clic en **Guardar**.
+
+   Si ha aprobado la solicitud, los usuarios se agregan al cuadro para compartir de la vista. El usuario que solicita el permiso recibe un correo electrónico de confirmación de que su solicitud se ha aprobado. <!--will they also get an in-app notification??-->
 
 ## Eliminación de permisos de una vista
 

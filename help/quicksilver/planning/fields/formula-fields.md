@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '590'
 ht-degree: 7%
 
 ---
@@ -162,17 +162,16 @@ OLD:
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
 * Debe agregar los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Workfront Planning.
 * Sólo puede hacer referencia a campos que se muestran en la vista de tabla de un tipo de registro o en la página de detalles del registro.
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* Puede definir el formato para el valor de un cálculo de fórmula eligiendo entre las siguientes opciones de formato:
 
-   * Text
-   * Number
-   * Percent
-   * Currency
-   * Tags
-   * Date
+   * Texto
+   * Número
+   * Porcentaje
+   * Divisa
+   * Etiquetas
+   * Fecha
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Fórmulas compatibles
 

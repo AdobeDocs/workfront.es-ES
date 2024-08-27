@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Cuando alguien le etiqueta en un comentario de registro, es posible que reciba una notificación en la aplicación para esa etiqueta.
+Puede recibir notificaciones en la aplicación desde Workfront Planning cuando existan los siguientes escenarios:
 
->[!IMPORTANT]
->
->Su empresa debe ser cliente de experiencia unificada de Adobe para poder recibir notificaciones de Workfront Planning.
->
->Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+* Alguien le etiqueta en un comentario de registro
 
-Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+  Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* Alguien le pide permiso para acceder a una vista o a un espacio de trabajo
+* Alguien confirma que se ha concedido su acceso a una vista o a un área de trabajo <!--verify this-->
+* Alguien le ha denegado el acceso a una vista o a un espacio de trabajo. <!--verify this-->
 
 ## Requisitos de acceso
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## Administración de notificaciones en la aplicación
+## Administrar notificaciones en la aplicación cuando alguien te etiqueta en un comentario
 
 1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya al icono **Notificaciones** de la aplicación ![](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (Opcional) Haga clic en **Marcar todo como leído** para indicar que ha leído todas las notificaciones.
 1. (Opcional) Haga clic en **Ver todo** para ir a la página **Notificaciones** en Adobe Experience Cloud.
+
+
+## Administrar notificaciones en la aplicación al solicitar, conceder o denegar permisos a una vista o un espacio de trabajo
+
+Para obtener información sobre cómo solicitar, conceder o denegar permisos a una vista o área de trabajo, vea [Solicitar permisos a una vista o área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
