@@ -1,17 +1,16 @@
 ---
 title: Información general de Workspaces
 description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning para que coincidan con los flujos de trabajo de las unidades organizativas.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Información general de Workspaces
 
@@ -19,7 +18,6 @@ ht-degree: 0%
 
 Un área de trabajo es un conjunto de tipos de registros que utiliza una unidad organizativa y representa el ciclo de vida y los procesos de trabajo de la unidad. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

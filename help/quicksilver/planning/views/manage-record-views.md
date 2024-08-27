@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -42,9 +42,9 @@ Este artículo describe la siguiente información sobre las vistas de registros:
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Estándar, Ligero o Colaborador, para ver información de Workfront Planning</p></li>
-   <li><p>Estándar, para crear espacios de trabajo</p></li></ul>
+   <td><p> Estándar </p>
    <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administración de permisos en una vista</p>  
-   <p>Ver o permisos superiores a una vista para cambiar temporalmente su configuración</p> </td> 
+   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 

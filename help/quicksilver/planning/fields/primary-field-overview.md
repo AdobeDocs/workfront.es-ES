@@ -1,18 +1,18 @@
 ---
 title: Resumen del campo principal
 description: En la vista de tabla de un tipo de registro en Adobe Workfront Planning, puede designar un campo de texto, número o fórmula de una sola línea como campo principal. El campo principal se convierte en el título de los registros de ese tipo.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Resumen del campo principal
 

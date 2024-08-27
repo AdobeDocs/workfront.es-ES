@@ -1,30 +1,19 @@
 ---
 title: Administrar la vista de cronología
 description: Acceda y edite registros en una vista de cronología de la página de tipo de registro de Adobe Workfront Planning. Personalice la cronología con filtros, agrupaciones y ajustes. Utilice la función Desglose para mostrar los registros conectados.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # Administrar la vista de cronología
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 
 ## Requisitos de acceso
 
-<!--Updated for GA-->
++++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <ul><li><p>Cualquiera, para ver información de Workfront Planning</p></li>
-   <li><p>Estándar, para crear espacios de trabajo</p></li></ul>
+   <td><p> Estándar </p>
    <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Administración de permisos en una vista</p>  
-   <p>Ver o permisos superiores a una vista para cambiar temporalmente su configuración</p> </td> 
+   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -102,6 +88,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Administrar una vista de cronología {#manage-a-timeline-view}
 

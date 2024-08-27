@@ -1,11 +1,12 @@
 ---
 title: Edición de registros
 description: Puede editar la información de los registros en Adobe Workfront Planning. Debe crear tipos de registros antes de empezar a crear y editar registros.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1833'
 ht-degree: 0%
@@ -29,8 +30,6 @@ Para obtener información sobre cómo crear registros, vea [Crear registros](/he
 &lt;!— mencione aquí que los campos de la vista Detalles son los mismos que los de la vista de tabla — este artículo está vinculado desde Administrar vistas de registros a hacer referencia a esta información—>
 
 ## Requisitos de acceso
-
-<!--Updated for GA-->
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 

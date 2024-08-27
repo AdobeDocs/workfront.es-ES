@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Número de secciones de un espacio de trabajo | 50 |
 | Número de tipos de registro de un espacio de trabajo | 1000 (incluye los tipos de registro de todas las secciones y los que se crean al utilizar una plantilla de espacio de trabajo) |
 | Número de registros para un tipo de registro | 25.000 |
-| Número de registros de un espacio de trabajo | 25.000 para clientes con el plan de Planning <br> 500.000 para clientes con el plan de Planning Plus |
-| Número total de registros para una instancia de tipo de Workfront Planning | 500.000 para clientes con el plan de Planning <br>2 millones para clientes con el plan de Planning Plus |
+| Número de registros de un espacio de trabajo | 25.000 para clientes con Planning <br> 500.000 para clientes con Planning Plus |
+| Número de registros totales de una instancia de Workfront Planning | 500.000 para clientes con el plan de Planning <br>2 millones para clientes con Planning Plus |
 | Número de campos para un tipo de registro o taxonomía | 500 |
 | Número de caracteres de un campo de texto | 1.000 caracteres |
 | Tamaño del archivo que puede pegar en una tabla de tipo de registro | 1 MB |

@@ -1,18 +1,17 @@
 ---
 title: Información general sobre tipos de registros conectados
 description: Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar tipos de registros de Adobe Workfront Planning con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 45134c538465a25767de1863d99a10c23bb8edf0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
 
 ---
 
-
-<!--update metadata at GA-->
 
 # Información general de tipos de registros conectados
 

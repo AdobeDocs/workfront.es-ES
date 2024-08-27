@@ -3,9 +3,9 @@ title: Solicitar permisos a una vista o a un Workspace
 description: Puede solicitar permisos para una vista o un espacio de trabajo al que otros usuarios le hayan enviado un vínculo que no se haya compartido previamente con usted.
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # Solicitar permisos para una vista o un espacio de trabajo
 
 Puede solicitar permisos para una vista o un espacio de trabajo al que otros usuarios le hayan enviado un vínculo que no se haya compartido previamente con usted.
+
+Solicitar permisos a una vista es similar a solicitar permisos a un espacio de trabajo.
 
 ## Requisitos de acceso
 
@@ -86,8 +88,10 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>  <p>Administración de permisos en una vista</p>  
-   <p>Solo los usuarios con permisos de Administración de un espacio de trabajo pueden compartir una vista públicamente.</p></td> 
+   <td>  <p>Una vez concedida la solicitud de permiso, puede obtener los siguientes permisos:</p>
+   <ul><li><p>Ver o administrar para una vista</p></li>
+   <li><p>Ver, Contribute o Administrar en un espacio de trabajo</p></li></ul>  
+   <p>Solo los usuarios con permisos de Administración de un espacio de trabajo y una vista pueden compartir una vista públicamente.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -100,20 +104,32 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 +++
 
-## Solicitar y conceder permisos a una vista o espacio de trabajo
+## Solicitar permisos para una vista o espacio de trabajo
 
-Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vista a la que no tiene acceso, se produce el siguiente escenario:
+Solicitar permisos a una vista es similar a solicitar permisos a un espacio de trabajo.
+
+Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vista a los que no tiene acceso:
 
 1. Haga clic en el vínculo compartido con usted para la vista o el espacio de trabajo.
 
    Se muestra una página **No tiene acceso** para informarle de que no tiene acceso a la vista ni al área de trabajo.
 
+   ![](assets/request-access-to-view.png)
+
 1. (Condicional) Si el vínculo compartido es para una vista de un área de trabajo a la que tiene acceso, haga clic en **Abrir con vista existente**. Si tiene permisos para acceder al espacio de trabajo, la página de tipo de registro se abrirá en la vista predeterminada.
 
-1. (Opcional) Agregue un mensaje personalizado en el cuadro disponible.
+1. (Opcional y condicional) Si no tiene permisos para ver el área de trabajo, agregue un mensaje personalizado en el cuadro disponible y, a continuación, haga clic en **Solicitar acceso**.
 
-1. Haga clic en **Solicitar acceso**.
+   Todos los usuarios con permisos de Administración de la vista o del espacio de trabajo reciben las siguientes notificaciones para la solicitud de acceso:
+   * Una notificación en la aplicación
+     ![](assets/in-app-notification-for-access-request.png)
+   * Una notificación por correo electrónico
+     ![](assets/email-notification-for-access-request.png)
 
-   Todos los usuarios con permisos de Administración de la vista o del espacio de trabajo reciben una notificación por correo electrónico para la solicitud.
-1. Los usuarios que recibieron la notificación por correo electrónico de la solicitud de acceso acceden a la vista o al espacio de trabajo y le conceden permisos.
-1. Recibirá una notificación por correo electrónico que le notificará que se le ha concedido el acceso a la vista o al espacio de trabajo. Puede acceder a la vista o al espacio de trabajo desde la notificación por correo electrónico.
+   Para obtener información sobre la concesión de permisos a vistas y espacios de trabajo, consulte los siguientes artículos:
+
+   * [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
+   * [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico con una confirmación de que los permisos se han concedido o denegado. <!--check this - I was not able to test this-->
+
+
