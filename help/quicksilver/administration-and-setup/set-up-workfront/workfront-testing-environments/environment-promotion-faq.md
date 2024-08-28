@@ -8,10 +8,10 @@ description: Explore las preguntas más frecuentes sobre la promoción del entor
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Actualmente no se admite la promoción de entornos entre dominios. Debe promocio
 
 ### Respuesta
 
-No. La promoción de entorno está disponible para instancias habilitadas para IMS y no para IMS Workfront.
+No. La promoción de entorno está disponible para instancias de Workfront habilitadas y no habilitadas para IMS.
 
 ## ¿Cómo podemos averiguar si nuestra instancia de Workfront tiene una licencia Prime o Ultimate?
 
@@ -73,4 +73,3 @@ La reversión es una prioridad principal y está actualmente en desarrollo. Espe
 * &quot;Usar existente&quot; equivale a &quot;omitir&quot; o ignorar la implementación, porque se asigna al objeto existente en el entorno de destino y no realiza ningún cambio.
 * Para omitir objetos, se recomienda eliminar
 los objetos que no desee instalar desde el paquete de promoción o desde el entorno de origen directamente. Después de quitar los objetos, vuelva a montar el paquete.
-
