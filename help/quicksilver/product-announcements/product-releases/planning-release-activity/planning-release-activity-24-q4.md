@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,9 @@ ht-degree: 0%
 >
 
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2024.
+
+Para obtener información sobre las características incluidas en esta versión, consulte [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md).
+
 
 <!--keep the sentence below for all future quarterly release pages-->
 <!--remove the general activity mention after fourth quarter 2024 is released-->
@@ -53,4 +56,3 @@ A continuación se indican algunas de las funciones principales de Adobe Workfro
 
 Para obtener más información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Para obtener información acerca de las características publicadas en Workfront Planning antes de este lanzamiento, consulte también la [actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md).

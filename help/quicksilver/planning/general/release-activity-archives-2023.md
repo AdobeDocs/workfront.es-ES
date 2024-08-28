@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 >Para obtener una descripción general de Workfront Planning, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Este artículo enumera las funciones que se lanzaron durante 2023 después del lanzamiento del programa Adobe Workfront Planning, el 22 de mayo de 2023.
+Este artículo enumera las funciones que se lanzaron durante 2023 después del lanzamiento del programa beta de Adobe Workfront Planning, el 22 de mayo de 2023.
 
 Para obtener más información sobre la actividad de la versión, consulte también los siguientes artículos:
 
-* [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): Para obtener información sobre la actividad de la versión actual de Workfront Planning.
+* [Actividad de la versión de Adobe Workfront Planning: índice del artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) para obtener información sobre la actividad de la versión actual de Workfront Planning.
 
-* [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md): para obtener información acerca de las funciones lanzadas durante 2024, antes de la disponibilidad general del 28 de agosto de 2024.
+* [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md) para obtener información sobre las funciones lanzadas durante 2024, antes de la disponibilidad general del 28 de agosto de 2024.
 
 Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más recientes primero.
 
