@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 1%
+source-wordcount: '1989'
+ht-degree: 2%
 
 ---
 
@@ -174,8 +174,6 @@ A continuación se muestran los objetos y conceptos principales de Workfront Pla
 
 * **Workspace**: una colección de tipos de registros que definen el ciclo de vida operativo de una determinada organización. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.
 
-  Una instancia de Workfront puede tener un máximo de 1000 espacios de trabajo.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
@@ -204,9 +202,15 @@ A continuación se muestran los objetos y conceptos principales de Workfront Pla
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning incluye una plantilla de espacio de trabajo de ventas, marketing y administración de productos.
+  Adobe Workfront Planning contiene las siguientes plantillas:
 
-  Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+   * Básico: gestión de marketing
+   * Avanzado: Gestión de marketing
+   * Empresa: gestión de marketing
+   * Administración de ventas
+   * Administración de productos
+
+  Para obtener más información, vea [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Campos**: Los campos son atributos que se pueden agregar a los tipos de registro. Los campos contienen información sobre el tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ A continuación se muestran los objetos y conceptos principales de Workfront Pla
 
   Los siguientes son tipos de vista que puede aplicar a la página de tipo de registro:
 
-   * **Vista de tabla**: muestra los registros y sus campos, incluidos los campos conectados y de búsqueda, en formato de tabla. Las filas de la tabla son los registros individuales y las columnas son los campos de registro. Esta es la vista predeterminada.
+   * **Vista de tabla**: muestra los registros y sus campos, incluidos los campos conectados y de búsqueda, en formato de tabla. Las filas de la tabla son los registros individuales y las columnas son los campos de registro. La vista de tabla es la vista predeterminada.
 
      ![](assets/table-view-example.png)
 
@@ -328,7 +332,7 @@ Para localizar Workfront Planning:
    >    El administrador de Workfront puede agregar el área de Planning a la opción Seleccionar página de aterrizaje de la plantilla de diseño para que pueda abrir Planning en cuanto inicie sesión en Workfront. Para obtener más información, consulte [Personalizar la página de aterrizaje mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Condicional y opcional) Si es administrador de Workfront, haga clic en una de las siguientes pestañas:
-   * **Espacios de trabajo en los que trabajo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
+   * **Espacios de trabajo en los que participo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
    * **Otros espacios de trabajo**: Muestra todos los demás espacios de trabajo del sistema.
 
    Para todos los demás usuarios, los espacios de trabajo que han creado o que se comparten con ellos se muestran en el área **Espacios de trabajo**.

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 0%
@@ -179,7 +179,7 @@ Para obtener más información, consulte [Administrar la vista de calendario](/h
 
 ### El Asistente de IA se ha vuelto a habilitar para Workfront Planning
 
-Producción y vista previa: 28 de agosto de 2024
+Previsualización y producción: 28 de agosto de 2024
 
 El Asistente de IA de Workfront se ha vuelto a habilitar para el área de Workfront Planning.
 
@@ -187,7 +187,7 @@ Para obtener más información sobre el Asistente de IA de Workfront Planning, c
 
 ### Funcionalidades de creación de informes para Workfront Planning con el panel de lienzo
 
-Producción y producción: 28 de agosto de 2024
+Previsualización y producción: 28 de agosto de 2024
 
 Ahora puede ver la información de Workfront Planning en un informe mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
