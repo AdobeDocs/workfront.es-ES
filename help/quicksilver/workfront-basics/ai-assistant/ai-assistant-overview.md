@@ -4,7 +4,7 @@ content-type: reference
 description: Información general del asistente de IA
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -113,4 +113,5 @@ Para solicitar el acuerdo de Adobe Gen AI:
 1. Introduzca el nombre y la dirección de correo electrónico de la persona de su organización que firmará el acuerdo de generación de IA de Adobe.
 
    El acuerdo se enviará a esta persona para que lo firme. Una vez firmado y devuelto, el Ayudante de IA se habilita para su organización.
+
 

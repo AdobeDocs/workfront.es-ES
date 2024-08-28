@@ -5,7 +5,7 @@ description: Puede resumir rápidamente elementos de trabajo y documentos median
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Para obtener información o instrucciones de la documentación de Workfront medi
 1. Vea la respuesta en el panel Asistente de IA.
 1. (Opcional) Si la respuesta no contiene la información que necesita, aclare la respuesta e inténtelo de nuevo.
 1. (Opcional y condicional) Si la respuesta incluye un vínculo a un artículo de Adobe Experience League, haga clic en el vínculo para abrir el artículo en una nueva ventana.
+

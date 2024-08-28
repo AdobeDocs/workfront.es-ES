@@ -5,7 +5,7 @@ description: Puede resumir rápidamente elementos de trabajo y documentos median
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%
@@ -67,3 +67,4 @@ Para ver un resumen de un objeto:
    El asistente de IA puede tardar unos momentos en generar el resumen, según el tamaño o la complejidad del objeto.
 
 1. Vea el resumen de IA en el panel Asistente de IA.
+
