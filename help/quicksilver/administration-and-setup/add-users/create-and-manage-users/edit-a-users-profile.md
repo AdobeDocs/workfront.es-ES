@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -111,8 +111,10 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td role="rowheader">Preferencias </td> 
       <td> 
        <ul> 
-      <li> <p><b>Zona horaria:</b> Zona horaria del usuario.</p> <p>Para obtener información acerca de cómo ayudar a los usuarios a colaborar en Workfront en diferentes zonas horarias, vea <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabajar en diferentes zonas horarias</a>.</p> </li> 
-       <li><b>Configuración regional de correo electrónico</b>: La configuración regional de correo electrónico preferida del usuario. Esto afecta al formato de los números y las fechas de los correos electrónicos que llegan desde Workfront a este usuario.</li>
+      <li> <p><b>Zona horaria:</b> Zona horaria del usuario.</p> <p>Para obtener información acerca de cómo ayudar a los usuarios a colaborar en Workfront en diferentes zonas horarias, vea <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabajar en diferentes zonas horarias</a>.</p> </li>
+
+   <li><p><b>Configuración regional de correo electrónico</b>: La configuración regional de correo electrónico preferida del usuario. Esto afecta al formato de los números y las fechas de los correos electrónicos que llegan desde Workfront a este usuario.</p>
+      <p><b>NOTA:</b> Cuando su organización se encuentra en la Experiencia unificada de Adobe, las preferencias de idioma del usuario se almacenan en su perfil de Adobe y no se utiliza la configuración regional de correo electrónico. Para obtener información sobre el acceso a estas preferencias, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>.</p></li>
 
    <li><b>Recibir correos electrónicos de este entorno de prueba</b>: marque esta opción si desea recibir notificaciones por correo electrónico del entorno en el que ha iniciado sesión.
       <p><b>NOTA</b></p>

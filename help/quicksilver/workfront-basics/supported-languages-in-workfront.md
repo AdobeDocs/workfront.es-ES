@@ -4,11 +4,11 @@ navigation-topic: get-started-with-workfront
 title: Idiomas admitidos en Adobe Workfront
 description: Puede cambiar el idioma en el que muestra Adobe Workfront y los correos electrónicos procedentes de Workfront, ajustando las preferencias de idioma en el explorador y la configuración regional de correo electrónico predeterminada en Workfront.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ El idioma del explorador debe cambiarse de forma individual para cada usuario.
 
 Consulte el menú &quot;Ayuda&quot; de su navegador para obtener información específica sobre cómo cambiar el idioma del navegador.
 
-## Cambio del idioma de Adobe Experience Cloud
+### Cambio del idioma de Adobe Experience Cloud
 
 Si su organización está en IMS, el idioma del perfil de Adobe Experience Cloud determina el idioma que se muestra en Workfront.
 
@@ -149,6 +149,10 @@ Para cambiar la configuración regional predeterminada del correo electrónico d
 ### Cambiar la configuración regional del correo electrónico del usuario {#change-the-user-locale}
 
 Al cambiar la configuración regional del correo electrónico del usuario, se modifica el idioma, la fecha y el formato de número utilizado en los mensajes salientes. Esta configuración anula la configuración del sistema seleccionada en el área Información del cliente de la Configuración.
+
+>[!NOTE]
+>
+>Cuando su organización se encuentra en la Experiencia unificada de Adobe, las preferencias de idioma se almacenan en el perfil de Adobe y no se utiliza la configuración regional del correo electrónico. Consulte [Cambiar el idioma de Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) en este artículo.
 
 Para cambiar la configuración regional del correo electrónico del usuario:
 
