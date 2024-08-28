@@ -1,23 +1,23 @@
 ---
-navigation-topic: data-lake-beta
-title: Información beta del lago de datos de Workfront
-description: Información general sobre el lago de datos beta de Workfront
+navigation-topic: data-connect-beta
+title: Información beta de Workfront Data Connect
+description: Información general sobre la versión beta de Workfront Data Connect
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 12%
 
 ---
 
-# Información beta del lago de datos de Workfront
+# Información beta de Workfront Data Connect
 
-El lago de datos de Workfront es una nueva herramienta que se encuentra en desarrollo y que proporciona una interfaz específica para que las organizaciones extraigan datos para utilizarlos en herramientas populares de analistas de negocios o para almacenarlos en almacenes de datos externos, sin necesidad de complicadas soluciones de fusión o API. Esta página contiene información sobre cómo puede ayudarnos probando y proporcionando comentarios sobre esta herramienta durante la versión beta en curso.
+Workfront Data Connect es una nueva herramienta que se encuentra actualmente en desarrollo y que proporciona una interfaz específica para que las organizaciones extraigan datos para utilizarlos en herramientas populares de analistas empresariales o para almacenarlos en almacenes de datos externos, sin necesidad de complicadas soluciones de Fusion o API. Esta página contiene información sobre cómo puede ayudarnos probando y proporcionando comentarios sobre esta herramienta durante la versión beta en curso.
 
-Para obtener información sobre el uso del lago de datos de Workfront, consulte [Información general sobre el lago de datos de Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Para obtener información acerca del uso de Workfront Data Connect, consulte [Información general sobre Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 **Programación de Beta:**
 
@@ -30,11 +30,11 @@ Para obtener información sobre el uso del lago de datos de Workfront, consulte 
 
 >[!IMPORTANT]
 >
->Debe ser administrador del sistema de Workfront para inscribirse en la versión beta del lago de datos de Workfront.
+>Debe ser administrador del sistema de Workfront para inscribirse en la versión beta de Data Connect.
 
 Para inscribir a su organización en la versión beta, rellene y envíe el formulario en el siguiente vínculo:
 
-[Inscripción beta en el lago de datos de Workfront](https://adobe.ly/workfrontdatalake)
+[Inscripción beta en Workfront Data Connect](https://adobe.ly/workfrontdatalake)
 
 ### Proporcionar comentarios
 
@@ -48,7 +48,7 @@ Los comentarios se agradecen a medida que desarrollamos esta herramienta durante
 
 ## Funciones planificadas
 
-A continuación se ofrece una lista de los objetos que admite actualmente la versión beta, los objetos para los que planeamos agregar compatibilidad durante el transcurso de la versión beta y las funciones incluidas en nuestra futura hoja de ruta para el lago de datos de Workfront.
+A continuación se ofrece una lista de los objetos que admite actualmente la versión beta, los objetos para los que pretendemos añadir compatibilidad durante el transcurso de la versión beta y las funciones incluidas en nuestra futura hoja de ruta para Data Connect.
 
 ### Objetos disponibles actualmente
 

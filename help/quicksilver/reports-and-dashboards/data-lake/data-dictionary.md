@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Diccionario de datos de Data Lake
-description: Esta página contiene información sobre la estructura y el contenido de los datos del lago de datos de Workfront.
+navigation-topic: data connect
+title: Diccionario de datos de Workfront Data Connect
+description: Esta página contiene información sobre la estructura y el contenido de los datos de Workfront Data Connect.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
-# Diccionario de datos del lago de datos Workfront
+# Diccionario de datos de Workfront Data Connect
 
-Esta página contiene información sobre la estructura y el contenido de los datos del lago de datos de Workfront.
+Esta página contiene información sobre la estructura y el contenido de los datos de Workfront Data Connect.
 
 >[!NOTE]
 >
->Los datos del lago de datos de Workfront se actualizan cada cuatro horas, por lo que es posible que los cambios recientes no se reflejen inmediatamente.
+>Los datos de Data Connect se actualizan cada cuatro horas, por lo que es posible que los cambios recientes no se reflejen inmediatamente.
 
 ## Tipos de tabla
 
-Existen varios tipos de tablas que puede utilizar para ver los datos de Workfront de una manera que proporcione la mayor cantidad de información.
+Existen varios tipos de tablas que puede utilizar en Data Connect para ver los datos de Workfront de una manera que proporcione la mayor cantidad de información.
 
 * **Tabla actual**
 
@@ -43,9 +43,9 @@ Existen varios tipos de tablas que puede utilizar para ver los datos de Workfron
 
 ## Diagrama de relación de entidad
 
-Los objetos de Workfront (y, por lo tanto, de su lago de datos) se definen no solo por sus valores individuales, sino por sus relaciones con otros objetos. El diagrama de relación de entidades que aparece a continuación proporciona una asignación de alto nivel de las relaciones de objetos en el lago de datos de Workfront. El diagrama se puede ver y descargar mediante el siguiente vínculo:
+Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Connect) se definen no solo por sus valores individuales, sino también por sus relaciones con otros objetos. El diagrama de relación de entidades que aparece a continuación proporciona una asignación de alto nivel de las relaciones de objeto en Data Connect. El diagrama se puede ver y descargar mediante el siguiente vínculo:
 
-[Diagrama de relación de entidades del lago de datos Workfront](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Diagrama de relación de entidad de Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Existen varios objetos de fecha que proporcionan información sobre cuándo se p
 
 ## Tabla de terminología
 
-La siguiente tabla correlaciona los nombres de objetos en Workfront (así como sus nombres en la interfaz y la API) con sus nombres equivalentes en el lago de datos.
+La siguiente tabla correlaciona los nombres de objetos en Workfront (así como sus nombres en la interfaz y la API) con sus nombres equivalentes en Data Connect.
 
 <table>
 <thead>

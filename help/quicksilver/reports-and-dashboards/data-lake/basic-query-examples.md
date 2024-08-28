@@ -1,38 +1,75 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Ejemplos básicos de consultas de lago de datos
-description: Consultas de ejemplo básicas que puede utilizar para familiarizarse con las consultas.
+navigation-topic: data connect
+title: Ejemplos de consultas de Data Connect
+description: Consultas de ejemplo que puede utilizar para familiarizarse con la sintaxis y la estructura de tipos específicos de consultas.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: ede703bcc7fdc4047b44a22580d33fc7e01c5705
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# Ejemplos básicos de consultas de repositorio de datos de Workfront
+# Ejemplos de consultas de Workfront Data Connect
 
-Para ayudarle a empezar a utilizar los datos del lago de datos de Workfront, a continuación se muestran una serie de consultas de ejemplo básicas que puede utilizar para familiarizarse con las consultas.
+Para ayudarle a utilizar mejor los datos de Workfront Data Connect, esta página contiene consultas de ejemplo básicas que puede utilizar para familiarizarse con la sintaxis y la estructura de tipos específicos de consultas.
 
-## Consulta de tarea
+## Consulta de datos personalizados
 
-Una las tablas del proyecto y de usuarios (assignedTo) a una lista de tareas sencilla.
+En este ejemplo se muestra cómo crear una consulta para devolver los datos personalizados en Workfront, como formularios y campos personalizados.
+
+### Escenario:
+
+Su organización, PeopleSoft, utiliza un formulario personalizado denominado Integración financiera. El formulario se adjunta a cada proyecto y contiene los campos siguientes:
+
+* **Unidad de negocio de PeopleSoft** - Campo personalizado que contiene una cadena.
+* **ID de proyecto de PeopleSoft**: Campo personalizado que contiene una cadena numérica.
+* **Nombre de proyecto expandido**: un campo de datos personalizados calculados que concatena los valores de PeopleSoft Business Unit, PeopleSoft ProjectID y el nombre de proyecto nativo de Workfront en una sola cadena.
+
+Debe incluir esta información en la respuesta para una consulta contra Data Connect. Los valores de datos personalizados para un registro del lago de datos se encuentran en una columna denominada `parameterValues`. Esta columna se almacena como un objeto JSON.
+
+### Consulta:
+
+```
+SELECT
+    projectid,
+    parametervalues,
+    name,
+    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
+    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
+FROM PROJECTS_CURRENT
+WHERE ExpandedProjectName is not null
+```
+
+### Respuesta
+
+La consulta anterior devuelve los siguientes datos:
+
+* `projectid`: el ID de proyecto nativo de Workfront
+* `parametervalues`: una columna que almacena un objeto JSON
+* `name`: el nombre nativo del proyecto de Workfront
+* `PeopleSoft Business Unit`: un valor de datos personalizado que se incluye en el objeto `parametervalues`
+* `PeopleSoft Project ID`: un valor de datos personalizado que se incluye en el objeto `parametervalues`
+* `Expanded Project Name`: un valor de datos personalizado que se incluye en el objeto `parametervalues`
+
+<!--## Task query 
+
+Join the project and (assignedTo) users tables into a simple task list.
 
 
 
-## Consulta de horas
+## Hours query
 
-Únase a las tablas propietario (usuarios), tipo de hora y portafolio para proporcionar una suma de horas por usuario y portafolio para el año actual.
+Join owner (users), hour type, and portfolio tables to provide a sum of hours by user and portfolio for the current year.
 
 
 
-## Consulta de aprobaciones de documentos
+## Document approvals query
 
-Mida el tiempo del ciclo y el número promedio de ciclos de revisión por recurso.
+Measure the cycle time and average number of review cycles per asset.-->
