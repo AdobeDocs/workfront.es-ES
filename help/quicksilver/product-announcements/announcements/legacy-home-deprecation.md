@@ -5,9 +5,9 @@ title: Guía de desaprobación de página principal heredada
 description: Esta página contiene información sobre la próxima obsolescencia de la página principal heredada.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Recomendamos a los administradores:
 
 1. Reasigne el resto de los usuarios al nuevo diseño de página de inicio.
 
-Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva experiencia y personalizar sus nuevas páginas de inicio para adaptarlas mejor a sus necesidades individuales.
+Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva experiencia y personalizar sus nuevas páginas de inicio para adaptarlas mejor a sus necesidades individuales. Consulte [Quitar, agregar y reorganizar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) para obtener información sobre cómo un usuario puede personalizar los widgets en su propia página de inicio nueva.
 
 ### Siga la experiencia de Inicio a medida que se desarrolla
 
@@ -74,7 +74,7 @@ No, se eliminará completamente de la aplicación.
 
 Casi, con la excepción de:
 
-* Calendario, que actualmente está en nuestra hoja de ruta para la nueva página de inicio.
+* Calendario, que actualmente está en nuestra hoja de ruta para las prioridades.
 
 * Actualmente no está disponible la visualización de marcas de tiempo para las fechas de vencimiento del objeto.
 
