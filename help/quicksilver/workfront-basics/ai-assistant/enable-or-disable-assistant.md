@@ -5,23 +5,14 @@ description: Puede controlar qué niveles de acceso de su organización tienen a
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: eee21282e894137df32e3d23e7affcc0f43abd02
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
 
 # Habilitar o deshabilitar el Ayudante de IA
-
->[!IMPORTANT]
->
->En la actualidad, el asistente de IA está disponible para un número limitado de clientes de Workfront y Workfront Planning.
->
->* Workfront: AI Assistant beta
->* Planificación de Workfront: acceso anticipado
->
->El representante de cuentas puede informarle si forma parte de alguno de estos grupos.
 
 Como administrador de Workfront, puede controlar qué usuarios de su organización tienen habilitado el asistente de IA. Esto se administra mediante niveles de acceso.
 
@@ -62,7 +53,7 @@ Para habilitar el Asistente de IA para un nivel de acceso determinado:
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **Niveles de acceso** en el panel de navegación izquierdo.
-1. Seleccione el nivel de acceso para el que desea deshabilitar el Asistente de IA.
+1. Seleccione el nivel de acceso para el que desea habilitar el asistente de IA.
 1. En la ventana Editar nivel de acceso, desplácese hacia abajo hasta la parte inferior de la ventana y haga clic en **Establecer restricciones adicionales...**.
 1. En el área Establecer restricciones adicionales, habilite la opción **Habilitar el Asistente para IA de Workfront**.
 1. Haga clic en **Guardar**.
