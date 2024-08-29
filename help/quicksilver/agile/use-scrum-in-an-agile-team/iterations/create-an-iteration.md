@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Creación de una iteración
+title: Crear una iteración
 description: Las iteraciones son un componente clave para los equipos de Scrum Agile a la hora de planificar la capacidad de trabajo. [!DNL Adobe Workfront] permite que los equipos de Scrum Agile administren su trabajo creando múltiples iteraciones para satisfacer las necesidades del equipo.
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Las iteraciones son un componente clave para los equipos de Scrum Agile a la hor
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Review] o superior</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Nuevo: [!UICONTROL Light] o superior</p> 
+   o
+   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Añadir una iteración
 
 Use la característica [!UICONTROL Agregar iteración] para crear rápidamente una iteración y agregar tareas y problemas más adelante.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. En la ficha **[!UICONTROL Iteraciones]**, haga clic en **[!UICONTROL Agregar iteración]**.\
+1. En la ficha **[!UICONTROL Iteraciones]**, haga clic en **[!UICONTROL Agregar iteración]**.
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Especifique lo siguiente:
@@ -90,7 +96,7 @@ Use la característica [!UICONTROL Agregar iteración] para crear rápidamente u
 
 Use la característica [!UICONTROL Planificar iteración] para crear una iteración con tareas en el registro de pendientes.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
@@ -129,10 +135,10 @@ Use la característica [!UICONTROL Planificar iteración] para crear una iteraci
     </tbody> 
    </table>
 
-1. (Opcional) Seleccione historias para agregarlas a la iteración ahora, o bien puede omitir este paso y agregar historias a una iteración más adelante. Las historias en la parte superior del registro de pendientes son de mayor prioridad. Las historias se resaltan en verde cuando caben en la capacidad; si no, se resaltan en rojo.\
-   Puede agregar tareas y problemas a una sola iteración:
+1. (Opcional) Seleccione historias para agregarlas a la iteración ahora, o bien puede omitir este paso y agregar historias a una iteración más adelante. Las historias en la parte superior del registro de pendientes son de mayor prioridad. Las historias se resaltan en verde cuando caben en la capacidad; si no, se resaltan en rojo.
+Puede agregar tareas y problemas a una sola iteración:
 
-   * **Para agregar tareas a la iteración:** En la ficha **[!UICONTROL Registro de pendientes]**, asegúrese de que la ficha **[!UICONTROL Historias]** esté seleccionada (esta ficha está seleccionada de forma predeterminada al ver el registro de pendientes). Seleccione las historias que desee añadir a la iteración.\
+   * **Para agregar tareas a la iteración:** En la ficha **[!UICONTROL Registro de pendientes]**, asegúrese de que la ficha **[!UICONTROL Historias]** esté seleccionada (esta ficha está seleccionada de forma predeterminada al ver el registro de pendientes). Seleccione los artículos que desee añadir a la iteración.
 
      Cuando agrega tareas a una iteración, la fecha de inicio de la tarea se calcula tal como se describe en [[!UICONTROL Comprender] cómo se calculan las fechas de inicio de las tareas cuando se agregan a una iteración](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -151,4 +157,4 @@ Cuando agrega una tarea como artículo a una iteración, se usa la restricción 
 
 Se usa la [!UICONTROL fecha de finalización del proyecto] en lugar del   si la fecha de inicio del proyecto es posterior a la fecha de inicio de la iteración y la fecha de finalización del proyecto es posterior a la fecha de finalización de la iteración.
 
-Puede configurar equipos de Scrum individuales para que utilicen las fechas del proyecto de forma predeterminada, en lugar de las fechas de iteración. Para obtener más información, consulte la sección [Configurar cómo se aplican las fechas al agregar elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Puede configurar equipos de Scrum individuales para que utilicen las fechas del proyecto de forma predeterminada, en lugar de las fechas de iteración. Para obtener más información, consulte la sección [Configurar cómo se aplican las fechas al agregar elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

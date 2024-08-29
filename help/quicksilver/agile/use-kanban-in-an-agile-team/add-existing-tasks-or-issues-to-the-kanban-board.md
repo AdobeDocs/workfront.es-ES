@@ -6,9 +6,9 @@ description: Puede agregar cualquier tarea o problema a un Panel Kanban si tiene
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,34 +22,38 @@ Puede agregar cualquier tarea o problema al tablero [!UICONTROL Kanban] si cuent
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
+   o
+   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar tareas o problemas existentes al Panel Kanban
 
 Para agregar una tarea o un problema al tablero [!UICONTROL Kanban]:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
 
 1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]** o **[!UICONTROL Paneles]**.
 
@@ -60,7 +64,7 @@ Para agregar una tarea o un problema al tablero [!UICONTROL Kanban]:
 
    >[!NOTE]
    >
-   >Si agrega varios equipos, la tarea o el problema solo se podrán mostrar en el tablero [!DNL kanban] de un equipo. Este es el tablero que elige en el paso 5.
+   >Si agrega varios equipos, la tarea o el problema solo se podrán mostrar en el tablero [!DNL kanban] de un equipo. Este es el tablero que elegiste antes.
 
 1. Si está agregando tareas, haga clic en **[!UICONTROL Agregar historias]**.
 O

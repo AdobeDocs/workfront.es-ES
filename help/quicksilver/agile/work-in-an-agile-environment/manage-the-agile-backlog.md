@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Administrar el registro de pendientes Agile
+title: Administrar el registro de pendientes de Agile
 description: Las tareas y los problemas se pueden asignar a un equipo Agile y agregarse al registro de asuntos pendientes de ese equipo como historias, según la metodología Agile que utilice el equipo.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p><p>O</p><p>Actual: [!UICONTROL Work] o superior</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
+   o
+   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p><p>O</p><p>Actual: [!UICONTROL Worker] o superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Acceso de [!UICONTROL Manage] al proyecto en el que se encuentra la historia</p>  </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td>Acceso de [!UICONTROL Manage] al proyecto en el que se encuentra la historia </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ Puede reordenar las historias en la lista de trabajos pendientes mediante el mé
    >
    >Si una tarea o un problema tiene un equipo Agile asignado y el proyecto no está en un estado equivalente a Actual, no se muestran en el registro de pendientes. Sin embargo, sí afectan al recuento de trabajos pendientes en la columna Pedido.
 
-1. Seleccione uno o varios artículos y, a continuación, arrastre los artículos al orden en que desee que aparezcan en el registro de pendientes.\
+1. Seleccione uno o varios artículos y, a continuación, arrastre los artículos al orden en que desee que aparezcan en el registro de pendientes.
    ![Arrastrar y soltar elementos de registro de pendientes](assets/agile-backlog-drag-and-drop.png)
 
 ### Desglose de historias {#break-down-stories}
@@ -96,8 +94,8 @@ Dado que las historias de un registro de pendientes varían en tamaño, los usua
 Para desglosar una historia:
 
 1. Vaya al registro de pendientes que contiene la historia que desea desglosar.
-1. Seleccione la historia que desee desglosar y, a continuación, haga clic en **[!UICONTROL Desglose de historia]**.\
-   Se muestra el cuadro de diálogo [!UICONTROL Desglose de historia].\
+1. Seleccione la historia que desee desglosar y, a continuación, haga clic en **[!UICONTROL Desglose de historia]**.
+Se muestra el cuadro de diálogo [!UICONTROL Desglose de historia].
    ![Cuadro de diálogo Desglose de historia](assets/backlog-breakdown-dialog.png)
 
 1. Especifique un nombre y una estimación para la historia y seleccione si la historia está lista.
@@ -186,12 +184,10 @@ Para asignar una tarea o un problema a un equipo Agile:
 1. (Opcional) Elimine los usuarios asignados existentes.
 1. Haga clic en **[!UICONTROL Agregar usuario asignado]**.
 1. Comience a escribir el nombre del equipo Agile que desea que se le asigne a la tarea o al problema y, a continuación, haga clic en el nombre del equipo cuando aparezca en la lista desplegable.
-1. Haga clic en **[!UICONTROL Guardar cambios]**.\
-   La tarea o el problema ya están disponibles en el registro de pendientes del equipo.
+1. Haga clic en **[!UICONTROL Guardar cambios]**.
+La tarea o el problema ya están disponibles en el registro de pendientes del equipo.
 
 ## Mover historias dentro o fuera del registro de pendientes
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [Mover historias del registro de pendientes a una iteración o tablero +](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Mover las historias existentes al registro de pendientes](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ Para asignar una tarea o un problema a un equipo Agile:
 ### Mover historias del registro de pendientes a una iteración o tablero +
 
 1. Vaya al registro de pendientes del equipo Agile.
-1. Seleccione las historias que desee mover a una iteración o panel Kanban y, a continuación, haga clic en **[!UICONTROL Más]** > **[!UICONTROL Mover a]**.\
-   Si se mueve la historia al tablero [!UICONTROL Kanban], se mostrará la historia [!UICONTROL Mover historia al tablero Kanban].\
-   Si se mueve la historia a una iteración, aparecerá el cuadro de diálogo [!UICONTROL Mover historia a una iteración].\
+1. Seleccione las historias que desee mover a una iteración o panel Kanban y, a continuación, haga clic en **[!UICONTROL Más]** > **[!UICONTROL Mover a]**.
+Si se mueve la historia al tablero [!UICONTROL Kanban], se mostrará la historia [!UICONTROL Mover historia al tablero Kanban].
+Si se mueve la historia a una iteración, aparecerá el cuadro de diálogo [!UICONTROL Mover historia a una iteración].
    ![Cuadro de diálogo Mover historia](assets/agile-backlog-addtoiteration.png)
 
 1. Realice una de las acciones siguientes:

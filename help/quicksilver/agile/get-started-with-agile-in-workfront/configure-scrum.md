@@ -6,9 +6,9 @@ description: Puede configurar las siguientes opciones para los equipos de Scrum 
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Para obtener información sobre cómo configurar un equipo Kanban, consulte [Con
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -41,26 +43,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td> <p>Nuevo: [!UICONTROL Standard]</p> 
    o
    <p>Actual: [!UICONTROL Work] o superior</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Equipos</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure si las historias se calculan en puntos o en horas
 
@@ -72,13 +76,13 @@ Puede configurar las historias para que se estimen mediante puntos o horas.
 
 Para configurar cómo se calculan las historias para su equipo Agile:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!UICONTROL Workfront] y, a continuación, haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. Seleccione el equipo Agile que desee administrar.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
 
-   Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.\
+   Solo los miembros del equipo con una licencia de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
 1. En la sección **[!UICONTROL Agile]**, en el área **[!UICONTROL Estimar historias en]**, seleccione si desea usar puntos u horas para estimar el tamaño (carga de trabajo) de las historias. Si selecciona Puntos, especifique cuántas horas son iguales a 1 punto. (El valor predeterminado es 1 punto = 8 horas). Número de horas planificadas que se añaden a la historia.
@@ -100,7 +104,7 @@ Puede definir los estados que existen en el guion gráfico para el equipo Agile.
 
 Para definir los estados disponibles para el guion gráfico asociado con el equipo Agile:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
@@ -158,13 +162,13 @@ Puede mostrar datos adicionales (incluidos datos personalizados) en tarjetas de 
 
 Para configurar las tarjetas de historia asignadas al equipo de Agile para que muestren campos adicionales:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!UICONTROL Workfront] y, a continuación, haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Seleccione el equipo Agile que desee administrar.
-1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.\
-   Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
+1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
+Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
@@ -182,7 +186,7 @@ De forma predeterminada, los mosaicos del guion gráfico de una iteración Agile
 
 Para cambiar el comportamiento de cómo se asignan los colores a las historias para un equipo Agile:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
@@ -201,7 +205,7 @@ Para cambiar el comportamiento de cómo se asignan los colores a las historias p
 
       * Alto = Rojo
       * Medium = Amarillo
-      * Bajo = Verde\
+      * Baja = Verde
 
         Si el administrador del sistema ha configurado prioridades personalizadas para su sistema [!DNL Workfront], la prioridad más alta es de color rojo, la segunda más alta es de color amarillo y la tercera más alta es de color verde.
    * **[!UICONTROL Propietario de la tarea]**: todas las historias con el mismo usuario principal asignado son del mismo color. El usuario asignado principal es el usuario que se asignó por primera vez a la tarea.
@@ -213,15 +217,16 @@ Para cambiar el comportamiento de cómo se asignan los colores a las historias p
 
 De forma predeterminada, cuando se agrega un elemento de trabajo a una iteración de Scrum, la Fecha planificada de inicio y la Fecha planificada de finalización del elemento de trabajo se modifican para que coincidan con las fechas de inicio y finalización de la iteración. Puede optar por mantener las fechas originales de todos los elementos de trabajo del equipo.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe] Workfront, y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
+
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
-1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.\
-   Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
+1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
+Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
 1. En la sección [!UICONTROL Agile], en el área [!UICONTROL Cuando se agrega un elemento de trabajo a una iteración], seleccione una de las siguientes opciones:
 
-   * **[!UICONTROL Modifique la Fecha planificada de inicio y Fecha planificada de finalización para que coincidan con las fechas de inicio y finalización de la iteración]**: Cuando se agregan elementos de trabajo a una iteración, las fechas de los elementos de trabajo se cambian a las fechas de iteración.\
+   * **[!UICONTROL Modifique la Fecha planificada de inicio y Fecha planificada de finalización para que coincidan con las fechas de inicio y finalización de la iteración]**: Cuando se agregan elementos de trabajo a una iteración, las fechas de los elementos de trabajo se cambian a las fechas de iteración.
 
-     Para obtener más información sobre cómo se modifican las fechas, vea la sección [Comprender cómo afecta la adición de historias a las fechas de las tareas](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) en el artículo [Agregar historias a una iteración existente](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+     Para obtener más información sobre cómo se modifican las fechas, vea la sección [Comprender cómo afecta la adición de historias a las fechas de las tareas](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) en el artículo [Agregar historias a una iteración existente](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
    * **[!UICONTROL No modifique la Fecha planificada de inicio y Fecha planificada de finalización para que coincidan con las fechas de inicio y finalización de la iteración]**: Cuando se agregan elementos de trabajo a una iteración, los elementos de trabajo conservan sus fechas originales.
 
    Si cambia la opción de fecha, las fechas de los elementos de trabajo que ya se encuentran en la iteración no se ajustan.

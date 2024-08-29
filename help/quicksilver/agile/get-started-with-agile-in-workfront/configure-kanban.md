@@ -2,13 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurar Kanban
-description: Usted crea un equipo Agile Kanban o Scrum en  [!DNL Adobe Workfront].
+description: Puede configurar las siguientes opciones para los equipos Agile de Kanban durante o después de crear el equipo.
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td> <p>Nuevo: [!UICONTROL Standard]</p> 
    o
    <p>Actual: [!UICONTROL Work] o superior</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Equipos</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,7 +148,7 @@ Para configurar las tarjetas de historia asignadas al equipo de Agile para que m
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Seleccione el equipo Agile que desee administrar.
-1. Haga clic en el menú **[!UICONTROL Más]** y, a continuación, seleccione **[!UICONTROL Editar]**.\
+1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
 
@@ -179,9 +179,9 @@ Para limitar WIP para el equipo Kanban:
 
 1. En la sección **[!UICONTROL Agile]**, en la sección **[!UICONTROL Metodología]**, compruebe que Kanban esté seleccionado.
 
-1. En la sección **[!UICONTROL Panel de historias]**, en el campo **[!UICONTROL Límite de trabajo en curso]**, especifique el número máximo de elementos permitidos en cada columna del panel de historias ágil [!UICONTROL Kanban]. Puede establecer un límite diferente para cada columna. El límite máximo que puede establecer para cada columna es 100.\
-   Cuando se establece, el límite de trabajo en curso muestra un mensaje de advertencia en el panel de historia ágil [!UICONTROL Kanban] cada vez que se supera el límite de cualquier columna del panel de historia. Este mensaje de advertencia se muestra solo la primera vez que se supera el límite de trabajo en curso. Este mensaje de advertencia no se muestra en ninguna columna cuyo estado sea igual a [!UICONTROL Completado].\
-   El límite de trabajo en curso es simplemente una advertencia visual y no restringe a su equipo de tener más elementos en una sola columna que el límite establecido.
+1. En la sección **[!UICONTROL Panel de historias]**, en el campo **[!UICONTROL Límite de trabajo en curso]**, especifique el número máximo de elementos permitidos en cada columna del panel de historias ágil [!UICONTROL Kanban]. Puede establecer un límite diferente para cada columna. El límite máximo que puede establecer para cada columna es 100.
+Cuando se establece, el límite de trabajo en curso muestra un mensaje de advertencia en el panel de historia ágil [!UICONTROL Kanban] cada vez que se supera el límite de cualquier columna del panel de historia. Este mensaje de advertencia se muestra solo la primera vez que se supera el límite de trabajo en curso. Este mensaje de advertencia no se muestra en ninguna columna cuyo estado sea igual a [!UICONTROL Completado].
+El límite de trabajo en curso es simplemente una advertencia visual y no restringe a su equipo de tener más elementos en una sola columna que el límite establecido.
 
    ![Límite de trabajo en curso](assets/wip-limit-350x193.png)
 

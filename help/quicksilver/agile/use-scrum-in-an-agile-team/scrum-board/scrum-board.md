@@ -2,13 +2,13 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
-title: Tablero Scrum
+title: Scrum Board
 description: Revise los artículos de esta sección para obtener más información sobre el uso del panel de exploración en Workfront.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: ce032f98-4716-4ed7-99f3-c7ebf0a16a70
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%

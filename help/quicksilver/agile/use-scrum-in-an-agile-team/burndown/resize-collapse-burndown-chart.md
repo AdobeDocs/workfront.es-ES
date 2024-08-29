@@ -6,9 +6,9 @@ description: Puede cambiar el tamaño o contraer el gráfico de evolución para 
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Cualquier cambio que realice en el tamaño o la visibilidad del gráfico de evol
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -30,31 +32,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Review] o superior</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Nuevo: [!UICONTROL Light] o superior</p> 
+   o
+   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Cambiar el tamaño del gráfico de evolución
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Vaya a la iteración que contiene el gráfico de evolución cuyo tamaño desea cambiar.
-1. Pase el ratón sobre la línea inferior del gráfico de evolución y arrastre el gráfico al tamaño deseado.\
+1. Pase el ratón sobre la línea inferior del gráfico de evolución y arrastre el gráfico al tamaño deseado.
    ![](assets/burndown-resize.png)
 
 ## Contraer el gráfico de evolución
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
 

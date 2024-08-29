@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Usar indicadores en las historias del panel Kanban
+title: Usar indicadores en historias en el Panel Kanban
 description: En el tablero  [!DNL Kanban] , los indicadores proporcionan una indicación visual de cuándo una historia está lista para pasar al siguiente estado. Esto permite a los equipos de Kanban utilizar un enfoque de "extracción" en lugar de "inserción" al mover historias entre estados.
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -28,53 +28,57 @@ Tenga en cuenta lo siguiente al utilizar indicadores en historias:
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
+   o
+   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Usar marcas en las historias del tablero [!UICONTROL Kanban]
 
 Para cambiar un indicador en una historia:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Kanban] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Vaya al tablero [!UICONTROL Kanban] donde desee cambiar un marcador de una historia.
-1. Expanda el mosaico de la historia para ver el indicador.\
-   De manera predeterminada, el indicador se establece en **[!UICONTROL On Track]** para cada artículo.\
+1. Expanda el mosaico de la historia para ver el indicador.
+De manera predeterminada, el indicador se establece en **[!UICONTROL On Track]** para cada artículo.
    ![Tarjeta Kanban](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. Haga clic en el indicador actual y, a continuación, seleccione una de las siguientes opciones de indicador:
 
-   * **[!UICONTROL En seguimiento]:** La historia está en el estado apropiado y no es necesario realizar ninguna acción en este momento.\
+   * **[!UICONTROL En seguimiento]:** La historia se encuentra en el estado apropiado y no es necesario realizar ninguna acción en este momento.
 
-     Este es el indicador predeterminado para cada artículo del Panel Kanban.\
-      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+     Este es el indicador predeterminado para cada artículo del Panel Kanban.
+     ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Está bloqueado]:** La historia no puede pasar al siguiente estado. Cuando este indicador se establece en un artículo, este no se cuenta para el límite de trabajo en curso. (Para obtener más información sobre los límites de WIP, consulte el artículo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).\
+   * **[!UICONTROL Está bloqueado]:** La historia no puede pasar al siguiente estado. Cuando este indicador se establece en un artículo, este no se cuenta para el límite de trabajo en curso. (Para obtener más información sobre los límites de WIP, consulte el artículo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)).
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Listo para la extracción]:** La historia está lista para que otro miembro del equipo la mueva al siguiente estado.\
+   * **[!UICONTROL Listo para extraer]:** La historia está lista para que otro miembro del equipo la mueva al siguiente estado.
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
