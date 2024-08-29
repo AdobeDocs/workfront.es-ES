@@ -7,9 +7,9 @@ description: Workfront Goals le ayuda a definir, comunicar y lograr resultados e
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 >
 >Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
-
+> 
+>Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Workfront Goals le ayuda a definir, comunicar y lograr resultados estratégicos conectando la estrategia con la ejecución y el envío del trabajo. Puede enfocar los esfuerzos de todos en lo que realmente importa, hacer que el progreso sea mensurable y permitir que los equipos logren resultados sorprendentes. Las personas pueden hacer su mejor trabajo sabiendo que sus contribuciones tienen un impacto significativo.
 
@@ -42,9 +43,9 @@ Para obtener más información acerca de las prácticas recomendadas para usar W
 >
 >Las metas estratégicas que administra con Workfront Goals no deben confundirse con las metas a nivel de proyecto que forman parte del caso comercial del proyecto. Para obtener información acerca de las metas a nivel de proyecto, vea [Crear metas de caso empresarial](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
-## Funciones incluidas en Workfront Goals
+## Funcionalidades de Workfront Goals
 
-Actualmente, las siguientes funciones están incluidas en los objetivos de Workfront:
+En los objetivos de Workfront se incluye la siguiente funcionalidad:
 
 * Cree objetivos trimestrales o anuales y asígnelos a usuarios, equipos, grupos o a su organización. También puede personalizar las escalas de tiempo de objetivos.
 

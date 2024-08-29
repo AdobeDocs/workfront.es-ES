@@ -7,9 +7,9 @@ description: Una vez que el administrador de Adobe Workfront le haya concedido e
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,8 @@ Debe tener lo siguiente:
    <td role="rowheader">plan Adobe Workfront*</td> 
    <td> 
    <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li>
-  O
-  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Un plan definitivo </li></ul>
+   </p>
 <p>Para el plan y la estructura de licencias actuales: 
 <ul><li> A Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>

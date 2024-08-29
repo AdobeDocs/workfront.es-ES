@@ -1,42 +1,35 @@
 ---
 title: Solicitar permisos a una vista o a un Workspace
-description: Puede solicitar permisos para una vista o un espacio de trabajo al que otros usuarios le hayan enviado un vínculo que no se haya compartido previamente con usted.
+description: Cuando alguien comparte un vínculo a una vista o área de trabajo a la que no tiene acceso, puede solicitar permisos para abrirlo. En este artículo se explican los pasos para solicitar acceso a una vista o área de trabajo cuando se encuentra con un vínculo compartido que no se puede abrir.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # Solicitar permisos para una vista o un espacio de trabajo
 
-Puede solicitar permisos para una vista o un espacio de trabajo al que otros usuarios le hayan enviado un vínculo que no se haya compartido previamente con usted.
+Puede solicitar permisos para una vista o un espacio de trabajo cuando alguien comparta un vínculo con usted a la vista o al espacio de trabajo al que no tiene acceso.
 
 Solicitar permisos a una vista es similar a solicitar permisos a un espacio de trabajo.
+
+Este artículo describe cómo solicitar acceso a una vista o a un área de trabajo cuando alguien comparte un vínculo con usted y usted no puede tener acceso a la página compartida.
+
+Para obtener información sobre la concesión de permisos a vistas y espacios de trabajo, consulte los siguientes artículos:
+
+* [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
+* [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 Debe tener lo siguiente para poder acceder a Workfront Planning:
 
@@ -128,10 +121,6 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
    * Una notificación por correo electrónico
      ![](assets/email-notification-for-access-request.png)
 
-   Para obtener información sobre la concesión de permisos a vistas y espacios de trabajo, consulte los siguientes artículos:
-
-   * [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
-   * [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this-->
+1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 

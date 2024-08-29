@@ -6,9 +6,9 @@ description: Puede actualizar la información de las metas individuales accedien
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -41,9 +41,8 @@ Debe tener lo siguiente:
    <td role="rowheader">plan Adobe Workfront*</td> 
    <td> 
    <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li>
-  O
-  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Un plan definitivo </li></ul>
+   </p>
 <p>Para el plan y la estructura de licencias actuales: 
 <ul><li> A Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>

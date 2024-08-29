@@ -7,14 +7,31 @@ description: Los objetivos de Adobe Workfront incluyen un conjunto de notificaci
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Habilitar notificaciones de Adobe Workfront Goals
+
+>[!IMPORTANT]
+>
+>Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>
+>* Para el nuevo plan y la estructura de licencias:
+>
+>   * El plan Ultimate Workfront
+>    
+>* Para el plan y la estructura de licencias actuales:
+>
+>   * Un plan Pro o superior de Workfront
+>   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>
+>Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+> 
+>Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Los objetivos de Adobe Workfront incluyen un conjunto de notificaciones de eventos que puede habilitar para su cuenta. Estas notificaciones de eventos almacenan en déclencheur la comunicación por correo electrónico cada vez que se cumple la condición definida por el evento.
 

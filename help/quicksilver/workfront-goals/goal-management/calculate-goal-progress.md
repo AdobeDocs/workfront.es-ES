@@ -6,10 +6,10 @@ description: El progreso de los objetivos está impulsado por indicadores de pro
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +35,6 @@ Póngase en contacto con el administrador de cuentas de Workfront para obtener m
 Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calcula automáticamente el progreso de la meta en función del progreso de sus indicadores de progreso.
-
-## Requisitos previos
-
-Debe tener lo siguiente para poder iniciar:
-
-* Plantilla de diseño que incluye el área de Objetivos en el menú principal.
 
 ## Información general sobre el progreso y el umbral del objetivo
 

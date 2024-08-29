@@ -6,9 +6,9 @@ description: Puede agregar comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
    <td role="rowheader">plan Adobe Workfront*</td> 
    <td> 
    <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li>
-  O
-  <li>Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. </li></ul> </p>
+  <ul><li>Un plan definitivo </li></ul>
+   </p>
 <p>Para el plan y la estructura de licencias actuales: 
 <ul><li> A Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
@@ -89,95 +88,90 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Requisitos previos
-
-Debe tener lo siguiente para poder iniciar:
-
-* Plantilla de diseño que incluye el área de Objetivos en el menú principal.
-
 ## Administrar comentarios de metas
 
 Puede agregar comentarios a los objetivos en la sección Actualizaciones de la página de un objetivo.
-
-Puede responder a un comentario que usted u otras personas agregaron en esta área o marcarlo como me gusta.
 
 1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Metas**.
 Se abrirá la lista de metas.
 1. Busque la meta a la que desee agregar comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
 1. Haga clic en **Actualizaciones** en el panel izquierdo.
-1. (Opcional) Para buscar un comentario existente, empiece a escribir una palabra clave <!--or a user's name--> en el cuadro **Buscar** de la esquina superior derecha de la ficha **Comentarios**.
 
+   Para obtener más información acerca de cómo administrar comentarios en objetos de Workfront, vea [Actualizar el trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--   
+1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
+   
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   La palabra clave <!--or user--> que buscó se resalta y los comentarios que la contienen se muestran en la parte superior de la sección Actualizaciones.
+   The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
-   <!--change the NOTE below when functionality changes-->
 
-   >[!NOTE]
-   >
-   >Debe buscar una palabra incluida en un comentario o una respuesta. No puede buscar un usuario o equipo etiquetado.
+      >[!NOTE]
+      >
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
+   
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Para obtener más información, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-1. Haga clic en el icono **x** en el campo de búsqueda para borrar los resultados de búsqueda y volver a la actualización completa.
-1. Haga clic en la ficha **Comentarios** en la esquina superior izquierda del área de Actualizaciones.
-1. Empiece a escribir un comentario en el cuadro **Nuevo comentario**.
-
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
+1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Start entering a comment in the **New comment** box.
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios redactados solo son visibles para el usuario que los escribe.
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
-1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
-   * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
-   * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
-1. (Opcional) Para agregar formato de texto enriquecido a la actualización, un hipervínculo o un emoji, utilice las opciones de la barra de herramientas Texto enriquecido o los iconos adyacentes. Para obtener más información, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) En el área **Etiquetar personas o equipos**, empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
-1. Seleccione la opción **Privado para mi compañía** para que el comentario solo sea visible para las personas de su compañía.
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
+1. (Optional) To add rich-text formatting to your update, a hyperlink, or an emoji, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
 
-   >[!TIP]
-   >
-   >Debe tener una Compañía especificada en el perfil para que esta opción esté disponible en el área de Actualizaciones.
+      >[!TIP]
+      >
+      >You must have a Company specified in your profile to have this option available in the Updates area. 
 
-1. Haga clic en **Enviar**.
+1. Click **Submit**. 
 
-   >[!TIP]
-   >
-   >Si otro usuario envía un comentario al mismo elemento que está actualizando, habrá una línea roja con un indicador &quot;Nuevo&quot; para informarle de los comentarios más recientes, así como una notificación azul en la parte inferior de la pantalla que indica el número de comentarios nuevos.
-   >
-   >El indicador solo se muestra después de que el comentario se haya enviado sobre el elemento, y no cuando el comentario aún está compuesto.
-   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
-
-1. (Opcional) Para editar un comentario, haga clic en el menú **Más** ![](assets/more-icon.png) a la derecha del icono Me gusta y, a continuación, haga clic en **Editar**.
-1. Edite la información del comentario o elimine cualquiera de los usuarios etiquetados.
-Puede editar su comentario en un plazo de 15 minutos a partir del envío. Se agrega un indicador &quot;editado&quot; a la izquierda de la marca de fecha que muestra cuándo se actualizó el comentario.
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
+      >
+      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment or remove any of the tagged users. 
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > * Se genera un correo electrónico para notificar a los usuarios de su actualización solo cuando envía la actualización original. No se genera ningún correo electrónico después de editar la actualización.
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >
-   > * La marca de fecha es la fecha del comentario original y no la fecha de la última actualización.
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. (Opcional) Haga clic en el menú **Más** ![](assets/more-icon.png) y, a continuación, haga clic en cualquiera de las siguientes opciones para copiar información de un comentario en el portapapeles o en una nueva respuesta:
+1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
-   * **Copie el vínculo** para copiar el vínculo de una actualización, sin las respuestas.
-   * **Copie el texto del cuerpo** para copiar el texto de una actualización.
-   * **Citar respuesta** para abrir un nuevo cuadro de comentarios donde el comentario original aparece citado en una nueva respuesta y se marca como una cita en bloque.
+      * **Copy link** to copy the link of an update, without the replies.
+      * **Copy body text** to copy the text of an update. 
+      * **Quote reply** to open a new comment box where the original comment is quoted in a new reply and is marked as a block quote.
 
-     Para obtener más información, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. (Opcional) Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha de un comentario y, a continuación, haga clic en **Eliminar** para eliminar un comentario que haya agregado. Para obtener más información, consulte [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Haga clic en **Responder** para responder a un comentario existente y, a continuación, siga los pasos del 5 al 9 anteriores. Para obtener más información acerca de cómo responder a las actualizaciones, vea [Responder a las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
-1. (Condicional y opcional) Si otros usuarios han agregado comentarios que se muestran fuera del área visible en la sección Actualizaciones, haga clic en **Ver** dentro del titular azul de **nuevos comentarios** en la parte inferior de la pantalla para mostrar estos comentarios.
-
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+   
    ![](assets/blue-new-comments-banner-with-view-button.png)
+   
+   Additional comments display at the bottom of the screen.
+1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-   Los comentarios adicionales se muestran en la parte inferior de la pantalla.
-1. (Opcional) Haga clic en el icono **Me gusta**![](assets/like-icon.png) para que alguien más le guste un comentario que agregó. El icono se actualiza con el número de me gusta.
-
-1. (Opcional) Haga clic en la ficha **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza un objetivo, Workfront genera una nota sobre esa actualización que se muestra en la pestaña Actividad del sistema. Workfront también registra una actualización del sistema cuando se agrega un resultado, una actividad o un proyecto al objetivo o cuando se actualiza. <!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 
 

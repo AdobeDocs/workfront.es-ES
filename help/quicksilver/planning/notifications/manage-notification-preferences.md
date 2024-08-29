@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Puede recibir notificaciones en la aplicación o por correo electrónico cuando 
 
 * Alguien le agrega a un comentario en la página de registro
 * Alguien solicita permiso para acceder a una vista o a un espacio de trabajo
-* Alguien le concede o deniega permiso para obtener acceso a una vista o a un área de trabajo <!--test this - could not test before GA-->
+* Alguien le concede permiso para obtener acceso a una vista o a un área de trabajo <!--I could not test this but Isk confirmed-->
 
 ## Requisitos de acceso
 
@@ -62,7 +62,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Anule la selección de las notificaciones que quiera dejar de recibir.
 1. Las siguientes notificaciones están disponibles para Workfront:
 
    * **Menciones**: Recibes una notificación cuando alguien te etiqueta en un comentario en Workfront Planning
-   * **Solicitudes**: recibe una notificación cuando alguien solicita permiso para un objeto de Workfront Planning
+   * **Solicitudes**: recibe una notificación cuando alguien solicita o le concede permiso para un objeto de Workfront Planning
 
    Para obtener más información sobre cómo administrar las notificaciones, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

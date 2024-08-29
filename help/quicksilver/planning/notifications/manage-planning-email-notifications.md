@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -24,8 +24,8 @@ Puede recibir notificaciones por correo electrónico de Workfront Planning cuand
 
   Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * Alguien le pide permiso para acceder a una vista o a un espacio de trabajo
-* Alguien confirma que se ha concedido su acceso a una vista o a un área de trabajo <!--verify this-->
-* Alguien le ha denegado el acceso a una vista o a un espacio de trabajo. <!--verify this-->
+* Alguien confirma que se ha concedido su acceso a una vista o a un área de trabajo <!--Isk confirmed that there is nno email for denying access but did not test-->
+
 
 ## Requisitos de acceso
 
@@ -63,7 +63,7 @@ Puede recibir notificaciones por correo electrónico de Workfront Planning cuand
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -165,6 +165,10 @@ OLD:
 1. (Condicional) Si está disponible, haga clic en **Ver todas las notificaciones**. <!--check with Lilit - do non-IMS users have this button??-->
 La página **Notificaciones** se abre en Adobe Experience Cloud. Se muestran todas las notificaciones de todas las aplicaciones de Adobe Experience Cloud.
 
-## Administrar notificaciones por correo electrónico al solicitar, conceder o denegar permisos a una vista o espacio de trabajo
+## Administrar notificaciones por correo electrónico al solicitar y conceder permisos
+
+Recibirá notificaciones por correo electrónico cuando alguien solicite o le conceda permisos para una vista o un espacio de trabajo.
 
 Para obtener información sobre cómo solicitar, conceder o denegar permisos a una vista o área de trabajo, vea [Solicitar permisos a una vista o área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
+
+Para obtener información sobre cómo administrar las notificaciones de Workfront Planning, consulte [Administrar las preferencias de notificación de Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

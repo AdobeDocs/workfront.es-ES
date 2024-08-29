@@ -6,7 +6,7 @@ description: La condición de una tarea o problema es un indicador colocado en �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Los valores de Condición a los que nos referimos en este artículo están dispo
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Ver permisos superiores en tareas y problemas para ver su condición</p>
-   <p>Administrar permisos en tareas y problemas para actualizar la condición</p>
+   <p>Permisos de Contribute en tareas y problemas para actualizar la condición</p>
   </td> 
   </tr> 
  </tbody> 

@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1091'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La información de este artículo hace referencia a las funciones que se han publicado en la nueva experiencia de comentarios.
+>La información de este artículo hace referencia a las funciones que se lanzaron a la nueva experiencia de comentarios.
 >
 >El programa beta para la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre de 2023, con la versión de octubre de 2023.
 >

@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    1. Haga clic en la actualización en la que desee insertar un vínculo.
    1. En la barra de herramientas **Texto enriquecido**, haga clic en el icono **Hipervínculo** ![](assets/link-icon.png).
 
-   1. En el cuadro **Crear vínculo** que aparece, en **URL**, escriba o pegue la dirección URL del origen al que desea vincular.
+   1. En el cuadro **Crear vínculo**, en **URL**, escriba o pegue la URL del origen al que desea vincular.
 
    1. En **Texto para mostrar**, escriba o pegue el texto del vínculo.
    1. Haga clic en **Guardar**.
@@ -386,7 +386,7 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
 1. (Opcional) Para adjuntar una imagen a la actualización, realice una de las siguientes acciones:
 
    * Guarde la imagen en el equipo y arrástrela y suéltela en el área Nuevo comentario.
-   * Copie una captura de pantalla del equipo y péguela en el comentario.<!-- This is not available in the legacy commenting experience.-->
+   * Copie una captura de pantalla del equipo y péguela en el comentario.
    * Haga clic en el icono **Agregar imagen** ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en su equipo.
 
 
@@ -399,7 +399,8 @@ Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole vari
    >* El administrador de Workfront debe habilitar la adición de imágenes en la sección Actualizar preferencias de fuentes del área de Interfaz de Workfront para que pueda ver los iconos Imagen o Agregar datos adjuntos. Para obtener más información, consulte [Configurar preferencias para actualizaciones de usuarios](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* El tamaño máximo de archivo de imagen es de 7 MB. Los tipos de archivo de imagen admitidos son .jpg, .gif y .png.
    >* Se puede acceder a las imágenes desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos del menú principal.
-   >* Puede pegar la imagen haciendo clic con el botón secundario en el nuevo comentario o presionando CTRL + V para Windows (o ⌘ + V para Mac) en el teclado.
+   >Puede copiar una captura de pantalla del equipo mediante una combinación de teclas o, por ejemplo, la función Imprimir pantalla (en equipos con Windows).
+   >* Puede pegar la imagen haciendo clic con el botón secundario en el nuevo comentario y luego haciendo clic en **Pegar**, o presionando CTRL+V para Windows (o ⌘+V para Mac) en el teclado.
    >* Puede enviar una actualización con una imagen y sin texto.
    >* Cuando elimina un comentario que contiene una imagen, la imagen se quita de la sección Actualizaciones y del área Documentos. La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
    >* Cuando alguien elimina una imagen adjunta a un comentario del área Documentos, también se elimina del comentario.
