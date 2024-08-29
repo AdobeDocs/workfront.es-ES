@@ -1,5 +1,5 @@
 ---
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 5ea52fd7843a8e202980ed03d2e87953c7726f35
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 1%
@@ -349,7 +349,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 ## Última versión de DPV {#latest-version}
 
-**Última versión**: 2.1.35 a partir del 04/7/2024
+**Última versión**: 2.1.36 a partir del 29/8/2024
 
 <!-- Release -->
 
