@@ -6,9 +6,9 @@ description: Aunque no hay límite para la cantidad de usuarios que puede tener 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -27,33 +27,32 @@ Para obtener más información acerca de los conjuntos de recursos, vea [Resumen
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro y superior</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: Pro y superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Administrar conjuntos de recursos</p> <p>Acceso de visualización o superior a los usuarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>(NOTE:&nbsp;I don't think this is needed for removing users from the pool)</p> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Administrar conjuntos de recursos</p> <p>Acceso de visualización o superior a los usuarios</p></td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,12 +4,12 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: Introducción a la administración de recursos
 description: La administración de recursos le permite configurar el sistema para prever con precisión el uso de los recursos en función de su disponibilidad, de modo que el trabajo que se debe realizar se complete a tiempo y según el presupuesto.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Los siguientes usuarios tienen acceso a las herramientas de administración de r
 Debe ser uno de los siguientes usuarios y tener los siguientes permisos y acceso a las herramientas de administración de recursos:
 
 * El administrador del sistema.
-* Un usuario con una licencia de planificación.
+* Un usuario con una licencia estándar o de planificación.
 
   Un usuario con una licencia de trabajo puede utilizar el Distribuidor de cargas de trabajo de un proyecto y administrar asignaciones y asignaciones.
 
-  Además de tener una licencia de trabajo o superior, debe tener lo siguiente para utilizar herramientas específicas de administración de recursos:
+  Además de tener una licencia de trabajo o superior (o una licencia estándar), debe tener lo siguiente para utilizar herramientas específicas de administración de recursos:
 
    * Editar el acceso a la administración de recursos (no es necesario para realizar asignaciones en el Distribuidor de cargas de trabajo)
    * Editar acceso a datos financieros para mostrar información de costos en el Planificador de recursos
@@ -168,7 +168,6 @@ Debe cumplir una serie de requisitos para poder utilizar de forma eficaz las her
 Para obtener información sobre los requisitos de cada herramienta de administración de recursos en Workfront, consulte lo siguiente:
 
 * La sección [Requisitos previos para trabajar en el Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) del artículo [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * La sección [Prácticas recomendadas para usar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) del artículo [Información general del Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Acceso necesario para administrar recursos en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

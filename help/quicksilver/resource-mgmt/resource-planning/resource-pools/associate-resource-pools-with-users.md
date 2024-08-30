@@ -6,9 +6,9 @@ description: Debe crear un conjunto de recursos para poder asociarlo a los usuar
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
@@ -33,38 +33,45 @@ Para obtener información acerca de cómo crear conjuntos de recursos, vea [Crea
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro y superior</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: Pro y superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Administrar conjuntos de recursos</p> <p>Editar el acceso a Proyectos, Plantillas y Usuarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Administrar conjuntos de recursos</p> <p>Editar el acceso a Proyectos, Plantillas y Usuarios</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para los proyectos, plantillas y usuarios con los que asocia los conjuntos de recursos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Administre permisos para los proyectos, plantillas y usuarios con los que desee asociar los conjuntos de recursos</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Asociar conjuntos de recursos a un usuario
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step-1-to-users}}
 
-1. Haga clic en **Usuarios**.
 1. Marque la casilla junto al nombre de un usuario en la lista y luego haga clic en **Editar**.
 1. Haga clic en **Planificación de recursos**.
 1. Empiece a escribir el nombre de un conjunto de recursos que desee asociar con el usuario en el campo **Conjuntos de recursos** y, a continuación, selecciónelo en la lista cuando aparezca.\
@@ -83,9 +90,8 @@ Puede editar varios usuarios de forma masiva y asociar los mismos conjuntos de r
 
 Para asociar conjuntos de recursos a varios usuarios de forma masiva:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step-1-to-users}}
 
-1. Haga clic en **Usuarios**.
 1. Seleccione varios usuarios en la lista y haga clic en **Editar**.
 1. Haga clic en **Planificación de recursos**.
 1. Empiece a escribir el nombre de un conjunto de recursos que desee asociar con los usuarios en el campo **Conjuntos de recursos** y, a continuación, selecciónelo en la lista cuando aparezca.\

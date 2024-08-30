@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -110,13 +110,25 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 1. Seleccione **Iniciar Sesión Como**.
 1. Empiece a escribir el nombre del usuario cuyas preferencias desee restablecer y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 1. Seleccione **Iniciar sesión**.
-1. En el campo URL en la parte superior del navegador web, agregue `/resetUser` después de `workfront.com`.
+1. Si su organización no se ha incorporado a la experiencia unificada de Adobe, siga este paso:
 
-   >[!NOTE]
-   >
-   >Distingue entre mayúsculas y minúsculas. La U debe escribirse en mayúsculas y los caracteres restantes deben escribirse en minúsculas. Por ejemplo:
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+   * En el campo URL en la parte superior del navegador web, agregue `/resetUser` después de `workfront.com`.
+
+     >[!NOTE]
+     >
+     >Distingue entre mayúsculas y minúsculas. La U debe escribirse en mayúsculas y los caracteres restantes deben escribirse en minúsculas. Por ejemplo:
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. Si su organización se ha incorporado a la experiencia unificada de Adobe, siga este paso:
+
+   * En el campo URL en la parte superior del navegador web, agregue y agregue `/resetUser` después de `workfront`.
+
+     >[!NOTE]
+     >
+     >Distingue entre mayúsculas y minúsculas. La U debe escribirse en mayúsculas y los caracteres restantes deben escribirse en minúsculas. Por ejemplo:
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Presione **Intro**.
 1. Para restablecer todas las preferencias de usuario, seleccione **Restablecer**.

@@ -6,10 +6,10 @@ description: Los conjuntos de recursos son colecciones de usuarios que le ayudan
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 1%
 
 ---
 
@@ -41,32 +41,40 @@ Para obtener información acerca de cómo crear conjuntos de recursos, vea [Crea
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro y superior</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: Pro y superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Administrar conjuntos de recursos</p> <p>Editar el acceso a Proyectos, Plantillas y Usuarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Administrar conjuntos de recursos</p> <p>Editar el acceso a Proyectos, Plantillas y Usuarios</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para los proyectos, plantillas y usuarios con los que asocia los conjuntos de recursos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Administre permisos para los proyectos, plantillas y usuarios con los que desee asociar los conjuntos de recursos</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Asociar conjuntos de recursos a un proyecto o plantilla
 
