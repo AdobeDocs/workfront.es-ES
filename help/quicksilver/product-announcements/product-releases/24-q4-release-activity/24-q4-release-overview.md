@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>24.8 (agosto de 2024)</li><li>24.9 (septiembre de 2024)</li><li>24.10 (octubre de 2024)</li></ul> | <ul><li>24.10 (octubre de 2024)</li></ul> |
+>| <ul><li>24.8 (15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (octubre de 2024)</li></ul> | <ul><li>24.10 (octubre de 2024)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (24.10 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes.
 >
@@ -58,6 +58,25 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Revertir paquetes de promoción de entorno</a></p>
+                        <p>Para que la promoción del entorno sea más flexible y fácil de usar, hemos habilitado la funcionalidad de reversión. Ahora, puede revertir paquetes en un plazo de 24 horas, lo que le permite restaurar más fácilmente las configuraciones anteriores que se han visto afectadas por un paquete de promoción de entorno.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 29 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p>Producción para la versión rápida: con la versión 24.9 (12 de septiembre de 2024)</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">El botón Diseño del diseñador de formularios personalizados permite dos o tres columnas</a></p>
                         <p>Un botón "Diseño" en el diseñador de formularios personalizado le permite elegir entre un área de trabajo de dos o tres columnas. El diseñador de formularios original utiliza tres columnas y la configuración del campo se muestra en la columna del extremo derecho. Si selecciona dos columnas, la configuración del campo se muestra junto a la biblioteca de campos en la columna del extremo izquierdo.</p>
                     </td>
@@ -67,7 +86,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                                 <p>Versión de vista previa: 12 de agosto de 2024</p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.9 (septiembre de 2024)</p>
+                                <p>Producción para la versión rápida: con la versión 24.9 (12 de septiembre de 2024)</p>
                             </li>
                             <li>
                                 <p>Versión de producción para todos los clientes: por determinar</p>
@@ -192,6 +211,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización de Chromium para el Visor de revisión de escritorio</a></p>
+                        [!BADGE en producción ]{type=Informative}
                         <p>Estamos actualizando el Visor de pruebas de escritorio para que admita Chromium 126.0.6478.127, que solucionará los problemas con los elementos de la interfaz de usuario en las pruebas interactivas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -217,6 +237,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Disponibilidad general de Adobe Workfront Planning</a></p>
+                        [!BADGE en producción ]{type=Informative}
                         <p>Workfront Planning está disponible para todos los clientes que adquirieron una licencia de Workfront Planning, además de su licencia de Workfront. Póngase en contacto con el representante de cuentas para obtener más información acerca de Workfront Planning.</p>
                         <p>Para obtener la información más reciente sobre la versión de Workfront Planning cada trimestre, consulte la sección <a href="#workfront-planning-enhancements">Mejoras de Workfront Planning</a> a continuación.</p>
                     </td>
@@ -231,6 +252,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Asistente de IA de Adobe disponible en Workfront</a></p>
+                        [!BADGE en producción ]{type=Informative}
                         <p>Para facilitarle la realización de su trabajo, hemos agregado el asistente de IA de Adobe a Workfront. El asistente de IA puede ayudarle con lo siguiente:</p>
                         <ul>
                             <li>Resumir elementos y documentos de trabajo le permite obtener rápidamente una comprensión general de las tareas, los proyectos y los recursos.</li>

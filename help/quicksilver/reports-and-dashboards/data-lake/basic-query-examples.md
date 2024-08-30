@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ En este ejemplo se muestra cómo crear una consulta para devolver los datos pers
 
 ### Escenario:
 
-Su organización que utiliza un formulario personalizado denominado Integración financiera. El formulario se adjunta a cada proyecto y contiene los campos siguientes:
+Su organización utiliza un formulario personalizado denominado Integración financiera. El formulario se adjunta a cada proyecto y contiene los campos siguientes:
 
 * **Unidad de negocio** - Campo personalizado que contiene una cadena.
 * **ProjectID**: campo personalizado que contiene una cadena numérica.
