@@ -6,9 +6,9 @@ description: El botón Listo puede establecer automáticamente el estado de una 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,41 @@ Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo]
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td>Se requiere acceso de administrador del sistema para configurar el botón [!UICONTROL Listo] cuando se elimina el estado [!UICONTROL Resuelto]</td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Se requiere acceso de administrador del sistema para configurar el botón Listo cuando se elimina el estado Resuelto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar el botón [!UICONTROL Listo] para un equipo
 
 Puede cambiar el estado aplicado al elemento de trabajo con el botón [!UICONTROL Listo]. También puede establecer varios estados y permitir al usuario elegir qué estado es apropiado.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego haga clic en **[!UICONTROL Editar]**.

@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Administrar en qué está trabajando su equipo
+title: Administrar En Qué Está Trabajando Su Equipo
 description: Puede ver una vista de calendario de las tareas y los problemas en los que está trabajando su equipo. Puede asignar elementos sin asignar, ajustar las asignaciones actuales, ajustar las asignaciones actuales, etc.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%

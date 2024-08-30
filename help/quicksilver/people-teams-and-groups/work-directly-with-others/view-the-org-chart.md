@@ -6,9 +6,9 @@ description: La función de organigrama le permite ver el organigrama asociado a
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,35 @@ La característica de organigrama le permite ver el organigrama asociado a un us
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: claro o superior</p>
+   <p>o</p>
+   <p>Actual: revisar o superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Busque el organigrama de un usuario
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en el nombre de usuario que aparece junto a la imagen de perfil.
+{{step1-click-profile-pic}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Organigrama]**.\
    ![Organigrama](assets/org-chart.png)

@@ -7,9 +7,9 @@ description: Una solicitud representa una asignación de tarea o problema pendie
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,36 @@ Una solicitud representa una asignación de tarea o problema pendiente. Las soli
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Revisar o superior para asignar o trabajar en una solicitud; Trabajar o superior para reasignar una solicitud</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Para asignar o trabajar en una solicitud:
+   <p>Nuevo: Claro o superior</br>
+    o</br>
+   Actual: revisar o superior</p>
+   <p>Para reasignar una solicitud:
+   <p>Nuevo: Estándar</br>
+    o</br>
+   Actual: Trabajo o superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Asignar una solicitud a un equipo {#assign-a-request-to-a-team}
 
@@ -64,7 +74,7 @@ Puede asignar manualmente una solicitud a un equipo desde la página de equipo, 
 
 Para asignar manualmente una solicitud a un equipo desde la página de equipo:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
@@ -80,7 +90,8 @@ Para asignar manualmente una solicitud a un equipo desde la página de equipo:
 
 Puede reasignar solicitudes que se hayan asignado a su equipo:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
+
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Solicitudes de equipo]**.
 1. Haga clic en el icono **[!UICONTROL Reasignar]**.

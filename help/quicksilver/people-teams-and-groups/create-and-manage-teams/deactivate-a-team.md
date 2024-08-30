@@ -6,9 +6,9 @@ description: Puede desactivar los equipos que ya no utilice y conservar los dato
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -44,24 +44,31 @@ Los equipos desactivados no aparecen cuando buscas un equipo, pero se mostrarán
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Desactivar un equipo
 
@@ -73,7 +80,8 @@ Cualquier trabajo asignado al equipo antes de la desactivación permanece asigna
 
 Al utilizar colas de solicitudes, si desactiva un equipo asignado como equipo por defecto en una regla de enrutamiento, el equipo permanece y las solicitudes se siguen redirigiendo al equipo desactivado. Se recomienda actualizar las reglas de enrutamiento con los equipos activos antes de desactivar el equipo.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
+
 1. Haga clic en el icono **[!DNL Switch team]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
 

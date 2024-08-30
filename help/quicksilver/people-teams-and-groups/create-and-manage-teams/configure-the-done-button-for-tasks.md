@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configurar el botón Listo para las tareas
+title: Configuración del botón Listo para tareas
 description: El botón Listo puede establecer automáticamente el estado de una tarea o un problema. De forma predeterminada, Adobe Workfront marca una tarea como Completada cuando un usuario asignado hace clic en Listo en su elemento de trabajo.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '758'
 ht-degree: 1%
 
 ---
@@ -27,32 +27,37 @@ Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo]
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] plan*</strong></p></td> 
-   <td> <p>Cualquiera</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] licencia*</strong></p></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar el botón [!UICONTROL Listo] para un equipo
 
 Puede cambiar el estado aplicado al elemento de trabajo con el botón [!UICONTROL Listo]. También puede establecer varios estados y permitir al usuario elegir qué estado es apropiado.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego haga clic en **[!UICONTROL Editar]**.

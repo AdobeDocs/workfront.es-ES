@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Reemplazar el botón Trabajar en ello por un botón Iniciar
+title: Reemplazar el botón Trabajar en ello por un botón de inicio
 description: La configuración predeterminada de Adobe Workfront incluye un botón Trabajar en ello para tareas y problemas que se muestra para elementos a los que se le ha asignado.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -25,26 +25,31 @@ Puede reemplazar el botón [!DNL Work On It] por un botón [!UICONTROL Iniciar] 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar el botón [!UICONTROL Iniciar]
 
@@ -66,7 +71,7 @@ Si tiene una licencia de [!UICONTROL Plan], puede configurar el botón [!UICONTR
 
 Para configurar el botón Start:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **[!UICONTROL Equipos]**.
+{{step1-to-team}}
 
 1. En el menú desplegable **[!UICONTROL Equipos]**, seleccione un equipo.\
    o\
@@ -87,9 +92,9 @@ Para configurar el botón Start:
 
 Para asociar usuarios a un equipo de inicio:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+{{step-1-to-users}}
 
-1. Haga clic en **[!UICONTROL Usuarios]** y, a continuación, seleccione el usuario o los usuarios que desee asociar con un equipo de inicio.
+1. Seleccione el usuario o usuarios que desea asociar con un equipo de inicio.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.\
    ![](assets/user-settings-nwe-350x291.png)
 

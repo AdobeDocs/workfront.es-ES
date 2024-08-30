@@ -2,14 +2,14 @@
 content-type: reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
-title: Envío de mensajes directos a otros usuarios
+title: Enviar mensajes directos a otros usuarios
 description: Adobe Workfront permite enviar rápida y fácilmente mensajes que no están relacionados con ningún elemento de trabajo directamente a otros usuarios de Workfront.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </table>
 
 &#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: claro o superior</p>
+   <p>o</p>
+   <p>Actual: revisar o superior</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Enviar un mensaje no relacionado con un elemento de trabajo a otro usuario
 

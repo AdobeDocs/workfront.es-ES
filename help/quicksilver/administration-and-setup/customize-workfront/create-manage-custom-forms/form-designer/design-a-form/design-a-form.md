@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
+source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
 workflow-type: tm+mt
 source-wordcount: '5546'
 ht-degree: 5%
@@ -304,7 +304,7 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
    * Lista desplegable
    * Lista desplegable de selección múltiple
 
-   ![Arrastrar un campo al lienzo](assets/drag-field-to-section-041524.png)
+   ![Arrastrar un campo al lienzo](assets/drag-field-to-section.png)
 
 1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que está agregando:
 
@@ -579,7 +579,7 @@ Para añadir una búsqueda externa:
      </tr> 
      <tr> 
       <td role="rowheader">Nombre</td> 
-      <td> <p>(Obligatorio) Así es como el sistema identifica el campo. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p> 
+      <td> <p>(Obligatorio) Así es como el sistema identifica el campo. Cuando configure el widget por primera vez y escriba la etiqueta, el campo Nombre se rellenará automáticamente para que coincida. Sin embargo, los campos Etiqueta y Nombre no están sincronizados, lo que le da la libertad de cambiar la etiqueta que ven los usuarios sin tener que cambiar el nombre que ve el sistema.</p>
       <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instrucciones</td> 
