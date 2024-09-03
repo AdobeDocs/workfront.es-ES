@@ -8,9 +8,9 @@ description: Las siguientes funciones generales están disponibles en el panel d
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ Devuelve la ruta de valor de un objeto o matriz. Para acceder a objetos anidados
 
 Devuelve `value1` si la expresión se evalúa como verdadera; en caso contrario, devuelve `value2`.
 
+Para crear una instrucción if que devuelva un valor sólo si dos o más expresiones se evalúan como true, utilice la palabra clave `and`.
+
+Para combinar instrucciones `if`, use los operadores `and` y `or`.
+
+![y operador](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Ejemplos:**
@@ -81,9 +87,14 @@ Devuelve `value1` si la expresión se evalúa como verdadera; en caso contrario,
 >
 >    Devuelve un
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Devuelve B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Devuelve B
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ Devuelve `value1` si este valor no está vacío; en caso contrario, devuelve `va
 
 ## [!UICONTROL modificador (expresión; valor1; resultado1; [valor2; resultado2; ...]; [Else])]
 
-Evalúa un valor (denominado expresión) frente a una lista de valores; devuelve el resultado correspondiente al primer valor coincidente.
+Evalúa un valor (denominado expresión) frente a una lista de valores; devuelve el resultado correspondiente al primer valor coincidente. Para incluir un valor `else`, agréguelo después de la expresión o valor final.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ Evalúa un valor (denominado expresión) frente a una lista de valores; devuelve
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Devuelve 4
+>   Devuelve 4
+>   
+>   En esta función, 4 es el valor que se devuelve si no se aplica ninguna expresión (el valor `else`).
 
 ## [!UICONTROL omitir(objeto; clave1; [clave2; ...])]
 
