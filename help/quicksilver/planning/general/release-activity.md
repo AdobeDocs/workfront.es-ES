@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Previsualización y producción: 28 de agosto de 2024
 Al solicitar acceso a un espacio de trabajo o a una vista, el usuario desde el que se solicita acceso recibe una notificación por correo electrónico sobre la solicitud. Una vez concedida la solicitud, recibirá una notificación por correo electrónico con una confirmación de que se ha aprobado.
 
 Puede acceder a la vista o al espacio de trabajo desde la notificación por correo electrónico, cuando se haya concedido el permiso.  <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>Su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan solicitar y conceder permisos a una vista o a un espacio de trabajo desde una solicitud de permiso.
+
 
 Para obtener más información, consulte [Solicitar permisos para una vista o un área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3622'
 ht-degree: 2%
 
 ---
@@ -225,7 +225,7 @@ OLD:
 
 ### Texto de línea única {#single-line-text}
 
-Los campos de texto de una sola línea capturan información alfanumérica limitada. Por ejemplo, puede capturar la información del propietario, la parte interesada, el equipo o la unidad organizativa en un campo de texto de una sola línea. El contenido de un campo de texto de una sola línea puede tener hasta 250 caracteres. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+Los campos de texto de una sola línea capturan información alfanumérica limitada. Por ejemplo, puede capturar la información del propietario, la parte interesada, el equipo o la unidad organizativa en un campo de texto de una sola línea. El contenido de un campo de texto de una sola línea puede tener hasta 1000 caracteres. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Texto de una sola línea**.
 
@@ -245,9 +245,12 @@ Los campos de párrafo capturan información alfanumérica adicional sobre un re
 
 >[!TIP]
 >
->* El contenido de un campo de párrafo puede tener hasta 1000 caracteres.
+>* Puede tener un máximo de 20 campos de párrafo para un tipo de registro.
 >
+>* El contenido de un campo de párrafo puede tener hasta 100 000 caracteres.
 >* Puede utilizar el formato de texto enriquecido para mejorar el contenido de los campos de párrafo cuando se muestran en la vista de tabla o en la página Detalles de un registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+>
+
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Párrafo**.
 

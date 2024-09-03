@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 * Puede mostrar registros u objetos conectados debajo de los registros del tipo de registro seleccionado en la vista de escala de tiempo.
 * Puede mostrar lo siguiente en la vista de cronología mediante la función Desglose:
    * Registros de Workfront Planning conectados al tipo de registro seleccionado.
-   * Los tipos de objeto de Workfront (************* o AEM Assets *************) se conectaron al tipo de registro seleccionado.
+   * Tipos de objetos Workfront o recursos de Experience Manager conectados al tipo de registro seleccionado.
    * Registros de Workfront Planning u objetos de otra aplicación conectados a registros conectados al tipo de registro seleccionado.
 
      Por ejemplo, puede conectar campañas a portafolios. Además, puede conectar otro tipo de registro, productos, con proyectos, así como con campañas. Cuando genere la vista de la cronología de la campaña, puede desglosar las campañas por portafolios, productos y proyectos.

@@ -5,15 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '615'
+ht-degree: 0%
 
 ---
 
 
 # Solicitar permisos para una vista o un espacio de trabajo
+
+>[!IMPORTANT]
+>
+>La funcionalidad que se describe en este artículo solo está disponible cuando su organización se ha incorporado a la experiencia unificada de Adobe.
+>
+>Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 Puede solicitar permisos para una vista o un espacio de trabajo cuando alguien comparta un vínculo con usted a la vista o al espacio de trabajo al que no tiene acceso.
 
@@ -66,6 +73,8 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p><b>IMPORTANTE</b></p>
+<p>Los usuarios de su organización solo pueden solicitar permisos para vistas y espacios de trabajo cuando su organización está integrada en la experiencia unificada de Adobe. </p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
