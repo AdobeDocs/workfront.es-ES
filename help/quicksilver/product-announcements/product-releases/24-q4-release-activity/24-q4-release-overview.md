@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Corrección de pantalla en blanco para usuarios de Windows del Visor de corrección de escritorio</a></p>
+                        [!BADGE en producción ]{type=Informative}
+                        <p>Se ha corregido un problema con la nueva versión 2.1.36 del Visor de pruebas de escritorio que provocaba que algunos usuarios de Windows vieran una pantalla en blanco después de abrir el visor. </p>
+                        <p>Nueva versión para usuarios de Windows: 2.1.37</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 30 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción para todos los clientes: 30 de agosto de 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
