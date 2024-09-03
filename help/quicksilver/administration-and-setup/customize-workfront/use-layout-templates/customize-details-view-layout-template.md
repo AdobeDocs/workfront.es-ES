@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo</p> <p><b>NO
 1. En la sección **Detalles**, realice una de las acciones siguientes para personalizar lo que ven los usuarios en la vista Detalles:
 
    * Arrastre cualquier encabezado de sección ![](assets/move-icon---dots.png) para cambiar su orden.
-   * Habilite o deshabilite las opciones en **Información general** y **Forms personalizado** para mostrarlas u ocultarlas.
+   * Habilite o deshabilite las opciones en las diversas áreas (como **Información general**, **Finanzas** y **Forms personalizado**) para mostrarlas u ocultarlas.
 
      Si oculta todos los campos de una de estas secciones, se oculta toda la sección.
 
-     Todos los campos están habilitados de forma predeterminada.
+     Todos los campos están habilitados de forma predeterminada. Puede activar o desactivar la casilla de verificación **Seleccionar todo** de un área para mostrar u ocultar todos los campos de dicha área.
+
+   ![Vista de detalles en la plantilla de diseño](assets/layout-template-details-view.png)
 
 1. Siga personalizando la plantilla de diseño.
 
