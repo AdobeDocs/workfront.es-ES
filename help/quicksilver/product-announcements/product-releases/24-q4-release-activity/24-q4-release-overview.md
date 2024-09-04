@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ahora hay disponible una opción "Seleccionar todo" en las plantillas de diseño</a></p>
+                        [!BADGE en producción ]{type=Informative}
+                        <p>Para ayudarle a mostrar y ocultar más fácilmente los campos con las plantillas de diseño, se ha agregado la casilla de verificación "Seleccionar todo" a las áreas Información general y Finanzas de la vista Detalles en una plantilla de diseño. Esta opción está disponible cuando ha seleccionado Proyecto, Tarea, Problema, Portfolio o Programa en "Personalizar lo que ven los usuarios".</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 29 de agosto de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Lanzamiento de producción para todos los clientes: 6 de agosto de 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mejoras en la experiencia de inicio de sesión de integración con Outlook</a></p>
+                        [!BADGE en producción ]{type=Informative}
                         <p>La experiencia de inicio de sesión para la integración con Outlook se ha optimizado para que todos los clientes vean el mismo botón para iniciar sesión en Workfront, independientemente de si están habilitados para IMS o no. Los pasos de inicio de sesión siguientes siguen siendo diferentes para las instancias de IMS y no de IMS, pero la página inicial es la misma para todos los usuarios.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>

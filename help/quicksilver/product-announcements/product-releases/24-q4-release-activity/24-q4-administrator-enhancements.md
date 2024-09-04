@@ -4,9 +4,9 @@ description: Mejoras del administrador del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,21 @@ Esta página describe todas las mejoras de administrador realizadas con la versi
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2024, consulte [Información general de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Ahora está disponible la opción &quot;Seleccionar todo&quot; en las plantillas de diseño
+
+>[!NOTE]
+>
+>Versión de vista previa: 29 de agosto de 2024; versión de producción para todos los clientes: 29 de agosto de 2024
+
+Para ayudarle a mostrar y ocultar más fácilmente los campos con las plantillas de diseño, se ha agregado la casilla de verificación **Seleccionar todo** a las áreas Información general y Finanzas de la vista Detalles en una plantilla de diseño. Esta opción está disponible si ha seleccionado Proyecto, Tarea, Problema, Portfolio o Programa en **Personalizar lo que ven los usuarios**. Tenga en cuenta que no todos los objetos muestran el área Finanzas y que los campos de cada área son diferentes en función del objeto.
+
+Para obtener más información, consulte [Personalizar la vista de detalles con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+
 ## Revertir paquetes de promoción de entorno
 
 >[!NOTE]
 >
 >Versión de vista previa: 29 de agosto de 2024; producción para versión rápida: con la versión 24.9 (12 de septiembre de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
->
 
 Para que la promoción del entorno sea más flexible y fácil de usar, hemos habilitado la funcionalidad de reversión. Ahora, puede revertir paquetes en un plazo de 24 horas, lo que le permite restaurar más fácilmente las configuraciones anteriores que se han visto afectadas por un paquete de promoción de entorno.
 
