@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2981'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+><span class="preview">Este artículo enumera las características que se lanzaron durante la fase beta de Workfront Planning en 2023.</span>
 >La información de este artículo hace referencia a Adobe Workfront Planning, una nueva oferta de Adobe Workfront.
 >
 >Debe adquirir un plan de Workfront Planning, además de un plan de Workfront, para poder acceder y utilizar las funcionalidades de Workfront Planning.
@@ -28,15 +29,25 @@ ht-degree: 0%
 >Para obtener una descripción general de Workfront Planning, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Este artículo enumera las funciones que se lanzaron durante 2023 después del lanzamiento del programa beta de Adobe Workfront Planning, el 22 de mayo de 2023.
-
 Para obtener más información sobre la actividad de la versión, consulte también los siguientes artículos:
 
 * [Actividad de la versión de Adobe Workfront Planning: índice del artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) para obtener información sobre la actividad de la versión actual de Workfront Planning.
 
 * [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md) para obtener información sobre las funciones lanzadas durante 2024, antes de la disponibilidad general del 28 de agosto de 2024.
 
-Las funciones lanzadas se enumeran en el orden de su lanzamiento, con las más recientes primero.
+## Cronología de la versión de Workfront Planning
+
+<!-- this section is also duplicated in the 2024 release notes article-->
+
+La siguiente tabla muestra la cronología de la versión de Workfront Planning:
+
+| Hora | Versión |
+|--------------------|-----------------------------------------|
+| De agosto a diciembre de 2023 | Versión beta de Workfront Planning* |
+| Enero-agosto de 2024 | Versión anticipada de Workfront Planning* |
+| jueves, 28 de agosto de 2024 | Disponibilidad general de Workfront Planning |
+
+*Las fases beta y de lanzamiento anticipado estaban disponibles para un grupo limitado de clientes.
 
 ## Semana del 25 de diciembre de 2023
 
