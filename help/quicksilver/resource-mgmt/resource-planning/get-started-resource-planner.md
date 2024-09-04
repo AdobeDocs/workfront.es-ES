@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Resumen del Planificador de recursos
 description: Puede estimar y presupuestar la asignación de sus recursos a los proyectos a los que están asignados y prever su disponibilidad para el trabajo futuro mediante el Planificador de recursos.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

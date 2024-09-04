@@ -2,12 +2,12 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos
+title: Visión General de Horas, ETC e Información de Costos en las Vistas de Proyectos y Rol del Planificador de Recursos
 description: Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%

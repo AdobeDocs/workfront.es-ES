@@ -3,29 +3,27 @@ title: Configurar una URL de ayuda personalizada
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Si crea un sitio de ayuda interno personalizado que contiene información sobre cómo utiliza su organización Workfront, puede configurar el icono Ayuda del menú principal para ir a ese sitio. Esto no afecta al vínculo de Ayuda principal del menú principal ni a los vínculos de ayuda contextual de Workfront, que llevan a los usuarios al sitio de Ayuda de Workfront.
+description: Si crea un sitio de ayuda interno personalizado que contiene información sobre cómo utiliza su organización Workfront, puede configurar el icono Ayuda del menú principal para ir a ese sitio.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
-# Configuración de una URL de ayuda personalizada
+# Configurar URL de ayuda personalizada
 
 Si crea un sitio de ayuda interno personalizado que contiene información sobre cómo utiliza su organización Workfront, puede configurar el icono Ayuda del menú principal para ir a ese sitio.
 
 ![](assets/custom-help-button.png)
 
-Esto no afecta al vínculo de Ayuda principal del menú principal ni a los vínculos de ayuda contextual de Workfront, que llevan a los usuarios al sitio de Ayuda de Workfront.
+Esto no afecta a los vínculos de ayuda contextual de Workfront, que llevan a los usuarios al sitio de Ayuda de Workfront.
 
-![](assets/custom-help-url.png)
-
-Para obtener información sobre cómo los usuarios acceden a una dirección URL de ayuda personalizada que configuró en Workfront y al sitio de ayuda normal de Workfront, consulte [Acceso a la ayuda de Workfront en la nueva experiencia de Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Para obtener información sobre cómo los usuarios acceden a una dirección URL de ayuda personalizada que configuró en Workfront y al sitio de ayuda normal de Workfront, consulte [Acceder a la ayuda de Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Requisitos de acceso
 
@@ -64,3 +62,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Si la ubicación de ayuda personalizada requiere credenciales de inicio de sesión, esas credenciales son necesarias para los usuarios cuando acceden al sitio desde Workfront. Puede que sea necesario administrar las credenciales del sitio de ayuda personalizado de forma independiente de las credenciales de Workfront si no utiliza el inicio de sesión único (SSO).
 
 1. Haga clic en **Guardar**.
+
+   Una vez guardada una URL de ayuda personalizada, puedes volver al sitio de ayuda predeterminado de Workfront si eliminas la URL personalizada y haces clic en **Guardar**.

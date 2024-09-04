@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront
 description: Puede consultar la disponibilidad de los recursos y la cantidad de trabajo planificado o presupuestado de los proyectos en el Planificador de recursos. Estos valores se muestran en horas, ETC (equivalente a tiempo completo) o importes de coste y se organizan en columnas.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1237'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,8 @@ Puede consultar la disponibilidad de los recursos y la cantidad de trabajo plani
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro y superior</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: Pro o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar o superior </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: claro o superior</p>
+       <p>o</p>
+       <p>Actual: revisar o superior</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Vea o acceda a lo siguiente:</p> 
     <ul> 
      <li> <p>Administración de recursos</p> </li> 
      <li> <p>Datos financieros</p> </li> 
      <li> <p>Usuarios</p> </li> 
      <li> <p>Proyectos</p> </li> 
-    </ul> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver los permisos superiores a los proyectos que desea ver en el Planificador de recursos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Ver los permisos superiores a los proyectos que desea ver en el Planificador de recursos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## Requisitos previos
 
@@ -173,9 +173,7 @@ Tenga en cuenta lo siguiente al cambiar la vista al Planificador de recursos:
 
    Al seleccionar esta opción, Workfront calcula los valores netos mediante la siguiente fórmula:
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

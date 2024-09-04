@@ -6,7 +6,7 @@ description: Debe crear un conjunto de recursos para poder asociarlo a los usuar
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">plan de Adobe Workfront</td> 
    <td><p>Nuevo: Cualquiera</p>
        <p>o</p>
-       <p>Actual: Pro y superior</p> </td> 
+       <p>Actual: Pro o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 

@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Presupuestar recursos en el Planificador de recursos utilizando las vistas Proyecto y Rol
+title: Presupuestar recursos en el Planificador de recursos mediante las vistas de proyecto y función
 description: Puede presupuestar recursos en el Planificador de recursos de Adobe Workfront mediante las vistas Proyecto y Rol. No puede presupuestar recursos mediante la vista Usuario en el Planificador de recursos.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Antes de comenzar a presupuestar información en el Planificador de recursos, co
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro y superior</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+    <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: Pro o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros para presupuestar recursos por costo</p> <p>Editar el acceso a Proyectos y Usuarios</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros para presupuestar recursos por costo</p> <p>Editar el acceso a Proyectos y Usuarios</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos a los proyectos para los que desea presupuestar información</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos a los proyectos para los que desea presupuestar información</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Presupuestar recursos en el Planificador de recursos
 
@@ -74,9 +80,8 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Haga clic en **Recursos**.
 1. Se muestra **Planificador** de forma predeterminada.
 1. (Condicional) Seleccione la vista **Vista por proyecto**.
 1. Expanda los proyectos y las funciones del puesto para administrar la asignación del proyecto, las funciones del puesto o los usuarios.
@@ -87,9 +92,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    * Haga clic en el menú **Más** para el rol de usuario y luego haga clic en **Establecer horas planificadas de usuarios según lo presupuestado**.\
      Las horas presupuestadas de cada usuario se calculan mediante la siguiente fórmula:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Para presupuestar la asignación para los roles, realice una de las siguientes acciones:
 
@@ -102,17 +105,13 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    * (Condicional) Si ha presupuestado horas para usuarios, haga clic en el menú **Más** para el rol y, a continuación, haga clic en **Total de horas presupuestadas de usuario para el rol**.\
      Las horas presupuestadas de cada rol se calculan con la siguiente fórmula:
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * Haga clic en el menú **Más** del proyecto y, a continuación, haga clic en **Establecer horas planificadas de roles según lo presupuestado**.\
      Las horas presupuestadas de cada rol se calculan con la siguiente fórmula:\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
    * Presupuestar las funciones en el proyecto, tal como se describe en el paso 7.\
      Las horas presupuestadas del proyecto se calculan mediante la siguiente fórmula:
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * En la columna **BDG**, especifique manualmente una cantidad de horas presupuestadas, ETC o costo para el proyecto.\
      Esto actualiza las horas presupuestadas de la función, como se describe en el paso 7.\
@@ -175,9 +172,7 @@ Para presupuestar asignaciones en el Planificador de recursos en la vista **** r
    * Haga clic en el menú **Más** del proyecto y luego haga clic en **Establecer horas planificadas de usuarios según lo presupuestado**.\
      Las horas presupuestadas de cada usuario se calculan mediante la siguiente fórmula:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Para presupuestar la asignación para los roles, realice una de las siguientes acciones:
 
@@ -187,15 +182,11 @@ Para presupuestar asignaciones en el Planificador de recursos en la vista **** r
    * Haga clic en el menú **Más** para el rol y luego haga clic en **Establecer horas planificadas de proyectos según lo presupuestado&quot;.**Las horas presupuestadas de la función se calculan con la siguiente fórmula:\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *Las horas presupuestadas del proyecto se calculan mediante la siguiente fórmula:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * En la columna **BDG**, especifique manualmente un número de horas presupuestadas, ETC o costo para los proyectos enumerados en el rol.\
      Esto agrega el número de horas presupuestadas del proyecto al rol.
@@ -213,24 +204,20 @@ Para presupuestar asignaciones en el Planificador de recursos en la vista **** r
    * Haga clic en el menú **Más** para el rol y luego haga clic en **Establecer horas planificadas de proyectos como presupuestadas**.\
      Las horas presupuestadas del proyecto se calculan mediante la siguiente fórmula:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      Las horas presupuestadas del proyecto se agregan a las horas presupuestadas del rol.
 
    * (Condicional) Si ha presupuestado las horas de los usuarios, haga clic en el menú **Más** del proyecto y, a continuación, haga clic en **Total de horas presupuestadas de usuario para el proyecto**.\
      Las horas presupuestadas del proyecto se calculan mediante la siguiente fórmula:
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![presupuesto_por_rol.png](assets/budget-by-role-350x181.png)
 
 1. Haga clic en **Guardar**.\
-   Después de presupuestar los recursos en el Planificador de recursos, las horas presupuestadas de los recursos y cualquier costo asociado con ellos se enumeran en el caso comercial de cada proyecto.\
-   Para obtener más información acerca de cómo comprender el área de presupuesto de recursos del caso empresarial, vea el artículo [Presupuesto de recursos en el caso empresarial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Después de presupuestar los recursos en el Planificador de recursos, las horas presupuestadas de los recursos y cualquier costo asociado con ellos se enumeran en el caso comercial de cada proyecto.
+Para obtener más información acerca de cómo comprender el área de presupuesto de recursos del caso empresarial, vea el artículo [Presupuesto de recursos en el caso empresarial](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Opcional) Seleccione la vista **Ver por usuario** para ver si hay sobreasignaciones de usuarios o infrautilización entre las horas disponibles y las planificadas para cada usuario. Las horas presupuestadas no son visibles en la vista Ver por usuario.
 
