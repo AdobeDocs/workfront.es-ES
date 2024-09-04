@@ -6,10 +6,10 @@ description: Como jefe de proyecto, puede determinar cómo se calcula la condici
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Definición del tipo de condición para un proyecto
 
 1. Vaya al proyecto para el que desea actualizar el tipo de condición.
-1. Realice una de las siguientes acciones: 
+1. Realice una de las siguientes acciones:
 
    * Haga clic en el menú **Más** ![](assets/qs-more-menu.png) que se encuentra a la derecha del nombre del proyecto y, a continuación, haga clic en **Editar**.
    * Haga clic en **Detalles del proyecto** en el panel izquierdo.
@@ -72,4 +72,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Haga clic en **Guardar cambios** al modificar el tipo de condición en la sección Detalles del proyecto.
 
- 
+
