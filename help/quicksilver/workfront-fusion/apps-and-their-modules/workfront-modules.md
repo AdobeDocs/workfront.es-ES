@@ -9,7 +9,7 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -147,6 +147,7 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 
 ![](assets/map-toggle-350x74.png)
+
 >[!NOTE]
 >
 >* Si no ve los campos más actualizados en un módulo de Workfront, puede deberse a problemas de almacenamiento en caché. Espere una hora e inténtelo de nuevo.

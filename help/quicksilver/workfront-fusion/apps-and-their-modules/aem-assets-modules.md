@@ -10,9 +10,9 @@ description: Con el conector  [!DNL Adobe Experience Manager Assets] para la cue
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,15 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ![](assets/map-toggle-350x74.png)
 
+* [Copiar una carpeta o un recurso](#copy-a-folder-or-asset)
+* [Creación de un registro](#create-a-record)
+* [Eliminar una carpeta, un recurso o una representación](#delete-a-folder-asset-or-rendition)
+* [Obtener una lista de carpetas](#get-a-folder-listing)
+* [Realizar una llamada de API personalizada](#make-a-custom-api-call)
+* [Mover una carpeta o un recurso](#move-a-folder-or-asset)
+* [Actualización de un registro](#update-a-record)
+* [Cargar un recurso](#upload-an-asset)
+
 ### [!UICONTROL Copiar una carpeta o un recurso]
 
 Este módulo de acción copia una carpeta o un recurso en otra ubicación de su cuenta de Adobe Experience Manager Assets.
@@ -260,7 +269,7 @@ Este módulo de acción crea una carpeta o un comentario de recurso.
  </tbody> 
 </table>
 
-### [!UICONTROL Eliminar un registro]
+### [!UICONTROL Eliminar una carpeta, recurso o representación]
 
 Este módulo de acción elimina una carpeta, un recurso o una representación.
 

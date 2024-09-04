@@ -9,9 +9,9 @@ description: En un escenario de  [!DNL Adobe Workfront Fusion] , puede automatiz
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2850'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ Este módulo de déclencheur inicia un escenario cuando se actualiza un elemento
 
 ### Elemento
 
-* [[!UICONTROL Copiar elemento]](#copy-an-item)
+* [[!UICONTROL Copiar un elemento]](#copy-an-item)
 * [[!UICONTROL Crear un elemento]](#create-an-item)
 * [[!UICONTROL Eliminar un elemento]](#delete-an-item)
 * [[!UICONTROL Obtener un elemento]](#get-an-item)
@@ -651,6 +651,10 @@ Este módulo de acción busca los sitios según el parámetro que especifique.
 </table>
 
 ### Otro
+
+* [Obtener cambios](#get-changes)
+* [Realizar una llamada de API](#make-an-api-call)
+* [Ver eventos](#watch-events)
 
 #### Obtener cambios
 

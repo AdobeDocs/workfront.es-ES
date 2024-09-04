@@ -9,7 +9,7 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -637,8 +637,31 @@ Al configurar este módulo, se muestran los campos siguientes.
 
 ### Búsquedas
 
-* [[!UICONTROL Búsqueda]](#search)
 * [[!UICONTROL Plantillas de flujo de trabajo de lista]](#list-workflow-templates)
+* [[!UICONTROL Búsqueda]](#search)
+
+#### [!UICONTROL Plantillas de flujo de trabajo de lista]
+
+Este módulo de búsqueda enumera todas las plantillas de flujo de trabajo disponibles.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Connection]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Workfront Proof] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Salidas]</td> 
+   <td> <p>Seleccione la información que desee incluir en el paquete de salida para este módulo.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Límite]</td> 
+   <td> <p>Introduzca o asigne el número máximo de plantillas que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Búsqueda]
 
@@ -677,29 +700,6 @@ Al configurar este módulo, se muestran los campos siguientes.
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Dirección de ordenación]</td> 
    <td> <p>Seleccione si desea ordenar los resultados de forma ascendente o descendente.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Plantillas de flujo de trabajo de lista]
-
-Este módulo de búsqueda enumera todas las plantillas de flujo de trabajo disponibles.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!DNL Connection]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Workfront Proof] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Salidas]</td> 
-   <td> <p>Seleccione la información que desee incluir en el paquete de salida para este módulo.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Límite]</td> 
-   <td> <p>Introduzca o asigne el número máximo de plantillas que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>

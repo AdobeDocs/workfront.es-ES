@@ -9,7 +9,7 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 0%
@@ -94,8 +94,27 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ### Déclencheur
 
-* [[!UICONTROL Registros de observación]](#watch-records)
 * [[!UICONTROL Ver eventos (instantáneos)]](#watch-events-instant)
+* [[!UICONTROL Registros de observación]](#watch-records)
+
+#### [!UICONTROL Ver eventos (instantáneos)]
+
+Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un registro.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
+   <td> <p>Introduzca el webhook que desea que utilice el módulo.</p> <p>Para obtener más información sobre los webhooks, vea <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Límite]</td> 
+   <td> <p>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Registros de observación]
 
@@ -129,41 +148,22 @@ Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un r
  </tbody> 
 </table>
 
-#### [!UICONTROL Ver eventos (instantáneos)]
-
-Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un registro.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
-   <td> <p>Introduzca el webhook que desea que utilice el módulo.</p> <p>Para obtener más información sobre los webhooks, vea <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">déclencheur instantáneos (webhooks) en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Límite]</td> 
-   <td> <p>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Acciones
 
-* [[!UICONTROL Llamada de API personalizada]](#custom-api-call)
-* [[!UICONTROL Crear un registro]](#create-a-record)
-* [[!UICONTROL Actualizar un registro]](#update-a-record)
-* [[!UICONTROL Descargar un archivo]](#download-a-file)
-* [[!UICONTROL Cargar un archivo]](#upload-a-file)
-* [[!UICONTROL Leer un registro]](#read-a-record)
 * [[!UICONTROL Agregar posibles clientes a una lista]](#add-leads-to-a-list)
+* [[!UICONTROL Clonar un programa]](#clone-a-program)
+* [[!UICONTROL Crear un registro]](#create-a-record)
+* [[!UICONTROL Llamada de API personalizada]](#custom-api-call)
+* [[!UICONTROL Descargar un archivo]](#download-a-file)
+* [[!UICONTROL Leer un registro]](#read-a-record)
 * [[!UICONTROL Quitar posibles clientes de una lista]](#remove-leads-from-a-list)
 * [[!UICONTROL Programar una campaña]](#schedule-a-campaign)
-* [[!UICONTROL Copiar un programa]](#copy-a-program)
+* [[!UICONTROL Actualizar un registro]](#update-a-record)
+* [[!UICONTROL Cargar un archivo]](#upload-a-file)
 
-#### [!UICONTROL Llamada de API personalizada]
+#### [!UICONTROL Agregar posibles clientes a una lista]
 
-Este módulo de acción le permite realizar una llamada autenticada personalizada a la API [!DNL Marketo]. De este modo, puede crear una automatización del flujo de datos que no puedan realizar los otros [!DNL Marketo] módulos.
+Este módulo de acción agrega uno o más posibles clientes a una lista mediante el uso del ID de posible cliente.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -174,31 +174,39 @@ Este módulo de acción le permite realizar una llamada autenticada personalizad
    <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Escriba una ruta relativa a <code>https://{your-base-url}.mktorest.com/</code>.</td> 
+   <td role="rowheader">[!UICONTROL List ID]</td> 
+   <td>Introduzca o asigne el ID de la lista a la que desea agregar posibles clientes.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Método]</td> 
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL ID de posibles clientes]</td> 
+   <td> <p>Para cada posible cliente que desee agregar a la lista, haga clic en <b>[!UICONTROL Agregar]</b> y, a continuación, escriba o asigne el identificador del posible cliente que desee agregar. Puede añadir hasta 300 posibles clientes para que el módulo añada a la lista.</p> <p>Haga clic en el botón de alternancia Asignar para asignar una colección existente de posibles clientes que desee agregar a la lista.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Clonar un programa]
+
+Este módulo de acción realiza una copia de un programa utilizando el ID del programa existente.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Encabezados]</td> 
-   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion] agrega los encabezados de autorización automáticamente.</p> </td> 
+   <td role="rowheader">[!UICONTROL ID de programa existente]</td> 
+   <td>Introduzca o asigne el ID del programa que desea copiar.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cadena de consulta]</td> 
-   <td> <p>Añada la consulta para la llamada de API en forma de objeto JSON estándar.</p> <p>Por ejemplo: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Nuevo nombre de programa]</p> </td> 
+   <td> <p>Introduzca o asigne un nombre para el nuevo programa</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cuerpo]</td> 
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Límite]</td> 
-   <td> <p>Introduzca o asigne el número máximo de registros con los que desea que trabaje el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Identificador de carpeta]</td> 
+   <td>Introduzca o asigne el ID de la carpeta en la que desea ubicar el nuevo programa.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -260,6 +268,147 @@ Este módulo de acción crea un nuevo registro en [!DNL Marketo]
  </tbody> 
 </table>
 
+#### [!UICONTROL Llamada de API personalizada]
+
+Este módulo de acción le permite realizar una llamada autenticada personalizada a la API [!DNL Marketo]. De este modo, puede crear una automatización del flujo de datos que no puedan realizar los otros [!DNL Marketo] módulos.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td>Escriba una ruta relativa a <code>https://{your-base-url}.mktorest.com/</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Método]</td> 
+   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Encabezados]</td> 
+   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion] agrega los encabezados de autorización automáticamente.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Cadena de consulta]</td> 
+   <td> <p>Añada la consulta para la llamada de API en forma de objeto JSON estándar.</p> <p>Por ejemplo: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Cuerpo]</td> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Límite]</td> 
+   <td> <p>Introduzca o asigne el número máximo de registros con los que desea que trabaje el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Descargar un archivo]
+
+Este módulo de acción descarga un archivo mediante el ID de archivo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID de archivo]</td> 
+   <td>Asigne el ID del archivo que desea descargar.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Leer un registro]
+
+Este módulo de acción lee información sobre un registro mediante su ID.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tipo de registro]</td> 
+   <td> <p>Seleccione el tipo de registro que desea crear.</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Campaign]</p> </li> 
+     <li> <p>[!UICONTROL Company]</p> </li> 
+     <li> <p>[!UICONTROL Posible cliente]</p> </li> 
+     <li> <p>[!UICONTROL Lista]</p> </li> 
+     <li> <p>[!UICONTROL Programa]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Salidas]</td> 
+   <td>Seleccione la información que desee incluir en el paquete de salida para este módulo. Los campos están disponibles en función del [!UICONTROL Record Type] seleccionado.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL &lt;objeto&gt; ID]</td> 
+   <td>Introduzca o asigne el ID del objeto sobre el que desea recuperar información.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Quitar posibles clientes de una lista]
+
+Este módulo de acción elimina uno o más posibles clientes de una lista mediante el uso del ID de posible cliente.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List ID]</td> 
+   <td>Introduzca o asigne el ID de la lista donde desea eliminar los posibles clientes.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID de posibles clientes]</td> 
+   <td> <p>Para cada posible cliente que desee eliminar de la lista, haga clic en <b>[!UICONTROL Agregar]</b> y, a continuación, escriba o asigne el identificador del posible cliente que desee eliminar. Puede añadir hasta 300 posibles clientes para que el módulo elimine de la lista. </p> <p>Haga clic en el botón de alternancia Asignar para asignar una colección existente de posibles clientes que desee eliminar de la lista.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Programar una campaña]
+
+Este módulo de acción programa una campaña existente para una fecha determinada.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID de campaña]</td> 
+   <td>Introduzca o asigne el ID de la campaña que desea programar.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Programación para la fecha]</p> </td> 
+   <td>Seleccione la fecha en la que desea ejecutar la campaña. Si este campo se deja en blanco, la campaña se ejecuta cinco minutos después de que comience el escenario.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Actualizar un registro]
 
 Este módulo de acción actualiza un registro existente mediante su ID.
@@ -316,25 +465,6 @@ Este módulo de acción actualiza un registro existente mediante su ID.
  </tbody> 
 </table>
 
-#### [!UICONTROL Descargar un archivo]
-
-Este módulo de acción descarga un archivo mediante el ID de archivo.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID de archivo]</td> 
-   <td>Asigne el ID del archivo que desea descargar.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Cargar un archivo]
 
 Este módulo de acción carga un nuevo archivo en [!UICONTROL Marketo].
@@ -358,136 +488,6 @@ Este módulo de acción carga un nuevo archivo en [!UICONTROL Marketo].
   <tr> 
    <td role="rowheader">[!UICONTROL Descripción]</td> 
    <td>Escriba una descripción para el archivo cargado.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Leer un registro]
-
-Este módulo de acción lee información sobre un registro mediante su ID.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Tipo de registro]</td> 
-   <td> <p>Seleccione el tipo de registro que desea crear.</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Campaign]</p> </li> 
-     <li> <p>[!UICONTROL Company]</p> </li> 
-     <li> <p>[!UICONTROL Posible cliente]</p> </li> 
-     <li> <p>[!UICONTROL Lista]</p> </li> 
-     <li> <p>[!UICONTROL Programa]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Salidas]</td> 
-   <td>Seleccione la información que desee incluir en el paquete de salida para este módulo. Los campos están disponibles en función del [!UICONTROL Record Type] seleccionado.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL &lt;objeto&gt; ID]</td> 
-   <td>Introduzca o asigne el ID del objeto sobre el que desea recuperar información.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Agregar posibles clientes a una lista]
-
-Este módulo de acción agrega uno o más posibles clientes a una lista mediante el uso del ID de posible cliente.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List ID]</td> 
-   <td>Introduzca o asigne el ID de la lista a la que desea agregar posibles clientes.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID de posibles clientes]</td> 
-   <td> <p>Para cada posible cliente que desee agregar a la lista, haga clic en <b>[!UICONTROL Agregar]</b> y, a continuación, escriba o asigne el identificador del posible cliente que desee agregar. Puede añadir hasta 300 posibles clientes para que el módulo añada a la lista.</p> <p>Haga clic en el botón de alternancia Asignar para asignar una colección existente de posibles clientes que desee agregar a la lista.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Quitar posibles clientes de una lista]
-
-Este módulo de acción elimina uno o más posibles clientes de una lista mediante el uso del ID de posible cliente.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List ID]</td> 
-   <td>Introduzca o asigne el ID de la lista donde desea eliminar los posibles clientes.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID de posibles clientes]</td> 
-   <td> <p>Para cada posible cliente que desee eliminar de la lista, haga clic en <b>[!UICONTROL Agregar]</b> y, a continuación, escriba o asigne el identificador del posible cliente que desee eliminar. Puede añadir hasta 300 posibles clientes para que el módulo elimine de la lista. </p> <p>Haga clic en el botón de alternancia Asignar para asignar una colección existente de posibles clientes que desee eliminar de la lista.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Programar una campaña]
-
-Este módulo de acción programa una campaña existente para una fecha determinada.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID de campaña]</td> 
-   <td>Introduzca o asigne el ID de la campaña que desea programar.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Programación para la fecha]</p> </td> 
-   <td>Seleccione la fecha en la que desea ejecutar la campaña. Si este campo se deja en blanco, la campaña se ejecuta cinco minutos después de que comience el escenario.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Copiar un programa]
-
-Este módulo de acción realiza una copia de un programa utilizando el ID del programa existente.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Conexión]</p> </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Marketo] a [!DNL Workfront Fusion], vea <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Marketo] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID de programa existente]</td> 
-   <td>Introduzca o asigne el ID del programa que desea copiar.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Nuevo nombre de programa]</p> </td> 
-   <td> <p>Introduzca o asigne un nombre para el nuevo programa</p> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Identificador de carpeta]</td> 
-   <td>Introduzca o asigne el ID de la carpeta en la que desea ubicar el nuevo programa.</td> 
   </tr> 
  </tbody> 
 </table>
