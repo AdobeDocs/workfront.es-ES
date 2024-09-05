@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 3%
 
 ---
@@ -452,6 +452,12 @@ Por ejemplo, una suscripción de evento **UPDATE - TASK** solo se puede establec
 * Aplicar varios filtros a una sola suscripción es una práctica equivalente a usar un operador lógico **AND**.
 * Se pueden aplicar varias suscripciones de evento a un único objeto siempre que uno o más parámetros de campo de suscripción de evento sean diferentes entre cada suscripción de evento.
 * Cuando se asignan varias suscripciones de evento a un único objeto, todas las suscripciones de evento asociadas con ese objeto se pueden devolver a un único extremo. Esta práctica se puede usar como un sustituto equivalente del operador lógico **OR** que no se puede establecer mediante parámetros de filtro.
+* Los campos siguientes no se pueden filtrar:
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### Uso de operadores de comparación
 
