@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '666'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 >
 >La información de este artículo hace referencia a Adobe Workfront Planning, una nueva oferta de Adobe Workfront.
 >
->Debe tener lo siguiente para acceder a Workfront Planning:
+>Su empresa debe adquirir una licencia adicional para que Workfront Planning pueda acceder a sus funciones.
 >
->* Un nuevo plan y licencia de Workfront. Workfront Planning no está disponible para planes o licencias de Workfront heredados.
->* Licencia adicional para Workfront Planning.
->* La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.
+>Para obtener más información, póngase en contacto con el administrador de cuentas
 >
 >Para obtener más información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Existen restricciones de licencia y permisos de uso compartido para utilizar Adobe Workfront Planning.
+
+Este artículo describe el acceso y la configuración que necesita para utilizar las capacidades de Workfront Planning.
 
 ## Requisitos de acceso
 
@@ -112,7 +112,12 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para los objetos que pueden conectarse a Workfront Planning: proyectos, portafolios y programas. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Personalizar el menú principal mediante una plantilla de diseño</a> y <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Asignar usuarios a una plantilla de diseño</a>. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya la opción Planificación en las siguientes áreas:</p>
+   <ul><li>Menú principal</li>
+   <li>Panel izquierdo de proyectos, portafolios y programas</li>
+   <li>Página de aterrizaje</li>
+   <li>Fijadores</li></ul>
+   <p>Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Crear y administrar plantillas de diseño</a>.</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## Compartir el área de Planning en el menú principal con otros usuarios
+## Uso compartido del área de Planning mediante una plantilla de diseño
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Una vez que su organización se haya inscrito en el programa de Workfront Planning, puede agregar el área de Planning al menú principal de todos los usuarios mediante una plantilla de diseño.
+Una vez que su organización haya adquirido una licencia de Workfront Planning adicional, el administrador del sistema puede añadir la opción de Planning a las siguientes áreas modificando y asignándole una plantilla de diseño:
+
+* Menú principal
+* Página de aterrizaje
+* Panel izquierdo para proyectos, portafolios y programas
+* Fijadores
+
+Para agregar áreas de planificación de Workfront a la instancia de Workfront:
 
 1. Inicie sesión en **Workfront** como administrador de Workfront.
 
-1. Agregue el icono **Planning** ![](assets/planning-icon.png) al **Menú principal** mediante una **plantilla de diseño**.
+1. Vaya a **Menú principal** > **Configuración** > **Interfaz** > **Plantillas de diseño** y abra o cree una plantilla de diseño.
 
-   Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Para obtener información acerca de cómo personalizar una plantilla de diseño, vea [Crear y administrar plantillas de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 1. Asigne la plantilla de diseño a los usuarios a los que desea tener acceso en Workfront Planning.
 

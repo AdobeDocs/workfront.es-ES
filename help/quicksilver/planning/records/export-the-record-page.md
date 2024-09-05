@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-
 # Exportación de los detalles de un registro
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Para colaborar de forma más eficaz con otras personas que no tengan una cuenta de Workfront, puede exportar los detalles de un registro a un archivo y compartirlo con ellas.
 
@@ -149,7 +151,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 * Puede exportar los detalles de un registro a los siguientes formatos de archivo:
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * Puede exportar la pestaña Detalles de la página de un registro. No se puede exportar la ficha Conexiones.
 
@@ -177,12 +179,18 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 1. Haga clic en el icono **Exportar** ![](assets/export-icon-in-record-details-page.png) en la vista previa o en la página del registro y, a continuación, haga clic en una de las siguientes opciones:
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Un archivo de Word (.docx) o PDFf se descarga y se guarda en el equipo.
+   Un archivo de Word (.docx) <span class="preview">o un PDF</span> descarga y se guarda en el equipo.
 
    El nombre del archivo exportado es el campo Primary del registro.
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    La información adicional que no se muestra en la página y que solo está visible después de hacer clic en Mostrar más en la pestaña Detalles no se muestra en el archivo de PDF exportado. En el archivo exportado solo se muestra la información visible en la página.
+
+
 1. (Opcional) Vaya al archivo descargado, ábralo y edítelo (si es un archivo de Word), o compártalo con otros.
+

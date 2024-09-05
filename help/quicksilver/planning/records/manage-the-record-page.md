@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Ocurren lo siguiente:
    * El objeto Workfront también se quita del campo conectado del registro de Workfront Planning.
    * También se eliminan los valores de los campos de búsqueda de Workfront conectados al registro de Planning.
 
-## Reorganizar campos en la vista previa o la página del registro
+## Reorganizar campos en la pestaña Detalles del registro
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ Ocurren lo siguiente:
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
-   Se abre la página de registro.
+   La ficha **Detalles** del registro se abre de manera predeterminada.
 
    ![](assets/details-page.png)
 
-1. En la página o vista previa del registro, haga clic en el icono **asir** ![](assets/grab-icon.png) que hay a la izquierda del nombre de campo y, a continuación, arrástrelo y suéltelo en el lugar que desee. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. En la ficha de registro **Detalles**, haga clic en el icono **agarrar** ![](assets/grab-icon.png) que hay a la izquierda del nombre de campo y, a continuación, arrástrelo y suéltelo en el lugar que desee. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    La nueva posición del campo se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 

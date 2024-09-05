@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -64,11 +64,38 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
 
 1. En el menú desplegable que aparece, realice una de las acciones siguientes:
 
-   * Haga clic en un elemento del menú principal.
+   * Seleccione entre las siguientes áreas:
 
-     >[!IMPORTANT]
-     >
-     >Para ver las áreas de Escenarios y Objetivos se requieren licencias adicionales. Para obtener información sobre Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md) o sobre Workfront Scenario Planner, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+      * Análisis
+      * Calendarios
+      * Paneles
+      * Documentos
+      * Metas
+      * Inicio
+      * Mis actualizaciones
+      * Portafolios
+      * Programas
+      * Proyectos
+      * Informes
+      * Solicitudes
+      * Asignando recursos
+      * Escenarios
+      * Equipos
+      * Plantillas
+      * Hojas de horas
+      * Usuarios
+      * Modelos
+      * Planificación
+
+   >[!IMPORTANT]
+   >
+   >Para ver las áreas de Escenarios, Metas y Planificación se requieren licencias adicionales.
+   >
+   >* Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    * Haga clic en **Agregar un panel**, luego escriba un **título de sección personalizada** descriptivo y agregue el panel.
 

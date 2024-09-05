@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <tr> 
       <td>[!UICONTROL Proyecto]</td> 
       <td>El nombre de un proyecto</td> 
-      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Personas], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas]</td> 
+      <td>[!UICONTROL Tareas], [!UICONTROL Detalles del proyecto], [!UICONTROL Caso comercial], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riesgos], [!UICONTROL Aprobaciones], [!UICONTROL Líneas bases], [!UICONTROL Tasas de facturación], [!UICONTROL Registros de facturación], [!UICONTROL Gastos], [!UICONTROL Horas], [!UICONTROL Distribuidor de cargas de trabajo], [!UICONTROL Personas], [!UICONTROL Utilización], [!UICONTROL Detalles de cola], [!UICONTROL Reglas de enrutamiento], [!UICONTROL Tema de cola], [!UICONTROL Grupo de temas], [!UICONTROL Métricas], [!UICONTROL Planificación]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Tarea]</td> 
@@ -104,12 +104,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>El nombre de un portafolio</td> 
-      <td>[!UICONTROL Proyectos], [!UICONTROL Programas], [!UICONTROL Detalles del Portfolio], [!UICONTROL Portfolio], [!UICONTROL Optimización], [!UICONTROL Documentos], [!UICONTROL Actualizaciones]</td> 
+      <td>[!UICONTROL Proyectos], [!UICONTROL Programas], [!UICONTROL Detalles del Portfolio], [!UICONTROL Portfolio], [!UICONTROL Optimización], [!UICONTROL Documentos], [!UICONTROL Actualizaciones], [!UICONTROL Planificación]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Programa]</td> 
       <td>El nombre de un programa</td> 
-      <td>[!UICONTROL Proyectos], [!UICONTROL Detalles del programa], [!UICONTROL Actualizaciones], [!UICONTROL Documentos]</td> 
+      <td>[!UICONTROL Proyectos], [!UICONTROL Detalles del programa], [!UICONTROL Actualizaciones], [!UICONTROL Documentos], [!UICONTROL Planificación]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -198,6 +198,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      --> 
     </tbody> 
    </table>
+
+   *Su empresa debe adquirir una licencia adicional para Workfront Planning a fin de poder agregar esta área al panel izquierdo de proyectos, portafolios y programas. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
    >[!NOTE]
    >

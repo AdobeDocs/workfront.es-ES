@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 5%
 
 ---
 
 # Personalización de la página de aterrizaje mediante una plantilla de diseño
 
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para especificar el área que desea que los usuarios vean cada vez que inician sesión en Workfront.
+
+Los usuarios pueden abrir una de las siguientes opciones:
+
+* Área de Workfront designada
+* Un tablero personalizado.
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,9 +67,38 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> <p><b>N
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. En el **área de navegación superior**, haga clic en **Seleccionar página de aterrizaje** y, a continuación, seleccione el área que desea que los usuarios vean cuando inicien sesión.
 
+   Seleccione entre las siguientes áreas o agregue un panel personalizado:
+
+   * Análisis
+   * Calendarios
+   * Paneles
+   * Documentos
+   * Metas
+   * Inicio
+   * Mis actualizaciones
+   * Portafolios
+   * Programas
+   * Proyectos
+   * Informes
+   * Solicitudes
+   * Asignando recursos
+   * Escenarios
+   * Equipos
+   * Plantillas
+   * Hojas de horas
+   * Usuarios
+   * Modelos
+   * Planificación
+
    >[!IMPORTANT]
    >
-   >Para ver las áreas de Escenarios y Objetivos se requieren licencias adicionales. Para obtener información sobre Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md) o sobre Workfront Scenario Planner, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+   >Para ver las áreas de Escenarios, Metas y Planificación se requieren licencias adicionales.
+   >
+   >* Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 1. Siga personalizando la plantilla de diseño.
 

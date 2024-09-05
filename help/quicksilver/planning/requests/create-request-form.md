@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -130,7 +131,17 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    El formulario de solicitud contiene la siguiente información de forma predeterminada:
 
-   * Todos los campos de registro disponibles en la vista de tabla del tipo de registro seleccionado.
+   * Campos de registro disponibles en la vista de tabla del tipo de registro seleccionado. <!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   Los campos de los siguientes tipos no se muestran en el formulario de solicitud:
+     >
+     >    * Personas
+     >    * Campos conectados (incluye conexiones con recursos de Experience Manager)
+     >    * Campos de búsqueda conectados
+     >    * Fórmula
+
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
    * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible.
    * Todos los campos asociados al tipo de registro.
@@ -199,6 +210,3 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    >
    >Hay indicios de que el vínculo se comparte públicamente cuando este es el caso.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-
