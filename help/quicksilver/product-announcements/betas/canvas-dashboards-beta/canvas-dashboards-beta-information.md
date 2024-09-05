@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Para obtener una lista de toda la documentación de paneles de lienzo, consulte 
 
 **Estado de Beta**
 
-Los paneles de lienzo se encuentran actualmente en una fase de prueba beta pública y, por lo tanto, están sujetos a cambios frecuentes. Consulte a continuación las instrucciones sobre cómo inscribirse en la versión beta.
+Los paneles de lienzo se encuentran actualmente en una fase de prueba beta cerrada y, por lo tanto, están sujetos a cambios frecuentes. Consulte a continuación las instrucciones sobre cómo inscribirse en la versión beta.
 
 ## Participar en la versión beta
+
+>[!IMPORTANT]
+>
+>Paneles de lienzo se encuentra actualmente en versión beta cerrada y, por lo tanto, solo está disponible para organizaciones específicas. Seguimos invitando directamente a las organizaciones a la versión beta desde una lista de espera de aquellos que han expresado interés. Puede agregar a su organización a la lista de espera enviando [este formulario de programa de comentarios sobre el Adobe](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). Además, las organizaciones que han adquirido Workfront Planning como parte de su paquete disponen de acceso beta para probar las funciones de creación de informes entre productos.
+>
+>Con el tiempo, pasaremos a una versión beta abierta, momento en el que el proceso de inscripción estará disponible para todas las organizaciones.
 
 ### Inscribir
 
@@ -33,11 +39,7 @@ Para inscribirse en la versión beta:
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
 
-1. Haga clic en el botón beta **Unirse a los paneles de lienzo beta** en la esquina superior derecha de la página.
-
-   >[!NOTE]
-   >
-   >Este botón solo está disponible si su organización ha sido aceptada en la versión beta cerrada. Cuando comience la versión beta abierta, estará disponible para todas las organizaciones.
+1. Haga clic en el botón beta **Unirse a los paneles de lienzo beta** en la esquina superior derecha de la página. Tenga en cuenta que este botón solo estará disponible si su organización ha sido invitada a la versión beta cerrada.
 
 1. Lea los términos y haga clic en **Aceptar**. Ahora está inscrito en la versión beta; sin embargo, tenga en cuenta que los datos de Workfront tardarán unos minutos en ser totalmente accesibles en los paneles de lienzo.
 
