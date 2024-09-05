@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
       <td> <p>Permite a los usuarios hacer lo siguiente para cualquier usuario de Workfront:</p> 
        <ul> 
         <li>Editar, eliminar o desactivar el usuario</li> 
-        <li>Inicie sesión como usuario</li> 
+        <li>Inicie sesión como usuario<p><b>NOTA</b>: no puede iniciar sesión como ningún usuario que sea administrador del sistema.</p></li> 
         <li>Restablecer la contraseña del usuario</li> 
        </ul> <p>Esta opción está desactivada de forma predeterminada.</p> </td> 
      </tr> 

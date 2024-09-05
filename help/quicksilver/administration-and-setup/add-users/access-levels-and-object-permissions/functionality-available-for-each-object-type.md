@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1919'
 ht-degree: 10%
 
 ---
@@ -357,7 +357,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
   </tr> 
   <tr> 
    <td>Editar, eliminar, desactivar, iniciar sesión como o restablecer la contraseña de cualquier usuario</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>NOTA</b>: no puede iniciar sesión como ningún usuario que sea administrador del sistema.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
   </tr> 
   <tr> 
    <td>Edite, elimine, desactive, inicie sesión como o restablezca la contraseña de cualquier usuario de un grupo que administre</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>NOTA</b>: no puede iniciar sesión como ningún usuario que sea administrador del sistema.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
