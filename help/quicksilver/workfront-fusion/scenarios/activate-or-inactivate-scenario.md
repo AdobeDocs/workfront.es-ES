@@ -7,9 +7,9 @@ description: Este artículo describe por qué los escenarios activos o desactiva
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Puede trabajar con escenarios en estado activo o inactivo:
 
 * Un escenario inactivo se ejecuta únicamente cuando se ejecuta manualmente.
 
-  Esto resulta útil cuando desea ejecutar el escenario solo en determinados momentos.
+  Esto resulta útil cuando desea ejecutar el escenario manualmente cada vez.
 
 Puede activar o desactivar un escenario en cualquier momento, dependiendo de cómo desee utilizarlo.
 
