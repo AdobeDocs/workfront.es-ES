@@ -6,22 +6,22 @@ description: Puede asignar elementos de trabajo mediante el Distribuidor de carg
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # Asignar trabajo en el Distribuidor de cargas de trabajo arrastrando y soltando
 
-<!--remove production and preview preferences at release-->
-
 Puede asignar elementos de trabajo mediante el Distribuidor de cargas de trabajo de Adobe Workfront arrastrando y soltando elementos de trabajo a los usuarios correctos.
 
 Para obtener información general acerca de cómo asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo, vea [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -30,35 +30,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, para asignar trabajo en el Distribuidor de cargas de trabajo en el área de Recursos</p>
-   <p>Trabajar, para asignar trabajo en el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: Planificar, para asignar trabajo en el Distribuidor de cargas de trabajo en el área de Recursos;</br>
+       Trabajar, para asignar trabajo en el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Edite el acceso a lo siguiente:</p> 
     <ul> 
-     <li> <p>Administración de recursos</p> </li> 
-     <li> <p>Proyectos</p> </li> 
-     <li> <p>Tareas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+     <li>Administración de recursos</li> 
+     <li>Proyectos</li> 
+     <li>Tareas</li> 
+     <li>Problemas</li> 
+    </ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de Contribute o superiores para los proyectos, tareas y problemas que incluyen Realizar asignaciones</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Permisos de Contribute o superiores para los proyectos, tareas y problemas que incluyen Realizar asignaciones</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Asignar un elemento arrastrando y soltando
 

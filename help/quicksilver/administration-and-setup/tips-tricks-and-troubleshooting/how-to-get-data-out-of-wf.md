@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# Exportar datos históricos de [!DNL Adobe Workfron]t: pros y contras
+# Exportar datos históricos de [!DNL Adobe Workfront]: pros y contras
 
 Este artículo explica las ventajas y desventajas de cuatro opciones que puede utilizar para exportar datos históricos de [!DNL Workfront].
 
@@ -32,11 +32,11 @@ Este artículo explica las ventajas y desventajas de cuatro opciones que puede u
 
 ## Solicitar un archivo de volcado de datos [!DNL Postgres] de nuestro equipo de base de datos
 
-El ejecutivo de cuentas puede enviar una solicitud a nuestro equipo de bases de datos para exportar un archivo de volcado de base de datos (archivo .dmp [!DNL Postgres]) con sus datos. Una solicitud adicional irá a nuestro equipo de AOS para recuperar todos sus documentos almacenados.
+Debe enviar una solicitud a nuestro equipo de Atención al cliente, que enviará una solicitud a nuestro equipo de Base de datos para exportar un archivo de volcado de base de datos (archivo .dmp [!DNL Postgres]) con sus datos. Una solicitud adicional irá a nuestro equipo de NOC para recuperar todos sus documentos almacenados.
 
 * **Profesionales**: obtendrá toda la carga de datos, incluidos los campos personalizados, así como los documentos almacenados en el sistema.
 
-* **Inconvenientes**: el archivo de base de datos es difícil de leer: no hay forma de que pueda leer este archivo a menos que lo cargue en una base de datos de [!DNL Postgres] y restablezca las relaciones entre las tablas. Los documentos se almacenan en un servidor de archivos independiente y el equipo de AOS debe extraerlos por separado mediante un proceso independiente. Al hacerlo, no hay ninguna organización que se ocupe de los documentos y todos ellos están referenciados por su GUID.
+* **Inconvenientes**: el archivo de base de datos es difícil de leer: no hay forma de que pueda leer este archivo a menos que lo cargue en una base de datos de [!DNL Postgres] y restablezca las relaciones entre las tablas. Los documentos se almacenan en un servidor de archivos independiente y el equipo de NOC debe extraerlos por separado mediante un proceso independiente. Al hacerlo, no hay ninguna organización que se ocupe de los documentos y todos ellos están referenciados por su GUID.
 
 * **Costo**: hay un costo asociado con esta descarga, dependiendo del tiempo que tarde el equipo en crear el archivo. Consulte con su AEM/ CAE para obtener más información o para comenzar este proceso.
 

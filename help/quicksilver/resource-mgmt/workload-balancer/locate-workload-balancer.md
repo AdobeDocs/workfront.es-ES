@@ -7,15 +7,14 @@ description: Puede utilizar el Distribuidor de cargas de trabajo para programar 
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Localización del Distribuidor de cargas de trabajo
-
 
 Puede utilizar el Distribuidor de cargas de trabajo para programar los recursos para el trabajo o revisar su disponibilidad y las asignaciones actuales.
 
@@ -36,9 +35,10 @@ Este artículo describe las áreas en las que puede acceder al Distribuidor de c
 >* [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
->
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,35 +47,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos</p>
-   <p>Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
- </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
+       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader">Nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Vea o acceda a lo siguiente:</p> 
     <ul> 
-     <li> <p>Administración de recursos</p> </li> 
-     <li> <p>Proyectos</p> </li> 
-     <li> <p>Tareas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> <p><b> NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+     <li>Administración de recursos</li> 
+     <li>Proyectos</li> 
+     <li>Tareas</li> 
+     <li>Problemas</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores de los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Ver permisos o superiores de los proyectos, tareas y problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Acceso al Distribuidor de cargas de trabajo en áreas predefinidas
 
@@ -83,7 +83,8 @@ Las secciones siguientes ilustran dónde puede acceder al Distribuidor de cargas
 
 ### Acceso al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y luego haga clic en **Recursos**.
+{{step1-to-resourcing}}
+
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.
 
    ![](assets/nwe-balancer-global.png)
@@ -97,27 +98,27 @@ Las secciones siguientes ilustran dónde puede acceder al Distribuidor de cargas
 
 ### Acceso al Distribuidor de cargas de trabajo para un equipo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y, a continuación, haga clic en Equipos.
+{{step1-to-team}}
+
 Se muestra la página de su equipo de inicio.
 
-   El Distribuidor de cargas de trabajo del equipo se muestra de forma predeterminada.
-
-   ![](assets/nwe-balancer-team-350x172.png)
-
-   El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
-
-   * **Trabajo sin asignar**: elementos asignados al equipo y no asignados a usuarios.
-   * **Trabajo asignado**: todos los miembros del equipo con todas sus asignaciones.
-
-     >[!TIP]
-     >
-     >Los integrantes del equipo pueden estar asignados a trabajos que también están asignados al equipo o a trabajos asignados a otros equipos o roles.
-
-
+    Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.¡
+    
+    ![](assets/nwe-balancer-team-350x172.png)
+    
+    El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
+    
+    * **Trabajo no asignado**: Elementos asignados al equipo y no asignados a usuarios.
+    * **Trabajo asignado**: todos los miembros del equipo con todas sus asignaciones.
+    
+    >[!SUGERENCIA]
+    >
+    >Los integrantes del equipo podrían asignarse a trabajos que también están asignados al equipo o a trabajos asignados a otros equipos o roles.
 
 ### Acceso al Distribuidor de cargas de trabajo para un proyecto
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y luego haga clic en **Proyectos**.
+{{step1-to-projects}}
+
 1. Haga clic en el nombre de un proyecto para abrir su página.
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Distribuidor de cargas de trabajo**.
 

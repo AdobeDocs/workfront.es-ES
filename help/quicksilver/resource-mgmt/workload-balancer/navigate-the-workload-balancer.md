@@ -6,9 +6,9 @@ description: Utilice el Distribuidor de cargas de trabajo para comprender la dis
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,47 +21,9 @@ El Distribuidor de cargas de trabajo está disponible en varias áreas de Adobe 
 
 Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
-
 ## Requisitos de acceso
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -70,33 +32,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos</p>
-   <p>Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
+       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Vea o acceda a lo siguiente:</p> 
     <ul> 
-     <li> <p>Administración de recursos</p> </li> 
-     <li> <p>Proyectos</p> </li> 
-     <li> <p>Tareas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+     <li>Administración de recursos</li> 
+     <li>Proyectos</li> 
+     <li>Tareas</li> 
+     <li>Problemas</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o permisos superiores en los proyectos, tareas y problemas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Ver o permisos superiores en los proyectos, tareas y problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones para la visualización de elementos en el Distribuidor de cargas de trabajo
 
@@ -156,7 +122,8 @@ Después de seleccionar la configuración que desea aplicar a la vista, el Distr
 
 Para desplazarse por el Distribuidor de cargas de trabajo para varios proyectos:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Recursos**.
+{{step1-to-resourcing}}
+
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.
 
    ![Distribuidor de cargas de trabajo](assets/nwe-balancer-global.png)
@@ -433,9 +400,11 @@ Puede ver más información sobre las tareas y los problemas en el Distribuidor 
 
 La navegación por el Distribuidor de cargas de trabajo de un equipo es similar a la navegación por el Distribuidor de cargas de trabajo para varios proyectos. Para obtener más información, consulte la sección [Navegar por el Distribuidor de cargas de trabajo para varios proyectos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) en este artículo.
 
-1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Equipos**.
+{{step1-to-team}}
+
 La página de su equipo de inicio se muestra de forma predeterminada.
-1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo. El Distribuidor de cargas de trabajo de un equipo debe mostrarse de forma predeterminada.
+
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.
 
    ![Distribuidor de cargas de trabajo de un equipo](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
 ## Navegar por el Distribuidor de cargas de trabajo de un solo proyecto
 
-1. Haz clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) y luego haz clic en **Proyectos**.
+{{step1-to-projects}}
+
 1. Haga clic en el nombre de un proyecto para abrir su página.
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Distribuidor de cargas de trabajo**.
 

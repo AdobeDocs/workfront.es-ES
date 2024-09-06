@@ -6,9 +6,9 @@ description: Puede anular la asignación de usuarios a elementos de trabajo en e
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '400'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ Para obtener información sobre cómo anular la asignación de usuarios en lotes
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -32,36 +34,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
+       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos</p>
-   <p>Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Edite el acceso a lo siguiente:</p> 
     <ul> 
-     <li> <p>Administración de recursos</p> </li> 
-     <li> <p>Proyectos</p> </li> 
-     <li> <p>Tareas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+     <li>Administración de recursos</li> 
+     <li>Proyectos</li> 
+     <li>Tareas</li> 
+     <li>Problemas</li> 
+    </ul></td>
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de Contribute o superiores para los proyectos, tareas y problemas que incluyen Realizar asignaciones</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Permisos de Contribute o superiores para los proyectos, tareas y problemas que incluyen Realizar asignaciones</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- 
++++
 
 ## Desasignar elementos de trabajo en el Distribuidor de cargas de trabajo
 

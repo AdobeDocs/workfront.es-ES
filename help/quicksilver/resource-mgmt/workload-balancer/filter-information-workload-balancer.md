@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Filtrado de información en el Distribuidor de cargas de trabajo
+title: Filtrar información en el Distribuidor de cargas de trabajo
 description: Para encontrar de forma eficaz los elementos de trabajo y centrarse en los usuarios o elementos que administra, le recomendamos encarecidamente que utilice filtros en el Distribuidor de cargas de trabajo.
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Este artículo contiene información sobre los filtros del Distribuidor de carga
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ Debe tener lo siguiente:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Cualquier plan</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos</p>
-   <p>Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
+       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Vea o acceda a lo siguiente:</p> 
     <ul> 
-     <li> <p>Administración de recursos</p> </li> 
-     <li> <p>Proyectos</p> </li> 
-     <li> <p>Tareas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filtros, vistas y agrupaciones</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Editar acceso a filtros, vistas y agrupaciones al crear o editar filtros</span> </p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+     <li>Administración de recursos</li> 
+     <li>Proyectos</li> 
+     <li>Tareas</li> 
+     <li>Problemas</li>
+     <li>Filtros, vistas y agrupaciones</li>
+    </ul>
+    <p>Editar el acceso a filtros, vistas y agrupaciones al crear o editar filtros </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Ver o permisos superiores en los proyectos, tareas y problemas</p>
    <p>Administre permisos para los filtros que desee editar o eliminar</p>
-     </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Información general sobre los filtros del Distribuidor de cargas de trabajo
 

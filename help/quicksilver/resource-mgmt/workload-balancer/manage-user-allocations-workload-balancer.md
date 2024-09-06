@@ -6,7 +6,7 @@ description: Como Administrador de recursos, puede asignar trabajo a los usuario
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Como Administrador de recursos, puede asignar trabajo a los usuarios y administr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>
-   <p>Al utilizar el Distribuidor de cargas de trabajo en el área de Recursos, necesita lo siguiente:</p>
-   <p>Nuevo: estándar</p>
-   <p>O</p>
-   <p>Actual: plan</p>
-   <p>Al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto, necesita lo siguiente:</p>
-   <p>Nuevo: estándar</p>
-   <p>O</p>
-   <p>Actual: Trabajo</p>
- </td> 
-  </tr> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
+       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuración del nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Edite el acceso a lo siguiente:</p> 
     <ul> 
-     <li> <p>Administración de recursos</p> </li> 
-     <li> <p>Proyectos</p> </li> 
-     <li> <p>Tareas</p> </li> 
-     <li> <p>Problemas</p> </li> 
-    </ul> </td> 
+     <li>Administración de recursos</li> 
+     <li>Proyectos</li> 
+     <li>Tareas</li> 
+     <li>Problemas</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
