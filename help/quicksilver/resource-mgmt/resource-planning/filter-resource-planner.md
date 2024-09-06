@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Filtrar información en el Planificador de recursos
-description: '(AL:*Iterar en este artículo: filtrar por datos personalizados. Otras mejoras? La advertencia de caracteres especiales puede cambiar: siga la historia para saber cuándo. Originalmente llegó en Beta 3 17.3.)'
-author: Alina
+description: Mediante los filtros, puede modificar la información que se muestra en el Planificador de recursos a partir de toda la información almacenada en el sistema.
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,40 @@ Mediante los filtros, puede modificar la información que se muestra en el Plani
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro y superior</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: Pro o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar o superior<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: claro o superior</p>
+       <p>o</p>
+       <p>Actual: revisar o superior</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos, Usuarios y Administración de recursos </p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Ver el acceso o superior a Proyectos, Usuarios y Administración de recursos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores para proyectos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Ver permisos o superiores para proyectos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Información general sobre los filtros del Planificador de recursos
 
@@ -117,18 +119,16 @@ Tenga en cuenta lo siguiente al crear un filtro:
 
 Para crear un filtro en el Planificador de recursos:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Haga clic en **Recursos**.
+Se muestra **Planificador** de forma predeterminada.
 
-   Se muestra **Planificador** de forma predeterminada.
+De manera predeterminada, la primera vez que accede al Planificador de recursos, se aplica el <strong>Filtro predeterminado</strong>.<br>Para obtener más información sobre el filtro predeterminado, vea la sección <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Información general sobre el filtro predeterminado en el Planificador de recursos</a> de este artículo.
 
-   De manera predeterminada, la primera vez que accede al Planificador de recursos, se aplica el <strong>Filtro predeterminado</strong>.<br>Para obtener más información sobre el filtro predeterminado, vea la sección <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Información general sobre el filtro predeterminado en el Planificador de recursos</a> de este artículo.
-
-1. En la esquina superior izquierda de , haga clic en el icono **Filtro**.\
-   ![icono_filtro.png](assets/filter-icon.png)\
-   O\
-   Expanda el menú desplegable **Filtro** y haga clic en **Agregar nuevo filtro**.\
+1. En la esquina superior izquierda de , haga clic en el icono **Filtro**.
+   ![icono_filtro.png](assets/filter-icon.png)
+O
+Expanda el menú desplegable **Filtro** y haga clic en **Agregar nuevo filtro**.
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Para generar un filtro utilizando los criterios integrados, especifique cualquiera de los siguientes campos:
@@ -156,7 +156,7 @@ Para crear un filtro en el Planificador de recursos:
    Puede utilizar caracteres comodín basados en usuarios o en fechas para filtrar la información asociada al usuario que ha iniciado sesión.\
    Para obtener información acerca de los caracteres comodín admitidos en los filtros, vea [Información general sobre las variables de filtro comodín](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-1. Haga clic en **Guardar** para guardar la regla de filtrado.
+1. Haga clic en **Guardar** para guardar la regla de filtro.
 1. (Opcional) Haga clic en **Agregar regla de filtro** para agregar una nueva regla para otro objeto o campo.
 1. Haga clic en **Aplicar** para aplicar el filtro sin guardarlo.
 

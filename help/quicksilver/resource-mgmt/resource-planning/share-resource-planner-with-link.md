@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Compartir la vista de usuario del Planificador de recursos con un vínculo
 description: Adobe Workfront puede generar una dirección URL única para la vista de usuario del planificador de recursos, que se puede incrustar en un tablero como una página externa o abrirla por separado en una nueva pestaña del explorador. Esto resulta útil cuando se comparte la información del Planificador de recursos con usuarios que podrían no tener acceso directo al área de Recursos.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,40 @@ Adobe Workfront puede generar una dirección URL única para la vista de usuario
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Pro y superior</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+    <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: Pro o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Administración de recursos, Proyectos y Usuarios</p> <p>Ver acceso a datos financieros para ver información de costes </p> <p><b>NOTA</b> Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a Administración de recursos, Proyectos y Usuarios</p> <p>Ver acceso a datos financieros para ver información de costes</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver los permisos superiores a los proyectos que desea mostrar en el Planificador de recursos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Ver los permisos superiores a los proyectos que desea mostrar en el Planificador de recursos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 Tenga en cuenta lo siguiente al generar la URL única para la vista de usuario del Planificador de recursos:
@@ -62,10 +70,9 @@ Tenga en cuenta lo siguiente al generar la URL única para la vista de usuario d
 
 Para obtener una dirección URL única en la vista de usuario del Planificador de recursos y compartirla con otros usuarios:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Haga clic en **Recursos**.
-1. En, seleccione **Ver por usuario**.
+1. Seleccione **Ver por usuario**.
 1. (Opcional) Seleccione el periodo de tiempo en el que desea ver la información en el Planificador de recursos. Seleccione una de las siguientes opciones:
 
    * Semana

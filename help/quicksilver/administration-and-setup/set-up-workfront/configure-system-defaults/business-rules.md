@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,17 @@ Para obtener información acerca de los comodines basados en fecha, vea [Usar co
 
 También hay un comodín de API disponible en las reglas empresariales. Puede usar `$$ISAPI` para almacenar la regla en déclencheur solamente en la interfaz de usuario o solamente en la API.
 
+Los caracteres comodín `$$BEFORE_STATE` y `$$AFTER_STATE` se utilizan en expresiones para acceder a los valores de campo del objeto antes y después de cualquier edición.
+
+* Estos caracteres comodín están disponibles para el déclencheur de edición. El estado predeterminado para el déclencheur de edición (si no hay ningún estado incluido en la expresión) es `$$AFTER_STATE`.
+* El déclencheur de creación de objetos solo permite `$$AFTER_STATE`, ya que el estado antes no existe.
+* El déclencheur de eliminación de objetos solo permite `$$BEFORE_STATE`, ya que el estado después no existe.
+
+
 Algunos escenarios de reglas de negocio simples son:
 
 * Los usuarios no pueden agregar nuevos gastos durante la última semana de febrero. Esta fórmula se puede establecer como: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Los usuarios no pueden editar un proyecto que esté en estado completo. Esta fórmula se puede establecer como: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Los usuarios no pueden editar el nombre de proyecto de un proyecto en estado completo. Esta fórmula se puede establecer como: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 Un escenario con instrucciones IF anidadas es:
 

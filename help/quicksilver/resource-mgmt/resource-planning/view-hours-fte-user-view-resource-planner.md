@@ -4,10 +4,10 @@ product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Ver las horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario
 description: Ver las horas disponibles, planificadas y reales o FTE en el Planificador de recursos al utilizar la "planificación de la vista del usuario" en el RP, tal vez "presupuestar recursos en el RP" o "Administrar recursos en el RP". etc... - o puede que deba ser reutilizado desde otro PDV?!)"
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
