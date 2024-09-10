@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '615'
 ht-degree: 2%
 
 ---
@@ -30,19 +30,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td>plan de Adobe Workfront</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td>Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>O</p>
+       <p>Actual: plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>[!UICONTROL Administrador del sistema]</td>
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

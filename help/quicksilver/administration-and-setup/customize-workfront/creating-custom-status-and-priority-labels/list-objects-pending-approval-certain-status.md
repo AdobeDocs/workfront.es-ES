@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,43 @@ ht-degree: 0%
 # Enumerar objetos con un proceso de aprobación pendiente que usa un estado determinado
 
 Si intenta eliminar un estado, un mensaje de error puede indicarle que no se puede eliminar porque está en al menos un proceso de aprobación pendiente en el sistema. Puede ejecutar un informe para enumerar los objetos en los que se encuentra en un proceso de aprobación pendiente y, a continuación, decidir qué debe hacer para cada uno.
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+     <p>Nuevo: estándar</p>
+     <p>o</p>
+     <p>Actual: plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td><p>Editar acceso a informes, tableros y calendarios</p><p>Editar acceso a filtros, vistas y agrupaciones</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td>Puede obtener permisos de administración para los informes que cree.</td>
+  </tr>
+ </tbody> 
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## En modo estándar
 

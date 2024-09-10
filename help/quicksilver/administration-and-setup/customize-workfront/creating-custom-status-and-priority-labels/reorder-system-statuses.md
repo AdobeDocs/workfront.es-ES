@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '507'
 ht-degree: 6%
 
 ---
@@ -37,24 +37,32 @@ Como administrador de Workfront, puede cambiar el orden de los estados de proyec
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront* </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de Workfront. Para obtener información sobre los administradores de Workfront, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo total a un usuario</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+     <p>Nuevo: estándar</p>
+     <p>o</p>
+     <p>Actual: plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>[!UICONTROL Administrador del sistema]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

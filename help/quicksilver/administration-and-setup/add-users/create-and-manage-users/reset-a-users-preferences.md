@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '404'
 ht-degree: 2%
 
 ---
@@ -40,12 +40,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td><p>Nuevo: estándar</p>
-       <p>o</p>
+       <p>O</p>
        <p>Actual: plan</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> </td> 
+   <td>[!UICONTROL Administrador del sistema]</td>
   </tr> 
  </tbody> 
 </table>

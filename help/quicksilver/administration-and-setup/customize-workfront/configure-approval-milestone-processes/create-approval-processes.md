@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2180'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Para obtener información sobre las aprobaciones asociadas con documentos o prue
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,14 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo plan: Estándar </p>
+   <td> <p>Nuevo: estándar </p>
  <p>o</p> 
-<p>Plan actual: plan </p> 
+<p>Actual: plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Si es administrador de Workfront o tiene acceso administrativo a los procesos de aprobación, puede crear un proceso de aprobación de nivel de sistema o de nivel de grupo para un grupo determinado.</p> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Si es administrador del sistema o tiene acceso administrativo a los procesos de aprobación, puede crear un proceso de aprobación de nivel de sistema o de nivel de grupo para un grupo determinado.</p> 
    <p>Si es administrador de un grupo, puede crear procesos de aprobación de nivel de grupo para los grupos que administra.</p> </td> 
   </tr> 
  </tbody> 

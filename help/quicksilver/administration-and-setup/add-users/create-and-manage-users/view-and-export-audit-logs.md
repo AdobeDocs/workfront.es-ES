@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obtener información acerca de todos los tipos de registros de auditoría y
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,11 +42,21 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
+  <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de Workfront.</p> </td> 
+   <td><p>Nuevo: estándar</p>
+       <p>O</p>
+       <p>Actual: plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>[!UICONTROL Administrador del sistema]</td>
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
