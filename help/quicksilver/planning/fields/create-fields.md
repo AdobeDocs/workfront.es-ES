@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 2%
@@ -247,7 +247,7 @@ Los campos de párrafo capturan información alfanumérica adicional sobre un re
 >
 >* Puede tener un máximo de 20 campos de párrafo para un tipo de registro.
 >
->* El contenido de un campo de párrafo puede tener hasta 100 000 caracteres.
+>* El contenido de un campo de párrafo puede tener hasta 10 000 caracteres.
 >* Puede utilizar el formato de texto enriquecido para mejorar el contenido de los campos de párrafo cuando se muestran en la vista de tabla o en la página Detalles de un registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 >
 

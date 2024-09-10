@@ -7,16 +7,18 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 4%
 
 ---
 
 # Editar una tarea de plantilla
 
-Después de crear una plantilla, puede editar la información sobre las tareas de plantilla. La información que se actualiza en una tarea de plantilla se asocia a tareas de proyecto después de utilizar la plantilla para crear un proyecto o de adjuntar la plantilla a un proyecto.
+<!--Audited: 09/2024-->
+
+Después de crear una plantilla, puede editar la información de las tareas de plantilla. La información que se actualiza en una tarea de plantilla se asocia a tareas de proyecto después de utilizar la plantilla para crear un proyecto o de adjuntar la plantilla a un proyecto.
 
 Para obtener información acerca de cómo crear una plantilla, vea [Crear una plantilla de proyecto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -28,6 +30,8 @@ Puede editar las tareas de plantilla o puede editar las tareas de plantilla de f
 
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -55,7 +59,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o nivel de acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -88,7 +94,7 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
 
    >[!TIP]
    >
-   >Para obtener información acerca de todos los campos que se muestran en el área Detalles, continúe editando todos los campos mediante el cuadro Editar tarea de plantilla que aparece a continuación.
+   >Para obtener información acerca de todos los campos que se muestran en el área Detalles, continúe editando todos los campos mediante el cuadro Editar tarea de plantilla, como se describe a continuación.
 
 1. (Condicional) Para editar toda la información acerca de la tarea de plantilla, haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) junto al nombre de la tarea de plantilla y, a continuación, haga clic en **Editar**.
 
@@ -212,7 +218,7 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
 
 ### Finanzas {#finance}
 
-1. Comience a editar una tarea como se ha descrito anteriormente.
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Finanzas**.
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
 
 ### Configuración {#settings}
 
-1. Comience a editar una tarea como se ha descrito anteriormente.
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Configuración**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
 
 ### Asignaciones {#assignments}
 
-1. Comience a editar una tarea como se ha descrito anteriormente.
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Asignaciones**.
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
 
 ### Formularios personalizados {#custom-forms}
 
-Puede definir formularios personalizados predeterminados que se adjuntarán automáticamente a las tareas cuando estas se agreguen a un proyecto. Para obtener información sobre cómo configurar el proyecto para que incluya formularios personalizados de tareas predeterminados, consulte la sección &quot;Tareas&quot; en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Puede definir formularios personalizados para que se adjunten automáticamente de forma predeterminada a las tareas cuando estas se añadan a un proyecto. Para obtener información sobre cómo configurar el proyecto para que incluya formularios personalizados de tareas predeterminados, consulte la sección &quot;Tareas&quot; en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Comience a editar una tarea como se ha descrito anteriormente. prueba
+También puede agregar formularios personalizados a las tareas futuras de un proyecto cuando el proyecto se cree a partir de una plantilla, agregando los formularios personalizados a las tareas de plantilla.
+
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Forms personalizado**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Seleccione el formulario o formularios personalizados que desee asociar a la tarea de plantilla. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede agregar hasta diez formularios personalizados a una tarea de plantilla. Los formularios se agregan automáticamente a las tareas creadas a partir de la plantilla.
+1. Seleccione el formulario o formularios personalizados que desee asociar a la tarea de plantilla.
+
+   Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
+En la lista solo se muestran los formularios personalizados activos.
+Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Puede agregar hasta diez formularios personalizados a una tarea de plantilla.
+Los formularios se agregan automáticamente a las tareas creadas a partir de la plantilla.
 1. (Condicional y opcional) Si adjuntó un formulario personalizado a la tarea de plantilla, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar la tarea de plantilla.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
 
 ### Comentario {#comment}
 
-1. Comience a editar una tarea como se ha descrito anteriormente.
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Comentario**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Especifique un comentario que desee mostrar en el flujo de actualizaciones de la tarea de plantilla en el campo disponible. Este comentario es visible para todos los que tengan acceso de Vista a la plantilla y a la tarea de plantilla y con acceso de ver Notas.
 1. Haga clic en **Guardar cambios**.
-
-   Los cambios se enviarán para esta tarea de plantilla.
 
    Cuando usted u otro usuario crea un proyecto a partir de esta plantilla, todos los ajustes aplicados a las tareas de plantilla se convierten en los ajustes de las tareas de proyecto.
