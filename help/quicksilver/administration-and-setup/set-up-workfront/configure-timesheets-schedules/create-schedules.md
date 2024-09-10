@@ -8,14 +8,14 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
-# Creación de una programación
+# Crear programación
 
 <!--Audited: 01/2024-->
 
@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>Debe ser administrador de [!DNL Workfront]. </td> 
+   <td>[!UICONTROL Administrador del sistema]</td>  
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 +++
 
-## Creación de una programación
+## Crear programación
 
 {{step-1-to-setup}}
 

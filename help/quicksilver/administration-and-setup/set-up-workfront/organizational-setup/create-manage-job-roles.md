@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Crear y administrar funciones de trabajo
+title: Crear y administrar roles
 description: Como  [!DNL Adobe Workfront] administrador o usuario con acceso administrativo a los roles, puede crear roles que se pueden asignar a usuarios y eliminar roles predeterminados que no sean relevantes para su organización.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Como administrador de [!DNL Adobe Workfront] o usuario con acceso administrativo
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +40,18 @@ Debe tener lo siguiente:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td>
-   <p>Nuevo: estándar</p>
+   <p>Nuevo: [!UICONTROL Standard]</p>
+   <p>O</p>
    <p>Actual: [!UICONTROL plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso administrativo a las funciones del puesto</p> </td> 
+   <td>Acceso administrativo a los roles</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

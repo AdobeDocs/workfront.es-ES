@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: El  [!DNL Adobe Workfront] entorno de espacio aislado de actualización personalizado
+title: El  [!DNL Adobe Workfront] Entorno De Espacio Aislado De Actualización Personalizado
 description: El espacio aislado de actualización personalizado es un entorno en el que puede realizar pruebas y trabajar con datos del entorno de producción. También es ideal para ejecutar cursos de formación y determinar la funcionalidad de la configuración.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1639'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,11 @@ El espacio aislado de actualización personalizado es un entorno en el que puede
 >
 >  Para obtener más información sobre la vista previa de espacio aislado, consulte [Entorno de espacio aislado de vista previa [!DNL Adobe Workfront] 2}.](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
 
-
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,6 +55,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Los caracteres comodín `$$BEFORE_STATE` y `$$AFTER_STATE` se utilizan en expres
 * El déclencheur de creación de objetos solo permite `$$AFTER_STATE`, ya que el estado antes no existe.
 * El déclencheur de eliminación de objetos solo permite `$$BEFORE_STATE`, ya que el estado después no existe.
 
-
 Algunos escenarios de reglas de negocio simples son:
 
 * Los usuarios no pueden agregar nuevos gastos durante la última semana de febrero. Esta fórmula se puede establecer como: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ Los usuarios no pueden editar los proyectos completados y no pueden editar los p
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
-# Crear un informe de valoración
+# Crear cuadro de resultados
 
 <!--Audited: 01/2024-->
 
@@ -31,21 +31,21 @@ Las preguntas y respuestas seleccionadas para un cuadro de resultados deben ser 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Actual: [!UICONTROL Empresa] o superior</p> 
    O
    <p>Nuevo: [!UICONTROL Prime] o superior</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Actual: [!UICONTROL plan]</p>
    O
    <p>Nuevo: [!UICONTROL Standard]</p>
@@ -54,9 +54,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 +++
 
-## Crear un informe de valoración
+## Crear cuadro de resultados
 
 {{step-1-to-setup}}
 

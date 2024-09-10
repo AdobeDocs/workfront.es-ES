@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: El  [!DNL Adobe Workfront] Entorno De Vista Previa De Zona Protegida
 description: La zona protegida de vista previa es un entorno de prueba que sirve como réplica del entorno en directo. Workfront lo actualiza todos los fines de semana. Los datos agregados a su entorno en directo el viernes aparecerán en su zona protegida de vista previa el lunes que viene. Todos los paquetes de asistencia tienen acceso a esta zona protegida.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Como administrador de [!DNL Workfront], puede acceder a la vista previa de espac
 
 Para acceder a la zona protegida de vista previa:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Haga clic en **[!UICONTROL Sistema]** > **[!UICONTROL Preferencias]**.
 

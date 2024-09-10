@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Resumen de rol
+title: Resumen del rol
 description: Un rol representa una capacidad funcional o un conjunto de habilidades que un usuario podría completar. En este artículo se describen los distintos usos de las funciones del puesto en Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 3%
