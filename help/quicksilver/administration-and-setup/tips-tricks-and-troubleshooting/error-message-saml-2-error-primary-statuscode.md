@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,6 @@ No puede establecer correctamente una conexión con ADFS.
 >Si establece correctamente una conexión de prueba y sigue teniendo problemas, es posible que tenga asignaciones de atributos incorrectas o problemas con los Federation ID. Póngase en contacto con Atención al cliente si tiene alguna pregunta.
 
 ## Requisitos de acceso
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
@@ -53,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>Debe ser administrador de [!DNL Workfront]. </td> 
+   <td>[!UICONTROL Administrador del sistema]</td> 
   </tr> 
  </tbody> 
 </table>

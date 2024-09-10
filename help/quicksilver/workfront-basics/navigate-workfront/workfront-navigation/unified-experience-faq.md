@@ -6,9 +6,9 @@ description: Algunas características son diferentes entre  [!DNL Workfront]  y 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
+source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ En esta tabla se describen algunas funciones que difieren entre las dos experien
 | La navegación incluye un área de navegación de nivel superior para [!DNL Adobe] productos, [!DNL Adobe] notificaciones, ayuda y su perfil de usuario, además de la barra de navegación de [!DNL Workfront] | La navegación solo incluye la barra de navegación [!DNL Workfront] |
 | Se puede acceder a la ayuda a través del [!UICONTROL Menú principal] y del área de navegación superior | Se puede acceder a la ayuda a través del [!UICONTROL Menú principal] y la barra de navegación de [!DNL Workfront] |
 | El visor de revisión se abre en una nueva pestaña | El visor de revisión se abre en Workfront |
+| La URL utilizada para acceder a Workfront es `experience.adobe.com` | La URL utilizada para acceder a Workfront es `(CompanyName).my.workfront.com` |
 
 {style="table-layout:auto"}
 

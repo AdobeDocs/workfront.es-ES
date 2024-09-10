@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,18 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      <p>Para obtener información e instrucciones, vea <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instalar el complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicaciones</a></p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS y ASSETS ESSENTIALS </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Crear automáticamente carpetas vinculadas entre Workfront y Adobe Experience Manager 
+      <li>Sincronizar metadatos de recursos vinculados existentes</p></li>
+      <li>Actualice automáticamente el portafolio, el programa, el proyecto, la tarea, el problema y los documentos metatada cuando se cambie en Workfront.</li>
+      <li>Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización</li></ul>
+     <p>Para obtener información e instrucciones, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Información general sobre las integraciones de Adobe Experience Manager Assets</a></p> 
+     </td>
+   <td><ul><li>Workfront debe estar en un Admin Console con un ID de organización asignado.</li><li>Workfront y Experience Manager Assets o los Assets Essentials deben asignarse como un producto al usuario que configura la integración.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

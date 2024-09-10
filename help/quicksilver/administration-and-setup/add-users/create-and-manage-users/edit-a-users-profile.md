@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3298'
 ht-degree: 0%
 
 ---
@@ -48,26 +48,20 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar</p>
-   O
-   <p>Actual: plan</p></td> 
+   <td><p>Nuevo: estándar</p><p>O</p><p>Actual: plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes:</p> 
     <ul> 
-     <li> <p>El nivel de acceso del administrador del sistema. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>. </p> </li> 
-     <li> <p>El objeto <b>Users</b> de su nivel de acceso está configurado para el acceso <b>Edit</b>, con <b>Create</b> y al menos una de las dos opciones siguientes de <b>User Admin</b> habilitadas en <b>Ajuste la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-     <ul><li> Administrador de usuarios (todos los usuarios)</li>
-     <li>Administrador de usuarios (usuarios de grupo)</li></ul>
-     <p>Si la opción <b>Administración de usuarios (usuarios del grupo)</b> está habilitada, debe ser administrador de un grupo en el que el usuario sea miembro para poder editar al usuario.</p> 
-     <p>Para obtener más información sobre la configuración de <b>Usuarios</b> en un nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a usuarios</a>.</p> </li> 
+     <li> <p>El nivel de acceso del administrador del sistema. </li> 
+     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

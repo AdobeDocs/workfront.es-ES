@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 Si los usuarios no reciben [!DNL Adobe Workfront] notificaciones por correo electrónico, debe agregar [!DNL Workfront] registros SPF al firewall. Debe trabajar con su equipo de TI para añadir registros SPF.
 
 ## Requisitos de acceso
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
@@ -47,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>Debe ser administrador de [!DNL Workfront]. </td> 
+   <td>[!UICONTROL Administrador del sistema]</td> 
   </tr> 
  </tbody> 
 </table>
