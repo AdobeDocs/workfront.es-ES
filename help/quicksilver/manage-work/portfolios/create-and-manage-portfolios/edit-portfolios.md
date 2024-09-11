@@ -6,9 +6,9 @@ description: Puede editar la información de los portafolios que ha creado o que
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,8 @@ Puede editar un [!UICONTROL portafolio] en la página del portafolio o puede edi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nuevo: Cualquiera</p>
-   <p>Actual:[!UICONTROL Empresa] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Cualquiera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] licencias*</td> 

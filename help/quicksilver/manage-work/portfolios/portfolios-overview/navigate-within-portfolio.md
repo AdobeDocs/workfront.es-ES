@@ -6,9 +6,9 @@ description: Navegación dentro de un portafolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,9 @@ Para obtener más información sobre portafolios, consulte [descripción general
 
 ## Requisitos de acceso
 
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -32,25 +35,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nuevo: [!UICONTROL Standard] </p>
+   <p>Actual: [!UICONTROL plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a proyectos y Portfolio</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a proyectos y Portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de [!UICONTROL Manage] para el portafolio</p> <p>Ver o permisos superiores en los proyectos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de [!UICONTROL Manage] para el portafolio</p> <p>Ver o permisos superiores en los proyectos</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Navegación dentro de un portafolio
 
@@ -60,15 +66,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. En el menú desplegable **[!UICONTROL Filtro]**, seleccione lo siguiente:
 
    * **[!UICONTROL Portfolio de mi propiedad]**: incluye una lista de portafolios para los que se le ha designado como [!UICONTROL Administrador de Portfolio].
-   * **[!UICONTROL Todos]**: incluye todos los portafolios para los que tiene al menos acceso a Ver.\
+   * **[!UICONTROL Todos]**: incluye todos los portafolios para los que al menos tiene acceso a Ver.
 
-     Para obtener más información sobre el acceso a los Portfolio, consulte [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Para obtener más información acerca de los permisos para los Portfolio, vea [Compartir un portafolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+     Para obtener más información sobre el acceso a los Portfolio, consulte [Información general sobre los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Para obtener más información acerca de los permisos para los Portfolio, vea [Compartir un portafolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Para agregar nuevos portafolios, consulte [Crear un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-1. Haga clic en el nombre de un portafolio para acceder a él.\
-   Las siguientes métricas de rendimiento del portafolio se muestran en el área [!UICONTROL Detalles del Portfolio] dentro de un portafolio:
+1. Haga clic en el nombre de un portafolio para acceder a él.
+Las siguientes métricas de rendimiento del portafolio se muestran en el área [!UICONTROL Detalles del Portfolio] dentro de un portafolio:
 
    * Si el portafolio está [!UICONTROL A tiempo]
    * Si el portafolio está [!UICONTROL Dentro del presupuesto]
@@ -96,8 +102,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      Para obtener más información acerca de la creación de filtros, vea [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Haga clic en **[!UICONTROL Programas]** en el panel izquierdo para crear Programas dentro del portafolio o administrar los existentes.\
-   Para obtener información sobre los programas, consulte la sección [Crear y administrar programas](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md).
+1. Haga clic en **[!UICONTROL Programas]** en el panel izquierdo para crear Programas dentro del portafolio o administrar los existentes.
+Para obtener información sobre los programas, consulte la sección [Crear y administrar programas](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md).
 
 1. (Opcional) Expanda el área **[!UICONTROL Detalles del Portfolio]** en el panel izquierdo y, a continuación, haga clic en **[!UICONTROL Información general]** o en **[!UICONTROL Forms personalizado]** para editar la información sobre el portafolio.
 

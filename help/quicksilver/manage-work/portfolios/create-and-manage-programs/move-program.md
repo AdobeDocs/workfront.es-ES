@@ -6,9 +6,9 @@ description: Puede agregar programas existentes a un portafolio. Como los progra
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Puede agregar programas existentes a un portafolio. Como los programas no puede
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -26,25 +28,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nuevo: [!UICONTROL Standard] </p><p>O </p><p>Actual: [!UICONTROL plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a Portfolio y programas </p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a Portfolio y programas </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>[!UICONTROL Administrar] permisos para el portafolio y el programa</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL Administrar] permisos para el portafolio y el programa</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar un programa existente a un portafolio
 

@@ -6,10 +6,10 @@ description: Puede quitar un proyecto de un portafolio y asociarlo a un portafol
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 1%
 
 ---
 
@@ -30,9 +30,8 @@ También puede eliminar proyectos de un portafolio que también los elimine de [
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nuevo: Cualquiera</p>
-   <p>Actual: [!UICONTROL Empresa] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 

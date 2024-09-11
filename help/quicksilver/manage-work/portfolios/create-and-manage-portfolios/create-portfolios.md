@@ -6,10 +6,10 @@ description: Un Portfolio es un conjunto de proyectos que compiten por los mismo
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
@@ -31,8 +31,7 @@ Puede utilizar Portfolio para agrupar proyectos que pertenezcan a las mismas lí
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nuevo: Cualquiera</p>
-   <p>Actual:[!UICONTROL Empresa] o superior</p> </td> 
+   <td> <p>Cualquiera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
@@ -53,6 +52,27 @@ Puede utilizar Portfolio para agrupar proyectos que pertenezcan a las mismas lí
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Formas de crear portafolios
+
+Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
+
+* Cree un portafolio desde cero empezando por el área de Portfolio del menú principal. Este artículo describe cómo crear un portafolio desde cero.
+
+* Importe un portafolio mediante kick-starts.
+
+  Como administrador de Workfront, puede importar portafolios mediante una &quot;kick-start&quot;.
+
+  Para obtener información acerca de cómo importar datos mediante kick-starts en Workfront, consulte [Importar datos en Adobe Workfront mediante una plantilla de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+* Agregue portafolios a medida que los conecte desde un tipo de registro en Workfront Planning.
+
+  Debe tener una nueva licencia de Workfront y una licencia adicional de Workfront Planning para Workfront Planning.
+
+  Para obtener información sobre el acceso a Workfront Planning, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md).
+
+  Para obtener información acerca de cómo crear portafolios agregándolos a registros, vea la sección &quot;Crear registros al conectarlos&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
+
 
 ## Crear un portafolio
 

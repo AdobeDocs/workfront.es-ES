@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 1%
 
 ---
 
 
 # Conectar tipos de registros
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    * Otro tipo de registro del espacio de trabajo seleccionado
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    * Un tipo de registro de otro espacio de trabajo configurado para conectarse desde otros espacios de trabajo. Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    * **Experience Manager Assets** de la sección **Aplicaciones de Adobe**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. Actualice la siguiente información:
 
@@ -221,7 +222,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
      Esta opción solo está disponible cuando se conectan registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **Tipo de conexión**: seleccione una de las siguientes opciones para indicar cuántos registros pueden conectar con y desde:
 
@@ -232,7 +233,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
      Esta opción sólo está disponible cuando se conectan registros del mismo espacio de trabajo o un registro y un tipo de objeto de Workfront.
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -259,13 +260,21 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    >
    >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, anule la selección del botón de alternancia **Título** en el área **Apariencia del registro**, si no desea que el título de los registros o recursos conectados se muestre en el campo vinculado. Cuando no está seleccionada, solo se muestran las miniaturas de los registros en los campos vinculados. Los registros sin imagen en miniatura muestran un icono de imagen en su lugar. La opción está seleccionada de forma predeterminada. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Apariencia del registro**.
+1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, seleccione una de las siguientes opciones en el área **Apariencia del registro**:
+
+   * <span class="preview">**Nombre e imagen**: tanto el nombre como la miniatura o el icono de los registros conectados se mostrarán en el campo de registro conectado. Esta es la opción predeterminada. </span>
+   * <span class="preview">**Nombre**: solo se mostrará el nombre de los registros conectados en el campo de registro conectado.</span>
+   * <span class="preview">**Imagen**: solo se mostrará la miniatura o el icono de los registros conectados en el campo de registro conectado.</span>
+
+   Los registros sin imagen en miniatura muestran el icono de tipo de registro en su lugar. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Apariencia del registro**.
 
    >[!TIP]
    >
    >    Cuando permite vincular varios registros, la visualización de sólo la miniatura puede ahorrar espacio en áreas más pequeñas, como las vistas de registros.
    >
-   >El título de un registro es el campo principal del registro. Para obtener más información, vea [Información general del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >El nombre de un registro es el campo principal del registro. Para obtener más información, vea [Información general del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >La selección de una apariencia de registro no está disponible al seleccionar tipos de objetos de Workfront.
 
 1. Haga clic en **Crear**.
 
@@ -286,7 +295,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    >    Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
 
 
-1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos del registro u tipo de objeto vinculado. El **Nombre** o el **Título** del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
+1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos del registro u tipo de objeto vinculado. El nombre o el campo Principal del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
 
 1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor de acumulador para resumir varios valores. Los valores de los campos vinculados se muestran separados por comas o como un valor resumido según el agregador que elija, cuando los usuarios seleccionan más de un registro vinculado en el campo de registro vinculado.
 

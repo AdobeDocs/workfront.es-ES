@@ -6,9 +6,9 @@ description: Un proyecto es una gran unidad de trabajo en Adobe Workfront. Puede
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,22 @@ Puede crear un proyecto en Workfront mediante uno de los métodos siguientes:
 
   Para obtener información sobre la importación de proyectos mediante los puntapié inicial, consulte [Escenario de Kick-Starts: preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish crea una iniciativa a partir de un escenario en el Scenario Planner de Adobe Workfront. El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Para obtener información acerca de cómo crear proyectos a partir de iniciativas de publicación, vea [Actualizar o crear proyectos mediante iniciativas de publicación en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish crea una iniciativa a partir de un escenario en el Scenario Planner de Adobe Workfront.
+
+  El planificador de escenarios requiere una de las siguientes opciones:
+
+   * Licencia adicional para la estructura de licencias actual de Workfront.
+   * Una licencia Ultimate para la nueva estructura de licencias de Workfront.
+
+  Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Para obtener información acerca de cómo crear proyectos a partir de iniciativas de publicación, vea [Actualizar o crear proyectos mediante iniciativas de publicación en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+* Agregue proyectos a medida que los conecte desde un tipo de registro en Workfront Planning. Desde Workfront Planning solo puede crear proyectos sin plantillas.
+
+  Debe tener una nueva licencia de Workfront y una licencia adicional de Workfront Planning para Workfront Planning.
+
+  Para obtener información sobre el acceso a Workfront Planning, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md).
+
+  Para obtener información acerca de cómo crear proyectos agregándolos a registros, vea la sección &quot;Crear registros al conectarlos&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
 ## Requisitos previos
 

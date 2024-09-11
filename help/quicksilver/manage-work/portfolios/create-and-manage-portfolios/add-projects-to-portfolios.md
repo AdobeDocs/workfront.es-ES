@@ -6,9 +6,9 @@ description: Le recomendamos que agregue proyectos a portafolios cuando los inic
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Tenga en cuenta lo siguiente al agregar proyectos a portafolios:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nuevo: Cualquiera</p>
-   <p>Actual:[!UICONTROL Empresa] o superior</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Cualquiera</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
