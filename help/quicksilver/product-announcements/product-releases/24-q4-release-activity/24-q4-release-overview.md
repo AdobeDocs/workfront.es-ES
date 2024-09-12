@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 * [Mejoras de corrección](#proofing-enhancements)
 * [Mejoras de informes y paneles](#report-and-dashboard-enhancements)
 * [Otras mejoras](#other-enhancements)
-
+* [Funcionalidad que se eliminará pronto de Workfront](#functionality-soon-to-be-removed-from-workfront)
 
 ### Mejoras del administrador
 
@@ -78,6 +78,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Revertir paquetes de promoción de entorno</a></p>
+                        [!BADGE En producción para lanzamiento rápido ]{type=Positive}
                         <p>Para que la promoción del entorno sea más flexible y fácil de usar, hemos habilitado la funcionalidad de reversión. Ahora, puede revertir paquetes en un plazo de 24 horas, lo que le permite restaurar más fácilmente las configuraciones anteriores que se han visto afectadas por un paquete de promoción de entorno.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -192,7 +193,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
-                        [!BADGE en producción ]{type=Informative}
+                        [!BADGE En producción para lanzamiento rápido ]{type=Positive}
                         <p>Hemos cambiado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones del encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -362,6 +363,14 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
            </tbody>
         </table>
 
+### Funcionalidad que se eliminará pronto de Workfront
+
+Las siguientes funciones se eliminarán pronto de Workfront:
+
+#### Obsolescencia de la experiencia de inicio heredada con 24.10
+
+La versión 24.10 del Home heredado quedará obsoleta oficialmente. Se recomienda a los usuarios que empiecen a utilizar la nueva página de inicio, que se seguirá mejorando con funciones adicionales antes de que quede obsoleta. Para obtener más información sobre la transición, incluidos consejos sobre lo que los usuarios y administradores pueden hacer para prepararse, consulte la [Guía de obsolescencia de la página principal heredada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Anuncios
 
 ### Mejoras de Workfront Fusion
@@ -399,11 +408,3 @@ Para obtener información sobre las actualizaciones de mantenimiento realizadas 
 ### Actualizaciones de formación
 
 Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
-
-### Funcionalidad que se eliminará pronto de Workfront
-
-Las siguientes funciones se eliminarán pronto de Workfront:
-
-#### Obsolescencia de la experiencia de inicio heredada con 24.10
-
-La versión 24.10 del Home heredado quedará obsoleta oficialmente. Se recomienda a los usuarios que empiecen a utilizar la nueva página de inicio, que se seguirá mejorando con funciones adicionales antes de que quede obsoleta. Para obtener más información sobre la transición, incluidos consejos sobre lo que los usuarios y administradores pueden hacer para prepararse, consulte la [Guía de obsolescencia de la página principal heredada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
