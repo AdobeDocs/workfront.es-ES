@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
 # Revertir un paquete de promoción de entorno
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+
 
 Una vez instalado un paquete, puede revertirlo. Esto elimina los cambios que el paquete realizó en el entorno de destino y restaura los objetos afectados a sus configuraciones anteriores.
 
@@ -86,10 +87,3 @@ Para saber si se puede revertir una implementación de paquete específica, teng
 
 1. (Opcional) En el área Vista previa de reversión, vea los cambios que se producirán cuando se revierta la implementación.
 1. Haga clic en **Retroceder** en la esquina superior derecha de la pantalla.
-
-
-
-
-
-
-
