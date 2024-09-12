@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,29 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 
-<table>
-  <tr>
-   <td><strong>plan Adobe Workfront</strong>
-   </td>
-   <td>Cualquiera
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Licencia de Adobe Workfront</strong>
-   </td>
-   <td>Plan
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Configuraciones de nivel de acceso</strong>
-   </td>
-   <td>Debe ser administrador de Workfront o de un grupo.
-<p>
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td><p>Nuevo: estándar</p>
+  <p> Actual: plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.
+Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea [Crear o modificar niveles de acceso personalizados](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

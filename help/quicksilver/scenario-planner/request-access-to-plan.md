@@ -7,10 +7,10 @@ description: Puede solicitar acceso a un plan en el planificador de escenarios d
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
@@ -27,9 +27,11 @@ Puede solicitar acceso a un plan en [!DNL Adobe Workfront Scenario Planner] cuan
  <col> 
  <tbody> 
   <tr> 
-   <td> <p> plan [!UICONTROL Adobe Workfront]*</p> </td> 
-   <td> <p>Actual: [!UICONTROL Empresa] o superior</p>
-   <p>Nuevo: Ultimate </p>
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>Nuevo: Ultimate </p></li>
+   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -39,15 +41,17 @@ Puede solicitar acceso a un plan en [!DNL Adobe Workfront Scenario Planner] cuan
   </tr> 
   <tr> 
    <td>Producto* </td> 
-   <td> 
-   <p>Para los planes actuales de Workfront: </p>
-   <p>Debe adquirir una licencia adicional para la funcionalidad [!DNL Adobe Workfront Scenario Planner] de acceso descrita en este artículo.</p> <p>Para obtener información acerca del acceso y los permisos para [!DNL Workfront Scenario Planner], vea <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para usar [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Para los nuevos planes de Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Para los planes actuales de Workfront: </p>
+   <p>Adobe Workfront</p> <p>Planificador de escenarios de Adobe Workfront</p></li></ul>
+
+<p>Para obtener más información, consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para utilizar [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Nivel de acceso </td> 
-   <td> <p>Acceso de [!UICONTROL View] al [!DNL Scenario Planner]</p> </td> 
-  </tr> 
-   </tbody> 
+   <td>  <p>[!UICONTROL View] o acceso superior al [!DNL Scenario Planner]</p>  </td> 
+  </tr>
+ </tbody> 
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

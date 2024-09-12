@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Como administrador de Adobe Workfront, puede realizar un seguimiento de los cambios de usuario activados en el sistema durante los últimos 90 días mediante registros de auditoría.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -65,10 +65,11 @@ En cada entrada de registro de auditoría se registran los campos siguientes:
 ## Tipos de registros de auditoría y las acciones que los almacenan en déclencheur
 
 * [Nivel de acceso](#access-level)
+* [Reglas empresariales](#business-rules)
 * [Empresa](#company)
 * [Condición](#condition)
 * [Campo personalizado](#custom-field)
-* [Formularios personalizados](#custom-forms)
+* [Formulario personalizado](#custom-forms)
 * [Sección personalizada](#custom-section)
 * [Tasa de cambio](#exchange-rate)
 * [Grupo](#group)
@@ -97,6 +98,21 @@ El sistema genera una entrada de registro de nivel de acceso cuando un usuario r
      >El sistema no registra ningún cambio de permiso en los datos financieros o en los siguientes tipos de acceso: Ver y Editar.
      >
      >Por ejemplo, si un usuario cambia el tipo de acceso del Planificador de Ver a Editar, el sistema no muestra la información contenida en el menú desplegable Ajustar la configuración.
+
+### Reglas empresariales
+
+Las reglas de negocio solo están disponibles para los clientes que han adquirido un plan Ultimate Workfront. Para obtener más información, consulte [Crear y editar reglas de negocio](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+El sistema genera una entrada de registro de auditoría de regla de negocio cuando un usuario realiza una de las siguientes acciones:
+
+* Crea una regla de negocio
+* Edita una regla de negocio:
+
+   * Cambiarle el nombre
+   * Añade o elimina expresiones
+   * Cambia un déclencheur
+
+* Elimina una regla de negocio
 
 ### Compañía {#company}
 
@@ -160,7 +176,7 @@ El sistema genera una entrada de registro de auditoría de campo personalizado c
 * Elimina un campo personalizado
 * Comparte un campo personalizado
 
-### Formularios personalizados {#custom-forms}
+### Formulario personalizado {#custom-form}
 
 El sistema genera una entrada de registro de auditoría de Forms personalizada cuando un usuario realiza una de las siguientes acciones:
 
@@ -241,7 +257,7 @@ Para obtener más información acerca de cómo configurar los roles, consulte [C
 El sistema genera una entrada de registro de auditoría de intento de inicio de sesión cuando un usuario realiza una de las siguientes acciones:
 
 * Inicia sesión, cierra la sesión o falla al intentar iniciar sesión en Workfront (en un explorador y en la aplicación móvil)
-* Inicia sesión, cierra la sesión o falla en un intento de inicio de sesión en cualquier integración de Workfront (como Workfront para Slack y Workfront para Salesforce)
+* Inicia sesión, cierra la sesión o falla al intentar iniciar sesión en cualquier integración de Workfront (como Workfront para Slack y Workfront para Salesforce)
 * Inicia sesión o cierra sesión en la API de Workfront
 
 Inicio de sesión Los registros de intentos no registran cuándo un administrador de Workfront utiliza la función Iniciar sesión como.

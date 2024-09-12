@@ -6,9 +6,9 @@ description: Al utilizar el Scenario Planner de Adobe Workfront, puede crear ini
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,10 @@ Al usar [!UICONTROL Adobe Workfront Scenario Planner], puede crear iniciativas e
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Actual: [!UICONTROL Empresa] o superior</p>
-   <p>Nuevo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nuevo: Ultimate </p></li>
+   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -39,10 +41,12 @@ Al usar [!UICONTROL Adobe Workfront Scenario Planner], puede crear iniciativas e
    <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
-   <td>Producto*</td> 
-   <td> 
-   <p>Para los planes actuales de Workfront: </p>
-   <p>Debe adquirir una licencia adicional para la funcionalidad [!DNL Adobe Workfront Scenario Planner] de acceso descrita en este artículo.</p> <p>Para obtener información acerca del acceso y los permisos para [!DNL Workfront Scenario Planner], vea <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para usar [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Producto* </td> 
+   <td> <ul><li><p>Para los nuevos planes de Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Para los planes actuales de Workfront: </p>
+   <p>Adobe Workfront</p> <p>Planificador de escenarios de Adobe Workfront</p></li></ul>
+
+<p>Para obtener más información, consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para utilizar [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Nivel de acceso </td> 

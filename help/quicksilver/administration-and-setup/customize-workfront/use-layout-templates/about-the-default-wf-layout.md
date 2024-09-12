@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
 
 # Acerca del diseño predeterminado de Adobe Workfront
 
-El diseño predeterminado es la disposición del menú principal ![](assets/main-menu-icon.png), el panel izquierdo y las vistas, agrupaciones y filtros antes de que un administrador de Adobe Workfront realice cambios mediante una plantilla de diseño.
+El diseño predeterminado es la disposición del menú principal ![](assets/main-menu-icon.png) o del menú principal ![](assets/lines-main-menu.png), si están disponibles, el panel izquierdo y las vistas, agrupaciones y filtros antes de que un administrador de Adobe Workfront realice cambios mediante una plantilla de diseño.
 
 Para obtener información sobre cómo un administrador de Workfront puede modificar el diseño predeterminado de un usuario asignándole una plantilla de diseño, consulte [Asignar usuarios a una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -30,7 +30,7 @@ Para obtener información sobre cómo un administrador de Workfront puede modifi
 
 El diseño predeterminado de cada usuario depende de su nivel de acceso. Es posible que algunos usuarios no vean ciertas áreas del menú principal o ciertos elementos del panel izquierdo, según el nivel de acceso que se les asigne.
 
-La siguiente tabla muestra de forma predeterminada los elementos del panel izquierdo que se muestran para cada nivel de acceso. También se indica el área de aterrizaje predeterminada para cada nivel de acceso:
+La siguiente tabla muestra el área de aterrizaje predeterminada y los elementos del panel izquierdo que se muestran para cada nivel de acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
   <tr> 
    <th>Área</th> 
    <th> Elementos del panel izquierdo </th> 
-   <th> <p>Administrador del sistema</p> </th> 
-   <th> <p>Planificador</p> </th> 
+   <th> Administrador del sistema</th> 
+   <th> Planificador </th> 
    <th>Trabajador</th> 
    <th>Revisor</th> 
    <th>Solicitante</th> 
@@ -150,7 +150,7 @@ La siguiente tabla muestra de forma predeterminada los elementos del panel izqui
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Solicitudes</strong> </td> 
-   <td><strong>Nueva solicitud</strong> </td> 
+   <td>Nueva solicitud </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

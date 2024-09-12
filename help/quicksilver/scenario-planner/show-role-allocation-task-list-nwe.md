@@ -6,9 +6,9 @@ description: Después de conectar proyectos e iniciativas, puede administrar su 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ Para obtener información general sobre cómo conciliar recursos entre proyectos
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Actual: [!UICONTROL Empresa] o superior</p>
-   <p>Nuevo: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nuevo: Ultimate </p></li>
+   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ Para obtener información general sobre cómo conciliar recursos entre proyectos
   </tr> 
   <tr> 
    <td>Producto* </td> 
-   <td> 
-   <p>Para los planes actuales de Workfront: </p>
-   <p>Debe adquirir una licencia adicional para la funcionalidad [!DNL Adobe Workfront Scenario Planner] de acceso descrita en este artículo.</p> <p>Para obtener información acerca del acceso y los permisos para [!DNL Workfront Scenario Planner], vea <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para usar [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>Para los nuevos planes de Workfront:</p><p> Adobe Workfront</li></p>
+   <li><p>Para los planes actuales de Workfront: </p>
+   <p>Adobe Workfront</p> <p>Planificador de escenarios de Adobe Workfront</p></li></ul>
+
+<p>Para obtener más información, consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para utilizar [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Nivel de acceso </td> 
-   <td> <p>[!UICONTROL Ver] o acceso superior a [!UICONTROL Proyectos]</p> </td> 
+   <td> <p>Acceso de visualización o superior a Proyectos.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Permisos de objeto </p> </td> 
-   <td> <p>Permisos de [!UICONTROL View] para un proyecto</p> </td> 
+   <td> <p> Permiso de visualización o superior para un proyecto.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +71,7 @@ Para obtener información general sobre cómo conciliar recursos entre proyectos
 
 Si su compañía ha adquirido una licencia de [!DNL Workfront Scenario Planner], puede reconciliar las asignaciones de recursos entre la iniciativa y el proyecto vinculado a ella en la sección [!UICONTROL Tareas] del proyecto.
 
-1. (Condicional) Conecte un proyecto con una iniciativa mediante uno de los métodos descritos en [Mostrar asignación de funciones para proyectos e iniciativas en la lista de tareas](#Connect) de este artículo.
+1. (Condicional) Un proyecto debe estar conectado a una iniciativa mediante uno de los métodos descritos en la sección [Mostrar asignación de funciones para proyectos e iniciativas de la lista de tareas](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) de este artículo.
 
    >[!IMPORTANT]
    >

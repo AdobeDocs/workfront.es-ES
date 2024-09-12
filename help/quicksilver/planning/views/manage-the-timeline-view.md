@@ -1,14 +1,14 @@
 ---
 title: Administrar la vista de cronología
-description: Acceda y edite registros en una vista de cronología de la página de tipo de registro de Adobe Workfront Planning. Personalice la cronología con filtros, agrupaciones y ajustes. Utilice la función Desglose para mostrar los registros conectados.
+description: Acceda y edite registros en una vista de cronología de la página de tipo de registro de Adobe Workfront Planning. Este artículo describe cómo crear una vista de escala de tiempo y editar o eliminar una existente. Personalice la cronología con filtros, agrupaciones y ajustes. Utilice la función Desglose para mostrar los registros conectados.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---
