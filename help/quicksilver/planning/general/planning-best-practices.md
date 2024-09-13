@@ -1,10 +1,11 @@
 ---
 title: Prácticas recomendadas de planificación de Adobe Workfront
 description: Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Estas son algunas prácticas recomendadas que recomendamos al comenzar con Workfront Planning.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ae10d35c61bf40c9e6f0422bd670b9733ad62aae
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '3225'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: Puede crear iniciativas copiando las existentes. Puede copiar inici
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Puede crear iniciativas copiando las existentes. Puede copiar iniciativas en un 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
-   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
    <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 

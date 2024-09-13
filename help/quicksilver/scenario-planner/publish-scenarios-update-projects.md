@@ -7,9 +7,9 @@ description: Puede crear proyectos a partir de iniciativas existentes, así como
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1671'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Al publicar un escenario desde [!DNL Adobe Workfront Scenario Planner] se logra 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
-   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
    <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 

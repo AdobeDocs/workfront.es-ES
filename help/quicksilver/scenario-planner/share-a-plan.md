@@ -7,9 +7,9 @@ description: Puede compartir un plan que haya creado en el Scenario Planner de A
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Puede compartir un plan en [!DNL Adobe Workfront Scenario Planner] con otros usu
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
-   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
    <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 

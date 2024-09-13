@@ -6,9 +6,9 @@ description: Puede crear planes como parte del uso de Workfront Scenario Planner
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Puede crear planes como parte del uso de [!DNL Workfront Scenario Planner], al p
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
-   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
    <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 

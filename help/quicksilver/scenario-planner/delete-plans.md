@@ -6,9 +6,9 @@ description: Puede eliminar los planes que ha creado. No puede eliminar planes q
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Puede eliminar los planes que ha creado. No puede eliminar planes que se hayan c
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
-   <p>El planificador de escenarios no está disponible para el nuevo plan Workfront Select o Workfront. </p>
+   <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
    <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
    </td> 
   </tr> 
