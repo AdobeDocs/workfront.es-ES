@@ -6,9 +6,9 @@ title: Cambiar el formato de las fechas en  [!DNL Adobe Workfront]
 description: Para cambiar el formato de fecha de las fechas en  [!DNL Adobe Workfront] debe cambiar la configuración de idioma en el explorador.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
+source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Cambiar el formato de las fechas de [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
+
+>[!IMPORTANT]
+>
+> La información de este artículo se aplica solo a las organizaciones que aún no se han incorporado a la experiencia unificada de Adobe.
+> Si su organización se ha incorporado a la experiencia unificada de Adobe, su preferencia de fecha está controlada por la preferencia de idioma establecida en Unified Shell de Adobe. La configuración de idioma predeterminada y, por lo tanto, la configuración de fecha predeterminada, es `en-US`.
 
 Puede cambiar el formato de fecha de las fechas de [!DNL Adobe Workfront], como [!UICONTROL Fecha planificada de finalización], [!UICONTROL Fecha real de finalización] o [!UICONTROL Fecha proyectada de finalización].
 
