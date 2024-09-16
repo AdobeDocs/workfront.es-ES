@@ -6,7 +6,7 @@ description: Algunas características son diferentes entre  [!DNL Workfront]  y 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
+source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 0%
@@ -34,7 +34,7 @@ En esta tabla se describen algunas funciones que difieren entre las dos experien
 | Se puede acceder a la ayuda a través del [!UICONTROL Menú principal] y del área de navegación superior | Se puede acceder a la ayuda a través del [!UICONTROL Menú principal] y la barra de navegación de [!DNL Workfront] |
 | El visor de revisión se abre en una nueva pestaña | El visor de revisión se abre en Workfront |
 | La URL utilizada para acceder a Workfront es `experience.adobe.com` | La URL utilizada para acceder a Workfront es `(CompanyName).my.workfront.com` |
-| El formato de la fecha (como MM/DD/AAAA) se basa en las preferencias del navegador. | El formato de fecha (como MM/DD/AAAA) se basa en la configuración del lenguaje de experiencia unificado. Si el usuario no ha actualizado la configuración de idioma, se utiliza la configuración de `en-US`. |
+| El formato de fecha (como MM/DD/AAAA) se basa en la configuración del lenguaje de experiencia unificado. Si el usuario no ha actualizado la configuración de idioma, se utiliza la configuración de `en-US`. | El formato de la fecha (como MM/DD/AAAA) se basa en las preferencias del navegador. |
 
 {style="table-layout:auto"}
 
