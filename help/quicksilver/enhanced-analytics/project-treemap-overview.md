@@ -7,9 +7,9 @@ description: La visualización del diagrama de proyecto es una vista de horas (o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '828'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,9 @@ La visualización del diagrama de proyecto es una vista de horas (o días) que s
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Amplíe para ver los requisitos de acceso.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,6 +56,8 @@ Debe tener lo siguiente:
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
