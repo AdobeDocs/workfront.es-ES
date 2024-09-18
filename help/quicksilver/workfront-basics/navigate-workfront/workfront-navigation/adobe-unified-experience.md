@@ -6,9 +6,9 @@ description: El acceso a  [!DNL Workfront]  a través de Adobe Experience Cloud 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
+source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,10 @@ Si tiene preguntas acerca de la incorporación a [!DNL Adobe Admin Console], con
 1. En la pantalla [!UICONTROL Iniciar sesión], escriba su dirección de correo electrónico y haga clic en **[!UICONTROL Continuar]**.
 
    ![Iniciar sesión en [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
+
+>[!NOTE]
+>
+>Si caduca una sesión de pestaña del explorador en una página en la que tiene abierto Workfront y tiene una sesión activa de Workfront en otra pestaña del explorador, puede volver a cargar la pestaña caducada para volver a abrir la página de Workfront.
 
 ## Acceder a [!DNL Workfront]
 
