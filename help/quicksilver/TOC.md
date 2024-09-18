@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 541b2048800b53b6f2302eaafe0598761a1f619b
+source-git-commit: 6d32b7c7427f1f8f9d1858724574cdd13b89fa1f
 workflow-type: tm+mt
-source-wordcount: '14390'
+source-wordcount: '14398'
 ht-degree: 2%
 
 ---
@@ -1017,6 +1017,7 @@ ht-degree: 2%
       * [Duplicado de procesos de aprobación que se muestran en la Lista de trabajoss en Inicio](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Los botones de filtro no se muestran en los encabezados de página](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [El filtro Proyectos en los que estoy incluye resultados inesperados](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+      * [Varias pestañas del explorador hacen que Workfront cierre la sesión](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Información general de tableros](agile/boards-overview.md)
