@@ -5,9 +5,10 @@ title: Información general sobre los nuevos filtros del widget Inicio
 description: Puede elegir entre una serie de widgets para personalizar el contenido que aparece en la página de inicio. Estos widgets se pueden cambiar de tamaño y organizar en la página de inicio.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 14%
 
 ---
@@ -19,6 +20,7 @@ Puede utilizar filtros en los siguientes widgets para buscar y organizar el trab
 * [Mis proyectos](#my-projects)
 * [Mis tareas](#my-tasks)
 * [Mis problemas](#my-issues)
+* [Mi trabajo]
 
 ## Mis proyectos
 
@@ -229,4 +231,52 @@ Puede utilizar los siguientes filtros en el widget Mis problemas:
     <td>Sin asignación en Mi función</td>
     <td>Muestra todos los problemas que no tienen un usuario principal asignado pero sí un rol asignado </td>
   </tr>
+</table>
+
+## Mi trabajo
+
+Puede utilizar los siguientes filtros en el widget Mi trabajo:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Trabajando en</td>
+      <td>Muestra los elementos en los que está trabajando actualmente</td>
+    </tr>
+    <tr>
+      <td>Listo para comenzar</td>
+      <td>Muestra elementos con 
+      <ul>
+      <li>Sin predecesoras incompletas ni restricciones de tarea</li>
+      <li>La fecha planificada de inicio es anterior o inferior a dos semanas</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Sin preparar</td>
+      <td>Muestra elementos que tienen
+       <ul>
+      <li>Predecesoras incompletas o delimitaciones de tareas que impiden trabajar en el elemento</li>
+      o
+      <li>La fecha planificada de inicio es dentro de más de dos semanas</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Solicitud</td>
+      <td>Muestra los problemas en los que no ha empezado a trabajar</td>
+    </tr>
+    <tr>
+      <td>Delegado por mí</td>
+      <td>Muestra elementos que ha delegado en otros usuarios</td>
+    </tr>
+    <tr>
+      <td>Se me ha delegado</td>
+      <td>Muestra los elementos que los usuarios le han delegado</td>
+    </tr>
+    <tr>
+      <td>Finalizado</td>
+      <td>Muestra el trabajo completado en las últimas dos semanas. Esta opción de filtro no incluye aprobaciones.</td>
+    </tr>
+  </tbody>
 </table>
