@@ -5,9 +5,10 @@ title: Guía de desaprobación de página principal heredada
 description: Esta página contiene información sobre la próxima obsolescencia de la página principal heredada.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Casi, con la excepción de:
 * Actualmente no está disponible la visualización de marcas de tiempo para las fechas de vencimiento del objeto.
 
 * Actualmente no está disponible la visualización de la fecha de compromiso dentro de la fuente de actualización. Sin embargo, hay una solución disponible: mostrar la fecha de compromiso en el encabezado a través de la personalización de la plantilla de diseño.
+* En este momento no se admiten las aprobaciones enviadas en la nueva página de inicio. Si necesita esta funcionalidad, vote o publique un comentario aquí en las siguientes publicaciones de la comunidad:
+   * [Agregar el widget &quot;Aprobaciones enviadas&quot; a la nueva página de inicio](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [Agregar &quot;Aprobaciones enviadas&quot; a la nueva página de inicio](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++¿Cómo regulo a qué widgets tienen acceso los usuarios en la nueva página de inicio?
