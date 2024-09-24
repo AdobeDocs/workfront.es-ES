@@ -9,7 +9,7 @@ description: Con los módulos  [!DNL Adobe Acrobat Sign] , puedes iniciar un esc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '6636'
 ht-degree: 0%
@@ -138,7 +138,7 @@ Este módulo de déclencheur inicia un escenario cuando se produce un evento de 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ámbitos]</td> 
@@ -483,7 +483,7 @@ Este módulo de acción crea registros vinculados a un módulo seleccionado.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -601,7 +601,7 @@ Este módulo le permite realizar una llamada de API personalizada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -645,7 +645,7 @@ Este módulo de acción enumera todos los registros del tipo seleccionado a los 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -698,7 +698,7 @@ Este módulo de acción recupera información de un único registro.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -727,7 +727,7 @@ Leer información adicional relacionada con un único registro.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -768,7 +768,7 @@ Este módulo de acción actualiza un único registro en [!DNL Adobe Acrobat Sign
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -829,7 +829,7 @@ Este módulo de acción actualiza los registros relacionados con un objeto espec
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -907,7 +907,7 @@ Cargue un documento transitorio. Un documento transitorio está disponible duran
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 
@@ -946,7 +946,7 @@ Este módulo de búsqueda busca los acuerdos basándose en los criterios proporc
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Adobe Acrobat Sign] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Encabezados]</td> 

@@ -9,7 +9,7 @@ description: Los módulos de diapositivas de Adobe Workfront Fusion Google le pe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Déclencheur cuando se crea o actualiza una nueva presentación.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch] </td> 
@@ -126,7 +126,7 @@ Recupera una lista de todas las presentaciones.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Elija una ubicación de unidad]</td> 
@@ -158,7 +158,7 @@ Obtiene la última versión de una presentación especificada.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Elija una unidad]</td> 
@@ -186,7 +186,7 @@ Obtiene la última versión de la página especificada o de la miniatura de una 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID de presentación]</td> 
@@ -213,7 +213,7 @@ Crea una nueva presentación reemplazando todas las etiquetas como `{{Name}}`, `
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Título] </td> 
@@ -286,7 +286,7 @@ Carga una imagen con los datos proporcionados.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Elegir una presentación]</td> 
@@ -330,7 +330,7 @@ Actualiza los datos del gráfico almacenados en una presentación especificada p
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Elija una unidad]</td> 
@@ -362,7 +362,7 @@ Crea una diapositiva vacía o elimina una diapositiva existente de la presentaci
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seleccione el método]</td> 
@@ -407,7 +407,7 @@ Realiza una llamada de API autorizada arbitraria.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -461,7 +461,7 @@ Este módulo permite hacer clic en todos los vínculos de una presentación o in
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></p> </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Slides] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Elegir una presentación]</td> 
