@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ Cuando se le asigna una tarea o un problema, puede utilizar un botón contextual
 
 Con el botón contextual para aceptar o completar elementos de trabajo, puede permitir que Adobe Workfront actualice varios campos de los elementos sin tener que actualizarlos manualmente.
 
+Los botones Trabajar en ello y Listo están visibles para los usuarios que tienen:
+
+* Una licencia estándar (nueva) o una licencia de planificación o de trabajo (actual)
+* Acceso de edición limitado o superior en la tarea o el problema
+
 ## Trabajar en ello y nombres de los botones Listo
 
-Según el área de Workfront desde la que acceda a la tarea o al problema, el botón Trabajar en ello o Listo puede cambiar los nombres, tal como se describe en los siguientes casos: 
+Según el área de Workfront desde la que acceda a la tarea o al problema, el botón Trabajar en ello o Listo puede cambiar los nombres, tal como se describe en los siguientes casos:
 
 * Cuando se le asigna por primera vez la tarea o el problema y el estado es Nuevo, el botón se muestra como Trabajar en él.
 
@@ -33,7 +38,7 @@ Según el área de Workfront desde la que acceda a la tarea o al problema, el bo
   >
   >Puede reemplazar el botón Trabajar en ello por un botón Iniciar. Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar, consulte [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* Después de hacer clic en Trabajar en ello para aceptar, el botón cambia a Marcar como listo o Listo , según desde dónde acceda a la tarea o al problema en Workfront. Para obtener información sobre dónde puede obtener acceso al botón Trabajar en ello, vea la sección [Busque el botón Trabajar en ello y Listo](#locate-the-work-on-it-and-done-button) en este artículo.
+* Después de hacer clic en Trabajar en ello para aceptar, el botón cambia a Marcar como listo o Listo, según desde dónde acceda a la tarea o al problema en Workfront. Para obtener información sobre dónde puede obtener acceso al botón Trabajar en ello, vea la sección [Busque el botón Trabajar en ello y Listo](#locate-the-work-on-it-and-done-button) en este artículo.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 

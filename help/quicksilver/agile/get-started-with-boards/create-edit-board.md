@@ -6,9 +6,9 @@ description: En el panel [!UICONTROL tableros], puede crear un tablero nuevo o e
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '858'
 ht-degree: 1%
 
 ---
@@ -107,6 +107,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. En el tablero, seleccione el tablero que desea abrir.
 1. Edite el tablero según sea necesario. Puede hacer clic en el nombre del tablero para cambiarle el nombre.
+
+   Para sincronizar tarjetas conectadas con Workfront e incluir nuevas tareas y problemas en la columna de entrada o tablero, haz clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Menú Más]](assets/more-icon-spectrum.png) que está junto al nombre del tablero y selecciona **[!UICONTROL Sincronizar elementos conectados]**.
 
    Para obtener más información, consulte [Agregar o quitar miembros de un tablero](../../agile/get-started-with-boards/add-members-to-board.md), [Administrar columnas del tablero](../../agile/get-started-with-boards/manage-board-columns.md) y [Agregar una tarjeta a un tablero](../../agile/get-started-with-boards/add-card-to-board.md).
 

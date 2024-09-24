@@ -7,9 +7,9 @@ description: Si lo desea, puede agregar una columna de entrada al tablero que re
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,8 @@ Problemas:
 >[!IMPORTANT]
 >
 >Se recomienda actualizar el tablero con frecuencia si varios usuarios trabajan en el tablero al mismo tiempo. Actualizar la página ayuda a mantener actualizados los cambios visuales en el tablero y evita que problemas como las tarjetas duplicadas se muevan al tablero desde la columna de entrada.
+>
+>Para sincronizar con Workfront e incluir nuevas tareas y problemas en el tablero o en la columna de entrada, haz clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Menú Más]](assets/more-icon-spectrum.png) junto al nombre del tablero y selecciona **[!UICONTROL Sincronizar elementos conectados]**.
 
 Para obtener más información sobre las columnas, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obtener información sobre las tarjetas conectadas, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

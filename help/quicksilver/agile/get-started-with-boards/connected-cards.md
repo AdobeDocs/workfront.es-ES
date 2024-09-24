@@ -6,9 +6,9 @@ description: Puede agregar una tarjeta en el tablero que esté conectada a tarea
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Cuando se actualiza cualquiera de los siguientes detalles de la tarjeta en una u
 * [!UICONTROL Estimación] / [!UICONTROL Puntos de la historia]
 * [!UICONTROL Subtareas]
 * [!UICONTROL Documentos]
+
+Para sincronizar tarjetas conectadas con Workfront, haz clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Menú Más]](assets/more-icon-spectrum.png) que está junto al nombre del tablero y selecciona **[!UICONTROL Sincronizar elementos conectados]**.
 
 >[!NOTE]
 >
