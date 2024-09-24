@@ -5,7 +5,7 @@ title: Moverse del inicio heredado al nuevo inicio
 description: La página de inicio heredada se eliminará de Workfront el 17/10 con la versión del cuarto trimestre. Este artículo proporciona información sobre qué funcionalidad estará disponible en el nuevo inicio, así como recomendaciones para mover usuarios a la experiencia Nuevo inicio.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 5%

@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Puede cambiar fácilmente cualquier plantilla de flujo de trabajo automatizado, 
 Tenga en cuenta lo siguiente cuando utilice una plantilla de flujo de trabajo automatizado:
 
 1. La configuración de una plantilla de Flujo de trabajo automatizado determina lo que puede hacer con el Flujo de trabajo automatizado para una prueba. Por ejemplo, si el botón Add a stage está desactivado en la plantilla, no está visible mientras trabaja con la configuración del flujo de trabajo automatizado para la prueba.
-1. Cuando se añade una persona a una etapa en una plantilla de flujo de trabajo automatizado, pero también está presente como revisor en la prueba, al aplicar la plantilla se elimina al revisor de la etapa. Si no agrega otro revisor al escenario, aparecerá un mensaje en el que se le pedirá que agregue uno.
+1. Cuando se añade una persona a un escenario en una plantilla de flujo de trabajo automatizado, pero también está presente como revisor en la prueba, al aplicar la plantilla se elimina al revisor del escenario. Si no agrega otro revisor al escenario, aparecerá un mensaje en el que se le pedirá que agregue uno.
 1. La posibilidad de modificar una plantilla de flujo de trabajo automatizado depende de la configuración de la plantilla que establezca el administrador de Workfront, tal como se describe en Si la capacidad para modificar la plantilla está desactivada, solo el propietario de la plantilla puede modificarla.
 
 Para obtener información acerca de los flujos de trabajo automatizados, vea [Resumen del flujo de trabajo automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
