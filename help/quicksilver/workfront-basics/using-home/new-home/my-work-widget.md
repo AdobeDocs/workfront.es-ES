@@ -5,9 +5,9 @@ title: Administre su trabajo con el widget Mi trabajo
 description: El widget Mi trabajo muestra todas las tareas, problemas y solicitudes asignados en un solo lugar. Aquí puede filtrar y organizar su trabajo, registrar el tiempo, realizar actualizaciones y marcar los elementos de trabajo como completados.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -74,6 +74,7 @@ Puede ajustar los filtros de Mi trabajo para que se centren en elementos especí
       <td>Muestra elementos con 
       <ul>
       <li>Sin predecesoras incompletas ni restricciones de tarea</li>
+      <p>y</p>
       <li>La fecha planificada de inicio es anterior o inferior a dos semanas</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ Puede ajustar los filtros de Mi trabajo para que se centren en elementos especí
       <td>Muestra elementos que tienen
        <ul>
       <li>Predecesoras incompletas o delimitaciones de tareas que impiden trabajar en el elemento</li>
-      o
+      <p>o</p>
       <li>La fecha planificada de inicio es dentro de más de dos semanas</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ Los elementos vencidos muestran un icono de advertencia junto a la fecha. Workfr
 
 >[!TIP]
 >
->Para crear una lista que muestre todos los elementos vencidos en la parte superior del widget Mi trabajo, ordene por Fecha de vencimiento y no aplique un grupo.
+>Para crear una lista que muestre todos los elementos vencidos en la parte superior del widget Mi trabajo, ordene por Fecha de vencimiento y no aplique una agrupación.
 
 
 ![](assets/sort-my-work-widget.png)
@@ -156,7 +157,7 @@ Puede abrir el Panel de resumen para actualizar rápidamente la información de 
 * Añadir una actualización
 * Vaya al área de Documento para cargar un documento
 * Ver detalles del elemento de trabajo y actualizar campos personalizados
-Los administradores de Workfront pueden personalizar los campos que aparecen en Resumen en la plantilla Diseño. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Los administradores de Workfront pueden personalizar qué campos aparecen en el resumen de la plantilla de diseño. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Cambiar el estado del elemento de trabajo
 * Ver subtareas
 * Hora de registro

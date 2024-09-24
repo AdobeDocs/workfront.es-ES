@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: fd60ba9ec0643748da48171a6f5a9f6849c71b47
+source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
 workflow-type: tm+mt
-source-wordcount: '14412'
+source-wordcount: '14419'
 ht-degree: 2%
 
 ---
@@ -887,6 +887,7 @@ ht-degree: 2%
          * [Administre su trabajo con el widget Mi trabajo](workfront-basics/using-home/new-home/my-work-widget.md)
       * Usar el área de inicio {#use-home-area}
          * [Uso del área de Inicio](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [Moverse del inicio heredado al nuevo inicio](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [Introducción a Inicio](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Mostrar elementos en la Lista de trabajos en el área de Inicio](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Priorizar el trabajo en el área de Inicio](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
