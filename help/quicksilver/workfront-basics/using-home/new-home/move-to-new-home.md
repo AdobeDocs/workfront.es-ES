@@ -5,9 +5,9 @@ title: Moverse del inicio heredado al nuevo inicio
 description: La página de inicio heredada se eliminará de Workfront el 17/10 con la versión del cuarto trimestre. Este artículo proporciona información sobre qué funcionalidad estará disponible en el nuevo inicio, así como recomendaciones para mover usuarios a la experiencia Nuevo inicio.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### Ver widgets disponibles para cada tipo de licencia
 
@@ -262,3 +262,17 @@ Recomendamos a los administradores:
 1. Reasigne el resto de los usuarios al diseño Nueva página de inicio.
 
 Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva experiencia y personalizar sus páginas de inicio nuevas para adaptarlas mejor a sus necesidades individuales. Consulte [Quitar, agregar y reorganizar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) para obtener información sobre cómo un usuario puede personalizar los widgets en su propia página de inicio nueva.
+
+### Recursos para usuarios finales
+
+**Artículos de ayuda**
+
+* [Administre su trabajo con el widget Mi trabajo](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Formación**
+
+* [Aspectos básicos del trabajo en Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>Este es un curso gratuito, pero debe iniciar sesión e inscribirse para acceder a él.
