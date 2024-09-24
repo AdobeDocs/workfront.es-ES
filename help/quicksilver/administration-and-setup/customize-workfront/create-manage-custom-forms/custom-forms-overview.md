@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Por ejemplo, puede adjuntar un formulario personalizado llamado &quot;Investigac
 
 El diseñador de formularios tiene un área de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo. También permite arrastrar y soltar campos dentro de las secciones al diseñar el formulario. Puede cambiar el tamaño del lado derecho de la pantalla para proporcionar más espacio para las opciones de campo.
 
-<span class="preview">Un botón **Diseño** (no se muestra en esta imagen) le permite elegir entre un área de trabajo de dos o tres columnas. El botón indica qué diseño está seleccionado actualmente. El diseño de tres columnas muestra la configuración de campo en la columna del extremo derecho. En el diseño de dos columnas, la configuración del campo se muestra junto a la biblioteca de campos en la columna del extremo izquierdo.</span>
+<span class="preview">Un botón Diseño (no se muestra en esta imagen) le permite elegir entre un área de trabajo de dos o tres columnas. El botón indica qué diseño está seleccionado actualmente. El diseño de tres columnas muestra la configuración de campo en la columna del extremo derecho. En el diseño de dos columnas, la configuración del campo se muestra junto a la biblioteca de campos en la columna del extremo izquierdo.</span>
 
 Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -48,16 +48,16 @@ En un formulario personalizado, puede crear campos adicionales que soliciten a l
 Puede agregar los siguientes tipos de campos personalizados a un formulario personalizado en Workfront:
 
 * Texto de línea única
-* Texto de parágrafos
+* Párrafo
 * Texto con formato
-* Lista desplegable
+* Menú desplegable de selección única
 * Lista desplegable de selección múltiple
 * Búsqueda externa
-* Campo nativo
+* Referencia de campo nativo
 * Escritura anticipada
 * Calculado
-* Campo de fecha
-* Grupo de casillas de verificación
+* Fecha
+* Grupo de casillas
 * Botones de radio
 * Texto descriptivo
 * Salto de sección

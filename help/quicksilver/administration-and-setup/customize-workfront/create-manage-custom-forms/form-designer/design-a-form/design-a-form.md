@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
-ht-degree: 5%
+source-wordcount: '5541'
+ht-degree: 4%
 
 ---
 
@@ -152,7 +152,7 @@ Puede agregar varios campos de texto diferentes a un formulario personalizado.
 +++ **Amplíe para ver las descripciones de los campos de texto disponibles**
 
 * **Campo de texto de una sola línea**: permite a los usuarios escribir una sola línea de texto en el campo.
-* **Campo de texto de párrafo**: permite a los usuarios escribir varias líneas de texto en el campo.
+* **Campo de párrafo**: permite a los usuarios escribir varias líneas de texto en el campo.
 * **Campo de texto con formato**: permite a los usuarios escribir varias líneas de texto en el campo y aplicar al texto negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Un límite de 15 000 caracteres permite texto y formato abundantes.
 
   Este tipo de campo personalizado no se admite en filtros de listas e informes.
@@ -172,8 +172,8 @@ Para agregar un campo de texto:
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos de texto y arrástrelo a una sección del lienzo:
 
    * Texto de línea única
-   * Texto de párrafo
-   * Campo de texto con formato
+   * Párrafo
+   * Texto con formato
    * Texto descriptivo
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ Para agregar un campo de texto:
    </td>
     <td><ul>
     <li>Texto de línea única</li>
-    <li>Texto de parágrafos</li>
+    <li>Párrafo</li>
     <li>Texto con formato</li>
     <li>Texto descriptivo</li>
     </ul></td>
@@ -203,7 +203,7 @@ Para agregar un campo de texto:
     <p>IMPORTANTE: Evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p></td>
     <td><ul>
     <li>Texto de línea única</li>
-    <li>Texto de parágrafos</li>
+    <li>Párrafo</li>
     <li>Texto con formato</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ Para agregar un campo de texto:
     </td>
     <td><ul>
     <li>Texto de línea única</li>
-    <li>Texto de parágrafos</li>
+    <li>Párrafo</li>
     <li>Texto con formato</li>
     <li>Texto descriptivo</li>
     </ul></td>
@@ -226,7 +226,7 @@ Para agregar un campo de texto:
     </td>
     <td><ul>
     <li>Texto de línea única</li>
-    <li>Texto de parágrafos</li>
+    <li>Párrafo</li>
     <li>Texto con formato</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ Para agregar un campo de texto:
      </ul></p></td> </td>
     <td><ul>
     <li>Texto de línea única</li>
-    <li>Texto de parágrafos</li>
+    <li>Párrafo</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ Para agregar un campo de texto:
     <td>Cambiar entre campos de texto de una sola línea y de párrafo.</td>
     <td><ul>
     <li>Texto de línea única</li>
-    <li>Texto de parágrafos</li>
+    <li>Párrafo</li>
     </ul></td>
     </tr>
     <tr>
@@ -286,7 +286,7 @@ Puede agregar botones de opción, grupos de casillas de verificación, listas de
 
 * **Botones de radio**: Requiere que los usuarios seleccionen solo una opción.
 * **Grupo de casillas de verificación**: permite a los usuarios seleccionar varias opciones.
-* **Menú desplegable**: Proporciona una lista de opciones desplegables.
+* **Menú desplegable de selección única**: Proporciona una lista de opciones desplegables.
 * **Lista desplegable de selección múltiple**: permite a los usuarios seleccionar varias opciones en una lista desplegable.
 
 +++
@@ -300,8 +300,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
 
    * Botones de radio
-   * Grupo de casillas de verificación
-   * Lista desplegable
+   * Grupo de casillas
+   * Menú desplegable de selección única
    * Lista desplegable de selección múltiple
 
    ![Arrastrar un campo al lienzo](assets/drag-field-to-section.png)
@@ -320,8 +320,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas de verificación</li>
-    <li>Lista desplegable</li>
+    <li>Grupo de casillas</li>
+    <li>Menú desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
@@ -331,8 +331,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
      <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas de verificación</li>
-    <li>Lista desplegable</li>
+    <li>Grupo de casillas</li>
+    <li>Menú desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
@@ -343,8 +343,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     </td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas de verificación</li>
-    <li>Lista desplegable</li>
+    <li>Grupo de casillas</li>
+    <li>Menú desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
@@ -358,18 +358,18 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
      </ul></p></td> 
      <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas de verificación</li>
-    <li>Lista desplegable</li>
+    <li>Grupo de casillas</li>
+    <li>Menú desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Tipo de presentación</td> 
-    <td>Cambie entre botones de opción, grupos de casillas de verificación, desplegables o desplegables de selección múltiple para el campo.</td> 
+    <td>Cambie entre botones de opción, grupos de casillas de verificación, listas desplegables de selección única o de selección múltiple para el campo.</td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas de verificación</li>
-    <li>Lista desplegable</li>
+    <li>Grupo de casillas</li>
+    <li>Menú desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
@@ -378,8 +378,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas de verificación</li>
-    <li>Lista desplegable</li>
+    <li>Grupo de casillas</li>
+    <li>Menú desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
@@ -403,8 +403,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     </ol> </td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas de verificación</li>
-    <li>Lista desplegable</li>
+    <li>Grupo de casillas</li>
+    <li>Menú desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
@@ -441,7 +441,7 @@ Puede agregar campos de escritura anticipada y fecha a un formulario personaliza
    * Equipo
    * Plantilla
    * Compañía
-* **Campo de fecha**: muestra un calendario donde los usuarios pueden seleccionar una fecha y una hora.
+* **Fecha**: muestra un calendario donde los usuarios pueden seleccionar una fecha y una hora.
 
 +++
 
@@ -450,7 +450,7 @@ Para añadir los campos de fecha y tipo &quot;delante&quot;:
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
 
    * Escritura anticipada
-   * Campo de fecha
+   * Fecha
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ Para añadir los campos de fecha y tipo &quot;delante&quot;:
       <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
        <td><ul>
     <li>Escritura anticipada</li>
-    <li>Campo de fecha</li>
+    <li>Fecha</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ Para añadir los campos de fecha y tipo &quot;delante&quot;:
       <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
     <td><ul>
     <li>Escritura anticipada</li>
-    <li>Campo de fecha</li>
+    <li>Fecha</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ Para añadir los campos de fecha y tipo &quot;delante&quot;:
       </td> 
          <td><ul>
     <li>Escritura anticipada</li>
-    <li>Campo de fecha</li>
+    <li>Fecha</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar hora del día</td> 
       <td>Seleccione esta opción si desea mostrar la hora del día junto con la fecha en el campo.</td> 
          <td><ul>
-    <li>Campo de fecha</li>
+    <li>Fecha</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ Para añadir los campos de fecha y tipo &quot;delante&quot;:
       <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
        <td><ul>
     <li>Escritura anticipada</li>
-    <li>Campo de fecha</li>
+    <li>Fecha</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 
 +++
 
-1. En el lado izquierdo de la pantalla, busque **Campo nativo** y arrástrelo a una sección del lienzo.
+1. En el lado izquierdo de la pantalla, busque **Referencia de campo nativo** y arrástrela a una sección del lienzo.
 1. En el lado derecho de la pantalla, configure las opciones del campo personalizado:
 
    <table style="table-layout:auto"> 
