@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1612'
 ht-degree: 11%
 
 ---
@@ -39,8 +39,8 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Actualizar campos personalizados | ✓ |   |   |   |
 | Agregar un proceso de aprobación | ✓ |   |   |   |
 | Aprobación de un proyecto | ✓ | ✓ |   |   |
-| Añadir documento | ✓ | ✓ |   |   |
-| Agregar problema | ✓ | ✓ |   |   |
+| Añadir documento | ✓ | ✓ | ✓ |   |
+| Agregar problema | ✓ | ✓ | ✓ |   |
 | Añadir tareas | ✓ |   |   |   |
 | Proporcionar actualizaciones/comentarios | ✓ | ✓ | ✓ |   |
 | Cambiar estado | ✓ |   |   |   |
