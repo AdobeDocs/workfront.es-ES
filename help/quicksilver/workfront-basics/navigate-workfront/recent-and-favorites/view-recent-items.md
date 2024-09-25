@@ -6,16 +6,16 @@ description: El menú [!UICONTROL Recientes] se encuentra en la barra de navegac
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Ver elementos recientes
 
-El menú [!UICONTROL Recientes] se encuentra en la barra de navegación superior. Este menú muestra proyectos, informes, tableros, tareas, problemas, etc. visualizados recientemente.
+El menú [!UICONTROL Recientes] se encuentra en la barra de navegación superior. Este menú muestra proyectos, informes, tableros, tareas, problemas, etc. visualizados recientemente. Solo se incluyen los objetos visualizados en las últimas dos semanas, hasta veinte por tipo de objeto, y se enumeran en orden de visualización más reciente.
 
 ## Requisitos de acceso
 

@@ -6,9 +6,9 @@ description: Programar una entrega automática de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ Para programar un informe para su envío automático o editar o eliminar un env�
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Hora</p> </td> 
-      <td> <p>Seleccione la hora del día a la que se enviará la entrega.</p> <p>Sugerencia: Debido a que las cargas del sistema pueden afectar a los tiempos de entrega de los informes, puede haber un retraso entre la hora programada y la hora de entrega real. Si necesita que un informe se envíe en un momento específico, le recomendamos que programe la entrega antes del momento en que sea necesario. Por ejemplo, se recomienda programar la entrega un día antes de la fecha en que sea necesario.</p> </td> 
+      <td> <p>Seleccione la hora del día a la que se enviará la entrega.</p> <p>Sugerencia: Debido a que las cargas del sistema pueden afectar a los tiempos de entrega de los informes, puede haber un retraso de hasta 24 horas entre la hora programada y la hora de entrega real. Si necesita que un informe se envíe en un momento específico, le recomendamos que programe la entrega antes del momento en que sea necesario. En general, se recomienda programar la entrega al menos un día antes de la fecha en que es necesario.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se repite el</p> </td> 

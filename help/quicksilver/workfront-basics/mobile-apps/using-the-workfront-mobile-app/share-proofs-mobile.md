@@ -6,9 +6,9 @@ description: Puede compartir un documento de prueba con destinatarios internos y
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Esta opción envía un correo electrónico con un vínculo de revisión público
 
 ## Descargar la revisión
 
-Puede descargar una copia del documento de prueba en su dispositivo móvil.
+Puede descargar una copia del documento de prueba en su dispositivo móvil. Tenga en cuenta que aunque no puede obtener una vista previa de los archivos de vídeo, aún puede descargarlos.
 
 1. Abra la revisión del documento y seleccione el menú **[!UICONTROL Más]** ![Menú más](assets/mobile-verticalmoremenu-20x33.png) en la parte superior derecha del documento. A continuación, seleccione **[!UICONTROL Más]**.
 1. Seleccione **[!UICONTROL Descargar]**.
