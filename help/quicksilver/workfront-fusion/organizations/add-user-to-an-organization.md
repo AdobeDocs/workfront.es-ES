@@ -7,9 +7,9 @@ description: Puede añadir usuarios a organizaciones en Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -93,6 +93,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
 -->
+>[!NOTE]
+>
+>Si su organización se encuentra actualmente en el proceso de pasar a Adobe Admin Console, no puede administrar usuarios en Workfront (añadiendo o eliminando usuarios). Puede realizar estas acciones en Adobe Admin Console una vez completada la migración.
 
 Para agregar usuarios a la organización, debe ser administrador de la organización a la que desee agregar usuarios. Para obtener información acerca de los roles, vea [Roles de organización en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
