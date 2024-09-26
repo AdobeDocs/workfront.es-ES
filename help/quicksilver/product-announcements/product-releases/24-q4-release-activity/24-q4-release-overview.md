@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -103,16 +103,16 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p>Versión de vista previa: 12 de agosto de 2024</p>
+                                <p><s>Versión de vista previa: 12 de agosto de 2024</s></p>
                             </li>
                             <li>
-                                <p>Producción para la versión rápida: con la versión 24.9 (12 de septiembre de 2024)</p>
+                                <p>Producción para versión rápida: N/D</p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: por determinar</p>
+                                <p>Versión de producción para todos los clientes: N/D</p>
                             </li>
                         </ul>
-                        <p><i>Esta función forma parte de una versión por fases y estará disponible para un número limitado de clientes en septiembre.</i></p>
+                        <p><i>Esta función se ha eliminado de la vista previa y no se lanzará en futuras versiones.</i></p>
                     </td>
                 </tr>
            </tbody>
