@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 11%
@@ -390,3 +390,4 @@ Solo los usuarios con una licencia estándar pueden tener acceso completo a la a
 | Vea el área de protección en el panel izquierdo |   | ✓ |
 | Vea el área Configuración en el panel izquierdo | ✓ | ✓ |
 | Imprimir una lista de metas | ✓ | ✓ |
+
