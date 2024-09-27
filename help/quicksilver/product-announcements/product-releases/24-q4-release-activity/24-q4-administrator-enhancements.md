@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Para obtener más información sobre cómo revertir un paquete de promoción de 
 
 >[!NOTE]
 >
->Versión de vista previa: 12 de agosto de 2024; producción para versión rápida: con la versión 24.9 (12 de septiembre de 2024); producción para versión trimestral: TBD
+>Versión preliminar: ~~12 de agosto de 2024~~; producción para versión rápida: N/D; producción para versión trimestral: N/D
 >
->_Esta característica forma parte de una versión por fases y estará disponible para un número limitado de clientes en septiembre. Permanecerá en el entorno de vista previa durante un tiempo prolongado mientras recopilamos comentarios._
+>_Esta característica se ha quitado de la vista previa y no se lanzará en futuras versiones._
 
 Un botón &quot;Diseño&quot; en el diseñador de formularios personalizado le permite elegir entre un área de trabajo de dos o tres columnas. El diseñador de formularios original utiliza tres columnas y la configuración del campo se muestra en la columna del extremo derecho. Si selecciona dos columnas, la configuración del campo se muestra junto a la biblioteca de campos en la columna del extremo izquierdo.
 
