@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 
 * [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras de integración](#integration-enhancements)
+* [Mejoras de inicio](#home-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
 * [Mejoras de corrección](#proofing-enhancements)
 * [Mejoras de informes y paneles](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
            </tbody>
         </table>
 
+### Mejoras de inicio
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Característica</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducción a Prioridades: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas.</a></p>
+                        <p>Las prioridades mejoran el enfoque y la productividad para ayudar a los clientes a lograr más en menos tiempo.</p>
+                        <p>Con Prioridades, puede disfrutar de:</p>
+                        <ul>
+                        <li>Administre y priorice las tareas diarias: organice su día o semana con navegación consolidada para una mejor claridad</li>
+                        <li>Mayor productividad: Acceda al contexto del proyecto y realice las tareas más rápido con menos clics</li>
+                        <li>Funciones personalizadas: benefíciese de funciones diseñadas exclusivamente para propietarios de tareas</li>
+                        </ul>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 3 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: 17 de octubre de 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Mejoras del proyecto
 
 <table>
@@ -227,6 +270,23 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Copiar/pegar corrección de problemas para el Visor de revisiones de escritorio</a></p>
+                        <p>Se ha corregido un problema por el cual el contenido se pegaba incorrectamente en la sección Actualizaciones del Visor de corrección de escritorio.</p>
+                        <p>Nueva versión: 2.1.39</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 2 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción para todos los clientes: 2 de octubre de 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

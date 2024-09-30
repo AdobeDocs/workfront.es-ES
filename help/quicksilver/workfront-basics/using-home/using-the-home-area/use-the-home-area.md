@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Esta sección contiene los siguientes artículos:
 
 * [Introducción a [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Moverse del inicio heredado al nuevo inicio](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [Pasar del directorio principal heredado a las prioridades](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 * [Usar el área [!UICONTROL Mis actualizaciones]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Mostrar elementos en la [!UICONTROL Lista de trabajos] en el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Priorizar el trabajo en el área [!UICONTROL Hogar]](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
