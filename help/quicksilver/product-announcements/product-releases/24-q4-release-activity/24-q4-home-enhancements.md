@@ -4,9 +4,9 @@ description: Mejoras en el hogar del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d07aea784f69d7b2d499b9bc7f9bce3dbbb4444c
+source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 ## Simplifique la experiencia de Workfront para los propietarios de tareas con prioridades
 
-Introducción a Priorities: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas.
+Introducción a Prioridades: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas.
 
 Las prioridades mejoran el enfoque y la productividad para ayudar a los clientes a lograr más en menos tiempo.
 
