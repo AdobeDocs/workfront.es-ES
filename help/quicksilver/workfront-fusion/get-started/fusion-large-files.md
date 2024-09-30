@@ -8,16 +8,23 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: d380f495c098e45897ca58627571dfc7dfdcb0f7
+source-git-commit: 630467ca64281df0b257dae8cc5c6edc55ae56ad
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # Uso de archivos grandes en Adobe Workfront Fusion
 
-Actualmente, se admite archivos grandes para los conectores Workfront y HTTP.
+Algunos conectores Fusion admiten archivos cuyo tamaño supere el límite de 1 GB.
+
+## Conectores compatibles con archivos grandes
+
+Actualmente, se admite archivos grandes para los siguientes conectores:
+
+* Workfront
+* HTTP
 
 ## Efecto del tamaño de archivo grande en el tiempo de ejecución del escenario
 
