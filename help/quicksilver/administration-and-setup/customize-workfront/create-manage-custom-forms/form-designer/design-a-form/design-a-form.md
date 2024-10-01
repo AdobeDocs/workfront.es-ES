@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
-ht-degree: 4%
+source-wordcount: '5575'
+ht-degree: 5%
 
 ---
 
 # Diseñar un formulario con el diseñador de formularios
+
+{{highlighted-preview}}
 
 Puede diseñar un formulario personalizado con el diseñador de formularios. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -89,6 +91,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 ## Agregar campos nuevos o existentes al formulario personalizado
 
 Puede utilizar campos nuevos o existentes al diseñar el formulario personalizado.
+
+<span class="preview">Los formularios personalizados están limitados a 500 campos. Un contador situado en la parte inferior izquierda muestra cuántos campos se utilizan en el formulario y siempre está visible a medida que se desplaza por el diseñador de formularios.</span>
 
 ### Reutilizar un campo o widget existente ya utilizado en otro formulario personalizado
 
@@ -300,8 +304,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
 1. En la parte izquierda de la pantalla, busque uno de los siguientes campos y arrástrelo a una sección del lienzo.
 
    * Botones de radio
-   * Grupo de casillas
-   * Menú desplegable de selección única
+   * Grupo de casillas de verificación
+   * Lista desplegable de selección única
    * Lista desplegable de selección múltiple
 
    ![Arrastrar un campo al lienzo](assets/drag-field-to-section.png)
@@ -320,8 +324,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
      <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas</li>
-    <li>Menú desplegable de selección única</li>
+    <li>Grupo de casillas de verificación</li>
+    <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
@@ -331,8 +335,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     <p>Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td>
      <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas</li>
-    <li>Menú desplegable de selección única</li>
+    <li>Grupo de casillas de verificación</li>
+    <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
@@ -343,8 +347,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     </td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas</li>
-    <li>Menú desplegable de selección única</li>
+    <li>Grupo de casillas de verificación</li>
+    <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
@@ -358,8 +362,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
      </ul></p></td> 
      <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas</li>
-    <li>Menú desplegable de selección única</li>
+    <li>Grupo de casillas de verificación</li>
+    <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
@@ -368,8 +372,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     <td>Cambie entre botones de opción, grupos de casillas de verificación, listas desplegables de selección única o de selección múltiple para el campo.</td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas</li>
-    <li>Menú desplegable de selección única</li>
+    <li>Grupo de casillas de verificación</li>
+    <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
     </tr> 
@@ -378,8 +382,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas</li>
-    <li>Menú desplegable de selección única</li>
+    <li>Grupo de casillas de verificación</li>
+    <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
@@ -403,8 +407,8 @@ Para agregar botones de opción, grupos de casillas de verificación y menús de
     </ol> </td> 
     <td><ul>
     <li>Botones de radio</li>
-    <li>Grupo de casillas</li>
-    <li>Menú desplegable de selección única</li>
+    <li>Grupo de casillas de verificación</li>
+    <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
     </ul></td>
      </tr> 
