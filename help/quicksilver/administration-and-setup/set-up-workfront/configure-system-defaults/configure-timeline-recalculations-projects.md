@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ Para obtener información sobre los tipos de actualización del proyecto, vea [I
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    La cronología de todos los proyectos del sistema se vuelve a calcular automáticamente según el tipo de actualización de cada proyecto.
+
+>[!IMPORTANT]
+>
+>Para los entornos de vista previa y espacio aislado de actualización personalizado, el recálculo por la noche está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para los entornos de Vista previa y de la Zona protegida de actualización personalizada. Para obtener más información, vea [Volver a calcular escalas de tiempo de proyectos](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Volver a calcular escalas de tiempo para toda la instancia de [!DNL Workfront]
 

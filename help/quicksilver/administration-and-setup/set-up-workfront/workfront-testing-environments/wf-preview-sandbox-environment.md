@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,16 @@ Cuando se actualiza la zona protegida de vista previa (todos los fines de semana
 Los pasos para configurar el inicio de sesión único en la zona protegida de vista previa son similares a los necesarios para configurarlo en el entorno de producción.
 
 Para obtener más información sobre la configuración de [!DNL Workfront] con SSO, consulte [Información general sobre el inicio de sesión único en Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+
+## Recálculo automático de escalas de tiempo de proyectos
+
+Volver a calcular las escalas de tiempo permite a los administradores ver cómo las fuerzas fuera del proyecto están impactando en la cronología del proyecto. La cronología de un proyecto hace referencia a las fechas planificadas y proyectadas del proyecto.
+
+Como administrador de Workfront, puede configurar cuándo Workfront recalcula automáticamente las escalas de tiempo de los proyectos. Workfront puede recalcular las escalas de tiempo del proyecto cada noche, cuando cambia el ámbito del proyecto o ambas cosas.
+
+Para obtener más información, vea [Configurar cálculos de escala de tiempo para proyectos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+Para el entorno de vista previa, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de vista previa. Para obtener más información, vea [Volver a calcular escalas de tiempo de proyectos](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Previsualizar rendimiento y disponibilidad del entorno
 

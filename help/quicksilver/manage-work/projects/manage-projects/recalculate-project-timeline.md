@@ -6,9 +6,9 @@ description: Volver a calcular las escalas de tiempo permite a los administrador
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ De manera predeterminada, las escalas de tiempo de los proyectos se recalculan a
 
 * [Recálculo automático de escalas de tiempo de proyectos](#automatic-recalculation-of-project-timelines)
 * [Acciones que almacenan en déclencheur un nuevo cálculo automático de las escalas de tiempo del proyecto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>Para los entornos de vista previa y espacio aislado de actualización personalizado, el recálculo por la noche está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para los entornos de Vista previa y de la Zona protegida de actualización personalizada.
 
 ### Recálculo automático de escalas de tiempo de proyectos {#automatic-recalculation-of-project-timelines}
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ Para obtener más información sobre la configuración de [!DNL Workfront] con S
 >[!NOTE]
 >
 >Esto no está disponible si la instancia [!DNL Workfront] de su organización está habilitada con Adobe IMS. Consulte al administrador de red o de TI si necesita más información.
+
+## Recálculo automático de escalas de tiempo de proyectos
+
+Volver a calcular las escalas de tiempo permite a los administradores ver cómo las fuerzas fuera del proyecto están impactando en la cronología del proyecto. La cronología de un proyecto hace referencia a las fechas planificadas y proyectadas del proyecto.
+
+Como administrador de Workfront, puede configurar cuándo Workfront recalcula automáticamente las escalas de tiempo de los proyectos. Workfront puede recalcular las escalas de tiempo del proyecto cada noche, cuando cambia el ámbito del proyecto o ambas cosas.
+
+Para obtener más información, vea [Configurar cálculos de escala de tiempo para proyectos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+Para el entorno de espacio aislado de actualización personalizado, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de espacio aislado de actualización personalizado. Para obtener más información, vea [Volver a calcular escalas de tiempo de proyectos](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Uso y disponibilidad previstos
 
