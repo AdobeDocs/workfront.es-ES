@@ -9,24 +9,24 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: fe096ba36da9b56e0e38f6061481b66cfbeee5c6
+source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 1%
+source-wordcount: '408'
+ht-degree: 0%
 
 ---
 
-# Generación de un módulo mediante IA
+# Generación de un segmento de escenario mediante IA
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->Debido a que esta función aún se encuentra en las primeras etapas de desarrollo, solo está disponible para usuarios internos de Workfront.
+>Como esta función se encuentra en Beta, solo está disponible para algunos usuarios de Workfront.
 
-Puede utilizar IA para escribir un mensaje de texto que describa lo que necesita que haga un módulo. Fusion generará entonces un módulo HTTP que se conectará al punto final correcto de la API deseada.
+Puede utilizar IA para escribir un mensaje de texto que describa lo que necesita que haga una sección del escenario. Fusion generará módulos que realizarán esas acciones, que puede utilizar en su escenario.
 
-Al igual que con cualquier elemento generado a partir de IA, le recomendamos que compruebe y pruebe el módulo generado para asegurarse de que funciona según lo previsto.
+Al igual que con cualquier elemento generado a partir de IA, le recomendamos que compruebe y pruebe los módulos generados para asegurarse de que funcionan según lo previsto.
 
 ## Aplicaciones de módulo de IA admitidas actualmente
 
@@ -50,43 +50,54 @@ Fusion AI puede generar actualmente módulos que se conectan a las siguientes ap
 * OpenAI
 * Slack
 
-## Generar un módulo
+## Generar módulos
 
-1. Agregue un módulo y seleccione **Generar con IA** de la lista de aplicaciones.
+1. Empiece a agregar un módulo y seleccione **Generar con IA** de la lista de aplicaciones.
 
    O
 
-   Haga clic con el botón derecho en un área en blanco del editor de escenarios y luego seleccione **Generar con IA**.
+   Haga clic en el icono Generar con IA ![Generar con IA](assets/generate-with-ai-icon-beta.png) cerca de la parte inferior de la página del editor de escenarios.
+
+   Se abrirá el panel Asistente de IA.
 1. Escriba un mensaje de texto en el cuadro.
 
    Para obtener sugerencias sobre las solicitudes, consulte [Sugerencias para crear solicitudes de texto](#tips-for-creating-text-prompts) en este artículo.
-1. Añada el token de API para la aplicación en el módulo.
-1. Compruebe el módulo para asegurarse de que parece estar configurado para la aplicación y la acción adecuadas.
-1. (Condicional) Si el módulo no está adjunto a su escenario, arrástrelo a su lugar.
 
-Se recomienda probar el módulo para garantizar que el módulo generado funcione según lo previsto.
+   Se genera el módulo o conjunto de módulos.
+1. (Condicional) Si es necesario, agregue el token de API para la aplicación en los módulos.
+1. Compruebe los módulos para asegurarse de que se van a configurar para la aplicación y la acción adecuadas.
+1. (Condicional) Si la sección de escenario generado no está adjunta al escenario, arrástrela a su lugar.
+
+Se recomienda probar los módulos para asegurarse de que funcionan según lo previsto.
 
 ## Sugerencias para crear mensajes de texto
 
 Los mensajes de texto deben incluir la siguiente información como mínimo:
 
 * La aplicación a la que se está conectando
-* La acción que desea realizar
+* La acción o acciones que desea realizar
+
+>[!IMPORTANT]
+>
+>Puede generar más de un módulo a la vez, pero solo puede generar módulos para una aplicación a la vez.
 
 >[!INFO]
 >
 >**Ejemplos**:
 >
->* `Retrieve a list of my calendars from Google Calendar`
+>* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
+>Esto incluye la aplicación `Workfront Planning` y la acción `delete records`. Este mensaje crea tres módulos, uno para cada registro que se eliminará.
+>* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
+>Esto incluye la aplicación `Workfront Planning` y la acción `change campaign summary`.
+>* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
+>Esto incluye la aplicación `Workfront Planning` y la acción `get field details`.
 >
->   Esto incluye la aplicación `Google Calendar` y la acción `Retrieve a list of my calendars`.
+>El siguiente ejemplo NO es correcto:
+>* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->* `Retrieve popular songs from Spotify`
->
->   Esto incluye la aplicación `Spotify` y la acción `Retrieve popular songs`.
+>    Este ejemplo es incorrecto porque incluye varias aplicaciones
 
 Tenga en cuenta lo siguiente al crear mensajes de texto:
 
-* Dado que cada módulo Fusion realiza una única acción, el mensaje de texto debe describir una acción específica.
 * Utilice un lenguaje directo y sencillo.
-* Compruebe y pruebe su módulo. Si no funciona como se espera, perfeccione el mensaje e inténtelo de nuevo.
+* Compruebe y pruebe sus módulos. Si no funciona como se espera, perfeccione el mensaje e inténtelo de nuevo.
