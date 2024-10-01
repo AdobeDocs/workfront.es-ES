@@ -2,16 +2,16 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Generación de un módulo mediante IA
+title: Generación de un segmento de escenario mediante IA
 description: Puede introducir un mensaje de texto para crear un módulo HTTP configurado para el mensaje.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Los mensajes de texto deben incluir la siguiente información como mínimo:
 >Esto incluye la aplicación `Workfront Planning` y la acción `get field details`.
 >
 >El siguiente ejemplo NO es correcto:
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    Este ejemplo es incorrecto porque incluye varias aplicaciones
