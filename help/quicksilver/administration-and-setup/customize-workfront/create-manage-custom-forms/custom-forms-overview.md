@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '383'
+ht-degree: 11%
 
 ---
 
 # Información general sobre formularios personalizados
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 Puede crear un formulario personalizado que los usuarios puedan adjuntar a un objeto de Adobe Workfront. Los usuarios que trabajan en el objeto pueden rellenar el formulario personalizado para proporcionar información sobre el objeto.
 
@@ -32,8 +28,6 @@ Por ejemplo, puede adjuntar un formulario personalizado llamado &quot;Investigac
 ## Cómo crear un formulario personalizado
 
 El diseñador de formularios tiene un área de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo. También permite arrastrar y soltar campos dentro de las secciones al diseñar el formulario. Puede cambiar el tamaño del lado derecho de la pantalla para proporcionar más espacio para las opciones de campo.
-
-<span class="preview">Un botón Diseño (no se muestra en esta imagen) le permite elegir entre un área de trabajo de dos o tres columnas. El botón indica qué diseño está seleccionado actualmente. El diseño de tres columnas muestra la configuración de campo en la columna del extremo derecho. En el diseño de dos columnas, la configuración del campo se muestra junto a la biblioteca de campos en la columna del extremo izquierdo.</span>
 
 Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -50,14 +44,14 @@ Puede agregar los siguientes tipos de campos personalizados a un formulario pers
 * Texto de línea única
 * Párrafo
 * Texto con formato
-* Menú desplegable de selección única
+* Lista desplegable de selección única
 * Lista desplegable de selección múltiple
 * Búsqueda externa
 * Referencia de campo nativo
 * Escritura anticipada
 * Calculado
 * Fecha
-* Grupo de casillas
+* Grupo de casillas de verificación
 * Botones de radio
 * Texto descriptivo
 * Salto de sección
