@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '611'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,45 @@ Para conectar el repositorio de datos de Data Connect con un producto externo, p
 >Una vez que se añade una entrada a la lista de permitidos IP, ya no se permiten las demás direcciones IP. Asegúrese de haber introducido todas las direcciones IP necesarias (tanto para la experiencia de creación como de lectura de la herramienta de visualización) antes de intentar utilizar la herramienta. Si no es así, puede encontrar un error relacionado con las credenciales no válidas.
 >
 >Si no tiene ninguna dirección IP incluida en la lista de permitidos pero sigue teniendo problemas para conectarse a una herramienta de BI, compruebe la configuración del servidor proxy para la herramienta de BI.
+
+## Requisitos de acceso
+
++++ Amplíe para ver los requisitos de acceso.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Incluido en los siguientes planes:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Se puede comprar como complemento de los siguientes planes:</p> 
+    <ul>
+        <li>Seleccionar</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect no está disponible para los planes Workfront heredados.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Debe ser administrador de Workfront.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Añadir direcciones IP a la lista de permitidos
 

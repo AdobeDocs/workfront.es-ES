@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>24.8 (15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (octubre de 2024)</li></ul> | <ul><li>24.10 (octubre de 2024)</li></ul> |
+>| <ul><li>24.8 (15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (17 de octubre de 2024)</li></ul> | <ul><li>24.10 (17 de octubre de 2024)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (24.10 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes.
 >
@@ -91,7 +91,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                                 <p>Producción para la versión rápida: con la versión 24.9 (12 de septiembre de 2024)</p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -188,7 +188,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                                 <p>Versión de vista previa: 3 de octubre de 2024</p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: 17 de octubre de 2024</p>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -228,7 +228,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                                 <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -248,7 +248,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                                 <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                             </li>
                             <li>
-                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</p>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -351,7 +351,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Versión de producción para todos los clientes: con la versión de 24.10 (octubre de 2024)</span></p>
+                                <p><span class="preview">Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</span></p>
                             </li>
                         </ul>
                         <p><i>Solo disponible para organizaciones con uno de los nuevos planes de Adobe Workfront. Data Connect está incluido en el plan Ultimate o se puede adquirir como complemento de los planes Prime y Select.</i></p>

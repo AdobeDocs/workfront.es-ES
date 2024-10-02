@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obtener más información, consulte [Personalizar la vista de detalles con 
 
 >[!NOTE]
 >
->Versión de vista previa: 29 de agosto de 2024; producción para versión rápida: con la versión 24.9 (12 de septiembre de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
+>Versión de vista previa: 29 de agosto de 2024; producción para versión rápida: con la versión 24.9 (12 de septiembre de 2024); producción para versión trimestral: con la versión 24.10 (17 de octubre de 2024)
 
 Para que la promoción del entorno sea más flexible y fácil de usar, hemos habilitado la funcionalidad de reversión. Ahora, puede revertir paquetes en un plazo de 24 horas, lo que le permite restaurar más fácilmente las configuraciones anteriores que se han visto afectadas por un paquete de promoción de entorno.
 

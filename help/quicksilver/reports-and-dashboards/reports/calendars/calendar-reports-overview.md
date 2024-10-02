@@ -7,9 +7,9 @@ description: Un informe de calendario es un informe dinámico que proporciona un
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,3 @@ En cada informe de calendario, puede crear grupos de elementos que le permitan d
 >[!NOTE]
 >
 >Si se produce un error 504 al ejecutar un informe de calendario, es probable que el informe contenga demasiados filtros. Si se reduce el número de filtros, el informe debería ejecutarse.
-
-## Agregar sus calendarios a un panel
-
-Puede tener acceso rápido a los informes de calendario mostrándolos en un panel. Para obtener información sobre cómo agregar un calendario a un panel, consulte [Editar un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

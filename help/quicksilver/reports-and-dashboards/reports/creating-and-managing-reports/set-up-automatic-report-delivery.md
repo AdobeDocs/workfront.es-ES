@@ -6,9 +6,9 @@ description: Programar una entrega automática de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
@@ -160,6 +160,12 @@ Para programar un informe para su envío automático o editar o eliminar un env�
    El informe se muestra en la sección **Envíos repetidos** (en el cuadro de diálogo **Enviar informe**) y se enviará a la hora programada.
 
    Para obtener información sobre las limitaciones de tamaño que pueden afectar el envío de los informes, consulte las secciones [Límites de envío de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) y [Límites de exportación](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>Los informes programados están sujetos a un límite de tiempo interno cuando se procesan para su envío. En el caso de que el envío de un informe tarde más tiempo que el límite, se le enviará una notificación y el informe dejará de entregarse, independientemente de las entregas programadas restantes. Para continuar enviando el informe, primero intente reducir el tamaño del informe mediante filtros y vistas y, a continuación, cree un nuevo envío programado.
+>
+>Si está utilizando una entrega de informes programada para analizar los datos de Workfront a través de una herramienta de BI, le recomendamos que utilice Workfront Data Connect en su lugar. Para obtener más información, consulte [Información general sobre Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Opcional) Para eliminar una entrega programada:
 

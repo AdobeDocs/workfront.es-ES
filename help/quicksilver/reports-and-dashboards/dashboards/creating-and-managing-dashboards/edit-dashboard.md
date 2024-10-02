@@ -6,9 +6,9 @@ description: El objetivo del tablero es proporcionar un acceso rápido a la info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ El objetivo del tablero es proporcionar un acceso rápido a la información. Pue
 
   Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Calendarios
-
-  Para obtener más información acerca de cómo crear calendarios, vea [Calendarios: índice de artículos](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * Páginas externas
 
   Para obtener más información sobre la creación de páginas externas, vea [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -33,7 +29,7 @@ Después de crear estos elementos y agregarlos a un panel, puede editar el panel
 
 Cualquier cambio realizado en un tablero afectará a todos los usuarios que tengan acceso a él.
 
-Al compartir un tablero con los usuarios, todos los informes, calendarios y páginas externas también se comparten con los mismos usuarios.
+Al compartir un tablero con los usuarios, todos los informes y las páginas externas también se comparten con los mismos usuarios.
 
 ## Requisitos de acceso
 
@@ -86,7 +82,7 @@ Para obtener información sobre cómo crear paneles, consulte [Crear un panel](.
    * **Nombre**: edite el nombre del tablero.
    * **Descripción**: especifique una descripción para el tablero.
 
-1. En la sección **Informes y calendarios disponibles**, empiece a escribir el nombre de un informe, calendario o página externa en el campo **Buscar por nombre o tipo ...** y, a continuación, arrastre y suelte el informe o calendario en el panel de diseño situado a la derecha.
+1. En la sección **Informes disponibles**, empiece a escribir el nombre de un informe o página externa en el campo **Buscar por nombre o tipo ...**, a continuación, arrastre y suelte el informe en el panel de diseño situado a la derecha.
 
    >[!NOTE]
    >
