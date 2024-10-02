@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -173,7 +173,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducción a Prioridades: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducción a Prioridades: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas</a></p>
                         <p>Las prioridades mejoran el enfoque y la productividad para ayudar a los clientes a lograr más en menos tiempo.</p>
                         <p>Con Prioridades, puede disfrutar de:</p>
                         <ul>

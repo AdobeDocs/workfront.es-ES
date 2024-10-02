@@ -5,9 +5,9 @@ description: Prioridades es una experiencia intuitiva y optimizada, adaptada a l
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -182,6 +182,7 @@ Utilice la función Ponerme al día para ver lo que se ha perdido. Ponerme al d�
 
 ## Consideraciones
 
+* Los administradores de Workfront no pueden personalizar prioridades a través de la plantilla de diseño en este momento.
 * El acceso a las tareas en Prioridades se realiza entre pestañas. En el futuro, planeamos agregar pestañas adicionales, como Documentos, Subtareas, Aprobaciones, etc. Infórmenos de que necesitas estos artículos enviando comentarios usando el botón **Enviar comentarios**.
 
 
