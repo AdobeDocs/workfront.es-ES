@@ -10,9 +10,9 @@ description: Con el conector  [!DNL Adobe Experience Manager Assets] para la cue
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -127,20 +127,28 @@ Para crear una conexión para los módulos de [!DNL Adobe Experience Manager Ass
                   <td>Escriba la dirección URL de la instancia [!DNL Adobe Experience Manager]. No incluya una barra diagonal <code>/</code> al final de la dirección URL.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Detalles de cuenta, opciones de relleno]</td>
+                  <td>Seleccione si desea proporcionar un archivo JSON que describa los detalles de su cuenta o si desea introducir los detalles manualmente.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Detalles técnicos de la cuenta en formato JSON]</td>
+                  <td>Si proporciona JSON, introduzca o pegue el JSON que describe los detalles de la cuenta.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL ID de cliente]</td>
-                  <td>Introduzca el ID de cliente generado en la configuración de [!UICONTROL Servidor a servidor].</td>
+                  <td>Si introduce los detalles manualmente, introduzca el ID de cliente generado en la configuración de [!UICONTROL Servidor a servidor].</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Secreto de cliente]</td>
-                  <td>Escriba el Secreto de cliente generado en la configuración de [!UICONTROL Servidor a servidor].</td>
+                  <td>Si introduce los detalles manualmente, introduzca el Secreto de cliente generado en la configuración de [!UICONTROL Servidor a servidor].</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL ID de cuenta técnica]</td>
-                  <td>Introduzca el ID de la cuenta técnica. Este es el campo "[!UICONTROL id]" en el archivo JSON de credenciales del cliente.</td>
+                  <td>Si introduce los detalles manualmente, introduzca el ID de la cuenta técnica. Este es el campo "[!UICONTROL id]" en el archivo JSON de credenciales del cliente.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Introduzca el ID de su organización. Este es el campo "[!UICONTROL org]" en el archivo JSON de credenciales del cliente.</td>
+                  <td class="">Si introduce los detalles manualmente, introduzca el ID de su organización. Este es el campo "[!UICONTROL org]" en el archivo JSON de credenciales del cliente.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL MetaÁmbitos]</td>
