@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Para personalizar el nuevo directorio raíz mediante una plantilla de diseño:
       <p>Una vez que haya seleccionado el widget que desea editar, las opciones disponibles se mostrarán a la derecha. Estas opciones incluyen <b>Filtros</b>, <b>Columnas</b> y <b>Grupos</b>. Puede:</p>
       <ul>
       <li><p><b>Seleccione y ordene los filtros, columnas o grupos disponibles para los usuarios:</b></p>
-      <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Las opciones no seleccionadas no aparecerán para los usuarios. Arrastre y suelte las opciones de la lista para establecer un orden.</li></p>
+      <p>Marque la casilla junto a todas las opciones de la lista que desee que los usuarios puedan utilizar. Estas opciones no se extienden al panel Resumen. Debe configurar esa área en la pestaña Resumen de la plantilla de diseño. Las opciones no seleccionadas no aparecerán para los usuarios. Arrastre y suelte las opciones de la lista para establecer un orden.</li></p>
       <p>
 
 >[!IMPORTANT]

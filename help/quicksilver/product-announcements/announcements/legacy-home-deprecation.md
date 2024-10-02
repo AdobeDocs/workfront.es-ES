@@ -6,9 +6,9 @@ description: Esta página contiene información sobre la próxima obsolescencia 
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
+source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Recomendamos a los administradores:
 1. Reasigne el resto de los usuarios al nuevo diseño de página de inicio.
 
 Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva experiencia y personalizar sus nuevas páginas de inicio para adaptarlas mejor a sus necesidades individuales. Consulte [Quitar, agregar y reorganizar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) para obtener información sobre cómo un usuario puede personalizar los widgets en su propia página de inicio nueva.
+
+### Descubra lo que está disponible en la nueva página Inicio y prioridades
+
+Los siguientes artículos proporcionan información sobre las funciones disponibles en la nueva página de inicio y prioridades:
+
+* [Cambio de una página de inicio heredada a una nueva](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [Cambio de una página de inicio heredada a prioridades](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Siga la experiencia de Inicio a medida que se desarrolla
 
