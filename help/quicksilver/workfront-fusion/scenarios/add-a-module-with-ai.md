@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
+source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ Fusion AI puede generar actualmente módulos que se conectan a las siguientes ap
 
    Haga clic en el icono Generar con IA ![Generar con IA](assets/generate-with-ai-icon-beta.png) cerca de la parte inferior de la página del editor de escenarios.
 
-   Se abrirá el panel Asistente de IA.
+   Se abrirá el panel Ayudante de IA.
 1. Escriba un mensaje de texto en el cuadro.
 
    Para obtener sugerencias sobre las solicitudes, consulte [Sugerencias para crear solicitudes de texto](#tips-for-creating-text-prompts) en este artículo.
 
-   Se genera el módulo o conjunto de módulos.
+   El asistente de IA genera el módulo o conjunto de módulos.
 1. (Condicional) Si es necesario, agregue el token de API para la aplicación en los módulos.
-1. Compruebe los módulos para asegurarse de que se van a configurar para la aplicación y la acción adecuadas.
+1. Compruebe los módulos para asegurarse de que están configurados para la aplicación y la acción adecuadas.
 1. (Condicional) Si la sección de escenario generado no está adjunta al escenario, arrástrela a su lugar.
 
 Se recomienda probar los módulos para asegurarse de que funcionan según lo previsto.
