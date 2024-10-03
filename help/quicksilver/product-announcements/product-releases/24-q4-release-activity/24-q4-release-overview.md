@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 ## Mejoras de Adobe Workfront
 
 * [Mejoras del administrador](#administrator-enhancements)
+* [Mejoras en la administración de documentos](#document-management-enhancements)
 * [Mejoras de integración](#integration-enhancements)
 * [Mejoras de inicio](#home-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
@@ -46,8 +47,8 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 ### Mejoras del administrador
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td>
                         <p><span class="bold">Fechas de lanzamiento</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Un contador de formularios personalizados muestra el número de campos</a></p>
+                        <p>Los formularios personalizados están limitados a 500 campos. En un formulario largo, puede resultar difícil saber cuántos campos hay en el formulario y si se está acercando al límite. Se ha agregado un contador a los formularios personalizados en la parte inferior izquierda. El contador muestra cuántos campos se utilizan en el formulario y siempre está visible a medida que se desplaza por el diseñador de formularios.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 1 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### Mejoras en la administración de documentos
+
+>[!IMPORTANT]
+>
+>Las características enumeradas en **Mejoras en la administración de documentos** forman parte de una versión por fases y solo están disponibles para clientes específicos.
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Característica</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Ver el estado de la decisión del documento directamente en la lista de documentos</a></p>
+                        <p>Ahora puede ver el estado de decisión de un documento directamente en la lista de documentos.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 3 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Agregue rápidamente revisores y aprobadores anteriores a las nuevas versiones del documento</a></p>
+                        <p>Ahora puede agregar rápidamente revisores y aprobadores de versiones de documentos anteriores.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 3 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### Mejoras de integración
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Mejoras de inicio
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### Mejoras del proyecto
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Mejoras de corrección
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Copiar/pegar corrección de problemas para el Visor de revisiones de escritorio</a></p>
+                        [!BADGE en producción ]{type=Informative}
                         <p>Se ha corregido un problema por el cual el contenido se pegaba incorrectamente en la sección Actualizaciones del Visor de corrección de escritorio.</p>
                         <p>Nueva versión: 2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Mejoras de informes y paneles
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</span></p>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                             </li>
                         </ul>
                         <p><i>Solo disponible para organizaciones con uno de los nuevos planes de Adobe Workfront. Data Connect está incluido en el plan Ultimate o se puede adquirir como complemento de los planes Prime y Select.</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Otras mejoras
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Resumir proyectos o actualizaciones con un solo clic</a></p>
+                        <p>Para facilitar la visualización rápida de los aspectos destacados de un proyecto o de un flujo de actualización, hemos añadido botones de Resumen a esas áreas de Workfront. Ahora puede hacer clic en el botón para generar un resumen en el asistente de IA.</p><p>Anteriormente, los usuarios podían abrir el Ayudante de IA y escribir un mensaje para crear un resumen del proyecto o actualizar el flujo.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 3 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Disponibilidad general de Adobe Workfront Planning</a></p>
@@ -421,7 +510,7 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### Funcionalidad que se eliminará pronto de Workfront
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Esta página describe todas las mejoras de administrador realizadas con la versión del cuarto trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2024, consulte [Información general de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Un contador de formularios personalizados muestra el número de campos
+
+>[!NOTE]
+>
+>Versión de vista previa: 1 de octubre de 2024; versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)
+
+Los formularios personalizados están limitados a 500 campos. En un formulario largo, puede resultar difícil saber cuántos campos hay en el formulario y si se está acercando al límite.
+
+Se ha agregado un contador a los formularios personalizados en la parte inferior izquierda. El contador muestra cuántos campos se utilizan en el formulario y siempre está visible a medida que se desplaza por el diseñador de formularios.
+
+Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Ahora está disponible la opción &quot;Seleccionar todo&quot; en las plantillas de diseño
 

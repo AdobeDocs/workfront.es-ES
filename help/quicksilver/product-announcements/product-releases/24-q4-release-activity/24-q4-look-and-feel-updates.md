@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -22,11 +22,28 @@ Para obtener una lista de todos los cambios disponibles con la versión del cuar
 
 >[!NOTE]
 >
->Versión de vista previa: 19 de septiembre de 2024; versión de producción para todos los clientes: con la versión 24.10 (17 de octubre de 2024)
+>Versión de vista previa: 26 de septiembre de 2024; versión de producción para todos los clientes: con la versión 24.10 (17 de octubre de 2024)
 
-Hemos realizado una serie de actualizaciones en la interfaz de los paneles para que coincida con el diseño de otras áreas de Workfront. Estos cambios incluyen una nueva pantalla Vista previa de impresión al imprimir un panel, así como la eliminación de la capacidad de colocar calendarios en los paneles. Los calendarios existentes en los paneles mostrarán en su lugar un vínculo al calendario.
+Hemos realizado una serie de actualizaciones en la interfaz de los paneles para que coincida con el diseño de otras áreas de Workfront, incluyendo mejoras en la pantalla de vista previa de impresión al imprimir un panel.
+
+Como consecuencia de estos cambios, los calendarios ya no se pueden colocar en los paneles. Los calendarios existentes en los paneles mostrarán en su lugar un vínculo al calendario.
 
 Para obtener más información sobre los paneles, consulte [Crear y administrar paneles](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Para obtener más información sobre los calendarios, vea [Resumen de informes de calendario](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+
+<!--
+
+## Look and feel updates for reports
+
+>[!NOTE]
+>
+>Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+
+* changes to existing reports that improve their use in Canvas Dashboards
+* an expanded color palette for conditional formatting rules in reports
+
+For more information about -->
 
 ## Actualizaciones de aspecto y funcionamiento para la página Preferencias del sistema
 
