@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -39,3 +39,4 @@ Esta sección contiene los siguientes artículos:
 * [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Resumen de límites del proyecto](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Resumen de las métricas del proyecto](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [Resumir actualizaciones con el asistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

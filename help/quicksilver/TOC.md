@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 2%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [Etiquetar a otros en las actualizaciones](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Ver todas las actualizaciones en un informe de notas](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Información general sobre el botón Trabajar en ello y Listo](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [Resumir actualizaciones con el asistente de IA](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * Trabajar con formularios personalizados {#work-with-custom-forms}
       * [Trabajar con formularios personalizados](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Agregar un formulario personalizado a un objeto](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 2%
          * [Administrar un proyecto en la vista de Agile](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Resumen de las métricas del proyecto](manage-work/projects/manage-projects/project-metrics.md)
          * [Resumen de límites del proyecto](manage-work/projects/manage-projects/project-maximums.md)
+         * [Resumir actualizaciones con el asistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Crear y administrar plantillas de proyecto {#create-and-manage-project-templates}
          * [Crear y administrar plantillas de proyecto: índice de artículos](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Resumen de plantilla de proyecto](manage-work/projects/create-and-manage-templates/project-template-overview.md)
