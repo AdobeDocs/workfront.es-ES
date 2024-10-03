@@ -6,14 +6,16 @@ description: Puede actualizar el estado de una tarea para informar a otros sobre
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # Actualizar estado de la tarea
+
+<!--Audited: 10/2024-->
 
 Puede actualizar el estado de una tarea para informar a otros sobre dónde se encuentra la tarea (y el proyecto general) y cómo progresa.
 
@@ -22,6 +24,8 @@ Los estados predeterminados son Nuevo, En curso y Completado. El administrador d
 Puede actualizar manualmente los estados de las tareas o dejar que Workfront los actualice automáticamente cuando se realicen determinadas acciones.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para actualizar las tareas manualmente:
 
@@ -51,7 +55,9 @@ Debe tener el siguiente acceso para actualizar las tareas manualmente:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones acerca de la actualización del estado de las tareas
 

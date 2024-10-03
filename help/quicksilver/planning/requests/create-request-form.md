@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 2%
+source-wordcount: '1290'
+ht-degree: 4%
 
 ---
 
@@ -146,17 +146,33 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible.
    * Todos los campos asociados al tipo de registro.
 
-   Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
+     Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
 
 1. (Opcional) Pase el ratón sobre cualquier campo del formulario que quiera quitar y luego haga clic en el icono **x** para quitarlo. Se agregarán a la ficha **Campos** situada a la izquierda del formulario.
 
    Por ejemplo, quite el campo **Asunto**, ya que esto no es visible en Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Haga clic en cualquier campo y, a continuación, utilice los controles del lado derecho del formulario para definir su tamaño o cualquiera de la siguiente información sobre los campos:
+1. Haga clic en cualquier campo y, a continuación, utilice los controles del panel derecho del formulario para definir su tamaño o cualquiera de las siguientes informaciones:
 
    * **Etiqueta**: este es el nombre del campo tal como aparecerá en el formulario de solicitud. Esto no cambia el nombre del campo de registro.
    * **Instrucciones**: Agregue más información sobre el campo.
    * **Crear un campo obligatorio**: cuando se selecciona, el campo debe tener un valor. De lo contrario, el formulario no se podrá enviar.
    * **Agregar lógica**: defina qué condiciones deben cumplirse para que el campo se muestre o se oculte.
+
+   El tipo de campo de cada campo se muestra en la parte superior del panel derecho, después de seleccionar el campo en el formulario. Los nombres de los tipos de campo en el formulario de solicitud difieren de sus nombres en la vista de tabla. En la tabla siguiente se describen las diferencias entre los nombres de los tipos de campo de la vista de tabla y los nombres de los mismos campos del formulario de solicitud del tipo de registro:
+
+   | Tipo de campo de Workfront Planning | Tipo de campo de formulario de solicitud |
+   |-------------------------------|-------------------------|
+   | Texto de línea única | Texto de línea única |
+   | Párrafo | Texto con formato |
+   | Moneda, Número, Porcentaje | Texto de línea única |
+   | Selección única | Lista desplegable de selección única |
+   | Selección múltiple | Lista desplegable de selección múltiple |
+   | Casilla de verificación | Grupo de casillas de verificación |
+
+   >[!NOTE]
+   >
+   >   Se conservan los formatos de los campos. Por ejemplo, aunque Moneda y Porcentaje se muestran como campos de Texto de una sola línea, la información de los campos se muestra como moneda y como valor de porcentaje.
+
 
 1. (Opcional) Haga clic en la pestaña **Elementos de contenido** de la parte izquierda del formulario y agregue cualquiera de los siguientes elementos:
 

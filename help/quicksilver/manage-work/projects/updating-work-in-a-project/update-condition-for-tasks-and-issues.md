@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Actualizar condición para tareas y problemas
+title: Actualizar la condición para tareas y problemas
 description: La condición de una tarea o problema es un indicador colocado en él para indicar cómo va. Esto es diferente al Estado del elemento de trabajo, que indica la fase actual de desarrollo del elemento.
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%

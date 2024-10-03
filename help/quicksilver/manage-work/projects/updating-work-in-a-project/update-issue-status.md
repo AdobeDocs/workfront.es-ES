@@ -6,10 +6,10 @@ description: Puede actualizar el estado de un problema para informar a otros sob
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 2%
 Puede actualizar el estado de un problema para informar a otros sobre dónde se encuentra y cómo progresa.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -33,9 +35,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nueva licencia: Colaborador o superior</p>
+   <td> <p>Nuevo: Colaborador o superior</p>
    O
-   <p>Licencia actual: Solicitud o superior</p>
+   <p>Actual: Solicitud o superior</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Estados de problemas
 

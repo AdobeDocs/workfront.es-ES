@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-Puede conectar tipos de registros entre sí o tipos de registros con tipos de objetos de otras aplicaciones.
+Puede conectar tipos de registros entre sí o conectar tipos de registros con tipos de objetos de otras aplicaciones.
 
 En este artículo se describe cómo conectar dos tipos de registros de Workfront Planning o un tipo de registro de Workfront Planning con un objeto de otra aplicación.
 
@@ -183,7 +183,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 1. En el campo **Tipo de registro**, busque un tipo de registro o seleccione una de las siguientes opciones:
 
-   * Otro tipo de registro del espacio de trabajo seleccionado
+   * Otro tipo de registro del espacio de trabajo actual
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
      >[!TIP]
      >
-     >Si no hay ningún tipo de registro configurado para conectarse desde otro espacio de trabajo, la sección del espacio de trabajo no se muestra.
+     >Si no hay ningún tipo de registro configurado para conectarse desde otros espacios de trabajo, la sección del espacio de trabajo no se muestra.
 
 
    * Un **proyecto, Portfolio, programa, compañía** o **grupo** de la sección **Tipos de objetos de Workfront**.
@@ -218,7 +218,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no edita el nombre del campo conectado, Workfront agrega un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
 
    * **Descripción**: Información adicional acerca del campo de registro conectado. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
-   * **Permitir varios registros**: seleccione esta opción para indicar que permite que los usuarios puedan agregar varios registros cuando el campo de tipo de registro vinculado se muestra en los registros originales. Esta opción está seleccionada de forma predeterminada.
+   * **Permitir varios registros**: seleccione esta opción para indicar que permite a los usuarios agregar varios registros cuando el campo de tipo de registro vinculado se muestra en los registros originales. Esta opción está seleccionada de forma predeterminada.
 
      Esta opción solo está disponible cuando se conectan registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager.
 
@@ -237,7 +237,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
      Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto al que se está vinculando en el registro desde el que se está estableciendo el vínculo. Esta opción está seleccionada de forma predeterminada.
+   * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    * Los registros se agrupan por cada combinación única de valores de campo
 
-   * La vista de cronología se crea en función del primer valor de fecha.
+   * La vista de cronología se crea en función del primer valor de fecha
 
    >[!IMPORTANT]
    >
@@ -331,7 +331,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    >[!NOTE]
    >
-   >Por ejemplo, puede vincular el registro de producto (registro vinculado) desde el registro de campaña (registro original) y asignarle el nombre &quot;Campo de producto&quot;. También puede vincular el campo Presupuesto del registro de producto del registro de campaña y llamarlo &quot;Presupuesto de producto&quot;. Si se le permite seleccionar varios registros en el &quot;Campo de producto&quot;, puede seleccionar el Producto 1 con un Presupuesto de 100 000 $ y el Producto 2 con un Presupuesto de 110 000 $, y el Producto 3 con un Presupuesto de 100 000 $. Puede ver la siguiente información de presupuesto en el campo vinculado desde el registro original, en función del agregador que elija:
+   >Por ejemplo, puede vincular el registro de producto (registro vinculado) desde el registro de campaña (registro original) y asignarle el nombre &quot;campo de producto&quot;. También puede vincular el campo Presupuesto del registro de producto del registro de campaña y llamarlo &quot;Presupuesto de producto&quot;. Si se le permite seleccionar varios registros en el &quot;Campo de producto&quot;, puede seleccionar el Producto 1 con un Presupuesto de 100 000 $ y el Producto 2 con un Presupuesto de 110 000 $, y el Producto 3 con un Presupuesto de 100 000 $. Puede ver la siguiente información de presupuesto en el campo vinculado desde el registro original, en función del agregador que elija:
    >
    >* **Ninguno**: 100.000, 110.000, 100.000 $
    >* **MAX**: $110,000
@@ -353,7 +353,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Por ejemplo, si ha vinculado un tipo de registro de campaña con un tipo de registro de programa y ha asignado al campo de registro vinculado de programa el nombre &quot;Información del programa&quot;, seleccione para mostrar también el campo Presupuesto del programa en la vista de tabla de la campaña, el campo vinculado se llamará automáticamente `Budget (from Program information)` en la vista de tabla de la campaña.
+     Por ejemplo, si ha vinculado un tipo de registro de campaña con un tipo de registro de programa y ha asignado al campo de registro vinculado de programa el nombre &quot;Información del programa&quot;, seleccionado a continuación para mostrar también el campo Presupuesto del programa en la vista de tabla de la campaña, el campo vinculado se denomina automáticamente `Budget (from Program information)` en la vista de tabla de la campaña.
 
    * Cuando se vinculan tipos de registros entre sí, también se agrega un campo de registro vinculado en el tipo de registro al que se está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
 
@@ -365,7 +365,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 1. (Opcional y condicional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
 
-   * **Editar campo**: puede actualizar la información de **Nombre** y **Descripción** del campo.
+   * **Editar campo**: Actualice la información de **Nombre** y **Descripción** del campo.
    * **Editar campos de búsqueda**: agregue o quite cualquiera de los campos del registro vinculado.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

@@ -9,9 +9,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ No planeamos recuperar la capacidad de realizar estas acciones, ya que están di
 
 ## ¿Hay planes para tener una vista combinada de los comentarios y las actualizaciones del sistema?
 
-Actualmente no hay planes para proporcionar una vista combinada. Proporcione sus comentarios y casos de uso a través del botón Dejar comentarios en la aplicación o envíe solicitudes en el área de Workfront Ideas de la comunidad para que podamos comprender mejor cuán necesaria es la funcionalidad.
+Actualmente no hay planes para proporcionar una vista combinada. Envíe una solicitud al equipo de asistencia si es necesario para que podamos comprender mejor cuán necesaria es la funcionalidad.
 
 ## ¿Devolverá la funcionalidad de deshacer un comentario publicado?
 
@@ -40,11 +40,11 @@ Hemos reemplazado la funcionalidad de deshacer un comentario publicado con la ca
 
 ## ¿Se limitará la funcionalidad de quitar participantes del subproceso a tipos de licencia específicos?
 
-Actualmente no hay planes para agregar permisos o controles de acceso para los usuarios que pueden utilizar esta funcionalidad recién introducida. Proporcione sus comentarios y casos de uso a través del botón Dejar comentarios en la aplicación o envíe solicitudes en el área de Workfront Ideas de la comunidad para que podamos comprender mejor la importancia de esta funcionalidad.
+Actualmente no hay planes para agregar permisos o controles de acceso para los usuarios que pueden utilizar esta funcionalidad recién introducida. Envíe una solicitud al equipo de asistencia si es necesario para que podamos comprender mejor la importancia de esta funcionalidad.
 
 ## ¿Hay alguna forma de controlar quién puede editar los comentarios?
 
-Actualmente no hay planes para agregar permisos o controles de acceso sobre quién puede editar comentarios. Proporcione sus comentarios y casos de uso a través del botón Dejar comentarios en la aplicación o envíe solicitudes en el área de Workfront Ideas de la comunidad para que podamos comprender mejor la importancia de esta funcionalidad.
+Actualmente no hay planes para agregar permisos o controles de acceso sobre quién puede editar comentarios. Envíe una solicitud al equipo de asistencia si es necesario para que podamos comprender mejor la importancia de esta funcionalidad.
 
 ## ¿Será posible buscar o filtrar comentarios?
 

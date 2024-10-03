@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '3007'
+source-wordcount: '3037'
 ht-degree: 0%
 
 ---
@@ -130,12 +130,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    * Desde un objeto de Workfront, en la sección Actualizaciones (para proyectos, tareas y problemas)
    * Desde el área de Inicio (para tareas y problemas)
+
+     Para obtener más información, consulta [Administrar tu trabajo con el widget Mi trabajo](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md).
    * En el panel Resumen, en las siguientes áreas (para tareas, problemas y documentos):
 
       * Una lista de objetos
       * Una hoja de horas
       * Inicio
       * Distribuidor de cargas de trabajo
+
+     Para obtener más información, consulte los siguientes artículos:
+
+      * [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [Actualizar los elementos de trabajo en el Distribuidor de cargas de trabajo mediante el Resumen](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

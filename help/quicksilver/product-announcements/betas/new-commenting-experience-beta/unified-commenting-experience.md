@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 >El programa beta para la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre de 2023, con la versión de octubre de 2023.
 >
 >Desde el 11 de abril de 2024, todas las funciones de la nueva experiencia de comentarios están disponibles en el entorno de producción para todos los clientes.
+>
+> La experiencia de comentarios anterior se ha eliminado de Workfront.
 
 ## Funciones
 
@@ -47,7 +49,7 @@ Entre las mejoras incluidas en la nueva experiencia de comentarios están las si
 * Indicador de tiempo real cuando se añaden nuevos comentarios a un objeto
 * Edición de comentarios después de enviarlos
 
-Las siguientes funciones se han eliminado o quedarán obsoletas en la nueva experiencia:
+Se han eliminado las siguientes funciones de la nueva experiencia:
 
 * Comentario sobre una actualización del sistema. Los comentarios agregados a las actualizaciones del sistema en el pasado se han importado como comentarios de solo lectura en la nueva pestaña Actividad del sistema.
 * Capacidad para editar el estado, la condición, la fecha de confirmación y el porcentaje completado al comentar tareas y problemas.
@@ -81,17 +83,14 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
   <tr>
    <td><strong>Característica </strong>
    </td>
-   <td><strong>Existe en la experiencia antigua de comentarios </strong>
+   <td><strong>Existía en la antigua experiencia de comentarios </strong>
    </td>
    <td><strong>Existe en la nueva experiencia de comentarios </strong>
    </td>
-   <td><strong>Se introducirá en la nueva experiencia de comentarios </strong>
+
+<td><strong>Presentado en la nueva experiencia de comentarios </strong>
    </td>
-   <td><strong>Cuándo se introducirá en la nueva experiencia de comentarios </strong>
-   </td>
-   <td><strong>En investigación </strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Crear/leer/responder/eliminar comentarios 
    </td>
@@ -99,13 +98,11 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
   </td>
    <td>✓ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Texto enriquecido (excluye comillas y emojis)
    </td>
@@ -113,12 +110,10 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td>✓
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Texto enriquecido (citas de bloque)
@@ -143,13 +135,10 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> SEGUNDO TRIMESTRE DE 2023
    </td>
-   <td> SEGUNDO TRIMESTRE DE 2023
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> Citar comentarios
@@ -158,13 +147,10 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> SEGUNDO TRIMESTRE DE 2023
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Reaccionar a los comentarios (Me gusta) 
    </td>
@@ -174,11 +160,8 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Adjuntar imágenes a los comentarios 
    </td>
@@ -186,13 +169,10 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Etiquetar personas en comentarios 
    </td>
@@ -202,11 +182,8 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Quitar participantes del hilo
    </td>
@@ -216,23 +193,13 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>Etiquetar automáticamente todos los participantes del hilo
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Deshacer la publicación de un comentario 
@@ -259,11 +222,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td>Reemplazado por el comentario de edición 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Editar comentarios 
    </td>
@@ -289,11 +244,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Guardar borradores de comentarios al salir de la página 
    </td>
@@ -303,21 +254,13 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Ver nuevos comentarios en tiempo real (incluye ver cuándo se elimina un comentario)
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Copiar el enlace del hilo 
@@ -343,11 +282,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> Reemplazado por el vínculo Copiar
    </td>
-   <td> 
-   </td>
    <td>SEGUNDO TRIMESTRE DE 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Texto de comentario de cita 
    </td>
@@ -371,13 +302,9 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>SEGUNDO TRIMESTRE DE 2023 
    </td>
-   <td>SEGUNDO TRIMESTRE DE 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Copiar el texto del cuerpo 
    </td>
@@ -385,13 +312,9 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>Buscar en comentarios 
    </td>
@@ -399,13 +322,10 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1º trimestre de 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Copiar y pegar imágenes en un comentario
@@ -414,13 +334,9 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1º trimestre de 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Arrastrar y soltar imágenes en un comentario
@@ -429,22 +345,14 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1º trimestre de 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Editar formulario personalizado 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Responder a las actualizaciones del sistema 
@@ -472,11 +376,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> Se podría publicar en una fecha posterior
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
 >Para obtener más información acerca de cómo administrar actualizaciones para objetos de Workfront, vea [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-A continuación se muestra una cronología planificada con hitos clave para el lanzamiento de la nueva experiencia de comentarios en el entorno de producción. Además de los hitos que se indican a continuación, seguiremos mejorando la experiencia de los comentarios con mejoras menores.
+La siguiente información describe la cronología con los hitos clave para el lanzamiento de la nueva experiencia de comentarios en el entorno de producción. Además de los hitos que se indican a continuación, seguiremos mejorando la experiencia de los comentarios con mejoras menores.
 
-Para obtener información sobre las funciones lanzadas para la nueva experiencia de comentarios después de que se cerrara el período beta, consulte la página de información general de la versión actual.
+Para obtener información sobre las funciones lanzadas para la nueva experiencia de comentarios después de que se cerrara el período beta, consulte la página de información general de la versión actual. Para obtener más información, consulte [Versiones de productos](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-A continuación se muestra una cronología planificada para el lanzamiento de la nueva experiencia de comentarios:
+El siguiente cronograma estaba planificado para el lanzamiento de la nueva experiencia de comentarios:
 
 * Con la versión 23.2 de (6 de abril de 2023):
-   * Inicie la experiencia de comentarios en Beta para ver los problemas
-   * Lanzamiento de la nueva experiencia de comentarios para objetivos (como única experiencia)
+   * Se ha lanzado la experiencia de comentarios Beta para problemas
+   * Se ha publicado la nueva experiencia de comentarios para objetivos (como única experiencia)
 * Con la versión 23.3 de (20 de julio de 2023):
-   * Inicie la experiencia de comentarios en Beta para proyectos, tareas y documentos.
-   * Lanzamiento de la nueva experiencia de comentarios para tarjetas en el área de Tableros (como única experiencia)
+   * Se ha lanzado la experiencia de comentarios Beta para proyectos, tareas y documentos.
+   * Se ha publicado la nueva experiencia de comentarios para tarjetas en el área de Tableros (como única experiencia)
 * Durante la versión del cuarto trimestre de 2023 (versión limitada, solo disponible para los clientes que elijan la versión rápida):
-   * Lanzamiento de la nueva experiencia de comentarios para plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas (como única experiencia)
-   * Actualice la experiencia de comentarios de Beta para proyectos, tareas, problemas y documentos para que se convierta en la opción predeterminada. Se elimina la etiqueta &quot;Beta&quot;.
+   * Se ha publicado la nueva experiencia de comentarios para plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas (como única experiencia)
+   * Se ha actualizado la sección de comentarios de Experience Beta para proyectos, tareas, problemas y documentos, para que se convierta en la opción predeterminada. Se ha eliminado la etiqueta &quot;Beta&quot;.
 * Con la versión del cuarto trimestre de 2023 (23.10) (26 de octubre de 2023)
-   * Lanzamiento de la nueva experiencia de comentarios para plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas (como la única experiencia) a todos los clientes.
-   * Hacer que la nueva experiencia de comentarios para proyectos, tareas, problemas y documentos sea la opción predeterminada.
+   * Se ha publicado la nueva experiencia de comentarios para plantillas, tareas de plantilla, programas, portafolios, equipos, usuarios y hojas de horas (como la única experiencia) para todos los clientes.
+   * Se ha convertido la nueva experiencia de comentarios para proyectos, tareas, problemas y documentos en la opción predeterminada.
 
   >[!IMPORTANT]
   >
-  >    Esto concluirá la etapa de Beta de la nueva experiencia de comentarios.
+  >    Esto concluyó la etapa de Beta de la nueva experiencia de comentarios.
 
-   * Incluya todas las funciones lanzadas para la nueva experiencia de comentarios a partir de esta fecha en las versiones mensuales y trimestrales regulares actuales.
+   * Se han hecho todas las funciones lanzadas para la nueva experiencia de comentarios a partir de esta fecha parte de las versiones mensuales y trimestrales regulares actuales.
 * Finales de 2023:
-   * Mantenga la experiencia de comentarios heredada como una opción secundaria para los siguientes objetos: proyectos, tareas, problemas y documentos. La nueva experiencia de comentarios es la opción predeterminada para todos los usuarios de estos objetos.
-   * Convierta la nueva experiencia de comentarios en la única experiencia para todos los demás objetos.
-
-  >[!NOTE]
-  >
-  >    Las iteraciones seguirán teniendo la experiencia de comentarios heredada. La nueva experiencia de comentarios no estará disponible para iteraciones.
+   * Se ha mantenido la experiencia de comentarios heredada como opción secundaria para los siguientes objetos: proyectos, tareas, problemas y documentos. La nueva experiencia de comentarios es la opción predeterminada para todos los usuarios de estos objetos.
+   * Se ha convertido la nueva experiencia de comentarios en la única experiencia para todos los demás objetos.
 
 * Con la versión del segundo trimestre de 2024 (11 de abril de 2024):
 
-  Elimine la opción para volver al flujo de comentarios heredado y hacer que el nuevo flujo de comentarios sea la única experiencia para todos los objetos.
+  Se ha eliminado la opción de volver al flujo de comentarios heredado y hacer que el nuevo flujo de comentarios sea la única experiencia para todos los objetos.
+
+* 3 de octubre de 2024:
+
+  Se ha eliminado el botón Escribir comentarios del área de Actualizaciones.
 
 ## Busque la nueva experiencia de comentarios
 
