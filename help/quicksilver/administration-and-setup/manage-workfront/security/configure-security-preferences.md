@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '905'
 ht-degree: 5%
 
 ---
@@ -128,8 +128,12 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td>Permite especificar si los usuarios verán la experiencia Nueva página de inicio de forma predeterminada. Cuando se habilita, los usuarios verán la experiencia Nueva página de inicio de forma predeterminada, pero aún pueden optar por habilitar o deshabilitar la Nueva página de inicio de forma individual. Cuando esté deshabilitado, los usuarios no verán el banner que les permite cambiar a la nueva página de inicio; sin embargo, aún pueden navegar a su nueva página de inicio introduciendo manualmente <code>/home/workspaces</code> al final de la URL de su instancia. Esta opción está habilitada de forma predeterminada.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">Habilitar la lista de trabajo de prioridades </td> 
+      <td>Permite habilitar o deshabilitar la experiencia de lista de trabajo Prioridades para los usuarios. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> Para obtener más información acerca de Prioridades, vea <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introducción a Prioridades</a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Entornos de prueba</td> 
-      <td>Permite acceder a los entornos de prueba de Workfront. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Entorno de espacio aislado de vista previa de Adobe Workfront</a>.</p></td> 
+      <td>Permite acceder a los entornos de prueba de Workfront. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Entorno de espacio aislado de vista previa de Adobe Workfront</a>.</p></td> 
     </tbody> 
    </table>
 

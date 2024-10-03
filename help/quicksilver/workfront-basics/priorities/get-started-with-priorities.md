@@ -5,17 +5,15 @@ description: Prioridades es una experiencia intuitiva y optimizada, adaptada a l
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
 
 
 # Introducción a Prioridades
-
-<span class="preview">Las prioridades estarán disponibles en la versión de vista previa el 3/10/2024</span>
 
 Prioridades es una experiencia intuitiva y optimizada, adaptada a los propietarios de tareas. Las prioridades se implementarán por fases, empezando por la lista de trabajo.
 
@@ -118,6 +116,16 @@ La vista Calendario proporciona una representación visual de sus tareas y probl
 ## Trabajar en tareas y problemas
 
 En Prioridades, puede actualizar los elementos de trabajo para mantener los detalles del elemento de trabajo actualizados, registrar el tiempo para realizar un seguimiento preciso de las horas de trabajo, cargar recursos sin tener que desplazarse a un proyecto y agregar vínculos rápidos para acceder fácilmente a los recursos utilizados con frecuencia.
+
+>[!NOTE]
+>
+>Las licencias Light, Review, Contributor y Requestor tienen acceso limitado a Prioridades. Para obtener más información sobre cómo estos tipos de licencias pueden interactuar con tareas y problemas, consulte
+>
+>* [Acceso a objetos y áreas por para nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [Acceso a objetos y áreas por tipo de licencia](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [Funcionalidad disponible para cada tipo de objeto](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### Agregar y ver actualizaciones
 

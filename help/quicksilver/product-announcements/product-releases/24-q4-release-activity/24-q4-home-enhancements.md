@@ -4,9 +4,9 @@ description: Mejoras en el hogar del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -38,3 +38,15 @@ El objetivo de Prioridades es reemplazar la Página de inicio heredada y las nue
 Para obtener más información, consulte [Introducción a Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
 [Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3434848/){target=_blank}
+
+## Obsolescencia de la experiencia de inicio heredada con 24.10
+
+La versión 24.10 del Home heredado quedará obsoleta oficialmente.
+
+Con este cambio, se cambiará el nombre del área _Inicio y resumen_ de la plantilla de diseño a _Panel de resumen_. Las personalizaciones de esta área se seguirán aplicando al panel de resumen del nuevo Inicio. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+Se recomienda a los usuarios que empiecen a utilizar la nueva página de inicio, que se seguirá mejorando con funciones adicionales antes de que quede obsoleta. Para obtener más información sobre la transición, incluidos consejos sobre lo que los usuarios y administradores pueden hacer para prepararse, consulte la [Guía de obsolescencia de la página principal heredada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
+>[!NOTE]
+>
+>Una vez que la página principal heredada quede obsoleta, _la nueva página principal_ se denominará _Página principal_ en Workfront. Se cambiará el nombre de toda la documentación de _nueva página de inicio_ a _página de inicio_.

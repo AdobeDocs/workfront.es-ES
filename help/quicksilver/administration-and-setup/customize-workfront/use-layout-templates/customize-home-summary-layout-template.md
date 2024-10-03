@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
 # Personalizar Inicio y resumen mediante una plantilla de diseño
+
+<span class="preview">Este artículo pasará a llamarse &quot;Personalizar el panel de resumen con una plantilla de diseño&quot; cuando la página de inicio heredada se elimine de Workfront con la versión del cuarto trimestre del 17 de octubre. 2024.</span>
 
 Puede usar una plantilla de diseño para configurar lo que ven los usuarios cuando hacen clic en una tarea o un problema en Inicio y en el Resumen. Cada configuración que realice siguiendo los pasos siguientes afecta al área de Inicio y al panel Resumen del mismo modo. Estas personalizaciones no se aplican al panel Resumen del documento.
 

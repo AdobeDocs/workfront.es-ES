@@ -5,17 +5,15 @@ description: La página de inicio heredada se eliminará de Workfront el 17/10 c
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
 
 # Cambio de una página de inicio heredada a prioridades
-
-<span class="preview">Las prioridades estarán disponibles en la versión de vista previa el 3/10/2024</span>
 
 La página de inicio heredada se eliminará de Workfront el 17/10 con la versión del cuarto trimestre. Este artículo proporciona información sobre qué funcionalidad estará disponible en Prioridades, así como recomendaciones para los administradores de Workfront que trasladan usuarios a Prioridades.
 
