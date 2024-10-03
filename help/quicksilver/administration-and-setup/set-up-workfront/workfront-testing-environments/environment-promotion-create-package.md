@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. En el campo **Nombre del paquete**, escriba un nombre para el paquete.
 1. En el campo **Descripción**, escriba una descripción para este paquete.
-1. Para agregar un objeto al paquete, haga clic en **Agregar objetos** en el panel de navegación izquierdo y seleccione el tipo de objeto que desea agregar.
-1. Seleccione uno o varios objetos de la lista o escriba el nombre en la barra de búsqueda y seleccione el objeto cuando aparezca en la lista. Puede seleccionar más de un objeto en la lista.
+1. Para añadir un objeto al paquete, en el panel de navegación izquierdo, seleccione el tipo de objeto que desea añadir.
+1. Seleccione uno o varios objetos de la lista que aparece, o escriba el nombre en la barra de búsqueda y seleccione el objeto cuando aparezca en la lista. Puede seleccionar más de un objeto en la lista.
+
+   La lista incluye hasta 500 objetos del tipo de objeto seleccionado. Para localizar un objeto que no esté en la lista, utilice la barra de búsqueda.
 1. Haga clic en **Agregar (X objetos)** para agregar los objetos seleccionados al paquete.
 
    >[!INFO]
