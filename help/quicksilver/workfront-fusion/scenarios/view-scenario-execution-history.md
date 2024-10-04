@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Visualización del historial de ejecución de un escenario en Adobe Workfront Fusion
+title: Visualización del historial de un escenario en Adobe Workfront Fusion
 description: Puede mostrar información sobre todas las ejecuciones de un escenario o puede buscar datos específicos en todas las ejecuciones del escenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
-# Ver el historial de ejecución de un escenario en [!DNL Adobe Workfront Fusion]
+# Ver el historial de un escenario en [!DNL Adobe Workfront Fusion]
 
-Puede mostrar información sobre todas las ejecuciones de un escenario o puede buscar datos específicos en todas las ejecuciones del escenario.
+Puede mostrar información sobre los eventos o las ejecuciones de un escenario, o puede buscar datos específicos en todas las ejecuciones del escenario.
 
-El historial de ejecución de un escenario muestra todas las ejecuciones de un escenario durante los últimos 30 días.
+La ejecución de un escenario representa una única ejecución del escenario.
+
+Un evento de escenario es una modificación del escenario, como editarlo, activarlo o desactivarlo.
+
+>[!NOTE]
+>
+>El historial de un escenario muestra todos los eventos y ejecuciones de un escenario durante los últimos 30 días.
 
 ## Requisitos de acceso
 
@@ -45,7 +51,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -59,9 +65,9 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Ver todas las ejecuciones de un escenario
+## Ver historial de escenarios
 
-### Ver el historial de ejecución del escenario en la página [!UICONTROL Detalle del escenario]
+### Ver el historial de escenarios en la página [!UICONTROL Detalle del escenario]
 
 1. Haga clic en la ficha **[!UICONTROL Escenario]** en el panel izquierdo y, a continuación, haga clic en el escenario.
 
@@ -69,9 +75,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
    Si está trabajando en el escenario en el Editor de escenarios, haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
 
-1. Vea la información en la lista de la derecha.
-
-   También puede hacer clic en para ver una vista de página completa de esta información. La vista de página completa permite filtrar el historial para ver ejecuciones específicas.
+1. Vea el historial de ejecución en la ficha **Historial** del panel de la derecha.
 
    Se enumeran los siguientes detalles para cada ejecución del escenario:
 
@@ -80,13 +84,16 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    * Ejecutar **[!UICONTROL Duración]**
    * Número de **[!UICONTROL operaciones]**
    * Tamaño de **[!UICONTROL transferencia de datos]**
-   * Vincular a **[!UICONTROL detalles]**
 
->[!NOTE]
->
->El historial de escenarios muestra un distintivo **Procesando** junto a los escenarios que se han ejecutado recientemente, mientras que los detalles de ejecución se escriben en el almacenamiento. El procesamiento se produce inmediatamente después de que se ejecute el escenario. y no debe durar más de unos minutos. Es posible que los detalles de la ejecución del escenario no estén visibles mientras se procesa la ejecución.
+   >[!NOTE]
+   >
+   >El historial de escenarios muestra un distintivo **Procesando** junto a los escenarios que se han ejecutado recientemente, mientras que los detalles de ejecución se escriben en el almacenamiento. El procesamiento se produce inmediatamente después de que se ejecute el escenario. y no debe durar más de unos minutos. Es posible que los detalles de la ejecución del escenario no estén visibles mientras se procesa la ejecución.
 
-### Ver el historial de ejecución del escenario en la ficha [!UICONTROL Historial]
+1. Para ver los detalles de una ejecución de escenario específica, haga clic en esa ejecución en el panel derecho.
+1. Para ver los eventos, haga clic en la ficha **Eventos** del panel de la derecha.
+
+
+### Ver el historial de escenarios en la ficha [!UICONTROL Historial]
 
 La ficha [!UICONTROL Historial] muestra más detalles de los que están disponibles en la página [!UICONTROL Detalles del escenario]. También puede filtrar y ordenar las ejecuciones en la ficha [!UICONTROL Historial].
 
@@ -97,7 +104,7 @@ La ficha [!UICONTROL Historial] muestra más detalles de los que están disponib
    Si está trabajando en el escenario en el Editor de escenarios, haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
 
 1. Haga clic en la ficha **[!UICONTROL Historial]** cerca de la esquina superior izquierda de la página
-1. (Opcional) Para obtener información detallada sobre la ejecución de un escenario seleccionado, incluidos los paquetes que se procesaron, haga clic en el vínculo **[!UICONTROL Detalles]**.
+1. (Opcional) Para obtener información detallada sobre la ejecución de un escenario seleccionado, incluidos los paquetes que se procesaron, haga clic en el botón **[!UICONTROL Detalles]** en la línea de esa ejecución.
 
    Para obtener más información sobre el procesamiento de paquetes, consulte [Flujo de ejecución de escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -106,6 +113,8 @@ La ficha [!UICONTROL Historial] muestra más detalles de los que están disponib
    >* El vínculo [!UICONTROL details] solo es visible si la ejecución tiene detalles disponibles.
    >
    >* El historial de escenarios muestra un distintivo **Historial de procesamiento** junto a los escenarios que se han ejecutado recientemente, mientras que los detalles de ejecución se escriben en el almacenamiento. El procesamiento se produce inmediatamente después de que se ejecute el escenario. y no debe durar más de unos minutos. Es posible que los detalles de la ejecución del escenario no estén visibles mientras se procesa la ejecución.
+
+1. Para ver los eventos, habilita la opción **Mostrar eventos**.
 
 ## Filtrado del historial de ejecución del escenario
 
@@ -128,13 +137,7 @@ Puede ordenar el historial de ejecución del escenario.
 
 ## Buscar todas las ejecuciones de un escenario
 
-1. Haga clic en el icono **[!UICONTROL Escenario]** ![](assets/scenarios-icon.png) en el panel izquierdo y, a continuación, haga clic en el escenario.
-
-   O
-
-   Si está trabajando en el escenario en el Editor de escenarios, haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
-
-1. Haga clic en la ficha **[!UICONTROL Historial]** cerca de la esquina superior izquierda de la pantalla.
+1. Abra el historial de página completa de un escenario como se describe en [Ver el historial de ejecución de un escenario en la ficha [!UICONTROL Historial]](#view-scenario-execution-history-on-the-history-tab) de este artículo.
 1. Haga clic en **[!UICONTROL Búsqueda de texto completo]** en la parte superior de la lista de ejecuciones.
 
    O
