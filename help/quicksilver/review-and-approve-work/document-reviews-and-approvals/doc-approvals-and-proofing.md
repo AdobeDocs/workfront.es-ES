@@ -5,13 +5,13 @@ title: Usar aprobaciones y revisiones de documentos nuevas conjuntamente
 description: Puede utilizar nuevas aprobaciones de documentos con revisión.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # Usar aprobaciones y revisiones de documentos nuevas conjuntamente
 
@@ -85,9 +85,9 @@ Para agregar una nueva versión:
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
 
-1. Para agregar un aprobador, haga clic en el botón Aprobador y y empiece a escribir el nombre de un usuario o equipo.
+1. Para agregar un aprobador, haga clic en el botón Aprobador y empiece a escribir el nombre de usuario o equipo <span class="preview">, o bien elija un aprobador de la versión anterior.</span>
 
-1. Para agregar un revisor, haga clic en el botón Revisor y empiece a escribir el nombre de un usuario o equipo.
+1. Para agregar un revisor, haga clic en el botón Revisor y empiece a escribir el nombre de un usuario o equipo <span class="preview">, o bien elija un revisor de la versión anterior. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Para revisar y aprobar un documento:
    * **Necesita trabajo**: el documento necesita cambios y no está listo para usarse. Una vez realizados los cambios especificados, el documento debe cargarse como una nueva versión y pasar por otra ronda de aprobaciones. Para obtener más información sobre cómo cargar una nueva versión, consulte [Crear una nueva versión según sea necesario](#create-a-new-version-as-needed) en este artículo.
 
 Una vez que tome una decisión, se notifica al propietario del documento por correo electrónico.
-
