@@ -6,9 +6,9 @@ description: Al eliminar una tarjeta de un tablero, se elimina de forma permanen
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Si elimina una tarjeta conectada de un tablero dinámico, volverá a aparecer cu
 Cuando elimine una tarjeta conectada de cualquier otro tipo de tarjeta que tenga una columna de entrada, la tarjeta volverá a aparecer en la columna de entrada cuando actualice el tablero si la tarea o el problema conectado aún no se ha marcado como completado. Para obtener más información sobre las columnas de entrada, vea [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 Archivar una tarjeta la envía al archivo y puede restaurarla en la placa posteriormente.
+
+Las tarjetas archivadas no se sincronizan con las tareas y problemas de Workfront. Si restaura una tarjeta, se volverá a sincronizar.
 
 ## Requisitos de acceso
 
@@ -71,7 +73,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Para restaurar una tarjeta archivada, haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Restaurar]**.
 
-## Filtrar un tablero para mostrar tarjetas archivadas {#filter-a-board-to-show-archived-cards}
+## Filtrar un tablero para mostrar tarjetas archivadas
 
 De forma predeterminada, solo se muestran las tarjetas activas en un tablero. Puede filtrar el tablero para que también muestre las tarjetas archivadas.
 
