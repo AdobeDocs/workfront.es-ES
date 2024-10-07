@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
+source-wordcount: '6518'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -744,7 +744,7 @@ Vea una lista de [!DNL Workfront] tipos de objetos para los que puede usar este 
 
 +++ **[!UICONTROL Cargar documento]**
 
-Este módulo de acción carga un documento en un objeto [!DNL Workfront], como un proyecto, una tarea o un problema.
+Este módulo de acción carga un documento en un objeto [!DNL Workfront], como un proyecto, una tarea o un problema. Este módulo carga el documento en fragmentos, lo que facilita el proceso de carga para Workfront.
 
 Especifique la ubicación del documento, el archivo que desea cargar y, opcionalmente, un nuevo nombre para el archivo.
 
@@ -767,6 +767,51 @@ Al configurar este módulo, se muestran los campos siguientes.
   <tr> 
    <td>[!UICONTROL Tipo de registro relacionado]</td> 
    <td>Seleccione el tipo de registro [!DNL Workfront] donde desea que el módulo cargue el documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Identificador de carpeta]</td> 
+   <td>Según el tipo de registro relacionado, es posible que deba introducir o asignar un ID de carpeta.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL archivo Source]</td> 
+   <td> <p>Seleccione un archivo de origen de un módulo anterior o asigne el nombre y los datos del archivo de origen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Vea una lista de [!DNL Workfront] tipos de objetos para los que puede usar este módulo en [[!DNL Workfront] tipos de objetos disponibles para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+
++++
+
++++ **[!UICONTROL Cargar documento (heredado)]**
+
+Este módulo de acción carga un documento en un objeto [!DNL Workfront], como un proyecto, una tarea o un problema. Carga todo el documento a la vez.
+
+Especifique la ubicación del documento, el archivo que desea cargar y, opcionalmente, un nuevo nombre para el archivo.
+
+El módulo devuelve el ID del documento y cualquier campo asociado, junto con cualquier campo personalizado y valor al que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
+
+Al configurar este módulo, se muestran los campos siguientes.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Conexión]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], vea <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Workfront] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Identificador de registro relacionado]</td> 
+   <td>Escriba el identificador único [!DNL Workfront] del registro en el que desea cargar el documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Tipo de registro relacionado]</td> 
+   <td>Seleccione el tipo de registro [!DNL Workfront] donde desea que el módulo cargue el documento.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Identificador de carpeta]</td> 
+   <td>Según el tipo de registro relacionado, es posible que deba introducir o asignar un ID de carpeta.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL archivo Source]</td> 
