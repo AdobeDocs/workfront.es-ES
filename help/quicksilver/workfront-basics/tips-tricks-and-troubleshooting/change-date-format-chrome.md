@@ -6,7 +6,7 @@ title: Cambiar el formato de las fechas en  [!DNL Adobe Workfront]
 description: Para cambiar el formato de fecha de las fechas en  [!DNL Adobe Workfront] debe cambiar la configuración de idioma en el explorador.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Puede cambiar los formatos de fecha en Workfront de las siguientes maneras, seg�
   Por ejemplo, si el idioma predeterminado en su explorador está establecido en *[!UICONTROL Inglés (Estados Unidos)]*, las fechas se mostrarán en los siguientes formatos:
 
    * DD/MM/AAAA
-   * Lun DD, AAAA
+   * Mes DD, AAAA
 
   Para cambiar la configuración de idioma en [!DNL Chrome] o en cualquier otro explorador, debe modificar la configuración de ese explorador. Los pasos para modificar la configuración de un explorador varían de un explorador a otro. Consulta las áreas de [!UICONTROL Ayuda], [!UICONTROL Preferencias] o [!UICONTROL Configuración] de tu explorador para saber cómo modificar su configuración.
 

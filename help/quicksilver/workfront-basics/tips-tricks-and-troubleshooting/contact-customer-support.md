@@ -6,9 +6,9 @@ description: Como cliente de Adobe Workfront, puede ponerse en contacto con el e
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -52,19 +52,14 @@ Puede enviar un vale de soporte técnico desde el portal de autoservicio [!DNL E
 
    Desde la página de inicio de [!UICONTROL Soporte], puede navegar a sus casos de soporte abiertos, registrar un caso nuevo, ver los [!UICONTROL artículos de Soporte] principales o acceder a fuentes de aprendizaje adicionales.
 
-1. Para enviar un caso, selecciona la opción **[!UICONTROL Abrir un caso de soporte técnico]** y luego haz clic en **[!UICONTROL Firmar] en**.
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. Haga clic en **[!UICONTROL Abrir caso]** en la barra lateral izquierda.
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. Haga clic en **[!UICONTROL Abrir vale]** en la barra lateral izquierda.
 Se abre la página [!UICONTROL creación de caso] en la que puede escribir el nombre del producto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), el título del caso y la descripción del caso.
 
->[!TIP]
->
->Sea lo más descriptivo posible al describir el problema que enfrenta para ayudarnos a acelerar el proceso de solución de problemas.
+   >[!TIP]
+   >
+   >Sea lo más descriptivo posible al describir el problema que enfrenta para ayudarnos a acelerar el proceso de solución de problemas.
 
 
 1. Rellene la información de los siguientes campos para proporcionarnos detalles más específicos:
@@ -97,9 +92,9 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 
 1. (Opcional) En la vista de caso, revise los últimos comentarios con el propietario del caso asignado y agregue cualquier archivo adjunto o respuesta adicional.
 
-1. (Opcional) Para escalar el caso, haga clic en **[!UICONTROL Escalar a administración]** en la parte derecha de la página bajo **[!UICONTROL Detalle del caso].
+1. (Opcional) Para escalar el caso, haga clic en **[!UICONTROL Escalar a administración]** en la parte derecha de la página bajo **[!UICONTROL Detalle del caso]**.
 
-1. Haga clic en el botón **[!UICONTROL Cerrar caso]** para cerrar el caso.
+1. (Opcional) Para cerrar el caso, haga clic en el botón **[!UICONTROL Cerrar caso]**.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
