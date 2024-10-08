@@ -6,9 +6,9 @@ description: La [!UICONTROL Lista de trabajos] en el área [!UICONTROL Inicio] m
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ Puede filtrar elementos en la [!UICONTROL Lista de trabajos] para ver solamente 
         <p>Muestra sólo las tareas que están listas para iniciarse. Las dos afirmaciones siguientes deben ser verdaderas:</p> 
         <ul> 
          <li> <p>Las tareas y sus tareas principales no tienen predecesoras ni restricciones de tarea que impidan trabajar con ellas.</p> </li> 
+         <li> <p>Se han completado todas las tareas predecesoras.</p> </li> 
          <li> <p>La [!UICONTROL Fecha planificada de inicio] de las tareas se encuentra en las últimas o hasta dos semanas en el futuro.</p> </li> 
         </ul> 
        </div> </td> 
