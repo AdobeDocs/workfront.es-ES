@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Editar o montar un paquete existente
 
-1. Vaya al entorno en el que desea crear el paquete. Este es el entorno donde está copiando los objetos **de**.
+Un paquete debe estar en estado `DRAFT` para poder editarse.
+
+1. Vaya al entorno en el que desea editar el paquete. Este es el entorno en el que se creó originalmente el paquete.
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **Sistema** en el panel de navegación izquierdo, luego seleccione **Promoción de entorno**.
 1. Seleccione el paquete en la lista mostrada.
@@ -99,6 +101,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. (Opcional) Para ver el contenido, incluidos todos los objetos y sus subobjetos, haga clic en la flecha desplegable situada junto al tipo de objeto en la sección **Contenido**.
 1. (Opcional) Para ver instalaciones e intentos de instalación anteriores de este paquete, haga clic en **Implementaciones**.
 1. (Opcional) Para editar el paquete, haga clic en **Editar paquete** en la parte superior derecha de la pantalla.
+Un paquete debe estar en estado `DRAFT` para poder editarse. Para mover el paquete al estado `DRAFT`, en el campo **Estado**, seleccione `Draft`. A continuación, puede seguir editando el paquete.
 1. Para instalar el paquete, haz clic en **Instalar** en la parte superior derecha de la pantalla.
 
    Para obtener instrucciones sobre cómo instalar un paquete, consulte [Instalar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
