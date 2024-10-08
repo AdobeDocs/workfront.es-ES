@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Solicitud de acceso a objetos
+title: Solicitar acceso a objetos
 description: La visibilidad de los objetos en Adobe Workfront depende del acceso a ese tipo de objeto, así como de los permisos que tenga en un objeto individual.
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,12 @@ La visibilidad de los objetos en Adobe Workfront depende del acceso a ese tipo d
 
 >[!NOTE]
 >
->En este artículo se describe cómo puede solicitar permisos a todos los objetos, excepto a los planes del Scenario Planner de Adobe Workfront. Para obtener información sobre cómo solicitar acceso a los planes, consulte [Solicitar acceso a un plan en el Scenario Planner](../../scenario-planner/request-access-to-plan.md). Esto requiere una licencia adicional.
+>Este artículo describe cómo se pueden solicitar permisos a todos los objetos, excepto a los siguientes:
+>
+>* Planes de Scenario Planner en Adobe Workfront Scenario Planner. Para obtener más información, consulte [Solicitar acceso a un plan en el Scenario Planner](../../scenario-planner/request-access-to-plan.md). Esto requiere una licencia adicional.
+>
+>* Vistas y espacios de trabajo en Workfront Planning. Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
 
 El administrador de Workfront configura el acceso a un tipo de objeto en su nivel de acceso. Para obtener más información, vea [Cómo funcionan juntos los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -31,33 +36,7 @@ Por ejemplo, puede tener permisos de Vista en un proyecto, pero debe agregar tar
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente para compartir objetos:
 
@@ -66,23 +45,25 @@ Debe tener lo siguiente para compartir objetos:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Trabajo o superior</p> </td> 
+   <td> <p>Nuevo: estándar</p> 
+   <p>Actual: Trabajo o superior</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver el acceso o superior a los objetos para los que solicita permisos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Ver el acceso o superior a los objetos para los que solicita permisos</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Comprender las reglas de uso compartido estándar
 

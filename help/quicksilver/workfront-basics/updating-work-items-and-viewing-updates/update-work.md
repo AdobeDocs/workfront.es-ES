@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3075'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Se puede añadir una actualización a un objeto de Adobe Workfront para comunicar a otros el progreso del objeto. Para obtener más información sobre los objetos a los que se pueden agregar actualizaciones en Workfront, consulte [Información general sobre la sección Actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Puede agregar una actualización a un objeto de Adobe Workfront agregándole un comentario para informar a otros usuarios sobre el estado o el progreso del objeto, o para solicitar más información o recursos adicionales.
 
-La información de este artículo describe cómo se puede realizar comentarios y actualizar la información de proyectos, tareas y problemas. Los usuarios asignados o suscritos al objeto pueden ver la actualización. También puede etiquetar usuarios para que llamen su atención sobre la actualización.
+Para obtener más información sobre los objetos a los que se pueden agregar actualizaciones en Workfront, consulte [Información general sobre la sección Actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Agregar comentarios a otros objetos es similar a actualizar proyectos, tareas y problemas. Para obtener información adicional sobre cómo comentar tarjetas y objetivos, consulte también los siguientes artículos:
+La información de este artículo describe cómo puede realizar comentarios sobre proyectos, tareas y problemas. Los usuarios asignados al objeto o suscritos a él pueden ver la actualización. También puede etiquetar usuarios para que llamen su atención sobre la actualización.
+
+Agregar comentarios a otros objetos de Workfront es similar a actualizar proyectos, tareas y problemas.
+
+Para obtener información adicional sobre cómo comentar tarjetas, objetivos y registros en Workfront Planning, consulte los siguientes artículos:
 
 * [Administrar comentarios sobre metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -65,7 +69,7 @@ Agregar comentarios a otros objetos es similar a actualizar proyectos, tareas y 
 
 * [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
+* [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## Requisitos de acceso
 
@@ -84,7 +88,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
    <td> 
    <p>Actual: Solicitud o superior para problemas y documentos; Revisar o superior para todos los demás objetos</p>
    <p>Nuevo: Colaborador o superior para problemas y documentos: Ligero o superior para todos los demás objetos</p> 
@@ -101,11 +105,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Consideraciones acerca de la actualización del trabajo
+## Consideraciones sobre los comentarios en objetos
 
 * Puede agregar comentarios a la mayoría de los objetos de Adobe Workfront en la sección Actualizaciones. Para obtener más información acerca de los objetos que muestran la sección Actualizaciones, vea [Información general sobre la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -234,23 +238,13 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## Agregar una actualización a un elemento de trabajo
+## Agregar un comentario a un elemento de trabajo
 
 Este artículo describe cómo actualizar proyectos, tareas o problemas. La actualización de la mayoría de los demás objetos es similar.
 
-1. Busque el objeto que desea actualizar y, a continuación, haga clic en su nombre para abrir la página del objeto.
+1. Busque el objeto al que desea agregar un comentario y, a continuación, haga clic en su nombre para abrir la página del objeto.
 1. Haga clic en **Actualizaciones** en el panel izquierdo.
 La ficha **Comentarios** está seleccionada de forma predeterminada.
-
-   <!--
-   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
-
-      This enables the new commenting experience. 
-
-         >[!TIP]
-         >
-         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
-   -->
 
 1. Empiece a escribir un comentario en el cuadro **Nuevo comentario**.
 
@@ -329,12 +323,12 @@ La ficha **Comentarios** está seleccionada de forma predeterminada.
    >
    >No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario en la ficha Todos, haga clic en **Responder en Comentarios** para abrir el comentario en la ficha Comentarios.
 
-## Usar texto enriquecido en una actualización de Workfront{#use-rich-text-in-a-workfront-update}
+## Utilizar texto enriquecido en un comentario de Workfront{#use-rich-text-in-a-workfront-comment}
 
-Puede mejorar las actualizaciones mediante Texto enriquecido o agregándole varios elementos, como emojis, vínculos o imágenes.
+Puede mejorar los comentarios mediante Texto enriquecido o agregándole varios elementos, como emojis, vínculos o imágenes.
 
-1. Vaya al área de **Actualizaciones** de un objeto de Workfront y empiece a escribir un comentario.
-1. (Opcional) Para agregar formato de texto enriquecido a la actualización, utilice los atributos de la barra de herramientas **Texto enriquecido** mientras escribe.
+1. Vaya al área de **Actualizaciones** de un objeto de Workfront, abra la pestaña **Comentarios** y empiece a escribir un comentario.
+1. (Opcional) Para agregar formato de texto enriquecido al comentario, utilice los atributos de la barra de herramientas **Texto enriquecido** mientras escribe.
 
    ![](assets/rich-text-toolbar.png)
 
@@ -444,19 +438,17 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Copiar actualizaciones
+## Copiar comentarios
 
-Existen varias formas de copiar una actualización.
+Hay varias formas de copiar un comentario.
 
-Puede copiar un vínculo a la actualización o copiar el contenido de una actualización para utilizarlo en una nueva actualización.
+Puede copiar un vínculo al comentario o copiar el contenido del comentario para utilizarlo en una nueva actualización.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### Copiar una actualización <!--in the new commenting experience-->
-
-<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
+### Copiar un comentario
 
 Para copiar información de un comentario existente, siga uno de estos procedimientos:
 
@@ -466,11 +458,11 @@ Para copiar información de un comentario existente, siga uno de estos procedimi
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
-#### Copiar vínculo
+#### Copiar vínculo a un comentario
 
 La opción Copiar vínculo copia el comentario o el vínculo de subproceso en el portapapeles para que pueda compartir el comentario o todo el subproceso con otros usuarios.
 
-1. Vaya a la actualización cuyo vínculo desee copiar.
+1. Vaya al comentario cuyo vínculo desee copiar.
 
 1. Haga clic en el menú **Más** y luego haga clic en **Copiar vínculo**.
 
@@ -484,16 +476,16 @@ La opción Copiar vínculo copia el comentario o el vínculo de subproceso en el
 
 #### Copiar el texto del cuerpo
 
-La opción Copiar texto del cuerpo copia el texto de una actualización específica en el portapapeles.
+La opción Copiar texto del cuerpo copia el texto de un comentario específico en el portapapeles.
 
-1. Vaya a la actualización o respuesta que desee copiar.
+1. Vaya al comentario o la respuesta que desee copiar.
 1. Haga clic en el menú **Más** y, a continuación, haga clic en **Copiar texto principal**.
 
 #### Cita respuesta
 
 La opción Respuesta de oferta copia el comentario original en una nueva respuesta como una cita de bloque.
 
-1. Vaya a la actualización o respuesta que desee copiar.
+1. Vaya al comentario o la respuesta que desee copiar.
 1. Haga clic en el menú **Más** y, a continuación, haga clic en **Citar respuesta**.
 
    Se abre un nuevo cuadro de comentarios y la respuesta citada se incluye en el nuevo comentario y se marca como una cita de bloque.
@@ -563,14 +555,16 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## Eliminar una actualización o una respuesta
+## Eliminar un comentario o una respuesta
 
-En función del acceso que le proporcione su administrador de Workfront, es posible que pueda eliminar las actualizaciones que haya añadido en la pestaña Actualizaciones de un objeto. Para obtener más información, vea [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) en el artículo [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Según el acceso que le proporcione el administrador de Workfront, es posible que pueda eliminar los comentarios que haya agregado en la sección Actualizaciones de un objeto.
+
+Para obtener más información, vea [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) en el artículo [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Ningún usuario de Workfront (incluido el administrador de Workfront) puede eliminar las actualizaciones realizadas por otro usuario. Sin embargo, si el nivel de acceso de un usuario le permite eliminar sus propias actualizaciones, el administrador de Workfront puede iniciar sesión como ese usuario y eliminar las actualizaciones que haya realizado. Para obtener más información, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) e [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-1. Vaya a la actualización o respuesta que desee eliminar.
-1. Haga clic en el menú **Más** que está junto a la actualización o la respuesta que desea eliminar y, a continuación, haga clic en **Eliminar**.
+1. Vaya al comentario o la respuesta que desee eliminar.
+1. Haga clic en el menú **Más** que está junto al comentario o la respuesta que desea eliminar y, a continuación, haga clic en **Eliminar**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -608,7 +602,7 @@ La sección Actualizaciones de un objeto de Workfront muestra dos tipos de infor
    * Tarea de plantilla
    * Tarjeta ad hoc
 
-Para obtener más información acerca de las actualizaciones del sistema en la sección Actualizaciones, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Para obtener más información sobre las actualizaciones de usuarios y sistemas y cómo se muestran en la sección Actualizaciones de los objetos de Workfront, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 <!--
