@@ -7,7 +7,7 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 4%
@@ -128,16 +128,15 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ![Actualiza la sección](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* La sección Actualizaciones muestra información en las siguientes pestañas:
+La sección Actualizaciones muestra información en las siguientes pestañas:
 
-   * **Comentarios**: Muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información acerca de cómo actualizar objetos, vea [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Actividad del sistema**: muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña de actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Todos (solo lectura)**: muestra los comentarios del usuario y los comentarios de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información acerca de cómo actualizar objetos, vea [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
+* **Comentarios**: Muestra los comentarios realizados por los usuarios y las respuestas a dichos comentarios. Utilice la ficha Comentarios para agregar nuevos comentarios o responder a los existentes. Para obtener información acerca de cómo actualizar objetos, vea [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
+* **Actividad del sistema**: muestra actualizaciones del sistema que son mensajes informativos que Workfront crea para registrar ciertos eventos en un objeto. Por ejemplo, los cambios de estado, nombre o campos personalizados se capturan con las actualizaciones del sistema. El administrador del grupo o de Workfront puede habilitar las actualizaciones del sistema para los objetos. Cualquier respuesta que se haya realizado a los registros de actividad del sistema en la experiencia de comentarios heredada se rellena en la pestaña de actividad del sistema como de solo lectura. Para obtener más información, consulte [Configurar actualizaciones del sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Todos (solo lectura)**: muestra los comentarios del usuario y los comentarios de la actividad del sistema en un solo lugar. Esta es una pestaña de solo vista. No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario específico, utilice el vínculo de la pestaña Todos a la pestaña Comentarios. Para obtener información acerca de cómo actualizar objetos, vea [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
 
-     >[!NOTE]
-     >
-     >Las pestañas Comentarios y Actividad del sistema se actualizan en tiempo real. Debe actualizar la pestaña Todos para ver las actualizaciones más recientes.
-
+  >[!NOTE]
+  >
+  >Las pestañas Comentarios y Actividad del sistema se actualizan en tiempo real. Debe actualizar la pestaña Todos para ver las actualizaciones más recientes.
 
 ### Similitudes y diferencias entre las áreas de Actualizaciones de diferentes objetos
 

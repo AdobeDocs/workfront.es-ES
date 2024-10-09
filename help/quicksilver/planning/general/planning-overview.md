@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 1%
@@ -183,7 +183,7 @@ A continuación se muestran los objetos y conceptos principales de Workfront Pla
 
   Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Tipo de registro**: El tipo de objeto para Workfront Planning.
+* **Tipo de registro**: El tipo de objeto de Workfront Planning.
 
   A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Workfront Planning puede crear sus propios tipos de objeto.
 
@@ -199,7 +199,7 @@ A continuación se muestran los objetos y conceptos principales de Workfront Pla
 
   Después de agregar un tipo de registro a un espacio de trabajo, puede empezar a agregar registros de ese tipo en la página del tipo de registro.
 
-  Por ejemplo, &quot;Campaña&quot; puede ser un tipo de registro y &quot;Campaña de verano para EMEA&quot; es un registro del tipo de registro Campaña
+  Por ejemplo, &quot;Campaña&quot; puede ser un tipo de registro y &quot;Campaña de verano para EMEA&quot; es un registro del tipo de registro Campaña.
 
   Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 

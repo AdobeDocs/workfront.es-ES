@@ -6,9 +6,9 @@ description: El glosario  [!DNL Adobe Workfront] enumera los términos usados co
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '20384'
+source-wordcount: '20938'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL Actualización de condición]</td> 
    <td> <p>Este campo muestra la condición actual de tareas, proyectos o problemas. Esta opción muestra las actualizaciones más recientes que los propietarios de tareas, proyectos o problemas han proporcionado en el campo [!UICONTROL Estado de la actualización], junto con la nueva condición.</p> <p>Los comentarios realizados en las actualizaciones de condición no se muestran en la columna [!UICONTROL Condition Update]; solo se muestra la actualización principal.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Tipos de registros conectados]</td> 
+   <td> <p>En Workfront Planning, puede crear una conexión entre una de las siguientes opciones: </p>
+   <ul>
+   <li>Dos tipos de registros</li>
+   <li>Un tipo de registro y un tipo de objeto de Workfront</li>
+   <li>Tipo de registro y recurso de Adobe Experience Manager</li></ul>
+   <p>La conexión de tipos de registro permite mostrar información de un registro o tipo de objeto en otro tipo de registro.</p>
+   <p>Para obtener más información, vea <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Información general sobre los tipos de registros conectados</a>  </p>
+  <p>Workfront Planning requiere una licencia adicional. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Registros conectados]</td> 
+   <td> <p>En Workfront Planning, después de conectar dos tipos de registros, puede conectar dos registros individuales de esos tipos entre sí.  </p>
+   <p>La conexión de registros permite mostrar información de un registro u objeto de otra aplicación en otro registro.</p>
+   <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/records/connected-records-overview.md">Información general sobre registros conectados</a>. </p>
+
+<p>Workfront Planning requiere una licencia adicional. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Conexiones]</td> 
+   <td> <p>En Workfront Planning, las conexiones pueden hacer referencia a tipos de registros conectados o a registros conectados. Workfront Planning requiere una licencia adicional.</p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Fecha de restricción]</td> 
    <td> <p>Si utiliza una [!UICONTROL Task Constraint] vinculada a una fecha específica, como [!UICONTROL Must Start On], esa fecha específica se convierte en la [!UICONTROL Constraint Date] de la tarea.</p> <p>Las siguientes delimitaciones de tareas actualizan el campo [!UICONTROL Fecha de delimitación]:</p> 
     <ul> 
@@ -882,11 +911,11 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
 
 <p>Para obtener más información, consulte <a href="../../../wf-api/general/api-explorer.md">Explorador de API</a> y <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Información general sobre el modo de texto</a>.</p>
 
-<p>De forma predeterminada, Workfront incluye un conjunto de campos que definen ambos objetos y su información. También puede crear campos personalizados para definir objetos, pero no puede crear objetos personalizados.</p> 
-   </td> 
-  </tr>
+<p>De forma predeterminada, Workfront incluye un conjunto de campos que definen ambos objetos y su información. También puede crear campos personalizados para definir objetos, pero no puede crear objetos personalizados.</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>En Workfront Planning, puede crear campos personalizados para todos los tipos de registros. Los tipos de registros de Workfront incluyen un número muy limitado de campos. Debe crear todos los campos desde cero y asociarlos a tipos de registro. Para obtener más información, consulte <a href="/help/quicksilver/planning/fields/fields-overview.md">Información general del campo</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filtro]</td> 
    <td> <p>Uno de los principales componentes básicos de un informe o un elemento de lista que define la información que se muestra en la pantalla. Para obtener más información acerca de los elementos de informes, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de informes: filtros, vistas y agrupaciones</a>.</p> <p>El filtro determina los resultados que se muestran en un informe o en una lista de panel [!DNL Workfront], como proyectos, tareas o problemas.</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
    <li><b>Facturado y aprobado</b>: las horas se han registrado, el propietario del proyecto las ha aprobado y el estado del registro de facturación se ha marcado como Facturado.</li>
    </ul>
 
-
 <p>Cuando las horas son parte de un registro de facturación, el Estado de hora indica si las horas se han aprobado o si se ha facturado el Registro de facturación al que pertenecen. El estado de hora de una entrada de hora solo es visible en una lista de horas o un informe. </p>
 
 <p>Para obtener más información acerca de cómo agregar horas a los registros de facturación, consulte la sección "Agregar horas a los registros de facturación" en el artículo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Crear registros de facturación</a>.</p>
@@ -1043,8 +1071,6 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
 
 <p>Las horas generales que no se registran directamente en los elementos de trabajo no muestran un estado de hora. </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[!UICONTROL Tipo de hora]</td> 
@@ -1248,6 +1274,14 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Controles de lista]</td> 
    <td> <p>Parte de [!UICONTROL Interface Setup] que permite vincular filtros, vistas y agrupaciones personalizados a usuarios individuales o globalmente a todos los usuarios.</p> </td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Campos de búsqueda]</td> 
+   <td> <p>En Workfront Planning, después de establecer la conexión entre dos tipos de registros y de vincular registros individuales, puede hacer referencia a los campos de los registros vinculados en el registro desde el que se conecta.</p>
+   <p>Por ejemplo, si conecta un tipo de registro de campaña con un tipo de objeto de proyecto de Workfront, puede mostrar el campo Presupuesto de los proyectos conectados en los registros de campaña. El campo Proyecto de presupuesto es un campo de búsqueda de proyectos en una campaña.</p> <p>Los valores de los campos de búsqueda se rellenan automáticamente en los registros desde los que están conectados.</p>
+   <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/records/connected-records-overview.md">Información general sobre registros conectados</a>.</p>
+   <p>Workfront Planning requiere una licencia adicional.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Ready]</td> 
    <td> <p>Este campo de un informe de tareas indica si una tarea de [!UICONTROL Agile] se ha marcado como [!UICONTROL Ready] en el registro de pendientes. Este indicador solo se aplica a las tareas de [!UICONTROL Agile], que son tareas asignadas a un equipo de [!UICONTROL Agile]. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Registro]</td> 
+   <td> <p>En Workfront Planning, un registro es una instancia única de un tipo de registro.</p>
+<p>Después de agregar un tipo de registro a un espacio de trabajo, puede empezar a agregar registros de ese tipo en la página del tipo de registro.</p>
+<p>Por ejemplo, "Campaña" puede ser un tipo de registro y "Campaña de verano para EMEA" es un registro del tipo de registro Campaña.</p>
+<p>Para obtener información sobre cómo crear registros, vea <a href="/help/quicksilver/planning/records/create-records.md">Crear registros</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[!UICONTROL Tipo de registro]</td> 
+   <td> <p>Tipo de objeto de Workfront Planning.</p>
+<p>A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Workfront Planning puede crear sus propios tipos de objeto. Los tipos de objeto de Workfront Planning se denominan tipos de registro.</p>
+<p>Por ejemplo, en Workfront ya se han creado los tipos de objeto Programa, Portfolio, Proyecto, Tarea o Problema.</p>
+<p>En Workfront Planning, puede crear cualquier tipo de registro que cumpla los flujos de trabajo de su organización. Posteriormente, puede definir cómo se relacionan los tipos de registro entre sí o las dependencias del formulario.</p> Para obtener información acerca de cómo crear tipos de registros, vea <a href="/help/quicksilver/planning/architecture/create-record-types.md">Crear tipos de registros</a>. </p> <p>Workfront Planning requiere una licencia adicional. </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Frecuencia de periodicidad]</td> 
    <td> <p>Campo que se muestra en el cuadro [!UICONTROL Detalles de tarea] o [!UICONTROL Editar tarea] de un elemento primario de tareas recurrentes. Es la frecuencia con la que ocurren las tareas en la periodicidad. Para obtener información acerca de la creación de tareas recurrentes, vea <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>. </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ Las entradas de hora pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Ver]</td> 
    <td> <p>Las vistas hacen referencia a un elemento de informes que le permite modificar las columnas de un informe o de una lista de objetos.</p> 
-   <p> Ver también hace referencia al derecho de un usuario a ver únicamente información sobre un objeto, según su nivel de acceso o en un nivel de uso compartido de permisos de ese objeto.</p> </td> 
+   <p> Ver también hace referencia al derecho de un usuario a ver únicamente información sobre un objeto, según su nivel de acceso o en un nivel de uso compartido de permisos de ese objeto.</p> 
+   <p>En Workfront Planning, los registros se muestran en la página de tipo de registro en uno de los siguientes tipos de vista:</p>
+   <ul><li>Tabla</li>
+   <li>Cronología</li>
+   <li>Calendario</li></ul>
+   <p>En Workfront Planning, las vistas incluyen los filtros, agrupaciones, ordenación y otras opciones de configuración aplicadas a los registros de la pantalla.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-record-views.md">Administrar vistas de registros</a>.</p>   
+   <p>Workfront Planning requiere una licencia adicional.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ver iconos]</td> 
@@ -2481,6 +2540,15 @@ Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adic
    <p>valueformat=HTML</p>
    </code>
     <p>Para obtener información acerca del uso del modo de texto, vea <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Introducción a la sintaxis del modo de texto</a>. </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>En Workfront Planning, un espacio de trabajo es una colección de tipos de registros que definen el ciclo de vida operativo de una determinada organización. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.</p>
+   <p>Workfront Planning requiere una licencia adicional. </p>
+   <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/architecture/create-workspaces.md">Crear espacios de trabajo</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
