@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Establezca una conexión con el lago de datos de Workfront
-description: El lago de datos de Workfront le permite utilizar los datos de Workfront de su organización con herramientas populares de inteligencia empresarial o almacenarlos en un almacén de datos externo.
+title: Establezca una conexión con Workfront Data Connect
+description: Workfront Data Connect le permite utilizar los datos de Workfront de su organización con herramientas de inteligencia empresarial o almacenarlos en un almacén de datos externo.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -103,16 +102,16 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Uso compartido de datos con herramientas de Business Intelligence
 
-A continuación se enumeran una serie de herramientas comunes de inteligencia empresarial; los vínculos le llevarán al sitio de documentación del servicio para obtener más información sobre la conexión a su lago de datos.
+A continuación se enumeran una serie de herramientas comunes de inteligencia empresarial; visite sus sitios de documentación para obtener más información sobre la conexión a su lago de datos.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Dominio](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Almacenar datos en un almacén de datos externo
 
-A continuación se enumeran una serie de almacenes de datos comunes; los vínculos le llevarán al sitio de documentación de cada servicio, donde podrá obtener más información sobre la conexión a su lago de datos.
+A continuación se enumeran una serie de almacenes de datos comunes; visite sus sitios de documentación para obtener más información sobre la conexión a su lago de datos.
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Databricks
+* AWS Redshift

@@ -6,9 +6,8 @@ title: Ejemplos de consultas de Data Connect
 description: Consultas de ejemplo que puede utilizar para familiarizarse con la sintaxis y la estructura de tipos específicos de consultas.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

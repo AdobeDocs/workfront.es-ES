@@ -1,7 +1,7 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2550'
+source-wordcount: '2586'
 ht-degree: 1%
 
 ---
@@ -154,6 +154,10 @@ Para configurar carpetas vinculadas:
 >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
 >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en el **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de la página o (si está disponible), haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 >
+
+## Paso 1: Establecimiento de prioridades - {#step1-to-priorities}
+
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Prioridades]**.
 
 <!-- Integrations -->
 
