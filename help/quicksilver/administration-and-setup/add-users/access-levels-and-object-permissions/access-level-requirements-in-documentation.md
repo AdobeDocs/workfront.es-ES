@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Algunas filas contienen información con las etiquetas &quot;Nuevo&quot; y &quot
       </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>Workfront ofrece algunos productos que se pueden comprar además de Workfront.
    <p>Los artículos que describen los procedimientos realizados dentro de estos productos adicionales enumeran el producto requerido aquí.</p>
    <ul>
@@ -62,6 +62,7 @@ Algunas filas contienen información con las etiquetas &quot;Nuevo&quot; y &quot
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
    <li>Planificador de escenarios de Workfront</li>
+   <li>Workfront Planning</li>
    </ul>
    <p>Para saber si su organización ha adquirido uno de estos productos adicionales, póngase en contacto con su administrador de Workfront.</p></td> 
   </tr> 

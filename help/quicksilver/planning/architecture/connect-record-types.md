@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -268,13 +268,15 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    Los registros sin imagen en miniatura muestran el icono de tipo de registro en su lugar. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Apariencia del registro**.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Cuando permite vincular varios registros, la visualización de sólo la miniatura puede ahorrar espacio en áreas más pequeñas, como las vistas de registros.
+   >* Cuando permite vincular varios registros, la visualización de sólo la miniatura puede ahorrar espacio en áreas más pequeñas, como las vistas de registros.
    >
-   >El nombre de un registro es el campo principal del registro. Para obtener más información, vea [Información general del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* El nombre de un registro es el campo principal del registro. Para obtener más información, vea [Información general del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >La selección de una apariencia de registro no está disponible al seleccionar tipos de objetos de Workfront.
+   >* La selección de una apariencia de registro no está disponible al seleccionar tipos de objetos de Workfront.
+   >
+   >* Lo que seleccione en el área de Apariencia del registro determina cómo se muestran los registros en las conexiones de cualquier parte del sistema, incluidas todas las vistas y páginas de detalles.
 
 1. Haga clic en **Crear**.
 

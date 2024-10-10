@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 4%
+source-wordcount: '1282'
+ht-degree: 3%
 
 ---
 
@@ -137,13 +137,15 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
      >
      >   Los campos de los siguientes tipos no se muestran en el formulario de solicitud:
      >
-     >    * Personas
-     >    * Campos conectados (incluye conexiones con recursos de Experience Manager)
+     >    * Personas (incluye Creado por y Última modificación por)
+     >    * Campos conectados (incluye conexiones con Workfront y recursos de Experience Manager)
      >    * Campos de búsqueda conectados
      >    * Fórmula
+     >    * Fecha de creación
+     >    * Fecha de la última modificación
 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
-   * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible.
+   * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible. La configuración y el valor del campo Subject no se pueden editar.
    * Todos los campos asociados al tipo de registro.
 
      Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
@@ -158,21 +160,23 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    * **Crear un campo obligatorio**: cuando se selecciona, el campo debe tener un valor. De lo contrario, el formulario no se podrá enviar.
    * **Agregar lógica**: defina qué condiciones deben cumplirse para que el campo se muestre o se oculte.
 
-   El tipo de campo de cada campo se muestra en la parte superior del panel derecho, después de seleccionar el campo en el formulario. Los nombres de los tipos de campo en el formulario de solicitud difieren de sus nombres en la vista de tabla. En la tabla siguiente se describen las diferencias entre los nombres de los tipos de campo de la vista de tabla y los nombres de los mismos campos del formulario de solicitud del tipo de registro:
-
-   | Tipo de campo de Workfront Planning | Tipo de campo de formulario de solicitud |
-   |-------------------------------|-------------------------|
-   | Texto de línea única | Texto de línea única |
-   | Párrafo | Texto con formato |
-   | Moneda, Número, Porcentaje | Texto de línea única |
-   | Selección única | Lista desplegable de selección única |
-   | Selección múltiple | Lista desplegable de selección múltiple |
-   | Casilla de verificación | Grupo de casillas de verificación |
-
    >[!NOTE]
    >
-   >   Se conservan los formatos de los campos. Por ejemplo, aunque Moneda y Porcentaje se muestran como campos de Texto de una sola línea, la información de los campos se muestra como moneda y como valor de porcentaje.
-
+   >   El tipo de campo de cada campo se muestra en la parte superior del panel derecho, después de seleccionar el campo en el formulario.
+   >   
+   >
+   >   La tabla siguiente muestra los nombres de los tipos de campo en la vista de tabla y los nombres de los mismos campos en el formulario de solicitud del tipo de registro. Los formatos de cada campo coinciden entre la vista de tabla y el formulario de solicitud.
+   >
+   >   | Tipo de campo de Workfront Planning | Tipo de campo de formulario de solicitud |
+   >   |-------------------------------|-------------------------|
+   >   | Texto de línea única | Texto de línea única |
+   >   | Párrafo | Párrafo |
+   >   | Moneda, Número, Porcentaje | Texto de una sola línea (los formatos de estos campos siguen siendo moneda, número y porcentaje) |
+   >   | Selección única | Selección única |
+   >   | Selección múltiple | Selección múltiple |
+   >   | Casilla de verificación | Casilla de verificación |
+   >   | Fecha | Fecha |
+   >
 
 1. (Opcional) Haga clic en la pestaña **Elementos de contenido** de la parte izquierda del formulario y agregue cualquiera de los siguientes elementos:
 
