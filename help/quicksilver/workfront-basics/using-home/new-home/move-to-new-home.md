@@ -5,9 +5,9 @@ title: Moverse del inicio heredado al nuevo inicio
 description: La página de inicio heredada se eliminará de Workfront el 17/10 con la versión del cuarto trimestre. Este artículo proporciona información sobre qué funcionalidad estará disponible en el nuevo inicio, así como recomendaciones para mover usuarios a la experiencia Nuevo inicio.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -51,12 +51,12 @@ Los usuarios aún pueden delegar el trabajo desde la Nueva página de inicio en 
 * Mi trabajo
 * Mis tareas
 * Mis problemas
-* Esperando mis aprobaciones
+* Mis aprobaciones
 
 Los usuarios pueden encontrar el trabajo delegado a ellos en los siguientes widgets:
 
 * Widget de Mi trabajo con el filtro Delegado a mí
-* Esperando mis aprobaciones usando el filtro de aprobaciones delegadas
+* Mis aprobaciones mediante el filtro de aprobaciones delegadas
 
 | **Página principal heredada** | **Nueva página de inicio** |
 |------------|-----------|
@@ -72,10 +72,7 @@ Los usuarios ya no pueden crear una tarea personal del mismo modo que lo hiciero
 
 #### Ver aprobaciones que he enviado
 
-Los usuarios no pueden ver las aprobaciones que han enviado a su nueva página de inicio. Si los usuarios de su organización necesitan esta funcionalidad, puede crear un informe de aprobaciones como solución alternativa o votar o publicar un comentario aquí en las siguientes publicaciones de la comunidad:
-
-* [Agregar el widget &quot;Aprobaciones enviadas&quot; a la nueva página de inicio](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [Agregar &quot;Aprobaciones enviadas&quot; a la nueva página de inicio](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Los usuarios pueden ver las aprobaciones que han enviado en la nueva página de inicio en el widget Mis aprobaciones mediante el filtro Aprobaciones enviadas.
 
 #### Agregar elementos a Mi prioridad
 
@@ -131,7 +128,7 @@ Para localizar el menú de acciones rápidas, pase el ratón sobre el elemento d
 
 Los usuarios aún pueden administrar aprobaciones y solicitudes de equipo en la nueva página de inicio mediante los siguientes widgets:
 
-* En espera de mi aprobación
+* Mi aprobación
 * Todas las aprobaciones
 * Solicitudes de equipo
 
@@ -167,7 +164,7 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
 * **Solicitudes de equipo**\
     Muestra todas las solicitudes pendientes de los equipos en los que se encuentra, ordenadas por equipos, así como botones para asignar directamente una solicitud a alguien o para trabajar en ella usted mismo.
 
-* **Esperando mi aprobación**\
+* **Mi aprobación**\
     Muestra todas las aprobaciones pendientes asignadas o delegadas, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
 
 * **Todas las aprobaciones**\
@@ -202,15 +199,15 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Ligero</td>
-        <td>Mi trabajo, esperando mi aprobación</td>
+        <td>Mi trabajo, Mi aprobación</td>
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Mis solicitudes, menciones, esperando mi aprobación, tableros</td>
+        <td>Mis solicitudes, Menciones, Mi aprobación, Tableros</td>
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Esperando mi aprobación</td>
+        <td>Mi aprobación</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Solicitud</td>
-        <td>Mis proyectos, esperando mi aprobación</td>
+        <td>Mis proyectos, Mi aprobación</td>
     </tr>
     <tr>
         <td>Aportar</td>
@@ -241,7 +238,7 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Esperando mi aprobación</td>
+        <td>Mi aprobación</td>
     </tr>
 </table>
 

@@ -6,10 +6,10 @@ description: La nueva página de inicio es una nueva y potente función para adm
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 5%
+source-wordcount: '1168'
+ht-degree: 3%
 
 ---
 
@@ -56,8 +56,8 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
 * **Solicitudes de equipo**\
     Muestra todas las solicitudes pendientes de los equipos en los que se encuentra, ordenadas por equipos, así como botones para asignar directamente una solicitud a alguien o para trabajar en ella usted mismo.
 
-* **Esperando mi aprobación**\
-    Muestra todas las aprobaciones pendientes asignadas o delegadas, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
+* **Mi aprobación**\
+    Muestra todas las aprobaciones pendientes, asignadas, delegadas y enviadas; un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
 
 * **Todas las aprobaciones**\
         Muestra dos gráficos con información sobre el tiempo medio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. <span style="color: #ff0000;">Esta característica forma parte de una versión por fases y actualmente sólo está disponible para clientes específicos.</span>
@@ -85,15 +85,15 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Ligero</td>
-        <td>Mi trabajo, esperando mi aprobación</td>
+        <td>Mi trabajo, Mi aprobación</td>
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Mis solicitudes, menciones, esperando mi aprobación, tableros</td>
+        <td>Mis solicitudes, Menciones, Mi aprobación, Tableros</td>
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Esperando mi aprobación</td>
+        <td>Mi aprobación</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Solicitud</td>
-        <td>Mis proyectos, esperando mi aprobación</td>
+        <td>Mis proyectos, Mi aprobación</td>
     </tr>
     <tr>
         <td>Aportar</td>
@@ -124,7 +124,7 @@ De forma predeterminada, la página de inicio se rellena con algunos widgets esp
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Esperando mi aprobación</td>
+        <td>Mi aprobación</td>
     </tr>
 </table>
 

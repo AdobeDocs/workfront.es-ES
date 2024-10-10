@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Para obtener más información sobre los widgets disponibles en la nueva página
 
 ## Nueva página de aterrizaje predeterminada del colaborador: Nueva página de inicio
 
-La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato. En su primera visita a la página, también se darán instrucciones a los colaboradores para que utilicen la nueva página de inicio y los widgets específicos disponibles de forma predeterminada en un tutorial personalizado. Estos widgets predeterminados para los colaboradores son: Mis solicitudes, Menciones, Esperando mi aprobación y Tableros. Tenga en cuenta que si una cuenta de colaborador está utilizando un diseño con una página de inicio personalizada, seguirá siendo su página de inicio.
+La nueva página de inicio es ahora la página de aterrizaje predeterminada para las cuentas de colaborador/solicitante. Esta nueva página de inicio predeterminada incluye una serie de widgets seleccionados específicamente para permitir a los colaboradores administrar mejor su trabajo de inmediato. En su primera visita a la página, también se darán instrucciones a los colaboradores para que utilicen la nueva página de inicio y los widgets específicos disponibles de forma predeterminada en un tutorial personalizado. Estos widgets predeterminados para los colaboradores son: Mis solicitudes, Menciones, Mi aprobación y Tableros. Tenga en cuenta que si una cuenta de colaborador está utilizando un diseño con una página de inicio personalizada, seguirá siendo su página de inicio.
 
 Para obtener más información sobre cómo usar la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Cambios en el seguimiento de trabajo en la nueva página de inicio
 
-En función de los comentarios de los usuarios, hemos eliminado el filtro de intervalo de tiempo para toda la página y la barra de resumen que contabilizaba las tareas pendientes y completadas. Los widgets Proyecto, Tarea y Problema tienen funciones de filtrado integradas que le permiten personalizar su ámbito de manera individual. Además, estos widgets ahora solo incluirán contenido que esté activo actualmente en función del estado, lo que garantiza que el trabajo que rastrean siempre sea relevante. También hemos limitado qué widgets muestran burbujas de recuento de elementos a aquellos donde son más útiles: Mi trabajo, Menciones, Esperando mi aprobación y Tareas pendientes.
+En función de los comentarios de los usuarios, hemos eliminado el filtro de intervalo de tiempo para toda la página y la barra de resumen que contabilizaba las tareas pendientes y completadas. Los widgets Proyecto, Tarea y Problema tienen funciones de filtrado integradas que le permiten personalizar su ámbito de manera individual. Además, estos widgets ahora solo incluirán contenido que esté activo actualmente en función del estado, lo que garantiza que el trabajo que rastrean siempre sea relevante. También hemos limitado qué widgets muestran burbujas de recuento de elementos a aquellos donde son más útiles: Mi trabajo, Menciones, Mi aprobación y Tareas pendientes.
 
 Para obtener más información sobre el seguimiento del trabajo en la nueva página de inicio, vea [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

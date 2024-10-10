@@ -5,9 +5,9 @@ description: La página de inicio heredada se eliminará de Workfront el 17/10 c
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -80,13 +80,13 @@ Los usuarios pueden marcar el trabajo de alta prioridad con las siguientes opcio
 
 #### Ver aprobaciones que he enviado
 
-Los usuarios no pueden ver las aprobaciones que han enviado en Prioridades. Como solución alternativa, los usuarios pueden crear un informe de aprobación para ver esta información.
+Los usuarios no pueden ver las aprobaciones que han enviado en Prioridades. Como solución alternativa, los usuarios pueden ver esta información en el widget Mis aprobaciones de Inicio utilizando el filtro Aprobaciones enviadas.
 
 ### Ver aprobaciones y solicitudes de equipo
 
 Los usuarios no pueden interactuar con las aprobaciones y las solicitudes de equipo en Prioridades. Sin embargo, pueden administrar las solicitudes de aprobación y equipo en la nueva página de inicio mediante los siguientes widgets:
 
-* En espera de mi aprobación
+* Mi aprobación
 * Todas las aprobaciones
 * Solicitudes de equipo
 

@@ -6,9 +6,9 @@ description: Los usuarios pueden solicitar acceso a objetos dentro de Adobe Work
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 1. (Condicional) Desde la nueva área de Inicio, haga lo siguiente:
 
-   1. Vaya al widget **Esperando mi aprobación**, busque la solicitud para obtener más acceso y haga clic en **Conceder acceso**.
+   1. Vaya al widget de **Mi aprobación** y busque la solicitud para obtener más acceso. Luego, haga clic en **Conceder acceso**.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
