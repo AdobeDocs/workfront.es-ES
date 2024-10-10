@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1981'
 ht-degree: 6%
 
 ---
@@ -177,6 +177,14 @@ Se muestra el cuadro **Nueva aplicación OAuth2**.
 Para obtener instrucciones sobre cómo configurar y utilizar la aplicación OAuth2 con credenciales de usuario (flujo de código de autorización), consulte [Configurar y utilizar las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](../../wf-api/api/oauth-app-jwt-flow.md).
 
 ### Crear una aplicación OAuth2 con credenciales de usuario (flujo de código de autorización) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>Si está creando una aplicación para conectarse a Workfront Fusion, utilice una de las siguientes URL de redireccionamiento:
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (centro de datos de la UE)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Centro de datos de Azure)
 
 {{step-1-to-setup}}
 
