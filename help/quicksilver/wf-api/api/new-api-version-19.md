@@ -6,9 +6,9 @@ description: Adobe Workfront publicó la versión 19 de la API el 6 de abril de 
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e3f50efa03a43c44e9defd0a724b0516504b0e83
+source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -384,7 +384,7 @@ Un objeto Parameter es un campo personalizado.
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>Se agregaron los siguientes valores posibles:
+            <p><b>displayType</b></p><p>Para crear un sistema más flexible y fácil de usar, el tipo de campo <b>Widget (WIDGET)</b> se ha quedado obsoleto y se ha dividido en los siguientes tipos de campo:
             <ul>
             <li>Adobe XD (ADOBE EXD)</li>
             <li>Imagen (IMAGEN)</li>
@@ -444,7 +444,7 @@ Un objeto ScoreCardQuestion representa una pregunta que se ha agregado a un info
     <tr>
       <td role="rowheader">Campos directos</td>
       <td>
-            <p><b>displayType</b></p><p>Se agregaron los siguientes valores posibles:
+            <p><b>displayType</b></p><p>Para crear un sistema más flexible y fácil de usar, el tipo de campo <b>Widget (WIDGET)</b> se ha quedado obsoleto y se ha dividido en los siguientes tipos de campo:
             <ul>
             <li>Adobe XD (ADOBE EXD)</li>
             <li>Imagen (IMAGEN)</li>
