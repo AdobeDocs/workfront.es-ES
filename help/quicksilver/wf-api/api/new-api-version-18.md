@@ -2,12 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Novedades de la versión 18 de la API
-description: Adobe Workfront publicó la versión 18 de la API el 6 de abril de 2022. La versión 18 de la API incorpora los siguientes cambios con respecto a la versión 15.
+description: Adobe Workfront publicó la versión 18 de la API el 6 de abril de 2022. La versión 18 de la API incorpora los siguientes cambios con respecto a la versión 17.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Novedades de la versión 18 de la API
 
-Adobe Workfront publicó la versión 18 de la API el 8 de abril de 2024. La versión 18 de la API incorpora los siguientes cambios con respecto a la versión 15.
+Adobe Workfront publicó la versión 18 de la API el 8 de abril de 2024. La versión 18 de la API incorpora los siguientes cambios con respecto a la versión 17.
 
 ## Recursos añadidos
 
