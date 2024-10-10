@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Dado que Adobe Workfront se comunica con la red de su organización, el cortafue
 Esto se logra a través de una lista de permitidos, que es esencialmente una &quot;lista&quot; de sitios a los que se les &quot;permite&quot; enviar o recibir datos a través del firewall. Los sitios se pueden identificar de una de las dos maneras siguientes:
 
 * **Dirección IP**: una serie de números como 52.31.132.175
-* **Dominio**: parte de una dirección URL, como &quot;este dominio&quot; en www.thisdomain.com
+* **Dominio**: parte de una dirección URL, como `thisdomain` en `www.thisdomain.com`.
 
 Workfront utiliza direcciones IP y dominios específicos para la comunicación web. Deben añadirse a la lista de permitidos de su organización para poder utilizar Workfront en su organización.
 

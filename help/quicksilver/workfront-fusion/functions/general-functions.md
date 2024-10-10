@@ -8,9 +8,9 @@ description: Las siguientes funciones generales están disponibles en el panel d
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -161,3 +161,8 @@ Selecciona solo las claves dadas del objeto.
 >`pick(` Usuario `;` contraseña `;` correo electrónico `)`
 >
 >Devuelve una colección que incluye únicamente la contraseña y la dirección de correo electrónico del usuario.
+
+## mergeCollections(colección1 ; colección2)
+
+Combina dos colecciones combinando sus pares clave-valor. Si ambas colecciones contienen la misma clave, el valor de la segunda colección sobrescribe ese valor de la primera colección.
+
