@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Para obtener más información sobre cómo revertir un paquete de promoción de 
 
 >[!NOTE]
 >
->Versión preliminar: ~~12 de agosto de 2024~~; producción para versión rápida: N/D; producción para versión trimestral: N/D
+>~~Versión preliminar: 12 de agosto de 2024~~; producción para versión rápida: N/D; producción para versión trimestral: N/D
 >
 >_Esta característica se ha quitado de la vista previa y no se lanzará en futuras versiones._
 

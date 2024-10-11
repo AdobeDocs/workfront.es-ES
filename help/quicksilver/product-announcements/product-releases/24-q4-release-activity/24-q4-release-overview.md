@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
 
 * [Mejoras del administrador](#administrator-enhancements)
 * [Mejoras en la administración de documentos](#document-management-enhancements)
-* [Mejoras de integración](#integration-enhancements)
 * [Mejoras de inicio](#home-enhancements)
+* [Mejoras de integración](#integration-enhancements)
 * [Mejoras del proyecto](#project-enhancements)
 * [Mejoras de corrección](#proofing-enhancements)
 * [Mejoras de informes y paneles](#report-and-dashboard-enhancements)
@@ -164,6 +164,23 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
+                                <p><s>Versión de vista previa: 3 de octubre de 2024</s></p>
+                            </li>
+                            <li>
+                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
+                            </li>
+                            <p><i>Esta función se ha eliminado temporalmente de la vista previa.</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Agregue rápidamente revisores y aprobadores anteriores a las nuevas versiones del documento</a></p>
+                        <p>Ahora puede agregar rápidamente revisores y aprobadores de versiones de documentos anteriores.</p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
                                 <p>Versión de vista previa: 3 de octubre de 2024</p>
                             </li>
                             <li>
@@ -172,10 +189,56 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### Mejoras de inicio
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Agregue rápidamente revisores y aprobadores anteriores a las nuevas versiones del documento</a></p>
-                        <p>Ahora puede agregar rápidamente revisores y aprobadores de versiones de documentos anteriores.</p>
+                        <p><span class="bold">Característica</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Fechas de lanzamiento</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Actualizaciones del widget Esperando mi aprobación en la nueva página de inicio</a></p>
+                        [!BADGE en producción ]{type=Informative}
+                        <p>Hemos realizado los siguientes cambios en el widget Esperando mi aprobación:</p>
+                            <ul>
+                                <li>Se ha cambiado el nombre del widget: El nombre de este widget ahora es Mis aprobaciones.</li>
+                                <li>Aprobaciones añadidas que he enviado como opción de filtro: ahora puede ver las aprobaciones que ha enviado en la nueva página de inicio con este widget.</li>
+                            </ul>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión de vista previa: 10 de octubre de 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versión de producción para todos los clientes: 10 de octubre de 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducción a Prioridades: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas</a></p>
+                        <p>Las prioridades mejoran el enfoque y la productividad para ayudar a los clientes a lograr más en menos tiempo.</p>
+                        <p>Con Prioridades, puede disfrutar de:</p>
+                            <ul>
+                                <li>Administre y priorice las tareas diarias: organice su día o semana con navegación consolidada para una mejor claridad.</li>
+                                <li>Mayor productividad: Acceda al contexto del proyecto y realice las tareas más rápido con menos clics.</li>
+                                <li>Funciones personalizadas: aproveche las funciones diseñadas exclusivamente para los propietarios de tareas.</li>
+                            </ul>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -226,48 +289,6 @@ Las <span class="preview">funciones que no están en ciclo de producción (las q
                 </tr>
            </tbody>
 </table>
-
-### Mejoras de inicio
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Característica</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Fechas de lanzamiento</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducción a Prioridades: una experiencia de Workfront más sencilla, ágil e intuitiva para los propietarios de tareas</a></p>
-                        <p>Las prioridades mejoran el enfoque y la productividad para ayudar a los clientes a lograr más en menos tiempo.</p>
-                        <p>Con Prioridades, puede disfrutar de:</p>
-                        <ul>
-                        <li>Administre y priorice las tareas diarias: organice su día o semana con navegación consolidada para una mejor claridad</li>
-                        <li>Mayor productividad: Acceda al contexto del proyecto y realice las tareas más rápido con menos clics</li>
-                        <li>Funciones personalizadas: benefíciese de funciones diseñadas exclusivamente para propietarios de tareas</li>
-                        </ul>
-                    </td>
-                    <td><p><b>Disponible en estas fechas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versión de vista previa: 3 de octubre de 2024</p>
-                            </li>
-                            <li>
-                                <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### Mejoras del proyecto
 
@@ -542,11 +563,11 @@ No hay actualizaciones de Workfront Proof en este punto de la versión. Esta ár
 
 No hay actualizaciones de Workfront Goals en este punto de la versión. Esta área se actualizará cuando haya actualizaciones disponibles.
 
-### Versión de API 18
+### Versión de API 19
 
-Para la versión 18 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+Para la versión 19 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 18](/help/quicksilver/wf-api/api/new-api-version-18.md) de la API.
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 19](/help/quicksilver/wf-api/api/new-api-version-19.md) de la API.
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

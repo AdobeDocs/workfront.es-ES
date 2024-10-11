@@ -4,9 +4,9 @@ description: Mejoras en la administración de documentos del cuarto trimestre de
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66180a048f47cb9d3daf67882d41084ad4873eef
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 3 de octubre de 2024; producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)
+>~~Versión preliminar: 3 de octubre de 2024~~; producción para todos los clientes: con la versión 24.10 (17 de octubre de 2024)
+>
+>_Esta característica se ha quitado temporalmente de la vista previa._
 
 Ahora puede ver el estado de decisión de un documento directamente en la lista de documentos.
 
