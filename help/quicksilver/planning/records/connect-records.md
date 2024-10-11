@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2713'
 ht-degree: 1%
@@ -42,8 +42,8 @@ Puede conectar lo siguiente:
       * Proyectos
       * Portafolios
       * Programas
-      * Compañía
-      * Grupo
+      * Compañías
+      * Grupos
 
    * Adobe Experience Manager Assets
 
@@ -122,66 +122,6 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
-   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
 
 ## Requisitos previos para conectar registros
@@ -210,7 +150,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
 
 {{step1-to-planning}}
 
-1. Haga clic en el área de trabajo cuyos registros desee conectar
+1. Haga clic en el área de trabajo cuyos registros desee conectar.
 
    El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
@@ -225,7 +165,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
    * Haga clic en el nombre de un registro conectado de la lista para agregarlo al registro seleccionado. El registro se agrega automáticamente.
    * Empiece a escribir el nombre de un registro y haga clic en él cuando aparezca en la lista. El registro se agrega automáticamente.
 
-1. (Opcional) Si no encuentra un registro o un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar** para agregar un nuevo registro. Para obtener más información, consulte el artículo &quot;Crear registros al conectarlos&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Si no encuentra un registro o un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar** para agregar un nuevo registro. Para obtener más información, consulte la sección &quot;Crear registros a medida que los conecta&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -307,11 +247,11 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
 
 1. (Opcional) Si no encuentra un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar** para crear y agregar un nuevo proyecto o portafolio.
 
-   Sólo se pueden agregar proyectos sin plantilla o portafolios al conectarlos a registros de Planning. No puede agregar nuevos programas, usuarios ni compañías.
+   Sólo se pueden agregar proyectos sin plantilla o portafolios al conectarlos a registros de Planning. No se pueden agregar nuevos programas, grupos o compañías.
 
 1. (Opcional) Haga clic en **Ver todo** para mostrar todos los objetos para los que tiene al menos permisos de visualización.
 
-1. (Condicional) Si hizo clic en **Ver todo** en el paso anterior, se muestra el cuadro **Conectar objetos**.
+   Si hizo clic en **Ver todos** en el paso anterior, se muestra el cuadro **Conectar objetos**.
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -473,7 +413,7 @@ Para conectar registros con recursos de Experience Manager:
 1. (Condicional) Haga clic en **Conectar** para agregar más registros u objetos del mismo tipo.
 1. Siga los pasos descritos en las secciones anteriores para conectar registros de Workfront Planning u objetos de Workfront o Experience Manager Assets.
 Los registros y objetos se agregan inmediatamente.
-1. (Opcional) Pase el ratón sobre la tarjeta conectada de un registro u objeto y, a continuación, haga clic en el icono **Desconectar registro** **-** para desconectarlo del registro seleccionado.
+1. (Opcional) Pase el ratón sobre la tarjeta conectada de un registro u objeto y, a continuación, haga clic en el icono **Desconectar registro** ![](assets/disconnect-icon-with-tooltip.png) para desconectarlo del registro seleccionado.
 
    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 

@@ -7,9 +7,9 @@ description: Workfront Proof le permite crear pruebas a partir de documentos o s
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
      Para obtener más información sobre cómo compartir una prueba, consulte &quot;Agregar usuarios a una prueba&quot; en [Compartir una prueba en [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Automatizado:** Seleccione esta opción para administrar la revisión y aprobación de contenido cuando tenga procesos de revisión complejos o si envía contenido para su revisión a los mismos grupos de personas con regularidad. Con el flujo de trabajo automatizado, la prueba se desplaza de una fase a otra hasta la aprobación final. Se notifica a los usuarios correspondientes cada vez que se les requiere que realicen una aprobación.
+   * **Automatizado:** Seleccione esta opción para administrar la revisión y aprobación de contenido cuando tenga procesos de revisión complejos o si envía contenido para su revisión a los mismos grupos de personas con regularidad. Con un flujo de trabajo automatizado, la prueba pasa de una fase a otra hasta la aprobación final. Se notifica a los usuarios correspondientes cada vez que es necesario realizar una aprobación.
 
      Para obtener más información acerca de cómo crear un flujo de trabajo automatizado, vea [Configurar una prueba con un flujo de trabajo automatizado en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -126,7 +126,7 @@ ht-degree: 0%
       <td>Cuando se selecciona esta opción, la prueba se puede compartir mediante una URL pública o un código incrustado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Suscribirse a la revisión mediante una URL pública o un código para insertar</td> 
+      <td role="rowheader">Suscribirse a la revisión a través de una URL pública o código para insertar</td> 
       <td> <p>Si se selecciona esta opción, las personas que no se hayan añadido explícitamente a la prueba podrán suscribirse a ella. A la persona que se suscribe a la prueba se le concede la función y el correo electrónico que defina en la siguiente configuración:</p> 
        <ul> 
         <li><strong>Función de suscriptor</strong>: La función de prueba predeterminada que se asigna a todos los revisores que se suscriben a la prueba.</li> 

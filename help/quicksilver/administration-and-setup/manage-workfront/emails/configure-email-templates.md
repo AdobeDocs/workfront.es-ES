@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
 
+
 # Configurar plantillas de correo electrónico
+
+<!--Audited: 10/2024-->
+
 
 Como administrador de Adobe Workfront, puede configurar plantillas de correo electrónico para que admitan notificaciones de recordatorio.
 
@@ -40,9 +44,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td><p>Actual: plan</p>
+   <td><p>Nuevo: estándar</p>
    O
-   <p>Nuevo: estándar</p></td> 
+   <p>Actual: plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuración del nivel de acceso</td> 
