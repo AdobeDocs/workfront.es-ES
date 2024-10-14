@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ Para eliminar un elemento de la plantilla de horas que se añadió manualmente:
 
 Puede registrar la hora específica del proyecto en Inicio.
 
-Para obtener información general sobre el uso del área de Inicio, consulte las secciones siguientes:
+Para obtener información general acerca del uso del área de Inicio, vea [Usar el área de Inicio](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* Para obtener información sobre cómo usar el área de inicio heredada, consulte [Usar el área de inicio](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Para obtener información acerca del uso de la nueva área de inicio, vea [Introducción a la nueva página de inicio](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Registrar tiempo en un elemento de trabajo desde la nueva área de Inicio
 

@@ -6,9 +6,9 @@ description: Puede crear manualmente una plantilla de horas de un solo uso si de
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Para obtener información sobre cómo crear un perfil de hoja de horas que gener
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener lo siguiente para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -43,19 +45,20 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Nuevo: estándar </p>
+   <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Debe tener acceso administrativo a las hojas de horas. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a ciertas áreas</a>.</p> <p><b> NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Debe tener acceso administrativo a las hojas de horas. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a ciertas áreas</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crear hoja de horas de un solo uso
 

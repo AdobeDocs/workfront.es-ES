@@ -7,7 +7,7 @@ description: Información general sobre horas, ETC y costos en las vistas Proyec
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ Esta opción sólo se aplica cuando personaliza la vista en la sección Mostrar 
 
 >[!NOTE]
 >
->**Cuando el valor de Horas netas, ETC o Costo se muestra en rojo, no hay suficiente tiempo disponible o presupuesto para cubrir el tiempo presupuestado** o el tiempo planificado o el costo asociado con el trabajo. En este caso, los recursos se sobreasignan.
+>Cuando el valor de Horas netas, ETC o Coste aparece en rojo, no hay suficiente tiempo disponible o presupuesto para cubrir el tiempo presupuestado o planificado o el costo asociado con el trabajo. En este caso, los recursos se sobreasignan.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

@@ -6,7 +6,7 @@ description: Puede compartir el Distribuidor de cargas de trabajo con otros usua
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -136,4 +136,4 @@ Necesita el siguiente acceso para ver información en el Distribuidor de cargas 
 
      >[!IMPORTANT]
      >
-     >Cuando se agrega el Distribuidor de cargas de trabajo a la sección personalizada de un objeto, la información del Distribuidor de cargas de trabajo no se filtra con el objeto. El Distribuidor de cargas de trabajo muestra la información filtrada por los filtros aplicados originalmente.
+     >Cuando se agrega el Distribuidor de cargas de trabajo a la sección personalizada de un objeto, la información del Distribuidor de cargas de trabajo no se filtra con el objeto. El Distribuidor de cargas de trabajo muestra la información filtrada por los filtros aplicados originalmente.
