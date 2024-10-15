@@ -6,9 +6,9 @@ description: Algunas características son diferentes entre  [!DNL Workfront]  y 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ En esta tabla se describen algunas funciones que difieren entre las dos experien
 | El visor de revisión se abre en una nueva pestaña | El visor de revisión se abre en Workfront |
 | La URL utilizada para acceder a Workfront es `experience.adobe.com` | La URL utilizada para acceder a Workfront es `(CompanyName).my.workfront.com` |
 | El formato de fecha (como MM/DD/AAAA) se basa en la configuración del lenguaje de experiencia unificado. Si el usuario no ha actualizado la configuración de idioma, se utiliza la configuración de `en-US`. | El formato de la fecha (como MM/DD/AAAA) se basa en las preferencias del navegador. |
+| La integración de JumpSeat no es compatible | Se admite la integración de Jumpseat |
 
 {style="table-layout:auto"}
 
