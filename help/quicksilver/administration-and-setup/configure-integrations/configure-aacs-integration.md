@@ -6,9 +6,9 @@ description: Puede conectar su trabajo con su contenido en  [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr>
   <tr>
-   <td>Product
+   <td>Producto
    </td>
    <td>Debe tener [!DNL Experience Manager Assets as a Cloud Service] y se le debe agregar al producto como usuario.
    </td>
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Configuración de flujos de trabajo (opcional)
 
-Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Como administrador de Workfront, puede configurar flujos de trabajo en Workfront y, a continuación, asignarlos a plantillas de proyecto. Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
+Un flujo de trabajo es un conjunto de acciones que conectan Workfront con Adobe Experience Manager as a Cloud Service. Como administrador de Workfront, puede configurar flujos de trabajo en Workfront y, a continuación, asignarlos a plantillas de proyecto.
 
-Los flujos de trabajo están habilitados y configurados para Adobe Experience Manager en su conjunto. Estos flujos de trabajo se pueden aplicar a las plantillas de proyecto y ajustar o personalizar en el nivel de plantilla o proyecto.
+Cuando se crea un proyecto utilizando una plantilla de proyecto a la que se asigna un flujo de trabajo, se activan las acciones definidas en el flujo de trabajo.
+
+Los flujos de trabajo están habilitados y configurados para Adobe Experience Manager en su conjunto. Estos flujos de trabajo se pueden aplicar a las plantillas de proyecto. Se pueden ajustar o personalizar en el nivel de plantilla o en el nivel de proyecto cuando se crea un proyecto a partir de esa plantilla.
 
 Los siguientes flujos de trabajo están disponibles en la integración de Adobe Experience Manager:
 

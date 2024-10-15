@@ -6,9 +6,9 @@ description: Cuando vincula  [!DNL Jira] problemas a [!DNL Adobe Workfront] tare
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ La siguiente lista muestra qué [!DNL Workfront] campos se sincronizan con [!DNL
   </tr> 
   <tr> 
    <td>[!UICONTROL Comentarios]</td> 
-   <td> <p>El comentario se agrega a la ficha <strong>[!DNL Workfront]</strong> del problema [!DNL Jira]. No se agregó a la ficha <strong>[!UICONTROL Comentarios]</strong> del problema [!DNL Jira]</p> <p>Nota: Cuando vincula dos elementos existentes manualmente, los comentarios que se agregaron al elemento [!DNL Workfront] antes de vincularlo a [!DNL Jira] no se sincronizan con el problema [!DNL Jira]. </p> </td> 
+   <td> <p>El comentario se agrega a la ficha <strong>[!DNL Workfront]</strong> del problema [!DNL Jira]. No se agregó a la ficha <strong>[!UICONTROL Comentarios]</strong> del problema [!DNL Jira]</p> <p>Nota: Cuando vincula dos elementos existentes manualmente, los comentarios que se agregaron al elemento [!DNL Workfront] antes de vincularlo a [!DNL Jira] no se sincronizan con el problema [!DNL Jira]. </p> <p>Los comentarios de Jira no se sincronizan con Workfront.</td> 
   </tr> 
  </tbody> 
 </table>
