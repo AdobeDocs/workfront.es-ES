@@ -6,9 +6,9 @@ description: Utilice el Distribuidor de cargas de trabajo para comprender la dis
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
      >[!TIP]
      >
-     >Si el administrador de su Workfront o de su grupo ha habilitado las delegaciones en su entorno, utilice la pestaña Asignaciones para asignar usuarios a la tarea o al problema. Para obtener información sobre la delegación de trabajo, consulte [Administrar delegación de tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Si el administrador de su Workfront o de su grupo ha habilitado las delegaciones en su entorno, utilice la pestaña Asignaciones para asignar usuarios a la tarea o al problema. Para obtener información sobre la delegación de trabajo, consulte [Delegar tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
    * **Edite asignaciones** y luego edite las asignaciones diarias o semanales para el usuario. Para obtener información acerca de la administración de asignaciones de usuarios, vea [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../workload-balancer/manage-user-allocations-workload-balancer.md).
 

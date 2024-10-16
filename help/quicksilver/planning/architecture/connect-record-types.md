@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2248'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Conectar tipos de registros
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, vea [Ejemplo
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
-Debe tener lo siguiente para poder acceder a Workfront Planning:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    <p> Productos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+   <li><p> Planificación de Adobe Workfront<p></li>
+   <li><p> Adobe Experience Manager Assets AEM, si desea conectar recursos con tipos de registros de Planning, haga lo siguiente:<p>
+   <p>Debe tener una licencia de Adobe Experience Manager Assets y una integración entre AEM Assets y Workfront.
+    Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículos</a>. </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
@@ -185,7 +190,8 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    * Otro tipo de registro del espacio de trabajo actual
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    * Un tipo de registro de otro espacio de trabajo configurado para conectarse desde otros espacios de trabajo. Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
    * **Experience Manager Assets** de la sección **Aplicaciones de Adobe**.
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Actualice la siguiente información:
 
@@ -222,7 +228,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
      Esta opción solo está disponible cuando se conectan registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **Tipo de conexión**: seleccione una de las siguientes opciones para indicar cuántos registros pueden conectar con y desde:
 
@@ -233,7 +239,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
      Esta opción sólo está disponible cuando se conectan registros del mismo espacio de trabajo o un registro y un tipo de objeto de Workfront.
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -262,9 +268,9 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, seleccione una de las siguientes opciones en el área **Apariencia del registro**:
 
-   * <span class="preview">**Nombre e imagen**: tanto el nombre como la miniatura o el icono de los registros conectados se mostrarán en el campo de registro conectado. Esta es la opción predeterminada. </span>
-   * <span class="preview">**Nombre**: solo se mostrará el nombre de los registros conectados en el campo de registro conectado.</span>
-   * <span class="preview">**Imagen**: solo se mostrará la miniatura o el icono de los registros conectados en el campo de registro conectado.</span>
+   * **Nombre e imagen**: tanto el nombre como la miniatura o el icono de los registros conectados se mostrarán en el campo de registro conectado. Esta es la opción predeterminada.
+   * **Nombre**: solo se mostrará el nombre de los registros conectados en el campo de registro conectado.
+   * **Imagen**: solo se mostrará la miniatura o el icono de los registros conectados en el campo de registro conectado.
 
    Los registros sin imagen en miniatura muestran el icono de tipo de registro en su lugar. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Apariencia del registro**.
 

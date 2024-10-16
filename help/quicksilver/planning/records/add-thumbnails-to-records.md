@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Para obtener más información, consulte [Crear tipos de registros](/help/quicks
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
-Debe tener lo siguiente para poder acceder a Workfront Planning:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 

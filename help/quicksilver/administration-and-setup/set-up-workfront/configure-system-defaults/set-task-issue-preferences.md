@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -193,15 +193,22 @@ Habilitar la opción **[!UICONTROL Permitir que los usuarios deleguen sus tareas
 
 Cuando esta configuración está habilitada, los usuarios pueden ver lo siguiente:
 
-* El vínculo [!UICONTROL Delegar] en su área de [!UICONTROL Inicio]. Pueden delegar aprobaciones o asignaciones de tareas y problemas desde aquí.
+* El vínculo [!UICONTROL **Delegar**] en sus widgets [!UICONTROL Mi trabajo], [!UICONTROL Mis tareas] o [!UICONTROL Mis problemas] en el área [!UICONTROL Inicio]. Pueden delegar asignaciones de tareas y problemas desde allí.
+
+  >[!NOTE]
+  >
+  >  El vínculo [!UICONTROL **Delegar aprobaciones**] siempre está habilitado en el área de [!UICONTROL Inicio].
+
 * Una indicación de que una tarea o un problema se ha delegado a otro usuario en el área [!UICONTROL Asignaciones y delegaciones] del encabezado de la tarea o el problema.
+* Una indicación de que una tarea o un problema se ha delegado a otro usuario en su widget de [!UICONTROL Mi trabajo] en [!UICONTROL Inicio].
 
   Si deshabilita la opción [!UICONTROL Permitir que los usuarios deleguen sus tareas y problemas], las delegaciones programadas actualmente se detendrán y los usuarios delegados recibirán una notificación por correo electrónico avisando que la delegación se detuvo.
 
 Para obtener información sobre cómo delegar el trabajo a otros, consulte los siguientes artículos:
 
 * [Resumen del trabajo delegado](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [Administrar delegación de tareas y problemas](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Delegar tareas y problemas](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
 
    >[!TIP]
    >
-   > Si el administrador de su Workfront o de su grupo ha habilitado las delegaciones en su entorno, utilice la pestaña Asignaciones para asignar usuarios a la tarea o al problema. Utilice la pestaña Delegaciones para ver los usuarios delegados al elemento de trabajo. Para obtener información sobre la delegación de trabajo, consulte [Administrar delegación de tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Si el administrador de su Workfront o de su grupo ha habilitado las delegaciones en su entorno, utilice la pestaña Asignaciones para asignar usuarios a la tarea o al problema. Utilice la pestaña Delegaciones para ver los usuarios delegados al elemento de trabajo. Para obtener información sobre la delegación de trabajo, consulte [Delegar tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    Esto asigna o reasigna el elemento de trabajo a los usuarios asignados especificados.

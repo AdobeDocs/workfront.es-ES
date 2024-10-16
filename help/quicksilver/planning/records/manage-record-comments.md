@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ El panel derecho de un registro muestra las siguientes secciones:
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
-Debe tener lo siguiente para poder acceder a Workfront Planning:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 

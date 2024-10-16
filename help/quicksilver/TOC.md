@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
 workflow-type: tm+mt
-source-wordcount: '14530'
+source-wordcount: '14529'
 ht-degree: 2%
 
 ---
@@ -1511,7 +1511,7 @@ ht-degree: 2%
    * Delegar trabajo {#delegate-work}
       * [Delegar trabajo](manage-work/delegate-work/delegate-work.md)
       * [Información general sobre tareas y problemas delegados](manage-work/delegate-work/delegate-work-overview.md)
-      * [Administrar delegación de tareas y problemas](manage-work/delegate-work/how-to-delegate-work.md)
+      * [Delegar tareas y problemas](manage-work/delegate-work/how-to-delegate-work.md)
 * Equipos y grupos {#teams-groups}
    * [Equipos y grupos](people-teams-and-groups/people-teams-and-groups.md)
    * Crear y administrar equipos {#create-manage-teams}

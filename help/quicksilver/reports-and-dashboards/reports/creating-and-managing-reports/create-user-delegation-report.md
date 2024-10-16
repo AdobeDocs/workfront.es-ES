@@ -7,14 +7,16 @@ description: Creación de un informe de delegación de usuario
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # Creación de un informe de delegación de usuario
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Para obtener más información sobre la delegación de aprobaciones, consulte [D
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nuevo: estándar </p>
+   <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -64,7 +69,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
++++
 
 ## Creación de un informe de delegación de usuarios
 
@@ -79,14 +85,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    |---|---|
    | **De usuario** | Este es el usuario que está delegando sus aprobaciones de tareas, problemas y proyectos a otro usuario. |
    | **Para el usuario** | Usuario al que se han delegado las aprobaciones de tareas, problemas y proyectos. |
-   | **Iniciar** | Este es el comienzo del tiempo fuera de la oficina para el usuario que ha realizado las delegaciones. |
-   | **Fin** | Este es el final del tiempo de Fuera de la oficina para el usuario que ha realizado las delegaciones. |
+   | **Fecha de inicio** | Este es el comienzo del tiempo fuera de la oficina para el usuario que ha realizado las delegaciones. |
+   | **Fecha de finalización** | Este es el final del tiempo de Fuera de la oficina para el usuario que ha realizado las delegaciones. |
 
    {style="table-layout:auto"}
 
 1. (Opcional) En Report Builder, modifique lo siguiente:
 
-   * Columnas
+   * Columnas (vista)
    * Agrupaciones
    * Filtros
    * Gráfico
@@ -94,7 +100,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Para obtener más información acerca de estas características, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Cuando termine de crear el informe, haga clic en **Guardar + Cerrar**.
-
-1. Escriba un nombre nuevo en el campo **Nombre del informe** y haga clic en **Guardar informe**.
 
    Se muestra el informe.

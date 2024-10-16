@@ -6,9 +6,9 @@ description: La [!UICONTROL Lista de trabajos] en el área [!UICONTROL Inicio] m
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Puede filtrar elementos en la [!UICONTROL Lista de trabajos] para ver solamente 
       <td> 
        <div> 
         <p>Muestra sólo los elementos de trabajo que ha delegado a otro usuario.</p> 
-        <p>Para obtener más información sobre cómo delegar tareas, vea <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegar tareas y problemas a otro usuario</a>.
+        <p>Para obtener más información acerca de la delegación de tareas, vea <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegar tareas y problemas</a>.
        </div> </td> 
      </tr> 
      <tr> 

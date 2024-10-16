@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Solicitar permisos para una vista o un espacio de trabajo
 
@@ -38,7 +38,7 @@ Para obtener información sobre la concesión de permisos a vistas y espacios de
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
-Debe tener lo siguiente para poder acceder a Workfront Planning:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
      ![](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this, but Isk confirmed.-->
-
-

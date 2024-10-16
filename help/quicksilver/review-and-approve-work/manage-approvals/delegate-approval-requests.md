@@ -6,16 +6,16 @@ description: La delegación de solicitudes de aprobación le permite asignar a o
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 # Delegar solicitud de aprobación
 
-Puede delegar temporalmente el trabajo al que esté asignado mientras esté fuera de la oficina. Puede delegar asignaciones de tareas y problemas o delegar solicitudes de aprobación. Este artículo describe cómo delegar solicitudes de aprobación. Para obtener información sobre la delegación de asignaciones de tareas y problemas, consulte [Administrar delegación de tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
+Puede delegar temporalmente el trabajo al que esté asignado mientras esté fuera de la oficina. Puede delegar asignaciones de tareas y problemas o delegar solicitudes de aprobación. Este artículo describe cómo delegar solicitudes de aprobación. Para obtener información sobre la delegación de asignaciones de tareas y problemas, consulte [Delegar tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 Puede delegar los siguientes tipos de aprobaciones, independientemente de cómo se le haya asignado la aprobación (ya sea directamente a usted, a un equipo del que sea miembro o a su función):
 

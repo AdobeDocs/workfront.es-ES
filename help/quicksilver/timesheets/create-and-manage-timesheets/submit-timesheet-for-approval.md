@@ -6,9 +6,9 @@ description: Enviar su hoja de horas para su aprobación le da a su gerente visi
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td> <p>Nuevo: claro o superior </p>
    <p>Actual: revisar o superior </p>
   </tr> 
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Para enviar una hoja de horas para su aprobación:
 
    El botón **Enviar para aprobación** se ha reemplazado por los botones **Aprobar**, **Rechazar** y **Recuperar**. El estado de la hoja de horas cambia a **Enviado**.
 
-   Cuando la hoja de horas se envía para su aprobación, el aprobador la ve en el área de **Aprobaciones** de la página **Inicio**. Pueden ocurrir lo siguiente:
+   Cuando la hoja de horas se envía para su aprobación, el aprobador la ve en la hoja de horas enumerada en el widget **Mis aprobaciones** del área **Inicio**. Pueden ocurrir lo siguiente:
 
    * Si lo aprueban, el botón **Recuperar** cambia a **Volver a abrir** y el estado de la hoja de horas se actualiza a **Abrir**.
    * Si lo rechazan, el botón **Enviar para aprobación** reemplaza el botón **Recuperar** y el estado de la hoja de horas se actualiza a **Rechazado**.

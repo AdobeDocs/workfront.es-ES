@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Puede conectar lo siguiente:
 
 +++ Amplíe para ver los requisitos de acceso para Workfront Planning.
 
-Debe tener lo siguiente para poder acceder a Workfront Planning:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
    <p> Productos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+   <li><p> Planificación de Adobe Workfront<p></li>
+   <li><p>Adobe Experience Manager Assets AEM, si desea conectar recursos con registros de Planning, haga lo siguiente:<p>
+   <p>Debe tener una licencia de Adobe Experience Manager Assets y una integración entre AEM Assets y Workfront.
+    Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículos</a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
@@ -146,7 +151,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
 * Vista previa o página del registro en los campos de registro conectados de la pestaña Detalles.
 * La página o vista previa del registro en la ficha Conexiones.
 
-### Conecte los registros de Adobe Workfront Planning desde la vista de tabla o desde la pestaña Detalles de la página de registros
+### Conecte los registros de Adobe Workfront Planning desde la vista de tabla o el área Detalles
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
 
    * Haga clic en el nombre de un registro conectado de la lista para agregarlo al registro seleccionado. El registro se agrega automáticamente.
    * Empiece a escribir el nombre de un registro y haga clic en él cuando aparezca en la lista. El registro se agrega automáticamente.
+
+   >[!TIP]
+   >
+   >    Si sólo se seleccionó la imagen del registro para mostrarla cuando se conectaron los tipos de registro, sólo se mostrará la miniatura o el icono del registro en el campo conectado. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 
 1. (Opcional) Si no encuentra un registro o un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar** para agregar un nuevo registro. Para obtener más información, consulte la sección &quot;Crear registros a medida que los conecta&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 

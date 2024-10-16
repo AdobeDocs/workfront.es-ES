@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Este artículo describe el acceso y la configuración que necesita para utilizar
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-Debe tener lo siguiente para poder acceder a Workfront Planning:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
  <col>
@@ -128,7 +128,7 @@ Debe tener lo siguiente para poder acceder a Workfront Planning:
 
 <!--Acccess and permissions before GA (OLD): 
 
-You must have the following to be able to access Workfront Planning:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
