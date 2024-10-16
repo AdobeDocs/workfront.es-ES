@@ -5,7 +5,7 @@ description: Puede resumir rápidamente elementos de trabajo y documentos median
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -73,10 +73,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Las siguientes áreas tienen botones que generan resúmenes mediante el Asistente de IA:
 
-* Encabezado del proyecto: Resumen del proyecto
-* Área de actualizaciones: Resumir contenido
+* Encabezado del proyecto: Resumir el proyecto
+* Área de actualizaciones: Resumir comentarios
 
-Para utilizar el botón Resumen del proyecto o Resumir contenido:
+Para utilizar el botón Resumir proyecto o Resumir comentarios:
 
 1. Haga clic en el botón
 
