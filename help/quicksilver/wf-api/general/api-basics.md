@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ A cada objeto del sistema se le asigna un URI único que consta del tipo de obje
 
 El tipo de objeto no distingue entre mayúsculas y minúsculas y puede ser el ObjCode abreviado (como proj) o el nombre de objeto alternativo (proyecto).
 
-Para obtener una lista de códigos de objeto válidos, consulte  [Explorador de API](../../wf-api/general/api-explorer.md).
+Para obtener una lista de objetos, códigos de objeto válidos y campos de objeto, consulte  [Explorador de API](../../wf-api/general/api-explorer.md).
+
+>[!NOTE]
+>
+>En el contexto de la API de Workfront, un formulario personalizado es un objeto `Category` y un campo personalizado es un objeto `Parameter`.
 
 ### Operaciones
 

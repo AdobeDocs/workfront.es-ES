@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos del c
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
 1. Escriba **Label** y **Name** para el campo.
 1. Seleccione **Formato** para el campo.
-1. Escriba la llamada de URL de API en el campo **URL de API básica**.
+1. Escriba la llamada de API en el campo **URL de API base**.
 
-   * Puede agregar $$HOST para hacer referencia a la misma instancia.
-   * Puede agregar $$QUERY para filtrar los resultados en función de la consulta a un campo diferente.
+   * Para hacer referencia a la misma instancia de Workfront en la que se encuentra el formulario personalizado, utilice $$HOST para la dirección URL.
+   * Para filtrar los resultados según la consulta a un campo diferente, agregue $$QUERY.
 
    **Ejemplo**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
