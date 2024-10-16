@@ -7,9 +7,9 @@ description: Puede utilizar el Distribuidor de cargas de trabajo para programar 
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -104,16 +104,16 @@ Se muestra la página de su equipo de inicio.
 
 1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.
 
-![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
+   El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
 
-* **Trabajo sin asignar**: elementos asignados al equipo y no asignados a usuarios.
-* **Trabajo asignado**: todos los miembros del equipo con todas sus asignaciones.
+   * **Trabajo sin asignar**: elementos asignados al equipo y no asignados a usuarios.
+   * **Trabajo asignado**: todos los miembros del equipo con todas sus asignaciones.
 
-  >[!TIP]
-  >
-  >Los integrantes del equipo pueden estar asignados a trabajos que también están asignados al equipo o a trabajos asignados a otros equipos o roles.
+     >[!TIP]
+     >
+     >Los integrantes del equipo pueden estar asignados a trabajos que también están asignados al equipo o a trabajos asignados a otros equipos o roles.
 
 ### Acceso al Distribuidor de cargas de trabajo para un proyecto
 
