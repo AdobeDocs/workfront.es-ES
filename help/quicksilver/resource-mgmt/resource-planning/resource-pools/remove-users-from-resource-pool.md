@@ -6,16 +6,14 @@ description: Aunque no hay límite para la cantidad de usuarios que puede tener 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
 
 # Quitar usuarios de conjuntos de recursos
-
-{{preview-and-fast-release-Q424}}
 
 Aunque no hay límite para la cantidad de usuarios que puede tener en un conjunto de recursos, la lista de usuarios sólo muestra los primeros 2000 usuarios, enumerados alfabéticamente.
 
@@ -73,15 +71,10 @@ O\
    O\
    Empiece a escribir el nombre de una empresa, función de trabajo, equipo o grupo si desea quitar todos los usuarios asociados a esas entidades.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:<span>
-
    ![Quitar usuarios del conjunto de recursos](assets/remove-users-from-resource-pool.png)
 
-   Imagen de muestra en el entorno de producción:
-   ![Buscar en el conjunto de recursos](assets/search-inside-new-resource-pool-350x314.png)
-
-1. Haga clic en el icono &quot;x&quot; en el nivel de usuario para eliminar un usuario del conjunto de recursos. Se eliminan de todas las listas en las que aparecen.\
-   O\
-   Para quitar todos los usuarios asociados con un rol, grupo, equipo o compañía, haga clic en **Quitar** en el rol, grupo, nivel de equipo o nivel de compañía del trabajo. Esto elimina del conjunto de recursos a todos los usuarios asociados a ese rol, grupo, equipo o compañía.
+1. Haga clic en el icono X en el nivel de usuario para eliminar un usuario del Conjunto de recursos. Se eliminan de todas las listas en las que aparecen.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. Haga clic en **Guardar**.

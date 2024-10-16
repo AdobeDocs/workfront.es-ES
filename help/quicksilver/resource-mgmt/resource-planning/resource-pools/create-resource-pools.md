@@ -6,9 +6,9 @@ description: Los conjuntos de recursos son conjuntos de usuarios que le ayudan a
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '575'
 ht-degree: 2%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 2%
 >id="wf_resource_pools"
 >title="Conjuntos de recursos"
 >abstract="Un conjunto de recursos es un conjunto de usuarios que se necesitan al mismo tiempo para la finalización de un proyecto. Después de crear un conjunto de recursos, puede asociarlo a proyectos y plantillas."
-
-{{preview-and-fast-release-Q424}}
 
 Los conjuntos de recursos son conjuntos de usuarios que le ayudan a administrar recursos con mayor facilidad en Adobe Workfront. Para obtener más información acerca de los conjuntos de recursos, vea [Resumen de los conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
@@ -66,14 +64,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 {{step1-to-resourcing}}
 
 1. Haga clic en **Conjuntos de recursos** en el panel izquierdo.
-
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-   <span class="preview">![Conjuntos de recursos](assets/list-of-resource-pools.png)</span>
-
-   Imagen de muestra en el entorno de producción:
-   ![Conjuntos de recursos](assets/resource-pools-tab-350x198.png)
-
 1. Haga clic en **Nuevo conjunto de recursos**.
+
+   ![Conjuntos de recursos](assets/list-of-resource-pools.png)
+
 1. Especifique lo siguiente:
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    >
    >No hay límite en cuanto a la cantidad de usuarios que puede tener en un Conjunto de recursos. Sin embargo, se recomienda no agregar demasiados usuarios a un Conjunto de recursos, ya que de lo contrario la Administración de recursos podría convertirse en un desafío. La lista de usuarios sólo muestra los 2.000 primeros usuarios del Conjunto de recursos y se enumeran alfabéticamente.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-   <span class="preview">![Usuarios agregados al conjunto de recursos](assets/users-in-resource-pool2.png)</span>
-
-   Imagen de muestra en el entorno de producción:
-   ![Usuarios agregados al conjunto de recursos](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![Usuarios agregados al conjunto de recursos](assets/users-in-resource-pool2.png)
 
 1. (Opcional) Haga clic en el icono X a la derecha del nombre de un usuario para eliminarlo. Para obtener más información acerca de cómo quitar usuarios de un conjunto de recursos, vea [Quitar usuarios de conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Opcional) Use la opción **Buscar** para encontrar un usuario en el conjunto de recursos.
