@@ -5,15 +5,15 @@ description: Prioridades es una experiencia intuitiva y optimizada, adaptada a l
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '955'
 ht-degree: 3%
 
 ---
 
 
-# Introducción a Prioridades
+# Introducción a [!DNL Priorities]
 
 Prioridades es una experiencia intuitiva y optimizada, adaptada a los propietarios de tareas. Las prioridades se implementarán por fases, empezando por la lista de trabajo.
 
@@ -80,6 +80,10 @@ Encuentre su trabajo más importante con filtros. Puede filtrar las tareas y los
     <td>Estado</td>
     <td>Muestra tareas o problemas en estados nuevos, en curso y completos</td>
     </tr>
+     <tr>
+    <td>Mi enfoque</td>
+    <td>Muestra tareas o problemas en que tienen niveles de enfoque asignados. El usuario individual asigna y administra los niveles de enfoque.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -88,11 +92,12 @@ Encuentre su trabajo más importante con filtros. Puede filtrar las tareas y los
 Después de filtrar el trabajo, puede agrupar los elementos en función de
 
 * Ninguno
+* Mi enfoque
 * Vence la semana
 * Estado
 * Proyecto
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+Para obtener más información, vea [Filtrar y agrupar su trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Priorizar elementos de trabajo importantes con Mi enfoque
 
@@ -105,7 +110,7 @@ Mi enfoque es una columna de la lista de trabajo que le ayuda a priorizar su tra
 
 Una vez que haya asignado niveles de enfoque a los elementos de trabajo, puede ordenar la columna para que aparezcan elementos urgentes en la parte superior de la lista de trabajo.
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+Para obtener más información, vea [Priorizar elementos de trabajo importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
 
@@ -133,7 +138,7 @@ Agregue una actualización a una tarea o un problema para comunicar el progreso 
 
 La sección Actualizaciones muestra las actualizaciones del sistema y hasta 200 de las actualizaciones más recientes realizadas por los usuarios en los últimos 90 días.
 
-<!--For more information, see [Add and view updates in Priorities]().-->
+Para obtener más información, vea [Agregar y ver comentarios en Prioridades](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
 
@@ -141,7 +146,7 @@ La sección Actualizaciones muestra las actualizaciones del sistema y hasta 200 
 
 Puede registrar el tiempo de los elementos de trabajo para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. La hora que registre se mostrará en la hoja de horas.
 
-<!--For more information, see [Log time in Priorities]().-->
+Para obtener más información, vea [Registrar tiempo en prioridades](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
 
@@ -154,7 +159,7 @@ Cargue los archivos directamente en el área Documentos de la tarea o del proble
 * Añadir archivos adicionales
 * Importar archivos desde integraciones de documentos conectadas
 
-<!--For more information, see [Upload files in Priorities]().-->
+Para obtener más información, consulte [Cargar archivos en Prioridades](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
 
@@ -170,7 +175,7 @@ Puede incrustar los vínculos utilizados con frecuencia en la página de detalle
 
 ![](assets/quick-links.png)
 
-<!--For more information, see [Add and manage quick links in Priorities]().-->
+Para obtener más información, consulte [Agregar y administrar vínculos rápidos en Prioridades](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Revisar y aprobar recursos [!BADGE Próximamente]{type=Informative}
 
@@ -181,9 +186,9 @@ Por ahora, recomendamos utilizar los widgets Mi aprobación y Todas las aprobaci
 Para obtener más información, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 
-## Use Ponerme al día para ver lo que se perdió [!BADGE Próximamente]{type=Informative}
+## Use [!DNL Catch me up] para ver lo que se perdió [!BADGE Próximamente]{type=Informative}
 
-Utilice la función Ponerme al día para ver lo que se ha perdido. Ponerme al día resumirá las actualizaciones, los documentos cargados, las aprobaciones y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días, 7 días.
+Use la característica [!DNL Catch me up] para ver lo que se perdió. Ponerme al día resumirá las actualizaciones, los documentos cargados, las aprobaciones y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días, 7 días.
 
 
 ![](assets/catch-me-up.png)
