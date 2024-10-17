@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ Para ello:
      >
      >La opción **Tipo de conexión** no está disponible al conectar registros de diferentes espacios de trabajo o al conectar recursos de Experience Manager. Para obtener más información, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Registrar apariencia**: anule la selección de la opción **Título** si no desea mostrar el nombre de los productos al agregarlos al campo Información del producto de la campaña. Si está activada, los registros muestran la miniatura y el título. La opción está activada de forma predeterminada.
+   * **Apariencia del registro**: elija entre las siguientes opciones:
+      * **Nombre e imagen**: muestra el nombre y la miniatura o el icono de los registros conectados. Esta opción está seleccionada de forma predeterminada.
+      * **Nombre**: muestra solamente el nombre de los registros conectados.
+      * **Imagen**: muestra solamente la miniatura o el icono de los registros conectados.
    * **Seleccionar campos de búsqueda**: si deja seleccionada esta opción, se abrirá el cuadro **Agregar campos de búsqueda** a continuación para que pueda vincular los campos de producto con el tipo de registro de campaña. Puede hacer clic en **Omitir** para omitir este paso y agregar campos de producto más adelante.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (Condicional) Si seleccionó la opción **Seleccionar campos de búsqueda** en el paso anterior, en la lista de campos asociados con el tipo de registro **Producto**, haga clic en el icono **+** para el campo **Presupuesto** y, a continuación, haga clic en **Agregar campos**. Esto crea un campo denominado **Presupuesto (a partir de la información del producto)**, que es el nombre del campo vinculado. Cualquier información del presupuesto del producto se muestra en este campo para los registros de campaña.
 

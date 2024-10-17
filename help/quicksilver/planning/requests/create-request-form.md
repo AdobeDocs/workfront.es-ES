@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -175,11 +175,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Para obtener más información acerca de cómo crear un formulario personalizado, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Opcional) Haga clic en **Vista previa** para ver cómo se mostrará el formulario para otros usuarios cuando lo usen para enviar un nuevo registro.
+1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
 1. Haga clic en **Publish** para publicar el formulario y obtener un vínculo único para él.
 
    Ocurren lo siguiente:
 
-   * Se elimina el botón Publish.
+   * Se ha quitado el botón **Publish**.
    * Se agrega el botón **Cancelar publicación** al formulario. Si hace clic en él, se impedirá el acceso al formulario.
    * Se agrega un botón **Compartir** al formulario.
 
