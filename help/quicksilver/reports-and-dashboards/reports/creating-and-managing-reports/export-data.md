@@ -6,9 +6,9 @@ description: Puede exportar datos de Adobe Workfront desde varias listas, inform
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ Existen varias limitaciones en la forma en que se muestran los informes en Workf
   >La exportación de un informe que incluya una referencia de recopilación dentro de una columna puede dar lugar a un error, incluso si el informe se encuentra dentro de los límites de exportación enumerados. Si la colección a la que se hace referencia es demasiado grande, se agota el tiempo de espera del proceso de exportación y, por lo tanto, se produce un error.
   >
   >Para evitar este error, excluya las columnas que hagan referencia a colecciones grandes o reduzca el tamaño de las colecciones a las que se hace referencia antes de exportarlas.
-  >
 
   Si el informe tiene más elementos que estos límites, recibirá un error que indica que la exportación no se ha realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número inferior o igual a estos límites para poder exportar los resultados.
 
@@ -151,6 +150,14 @@ Existen varias limitaciones en la forma en que se muestran los informes en Workf
 * **Tamaño de archivo de 10 MB:** Límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
 * **65.530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65.530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener sólo 200 filas de datos, pero si hay más de 65.530 vínculos dentro del documento, éste no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos. 
 * **256 columnas**: Excel ha impuesto este límite a los documentos que contienen más de 256 columnas. Estos documentos no se pueden exportar manualmente ni enviar en un informe enviado. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
+
+  >[!IMPORTANT]
+  >
+  >La exportación de un informe que incluya una columna Informes puede provocar un error incluso si el informe se encuentra dentro de los límites de exportación enumerados.
+  >
+  >Si utiliza la función de exportación para compartir un informe que contenga una columna Informes con otros usuarios, considere la posibilidad de compartir el informe haciéndolo público en su lugar. Para obtener más información sobre cómo hacer público un informe, vea [Compartir un informe en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >
+  >Si utiliza la función de exportación para evaluar los datos externamente, le recomendamos que utilice Workfront Data Connect. Para obtener más información, consulte [Información general sobre Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Si intenta exportar datos más allá del límite, es posible que no reciba todos los datos esperados en la exportación. En su lugar, se produce un informe modificado dentro del límite.
 

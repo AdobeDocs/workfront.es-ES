@@ -6,9 +6,9 @@ description: Los filtros y los indicadores son similares en el sentido de que am
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,11 @@ Para obtener instrucciones sobre cómo crear un informe, consulte [Crear un info
 1. Vaya al informe en el que desee agregar un mensaje.
 1. Expanda **Acciones de informe** y, a continuación, haga clic en **Editar**.
 
-1. Haga clic en **Configuración del informe**.
-1. En el área **Indicadores de informe**, haga clic en **Agregar un mensaje**.\
-   ![](assets/qs-add-a-prompt-350x216.png)
+1. Haga clic en el botón **Configuración de informes**.
+1. Haga clic en la ficha **Indicadores del informe** y, a continuación, haga clic en **Agregar un mensaje**.\
+   ![](assets/create-report-prompt-tab.png)
 
-1. (Condicional) Seleccione el campo en el que desea basar la solicitud. Empiece a escribir el nombre del campo y haga clic en para seleccionarlo cuando aparezca en la lista.\
+1. (Condicional) Seleccione el campo en el que desea basar la solicitud. Empiece a escribir el nombre del campo y, a continuación, haga clic en para seleccionarlo cuando aparezca en la lista.\
    Las opciones disponibles para los usuarios que ejecuten el informe variarán según el campo que seleccione.\
    Por ejemplo, si selecciona un campo de fecha como Fecha real de finalización en un informe de tareas, &quot;Fecha real de finalización&quot; es el nombre de la solicitud. Al editar esta solicitud mientras ejecuta este informe, puede elegir entre un conjunto de modificadores para crear la sentencia de filtrado. Este proceso es idéntico al de creación de un filtro. Para obtener más información acerca de los modificadores, vea [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -92,8 +92,9 @@ Para obtener instrucciones sobre cómo crear un informe, consulte [Crear un info
    Especifique la siguiente información para la solicitud personalizada: La condición de una solicitud personalizada solo se puede editar en modo de texto. Esto permite aplicar varias condiciones en un solo campo.
 
    * **Nombre de campo:** Este es el nombre de la solicitud, tal como lo ve antes de ejecutar el informe.
-   * **Etiqueta:** Este es el nombre de una de las opciones dentro de la solicitud tal como lo ve antes de ejecutar el informe.
+   * **Etiqueta de elemento desplegable:** Este es el nombre de una de las opciones dentro de la solicitud tal como la ve antes de ejecutar el informe.
    * **Condición:** Escriba una condición que defina el mensaje.
+   * **Predeterminado:** Puede seleccionar un elemento para que sea la opción predeterminada para esta solicitud.
 
    Utilice la misma sintaxis que utilizaría al introducir un filtro de modo de texto y una sus instrucciones con &quot;&amp;&quot;. Para obtener más información sobre cómo editar un filtro en modo de texto, vea [Editar un filtro en modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -128,7 +129,7 @@ Para ejecutar un informe con una solicitud:
 
 1. Vaya al informe con el mensaje.
 
-   ![](assets/qs-prompt-drop-downs-350x229.png)
+   ![](assets/run-report-prompts.png)
 
 1. Elija una condición para uno o todos los indicadores mostrados en la ficha **Indicadores**.\
    (Opcional) Puede dejar los indicadores en blanco y no filtrar el informe según las condiciones del mensaje.
@@ -145,13 +146,14 @@ Para ejecutar un informe con una solicitud:
 
 >[!CAUTION]
 >
->Cuando comparte un informe solicitado fuera de Workfront, el usuario que ve el informe debe iniciar sesión en Workfront para ejecutar el informe utilizando la solicitud. Si el usuario que ve el informe no ha iniciado sesión, todos los resultados del informe se muestran sin aplicar la solicitud.
+>Cuando comparte un informe solicitado, tanto los usuarios que han iniciado sesión como los que no lo han hecho que ven el informe mediante el vínculo compartido público no pueden ejecutar el informe mediante sus mensajes. En este caso, los resultados del informe se muestran sin aplicar ningún indicador y la información mostrada se basará en el nivel de acceso y los permisos del usuario o en el nivel de acceso y los permisos de Ejecutar como usuario del informe, si se ha definido uno.
 
 Las siguientes son limitaciones en el uso compartido de informes solicitados desde Workfront:
 
-* Cuando comparte un informe públicamente, los usuarios no pueden ejecutarlo aplicando la solicitud, a menos que tengan credenciales de Workfront e inicien sesión primero para ver el informe en Workfront.
+* Cuando comparte un informe públicamente, los usuarios no pueden ejecutarlo con mensajes aplicados, a menos que: tengan credenciales de Workfront, inicien sesión primero y naveguen hasta el informe directamente en Workfront (no a través del vínculo para compartir público).
 
   Para obtener más información sobre cómo compartir informes, consulte el artículo [Compartir un informe en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-* Cuando se programa un informe solicitado para su envío, el informe que aparece en el archivo adjunto de correo electrónico incluye los datos del informe sin que se le solicite. Cuando el usuario hace clic en el vínculo del correo electrónico para acceder al informe, debe iniciar sesión primero para ver el informe y ejecutar la solicitud por su cuenta.
+
+* Cuando se programa un informe solicitado para su envío, el informe que aparece en el archivo adjunto de correo electrónico incluye los datos del informe sin solicitarlo. Cuando el usuario hace clic en el vínculo del correo electrónico para acceder al informe, debe iniciar sesión primero para ver el informe y ejecutar la solicitud por su cuenta.
 
   Para obtener información sobre cómo programar un informe entregado, consulte [Programar un envío automático de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

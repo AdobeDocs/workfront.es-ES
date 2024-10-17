@@ -6,9 +6,9 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Compartir uno o varios informes de una lista es idéntico.
 
      >[!NOTE]
      >
-     >Si el informe tiene una solicitud y la comparte públicamente, los usuarios que ejecuten el informe deben iniciar sesión en Workfront para poder ejecutarlo mediante la solicitud. Si no puede iniciar sesión en Workfront, verá el informe sin el mensaje aplicado. Para obtener más información sobre las limitaciones de compartir informes con mensajes, consulte la sección [Limitaciones del uso compartido de informes solicitados](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) en el artículo [Agregar un mensaje a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Si el informe tiene una solicitud y usted lo comparte públicamente, los usuarios que ejecuten el informe a través del vínculo compartido público no podrán ejecutar el informe utilizando la solicitud. Verán el informe sin el mensaje aplicado, a menos que inicien sesión en Workfront y accedan al informe sin utilizar el vínculo compartido público. Para obtener más información acerca de las limitaciones de compartir informes con indicadores, vea la sección [Limitaciones del uso compartido de informes con mensajes](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) en el artículo [Agregar un mensaje a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
    * **Hacer esto visible en todo el sistema:** Seleccione esta opción para que todos los usuarios de Workfront con acceso a los informes puedan ver el informe.
 

@@ -6,9 +6,9 @@ description: "NOTA: añada una sección en este artículo: /Contenido/Informes y
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
    >
    >Para editar una vista con el modo de texto, debe editar las columnas de una en una.
 
-1. Haga clic en **Cambiar al modo de texto** en la esquina superior derecha del generador.
+1. Haga clic en **Cambiar al modo de texto** en la esquina superior derecha del generador y, a continuación, haga clic en **Editar modo de texto**.
 
    >[!NOTE]
    >
    >Cuando edita una columna en modo de texto, Workfront agrega la línea de código `textmode=true` a la columna. Esto indica que la columna se modifica en modo de texto.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    En la tabla siguiente se describen las líneas clave en una vista de modo de texto:
 

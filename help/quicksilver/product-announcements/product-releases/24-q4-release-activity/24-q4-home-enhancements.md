@@ -4,9 +4,9 @@ description: Mejoras en el hogar del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Hemos realizado los siguientes cambios en el widget Esperando mi aprobación:
 
 * **Se ha cambiado el nombre del widget**: El nombre de este widget ahora es Mis aprobaciones.
 * **Aprobaciones agregadas que he enviado como opción de filtro**: ahora puede ver las aprobaciones que ha enviado en la nueva página de inicio con este widget.
+* **Plazo**: Ahora puede ver el plazo de prueba si se ha establecido uno. Si no se establece una fecha límite, la fecha predeterminada es la fecha de creación.
 
 Para obtener más información, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

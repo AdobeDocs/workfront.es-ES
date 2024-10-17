@@ -6,9 +6,9 @@ description: Cuando comparta los informes con otros usuarios de Adobe Workfront,
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Color de texto</strong></td> 
-      <td> <p>Seleccione el color en el que se muestra el texto. Hay 8 colores disponibles.</p> <p><b>NOTA</b></p> <p> Si el campo contiene un hipervínculo, las selecciones de color del texto no se aplican a este campo.</p> </td> 
+      <td> <p>Seleccione el color en el que se muestra el texto mediante el selector de color.</p> <p><b>NOTA</b></p> <p> Si el campo contiene un hipervínculo, las selecciones de color del texto no se aplican a este campo.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formato de texto</strong></td> 
@@ -151,7 +151,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Contexto</strong></td> 
-      <td>Seleccione el color del fondo del texto. Hay 8 colores disponibles.</td> 
+      <td>Seleccione el color del fondo del texto con el selector de color.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar icono</strong></td> 
@@ -189,6 +189,6 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
    * Vuelva a agregar la regla de columna para el fondo rojo en los proyectos posteriores.
    * Al guardar las reglas y la vista, el fondo rojo no se aplica a un proyecto cancelado.
 
-1. Haga clic en **Listo**.
+1. Haga clic en **Guardar**.
 1. Haga clic en **Guardar + Cerrar**.\
    En el informe, los usuarios ven cambios en el formato si se cumplen las condiciones especificadas.

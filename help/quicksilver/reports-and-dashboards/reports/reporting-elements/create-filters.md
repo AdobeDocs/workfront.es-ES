@@ -6,7 +6,7 @@ description: Puede limitar la cantidad de información que se muestra en pantall
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 1%
@@ -399,7 +399,7 @@ Independientemente del método que utilice para crear filtros, la creación de u
      >
      >Cuando conecta un grupo de instrucciones AND mediante varias instrucciones OR, debe repetir los campos que no cambian entre las instrucciones OR para cada grupo de instrucciones.
      >
-     >![Instrucciones de filtro conectado](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Instrucciones de filtro conectado](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >Cuando genere un filtro para tareas que contengan la palabra &quot;marketing&quot; y se encuentren en proyectos con un estado de Actual o Planning, deberá tener las siguientes reglas de filtrado:
      >

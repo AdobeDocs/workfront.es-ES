@@ -6,9 +6,9 @@ description: Puede generalizar un informe utilizando caracteres comodín en luga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ Para insertar un comodín basado en la fecha en un informe:
 
 1. Vaya a un informe en el que desee insertar un comodín basado en fecha.
 1. Haga clic en **Acciones de informe** y luego en **Editar**.
-
 1. Haga clic en la ficha **Filtros**.
 1. Haga clic en **Agregar una regla de filtro**.
 1. Empiece a escribir el nombre del campo por el que desea filtrar.\
@@ -79,7 +78,7 @@ Para insertar un comodín basado en la fecha en un informe:
    >
    >Siempre debe seleccionar la variable de filtro **Equal** al trabajar con comodines en Adobe Workfront.
 
-1. En el cuadro **Empiece a escribir el nombre ...**, escriba: `$$TODAY` si desea mostrar información acerca de algo que ocurra el mismo día en que se ejecuta el informe.
+1. Haga clic en el botón de alternancia **Establecer fecha relativa** y, a continuación, en el cuadro de texto que aparece, escriba: `$$TODAY` si desea mostrar información acerca de algo que ocurra el mismo día en que se ejecuta el informe.
 
    O
 
@@ -91,8 +90,6 @@ Para insertar un comodín basado en la fecha en un informe:
 1. (Opcional) Si desea mostrar información sobre algo que se produjo dentro de un intervalo de tiempo antes de la fecha en la que se ejecuta el informe, escriba `$$TODAY-1w` para mostrar información de la semana anterior o `$$TODAY-2m` para mostrar información de los dos meses anteriores. También puede indicar marcos de tiempo para trimestres, horas, días o años.
 
    Para obtener una lista completa de los atributos, calificadores y operadores que puede usar en los comodines basados en fecha, vea el artículo [Resumen de las variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Haga clic en **Guardar + Cerrar**.
 
