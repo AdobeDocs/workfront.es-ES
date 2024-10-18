@@ -6,9 +6,9 @@ description: Esta página contiene información sobre la próxima obsolescencia 
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Sin embargo, sabemos que un cambio como este puede ser perturbador, y queremos a
 
 **¿Qué puedo usar en su lugar?**
 
-* La nueva página de inicio ya está disponible como reemplazo. Consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) para obtener más información sobre cómo usar la nueva página de inicio. Puede ser personalizado por los usuarios a través de opciones de personalización y por los administradores a través de plantillas de diseño.
+* La nueva página de inicio ya está disponible como reemplazo. Consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) para obtener más información sobre cómo usar la nueva página de inicio. Puede ser personalizado por los usuarios a través de opciones de personalización y por los administradores a través de plantillas de diseño.
 
 * Las prioridades están en proceso de desarrollo y servirán como otro elemento de la experiencia racionalizada de gestión del trabajo en Adobe Workfront.
 
@@ -54,13 +54,13 @@ Recomendamos a los administradores:
 
 1. Reasigne el resto de los usuarios al nuevo diseño de página de inicio.
 
-Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva experiencia y personalizar sus nuevas páginas de inicio para adaptarlas mejor a sus necesidades individuales. Consulte [Quitar, agregar y reorganizar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) para obtener información sobre cómo un usuario puede personalizar los widgets en su propia página de inicio nueva.
+Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva experiencia y personalizar sus nuevas páginas de inicio para adaptarlas mejor a sus necesidades individuales. Consulte [Quitar, agregar y reorganizar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) para obtener información sobre cómo un usuario puede personalizar los widgets en su propia página de inicio nueva.
 
 ### Descubra lo que está disponible en la nueva página Inicio y prioridades
 
 Los siguientes artículos proporcionan información sobre las funciones disponibles en la nueva página de inicio y prioridades:
 
-* [Cambio de una página de inicio heredada a una nueva](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Cambio de una página de inicio heredada a prioridades](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Siga la experiencia de Inicio a medida que se desarrolla

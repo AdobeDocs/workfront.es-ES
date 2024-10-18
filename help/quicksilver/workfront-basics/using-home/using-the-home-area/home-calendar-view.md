@@ -7,83 +7,90 @@ description: La vista [!UICONTROL Calendario principal] del área [!UICONTROL P�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 174bf68f-bbb7-4777-aeeb-53a0b3a8b1f7
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
 # Vista de [!UICONTROL Calendario principal]
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.</p>
--->
+>[!IMPORTANT]
+>
+>Esta funcionalidad se eliminó con la obsolescencia de la página principal heredada el 17/10/2014.
 
-La vista [!UICONTROL Calendario principal] del área [!UICONTROL Página principal] le permite ver y administrar sus asignaciones de trabajo por semana y de trabajo en un calendario de trabajo personal visible solamente para usted. Puede usarlo para programar cuando desee realizar su trabajo. Y puede integrarlo con calendarios externos como [!UICONTROL Microsoft Outlook].
+
+<!--
+
+
+
+The [!UICONTROL Home Calendar] view in the [!UICONTROL Home] area allows you to view and manage your work week and work assignments on a personal work calendar visible only to you. You can use it to schedule when you want to do your work. And you can integrate it with outside calendars such as a [!UICONTROL Microsoft Outlook] calendar. 
 
 >[!NOTE]
 >
->La vista [!UICONTROL Calendario principal] es diferente de los informes [!UICONTROL Calendario]. Para obtener más información sobre los informes de [!UICONTROL Calendar], consulte la descripción general de los informes de [[!UICONTROL Calendar]](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+>The [!UICONTROL Home Calendar] view is different from [!UICONTROL Calendar] reports. For more information about [!UICONTROL Calendar] reports, see [[!UICONTROL Calendar] reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-Si necesitas instrucciones para configurar tu [!UICONTROL Calendario principal], consulta [Configurar tu [!UICONTROL Calendario principal] configuración de vista](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+If you need instructions on setting up your [!UICONTROL Home Calendar], see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-Para obtener información sobre cómo obtener acceso a la vista de [!UICONTROL Calendario principal], consulte [Ver el [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+For information about accessing the [!UICONTROL Home Calendar] view, see [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-Para obtener información sobre la integración de [!UICONTROL Calendario principal] con un calendario externo, consulte [[!UICONTROL Configurar la configuración de vista de [!UICONTROL Calendario principal]]](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+For information integrating your [!UICONTROL Home Calendar] with an outside calendar, see [[!UICONTROL Configure your [!UICONTROL Home Calendar]] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-Las secciones restantes de este artículo explican secciones y funciones de la vista [!UICONTROL Calendario principal] con más detalle.
+The remaining sections in this article explain sections and functions of the [!UICONTROL Home Calendar] View in more detail.
 
-## Lista de trabajos en [!UICONTROL Calendario principal]
+## Work list on the [!UICONTROL Home Calendar] 
 
-Los elementos de trabajo (tareas, problemas, solicitudes y aprobaciones) que se le hayan asignado a usted, a sus grupos, a sus equipos y a sus roles se muestran en la [!UICONTROL lista de trabajos] a la izquierda del Calendario en el área de [!UICONTROL Inicio].
+Work items (Tasks, Issues, Requests, and Approvals) assigned to you, your groups, your teams, and your roles display in the [!UICONTROL work list] on the left of the Calendar in the [!UICONTROL Home] area.
 
 ![](assets/calview-qs-350x185.png)
 
-Puede arrastrar sus elementos de trabajo de la [!UICONTROL lista de trabajos] a su [!UICONTROL Calendario principal] para programar cuándo desea trabajar en ellos. Para obtener más información sobre cómo programar tu trabajo, consulta [Usar la vista [!UICONTROL Calendario de inicio]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+You can drag your work items from the [!UICONTROL work list] to your [!UICONTROL Home Calendar] to schedule when you want to work on them. To learn more about scheduling your work, see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-Puede hacer clic en un elemento de trabajo de la lista para ver y actualizar su progreso en él.
+You can click a work item in the list to view and update your progress on it.
 
 ![](assets/work-item-cl-350x126.png)
 
-Según el elemento, la siguiente información podría mostrarse a la izquierda del calendario, para el elemento que seleccione en la lista de trabajos:
+Depending on the item, the following information might display on the left of the calendar, for the item that you select in the work list:
 
-* **[!UICONTROL Nombre del proyecto]**: se muestra en la parte superior izquierda del elemento de trabajo. Este es el proyecto al que está asociado el elemento. En el ejemplo anterior, el título del proyecto es &quot;Campaña de otoño de 2020&quot;.
-* **[!UICONTROL Nombre del elemento de trabajo]**: se muestra debajo del nombre del proyecto. En el ejemplo anterior, el título del elemento de trabajo es &quot;Número del 15 de septiembre&quot;.
-* **[!UICONTROL Listo]**: Haz clic en este botón para cambiar el estado de tu asignación de trabajo a [!UICONTROL Listo]. Este botón solo se muestra cuando se le asigna a la tarea o al problema.
-* **[!UICONTROL Terminado mi parte]**: Haz clic en el botón [!UICONTROL Terminado mi parte] para cambiar el estado de tu asignación de trabajo a [!UICONTROL Terminado].
-* **[!UICONTROL Planificado]**: Muestra las horas que un administrador de recursos ha asignado para que se complete el trabajo en el elemento. Para obtener más información sobre las horas planificadas, consulte [Resumen de horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
+* **[!UICONTROL Project name]**: Displays in the top left of the work item. This is the project to which the item is associated. In the example above, the project title is "Fall in 2020 campaign."
+* **[!UICONTROL Work item name]**: Displays beneath the project name. In the example above, the title of the work item is "September 15 issue."
+* **[!UICONTROL Done]**: Click this button to change the status of your work assignment to [!UICONTROL Done]. This button only displays when you are assigned to the task or issue.
+* **[!UICONTROL Done with my part]**: Click the [!UICONTROL Done with my part] button to change the status of your work assignment to [!UICONTROL Done].
+* **[!UICONTROL Planned]**: Displays the hours a resource manager has allocated for work to be completed on the item. To learn more about planned hours, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* **[!UICONTROL Registrado]**: muestra las horas que ha registrado en el elemento de trabajo en una hoja de horas o en la ficha [!UICONTROL Actualizaciones] del elemento. Para obtener más información, consulta [Registrar tiempo en un elemento de trabajo del área [!UICONTROL Hogar]](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
+* **[!UICONTROL Logged]**: Displays the hours you have logged on the work item in either a timesheet or the [!UICONTROL Updates] tab for the item. To learn more, see [Log time on a work item from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 
-* **[!UICONTROL Programado]**: muestra las horas programadas para el elemento de trabajo en la vista [!UICONTROL Calendario]. Para obtener más información sobre cómo mover elementos de trabajo a la vista de [!UICONTROL Calendario], consulte [Programar elementos de trabajo en su [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) en [Usar la vista de [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+* **[!UICONTROL Scheduled]**: Displays the hours you have scheduled for the work item in the [!UICONTROL Calendar] view. To learn more about moving work items to your [!UICONTROL Calendar] view, see [Schedule work items in your [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) in [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-* **[!UICONTROL Detalles]**: haga clic en este botón para mostrar los detalles del elemento de trabajo en el panel derecho de la vista [!UICONTROL Calendario].
-* **[!UICONTROL Trabajar en ello]**: haga clic en este botón para aceptar la asignación y trabajar en el elemento.
+* **[!UICONTROL Details]**: Click this button to display the details of the work item in the right panel of the [!UICONTROL Calendar] view.
+* **[!UICONTROL Work On It]**: Click this button to accept the assignment to work on the item.
 
-## Barra de asignación
+## Allocation bar
 
-Al configurar su [!UICONTROL Calendario principal], especifica la cantidad de horas que normalmente trabaja en una semana (consulte [Configurar su [!UICONTROL Calendario principal] ver configuración](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). [!DNL Adobe Workfront] utiliza este número para determinar el total de horas laborables que puede asignar.
+When you set up your [!UICONTROL Home Calendar], you specify the number of hours you typically work in a week (see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). [!DNL Adobe Workfront] uses this number to determine your total allocable work hours. 
 
-La barra [!UICONTROL Asignación] es una representación visual de la cantidad de horas en su semana laboral y de cómo las está usando.
+The [!UICONTROL Allocation] bar is a visual representation of the number of hours in your work week and how you are using them.
 
 ![](assets/allocation-bar-qs-350x181.png)
 
-Los colores de la barra [!UICONTROL Asignación] indican la siguiente información:
+The colors in the [!UICONTROL Allocation] bar indicate the following information:
 
-* **Gris**: número de horas programadas para eventos de calendarios integrados. Para obtener más información sobre cómo integrar calendarios, consulte la sección [Configurar la configuración de vista de [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view) en [Configurar la configuración de vista de [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+* **Grey**: Number of hours scheduled for events from integrated calendars. For more information about integrating calendars, see the section [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view) in [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-* **Azul**: Número de horas que ha programado para [!DNL Workfront] elementos de trabajo que se le han asignado. Puede programar el trabajo arrastrando elementos de la [!UICONTROL Lista de trabajos] y soltándolos en el calendario. Para obtener más información sobre la programación del trabajo, consulte la sección [Programar elementos de trabajo en su [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) en [Usar la vista [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+* **Blue**: Number of hours you have scheduled for [!DNL Workfront] work items assigned to you. You can schedule work by dragging items from the [!UICONTROL Work List] and dropping them into your calendar. For more information about scheduling work, see the [Schedule work items in your [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) section in [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-* **Azul claro**: La cantidad de horas libres disponibles para la asignación.
-* **Rojo**(no se muestra arriba): Eventos programados y elementos de trabajo que han excedido el número de horas que usted tiene disponibles para la semana.
+* **Light Blue**: The number of free hours available for allocation.
+* **Red**(not shown above): Scheduled events and work items that have exceeded the number of hours you have available for the week.
 
-## [!UICONTROL Vencimiento] bar
+## [!UICONTROL Due] bar
 
-La barra [!UICONTROL Vencimiento] de tu [!UICONTROL Calendario de Inicio] muestra los artículos con vencimiento para la semana que se muestran actualmente, según su [!UICONTROL Fecha planificada de finalización].
+The [!UICONTROL Due] bar on your [!UICONTROL Home Calendar] displays the items that are due for the week currently displayed, according to their [!UICONTROL Planned Completion Date].
 
 ![](assets/duebar-qs-350x140.png)
 
 >[!NOTE]
 >
->Si ha integrado el calendario Microsoft con el calendario [!DNL Workfront], los elementos de la barra [!UICONTROL Due] no aparecerán en el calendario Microsoft a menos que los haya arrastrado de la Lista de trabajos al calendario [!DNL Workfront]. Para obtener más información, consulte la sección [Lista de trabajos en el [!UICONTROL Calendario principal]](#work-list-on-the-home-calendar) anterior y el artículo [Configurar la configuración de vista de [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+>If you have integrated your Microsoft calendar with your [!DNL Workfront] calendar, items in the [!UICONTROL Due] bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your [!DNL Workfront] Calendar. For more information, see the section  [Work list on the [!UICONTROL Home Calendar]](#work-list-on-the-home-calendar) above and the article  [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+
+-->

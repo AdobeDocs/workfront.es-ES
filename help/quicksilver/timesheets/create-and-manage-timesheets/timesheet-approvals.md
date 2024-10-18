@@ -6,7 +6,7 @@ description: El proceso de aprobación de hojas de horas proporciona a los admin
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Se abre el área **Plantillas de horas**.
 
 Se abre el área de Inicio.
 
-1. Asegúrese de que ha agregado el widget **Mis aprobaciones** al área de inicio. Para obtener más información, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+1. Asegúrese de que ha agregado el widget **Mis aprobaciones** al área de inicio. Para obtener más información, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 1. Busque una aprobación de plantilla de horas en el widget Mis aprobaciones.
 1. (Opcional) Expanda el menú desplegable a la derecha de los botones Aprobar o Rechazar para agregar un comentario sobre su decisión y luego haga clic en **Agregar**.
 1. Haga clic en uno de los siguientes botones para tomar la decisión de aprobación:

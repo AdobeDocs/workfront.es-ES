@@ -4,9 +4,9 @@ description: Mejoras en el hogar del primer trimestre de 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio. Aquí puede ver una lista de los usuarios asignados para aprobar o revisar los documentos de los proyectos que posee, ver el estado de su revisión o aprobación y recordar a los revisores y aprobadores que completen su revisión o aprobación.
 
-Para obtener más información sobre los widgets de Inicio, consulte [Introducción al nuevo Inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Controles de administrador para el nuevo Inicio mediante plantillas de diseño
 
@@ -34,5 +33,3 @@ Para obtener más información, consulte [Personalizar la nueva página de inici
 ## Los botones de acción rápida Mi trabajo se han cambiado para que solo se muestren al pasar el ratón
 
 Para mejorar el rendimiento, los botones de acción rápida disponibles en el widget Mi trabajo ahora solo se mostrarán cuando se pase el ratón sobre un elemento de trabajo.
-
-Para obtener más información sobre los botones de acción rápida disponibles en el widget Mi trabajo, vea [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

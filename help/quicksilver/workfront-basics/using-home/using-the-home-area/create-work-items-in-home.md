@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Crear elementos de trabajo desde el área de Inicio
-description: Puede crear elementos de trabajo desde el área [!UICONTROL Inicio]. Puede crear tareas personales, solicitar trabajo a otros usuarios o agregar tareas a proyectos específicos.
-author: Nolan
+title: Crear elementos de trabajo y proyectos desde el área de Inicio
+description: Puede crear elementos de trabajo y proyectos desde el área [!UICONTROL Inicio].
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 
-# Crear elementos de trabajo desde el área de Inicio
+# Crear elementos de trabajo y proyectos desde el área de Inicio
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+Puede crear elementos de trabajo y proyectos desde el área [!UICONTROL Inicio]. Desde Inicio, puede hacer lo siguiente
 
-Puede crear elementos de trabajo desde el área [!UICONTROL Inicio]. Puede crear tareas personales, solicitar trabajo a otros usuarios o agregar tareas a proyectos específicos.
+* Cree tareas pendientes personales para usted
+* Envío de solicitudes
+* Agregar tareas y problemas a proyectos específicos
+* Cree proyectos a partir de una plantilla o un proyecto en blanco, o importe un proyecto de MS.
 
 ## Requisitos de acceso
 
@@ -51,71 +52,117 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-## Crear una tarea personal
+## Crear un elemento de tarea personal
 
-Puede crear una tarea personal que solo esté disponible para usted en el área [!UICONTROL Inicio]:
-
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. Haga clic en **[!UICONTROL Nueva tarea]** > **[!UICONTROL Personal]**.
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. En el campo **[!UICONTROL Nombre]**, especifique un nombre para la tarea.
-1. (Opcional) Haga clic en **[!UICONTROL Seleccionar fecha]** y, a continuación, seleccione la fecha en la que vence la tarea. Esto establece la [!UICONTROL fecha planificada de finalización] de la tarea.\
-   Puede cambiar la **[!UICONTROL Fecha planificada de finalización]** haciendo clic en la fecha en el panel derecho o editando **[!UICONTROL Esto se completará para la fecha]** directamente en la tarea.
-
-1. Haga clic en **[!UICONTROL Crear]** para guardar la tarea.\
-   La tarea se le ha asignado y está disponible en el área [!UICONTROL Inicio].
-
->[!NOTE]
->
->* Cuando crea una tarea personal, se almacena en un proyecto &quot;oculto&quot; en el que no se pueden realizar búsquedas en [!UICONTROL Workfront]. El nombre del proyecto es &quot;&lt; Nombre de usuario >&#39;s Tasks&quot;. El &quot;Nombre de usuario&quot; es el nombre completo del usuario que creó la tarea. Solo puede tener acceso a este proyecto si hace clic en la tarea personal en el área [!UICONTROL Inicio], desde la ruta de exploración de la tarea, por ejemplo.
->
->* A diferencia de las tareas de proyecto normales, las tareas personales tienen un conjunto limitado de campos visibles en la interfaz de Workfront y no influyen en la cronología ni en el progreso de ningún proyecto. Reasignar una tarea personal a otro usuario agrega todos los campos de tarea a una tarea personal, pero la tarea permanece en el proyecto personal del usuario que creó la tarea.
->
->
->* Las tareas personales solo se muestran en las hojas de horas cuando se han registrado horas o cuando están ancladas en la hoja de horas. Solo puede anclar una tarea personal a una plantilla de horas cuando hay horas registradas para la tarea. Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
-> 
->* Le recomendamos que cree un proyecto y le transfiera cualquier tarea personal si desea que las tareas personales formen parte del flujo de trabajo normal.
->
-> ![[!UICONTROL Proyecto para tareas personales]](assets/createworkitems-personal--project-350x105.png)
-
-## Solicitar trabajo de otro usuario
-
-Puede solicitar trabajo a otro usuario directamente desde el área de Inicio. Cuando solicita trabajo de otro usuario como se describe en esta sección, la tarea se muestra como una solicitud en el área de Inicio del usuario hasta que el usuario haga clic en **[!UICONTROL Trabajar en ello]**.
-
-Para solicitar trabajo de otro usuario del área [!UICONTROL Hogar]:
+Puede crear un elemento personal que solo esté disponible para usted en el área de [!UICONTROL Inicio]:
 
 1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. Haga clic en **[!UICONTROL Nueva tarea]** y, a continuación, seleccione **[!UICONTROL Solicitud]**.
+1. (Condicional) Agregue el widget Tareas pendientes a la pantalla de inicio. Haga clic en **Personalizar** y busque **Tareas pendientes**.
+1. Vaya al widget **Tareas pendientes** y haga clic en **Agregar tareas pendientes**.
+1. Escriba el
+1. (Opcional) Haga clic en el icono **Fecha** ![](assets/date-icon.png) para agregar una fecha límite para el elemento.
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. En el campo **[!UICONTROL Nombre]**, especifique un nombre para la tarea.
-1. En el campo **[!UICONTROL Asignar a]**, empiece a escribir el nombre del usuario, equipo o rol que desea asignar y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
-1. En el menú desplegable [!UICONTROL Agregar como], seleccione si desea agregar una tarea o un problema.
-1. Haga clic en **[!UICONTROL Seleccionar fecha]** y, a continuación, seleccione la fecha y la hora en que vence la tarea.
-1. Haga clic en **[!UICONTROL Crear]** para guardar la tarea.\
-   La tarea se muestra como una solicitud de trabajo en el área [!UICONTROL Hogar] del usuario que designó.
 
-## Agregar una tarea o un problema a un proyecto
+## Agregar una tarea a un proyecto
 
-Puede agregar una tarea o un problema a un proyecto existente directamente desde el área de Inicio:
+Puede agregar una tarea a un proyecto existente directamente desde el área de Inicio:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Inicio**.
-1. Haga clic en **[!UICONTROL Nueva tarea]** y luego seleccione **[!UICONTROL Tarea de proyecto]**.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Agrega el widget **Mis tareas** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis tareas**.
+1. Vaya al widget **Mis tareas** y, a continuación, haga clic en **Nuevo**.
+   ![](assets/create-new-task.png)
+1. En el cuadro de diálogo **Nueva tarea**, escriba el nombre de la tarea.
+1. Empiece a escribir el nombre de un proyecto y selecciónelo en la lista.
+1. (Opcional) Introduzca información en los campos siguientes:
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | Campo | Instrucciones |
+   |----------|----------|
+   | **Descripción** | Introduzca una descripción. |
+   | **Asignaciones** | Asignar usuarios. |
+   | **Duración** | Introduzca la duración. |
+   | **Fecha planificada de finalización** | Elija una fecha planificada de finalización. |
+   | **Más opciones** | Elija más opciones para configurar más ajustes para la tarea. Para obtener más información sobre cómo crear tareas, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). |
 
-1. En el campo **[!UICONTROL Nombre]**, especifique un nombre para la tarea o el problema.
-1. En el campo **[!UICONTROL Asignar a]**, empiece a escribir el nombre del usuario, equipo o rol que desea asignar y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
-1. Empiece escribiendo el nombre del proyecto donde desea crear la tarea o el problema y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
+1. Haga clic en **Crear tarea**.
 
-   >[!IMPORTANT]
-   >
-   >La tarea o el problema solo aparecen en la [!UICONTROL Lista de trabajos] cuando el proyecto [!UICONTROL Estado] está establecido en [!UICONTROL Actual].
 
-1. (Condicional) Para crear un problema, selecciona **[!UICONTROL Problema]** en el menú desplegable **[!UICONTROL Agregar como]**. De manera predeterminada, **[!UICONTROL Tarea]** está seleccionada.
+## Agregar un problema a un proyecto
 
-1. Haga clic en **[!UICONTROL Seleccionar fecha]** y, a continuación, seleccione la fecha y la hora en que vence la tarea.
-1. Haga clic en **[!UICONTROL Crear]** para guardar la tarea.
+Puede agregar un problema a un proyecto existente directamente desde el área de Inicio:
+
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Agrega el widget **Mis problemas** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis problemas**.
+1. Vaya al widget **Mis problemas** y, a continuación, haga clic en **Nuevo**.
+   ![](assets/create-new-issue.png)
+1. En el cuadro de diálogo **Nuevo problema**, empiece a escribir un nombre de proyecto y, a continuación, seleccione el nombre en la lista.
+1. Introduzca un nombre de problema.
+1. (Opcional) Introduzca información en los campos siguientes:
+
+   | Campo | Instrucciones |
+   |----------|----------|
+   | **Descripción** | Introduzca una descripción. |
+   | **Asignaciones** | Asignar usuarios. |
+   | **Prioridad** | Elija un nivel de prioridad. |
+   | **Documentos** | Cargue un documento. |
+
+1. Haga clic en **Guardar nuevo problema**.
+
+## Creación de una solicitud
+
+Puede crear una solicitud directamente desde el área de Inicio:
+
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Agrega el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis solicitudes**.
+1. Vaya al widget de **Mis solicitudes** y haga clic en **Nuevo**.
+   ![](assets/create-new-request.png)
+
+1. En el cuadro de diálogo **Nueva solicitud**, empiece a escribir el nombre de la cola de solicitudes.
+1. Rellene los campos correspondientes.
+1. Haga clic en **Enviar**.
+
+Para obtener más información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Crear un proyecto
+
+Puede crear un proyecto directamente desde el área de Inicio:
+
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Agrega el widget **Mis proyectos** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis proyectos**.
+1. Vaya al widget de **Mis proyectos** y, a continuación, haga clic en **Nuevo**.
+   ![](assets/create-new-project.png)
+1. Elija una de las siguientes opciones:
+
+   | Campo | Instrucciones |
+   |----------|----------|
+   | Desde una plantilla | Vaya a [Crear un proyecto con una plantilla](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) para obtener instrucciones detalladas sobre cómo crear un proyecto a partir de una plantilla. |
+   | Proyecto en blanco | Vaya a [Crear un proyecto desde cero](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) para obtener instrucciones detalladas sobre cómo crear un proyecto en blanco. |
+   | Importar MS Project | Vaya a [Importar un proyecto desde un proyecto de Microsoft](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) para obtener instrucciones detalladas sobre cómo importar un proyecto de MS. |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

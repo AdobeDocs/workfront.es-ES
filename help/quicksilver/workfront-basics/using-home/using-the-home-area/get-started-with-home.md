@@ -2,176 +2,225 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Introducción a [!UICONTROL Inicio]
-description: El área de [!UICONTROL Inicio] es su punto de encuentro único para encontrar las tareas, problemas y aprobaciones que le han sido asignadas. Hay dos formas de ver tu trabajo en el área de [!UICONTROL Inicio], ya sea desde la [!UICONTROL Lista de trabajos] o desde el [!UICONTROL Calendario].
-author: Nolan
+description: El Hogar te ayuda a administrar tu trabajo. Puede personalizar este espacio flexible para resaltar el trabajo que más le importa y optimizar la administración de tareas, problemas, solicitudes y aprobaciones.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 0%
+source-wordcount: '1190'
+ht-degree: 3%
 
 ---
 
-# Introducción a [!UICONTROL Inicio]
+# Introducción a Inicio
 
 <!--Audited: 12/2023-->
 
-Este artículo describe una descripción general del área actual [!UICONTROL Hogar] en [!DNL Adobe Workfront]. Para obtener información sobre cómo trabajar en la nueva [!UICONTROL página principal], consulte [Introducción a la nueva página principal](../new-home/get-started-with-new-home.md).
-
-Hay dos formas de ver tu trabajo en el área actual de [!UICONTROL Hogar]:
-
-* De la [!UICONTROL Lista de trabajos]
-* Desde el [!UICONTROL calendario].
-
-## [!UICONTROL Lista de trabajos]
-
-Puede ver todo el trabajo asignado en un solo lugar, en [!UICONTROL Lista de trabajos]:
-
-![[!UICONTROL Lista de trabajos] paneles](assets/worklist-and-right-panel-home.png)
-
-Revise las secciones siguientes del área actual [!UICONTROL Home], como se indica en la imagen anterior:
-
-* **A**: utilice el panel izquierdo para filtrar, ordenar y seleccionar el trabajo que se le ha asignado.
-
-* **B**: después de seleccionar un elemento de trabajo en el panel izquierdo, utilice el panel derecho para interactuar con campos personalizados, realizar actualizaciones y registrar tiempo.
-
-Para obtener más información sobre el uso de la [!UICONTROL Lista de trabajos en Inicio], consulte los siguientes artículos:
-
-* [Mostrar elementos en la [!UICONTROL Lista de trabajos] en el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [Crear elementos de trabajo desde el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
-
-## [!UICONTROL Calendario]
-
-Puede visualizar su trabajo mostrando cuándo vencen los elementos de trabajo y puede bloquear el tiempo para completarlos revisando su trabajo en el [!UICONTROL Calendario] en el área de [!UICONTROL Inicio]:
-
-![](assets/calendar-home-nwe-350x114.png)
-
-Revise las secciones siguientes del área actual [!UICONTROL Home], como se indica en la imagen anterior:
-
-* **A**: usa la vista [!UICONTROL Calendario] para crear un mapa visual del trabajo que necesitas completar. Simplemente haz clic y arrastra los elementos de trabajo de la [!UICONTROL Lista de trabajos] al [!UICONTROL Calendario] para bloquear el tiempo de espera del trabajo.
-
-* **B**: usa la opción de sincronización del [!UICONTROL Calendario] para sincronizar con tu calendario [!DNL Outlook]. Gestione reuniones y trabaje en un solo lugar.
-
-* **C**: usa el botón [!UICONTROL Detalles] para abrir un nuevo panel derecho donde podrás ver más información sobre el elemento de trabajo.
-
-* **D**: usa la barra de vencimiento para realizar un seguimiento de cuándo vence el trabajo que se te ha asignado.
-
-Para obtener más información sobre cómo usar el Calendario principal, consulte [Usar la vista [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
-
-## Encontrar su trabajo
-
-El área de [!UICONTROL Inicio] es su punto de encuentro único para encontrar las tareas, problemas y aprobaciones que le han sido asignadas. Las opciones de filtro, agrupación y ordenación funcionan juntas para ayudarle a organizar los elementos de trabajo de la forma que desee. Puede utilizar agrupaciones para agrupar elementos, filtros para centrarse en el trabajo que debe completarse y, por último, ordenar para enumerar los elementos en orden ascendente o descendente de la agrupación.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Las opciones de filtro y ordenación se almacenan en el explorador. Si utiliza el mismo explorador de forma consistente en el mismo equipo (y no borra los datos del sitio), los filtros y la ordenación no cambiarán, pero si cambia de explorador o de equipo, los filtros y la ordenación serán diferentes.
+>El contenido de este artículo se ha sustituido por el contenido del nuevo artículo Introducción a la página de inicio. La nueva página de inicio ahora se denominará Página de inicio.
 
-### Agrupar elementos de trabajo similares con agrupaciones
+La nueva experiencia de Inicio en Adobe Workfront tiene como objetivo mejorar la experiencia de Inicio actual y, al mismo tiempo, proporcionar una forma más flexible de centrarse en el trabajo adecuado.
 
-Puede utilizar agrupaciones para mostrar como elementos bajo un encabezado común en la Lista de trabajos. Puede agrupar los elementos por:
+La nueva página de inicio es una nueva y potente función para administrar su trabajo. Puede personalizar este espacio flexible para resaltar el trabajo que más le importa y optimizar la administración de tareas, problemas, solicitudes y aprobaciones.
 
-* [!UICONTROL Finalización planificada]
-* [!UICONTROL Inicio planificado]
-* [!UICONTROL Fecha de confirmación]
-* [!UICONTROL Proyecto]
-* [!UICONTROL Mi prioridad]
+## Personalizar la nueva página de inicio
 
-Para obtener más información sobre cómo usar agrupaciones, consulte [Mostrar elementos en la [!UICONTROL Lista de trabajos] en el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+La nueva página de inicio está diseñada para ser altamente personalizable, lo que le permite seleccionar los widgets que rastrean su trabajo más importante, filtrar el alcance de ese trabajo en función del momento en que vence e incluso añadir un toque de color.
 
-![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
+### Widgets
 
-### Reduzca su enfoque con filtros
+Los widgets son la base del nuevo Inicio. Al agregar widgets a la página de inicio, puede elegir el tipo de información que se muestra para satisfacer mejor sus necesidades laborales. Algunos widgets solo están disponibles para tipos de licencia específicos, ya que los objetos que rastrean solo están disponibles para esas licencias.
 
-El filtro [!UICONTROL Lista de trabajos] le permite concentrarse en elementos de trabajo específicos.
+Para obtener información sobre cómo agregar, mover, cambiar el tamaño o eliminar widgets, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-A continuación se muestran ejemplos de cómo puede filtrar los elementos que ve en Inicio:
+A continuación se muestran los 11 widgets disponibles actualmente para elegir, así como un resumen de la información que muestran:
 
-* Filtre por tipo de elemento y estado.
+* **Mi trabajo**\
+    Es un buen punto de partida para administrar una amplia variedad de trabajos. Muestra todas las tareas, problemas y solicitudes asignados en un solo lugar. Puede hacer clic en el botón Trabajar en ello para comenzar a trabajar en un elemento o en el botón Listo para marcarlo como completado. También puede actualizar información (estado, condición, porcentaje completado) acerca de tareas y problemas, registrar tiempo y agregar actualizaciones desde el widget Mi trabajo.
 
-  Por ejemplo, si desea mostrar todas las tareas, puede seleccionar el filtro [!UICONTROL Tareas]. Si desea ser más específico y mostrar solo las tareas que están listas para que empiece a trabajar, seleccione los filtros [!UICONTROL Listo para comenzar] bajo el filtro [!UICONTROL Tareas].
+* **Tableros**\
+    Muestra los tableros que ha creado o que se le ha invitado a utilizar. También puede crear un nuevo tablero basado en las siguientes plantillas: tablero básico, tablero Kanban, tablero retrospectivo, tablero dinámico
 
-* Filtre solo por tipo de elemento.
+* **Mis proyectos**\
+    Muestra los proyectos de su propiedad o los proyectos en los que se encuentra en una lista. Puede utilizar filtros, vistas o agrupaciones existentes para personalizar la lista, o puede crear un proyecto directamente desde el widget.
 
-  Por ejemplo, puede seleccionar [!UICONTROL Problemas] para ver todos los problemas en todos los estados ([!UICONTROL Trabajando en] o [!UICONTROL Solicitado]), o [!UICONTROL Aprobaciones] para ver todos los elementos de trabajo, solicitudes de acceso, hojas de horas, documentos y aprobaciones de pruebas.
+* **Mis tareas**\
+    Muestra las tareas asignadas a usted en una lista. Puede utilizar filtros, vistas o agrupaciones existentes para personalizar la lista, o puede crear una tarea directamente desde el widget. También puede delegar sus tareas mientras está fuera de la oficina.
 
-Para obtener más información sobre cómo usar los filtros, consulte [Mostrar elementos en la [!UICONTROL Lista de trabajos] en el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+* **Mis problemas**\
+    Muestra los problemas asignados a usted en una lista. Puede utilizar filtros, vistas o agrupaciones existentes para personalizar la lista, o puede crear un problema directamente desde el widget. Este widget solo incluye problemas cuyos proyectos asociados están configurados en Actual y no incluye proyectos completados. También puede delegar los problemas mientras está fuera de la oficina.
 
-![](assets/displaying-work-items-filters-nwe-350x401.png)
+* **Mis solicitudes**\
+    Muestra todas las solicitudes enviadas, un filtro para mostrar solo las solicitudes abiertas y un botón que abre el panel de resumen de una solicitud.
 
-### Acceder al trabajo asignado a su equipo
+* **Solicitudes de equipo**\
+    Muestra todas las solicitudes pendientes de los equipos en los que se encuentra, ordenadas por equipos, así como botones para asignar directamente una solicitud a alguien o para trabajar en ella usted mismo.
 
-El área [!UICONTROL Inicio] tiene una agrupación permanente ([!UICONTROL Solicitudes de equipo]) que muestra las tareas y los problemas asignados a sus equipos. Los equipos se muestran en esta sección. Al hacer clic en el nombre de un equipo, se abre la página Solicitudes de equipo de ese equipo.
+* **Mi aprobación**\
+    Muestra todas las aprobaciones pendientes, asignadas, delegadas y enviadas; un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
 
->[!NOTE]
->
->Las opciones de filtro y ordenación no afectan a la agrupación [!UICONTROL Solicitudes de equipo]. Esta agrupación es visible siempre y cuando tenga trabajo asignado a su equipo.
+* **Todas las aprobaciones**\
+        Muestra dos gráficos con información sobre el tiempo medio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. <span style="color: #ff0000;">Esta característica forma parte de una versión por fases y actualmente sólo está disponible para clientes específicos.</span>
 
-Para obtener más información sobre el acceso a las solicitudes de equipo, consulte el artículo [[!UICONTROL Administrar] solicitudes de trabajo y equipo en el área [!UICONTROL Hogar]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+* **Menciones**\
+    Muestra los hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones. Puede utilizar el botón de respuesta para crear una respuesta dentro del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que es el propietario, que es el contacto principal de o que ha creado, siempre y cuando la tarea o el problema se hayan actualizado en los últimos 30 días.
 
-![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-### Supervisar el trabajo enviado
-
-Realice un seguimiento del trabajo que envió para su aprobación directamente desde [!UICONTROL Lista de trabajos]. Hay una agrupación permanente para [!UICONTROL Aprobaciones que he enviado] cuando seleccionas ver [!UICONTROL Aprobaciones] en la [!UICONTROL Lista de trabajos]. Puede recordar al aprobador el trabajo que necesita aprobación. También puede recuperar la aprobación si es necesario.
-
->[!NOTE]
->
->El filtro y el orden no afectan la agrupación [!UICONTROL Aprobaciones enviadas]. Esta agrupación es visible siempre y cuando tenga trabajo pendiente de aprobación.
->
->El número de aprobaciones en el filtro [!UICONTROL Aprobaciones] no muestra el número de elementos que envió para su aprobación. El filtro [!UICONTROL Aprobaciones] muestra solamente los elementos que están a la espera de su aprobación.
-
-![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
-
-## Priorice lo que es importante para usted
-
-La [!UICONTROL Lista de trabajos] le permite ver y priorizar el trabajo que es importante para usted con la agrupación [!UICONTROL Mi prioridad]. Puedes agregar hasta 20 elementos a tu lista [!UICONTROL Mi prioridad].
-
->[!NOTE]
->
->Cualquier elemento de trabajo agregado a [!UICONTROL Mi prioridad] solo es visible para usted y nadie puede priorizar el trabajo para usted.
-
-Para obtener más información sobre cómo usar [!UICONTROL Mi prioridad], consulte [Priorizar el trabajo en el área [!UICONTROL Hogar]](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
-
-![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
-
-## Consiga que se haga
-
-Después de hacer clic en el nombre de un elemento en la [!UICONTROL Lista de trabajos], usa el panel derecho de [!UICONTROL Inicio] para actualizar y completar tu trabajo.
-
-### Trabaje en un espacio personalizado para usted
-
-El administrador de [!DNL Workfront] puede agregar hasta 16 campos personalizados a los elementos de [!UICONTROL Lista de trabajos]para que sea más fácil encontrar y actualizar la información que necesita. La mayoría de los campos son editables, por lo que no tiene que desplazarse al elemento de trabajo.
-
-Para actualizar cualquiera de los campos de esta área, simplemente haga clic en un campo. Si el campo es editable, puede modificarlo en el panel derecho.
-
->[!NOTE]
->
->No puede actualizar la [!UICONTROL fecha de confirmación] si este campo se agrega a un elemento de trabajo desde una plantilla de diseño.
-
-![](assets/16-fields-home-350x137.png)
-
-### Actualizar a otros usuarios con información importante
-
-Comuníquese de manera rápida y eficiente con otras personas del área de [!UICONTROL Hogar]. Con el área de comentarios de un elemento de trabajo, puede hacer preguntas, notificar a otras personas de actualizaciones recientes o responder a comentarios directos del área de [!UICONTROL Inicio]. Además, puede actualizar a otros usuarios sobre el progreso que está realizando mediante:
-
-* Actualizando la [!UICONTROL fecha de confirmación] en el área de comentarios
+* **Tareas pendientes**\
+    Este widget único le permite agregar elementos a una lista de comprobación personal que puede editar libremente. Las tareas pendientes se rastrean como tareas en su proyecto personal y permanecen hasta dos semanas después de su finalización.
 
   >[!NOTE]
   >
-  >   Este es el único lugar en el que puede actualizar la fecha de confirmación en Inicio.
+  >Debe tener permiso para crear tareas pendientes en el widget Tareas pendientes y solo aparecerán en el widget las tareas personales introducidas por el usuario actual.
 
-* Informar sobre cómo crees que van las cosas agregando un comentario o actualizando la [!UICONTROL condición] de un elemento
-* Actualizando la barra de porcentaje completado
+De forma predeterminada, la página de inicio se rellena con algunos widgets específicos basados en el tipo de licencia. Las siguientes tablas describen qué widgets ven los usuarios de cada tipo de licencia cuando acceden por primera vez a la página de inicio nueva.
 
-Para obtener más información sobre cómo comunicarse en el área de [!UICONTROL Inicio], consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Nuevo tipo de licencia</b></td>
+        <td><b>Widgets predeterminados</b></td>
+    </tr>
+    <tr>
+        <td>Estándar</td>
+        <td>Mis proyectos, Mi trabajo, Menciones, Tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Ligero</td>
+        <td>Mi trabajo, Mi aprobación</td>
+    </tr>
+    <tr>
+        <td>Colaborador</td>
+        <td>Mis solicitudes, Menciones, Mi aprobación, Tableros</td>
+    </tr>
+    <tr>
+        <td>Externo</td>
+        <td>Mi aprobación</td>
+    </tr>
+</table>
 
-![](assets/updates-home-350x198.png)
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Tipo de licencia actual</b></td>
+        <td><b>Widgets predeterminados</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>Mis proyectos, menciones, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Trabajo</td>
+        <td>Mi trabajo, menciones, tareas pendientes</td>
+    </tr>
+    <tr>
+        <td>Revisar</td>
+        <td>Mi trabajo, menciones</td>
+    </tr>
+    <tr>
+        <td>Solicitud</td>
+        <td>Mis proyectos, Mi aprobación</td>
+    </tr>
+    <tr>
+        <td>Aportar</td>
+        <td>Mi trabajo, menciones</td>
+    </tr>
+    <tr>
+        <td>Externo</td>
+        <td>Mi aprobación</td>
+    </tr>
+</table>
 
-### Registre su tiempo
+### Personalización de fondo
 
-Realice un seguimiento de las horas que ha trabajado en elementos de trabajo individuales. Puede elegir un tipo de hora general, como [!UICONTROL Tiempo de tarea], o bien un tipo de hora específico del proyecto configurado por el administrador de [!DNL Workfront].
+Puede añadir un toque personal a su página de inicio seleccionando un banner colorido en la parte superior de la página.
 
-Para obtener más información sobre cómo registrar tiempo en el área [!UICONTROL Hogar], consulte la sección [Hogar](../../../timesheets/create-and-manage-timesheets/log-time.md#home) en el artículo [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+**Para cambiar el color del fondo de la página principal:**
 
-![](assets/log-time-home-350x181.png)
+1. Vaya a la página principal siguiendo uno de estos procedimientos:
+
+   * Si Inicio está configurado como página de aterrizaje, haga clic en el icono **Adobe Workfront** ![Adobe Workfront Icon](assets/home-icon-30x29.png) en la esquina superior izquierda de la pantalla.
+   * Haga clic en el icono **Menú principal** en la esquina superior derecha de la pantalla, o en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Inicio**.
+
+1. Haga clic en **Personalizar** en la esquina superior derecha de la pantalla.
+
+   ![Botón Personalizar](assets/customize-button.png)
+
+   Se abrirá el panel Personalizar.
+
+1. En la sección **Fondo** del panel **Personalizar**, haga clic en el color que desee seleccionar para el fondo de Inicio. También puede hacer clic en **Ninguno** para quitar el fondo.
+
+## Volver a la experiencia de inicio actual
+
+Si prefiere la experiencia de Inicio existente, puede desactivar la nueva experiencia de Inicio.
+
+Para volver a la experiencia de Inicio actual:
+
+1. Vaya a la página principal siguiendo uno de estos procedimientos:
+
+   * Si Inicio está configurado como página de aterrizaje, haga clic en el icono **Adobe Workfront** ![Adobe Workfront Icon](assets/home-icon-30x29.png) en la esquina superior izquierda de la pantalla.
+   * Haga clic en el icono **Menú principal** en la esquina superior derecha de la pantalla, o en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Inicio**.
+
+1. Haz clic en el botón **Volver al inicio actual** en la esquina inferior derecha de la página.
+
+   ![Volver al botón Inicio actual](assets/customize-button.png)
+
+   Aparece una ventana de confirmación.
+
+1. Realice una breve encuesta sobre su experiencia con la nueva página de inicio o haga clic en **Volver a la página de inicio actual** para volver a la página de inicio actual.
+
+>[!NOTE]
+>
+> Los administradores del sistema pueden desactivar la nueva página de inicio como predeterminada para sus usuarios. Para obtener información sobre cómo cambiar la experiencia de Inicio predeterminada para los usuarios de un sistema, consulte [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
+
+## Customize Home
+
+Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
+
+### Background customization
+
+You can add a bit of personal flare to your Home page by selecting a colorful banner for the top of the page.
+
+**To change the color of your Home background:**
+
+1. Go to your Home page, by doing one of the following: 
+
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
+
+1. Click **Customize** at the upper-right corner of the screen.
+
+    ![Customize Button](../new-home/assets/customize-button.png)
+
+    The Customize panel opens. 
+
+1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
+
+## Manage you work
+
+### Add Widgets
+
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
+
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+-->

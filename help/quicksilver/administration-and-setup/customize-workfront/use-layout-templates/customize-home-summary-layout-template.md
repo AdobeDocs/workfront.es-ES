@@ -1,25 +1,24 @@
 ---
-title: Personalizar Inicio y Resumen Mediante una Plantilla de Diseño
+title: Personalización del panel de resumen mediante una plantilla de diseño
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Puede usar una plantilla de diseño para configurar lo que ven los usuarios cuando hacen clic en una tarea o un problema en Inicio y en el Resumen. Cada configuración que realice siguiendo los pasos siguientes afecta al área de Inicio y al panel Resumen del mismo modo. Estas personalizaciones no se aplican al panel Resumen del documento.
+description: Puede usar una plantilla de diseño para configurar lo que ven los usuarios cuando hacen clic en una tarea o un problema en el resumen. Cada configuración que realice siguiendo los pasos siguientes afecta al panel Resumen. Estas personalizaciones no se aplican al panel Resumen del documento.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
+source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
 
-# Personalizar Inicio y resumen mediante una plantilla de diseño
+# Personalización del panel Resumen mediante una plantilla de diseño
 
-<span class="preview">Este artículo pasará a llamarse &quot;Personalizar el panel de resumen con una plantilla de diseño&quot; cuando la página de inicio heredada se elimine de Workfront con la versión del cuarto trimestre del 17 de octubre. 2024.</span>
 
-Puede usar una plantilla de diseño para configurar lo que ven los usuarios cuando hacen clic en una tarea o un problema en Inicio y en el Resumen. Cada configuración que realice siguiendo los pasos siguientes afecta al área de Inicio y al panel Resumen del mismo modo. Estas personalizaciones no se aplican al panel Resumen del documento.
+Puede usar una plantilla de diseño para configurar lo que ven los usuarios cuando hacen clic en una tarea o un problema en el resumen. Cada configuración que realice siguiendo los pasos siguientes afecta al panel Resumen. Estas personalizaciones no se aplican al panel Resumen del documento.
 
 Puede configurar lo siguiente:
 
@@ -28,7 +27,7 @@ Puede configurar lo siguiente:
 
 También puede personalizar los campos que ven los usuarios en el área de Inicio cuando hacen clic en una aprobación de proyecto, aprobación de documento o aprobación de versión de documento asignada a ellos.
 
-Para obtener información acerca del área de Inicio, vea [Usar el área de Inicio](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Para obtener información sobre el Panel de resumen, consulte [Resumen general](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Para obtener información sobre el Panel de resumen, consulte [Resumen general](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -68,11 +67,11 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 +++
 
-## Personalizar Inicio y resumen mediante una plantilla de diseño
+## Personalización del panel Resumen mediante una plantilla de diseño
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Haga clic en la flecha abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Inicio y resumen**.
+1. Haga clic en la flecha abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Panel de resumen**.
 
 1. En la lista de la izquierda, haga clic en el tipo de objeto (**Tareas**, **Problemas**, **Proyectos**, **Documentos** o **Versiones de documentos**) que desee personalizar en Inicio y resumen.
 
@@ -82,23 +81,28 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
     <tbody> 
      <tr> 
       <td role="rowheader">Tareas</td> 
-      <td> <p>En Inicio, la configuración de esta opción afecta al área a la derecha de una tarea cuando un usuario hace clic en la tarea. Y, en una lista de tareas, afecta al panel de resumen que aparece a la derecha de la página cuando un usuario selecciona una tarea y luego hace clic en el icono Abrir resumen <img src="assets/summary-panel-icon.png">.</p> <p>Por ejemplo, puede determinar qué campos ven los usuarios en el área de Detalles cuando los usuarios seleccionan tareas en Inicio:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>Y cuando seleccionan una tarea en el Resumen:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problemas</td> 
-      <td> <p>En Inicio, la configuración de esta opción afecta al área a la derecha de un problema cuando un usuario hace clic en el problema.</p> <p>En una lista de problemas, esta configuración afecta al panel de resumen que se muestra en el lado derecho de la página cuando un usuario selecciona un problema y luego hace clic en el icono Abrir resumen <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td><p>En una lista de problemas, esta configuración afecta al panel de resumen que se muestra en el lado derecho de la página cuando un usuario selecciona un problema y luego hace clic en el icono Abrir resumen <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Proyectos</td> 
-      <td>En Inicio, cuando un usuario hace clic en una aprobación de proyecto asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</td> 
+      <td><p>En Inicio, cuando un usuario hace clic en una aprobación de proyecto asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
+      <p>IMPORTANTE: Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
-      <td>En Inicio, cuando un usuario hace clic en una aprobación de documento asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</td> 
+      <td><p>En Inicio, cuando un usuario hace clic en una aprobación de documento asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
+      <p>IMPORTANTE: Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Versiones de documento</td> 
-      <td>En Inicio, cuando un usuario hace clic en una aprobación asignada a él para una versión concreta de un documento, la configuración de esta opción afecta al área a la derecha de la aprobación.</td> 
+      <td><p>En Inicio, cuando un usuario hace clic en una aprobación asignada a él para una versión concreta de un documento, la configuración de esta opción afecta al área a la derecha de la aprobación.</p>
+      <p>IMPORTANTE: Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. Repita los pasos del 3 al 6 para personalizar el área de inicio y el panel Resumen para cualquier otro tipo de objeto.
+1. Repita los pasos del 3 al 6 para personalizar el Panel de resumen para cualquier otro tipo de objeto.
 1. Haga clic en **Configuración global**, cerca de la esquina inferior izquierda, y luego habilite o deshabilite cualquiera de las siguientes opciones relacionadas con los objetos de Adobe Workfront en Inicio y resumen:
 
    <table style="table-layout:auto"> 

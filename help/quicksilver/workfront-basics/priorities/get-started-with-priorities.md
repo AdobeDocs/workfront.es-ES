@@ -5,9 +5,9 @@ description: Prioridades es una experiencia intuitiva y optimizada, adaptada a l
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '954'
 ht-degree: 3%
 
 ---
@@ -183,7 +183,7 @@ La capacidad de revisar y aprobar recursos se encuentra en la hoja de ruta de Pr
 
 Por ahora, recomendamos utilizar los widgets Mi aprobación y Todas las aprobaciones en la nueva página de inicio.
 
-Para obtener más información, consulte [Agregar, editar o quitar widgets en la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
 ## Use [!DNL Catch me up] para ver lo que se perdió [!BADGE Próximamente]{type=Informative}

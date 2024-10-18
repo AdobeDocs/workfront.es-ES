@@ -6,10 +6,10 @@ description: Puede ver y agregar actualizaciones a un elemento de trabajo dentro
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--Audited: April 2024-->
 
 Puede ver y agregar actualizaciones a un elemento de trabajo dentro del área [!UICONTROL Inicio] en [!DNL Adobe Workfront]. También puede editar otros datos relacionados con el elemento de trabajo si tiene acceso para editarlo.
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 ## Requisitos de acceso
 
@@ -53,6 +55,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 *Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront]. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Ver actualizaciones de un elemento de trabajo
 
 Puede ver las actualizaciones de cualquier elemento de trabajo en la [!UICONTROL Lista de trabajos]:
@@ -61,41 +65,60 @@ Puede ver las actualizaciones de cualquier elemento de trabajo en la [!UICONTROL
 1. En el área **[!UICONTROL Lista de trabajos]**, seleccione el elemento donde desee ver las actualizaciones.\
    Las actualizaciones se muestran en el panel derecho.
 
-1. (Opcional) Para filtrar las actualizaciones del sistema de modo que solo se muestren las actualizaciones del usuario, active **[!UICONTROL Mostrar actualizaciones del sistema]** para desactivarlas.
 
-   ![](assets/show-system-updates-home-350x114.png)
 
-## Proporcionar actualizaciones de un elemento de trabajo
+## Agregar un comentario a un elemento de trabajo
 
 Puede proporcionar actualizaciones sobre cualquier elemento de trabajo de la lista [!UICONTROL Trabajo]:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
-1. En el área **[!UICONTROL Lista de trabajos]**, seleccione el elemento donde desea proporcionar una actualización.
-1. En el panel derecho, haga clic en **[!UICONTROL Actualizar]** para mostrar un campo de texto.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar cualquiera de los siguientes widgets:
 
-   ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
+   | Widget | Descripción |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Tableros | Muestra los tableros que ha creado o que se le ha invitado a utilizar |
+   | Mi trabajo | Muestra las tareas y problemas asignados a usted |
+   | Mis proyectos | Muestra los proyectos que posee o en los que participa |
+   | Mis tareas | Muestra las tareas asignadas a usted |
+   | Mis problemas | Muestra los problemas asignados a usted |
+   | Mis solicitudes | Muestra todas las solicitudes que ha enviado |
+   | Mis aprobaciones | Muestra todas las aprobaciones pendientes, asignadas, delegadas y enviadas |
 
-1. En el campo proporcionado, especifique la actualización.
-1. (Opcional) Especifique cualquiera de la siguiente información:\
-   **[!UICONTROL Fecha de confirmación]:** Seleccione una fecha del selector de fechas cuando se comprometa a completar el elemento de trabajo.\
-   **[!UICONTROL ¿Cómo te va?]:** Seleccione una nueva condición para la tarea o el problema. Para obtener más información acerca de las condiciones de tarea y problema, vea [Actualizar condición para tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Estado]:** Seleccione un nuevo estado para la tarea o el problema. Para obtener más información acerca de los estados de tareas, vea [Actualizar el estado de las tareas](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Para obtener más información sobre los estados de problemas, consulte [Acceso a la lista de estados de problemas del sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Barra de finalización]:** Indique el porcentaje de trabajo completado desplazando la barra de progreso al porcentaje deseado. También puede hacer doble clic en la barra de finalización e introducir el porcentaje completado.
+1. Busque el elemento de trabajo que desea actualizar.
+1. Pase el ratón sobre el nombre y luego haga clic en **Agregar nueva actualización**.
+   ![](assets/add-update-on-widget.png)
+1. Empiece a escribir el comentario.
+1. (Opcional) En el cuadro **Etiquetar personas o equipos**, empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
+1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes al comentario para mejorar el contenido.
+1. Haga clic en **Enviar** para agregar el comentario al elemento de trabajo.
 
-1. Haga clic en **[!UICONTROL Actualizar]**.
+   >[!IMPORTANT]
+   >
+   >Solo puede editar su comentario en los 15 minutos siguientes al envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
+
+Para obtener información más detallada sobre cómo agregar actualizaciones, consulte [Agregar una actualización a un elemento de trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Editar un elemento de trabajo
 
 Puede editar cualquier campo de cualquier elemento de trabajo al que tenga acceso para editar.
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
-1. En el área **[!UICONTROL Lista de trabajos]**, seleccione el elemento que desee editar.\
-   Todos los campos a los que tiene acceso se muestran en el panel derecho.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar cualquiera de los siguientes widgets:
 
-1. En el panel derecho, pase el ratón sobre el campo que desea editar.\
-   Si tiene derechos para editar el campo, este se resalta al pasar el ratón por encima.
+   | Widget | Descripción |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Tableros | Muestra los tableros que ha creado o que se le ha invitado a utilizar |
+   | Mi trabajo | Muestra las tareas y problemas asignados a usted |
+   | Mis proyectos | Muestra los proyectos que posee o en los que participa |
+   | Mis tareas | Muestra las tareas asignadas a usted |
+   | Mis problemas | Muestra los problemas asignados a usted |
+   | Mis solicitudes | Muestra todas las solicitudes que ha enviado |
+   | Mis aprobaciones | Muestra todas las aprobaciones pendientes, asignadas, delegadas y enviadas |
 
-   ![](assets/home-350x123.png)
+1. Pase el ratón sobre el elemento de trabajo y luego haga clic en el icono **Resumen**.
+   ![](assets/open-summary-new-home.png)
 
+1. En el panel Resumen, pase el ratón sobre el campo que desee editar.
+Si tiene derechos para editar el campo, este se resalta al pasar el ratón por encima.
 1. Haga clic en el campo que desee editar y, a continuación, realice la actualización deseada.
 1. Haga clic fuera del campo para guardar los cambios.

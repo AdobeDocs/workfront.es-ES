@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Puede configurar lo siguiente:
 
 
 
-Para obtener información sobre la nueva página de inicio, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Para obtener información sobre la nueva página de inicio, consulte [Introducción a la página de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -91,8 +91,8 @@ Para personalizar el nuevo directorio raíz mediante una plantilla de diseño:
       <td role="rowheader">Diseño y disposición</td> 
       <td>
       <p>Seleccione los widgets que estarán presentes en los espacios de trabajo de los usuarios, su posición y elija un fondo. Tenga en cuenta que, aunque los usuarios no pueden eliminar los widgets seleccionados, pueden moverlos y cambiarles el tamaño libremente, así como agregar widgets adicionales.</p>
-      <p>Esta ficha funciona esencialmente como un pequeño espacio de trabajo de Inicio; como tal, se puede personalizar según los pasos descritos en <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Agregar, editar o quitar widgets en la nueva página de inicio</a>. Seleccione los widgets y organice el espacio de trabajo tal como desea que aparezca para los usuarios.</p>
-      <p>Para cambiar el fondo, sigue los pasos de <b>Personalización del fondo</b> en <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Introducción a la nueva página de inicio</a>.</p>
+      <p>Esta ficha funciona esencialmente como un pequeño espacio de trabajo de Inicio; como tal, se puede personalizar según los pasos descritos en <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Agregar, editar o quitar widgets en Inicio</a>. Seleccione los widgets y organice el espacio de trabajo tal como desea que aparezca para los usuarios.</p>
+      <p>Para cambiar el fondo, sigue los pasos de <b>Personalización del fondo</b> en <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Introducción a la página principal</a>.</p>
       <p>
 
 >[!NOTE]

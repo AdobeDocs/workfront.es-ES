@@ -6,29 +6,35 @@ description: Puede usar la vista Calendario en el área [!UICONTROL Hogar] para 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 07b33b56-ae57-4ae5-890e-c21feae1c4fd
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # Usar la vista [!UICONTROL Calendario principal]
 
-Puede usar la vista Calendario en el área [!UICONTROL Hogar] para administrar sus asignaciones de trabajo y jornada laboral. Solamente usted puede ver y administrar su [!UICONTROL Calendario de Inicio].
+>[!IMPORTANT]
+>
+>Esta funcionalidad se eliminó con la obsolescencia de la página principal heredada el 17/10/2014.
+
+<!--
+
+You can use the Calendar view in the [!UICONTROL Home] area to manage your work day and work assignments. Only you can view and manage your [!UICONTROL Home Calendar].
 
 >[!NOTE]
 >
->La vista [!UICONTROL Calendario] en el área [!UICONTROL Inicio] es diferente de un informe de [!DNL Adobe Workfront] [!UICONTROL Calendario], que es un informe dinámico que proporciona una representación visual de su trabajo. Para obtener información sobre el informe [!DNL Workfront] [!UICONTROL Calendario], consulte [Resumen de informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+>The [!UICONTROL Calendar] view in the [!UICONTROL Home] area is different from a [!DNL Adobe Workfront] [!UICONTROL Calendar] report, which is a dynamic report that provides a visual representation of your work. For information about the [!DNL Workfront] [!UICONTROL Calendar] report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 >
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future. (NOTE: From Alina: Spoke with Lisa and Court and they agreed to draft or delete this. Court could not remember what this was referring to and Lisa did not add this note. Lisa might update this if she hears from the team that this is still accurate.)</li>>
->  -->
+>  
 
 
-## Requisitos de acceso
+## Access requirements
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,239 +44,241 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a tareas y problemas</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Permisos de [!UICONTROL Contribute] o superiores para las tareas y problemas que desee agregar al calendario</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL Contribute] permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Programar elementos de trabajo en su [!UICONTROL Calendario de inicio]
+## Schedule work items in your [!UICONTROL Home Calendar]
 
-Puede usar el [!UICONTROL Calendario de Inicio] para programar elementos de trabajo para su semana.
+You can use the [!UICONTROL Home Calendar] to schedule work items for your week.
 
 >[!NOTE]
 >
->Al colocar un elemento de trabajo en su [!UICONTROL Calendario de Inicio], no se cambian las fechas existentes asociadas con el elemento de trabajo.
+>Placing a work item on your [!UICONTROL Home Calendar] does not change the existing dates associated with the work item.
 
-Para agregar un elemento de trabajo [!DNL Workfront] al calendario:
+To add a [!DNL Workfront] work item to your calendar:
 
-1. Vaya a la vista [!UICONTROL Calendario principal], tal como se explica en [Ver el [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-   Todos los elementos de trabajo asignados a usted o a sus grupos, equipos o roles se muestran en el panel izquierdo. Puede ordenar la lista y filtrarla para mostrar solo determinados elementos.
+   All the work items assigned to you or your groups, teams, or job roles display in the left panel. You can sort the list and filter it to display only certain items.
 
-   Para obtener más información, consulte [Filtrar y ordenar elementos de trabajo](#filter-and-sort-work-items) más adelante en este artículo.
+   For more information, see [Filter and sort work items](#filter-and-sort-work-items) later in this article.
 
-1. Desde el panel izquierdo, arrastre el elemento de trabajo hasta el día y la hora en que desee trabajar en él.
+1. From the left panel, drag the work item to the day and time when you want to work on it.
 
-   Si se programa a sí mismo para que trabaje en un elemento después de su fecha planificada de finalización o durante más tiempo que el número de horas que está planificado, el elemento de trabajo se muestra en rojo y aparece una advertencia.
+   If you schedule yourself to work on an item after its planned completion date or for more time than the number of hours it's planned for, the work item displays in red and a warning appears.
 
-   Para obtener más información sobre las fechas de vencimiento de los elementos de trabajo y cómo afectan al tiempo asignado en el [!UICONTROL Calendario principal], consulte [[!UICONTROL Calendario principal] vista](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+   To learn about work item due dates and how they affect allocated time in the [!UICONTROL Home Calendar], see  [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. Realice una de las siguientes acciones:
+1. Do any of the following:
 
-   * **Para programar un elemento de trabajo para varios días:** Repita el paso 2 para agregar el elemento a cada día y hora en que desee trabajar en él.
-   * **Para modificar la duración de un elemento de calendario:** Pase el ratón sobre el borde inferior del elemento hasta que el cursor se convierta en una flecha doble y, a continuación, arrastre el borde inferior hasta la hora de finalización que desee.
-   * **Para eliminar un elemento de calendario:** Pase el ratón sobre el elemento y luego haga clic en el icono [!UICONTROL papelera] que se muestra.
+   * **To schedule a work item for multiple days:** Repeat step 2 to add the item to each day and time when you want to work on it.
+   * **To modify the duration of a calendar item:** Hover over the bottom edge of the item until the cursor becomes a double arrow, then drag the bottom edge to the ending time you want.
+   * **To delete a calendar item:** Hover over the item, then click the [!UICONTROL trashcan] icon that is displayed.
 
-## Actualizar un elemento de trabajo en su [!UICONTROL Calendario de Inicio]
+## Update a work item on your [!UICONTROL Home Calendar]
 
-Puede actualizar los elementos de trabajo que se muestran en la vista [!UICONTROL Calendario principal]. Las actualizaciones también aparecen en la ficha [!UICONTROL Actualizaciones] del elemento de trabajo real.
+You can make updates to work items that display in [!UICONTROL Home Calendar] view. Your updates also appear on the [!UICONTROL Updates] tab of the actual work item.
 
-1. Vaya a la vista [!UICONTROL Calendario principal], tal como se explica en [Ver el [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-1. Abra el panel [!UICONTROL Detalles] del elemento de trabajo que desea actualizar:
+1. Open the [!UICONTROL Details] panel for the work item you want to update:
 
-   * En el panel izquierdo: seleccione el elemento de trabajo y haga clic en **[!UICONTROL Detalles]**.
-   * Desde el calendario: haga clic en el evento de calendario programado.
+   * From the left panel: Select the work item, then click **[!UICONTROL Details]**.
+   * From the calendar: Click the scheduled calendar event.
 
-   Los detalles del elemento de trabajo se muestran en un panel que aparece a la derecha de la ventana.
+   Details for the work item display in a panel that appears on the right of the window.
 
    ![](assets/click-cal-item-to-see-details-350x217.png)
 
-1. Realice una de las siguientes acciones para actualizar el elemento de trabajo:
+1. Do any of the following to update the work item:
 
-   * En el cuadro **[!UICONTROL Iniciar una nueva actualización]**, escriba la actualización, especifique cualquiera de la siguiente información y, a continuación, haga clic en **[!UICONTROL Actualizar]**.
+   * In the **[!UICONTROL Start a new update]** box, type your update, specify any of the following information, then click **[!UICONTROL Update]**.
 
-     <table style="table-layout:auto">
+      <table style="table-layout:auto">
       <col>
       <col>
       <tbody>
        <tr>
-        <td role="rowheader"><strong>[!UICONTROL Notificar]</strong></td>
-        <td><p> Etiquete a los usuarios a los que desee notificar su actualización. Para obtener más información, consulte <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Etiquetar a otros en las actualizaciones</a>.</p><p> </p></td>
+        <td role="rowheader"><strong>[!UICONTROL Notify]</strong></td>
+        <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p> </p></td>
        </tr>
        <tr data-mc-conditions="">
-        <td role="rowheader"><strong>[!UICONTROL Fecha de confirmación]</strong></td>
-        <td>En el calendario desplegable, seleccione la fecha en la que se compromete a completar el elemento de trabajo. Para obtener información acerca de cómo establecer la [!UICONTROL Fecha de confirmación], vea <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Fecha de confirmación] información general</a>.</td>
+        <td role="rowheader"><strong>[!UICONTROL Commit Date]</strong></td>
+        <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the [!UICONTROL Commit Date], see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Commit Date] overview</a>.</td>
        </tr>
        <tr data-mc-conditions="">
-        <td role="rowheader"><strong>[!UICONTROL ¿Cómo va esto?]</strong></td>
-        <td>Seleccione una nueva condición para la tarea o el problema. Para obtener información acerca de las condiciones de tarea y problema, vea <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Actualizar condición para tareas y problemas</a>.</td>
+        <td role="rowheader"><strong>[!UICONTROL How's this going?]</strong></td>
+        <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
        </tr>
        <tr>
-        <td role="rowheader"><strong>[!UICONTROL Privado para] mi empresa</strong></td>
-        <td>Deshabilite esta opción para evitar que los usuarios externos a su empresa puedan ver esta actualización.</td>
+        <td role="rowheader"><strong>[!UICONTROL Private to] my company</strong></td>
+        <td>Disable to prevent users outside your company from being able to view this update.</td>
        </tr>
       </tbody>
      </table>
 
-   * Haga clic en el **[!UICONTROL estado]** actual del elemento y, a continuación, haga clic en un nuevo estado de la lista que aparece. Para obtener más información, consulte [Resumen del proceso de aprobación](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+   * Click the current **[!UICONTROL Status]** for the item, then click a new status in the list that appears. For more information, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-     >[!NOTE]
-     >
-     >Si marca un elemento de trabajo que tiene asignado como [!UICONTROL Completo - Pendiente de aprobación], es posible que observe que ya no aparece en el calendario. Esto se debe a que no se espera que realice ninguna otra acción hasta que el usuario que está configurado para aprobar el elemento lo marque como [!UICONTROL Aprobado]. Cuando esto ocurra, podrás ver el elemento en tu calendario como un [!UICONTROL aprobado] elemento.
+      >[!NOTE]
+      >
+      >If you mark a work item assigned to you as [!UICONTROL Complete - Pending Approval], you may notice that it no longer appears on your calendar. This is because no further action is expected of you until the user who is set to approve the item marks it as [!UICONTROL Approved]. When this occurs, you will be able to see the item on your calendar as an [!UICONTROL Approved] item.
 
-   * (Opcional) Para responder a un comentario o actualización existente, haga clic en **[!UICONTROL Responder]**, especifique cualquier destinatario en el cuadro **[!UICONTROL Notificar]**, escriba su respuesta y haga clic en **[!UICONTROL Responder]**.\
+   * (Optional) To reply to an existing comment or update, click **[!UICONTROL Reply]**, specify any recipients in the **[!UICONTROL Notify]** box, type your reply, then click **[!UICONTROL Reply]**.\
 
-     Si necesita información sobre cómo especificar destinatarios, vea [Etiquetar a otros en las actualizaciones](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+      If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. (Opcional) Para cerrar el panel **[!UICONTROL Detalles]**, haga clic fuera de él.
+1. (Optional) To close the **[!UICONTROL Details]** panel, click anywhere outside it.
 
-## Actualizar eventos de calendarios integrados
+## Update events from integrated calendars
 
-Para actualizar los eventos de calendario integrados en su [!UICONTROL Calendario principal]:
+To update the integrated calendar events in your [!UICONTROL Home Calendar]:
 
-1. Vaya a la vista [!UICONTROL Calendario principal], tal como se explica en [Ver el [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. Haga clic en **[!UICONTROL Actualizar calendarios]** en la esquina superior derecha de [!UICONTROL Calendario principal].
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Click **[!UICONTROL Refresh calendars]** in the upper right corner of the [!UICONTROL Home Calendar].
 
    ![](assets/refresh-qs-350x360.png)
 
-   Los eventos de calendario integrados se actualizan automáticamente al abrir la vista de [!UICONTROL Calendario principal] o al actualizar el [!UICONTROL Calendario principal].
+   Integrated calendar events update automatically when you open your [!UICONTROL Home Calendar] view or when you refresh your [!UICONTROL Home Calendar].
 
-## Filtrar y ordenar elementos de trabajo
+## Filter and sort work items
 
-1. Vaya a la vista [!UICONTROL Calendario principal], tal como se explica en [Ver el [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. Haga clic en el menú desplegable **[!UICONTROL Filtro]**.
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Click the **[!UICONTROL Filter]** drop-down menu.
 
    >[!NOTE]
    >
-   >Algunas opciones de filtro se basan en objetos (tareas, solicitudes, problemas, aprobaciones, pruebas y personal) y otras se basan en el estado ([!UICONTROL Trabajando en], [!UICONTROL Listo para comenzar], [!UICONTROL No listo] y [!UICONTROL Completado]). Si no se selecciona ningún estado, el [!UICONTROL Calendario principal] muestra todos los objetos seleccionados de cualquier estado. Del mismo modo, si no hay ningún objeto seleccionado, muestra todos los objetos de cualquier estado seleccionado.
+   >Some filter options are based on objects (Tasks, Requests, Issues, Approvals, Proofs, and Personal), and others are based on state ([!UICONTROL Working On], [!UICONTROL Ready to Start], [!UICONTROL Not Ready], and [!UICONTROL Completed]). If no state is selected, the [!UICONTROL Home Calendar] displays all selected objects of any state. Similarly, if no object is selected, it displays all objects of any selected state.
 
-1. Seleccione entre las siguientes opciones de filtro para especificar los tipos de elementos que desea mostrar:
+1. Select from the following filter options to specify the types of items you want to display::
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Todo]</strong></td> 
-      <td><span>Muestra y selecciona todos los elementos. Esto incluye tareas, </span> <span data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">problemas</span><span>, aprobaciones, tareas personales y tareas y problemas completados.</span></td> 
+      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td><span>Displays and selects all items. This includes tasks,</span> <span data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span>, approvals, personal tasks and completed tasks and issues.</span></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Tareas de [!UICONTROL en curso]</strong></td> 
-      <td> <p><span>Muestra solamente las tareas en las que está trabajando activamente. Son tareas asignadas para las que ha hecho clic en el botón [!UICONTROL Trabajar en ello].</span> </p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Working On]</strong></td> 
+      <td> <p><span>Displays only tasks that you are actively working on. These are tasks assigned to you for which you have clicked the [!UICONTROL Work On It] button.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Tareas listas para iniciarse]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Ready to Start]</strong></td> 
       <td> 
        <div> 
-        <p>Muestra sólo las tareas que están listas para iniciarse. Las dos afirmaciones siguientes deben ser verdaderas:</p> 
+        <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
         <ul style="list-style-type: square;"> 
-         <li> <p>Las tareas y sus tareas principales no tienen predecesoras ni restricciones de tarea que impidan trabajar con ellas.</p> </li> 
-         <li> <p>La [!UICONTROL Fecha planificada de inicio] de las tareas se encuentra en las últimas o hasta dos semanas en el futuro.</p> </li> 
+         <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
+         <li> <p>The [!UICONTROL Planned Start Date] of the tasks is in the past or up to two weeks in the future.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Tareas no listas]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Not Ready]</strong></td> 
       <td> 
        <div> 
-        <p>Muestra únicamente las tareas que aún no están listas para iniciarse. Cualquiera de las siguientes afirmaciones debe ser verdadera:</p> 
+        <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
         <ul> 
-         <li> <p>Las tareas y sus tareas principales pueden tener predecesoras o restricciones de tareas que impiden que se trabaje con ellas.</p> </li> 
-         <li> <p>Las tareas tienen una [!UICONTROL Fecha planificada de inicio] que es más de dos semanas en el futuro.</p> </li> 
+         <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
+         <li> <p>The tasks have a [!UICONTROL Planned Start Date] that is more than two weeks in the future.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Problemas en funcionamiento]</strong></td> 
-      <td> <p>Muestra únicamente los problemas en los que está trabajando activamente. Estos son problemas asignados a usted para los que ha hecho clic en el botón [!UICONTROL Trabajar en ello].</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Working On]</strong></td> 
+      <td> <p>Displays only issues that you are actively working on. These are issues assigned to you for which you have clicked the [!UICONTROL Work On It] button.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Problemas solicitados]</strong></td> 
-      <td><span>Muestra solamente los problemas a los que está asignado pero para los que no ha hecho clic en el botón [!UICONTROL Trabajar en ello].</span> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Requested]</strong></td> 
+      <td><span>Displays only issues that you are assigned to but for which you have not clicked the [!UICONTROL Work On It] button.</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Personal]</strong></td> 
-      <td>Muestra sólo las tareas personales. Son tareas que crea como una tarea de [!UICONTROL Tareas pendientes], tal como se describe en la sección <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">[!UICONTROL Crear una tarea personal]</a> del artículo <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Crear elementos de trabajo a partir del área de [!UICONTROL Inicio]</a>.</td> 
+      <td>Displays only personal tasks. These are tasks that you create as a [!UICONTROL To Do] task, as described in the section <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">[!UICONTROL Create a personal task]</a> in the article <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Create work items from the [!UICONTROL Home] area</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Aprobaciones]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Approvals]</strong></td> 
       <td> 
        <div> 
-        <p>Muestra sólo las aprobaciones que se le han asignado o delegado y las que ha enviado. Las aprobaciones incluyen aprobaciones de elementos de trabajo (proyectos, tareas y problemas) y aprobaciones de documentos, pruebas, solicitudes de acceso y hojas de horas. Para obtener más información sobre las aprobaciones, consulte los siguientes artículos:</p> 
+        <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
         <ul> 
-         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Ver aprobaciones </a> </li> 
+         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals </a> </li> 
         </ul> 
         <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Administrar aprobaciones</a> </p> </li> 
+         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
         </ul> 
-        <p>Nota: Las aprobaciones que ha enviado y en las que también es uno de los aprobadores se cuentan dos veces. </p> 
+        <p>Note: Approvals that you submitted and where you are also one of the approvers are counted twice. </p> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL completado]</strong></td> 
-      <td><span>Muestra solamente las tareas, problemas y tareas personales completados. El trabajo completado se muestra durante las dos semanas anteriores y se agrupa en la Lista de trabajos según la semana. No se incluyen las aprobaciones.</span> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Completed]</strong></td> 
+      <td><span>Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/calendar-filters-nwe-350x392.png)
 
-1. Para agrupar y ordenar la lista de trabajo, haga clic en el menú desplegable **[!UICONTROL Agrupar por]** y, a continuación, seleccione los criterios que desee utilizar.
+1. To group and sort your list of work, click the **[!UICONTROL Group by]** drop-down menu, then select the criteria you want to use.
 
-   Los elementos se muestran en la parte izquierda del calendario según los criterios y en el orden especificado.
+   The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
 
    ![](assets/home-calendar-sort-group-nwe-350x288.png)
 
-   Elija entre las siguientes opciones:
+   Choose from the following options:
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL Finalización planificada]</strong></td>
-        <td>Las tareas y los problemas se ordenan según las [!UICONTROL fechas planificadas de finalización]. Para obtener más información acerca de [!UICONTROL Fechas planificadas de finalización], consulte <a href="../../../manage-work/tasks/task-information/planned-hours.md">Resumen de horas planificadas</a>.</td>
+        <td><strong>[!UICONTROL Planned Completion]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Planned Completion dates]. To learn more about [!UICONTROL Planned Completion dates], see <a href="../../../manage-work/tasks/task-information/planned-hours.md">Planned Hours overview</a>.</td>
         <td></td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Inicio planificado]</strong></td>
-        <td>Las tareas y los problemas se ordenan según el orden de las [!UICONTROL Fechas de inicio planificadas]. Para obtener más información acerca de la tarea [!UICONTROL Fechas planificadas de inicio], vea <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md">Información general sobre la tarea [!UICONTROL Fecha planificada de inicio]</a>.</td>
+        <td><strong>[!UICONTROL Planned Start]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Planned Start dates]. For more information about task [!UICONTROL Planned Start Dates], see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md">Overview of the task [!UICONTROL Planned Start Date]</a>.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Fecha de confirmación]</strong></td>
-        <td>Las tareas y los problemas se ordenan en orden de [!UICONTROL Fechas de confirmación]. Para obtener más información acerca de [!UICONTROL Fechas de confirmación], vea <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md">[!UICONTROL Fecha de confirmación] información general</a>.</td>
+        <td><strong>[!UICONTROL Commit Date]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Commit dates]. To learn more about [!UICONTROL Commit dates], see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md">[!UICONTROL Commit Date] overview</a>.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Proyecto]</strong></td>
-        <td>Elementos de trabajo ordenados por proyecto.</td>
+        <td><strong>[!UICONTROL Project]</strong></td>
+        <td>Work items sort by project.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Mi prioridad]</strong></td>
-        <td>Los artículos se muestran en el orden que elija. Para obtener más información, vea <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md">Priorizar el trabajo en el área de [!UICONTROL Home]</a>.</td>
+        <td><strong>[!UICONTROL My Priority]</strong></td>
+        <td>Items display in an order you choose. For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md">Prioritize work in the [!UICONTROL Home] area</a>.</td>
     </tr>
    </table>
 
-## Vaya a otra semana
+## Navigate to a different week
 
-1. Vaya a la vista de [!UICONTROL Calendario principal], tal como se explica en [Ver el [!UICONTROL Calendario principal]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. En la **[!UICONTROL barra de herramientas del calendario]**, haga clic en la flecha izquierda del indicador de fecha para retroceder una semana la vista del calendario o en la flecha derecha para avanzar una semana.
+1. Go to your [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. On the **[!UICONTROL Calendar toolbar]**, click the left arrow of the date indicator to move the calendar view back one week or the right arrow to move forward one week.
 
    ![](assets/week-arrows-350x206.png)
 
-   Puede hacer clic en **[!UICONTROL Hoy]** para regresar a la semana actual.
+   You can click **[!UICONTROL Today]** to return to the current week.
 
-## Especifique los calendarios que desea ver
+## Specify which calendars you view
 
-Puede especificar qué calendarios integrados, como su calendario de selección para pedido, cumpleaños o festivos, desea ver en su [!UICONTROL Calendario principal]. Para obtener instrucciones, consulta [Configurar tu [!UICONTROL Calendario de Inicio] para ver la configuración](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+You can specify which integrated calendars, such as your PTO, Birthdays, or Holidays calendar, you want to view on your [!UICONTROL Home Calendar]. For instructions, see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+
+-->

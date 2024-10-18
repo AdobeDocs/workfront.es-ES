@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,6 @@ Para ayudarle a administrar y analizar sus solicitudes de aprobación de un vist
 
 Puede explorar en profundidad las categorías enumeradas anteriormente para obtener una vista más detallada. El widget de todas las aprobaciones está disponible en nuevos paneles de inicio y de lienzo.
 
-Para obtener más información, consulte [Introducción a la nueva página de inicio](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Bloquear su revisión y aprobaciones una vez que se tome una decisión general
 

@@ -6,7 +6,7 @@ description: Puede delegar temporalmente el trabajo al que esté asignado mientr
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Para delegar sus tareas y problemas a otros:
 1. Vaya al área de [!UICONTROL **Inicio**].
 1. Asegúrese de que ha agregado los widgets [!UICONTROL **Mi trabajo**], [!UICONTROL **Mis tareas**] o [!UICONTROL **Mis problemas**] a su [!UICONTROL **Hogar**].
 
-   Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+   Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. Haga clic en [!UICONTROL **Delegar**] en la esquina superior izquierda de los widgets [!UICONTROL **Mi trabajo**], [!UICONTROL **Mis tareas**] o [!UICONTROL **Mis problemas**].
 

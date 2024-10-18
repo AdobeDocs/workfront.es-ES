@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Marcar un elemento como Listo en el área de Inicio
 description: Puede marcar una tarea o un problema como Listo si es el usuario asignado de la tarea o el problema. Cuando marca una tarea o un problema como Listo, el estado de la tarea o del problema cambia a Completado.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Puede marcar una tarea o un problema como Listo si es el usuario asignado de la 
 >[!NOTE]
 >
 >No ve el botón [!UICONTROL Listo] a menos que sea uno de los recursos asignados a la tarea o al problema.
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 ## Requisitos de acceso
 
@@ -52,18 +54,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-## Marcar una tarea o un problema como [!UICONTROL Listo]
++++
 
-Solo el usuario asignado a la tarea o al problema puede marcarlo como [!UICONTROL Listo].
+## Marcar un elemento de trabajo como Listo en el widget Mi trabajo
 
 1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. En la **[!UICONTROL Lista de trabajos]**, busque cualquiera de los elementos que están a la espera de ser utilizados.
-1. Realice una de las acciones siguientes:
+1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mi trabajo**.
+1. Busque el elemento de trabajo y haga clic en **[!UICONTROL Marcar como listo]** en el elemento de trabajo.
+Vea [Comprender las opciones del botón [!UICONTROL Listo]](#understand-the-options-of-the-done-button) para obtener información más detallada sobre cómo puede aparecer este botón.
+   ![](assets/my-work-done.png)
 
-* Haga clic en **[!UICONTROL Listo]** en el elemento de trabajo.\
-   Vea [Comprender las opciones del botón [!UICONTROL Listo]](#understand-the-options-of-the-done-button) para obtener información más detallada sobre cómo puede aparecer este botón.
 
-* Seleccione el elemento que desea marcar como completado y, a continuación, en el panel derecho, haga clic en **[!UICONTROL Actualizar estado]** y cambie el estado del elemento a un estado que equivalga a [!UICONTROL Completado] o [!UICONTROL Cerrado].
+## Marcar un elemento de trabajo como Listo en el panel Resumen
+
+Puede marcar un elemento de trabajo como Listo en el widget Mis tareas y Mis problemas mediante el Panel de resumen.
+
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar los widgets **Mis tareas** o **Mis problemas**.
+1. Pase el ratón sobre el elemento de trabajo y luego haga clic en el icono **Resumen**.
+   ![](assets/open-summary-new-home.png)
+1. Haga clic en **Marcar como listo** en la parte superior del panel Resumen.
+
 
 ## Comprender las opciones del botón [!UICONTROL Listo]
 
@@ -81,7 +92,7 @@ Dependiendo de cuántos estados estén asociados con el botón [!UICONTROL Listo
 
 Cuando el botón [!UICONTROL Listo] está asociado a un estado y el elemento de trabajo se le asigna solamente a usted, el botón indica **[!UICONTROL Listo]**. Al hacer clic en él, el estado de la tarea o del problema cambia al estado asociado con el botón [!UICONTROL Listo].
 
-![Botón Listo](assets/Done.png)
+![Botón Listo](assets/done-button-status.png)
 
 Para saber qué estado está asociado con el botón [!UICONTROL Listo], consulte la sección [!UICONTROL Configuración del equipo] de su equipo de inicio [!UICONTROL Botón Listo], tal como se describe en [Editar configuración del equipo](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
@@ -93,10 +104,6 @@ Cuando el botón [!UICONTROL Listo] está asociado con más de un estado, el bot
 
 Para comprender cómo puede asociar varios estados con el botón [!UICONTROL Listo], consulte [Configurar el botón [!UICONTROL Listo] para las tareas](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) y [Configurar el botón [!UICONTROL Listo] para los problemas](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### Botón [!UICONTROL Listo] para elementos asignados a varios recursos
 
 Cuando la tarea o el problema se asignan a más de un recurso, el botón muestra la palabra **[!UICONTROL Listo]**, seguida de un menú desplegable. En el menú desplegable, tiene la opción de elegir entre **[!UICONTROL Listo con mi parte]** (lo que permite a los integrantes del equipo saber que ha completado su parte de la tarea) o el estado asociado con el botón [!UICONTROL Listo] (lo que completa el elemento). Después de seleccionar **[!UICONTROL Listo con mi parte]**, el elemento de trabajo se quitará de su Lista de trabajos, pero permanecerá en la Lista de trabajos de los que aún se hayan asignado al elemento de trabajo.\
@@ -106,4 +113,5 @@ Si el botón Listo está asociado con varios estados, se enumeran en **Listo con
 >
 >En una tarea o un problema con varias personas asignadas, cada usuario es responsable de indicar que se ha completado su propia asignación en la tarea o el problema. Por este motivo, cada usuario asignado debe hacer clic en [!UICONTROL Listo] para mostrar que ha completado el trabajo que se le ha asignado en el elemento.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+
