@@ -6,9 +6,9 @@ description: Puede crear paneles para acceder rápidamente a la información en 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -102,13 +102,13 @@ Puede agregar páginas externas existentes a un panel o crear una desde el nuevo
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Busque informes, calendarios o páginas externas en el campo **Buscar por nombre o tipo ...** y, a continuación, arrástrelos al panel de diseño cuando aparezcan en la lista.
+1. En la sección **Informes y calendarios disponibles**, empiece a escribir el nombre de un informe, calendario o página externa en la barra de búsqueda y, a continuación, arrastre y suelte el informe, calendario o página externa en el panel de diseño situado a la derecha.
 
    >[!NOTE]
    >
    >Al buscar un elemento, la búsqueda devuelve cualquiera de los 2000 informes creados más recientemente. Los nombres de los informes que incluyen caracteres Unicode no se devuelven en los resultados de búsqueda. Como práctica recomendada, evite incluir caracteres Unicode al nombrar objetos en Workfront escribiendo nombres en lugar de copiar y pegar nombres de otra fuente.
 
-   ![Buscar informes](assets/qs-new-dashboard-ui-0722.png)
+   ![Buscar informes](assets/unshimmed-dashboard-ui.png)
 
 1. (Opcional) Haga clic en **Agregar página externa** para agregar una nueva página externa al panel.
 

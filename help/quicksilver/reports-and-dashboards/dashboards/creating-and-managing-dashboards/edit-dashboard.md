@@ -6,9 +6,9 @@ description: El objetivo del tablero es proporcionar un acceso rápido a la info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Para obtener información sobre cómo crear paneles, consulte [Crear un panel](.
    * **Nombre**: edite el nombre del tablero.
    * **Descripción**: especifique una descripción para el tablero.
 
-1. En la sección **Informes disponibles**, empiece a escribir el nombre de un informe o página externa en el campo **Buscar por nombre o tipo ...**, a continuación, arrastre y suelte el informe en el panel de diseño situado a la derecha.
+1. En la sección **Informes y calendarios disponibles**, empiece a escribir el nombre de un informe, calendario o página externa en la barra de búsqueda y, a continuación, arrastre y suelte el informe, calendario o página externa en el panel de diseño situado a la derecha.
 
    >[!NOTE]
    >

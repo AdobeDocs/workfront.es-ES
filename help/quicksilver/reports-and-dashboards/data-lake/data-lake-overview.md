@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 1713a5855b8798d888866447338291975ff69cb7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Los suscriptores podrán conectar su herramienta de inteligencia empresarial pre
 
 Para obtener más información sobre Data Connect, consulte los siguientes artículos:
 
-* [Información beta de Workfront Data Connect](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * [Crear una cuenta de Reader (servicio) para Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Establezca una conexión con Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Diccionario de datos de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
