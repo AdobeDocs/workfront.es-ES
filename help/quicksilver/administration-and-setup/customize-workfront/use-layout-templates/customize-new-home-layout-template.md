@@ -3,21 +3,21 @@ title: Personalizar una nueva página de inicio mediante una plantilla de diseñ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios cuando abren una nueva página de inicio.
+description: Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios cuando abren Inicio.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 2%
 
 ---
 
-# Personalizar una nueva página de inicio con una plantilla de diseño
+# Personalizar la página de inicio mediante una plantilla de diseño
 
-Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios la primera vez que abren una nueva página de inicio.
+Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios la primera vez que abren Inicio.
 
 Puede configurar lo siguiente:
 
@@ -33,7 +33,7 @@ Puede configurar lo siguiente:
 
 
 
-Para obtener información sobre la nueva página de inicio, consulte [Introducción a la página de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Para obtener información sobre la página principal, consulte [Introducción a la página principal](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -73,9 +73,9 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 +++
 
-## Personalizar una nueva página de inicio con una plantilla de diseño
+## Personalizar el Inicio con una plantilla de diseño
 
-Para personalizar el nuevo directorio raíz mediante una plantilla de diseño:
+Para personalizar la página de inicio mediante una plantilla de diseño:
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -97,7 +97,7 @@ Para personalizar el nuevo directorio raíz mediante una plantilla de diseño:
 
 >[!NOTE]
 >
->Al mover o cambiar el tamaño de los widgets en la plantilla de diseño, no se almacenarán en déclencheur las nuevas páginas de inicio de los usuarios para actualizar su diseño. Sin embargo, añadir o eliminar un widget almacenará en déclencheur una actualización de las páginas de los usuarios.
+>Al mover o cambiar el tamaño de los widgets en la plantilla de diseño, las páginas de inicio de los usuarios no se almacenan en déclencheur para actualizar su diseño. Sin embargo, añadir o eliminar un widget almacenará en déclencheur una actualización de las páginas de los usuarios.
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ Para personalizar el nuevo directorio raíz mediante una plantilla de diseño:
 
 >[!IMPORTANT]
 >
->Los usuarios deben tener al menos acceso de creación a vistas para que la configuración de la columna del administrador se aplique correctamente a sus nuevas páginas de inicio.
+>* Las opciones Filtro, Columnas y Grupo están vinculadas a las opciones de personalización de la lista de la plantilla de diseño. Los cambios realizados aquí también se aplicarán a esa configuración.
+>* Los usuarios deben tener al menos acceso de creación a vistas para que la configuración de la columna del administrador se aplique correctamente a sus páginas de inicio.
 
 </p>
       <li><p><b>Establezca un filtro o un grupo predeterminado para el widget:</b></p>
@@ -147,4 +148,4 @@ Para personalizar el nuevo directorio raíz mediante una plantilla de diseño:
 
 >[!IMPORTANT]
 >
->Debe actualizar la nueva página de inicio para ver las personalizaciones de la plantilla de diseño.
+>Debe actualizar la página de inicio para ver las personalizaciones de la plantilla de diseño.

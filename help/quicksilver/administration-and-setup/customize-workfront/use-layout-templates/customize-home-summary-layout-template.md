@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 1. Haga clic en la flecha abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Panel de resumen**.
 
-1. En la lista de la izquierda, haga clic en el tipo de objeto (**Tareas**, **Problemas**, **Proyectos**, **Documentos** o **Versiones de documentos**) que desee personalizar en Inicio y resumen.
+1. En la lista de la izquierda, haga clic en el tipo de objeto (**Tareas**, **Problemas**, **Proyectos**, **Documentos** o **Versiones de documento**) que desee personalizar en el Panel de resumen.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Condicional) Si aparece el menú desplegable **Establecer botón de acción principal** (si selecciona **Tareas** o **Problemas** en la lista de la izquierda), haga clic en la acción principal (**Listo** o **Estado**) que desee que esté disponible para los usuarios en el área de Inicio y en el Panel de resumen cuando vean una tarea o un problema.
+1. (Condicional) Si aparece el menú desplegable **Establecer botón de acción principal** (si selecciona **Tareas** o **Problemas** en la lista de la izquierda), haga clic en la acción principal (**Listo** o **Estado**) que desee que esté disponible para los usuarios en el Panel de resumen cuando vean una tarea o un problema.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Repita los pasos del 3 al 6 para personalizar el Panel de resumen para cualquier otro tipo de objeto.
-1. Haga clic en **Configuración global**, cerca de la esquina inferior izquierda, y luego habilite o deshabilite cualquiera de las siguientes opciones relacionadas con los objetos de Adobe Workfront en Inicio y resumen:
+1. Haga clic en **Configuración global**, cerca de la esquina inferior izquierda, y luego habilite o deshabilite cualquiera de las siguientes opciones relacionadas con los objetos de Adobe Workfront en el Resumen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
     <tbody> 
      <tr> 
       <td role="rowheader">Mostrar actualizaciones de trabajo</td> 
-      <td>Muestra las actualizaciones realizadas sobre una tarea o un problema seleccionados en Inicio o Resumen. Esto incluye tanto las actualizaciones del sistema como las realizadas por un usuario. Los usuarios aún pueden filtrar las actualizaciones del sistema, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Habilitar o deshabilitar las actualizaciones del sistema</a> en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a>.</td> 
+      <td>Muestra las actualizaciones realizadas sobre una tarea o un problema seleccionados en el Panel de resumen. Esto incluye tanto las actualizaciones del sistema como las realizadas por un usuario. Los usuarios aún pueden filtrar las actualizaciones del sistema, tal como se describe en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Habilitar o deshabilitar las actualizaciones del sistema</a> en <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Trabajo de actualización</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Registrar tiempo de trabajo</td> 
@@ -140,16 +140,16 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Ver documentos asociados con el trabajo</td> 
-      <td>Muestra el área Documentos en Inicio y Resumen cuando se selecciona una tarea o un problema, y enumera los documentos adjuntos a la tarea o al problema. Los usuarios pueden hacer clic en los documentos para verlos en una ventana de vista previa.</td> 
+      <td>Muestra un área Documentos en el Panel de resumen cuando se selecciona una tarea o un problema, donde se enumeran los documentos adjuntos a la tarea o al problema. Los usuarios pueden hacer clic en los documentos para verlos en una ventana de vista previa.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ocultar marca de tiempo</td> 
-      <td>Oculta las marcas de tiempo para los siguientes campos de fecha en Inicio y Resumen:
+      <td>Oculta las marcas de tiempo de los siguientes campos de fecha en el Panel de resumen:
        <ul>
         <li>Fecha planificada de finalización</li>
         <li>Fecha de confirmación</li>
         <li>Fecha de envío</li>
-       </ul><p><b>NOTA</b>:</p> <p> Cuando esta opción está habilitada, los elementos de trabajo que vencen se mueven a la agrupación Retrasado en la Lista de trabajoss en Inicio basándose únicamente en la fecha, no en la hora.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>
