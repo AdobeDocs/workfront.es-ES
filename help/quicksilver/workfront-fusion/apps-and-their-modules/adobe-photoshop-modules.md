@@ -9,7 +9,7 @@ description: Con los módulos de Adobe Photoshop, puede iniciar un escenario de 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
+source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
 workflow-type: tm+mt
 source-wordcount: '4308'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Product</td>
+      <td role="rowheader">Producto</td>
       <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</td>
     </tr>
     </tr>
