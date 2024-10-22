@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Para obtener más información, consulte la sección [Ver el clúster de su orga
 
 ### Direcciones IP para permitir los clústeres 1, 2, 3, 5, 7, 8 y 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-Si el entorno de producción está en el clúster 1, 2, 3, 5 o 7, debe permitir las siguientes direcciones IP.
+Si el entorno de producción está en el clúster 1, 2, 3, 5, 7, 8 o 9, debe permitir las siguientes direcciones IP.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -622,4 +622,4 @@ Los correos electrónicos de la aplicación de Workfront se envían cifrados med
 
 ## Notificaciones por correo electrónico del Soporte de Workfront
 
-Si no recibe correos electrónicos del Soporte técnico de Workfront, asegúrese de añadir las direcciones IP y los dominios de Salesforce que necesita. Para obtener más información, consulte el artículo de ayuda de Salesforce sobre las direcciones IP y los dominios de Salesforce que se van a permitir.
+Si no recibe correos electrónicos del Soporte técnico de Workfront, asegúrese de añadir las direcciones IP y los dominios de Salesforce que necesita. Para obtener más información, consulte el artículo de ayuda de Salesforce acerca de las direcciones IP y los dominios de Salesforce que se van a permitir.
