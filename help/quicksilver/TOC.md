@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 393405424c0ce3334304643c9474369e12417406
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14507'
 ht-degree: 2%
 
 ---
@@ -1515,7 +1515,7 @@ ht-degree: 2%
       * [Creación y administración de equipos de Agile](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [Editar configuración del equipo](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
       * [Administrar en qué está trabajando su equipo](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-      * [Desactivar un equipo](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+      * [Desactivar o eliminar un equipo](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
       * [Configurar el botón Listo para las tareas](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [Configurar el botón Listo para problemas](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [Reemplazar el botón Trabajar en ello por un botón Iniciar](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

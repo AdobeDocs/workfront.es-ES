@@ -6,7 +6,7 @@ description: Al crear un equipo, se convierte en el Propietario del equipo de fo
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipos]** ![Cambiar equipo](assets/switch-team-icon.png) y, a continuación, haga clic en **[!UICONTROL Crear nuevo equipo]**.
 
-   ![Seleccione Crear nuevo equipo.](assets/create-new-team-350x198.png)
+   ![Seleccione Crear nuevo equipo.](assets/create-new-team.png)
 
 1. En el cuadro **[!UICONTROL Nuevo equipo]** que aparece, escriba la siguiente información:
 

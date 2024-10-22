@@ -6,9 +6,9 @@ description: Los administradores de Workfront y los usuarios con una licencia de
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-icon.png) y luego seleccione **[!UICONTROL Editar]**.
 
-   Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
+   Solo los miembros del equipo con licencia de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
 
    Si debería tener la opción [!UICONTROL Editar] pero no la ve, pídale al administrador de Workfront que verifique que [!UICONTROL Configuración del equipo] esté visible en la plantilla de diseño para [!UICONTROL Equipo de Scrum], [!UICONTROL Equipo de Kanban] o [!UICONTROL Equipo de Waterfall].
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. En la configuración del equipo, puede realizar los siguientes tipos de cambios:
 

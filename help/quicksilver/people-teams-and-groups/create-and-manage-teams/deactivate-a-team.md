@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Desactivar un equipo
+title: Desactivar o eliminar un equipo
 description: Puede desactivar los equipos que ya no utilice y conservar los datos históricos asociados. Los administradores de Adobe Workfront pueden reactivar un equipo en cualquier momento desde el área Equipos de la Configuración.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Desactivar un equipo
+# Desactivar o eliminar un equipo
 
 Puede desactivar los equipos que ya no utilice y conservar los datos históricos asociados. Los administradores de [!DNL Adobe Workfront] pueden reactivar un equipo en cualquier momento desde el área Equipos en Configuración. Si desactiva un equipo, este deja de mostrarse en las siguientes áreas:
 
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p>Nuevo: estándar</p>
    <p>o</p>
    <p>Actual: plan</p></td>
-  </tr> 
+  </tr>
+  <tr>
+   <td>Configuraciones de nivel de acceso</td>
+   <td><p>Para desactivar un equipo, no se requiere ninguna configuración.</p>
+   <p>Para eliminar un equipo, debe ser administrador del sistema.</p></td>
+  </tr>
  </tbody> 
 </table>
 
@@ -85,13 +90,28 @@ Al utilizar colas de solicitudes, si desactiva un equipo asignado como equipo po
 1. Haga clic en el icono **[!DNL Switch team]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. Desactive la casilla **[!UICONTROL Está activo]**.
+1. Desactive la casilla de verificación **[!UICONTROL Está activo]** en la configuración del equipo.
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
-## Limitaciones conocidas
+## Limitaciones conocidas de la desactivación de un equipo
 
 Los equipos desactivados se muestran en las siguientes áreas:
 
 * El campo Propietario en [!DNL Workfront Goals]. Esto requiere una licencia adicional para [!DNL Adobe Workfront Goals]. Para obtener más información, consulte [Introducción a [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+
+## Eliminación de un equipo
+
+Solamente un administrador del sistema puede eliminar un equipo. Si es el propietario de un equipo (pero no un administrador) y trata de eliminar un equipo, verá un mensaje de error.
+
+Para eliminar un equipo:
+
+{{step1-to-team}}
+
+1. Haga clic en el icono **[!DNL Switch team]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Eliminar]**.
+
+   ![](assets/edit-team-settings.png)
+
+1. Haz clic en [!UICONTROL **Confirmar**] en el mensaje de confirmación para eliminar permanentemente el equipo. Los equipos eliminados no se pueden recuperar.

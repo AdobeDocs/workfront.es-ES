@@ -6,9 +6,9 @@ description: Puede ver una vista de calendario de las tareas y los problemas en 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ Puede asignar elementos sin asignar, ajustar las asignaciones actuales, ajustar 
 
 Para obtener información detallada sobre cómo administrar el trabajo asignado a su equipo, consulte [[!UICONTROL Distribuidor de cargas de trabajo]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-![](assets/team-page-with-team-requests-and-balancer-sections-left.png)
+![Página de equipo que muestra el Distribuidor de cargas de trabajo](assets/team-page-workload-balancer.png)

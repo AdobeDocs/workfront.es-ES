@@ -6,9 +6,9 @@ description: La configuración predeterminada de Adobe Workfront incluye un bot�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Para configurar el botón Start:
 
 1. En el menú desplegable **[!UICONTROL Equipos]**, seleccione un equipo.\
    o\
-   Haga clic en **[!UICONTROL Crear equipo]**.
+   Haga clic en **[!UICONTROL Crear nuevo equipo]**.
 
 1. Haga clic en el icono **[!UICONTROL Más]** ![](assets/more-icon.png) y luego haga clic en **[!UICONTROL Editar]**.
 
