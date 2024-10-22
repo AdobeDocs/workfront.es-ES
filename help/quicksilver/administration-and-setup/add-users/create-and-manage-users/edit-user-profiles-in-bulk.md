@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
        <ul> 
         <li><b>Zona horaria:</b> La zona horaria de los usuarios.</li> 
         <li><b>Configuración regional</b>: La configuración regional preferida de los usuarios. Esto afecta al formato de los números y las fechas de los correos electrónicos procedentes de Workfront.</li> 
-        <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que los usuarios se asignan a sí mismos aparezca directamente en su ficha Trabajando en. El valor predeterminado es enumerar todo lo asignado a un usuario en su pestaña Solicitud de trabajo.</li> 
+        <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: Esta configuración hace referencia a una característica en desuso que se ha eliminado de Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

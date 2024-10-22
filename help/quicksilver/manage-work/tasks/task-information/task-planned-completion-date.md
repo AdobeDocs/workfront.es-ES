@@ -7,9 +7,9 @@ description: La fecha planificada de finalización de una tarea es la fecha en l
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 La fecha planificada de finalización de una tarea es la fecha en la que la tarea está configurada para completarse.
 
-Puede especificar la fecha planificada de finalización de una tarea o dejar que Adobe Workfront la calcule en función de determinados criterios. 
+Puede especificar la fecha planificada de finalización de una tarea o dejar que Adobe Workfront la calcule en función de determinados criterios.
 
-Las Fechas planificadas de finalización de las tareas de un proyecto determinan la Fecha planificada de finalización de un proyecto cuando el proyecto se programa a partir de la Fecha de inicio. Para obtener más información sobre la fecha planificada de finalización del proyecto, consulte [Establecer la fecha planificada de finalización del proyecto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Las Fechas planificadas de finalización de las tareas de un proyecto determinan la Fecha planificada de finalización de un proyecto cuando el proyecto se programa a partir de la Fecha de inicio. Para obtener más información sobre la fecha planificada de finalización del proyecto, consulte [Establecer la fecha planificada de finalización del proyecto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -38,19 +38,19 @@ Las Fechas planificadas de finalización de las tareas de un proyecto determinan
 
 Debe tener acceso de edición a Tareas y permisos de administración en la tarea para poder actualizar la Fecha planificada de finalización de la tarea.
 
-La configuración de la fecha planificada de finalización de una tarea depende del tipo de restricción de tarea que asigne a la tarea. 
+La configuración de la fecha planificada de finalización de una tarea depende del tipo de restricción de tarea que asigne a la tarea.
 
 Puede establecer manualmente la fecha planificada de finalización en las siguientes áreas de Workfront:
 
-* En el cuadro Editar tarea, al crear o editar una tarea. Para obtener más información, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* En el cuadro Editar tarea, al crear o editar una tarea. Para obtener más información, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * En el área Detalles de la tarea. Para obtener más información, vea [Administrar información de tareas en el área Información general de detalles de tareas](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
-* En el área de Inicio, si se muestra la Fecha planificada de finalización al ver una tarea. Para obtener más información, vea [Actualizar o editar un elemento de trabajo en el área de inicio](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* En el área de Inicio, si se muestra la Fecha planificada de finalización al ver una tarea en el panel Resumen. Para obtener más información, vea [Actualizar o editar un elemento de trabajo en el área de inicio](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * En el encabezado de la tarea. Para obtener más información, consulte [Nuevos encabezados de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * En una lista de tareas o un informe cuando el campo Fecha planificada de finalización se muestra en la vista.
 
   Para obtener más información, vea [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-Puede especificar manualmente la Fecha planificada de finalización al seleccionar cualquiera de las siguientes restricciones de tarea: 
+Puede especificar manualmente la Fecha planificada de finalización al seleccionar cualquiera de las siguientes restricciones de tarea:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -96,7 +96,7 @@ Cuando el sistema la calcula automáticamente, lo siguiente puede influir en la 
 
 * Cantidad de tiempo asociada con la Configuración de aprobación si la tarea está asociada con una aprobación. Para obtener más información, vea [Configurar la aprobación global](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-Cuando se establece automáticamente, la fecha planificada de finalización se determina según el siguiente cálculo: 
+Cuando se establece automáticamente, la fecha planificada de finalización se determina según el siguiente cálculo:
 
 ```
 Planned Completion Date = Planned Start Date + Duration
@@ -106,5 +106,5 @@ Por ejemplo, si la tarea tiene una fecha de inicio del 16 de septiembre y una du
 
 >[!NOTE]
 >
-> El tipo de actualización del proyecto debe establecerse en Automática y Al cambiar o Automáticamente para que las horas planificadas y la duración se ajusten automáticamente.\
+> El tipo de actualización del proyecto debe establecerse en Automática y Al cambiar o Automáticamente para que las horas planificadas y la duración se ajusten automáticamente.\
 >Para obtener más información acerca del tipo de actualización, vea el artículo [Seleccionar el tipo de actualización del proyecto](../../../manage-work/projects/manage-projects/select-project-update-type.md).

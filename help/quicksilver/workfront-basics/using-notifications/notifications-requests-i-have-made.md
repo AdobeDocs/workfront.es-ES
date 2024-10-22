@@ -6,9 +6,9 @@ description: Las siguientes notificaciones le permiten conocer las solicitudes q
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Se completó una tarea personal que asigné a otra persona</strong> </p> <p>Se envía una notificación al usuario que asignó una tarea ad hoc a otra persona cuando se completa esa tarea. </p> <p>Para obtener más información acerca de las tareas ad hoc, vea <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Crear elementos de trabajo y proyectos desde el área de [!UICONTROL Home]</a>.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>Finalización de tarea: &lt;Nombre de tarea&gt;</em></p> <p> <p>Nota: No puede configurar esta notificación para un correo electrónico de resumen diario.</p> </p> </td> 
+   <td> <p><strong>Se completó una tarea personal que asigné a otra persona</strong> </p> <p>Se envía una notificación al usuario que asignó una solicitud de trabajo personal a otra persona cuando se completa esa solicitud. </p>  <p>El asunto del correo electrónico de notificación instantánea es: <em>Finalización de tarea: &lt;Nombre de tarea&gt;</em></p> <p> <p>Nota: No puede configurar esta notificación para un correo electrónico de resumen diario.</p> </p> </td> 
    <td> Nombre de tarea<br>Nombre de proyecto predeterminado (proyecto personal del usuario que recibió la tarea personal)<br>Número de referencia de la tarea<br>Nombre del propietario de la tarea<br>Nuevo estado de la tarea<br>Fecha y hora en que se completó la tarea<br>Estado de la tarea anterior<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br><br><br></td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 

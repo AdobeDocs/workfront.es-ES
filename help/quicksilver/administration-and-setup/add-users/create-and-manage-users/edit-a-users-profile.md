@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       </li>
 
    </li> 
-       <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: marque esta opción si desea que todo lo que el usuario se asigne a sí mismo aparezca directamente en la lista Trabajando en del área de Inicio. El valor predeterminado es enumerar todo lo asignado a un usuario en sus listas Listo para comenzar o No listo en el área de Inicio.</li> 
+       <li><b>Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en</b>: Esta configuración hace referencia a una característica en desuso que se ha eliminado de Workfront.</li> 
        <li><b>Generar automáticamente revisiones al cargar documentos</b>: marque esta opción si quiere que los documentos que el usuario carga generen inmediatamente una revisión. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +153,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <li><b>Informes directos:</b> Si especificó una compañía para el usuario, también puede especificar los informes directos del usuario. Un usuario puede tener varios informes directos. Este campo no se muestra si el usuario no está asociado primero con una empresa.</li> 
       <li><b>Equipo doméstico</b>: especifique el equipo doméstico del usuario. Los usuarios solo pueden tener un equipo de inicio. El equipo de inicio es importante a la hora de asignar una plantilla de diseño o al definir el botón Trabajar en ello para las tareas y problemas asignados al usuario. </li> 
       <li><b>Otros equipos</b>: Los usuarios pueden pertenecer a varios equipos. Un usuario puede ver los elementos de trabajo asignados a cualquiera de sus equipos en el área de Inicio. </li> 
-      <li> <p><b>Grupo de inicio:</b> Seleccione un grupo apropiado para asignar al usuario. Esto ofrece al usuario la posibilidad de acceder a los objetos compartidos con el grupo. También puede compartir plantillas de diseño con el grupo de inicio del usuario.</p> <p>Este campo es obligatorio. Todos los usuarios deben estar asociados a un grupo de inicio. Si no selecciona uno, el grupo se asigna como el grupo de inicio del nuevo usuario.</p> <p><b>NOTA</b>:</p> 
+      <li> <p><b>Grupo de inicio:</b> Seleccione un grupo apropiado para asignar al usuario. Esto ofrece al usuario la posibilidad de acceder a los objetos compartidos con el grupo. También puede compartir plantillas de diseño con el grupo de inicio del usuario.</p> <p>Este campo es obligatorio. Todos los usuarios deben estar asociados a un grupo de inicio. Si no selecciona uno, el grupo de inicio se asignará como el grupo de inicio del nuevo usuario.</p> <p><b>NOTA</b>:</p> 
       <p> Puede asignar un grupo a un usuario solo si se cumple una de las siguientes condiciones:</p>
       <ul><li>usted es administrador de Workfront</li>
       <li>usted es el administrador del grupo</li>

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ La instancia de Workfront proporciona los siguientes estados de tareas:
   <tr> 
    <td>Completado (estado obligatorio)</td> 
    <td> <p>Puede marcar manualmente una tarea como completada cuando se complete el trabajo en ella.</p> <p>Cuando el modo de seguimiento de una tarea está establecido en Autocompletar, la tarea se marca automáticamente como Completada cuando alcanza la fecha planificada de finalización.</p> </td> 
-   <td> <p>Cuando se completa una tarea, el porcentaje completado de la tarea se marca como 100%. La tarea se elimina de la Lista de trabajos del usuario asignado en el área de Inicio cuando se completa.</p> <p>Cuando marca una tarea como Completada, la tarea muestra un valor para la Fecha real de finalización.</p> <p><b>NOTA</b>: Si la tarea tiene problemas incompletos y cambia el estado de la tarea a Completo, el estado cambiará automáticamente a Completo - Problemas pendientes.</p> </td> 
+   <td> <p>Cuando se completa una tarea, el porcentaje completado de la tarea se marca como 100%. La tarea se eliminará de la lista Mi trabajo del usuario asignado en el área de Inicio cuando se complete.</p> <p>Cuando marca una tarea como Completada, la tarea muestra un valor para la Fecha real de finalización.</p> <p><b>NOTA</b>: Si la tarea tiene problemas incompletos y cambia el estado de la tarea a Completo, el estado cambiará automáticamente a Completo - Problemas pendientes.</p> </td> 
   </tr> 
  </tbody> 
 </table>

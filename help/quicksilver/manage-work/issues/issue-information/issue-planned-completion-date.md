@@ -6,7 +6,7 @@ description: La fecha planificada de finalización de un problema es la fecha en
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 La fecha planificada de finalización de un problema es la fecha en la que se espera que se resuelva el problema.
 
-Puede especificar la fecha planificada de finalización de un problema o dejar que Adobe Workfront lo calcule en función de determinados criterios. 
+Puede especificar la fecha planificada de finalización de un problema o dejar que Adobe Workfront lo calcule en función de determinados criterios.
 
-Las Fechas planificadas de finalización de los problemas no afectan a la fecha planificada de finalización del proyecto. Solo las fechas planificadas de finalización de las tareas afectan a la fecha planificada de finalización del proyecto. Para obtener más información sobre la fecha planificada de finalización del proyecto, consulte [Establecer la fecha planificada de finalización del proyecto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Las Fechas planificadas de finalización de los problemas no afectan a la fecha planificada de finalización del proyecto. Solo las fechas planificadas de finalización de las tareas afectan a la fecha planificada de finalización del proyecto. Para obtener más información sobre la fecha planificada de finalización del proyecto, consulte [Establecer la fecha planificada de finalización del proyecto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Debe tener acceso de edición a Problemas y permisos de administración sobre el
 
 Puede establecer manualmente la fecha planificada de finalización de un problema en las siguientes áreas de Workfront:
 
-* En el cuadro Editar problema o en el área Detalles del problema al crear o editar un problema. Para obtener más información, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
+* En el cuadro Editar problema o en el área Detalles del problema al crear o editar un problema. Para obtener más información, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 * En el área de Inicio, si se muestra la Fecha planificada de finalización al ver un problema. Para obtener más información, vea [Actualizar o editar un elemento de trabajo en el área de inicio](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * En el encabezado del problema. Para obtener más información, consulte [Nuevos encabezados de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * En una lista de problemas o un informe cuando el campo Fecha planificada de finalización se muestra en la vista.
@@ -54,13 +54,13 @@ Cuando Workfront calcula la fecha planificada de finalización de un problema au
 
   La fecha de entrada y la fecha planificada de inicio deben coincidir en un problema la primera vez que lo cree.
 
-* Duración predeterminada según se ha configurado en la sección Detalles de cola del proyecto. Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Duración predeterminada según se ha configurado en la sección Detalles de cola del proyecto. Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
   Si la duración predeterminada es 0 días, la fecha planificada de finalización coincide con la fecha planificada de inicio del problema.
 
 * Programación del proyecto
 
-Cuando se establece automáticamente, la fecha planificada de finalización se determina según el siguiente cálculo: 
+Cuando se establece automáticamente, la fecha planificada de finalización se determina según el siguiente cálculo:
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ Se dan las siguientes situaciones:
 >
 >Workfront tiene en cuenta las excepciones de horario como los días festivos y los fines de semana al calcular las fechas planificadas de finalización.
 
- 
+

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Debe adquirir un plan de Workfront Planning, además de un plan de Workfront, para poder acceder y utilizar las funcionalidades de Workfront Planning.
 >
->Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso](/help/quicksilver/planning/access/access-overview.md).
+>Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 >Para obtener una descripción general de Workfront Planning, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
@@ -1259,7 +1259,7 @@ A continuación se indican los niveles de permisos para las vistas de registros:
 * Vista: Los usuarios pueden seleccionar la vista en el menú desplegable Ver de una página de tipo de registro.
 * Administrar: los usuarios pueden editar, compartir y eliminar la vista.
 
-Para obtener más información, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las funciones de Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obtener más información, vea [Información general sobre el acceso a la planeación de Adobes](/help/quicksilver/planning/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las capacidades de Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nuevo tipo de campo Fórmula
 

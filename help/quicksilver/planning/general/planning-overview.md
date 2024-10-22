@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2106'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 >* Licencia adicional para Workfront Planning.
 >* La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.
 >
-> Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso](/help/quicksilver/planning/access/access-overview.md).
+> Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Este artículo contiene información general sobre Workfront Planning.
@@ -168,7 +168,7 @@ Una vez que su organización haya adquirido una licencia para Workfront Planning
 
 * Asigne a los usuarios que necesiten acceder a Planning una plantilla de diseño que incluya Planning en el menú principal. Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) y [Asignar usuarios a una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Asigne a los usuarios una licencia de Workfront y permisos de Workfront Planning que le permitan 5554hview o crear objetos en Workfront Planning. Para obtener más información sobre cómo conceder acceso a Workfront Planning y permitir que otros lo usen, consulte [Descripción general del acceso](/help/quicksilver/planning/access/access-overview.md).
+* Asigne a los usuarios una licencia de Workfront y permisos de Workfront Planning que le permitan 5554hview o crear objetos en Workfront Planning. Para obtener más información acerca de cómo conceder acceso a Workfront Planning y permitir que otros lo usen, vea [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminología de Workfront Planning
 
@@ -321,7 +321,7 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
 ## Localizar Adobe Workfront Planning
 
-Para localizar la planificación de Adobe, asegúrese de que su organización ha recibido acceso a Workfront Planning y de que el administrador del sistema o del grupo ha añadido el área de planificación al menú principal. Para obtener más información, consulte [Resumen de acceso](/help/quicksilver/planning/access/access-overview.md).
+Para localizar la planificación de Adobe, asegúrese de que su organización ha recibido acceso a Workfront Planning y de que el administrador del sistema o del grupo ha añadido el área de planificación al menú principal. Para obtener más información, consulte [Descripción general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 Para localizar Workfront Planning:
 

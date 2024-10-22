@@ -7,9 +7,9 @@ description: Cuando planea estar fuera de la oficina por un corto período de ti
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Tenga en cuenta lo siguiente al delegar tareas y problemas:
   Para obtener más información, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Solo puede delegar tareas y problemas desde el área [!UICONTROL Inicio].
-* Existen excepciones para los siguientes tipos de licencia:
+* Al delegar trabajo, existen excepciones para los siguientes tipos de licencia:
 
    * Puede delegar el trabajo a revisores o solicitantes, aunque [!DNL Workfront] no lo recomienda.
    * Los revisores pueden delegar el trabajo a otros. No pueden ver elementos de trabajo en su área [!UICONTROL Principal]. Solo pueden ver las aprobaciones.

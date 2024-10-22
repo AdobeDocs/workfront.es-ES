@@ -6,9 +6,9 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,6 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    * Un encabezado de tarea o problema
    * El panel Resumen de tareas o problemas
    * <span class="preview">Nueva tarea</span> o nuevo cuadro de problema al agregar <span class="preview">una nueva tarea</span> o problema a un proyecto
-   * El campo Asignaciones de un elemento enumerado en el área de Inicio
    * Una tarea o un problema en el Distribuidor de cargas de trabajo
 
 1. Coloque el cursor en el campo Asignaciones y espere dos segundos.

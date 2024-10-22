@@ -7,9 +7,9 @@ description: Cuando una tarea está lista para iniciarse, Adobe Workfront agrega
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ Cuando la tarea está lista para trabajar, el campo Puede comenzar de la tarea e
 
 Workfront comprueba lo siguiente antes de marcar una tarea como True en el campo Puede comenzar:
 
-* Si la tarea tiene un elemento principal, comprueba si el valor de Puede comenzar para el elemento principal que estableció en Verdadero. Si el valor de la tarea principal es False, entonces todas las subtareas tendrán también el valor de Puede comenzar establecido en False. 
-* También comprueba si las tareas predecesoras de la tarea, así como las predecesoras de sus elementos primarios, están completas. Si están completas, el valor Puede comenzar para la tarea se establece en Verdadero. Si alguno de los predecesores de la tarea o de sus predecesores principales no está completo o tiene el estado de Completo-Pendiente de aprobación, el valor de Puede comenzar para la tarea se establece en Falso. 
+* Indica si el valor de Puede comenzar para el elemento principal se establece en Verdadero, si la tarea tiene un elemento principal. Si el valor de la tarea principal es False, entonces todas las subtareas tendrán también el valor de Puede comenzar establecido en False.
+* Si se han completado las tareas predecesoras de la tarea, así como las tareas predecesoras de sus padres. Si están completas, el valor Puede comenzar para la tarea se establece en Verdadero. Si alguno de los predecesores de la tarea o de sus predecesores principales no está completo o tiene el estado de Completo-Pendiente de aprobación, el valor de Puede comenzar para la tarea se establece en Falso.
+* Si el tipo de dependencia de la tarea es Comienzo-Comienzo o Comienzo-Fin. Si el tipo de dependencia es Comienzo-Comienzo o Comienzo-Fin, la tarea dependiente tendrá el indicador &quot;Puede comenzar&quot; establecido en Verdadero después de que la tarea principal esté en curso (o después de que el porcentaje completado de la tarea principal sea mayor que 1%). <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
 
   Para obtener información acerca de las tareas predecesoras, vea [Descripción general de las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

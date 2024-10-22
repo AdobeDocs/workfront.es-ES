@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: Crear tareas
-description: Puede crear tareas en un proyecto específico o puede crear tareas desde el área de Inicio.
+title: "Crear tareas: Índice de artículos"
+description: Puede crear tareas en un proyecto específico.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
-# Crear tareas
+# Crear tareas: índice de artículos
 
-Puede crear tareas en un proyecto específico o puede crear tareas desde el área de Inicio.
+<!--Audited: 10/2024-->
+
+Puede crear tareas en un proyecto específico en Adobe Workfront.
 
 Esta sección contiene los siguientes artículos:
 

@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configurar mis ajustes
 description: Tu perfil  [!DNL Adobe Workfront] contiene información sobre ti mismo (por ejemplo, tu nombre, dirección de correo electrónico, dirección, número de teléfono, título, etc.). También contiene información sobre tus interacciones con  [!DNL Workfront]  y otros usuarios de tu compañía.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -345,7 +345,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL Enviar trabajo asignado a mí mismo a mi ficha Trabajando en]</strong> </td> 
-   <td>Seleccione este campo para mostrar el trabajo que se está asignando directamente en la ficha [!UICONTROL Trabajando en] en lugar de la ficha [!UICONTROL Solicitudes de trabajo].</td> 
+   <td>Este campo hace referencia a una característica obsoleta que se ha eliminado de [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) Generar automáticamente pruebas al cargar documentos</strong></td> 

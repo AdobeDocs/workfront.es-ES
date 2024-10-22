@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 0%
+source-wordcount: '776'
+ht-degree: 1%
 
 ---
 
@@ -38,19 +38,20 @@ Según el área de Workfront desde la que acceda a la tarea o al problema, el bo
   >
   >Puede reemplazar el botón Trabajar en ello por un botón Iniciar. Para obtener información sobre cómo reemplazar el botón Trabajar en ello por un botón Iniciar, consulte [Reemplazar el botón Trabajar en ello por un botón Iniciar](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* Después de hacer clic en Trabajar en ello para aceptar, el botón cambia a Marcar como listo o Listo, según desde dónde acceda a la tarea o al problema en Workfront. Para obtener información sobre dónde puede obtener acceso al botón Trabajar en ello, vea la sección [Busque el botón Trabajar en ello y Listo](#locate-the-work-on-it-and-done-button) en este artículo.
+* Después de hacer clic en Aceptar para Trabajar en ello, el botón cambia a Marcar como hecho. Para obtener información sobre dónde puede obtener acceso al botón Trabajar en ello, vea la sección [Busque el botón Trabajar en ello y Listo](#locate-the-work-on-it-and-done-button) en este artículo.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* Si no es el único asignado a la tarea o al problema y está accediendo al elemento de trabajo desde la Lista de trabajos en el área de Inicio, el botón cambia a Listo con mi parte.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## Busque el botón Trabajar en ello y Listo {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-Puede localizar el botón Trabajar en ello y Listo en las siguientes áreas de Workfront:
+## Busque el botón Trabajar en ello y marque como hecho {#locate-the-work-on-it-and-done-button}
 
-* El área de Inicio, tanto en la Lista de trabajos como en el panel de detalles
+Puede localizar el botón Trabajar en ello y Marcar como listo en las siguientes áreas de Workfront:
+
+* El área de inicio del widget Mi trabajo
 
   Para obtener información sobre cómo marcar un elemento como Listo en el área de Inicio, vea [Marcar un elemento como Listo en el área de Inicio](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
@@ -58,13 +59,13 @@ Puede localizar el botón Trabajar en ello y Listo en las siguientes áreas de W
 
   Para obtener información acerca de los encabezados de objeto, vea [Nuevos encabezados de objeto](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-* En el panel Resumen de tareas o problemas de una lista o en el Distribuidor de cargas de trabajo
+* En el panel Resumen de tareas o problemas
 
   Para obtener información sobre el uso del Panel de resumen, consulte [Resumen general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Información general sobre los campos que se actualizan automáticamente al hacer clic en el botón Trabajar en ello y Listo
+## Información general sobre los campos que se actualizan automáticamente al hacer clic en el botón Trabajar en ello y Marcar como listo
 
-La ventaja de utilizar los botones Trabajar en ello y Listo es que puede permitir que Workfront actualice automáticamente la información sobre el elemento de trabajo que tiene asignado.
+La ventaja de utilizar los botones Trabajar en ello y Marcar como listo es que puede permitir que Workfront actualice automáticamente la información sobre el elemento de trabajo que tiene asignado.
 
 * [Botón Trabajar en ello](#work-on-it-button)
 * [Botón de inicio](#start-button)
@@ -111,7 +112,11 @@ Además de los campos que se actualizan al hacer clic en el botón Trabajar en e
 
 ### Botón Listo {#the-done-button}
 
-Si tiene acceso para editar equipos, puede configurar el botón Listo para que un equipo actualice los estados de la tarea o del problema cuando marque un elemento como completado. Cuando los usuarios con ese equipo como equipo de inicio hacen clic en el botón Listo en sus elementos, los siguientes campos se actualizan automáticamente en una tarea o problema:
+>[!NOTE]
+>
+>El botón Listo aparece como Marcar como listo en todas las áreas de Workfront.
+
+Si tiene acceso para editar equipos, puede configurar el botón Listo para que un equipo actualice los estados de la tarea o del problema cuando marque un elemento como completado. Cuando los usuarios con ese equipo como equipo de inicio hacen clic en el botón Marcar como completado en sus elementos, los siguientes campos se actualizan automáticamente en una tarea o problema:
 
 * Estado
 * El estado de asignación se actualiza de Trabajando a Listo

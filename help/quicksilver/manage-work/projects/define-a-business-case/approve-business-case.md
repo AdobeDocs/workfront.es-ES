@@ -5,16 +5,16 @@ description: Una vez completado y enviado el caso empresarial para una solicitud
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
 
 # Aprobar un caso comercial
 
-Una vez completado y enviado el caso empresarial para una solicitud de proyecto, el caso empresarial debe aprobarse. Esto depende del flujo de trabajo de su organización. Un proyecto puede iniciarse sin que sea necesario aprobar el caso empresarial, pero es posible que el administrador de Adobe Workfront y los propietarios del proyecto no lo consideren ideal. 
+Una vez completado y enviado el caso empresarial para una solicitud de proyecto, el caso empresarial debe aprobarse. Esto depende del flujo de trabajo de su organización. Un proyecto puede iniciarse sin que sea necesario aprobar el caso empresarial, pero es posible que el administrador de Adobe Workfront y los propietarios del proyecto no lo consideren ideal.
 
 Para obtener más información sobre cómo completar y enviar un caso empresarial, consulte el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -51,16 +51,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Tenga en cuenta lo siguiente al aprobar un caso empresarial de un proyecto:
 
-* Debe tener permisos de administración en un proyecto para aprobar el caso empresarial correspondiente. 
-* No podrá ver los proyectos que están esperando que el caso comercial sea aprobado bajo sus aprobaciones en Inicio.
+* Debe tener permisos de administración en un proyecto para aprobar el caso empresarial correspondiente.
+* No podrá ver los proyectos que están esperando a que el caso empresarial se apruebe en el widget Mis aprobaciones en Inicio.
 * Debe ir manualmente a los proyectos individuales que necesitan la aprobación de su caso empresarial para ver que están pendientes de aprobación. No hay ningún mecanismo de notificación de Workfront que alerte a alguien de que debe aprobar el caso empresarial de un proyecto.
-* Puede encontrar los proyectos que esperan la aprobación del caso empresarial creando un informe del proyecto o accediendo al portafolio con el que están asociados. 
+* Puede encontrar los proyectos que esperan la aprobación del caso empresarial creando un informe del proyecto o accediendo al portafolio con el que están asociados.
 
   Para obtener más información acerca de los Portfolio, consulte el artículo [Información general del Portfolio en Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Aprobar el caso comercial creando un informe de proyecto
 
-Puede generar un informe de proyectos para ver qué proyectos necesitan que se apruebe su caso comercial. 
+Puede generar un informe de proyectos para ver qué proyectos necesitan que se apruebe su caso comercial.
 
 Para generar un informe para los proyectos que están pendientes de la aprobación de sus casos comerciales:
 
@@ -72,23 +72,23 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 
 1. Empiece a escribir &quot;Estado&quot; en el campo **Mostrar en esta columna** y seleccione este campo cuando aparezca en la lista.
 
-    Esta columna muestra el estado de los proyectos.
+   Esta columna muestra el estado de los proyectos.
 
 1. Seleccione la ficha **Filtros** del informe y, a continuación, haga clic en **Agregar una regla de filtro**.
 
 1. Empiece a escribir &quot;Estado&quot; en **Mostrar solo los proyectos en los que el campo ...** y selecciónelo cuando aparezca en la lista.
 1. Seleccione **Equal** para el modificador de filtro.
-1. Empiece a escribir &quot;Solicitado&quot; en el campo disponible. 
+1. Empiece a escribir &quot;Solicitado&quot; en el campo disponible.
 
    Esto garantiza que el informe incluya solo los proyectos que están en el estado Solicitado.
 
-     ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
+   ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
 1. (Opcional) Haga clic en **Agregar otra regla de filtro**.
 
    Puede añadir filtros adicionales para mostrar solo los proyectos en los que sea el propietario del proyecto, el patrocinador del proyecto o el propietario del Portfolio.
 
-   Por ejemplo, puede utilizar las siguientes instrucciones de filtro: 
+   Por ejemplo, puede utilizar las siguientes instrucciones de filtro:
 
    ```
    Project Sponsor ID Equals $$USER.ID
@@ -106,7 +106,7 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   para mostrar dónde se le designa como administrador de Portfolio. 
+   para mostrar dónde se le designa como administrador de Portfolio.
 
 1. Haga clic en **Guardar+Cerrar**.
 

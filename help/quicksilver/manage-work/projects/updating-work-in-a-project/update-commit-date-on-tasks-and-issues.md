@@ -6,7 +6,7 @@ description: Puede actualizar manualmente la fecha de confirmación de una tarea
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -95,7 +95,7 @@ La actualización de la fecha de confirmación es idéntica para las tareas y lo
 >Para obtener más información, consulte los siguientes artículos:
 >
 >* [Resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Personalizar inicio y resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Personalizar el panel de resumen mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. Vaya a una tarea o problema al que esté asignado como **Propietario**.

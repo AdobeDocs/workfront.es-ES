@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 2%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 2%
          * [Información general sobre la duración original de la tarea y las horas planificadas originales](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Diferencia entre la duración planificada y la duración de las tareas](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Crear tareas {#create-tasks}
-         * [Crear tareas](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [Crear tareas: índice de artículos](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Información general sobre Crear tareas](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Creación de tareas en un proyecto](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Creación de subtareas](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 2%
       * [Resumen del campo principal](planning/fields/primary-field-overview.md)
    * Acceso a Adobe Workfront Planning {#adobe-workfront-planning-access}
       * [Información de acceso de Adobe Workfront Planning: índice de artículo](planning/access/access-information.md)
-      * [Acceso a información general](planning/access/access-overview.md)
+      * [Información general sobre el acceso a Adobe Workfront Planning](planning/access/access-overview.md)
       * [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
       * [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Compartir espacios de trabajo](planning/access/share-workspaces.md)
