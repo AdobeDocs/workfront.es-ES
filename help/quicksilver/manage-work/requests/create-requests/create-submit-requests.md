@@ -6,9 +6,9 @@ description: El trabajo planificado se representa en Adobe Workfront mediante pr
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Un administrador de Workfront debe crear los siguientes componentes de una cola 
   Para obtener más información, consulte el artículo [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Opcional) Solicite un formulario personalizado.\
-  Para obtener más información, vea el artículo [Diseño de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obtener más información, consulte el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * (Opcional) Solicite el proceso de aprobación.\
   Para obtener más información, vea el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -343,7 +343,7 @@ Puede enviar solicitudes utilizando cualquier aplicación que se haya integrado 
   Para obtener más información acerca de las integraciones de Workfront personalizadas, consulte el artículo [Integraciones de Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * Puede enviar solicitudes desde Salesforce si ha instalado la aplicación de Workfront para Salesforce.\
-  Para obtener información sobre cómo enviar solicitudes desde Salesforce usando nuestra aplicación Workfront para Salesforce, consulte el artículo [Enviar solicitudes de Adobe Workfront desde objetos de Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Para obtener información sobre cómo enviar solicitudes desde Salesforce usando nuestra aplicación Workfront para Salesforce, consulte el artículo [Enviar solicitudes Adobe Workfront desde objetos Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Localizar solicitudes enviadas
 

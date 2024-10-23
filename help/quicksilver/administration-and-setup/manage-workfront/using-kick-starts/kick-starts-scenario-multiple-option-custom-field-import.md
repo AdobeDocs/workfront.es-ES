@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
@@ -210,7 +210,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
    El valor de un campo es el nombre que aparece en los informes, por ejemplo, mientras que el nombre se muestra en los formularios personalizados adjuntos a los objetos.
 
-   Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -231,7 +231,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
    * **`setParameterID`** = las opciones correspondientes al campo personalizado _Marca_ tienen un **`setParameterID`** de 1, y las opciones correspondientes a _Medios_ tienen un **`setParameterID`**de 2. Las hojas `PARAM` y `POPT` se hacen referencia entre sí para indicar qué opciones pertenecen a cada campo personalizado.
    * **`setDisplayOrder`**= la columna de orden de visualización indica el orden en que se mostrarán las opciones en el campo personalizado. Puede comenzar con 1 y continuar en orden ascendente para todas las opciones, independientemente de los campos a los que pertenezcan. Lo importante aquí es tener números únicos para cada opción.
-   * Las columnas **`setLabel`** y `**setValue`** generalmente contienen la misma información y deben reflejar los nombres deseados en la interfaz de usuario de Workfront. El valor de una opción es el nombre que se muestra en los informes, por ejemplo, mientras que la etiqueta se muestra en los formularios personalizados cuando se adjunta a un objeto. Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Las columnas **`setLabel`** y `**setValue`** generalmente contienen la misma información y deben reflejar los nombres deseados en la interfaz de usuario de Workfront. El valor de una opción es el nombre que se muestra en los informes, por ejemplo, mientras que la etiqueta se muestra en los formularios personalizados cuando se adjunta a un objeto. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = escriba `TRUE` si desea que cualquiera de las opciones esté oculta.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -296,7 +296,7 @@ Después de realizar los pasos descritos en las secciones anteriores, continúe 
    >Los nuevos formularios y los campos importados aún no están conectados. El formulario se importará sin campos personalizados. Debe agregar manualmente los campos al nuevo formulario personalizado o a otro formulario personalizado existente.
 
 
-   Para obtener información acerca de cómo agregar campos a formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Para obtener información sobre cómo agregar campos a formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Condicional) Si la importación no se realizó correctamente, recibirá un mensaje de error con el problema. Intente identificar el campo, la hoja y el número de fila en los que se encontró el problema, corrija la información en el archivo de Excel y, a continuación, intente importar el archivo una vez más.
 

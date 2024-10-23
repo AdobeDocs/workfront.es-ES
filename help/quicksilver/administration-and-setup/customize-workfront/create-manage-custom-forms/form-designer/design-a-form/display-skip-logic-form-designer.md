@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Seleccione un campo con lógica aplicada para mostrar las reglas lógicas existe
 ## Consideraciones para utilizar la lógica de visualización y la lógica de omisión
 
 * Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación) antes de él en el formulario.
-Para obtener información acerca de los campos y widgets personalizados en los formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * No se puede agregar lógica de omisión a un widget o salto de sección. Solo puede agregarlo a un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación).
 * Puede agregar lógica de visualización y lógica de omisión a un campo personalizado si se cumplen todas las condiciones siguientes en relación con el campo personalizado:
 
@@ -98,7 +98,7 @@ La lógica de visualización define qué campos personalizados aparecen en el fo
 {{step-1-to-setup}}
 
 1. Haga clic en **Forms personalizado**.
-1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
 1. Agregue campos al formulario según sea necesario. Al menos un campo de opción múltiple (botón de opción, lista desplegable o casilla de verificación) debe colocarse antes del campo de destino que se va a mostrar.
 1. Seleccione el campo de destino y haga clic en **Agregar lógica** en la parte inferior izquierda de la pantalla.
 1. Seleccione la ficha **Lógica de visualización**.
@@ -128,7 +128,7 @@ La lógica de omisión define campos de formulario personalizados que se omiten 
 {{step-1-to-setup}}
 
 1. Haga clic en **Forms personalizado**.
-1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
 1. Agregue campos al formulario según sea necesario. El campo de definición para la lógica de omisión debe ser un campo de selección múltiple (botón de opción, lista desplegable o casilla de verificación).
 1. Seleccione el campo de definición y haga clic en **Agregar lógica** en la parte inferior izquierda de la pantalla.
 1. Seleccione la ficha **Omitir lógica**.

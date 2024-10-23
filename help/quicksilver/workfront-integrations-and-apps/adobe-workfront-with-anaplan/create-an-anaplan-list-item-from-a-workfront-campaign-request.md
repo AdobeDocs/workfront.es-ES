@@ -6,10 +6,10 @@ description: Este escenario de integración vincula un  [!DNL Adobe Workfront] p
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 1%
+source-wordcount: '729'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</td> 
   </tr> 
  </tbody> 
@@ -112,7 +112,7 @@ Debe tener lo siguiente en [!DNL Workfront] para utilizar este escenario:
    </tbody> 
   </table>
 
-  Para obtener información sobre cómo crear formularios personalizados, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Un proyecto configurado como cola de solicitudes para capturar nuevas solicitudes de campaña. El formulario [!UICONTROL Resumen de campaña] debe adjuntarse a estas solicitudes.
 

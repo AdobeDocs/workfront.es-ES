@@ -7,9 +7,9 @@ description: Con un campo personalizado calculado, puede mostrar el nombre del a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Los siguientes pasos muestran cómo se puede crear un campo calculado para un fo
 
    Para obtener información sobre cómo crear un formulario personalizado y agregarle campos calculados, consulte los siguientes artículos:
 
-   * [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Creación de un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Adición de campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. Copie y pegue el siguiente código de modo de texto en el campo **Cálculo** del formulario personalizado:

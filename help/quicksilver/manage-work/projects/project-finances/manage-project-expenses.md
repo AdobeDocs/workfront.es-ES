@@ -6,9 +6,9 @@ description: El proceso de creación y administración de gastos es el mismo par
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Se muestra el cuadro de diálogo **Agregar un gasto**.
    * **Facturable:** Seleccione esta opción si desea facturar este gasto. Categorizar un gasto como facturable es importante al crear registros de facturación.
    * **Reembolsable:** Seleccione esta opción si es necesario reembolsar el gasto. A continuación, puede marcar el gasto como reembolsado después de que se haya reembolsado el gasto.
 
-1. Seleccione un **formulario personalizado** y especifique la información adicional que necesite. Debe crear un formulario personalizado para poder asociarlo a un gasto. En la lista solo se muestran los formularios personalizados activos. Para obtener información acerca de cómo crear formularios personalizados, vea el artículo [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Seleccione un **formulario personalizado** y especifique la información adicional que necesite. Debe crear un formulario personalizado para poder asociarlo a un gasto. En la lista solo se muestran los formularios personalizados activos. Para obtener información acerca de cómo crear formularios personalizados, vea el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Haga clic en **Guardar cambios**.
 

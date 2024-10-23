@@ -6,9 +6,9 @@ description: Este artículo describe las áreas del caso empresarial de un proye
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1603'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Para obtener más información sobre cómo habilitar las áreas del caso empresa
 
 Para aplicar un formulario personalizado, el administrador de Workfront debe crear primero un formulario personalizado.
 
-Para obtener más información sobre cómo crear un formulario personalizado, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obtener más información sobre cómo crear un formulario personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Puede utilizar formularios personalizados para recopilar información adicional que no se muestre en los demás campos del caso empresarial.
 

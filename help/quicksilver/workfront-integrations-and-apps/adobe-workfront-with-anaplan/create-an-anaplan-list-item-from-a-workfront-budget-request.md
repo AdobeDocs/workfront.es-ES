@@ -6,9 +6,9 @@ description: Este escenario de integración vincula un  [!DNL Adobe Workfront] p
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    <td> <p>[!UICONTROL Workfront Fusion para automatización e integración de trabajo] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</td> 
   </tr>
  </tbody> 
@@ -99,7 +99,7 @@ Debe tener lo siguiente en [!DNL Workfront] para utilizar este escenario:
    </tbody> 
   </table>
 
-  Para obtener información sobre cómo crear formularios personalizados, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Plantillas de proyecto que representan campañas y otros proyectos que requieren financiación, configuradas con un tema de cola [!UICONTROL Solicitud de presupuesto]. El tema de la cola [!UICONTROL Solicitud de presupuesto] está asignado para usar el formulario personalizado [!UICONTROL Solicitud de presupuesto].
 * Un formulario **[!UICONTROL Resumen de campaña]** para el objeto de proyecto.
@@ -141,7 +141,7 @@ Debe tener lo siguiente en [!DNL Workfront] para utilizar este escenario:
    </tbody> 
   </table>
 
-  Para obtener información sobre cómo crear formularios personalizados, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Configuración [!DNL Anaplan] esperada
 

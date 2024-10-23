@@ -5,9 +5,9 @@ title: Trabajo entre zonas horarias
 description: Puede ser útil entender cómo  [!DNL Adobe Workfront] usa las zonas horarias para calcular los campos de hora de los objetos y las horas en otras áreas, como los correos electrónicos.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Para obtener más información, consulte [Agregar campos calculados a un formula
 
 Si no desea que [!DNL Workfront] convierta las horas configuradas en un objeto para usuarios de diferentes zonas horarias, puede utilizar un campo de texto en un formulario personalizado que adjunte a un objeto, en lugar de un campo de fecha. De este modo, la hora muestra la hora a la que escribe para todos los integrantes del proyecto.
 
-Si lo hace, le recomendamos que recuerde a los usuarios del formulario que calculen la diferencia entre su huso horario y el suyo para que puedan determinar cuándo debe comenzar y finalizar el trabajo. Puede incluirlo en las instrucciones que escriba para el formulario personalizado o en la información del objeto de ese campo. Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Si lo hace, le recomendamos que recuerde a los usuarios del formulario que calculen la diferencia entre su huso horario y el suyo para que puedan determinar cuándo debe comenzar y finalizar el trabajo. Puede incluirlo en las instrucciones que escriba para el formulario personalizado o en la información del objeto de ese campo. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

@@ -6,10 +6,10 @@ description: Este escenario de integración comparte el progreso, el estado y lo
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    <td> <p>Workfront Fusion para la automatización e integración del trabajo </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</td> 
   </tr> 
  </tbody> 
@@ -101,7 +101,7 @@ Debe tener lo siguiente en [!DNL Workfront] para utilizar este escenario:
    </tbody> 
   </table>
 
-  Para obtener información sobre cómo crear formularios personalizados, consulte [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 <!--
 <note type="note">  

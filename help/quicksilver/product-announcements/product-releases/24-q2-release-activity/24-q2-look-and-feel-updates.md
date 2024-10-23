@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ Las plantillas de correo electrónico para añadir un aprobador a un recurso y p
 
 Hemos actualizado las pestañas de Forms, Campos y Secciones en el área Configuración > Forms personalizado para lograr un diseño más moderno y coherente con otras áreas de Workfront. Ahora puede acceder a las tres áreas desde el menú de navegación de la izquierda. Los filtros, las vistas y las agrupaciones siguen estando disponibles para las listas. El diseño actualizado se aplica a los formularios, campos y secciones personalizados creados tanto en el nuevo diseñador de formularios como en el generador de formularios heredados.
 
-Para obtener más información, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

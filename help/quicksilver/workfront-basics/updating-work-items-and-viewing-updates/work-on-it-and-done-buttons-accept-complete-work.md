@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ Los botones Trabajar en ello y Listo están visibles para los usuarios que tiene
 
 * Una licencia estándar (nueva) o una licencia de planificación o de trabajo (actual)
 * Acceso de edición limitado o superior en la tarea o el problema
+
+>[!NOTE]
+>
+>El botón Listo aparece como Marcar como listo en todas las áreas de Workfront.
 
 ## Trabajar en ello y nombres de los botones Listo
 
@@ -47,9 +51,9 @@ Según el área de Workfront desde la que acceda a la tarea o al problema, el bo
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## Busque el botón Trabajar en ello y marque como hecho {#locate-the-work-on-it-and-done-button}
+## Busque el botón Trabajar en ello y Listo {#locate-the-work-on-it-and-done-button}
 
-Puede localizar el botón Trabajar en ello y Marcar como listo en las siguientes áreas de Workfront:
+Puede localizar el botón Trabajar en ello y Listo en las siguientes áreas de Workfront:
 
 * El área de inicio del widget Mi trabajo
 
@@ -63,9 +67,9 @@ Puede localizar el botón Trabajar en ello y Marcar como listo en las siguientes
 
   Para obtener información sobre el uso del Panel de resumen, consulte [Resumen general](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Información general sobre los campos que se actualizan automáticamente al hacer clic en el botón Trabajar en ello y Marcar como listo
+## Información general sobre los campos que se actualizan automáticamente al hacer clic en los botones Trabajar en ello o Listo
 
-La ventaja de utilizar los botones Trabajar en ello y Marcar como listo es que puede permitir que Workfront actualice automáticamente la información sobre el elemento de trabajo que tiene asignado.
+La ventaja de utilizar los botones Trabajar en ello y Listo es que puede permitir que Workfront actualice automáticamente la información sobre el elemento de trabajo que tiene asignado.
 
 * [Botón Trabajar en ello](#work-on-it-button)
 * [Botón de inicio](#start-button)
@@ -111,10 +115,6 @@ Además de los campos que se actualizan al hacer clic en el botón Trabajar en e
 >
 
 ### Botón Listo {#the-done-button}
-
->[!NOTE]
->
->El botón Listo aparece como Marcar como listo en todas las áreas de Workfront.
 
 Si tiene acceso para editar equipos, puede configurar el botón Listo para que un equipo actualice los estados de la tarea o del problema cuando marque un elemento como completado. Cuando los usuarios con ese equipo como equipo de inicio hacen clic en el botón Marcar como completado en sus elementos, los siguientes campos se actualizan automáticamente en una tarea o problema:
 

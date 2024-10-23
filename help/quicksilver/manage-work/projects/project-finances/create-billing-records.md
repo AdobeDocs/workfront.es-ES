@@ -5,9 +5,9 @@ description: Además de configurar los ingresos y los gastos de seguimiento, pue
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1931'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Tenga en cuenta lo siguiente cuando planee utilizar registros de facturación:
 
 1. (Opcional) En **Forms personalizado**, seleccione el formulario personalizado de registros de facturación que desee agregar al registro de facturación.
 
-   Usted (u otro usuario con acceso a formularios personalizados) debe crear un formulario personalizado de registros de facturación para poder seleccionarlo aquí. En la lista solo se muestran los formularios personalizados activos. Para obtener información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Usted (u otro usuario con acceso a formularios personalizados) debe crear un formulario personalizado de registros de facturación para poder seleccionarlo aquí. En la lista solo se muestran los formularios personalizados activos. Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Puede repetir este paso para agregar otros formularios personalizados que necesite para el registro de facturación.
 

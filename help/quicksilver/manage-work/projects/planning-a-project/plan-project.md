@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Considere la posibilidad de hacer las siguientes preguntas:
   Para obtener más información sobre cómo definir qué actualizaciones rastrear en Workfront, consulte el artículo [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * ¿Hay alguna información que se le pida que rastree que no tenga un campo en Workfront en el que almacenarlo? Si es así, cree Forms personalizado para proyectos o tareas en los que pueda almacenar esta información.\
-  Para obtener más información sobre la creación de formularios personalizados, vea el artículo [Diseño de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Para obtener más información sobre la creación de formularios personalizados, consulte el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * ¿Hay algún punto de comprobación de aprobación que deba otorgarse antes de que pueda continuar el trabajo en un proyecto? Si es así, cree procesos de aprobación para proyectos o tareas que pueda utilizar mientras crea el proyecto.\
   Para obtener más información acerca de los procesos de aprobación, vea el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

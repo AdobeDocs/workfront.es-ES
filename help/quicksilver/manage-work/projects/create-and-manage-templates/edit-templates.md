@@ -6,9 +6,9 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '4726'
+source-wordcount: '4720'
 ht-degree: 2%
 
 ---
@@ -771,7 +771,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Haga clic dentro del campo **Agregar formulario personalizado** y seleccione el formulario o formularios personalizados que desee asociar con la plantilla. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
 
-   En la lista solo se muestran los formularios personalizados activos. Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Puede agregar hasta diez formularios personalizados a una plantilla.
 
@@ -927,7 +927,7 @@ Para obtener información acerca de cómo afecta esta configuración a la creaci
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. En el cuadro **Proceso de aprobación predeterminado de tarea**, seleccione el proceso de aprobación que desee asociar con todas las tareas nuevas cuando las agregue a un proyecto creado a partir de esta plantilla. Debe crear un Proceso de aprobación para las tareas antes de poder asociarlo a las tareas. En la lista solo se muestran los procesos de aprobación activos. Para obtener más información sobre la creación de procesos de aprobación, consulte [Creación de procesos de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. En el cuadro **Forms personalizado predeterminado de tarea**, seleccione el formulario o formularios personalizados que desee asociar con todas las tareas nuevas cuando los agregue a un proyecto creado a partir de esta plantilla. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información acerca de cómo crear formularios personalizados, vea [Diseñar un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede asociar hasta diez formularios personalizados a una tarea.
+1. En el cuadro **Forms personalizado predeterminado de tarea**, seleccione el formulario o formularios personalizados que desee asociar con todas las tareas nuevas cuando los agregue a un proyecto creado a partir de esta plantilla. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede asociar hasta diez formularios personalizados a una tarea.
 1. (Opcional) Seleccione **Usar esfuerzo de trabajo para calcular automáticamente las horas planificadas para la tarea** si desea habilitar la administración del esfuerzo de la tarea mediante esfuerzo de trabajo en lugar de horas planificadas en el proyecto creado a partir de la plantilla.
 1. (Condicional y opcional) Si seleccionó Usar esfuerzo de trabajo para calcular automáticamente las horas planificadas para la tarea, haga clic en el menú desplegable para actualizar el porcentaje de cada nivel de esfuerzo de trabajo. Los siguientes valores de porcentaje son los predeterminados:
 

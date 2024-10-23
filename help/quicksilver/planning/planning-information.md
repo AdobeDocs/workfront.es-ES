@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Las secciones siguientes contienen artículos que describen en detalle las funci
    * Administrar el diseño de una página de registro
    * Registrar comentarios y sección Historial
    * Compartir registros
-   * Sección de planificación de Workfront para objetos de Workfront
+   * Administrar registros de Workfront Planning desde Workfront
 
 * [Solicitudes de Adobe Workfront Planning: el índice de artículos](/help/quicksilver/planning/requests/requests-article-index.md) contiene la siguiente información:
 

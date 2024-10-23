@@ -6,9 +6,9 @@ description: Un informe de calendario es un informe dinámico que proporciona un
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-1. Debe tener campos de fecha personalizados y un valor dentro del campo disponibles en la instancia [!DNL Workfront]. Si no tiene un formulario personalizado configurado con fechas personalizadas, siga las instrucciones de [Diseño de un formulario con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Debe tener campos de fecha personalizados y un valor dentro del campo disponibles en la instancia [!DNL Workfront]. Si no tienes un formulario personalizado configurado con fechas personalizadas, sigue las instrucciones de [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Adjunte el formulario personalizado a un proyecto, tarea o problema que planee agregar al calendario y especifique una fecha. Para obtener más información, vea [Agregar un formulario personalizado a un objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Configurar el grupo de elementos
