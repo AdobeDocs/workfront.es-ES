@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b2c15f53602fd250ef490fd06a032fa80ccdcd7
+source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,6 @@ Puede agregar el nuevo campo a los formularios para todos los tipos de objetos. 
 Aún no está disponible la edición masiva de los campos de conexión de Planning para objetos de Workfront.
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3435633/){target=_blank}
 
