@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] documentación'
 description: Documentación de  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,16 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 >[!TAB Última versión]
 
+* [Información general sobre la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [Resumen de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-* [Actividad de la versión del cuarto trimestre de 2024 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+* [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+
+>[!TAB Versiones de 2025]
+
+* [Información general sobre la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+
 
 >[!TAB Versiones de 2024]
 
@@ -32,6 +38,7 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 * [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Resumen de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Actividad de la versión del cuarto trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB Beta]
 

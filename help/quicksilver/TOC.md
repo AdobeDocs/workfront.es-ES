@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
+source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
 workflow-type: tm+mt
-source-wordcount: '14518'
+source-wordcount: '14549'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 2%
       * [Resumen de versiones del producto](product-announcements/product-releases/product-releases.md)
       * [Programación y proceso de la versión de Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * Versión del primer trimestre de 2025 {#release-25-q1}
+         * [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Versión {#release-24-q4} del cuarto trimestre de 2024
          * [Información general sobre la versión 2024, cuarto trimestre](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [Mejoras de administrador en el cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
@@ -175,6 +178,7 @@ ht-degree: 2%
          * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Actividad de la versión {#fusion-release} de Adobe Workfront Fusion
          * [Actividad de la versión de Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Actividad de la versión de Workfront Fusion: Semana del 21 de octubre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 7 de octubre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 30 de septiembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 9 de septiembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
@@ -259,6 +263,7 @@ ht-degree: 2%
          * [Actividad de la versión de Workfront Fusion: Semana del 21 de septiembre de 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
       * Actividad de la versión {#planning-release-activity} de Adobe Workfront Planning
          * [Actividad de versión de Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Actividad de la versión del primer trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Actividad de la versión del cuarto trimestre de 2024 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Actividad de la versión {#scenario-planner-release} del planificador de escenarios Adobe Workfront
          * [Actividad de la versión del planificador de escenarios Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
