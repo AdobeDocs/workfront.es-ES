@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,12 @@ Hemos actualizado la interfaz del informe para que coincida con el diseño de ot
 
 * Se ha añadido una paleta de colores expandida para las reglas de formato condicional en los informes. Para obtener más información acerca del formato condicional, vea [Usar formato condicional en las vistas](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 * Se ha añadido el nuevo botón &quot;Editar modo de texto&quot; para introducir el modo de texto al editar una columna en Report Builder. Para obtener más información acerca de cómo editar vistas de informes en modo de texto, vea [Editar una vista en modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Ya no puede editar el título de un informe haciendo clic en él. Puede seguir editando el título de un informe si hace clic en Acciones de informe > Editar y, a continuación, cambia el título. Para obtener más información sobre cómo editar informes, consulte [Editar la configuración del informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+* Ya no puede crear una agrupación haciendo clic en el nombre de una columna en el generador de agrupaciones. Puede seguir creando una agrupación basada en una columna existente de un informe seleccionando el campo correspondiente en la lista Agrupar por: campo. Para obtener más información sobre cómo crear agrupaciones, consulte [Crear agrupaciones en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * Se ha agregado un nuevo conmutador a la interfaz de filtro de informes para cambiar entre un selector de fecha de calendario y un campo de texto comodín de fecha relativa al filtrar por un campo de fecha. Además, al seleccionar un acceso directo de comodín de fecha relativa en la interfaz de filtro de informes, ahora se rellenan automáticamente los campos comodín asociados en función de su selección. Para obtener más información sobre el uso de caracteres comodín de fecha relativa en los filtros de informe, vea [Usar caracteres comodín basados en fecha para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 * Los comodines basados en usuarios de los filtros de informe ahora sugieren comodines relevantes para el autocompletado en función del tipo de campo seleccionado. Para obtener más información sobre los comodines basados en usuarios en los filtros de informe, consulte [Usar comodines basados en usuarios para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 * Ahora, los informes con indicadores compartidos públicamente se mostrarán sin indicadores aplicados a todos los usuarios que accedan a ellos a través del vínculo compartido público. Los usuarios que hayan iniciado sesión y que accedan directamente al informe aún podrán aplicar indicadores. Para obtener información acerca de las solicitudes de informes, vea [Agregar una solicitud a un informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-* Cambios en informes existentes que mejoran su compatibilidad con paneles de lienzo.
+* Hemos realizado cambios en los informes existentes que mejoran su compatibilidad con los paneles de lienzo.
 
 _Estas actualizaciones se están implementando gradualmente en el proceso de producción a partir de la versión de 24.10 del 17 de octubre de 2024. Al principio, los cambios estarán disponibles solo para un pequeño número de clientes, y con el tiempo estarán cada vez más disponibles hasta que estén disponibles por completo para todos los clientes antes del 8 de noviembre de 2024._
 
@@ -58,9 +60,9 @@ _Estas actualizaciones se están implementando gradualmente en el proceso de pro
 
 Hemos actualizado las vistas, agrupaciones e interfaces de filtros heredados en listas para que coincidan con el diseño de otras áreas de Workfront. Estas actualizaciones incluyen cambios adicionales en las vistas, agrupaciones y filtros heredados de las listas:
 
-* Paleta de colores expandida para reglas de formato condicional en informes. Para obtener más información acerca del formato condicional, vea [Usar formato condicional en las vistas](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-* Un nuevo botón &quot;Editar modo de texto&quot; para introducir el modo de texto al editar una columna mientras se crea una nueva vista. Para obtener más información acerca de cómo editar vistas en modo de texto, vea [Editar una vista en modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
-* Se ha incluido un nuevo conmutador en la interfaz de filtro heredada para cambiar entre un selector de fecha de calendario y un campo de texto comodín de fecha relativa al filtrar por un campo de fecha. Además, al seleccionar un acceso directo de comodín de fecha relativa en la interfaz de filtro de informes, ahora se rellenan automáticamente los campos comodín asociados en función de su selección.
+* Se ha añadido una paleta de colores expandida para las reglas de formato condicional en los informes. Para obtener más información acerca del formato condicional, vea [Usar formato condicional en las vistas](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Hemos añadido un nuevo botón &quot;Editar modo de texto&quot; para introducir el modo de texto al editar una columna mientras se crea una nueva vista. Para obtener más información acerca de cómo editar vistas en modo de texto, vea [Editar una vista en modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* Se ha añadido un nuevo conmutador a la interfaz de filtro heredada para cambiar entre un selector de fecha de calendario y un campo de texto comodín de fecha relativa al filtrar por un campo de fecha. Además, al seleccionar un acceso directo de comodín de fecha relativa en la interfaz de filtro de informes, ahora se rellenan automáticamente los campos comodín asociados en función de su selección.
 * Los caracteres comodín basados en usuarios de los filtros heredados ahora sugieren caracteres comodín relevantes para el completado automático en función del tipo de campo seleccionado. Para obtener más información sobre el uso de filtros heredados, consulte [Crear o editar filtros en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 _Estas actualizaciones se están implementando gradualmente en el proceso de producción a partir de la versión de 24.10 del 17 de octubre de 2024. Al principio, los cambios estarán disponibles solo para un pequeño número de clientes, y con el tiempo estarán cada vez más disponibles hasta que estén disponibles por completo para todos los clientes antes del 8 de noviembre de 2024._
