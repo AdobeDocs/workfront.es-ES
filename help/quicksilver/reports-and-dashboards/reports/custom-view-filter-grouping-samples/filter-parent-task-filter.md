@@ -7,14 +7,16 @@ description: Puede aplicar los filtros de tareas a continuación para mostrar la
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
 # Filtro: mostrar tareas principales
+
+<!--Audited: 10/2024-->
 
 Puede aplicar los filtros de tareas a continuación para mostrar las tareas de trabajo. Las tareas de trabajo son tareas que se pueden trabajar de forma independiente y no son tareas principales a otras tareas. En un ejemplo, un filtro identifica las tareas hijas que podrían ser los propios padres. En este caso, no son tareas de trabajo.
 
@@ -26,6 +28,8 @@ Puede aplicar los filtros de tareas a continuación para mostrar las tareas de t
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -33,47 +37,53 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud para modificar un filtro </p>
-   <p>Plan para modificar un informe</p> </td> 
+   <td> 
+    <p>Nuevo:</p>
+   <ul><li><p>Colaborador para modificar un filtro </p></li>
+   <li><p>Estándar para modificar un informe</p></li> </ul>
+
+<p>Actual:</p>
+   <ul><li><p>Solicitud para modificar un filtro </p></li>
+   <li><p>Plan para modificar un informe</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr>
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mostrar tareas sin tareas secundarias (podrían tener una principal)
 
-Puede aplicar el siguiente filtro a un informe de tareas para mostrar tareas sin tareas secundarias. Podrían tener padres propios y ser hijos de otras tareas.
+Puede aplicar el siguiente filtro a un informe de tareas para mostrar tareas sin tareas secundarias. Podrían tener padres propios y ser hijos de otras tareas.
 
-1. En el **menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes.**
+1. En el **Menú principal** ![](assets/main-menu-icon.png) de la esquina superior derecha o en el **Menú principal** ![](assets/lines-main-menu.png) de la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe**.
 1. Seleccionar un **informe de tareas**.
 1. Haga clic en **Filtros**.
 1. Haga clic en **Agregar una regla de filtro**.
-1. En la línea **Empiece a escribir el nombre del campo...**, empiece a escribir **Número de elementos secundarios**.
+1. En la línea **Empiece a escribir el nombre del campo ...**, empiece a escribir **Número de elementos secundarios** y, a continuación, haga clic en **Tarea >> Número de elementos secundarios** cuando se muestre en la lista.
 
 1. Seleccione **Igual (distingue mayúsculas y minúsculas)** para el modificador y, a continuación, escriba **0** para el número de elementos secundarios.\
    ![](assets/parent-task-filter-from-the-ui-350x76.png)
 
    O
 
-   Haga clic en **Cambiar al modo de texto** y, en la ventana de edición de texto, copie y pegue el texto siguiente: 
+   Haga clic en **Cambiar al modo de texto** y, en la ventana de edición de texto, copie y pegue el texto siguiente
 
    ```
    numberOfChildren=0
@@ -89,12 +99,13 @@ Puede aplicar el siguiente filtro a un informe de tareas para mostrar tareas sin
 
 Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas con los padres, lo que significa que son tareas secundarias. Sin embargo, estas tareas también podrían tener elementos secundarios propios porque el filtro no excluye a sus elementos secundarios. Las tareas de los niños que también son padres para otras tareas no se consideran tareas laborales.
 
-1. En el **Menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes.
+1. En el **Menú principal** ![](assets/main-menu-icon.png) de la esquina superior derecha o en el **Menú principal** ![](assets/lines-main-menu.png) de la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
+
 1. Haga clic en **Nuevo informe**.
 1. Seleccionar un **informe de tareas**.
 1. Haga clic en **Filtros**.
 1. Haga clic en **Agregar una regla de filtro**.
-1. En la línea **Empiece a escribir el nombre del campo...**, empiece a escribir **Id. principal**.
+1. En la línea **Empiece a escribir el nombre del campo ...**, empiece a escribir **Id. principal** y, a continuación, seleccione **Tarea >> Id. principal** cuando se muestre en la lista.
 1. Seleccione **No está en blanco** para el modificador.
 
    ![](assets/filter-parent-id-not-blank-350x100.png)
@@ -111,24 +122,25 @@ Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas
 
 ## Mostrar tareas sin tareas secundarias ni principales (tareas independientes)
 
-Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas de trabajo independientes. Estas tareas no tienen padres y no tienen hijos propios.
+Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas de trabajo independientes. Estas tareas no tienen padres y no tienen hijos propios.
 
-1. En el **menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes.**
+1. En el **Menú principal** ![](assets/main-menu-icon.png) de la esquina superior derecha o en el **Menú principal** ![](assets/lines-main-menu.png) de la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
+
 1. Haga clic en **Nuevo informe**.
 1. Seleccionar un **informe de tareas**.
 1. Haga clic en **Filtros**.
-1. Haga clic en **Agregar una regla de filtro** y en el **Empiece a escribir el nombre del campo ...**, la línea empiece a escribir **Número de elementos secundarios**, seleccione **Igual (distingue mayúsculas de minúsculas)** para el modificador y, a continuación, escriba **0** para el número de elementos secundarios.
-1. Haga clic en **Agregar otra regla de filtro** y en el **Empiece a escribir el nombre del campo ...**, empiece a escribir la línea **Id. principal** y, a continuación, seleccione **Está en blanco**.
+1. Haga clic en **Agregar una regla de filtro**.
+1. En el **Empiece a escribir el nombre del campo ...**, empiece a escribir la línea **Número de tareas secundarias** y, a continuación, seleccione **Tarea >> Número de tareas secundarias** en la lista.
+1. Seleccione **Igual (distingue mayúsculas y minúsculas)** para el modificador y, a continuación, escriba **0** para el número de elementos secundarios.
+1. Haga clic en **Agregar otra regla de filtro**.
+1. En el **Empiece a escribir el nombre del campo ...**, empiece a escribir la línea **Id. principal** y, a continuación, seleccione **Tarea >> Id. principal** en la lista.
+1. Seleccione **Está en blanco** para el modificador.
 
    ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    O
 
-   En lugar de los pasos 6-7, haga clic en **Cambiar al modo de texto** y en la ventana de edición de texto, copie y pegue el siguiente texto: 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure steps above stay accurate)</p>
-   -->
+   En lugar de los pasos 6-10 <!--ensure steps above stay accurate-->, haga clic en **Cambiar al modo de texto** y en la ventana de edición de texto, copie y pegue el siguiente texto:
 
    ```
    numberOfChildren=0

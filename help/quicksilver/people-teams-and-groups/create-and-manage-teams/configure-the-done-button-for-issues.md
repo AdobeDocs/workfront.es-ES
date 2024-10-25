@@ -6,9 +6,9 @@ description: El botón Listo puede establecer automáticamente el estado de una 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Configurar el botón [!UICONTROL Listo] para problemas
 
 El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!DNL Adobe Workfront] marca un problema como [!UICONTROL Resuelto] cuando un usuario asignado hace clic en [!UICONTROL Listo] en su elemento de trabajo.
+
+>[!NOTE]
+>
+>El botón Listo aparece como Marcar como listo en todas las áreas de Workfront.
 
 ## Información general
 

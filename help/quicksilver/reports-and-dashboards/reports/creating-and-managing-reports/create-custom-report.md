@@ -6,7 +6,7 @@ description: Puede proporcionar acceso a la información que su organización ne
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Creación de un informe personalizado
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 Puede proporcionar acceso a la información que su organización necesita en Adobe Workfront creando informes. Puede utilizar cualquiera de los informes integrados disponibles en Workfront o puede crear los informes personalizados desde cero.
 
@@ -126,7 +126,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    O
 
-   Para cambiar una columna existente, haga clic en la columna, haga clic en el icono **Quitar** ![](assets/x-icon-circled.png) a la izquierda del campo actual en el cuadro **Mostrar en este campo de columna** en la esquina superior izquierda de Report Builder, y empiece a escribir un nuevo campo; a continuación, haga clic en él cuando se muestre en la lista.
+   Para cambiar una columna existente, haga clic en la columna, haga clic en el icono **Quitar** ![](assets/remove-column-icon.png) a la derecha del campo actual en el área **Mostrar en este campo de columna** en la esquina superior izquierda de Report Builder y empiece a escribir un nuevo campo; a continuación, haga clic en él cuando se muestre en la lista.
 
    Para obtener más información sobre los campos que se ven en las columnas, consulte [Glosario de terminología de Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

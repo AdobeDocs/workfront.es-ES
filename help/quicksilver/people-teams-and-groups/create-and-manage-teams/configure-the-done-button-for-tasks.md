@@ -6,20 +6,24 @@ description: El botón Listo puede establecer automáticamente el estado de una 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
 
 # Configurar el botón [!UICONTROL Listo] para las tareas
 
-El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!UICONTROL Adobe Workfront] marca una tarea como [!UICONTROL Completada] cuando un usuario asignado hace clic en Listo en su elemento de trabajo.
+El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!UICONTROL Adobe Workfront] marca una tarea como [!UICONTROL Completada] cuando un usuario asignado hace clic en Marcar como hecho en su elemento de trabajo.
+
+>[!NOTE]
+>
+>El botón Listo aparece como Marcar como listo en todas las áreas de Workfront.
 
 ## Información general
 
-Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo] para reflejar ciertos estados en el sistema. Hay dos maneras diferentes en que el botón [!UICONTROL Listo] funciona para las tareas de [!UICONTROL Workfront]:
+Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo] para asociarlo con ciertos estados del sistema. Hay dos maneras diferentes en que el botón [!UICONTROL Listo] funciona para las tareas de [!UICONTROL Workfront]:
 
 * Si el usuario tiene un equipo de inicio asignado, un administrador de [!DNL Workfront] o un usuario con una licencia de [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar ciertos estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
 * Si el usuario no tiene un [!UICONTROL equipo de inicio], pero tiene [!UICONTROL otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y se utiliza el estado asociado con cualquiera de los equipos para la tarea.
@@ -98,7 +102,7 @@ Para asociar usuarios a un equipo de inicio:
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
 
 1. Haga clic en **[!UICONTROL Usuarios]** y, a continuación, seleccione el usuario o los usuarios que desee asociar con un equipo de inicio.
-1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.\
+1. Haga clic en el menú **[!UICONTROL Más]** y luego haga clic en **[!UICONTROL Editar]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
 1. En la sección **[!UICONTROL Organización]**, seleccione el campo **[!UICONTROL Equipo de inicio]**. Empiece a escribir el nombre del equipo cuya configuración desea asociar con los usuarios. Haga clic en el nombre del equipo cuando lo vea en la lista.

@@ -6,9 +6,9 @@ description: Puede ver y agregar actualizaciones a un elemento de trabajo dentro
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '678'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Puede ver las actualizaciones de cualquier elemento de trabajo en la [!UICONTROL
 
 Puede proporcionar actualizaciones sobre cualquier elemento de trabajo de la lista [!UICONTROL Trabajo]:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar cualquiera de los siguientes widgets:
 
    | Widget | Descripción |
@@ -102,7 +102,7 @@ Para obtener información más detallada sobre cómo agregar actualizaciones, co
 
 Puede editar cualquier campo de cualquier elemento de trabajo al que tenga acceso para editar.
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar cualquiera de los siguientes widgets:
 
    | Widget | Descripción |
