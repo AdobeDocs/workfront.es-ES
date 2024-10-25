@@ -7,10 +7,10 @@ description: Este filtro de tareas devuelve predecesoras entre proyectos incompl
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
@@ -54,11 +54,11 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 Para aplicar este filtro:
 
-1. Ir a una lista de tareas.
+1. Ir a una lista de tareas o a un informe de tareas.
 1. En el menú desplegable **Filtro**, seleccione **Nuevo filtro**.
 
-1. Haga clic **Cambiar al modo de texto**.
-1. En el área **Establecer reglas de filtro para su informe**, pegue el siguiente código:
+1. (Condicional) Haga clic en **Modo de texto** si accedió al filtro desde una lista o en **Cambiar al modo de texto** si accedió al filtro desde un informe.
+1. En la nueva área, pegue el siguiente código:
    <pre>predecesorsMM:projectID=FIELD:projectID<br>predecesorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. Haga clic en **Guardar filtro**.
+1. (Condicional) Haga clic en **Guardar filtro** si accedió al filtro desde un informe, o en **Aplicar** y después en **Guardar como nuevo** si accedió al filtro desde una lista de tareas.

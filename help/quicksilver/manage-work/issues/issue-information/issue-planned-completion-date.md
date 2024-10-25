@@ -6,9 +6,9 @@ description: La fecha planificada de finalización de un problema es la fecha en
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Debe tener acceso de edición a Problemas y permisos de administración sobre el
 Puede establecer manualmente la fecha planificada de finalización de un problema en las siguientes áreas de Workfront:
 
 * En el cuadro Editar problema o en el área Detalles del problema al crear o editar un problema. Para obtener más información, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
-* En el área de Inicio, si se muestra la Fecha planificada de finalización al ver un problema. Para obtener más información, vea [Actualizar o editar un elemento de trabajo en el área de inicio](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* En el área de Inicio si la fecha planificada de finalización se muestra en el panel de resumen de un problema. Para obtener más información, vea [Actualizar o editar un elemento de trabajo en el área de inicio](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * En el encabezado del problema. Para obtener más información, consulte [Nuevos encabezados de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * En una lista de problemas o un informe cuando el campo Fecha planificada de finalización se muestra en la vista.
 

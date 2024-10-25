@@ -6,7 +6,7 @@ description: Puede actualizar el porcentaje completado de una tarea para indicar
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
 * **Inicio**: puede actualizar el porcentaje completado de una tarea o problema desde el Panel de resumen en el área de Inicio o desde el widget Mi trabajo.
 
-Para obtener más información, consulte [Introducción a Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Para obtener más información, consulte [Introducción a Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Consideraciones acerca de la actualización del porcentaje completado de una tarea
 

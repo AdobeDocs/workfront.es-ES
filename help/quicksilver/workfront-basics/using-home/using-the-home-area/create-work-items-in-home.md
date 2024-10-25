@@ -6,10 +6,10 @@ description: Puede crear elementos de trabajo y proyectos desde el área [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 3%
+source-wordcount: '761'
+ht-degree: 2%
 
 ---
 
@@ -54,16 +54,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Crear un elemento de tarea personal
 
-Puede crear un elemento personal que solo esté disponible para usted en el área de [!UICONTROL Inicio]:
+Puede crear un elemento personal pendiente en el área [!UICONTROL Hogar]. Los elementos pendientes son tareas personales que crea usted mismo.
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. (Condicional) Agregue el widget Tareas pendientes a la pantalla de inicio. Haga clic en **Personalizar** y busque **Tareas pendientes**.
+Usted y otros usuarios pueden ver sus tareas personales en un informe de tareas personales. A partir de ahí, pueden agregarlos a proyectos si es necesario.
+
+Para crear un elemento pendiente:
+
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haz clic en **Personalizar** y luego haz clic en **Tareas pendientes** para agregar el widget de tareas pendientes a la pantalla de inicio.
 1. Vaya al widget **Tareas pendientes** y haga clic en **Agregar tareas pendientes**.
-1. Escriba el
+1. Escriba el nombre del elemento personal y haga clic en Entrar.
 1. (Opcional) Haga clic en el icono **Fecha** ![](assets/date-icon.png) para agregar una fecha límite para el elemento.
    ![](assets/my-work-to-dos.png)
-
-
+1. (Opcional) Cree un informe de tareas personales o un filtro. Para obtener información acerca de cómo crear un filtro de tareas personales, vea [Filtro: tarea personal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+Puede ver los elementos pendientes, así como los elementos pendientes de otros usuarios, en el informe de tareas personales.
 
 ## Agregar una tarea a un proyecto
 
