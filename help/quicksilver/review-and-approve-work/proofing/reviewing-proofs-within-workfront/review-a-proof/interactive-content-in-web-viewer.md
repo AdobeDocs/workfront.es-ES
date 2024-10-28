@@ -6,14 +6,19 @@ description: Le recomendamos que revise todo el contenido interactivo con el Vis
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # Configurar la revisión de contenido interactivo en el Visor de revisión web
+
+>[!IMPORTANT]
+>
+>Se trata de una extensión heredada del explorador y ya no es compatible. Se recomienda instalar la nueva extensión de explorador que se encuentra en la versión beta: [Herramienta de revisión de Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 Le recomendamos que revise todo el contenido interactivo con el Visor de pruebas de escritorio. Sin embargo, si las directivas de su organización lo impiden, el administrador de Workfront puede configurar el sistema para que utilice el Visor de revisiones web para las pruebas interactivas. Para obtener información comparativa sobre estos dos visores, vea [Diferencias entre el Visor de revisión web y la descripción general del Visor de revisión de escritorio](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -47,5 +52,3 @@ El Visor de revisión web tiene las siguientes limitaciones:
 1. En el Visor de revisión web, haga clic en **Volver a cargar la revisión**.
 
 Con la extensión instalada en el explorador, el visor de revisión toma una captura de pantalla estática del contenido cada vez que hace clic en **Agregar comentario**. Esta captura de pantalla es donde puede agregar comentarios con marcas.
-
- 
