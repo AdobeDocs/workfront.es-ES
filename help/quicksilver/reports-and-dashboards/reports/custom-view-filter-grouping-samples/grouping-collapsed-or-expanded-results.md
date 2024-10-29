@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupación: indique si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto"
+title: "Agrupación: indique si los resultados de una agrupación deben contraerse o expandirse en modo de texto"
 description: "Agrupación: indique si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto"
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Grouping: indica si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
@@ -36,6 +38,8 @@ También puede indicar si una agrupación debe mostrarse expandida o contraída 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -43,28 +47,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud para modificar una agrupación </p>
-   <p>Plan para modificar un informe</p> </td> 
+   <td> 
+    <p>Nuevo:</p>
+   <ul><li><p>Colaborador para modificar un filtro </p></li>
+   <li><p>Estándar para modificar un informe</p></li> </ul>
+
+<p>Actual:</p>
+   <ul><li><p>Solicitud para modificar un filtro </p></li>
+   <li><p>Plan para modificar un informe</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una agrupación</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Indique si los resultados de una agrupación deben contraerse o expandirse utilizando el modo de texto
 
@@ -77,14 +87,11 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
    Si la agrupación ya está en modo de texto, agregue el código siguiente al nivel de agrupación que desee mostrar contraído:
 
-   ```
-   group.0.iscollapsed=true
-   ```
+   `group.0.iscollapsed=true`
 
 1. (Opcional) Si desea que la agrupación se muestre expandida, agregue el siguiente código al nivel de agrupación adecuado:
 
-   ```
-   group.0.iscollapsed=false
-   ```
+   `group.0.iscollapsed=false`
 
 1. Haga clic en **Listo** y luego en **Guardar agrupación**.
+1. (opcional) Actualice el nombre de la agrupación y, a continuación, haga clic en **Guardar agrupación**.

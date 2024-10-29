@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: crear varias reglas de filtro que hagan referencia al mismo campo (instrucciones 'AND')"
+title: "Filtro: Crear varias reglas de filtro que hagan referencia al mismo campo (instrucciones 'AND')"
 description: En la interfaz de modo estándar, al intentar crear varios filtros que hacen referencia al mismo campo (mediante el calificador AND), uno de los filtros se elimina al guardar el informe y salir del Report Builder.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Filtro: crear varias reglas de filtro que hagan referencia al mismo campo (instrucciones &quot;AND&quot;)
+
+<!--Audited: 10/2024-->
 
 En la interfaz de modo estándar, al intentar crear varios filtros que hacen referencia al mismo campo (mediante el calificador AND), uno de los filtros se elimina al guardar el informe y salir del Report Builder.
 
@@ -27,6 +29,8 @@ Sin embargo, puede crear este filtro con el modo de texto.
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -34,36 +38,41 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud para modificar un filtro </p>
-   <p>Plan para modificar un informe</p> </td> 
+   <td> 
+    <p>Nuevo:</p>
+   <ul><li><p>Colaborador para modificar un filtro </p></li>
+   <li><p>Estándar para modificar un informe</p></li> </ul>
+
+<p>Actual:</p>
+   <ul><li><p>Solicitud para modificar un filtro </p></li>
+   <li><p>Plan para modificar un informe</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crear varias reglas de filtro que hagan referencia al mismo campo
 
 1. Ir a una lista de tareas.
 1. En el menú desplegable **Filtro**, seleccione **Nuevo filtro**.
-1. Haga clic en **Cambiar al modo de texto**.
-1. Pase el ratón sobre el área de modo de texto y haga clic **Haga clic para editar el texto**.
-1. En el área Definir reglas de filtro para el informe, agregue el siguiente código:
+1. Haga clic en **Modo de texto**.
+1. En el cuadro que se muestra, agregue el siguiente código:
 
    ```
    name=green
@@ -89,4 +98,4 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
    >   
    >Estas instrucciones distinguen entre mayúsculas y minúsculas.
 
-1. Haga clic en **Listo** y luego en **Guardar filtro**.
+1. Haga clic en **Aplicar** y luego en **Guardar como nuevo**.
