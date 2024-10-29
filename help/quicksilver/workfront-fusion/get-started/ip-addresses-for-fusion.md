@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,34 @@ ht-degree: 0%
 
 Si el firewall o el servidor de correo están configurados para permitir el acceso sólo a determinados proveedores, debe agregar determinadas direcciones IP a su lista de permitidos para permitir la comunicación abierta entre su entorno y [!DNL Adobe Workfront Fusion].
 
-## Identificación del centro de datos
+Puede añadir todas las direcciones IP y dominios de Fusion a la lista de permitidos o puede localizar el clúster de Fusion y añadir solo las direcciones IP y los dominios de ese clúster.
+
+## Añadir todas las direcciones IP y dominios de Fusion
+
+Añada las siguientes direcciones IP a su lista de permitidos:
+
+* 52.30.133.50
+* 54 220 93 204
+* 34 254 76 122
+* 54 244 142 219
+* 52.39.217.230
+* 44 241 82 96
+* 100.20.126.137
+* 34.223.32.4
+* 52.39.176.220
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+Además, si su organización utiliza el filtrado de red saliente, añada el siguiente dominio a su lista de permitidos para permitir que su sistema acceda a Workfront Fusion.
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## Añadir direcciones IP y dominios de Fusion solo para su clúster
+
+### Identificación del centro de datos
 
 Las direcciones IP varían en función del lugar en el que se almacenan los datos.
 
@@ -43,7 +70,7 @@ Si accede a Fusion a través de experience.adobe.com, puede comprobar la pestañ
 | Llamadas a `https://eu.fusion.adobe.com` | centro de datos UE |
 | Llamadas a `https://az.fusion.adobe.com` | Azure Datacenter |
 
-## Direcciones IP para Workfront Fusion
+### Añadir direcciones IP y dominios al centro de datos
 
 Agregue las siguientes direcciones IP a su lista de permitidos para permitir que [!DNL Workfront Fusion] acceda a su sistema.
 
