@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # Organización y previsualización de un formulario
+
+{{highlighted-preview}}
 
 Puede organizar un formulario personalizado con el diseñador de formularios y obtener una vista previa del mismo para comprobar que está correctamente configurado.
 
@@ -157,6 +159,14 @@ En un formulario personalizado con un salto de sección configurado con el permi
    >* Es posible que los campos y widgets personalizados no siempre se muestren igual en el formulario, según el espacio de pantalla disponible cuando un usuario lo esté viendo. Por ejemplo, el tercer campo de una fila de campos puede ajustarse a la siguiente fila de campos si el espacio horizontal es limitado.
 
 1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo arriba o abajo hasta que aparezca una línea azul horizontal entre los elementos.
+
+<div class="preview">
+
+1. Para mover un campo personalizado a otra sección del formulario, puede arrastrarlo y colocarlo en su lugar, o bien hacer clic en el icono **Mover a** del campo y seleccionar la sección a la que desea moverlo.
+
+   ![Mover el campo a una sección](assets/move-field-to-section.png)
+
+</div>
 
 1. Para guardar los cambios, haga clic en **Aplicar**
 
