@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,10 @@ En un formulario personalizado con un salto de sección configurado con el permi
 
 1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo arriba o abajo hasta que aparezca una línea azul horizontal entre los elementos.
 
-<div class="preview">
+1. Para mover un campo personalizado a otra sección del formulario, puede arrastrarlo y colocarlo en su lugar, <span class="preview">o hacer clic en el icono **Mover a** del campo y seleccionar la sección a la que desea moverlo.</span>
 
-1. Para mover un campo personalizado a otra sección del formulario, puede arrastrarlo y colocarlo en su lugar, o bien hacer clic en el icono **Mover a** del campo y seleccionar la sección a la que desea moverlo.
-
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Mover el campo a una sección](assets/move-field-to-section.png)
-
-</div>
 
 1. Para guardar los cambios, haga clic en **Aplicar**
 
