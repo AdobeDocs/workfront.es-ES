@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
+source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
 workflow-type: tm+mt
-source-wordcount: '14559'
+source-wordcount: '14564'
 ht-degree: 2%
 
 ---
@@ -545,6 +545,7 @@ ht-degree: 2%
          * [Acceso a objetos y áreas mediante nuevas licencias](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Desactive la opción de actualización automática para usuarios no pagados en el nuevo plan de licencias](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [Comparar funcionalidad entre modelos de licencia](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * Funcionamiento de los niveles de acceso {#legacy-access-levels}
          * [Funcionamiento de los niveles de acceso](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
@@ -2440,11 +2441,11 @@ ht-degree: 2%
       * [Administración de notificaciones de Adobe Workfront en Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * Adobe Workfront para Salesforce {#workfront-for-salesforce}
       * [Adobe Workfront para Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
-      * [Información general de Adobe Workfront para Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
-      * [Instalar Adobe Workfront para Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+      * [Información general sobre Adobe Workfront para Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
+      * [Instalación de Adobe Workfront para Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
       * [Configuración de la sección Adobe Workfront para usuarios de Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
-      * [Envío de solicitudes de Adobe Workfront desde objetos de Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
-      * [Creación de proyectos de Adobe Workfront a partir de objetos Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
+      * [Envío de solicitudes Adobe Workfront desde objetos Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
+      * [Creación de proyectos de Adobe Workfront a partir de objetos de Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
    * Adobe Workfront para el Slack {#workfront-for-slack}
       * [Adobe Workfront para Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Configuración de Adobe Workfront para Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
