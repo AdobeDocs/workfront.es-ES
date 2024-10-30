@@ -4,17 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Informe: vista y agrupación combinadas de tareas y problemas"
 description: Este informe de elemento de trabajo muestra tanto las tareas como los problemas en los que los usuarios han aceptado trabajar en un informe. Es mejor cuando se combina con una agrupación personalizada.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bc99e303047b989b972974b398420a9180e40874
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 1%
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
 # Informe: vista y agrupación de tareas y problemas combinados
+
+<!--Audited: 10/2024-->
 
 Este informe de elemento de trabajo muestra tanto las tareas como los problemas en los que los usuarios han aceptado trabajar en un informe. Es mejor cuando se combina con una agrupación personalizada.
 
@@ -22,11 +24,13 @@ Este informe usa `sharecol=true` en la vista para combinar varios campos bajo el
 
 >[!TIP]
 >
-> La vista Elemento de trabajo muestra únicamente las tareas y problemas que han sido aceptados por los usuarios asignados a ellos. Este informe no muestra los elementos de trabajo que no se han movido de las listas Solicitudes de trabajo o Solicitudes de equipo a la lista Trabajando en del usuario.
+>  La vista Elemento de trabajo muestra únicamente las tareas y problemas que han sido aceptados por los usuarios asignados a ellos. Este informe no muestra los elementos de trabajo que no se han movido de las listas Solicitudes de trabajo o Solicitudes de equipo a la lista Trabajando en del usuario.
 
 ![informe_elemento_trabajo.png](assets/work-item-report-350x46.png)
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -35,40 +39,47 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Nuevo:</p>
+   <ul><li><p>Colaborador para modificar un filtro </p></li>
+   <li><p>Estándar para modificar un informe</p></li> </ul>
+
+<p>Actual:</p>
+   <ul><li><p>Solicitud para modificar un filtro </p></li>
+   <li><p>Plan para modificar un informe</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Generar un informe con una vista y una agrupación de tareas y problemas combinadas
 
 Para generar un informe con esta vista:
 
-1. En el **menú principal** ![](assets/main-menu-icon.png), haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Informes**.
 
-1. Haga clic en **Nuevo informe** y seleccione el objeto **Elemento de trabajo** del menú desplegable.
+1. Haga clic en **Nuevo informe** > **Más** > **Elemento de trabajo** en el menú desplegable.
 
-1. En el área **Vista previa de columna**, haga clic en el encabezado de la única columna mostrada.
-1. Haga clic **Cambiar al modo de texto**.
-1. Pase el ratón sobre el área de modo de texto y haga clic **Haga clic para editar el texto**.
-1. Elimine el texto que encuentre en el cuadro **Modo de texto** y reemplácelo por el siguiente código:
+1. En el área **Vista previa de columna**, haga clic en el encabezado de la única columna mostrada. Esta es la columna **Ext Ref**.
+1. Haga clic en **Cambiar al modo de texto**.
+1. Pase el ratón sobre el área de modo de texto y haga clic en **Editar modo de texto**.
+1. Quite el texto que encuentre en el cuadro de modo de texto y reemplácelo por el siguiente código:
 
    ```
    column.0.description=Task or Issue 
@@ -259,8 +270,9 @@ Para generar un informe con esta vista:
    column.15.width=1
    ```
 
+1. Haga clic en **Listo**.
 1. (Opcional) Haga clic en **Agrupaciones** para agregar una agrupación al informe.
-1. (Opcional) Si está agregando una agrupación, haga clic en **Cambiar al modo de texto**.
+1. (Opcional y condicional) Si agrega una agrupación, haga clic en **Cambiar al modo de texto**.
 1. (Opcional) Reemplace el texto dentro del área del modo de texto de agrupación por el siguiente código:
 
    ```
@@ -273,3 +285,4 @@ Para generar un informe con esta vista:
    Esta agrupación agrupa todas las tareas y todos los problemas a la vez.
 
 1. Haga clic en **Guardar + Cerrar**.
+1. (Opcional) Actualice el nombre del informe y, a continuación, haga clic en **Aplicar**.

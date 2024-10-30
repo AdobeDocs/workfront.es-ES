@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 2%
@@ -16,6 +16,11 @@ ht-degree: 2%
 # Creación y administración de un formulario de solicitud en Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--take Preview and Production references at Production time-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -143,6 +148,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >    * Fórmula
      >    * Fecha de creación
      >    * Fecha de la última modificación
+
+     <!--replace the above with this: 
+
+            >[!IMPORTANT]
+            >
+            > Depending on what environment you use to create a request form, the following scenarios exist:
+            >
+            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
+            >
+            >    * People (includes Created by and Last modified by)
+            >    * Formula
+            >    * Created date
+            >    * Last modified date
+            >    * Workfront object connected fields
+            >    * Workfront objects connected lookup fields
+            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
+            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
+            >    * <span class="preview">Planning records' connected lookup fields</span>
+      -->
 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
    * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible. La configuración y el valor del campo Subject no se pueden editar.

@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupación: proyectos por fecha de entrada"
+title: "Agrupación: Proyectos por fecha de entrada"
 description: En esta agrupación de proyectos personalizada, puede mostrar los proyectos agrupados por sus valores de Fecha de entrada.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Agrupación: proyectos por fecha de entrada
+
+<!--Audited: 10/2024-->
 
 En esta agrupación de proyectos personalizada, puede mostrar los proyectos agrupados por sus valores de Fecha de entrada.
 
@@ -76,11 +78,14 @@ Para aplicar esta agrupación:
 1. Quitar el texto del área **Agrupar por**.
 1. Reemplace el texto con el siguiente código:
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=Entrada de proyecto
-group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))&lt;=30,&quot;Last 30 Days&quot;,IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&amp;&amp;ABS(DATEDIFF({entryDate},$$TODAY))&lt;=60,&quot;30-60 Days&quot;,&quot;Older than 60 days&quot;)
-group.0.valueformat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. Haga clic en **Listo** > **Guardar agrupación**.
 1. (Opcional) Actualice el nombre de la agrupación y, a continuación, haga clic en **Guardar agrupación**.
