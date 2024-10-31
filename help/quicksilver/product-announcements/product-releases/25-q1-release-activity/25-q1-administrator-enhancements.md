@@ -4,9 +4,9 @@ description: Mejoras del administrador en el primer trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 24 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (16 de enero de 2024)
+>Versión de vista previa: 29 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono &quot;mover a&quot; a cada campo, que le permite seleccionar la sección en la que se coloca el campo.
 

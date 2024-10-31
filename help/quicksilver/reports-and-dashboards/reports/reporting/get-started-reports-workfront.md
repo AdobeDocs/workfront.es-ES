@@ -7,9 +7,9 @@ description: Los informes proporcionan visibilidad de lo que está pasando con l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ Para mejorar los informes, puede añadir los siguientes elementos:
 
 Al crear un informe, puede modificar cualquiera de estos elementos de forma individual en Report Builder.
 
-Otra forma de mejorar la relevancia de la información incluida en los informes es aplicar formato condicional a las vistas.\
-Para obtener información acerca del uso del formato condicional, vea [Usar formato condicional en las vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Otra forma de mejorar la relevancia de la información incluida en los informes es aplicar formato condicional a las vistas. Para obtener información acerca del uso del formato condicional, vea [Usar formato condicional en las vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Informes del sistema
 
@@ -81,17 +80,20 @@ Además de los informes del sistema que proporciona Workfront, puede crear sus p
 Para crear un informe, puede realizar una de las siguientes acciones:
 
 * Cree un informe desde cero.
-* Copie un informe existente.\
+* Copie un informe existente.
+
   Debe tener al menos permiso de visualización para copiar un informe creado por otra persona. Para obtener más información sobre cómo copiar un informe, vea [Crear una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Para obtener información sobre cómo crear informes, consulte [Resumen de informes del calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Para obtener información sobre cómo crear informes, consulte [Crear un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Requisitos previos para crear informes {#prerequisites-for-creating-reports}
 
-* Debe tener una licencia de planificación (licencias actuales) o una licencia estándar (nuevas licencias) para crear sus propios informes.\
+* Debe tener una licencia de planificación (licencias actuales) o una licencia estándar (nuevas licencias) para crear sus propios informes.
+
   Para obtener información sobre los tipos de licencia de Workfront, consulte [Resumen de licencias](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para las licencias actuales y [Resumen de licencias nuevas](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para las licencias nuevas.
 
-* El administrador de Workfront debe darle acceso a Editar informes en su nivel de acceso.\
+* El administrador de Workfront debe darle acceso a Editar informes en su nivel de acceso.
+
   Para obtener información acerca de cómo conceder acceso a Editar informes, vea [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * El administrador de Workfront debe darle acceso a Editar filtros, vistas y agrupaciones en su nivel de acceso.
@@ -109,7 +111,7 @@ Para obtener información sobre cómo copiar informes, consulte [Crear una copia
 
 Puede ver a quién pertenece un informe revisando el campo **Ingresado por**.
 
-![Ingresado por campo](assets/nwe-entered-by-350x218.png)
+![Ingresado por campo](assets/unshimmed-entered-by.png)
 
 ### Creación de informes en la interfaz del generador {#create-reports-in-the-builder-interface}
 
@@ -306,7 +308,7 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
    <td> <p>Una pestaña dentro de Report Builder, una pestaña de informe, después de guardar el informe, así como un elemento opcional de un informe que le permite agregar un gráfico a cualquier informe. Debe definir una agrupación en el informe antes de crear un gráfico.</p> <p>Los siguientes son tipos de gráficos que se pueden agregar a cualquier informe:<br></p> 
     <ul> 
      <li>Columna</li> 
-     <li>Barras</li> 
+     <li>Barra</li> 
      <li>Circular</li> 
      <li>Línea de</li> 
      <li>Medidor</li> 
