@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Realiza 3 sencillos pasos:
 
-**Paso 1**: Cargue el archivo en Workfront Proof enviándolo a través de una solicitud de Post a  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Le devolveremos el hash del archivo. ¡Esto es muy importante! Tenga en cuenta que en este momento no verá nada en su cuenta, todo lo que ha hecho hasta ahora es enviarnos el archivo, pero no nos dijo qué hacer con él.
+**Paso 1**: Cargue el archivo en Workfront Proof enviándolo mediante una petición Post a  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Le devolveremos el hash del archivo. ¡Esto es muy importante! Tenga en cuenta que en este momento no verá nada en su cuenta, todo lo que ha hecho hasta ahora es enviarnos el archivo, pero no nos dijo qué hacer con él.
 
 **Paso 2**: Si aún no tiene un ID de sesión, consiga uno mediante los métodos doLogin() o getSessionID(). Utilice la primera para &quot;iniciar sesión&quot; con la dirección de correo electrónico y la contraseña de un usuario o el segundo método si tiene la dirección de correo electrónico y el token de autenticación del usuario.
 
@@ -69,7 +69,4 @@ Por ejemplo, la URL de prueba mínima
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` debe codificarse como 
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` para que se pasen los parámetros personalizados.
 
-## Cómo crear un cliente de servicio web de Java
-
-[Este vídeo](https://screencast.com/t/xsSNrqs5b) muestra cómo crear un cliente de servicio web Java mediante Eclipse y la definición WSDL de Workfront Proof.
 
