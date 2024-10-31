@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: a01ca10fdd4e8faaefcac861c9d64843b71ed9c8
+source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 11%
@@ -28,7 +28,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 >[!NOTE]
 >
 >* En este artículo se describe la funcionalidad disponible para los niveles de acceso en el nuevo modelo de plan de Workfront. Para ver la funcionalidad disponible en el modelo de plan actual, consulte [Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
-> * Para obtener una lista de las funcionalidades disponibles para los distintos planes del nuevo modelo de plan, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+>* Para obtener una lista de las funcionalidades disponibles para los distintos planes del nuevo modelo de plan, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Proyectos
 
