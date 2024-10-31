@@ -6,7 +6,7 @@ description: Puede usar el área de [!UICONTROL Mis actualizaciones] para revisa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -146,8 +146,6 @@ Debe tener lo siguiente antes de empezar:
 1. (Opcional) Haga clic en **[!UICONTROL Ignorar]** para borrar la solicitud de acceso de su lista de aprobación sin concederla.
 1. Haga clic en **[!UICONTROL Delegar mis aprobaciones]** para delegar las aprobaciones enviadas si no está disponible para tomar decisiones de aprobación durante algún tiempo. Para obtener más información sobre la delegación de aprobaciones, consulte [Delegar solicitud de aprobación](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Desplácese al área de **[!UICONTROL Menciones]** que se encuentra debajo de las aprobaciones. Aquí puedes ver todos los artículos en los que te hayan incluido en una conversación.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

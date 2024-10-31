@@ -6,9 +6,9 @@ description: Las aprobaciones de revisión se muestran en el área de Inicio sol
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 ## Ver aprobaciones de pruebas enviadas
 
-1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
+1. (Condicional) Haga clic en el menú desplegable **Filtro** y, a continuación, seleccione **Aprobaciones que he enviado** para ver las aprobaciones que ha enviado.
 
-   >[!NOTE]
-   >
-   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
-   >
-   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
-
-1. En el área de **Lista de trabajos**, vaya a la agrupación **Aprobaciones enviadas**.
-
-1. Haga clic en una aprobación de **Prueba** en la Lista de trabajos.
-
-   Esto abre la aprobación de la prueba a la derecha de la Lista de trabajos.
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > Si envía una aprobación a un usuario de revisión invitado, la aprobación no se muestra en Inicio.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (Opcional) Haga clic en **Ir a la revisión** en la esquina superior derecha del panel derecho para iniciar el visor de revisión.
 

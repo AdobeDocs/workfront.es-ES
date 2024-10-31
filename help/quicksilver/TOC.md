@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 30b4db53220c67a3fa8fe8865329f74a80cd7343
+source-git-commit: 45fc22a324672bced5235e3bbb0fa7c662a7fed4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '14534'
+ht-degree: 2%
 
 ---
 
@@ -902,23 +902,16 @@ ht-degree: 0%
       * [Inicio](workfront-basics/using-home/home.md)
       * Usar el área de inicio {#use-home-area}
          * [Uso del área de Inicio](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Pasar del directorio principal heredado a las prioridades](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Introducción a Inicio](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Agregar, editar o quitar widgets en la nueva página de inicio](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Mostrar elementos en la Lista de trabajos en el área de Inicio](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Resumen de filtros de widget de inicio](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
          * [Administre su trabajo con el widget Mi trabajo](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-         * [Priorizar el trabajo en el área de Inicio](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Administrar solicitudes de trabajo y equipo en el área de Inicio](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Actualizar o editar un elemento de trabajo en el área de Inicio](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Crear elementos de trabajo y proyectos desde el área de Inicio](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [Registrar tiempo en un elemento de trabajo desde el área de Inicio](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Marcar un elemento como Listo en el área de Inicio](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-         * [Vista Calendario de Inicio](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-         * [Configurar la configuración de la vista Calendario de Inicio](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-         * [Área de inicio para revisores](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-         * [Utilizar la vista Calendario de Inicio](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-         * [Ver el calendario de Inicio](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Utilice el área Mis actualizaciones](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * Asistente de IA {#ai-assistant}
       * [Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1037,7 +1030,6 @@ ht-degree: 0%
       * [El laboratorio de innovación](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [Trabajo entre zonas horarias](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Solución de problemas de permisos de Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [Duplicado de procesos de aprobación que se muestran en la Lista de trabajoss en Inicio](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Los botones de filtro no se muestran en los encabezados de página](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [El filtro Proyectos en los que estoy incluye resultados inesperados](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Varias pestañas del explorador hacen que Workfront cierre la sesión](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)

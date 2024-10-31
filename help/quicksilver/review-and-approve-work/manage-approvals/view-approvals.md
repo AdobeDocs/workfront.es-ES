@@ -6,9 +6,9 @@ description: Los procesos de aprobación proporcionan la flexibilidad para crear
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Puede ver o administrar aprobaciones desde las siguientes áreas:
 
 * En el área de Inicio
 
-   * Todos los proyectos, tareas, problemas, plantillas de horas, documentos y accesos pendientes de su aprobación se muestran en el área de Inicio cuando selecciona ver Todos o Aprobaciones.
-   * Las aprobaciones que ha enviado también se muestran en el área de Inicio, en la sección Aprobaciones enviadas de la Lista de trabajos. Para obtener más información, consulte la sección [Revisar el trabajo que envía para su aprobación en el área de inicio](#review-work-you-submit-for-approval-in-the-home-area) de este artículo.
-   * Las aprobaciones se eliminan del área de Inicio cuando el proyecto, tarea o problema asociado se marca como Resuelto, En espera, Cerrado o Cancelado.
+   * Todos los proyectos, tareas, problemas, plantillas de horas, documentos y accesos pendientes de su aprobación se muestran en el widget Mis aprobaciones en el área de Inicio.
+   * Las aprobaciones que usted mismo ha enviado también se muestran en el widget Mis aprobaciones del área de Inicio al elegir la opción de filtro Aprobaciones que he enviado. Para obtener más información, consulte la sección [Revisar el trabajo que envía para su aprobación en el área de inicio](#review-work-you-submit-for-approval-in-the-home-area) de este artículo.
+   * Las aprobaciones se eliminan del widget Mis aprobaciones en el área de Inicio cuando el proyecto, tarea o problema asociado está marcado como Resuelto, En espera, Cerrado o Cancelado.
 
   Para obtener información sobre cómo usar Inicio, consulte [Introducción a Inicio](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,19 +82,10 @@ Puede ver o administrar aprobaciones desde las siguientes áreas:
 
 ## Revise el trabajo que envía para su aprobación en el área de Inicio {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
+1. (Condicional) Haga clic en el menú desplegable **Filtro** y, a continuación, seleccione **Aprobaciones que he enviado** para ver las aprobaciones que ha enviado.
 
-   >[!NOTE]
-   >
-   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
-   >
-   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
-
-1. Seleccione **Lista de trabajos**, luego haga clic en el menú desplegable **Filtro** y seleccione **Aprobaciones**.
-1. Expanda la sección **Aprobaciones que he enviado** y busque las aprobaciones que ha enviado.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## Ver el estado de aprobación de un objeto
 

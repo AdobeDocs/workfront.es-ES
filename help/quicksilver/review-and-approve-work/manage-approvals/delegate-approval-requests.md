@@ -6,16 +6,16 @@ description: La delegación de solicitudes de aprobación le permite asignar a o
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
 # Delegar solicitud de aprobación
 
-Puede delegar temporalmente el trabajo al que esté asignado mientras esté fuera de la oficina. Puede delegar asignaciones de tareas y problemas o delegar solicitudes de aprobación. Este artículo describe cómo delegar solicitudes de aprobación. Para obtener información sobre la delegación de asignaciones de tareas y problemas, consulte [Delegar tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
+Puede delegar temporalmente el trabajo al que esté asignado mientras esté fuera de la oficina. Puede delegar asignaciones de tareas y problemas, o delegar solicitudes de aprobación. Este artículo describe cómo delegar solicitudes de aprobación. Para obtener información sobre la delegación de asignaciones de tareas y problemas, consulte [Delegar tareas y problemas](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 Puede delegar los siguientes tipos de aprobaciones, independientemente de cómo se le haya asignado la aprobación (ya sea directamente a usted, a un equipo del que sea miembro o a su función):
 
@@ -81,11 +81,7 @@ Una vez cancelada o detenida la delegación de aprobación, el usuario designado
 * Sigue teniendo acceso de visualización de los elementos de trabajo\
   Los usuarios a los que se les ha concedido el acceso de Vista a objetos a través de una delegación de aprobación conservan ese acceso de Vista incluso después de que la delegación de aprobación se detenga o se recupere. Para eliminar el acceso de visualización a cualquier objeto al que el usuario tuviera acceso durante el tiempo en que se delegaban las aprobaciones, debe ir al objeto y eliminar los derechos de acceso directamente del objeto.
 
-## Delegar solicitudes de aprobación en el área de Inicio
-
-Puede delegar solicitudes de aprobación desde el área de Inicio.
-
-### Delegar sus aprobaciones a otro usuario {#delegate-your-approvals-to-another-user}
+## Delegar sus aprobaciones a otro usuario {#delegate-your-approvals-to-another-user}
 
 Puede delegar los siguientes tipos de aprobaciones, independientemente de cómo se le haya asignado la aprobación (ya sea directamente a usted, a un equipo del que sea miembro o a su función):
 
@@ -103,61 +99,60 @@ Tenga en cuenta lo siguiente al delegar aprobaciones:
 * Un máximo de 5 usuarios puede delegar aprobaciones al mismo usuario al mismo tiempo. En otras palabras, un solo usuario no puede designarse como aprobador temporal para más de 5 usuarios al mismo tiempo.
 * La actividad relativa a las aprobaciones se muestra en la pestaña Actualizaciones. Debe tener activada la opción Mostrar actualizaciones del sistema. Tanto el usuario que delega la aprobación como el usuario al que se delegan las aprobaciones reciben una notificación por correo electrónico en relación con la actividad de aprobación.
 
+### Delegar aprobaciones desde el área de Inicio
+
+
 Para delegar aprobaciones a otro usuario:
 
-1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
+1. Vaya al widget Mis aprobaciones y haga clic en **Delegar mis aprobaciones**.
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
-   >
-   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
+   >Los administradores de Workfront pueden deshabilitar las delegaciones de aprobación desde el área de configuración. Si las delegaciones de aprobación están desactivadas, no verá el botón Delegar aprobaciones.
 
-   O
-
-   Haga clic en el icono **Menú principal** > **su nombre** > **Tiempo libre** en el panel izquierdo.
-
-1. (Opcional y condicional) En el área de Inicio, haga clic en el menú desplegable **Filtro** y luego haga clic en **Aprobaciones**.
-
-1. (Condicional) Haga Clic En **Delegar Mis Aprobaciones**
-
-   O
-
-   Si el administrador del sistema o del grupo habilitó la delegación de tareas y problemas, haga clic en **Delegar** y luego en **Delegar aprobaciones**.
-
-   ![](assets/delegate-approvals-nwe.png)
+   ![](assets/delegate-approvals-home.png)
 
 1. Especifique la siguiente información en la sección Delegar mis aprobaciones:
 
    * **Nombre**: empiece a escribir el nombre del usuario al que desea delegar las aprobaciones y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
    * **Fecha de inicio**: seleccione la fecha para que las aprobaciones comiencen a reenviarse. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
      La fecha de inicio debe ser la fecha actual o una fecha futura.
-   * **Fecha de finalización**:Realice una de las siguientes acciones:
-
+   * **Fecha de finalización**: realice una de las siguientes acciones:
       * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 23:59 en la fecha que seleccione.
       * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
 
 1. Haga clic en **Guardar**.
 
-### Actualización o detención de una delegación de aprobación {#update-or-stop-an-approval-delegation}
+### Delegación de aprobaciones desde el perfil de usuario
 
-1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** > **su nombre** > **Tiempo libre** en el panel izquierdo.
+1. Haga clic en **Delegar aprobaciones**.
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
-   >
-   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
+   >Los administradores de Workfront pueden deshabilitar las delegaciones de aprobación desde el área de configuración. Si las delegaciones de aprobación están desactivadas, no verá el botón Delegar aprobaciones.
+1. Especifique la siguiente información en la sección Delegar mis aprobaciones:
 
-1. Haga clic en el menú desplegable **Filtro** y luego haga clic en **Aprobaciones**.
+   * **Nombre**: empiece a escribir el nombre del usuario al que desea delegar las aprobaciones y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
+   * **Fecha de inicio**: seleccione la fecha para que las aprobaciones comiencen a reenviarse. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
+     La fecha de inicio debe ser la fecha actual o una fecha futura.
+   * **Fecha de finalización**: realice una de las siguientes acciones:
+      * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 23:59 en la fecha que seleccione.
+      * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
 
-1. (Condicional) Haga clic en **Editar delegación**
+## Actualización o detención de una delegación de aprobación {#update-or-stop-an-approval-delegation}
 
-   O
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
 
-   Si el administrador del sistema o del grupo habilitó la delegación de tareas y problemas, haga clic en **Editar delegación** y luego haga clic en **Delegar aprobaciones**.
+1. Vaya al widget Mis aprobaciones y haga clic en **Editar delegación**.
+   ![](assets/edit-delegations.png)
+<!--
+   Or
+
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
 
 1. (Condicional) Realice una de las acciones siguientes:
 
@@ -165,11 +160,9 @@ Para delegar aprobaciones a otro usuario:
 
    * Para detener la delegación existente: haga clic en **Detener delegación** y luego haga clic en **Detener delegación** para confirmar.
 
-     ![](assets/stop-delegation-nwe.png)
+## Ver aprobaciones delegadas {#view-delegated-approvals}
 
-### Ver aprobaciones delegadas {#view-delegated-approvals}
-
-En la Lista de trabajos se pueden ver únicamente los siguientes tipos de delegaciones de aprobación:
+Solo puede ver los siguientes tipos de delegaciones de aprobación en el widget Mis aprobaciones:
 
 * Aprobaciones de proyecto
 * Aprobaciones de tareas
@@ -177,16 +170,7 @@ En la Lista de trabajos se pueden ver únicamente los siguientes tipos de delega
 
 Para ver aprobaciones delegadas:
 
-1. Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
-
-   >[!NOTE]
-   >
-   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
-   >
-   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
-
-1. Haga clic en el menú desplegable **Filtro** y luego haga clic en **Aprobaciones**.\
-   Todas las aprobaciones se muestran en la lista de forma predeterminada, incluidas las aprobaciones que se le han asignado y las que le han delegado.
-
-   ![](assets/delegated-to-me-nwe-350x93.png)
+1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
+1. En el widget **Mis aprobaciones**, haga clic en el menú desplegable **Filtro** y luego haga clic en **Aprobaciones delegadas**.\
+   Todas las aprobaciones delegadas a usted se muestran en la lista.

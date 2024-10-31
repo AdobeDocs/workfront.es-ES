@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ La versión final de Beta 2018.3 incluye las siguientes mejoras:
 Al configurar el Calendario principal para que se sincronice con el Calendario de Outlook, los elementos del Calendario principal aparecerán ahora en el Calendario de Outlook.
 
 Anteriormente, sólo se podían sincronizar elementos desde el Calendario de Outlook al Calendario principal.
-
-Para obtener información sobre cómo configurar el Calendario principal para que se sincronice con Outlook, consulte [Configurar la configuración de la vista Calendario principal](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Actualizaciones para agregar nuevas tareas en Inicio {#updates-for-adding-new-tasks-in-home}
 

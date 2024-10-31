@@ -6,9 +6,9 @@ description: Puede compartir una prueba desde el visor de pruebas si el propieta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Si la prueba tiene un flujo de trabajo automatizado, puede añadir al usuario a 
 De forma predeterminada, los usuarios que agregue a la prueba:
 
 * Reciba una notificación por correo electrónico con un vínculo a la prueba.
-* Puede tomar decisiones de aprobación sobre la prueba desde el área de Inicio o Mi trabajo, como se describe en [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Puede tomar decisiones de aprobación sobre la revisión desde el área de Inicio, tal como se describe en [Aprobación del trabajo](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * No es necesario tener la revisión habilitada para poder revisarla.
 
 Cuando el flujo de trabajo automatizado está habilitado y agrega un usuario a la revisión que no tiene la revisión habilitada en Workfront, se crea una nueva etapa dentro del flujo de trabajo automatizado. El usuario que está agregando se agrega automáticamente a esta nueva etapa cuando ve la prueba por primera vez. Para obtener más información, consulte [Resumen del flujo de trabajo automatizado](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).

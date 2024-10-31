@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 1%
 
 ---
@@ -59,8 +59,6 @@ Ahora puede administrar sus tareas y programaciones de trabajo personales median
 * Realizar actualizaciones de las tareas asignadas
 
 Si utiliza un calendario en Outlook, puede integrarlo para que muestre los eventos de Outlook en la vista Calendario principal.
-
-Para obtener más información, consulte [Vista Calendario principal](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 ## Actualizaciones adicionales a la Lista de trabajos (panel izquierdo) en Inicio {#additional-updates-to-the-work-list-left-panel-in-home}
 
@@ -238,7 +236,7 @@ Antes de este cambio, solo el menú desplegable Más de la pestaña Documentos c
 
 Las siguientes opciones están ahora disponibles en el menú Nueva versión para todas las áreas en las que puede agregar una nueva versión:
 
-* Revisión
+* Prueba
 * Solo documento
 * Opciones vinculadas (desde Dropbox, desde Google Drive, etc.)
 * Pegar desde el portapapeles (se trata de una nueva opción al añadir versiones)

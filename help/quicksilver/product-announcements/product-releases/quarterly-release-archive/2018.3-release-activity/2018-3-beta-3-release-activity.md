@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ Hemos eliminado todas las etiquetas beta en el área de Inicio. Todas las planti
 Con la opción de ordenación Mi prioridad, ahora puede dar prioridad a cualquier elemento de trabajo de la lista de trabajos que sea importante para usted.
 
 Anteriormente, en el área Mi trabajo sólo se podía dar prioridad a tareas y problemas.
-
-Para obtener más información, vea [Priorizar el trabajo en el área de inicio](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ## Actualizar roles en el perfil de usuario como administrador de grupo {#update-roles-in-the-user-profile-as-a-group-administrator}
 
