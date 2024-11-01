@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
+source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,35 @@ Un campo personalizado calculado puede contener:
 
 * Una sencilla referencia a un único campo integrado.
 
-  >[!INFO]
-  >
-  > **Ejemplo:** Para calcular los ingresos generados por proyectos y tareas, puede crear un campo personalizado calculado que contenga el campo integrado Ingresos reales. Cuando alguien adjunta el formulario personalizado a un proyecto o tarea, los ingresos del proyecto o tarea se muestran en el campo.
+<div style="padding-left: 2em">
+
+>[!BEGINSHADEBOX]
+
+**Ejemplo:** Para calcular los ingresos generados por proyectos y tareas, puede crear un campo personalizado calculado que contenga el campo integrado Ingresos reales. Cuando alguien adjunta el formulario personalizado a un proyecto o tarea, los ingresos del proyecto o tarea se muestran en el campo.
+
+>[!ENDSHADEBOX]
+
+</div>
 
 * Expresión que hace referencia a uno o varios campos. Pueden ser campos personalizados, otros campos personalizados calculados y campos integrados.
 
-  >[!INFO]
-  >
-  >**Ejemplo:** Para calcular el beneficio generado por proyectos y tareas, puede crear un campo personalizado calculado denominado Beneficio que contenga una expresión matemática que reste costos de ingresos.
-  >
-  >Para ello, se puede utilizar la expresión matemática SUB (subtract) con los campos integrados de Workfront Coste real e Ingresos reales.
-  >
-  >En los pasos siguientes, puede ver cómo se puede llevar a cabo este ejemplo.
+<div style="padding-left: 2em">
 
+>[!BEGINSHADEBOX]
+
+**Ejemplo:** Para calcular el beneficio generado por proyectos y tareas, puede crear un campo personalizado calculado denominado Beneficio que contenga una expresión matemática que reste costos de ingresos.
+
+Para ello, se puede utilizar la expresión matemática SUB (subtract) con los campos integrados de Workfront Coste real e Ingresos reales.
+
+En los pasos siguientes, puede ver cómo crear una expresión como en este ejemplo.
+
+>[!ENDSHADEBOX]
+
+</div>
+
+>[!NOTE]
+>
+>Los cambios en un campo directo almacenan automáticamente en déclencheur una actualización del valor del campo calculado. (Los campos directos son campos disponibles en el Explorador de API de Workfront o campos personalizados en un formulario personalizado adjunto a un objeto). Los cambios realizados en una referencia o fórmula requieren que se recalculen manualmente los valores de los campos.
 
 ## Requisitos de acceso
 
