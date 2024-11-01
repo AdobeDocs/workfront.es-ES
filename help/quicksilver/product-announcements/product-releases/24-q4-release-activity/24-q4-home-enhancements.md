@@ -4,9 +4,9 @@ description: Mejoras en el hogar del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,16 @@ Para obtener más información, consulte [Introducción a Prioridades](/help/qui
 
 La versión 24.10 del Home heredado quedará obsoleta oficialmente.
 
-Con este cambio, se cambiará el nombre de las siguientes áreas de la plantilla de diseño:
+Con este cambio, se verán afectadas las siguientes áreas:
+
+**Plantilla de diseño**
 
 * Se cambiará el nombre del área de _espacio de trabajo principal_ a _hogar_.
 * Se cambiará el nombre del área _Inicio y Resumen_ a _Panel de resumen_. Las personalizaciones de esta área se seguirán aplicando al panel de resumen del nuevo Inicio. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+**Administrar aprobaciones**
+
+* Ya no podrá recuperar, recordar ni eliminar usuarios de las aprobaciones enviadas en el área de Inicio. En su lugar, puede administrar esto en la propia aprobación.
 
 Se recomienda a los usuarios que empiecen a utilizar la nueva página de inicio, que se seguirá mejorando con funciones adicionales antes de que quede obsoleta. Para obtener más información sobre la transición, incluidos consejos sobre lo que los usuarios y administradores pueden hacer para prepararse, consulte la [Guía de obsolescencia de la página principal heredada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 

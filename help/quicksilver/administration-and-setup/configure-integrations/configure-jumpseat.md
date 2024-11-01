@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>Debe tener un plan [!DNL JumpSeat] activo.</td> 
   </tr> 
   <tr> 
@@ -58,6 +58,12 @@ Antes de empezar, debe
 
 * Agregar y activar [!DNL Workfront] como una aplicación en [!DNL JumpSeat]. Para obtener más información, vea [Cómo agregar o eliminar una aplicación](https://support.jumpseat.io/article/how-to-add-an-application/).
 
+>[!IMPORTANT]
+>
+>Si se encuentra en la experiencia unificada de Adobe, debe usar la siguiente URL de la aplicación: `.workfront.adobe.com`.
+
+
+
 ## Configurar la integración de [!DNL JumpSeat]
 
 Se recomienda configurar una integración de [!DNL JumpSeat] en los entornos de vista previa y producción.
@@ -73,7 +79,15 @@ Para configurar la integración de [!DNL JumpSeat]:
 1. En el panel izquierdo, haga clic en **[!UICONTROL Sistema]** > Integración de **[!UICONTROL [!DNL JumpSeat]]**.
 1. Escriba la dirección URL **[!UICONTROL [!DNL JumpSeat]]**, que se encuentra en el icono de extensión en [!DNL JumpSeat].
 
-   **Ejemplo:** [!DNL https]://{mycompanyname}.jumpseat.io
+>[!BEGINSHADEBOX]
+
+**Ejemplo:**
+
+https://{mycompanyname}.jumpseat.io
+
+>>
+
+>[!ENDSHADEBOX]
 
 1. Escriba el token de integración **[!UICONTROL [!DNL JumpSeat]]**. Puede encontrar esto en la página **[!UICONTROL Configuración]** en [!DNL JumpSeat].
 

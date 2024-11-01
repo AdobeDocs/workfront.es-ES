@@ -4,9 +4,9 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del pr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ Para obtener una lista de todos los cambios disponibles con la versión del prim
 
 Hemos actualizado la barra de navegación de Workfront para mejorar su rendimiento. Los cambios de aspecto son mínimos.
 
-El cambio más notable es que las pantallas desplegables Favoritos y Recientes ya no tienen un botón de cierre. Puede simplemente hacer clic fuera de la pantalla o presionar ESC en el teclado para cerrarla.
+Los cambios más destacables son los siguientes:
+
+* Las pantallas desplegables Favoritos y Recientes ya no tienen un botón de cierre. Puede simplemente hacer clic fuera de la pantalla o presionar ESC en el teclado para cerrarla.
+* Ya no puede arrastrar y soltar páginas ancladas para organizarlas. En su lugar, hay un menú desplegable con botones que le permiten mover las páginas ancladas.
 
 ## Actualización de aspecto para la ventana Enviar actualización al usuario
 
