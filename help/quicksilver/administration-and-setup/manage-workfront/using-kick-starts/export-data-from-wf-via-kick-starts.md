@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 8%
+source-wordcount: '1028'
+ht-degree: 7%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 8%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 Como administrador de Adobe Workfront, puede utilizar el exportador de datos de KickStarts para exportar datos de Workfront. Puede usarlo en otras aplicaciones después de exportarlo.
 
@@ -334,11 +336,15 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
 
    No se pueden exportar los informes de matriz. Para obtener más información acerca de los informes de matriz, vea [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kick-Starts no admite filtros de modo de texto. Para que la exportación se realice correctamente, los filtros de creación de informes deben cambiarse al modo Estándar.
+   Kick-Starts no admite filtros o agrupaciones en modo texto. Para que la exportación se realice correctamente, los filtros y las agrupaciones de informes deben cambiarse al modo Estándar.
 
    Puede seleccionar hasta 100 paneles y 100 informes en una sola exportación.
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Exportación de KickStart](assets/kickstart-export-spreadsheet-options.png)
+
+   Imagen de muestra en el entorno de producción:
+   ![Exportación de KickStart](assets/kickstart-export-350x381.png)
 
    Puede exportar varios objetos al mismo tiempo.
 
@@ -346,4 +352,3 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
 
    Para exportaciones grandes, Workfront trabaja en segundo plano para producir el archivo de Excel y le envía un mensaje de advertencia sobre el retraso. El archivo de KickStart se le enviará por correo electrónico cuando finalice la descarga.
 
-   ![](assets/large-kick-start-file-warning-350x65.png)
