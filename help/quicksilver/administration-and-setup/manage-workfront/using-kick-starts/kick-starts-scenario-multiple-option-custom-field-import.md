@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Para exportar datos existentes desde Workfront:
 
 1. Seleccione **Datos personalizados** en la sección **Qué incluir**.
 
-   Imagen de muestra en el entorno de vista previa:
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Seleccionar datos personalizados](assets/kickstarts-select-existing-data.png)
 
    Imagen de muestra en el entorno de producción:
@@ -130,10 +130,11 @@ Después de analizar la información sobre los campos personalizados existentes 
 
 1. En el área **Descargar hoja de cálculo de KickStart** en blanco, seleccione la casilla **Datos personalizados** y haga clic en **Descargar**.
 
-   Imagen de muestra en el entorno de vista previa:
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Seleccionar datos personalizados](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Imagen de muestra en el entorno de producción:
+   ![Seleccionar datos personalizados](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Un archivo de inicio de sesión en blanco se descarga en el equipo.
 
@@ -182,7 +183,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
      >[!TIP]
      >
-     >    Si una línea representa un campo existente que ya se encuentra en Workfront, debe escribir **`isNew`** = **`FALSE`**.
+     >Si una línea representa un campo existente que ya se encuentra en Workfront, debe escribir **`isNew`** = **`FALSE`**.
 
    * **`ID`** = debe ser un número único para cada línea que represente un nuevo campo. Puede utilizar cualquier número que comience por 1, siempre que cada nuevo campo tenga un número único.
    * **`setDataType`** = para cada línea que represente un nuevo campo, escriba el tipo de datos que admite el campo. El tipo de datos debe introducirse tal como aparecería en la base de datos. Seleccione entre los siguientes tipos de datos:
