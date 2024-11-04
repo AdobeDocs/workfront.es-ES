@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -139,20 +139,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Campos de registro disponibles en la vista de tabla del tipo de registro seleccionado. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > Según el entorno que utilice para crear un formulario de solicitud, se producirán los siguientes escenarios:
-     >
-     >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud <span class="preview"> en los entornos de vista previa </span> o producción:
-     >
-     >    * Personas (incluye Creado por y Última modificación por)
-     >    * Fórmula
-     >    * Fecha de creación
-     >    * Fecha de la última modificación
-     >    * Campos conectados o campos de búsqueda de objetos Workfront
-     >    * Campos de búsqueda conectados de registros de Workfront Planning
-     >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en el entorno Producción. <span class="preview">Aparecen en el entorno de vista previa:</span>
-     >    * <span class="preview"> campos conectados de registros de Workfront Planning (incluye conexiones con Workfront y recursos de Experience Manager)</span>
+   >[!IMPORTANT]
+   >
+   > Según el entorno que utilice para crear un formulario de solicitud, se producirán los siguientes escenarios:
+   >
+   >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud <span class="preview"> en los entornos de vista previa </span> o producción:
+   >
+   >    * Personas (incluye Creado por y Última modificación por)
+   >    * Fórmula
+   >    * Fecha de creación
+   >    * Fecha de la última modificación
+   >    * Campos conectados o campos de búsqueda de objetos Workfront
+   >    * Campos de búsqueda conectados de registros de Workfront Planning
+   >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en el entorno Producción. <span class="preview">Aparecen en el entorno de vista previa:</span>
+   >    * <span class="preview"> campos conectados de registros de Workfront Planning</span>
 
 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
