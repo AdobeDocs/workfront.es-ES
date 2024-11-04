@@ -8,9 +8,9 @@ description: La función de [!DNL Adobe Workfront Fusion] es automatizar sus pro
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 600f5d41e1dbecf1f354805f7fc17bbcf2409aee
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -77,6 +77,8 @@ Workfront Fusion también ofrece funciones que admiten escenarios, como plantill
 A medida que empiece a trabajar con Workfront Fusion, puede encontrar útiles los siguientes recursos:
 
 * Para obtener recursos de formación de Workfront Fusion, consulte [Información general sobre formación de Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+
+* Para obtener más información sobre los escenarios, vea [Información general sobre escenarios](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
 
 * Para empezar a crear escenarios de práctica, vea [Crear escenarios de práctica](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 

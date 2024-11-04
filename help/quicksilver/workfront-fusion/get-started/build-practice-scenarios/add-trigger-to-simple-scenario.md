@@ -7,9 +7,9 @@ description: Aprenda a añadir un módulo de déclencheur para permitir que el e
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Debe crear el escenario descrito en [Crear un escenario básico](/help/quicksilv
 1. Seleccionar **Registro de inspección**.
 1. Asegúrese de que el módulo utiliza la misma conexión que el resto de módulos del escenario.
 1. En el campo Filtro, seleccione **Solo registros nuevos**.
+1. En el campo Tipo de registro, seleccione **Problema**.
 1. En el cuadro Resultados, seleccione `ID`, `Name` y `Project ID`.
 1. Haga clic en **Aceptar** para guardar la configuración del módulo.
 
