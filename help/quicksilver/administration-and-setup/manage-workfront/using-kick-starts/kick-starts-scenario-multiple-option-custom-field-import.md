@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
+source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Después de analizar la información sobre los campos personalizados existentes 
 
 1. Haga clic en **Importar datos (Kick-Starts)**.
 
-1. En el área **Descargar hoja de cálculo de KickStart** en blanco, seleccione la casilla **Datos personalizados** y haga clic en **Descargar**.
+1. En el área **Descargar hoja de cálculo de KickStart** en blanco, active la casilla **Datos personalizados** y haga clic en **Descargar**.
 
    <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Seleccionar datos personalizados](assets/kickstarts-select-existing-data.png)
