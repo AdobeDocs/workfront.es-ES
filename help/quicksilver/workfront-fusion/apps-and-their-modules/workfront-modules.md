@@ -9,9 +9,9 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6621'
+source-wordcount: '6797'
 ht-degree: 2%
 
 ---
@@ -282,7 +282,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo de registro]</td> 
-   <td> <p>(Se muestra después de elegir un <strong>Filtro</strong>.) Seleccione el tipo de registro [!DNL Workfront] que desea que el módulo vea.</p> <p>Por ejemplo, si desea iniciar el escenario cada vez que se cree un nuevo proyecto, seleccione [!UICONTROL Proyecto]</p> </td> 
+   <td> <p>(Se muestra después de elegir un <strong>Filtro</strong>.) Seleccione el tipo de registro de [!DNL Workfront] que desea que el módulo vea.</p> <p>Por ejemplo, si desea iniciar el escenario cada vez que se cree un nuevo proyecto, seleccione [!UICONTROL Proyecto]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Salidas]</td> 
@@ -631,7 +631,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Acción]</td> 
-   <td> <p>Seleccione la acción que desea que realice el módulo.</p> <p>Es posible que tenga que rellenar campos adicionales, según el [!UICONTROL Tipo de registro] y la [!UICONTROL Acción] que elija. Algunas combinaciones de estas dos configuraciones pueden requerir solamente un id. de registro, mientras que otras (como Proyecto para <strong>[!UICONTROL Tipo de registro]</strong> y [!UICONTROL Adjuntar plantilla] para la <strong>[!UICONTROL Acción]</strong>) requieren información adicional (como un id. de objeto y un id. de plantilla).</p> <p>Para obtener detalles sobre campos individuales, consulte la <a href="http://developer.workfront.com/">documentación para desarrolladores de Workfront</a>. <p><strong>Nota</strong>: el sitio de documentación para desarrolladores incluye información solamente a través de la versión 14 de la API, pero aún contiene información valiosa para las llamadas a la API. </p> 
+   <td> <p>Seleccione la acción que desea que realice el módulo.</p> <p>Es posible que tenga que rellenar campos adicionales, según el [!UICONTROL Tipo de registro] y la [!UICONTROL Acción] que elija. Algunas combinaciones de estas dos configuraciones pueden requerir solamente un id. de registro, mientras que otras (como Proyecto para <strong>[!UICONTROL Tipo de registro]</strong> y [!UICONTROL Adjuntar plantilla] para la <strong>[!UICONTROL Acción]</strong>) requieren información adicional (como un id. de objeto y un id. de plantilla).</p><p>Para ver las opciones disponibles para algunas acciones, consulte <a href="#misc-action-options" class="MCXref xref">Otras opciones de acción</a> en este artículo.</p> <p>Para obtener detalles sobre campos individuales, consulte la <a href="http://developer.workfront.com/">documentación para desarrolladores de Workfront</a>. <p><strong>Nota</strong>: el sitio de documentación para desarrolladores incluye información solamente a través de la versión 14 de la API, pero aún contiene información valiosa para las llamadas a la API. </p> 
     <ol> 
      <li value="1"> <p>Seleccione el tipo de registro en el panel de navegación izquierdo de la página Documentación para desarrolladores de [!DNL Workfront]. Los siguientes tipos tienen sus propias páginas:</p> 
       <ul> 
@@ -653,6 +653,156 @@ Al configurar este módulo, se muestran los campos siguientes.
 </table>
 
 Vea una lista de [!DNL Workfront] tipos de objetos para los que puede usar este módulo en [[!DNL Workfront] tipos de objetos disponibles para cada [!DNL Workfront] módulo](#workfront-object-types-available-for-each-workfront-module).
+
+#### Varias opciones de acción
+
+##### Tarea
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Acción</th> 
+   <th>Opciones</th> 
+  </tr> 
+  <tr> 
+   <td>Copiar</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Borra los datos financieros</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Borra las notificaciones de recordatorio</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Mover</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Borra los datos financieros</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Borra las notificaciones de recordatorio</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Problema
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Acción</th> 
+   <th>Opciones</th> 
+  </tr> 
+  <tr> 
+   <td>Copiar</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearPermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Convertir a tarea</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Mantener el problema original y enlazar su solución a esta tarea</p></li>
+   <li>preservePrimaryContact<p>Permitir que el contacto principal de los problemas acceda a esta tarea</p></li>
+   <li>preserveCompletionDate<p>Conservar la fecha planificada de finalización del problema</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Convertir en proyecto</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Mantener el problema original y enlazar su solución a esta tarea</p></li>
+   <li>preservePrimaryContact<p>Permitir que el contacto principal de los problemas acceda a esta tarea</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### Proyecto
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Acción</th> 
+   <th>Opciones</th> 
+  </tr> 
+  <tr> 
+   <td>Copiar</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Borra los datos financieros</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Borra las notificaciones de recordatorio</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Adjuntar plantilla / Guardar como plantilla</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverables<p>Borra metas</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Borra los datos financieros</p></li>
+   <li>clearHourTypes</li>
+   <li>clearIssueSetup<p>Borra las propiedades de cola y la configuración de problemas</p></li>
+   <li>clearPredecessors</li>
+   <li>clearRisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>Borra las notificaciones de recordatorio</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,6 +1079,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
  </tbody> 
 </table>
+
 +++
 
 +++ **[!UICONTROL Buscar (heredado)]**
