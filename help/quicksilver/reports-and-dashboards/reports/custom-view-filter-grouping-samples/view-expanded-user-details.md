@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: detalles del usuario expandidos"
+title: "Ver: Detalles del usuario ampliados"
 description: Esta vista de usuario muestra información sobre los usuarios. Además del nombre, los niveles de acceso y la compañía, también muestra listas de sus grupos, equipos y roles.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # Ver: detalles del usuario expandidos
 
+<!--Audited: 11/2024-->
+
 Esta vista de usuario muestra información sobre los usuarios. Además del nombre, los niveles de acceso y la compañía, también muestra listas de sus grupos, equipos y roles.
 
 ![expand_user_view.png](assets/expanded-user-view-350x75.png)
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -29,28 +33,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud para modificar una vista </p>
-   <p>Plan para modificar un informe</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo:<ul><li>Colaborador para modificar una vista</li><li>Estándar para modificar un informe</li></ul></p><p>O</p>Actual:<ul><li>Solicitud para modificar una vista</li><li>Plan para modificar un informe</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ver detalles expandidos del usuario
 
@@ -60,16 +63,92 @@ Para aplicar esta vista:
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto**.
-1. Pase el ratón sobre el área de modo de texto y haga clic **Haga clic para editar el texto**.
-1. Elimine el texto que encuentre en el cuadro **Modo de texto** y reemplácelo por el siguiente código:
+1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
+1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: extra tag here that adds extra spaces in Preview)
-   </MadCap:conditionalText>
-   -->
+   ```
+   column.0.descriptionkey=name 
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat=int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield=objCode
+   column.0.link.valueformat=val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=0
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.descriptionkey=accesslevel
+   column.1.link.linkproperty.0.name=ID
+   column.1.link.linkproperty.0.valuefield=accessLevel:ID
+   column.1.link.linkproperty.0.valueformat=int
+   column.1.link.lookup=link.view
+   column.1.link.valuefield=accessLevel:objCode
+   column.1.link.valueformat=val
+   column.1.linkedname=accessLevel
+   column.1.listsort=string(displayName)
+   column.1.namekey=accesslevel
+   column.1.querysort=name
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=accessLevel:displayName
+   column.1.valueformat=HTML
+   column.1.viewalias=accessLevel:displayName
+   column.1.width=100
+   column.2.link.linkproperty.0.name=ID
+   column.2.link.linkproperty.0.valuefield=ID
+   column.2.link.linkproperty.0.valueformat=int
+   column.2.link.lookup=link.view
+   column.2.link.value=val(objCode)
+   column.2.listdelimiter=
+   column.2.listmethod=nested(userGroups).lists
+   column.2.namekey=group.plural
+   column.2.stretch=50
+   column.2.type=iterate
+   column.2.valuefield=group:name
+   column.2.valueformat=HTML
+   column.2.width=150
+   column.3.displayname=Teams
+   column.3.listdelimiter=
+   column.3.listmethod=nested(teams).lists
+   column.3.textmode=true
+   column.3.type=iterate
+   column.3.valueexpression={name}
+   column.3.valueformat=HTML
+   column.4.link.linkproperty.0.name=ID
+   column.4.link.linkproperty.0.valuefield=ID
+   column.4.link.linkproperty.0.valueformat=int
+   column.4.link.lookup=link.view
+   column.4.link.value=val(objCode)
+   column.4.listdelimiter=
+   column.4.listmethod=nested(userRoles).lists
+   column.4.namekey=jobrole.plural
+   column.4.stretch=50
+   column.4.type=iterate
+   column.4.valuefield=role:name
+   column.4.valueformat=HTML
+   column.4.width=150
+   column.5.descriptionkey=company
+   column.5.link.linkproperty.0.name=ID
+   column.5.link.linkproperty.0.valuefield=company:ID
+   column.5.link.linkproperty.0.valueformat=int
+   column.5.link.lookup=link.view
+   column.5.link.valuefield=company:objCode
+   column.5.link.valueformat=val
+   column.5.linkedname=company
+   column.5.listsort=nested(company).string(name)
+   column.5.namekey=company
+   column.5.querysort=company:name
+   column.5.shortview=false
+   column.5.stretch=0
+   column.5.valuefield=company:name
+   column.5.valueformat=HTML
+   column.5.width=150
+   ```
 
-   <pre>column.0.descriptionkey=name <br>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.linkproperty.0.valueformat=int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield=objCode<br>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0 .namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=0<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.descriptionkey=accesslevel<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.property .0.valuefield=accessLevel:ID<br>column.1.link.linkproperty.0.valueformat=int<br>column.1.link.lookup=link.view<br>column.1.link.valuefield=accessLevel:objCode<br>column.1.link.valueformat=val<br>column.1.linkedname=accessLevel<br>column.1.listsort=string(displayName)<br>column.1.namekey=accesslevel<br>column.1.querysort=name<br>column.1.shortview=false<br>column.1.stretch=0<br>column.1.valuefield=accessLevel:displayName<br>column.1.valueformat=HTML<br>column.1.viewalias=accessLevel:displayName<br>column.1.width=100<br>column.2.link.linkproperty.0.name=ID<br>column.2.link.property.link.valuefield=ID<br>column.2.link.linkproperty.0.valueformat=int<br>column.2.link.lookup=link.view<br>column.2.link.value=val(objCode)<br>column.2.listdelimiter=<br>column.2.listmethod=nested(userGroups).lists<br>column.2.namekey=group.plural<br>column.2.stretch=50<br>column.2.type=ate<br>column.2.valuefield=group:name<br>column.2.valueformat=HTML<br>column.2.width=150<br>column.3.displayname=Equipos<br>column.3.listdelimiter=<br>column.3.listmethod=nested(equipos).lists<br>column.3.textmode=true<br>column.3.type=iterate<br>column.3.valueexpression={name} 52}column.3.valueformat=HTML<br>column.4.link.linkproperty.0.name=ID<br>column.4.link.linkproperty.0.valuefield=ID<br>column.4.link.linkproperty.0.valueformat=int<br>column.4.link.lookup=link.view<br>column.4.link.value=val(objCode)<br>column.4.listdelimiter=<br>column.4.listmethod=nested(userCode) Roles).lists<br>column.4.namekey=jobrole.plural<br>column.4.stretch=50<br>column.4.type=iterate<br>column.4.valuefield=role:name<br>column.4.valueformat=HTML<br>column.4.width=150<br>column.5.descriptionkey=compañía<br>column.5.link.linkproperty.0.name=ID<br>column.5 link.linkproperty.0.valuefield=company:ID<br>column.5.link.linkproperty.0.valueformat=int<br>column.5.link.lookup=link.view<br>column.5.link.valuefield=company:objCode<br>column.5.link.valueformat=val<br>column.5.linkedname=company<br>column.5.listsort=nested(company).string(name)<br>column.5.namekey=company{75 6}column.5.querysort=company:name<br>column.5.shortview=false<br>column.5.stretch=0<br>column.5.valuefield=company:name<br>column.5.valueformat=HTML<br>column.5.width=150<br><br></pre>
-
-1. Pulse **Guardar vista**.
+1. Haga clic en **Listo** > **Guardar vista**.

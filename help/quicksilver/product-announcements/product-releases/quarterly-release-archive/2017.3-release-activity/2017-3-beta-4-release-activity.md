@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Esta información se puede mostrar en un informe o lista de tareas o proyectos c
 
 Antes de este cambio, no se podía informar sobre esta información.
 
-Para obtener más información acerca de cómo crear la vista de modo de texto personalizado que captura la información del problema original, vea [Ver: mostrar información del problema original en listas de tareas y proyectos](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Para obtener más información acerca de cómo crear la vista de modo de texto personalizado que captura la información del problema original, vea [Ver: mostrar la información del problema original en las listas de tareas o proyectos](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Las actualizaciones del sistema de filtros en el flujo de actualización ahora son persistentes entre objetos {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

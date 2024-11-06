@@ -7,7 +7,7 @@ description: Un objeto solucionable es un problema cuya resolución está vincul
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 1%
@@ -228,7 +228,7 @@ En la tabla siguiente se muestran los campos que se pueden mostrar y en qué vis
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nombre del problema original, Fecha de entrada del problema original, Nombre del creador</strong>: muestra el nombre y la fecha de entrada del problema original, así como el nombre del usuario que creó el problema en una vista personalizada en modo de texto.<br>Para obtener más información acerca de cómo crear una vista personalizada en modo de texto para un proyecto o un informe de tareas o una lista con el fin de mostrar información sobre el problema original, vea <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ver: mostrar la información del problema original en las listas de tareas y proyectos</a>.<br></td> 
+   <td><strong>Nombre del problema original, Fecha de entrada del problema original, Nombre del creador</strong>: muestra el nombre y la fecha de entrada del problema original, así como el nombre del usuario que creó el problema en una vista personalizada en modo de texto.<br>Para obtener más información acerca de cómo crear una vista personalizada en modo de texto para un proyecto, informe de tareas o lista para mostrar información sobre el problema original, vea <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Ver: mostrar información del problema original en listas de tareas o proyectos</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

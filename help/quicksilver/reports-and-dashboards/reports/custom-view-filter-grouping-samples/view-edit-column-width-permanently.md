@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: editar de forma permanente la anchura de una columna"
+title: "Ver: Editar permanentemente la anchura de una columna"
 description: Puede modificar temporalmente el ancho de las columnas arrastrando y soltando sus márgenes para que coincidan con el ancho deseado. Para obtener más información, consulte Modificación del ancho y el orden de las columnas.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Ver: editar de forma permanente la anchura de una columna
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Puede modificar temporalmente el ancho de las columnas arrastrando y soltando sus márgenes para que coincidan con el ancho deseado. Para obtener más información, vea [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
@@ -73,7 +73,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    Haga clic en el encabezado de cualquier columna existente.
 
 1. Haga clic en **Cambiar al modo de texto**.
-1. Pase el ratón sobre el área de modo de texto y haga clic **Haga clic para editar el texto**.
+1. Haga Clic En **Editar Modo De Texto**.T
 1. Agregue el siguiente código al modo de texto de la columna:
 
    ```
@@ -83,6 +83,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    En la línea **width**, especifique cualquier número (en píxeles) que represente el ancho que desea que muestre la columna en la vista.
 
-1. Haz clic en **Guardar** y luego en **Guardar vista**.
+1. Haga clic en **Listo** y luego en **Guardar vista**.
 
 

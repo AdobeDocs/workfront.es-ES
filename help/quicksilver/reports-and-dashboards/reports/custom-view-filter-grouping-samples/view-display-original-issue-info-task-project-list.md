@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: mostrar la información original del problema en las listas de tareas y proyectos"
+title: "Ver: mostrar la información original del problema en las listas de tareas o proyectos"
 description: Puede mostrar información del problema original en una vista de listas de tareas y proyectos, una vez que el problema se haya convertido a las tareas y proyectos de la lista.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
 
 ---
 
-# Ver: mostrar la información original del problema en las listas de tareas y proyectos
+# Ver: mostrar la información original del problema en listas de tareas o proyectos
 
 Puede mostrar la siguiente información del problema original en una vista de listas de tareas y proyectos, una vez que el problema se haya convertido a las tareas y proyectos de la lista:
 

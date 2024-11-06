@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: combinar información de varias columnas en una columna compartida"
+title: "Ver: Combinar información de varias columnas en una columna compartida"
 description: Puede combinar la información que se muestra en varias columnas independientes y mostrarla en una columna compartida.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Ver: combinar información de varias columnas en una columna compartida
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Puede combinar la información que se muestra en varias columnas independientes y mostrarla en una columna compartida.
 
@@ -94,7 +94,10 @@ Puede combinar los datos de varias columnas independientes para mostrarlos en un
 
 Para combinar datos de dos columnas sin un salto de línea:
 
-1. Con el modo de texto de una vista, agregue el siguiente texto a la primera columna que desee combinar:
+1. Ir a una lista de objetos.
+1. En la lista desplegable **Vista**, seleccione una vista y luego haga clic en el icono **Editar** ![](assets/edit-icon.png) para editar la vista.
+1. Vaya a la primera columna que desee combinar y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
+1. Agregue el siguiente texto a la primera columna que desee combinar:
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ Para combinar datos de dos columnas sin un salto de línea:
 
    Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información para compartir de cada columna.
 
-   **Ejemplo:** A continuación se muestra el código de modo de texto de una columna combinada que contiene tres columnas independientes, comenzando por la segunda columna de la lista. Los valores combinados son Nombre del proyecto, Fecha planificada de inicio y Nombre del propietario del proyecto. No hay ningún salto entre los tres valores:
 
-   `column.1.valuefield=name`
+   **EJEMPLO:** A continuación se muestra el código de modo de texto de una columna combinada que contiene tres columnas independientes, comenzando por la segunda columna de la lista. Los valores combinados son Nombre del proyecto, Fecha planificada de inicio y Nombre del propietario del proyecto. No hay ningún salto entre los tres valores:
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. Haz clic en **Guardar** y luego en **Guardar vista**.
+1. Haga clic en **Listo** y luego en **Guardar vista**.
 
 ## Combinar datos de dos columnas con un salto de línea
 
 Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una columna común con un salto de línea entre los valores de cada columna:
 
+1. Ir a una lista de objetos.
+1. En la lista desplegable **Vista**, seleccione una vista y luego haga clic en el icono **Editar** ![](assets/edit-icon.png) para editar la vista.
 1. Agregue una tercera columna entre las dos columnas que desee combinar.
 
    >[!TIP]
@@ -137,18 +139,16 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
    >* Las columnas que desee combinar deben ser adyacentes entre sí.
    >* Debe hacer clic en la primera columna que desee combinar.
 
-1. Haga clic en **Cambiar al modo de texto** y agregue el código siguiente en la columna central que agregó en el paso 1:
+1. Haga clic en **Cambiar al modo de texto** > **Editar modo de texto** y agregue el siguiente código en la columna central que agregó en el paso 1:
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. Haga clic en la primera columna y haga clic en **Cambiar al modo de texto**; a continuación, agregue el texto siguiente a la columna:
+1. Haga clic en la primera columna y haga clic en **Cambiar al modo de texto** > **Editar modo de texto**; a continuación, agregue el texto siguiente a la columna:
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
 
    Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información para compartir.
 
-   **Ejemplo:** A continuación se muestra el código de modo de texto de una columna compartida que contiene el nombre del proyecto, la fecha planificada de inicio y el nombre del propietario del proyecto con un salto de línea. La columna compartida es la segunda columna de una vista de proyecto.
+   **EJEMPLO:** A continuación se muestra el código de modo de texto de una columna compartida que contiene el nombre del proyecto, la fecha planificada de inicio y el nombre del propietario del proyecto con un salto de línea. La columna compartida es la segunda columna de una vista de proyecto.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Haz clic en **Guardar** y luego en **Guardar vista**.
+1. Haga clic en **Listo** y luego en **Guardar vista**.
