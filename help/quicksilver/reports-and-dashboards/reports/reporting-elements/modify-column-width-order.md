@@ -6,14 +6,16 @@ description: Lea este artículo para obtener más información sobre las directr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 # Modificar el ancho y el orden de las columnas
+
+<!-- Audited: 11/2024 -->
 
 A continuación se ofrecen directrices sobre cómo funcionan los anchos de columna en Adobe Workfront:
 
@@ -36,6 +38,8 @@ A continuación se ofrecen directrices sobre cómo funcionan los anchos de colum
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Solicitud o superior </p> </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador o superior</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Solicitud o superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar la vista de un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar la vista de un informe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos de un informe para editar una vista de un informe</p> <p>Administrar permisos a una vista para editarla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe para editar una vista de un informe</p> <p>Administrar permisos a una vista para editarla</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modificar el ancho y el orden de las columnas
 
@@ -113,17 +128,13 @@ Para obtener más información acerca de cómo exportar datos de listas e inform
 #### Cambiar el tamaño de columnas temporalmente {#resize-columns-temporarily}
 
 1. Vaya a la lista que desee modificar.
-1. Arrastre el borde de una columna hasta que la columna alcance el tamaño deseado.\
+1. Arrastre el borde de un encabezado de columna hasta que la columna alcance el tamaño deseado.\
    ![](assets/column-resize-350x124.png)
 
 #### Reordenar las columnas temporalmente {#reorder-columns-temporarily}
 
 1. Vaya a la lista que desee modificar.
-1. Haga clic en una columna que desee mover a otra ubicación para elegir la columna.
-1. Arrastre la columna a la ubicación correcta.
-1. Coloque la columna en la ubicación para moverla.
-
-   ![](assets/column-reorder-350x118.png)
+1. Haga clic en el encabezado de columna que desee mover a la ubicación deseada y arrástrelo.
 
 >[!TIP]
 >

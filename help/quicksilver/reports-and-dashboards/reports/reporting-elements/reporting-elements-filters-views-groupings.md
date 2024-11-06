@@ -6,24 +6,22 @@ description: Los elementos principales que cada lista e informe debe tener en Wo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Elementos de informes: filtros, vistas y agrupaciones
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Existen varios elementos que hacen posible una lista o un informe en Adobe Workfront. Los elementos principales que debe tener cada lista e informe son un filtro, una vista y una agrupación. Cada elemento proporciona información diferente dentro de un informe.
 
@@ -56,11 +54,10 @@ Algunos atributos de los filtros son:
 
   Para obtener más información acerca de los filtros, vea el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Icono de filtro](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Vistas
 
-Al definir la vista de un informe, se define qué información se incluye en el informe. Al igual que todos los elementos de los informes, las vistas se basan en un tipo de objeto.\
+Al definir la vista de un informe, se define qué información se incluye en el informe. Al igual que todos los elementos de los informes, las vistas se basan en un tipo de objeto.
+
 Por ejemplo, una vista para un informe de tareas podría mostrar Fechas de vencimiento, incluir detalles financieros clave como Costo, o utilizarse para mostrar detalles de Asignaciones y Fecha de entrega. Las vistas se pueden utilizar para proporcionar diversos detalles sobre los datos del informe.
 
 Algunos atributos de las vistas son:

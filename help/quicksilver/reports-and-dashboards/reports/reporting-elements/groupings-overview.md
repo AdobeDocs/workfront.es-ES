@@ -7,18 +7,18 @@ description: Puede agregar agrupaciones para administrar el diseño de la inform
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Información general sobre agrupaciones en Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 Puede agregar agrupaciones para administrar el diseño de la información en los informes y las listas.
 
@@ -32,13 +32,13 @@ Puede agregar agrupaciones a informes de las siguientes maneras:
 
   Para obtener información sobre cómo crear una agrupación desde cero, consulte [Crear agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-De forma predeterminada, las agrupaciones se muestran en un resaltado gris o azul en el informe o la lista. Los resultados del informe o la lista se enumeran en su grupo individual, sin resaltado.
+De forma predeterminada, las agrupaciones se muestran en un resaltado gris en el informe o la lista. Los resultados del informe o la lista se enumeran en su grupo individual, sin resaltado.
+
+![Ejemplo de agrupación](assets/grouping-example-blue.png)
 
 Se pueden agregar hasta tres agrupaciones a un informe. Puede organizar la información con hasta cuatro agrupaciones creando un informe de matriz. Para obtener más información sobre los informes de matriz, consulte [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-En un informe de agrupación estándar, la primera agrupación es de color más oscuro y las agrupaciones segunda y tercera son más claras. No se puede personalizar el color del resaltado para la agrupación ni la fuente del nombre de la agrupación. El número entre paréntesis después del nombre de la agrupación representa el número de resultados bajo esa agrupación. Si el informe abarca varias páginas, asegúrese de mostrar *Todos* los resultados en el informe o lista para obtener un recuento preciso de los resultados en cada agrupación.
-
-![Agrupación de muestra](assets/grouping-example-blue.png)
+El número entre paréntesis después del nombre de la agrupación representa el número de resultados bajo esa agrupación. Si el informe abarca varias páginas, asegúrese de mostrar *Todos* los resultados en el informe o lista para obtener un recuento preciso de los resultados en cada agrupación.
 
 Tenga en cuenta lo siguiente al trabajar con agrupaciones:
 

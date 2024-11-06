@@ -7,7 +7,7 @@ description: Puede utilizar filtros en Adobe Workfront para reducir la cantidad 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Resumen de filtros
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 Puede utilizar filtros en Adobe Workfront para reducir la cantidad de información que se muestra en la pantalla en listas, informes u otras áreas.
 
@@ -71,13 +71,16 @@ Para obtener más información sobre los filtros en listas e informes, consulte 
 
 Puede utilizar filtros integrados o crear filtros personalizados en las siguientes áreas de Workfront:
 
-* Inicio\
+* Inicio
+
   Para obtener más información, consulte [Mostrar elementos en la Lista de trabajos en el área de Inicio](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
 * Área de solicitudes. No puede personalizar filtros en el área de Solicitudes.
 
   Para obtener más información, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* Planificador de recursos\
+* Planificador de recursos
+
   Para obtener más información, consulte el artículo [Filtrar información en el Planificador de recursos](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Informe de utilización
@@ -104,9 +107,7 @@ Puede utilizar filtros integrados o crear filtros personalizados en las siguient
   >
   >Los filtros no se pueden personalizar en el Scenario Planner.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   Puede utilizar filtros integrados para planes, iniciativas o proyectos, y puede personalizar filtros de proyecto en el Scenario Planner.
 

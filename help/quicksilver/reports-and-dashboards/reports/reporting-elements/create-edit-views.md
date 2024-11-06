@@ -6,14 +6,16 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
 
 # Creación o edición de vistas en Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Puede personalizar el tipo de información que se muestra en la pantalla mediante las vistas. Puede utilizar varios tipos de vistas en Adobe Workfront.
 
@@ -30,25 +32,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador o superior</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Solicitud o superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para crear una vista en un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para crear una vista en un informe</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos de un informe para crear o editar una vista de un informe</p> <p>Administrar permisos a una vista para editarla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Permisos de objeto*</strong></td> 
+   <td> <p>Administración de permisos de un informe para crear o editar una vista de un informe</p> <p>Administrar permisos a una vista para editarla</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,10 +77,11 @@ El proceso de creación o personalización de una vista varía en función de si
 Puede crear una nueva vista estándar o personalizar una vista estándar existente que haya creado anteriormente.
 
 1. Haga clic en el menú desplegable **Vista** en cualquier lista donde quiera crear o personalizar una vista.
-1. (Opcional) Para personalizar una vista existente, seleccione la vista estándar que desee personalizar.\
-   Las vistas estándar están disponibles en cualquier tipo de lista de Workfront, como un informe, una lista de proyectos o una lista de tareas.
-1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Personalizar vista** o en **Nueva vista**.\
-   Se muestra el cuadro de diálogo **Personalizar vista**.
+
+1. Haga clic en el botón **+ Nueva vista** para crear una vista nueva.
+O
+Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) que aparece al pasar el ratón a la derecha de la vista existente que desee editar.
+Se muestra el cuadro de diálogo **Personalizar vista**.
 
 1. En la sección **Vista previa de columna**, realice una de las acciones siguientes:
 
@@ -121,7 +135,7 @@ Puede crear una nueva vista estándar o personalizar una vista estándar existen
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Reglas de columna</strong></td> 
-           <td><p>Haga clic en <strong>Agregar una regla para esta columna</strong> para definir una regla para la columna. Después de agregar una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en <strong>Agregar regla</strong> después de haber terminado de definir la regla.</p></td> 
+           <td><p>Haga clic en <strong>+ Agregar una regla para esta columna</strong> para definir una regla para la columna. Después de agregar una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en <strong>Agregar regla</strong> después de haber terminado de definir la regla.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ Para crear o personalizar una vista de Agile:
     </tbody> 
    </table>
 
-1. En la sección **Agile**, en el área de **Campos adicionales**, haga clic en **Agregar campo** y, a continuación, seleccione el campo que desee agregar a las tarjetas de historia. (Son los mismos campos que puede agregar al crear, personalizar una vista o crear columnas para un informe).\
+1. En el área **Campos adicionales**, haga clic en **Agregar campo** y, a continuación, seleccione el campo que desee agregar a las tarjetas de historia. (Son los mismos campos que puede agregar al crear, personalizar una vista o crear columnas para un informe).\
    Repita este proceso para agregar hasta tres campos adicionales a las tarjetas de historia.\
    Cuando se agregan campos a las tarjetas de historia, los campos son de sólo lectura y sólo se muestran cuando se rellena el campo.
 

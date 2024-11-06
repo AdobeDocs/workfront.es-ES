@@ -7,7 +7,7 @@ description: Puede personalizar el tipo de información que se muestra en una li
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Información general sobre vistas en Adobe Workfront
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 Puede personalizar el tipo de información que se muestra en una lista o informe administrando la vista de la lista o informe. Los objetos y sus atributos se pueden visualizar en una vista. Para obtener información acerca de los objetos de Adobe Workfront, vea [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

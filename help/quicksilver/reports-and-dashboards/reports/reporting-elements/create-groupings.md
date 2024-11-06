@@ -6,24 +6,26 @@ description: Puede crear una agrupación personalizada desde cero o personalizar
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # Creación de agrupaciones en Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 Los resultados de un informe o una lista se pueden organizar con una agrupación. Las agrupaciones clasifican la información en función de un fragmento de información concreto.
 
 Puede crear una agrupación personalizada desde cero o personalizar una agrupación existente. Siga los pasos a continuación para crear una agrupación desde cero.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -37,20 +39,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Solicitud o superior </p> </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador o superior</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Solicitud o superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Edite el acceso a Informes, Paneles y Calendarios para crear una agrupación en un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Edite el acceso a Informes, Paneles y Calendarios para crear una agrupación en un informe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos de un informe para editar una agrupación en un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td><p>Administración de permisos de un informe para editar una agrupación en un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creación de una agrupación
 
@@ -59,10 +72,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![Seleccionar nueva agrupación](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Haga clic en **Nueva agrupación**.
+1. Haga clic en **+ Nueva agrupación**.
 Generador de interfaces para crear los lanzamientos de agrupación.
 
-1. En la sección **Vista previa de la agrupación**, haga clic en **Agregar agrupación** para definir cómo desea que se organice la información en el informe. A continuación, se muestra una vista previa del aspecto de la agrupación en el informe.
+1. En el área **Vista previa de la agrupación**, haga clic en **Agregar agrupación** para definir cómo desea que se organice la información del informe. A continuación, se muestra una vista previa del aspecto de la agrupación en el informe.
 
 1. Comience a escribir el nombre del campo que representa la forma en que desea organizar la información en el informe y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
 1. (Opcional y condicional) Cuando genere una agrupación en una lista actualizada, seleccione **Contraer esta agrupación de forma predeterminada** si desea que los resultados de la agrupación se muestren contraídos en lugar de expandidos. Esta configuración está deshabilitada de forma predeterminada y los resultados de la agrupación siempre se muestran en la lista expandida.

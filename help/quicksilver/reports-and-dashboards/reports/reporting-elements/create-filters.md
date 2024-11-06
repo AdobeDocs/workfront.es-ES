@@ -6,16 +6,16 @@ description: Puede limitar la cantidad de información que se muestra en pantall
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # Creación o edición de filtros en Adobe Workfront
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 Puede limitar la cantidad de información que se muestra en pantalla en una lista de elementos con un filtro. Se pueden definir ciertos criterios basados en información concreta sobre un objeto y mostrar únicamente los objetos que cumplen esos criterios.
 
@@ -47,42 +47,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Nuevo: Colaborador o superior</p>
-
-O
-
-<p>Actual: Solicitud o superior</p>
-
-<p><b>NOTA:</b></p>
-
-Para editar un filtro en un informe, debe tener la siguiente licencia:
-
-<p>Nuevo: estándar</p>
-
-O
-
-<p>Actual: plan</p>
-
-</td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador para modificar un filtro</p></li>
+         <li><p>Estándar para modificar un filtro en un informe</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Solicitud para modificar un filtro</p></li>
+         <li><p>Plan para modificar un filtro en un informe</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
    <td> <ul><li><p>Editar el acceso a filtros, vistas y agrupaciones</p></li></ul>
-    <p><b>NOTA:</b></p>
-   Para editar un filtro en un informe, debe tener la siguiente configuración de nivel de acceso, además del acceso de edición a filtros, vistas y agrupaciones:
 
-<ul><li><p>Editar el acceso a Informes, Paneles y Calendarios</p></li></ul>
+Para editar un filtro en un informe, debe tener la siguiente configuración de nivel de acceso, además del acceso de edición a filtros, vistas y agrupaciones:
 
-<p><b>NOTA:</b></p> <p> Si no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+<ul><li><p>Editar el acceso a Informes, Paneles y Calendarios</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos para un filtro</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader"><strong>Permisos de objeto*</strong></td> 
+   <td> <p>Administración de permisos para un filtro</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -369,19 +363,17 @@ Puede crear filtros heredados en listas e informes de las siguientes maneras:
 Independientemente del método que utilice para crear filtros, la creación de un filtro desde cero o desde un filtro existente es similar.
 
 1. Vaya a una lista o a un informe que contenga el filtro que desea personalizar.
-1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png).
+1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png), luego haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) y luego en **Volver a los filtros heredados**.
 
    >[!TIP]
    >
    >El creador del informe debe permitir que se editen los filtros para ver la lista desplegable Filtro en un informe. El filtro Informe predeterminado se aplica a un informe de forma predeterminada. El filtro Informe predeterminado solo se puede personalizar cuando edita el informe.
 
-   ![Lista desplegable de filtros](assets/filter-drop-down-expanded-nwe.png)
-
-1. Haga clic en **Nuevo filtro** en la parte superior de la lista de filtros.
+1. Haga clic en **+ Nuevo filtro** en la parte superior de la lista de filtros.
 
    O
 
-   Pase el ratón sobre el filtro que quiera modificar y haga clic en el icono **Editar** ![](assets/edit-icon.png).
+   Pase el ratón sobre el filtro que quiera modificar y haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
    Generador para personalizar los lanzamientos de filtros.
 
@@ -423,7 +415,7 @@ Independientemente del método que utilice para crear filtros, la creación de u
 
    O
 
-   Haga clic en **Guardar como nuevo filtro** para crear un filtro a partir del seleccionado.
+   Haga clic en **Guardar como nuevo filtro** para crear un nuevo filtro a partir del seleccionado.
 
    El nuevo filtro se muestra en la lista de filtros y se aplica automáticamente a la lista o al informe seleccionado.
 
