@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: Ligero o superior para registrar horas en un proyecto, tarea, problema o Horas generales en una hoja de horas</p>
+   <td> <p>Nuevo:</p>
+   <ul><li><p> Ligero o superior para registrar horas en una tarea, un problema o las horas generales en una hoja de horas</p>
+   <li><p>Estándar para registrar horas en los proyectos</p></li></ul>
+   <p>
    <p>Actual: 
    <ul><li>Revise o superior para registrar horas generales en una hoja de horas</li>
    <li>Trabajar o más para registrar horas en un proyecto, tarea o problema</li></ul> </td> 
@@ -90,7 +93,7 @@ Puede registrar el tiempo en las siguientes áreas de Workfront:
 * [Proyecto, tarea o problema](#project-task-or-issue)
 * [Panel de resumen](#summary-panel)
 * [Tableros](#boards)
-* [aplicación móvil](#mobile-app)
+* [Aplicación móvil](#mobile-app)
 
 ### Hoja de horas {#timesheet}
 
@@ -462,7 +465,7 @@ Para obtener más información, consulte [Resumen](../../workfront-basics/the-ne
 Puede registrar el tiempo en las tarjetas conectadas en un tablero de Workfront. Este es el mismo proceso que registrar el tiempo de una tarea o un problema, y las horas registradas en la tarjeta se guardan en la tarea o el problema conectado.
 Para obtener más información, consulte [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-### aplicación móvil {#mobile-app}
+### Aplicación móvil {#mobile-app}
 
 Puede registrar tiempo desde la aplicación móvil de Workfront.
 Para obtener más información, consulte [Adobe Workfront para Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront para iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
