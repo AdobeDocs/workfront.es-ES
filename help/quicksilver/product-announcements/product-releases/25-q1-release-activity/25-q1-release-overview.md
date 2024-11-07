@@ -4,9 +4,9 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -33,128 +33,243 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 ## Mejoras de Adobe Workfront
 
-* [Mejoras del administrador](#administrator-enhancements)
-  <!--* [Boards enhancements](#boards-enhancements)-->
+* [Mejoras del administrador](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [Mejoras en la administración de documentos](#document-management-enhancements)
+* [Mejoras de inicio](#home-enhancements)
+* [Mejoras de corrección](#proofing-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras del administrador
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">Característica</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">Fechas de lanzamiento</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Se agregó el icono <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> "Mover a" a los campos personalizados</a></p>
-                    <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
-                </td>
-                <td><p><b>Disponible en estas fechas:</b></p>
-                    <ul>
-                        <li>
-                            <p>Versión de vista previa: 29 de octubre de 2024</p>
-                        </li>
-                        <li>
-                            <p>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</p>
-                        </li>
-                        <li>
-                            <p>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Característica</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Fechas de lanzamiento</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Se agregó el icono <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> "Mover a" a los campos personalizados</a></p>
+                <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
+            </td>
+            <td><p><b>Disponible en estas fechas:</b></p>
+                <ul>
+                    <li>
+                        <p>Versión de vista previa: 29 de octubre de 2024</p>
+                    </li>
+                    <li>
+                        <p>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</p>
+                    </li>
+                    <li>
+                        <p>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 <!--### Boards enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">Feature</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">Release dates</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
-                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
-                </td>
-                <td><p><b>Available on these dates:</b></p>
-                    <ul>
-                        <li>
-                            <p>Preview release: October 31, 2024</p>
-                        </li>
-                        <li>
-                            <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                        </li>
-                        <li>
-                            <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Feature</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Release dates</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            </td>
+            <td><p><b>Available on these dates:</b></p>
+                <ul>
+                    <li>
+                        <p>Preview release: October 31, 2024</p>
+                    </li>
+                    <li>
+                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
+                    </li>
+                    <li>
+                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>-->
+
+### Mejoras en la administración de documentos
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Característica</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Fechas de lanzamiento</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo estado retirado disponible para aprobaciones de versiones de documentos</a></p>
+                <p>Cuando se añade una nueva versión a un documento con aprobaciones pendientes, las aprobaciones de la versión anterior ahora se muestran como Retirado. El proceso de aprobación previo se cierra, incluso si algunos participantes aún no han tomado una decisión.</p>
+            </td>
+            <td><p><b>Disponible en estas fechas:</b></p>
+                <ul>
+                    <li>
+                        <p>Versión de vista previa: 7 de noviembre de 2024</p>
+                    </li>
+                    <li>
+                        <p>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</p>
+                    </li>
+                    <li>
+                        <p>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### Mejoras de inicio
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Característica</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Fechas de lanzamiento</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ver detalles del proyecto en Prioridades</a></p>
+                <p>Ahora puede ver los detalles y comentarios del proyecto desde la lista de trabajo en Prioridades.</p>
+            </td>
+            <td><p><b>Disponible en estas fechas:</b></p>
+                <ul>
+                    <li>
+                        <p>Versión de vista previa: 6 de noviembre de 2024</p>
+                    </li>
+                    <li>
+                        <p>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</p>
+                    </li>
+                    <li>
+                        <p>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## Mejoras de corrección
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Característica</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Fechas de lanzamiento</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva extensión de explorador para revisión interactiva disponible en versión beta</a></p>
+                [!BADGE en producción ]{type=Informative}
+                <p>Presentamos una nueva extensión de explorador, la herramienta de revisión de Adobe Workfront, para reemplazar la extensión de explorador heredada para revisar el contenido ZIP interactivo. La nueva herramienta de revisión de Adobe Workfront admite la revisión del contenido ZIP en todos los exploradores comunes.</p>
+                <p>La extensión del explorador heredado se eliminará el 28 de febrero de 2025.</p>
+            </td>
+            <td><p><b>Disponible en estas fechas:</b></p>
+                <ul>
+                    <li>
+                        <p>Versión de vista previa: 7 de noviembre de 2024</p>
+                    </li>
+                    <li>
+                        <p class="preview">Versión de producción para todos los clientes: 7 de noviembre de 2024</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ### Otras mejoras
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El Asistente de IA ahora puede trabajar con proyectos, tareas y problemas</a></p>
-                    <p>Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de inteligencia artificial puede localizar proyectos, tareas y problemas en función de los criterios que especifique, como "Buscar mis tareas con vencimiento esta semana".</p>
-                </td>
-                <td><p><b>Disponible en estas fechas:</b></p>
-                    <ul>
-                        <li>
-                            <p>Versión de vista previa: 31 de octubre de 2024</p>
-                        </li>
-                        <li>
-                            <p>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</p>
-                        </li>
-                        <li>
-                            <p>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el primer trimestre de 2025</a></p>
-                    <p>En el primer trimestre de 2025 se están realizando actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
-                </td>
-                <td><p><b>Disponible en estas fechas:</b></p>
-                    <ul>
-                        <li>
-                            <p>Versión de vista previa: Durante el primer trimestre de 2025</p>
-                        </li>
-                        <li>
-                            <p><span class="preview">Versión de producción: revise las notas de la versión para fechas específicas</span></p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>                            
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El Asistente de IA ahora puede trabajar con proyectos, tareas y problemas</a></p>
+                <p>Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de inteligencia artificial puede localizar proyectos, tareas y problemas en función de los criterios que especifique, como "Buscar mis tareas con vencimiento esta semana".</p>
+            </td>
+            <td><p><b>Disponible en estas fechas:</b></p>
+                <ul>
+                    <li>
+                        <p>Versión de vista previa: 31 de octubre de 2024</p>
+                    </li>
+                    <li>
+                        <p>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</p>
+                    </li>
+                    <li>
+                        <p>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el primer trimestre de 2025</a></p>
+                <p>En el primer trimestre de 2025 se están realizando actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. Revise las notas de la versión individuales para ver fechas de lanzamiento específicas.</p>
+            </td>
+            <td><p><b>Disponible en estas fechas:</b></p>
+                <ul>
+                    <li>
+                        <p>Versión de vista previa: Durante el primer trimestre de 2025</p>
+                    </li>
+                    <li>
+                        <p><span class="preview">Versión de producción: revise las notas de la versión para fechas específicas</span></p>
+                    </li>
+                </ul>
+            </td>
+        </tr>                            
+    </tbody>
 </table>
 
 <!--

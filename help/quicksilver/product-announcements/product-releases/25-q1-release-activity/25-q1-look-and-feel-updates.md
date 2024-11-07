@@ -4,9 +4,9 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del pr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,39 @@ ht-degree: 0%
 Esta página describe actualizaciones menores de la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron dentro del periodo de tiempo del primer trimestre de 2025.
 
 Para obtener una lista de todos los cambios disponibles con la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Actualizaciones de aspecto para las áreas de navegación principal y secundaria
+
+>[!NOTE]
+>
+>Versión preliminar: 6 de noviembre de 2024; versión de producción para todos los clientes: 6 de noviembre de 2024
+
+Hemos actualizado las áreas de navegación principal y secundaria de Workfront para mejorar el rendimiento. Los cambios de aspecto son mínimos.
+
+Los cambios más destacables son los siguientes:
+
+* Las pantallas desplegables Favoritos y Recientes ya no tienen un botón de cierre. Puede simplemente hacer clic fuera de la pantalla o presionar ESC en el teclado para cerrarla.
+* Ya no puede arrastrar y soltar páginas ancladas para organizarlas. En su lugar, hay un menú desplegable con botones que le permiten mover las páginas ancladas.
+
+## Actualizaciones de aspecto y funcionamiento para la lista de tipos de cambio
+
+>[!NOTE]
+>
+>Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+
+Presentamos un nuevo formato de lista en el área Configuración de Workfront y la lista de tasas de cambio es la primera página que utiliza este formato de tabla. La funcionalidad para agregar nuevas tasas de cambio y buscar tasas de cambio no ha cambiado.
+
+Para obtener información sobre las tasas de cambio, consulte [Configurar tasas de cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+## Actualizaciones de aspecto y funcionamiento para la página Exportar datos (Kick-Starts)
+
+>[!NOTE]
+>
+>Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+
+Hemos actualizado la página Exportar datos (Kick-Starts) en el área de Configuración con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para obtener más información, consulte [Exportar datos de Workfront mediante Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 ## Actualizaciones de aspecto y funcionamiento en la barra de navegación de Workfront
 
@@ -34,7 +67,7 @@ Los cambios más destacables son los siguientes:
 
 >[!NOTE]
 >
->Versión de vista previa: 24 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2024)
+>Versión de vista previa: 24 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 La ventana Enviar actualización al usuario se ha actualizado con un diseño más moderno y coherente con otras áreas de Workfront.
 

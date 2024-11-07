@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 82d02cdb0f3f95b79b1cc921bd7e3bdf07daa293
+source-git-commit: 413099ef0ad1cb430e3d0cbdd8f613bd8f579a44
 workflow-type: tm+mt
-source-wordcount: '14554'
+source-wordcount: '14567'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,9 @@ ht-degree: 2%
       * Versión del primer trimestre de 2025 {#release-25-q1}
          * [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [Mejoras del administrador en el primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+         * [Mejoras en la administración de documentos del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
+         * [Mejoras para el hogar en el primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
+         * [Mejoras de revisión en el primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
          * [Otras mejoras durante el periodo de tiempo de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * Versión {#release-24-q4} del cuarto trimestre de 2024

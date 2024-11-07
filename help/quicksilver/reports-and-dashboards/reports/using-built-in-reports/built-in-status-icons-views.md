@@ -6,18 +6,18 @@ description: Puede añadir el campo Iconos de estado integrado como una columna 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1213'
 ht-degree: 3%
 
 ---
 
 # Iconos de estado integrados en vistas
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
 Puede añadir el campo Iconos de estado integrado como una columna en las vistas para mejorar la visibilidad de los puntos clave sobre los objetos. Con los iconos de estado, puede ver de un vistazo cuando existen las siguientes condiciones:
 
@@ -26,7 +26,7 @@ Puede añadir el campo Iconos de estado integrado como una columna en las vistas
 * Un objeto tiene notas adicionales asociadas
 * Un gasto es facturable o reembolsable
 * Una tarea se encuentra en una ruta crítica
-* Un usuario pertenece a una empresa, a un equipo o está ubicado en una zona horaria diferente
+* Un usuario pertenece a una empresa, a un equipo o está ubicado personalmente en una zona horaria diferente
 
 Tenga en cuenta lo siguiente:
 
@@ -45,6 +45,8 @@ Tenga en cuenta lo siguiente:
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -57,24 +59,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> </td> 
-   <td> </td> 
-  </tr> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador o superior</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Solicitud o superior</p></li>
+         </ul>
+   </td>
+  </tr>
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para agregar columnas a un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para agregar columnas a un informe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos en una vista existente</p> <p>Administrar permisos para agregar columnas a un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en una vista existente</p> <p>Administrar permisos para agregar columnas a un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agregar el campo Iconos de estado a una vista
 

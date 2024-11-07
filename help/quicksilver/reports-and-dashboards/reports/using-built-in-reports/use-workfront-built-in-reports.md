@@ -6,16 +6,16 @@ description: Adobe Workfront tiene una extensa lista de informes integrados que 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2964'
 ht-degree: 10%
 
 ---
 
 # Uso de informes integrados de Adobe Workfront
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront tiene una extensa lista de informes integrados que puede utilizar.
 
@@ -27,6 +27,8 @@ Para obtener más información acerca de cómo ocultar informes integrados, vea 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,8 +39,16 @@ Para obtener más información acerca de cómo ocultar informes integrados, vea 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: Colaborador o superior</p>  
-   <p>Actual: Solicitud o superior</p> </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador o superior</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Solicitud o superior</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
