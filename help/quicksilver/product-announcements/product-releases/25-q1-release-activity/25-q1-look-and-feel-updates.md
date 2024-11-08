@@ -4,9 +4,10 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del pr
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ Para obtener información sobre las tasas de cambio, consulte [Configurar tasas 
 Hemos actualizado la página Exportar datos (Kick-Starts) en el área de Configuración con un diseño más moderno y coherente con otras áreas de Workfront.
 
 Para obtener más información, consulte [Exportar datos de Workfront mediante Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
-
-## Actualizaciones de aspecto y funcionamiento en la barra de navegación de Workfront
-
->[!NOTE]
->
->Versión de producción para todos los clientes: antes de la versión de 24.11 (14 de noviembre de 2024)
-
-Hemos actualizado la barra de navegación de Workfront para mejorar su rendimiento. Los cambios de aspecto son mínimos.
-
-Los cambios más destacables son los siguientes:
-
-* Las pantallas desplegables Favoritos y Recientes ya no tienen un botón de cierre. Puede simplemente hacer clic fuera de la pantalla o presionar ESC en el teclado para cerrarla.
-* Ya no puede arrastrar y soltar páginas ancladas para organizarlas. En su lugar, hay un menú desplegable con botones que le permiten mover las páginas ancladas.
 
 ## Actualización de aspecto para la ventana Enviar actualización al usuario
 
