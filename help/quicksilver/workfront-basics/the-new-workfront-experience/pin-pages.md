@@ -5,10 +5,10 @@ description: Puede fijar su trabajo más importante [!DNL Adobe Workfront] para 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: b42028c7f4934d7d2538e078372dd32262232729
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -70,33 +70,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Puede cambiar el nombre de una página anclada para que sea más significativo.
 
 1. Pase el ratón sobre la página anclada en la barra de navegación superior o **[!UICONTROL Menú más]**.
-1. Haga clic en la flecha situada junto al nombre del pin y seleccione **[!UICONTROL Cambiar nombre de pin]**.
+1. Haga clic en el icono Más ![](assets/more-icon.png) junto al nombre del pin y seleccione **[!UICONTROL Cambiar nombre de pin]**.
 
-   ![Cambiar nombre de anclaje](assets/rename-remove-pin.png)
+   ![Cambiar nombre de anclaje](assets/pin-menu.png)
 
-1. Escriba el nuevo nombre del pin y haga clic en el icono de marca de verificación o pulse Intro.
+1. Escriba el nuevo nombre de anclaje y haga clic en **Guardar**.
 
-   ![Haga clic en la marca de verificación para cambiar el nombre del pin](assets/rename-pin-click-checkmark.png)
+   ![Haga clic en la marca de verificación para cambiar el nombre del pin](assets/new-pin-name.png)
 
-   Una pequeña ventana emergente aparece durante varios segundos después de hacer clic en la marca de verificación o pulsar Intro, lo que le permite deshacer el cambio de nombre del pin antes de guardarlo.
 
 ## Reordenar páginas ancladas
 
 Puede reorganizar el orden en que aparecen las páginas ancladas.
 
-1. Pase el ratón sobre la página anclada en la barra de navegación superior o **[!UICONTROL Menú más]**. Cuando vea el cursor de mano, haga clic en y arrastre el pin al orden deseado.
+1. Pase el ratón sobre la página anclada que quiera mover y luego haga clic en el icono **Más**.
+1. Elige **Mover a la izquierda** o **Mover a la derecha** para mover tu pin.
+1. (Opcional) Elija **Mover al frente** para mover el pin a la posición más a la derecha de la barra de pin.
+
+   ![mover anclajes](assets/pin-menu.png)
 
    Los cambios se guardan automáticamente y se recordarán la próxima vez que acceda a Workfront.
 
 ## Eliminar una página anclada
 
-1. Haga clic en la página anclada que desee abrir.
-1. Haga clic en **[!UICONTROL Desanclar página actual]** en la parte superior de la pantalla.
+1. Haga clic en el icono Más ![](assets/more-icon.png) que se encuentra junto al fijador que desea eliminar.
+1. Haga clic en **Quitar anclaje**.
 
-   O
-
-   Haga clic en la flecha situada junto al nombre del pin y seleccione **[!UICONTROL Quitar pin]**.
-
-   ![Quitar anclaje](assets/rename-remove-pin.png)
+   ![Quitar anclaje](assets/pin-menu.png)
 
    Ya no se puede obtener acceso a la página desde la parte superior de ninguna página de [!DNL Workfront].

@@ -5,9 +5,9 @@ title: Cargar una nueva versión del documento y solicitar una aprobación
 description: Puede cargar una nueva versión del documento y solicitar la aprobación de otros usuarios en Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 66aa4c29743c031b1aff3b67364ff95f2b810ef8
+source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Si un documento está marcado necesita trabajar en una revisión anterior, puede cargar una nueva versión en el documento original e iniciar otra ronda de aprobaciones.
 
 Si el nombre de archivo de la nueva versión es diferente del nombre de archivo de la versión anterior, Workfront muestra el documento con el nombre de archivo más reciente.
+
+Cuando se añade una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior se muestra como Retirada. El proceso de aprobación previo se cierra, incluso si algunos participantes aún no han tomado una decisión.
 
 ## Requisitos de acceso
 
