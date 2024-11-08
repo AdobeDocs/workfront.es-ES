@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
+source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
 workflow-type: tm+mt
 source-wordcount: '3847'
 ht-degree: 2%
@@ -334,7 +334,7 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
       * **Long**: 16 de mayo de 2023
       * **Europeo**: 16/05/2023
       * **ISO**: 16-05-2023
-   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de hora. De forma predeterminada, esta opción no está seleccionada. <!--update this setting name - submitted bug for it to be changed-->
+      * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de hora. De forma predeterminada, esta opción no está seleccionada. <!--update this setting name - submitted bug for it to be changed-->
 
      Seleccione entre las siguientes opciones:
 
@@ -610,6 +610,7 @@ Puede utilizar el tipo de campo Fecha de la última modificación para agregar l
       * **Long**: 16 de mayo de 2023
       * **Europeo**: 16/05/2023
       * **ISO**: 16-05-2023
+
    * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de hora. De forma predeterminada, esta opción no está seleccionada. <!--submitted a UI text change for this - check the UI-->
 
      Seleccione entre las siguientes opciones:
