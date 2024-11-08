@@ -4,9 +4,10 @@ description: Otras mejoras durante el lapso de tiempo del primer trimestre de 20
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,10 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >
 >Versión de vista previa: 31 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
-Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de inteligencia artificial puede localizar proyectos, tareas y problemas en función de los criterios que especifique, como &quot;Buscar mis tareas con vencimiento esta semana&quot;.
+Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el asistente de IA puede:
+
+* Busque proyectos, tareas y problemas según los criterios que especifique, como &quot;Buscar mis tareas con vencimiento esta semana&quot;.
+* Cree proyectos, tareas y problemas basados en la información que proporcione, como &quot;Crear una tarea llamada Revisar prueba en el proyecto Primavera de campaña&quot;.
 
 Anteriormente, el Asistente de IA no podía trabajar directamente con proyectos, tareas y problemas.
 
