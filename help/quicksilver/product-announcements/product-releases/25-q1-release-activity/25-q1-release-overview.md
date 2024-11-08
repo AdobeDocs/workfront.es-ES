@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo estado retirado disponible para aprobaciones de versiones de documentos</a></p>
-                <p>Cuando se añade una nueva versión a un documento con aprobaciones pendientes, las aprobaciones de la versión anterior ahora se muestran como Retirado. El proceso de aprobación previo se cierra, incluso si algunos participantes aún no han tomado una decisión.</p>
+                <p>Cuando se agrega una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior ahora se mostrará como "Retirada", lo que indica que el proceso de aprobación anterior se ha cerrado debido a que se está agregando la nueva versión.</p>
             </td>
             <td><p><b>Disponible en estas fechas:</b></p>
                 <ul>
@@ -238,7 +238,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El Asistente de IA ahora puede trabajar con proyectos, tareas y problemas</a></p>
-                <p>Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de IA puede localizar o crear proyectos, tareas y problemas según los criterios especificados.</p>
+                <p>Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de IA puede localizar proyectos, tareas y problemas en función de los criterios especificados.</p>
             </td>
             <td><p><b>Disponible en estas fechas:</b></p>
                 <ul>
