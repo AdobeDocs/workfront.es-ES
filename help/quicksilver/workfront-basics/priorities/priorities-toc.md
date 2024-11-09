@@ -5,9 +5,10 @@ description: Revise estas áreas para comprender el área de prioridades de Adob
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: f6cd525e061ef3e33d8c8b000596aa15897b62f5
+exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '82'
 ht-degree: 1%
 
 ---
@@ -18,6 +19,7 @@ Esta sección contiene las siguientes subsecciones:
 
 * [Prioridades: próximas versiones](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Introducción a Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
+* [Ver los detalles del proyecto y la tarea en la lista de trabajo de prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [Filtrar y agrupar su trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [Personalización de las columnas de lista de trabajo Prioridades](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
 * [Priorizar elementos de trabajo importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -26,5 +28,3 @@ Esta sección contiene las siguientes subsecciones:
 * [Registrar tiempo en prioridades](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
 * [Cargar archivos en Prioridades](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
 * [Agregar y administrar vínculos rápidos en Prioridades](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
-
-<!--customize work list and create tasks and issues not in get started article -->

@@ -4,9 +4,10 @@ description: Mejoras en la administración de documentos del primer trimestre de
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,4 +28,6 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >
 >Versión de vista previa: 7 de noviembre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
-Cuando se añade una nueva versión a un documento con aprobaciones pendientes, las aprobaciones de la versión anterior ahora se muestran como Retirado. El proceso de aprobación previo se cierra, incluso si algunos participantes aún no han tomado una decisión.
+Cuando se agrega una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior ahora se mostrará como &quot;Retirada&quot;, lo que indica que el proceso de aprobación anterior se ha cerrado debido a que se está agregando la nueva versión.
+
+Para obtener más información, vea [Cargar una nueva versión del documento y solicitar la aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
