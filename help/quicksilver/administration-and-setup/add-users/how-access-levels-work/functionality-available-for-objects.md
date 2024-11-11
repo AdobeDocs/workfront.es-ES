@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
+source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1668'
 ht-degree: 11%
 
 ---
@@ -228,7 +228,7 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Editar detalles | ✓ | ✓ | ✓ |   |
 | Descargar | ✓ | ✓ | ✓ | ✓ |
 | Finalizar compra | ✓ | ✓ | ✓ |   |
-| Añadir aprobadores | ✓ | ✓ | ✓ |   |
+| Adición de aprobadores (documentos) | ✓ | ✓ | ✓ |   |
 | Aprobar documentos | ✓ | ✓ | ✓ | ✓ |
 | Adjuntar formularios personalizados | ✓ | ✓ | ✓ |   |
 | Editar campos personalizados | ✓ | ✓ | ✓ |   |
@@ -238,8 +238,8 @@ Los usuarios con una licencia estándar pueden tener acceso completo a los infor
 | Cargar nueva versión | ✓ | ✓ | ✓ |   |
 | Eliminar una versión | ✓ | ✓ | ✓ |   |
 | Vista previa | ✓ | ✓ | ✓ | ✓ |
-| Prueba | ✓ | ✓ | ✓ | ✓ |
-| Generar revisión | ✓ |   |   |   |
+| Aprobar pruebas | ✓ | ✓ | ✓ | ✓ |
+| Generación de pruebas | ✓ |   |   |   |
 | Eliminar revisión | ✓ | ✓ | ✓ |   |
 | Agregar/Quitar&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Cambiar nombre&#42;&#42; | ✓ | ✓ | ✓ |   |
