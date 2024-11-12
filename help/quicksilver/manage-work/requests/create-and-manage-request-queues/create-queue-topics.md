@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formularios personalizados</strong> </td> 
-      <td>Seleccione los formularios personalizados que desee asociar al tema de la cola. Debe crear formularios personalizados para los problemas antes de poder asociarlos a los temas en cola. Para obtener información acerca de cómo crear formularios personalizados, vea <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Diseñar un formulario con el diseñador de formularios</a>.</td> 
+      <td>Seleccione los formularios personalizados que desee asociar al tema de la cola. Debe crear formularios personalizados para los problemas antes de poder asociarlos a los temas en cola. Para obtener información sobre cómo crear formularios personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Crear un formulario personalizado</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprobación predeterminada</strong></td> 
