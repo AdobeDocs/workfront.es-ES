@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 
-# Creación de objetos de Workfront mediante automatizaciones de registros de Workfront Planning
+# Creación de objetos mediante automatizaciones de registros de Workfront Planning
 
-Puede configurar automatizaciones en Workfront Planning para que, cuando se activen, creen objetos en Workfront.
+Puede configurar automatizaciones en Workfront Planning que, cuando estén activadas, creen objetos en Workfront o Workfront Planning.
 
-La automatización se activa en los registros. El objeto de Workfront está conectado al registro de Planning donde activó la automatización.
+La automatización se activa en los registros. El objeto que se crea está conectado al registro de Planning donde se activó la automatización.
 
 Por ejemplo, puede crear una automatización que tome una campaña de Workfront Planning y cree un proyecto en Workfront para rastrear el progreso de esa campaña. El proyecto estaría conectado a la campaña de Workfront Planning.
 
@@ -26,7 +26,7 @@ Para obtener más información sobre los registros conectados, consulte [Informa
 
 ## Configuración de una automatización en Workfront Planning
 
-Debe configurar una automatización en Workfront Planning para poder utilizarla para crear objetos de Workfront.
+Debe configurar una automatización en Workfront Planning para poder utilizarla para crear objetos.
 
 1. Haga clic en el menú **Más** ![](assets/more-menu.png) y seleccione **Automaciones**.
 
@@ -44,14 +44,14 @@ Debe configurar una automatización en Workfront Planning para poder utilizarla 
    * Programar
    * Grupo
 
-1. En el campo **Seleccione el campo que desea utilizar en el nombre del proyecto**, seleccione un campo de registro. El nuevo proyecto de Workfront tendrá el contenido de este campo como nombre.
-1. En el campo **Seleccione el campo al que desea vincular el proyecto creado**, seleccione un campo de registro. El nuevo proyecto de Workfront aparecerá en este campo al ver el registro en Workfront Planning.
+1. En el campo **Seleccione el campo que desea utilizar en el nombre del proyecto**, seleccione un campo de registro. El nuevo objeto tendrá el contenido de este campo como nombre.
+1. En el campo **Seleccione el campo al que desea vincular el proyecto creado**, seleccione un campo de registro. El nuevo objeto aparecerá en este campo cuando se visualice el registro en Workfront Planning.
 1. Seleccione otras opciones disponibles para el tipo de objeto que está creando.
 1. Haga clic en **Crear**
 
 La automatización aparece en la lista de automatizaciones y está disponible para su uso en registros.
 
-## Utilice una automatización de Workfront Planning para crear un objeto de Workfront
+## Utilice una automatización de Workfront Planning para crear un objeto
 
 1. En Workfront Planning, abra la página de tipo de registro que contiene los registros que desea utilizar para crear objetos de Workfront.
 1. Seleccione uno o varios registros.
