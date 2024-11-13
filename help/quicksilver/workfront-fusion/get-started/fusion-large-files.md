@@ -6,18 +6,21 @@ title: Uso de archivos grandes en Adobe Workfront Fusion
 description: Actualmente, se admite archivos grandes para los conectores Workfront y HTTP.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d9f7f1b9a97faf767965abce4f64c62cb9aad8d2
+exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
+source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Uso de archivos grandes en Adobe Workfront Fusion
 
-Las funciones mejoradas de transferencia de datos ya están disponibles en Workfront Fusion, lo que permite a los escenarios procesar archivos considerablemente más grandes.
+>[!IMPORTANT]
+>
+>La funcionalidad de archivos de gran tamaño solo está disponible para los clientes de Workfront Ultimate y se está implementando por fases. Todas las organizaciones de Fusion con un plan Workfront Ultimate tendrán capacidad de archivos de gran tamaño en enero de 2025.
 
-La funcionalidad de archivos de gran tamaño solo está disponible para los clientes de Workfront Ultimate.
+Las funciones mejoradas de transferencia de datos ya están disponibles en Workfront Fusion, lo que permite a los escenarios procesar archivos considerablemente más grandes.
 
 Para gestionar archivos de mayor tamaño, se deben actualizar los escenarios.
 
@@ -240,7 +243,3 @@ If a file is not on this list, it does not support large files. For these connec
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 -->
-
-
-
-
