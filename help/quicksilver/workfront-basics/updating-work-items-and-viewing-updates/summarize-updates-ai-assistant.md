@@ -5,9 +5,10 @@ title: Resumir actualizaciones con el asistente de IA
 description: Las actualizaciones son de un objeto que incluye un botón que utiliza el Asistente de IA para resumir las actualizaciones.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 El asistente de IA de Workfront puede resumir el contenido del flujo de actualización, lo que le permite comprender rápidamente los comentarios y discusiones que se producen en torno a un objeto de Workfront.
 
 Puede utilizar el botón Resumir contenido para generar un resumen o introducir un mensaje en el asistente de inteligencia artificial.
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
   Para obtener más información, consulte [Habilitar o deshabilitar el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-<div class="preview">
-
 ## Resumir con el botón Resumir contenido
 
 1. Navegue hasta el flujo de actualización que desee resumir.
@@ -75,8 +72,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. (Opcional) Refine el mensaje para asegurarse de que le proporciona la información que necesita.
 
    Por ejemplo, puede ajustar el indicador Resumir contenido para resumir los comentarios de los últimos 14 días, en lugar de los últimos 7.
-
-   </div>
 
 ## Resumir un objeto en el Asistente de IA
 
@@ -92,4 +87,3 @@ Para ver un resumen de un objeto:
    El asistente de IA puede tardar unos momentos en generar el resumen, según el tamaño o la complejidad del objeto.
 
 1. Vea el resumen de IA en el panel Asistente de IA.
-

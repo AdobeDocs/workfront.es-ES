@@ -5,9 +5,10 @@ title: Resumir proyectos con el asistente de IA
 description: El encabezado del proyecto incluye un botón que utiliza el Ayudante de IA para resumir los proyectos.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 1%
 El asistente de IA de Workfront puede resumir los proyectos, lo que le permite comprender rápidamente la información del proyecto, como su propósito y estado, proporciona ejemplos de tareas que se han completado y que aún están pendientes, así como algunos detalles y notas adicionales.
 
 Puede utilizar el botón Resumen del proyecto para generar un resumen o puede introducir un mensaje en el Asistente de inteligencia artificial.
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 
 
-<div class="preview">
-
 ## Resumir mediante el botón Resumen del proyecto
 
 1. Navegue hasta el flujo de actualización que desee resumir.
@@ -82,8 +79,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Vea el resumen de IA en el panel Asistente de IA.
 1. (Opcional) Refine el mensaje para asegurarse de que le proporciona la información que necesita.
-
-   </div>
 
 ## Resumir un objeto en el Asistente de IA
 
@@ -99,4 +94,3 @@ Para ver un resumen de un objeto:
    El asistente de IA puede tardar unos momentos en generar el resumen, según el tamaño o la complejidad del objeto.
 
 1. Vea el resumen de IA en el panel Asistente de IA.
-
