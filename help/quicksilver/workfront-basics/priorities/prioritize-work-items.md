@@ -5,13 +5,13 @@ description: Prioridades es una experiencia intuitiva y optimizada, adaptada a l
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
+source-git-commit: 2125639c11513439fdd3ae872b336814f8f77adb
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # Priorizar elementos de trabajo importantes
 
@@ -26,14 +26,13 @@ Puede usar la columna Mi enfoque para priorizar el trabajo. La columna Mi enfoqu
 
    | Enfoque | Descripción |
    |-----------|-------------|
-   | **Urgente** | Urgente es un trabajo que requiere atención inmediata. |
-   | **Principal** | La primaria es para el trabajo en el que planea centrarse esta semana. |
-   | **Secundario** | Secundario es el trabajo al que planea pasar una vez que se hayan completado las tareas de enfoque principal. |
-   | **Normal** | Normal es para el trabajo en el que no necesita estar enfocado todavía.  Normal es la opción predeterminada para todas las tareas y problemas. |
+   | **Urgente** | Urgente es para elementos de trabajo que requieren atención inmediata. Los temas de trabajo urgentes deben priorizarse por encima de todos los demás y abordarse lo antes posible. |
+   | **Alta** | Alto es para elementos de trabajo importantes que planea abordar después de completar el trabajo urgente. |
+   | **Normal** | Normal es para los elementos de trabajo de rutina en los que trabajará una vez completados los elementos de prioridad Alta y Urgente. Esta es la opción predeterminada para tareas y problemas. |
+   | **Baja** | Bajo es para elementos de trabajo que no necesitan atención inmediata y que se pueden diferir hasta que se realicen todos los elementos de trabajo de prioridad superior. |
 
    ![](assets/my-focus.png)
 
    >[!TIP]
    >
    >Puede Filtrar y agrupar su trabajo por sus niveles de enfoque.
-

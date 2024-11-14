@@ -6,10 +6,10 @@ description: La integración entre Workfront y Experience Manager Assets o Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 63bcf5391dc982b53634dccd7150205a7d09f308
+source-git-commit: 68692d49420fe3f3a1f8294d77fe8b335845acc7
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Con la integración nativa de Experience Manager, puede
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
-## Proveedores de servicios en la nube admitidos
+## Proveedores de servicios en la nube compatibles con Workfront
 
 * AWS (Amazon Web Service)
 * Azure
@@ -58,5 +58,5 @@ Con la integración nativa de Experience Manager, puede
 1. Configure la integración:
    1. [Configurar la integración as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 O
-   1. [Configuración de la integración de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+   1. [Configurar la integración de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 1. Utilice la integración: enviar recursos, crear carpetas vinculadas, asignar metadatos, etc. Consulte [Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) para obtener más información.
