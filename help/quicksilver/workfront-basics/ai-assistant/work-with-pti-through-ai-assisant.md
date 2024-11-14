@@ -5,19 +5,48 @@ description: Puede resumir rápidamente elementos de trabajo y documentos median
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Usar el Asistente de IA para trabajar con proyectos, tareas y problemas
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Está disponible en el entorno de vista previa para todos los clientes y en el entorno de producción para los clientes que han habilitado versiones mensuales. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 El Asistente de IA puede ayudarle a localizar proyectos, tareas y problemas en Workfront.
+
+## Requisitos de acceso
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td><p>Nuevo: Cualquiera</p>
+       <p>o</p>
+       <p>Actual: no disponible</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>o</p>
+       <p>Actual: no disponible</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Buscar elementos de trabajo
 
