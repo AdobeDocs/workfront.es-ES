@@ -7,7 +7,7 @@ description: Adobe Workfront permite enviar rápida y fácilmente mensajes que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Envío de mensajes directos a otros usuarios
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront] le permite enviar rápida y fácilmente mensajes que no están relacionados con ningún elemento de trabajo directamente a otros usuarios de [!DNL Workfront]. Los mensajes enviados como se describe en esta sección aparecen en la ficha [!UICONTROL Actualizaciones] de la página de perfil del usuario y son visibles para todos los usuarios. Para obtener información adicional sobre las actualizaciones, vea [Actualizar elementos de trabajo y ver actualizaciones: índice de artículos](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
