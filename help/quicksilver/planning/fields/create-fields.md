@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '3847'
-ht-degree: 2%
+source-wordcount: '4106'
+ht-degree: 1%
 
 ---
 
@@ -264,7 +264,7 @@ Los campos de párrafo capturan información alfanumérica adicional sobre un re
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: El nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
 1. Haga clic en **Crear**.
 
    El nuevo campo de párrafo se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
@@ -281,7 +281,7 @@ Puede utilizar un campo de selección múltiple para capturar información adici
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: El nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Opciones**: las opciones que los usuarios pueden seleccionar al actualizar este campo. Puede utilizar números y letras para el nombre de cada opción.
 1. Haga clic en **Agregar opción** para agregar más opciones. No hay límite en la cantidad de opciones que se pueden agregar a un campo de selección múltiple.
 1. (Opcional) Arrastre y suelte manualmente cada opción en el orden deseado o seleccione la
@@ -303,7 +303,7 @@ Los campos de selección única capturan información adicional en cualquier for
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: El nombre del tipo de campo, tal como aparecerá en una tabla o en la página Detalles del registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Opciones**: opciones disponibles para seleccionar en el menú desplegable después de guardar el campo. Puede tener números y letras para el nombre de cada opción.
 
 1. Haga clic en **Agregar opción** para agregar más opciones. No hay límite en la cantidad de opciones que se pueden agregar a un campo de selección única.
@@ -325,7 +325,7 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Formato de fecha**: El tipo de formato de fecha que desea mostrar en este campo. <!--update this casing - submitted bug for it-->
 
      Seleccione entre los siguientes formatos:
@@ -355,7 +355,7 @@ Los tipos de campos de número capturan información en formato numérico.
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Precisión**: El número de decimales que desea registrar para el campo. Se pueden mostrar hasta 6 decimales.
    * **Permitir números negativos**: seleccione esta opción si desea permitir números negativos en este campo. Esta opción está desactivada de forma predeterminada.
 
@@ -377,7 +377,7 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Precisión**: El número de decimales que desea registrar para el campo. Se pueden mostrar hasta 6 decimales.
    * **Permitir números negativos**: seleccione esta opción si desea permitir valores de porcentaje negativos en este campo. Esta opción está desactivada de forma predeterminada.
 
@@ -389,7 +389,7 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
 
    * **Mostrar como**: en el menú desplegable, elija cómo desea que se muestren los valores de porcentaje en la vista de tabla. Seleccione entre las siguientes opciones:
       * **Número**: el valor porcentual se muestra como un número seguido del signo de porcentaje.
-      * **Barra**: El valor porcentual se muestra como una barra junto al número de porcentaje. El color de relleno de la barra indica el valor porcentual.
+      * **Barra**: El valor porcentual se muestra como una barra junto al número de porcentaje. El color de relleno de la barra indica el valor porcentual. Esta es la selección predeterminada.
       * **Círculo**: el valor porcentual se muestra como el contorno de un círculo junto al número porcentual. El color de relleno del contorno del círculo indica el valor porcentual.
 
    >[!NOTE]
@@ -412,7 +412,7 @@ Los tipos de campo Moneda capturan información en un formato de número precedi
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Moneda**: El tipo de moneda que desea mostrar en este campo. Esta es una lista de monedas según la Organización Internacional de Normalización (ISO).
    * **Precisión**: El número de decimales que desea registrar para el campo. Se pueden mostrar hasta 6 decimales.
    * **Permitir números negativos**: seleccione esta opción si desea permitir valores de moneda negativos en este campo. Esta opción está desactivada de forma predeterminada.
@@ -435,7 +435,7 @@ Puede utilizar el tipo de campo Casilla de verificación para agregar una sola o
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
 1. Haga clic en **Crear**.
 
    El nuevo campo de casilla de verificación se agrega como una columna al tipo de registro y sus valores se pueden asociar con registros.
@@ -453,7 +453,7 @@ Para obtener más información, vea [Información general sobre los campos de f�
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
    * **Nombre**: escriba un nombre para el nuevo campo.
-   * **Descripción**: agregue información sobre el nuevo campo.
+   * **Descripción**: agregue información sobre el nuevo campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Fórmula**: Empiece a escribir al menos un carácter para tener acceso a una expresión y selecciónela cuando se muestre en la lista.
 
 1. Haga clic en la expresión seleccionada para mostrar la definición y ver su formato.
@@ -509,7 +509,7 @@ Puede usar el tipo de campo Personas para agregar un usuario <!--, job role, or 
 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro.
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Permitir varios valores**: seleccione esta opción si desea permitir que los usuarios agreguen más de un usuario en este campo. Esta opción está desactivada de forma predeterminada.
 
    >[!NOTE]
@@ -531,7 +531,7 @@ Puede utilizar el tipo de campo Creado por para agregar el usuario que creó el 
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
 
 1. Haga clic en **Crear**.
 
@@ -551,7 +551,7 @@ Puede utilizar el tipo de campo Fecha de creación para agregar la fecha en la q
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Formato de fecha**: seleccione uno de los siguientes formatos:
 
       * **Configuración regional**: Coincide con la configuración regional del explorador.
@@ -582,7 +582,7 @@ Puede utilizar el tipo de campo Última modificación realizada por para agregar
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
 
 1. Haga clic en **Crear**.
 
@@ -602,7 +602,7 @@ Puede utilizar el tipo de campo Fecha de la última modificación para agregar l
 1. Agregue la siguiente información en la ficha **Nuevo campo**:
 
    * **Nombre**: nombre del tipo de campo, tal como aparecerá en una tabla o en la página de registro. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: Información adicional sobre el campo. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo en una tabla o <span class="preview"> cuando hace clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.</span>
    * **Formato de fecha**: seleccione uno de los siguientes formatos:
 
       * **Configuración regional**: Coincide con la configuración regional del explorador.

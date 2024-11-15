@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Crear un gráfico de un informe utilizando un campo personalizado de selección múltiple
+title: Trazar un informe con un campo personalizado de selección múltiple
 description: Puede crear un gráfico de un informe mediante un campo personalizado de selección múltiple solo después de crear un campo calculado adicional que capture las opciones seleccionadas en el campo personalizado de selección múltiple.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
 # Crear un gráfico de un informe utilizando un campo personalizado de selección múltiple
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ Sin embargo, si no es posible tener campos independientes para cada opción de u
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Nuevo:</p>
+   <ul><li><p>Colaborador para modificar un filtro </p></li>
+   <li><p>Estándar para modificar un informe</p></li> </ul>
+
+<p>Actual:</p>
+   <ul><li><p>Solicitud para modificar un filtro </p></li>
+   <li><p>Plan para modificar un informe</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -114,12 +127,12 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Opcional) Si el campo personalizado de selección múltiple ya está en este formulario y si este formulario ya está adjunto a objetos, habilite la opción **Actualizar cálculos anteriores (en segundo plano)**.
+1. (Opcional) Si el campo personalizado de selección múltiple ya está en este formulario y si este formulario ya está adjunto a objetos, habilite la opción **Aplicar a cálculos existentes**.
 
    Esto garantiza que el nuevo campo calculado se rellene automáticamente con el valor del campo personalizado de selección múltiple a medida que se agrega a los formularios ya adjuntos a los objetos.
 
-1. Haga clic en **Listo**.
-1. Haga clic en **Guardar + Cerrar**.
+1. Haga clic en **Aplicar**.
+1. Haga clic en **Guardar y cerrar**.
 
    El campo personalizado calculado se agrega al formulario personalizado y, si el formulario está adjunto actualmente a objetos, el campo se rellena con información del campo personalizado de selección múltiple.
 
@@ -137,7 +150,7 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 1. Haga clic en **Acciones de informe** y luego en **Editar**.
 
 1. Seleccione la ficha <strong>Agrupaciones</strong> y, a continuación, haga clic en <strong>Agregar agrupación</strong>.
-1. Agregue el <strong>Campo de selección múltiple calculado</strong> que creó como su agrupación.
+1. Agregue el <strong>Campo de selección múltiple calculado</strong> que creó como agrupación.
 1. Seleccione la ficha <strong>Gráfico</strong> y agregue un gráfico al informe.
 
    Por ejemplo, elija un gráfico de **columnas**.
@@ -145,6 +158,6 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 1. En el campo **Eje inferior (X)**, seleccione el <strong>Campo de selección múltiple calculado</strong> que se mostrará en el gráfico.
 1. Haga clic en <strong>Guardar + Cerrar</strong>.
 
-   El informe muestra los resultados agrupados por el campo de selección múltiple calculado en un gráfico.
+   El informe muestra los resultados agrupados por el Campo de selección múltiple calculado en un gráfico.
 
    ![](assets/chart-multi-select-field-column-chart-example.png)

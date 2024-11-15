@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: Modificación del modo en que se muestra una lista
 description: En  [!DNL Adobe Workfront], puede personalizar el modo en que se muestra una lista. Otros usuarios que ven la lista no ven los cambios.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Modificación del modo en que se muestra una lista
+
+<!--Audited: 11/2024-->
 
 En [!DNL Adobe Workfront], puede personalizar el modo en que se muestra una lista. Otros usuarios que ven la lista no ven los cambios.
 
@@ -32,6 +34,8 @@ Para obtener información sobre cómo modificar la información que aparece en l
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> 
+    <p>Nuevo:</p>
+   <ul><li><p>Colaborador o superior </p></li>
+   </ul>
+
+<p>Actual:</p>
+   <ul><li><p>Solicitud o superior</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Acceso de [!UICONTROL View] al área donde se encuentra la lista</p> <p>Por ejemplo, para modificar la vista de un proyecto, necesita el acceso de [!UICONTROL View] a Proyectos.</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso.<br>Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL View] al área donde se encuentra la lista</p> <p>Por ejemplo, para modificar la vista de un proyecto, necesita el acceso de [!UICONTROL View] a Proyectos.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>[!UICONTROL View] o permisos superiores a la vista aplicada a la lista</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>[!UICONTROL View] o permisos superiores a la vista aplicada a la lista</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Modificación del modo en que se muestra una lista
++++
+
+## Modificación de una lista
 
 1. Vaya a la lista de [!DNL Workfront] que desea modificar.
 
@@ -101,7 +114,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Para reordenar las columnas de una lista, pase el ratón sobre el encabezado de una columna para mostrar la herramienta de mano y, a continuación, haga clic en para arrastrar la columna hasta el lugar en el que desee que se muestre.
 
-   La posición de la columna se guardará hasta que actualice la página.\
+   La posición de la columna se guardará hasta que actualice la página.
+
    Para obtener más información acerca de cómo personalizar el ancho y el orden de las columnas de una lista, vea el artículo [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. Para ajustar el orden de clasificación de una lista, haga clic en un encabezado de columna para seleccionarlo, luego presione y mantenga presionada la tecla CMD (en [!DNL Mac]) o la tecla CTRL (en [!DNL Windows]) en el teclado y seleccione hasta 2 encabezados de columna adicionales para ordenarlos.

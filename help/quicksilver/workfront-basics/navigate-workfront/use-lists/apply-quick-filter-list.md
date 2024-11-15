@@ -3,20 +3,18 @@ navigation-topic: use-lists
 title: Aplicar el filtro rápido a una lista
 description: Puede utilizar el filtro rápido en una lista de objetos para que sólo le ayude a localizar los elementos que son importantes para usted, de modo que pueda revisarlos, actualizarlos o compartirlos rápidamente con otras personas.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Aplicar el filtro rápido a una lista
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 Puede utilizar el filtro rápido en una lista de objetos para que sólo le ayude a localizar los elementos que son importantes para usted, de modo que pueda revisarlos, actualizarlos o compartirlos rápidamente con otras personas.
 
@@ -35,6 +33,7 @@ Puede utilizar filtros rápidos temporales en todas las listas, excepto en las s
 * El área [!UICONTROL Informes]
 * Listas de documentos e informes
 * Varias áreas de [!UICONTROL instalación]
+
   >[!NOTE]
   >
   >Los filtros rápidos están disponibles en las siguientes áreas de configuración: [!UICONTROL Grupos], [!UICONTROL Equipos], [!UICONTROL Compañías], [!UICONTROL Horarios], [!UICONTROL Plantillas de diseño] y [!UICONTROL Forms personalizado].
@@ -52,6 +51,8 @@ Tenga en cuenta lo siguiente al aplicar filtros rápidos a una lista:
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] plan*</b></td> 
+   <td role="rowheader">plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] licencia*</b></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> 
+    <p>Nuevo:</p>
+   <ul><li><p>Colaborador o superior </p></li>
+   </ul>
+
+<p>Actual:</p>
+   <ul><li><p>Solicitud o superior</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Configuraciones de nivel de acceso*</b></td> 
-   <td> <p>Ver el acceso al área en la que se encuentra la lista</p> <p>Por ejemplo, para aplicar un filtro rápido a un proyecto, necesita el acceso de [!UICONTROL View] a Proyectos.</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso.<br>Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Ver el acceso al área en la que se encuentra la lista</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Permisos de objeto</b></td> 
-   <td> <p>[!UICONTROL Ver]</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de [!UICONTROL View] para el objeto en el que se encuentra la lista</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Aplicación de un filtro rápido a una lista
 
@@ -109,7 +120,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    1. Seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en **[!UICONTROL Editar]** para editar los elementos en lote.
    1. Después de completar las ediciones, haga clic en **[!UICONTROL Guardar cambios]**.
 
-1. (Opcional) Para exportar los elementos encontrados por el filtro rápido, seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en **[!UICONTROL Exportar]**.
+1. (Opcional) Para exportar los elementos encontrados por el filtro rápido, seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en el icono **[!UICONTROL Exportar]** ![](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >Solo los elementos que encontró en la búsqueda de filtro rápido se exportan al archivo seleccionado. Si no selecciona ningún elemento antes de exportar la lista, se exporta la lista completa sin filtrar.\
    >Para obtener más información, vea [Exportar una lista](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Opcional) Para borrar los resultados filtrados, haga clic en el icono **[!UICONTROL Filtro rápido]** en la esquina superior derecha de la ventana.\
-   O\
-   Actualice la página.
+1. (Opcional) Para borrar los resultados filtrados, haga clic en el icono **[!UICONTROL Filtro rápido]** en la esquina superior derecha de la ventana.
+O
+Actualice la página.
