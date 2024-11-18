@@ -6,9 +6,9 @@ description: Puede priorizar los proyectos en Portfolio Optimizer para establece
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de [!UICONTROL Manage] para el portafolio</p> <p>Contribute o permisos superiores para los proyectos</p>  </td> 
+   <td> <p>Permisos de [!UICONTROL Manage] para el portafolio</p> <p>Contribute o permisos superiores para los proyectos</p> 
+   <p>Debe tener permisos de administración en todos los proyectos de la lista para poder usar <b>Establecer prioridad de proyecto</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
