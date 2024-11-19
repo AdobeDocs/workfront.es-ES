@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ Sí. Por ejemplo, puede promocionar de Zona protegida a Producción o de Producc
 
 No, el uso compartido no es compatible actualmente.
 
-## ¿Cuándo podría estar disponible una función de reversión?
+## ¿Está disponible la reversión del paquete?
 
 ### Respuesta
 
-La reversión es una prioridad principal y está actualmente en desarrollo. Esperamos lanzar la funcionalidad de reversión en el tercer o cuarto trimestre de 2024.
+La reversión del paquete está disponible para el paquete más reciente, en un plazo de 24 horas desde la instalación del paquete.
 
 ## ¿Habrá una opción para omitir la promoción de componentes individuales? Donde existen las opciones `Use Existing`, `Overwrite` y `Save with a new Name`&quot;, ¿se puede agregar `Skip` para que pueda omitir la promoción de parámetros individuales?
 
