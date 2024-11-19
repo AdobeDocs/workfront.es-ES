@@ -1,17 +1,22 @@
 ---
-title: 'Descripción general del asistente de IA'
+title: Información general del asistente de IA
 content-type: reference
 description: Información general del asistente de IA
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
 # Información general del asistente de IA
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Está disponible en el entorno de vista previa para todos los clientes y en el entorno de producción para los clientes que han habilitado versiones mensuales. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 El asistente de IA de Workfront le ayuda a realizar su trabajo al ofrecerle información y sugerencias en la aplicación en una conversación en lenguaje natural. El asistente de IA puede ofrecerle una experiencia de trabajo más fluida al
 
@@ -79,6 +84,14 @@ El asistente de IA ofrece actualmente las siguientes funciones:
 
   Para obtener más información, consulte [Obtener ayuda del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
+<div class="preview">
+
+* Localizar elementos específicos en Workfront.
+
+  Para obtener más información, vea [Usar el Asistente para IA para trabajar con proyectos, tareas y problemas](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+</div>
+
 * Generar o refinar fórmulas para campos personalizados calculados.
 
   >[!NOTE]
@@ -86,6 +99,20 @@ El asistente de IA ofrece actualmente las siguientes funciones:
   >Esta funcionalidad solo está disponible para organizaciones con planes Prime o Ultimate Workfront.
 
   Para obtener más información, vea [Generar o revisar fórmulas de campos calculados con el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
+
+## Tipos de objetos disponibles para el asistente de IA
+
+El asistente de IA puede consultar los datos asociados con los siguientes tipos de objetos si el usuario tiene los permisos válidos en Workfront:
+
+* Portafolios
+* Programas
+* Proyectos
+* Tareas
+* Problemas
+* Formularios personalizados
+* Usuarios
+* Registros de Workfront Planning
+
 
 ## Acceder al asistente de IA
 
@@ -113,5 +140,3 @@ Para solicitar el acuerdo de Adobe Gen AI:
 1. Introduzca el nombre y la dirección de correo electrónico de la persona de su organización que firmará el acuerdo de generación de IA de Adobe.
 
    El acuerdo se enviará a esta persona para que lo firme. Una vez firmado y devuelto, el Ayudante de IA se habilita para su organización.
-
-
