@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2107'
 ht-degree: 0%
 
 ---
@@ -64,19 +64,20 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Preferencias del proyecto]** >**[!UICONTROL Tareas y problemas].**
 
-1. En la página que aparece, continúe con una de las 5 secciones que se enumeran a continuación para configurar las opciones de [!UICONTROL Valores predeterminados de nueva tarea], [!UICONTROL Problemas], [!UICONTROL Eliminación], [!UICONTROL Fechas reales] y [!UICONTROL Acceso]:
+1. En la página que aparece, continúe con una de las 6 secciones que se enumeran a continuación para configurar las opciones de [!UICONTROL Valores predeterminados de nueva tarea], [!UICONTROL Problemas], [!UICONTROL Eliminación], [!UICONTROL Fechas reales] y [!UICONTROL Acceso]:
 
    * [[!UICONTROL Valores predeterminados de nueva tarea]](#new-task-defaults)
    * [[!UICONTROL Problemas]](#issues)
    * [[!UICONTROL Eliminación]](#deletion)
    * [[!UICONTROL Fechas reales]](#actual-dates)
    * [[!UICONTROL Delegación]](#delegation)
+   * [[!UICONTROL Acceso]](#access)
 
-   <!--
-<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Trabajar En Ello</a> </li>
-  --&gt;
+<!--
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
+-->
 
-* [[!UICONTROL Acceso]](#access)
+
 
 ### [!UICONTROL Valores predeterminados de nueva tarea] {#new-task-defaults}
 
