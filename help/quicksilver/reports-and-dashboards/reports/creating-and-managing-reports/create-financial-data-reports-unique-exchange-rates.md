@@ -6,14 +6,16 @@ description: Si se han configurado varios tipos de cambio en Adobe Workfront, pu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
 # Crear informes de datos financieros con tasas de cambio únicas
+
+<!-- Audited: 11/2024 -->
 
 Si se han configurado varios tipos de cambio en Adobe Workfront, puede definir valores financieros en informes y listas para que se muestren en una moneda distinta a la predeterminada.
 
@@ -27,6 +29,8 @@ Si hay proyectos con una sola moneda en el informe, las sumas de las agrupacione
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader">Permisos de objeto*</td> 
+   <td> <p>Administración de permisos de un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -125,8 +140,6 @@ Para mostrar dos proyectos con monedas personalizadas en un informe:
 1. Haga clic en **Guardar + Cerrar**.
 
    El total de **Costo real** se muestra en la agrupación usando la moneda predeterminada del sistema, independientemente de la moneda de los proyectos del informe.
-
-   ![Moneda mostrada en la agrupación](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    Si los dos proyectos tienen monedas diferentes, la moneda predeterminada del sistema también se muestra en la sección Agrupación del informe.
 

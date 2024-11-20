@@ -7,18 +7,22 @@ description: Puede crear una copia de cualquier informe al que tenga acceso. Pue
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
 # Creación de una copia de un informe
 
+<!-- Audited: 11/2024 -->
+
 Puede crear una copia de cualquier informe al que tenga acceso. Puede crear una copia exacta de un informe personalizado o guardar una nueva versión de un informe predeterminado. Una vez copiado un informe, pasa a ser el propietario del informe copiado y aparece en la sección Mis informes.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -32,29 +36,40 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader">Permisos de objeto*</td> 
+   <td><p>Ver permisos de un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crear una copia exacta de un informe
 
-Si desea realizar una copia de un informe del que es propietario, haga lo siguiente:
+Si desea realizar una copia de un informe personalizado, haga lo siguiente:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Informes]**.
 
-1. Haga clic en **Informes** y luego en **Todos los informes**.
-1. Abra un informe.
+1. Haga clic en **Todos los informes** y, a continuación, abra un informe.
+
 1. Haga clic en **Acciones de informe** y luego en **Copiar**.
 
    >[!TIP]
@@ -62,15 +77,11 @@ Si desea realizar una copia de un informe del que es propietario, haga lo siguie
    >Si el informe es un informe predeterminado, la opción Copiar no aparece en el menú Acciones de informe.\
    >Para obtener información sobre cómo crear una copia de un informe predeterminado, consulte [Crear una nueva versión de un informe](#create-a-new-version-of-a-report).
 
-   ![Copiar informe](assets/nwe-fulllistofreportactions-2022.png)
+   ![Copiar informe](assets/unshimmed-report-actions-copy.png)
 
-   Se crea una copia del informe original con el nombre predeterminado *Copia de [Nombre del informe original]*. Por ejemplo, el informe &quot;Tareas completadas en el cuarto trimestre&quot; tendría como nombre &quot;Copia de las tareas completadas en el cuarto trimestre&quot;.
+   Se crea una copia del informe original con el nombre predeterminado _[Nombre del informe original] (Copiar)_. Por ejemplo, una copia del informe &quot;Tareas completadas en el cuarto trimestre&quot; se llamaría &quot;Tareas completadas en el cuarto trimestre (copia)&quot;.
 
-1. (Opcional) Para cambiar el nombre del informe, empiece a escribir un nombre nuevo.
-
-   >[!TIP]
-   >
-   >Si anula la selección del título antes de escribir el nuevo nombre, seleccione el título del informe, elimine el nombre y, a continuación, escriba el nuevo nombre.
+1. (Opcional) Para cambiar el nombre del informe, haga clic en **Acciones de informe** y luego en **Editar**. Escriba un nombre nuevo en el cuadro de texto de la esquina superior izquierda y haga clic en **Guardar + Cerrar** cuando termine.
 
 1. (Opcional) Para compartir la nueva versión del informe con otros usuarios, haga clic en **Acciones de informe** y luego en **Compartir**.
 
@@ -84,6 +95,7 @@ Si desea realizar una copia de un informe del que es propietario, haga lo siguie
    Para eliminar el informe original, haga lo siguiente:
 
    1. Vaya al informe.
+
    1. Haga clic en **Acciones de informe** y luego en **Eliminar**.
 
    1. Haga clic en **Sí, eliminarlo** para confirmar que desea eliminar el informe.
@@ -98,7 +110,7 @@ Si desea crear una copia de un informe predeterminado, haga lo siguiente:
 1. Haga clic en el nombre de un informe predeterminado para abrirlo.
 1. Haga clic en **Acciones de informe** y luego en **Editar**.
 
-   ![Editar informe](assets/nwe-reportactionsfordefaultreport-2022.png)
+   ![Editar informe](assets/unshimmed-report-actions-default-report.png)
 
 1. Realice las modificaciones necesarias en las siguientes pestañas del informe:
 
@@ -112,6 +124,6 @@ Si desea crear una copia de un informe predeterminado, haga lo siguiente:
 1. Haga clic en **Listo**.
 1. Haga clic en **Guardar como nuevo informe**.
 
-   ![](assets/nwe-save-as-new-report-350x220.png)
+   ![](assets/unshimmed-save-as-new-report.png)
 
 1. (Opcional) Para compartir la nueva versión del informe con otros usuarios, haga clic en **Acciones de informe** y luego en **Compartir**.

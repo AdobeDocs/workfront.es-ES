@@ -6,14 +6,16 @@ description: Los filtros y los indicadores son similares en el sentido de que am
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
 # Agregar una solicitud a un informe
+
+<!-- Audited: 11/2024 -->
 
 ## Diferencia entre indicadores y filtros
 
@@ -37,6 +39,8 @@ Un filtro puede indicar a Adobe Workfront que muestre solo las horas ingresadas 
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -49,20 +53,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+    <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader">Permisos de objeto*</td> 
+   <td> <p>Administración de permisos de un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
