@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 0%
 Esta página describe las mejoras realizadas con la versión del primer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Actualización de cómo se administran los recursos movidos o eliminados en las carpetas vinculadas
+
+>[!NOTE]
+>
+>Versión de vista previa: 21 de noviembre de 2024; versión de producción para todos los clientes: 5 de diciembre de 2024
+
+Hemos cambiado la forma en que se gestionan los recursos movidos y eliminados al utilizar la integración de Adobe Workfront con Experience Manager Assets y Assets Essentials:
+
+* Recursos eliminados: cuando se elimina un recurso dentro de una carpeta vinculada en Assets o Assets Essentials, el recurso eliminado se conservará en el área Documentos del proyecto.
+* Recursos movidos: cuando se mueve un recurso fuera de una carpeta vinculada en Assets o Assets Essentials, el recurso movido se conservará en el área Documentos de proyectos.
 
 ## Las secciones de un formulario personalizado ahora se pueden contraer y expandir
 

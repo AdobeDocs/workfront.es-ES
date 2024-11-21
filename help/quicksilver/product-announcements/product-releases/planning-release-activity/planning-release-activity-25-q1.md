@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,29 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning después de la publicación de disponibilidad general del 28 de agosto de 2024, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Asistente de IA de Adobe disponible en las áreas de detalles de registro
+
+>[!NOTE]
+>
+>Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+
+Para facilitar la realización de su trabajo, hemos agregado el Asistente de IA de Adobe a la vista previa de detalles de un registro o a la página del registro. Puede utilizar el Asistente de IA dentro de una página de registro para actualizar la información sobre el registro.
+
+Para obtener más información, consulte [Descripción general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## Nueva experiencia al añadir una miniatura y una imagen de portada a una página de registro
+
+>[!NOTE]
+>
+>Versión de vista previa: 20 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+
+Cuando se abre la vista previa o la página de un registro y éste no tiene una miniatura o una imagen de portada, debe situarse sobre el área situada encima del nombre del registro en el encabezado para ver las opciones para agregar una portada y una imagen en miniatura al registro. Antes de esta mejora, las imágenes de marcador de posición vacías para la miniatura y la portada mostradas encima del nombre del registro.
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Añadir una imagen en miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Nuevos tipos de visualización para campos de tipo porcentual en la vista de tabla
 
