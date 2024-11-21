@@ -8,9 +8,9 @@ description: Puede usar la herramienta Analizador de texto para analizar el text
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -57,6 +57,21 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Información de API del analizador de texto
+
+El conector del analizador de texto utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Analizador de texto] módulos y sus campos
 
@@ -180,7 +195,7 @@ El análisis de las expresiones regulares excede el ámbito de este artículo. R
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Active esta opción para asegurarse de que el punto (.) coincide con los caracteres de línea nueva (<code>\n</code>).</td> 
+   <td>Habilite esta opción para asegurarse de que el punto (.) coincida con los caracteres de línea nueva (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continuar la ejecución de la ruta aunque el módulo no devuelva resultados]</td> 
@@ -223,7 +238,7 @@ Busca un valor o una expresión regular especificados en el texto introducido y 
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Active esta opción para asegurarse de que el punto (.) coincide con los caracteres de línea nueva (<code>\n</code>).</td> 
+   <td>Habilite esta opción para asegurarse de que el punto (.) coincida con los caracteres de línea nueva (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Texto] </td> 

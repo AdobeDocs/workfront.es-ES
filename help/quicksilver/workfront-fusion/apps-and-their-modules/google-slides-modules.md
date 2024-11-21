@@ -9,9 +9,9 @@ description: Los módulos de diapositivas de Adobe Workfront Fusion Google le pe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -66,6 +66,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Google Slides], debe tener una cuenta de [!DNL Google].
+
+## Información de API de Google Slides
+
+El conector Diapositivas de Google utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://slides.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.5.9</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Slides] módulos y sus campos
 
@@ -249,7 +272,7 @@ Crea una nueva presentación reemplazando todas las etiquetas como `{{Name}}`, `
    <td> <p>Añada los valores:</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Escriba la etiqueta que desee reemplazar en la presentación. Por ejemplo, <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Valor reemplazado]</strong>: escriba el valor con el que se reemplazará la etiqueta existente. Por ejemplo, si una cadena <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Valor reemplazado]</strong>: escriba el valor con el que se reemplazará la etiqueta existente. Por ejemplo, si una cadena <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    

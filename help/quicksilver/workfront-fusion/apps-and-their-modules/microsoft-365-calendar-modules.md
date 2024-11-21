@@ -9,9 +9,9 @@ description: En  [!DNL Adobe Workfront Fusion] un escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '2023'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -68,6 +68,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Microsoft Office 365 Calendar], debe tener una cuenta de [!DNL Microsoft Office 365 Calendar].
+
+## Información de la API del calendario de Microsoft Office 365
+
+El conector Microsoft Office 365 Calendar utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Conectando el servicio [!DNL Office 365 Calendar] a [!DNL Workfront Fusion]
 

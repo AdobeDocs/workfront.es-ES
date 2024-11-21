@@ -9,9 +9,9 @@ description: En un escenario  [!DNL Adobe Workfront Fusion] puede automatizar lo
 author: Becky
 feature: Workfront Fusion
 exl-id: ac966231-251e-44de-be61-00afa5ece3fd
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1051'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -64,6 +64,25 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Azure Active Directory], debe tener una cuenta de [!DNL Azure Active Directory].
+
+## Información de la API [!DNL Azure Active Directory]
+
+El conector de Azure Active Directory utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.4.5</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Azure Active Directory] módulos y sus campos
 

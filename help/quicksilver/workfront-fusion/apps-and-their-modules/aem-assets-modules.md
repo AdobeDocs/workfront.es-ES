@@ -10,9 +10,9 @@ description: Con el conector  [!DNL Adobe Experience Manager Assets] para la cue
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,21 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
   Para obtener instrucciones sobre cómo agregar permisos de escritura a su cuenta técnica de Adobe Experience Manager, consulte [Credenciales de servicio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) en la documentación de Adobe Experience Manager.
 
+## Información de API de Adobe Experience Manager Assets
+
+El conector de Adobe Experience Manager Assets utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.8.61</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Conectar [!DNL Adobe Experience Manager Assets] a [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
 Para crear una conexión para los módulos de [!DNL Adobe Experience Manager Assets]:
@@ -94,7 +109,7 @@ Para crear una conexión para los módulos de [!DNL Adobe Experience Manager Ass
 
    Para [!DNL AEM Assets as a Cloud Service], consulte [Configurar la conexión para [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   Para [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), consulte [Configuración de la conexión para [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   Para [!UICONTROL AEM Assets básicos] ([!DNL Adobe Managed Services]), consulte [Configuración de la conexión para [!UICONTROL AEM Assets básicos]](#configure-the-connection-for-aem-assets-basic).
 
 4. Haga clic en **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
 

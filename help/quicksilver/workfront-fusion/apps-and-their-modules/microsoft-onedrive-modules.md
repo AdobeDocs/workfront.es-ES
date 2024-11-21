@@ -9,9 +9,9 @@ description: En un escenario de  [!DNL Adobe Workfront Fusion] , puede automatiz
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4091'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -68,6 +68,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 Para usar módulos de [!DNL OneDrive], debe tener una cuenta de [!DNL Microsoft OneDrive].
 
 
+
+## Información de API de OneDrive
+
+El conector OneDrive utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://graph.microsoft.com/v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## Conectando el servicio [!DNL OneDrive] a [!DNL Workfront Fusion]

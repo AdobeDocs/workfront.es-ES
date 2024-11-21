@@ -9,9 +9,9 @@ description: Con los módulos  [!DNL Adobe Workfront Fusion Adobe Creative Cloud
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>
     </tr>
     <tr>
-      <td role="rowheader">Product</td>
+      <td role="rowheader">Producto</td>
       <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -75,6 +75,25 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Adobe Creative Cloud Libraries], debes tener una cuenta de [!UICONTROL Adobe Creative Cloud].
+
+## Información de API de bibliotecas Adobe Creative Cloud
+
+El conector Bibliotecas Adobe Creative Cloud utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Bibliotecas Adobe Creative Cloud] módulos y sus campos
 

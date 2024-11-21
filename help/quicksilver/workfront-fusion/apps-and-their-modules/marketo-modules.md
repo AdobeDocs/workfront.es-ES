@@ -9,9 +9,9 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2083'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -71,12 +71,31 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Para usar módulos de [!DNL Marketo], debe tener una cuenta de [!DNL Marketo].
 
+## Información de API de Marketo
+
+El conector de Marketo utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.14.19</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Conectar [!DNL Marketo] a Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
 Puede crear una conexión con su cuenta de [!DNL Marketo] directamente desde el módulo [!DNL Marketo].
 
 1. En cualquier módulo de [!DNL Marketo], haga clic en **[!UICONTROL Agregar]** junto al campo [!UICONTROL Conexión].
-1. Escribe tu cuenta de [!DNL Marketo] o [!DNL Marketo] [!UICONTROL Munchkin] ID. Esta es la única parte de la dirección URL base o punto de conexión asignado a tu cuenta que usas para acceder a [!DNL Marketo] a través de su API [!UICONTROL REST]. Para obtener instrucciones sobre cómo encontrar esto, consulte [URL base](https://developers.marketo.com/rest-api/base-url/) en la documentación de [!DNL Marketo].
+1. Escribe tu cuenta de [!DNL Marketo] o [!DNL Marketo] ID de [!UICONTROL Munchkin]. Esta es la única parte de la dirección URL base o punto de conexión asignado a tu cuenta que usas para acceder a [!DNL Marketo] a través de su API [!UICONTROL REST]. Para obtener instrucciones sobre cómo encontrar esto, consulte [URL base](https://developers.marketo.com/rest-api/base-url/) en la documentación de [!DNL Marketo].
 1. Escriba su [!UICONTROL ID de cliente] y [!UICONTROL secreto de cliente]. Para obtener instrucciones sobre cómo localizarlos, consulte [Autenticación](https://developers.marketo.com/rest-api/authentication/) en la documentación de [!DNL Marketo].
 1. Haga clic en **[!UICONTROL Continuar]** para crear la conexión y volver al módulo.
 

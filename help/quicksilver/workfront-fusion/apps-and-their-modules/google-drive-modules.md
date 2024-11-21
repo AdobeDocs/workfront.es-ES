@@ -9,9 +9,9 @@ description: Los módulos  [!DNL Adobe Workfront Fusion Google Drive] le permite
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2958'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -64,6 +64,29 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Información de API de Google Drive
+
+El conector de Google Drive utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Todos los ejemplos de esta página muestran el parámetro sin codificar `<q>q</q
   <pre>fullText contiene 'hello world''fullText contiene 'hello_world'</pre>
 * Busque archivos con una consulta que contenga el carácter &quot;\&quot; (por ejemplo, &quot;\authors&quot;)
   <pre>fullText contiene '\\authors'</pre>
-* Busque archivos que pueda escribir el usuario &quot;test@example.org&quot;
+* Buscar archivos que pueda escribir el usuario `test@example.org`
   <pre>'test@example.org' en [!DNL writers]</pre>
 * Busque el identificador `1234567` en la colección `parents`. Esto encuentra todos los archivos y carpetas ubicados directamente en la carpeta cuyo identificador es `1234567`.
   <pre>'1234567' en [!UICONTROL parent]</pre>
 * Busque el ID de alias `appDataFolder` en la colección `parents`. Esto encuentra todos los archivos y carpetas ubicados directamente bajo la [carpeta de datos de la aplicación](https://developers.google.com/drive/api/v2/appdata).
   <pre>'appDataFolder' en elementos primarios</pre>
-* Busque archivos que puedan escribir los usuarios &quot;test@example.org&quot; y &quot;test2@example.org&quot;
+* Busque archivos que puedan escribir los usuarios `test@example.org` y `test2@example.org`
   <pre>'test@example.org' en escritores y 'test2@example.org' en escritores</pre>
 * Busque archivos que contengan el texto &quot;importante&quot; y que se encuentren en la papelera
   <pre>fullText contiene 'important' y trashed = true</pre>

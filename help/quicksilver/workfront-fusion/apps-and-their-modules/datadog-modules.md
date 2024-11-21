@@ -9,10 +9,10 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -66,6 +66,21 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Datadog], debe tener una cuenta de [!DNL Datadog].
+
+## Información de API de Datadog
+
+El conector Datadog utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>1.0.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Conectar [!DNL Datadog] a [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 
@@ -128,10 +143,10 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ### Acciones
 
-* [[!UICONTROL Puntos de la serie temporal Post]](#post-timeseries-points)
+* [[!UICONTROL Puntos de la serie horaria posterior]](#post-timeseries-points)
 * [[!UICONTROL Realizar una llamada API]](#make-an-api-call)
 
-#### [!UICONTROL Puntos de la serie temporal Post]
+#### [!UICONTROL Puntos de la serie horaria posterior]
 
 El módulo le permite publicar datos de series temporales que se pueden representar gráficamente en los paneles de [!DNL Datadog].
 

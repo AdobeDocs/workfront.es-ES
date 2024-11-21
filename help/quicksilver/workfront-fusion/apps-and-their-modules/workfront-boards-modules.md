@@ -9,10 +9,10 @@ description: Puede utilizar el conector de tableros de Adobe Workfront para auto
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 0%
+source-wordcount: '2647'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -71,6 +71,21 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Debe tener configurado un tablero en Adobe Workfront para poder conectarse a él.
+
+## Información de API de Adobe Workfront Boards
+
+El conector de los paneles de Adobe Workfront utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Creación de una conexión a los paneles de Workfront
 

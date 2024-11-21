@@ -9,9 +9,9 @@ description: En un escenario de Adobe Workfront Fusion, puede automatizar los fl
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -76,6 +76,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Salesforce], debe tener una cuenta de [!DNL Salesforce].
+
+## Información de API de Salesforce
+
+El conector de Salesforce utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> {{connection.instanceUrl}}</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> v46.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.15.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Acerca de la búsqueda de [!DNL Salesforce] objetos
 
@@ -433,7 +456,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr>
     <td>[!UICONTROL Tipo de descarga]</td>
-    <td> <p>Especifique el tipo de archivo que desea descargar de Salesforce.</p> 
+    <td> <p>Especifique el tipo de archivo que desea descargar desde Salesforce.</p> 
      <ul> 
       <li>[!UICONTROL Datos adjuntos]</li> 
       <li>[!UICONTROL Documento]</li> 
@@ -502,7 +525,7 @@ Al configurar este módulo, se muestran los campos siguientes.
    <td> <p>Seleccione el tipo de búsqueda que desea que realice el módulo:</p> 
     <ul> 
      <li> <p>[!UICONTROL Simple]</p> </li> 
-     <li> <p>[!UICONTROL Using SOSL (Lenguaje de búsqueda de objetos de Salesforce)]</p> </li> 
+     <li> <p>[!UICONTROL Using SOSL (Lenguaje de búsqueda de objetos Salesforce)]</p> </li> 
      <li> <p>[!UICONTROL Using SOQL (Salesforce Object Query Language)]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -512,7 +535,7 @@ Al configurar este módulo, se muestran los campos siguientes.
   </tr> 
   <tr> 
    <td>[!UICONTROL Query] / [!UICONTROL SOSL Query] / [!UICONTROL SOQL Query]</td> 
-   <td> <p>Introduzca la consulta por la que desea buscar.</p> <p>Para obtener más información sobre SOSL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Lenguaje de búsqueda de objetos de Salesforce (SOSL)</a> en la documentación de [!DNL Salesforce].</p> <p>Para obtener más información sobre SOQL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Lenguaje de consulta de objetos de Salesforce (SOQL)</a> en la documentación de [!DNL Salesforce].</p> <p>Nota: Tenga en cuenta que el valor del parámetro <code>RETURNING </code> influye en la salida del módulo. Si usa <code>LIMIT</code>, [!DNL Fusion] omitirá la configuración del campo [!UICONTROL Recuento máximo de registros]. Si no define ningún límite, Fusion insertará el valor [!UICONTROL LIMIT = Número máximo de registros].</p> </td> 
+   <td> <p>Introduzca la consulta por la que desea buscar.</p> <p>Para obtener más información sobre SOSL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Lenguaje de búsqueda de objetos de Salesforce (SOSL)</a> en la documentación de [!DNL Salesforce].</p> <p>Para obtener más información sobre SOQL, consulte <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> en la documentación de [!DNL Salesforce].</p> <p>Nota: Tenga en cuenta que el valor del parámetro <code>RETURNING </code> influye en la salida del módulo. Si usa <code>LIMIT</code>, [!DNL Fusion] omitirá la configuración del campo [!UICONTROL Recuento máximo de registros]. Si no define ningún límite, Fusion insertará el valor [!UICONTROL LIMIT = Número máximo de registros].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Recuento máximo de registros]</td> 

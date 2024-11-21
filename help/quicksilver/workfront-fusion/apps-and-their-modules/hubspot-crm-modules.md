@@ -4,9 +4,9 @@ description: Los módulos CRM de  [!DNL Adobe Workfront Fusion] HubSpot le permi
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: d550ba76a5a6c1d241d1dc73e63e49ef4c22a40d
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '6394'
+source-wordcount: '6411'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -57,6 +57,25 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL HubSpot CRM], debe tener una cuenta de [!DNL HubSpot CRM].
+
+## Información de API de CRM de HubSpot
+
+El conector CRM de HubSpot utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td>https://api.hubapi.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 2.0.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Conectar [!DNL Adobe Workfront Fusion] a [!DNL HubSpot CRM]
 
@@ -949,7 +968,7 @@ Este módulo de acción crea una participación (como una nota, tarea o activida
    <td>Introduzca o asigne los detalles o las notas de la llamada.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Identificador externo</td> 
+   <td role="rowheader">ID externo</td> 
    <td>Este campo representa el ID interno de una llamada realizada en HubSpot. No requiere ninguna acción.</td> 
   </tr> 
   <tr> 
@@ -1421,7 +1440,7 @@ Este módulo de acción crea una nueva tarea para un calendario. La conexión ut
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Categoría]</td> 
-   <td>Seleccione el tipo de evento.<ul><li><b>Publicación de blog</b><p>Introduzca el ID del grupo de contenido. Este es el ID de la página del blog.</p></li><li><b>Correo electrónico</b><p>Introduzca o asigne la ruta a la plantilla de correo electrónico que desee utilizar.</li><li><b>Página de aterrizaje</b><p>Introduzca o asigne la ruta a la plantilla de página de aterrizaje que desee utilizar.</li><li><b>Personalizada</b></li><ul></td> 
+   <td>Seleccione el tipo de evento.<ul><li><b>Publicación de blog</b><p>Introduzca el ID del grupo de contenido. Este es el ID de la página del blog.</p></li><li><b>Correo electrónico</b><p>Introduzca o asigne la ruta a la plantilla de correo electrónico que desee utilizar.</li><li><b>Página de aterrizaje</b><p>Introduzca o asigne la ruta a la plantilla de página de aterrizaje que desee utilizar.</li><li><b>Personalizado</b></li><ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Estado]</td> 

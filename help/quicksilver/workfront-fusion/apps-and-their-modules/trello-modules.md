@@ -9,9 +9,9 @@ description: En un escenario  [!DNL Adobe Workfront Fusion] puede automatizar lo
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '5095'
+source-wordcount: '5113'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -66,6 +66,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Trello], debes tener una cuenta de [!UICONTROL Trello].
+
+## Información de API de Trello
+
+El conector Trello utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://api.trello.com/1</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>v4.12.37</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Conectar [!UICONTROL Trello] a [!DNL Workfront Fusion]
 

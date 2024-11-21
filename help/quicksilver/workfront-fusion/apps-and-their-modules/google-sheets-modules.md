@@ -9,9 +9,9 @@ description: Para usar [!DNL Google Sheets] con [!DNL Adobe Workfront Fusion],yo
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4000'
+source-wordcount: '4023'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -64,6 +64,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!UICONTROL Google Sheets], debes tener una cuenta de [!UICONTROL Google].
+
+## Información de API de hojas de Google
+
+El conector de Google Sheets utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Déclencheur
 
@@ -720,7 +743,7 @@ Use el módulo [!UICONTROL Buscar filas (avanzadas)] y use esta fórmula para ob
    * El nombre de la función debe corresponder al nombre especificado en el paso 9.
    * Reemplace la URL con la URL del webhook que copió en el paso 2.
 
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;webhook que copió&gt;");</pre><pre>}</pre>
 
 1. Presione **[!UICONTROL Ctrl+S]** para guardar el archivo de script, ingrese un nombre de proyecto y haga clic en **[!UICONTROL Aceptar]**.
 

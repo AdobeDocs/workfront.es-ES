@@ -9,9 +9,9 @@ description: Con el módulo Adobe Authenticator, puede conectarse a cualquier pr
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1223'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,21 @@ Para ver una lista de las API de Adobe disponibles, consulte [API de Adobe](http
    * Añada la API a un proyecto existente.
 
   Para obtener información sobre cómo crear o agregar una API a un proyecto en Adobe Developer Console, consulte [Crear un proyecto](https://developer.adobe.com/dep/guides/dev-console/create-project/) en la documentación de Adobe.
+
+## Información de API de Adobe Authenticator
+
+El conector de Adobe Authenticator utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Crear una conexión
 

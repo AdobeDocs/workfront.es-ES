@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,25 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Información de API de Adobe Workfront Planning
+
+El conector de Adobe Workfront Planning utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.13.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Crear una conexión con [!DNL Adobe Workfront Planning]
 

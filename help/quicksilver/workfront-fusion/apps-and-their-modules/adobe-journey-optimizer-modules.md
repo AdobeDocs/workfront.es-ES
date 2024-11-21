@@ -9,9 +9,9 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3692'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>
     </tr>
     <tr>
-      <td role="rowheader">Product</td>
+      <td role="rowheader">Producto</td>
       <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -78,6 +78,25 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 Antes de poder usar el conector [!DNL Adobe Journey Optimizer], debe asegurarse de que se cumplen los siguientes requisitos previos:
 
 * Debe tener una cuenta de [!DNL Adobe Journey Optimizer] activa.
+
+## Información de API de Adobe Journey Optimizer
+
+El conector de Adobe Journey Optimizer utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td>{{connection.url}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Creación de una conexión con Adobe Journey Optimizer
 
@@ -1018,13 +1037,13 @@ Déclencheur Este módulo de acción envía un mensaje unitario a los destinatar
    <td>Para cada destinatario que desee recibir este mensaje, haga clic en <b>Agregar destinatario</b> e introduzca lo siguiente:
    <ul>
    <li><p><b>Tipo</b></p>Seleccione <code>aep</code>.</li>
-   <li><p><b>Identificador del usuario</b></p>Introduzca o asigne el identificador de perfil de Adobe Experience Platform del destinatario.</li>
+   <li><p><b>ID de usuario</b></p>Introduzca o asigne el identificador de perfil de Adobe Experience Platform del destinatario.</li>
    <li><p><b>Área de nombres</b></p>Introduzca o asigne el área de nombres del perfil de Adobe Experience Platform del destinatario.</li>
    <li><p><b>Dirección de correo electrónico</b></p></li>
    <li><p><b>Número de teléfono móvil</b></p></li>
    <li><p><b>Nombre</b></p></li>
-   <li><p><b>Apellido</b></p></li>
-   <li><p><b>Product</b></p>Introduzca o asigne el producto asociado a este mensaje. Se utiliza para la sustitución dinámica de variables en el contenido del mensaje.</li>
+   <li><p><b>Apellidos</b></p></li>
+   <li><p><b>Producto</b></p>Introduzca o asigne el producto asociado a este mensaje. Se utiliza para la sustitución dinámica de variables en el contenido del mensaje.</li>
    </ul></td> 
   </tr> 
  </tbody> 

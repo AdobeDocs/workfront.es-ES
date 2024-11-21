@@ -9,9 +9,9 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3208'
+source-wordcount: '3230'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -72,6 +72,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 >El Dropbox debe aprobar las aplicaciones con más de 50 usuarios.
 >
 >Para obtener más información, busque &quot;Aprobación de producción&quot; en la guía para desarrolladores de Dropbox.
+
+## Información de API del Dropbox
+
+El conector del Dropbox utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://api.dropboxapi.com/2    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> 2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td><ul><li><p>Dropbox</p><p>Versión 5.3.9</p></li><li><p>Dropbox Empresa</p><p>Versión 1.0.12</p></li></ul></td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## Crear una conexión con [!DNL Dropbox]

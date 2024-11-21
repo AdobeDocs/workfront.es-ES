@@ -9,9 +9,9 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul>
    <p>O</p>
@@ -68,6 +68,21 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 Antes de poder usar el conector [!DNL Adobe Firefly], debe asegurarse de que se cumplen los siguientes requisitos previos:
 
 * Debe tener una cuenta de [!DNL Adobe Firefly] activa.
+
+## Información de API de Adobe Campaign
+
+El conector de Adobe Campaign utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.4.24</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Crear una conexión con [!DNL Adobe Firefly]
 

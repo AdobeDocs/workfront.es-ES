@@ -9,10 +9,10 @@ description: Con los módulos  [!DNL Adobe Campaign] , puedes iniciar un escenar
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: '1448'
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -65,6 +65,21 @@ Debe agregar las direcciones IP de Fusion a [!DNL Adobe Campaign].
 
 * Para obtener instrucciones sobre cómo agregar direcciones IP a la lista de permitidos de Campaign, consulte [Agregar direcciones IP a la lista de permitidos](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) en la documentación de Adobe Campaign.
 * Para obtener una lista de direcciones IP que agregar a la lista de permitidos, consulte [Direcciones IP para acceder a Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+
+## Información de API de Adobe Campaign
+
+El conector de Adobe Campaign utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.7.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Conectar [!DNL Adobe Campaign] a [!DNL Adobe Workfront Fusion]
 

@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2112'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -64,6 +64,37 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Jira], debe tener una cuenta de [!DNL Jira].
+
+## Información de API de Jira
+
+El conector Jira utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"></td> 
+   <td> Jira Cloud</td> 
+   <td> Servidor Jira</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersion</td> 
+   <td> 2</td> 
+   <td> 2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersionAgile</td> 
+   <td> 1,0 </td> 
+   <td> 1,0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>1.7.29</td> 
+   <td>1.0.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Conectar [!DNL Jira Software] a [!DNL Workfront Fusion]
 

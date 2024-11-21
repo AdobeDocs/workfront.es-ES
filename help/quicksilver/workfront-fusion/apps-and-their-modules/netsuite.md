@@ -9,9 +9,9 @@ description: En un escenario de Adobe Workfront Fusion, puede automatizar los fl
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,25 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL NetSuite], debe tener una cuenta de [!DNL NetSuite].
+
+## Información de API de NetSuite
+
+El conector NetSuite utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Creación de una conexión con NetSuite
 

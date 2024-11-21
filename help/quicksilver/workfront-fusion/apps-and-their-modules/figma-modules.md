@@ -9,9 +9,9 @@ description: Con los módulos  [!DNL Adobe Workfront Fusion] Figma, puede recupe
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>
     </tr>
     <tr>
-      <td role="rowheader">Product</td>
+      <td role="rowheader">Producto</td>
       <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -71,6 +71,29 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 ## Requisitos previos
 
 Para usar módulos de [!DNL Figma], debe tener una cuenta de [!DNL Figma].
+
+## Información de API de Figma
+
+El conector Figma utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Versión de API</td> 
+   <td> Versión 1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Figma] módulos y sus campos
 

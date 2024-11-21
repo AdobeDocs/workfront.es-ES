@@ -9,9 +9,9 @@ description: Con los módulos de Adobe Lightroom, puede iniciar un escenario de 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Product</td>
+      <td role="rowheader">Producto</td>
       <td>Su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</td>
     </tr>
     </tr>
@@ -71,7 +71,26 @@ Antes de poder usar el conector [!DNL Adobe Lightroom], debe asegurarse de que s
 
 * Debe tener una cuenta de [!DNL Adobe Lightroom] activa.
 
-## Creación de una conexión con Adobe Lightroom
+## Información de API de Adobe Lightroom
+
+El conector de Adobe Lightroom utiliza lo siguiente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">URL básica</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Etiqueta de API</td> 
+   <td>Versión 1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 
