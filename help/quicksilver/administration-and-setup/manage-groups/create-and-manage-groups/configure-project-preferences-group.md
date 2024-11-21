@@ -8,20 +8,19 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 2%
+source-wordcount: '2825'
+ht-degree: 1%
 
 ---
 
 # Configurar las preferencias de proyecto de un grupo
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Si es administrador de un grupo y un administrador de Adobe Workfront desbloquea una preferencia de proyecto para todos los grupos del sistema, puede configurar esa preferencia para que el grupo afecte a todos los proyectos subsiguientes que cree el grupo.
 
@@ -210,12 +209,22 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Cuando se asignan varios usuarios a una tarea, utilice la programación de</strong> </p> </td> 
+   <td role="rowheader"> <p><strong>Cuando se asignan varios usuarios a una tarea, utilice la programación de ...</strong> </p> </td> 
    <td> <p>Si un proyecto no tiene una programación asignada o si los usuarios asignados a sus tareas no tienen una programación asignada, Workfront utiliza la programación predeterminada del sistema para calcular la escala de tiempo de las tareas.</p> <p>Si asigna varios usuarios a la misma tarea en un proyecto que tiene una programación asignada (y los usuarios asignados a las tareas también tienen una programación asignada), Workfront utiliza las siguientes programaciones:</p> 
     <ul> 
      <li><strong>Asignación principal</strong>: Workfront usa la programación de la asignación principal de la tarea para calcular las escalas de tiempo.</li> 
      <li><strong>Proyecto</strong>: Workfront usa la programación del proyecto para calcular la escala de tiempo de cada tarea.</li> 
     </ul> <p>Para obtener más información acerca de las programaciones, vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Crear una programación</a>.</p> </td> 
+  </tr> 
+ <tr> 
+   <td role="rowheader"> <p><span class="preview"><strong>Cuando se asigne un usuario a una tarea, utilice la programación de...</strong></span> </p> </td> 
+   <td> <div class="preview"><p>Si un proyecto no tiene asignada una programación o si los usuarios asignados a sus tareas no tienen asignada una programación, [!DNL Workfront] utiliza la programación predeterminada del sistema para calcular la escala de tiempo de las tareas.</p>
+
+<p>Si asigna un usuario a una tarea de un proyecto y tanto el proyecto como el usuario tienen asociada una programación, [!UICONTROL Workfront] utilizará las siguientes programaciones:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL Usuario]</strong>: La programación del usuario asignado en la tarea para calcular las escalas de tiempo.</li> 
+     <li><strong>[!UICONTROL Project]</strong>: La programación del proyecto para calcular la escala de tiempo de la tarea.</li> 
+    </ul> <p>Para obtener más información acerca de las programaciones, vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Crear una programación</a>.</p></div></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Cálculos de cronología </p> </td> 
@@ -233,19 +242,6 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
   </tr> 
  </tbody> 
 </table>
-
-<!--Add this to the table (under the "When multiple users are assigned ..." setting):
-
-When one user is assigned to a task, use the schedule of the...
-
-
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL User]</strong>: The schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: The schedule of the project to calculate the timeline of the task.</li> 
-    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-
--->
 
 ### Casos comerciales {#business-cases}
 

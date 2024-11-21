@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede definir la semana laboral mediante los horarios y asociar un horario a un usuario o proyecto. Esto permite que [!DNL Adobe Workfront] calcule las escalas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, vea [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -68,23 +65,17 @@ Si una tarea se asigna a un usuario asociado a una programación y reside en un 
 
 El orden en el que el sistema utiliza las programaciones cuando existe más de una es el siguiente:
 
-<!--Replace the first bullet below with this when the setting releases: 
-* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
 
-   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+* Cuando se asigna un usuario a una tarea, existen los siguientes escenarios, según el entorno que utilice:
 
-      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * En el entorno de producción, [!DNL Workfront] usa la programación del usuario para calcular la escala de tiempo de la tarea. Esto también incluye la hora personal del usuario. Se ignora la programación del proyecto.
 
-   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+     Para obtener más información sobre el tiempo personal, consulte [Configurar el tiempo libre personal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-      * <span class="preview">The schedule of the user who is assigned to the task </span>
-      * <span class="preview">The schedule associated with the project.</span>
+   * <span class="preview">En el entorno de vista previa, [!DNL Workfront] usa cualquiera de las siguientes programaciones, tal como se definen en el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración]:</span>
 
--->
-
-* Cuando se asigna un usuario a una tarea, [!DNL Workfront] utiliza la programación del usuario para calcular la escala de tiempo de la tarea. Esto también incluye la hora personal del usuario. Se ignora la programación del proyecto.
-
-  Para obtener más información sobre el tiempo personal, consulte [Configurar el tiempo libre personal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+      * <span class="preview">Programación del usuario asignado a la tarea </span>
+      * <span class="preview">La programación asociada con el proyecto.</span>
 
 * Cuando se asignan varios usuarios a una tarea y los usuarios tienen programaciones diferentes durante el lapso de tiempo de la tarea, [!DNL Workfront] usa una de las siguientes programaciones, tal como se define en el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración]:
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,10 @@ ht-degree: 0%
 
 # Descripción general del Asistente de IA de Adobe Workfront Planning
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -66,14 +65,12 @@ Puede utilizar el asistente de IA para realizar las siguientes acciones en este 
 * Restaurar registros que acaba de eliminar
 
 
-<!-- ## Locate the AI Assistant in Workfront Planning
+## Busque el asistente de IA en Workfront Planning
 
-You can locate the AI Assistant in the following areas of Workfront Planning:
+Puede localizar el asistente de IA en las siguientes áreas de Workfront Planning:
 
-* The main navigation bar, in the upper-right corner of the screen.
-* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
-
--->
+* La barra de navegación principal, en la esquina superior derecha de la pantalla.
+* <span class="preview">Dentro del área de detalles de un registro, después de abrir el registro en la vista previa o después de abrir la página del registro.</span>
 
 ## Acceso al asistente de IA en el área de planificación
 
@@ -87,7 +84,7 @@ You can locate the AI Assistant in the following areas of Workfront Planning:
 
 1. (Opcional) Haga clic en un **registro** para abrir la página **Detalles** del registro.
 
-1. Haga clic en el icono **Asistente de IA** en la esquina superior derecha de la pantalla en la barra de navegación global <!--or in the upper-right corner of the record's preview or page.-->
+1. Haga clic en el icono **Asistente de IA** en la esquina superior derecha de la pantalla en la barra de navegación global <span class="preview"> o en la esquina superior derecha de la vista previa o la página del registro.</span>
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1557'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<!--
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 La duración de la tarea es la diferencia entre la fecha planificada de finalización y la fecha planificada de inicio de la tarea. La duración indica el lapso de tiempo disponible para que se complete la tarea.
 
@@ -38,34 +35,27 @@ Si las Fechas de inicio y finalización reales de la tarea quedan fuera de la pr
 
 A continuación se indican dos escenarios que existen al calcular la duración en Adobe Workfront:
 
-<!--
-<div class="preview">
-* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+* Si la tarea se asigna a un usuario, existen los siguientes escenarios en función del entorno que utilice:
 
-  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
-
-   1. Workfront takes into account the user's schedule. 
-   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
-   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-   * In the Preview environment:
-
-      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
-
-          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
-
-      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
-
-</div>
--->
-
-* Si la tarea está asignada a un usuario, Workfront utiliza una de las siguientes programaciones, en este orden exacto para calcular la duración:
+   * En el entorno de producción, Workfront utiliza una de las siguientes programaciones, en este orden exacto para calcular la duración:
 
    1. Workfront tiene en cuenta la programación del usuario.
    1. Si el usuario no está asociado a una programación, Workfront tiene en cuenta la programación del proyecto.
    1. Si el proyecto no está asociado a una programación, Workfront tiene en cuenta la programación predeterminada del sistema. Para obtener información acerca de las programaciones, vea [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+<div class="preview">
+
+* En el entorno de vista previa:
+
+   1. Workfront tiene en cuenta la programación del proyecto o la del usuario asignado a la tarea.
+
+      El administrador de Workfront o del grupo determina qué programación utiliza Workfront cuando se asigna una tarea a un usuario. Para obtener más información, consulte [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   1. Si el usuario o el proyecto no tienen una programación, Workfront utiliza la programación predeterminada del sistema.
+
+      Los pasos son similares al primer escenario después de comprender qué programación utiliza Workfront para calcular la duración.
+
+</div>
 
 * Si la tarea está asignada a varios usuarios:
 

@@ -5,9 +5,9 @@ title: Trabajo entre zonas horarias
 description: Puede ser útil entender cómo  [!DNL Adobe Workfront] usa las zonas horarias para calcular los campos de hora de los objetos y las horas en otras áreas, como los correos electrónicos.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,9 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
-
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede resultar útil comprender cómo [!DNL Adobe Workfront] utiliza las zonas horarias para calcular lo siguiente:
 
@@ -103,18 +100,16 @@ Puede ayudar a los usuarios a trabajar con mayor facilidad en varias zonas horar
    * Zona horaria de la programación del propietario principal de la tarea
    * Zona horaria de la programación del proyecto.
 
-<!--
-   <div class="preview">
+  <div class="preview">
 
-   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
+  Si se asigna un usuario a una tarea, el sistema utiliza una de las siguientes opciones, según la configuración de las preferencias de proyecto de todo el sistema o del grupo:
 
-   * The time zone for the schedule of the task's assignee
-   * The time zone for the schedule of the project.
+   * Zona horaria de la programación de la persona asignada a la tarea
+   * Zona horaria de la programación del proyecto.
 
-   </div>
--->
+  </div>
 
-Esto puede hacer que las fechas de las tareas cambien.
+  Esto puede hacer que las fechas de las tareas cambien.
 
 >[!BEGINSHADEBOX]
 
