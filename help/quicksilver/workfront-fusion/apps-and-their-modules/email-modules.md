@@ -9,7 +9,7 @@ description: En  [!DNL Adobe Workfront Fusion] , puede conectar su cuenta de cor
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -374,7 +374,7 @@ Marca un correo electrónico o un borrador en una carpeta seleccionada como leí
    <td>Seleccione la carpeta del correo electrónico que desea marcar como leído. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ID de correo electrónico (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea marcar como leído.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
@@ -397,7 +397,7 @@ Marca un correo electrónico o un borrador de una carpeta seleccionada como no l
    <td>Seleccione la carpeta del correo electrónico que desea marcar como no leído. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ID de correo electrónico (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea marcar como no leído.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ Mueve un correo electrónico o borrador seleccionado a una carpeta seleccionada.
    <td> <p> Seleccione la carpeta a la que desea añadir el correo electrónico. Ejemplo: Trabajo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ID de correo electrónico (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea mover a la carpeta de destino.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +451,7 @@ Copia un correo electrónico o un borrador en una carpeta seleccionada.
    <td> <p> Seleccione la carpeta en la que desea copiar el correo electrónico. Ejemplo: Trabajo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ID de correo electrónico (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea copiar en la carpeta de destino.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
@@ -474,7 +474,7 @@ Quita un correo electrónico o un borrador de la carpeta seleccionada.
    <td>Seleccione la carpeta del correo electrónico que desea eliminar. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ID de correo electrónico (UID)]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea eliminar.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
   <tr> 
@@ -538,7 +538,7 @@ Devuelve correos electrónicos que coinciden con los criterios especificados.
    <td> <p>Introduzca o asigne cualquier palabra clave para recuperar solo los correos electrónicos que contengan frases específicas.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID de correo electrónico (UID)]</td> 
+   <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
    <td> <p> Introduzca el ID de correo electrónico (UID) del correo electrónico cuyos detalles desee recuperar.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Watch Email] de [!DNL Workfront Fusion] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
   <tr> 

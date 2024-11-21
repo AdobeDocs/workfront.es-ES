@@ -9,7 +9,7 @@ description: Con los módulos  [!DNL Adobe Acrobat Sign] , puedes iniciar un esc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '6652'
 ht-degree: 0%

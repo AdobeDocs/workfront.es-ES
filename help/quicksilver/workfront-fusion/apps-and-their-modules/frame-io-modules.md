@@ -9,7 +9,7 @@ description: La cuenta  [!DNL Adobe Workfront Fusion Frame].io modules enable yo
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2356'
 ht-degree: 0%

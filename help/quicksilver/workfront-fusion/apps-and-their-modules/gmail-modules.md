@@ -9,7 +9,7 @@ description: En un escenario de  [!DNL Adobe Workfront Fusion] , puede automatiz
 author: Becky
 feature: Workfront Fusion
 exl-id: 1987156c-e003-4f99-8913-cb47f77efbfc
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -279,7 +279,7 @@ El módulo devuelve el ID del correo electrónico y cualquier campo asociado, ju
    <td> <p>Seleccione la carpeta [!DNL Gmail] que contiene el correo electrónico.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de correo electrónico (UID)]</td> 
+   <td>[!UICONTROL Email ID (UID)]</td> 
    <td> <p> Introduzca o asigne el ID de correo electrónico.</p> </td> 
   </tr> 
  </tbody> 
@@ -306,7 +306,7 @@ El módulo devuelve el ID del correo electrónico y cualquier campo asociado, ju
    <td> <p>Seleccione la carpeta [!DNL Gmail] que contiene el correo electrónico.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de correo electrónico (UID)] </td> 
+   <td>[!UICONTROL Email ID (UID)] </td> 
    <td> <p>Introduzca o asigne el ID de correo electrónico del correo electrónico que desea marcar como no leído.</p> </td> 
   </tr> 
  </tbody> 
@@ -337,7 +337,7 @@ El módulo devuelve el ID del correo electrónico y cualquier campo asociado, ju
    <td> <p> Seleccione la carpeta de destino [!DNL Gmail] a la que desee mover el correo electrónico.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de correo electrónico (UID)]</td> 
+   <td>[!UICONTROL Email ID (UID)]</td> 
    <td> <p> Introduzca o asigne el ID de correo electrónico del correo electrónico que desea mover.</p> </td> 
   </tr> 
  </tbody> 
@@ -368,7 +368,7 @@ El módulo devuelve el ID del correo electrónico y cualquier campo asociado, ju
    <td> <p>Seleccione la carpeta de destino [!DNL Gmail] en la que desee copiar el correo electrónico.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ID de correo electrónico (UID)]</td> 
+   <td>[!UICONTROL Email ID (UID)]</td> 
    <td> <p>Introduzca o asigne el ID de correo electrónico del correo electrónico que desea copiar.</p> </td> 
   </tr> 
  </tbody> 

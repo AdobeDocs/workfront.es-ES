@@ -10,7 +10,7 @@ description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '4070'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
    <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
@@ -996,11 +996,11 @@ Para obtener información sobre los campos, consulte [Reproducir un trabajo](htt
 
 +++
 
-+++**[!UICONTROL Comentario de Post para confirmar]**
++++**[!UICONTROL Enviar comentario para confirmar]**
 
 Este módulo de acción añade un comentario a una confirmación.
 
-Para obtener información sobre los campos, consulte [Comentario de Post para confirmar](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) en la documentación de [!DNL GitLab].
+Para obtener información sobre los campos, consulte [Publicar comentario para confirmar](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) en la documentación de [!DNL GitLab].
 
 +++
 

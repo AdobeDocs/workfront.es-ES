@@ -9,7 +9,7 @@ description: En  [!DNL Adobe Workfront Fusion] un escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2023'
 ht-degree: 0%

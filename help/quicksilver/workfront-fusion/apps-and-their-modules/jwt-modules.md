@@ -8,7 +8,7 @@ description: La aplicación  [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] prop
 author: Becky
 feature: Workfront Fusion
 exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%

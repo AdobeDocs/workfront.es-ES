@@ -9,7 +9,7 @@ description: En  [!DNL Adobe Workfront Fusion] un escenario, puede conectar su c
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
