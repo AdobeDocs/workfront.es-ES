@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Crear y editar reglas empresariales
+
+{{preview-fast-release-general}}
 
 Una regla de negocio permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas empresariales ayudan a mejorar la calidad de los datos y la eficacia operativa mediante la prevención de acciones que podrían poner en peligro la integridad de los datos.
 
@@ -131,6 +133,10 @@ IF(
    * La &quot;acción&quot; es el déclencheur seleccionado para la regla: crear, editar o borrar el objeto.
    * Como el objeto y la acción ya están definidos, no los incluye en la fórmula.
    * El mensaje de error personalizado se muestra al usuario cuando almacena en déclencheur la regla de negocio. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
+
+     <span class="preview">Puede incluir una dirección URL estática en el mensaje de error para vincular a la documentación u otras páginas útiles y guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla.</span>
+
+     <span class="preview">En este ejemplo, &quot;Más información&quot; se vinculará a la dirección URL. `"You are not allowed to add a new expense in June.[Learn more](http://url)"`: la dirección URL debe estar entre paréntesis, pero no se requiere el texto entre corchetes para los vínculos. Puede mostrar la dirección URL completa, que será un vínculo en el que se podrá hacer clic.</span>
 
    ![Agregar cuadro de diálogo de regla de negocio](assets/add-business-rule-dialog-no-ai-button.png)
 
