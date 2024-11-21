@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6537'
 ht-degree: 5%
 
 ---
@@ -263,6 +263,10 @@ Para agregar un campo de texto:
     <td> Si desea aplicar un hipervínculo al texto descriptivo que ha escrito, agréguelo aquí. El texto descriptivo se muestra como un vínculo en los objetos en los que está adjunto el formulario.</td>
     <td><ul><li>Texto descriptivo</li></ul></td>
     </tr>
+    <tr> 
+      <td role="rowheader">Cambiar un campo a obligatorio</td>
+      <td><p>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado.</p></td>
+    </tr> 
    </table>
 
 1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
@@ -837,6 +841,27 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
       <td role="rowheader">Campo de referencia</td> 
       <td><p>(Obligatorio) Seleccione un campo nativo de Workfront.<p><p>Solo están disponibles los campos nativos de los objetos del formulario. Por ejemplo, si la lista Tipos de objetos de la parte superior del diseñador de formularios muestra Proyecto, podrá seleccionar campos nativos para proyectos, pero no campos específicos de tareas.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Agregar filtro</span></td>
+      <td><span class="preview"><p>Añada un filtro para el campo de referencia para limitar la lista de elementos entre los que los usuarios pueden elegir cuando utilizan el campo. </p> <p>Por ejemplo, puede limitar un campo para que los nombres de usuario solo se puedan seleccionar si cumplen los siguientes criterios:</p> 
+       <ul>
+        <li>Pertenecen a uno o varios grupos especificados</li> 
+        <li>Están asociados a un rol o cargo que especifique</li> 
+        <li>Pertenecen al mismo grupo que la persona que utiliza el campo</li> 
+       </ul>
+       <p>Debe definir el filtro para el campo de referencia seleccionado mediante la sintaxis Modo de texto. Para obtener información acerca de cómo crear un filtro mediante el modo de texto, vea <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar un filtro mediante el modo de texto</a>.</p>
+       <p><b>NOTA</b>:
+       <ul> 
+        <li>La opción de filtro solo está disponible cuando se hace referencia a un campo de escritura anticipada nativo, como Portfolio, Empresa o Propietario.</li>
+        <li>Si está editando un formulario personalizado existente, al agregar un filtro a un campo nativo no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan agregado mediante el campo.</li> 
+        <li>Este filtro no está disponible en dispositivos móviles. Si utiliza el filtro para un campo nativo, el campo aparecerá en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
+        </ul></p></span></td> 
+      <td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Cambiar un campo a obligatorio</td>
+      <td><p>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado.</p></td>
+     </tr> 
      <tr> 
       <td role="rowheader">Tamaño</td> 
       <td>(Opcional) Cambie el tamaño de visualización del campo según sea necesario.</td> 
