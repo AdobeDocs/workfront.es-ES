@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <p>Workfront Planning no está disponible para planes Workfront heredados</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera </p> 
 <p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
@@ -206,6 +206,9 @@ OLD:
    Pase el ratón sobre el encabezado de cualquier columna, haga clic en la flecha hacia abajo después del nombre del campo y, a continuación, haga clic en **Insertar a la izquierda** o **Insertar a la derecha** para agregar el nuevo campo.
 1. En la ficha **Nuevo campo**, busque un tipo de campo en el cuadro **Tipo de campo** o seleccione uno de los siguientes tipos de campo:
 
+   En la ficha **Nuevo campo**, busque un tipo de campo en el cuadro **Tipo de campo** <!--using any related keyword--> o seleccione uno de los tipos de campo que se enumeran a continuación.
+
+
    * [Texto de línea única](#single-line-text)
    * [Párrafo](#paragraph)
    * [Selección múltiple](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    No se puede cambiar el tipo de campo después de guardarlo.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Siga agregando cada campo, tal como se describe en las secciones siguientes.
 

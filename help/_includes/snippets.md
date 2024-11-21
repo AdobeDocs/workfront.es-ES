@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -276,7 +276,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
    Se abre la página de aterrizaje de Workfront Planning.
 
-1. (Opcional y condicional) Si es administrador de Workfront, haga clic en las siguientes pestañas:
+1. (Opcional y condicional) Si es administrador de Workfront, haga clic en una de las siguientes pestañas:
 
    * **Mis espacios de trabajo**: muestra los espacios de trabajo que creó.
    * **Otros espacios de trabajo**: muestra todos los espacios de trabajo en Workfront Planning, incluidos los compartidos con usted.
@@ -291,8 +291,8 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 >
 >Debe tener lo siguiente para acceder a Workfront Planning:
 >
->* Un nuevo plan y licencia de Workfront. Workfront Planning no está disponible para planes o licencias de Workfront heredados.
->* Licencia adicional para Workfront Planning.
+>* Un nuevo paquete y licencia de Workfront. Workfront Planning no está disponible para paquetes o licencias de Workfront heredados.
+>* Un paquete de Workfront Planning.
 >* La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.
 >
 > Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso](/help/quicksilver/planning/access/access-overview.md).

@@ -6,9 +6,9 @@ description: Puede actualizar manualmente la fecha de confirmación de una tarea
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ Puede actualizar manualmente la fecha de confirmación de una tarea o un problem
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos sobre la tarea o el problema</p> </td> 
+   <td> <p>Administrar permisos sobre la tarea o el problema</p>
+   <p> Debe estar asignado a la tarea o al problema para actualizar la fecha de confirmación </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ title: Trabajo entre zonas horarias
 description: Puede ser útil entender cómo  [!DNL Adobe Workfront] usa las zonas horarias para calcular los campos de hora de los objetos y las horas en otras áreas, como los correos electrónicos.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # Trabajo entre zonas horarias
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Puede resultar útil comprender cómo [!DNL Adobe Workfront] utiliza las zonas horarias para calcular lo siguiente:
 
@@ -91,20 +98,37 @@ Puede ayudar a los usuarios a trabajar con mayor facilidad en varias zonas horar
 
   Esta programación puede ser diferente de una programación de proyecto. Por ejemplo, cuando alguien crea una tarea en el proyecto y aún no le ha asignado a nadie, la tarea utiliza la programación del proyecto. Cuando se asigna un usuario a la tarea, esta utiliza la programación de ese usuario.
 
-  Si se asignan varios usuarios a una tarea, el sistema utiliza una de las siguientes opciones, según se ha configurado en las preferencias de proyecto para todo el sistema:
+  Si se asignan varios usuarios a una tarea, el sistema utiliza una de las siguientes opciones, según la configuración de las preferencias de proyecto de todo el sistema o del grupo:
 
    * Zona horaria de la programación del propietario principal de la tarea
    * Zona horaria de la programación del proyecto.
 
-  Esto puede hacer que las fechas de las tareas cambien.
+<!--
+   <div class="preview">
 
-  **Ejemplo:** Se asigna a un usuario de EST una tarea de un día programada para comenzar a las 9:00 AM PST, que es mediodía EST. Como al usuario de EST le quedan sólo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  Para obtener información sobre el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración], consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  Para obtener instrucciones sobre cómo asignar una programación a un proyecto o a un usuario, vea [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   </div>
+-->
 
-  Para obtener información sobre cómo afecta la zona horaria configurada en su programación a la distribución de [!UICONTROL Horas planificadas] en el [!UICONTROL Distribuidor de cargas de trabajo], consulte [Administrar asignaciones de usuarios en el [!UICONTROL Distribuidor de cargas de trabajo]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Esto puede hacer que las fechas de las tareas cambien.
+
+>[!BEGINSHADEBOX]
+
+**EJEMPLO:**
+Se asigna a un usuario de EST una tarea de un día programada para comenzar a las 9:00 AM PST, que es el mediodía EST. Como al usuario de EST le quedan sólo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
+
+
+>[!ENDSHADEBOX]
+
+Para obtener información sobre el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración], consulte [Configurar las preferencias de proyecto de todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Para obtener instrucciones sobre cómo asignar una programación a un proyecto o a un usuario, vea [Crear una programación](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+Para obtener información sobre cómo afecta la zona horaria configurada en su programación a la distribución de [!UICONTROL Horas planificadas] en el [!UICONTROL Distribuidor de cargas de trabajo], consulte [Administrar asignaciones de usuarios en el [!UICONTROL Distribuidor de cargas de trabajo]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Uso de campos de tiempo calculado en un formulario personalizado {#use-calculated-time-fields-in-a-custom-form}

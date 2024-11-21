@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
 
 <tr>
-   <td role="rowheader"><p>Plan de planificación de Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera</p>
 <p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p>
