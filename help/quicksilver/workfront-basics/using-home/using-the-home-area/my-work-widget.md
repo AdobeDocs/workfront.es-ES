@@ -5,13 +5,13 @@ title: Administre su trabajo con el widget Mi trabajo
 description: El widget Mi trabajo muestra todas las tareas, problemas y solicitudes asignados en un solo lugar. Aquí puede filtrar y organizar su trabajo, registrar el tiempo, realizar actualizaciones y marcar los elementos de trabajo como completados.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
 
 ---
-
 
 # Administre su trabajo con el widget Mi trabajo
 
@@ -157,7 +157,7 @@ Puede abrir el Panel de resumen para actualizar rápidamente la información de 
 * Añadir una actualización
 * Vaya al área de Documento para cargar un documento
 * Ver detalles del elemento de trabajo y actualizar campos personalizados
-Los administradores de Workfront pueden personalizar qué campos aparecen en el resumen de la plantilla de diseño. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Los administradores de Workfront pueden personalizar qué campos aparecen en el resumen de la plantilla de diseño. Para obtener más información, consulte [Personalizar el panel de resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Cambiar el estado del elemento de trabajo
 * Ver subtareas
 * Hora de registro
@@ -190,7 +190,3 @@ Las aprobaciones y las solicitudes de equipo no se muestran en el widget Mi trab
 * Solicitudes de equipo
 
 Para obtener información acerca de cómo agregar widgets a la nueva página de inicio, consulte [Agregar, editar o quitar widgets en la página de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-
-
-

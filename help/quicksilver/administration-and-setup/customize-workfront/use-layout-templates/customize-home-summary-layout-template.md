@@ -8,17 +8,23 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 # Personalización del panel Resumen mediante una plantilla de diseño
 
+<!--Audited: 11/2024-->
 
-Puede usar una plantilla de diseño para configurar lo que ven los usuarios cuando hacen clic en una tarea o un problema en el resumen. Cada configuración que realice siguiendo los pasos siguientes afecta al panel Resumen. Estas personalizaciones no se aplican al panel Resumen del documento.
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+Puede usar una plantilla de diseño para configurar lo que los usuarios ven en el panel de resumen cuando hacen clic en una tarea o un problema. Cada configuración que realice siguiendo los pasos siguientes afecta al panel Resumen. Estas personalizaciones no se aplican al panel Resumen del documento.
 
 Puede configurar lo siguiente:
 
@@ -73,7 +79,9 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 1. Haga clic en la flecha abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Panel de resumen**.
 
-1. En la lista de la izquierda, haga clic en el tipo de objeto (**Tareas**, **Problemas**, **Proyectos**, **Documentos** o **Versiones de documento**) que desee personalizar en el Panel de resumen.
+1. En la lista que aparece debajo, haga clic en el tipo de objeto para el que desea personalizar el Panel de resumen.
+
+   La tabla siguiente explica lo que se puede personalizar para cada objeto
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,7 +89,9 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
     <tbody> 
      <tr> 
       <td role="rowheader">Tareas</td> 
-      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>En una lista de tareas, esta configuración afecta al panel de resumen que aparece a la derecha de la página cuando un usuario selecciona una tarea y luego hace clic en el icono Abrir resumen <img src="assets/summary-panel-icon.png">.</p>
+
+   <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problemas</td> 
@@ -89,19 +99,24 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Proyectos</td> 
-      <td><p>En Inicio, cuando un usuario hace clic en una aprobación de proyecto asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
-      <p>IMPORTANTE: Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></td> 
+      <td><ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de proyecto asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
+      <p><b>IMPORTANTE:</b> </p><p>Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
+      <li><span class="preview"><p>Esta área se ha eliminado del entorno de vista previa.</p></li></span></ul> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
-      <td><p>En Inicio, cuando un usuario hace clic en una aprobación de documento asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
-      <p>IMPORTANTE: Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p>
+      <td>
+     <ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de documento asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
+      <p><b>IMPORTANTE:</b> </p><p> Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
+      <li><span class="preview"><p>Esta área se ha eliminado del entorno de vista previa.</p></li></span></ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Versiones de documento</td> 
-      <td><p>En Inicio, cuando un usuario hace clic en una aprobación asignada a él para una versión concreta de un documento, la configuración de esta opción afecta al área a la derecha de la aprobación.</p>
-      <p>IMPORTANTE: Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p>
+      <td><ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación asignada a él para una versión concreta de un documento, la configuración de esta opción afecta al área a la derecha de la aprobación.</p>
+      <p><p><b>IMPORTANTE:</b></p> Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
+      <li><span class="preview"><p>Esta área se ha eliminado del entorno de vista previa.</p></li></span></ul>
       </td> 
      </tr> 
     </tbody> 
@@ -113,15 +128,15 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 1. (Condicional) Si hizo clic en Tareas o Problemas en el paso anterior, seleccione la categoría de tarea o problema que desee personalizar.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
 
 1. (Condicional) Si aparece el menú desplegable **Establecer botón de acción principal** (si selecciona **Tareas** o **Problemas** en la lista de la izquierda), haga clic en la acción principal (**Listo** o **Estado**) que desee que esté disponible para los usuarios en el Panel de resumen cuando vean una tarea o un problema.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
 
 1. Agregue ![](assets/add-item-plus-in-circle-blue.png) u oculte ![](assets/close-or-hide---x.png) campos para el tipo de objeto seleccionado.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
 
 1. Repita los pasos del 3 al 6 para personalizar el Panel de resumen para cualquier otro tipo de objeto.
 1. Haga clic en **Configuración global**, cerca de la esquina inferior izquierda, y luego habilite o deshabilite cualquiera de las siguientes opciones relacionadas con los objetos de Adobe Workfront en el Resumen:
