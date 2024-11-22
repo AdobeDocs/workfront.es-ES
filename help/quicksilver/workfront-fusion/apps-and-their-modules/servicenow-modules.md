@@ -77,7 +77,7 @@ El conector ServiceNow utiliza lo siguiente:
  <tbody> 
   <tr> 
    <td role="rowheader">URL básica</td> 
-   <td>https://{{connection.instance}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.instance&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">Etiqueta de API</td> 
