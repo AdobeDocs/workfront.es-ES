@@ -4,9 +4,10 @@ description: Mejoras en el hogar del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -63,12 +64,18 @@ Con este cambio, se verán afectadas las siguientes áreas:
 
 * Se cambiará el nombre del área de _espacio de trabajo principal_ a _hogar_.
 * Se cambiará el nombre del área _Inicio y Resumen_ a _Panel de resumen_. Las personalizaciones de esta área se seguirán aplicando al panel de resumen del nuevo Inicio. Para obtener más información, consulte [Personalizar inicio y resumen con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Eliminaremos las siguientes pestañas del panel Inicio y Resumen:
+   * Proyectos
+   * Documentos
+   * Versiones de documento
+
+Nota: Las versiones del documento y del documento solo se aplican al directorio raíz heredado. No le permitían personalizar el Resumen en el área de Documentos.
 
 **Administrar aprobaciones**
 
 * Ya no podrá recuperar, recordar ni eliminar usuarios de las aprobaciones enviadas en el área de Inicio. En su lugar, puede administrar esto en la propia aprobación.
 
-Se recomienda a los usuarios que empiecen a utilizar la nueva página de inicio, que se seguirá mejorando con funciones adicionales antes de que quede obsoleta. Para obtener más información sobre la transición, incluidos consejos sobre lo que los usuarios y administradores pueden hacer para prepararse, consulte la [Guía de obsolescencia de la página principal heredada](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Se recomienda a los usuarios que empiecen a utilizar la nueva página de inicio, que se seguirá mejorando con funciones adicionales antes de que quede obsoleta.
 
 >[!NOTE]
 >
