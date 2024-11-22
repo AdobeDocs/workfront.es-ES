@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning después de la publicación de disponibilidad general del 28 de agosto de 2024, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Restauración de registros eliminados
+
+>[!NOTE]
+>
+>Versión de vista previa: 22 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+
+Una vez eliminados los registros, ahora se mueven temporalmente a un grupo eliminado recientemente durante 30 días. Puede acceder a la bandeja eliminada recientemente desde la página del tipo de registro y solo contiene registros de un tipo específico.
+
+Los administradores de Workspace pueden restaurar registros de la papelera durante un máximo de 30 días después de eliminarlos. También se restauran los registros conectados y su información de campo.
+
+Antes de esta mejora, los registros eliminados no se podían restaurar.
+
+Para obtener más información, vea [Restaurar registros eliminados](/help/quicksilver/planning/records/records-information.md).
 
 ## Asistente de IA de Adobe disponible en las áreas de detalles de registro
 

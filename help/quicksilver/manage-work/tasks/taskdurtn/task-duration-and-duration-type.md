@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,13 @@ El tipo de duración de una tarea identifica la relación entre el número de re
 
 Si las Fechas de inicio y finalización reales de la tarea quedan fuera de la programación del proyecto, de la persona asignada principal o del Horario predeterminado, la duración de la tarea es cero.
 
-**Ejemplo:** Si tiene una programación que comienza a las 9:00 a.m. y finaliza a las 12:00 p.m. y una tarea programada que comienza a las 2:00 p.m. y finaliza a las 4:00 p.m., la duración de la tarea es cero.
+>[!BEGINSHADEBOX]
+
+**EJEMPLO**
+Si tiene una programación que comienza a las 9:00 AM y finaliza a las 12:00 PM y una tarea que está programada para comenzar a las 2:00 PM y finalizar a las 4:00 PM, la duración de la tarea es cero.
+
+
+>[!ENDSHADEBOX]
 
 A continuación se indican dos escenarios que existen al calcular la duración en Adobe Workfront:
 
@@ -70,6 +76,14 @@ A continuación se indican dos escenarios que existen al calcular la duración e
 >[!NOTE]
 >
 >Al tener en cuenta el tiempo libre de la persona asignada principal en un proyecto, las fechas planificadas de la tarea podrían ajustarse, pero la duración de la tarea sigue siendo la misma. Para obtener información sobre cómo tener en cuenta el tiempo libre de la persona asignada principal al planificar un proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+## La duración original de una tarea principal
+
+La Duración original de una tarea es la Duración que una tarea tuvo originalmente antes de convertirse en una tarea principal, en minutos.
+
+Cuando una tarea se convierte en principal, la Duración entre la Fecha planificada de inicio del primer elemento secundario y la Fecha planificada de finalización del último elemento secundario se acumula en la tarea principal y se convierte en la Duración de la tarea principal. Esto reemplaza la duración de la tarea original.
+
+Para obtener más información, vea [Descripción general de la duración original de la tarea y Horas planificadas originales](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Unidades de tiempo para la duración de la tarea
 

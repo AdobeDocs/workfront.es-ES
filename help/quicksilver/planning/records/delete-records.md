@@ -1,14 +1,14 @@
 ---
 title: Eliminar registros
-description: Puede eliminar los registros que usted u otro usuario hayan creado. No se pueden recuperar los registros eliminados.
+description: Puede eliminar los registros que usted u otro usuario hayan creado.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 2%
 
 # Eliminación de registros
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
-Puede eliminar los registros que ya no sean relevantes en Adobe Workfront Planning.
+Puede eliminar los registros que ya no sean relevantes en Adobe Workfront Planning. <span class="preview">Puede recuperar los registros eliminados durante 30 días después de su eliminación. Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
 
 ## Requisitos de acceso
 
@@ -156,10 +162,9 @@ OLD
 ## Consideraciones acerca de la eliminación de registros
 
 * Puede eliminar los registros que usted u otro usuario hayan creado.
-* No se pueden recuperar los registros eliminados. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* No se pueden recuperar los registros eliminados en el entorno de producción. <span class="preview">Puede recuperar los registros eliminados en el entorno de vista previa.</span>
 * Si los registros eliminados están vinculados a otros registros, los registros vinculados no se eliminan, pero también se elimina la información del registro eliminado.
-* No puede eliminar registros de forma masiva. <!--this will probably change-->
-* No se pueden eliminar registros de la vista de escala de tiempo.
+* No se pueden eliminar registros de la escala de tiempo o de las vistas de calendario.
 
 ## Eliminación de registros
 
@@ -192,7 +197,10 @@ Puede eliminar un registro de las siguientes áreas:
 1. Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del registro, luego haga clic en **Eliminar** y después en **Eliminar** de nuevo para confirmar.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-El registro se elimina y no se puede recuperar.
+Se elimina el registro.
+1. (Opcional y condicional) Si elimina el registro en el entorno de vista previa, vaya a la vista de tabla de la página del registro, haga clic en el icono **Deshacer** ![](assets/undo-icon.png) en la esquina superior derecha de la vista y, a continuación, haga clic en **Eliminados recientemente** para recuperar los registros eliminados.
+
+Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Eliminar un registro de la vista de tabla de tipo de registro
 
@@ -211,15 +219,22 @@ El registro se elimina y no se puede recuperar.
 1. Realice una de las siguientes acciones:
 
    * Haga clic con el botón secundario en una fila de registro y luego haga clic en **Eliminar**.
-   * Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, haga clic en **Eliminar**
+   * Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, haga clic en **Eliminar**.
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * Haga clic en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro con la información detallada del registro, y haga clic en **Más** ![](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, en **Eliminar**.
 
-   El registro se elimina y no se puede recuperar.
+   Se elimina el registro.
 
-1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la eliminación de un registro:
+1. (Opcional) Realice una de las siguientes acciones para deshacer o rehacer la eliminación de un registro:
 
-   * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
-   * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio
+   * <span class="preview">Haga clic en el icono **Deshacer** ![](assets/undo-icon.png) y después en **Eliminados recientemente** para recuperar los registros eliminados. Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la eliminación de un registro:
+
+      * CTRL + Z (⌘ + Z para Mac) para deshacer la eliminación de un registro
+      * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer la eliminación del registro
+
+
+
+

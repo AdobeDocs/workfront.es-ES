@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
 
 
 # Registros: índice de artículos
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -25,6 +29,7 @@ En los siguientes artículos se describe cómo crear y administrar registros y s
 * [Creación de registros](/help/quicksilver/planning/records/create-records.md)
 * [Edición de registros](/help/quicksilver/planning/records/edit-records.md)
 * [Eliminación de registros](/help/quicksilver/planning/records/delete-records.md)
+* <span class="preview">[Restaurar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
 * [Compartir registros](/help/quicksilver/planning/records/share-records.md)
 * [Resumen de registros conectados](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
