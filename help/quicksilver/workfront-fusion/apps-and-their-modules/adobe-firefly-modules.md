@@ -9,7 +9,7 @@ description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar l
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: a4c9f4cd4f28c28222826187a68ca4122eec1a8f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Este módulo de acción genera una imagen basada en una solicitud proporcionada.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ajustes preestablecidos]</td> 
-   <td>Si desea utilizar un estilo preestablecido, haga clic en Agregar elemento y escriba o asigne el estilo que desea utilizar.<p>Para obtener una lista de estilos preestablecidos, consulte <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Estilos de modelo de imagen</a> en la documentación para desarrolladores de Adobe.</td> 
+   <td>Si desea utilizar un estilo preestablecido, haga clic en Agregar elemento y escriba o asigne el estilo que desea utilizar.<p>Para obtener una lista de estilos preestablecidos, consulte <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Estilos de modelo de imagen</a> en la documentación para desarrolladores de Adobe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mensaje negativo]</td> 
