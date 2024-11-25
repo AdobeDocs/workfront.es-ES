@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,48 @@ ht-degree: 0%
 La función de [!DNL Adobe Workfront Fusion] es automatizar sus procesos para que pueda concentrarse en nuevas tareas en lugar de repetir las mismas tareas una y otra vez. Funciona vinculando acciones dentro de las aplicaciones y servicios y entre ellos para crear un escenario que transfiera y transforme los datos automáticamente. El escenario que cree inspecciona los datos de una aplicación o servicio y procesa esos datos para proporcionar el resultado deseado.
 
 Un escenario se compone de una serie de módulos que indican cómo se deben transformar los datos dentro de una aplicación o transferirlos entre aplicaciones y servicios web.
+
+## Información general sobre elementos de escenario
+
+Se crea un escenario de diferentes elementos. Entender la terminología de estos elementos facilita el uso de la documentación.
+
+### Escenario
+
+Un **escenario** es una serie de pasos automatizados creados por el usuario para mover y manipular datos. El término &quot;escenario&quot; hace referencia a todo el grupo de pasos conectados.
+
+![Escenario](assets/entire-scenario-scenario.png)
+
+### Déclencheur
+
+Un escenario comienza con un **déclencheur**. El déclencheur inspecciona la existencia de datos nuevos y actualizados e inicia el escenario cuando se aplican determinadas condiciones configuradas en el módulo. Los déclencheur se pueden configurar para que inicien un escenario según una programación (sondeo) o siempre que se produzcan cambios en los datos (instantáneo).
+
+![Déclencheur](assets/scenario-trigger.png)
+
+### Módulo
+
+El déclencheur va seguido de **módulos**. Un módulo representa un solo paso en un escenario que realiza una acción específica. Los módulos se configuran y encadenan para crear escenarios.
+
+![Módulo](assets/scenario-module.png)
+
+### Ruta
+
+Un escenario se puede dividir en **rutas**. Una ruta es una sección del escenario que puede utilizarse o no para un conjunto determinado de datos. Las rutas se configuran mediante un módulo de enrutador y filtros.
+
+![Ruta](assets/scenario-route.png)
+
+### Segmento de escenario
+
+Un segmento de escenario es una sección de un escenario que consta de una serie de módulos contiguos que se conectan a la misma aplicación. Los segmentos de escenario suelen representar un flujo de trabajo corto en la aplicación.
+
+![Segmento de escenario](assets/scenario-segment.png)
+
+### Conector
+
+Un conector es el conjunto de módulos de una aplicación determinada. Workfront Fusion ofrece conectores a muchas aplicaciones de trabajo comunes, como Workfront, Salesforce y Jira, así como conectores genéricos que pueden utilizarse para cualquier servicio web.
+
+![Conectores](assets/scenario-connectors.png)
+
+
 
 ## Ejemplo: Automatización de procesos en [!DNL Adobe Workfront]
 
