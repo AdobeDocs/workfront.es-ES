@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: df3885233140c5d0af542c8999226f7934c1329f
+source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1643'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,7 @@ Para obtener más información, consulte la sección [Ver el clúster de su orga
 * [Direcciones IP que permiten los clústeres 1, 2, 3, 5, 7, 8 y 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [Direcciones IP para permitir el clúster 4](#ip-addresses-to-allow-for-cluster-4)
 * [Direcciones IP para permitir el clúster 6](#ip-addresses-to-allow-for-cluster-6)
+* [Direcciones IP para permitir el clúster 10](#ip-addresses-to-allow-for-cluster-10)
 * [Direcciones IP para permitir una unidad de prueba](#IP%20Addre2)
 * [Direcciones IP que se permitirán al implementar suscripciones de evento](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [Direcciones IP para permitir la autenticación mejorada](#ip-addresses-to-allow-for-enhanced-authentication)
