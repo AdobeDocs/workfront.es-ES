@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,14 @@ Al actualizar la Duración de las tareas de una lista, puede utilizar las siguie
 
 {style="table-layout:auto"}
 
-**Ejemplo:** Si desea indicar que la duración de una tarea es de 3 días transcurridos, debe escribir &quot;3 ED&quot; en el campo Duración de una lista de tareas  También puede seleccionar la opción preferida para la Unidad de tiempo de duración en el menú desplegable disponible al editar una tarea o en la sección Detalles de la tarea. Para obtener información acerca de la edición de tareas, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**EJEMPLO**
+
+Si desea indicar que la duración de una tarea es de 3 días transcurridos, debe escribir &quot;3 ED&quot; en el campo Duración en una lista de tareas  También puede seleccionar la opción preferida para la Unidad de tiempo de duración en el menú desplegable disponible al editar una tarea o en la sección Detalles de la tarea. Para obtener información acerca de la edición de tareas, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ Al actualizar la Duración de las tareas de una lista, puede utilizar las siguie
 Tenga en cuenta lo siguiente al indicar la duración de una tarea:
 
 * El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la Fecha planificada de inicio y la Fecha planificada de finalización de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
-* El tiempo normal tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea.
-
+* Los días representan los días laborables definidos en el sistema y se pueden configurar en el área de Configuración. En la mayoría de los casos, un día consta de 8 horas.
+* El tiempo normal (días o días laborables) tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea.
 * Cuando se indica la duración de una tarea en semanas, Workfront calcula la duración en días y horas basándose en la configuración de Días laborables habituales por semana y Horas habituales por día laborable establecida por el administrador de Workfront en el área Preferencias de proyecto de Configuración.
 * Workfront utiliza la duración predeterminada de 4 semanas para un mes al calcular la Duración en meses.
 

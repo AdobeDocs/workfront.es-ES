@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 1%
@@ -668,7 +668,9 @@ Para obtener más información, consulte [Crear tipos de registros](/help/quicks
 
 ## Cree campos importándolos desde Workfront
 
-Puede importar copias de campos de Workfront existentes. Al importar campos desde Workfront, se crea una copia de cada campo para un tipo de registro de Workfront Planning.
+Puede importar copias de campos de Workfront existentes.
+
+Al importar campos desde Workfront, se crea una copia de cada campo para un tipo de registro de Workfront Planning.
 
 Después de copiar los campos, estos son independientes entre sí y no intercambian información.
 

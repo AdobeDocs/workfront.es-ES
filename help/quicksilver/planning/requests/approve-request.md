@@ -3,9 +3,9 @@ title: Aprobar una solicitud
 description: Cuando un usuario envía una solicitud a un formulario de solicitud asociado a una aprobación en Adobe Workfront Planning, los aprobadores reciben una notificación y un correo electrónico sobre la aprobación pendiente. Deben aprobar la solicitud antes de que Workfront Planning cree un objeto.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Le recomendamos que también vea los siguientes artículos:
 Las solicitudes enviadas se muestran en la pestaña Planificación de la sección Enviadas del área Solicitudes de Workfront con uno de los siguientes estados de solicitud:
 
 * **Revisión pendiente**: Este estado se muestra cuando ninguno de los aprobadores ha abierto el objeto de solicitud.
-* **En revisión**: El estado cambia a **En revisión** cuando al menos un aprobador abre el objeto de solicitud.
+* **En revisión**: El estado cambia a **En revisión** cuando al menos un aprobador abre el objeto de solicitud. El estado de la solicitud permanece **en revisión** hasta que todos los aprobadores hayan aprobado la solicitud.
 * **Aprobado**: Cuando un aprobador aprueba el objeto de solicitud, su estado individual pasa a ser
 * **Aprobado**, pero el estado general del objeto de solicitud permanece **En revisión** hasta que todos los aprobadores hayan tomado sus decisiones.
 * **Completada**: si todos los aprobadores aprueban el objeto de solicitud, su estado cambia a **Completada** o si la solicitud no necesita aprobación.
@@ -152,7 +152,13 @@ Para aprobar una solicitud:
 
 1. Realice una de las siguientes acciones:
 
-   * En el **menú principal** de Workfront ![](assets/dots-menu.png), en la esquina superior derecha de la pantalla, o en el **menú principal** ![](assets/lines-menu.png), en la esquina superior izquierda, si está disponible, haz clic en **Solicitudes** > **Enviadas** > **Planificación** y haz clic en la solicitud con el estado **En revisión**. <!--did they change this to Pending approval; logged  a bug-->
+   * Si tiene acceso a Workfront Planning, haga clic en **Menú principal** ![](assets/dots-menu.png) en la esquina superior derecha de la pantalla o en el **Menú principal** ![](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **Solicitudes** > **Enviadas** > **Planificación** y haga clic en la solicitud con el estado **En revisión**. <!--did they change this to Pending approval; logged  a bug-->
+
+     >[!TIP]
+     >
+     >    Si no tiene acceso a Workfront Planning, solo puede acceder a una solicitud para aprobarla mediante las notificaciones.
+
+
    * Vaya al área de **Notificaciones** en la esquina superior derecha de la pantalla y haga clic en la notificación sobre una solicitud pendiente de aprobación para abrirla.
    * Vaya a la notificación por correo electrónico del mensaje que le notifica una solicitud pendiente de aprobación y, a continuación, haga clic en para abrir la solicitud. <!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ Para aprobar una solicitud:
 1. (Opcional) Haga clic en el icono **Aprobaciones** ![](assets/approvals-icon.png) en la esquina superior derecha de la solicitud para ver los aprobadores.
 1. Haga clic en **Revisar y aprobar**, y después elija una de las siguientes opciones: <!--did they fix the button and removed the &??-->
 
-   * **Aprobar**: Para aprobar la solicitud. Inmediatamente se crea un registro para el tipo de registro asociado al formulario de solicitud.
-   * **Rechazar**: Para rechazar la solicitud. No se crea ningún registro para el tipo de registro asociado al formulario de solicitud. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **Aprobar**: Esto aprueba la solicitud. Inmediatamente se crea un registro para el tipo de registro asociado al formulario de solicitud.
+   * **Rechazar**: Esto rechaza la solicitud. No se crea ningún registro para el tipo de registro asociado al formulario de solicitud. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
