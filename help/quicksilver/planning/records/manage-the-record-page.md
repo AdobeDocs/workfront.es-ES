@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # Administrar el diseño de página de registro
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ Ocurren lo siguiente:
    La nueva posición del campo se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 
    Todos los cambios en el diseño de la vista previa del registro o de la página se guardan automáticamente.
+
+<span class="preview">
+
+## Agregar una página Vista conectada a la página de un registro
+
+Puede agregar una página Vista conectada a la página de un registro.
+
+No se puede agregar una página de vista Conectada al área de vista previa de un registro.
+
+Las páginas de vista conectadas muestran una página de registro conectada en la vista de tabla. La vista de tabla es de solo lectura.
+
+Puede agregar una página Vista conectada por cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
+
+Para agregar una página Vista conectada:
+
+1. En una vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el icono Abrir en ficha nueva ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
+1. Haga clic en **Agregar página** > **Vista conectada**.
+1. Agregue **Nombre de página** y haga clic en **Crear**.
+
+   Se agrega una página adicional a la página del registro en una nueva pestaña.
+1. Busque o haga clic en el nombre de un tipo de objeto o registro conectado en la lista.
+Se muestra la vista de tabla del tipo de registro seleccionado y los registros conectados se muestran en la vista de tabla.
+La vista de tabla es de solo lectura.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Opcional) Haga doble clic en el nombre de la pestaña
+
+   O
+
+   Pase el ratón sobre el nombre de la ficha, luego haga clic en **Más** ![](assets/more-menu.png), luego haga clic en **Cambiar nombre** para cambiar el nombre a la nueva ficha Vista conectada.
+1. (Opcional) Utilice cualquier elemento de vista de la barra de herramientas para administrar la vista de tabla. Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

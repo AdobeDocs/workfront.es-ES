@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 0%
 
 ---
+
 
 # Envío de solicitudes de Adobe Workfront Planning para crear registros
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 
 * El formulario de solicitud debe compartirse con un vínculo para que pueda acceder a él. Existen los siguientes escenarios:
 
-   * Si tiene una cuenta de Workfront, el vínculo solo se ha compartido con personas internas y tendrá acceso al espacio de trabajo. Las personas fuera de Workfront no pueden acceder a un vínculo compartido internamente.
+   * Si tiene una cuenta de Workfront, el vínculo se ha compartido únicamente con personas internas y tendrá acceso de contribución o superior al espacio de trabajo. Las personas fuera de Workfront no pueden acceder a un vínculo compartido internamente.
    * Si no tiene una cuenta de Workfront, el vínculo se ha compartido con personas externas. Los usuarios de Workfront también pueden acceder a un vínculo compartido con personas externas.
 
 * El vínculo al formulario no debe haber caducado.
 
 ## Consideraciones sobre el envío de solicitudes a Workfront Planning
 
-* No puede acceder a los formularios de solicitud de las solicitudes de Workfront Planning sin un vínculo específico a los formularios.
+* Solo puede acceder a un formulario de solicitud de solicitudes de Workfront Planning desde un vínculo específico al formulario.
 * No puede editar una solicitud después de enviarla a Workfront Planning.
-* Cada solicitud enviada crea un registro para el tipo de registro asociado al formulario que utiliza.
+* Cada solicitud enviada crea un registro para el tipo de registro asociado con el formulario que utiliza <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->
 * Los registros creados al enviar formularios de solicitud no se pueden diferenciar de los registros agregados mediante ningún otro método. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+* <span class="preview">Las solicitudes enviadas se muestran en la ficha Planificación de la sección Enviadas del área Solicitudes de Workfront </span>.
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Envío de una solicitud a Workfront Planning
 
@@ -132,8 +141,35 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 
    >[!TIP]
    >
-   >   Si el campo de Workfront **Subject** está disponible, es posible que no esté visible en Workfront Planning. Le recomendamos que actualice tantos campos de la solicitud como sea posible para que el nuevo registro sea identificable cuando se añada al tipo de registro.
+   >   Si el campo **Asunto** está disponible, no será visible en Workfront Planning una vez enviada la solicitud.
+   >
+   >Se recomienda actualizar tantos campos de la solicitud como sea posible para que el nuevo registro sea identificable cuando se añada al tipo de registro en Workfront Planning.
 
 1. Haga clic en **Enviar**.
 
-   El formulario se enviará y se agregará un nuevo registro al tipo de registro asociado al formulario.
+   El formulario se enviará y se producirán los siguientes eventos:
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->Se agrega un nuevo registro al tipo de registro asociado al formulario.
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> La solicitud se agrega a la sección Enviadas del área de Solicitudes de Workfront y se agrega un nuevo registro a la página de tipo de registro.</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">Todos los usuarios que tengan acceso al menos a un área de trabajo podrán ver la ficha Planificación en el área Solicitudes. Solo puede ver las solicitudes que ha enviado. Los administradores de Workfront pueden ver todas las solicitudes en el sistema. </span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

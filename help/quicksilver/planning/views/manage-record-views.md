@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
 
 
 # Administrar vistas de registros
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -218,6 +223,9 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Buscar registros específicos | ✓ | ✓ |
 | Compartir la vista con otros usuarios | ✓ | ✓ | ✓ |
 | Abra la página del registro desde la vista | ✓ | ✓ |    |
+| Mostrar registros por año y trimestre |           | ✓ |    |
+| Mostrar registros por mes |           | ✓ | ✓ |
+| <span class="preview">Mostrar registros por semana</span> |           |               | ✓ |
 
 
 ## Creación o edición de vistas {#create-or-edit-views}

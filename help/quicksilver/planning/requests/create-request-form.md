@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 2%
 
 ---
@@ -145,14 +145,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud <span class="preview"> en los entornos de vista previa </span> o producción:
    >
-   >    * Personas (incluye Creado por y Última modificación por)
+   >    * Creado por y modificado por última vez por
    >    * Fórmula
-   >    * Fecha de creación
-   >    * Fecha de la última modificación
-   >    * Campos conectados o campos de búsqueda de objetos Workfront
-   >    * Campos de búsqueda conectados de registros de Workfront Planning
+   >    * Fecha de creación y fecha de la última modificación
+   >    * Campos de búsqueda de objetos Workfront
+   >    * Campos de búsqueda de registros conectados de Workfront Planning
+   >    * Campos conectados de AEM Assets
    >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en el entorno Producción. <span class="preview">Aparecen en el entorno de vista previa:</span>
    >    * <span class="preview"> campos conectados de registros de Workfront Planning</span>
+   >    * <span class="preview">Personas </span>
+   >    * <span class="preview">Campos conectados de objetos Workfront</span>
+   >    * <span class="preview">AEM Assets conectaron campos </span>
+
 
 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
@@ -208,7 +212,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >[!WARNING]
    >
    >
-   >Si selecciona **Cualquier persona que tenga el vínculo**, cualquier persona podrá obtener acceso al formulario y enviar un nuevo registro, incluso las personas que no pertenezcan a su organización y que no tengan una cuenta de Workfront.
+   >* Si selecciona **Cualquier persona que tenga el vínculo**, cualquier persona podrá obtener acceso al formulario y enviar un nuevo registro, incluso las personas que no pertenezcan a su organización y que no tengan una cuenta de Workfront.
+   >
+   > * <span class="preview">Un formulario que contiene los siguientes tipos de campo no se puede compartir públicamente:</span>
+   >
+   >     * <span class="preview">Fórmula</span>
+   >     * <span class="preview">Conexiones de Workfront o AEM Assets</span>
+   >     * <span class="preview">Campos de búsqueda</span>
+   >     * <span class="preview">Personas</span>
+   >
 
 1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible. Las personas recibirán un error una vez que caduque el vínculo y deberá actualizar la fecha del vínculo para que puedan acceder al formulario de nuevo.
 

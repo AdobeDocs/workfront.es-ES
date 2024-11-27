@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Información general sobre las limitaciones de objetos de Adobe Workfront Planning
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -40,6 +44,9 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1,5 MB |
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
 | Número de vistas que un usuario puede crear para un tipo de registro | 100 |
+| Tamaño del archivo CSV de Excel que puede importar para crear tipos de registros | 5 MB |
+| <span class="preview">Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros</span> | 10.000 |
+| <span class="preview">Número de columnas que puede importar en un archivo CSV o de Excel para crear tipos de registros</span> | 500 |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 
@@ -47,7 +54,7 @@ Para obtener información sobre los precios y el empaquetado de Workfront Planni
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
+
 **This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
 
