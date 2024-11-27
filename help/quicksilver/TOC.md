@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '14614'
+source-wordcount: '14642'
 ht-degree: 2%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 2%
          * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Actividad de la versión {#fusion-release} de Adobe Workfront Fusion
          * [Actividad de la versión de Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Actividad de la versión de Workfront Fusion: Semana del 25 de noviembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 11 de noviembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 4 de noviembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Actividad de la versión de Workfront Fusion: Semana del 21 de octubre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -1844,6 +1845,7 @@ ht-degree: 2%
       * [Revisión y aprobación de recursos y documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Información general sobre aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Resumen del estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Creación de un tablero de informes para revisión y aprobaciones](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Configurar y administrar aprobaciones de recursos y documentos {#manage-asset-review-and-approval}
          * [Configurar y administrar aprobaciones de recursos y documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Crear una solicitud de revisión o aprobación de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2339,6 +2341,7 @@ ht-degree: 2%
       * [Módulos de Marketo](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [Matemáticas](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Módulos de Microsoft Dynamics 365](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Módulos de Microsoft Dynamics 365: Finanzas y operaciones](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
       * [Calendario de Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Correo electrónico de Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Módulos de Excel de Microsoft Office 365](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
@@ -2798,6 +2801,7 @@ ht-degree: 2%
       * [Ejemplos de código](proofhq-api/general/code-samples.md)
       * [SOAP Preguntas frecuentes sobre API de](proofhq-api/general/soap-api-faqs.md)
 * [Documento de prueba oculto](hidden-test.md)
+* [Resumen de la versión del primer trimestre de 2025: pruebas](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--

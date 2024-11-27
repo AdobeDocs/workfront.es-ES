@@ -9,9 +9,9 @@ description: Con los módulos de Adobe Lightroom, puede iniciar un escenario de 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2370'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,7 @@ Antes de poder usar el conector [!DNL Adobe Lightroom], debe asegurarse de que s
 
 * Debe tener una cuenta de [!DNL Adobe Lightroom] activa.
 
+
 ## Información de API de Adobe Lightroom
 
 El conector de Adobe Lightroom utiliza lo siguiente:
@@ -90,7 +91,46 @@ El conector de Adobe Lightroom utiliza lo siguiente:
  </tbody> 
  </table>
 
-<!--## Create a connection to Adobe Lightroom-->
+## Creación de una conexión con Adobe Lightroom
+
+Para crear una conexión para los módulos de [!DNL Adobe Lightroom]:
+
+1. Haga clic en **[!UICONTROL Agregar]** junto al cuadro Conexión.
+
+1. Rellene los campos siguientes:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Nombre de conexión]</td>
+        <td>
+          <p>Escriba un nombre para esta conexión.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Entorno]</td>
+        <td>Seleccione si desea conectarse a un entorno de producción o de no producción.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Tipo]</td>
+        <td>Seleccione si desea conectarse a una cuenta de servicio o a una cuenta personal.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL ID de cliente]</td>
+        <td>Introduzca el [!UICONTROL Adobe] [!UICONTROL ID de cliente]. Esto se puede encontrar en la sección de detalles de [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Secreto de cliente]</td>
+        <td>Escriba su [!UICONTROL Secreto de cliente] [!DNL Adobe]. Esto se puede encontrar en la sección de detalles de [!UICONTROL Credentials] del [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. Haga clic en **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
 
 
 

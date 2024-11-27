@@ -9,7 +9,7 @@ description: Puede utilizar el conector Adobe Workfront de Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '6797'
 ht-degree: 2%
@@ -824,18 +824,15 @@ Al configurar este módulo, se muestran los campos siguientes.
  <tbody> 
   <tr> 
     <td>[!UICONTROL Conexión]</td>
-
-<td> <p>Para obtener instrucciones acerca de cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], vea <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Workfront] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+    <td> <p>Para obtener instrucciones acerca de cómo conectar su aplicación [!DNL Workfront] a [!DNL Workfront Fusion], vea <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Conectar [!DNL Workfront] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Tipo de registro]</td>
-
-<td>Elija el tipo de objeto [!DNL Workfront] que desea que lea el módulo.</td> 
+     <td>Elija el tipo de objeto [!DNL Workfront] que desea que lea el módulo.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Salidas]</td>
-
-<td> <p>Seleccione la información que desee incluir en el paquete de salida para este módulo.</p> </td> 
+     <td> <p>Seleccione la información que desee incluir en el paquete de salida para este módulo.</p> </td> 
   </tr> 
   <tr> 
     <td>Referencias de [!UICONTROL]</td>
