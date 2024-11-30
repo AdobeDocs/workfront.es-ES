@@ -2,26 +2,26 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Creación de un informe de matriz
-description: Los informes de matriz presentan la información de resumen en un formato de tabla agregado, lo que facilita su visualización que si se mostrara en una lista como en un informe tradicional.
+description: Los informes de matriz presentan la información de resumen en un formato de tabla agregado, lo que hace más fácil su visualización que si se mostrara en una lista como en un informe tradicional.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 0%
+source-wordcount: '1075'
+ht-degree: 100%
 
 ---
 
 # Creación de un informe de matriz
 
-Los informes de matriz presentan la información de resumen en un formato de tabla agregado, lo que facilita su visualización que si se mostrara en una lista como en un informe tradicional.
+Los informes de matriz presentan la información de resumen en un formato de tabla agregado, lo que hace más fácil su visualización que si se mostrara en una lista como en un informe tradicional.
 
 ## Cuándo utilizar un informe de matriz
 
-Puede crear un informe de matriz para cualquier informe que contenga dos o más agrupaciones. Un informe tradicional puede contener hasta 3 agrupaciones y un informe de matriz puede contener hasta 4 agrupaciones.
+Puede crear un informe de matriz para cualquier informe que contenga dos o más agrupaciones. Un informe tradicional puede contener hasta tres agrupaciones y un informe de matriz puede contener hasta cuatro agrupaciones.
 
-Por ejemplo, desea crear un informe de hora que muestre las horas registradas durante un período de tres meses y desea que el informe se organice en función de quién introdujo las horas, así como por mes y semana.
+Por ejemplo, desea crear un informe de horas que muestre las horas registradas durante un período de tres meses y desea que el informe se organice en función de quién introdujo las horas, así como por mes y semana.
 
 ![](assets/report-matrix-overview-350x123.png)
 
@@ -34,6 +34,8 @@ Sin embargo, otras columnas (como Estado) se pueden seguir mostrando en el infor
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -41,25 +43,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td><p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar un informe de matriz
 
@@ -71,7 +84,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Condicional) Si ya ha creado una vista y desea aplicarla a este informe, haga clic en **Aplicar una vista existente** y, a continuación, seleccione la vista en la lista desplegable.
 1. (Condicional) Si desea crear una nueva vista para el informe, complete los siguientes pasos:
 
-   1. Haga clic en la ficha **Columnas (Ver)** y, a continuación, seleccione una columna que desee resumir en el informe de matriz.
+   1. Haga clic en la pestaña **Columnas (Vista)** y, a continuación, seleccione una columna que desee resumir en el informe de matriz.
    1. En el área **Configuración de columna**, haga clic en la lista desplegable **Resumir esta columna por** y, a continuación, seleccione una de las opciones disponibles para resumir la información.
 
       >[!IMPORTANT]
@@ -80,17 +93,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
       ![](assets/qs-report-matrix-summarized-350x392.png)
 
-   1. Repita este proceso con cada columna de la ficha Columnas (Ver) y, a continuación, haga clic en **Listo**.
+   1. Repita este proceso con cada columna de la pestaña Columnas (Vista) y, a continuación, haga clic en **Listo**.
 
-1. Haga clic en la ficha **Agrupaciones**.
+1. Haga clic en la pestaña **Agrupaciones**.
 1. (Condicional) Si ya ha creado una agrupación y desea aplicarla a este informe, haga clic en **Aplicar una agrupación existente** y, a continuación, seleccione la agrupación en la lista desplegable.
 1. (Condicional) Si desea crear una nueva agrupación de matriz para el informe, complete los siguientes pasos:
 
    1. Seleccione **Cambiar a agrupación de matriz** en la esquina superior derecha de la interfaz del generador.
    1. En la sección **Agrupaciones de filas**, identifique la agrupación de filas, que establece las agrupaciones horizontales de la tabla.
-   1. (Opcional) Para agregar una agrupación de filas adicional, haga clic en **Agregar agrupación de filas secundaria**.
+   1. (Opcional) Para añadir una agrupación de filas adicional, haga clic en **Agregar agrupación de filas secundaria**.
    1. En la sección **Agrupaciones de columnas**, identifique la agrupación de columnas, que establece las agrupaciones verticales de la tabla.
-   1. (Opcional) Para agregar una agrupación de columnas adicional, haga clic en **Agregar agrupación de columnas secundaria**.
+   1. (Opcional) Para añadir una agrupación de columnas adicional, haga clic en **Agregar agrupación de columnas secundaria**.
    1. (Condicional) Si agrega una agrupación por fecha, especifique también si los resultados se agrupan por día, semana, mes, trimestre o año.\
       ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
@@ -102,33 +115,33 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       >El campo **Mostrar trimestres sin resultados** solo está disponible para agrupaciones de matriz y no para agrupaciones estándar.\
       >Solo los trimestres sin datos que se encuentran entre dos trimestres con datos válidos mostrarán cero para los valores de datos en la pestaña matriz. Los trimestres sin datos ubicados al principio y al final del periodo de tiempo seleccionado por el filtro no aparecen en absoluto en la agrupación de matriz. Los trimestres sin resultados no se muestran en una agrupación de la pestaña Detalles del informe.
 
-1. (Opcional y condicional) Haga clic en **Configuración de matriz** y, a continuación, seleccione una de las siguientes opciones:\
-   **Mostrar recuentos de registros:** Seleccione esta opción para mostrar una fila con el número total de entradas para el campo dado.\
-   **Mostrar columna de valor:** Seleccione esta opción para mostrar la siguiente información en la matriz:
+1. (Opcional y condicional) Haga clic en **Configuración de matriz** y, a continuación, seleccione entre las siguientes opciones:\
+   **Mostrar recuentos de registros:** seleccione esta opción para mostrar una fila con el número total de entradas para el campo especificado.\
+   **Mostrar columna de valor:** seleccione esta opción para mostrar la siguiente información en la matriz:
 
    * Recuentos de registros
-   * La columna Value
+   * La columna Valor
 
      >[!NOTE]
      >
      >Esta columna contiene información que describe lo que representan los datos de cada fila.\
-     >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se agregan valores para los siguientes campos en agrupaciones:
+     >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se añaden valores para los siguientes campos en agrupaciones:
      >
      >   
      >   
-     >   * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Costo de mano de obra planificado/ real, Costo de gasto planificado/ real, Costo planificado/ real, Horas planificadas) agregan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
+     >   * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Coste planificado/real de mano de obra, Coste planificado/real de gastos, Coste planificado/ real, Horas planificadas) acumulan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
      >   * Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
-     >   * Los campos de datos personalizados para valores numéricos y monetarios acumulan todas las tareas: principales, secundarios, principales de principales y tareas independientes. Si creó el informe de matriz para mostrar las horas planificadas o las horas reales en la columna **Valor**, tenga en cuenta que la información de horas o costos de cualquier objeto principal (como las tareas principales) no se muestra en el informe de matriz. Para ver las horas de los objetos principales, debe ver la ficha **Detalles**.
+     >   * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes. Si ha creado el informe de matriz para mostrar las horas planificadas o las horas reales en la columna **Valor**, tenga en cuenta que la información de horas o costes de cualquier objeto principal (como las tareas principales) no se muestra en el informe de matriz. Para ver las horas de los objetos principales, debe consultar la pestaña **Detalles**.
      >   
      >   
      >
 
-   **Reglas condicionales:** Configure cualquier regla de formato para los valores agregados.\
-   Después de agregar una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en **Agregar regla** después de haber terminado de definir la regla y, a continuación, **Listo** para guardar la regla.
+   **Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
+   Después de añadir una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en **Añadir regla** después de haber terminado de definir la regla y, a continuación, **Listo** para guardarla.
 
-1. Haga clic en la ficha **Filtros** para definir la información que se mostrará en el informe.
+1. Haga clic en la pestaña **Filtros** para definir la información que se mostrará en el informe.
 1. (Condicional) Si ya ha creado un filtro y desea aplicarlo a este informe, haga clic en **Aplicar un filtro existente** y, a continuación, seleccione el filtro en la lista desplegable.
-1. (Condicional) Si desea crear un nuevo Filtro para este informe, vea [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+1. (Condicional) Si desea crear un nuevo Filtro para este informe, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

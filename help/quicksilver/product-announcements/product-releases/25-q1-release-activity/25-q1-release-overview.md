@@ -1,47 +1,47 @@
 ---
 title: Información general sobre la versión del primer trimestre de 2025
-description: Esta página proporciona información sobre la funcionalidad que se incluye en la versión del primer trimestre de 2025. Se prevé que estas mejoras estén disponibles en el entorno de producción durante todo el trimestre.
+description: En esta página se ofrece información sobre la funcionalidad incluida en la versión del primer trimestre de 2025. Se prevé que estas mejoras estén disponibles en el entorno de producción durante todo el trimestre.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 0%
+source-wordcount: '1610'
+ht-degree: 39%
 
 ---
 
 # Información general sobre la versión del primer trimestre de 2025
 
-Esta página proporciona información sobre la funcionalidad que se incluye en la versión del primer trimestre de 2025. Se prevé que estas mejoras estén disponibles en el entorno de producción durante todo el trimestre.
+En esta página se ofrece información sobre la funcionalidad incluida en la versión del primer trimestre de 2025. Se prevé que estas mejoras estén disponibles en el entorno de producción durante todo el trimestre.
 
-<span class="preview">Las características que no están en ciclo de producción (las que se lanzaron a Producción antes de la fecha de lanzamiento del primer trimestre de 2025) aparecen resaltadas en amarillo.</span>
+<span class="preview">Las características que no están en ciclo de producción (las que se lanzaron a Producción antes de la fecha de la versión del primer trimestre de 2025) aparecen resaltadas en amarillo.</span>
 
 >[!IMPORTANT]
 >
->La versión 23.3 incluía la opción de mover su organización a versiones mensuales. Por lo tanto, Workfront ha cambiado el esquema de numeración de versiones para tener en cuenta las versiones mensuales y trimestrales. El primer número designa el año y el segundo número significa el mes de la versión. Ejemplo: La versión de abril de 2025 es 25.4.
+>La versión 23.3 incluía la opción de pasar su organización a versiones mensuales. Por lo tanto, Workfront ha cambiado el esquema de numeración de versiones para tener en cuenta las versiones mensuales y las trimestrales. El primer número designa el año y el segundo número significa el mes de la versión. Ejemplo: la versión de abril de 2025 es la 25.4.
 >
->Las versiones mensuales y trimestrales están planificadas para estar disponibles el jueves de la segunda semana completa del mes, a menos que se especifique lo contrario.
+>Está previsto que las versiones mensuales y trimestrales estén disponibles el jueves de la segunda semana completa del mes, salvo que se especifique lo contrario.
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
 >| <ul><li>24.11 (14 de noviembre de 2024)</li><li>24.12 (12 de diciembre de 2024)</li><li>25.1 (15 de enero de 2025)</li></ul> | <ul><li>25.1 (16 de enero de 2025)</li></ul> |
 >
->Tenga en cuenta que, para la versión final de cada trimestre (25.1 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes.
+>Tenga en cuenta que, para la versión final de cada trimestre (25.1 este trimestre), los usuarios de la programación de versiones rápidas recibirán la versión un día antes.
 >
->Para obtener más información sobre el proceso de publicación rápida, consulte [Habilitar o deshabilitar el proceso de publicación rápida](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Para obtener más información sobre el proceso de versiones rápidas, consulte [Habilitar o deshabilitar el proceso de versiones rápidas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras del administrador](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
 * [Mejoras en la administración de documentos](#document-management-enhancements)
-* [Mejoras de inicio](#home-enhancements)
-* [Mejoras de corrección](#proofing-enhancements)
+* [Mejoras en el Inicio](#home-enhancements)
+* [Mejoras de revisión](#proofing-enhancements)
 * [Mejoras de informes y paneles](#report-and-dashboard-enhancements)
 * [Otras mejoras](#other-enhancements)
 
-### Mejoras del administrador
+### Mejoras en el administrador
 
 <table>
 <col style="width: 50%;" />
@@ -59,13 +59,12 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preferencia para utilizar la programación de proyecto o de usuario para tareas de asignación única</a></p>
-            [!BADGE Nuevo en vista previa ]{type=Negative}
             <p>Como administrador de sistemas o de grupos, ahora tiene una nueva preferencia que indica si Workfront debe utilizar la programación del proyecto o la del usuario para calcular la escala de tiempo del proyecto cuando asigna un usuario a una tarea y tanto el proyecto como el usuario están asociados a una programación.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 21 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 21 de noviembre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.12 (diciembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -75,13 +74,12 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Las reglas empresariales ahora admiten hipervínculos</a></p>
-            [!BADGE Nuevo en vista previa ]{type=Negative}
             <p>Ahora puede incluir hipervínculos en el mensaje de error personalizado de una regla de negocio para guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla. La URL estática podría vincularse a la documentación u otras páginas que resultarían útiles para el usuario.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 21 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 21 de noviembre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.12 (diciembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -91,13 +89,12 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ya está disponible el filtrado en los campos de escritura anticipada nativos</a></p>
-            [!BADGE Nuevo en vista previa ]{type=Negative}
             <p>Cuando se agrega una referencia de campo nativo a un formulario personalizado y hace referencia a un campo de escritura anticipada (como Portfolio, Empresa o Propietario), ahora está disponible una opción de filtro. El filtro permite limitar los objetos que los usuarios pueden elegir cuando utilizan el campo. Este filtro personalizado funciona igual que un filtro en un campo de escritura anticipada personalizado, utilizando el modo de texto para definir el filtro.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 21 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 21 de noviembre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.12 (diciembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -107,13 +104,13 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Icono "Mover a" añadido a los campos personalizados</a></p>
-            [!BADGE En producción para lanzamiento rápido ]{type=Positive}
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 29 de octubre de 2024</li>
+                <li>Versión preliminar: miércoles, 29 de octubre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -172,13 +169,12 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Editar varios documentos a la vez</a></p>
-            [!BADGE Nuevo en vista previa ]{type=Negative}
             <p>Ahora puede editar varios documentos a la vez. Puede editar las descripciones y actualizar los formularios personalizados.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 21 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 21 de noviembre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.12 (diciembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -188,13 +184,13 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nuevo estado Retirado disponible para aprobaciones de versiones de documentos</a></p>
-            [!BADGE En producción para lanzamiento rápido ]{type=Positive}
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Cuando se agrega una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior ahora se mostrará como "Retirada", lo que indica que el proceso de aprobación anterior se ha cerrado debido a que se está agregando la nueva versión.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 7 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 07 de noviembre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -204,7 +200,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 </tbody>
 </table>
 
-### Mejoras de inicio
+### Mejoras en el Inicio
 
 <table>
 <col style="width: 50%;" />
@@ -222,7 +218,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Opciones actualizadas en la columna Mi enfoque en Prioridades</a></p>
-            [!BADGE en producción ]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Hemos actualizado las opciones de la columna Mi enfoque para ayudarle a priorizar y ordenar su trabajo de forma más intuitiva. Las nuevas etiquetas incluyen</p>
             <ul>
                 <li>Urgente</li>
@@ -234,7 +230,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 14 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 14 de noviembre de 2024</li>
                 <li><span class="preview">Versión de producción para todos los clientes: 14 de noviembre de 2024</span></li>
             </ul>
         </td>
@@ -243,13 +239,13 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ver detalles del proyecto en Prioridades</a></p>
-            [!BADGE En producción para lanzamiento rápido ]{type=Positive}
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Ahora puede ver los detalles y comentarios del proyecto desde la lista de trabajo en Prioridades.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 6 de noviembre de 2024</li>
+                <li>Versión de vista previa: jueves, 06 de noviembre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -258,7 +254,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 </tbody>
 </table>
 
-## Mejoras de corrección
+## Mejoras de revisión
 
 <table>
 <col style="width: 50%;" />
@@ -276,14 +272,14 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nueva extensión de explorador para revisión interactiva disponible en versión beta</a></p>
-            [!BADGE en producción ]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Presentamos una nueva extensión de explorador, la herramienta de revisión de Adobe Workfront, para reemplazar la extensión de explorador heredada para revisar el contenido ZIP interactivo. La nueva herramienta de revisión de Adobe Workfront admite la revisión del contenido ZIP en todos los exploradores comunes.</p>
             <p>La extensión del explorador heredado se eliminará el 28 de febrero de 2025.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 7 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 07 de noviembre de 2024</li>
                 <li><span class="preview">Versión de producción para todos los clientes: 7 de noviembre de 2024</span></li>
             </ul>
         </td>
@@ -309,12 +305,13 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Botón de creación de cuenta del lector por primera vez para Data Connect</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>A los administradores que acceden a Data Connect por primera vez se les presenta la opción de crear una nueva cuenta de Snowflake reader haciendo clic en un solo botón. El proceso tarda unos minutos en completarse, pero no requiere ninguna acción adicional.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 14 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 14 de noviembre de 2024</li>
                 <li><span class="preview">Versión de producción para todos los clientes: 14 de noviembre de 2024</span></li>
             </ul>
         </td>
@@ -332,7 +329,6 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Actualización de cómo se administran los recursos movidos o eliminados en las carpetas vinculadas</a></p>
-            [!BADGE Nuevo en vista previa ]{type=Negative}
             <p>Hemos cambiado la forma en que se gestionan los recursos movidos y eliminados al utilizar la integración de Adobe Workfront con Experience Manager Assets y Assets Essentials:</p>
             <ul>
                 <li>Recursos eliminados: cuando se elimina un recurso dentro de una carpeta vinculada en Assets o Assets Essentials, el recurso eliminado se conservará en el área Documentos del proyecto.</li>
@@ -342,7 +338,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 21 de noviembre de 2024</li>
+                <li>Versión de vista previa: viernes, 21 de noviembre de 2024</li>
                 <li><span class="preview">Versión de producción para todos los clientes: 5 de diciembre de 2024</span></li>
             </ul>
         </td>
@@ -356,7 +352,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 11 de noviembre de 2024</li>
+                <li>Versión de vista previa: martes, 11 de noviembre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.12 (diciembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -366,13 +362,13 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             El asistente de IA ahora puede trabajar con proyectos, tareas y problemas</a></p>
-            [!BADGE En producción para lanzamiento rápido ]{type=Positive}
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de IA puede localizar proyectos, tareas y problemas en función de los criterios especificados.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Versión de vista previa: 31 de octubre de 2024</li>
+                <li>Versión preliminar: viernes, 31 de octubre de 2024</li>
                 <li>Producción para la versión rápida: con la versión de 24.11 (14 de noviembre de 2024)</li>
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
@@ -405,13 +401,13 @@ The following functionality is soon to be removed from Workfront:
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera del calendario de versiones del primer trimestre de 2025. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones del primer trimestre de 2025. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Mejoras de Workfront Planning
 
 Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
-### Mejoras de Workfront Scenario Planner
+### Mejoras en el Planificador de escenarios de Workfront
 
 No hay actualizaciones de Scenario Planner en este punto de la versión. Esta área se actualizará cuando haya actualizaciones disponibles.
 
@@ -419,22 +415,22 @@ No hay actualizaciones de Scenario Planner en este punto de la versión. Esta á
 
 No hay actualizaciones de Workfront Proof en este punto de la versión. Esta área se actualizará cuando haya actualizaciones disponibles.
 
-### Mejoras en Workfront Goals
+### Mejoras de Workfront Goals
 
 No hay actualizaciones de Workfront Goals en este punto de la versión. Esta área se actualizará cuando haya actualizaciones disponibles.
 
-### Versión de API 19
+### Versión 19 de la API
 
-Para la versión 19 de la API, hemos modificado algunos recursos y extremos. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+Para la versión 19 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 19](/help/quicksilver/wf-api/api/new-api-version-19.md) de la API.
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 19 de la API](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del primer trimestre de 2025, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del primer trimestre de 2025, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
 
-### Actualizaciones de formación
+### Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección &quot;Novedades&quot; de la [página de Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).

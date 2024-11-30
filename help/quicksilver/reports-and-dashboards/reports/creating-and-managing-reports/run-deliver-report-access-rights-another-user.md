@@ -6,14 +6,16 @@ description: De forma predeterminada, los usuarios solo pueden ver los objetos d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 0%
+source-wordcount: '1179'
+ht-degree: 21%
 
 ---
 
 # Ejecutar y entregar un informe con los derechos de acceso de otro usuario
+
+<!-- Audited: 11/2024 -->
 
 De forma predeterminada, los usuarios solo pueden ver los objetos de un informe para los que tienen permisos de visualización.
 
@@ -28,6 +30,8 @@ Si ejecuta un informe con los derechos de acceso de otro usuario con acceso supe
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -35,25 +39,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver los permisos de un informe (para ver el informe enviado)</p> <p>Administración de permisos de un informe (para ejecutar el informe)</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Ver los permisos de un informe (para ver el informe enviado)</p><p>Administración de permisos de un informe (para ejecutar el informe)</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mostrar un informe con los derechos de acceso de otro usuario
 
@@ -63,7 +78,7 @@ Los usuarios que accedan al informe deben tener al menos permisos de visualizaci
 
 Para ejecutar un informe con los derechos de acceso de otro usuario:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Informes**.
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Informes]**.
 
 1. Seleccione el informe que desea mostrar con los derechos de acceso de otro usuario.
 1. Haga clic en **Acciones de informe** y luego haga clic en **Editar**.
@@ -71,7 +86,7 @@ Para ejecutar un informe con los derechos de acceso de otro usuario:
 1. Haga clic en **Configuración del informe**.
 
 1. En el campo **Ejecutar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario con el que desea que se muestre el informe y, a continuación, selecciónelo cuando lo vea en la lista.\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ Para entregar un informe con los derechos de acceso de otro usuario:
 1. Haga clic en **Enviar informe**.
 
 1. En el campo **Enviar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario que desea que muestre el informe como cuando se envía en un mensaje de correo electrónico y, a continuación, selecciónelo cuando lo vea en la lista. El valor predeterminado es el nombre del usuario que está creando el informe.\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ Para entregar un informe con los derechos de acceso de otro usuario:
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. Haga clic en **Enviar ahora** para enviarlo inmediatamente.\
@@ -124,7 +139,7 @@ Para entregar un informe con los derechos de acceso de otro usuario:
 
 Los siguientes informes muestran una columna Source en la que puede ver información sobre el objeto principal:
 
-* Informes de problemas
+* Informes de problema
 * Informes por hora
 * Informes de documentos
 
@@ -132,26 +147,28 @@ Si los usuarios no tienen permisos para el objeto principal de un problema, hora
 
 Para mostrar información sobre el objeto principal en el informe, se recomienda añadir una columna para el objeto principal en la que se pueda mostrar el nombre del objeto principal.
 
-Por ejemplo, puede agregar cualquiera de las siguientes opciones a un informe con una columna Source:
+Por ejemplo, puede añadir cualquiera de las siguientes opciones a un informe con una columna Source:
 
-* Las columnas Nombre del proyecto, Nombre de tarea o Nombre del problema se transfieren a un documento o informe de horas.
-* Las columnas Nombre del proyecto o Nombre de tarea se transfieren a un informe de problemas.
+* Las columnas Nombre del proyecto, Nombre de tarea o Nombre del problema a un documento o informe de horas.
+* Las columnas Nombre del proyecto o Nombre de tarea a un informe de problemas.
 * Columna que utiliza expresiones en modo de texto que hace referencia a los tres objetos. El siguiente es un ejemplo de un informe de horas:
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   Para obtener información acerca de las vistas en modo de texto, vea [Editar una vista con modo de texto](../text-mode/edit-text-mode-in-view.md).

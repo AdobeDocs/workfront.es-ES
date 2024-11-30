@@ -6,14 +6,16 @@ description: Resumen de entrega de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
 source-wordcount: '1531'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 # Resumen de entrega de informes
+
+<!-- Audited: 11/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
@@ -41,28 +43,28 @@ Tenga en cuenta lo siguiente al programar informes para su envío:
 
 Existen varios límites de tamaño que afectan a cómo se muestran los informes en Workfront y a cómo se exportan a través de una exportación manual, un informe enviado o a través de la API:
 
-* **Tamaño de archivo de 5 MB:** Límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
+* **Tamaño de archivo de 5MB:** límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
 
   >[!NOTE]
   >
   >Los archivos .xlsx de Excel con un tamaño superior a 5 MB no generan un correo electrónico. Puede exportar manualmente el informe a este formato. Para obtener información sobre la exportación de informes, consulte [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50.000 filas:** Número de filas de datos permitidas en una exportación de informe para archivos .pdf y delimitados por tabuladores.
+* **50 000 filas:** número de filas de datos permitidas en la exportación de un informe para archivos .pdf y delimitados por tabulaciones.
 
-  Para archivos .xls de Excel, este límite es de **65.000 filas**.
+  Para archivos .xls de Excel, este límite es de **65 000 filas**.
 
-  Para archivos .xlsx de Excel, este límite es de **100.000 filas**.
+  Para archivos .xlsx de Excel, este límite es de **100 000 filas**.
 
-  Estos límites excluyen los encabezados de columna y las filas de las agrupaciones del informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas de datos, el archivo exportado tendrá 50 000 filas.
+  Estos límites excluyen los encabezados de columna y las filas de las agrupaciones del informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas de datos, el archivo exportado tendrá 50 000 filas.
 
-  Si el informe tiene más elementos que estos límites, se genera un error que indica que la exportación y la entrega del informe no se han realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número inferior o igual a estos límites para poder ofrecer los resultados. Si desea exportar todos los datos, le sugerimos que utilice filtros para obtener cargas de datos más pequeñas y, a continuación, realice varias exportaciones. Para obtener más información, vea [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Si el informe tiene más elementos que estos límites, se genera un error que indica que la exportación y la entrega del informe no se han realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número inferior o igual a estos límites para poder ofrecer los resultados. Si desea exportar todos los datos, le sugerimos que utilice filtros para obtener cargas de datos más pequeñas y, a continuación, realice varias exportaciones. Para obtener más información, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  Estos límites se aplican a:
+  Estos límites se aplican a lo siguiente:
 
    * Exportación manual de un informe.
    * Un informe programado.
    * Una exportación a través de una integración de API.
-   * Datos exportados mediante un KickStart.
+   * Datos exportados mediante Kick-Start.
 
      Para obtener más información sobre la exportación de datos mediante KickStart, consulte el artículo [Exportar datos de Adobe Workfront mediante Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
@@ -72,9 +74,9 @@ Existen varios límites de tamaño que afectan a cómo se muestran los informes 
 
    * Exportación de información de utilización para un proyecto.
 
-     Para obtener más información sobre cómo exportar la información de utilización de un proyecto, vea [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     Para obtener más información sobre cómo exportar la información de utilización de un proyecto, consulte [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65.530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65.530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener sólo 200 filas de datos, pero si hay más de 65.530 vínculos dentro del documento, éste no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
+* **65 530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65 530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener solo 200 filas de datos, pero si hay más de 65 530 vínculos dentro del documento, este no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
 * **256 columnas**: Excel ha impuesto este límite a los documentos que contienen más de 256 columnas. Estos documentos no se pueden exportar manualmente ni enviar en un informe enviado. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
 
 Si intenta exportar datos más allá del límite, es posible que no reciba todos los datos esperados en la exportación. En su lugar, se produce un informe modificado dentro del límite.
@@ -120,7 +122,7 @@ Para obtener más información acerca de cómo aplicar una vista especial a un i
 Cuando envía un informe desde Workfront, el usuario recibe un correo electrónico con el informe en un archivo adjunto independiente.
 
 * [Línea de asunto, nombre de archivo adjunto y título del informe](#subject-line-attachment-name-and-report-title)
-* [Marcas de hora](#timestamps)
+* [Marcas de tiempo](#timestamps)
 * [Marca](#branding)
 * [Formato](#formatting)
 * [Vínculos](#links)
@@ -141,7 +143,7 @@ Los informes programados para enviarse en formato Excel, Excel (.xlsx) o TSV no 
 >
 >Si el informe tiene una descripción, se incluirá en el archivo exportado si tiene el formato de archivo PDF o HTML.
 
-### Marcas de hora {#timestamps}
+### Marcas de tiempo {#timestamps}
 
 La marca de tiempo solo se mostrará en el archivo adjunto si el formato del archivo es un .pdf. La marca de tiempo se encuentra en el pie de página del archivo adjunto.
 
