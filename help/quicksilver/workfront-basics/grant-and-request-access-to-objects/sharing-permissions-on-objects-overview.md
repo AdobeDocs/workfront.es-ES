@@ -6,7 +6,7 @@ description: Es posible compartir o quitar permisos de un objeto que creó o de 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 96%
@@ -166,6 +166,7 @@ Para obtener más información sobre la jerarquía y la interdependencia de obje
 Si concede permisos de administración a un grupo de usuarios de un objeto y concede permisos de visualización a un usuario individual de ese grupo en el mismo objeto, el usuario tendrá el nivel más alto de permisos (Administrar) concedido a través de los miembros del grupo en el objeto. 
 
 Si desea conceder permisos inferiores a un usuario que ya forma parte de una unidad organizativa (Grupo, Equipo, Función o Compañía) con un nivel de permiso superior, debe quitar los permisos de la unidad organizativa y añadir usuarios individuales con un nivel inferior de permisos.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

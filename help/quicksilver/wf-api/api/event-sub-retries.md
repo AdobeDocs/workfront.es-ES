@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ Los clientes deben asegurarse de que todos los puntos finales que consuman mensa
 * Una dirección URL de suscripción está **inmovilizada** si tiene más de 2.000 errores consecutivos y el último éxito fue hace más de 72 horas O si tiene 50.000 errores consecutivos en cualquier intervalo de tiempo.
 * Una URL de suscripción **deshabilitada** seguirá intentando la entrega cada 10 minutos y se volverá a habilitar con una entrega correcta.
 * La URL de suscripción **locked** nunca intentará la entrega a menos que se habilite manualmente mediante una solicitud de API.
+
 
 
 
