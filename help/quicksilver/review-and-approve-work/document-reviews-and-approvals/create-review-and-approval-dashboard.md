@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 89c5ed4d73d875fcbb56287ad51859dc8f4bc5ff
+exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
+source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 1%
 
 ---
-
 
 # Creación de un tablero de informes para revisión y aprobaciones
 
@@ -26,7 +26,7 @@ Puede crear un tablero de informes en el área de Tableros de lienzo para mostra
 
 ![tablero de ejemplo](assets/whole-dashboard.png)
 
-## Crear un tablero
+## Creación de un panel
 
 {{step1-to-dashboards}}
 
@@ -193,7 +193,7 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
 
    <table>
     <tr>
-    <td><strong>Nombre de proyecto</strong></td>
+    <td><strong>Nombre del proyecto</strong></td>
     <td>Versión del documento &gt; Documento &gt; Proyecto &gt; Nombre</td>
     </tr>
     <tr>
@@ -271,7 +271,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
 
    <table>
     <tr>
-    <td><strong>Nombre de proyecto</strong></td>
+    <td><strong>Nombre del proyecto</strong></td>
     <td>Versión del documento &gt; Documento &gt; Proyecto &gt; Nombre</td>
     </tr>
     <tr>
@@ -344,9 +344,3 @@ Para ver información más específica según el caso de uso, puede añadir cond
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/approvals-ive-submitted-filter.png)
 1. Haga clic en **Listo** en la esquina superior derecha de la pantalla.
 +++
-
-
-
-
-
-
