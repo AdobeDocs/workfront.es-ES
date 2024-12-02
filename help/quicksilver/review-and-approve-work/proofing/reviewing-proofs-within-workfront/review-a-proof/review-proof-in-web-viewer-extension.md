@@ -5,13 +5,13 @@ title: Revisar el contenido interactivo en la extensión del visor de revisión 
 description: La herramienta de revisión de Adobe Workfront es una extensión del explorador que le permite probar el contenido interactivo en un archivo ZIP o con una dirección URL.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # Revisión del contenido interactivo con la herramienta de revisión de Adobe Workfront
 
@@ -23,7 +23,11 @@ La herramienta de revisión de Adobe Workfront es una extensión de explorador b
 * Chrome
 * Edge
 
-Para los sitios web que impiden abrir su sitio en iFrames, como Figma, recomendamos utilizar el Visor de pruebas de escritorio.
+Se recomienda utilizar el Visor de corrección de escritorio si el contenido que necesita revisar está en un sitio web que
+
+* Requiere autenticación SSO
+* Impide abrir el sitio en iFrames, como Figma
+
 
 
 ## Hacer que la herramienta de revisión de Adobe Workfront sea el visor predeterminado para las pruebas de URL y ZIP
@@ -69,7 +73,3 @@ Una vez instalada la extensión, las pruebas interactivas se abren en la herrami
 >[!IMPORTANT]
 >
 >Debe quitar la extensión heredada de Web Viewer para utilizar la herramienta de revisión de Adobe Workfront.
-
-
-
-
