@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
+source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
 workflow-type: tm+mt
-source-wordcount: '14666'
+source-wordcount: '14673'
 ht-degree: 59%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 59%
          * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Actividad de la versión {#fusion-release} de Adobe Workfront Fusion
          * [Actividad en la versión de Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Actividad de la versión de Workfront Fusion: semana del martes, 02 de diciembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Actividad en la versión de Workfront Fusion: semana del martes, 25 de noviembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Actividad en la versión de Workfront Fusion: semana del martes, 11 de noviembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Actividad en la versión de Workfront Fusion: semana del martes, 04 de noviembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)

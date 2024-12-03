@@ -2,17 +2,15 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Ejecutar el experto en puntuación de escenarios
-description: Administrar escenarios bloqueados en  [!DNL Adobe Workfront Fusion]
+title: Ejecutar el experto en puntuación de escenarios en Adobe Workfront Fusion
+description: El experto en puntuación de escenarios puede ayudarle a garantizar que su escenario se configura de una manera que siga las prácticas recomendadas. Comprueba el escenario y ofrece recomendaciones para su estructura y organización.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 26%
+source-wordcount: '327'
+ht-degree: 22%
 
 ---
 
