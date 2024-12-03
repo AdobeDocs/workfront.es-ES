@@ -3,18 +3,18 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Visión General de Horas, ETC e Información de Costos en las Vistas de Proyectos y Rol del Planificador de Recursos
-description: Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos
+description: Información general sobre horas, EJC y costes en las vistas Proyecto y Función del Planificador de recursos
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
-ht-degree: 0%
+source-wordcount: '3086'
+ht-degree: 94%
 
 ---
 
-# Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos
+# Información general sobre horas, EJC y costes en las vistas Proyecto y Función del Planificador de recursos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -24,32 +24,32 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: relink all articles pointing to this section to the new article)</p>
 -->
 
-La principal función del Planificador de recursos es presupuestar los recursos para el trabajo que deben realizar en un proyecto. Puede ver el tiempo disponible de los recursos, así como asignar su tiempo a los proyectos en los que están asignados.
+La principal función del Planificador de recursos es presupuestar los recursos para el trabajo que se debe llevar a cabo en un proyecto. Puede ver el tiempo disponible de los recursos, así como asignar su tiempo a los proyectos en los que están asignados.
 
-Para obtener información sobre cómo presupuestar recursos en el Planificador de recursos, consulte [Presupuestar recursos en el Planificador de recursos mediante las vistas Proyecto y Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+Para obtener información sobre cómo presupuestar recursos en el Planificador de recursos, consulte [Presupuestar recursos en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
 En este artículo se describen algunos de los conceptos clave que debe conocer antes de comenzar a presupuestar los recursos en el Planificador de recursos.
 
-## Resumen de recursos de presupuesto
+## Información general sobre presupuestar recursos
 
 Tenga en cuenta lo siguiente al presupuestar recursos mediante el Planificador de recursos:
 
-* Puede presupuestar la asignación de los recursos especificando la cantidad de horas, ETC o Costo que los recursos pueden utilizar para completar el trabajo en los proyectos. Al presupuestar el tiempo o el costo de un recurso, las horas disponibles, el valor de ETC o el valor de costo del recurso disminuyen en la cantidad presupuestada. Como resultado, los importes de horas disponibles, ETC o costos para los proyectos que siguen al proyecto para el que está presupuestando disminuyen para esos usuarios y roles en esos proyectos.
+* Puede presupuestar la asignación de los recursos especificando la cantidad de horas, EJC o coste que los recursos pueden utilizar para completar el trabajo de los proyectos. Al presupuestar el tiempo o el coste para un recurso, las horas disponibles, el EJC o el coste del recurso disminuyen en la cantidad presupuestada. Como resultado, los importes de horas disponibles, EJC o costes para los proyectos que siguen al proyecto para el que está presupuestando disminuyen para esos usuarios y funciones en esos proyectos.
 
   >[!IMPORTANT]
   >
   >Puede presupuestar sus recursos para un período de 15 años. Si se presupuestan recursos para un proyecto con una duración superior a 15 años, es posible que la información de presupuestación no sea precisa.
 
-* Puede presupuestar las horas, los jornadas completas o el costo de los recursos para cualquier lapso de tiempo mostrado en el Planificador de recursos, independientemente de la escala de tiempo del proyecto. Por ejemplo, si desea indicar que los recursos podrían no estar disponibles durante la escala de tiempo del proyecto (cuando estén asociados con horas planificadas), pero podrían estar disponibles durante otro período, puede presupuestarlos para períodos de tiempo en los que las horas planificadas sean cero, si es entonces cuando estarán disponibles para trabajar. Puede cambiar manualmente la cronología del proyecto para que coincida con la disponibilidad de los recursos después de hacerlo.
+* Puede presupuestar las horas, los jornadas completas o el coste de los recursos para cualquier lapso de tiempo mostrado en el Planificador de recursos, independientemente de la duración del proyecto. Por ejemplo, si desea indicar que los recursos podrían no estar disponibles durante la duración del proyecto (cuando estén asociados con Horas planificadas), pero podrían estar disponibles durante otro período, puede presupuestarlos para períodos de tiempo en los que las horas planificadas sean cero, si es entonces cuando estarán disponibles para trabajar. Después de hacer esto, puede cambiar manualmente la línea de tiempo del proyecto para que coincida con la disponibilidad de los recursos.
 
   >[!NOTE]
   >
-  >Le recomendamos que presupueste manualmente sus horas, FTE o costo para roles de trabajo o para usuarios primero. Puede utilizar las opciones automáticas para presupuestar el tiempo de sus proyectos y recursos solo cuando esté seguro de que la cantidad de Horas planificadas, ETC o Costo siempre debe coincidir con las Horas, ETC o Costo presupuestados.\
-  >Para obtener información acerca del uso de las opciones automáticas para la presupuestación en el Planificador de recursos, vea la sección &quot;Presupuestar el proyecto y las funciones automáticamente&quot; en el artículo [Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >Le recomendamos que presupueste manualmente sus horas, EJC o coste para funciones de trabajo o para usuarios primero. Puede utilizar las opciones automáticas para presupuestar el tiempo de sus proyectos y recursos si tiene claro que la cantidad de Horas planificadas, EJC o Coste debería coincidir siempre con las Horas, EJC o Coste presupuestados.\
+  >Para obtener información acerca del uso de las opciones automáticas para la presupuestación en el Planificador de recursos, consulte la sección &quot;Presupuestar el proyecto y las funciones automáticamente&quot; en el artículo [Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-* Presupuestar el valor de FTE o los costes es idéntico a presupuestar horas, donde Adobe Workfront utiliza los valores de FTE y de coste en lugar de horas para los recursos presupuestados.
+* Presupuestar el valor de EJC o los costes es idéntico a presupuestar horas; Adobe Workfront utiliza los valores de EJC y de coste en lugar de horas para los recursos presupuestados.
 
-  Para obtener más información sobre cómo se calculan los costos en el Planificador de recursos, vea [Calcular costos en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  Para obtener más información sobre cómo se calculan los costes en el Planificador de recursos, consulte [Calcular costes en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 * La presupuestación de asignaciones para los recursos en el Planificador de recursos se realiza de las siguientes maneras:
 
@@ -57,43 +57,43 @@ Tenga en cuenta lo siguiente al presupuestar recursos mediante el Planificador d
 
      O
 
-   * Automáticamente, mediante las opciones de proyecto y rol en las vistas **Ver por proyecto** y **Ver por rol**.
+   * Automáticamente, mediante las opciones de proyecto y función en las vistas **Ver por proyecto** y **Ver por función**.
 
-  Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-* Cuando un usuario cambia de rol, se elimina, desactiva o elimina de un conjunto de recursos, las horas presupuestadas para el rol no cambian y se redistribuyen a los demás usuarios del rol. Si ya no hay ningún usuario asociado con el rol, las horas presupuestadas del rol pasarán a ser cero.
+* Cuando un usuario cambia de función, se elimina, se desactiva o se quite de un conjunto de recursos, las horas presupuestadas para la función no cambian y se redistribuyen a los demás usuarios de la función. Si ya no hay ningún usuario asociado con la función, las horas presupuestadas de la función pasarán a ser cero.
 
-Para obtener más información acerca de las opciones de proyecto y rol, vea la sección [Comprender los valores de horas, ETC y costo en el Planificador de recursos](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) en este artículo.
+Para obtener más información acerca de las opciones de proyecto y función, consulte la sección [Comprender los valores de horas, EJC y coste en el Planificador de recursos](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) en este artículo.
 
-## Comprender los valores de horas, ETC y costo en el Planificador de recursos {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
+## Comprender los valores de horas, EJC y coste en el Planificador de recursos {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this needs to be broken into its own article and leave here just the how-to: see this article: overview-of-planner-hour-fte-cost-information-in-role-project-views)</p>
 -->
 
-Antes de presupuestar los recursos y actualizar la información de Horas presupuestadas en el Planificador de recursos, debe estar familiarizado con los siguientes conceptos
+Antes de presupuestar los recursos y actualizar la información de Horas presupuestadas en el Planificador de recursos, debe conocer los siguientes conceptos
 
-* **Horas, ETC o costos planificados**: el trabajo que debe realizarse según se ha definido en las tareas y los problemas.
-* **Horas, ETC o costos disponibles**: Cantidad de tiempo que los usuarios o roles de trabajo están disponibles para trabajar, según los horarios asociados con los usuarios.
+* **Horas planificadas, EJC o coste**: el trabajo que debe realizarse según se ha definido en las tareas y los problemas.
+* **Horas disponibles, EJC o costes**: la cantidad de tiempo que los usuarios o funciones de trabajo están disponibles para trabajar, según los horarios asociados con los usuarios.
 
-Esta información se muestra en el Planificador de recursos para cada recurso (usuario o rol) y para cada proyecto.
+Esta información se muestra en el Planificador de recursos para cada recurso (usuario o función) y para cada proyecto.
 
 Para obtener información acerca de lo que se muestra en las vistas de proyecto y vista de funciones del proyecto, vea el artículo [Información general sobre la navegación del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Para obtener información acerca de cómo se calculan los costos en el Planificador de recursos, vea el artículo [Calcular costos en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Para obtener información acerca de cómo se calculan los costes en el Planificador de recursos, vea el artículo [Calcular costes en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 >[!NOTE]
 >
->La presupuestación por costo es idéntica a la presupuestación por horas o por tiempo completo, pero debe comprender cómo calcula Workfront el costo para el planificador de recursos.
+>La presupuestación por coste es idéntica a la presupuestación por horas o por tiempo completo, pero debe comprender cómo calcula Workfront el coste para el planificador de recursos.
 >
->Para obtener información acerca de cómo se calculan los costos en el Planificador de recursos, vea el artículo [Calcular costos en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+>Para obtener información acerca de cómo se calculan los costes en el Planificador de recursos, vea el artículo [Calcular costes en el Planificador de recursos](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-En las tablas siguientes se muestra la información de asignación y disponibilidad que aparece en el Planificador de recursos al aplicar la vista Proyecto o Rol. Puede ver esta información por horas, jornadas completas o costos:
+En las tablas siguientes se muestra la información de asignación y disponibilidad que aparece en el Planificador de recursos al aplicar la vista Proyecto o Función. Puede ver esta información por horas, EJC o costes:
 
-* AVL [La columna (Disponible) de la](#the-avl-available-column)
-* [La columna PLN (planificada)](#the-pln-planned-column)
-* [La columna BDG (presupuestada)](#the-bdg-budgeted-column)
-* [La columna VAR (Varianza)](#the-var-variance-column)
+* [La columna AVL (disponible)](#the-avl-available-column)
+* [La columna PLN (planificado)](#the-pln-planned-column)
+* [La columna BDG (presupuestado)](#the-bdg-budgeted-column)
+* [La columna VAR (varianza)](#the-var-variance-column)
 * [La columna NET](#the-net-column)
 
 ### AVL La columna (Disponible {#the-avl-available-column}
@@ -108,32 +108,32 @@ En las tablas siguientes se muestra la información de asignación y disponibili
   </tr> 
   <tr> 
    <td>Proyecto </td> 
-   <td> <p>El total de horas, ETC o costos para los que todos los usuarios del proyecto están disponibles para trabajar según su horario, para el lapso de tiempo seleccionado. </p> </td> 
+   <td> <p>El total de horas, equivalente a jornadas completas o coste para el que todos los usuarios del proyecto están disponibles para trabajar según su programación, durante el lapso de tiempo seleccionado. </p> </td> 
   </tr> 
   <tr> 
    <td>Función</td> 
-   <td> <p>El total de horas, ETC o costos para los cuales todos los usuarios asociados con este rol están disponibles para trabajar de acuerdo con su horario y su <strong>Porcentaje de disponibilidad de ETC</strong> para ese rol específico, para el lapso de tiempo seleccionado. </p> <p>Tenga en cuenta lo siguiente: </p> 
+   <td> <p>El total de horas, equivalente a jornadas completas o coste para el que todos los usuarios asociados con esta función están disponibles para trabajar según su programación y su <strong>Porcentaje de disponibilidad de EJC</strong> para esa función específica, durante el lapso de tiempo seleccionado. </p> <p>Tenga en cuenta lo siguiente: </p> 
     <ul> 
-     <li>Si no hay ningún usuario asociado a un rol, el valor de Horas disponibles para el rol es cero. </li> 
-     <li>Si un usuario está asociado con un rol principal, pero el <strong>porcentaje de disponibilidad de ETC</strong> para el rol es 0%, el valor de horas disponibles del rol es cero.</li> 
-     <li>Si el usuario está asociado con otros roles y el <strong>porcentaje de disponibilidad de ETC</strong> para los roles es 0%, los otros roles no aparecen en el Planificador de recursos y el usuario solo aparece bajo su rol principal.</li> 
-    </ul> <p>Para obtener más información sobre el <strong>porcentaje de disponibilidad de FTE</strong> para un rol, consulte el artículo <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> <p>Para obtener más información acerca de cómo se calcula la disponibilidad de roles en el Planificador de recursos, consulte la sección "Calcular las horas disponibles y el tiempo de espera para un rol en el Planificador de recursos" en el artículo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y el tiempo de espera para usuarios y roles en el Planificador de recursos</a>.</p> </td> 
+     <li>Si no hay ningún usuario asociado a una función, el valor de Horas disponibles para esa función es cero. </li> 
+     <li>Si un usuario está asociado con una función principal, pero el <strong>Porcentaje de disponibilidad de EJC</strong> para la función es del 0 %, el valor de Horas disponibles para esa función es cero.</li> 
+     <li>Si el usuario está asociado con otras funciones y el <strong>Porcentaje de disponibilidad de EJC</strong> para las funciones es del 0 %, las otras funciones no aparecen en el Planificador de recursos y el usuario solo aparece bajo su Función principal.</li> 
+    </ul> <p>Para obtener más información sobre el <strong>Porcentaje de disponibilidad de EJC</strong> para una función, consulte el artículo <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> <p>Para obtener más información acerca de cómo se calcula la disponibilidad de las funciones en el Planificador de recursos, consulte la sección “Calcular las Horas disponibles y el EJC para una función en el Planificador de recursos” en el artículo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y el EJC para usuarios y funciones en el Planificador de recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Usuario</td> 
-   <td> <p>Horas, ETC o Coste en los que el usuario está disponible para trabajar, según su programación, durante el lapso de tiempo seleccionado. Este número resta las horas asociadas con lo siguiente:</p> 
+   <td> <p>Horas, EJC o Coste para los que el usuario está disponible para trabajar, según su programación, durante el lapso de tiempo seleccionado. Este número resta las horas asociadas con lo siguiente:</p> 
     <ul> 
      <li>excepciones de programación</li> 
-     <li>tiempo de espera del usuario</li> 
+     <li>días libres del usuario</li> 
      <li>horas presupuestadas para otros proyectos. </li> 
-    </ul> <p>Las horas disponibles, los jornadas completas o el costo de un usuario cambian de acuerdo con lo siguiente: </p> 
+    </ul> <p>Las horas disponibles, el equivalente a jornadas completas o el coste de un usuario cambian de acuerdo con lo siguiente: </p> 
     <ul> 
-     <li>cómo se calculan su programación y su valor de ETC en función de las preferencias de gestión de recursos a nivel del sistema.<br><p>Para obtener más información acerca del cálculo de la disponibilidad de usuarios y roles, vea el artículo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p>
-     Para obtener más información acerca de cómo configurar las preferencias de Administración de recursos en Workfront, consulte <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar las preferencias de Administración de recursos</a></li> 
+     <li>cómo se calculan su programación y su EJC en función de las preferencias de administración de recursos a nivel del sistema.<br><p>Para obtener más información sobre cómo calcular la disponibilidad de usuarios y funciones, consulte el artículo <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y EJC para usuarios y funciones en el Planificador de recursos</a>.</p>
+     Para obtener más información sobre cómo configurar las preferencias de Administración de recursos en Workfront, consulte <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar las preferencias de Administración de recursos</a></li> 
     </ul> 
     <ul> 
-     <li>la <strong>Prioridad de planificación del proyecto</strong>, si se ha presupuestado el trabajo para el usuario.<br>Para obtener más información acerca de cómo afecta la prioridad de planificación del proyecto a las horas disponibles de un usuario, vea <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Información general sobre la navegación del Planificador de recursos </a>. </li> 
-    </ul> <p>Si se programa la desactivación del usuario, las horas disponibles, los jornadas completas o el costo de los días posteriores a la fecha de desactivación serán cero. <br>Para obtener más información sobre cómo desactivar usuarios, consulte el artículo <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</p> </td> 
+     <li>la <strong>Prioridad de planificación del proyecto</strong>, si se ha presupuestado el trabajo para el usuario.<br>Para obtener más información sobre cómo afecta la prioridad de la planificación del proyecto a las horas disponibles de un usuario, consulte <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Información general de navegación del Planificador de recursos</a>. </li> 
+    </ul> <p>Si ya se ha programado la desactivación del usuario, las horas disponibles, el equivalente a jornadas completas o el coste de los días posteriores a la fecha de desactivación serán cero. <br>Para obtener más información sobre cómo desactivar usuarios, consulte el artículo <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,32 +152,32 @@ En las tablas siguientes se muestra la información de asignación y disponibili
   </tr> 
   <tr> 
    <td>Proyecto</td> 
-   <td> <p>El total de horas planificadas, jornadas completas o costos de todos los roles de trabajo o usuarios enumerados en el proyecto, incluso en las secciones de <strong>Sin rol</strong> o <strong>Sin usuario</strong>, para el lapso de tiempo seleccionado y tal como se muestra en la pestaña Detalles del proyecto. </p> <p><b>NOTA</b>
+   <td> <p>El total de horas planificadas, EJC o coste de todas las funciones o usuarios enumerados en el proyecto, también en las secciones <strong>Sin función</strong> o <strong>Sin usuario</strong>, durante el lapso de tiempo seleccionado y tal como se muestra en la pestaña Detalles del proyecto en cuestión. </p> <p><b>NOTA</b>
 
-Los ajustes manuales de las asignaciones diarias de usuarios podrían cambiar el valor de horas planificadas semanales, mensuales o trimestrales en el Planificador de recursos. Puede ajustar manualmente las asignaciones diarias de usuarios para tareas y problemas mediante el Distribuidor de cargas de trabajo. Para obtener más información, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo</a>.</p> </td>
+Los ajustes manuales de las asignaciones diarias de usuarios podrían cambiar el valor de las horas planificadas semanales, mensuales o trimestrales en el Planificador de recursos. Puede ajustar manualmente las asignaciones diarias de usuarios para tareas y problemas mediante el Distribuidor de cargas de trabajo. Para obtener más información, consulte <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo</a>.</p> </td>
 </tr> 
   <tr> 
    <td>Función</td> 
-   <td> <p>Total de horas planificadas de todas las tareas asignadas al rol durante el lapso de tiempo seleccionado. </p> <p>La sección <strong>Sin rol</strong> mostrará las horas planificadas asociadas con tareas que no están asignadas, asignadas a equipos (cuyas horas se enumeran en la sección <strong>Sin usuario</strong>) o asignadas a usuarios que no están asociados con un rol. </p> </td> 
+   <td> <p>El total de horas planificadas de todas las tareas asignadas a la función durante el lapso de tiempo seleccionado. </p> <p>La sección <strong>Sin función</strong> mostrará las horas planificadas asociadas con tareas que están sin asignar, asignadas a equipos (cuyas horas se enumeran en la sección <strong>Sin usuario</strong>) o asignadas a usuarios que no están asociados con una función. </p> </td> 
   </tr> 
   <tr> 
    <td>Usuario</td> 
-   <td> <p>Las horas planificadas de todas las tareas asignadas al usuario en un rol específico, durante el lapso de tiempo seleccionado. </p> <p>La sección <strong>Ningún usuario</strong> mostrará las horas planificadas asociadas con tareas que no estén asignadas o asignadas a equipos. </p> </td> 
+   <td> <p>Las horas planificadas de todas las tareas asignadas al usuario en una función específica durante el lapso de tiempo seleccionado. </p> <p>La sección <strong>Sin usuario</strong> mostrará las horas planificadas asociadas con tareas que estén sin asignar o asignadas a equipos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tenga en cuenta lo siguiente al ver las horas planificadas:
+Tenga en cuenta lo siguiente al consultar las horas planificadas:
 
-* Aunque no puede ver información sobre las asignaciones de tareas en el Planificador de recursos en las vistas Proyecto y Rol, la cantidad de horas planificadas proviene de las horas planificadas en las tareas de los proyectos.
-* Las horas planificadas se distribuyen equitativamente a cada día dentro de la Duración de las tareas, para cada recurso asignado a ellas. La duración de la tarea se basa en las fechas de inicio y finalización planificadas de la tarea e incluye todos los días del calendario dentro de ese período de tiempo.\
+* Aunque no puede ver información sobre las asignaciones de tareas en el Planificador de recursos en las vistas Proyecto y Función, la cantidad de horas planificadas procede de las horas planificadas en las tareas de los proyectos.
+* Las horas planificadas se distribuyen equitativamente a cada día dentro de la Duración de las tareas, para cada recurso asignado a ellas. La duración de la tarea se basa en las fechas de inicio y de finalización planificadas para la tarea e incluye todos los días del calendario dentro de ese período de tiempo.\
   Workfront tiene en cuenta la programación del usuario o del proyecto al distribuir las horas planificadas a usuarios o proyectos. En este caso, las horas planificadas se distribuyen equitativamente a cada día dentro de la Duración de las tareas, excluyendo los fines de semana, los días libres y las excepciones de programación.\
-  Si muestra el Planificador de recursos por semana, por ejemplo, y tiene tareas que abarcan varias semanas en proyectos, el número de horas planificadas por semana depende de cuántos días de esa semana formen parte de la duración de la tarea. Esto funciona de manera similar cuando se muestra el Planificador de recursos por mes o trimestre y cuando las tareas abarcan varios meses o trimestres.\
-  Se excluyen de esta distribución los días de fin de semana, las excepciones de horario y los días libres.
+  Si ve el Planificador de recursos por semana, por ejemplo, y tiene tareas que abarcan varias semanas en proyectos, el número de horas planificadas por semana dependerá de cuántos días de esa semana formen parte de la duración de la tarea. Esto funciona de manera similar cuando se ve el Planificador de recursos por mes o trimestre y cuando las tareas abarcan varios meses o trimestres.\
+  De esta distribución se excluyen los días de fin de semana, las excepciones de programación y los días libres.
 * Las siguientes categorías de tareas se incluyen en el cálculo de las horas planificadas para cada recurso:
 
-   * tareas asignadas a usuarios en conjuntos de recursos, roles o equipos en el proyecto\
-     Si las tareas se asignan a equipos, su asignación aparecerá en las secciones **Sin rol** y **Sin usuario**. Puede ver las horas planificadas asociadas con los equipos, pero no puede presupuestarlas, ya que no hay roles ni usuarios asociados a las tareas.
+   * tareas asignadas a usuarios en conjuntos de recursos, funciones o equipos en el proyecto\
+     Si las tareas se asignan a equipos, su asignación aparecerá en las secciones **Sin función** y **Sin usuario**. Puede ver las horas planificadas asociadas con los equipos, pero no puede presupuestarlas, ya que no hay funciones ni usuarios asociados a las tareas.
 
    * tareas sin asignar
 
@@ -202,45 +202,47 @@ Tenga en cuenta lo siguiente al ver las horas planificadas:
   </tr> 
   <tr> 
    <td>Proyecto</td> 
-   <td> <p>Una entrada manual para estimar cuántas horas, ETC o Coste ha presupuestado para un proyecto, para un intervalo de tiempo seleccionado. </p> <p>En la vista Proyecto, las horas presupuestadas para el proyecto se distribuyen entre las funciones del puesto enumeradas en el proyecto. La cantidad de horas planificadas para cada rol determina cómo se distribuyen las horas presupuestadas a los roles. Las horas presupuestadas se distribuyen a los roles con valores de horas planificadas más altos. </p> <p>En la vista Rol, las horas presupuestadas para el proyecto no se distribuyen entre los roles ni entre los usuarios del proyecto. </p> </td> 
+   <td> <p>Una entrada manual para estimar cuántas horas, FTE o Coste ha presupuestado para un proyecto, para un lapso de tiempo seleccionado. </p> <p>En la vista Proyecto, las horas presupuestadas para el proyecto se distribuyen entre las funciones enumeradas en el proyecto. La cantidad de horas planificadas para cada función determina cómo se distribuyen las horas presupuestadas a las funciones. Las horas presupuestadas se distribuyen a las funciones con valores de horas planificadas más altos. </p> <p>En la vista Función, las horas presupuestadas para el proyecto no se distribuyen entre las funciones ni entre los usuarios del proyecto. </p> </td> 
   </tr> 
   <tr> 
    <td>Función</td> 
-   <td> <p>Una entrada manual para estimar cuántas horas ha presupuestado para un rol, para un lapso de tiempo seleccionado. </p> <p>Si no hay ningún usuario asociado a la función de trabajo, no puede calcular las horas presupuestadas para la función de trabajo. </p> <p>En la vista Rol, las horas presupuestadas para el rol se distribuyen a los proyectos enumerados en el rol. La cantidad de horas planificadas para cada proyecto determina cómo se distribuyen las horas presupuestadas a los proyectos. Las horas presupuestadas se distribuyen a los proyectos con valores de horas planificadas más altos.</p> <p>En la vista Proyecto, las horas presupuestadas para el rol no se distribuyen entre los proyectos ni entre los usuarios asociados al rol. </p> </td> 
+   <td> <p>Una entrada manual para estimar cuántas horas ha presupuestado para una función, para un lapso de tiempo seleccionado. </p> <p>Si no hay ningún usuario asociado a la función, no puede calcular las horas presupuestadas para la función de trabajo. </p> <p>En la vista Función, las horas presupuestadas para la función se distribuyen a los proyectos enumerados en la función. La cantidad de horas planificadas para cada proyecto determina cómo se distribuyen las horas presupuestadas a los proyectos. Las horas presupuestadas se distribuyen a los proyectos con valores de horas planificadas más altos.</p> <p>En la vista Proyecto, las horas presupuestadas para la función no se distribuyen entre los proyectos ni entre los usuarios asociados a la función. </p> </td> 
   </tr> 
   <tr> 
    <td>Usuario</td> 
-   <td> <p>Una entrada manual para estimar cuántas horas ha presupuestado para un usuario durante un intervalo de tiempo seleccionado. </p> <p> <p><b>NOTA</b>   Puede calcular las horas presupuestadas de los usuarios que no están asignados a tareas, pero que están asociados a un conjunto de recursos en un proyecto, porque estos usuarios también aparecen en el Planificador de recursos. Sin embargo, las horas planificadas deben ser cero si no están asignadas a ninguna tarea. </p> </p> </td> 
+   <td> <p>Una entrada manual para estimar cuántas horas ha presupuestado para un usuario durante un lapso de tiempo seleccionado. </p> <p> <p><b>NOTA</b>   Puede calcular las horas presupuestadas de los usuarios que no están asignados a tareas, pero que están asociadas a un conjunto de recursos en un proyecto, porque estos usuarios también aparecen en el Planificador de recursos. Sin embargo, las Horas planificadas deben ser cero si no están asignadas a ninguna tarea. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Tenga en cuenta lo siguiente al trabajar con horas presupuestadas:
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
+Tenga en cuenta lo siguiente al trabajar con Horas presupuestadas:
 
 * Solo puede presupuestar recursos cuando tiene acceso de edición a los permisos de administración de recursos y datos financieros y administración de finanzas en los proyectos.
 
   Para obtener información sobre el acceso necesario para los recursos de presupuesto, consulte el artículo [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * De manera predeterminada, las horas presupuestadas en el Planificador de recursos son cero para todos los recursos y para todos los proyectos.
-* Puede calcular manualmente las horas presupuestadas de los usuarios y los roles, o puede usar uno de los vínculos en los menús del proyecto o del rol **Más** para actualizarlos de acuerdo con el número de horas planificadas.\
-  Para obtener más información acerca de las opciones de proyecto y rol, vea la sección [Información general sobre horas, ETC e información de costos en las vistas Proyecto y Rol del Planificador de recursos](#Budget) en este artículo.
+* Puede calcular manualmente las horas presupuestadas de los usuarios y las funciones, o puede usar uno de los vínculos en los menús **Más** de Proyecto o Función para actualizarlos de acuerdo con el número de Horas planificadas.\
+  Para obtener más información acerca de las opciones de proyecto y función, consulte la sección [Información general sobre horas, FTE e información de coste en las vistas Proyecto y Función del Planificador de recursos](#Budget) en este artículo.
 
-* El período de tiempo más pequeño para el que puede presupuestar horas, FTE o Costo es una semana. No puede presupuestar horas, ETC ni costos para un día.
-* Las horas presupuestadas se distribuyen equitativamente a cada día dentro de la Duración de las tareas, para cada recurso asignado a ellas. La duración de la tarea se basa en las fechas de inicio y finalización planificadas de la tarea e incluye todos los días del calendario dentro de ese período de tiempo.\
-  Workfront tiene en cuenta la programación del usuario o del proyecto al distribuir las horas presupuestadas a usuarios o proyectos. En este caso, las horas presupuestadas se distribuyen equitativamente a cada día dentro de la Duración de las tareas, excluyendo los fines de semana, pero incluyendo las excepciones de tiempo libre y de programación.\
-  Si muestra el Planificador de recursos por semana, por ejemplo, y tiene tareas que abarcan varias semanas, el número de horas presupuestadas por semana depende de cuántos días dentro de esa semana formen parte de la duración de la tarea. Los días de fin de semana se excluyen de esta distribución. Esto funciona de manera similar cuando se muestra el Planificador de recursos por mes o trimestre y cuando las tareas abarcan varios meses o trimestres.
+* El período de tiempo más pequeño para el que puede presupuestar horas, FTE o Coste es una semana. No puede presupuestar horas, FTE ni coste para un día.
+* Las horas presupuestadas se distribuyen equitativamente a cada día dentro de la Duración de las tareas, para cada recurso asignado a ellas. La duración de la tarea se basa en las fechas de inicio y de finalización planificadas para la tarea e incluye todos los días del calendario dentro de ese período de tiempo.
 
-* Puede crear informes sobre las horas presupuestadas seleccionando Hora presupuestada como objeto de informe para un nuevo informe.\
-  Para obtener información sobre los objetos de los que puede informar en Workfront, consulte la sección &quot;Informar sobre objetos&quot; en el artículo [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-  Para obtener información sobre cómo generar un informe de horas presupuestadas, consulte el artículo [Informe: Horas presupuestadas](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+  Workfront tiene en cuenta la programación del usuario o del proyecto al distribuir las horas presupuestadas a usuarios o proyectos. En este caso, las horas presupuestadas se distribuyen equitativamente a cada día dentro de la Duración de las tareas, excluyendo los fines de semana, pero incluyendo las excepciones de tiempo libre y de programación.
+
+  Si muestra el Planificador de recursos por semana, por ejemplo, y tiene tareas que abarcan varias semanas, el número de horas presupuestadas por semana depende de cuántos días dentro de esa semana formen parte de la Duración de la tarea. Los días de fin de semana se excluyen de esta distribución. Esto funciona de manera similar cuando se ve el Planificador de recursos por mes o trimestre y cuando las tareas abarcan varios meses o trimestres.
+
+* Puede crear informes sobre las horas presupuestadas seleccionando Hora presupuestada como objeto de informe para un nuevo informe.
+
+  Para obtener información sobre los objetos de los que puede informar en Workfront, consulte la sección &quot;Informar sobre objetos&quot; en el artículo [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
+  Para obtener información sobre cómo generar un informe de Horas presupuestadas, consulte el artículo [Informe: Horas presupuestadas](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * No se muestran las horas presupuestadas anteriormente para usuarios que fueron desactivados posteriormente.
+
+  Tenga en cuenta que el costo de mano de obra presupuestado de un proyecto aún incluye las horas presupuestadas de los usuarios que se desactivaron en el Planificador de recursos.
+
+  Por ejemplo: si se asigna una función a dos usuarios y se agregan horas presupuestadas (20 horas por usuario, que totalizan 40 horas), y luego el total se establece manualmente para la función, la desactivación de uno de los usuarios en el Planificador de recursos hace que sus horas ya no se consideren en el cálculo (con lo que el total se reduce a 20 horas). Sin embargo, la presupuestación del proyecto conserva correctamente el total establecido manualmente para el rol, por lo que las horas del usuario desactivado se siguen incluyendo en el cálculo (quedan 40 horas).
 
 ### La columna VAR (Varianza) {#the-var-variance-column}
 
@@ -254,22 +256,22 @@ Tenga en cuenta lo siguiente al trabajar con horas presupuestadas:
   </tr> 
   <tr> 
    <td>Proyecto</td> 
-   <td> <p>La desviación de hora, ETC o costo muestra si tiene suficientes horas presupuestadas para que el proyecto cumpla todas las horas planificadas para el proyecto. </p> <p>La desviación de costo, la hora o el valor de ETC del proyecto se calcula mediante la fórmula siguiente:</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>La variación de hora, ETC o coste muestra si se tienen suficientes horas presupuestadas para que el proyecto cumpla con todas las horas planificadas. </p> <p>La variación de hora, ETC o coste del proyecto se calcula mediante la fórmula siguiente:</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
    <td>Función</td> 
-   <td> <p>La desviación de hora, ETC o Coste muestra si tiene suficientes horas presupuestadas, ETC o Coste para que el rol lleve a cabo las horas planificadas asignadas a él. </p> <p>La desviación de costo, la hora de rol o el valor de ETC se calcula mediante la fórmula siguiente:</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>La variación de hora, ETC o coste muestra si se tienen suficientes horas, ETC o coste presupuestados para que la función lleve a cabo las horas planificadas asignadas. </p> <p>La variación de hora, ETC o coste de la función se calcula con la fórmula siguiente:</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
    <td>Usuario</td> 
-   <td> <p>Las horas, los valores de ETC o la desviación de costo muestran si tiene suficientes horas presupuestadas para que el usuario cumpla las horas planificadas que se le han asignado. </p> <p>Las horas de usuario, los ETC o la desviación de coste se calculan mediante la fórmula siguiente:</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>La variación de hora, ETC o coste muestra si se tienen suficientes horas presupuestadas para que el usuario cumpla con las horas planificadas asignadas. </p> <p>La variación de hora, ETC o coste del usuario se calcula con la fórmula siguiente:</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Cuando se muestra en rojo el valor de Horas, ETC o Desviación de costo, se han estimado menos horas presupuestadas que las horas planificadas del trabajo real que se debe completar. En este caso, las horas presupuestadas podrían no ser suficientes para completar el trabajo.
+>Cuando se muestre en rojo el valor de la variación de hora, ETC o coste, se habrán estimado menos horas presupuestadas que las horas planificadas del trabajo real que se debe completar. En este caso, las horas presupuestadas podrían no ser suficientes para completar el trabajo.
 
 ### La columna NET  {#the-net-column}
 
@@ -285,14 +287,14 @@ Tenga en cuenta lo siguiente al trabajar con horas presupuestadas:
    <td>Proyecto</td> 
    <td> 
     <div> 
-     <p>Las horas netas, los jornadas completas o los costos del proyecto pueden mostrar una de las siguientes opciones: </p> 
+     <p>Las horas, ETC o coste neto del proyecto mostrarán una de las siguientes opciones: </p> 
      <ul> 
-      <li> <p>Diferencia entre el tiempo o costo disponible y el tiempo o costo presupuestado del proyecto:</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p>Diferencia entre el Tiempo o costo disponible y el Tiempo o costo planificado para el proyecto, cuando la opción Usar valores planificados (PLN) en la configuración Cálculos netos está habilitada: </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
+      <li> <p>Diferencia entre el coste o tiempo disponible y el coste o tiempo presupuestado del proyecto:</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p>Diferencia entre el coste o tiempo disponible y el coste o tiempo planificado del proyecto, cuando la opción Usar valores planificados (PLN) de la configuración Cálculos netos esté habilitada: </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
       </p>
 
-<p><b>SUGERENCIA</b></p>        
-  <p>Esta opción sólo se aplica cuando se personaliza la vista en la sección Mostrar los elementos seleccionados.</p>
+<p><b>Sugerencia</b></p>        
+  <p>Esta opción solo se aplicará cuando se personalice la vista de la sección Mostrar los elementos seleccionados.</p>
   <p>Para obtener más información, consulte <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront</a> </p> 
       </li> 
      </ul> 
@@ -302,12 +304,12 @@ Tenga en cuenta lo siguiente al trabajar con horas presupuestadas:
    <td>Función</td> 
    <td> 
     <div> 
-     <p>La función Horas netas, ETC o Coste puede mostrar una de las siguientes opciones: </p> 
+     <p>Las horas netas, ETC o coste de la función pueden mostrarse como una de las siguientes opciones: </p> 
      <ul> 
-      <li> <p>Diferencia entre el tiempo o coste disponible y el tiempo o coste presupuestado del rol:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>Diferencia entre el tiempo o costo disponible y el tiempo o costo planificado para el rol, cuando se habilita la configuración Usar valores planificados (PLN) en los cálculos de red:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>SUGERENCIA</b> <span>
+      <li> <p>Diferencia entre el coste o tiempo disponible y el coste o tiempo presupuestado de la función:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>Diferencia entre el coste o tiempo disponible y el coste o tiempo planificado de la función, cuando se habilite la configuración Usar valores planificados (PLN) en los cálculos de red:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>Sugerencia</b> <span>
 
-Esta opción sólo se aplica cuando personaliza la vista en la sección Mostrar los elementos seleccionados.</span> </p> <p><span>Para obtener más información, consulte </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront</a> </p> </li>
+Esta opción solo se aplicará cuando se personalice la vista de la sección Mostrar los elementos seleccionados.</span> </p> <p><span>Para obtener más información, consulte </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revisión de la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -315,12 +317,12 @@ Esta opción sólo se aplica cuando personaliza la vista en la sección Mostrar 
    <td>Usuario</td> 
    <td> 
     <div> 
-     <p>El usuario Horas netas, ETC o Coste puede mostrar una de las siguientes opciones: </p> 
+     <p>Las horas netas, ETC o coste del usuario pueden mostrarse como una de las siguientes opciones: </p> 
      <ul> 
-      <li> <p>Diferencia entre el tiempo o coste disponible y el tiempo o coste presupuestado del usuario:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>Diferencia entre el tiempo o costo disponible y el tiempo o costo planificado para el usuario, cuando los valores Usar valor planificado (PLN) en la configuración Cálculos de red están habilitados:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>SUGERENCIA</b> <span>
+      <li> <p>Diferencia entre el coste o tiempo disponible y el coste o tiempo presupuestado del usuario:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>Diferencia entre el coste o tiempo disponible y el coste o tiempo planificado del usuario, cuando se habilite Usar valores planificados (PLN) en la configuración Cálculos de red:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>Sugerencia</b> <span>
 
-Esta opción sólo se aplica cuando personaliza la vista en la sección Mostrar los elementos seleccionados.</span> </p> <p><span>Para obtener más información, consulte </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revisar la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront</a> </p> </li>
+Esta opción solo se aplicará cuando se personalice la vista de la sección Mostrar los elementos seleccionados.</span> </p> <p><span>Para obtener más información, consulte </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Revisión de la disponibilidad y asignación de recursos mediante el Planificador de recursos de Adobe Workfront</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -329,7 +331,7 @@ Esta opción sólo se aplica cuando personaliza la vista en la sección Mostrar 
 
 >[!NOTE]
 >
->Cuando el valor de Horas netas, ETC o Coste aparece en rojo, no hay suficiente tiempo disponible o presupuesto para cubrir el tiempo presupuestado o planificado o el costo asociado con el trabajo. En este caso, los recursos se sobreasignan.
+>Cuando el valor de Horas netas, ETC o Coste aparece en rojo, no hay suficiente tiempo disponible o presupuesto para cubrir el tiempo presupuestado o planificado o el costo asociado con el trabajo. En este caso, habrá una asignación excesiva de recursos.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>
