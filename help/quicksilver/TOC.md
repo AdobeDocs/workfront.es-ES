@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 6abcd9afbf57162ff1c2dc362e7979fab6d1d997
+source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
 workflow-type: tm+mt
 source-wordcount: '14673'
 ht-degree: 59%
@@ -1846,7 +1846,6 @@ ht-degree: 59%
       * [Revisión y aprobación de recursos y documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Información general sobre aprobaciones de documentos](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Información general del estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Creación de un tablero de informes para revisión y aprobaciones](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Configurar y administrar aprobaciones de recursos y documentos {#manage-asset-review-and-approval}
          * [Configuración y administración de aprobaciones de recursos y documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Crear una solicitud de revisión o aprobación de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -1855,6 +1854,7 @@ ht-degree: 59%
          * [Crear una plantilla de aprobación para recursos y documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Usar aprobaciones y revisiones de documentos nuevas conjuntamente](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Cargar una nueva versión del documento y solicitar una aprobación](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+         * [Creación de un tablero de informes para revisión y aprobaciones](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Revisar y aprobar recursos y documentos {#review-and-approve-documents}
          * [Revisar y aprobar documentos: índice de artículos](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Revisar un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

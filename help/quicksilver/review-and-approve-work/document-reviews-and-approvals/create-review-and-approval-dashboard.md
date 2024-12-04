@@ -5,12 +5,10 @@ title: Crear un panel de revisión y aprobación
 description: Puede revisar las métricas de aprobaciones en los paneles del lienzo.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
@@ -48,10 +46,9 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
 
 ### KPI
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>Los nuevos datos de aprobaciones de documentos se actualizan actualmente durante las noches en la zona horaria de las Montañas Rocosas de EE. UU. Las actualizaciones en tiempo real están planificadas y se realizarán próximamente.
 
 ![ejemplos de KPI](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
 
 ### Gráficos
 
+>[!IMPORTANT]
+>
+>Los nuevos datos de aprobaciones de documentos se actualizan actualmente durante las noches en la zona horaria de las Montañas Rocosas de EE. UU. Las actualizaciones en tiempo real están planificadas y se realizarán próximamente.
+
 ![Ejemplos de gráficos](assets/chart-dashboard.png)
 
 #### Gráfico de barras de decisión de aprobaciones
@@ -178,6 +179,10 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
 1. Haga clic en **Listo** en la esquina superior derecha de la pantalla.
 
 ## Agregar información detallada de revisión y aprobación con tablas
+
+>[!IMPORTANT]
+>
+>Los nuevos datos de aprobaciones de documentos se actualizan actualmente durante las noches en la zona horaria de las Montañas Rocosas de EE. UU. Las actualizaciones en tiempo real están planificadas y se realizarán próximamente.
 
 ![ejemplo de tabla](assets/table-dashboard.png)
 
