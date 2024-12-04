@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -77,7 +77,7 @@ Hemos introducido un mensaje de advertencia al editar o crear un campo de fórmu
 
 Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
-## Agregar páginas de Vista conectada a la página de un registro para mostrar los registros conectados en una vista de tabla
+## Agregar páginas de vista Conexión a la página de un registro para mostrar los registros conectados en una vista de tabla
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ Cuando se abre la vista previa o la página de un registro y éste no tiene una 
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Añadir una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Añadir una imagen en miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Nuevos tipos de visualización para campos de tipo porcentual en la vista de tabla
@@ -193,7 +193,7 @@ Para obtener más información, consulte los siguientes artículos:
 Para facilitar la lectura de los números en la vista de tabla, ahora puede seleccionar entre las siguientes opciones para cambiar el modo en que se muestra un campo de tipo Porcentaje en la vista de tabla:
 
 * Número
-* Barra
+* Barras
 * Círculo
 
 Este tipo de visualización solo es compatible con la vista de tabla.

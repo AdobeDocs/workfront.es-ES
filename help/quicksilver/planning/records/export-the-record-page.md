@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 31%
 
 ---
 
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -63,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -74,13 +74,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Ver permisos superiores a un espacio de trabajo</a> </p>  
+   <td>   <p>Permisos de vista o superiores a un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
 <tr> 
@@ -101,7 +101,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * .docx Word
    * .pdf
 
-* Puede exportar la pestaña Detalles de la página de un registro.
+* Sólo se puede exportar la ficha Detalles de la página o del área de vista previa de un registro.
 
 * El archivo exportado conserva el diseño de la página de registro, incluidas las miniaturas y las imágenes de la portada.
 

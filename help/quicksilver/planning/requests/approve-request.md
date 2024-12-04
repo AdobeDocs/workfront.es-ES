@@ -3,10 +3,10 @@ title: Aprobar una solicitud
 description: Cuando un usuario envía una solicitud a un formulario de solicitud asociado a una aprobación en Adobe Workfront Planning, los aprobadores reciben una notificación y un correo electrónico sobre la aprobación pendiente. Deben aprobar la solicitud antes de que Workfront Planning cree un objeto.
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 1%
+source-wordcount: '798'
+ht-degree: 16%
 
 ---
 
@@ -58,7 +58,7 @@ Las solicitudes enviadas se muestran en la pestaña Planificación de la secció
 * **Aprobado**: Cuando un aprobador aprueba el objeto de solicitud, su estado individual pasa a ser
 * **Aprobado**, pero el estado general del objeto de solicitud permanece **En revisión** hasta que todos los aprobadores hayan tomado sus decisiones.
 * **Completada**: si todos los aprobadores aprueban el objeto de solicitud, su estado cambia a **Completada** o si la solicitud no necesita aprobación.
-* **Rechazado**: Si algún aprobador rechaza el objeto de solicitud, el estado pasa a ser **Rechazado**.
+* **Rechazado**: Si algún aprobador rechaza el objeto de solicitud, el estado pasa a ser **Rechazado**. No se crea ningún registro y se debe enviar una nueva solicitud para crear el registro.
 
 ## Requisitos de acceso
 
@@ -81,7 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera de los siguientes planes de Workfront:</p>
 <ul><li>Seleccionar</li>
@@ -100,7 +100,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p>
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
   </tr>
   </tr>
@@ -112,7 +112,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td>
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -123,7 +123,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p>Administración de permisos en un espacio de trabajo</p></li>
     <li><p>Los administradores del sistema pueden administrar los espacios de trabajo que no hayan creado. </p></li>
     </ul>
-   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte  
+   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte 
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Información general sobre los permisos de uso compartido en Adobe Workfront Planning</a> 
   </td>
   </tr>

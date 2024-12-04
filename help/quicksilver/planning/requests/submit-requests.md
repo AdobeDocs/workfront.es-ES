@@ -1,18 +1,17 @@
 ---
 title: Envío de solicitudes de Adobe Workfront Planning
-description: Una vez que alguien comparta un vínculo a un formulario de solicitud con usted desde una página de tipo de registro en Adobe Workfront Planning, puede agregar una solicitud para crear registros para el tipo de registro asociado al formulario de solicitud.
+description: Una vez que alguien comparta un vínculo a un formulario de solicitud con usted desde una página de tipo de registro en Adobe Workfront Planning, puede añadir una solicitud para crear registros para el tipo de registro asociado al formulario de solicitud.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
-
 
 # Envío de solicitudes de Adobe Workfront Planning para crear registros
 
@@ -24,7 +23,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Una vez que alguien comparta un vínculo a un formulario de solicitud con usted desde una página de tipo de registro en Adobe Workfront Planning, puede agregar una solicitud para crear registros para el tipo de registro asociado al formulario de solicitud.
+Una vez que alguien comparta un vínculo a un formulario de solicitud con usted desde una página de tipo de registro en Adobe Workfront Planning, puede añadir una solicitud para crear registros para el tipo de registro asociado al formulario de solicitud.
 
 Los usuarios de Workfront y los usuarios externos pueden enviar solicitudes a los tipos de registros de Planning y crear registros. <!--double check on the external users-->
 
@@ -53,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera de los siguientes planes de Workfront:</p>
 <ul><li>Seleccionar</li>
@@ -70,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p>
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
 
 </tr>
@@ -83,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td>
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -115,7 +114,7 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
    * Un espacio de trabajo
    * Un tipo de registro asociado a un formulario de solicitud. Para obtener más información, consulte [Crear un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-* El formulario de solicitud debe compartirse con un vínculo para que pueda acceder a él. Existen los siguientes escenarios:
+* El formulario de solicitud debe compartirse con un vínculo para que pueda acceder a él. Se dan los siguientes escenarios:
 
    * Si tiene una cuenta de Workfront, el vínculo se ha compartido únicamente con personas internas y tendrá acceso de contribución o superior al espacio de trabajo. Las personas fuera de Workfront no pueden acceder a un vínculo compartido internamente.
    * Si no tiene una cuenta de Workfront, el vínculo se ha compartido con personas externas. Los usuarios de Workfront también pueden acceder a un vínculo compartido con personas externas.
