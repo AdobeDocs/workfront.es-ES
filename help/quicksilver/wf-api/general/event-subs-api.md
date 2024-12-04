@@ -1,21 +1,21 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: API de suscripción de evento
-description: API de suscripción de evento
+title: API de suscripción a eventos
+description: API de suscripción a eventos
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: be5c1dcba32efd95ae484c015b66977398f4b762
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 3%
+source-wordcount: '2173'
+ht-degree: 98%
 
 ---
 
 
-# API de suscripción de evento
+# API de suscripción a eventos
 
 <!--BOB clean this up-->
 
@@ -23,31 +23,31 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-Cuando se produce una acción en un objeto Adobe Workfront compatible con las suscripciones de evento, puede configurar Workfront para que envíe una respuesta al extremo deseado. Esto significa que las aplicaciones de terceros pueden recibir actualizaciones de las interacciones de Workfront a través de la API de Workfront poco después de que se produzcan. En general, puede esperar recibir notificaciones de ganchos web en menos de 5 segundos desde que se registró el cambio de datos. De media, los clientes reciben notificaciones de ganchos web en menos de 1 segundo desde que se registra el cambio de datos.  
+Cuando se produce una acción en un objeto de Adobe Workfront compatible con las suscripciones a eventos, puede configurar Workfront para que envíe una respuesta al punto final deseado. Esto significa que las aplicaciones de terceros pueden recibir actualizaciones de las interacciones de Workfront a través de la API de Workfront poco después de que se produzcan. En general, puede esperar recibir notificaciones de webhook en menos de 5 segundos desde que se registra el cambio de datos. De media, los clientes reciben notificaciones de webhook en menos de un segundo desde que se registra el cambio de datos.  
 
-Para recibir cargas útiles de suscripciones de eventos a través del cortafuegos, debe añadir las siguientes direcciones IP a la lista de permitidos:
+Para recibir cargas útiles de suscripciones a eventos a través del cortafuegos, debe añadir las siguientes direcciones IP a la lista de permitidos:
 
 **Para clientes de Europa:**
 
 * 52.30.133.50
-* 52 208 159 124
-* 54 220 93 204
+* 52.208.159.124
+* 54.220.93.204
 * 52.17.130.201
-* 34 254 76 122
-* 34 252 250 191
+* 34.254.76.122
+* 34.252.250.191
 
 **Para clientes que no se encuentran en Europa:**
 
-* 54 244 142 219
-* 44 241 82 96
-* 52 36 154 34
+* 54.244.142.219
+* 44.241.82.96
+* 52.36.154.34
 * 34.211.224.9
-* 54 218 48 56
+* 54.218.48.56
 * 52.39.217.230
 
-Los siguientes temas admiten la API de suscripción a evento:
+Los siguientes temas admiten la API de suscripción a eventos:
 
-## Objetos admitidos por suscripciones a eventos
+## Objetos admitidos por las suscripciones a eventos
 
 Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 
@@ -61,39 +61,39 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 * Problema
 * Nota
 * Portafolio
-* Programar
+* Programa
 * Proyecto
 * Registro
 * Tipo de registro
 * Informe
 * Tarea
 * Plantilla
-* Hoja de horas
+* Plantilla de horas
 * Usuario
 * Espacio de trabajo
 
-Para obtener una lista de los campos admitidos por los objetos de suscripción de evento, consulte [Campos de recursos de suscripción de evento](../../wf-api/api/event-sub-resource-fields.md).
+Para obtener una lista de los campos admitidos por los objetos de suscripción a eventos, consulte [Campos de recurso de suscripción a eventos](../../wf-api/api/event-sub-resource-fields.md).
 
-## Autenticación de suscripción de evento
+## Autenticación de la suscripción a eventos
 
-Para crear, consultar o eliminar una suscripción de evento, el usuario de Workfront necesita lo siguiente:
+Para crear, consultar o eliminar una suscripción a eventos, el usuario de Workfront necesita lo siguiente:
 
-* Se requiere un nivel de acceso de &quot;Administrador del sistema&quot; para utilizar Suscripciones de eventos.
+* Se requiere un nivel de acceso de “Administrador del sistema” para utilizar las suscripciones a eventos.
 * Se requiere un encabezado `sessionID` para usar la API de suscripciones a eventos
 
   Para obtener más información, consulte [Autenticación](api-basics.md#authentication) en [Conceptos básicos de la API](api-basics.md).
 
 ## Formación del recurso de suscripción
 
-El recurso de suscripción contiene los campos siguientes.
+El recurso de suscripción contiene los campos siguientes:
 
 * objId (opcional)
 
-   * **Cadena**: Id. del objeto del objCode especificado para el que se activan los eventos. Si no se especifica este campo, el usuario recibe eventos para todos los objetos del tipo especificado.
+   * **Cadena**: ID del objeto del objCode especificado para el que se activan los eventos. Si no se especifica este campo, el usuario recibe eventos para todos los objetos del tipo especificado.
 
 * objCode (obligatorio)
 
-   * **Cadena**: objCode del objeto al que se está suscribiendo. Los valores posibles de objCode se enumeran en la tabla siguiente.
+   * **Cadena**: objCode del objeto al que se está suscribiendo a cambios. Los valores posibles de objCode se enumeran en la tabla siguiente.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -107,10 +107,10 @@ El recurso de suscripción contiene los campos siguientes.
       <tbody> 
        <tr> 
         <td scope="col">Asignación</td> 
-        <td scope="col"><p>ASIGNAR</p></td> 
+        <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Compañía </td> 
+        <td scope="col">Compañía</td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -127,7 +127,7 @@ El recurso de suscripción contiene los campos siguientes.
        </tr> 
        <tr> 
         <td scope="col"><p>Campo</p></td> 
-        <td scope="col"><p>CAMPO</p></td> 
+        <td scope="col"><p>FIELD</p></td> 
        </tr> 
       <tr> 
         <td scope="col"><p>Hora</p></td> 
@@ -143,19 +143,19 @@ El recurso de suscripción contiene los campos siguientes.
        </tr> 
        <tr> 
         <td scope="col"><p>Portafolio</p></td> 
-        <td scope="col"><p>PUERTO</p></td> 
+        <td scope="col"><p>PORT</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Programar</p></td> 
+        <td scope="col"><p>Programa</p></td> 
         <td scope="col"><p>PRGM</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Proyecto</p></td> 
-        <td scope="col"><p>PROYECTO</p></td> 
+        <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Registro</p></td> 
-        <td scope="col"><p>REGISTRO</p></td> 
+        <td scope="col"><p>RECORD</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Tipo de registro</p></td> 
@@ -167,19 +167,19 @@ El recurso de suscripción contiene los campos siguientes.
        </tr> 
        <tr> 
         <td scope="col"><p>Tarea</p></td> 
-        <td scope="col"><p>TAREA</p></td> 
+        <td scope="col"><p>TASK</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Plantilla</p></td> 
         <td scope="col"><p>TMPL</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Hoja de horas</td> 
-        <td scope="col">HOJA TSHET</td> 
+        <td scope="col">Plantilla de horas</td> 
+        <td scope="col">TSHET</td> 
        </tr> 
        <tr> 
         <td scope="col">Usuario</td> 
-        <td scope="col">USUARIO</td> 
+        <td scope="col">USER</td> 
        </tr> 
        <tr> 
         <td scope="col">Espacio de trabajo</td> 
@@ -190,23 +190,23 @@ El recurso de suscripción contiene los campos siguientes.
 
 * eventType (obligatorio)
 
-   * **Cadena**: Valor que representa el tipo de evento al que está suscrito el objeto. Los tipos de eventos disponibles incluyen:
+   * **Cadena**: valor que representa el tipo de evento al que está suscrito el objeto. Los tipos de eventos disponibles incluyen:
 
-      * CREAR
-      * DELETE 
-      * ACTUALIZACIÓN
+      * CREATE
+      * DELETE
+      * UPDATE
 
 * url (obligatorio)
 
-   * **Cadena**: Dirección URL del extremo al que se envían las cargas útiles de evento de suscripción a través de HTTP.
+   * **Cadena**: dirección URL del punto final al que se envían las cargas útiles de evento de suscripción a través de HTTP.
 
 * authToken (obligatorio)
 
-   * **Cadena**: El token de portador de OAuth2 utilizado para autenticarse con la dirección URL especificada en el campo &quot;URL&quot;. 
+   * **Cadena**: el token de portador de OAuth2 que se utiliza para la autenticación con la dirección URL especificada en el campo &quot;URL&quot;. 
 
-## Creación de solicitudes de API de suscripción de evento
+## Creación de solicitudes de API de suscripción a eventos
 
-Después de asegurarse de que el usuario tiene acceso de administrador y de formar el recurso de suscripción, está listo para crear suscripciones de evento.
+Después de asegurarse de que el usuario tiene acceso de administrador y de formar el recurso de suscripción, está listo para crear suscripciones a eventos.
 
 Utilice la siguiente sintaxis para construir la dirección URL.
 
@@ -217,7 +217,7 @@ Utilice la siguiente sintaxis para construir la dirección URL.
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Encabezados de solicitud:**
+**Encabezados de la solicitud:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -235,7 +235,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
   </tr> 
   <tr> 
    <td> <p>sessionID</p> </td> 
-   <td> <p>valor sessionID</p> </td> 
+   <td> <p>sessionID value</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -257,14 +257,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201 (Creado) | La suscripción al evento se ha creado correctamente. |
 | 400 (Solicitud incorrecta) | El campo URL del recurso de suscripción se ha considerado no válido. |
-| 401 (No autorizado) | El ID de sesión proporcionado estaba vacío o se consideró no válido. |
+| 401 (No autorizado) | El sessionID proporcionado estaba vacío o se consideró no válido. |
 | 403 (Prohibido) | El usuario que coincide con el sessionID proporcionado no tiene acceso de administrador. |
 
-Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo de contenido &quot;application/json&quot;), se crea una suscripción de evento para el objeto especificado. Un código de respuesta 201 (Created) indica que se creó la suscripción. Un código de respuesta distinto de 201 significa que se creó la suscripción **NOT**.
+Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo de contenido &quot;application/json&quot;), se crea una suscripción de evento para el objeto especificado. Un código de respuesta 201 (Creado) indica que se creó la suscripción. Un código de respuesta distinto de 201 significa que la suscripción **NO** se ha creado.
 
 >[!NOTE]
 >
-> El encabezado de respuesta &quot;Ubicación&quot; contiene el URI de la suscripción de evento recién creada.
+>El encabezado de respuesta &quot;Ubicación&quot; contiene el URI de la suscripción al evento recién creada.
 
 **Ejemplo de encabezados de respuesta:**
 
@@ -277,16 +277,16 @@ Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo 
 
 ## Consulta de suscripciones a eventos
 
-Al consultar el código HTTP de Workfront, utilice el método de GET. Existen dos formas de consultar suscripciones a eventos: consultar por ID de suscripción (consulte a continuación) o consultar todas las suscripciones a eventos.
+Al consultar el código HTTP de Workfront, utilice el método GET. Existen dos formas de consultar suscripciones a eventos: consultar por el ID de suscripción (véase más abajo) o consultar todas las suscripciones a eventos.
 
 ### Consultar todas las suscripciones a eventos
 
-Puede consultar todas las suscripciones de eventos de un cliente o utilizar lo siguiente para administrar la respuesta. También puede utilizar las siguientes opciones para administrar la respuesta:
+Puede consultar todas las suscripciones a eventos de un cliente o utilizar lo siguiente para administrar la respuesta. También puede utilizar las siguientes opciones para administrar la respuesta:
 
-* **página**: opción de parámetro de consulta para especificar el número de páginas que se van a devolver. El valor predeterminado es 1.
+* **page**: opción de parámetro de consulta para especificar el número de páginas que se van a devolver. El valor predeterminado es 1.
 * **limit**: opción de parámetro de consulta para especificar el número de resultados que se devolverán por página. El valor predeterminado es 100, con un máximo de 1000.
 
-La sintaxis de solicitud para enumerar todas las suscripciones de evento de un cliente específico es la siguiente:
+La sintaxis de solicitud para enumerar todas las suscripciones a eventos de un cliente específico es la siguiente:
 
 **URL de solicitud:**
 
@@ -296,7 +296,7 @@ La sintaxis de solicitud para enumerar todas las suscripciones de evento de un c
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Encabezados de solicitud:**
+**Encabezados de la solicitud:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -310,7 +310,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  <tbody> 
   <tr> 
    <td> <p>sessionID</p> </td> 
-   <td> <p>valor sessionID</p> </td> 
+   <td> <p>sessionID value</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,8 +319,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Código de respuesta | Descripción |
 |---|---|
-| 200 (OK) | Se ha devuelto la solicitud con todas las suscripciones de evento encontradas para el cliente que coinciden con el ID de sesión proporcionado. |
-| 401 (No autorizado) | El ID de sesión proporcionado estaba vacío. |
+| 200 (OK) | Se ha devuelto la solicitud con todas las suscripciones a eventos encontradas para el cliente que coinciden con el sessionID proporcionado. |
+| 401 (No autorizado) | El sessionID proporcionado estaba vacío. |
 | 403 (Prohibido) | El usuario, que coincide con el sessionID proporcionado, no tiene acceso de administrador. |
 
 
@@ -364,9 +364,9 @@ Donde
 * **page_count** es el número total de páginas que se pueden consultar.
 * **total_count** es el número total de suscripciones que coinciden con la consulta.
 
-### Consulta por ID de suscripción de evento
+### Consulta por el ID de suscripción de eventos
 
-Puede consultar suscripciones a eventos por el ID de suscripción a eventos. La sintaxis de solicitud para enumerar suscripciones de eventos es la siguiente:
+Puede consultar suscripciones de eventos por el ID de suscripción de eventos. La sintaxis de solicitud para enumerar suscripciones de eventos es la siguiente:
 
 **URL de solicitud:**
 
@@ -376,7 +376,7 @@ Puede consultar suscripciones a eventos por el ID de suscripción a eventos. La 
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Encabezados de solicitud:**
+**Encabezados de la solicitud:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -390,7 +390,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  <tbody> 
   <tr> 
    <td> <p>sessionID</p> </td> 
-   <td> <p>valor sessionID</p> </td> 
+   <td> <p>sessionID value</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -399,8 +399,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 | Código de respuesta | Descripción |
 |---|---|
-| 200 (OK) | La solicitud devuelta con la suscripción de evento que coincide con el ID de suscripción proporcionado. |
-| 401 (No autorizado) | El ID de sesión proporcionado estaba vacío. |
+| 200 (OK) | La solicitud devuelta con la suscripción al evento que coincide con el ID de suscripción proporcionado. |
+| 401 (No autorizado) | El sessionID proporcionado estaba vacío. |
 | 403 (Prohibido) | El usuario, que coincide con el sessionID proporcionado, no tiene acceso de administrador. |
 
 
@@ -430,25 +430,25 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-## Filtrado de suscripción de eventos
+## Filtrado de suscripción a eventos
 
-El filtrado de suscripción de eventos se puede utilizar para garantizar que solo recibe mensajes relevantes. La creación de filtros para sus suscripciones puede disminuir significativamente la cantidad de mensajes que debe consumir su punto final.
+El filtrado de suscripción a eventos se puede utilizar para garantizar que solo recibe mensajes relevantes. La creación de filtros para sus suscripciones puede disminuir significativamente la cantidad de mensajes que debe consumir su punto final.
 
-Por ejemplo, una suscripción de evento **UPDATE - TASK** solo se puede establecer en déclencheur cuando el **nuevoEstado** de una carga útil de evento define **taskStatus** como **actual**.
+Por ejemplo, una suscripción al evento **UPDATE - TASK** solo se puede establecer para que se active solamente cuando el **newState** de una carga útil de evento define **taskStatus** como **actual**.
 
 >[!IMPORTANT]
 >
->Los atributos siguientes se aplican al filtrado de suscripción de evento
+>Los siguientes atributos se aplican al filtrado de suscripción de eventos
 
-* Cuando un campo de filtro tiene un valor no vacío, solo se envían mensajes con un **newState** que contiene las claves de filtro y los valores a la dirección URL suscrita
-* Puede filtrar por datos personalizados incluidos en **newState** Y/O **oldState** del objeto
-* Los filtros se evalúan únicamente en función de si son o no iguales a un valor específico
+* Cuando un campo de filtro tiene un valor que no está vacío, solo se envían mensajes con un **newState** que contiene las claves de filtro y los valores a la dirección URL suscrita
+* Puede filtrar por los datos personalizados incluidos en **newState** AND/OR **oldState** del objeto
+* Los filtros se evalúan únicamente en función de si equivalen o no a un valor específico
 * Si la sintaxis del filtro es incorrecta o no coincide con ningún dato contenido en **newState** de la carga útil, no se devolverá un mensaje de validación para indicar que se ha producido un error
 * Los filtros no se pueden actualizar en una suscripción que exista actualmente; se debe crear una nueva suscripción con nuevos parámetros de filtro.
 * Se pueden aplicar varios filtros a una sola suscripción y esta solo se entregará cuando se hayan cumplido todas las condiciones de filtro.
-* Aplicar varios filtros a una sola suscripción es una práctica equivalente a usar un operador lógico **AND**.
-* Se pueden aplicar varias suscripciones de evento a un único objeto siempre que uno o más parámetros de campo de suscripción de evento sean diferentes entre cada suscripción de evento.
-* Cuando se asignan varias suscripciones de evento a un único objeto, todas las suscripciones de evento asociadas con ese objeto se pueden devolver a un único extremo. Esta práctica se puede usar como un sustituto equivalente del operador lógico **OR** que no se puede establecer mediante parámetros de filtro.
+* Aplicar varios filtros a una sola suscripción es una práctica equivalente a utilizar un operador lógico **AND**.
+* Se pueden aplicar varias suscripciones de eventos a un único objeto siempre que uno o más parámetros de campo de suscripción a eventos sean diferentes entre cada suscripción a evento.
+* Cuando se asignan varias suscripciones de eventos a un único objeto, todas las suscripciones de eventos asociadas a ese objeto se pueden devolver a un único punto final. Esta práctica se puede utilizar como un sustituto equivalente del operador lógico **OR** que no se puede establecer mediante parámetros de filtro.
 * Los campos siguientes no se pueden filtrar:
 
    * DOCU.groups
@@ -460,7 +460,7 @@ Por ejemplo, una suscripción de evento **UPDATE - TASK** solo se puede establec
 
 Puede especificar un campo de comparación junto con el campo de filtro. Utilice un operador de comparación en el campo para filtrar los resultados comparativos. Por ejemplo, puede crear una suscripción UPDATE - TASK que solo envíe una carga útil si el estado de la tarea NO es igual a actual. Puede utilizar los siguientes operadores de comparación:
 
-#### eq: equal
+#### eq: igual
 
 Este filtro permite que los mensajes lleguen si el cambio que se produjo coincide exactamente con `fieldValue` en el filtro. El valor `fieldValue` distingue entre mayúsculas y minúsculas.
 
@@ -480,7 +480,7 @@ Este filtro permite que los mensajes lleguen si el cambio que se produjo coincid
 }
 ```
 
-#### ne: no es igual a
+#### ne: no igual a
 
 Este filtro permite que los mensajes lleguen si el cambio que se produjo no coincide exactamente con `fieldValue` en el filtro. El valor `fieldValue` distingue entre mayúsculas y minúsculas.
 
@@ -500,7 +500,7 @@ Este filtro permite que los mensajes lleguen si el cambio que se produjo no coin
 }
 ```
 
-#### gt: greater than
+#### gt: mayor que
 
 Este filtro permite que los mensajes lleguen si la actualización del `fieldName` especificado es mayor que el valor de `fieldValue`.
 
@@ -520,7 +520,7 @@ Este filtro permite que los mensajes lleguen si la actualización del `fieldName
 }
 ```
 
-#### get: greater than or equal to
+#### gte: mayor o igual que
 
 Este filtro permite que los mensajes lleguen si la actualización del `fieldName` especificado es mayor o igual que el valor de `fieldValue`.
 
@@ -540,7 +540,7 @@ Este filtro permite que los mensajes lleguen si la actualización del `fieldName
 }
 ```
 
-#### lt: less than
+#### It: menor que
 
 Este filtro permite que los mensajes lleguen si la actualización del `fieldName` especificado es menor que el valor de `fieldValue`.
 
@@ -602,7 +602,7 @@ Este filtro permite que se envíen mensajes si el cambio que se produjo contiene
 
 #### cambiar
 
-Este filtro permite que los mensajes se transmitan sólo si el campo especificado (`fieldName`) tiene un valor diferente en estado antiguo y estado nuevo. Al actualizar otros campos además del especificado (`fieldName`), no se devolverá ese cambio.
+Este filtro permite que los mensajes se transmitan solo si el campo especificado (`fieldName`) tiene un valor diferente en oldstate y newstate. Al actualizar otros campos además del especificado (`fieldName`), no se devolverá ese cambio.
 
 >[!NOTE]
 >
@@ -626,13 +626,13 @@ Este filtro permite que los mensajes se transmitan sólo si el campo especificad
 
 #### state
 
-Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado del objeto que se creó o actualizó. Esto resulta útil cuando desea saber dónde se realizó un cambio de algo a otro.
+Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado del objeto que se creó o actualizó. Esto resulta útil si desea saber dónde se realizó un cambio de alguna cosa a otra.
 `oldState` no es posible en CREATE `eventTypes`.
 
 >[!NOTE]
 >
->La suscripción siguiente con el filtro dado solo devolverá mensajes donde el nombre de la tarea contenga `again` en el `oldState`, lo que era antes de que se realizara una actualización en la tarea.
->Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una cosa a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Buscar un nombre&quot; a &quot;Buscar un nombre de equipo&quot;
+>La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
+>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {
@@ -651,9 +651,45 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 }
 ```
 
+### Uso de filtros anidados
+
+La suscripción a eventos admite el filtrado en campos anidados de eventos mediante la palabra clave `fieldValue.fields`.
+
+```
+{
+    "objCode": "RECORD",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedRecords",
+    "filters": [
+        {
+            "fieldName": "data",
+            "fieldValue": {
+                "fields": {
+                    "customerID": "customer1234"
+                }
+            },
+            "comparison": "eq",
+            "state": "newState"
+        },
+        {
+            "fieldName": "options",
+            "fieldValue": {
+                "objects": {
+                    "projectID": "project1234"
+                }
+            },
+            "comparison": "contains",
+            "state": "newState"
+        },
+    ],
+    "filterConnector": 'AND'
+}
+```
+
 ### Uso de campos de conector
 
-El campo `filterConnector` de la carga útil de suscripción le permite elegir cómo se deben aplicar los filtros. El valor predeterminado es &quot;Y&quot;, donde los filtros deben estar todos `true` para que se transmita el mensaje de suscripción. Si se especifica &quot;OR&quot;, solo debe coincidir un filtro para que aparezca el mensaje de suscripción.
+El campo `filterConnector` de la carga útil de suscripción le permite elegir cómo se deben aplicar los filtros. El valor predeterminado es “AND”, donde los filtros deben ser todos `true` para que se transmita el mensaje de suscripción. Si se especifica “OR&quot;, solo debe coincidir un filtro para que aparezca el mensaje de suscripción.
 
 ```
 {
@@ -679,9 +715,9 @@ El campo `filterConnector` de la carga útil de suscripción le permite elegir c
 
 ## Eliminación de suscripciones a eventos
 
-Al eliminar HTTP de Workfront, utilice el método DELETE. La sintaxis de solicitud para eliminar una sola suscripción de evento por ID de suscripción es la siguiente:
+Al eliminar HTTP de Workfront, utilice el método DELETE. La sintaxis de solicitud para eliminar una sola suscripción a eventos por ID de suscripción es la siguiente:
 
-**URL de solicitud:**
+**URL de la solicitud:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -689,7 +725,7 @@ Al eliminar HTTP de Workfront, utilice el método DELETE. La sintaxis de solicit
 DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Encabezados de solicitud:**
+**Encabezados de la solicitud:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -703,7 +739,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <tbody> 
   <tr> 
    <td> <p>sessionID</p> </td> 
-   <td> <p> valor sessionID </p> </td> 
+   <td> <p> sessionID value </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -716,25 +752,25 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Código de respuesta</p> </th> 
-   <th> Descripción</th> 
+   <th> Descripción</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>200 (sin contenido)</td> 
-   <td>El servidor eliminó correctamente la suscripción de evento que coincide con el ID de suscripción proporcionado.</td> 
+   <td>El servidor eliminó correctamente la suscripción a eventos que coincide con el ID de suscripción proporcionado.</td> 
   </tr> 
   <tr> 
    <td>401 (No autorizado)</td> 
-   <td>El ID de sesión proporcionado estaba vacío.</td> 
+   <td>El sessionID proporcionado estaba vacío.</td> 
   </tr> 
   <tr> 
    <td>403 (Prohibido)</td> 
    <td>El usuario que coincide con el sessionID proporcionado no tiene acceso de administrador.</td> 
   </tr> 
   <tr> 
-   <td>404 (No encontrado)</td> 
-   <td>El servidor no ha podido encontrar una suscripción de evento que coincida con el ID de suscripción proporcionado para la eliminación.</td> 
+   <td>404 (No se encuentra)</td> 
+   <td>El servidor no ha podido encontrar una suscripción a eventos que coincida con el ID de suscripción proporcionado para la eliminación.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -751,7 +787,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 
 ## Ejemplos de cargas útiles de eventos
 
-La carga útil que recibe un usuario varía según el tipo de objeto, pero existe un formato coherente para el cual se entregan esas cargas útiles variables.
+La carga útil que recibe un usuario varía según el tipo de objeto, pero existe un formato coherente para la entrega de esas cargas útiles variables.
 
 Por ejemplo, las siguientes propiedades siguen siendo coherentes en todas las cargas útiles de evento:
 
@@ -876,15 +912,15 @@ A continuación se muestra un ejemplo de carga útil para un evento CREATE:
 
 ## Codificación base 64
 
-Si se rechaza una suscripción de evento debido a un conflicto entre los caracteres especiales contenidos en las suscripciones de evento y la configuración de red, puede utilizar la codificación Base64 para pasar las suscripciones de evento. Base64 es un conjunto de esquemas de codificación que pueden traducir cualquier dato arbitrario a un formato de cadena ASCII. Es importante tener en cuenta que Base64 no es una forma de cifrado de seguridad.
+Si se rechaza una suscripción a eventos debido a un conflicto entre los caracteres especiales contenidos en las suscripciones a eventos y la configuración de red, puede utilizar la codificación Base64 para pasar las suscripciones a eventos. Base64 es un conjunto de esquemas de codificación que pueden traducir cualquier dato arbitrario a un formato de cadena ASCII. Es importante tener en cuenta que Base64 no es una forma de cifrado de seguridad.
 
-### Campo de codificación base 64
+### Campo de codificación Base 64
 
-El campo base64Encoding es un campo opcional que se utiliza para habilitar la codificación Base64 de las cargas útiles de suscripción de eventos. El valor predeterminado es false y los valores posibles son: true, false y &quot;&quot; (en blanco).
+El campo base64Encoding es un campo opcional que se utiliza para habilitar la codificación Base64 de las cargas útiles de suscripción a eventos. El valor predeterminado es falso y los valores posibles son: verdadero, falso y &quot; &quot; (en blanco).
 
 ### Ejemplo de una solicitud que utiliza el campo base64Encoding
 
-Si se realiza una solicitud utilizando el campo base64Encoding establecido en true, los objetos **newState** y **oldState** de la carga útil se entregan como cadenas de codificación base 64. Si el campo base64Encoding se establece en false, se deja en blanco o no se incluye en la solicitud, la carga útil devuelta no se codificará en base 64.
+Si se realiza una solicitud utilizando el campo base64Encoding establecido en true, los objetos **newState** y **oldState** de la carga útil se entregan como cadenas de codificación base 64. Si el campo base64Encoding se establece en false, se deja en blanco o no se incluye en la solicitud y la carga útil devuelta no se codificará en base 64.
 
 A continuación se muestra un ejemplo de una solicitud que utiliza el campo base64Encoding:
 
@@ -920,9 +956,9 @@ A continuación se muestra un ejemplo de una solicitud que utiliza el campo base
 
 ## Método obsoleto para consultar todas las suscripciones a eventos
 
-El siguiente extremo de API está obsoleto y no debe utilizarse para nuevas implementaciones. También recomendamos la transición de implementaciones antiguas al método en la sección **Consulta de suscripciones a eventos** descrita anteriormente.
+El siguiente punto final de API está obsoleto y no debe utilizarse para nuevas implementaciones. También recomendamos la transición de implementaciones antiguas al método en la sección **Consulta de suscripciones a eventos** descrita anteriormente.
 
-Puede consultar todas las suscripciones de evento de un cliente según lo especificado por el valor sessionID. La sintaxis de solicitud para enumerar todas las suscripciones de evento de un cliente específico es la siguiente URL:
+Puede consultar todas las suscripciones a eventos de un cliente según lo especificado por el valor sessionID. La sintaxis de solicitud para enumerar todas las suscripciones a eventos de un cliente específico es la siguiente URL:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -944,7 +980,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <tbody> 
   <tr> 
    <td> <p>sessionID</p> </td> 
-   <td> <p> valor sessionID </p> </td> 
+   <td> <p> sessionID value </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -957,21 +993,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Código de respuesta</p> </th> 
-   <th> Descripción</th> 
+   <th> Descripción</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>200 (sin contenido)</td> 
-   <td>La solicitud devolvió correctamente todas las suscripciones de evento encontradas para el usuario.</td> 
+   <td>La solicitud devolvió correctamente todas las suscripciones a eventos encontradas para el usuario.</td> 
   </tr> 
   <tr> 
    <td>401 (No autorizado)</td> 
-   <td>El ID de sesión proporcionado estaba vacío.</td> 
+   <td>El sessionID proporcionado estaba vacío.</td> 
   </tr> 
   <tr> 
    <td>403 (Prohibido)</td> 
-   <td>El usuario que coincide con el ID de sesión proporcionado no tiene acceso de administrador.</td> 
+   <td>El usuario que coincide con el sessionID proporcionado no tiene acceso de administrador.</td> 
   </tr> 
  </tbody> 
 </table>

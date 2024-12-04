@@ -1,24 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Campos de recurso de suscripción de evento
-description: Campos de recurso de suscripción de evento
+title: Campos de recursos de suscripción a eventos
+description: Campos de recursos de suscripción a eventos
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 9%
+source-wordcount: '757'
+ht-degree: 94%
 
 ---
 
-# Campos de recurso de suscripción de evento
+# Campos de recursos de suscripción a eventos
 
-Los campos de recursos de suscripción de eventos representan déclencheur para eventos que hacen que una suscripción de evento envíe un mensaje saliente a un extremo configurado. Cuando se edita un campo de recurso, se activa un evento UPDATE.
+Los campos de recursos de suscripción a eventos representan activadores de eventos que hacen que una suscripción a un evento envíe un mensaje de salida a un punto final configurado. Cuando se edita un campo de recurso, se activa un evento UPDATE.
 
-En la tabla siguiente se enumeran los campos disponibles para los recursos de suscripción de evento:
+Tenga en cuenta que los datos se pueden filtrar mediante filtros anidados. Para obtener más información, consulte [Uso de filtros anidados](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) en el artículo API de suscripción a evento.
+
+En la tabla siguiente se enumeran los campos disponibles para los recursos de suscripción a eventos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
  <tbody> 
   <tr> 
    <td>Asignación</td> 
-   <td>ASIGNAR</td> 
+   <td>ASSGN</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
@@ -147,12 +149,12 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>trabajar</td> 
+   <td>trabajo</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negativo tooltip="Este campo se eliminó el 26 de octubre de 2023."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Este campo se eliminó el 26 de octubre de 2023".}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -237,7 +239,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -257,7 +259,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Nota: LastUpdateDate sólo almacenará en déclencheur un evento la primera vez que se actualice durante cada día. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Nota: LastUpdateDate solo activará un evento la primera vez que se actualice durante cada día. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -302,7 +304,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>cliente:isAdvancedDocMgmtEnabled</td> 
+   <td>customer:isAdvancedDocMgmtEnabled</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -312,7 +314,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -450,9 +452,9 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>VersiónDocumento</span> </td> 
+   <td><span>DocumentVersion</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>id. de descriptor de acceso</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -507,12 +509,12 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>nombreDeArchivo</span> </td> 
+   <td><span>fileName</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>tipoDeArchivo</span> </td> 
+   <td><span>fileType</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -522,7 +524,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ubicación</span> </td> 
+   <td><span>location</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -547,7 +549,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>decisiónDeRevisión</span> </td> 
+   <td><span>proofDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -572,7 +574,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>progresoDeRevisión</span> </td> 
+   <td><span>proofProgress</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -582,7 +584,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>versión</span> </td> 
+   <td><span>version</span> </td> 
   </tr> 
   <tr> 
    <td>Gasto</td> 
@@ -617,7 +619,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -662,12 +664,12 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isReembolsable </td> 
+   <td> isReimbursable </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isReembolsed </td> 
+   <td> isReimbursed </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -776,7 +778,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
    <td>Campo</td> 
-   <td>CAMPO</td> 
+   <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -797,7 +799,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> description </td> 
+   <td> descripción </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -837,7 +839,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> opciones </td> 
+   <td> options </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -897,7 +899,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1037,7 +1039,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1362,7 +1364,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>sujeto</td> 
+   <td>subject</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1401,7 +1403,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
    <td>Portafolio</td> 
-   <td>PUERTO</td> 
+   <td>PORT</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -1422,7 +1424,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1480,7 +1482,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>parameterValues*</td> 
   </tr> 
   <tr> 
-   <td>Programar</td> 
+   <td>Programa</td> 
    <td>PRGM</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -1497,7 +1499,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1561,7 +1563,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
    <td>Proyecto</td> 
-   <td>PROYECTO</td> 
+   <td>PROJ</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -1602,7 +1604,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>moneda</td> 
+   <td>currrency</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1622,7 +1624,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1752,7 +1754,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>patrocinadorID</td> 
+   <td>sponsorID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1785,19 +1787,19 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>AprobaciónRevisión</span> </td> 
+   <td><span>ProofApproval</span> </td> 
    <td><span>PRFAPL</span> </td> 
-   <td><span>id. de descriptor de acceso</span> </td> 
+   <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>decisiónDeAprobador</span> </td> 
+   <td><span>approverDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>aprobador</span> </td> 
+   <td><span>approverID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1822,7 +1824,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>isAwaitedDecision</span> </td> 
+   <td><span>isAwaitingDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1837,11 +1839,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>idDeSolicitante</span> </td> 
+   <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
    <td>Registro</td> 
-   <td>REGISTRO</td> 
+   <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -1857,7 +1859,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>datos<p><b>NOTA</b>: este campo no se puede filtrar.</p></td> 
+   <td>data<p><b>NOTA</b>: este campo no se puede filtrar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1907,12 +1909,12 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>datos<p><b>NOTA</b>: este campo no se puede filtrar.</p></td> 
+   <td>data<p><b>NOTA</b>: este campo no se puede filtrar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1932,7 +1934,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>icono</td> 
+   <td>icon</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1957,7 +1959,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>permiso</td> 
+   <td>permission</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1997,7 +1999,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2096,7 +2098,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
    <td>Tarea</td> 
-   <td>TAREA</td> 
+   <td>TASK</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2142,7 +2144,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2332,7 +2334,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>descripción</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2442,7 +2444,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>patrocinadorID</td> 
+   <td>sponsorID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2460,8 +2462,8 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>workflowAutomationID</td> 
   </tr> 
   <tr> 
-   <td>Hoja de horas</td> 
-   <td>HOJA TSHET</td> 
+   <td>Plantilla de horas</td> 
+   <td>TSHET</td> 
    <td>approverID</td> 
   </tr> 
   <tr> 
@@ -2566,7 +2568,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
    <td>Usuario</td> 
-   <td>USUARIO</td> 
+   <td>USER</td> 
    <td>accessLevelID</td> 
   </tr> 
   <tr> 
@@ -2602,7 +2604,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>emailAddress</td> 
+   <td>emailAddr</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2762,7 +2764,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>icono </td> 
+   <td>icon </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2782,7 +2784,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>permiso</td> 
+   <td>permission</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2802,4 +2804,4 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
  </tbody> 
 </table>
 
-&#42;Un parameterValue es un valor de campo personalizado asociado con varios recursos (u objetos) de Workfront. Un mensaje saliente de suscripción de evento incluye una lista completa de parameterValues rellenados (campos personalizados).
+&#42;Un parameterValue es un valor de campo personalizado asociado a varios recursos (u objetos) de Workfront. Un mensaje de salida de suscripción a evento incluye una lista completa de parameterValues rellenados (campos personalizados).
