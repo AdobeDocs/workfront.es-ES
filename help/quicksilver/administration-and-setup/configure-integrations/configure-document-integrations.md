@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 1%
+source-wordcount: '1088'
+ht-degree: 12%
 
 ---
 
@@ -27,13 +27,13 @@ Como administrador de [!DNL Adobe Workfront], puede configurar integraciones de 
 
 >[!NOTE]
 >
->Para permitir la comunicación abierta entre [!DNL Workfront Proof] y los servidores [!DNL Workfront], es posible que tenga que agregar ciertas direcciones IP a la lista de permitidos. Para obtener más información, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>Para permitir la comunicación abierta entre [!DNL Workfront Proof] y los servidores [!DNL Workfront], es posible que tenga que agregar ciertas direcciones IP a la lista de permitidos. Para obtener más información, consulte [Configurar la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Nuevo: [!UICONTROL Standard]</p>
        <p>o</p>
-       <p>Actual: [!UICONTROL plan]</p></td>
+       <p>Actual: [!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -89,8 +89,7 @@ Puede configurar las siguientes integraciones para administrar documentos:
    * [!DNL Microsoft OneDrive]
    * [!DNL Microsoft SharePoint]
    * [!UICONTROL Unidad Google]
-
-     <!--Quip-->
+   * Quip
 
   >[!TIP]
   >
@@ -139,12 +138,12 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nombre]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Nombre de la integración personalizada. Este es el nombre que los usuarios ven al utilizar la integración en Workfront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL URL de API base] </td> 
-      <td>La dirección URL HTTP base o HTTP segura para llamadas a la API. Por ejemplo, <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
+      <td>La dirección URL HTTP base o HTTP segura para llamadas a la API. Por ejemplo: <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tipo de autenticación]</td> 
@@ -164,7 +163,7 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL URL de autenticación]</td> 
+      <td role="rowheader">[!UICONTROL Authentication URL]</td> 
       <td>Dirección URL completa que se utiliza para la autenticación de usuarios. [!DNL Workfront] desplaza a los usuarios a esta dirección como parte del proceso de aprovisionamiento de OAuth.</td> 
      </tr> 
      <tr> 
@@ -172,11 +171,11 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
       <td>Dirección de URL de API completa que sirve para recuperar tokens de OAuth.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID de cliente]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td>El ID de cliente de OAut para esta integración.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Secreto de cliente]</td> 
+      <td role="rowheader">[!UICONTROL Client Secret]</td> 
       <td>Secreto de cliente de OAut para esta integración.</td> 
      </tr> 
      <tr> 
@@ -214,7 +213,7 @@ La información se asigna en una sola dirección, de [!DNL Workfront] a [!DNL Wo
 Puede asignar el mismo campo [!DNL Workfront] a varios campos [!DNL Workfront DAM], pero no puede usar el mismo campo [!DNL Workfront DAM] para varios campos [!DNL Workfront].
 
 Si debe configurar varios campos [!DNL Workfront] para exportarlos a un campo [!DNL Workfront DAM], cree primero un campo personalizado calculado en [!DNL Workfront] para mostrar todos los campos personalizados individuales de un objeto. A continuación, asigne el campo [!DNL Workfront] calculado a un campo [!DNL Workfront DAM].\
-Para obtener más información sobre los campos personalizados calculados, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Para obtener más información sobre los campos personalizados calculados, consulte [Añadir campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 La asignación afecta a todos los documentos cargados por cualquier usuario de [!DNL Workfront] a [!UICONTROL Workfront] DAM.
 
@@ -233,7 +232,7 @@ Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
    >
    > Todos los documentos enviados a [!DNL Workfront DAM] por usuarios que tienen derechos para hacerlo tienen sus metadatos actualizados con los campos de [!DNL Workfront] asignados aquí, cuando se cargan en [!DNL Workfront DAM].
 
-1. Haga clic en **[!UICONTROL Agregar asignación]**.
+1. Haga clic en **[!UICONTROL Add Mapping]**.
 
 1. Continúe agregando más [!UICONTROL campos de Workfront] y los [!DNL Workfront DAM] campos correspondientes.
 
@@ -244,6 +243,6 @@ Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
 1. Expanda **[!UICONTROL Documentos]** y, a continuación, haga clic en **[!UICONTROL Asignación de metadatos]**.
 
 1. En la lista de campos, seleccione cualquiera de los campos que desee eliminar de la asignación de metadatos.
-1. Haga clic en **[!UICONTROL Eliminar]**.
+1. Haga clic **[!UICONTROL eliminar]**.
 
    Los campos se quitan de la asignación de metadatos y la información que contienen no se transfiere a [!DNL Workfront DAM] con los documentos cargados.
