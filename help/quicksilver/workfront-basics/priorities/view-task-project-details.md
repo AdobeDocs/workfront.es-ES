@@ -5,13 +5,13 @@ description: Puede ver los detalles del proyecto y la tarea en la lista de traba
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 1%
+source-wordcount: '240'
+ht-degree: 36%
 
 ---
-
 
 # Ver los detalles del proyecto y la tarea en la lista de trabajo de prioridades
 
@@ -32,14 +32,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
    <td> 
    <p>Actual: Revisor o superior</p>
-   <p>Nuevo: claro o superior</p> 
+   <p>Nuevo: Light o superior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver acceso al objeto</p></td> 
+   <td> <p>Acceso de visualización al objeto</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,8 +67,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Ver y agregar comentarios en el proyecto
    * Hora de registro
    * Añadir un archivo
+   * <span class="preview">Ir directamente al proyecto</span>
 
-   ![detalles del proyecto](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## Ver detalles de la tarea
 
@@ -83,4 +84,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Añadir un archivo
    * Adición de vínculos rápidos
 
-   ![detalles de la tarea](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
