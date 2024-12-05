@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
 source-wordcount: '1397'
-ht-degree: 2%
+ht-degree: 15%
 
 ---
 
@@ -54,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera de los siguientes planes de Workfront:</p>
 <ul><li>Seleccionar</li>
@@ -73,7 +73,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p>
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
 
 </tr>
@@ -86,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td>
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -97,7 +97,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p>Administración de permisos en un espacio de trabajo</p></li>
     <li><p>Los administradores del sistema pueden administrar los espacios de trabajo que no hayan creado. </p></li>
     </ul>
-   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte  
+   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte 
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Información general sobre los permisos de uso compartido en Adobe Workfront Planning</a> 
   </td>
   </tr>
@@ -117,11 +117,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-planning}}
 
-1. Haga clic en el área de trabajo donde desee agregar registros.
+1. Haga clic en el espacio de trabajo donde desee añadir registros.
 
    El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
-1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
@@ -131,7 +131,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Haga clic en **Crear**. Se abrirá el formulario de solicitud del tipo de registro seleccionado.
+1. Haga clic en **Crear**. Se abre el formulario de solicitud del tipo de registro seleccionado <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -156,7 +156,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >    * <span class="preview">Personas </span>
    >    * <span class="preview">Campos conectados de objetos Workfront</span>
    >    * <span class="preview">AEM Assets conectaron campos </span>
-
 
 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
@@ -190,6 +189,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Para obtener más información sobre cómo crear un formulario personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Opcional) Haga clic en **Vista previa** para ver cómo se mostrará el formulario para otros usuarios cuando lo usen para enviar un nuevo registro.
+
+   <!--
+   <div class="preview">
+   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   </div>
+   -->
+
 1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
 1. Haga clic en **Publish** para publicar el formulario y obtener un vínculo único para él.
 

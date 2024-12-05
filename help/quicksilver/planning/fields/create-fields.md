@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
-ht-degree: 69%
+source-wordcount: '4370'
+ht-degree: 68%
 
 ---
 
@@ -210,7 +210,12 @@ OLD:
    Pase el puntero por encima del encabezado de cualquier columna, haga clic en la flecha hacia abajo después del nombre del campo y, a continuación, haga clic en **Insertar a la izquierda** o **Insertar a la derecha** para añadir el nuevo campo.
 1. En la pestaña **Nuevo campo**, busque un tipo de campo en el cuadro **Tipo de campo** o seleccione uno de los siguientes tipos de campo:
 
-   En la ficha **Nuevo campo**, busque un tipo de campo en el cuadro **Tipo de campo** <!--using any related keyword--> o seleccione uno de los tipos de campo que se enumeran a continuación.
+   En la ficha **Nuevo campo**, busque un tipo de campo en el cuadro **Tipo de campo** con cualquier palabra clave relacionada, o seleccione uno de los tipos de campo que se enumeran a continuación.
+
+   >[!TIP]
+   >
+   >    Puede escribir &quot;Presupuesto&quot; y los tipos de campo de Número y Moneda se muestran en una lista corta.
+
 
 
    * [Texto de línea única](#single-line-text)
@@ -299,15 +304,13 @@ Puede utilizar un campo de selección múltiple para capturar información adici
 1. (Opcional) Para quitar una opción, haga clic en el icono **x** a su derecha.
 1. Haga clic en la muestra de color que hay a la izquierda de la opción para expandir el selector de color y personalizar el color de cada opción.
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">Haga clic en **Muestras** para seleccionar un color predefinido</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">O</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
+   </span>
+1. Haga clic fuera del cuadro de color para cerrarlo.
 1. Haga clic en **Crear**.
 
    El nuevo campo de selección múltiple se añadirá en forma de columna al tipo de registro y sus valores se podrán asociar a registros.
@@ -330,16 +333,13 @@ Los campos de selección única capturan información adicional en cualquier for
 1. (Opcional) Arrastre y suelte manualmente cada opción en el orden deseado o seleccione la opción **Ordenar opciones A-Z** si desea que las opciones se enumeren automáticamente en orden alfabético. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Opcional) Para quitar una opción, haga clic en el icono **x** a su derecha.
 1. Haga clic en la muestra de color que hay a la izquierda de la opción para expandir el selector de color y personalizar el color de cada opción.
+1. <span class="preview">Haga clic en **Muestras** para seleccionar un color predefinido</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">O</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">Haga clic en **Personalizado** para seleccionar un color personalizado mediante un selector de color o un código hexadecimal.
+   </span>
+1. Haga clic fuera del cuadro de color para cerrarlo.
 1. Haga clic en **Crear**.
 
    El nuevo campo de selección única se añadirá en forma de columna al tipo de registro y sus valores se podrán asociar a registros.
