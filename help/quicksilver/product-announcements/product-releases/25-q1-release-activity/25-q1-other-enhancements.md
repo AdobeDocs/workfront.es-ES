@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de noviembre de 2024; versión de producción para todos los clientes: 5 de diciembre de 2024
+>Versión preliminar: viernes, 21 de noviembre de 2024; versión de producción para todos los clientes: viernes, 05 de diciembre de 2024
 
 Hemos cambiado la forma en que se gestionan los recursos movidos y eliminados al utilizar la integración de Adobe Workfront con Experience Manager Assets y Assets Essentials:
 
@@ -33,7 +33,7 @@ Hemos cambiado la forma en que se gestionan los recursos movidos y eliminados al
 
 >[!NOTE]
 >
->Versión de vista previa: 11 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 11 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Cuando se adjunta un formulario personalizado con varias secciones a un objeto, ahora puede contraer y expandir todas las secciones excepto la predeterminada en la parte superior del formulario. El administrador también puede ver esta funcionalidad al obtener una vista previa del formulario en el diseñador de formularios.
 

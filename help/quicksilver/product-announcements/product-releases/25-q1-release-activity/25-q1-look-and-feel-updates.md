@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,31 @@ Esta página describe actualizaciones menores de la apariencia de varias áreas 
 
 Para obtener una lista de todos los cambios disponibles con la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Experiencia actualizada en la página Proveedores de nube en el área de Configuración
+
+>[!NOTE]
+>
+>Versión de vista previa: 5 de diciembre de 2024; versión de producción para todos los clientes: con la versión de 24.12 (12 de diciembre de 2024)
+
+Para mejorar el rendimiento, hemos realizado actualizaciones visuales en la página Proveedores de nube en el área de Configuración.
+
+Se aplicó un pequeño cambio de funcionalidad a la integración de Quip. En lugar de introducir el ID de cliente y el Secreto del cliente directamente en la página de los proveedores de la nube, debe hacer clic en el icono Editar para que esos campos sean visibles.
+
+## Actualización de aspecto y funcionamiento del cuadro de diálogo Solicitar acceso
+
+>[!NOTE]
+>
+>Versión de vista previa: 28 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+
+El cuadro de diálogo para solicitar acceso a los objetos se ha actualizado a un diseño más moderno y coherente con otras áreas de Workfront. Este cuadro de diálogo está disponible cuando solicita acceso a proyectos, tareas, problemas, programas, portafolios, plantillas y tareas de plantilla.
+
+Para obtener más información, vea [Solicitar acceso a objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
+
 ## Actualizaciones de aspecto y funcionamiento para integraciones de documentos
 
 >[!NOTE]
 >
->Versión de vista previa: 14 de noviembre de 2024; versión de producción para todos los clientes: 14 de noviembre de 2024
+>Versión preliminar: viernes, 14 de noviembre de 2024; versión de producción para todos los clientes: viernes, 14 de noviembre de 2024
 
 Hemos realizado mejoras de rendimiento en el área de Configuración, donde puede configurar integraciones personalizadas: Configuración > Documentos > Integración personalizada. Esta actualización incluye ligeros cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
@@ -30,7 +50,7 @@ Hemos realizado mejoras de rendimiento en el área de Configuración, donde pued
 
 >[!NOTE]
 >
->Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Hemos actualizado las páginas Miembros de la compañía y Tarifas de facturación de la compañía con un diseño más moderno que es coherente con otras áreas de Workfront. Se puede acceder a las suscripciones a empresas a través de Configuración > Empresas > seleccione un nombre de empresa > seleccione Miembros de la empresa en el panel izquierdo. Puede acceder a las tarifas de facturación de la empresa a través de Configuración > Empresas > seleccione un nombre de empresa > seleccione Tarifas de facturación en el panel izquierdo.
 
@@ -40,7 +60,7 @@ Para obtener más información, consulte [Crear y editar compañías](/help/quic
 
 >[!NOTE]
 >
->Versión preliminar: 6 de noviembre de 2024; versión de producción para todos los clientes: 6 de noviembre de 2024
+>Versión preliminar: jueves, 06 de noviembre de 2024; versión de producción para todos los clientes: jueves, 06 de noviembre de 2024
 
 Hemos actualizado las áreas de navegación principal y secundaria de Workfront para mejorar el rendimiento. Los cambios de aspecto son mínimos.
 
@@ -53,7 +73,7 @@ Los cambios más destacables son los siguientes:
 
 >[!NOTE]
 >
->Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Presentamos un nuevo formato de lista en el área Configuración de Workfront y la lista de tasas de cambio es la primera página que utiliza este formato de tabla. La funcionalidad para agregar nuevas tasas de cambio y buscar tasas de cambio no ha cambiado.
 
@@ -63,7 +83,7 @@ Para obtener información sobre las tasas de cambio, consulte [Configurar tasas 
 
 >[!NOTE]
 >
->Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Hemos actualizado la página Exportar datos (Kick-Starts) en el área de Configuración con un diseño más moderno y coherente con otras áreas de Workfront.
 

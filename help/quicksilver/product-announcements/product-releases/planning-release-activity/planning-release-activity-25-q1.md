@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 3%
+source-wordcount: '1920'
+ht-degree: 4%
 
 ---
 
@@ -34,12 +34,31 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning después de la publicación de disponibilidad general del 28 de agosto de 2024, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Búsqueda inteligente al buscar un tipo de campo
+
+>[!NOTE]
+>
+>Versión preliminar: viernes, 05 de diciembre de 2024; versión de producción para todos los clientes: viernes, 05 de diciembre de 2024
+
+Se ha añadido la funcionalidad de búsqueda inteligente al buscar un tipo de campo en Workfront Planning. Ahora puede encontrar tipos de campo al escribir una palabra clave. Por ejemplo, si escribe &quot;Precio&quot;, encontrará los tipos de campo Número y Moneda. Antes de esta mejora, solo se podía buscar el nombre real del tipo de campo.
+
+Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+
+## Selector de color personalizado para opciones con códigos de color de campos de selección única o múltiple
+
+>[!NOTE]
+>
+>Versión de vista previa: 5 de diciembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+
+Ahora puede realizar opciones de color personalizadas al crear o editar un campo de selección única o múltiple. Cuando crea o edita campos con opciones con códigos de color, al hacer clic en el icono de color se abre un cuadro selector de color. Puede elegir entre colores predefinidos o crear colores personalizados mediante códigos hexadecimales o un espectro de colores.
+
+Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Importar campos de Workfront existentes a tipos de registros de Workfront Planning
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Ahora, al agregar campos a un tipo de registro, tiene la opción de importar los campos personalizados o nativos de Workfront existentes y asociarlos al tipo de registro seleccionado. La importación de campos existentes crea una copia de los campos de Workfront en Workfront Planning. Los campos copiados son independientes de sus versiones originales.
 
@@ -53,7 +72,7 @@ Para obtener más información, consulte [Importar campos desde Adobe Workfront]
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Ahora puede importar nuevos tipos de registros importando un archivo CSV o de Excel.
 
@@ -71,7 +90,7 @@ Para obtener más información, vea [Crear tipos de registros](/help/quicksilver
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Hemos introducido un mensaje de advertencia al editar o crear un campo de fórmula que puede crear una referencia circular a sí mismo o a campos compartidos. No se puede guardar un campo de fórmula que haga referencia a sí mismo o a elementos a los que se hace referencia en su cálculo.
 
@@ -81,7 +100,7 @@ Para obtener más información, consulte [Crear campos](/help/quicksilver/planni
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Puede agregar páginas al área de detalles de un registro para mostrar los registros conectados en una vista de tabla. Puede agregar una página por cada registro conectado.
 
@@ -93,7 +112,7 @@ Para obtener más información, vea [Administrar el diseño de la página de reg
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Ahora puede encontrar solicitudes de Workfront Planning en la sección Enviadas del área de Solicitudes de Workfront. La sección Enviado ahora muestra las siguientes pestañas:
 
@@ -110,7 +129,7 @@ Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront 
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Ahora puede agregar los siguientes tipos de campo a un formulario de solicitud de tipo de registro en Workfront Planning:
 
@@ -125,7 +144,7 @@ Para obtener más información, consulte Creación y administración de un formu
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 27 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Ya no puede compartir un formulario de solicitud públicamente si el formulario contiene cualquiera de los siguientes tipos de campo:
 
@@ -141,7 +160,7 @@ Para obtener más información, consulte [Crear y administrar un formulario de s
 
 >[!NOTE]
 >
->Versión de vista previa: 26 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 26 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Ahora puede mostrar los registros en la vista de calendario por semana. Antes de esta mejora, solo se podía mostrar la vista de calendario por mes.
 
@@ -151,7 +170,7 @@ Para obtener más información, vea [Administrar la vista de calendario](/help/q
 
 >[!NOTE]
 >
->Versión de vista previa: 22 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 22 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Una vez eliminados los registros, ahora se mueven temporalmente a un grupo eliminado recientemente durante 30 días. Puede acceder a la bandeja eliminada recientemente desde la página del tipo de registro y solo contiene registros de un tipo específico.
 
@@ -165,7 +184,7 @@ Para obtener más información, vea [Restaurar registros eliminados](/help/quick
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Para facilitar la realización de su trabajo, hemos agregado el Asistente de IA de Adobe a la vista previa de detalles de un registro o a la página del registro. Puede utilizar el Asistente de IA dentro de una página de registro para actualizar la información sobre el registro.
 
@@ -175,7 +194,7 @@ Para obtener más información, consulte [Descripción general del Asistente de 
 
 >[!NOTE]
 >
->Versión de vista previa: 20 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 20 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Cuando se abre la vista previa o la página de un registro y éste no tiene una miniatura o una imagen de portada, debe situarse sobre el área situada encima del nombre del registro en el encabezado para ver las opciones para agregar una portada y una imagen en miniatura al registro. Antes de esta mejora, las imágenes de marcador de posición vacías para la miniatura y la portada mostradas encima del nombre del registro.
 
@@ -188,7 +207,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 >[!NOTE]
 >
->Versión de vista previa: 7 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 7 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
 
 Para facilitar la lectura de los números en la vista de tabla, ahora puede seleccionar entre las siguientes opciones para cambiar el modo en que se muestra un campo de tipo Porcentaje en la vista de tabla:
 
