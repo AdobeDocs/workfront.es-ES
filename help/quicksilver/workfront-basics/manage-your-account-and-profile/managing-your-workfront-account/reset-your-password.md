@@ -2,14 +2,14 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Restablecer la contraseña
-description: Puedes restablecer tu [!DNL Adobe Workfront] contraseña. Como medida de seguridad importante, le recomendamos que lo haga con regularidad.
-author: Lisa
+description: Puede restablecer su contraseña de  [!DNL Adobe Workfront] . Como medida de seguridad importante, le recomendamos que lo haga con regularidad.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -60,16 +60,16 @@ Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con el a
 
    ![](assets/edit-person-box-350x196.jpg)
 
-   Si su organización ha integrado [!DNL Workfront] con una solución SSO, es posible que se le enrute para restablecer sus contraseñas a través de su sistema SSO al hacer clic en **[!UICONTROL Restablecer contraseña]**. Esto restablece la contraseña de SSO, lo que afecta al inicio de sesión en todas las demás aplicaciones dentro de la organización.
+   Si su organización ha integrado [!DNL Workfront] con una solución SSO, es posible que se le dirija a restablecer sus contraseñas a través de su sistema SSO cuando haga clic en **[!UICONTROL Restablecer contraseña]**. De este modo se restablece la contraseña de SSO, lo que afecta al inicio de sesión en todas las demás aplicaciones dentro de la organización.
 
 1. Escriba la contraseña anterior y, a continuación, escriba dos veces la nueva contraseña que desee.
 
    La contraseña debe tener al menos 8 caracteres y contener dos de los tipos de caracteres siguientes:
 
-   * Cartas
+   * Teclas
    * Números
-   * Caracteres especiales (es decir, ! @ # $ % etc.)
+   * Caracteres especiales (es decir, ! @ # $ %, etc.)
 
-   Las reglas de contraseñas pueden ser más estrictas, según las opciones de configuración establecidas por el administrador de [!DNL Workfront].
+   Las reglas de contraseña pueden ser más estrictas, según las opciones de configuración establecidas por el administrador de [!DNL Workfront].
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.

@@ -3,13 +3,13 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configurar mis ajustes
 description: Tu perfil  [!DNL Adobe Workfront] contiene información sobre ti mismo (por ejemplo, tu nombre, dirección de correo electrónico, dirección, número de teléfono, título, etc.). También contiene información sobre tus interacciones con  [!DNL Workfront]  y otros usuarios de tu compañía.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '3303'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -75,7 +75,7 @@ La siguiente cuadrícula muestra qué secciones del área [!UICONTROL Mi configu
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL Preferencias]</td> 
+   <td rowspan="2">[!UICONTROL Preferences]</td> 
    <td> <p>Visible</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -126,7 +126,7 @@ La siguiente cuadrícula muestra qué secciones del área [!UICONTROL Mi configu
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL Organización]</td> 
+   <td rowspan="2">[!UICONTROL Organization]</td> 
    <td>Visible</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -177,7 +177,7 @@ La siguiente cuadrícula muestra qué secciones del área [!UICONTROL Mi configu
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL Comentario]</td> 
+   <td rowspan="2">[!UICONTROL Comment]</td> 
    <td>Visible</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -266,7 +266,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL Título]</strong></td>
+        <td><strong>[!UICONTROL Title]</strong></td>
         <td>Especifique el título. No es lo mismo que su función. Su puesto no forma parte de la programación de recursos, mientras que su puesto sí lo es. El título se mostrará en la interfaz [!DNL Workfront] en cualquier lugar donde se muestre su nombre y su avatar. Es visible para todos los que tienen acceso a ver su perfil de usuario.</td>
     </tr>
     <tr>
@@ -293,7 +293,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Dirección]</strong></td>
+        <td><strong>[!UICONTROL Address]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -301,7 +301,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Estado]</strong></td>
+        <td><strong>[!UICONTROL State]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -372,7 +372,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Está Activo]</strong> </td> 
+   <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
    <td>Este campo es visible solamente para un usuario que también es administrador de [!DNL Workfront] y debería ser seleccionado de manera predeterminada. Esto significa que el usuario está activo y puede iniciar sesión en [!DNL Workfront]</td> 
   </tr> 
   <tr> 
@@ -439,11 +439,11 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Grupo de inicio]</strong> </td> 
-   <td> <p>Seleccione un <strong>[!UICONTROL Grupo de inicio]</strong> en el menú desplegable.</p> <p>Nota: Este campo es obligatorio. No puede haber un usuario no asociado a un grupo.<br></p> <p>Este campo es visible para los usuarios con un nivel de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Para obtener más información sobre quién puede editar el campo <strong>[!UICONTROL Grupo de inicio]</strong>, consulte <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Editar el perfil de un usuario</a>. Su <strong>[!UICONTROL Grupo de inicio]</strong> es el grupo predeterminado para todos los proyectos y el <strong>[!UICONTROL Grupo de inicio]</strong> predeterminado para todos los usuarios nuevos que cree. Cualquier formulario personalizado que cree se compartirá con su <strong>[!UICONTROL Grupo de inicio]</strong> de forma predeterminada.</p> <p>Para obtener más información acerca de los grupos, vea <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general sobre los grupos</a>.</p> </td> 
+   <td> <p>Seleccione un <strong>[!UICONTROL Grupo de inicio]</strong> en el menú desplegable.</p> <p>Nota: Este campo es obligatorio. No puede haber un usuario no asociado a un grupo.<br></p> <p>Este campo es visible para los usuarios con un nivel de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Para obtener más información sobre quién puede editar el campo <strong>[!UICONTROL Grupo de inicio]</strong>, consulte <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Editar el perfil de un usuario</a>. Su <strong>[!UICONTROL Grupo de inicio]</strong> es el grupo predeterminado para todos los proyectos y el <strong>[!UICONTROL Grupo de inicio]</strong> predeterminado para todos los usuarios nuevos que cree. Cualquier formulario personalizado que cree se compartirá con su <strong>[!UICONTROL Grupo de inicio]</strong> de forma predeterminada.</p> <p>Para obtener más información sobre los grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general sobre los grupos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Otros grupos]</strong> </td> 
-   <td> <p>Puede pertenecer a varios grupos. Especifique los grupos adicionales a los que pertenece en este campo, empezando a escribir el nombre de un grupo. Haga clic en para seleccionarlo cuando se muestre en la lista. Este campo es visible para los usuarios con un nivel de acceso de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Para obtener más información sobre quién puede editar el campo <strong>[!UICONTROL Other Groups]</strong>, consulte <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Editar el perfil de un usuario</a>.</p> <p>Para obtener más información acerca de los grupos, vea <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general sobre los grupos</a>.</p> </td> 
+   <td> <p>Puede pertenecer a varios grupos. Especifique los grupos adicionales a los que pertenece en este campo, empezando a escribir el nombre de un grupo. Haga clic en para seleccionarlo cuando se muestre en la lista. Este campo es visible para los usuarios con un nivel de acceso de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Para obtener más información sobre quién puede editar el campo <strong>[!UICONTROL Other Groups]</strong>, consulte <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Editar el perfil de un usuario</a>.</p> <p>Para obtener más información sobre los grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Información general sobre los grupos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -464,7 +464,7 @@ Utilice cualquiera de las siguientes opciones en esta sección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Función principal]</strong></td> 
-   <td> <p>Esta es la función principal que puede desempeñar en Workfront. De forma predeterminada, todas las tareas y problemas que se le asignen también se asignan a esta función. Las funciones del puesto son esenciales en la gestión de recursos. Para obtener más información sobre los roles, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar roles</a>.</p> <p>Solo puede actualizar este campo si tiene una licencia de [!UICONTROL Standard] o [!UICONTROL Plan] con acceso de usuario administrativo, o si es administrador de [!DNL Workfront]. Para obtener más información sobre cómo configurar usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </td> 
+   <td> <p>Esta es la función principal que puede desempeñar en Workfront. De forma predeterminada, todas las tareas y problemas que se le asignen también se asignan a esta función. Las funciones de trabajo son esenciales en la administración de recursos. Para obtener más información sobre las funciones, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar funciones de trabajo</a>.</p> <p>Solo puede actualizar este campo si tiene una licencia de [!UICONTROL Standard] o [!UICONTROL Plan] con acceso de usuario administrativo, o si es administrador de [!DNL Workfront]. Para obtener más información sobre cómo configurar usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) Si seleccionó un [!UICONTROL Rol principal], se muestra el campo [!UICONTROL Porcentaje de disponibilidad de FTE].</strong></td> 
@@ -472,14 +472,14 @@ Utilice cualquiera de las siguientes opciones en esta sección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Otros roles]</strong> </td> 
-   <td> <p>Puede tener varios roles en [!DNL Workfront]. Las funciones del puesto son esenciales en la gestión de recursos. Para obtener más información sobre los roles, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar roles</a>.</p> <p>Solo puede actualizar este campo si tiene una licencia de [!UICONTROL Standard] o [!UICONTROL Plan] con acceso de usuario administrativo, o si es administrador de [!DNL Workfront]. Para obtener más información sobre cómo configurar usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </td> 
+   <td> <p>Puede tener varios roles en [!DNL Workfront]. Las funciones de trabajo son esenciales en la administración de recursos. Para obtener más información sobre las funciones, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar funciones de trabajo</a>.</p> <p>Solo puede actualizar este campo si tiene una licencia de [!UICONTROL Standard] o [!UICONTROL Plan] con acceso de usuario administrativo, o si es administrador de [!DNL Workfront]. Para obtener más información sobre cómo configurar usuarios con acceso de usuario administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configurar el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) Si ha seleccionado uno o varios Roles, se muestra el campo [!UICONTROL Percentage of FTE Availability] para cada rol.</strong></td> 
    <td> <p>Especifique qué porcentaje del tiempo programado se asigna a cada rol. El valor predeterminado para [!UICONTROL Porcentaje de disponibilidad de FTE] para [!UICONTROL Otras funciones] es 0%.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_date_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Nota:  
      <ul> 
       <li>Si [!UICONTROL Otras funciones] tienen una disponibilidad de FTE del 0%, no se muestran en el [!UICONTROL Planificador de recursos], a menos que los usuarios estén asignados a tareas en estas funciones.</li> 
-      <li> <p>La suma de todos los <strong>[!UICONTROL Porcentajes de disponibilidad de FTE]</strong> para todos los roles debe ser igual a 100%. Cada [!UICONTROL Percentage of FTE Availability] calcula las [!UICONTROL Available Hours] para cada rol por usuario en el [!UICONTROL Resource Planner]. </p> <p>Las [!UICONTROL Horas disponibles] para cada rol por usuario dependen del tiempo disponible para el usuario. El tiempo disponible para el usuario se calcula por [!DNL Workfront] según el método que haya seleccionado el administrador [!DNL Workfront] para calcular el valor de FTE en las [!UICONTROL Preferencias de administración de recursos]. Para obtener más información sobre cómo calcular la disponibilidad del usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>. Para obtener más información acerca de cómo configurar las preferencias de Administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de Administración de recursos</a>.</p> </li> 
+      <li> <p>La suma de todos los <strong>[!UICONTROL Porcentajes de disponibilidad de FTE]</strong> para todos los roles debe ser igual a 100%. Cada [!UICONTROL Percentage of FTE Availability] calcula las [!UICONTROL Available Hours] para cada rol por usuario en el [!UICONTROL Resource Planner]. </p> <p>Las [!UICONTROL Horas disponibles] para cada rol por usuario dependen del tiempo disponible para el usuario. El tiempo disponible para el usuario se calcula por [!DNL Workfront] según el método que haya seleccionado el administrador [!DNL Workfront] para calcular el valor de FTE en las [!UICONTROL Preferencias de administración de recursos]. Para obtener más información sobre cómo calcular la disponibilidad del usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>. Para obtener más información acerca de cómo configurar las preferencias de Administración de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferencias de administración de recursos</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -526,7 +526,7 @@ Todos los usuarios pueden ver formularios personalizados asociados a sus perfile
 
 El administrador de [!DNL Workfront] debe configurar los formularios personalizados para el objeto de usuario a fin de que pueda adjuntar un formulario personalizado al perfil de usuario. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-### [!UICONTROL Comentario]
+### [!UICONTROL Comment]
 
 Puede grabar un comentario en su perfil de usuario, que se almacena en la ficha [!UICONTROL Actualizaciones] del perfil.
 
