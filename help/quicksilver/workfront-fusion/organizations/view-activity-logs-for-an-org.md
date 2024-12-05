@@ -8,9 +8,9 @@ description: Puede ver un registro de actividades, como la creación o activaci�
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '528'
 ht-degree: 13%
 
 ---
@@ -47,11 +47,14 @@ Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
    <p>Heredado: cualquiera </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Debe ser administrador de Fusion para utilizar el registro de actividad.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Producto</td> 
    <td>
-   <p>Nuevo: [!DNL Workfront Fusion] está incluido en el plan Ultimate Workfront.</p> <p>O</p>
-   <p>Actual: no disponible</p>
+   <p>Esta funcionalidad solo está disponible para organizaciones con el plan Ultimate Workfront, que incluye [!DNL Workfront Fusion]. No es necesario adquirir ningún producto adicional.</p>
    </td> 
   </tr>
  </tbody> 
