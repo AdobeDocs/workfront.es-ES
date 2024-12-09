@@ -1,14 +1,14 @@
 ---
-title: Informe sobre el área de Actualizaciones
+title: Informe sobre el área de actualizaciones
 description: El informe Entrada de cuaderno muestra las actualizaciones del sistema desde el área Actualizaciones de proyectos, tareas, problemas y otros objetos que anteriormente solo estaban disponibles a través de la API de Adobe Workfront. Aunque se trata de un informe avanzado diseñado para casos de uso específicos, el formato más asequible facilita la elaboración de informes sobre la actividad del proyecto y las actualizaciones del sistema en Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 100%
+source-wordcount: '2757'
+ht-degree: 95%
 
 ---
 
@@ -253,7 +253,7 @@ Esta información se puede utilizar para ayudar con las auditorías y para ilust
 
    Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En la pestaña **Filtros**, haga clic en **Añadir regla de filtro**, luego añada la regla de filtro **Nombre de campo** > **igual** > **estado**.
+1. En la ficha **Filtros**, haga clic en **Agregar una regla de filtro** y, a continuación, agregue la regla de filtro **Nombre de campo** > **Igual** > **estado**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -339,7 +339,7 @@ Para ver cuándo se ha eliminado una tarea o un problema:
 1. En la pestaña **Filtros**, haga clic en **Añadir regla de filtro** y, a continuación, añada los siguientes filtros:
 
    * **Tipo de cambio** > **Igual** > **Eliminar**
-   * **ID del proyecto** > **Igual** > **`<project>`**
+   * **Id. de proyecto** > **Igual** > **&lt; nombre de proyecto >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 
    Se carga Report Builder.
 
-1. En la pestaña **Columnas (Vista)**, añada las siguientes columnas:
+1. En la ficha **Columnas (vista)**, asegúrese de que tiene o haga clic en **Agregar columna** para agregar las siguientes columnas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -440,15 +440,15 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 
    Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En la pestaña **Filtros**, haga clic en **Añadir regla de filtro** y, a continuación, añada los siguientes filtros:
+1. En la ficha **Filtros**, haga clic en **Agregar una regla de filtro** y, a continuación, agregue los siguientes filtros:
 
    * **Nombre del campo de entrada de diario** > **Contains** > **DE**
 
      >[!TIP]
      >
-     >Para limitar este informe a campos personalizados específicos, añada la regla de filtro **Nombre del campo de entrada de cuaderno** > **Igual** > **`<custom field>`**.
+     >Para limitar este informe a campos personalizados específicos, agregue la regla de filtro **Nombre del campo de entrada de diario** > **Igual** > **&lt; Nombre de campo personalizado>**.
 
-   * **ID de proyecto** > **Igual** > **`<project>`**
+   * **Id. de proyecto** > **Igual** > **&lt; proyecto >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -546,10 +546,10 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
 
    Para obtener más información sobre la adición de columnas, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En la pestaña **Filtros**, haga clic en **Añadir regla de filtro** y, a continuación, añada lo siguiente:
+1. En la ficha **Filtros**, haga clic en **Agregar una regla de filtro** y, a continuación, agregue lo siguiente:
 
    * **Nombre de campo** > **Igual** > **Fecha**
-   * **ID del proyecto** > **Igual** > **`<project>`**
+   * **Id. de proyecto** > **Igual** > **&lt; nombre de proyecto >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
 1. En la pestaña **Filtros**, haga clic en **Añadir regla de filtro** y, a continuación, añada lo siguiente:
 
    * **Nombre de campo** > **Igual** > **ownerID**
-   * **ID de proyecto** > **Igual** > **`<project name>`**
+   * **Id. de proyecto** > **Igual** > **&lt; nombre de proyecto >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
 
 1. Haga clic en **Guardar + Cerrar**.
 
-   Se carga el nuevo informe.
+   Se muestra el informe de nueva entrada de diario.

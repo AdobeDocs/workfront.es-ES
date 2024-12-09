@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '14673'
+source-wordcount: '14681'
 ht-degree: 59%
 
 ---
@@ -857,7 +857,7 @@ ht-degree: 59%
       * [Guardar un archivo de encabezado de correo electrónico](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [Compartir muestra más de un permiso](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [Correo electrónico no autenticado no aceptado](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront: La configuración de ZScaler puede reducir el rendimiento](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+      * [Workfront: la configuración de ZScaler puede reducir el rendimiento](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [Credenciales de usuario frente a credenciales de SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Actualizar las opciones de actualización automática en los niveles de acceso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Conceptos básicos de Adobe Workfront {#basics}
@@ -2138,6 +2138,7 @@ ht-degree: 59%
       * [Solicitudes de Adobe Workfront Planning: índice de artículos](planning/requests/requests-article-index.md)
       * [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](planning/requests/create-request-form.md)
       * [Envío de solicitudes de Adobe Workfront Planning para crear registros](planning/requests/submit-requests.md)
+      * [Cancelar la publicación de un formulario de solicitud en Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
    * Vistas de Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Vistas: índice de artículos](planning/views/views-information.md)
       * [Administrar vistas de registros](planning/views/manage-record-views.md)

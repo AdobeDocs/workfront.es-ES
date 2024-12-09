@@ -2,36 +2,36 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: Crear predecesoras entre proyectos
-description: Una tarea predecesora entre proyectos es una tarea de la que depende otra tarea (denominada tarea sucesora) de otro proyecto. El predecesor es la tarea que tiene prioridad sobre la tarea dependiente (sucesora). Por ejemplo, puede crear una dependencia que requiera que la tarea predecesora se marque como Completada antes de que pueda iniciarse la tarea dependiente.
+description: Una tarea predecesora entre proyectos es una tarea de la que depende otra tarea (denominada tarea sucesora) de otro proyecto. La predecesora es la tarea que tiene prioridad sobre la tarea dependiente (sucesora). Por ejemplo, puede crear una dependencia que requiera que la tarea predecesora se marque como Completada antes de poder iniciar la tarea dependiente.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 97%
 
 ---
 
 # Crear predecesoras entre proyectos
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
-Una tarea predecesora entre proyectos es una tarea de la que depende otra tarea (denominada tarea sucesora) de otro proyecto. El predecesor es la tarea que tiene prioridad sobre la tarea dependiente (sucesora). Por ejemplo, puede crear una dependencia que requiera que la tarea predecesora se marque como Completada antes de que pueda iniciarse la tarea dependiente.
+Una tarea predecesora entre proyectos es una tarea de la que depende otra tarea (denominada tarea sucesora) de otro proyecto. La predecesora es la tarea que tiene prioridad sobre la tarea dependiente (sucesora). Por ejemplo, puede crear una dependencia que requiera que la tarea predecesora se marque como Completada antes de poder iniciar la tarea dependiente.
 
 Adobe Workfront permite que las tareas dependan de tareas de otros proyectos, al igual que permite predecesoras dentro de un solo proyecto.
 
 >[!INFO]
 >
->Por ejemplo, una empresa excavadora tiene una sola retroexcavadora y dos proyectos tienen tareas que requieren el uso de la retroexcavadora. El jefe de proyecto puede convertir la tarea del primer proyecto en predecesora de la tarea del segundo proyecto. Esto muestra que el segundo proyecto puede empezar a utilizar la retroexcavadora cuando el primer proyecto termina con ella.
+>Por ejemplo, una compañía excavadora tiene una sola retroexcavadora y dos proyectos tienen tareas que requieren el uso de la retroexcavadora. El administrador del proyecto puede convertir la tarea del primer proyecto en predecesora de la tarea del segundo proyecto. Esto muestra que el segundo proyecto puede empezar a utilizar la retroexcavadora cuando el primer proyecto termina con ella.
 
 Al vincular proyectos mediante predecesoras entre proyectos, las fechas del proyecto principal (el que tiene la tarea predecesora) afectarán al proyecto secundario (el que tiene la tarea sucesora).
 
 >[!TIP]
 >
->Debe recalcular las escalas de tiempo de los proyectos para ver las fechas actualizadas del proyecto secundario. Para obtener más información sobre cómo recalcular escalas de tiempo, vea [Configurar cálculos de escala de tiempo para proyectos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+>Debe recalcular las líneas de tiempo de los proyectos para ver las fechas actualizadas del proyecto secundario. Para obtener más información sobre cómo recalcular líneas de tiempo, consulte [Configurar el recálculo de la línea de tiempo para los proyectos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Para obtener más información acerca de las relaciones de predecesoras, vea [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Para obtener más información acerca de las relaciones de predecesoras, consulte [Información general sobre las predecesoras de tareas](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Requisitos de acceso
 
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Editar acceso a Tareas y Proyectos</p> </td> 
+   <td> <p>Editar el acceso a Tareas y Proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -69,21 +69,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-## Creación de una predecesora entre proyectos
+## Crear una predecesora entre proyectos
 
 1. Vaya a la tarea que va a ser su sucesora (tarea dependiente).
-1. Haga clic en **Predecesoras** en el panel izquierdo.
-1. Haga clic en **Agregar predecesora.**
+1. Haga clic en **Tareas predecesoras** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Tareas predecesoras**.
+
+   >[!TIP]
+   >
+   >   El administrador del grupo o de Workfront podría quitar la sección **Predecesoras** u otras secciones del panel izquierdo.
+
+1. Haga clic en **Añadir predecesora.**
 1. En el campo **Proyecto principal**, empiece a escribir el nombre del proyecto que contiene la tarea que desea que sea la predecesora de la tarea actual.
-1. Haga clic en el nombre cuando aparezca en la lista desplegable.
+1. Haga clic sobre el nombre cuando aparezca en la lista.
 1. En el campo **Tareas**, empiece a escribir el nombre de la tarea que desea que sea la predecesora de la tarea actual.
 1. Especifique la siguiente información para definir la relación entre la tarea predecesora y la dependiente:
 
-   * **Tipo de dependencia:** Seleccione la relación que desea que tenga la tarea predecesora con la tarea dependiente. La relación predeterminada es &quot;Finalizar-Iniciar&quot;, lo que significa que la tarea predecesora debe finalizar antes de que pueda comenzar la tarea dependiente. Para obtener más información acerca de los distintos tipos de dependencias, vea [Información general sobre los tipos de dependencias entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **Retardo:** Especifique la cantidad de tiempo que debe transcurrir después de la finalización de un predecesor forzado hasta que pueda comenzar la tarea dependiente. Para obtener más información acerca de los distintos tipos de retardo, vea [Información general sobre los tipos de retardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Tipo de dependencia:** seleccione la relación que desea que tenga la tarea predecesora con la tarea dependiente. La relación predeterminada es “Finalizar-Iniciar”, lo que significa que la tarea predecesora debe finalizar antes de que pueda comenzar la tarea dependiente. Para obtener más información acerca de los distintos tipos de dependencias, consulte [Información general sobre los tipos de dependencias entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **Forzada:** Cuando se selecciona esta opción, la relación de dependencia entre las dos tareas no se puede evitar si los usuarios inician las tareas de forma anticipada. Por ejemplo, si se aplica una relación entre la Tarea A y la Tarea B, la Tarea B no se puede iniciar hasta que se complete la Tarea A. Para obtener más información sobre cómo aplicar predecesores, vea [Aplicar predecesores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   * **Retardo:** especifique la cantidad de tiempo que debe transcurrir después de la finalización de una predecesora forzada hasta que pueda comenzar la tarea dependiente. Para obtener más información acerca de los distintos tipos de retardo, consulte [Información general sobre los tipos de retardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+
+   * **Forzada:** cuando se selecciona esta opción, la relación de dependencia entre las dos tareas no se puede evitar si los usuarios inician las tareas de forma anticipada. Por ejemplo, si se aplica una relación entre la tarea A y la tarea B, la tarea B no se puede iniciar hasta que se complete la tarea A. Para obtener más información sobre el uso de predecesoras, consulte [Forzar predecesoras](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
      Cuando esta opción no está seleccionada, la dependencia se trata como una sugerencia a los usuarios. Por ejemplo, los usuarios pueden iniciar la Tarea B antes de que se complete la Tarea A.
 
@@ -93,17 +99,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![Predecesora entre proyectos](assets/cross-project-predecessor-in-list-view.png)
 
-   El icono del predecesor se vuelve verde cuando la tarea del predecesor se marca como completada. Esto indica que la tarea dependiente está lista para trabajar.
+   El icono de la predecesora se vuelve verde cuando la tarea predecesora se marca como completada. Esto indica que la tarea dependiente está lista para trabajar.
 
-   Pase el ratón sobre este valor para obtener más información sobre el predecesor, el proyecto y las fechas. Haga clic en la predecesora entre proyectos en el cuadro de detalles para abrir la tarea.
+   Pase el puntero por encima de este valor para obtener más información sobre el predecesor, el proyecto y las fechas. Haga clic en la predecesora entre proyectos en el cuadro de detalles para abrir la tarea.
 
-   Haga clic cerca de la parte superior de la ventana flotante para ver más información sobre el proyecto del predecesor.
+   Haga clic cerca de la parte superior de la ventana flotante para ver más información sobre el proyecto de la predecesora.
 
-   Haga clic en **Ver proyecto** para abrir el proyecto del predecesor.
+   Haga clic en **Ver proyecto** para abrir el proyecto de la predecesora.
 
    ![Detalles de predecesoras entre proyectos](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >
-   >   La opción **Ver proyecto** solo se muestra cuando se ve una predecesora entre proyectos.
+   >   La opción **Ver proyecto** solo se muestra al visualizar una predecesora entre proyectos.
 
