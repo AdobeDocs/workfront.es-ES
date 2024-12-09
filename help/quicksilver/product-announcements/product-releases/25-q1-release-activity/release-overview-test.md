@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 24%
 
 ---
@@ -38,7 +38,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Área</td>
@@ -247,7 +247,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
             Preferencia para utilizar la programación de proyecto o de usuario para tareas de asignación única</a></p>
             <p>Como administrador de sistemas o de grupos, ahora tiene una nueva preferencia que indica si Workfront debe utilizar la programación del proyecto o la del usuario para calcular la escala de tiempo del proyecto cuando asigna un usuario a una tarea y tanto el proyecto como el usuario están asociados a una programación.</p>
         </td>
-        <td><p>16 de noviembre de 2024</p> <p>[!BADGE Nuevo en vista previa ]{type=Negative}<p></td>
+        <td><p>16 de noviembre de 2024</p> <p>[!BADGE Nuevo]{type=Negative}<p></td>
         <td>Diciembre de 2024</td>
         <td>25,1</td>
     </tr>     
@@ -284,8 +284,8 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
             <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
         </td>
         <td>Octubre de 29</td>
-          <td><p>Diciembre de 2024</p><p> [!BADGE In production for Fast Release ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE In production]{type=Positive}</p></td>
+          <td><p>Diciembre de 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
