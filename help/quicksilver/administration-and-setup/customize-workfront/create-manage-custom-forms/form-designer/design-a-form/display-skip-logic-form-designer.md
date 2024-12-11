@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1317'
 ht-degree: 93%
 
 ---
@@ -77,7 +77,7 @@ Seleccione un campo con lógica aplicada para mostrar las reglas lógicas existe
 * Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación) antes de él en el formulario.
 Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * No se puede añadir lógica de omisión a un widget o salto de sección. Solo puede añadirlo a un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación).
-* No se puede aplicar lógica de visualización u omisión para las opciones de un campo de varias opciones. Por ejemplo, no se puede restringir la visualización de las opciones de un campo desplegable, de un grupo de casillas de verificación o de un campo de botón de opción en función de la lógica de visualización u omisión de otro campo.
+* No se puede aplicar la lógica de visualización u omisión para mostrar u ocultar las opciones de un campo de varias opciones. Por ejemplo, no puede restringir las opciones que se muestran para un campo Desplegable, un grupo de casillas de verificación o un campo de botón de opción en función de la lógica de visualización u omisión de otro campo.
 * Puede añadir lógica de visualización y lógica de omisión a un campo personalizado si se cumplen todas las condiciones siguientes en relación con el campo personalizado:
 
    * Es un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación)

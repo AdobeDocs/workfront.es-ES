@@ -6,10 +6,10 @@ description: Como administrador de Adobe Workfront, puede otorgar a los usuarios
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '584'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Junto con el nivel de acceso que concede, un usuario también puede recibir perm
 >
 >Los niveles de permisos funcionan dentro de los niveles de acceso. Por ejemplo, un usuario no puede recibir permisos para Administrar una plantilla si su nivel de acceso solo le permite Ver plantillas.
 
-Los permisos son específicos de un elemento en Workfront y definen qué acciones se pueden realizar sobre ese elemento.
+Los permisos son específicos de un elemento de Workfront y definen qué acciones se pueden realizar sobre ese elemento.
 
 ## Consideraciones al compartir una plantilla
 
@@ -53,13 +53,15 @@ Los permisos son específicos de un elemento en Workfront y definen qué accione
 
 * Cuando comparte una plantilla o un proyecto creado a partir de la plantilla, los usuarios heredan los mismos permisos para todos los objetos secundarios asociados con la plantilla o el proyecto de forma predeterminada.
 
-  Para obtener más información sobre la jerarquía de objetos en Workfront, consulte  [Comprender los objetos de Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Cuando comparte una plantilla, todas las tareas y documentos de plantilla, así como los problemas en el futuro proyecto creado a partir de la plantilla, heredan los mismos permisos, a menos que se especifique lo contrario.
 
   Para obtener información sobre cómo administrar el acceso a las tareas y problemas de plantilla del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [Acceso](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) en el artículo [Editar plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-* El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información acerca de cómo restringir permisos heredados en documentos, vea [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* No puede compartir tareas de plantilla de forma individual. Al compartir una plantilla, también se comparten las tareas de plantilla. Al compartir el proyecto desde la plantilla, también se comparten las tareas de proyecto futuras.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

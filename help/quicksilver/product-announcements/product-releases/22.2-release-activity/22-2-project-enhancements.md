@@ -1,21 +1,21 @@
 ---
-title: 22.2&nbsp;Mejoras del proyecto
-description: 22.2&nbsp;Mejoras del proyecto
+title: 22.2 Mejoras en los proyectos
+description: 22.2 Mejoras en los proyectos
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 1%
+source-wordcount: '1093'
+ht-degree: 63%
 
 ---
 
-# 22.2 Mejoras del proyecto
+# 22.2 Mejoras en los proyectos
 
-Esta página describe todas las mejoras de Project realizadas con la versión 22.2 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción de
+Esta página describe todas las mejoras del proyecto realizadas con la versión 22.2 en el entorno de previsualización. Estas mejoras estarán disponibles en el entorno de producción
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -27,9 +27,9 @@ la semana del 4 de abril de 2022. Para obtener una lista de todos los cambios di
 
 ## Los tableros de Adobe Workfront ya están disponibles.
 
-Los tableros son herramientas flexibles que permiten la colaboración entre equipos al proporcionar acceso a un tablero compartido que contiene columnas y tarjetas.
+Los tableros son herramientas flexibles que permiten la colaboración entre equipos al proporcionar acceso a tableros compartidos que contienen columnas y tarjetas.
 
-Con los tableros, puede:
+Con los tableros, puede hacer lo siguiente:
 
 * Configurar rápidamente un panel de tareas con varias columnas
 * Configurar columnas para mostrar un estado o una categoría
@@ -61,26 +61,26 @@ Las siguientes mejoras adicionales ya están disponibles para los tableros de Wo
 
   Hemos agregado una barra de búsqueda para ayudarte a buscar en todas las tarjetas del tablero.
 
-* Establecer una fecha límite para una tarjeta en los paneles
+* Establecer fechas límite para tarjetas en los tableros
 
   Ahora puede establecer una fecha límite para las tarjetas individuales en el tablero.
 
-Para obtener más información, consulte [Introducción a los tableros en Adobe Workfront](../../../agile/get-started-with-boards/get-started-with-boards.md).
+Para obtener más información, consulte [Introducción a los paneles en Adobe Workfront](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
 ## Opción Deshacer para Actualizar publicaciones
 
-Ahora es más fácil detectar errores al publicar una actualización. Al finalizar un comentario en la pestaña Actualizar de un objeto, ahora se crea una ventana emergente durante 7 segundos que le permite cancelar la publicación y volver a la edición, antes de que el sistema lo marque con la hora o envíe correos electrónicos y notificaciones en la aplicación. Si cierra la ventana emergente, abandona la página o espera 7 segundos a que se agote el tiempo de espera de la ventana, la publicación se realizará de forma normal.
+Ahora es más fácil detectar errores al publicar actualizaciones. Al finalizar un comentario en la pestaña Actualizar de un objeto, ahora se crea una ventana emergente durante 7 segundos que le permite cancelar la publicación y volver a la edición, antes de que el sistema lo marque con la hora o envíe correos electrónicos y notificaciones en la aplicación. Si cierra la ventana emergente, abandona la página o espera 7 segundos a que se agote el tiempo de espera de la ventana, la publicación se realizará de forma normal.
 
 Para obtener más información, consulte [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Experiencia actualizada al copiar y mover problemas
 
-Para que su uso de Workfront sea coherente con la nueva experiencia de Adobe Workfront, hemos rediseñado la interfaz para copiar y mover problemas. Actualmente, esto está disponible al copiar o mover un solo problema o al copiar o mover problemas de forma masiva desde una lista o un informe.
+Para que el uso de Workfront sea coherente con la nueva experiencia de Adobe Workfront, se rediseñó la interfaz para copiar y mover problemas. Actualmente, esto está disponible al copiar o mover un solo problema o al copiar o mover problemas de forma masiva desde una lista o un informe.
 
 Algunas de las mejoras de esta interfaz recién rediseñada incluyen:
 
 * Toda la información que debe actualizarse antes de realizar el movimiento se muestra en una página continua.
-* Workfront comprueba si tiene acceso al proyecto de destino inmediatamente después de elegir el proyecto. Antes de esta mejora, Workfront le advertía de que no tenía el acceso correcto después de confirmar el movimiento, lo que provocaba pasos adicionales y que no se permitía el movimiento.
+* Workfront comprueba si tiene acceso al proyecto de destino inmediatamente después de elegir el proyecto. Antes de esta mejora, Workfront le advertía de que no tenía el acceso correcto después de confirmar el movimiento, lo que daba lugar a pasos adicionales y que no se permitiera el movimiento.
 * Capacidad para solicitar acceso a un proyecto al que desee mover los problemas sin salir del cuadro Mover tarea.
 * Posibilidad de eliminar elementos (asignaciones, progreso, documentos, permisos, actualizaciones) de un problema al moverlo a otra ubicación. Anteriormente, esta funcionalidad solo estaba disponible para copiar problemas.
 * Posibilidad de seleccionar una tarea de destino además de seleccionar un proyecto de destino al copiar un problema.
@@ -92,13 +92,13 @@ Para obtener más información sobre cómo mover o copiar problemas, consulte lo
 
 ## Nueva experiencia al copiar un proyecto
 
-Para que el uso de Workfront sea coherente con la nueva experiencia de Adobe Workfront, hemos rediseñado la interfaz para copiar proyectos. Actualmente, esto está disponible al copiar un proyecto desde la página del proyecto o al copiar un proyecto desde una lista o informe. Antes de esta actualización, solo se podía copiar un proyecto desde la página del proyecto.
+Para que el uso de Workfront sea coherente con la nueva experiencia de Adobe Workfront, se rediseñó la interfaz para copiar proyectos. Actualmente, esto está disponible al copiar un proyecto desde la página del proyecto o al copiarlo desde una lista o informe. Antes de esta actualización, solo se podía copiar un proyecto desde la página del proyecto.
 
 Para obtener más información, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
 
 ## Capacidad para administrar proyectos desde listas e informes desde un nuevo menú Más
 
-Se ha agregado un nuevo menú Más en las listas de proyectos y los informes para permitirle realizar las siguientes acciones desde estas áreas:
+Se añadió un nuevo menú Más en las listas de proyectos e informes para poder realizar las siguientes acciones desde estas áreas:
 
 * Para varios proyectos a la vez:
 * Recalcular escala de tiempo
@@ -111,18 +111,18 @@ Se ha agregado un nuevo menú Más en las listas de proyectos y los informes par
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Recalcular escalas de tiempo de proyectos](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [Recalcular las líneas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Recalcular finanzas del proyecto](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
-* [Editar información en campos de formulario personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [Editar información en campos de formularios personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Exportar un proyecto a un proyecto de Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Suscribirse a elementos en Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Mantener a los usuarios en el tablero, la lista o el informe después de convertir el problema en un proyecto
 
-Para aumentar la eficacia y eliminar el número de clics, hemos publicado una mejora al convertir problemas a proyectos desde una lista, un informe o un panel.
+Para aumentar la eficacia y eliminar el número de clics, se publicó una mejora al convertir problemas en proyectos desde una lista, informe o panel.
 
-Los usuarios permanecen en la lista, el informe o un panel después de convertir un problema en un proyecto en lugar de ser redirigidos a la página del proyecto. Una vez completada la conversión, se muestra una notificación de éxito con el vínculo al proyecto para permitirle navegar fácilmente al proyecto, si es necesario.
+Los usuarios permanecen en la lista, informe o panel después de convertir un problema en un proyecto en lugar de ser redirigidos a la página del proyecto. Una vez completada la conversión, se mostrará una notificación de confirmación de éxito con el vínculo al proyecto para permitirle navegar fácilmente al proyecto, si fuera necesario.
 
 Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
@@ -132,13 +132,13 @@ Para obtener más información, consulte [Convertir un problema en un proyecto e
 >
 >Originalmente, esta función se había planificado para su lanzamiento con la versión 22.2. Se publicará en Production el 21 de abril de 2022.
 
-Para garantizar la precisión de sus datos, hemos realizado un cambio para conservar las horas de asignación y mantener las Horas planificadas de la tarea sin cambios al realizar cambios en las asignaciones de la tarea.
+Para garantizar la precisión de sus datos, hemos realizado un cambio para conservar las horas de asignación y mantener las horas planificadas de la tarea sin cambios al realizar cambios en las asignaciones de la tarea.
 
 Se han realizado los siguientes cambios en las tareas con un tipo de duración simple:
 
-* Las horas planificadas se conservan al eliminar a todas las personas asignadas.
-* Las asignaciones de asignación individuales se conservan al reemplazar usuarios y roles.
-* Las asignaciones de asignación individuales se conservan en el rol al eliminar el usuario. (Se ha eliminado de la versión. Ahora, las horas planificadas se establecerán en 0 después de eliminar a todas las personas asignadas).
+* Las horas planificadas se conservarán al eliminar a todas las personas asignadas.
+* Las asignaciones de asignación individuales se conservan al reemplazar usuarios y funciones.
+* Las asignaciones individuales se conservan en la función al eliminar el usuario. (Se ha eliminado de la versión. Ahora, las horas planificadas se establecerán en 0 después de eliminar a todas las personas asignadas).
 
 Para obtener más información sobre las horas planificadas, consulte [Resumen de horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
 

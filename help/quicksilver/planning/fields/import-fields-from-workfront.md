@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 7%
+source-wordcount: '760'
+ht-degree: 34%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -77,7 +77,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
@@ -104,7 +104,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * Puede agregar campos nativos o personalizados desde los siguientes objetos de Workfront:
    * Portafolio
-   * Programar
+   * Programa
    * Proyecto
    * Tarea
    * Problema
@@ -166,7 +166,7 @@ Todos los demás tipos de campos de Workfront no son compatibles con Workfront P
 
    O
 
-   Pase el ratón sobre el encabezado de cualquier columna, haga clic en la flecha hacia abajo después del nombre del campo y, a continuación, haga clic en **Insertar a la izquierda** o **Insertar a la derecha** para agregar el nuevo campo.
+   Pase el puntero por encima del encabezado de cualquier columna, haga clic en la flecha hacia abajo después del nombre del campo y, a continuación, haga clic en **Insertar a la izquierda** o **Insertar a la derecha** para añadir el nuevo campo.
 1. Haga clic en **Agregar** existente en la esquina inferior derecha de la ficha **Nuevo campo**. <!--check UI - did they change this??-->
 
    ![](assets/add-existing-fields-from-workfront-modal.png)
@@ -180,3 +180,8 @@ Todos los demás tipos de campos de Workfront no son compatibles con Workfront P
 1. Haga clic en **+** y luego en **Agregar campos**.
 Los campos se agregan a la vista de tabla y a las páginas de detalles de los registros.
 
+   >[!IMPORTANT]
+   >
+   >    Hay un límite de 500 campos para cualquier tipo de registro. Los campos existentes junto con los campos importados contribuyen a este límite.
+
+   Los campos añadidos son copias de los campos de Workfront y ya no se conectan a los campos originales en Workfront.

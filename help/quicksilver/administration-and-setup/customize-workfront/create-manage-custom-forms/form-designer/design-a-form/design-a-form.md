@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6534'
 ht-degree: 84%
 
 ---
@@ -328,7 +328,7 @@ Para añadir botones de radio, grupos de casillas de verificación y menús desp
     </tr>
     <tr> 
      <td role="rowheader">Etiqueta</td> 
-     <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
+     <td> <p>(Obligatorio) Escriba una etiqueta descriptiva para mostrar encima del campo personalizado. Puede cambiar la etiqueta en cualquier momento.</p> <p><b>IMPORTANTE</b>: </p> <p>Evite utilizar caracteres especiales en esta etiqueta. No se muestran correctamente en los informes. Para obtener más información, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nombres de campo y etiquetas</a>.</p> </td> 
      <td><ul>
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
@@ -411,13 +411,18 @@ Para añadir botones de radio, grupos de casillas de verificación y menús desp
     <li> <p><strong>Quitar opción</strong>: quite la opción del campo.</p> <p><b>ADVERTENCIA</b>: Si tiene objetos actuales que utilizan esta opción, no la quite del campo. Su eliminación hará que se pierdan datos históricos. En su lugar, seleccione la opción para ocultarla, esto impedirá que los usuarios la seleccionen en el futuro.</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>NOTA:</b></p>
+    <p>No hay límite en cuanto a la cantidad de opciones que se pueden seleccionar. </p>    
+    </td> 
     <td><ul>
     <li>Botones de radio</li>
     <li>Grupo de casillas de verificación</li>
     <li>Lista desplegable de selección única</li>
     <li>Lista desplegable de selección múltiple</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

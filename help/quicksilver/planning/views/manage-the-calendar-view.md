@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
 source-wordcount: '841'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -64,7 +64,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -75,14 +75,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administración de permisos en una vista</p>  
-   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p> </td> 
+   <td>   <p>Permisos de administración de una vista</p>  
+   <p>Permisos de visualización de una vista para cambiar temporalmente su configuración</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -159,13 +159,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Tenga en cuenta lo siguiente:
 
-* Puede crear una vista Calendario únicamente si tiene al menos dos campos de fecha asociados a un tipo de registro. Cuando hay uno o ningún campo de fecha asociado a un tipo de registro, la opción de vista Calendario aparece atenuada.
+* Puede crear una vista de calendario únicamente si tiene al menos dos campos de fecha asociados a un tipo de registro. Cuando hay uno o ningún campo de fecha asociado a un tipo de registro, la opción de vista de calendario aparece atenuada.
 
-  Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado.
-* Existen los siguientes escenarios:
+  Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectados.
+* Se dan los siguientes escenarios:
 
-   * Cuando las fechas de inicio y finalización no tienen valores, los registros no se muestran en el calendario
-   * Cuando las fechas Start o End no tienen valor, el registro se muestra como un evento de un día
+   * Cuando las fechas de inicio y finalización no tienen valores, los registros no se muestran en el calendario.
+   * Cuando las fechas de inicio o finalización no tienen valor, el registro se muestra como un evento de un día.
    * Cuando la fecha de inicio es posterior a la fecha de finalización, el registro no se muestra en el calendario.
 
 Para administrar una vista de calendario:
@@ -181,7 +181,7 @@ Para administrar una vista de calendario:
 
    * Haga clic en los iconos izquierdo y derecho o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en el calendario.
    * Haga clic en **Hoy** para centrar el calendario en la fecha de hoy.
-   * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo:
+   * Seleccione una de las siguientes opciones del menú desplegable de lapso de tiempo para actualizar los incrementos de tiempo:
 
       * **Mes**: los registros se muestran en un calendario mensual.
 
@@ -209,24 +209,24 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de calendario:
 
 * Los filtros que cree para una vista de calendario funcionarán de forma independiente de los filtros de cualquier otra vista aplicada al mismo tipo de registro.
 
-* Los filtros son exclusivos de la vista seleccionada. Dos vistas de calendario del mismo tipo de registro pueden tener diferentes filtros aplicados.
+* Los filtros son exclusivos de la vista que seleccione. Dos vistas de calendario del mismo tipo de registro pueden tener diferentes filtros aplicados.
 
-* Dos usuarios que ven la misma vista de calendario ven el mismo filtro que se aplica actualmente.
+* Dos usuarios que ven la misma vista de calendario ven el mismo filtro que se está aplicando actualmente.
 
-* No puede asignar un nombre a los filtros que genere para una vista de calendario.
+* No puede asignar un nombre a los filtros que usted genere para una vista de calendario.
 
-* Al eliminar los filtros, se eliminan de todos los que tengan acceso al mismo tipo de registro que usted y que muestren la misma vista que usted.
+* Al eliminar los filtros, se eliminan de todos los usuarios que tengan acceso al mismo tipo de registro que usted y que muestren la misma vista que usted.
 
 * Añadir filtros en la vista de calendario es idéntico a añadir filtros en la vista de tabla.
 
-  Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Para obtener más información, consulte la sección “Añadir filtros” en el artículo [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Puede filtrar por campos de registro conectados o campos de búsqueda.
+* Puede filtrar por campos de registro conectados o por campos de búsqueda.
 
 * Puede filtrar por campos de búsqueda que muestren varios valores.
 
 ### Editar la configuración de vista de calendario
 
-Editar la configuración de vista de calendario es idéntico a editar la configuración de una vista de cronología.
+Editar la configuración de vista de calendario es similar a editar la configuración de una vista de cronología.
 
 Para obtener más información, consulte la sección &quot;Editar la configuración de la vista de la cronología&quot; en el artículo [Administrar la vista de la cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).

@@ -6,9 +6,9 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 97%
 
 ---
@@ -812,7 +812,15 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr> 
    <td>[!UICONTROL Document Version]</td> 
    <td> <p>Cada vez que se carga el mismo documento en el mismo objeto, se le asigna un número de versión. Los usuarios pueden ver y cambiar varias opciones de una versión anterior de un documento.</p> <p>Para obtener más información, consulte <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Administrar versiones de documentos</a>.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Due Date]</td> 
+   <td> <p>La fecha en la que se debe completar una tarea o un problema. La fecha de vencimiento de una tarea o problema es la misma fecha que la fecha planificada de finalización.</p>
+    <p>La Fecha de vencimiento de la tarea y el problema se puede ver en las listas y los informes de tareas y problemas.</p> 
+    <p>Consulte también Fecha planificada de finalización en esta tabla. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
    <td> <p>Ventana de tiempo asignado para la finalización de una tarea, problema o proyecto (determinado por el número de días entre el [!UICONTROL Planned Start] y la finalización planificada).</p> 

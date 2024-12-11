@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 2%
+source-wordcount: '943'
+ht-degree: 56%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 Puede usar una plantilla de diseño para configurar lo que los usuarios ven en el panel de resumen cuando hacen clic en una tarea o un problema. Cada configuración que realice siguiendo los pasos siguientes afecta al panel Resumen. Estas personalizaciones no se aplican al panel Resumen del documento.
@@ -29,17 +29,17 @@ Puede usar una plantilla de diseño para configurar lo que los usuarios ven en e
 Puede configurar lo siguiente:
 
 * Qué campos se muestran para una tarea o un problema en el área de Detalles y en qué orden
-* Si se muestran las actualizaciones, la hora registrada, los documentos adjuntos y las marcas de tiempo de una tarea o un problema seleccionados
+* Si se muestran las actualizaciones, el tiempo registrado, los documentos adjuntos y las marcas de tiempo de una tarea o un problema seleccionados
 
-También puede personalizar los campos que ven los usuarios en el área de Inicio cuando hacen clic en una aprobación de proyecto, aprobación de documento o aprobación de versión de documento asignada a ellos.
+También puede personalizar los campos que ven los usuarios en el área de inicio cuando hacen clic en una aprobación de proyecto, aprobación de documento o aprobación de versión de documento que se les asigne.
 
-Para obtener información sobre el Panel de resumen, consulte [Resumen general](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Para obtener información el panel Resumen, consulte [Información general sobre el resumen](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información acerca de las plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -52,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -99,24 +99,24 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Proyectos</td> 
-      <td><ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de proyecto asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
+      <td><ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de proyecto asignada a él, la configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
       <p><b>IMPORTANTE:</b> </p><p>Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
-      <li><span class="preview"><p>Esta área se ha eliminado del entorno de vista previa.</p></li></span></ul> 
+      </ul> 
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
       <td>
-     <ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de documento asignada a él, su configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
+     <ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de documento asignada a él, la configuración de esta opción afecta al área a la derecha de la aprobación.</p>
       <p><b>IMPORTANTE:</b> </p><p> Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
-      <li><span class="preview"><p>Esta área se ha eliminado del entorno de vista previa.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Versiones de documento</td> 
       <td><ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación asignada a él para una versión concreta de un documento, la configuración de esta opción afecta al área a la derecha de la aprobación.</p>
       <p><p><b>IMPORTANTE:</b></p> Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
-      <li><span class="preview"><p>Esta área se ha eliminado del entorno de vista previa.</p></li></span></ul>
+      </ul>
       </td> 
      </tr> 
     </tbody> 
@@ -128,15 +128,15 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 1. (Condicional) Si hizo clic en Tareas o Problemas en el paso anterior, seleccione la categoría de tarea o problema que desee personalizar.
 
-   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Condicional) Si aparece el menú desplegable **Establecer botón de acción principal** (si selecciona **Tareas** o **Problemas** en la lista de la izquierda), haga clic en la acción principal (**Listo** o **Estado**) que desee que esté disponible para los usuarios en el Panel de resumen cuando vean una tarea o un problema.
 
-   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Agregue ![](assets/add-item-plus-in-circle-blue.png) u oculte ![](assets/close-or-hide---x.png) campos para el tipo de objeto seleccionado.
+1. Añada ![](assets/add-item-plus-in-circle-blue.png) u oculte ![](assets/close-or-hide---x.png) campos para el tipo de objeto seleccionado.
 
-   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
+   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Repita los pasos del 3 al 6 para personalizar el Panel de resumen para cualquier otro tipo de objeto.
 1. Haga clic en **Configuración global**, cerca de la esquina inferior izquierda, y luego habilite o deshabilite cualquiera de las siguientes opciones relacionadas con los objetos de Adobe Workfront en el Resumen:
@@ -175,4 +175,4 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
    Si ha terminado de personalizar, haga clic en **Guardar**.
 
-Para obtener más información acerca de las plantillas de diseño, vea [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener más información acerca de las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
