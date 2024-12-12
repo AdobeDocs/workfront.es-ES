@@ -5,13 +5,13 @@ description: Puede cargar archivos desde la lista de trabajos de Prioridades o d
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
-
 
 # Cargar archivos en Prioridades
 
@@ -28,23 +28,23 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront*</td> 
    <td> 
-   <p>Nuevo: Colaborador o superior</p> 
-   <p>Actual: Solicitud o superior</p> </td> 
+   <p>Nuevo: colaborador o superior</p> 
+   <p>Actual: solicitud o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 +++
 
@@ -54,6 +54,7 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 1. Pase el ratón sobre el nombre y luego haga clic en **Cargar**.
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. (Opcional) Seleccione una carpeta.
 1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
@@ -65,7 +66,7 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
    >[!NOTE]
    >
    >Los archivos adicionales se cargan como documentos independientes.
-1. Haga clic en **Cargar**.
+1. Haga clic en **Cargar**
    ![](assets/upload-file-module.png)
 
 
@@ -86,5 +87,5 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
    >[!NOTE]
    >
    >Los archivos adicionales se cargan como documentos independientes.
-1. Haga clic en **Cargar**.
+1. Haga clic en **Cargar**
    ![](assets/upload-file-module.png)

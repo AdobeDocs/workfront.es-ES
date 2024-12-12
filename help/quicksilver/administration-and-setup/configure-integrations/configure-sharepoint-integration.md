@@ -1,5 +1,5 @@
 ---
-title: Configurar la integración de  [!DNL SharePoint]
+title: 'Configurar la integración de  [!DNL SharePoint] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1729'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Configurar la integración de [!DNL SharePoint]
+# Configurar integración de [!DNL SharePoint]
 
 <!--Audited: 12/2023-->
 
@@ -47,7 +47,7 @@ Esta integración solamente es compatible con [!DNL SharePoint Online]. No se ad
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -170,13 +170,13 @@ La reconfiguración de la integración heredada de [!DNL SharePoint] permite a l
 > * La integración heredada [!DNL SharePoint] está etiquetada como &quot;[!DNL SharePoint]&quot;.
 > * La nueva integración de [!DNL SharePoint] está etiquetada como &quot;[!UICONTROL [!DNL SharePoint] (API de gráficos)]&quot;.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo y luego seleccione **[!UICONTROL Proveedores de nube]**.
 1. Asegúrese de que la opción **[!DNL SharePoint]** y la opción **[!UICONTROL [!DNL SharePoint](API de gráficos)]** estén habilitadas.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo, luego seleccione **[!UICONTROL [!DNL SharePoint]Integración]**.
 1. Seleccione la marca de verificación de la izquierda de la lista para todas las integraciones existentes y luego seleccione **[!UICONTROL Deshabilitar]**.
-   ![](assets/disable-old-sharepoint.png)
+
 
 
 ### Configure el Secreto de cliente para el acceso continuo a la integración heredada de [!DNL SharePoint]
@@ -434,7 +434,7 @@ Los usuarios con acceso de [!UICONTROL Control total] tienen todos los permisos 
    <td> <p>Pueden ver, agregar, actualizar, eliminar, aprobar y personalizar</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Editar]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Edit]</p> </td> 
    <td> <p>Puede agregar, editar y eliminar listas; puede ver, agregar, actualizar y eliminar elementos y documentos de la lista</p> </td> 
   </tr> 
   <tr> 

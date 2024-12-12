@@ -5,13 +5,13 @@ description: Puede agregar una actualización a una tarea o un problema para com
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
-
 
 # Agregar y ver comentarios en Prioridades
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver acceso al objeto</p></td> 
+   <td> <p>Acceso de visualización al objeto</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,6 +65,7 @@ Puede añadir un comentario desde la lista de trabajo:
 1. Busque el elemento de trabajo que desea actualizar.
 1. Pase el ratón sobre el nombre y luego haga clic en **Agregar nueva actualización**.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Empiece a escribir el comentario.
 1. (Opcional) En el cuadro **Etiquetar personas o equipos**, empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes al comentario para mejorar el contenido.

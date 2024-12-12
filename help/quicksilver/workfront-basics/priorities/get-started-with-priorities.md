@@ -5,13 +5,13 @@ description: Prioridades es una experiencia intuitiva y optimizada, adaptada a l
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 3%
+source-wordcount: '953'
+ht-degree: 8%
 
 ---
-
 
 # Introducción a [!DNL Priorities]
 
@@ -91,7 +91,6 @@ Encuentre su trabajo más importante con filtros. Puede filtrar las tareas y los
 
 Después de filtrar el trabajo, puede agrupar los elementos en función de
 
-* Ninguno
 * Mi enfoque
 * Vence la semana
 * Estado
@@ -104,15 +103,16 @@ Para obtener más información, vea [Filtrar y agrupar su trabajo en Prioridades
 Mi enfoque es una columna de la lista de trabajo que le ayuda a priorizar su trabajo. El valor de Mi enfoque es personal y no afecta a los datos de proyectos, tareas o problemas. Puede utilizar los siguientes niveles de enfoque:
 
 * Urgente
-* Principal
-* Secundario
+* Alto
 * Normal (predeterminado)
+* Bajo
 
 Una vez que haya asignado niveles de enfoque a los elementos de trabajo, puede ordenar la columna para que aparezcan elementos urgentes en la parte superior de la lista de trabajo.
 
 Para obtener más información, vea [Priorizar elementos de trabajo importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Usar la vista de calendario [!BADGE Próximamente]{type=Informative}
 
@@ -141,14 +141,16 @@ La sección Actualizaciones muestra las actualizaciones del sistema y hasta 200 
 Para obtener más información, vea [Agregar y ver comentarios en Prioridades](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Hora de registro
 
-Puede registrar el tiempo de los elementos de trabajo para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. La hora que registre se mostrará en la hoja de horas.
+Puede registrar el tiempo de los elementos de trabajo para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar el tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. El tiempo que registre se mostrará en la plantilla de horas.
 
 Para obtener más información, vea [Registrar tiempo en prioridades](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Cargar archivos
 
@@ -162,6 +164,7 @@ Cargue los archivos directamente en el área Documentos de la tarea o del proble
 Para obtener más información, consulte [Cargar archivos en Prioridades](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Ver documentos [!BADGE próximamente]{type=Informative}
 
@@ -197,5 +200,3 @@ Use la característica [!DNL Catch me up] para ver lo que se perdió. Ponerme al
 
 * Los administradores de Workfront no pueden personalizar prioridades a través de la plantilla de diseño en este momento.
 * El acceso a las tareas en Prioridades se realiza entre pestañas. En el futuro, planeamos agregar pestañas adicionales, como Documentos, Subtareas, Aprobaciones, etc. Infórmenos de que necesitas estos artículos enviando comentarios usando el botón **Enviar comentarios**.
-
-

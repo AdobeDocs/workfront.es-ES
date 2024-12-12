@@ -5,13 +5,13 @@ description: Puede crear nuevas tareas y problemas directamente desde Prioridade
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 3%
+source-wordcount: '241'
+ht-degree: 32%
 
 ---
-
 
 # Crear una nueva tarea o problema en Prioridades
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver acceso al objeto</p></td> 
+   <td> <p>Acceso de visualización al objeto</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,6 +69,7 @@ Para crear una tarea o un problema en un proyecto:
 
 1. Haga clic en **Crear nuevo** en la esquina superior derecha.
    ![](assets/create-new.png)
+&lt;!—nueva pantalla para el producto ![](assets/create-new--.png)—>
 1. Especifique la siguiente información:
 
    | Campo | Instrucciones |
@@ -81,4 +82,3 @@ Para crear una tarea o un problema en un proyecto:
    | Fecha de vencimiento (opcional) | Elija una fecha límite. |
 
 1. Haga clic en **Crear**.
-
