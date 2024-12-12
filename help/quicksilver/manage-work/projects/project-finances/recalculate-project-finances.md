@@ -6,7 +6,7 @@ description: Las finanzas se calculan en un proyecto a medida que se producen ca
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
+source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 98%
@@ -18,6 +18,8 @@ ht-degree: 98%
 Las finanzas se calculan en un proyecto a medida que se producen cambios en las horas registradas para el proyecto o en las tarias usadas para calcular costes e ingresos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -44,6 +46,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
 ## Consideraciones sobre el cálculo de finanzas en Adobe Workfront
@@ -58,13 +64,11 @@ Cuando la tarifa de un usuario o un rol cambia mientras dura un proyecto, puede 
 * Cuando se realiza el cambio, la tarifa actualizada se utiliza a partir de ese momento, a medida que se registran las horas y se calcula la información financiera. Cambiar la tarifa no afecta a cómo se calcularon las cosas antes de realizar el cambio. Para todas las horas existentes registradas, se utiliza la tarifa antigua para calcular la información financiera.
 * Puede obligar a Adobe Workfront a utilizar la nueva tarifa de forma retroactiva para todas las horas registradas hasta el momento, utilizando la opción Recalcular finanzas. Esto obliga a Workfront a volver a calcular de forma retroactiva todas las horas introducidas anteriormente, los costes planificados y los ingresos de acuerdo con la información de la nueva tarifa.
 
-El tipo de informe Proyecto (datos financieros) no se recalcula automáticamente antes de cargar los datos. Para actualizar los datos de este tipo de informe, debe volver a calcular manualmente las finanzas en proyectos individuales.
+El tipo de informe Proyecto (datos financieros) no vuelve a calcular automáticamente los datos financieros. Para actualizar los datos de este tipo de informe, debe volver a calcular manualmente las finanzas en proyectos individuales.
 
 >[!CAUTION]
 >
 >Antes de recalcular manualmente las finanzas de un proyecto determinado, es posible que desee conservar los datos financieros que ya se hayan calculado con una tarifa anterior. Se recomienda utilizar la opción Recalcular finanzas solo cuando tenga la seguridad de que no está realizando cambios en la información existente o solo cuando dichos cambios sean deseados.
->
->Fíjese en que, al ejecutar un informe de proyecto (datos financieros), se vuelven a calcular los datos financieros y, como tal, debe tener en cuenta las mismas consideraciones antes de ejecutar el informe.
 
 ## Conservar datos financieros de tareas con horas existentes {#preserve-financial-data-for-tasks-with-existing-hours}
 
