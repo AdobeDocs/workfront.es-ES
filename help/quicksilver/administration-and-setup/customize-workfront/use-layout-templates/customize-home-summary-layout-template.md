@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 56%
+source-wordcount: '753'
+ht-degree: 59%
 
 ---
 
@@ -97,34 +97,38 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
       <td role="rowheader">Problemas</td> 
       <td><p>En una lista de problemas, esta configuración afecta al panel de resumen que se muestra en el lado derecho de la página cuando un usuario selecciona un problema y luego hace clic en el icono Abrir resumen <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Proyectos</td> 
-      <td><ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de proyecto asignada a él, la configuración para esta configuración afecta al área a la derecha de la aprobación.</p>
-      <p><b>IMPORTANTE:</b> </p><p>Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Documentos</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación de documento asignada a él, la configuración de esta opción afecta al área a la derecha de la aprobación.</p>
-      <p><b>IMPORTANTE:</b> </p><p> Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Versiones de documento</td> 
-      <td><ul><li><p>En Inicio, cuando un usuario hace clic en una aprobación asignada a él para una versión concreta de un documento, la configuración de esta opción afecta al área a la derecha de la aprobación.</p>
-      <p><p><b>IMPORTANTE:</b></p> Esta función está en desuso. Cualquier cambio que realice en esta área está relacionado con una función que Workfront ha eliminado. Esta opción se eliminará de Workfront con una actualización de mantenimiento posterior.</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >Si una tarea no está asignada, el usuario asignado a la plantilla de diseño no verá las personalizaciones de campo en el Resumen.
+
+>[!IMPORTANT]
+>
+>Si una tarea no está asignada, el usuario asignado a la plantilla de diseño no verá las personalizaciones de campo en el Resumen.
 
 1. (Condicional) Si hizo clic en Tareas o Problemas en el paso anterior, seleccione la categoría de tarea o problema que desee personalizar.
 
