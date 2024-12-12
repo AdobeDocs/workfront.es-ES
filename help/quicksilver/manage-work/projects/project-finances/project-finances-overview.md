@@ -2,70 +2,70 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Finanzas del proyecto: índice de artículos"
-description: Los siguientes artículos contienen información sobre áreas en las que puede encontrar información financiera del proyecto y sobre cómo administrar las finanzas del proyecto.
-author: Alina
+title: 'Finanzas del proyecto: Índice de artículos'
+description: Los siguientes artículos contienen información sobre áreas en las que puede encontrar información financiera del proyecto y sobre cómo administrar las finanzas del mismo.
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
-# Finanzas del proyecto: índice del artículo
+# Finanzas del proyecto: índice de artículos
 
 Para obtener información sobre las áreas en las que puede encontrar información financiera del proyecto y sobre cómo administrar las finanzas del proyecto, consulte los siguientes artículos:
 
 ## Finanzas generales del proyecto
 
-[Resumen de finanzas del proyecto](../../../manage-work/projects/project-finances/project-finances-overview-1.md)
+[Información general sobre las finanzas del proyecto](../../../manage-work/projects/project-finances/project-finances-overview-1.md)
 
-[Administrar información en el área de finanzas del proyecto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+[Administrar información en el área Finanzas del proyecto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
-[Cambiar la divisa del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md)
+[Cambiar la moneda del proyecto](../../../manage-work/projects/project-finances/change-project-currency.md)
 
 [Finanzas del proyecto incluidas en las bases de referencia del proyecto](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
 
 ## Métricas y cálculos del proyecto
 
-[Recalcular finanzas del proyecto](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+[Recalcular las finanzas de un proyecto](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 
 [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md)
 
 [Calcular el retorno de la inversión (ROI)](../../../manage-work/projects/project-finances/calculate-roi.md)
 
-[Calcular índice de rendimiento del horario (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
+[Calcular el índice de rendimiento de programación (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
 
 [Calcular estimación al finalizar (EAC)](../../../manage-work/projects/project-finances/calculate-eac.md)
 
-[Calcular índice de rendimiento de horario de costes (CSI)](../../../manage-work/projects/project-finances/calculate-csi.md)
+[Calcular el índice de rendimiento de programación de costes (CSI)](../../../manage-work/projects/project-finances/calculate-csi.md)
 
-[Calcular índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)
+[Calcular el índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)
 
-[Calcular costo presupuestado de trabajo realizado (CPTR)](../../../manage-work/projects/project-finances/calculate-bcwp.md)
+[Calcular el coste presupuestado de trabajo realizado (CPTR)](../../../manage-work/projects/project-finances/calculate-bcwp.md)
 
-[Calcular costo presupuestado de trabajo programado (CPTP)](../../../manage-work/projects/project-finances/calculate-bcws.md)
+[Calcular coste presupuestado de trabajo programado (CPTP)](../../../manage-work/projects/project-finances/calculate-bcws.md)
 
 [Calcular valor neto](../../../manage-work/projects/project-finances/calculate-net-value.md)
 
-[Calcular costo de riesgo potencial](../../../manage-work/projects/project-finances/potential-risk-cost.md)
+[Calcular el coste potencial de riesgos](../../../manage-work/projects/project-finances/potential-risk-cost.md)
 
-[Visión General de Beneficio Planificado del Proyecto](../../../manage-work/projects/project-finances/project-planned-benefit.md)
+[Información general de Beneficio planificado del proyecto](../../../manage-work/projects/project-finances/project-planned-benefit.md)
 
 ## Costes, ingresos y gastos
 
-[Seguimiento de costes](../../../manage-work/projects/project-finances/track-costs.md)
+[Realizar un seguimiento de los costes](../../../manage-work/projects/project-finances/track-costs.md)
 
 [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md)
 
-[Calcular costo presupuestado](../../../manage-work/projects/project-finances/budgeted-cost.md)
+[Calcular el coste presupuestado](../../../manage-work/projects/project-finances/budgeted-cost.md)
 
-[Comprender el costo laboral presupuestado y las horas presupuestadas de los proyectos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
+[Comprender el coste presupuestado de la mano de obra y las horas presupuestadas para proyectos](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
 
-[Calcular costo laboral planificado](../../../manage-work/projects/project-finances/planned-labor-cost.md)
+[Calcular coste planificado de mano de obra](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
@@ -77,14 +77,14 @@ Para obtener información sobre las áreas en las que puede encontrar informaci�
 
 ## Tarifas de facturación
 
-[Resumen de facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
+[Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
 
 [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-[Anular Tarifas de facturación a nivel de proyecto con Tarifas de facturación a nivel de compañía](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
+[Anular las tarifas de facturación a nivel de proyecto con las tarifas de facturación a nivel de compañía](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[Resumen de anulación de Tarifas de facturación de rol y cálculo de ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[Información general sobre cómo anular las tarifas de facturación de funciones y calcular los ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
-[Anular tarifas de facturación de rol en el nivel de proyecto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+[Anular tarifas de facturación de funciones a nivel de proyecto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
-[Adjuntar una tarjeta de tarifa a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+[Adjuntar una tarjeta de tarifas a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)

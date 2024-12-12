@@ -2,29 +2,31 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular índice de rendimiento de costes (CPI)
-description: El índice de rendimiento de costos (CPI) describe la relación en el nivel de proyecto o tarea entre el costo planificado y el costo real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al costo en un momento determinado.
-author: Alina
+title: Calcular el índice de rendimiento de costes (CPI)
+description: El índice de rendimiento de costes (CPI) describe la relación en el nivel de proyecto o tarea entre el coste planificado y el coste real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado.
+author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '612'
+ht-degree: 100%
 
 ---
 
-# Calcular índice de rendimiento de costes (CPI)
+# Calcular el índice de rendimiento de costes (CPI)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-El índice de rendimiento de costos (CPI) describe la relación en el nivel de proyecto o tarea entre el costo planificado y el costo real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al costo en un momento determinado. El costo se puede medir en horas o dólares, según el método de índice de rendimiento (PIM). Para obtener más información acerca de cómo establecer el método de índice de rendimiento, vea [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+El índice de rendimiento de costes (CPI) describe la relación en el nivel de proyecto o tarea entre el coste planificado y el coste real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado. El coste se puede medir en horas o dólares, según el método de índice de rendimiento (PIM). Para obtener más información acerca de cómo establecer el método de índice de rendimiento, consulte [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
-Solo las organizaciones que requieren introducir tiempo pueden utilizar CPI. Además, los valores de PIM basados en costes solo son precisos en organizaciones que han definido tasas de coste para los usuarios asignados a tareas (roles de trabajo o usuarios).
+Solo las organizaciones que requieren la introducción de tiempo pueden utilizar CPI. Además, los valores de PIM basados en costes solo son precisos en organizaciones que han definido tarifas de coste para los usuarios asignados a tareas (funciones o usuarios).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -33,48 +35,53 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: Light o superior</p>
+   <p>o</p>
+   <p>Actual: revisión o superior</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver acceso a proyectos y datos financieros</p> <p> Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Ver el acceso a proyectos y datos financieros</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o permisos superiores al proyecto con permisos para Ver finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Permisos de visualización o superiores al proyecto con permisos para Ver finanzas</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Resumen del índice de rendimiento de costes (CPI)
++++
 
-* [El valor CPI](#the-cpi-value)
-* [Cómo se calcula el IPC](#how-cpi-is-calculated)
+## Información general sobre el índice de rendimiento de costes (CPI)
 
-### El valor del IPC {#the-cpi-value}
+* [El valor de CPI](#the-cpi-value)
+* [Cómo se calcula el CPI](#how-cpi-is-calculated)
 
-Los jefes de proyecto entienden que un valor de CPI de 1 significa que el proyecto se ajusta exactamente al presupuesto. Los valores mayores que 1 indican que un proyecto está por debajo del presupuesto (se han registrado menos horas o gastos de los planeados originalmente) y los valores menores que 1 significan que un proyecto está por encima del presupuesto (se han registrado más horas o gastos de los planeados originalmente). Cuanto más lejos esté 1, mayor será la desviación con respecto al plan.
+### El valor de CPI {#the-cpi-value}
 
-| **Valor CPI** | **Indicación en el presupuesto** |
+Los administradores del proyecto entienden que un valor 1 de CPI significa que el proyecto se ajusta exactamente al presupuesto. Los valores mayores que 1 indican que un proyecto está por debajo del presupuesto (se han registrado menos horas o gastos de los previstos originalmente) y los valores menores que 1 significan que un proyecto está por encima del presupuesto (se han registrado más horas o gastos de los previstos originalmente). Cuanto más se aleje de 1, mayor será la desviación con respecto al plan.
+
+| **Valor de CPI** | **Indicación sobre el presupuesto** |
 |---|---|
 | 1 | Dentro del plan o presupuesto |
 | > 1 (mayor que 1) | Por debajo del presupuesto |
 | &lt; 1 (menos de 1) | Presupuesto excesivo |
 
 
-### Cómo se calcula el IPC {#how-cpi-is-calculated}
+### Cómo se calcula el CPI {#how-cpi-is-calculated}
 
-En Adobe Workfront, el cálculo del CPI depende del método de índice de rendimiento seleccionado para el proyecto. Para obtener más información acerca de cómo establecer el método de índice de rendimiento, vea [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+En Adobe Workfront, el cálculo del CPI depende del método de índice de rendimiento seleccionado para el proyecto. Para obtener más información acerca de cómo establecer el método de índice de rendimiento, consulte [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 * [Cálculos de CPI al usar PIM basados en horas](#cpi-calculations-when-using-hour-based-pim)
-* [Cálculos de CPI al usar PIM basado en costos](#cpi-calculations-when-using-cost-based-pim)
+* [Cálculos de CPI al usar PIM basado en costes](#cpi-calculations-when-using-cost-based-pim)
 
 #### Cálculos de CPI al usar PIM basado en horas {#cpi-calculations-when-using-hour-based-pim}
 
@@ -84,7 +91,7 @@ Si
 Actual Hours > 0 THEN CPI = Total Budgeted Cost Work Performed / Actual Hours
 ```
 
-Caso contrario
+En caso contrario
 
 ```
 CPI = 1
@@ -102,9 +109,9 @@ Trabajo presupuestado total realizado = la suma del campo Trabajo presupuestado 
 * **Para un proyecto:**
 Trabajo presupuestado total realizado = la suma del campo Trabajo presupuestado total realizado para todas las tareas de nivel superior (tareas principales y autónomas).
 
-Para obtener información sobre el trabajo de costo presupuestado total realizado (CPTR), vea [Calcular el trabajo de costo presupuestado realizado (CPTR)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Para obtener información sobre el coste presupuestado total de trabajo realizado (CPTR), consulte [Calcular el coste presupuestado total de trabajo realizado (CPTR)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-#### Cálculos de CPI al usar PIM basado en costos {#cpi-calculations-when-using-cost-based-pim}
+#### Cálculos de CPI al usar PIM basado en costes {#cpi-calculations-when-using-cost-based-pim}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>CPI = (Planned Cost of Work Performed + Planned Cost of Incurred Expenses) / (Total Actual Cost + Actual Cost of Incurred Expenses) </code> </p>
@@ -122,7 +129,7 @@ Actual Labor Cost + Incurred Actual Expense Cost <> 0 THEN CPI = (Total Budgeted
 
 
 
-Caso contrario
+En caso contrario
 
 ```
 CPI = 1
@@ -142,7 +149,7 @@ Total Actual Cost = Actual (logged) Hours * Hourly Rate of assignees
 Incurred Actual Expense Cost = Actual Cost
 ```
 
-Gasto incurrido es el gasto en el cual el costo real es > 0
+El gasto incurrido es el gasto en el cual el coste real es > 0
 
 ```
 Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expenses
@@ -154,7 +161,7 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Old calculation - taken out by Lilit and replaced below: Planned Cost of Work Performed= (planned labor cost) * (percent complete) / 100 where planned labor cost is the planned hours allocated to assignees * their rates.)</p>
   -->
 
-* El costo planificado del trabajo realizado se calcula mediante la siguiente fórmula:
+* El coste planificado del trabajo realizado se calcula mediante la siguiente fórmula:
 
   ```
   Planned Cost of Work Performed = Planned cost * Percent Complete / 100
@@ -184,13 +191,13 @@ El Trabajo total presupuestado realizado se calcula para lo siguiente:
 
 ## Localizar CPI en un proyecto o tarea
 
-Puede mostrar el CPI de un proyecto o una tarea en una lista de proyectos o tareas o en un informe. Además, puede verlo en el nivel de proyecto o tarea.
+Puede mostrar el CPI de un proyecto o una tarea en una lista de proyectos o tareas o en un informe. Además, puede verlo a nivel de proyecto o de tarea.
 
 1. Vaya al proyecto o tarea donde desee ver el CPI.
-1. Expanda **Detalles del proyecto** o **Detalles de la tarea** en el panel izquierdo, dependiendo de si está viendo el CPI de un proyecto o tarea.
+1. Expanda **Detalles del proyecto** o **Detalles de la tarea** en el panel izquierdo, según si está viendo el CPI de un proyecto o tarea.
 
 1. Haga clic en **Finanzas**.
 
-   El CPI se muestra en el campo **CPI/ SPI/ CSI**.
+   El CPI se muestra en el campo **CPI/SPI/CSI**.
 
    ![](assets/cpi-on-project-nwe.png)

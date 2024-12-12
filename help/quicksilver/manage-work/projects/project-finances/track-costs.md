@@ -7,14 +7,14 @@ description: Puede realizar un seguimiento de los costos de los proyectos, las t
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '2480'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Seguimiento de costes
+# Realizar un seguimiento de los costes
 
 <!-- Audited: 02/2024 -->
 
@@ -26,7 +26,7 @@ Para realizar un seguimiento de los costes, debe asociar los usuarios y las func
 
 Las tasas de coste por hora son cantidades de costes por unidad de trabajo asociados con roles o usuarios. Multiplicar las tasas por las horas invertidas en el trabajo genera costos para sus proyectos, tareas o problemas.
 
-Existen los siguientes escenarios:
+Se dan los siguientes escenarios:
 
 * Si el Tipo de costo de las tareas es Usuario por hora, la tarifa por hora del usuario calcula los costos de la tarea y del proyecto.
 
@@ -47,9 +47,9 @@ Existen los siguientes escenarios:
 Workfront calcula una serie de índices de rendimiento de costes para los proyectos, de modo que se pueda realizar un seguimiento de los proyectos para comprobar su rentabilidad.\
 Para obtener más información sobre el cálculo de índices de rendimiento de costes, consulte:
 
-* [Calcular el índice de rendimiento de costos (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)
-* [Calcular índice de rendimiento de horario de costos (CSI)](../../../manage-work/projects/project-finances/calculate-csi.md)
-* [Calcular índice de rendimiento del horario (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
+* [Calcular el índice de rendimiento de costes (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)
+* [Calcular índice de rendimiento de programación de costes (CSI)](../../../manage-work/projects/project-finances/calculate-csi.md)
+* [Calcular el índice de rendimiento de programación (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
 
 ## Cómo Workfront realiza un seguimiento de los costos de tareas y proyectos
 
@@ -160,13 +160,13 @@ La tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fec
 >
 >* De forma predeterminada, Workfront utiliza la tarifa Costo por hora del usuario para calcular el Costo de mano de obra real.
 >* Si el usuario que registra la hora no está asociado a ningún coste, Workfront utiliza la tasa de coste por hora de la función principal del usuario.
->* Si el administrador de Workfront habilitó la opción **Asignar roles a las entradas de horas manualmente** en el área de Preferencias de horas y hojas de horas de Configuración y el usuario que inicia sesión en el proyecto selecciona una función diferente para asociarla a esta hora, el costo real del proyecto se calcula en función de la función especificada cuando se registraron las horas. Para obtener información acerca de cómo habilitar el registro de tiempo para un rol específico, consulte el artículo [Configurar preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+>* Si el administrador de Workfront habilitó la opción **Asignar roles a las entradas de horas manualmente** en el área de Preferencias de horas y hojas de horas de Configuración y el usuario que inicia sesión en el proyecto selecciona una función diferente para asociarla a esta hora, el costo real del proyecto se calcula en función de la función especificada cuando se registraron las horas. Para obtener información sobre la habilitación del tiempo de registro para una función específica, consulte el artículo [Configurar preferencias de plantillas de horas y de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ### Cómo calcula Workfront los tipos de coste de las tareas {#how-workfront-calculates-cost-types-for-tasks}
 
-El costo planificado y real de las tareas y sus costos de mano de obra están determinados por el tipo de costo de cada tarea.
+El coste planificado y real de las tareas y sus costes de mano de obra vienen determinados por el tipo de coste de cada tarea.
 
-Puede configurar el Tipo de costo para tareas individuales dentro del proyecto. Cada tipo de coste afecta a los valores de Coste planificado y Coste real.
+Puede configurar el Tipo de coste para tareas individuales dentro del proyecto. Cada tipo de coste afecta a los valores de Coste planificado y Coste real.
 
 Para obtener información acerca de cómo modificar el tipo de costo de una tarea, vea [Actualizar tipo de costo de tarea](../../../manage-work/tasks/task-information/update-task-cost-type.md).
 
@@ -191,7 +191,7 @@ En la tabla siguiente se describen los tipos de coste de tarea disponibles en Wo
   </tr> 
   <tr> 
    <td> <p>Rol por hora</p> </td>
-   <td> <p><strong>Costo planificado</strong> se calcula mediante la siguiente fórmula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>donde el costo de mano de obra planificado para la tarea se calcula mediante:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Si asigna varios recursos a una tarea, Workfront ajusta los cálculos de las horas planificadas en función del porcentaje de la tarea asignada a cada recurso. Además, la tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fecha de la tasa.</p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>donde el costo de mano de obra real de la tarea se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por ejemplo, una tarea se asigna a un rol o a un usuario con un rol para el cual la tasa de costo por hora es de $20. Cuando un usuario registra 5 horas para una tarea, el costo de mano de obra real es de 100 $ para esa tarea. Si el usuario asignado a la tarea no tiene una función de trabajo asociada a él en la tarea, el coste real se calcula según la tasa de coste por hora de su rol principal. Si no tienen un rol o la tasa de costo por hora de su rol no está definida, el costo real de la tarea es cero. </p> <p>Nota: Las horas reales de una tarea de rol por hora se calculan según los roles de trabajo de los usuarios asociados a la tarea, no según los roles asociados al usuario que está registrando la hora. Además, la tarifa por hora de facturación en la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</p> <p>Si el administrador de Workfront habilitó la opción <strong>Asignar roles a las entradas de hora manualmente</strong> en el área Preferencias de horas y hojas de horas en Configuración y el usuario que registra el tiempo en la tarea selecciona una función diferente para asociarla con este tiempo, el costo real de una tarea por hora de función calcula según la función especificada cuando se registraron las horas. Para obtener información acerca de cómo habilitar el registro de tiempo para un rol específico, consulte el artículo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar preferencias de horas y hojas de horas</a>.</p> </p> </td> 
+   <td> <p><strong>Costo planificado</strong> se calcula mediante la siguiente fórmula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>donde el costo de mano de obra planificado para la tarea se calcula mediante:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Si asigna varios recursos a una tarea, Workfront ajusta los cálculos de las horas planificadas en función del porcentaje de la tarea asignada a cada recurso. Además, la tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fecha de la tasa.</p> <p><strong>Costo real</strong> se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>donde el costo de mano de obra real de la tarea se calcula mediante:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por ejemplo, una tarea se asigna a un rol o a un usuario con un rol para el cual la tasa de costo por hora es de $20. Cuando un usuario registra 5 horas para una tarea, el costo de mano de obra real es de 100 $ para esa tarea. Si el usuario asignado a la tarea no tiene una función de trabajo asociada a él en la tarea, el coste real se calcula según la tasa de coste por hora de su rol principal. Si no tienen un rol o la tasa de costo por hora de su rol no está definida, el costo real de la tarea es cero. </p> <p>Nota: Las horas reales de una tarea de rol por hora se calculan según los roles de trabajo de los usuarios asociados a la tarea, no según los roles asociados al usuario que está registrando la hora. Además, la tarifa por hora de facturación en la fórmula tiene en cuenta cualquier cambio de fecha en vigor de la tarifa.</p> <p>Si el administrador de Workfront habilitó la opción <strong>Asignar roles a las entradas de hora manualmente</strong> en el área Preferencias de horas y hojas de horas en Configuración y el usuario que registra el tiempo en la tarea selecciona una función diferente para asociarla con este tiempo, el costo real de una tarea por hora de función calcula según la función especificada cuando se registraron las horas. Para obtener información sobre la habilitación del tiempo de registro para una función específica, consulte el artículo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar preferencias de plantillas de horas y de horas</a>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fijo por hora</p> </td> 

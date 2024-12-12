@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: Anular tarifas de facturación de rol en el nivel de proyecto
-description: Como jefe de proyecto, puede especificar la tarifa de facturación de un rol en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para este rol. Workfront utiliza la tasa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tasa de facturación en el nivel de sistema.
-author: Alina
+description: Como gerente del proyecto, puede especificar cuál es la tarifa de facturación de una función en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para esta función. Workfront utiliza la tarifa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tarifa de facturación en el nivel de sistema.
+author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 32%
 
 ---
 
-# Anular tarifas de facturación de rol en el nivel de proyecto
+# Anular tarifas de facturación de funciones a nivel de proyecto
 
-Como jefe de proyecto, puede especificar la tarifa de facturación de un rol en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para este rol. Workfront utiliza la tasa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tasa de facturación en el nivel de sistema.
+Como gerente del proyecto, puede especificar cuál es la tarifa de facturación de una función en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para esta función. Workfront utiliza la tarifa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tarifa de facturación en el nivel de sistema.
 
 Este artículo describe cómo puede anular las tarifas de facturación de funciones del sistema para un proyecto.
 
@@ -25,9 +25,11 @@ Para obtener más información sobre qué rol se usa para calcular los ingresos 
 
 >[!NOTE]
 >
->En el caso de los ingresos reales, las tarifas de facturación aplicadas a las horas que se agregan a un Registro de facturación que está marcado como Facturado, no deben verse afectadas por las anulaciones de tarifas de facturación que ocurren después de que se haya facturado el Registro de facturación.
+>En el caso de los ingresos reales, las tarifas de facturación aplicadas a las horas que se añaden a un Registro de facturación que está marcado como Facturado, no deben verse afectadas por las anulaciones de tarifas de facturación que ocurren después de que se haya facturado el Registro de facturación.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -36,27 +38,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Nuevo: estándar</p>
+   <p>o</p>
+   <p>Actual: plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos y datos financieros</p> <p>Acceso administrativo para funciones del puesto</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a proyectos y datos financieros</p> <p>Acceso administrativo para funciones del puesto</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para el proyecto que incluye Editar datos financieros </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td>Administrar permisos para el proyecto que incluye Editar datos financieros </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Anular tarifas de facturación de rol en el nivel de proyecto
++++
+
+## Anular tarifas de facturación de funciones a nivel de proyecto
 
 Puede anular la tasa de facturación de un rol en un proyecto de las siguientes maneras:
 
@@ -98,7 +105,7 @@ Para sustituir una tarifa de facturación para un proyecto:
 
    ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
-1. La zona horaria de las fechas que seleccione se mostrará en la parte inferior del cuadro Nueva tarifa de facturación. Esta es la zona horaria asociada a la instancia de Workfront, como se muestra en el área de Información del cliente de la Configuración. Para obtener más información, vea [Configurar información básica para el sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+1. La zona horaria de las fechas que seleccione se mostrará en la parte inferior del cuadro Nueva tarifa de facturación. Esta es la zona horaria asociada a la instancia de Workfront, como se muestra en el área de Información del cliente de la Configuración. Para obtener más información, consulte [Configurar información básica para el sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. Workfront aplica la tasa de rol de reemplazo a las horas que ocurren durante los lapsos de tiempo especificados al calcular los ingresos en el proyecto.
 1. No debe haber espacios entre los marcos de tiempo de dos tasas de anulación. La **fecha de inicio** de una tasa de invalidación debe ser el día inmediatamente posterior a la **fecha de finalización** de la fecha de invalidación anterior.
 
