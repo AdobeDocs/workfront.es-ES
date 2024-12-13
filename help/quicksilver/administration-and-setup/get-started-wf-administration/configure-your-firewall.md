@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
+>El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
 >
 >Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
@@ -51,7 +51,7 @@ También debe abrir ciertos puertos para que los mensajes de correo electrónico
 Si su organización tiene el plan Enterprise, también puede configurar dos listas de permitidos de Workfront:
 
 * **lista de permitidos por correo electrónico**: permite controlar dónde pueden enviar los usuarios los datos almacenados en Workfront. Para obtener más información, consulte [Configuración de la lista de permitidos por correo electrónico](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **lista de permitidos IP**: limita el acceso a Workfront a 45 direcciones IP o rangos de direcciones IP que especifique, lo que proporciona un nivel de seguridad adicional para la aplicación Workfront. Para obtener más información, consulte [Restringir el acceso a Adobe Workfront por dirección IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **lista de permitidos IP**: limita el acceso a Workfront a 75 direcciones IP o rangos de direcciones IP que especifique, lo que proporciona un nivel de seguridad adicional para la aplicación Workfront. Para obtener más información, consulte [Restringir el acceso a Adobe Workfront por la dirección IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Busque el clúster de Workfront
 
@@ -102,15 +102,15 @@ Si el entorno de producción está en el clúster 1, 2, 3, 5, 7, 8 o 9, debe per
    <td> 
     <ul> 
      <li>35.160.0.242</li> 
-     <li>34 213 36 118</li> 
+     <li>34.213.36.118</li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
      <li>34.211.224.9</li> 
-     <li>54 218 48 56</li> 
-     <li>52 36 154 34</li> 
-     <li>54 244 142 219</li> 
+     <li>54.218.48.56</li> 
+     <li>52.36.154.34</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
+     <li>44.241.82.96</li> 
      <li>54,203.255.135/32</li> 
      <li>35.155.2.51/32</li> 
      <li>52.34.192.77/32</li> 
@@ -130,10 +130,10 @@ Si el entorno de producción está en el clúster 1, 2, 3, 5, 7, 8 o 9, debe per
      <li>54.71.252.65</li> 
     </ul> <p>Para obtener información sobre las siguientes direcciones IP, consulte <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nuevas direcciones IP para el correo electrónico de Adobe Workfront con la versión 21.1</a></p> 
     <ul> 
-     <li>23 251 237 107</li> 
-     <li>23 251 237 108</li> 
-     <li>23 251 237 109</li> 
-     <li>23 251 237 106</li> 
+     <li>23.251.237.107</li> 
+     <li>23.251.237.108</li> 
+     <li>23.251.237.109</li> 
+     <li>23.251.237.106</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -155,20 +155,20 @@ Si su entorno de producción está en el clúster 4, agregue las siguientes dire
 * 3.122.11.35
 * 34 246 27 40
 * 52 208 123 166
-* 52 208 159 124
+* 52.208.159.124
 * 52.17.130.201
-* 34 252 250 191
+* 34.252.250.191
 * 52.30.133.50
-* 54 220 93 204
-* 34 254 76 122
+* 54.220.93.204
+* 34.254.76.122
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54,229.129.66/32
 
 Para obtener información sobre las siguientes direcciones IP, consulte [Nuevas direcciones IP para el correo electrónico de Adobe Workfront con la versión 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
-* 23 251 239 98
-* 23 251 239 99
+* 23.251.239.98
+* 23.251.239.99
 
 ### Direcciones IP para permitir el clúster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -246,9 +246,9 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
      <li> <p>69.42.126.188:</p> <p>Esta dirección también debe añadirse a la lista de permitidos para que los usuarios reciban correos electrónicos de Workfront.</p> </li> 
      <li>66 119 37 186</li> 
      <li>66 119 37 167</li> 
-     <li>54 244 142 219</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
+     <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -267,22 +267,22 @@ Para todos los entornos, añada las siguientes direcciones IP para recibir carga
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>52 208 159 124</li> 
-     <li>54 220 93 204</li> 
+     <li>52.208.159.124</li> 
+     <li>54.220.93.204</li> 
      <li>52.17.130.201</li> 
-     <li>34 254 76 122</li> 
-     <li>34 252 250 191</li> 
+     <li>34.254.76.122</li> 
+     <li>34.252.250.191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Para clientes de ubicaciones distintas de Europa</td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
-     <li>44 241 82 96</li> 
-     <li>52 36 154 34</li> 
+     <li>54.244.142.219</li> 
+     <li>44.241.82.96</li> 
+     <li>52.36.154.34</li> 
      <li>34.211.224.9</li> 
-     <li>54 218 48 56</li> 
+     <li>54.218.48.56</li> 
      <li>52.39.217.230</li> 
     </ul> </td> 
   </tr> 
@@ -317,9 +317,9 @@ Agregue las siguientes direcciones IP para utilizar la autenticación mejorada p
      <li>3.132.201.78</li> 
      <li>3.19.44.88</li> 
      <li>3 20 244 231</li> 
-     <li>54 244 142 219</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
+     <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -346,8 +346,8 @@ Agregue las siguientes direcciones IP para utilizar la autenticación mejorada p
      <li>52 210 122 50</li> 
      <li>52 208 95 174</li> 
      <li>52.30.133.50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -366,17 +366,17 @@ Añada las siguientes direcciones IP a su lista de permitidos para permitir que 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li> 
+     <li>44.241.82.96</li> 
      <li>100.20.126.137</li>
      <li>34.223.32.4</li>
      <li>52.39.176.220</li>
@@ -434,14 +434,14 @@ El dominio jira.workfront.com también debe ser accesible desde los servidores c
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>52 208 159 124</li> 
-     <li>54 220 93 204</li> 
+     <li>52.208.159.124</li> 
+     <li>54.220.93.204</li> 
      <li>52.17.130.201</li> 
-     <li>34 254 76 122</li> 
-     <li>34 252 250 191</li> 
+     <li>34.254.76.122</li> 
+     <li>34.252.250.191</li> 
      <li>35 162 128 73</li> 
      <li>52.42.25.64</li> 
-     <li>34 213 36 118</li> 
+     <li>34.213.36.118</li> 
      <li>35.160.0.242 </li> 
      <li> <p>3.209.27.146</p> </li> 
      <li> <p>18.205.251.4</p> </li> 
@@ -451,15 +451,15 @@ El dominio jira.workfront.com también debe ser accesible desde los servidores c
    <td role="rowheader">Para clientes de ubicaciones distintas de Europa</td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
-     <li>44 241 82 96</li> 
-     <li>52 36 154 34</li> 
+     <li>54.244.142.219</li> 
+     <li>44.241.82.96</li> 
+     <li>52.36.154.34</li> 
      <li>34.211.224.9</li> 
-     <li>54 218 48 56</li> 
+     <li>54.218.48.56</li> 
      <li>52.39.217.230</li> 
      <li>35 162 128 73</li> 
      <li>52.42.25.64</li> 
-     <li>34 213 36 118</li> 
+     <li>34.213.36.118</li> 
      <li>35.160.0.242 </li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
@@ -542,21 +542,21 @@ Debe añadir las siguientes direcciones IP a la lista de permitidos para utiliza
    <td> 
     <ul> 
     <li>35 84 172 250</li>
-     <li>34 213 36 118</li> 
+     <li>34.213.36.118</li> 
      <li>35.160.0.242</li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
      <li>35 165 152 202</li> 
      <li>54 184 151 122</li> 
      <li>35.84.40.190</li> 
-     <li>54 218 48 56</li> 
+     <li>54.218.48.56</li> 
      <li>34.211.224.9</li> 
-     <li>52 36 154 34</li> 
+     <li>52.36.154.34</li> 
      <li>34 232 138 38</li> 
      <li>54 237 6 156</li> 
      <li>54 237 12 32</li> 
-     <li>44 241 82 96</li> 
-     <li>54 244 142 219</li> 
+     <li>44.241.82.96</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>52 207 47 153</li> 
      <li>50.16.118.214</li> 
@@ -575,12 +575,12 @@ Debe añadir las siguientes direcciones IP a la lista de permitidos para utiliza
      <li>34 241 103 51</li> 
      <li>46.51.203.201</li> 
      <li>54 247 174 227</li> 
-     <li>52 208 159 124</li> 
+     <li>52.208.159.124</li> 
      <li>52.17.130.201</li> 
-     <li>34 252 250 191</li> 
+     <li>34.252.250.191</li> 
      <li>52.30.133.50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> <p><b>NOTA</b>: ya no se admiten las opciones del servidor DNS.</p> </td> 
   </tr> 
  </tbody> 
@@ -596,9 +596,9 @@ Debe añadir las siguientes direcciones IP a la lista de permitidos para utiliza
    <td role="rowheader"> <p>Prod-US (clústeres 1, 2, 3, 5 y 7)</p> </td> 
    <td> 
     <ul> 
-     <li> 23 251 237 106</li> 
-     <li>23 251 237 107</li> 
-     <li>23 251 237 108</li> 
+     <li> 23.251.237.106</li> 
+     <li>23.251.237.107</li> 
+     <li>23.251.237.108</li> 
      <li>54 240 60 174</li> 
      <li>54 240 60 175</li> 
     </ul> </td> 
@@ -607,7 +607,7 @@ Debe añadir las siguientes direcciones IP a la lista de permitidos para utiliza
    <td role="rowheader">Prod-EU (grupo 4)</td> 
    <td> 
     <ul> 
-     <li>23 251 239 98</li> 
+     <li>23.251.239.98</li> 
      <li>69 169 230 231</li> 
      <li>69 169 230 232</li> 
     </ul> </td> 
