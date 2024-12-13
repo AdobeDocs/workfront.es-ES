@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 26%
+source-wordcount: '391'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,36 @@ ht-degree: 26%
 Esta página describe todas las mejoras realizadas en Inicio con la versión del primer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Actualizaciones de la Lista de trabajos de prioridades
+
+>[!NOTE]
+>
+>Versión de vista previa: 12 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+
+Hemos actualizado la Lista de trabajo de prioridades para mejorar las capacidades y alinearnos con otras áreas de la aplicación.
+
+### Cambios visuales
+
+* Las opciones de filtro, vistas y agrupación ahora aparecen en la parte izquierda del encabezado de la lista de trabajo
+* Nueva apariencia para los menús desplegables de columna y agrupación
+* Número total de elementos de lista que hay ahora en la esquina inferior derecha de la lista de trabajo
+* Nueva barra de búsqueda expandida a la derecha del encabezado de la lista de trabajo
+
+Para obtener más información, consulte [Introducción a Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
+
+### Cambios funcionales
+
+Ahora puede
+
+* Ordenar elementos dentro de las agrupaciones
+* Arrastrar y soltar elementos al agrupar por Mi prioridad o Estado
+
+Para obtener más información, vea [Filtrar y agrupar el trabajo con prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
+### Eliminado
+
+* Ya no puede crear tareas y problemas directamente en la lista de trabajo. Debe utilizar el botón Crear nuevo en la esquina superior derecha de Prioridades.
 
 ## Navegue hasta la página de detalles de un proyecto desde Prioridades
 

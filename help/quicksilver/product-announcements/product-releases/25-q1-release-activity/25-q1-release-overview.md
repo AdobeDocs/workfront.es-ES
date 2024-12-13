@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 38%
+source-wordcount: '1728'
+ht-degree: 39%
 
 ---
 
@@ -59,6 +59,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preferencia para utilizar la programación de proyecto o de usuario para tareas de asignación única</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Como administrador de sistemas o de grupos, ahora tiene una nueva preferencia que indica si Workfront debe utilizar la programación del proyecto o la del usuario para calcular la escala de tiempo del proyecto cuando asigna un usuario a una tarea y tanto el proyecto como el usuario están asociados a una programación.</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Las reglas empresariales ahora admiten hipervínculos</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Ahora puede incluir hipervínculos en el mensaje de error personalizado de una regla de negocio para guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla. La URL estática podría vincularse a la documentación u otras páginas que resultarían útiles para el usuario.</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Editar varios documentos a la vez</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Ahora puede editar varios documentos a la vez. Puede editar las descripciones y actualizar los formularios personalizados.</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Navegue hasta la página de detalles de un proyecto desde Prioridades</a></p>
+            Actualizaciones de la Lista de trabajos de prioridades</a></p>
             [!BADGE Nuevo en vista previa ]{type=Negative}
+            <p>Hemos actualizado la Lista de trabajo de prioridades para mejorar las capacidades y alinearnos con otras áreas de la aplicación.</p>
+        </td>
+        <td>
+            <p><b>Disponible en estas fechas:</b></p>
+            <ul>
+                <li>Versión de vista previa: viernes, 12 de diciembre de 2024</li>
+                <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Navegue hasta la página de detalles de un proyecto desde Prioridades</a></p>
             <p>Ahora puede navegar directamente a un proyecto en Workfront desde la lista de trabajo Prioridades.</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Actualización de cómo se administran los recursos movidos o eliminados en las carpetas vinculadas</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Hemos cambiado la forma en que se gestionan los recursos movidos y eliminados al utilizar la integración de Adobe Workfront con Experience Manager Assets y Assets Essentials:</p>
             <ul>
                 <li>Recursos eliminados: cuando se elimina un recurso dentro de una carpeta vinculada en Assets o Assets Essentials, el recurso eliminado se conservará en el área Documentos del proyecto.</li>
@@ -362,6 +380,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Las secciones de un formulario personalizado ahora se pueden contraer y expandir</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Cuando se adjunta un formulario personalizado con varias secciones a un objeto, ahora puede contraer y expandir todas las secciones excepto la predeterminada en la parte superior del formulario. El administrador también puede ver esta funcionalidad al obtener una vista previa del formulario en el diseñador de formularios.</p>
         </td>
         <td>
