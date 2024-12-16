@@ -1,20 +1,24 @@
 ---
-title: Administrar las preferencias de notificación de Adobe Workfront Planning
-description: Es posible que pueda administrar sus preferencias de notificación para Adobe Workfront Planning. Este artículo describe cómo configurar las preferencias de notificaciones.
+title: Administrar las preferencias de las notificaciones para Adobe Workfront Planning
+description: Es posible que pueda administrar las preferencias de las notificaciones para Adobe Workfront Planning. En este artículo se describe cómo configurar las preferencias de las notificaciones.
 author: Alina
 feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 1%
+source-wordcount: '562'
+ht-degree: 43%
 
 ---
 
 
-# Administrar las preferencias de notificación de Adobe Workfront Planning
+# Administrar las preferencias de las notificaciones para Adobe Workfront Planning
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -23,6 +27,14 @@ Puede recibir notificaciones en la aplicación o por correo electrónico cuando 
 * Alguien le agrega a un comentario en la página de registro
 * Alguien solicita permiso para acceder a una vista o a un espacio de trabajo
 * Alguien le concede permiso para obtener acceso a una vista o a un área de trabajo <!--I could not test this but Isk confirmed-->
+
+<div class="preview">
+
+* Envía una solicitud de Workfront Planning.
+* Alguien aprueba o rechaza una solicitud de Workfront Planning que usted haya enviado.
+* El estado cambia a una solicitud de Workfront Planning que ha enviado.
+
+</div>
 
 ## Requisitos de acceso
 
@@ -45,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -64,7 +76,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.</p> 
 <p>Los usuarios de su organización solo reciben notificaciones de Workfront Planning cuando su organización está integrada en la Experiencia unificada de Adobe. </p>
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -75,13 +87,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Ver permisos superiores a un espacio de trabajo</a> </p>  
+   <td>   <p>Permisos de vista o superiores a un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
 <tr> 
@@ -98,9 +110,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para obtener más información sobre las notificaciones de Workfront Planning, consulte también los siguientes artículos:
 
-* Para obtener información acerca de los comentarios en los registros, vea [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* Para obtener información acerca de los comentarios en los registros, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * Para obtener información sobre las notificaciones en la aplicación de Workfront Planning, consulte [Administrar notificaciones en la aplicación para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Para obtener información acerca de las notificaciones por correo electrónico de Workfront Planning, consulte [Administrar notificaciones por correo electrónico para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* Para obtener información sobre las notificaciones por correo electrónico de Workfront Planning, consulte [Administrar notificaciones por correo electrónico para Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 <!--
 
 OLD: 
@@ -159,10 +171,10 @@ OLD:
 </table>
 -->
 
-## Administrar preferencias de notificación
+## Administrar preferencias de las notificaciones
 
 1. Inicie sesión en Workfront con sus credenciales de Adobe Experience Cloud.
-1. Haga clic en el icono **menú de cuenta** ![](assets/account-menu-icon-on-experience-cloud.png) en la parte superior derecha de la pantalla y, a continuación, haga clic en **Preferencias**.
+1. Haga clic en el icono de **menú de cuenta** ![](assets/account-menu-icon-on-experience-cloud.png) en la parte superior derecha de la pantalla y, a continuación, haga clic en **Preferencias**.
 1. En la sección **Notificaciones**, haga clic en **Workfront**.
 1. Seleccione las notificaciones que desee recibir.
 O
@@ -172,7 +184,12 @@ Anule la selección de las notificaciones que quiera dejar de recibir.
 1. Las siguientes notificaciones están disponibles para Workfront:
 
    * **Menciones**: Recibes una notificación cuando alguien te etiqueta en un comentario en Workfront Planning
-   * **Solicitudes**: recibe una notificación cuando alguien solicita o le concede permiso para un objeto de Workfront Planning
+   * **Solicitudes**: recibe una notificación cuando alguien realiza una de las siguientes acciones:
+
+      * Solicita o concede permiso para un objeto de Workfront Planning
+      * <span class="preview">Ha enviado una solicitud de planificación de Workfront</span>
+      * <span class="preview">El estado de una solicitud de Workfront Planning que envió cambios</span>
+      * <span class="preview">Solicita, concede o rechaza una aprobación para una solicitud de Workfront Planning</span>
 
    Para obtener más información sobre cómo administrar las notificaciones, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

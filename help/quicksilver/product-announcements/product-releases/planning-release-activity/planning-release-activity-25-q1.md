@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 4%
 
 ---
@@ -33,6 +33,42 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning después de la publicación de disponibilidad general del 28 de agosto de 2024, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Configuración de aprobaciones para solicitudes de Workfront Planning
+
+>[!NOTE]
+>
+>Versión preliminar: martes, 16 de diciembre de 2024; versión de producción para todos los clientes: viernes, 16 de enero de 2025
+
+Ahora puede asociar una aprobación a un formulario de solicitud de Workfront Planning. Solo puede agregar usuarios como aprobadores de una solicitud. Una vez enviada la solicitud, se envía primero a todos los aprobadores para aprobarla antes de crear un registro.
+
+Para obtener más información, consulte [Agregar una aprobación a un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+
+## Notificaciones para el envío de solicitudes, aprobaciones y cambios de estado
+
+>[!NOTE]
+>
+>Versión preliminar: martes, 16 de diciembre de 2024; versión de producción para todos los clientes: viernes, 16 de enero de 2025
+
+Ahora recibirá una notificación en la aplicación y por correo electrónico de las siguientes acciones después de enviar una solicitud en Workfront Planning:
+
+* Un solicitante recibe una notificación de que una solicitud se ha enviado correctamente
+
+* Un solicitante recibe una notificación de que una solicitud se ha aprobado o rechazado
+
+* Un aprobador recibe una notificación que le informa de que se le ha enviado una solicitud para su aprobación.
+
+>[!NOTE]
+>
+>La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
+
+Para obtener información sobre el envío o la aprobación de solicitudes, consulte los siguientes artículos:
+
+* [Envío de solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 ## Búsqueda inteligente al buscar un tipo de campo
 
@@ -138,7 +174,7 @@ Ahora puede agregar los siguientes tipos de campo a un formulario de solicitud d
 
 Antes de esta mejora, estos tipos de campos no se podían agregar a los formularios de solicitud en Workfront Planning.
 
-Para obtener más información, consulte Creación y administración de un formulario de solicitud en Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md).
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Limitar el uso compartido público de formularios de solicitud que contienen determinados tipos de campo
 

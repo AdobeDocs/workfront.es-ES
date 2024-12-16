@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 53%
+source-wordcount: '170'
+ht-degree: 48%
 
 ---
 
@@ -26,5 +26,5 @@ Esta sección contiene los siguientes artículos:
 * [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Envío de solicitudes de Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md)
 * [Cancelar la publicación de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/unpublish-request-form.md)
-  <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
-  <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->
+* <span class="preview">[Agregar una aprobación a un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>
+* <span class="preview">[Aprobar solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)</span>

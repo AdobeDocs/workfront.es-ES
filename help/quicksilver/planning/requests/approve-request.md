@@ -1,33 +1,19 @@
 ---
-title: Aprobar una solicitud
+title: Aprobar una solicitud en Adobe Workfront Planning
 description: Cuando un usuario envía una solicitud a un formulario de solicitud asociado a una aprobación en Adobe Workfront Planning, los aprobadores reciben una notificación y un correo electrónico sobre la aprobación pendiente. Deben aprobar la solicitud antes de que Workfront Planning cree un objeto.
-hide: true
-hidefromTOC: true
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
-workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 16%
-
----
-
-
-<!--
-
----
-title: Approve a Request
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 14%
+
 ---
 
--->
 
-
-# Aprobar una solicitud
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Aprobación de una solicitud en Adobe Workfront Planning
 
 <!--take Preview and Production references at Production time-->
 
@@ -54,9 +40,8 @@ Le recomendamos que también vea los siguientes artículos:
 Las solicitudes enviadas se muestran en la pestaña Planificación de la sección Enviadas del área Solicitudes de Workfront con uno de los siguientes estados de solicitud:
 
 * **Revisión pendiente**: Este estado se muestra cuando ninguno de los aprobadores ha abierto el objeto de solicitud.
-* **En revisión**: El estado cambia a **En revisión** cuando al menos un aprobador abre el objeto de solicitud. El estado de la solicitud permanece **en revisión** hasta que todos los aprobadores hayan aprobado la solicitud.
-* **Aprobado**: Cuando un aprobador aprueba el objeto de solicitud, su estado individual pasa a ser
-* **Aprobado**, pero el estado general del objeto de solicitud permanece **En revisión** hasta que todos los aprobadores hayan tomado sus decisiones.
+* **En revisión**: El estado de **Revisión pendiente** cambia a **En revisión** cuando al menos un aprobador abre el objeto de solicitud. El estado de la solicitud permanece **en revisión** hasta que todos los aprobadores hayan aprobado la solicitud.
+* **Aprobado**: cuando un aprobador aprueba el objeto de solicitud, su estado individual pasa a ser **Aprobado**, pero el estado general del objeto de solicitud permanece **En revisión** hasta que todos los aprobadores hayan tomado sus decisiones. Cuando todos los aprobadores aprueban una solicitud, su estado pasa a ser **Aprobado**.
 * **Completada**: si todos los aprobadores aprueban el objeto de solicitud, su estado cambia a **Completada** o si la solicitud no necesita aprobación.
 * **Rechazado**: Si algún aprobador rechaza el objeto de solicitud, el estado pasa a ser **Rechazado**. No se crea ningún registro y se debe enviar una nueva solicitud para crear el registro.
 
@@ -148,25 +133,39 @@ Los aprobadores reciben las siguientes notificaciones sobre una solicitud pendie
 * Una notificación en la aplicación
 * Una notificación por correo electrónico
 
+>[!NOTE]
+>
+>La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
+
 Para aprobar una solicitud:
 
 1. Realice una de las siguientes acciones:
 
-   * Si tiene acceso a Workfront Planning, haga clic en **Menú principal** ![](assets/dots-menu.png) en la esquina superior derecha de la pantalla o en el **Menú principal** ![](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **Solicitudes** > **Enviadas** > **Planificación** y haga clic en la solicitud con el estado **En revisión**. <!--did they change this to Pending approval; logged  a bug-->
+   * Si tiene acceso a Workfront Planning y puede ver al menos un área de trabajo, haga clic en **Menú principal** ![](assets/dots-menu.png) en la esquina superior derecha de la pantalla o en el **Menú principal** ![](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, luego haga clic en **Solicitudes** > **Enviadas** > **Planificación** y haga clic en la solicitud con el estado de **Revisión pendiente** o **En revisión**.
 
      >[!TIP]
      >
-     >    Si no tiene acceso a Workfront Planning, solo puede acceder a una solicitud para aprobarla mediante las notificaciones.
+     >Si no tiene acceso a Workfront Planning o no tiene acceso para ver ningún espacio de trabajo, solo puede acceder a una solicitud para aprobarla mediante el correo electrónico o las notificaciones en la aplicación.
 
-
-   * Vaya al área de **Notificaciones** en la esquina superior derecha de la pantalla y haga clic en la notificación sobre una solicitud pendiente de aprobación para abrirla.
-   * Vaya a la notificación por correo electrónico del mensaje que le notifica una solicitud pendiente de aprobación y, a continuación, haga clic en para abrir la solicitud. <!--add the name of the button here, from the email-->
+   * Haga clic en el icono del área **Notificaciones** ![](assets/notifications-area-icon-unified-shell.png) en la esquina superior derecha de la pantalla y luego haga clic en la notificación sobre una solicitud pendiente de su aprobación para abrir la solicitud.
+   * Vaya a la notificación por correo electrónico del mensaje que le notifica una solicitud pendiente de aprobación y, a continuación, haga clic en **Abrir solicitud** para abrir la solicitud. <!--add the name of the button here, from the email-->
 
    La página de solicitud se abre en modo de solo lectura.
 
    ![](assets/read-only-reqeust-page-in-review-status.png)
+
 1. (Opcional) Haga clic en el icono **Aprobaciones** ![](assets/approvals-icon.png) en la esquina superior derecha de la solicitud para ver los aprobadores.
 1. Haga clic en **Revisar y aprobar**, y después elija una de las siguientes opciones: <!--did they fix the button and removed the &??-->
 
-   * **Aprobar**: Esto aprueba la solicitud. Inmediatamente se crea un registro para el tipo de registro asociado al formulario de solicitud.
-   * **Rechazar**: Esto rechaza la solicitud. No se crea ningún registro para el tipo de registro asociado al formulario de solicitud. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
+   * **Aprobar**: Esto aprueba la solicitud. Se crea inmediatamente un registro para el tipo de registro asociado al formulario de solicitud después de que todos los aprobadores aprueben la solicitud.
+   * **Rechazar**: Esto rechaza la solicitud, incluso cuando usted es el único aprobador que la rechaza. No se crea ningún registro para el tipo de registro asociado al formulario de solicitud.
+
+   El usuario que ha enviado la solicitud recibe un correo electrónico y notificaciones en una aplicación cuando se aprueba o rechaza su solicitud.
+
+   El estado de la solicitud cambia a lo siguiente, según la decisión de aprobación:
+
+   * **Completada**: la solicitud está aprobada.
+   * **Rechazada**: la solicitud es rechazada.
+
+   La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
+

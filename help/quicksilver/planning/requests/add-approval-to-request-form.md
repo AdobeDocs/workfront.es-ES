@@ -1,30 +1,19 @@
 ---
-title: Agregar una aprobación a un formulario de solicitud
+title: Agregar una aprobación a un formulario de solicitud en Adobe Workfront Planning
 description: Puede agregar un proceso de aprobación a un formulario de solicitud de Adobe Workfront Planning para iniciar una aprobación para cada solicitud enviada antes de crear un registro.
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
-workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 1%
-
----
-
-
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 16%
+
 ---
 
--->
 
-# Añadir una aprobación a un formulario de solicitud
+# Agregar una aprobación a un formulario de solicitud en Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -65,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera de los siguientes planes de Workfront:</p>
 <ul><li>Seleccionar</li>
@@ -84,7 +73,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p>
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
   </tr>
   </tr>
@@ -96,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td>
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -107,7 +96,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p>Administración de permisos en un espacio de trabajo</p></li>
     <li><p>Los administradores del sistema pueden administrar los espacios de trabajo que no hayan creado. </p></li>
     </ul>
-   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte  
+   <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte 
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Información general sobre los permisos de uso compartido en Adobe Workfront Planning</a> 
   </td>
   </tr>
@@ -127,6 +116,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Puede agregar uno o varios aprobadores a un formulario de solicitud. Solo puede agregar usuarios como aprobadores.
 * Cuando se agregan varios aprobadores a un formulario de solicitud, todos los aprobadores deben aceptar la solicitud antes de crear un registro en Workfront Planning.
+* Si todos los aprobadores aprueban la solicitud, se crea un registro para el tipo de registro asociado al formulario de solicitud.
+* Si al menos un aprobador rechaza la solicitud y todos los demás la aprueban, se crea una solicitud para el área de Solicitudes en Workfront, pero no se crea ningún registro para el tipo de registro asociado al formulario de solicitud.
 * Añadir aprobaciones a un formulario de solicitud es opcional. Workfront Planning crea inmediatamente un registro cuando se envía una solicitud, si el formulario de solicitud no está asociado a una aprobación.
 
 ## Añadir una aprobación a un formulario de solicitud
@@ -143,16 +134,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Empiece a escribir el nombre de un aprobador y selecciónelo cuando aparezca en la lista.
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    Si agrega más de un aprobador, todos los aprobadores deben aprobar la solicitud antes de que Workfront Planning cree un registro.
+   >
+   >* Puede agregar uno o varios aprobadores a un formulario de solicitud.
+   >
+   >* Si agrega más de un aprobador, todos los aprobadores deben aprobar la solicitud antes de que Workfront Planning cree un registro.
+   >
+   >* Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro. La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
+   >
+   >* Todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
+
 
 1. (Opcional) Haga clic en **Publish** si nunca antes había compartido el formulario de solicitud
 
    O
 
    Haga clic en **Compartir** para compartir el formulario y luego en **Copiar vínculo**.
-1. (Opcional) Una vez que un usuario utiliza el vínculo que comparte y envía una solicitud, Workfront Planning envía una notificación de aprobación y un correo electrónico a los aprobadores.
+1. (Opcional) Una vez que un usuario utiliza el vínculo que comparte y envía una solicitud, Workfront Planning envía una notificación de aprobación en la aplicación y un correo electrónico a los aprobadores.
+
+   >[!NOTE]
+   >
+   >   La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
+
 
    Para obtener información acerca de cómo aprobar solicitudes, vea [Aprobar una solicitud](/help/quicksilver/planning/requests/approve-request.md).
 
