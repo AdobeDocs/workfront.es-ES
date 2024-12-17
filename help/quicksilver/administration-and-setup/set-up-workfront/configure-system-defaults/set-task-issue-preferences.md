@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '2107'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,14 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-Como administrador de [!DNL Adobe Workfront], puede configurar las preferencias de todo el sistema para tareas y problemas. Estas preferencias afectan la forma en que los usuarios crean tareas y problemas en [!DNL Workfront].
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
+
+Como administrador de [!DNL Adobe Workfront], puede configurar las preferencias de todo el sistema para tareas y problemas. Estas preferencias afectan a la forma en que los usuarios crean tareas y problemas en [!DNL Workfront].
 
 De forma predeterminada, las preferencias de tareas y problemas están bloqueadas y los administradores de grupos no pueden modificarlas en el nivel de grupo a menos que las desbloquee para todos los grupos del sistema. Para obtener más información, consulte la sección [Bloquear tareas y preferencias de problemas para grupos](#lock-task-and-issue-preferences-for-groups) en este artículo.
 
@@ -42,19 +49,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td><p>Nuevo: [!UICONTROL Standard]</p>
    o
-   <p>Actual: [!UICONTROL plan]</p></td> 
+   <p>Actual: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,16 +69,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **[!UICONTROL Preferencias del proyecto]** >**[!UICONTROL Tareas y problemas].**
+1. En el panel izquierdo, haga clic en **[!UICONTROL Project Preferences]** >**[!UICONTROL Tasks &amp; Issues].**
 
-1. En la página que aparece, continúe con una de las 6 secciones que se enumeran a continuación para configurar las opciones de [!UICONTROL Valores predeterminados de nueva tarea], [!UICONTROL Problemas], [!UICONTROL Eliminación], [!UICONTROL Fechas reales] y [!UICONTROL Acceso]:
+1. En la página que aparece, continúe con una de las 6 secciones que se enumeran a continuación para configurar las opciones de [!UICONTROL New Task Defaults], [!UICONTROL Issues], [!UICONTROL Deletion], [!UICONTROL Actual Dates] y [!UICONTROL Access]:
 
    * [[!UICONTROL Valores predeterminados de nueva tarea]](#new-task-defaults)
    * [[!UICONTROL Problemas]](#issues)
-   * [[!UICONTROL Eliminación]](#deletion)
-   * [[!UICONTROL Fechas reales]](#actual-dates)
-   * [[!UICONTROL Delegación]](#delegation)
-   * [[!UICONTROL Acceso]](#access)
+   * [[!UICONTROL Deletion]](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
+   * [[!UICONTROL Actual Dates]](#actual-dates)
+   * [[!UICONTROL Delegation]](#delegation)
+   * [[!UICONTROL Access]](#access)
 
 <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
@@ -79,27 +89,27 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 
 
-### [!UICONTROL Valores predeterminados de nueva tarea] {#new-task-defaults}
+### [!UICONTROL New Task Defaults] {#new-task-defaults}
 
 <table style="table-layout:auto"> 
   <col> 
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Fecha de inicio]</td> 
-    <td> <p>Determina la fecha de comienzo predeterminada de las nuevas tareas para los jefes de proyecto. La fecha de inicio de las nuevas tareas puede ser la fecha de inicio planeada del proyecto o el día en que se crea la tarea.</p> </td> 
+    <td role="rowheader">[!UICONTROL Start Date]</td> 
+    <td> <p>Determina la fecha de comienzo predeterminada de las nuevas tareas para los jefes de proyecto. La fecha de inicio de las nuevas tareas puede ser la fecha de inicio planificada del proyecto o el día en que se crea la tarea.</p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"> <p>[!UICONTROL Tipo de duración] </p> </td> 
-    <td> <p>Determina la relación entre el número de recursos (y su porcentaje de asignación) y la duración o el esfuerzo total de la tarea. Para obtener más información, vea <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duración de la tarea y Tipos de duración</a></p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
+    <td> <p>Determina la relación entre el número de recursos (y su porcentaje de asignación) y la duración o el esfuerzo total de la tarea. Para obtener más información, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duración de la tarea y Tipos de duración</a></p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Tipo de ingresos]</td> 
-    <td> <p>Calcula las estimaciones de ingresos planificadas y reales de una tarea. Cuando <strong>[!UICONTROL tipo de ingresos]</strong> se establece en <strong>[!UICONTROL no facturable]</strong>, las horas planificadas y las horas registradas no generan una estimación de ingresos para la tarea y el trabajo en la tarea no contribuye a los ingresos de nivel de proyecto.</p> </td> 
+    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
+    <td> <p>Calcula las estimaciones de ingresos planificados y reales de una tarea. Cuando <strong>[!UICONTROL Revenue Type]</strong> se establece en <strong>[!UICONTROL Not Billable]</strong>, las horas planificadas y las horas registradas no generan una estimación de ingresos para la tarea y el trabajo en la tarea no contribuye a los ingresos de nivel de proyecto.</p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Tipo de costo]</td> 
-    <td> <p>Calcula las estimaciones de costos planificadas y reales de una tarea. Cuando se establece en <strong>[!UICONTROL Sin costo]</strong>, las horas planificadas y las horas registradas no generan una estimación de costo planificada o real para la tarea, y el trabajo en la tarea no contribuye a los costos en el nivel de proyecto.</p> </td> 
+    <td role="rowheader">[!UICONTROL Cost Type]</td> 
+    <td> <p>Calcula las estimaciones de costes planificados y reales de una tarea. Cuando se establece en <strong>[!UICONTROL No Cost]</strong>, las horas planificadas y las horas registradas no generan una estimación de costes planificados o reales para la tarea, y el trabajo en la tarea no contribuye a los costes en el nivel de proyecto.</p> </td> 
     </tr> 
   </tbody> 
 </table>
@@ -111,78 +121,94 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Actualizar automáticamente el estado del problema solucionable cuando cambie el estado del objeto de resolución]</td> 
-    <td> <p>Cuando alguien convierte un problema en un proyecto o tarea, tanto el problema original como el proyecto o tarea convertidos se convierten en objetos de resolución. Esta configuración le permite correlacionar la resolución del problema original con la resolución de su objeto solucionable. Para obtener más información sobre la resolución de objetos, vea <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</p> <p>Para que esta configuración surta efecto, se debe seleccionar la opción <strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>.</p> 
+    <td role="rowheader">[!UICONTROL Automatically update Resolvable Issue status when the status of the Resolving Object changes]</td> 
+    <td> <p>Cuando alguien convierte un problema en un proyecto o tarea, tanto el problema original como el proyecto o tarea convertidos se convierten en objetos de resolución. Esta configuración permite correlacionar la resolución del problema original con la resolución del nuevo objeto que se puede resolver. Para obtener más información sobre la resolución de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</p> <p>Para que esta configuración tenga algún efecto, la opción <strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong> debe estar seleccionada.</p> 
       <ul> 
-      <li>Cuando esta configuración está habilitada, puede crear estados personalizados con la misma clave para problemas y proyectos o tareas. Cuando el proyecto o la tarea (como objeto solucionable) se convierte en el estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para los estados de problema y proyecto o tarea.</li> 
-      <li>Cuando esta configuración está desactivada, los estados de objetos de resolución se establecen automáticamente en el estado predeterminado en lugar de en los personalizados. Para obtener más información acerca de los estados predeterminados, vea <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Acceso a la lista de estados de problemas del sistema</a>.</li> 
+      <li>Cuando esta configuración está habilitada, puede crear estados personalizados con la misma clave para problemas y proyectos o tareas. Cuando el proyecto o la tarea (como objeto solucionable) cambia al estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para los estados de problema y proyecto o tarea.</li> 
+      <li>Cuando esta configuración está desactivada, los estados de objetos de resolución se establecen automáticamente en el estado predeterminado en lugar de hacerlo en los personalizados. Para obtener más información acerca de los estados predeterminados, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Acceder a la lista de estados de problemas del sistema</a>.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Al convertir un problema en una tarea]</td> 
     <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a una tarea:</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL Mantener el problema original y enlazar su resolución a la tarea]</strong>: Cuando convierta el problema, permanecerá visible como un problema hasta que se complete la tarea. El estado del problema cambia automáticamente a [!UICONTROL Cerrado] cuando finaliza la tarea. Si no selecciona esta opción, se elimina el problema.</p> <p><b>NOTA</b>:  <p>Los usuarios sin acceso o permisos para eliminar problemas no podrán eliminar el problema a medida que lo vayan convirtiendo, independientemente del estado de esta configuración. Para obtener información sobre el acceso y los permisos a los problemas, consulte:</p> 
+      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: Cuando convierta el problema, permanecerá visible como problema hasta que se complete la tarea. El estado del problema cambia automáticamente a [!UICONTROL Closed] cuando finaliza la tarea. Si no selecciona esta opción, se elimina el problema.</p> <p><b>NOTA</b>:  <p>Los usuarios sin acceso o permisos para eliminar problemas no podrán eliminar el problema a medida que lo vayan convirtiendo, sin importar el estado de esta configuración. Para obtener información sobre el acceso y los permisos a los problemas, consulte lo siguiente:</p> 
         <ul> 
-          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a problemas</a> </p> </li> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[!UICONTROL Permitir que el contacto principal tenga acceso a la tarea]</strong>: otorga al contacto principal (creador del problema) acceso de vista a la tarea para revisar la tarea, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones de la tarea.</li> 
-      <li> <p><strong>[!UICONTROL Permitir cambiar esta configuración durante la conversión]</strong>: permite al usuario que está convirtiendo el problema cambiar estas opciones durante la conversión de un problema en una tarea.</p></li> 
+      <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: otorga al contacto principal (creador del problema) acceso de visualización a la tarea para revisar la tarea, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones de la tarea.</li> 
+      <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: permite al usuario que está convirtiendo el problema cambiar estas opciones durante la conversión de un problema en una tarea.</p></li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Al convertir un problema en un proyecto]</td> 
+    <td role="rowheader">[!UICONTROL When converting an issue to a project]</td> 
     <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a un proyecto:</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL Mantener el problema original y enlazar su resolución al proyecto]</strong>: Cuando convierta el problema, permanecerá visible como un problema hasta que se complete el proyecto. El estado del problema cambia automáticamente a [!UICONTROL Cerrado] cuando finaliza el proyecto. Si no selecciona esta opción, se elimina el problema. </p> <p><b>NOTA</b>:  <p>Los usuarios sin acceso o permisos para eliminar problemas no podrán eliminar el problema a medida que lo vayan convirtiendo, independientemente del estado de esta configuración. Para obtener información sobre el acceso y los permisos a los problemas, consulte:</p> 
+      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the project]</strong>: Cuando convierta el problema, permanecerá visible como un problema hasta que se complete el proyecto. El estado del problema cambia automáticamente a [!UICONTROL Closed] cuando finaliza el proyecto. Si no selecciona esta opción, se elimina el problema. </p> <p><b>NOTA</b>:  <p>Los usuarios sin acceso o permisos para eliminar problemas no podrán eliminar el problema a medida que lo vayan convirtiendo, sin importar el estado de esta configuración. Para obtener información sobre el acceso y los permisos a los problemas, consulte lo siguiente:</p> 
         <ul> 
-          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a problemas</a> </p> </li> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[!UICONTROL Permitir que el contacto principal tenga acceso al proyecto]</strong>: otorga al contacto principal (creador del problema) acceso de vista al proyecto para revisar el proyecto, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones del proyecto.</li> 
-      <li><strong>[!UICONTROL Permitir cambiar esta configuración durante la conversión]</strong>: permite al usuario que está convirtiendo el problema cambiar las opciones de la lista durante la conversión de un problema en un proyecto.</li> 
+      <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: otorga al contacto principal (creador del problema) acceso de visualización al proyecto para revisar el proyecto, mantenerse informado de su progreso y realizar comentarios en la sección Actualizaciones del proyecto.</li> 
+      <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: permite al usuario que está convirtiendo el problema cambiar las opciones de la lista durante la conversión de un problema en un proyecto.</li> 
       </ul> </td>
     </tr> 
   </tbody> 
   </table>
 
-### [!UICONTROL Eliminación] {#deletion}
+### [!UICONTROL Deletion] {#deletion}
 
-**[!UICONTROL Permitir que los usuarios eliminen tareas y problemas con las horas registradas]**: Permite determinar si permite la eliminación de tareas o problemas en los que se registran horas. Esta opción está seleccionada de forma predeterminada.
+**[!UICONTROL Allow users to delete tasks &amp; issues with logged hours]**: permite determinar si se permite la eliminación de tareas o problemas en los que se registran horas. Esta opción está desactivada de forma predeterminada.
 
 >[!TIP]
 >
 >Esta configuración también se aplica a la eliminación de proyectos que tienen tareas o problemas con horas registradas en ellos. Esta configuración no se aplica a los proyectos de eliminación en los que el tiempo se registra directamente en el proyecto.
 
-* Cuando se selecciona, recibe una advertencia informativa cuando elimina una tarea o un problema. La advertencia le recuerda que si la tarea o el problema han registrado horas, se moverán al proyecto o se eliminarán. Puede configurar si las horas se eliminan o se mueven al proyecto en el área [!UICONTROL Preferencias de horas y hoja de horas] del [!UICONTROL programa de instalación]. Después de confirmar que ha visto la advertencia, la tarea o el problema se eliminan. Para obtener más información sobre cómo configurar las preferencias de horas y hojas de horas, consulte [Configurar las preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Cuando se selecciona, recibe una advertencia informativa cuando elimina una tarea o un problema. La advertencia le recuerda que si la tarea o el problema han registrado horas, se moverán al proyecto o se eliminarán. Puede configurar si las horas se eliminan o se mueven al proyecto en el área [!UICONTROL Timesheet &amp; Hours Preferences] de la [!UICONTROL Setup]. Después de confirmar que ha visto la advertencia, la tarea o el problema se eliminan. Para obtener más información sobre cómo configurar las preferencias de horas y plantillas de horas, consulte [Configurar las preferencias de horas y plantillas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
   >[!TIP]
   >
-  >Cuando elimina un proyecto con tareas y problemas que han registrado horas, estas se eliminan o se conservan de acuerdo con la configuración del área [!UICONTROL Preferencias de hoja de horas y horas] de [!UICONTROL Configuración]. El mensaje de advertencia no se muestra al eliminar un proyecto.
+  >Cuando elimina un proyecto con tareas y problemas que han registrado horas, estas se eliminan o se conservan de acuerdo con la configuración del área [!UICONTROL Timesheet &amp; Hours Preferences] de [!UICONTROL Setup]. El mensaje de advertencia no se muestra al eliminar un proyecto.
 
-* Si anula la selección de esta opción, recibe una advertencia prohibitiva cuando elimina una tarea o un problema con horas registradas, o cuando elimina un proyecto con horas registradas para sus tareas o problemas. La advertencia especifica que el administrador no permite que se eliminen tareas o problemas con horas registradas. Las tareas, problemas o proyectos que tienen horas registradas para tareas y problemas no se pueden eliminar.
+* Si anula la selección de esta opción, recibe una advertencia de prohibición cuando elimina una tarea o un problema con horas registradas, o cuando elimina un proyecto con horas registradas para sus tareas o problemas. La advertencia especifica que el administrador no permite que se eliminen tareas o problemas con horas registradas. Las tareas, problemas o proyectos que tienen horas registradas para tareas y problemas no se pueden eliminar.
 
-### [!UICONTROL Fechas reales] {#actual-dates}
+<!--*****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+
+* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+
+* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+
+</div>
+
+-->
+
+### [!UICONTROL Actual Dates] {#actual-dates}
 
 <table style="table-layout:auto"> 
   <col> 
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando una tarea o un problema pasen de "Nuevo" a "En curso", establecer la Fecha real de inicio en]</td> 
-    <td> <p>Seleccione una de las siguientes opciones para cuándo se registra la fecha de inicio real en [!DNL Workfront] cuando una tarea o un problema pasa de <strong>[!UICONTROL Nuevo]</strong> a <strong>[!UICONTROL En curso]</strong>:</p> 
+    <td role="rowheader">[!UICONTROL When a task or issue goes from "New" to "In Progress," set the Actual Start Date to]</td> 
+    <td> <p>Seleccione una de las siguientes opciones para cuando se registra la fecha de inicio real en [!DNL Workfront] cuando una tarea o un problema pasa de <strong>[!UICONTROL New]</strong> a <strong>[!UICONTROL In Progress]</strong>:</p> 
       <ul> 
-      <li><strong>[!UICONTROL Ahora]:</strong> La fecha de inicio real está establecida en la fecha actual.</li> 
-      <li><strong>[!UICONTROL Fecha planificada de inicio]:</strong> La fecha real de inicio se establece en la fecha planificada de inicio de la tarea o problema.</li> 
+      <li><strong>[!UICONTROL Now]:</strong> La fecha de inicio real está establecida en la fecha actual.</li> 
+      <li><strong>[!UICONTROL The Planned Start Date]:</strong> La fecha real de inicio se establece en la fecha planificada de inicio de la tarea o problema.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando se complete una tarea o un problema, establecer la Fecha real de finalización en]</td> 
-    <td> <p>Seleccione una de las siguientes opciones para cuándo se registra la fecha real de finalización en [!DNL Workfront] cuando se completa una tarea o un problema:</p> 
+    <td role="rowheader">[!UICONTROL When a task or issue is completed, set the Actual Completion Date to]</td> 
+    <td> <p>Seleccione una de las siguientes opciones de cuándo desea que se registre la fecha real de finalización en [!DNL Workfront] al completar una tarea o un problema:</p> 
       <ul> 
-      <li><strong>[!UICONTROL Ahora]:</strong> La fecha real de finalización está establecida en la fecha actual.</li> 
-      <li> <p><strong>[!UICONTROL Fecha planificada de finalización]:</strong> La fecha real de finalización está establecida en la fecha planificada de finalización de la tarea o problema.</p> </li> 
+      <li><strong>[!UICONTROL Now]:</strong> la fecha real de finalización se establece en la fecha actual.</li> 
+      <li> <p><strong>[!UICONTROL The Planned Completion Date]:</strong> la fecha real de finalización se establece en la fecha planificada de finalización de la tarea o problema.</p> </li> 
       </ul> </td> 
     </tr> 
   </tbody> 
@@ -190,9 +216,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ### Delegación
 
-Habilitar la opción **[!UICONTROL Permitir que los usuarios deleguen sus tareas y problemas]** permite que todos los usuarios de deleguen temporalmente su trabajo a otros.
+Habilitar la opción **[!UICONTROL Allow users to delegate their tasks &amp; issues]** permite a todos los usuarios delegar temporalmente su trabajo a otros.
 
-Cuando esta configuración está habilitada, los usuarios pueden ver lo siguiente:
+Cuando esta opción está habilitada, los usuarios pueden ver lo siguiente:
 
 * El vínculo [!UICONTROL **Delegar**] en sus widgets [!UICONTROL Mi trabajo], [!UICONTROL Mis tareas] o [!UICONTROL Mis problemas] en el área [!UICONTROL Inicio]. Pueden delegar asignaciones de tareas y problemas desde allí.
 
@@ -200,14 +226,14 @@ Cuando esta configuración está habilitada, los usuarios pueden ver lo siguient
   >
   >  El vínculo [!UICONTROL **Delegar aprobaciones**] siempre está habilitado en el área de [!UICONTROL Inicio].
 
-* Una indicación de que una tarea o un problema se ha delegado a otro usuario en el área [!UICONTROL Asignaciones y delegaciones] del encabezado de la tarea o el problema.
+* Una indicación de que una tarea o un problema se ha delegado a otro usuario en el área [!UICONTROL Assignments and delegations] del encabezado de la tarea o el problema.
 * Una indicación de que una tarea o un problema se ha delegado a otro usuario en su widget de [!UICONTROL Mi trabajo] en [!UICONTROL Inicio].
 
-  Si deshabilita la opción [!UICONTROL Permitir que los usuarios deleguen sus tareas y problemas], las delegaciones programadas actualmente se detendrán y los usuarios delegados recibirán una notificación por correo electrónico avisando que la delegación se detuvo.
+  Si se deshabilita la opción [!UICONTROL Allow users to delegate their tasks &amp; issues], las delegaciones programadas actualmente se detendrán y los usuarios delegados recibirán una notificación por correo electrónico a tal efecto.
 
-Para obtener información sobre cómo delegar el trabajo a otros, consulte los siguientes artículos:
+Para obtener información sobre la delegación del trabajo a otras personas, consulte los siguientes artículos:
 
-* [Resumen del trabajo delegado](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Información general sobre la delegación de trabajo](../../../manage-work/delegate-work/delegate-work-overview.md)
 * [Delegar tareas y problemas](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 
@@ -238,34 +264,34 @@ I have not had a chance to follow up with customers to verify if this is still a
 </note>
 -->
 
-### [!UICONTROL Acceso] {#access}
+### [!UICONTROL Access] {#access}
 
 <table style="table-layout:auto"> 
   <col> 
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando se asigna a alguien a una tarea]</td> 
+    <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Dar a ellos ... acceso a una tarea]</strong>: Define el permiso predeterminado que un usuario tiene para la tarea a la que está asignado. Para obtener más información acerca de los permisos de tareas, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</li> 
-      <li> <p><strong>[!UICONTROL También concederles ... acceso al proyecto]</strong>: Define el permiso predeterminado que un usuario tiene para el proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
+      <li><strong>[!UICONTROL Give them ... access to a task]</strong>: define el permiso predeterminado que un usuario tiene sobre la tarea a la que se le ha asignado. Para obtener más información acerca de los permisos sobre las tareas, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</li> 
+      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: define el permiso predeterminado que un usuario tiene sobre el proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos de proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando se asigna a alguien a un problema]</td> 
+    <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Dar a ellos ... acceso a una tarea]</strong>: Define el permiso predeterminado que un usuario tiene para la tarea a la que está asignado. Para obtener más información acerca de los permisos de tareas, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</li> 
-      <li> <p><strong>[!UICONTROL También concederles ... acceso al proyecto]</strong>: Define el permiso predeterminado que un usuario tiene para el proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
+      <li><strong>[!UICONTROL Give them ... access to a task]</strong>: define el permiso predeterminado que un usuario tiene sobre la tarea a la que se le ha asignado. Para obtener más información acerca de los permisos sobre las tareas, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</li> 
+      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: define el permiso predeterminado que un usuario tiene sobre el proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos de proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Cuando alguien envía una solicitud]</td> 
+    <td role="rowheader">[!UICONTROL When someone submits a request]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Dar a ellos ... acceso al problema]</strong>: Define el permiso predeterminado que un usuario tiene en una solicitud que envió. Para obtener más información, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a>.</li> 
-      <li> <p><strong>[!UICONTROL Las personas de la misma compañía heredarán los mismos permisos para todas las solicitudes]</strong>: permite a los usuarios ver las solicitudes enviadas por otros usuarios de la misma compañía que ellos. Tienen los mismos permisos en esas solicitudes que en sus propias solicitudes enviadas.</p> </li> 
+      <li><strong>[!UICONTROL Give them ... access to the issue]</strong>: define el permiso predeterminado que un usuario tiene sobre una solicitud que ha enviado. Para obtener más información, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema</a>.</li> 
+      <li> <p><strong>[!UICONTROL People from the same company will inherit the same permissions for all requests]</strong>: permite a los usuarios ver las solicitudes enviadas por otros usuarios de la misma compañía. Tienen los mismos permisos sobre esas solicitudes que los que tienen sobre sus propias solicitudes enviadas.</p> </li> 
       </ul> </td> 
     </tr> 
   </tbody> 
@@ -275,27 +301,27 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 ## Bloquear las preferencias de tareas y problemas para grupos {#lock-task-and-issue-preferences-for-groups}
 
-Si los grupos de su organización necesitan una preferencia de tarea o problema configurada de forma diferente para sus flujos de trabajo únicos, puede desbloquear la preferencia de todos los grupos de la organización para que puedan configurarla por su cuenta. Cuando una preferencia está desbloqueada y el administrador del grupo la modifica, las tareas o problemas asociados con el grupo se ven afectados por la configuración de nivel de grupo para la preferencia en lugar de por la configuración de nivel de sistema.
+Si los grupos de su organización necesitan una preferencia de tareas o problemas configurada de forma diferente para sus flujos de trabajo únicos, se puede desbloquear la preferencia de todos los grupos de la organización para que puedan configurarla por su cuenta. Cuando una preferencia está desbloqueada y la persona con la función de administrador del grupo la modifica, las tareas o problemas asociados al grupo se ven afectados por la opción de configuración de nivel de grupo para la preferencia en lugar de por la de nivel de sistema.
 
-Para obtener información sobre cómo un administrador de grupo configura las preferencias de tareas y problemas de un grupo, consulte [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Para obtener información sobre cómo una persona con la función de administrador de grupo configura las preferencias de tareas y problemas de un grupo, consulte [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 >[!NOTE]
 >
->Después de que un administrador de [!DNL Workfront] desbloquee una preferencia en el sistema, cualquier administrador de grupo puede configurarla y después bloquearla para asegurarse de que todos los miembros de su grupo y de los subgrupos que se muestran a continuación usan la misma configuración. Esto es paralelo a la capacidad que tiene un administrador de [!DNL Workfront] para configurar y bloquear una preferencia para todos los miembros del sistema. Para obtener más información, vea [Configurar las preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Bloquear o desbloquear una preferencia de proyecto, tarea o problema para subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>Después de que una persona con la función de administrador de [!DNL Workfront] desbloquee una preferencia en el nivel de sistema, cualquier persona con la función de administrador de grupo puede configurarla y después bloquearla para asegurarse de que todos los integrantes de su grupo y de los subgrupos inferiores usen la misma configuración. Esto es equivalente a la posibilidad que un administrador de [!DNL Workfront] tiene para configurar y bloquear una preferencia para todas las personas del sistema. Para obtener más información, consulte [Configurar las preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) y [Bloquear o desbloquear una preferencia de proyecto, tarea o problema para subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 Para bloquear o desbloquear una preferencia de tarea o problema para que los grupos puedan configurarla:
 
 {{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Preferencias del proyecto]** > **[!UICONTROL Tareas y problemas]**.
+1. Haga clic en **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks &amp; Issues]**.
 
 1. Realice una de las siguientes acciones:
 
-   * Si desea que los administradores de los grupos que se encuentran debajo de su grupo puedan configurar una preferencia para sus grupos, desbloquéela ![](assets/unlock-toggle-button.png).
-   * Si desea que su grupo y todos los grupos debajo de él utilicen su configuración para una preferencia, asegúrese de que esté bloqueada (este es el valor predeterminado).
+   * Si desea que los administradores de los grupos inferiores a su grupo puedan configurar una preferencia para sus grupos, desbloquéela ![](assets/unlock-toggle-button.png).
+   * Si desea que su grupo y todos los grupos inferiores utilicen su configuración para una preferencia, asegúrese de que esté bloqueada (este es el valor predeterminado).
 
      >[!IMPORTANT]
      >
-     >Le recomendamos que se comunique con los administradores y usuarios de los grupos de todo el sistema para asegurarse de que todas las necesidades se tienen en cuenta de la forma en que configura una preferencia bloqueada. Cuando lo bloquea, la configuración para él la heredan todos los grupos del sistema. Y si la preferencia se ha desbloqueado durante cualquier período de tiempo, la configuración reemplaza las que los administradores del grupo puedan haber realizado.
+     >Le recomendamos que se comunique con los administradores y usuarios de los grupos de todo el sistema para asegurarse de tener en cuenta todas las necesidades a la hora de configurar una preferencia bloqueada. Cuando la bloquea, su configuración se hereda por todos los grupos del sistema. Y si la preferencia ha estado desbloqueada durante algún tiempo, su configuración reemplaza aquellas que los administradores de grupo puedan haber realizado.
 
 1. Haga clic en **[!UICONTROL Guardar]**.

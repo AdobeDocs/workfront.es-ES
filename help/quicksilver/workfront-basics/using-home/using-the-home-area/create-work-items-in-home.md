@@ -1,28 +1,32 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Crear elementos de trabajo y proyectos desde el área de Inicio
+title: Crear elementos de trabajo y proyectos desde el área de inicio
 description: Puede crear elementos de trabajo y proyectos desde el área [!UICONTROL Inicio].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 2%
+source-wordcount: '811'
+ht-degree: 22%
 
 ---
 
 # Crear elementos de trabajo y proyectos desde el área de Inicio
 
-Puede crear elementos de trabajo y proyectos desde el área [!UICONTROL Inicio]. Desde Inicio, puede hacer lo siguiente
+Puede crear elementos de trabajo y proyectos desde el área [!UICONTROL Inicio].
+
+Desde Inicio, puede hacer lo siguiente
 
 * Cree tareas pendientes personales para usted
-* Envío de solicitudes
+* Envían solicitudes
 * Agregar tareas y problemas a proyectos específicos
 * Cree proyectos a partir de una plantilla o un proyecto en blanco, o importe un proyecto de MS.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -36,32 +40,39 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
+   <td> <p>[!UICONTROL Work] o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
    <td> <p>[!UICONTROL Worker]</p> <p><b>NOTA</b></p> 
-   <p>Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <p>Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Acceso a [!UICONTROL Edit] o superior en tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Acceso a [!UICONTROL Edit] o superior en tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
++++
+
 ## Crear un elemento de tarea personal
 
-Puede crear un elemento personal pendiente en el área [!UICONTROL Hogar]. Los elementos pendientes son tareas personales que crea usted mismo.
+Puede crear un elemento personal de tareas pendientes en el widget de tareas pendientes del área [!UICONTROL Inicio]. Los elementos pendientes son tareas personales que crea usted mismo.
 
 Usted y otros usuarios pueden ver sus tareas personales en un informe de tareas personales. A partir de ahí, pueden agregarlos a proyectos si es necesario.
+
+>[!TIP]
+>
+>Los elementos de trabajo que se envíen a otros usuarios o a sí mismos desde la página de perfil de usuario también se muestran en el widget Tareas pendientes del área de Inicio del usuario. Para obtener más información, consulte [Crear tareas personales](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
 
 Para crear un elemento pendiente:
 
 1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
-1. (Condicional) Haz clic en **Personalizar** y luego haz clic en **Tareas pendientes** para agregar el widget de tareas pendientes a la pantalla de inicio.
+1. (Condicional) Haz clic en **Personalizar** y luego haz clic en **Tareas pendientes** para agregar el widget Tareas pendientes a la pantalla de inicio.
 1. Vaya al widget **Tareas pendientes** y haga clic en **Agregar tareas pendientes**.
 1. Escriba el nombre del elemento personal y haga clic en Entrar.
 1. (Opcional) Haga clic en el icono **Fecha** ![](assets/date-icon.png) para agregar una fecha límite para el elemento.

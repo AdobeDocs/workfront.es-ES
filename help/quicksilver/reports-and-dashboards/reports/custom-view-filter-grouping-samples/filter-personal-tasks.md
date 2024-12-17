@@ -2,14 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: Tareas personales"
+title: 'Filtro: Tareas personales'
 description: Este filtro de tareas devuelve solicitudes de trabajo ad hoc enviadas a un usuario o elementos pendientes agregados por usuarios en su área de Inicio. Las tareas personales no están conectadas a un proyecto, pero se pueden mover a un proyecto si es necesario.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 0%
+source-wordcount: '302'
+ht-degree: 29%
 
 ---
 
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Este filtro de tareas devuelve solicitudes de trabajo ad hoc enviadas a un usuario o elementos pendientes agregados por usuarios en su área de Inicio.
+Este filtro de tareas devuelve solicitudes de trabajo ad hoc enviadas a un usuario o elementos pendientes agregados por usuarios en el widget Tareas pendientes en el área de Inicio.
 
 Las solicitudes de trabajo ad hoc y los elementos pendientes se guardan en Adobe Workfront como tareas personales.
 
-Las tareas personales no están conectadas a un proyecto, pero se pueden mover a un proyecto si es necesario.
+Las tareas personales no están conectadas a un proyecto, pero se pueden mover a un proyecto si es necesario. Para obtener más información, consulte [Crear tareas personales](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
 ![](assets/personal-tasks-report.png)
 
@@ -36,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -52,16 +53,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +76,7 @@ Para crear este filtro:
 1. (Condicional) Seleccione los siguientes criterios de filtrado:
 
    * De un filtro de lista: **Tarea** > **Personal** **Es verdadera**
-   * De un filtro de informe: **Tarea** > **Personal** > **Igual a** > **Verdadero**.
+   * De un filtro de informe: **Tarea** > **Personal** > **Igual (distingue mayúsculas de minúsculas)** > **Verdadero**.
 1. Guarde el filtro.
 
    La lista muestra únicamente las tareas personales que no están en ningún proyecto.

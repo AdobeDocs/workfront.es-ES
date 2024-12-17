@@ -8,10 +8,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 0%
+source-wordcount: '923'
+ht-degree: 2%
 
 ---
 
@@ -34,13 +34,13 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
 
 Las versiones suelen tener lugar entre las 20:00 y las 22:00, hora de la montaña de EE. UU., la noche anterior a la fecha de lanzamiento.
 
-Normalmente, las funciones de la vista previa estarán disponibles en el entorno de producción en la próxima versión. Sin embargo, en algunos casos, las funciones están disponibles en el entorno de producción fuera de una versión programada. Estos cambios permanecen en la Vista previa durante un mínimo de 2 semanas para proporcionarle el tiempo adecuado para familiarizarse con los cambios. Estos cambios también se comunican a través del Centro de anuncios en el momento en que se añaden a la Vista previa.
+Normalmente, las funciones de la vista previa estarán disponibles en el entorno de producción en la próxima versión. Sin embargo, en algunos casos, las funciones están disponibles en el entorno de producción fuera de una versión programada. Estos cambios suelen permanecer en la Vista previa durante un mínimo de 2 semanas para proporcionarle el tiempo adecuado para familiarizarse con los cambios.
 
 Para obtener más información sobre los procesos de versiones trimestrales y rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Actualizaciones de mantenimiento
 
-Las correcciones de problemas del producto Adobe Workfront están disponibles en el entorno de producción cada semana. Consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) para ver qué se ha corregido recientemente.
+Las correcciones de problemas del producto Adobe Workfront están disponibles en el entorno de producción cada semana. Consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es) para ver qué se ha corregido recientemente.
 
 ## Funciones eliminadas de un lanzamiento programado
 
@@ -82,7 +82,7 @@ Para obtener información acerca de las notas de la versión del producto, consu
 
 A veces, Workfront puede lanzar funciones que podrían no estar documentadas en las notas de la versión, las actualizaciones de mantenimiento o en cualquiera de los artículos de documentación. Esto sucede en un esfuerzo por probar las nuevas funciones antes de hacerlas permanentes. Normalmente, estas pruebas se realizan para un número limitado de clientes, pero podría haber un momento en el que se podrían realizar para todos. Se pueden publicar en los entornos de Previsualización o Producción.
 
-Si se encuentra con algo en el sistema que no coincide con la documentación de y sobre lo que podría tener preguntas, le pedimos que se ponga en contacto con nuestro equipo de asistencia al cliente. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Si se encuentra con algo en el sistema que no coincide con la documentación de y sobre lo que podría tener preguntas, le pedimos que se ponga en contacto con nuestro equipo de asistencia al cliente. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Notas de la versión
 

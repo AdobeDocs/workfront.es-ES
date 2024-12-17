@@ -6,14 +6,23 @@ description: Puede mover tareas a diferentes proyectos o a diferentes tareas pri
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 2%
+source-wordcount: '1442'
+ht-degree: 99%
 
 ---
 
 # Mover tareas
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Puede mover tareas en Adobe Workfront entre los siguientes objetos:
 
@@ -22,10 +31,12 @@ Puede mover tareas en Adobe Workfront entre los siguientes objetos:
 * Una tarea de un proyecto bajo un elemento principal diferente en otro proyecto.
 * Una tarea dentro del mismo proyecto bajo un elemento principal diferente.
 
-Puede mover una tarea en el nivel de tarea o puede moverla desde una lista de tareas.
+Puede mover una tarea a nivel de tarea o puede moverla desde una lista de tareas.
 Puede mover una sola tarea o mover varias tareas a la vez desde una lista de tareas.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar las acciones de este artículo:
 
@@ -34,63 +45,71 @@ Debe tener el siguiente acceso para realizar las acciones de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Nuevo plan: Estándar </p> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Nuevo plan: Standard </p> 
  <p>o</p>  
 <p>Plan actual: Trabajo o superior </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y Proyectos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Tareas y Proyectos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para las tareas</p> <p>Contribute o permisos superiores al proyecto con capacidad para Agregar tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para las tareas</p> <p>Permisos de aportación o superiores al proyecto con capacidad para Añadir tareas</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Consideraciones para mover tareas
++++
+
+## Consideraciones a la hora de mover tareas
 
 Tenga en cuenta lo siguiente al mover una tarea:
 
-* Cuando se mueve una tarea de un proyecto a otro, es posible que se recalculen las fechas de la tarea. Para volver a calcular se tendrá en cuenta la programación que utiliza el nuevo proyecto y la información de Programar a partir del proyecto.
+* Cuando se mueve una tarea de un proyecto a otro, es posible que se recalculen las fechas de la tarea. Para realizar un nuevo cálculo se tendrá en consideración la programación que utiliza el nuevo proyecto y la información de Programación desde del proyecto.
 
-* Tiene la oportunidad de seleccionar mover algunos elementos asociados con la tarea a la tarea desplazada durante el proceso de movimiento. Sin embargo, de forma predeterminada, los siguientes objetos se transfieren a la tarea desplazada:
+* Tiene la oportunidad de seleccionar el traslado de algunos elementos asociados con la tarea a la tarea desplazada durante el proceso de traslado. Sin embargo, de forma predeterminada, los siguientes objetos se transfieren a la tarea desplazada:
 
    * Problemas
    * Horas registradas
    * Comentarios del usuario
-   * Formularios personalizados e información de campos personalizados
+   * Información de formularios y campos personalizados
    * Subtareas
 
 Los elementos siguientes no se mueven con la tarea de forma predeterminada:
 
 * Hitos
 
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
+
 ## Mover tareas a una lista
 
 1. Vaya al proyecto que contiene la tarea o tareas que desea mover.
 1. Haga clic en **Tareas** en el panel izquierdo para mostrar la lista de tareas.
-1. Haga clic en el icono **Modo de plan** ![](assets/plan-mode-icon.png), compruebe que la opción **Guardar automáticamente** esté habilitada y, a continuación, seleccione las tareas que desee mover.
+1. Haga clic en el icono **Modo de plan**![](assets/plan-mode-icon.png), compruebe que la opción **Guardar automáticamente** esté habilitada y, a continuación, seleccione las tareas que desee mover.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >No puede mover tareas cuando la opción **Guardar automáticamente** esté deshabilitada.
+   >No es posible mover tareas cuando la opción **Guardar automáticamente** está deshabilitada.
 
-1. (Opcional y condicional) Si desea mover las tareas seleccionadas dentro del mismo proyecto, haga clic en las tareas seleccionadas, arrástrelas y suéltelas donde desee que se muevan en el proyecto.
+1. (Opcional y condicional) Si desea mover las tareas seleccionadas dentro del mismo proyecto, haga clic en las tareas seleccionadas, arrástrelas y suéltelas donde desee colocarlas en el proyecto.
 
-   Después de colocar las tareas en el lugar correcto del proyecto, los cambios realizados en la jerarquía de tareas se guardan inmediatamente. Toda la información asociada con cada tarea se mueve con las tareas.
+   Después de colocar las tareas en el lugar correcto del proyecto, los cambios realizados en la jerarquía de tareas se guardan inmediatamente. Toda la información asociada con cada tarea se desplaza con las tareas.
 
 1. (Condicional) Seleccione la tarea o tareas que desee mover y realice una de las siguientes acciones:
 
@@ -100,7 +119,7 @@ Los elementos siguientes no se mueven con la tarea de forma predeterminada:
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   Aparece el cuadro Mover tarea
+   Se muestra el cuadro **Mover tarea**
 
 1. Continúe moviendo la tarea, como se describe en la sección [Mover una tarea al nivel de tarea](#move-a-task-at-the-task-level) de este artículo, empezando por el paso 4.
 
@@ -112,17 +131,17 @@ Los elementos siguientes no se mueven con la tarea de forma predeterminada:
 
 Además de mover tareas de una lista de tareas, también puede mover una tarea al nivel de tarea, una vez que la haya abierto.
 
-1. Busque una tarea en el sistema de Workfront.
+1. Encuentre una tarea en el sistema de Workfront buscándola.
 1. Haga clic en el nombre de la tarea para abrirla.
 1. Haga clic en el menú desplegable **Más** ![](assets/qs-more-menu.png) junto al nombre de la tarea y, a continuación, haga clic en **Mover a**. Aparece el cuadro Mover tarea.
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
-1. (Opcional) Actualice **Nombre de tarea**. La tarea se mueve con el nuevo nombre a la nueva ubicación. Workfront no registra el nombre original de la tarea.
+1. (Opcional) Actualice el **Nombre de la tarea**. La tarea se mueve con el nuevo nombre a la nueva ubicación. Workfront no registra el nombre original de la tarea.
 
    >[!TIP]
    >
-   >El campo Nombre de tarea aparece atenuado y no se puede editar al seleccionar mover varias tareas en una lista. Puede pasar el ratón sobre el campo Nombre de tarea y se mostrará una lista de todas las tareas seleccionadas.
+   >El campo Nombre de la tarea aparece atenuado y no se puede editar al seleccionar mover varias tareas en una lista. Puede pasar el puntero por encima del campo Nombre de la tarea y se mostrará una lista de todas las tareas seleccionadas.
    >
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
@@ -137,20 +156,20 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
    >* También puede empezar a escribir el número de referencia o introducir el ID del proyecto. Esto puede ayudarle a distinguir entre proyectos con nombres idénticos.
    >* En la lista solo se muestran 100 proyectos.
 
-1. (Condicional) Haz clic en **Solicitar acceso** para solicitar acceso al proyecto si no tienes acceso al proyecto seleccionado.
-1. (Condicional) Continúe moviendo la tarea al proyecto de destino seleccionado sin solicitar acceso si tiene acceso para agregar tareas a una de las tareas del proyecto de destino.
+1. (Condicional) Haga clic en **Solicitar acceso** para solicitar acceso al proyecto si no tiene acceso al proyecto seleccionado.
+1. (Condicional) Continúe moviendo la tarea al proyecto de destino seleccionado sin solicitar acceso si tiene acceso para añadir tareas a una de las tareas del proyecto de destino.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
-   >Se muestran mensajes similares si el proyecto seleccionado está en aprobación pendiente, completado o muerto, cuando el administrador de Workfront impide añadir tareas a estos proyectos. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Se muestran mensajes similares si el proyecto seleccionado está pendiente de aprobación, completado o inactivo, cuando el administrador de Workfront impide añadir tareas a estos proyectos. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Opcional) Haga clic en **Opciones** en el panel izquierdo
+1. (Opcional) Haga clic en **Opciones** en el panel izquierdo.
 
    O
 
-   Desplácese hacia abajo hasta la sección **Opciones** del cuadro Mover tarea y, a continuación, anule la selección de cualquiera de los elementos que aparecen en la tabla siguiente para quitarlos de las tareas que se han movido Todas las opciones están seleccionadas de forma predeterminada.
+   Desplácese hacia abajo hasta la sección **Opciones** del cuadro Mover tarea y, a continuación, anule la selección de cualquiera de los elementos que aparecen en la tabla siguiente para quitarlos de las tareas que se han movido. Todas las opciones están seleccionadas de forma predeterminada.
 
    >[!IMPORTANT]
    >
@@ -169,7 +188,7 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
       <td> <p>La restricción de tarea se establece en Lo antes posible o Lo más tarde posible según la configuración del modo de programación del proyecto.</p> <p> Si se selecciona, la restricción actual de la tarea se transfiere con la tarea. </p> 
       <p><b>NOTA</b>
 
-   Al mover o copiar una tarea con delimitaciones específicas de fecha a otro proyecto y las fechas de delimitación de la tarea están fuera de las fechas del nuevo proyecto, o bien la delimitación de tarea cambia a Lo antes posible o Lo más tarde posible, o bien se ajustan las fechas planificadas de inicio o finalización de los proyectos.
+   Cuando se mueve o copia una tarea con restricciones específicas de fecha a otro proyecto y las fechas de restricción de la tarea están fuera de las fechas del nuevo proyecto, o bien la restricción de la tarea cambia a Lo antes posible o Lo más tarde posible, o bien se ajustan las fechas planificadas de inicio o finalización de los proyectos.
 
    Los siguientes son ejemplos de restricciones específicas de la fecha:
    <ul>
@@ -179,11 +198,11 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
       <li> No iniciar después del</li>
       </ul>
 
-   Para obtener información sobre las delimitaciones de tareas y cómo pueden verse afectadas las delimitaciones de tareas o las fechas de proyectos, vea <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la delimitación de tareas</a> y busque una delimitación específica.</p> </td>
+   Para obtener información sobre las restricciones de tareas y cómo pueden verse afectadas las restricciones de tareas o las fechas de proyectos, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tareas</a> y busque una restricción específica.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Asignaciones</td> 
-      <td> <p>Todas las asignaciones se quitan de la tarea. </p> </td> 
+      <td> <p>Todas las asignaciones se eliminan de la tarea. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Proceso de aprobación</td> 
@@ -203,10 +222,10 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
      </tr> 
      <tr> 
       <td role="rowheader">Documentos</td> 
-      <td> <p>Los documentos adjuntos a la tarea no se transfieren a la tarea desplazada. Esto incluye versiones, pruebas y documentos vinculados.</p> <p>Esto no incluye las aprobaciones de documentos. Las aprobaciones de documentos nunca se pueden mover cuando se mueve una tarea.</p> 
+      <td> <p>Los documentos adjuntos a la tarea no se transfieren a la tarea desplazada. Esto incluye versiones, pruebas y documentos vinculados.</p> <p>Esto no incluye las aprobaciones de documentos. Las aprobaciones de documentos nunca pueden moverse cuando se mueve una tarea.</p> 
       <b>NOTA</b>
 
-   Si opta por no mover los documentos con la tarea, los documentos se eliminarán y se enviarán a la papelera de reciclaje durante 30 días. Un administrador puede restaurarlos y se restaurarán en la tarea que se haya movido.
+   Si opta por no mover los documentos con la tarea, los documentos se eliminarán y se enviarán a la papelera de reciclaje durante 30 días. Un administrador puede restaurarlos y se restaurarán en la tarea trasladada.
 
    Si la tarea se elimina después de moverla, los documentos restaurados se colocarán en el área Documentos de la página del usuario del administrador que los restaura.
 
@@ -222,7 +241,7 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
      </tr> 
      <tr> 
       <td role="rowheader">Permisos</td> 
-      <td> <p>Workfront quita los nombres de todas las entidades que se muestran en la lista de uso compartido de la tarea. </p> </td> 
+      <td> <p>Workfront elimina los nombres de todas las entidades que se muestran en la lista de uso compartido de la tarea. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -233,16 +252,16 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
 
    O
 
-   Desplácese hasta la sección **Seleccionar principal** y, a continuación, seleccione la tarea en el proyecto de destino que desea que sea la principal de la tarea desplazada.
+   Desplácese hasta la sección **Seleccionar principal** y, a continuación, seleccione la tarea en el proyecto de destino que desea que se convierta en la principal de la tarea desplazada.
 
    >[!TIP]
    >
    >Al seleccionar mover varias tareas en una lista, todas las tareas seleccionadas se convierten en las tareas secundarias del elemento principal seleccionado.
 
-   Seleccione un padre mediante una de las siguientes acciones:
+   Seleccione un elemento principal mediante una de las siguientes acciones:
 
-   * En la lista de tareas, seleccione uno de los elementos primarios del plan del proyecto.
-   * Haga clic en el icono de búsqueda ![Icono de búsqueda](assets/search-icon.png) y busque una tarea principal por su nombre.
+   * En la lista de tareas, seleccione uno de los elementos principales del plan del proyecto.
+   * Haga clic en el icono de búsqueda ![icono de Búsqueda](assets/search-icon.png) y busque una tarea principal por su nombre.
 
    La tarea se muestra en la lista.
 
@@ -258,4 +277,4 @@ Además de mover tareas de una lista de tareas, también puede mover una tarea a
 
    Haga clic en **Mover tareas** al seleccionar varias tareas en una lista.
 
-   Las tareas movidas ahora se encuentran en el proyecto especificado y son subtareas de una tarea principal o las últimas tareas del proyecto.
+   Las tareas trasladadas ahora se encuentran en el proyecto especificado y son subtareas de una tarea principal o las últimas tareas del proyecto.

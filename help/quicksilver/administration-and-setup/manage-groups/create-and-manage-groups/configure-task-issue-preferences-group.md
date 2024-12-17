@@ -4,21 +4,21 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 keywords: grupo, preferencias, tarea, problema, desbloquear
 navigation-topic: create-and-manage-groups
-description: Si los grupos de su organización necesitan configurar una preferencia de tarea o problema de forma independiente de la forma en que se configura en el sistema, un administrador de Adobe Workfront puede desbloquear la preferencia. A continuación, como administrador de grupo, puede configurar la preferencia de su grupo y esto afectará a todas las tareas o problemas asociados con su grupo.
+description: Si los grupos de su organización necesitan configurar una preferencia de tarea o problema de forma independiente de la forma en que se configura en el sistema, un administrador de Adobe Workfront puede desbloquear la preferencia. A continuación, como administrador de grupo, puede configurar la preferencia de su grupo, lo cual afectará a todas las tareas o problemas asociados con su grupo.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1885'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
 # Configurar las preferencias de tareas y problemas de un grupo
 
-Si los grupos de su organización necesitan configurar una preferencia de tarea o problema de forma independiente de la forma en que se configura en el sistema, un administrador de Adobe Workfront puede desbloquear la preferencia. A continuación, como administrador de grupo, puede configurar la preferencia de su grupo y esto afectará a todas las tareas o problemas asociados con su grupo.
+Si los grupos de su organización necesitan configurar una preferencia de tarea o problema de forma independiente de la forma en que se configura en el sistema, un administrador de Adobe Workfront puede desbloquear la preferencia. A continuación, como administrador de grupo, puede configurar la preferencia de su grupo, lo cual afectará a todas las tareas o problemas asociados con su grupo.
 
 Si hay grupos por encima del grupo que administra, sus administradores también pueden hacerlo en su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
@@ -30,11 +30,11 @@ Para obtener información sobre cómo el administrador de Workfront desbloquea l
 
 >[!NOTE]
 >
->* Normalmente, una preferencia desbloqueada permanece desbloqueada indefinidamente. Si el administrador de Workfront vuelve a bloquearlo, la configuración del sistema vuelve a tener efecto y se pierde la configuración de las preferencias realizadas por los administradores del grupo.
->* Las preferencias establecidas para el grupo asociado a un proyecto tienen prioridad sobre las preferencias establecidas para el grupo de inicio del usuario que crea el proyecto.
->* Algunas preferencias de nivel de grupo afectan a las plantillas de proyecto que crea para el grupo. Para obtener más información, consulte la sección [Ver, trabajar y crear plantillas para su grupo desde el área de grupos](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) en el artículo [Crear y modificar plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Normalmente, una preferencia desbloqueada permanecerá desbloqueada indefinidamente. Si el administrador de Workfront volviese a bloquearla, la configuración del sistema volverá a tener efecto y se perderá la configuración de las preferencias realizadas por los administradores del grupo.
+>* Las preferencias establecidas para el grupo asociado a un proyecto tendrán prioridad sobre las preferencias establecidas para el grupo de inicio del usuario que cree el proyecto.
+>* Algunas preferencias de nivel de grupo afectarán a las plantillas de proyecto que cree para el grupo. Para obtener más información, consulte la sección [Ver, trabajar y crear plantillas para grupos desde el área Grupos](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) en el artículo [Crear y modificar plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* Una vez que un administrador de Workfront desbloquea una preferencia en el sistema, puede configurarla y, a continuación, bloquearla para garantizar que todos los miembros del grupo y de sus subgrupos estén utilizando la misma configuración. Esto es paralelo a la capacidad que tiene un administrador de Workfront para configurar y bloquear una preferencia para todos los miembros del sistema. Para obtener más información, vea [Bloquear o desbloquear las preferencias de proyecto, tarea o problema de los subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Una vez que un administrador de Workfront desbloquee una preferencia en el sistema, podrá configurarla y, a continuación, bloquearla para garantizar que todos los miembros del grupo y los subgrupos usen la misma configuración. Esto es similar a la capacidad que tiene un administrador de Workfront para configurar y bloquear preferencias para todos los miembros del sistema. Para obtener más información, vea [Bloquear o desbloquear las preferencias de proyecto, tarea o problema de los subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
 ## Requisitos de acceso
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos**![](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo para el que desea configurar las preferencias de tareas y problemas desbloqueados.
 1. En la página que se muestra para el grupo, en el panel izquierdo, haga clic en **Preferencias de tarea y problema**.
@@ -91,12 +91,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    * [Valores predeterminados de nueva tarea](#new-task-defaults)
    * [Problemas](#issues)
    * [Eliminación](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
    * [Fechas reales](#actual-dates)
-
-     <!--   
-     <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
-     -->
-
    * [Acceso](#access)
 
 ### Valores predeterminados de nueva tarea {#new-task-defaults}
@@ -107,19 +105,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <tbody> 
      <tr> 
       <td role="rowheader">Fecha de inicio en tareas nuevas</td> 
-      <td> <p>Determina la fecha de comienzo predeterminada de las nuevas tareas para los jefes de proyecto. La fecha de inicio de las nuevas tareas puede ser la fecha de inicio planeada del proyecto o el día en que se crea la tarea.</p> </td> 
+      <td> <p>Determina la fecha de comienzo predeterminada de las nuevas tareas para los jefes de proyecto. La fecha de inicio de las nuevas tareas puede ser la fecha de inicio planificada del proyecto o el día en que se crea la tarea.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Tipo de duración </p> </td> 
-      <td> <p>Determina la relación entre el número de recursos (y su porcentaje de asignación) y la duración o el esfuerzo total de la tarea. Para obtener más información, vea <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duración de la tarea y Tipos de duración: índice del artículo</a></p> </td> 
+      <td> <p>Determina la relación entre el número de recursos (y su porcentaje de asignación) y la duración o el esfuerzo total de la tarea. Para obtener más información, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duración y tipos de duración de la tarea: índice de artículos</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de ingresos</td> 
-      <td> <p>Calcula las estimaciones de ingresos planificadas y reales de una tarea. Cuando el <strong>Tipo de ingresos</strong> se establece en<strong>No facturable</strong>, las horas planificadas y las horas registradas no generan una estimación de ingresos para la tarea y el trabajo en la tarea no contribuye a los ingresos en el nivel de proyecto.</p> </td> 
+      <td> <p>Calcula las estimaciones de ingresos planificados y reales de una tarea. Cuando el <strong>Tipo de ingresos</strong> se establece en <strong>No facturable</strong>, las horas planificadas y las horas reales registradas no generan una estimación de ingresos para la tarea, y el trabajo de la tarea no contribuye a los ingresos del nivel de proyecto.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de costo</td> 
-      <td> <p>Calcula las estimaciones de costos planificadas y reales de una tarea. Cuando se establece en <strong>Sin costo</strong>, las horas planificadas y las horas registradas no generan una estimación de costo planificada o real para la tarea, y el trabajo en la tarea no contribuye a los costos de nivel de proyecto.</p> </td> 
+      <td> <p>Calcula las estimaciones de costes planificados y reales de una tarea. Cuando se establece en <strong>Sin coste</strong>, las horas planificadas y las horas reales registradas no generan una estimación de costes planificados o reales para la tarea, y el trabajo de la tarea no contribuye a los costes del nivel de proyecto.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -132,18 +130,18 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <tbody> 
      <tr> 
       <td role="rowheader">Actualizar automáticamente el estado del problema solucionable cuando cambie el estado del objeto de resolución</td> 
-      <td> <p>Cuando alguien convierte un problema en un proyecto o tarea, tanto el problema original como el proyecto o tarea convertidos se convierten en objetos de resolución. Esta configuración le permite correlacionar la resolución del problema original con la resolución de su objeto solucionable. Para obtener más información sobre la resolución de objetos, vea <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</p> <p>Para que esta configuración surta efecto, debe estar seleccionada la opción de <strong>Mantener el problema original y enlazar su solución a la tarea</strong>.</p> 
+      <td> <p>Cuando alguien convierte un problema en un proyecto o tarea, tanto el problema original como el proyecto o tarea convertidos se convierten en objetos de resolución. Esta configuración permite correlacionar la resolución del problema original con la resolución del nuevo objeto que se puede resolver. Para obtener más información sobre la resolución de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.</p> <p>Para que esta configuración tenga algún efecto, la opción <strong>Mantener el problema original y vincular su resolución a la tarea</strong> debe estar seleccionada.</p> 
        <ul> 
-        <li>Cuando esta configuración está habilitada, puede crear estados personalizados con la misma clave para problemas y proyectos o tareas. Cuando el proyecto o la tarea (como objeto solucionable) se convierte en el estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para los estados de problema y proyecto o tarea.</li> 
-        <li>Cuando esta configuración está desactivada, los estados de objetos de resolución se establecen automáticamente en el estado predeterminado en lugar de en los personalizados. Para obtener más información acerca de los estados predeterminados, vea <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Acceso a la lista de estados de problemas del sistema</a>.</li> 
+        <li>Cuando esta configuración está habilitada, puede crear estados personalizados con la misma clave para problemas y proyectos o tareas. Cuando el proyecto o la tarea (como objeto solucionable) cambia al estado personalizado, el cambio también se refleja en el estado del problema. La clave de estado debe ser la misma para los estados de problema y proyecto o tarea.</li> 
+        <li>Cuando esta configuración está desactivada, los estados de objetos de resolución se establecen automáticamente en el estado predeterminado en lugar de hacerlo en los personalizados. Para obtener más información acerca de los estados predeterminados, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Acceder a la lista de estados de problemas del sistema</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cuando se convierte un problema en una tarea</td> 
       <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a una tarea:</p> 
        <ul> 
-        <li><strong>Conservar el problema original y enlazar su solución a la tarea</strong>: Cuando esté convirtiendo el problema, permanecerá visible como un problema hasta que se complete la tarea. El estado del problema cambia automáticamente a Cerrado cuando se completa la tarea.</li> 
-        <li><strong>Permitir que el contacto principal tenga acceso a la tarea</strong>: otorga al contacto principal (creador del problema) acceso a la tarea para revisar la tarea, realizar actualizaciones y mantenerse informado de su progreso</li> 
+        <li><strong>Conservar el problema original y vincular su resolución a la tarea</strong>: cuando esté convirtiendo el problema, permanecerá visible como problema hasta que se complete la tarea. El estado del problema cambiará automáticamente a Cerrado cuando se complete la tarea.</li> 
+        <li><strong>Permitir que el contacto principal tenga acceso a la tarea</strong>: otorga al contacto principal (creador del problema) acceso a la tarea para revisarla, realizar actualizaciones y mantenerse al corriente de su progreso</li> 
         <li> <p><strong>Permitir cambiar esta configuración durante la conversión</strong>: permite al usuario que está convirtiendo el problema cambiar estas opciones durante la conversión de un problema en una tarea.</p> <!--
           Screenshot when possible</p>
          --> </li> 
@@ -153,8 +151,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td role="rowheader">Cuando se convierte un problema en un proyecto</td> 
       <td> <p>La configuración de esta sección determina qué sucede durante el proceso de conversión de un problema a un proyecto:</p> 
        <ul> 
-        <li><strong>Conservar el problema original y enlazar su solución al proyecto</strong>: Cuando esté convirtiendo el problema, permanecerá visible como un problema hasta que se complete el proyecto. El estado del problema cambia automáticamente a Cerrado cuando se completa el proyecto.</li> 
-        <li><strong>Permitir que el contacto principal tenga acceso al proyecto</strong>: otorga al contacto principal (creador del problema) acceso al proyecto para revisar el proyecto, realizar actualizaciones y mantenerse informado de su progreso.</li> 
+        <li><strong>Conservar el problema original y vincular su resolución al proyecto</strong>: cuando esté convirtiendo el problema, permanecerá visible como problema hasta que se complete el proyecto. El estado del problema cambiará automáticamente a Cerrado cuando se complete el proyecto.</li> 
+        <li><strong>Permitir que el contacto principal tenga acceso al proyecto</strong>: otorga al contacto principal (creador del problema) acceso al proyecto para revisarlo, realizar actualizaciones y mantenerse al corriente de su progreso.</li> 
         <li><strong>Permitir cambiar esta configuración durante la conversión</strong>: permite al usuario que está convirtiendo el problema cambiar las opciones enumeradas durante la conversión de un problema en un proyecto.</li> 
        </ul> </td> 
      </tr> 
@@ -169,18 +167,45 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <tbody> 
      <tr> 
       <td role="rowheader">Permitir que los usuarios eliminen tareas y problemas con las horas registradas</td> 
-      <td> <p> Permite determinar si se permite eliminar tareas o problemas en los que se registran horas. Esta opción está seleccionada de forma predeterminada.</p> 
+      <td> <p> Permite determinar si se permite la eliminación de tareas o problemas en los que se registran horas. Esta opción está desactivada de forma predeterminada.</p> 
        <div> 
-        <p><b>Sugerencia</b>: Esta configuración también se aplica a la eliminación de proyectos que tienen tareas o problemas con horas registradas en ellos. Esta configuración no se aplica a los proyectos de eliminación en los que el tiempo se registra directamente en el proyecto. </p> 
+        <p><b>Sugerencia</b>: Esta opción de configuración también se aplica a la eliminación de proyectos que tienen tareas o problemas con horas registradas. Esta configuración no se aplica a los proyectos de eliminación en los que el tiempo se registra directamente en el proyecto. </p> 
         <p>Tenga en cuenta lo siguiente:</p> 
         <ul> 
-         <li> <p>Cuando se selecciona, recibe una advertencia informativa cuando elimina una tarea o un problema. La advertencia le recuerda que si la tarea o el problema han registrado horas, se moverán al proyecto o se eliminarán. Puede configurar si las horas se eliminan o se mueven al proyecto en la sección Hoja de horas y preferencias de horas de Configuración. Después de confirmar que ha visto la advertencia, la tarea o el problema se eliminan. Para obtener más información sobre cómo configurar las preferencias de horas y hojas de horas, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar las preferencias de horas y hojas de horas</a>. </p> <p>Sugerencia: <span>Cuando elimina un proyecto con tareas y problemas que han registrado horas, estas se eliminan o se conservan de acuerdo con la configuración del área de Preferencias de horas y hojas de horas de Configuración</span>. </p> </li> 
-         <li><span>Cuando anula la selección de esta opción, recibe una advertencia prohibitiva cuando elimina una tarea o un problema con horas registradas, o cuando elimina un proyecto con horas registradas para sus tareas o problemas</span> <span>.</span> La advertencia especifica que el administrador no permite que se eliminen tareas o problemas con horas registradas. No se pueden eliminar las tareas, problemas<span> o proyectos que tienen horas registradas para tareas y problemas</span>. </li> 
+         <li> <p>Cuando se selecciona, recibe una advertencia informativa cuando elimina una tarea o un problema. La advertencia le recuerda que si la tarea o el problema han registrado horas, se moverán al proyecto o se eliminarán. Puede configurar si las horas se eliminan o se mueven al proyecto en el área Preferencias de horas y plantillas de horas de Configuración. Después de confirmar que ha visto la advertencia, la tarea o el problema se eliminan. Para obtener más información sobre cómo configurar las preferencias de horas y plantillas de horas, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar las preferencias de horas y plantillas de horas</a>. </p> <p>Sugerencia: <span>Cuando se elimina un proyecto con tareas y problemas que han registrado horas, estas se eliminan o se conservan de acuerdo con la configuración del área Preferencias de horas y plantillas de horas de Configuración</span>. </p> </li> 
+         <li><span>Cuando anula la selección de esta opción, recibe una advertencia de prohibición al eliminar una tarea o un problema con horas registradas, o al eliminar un proyecto con horas registradas para sus tareas o problemas</span> <span>.</span> La advertencia especifica que la persona con la función de administrador no permite que se eliminen tareas o problemas con horas registradas. No se pueden eliminar las tareas, problemas<span> o proyectos que tienen horas registradas para tareas y problemas</span>. </li> 
         </ul> 
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
+
+
+<!-- *****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
+      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
+       <p>Consider the following:</p> 
+        <ul> 
+         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
+      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+</div>
+
+-->
 
 ### Fechas reales {#actual-dates}
 
@@ -189,19 +214,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Cuando una tarea o un problema pasen de "Nuevo" a "En curso", establecer la Fecha de inicio real en</td> 
-      <td> <p>Seleccione una de las siguientes opciones para indicar cuándo se registra la fecha de inicio real en Workfront cuando una tarea o un problema pasa de <strong>Nuevo</strong> a <strong>En curso</strong>:</p> 
+      <td role="rowheader">Cuando una tarea o un problema pasen de “Nuevo” a “En curso”, establecer la fecha de inicio real en</td> 
+      <td> <p>Seleccione una de las siguientes opciones para indicar cuándo desea que se registre la fecha de inicio real en Workfront cuando una tarea o un problema pase de <strong>Nuevo</strong> a <strong>En curso</strong>:</p> 
        <ul> 
-        <li><strong>Ahora:</strong> La fecha real de inicio está establecida en la fecha actual.</li> 
-        <li><strong>Fecha planificada de inicio:</strong> La fecha real de inicio se establece en la fecha planificada de inicio de la tarea o problema.</li> 
+        <li><strong>Ahora:</strong> la fecha de inicio real se establece en la fecha actual.</li> 
+        <li><strong>Fecha de inicio planificada:</strong> la fecha de inicio real se establece en la fecha planificada de inicio de la tarea o problema.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Una vez que se complete una tarea o un problema, establecer la Fecha real de finalización en</td> 
-      <td> <p>Seleccione una de las siguientes opciones para cuándo se registra la fecha real de finalización en Workfront cuando se completa una tarea o un problema:</p> 
+      <td role="rowheader">Cuando se complete una tarea o un problema, establecer la fecha de finalización real en</td> 
+      <td> <p>Seleccione una de las siguientes opciones cuando la fecha de finalización real esté registrada en Workfront cuando se complete una tarea o un problema:</p> 
        <ul> 
-        <li><strong>Ahora:</strong> La fecha real de finalización está establecida en la fecha actual.</li> 
-        <li> <p><strong>Fecha planificada de finalización:</strong> la fecha real de finalización está establecida en la fecha planificada de finalización de la tarea o problema.</p> </li> 
+        <li><strong>Ahora:</strong> la fecha de finalización real se establece en la fecha actual.</li> 
+        <li> <p><strong>Fecha planificada de finalización:</strong> la fecha real de finalización se establece en la fecha planificada de finalización de la tarea o problema.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -238,19 +263,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Cada vez que se asigne a una persona a una tarea</td> 
+      <td role="rowheader">Cuando se asigna a una persona una tarea</td> 
       <td> 
        <ul> 
-        <li><strong>Concederles... acceso a una tarea</strong>: Define el permiso predeterminado que un usuario tiene para la tarea a la que está asignado. Para obtener más información acerca de los permisos de tareas, vea<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Conceder acceso a los usuarios</a>.</li> 
-        <li> <p><strong>Concederles también... acceso al proyecto</strong>: Define el permiso predeterminado que un usuario tiene para acceder al proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
+        <li><strong>Concederles... acceso a una tarea</strong>: define el permiso predeterminado que un usuario tiene para la tarea que tiene asignada. Para obtener más información sobre los permisos de la tarea, consulte<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Conceder acceso a los usuarios</a>.</li> 
+        <li> <p><strong>Concederles también... acceso al proyecto</strong>: define el permiso predeterminado que un usuario tiene para acceder al proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Cada vez que se asigne a una persona a un problema</td> 
+      <td role="rowheader">Cuando se asigna a una persona un problema</td> 
       <td> 
        <ul> 
-        <li><strong>Concederles... acceso a una tarea</strong>: Define el permiso predeterminado que un usuario tiene para la tarea a la que está asignado. Para obtener más información acerca de los permisos de tareas, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</li> 
-        <li> <p><strong>Concederles también... acceso al proyecto</strong>: Define el permiso predeterminado que un usuario tiene para acceder al proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
+        <li><strong>Concederles... acceso a una tarea</strong>: define el permiso predeterminado que un usuario tiene para la tarea que tiene asignada. Para obtener más información sobre los permisos de la tarea, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</li> 
+        <li> <p><strong>Concederles también... acceso al proyecto</strong>: define el permiso predeterminado que un usuario tiene para acceder al proyecto en el que tiene una tarea asignada. Para obtener más información sobre los permisos del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -258,7 +283,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td> 
        <ul> 
         <li><strong>Concederles... acceso al problema</strong>: Define el permiso predeterminado que tiene un usuario sobre una solicitud que ha enviado. Para obtener más información, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema</a>.</li> 
-        <li> <p><strong>Las personas de la misma compañía heredarán los mismos permisos para todas las solicitudes</strong>: permite a los usuarios ver las solicitudes enviadas por otros usuarios de la misma compañía que ellos. Tienen los mismos permisos en esas solicitudes que en sus propias solicitudes enviadas.</p> </li> 
+        <li> <p><strong>Las personas de la misma compañía heredarán los mismos permisos para todas las solicitudes</strong>: permite a los usuarios ver las solicitudes enviadas por otros usuarios de la misma compañía que ellos. Tienen los mismos permisos sobre esas solicitudes que los que tienen sobre sus propias solicitudes enviadas.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

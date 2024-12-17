@@ -6,14 +6,23 @@ description: Puede mover problemas entre proyectos y tareas.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 6c82c585376b41cff0e57b253b6a214fb00309de
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 1%
+source-wordcount: '827'
+ht-degree: 95%
 
 ---
 
 # Mover problemas
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Puede mover problemas entre los siguientes objetos:
 
@@ -24,6 +33,8 @@ Puede mover problemas entre los siguientes objetos:
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -31,35 +42,52 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> <p>Revise o aumente la licencia para mover problemas en la sección Problemas de un proyecto.</p> </td> 
+   <td> <p>Nuevo:</p> 
+   <ul><li>Colaborador o superior</li>
+   <li>Ligero o superior para mover problemas en la sección Problemas de un proyecto</li></ul>
+   <p>Actual:</p>
+   <ul>
+   <li><p>Solicitud o superior</p></li>
+   <li><p>Revise o aumente la licencia para mover problemas en la sección Problemas de un proyecto.</p></li></ul>   
+     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a Proyectos y tareas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los problemas de su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a proyectos y tareas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para el problema</p> <p>Permisos de Contribute para el elemento al que está moviendo el problema con la capacidad de Agregar problemas.</p> <p> Para obtener información sobre la concesión de permisos a los problemas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para el problema</p> <p>Permisos de aportación para el elemento al que está moviendo el problema con la posibilidad de Añadir problemas.</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones sobre cómo mover problemas
 
 Tenga en cuenta lo siguiente al mover problemas que contienen documentos o están asociados a una cola de solicitudes:
 
-* **Cuando un problema está asociado con una cola de solicitudes:** Cuando mueve un problema a otro objeto y el problema está asociado con una cola de solicitudes, el problema movido ya no está asociado con la cola original desde la que se originó el primer problema.
-* **Cuando se adjunta un documento al problema:** Cuando se mueve un problema a otro objeto y el problema tiene un documento adjunto, el documento, sus versiones y revisiones también se mueven al nuevo problema. Las aprobaciones asociadas con el documento no se mueven.
-* **Cuando un problema está vinculado a un documento o a una carpeta:** Cuando mueve un problema que tiene documentos o carpetas vinculados a un servicio de terceros como Google Drive, los vínculos a los documentos se mueven con el problema.
+* **Cuando un problema está asociado con una cola de solicitudes:** cuando mueve un problema a otro objeto y el problema está asociado con una cola de solicitudes, el problema movido ya no se asocia con la cola original desde la que se originó el primer problema.
+* **Cuando se adjunta un documento al problema:** cuando se mueve un problema a otro objeto y el problema tiene un documento adjunto, el documento, sus versiones y revisiones también se mueven al nuevo problema. Las aprobaciones asociadas con el documento no se mueven.
+* **Cuando un problema está vinculado a un documento o a una carpeta:** cuando mueve un problema que tiene documentos o carpetas vinculados a un servicio de terceros como Google Drive, los vínculos a los documentos se mueven con el problema.
 
-## Mover problemas a una lista
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
+
+## Desplazamiento de problemas a una lista
 
 Puede mover uno o varios problemas de una lista de problemas o de un informe de problemas.
 
@@ -67,26 +95,20 @@ Puede mover uno o varios problemas de una lista de problemas o de un informe de 
 
    O
 
-   Vaya a un informe de problemas.
+   Vaya a un informe de problema.
 
 1. Si seleccionó ir a un proyecto, haga clic en **Problemas** en el panel izquierdo.
 1. Seleccione el problema o problemas que desee mover, haga clic en el **menú Más** en la parte superior de la lista de problemas y luego haga clic en **Mover a**.
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Continúe moviendo el problema, como se describe en la sección [Mover un solo problema](#move-a-single-issue) a partir del paso 2.
+1. Continúe moviendo los problemas, tal como se describe en la sección [Mover un solo problema](#move-a-single-issue) a partir del paso 2.
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure step stays accurate)
-   </MadCap:conditionalText>
-   -->
-
-## Mover un solo problema {#move-a-single-issue}
+## Desplazamiento de un solo problema {#move-a-single-issue}
 
 Puede mover un problema al verlo.
 
-### Mover un solo problema en el entorno de vista previa
+### Desplazamiento de un solo problema en el entorno de vista previa
 
 1. Vaya a un problema que desee copiar, haga clic en el menú **Más** ![](assets/more-icon.png)situado a la derecha del nombre del problema y, a continuación, seleccione **Mover** a.
 
@@ -102,14 +124,14 @@ Puede mover un problema al verlo.
    >
    >En la lista solo se muestran 100 proyectos.
 
-1. (Condicional) Haga clic en **solicitar acceso** si no cuenta con acceso para mover problemas al proyecto.
-1. (Condicional) Continúe moviendo el problema en el proyecto de destino seleccionado sin solicitar acceso si tiene acceso para agregar problemas a una de las tareas del proyecto de destino.
+1. (Condicional) Haga clic en **Solicitar acceso** si no cuenta con acceso para mover problemas al proyecto.
+1. (Condicional) Continúe moviendo el problema en el proyecto de destino seleccionado sin solicitar acceso si tiene acceso para añadir problemas a una de las tareas del proyecto de destino.
 
    ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >
-   >Se muestran mensajes similares si el proyecto seleccionado está en aprobación pendiente, completado o muerto, cuando el administrador de Workfront impide añadir problemas a estos proyectos. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Se muestran mensajes similares si el proyecto seleccionado está pendiente de aprobación, completado o inactivo, cuando el administrador de Workfront impide añadir problemas a estos proyectos. Para obtener más información, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. (Opcional) En la sección **Opciones**, anule la selección de cualquiera de los elementos enumerados en la tabla siguiente para eliminarlos del problema que se movió. Todas las opciones están seleccionadas de forma predeterminada.
 
@@ -127,7 +149,7 @@ Puede mover un problema al verlo.
      </tr> 
      <tr> 
       <td role="rowheader">Asignaciones</td> 
-      <td>Quita usuarios, roles o equipos asignados al problema.</td> 
+      <td>Elimina los usuarios, funciones o equipos asignados al problema.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progreso</td> 
@@ -135,13 +157,13 @@ Puede mover un problema al verlo.
      </tr> 
      <tr> 
       <td role="rowheader"><p>Documentos</p></td> 
-      <td> <p>Quita todo lo que hay en la ficha de documentos, incluidas las versiones de los documentos, los documentos vinculados y las carpetas.
+      <td> <p>Elimina todo lo que hay en la pestaña de documentos, incluidas las versiones de los documentos, los documentos vinculados y las carpetas.
 
    <b>NOTA</b>
 
    Si decide que los documentos no se muevan con el problema, los documentos se eliminarán y se enviarán a la papelera de reciclaje durante 30 días. Un administrador puede restaurarlos y se restaurarán en el problema movido.
 
-   Si el problema se elimina después de moverlo, los documentos restaurados se colocarán en el área Documentos de la página del usuario del administrador que los restaura.
+   Si el problema se elimina después de haberlo movido, los documentos restaurados se colocarán en el área Documentos de la página del usuario del administrador que los restaura.
    <br> </p> </td>
    </tr> 
      <tr> 
@@ -150,7 +172,7 @@ Puede mover un problema al verlo.
      </tr> 
      <tr> 
       <td role="rowheader">Actualizaciones</td> 
-      <td>Quita los comentarios de la sección Actualizaciones del problema.</td> 
+      <td>Elimina los comentarios de la sección Actualizaciones del problema.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -159,7 +181,7 @@ Puede mover un problema al verlo.
 1. (Opcional) En la sección **Seleccionar tarea**, seleccione la tarea a la que desea mover el problema.
 1. Haga clic en **Mover problema** o en **Mover problemas**, si ha seleccionado varios problemas en una lista.
 
-   Los problemas movidos se agregan al proyecto especificado.
+   Los problemas movidos se añaden al proyecto especificado.
 
 
 
