@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 2%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Para obtener más información, consulte [Crear y editar compañías](/help/quic
 
 >[!NOTE]
 >
->Versión preliminar: jueves, 06 de noviembre de 2024; versión de producción para todos los clientes: jueves, 06 de noviembre de 2024
+>Versión de vista previa: Se eliminó temporalmente el 12 de diciembre de 2024; se volvió a publicar en Production para todos los clientes: 17 de diciembre de 2024
 
 Hemos actualizado las áreas de navegación principal y secundaria de Workfront para mejorar el rendimiento. Los cambios de aspecto son mínimos.
 
