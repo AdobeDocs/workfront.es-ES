@@ -7,16 +7,18 @@ description: Puede eliminar o archivar un tablero en Workfront. Eliminar un tabl
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 29%
 
 ---
 
 # Eliminar o archivar un tablero
 
 Puede eliminar o archivar un tablero en [!DNL Workfront]. Al eliminar un tablero de forma permanente, se eliminará de [!DNL Workfront], mientras que al archivar un tablero, se conservarán todas las tarjetas y se podrá restaurar más adelante.
+
+Solo el propietario del tablero puede eliminar el tablero.
 
 ## Requisitos de acceso
 
@@ -43,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,12 +55,12 @@ Al eliminar un tablero, se quita de forma permanente de [!DNL Workfront] y no se
 
 {{step1-to-boards}}
 
-1. En el tablero, seleccione el tablero que desea abrir.
+1. En el panel, seleccione el tablero que desea abrir.
 1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más]](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Eliminar]**. A continuación, haga clic en **[!UICONTROL Eliminar tablero]** en el mensaje de confirmación.
 
    >[!NOTE]
    >
-   >Solo puede eliminar los tableros que haya creado, no los tableros a los que se le haya añadido.
+   >Solo puede eliminar tableros que haya creado o de los que se le haya asignado el nombre de propietario, no tableros a los que se le haya añadido como miembro.
 
    ![Menú Más del tablero](assets/boards-board-more-menu.png)
 
@@ -68,7 +70,7 @@ Los tableros archivados conservan todas las tarjetas y asignaciones. Cualquier u
 
 {{step1-to-boards}}
 
-1. En el tablero, seleccione el tablero que desea abrir.
+1. En el panel, seleccione el tablero que desea abrir.
 1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Menú más]](assets/more-icon-spectrum.png) que está junto al nombre del tablero y seleccione **[!UICONTROL Archivo]**.
 
    ![Menú Más del tablero](assets/boards-board-more-menu.png)
