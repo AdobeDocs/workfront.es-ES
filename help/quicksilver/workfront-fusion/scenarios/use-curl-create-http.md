@@ -6,10 +6,11 @@ title: Utilice cURL para agregar un módulo HTTP
 description: Puede pegar una solicitud cURL en su escenario y Fusion creará un módulo HTTP configurado a partir de la solicitud cURL.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 33%
+source-wordcount: '283'
+ht-degree: 37%
 
 ---
 
@@ -69,10 +70,6 @@ Para obtener información sobre las licencias de [!DNL Adobe Workfront Fusion], 
 Para crear un módulo HTTP mediante cURL:
 
 1. Cree el texto de la solicitud cURL fuera de Fusion, como en un editor de texto.
-
-   >[!IMPORTANT]
-   >
-   >Si utiliza Fusion en un equipo con Windows, la solicitud de cURL no debe incluir saltos de línea.
 1. Copie la solicitud cURL en el portapapeles.
 1. Haga clic en la ficha **[!UICONTROL Escenario]** en el panel izquierdo.
 1. Seleccione el escenario en el que desea crear el módulo.
@@ -89,10 +86,6 @@ Para crear un módulo HTTP mediante cURL:
 
 ## Resolución de problemas
 
-Si la cURL no se pega en el escenario, compruebe lo siguiente:
-
-* Compruebe la configuración de su navegador para asegurarse de que está activado pegar desde el portapapeles.
-* Si está ejecutando Windows, compruebe la solicitud cURL para asegurarse de que no incluye saltos de línea.
-
+Si la cURL no se pega en el escenario, compruebe la configuración del explorador para asegurarse de que está habilitado el pegado desde el portapapeles.
 
 
