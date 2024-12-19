@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 46%
 
 ---
@@ -340,10 +340,8 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                         <li>
                             <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                         </li>
-                        <li>
-                            <p>Lanzamiento de producción para todos los clientes: por anunciar</p>
-                        </li>
                     </ul>
+                <p><i>Esta función se eliminará de la versión de vista previa el 19 de diciembre de 2024 y de la versión de producción rápida con 25.1 (enero de 2025).</i></p>
                 </td>
             </tr>
             <tr>
@@ -360,10 +358,8 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                         <li>
                             <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                         </li>
-                        <li>
-                            <p>Lanzamiento de producción para todos los clientes: por anunciar</p>
-                        </li>
                     </ul>
+                <p><i>Esta función se eliminará de la versión de vista previa el 19 de diciembre de 2024 y de la versión de producción rápida con 25.1 (enero de 2025).</i></p>
                 </td>
             </tr>
         </tbody>
@@ -469,7 +465,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Solo disponible para organizaciones con uno de los nuevos planes de Adobe Workfront. Data Connect está incluido en el plan Ultimate y estará disponible para su compra como complemento de los planes Prime y Select en el primer semestre de 2025.</i></p>
+                    <p><i>Solo disponible para organizaciones con uno de los nuevos planes de Adobe Workfront. Data Connect está incluido en el plan de Ultimate y estará disponible para su compra como complemento de los planes Prime y Select en el primer semestre de 2025.</i></p>
                 </td>
             </tr>
         </tbody>
