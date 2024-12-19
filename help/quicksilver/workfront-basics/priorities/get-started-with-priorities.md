@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
+source-git-commit: b637694c598540343383af15658a069c305f6bbf
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '988'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,8 @@ En Prioridades, puede filtrar y agrupar su trabajo para ayudarle a administrar l
 
 ### Búsqueda del trabajo con filtros
 
-Encuentre su trabajo más importante con filtros. <span class="preview">Puede usar un lenguaje natural para buscar trabajo con el filtro inteligente</span>, o bien puede usar el filtro estándar para buscar tareas y problemas asignados a usted:
+Encuentre su trabajo más importante con filtros. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+Puede usar el filtro Estándar para buscar las tareas y los problemas que se le han asignado:
 
 <table>
   <tbody>
