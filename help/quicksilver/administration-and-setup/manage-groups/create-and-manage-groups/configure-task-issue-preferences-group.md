@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 98%
+source-wordcount: '2226'
+ht-degree: 86%
 
 ---
 
 # Configurar las preferencias de tareas y problemas de un grupo
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Si los grupos de su organización necesitan configurar una preferencia de tarea o problema de forma independiente de la forma en que se configura en el sistema, un administrador de Adobe Workfront puede desbloquear la preferencia. A continuación, como administrador de grupo, puede configurar la preferencia de su grupo, lo cual afectará a todas las tareas o problemas asociados con su grupo.
 
@@ -91,10 +95,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    * [Valores predeterminados de nueva tarea](#new-task-defaults)
    * [Problemas](#issues)
    * [Eliminación](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Mover](#move)</span>
    * [Fechas reales](#actual-dates)
+   * [Delegación](#delegation)
    * [Acceso](#access)
 
 ### Valores predeterminados de nueva tarea {#new-task-defaults}
@@ -181,31 +184,27 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Mover
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">Permitir que los usuarios muevan tareas y problemas con las horas registradas</td> 
+      <td> <p> Permite determinar si permite el movimiento de tareas o problemas donde se registran las horas. Esta opción está desactivada de forma predeterminada.</p> 
+       <p>Tenga en cuenta lo siguiente:</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> Cuando está seleccionada, puede mover tareas y problemas que tengan tiempo registrado. Las horas también se mueven con las tareas o problemas. </li>
+      <li>Si anula la selección de esta opción, recibe una advertencia prohibitiva cuando mueve una tarea o un problema con horas registradas. La advertencia especifica que el administrador no permite mover tareas o problemas con horas registradas. Las tareas o los problemas que tienen horas registradas no se pueden mover. </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### Fechas reales {#actual-dates}
 
@@ -255,6 +254,28 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### Delegación
+
+Habilitar la opción **[!UICONTROL Permitir que los usuarios deleguen sus tareas y problemas]** permite que todos los usuarios del grupo deleguen temporalmente su trabajo a otros.
+
+Cuando esta configuración está habilitada, los usuarios del grupo pueden ver lo siguiente:
+
+* El vínculo [!UICONTROL **Delegar**] en sus widgets [!UICONTROL Mi trabajo], [!UICONTROL Mis tareas] o [!UICONTROL Mis problemas] en el área [!UICONTROL Inicio]. Pueden delegar asignaciones de tareas y problemas desde allí.
+
+  >[!NOTE]
+  >
+  >  El vínculo [!UICONTROL **Delegar aprobaciones**] siempre está habilitado en el área de [!UICONTROL Inicio].
+
+* Una indicación de que una tarea o un problema se ha delegado a otro usuario en el área [!UICONTROL Assignments and delegations] del encabezado de la tarea o el problema.
+* Una indicación de que una tarea o un problema se ha delegado a otro usuario en su widget de [!UICONTROL Mi trabajo] en [!UICONTROL Inicio].
+
+  Si deshabilita la opción [!UICONTROL Permitir que los usuarios deleguen sus tareas y problemas], las delegaciones programadas actualmente se detendrán y los usuarios delegados recibirán una notificación por correo electrónico de que la delegación se ha detenido.
+
+Para obtener información sobre la delegación del trabajo a otras personas, consulte los siguientes artículos:
+
+* [Información general sobre la delegación de trabajo](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Delegar tareas y problemas](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### Acceso {#access}
 

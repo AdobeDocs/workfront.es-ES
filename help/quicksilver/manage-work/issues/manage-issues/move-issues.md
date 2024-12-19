@@ -6,10 +6,10 @@ description: Puede mover problemas entre proyectos y tareas.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '932'
+ht-degree: 87%
 
 ---
 
@@ -17,12 +17,9 @@ ht-degree: 95%
 
 <!--Audited: 12/2024-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede mover problemas entre los siguientes objetos:
 
@@ -79,13 +76,11 @@ Tenga en cuenta lo siguiente al mover problemas que contienen documentos o está
 * **Cuando se adjunta un documento al problema:** cuando se mueve un problema a otro objeto y el problema tiene un documento adjunto, el documento, sus versiones y revisiones también se mueven al nuevo problema. Las aprobaciones asociadas con el documento no se mueven.
 * **Cuando un problema está vinculado a un documento o a una carpeta:** cuando mueve un problema que tiene documentos o carpetas vinculados a un servicio de terceros como Google Drive, los vínculos a los documentos se mueven con el problema.
 
-<!--
 <div class="preview">
 
-* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+* El administrador del sistema o del grupo puede impedir que se muevan los problemas que tienen horas registradas, según la configuración de la preferencia Permitir a los usuarios mover tareas y problemas con horas registradas en el área Configuración. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 </div>
--->
 
 ## Desplazamiento de problemas a una lista
 

@@ -2,27 +2,32 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Utilice el área Mis actualizaciones
-description: Puede usar el área de [!UICONTROL Mis actualizaciones] para revisar rápidamente las aprobaciones que esperan su decisión o las conversaciones en las que se le ha incluido.
+description: Puede usar el área [!UICONTROL Mis actualizaciones] para revisar de manera rápida las aprobaciones que esperan su decisión o las conversaciones en las que se le ha incluido.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 0%
+source-wordcount: '847'
+ht-degree: 92%
 
 ---
 
+
 # Usar el área [!UICONTROL Mis actualizaciones]
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-Puede usar el área de [!UICONTROL Mis actualizaciones] para revisar rápidamente las aprobaciones que esperan su decisión o las conversaciones en las que se le ha incluido.
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Como usuario con una licencia de [!UICONTROL Revisar], puedes encontrar el área de [!UICONTROL Mis actualizaciones] en el [!UICONTROL Menú principal] de forma predeterminada y el área de [!UICONTROL Mis actualizaciones] es la página de aterrizaje predeterminada para ti.
 
-Para obtener información acerca de [!DNL Adobe Workfront] licencias, vea [[!DNL Adobe Workfront] información general sobre licencias](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+Puede usar el área [!UICONTROL Mis actualizaciones] para revisar rápidamente las aprobaciones que esperan su decisión o las conversaciones en las que se le ha incluido.
 
-Si tiene un tipo de licencia diferente de Revisar, el administrador de [!DNL Workfront] o del grupo debe agregar el área de [!UICONTROL Mis actualizaciones] a la plantilla de diseño para mostrarla en el menú principal. Para obtener más información, consulte [Personalizar el [!UICONTROL menú principal] con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Como usuario con una licencia de [!UICONTROL Revisión], puede encontrar el área [!UICONTROL Mis actualizaciones] en el [!UICONTROL Menú principal] de forma predeterminada, mientras que el área [!UICONTROL Mis actualizaciones] será su página de aterrizaje predeterminada.
+
+Para obtener información acerca de [!DNL Adobe Workfront] licencias, consulte [[!DNL Adobe Workfront] Información general sobre licencias](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+Si posee un tipo de licencia diferente al de Revisión, el administrador de [!DNL Workfront] o de grupo deberá añadir el área [!UICONTROL Mis actualizaciones] a la plantilla de diseño para mostrarla en el menú principal. Para obtener más información, consulte [Personalizar [!UICONTROL Menú principal] con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Requisitos de acceso
 
@@ -40,13 +45,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Nuevo: Colaborador o superior</p>
+   <td> <p>Nuevo: colaborador o superior</p>
    O   
    <p>Actual: [!UICONTROL Request] o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuración del nivel de acceso</strong></td> 
-   <td> <p>Ver el acceso o superior a cualquier objeto para el que esté etiquetado en una conversación o que necesite resolver una aprobación (proyectos, tareas, problemas, documentos)</p> </td> 
+   <td role="rowheader"><strong>Configuración de nivel de acceso</strong></td> 
+   <td> <p>Ver el acceso o superior a cualquier objeto para el que esté etiquetado en una conversación o para el que necesite resolver una aprobación (proyectos, tareas, problemas, documentos)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
@@ -63,9 +68,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Debe tener lo siguiente antes de empezar:
 
-* Si tiene una licencia de [!DNL Workfront] distinta de [!UICONTROL Revisar], su administrador de [!DNL Workfront] o de grupo debe agregar el área de [!UICONTROL Mis actualizaciones] al [!UICONTROL Menú principal] mediante una plantilla de diseño y asignarle a esa plantilla.
+* Si posee una licencia de [!DNL Workfront] distinta a la de [!UICONTROL Revisión], su administrador de [!DNL Workfront] o de grupo debe añadir el área [!UICONTROL Mis actualizaciones] al [!UICONTROL Menú principal] mediante una plantilla de diseño y asignarle a esa plantilla.
 
-* Los usuarios con licencia de revisión pueden ver el área de [!UICONTROL Mis actualizaciones] en su [!UICONTROL Menú principal] de forma predeterminada.
+* Los usuarios con licencia de revisión pueden ver el área [!UICONTROL Mis actualizaciones] en su [!UICONTROL Menú principal] de forma predeterminada.
 
 ## Obtener acceso al área [!UICONTROL Mis actualizaciones]
 
@@ -75,15 +80,19 @@ Debe tener lo siguiente antes de empezar:
 
    Se abre el área [!UICONTROL Mis actualizaciones].
 
-   Las aprobaciones y solicitudes de acceso asignadas a usted se enumeran en la primera mitad de la página, en **Mis actualizaciones**.
+   Las aprobaciones y solicitudes de acceso que se le hayan asignado se enumeran en la primera mitad de la página, en **Mis actualizaciones**.
+
+   <div class="preview">
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Opcional) Desplácese hasta la parte inferior del área de [!UICONTROL Mis actualizaciones] y haga clic en la flecha hacia la derecha para mostrar más aprobaciones que se muestran en páginas adicionales.
+   </div>
+
+1. (Opcional) Desplácese hasta la parte inferior del área de [!UICONTROL **Mis actualizaciones**] y haga clic en la flecha hacia la derecha para mostrar más aprobaciones que se muestran en páginas adicionales.
 
    >[!TIP]
    >
-   >Las primeras cinco aprobaciones o solicitudes de acceso se muestran de forma predeterminada. Las aprobaciones restantes se muestran en páginas adicionales. Puede mostrar un máximo de 2000 aprobaciones en el área de [!UICONTROL Mis actualizaciones].
+   >Las primeras cinco aprobaciones o solicitudes de acceso se muestran de forma predeterminada. Las aprobaciones restantes se muestran en páginas adicionales. Puede mostrar un máximo de 2000 aprobaciones en el área [!UICONTROL Mis actualizaciones].
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
@@ -96,23 +105,23 @@ Debe tener lo siguiente antes de empezar:
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Todo]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
       <td>Aprobaciones que se le han enviado o que le ha delegado otro usuario. Para obtener información sobre la delegación de aprobaciones, consulte <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegar solicitud de aprobación</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Aprobaciones delegadas]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Delegated Approvals]</strong></td> 
       <td>Aprobaciones delegadas por otro usuario. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Mis aprobaciones]</strong></td> 
-      <td> <p>Aprobaciones enviadas a usted. </p> <p>Para obtener más información sobre la aprobación de elementos, vea <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo </a>.</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL My Approvals]</strong></td> 
+      <td> <p>Aprobaciones que se le han enviado. </p> <p>Para obtener más información sobre la aprobación de elementos, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprobación del trabajo </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Para aprobar o rechazar un elemento o sugerir cambios en un documento antes de aprobarlo, haga lo siguiente:
 
-   1. (Opcional) Haga clic en el icono **desplegable** ![](assets/down-arrow-blue.png) junto a la decisión de aprobación (**[!UICONTROL Aprobar]**, **[!UICONTROL Cambios]**,**[!UICONTROL Rechazar]**) y agregue un comentario. A continuación, haga clic en **[!UICONTROL Agregar]**.
+   1. (Opcional) Haga clic en el icono **desplegable** ![](assets/down-arrow-blue.png) junto a la decisión de aprobación (**[!UICONTROL Aprobar]**, **[!UICONTROL Cambios]**,**[!UICONTROL Rechazar]**) y añada un comentario. A continuación, haga clic en **[!UICONTROL Añadir]**.
 
       O
 
@@ -128,36 +137,43 @@ Debe tener lo siguiente antes de empezar:
 
       >[!TIP]
       >
-      >Si no desea agregar un comentario a su decisión, puede hacer clic en el botón **[!UICONTROL Aprobar]**, **[!UICONTROL Rechazar]** o **[!UICONTROL Cambios]** y la decisión de aprobación se concede inmediatamente.
+      >Si no desea añadir un comentario a su decisión, puede hacer clic en el botón **[!UICONTROL Aprobar]**, **[!UICONTROL Rechazar]** o **[!UICONTROL Cambios]** para que la decisión de aprobación se conceda de inmediato.
       >
       >
       >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
-      >Para obtener más información sobre la aprobación de trabajo, vea [Aprobación de trabajo](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      >Para obtener más información sobre la aprobación de trabajo, consulte [Aprobación de trabajo](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-1. Haga clic en **[!UICONTROL Conceder acceso]** para conceder la solicitud de acceso que se le ha enviado
+1. Haga clic en **[!UICONTROL Grant access]** para conceder la solicitud de acceso que se le ha enviado
 
    O
 
-   Expanda el menú desplegable **[!UICONTROL Cambiar acceso]** para modificar el acceso solicitado antes de concederlo.
+   Expanda el menú desplegable **[!UICONTROL Change access]** para modificar el acceso solicitado antes de concederlo.
 
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
-1. (Opcional) Haga clic en **[!UICONTROL Ignorar]** para borrar la solicitud de acceso de su lista de aprobación sin concederla.
-1. Haga clic en **[!UICONTROL Delegar mis aprobaciones]** para delegar las aprobaciones enviadas si no está disponible para tomar decisiones de aprobación durante algún tiempo. Para obtener más información sobre la delegación de aprobaciones, consulte [Delegar solicitud de aprobación](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
-1. Desplácese al área de **[!UICONTROL Menciones]** que se encuentra debajo de las aprobaciones. Aquí puedes ver todos los artículos en los que te hayan incluido en una conversación.
+1. (Opcional) Haga clic en **[!UICONTROL Ignore]** para borrar la solicitud de acceso de su lista de aprobación sin concederla.
+1. Haga clic en **[!UICONTROL Delegate my approvals]** para delegar las aprobaciones enviadas si no está disponible para tomar decisiones de aprobación durante algún tiempo. Para obtener más información sobre la delegación de aprobaciones, consulte [Delegar solicitud de aprobación](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+1. Desplácese al área de **[!UICONTROL Mentions]** que se encuentra debajo de las aprobaciones. Aquí puede ver todos los elementos en los que le hayan incluido en una conversación.
 
    >[!TIP]
    >
    >Las primeras 50 menciones se muestran de forma predeterminada.
 
-1. (Opcional) Haga clic en **[!UICONTROL Mostrar más actualizaciones]** para ver más menciones.
-1. (Opcional) Haga clic en **[!UICONTROL Responder]** para responder a un comentario y realice una de las siguientes acciones:
+1. (Opcional) Haga clic en **[!UICONTROL Show More Updates]** para ver más menciones.
+1. (Opcional) Haga clic en **[!UICONTROL Reply]** para responder a un comentario y realice una de las siguientes acciones:
    * Empiece a escribir una respuesta
-   * Utilice la barra de herramientas Texto enriquecido para dar formato al texto y agregar vínculos, listas, emojis, comillas o imágenes al mensaje
-   * Agregue usuarios o equipos para notificarles su respuesta.
+   * Utilice la barra de herramientas Texto enriquecido para dar formato al texto y añadir vínculos, listas, emojis, comillas o imágenes al mensaje
+   * Añada usuarios o equipos para notificarles su respuesta.
 
-     Cuando termine de agregar la respuesta, vuelva a hacer clic en **[!UICONTROL Responder]**.
+     Para obtener más información acerca de cómo responder a las actualizaciones, vea [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+     <span class="preview">Cuando termine de agregar la respuesta, haga clic en **[!UICONTROL Enviar]**.</span>
+
+     <div class="preview">
 
      ![](assets/reply-in-the-my-updates-area.png)
-1. (Opcional) Haga clic en **[!UICONTROL Anclar página actual]** para anclar el área de [!UICONTROL Mis actualizaciones] a su barra de navegación superior.
+
+     </div>
+
+1. (Opcional) Haga clic en **[!UICONTROL Pin current page]** para anclar el área de [!UICONTROL My Updates] a su barra de navegación superior.
