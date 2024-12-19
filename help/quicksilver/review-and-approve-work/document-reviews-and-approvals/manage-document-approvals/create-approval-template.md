@@ -6,10 +6,10 @@ description: Puede crear plantillas de aprobación para optimizar el proceso de 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: a077266bf91beca1fb6a7a841220f11ebd6687ea
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 2%
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,8 +59,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    | Nombre de plantilla | Empiece a escribir un nombre para esta plantilla. |
    |----------------------------|---|
-   | **(Opcional) Intervalo de tiempo** | Introduzca el periodo de tiempo en días El plazo de aprobación se calcula a partir de este campo una vez que la plantilla se aplica a un recurso. |
-   | **Agregar aprobadores o revisores** | Empiece escribiendo el nombre de los usuarios o equipos y, a continuación, designa a los mismos como revisores o aprobadores. |
+   | **Período de tiempo (opcional)** | Introduzca el período de tiempo en días. La fecha límite de aprobación se calcula a partir de este campo una vez que la plantilla se aplica a un recurso. |
+   | **Añadir aprobadores o revisores** | Empiece escribiendo el nombre de los usuarios o equipos y, a continuación, desígnelos como revisores o aprobadores. |
 
 1. Haga clic en **Guardar**.
 

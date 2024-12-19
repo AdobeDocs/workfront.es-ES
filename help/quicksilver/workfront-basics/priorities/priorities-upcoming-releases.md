@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
-title: "Prioridades: próximas versiones"
+title: 'Prioridades: próximas versiones'
 description: Ver información sobre próximas versiones de Prioridades
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
+source-git-commit: 220702225d4f7986b93a43ccc4c33160f7463619
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Prioridades: próximas versiones
 
 Estamos encantados de mostrarle lo que tenemos por venir para Prioridades. Utilice el botón Comentarios en el área de Prioridades de Workfront para hacernos saber lo que le gustaría ver a continuación.
+
+
 
 <table>
   <tr>
@@ -37,6 +39,25 @@ Estamos encantados de mostrarle lo que tenemos por venir para Prioridades. Utili
 </table>
 
 
+
 >[!IMPORTANT]
 >
 >Los elementos enumerados en esta tabla están planificados, pero no garantizados.
+
+
+
+
+<!--
+
+<table>
+  <tr>
+    <td><strong>Upcoming</strong>
+   <p>More upcoming features will be added soon</p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Planned</strong>
+<p>More planned features will be added soon</p>
+    </td>
+  </tr>
+</table> -->

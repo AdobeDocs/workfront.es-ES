@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 16%
+source-wordcount: '929'
+ht-degree: 15%
 
 ---
 
@@ -172,13 +172,14 @@ Para expandir o contraer todas las secciones, abra **Grupo** y haga clic en **Ex
 
 ## Filtrar y agrupar su trabajo con prioridades en Vista previa
 
-### Filtrar su trabajo
+### Filtrado del trabajo con filtros estándar
 
 Puede filtrar las tareas y los problemas que se le hayan asignado.
 
 {{step1-to-priorities}}
 
 1. Haga clic en **Filtros** en la parte superior izquierda de la lista de trabajos.
+1. haga clic en **Filtros estándar**.
 1. Seleccione uno o varios filtros para reducir los elementos de trabajo.
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
 
 1. (Opcional) Haga clic en **Volver al valor predeterminado** para restablecer su selección.
 
+### Filtre su trabajo con filtros inteligentes
+
+Utilice un lenguaje natural para filtrar rápidamente el trabajo.
+
+{{step1-to-priorities}}
+
+1. Haga clic en **Filtros** en la parte superior izquierda de la lista de trabajos.
+1. Haga clic en **Filtros inteligentes**.
+1. Escriba cómo desea filtrar su trabajo.
+
+   Puede escribir cosas como
+
+   * Mostrarme las tareas atrasadas
+   * Mostrar mis prioridades principales
+   * Mostrar trabajo a entregar hoy
+
+
 ### Agrupar su trabajo
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
 | Estado | Agrupa los elementos según los siguientes estados: Nuevo, En curso y Completado. <br>Nota: no puede usar estados personalizados en Prioridades en este momento. |
 
 +++
+
+
 
 ### Ordenar el trabajo
 
