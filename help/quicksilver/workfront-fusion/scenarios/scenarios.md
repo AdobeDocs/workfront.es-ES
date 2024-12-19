@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 93%
+source-wordcount: '156'
+ht-degree: 89%
 
 ---
 
@@ -46,7 +46,7 @@ Esta sección contiene los siguientes artículos:
 * [Actualizar un módulo a una nueva versión en un escenario de  [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Ver y administrar escenarios bloqueados en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Ejecutar el experto en puntuación de escenarios en Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
-
+* [Utilice cURL para agregar un módulo HTTP](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
 
 
 
