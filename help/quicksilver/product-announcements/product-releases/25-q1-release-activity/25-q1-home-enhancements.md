@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 11%
+source-wordcount: '700'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ Esta página describe todas las mejoras realizadas en Inicio con la versión del
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-<!--## Catch up on work in Priorities
+## Ponerse al día con el trabajo en Prioridades
 
 >[!NOTE]
 >
->Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Versión de vista previa: 20 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
 >
->_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+>_Esta característica solo está disponible para los clientes que usan el Asistente para IA en la experiencia de Adobe unificado._
 
-You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+Puede usar Ponerme al día para ayudar a reducir el tiempo que se tarda en buscar información sobre proyectos activos.
 
-Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+Con la tecnología del asistente de IA de Workfront, Catch me up resume las actualizaciones, los documentos cargados y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días o 7 días.
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+Para obtener más información, vea [Ponerse al día con el trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## Ver los cambios en directo en la página Detalles en Prioridades
 

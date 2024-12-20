@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 32%
+source-wordcount: '2380'
+ht-degree: 31%
 
 ---
 
@@ -234,21 +234,21 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
             <p><span class="bold">Fechas de lanzamiento</span></p>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Catch up on work in Priorities</a></p>
-            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
-            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+            Ponerse al día con el trabajo en Prioridades</a></p>
+            <p>Puede usar Ponerme al día para ayudar a reducir el tiempo que se tarda en buscar información sobre proyectos activos.</p>
+            <p>Con la tecnología del asistente de IA de Workfront, Catch me up resume las actualizaciones, los documentos cargados y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días o 7 días.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Preview release: December 20, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Versión de vista previa: sábado, 20 de diciembre de 2024</li>
+                <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">

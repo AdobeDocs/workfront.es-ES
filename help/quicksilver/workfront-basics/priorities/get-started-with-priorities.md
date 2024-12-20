@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 7%
 
 ---
@@ -115,7 +115,7 @@ Para obtener más información, vea [Priorizar elementos de trabajo importantes]
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Usar la vista de calendario [!BADGE Próximamente]{type=Informative}
+### Usar la vista de calendario [!BADGE Disponible en vista previa]{type=Informative}
 
 La vista Calendario proporciona una representación visual de sus tareas y problemas. Podrá elegir entre una vista de día, de semana o de mes. También podrá filtrar elementos de forma similar a la lista de trabajo.
 
@@ -190,11 +190,11 @@ Desde la pestaña Documentos de una tarea o un problema, puede
 * Inicie el visor de revisión para dejar comentarios y tomar decisiones
 
 
-## Use [!DNL Catch me up] para ver lo que se perdió [!BADGE Próximamente]{type=Informative}
+## Use [!DNL Catch me up] para ver lo que se perdió [!BADGE Disponible en vista previa]{type=Informative}
 
 Use la característica [!DNL Catch me up] para ver lo que se perdió. Ponerme al día resumirá las actualizaciones, los documentos cargados, las aprobaciones y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días, 7 días.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+Para obtener más información, vea [Ponerse al día con el trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 
