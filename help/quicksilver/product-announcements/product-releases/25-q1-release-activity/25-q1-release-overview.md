@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 32%
 
 ---
@@ -267,7 +267,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Carga y visualización de documentos y pruebas en Prioridades</a></p>
-            <p>Ahora puede interactuar con documentos y pruebas para tareas y problemas. En la nueva pestaña Documentos, puede</p>
+            <p>Ahora puede interactuar con documentos y pruebas para tareas y problemas de la lista de trabajo y el calendario. En la nueva pestaña Documentos, puede</p>
             <ul>
                 <li>Cargar un documento</li>
                 <li>Crear una prueba</li>
@@ -287,11 +287,11 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             La vista de calendario ya está disponible en Prioridades</a></p>
-            <p>Realice fácilmente un seguimiento de su trabajo con un calendario mensual claro y visual. Con el calendario de Prioridades, puede</p>
+            <p>Puede realizar un seguimiento del trabajo con un calendario mensual claro y visual. Con el calendario de Prioridades, puede</p>
             <ul>
                 <li>Utilice los filtros para encontrar su trabajo</li>
-                <li>Mostrar campos como estado y nivel de enfoque</li>
-                <li>Aplicar colores para una priorización rápida</li>
+                <li>Aplique campos personalizados como estado y nivel de enfoque para identificar el trabajo de alta prioridad</li>
+                <li>Aplicar colores para una organización rápida</li>
                 <li>Y más</li>
             </ul>
         </td>

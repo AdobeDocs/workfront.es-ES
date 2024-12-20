@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Ver los detalles del proyecto y la tarea en la lista de trabajo de prioridades
+title: Ver detalles del proyecto y del elemento de trabajo en la lista de trabajo Prioridades
 description: Puede ver los detalles del proyecto y la tarea en la lista de trabajo de prioridades.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 23%
+source-wordcount: '401'
+ht-degree: 22%
 
 ---
 
-# Ver detalles de proyectos y tareas en Prioridades
+# Ver detalles del proyecto y del elemento de trabajo en Prioridades
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
@@ -80,13 +80,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
 1. La tarea está seleccionada de forma predeterminada. Aquí puede
-   * Ver y editar los detalles y la descripción del proyecto
+   * Ver y editar los detalles y la descripción del proyecto y la tarea
    * Ver y agregar comentarios en el proyecto
    * <span class="preview">Ver y agregar documentos</span>
    * <span class="preview">Crear una revisión</span>
    * Hora de registro
    * Añadir un archivo
    * Adición de vínculos rápidos
+
 
    ![detalles de la tarea](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
 1. Problema seleccionado de forma predeterminada. Aquí puede
-   * Ver y editar los detalles y la descripción del proyecto
+   * Ver y editar los detalles y la descripción del proyecto y del problema
    * Ver y agregar comentarios en el proyecto
 * <span class="preview">Ver y agregar documentos</span>
 * <span class="preview">Crear una revisión</span>

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 12%
+source-wordcount: '604'
+ht-degree: 11%
 
 ---
 
@@ -48,14 +48,14 @@ Para obtener más información, vea [Ver detalles de proyectos y tareas en la li
 >
 >Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
 
-Ahora puede interactuar con documentos y pruebas para tareas y problemas. En la nueva pestaña Documentos, puede
+Ahora puede interactuar con documentos y pruebas para tareas y problemas de la lista de trabajo y el calendario. En la nueva pestaña Documentos, puede
 
 * Cargar un documento
 * Crear una prueba
 * Iniciar el visor de revisión
 * Y más
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+Para obtener más información, consulte [Cargar documentos y crear pruebas en Prioridades](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
 ## La vista de calendario ya está disponible en Prioridades
 
@@ -63,12 +63,14 @@ Ahora puede interactuar con documentos y pruebas para tareas y problemas. En la 
 >
 >Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
 
-Realice fácilmente un seguimiento de su trabajo con un calendario mensual claro y visual. Con el calendario de Prioridades, puede
+Ahora puede realizar un seguimiento del trabajo con un calendario visual y claro. Con el calendario de Prioridades, puede
 
 * Utilice los filtros para encontrar su trabajo
-* Mostrar campos como estado y nivel de enfoque
-* Aplicar colores para una priorización rápida
+* Aplique campos personalizados como estado y nivel de enfoque para identificar el trabajo de alta prioridad
+* Aplicar colores para una organización rápida
 * Y más
+
+Para obtener más información, consulte [Administrar su trabajo en el calendario de prioridades](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Actualizaciones de la Lista de trabajos de prioridades
 
