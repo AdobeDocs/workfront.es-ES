@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: approvals
 title: Información general sobre nuevas aprobaciones de documentos
-description: Puede agregar aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
+description: Puede añadir aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
+source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ Las nuevas aprobaciones de documentos son un rediseño integral del proceso de a
 
 **Diferencias con la revisión**
 
-* Los botones de decisión de aprobación de documentos no están disponibles en el visor de pruebas. Las decisiones se pueden tomar en el resumen del documento, en los widgets de inicio de Workfront o en la página Detalles del documento.
+* Los botones de decisión de aprobación de documento no están disponibles en el visor de pruebas. Las decisiones se pueden tomar en el resumen del documento, en los widgets de inicio de Workfront o en la página Detalles del documento.
 * Los participantes en la aprobación del documento se muestran en el resumen del documento, no en la pestaña del flujo de trabajo de revisión.
 * Las nuevas aprobaciones de documentos no son compatibles con la herramienta de informes actual. El widget de todas las aprobaciones disponible en los nuevos paneles de inicio y lienzo proporciona los siguientes detalles sobre las nuevas aprobaciones de documentos:
 
