@@ -6,14 +6,16 @@ description: Lea este artículo para aprender a iniciar sesión en Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '898'
 ht-degree: 100%
 
 ---
 
 # Iniciar sesión en [!DNL Adobe Workfront]
+
+<!--Audited: 2024-->
 
 {{important-not-on-aec}}
 
@@ -33,6 +35,8 @@ Necesita la siguiente información para iniciar sesión en [!DNL Adobe Workfront
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -42,17 +46,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td> 
+   <p>Nuevo: [!UICONTROL Contributor] o superior</p>
+   <p>Actual: [!UICONTROL Request] o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si desea averiguar qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Iniciar sesión en [!DNL Workfront] sin SSO
 

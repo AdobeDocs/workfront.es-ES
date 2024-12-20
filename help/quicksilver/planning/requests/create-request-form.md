@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 13%
 
 ---
@@ -150,13 +150,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >    * Fecha de creación y fecha de la última modificación
    >    * Campos de búsqueda de objetos Workfront
    >    * Campos de búsqueda de registros conectados de Workfront Planning
-   >    * Campos conectados de AEM Assets
    >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en el entorno Producción. <span class="preview">Aparecen en el entorno de vista previa:</span>
    >    * <span class="preview"> campos conectados de registros de Workfront Planning</span>
    >    * <span class="preview">Personas </span>
    >    * <span class="preview">Campos conectados de objetos Workfront</span>
    >    * <span class="preview">AEM Assets conectaron campos </span>
-
 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
    * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible en el entorno de producción. <span class="preview">Está disponible en el entorno de vista previa.</span>: la configuración y el valor del campo Asunto no se pueden editar.

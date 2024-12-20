@@ -1,19 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Navegación por el Distribuidor de cargas de trabajo
+title: Navegar por el equilibrador de carga de trabajo
 description: Utilice el Distribuidor de cargas de trabajo para comprender la disponibilidad de sus recursos, así como para asignar trabajo a los usuarios. Este artículo le guía mediante los iconos y la configuración disponibles para actualizar la vista del Distribuidor de cargas de trabajo y desplazarse por él.
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
-ht-degree: 0%
+source-wordcount: '4070'
+ht-degree: 8%
 
 ---
 
-# Navegación por el Distribuidor de cargas de trabajo
+# Navegar por el equilibrador de carga de trabajo
+
+<!--Audited: 12/2024-->
 
 Utilice el Distribuidor de cargas de trabajo en Adobe Workfront para asignar trabajo a los usuarios en función de su disponibilidad. Este artículo describe cómo puede utilizar la configuración y las opciones para desplazarse por el Distribuidor de cargas de trabajo y mostrar la información que le interesa. Los artículos adicionales que se enumeran aquí describen cómo puede utilizar el Distribuidor de cargas de trabajo para administrar los recursos y su asignación al trabajo.
 
@@ -32,11 +34,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td><p>Nuevo: estándar</p>
        <p>o</p>
        <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
@@ -44,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Vea o acceda a lo siguiente:</p> 
+   <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
     <ul> 
      <li>Administración de recursos</li> 
      <li>Proyectos</li> 
@@ -60,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,15 +99,15 @@ Tenga en cuenta lo siguiente al ver el Distribuidor de cargas de trabajo:
 
 Para obtener más información sobre la visualización de información en el Distribuidor de cargas de trabajo, consulte los siguientes artículos:
 
-* [Localización del Distribuidor de cargas de trabajo](../workload-balancer/locate-workload-balancer.md)
-* [Filtrado de información en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md)
+* [Buscar el Distribuidor de cargas de trabajo](../workload-balancer/locate-workload-balancer.md)
+* [Filtrar información en el distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md)
 * [Uso compartido del Distribuidor de cargas de trabajo con un vínculo](../workload-balancer/share-link-for-workload-balancer.md)
 * [Actualizar elementos de trabajo en el Distribuidor de cargas de trabajo mediante el resumen](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 Para obtener información sobre la administración de recursos mediante el Distribuidor de cargas de trabajo, consulte también los siguientes artículos:
 
 * [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
-* [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
+* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
 
 
 ## Vaya al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
@@ -124,7 +126,7 @@ Para desplazarse por el Distribuidor de cargas de trabajo para varios proyectos:
 
 {{step1-to-resourcing}}
 
-1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
    ![Distribuidor de cargas de trabajo](assets/nwe-balancer-global.png)
 
@@ -178,7 +180,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
 1. Acceda al Distribuidor de cargas de trabajo en el área **Recursos**, tal como se describe en la sección [Acceso al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) en este artículo.
 
-   El Distribuidor de cargas de trabajo muestra información sobre la asignación de trabajo a partir de la semana actual.
+   El distribuidor de cargas de trabajo muestra información sobre la asignación de trabajo a partir de la semana actual.
 
 1. Utilice el desplazamiento horizontal para ver la cronología de los elementos de trabajo que sobrepasan los límites de la pantalla.
 1. Haga clic en los iconos **atrás o adelante** ![Iconos atrás y adelante](assets/back-and-forward-icons.png) en la esquina superior izquierda para navegar por la cronología y, a continuación, haga clic en **Hoy** para regresar a la semana actual.
@@ -229,7 +231,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
 1. Haga clic en la **flecha hacia abajo** a la izquierda de las áreas sin asignar o asignadas para contraer todos los elementos bajo los nombres de proyecto (en el área sin asignar) y bajo los nombres de usuario (en el área asignada).
 
-1. Arrastre y suelte la **línea de separación** entre el panel izquierdo y el área de la cronología para ajustar el tamaño del panel izquierdo.
+1. Pase el ratón sobre él y, a continuación, arrastre y suelte la **línea de separación** entre el panel izquierdo y el área de la cronología para ajustar el tamaño del panel izquierdo.
 
    ![Línea de separación](assets/wb-adjust-panel-size.png)
 
@@ -254,7 +256,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
      >
      >Tenga en cuenta que los elementos de trabajo se muestran en el Distribuidor de cargas de trabajo cuando sus escalas de tiempo planificadas o proyectadas (no necesariamente ambas al mismo tiempo) se producen durante el lapso de tiempo seleccionado.
 
-   * **Mostrar trabajo completado**: cuando esté habilitado, las tareas y problemas completados se mostrarán en el área Trabajo asignado. Esta opción está habilitada de forma predeterminada.
+   * **Mostrar trabajo completado**: cuando esté habilitado, las tareas y problemas completados se mostrarán en el área Trabajo asignado. Esta opción está activada de forma predeterminada.
 
      Cuando se completan, aparece un icono de marca de verificación verde en la esquina superior derecha de una tarea o barra de problemas. El mismo icono se muestra para un proyecto cuando se completan las tareas o problemas del lapso de tiempo seleccionado.
    * **Mostrar tiempo restante**: cuando está habilitada, Workfront muestra la diferencia entre el tiempo diario durante el cual el usuario está disponible para trabajar en función de sus programaciones y las horas para las que está asignado en el área Trabajo asignado para los usuarios. Esta opción está desactivada de forma predeterminada y el tiempo asignado se muestra de forma predeterminada.
@@ -264,7 +266,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
      >
      >La configuración para seleccionar el tema de color no afecta al color de las barras de problemas. Los problemas siempre se muestran en una barra de color granate.
 
-     Seleccione una de las siguientes opciones:
+     Seleccione entre las siguientes opciones:
       * **Predeterminado**: las barras de todos los proyectos y sus elementos de trabajo se muestran en azul.
       * **Proyecto**: las barras asociadas a cada proyecto y sus tareas cambian según el nombre del proyecto. Todas las tareas que pertenecen al proyecto se muestran en barras que coinciden con el color del proyecto. Las barras de proyecto se muestran en un tono más claro para distinguirlas de las tareas. Las barras de proyecto también incluyen un icono de proyecto al elegir no mostrar las asignaciones.
       * **Estado del proyecto**: las barras asociadas a cada proyecto y sus elementos de trabajo cambian al color del estado del proyecto.
@@ -272,7 +274,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
         El estado del proyecto es el asociado al Grupo del proyecto. Si el grupo no tiene estados específicos del grupo, el color de las barras de elementos de trabajo es el del estado del proyecto en el sistema. Se muestran tanto los estados del sistema como los personalizados. Para obtener información acerca de los estados de grupo, vea [Crear o editar un estado de grupo](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
    * En la sección **Mostrar asignación de usuarios en**, seleccione una de las siguientes opciones:
-      * **Horas**: muestra el tiempo asignado como horas. Esta es la opción predeterminada.
+      * **Horas**: muestra el tiempo asignado como horas. Es la opción predeterminada.
       * **Porcentaje**: muestra el tiempo asignado como porcentaje del tiempo total disponible
    * En la sección **Preferencias de clasificación**, seleccione cómo desea que se ordenen los elementos en el Distribuidor de cargas de trabajo. Seleccione entre las siguientes opciones:
       * **Ordenar usuarios por función principal**: los usuarios se muestran en el orden alfabético de sus funciones principales en el área de Trabajo asignado.
@@ -292,7 +294,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 1. Acceda al Distribuidor de cargas de trabajo en el área de Recursos, tal como se describe en la sección [Acceder al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) en este artículo.
 1. Haga clic en el icono **Mostrar asignaciones** ![Mostrar asignaciones](assets/show-allocations-icon-small.png) para ver las horas planificadas diaria o semanalmente para los elementos de trabajo.
 
-   Esto reemplaza el nombre que aparece en las barras de los elementos de trabajo con la cantidad de horas planificadas diaria o semanalmente en las áreas de trabajo no asignado y asignado. Esta configuración está deshabilitada de forma predeterminada.
+   Esto reemplaza el nombre que aparece en las barras de los elementos de trabajo con la cantidad de horas planificadas diaria o semanalmente en las áreas de trabajo no asignado y asignado. Esta opción está desactivada de forma predeterminada.
 
    Los días que muestran sobreasignaciones se muestran en rojo.
 
@@ -310,7 +312,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 1. (Opcional) Haga clic en el icono **Ocultar asignaciones** ![](assets/show-allocations-icon-small.png) para mostrar el nombre de las tareas y los problemas en las barras de los elementos de trabajo.
 1. Haga clic en el icono **Más menú** ![](assets/more-icon.png) a la derecha del nombre de una tarea o un problema y, a continuación, haga clic en una de las opciones siguientes.
 
-   ![Menú más](assets/more-menu-right-of-task-350x104.png)
+   ![Menú Más](assets/more-menu-right-of-task-350x104.png)
 
    * **Asigne esto a** y, a continuación, empiece a escribir el nombre de un usuario, rol o equipo al que desee asignar el elemento de trabajo en el campo **Buscar personas, roles o equipos**.
 
@@ -366,7 +368,7 @@ Puede ver más información sobre las tareas y los problemas en el Distribuidor 
 1. Acceda al Distribuidor de cargas de trabajo en el área de Recursos, tal como se describe en la sección [Acceder al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) en este artículo.
 1. Para ver más información en el panel Resumen, siga uno de estos procedimientos:
 
-   * Haga clic en la barra de una tarea o un problema para abrir el Panel de resumen a la derecha.
+   * Haga clic en la barra de una tarea o un problema para abrir el panel de resumen a la derecha.
    * Haga clic en el icono **Abrir resumen** ![](assets/summary-panel-icon.png) y, a continuación, haga clic en la barra de una tarea o problema para abrir el Panel de resumen.
    * Haga clic en el menú **Más** que se encuentra a la derecha de una tarea o problema y, a continuación, haga clic en **Abrir resumen**.
 
@@ -404,7 +406,7 @@ La navegación por el Distribuidor de cargas de trabajo de un equipo es similar 
 
 La página de su equipo de inicio se muestra de forma predeterminada.
 
-1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo.
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
    ![Distribuidor de cargas de trabajo de un equipo](assets/nwe-balancer-team-350x172.png)
 
@@ -420,7 +422,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 {{step1-to-projects}}
 
 1. Haga clic en el nombre de un proyecto para abrir su página.
-1. Haga clic en **Distribuidor de cargas de trabajo** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Distribuidor de cargas de trabajo**.
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Distribuidor de cargas de trabajo**.
 
    ![Distribuidor de cargas de trabajo de un proyecto](assets/nwe-balancer-project-350x152.png)
 
@@ -433,7 +435,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
    Por ejemplo, podría considerar la posibilidad de mostrar solo los usuarios que pertenecen a sus equipos o grupos. Para obtener más información, consulte [Filtrar información en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Opcional) Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) en el área de Trabajo asignado y seleccione la opción **Elementos de trabajo de este proyecto** en el área **Sugeridos** del panel de filtro. De forma predeterminada, este filtro no está seleccionado.
+1. (Opcional) Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) en el área de Trabajo asignado y seleccione la opción **Elementos de trabajo de este proyecto** en el área **Sugeridos** del panel de filtro. Este filtro está desactivado de forma predeterminada.
 
    Si se selecciona esta opción, sólo se muestran los elementos asignados a los usuarios del proyecto seleccionado.
 
@@ -459,7 +461,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
    Puede ver información sobre las horas planificadas asociadas con los roles del proyecto y los roles asociados con las iniciativas vinculadas a los proyectos desde el Scenario Planner.
 
-   Para obtener más información, vea [Información general sobre la conciliación de asignaciones de recursos entre proyectos e iniciativas](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+   Para obtener más información, consulte [Información general sobre la conciliación de asignaciones de recursos entre proyectos e iniciativas](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 
    >[!NOTE]
