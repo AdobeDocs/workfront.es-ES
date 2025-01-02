@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Direcciones IP para acceder a Adobe Workfront Fusion
-description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
+description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion y de Adobe Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
+source-git-commit: 800cf889ff2729fca0c9d75d0ace0ecc1ee53a79
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 0%
+source-wordcount: '358'
+ht-degree: 10%
 
 ---
 
@@ -30,11 +30,11 @@ Puede añadir todas las direcciones IP y dominios de Fusion a la lista de permit
 Añada las siguientes direcciones IP a su lista de permitidos:
 
 * 52.30.133.50
-* 54 220 93 204
-* 34 254 76 122
-* 54 244 142 219
+* 54.220.93.204
+* 34.254.76.122
+* 54.244.142.219
 * 52.39.217.230
-* 44 241 82 96
+* 44.241.82.96
 * 100.20.126.137
 * 34.223.32.4
 * 52.39.176.220
@@ -42,7 +42,7 @@ Añada las siguientes direcciones IP a su lista de permitidos:
 * 20.81.156.240/28
 * 172.172.84.48/28
 
-Además, si su organización utiliza el filtrado de red saliente, añada el siguiente dominio a su lista de permitidos para permitir que su sistema acceda a Workfront Fusion.
+Además, si su organización utiliza el filtrado de red saliente, añada el siguiente dominio a su lista de permitidos para permitir que su sistema acceda a Workfront Fusion. Se utilizan para los webhooks.
 
 * hook.app.workfrontfusion.com
 * hook.app-eu.workfrontfusion.com
@@ -83,17 +83,17 @@ Agregue las siguientes direcciones IP a su lista de permitidos para permitir que
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
+     <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44 241 82 96</li>
+     <li>44.241.82.96</li>
      <li>100.20.126.137</li>
      <li>34.223.32.4</li>
      <li>52.39.176.220</li>
