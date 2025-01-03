@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ El nuevo campo de coordinador empresarial se puede utilizar en filtros, vistas y
 
 Para obtener más información, consulte [Información general de Business Leader](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del administrador, parte 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) en Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nuevo para administradores: asocie portafolios, programas y compañías con grupos
 
@@ -83,7 +83,7 @@ Por ejemplo, puede enumerar todos los portafolios de su organización en un info
 
 Para obtener más información, consulte la sección “Acerca de la asociación de un grupo con un objeto” en el artículo [Descripción general de los Grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del administrador, parte 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) en Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nuevo para administradores: los administradores de un grupo asignado a una compañía pueden administrar la compañía
 
@@ -93,7 +93,7 @@ Para obtener más información, consulte [Crear y editar empresas](../../../admi
 
 Para obtener información acerca del acceso administrativo a las compañías, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del administrador, parte 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) en Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Reemplazar el botón Trabajar en ello por el botón Inicio
 
@@ -103,7 +103,7 @@ Actualizado el 24 de septiembre: Después de hacer clic en Iniciar tarea o Inici
 
 Para obtener más información sobre cómo configurar esta opción, consulte [Reemplazar el botón Trabajar en ello por el botón Inicio](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del trabajador](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) y en la ruta de aprendizaje [Aspectos básicos del administrador, parte 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) en Workfront One.
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Permitir varios borradores para un tema de cola
 
@@ -111,7 +111,7 @@ Para darle más libertad al trabajar con solicitudes, ya no hay un límite para 
 
 Antes de esta mejora, Workfront solo guardaba un borrador para cada tema de la cola en la cola de solicitudes.
 
-Para obtener información sobre cómo enviar solicitudes, consulte ” [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Para obtener información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Asignar un grupo a un equipo
 
@@ -121,7 +121,7 @@ Al asignar un equipo a un grupo, sus administradores de grupo pueden administrar
 
 Para obtener más información, consulte [Crear un equipo](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del administrador, parte 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) en Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Los nuevos campos permiten informar sobre los datos de un grupo de nivel superior y todos sus subgrupos
 
