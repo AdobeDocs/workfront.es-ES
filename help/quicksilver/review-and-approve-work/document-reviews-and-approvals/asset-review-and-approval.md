@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Resumen de aprobaciones de recursos y documentos
+title: Funcionalidad disponible para la revisión y aprobación de recursos y documentos
 description: Descripción general de los sistemas disponibles para su revisión y aprobación en Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 3%
 
 ---
 
-
-# Resumen de aprobaciones de recursos y documentos
+# Funcionalidad disponible para la revisión y aprobación de recursos y documentos
 
 Actualmente hay tres sistemas diferentes disponibles en Workfront para la revisión y aprobación de recursos y documentos:
 
@@ -85,4 +85,6 @@ Funciones disponibles para la revisión:
 
 * Uso de flujos de trabajo básicos o automatizados
 
-
+<!--
+## Upcoming deprecations
+-->
