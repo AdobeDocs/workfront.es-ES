@@ -8,10 +8,10 @@ description: Puede comparar objetos entre entornos para asegurarse de que los pa
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 23%
+source-wordcount: '465'
+ht-degree: 22%
 
 ---
 
@@ -82,6 +82,12 @@ En este ejemplo:
 * La tercera línea muestra un objeto que no está presente en el entorno de destino.
 
 >[!ENDSHADEBOX]
+
+Para ver diferencias de objeto específicas:
+
+1. Haga clic en el icono de lupa ![](assets/compare-icon.png) en la línea de ese objeto.
+
+   Se abre una ventana con todos los campos de ese objeto. las diferencias se marcan en rojo.
 
 ## Creación de un paquete a partir de una comparación de objetos
 
