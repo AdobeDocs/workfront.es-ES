@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 31%
 
 ---
@@ -61,6 +61,34 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Comparar objetos entre entornos para la promoción de entornos</a></p>
+            <p>Para facilitar la determinación de qué objeto debe incluirse en un paquete de promoción de entorno, se ha añadido la capacidad de comparar objetos entre entornos. A continuación, puede añadir objetos a un paquete directamente desde esta comparación.</p>
+        </td>
+        <td>
+            <p><b>Disponible en estas fechas:</b></p>
+            <ul>
+                <li>Versión preliminar: 3 de enero de 2023</li>
+                <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Más objetos disponibles para la promoción del entorno</a></p>
+            <p>Para ampliar las capacidades de la funcionalidad de promoción del entorno, hemos agregado más objetos.</p>
+        </td>
+        <td>
+            <p><b>Disponible en estas fechas:</b></p>
+            <ul>
+                <li>Versión preliminar: 3 de enero de 2023</li>
+                <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Impedir mover tareas cuando hay horas registradas</a></p>
             <p>Debido a que mover tareas o problemas que han registrado horas a veces puede causar problemas de cumplimiento o auditoría, hemos agregado una preferencia en el área de Preferencias de tarea y problemas de la Configuración que le permite evitar que los usuarios muevan tareas y problemas si hay horas registradas en ellos.</p>
         </td>
@@ -71,7 +99,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
                 <li>Versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
