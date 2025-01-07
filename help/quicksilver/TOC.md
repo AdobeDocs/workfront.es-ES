@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
 workflow-type: tm+mt
-source-wordcount: '14767'
+source-wordcount: '14771'
 ht-degree: 59%
 
 ---
@@ -527,6 +527,7 @@ ht-degree: 59%
          * [Crear o editar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [Instalación de un paquete de promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [Revertir un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
+         * [Comparar objetos entre entornos](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
          * [Promoción de entornos mediante la API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
          * [Preguntas frecuentes sobre la promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [Solución de problemas de la promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
