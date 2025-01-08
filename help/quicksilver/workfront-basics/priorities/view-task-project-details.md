@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 22%
+source-wordcount: '426'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 22%
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede ver los detalles del proyecto, la tarea y el problema en la lista de trabajo de prioridades.
+
+>[!IMPORTANT]
+>
+>Los proyectos deben estar en estado Actual o un estado que equivalga al actual para mostrar los proyectos, así como sus tareas y problemas secundarios.
+
 
 ## Requisitos de acceso
 

@@ -6,10 +6,10 @@ description: Cada widget contiene su propia lista de trabajos. Las listas de tra
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 6%
+source-wordcount: '754'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 6%
 <!-- Audited: 1/2024 -->
 
 Cada widget contiene su propia lista de trabajos. Las listas de trabajo muestran todos los elementos de trabajo que tiene asignados. Puede controlar qué elementos se muestran en su [!UICONTROL lista de trabajo] mediante filtros y agrupaciones.
+
+>[!IMPORTANT]
+>
+>* Para mostrar tareas y problemas en los widgets de Inicio, su proyecto principal debe estar en estado Actual o un estado igual al actual.
+>* Los proyectos también deben estar en Estado actual o un estado que equivalga al actual para mostrarlos en Inicio.
 
 ## Requisitos de acceso
 
@@ -51,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

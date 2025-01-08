@@ -5,13 +5,13 @@ description: Realice un seguimiento de su trabajo con un calendario claro y visu
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 17%
 
 ---
-
 
 # Administrar el trabajo en el calendario de prioridades
 
@@ -22,6 +22,11 @@ Realice fácilmente un seguimiento de su trabajo con un calendario claro y visua
 * Utilice los filtros para encontrar su trabajo
 * Aplique campos personalizados como estado y nivel de enfoque para identificar el trabajo de alta prioridad
 * Aplicar colores para una organización rápida
+
+>[!IMPORTANT]
+>
+>Los proyectos deben estar en estado Actual o un estado que equivalga al actual para mostrar los proyectos, así como sus tareas y problemas secundarios.
+
 
 ## Requisitos de acceso
 
@@ -154,4 +159,3 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En la ficha **Color**, elija cómo desea que se muestren los elementos de trabajo. Por ejemplo, si elige Proyecto, los elementos de trabajo se muestran según el color asignado al proyecto en la lista de trabajo.
    ![proyecto de color de muestra](assets/sample-calendar-projects.png)
-

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 1%
+ht-degree: 29%
 
 ---
 # Fragmentos
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ## Paso 1: Haga clic solo en el menú principal {#step1-click-main-menu}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
 
 ## Paso 1: Haga clic en Menú principal y luego en - {#step1-click-mm-then-click}
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ## Paso 1: Cómo configurar {#step-1-to-setup}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
 
 ## Diseñador de formularios a GA {#form-designer-default}
 
@@ -129,7 +129,7 @@ Puede asegurarse de que está asociando el grupo correcto con el equipo pasando 
 
 Puede permitir a los usuarios crear carpetas vinculadas al Experience Manager mientras están en un proyecto de Workfront. Cuando se vincula una carpeta, cualquier recurso agregado a la carpeta se muestra automáticamente en Workfront y Experience Manager. Cuando se agrega un recurso a la carpeta vinculada en Workfront por primera vez, los metadatos del recurso se insertan en Experience Manager Assets.
 
-En los pasos siguientes, indique dónde desea que se creen las carpetas vinculadas. Cada integración solo puede tener una ubicación para todas las carpetas vinculadas.
+En los pasos siguientes, se indica dónde se desea que se creen las carpetas vinculadas. Cada integración solo puede tener una ubicación para todas las carpetas vinculadas.
 
 Para configurar carpetas vinculadas:
 
@@ -157,8 +157,8 @@ Para configurar carpetas vinculadas:
 >[!NOTE]
 >Es posible que el administrador de Workfront realice los cambios siguientes en el icono [!UICONTROL Inicio] de su entorno:
 >
->* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
->* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en el **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de la página o (si está disponible), haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+>* Sustitúyalo por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+>* Reemplace la página vinculada por una página diferente. En este caso, haga clic en el **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de la página o (si está disponible), haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 >
 
 ## Paso 1: Establecimiento de prioridades - {#step1-to-priorities}
@@ -339,7 +339,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 ## Mobile Proof: menú Más {#mobile-proof-more-menu}
 
-1. Abra la revisión del documento y seleccione el menú **[!UICONTROL Más]** ![Menú más](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) en la parte superior derecha del documento. A continuación, seleccione **[!UICONTROL Más]**.
+1. Abra la prueba del documento y seleccione el menú **[!UICONTROL Más]** ![Menú más](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) en la parte superior derecha del documento. A continuación, seleccione **[!UICONTROL Más]**.
 
 <!-- My Updates -->
 
@@ -360,8 +360,8 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 ## Última versión de DPV {#latest-version}
 
 **Última versión**:
-* Mac: 2.1.39 a partir del 2/10/2024
-* Windows: 2.1.39 del 2/10/2024
+* Mac: 2.1.44 a partir del 2/1/2025
+* Windows: 2.1.44 del 2/1/2025
 
 <!-- Release -->
 
@@ -369,7 +369,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 ## Paso 1: Acceso a los informes - {#step1-to-reports}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Informes]**.
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Informes]**.
 
 ## Paso 1: Cómo llegar a los paneles - {#step1-to-dashboards}
 
@@ -420,7 +420,7 @@ Puede cambiar el estado aplicado al elemento de trabajo con el botón Listo. Tam
    >Tenga en cuenta lo siguiente al seleccionar estados para tareas o problemas:
    >
    >* Al seleccionar un estado para cada tipo de elemento de trabajo, el estado de la tarea o del problema se establece en ese estado cuando un usuario hace clic en Listo en el elemento. Si establece varios estados para cada tipo de elemento de trabajo, se agrega un menú desplegable al botón Listo y el usuario debe elegir un estado para cambiar el estado del elemento de trabajo.
-   >* Solo se pueden asociar estados de nivel de sistema con el botón Listo. No puede asociar estados específicos de grupo con estados de elementos de trabajo.
+   >* Solo se pueden asociar estados de nivel de sistema con el botón Listo. No puede asociar estados específicos de grupo a estados de elementos de trabajo.
    >* Cuando un usuario asignado al elemento coloca el elemento en el estado asociado con el botón Listo, el elemento se muestra como Listo para ese usuario independientemente de si el estado que seleccione es Completado o Cerrado o un estado de trabajo.
    >   
    >   
@@ -445,7 +445,7 @@ Para que los usuarios puedan ver los cambios realizados en la funcionalidad del 
 
 Para asociar usuarios a un equipo de inicio:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
 
 1. Haga clic en **[!UICONTROL Usuarios]** y, a continuación, seleccione el usuario o los usuarios que desee asociar con un equipo de inicio.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.\

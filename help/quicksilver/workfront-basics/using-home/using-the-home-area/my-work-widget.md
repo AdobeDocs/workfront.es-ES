@@ -6,16 +6,20 @@ description: El widget Mi trabajo muestra todas las tareas, problemas y solicitu
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 5%
+source-wordcount: '725'
+ht-degree: 12%
 
 ---
 
 # Administre su trabajo con el widget Mi trabajo
 
 El widget Mi trabajo muestra todas las tareas, problemas y solicitudes asignados en un solo lugar. Aquí puede filtrar y organizar su trabajo, registrar el tiempo, realizar actualizaciones y marcar los elementos de trabajo como completados.
+
+>[!IMPORTANT]
+>
+>Para mostrar tareas y problemas en el widget Mi trabajo, su proyecto principal debe estar en Estado actual o en un estado igual al actual.
 
 ## Requisitos de acceso
 
@@ -51,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -112,7 +116,7 @@ Puede ajustar los filtros de Mi trabajo para que se centren en elementos especí
 >
 >Si busca opciones de filtrado más específicas, puede utilizar los widgets Mi tarea o Mi problema. Para obtener más información sobre los filtros Mi tarea y Mi problema, consulte [Resumen de los filtros de los widgets de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 
-## Organizar su trabajo
+## Organización de su trabajo
 
 Puede utilizar las funciones de ordenación y grupo del widget Mi trabajo para organizar el trabajo de forma que tenga sentido.
 
