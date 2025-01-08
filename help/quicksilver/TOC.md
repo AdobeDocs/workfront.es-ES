@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
 workflow-type: tm+mt
-source-wordcount: '14771'
+source-wordcount: '14782'
 ht-degree: 59%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 59%
          * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Actividad de la versión {#fusion-release} de Adobe Workfront Fusion
          * [Actividad en la versión de Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Actividad de la versión de Workfront Fusion: Semana del martes, 06 de enero de 2025](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2025-1-6.md)
          * [Actividad de la versión de Workfront Fusion: semana del martes, 16 de diciembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Actividad de la versión de Workfront Fusion: semana del martes, 02 de diciembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Actividad en la versión de Workfront Fusion: semana del martes, 25 de noviembre de 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
@@ -2307,6 +2308,7 @@ ht-degree: 59%
       * [Módulos de servicios de Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Módulos de Adobe Photoshop](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Módulos de Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [Adobe de módulos de User Management](workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
       * [Módulos de Airtable](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Módulos de Allocadia](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Módulos Anaplan](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
