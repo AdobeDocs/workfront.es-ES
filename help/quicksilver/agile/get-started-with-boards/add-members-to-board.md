@@ -6,10 +6,10 @@ description: Los usuarios deben añadirse al tablero como miembros para poder ve
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 65%
+source-wordcount: '494'
+ht-degree: 63%
 
 ---
 
@@ -92,6 +92,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 >[!NOTE]
 >
 >Solamente un administrador del sistema o el propietario actual del tablero puede cambiar el propietario del tablero. Un tablero solo puede tener un propietario.
+>
+>La capacidad de cambiar el propietario del tablero está disponible en tableros básicos, retrospectivos y Kanban, pero no en tableros dinámicos.
 
 1. Acceda al tablero.
 1. Haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-icon-spectrum.png) que está junto al nombre del tablero y, a continuación, elija **[!UICONTROL Cambiar propietario del tablero]**.
