@@ -6,16 +6,16 @@ description: Puede crear paneles para acceder rápidamente a la información en 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 87%
 
 ---
 
 # Creación de un panel
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Puede crear paneles para acceder rápidamente a la información en Adobe Workfront. Se pueden agregar hasta 25 informes, calendarios y páginas externas a los paneles que puede compartir con otros para lograr una colaboración óptima.
 
@@ -38,7 +38,7 @@ Debe tener lo siguiente:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licencia de Adobe Workfront*</strong></p> </td> 
+   <td> <p><strong>Licencia de Adobe Workfront</strong></p> </td> 
    <td> <p>Actual: plan </p>
    O
    <p>Nuevo: estándar </p> </td> 
@@ -54,7 +54,7 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

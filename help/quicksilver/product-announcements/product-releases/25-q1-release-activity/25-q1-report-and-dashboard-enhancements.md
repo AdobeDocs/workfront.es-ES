@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 13%
+source-wordcount: '250'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 16 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 16 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Para mantener el rendimiento del panel, se ha implementado un límite en el número total de informes, páginas externas o calendarios que se pueden colocar en un panel. Al crear un nuevo tablero, se puede agregar un máximo de 25 elementos.
 

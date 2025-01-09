@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 11%
+source-wordcount: '744'
+ht-degree: 23%
 
 ---
 
@@ -50,7 +50,7 @@ Para obtener más información sobre los objetos disponibles para la promoción 
 
 >[!NOTE]
 >
->Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Debido a que mover tareas o problemas que han registrado horas a veces puede causar problemas de cumplimiento o auditoría, hemos agregado una preferencia en el área de Preferencias de tarea y problemas de la Configuración que le permite evitar que los usuarios muevan tareas y problemas si hay horas registradas en ellos. Antes de esta mejora, los usuarios podían mover tareas y problemas a otros proyectos, incluso si se habían registrado horas en ellos.
 
@@ -60,7 +60,7 @@ Para obtener más información, consulte [Configurar las preferencias de tareas 
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: viernes, 21 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Como administrador de sistemas o de grupos, ahora tiene una nueva preferencia que indica si Workfront debe utilizar la programación del proyecto o la del usuario para calcular la escala de tiempo del proyecto cuando asigna un usuario a una tarea y tanto el proyecto como el usuario están asociados a una programación. Antes de esta mejora, esta configuración existía para asignaciones de varios usuarios. La configuración ahora está disponible para asignaciones de un solo usuario a tareas.
 
@@ -70,7 +70,7 @@ Para obtener más información, consulte [Configurar las preferencias de proyect
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: viernes, 21 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Ahora puede incluir hipervínculos en el mensaje de error personalizado de una regla de negocio para guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla. La URL estática podría vincularse a la documentación u otras páginas que resultarían útiles para el usuario.
 
@@ -80,7 +80,7 @@ Para obtener más información, consulte [Crear y editar reglas de negocio](/hel
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: viernes, 21 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Cuando se agrega una referencia de campo nativo a un formulario personalizado y hace referencia a un campo de escritura anticipada (como Portfolio, Empresa o Propietario), ahora está disponible una opción de filtro. El filtro permite limitar los objetos que los usuarios pueden elegir cuando utilizan el campo. Este filtro personalizado funciona igual que un filtro en un campo de escritura anticipada personalizado, utilizando el modo de texto para definir el filtro.
 
@@ -90,7 +90,7 @@ Para obtener más información, consulte [Crear un formulario personalizado](/he
 
 >[!NOTE]
 >
->Versión de vista previa: 29 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: miércoles, 29 de octubre de 2024; producción para versión rápida: con la versión 24.11 (viernes, 14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono &quot;mover a&quot; a cada campo, que le permite seleccionar la sección en la que se coloca el campo.
 

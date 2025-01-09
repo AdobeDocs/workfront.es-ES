@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 10%
+source-wordcount: '826'
+ht-degree: 11%
 
 ---
 
@@ -18,11 +18,35 @@ Esta página describe todas las mejoras realizadas en Inicio con la versión del
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Información general sobre mejoras de prioridades
+
+Vea el siguiente vídeo para obtener una visión de alto nivel de las nuevas funciones añadidas a Prioridades este trimestre.
+
+[Vídeo de información general sobre mejoras de prioridades](https://video.tv.adobe.com/v/3442750/){target=_blank}
+
+Vea [Vídeo de demostración sobre mejoras de prioridades](#priorities-enhancements-demo-video) a continuación para ver una demostración completa de las funciones incluidas en esta descripción general.
+
+## Utilice los filtros inteligentes para encontrar su trabajo en Prioridades
+
+>[!NOTE]
+>
+>Versión de vista previa: 9 de enero de 2025; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
+
+Utilice un lenguaje natural para filtrar rápidamente el trabajo en la lista de trabajos de Prioridades. Puede escribir cosas como
+
+* Mostrarme las tareas atrasadas
+* Mostrar las tareas pendientes de esta semana
+* Mostrar prioridades principales
+
+Solo está disponible para instancias habilitadas para IMS.
+
+Para obtener más información, vea [Filtrar y agrupar el trabajo con prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
 ## Ponerse al día con el trabajo en Prioridades
 
 >[!NOTE]
 >
->Versión de vista previa: 20 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 20 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 >
 >_Esta característica solo está disponible para los clientes que usan el Asistente para IA en la experiencia de Adobe unificado._
 
@@ -36,7 +60,7 @@ Para obtener más información, vea [Ponerse al día con el trabajo en Prioridad
 
 >[!NOTE]
 >
->Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Ahora puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros usuarios están viendo la página al mismo tiempo que usted con indicadores de presencia en tiempo real.
 
@@ -46,7 +70,7 @@ Para obtener más información, vea [Ver detalles de proyectos y tareas en la li
 
 >[!NOTE]
 >
->Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Ahora puede interactuar con documentos y pruebas para tareas y problemas de la lista de trabajo y el calendario. En la nueva pestaña Documentos, puede
 
@@ -61,7 +85,7 @@ Para obtener más información, consulte [Cargar documentos y crear pruebas en P
 
 >[!NOTE]
 >
->Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Ahora puede realizar un seguimiento del trabajo con un calendario visual y claro. Con el calendario de Prioridades, puede
 
@@ -76,7 +100,7 @@ Para obtener más información, consulte [Administrar su trabajo en el calendari
 
 >[!NOTE]
 >
->Versión de vista previa: 12 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 12 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Hemos actualizado la Lista de trabajo de prioridades para mejorar las capacidades y alinearnos con otras áreas de la aplicación.
 
@@ -106,7 +130,7 @@ Para obtener más información, vea [Filtrar y agrupar el trabajo con prioridade
 
 >[!NOTE]
 >
->Versión de vista previa: 5 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 5 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Ahora puede navegar directamente a un proyecto en Workfront desde la lista de trabajo Prioridades.
 
@@ -131,8 +155,14 @@ Este cambio facilita la visualización y organización del trabajo en función d
 
 >[!NOTE]
 >
->Versión de vista previa: 6 de noviembre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: jueves, 06 de noviembre de 2024; producción para la versión rápida: con la versión 24.11 (viernes, 14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Ahora puede ver los detalles y comentarios del proyecto desde la lista de trabajo en Prioridades.
 
 Para obtener más información, vea [Ver detalles de proyectos y tareas en la lista de trabajo de prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Vídeo de demostración de mejoras de prioridades
+
+Vea el siguiente vídeo para ver una demostración detallada de las nuevas funciones añadidas a Prioridades este trimestre.
+
+[Vídeo de demostración sobre mejoras de prioridades](https://video.tv.adobe.com/v/3442751/){target=_blank}

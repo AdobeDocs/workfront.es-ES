@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 10%
+source-wordcount: '400'
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Hemos cambiado la forma en que se gestionan los recursos movidos y eliminados al
 
 >[!NOTE]
 >
->Versión de vista previa: 11 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: martes, 11 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Cuando se adjunta un formulario personalizado con varias secciones a un objeto, ahora puede contraer y expandir todas las secciones excepto la predeterminada en la parte superior del formulario. El administrador también puede ver esta funcionalidad al obtener una vista previa del formulario en el diseñador de formularios.
 
@@ -43,7 +43,7 @@ Para obtener información sobre cómo agregar una sección a un formulario perso
 
 >[!NOTE]
 >
->Versión de vista previa: 31 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: viernes, 31 de octubre de 2024; producción para versión rápida: con la versión 24.11 (viernes, 14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Para facilitar la administración de los elementos de trabajo en Workfront, hemos actualizado el Asistente de IA para que funcione con proyectos, tareas y problemas. Ahora, el Asistente de inteligencia artificial puede localizar proyectos, tareas y problemas en función de los criterios que especifique, como &quot;Buscar mis tareas con vencimiento esta semana&quot;.
 Anteriormente, el Asistente de IA no podía trabajar directamente con proyectos, tareas y problemas.

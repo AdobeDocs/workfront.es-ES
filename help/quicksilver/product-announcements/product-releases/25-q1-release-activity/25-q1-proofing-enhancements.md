@@ -4,10 +4,11 @@ description: Mejoras de revisión del primer trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión preliminar: 30 de agosto de 2024; versión de producción para todos los clientes: 30 de agosto de 2024.
+>Versión de vista previa: viernes, 07 de noviembre de 2024; versión de producción para todos los clientes: viernes, 07 de noviembre de 2024.
 
 Presentamos una nueva extensión de explorador, la herramienta de revisión de Adobe Workfront, para reemplazar la extensión de explorador heredada para revisar el contenido ZIP interactivo. La extensión del explorador heredado se eliminará el 28 de febrero de 2025.
 

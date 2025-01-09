@@ -4,9 +4,10 @@ description: Mejoras del proyecto del primer trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 23%
 
 ---
@@ -21,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
 Ahora se ha eliminado una funcionalidad que se encuentra en el entorno de vista previa desde diciembre de 2023 y en el entorno de producción de versión rápida desde marzo de 2024. Las funciones agregaron sugerencias de asignación inteligente más relevantes al asignar tareas.
 

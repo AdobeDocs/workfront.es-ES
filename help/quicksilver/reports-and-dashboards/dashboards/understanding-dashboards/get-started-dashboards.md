@@ -7,16 +7,16 @@ description: El propósito de un panel de control es proporcionar un acceso ráp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 97%
 
 ---
 
 # Introducción a los paneles de control
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 El propósito de un panel de control es proporcionar un acceso rápido a la información que proviene de varios informes. En primer lugar, puede recopilar información en los informes y, a continuación, puede colocar varios informes en los paneles de control para facilitar el acceso a la información.
 
@@ -38,7 +38,16 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td> <p><strong>Licencia de Adobe Workfront</strong></p> </td> 
-   <td> <p>Nuevo: colaborador o superior</p><p>O</p><p>Actual: revisión o superior</p> </td> 
+      <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador o superior</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Revisión o superior</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Nivel de acceso</strong> </td> 
@@ -51,7 +60,7 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

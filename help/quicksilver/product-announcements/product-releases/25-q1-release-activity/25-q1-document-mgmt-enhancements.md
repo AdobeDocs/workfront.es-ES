@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 34%
+source-wordcount: '215'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 21 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: viernes, 21 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Ahora puede editar varios documentos a la vez. Puede editar las descripciones y actualizar los formularios personalizados.
 
@@ -36,7 +36,7 @@ Ahora puede editar varios documentos a la vez. Puede editar las descripciones y 
 
 >[!NOTE]
 >
->Versión de vista previa: 7 de noviembre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: viernes, 07 de noviembre de 2024; producción para la versión rápida: con la versión 24.11 (viernes, 14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Cuando se agrega una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior ahora se mostrará como &quot;Retirada&quot;, lo que indica que el proceso de aprobación anterior se ha cerrado debido a que se está agregando la nueva versión.
 

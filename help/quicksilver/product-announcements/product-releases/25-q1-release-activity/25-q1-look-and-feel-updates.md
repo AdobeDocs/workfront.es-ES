@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '709'
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ Se aplicó un pequeño cambio de funcionalidad a la integración de Quip. En lug
 
 >[!NOTE]
 >
->Versión de vista previa: 28 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: viernes, 28 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 El cuadro de diálogo para solicitar acceso a los objetos se ha actualizado a un diseño más moderno y coherente con otras áreas de Workfront. Este cuadro de diálogo está disponible cuando solicita acceso a proyectos, tareas, problemas, programas, portafolios, plantillas y tareas de plantilla.
 
@@ -50,7 +50,7 @@ Hemos realizado mejoras de rendimiento en el área de Configuración, donde pued
 
 >[!NOTE]
 >
->Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: martes, 04 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Hemos actualizado las páginas Miembros de la compañía y Tarifas de facturación de la compañía con un diseño más moderno que es coherente con otras áreas de Workfront. Se puede acceder a las suscripciones a empresas a través de Configuración > Empresas > seleccione un nombre de empresa > seleccione Miembros de la empresa en el panel izquierdo. Puede acceder a las tarifas de facturación de la empresa a través de Configuración > Empresas > seleccione un nombre de empresa > seleccione Tarifas de facturación en el panel izquierdo.
 
@@ -73,7 +73,7 @@ Los cambios más destacables son los siguientes:
 
 >[!NOTE]
 >
->Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: martes, 04 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Presentamos un nuevo formato de lista en el área Configuración de Workfront y la lista de tasas de cambio es la primera página que utiliza este formato de tabla. La funcionalidad para agregar nuevas tasas de cambio y buscar tasas de cambio no ha cambiado.
 
@@ -83,7 +83,7 @@ Para obtener información sobre las tasas de cambio, consulte [Configurar tasas 
 
 >[!NOTE]
 >
->Versión de vista previa: 4 de noviembre de 2024; producción para versión rápida: con la versión 24.12 (12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión preliminar: martes, 04 de noviembre de 2024; producción para la versión rápida: con la versión 24.12 (viernes, 12 de diciembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 Hemos actualizado la página Exportar datos (Kick-Starts) en el área de Configuración con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -93,7 +93,7 @@ Para obtener más información, consulte [Exportar datos de Workfront mediante K
 
 >[!NOTE]
 >
->Versión de vista previa: 24 de octubre de 2024; producción para versión rápida: con la versión 24.11 (14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (enero de 2025)
+>Versión de vista previa: viernes, 24 de octubre de 2024; producción para versión rápida: con la versión 24.11 (viernes, 14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
 La ventana Enviar actualización al usuario se ha actualizado con un diseño más moderno y coherente con otras áreas de Workfront.
 

@@ -6,16 +6,18 @@ description: El objetivo del tablero es proporcionar un acceso rápido a la info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 1%
+source-wordcount: '495'
+ht-degree: 35%
 
 ---
 
 # Edición de un tablero
 
-El objetivo del tablero es proporcionar un acceso rápido a la información. Puede rellenar un tablero con los siguientes elementos en Adobe Workfront:
+<!-- Audited: 1/2025 -->
+
+El objetivo del tablero es proporcionar un acceso rápido a la información. Puede rellenar un panel de control con los siguientes elementos en Adobe Workfront:
 
 * Informes
 
@@ -23,7 +25,7 @@ El objetivo del tablero es proporcionar un acceso rápido a la información. Pue
 
 * Páginas externas
 
-  Para obtener más información sobre la creación de páginas externas, vea [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Para obtener más información sobre la creación de páginas externas, consulte [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Después de crear estos elementos y agregarlos a un panel, puede editar el panel para agregarle más elementos, quitar elementos existentes del mismo o editar la información del panel.
 
@@ -33,6 +35,8 @@ Al compartir un tablero con los usuarios, todos los informes y las páginas exte
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
@@ -40,38 +44,49 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos en el tablero</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos en el panel</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
 Debe crear un tablero para poder editarlo.
 
-Para obtener información sobre cómo crear paneles, consulte [Crear un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Para obtener información sobre cómo crear paneles de control, consulte [Crear un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Edición de un tablero
 
-1. Vaya al tablero que desee editar.
+1. Vaya al panel de control que desee editar.
 1. Haga clic en **Acciones de panel** y luego haga clic en **Editar**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >
@@ -86,7 +101,7 @@ Para obtener información sobre cómo crear paneles, consulte [Crear un panel](.
 
    >[!NOTE]
    >
-   >Al buscar un elemento, la búsqueda devuelve cualquiera de los 2000 informes creados más recientemente. Los nombres de los informes que incluyen caracteres Unicode no se devuelven en los resultados de búsqueda. Como práctica recomendada, evite incluir caracteres Unicode al nombrar objetos en Workfront escribiendo nombres en lugar de copiar y pegar nombres de otra fuente.
+   >Al buscar un elemento, la búsqueda devuelve cualquiera de los 2000 informes con fecha de creación más reciente. Los nombres de los informes que incluyen caracteres Unicode no se devuelven en los resultados de búsqueda. Como práctica recomendada, evite incluir caracteres Unicode al nombrar objetos en Workfront escribiendo nombres en lugar de copiar y pegar nombres de otra fuente.
 
 1. (Opcional) Seleccione un nuevo diseño para el tablero haciendo clic en el botón de opción correspondiente al diseño que desee.
 1. (Opcional) Pase el ratón sobre el nombre de un informe existente y haga clic en el icono de la papelera para eliminarlo del panel.

@@ -1,23 +1,27 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Eliminar un tablero
-description: Si ya no usa para un tablero, puede eliminarlo de Adobe Workfront.
+title: Eliminación de un panel de control
+description: Si ya no usa ningún panel de control, puede eliminarlo de Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Eliminar un tablero
+# Eliminación de un panel de control
 
-Si ya no usa para un tablero, puede eliminarlo de Adobe Workfront.
+<!-- Audited: 1/2025 -->
+
+Si ya no usa ningún panel de control, puede eliminarlo de Adobe Workfront.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -26,52 +30,63 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administración de permisos en el tablero</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos en el panel</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Eliminar un tablero del menú Acciones
++++
 
-Si desea eliminar un tablero, puede eliminarlo mediante el menú Acciones.
+## Eliminar un panel de control del menú Acciones
 
-Para obtener información sobre cómo eliminar un panel con una página externa incrustada, consulte [Eliminar un panel del área de paneles](#delete-a-dashboard-from-the-dashboards-area).
+Si desea eliminar un panel de control, puede eliminarlo mediante el menú Acciones.
 
-Para eliminar un tablero:
+Para obtener información sobre cómo eliminar un panel de control con una página externa incrustada, consulte [Eliminar un panel de control del área de paneles](#delete-a-dashboard-from-the-dashboards-area).
 
-1. Vaya al tablero que desee editar.
-1. Haga clic en **Acciones de panel** y luego haga clic en **Eliminar**.
+Para eliminar un panel de control:
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+1. Vaya al panel de control que desee editar.
+1. Haga clic en **Acciones de panel de control** y luego haga clic en **Eliminar**.
 
-1. Para confirmar que desea eliminar el tablero, haga clic en **Sí, eliminarlo.**
-El tablero se eliminará de Workfront.
+   ![](assets/unshimmed-delete-dashboard.png)
 
-## Eliminar un tablero del área de Tableros {#delete-a-dashboard-from-the-dashboards-area}
+1. Para confirmar que desea eliminar el panel de control, haga clic en **Sí, eliminarlo.**
+El panel de control se eliminará de Workfront.
 
-Si va a eliminar varios paneles, puede eliminarlos del área Paneles. Esta también es la única manera de eliminar un panel con una página externa.
+## Eliminar un panel de control del área Paneles de control {#delete-a-dashboard-from-the-dashboards-area}
 
-Para eliminar varios paneles:
+Si va a eliminar varios paneles de control, puede eliminarlos del área Paneles de control. Esta también es la única manera de eliminar un panel de control con una página externa.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Paneles**.
-1. Seleccione cada panel de la lista que desee eliminar y, a continuación, haga clic en **Eliminar** ![](assets/delete.png).
+Para eliminar varios paneles de control:
 
-   ![](assets/nwe-deletedashboard2021-350x182.png)
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Paneles]**.
+1. Seleccione cada panel de control de la lista que desee eliminar y, a continuación, haga clic en **Eliminar**![](assets/delete.png).
 
-1. Para confirmar que desea eliminar el tablero, haga clic en **Sí, eliminarlo.**
-El tablero se eliminará de Workfront.
+   ![](assets/unshimmed-delete-dashboard-list.png)
+
+1. Para confirmar que desea eliminar el panel de control, haga clic en **Sí, eliminarlo.**
+El panel de control se eliminará de Workfront.

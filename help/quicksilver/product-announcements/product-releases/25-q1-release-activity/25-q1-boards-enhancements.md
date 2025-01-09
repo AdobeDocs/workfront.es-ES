@@ -4,10 +4,11 @@ description: Mejoras en los tableros del primer trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 35%
+source-wordcount: '187'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +26,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 El creador de un tablero es el propietario de forma predeterminada. El propietario del tablero es la única persona que puede eliminar ese tablero o actualizar sus filtros en el panel Configurar.
 
-Se ha agregado funcionalidad para permitir que los administradores del sistema de Workfront cambien el propietario de un tablero. El propietario actual de un tablero también puede cambiar el propietario de ese tablero específico.
+Se ha agregado funcionalidad para permitir que los administradores del sistema de Workfront cambien el propietario de un tablero. El propietario actual de un tablero también puede cambiar el propietario de ese tablero específico. Esta funcionalidad está disponible en tableros básicos, retrospectivos y Kanban, pero no en tableros dinámicos.
 
 Anteriormente, el propietario del tablero no se podía cambiar sin intervención en el back end.
 
