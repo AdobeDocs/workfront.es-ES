@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 19%
+source-wordcount: '975'
+ht-degree: 20%
 
 ---
 
@@ -149,9 +149,10 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 
    El formulario se enviará y se producirán los siguientes eventos:
 
-   * Si el formulario de solicitud no estaba asociado a una aprobación, o <span class="preview">si la aprobación fue concedida por todos los aprobadores,</span> se agrega un nuevo registro al tipo de registro asociado al formulario.
+   * Si el formulario de solicitud no estaba asociado a una aprobación, la solicitud se agrega a la pestaña <span class="preview">Planificación de la sección Enviados del área de Solicitudes de Workfront </span> y se agrega un nuevo registro al tipo de registro asociado al formulario.
 
-   * Si el formulario de solicitud no estaba asociado a una aprobación, la solicitud <span class="preview"> se agrega a la ficha Planificación de la sección Enviados del área Solicitudes de Workfront y se agrega un nuevo registro a la página de tipo de registro.</span>
+   * Si el formulario de solicitud estaba asociado a una aprobación, la solicitud <span class="preview"> se agrega a la pestaña Planificación de la sección Enviado del área Solicitudes de Workfront. Se agrega un nuevo registro a la página de tipo de registro solamente después de que todos los aprobadores lo hayan aprobado.</span>
+     <span class="preview">Para obtener más información, consulte [Agregar una aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
      >
      ><span class="preview">Todos los usuarios que tengan acceso al menos a un área de trabajo podrán ver la ficha Planificación en el área Solicitudes. Solo puede ver las solicitudes enviadas por usted o por cualquier otra persona a los espacios de trabajo para los que tiene al menos permisos de Vista. Los administradores de Workfront pueden ver todas las solicitudes enviadas a cualquier espacio de trabajo del sistema. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Si el formulario de solicitud estaba asociado a una aprobación, la solicitud se guarda temporalmente en la pestaña Planificación de la sección Enviado del área Solicitudes de Workfront. No se ha creado ningún registro para el tipo de registro asociado al formulario de solicitud.</span>
-
-     <span class="preview">Para obtener más información, consulte [Agregar una aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
    * <span class="preview">Recibe una notificación en la aplicación y por correo electrónico que indica que la solicitud se ha enviado correctamente o que se ha enviado para su revisión.</span>
    * <span class="preview">Si el formulario de solicitud estaba asociado con una aprobación, los aprobadores recibirán una notificación en la aplicación y por correo electrónico para revisar y aprobar la solicitud.</span>
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2245'
 ht-degree: 86%
 
 ---
@@ -169,7 +169,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Permitir que los usuarios eliminen tareas y problemas con las horas registradas</td> 
+      <td role="rowheader">Permitir que los usuarios eliminen tareas y problemas con horas registradas</td> 
       <td> <p> Permite determinar si se permite la eliminación de tareas o problemas en los que se registran horas. Esta opción está desactivada de forma predeterminada.</p> 
        <div> 
         <p><b>Sugerencia</b>: Esta opción de configuración también se aplica a la eliminación de proyectos que tienen tareas o problemas con horas registradas. Esta configuración no se aplica a los proyectos de eliminación en los que el tiempo se registra directamente en el proyecto. </p> 
@@ -193,12 +193,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Permitir que los usuarios muevan tareas y problemas con las horas registradas</td> 
+      <td role="rowheader">Permitir que los usuarios muevan tareas y problemas con horas registradas</td> 
       <td> <p> Permite determinar si permite el movimiento de tareas o problemas donde se registran las horas. Esta opción está desactivada de forma predeterminada.</p> 
        <p>Tenga en cuenta lo siguiente:</p> 
         <ul> 
          <li> Cuando está seleccionada, puede mover tareas y problemas que tengan tiempo registrado. Las horas también se mueven con las tareas o problemas. </li>
-      <li>Si anula la selección de esta opción, recibe una advertencia prohibitiva cuando mueve una tarea o un problema con horas registradas. La advertencia especifica que el administrador no permite mover tareas o problemas con horas registradas. Las tareas o los problemas que tienen horas registradas no se pueden mover. </li></ul>
+      <li>Si anula la selección de esta opción, recibe una advertencia prohibitiva cuando mueve una tarea o un problema con horas registradas. La advertencia especifica que el administrador no permite mover tareas o problemas con horas registradas. Las tareas o los problemas que tienen horas registradas no se pueden mover a otro proyecto. Puede mover tareas con horas registradas dentro del mismo proyecto, incluso con esta opción sin seleccionar.  </li></ul>
       </td> 
      </tr> 
     </tbody> 

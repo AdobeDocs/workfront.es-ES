@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 13%
 
 ---
@@ -139,33 +139,40 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Campos de registro disponibles en la vista de tabla del tipo de registro seleccionado. <!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > Según el entorno que utilice para crear un formulario de solicitud, se producirán los siguientes escenarios:
-   >
-   >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud <span class="preview"> en los entornos de vista previa </span> o producción:
-   >
-   >    * Creado por y modificado por última vez por
-   >    * Fórmula
-   >    * Fecha de creación y fecha de la última modificación
-   >    * Campos de búsqueda de objetos Workfront
-   >    * Campos de búsqueda de registros conectados de Workfront Planning
-   >* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en el entorno Producción. <span class="preview">Aparecen en el entorno de vista previa:</span>
-   >    * <span class="preview"> campos conectados de registros de Workfront Planning</span>
-   >    * <span class="preview">Personas </span>
-   >    * <span class="preview">Campos conectados de objetos Workfront</span>
-   >    * <span class="preview">AEM Assets conectaron campos </span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
-   * Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible en el entorno de producción. <span class="preview">Está disponible en el entorno de vista previa.</span>: la configuración y el valor del campo Asunto no se pueden editar.
+>[!IMPORTANT]
+>
+> Según el entorno que utilice para crear un formulario de solicitud, se producirán los siguientes escenarios:
+>
+>* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en el entorno de producción:
+>
+>    * Creado por y modificado por última vez por
+>    * Fecha de creación y fecha de la última modificación
+>    * Fórmula
+>    * Personas
+>    * Campos conectados de Workfront
+>    * Campos de búsqueda de objetos Workfront
+>    * Campos conectados de registros de Workfront Planning
+>    * Campos de búsqueda de registros conectados de Workfront Planning
+>    * Campos de conexión de AEM Assets
+>* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en <span class="preview">el entorno de vista previa:</span>
+>    * <span class="preview"> lo creó y modificó por última vez </span>
+>    * <span class="preview">Fecha de creación y fecha de la última modificación</span>
+>    * <span class="preview">Fórmula</span>
+>    * <span class="preview"> campos de búsqueda de objetos Workfront</span>
+>    * <span class="preview">Campos de búsqueda de registros conectados de Workfront Planning </span>
 
-     >[!TIP]
-     >
-     >El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Asunto** si es necesario, y los solicitantes no lo verán en el formulario.
+* **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
+* Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible en el entorno de producción. <span class="preview">Está disponible en el entorno de vista previa.</span>: la configuración y el valor del campo Asunto no se pueden editar.
 
-   * Todos los campos asociados al tipo de registro.
+  >[!TIP]
+  >
+  >El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Asunto** si es necesario, y los solicitantes no lo verán en el formulario.
 
-     Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
+* Todos los campos asociados al tipo de registro.
+
+  Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
 
 1. (Opcional) Pase el ratón sobre cualquier campo del formulario que quiera quitar y luego haga clic en el icono **x** para quitarlo. Se agregarán a la ficha **Campos** situada a la izquierda del formulario.
 
@@ -233,9 +240,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    > * <span class="preview">Un formulario que contiene los siguientes tipos de campo no se puede compartir públicamente:</span>
    >
-   >     * <span class="preview">Fórmula</span>
    >     * <span class="preview">Conexiones de Workfront o AEM Assets</span>
-   >     * <span class="preview">Campos de búsqueda</span>
    >     * <span class="preview">Personas</span>
    >
 

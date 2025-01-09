@@ -2,16 +2,16 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Crear grupos de temas
-description: Los grupos de temas están asociados a las colas de solicitudes. Permiten clasificar las colas de solicitudes en varias categorías, según la naturaleza de las solicitudes.
+description: Los grupos de temas están asociados a las colas de solicitudes. Permiten clasificar las colas de solicitudes en varias categorías según la naturaleza de las solicitudes.
 author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '466'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Los grupos de temas están asociados a las colas de solicitudes. Permiten clasificar las colas de solicitudes en varias categorías, según la naturaleza de las solicitudes.
+Los grupos de temas están asociados a las colas de solicitudes. Las colas de solicitudes se pueden clasificar en varias categorías, según la naturaleza de las solicitudes, mediante grupos de temas.
 
 ## Requisitos de acceso
 
@@ -32,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -45,43 +45,43 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Proyectos</p> </td> 
+   <td> <p>Acceso de edición a proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p> Administración de permisos del proyecto</p> </td> 
+   <td> <p> Administrar permisos del proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Información general sobre los grupos de temas
 
-Por ejemplo, si tiene una cola de solicitudes para solicitudes de marketing, puede tener un grupo de temas de &quot;Campaña del día de la madre&quot;, con un grupo de temas de segundo nivel de &quot;Medios digitales&quot; y un grupo de temas de segundo nivel adicional de &quot;Medios impresos&quot;. A continuación, puede tener varios temas de la cola dentro de cada grupo de temas. Por ejemplo, &quot;Anuncio de banner&quot; y &quot;Blog&quot; pueden ser temas de cola para el grupo de temas &quot;Medios digitales&quot;.
+Por ejemplo, si tiene una cola de solicitudes para solicitudes de marketing, puede tener un grupo de temas de “Campaña del día de la madre”, con uno de segundo nivel de “Medios digitales” y otro de segundo nivel de “Medios impresos”. Entonces, puede tener varios temas de la cola dentro de cada grupo de temas. Por ejemplo, “Publicidad tipo titular” y “Blog” pueden ser temas de la cola para el grupo de temas “Medios digitales”.
 
-Para obtener más información acerca de cómo crear colas de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Para obtener más información sobre cómo crear colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!TIP]
->
->* Puede crear hasta 10 niveles de grupos de temas dentro de una cola de solicitudes.
->* No hay límite en el número de temas de la cola que se pueden asociar a un grupo de temas.
->* Los grupos de temas son un objeto del que se puede informar.
->
+Tenga en cuenta lo siguiente al trabajar con grupos de temas:
+
+* Puede crear hasta 10 niveles de grupos de temas dentro de una cola de solicitudes.
+* No hay límite en el número de temas de cola que se pueden asociar a un grupo de temas.
+* Los grupos de temas son un objeto notificable.
+* No se pueden mover grupos de temas de un proyecto a otro.
 
 ## Crear grupos de temas
 
-Se recomienda crear Grupos de temas antes de crear un Tema de la cola. Sin embargo, se puede crear un grupo de temas dentro de en el Generador de temas de colas. Para obtener más información acerca de cómo crear temas de colas, vea [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Se recomienda crear grupos de temas antes de crear un tema de cola. Sin embargo, se puede crear un grupo de temas dentro en el generador de temas de cola. Para obtener más información sobre cómo crear temas de colas, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Para crear un grupo de temas:
 
 1. Vaya al proyecto que ha publicado como Cola de solicitudes de ayuda.\
-   Para obtener más información sobre cómo publicar un proyecto como cola de solicitud de ayuda, vea [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Para obtener más información sobre cómo publicar un proyecto como cola de solicitud de ayuda, consulte [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Haga clic en **Grupos de temas** en el panel izquierdo. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Grupos de temas**.
-1. Haga clic en **Nuevo grupo de temas**.
+1. Haga clic en **Grupos de temas** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Grupos de temas**.
+1. Crear **Nuevo grupo de temas**
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
@@ -89,8 +89,8 @@ Para crear un grupo de temas:
 
    * **Nombre**: el nombre es visible para los usuarios que envían solicitudes a esta cola de solicitudes.
    * **Descripción**: la descripción se muestra cuando los usuarios seleccionan el grupo de temas en el proceso de envío de una nueva solicitud.
-   * **Agregar al grupo de temas**: puede agregar el nuevo grupo de temas a un grupo de temas existente o puede agregarlo directamente al proyecto publicado como cola de solicitudes de ayuda.
+   * **Añadir al grupo de temas**: puede añadir el nuevo grupo de temas a uno existente o directamente al proyecto publicado como Cola de solicitudes de ayuda.
 
 1. Haga clic en **Guardar**.\
-   Esto crea un nuevo grupo de temas en la cola de solicitudes. Ahora puede seleccionar categorías adicionales en el primer menú desplegable debajo de una Cola de solicitudes.\
+   Esto crea un nuevo grupo de temas en la cola de solicitudes. Ahora puede seleccionar categorías adicionales en el primer menú desplegable debajo de una cola de solicitudes.\
    Para obtener más información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).

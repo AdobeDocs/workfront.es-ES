@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 90%
+source-wordcount: '516'
+ht-degree: 88%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 90%
 Las reglas de enrutamiento controlan lo que Adobe Workfront hace con los problemas cuando se envían a una cola de solicitudes. Para obtener más información sobre la creación de colas de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Las reglas de enrutamiento envían problemas a usuarios específicos o a funciones de trabajo que estén mejor equipadas para resolver el problema o la solicitud enviados. Las reglas de enrutamiento suelen estar asociadas a temas de colas, que se utilizan para controlar qué regla de enrutamiento se aplicará al problema o la solicitud.
+
+Una vez creadas, las reglas de enrutamiento no se pueden mover de un proyecto a otro.
 
 ## Requisitos de acceso
 
