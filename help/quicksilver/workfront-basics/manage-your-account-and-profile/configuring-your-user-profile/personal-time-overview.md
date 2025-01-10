@@ -7,10 +7,10 @@ description: Es importante indicar en Adobe Workfront cuándo tienen lugar los d
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
@@ -67,6 +67,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 ## Configurar los días libres personales en [!DNL Workfront]
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>Si se encuentra en la experiencia unificada de Adobe, puede acceder a su perfil de Workfront haciendo clic en el menú de cuenta de Adobe (su imagen de perfil) en el área de navegación superior y, a continuación, seleccionando Perfil de Workfront.
+>
+>![perfil de workfront](assets/aue-profile.png)
+
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Días libres]**.
 1. Seleccione la fecha que desee para sus días libres personales.
