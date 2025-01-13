@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 98%
+source-wordcount: '2198'
+ht-degree: 97%
 
 ---
 
@@ -653,7 +653,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 
 ### Uso de filtros anidados
 
-La suscripción a eventos admite el filtrado en campos anidados de eventos mediante la palabra clave `fieldValue.fields`.
+La suscripción a evento admite el filtrado en campos anidados de eventos mediante el uso de nombres de campo anidados. Por ejemplo, para filtrar un mensaje donde `newState.data.customField1 = 'myCustomeFieldValue'`, se puede crear la siguiente suscripción con filtro:
 
 ```
 {
@@ -665,25 +665,11 @@ La suscripción a eventos admite el filtrado en campos anidados de eventos media
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
