@@ -7,10 +7,10 @@ description: Un objeto solucionable es un problema cuya resolución está vincul
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 1%
+source-wordcount: '1771'
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,7 @@ The default status of the issue is controlled by the status of the project or ta
 
 Según la forma en que el administrador de Workfront o del grupo haya configurado las preferencias de problemas a nivel de sistema o de grupo, es posible que pueda gestionar el objeto solucionable durante la conversión de un problema en un proyecto o una tarea.
 
-Existen los siguientes escenarios:
+Se dan los siguientes escenarios:
 
 * Si el administrador de Workfront o del grupo tiene **Mantener el problema original y enlazar su solución a la tarea** y **Mantener el problema original y enlazar su solución al proyecto** seleccionado y la opción **Permitir que esta configuración se cambie durante la conversión** no seleccionada, no podrá cambiar esta configuración cuando esté convirtiendo problemas en tareas o proyectos.\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### Sincronizar estados cuando el objeto de resolución sea un problema {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-Si un problema se vincula manualmente a otro, el estado del segundo problema (objeto de resolución) déclencheur un cambio en el estado del primer problema (objeto solucionable). El estado del primer problema coincide con el estado al que se cambia el segundo problema. Esto se aplica a los estados de problema predeterminados y personalizados.
+Cuando un problema se vincula manualmente a otro, el estado del segundo problema (objeto de resolución) déclencheur un cambio en el estado del primer problema (objeto solucionable). El estado del primer problema coincide con el estado al que se cambia el segundo problema. Esto se aplica a los estados de problema predeterminados y personalizados.
 
 ### Sincronizar estados cuando el objeto de resolución sea una tarea o un proyecto {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 Cuando un problema es el objeto solucionable de una tarea o un proyecto, los cambios en el estado de las tareas y el déclencheur de los proyectos cambian en el estado del problema. Los estados predeterminados se activan de forma diferente a los estados personalizados, en este caso.
+
+Cuando el estado personalizado del proyecto equivale a un estado predeterminado que no déclencheur un cambio en el estado del problema, no déclencheur un cambio en el estado del problema.
 
 * [Sincronizar el estado predeterminado del objeto de resolución con el estado predeterminado del objeto solucionable](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizar el estado personalizado del objeto de resolución con el estado personalizado del objeto solucionable](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

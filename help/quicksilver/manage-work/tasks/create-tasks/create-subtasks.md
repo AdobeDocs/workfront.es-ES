@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Creación de subtareas
-description: En Workfront, las tareas pueden tener relaciones principal-secundario. Las tareas secundarias se denominan subtareas. Puede crear subtareas en la lista de tareas convirtiendo una tarea principal en una subtarea. También puede convertir una subtarea en una tarea principal.
+title: Crear subtareas
+description: En Adobe Workfront, las tareas pueden tener relaciones principal-secundario. Las tareas secundarias se denominan subtareas. Puede crear subtareas en la lista de tareas convirtiendo una tarea principal en una subtarea. También se puede convertir una subtarea en una tarea principal.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 0%
+source-wordcount: '562'
+ht-degree: 85%
 
 ---
 
 # Creación de subtareas
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 01/2025 -->
 
-En Workfront, las tareas pueden tener relaciones principal-secundario. Las tareas secundarias se denominan subtareas. Puede crear subtareas en la lista de tareas convirtiendo una tarea principal en una subtarea. También puede convertir una subtarea en una tarea principal.
+En Adobe Workfront, las tareas pueden tener relaciones principal-secundario. Las tareas secundarias se denominan subtareas. Puede crear subtareas en la lista de tareas convirtiendo una tarea principal en una subtarea. También se puede convertir una subtarea en una tarea principal.
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -41,16 +41,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y Proyectos</p>  </td> 
+   <td> <p>Editar el acceso a Tareas y Proyectos</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de Contribute para el proyecto y la tarea principal con capacidad para Agregar tareas o superior</p> <p>Una vez creada la tarea, recibirá automáticamente permisos de administración.</p>  </td> 
+   <td> <p>Permisos de Aportar para el proyecto y la tarea principal con capacidad para Añadir tareas o superior</p> <p>Una vez creada la tarea, recibirá automáticamente permisos de administración.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,42 +58,46 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Puede crear subtareas desde la lista de tareas o desde la sección de subtareas de tareas.
 
-### Crear subtareas de la lista de tareas {#create-subtasks-from-the-task-list}
+### Crear subtareas desde la lista de tareas {#create-subtasks-from-the-task-list}
 
 1. Vaya al proyecto donde desea crear subtareas.
-1. Haga clic en la sección **Tareas** del panel izquierdo.
-1. (Condicional) Si la tarea que desea convertir en la tarea secundaria no se encuentra ya directamente debajo de la tarea que desea convertir en la principal, arrástrela a la ubicación adecuada en la lista de tareas.
+1. Haga clic en **Tareas** en el panel izquierdo.
+1. (Condicional) Si la tarea que desea convertir en la tarea secundaria no se encuentra ya directamente debajo de la tarea que desea convertir en la principal, arrástrela y suéltela en la ubicación adecuada en la lista de tareas.
 1. Seleccione la tarea que desea convertir en subtarea y realice una de las siguientes acciones:
 
-   * Haga clic en el icono **Sangrar** ![](assets/indent-icon-nwe-33x29.png) para que la tarea seleccionada sea una subtarea de la tarea directamente encima de ella.
+   * Haga clic en el icono **Sangría** ![](assets/indent-icon-nwe-33x29.png) para que la tarea seleccionada sea una subtarea de la tarea que hay directamente encima de ella.
    * Cuando utilice un teclado estándar inglés QWERTY, pulse Option + > (Mac) o Alt + > (Windows) en el teclado. Otros idiomas pueden utilizar los comandos Opción + , (Mac) o Alt + , (Windows) para aplicar sangría.
 
      >[!TIP]
      >
-     >Los métodos abreviados del teclado no funcionan cuando se editan tareas en la edición en línea. En este caso, utilice el icono Sangría ![](assets/cs1.png) para crear subtareas.
+     >Los métodos abreviados del teclado no funcionan cuando se editan tareas en la edición en línea. En este caso, utilice el icono Sangría ![](assets/indent-icon-nwe-33x29.png) para crear subtareas.
 
-   * Arrastre y suelte la tarea sobre la tarea que desee designar como tarea principal.
+   * Arrastre y suelte la tarea sobre la tarea que desea designar como la tarea principal.
 
      >[!NOTE]
      >
-     >Sólo puede aplicar sangría a las tareas cuando la lista de tareas está ordenada por Número de tarea y cuando no hay agrupaciones aplicadas a la lista de tareas.
+     >Solo puede aplicar sangría a las tareas cuando la lista de tareas está ordenada por Número de tarea y cuando no hay agrupaciones aplicadas a la lista de tareas.
 
-### Crear subtareas desde la sección Subtareas {#create-subtasks-from-the-task-subtasks-section}
+### Crear subtareas desde la sección Subtareas de la tarea {#create-subtasks-from-the-task-subtasks-section}
+
+>[!NOTE]
+>
+>Es posible que el administrador del grupo o de Workfront oculte la sección Subtareas de su entorno.
 
 1. Vaya al proyecto donde desea crear subtareas.
-1. Haga clic en la sección **Tareas** del panel izquierdo.
+1. Haga clic en la sección **Tareas** en el panel izquierdo.
 1. Haga clic en el nombre de la tarea donde desea crear una subtarea.
-1. Haga clic en la sección **Subtareas** del panel izquierdo.
-1. Haga clic en **Nueva tarea.**
+1. Haga clic en la sección **Subtareas** del panel izquierdo, si está presente.
+1. Haga clic en **Nueva tarea**
 
    Siga los pasos del siguiente artículo para continuar creando la subtarea: [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Haga clic en **Guardar tarea.**
+1. Haga clic en **Crear tarea.**
 
 ## Hacer de una subtarea una tarea principal
 
 1. Vaya al proyecto donde desea convertir una subtarea en una tarea principal.
-1. Haga clic en la sección **Tareas** del panel izquierdo.
+1. Haga clic en la sección **Tareas** en el panel izquierdo.
 1. Seleccione la subtarea que desea convertir en tarea principal.
 1. Haga clic en el icono **Anular sangría** ![](assets/outdent-icon-nwe-31x29.png) para que la subtarea sea una tarea principal.
 

@@ -4,16 +4,16 @@ description: Puede configurar automatizaciones en Workfront Planning para que, c
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1252'
+ht-degree: 11%
 
 ---
 
 # Creación de objetos mediante automatizaciones de registros de Adobe Workfront Planning
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -23,9 +23,11 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
 Puede configurar automatizaciones en Adobe Workfront Planning que, cuando estén activadas, creen objetos en Workfront o Workfront Planning.
 
-Puede configurar y activar la automatización en la página del registro. El objeto que se crea se conecta al registro de Planning y se coloca en el campo que especifique en la automatización.
+Puede configurar y activar la automatización en la página del registro. El objeto que se crea se conecta al registro de Planning y se coloca en el campo especificado en la automatización.
 
 Por ejemplo, puede crear una automatización que tome una campaña de Workfront Planning y cree un proyecto en Workfront para rastrear el progreso de esa campaña. El proyecto estaría conectado a la campaña de Workfront Planning.
 
@@ -52,7 +54,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -70,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -81,7 +83,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p> 
    <p>Edite el acceso en Workfront para los tipos de objeto que desea crear (proyectos, portafolios, programas). </p>  
 </td> 
@@ -108,8 +110,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Consideraciones sobre la creación de objetos y registros mediante una automatización
 
 * El nuevo nombre de objeto o registro es el mismo que el nombre de registro a partir del cual se crea.
-* Si el registro para el que utiliza la automatización ya tiene objetos del mismo tipo conectados en el campo que seleccione para agregar nuevos objetos, los nuevos objetos se agregarán al campo de conexión y los objetos existentes también permanecerán conectados.
-
+* Si el registro para el que utiliza la automatización ya tiene objetos del mismo tipo conectados en el campo que seleccione para agregar nuevos objetos, los nuevos objetos se agregan al campo de conexión y los objetos existentes también permanecen conectados.
 
 ## Configuración de una automatización en Workfront Planning
 
@@ -124,18 +125,24 @@ Debe configurar una automatización en Workfront Planning para poder utilizarla 
 
    Se abre la lista de automatizaciones disponibles.
 
-1. Haga clic en **Nueva automatización** en la esquina superior derecha de la pantalla.
+1. Haga clic en **Nueva automatización** en la esquina superior derecha de la pantalla. Se abre el cuadro **Nueva automatización**.
 1. Actualice los campos siguientes:
 
-   * **Texto de botón**: escriba el texto que desea que aparezca en el botón de automatización. Los usuarios harán clic en este botón al utilizar la automatización para crear un objeto de Workfront.
-   * **Icono de botón**: seleccione un icono para el botón. Se selecciona un icono de forma predeterminada.
+   * Reemplace **automatización sin título** por el texto que desea que aparezca en el botón de automatización. Los usuarios harán clic en este botón al utilizar la automatización para crear un objeto de Workfront.
+   * **Descripción**: agregue una descripción para identificar el propósito de la automatización.
+
+1. En la página de detalles de la automatización, actualice los campos siguientes en la sección **Déclencheur**:
+
+   * **Déclencheur**: seleccione la acción que almacenará en déclencheur la automatización. Por ejemplo, seleccione **clic en botón**. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. Actualice los campos siguientes en la sección **Acciones**:
    * **Tipo de objeto**: seleccione el objeto que desea que cree la automatización. Este campo es obligatorio.
 
      Puede crear los siguientes objetos a partir de los registros de Workfront Planning:
 
       * Proyecto
       * Portafolio
-      * Programar
+      * Programa
       * Grupo
       * Registro
 1. (Condicional) Según el tipo de objeto que desee crear, actualice los campos siguientes:
@@ -160,10 +167,17 @@ Debe configurar una automatización en Workfront Planning para poder utilizarla 
       * **Campo de asignación**: seleccione campos del tipo de registro para el que se creó la automatización para asignarlos a los campos del tipo de registro conectado.
       * **Para el campo de registro conectado**: seleccione los campos del registro conectado que corresponderán a los campos del tipo de registro para el que cree la automatización.
 1. (Opcional y condicional) Si no tiene un campo de conexión para un tipo de objeto de Workfront, haga clic en el icono **Crear un campo de conexión** ![](assets/create-a-connection-field-icon.png) para agregar un campo.
-1. (Opcional y condicional) Si seleccionó agregar un registro, haga clic en **Agregar** en el área de **Asignar campos conectados** para agregar y asignar campos adicionales.
-1. Haga clic en **Crear**
+1. (Opcional y condicional) Si seleccionó agregar un registro, haga clic en **Agregar** en el área de **Asignar campos** para agregar y asignar campos adicionales y, a continuación, seleccione un campo en **Transferir de** y un campo en **Transferir a** para indicar qué campo del registro seleccionado originalmente debe mostrarse en qué campo del registro conectado.
+1. Haga clic en **Guardar**.
 
-La automatización aparece en la lista de automatizaciones y está disponible para su uso en registros.
+   La automatización aparece en la lista de automatizaciones y está disponible para su uso en registros.
+1. (Opcional) Para editar, deshabilitar o eliminar una automatización, haga lo siguiente:
+
+   En la lista de automatizaciones, pase el ratón sobre el nombre de una automatización guardada, haga clic en el menú **Más** ![](assets/more-menu.png) y, a continuación, elija una de las siguientes opciones:
+
+   * **Editar**: actualice la información y configure los campos en la automatización.
+   * **Deshabilitar**: la automatización no se mostrará como una opción en la barra de herramientas de la vista de tabla de los registros y los usuarios ya no podrán utilizarla para crear registros u objetos. Para que vuelva a estar disponible, vuelva a hacer clic en el menú **Más** ![](assets/more-menu.png) y, a continuación, haga clic en **Activar**.
+   * **Eliminar**: la automatización se ha eliminado y no se puede recuperar. Los registros que se han creado con la automatización permanecen conectados al registro seleccionado originalmente.
 
 ## Utilice una automatización de Workfront Planning para crear un objeto
 

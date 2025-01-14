@@ -6,10 +6,10 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
-ht-degree: 0%
+source-wordcount: '3104'
+ht-degree: 17%
 
 ---
 
@@ -65,9 +65,9 @@ Para obtener información adicional sobre cómo comentar tarjetas, objetivos y r
 
 * [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 
-* [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+* [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-* [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md)
+* [Administrar comentarios de registros](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## Requisitos de acceso
 
@@ -82,13 +82,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
    <td> 
-   <p>Actual: Solicitud o superior para problemas y documentos; Revisar o superior para todos los demás objetos</p>
+   <p>Actual: Solicitud o superior para problemas y documentos; revisión o superior para todos los demás objetos</p>
    <p>Nuevo: Colaborador o superior para problemas y documentos: Ligero o superior para todos los demás objetos</p> 
    </td> 
   </tr> 
@@ -98,7 +98,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver acceso al objeto</p></td> 
+   <td> <p>Acceso de visualización al objeto</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,10 +123,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
   >[!TIP]
   >
-  >Los propietarios de los comentarios se etiquetan automáticamente. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+  >Los propietarios de los comentarios se etiquetan automáticamente. Para obtener más información, consulte [Etiquetar a los usuarios en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 
-* Puede agregar un comentario a un objeto que pueda ver, o bien puede iniciar sesión como Workfront o administrador de grupo y agregar un comentario en nombre de otro usuario. Para obtener más información, vea [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* Puede agregar un comentario a un objeto que pueda ver, o bien puede iniciar sesión como Workfront o administrador de grupo y agregar un comentario en nombre de otro usuario. Para obtener más información, consulte [Iniciar sesión como otro usuario](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 * Puede agregar una actualización a proyectos, tareas y problemas desde las siguientes áreas de Workfront:
 
@@ -143,8 +143,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      Para obtener más información, consulte los siguientes artículos:
 
-      * [Resumen, descripción general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [Actualizar los elementos de trabajo en el Distribuidor de cargas de trabajo mediante el Resumen](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+      * [Información general sobre el resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [Actualizar los elementos de trabajo en el distribuidor de cargas de trabajo mediante el resumen](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -250,18 +250,18 @@ La ficha **Comentarios** está seleccionada de forma predeterminada.
 
    >[!TIP]
    >
-   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Todas las imágenes que se agreguen al comentario también se guardarán en el borrador. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios redactados solo son visibles para el usuario que los escribe.
+   >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Todas las imágenes que se añadan al comentario también se guardarán en el borrador. Los borradores se guardan durante 7 días, tras los cuales se descartan y no pueden recuperarse. Los comentarios redactados solo son visibles para el usuario que los escribe.
 
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
    * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
    * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
 
 1. (Opcional) En el área **Etiquetar personas o equipos**, empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
-1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la sección [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) en este artículo.
+1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, añadir emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la sección [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) en este artículo.
 
    >[!TIP]
    >
-   >Si otro usuario envía un comentario al mismo elemento que está actualizando, existe una línea roja con un indicador &quot;Nuevo&quot; para informarle de los comentarios más recientes.
+   >Si otro usuario envía un comentario al mismo elemento que usted está actualizando, aparece una línea roja con el indicador “Nuevo” para informarle de los comentarios más recientes.
    >
    >El indicador solo se muestra después de que se haya enviado el comentario sobre el elemento y no cuando el comentario aún está compuesto.
    >
@@ -273,19 +273,19 @@ La ficha **Comentarios** está seleccionada de forma predeterminada.
 
    >[!IMPORTANT]
    >
-   >Solo puede editar su comentario en los 15 minutos siguientes al envío.
+   >Solo podrá editar un comentario en los 15 minutos posteriores a su envío.
 
 1. Edite la información del comentario, añada o elimine imágenes, o bien elimine cualquiera de los usuarios etiquetados. Se agrega un indicador &quot;Editado&quot; a la izquierda de la marca de fecha que se muestra cuando se introdujo el comentario.
 
    >[!TIP]
    >
-   >Los comentarios del año actual no muestran el año en el sello de fecha. Al pasar el ratón por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
+   >Los comentarios del año actual no muestran el año en el sello de fecha. Al pasar el puntero por encima de una marca de tiempo, se muestra la fecha completa, incluido el año.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >* Se genera un correo electrónico para notificar a los usuarios de su actualización solo cuando envía la actualización original. No se genera ningún correo electrónico después de editar la actualización.
+   >* Se genera un correo electrónico para notificar a los usuarios de su actualización solo cuando se envía la actualización original. No se genera ningún correo electrónico después de editar la actualización.
    >* La marca de fecha que aparece junto al comentario es la fecha del comentario original, no la fecha de la última edición.
    >* Cuando agrega un comentario en nombre de otro usuario (cuando inicia sesión como otro usuario como Workfront o administrador de grupo), no puede editar el comentario si ha iniciado sesión como el otro usuario. Solo puede editar el comentario después de cerrar la sesión como usuario y volver a iniciarla como usuario.
 
@@ -307,9 +307,9 @@ La ficha **Comentarios** está seleccionada de forma predeterminada.
    >Los nombres de las dos primeras entidades etiquetadas se muestran junto a sus avatares. Si se etiquetan más de dos entidades, solo se mostrará el nombre de la primera y el número de entidades adicionales.
 
 1. (Opcional) Haga clic en el nombre de un comentarista para ver su nombre, función y dirección de correo electrónico en un cuadro de información. Vuelva a hacer clic en el nombre del comentarista en el cuadro de información para abrir su perfil de usuario.
-1. (Opcional) Haga clic en la ficha **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza el objeto o cualquiera de sus elementos secundarios, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema.
+1. (Opcional) Haga clic en la pestaña **Actividad del sistema** para ver las actualizaciones registradas por el sistema. Cuando se actualiza el objeto o cualquiera de sus elementos secundarios, Workfront genera una nota sobre esa actualización y la muestra en la pestaña Actividad del sistema.
 
-   Para obtener más información, consulte [Información general sobre la sección de actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   Para más información, consulte [Información general de la sección de actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
@@ -319,7 +319,7 @@ La ficha **Comentarios** está seleccionada de forma predeterminada.
 
    >[!TIP]
    >
-   >No puede responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario en la ficha Todos, haga clic en **Responder en Comentarios** para abrir el comentario en la ficha Comentarios.
+   >No es posible responder a comentarios ni etiquetar a otros usuarios en comentarios existentes en la pestaña Todos. Para responder a un comentario en la ficha Todos, haga clic en **Responder en Comentarios** para abrir el comentario en la ficha Comentarios.
 
 ## Utilizar texto enriquecido en un comentario de Workfront{#use-rich-text-in-a-workfront-comment}
 
@@ -382,16 +382,26 @@ Puede mejorar los comentarios mediante Texto enriquecido o agregándole varios e
    1. En **Texto para mostrar**, escriba o pegue el texto del vínculo.
    1. Haga clic en **Guardar**.
 
-1. (Opcional) Para adjuntar una imagen a la actualización, realice una de las siguientes acciones:
+1. (Opcional) Adjunte una imagen a una actualización.
+
+   >[!WARNING]
+   >
+   >No se puede adjuntar una imagen al área de actualizaciones de los siguientes objetos:
+   >
+   >* Metas
+   >* Tarjetas ad hoc en tableros
+   >* Registros en Workfront Planning. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   Para adjuntar una imagen a la actualización, realice una de las siguientes acciones:
 
    * Guarde la imagen en el equipo y arrástrela y suéltela en el área Nuevo comentario.
    * Copie una captura de pantalla del equipo y péguela en el comentario.
    * Haga clic en el icono **Agregar imagen** ![](assets/add-image-mountain-with-plus-icon.png) y busque la imagen en su equipo.
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**IMPORTANTE**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -428,7 +438,7 @@ Puede buscar un comentario o una respuesta en la sección Actualizaciones de un 
 
    ![Buscar en actualizaciones](assets/updates-all-tabs-with-search-field.png)
 
-   La palabra clave <!--or user--> que buscó se resalta y los comentarios que la contienen se muestran en la parte superior de la sección Actualizaciones.
+   La palabra clave <!--or user--> que ha buscado queda resaltada y los comentarios que la contienen se muestran en la parte superior de la sección Actualizaciones.
 
    Workfront busca en todo el flujo de actualización del objeto, fuera de los comentarios visibles en la pantalla.
 
@@ -598,7 +608,7 @@ La sección Actualizaciones de un objeto de Workfront muestra dos tipos de infor
    * Equipo
    * Plantilla
    * Tarea de plantilla
-   * Tarjeta ad hoc
+   * Tarjeta ad hoc en un tablero
 
 Para obtener más información sobre las actualizaciones de usuarios y sistemas y cómo se muestran en la sección Actualizaciones de los objetos de Workfront, consulte [Información general de la sección Actualizaciones](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

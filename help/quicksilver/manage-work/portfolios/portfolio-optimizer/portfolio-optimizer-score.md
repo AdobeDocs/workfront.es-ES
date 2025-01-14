@@ -2,19 +2,21 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Descripción general de la puntuación de Portfolio Optimizer
+title: Información general de la puntuación del Optimizador de portafolios
 description: Puede encontrar la puntuación de Portfolio Optimizer en Portfolio Optimizer. Se muestra en la columna [!UICONTROL Puntuación] para cada proyecto. Esto representa una puntuación para cada proyecto del portafolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 # Información general sobre la puntuación de [!UICONTROL Portfolio Optimizer]
+
+<!--Audited: 01/2025-->
 
 Puede encontrar la puntuación de [!UICONTROL Portfolio Optimizer] en [!UICONTROL Portfolio Optimizer]. Se muestra en la columna **[!UICONTROL Puntuación]** para cada proyecto. Esto representa una puntuación para cada proyecto del portafolio.
 
@@ -24,9 +26,10 @@ Para obtener información sobre cómo [!DNL Adobe Workfront] usa la puntuación 
 
 ## Diferencia entre la [!UICONTROL puntuación de alineación] y la [!UICONTROL puntuación del Portfolio Optimizer]
 
-Hay una diferencia entre la puntuación de alineación y la puntuación del optimizador de portafolio de un proyecto.
+Hay una diferencia entre la puntuación de alineación y la puntuación del Optimizador de portafolios de un proyecto.
 
-La puntuación de alineación de un proyecto se calcula según los puntos obtenidos tras completar el cuadro de resultados. A continuación, esta puntuación se utiliza para determinar la puntuación de alineación del portafolio. La puntuación de alineación se muestra como un porcentaje.\
+La puntuación de alineación de un proyecto se calcula según los puntos obtenidos tras completar el cuadro de resultados. A continuación, esta puntuación se utiliza para determinar la puntuación de alineación del portafolios. La puntuación de alineación se muestra como un porcentaje.
+
 La puntuación de alineación de un proyecto se muestra en la columna **[!UICONTROL Alignment]** de [!UICONTROL Portfolio Optimizer] o en el campo [!UICONTROL Alignment] de [!UICONTROL Business Case Summary].
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -45,7 +48,7 @@ La puntuación de [!UICONTROL optimizador de portafolios] es una clasificación 
 
 La puntuación de cada proyecto se calcula según la importancia de las siguientes categorías:
 
-* [!UICONTROL Costo]
+* [!UICONTROL Coste]
 * [!UICONTROL Alineación]
 * [!UICONTROL Valor neto]
 * [!UICONTROL Riesgo de beneficio]
@@ -68,11 +71,17 @@ Para averiguar la clasificación de un proyecto, haga lo siguiente:
 
 El algoritmo para calcular las puntuaciones tiene en cuenta los valores descritos en los casos comerciales de los proyectos y las ponderaciones que llevan. Otorga a cada proyecto del optimizador una puntuación y normaliza esa puntuación para que siempre haya un proyecto con una puntuación de 100. Esto otorga una puntuación alta al mejor proyecto.
 
-**Ejemplo:** Por ejemplo, si hace que [!UICONTROL la alineación más alta] sea el único factor a considerar, el proyecto con la alineación más alta obtiene la puntuación de 100.
+>[!BEGINSHADEBOX]
+
+**EJEMPLO**
+
+Por ejemplo, si hace que [!UICONTROL mayor alineación] sea el único factor a considerar, el proyecto con la alineación más alta obtiene la puntuación de 100.
+
+>[!ENDSHADEBOX]
 
 Los siguientes son criterios por los que puede puntuar un proyecto:
 
-* [!UICONTROL Costo]
+* [!UICONTROL Coste]
 * [!UICONTROL Alineación]
 * [!UICONTROL Valor]
 * [!UICONTROL Riesgo de beneficio]

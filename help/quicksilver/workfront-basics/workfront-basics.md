@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Conceptos básicos de Adobe Workfront
-description: Revise estas áreas para comprender los conceptos básicos de Adobe Workfront.
+title: 'Conceptos básicos de Adobe Workfront: índice de artículos'
+description: Revise estas áreas para comprender los conceptos básicos de Adobe Workfront y aprender a realizar funciones básicas, como usar el área de Inicio o Prioridades, administrar el perfil de su cuenta, utilizar el asistente de IA o comprender cuáles son los requisitos del explorador y los idiomas compatibles. Consulte el glosario de Workfront para conocer la terminología común de Workfront.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 15%
+source-wordcount: '192'
+ht-degree: 4%
 
 ---
 
-# Conceptos básicos de Adobe Workfront
+# Conceptos básicos de Adobe Workfront: índice de artículos
+
+<!--Audited: 01/2025-->
+
+Revise estas áreas para comprender los conceptos básicos de Adobe Workfront y aprender a realizar funciones básicas, como usar el área de Inicio o Prioridades, administrar el perfil de su cuenta, utilizar el asistente de IA o comprender cuáles son los requisitos del explorador y los idiomas compatibles. Consulte el glosario de Workfront para conocer la terminología común de Workfront.
 
 Esta sección contiene las siguientes subsecciones:
 
@@ -29,6 +33,6 @@ Esta sección contiene las siguientes subsecciones:
 * [Usar notificaciones: índice de artículos](../workfront-basics/using-notifications/use-notifications.md)
 * [Conceder y solicitar permisos para objetos](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [Administrar tu cuenta y perfil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-* [Aplicaciones Móviles](../workfront-basics/mobile-apps/mobile-apps.md)
+* [Aplicaciones móviles](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Asistente de IA en Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Sugerencias, trucos y solución de problemas para conceptos básicos de Adobe Workfront](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

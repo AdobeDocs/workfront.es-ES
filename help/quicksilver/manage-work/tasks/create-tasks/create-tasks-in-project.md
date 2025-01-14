@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: create-tasks
 title: Creación de tareas en un proyecto
-description: Sólo puede crear tareas en un proyecto una vez creado el proyecto.
+description: Solo puede crear tareas en un proyecto una vez creado el proyecto.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 1%
+ht-degree: 68%
 
 ---
 
@@ -26,7 +26,7 @@ Puede crear tareas en Adobe Workfront de las siguientes maneras:
 
 * Crear tareas agregando una plantilla a un proyecto.
 
-  Para obtener información, vea [Adjuntar una plantilla a un proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  Para obtener información, consulte [Adjuntar una plantilla a un proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 * Cree tareas personales y muévalas a un proyecto.
 
@@ -44,7 +44,7 @@ Este artículo describe cómo crear tareas desde cero y cómo mover tareas perso
 También puede crear tareas de las siguientes maneras:
 
 * Copiando o duplicando tareas existentes. Para obtener más información, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Al mover tareas de un proyecto a otro. Para obtener más información, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Moviendo tareas de un proyecto a otro. Para obtener más información, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Requisitos de acceso
 
@@ -55,7 +55,7 @@ También puede crear tareas de las siguientes maneras:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -66,11 +66,11 @@ También puede crear tareas de las siguientes maneras:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Tareas y Proyectos</p></td> 
+   <td> <p>Editar el acceso a Tareas y Proyectos</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de Contribute para el proyecto con capacidad para Agregar tareas o superior</p> <p>Al crear una tarea, recibe automáticamente permisos de administración para la tarea</p> <p> Para obtener información acerca de los permisos de tareas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartir una tarea </a>. </p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de aportación para el proyecto con capacidad para Añadir tareas o superior</p> <p>Al crear una tarea, recibe automáticamente permisos de administración para dicha tarea</p> <p> Para obtener información acerca de los permisos de tareas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartir una tarea </a>. </p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. (Condicional) Si está viendo la lista de tareas en una vista Agile, haga clic en el icono **Vista de lista** ![](assets/list-view-in-agile-view-for-tasks.png) en la esquina superior derecha para mostrar la lista de tareas.
 1. (Opcional) Haga clic en el icono **Modo de planificación** ![](assets/nwe-plan-mode-icon-task-list.png) y seleccione **Guardar de forma manual**; a continuación, seleccione **Estándar** o **Planificación de la cronología**. Esto deshabilita la opción **Guardar automáticamente**, que está habilitada de manera predeterminada.
 
-   ![Seleccionar Guardar de forma manual](assets/manual-save-option.png)
+   ![Seleccione Guardar de forma manual](assets/manual-save-option.png)
 
    >[!TIP]
    >
@@ -130,44 +130,44 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
         Para obtener información sobre cómo definir todos los campos relacionados con tareas en una tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   1. (Condicional y opcional) Si desea que la tarea sea periódica, actualice el campo **Frecuencia de periodicidad**. Para obtener más información acerca de la creación de tareas recurrentes, vea [Crear tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+   1. (Condicional y opcional) Si desea que la tarea sea recurrente, actualice el campo **Frecuencia de periodicidad**. Para obtener más información sobre la creación de tareas recurrentes, consulte [Crear tareas recurrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Opcional) Haga clic en **Documentos** en el panel izquierdo para adjuntar un documento a la nueva tarea y, a continuación, haga clic en **Agregar o vincular archivos** para agregar un documento a la tarea desde el equipo, otro servicio o para vincular documentos y carpetas desde el equipo u otro servicio.
 
-1. (Condicional) Si hizo clic en **Agregar más tareas** en el paso 5, empiece a escribir la información de la tarea mediante la edición en línea y, a continuación, presione Entrar.
+1. (Condicional) Si ha hecho clic en **Agregar más tareas** en el paso 5, empiece a introducir la información de la tarea mediante la edición en línea y, a continuación, pulse Intro.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this stays accurate)</p>
    -->
 
-   Se recomienda utilizar esta opción, especialmente cuando se añaden varias tareas a la lista.
+   Se recomienda utilizar esta opción, especialmente cuando se agregan varias tareas a la lista.
 
    ![](assets/add-more-tasks-inline.png)
 
 1. (Condicional) Realice una de las siguientes acciones:
 
-   * Si hizo clic en **Nueva tarea** en el paso 5, haga clic en **Crear tarea** para guardar los cambios y agregar la nueva tarea al proyecto.
+   * Si ha hecho clic en **Nueva tarea** en el paso 5, haga clic en **Crear tarea** para guardar los cambios y agregar la nueva tarea al proyecto.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
-   * Si hizo clic en **Agregar más tareas** en el paso 5, haga lo siguiente:
+   * Si ha hecho clic en **Agregar más tareas** en el paso 5, haga lo siguiente:
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 
       1. Haga clic en cualquier lugar del explorador para enviar los cambios o pulse Intro.
-      1. (Opcional) En la lista de tareas, seleccione la tarea recién creada y luego haga clic en **Sangría**.
+      1. (Opcional) En la lista de tareas, seleccione la tarea recién creada y, a continuación, haga clic en **Agregar sangría**.
 
          Esto hace que la nueva tarea sea secundaria o subtarea de la tarea anterior.
 
-         Para obtener más información acerca de tareas secundarias, vea [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Para obtener más información sobre tareas secundarias, consulte [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-      1. (Condicional) Si deshabilitó la opción **Guardar automáticamente** después de presionar **Agregar más tareas**, puede hacer lo siguiente:
+      1. (Condicional) Si ha deshabilitado la opción **Autoguardar** después de pulsar **Agregar más tareas**, puede hacer lo siguiente:
 
-         * Haz clic en **Deshacer** en cualquier momento para revertir el último cambio o en **Cancelar** para revertir todos los cambios que hiciste en la lista de tareas.
-         * Si anteriormente hizo clic en **Deshacer**, haga clic en **Rehacer** para volver a aplicar el último cambio que canceló.
+         * Haga clic en **Deshacer** en cualquier momento para revertir el último cambio o en **Cancelar** para revertir todos los cambios que se hayan realizado en la lista de tareas.
+         * Si anteriormente ha hecho clic en **Deshacer**, haga clic en **Rehacer** para volver a aplicar el último cambio cancelado.
          * Haga clic en **Guardar** para guardar los cambios en la lista de tareas.
 
 ## Crear tareas moviendo una tarea personal a un proyecto

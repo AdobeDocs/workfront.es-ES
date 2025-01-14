@@ -1,30 +1,30 @@
 ---
 title: Administrar comentarios de registro
-description: Puede colaborar en registros de Adobe Workfront Planning agregando comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+description: Puede colaborar en registros de Adobe Workfront Planning añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 73%
 
 ---
 
-# Administrar comentarios de registro
+# Administrar comentarios de registros
 
 {{planning-important-intro}}
 
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
 
-Puede colaborar en registros de Adobe Workfront Planning agregando comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+Puede colaborar en registros de Adobe Workfront Planning añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 
 El panel derecho de un registro muestra las siguientes secciones:
 
-* **Comentarios**: Muestra comentarios y respuestas que los usuarios agregan a los registros.
-* **Historial**: muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro. Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).
+* **Comentarios**: muestra comentarios y respuestas que los usuarios añaden a los registros.
+* **Historial**: muestra los cambios registrados por el sistema que los usuarios realizan en los campos del registro. Para obtener más información, consulte [Información general sobre la sección Historial](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Requisitos de acceso
 
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -76,13 +76,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Ver permisos superiores a un espacio de trabajo</a> </p>  
+   <td>   <p>Permisos de vista o superiores a un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
 <tr> 
@@ -98,29 +98,29 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones acerca de los comentarios en un registro
 
-* Puede agregar comentarios y respuestas a registros en Workfront Planning, en la sección Comentarios de un registro.
+* Puede añadir comentarios y respuestas a registros en Workfront Planning, en la sección Comentarios de un registro.
 
-* Los comentarios agregados a los registros vinculados no se muestran en los registros desde los que está vinculando. Por ejemplo, si comenta un registro de producto de Workfront Planning vinculado a un registro de campaña, el comentario solo se muestra en el registro de producto de Workfront Planning y no en el registro de campaña desde el que está vinculando.
+* Los comentarios añadidos a los registros vinculados no se muestran en los registros desde los que está vinculando. Por ejemplo, si comenta un registro de producto de Workfront Planning vinculado a un registro de campaña, el comentario solo se muestra en el registro de producto de Workfront Planning y no en el registro de campaña desde el que está vinculando.
 
-* Puede agregar comentarios a los registros de Workfront Planning creados como resultado de una conexión entre un registro y un objeto de otra aplicación.
+* Puede añadir comentarios a los registros de Workfront Planning creados como resultado de una conexión entre un registro y un objeto de otra aplicación.
 
   Por ejemplo, puede realizar comentarios en el registro de Project Workfront Planning después de conectar proyectos de Workfront con registros de Workfront Planning. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
-* Los comentarios agregados a objetos vinculados en otras aplicaciones no se muestran en Workfront Planning y los comentarios agregados a objetos vinculados en Workfront Planning no se muestran en otras aplicaciones.
+* Los comentarios añadidos a objetos vinculados en otras aplicaciones no se muestran en Workfront Planning y los comentarios añadidos a objetos vinculados en Workfront Planning no se muestran en otras aplicaciones.
 
-  Por ejemplo, los comentarios agregados a proyectos en Workfront no se muestran en el mismo proyecto vinculado a una campaña en Workfront Planning y los comentarios agregados al proyecto en el registro de Workfront Planning no se muestran en Workfront.
+  Por ejemplo, los comentarios añadidos a proyectos en Workfront no se muestran en el mismo proyecto vinculado a una campaña en Workfront Planning y los comentarios añadidos al proyecto en el registro de Workfront Planning no se muestran en Workfront.
 
-* Puede etiquetar a los usuarios para que presten atención a una actualización. Los usuarios etiquetados no reciben una notificación dentro de la aplicación ni un correo electrónico sobre su actualización. <!--this might change??-->
+* Puede etiquetar a los usuarios para llamar su atención sobre una actualización. Los usuarios etiquetados no reciben una notificación dentro de la aplicación ni un correo electrónico sobre su actualización. <!--this might change??-->
 
-* Puede etiquetar a los usuarios para que presten atención a una actualización. Los usuarios etiquetados reciben una notificación en la aplicación o una notificación por correo electrónico sobre su actualización.
+* Puede etiquetar a los usuarios para llamar su atención sobre una actualización. Los usuarios etiquetados reciben una notificación en la aplicación o una notificación por correo electrónico sobre su actualización.
 
   >[!NOTE]
   >
   >   Solo los usuarios de clientes que hayan incorporado con la experiencia unificada de Adobe reciben una notificación dentro de la aplicación y una notificación por correo electrónico. Para determinar si su empresa utiliza la experiencia unificada de Adobe, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-* Puede agregar una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de Workfront Planning:
+* Puede añadir una actualización a los registros y revisar el historial de cambios desde las siguientes áreas de Workfront Planning:
 
-   * Desde la página de detalles del registro.
+   * Desdes la página de detalles del registro.
    * Desde una vista, en el cuadro de detalles del registro.
 
 ### Administración de comentarios en registros
@@ -147,14 +147,14 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 
    >[!TIP]
    >
-   >Si sale de la sección Comentarios antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Todas las imágenes que se agreguen al comentario también se guardarán en el borrador. Los borradores se guardan durante 7 días después de los cuales se descartan y no se pueden recuperar. Los comentarios redactados solo son visibles para el usuario que los escribe.
+   >Si sale de la sección Comentarios antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
    * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
    * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
 1. (Opcional y condicional) Si la instancia de Workfront forma parte de la experiencia unificada de Adobe, agregue **@** seguido del nombre de un usuario para etiquetar a alguien en la actualización. Para obtener más información, vea la sección [Consideraciones acerca de comentar un registro](#considerations-about-commenting-on-a-record) en este artículo.
 
-1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes a la actualización para mejorar el contenido.
+1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis o vínculos a la actualización con el fin de mejorar el contenido.
 
 1. Continúe agregando comentarios al registro.
 
@@ -211,4 +211,4 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 
 Puede revisar los cambios realizados en el registro en la sección Historial del panel derecho de un registro.
 
-Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).
+Para obtener más información, consulte [Información general sobre la sección Historial](/help/quicksilver/planning/records/history-section-overview.md).

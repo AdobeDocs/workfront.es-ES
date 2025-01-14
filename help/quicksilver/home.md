@@ -1,18 +1,18 @@
 ---
-title: '[!DNL Adobe Workfront] documentación'
-description: Documentación de  [!DNL Adobe Workfront].
+title: Documentación de [!DNL Adobe Workfront]
+description: Documentación sobre  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 1%
+source-wordcount: '373'
+ht-degree: 92%
 
 ---
 
 # Documentación de [!DNL Workfront]
 
-Le damos la bienvenida a la página de inicio y a la documentación técnica de Adobe Workfront. Utilice los siguientes vínculos de Adobe Workfront, artículos de ayuda y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
+Le damos la bienvenida a la página de inicio y a la documentación técnica de Adobe Workfront. Utilice los siguientes enlaces, artículos de ayuda y recursos adicionales de Adobe Workfront para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 
 ## Novedades
 
@@ -21,8 +21,8 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 >[!TAB Última versión]
 
 * [Información general sobre la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-* [Resumen de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Información general de la versión del cuatro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+* [Actividad en la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 * [Actividad de la versión del primer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 >[!TAB Versiones de 2025]
@@ -36,11 +36,11 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 * [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [Información general sobre la versión del segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Información general sobre la versión del tercer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
-* [Resumen de la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Actividad de la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Información general de la versión del cuatro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+* [Actividad en la versión de Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 * [Actividad de la versión del cuarto trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
->[!TAB Beta]
+>[!TAB Versiones beta]
 
 * [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 
@@ -70,9 +70,9 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
  </td>
     <td>
         <ul>
-        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Introducción a Workfront</a></li>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Conceptos básicos de Adobe Workfront: índice de artículos</a></li>
         <li><a href="/help/quicksilver/manage-work/manage-work.md">Introducción a la administración del trabajo</a></li>
-        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Introducción a Informes y paneles</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Introducción a informes y paneles de control</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Introducción al modo de texto</a></li>
         </ul>
     </td>
@@ -80,7 +80,7 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
         <li><a href="/help/quicksilver/agile/agile-overview.md">Introducción a Agile</a></li>
         <li><a href="/help/quicksilver/documents/documents-overview.md">Introducción a los documentos</a></li>
         <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Introducción al Distribuidor de cargas de trabajo</a></li>
-        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">Introducción a la revisión y aprobación</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">Introducción a las revisiones y aprobaciones</a></li>
         </ul></td>
     <td><ul>
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">Conceptos básicos de API</a></li>
@@ -94,18 +94,18 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 La búsqueda de documentación puede ser más eficaz con algunos enfoques estratégicos. A continuación se ofrecen algunos consejos para ayudarle a encontrar lo que necesita de forma eficaz:
 
-### Utilice la tabla de contenido y la barra de búsqueda
+### Utilizar la tabla de contenido y la barra de búsqueda
 
-* **Tabla de contenido**: Comience con la tabla de contenido para obtener una descripción general de los temas disponibles y reduzca a temas específicos mediante las secciones en expansión.
-* **Barra de búsqueda**: Utilice la barra de búsqueda para encontrar la documentación. Introduzca términos específicos relacionados con su problema o tema. En lugar de términos generales como &quot;administración de proyectos&quot;, utilice &quot;configuración de la cronología del proyecto&quot; o &quot;dependencias de tareas&quot;.
+* **Tabla de contenido**: comience con la tabla de contenido para obtener información general sobre los temas disponibles y vaya centrándose en temas más específicos a través de las secciones en ampliación.
+* **Barra de búsqueda**: utilice la barra de búsqueda para encontrar la documentación. Introduzca términos específicos relacionados con su problema o tema. En lugar de términos generales como &quot;administración de proyectos&quot;, utilice &quot;configuración de la cronología del proyecto&quot; o &quot;dependencias de tareas&quot;.
 
 ![](assets/exl-site-nav.png)
 
-### Explorar secciones de aprendizaje y formación
+### Exploración de las secciones de aprendizaje y formación
 
-* **Materiales de formación**: Vaya a la página [Formación de Workfront](https://experienceleague.adobe.com/en/browse/workfront) para ver una biblioteca de vídeos y artículos de formación diseñados para ayudarle a comprender mejor las características y la configuración de Workfront. También puede acceder a materiales de capacitación pagados en [learning.adobe.com](https://learning.adobe.com/).
+* **Materiales de formación**: vaya a la página [Formación de Workfront](https://experienceleague.adobe.com/en/browse/workfront) para consultar la biblioteca de vídeos y artículos de formación diseñados para ayudarle a comprender mejor las características y la configuración de Workfront. También puede acceder a materiales de aprendizaje de pago en [learning.adobe.com](https://learning.adobe.com/).
 * **Cursos**: encuentre [cursos de aprendizaje estructurados](https://experienceleague.adobe.com/home?Solution=Workfront#courses) que le guíen a través del uso de varias características de Workfront en una secuencia lógica.
 
-### Encuentre respuestas en los foros de la comunidad
+### Encontrar respuestas en los foros de la comunidad
 
-* **Formular preguntas**: si la documentación no responde a tu pregunta, prueba a publicar en [foros de la comunidad de Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) donde otros usuarios y expertos pueden ofrecer ayuda.
+* **Formulación de preguntas**: si la documentación no responde a su pregunta, pruebe a publicar en los [foros de la comunidad de Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en), donde otros usuarios y expertos pueden ofrecerle ayuda.

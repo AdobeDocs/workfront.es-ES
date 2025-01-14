@@ -1,20 +1,20 @@
 ---
 filename: wf-kb
-title: base de conocimiento de Workfront
+title: Base de conocimiento de Workfront
 recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 87%
 
 ---
 
 
-# base de conocimiento de Workfront
+# Base de conocimiento de Workfront
 
-* [Administración y configuración](administration-and-setup/administration-and-setup.md)
-* [Conceptos básicos de Adobe Workfront](workfront-basics/workfront-basics.md)
+* Administración y configuración de [](administration-and-setup/administration-and-setup.md)
+* [Conceptos básicos de Adobe Workfront: índice de artículos](workfront-basics/workfront-basics.md)
 * [Personas, equipos y grupos](people-teams-and-groups/people-teams-and-groups.md)
 * [Administrar recursos](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)
@@ -28,7 +28,7 @@ ht-degree: 13%
   -->
 
 * [Plantillas de horas: índice de artículos](timesheets/timesheets-all.md)
-* [integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
+* [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Revisión de Workfront](workfront-proof/workfront-proof.md)
 * [Anuncios de productos](product-announcements/product-announcements.md)
