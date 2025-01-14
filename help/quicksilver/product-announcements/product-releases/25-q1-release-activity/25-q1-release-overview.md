@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2570'
 ht-degree: 39%
 
 ---
@@ -455,6 +455,30 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tr>
+        <td>
+            <p><span class="bold">Función</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Fechas de lanzamiento</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Actualización del Visor de corrección de escritorio</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Hemos actualizado Desktop Viewer con la última versión de Electron 33.3.0 que utiliza Chromium 130.0.6723.152. </p>
+            <p>Última versión: 2.1.44 </p>
+        </td>
+        <td>
+            <p><b>Disponible en estas fechas:</b></p>
+            <ul>
+                <li>Versión de vista previa: miércoles, 02 de enero de 2024</li>
+                <li><span class="preview">Versión de producción para todos los clientes: 9 de enero de 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><span class="bold">Función</span></p>
