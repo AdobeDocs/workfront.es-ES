@@ -6,16 +6,16 @@ description: Puede compartir el Distribuidor de cargas de trabajo con otros usua
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 1%
+source-wordcount: '695'
+ht-degree: 14%
 
 ---
 
 # Uso compartido del Distribuidor de cargas de trabajo con un vínculo
 
-Puede compartir el Distribuidor de cargas de trabajo con otros usuarios que podrían no tener el área de Recursos disponible. Para obtener información acerca del uso del Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Puede compartir el Distribuidor de cargas de trabajo con otros usuarios que podrían no tener el área de Recursos disponible en el menú principal. Para obtener información acerca del uso del Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Requisitos de acceso
 
@@ -28,7 +28,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Vea o acceda a lo siguiente:</p> 
+   <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
     <ul> 
      <li>Administración de recursos</li> 
      <li>Proyectos</li> 
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +108,7 @@ Necesita el siguiente acceso para ver información en el Distribuidor de cargas 
 
 ## Uso compartido del Distribuidor de cargas de trabajo con otros usuarios desde un vínculo
 
-1. Ir al Distribuidor de cargas de trabajo
+1. Vaya al Distribuidor de cargas de trabajo.
 
    Para obtener información sobre el acceso al Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
