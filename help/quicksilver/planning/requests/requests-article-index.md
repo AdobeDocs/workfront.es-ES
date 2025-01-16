@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 48%
+source-wordcount: '110'
+ht-degree: 57%
 
 ---
 
 # Solicitudes de Adobe Workfront Planning: índice de artículos
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Puede crear un formulario de solicitud para cada tipo de registro, compartirlo con los usuarios y estos pueden añadir registros nuevos completando y enviando el formulario.
 
@@ -26,5 +26,5 @@ Esta sección contiene los siguientes artículos:
 * [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Envío de solicitudes de Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md)
 * [Cancelar la publicación de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/unpublish-request-form.md)
-* <span class="preview">[Agregar una aprobación a un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>
-* <span class="preview">[Aprobar solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)</span>
+* [Agregar una aprobación a un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
+* [Aprobar solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)

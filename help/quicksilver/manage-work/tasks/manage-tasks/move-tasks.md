@@ -6,10 +6,10 @@ description: Puede mover tareas a diferentes proyectos o a diferentes tareas pri
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 94%
+source-wordcount: '1487'
+ht-degree: 97%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 94%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Puede mover tareas en Adobe Workfront entre los siguientes objetos:
@@ -72,6 +72,8 @@ Debe tener el siguiente acceso para realizar las acciones de este artículo:
 
 Tenga en cuenta lo siguiente al mover una tarea:
 
+* El administrador del sistema o del grupo puede impedir que mueva tareas que tengan horas registradas, según la configuración de la preferencia Permitir que los usuarios muevan tareas y problemas con horas registradas en el área Configuración. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Cuando se mueve una tarea de un proyecto a otro, es posible que se recalculen las fechas de la tarea. Para realizar un nuevo cálculo se tendrá en consideración la programación que utiliza el nuevo proyecto y la información de Programación desde del proyecto.
 
 * Tiene la oportunidad de seleccionar el traslado de algunos elementos asociados con la tarea a la tarea desplazada durante el proceso de traslado. Sin embargo, de forma predeterminada, los siguientes objetos se transfieren a la tarea desplazada:
@@ -82,16 +84,9 @@ Tenga en cuenta lo siguiente al mover una tarea:
    * Información de formularios y campos personalizados
    * Subtareas
 
-Los elementos siguientes no se mueven con la tarea de forma predeterminada:
+* Los elementos siguientes no se mueven con la tarea de forma predeterminada:
 
-* Hitos
-
-<div class="preview">
-
-* El administrador del sistema o del grupo puede impedir que mueva tareas que tengan horas registradas, según la configuración de la preferencia Permitir que los usuarios muevan tareas y problemas con horas registradas en el área Configuración. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
-
+   * Hitos
 
 ## Mover tareas a una lista
 

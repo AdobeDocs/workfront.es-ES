@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 13%
+source-wordcount: '1429'
+ht-degree: 14%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 13%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Haga clic en **Crear**. El formulario de solicitud del tipo de registro seleccionado se abre <span class="preview"> en la ficha Formulario</span>.
+1. Haga clic en **Crear**. El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Campos de registro disponibles en la vista de tabla del tipo de registro seleccionado. <!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> Según el entorno que utilice para crear un formulario de solicitud, se producirán los siguientes escenarios:
->
->* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en el entorno de producción:
->
->    * Creado por y modificado por última vez por
->    * Fecha de creación y fecha de la última modificación
->    * Fórmula
->    * Personas
->    * Campos conectados de Workfront
->    * Campos de búsqueda de objetos Workfront
->    * Campos conectados de registros de Workfront Planning
->    * Campos de búsqueda de registros conectados de Workfront Planning
->    * Campos de conexión de AEM Assets
->* Los campos de los siguientes tipos no se muestran en el formulario de solicitud en <span class="preview">el entorno de vista previa:</span>
->    * <span class="preview"> lo creó y modificó por última vez </span>
->    * <span class="preview">Fecha de creación y fecha de la última modificación</span>
->    * <span class="preview">Fórmula</span>
->    * <span class="preview"> campos de búsqueda de objetos Workfront</span>
->    * <span class="preview">Campos de búsqueda de registros conectados de Workfront Planning </span>
+   >[!IMPORTANT]
+   >
+   >Los campos de los siguientes tipos no se muestran en el formulario de solicitud:
+   >
+   >* Creado por y modificado por última vez por
+   >* Fecha de creación y fecha de la última modificación
+   >* Fórmula
+   >* Campos de búsqueda de objetos Workfront
+   >* Campos de búsqueda de registros conectados de Workfront Planning
+   >
 
-* **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
-* Campo **Asunto**: Campo que identificará la solicitud en Workfront. Esta capacidad aún no está disponible en el entorno de producción. <span class="preview">Está disponible en el entorno de vista previa.</span>: la configuración y el valor del campo Asunto no se pueden editar.
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Asunto** si es necesario, y los solicitantes no lo verán en el formulario.
+   * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
+   * Campo **Asunto**: Campo que identificará la solicitud en Workfront. La configuración y el valor del campo Subject no se pueden editar.
 
-* Todos los campos asociados al tipo de registro.
+     >[!TIP]
+     >
+     >El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Subject** si es necesario, y los solicitantes no lo verán en el formulario cuando envíen la solicitud.
 
-  Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
+   * Todos los campos asociados al tipo de registro.
+
+     Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
 
 1. (Opcional) Pase el ratón sobre cualquier campo del formulario que quiera quitar y luego haga clic en el icono **x** para quitarlo. Se agregarán a la ficha **Campos** situada a la izquierda del formulario.
 
@@ -200,8 +206,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Opcional) Haga clic en **Vista previa** para ver cómo se mostrará el formulario para otros usuarios cuando lo usen para enviar un nuevo registro.
 
-1. 
-   <div class="preview">(Opcional) Haga clic en la pestaña **Configuración** y, a continuación, añada al menos un usuario al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
+1. (Opcional) Haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro.
    * Todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
 
-     Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
+     Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
 1. Haga clic en **Publish** para publicar el formulario y obtener un vínculo único para él.
@@ -235,20 +240,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!WARNING]
    >
-   >
    >* Si selecciona **Cualquier persona que tenga el vínculo**, cualquier persona podrá obtener acceso al formulario y enviar un nuevo registro, incluso las personas que no pertenezcan a su organización y que no tengan una cuenta de Workfront.
    >
-   > * <span class="preview">Un formulario que contiene los siguientes tipos de campo no se puede compartir públicamente:</span>
+   > * Un formulario que contenga los siguientes tipos de campo no se puede compartir públicamente:
    >
-   >     * <span class="preview">Conexiones de Workfront o AEM Assets</span>
-   >     * <span class="preview">Personas</span>
+   >     * Conexiones de Workfront o AEM Assets
+   >     * Personas
    >
 
 1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible. Las personas recibirán un error una vez que caduque el vínculo y debe actualizar la fecha del vínculo y generar un nuevo vínculo para compartirlo antes de que las personas puedan acceder al formulario de nuevo.
 
    Puede seleccionar fechas futuras en un plazo de 180 días a partir de la fecha actual.
 
-1. Haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario.
+1. Haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario. Si el formulario se guardó anteriormente, haga clic en **Copiar vínculo**.
 
    Las opciones de uso compartido de formularios se guardan y el vínculo se copia en el portapapeles. Ahora puede compartirlo con otros usuarios.
 

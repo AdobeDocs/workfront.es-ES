@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 86%
+source-wordcount: '2185'
+ht-degree: 88%
 
 ---
 
 # Configurar las preferencias de tareas y problemas de un grupo
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Si los grupos de su organización necesitan configurar una preferencia de tarea o problema de forma independiente de la forma en que se configura en el sistema, un administrador de Adobe Workfront puede desbloquear la preferencia. A continuación, como administrador de grupo, puede configurar la preferencia de su grupo, lo cual afectará a todas las tareas o problemas asociados con su grupo.
 
@@ -95,7 +95,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    * [Valores predeterminados de nueva tarea](#new-task-defaults)
    * [Problemas](#issues)
    * [Eliminación](#deletion)
-   * <span class="preview">[Mover](#move)</span>
+   * [Mover](#move)
    * [Fechas reales](#actual-dates)
    * [Delegación](#delegation)
    * [Acceso](#access)
@@ -184,8 +184,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    </table>
 
 
-<div class="preview">
-
 ### Mover
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Fechas reales {#actual-dates}
 

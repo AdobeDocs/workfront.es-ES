@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2296'
-ht-degree: 86%
+source-wordcount: '2236'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 86%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Como administrador de [!DNL Adobe Workfront], puede configurar las preferencias de todo el sistema para tareas y problemas. Estas preferencias afectan a la forma en que los usuarios crean tareas y problemas en [!DNL Workfront].
@@ -74,15 +74,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * [[!UICONTROL Valores predeterminados de nueva tarea]](#new-task-defaults)
    * [[!UICONTROL Problemas]](#issues)
    * [[!UICONTROL Eliminación]](#deletion)
-   * <span class="preview">[Mover](#move)</span>
+   * [Mover](#move)
    * [[!UICONTROL Actual Dates]](#actual-dates)
    * [[!UICONTROL Delegation]](#delegation)
    * [[!UICONTROL Access]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL New Task Defaults] {#new-task-defaults}
@@ -169,8 +164,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Si anula la selección de esta opción, recibe una advertencia de prohibición cuando elimina una tarea o un problema con horas registradas, o cuando elimina un proyecto con horas registradas para sus tareas o problemas. La advertencia especifica que el administrador no permite que se eliminen tareas o problemas con horas registradas. Las tareas, problemas o proyectos que tienen horas registradas para tareas y problemas no se pueden eliminar.
 
-<div class="preview">
-
 ### Mover
 
 **[!UICONTROL Permitir que los usuarios muevan tareas y problemas con las horas registradas]**: le permite determinar si permite el movimiento de tareas o problemas donde se registran las horas. Esta opción está desactivada de forma predeterminada.
@@ -178,8 +171,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Cuando está seleccionada, puede mover tareas y problemas que tengan tiempo registrado. Las horas también se mueven con las tareas o problemas.
 
 * Si anula la selección de esta opción, recibe una advertencia prohibitiva cuando mueve una tarea o un problema con horas registradas a otro proyecto. La advertencia especifica que el administrador no permite mover tareas o problemas con horas registradas. Las tareas o los problemas que tienen horas registradas no se pueden mover. Puede mover tareas dentro del mismo proyecto, incluso cuando esta opción no esté seleccionada.
-
-</div>
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 

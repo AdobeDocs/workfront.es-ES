@@ -6,19 +6,19 @@ description: Puede usar el área [!UICONTROL Mis actualizaciones] para revisar d
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 92%
+source-wordcount: '787'
+ht-degree: 97%
 
 ---
 
 
 # Usar el área [!UICONTROL Mis actualizaciones]
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Puede usar el área [!UICONTROL Mis actualizaciones] para revisar rápidamente las aprobaciones que esperan su decisión o las conversaciones en las que se le ha incluido.
@@ -82,11 +82,7 @@ Debe tener lo siguiente antes de empezar:
 
    Las aprobaciones y solicitudes de acceso que se le hayan asignado se enumeran en la primera mitad de la página, en **Mis actualizaciones**.
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. (Opcional) Desplácese hasta la parte inferior del área de [!UICONTROL **Mis actualizaciones**] y haga clic en la flecha hacia la derecha para mostrar más aprobaciones que se muestran en páginas adicionales.
 
@@ -168,12 +164,8 @@ Debe tener lo siguiente antes de empezar:
 
      Para obtener más información acerca de cómo responder a las actualizaciones, vea [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-     <span class="preview">Cuando termine de agregar la respuesta, haga clic en **[!UICONTROL Enviar]**.</span>
-
-     <div class="preview">
+     Cuando termine de agregar la respuesta, haga clic en **[!UICONTROL Enviar]**.
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. (Opcional) Haga clic en **[!UICONTROL Pin current page]** para anclar el área de [!UICONTROL My Updates] a su barra de navegación superior.

@@ -7,9 +7,9 @@ description: Un objeto solucionable es un problema cuya resolución está vincul
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ Cuando un problema se vincula manualmente a otro, el estado del segundo problema
 
 Cuando un problema es el objeto solucionable de una tarea o un proyecto, los cambios en el estado de las tareas y el déclencheur de los proyectos cambian en el estado del problema. Los estados predeterminados se activan de forma diferente a los estados personalizados, en este caso.
 
-Cuando el estado personalizado del proyecto equivale a un estado predeterminado que no déclencheur un cambio en el estado del problema, no déclencheur un cambio en el estado del problema.
+Cuando el estado personalizado de un proyecto equivale a un estado predeterminado que no déclencheur un cambio en el estado del problema, el cambio en el estado del proyecto no déclencheur un cambio en el estado del problema.
 
 * [Sincronizar el estado predeterminado del objeto de resolución con el estado predeterminado del objeto solucionable](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizar el estado personalizado del objeto de resolución con el estado personalizado del objeto solucionable](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

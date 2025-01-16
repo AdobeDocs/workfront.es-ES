@@ -6,10 +6,10 @@ description: Puede mover problemas entre proyectos y tareas.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 87%
+source-wordcount: '868'
+ht-degree: 89%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 87%
 
 <!--Audited: 12/2024-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Puede mover problemas entre los siguientes objetos:
 
@@ -72,15 +72,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Tenga en cuenta lo siguiente al mover problemas que contienen documentos o están asociados a una cola de solicitudes:
 
+* El administrador del sistema o del grupo puede impedir que se muevan los problemas que tienen horas registradas, según la configuración de la preferencia Permitir a los usuarios mover tareas y problemas con horas registradas en el área Configuración. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * **Cuando un problema está asociado con una cola de solicitudes:** cuando mueve un problema a otro objeto y el problema está asociado con una cola de solicitudes, el problema movido ya no se asocia con la cola original desde la que se originó el primer problema.
 * **Cuando se adjunta un documento al problema:** cuando se mueve un problema a otro objeto y el problema tiene un documento adjunto, el documento, sus versiones y revisiones también se mueven al nuevo problema. Las aprobaciones asociadas con el documento no se mueven.
 * **Cuando un problema está vinculado a un documento o a una carpeta:** cuando mueve un problema que tiene documentos o carpetas vinculados a un servicio de terceros como Google Drive, los vínculos a los documentos se mueven con el problema.
-
-<div class="preview">
-
-* El administrador del sistema o del grupo puede impedir que se muevan los problemas que tienen horas registradas, según la configuración de la preferencia Permitir a los usuarios mover tareas y problemas con horas registradas en el área Configuración. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
 
 ## Desplazamiento de problemas a una lista
 
@@ -103,9 +99,9 @@ Puede mover uno o varios problemas de una lista de problemas o de un informe de 
 
 Puede mover un problema al verlo.
 
-### Desplazamiento de un solo problema en el entorno de vista previa
+### Desplazamiento de un solo problema
 
-1. Vaya a un problema que desee copiar, haga clic en el menú **Más** ![](assets/more-icon.png)situado a la derecha del nombre del problema y, a continuación, seleccione **Mover** a.
+1. Vaya a un problema que desee mover, haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre del problema y, a continuación, haga clic en **Mover a**.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

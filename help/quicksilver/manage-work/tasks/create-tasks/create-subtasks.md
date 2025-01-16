@@ -6,10 +6,10 @@ description: En Adobe Workfront, las tareas pueden tener relaciones principal-se
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 85%
+source-wordcount: '566'
+ht-degree: 84%
 
 ---
 
@@ -82,7 +82,7 @@ Puede crear subtareas desde la lista de tareas o desde la sección de subtareas 
 
 >[!NOTE]
 >
->Es posible que el administrador del grupo o de Workfront oculte la sección Subtareas de su entorno.
+>Es posible que el administrador de su Workfront o de su grupo elimine la sección Subtareas de su entorno mediante una plantilla de diseño.
 
 1. Vaya al proyecto donde desea crear subtareas.
 1. Haga clic en la sección **Tareas** en el panel izquierdo.

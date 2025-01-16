@@ -1,26 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Actualizar o editar un elemento de trabajo en el área Inicio
+title: Actualizar o editar un elemento de trabajo en el área de inicio
 description: Puede ver y añadir actualizaciones a un elemento de trabajo dentro del área [!UICONTROL Inicio] en Adobe Workfront. También puede editar otros datos relacionados con el elemento de trabajo si tiene acceso para editarlo.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '846'
 ht-degree: 35%
 
 ---
 
 # Actualizar o editar un elemento de trabajo en el área [!UICONTROL Inicio]
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Puede ver y añadir actualizaciones a un elemento de trabajo dentro del área [!UICONTROL Inicio] en [!DNL Adobe Workfront]. También puede editar otros datos relacionados con el elemento de trabajo si tiene acceso para editarlo.
 
@@ -133,22 +132,18 @@ Puede proporcionar actualizaciones sobre cualquier elemento de trabajo en el wid
 
 1. Haga clic en **Responder**.
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. Empiece a escribir el comentario.
-1. (Opcional) En el cuadro <span class="preview">**Etiquetar personas**</span>, empiece a escribir el nombre de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
+1. (Opcional) En el cuadro **Etiquetar personas**, empiece a escribir el nombre de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes al comentario para mejorar el contenido.
-1. <span class="preview">Haga clic en **Enviar** para agregar el comentario al elemento de trabajo.</span>
+1. Haga clic en **Enviar** para agregar el comentario al elemento de trabajo.
 
    >[!IMPORTANT]
    >
-   ><span class="preview">Solo puede editar su comentario en un plazo de 15 minutos a partir del envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y, a continuación, haga clic en **Editar**.</span>
+   >Solo puede editar su comentario en los 15 minutos siguientes al envío. Para editar un comentario, haga clic en el menú **Más** en la esquina superior derecha del comentario y luego haga clic en **Editar**.
 
-   <span class="preview">Para obtener información más detallada sobre cómo agregar actualizaciones, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+   Para obtener información más detallada sobre cómo agregar actualizaciones, consulte [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Editar un elemento de trabajo
 
