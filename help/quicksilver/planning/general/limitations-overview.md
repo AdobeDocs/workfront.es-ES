@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: '378'
+ht-degree: 60%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 1%
 
 # Información general sobre las limitaciones de objetos de Adobe Workfront Planning
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 
 Adobe Workfront Planning tiene límites en cuanto a la cantidad de objetos que se pueden crear en la instancia. Existen límites de objetos para mejorar el rendimiento del producto y la experiencia con Workfront Planning.
 
-En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en Workfront Planning. Las limitaciones están sujetas a cambios a medida que avanzamos hacia las siguientes fases de desarrollo.
+En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en Workfront Planning. Las limitaciones están sujetas a cambios a medida que se avanza hacia las siguientes fases de desarrollo.
 
 | Objeto de Adobe Workfront Planning | Límite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -38,15 +38,15 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Número de registros totales de una instancia de Workfront Planning | 500.000 para clientes con el plan de Planning <br>2 millones para clientes con Planning Plus |
 | Número de campos para un tipo de registro o taxonomía | 500 |
 | Número de caracteres de un campo de texto de una sola línea | 1.000 caracteres |
-| Número de caracteres de un campo de párrafo | 10 000 caracteres |
+| Número de caracteres de un campo de párrafo | 10.000 caracteres |
 | Número de campos de párrafo para un tipo de registro | 20 campos de párrafo |
 | Tamaño del archivo que puede pegar en una tabla de tipo de registro | 1 MB |
 | Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1,5 MB |
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
 | Número de vistas que un usuario puede crear para un tipo de registro | 100 |
 | Tamaño del archivo CSV de Excel que puede importar para crear tipos de registros | 5 MB |
-| <span class="preview">Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros</span> | 10.000 |
-| <span class="preview">Número de columnas que puede importar en un archivo CSV o de Excel para crear tipos de registros</span> | 500 |
+| Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros | 10.000 |
+| Número de columnas que se pueden importar en un archivo CSV o de Excel para crear tipos de registros | 500 |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 

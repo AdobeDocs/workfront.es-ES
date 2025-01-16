@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 58%
+source-wordcount: '1624'
+ht-degree: 60%
 
 ---
 
 
 # Administrar el diseño de página de registro
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -254,8 +254,6 @@ Ocurren lo siguiente:
 
    Todos los cambios en el diseño de la vista previa o la página del registro se guardan automáticamente.
 
-<span class="preview">
-
 ## Agregar una página de vista Conexión a la página de un registro
 
 Tenga en cuenta lo siguiente al agregar una vista Conexión a la página de un registro:
@@ -292,7 +290,7 @@ La vista de tabla es de solo lectura.
 1. (Opcional) Utilice cualquier elemento de vista de la barra de herramientas para administrar la vista de tabla. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 1. (Opcional) Pase el ratón sobre el nombre de la pestaña, luego haga clic en **Más** ![](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la nueva pestaña Vista conectada.
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 92%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 92%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
 
 Puede registrar el tiempo de los elementos de trabajo en Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar el tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. El tiempo que registre se mostrará en la plantilla de horas.
 
@@ -497,11 +495,8 @@ Según el tipo de entradas de hora que edite, los siguientes campos están dispo
    * Asignación de rol. Puede cambiar la asignación de rol sólo si estaba habilitada en Configuración. Para obtener más información, consulte [Configurar la plantilla de horas y las preferencias de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
    * La descripción de la entrada de horas.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * Cuando edita las horas generales:
 
@@ -551,7 +546,7 @@ Para editar los tipos de horas en un informe o una lista de horas:
    >
    >   No todos los campos están disponibles, dependiendo del tipo de hora asociado con las entradas de horas seleccionadas.
 
-1. Haga clic en **Guardar <span class="preview">cambios</span>**.
+1. Haga clic en **Guardar cambios**.
 
    Se actualiza la información de la entrada de horas.
 Si seleccionó más de una entrada de horas y modificó el campo Horas, se asigna la misma cantidad de horas a todas las entradas de horas seleccionadas. Las horas originales se reemplazan con el nuevo valor para todas las entradas de horas seleccionadas.

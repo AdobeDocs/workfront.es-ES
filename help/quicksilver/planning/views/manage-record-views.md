@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 1%
+source-wordcount: '1425'
+ht-degree: 77%
 
 ---
 
 
 # Administrar vistas de registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 {{planning-important-intro}}
@@ -27,21 +27,21 @@ Después de seleccionar un tipo de registro en el área de Adobe Workfront Plann
 
 * Tabla
 
-  Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Cronología
 
-  Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 * Calendario
 
   Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-Este artículo describe la siguiente información sobre las vistas de registros:
+En este artículo se describe la siguiente información sobre las vistas de registros:
 
 * [Crear y editar una vista](#create-or-edit-record-views)
-* [Eliminación de una vista](#delete-views)
-* [Duplicación de una vista](#duplicate-views)
+* [Eliminar una vista](#delete-views)
+* [Duplicar una vista](#duplicate-views)
 * [Habilitar los indicadores de presencia en tiempo real en una vista](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
@@ -67,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -85,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -96,14 +96,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administración de permisos en una vista</p>  
-   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p> </td> 
+   <td>   <p>Permisos de administración de una vista</p>  
+   <p>Permisos de visualización de una vista para cambiar temporalmente su configuración</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -177,9 +177,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones al trabajar con vistas de registros
 
-* Las vistas de Workfront Planning son específicas del tipo de registro. No se puede aplicar la misma vista a dos tipos de registro diferentes.
+* Las vistas de Workfront Planning son específicas del tipo de registro. No puede aplicar la misma vista a dos tipos de registro diferentes.
 * Las vistas que cree solo serán visibles para usted y para los usuarios con los que comparta las vistas.
-* Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tienen permisos de acceso a la vista.
+* Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tengan permisos de acceso sobre ella.
 * Cada usuario puede crear un máximo de 100 vistas. Puede mostrar más de 100 vistas para un tipo de registro, pero un usuario solo puede crear 100 vistas.
 * Puede compartir vistas que cree con otros usuarios. Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 * Los siguientes elementos son exclusivos de cada vista de registro:
@@ -187,7 +187,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Filtro
    * Agrupación
    * Ordenar
-   * Apariencia de la barra (para la vista de la cronología)
+   * Aspecto de la barra (para la vista de la línea de tiempo)
 
   <!-- some of these are not available in all of the views - edit above-->
 
@@ -200,35 +200,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Similitudes y diferencias entre vistas de registros
 
-En la tabla siguiente se muestran las similitudes y diferencias entre las vistas de tabla, escala de tiempo y calendario:
+En la tabla siguiente se muestran las similitudes y diferencias entre las vistas de tabla, línea de tiempo y calendario:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Función | Vista de tabla | Vista Cronología | Vista de calendario |
+| Función | Vista de tabla | Vista de línea de tiempo | Vista de calendario |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | Mostrar registros en una lista o tabla | ✓ |              | |
 | Mostrar todos los campos como columnas en la tabla de forma predeterminada | ✓ |              |    |
 | Ocultar o mostrar campos (o columnas) | ✓ |               |    |
 | Editar valores de campo para cada registro | ✓ |               |             |
-| Agregar registros como filas nuevas en la vista | ✓ |               |        |
-| Agregar campos como nuevas columnas en la vista | ✓ |               |         |
+| Añadir registros como filas nuevas en la vista | ✓ |               |        |
+| Añadir campos como nuevas columnas en la vista | ✓ |               |         |
 | Copiar filas de una lista externa y pegarlas en una tabla | ✓ |               |          |
-| Mostrar registros en una cronología |            | ✓ |             |
+| Mostrar registros en una línea de tiempo |            | ✓ |             |
 | Filtrar registros | ✓ | ✓ | ✓ |
 | Mostrar registros en un calendario |           |              | ✓ |
-| Agrupar registros | ✓ | ✓ |
+| Registros de grupo | ✓ | ✓ |
 | Ordenar registros | ✓ |              |
-| Registros de código de color |           | ✓ | ✓ |
+| Registros con código de color |           | ✓ | ✓ |
 | Agrupaciones de código de color |           | ✓ |
 | Buscar registros específicos | ✓ | ✓ |
 | Compartir la vista con otros usuarios | ✓ | ✓ | ✓ |
 | Abra la página del registro desde la vista | ✓ | ✓ |    |
 | Mostrar registros por año y trimestre |           | ✓ |    |
 | Mostrar registros por mes |           | ✓ | ✓ |
-| <span class="preview">Mostrar registros por semana</span> |           |               | ✓ |
+| Mostrar registros por semana |           |               | ✓ |
 
 
-## Creación o edición de vistas {#create-or-edit-views}
+## Crear o editar vistas {#create-or-edit-views}
 
 {{step1-to-planning}}
 
@@ -243,14 +243,14 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Haga clic en **+ Vista** para agregar una vista nueva.
+1. Haga clic en **+ Vista** para añadir una vista nueva.
 1. Seleccione entre los siguientes tipos de vistas:
 
    * Tabla
    * Cronología
    * Calendario
 
-   Se crea una nueva pestaña con la vista seleccionada.
+   Se crea una nueva ficha con la vista seleccionada.
 
    Según el ancho de la pantalla, es posible que se muestren vistas adicionales en el menú **Más** ![](assets/more-menu.png).
 
@@ -259,14 +259,14 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 >
 >Al crear un tipo de registro, la vista de tabla también se crea de forma predeterminada.
 >
->Para crear una escala de tiempo o una vista de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
+>Para crear una vista de línea de tiempo o de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
 >
->De lo contrario, las opciones Cronología y Calendario aparecen atenuadas.
+>De lo contrario, las opciones Línea de tiempo y Calendario aparecen atenuadas.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Condicional) Haga clic en **Siguiente** al crear una vista de calendario o de cronología.
+1. (Condicional) Haga clic en **Siguiente** al crear una vista de línea de tiempo o de calendario.
 
    De forma predeterminada, Workfront asigna a la vista uno de los nombres siguientes:
 
@@ -276,23 +276,23 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    El número es un incremento generado automáticamente.
 
-1. (Condicional) Seleccione las **fechas de inicio** y de finalización **3} para los registros que se mostrarán en la vista de calendario o de cronología.**
+1. (Condicional) Seleccione las **fechas de inicio** y **de finalización** para los registros que se mostrarán en la vista de línea de tiempo o de calendario.
 
    >[!TIP]
    >
-   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectado. Debe utilizar acumuladores para los campos de fecha (MAX o MIN) cuando seleccione los campos de búsqueda como fechas de inicio y finalización para las vistas de calendario y de escala de tiempo. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectados. Debe utilizar agregadores para los campos de fecha (MAX o MIN) cuando seleccione los campos de búsqueda como las fechas de inicio y de finalización para las vistas de línea de tiempo y calendario. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Haga clic en **Crear**.
 
-   La vista se muestra como una nueva pestaña. Las vistas se muestran en orden cronológico a partir del momento en que se crearon o compartieron con usted.
+   La vista se muestra como una nueva pestaña. Las vistas se muestran en orden cronológico a partir del momento en que se crearon o compartieron con el usuario.
 1. (Opcional) Haga clic en el menú **Más** ![](assets/more-caret-down-icon-views.png) que está junto a la última vista para mostrar todas las vistas del tipo de registro seleccionado.
 
-   Se muestran vistas adicionales en el menú **Más** después de la última ficha de vista. El número al lado del menú **Más** muestra el número de vistas adicionales.
+   Se muestran vistas adicionales en el menú **Más** después de la última pestaña de vista. El número al lado del menú **Más** muestra el número de vistas adicionales.
 1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en el menú **Más** ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista
 
    O
 
-   Haga doble clic en el nombre de la vista y empiece a escribir el nuevo nombre.  <!--ensure there is not another saving step here?!-->
+   Haga doble clic en el nombre de la vista y empiece a escribir el nuevo nombre. <!--ensure there is not another saving step here?!-->
 
 1. (Opcional) Para administrar un tipo de vista específico, consulte los siguientes artículos:
 
@@ -315,8 +315,8 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de la vista, luego haga clic en **Más** ![](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
-En primer lugar, es posible que deba hacer clic en **Más** a la izquierda de la última pestaña para encontrar la vista que desee eliminar.
+1. Pase el puntero por encima de uno de los nombres de la vista en la ficha de la vista, luego haga clic en **Más** ![](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
+En primer lugar, es posible que deba hacer clic en **Más** a la izquierda de la última ficha para encontrar la vista que desee eliminar.
 
 1. Haga clic en **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 
@@ -326,7 +326,7 @@ En primer lugar, es posible que deba hacer clic en **Más** a la izquierda de la
 
 <!--not possible yet - August 30, 2023: -->
 
-## Duplicación de una vista
+## Duplicar una vista
 
 Si desea conservar varias versiones de una vista y realizar ligeros cambios entre ellas, puede duplicar una vista.
 
@@ -345,12 +345,12 @@ Los permisos de uso compartido de la vista original no se transfieren a la vista
    Se abre la página de tipo de registro.
 De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el ratón sobre la pestaña de la vista que quiera duplicar, haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre de la vista y luego haga clic en **Duplicar**.
+1. Pase el puntero por encima de la ficha de la vista que desee duplicar, haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre de la vista y luego haga clic en **Duplicar**.
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva pestaña de vista se muestra al final de todas las pestañas de vista.
+   La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.
 
 ## Habilitar el indicador de presencia en tiempo real en una vista
 

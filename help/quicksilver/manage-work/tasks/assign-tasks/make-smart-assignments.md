@@ -6,10 +6,10 @@ description: Puede utilizar asignaciones inteligentes para identificar quién es
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 89%
+source-wordcount: '396'
+ht-degree: 91%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 89%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">La información resaltada en esta página hace referencia a la funcionalidad disponible solamente en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
+<span class="preview">La información resaltada en esta página hace referencia a la funcionalidad disponible solamente en el entorno de vista previa.</span>
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> Esta funcionalidad se eliminará del entorno de producción para los clientes que habilitaron la versión rápida con la versión 25.1 en enero de 2025. Para obtener más información sobre la versión 25.1, consulte [Información general sobre la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo.
 
 Las asignaciones inteligentes son sugerencias sobre usuarios, funciones o equipos que Adobe Workfront le presenta cuando asigna elementos de trabajo a recursos. Workfront basa sus sugerencias en un algoritmo que determina el recurso más apropiado para el trabajo.
 
-<span class="preview">Workfront cuenta con dos algoritmos independientes que calculan asignaciones inteligentes que funcionan de forma diferente según se trate de tareas o problemas.</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 Para obtener más información acerca de los criterios utilizados para determinar las asignaciones inteligentes, consulte [Información general sobre las asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -75,24 +75,22 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    * Una lista de tareas o problemas o un informe
    * Un encabezado de tarea o problema
    * El panel Resumen de tareas o problemas
-   * Un cuadro <span class="preview">Nueva tarea</span> o Nuevo problema, cuando añade <span class="preview">una nueva tarea</span> o problema a un proyecto
    * Una tarea o un problema en el Distribuidor de cargas de trabajo
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. Coloque el cursor en el campo Asignaciones y espere dos segundos.
 
-   En el caso de los problemas, las asignaciones inteligentes se muestran en las siguientes secciones:
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **Usuarios y equipos**
-   * **Funciones del puesto**
+   Las asignaciones inteligentes se muestran en las siguientes secciones <!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **Usuarios y equipos**, **Funciones del puesto** o <span class="preview">**Funciones del puesto de la tarjeta de tarifas**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   En el caso de las tareas, las asignaciones inteligentes se muestran en las secciones siguientes, según la fase de cálculo del algoritmo en la que se hayan identificado las asignaciones:
-
-   * <span class="preview">**Asignaciones sugeridas**: muestra las asignaciones identificadas en la primera fase del algoritmo de asignación inteligente de tareas.</span>
-   * **Usuarios y equipos**, **Funciones del puesto** o <span class="preview">**Puestos de trabajo de tarjeta de tarifas**</span>: asignaciones identificadas en la segunda fase de cálculo del algoritmo de la asignación inteligente de tareas.
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Para obtener más información, consulte [Información general sobre las asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

@@ -6,21 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 1%
+source-wordcount: '1394'
+ht-degree: 20%
 
 ---
 
 
 <!--this is linked to the UI in an empty workspace screen-->
 
-# Creación de tipos de registros
+# Crear tipos de registro
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -67,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -78,13 +78,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administrar permisos en un espacio de trabajo</a> </p>  
+   <td>   <p>Permisos de administración en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
   </tr> 
 <tr> 
@@ -108,15 +108,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
         Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * <span class="preview">Al importarlos mediante un archivo de Excel o CSV. </span>
+      * Cuando se importan mediante un archivo CSV o de Excel.
 
      >[!TIP]
      >
-     ><span class="preview">Al importar un tipo de registro desde un archivo de Excel o CSV, también se pueden importar registros y campos.</span>
+     >Al importar un tipo de registro desde un archivo de Excel o CSV, también puede importar registros y campos.
 
    * Manualmente:
 
-      * Desde cero.
+      * Desde cero
 
         Este artículo describe cómo crear tipos de registros desde cero.
 
@@ -145,9 +145,9 @@ Para obtener información sobre los tipos de registros que se incluyen en cada p
 
    O
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
+   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
 1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al área de trabajo.
-1. Haga clic en **Agregar tipo de registro** y luego en <span class="preview">**Nuevo**</span>.
+1. Haga clic en **Agregar tipo de registro** y luego en **Nuevo**.
 
    Se abre el cuadro Agregar tipo de registro.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -159,7 +159,7 @@ Para obtener información sobre los tipos de registros que se incluyen en cada p
    * Sustituya &quot;Tipo de registro sin título&quot; por el nombre del tipo de registro futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Descripción**: Agregue más información sobre el tipo de registro.
    * Seleccione un color y una forma para el icono asociado al tipo de registro. Haga lo siguiente:
-      * Seleccione un color para identificar el nuevo tipo de registro. Es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
+      * Seleccione un color para identificar el nuevo tipo de registro. Este es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
 1. Haga clic en **Crear**.
@@ -190,7 +190,7 @@ La descripción del tipo de registro se muestra en la tarjeta.
 
    Haga clic en el icono **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Editar** para cambiarle el nombre o cambiar la información sobre él. Para obtener más información, vea [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Opcional) Haga clic en **+ Nuevo registro** para agregar registros del tipo de registro seleccionado. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Haga clic en **+ Nuevo registro** para agregar registros del tipo de registro seleccionado. Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
 1. (Opcional) Haga clic en el icono **+** en la esquina superior derecha de la tabla para agregar más campos al tipo de registro.
 
    Para obtener más información sobre cómo crear campos, vea [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
@@ -203,12 +203,10 @@ La descripción del tipo de registro se muestra en la tarjeta.
 
    Para obtener información adicional sobre cómo agregar registros, eliminar o editar tipos de registros, o actualizar la vista en la página de tipo de registro, vea los siguientes artículos:
 
-   * [Creación de registros](/help/quicksilver/planning/records/create-records.md)
-   * [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md)
-   * [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md)
+   * [Crear registros](/help/quicksilver/planning/records/create-records.md)
+   * [Eliminar tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
+   * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Creación de tipos de registros importando un archivo CSV o de Excel
 
@@ -233,7 +231,7 @@ Para importar tipos de registros mediante un archivo CSV o de Excel:
 
    O
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
+   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
 1. Haga clic en **Agregar tipo de registro**.
 1. Haga clic en **Desde el archivo**.
 1. Arrastre y suelte un archivo de Excel o CSV guardado anteriormente en el equipo, o haga clic en **Seleccione un archivo CSV o de Excel** para buscar uno.
@@ -278,6 +276,3 @@ Para importar tipos de registros mediante un archivo CSV o de Excel:
    Puede empezar a administrar campos y registros en las páginas de tipos de registros.
 
    Todas las personas con acceso a Workfront Planning ahora pueden ver y editar los tipos de registro importados y su información.
-
-</div>
-

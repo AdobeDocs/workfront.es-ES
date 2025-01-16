@@ -2,93 +2,89 @@
 user-type: administrator
 content-type: overview
 product-area: system-administration;timesheets
-keywords: usuario, programación
+keywords: usuario, horario
 navigation-topic: configure-timesheets-and-schedules
-title: Resumen de horarios
-description: Puede definir la semana laboral utilizando los horarios. Puede asociar una programación a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront] calcular las escalas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte Creación de una programación.
+title: Información general sobre los horarios
+description: Puede definir la semana laboral mediante el uso de horarios. Puede asociar un horario a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront]  calcular las líneas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte Crear un horario.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 0%
+source-wordcount: '759'
+ht-degree: 95%
 
 ---
 
-# Información general sobre horarios
+# Información general sobre los horarios
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-Puede definir la semana laboral mediante los horarios y asociar un horario a un usuario o proyecto. Esto permite que [!DNL Adobe Workfront] calcule las escalas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, vea [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Puede definir la semana laboral mediante el uso de horarios y asociar un horario a un usuario o proyecto. Esto permite a [!DNL Adobe Workfront] calcular las líneas de tiempo y la disponibilidad del usuario. Para obtener instrucciones, consulte [Crear un horario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-Tenga en cuenta lo siguiente al trabajar con programaciones en Workfront:
+Tenga en cuenta lo siguiente al trabajar con horarios en Workfront:
 
-* El administrador [!DNL Workfront] identifica las horas de operación de la organización en una programación.
+* La persona con la función de administrador de [!DNL Workfront] identifica las horas operativas de la organización en un horario.
 
-  Del mismo modo, un administrador de grupo puede identificar las horas de funcionamiento de una programación administrada por un grupo que administra. Para obtener más información sobre los administradores de grupos, consulte [Administradores de grupos](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  Del mismo modo, una persona con la función de administrador de grupo puede identificar las horas operativas de un horario administrado por un grupo que administra. Para obtener más información sobre los administradores de grupos, consulte [Administradores de grupos](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
-  Por ejemplo, una programación se puede definir como: de lunes a viernes, de 8 a. m. a 5 p. m., con una pausa horaria para el almuerzo.
+  Por ejemplo, un horario se puede definir como: de lunes a viernes, de 8 h a 17 h, con una pausa de una hora para el almuerzo.
 
-* [!DNL Workfront] usa la programación para determinar cuándo comienza y finaliza el día laborable.
+* [!DNL Workfront] usa el horario para determinar cuándo comienza y finaliza el día laborable.
 
-  Esto no impide que un usuario trabaje o complete su trabajo en [!DNL Workfront] fuera del horario laboral normal. Por lo general, no es necesario crear una nueva programación o una excepción de programación para centrarse en el trabajo planificado por la noche.
+  Esto no impide que un usuario trabaje o complete su trabajo en [!DNL Workfront] fuera del horario laboral normal. Por lo general, no es necesario crear un nuevo horario o una excepción de horario para centrarse en el trabajo planificado por la noche.
 
-  Del mismo modo, su organización puede tener horarios de llegada flexibles para su día de trabajo. Puede tener un conjunto de empleados que llega a las 8 a. m. y otro conjunto que llega a las 9 a. m. No es necesario crear programaciones únicas para cada grupo, si los grupos tienen programaciones similares o idénticas. Pero si los grupos tienen programaciones drásticamente diferentes, sus usuarios deben asociarse con programaciones únicas. Un empleado entiende si una asignación debe completarse a las 5 p.m., significa que el trabajo debe realizarse antes del final del día hábil, independientemente de la hora en que ingresen al trabajo.
+  Del mismo modo, su organización puede tener horas de llegada flexibles para su día laborable. Puede tener un conjunto de empleados que llegue a las 8 h y otro que llegue a las 9 h. No es necesario crear horarios únicos para cada grupo, si los grupos tienen horarios similares o idénticos. Pero si los grupos tienen horarios drásticamente diferentes, sus usuarios deben asociarse a horarios únicos. El empleado entiende que, si una asignación debe completarse a las 17 h, significa que el trabajo debe realizarse antes del final del día laborable, independientemente de la hora en que entre al trabajo.
 
-* Le recomendamos que cree programaciones independientes para cada zona horaria asociada a la organización.
+* Le recomendamos que cree horarios independientes para cada zona horaria asociada a la organización.
 
-  Puede asignar una zona horaria específica para cada programación a fin de asegurarse de que el trabajo esté programado correctamente para los usuarios que trabajan en diferentes zonas horarias.
+  Puede asignar una zona horaria específica para cada horario a fin de asegurarse de que el trabajo se programe correctamente para los usuarios que trabajan en diferentes zonas horarias.
 
-* El horario predeterminado [!DNL Workfront] se usa en los cálculos de escala de tiempo cuando los usuarios o proyectos no están asociados a un horario.
+* Cuando los usuarios o proyectos no están asociados a un horario, se usa el horario predeterminado de [!DNL Workfront] en los cálculos de línea de tiempo. 
 
-  El Horario predeterminado viene con su sistema [!DNL Workfront] y no se puede eliminar a menos que se reemplace por un nuevo horario que usted cree.
+  El horario predeterminado viene con el sistema de [!DNL Workfront] y no se puede eliminar a menos que se reemplace por uno nuevo que se cree.
 
-* Además de calcular escalas de tiempo, [!DNL Workfront] usa programaciones para calcular la disponibilidad del usuario.
+* Además de calcular líneas de tiempo, [!DNL Workfront] usa horarios para calcular la disponibilidad del usuario.
 
   >[!IMPORTANT]
   >
-  >[!DNL Workfront] utiliza el usuario o la programación del proyecto para determinar la disponibilidad de recursos en el Planificador de recursos. La programación que se use depende de lo que haya seleccionado el administrador de [!DNL Workfront] para la opción [!UICONTROL Calcular disponibilidad de recursos mediante]. Para obtener información acerca de la configuración de Administración de recursos, vea [Configurar las preferencias de Administración de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  >[!DNL Workfront] utiliza el horario del usuario o del proyecto para determinar la disponibilidad de recursos en el Planificador de recursos. El horario que se use depende de lo que haya seleccionado la persona con la función de administrador de [!DNL Workfront] para la opción [!UICONTROL Calculate Resource Availability Using] Para obtener información acerca de la configuración de administración de recursos, vea [Configurar las preferencias de administración de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Jerarquía de horarios
 
-Si una tarea se asigna a un usuario asociado a una programación y reside en un proyecto asociado a una segunda programación, tiene al menos dos programaciones que podrían aplicarse a los cálculos de escala de tiempo.
+Si una tarea se asigna a un usuario asociado a un horario y reside en un proyecto asociado a un segundo horario, tiene al menos dos horarios que podrían aplicarse a los cálculos de línea de tiempo.
 
 >[!IMPORTANT]
 >
->[!DNL Workfront] usa la programación de un usuario solo cuando la opción [!UICONTROL Calcular disponibilidad de recursos usando] está establecida en [!UICONTROL La programación del usuario] en el área de [!UICONTROL Administración de recursos] de [!UICONTROL Configuración]. Para obtener información sobre cómo la configuración [!UICONTROL Calcular disponibilidad de recursos mediante] afecta a la programación que se usa para la administración de recursos, consulte [Configurar las preferencias de administración de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+>[!DNL Workfront] usa el horario del usuario solo cuando la opción [!UICONTROL Calculate Resource Availability Using] está establecida en [!UICONTROL The User&#39;s Schedule] en el área [!UICONTROL Resource Management] de [!UICONTROL Setup]. Para obtener información sobre cómo la opción [!UICONTROL Calculate Resource Availability Using] afecta al horario utilizado para la administración de recursos, consulte [Configurar las preferencias de administración de recursos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-El orden en el que el sistema utiliza las programaciones cuando existe más de una es el siguiente:
+El orden en el que el sistema utiliza los horarios cuando existe más de uno es el siguiente:
 
 
-* Cuando se asigna un usuario a una tarea, existen los siguientes escenarios, según el entorno que utilice:
+* Cuando se asigna un usuario a una tarea, [!DNL Workfront] usa cualquiera de las siguientes programaciones, tal como se definen en el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración]:
 
-   * En el entorno de producción, [!DNL Workfront] usa la programación del usuario para calcular la escala de tiempo de la tarea. Esto también incluye la hora personal del usuario. Se ignora la programación del proyecto.
+   * La programación del usuario asignado a la tarea
+   * Horario asociado al proyecto.
 
-     Para obtener más información sobre el tiempo personal, consulte [Configurar el tiempo libre personal](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Para obtener más información sobre los días libres personales, consulte [Configurar los días libres personales](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-   * <span class="preview">En el entorno de vista previa, [!DNL Workfront] usa cualquiera de las siguientes programaciones, tal como se definen en el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración]:</span>
+* Cuando se asignan varios usuarios a una tarea y los usuarios tienen horarios diferentes durante el lapso de tiempo de la tarea, [!DNL Workfront] usa uno de los siguientes horarios, tal como se define en el área [!UICONTROL Project Preferences] de [!UICONTROL Setup]:
 
-      * <span class="preview">Programación del usuario asignado a la tarea </span>
-      * <span class="preview">La programación asociada con el proyecto.</span>
+   * Horario del usuario designado como usuario asignado principal
+   * Horario asociado al proyecto.
 
-* Cuando se asignan varios usuarios a una tarea y los usuarios tienen programaciones diferentes durante el lapso de tiempo de la tarea, [!DNL Workfront] usa una de las siguientes programaciones, tal como se define en el área de [!UICONTROL Preferencias del proyecto] de [!UICONTROL Configuración]:
+     Para obtener más información acerca de las preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   * El horario del usuario designado como la persona asignada principal
-   * La programación asociada con el proyecto.
-
-     Para obtener más información acerca de las preferencias del proyecto, vea [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-* Si el usuario asignado a la tarea no tiene ninguna programación, o si la tarea está asignada solamente a un rol de trabajo, a un equipo o no está asignada, [!DNL Workfront] usa la programación del proyecto para los cálculos de escala de tiempo.
-* Si el usuario asignado a la tarea no tiene ninguna programación, o si la tarea está asignada solamente a un rol de trabajo, a un equipo o no está asignada, y el proyecto no tiene ninguna programación, [!DNL Workfront] usa la programación en el sistema designado como la Programación predeterminada para los cálculos de escala de tiempo.
+* Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a una función o un equipo, o no se ha asignado, [!DNL Workfront] usa el horario del proyecto para los cálculos de línea de tiempo.
+* Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a un equipo o no se ha asignado, y el proyecto no tiene horario, [!DNL Workfront] usa el horario del sistema designado como horario predeterminado para los cálculos de línea de tiempo.
 
   ![](assets/default-schedule.png)
 
-## Collaboration en [!DNL Workfront] entre zonas horarias
+## Colaboración en [!DNL Workfront] entre zonas horarias
 
-Para obtener información acerca del uso de programaciones para ayudar a los usuarios a colaborar en [!DNL Workfront] en diferentes zonas horarias, vea [Trabajar en diferentes zonas horarias](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+Para obtener información acerca del uso de horarios para ayudar a los usuarios a colaborar en [!DNL Workfront] en diferentes zonas horarias, consulte [Trabajo en diferentes zonas horarias](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).

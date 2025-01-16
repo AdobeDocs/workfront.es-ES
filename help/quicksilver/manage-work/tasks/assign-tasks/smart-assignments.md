@@ -7,10 +7,10 @@ description: Al administrar asignaciones de tareas y problemas, puede utilizar a
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 95%
+source-wordcount: '556'
+ht-degree: 80%
 
 ---
 
@@ -20,13 +20,15 @@ ht-degree: 95%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">La información resaltada en esta página hace referencia a la funcionalidad disponible solamente en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
+<span class="preview">La información resaltada en esta página hace referencia a la funcionalidad disponible solamente en el entorno de vista previa.</span>
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> Esta funcionalidad se eliminará del entorno de producción para los clientes que habilitaron la versión rápida con la versión 25.1 en enero de 2025. Para obtener más información sobre la versión 25.1, consulte [Información general sobre la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
-Al administrar las asignaciones de tareas y problemas, puede utilizar asignaciones inteligentes para identificar quién es el mejor recurso para completar el trabajo. Las asignaciones inteligentes son sugerencias que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Las asignaciones inteligentes pueden ser usuarios, funciones o equipos.
+Al administrar asignaciones de tareas y problemas, puede utilizar asignaciones inteligentes para identificar quién es el mejor recurso para completar el trabajo.
+
+Las asignaciones inteligentes son sugerencias que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Las asignaciones inteligentes pueden ser usuarios, funciones o equipos.
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ Este artículo contiene información general sobre las asignaciones inteligentes
 
 Tenga en cuenta lo siguiente al trabajar con asignaciones inteligentes:
 
-* <span class="preview">El algoritmo funciona de forma independiente para tareas y problemas. Esto significa que la lista de usuarios sugeridos para los problemas puede diferir de la lista de usuarios sugeridos para una tarea, ya que Workfront crea las listas de acuerdo con los criterios pertenecientes a los problemas y las tareas por separado. </span>
+<!--* <span class="preview">The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. </span>-->
 <!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
 * Las asignaciones sugeridas siempre son usuarios activos, funciones o equipos.
 * El recurso que aparezca en primer lugar debe ser el más adecuado para la tarea.
@@ -51,11 +53,11 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Una lista de tareas o un informe en la columna Asignaciones</span>
+* Lista de tareas o informe en la columna Asignaciones
 
   ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">Un encabezado de tarea en el campo Asignaciones</span>
+* Un encabezado de tarea en el campo Asignaciones
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -67,9 +69,9 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">El campo Asignaciones en el cuadro Nueva tarea, al añadir una tarea a un proyecto</span>
+<!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  ![](assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,77 +79,79 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* <span class="preview">Distribuidor de cargas de trabajo en el área Asignado a al asignar una tarea o un problema</span>
+* Distribuidor de cargas de trabajo en el área Asignado este a al asignar una tarea o un problema
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criterios de las asignaciones inteligentes
 
-Las asignaciones inteligentes funcionan de forma diferente para las tareas y para los problemas.
+<!--Smart assignments work differently for tasks than for issues.  -->
 
-### Criterios de las asignaciones inteligentes para tareas
+<!--### Smart assignments criteria for tasks
 
-El cálculo de asignaciones inteligentes de tareas funciona en <span class="preview">dos fases que utilizan dos algoritmos diferentes.</span>
+The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
-<span class="preview">Según el algoritmo que encuentre la asignación inteligente, las asignaciones se enumerarán en dos secciones independientes del campo Asignaciones.</span> Para obtener más información, consulte [Realizar asignaciones inteligentes](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
 ![](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 
-#### Primera fase del cálculo de asignación inteligente para tareas
+#### First phase of smart assignment calculation for tasks 
 
-En la primera fase del cálculo de las asignaciones inteligentes, Workfront calcula una puntuación de similitud para cada asignación.
+In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. 
 
 >[!NOTE]
 >
->La primera fase del cálculo de asignaciones inteligentes no se aplica a las siguientes áreas de tareas:
+>The first phase of the smart assignments calculation does not apply to the following task areas:
 >
->* Asignaciones en lotes en el Distribuidor de cargas de trabajo.
->* Tarjetas conectadas en tableros.
+>* Bulk Assignments in the Workload Balancer.
+>* Connected cards on boards.
 
 
-El cálculo de la puntuación de similitud y el orden en que se enumeran las asignaciones tienen en cuenta lo siguiente:
+The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
-* Se asigna una puntuación del 100 % a una asignación existente en la que los nombres de las tareas, proyectos y portafolios son idénticos a los de la tarea que intenta asignar. Los nombres de proyecto y portafolios de la tarea de una asignación existente también deben coincidir con el proyecto y portafolios de la tarea que intenta asignar.
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
 
-* Si sólo parte de esta información de otras asignaciones coincide con las tareas existentes, la puntuación podría ser inferior al 100 %.
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower than 100%.  
 
-  Por ejemplo, si asigna una tarea denominada “Mi segunda tarea” a un proyecto denominado “Mi proyecto” en un portafolio denominado “Mi portafolio” y ya tiene una tarea denominada “Mi tarea” en otro proyecto denominado “Mi proyecto” en un portafolio denominado “Mi portafolio”, el usuario asignado a “Mi tarea” podría obtener una puntuación del 95 % porque el nombre de la tarea existente y la tarea que está intentando asignar ahora son similares, pero no idénticos.
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
 
-  >[!TIP]
-  >
-  >  Workfront busca coincidencias únicamente en los campos Nombre de tareas, proyectos y portafolios y no en ningún otro campo.
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that have similar names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
 
-* Una asignación podría obtener una puntuación más alta cuando se le asignan muchas tareas en el sistema que tienen nombres similares. Por ejemplo, si se asigna un equipo llamado “Desarrollo” al 50 % de las tareas del sistema que contienen “IA” en el nombre y ahora se asigna otra tarea con “AI” en el nombre, la puntuación del equipo “Desarrollo” es mayor. En este caso, los nombres de los proyectos y portafolios no son tan importantes.
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
 
-* Teniendo en cuenta este sistema de puntuación, las primeras siete sugerencias se enumeran como asignaciones inteligentes, en orden descendente según sus puntuaciones. No se muestran las asignaciones con puntuaciones inferiores al 40 %.
+* If several assignments have identical scores, they display in order of the date on which the assignments were made, starting from the most recent date.  
 
-* Si varias asignaciones tienen puntuaciones idénticas, se muestran en orden de fecha en que se realizaron las asignaciones, empezando por la fecha más reciente.
+  For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-  Por ejemplo, si se asignó a Rick una tarea similar durante el día de hoy, y a Jennifer se le asignó una tarea similar hace dos días, Rick aparece primero.
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
-* Las asignaciones identificadas en esta fase se enumeran en la sección **Asignaciones recomendadas** del campo Asignaciones para tareas.
-
-* Si no se obtienen coincidencias al usar este cálculo, se inicia la segunda fase de las asignaciones inteligentes, que se calcula con un algoritmo diferente.
+* If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
 </div>
 
-#### Segunda fase del cálculo de asignaciones inteligentes para tareas
+#### Second phase of smart assignment calculation for tasks-->
 
-Si no se encuentran coincidencias en el primer paso de las asignaciones inteligentes de tareas, Workfront calcula las asignaciones inteligentes de las tareas de la misma manera que las calcula para los problemas.
+<!--If the first step of task smart assignments has found no matches,-->
 
-Para obtener más información, consulte la sección [Criterios de asignaciones inteligentes para tareas y problemas](#smart-assignments-criteria-for-tasks-and-issues) en este artículo.
+Workfront calcula las asignaciones inteligentes de las tareas del mismo modo que las calcula para los problemas.
 
-Las asignaciones identificadas en esta fase se enumeran en las secciones **Usuarios y equipos**, **Asignaciones de funciones** y <span class="preview">**Funciones de tarjeta de tarifas**</span> del campo Asignaciones. <span class="preview">Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+<!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-### Criterios de asignaciones inteligentes para tareas y problemas
+Las asignaciones identificadas se enumeran en las secciones **Usuarios y equipos**, **Asignaciones de funciones** y <span class="preview">**Funciones de tarjeta de tarifas**</span> del campo Asignaciones. <span class="preview">Para obtener más información sobre las tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
+<!--
+### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->Los siguientes criterios se aplican a las tareas solo cuando la primera fase del cálculo de asignación inteligente de tareas no encontró ninguna coincidencia. Para obtener más información, consulte la sección [Primera fase del cálculo de asignaciones inteligentes para tareas](#first-phase-of-smart-assignment-calculation-for-tasks) en este artículo. Los siguientes criterios siempre se aplican a los problemas de forma predeterminada.
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
 ![](assets/smart-assignments-issue-header.png)
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 1%
+source-wordcount: '1433'
+ht-degree: 8%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # Administrar conexiones de registro desde objetos de Workfront
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 Puede mostrar los registros de Workfront Planning y sus registros respectivos conectados a objetos de Adobe Workfront en las siguientes áreas de Workfront:
 
 * La sección Planning de un objeto Workfront: muestra todos los tipos de registros conectados a un objeto y sus registros conectados respectivos.
-* <span class="preview">Campo personalizado de conexión de Planning: muestra un tipo de registro y sus registros conectados respectivos. </span>
+* Campo personalizado de conexión de Planning: muestra un tipo de registro y sus registros conectados respectivos.
 
 ## Requisitos de acceso
 
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td>
    <td>
 <p>Cualquiera de los siguientes planes de Workfront:</p>
 <ul><li>Seleccionar</li>
@@ -70,7 +70,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p>
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
 
 </tr>
@@ -83,7 +83,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td>
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td>
    <td> <p>Acceso de visualización o superior a Proyectos, Programas y Portfolio</p>  
 </td>
   </tr>
@@ -114,7 +114,7 @@ La sección Planificación está disponible para los siguientes objetos de Workf
 
 * Proyecto
 * Portafolio
-* Programar
+* Programa
 <!--* Group
 * Company-->
 
@@ -126,7 +126,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * Puede ver la sección de Planning desde un objeto de Workfront, incluso cuando no haya registros asociados al objeto de Workfront.
 
@@ -180,8 +180,6 @@ Ocurren lo siguiente:
    * El objeto Workfront se agrega al campo conectado del registro de Workfront Planning.
    * Los valores de los campos de búsqueda de Workfront conectados al registro de Planning se rellenan en Workfront Planning.
 
-<div class="preview">
-
 ## Administrar registros en el tipo de campo de conexión de Planning
 
 Puede utilizar un campo personalizado de conexión de Planning en un objeto Workfront para ver un tipo de registro y sus registros respectivos conectados al objeto Workfront.
@@ -192,7 +190,7 @@ Puede controlar qué tipos de registros de Planning se muestran para el objeto d
 
    * Proyecto
    * Portafolio
-   * Programar
+   * Programa
    * Grupo
    * Compañía
 
@@ -204,7 +202,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 
 * Sólo puede asociar un tipo de registro con un campo de conexión de Planning.
 * Debe adjuntar un formulario personalizado con un campo personalizado de conexión de Planning a un objeto de Workfront que se pueda conectar desde Workfront Planning, si tiene el acceso correcto.
-* Los tipos de registros de Workfront Planning deben conectarse primero a los tipos de objetos de Workfront. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Los tipos de registros de Workfront Planning deben conectarse primero a los tipos de objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Puede conectar o desconectar registros del campo de conexión de Planning de un objeto de Workfront sólo para objetos que puedan tener conexiones de Workfront Planning.
 * Debe tener permisos de Contribute para un espacio de trabajo en Workfront Planning para poder conectar o desconectar registros del campo de conexión de Planning de un objeto de Workfront.
 * No se puede editar un campo de conexión de Planning al editar objetos de Workfront de forma masiva.
@@ -215,7 +213,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 
    * Proyecto
    * Portafolio
-   * Programar
+   * Programa
    * Compañía
    * Grupo
 
@@ -254,5 +252,3 @@ Puede revisar información sobre el registro o navegar a la página de tipo de r
 
 1. (Opcional) En el formulario personalizado de Workfront, haga clic en el icono **Quitar** ![](assets/remove-icon.png) de un registro para quitarlo del campo de conexión de Planning y desconectarlo del objeto de Workfront.
 El objeto Workfront se desconecta del registro de Planning y cualquier información de búsqueda de Workfront se quita del registro.
-
-</div>

@@ -6,25 +6,25 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 1%
+source-wordcount: '709'
+ht-degree: 34%
 
 ---
 
 
-# Agregar una imagen de portada a un registro
+# Añadir una imagen de portada a un registro
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 Puede personalizar los registros agregando una imagen de portada a la página de registros en Adobe Workfront Planning, al editar un registro.
 
-Para obtener información sobre cómo editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener información sobre la edición de registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 Debe crear tipos de registros antes de empezar a crear y editar registros.
 
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -80,7 +80,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
@@ -114,7 +114,7 @@ Tenga en cuenta lo siguiente:
 * No se pueden agregar imágenes de portada desde una vista de registros.
 * Workfront carga automáticamente una imagen de portada cada vez que crea un registro. Más adelante puede modificar esta imagen.
 
-## Agregar una imagen de portada a un registro
+## Añadir una imagen de portada a un registro
 
 Puede personalizar un registro agregando una imagen de portada en la parte superior de la vista previa del registro o de la página.
 
@@ -124,7 +124,7 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
    O
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
+   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
 
    Se abre el espacio de trabajo y se muestran los tipos de registro.
 
@@ -136,19 +136,19 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
    O
 
-   En la vista de tabla, haga clic en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) de la primera columna.
+   En la vista de tabla, haga clic en el icono de **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    ![](assets/details-box.png)
 
-1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
+1. (Opcional) Haga clic en el icono de **Abrir en pestaña nueva** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
 
    Se abre la página de registro.
 
    ![](assets/details-page.png)
 
-1. En la página o vista previa del registro, haga clic en **Agregar portada** en el entorno Producción, <span class="preview">o pase el ratón sobre el espacio situado encima del nombre del registro y, a continuación, haga clic en **Agregar portada** en el entorno Vista previa</span>.
+1. En la vista previa del registro o en la página de detalles, pasa el ratón sobre el espacio que hay sobre el nombre del registro y haz clic en **Agregar portada**.
 
    O
 
@@ -167,7 +167,7 @@ El cuadro **Cubierta de registro** se abre en la ficha **Cargar**.
 
 1. Haga clic en **Usar imagen**.
 
-   La imagen se carga en la parte superior de la página o vista previa del registro y los cambios se guardan automáticamente.
+   La imagen se carga en la parte superior de la página de vista previa del registro o de detalles y los cambios se guardan automáticamente.
 
    ![](assets/record-page-with-cover-image.png)
 
@@ -177,4 +177,4 @@ El cuadro **Cubierta de registro** se abre en la ficha **Cargar**.
    * Haga clic en **Cambiar posición**, use la herramienta **Cambiar posición** ![](assets/reposition-tool-icon.png) para centrar la imagen de portada y, después, haga clic en **Guardar** cuando haya terminado.
    * Haz clic en **Quitar** para quitar la imagen de la portada.
 
-   Workfront guarda automáticamente los cambios.
+   Workfront guardará automáticamente los cambios.

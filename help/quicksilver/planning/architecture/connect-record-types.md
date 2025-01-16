@@ -1,24 +1,24 @@
 ---
 title: Conectar tipos de registro
-description: Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar tipos de registros de Adobe Workfront Planning con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
+description: Una forma de indicar cómo se relacionan entre sí los distintos tipos de registro es conectarlos. Además, puede conectar tipos de registros de Planificación de Adobe Workfront con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 1%
+source-wordcount: '2303'
+ht-degree: 65%
 
 ---
 
 
-# Conectar tipos de registros
+# Conectar tipos de registro
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -30,13 +30,13 @@ Puede conectar tipos de registros entre sí o conectar tipos de registros con ti
 
 En este artículo se describe cómo conectar dos tipos de registros de Workfront Planning o un tipo de registro de Workfront Planning con un objeto de otra aplicación.
 
-Después de establecer la conexión entre registros o tipos de objeto, puede conectar registros individuales entre sí y mostrar campos de los registros vinculados o tipos de objeto en un registro de Workfront Planning.
+Después de establecer la conexión entre registros o tipos de objeto, puede conectar registros individuales entre sí y mostrar campos de los registros vinculados o tipos de objeto en un registro de Planificación de Workfront.
 
 Para obtener información general acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Para obtener información acerca de cómo conectar registros o registros con objetos de otras aplicaciones, vea [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
-Para ver un ejemplo de conexión de tipos de registros y registros, vea [Ejemplo de conexión de tipos de registros y registros](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ejemplo de conexión de tipos de registros y registros](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -84,7 +84,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -95,7 +95,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
@@ -173,19 +173,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 +++
 
 
-## Conectar tipos de registros
+## Conectar tipos de registro
 
 <!--when changes here, also update the article for "Connect records"-->
 
 {{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo cuyos tipos de registros desee conectar,
+1. Haga clic en el espacio de trabajo cuyos tipos de registro desee conectar,
 
    O
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
+   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
-1. Haga clic en el icono **+** en la esquina superior derecha de la vista de tabla y, a continuación, haga clic en la ficha **Nueva conexión**.
+1. Haga clic en el icono **+** de la esquina superior derecha de la vista de tabla y, a continuación, en la pestaña **Nueva conexión**.
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
@@ -198,7 +198,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >[!TIP]
      >
      > 
-     >Si no tiene otros tipos de registro en el espacio de trabajo seleccionado, la sección del espacio de trabajo no se muestra.
+     >Si no se tienen otros tipos de registro en el espacio de trabajo seleccionado, la sección del espacio de trabajo no se muestra.
 
 
    * Un tipo de registro de otro espacio de trabajo configurado para conectarse desde otros espacios de trabajo. Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
@@ -210,7 +210,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >Si no hay ningún tipo de registro configurado para conectarse desde otros espacios de trabajo, la sección del espacio de trabajo no se muestra.
 
 
-   * Un **proyecto, Portfolio, programa, compañía** o **grupo** de la sección **Tipos de objetos de Workfront**.
+   * Un **proyecto, portafolio, programa, compañía** o **grupo** de la sección **Tipos de objetos de Workfront**.
 
      ![](assets/workfront-project-connection-selection.png)
 
@@ -224,9 +224,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!TIP]
    >
-   >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no edita el nombre del campo conectado, Workfront agrega un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
+   >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no se edita el nombre del campo conectado, Workfront añade un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
 
-   * **Descripción**: Información adicional acerca del campo de registro conectado. La descripción de un campo se muestra cuando pasa el ratón sobre la columna del campo de una tabla.
+   * **Descripción**: información adicional acerca del campo de registro conectado. La descripción de un campo se muestra cuando se pasa el puntero por encima de la columna de campo de una tabla.
    * **Permitir varios registros**: seleccione esta opción para indicar que permite a los usuarios agregar varios registros cuando el campo de tipo de registro vinculado se muestra en los registros originales. Esta opción está seleccionada de forma predeterminada.
 
      Esta opción solo está disponible cuando se conectan registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager.
@@ -248,30 +248,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      >[!NOTE]
      >
-     ><span class="preview"> Si selecciona Uno a varios o Uno a uno para el tipo Conexión y posteriormente desea conectar un registro o un objeto que ya está conectado en otra parte, recibirá una advertencia indicando que si lo vuelve a conectar, se quitará de la conexión original. Puede permitir la eliminación o seleccionar otro registro.</span>
+     > Si selecciona Uno a varios o Uno a uno para el tipo Conexión y posteriormente desea conectar un registro o un objeto que ya está conectado en otro lugar, recibirá una advertencia indicando que conectarlo de nuevo lo quitará de la conexión original. Puede permitir la eliminación o seleccionar otro registro.
 
-   * **Seleccionar campos de búsqueda**: seleccione esta opción para agregar campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
+   * **Seleccionar campos de búsqueda**: seleccione esta opción para añadir campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
 
      >[!TIP]
      >
-     > No puede agregar los siguientes tipos de campo como campos de búsqueda:
+     > No se puede añadir los siguientes tipos de campo como campos de búsqueda:
      >
      >    * Personas
      >    * Creado por
      >    * Última modificación realizada por
      >    * Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
 
-1. (Condicional y opcional) Si seleccionó conectar un objeto de Workfront, seleccione un **formulario personalizado** de la sección **Vincular solo objetos que coincidan con estos criterios**. Solo los objetos que tienen los formularios personalizados seleccionados adjuntos pueden vincularse al tipo de registro seleccionado. Puede seleccionar varios formularios.
+1. (Condicional y opcional) Si seleccionó conectar un objeto de Workfront, seleccione un **formulario personalizado** de la sección **Vincule solo los objetos que cumplan estos criterios**. Solo los objetos que tienen los formularios personalizados adjuntos seleccionados pueden vincularse al tipo de registro seleccionado. Pueden seleccionarse varios formularios.
 
    >[!NOTE]
    >
    > Debe crear formularios personalizados en Workfront para los objetos seleccionados antes de que se muestren en esta lista.
 
-1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets, seleccione un repositorio en el menú desplegable **Repositorio de Experience Manager** de la sección **Vincular recursos del siguiente repositorio**. Este campo es obligatorio. En este campo solo se muestran los repositorios a los que tiene acceso en Experience Manager Assets.
+1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets, seleccione un repositorio en el menú desplegable **Repositorio de Experience Manager** de la sección **Vincular recursos del repositorio siguiente**. Este campo es obligatorio. En este campo solo se muestran los repositorios a los que tiene acceso en Experience Manager Assets.
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=es).
 
 1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, seleccione una de las siguientes opciones en el área **Apariencia del registro**:
 
@@ -279,13 +279,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * **Nombre**: solo se mostrará el nombre de los registros conectados en el campo de registro conectado.
    * **Imagen**: solo se mostrará la miniatura o el icono de los registros conectados en el campo de registro conectado.
 
-   Los registros sin imagen en miniatura muestran el icono de tipo de registro en su lugar. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Apariencia del registro**.
+   Los registros sin imagen en miniatura muestran el icono de tipo de registro en su lugar. Se mostrará un ejemplo de cómo se mostrarán los registros conectados en el área **Grabar apariencia**.
 
    >[!NOTE]
    >
-   >* Cuando permite vincular varios registros, la visualización de sólo la miniatura puede ahorrar espacio en áreas más pequeñas, como las vistas de registros.
+   >* Cuando permite vincular varios registros, la visualización de solo la miniatura puede ahorrar espacio en áreas más pequeñas, como las vistas de registros.
    >
-   >* El nombre de un registro es el campo principal del registro. Para obtener más información, vea [Información general del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* El nombre de un registro es el campo principal del registro. Para obtener más información, consulte [Información general sobre el campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La selección de una apariencia de registro no está disponible al seleccionar tipos de objetos de Workfront.
    >
@@ -293,9 +293,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en **Crear**.
 
-1. (Condicional) Si seleccionó la opción **Seleccionar campo de búsqueda**, se abrirá el cuadro **Agregar campos de búsqueda**.
+1. (Condicional) Si seleccionó la opción **Seleccionar campo de búsqueda**, se abrirá el cuadro **Añadir campos de búsqueda**.
 
-   Haga clic en el icono **+** para agregar campos del área **Campos no seleccionados**.
+   Haga clic en el icono **+** para añadir campos desde el área **Campos no seleccionados**.
 
    O
 
@@ -307,39 +307,39 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!IMPORTANT]
    >
-   >    Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
+   >    Todas las personas con permisos de visualización o superiores del espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
 
 
-1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos del registro u tipo de objeto vinculado. El nombre o el campo Principal del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
+1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos desde el registro o el tipo de objeto vinculados. El nombre o el campo Principal del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
 
-1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor de acumulador para resumir varios valores. Los valores de los campos vinculados se muestran separados por comas o como un valor resumido según el agregador que elija, cuando los usuarios seleccionan más de un registro vinculado en el campo de registro vinculado.
+1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor del agregador para resumir varios valores. Los valores de los campos vinculados se muestran separados por comas o como un valor resumido según el agregador que elija, cuando los usuarios seleccionen más de un registro vinculado en el campo de registros vinculados.
 
-   Si el campo de búsqueda contiene varios valores que no están resumidos, tenga en cuenta lo siguiente al utilizar el campo en la ordenación o agrupación de una vista:
+   Si el campo de búsqueda contiene varios valores que no están resumidos, tenga en cuenta lo siguiente al utilizar el campo en la ordenación o la agrupación de una vista:
 
-   * La ordenación se realiza mediante el primer valor
+   * La ordenación se realiza según el primer valor
 
-   * Los registros se agrupan por cada combinación única de valores de campo
+   * Los registros se agrupan según cada combinación única de valores de campo
 
    * La vista de cronología se crea en función del primer valor de fecha
 
    >[!IMPORTANT]
    >
-   >    Debe seleccionar un valor de agregado al agregar campos de fecha de búsqueda si desea que los campos estén disponibles para agregarlos como fechas de inicio y finalización en las vistas de calendario y escala de tiempo. Por ejemplo, puede seleccionar el agregador MAX o MIN para un campo de fecha de búsqueda.
+   >    Debe seleccionar un valor del agregador al añadir campos de fecha de búsqueda si desea que los campos estén disponibles para añadirlos como fechas de inicio y finalización en las vistas del calendario y la cronología. Por ejemplo, puede seleccionar el agregador MAX o MIN para un campo de fecha de búsqueda.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
-   > Los acumuladores no están disponibles al conectar tipos de registros a Experience Manager Assets.
+   > Los agregadores no están disponibles al conectar los tipos de registros a Experience Manager Assets.
 
-   Seleccione una de las siguientes opciones:
+   Seleccione entre las siguientes opciones:
 
-   * **Ninguno**: Muestra los valores que provienen de varios registros separados por comas. Esta es la selección predeterminada.
-   * **MAX**: muestra el valor más alto de todos los valores procedentes de varios registros seleccionados en el campo de registro vinculado.
-   * **MIN**: muestra el valor más bajo de todos los valores que provienen de varios registros seleccionados en el campo de registro vinculado.
-   * **SUM**: Muestra el total de todos los valores que provienen de varios registros seleccionados en el campo de registro vinculado.
-   * **AVG**: Muestra el promedio de todos los valores que provienen de varios registros seleccionados en el campo de registro vinculado.
-   * **ÚNICO**: quita los duplicados de los valores de los campos de búsqueda y solo muestra los valores únicos. Esto no está disponible para los siguientes tipos de campo:
+   * **None**: muestra los valores que provienen de varios registros separados por comas. Esta es la selección predeterminada.
+   * **MAX**: muestra el valor más alto de todos los valores procedentes de varios registros seleccionados en el campo del registro vinculado.
+   * **MIN**: muestra el valor más bajo de todos los valores que provienen de varios registros seleccionados en el campo del registro vinculado.
+   * **SUM**: muestra el total de todos los valores que provienen de varios registros seleccionados en el campo del registro vinculado.
+   * **AVG**: muestra el promedio de todos los valores que provienen de varios registros seleccionados en el campo del registro vinculado.
+   * **UNIQUE**: quita los duplicados de los valores de los campos de búsqueda y solo muestra los valores únicos. Esta opción no está disponible para los siguientes tipos de campo:
       * Párrafo
       * Casilla de verificación
       * Personas
@@ -348,40 +348,40 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >Por ejemplo, puede vincular el registro de producto (registro vinculado) desde el registro de campaña (registro original) y asignarle el nombre &quot;campo de producto&quot;. También puede vincular el campo Presupuesto del registro de producto del registro de campaña y llamarlo &quot;Presupuesto de producto&quot;. Si se le permite seleccionar varios registros en el &quot;Campo de producto&quot;, puede seleccionar el Producto 1 con un Presupuesto de 100 000 $ y el Producto 2 con un Presupuesto de 110 000 $, y el Producto 3 con un Presupuesto de 100 000 $. Puede ver la siguiente información de presupuesto en el campo vinculado desde el registro original, en función del agregador que elija:
    >
-   >* **Ninguno**: 100.000, 110.000, 100.000 $
+   >* **Ninguno**: $100,000, $110,000, $100,000
    >* **MAX**: $110,000
    >* **MIN**: $100,000
    >* **SUMA**: $310,000
-   >* **PROMEDIO**: 103.000,33 $
+   >* **PROMEDIO**: $103,000.33
    >* **ÚNICO**: $100,000
    >
 
-1. (Opcional) Use el icono **search** ![](assets/search-icon.png) para buscar un campo.
+1. (Opcional) Use el icono **búsqueda** ![](assets/search-icon.png) para buscar un campo.
 
-1. Haga clic en **Agregar campos** para guardar los cambios.
+1. Haga clic en **Añadir campos** para guardar los cambios.
 
    Se añaden los elementos siguientes:
 
-   * Un campo de registro vinculado en el tipo de registro desde el que está vinculando. El campo de registro vinculado mostrará registros individuales del tipo de registro vinculado, después de agregarlos manualmente. Para obtener información sobre cómo agregar registros, vea [Conectar registros](/help/quicksilver/planning/records/connect-records.md). El nombre del campo de registro vinculado es el nombre seleccionado en el paso 6. <!--accurate-->
+   * Un campo de registro vinculado en el tipo de registro desde el que está vinculando. El campo de registro vinculado mostrará registros individuales del tipo de registro vinculado, después de añadirlos manualmente. Para obtener información sobre cómo añadir registros, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md). El nombre del campo de registro vinculado es el nombre seleccionado en el paso 6. <!--accurate-->
 
-   * Campo (o campos) vinculado (o de búsqueda) que muestra información sobre el registro vinculado o los tipos de objeto después de agregar manualmente los registros u objetos en el campo de registro vinculado. Los campos de búsqueda solo se crean cuando la opción **Seleccionar campos de búsqueda** está seleccionada al crear la conexión. Los campos de búsqueda se nombran automáticamente según este patrón:
+   * Campo (o campos) vinculado (o de búsqueda) que muestra información sobre el registro vinculado o los tipos de objeto después de añadir manualmente los registros u objetos en el campo de registro vinculado. Los campos de búsqueda solo se crean cuando la opción **Seleccionar campos de búsqueda** está seleccionada al crear la conexión. Los campos de búsqueda se nombran automáticamente según este patrón:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
      Por ejemplo, si ha vinculado un tipo de registro de campaña con un tipo de registro de programa y ha asignado al campo de registro vinculado de programa el nombre &quot;Información del programa&quot;, seleccionado a continuación para mostrar también el campo Presupuesto del programa en la vista de tabla de la campaña, el campo vinculado se denomina automáticamente `Budget (from Program information)` en la vista de tabla de la campaña.
 
-   * Cuando se vinculan tipos de registros entre sí, también se agrega un campo de registro vinculado en el tipo de registro al que se está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
+   * Cuando se vinculan tipos de registros entre sí, también se añade un campo de registro vinculado en el tipo de registro al que se está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
 
      Por ejemplo, si vincula el tipo de registro &quot;Producto&quot; desde el tipo de registro &quot;Campaña&quot; y asigna al campo conectado de la campaña el nombre &quot;Producto vinculado&quot;, se crea un campo de registro vinculado &quot;Campaña&quot; para el tipo de registro Producto.
 
      >[!TIP]
      >
-     > No se crea un campo de registro vinculado para los objetos de otra aplicación con el tipo de registro desde el que se está vinculando en Workfront Planning.
+     > No se crea un campo de registro vinculado para los objetos de otra aplicación con el tipo de registro desde el que se está vinculando en Planificación de Workfront.
 
 1. (Opcional y condicional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
 
    * **Editar campo**: Actualice la información de **Nombre** y **Descripción** del campo.
-   * **Editar campos de búsqueda**: agregue o quite cualquiera de los campos del registro vinculado.
+   * **Editar campos de búsqueda**: se pueden añadir o quitar los campos del registro vinculado.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
@@ -389,9 +389,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!NOTE]
    >
-   > No se pueden agregar campos de búsqueda que pertenezcan a tipos de registro que esté vinculando a tipos de objeto de otra aplicación.
+   > No se pueden añadir campos de búsqueda que pertenezcan a tipos de registro que esté vinculando a tipos de objeto de otra aplicación.
    >
-   > Por ejemplo, no puede agregar el campo de búsqueda &quot;Estado de campaña&quot; a un proyecto de Workfront al que esté vinculando desde las campañas.
+   > Por ejemplo, no puede añadir el campo de búsqueda “Estado de campaña” a un proyecto de Workfront al que esté vinculando desde las campañas.
 
 1. (Opcional) Haga clic en la flecha hacia abajo en el encabezado de un campo de registro vinculado o en el encabezado de un campo de búsqueda desde el tipo de registro desde el que está vinculando y, a continuación, haga clic en **Eliminar**.
 
