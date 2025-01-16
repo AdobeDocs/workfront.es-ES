@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Asignar una matriz en  [!DNL Adobe] Workfront Fusion
-description: Puede asignar una matriz a un campo de módulo en Adobe Workfront Fusion.
+title: Asignar una matriz en  [!DNL Adobe]  Workfront Fusion
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: f87bc22f4ce70f266a199fcb54c5a74f9e3ba914
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '929'
+ht-degree: 41%
 
 ---
 
 # Asignar una matriz en [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Asignar una matriz o elemento de matriz](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-an-array.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 Una matriz es un tipo especial de elemento que puede contener lo siguiente:
 
@@ -23,13 +35,13 @@ Una matriz es un tipo especial de elemento que puede contener lo siguiente:
 
 >[!INFO]
 >
->**Ejemplo:** El módulo [!UICONTROL Ver correos electrónicos] devuelve una matriz de archivos adjuntos para cada correo electrónico. Cada archivo adjunto representa una colección que puede contener un nombre, contenido, tamaño, etc.
+>**Ejemplo:** el módulo [!UICONTROL Ver correos electrónicos] devuelve una matriz de archivos adjuntos para cada correo electrónico. Cada archivo adjunto representa una colección que puede contener un nombre, contenido, tamaño, etc.
 
-Para obtener más información, vea [Tipos de datos de elementos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+Para obtener más información, vea [Tipos de datos de elementos en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
  <col> 
@@ -41,20 +53,20 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td role="rowheader">Licencia** de [!UICONTROL Adobe Workfront Fusion]</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere la licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Producto</td> 
    <td>
-   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
    <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
@@ -74,11 +86,11 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 1. En el cuadro que aparece, asigne el elemento.
 
-   El panel le permite asignar campos del mismo modo que con cualquier otro tipo de elemento. Si no desea rellenar cada elemento por separado pero desea asignar otra matriz al campo de destino, utilice el botón [!UICONTROL Asignar]. En este caso, asegúrese de que ambas matrices (la matriz de origen y la matriz de destino) tienen la misma estructura.
+   El panel le permite asignar campos del mismo modo que con cualquier otro tipo de elemento. Si no desea rellenar cada elemento por separado, pero desea asignar otra matriz al campo de destino, utilice el botón [!UICONTROL Asignar]. En este caso, asegúrese de que ambas matrices (la matriz de origen y la de destino) tienen la misma estructura.
 
-   Puede agregar cualquier número de elementos a una matriz.
+   Puede añadir cualquier número de elementos a una matriz.
 
-Puede dividir una matriz en paquetes individuales mediante un iterador. Para obtener más información, consulte el módulo [[!UICONTROL Iterator] en [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/modules/iterator-module.md).
+Puede dividir una matriz en paquetes individuales mediante un iterador. Para obtener más información, consulte el módulo [[!UICONTROL Iterador] en  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/modules/iterator-module.md).
 
 ## Asignar elementos a una nueva matriz
 
@@ -92,7 +104,7 @@ Para agregar elementos a la matriz:
 
 1. Haga clic en **Agregar elemento**
 1. En el panel que se abre, escriba detalles sobre el elemento.
-1. Haga clic en **Agregar**.
+1. Haga clic en **Add**.
 1. (Opcional) Repita los pasos del 1 al 3 con cada elemento que desee agregar a la matriz .
 
 ## Asignar elementos de matriz
@@ -112,7 +124,7 @@ Para asignar un elemento de matriz:
 
 1. Haga clic en el campo donde desee asignar el elemento.
 
-   Se abrirá el panel Asignación.
+   Se abrirá el panel de asignación.
 
 1. Busque la matriz que contiene el elemento que desea asignar.
 1. Haga clic en la flecha desplegable situada junto a la matriz.
@@ -132,7 +144,7 @@ Algunas matrices contienen colecciones con elementos clave-valor como metadatos,
 
 >[!BEGINSHADEBOX]
 
-El siguiente ejemplo muestra el resultado de la aplicación [!DNL Jira].
+En el siguiente ejemplo se muestra el resultado de la aplicación [!DNL Jira].
 
 ![](assets/output-of-jira-app-350x100.png)
 
@@ -147,7 +159,7 @@ La fórmula se puede explicar de la siguiente manera:
 * `map`
 
    1. El primer parámetro de la función `map()` es todo el elemento de matriz.
-   1. El segundo parámetro es el nombre sin procesar del elemento de valor. Para obtener el nombre sin procesar, pase el ratón sobre el elemento del panel [!UICONTROL mapping]:
+   1. El segundo parámetro es el nombre sin procesar del elemento de valor. Para obtener el nombre sin procesar, pase el puntero por encima del elemento del panel de [!UICONTROL asignación]:
 
       ![](assets/obtain-raw-name-350x124.png)
 
@@ -161,7 +173,7 @@ La fórmula se puede explicar de la siguiente manera:
 
    1. El cuarto parámetro es el valor de clave dado.
 
-  Dado que la función `map()` devuelve una matriz (ya que podría haber más elementos con el valor de clave dado), es necesario aplicar la función `get()` para obtener su primer elemento:
+  Dado que la función `map()` devuelve una matriz (ya que podría haber más elementos con el valor de la clave especificada), es necesario aplicar la función `get()` para obtener su primer elemento:
 
 * `get`
 

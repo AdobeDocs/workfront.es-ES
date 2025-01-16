@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de Adobe Experience Manager Assets
-description: Con el  [!DNL Adobe Experience Manager Assets] conector para [!DNL Adobe Workfront Fusion], puede crear, cargar y actualizar recursos, así como copiar o mover carpetas y recursos.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 87%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
 
 # Módulos de [!DNL Adobe Experience Manager Assets]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Módulos Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 Con el conector [!DNL Adobe Experience Manager Assets] para [!DNL Adobe Workfront Fusion], puede crear, cargar y actualizar recursos, así como copiar o mover carpetas y recursos.
 

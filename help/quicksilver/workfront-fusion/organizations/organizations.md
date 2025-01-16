@@ -4,19 +4,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Organizaciones en  [!DNL Adobe Workfront Fusion]
-description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion y de Adobe Workfront.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c777b9e7-87cd-428f-9980-ef556f30e70f
-source-git-commit: 9d31e938677148614a8fbdd94f93b4439f705127
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 83%
+source-wordcount: '111'
+ht-degree: 29%
 
 ---
 
 # Organizaciones en [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>Consulte los artículos individuales para ver vínculos a la nueva documentación.
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 >[!NOTE]
 >

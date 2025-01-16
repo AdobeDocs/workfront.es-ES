@@ -3,22 +3,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Uso de archivos grandes en Adobe Workfront Fusion
-description: Actualmente, se admite archivos grandes para los conectores Workfront y HTTP.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 0%
+source-wordcount: '1163'
+ht-degree: 5%
 
 ---
 
 # Uso de archivos grandes en Adobe Workfront Fusion
 
+
+
 >[!IMPORTANT]
 >
->La funcionalidad de archivos de gran tamaño solo está disponible para los clientes de Workfront Ultimate y se está implementando por fases. Todas las organizaciones de Fusion con un plan Workfront Ultimate tendrán capacidad de archivos de gran tamaño en enero de 2025.
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Trabajando con archivos grandes](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
+>[!IMPORTANT]
+>
+>La funcionalidad de archivos de gran tamaño solo está disponible para los clientes de Workfront Ultimate y se está implementando por fases. Todas las organizaciones de Fusion con un plan de Ultimate de Workfront tendrán capacidad de archivos de gran tamaño en enero de 2025.
 
 Las funciones mejoradas de transferencia de datos ya están disponibles en Workfront Fusion, lo que permite a los escenarios procesar archivos considerablemente más grandes.
 
@@ -28,7 +42,7 @@ Para gestionar archivos de mayor tamaño, se deben actualizar los escenarios.
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
  <col> 
@@ -53,7 +67,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Producto</td> 
    <td>
-   <p>Nuevo: [!DNL Workfront Fusion] está incluido en el plan Ultimate Workfront.</p> <p>O</p>
+   <p>Nuevo: [!DNL Workfront Fusion] está incluido en el plan de Ultimate Workfront.</p> <p>O</p>
    <p>Actual: no disponible</p>
    </td> 
   </tr>
@@ -62,7 +76,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Para obtener información sobre las licencias de [!DNL Adobe Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 +++
 
@@ -84,9 +98,9 @@ El módulo Workfront > Cargar documento se ha modificado para gestionar archivos
 
 Si planea trabajar con archivos más grandes, le recomendamos reemplazar el módulo heredado con el nuevo módulo Cargar documento. El nuevo módulo Cargar documento evita tiempos de espera y otros errores.
 
-![Cargar documento](assets/new-upload-document.png)
+![Subir documento](assets/new-upload-document.png)
 
-## FAQ
+## Preguntas frecuentes
 
 ### ¿Cuál es el nuevo límite de tamaño de archivo?
 

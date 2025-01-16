@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Almacenes de datos en  [!DNL Adobe Workfront Fusion]
-description: Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 00a969175626d27b70d516921097725fdf818799
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 1%
+source-wordcount: '1369'
+ht-degree: 9%
 
 ---
 
 # Almacenes de datos en [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Crear y administrar almacenes de datos](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 Un almacén de datos, similar a una base de datos o tabla simple, puede almacenar datos de escenarios, lo que permite transferir datos entre escenarios individuales o ejecuciones de escenarios. Puede utilizar un almacén de datos para almacenar nuevos datos de varios sistemas durante la sincronización.
 
@@ -31,13 +43,13 @@ Los módulos del almacén de datos permiten realizar las siguientes acciones en 
 
 Para obtener información sobre el uso de módulos de almacén de datos, consulte [[!UICONTROL Módulos del almacén de datos]](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
-Para ver un vídeo introductorio a los almacenes de datos de Workfront Fusion, consulte:
+Para ver un vídeo introductorio a los almacenes de datos en Workfront Fusion, consulte:
 
 * [Almacenes de datos](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
  <col> 
@@ -60,9 +72,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
-   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul>
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] está incluido.</li></ul>
    <p>O</p>
    <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p>
    </td> 
@@ -72,7 +84,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Para obtener información sobre las licencias de [!DNL Adobe Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Espacio de datos disponible
 
@@ -80,14 +92,14 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 Si su organización está en el nuevo modelo de plan de Workfront (paquetes Select, Prime y Ultimate), el plan de su organización afecta al tamaño y el número de almacenes de datos disponibles en su instancia de Fusion.
 
-### Plan definitivo
+### plan de Ultimate
 
-Las instancias de Fusion en el paquete Ultimate reciben:
+Las instancias de Fusion del paquete de Ultimate reciben:
 
 * 100 MB de espacio
 * 50 almacenes de datos
 
-### Planes Select y Prime
+### Seleccionar y Prime planes
 
 Las instancias de Fusion en los paquetes Select o Prime reciben:—>
 
@@ -114,7 +126,7 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
 >
 >Para obtener más información, consulte [Error alcanzado en el número máximo de tiendas](#maximum-stores-reached-error) en este artículo.
 
-1. Inicie sesión en su cuenta de [!DNL Workfront Fusion].
+1. Inicie sesión en la cuenta de [!DNL Workfront Fusion].
 1. Haga clic en **[!UICONTROL Almacenes de datos]** en el panel de navegación izquierdo.
 1. Haga clic en **[!UICONTROL Agregar almacén de datos]** en la esquina superior derecha de la pantalla.
 1. Introduzca la configuración del nuevo almacén de datos.
@@ -130,7 +142,7 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
       <td> <p>Escriba un nombre para el almacén de datos. </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>[!UICONTROL Estructura de datos]</p> </td> 
+      <td> <p>[!UICONTROL Data Structure]</p> </td> 
       <td> <p>Una estructura de datos es una lista de las columnas de una tabla. Esta lista indica el nombre de columna y el tipo de datos.</p> <p>Realice una de las siguientes acciones:</p> 
        <ul> 
         <li style="font-weight: bold;">Seleccione una estructura de datos que ya se haya creado</li> 
@@ -165,7 +177,7 @@ Para poder usar un almacén de datos en un módulo, debe crear el almacén de da
         <li> <p>Haga clic en <strong>[!UICONTROL Agregar elemento]</strong> para especificar manualmente las propiedades de una columna.</p> <p>Escriba <strong>[!UICONTROL Name]</strong> y <strong>[!UICONTROL Type]</strong> para la columna del almacén de datos y defina las propiedades correspondientes.</p> </li> 
         <li> <p>Haga clic en <strong>[!UICONTROL Generator]</strong> para determinar las columnas a partir de los datos de ejemplo proporcionados.</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
-          <span class="autonumber"><span><b>Ejemplo: </b></span></span> 
+          <span class="autonumber"><span><b>Ejemplo:</b></span></span> 
           <p>Por ejemplo, los siguientes datos de ejemplo de JSON crean tres columnas: nombre, edad y número de teléfono. Número de teléfono es una colección de números de teléfono móviles y de teléfono fijo.</p> 
           <p><code>&lbrace;</code> </p> 
           <p><code>"name":"John",</code> </p> 

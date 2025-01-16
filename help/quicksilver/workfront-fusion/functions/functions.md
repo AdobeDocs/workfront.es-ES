@@ -4,21 +4,33 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Funciones en  [!DNL Adobe Workfront Fusion]
-description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: a7cf0030-79b4-478b-9684-531271bf717c
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '140'
+ht-degree: 46%
 
 ---
 
 # Funciones en [!DNL Adobe Workfront Fusion]
 
-Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Referencias de funciones: índice de artículo](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/functions-toc.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
+Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion y de Adobe Workfront.
 Esta sección contiene los siguientes artículos:
 
 * [Funciones generales en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md)

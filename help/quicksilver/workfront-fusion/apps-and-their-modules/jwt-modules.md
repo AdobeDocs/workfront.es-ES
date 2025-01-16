@@ -4,24 +4,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Módulos JWT
-description: La aplicación  [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] proporciona un módulo que crea tokens JWT basados en el algoritmo proporcionado.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 0%
+source-wordcount: '603'
+ht-degree: 81%
 
 ---
 
 # Módulo [!UICONTROL JWT]
 
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [módulo JWT](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/jwt-modules.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
 La aplicación [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] proporciona un módulo que crea tokens JWT basados en el algoritmo proporcionado.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,14 +45,14 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
@@ -84,7 +96,7 @@ Este módulo genera un JWT basado en el algoritmo seleccionado.
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Algoritmo]</td> 
+   <td role="rowheader">[!UICONTROL Algorithm]</td> 
    <td> <p>Seleccione el algoritmo con el que desea generar el JWT.</p> <ul>
    <li><b>HS256</b>: HMAC con algoritmo hash SHA-256</li>
    <li><b>HS384</b>: HMAC con algoritmo hash SHA-384</li>
@@ -95,33 +107,33 @@ Este módulo genera un JWT basado en el algoritmo seleccionado.
    <li><b>PS256</b>: RSASSA-PSS con algoritmo hash SHA-256 (solo nodo ^6.12.0 O &gt;=8.0.0)</li>
    <li><b>PS384</b>: RSASSA-PSS con algoritmo hash SHA-384 (solo nodo ^6.12.0 O &gt;=8.0.0)</li>
    <li><b>PS512</b>: RSASSA-PSS con algoritmo hash SHA-512 (solo nodo ^6.12.0 O &gt;=8.0.0)</li>
-   <li><b>ES256</b>: ECDSA con la curva P-256 y el algoritmo hash SHA-256</li>
-   <li><b>ES384</b>: ECDSA con la curva P-384 y el algoritmo hash SHA-384</li>
-   <li><b>ES512</b>: ECDSA con la curva P-521 y el algoritmo hash SHA-512</li>
+   <li><b>ES256</b>: ECDSA con curva P-256 y algoritmo hash SHA-256</li>
+   <li><b>ES384</b>: ECDSA con curva P-384 y algoritmo hash SHA-384</li>
+   <li><b>ES512</b>: ECDSA con curva P-521 y algoritmo hash SHA-512</li>
    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carga útil] </td> 
-   <td> <p>Para cada elemento de carga útil que desee agregar, haga clic en <b>Agregar elemento</b> e introduzca la clave y el valor del elemento.</p> </td> 
+   <td role="rowheader">[!UICONTROL Payload] </td> 
+   <td> <p>Para cada elemento de carga útil que desee añadir, haga clic en <b>Añadir elemento</b> e introduzca la clave y el valor del elemento.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Opciones] </td> 
-   <td> <p>Para cada elemento de opción que desee agregar, haga clic en <b>Agregar elemento</b> e introduzca la clave y el valor del elemento.</p> <p>Las claves disponibles son las siguientes:
+   <td role="rowheader">[!UICONTROL Options] </td> 
+   <td> <p>Para cada elemento de opción que desee añadir, haga clic en <b>Añadir elemento</b> e introduzca la clave y el valor del elemento.</p> <p>Las claves disponibles son las siguientes:
    <ul>
    <li><b>algoritmo</b>: (predeterminado: RS256)</li>
-   <li><b>expiresIn</b>: expresado en segundos o en una cadena que describe un lapso de tiempo (por ejemplo, 2 días, 10h, 7d). Un valor numérico se interpreta como un recuento de segundos. Si utiliza una cadena, asegúrese de proporcionar las unidades de tiempo (días, horas, etc.); de lo contrario, se utiliza la unidad de milisegundos de forma predeterminada (120 es igual a 120 ms).</li>
-   <li><b>notBefore</b>: expresado en segundos o en una cadena que describe un lapso de tiempo (por ejemplo, 2 días, 10 h, 7 d). Un valor numérico se interpreta como un recuento de segundos. Si utiliza una cadena, asegúrese de proporcionar las unidades de tiempo (días, horas, etc.); de lo contrario, se utiliza la unidad de milisegundos de forma predeterminada (120 es igual a 120 ms).
+   <li><b>expiresIn</b>: expresado en segundos o en una cadena que describe un lapso de tiempo (por ejemplo, 2 días, 10 h, 7 d). Un valor numérico se interpreta como una cantidad en segundos. Si utiliza una cadena, asegúrese de proporcionar las unidades de tiempo (días, horas, etc.); de lo contrario, se utiliza la unidad de milisegundos de forma predeterminada (120 es igual a 120 ms).</li>
+   <li><b>notBefore</b>: expresado en segundos o en una cadena que describe un periodo de tiempo (por ejemplo, 2 días, 10 h, 7 d). Un valor numérico se interpreta como una cantidad en segundos. Si utiliza una cadena, asegúrese de proporcionar las unidades de tiempo (días, horas, etc.); de lo contrario, se utiliza la unidad de milisegundos de forma predeterminada (120 es igual a 120 ms).
 </li>
-   <li><b>audiencia</b></li>
-   <li><b>emisor</b></li>
+   <li><b>audience</b></li>
+   <li><b>issuer</b></li>
    <li><b>jwtid</b></li>
-   <li><b>sujeto</b></li>
+   <li><b>subject</b></li>
    <li><b>noTimestamp</b></li>
-   <li><b>encabezado</b></li>
+   <li><b>header</b></li>
    <li><b>keyid</b></li>
-   <li><b>mutatePayload</b>: Si <code>true</code>, la función de firma modificará directamente el objeto de carga útil. Esto resulta útil si necesita una referencia sin procesar a la carga útil después de que se le hayan aplicado notificaciones, pero antes de que se haya codificado en un token.</li>
-   <li><b>allowInsecureKeySizes</b>: Si <code>true</code>, permite que se usen claves privadas con un módulo inferior a 2048 para RSA.</li>
-   <li><b>allowInvalidAsymmetricKeyTypes</b>: Si <code>true</code>, permite claves asimétricas que no coinciden con el algoritmo especificado. Esta opción está diseñada únicamente para la compatibilidad con versiones anteriores y debe evitarse.</li>
+   <li><b>mutatePayload</b>: si es <code>true</code>, la función signo modificará directamente el objeto de carga útil. Esto resulta útil si necesita una referencia sin procesar a la carga útil después de que se le hayan aplicado notificaciones, pero antes de que se haya codificado en un token.</li>
+   <li><b>allowInsecureKeySizes</b>: si es <code>true</code>, permite que se usen claves privadas con un módulo inferior a 2048 para RSA.</li>
+   <li><b>allowInvalidAsymmetricKeyTypes</b>: si es <code>true</code>, permite claves asimétricas que no coinciden con el algoritmo especificado. Esta opción está diseñada únicamente para la compatibilidad con versiones anteriores y debe evitarse.</li>
    </ul>
    </td> 
   </tr> 

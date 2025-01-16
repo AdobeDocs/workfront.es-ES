@@ -3,20 +3,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Generación de un segmento de escenario mediante IA
-description: Puede introducir un mensaje de texto para crear un módulo HTTP configurado para el mensaje.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '470'
+ht-degree: 24%
 
 ---
 
 # Generación de un segmento de escenario mediante IA
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Generar un segmento de escenario mediante IA](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/add-a-module-with-ai.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 <!--DO NOT DELETE - linked through CSH-->
 
@@ -34,10 +46,10 @@ Fusion AI puede generar actualmente módulos que se conectan a las siguientes ap
 
 * Adobe Firefly
 * Azure OpenAI
-* Gráfico de Microsoft
+* Microsoft Graph
 * Planificación de Adobe Workfront
 * Adobe Analytics
-* Servicios de Adobe PDF
+* Servicios Adobe PDF
 * Adobe Marketo
 * Adobe Frame.io
 * Dropbox
@@ -61,7 +73,7 @@ Fusion AI puede generar actualmente módulos que se conectan a las siguientes ap
    Se abrirá el panel Ayudante de IA.
 1. Escriba un mensaje de texto en el cuadro.
 
-   Para obtener sugerencias sobre las solicitudes, consulte [Sugerencias para crear solicitudes de texto](#tips-for-creating-text-prompts) en este artículo.
+   Para obtener sugerencias para crear mensajes de texto, consulte [Sugerencias para crear solicitudes de texto](#tips-for-creating-text-prompts) en este artículo.
 
    El asistente de IA genera el módulo o conjunto de módulos.
 1. (Condicional) Si es necesario, agregue el token de API para la aplicación en los módulos.

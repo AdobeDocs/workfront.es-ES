@@ -4,28 +4,40 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Funciones de organización en  [!DNL Adobe Workfront Fusion]
-description: Este artículo incluye información sobre el acceso y los permisos de las funciones en  [!DNL Adobe] Workfront Fusion.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 1%
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
-# Roles de organización y equipo en [!DNL Adobe Workfront Fusion]
+# Funciones de organización y equipo en [!DNL Adobe Workfront Fusion]
 
-Este artículo describe el acceso y la funcionalidad disponibles para los diferentes roles de equipo y organización en [!DNL Workfront Fusion].
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Roles de organización y equipo](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/licenses-and-roles/organization-roles.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
+En este artículo se describe el acceso y la funcionalidad disponibles para las diferentes funciones de equipo y organización en [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->Los roles de organización están separados de los roles de equipo en [!DNL Workfront Fusion]. Para obtener más información sobre las funciones de organización y equipo, consulte [Organizaciones y equipos](../organizations/organizations-and-teams.md).
+>Las funciones de organización están separadas de las funciones de equipo en [!DNL Workfront Fusion]. Para obtener más información sobre las funciones de organización y equipo, consulte [Organizaciones y equipos](../organizations/organizations-and-teams.md).
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
  <col> 
@@ -37,29 +49,29 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
    <tr> 
     <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-    <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
    </tr>
    <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td role="rowheader">Licencia** de [!UICONTROL Adobe Workfront Fusion]</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere la licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
-   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
-   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
+   <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para usar la funcionalidad descrita en este artículo.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td> 
-     <p>Debe ser administrador de [!DNL Workfront Fusion] para su organización.</p>
-     <p>Debe ser administrador de [!DNL Workfront Fusion] para su equipo.</p>
+     <p>Debe ser administrador de [!DNL Workfront Fusion] de su organización.</p>
+     <p>Debe ser administrador de [!DNL Workfront Fusion] de su equipo.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,7 +79,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
 Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
-Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Para obtener información sobre las licencias de [!DNL Adobe Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Funciones de organización
 
@@ -80,10 +92,10 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p>[!UICONTROL Propietario]</p> </th> 
+   <th> <p>[!UICONTROL Owner]</p> </th> 
    <th> <p>[!UICONTROL Admin]</p> </th> 
-   <th> <p>[!UICONTROL Miembro]</p> </th> 
-   <th> <p>[!UICONTROL Contable]</p> </th> 
+   <th> <p>[!UICONTROL Member]</p> </th> 
+   <th> <p>[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -132,7 +144,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    </tr>
   --> 
   <tr> 
-   <td> <p>Agregar equipo</p> </td> 
+   <td> <p>Añadir equipo</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
@@ -143,7 +155,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 </table>
 
 
-## Roles de equipo
+## Funciones de equipo
 
 ### Escenarios
 
@@ -157,9 +169,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -171,14 +183,14 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Lista de ejecuciones incompletas</p> </td> 
+   <td> <p style="text-align: left;">Enumerar ejecuciones incompletas</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Adición de escenarios</p> </td> 
+   <td> <p style="text-align: left;">Añadir escenarios</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
@@ -234,7 +246,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Escenarios de inicio</p> </td> 
+   <td> <p style="text-align: left;">Iniciar escenarios</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
@@ -276,21 +288,21 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">Agregar conexiones</p> </td> 
+   <td> <p style="text-align: left;">Añadir conexiones</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Eliminación de conexiones</p> </td> 
+   <td> <p style="text-align: left;">Eliminar conexiones</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
@@ -304,7 +316,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Enumeración de conexiones</p> </td> 
+   <td> <p style="text-align: left;">Enumerar conexiones</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
@@ -325,9 +337,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -374,9 +386,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -430,9 +442,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -444,21 +456,21 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Eliminación de estructuras de datos</p> </td> 
+   <td> <p style="text-align: left;">Eliminar estructuras de datos</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Edición de estructuras de datos</p> </td> 
+   <td> <p style="text-align: left;">Editar estructuras de datos</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Enumeración de estructuras de datos</p> </td> 
+   <td> <p style="text-align: left;">Enumerar estructuras de datos</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
@@ -479,9 +491,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -507,7 +519,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Claves de lista</p> </td> 
+   <td> <p style="text-align: left;">Enumerar claves</p> </td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td> </td> 
@@ -528,9 +540,9 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -584,14 +596,14 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Miembro]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Supervisión]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operador]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">Agregar equipos</p> </td> 
+   <td> <p style="text-align: left;">Añadir equipos</p> </td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
@@ -605,7 +617,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Adición y edición de un usuario del equipo</p> </td> 
+   <td> <p style="text-align: left;">Añadir y editar usuario de equipo</p> </td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 

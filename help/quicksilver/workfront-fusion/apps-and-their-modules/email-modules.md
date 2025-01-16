@@ -5,24 +5,36 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de correo electrónico
-description: En  [!DNL Adobe Workfront Fusion] , puede conectar su cuenta de correo electrónico a varias aplicaciones y servicios de terceros. Esto le permite descargar correos electrónicos a través de IMAP, enviar correos electrónicos a través de SMTP, crear nuevos borradores, mover y copiar correos electrónicos de una carpeta a otra, marcar correos electrónicos como leídos o no leídos y eliminar correos electrónicos.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2626'
-ht-degree: 0%
+source-wordcount: '2651'
+ht-degree: 96%
 
 ---
 
 # Módulos de correo electrónico
 
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Módulos de correo electrónico](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/email-modules.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
 En un escenario de [!DNL Adobe Workfront Fusion], puede conectar su cuenta de correo electrónico a varias aplicaciones y servicios de terceros. Esto le permite descargar correos electrónicos a través de IMAP, enviar correos electrónicos a través de SMTP, crear nuevos borradores, mover y copiar correos electrónicos de una carpeta a otra, marcar correos electrónicos como leídos o no leídos y eliminar correos electrónicos.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,14 +46,14 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -59,103 +71,103 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Conexión del correo electrónico a Workfront Fusion {#connect-your-email-to-workfront-fusion}
+## Conectar su correo electrónico a Workfront Fusion {#connect-your-email-to-workfront-fusion}
 
-* [Conectar con Google](#connect-to-google)
-* [Conexión a otros servicios de correo electrónico (SMAP)](#connect-to-other-email-services-smap)
+* [Conectarse a Google](#connect-to-google)
+* [Conectarse a otros servicios de correo electrónico (SMAP)](#connect-to-other-email-services-smap)
 
-### Conectar con [!DNL Google]
+### Conectarse a [!DNL Google]
 
-Utilice esta opción para crear escenarios con módulos de correo electrónico que requieran una conexión con su cuenta de [!DNL Google]. Es una cuenta con ámbitos restringidos.
+Utilice esta opción para crear escenarios con módulos de correo electrónico que requieran una conexión con su cuenta de [!DNL Google]. Esta es una cuenta con ámbitos restringidos.
 
-Puede crear una conexión con su cuenta de [!DNL Google] directamente desde un módulo de correo electrónico.
+Puede crear una conexión a su cuenta de [!DNL Google] directamente desde un módulo de correo electrónico.
 
-1. En cualquier módulo de correo electrónico, haga clic en **[!UICONTROL Agregar]** junto al campo [!UICONTROL Conexión].
-1. Seleccione **[!DNL Google]** como tipo de conexión.
-1. Introduzca un nombre para la conexión.
-1. (Opcional) Escriba su [!UICONTROL [!DNL Google] ID de cliente] y [!UICONTROL Secreto de cliente].
-1. Haga clic en **[!UICONTROL Continuar]** para crear la conexión y volver al módulo.
+1. En cualquier módulo de correo electrónico, haga clic en **[!UICONTROL Add]** junto al campo [!UICONTROL Connection].
+1. Seleccione **[!DNL Google]** como el tipo de conexión.
+1. Introduzca un nombre para la conexión. 
+1. (Opcional) Escriba su [!UICONTROL [!DNL Google] Client ID] y [!UICONTROL Client Secret].
+1. Haga clic en **[!UICONTROL Continue]** para crear la conexión y volver al módulo.
 
-### Conexión a otros servicios de correo electrónico (SMAP)
+### Conectarse a otros servicios de correo electrónico (SMAP)
 
 La conexión SMAP le permite acceder al buzón de forma remota y leer o manipular los mensajes del buzón. La mayoría de los módulos de correo electrónico utilizan la conexión SMAP.
 
-1. En cualquier módulo de correo electrónico, haga clic en **[!UICONTROL Agregar]** junto al campo [!UICONTROL Conexión].
-1. Seleccione **[!UICONTROL Otros (SMTP)]** como tipo de conexión.
-1. Escriba un **[!UICONTROL Nombre]** para la conexión.
-1. Seleccione su **[!UICONTROL proveedor de correo electrónico]** de la lista. Si su proveedor de correo electrónico no está en la lista, seleccione Otro.
-1. Escriba su **[!UICONTROL dirección de correo electrónico]**, **[!UICONTROL nombre completo]**, **[!UICONTROL nombre de usuario]** y **[!UICONTROL contraseña]**.
-1. (Condicional) Si su proveedor no está en la lista, ingrese su **[!UICONTROL servidor SMTP]** y **[!UICONTROL puerto]**, y especifique si desea **[!UICONTROL usar una conexión segura (TLS)]**. Para encontrar esta información, consulta la sección [!UICONTROL Ayuda] de tu buzón. Si no dispone de esta información, póngase en contacto con su proveedor de servicios de correo electrónico.
-1. Haga clic en **[!UICONTROL Continuar]** para crear la conexión y volver al módulo.
+1. En cualquier módulo de correo electrónico, haga clic en **[!UICONTROL Add]** junto al campo [!UICONTROL Connection].
+1. Seleccione **[!UICONTROL Otros (SMTP)]** como el tipo de conexión.
+1. Introduzca un **[!UICONTROL Nombre]** para la conexión.
+1. Seleccione su **[!UICONTROL Email provider]** de la lista. Si su proveedor de correo electrónico no está en la lista, seleccione Otro.
+1. Escriba su **[!UICONTROL Email address]**, **[!UICONTROL Your full name]**, su **[!UICONTROL User name]** y su **[!UICONTROL Password]**.
+1. (Condicional) Si su proveedor no está en la lista, escriba su **[!UICONTROL SMTP server]** y **[!UICONTROL Port]**, y especifique si desea **[!UICONTROL Use a secure connection (TLS)]**. Para encontrar esta información, consulta la sección [!UICONTROL Help] de su buzón. Si no dispone de esta información, póngase en contacto con su proveedor de servicios de correo electrónico.
+1. Haga clic en **[!UICONTROL Continue]** para crear la conexión y volver al módulo.
 
-## Módulos [!UICONTROL Email] y sus campos
+## Módulos de [!UICONTROL Email] y sus campos
 
-Al configurar los módulos [!UICONTROL Correo electrónico], [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, pueden mostrarse campos adicionales en función de factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar los módulos de [!UICONTROL Email], [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Además, es posible que aparezcan otros campos en función de factores como el nivel de acceso a la aplicación o al servicio. El título en negrita en un módulo indica un campo obligatorio.
 
-Es posible que algunos de los campos de correo electrónico ya contengan datos porque los ha utilizado en otro módulo del escenario. Consulte la documentación de ayuda por correo electrónico si necesita información sobre ellos.
+Es posible que algunos de los campos de correo electrónico ya contengan datos porque se usaron en otro módulo del escenario. Consulte la documentación de ayuda sobre el correo electrónico si necesita más información al respecto.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->El ID único de correo electrónico conocido como &#39;[!UICONTROL ID de correo electrónico (UID)]&#39; es el identificador del correo electrónico. El ID de correo electrónico es específico para cada carpeta del correo electrónico.
+>El ID único de correo electrónico conocido como “[!UICONTROL ID de correo electrónico (UID)]” es el identificador del correo electrónico. El ID de correo electrónico es específico para cada carpeta del correo electrónico.
 
-* [Déclencheur](#triggers)
+* [Activadores](#triggers)
 * [Acciones](#actions)
 * [Iteradores](#iterators)
 
-### Déclencheur
+### Activadores
 
 #### [!UICONTROL Ver correos electrónicos]
 
-Déclencheur cuando se recibe un nuevo correo electrónico para su procesamiento según criterios especificados.
+Se activa cuando se recibe un nuevo correo electrónico para su procesamiento según criterios especificados.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar la cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar el correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta] </td> 
-   <td> <p>Seleccione la carpeta que contiene los correos electrónicos que desea ver.</p> </td> 
+   <td role="rowheader">[!UICONTROL Folder] </td> 
+   <td> <p>Seleccione la carpeta que contenga los correos electrónicos que quiera ver.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Criterios]</p> </td> 
-   <td> <p>Seleccione los criterios según los cuales quiere ver los correos electrónicos:</p> 
+   <td role="rowheader"> <p>[!UICONTROL Criteria]</p> </td> 
+   <td> <p>Seleccione los criterios según los cuales se mostrarán los correos electrónicos:</p> 
     <ul> 
-     <li>[!UICONTROL Todos los correos electrónicos]</li> 
-     <li>[!UICONTROL Sólo Leer Correos Electrónicos]</li> 
-     <li>[!UICONTROL Solo Correos Electrónicos No Leídos]</li> 
+     <li>[!UICONTROL All Emails]</li> 
+     <li>[!UICONTROL Only Read Emails]</li> 
+     <li>[!UICONTROL Only Unread Emails]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Dirección de correo electrónico del remitente] </td> 
+   <td role="rowheader">[!UICONTROL Sender Email Address] </td> 
    <td> <p>Introduzca la dirección de correo electrónico del remitente cuyos correos electrónicos desea ver.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Dirección de correo electrónico del destinatario]</td> 
+   <td role="rowheader">[!UICONTROL Recipient Email Address]</td> 
    <td> <p> Introduzca la dirección de correo electrónico del destinatario cuyos correos electrónicos desea ver.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Asunto] </td> 
-   <td> <p>Introduzca el asunto del correo electrónico que desea ver.</p> </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
+   <td> <p>Introduzca el asunto del correo electrónico que quiera ver.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Frase] </td> 
-   <td> <p>Introduzca cualquier palabra clave para ver solo los correos electrónicos que contengan frases específicas.</p> </td> 
+   <td role="rowheader">[!UICONTROL Phrase] </td> 
+   <td> <p>Introduzca cualquier palabra clave para ver solo aquellos correos electrónicos que contengan frases específicas.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Marcar los mensajes como leídos cuando se recuperan]</td> 
-   <td> <p>Active esta opción para marcar el correo electrónico no leído como leído después de recuperar los detalles.</p> </td> 
+   <td role="rowheader">[!UICONTROL Mark message(s) as read when fetched]</td> 
+   <td> <p>Habilite esta opción para marcar correos electrónicos no leídos como leídos después de recuperar los detalles.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Número máximo de resultados]</td> 
-   <td> <p> El número máximo de correos electrónicos [!DNL Workfront Fusion] debe devolver durante un ciclo de ejecución de escenario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
+   <td> <p> Número máximo de correos electrónicos que [!DNL Workfront Fusion] debería devolver durante un ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,7 +176,7 @@ Déclencheur cuando se recibe un nuevo correo electrónico para su procesamiento
 
 * [[!UICONTROL Enviar un correo electrónico]](#send-an-email)
 * [[!UICONTROL Crear un borrador]](#create-a-draft)
-* [[!UICONTROL Marcar un mensaje de correo electrónico como leído]](#mark-an-email-as-read)
+* [[!UICONTROL Marcar un correo electrónico como leído]](#mark-an-email-as-read)
 * [[!UICONTROL Marcar un correo electrónico como no leído]](#mark-an-email-as-unread)
 * [[!UICONTROL Mover un correo electrónico]](#move-an-email)
 * [[!UICONTROL Copiar un correo electrónico]](#copy-an-email)
@@ -180,184 +192,184 @@ Envía un nuevo correo electrónico.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!DNL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conecte su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar la cuenta de correo electrónico a [!DNL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar el correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Guardar mensaje después de enviar]</td> 
-   <td>Una vez enviado el mensaje de correo electrónico, se guardará en el buzón. Habilite esta opción si desea guardar los mensajes de correo electrónico enviados mediante [!DNL Workfront Fusion] en la carpeta <i>[!UICONTROL Correo enviado]</i> u otra carpeta del buzón. Algunos servicios de correo electrónico, como [!DNL Gmail], guardan automáticamente los mensajes enviados.</td> 
+   <td role="rowheader">[!UICONTROL Save Message after Sending]</td> 
+   <td>Una vez enviado el mensaje de correo electrónico, se guardará en el buzón. Habilite esta opción en caso de querer guardar los mensajes de correo electrónico enviados mediante [!DNL Workfront Fusion] en la carpeta <i>[!UICONTROL Sent mail]</i> u otra carpeta del buzón. Algunos servicios de correo electrónico, como [!DNL Gmail], guardan automáticamente los mensajes enviados.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL A] </td> 
+   <td role="rowheader">[!UICONTROL To] </td> 
    <td> <p>Añada las direcciones de correo electrónico a las que desee enviar el correo electrónico.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Asunto] </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Introduzca o asigne la línea de asunto del correo electrónico.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Tipo de contenido]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Content Type]</p> </td> 
    <td> <p>Seleccione el tipo de [!UICONTROL content] para el correo electrónico:</p> 
     <ul> 
      <li>HTML</li> 
-     <li>[!UICONTROL Texto sin formato]</li> 
+     <li>[!UICONTROL Plaintext]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Contenido] </td> 
-   <td> <p>Introduzca o asigne el contenido del correo electrónico en formato de HTML mediante etiquetas de HTML o en texto sin formato, según lo que elija en el campo [!UICONTROL Content Type].</p> </td> 
+   <td role="rowheader">[!UICONTROL Content] </td> 
+   <td> <p>Introduzca o asigne el contenido del correo electrónico en formato HTML mediante etiquetas HTML o en texto sin formato, según lo que eligió en el campo [!UICONTROL Content Type].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Archivos adjuntos]</p> </td> 
-   <td> <p>Agregar un archivo adjunto:</p> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
+   <td> <p>Añada un archivo adjunto:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nombre de archivo]</strong> </p> <p>Introduzca el nombre del archivo. Por ejemplo, sample.doc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Datos]</strong> </p> <p>Introduzca la ruta a la carpeta para cargar el archivo adjunto.</p> </li> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Introduzca el nombre de archivo. Por ejemplo, sample.doc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Introduzca la ruta a la carpeta para cargar el archivo adjunto.</p> </li> 
      <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Introduzca el [!UICONTROL content ID] para insertar el archivo adjunto (imagen) en el contenido.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Copiar destinatario] </td> 
-   <td> <p>Introduzca o asigne una o varias direcciones de correo electrónico a las que desee enviar una copia de este correo electrónico. </p> </td> 
+   <td role="rowheader">[!UICONTROL Copy Recipient] </td> 
+   <td> <p>Introduzca o asigne una o más direcciones de correo electrónico a las que desee enviar una copia de este correo electrónico. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Destinatario de copia ciega]</td> 
+   <td role="rowheader">[!UICONTROL Blind Copy Recipient]</td> 
    <td> <p> Introduzca o asigne una o varias direcciones de correo electrónico a las que desee enviar una copia de este correo electrónico sin que aparezcan en él.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Desde] </td> 
-   <td> <p>Introduzca o asigne la dirección de correo electrónico (y el nombre, si es necesario) que aparece en el campo [!UICONTROL From] del mensaje. </p> <p>Importante: Utilice la sintaxis correcta: <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: Normalmente, [!DNL Workfront Fusion] usa la dirección de correo electrónico que especificó al crear la conexión como dirección del remitente. Si introduce cualquier otra dirección de correo electrónico, puede producirse un error al enviar un mensaje, ya que es posible que su cuenta no tenga permiso para enviar correos electrónicos desde una dirección diferente a la suya. Por ejemplo: <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td role="rowheader">[!UICONTROL From] </td> 
+   <td> <p>Introduzca o asigne la dirección de correo electrónico (y el nombre si es necesario) que aparece en el campo [!UICONTROL From] del correo electrónico. </p> <p>Importante: Utilice la sintaxis correcta, <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: Normalmente, [!DNL Workfront Fusion] usa la dirección de correo electrónico que usted especificó al crear la conexión como dirección del remitente. Si introduce cualquier otra dirección de correo electrónico, puede producirse un error al enviar un mensaje, ya que es posible que su cuenta no tenga permiso para enviar correos electrónicos desde una dirección diferente a la suya. Por ejemplo: <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Remitente]</p> </td> 
-   <td> <p>Escriba o asigne la dirección de correo electrónico que aparece en el campo [!UICONTROL Remitente] del correo electrónico.</p> <p>Sugerencia: Si no está seguro de si desea utilizar este campo o el campo De, le recomendamos que elija el campo De.</p> <p>Importante: Utilice la sintaxis correcta: <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
+   <td> <p>Escriba o asigne la dirección de correo electrónico que aparece en el campo [!UICONTROL Sender] del correo electrónico.</p> <p>Sugerencia: Si no está seguro de si desea utilizar este campo o el campo De, le recomendamos que elija el campo De.</p> <p>Importante: Utilice la sintaxis correcta, <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Responder A]</td> 
-   <td> <p> Si desea que las respuestas a este correo electrónico se envíen a una dirección diferente a la dirección "de", introduzca la dirección de correo electrónico a la que desea enviar las respuestas a este correo electrónico.</p> </td> 
+   <td role="rowheader">[!UICONTROL Reply-To]</td> 
+   <td> <p> Si desea que las respuestas a este correo electrónico se envíen a una dirección diferente a la dirección “de”, introduzca la dirección de correo electrónico a la que desea que se envíen las respuestas a este correo electrónico.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL In-Reply-To]</td> 
    <td> <p> Si responde a un correo electrónico específico, introduzca o asigne el ID del correo electrónico al que está respondiendo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Referencias de [!UICONTROL] </td> 
+   <td role="rowheader">[!UICONTROL References] </td> 
    <td> <p>Introduzca los ID de mensaje de todas las respuestas del hilo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Prioridad]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Priority]</p> </td> 
    <td> <p>Seleccione la prioridad del correo electrónico:</p> 
     <ul> 
-     <li>[!UICONTROL Alta]</li> 
+     <li>[!UICONTROL High]</li> 
      <li>[!UICONTROL Normal]</li> 
-     <li>[!UICONTROL Bajo]</li> 
+     <li>[!UICONTROL Low]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Encabezados]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
    <td> <p>Añada los encabezados:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Añada la clave. Por ejemplo, [!UICONTROL Remitente], [!UICONTROL Fecha], [!UICONTROL Para], etc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Valor]</strong> </p> <p>Introduzca el valor de la clave.</p> </li> 
+     <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Añada la clave. Por ejemplo, [!UICONTROL Sender], [!UICONTROL Date], [!UICONTROL To], etc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Introduzca el valor de la clave.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Crear un borrador]
+#### [!UICONTROL Create a Draft]
 
-Crea y agrega un nuevo borrador a una carpeta seleccionada.
+Crea y añade un nuevo borrador a la carpeta seleccionada.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar la cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar el correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Seleccione la carpeta en la que desea crear el borrador del correo electrónico.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL A] </td> 
+   <td role="rowheader">[!UICONTROL To] </td> 
    <td> <p>Introduzca o asigne la dirección de correo electrónico a la que desea enviar el correo electrónico.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Asunto] </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Introduzca o asigne la línea de asunto del correo electrónico.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Tipo de contenido]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Content Type]</p> </td> 
    <td> <p>Seleccione el tipo de contenido del correo electrónico:</p> 
     <ul> 
      <li>HTML</li> 
-     <li>[!UICONTROL Texto sin formato]</li> 
+     <li>[!UICONTROL Plain Text]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Contenido] </td> 
-   <td> <p>Introduzca o asigne el contenido del correo electrónico en formato de HTML mediante etiquetas de HTML o en texto sin formato, según lo que elija en el campo [!UICONTROL Content Type].</p> </td> 
+   <td role="rowheader">[!UICONTROL Content] </td> 
+   <td> <p>Introduzca o asigne el contenido del correo electrónico en formato HTML mediante etiquetas HTML o en texto sin formato, según lo que eligió en el campo [!UICONTROL Content Type].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Archivos adjuntos]</p> </td> 
-   <td> <p>Agregar un archivo adjunto:</p> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
+   <td> <p>Añada un archivo adjunto:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Nombre de archivo]</strong> </p> <p>Introduzca el nombre del archivo. Por ejemplo, sample.doc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Datos]</strong> </p> <p>Introduzca la ruta a la carpeta para cargar el archivo adjunto.</p> </li> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Introduzca el nombre de archivo. Por ejemplo, sample.doc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Introduzca la ruta a la carpeta para cargar el archivo adjunto.</p> </li> 
      <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Introduzca el ID de contenido para insertar el archivo adjunto (imagen) en el contenido.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Copiar destinatario] </td> 
-   <td> <p>Introduzca o asigne una o varias direcciones de correo electrónico a las que desee enviar una copia de este correo electrónico. </p> </td> 
+   <td role="rowheader">[!UICONTROL Copy Recipient] </td> 
+   <td> <p>Introduzca o asigne una o más direcciones de correo electrónico a las que desee enviar una copia de este correo electrónico. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Destinatario de copia ciega]</td> 
+   <td role="rowheader">[!UICONTROL Blind Copy Recipient]</td> 
    <td> <p> Introduzca o asigne una o varias direcciones de correo electrónico a las que desee enviar una copia de este correo electrónico sin que aparezcan en él.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Desde] </td> 
-   <td> <p>Introduzca o asigne la dirección de correo electrónico (y el nombre, si es necesario) que aparece en el campo [!UICONTROL From] del mensaje. </p> <p>Importante: Utilice la sintaxis correcta: <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: Normalmente, [!DNL Workfront Fusion] usa la dirección de correo electrónico que especificó al crear la conexión como dirección del remitente. Si introduce cualquier otra dirección de correo electrónico, puede producirse un error al enviar un mensaje, ya que es posible que su cuenta no tenga permiso para enviar correos electrónicos desde una dirección diferente a la suya. Por ejemplo: <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td role="rowheader">[!UICONTROL From] </td> 
+   <td> <p>Introduzca o asigne la dirección de correo electrónico (y el nombre si es necesario) que aparece en el campo [!UICONTROL From] del correo electrónico. </p> <p>Importante: Utilice la sintaxis correcta, <code>name@email.com</code> o <code>"Name" name@email.com</code>.</p> <p>Nota: Normalmente, [!DNL Workfront Fusion] usa la dirección de correo electrónico que usted especificó al crear la conexión como dirección del remitente. Si introduce cualquier otra dirección de correo electrónico, puede producirse un error al enviar un mensaje, ya que es posible que su cuenta no tenga permiso para enviar correos electrónicos desde una dirección diferente a la suya. Por ejemplo: <code>test@mail.com</code> o "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Remitente]</p> </td> 
-   <td> <p>Escriba o asigne la dirección de correo electrónico que aparece en el campo [!UICONTROL Remitente] del correo electrónico.</p> <p>Sugerencia: Si no está seguro de si desea utilizar este campo o el campo De, le recomendamos que elija el campo De.</p> <p>Importante: Utilice la sintaxis correcta: <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
+   <td> <p>Escriba o asigne la dirección de correo electrónico que aparece en el campo [!UICONTROL Sender] del correo electrónico.</p> <p>Sugerencia: Si no está seguro de si desea utilizar este campo o el campo De, le recomendamos que elija el campo De.</p> <p>Importante: Utilice la sintaxis correcta, <code>name@email.com</code> o <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Responder A]</td> 
-   <td> <p> Si desea que las respuestas a este correo electrónico se envíen a una dirección diferente a la dirección "[!UICONTROL from]", introduzca la dirección de correo electrónico a la que desea que se envíen las respuestas a este correo electrónico.</p> </td> 
+   <td role="rowheader">[!UICONTROL Reply-To]</td> 
+   <td> <p> Si desea que las respuestas a este correo electrónico se envíen a una dirección diferente a la dirección “[!UICONTROL from]”, introduzca la dirección de correo electrónico a la que desea que se envíen las respuestas a este correo electrónico.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL In-Reply-To]</td> 
    <td> <p> Si responde a un correo electrónico específico, introduzca o asigne el ID del correo electrónico al que está respondiendo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Referencias de [!UICONTROL] </td> 
+   <td role="rowheader">[!UICONTROL References] </td> 
    <td> <p>Introduzca los ID de mensaje de todas las respuestas del hilo.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Prioridad]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Priority]</p> </td> 
    <td> <p>Seleccione la prioridad del correo electrónico:</p> 
     <ul> 
-     <li>[!UICONTROL Alta]</li> 
+     <li>[!UICONTROL High]</li> 
      <li>[!UICONTROL Normal]</li> 
-     <li>[!UICONTROL Bajo]</li> 
+     <li>[!UICONTROL Low]</li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Encabezados]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
    <td> <p>Añada los encabezados:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Añada la clave. Por ejemplo, Remitente, Fecha, Para, etc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Valor]</strong> </p> <p>Introduzca el valor de la clave.</p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Introduzca el valor de la clave.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Marcar un mensaje de correo electrónico como leído]
+#### [!UICONTROL Mark an Email as Read]
 
 Marca un correo electrónico o un borrador en una carpeta seleccionada como leído al establecer el indicador [!UICONTROL Read].
 
@@ -366,21 +378,21 @@ Marca un correo electrónico o un borrador en una carpeta seleccionada como leí
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar la cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar el correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Seleccione la carpeta del correo electrónico que desea marcar como leído. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea marcar como leído.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea marcar como leído.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt; [!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Marcar un correo electrónico como no leído]
+#### [!UICONTROL Mark an Email as Unread]
 
 Marca un correo electrónico o un borrador de una carpeta seleccionada como no leído al establecer el indicador No leído.
 
@@ -389,16 +401,16 @@ Marca un correo electrónico o un borrador de una carpeta seleccionada como no l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar la cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar el correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Seleccione la carpeta del correo electrónico que desea marcar como no leído. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea marcar como no leído.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea marcar como no leído.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt; [!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -412,25 +424,25 @@ Mueve un correo electrónico o borrador seleccionado a una carpeta seleccionada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta de Source]</td> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
    <td>Seleccione la carpeta que contiene el correo electrónico desde el que desea mover el correo electrónico. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta de destino]</td> 
+   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
    <td> <p> Seleccione la carpeta a la que desea añadir el correo electrónico. Ejemplo: Trabajo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea mover a la carpeta de destino.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea mover a la carpeta de destino.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt; [!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Copiar un correo electrónico]
+#### [!UICONTROL Copy an Email]
 
 Copia un correo electrónico o un borrador en una carpeta seleccionada.
 
@@ -439,25 +451,25 @@ Copia un correo electrónico o un borrador en una carpeta seleccionada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta de Source]</td> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
    <td>Seleccione la carpeta desde la que desea copiar el correo electrónico. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta de destino]</td> 
+   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
    <td> <p> Seleccione la carpeta en la que desea copiar el correo electrónico. Ejemplo: Trabajo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea copiar en la carpeta de destino.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea copiar en la carpeta de destino.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt; [!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminar un correo electrónico]
+#### [!UICONTROL Delete an Email]
 
 Quita un correo electrónico o un borrador de la carpeta seleccionada.
 
@@ -466,87 +478,87 @@ Quita un correo electrónico o un borrador de la carpeta seleccionada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar la cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar el correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Seleccione la carpeta del correo electrónico que desea eliminar. Ejemplo: Principal.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea eliminar.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt;[!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Introduzca el UID de correo electrónico del correo electrónico que desea eliminar.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Email] &gt; [!UICONTROL Watch Email] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Expurgar]</td> 
-   <td> <p>Active esta opción para permitir que el módulo quite permanentemente todos los mensajes marcados como [!UICONTROL Eliminado] en el buzón abierto actualmente.</p> <p>Nota: en [!DNL Gmail], este comportamiento se basa en la configuración de la sección [!UICONTROL Settings] &gt;[!UICONTROL Forwarding POP/IMAP in IMAP access].</p> </td> 
+   <td role="rowheader">[!UICONTROL Expunge]</td> 
+   <td> <p>Habilite esta opción para permitir que el módulo quite permanentemente todos los mensajes marcados como [!UICONTROL Deleted] en el buzón abierto actualmente.</p> <p>Nota: En [!DNL Gmail], este comportamiento se aplica según la configuración definida en la sección [!UICONTROL Settings] &gt;[!UICONTROL Forwarding POP/IMAP in IMAP access].</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtener correos electrónicos]
+#### [!UICONTROL Get Emails]
 
-Devuelve correos electrónicos que coinciden con los criterios especificados.
+Muestra los correos electrónicos que coinciden con los criterios especificados.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar su correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar la cuenta de correo electrónico a [!UICONTROL Workfront Fusion], consulte <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Conectar el correo electrónico a [!UICONTROL Workfront Fusion]</a> en este artículo.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta] </td> 
+   <td role="rowheader">[!UICONTROL Folder] </td> 
    <td> <p>Seleccione la carpeta que contiene los correos electrónicos que desea recuperar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Marcar los mensajes como leídos cuando se recuperan] </td> 
-   <td> <p>Active esta opción si desea marcar el correo electrónico no leído como leído después de recuperar los detalles.</p> </td> 
+   <td role="rowheader">[!UICONTROL Mark message(s) as read when fetched] </td> 
+   <td> <p>Habilite esta opción si desea marcar el correo electrónico no leído como leído después de recuperar los detalles.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Criterios]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Criteria]</p> </td> 
    <td> <p>Seleccione los criterios de los correos electrónicos que desea recuperar:</p> 
     <ul> 
-     <li>[!UICONTROL Todos los correos electrónicos]</li> 
-     <li>[!UICONTROL Sólo Leer Correos Electrónicos]</li> 
-     <li>[!UICONTROL Solo Correos Electrónicos No Leídos]</li> 
+     <li>[!UICONTROL All Emails]</li> 
+     <li>[!UICONTROL Only Read Emails]</li> 
+     <li>[!UICONTROL Only Unread Emails]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Dirección de correo electrónico del remitente] </td> 
+   <td role="rowheader">[!UICONTROL Sender Email Address] </td> 
    <td> <p>Introduzca o asigne la dirección de correo electrónico del remitente cuyos correos electrónicos desea recuperar.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Dirección de correo electrónico del destinatario]</td> 
+   <td role="rowheader">[!UICONTROL Recipient Email Address]</td> 
    <td> <p> Introduzca o asigne la dirección de correo electrónico del destinatario cuyos correos electrónicos desea recuperar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Desde la fecha] </td> 
-   <td> <p>Introduzca o asigne la fecha para recuperar los correos electrónicos procesados en la fecha especificada o posteriormente.</p> </td> 
+   <td role="rowheader">[!UICONTROL From date] </td> 
+   <td> <p>Introduzca o asigne la fecha para recuperar los correos electrónicos que se procesaron en la fecha especificada o después de ella.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Antes de la fecha]</td> 
-   <td> <p> Introduzca o asigne la fecha para recuperar los correos electrónicos procesados en la fecha especificada o antes.</p> </td> 
+   <td role="rowheader">[!UICONTROL Before date]</td> 
+   <td> <p> Introduzca o asigne la fecha para recuperar los correos electrónicos que se procesaron en la fecha especificada o antes de ella.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Asunto] </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Introduzca o asigne el asunto del correo electrónico que desea recuperar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Frase] </td> 
+   <td role="rowheader">[!UICONTROL Phrase] </td> 
    <td> <p>Introduzca o asigne cualquier palabra clave para recuperar solo los correos electrónicos que contengan frases específicas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Introduzca el ID de correo electrónico (UID) del correo electrónico cuyos detalles desee recuperar.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Watch Email] de [!DNL Workfront Fusion] o el módulo [!UICONTROL Search Email].</p> </td> 
+   <td> <p> Introduzca el ID de correo electrónico (UID) del correo electrónico cuyos detalles desea recuperar.</p> <p>Puede obtener el UID del correo electrónico mediante el módulo [!UICONTROL Watch Email] de [!DNL Workfront Fusion] o el módulo [!UICONTROL Search Email].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Número máximo de resultados]</td> 
-   <td> <p> El número máximo de correos electrónicos [!DNL Workfront Fusion] debe devolver durante un ciclo de ejecución de escenario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
+   <td> <p> El número máximo de correos electrónicos que [!DNL Workfront Fusion] debería devolver durante un ciclo de ejecución de escenario.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Continuar la ejecución de la ruta aunque el módulo no devuelva resultados]</td> 
+   <td role="rowheader">[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
    <td> <p> Seleccione si desea continuar ejecutando el módulo aunque no se devuelvan resultados.</p> </td> 
   </tr> 
  </tbody> 
@@ -554,11 +566,11 @@ Devuelve correos electrónicos que coinciden con los criterios especificados.
 
 ### Iteradores
 
-#### [!UICONTROL Iterar archivos adjuntos]
+#### [!UICONTROL Iterate Attachments]
 
 Itera los archivos adjuntos recibidos uno a uno.
 
-El módulo iterador de correo electrónico permite administrar los archivos adjuntos de los correos electrónicos por separado. Por ejemplo, puede configurar para ver correos electrónicos para repetir los correos electrónicos con archivos adjuntos y recibir alertas.
+El módulo del iterador de correo electrónico permite administrar los archivos adjuntos de los correos electrónicos por separado. Por ejemplo, puede configurar los ajustes para ver correos electrónicos para iterar los correos con archivos adjuntos y recibir alertas.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -566,9 +578,9 @@ El módulo iterador de correo electrónico permite administrar los archivos adju
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source module]</td> 
-   <td> <p>Seleccione el módulo que genera el correo electrónico con los archivos adjuntos por los que desea iterar.</p> </td> 
+   <td> <p>Seleccione el módulo que genera el correo electrónico con los archivos adjuntos que desea iterar.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información acerca de los iteradores, vea [Módulo Iterator en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+Para obtener más información acerca de los iteradores, vea [Módulo Iterador en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).

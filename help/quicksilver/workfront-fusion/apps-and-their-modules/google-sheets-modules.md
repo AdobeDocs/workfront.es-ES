@@ -4,27 +4,39 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: conector
 navigation-topic: apps-and-their-modules
-title: Módulos de hojas de Google
-description: Para usar [!DNL Google Sheets] con [!DNL Adobe Workfront Fusion],you need the [!UICONTROL Workfront Fusion Google Sheets] extensión (opcional, pero necesaria para déclencheur instantáneos).
+title: Módulos de Google Sheets
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4023'
-ht-degree: 0%
+source-wordcount: '4085'
+ht-degree: 96%
 
 ---
 
-# [!DNL Google Sheets] módulos
+# Módulos de [!DNL Google Sheets]
 
-En un escenario de [!DNL Adobe Workfront Fusion], puede automatizar los flujos de trabajo que utilizan [!DNL Google Sheets], así como conectarlo a varias aplicaciones y servicios de terceros.
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Módulos de hojas de Google](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-sheets-modules.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
-Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea [Crear una conexión a [!DNL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+En un escenario de [!DNL Adobe Workfront Fusion], es posible automatizar los flujos de trabajo que utilizan [!DNL Google Sheets], así como conectarlo a varias aplicaciones y servicios de terceros.
+
+Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], consulte [Crear una conexión con [!DNL Adobe Workfront Fusion] : instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,14 +48,14 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,7 +75,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Requisitos previos
 
-Para usar módulos de [!UICONTROL Google Sheets], debes tener una cuenta de [!UICONTROL Google].
+Para usar los módulos de [!UICONTROL Google Sheets], debe tener una cuenta de [!UICONTROL Google].
 
 ## Información de API de hojas de Google
 
@@ -88,13 +100,13 @@ El conector de Google Sheets utiliza lo siguiente:
  </tbody> 
  </table>
 
-## Déclencheur
+## Activadores
 
-### [!UICONTROL Filas de inspección]
+### [!UICONTROL Watch Rows]
 
-Recupera valores de cada fila recién agregada en la hoja de cálculo.
+Recupera valores de cada fila recién añadida a la hoja de cálculo.
 
-El módulo recupera únicamente las filas nuevas que no se hayan rellenado anteriormente. El déclencheur no procesará una fila sobrescrita.
+El módulo recupera únicamente las filas nuevas que no se hayan rellenado anteriormente. El activador no procesará una fila sobrescrita.
 
 >[!IMPORTANT]
 >
@@ -105,43 +117,43 @@ El módulo recupera únicamente las filas nuevas que no se hayan rellenado anter
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo que contiene la hoja que desea inspeccionar.</p> </td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo que contiene la hoja que desea ver.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Hoja] </td> 
-   <td> <p>Seleccione la hoja que desee inspeccionar para buscar una fila nueva.</p> </td> 
+   <td role="rowheader">[!UICONTROL Sheet] </td> 
+   <td> <p>Seleccione la hoja en la que desee buscar una fila nueva.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL La tabla contiene encabezados]</td> 
+   <td role="rowheader">[!UICONTROL Table contains headers]</td> 
    <td> <p> Seleccione si la hoja de cálculo contiene la fila de encabezado.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Sí]</strong> </p> <p>El módulo no recupera la fila de encabezado como datos de salida. </p> <p>Los encabezados llaman a los nombres de las variables en la salida.</p> </li> 
-     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>El módulo también recupera la primera fila de la tabla</p> <p>Los nombres de las variables en la salida se denominan A, B, C, D, etc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Yes]</strong> </p> <p>El módulo no recupera la fila de encabezado como datos de salida. </p> <p>Los encabezados designan los nombres de variables en la salida.</p> </li> 
+     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>El módulo también recupera la primera fila de la tabla</p> <p>Los nombres de variables en la salida son A, B, C, D, etc.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fila con encabezados] </td> 
+   <td role="rowheader">[!UICONTROL Row with headers] </td> 
    <td> <p>Introduzca el rango de la fila de encabezado. Por ejemplo, <code>A1:F1</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Primera fila de tabla]</td> 
+   <td role="rowheader">[!UICONTROL First table row]</td> 
    <td> <p>Introduzca el rango de la primera fila de la tabla. Por ejemplo, <code>A1:F1</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Opción de procesamiento de valor]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Valor con formato]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Valor sin formato]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Fórmula]</p> <p>Los valores no se calculan. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Value render option]</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la configuración regional del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Los valores no se calcularán. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Opción de procesamiento de fecha y hora]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Número de serie]</p> <p>Indica a los campos de fecha, hora, fecha y hora que deben aparecer como valores dobles en formato de "número de serie", tal como lo ha popularizado Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33.625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!UICONTROL Cadena con formato]</p> <p>Indica a los campos de fecha, hora, fecha y hora que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Date and time render option]</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Indica a los campos de fecha, hora, fecha y hora y duración que deben aparecer como valores dobles en formato de “número de serie”, tal como lo ha popularizado Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33,625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Indica a los campos de fecha, hora, fecha y hora y duración que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Límite] </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
    <td> <p>Establezca el número máximo de resultados con los que trabajará [!DNL Workfront Fusion] durante un ciclo de ejecución.</p> </td> 
   </tr> 
  </tbody> 
@@ -149,25 +161,25 @@ El módulo recupera únicamente las filas nuevas que no se hayan rellenado anter
 
 ## Acciones
 
-* [[!UICONTROL Agregar una fila]](#add-a-row)
+* [[!UICONTROL Añadir una fila]](#add-a-row)
 * [[!UICONTROL Actualizar una fila]](#update-a-row)
 * [[!UICONTROL Borrar una fila]](#clear-a-row)
 * [[!UICONTROL Eliminar una fila]](#delete-a-row)
 * [[!UICONTROL Obtener una celda]](#get-a-cell)
 * [[!UICONTROL Actualizar una celda]](#update-a-cell)
 * [[!UICONTROL Borrar una celda]](#clear-a-cell)
-* [[!UICONTROL Agregar una hoja]](#add-a-sheet)
+* [[!UICONTROL Añadir una hoja]](#add-a-sheet)
 * [[!UICONTROL Crear una hoja de cálculo]](#create-a-spreadsheet)
 * [[!UICONTROL Eliminar una hoja]](#delete-a-sheet)
 * [[!UICONTROL Realizar una llamada API]](#make-an-api-call)
 
-### [!UICONTROL Agregar una fila]
+### [!UICONTROL Añadir una fila]
 
-Este módulo anexa una fila a una hoja.
+Este módulo añade una fila a una hoja.
 
-Al configurar [!DNL Google Sheets] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL Google Sheets] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar [!DNL Google Sheets] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL Google Sheets] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. El título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -176,51 +188,51 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Modo]</td> 
-   <td> <p>Seleccione si desea seleccionar la hoja de cálculo y la hoja manualmente o mediante asignación.</p> <p>Nota: La asignación manual resulta útil, por ejemplo, cuando se crea una hoja de cálculo nueva en un escenario de [!DNL Workfront Fusion] y desea agregar datos directamente en el escenario a la hoja de cálculo recién creada.</p> </td> 
+   <td>[!UICONTROL Mode]</td> 
+   <td> <p>Seleccione si desea seleccionar la hoja de cálculo y la hoja manualmente o mediante asignación.</p> <p>Nota: la asignación manual resulta útil, por ejemplo, cuando se crea una hoja de cálculo nueva en un escenario de [!DNL Workfront Fusion] y desea añadir datos a la hoja de cálculo recién creada directamente en el escenario.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
-   <td> <p>Seleccione la hoja a la que desee agregar una fila.</p> </td> 
+   <td>[!UICONTROL Sheet] </td> 
+   <td> <p>Seleccione la hoja a la que desea añadir una fila.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Rango de columnas]</td> 
+   <td>[!UICONTROL Column Range]</td> 
    <td>Seleccione el rango de columnas con el que desea trabajar.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL La tabla contiene encabezados]</td> 
+   <td>[!UICONTROL Table contains headers]</td> 
    <td> <p> Seleccione si la hoja de cálculo contiene la fila de encabezado.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Sí]</strong> </p> <p>El módulo no recupera la fila de encabezado como datos de salida. </p> <p>Los encabezados llaman a los nombres de las variables en la salida.</p> </li> 
-     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>El módulo también recupera la primera fila de la tabla</p> <p>Los nombres de las variables en la salida se denominan A, B, C, D, etc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Yes]</strong> </p> <p>El módulo no recupera la fila de encabezado como datos de salida. </p> <p>Los encabezados designan los nombres de variables en la salida.</p> </li> 
+     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>El módulo también recupera la primera fila de la tabla</p> <p>Los nombres de variables en la salida son A, B, C, D, etc.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Valores] </td> 
-   <td> <p>Introduzca o asigne las celdas deseadas de la fila que desee añadir.</p> </td> 
+   <td>[!UICONTROL Values] </td> 
+   <td> <p>Introduzca o asigne las celdas deseadas de la fila que desea añadir.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de entrada de valor]</td> 
+   <td>[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Usuario introducido]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la interfaz de usuario. Los números siguen siendo números, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la interfaz de usuario de [!DNL Google Sheets].</p> </li> 
-     <li> <p><strong>[!UICONTROL RAW]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la IU. Los números se mantienen, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la IU de [!DNL Google Sheets].</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Insertar opción de datos]</td> 
+   <td>[!UICONTROL Insert data option]</td> 
    <td> <p>Especifique cómo se cambian los datos existentes al introducir nuevos datos. </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Insertar filas]</strong></p> <p>Las filas se insertan para los nuevos datos.</p> </li> 
-     <li> <p><strong>[!UICONTROL Sobrescribir]</strong> </p> <p>Los nuevos datos sobrescriben los datos existentes en las áreas en las que se escriben. Al agregar datos al final de la hoja, se insertan nuevas filas o columnas para poder escribir los datos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Insert rows]</strong></p> <p>Las filas se insertan para los nuevos datos.</p> </li> 
+     <li> <p><strong>[!UICONTROL Overwrite]</strong> </p> <p>Los nuevos datos sobrescriben los datos existentes en las áreas donde se escriben. Al añadir datos al final de la hoja, se insertan nuevas filas o columnas para poder escribir los datos.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -228,56 +240,56 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ### [!UICONTROL Actualizar una fila]
 
-Este módulo le permite cambiar el contenido de la celda en una fila seleccionada.
+Este módulo permite cambiar el contenido de la celda en una fila seleccionada.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Modo]</td> 
-   <td> <p>Seleccione si desea seleccionar la hoja de cálculo y la hoja manualmente o mediante asignación.</p> <p>Nota: La asignación manual resulta útil, por ejemplo, cuando se crea una nueva hoja de cálculo en el escenario [!UICONTROL Workfront Fusion] y se desea agregar datos a la hoja de cálculo recién creada directamente en el escenario.</p> </td> 
+   <td>[!UICONTROL Mode]</td> 
+   <td> <p>Seleccione si desea seleccionar la hoja de cálculo y la hoja manualmente o mediante asignación.</p> <p>Nota: La asignación manual resulta útil, por ejemplo, cuando se crea una nueva hoja de cálculo en el escenario [!UICONTROL Workfront Fusion] y se desea añadir datos a la hoja de cálculo recién creada directamente en el escenario.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
+   <td>[!UICONTROL Sheet] </td> 
    <td> <p>Seleccione la hoja en la que desea actualizar una fila.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Número de fila]</td> 
+   <td>[!UICONTROL Row number]</td> 
    <td> <p> Introduzca el número de la fila que desea actualizar.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL La tabla contiene encabezados]</td> 
+   <td>[!UICONTROL Table contains headers]</td> 
    <td> <p> Seleccione si la hoja de cálculo contiene la fila de encabezado.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Sí]</strong> </p> <p>El módulo no recupera la fila de encabezado como datos de salida. </p> <p>Los encabezados llaman a los nombres de las variables en la salida.</p> </li> 
-     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>El módulo también recupera la primera fila de la tabla</p> <p>Los nombres de las variables en la salida se denominan A, B, C, D, etc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Yes]</strong> </p> <p>El módulo no recupera la fila de encabezado como datos de salida. </p> <p>Los encabezados designan los nombres de variables en la salida.</p> </li> 
+     <li> <p><strong>[!UICONTROL No]</strong> </p> <p>El módulo también recupera la primera fila de la tabla</p> <p>Los nombres de variables en la salida son A, B, C, D, etc.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Valores] </td> 
+   <td>[!UICONTROL Values] </td> 
    <td> <p>Introduzca o asigne los valores a las celdas deseadas de la fila que desea cambiar (actualizar).</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de entrada de valor]</td> 
+   <td>[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Usuario introducido]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la interfaz de usuario. Los números siguen siendo números, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la interfaz de usuario de [!DNL Google Sheets].</p> </li> 
-     <li> <p><strong>[!UICONTROL RAW]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la IU. Los números se mantienen, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la IU de [!DNL Google Sheets].</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Borrar una fila]
+### [!UICONTROL Clear a Row]
 
 Elimina valores de una fila especificada.
 
@@ -286,19 +298,19 @@ Elimina valores de una fila especificada.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google] que contiene la hoja de cálculo de la que desea borrar una fila.</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google] que contiene la hoja de cálculo de la que desea borrar una fila.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
+   <td>[!UICONTROL Sheet] </td> 
    <td> <p> Seleccione la hoja de la que desea borrar los datos.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Número de fila]</td> 
+   <td>[!UICONTROL Row number]</td> 
    <td> <p>Introduzca el número de la fila desde la que desea borrar los datos. Por ejemplo, <code> 23</code>.</p> </td> 
   </tr> 
  </tbody> 
@@ -313,11 +325,11 @@ Elimina una fila especificada.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
    <td> <p>Seleccione la hoja de cálculo de Google que contiene la hoja en la que desea eliminar una fila.</p> </td> 
   </tr> 
   <tr> 
@@ -340,28 +352,28 @@ Recupera un valor de una celda seleccionada.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
+   <td>[!UICONTROL Sheet] </td> 
    <td> <p>Seleccione la hoja que contiene la celda de la que desea recuperar los datos.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Celda] </td> 
+   <td>[!UICONTROL Cell] </td> 
    <td> <p>Introduzca el ID de la celda desde la que desea recuperar los datos. Ejemplo: <code>A6</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de procesamiento de valor]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Valor con formato]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Unformatted value]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Formula]</p> <p>Los valores no se calculan. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
+   <td>[!UICONTROL Value render option]</td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la configuración regional del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Unformatted value]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Formula]</p> <p>Los valores no se calcularán. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Date and time render option]</td> 
-   <td> <p style="font-weight: bold;">[!DNL Serial number]</p> <p>Indica a los campos de fecha, hora, fecha y hora que deben aparecer como valores dobles en formato de "número de serie", tal como lo ha popularizado Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33.625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>Indica a los campos de fecha, hora, fecha y hora que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
+   <td> <p style="font-weight: bold;">[!DNL Serial number]</p> <p>Indica a los campos de fecha, hora, fecha y hora y duración que deben aparecer como valores dobles en formato de “número de serie”, tal como lo ha popularizado Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33,625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>Indica a los campos de fecha, hora, fecha y hora y duración que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -373,33 +385,33 @@ Recupera un valor de una celda seleccionada.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Celda] </td> 
+   <td>[!UICONTROL Cell] </td> 
    <td> <p>Introduzca el ID de la celda que desea actualizar. Ejemplo: <code>A5</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Valor]</td> 
+   <td>[!UICONTROL Value]</td> 
    <td> <p>Introduzca el nuevo valor para la celda.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de entrada de valor]</td> 
+   <td>[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Usuario introducido]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la interfaz de usuario. Los números siguen siendo números, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la interfaz de usuario de [!DNL Google Sheets].</p> </li> 
-     <li> <p><strong>[!UICONTROL RAW]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Los valores se analizan como si el usuario los hubiera escrito en la IU. Los números se mantienen, pero las cadenas se pueden convertir en números, fechas u otros formatos siguiendo las mismas reglas que se aplican al escribir texto en una celda a través de la IU de [!DNL Google Sheets].</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> Los valores que introduce el usuario no se analizan y se almacenan tal cual. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Borrar una celda]
+### [!UICONTROL Clear a Cell]
 
 Elimina un valor de una celda especificada.
 
@@ -408,25 +420,25 @@ Elimina un valor de una celda especificada.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
    <td> <p>Seleccione la hoja de cálculo de Google que contiene la hoja en la que desea borrar una celda.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
+   <td>[!UICONTROL Sheet] </td> 
    <td> <p>Seleccione la hoja en la que desea borrar una celda.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Celda] </td> 
-   <td> <p>Introduzca el ID de la celda que desea borrar. Ejemplo: <code>A5</code>.</p> </td> 
+   <td>[!UICONTROL Cell] </td> 
+   <td> <p>Introduzca el ID de la celda que desea borrar. Ejemplo: <code>A5</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Agregar una hoja]
+### [!UICONTROL Add a Sheet]
 
 Crea una hoja nueva en una hoja de cálculo seleccionada.
 
@@ -435,40 +447,40 @@ Crea una hoja nueva en una hoja de cálculo seleccionada.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo de Google en la que desea agregar una hoja.</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de Google en la que desea añadir una hoja.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Propiedades]</td> 
+   <td>[!UICONTROL Properties]</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Título]</p> <p>Introduzca el nombre de la nueva hoja.</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Índice]</p> <p>Introduzca la posición de la hoja. El valor predeterminado es 0 (coloca la hoja en primer lugar)</p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Title]</p> <p>Introduzca el nombre de la nueva hoja.</p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Index]</p> <p>Introduzca la posición de la hoja. El valor predeterminado es 0 (coloca la hoja en primer lugar)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Crear una hoja de cálculo]
+### [!UICONTROL Create a Spreadsheet]
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Título] </td> 
-   <td> <p>Introduzca el nombre de una nueva hoja de cálculo.</p> </td> 
+   <td>[!UICONTROL Title] </td> 
+   <td> <p>Introduzca el nombre de la nueva hoja de cálculo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Configuración regional]</td> 
+   <td>[!UICONTROL Locale]</td> 
    <td> <p>Introduzca la configuración regional de la hoja de cálculo en uno de los siguientes formatos:</p> 
     <ul> 
      <li>un código de idioma ISO 639-1 como <code>en</code></li> 
@@ -477,20 +489,20 @@ Crea una hoja nueva en una hoja de cálculo seleccionada.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Intervalo de cálculo]</td> 
-   <td> <p>Cantidad de tiempo de espera antes de volver a calcular las funciones volátiles:</p> <p style="font-weight: bold;">[!UICONTROL Al cambiar]</p> <p>Las funciones volátiles se actualizan con cada cambio.</p> <p style="font-weight: bold;">[!UICONTROL Al cambiar y cada minuto]</p> <p>Las funciones volátiles se actualizan en cada cambio y cada minuto.</p> <p style="font-weight: bold;">[!UICONTROL Al cambiar y por hora]</p> <p>Las funciones volátiles se actualizan con cada cambio y cada hora.</p> </td> 
+   <td>[!UICONTROL Recalculation interval]</td> 
+   <td> <p>La cantidad de tiempo de espera antes de volver a calcular las funciones volátiles:</p> <p style="font-weight: bold;">[!UICONTROL On change]</p> <p>Las funciones volátiles se actualizan con cada cambio.</p> <p style="font-weight: bold;">[!UICONTROL On change and every minute]</p> <p>Las funciones volátiles se actualizan con cada cambio y cada minuto.</p> <p style="font-weight: bold;">[!UICONTROL On change and hourly]</p> <p>Las funciones volátiles se actualizan con cada cambio y cada hora.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Zona horaria]</td> 
+   <td>[!UICONTROL Time zone]</td> 
    <td> <p> Seleccione la zona horaria de la hoja de cálculo.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Formato de número]</td> 
-   <td> <p>Seleccione el formato predeterminado de todas las celdas de la hoja de cálculo.</p> <p><strong>[!UICONTROL Text]</strong>: formato de texto. Ejemplo: <code>1000. 12</code></p> <p><strong>[!UICONTROL Número]</strong>: formato de número. Ejemplo: <code>1,000.12</code></p> <p><strong>[!UICONTROL Percent]</strong>: formato de porcentaje. Ejemplo: <code>10. 12%</code></p> <p><strong>[!UICONTROL Currency]</strong>: Formato de moneda. Ejemplo: <code>$1,000.12</code></p> <p><strong>[!UICONTROL Fecha]</strong>: formato de fecha. Ejemplo: <code>9/26/2008</code></p> <p><strong>[!UICONTROL Time]</strong>: formato de hora. Ejemplo: <code>3:59:00 PM</code></p> <p><strong>[!UICONTROL Fecha y hora]</strong>: formato de fecha y hora. Ejemplo: <code>9/26/08 15:59:00</code> </p> <p><strong>[!UICONTROL Scientific]</strong>Formato de número científico. Ejemplo: <code>1. 01E+03</code></p> </td> 
+   <td>[!UICONTROL Number format]</td> 
+   <td> <p>Seleccione el formato predeterminado de todas las celdas de la hoja de cálculo.</p> <p><strong>[!UICONTROL Text]</strong>: formato de texto. Ejemplo: <code>1000. 12</code></p> <p><strong>[!UICONTROL Number]</strong>: formato de número. Ejemplo: <code>1,000.12</code></p> <p><strong>[!UICONTROL Percent]</strong>: formato de porcentaje. Ejemplo: <code>10. 12%</code></p> <p><strong>[!UICONTROL Currency]</strong>: formato de moneda. Ejemplo: <code>$1,000.12</code></p> <p><strong>[!UICONTROL Date]</strong>: formato de fecha. Ejemplo: <code>9/26/2008</code></p> <p><strong>[!UICONTROL Time]</strong>: formato de hora. Ejemplo: <code>3:59:00 PM</code></p> <p><strong>[!UICONTROL Date time]</strong>: formato de fecha y hora. Ejemplo: <code>9/26/08 15:59:00</code> </p> <p><strong>[!UICONTROL Scientific]</strong>: formato de número científico. Ejemplo: <code>1. 01E+03</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hojas] </td> 
-   <td> <p>Haga clic en <strong>[!UICONTROL Add]</strong> para agregar una hoja a la hoja de cálculo. Para cada hoja, introduzca o asigne un título para la hoja y su índice. Un índice de 0 representa la primera hoja.</p> </td> 
+   <td>[!UICONTROL Sheets] </td> 
+   <td> <p>Haga clic en <strong>[!UICONTROL Add]</strong> para añadir una hoja a la hoja de cálculo. Para cada hoja, introduzca o asigne un título para la hoja y el índice de la hoja. Un índice 0 representa la primera hoja.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -504,15 +516,15 @@ Elimina una hoja específica.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
+   <td>[!UICONTROL Sheet] </td> 
    <td> <p>Seleccione la hoja que desee eliminar.</p> </td> 
   </tr> 
  </tbody> 
@@ -527,7 +539,7 @@ Este módulo de acción le permite realizar una llamada de API personalizada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [Fusion App] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -535,20 +547,20 @@ Este módulo de acción le permite realizar una llamada de API personalizada.
    <td>Escriba una ruta relativa a <code>https://sheets.googleapis.com/v4/</code>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Método]</p> </td> 
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
+   <td> <p>Seleccione el método de petición HTTP que necesita para configurar la llamada de la API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Métodos de petición HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Encabezados]</td> 
-   <td> <p>Agregue los encabezados de la solicitud en forma de objeto JSON estándar. Por ejemplo, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] agrega los encabezados de autorización por usted.</p> </td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar. Por ejemplo, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] añade los encabezados de autorización en su lugar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cadena de consulta]</td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
    <td> <p> Añada la consulta para la llamada de API en forma de objeto JSON estándar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cuerpo]</td> 
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:   <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:   <p>Cuando utilice instrucciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la instrucción condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -559,7 +571,7 @@ Este módulo de acción le permite realizar una llamada de API personalizada.
 ## Búsquedas
 
 * [[!UICONTROL Buscar filas]](#search-rows)
-* [[!UICONTROL Buscar filas (avanzadas)]](#search-rows-advanced)
+* [[!UICONTROL Buscar filas (avanzado)]](#search-rows-advanced)
 * [[!UICONTROL Obtener valores de rango]](#get-range-values)
 * [[!UICONTROL Hojas de lista]](#list-sheets)
 
@@ -572,75 +584,75 @@ Busca filas utilizando las opciones de filtro.
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [Fusion App] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
+   <td>[!UICONTROL Sheet] </td> 
    <td> <p>Seleccione la hoja en la que desea buscar las filas.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL La tabla contiene encabezados]</td> 
-   <td> <p> Seleccione si la hoja de cálculo contiene la fila de encabezado. Si se selecciona la opción [!UICONTROL Yes], el módulo no recupera la fila de encabezado, ya que los encabezados llaman a los datos de salida y a los nombres de las variables en la salida. Si se selecciona la opción [!UICONTROL No], el módulo también recupera la primera fila de tabla y los nombres de variables en la salida se llaman solo A, B, C, D, etc.</p> </td> 
+   <td>[!UICONTROL Table contains headers]</td> 
+   <td> <p> Seleccione si la hoja de cálculo contiene la fila de encabezado. Si se selecciona la opción [!UICONTROL Yes], el módulo no recupera la fila de encabezado, ya que los encabezados designan los datos de salida y los nombres de variables en la salida. Si se selecciona la opción [!UICONTROL No], el módulo también recupera la primera fila de tabla y los nombres de variables en la salida son A, B, C, D, etc.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Rango de columnas]</td> 
+   <td>[!UICONTROL Column range]</td> 
    <td>Seleccione el rango de columnas con el que desea trabajar. Ejemplo: <code>A-F</code></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Filtro]</td> 
-   <td> <p>Establezca el filtro para la fila por la que desea buscar.</p> <p>Para obtener más información sobre los filtros, consulte <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Agregar un filtro a un escenario en [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Filter]</td> 
+   <td> <p>Establezca el filtro para la fila por la que desea buscar.</p> <p>Para obtener más información sobre los filtros, consulte <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Añadir un filtro a un escenario en [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Orden]</td> 
+   <td>[!UICONTROL Sort order]</td> 
    <td>Seleccione si desea ordenar de forma ascendente o descendente.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordenar por]</td> 
+   <td>[!UICONTROL Order by]</td> 
    <td>Elija la columna por la que desea ordenar.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de procesamiento de valor]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Valor con formato]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Valor sin formato]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Fórmula]</p> <p>Los valores no se calculan. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
+   <td>[!UICONTROL Value render option]</td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la configuración regional del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Los valores no se calcularán. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de procesamiento de fecha y hora]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Número de serie]</p> <p>Indica a los campos de fecha, hora, fecha y hora que se deben mostrar como valores dobles en formato de "número de serie", tal como lo popularizó Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33.625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!UICONTROL Cadena con formato]</p> <p>Indica a los campos de fecha, hora, fecha y hora que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
+   <td>[!UICONTROL Date and time render option]</td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Indica que los campos de fecha, hora, fecha y hora, y duración aparecerán como valores dobles en el formato “número de serie”, tal como lo ha popularizado Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33,625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Indica a los campos de fecha, hora, fecha y hora y duración que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Número máximo de filas devueltas]</td> 
+   <td>[!UICONTROL Maximum number of returned rows]</td> 
    <td>Establezca el número máximo de filas que [!DNL Workfront Fusion] devolverá durante un ciclo de ejecución.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Buscar filas (avanzadas)]
+### [!UICONTROL Buscar filas (avanzado)]
 
-Devuelve los resultados que coinciden con los criterios dados.
+Devuelve los resultados que coinciden con los criterios especificados.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
    <td> <p>Seleccione la hoja de cálculo de Google que contiene la hoja que desea buscar.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
+   <td>[!UICONTROL Sheet] </td> 
    <td> <p>Seleccione la hoja que contiene las filas que desea buscar.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Consulta]</td> 
-   <td> <p>Usar [!DNL Google Charts Query Language]. Ejemplo: <code>select * where B = "John"</code></p> <p>Para obtener más información sobre [!DNL Google Charts Query Language], consulte <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Referencia del lenguaje de consulta</a> en la documentación de [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Query]</td> 
+   <td> <p>Utilice [!DNL Google Charts Query Language]. Ejemplo: <code>select * where B = "John"</code></p> <p>Para obtener más información sobre [!DNL Google Charts Query Language], consulte <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Referencia del lenguaje de consulta</a> en la documentación de [!DNL Google].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -652,41 +664,41 @@ Devuelve los resultados que coinciden con los criterios dados.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google].</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Hoja] </td> 
-   <td> <p>Seleccione la hoja de la que desee obtener el contenido del intervalo.</p> </td> 
+   <td>[!UICONTROL Sheet] </td> 
+   <td> <p>Seleccione la hoja de la que desea obtener el contenido del rango.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Rango] </td> 
-   <td> <p>Introduzca el rango que desea obtener. Ejemplo: <code>A1:D25</code>.</p> </td> 
+   <td>[!UICONTROL Range] </td> 
+   <td> <p>Introduzca el rango que desea obtener. Ejemplo: <code>A1:D25</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL La tabla contiene encabezados]</td> 
+   <td>[!UICONTROL Table contains headers]</td> 
    <td> <p>Marque esta casilla si la hoja tiene una fila de encabezado</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Fila con encabezados]</td> 
-   <td>Introduzca el rango de los encabezados de tabla. Ejemplo <code>A1:F1</code>. Si deja el campo vacío, [!DNL Workfront Fusion] supondrá que el encabezado se encuentra en la primera fila del rango especificado.</td> 
+   <td>[!UICONTROL Row with headers]</td> 
+   <td>Introduzca el rango de los encabezados de tabla. Ejemplo <code>A1:F1</code>. Si deja el campo vacío, [!DNL Workfront Fusion] supondrá que el encabezado se encuentra en la primera fila del rango especificado.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de procesamiento de valor]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Valor con formato]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Valor sin formato]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Fórmula]</p> <p>Los valores no se calculan. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
+   <td>[!UICONTROL Value render option]</td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Los valores se calculan y se les aplica formato en la respuesta según el formato de la celda. El formato se basa en la configuración regional de la hoja de cálculo, no en la configuración regional del usuario solicitante. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Los valores se calculan, pero no se les aplica formato en la respuesta. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería el número <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Los valores no se calcularán. La respuesta incluirá las fórmulas. Por ejemplo, si <code>A1</code> es <code>1.23</code> y <code>A2</code> es <code>=A1</code> y tiene formato de moneda, <code>A2</code> devolvería <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Opción de procesamiento de fecha y hora]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Número de serie]</p> <p>Indica a los campos de fecha, hora, fecha y hora que se deben mostrar como valores dobles en formato de "número de serie", tal como lo popularizó Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33.625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!UICONTROL Cadena con formato]</p> <p>Indica a los campos de fecha, hora, fecha y hora que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
+   <td>[!UICONTROL Date and time render option]</td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Indica que los campos de fecha, hora, fecha y hora, y duración aparecerán como valores dobles en el formato “número de serie”, tal como lo ha popularizado Lotus 1-2-3. La parte del número entero del valor (a la izquierda del decimal) cuenta los días transcurridos desde el 30 de diciembre de 1899. La parte fraccionaria (a la derecha del decimal) cuenta la hora como una fracción del día. Por ejemplo, el 1 de enero de 1900 al mediodía sería 2,5, 2 porque son 2 días después del 30 de diciembre de 1899 y 0,5 porque el mediodía es medio día. El 1 de febrero de 1900 a las 3 de la tarde sería 33,625. Esto trata correctamente el año 1900 como un año no bisiesto.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Indica a los campos de fecha, hora, fecha y hora y duración que se muestren como cadenas en el formato de número especificado (que depende de la configuración regional de la hoja de cálculo).</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Hojas de lista]
+### [!UICONTROL List Sheets]
 
 Este módulo devuelve una lista de todas las hojas de una hoja de cálculo.
 
@@ -695,46 +707,46 @@ Este módulo devuelve una lista de todas las hojas de una hoja de cálculo.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Conexión] </td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conectar la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Crear un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL Google Sheets] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Conexión de la aplicación o el servicio web del módulo a [!DNL Workfront Fusion]</a> en el artículo <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Creación de un escenario en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Hoja de cálculo de [!UICONTROL] </td> 
-   <td> <p>Seleccione la hoja de cálculo [!DNL Google] que contiene las hojas que desea enumerar.</p> </td> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>Seleccione la hoja de cálculo de [!DNL Google] que contiene las hojas que desea enumerar.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Límites de uso
 
-Si se produce el error `429: RESOURCE_EXHAUSTED`, ha excedido el límite de tasa de API.
+Si se produce el error `429: RESOURCE_EXHAUSTED`, ha excedido el límite de la API.
 
-La API [!DNL Google Sheets] tiene un límite de 500 solicitudes por 100 segundos por proyecto y de 100 solicitudes por 100 segundos por usuario. Los límites para lecturas y escrituras se rastrean por separado. No hay límite de uso diario.
+La API de [!DNL Google Sheets] tiene un límite de 500 solicitudes por 100 segundos por proyecto, y de 100 solicitudes por 100 segundos por usuario. Los límites para lecturas y escrituras se contabilizan por separado. No hay límite de uso diario.
 
-Ver más detalles en [developers.google.com/sheets/api/limits](https://developers.google.com/sheets/api/limits).
+Puede encontrar información más detallada en [https://developers.google.com/sheets/api/limits?hl=es-419](https://developers.google.com/sheets/api/limits?hl=es-419).
 
 ## Sugerencias y trucos
 
-* [Cómo obtener celdas vacías de una  [!DNL Google] hoja](#how-to-get-empty-cells-from-a-google-sheet)
-* [Agregar un botón en una hoja para ejecutar un escenario](#add-a-button-in-a-sheet-to-run-a-scenario)
+* [Cómo obtener celdas vacías de una hoja de  [!DNL Google] ](#how-to-get-empty-cells-from-a-google-sheet)
+* [Añadir un botón a una hoja para ejecutar un escenario](#add-a-button-in-a-sheet-to-run-a-scenario)
 
-### Cómo obtener celdas vacías de un(a) [!DNL Google Sheet]
+### Cómo obtener celdas vacías de [!DNL Google Sheet]
 
-Use el módulo [!UICONTROL Buscar filas (avanzadas)] y use esta fórmula para obtener las columnas que están vacías.
-<pre>seleccione * donde E es nulo</pre>Aquí, "E" es la columna y "es nulo" es la condición. Puede crear una consulta más avanzada con [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage).
+Use el módulo [!UICONTROL Search Rows (Advanced)] y use la siguiente fórmula para obtener las columnas que están vacías.
+<pre>select * where E is null</pre>Aquí, “E” es la columna e “is null” es la condición. Puede crear una consulta más avanzada con [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage?hl=es-419).
 
-### Agregar un botón en una hoja para ejecutar un escenario
+### Añadir un botón a una hoja para ejecutar un escenario
 
-1. En [!DNL Workfront Fusion], inserte el módulo/déclencheur **[!UICONTROL Webhook]** > **[!UICONTROL Webhooks personalizados]** en el escenario y configúrelo (consulte [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
+1. En [!DNL Workfront Fusion], inserte el módulo/activador **[!UICONTROL Webhook]** > **[!UICONTROL Webhooks personalizados]** en el escenario y configúrelo (consulte [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
 
-1. Copie la URL del gancho web.
+1. Copie la URL del webhook.
 1. Ejecute el escenario.
-1. En Hojas de cálculo de Google, elija **[!UICONTROL Insertar]** > **[!UICONTROL Dibujo]**... en la barra de menús principal.
+1. En Google Sheets, elija **[!UICONTROL Insertar]** > **[!UICONTROL Dibujo]**... en la barra de menús principal.
 
 1. En la ventana [!UICONTROL Dibujo], haga clic en el icono **[!UICONTROL Cuadro de texto]** ![](assets/text-box.png) cerca de la parte superior de la ventana.
 1. Diseñe un botón y haga clic en el botón **[!UICONTROL Guardar y cerrar]** en la esquina superior derecha:
 1. El botón se colocará en la hoja de cálculo. Haga clic en los tres puntos verticales de la esquina superior derecha del botón:
-1. Elija **[!UICONTROL Asignar script..].** del menú.
+1. Elija **[!UICONTROL Asignar script...]** en el menú.
 1. Escriba el nombre del script (función), por ejemplo `runScenario` y haga clic en **[!UICONTROL Aceptar]**:
 1. Elija **[!UICONTROL Herramientas]** > **[!UICONTROL Editor de scripts]** en la barra de menús principal.
 
@@ -753,7 +765,7 @@ Use el módulo [!UICONTROL Buscar filas (avanzadas)] y use esta fórmula para ob
 
 ## Almacenamiento de fechas en una hoja de cálculo
 
-Si almacena un valor de fecha en una hoja de cálculo sin ningún formato, aparecerá en la hoja de cálculo como texto en formato ISO 8601. Sin embargo, [!DNL Google Sheets] fórmulas o funciones que funcionan con fechas que no comprenden este texto (Ejemplo: fórmula `=A1+10`) mostrarán el siguiente error:
+Si almacena un valor de fecha en una hoja de cálculo sin ningún formato, aparecerá en la hoja de cálculo como texto en formato ISO 8601. Sin embargo, las fórmulas o funciones de [!DNL Google Sheets] que trabajan con fechas que no entienden este texto (ejemplo: fórmula `=A1+10`) mostrarán el siguiente error:
 
 ![](assets/mceclip6-350x87.png)
 
@@ -771,13 +783,13 @@ Para determinar el formato correcto:
 
 ![](assets/locale-time-350x83.png)
 
-## Explotando [!DNL Google Sheets] funciones
+## Aprovechar las funciones de [!DNL Google Sheets]
 
-Si se le pasa por alto una función integrada, pero [!DNL Google Sheets] la presenta, puede aprovecharla. Para obtener más información, vea [Usar [!DNL Google Sheets] funciones](../../workfront-fusion/functions/map-using-functions.md#exploiti) en [Asignar elementos usando funciones en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md) .
+Si se le pasa por alto una función integrada, pero [!DNL Google Sheets] la presenta, puede aprovecharla. Para obtener más información, consulte [Usar [!DNL Google Sheets] funciones](../../workfront-fusion/functions/map-using-functions.md#exploiti) en [Asignar elementos usando funciones en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md) .
 
-## Evitar que [!DNL Google Sheets] cambie números a fechas
+## Evitar que [!DNL Google Sheets] convierta números en fechas
 
-Es posible que descubra que una cadena de números que está utilizando como texto se interpreta como una fecha en una hoja de cálculo [!DNL Google]. Por ejemplo, se escribe 1-2019 con la intención de que sea texto, pero Google lo interpreta como una fecha. Puede dar formato previo al número como texto sin formato para evitarlo.
+Es posible que descubra que una cadena de números que está utilizando como texto se interpreta como una fecha en una hoja de cálculo de [!DNL Google]. Por ejemplo, se escribe 1-2019 con la intención de que sea texto, pero Google lo interpreta como una fecha. Para evitarlo, puede formatear previamente el número como texto sin formato.
 
 1. En [!DNL Google Sheets], resalte la columna o celda que contenga el número o los números.
 1. Haga clic en **[!UICONTROL Formato]** > **[!UICONTROL Número]** > **[!UICONTROL Texto sin formato]**.

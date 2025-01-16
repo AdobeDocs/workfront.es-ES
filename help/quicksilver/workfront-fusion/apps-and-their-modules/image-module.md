@@ -4,24 +4,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Módulos de imagen
-description: Los módulos de imagen de Adobe Workfront Fusion le permiten obtener información sobre una imagen específica (dimensiones, tipo, etc.), convertir una imagen a otro formato de archivo y cambiar directamente el tamaño de la imagen.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '952'
+ht-degree: 14%
 
 ---
 
 # Módulos de imagen
 
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Módulos de imagen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/image-module.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
 Los módulos [!DNL Adobe Workfront Fusion] [!UICONTROL Image] le permiten obtener información sobre una imagen específica (dimensiones, tipo, etc.), convertir una imagen a otro formato de archivo y cambiar directamente el tamaño de la imagen.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,14 +45,14 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo], [!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
@@ -60,7 +72,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Módulos [!UICONTROL Image] y sus campos
 
-Al configurar este módulo, se muestran los campos siguientes. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar este módulo, se muestran los campos siguientes. El título en negrita en un módulo indica un campo obligatorio.
 
 * [[!UICONTROL Cambiar tamaño]](#resize)
 * [[!UICONTROL Convertir un formato]](#convert-a-format)
@@ -75,15 +87,15 @@ Este módulo transformador cambia la altura y anchura de una imagen según los c
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL archivo Source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Seleccione el origen de la imagen que desea convertir. Puede seleccionar la salida de un módulo anterior o asignar el archivo de datos y el nombre de archivo. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Datos]</td> 
+   <td role="rowheader">[!UICONTROL Data]</td> 
    <td>Asigne el archivo que desea convertir. Este campo está disponible si ha seleccionado [!UICONTROL Map] en el campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nombre de archivo]</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td>Introduzca un nombre para el archivo convertido. Este campo está disponible si ha seleccionado [!UICONTROL Map] en el campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
@@ -100,15 +112,15 @@ Este módulo transformador cambia la altura y anchura de una imagen según los c
      <li> <p>[!UICONTROL Anchura mínima]</p> <p>Amplía una imagen a la anchura especificada. La altura se calcula automáticamente.</p> </li> 
      <li> <p>[!UICONTROL Altura mínima]</p> <p>Aumenta el tamaño de una imagen hasta la altura especificada. La anchura se calcula automáticamente.</p> </li> 
      <li> <p>[!UICONTROL Altura o anchura mínima]</p> <p>Amplía una imagen de forma que su altura y anchura no sean menores que los valores especificados. Debido a que esta opción mantiene la relación altura-anchura, una de las dimensiones puede ser más grande de lo especificado. Por ejemplo, si la altura y la anchura se especifican como 300, una imagen de 40x30 se ampliará a 400X300.</p> </li> 
-     <li> <p>[!UICONTROL Porcentaje]</p> <p>Cambia el tamaño de la imagen en un porcentaje basado en el valor especificado. </p> </li> 
+     <li> <p>[!UICONTROL Percent]</p> <p>Cambia el tamaño de la imagen en un porcentaje basado en el valor especificado. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Anchura]</td> 
+   <td role="rowheader">[!UICONTROL Width]</td> 
    <td>Introduzca o asigne la anchura deseada de la imagen cuyo tamaño se ha cambiado en píxeles.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Altura]</td> 
+   <td role="rowheader">[!UICONTROL Height]</td> 
    <td>Introduzca o asigne la altura deseada de la imagen cuyo tamaño se ha cambiado en píxeles.</td> 
   </tr> 
  </tbody> 
@@ -130,15 +142,15 @@ Tanto el archivo de origen como la salida deben tener uno de estos formatos. Por
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL archivo Source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Seleccione el origen de la imagen que desea convertir. Puede seleccionar la salida de un módulo anterior o asignar el archivo de datos y el nombre de archivo. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Datos]</td> 
+   <td role="rowheader">[!UICONTROL Data]</td> 
    <td>Asigne el archivo que desea convertir. Este campo está disponible si ha seleccionado [!UICONTROL Map] en el campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nombre de archivo]</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td>Introduzca un nombre para el archivo convertido. Este campo está disponible si ha seleccionado [!UICONTROL Map] en el campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
@@ -157,15 +169,15 @@ Este módulo transformador devuelve información básica sobre un módulo.
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL archivo Source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Seleccione el origen de la imagen que desea convertir. Puede seleccionar la salida de un módulo anterior o asignar el archivo de datos y el nombre de archivo. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Datos]</td> 
+   <td role="rowheader">[!UICONTROL Data]</td> 
    <td>Asigne el archivo que desea convertir. Este campo está disponible si ha seleccionado Asignar en el campo [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nombre de archivo]</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td>Introduzca un nombre para el archivo convertido. Este campo está disponible si ha seleccionado Asignar en el campo [!UICONTROL Source file].</td> 
   </tr> 
  </tbody> 

@@ -1,18 +1,30 @@
 ---
 title: Módulos CloudConvert
-description: Módulos CloudConvert
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3026'
-ht-degree: 0%
+source-wordcount: '3097'
+ht-degree: 24%
 
 ---
 
-# [!DNL CloudConvert] módulos
+# Módulos de [!DNL CloudConvert]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Módulos CloudConvert](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/cloud-convert-modules.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 En un escenario de Adobe Workfront Fusion, puede automatizar los flujos de trabajo que utilizan CloudConvert, así como conectarlo a varias aplicaciones y servicios de terceros. Los módulos [!DNL CloudConvert] le permiten supervisar y administrar trabajos, tareas e importar y exportar archivos en su cuenta de [!DNL CloudConvert].
 
@@ -26,14 +38,14 @@ En un escenario de Adobe Workfront Fusion, puede automatizar los flujos de traba
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -85,11 +97,11 @@ Para conectar tu cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], debes 
 
 1. Escriba el token que guardó en el paso 5 y luego haga clic en **[!UICONTROL Continuar]** para establecer la conexión.
 
-## [!DNL CloudConvert] módulos y sus campos {#cloudconvert-modules-and-their-fields}
+## Módulos de [!DNL CloudConvert] y sus campos {#cloudconvert-modules-and-their-fields}
 
-Al configurar [!DNL CloudConvert] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL CloudConvert] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar módulos de [!DNL CloudConvert], [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL CloudConvert] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. El título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -119,15 +131,15 @@ El módulo devuelve el ID del archivo y cualquier campo asociado, junto con cual
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
    <td>Introduzca la dirección URL del sitio web que desea capturar. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Formato de salida] </td> 
+   <td role="rowheader">[!UICONTROL Output Format] </td> 
    <td>Seleccione si desea guardar el sitio web capturado en formato PNG, JPG o PDF. </td> 
   </tr> 
   <tr> 
@@ -135,7 +147,7 @@ El módulo devuelve el ID del archivo y cualquier campo asociado, junto con cual
    <td>Introduzca un nombre de archivo (incluida la extensión) para el archivo de salida de destino.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Encabezados] </td> 
+   <td role="rowheader">[!UICONTROL Headers] </td> 
    <td> <p>(Opcional) Defina encabezados de solicitud. </p> <p>Esto resulta útil, por ejemplo, cuando la dirección URL especificada requiere autorización. </p> </td> 
   </tr> 
   <tr> 
@@ -158,8 +170,8 @@ Convierte un archivo en un formato de salida seleccionado.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Archivo de entrada]</td> 
@@ -174,7 +186,7 @@ Convierte un archivo en un formato de salida seleccionado.
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL URL]</strong> </p> <p>Introduzca la dirección URL del archivo que desea convertir.</p> </li> 
-     <li> <p><strong>[!UICONTROL Encabezados]</strong></p> <p>Defina los encabezados de solicitud (opcional). Esto resulta útil, por ejemplo, cuando la dirección URL especificada requiere la autorización.</p> </li> 
+     <li> <p><strong>[!UICONTROL Headers]</strong></p> <p>Defina los encabezados de solicitud (opcional). Esto resulta útil, por ejemplo, cuando la dirección URL especificada requiere la autorización.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -186,7 +198,7 @@ Convierte un archivo en un formato de salida seleccionado.
    <td>Seleccione el formato actual del archivo.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Formato de salida]</td> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
    <td>Seleccione el formato de archivo de destino al que desea convertir el archivo.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -213,8 +225,8 @@ Permite añadir uno o varios archivos al archivo ZIP, RAR, 7Z, TAR, TAR.GZ o TAR
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Archivos de entrada]</p> </td> 
@@ -229,11 +241,11 @@ Permite añadir uno o varios archivos al archivo ZIP, RAR, 7Z, TAR, TAR.GZ o TAR
    <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>Introduzca la dirección URL del archivo que desea archivar.</p> <p><strong>[!UICONTROL Encabezados]</strong> </p> <p>Defina los encabezados de solicitud (opcional). Esto resulta útil, por ejemplo, cuando la dirección URL especificada requiere la autorización.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Formato de salida]</td> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
    <td> <p> Seleccione el formato de destino del archivo archivado.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nombre de archivo]</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td> <p> Introduzca el nombre del archivo (incluida la extensión) para el archivo de salida de destino.</p> </td> 
   </tr> 
   <tr> 
@@ -256,8 +268,8 @@ Combina al menos dos archivos en un PDF. Si los archivos de entrada no son PDF, 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Archivos de entrada]</p> </td> 
@@ -272,11 +284,11 @@ Combina al menos dos archivos en un PDF. Si los archivos de entrada no son PDF, 
    <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>Introduzca la dirección URL del archivo que desea archivar.</p> <p><strong>[!UICONTROL Encabezados]</strong> </p> <p>Defina los encabezados de solicitud (opcional). Esto resulta útil, por ejemplo, cuando la dirección URL especificada requiere la autorización.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Formato de salida]</td> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
    <td> <p> Seleccione el formato de destino del archivo combinado.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nombre de archivo]</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td> <p> Introduzca el nombre del archivo (incluida la extensión) para el archivo de salida de destino.</p> </td> 
   </tr> 
   <tr> 
@@ -296,7 +308,7 @@ Este módulo de acción optimiza y comprime un archivo en formato PDF, PNG o for
 
 Especifique el archivo y los parámetros para optimizarlo y almacenarlo.
 
-El módulo devuelve el ID del archivo y cualquier campo asociado, junto con cualquier campo personalizado y valor al que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
+El módulo devuelve el identificador del archivo y cualquier campo asociado, junto con cualquier otro campo personalizado y valor al que acceda la conexión. Puede asignar esta información en módulos subsiguientes en el escenario.
 
 Al configurar este módulo, se muestran los campos siguientes.
 
@@ -305,8 +317,8 @@ Al configurar este módulo, se muestran los campos siguientes.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Archivo de entrada]</td> 
@@ -367,7 +379,7 @@ Al configurar este módulo, se muestran los campos siguientes.
    <td>Seleccione el formato del archivo de entrada que desea optimizar. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nombre de archivo]</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td> <p>Introduzca un nombre de archivo (incluida la extensión) para el archivo de salida de destino.</p> </td> 
   </tr> 
   <tr> 
@@ -398,8 +410,8 @@ Este módulo crea un trabajo. Un trabajo puede ser una o varias tareas identific
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Archivos de entrada]</td> 
@@ -418,7 +430,7 @@ Este módulo crea un trabajo. Un trabajo puede ser una o varias tareas identific
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Tareas]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Tasks]</p> </td> 
    <td> <p>Agregar tareas que se realizarán dentro del trabajo.</p> <p>Consulte las descripciones de los campos de las operaciones en la sección correspondiente.</p> 
     <ul> 
      <li><a href="#convert-a-file" class="MCXref xref">[!UICONTROL Convertir un archivo]</a> </li> 
@@ -452,11 +464,11 @@ Este módulo elimina un trabajo, incluidas todas las tareas y datos.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de trabajo]</td> 
+   <td role="rowheader">[!UICONTROL Job ID]</td> 
    <td> <p>Introduzca o asigne el ID del trabajo que desea eliminar.</p> </td> 
   </tr> 
  </tbody> 
@@ -471,11 +483,11 @@ Este módulo recupera los detalles del trabajo.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de trabajo]</td> 
+   <td role="rowheader">[!UICONTROL Job ID]</td> 
    <td> <p>Introduzca o asigne el ID del trabajo sobre el que desea recuperar detalles.</p> </td> 
   </tr> 
  </tbody> 
@@ -490,15 +502,15 @@ Este módulo recupera todos los trabajos que se han ejecutado en su cuenta.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Estado] </td> 
+   <td role="rowheader">[!UICONTROL Status] </td> 
    <td> <p>Seleccione el estado del trabajo para filtrar los trabajos devueltos.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Límite] </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
    <td> <p>Establezca el número de trabajos que Workfront Fusion 2.0 devolverá durante un ciclo de ejecución.</p> </td> 
   </tr> 
  </tbody> 
@@ -523,15 +535,15 @@ Déclencheur cuando se crea, finaliza o falla un trabajo en su cuenta o tarea.
    <td>Introduzca el nombre del webhook. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Formato de salida] </td> 
+   <td role="rowheader">[!UICONTROL Output Format] </td> 
    <td>Seleccione si desea guardar el sitio web capturado en formato PNG, JPG o PDF. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Evento]</td> 
+   <td role="rowheader">[!UICONTROL Event]</td> 
    <td>Seleccione si el módulo se activa cuando se crea, finaliza o falla el trabajo o la tarea.</td> 
   </tr> 
  </tbody> 
@@ -562,8 +574,8 @@ Este módulo cancela una tarea con un estado de espera o procesamiento.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Identificador de tarea]</td> 
@@ -585,8 +597,8 @@ Eliminar una tarea, incluidos todos los datos.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Identificador de tarea]</td> 
@@ -604,8 +616,8 @@ Este módulo recupera el nombre de archivo y los datos de archivo de la tarea es
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Identificador de tarea]</td> 
@@ -623,8 +635,8 @@ Este módulo recupera los detalles de la tarea.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Identificador de tarea]</td> 
@@ -642,24 +654,24 @@ Este módulo recupera todas las tareas de la cuenta en función de la configurac
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Estado] </td> 
+   <td role="rowheader">[!UICONTROL Status] </td> 
    <td> <p>Seleccione el estado de la tarea para filtrar las tareas devueltas por.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de trabajo] </td> 
+   <td role="rowheader">[!UICONTROL Job ID] </td> 
    <td> <p>Introduzca o asigne el ID de trabajo para devolver solo las tareas dentro del trabajo especificado.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Operación] </td> 
+   <td role="rowheader">[!UICONTROL Operation] </td> 
    <td> <p>Introduzca el tipo de operación para devolver sólo las tareas con la operación especificada. </p> <p>Nota: Utilice el módulo [!UICONTROL List Possible Operations] para recuperar operaciones.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Límite] </td> 
-   <td> <p>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -673,8 +685,8 @@ Este módulo crea una nueva tarea en función de la configuración (carga útil)
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Identificador de tarea]</td> 
@@ -686,7 +698,7 @@ Este módulo crea una nueva tarea en función de la configuración (carga útil)
 ### Otro
 
 * [[!UICONTROL Obtener mi información]](#get-my-info)
-* [[!UICONTROL Realizar una llamada API]](#make-an-api-call)
+* [[!UICONTROL Realización de una llamada de API]](#make-an-api-call)
 
 #### [!UICONTROL Obtener mi información]
 
@@ -697,22 +709,22 @@ Recupera detalles de cuenta autenticada acerca del usuario actual.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td> <p>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], vea <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL CloudConvert] a [!DNL Workfront Fusion], consulte <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Conectar [!DNL CloudConvert] a [!DNL Workfront Fusion]</a> en este artículo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Realizar una llamada API]
+#### [!UICONTROL Realizar una llamada de API]
 
-Permite realizar una llamada de API personalizada.
+Le permite realizar una llamada de API personalizada.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Para obtener instrucciones sobre cómo conectar su cuenta de [Fusion App] a Workfront Fusion, consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión a Adobe Workfront Fusion: instrucciones básicas</a></p> </td> 
   </tr> 
   <tr> 
@@ -720,20 +732,20 @@ Permite realizar una llamada de API personalizada.
    <td> <p>Escriba una ruta relativa a <code>https://api.cloudconvert.com/</code>. Por ejemplo: <code>/v2/tasks</code></p> <p>Para obtener la lista de extremos disponibles, consulte la Documentación de la API <a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert] v2</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Método]</td> 
-   td&gt; <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   td&gt; <p>Seleccione el método de petición HTTP que necesita para configurar la llamada de la API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de petición HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Encabezados]</td> 
-   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 2.0 agrega los encabezados de autorización por usted.</p> </td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 2.0 agrega los encabezados de autorización por usted.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cadena de consulta]</td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
    <td> <p>Añada la consulta para la llamada de API en forma de objeto JSON estándar.</p> <p>Por ejemplo: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cuerpo]</td> 
-   <td> <p>Agregue el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar. Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera de la afirmación condicional.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar. Cuando utilice instrucciones condicionales como <code>if</code> en su JSON, ponga las comillas fuera de la instrucción condicional.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>

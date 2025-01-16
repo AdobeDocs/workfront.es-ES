@@ -5,28 +5,40 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: módulos de Adobe Firefly
-description: En un  [!DNL Adobe Workfront Fusion] escenario, puede automatizar los flujos de trabajo que usan [!DNL Adobe Firefly], así como conectarlo a varias aplicaciones y servicios de terceros.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 0%
+source-wordcount: '1369'
+ht-degree: 35%
 
 ---
 
-# [!DNL Adobe Firefly] módulos
+# Módulos de [!DNL Adobe Firefly]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [módulos de Adobe Firefly](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-firefly-modules.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 En un escenario de [!DNL Adobe Workfront Fusion], puede automatizar los flujos de trabajo que utilizan [!DNL Adobe Firefly], así como conectarlo a varias aplicaciones y servicios de terceros.
 
 Si necesita instrucciones para crear un escenario, consulte [Crear un escenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obtener información acerca de los módulos, vea [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obtener información sobre los módulos, consulte [Módulos en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
  <col> 
@@ -51,7 +63,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   <tr> 
    <td role="rowheader">Producto</td> 
    <td>
-   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul>
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] está incluido.</li></ul>
    <p>O</p>
    <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p>
    </td> 
@@ -61,11 +73,11 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Para obtener información sobre las licencias de [!DNL Adobe Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Requisitos previos
 
-Antes de poder usar el conector [!DNL Adobe Firefly], debe asegurarse de que se cumplen los siguientes requisitos previos:
+Antes de poder usar el conector de [!DNL Adobe Firefly], debe asegurarse de que se cumplen los siguientes requisitos previos:
 
 * Debe tener una cuenta de [!DNL Adobe Firefly] activa.
 
@@ -84,11 +96,11 @@ El conector de Adobe Campaign utiliza lo siguiente:
  </tbody> 
  </table>
 
-## Crear una conexión con [!DNL Adobe Firefly]
+## Crear una conexión a [!DNL Adobe Firefly]
 
 Para crear una conexión para los módulos de [!DNL Adobe Firefly]:
 
-1. Haga clic en **[!UICONTROL Agregar]** junto al cuadro Conexión.
+1. Haga clic en **[!UICONTROL Añadir]** junto al cuadro Conexión.
 
 1. Rellene los campos siguientes:
 
@@ -99,37 +111,37 @@ Para crear una conexión para los módulos de [!DNL Adobe Firefly]:
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL Nombre de conexión]</td>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
-          <p>Escriba un nombre para esta conexión.</p>
+          <p>Introduzca un nombre para esta conexión.</p>
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Entorno]</td>
+        <td role="rowheader">[!UICONTROL Environment]</td>
         <td>Seleccione si desea conectarse a un entorno de producción o de no producción.</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Tipo]</td>
-        <td>Seleccione si desea conectarse a una cuenta de servicio o a una cuenta personal.</td>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Seleccione si desea conectarse a una cuenta de servicio o a una personal.</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL ID de cliente]</td>
-        <td>Introduzca el [!UICONTROL Adobe] [!UICONTROL ID de cliente]. Esto se puede encontrar en la sección de detalles de [!UICONTROL Credentials] de [!DNL Adobe Developer Console].</td>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Introduzca el [!UICONTROL Adobe] [!UICONTROL Client ID]. Esto se puede encontrar en la sección de detalles de [!UICONTROL Credentials] de [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Secreto de cliente]</td>
-        <td>Escriba su [!UICONTROL Secreto de cliente] [!DNL Adobe]. Esto se puede encontrar en la sección de detalles de [!UICONTROL Credentials] de [!DNL Adobe Developer Console].</td>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Introduzca su [!DNL Adobe] [!UICONTROL Client Secret].  Esto se puede encontrar en la sección de detalles de [!UICONTROL Credentials] de [!DNL Adobe Developer Console].</td>
         </tr>
       </tbody>
     </table>
 
 1. Haga clic en **[!UICONTROL Continuar]** para guardar la conexión y volver al módulo.
 
-## [!DNL Adobe Firefly] módulos y sus campos
+## Módulos de [!DNL Adobe Firefly] y sus campos
 
-Al configurar [!DNL Adobe Firefly] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL Adobe Firefly] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar módulos de [!DNL Adobe Firefly], [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL Adobe Firefly] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. El título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -144,8 +156,8 @@ Para ver las API disponibles específicas, consulte [API de Adobe Firefly](https
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Conexión]</td>
-      <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Firefly], vea <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión con [!DNL Adobe Firefly]</a> en este artículo.</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Para obtener instrucciones sobre la creación de una conexión a [!DNL Adobe Firefly], consulte <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión a [!DNL Adobe Firefly]</a> en este artículo.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -155,20 +167,20 @@ Para ver las API disponibles específicas, consulte [API de Adobe Firefly](https
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Método]</p>
+        <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Seleccione el método de petición HTTP que necesita para configurar la llamada de la API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de petición HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Encabezados]</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p>
-        <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] agrega encabezados de autorización automáticamente.</p>
+        <p>Por ejemplo: <code>{"Content-type":"application/json"}</code></p>
+        <p>[!DNL Workfront Fusion] añade encabezados de autorización automáticamente.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Cuerpo]</td>
+      <td role="rowheader">[!UICONTROL Body]</td>
    <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -185,8 +197,8 @@ Este módulo de acción expande una imagen, de forma opcional con contenido de u
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign], vea <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión con [!DNL Adobe Firefly]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign], consulte <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión con [!DNL Adobe Firefly]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -201,7 +213,7 @@ Este módulo de acción expande una imagen, de forma opcional con contenido de u
    <td>Seleccione el formato de archivo con el que se guardará la imagen expandida.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL archivo Source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td>  <p>Seleccione un archivo de origen de un módulo anterior o asigne el nombre y el archivo de imagen del archivo de origen (datos).</p> </td> 
 </td> 
   </tr> 
@@ -226,8 +238,8 @@ Este módulo de acción rellena el área enmascarada de una imagen, opcionalment
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign], vea <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión con [!DNL Adobe Firefly]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign], consulte <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión con [!DNL Adobe Firefly]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -242,7 +254,7 @@ Este módulo de acción rellena el área enmascarada de una imagen, opcionalment
    <td>Seleccione el formato de archivo con el que se guardará la imagen rellenada.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Imagen]</td> 
+   <td role="rowheader">[!UICONTROL Image]</td> 
    <td>  <p> Haga clic en <b>Agregar una imagen</b>. Seleccione un archivo de origen de un módulo anterior o asigne el nombre y los datos de imagen del archivo de origen.</p> </td> 
 </td> 
   </tr> 
@@ -271,8 +283,8 @@ Este módulo de acción genera una imagen basada en una solicitud proporcionada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign], vea <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión con [!DNL Adobe Firefly]</a> en este artículo.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones sobre cómo crear una conexión con [!DNL Adobe Campaign], consulte <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Crear una conexión con [!DNL Adobe Firefly]</a> en este artículo.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -287,7 +299,7 @@ Este módulo de acción genera una imagen basada en una solicitud proporcionada.
    <td>Seleccione el formato de archivo con el que se guardará la imagen expandida. Si selecciona Por defecto (default), el formato de fichero será JPEG si no se proporciona ninguna imagen de referencia. Si se proporciona una imagen de referencia, el formato de archivo de la imagen generada será el mismo que la imagen de referencia.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL archivo Source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td>  <p>Seleccione un archivo de origen de un módulo anterior o asigne el nombre del archivo de imagen de referencia del archivo de origen y el archivo de imagen de referencia (datos). La imagen generada se creará de modo que coincida con el estilo de la imagen de referencia.</p> </td> 
 </td> 
   </tr> 
@@ -320,7 +332,7 @@ Este módulo de acción genera una imagen basada en una solicitud proporcionada.
    <td>Escriba o asigne un entero que represente la intensidad general de las características visuales existentes de la fotografía. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Configuración regional]</td> 
+   <td role="rowheader">[!UICONTROL Locale]</td> 
    <td>Si se proporciona una configuración regional, el módulo genera contenido más relevante para la configuración regional especificada. <p>La configuración regional debe proporcionarse en el código de idioma ISO 639-1 y en la región ISO 3166-1.</p><p> Ejemplo: <code>en-US</code></p></td> 
   </tr> 
  </tbody> 

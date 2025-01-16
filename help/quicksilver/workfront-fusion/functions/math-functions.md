@@ -4,24 +4,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Funciones matemáticas en Adobe Workfront Fusion
-description: Las siguientes funciones matemáticas están disponibles en el panel de asignación de Adobe Workfront Fusion.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: c325e16ba0cde4cd48fc3e40358a9ea9ed310659
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 80%
 
 ---
 
 # Funciones matemáticas en [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Funciones matemáticas](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/math-functions.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
 <!--Audited: 4/2024-->
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col>  
@@ -44,9 +56,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>  
   </tr>  
   <tr>  
-   <td role="rowheader">Product</td>  
+   <td role="rowheader">Producto</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] está incluido.</li></ul> 
    <p>O</p> 
    <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -56,15 +68,15 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Para obtener información sobre las licencias de [!DNL Adobe Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL average ([matriz de valores]) average(valor1; [valor2], ...)]
+## [!UICONTROL average ([array of values]) average(value1; [value2], ...)]
 
-Devuelve el valor promedio de los valores numéricos de una matriz específica o el valor promedio de los valores numéricos introducidos individualmente.
+Devuelve el valor promedio de los valores numéricos en una matriz específica o el valor promedio de los valores numéricos introducidos individualmente.
 
-## [!UICONTROL techo (número)]
+## [!UICONTROL ceil (number)]
 
-Devuelve el menor entero que sea mayor o igual que un número especificado.
+Devuelve el valor entero menor que sea mayor o igual que un número especificado.
 
 >[!INFO]
 >
@@ -78,9 +90,9 @@ Devuelve el menor entero que sea mayor o igual que un número especificado.
 >
 >   Devuelve 4
 
-## [!UICONTROL piso (número)]
+## [!UICONTROL floor (number)]
 
-Devuelve el mayor entero que sea menor o igual que un número especificado.
+Devuelve el valor entero más alto que sea menor o igual que un número especificado.
 
 >[!INFO]
 >
@@ -98,21 +110,21 @@ Devuelve el mayor entero que sea menor o igual que un número especificado.
 >
 >   Devuelve 4
 
-## [!UICONTROL max ([matriz de valores]), max(valor1;valor2; ...)]
+## [!UICONTROL max ([array of values]), max(value1;value2; ...)]
 
 Devuelve el número mayor de una matriz especificada o el número mayor entre los números introducidos individualmente.
 
-## [!UICONTROL min ([matriz de valores]), min(valor1; valor2; ...)]
+## [!UICONTROL min ([array of values]), min(value1; value2; ...)]
 
-Devuelve el menor número de una matriz especificada o el menor número entre los números introducidos individualmente.
+Devuelve el número menor dentro de una matriz especificada o el número menor entre los números introducidos individualmente.
 
-## [!UICONTROL ronda (número)]
+## [!UICONTROL round (number)]
 
-Redondea un valor numérico al entero más cercano.
+Redondea al valor numérico entero más cercano
 
 >[!INFO]
 >
->**Ejemplos:**
+>**Ejemplos**
 >
 >* `round(` `1.2` `)`
 >
@@ -130,17 +142,17 @@ Redondea un valor numérico al entero más cercano.
 >
 >   Devuelve 2
 
-## [!UICONTROL sum ([matriz de valores]), sum(valor1; valor2; ...)]
+## [!UICONTROL sum ([array of values]), sum(value1; value2; ...)]
 
-Devuelve la suma de los valores de una matriz especificada o la suma de los números introducidos individualmente.
+Devuelve la suma de los valores en una matriz especificada o la suma de los números introducidos individualmente.
 
-## [!UICONTROL parseNumber (número; separador decimal)]
+## [!UICONTROL parseNumber (number; decimal separator)]
 
 Analiza una cadena con un número y devuelve el número. Por ejemplo, parseNumber(1 756,456;,)
 
-## [!UICONTROL formatNumber (number; decimalPOINTS; [decimalSeparator]; [milesSeparator])]
+## [!UICONTROL formatNumber (number; decimalPOINTS; [decimalSeparator]; [thousandsSeparator])]
 
-Devuelve un número en formato solicitado. De forma predeterminada, el punto decimal es una coma (,) y el separador de miles es un punto (.).
+Devuelve un número en el formato solicitado. De forma predeterminada, el punto decimal es una coma (,) y el separador de miles es un punto (.).
 
 >[!INFO]
 >

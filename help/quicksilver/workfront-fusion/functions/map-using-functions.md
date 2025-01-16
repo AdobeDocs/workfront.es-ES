@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Asignar elementos usando funciones en  [!DNL Adobe Workfront Fusion]
-description: Al asignar elementos, puede utilizar funciones para crear fórmulas simples o complejas.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 86%
 
 ---
 
 # Asignar elementos usando funciones en [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Asignar un elemento mediante funciones](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 Al asignar elementos, puede utilizar funciones para crear fórmulas simples o complejas. Las funciones disponibles en [!DNL Adobe Workfront Fusion] son similares a las funciones de Excel y de algunos lenguajes de programación:
 
@@ -26,7 +38,7 @@ Para obtener más información, consulte [Asignar información de un módulo a o
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
 
@@ -50,9 +62,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>  
   </tr>  
   <tr>  
-   <td role="rowheader">Product</td>  
+   <td role="rowheader">Producto</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] está incluido.</li></ul> 
    <p>O</p> 
    <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -65,34 +77,34 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
-## Información general de la pestaña Asignación
+## Información general de asignación de campos
 
-Para abrir el panel [!UICONTROL mapping] para un campo:
+Para abrir el panel [!UICONTROL asignación] para un campo:
 
 1. Haga clic en **Escenarios** en el panel izquierdo.
-1. Elija un escenario.
+1. Seleccione un escenario.
 
 ![](assets/open-functions-bar.png)
 
 
-### Pestañas del panel Asignación
+### Fichas del panel Asignación
 
-Las siguientes son pestañas del panel de asignación:
+Las siguientes son fichas del panel de asignación:
 
-* **Funciones generales** ![](assets/toolbar-icon-general-function.png) - Vea [Funciones generales en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) para obtener más información.
+* **Funciones generales** ![](assets/toolbar-icon-general-function.png): consulte [Funciones generales en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) para obtener más información.
 
-* **Funciones matemáticas** ![](assets/toolbar-icon-math-functions.png) - Vea [Funciones matemáticas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) para obtener más información.
+* **Funciones matemáticas** ![](assets/toolbar-icon-math-functions.png): consulte [Funciones matemáticas en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) para obtener más información.
 
-* **Funciones binarias y de texto** ![](assets/toolbar-icon-text&binary-functions.png) - Vea [Funciones de cadena en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) para obtener más información.
+* **Funciones binarias y de texto** ![](assets/toolbar-icon-text&binary-functions.png): consulte [Funciones de cadena en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) para obtener más información.
 
-* **Fecha y hora** ![](assets/toolbar-icon-date&time-functions.png) - Consulte [Funciones de fecha y hora en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) y los artículos siguientes para obtener más información:
+* **Fecha y hora** ![](assets/toolbar-icon-date&time-functions.png): consulte [Funciones de fecha y hora en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) y los artículos siguientes para obtener más información:
 
    * [Tokens para el formato de fecha y hora en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-   * [Tokens para el análisis de fecha y hora en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Tókenes para el análisis de fecha y hora en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* **Funciones para trabajar con matrices** ![](assets/toolbar-icon-functions-for-arrays.png) - Vea [Funciones de matriz en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) para obtener más información.
+* **Funciones para trabajar con matrices** ![](assets/toolbar-icon-functions-for-arrays.png): consulte [Funciones de matriz en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) para obtener más información.
 
-* **Asignar otras funciones** ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) muestra los elementos que puede asignar desde otros módulos. Esta pestaña no siempre está disponible.
+* **Asignar otras funciones** ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) muestra los elementos que puede asignar desde otros módulos. Esta ficha no siempre está disponible.
 
 ![](assets/functions-toolbar-350x189.png)
 
@@ -109,7 +121,7 @@ Para insertar una función en un campo:
 
 >[!BEGINSHADEBOX]
 
-**Ejemplo:** Algunos tipos de datos impiden que los usuarios introduzcan más de un determinado número de caracteres. Puede utilizar la función subcadena para limitar un valor a un determinado número de caracteres.
+**Ejemplo:** algunos tipos de datos impiden que los usuarios introduzcan más de un determinado número de caracteres. Puede utilizar la función subcadena para limitar un valor a un determinado número de caracteres.
 
 En este ejemplo, la función de subcadena limita el nombre del proyecto a 50 caracteres.
 
@@ -127,20 +139,20 @@ Si [!DNL Workfront Fusion] no incluye una función que desee usar, pero la inclu
 
 1. En [!DNL Google Sheets], cree una nueva hoja de cálculo vacía.
 1. En [!DNL Workfront Fusion], abra su escenario.
-1. Agregue el módulo **[!DNL Google Sheets]** >**[!UICONTROL Actualizar una celda]** al escenario.
+1. Añada el módulo **[!DNL Google Sheets]** >**[!UICONTROL Update a cell]** al escenario.
 
-   Para obtener instrucciones sobre cómo agregar un módulo, consulte [Agregar un módulo en un escenario](../../workfront-fusion/scenarios/create-a-scenario.md#add) en el artículo [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Para obtener instrucciones sobre cómo añadir un módulo, consulte [Añadir un módulo en un escenario](../../workfront-fusion/scenarios/create-a-scenario.md#add) en el artículo [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Configure el módulo:
 
-   1. Elija la hoja de cálculo recién creada en el campo **[!UICONTROL Hoja de cálculo]**.
-   1. Inserte la fórmula que contiene las funciones [!DNL Google Sheets] en el campo **[!UICONTROL Valor]**.
+   1. Elija la hoja de cálculo recién creada en el campo **[!UICONTROL Spreadsheet]**.
+   1. Inserte la fórmula que contiene las funciones [!DNL Google Sheets] en el campo **[!UICONTROL Value]**.
 
       Puede utilizar la salida de los módulos anteriores como de costumbre.
 
       ![](assets/exploit-google-sheet-functions-350x218.png)
 
-1. Inserte el módulo **[!UICONTROL Hojas de cálculo de Google] >[!UICONTROL Obtenga un módulo de celda]** para obtener el resultado calculado.
+1. Inserte el módulo **[!UICONTROL Google Sheets] >[!UICONTROL Get a cell]** para obtener el resultado calculado.
 1. Configure el módulo con el mismo ID de celda utilizado en el paso 4.
 
    ![](assets/exploit-google-sheet-functions-2-350x187.png)

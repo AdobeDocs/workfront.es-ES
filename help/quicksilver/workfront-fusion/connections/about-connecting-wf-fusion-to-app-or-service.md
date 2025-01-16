@@ -2,35 +2,48 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Información general sobre Conexiones
-description: Para la mayoría de las aplicaciones, es necesario crear una conexión, a través de la cual [!DNL Adobe Workfront Fusion] pueda comunicarse con el servicio de terceros dado de acuerdo con la configuración del escenario específico.
+title: Información general sobre las conexiones
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 0%
+source-wordcount: '665'
+ht-degree: 88%
 
 ---
 
-# Información general sobre Conexiones
+# Información general sobre las conexiones
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se puede encontrar en los artículos:
+>
+>* [Descripción general de la conexión](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/connection-overview.html)
+>* [Administrar conexiones](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/manage-connections.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 <!-- Audited: 3/2024-->
 
-Para la mayoría de las aplicaciones, [!DNL Workfront Fusion] requiere una conexión a través de la cual pueda comunicarse con el servicio de terceros proporcionado según la configuración del escenario específico.
+Para la mayoría de las aplicaciones, [!DNL Workfront Fusion] requiere una conexión a través de la cual pueda comunicarse con el servicio de terceros dado de acuerdo con la configuración de un escenario concreto.
 
 Por ejemplo, si desea crear un escenario que recupere información de [!DNL Workfront], debe conceder permiso de acceso a [!DNL Workfront Fusion] para que tenga acceso a su cuenta de [!DNL Workfront].
 
-Una conexión representa la autorización y los permisos que Fusion utiliza para acceder a la aplicación. Puede crear una o más conexiones para cada aplicación y puede utilizar la misma conexión en varios módulos o escenarios.
+Una conexión representa la autorización y los permisos que Fusion utiliza para acceder a la aplicación. Puede crear una o más conexiones para cada aplicación y utilizar la misma conexión en varios módulos o escenarios.
 
-La mayoría de las conexiones se utilizan solo para una aplicación. Por ejemplo, no se puede usar una conexión [!DNL Workfront] en un módulo [!UICONTROL Salesforce]. Algunas aplicaciones de [!DNL Adobe] pueden compartir conexiones. Para obtener más información, vea los artículos de esas aplicaciones, que aparecen en [Aplicaciones y sus módulos](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
+La mayoría de las conexiones se utilizan solo para una aplicación. Por ejemplo, no se puede usar una conexión de [!DNL Workfront] en un módulo de [!UICONTROL Salesforce]. Algunas aplicaciones de [!DNL Adobe] pueden compartir conexiones. Para obtener más información, vea los artículos de esas aplicaciones, que aparecen en [Aplicaciones y sus módulos](/help/quicksilver/workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
 
-Las conexiones se administran en el equipo. Todos los miembros de un equipo tienen acceso a las conexiones del equipo y los usuarios que no pertenecen a un equipo no tienen acceso a las conexiones del equipo.
+Las conexiones se administran a nivel de equipo. Todos los miembros de un equipo tienen acceso a las conexiones del equipo mientras que los usuarios que no pertenecen a un equipo no tienen acceso a las conexiones de este.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
  <col> 
@@ -53,9 +66,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
-   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul>
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] está incluido.</li></ul>
    <p>O</p>
    <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p>
    </td> 
@@ -65,7 +78,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consulte [[!DNL Adobe Workfront Fusion] licencias](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Para obtener información sobre las licencias de [!DNL Adobe Workfront Fusion], consulte Licencias de [[!DNL Adobe Workfront Fusion] ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Derechos de acceso
 
@@ -75,7 +88,7 @@ No todos los servicios permiten limitar el acceso a tareas específicas. En esto
 
 ## Administrar conexiones
 
-Puede administrar todas las conexiones desde el área [!UICONTROL Conexiones].
+Puede administrar todas las conexiones desde el área [!UICONTROL Connections].
 
 >[!NOTE]
 >
@@ -89,20 +102,20 @@ Puede administrar todas las conexiones desde el área [!UICONTROL Conexiones].
 >
 >* Haga clic en Información general del equipo en el panel de navegación izquierdo y, a continuación, haga clic en la flecha desplegable situada junto al nombre del equipo, en la parte superior de la página. Seleccione un nuevo equipo.
 
-1. Para abrir el área [!UICONTROL Conexiones], haga clic en <b>[!UICONTROL Conexiones]</b> en el panel de navegación izquierdo.
+1. Para abrir el área [!UICONTROL Connections], haga clic en <b>[!UICONTROL Connections]</b> en el panel de navegación izquierdo.
 1. (Opcional) Indique el entorno y el tipo de conexión haciendo clic en la lista desplegable Entorno y tipo y seleccionando una opción.
-1. (Opcional) Para ver qué permisos se concedieron a [!DNL Workfront Fusion] para una conexión, haga clic en el icono Ver ![Ver permisos de conexión](assets/view-connection-permissions.png) para esa conexión.
+1. (Opcional) Para ver qué permisos se han concedido a [!DNL Workfront Fusion] para una conexión, haga clic en el icono Ver ![Ver permisos de conexión](assets/view-connection-permissions.png) para dicha conexión.
 1. (Opcional) Para cambiar el nombre de una conexión, resalte el nombre de la conexión y escriba el nuevo nombre.
-1. (Opcional) Para volver a autorizar una conexión, haga clic en **Volver a autorizar** para esa conexión.
-1. (Opcional) Para eliminar una conexión, haga clic en **Eliminar** para esa conexión.
-1. (Opcional) Para comprobar que la conexión al servicio se estableció correctamente, haga clic en **Verificar** para la conexión.
+1. (Opcional) Para volver a autorizar una conexión, haga clic en **Volver a autorizar** para dicha conexión.
+1. (Opcional) Para eliminar una conexión, haga clic en **Eliminar** para dicha conexión.
+1. (Opcional) Para comprobar que la conexión al servicio se ha establecido correctamente, haga clic en **Verificar** para la conexión.
 
 
 
 ## Renovación de una conexión
 
-[!DNL Workfront Fusion] generalmente obtiene derechos de acceso a un servicio determinado por un período de tiempo ilimitado. Algunas aplicaciones requieren que el permiso de acceso se renueve después de un período de tiempo determinado. En estos casos, [!DNL Workfront Fusion] le notifica por correo electrónico poco antes de que expiren sus derechos de acceso.
+[!DNL Workfront Fusion] suele obtener derechos de acceso a un servicio determinado por un período de tiempo ilimitado. Algunas aplicaciones requieren que el permiso de acceso se renueve después de un determinado período de tiempo. En estos casos, [!DNL Workfront Fusion] le notifica por correo electrónico poco antes de que expiren sus derechos de acceso.
 
 Para renovar una conexión:
 
-1. Haga clic en el botón **[!UICONTROL Volver a autorizar]** en el área de **[!UICONTROL Conexiones]**.
+1. Haga clic en el botón **[!UICONTROL Volver a autorizar]** en el área **[!UICONTROL Conexiones]**. 

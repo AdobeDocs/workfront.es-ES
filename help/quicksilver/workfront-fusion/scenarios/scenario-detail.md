@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Detalles del escenario en  [!DNL Adobe Workfront Fusion]
-description: Detalles del escenario en  [!DNL Adobe Workfront Fusion]
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 30%
 
 ---
 
 # Detalles del escenario en [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Información general sobre los detalles del escenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-details.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 La página de detalles del escenario es la página principal de un escenario específico. Proporciona acceso a información específica para el escenario representado en la página.
 
@@ -22,7 +34,7 @@ También le proporciona acceso al [Editor de escenarios en [!DNL Adobe Workfront
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">  
  <col> 
@@ -34,16 +46,16 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo] </p><p>[!UICONTROL [!DNL Workfront Fusion] para automatización de trabajo]</p>   </td> 
+   <td role="rowheader">Licencia** de [!UICONTROL Adobe Workfront Fusion]</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
-   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
    <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
@@ -57,11 +69,11 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Abrir la página [!UICONTROL Detalles del escenario]:
 
-1. Haga clic en la ficha **[!UICONTROL Escenario]** en el panel izquierdo y, a continuación, haga clic en un escenario sobre el que desee obtener detalles.
+1. Haga clic en la pestaña **[!UICONTROL Escenario]** en el panel izquierdo y, a continuación, haga clic en un escenario sobre el que desea obtener detalles.
 
    O
 
-   Si está trabajando en el escenario en [El editor de escenarios en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
+   Si está trabajando en el escenario en [El editor de escenarios en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), haga clic en la flecha izquierda ![](assets/exit-editing-arrow.png) cerca de la esquina superior izquierda de la ventana.
 
 1. En la página que se muestra, puede revisar los elementos que se enumeran en la tabla siguiente.
 
@@ -106,17 +118,17 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
       <td>Una vez creado un escenario, debe activarse para que se ejecute según su programación. Al hacer clic en el botón Activado/Desactivado cerca de la esquina superior derecha, puede activar o desactivar el escenario. Una vez activado, el escenario se ejecuta según su programación.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Editar]</td> 
+      <td role="rowheader">[!UICONTROL Edit]</td> 
       <td>Haga clic en este botón en la esquina superior derecha para abrir el editor de escenarios, donde puede trabajar en su escenario.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Opciones]</td> 
+      <td role="rowheader">[!UICONTROL Options]</td> 
       <td> <p>Este menú le proporciona opciones adicionales sin tener que abrir el editor de escenarios. Estos incluyen:</p> 
        <ul> 
         <li>[!UICONTROL Programación]</li> 
         <li>[!UICONTROL Cambiar nombre]</li> 
         <li>[!UICONTROL Clone]</li> 
-        <li>[!UICONTROL Eliminar]</li> 
+        <li>[!UICONTROL Delete]</li> 
        </ul> </td> 
      </tr> 
      <tr> 

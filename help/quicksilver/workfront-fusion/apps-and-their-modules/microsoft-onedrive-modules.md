@@ -5,28 +5,40 @@ product-area: workfront-integrations;documents
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulos de Microsoft OneDrive
-description: En un escenario de  [!DNL Adobe Workfront Fusion] , puede automatizar los flujos de trabajo que utilizan OneDrive, así como conectarlo a varias aplicaciones y servicios de terceros.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4091'
-ht-degree: 0%
+source-wordcount: '4144'
+ht-degree: 97%
 
 ---
 
-# [!DNL Microsoft OneDrive] módulos
+# Módulos de [!DNL Microsoft OneDrive]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Módulos de Microsoft OneDrive](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/microsoft-onedrive-modules.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 En un escenario de [!DNL Adobe Workfront Fusion], puede automatizar los flujos de trabajo que utilizan [!DNL OneDrive], así como conectarlo a varias aplicaciones y servicios de terceros.
 
 Si necesita instrucciones para crear un escenario, consulte [Crear un escenario en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Para obtener información acerca de los módulos, vea [Módulos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Para obtener información acerca de los módulos, consulte [Módulos de  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,14 +50,14 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +77,7 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Requisitos previos
 
-Para usar módulos de [!DNL OneDrive], debe tener una cuenta de [!DNL Microsoft OneDrive].
+Para usar módulos [!DNL OneDrive], debe tener una cuenta de [!DNL Microsoft OneDrive].
 
 
 
@@ -93,21 +105,21 @@ El conector OneDrive utiliza lo siguiente:
  </table>
 
 
-## Conectando el servicio [!DNL OneDrive] a [!DNL Workfront Fusion]
+## Conexión del servicio de [!DNL OneDrive] a [!DNL Workfront Fusion]
 
-Para obtener instrucciones sobre cómo conectar tu cuenta de [!DNL OneDrive] a [!UICONTROL Workfront Fusion], consulta [Crear una conexión a [!UICONTROL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Para obtener instrucciones sobre cómo conectar su cuenta de [!DNL OneDrive] a [!UICONTROL Workfront Fusion], consulte [Crear una conexión a [!UICONTROL Adobe Workfront Fusion]: instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
->Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra todos los permisos que se hayan concedido anteriormente a la conexión de este usuario, además de los nuevos permisos necesarios para la aplicación actual.
+>Algunas aplicaciones de Microsoft utilizan la misma conexión, que está vinculada a permisos de usuario individuales. Por lo tanto, al crear una conexión, la pantalla de consentimiento de permisos muestra los permisos que se otorgaron previamente a la conexión de este usuario, además de cualquier nuevo permiso que sea necesario para la aplicación actual.
 >
->Por ejemplo, si un usuario tiene permisos de &quot;Leer tabla&quot; concedidos a través del conector de Excel y, a continuación, crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya concedido como el permiso de &quot;Escribir correo electrónico&quot; recién requerido.
+>Por ejemplo, si a un usuario se le han otorgado permisos de &quot;Leer tabla&quot; a través del conector de Excel y luego crea una conexión en el conector de Outlook para leer correos electrónicos, la pantalla de consentimiento de permisos mostrará tanto el permiso de &quot;Leer tabla&quot; ya otorgado como el nuevo permiso requerido de &quot;Escribir correo electrónico&quot;.
 
-## [!DNL Microsoft OneDrive] módulos y sus campos
+## Módulos de [!DNL Microsoft OneDrive] y sus campos
 
-Al configurar [!DNL OneDrive] módulos, [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL OneDrive] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. Un título en negrita en un módulo indica un campo obligatorio.
+Al configurar módulos de [!DNL OneDrive], [!DNL Workfront Fusion] muestra los campos que se indican a continuación. Junto con estos, podrían mostrarse [!DNL OneDrive] campos adicionales, según factores como el nivel de acceso en la aplicación o el servicio. El título en negrita en un módulo indica un campo obligatorio.
 
-Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, vea [Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Si ve el botón Asignar encima de un campo o función, puede utilizarlo para establecer variables y funciones para ese campo. Para obtener más información, consulte [Asignar información de un módulo a otro en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -116,65 +128,65 @@ Si ve el botón Asignar encima de un campo o función, puede utilizarlo para est
 
 ### Archivo/Carpeta
 
-* [[!UICONTROL Archivos/carpetas de inspección]](#watch-filesfolders)
-* [[!UICONTROL Archivos/carpetas de búsqueda]](#search-filesfolders)
+* [[!UICONTROL Ver archivos/carpetas]](#watch-filesfolders)
+* [[!UICONTROL Buscar archivos/carpetas]](#search-filesfolders)
 * [[!UICONTROL Obtener un archivo]](#get-a-file)
 * [[!UICONTROL Descargar un archivo]](#download-a-file)
 * [[!UICONTROL Cargar un archivo]](#upload-a-file)
 * [[!UICONTROL Crear una carpeta]](#create-a-folder)
-* [[!UICONTROL Obtener un vínculo compartido]](#get-a-share-link)
+* [[!UICONTROL Obtener un vínculo para compartir]](#get-a-share-link)
 * [[!UICONTROL Mover un archivo/carpeta]](#move-a-filefolder)
 * [[!UICONTROL Copiar un archivo]](#copy-a-file)
-* [[!UICONTROL Eliminar un archivo o carpeta]](#delete-a-filefolder)
+* [[!UICONTROL Eliminar archivo/carpeta]](#delete-a-filefolder)
 
-#### [!UICONTROL Archivos/carpetas de inspección]
+#### [!UICONTROL Ver archivos/carpetas]
 
-Este módulo de déclencheur inicia un escenario cuando se crea o actualiza un archivo o carpeta.
+Este módulo de activación inicia un escenario cuando se crea o actualiza un archivo o carpeta.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Observar archivos/carpetas]</td> 
-   <td> <p>Seleccione cómo desea inspeccionar archivos o carpetas:</p> 
+   <td role="rowheader">[!UICONTROL Watch Files/Folders]</td> 
+   <td> <p>Seleccione cómo desea ver archivos o carpetas:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Por Hora De Creación]</b> </p> <p>Busque nuevos archivos o carpetas.</p> </li> 
-     <li> <p><b>[!UICONTROL Por Hora De Actualización]</b> </p> <p>Busque archivos o carpetas existentes actualizados.</p> </li> 
+     <li> <p><b>[!UICONTROL By Created Time]</b> </p> <p>Ver nuevos archivos o carpetas.</p> </li> 
+     <li> <p><b>[!UICONTROL By Updated Time]</b> </p> <p>Ver archivos o carpetas existentes actualizados.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación que desee ver:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que desea que vea el módulo.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> <p>Desplácese hasta la carpeta que desee que vea el módulo. También puede introducir una consulta para filtrar los resultados devueltos.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el identificador de la unidad que desea que visualice el módulo.</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> <p>Vaya a la carpeta que desee que visualice el módulo. También puede introducir una consulta para filtrar los resultados devueltos.</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Compartido Conmigo]</b> </p> <p>El módulo inspecciona los archivos que se han compartido con el propietario de la unidad.</p> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que desea que vea el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad desea que vea el módulo.</p> </li> 
+     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>El módulo visualiza los archivos que se han compartido con el propietario de la unidad.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio de SharePoint que desea que visualice el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad desea que visualice el módulo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elegir un tipo de elemento]</td> 
-   <td> <p>Seleccione si desea inspeccionar archivos, carpetas o ambos.</p> <p>Nota: No puede inspeccionar carpetas en una unidad de [!UICONTROL compartida conmigo].</p> </td> 
+   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
+   <td> <p>Seleccione si desea ver archivos, carpetas o ambos.</p> <p>Nota: No puede ver carpetas en una unidad de [!UICONTROL Shared With Me].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Límite]</td> 
-   <td> <p>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
 
-#### [!UICONTROL Archivos/carpetas de búsqueda]
+#### [!UICONTROL Buscar archivos/carpetas]
 
 Este módulo de búsqueda devuelve archivos y carpetas en función de los criterios definidos.
 
@@ -183,30 +195,30 @@ Este módulo de búsqueda devuelve archivos y carpetas en función de los criter
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación en la que desea buscar:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que desea que busque el módulo.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> <p>Desplácese hasta la carpeta en la que desee buscar el módulo. También puede introducir una consulta para filtrar los resultados devueltos.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el identificador de la unidad que desea que busque el módulo.</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> <p>Vaya a la carpeta en la que desee buscar el módulo. También puede introducir una consulta para filtrar los resultados devueltos.</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Compartido Conmigo]</b> </p> <p>El módulo busca los archivos que se han compartido con el propietario de la unidad.</p> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea que busque el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad desea que busque el módulo.</p> </li> 
+     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>El módulo busca los archivos que se han compartido con el propietario de la unidad.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio de [!DNL SharePoint] en el que desea que busque el módulo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo en cuya unidad desea que busque el módulo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elegir un tipo de elemento]</td> 
-   <td> <p>Seleccione si desea buscar archivos, carpetas o ambos.</p> <p>Nota: No puede buscar carpetas en una unidad de [!UICONTROL Compartida conmigo].</p> </td> 
+   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
+   <td> <p>Seleccione si desea buscar archivos, carpetas o ambos.</p> <p>Nota: No se pueden buscar carpetas en una unidad de [!UICONTROL Shared With Me].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Límite]</td> 
-   <td> <p>Introduzca o asigne el número máximo de registros que desea que devuelva el módulo durante cada ciclo de ejecución de escenario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Introduzca o asigne el número máximo de registros que desea que el módulo devuelva durante cada ciclo de ejecución de escenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -220,41 +232,41 @@ Este módulo de acción obtiene los metadatos de un archivo especificado.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>Seleccione si desea identificar el archivo por ID de archivo o por ruta de archivo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba un Id. de archivo] / [!UICONTROL Ruta de archivo]</td> 
+   <td role="rowheader">[!UICONTROL Enter a File ID] / [!UICONTROL File Path]</td> 
    <td> <p>Seleccione cómo desea introducir el ID de archivo o la ruta de archivo:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de archivos o rutas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea hacer una selección desde una lista de archivos o rutas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación en la que desea buscar:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo que desea obtener.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el ID de la unidad que contiene el archivo que desea obtener.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea obtener. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea obtener.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea obtener. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea obtener.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene el archivo que desea obtener. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene el archivo que desea obtener. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Archivo] / [!UICONTROL Id. de archivo] / [!UICONTROL Ruta de archivo]</td> 
-   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. o la ruta de acceso del archivo que desea obtener.</p> <p>Si seleccionó [!UICONTROL Seleccionar de la lista], seleccione el archivo que desea obtener.</p> </td> 
+   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
+   <td> <p>Si seleccionó [!UICONTROL Enter Manually], escriba o asigne el ID o la ruta de acceso del archivo que desea obtener.</p> <p>Si seleccionó [!UICONTROL Select from the list], seleccione el archivo que desea obtener.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -268,45 +280,45 @@ Este módulo de acción descarga el archivo especificado.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>Seleccione si desea identificar el archivo por ID de archivo o por ruta de archivo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Introduzca un ID de archivo/ruta de archivo</td> 
+   <td role="rowheader">Introduzca un ID de archivo / ruta de archivo</td> 
    <td> <p>Seleccione cómo desea introducir el ID de archivo o la ruta de archivo:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de archivos o rutas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea hacer una selección desde una lista de archivos o rutas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
-   <td> <p>Seleccione la ubicación que desee que contenga el archivo que desea descargar:</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>Seleccione la ubicación que desea que contenga el archivo que va a descargar:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo que desea descargar.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo que desea descargar.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea descargar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea descargar.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea descargar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea descargar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene el archivo que desea descargar. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene el archivo que desea descargar. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Archivo] / [!UICONTROL Id. de archivo] / [!UICONTROL Ruta de archivo]</td>
-   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. o la ruta de acceso del archivo que desea descargar.</p> <p>Si seleccionó [!UICONTROL Seleccionar de la lista], seleccione el archivo que desea descargar.</p> </td> 
+   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
+   <td> <p>Si seleccionó [!UICONTROL Enter Manually], escriba o asigne el ID o la ruta de acceso del archivo que desea descargar.</p> <p>Si seleccionó [!UICONTROL Select from the list], seleccione el archivo que desea descargar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Convertir en PDF]</td> 
-   <td> <p>Active esta opción para convertir el archivo en un archivo de PDF. Puede convertir desde los siguientes tipos de archivo:</p> 
+   <td role="rowheader">[!UICONTROL Convert to PDF]</td> 
+   <td> <p>Active esta opción para convertir el archivo en un archivo PDF. Puede convertir desde los siguientes tipos de archivo:</p> 
     <table style="table-layout:auto"> 
      <col> 
      <col> 
@@ -320,11 +332,11 @@ Este módulo de acción descarga el archivo especificado.
          <li> <p> <p>DOCX</p> </p> </li> 
          <li> <p> <p>ODP</p> </p> </li> 
          <li> <p> <p>ODS</p> </p> </li> 
-         <li> <p> <p>PUNTO</p> </p> </li> 
+         <li> <p> <p>ODT</p> </p> </li> 
         </ul> </td> 
        <td> 
         <ul> 
-         <li> <p> <p>MACETA</p> </p> </li> 
+         <li> <p> <p>POT</p> </p> </li> 
          <li> <p> <p>POTM</p> </p> </li> 
          <li> <p> <p>POTX</p> </p> </li> 
          <li> <p> <p>PPS</p> </p> </li> 
@@ -347,7 +359,7 @@ Este módulo de acción descarga el archivo especificado.
  </tbody> 
 </table>
 
-#### [!UICONTROL Cargar un archivo]
+#### [!UICONTROL Upload a file]
 
 Este módulo de acción carga un archivo en la carpeta especificada.
 
@@ -356,46 +368,46 @@ Este módulo de acción carga un archivo en la carpeta especificada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Introducir (ID y ruta de ubicación de la carpeta)</td> 
    <td>Seleccione si desea identificar la carpeta de destino por ID o por ruta.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
-   <td> <p>Seleccione la ubicación donde desea cargar un archivo:</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>Seleccione la ubicación donde desea cargar el archivo:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Seleccione la unidad que contiene el archivo que desea obtener.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Seleccione la unidad que contiene el archivo que desea obtener.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene la carpeta donde desea cargar un archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene la carpeta donde desea cargar un archivo.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene la carpeta donde desea cargar un archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad contiene la carpeta donde desea cargar un archivo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione la unidad que contiene la carpeta donde desea cargar un archivo. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione la unidad que contiene la carpeta donde desea cargar un archivo. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL archivo Source]</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Seleccione un archivo de origen de un módulo anterior o asigne el nombre y los datos del archivo de origen.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Si existe el archivo con el mismo nombre]</td> 
+   <td role="rowheader">[!UICONTROL If the File with the Same Name Exists]</td> 
    <td>Seleccione cómo continuar si ya existe un archivo con el mismo nombre.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Descripción]</td> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
    <td>Añada una descripción al archivo cargado.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Crear una carpeta]
+#### [!UICONTROL Create a Folder]
 
 Este módulo de acción crea una nueva carpeta en la unidad especificada.
 
@@ -404,42 +416,42 @@ Este módulo de acción crea una nueva carpeta en la unidad especificada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación donde desea crear una carpeta:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Seleccione la unidad donde desea crear una carpeta.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Seleccione la unidad donde desea crear una carpeta.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea crear una carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo propietario de la unidad donde desea crear una carpeta.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea crear una carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo propietario de la unidad donde desea crear una carpeta.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione la unidad en la que desea crear una carpeta. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione la unidad en la que desea crear una carpeta. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Si desea que la nueva carpeta sea una subcarpeta, vaya a la carpeta en la que desea que sea una subcarpeta.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nuevo nombre de carpeta]</td> 
+   <td role="rowheader">[!UICONTROL New Folder Name]</td> 
    <td> <p>Introduzca o asigne un nombre para la nueva carpeta.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Si existe la carpeta con el mismo nombre]</td> 
+   <td role="rowheader">[!UICONTROL If the Folder with the Same Name Exists]</td> 
    <td>Seleccione cómo continuar si ya existe un archivo con el mismo nombre.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Obtener un vínculo compartido]
+#### [!UICONTROL Get a Share Link]
 
 Este módulo de acción devuelve un vínculo compartido para el archivo especificado.
 
@@ -448,48 +460,48 @@ Este módulo de acción devuelve un vínculo compartido para el archivo especifi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>Seleccione si desea identificar el archivo por ID de archivo o por ruta de archivo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba un Id. de archivo] / [!UICONTROL Ruta de archivo]</td> 
+   <td role="rowheader">[!UICONTROL Enter a File ID] / [!UICONTROL File Path]</td> 
    <td> <p>Seleccione cómo desea introducir el ID de archivo o la ruta de archivo:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de archivos o rutas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea hacer una selección desde una lista de archivos o rutas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación para la que desea recuperar un vínculo compartido:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo para el que desea recuperar un vínculo compartido.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Introduzca el identificador de la unidad que contiene el archivo para el que desea recuperar un vínculo compartido.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo para el que desea recuperar un vínculo compartido. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo para el que desea recuperar un vínculo compartido.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo para el que desea recuperar un vínculo compartido. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo para el que desea recuperar un vínculo compartido.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene el archivo para el que desea recuperar un vínculo compartido. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene el archivo para el que desea recuperar un vínculo compartido. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Archivo] / [!UICONTROL Id. de archivo] / [!UICONTROL Ruta de archivo]</td> 
-   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. de archivo o la ruta de acceso del archivo para el que desea recuperar un vínculo compartido.</p> <p>Si seleccionó [!UICONTROL Seleccionar] de la lista, seleccione el archivo para el que desea recuperar un vínculo compartido.</p> </td> 
+   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
+   <td> <p>Si seleccionó [!UICONTROL Enter Manually], introduzca o asigne el identificador de archivo o la ruta del archivo para el que desea recuperar un vínculo compartido.</p> <p>Si seleccionó [!UICONTROL Select] de la lista, seleccione el archivo para el que desea recuperar un vínculo compartido.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Tipo de permiso]</td> 
+   <td role="rowheader">[!UICONTROL Permission Type]</td> 
    <td> <p>Seleccione si desea que las personas con el vínculo puedan leer y escribir en el archivo o sólo leer.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ámbito]</td> 
+   <td role="rowheader">[!UICONTROL Scope]</td> 
    <td>Seleccione si desea que el archivo esté disponible para cualquier persona que tenga el vínculo o solo para los miembros de su organización que lo tengan.</td> 
   </tr> 
  </tbody> 
@@ -504,160 +516,160 @@ Este módulo de acción mueve un archivo o carpeta a una nueva ubicación de car
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>Seleccione si desea identificar el archivo por ID de archivo o por ruta de archivo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba un Id. de archivo / Ruta de archivo]</td> 
+   <td role="rowheader">[!UICONTROL Enter a File ID / File Path]</td> 
    <td> <p>Seleccione cómo desea introducir el ID de archivo o la ruta de archivo:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de archivos o rutas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea hacer una selección desde una lista de archivos o rutas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación que contiene el archivo o la carpeta que desea mover:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea mover.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea mover.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene el archivo o la carpeta que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea mover.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene el archivo o la carpeta que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea mover.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene el archivo o la carpeta que desea mover. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene el archivo o la carpeta que desea mover. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Seleccionar [!UICONTROL Archivo/Carpeta]</td> 
+   <td role="rowheader">Seleccionar [!UICONTROL File/Folder]</td> 
    <td>Seleccione si desea mover un archivo o una carpeta.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL Archivo] / [!UICONTROL Id. de archivo] / [!UICONTROL Ruta de archivo]</p> <p role="rowheader">[!UICONTROL Carpeta] / [!UICONTROL Id. de carpeta] / [!UICONTROL Ruta de carpeta]</p> </td> 
-   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. o la ruta de acceso del archivo o carpeta que desea mover.</p> <p>Si seleccionó [!UICONTROL Seleccionar] de la lista, seleccione el archivo o la carpeta que desee mover.</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> <p role="rowheader">[!UICONTROL Folder] / [!UICONTROL Folder ID] / [!UICONTROL Folder Path]</p> </td> 
+   <td> <p>Si seleccionó [!UICONTROL Enter Manually], escriba o asigne el ID o la ruta del archivo o carpeta que desea mover.</p> <p>Si seleccionó [!UICONTROL Select] de la lista, seleccione el archivo o carpeta que desea mover.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba una nueva ubicación de carpeta]</td> 
-   <td> <p>Seleccione cómo desea introducir la ubicación a la que desea mover el archivo o la carpeta:</p> 
+   <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
+   <td> <p>Seleccione cómo desea introducir la ubicación a la que desea mover el archivo o carpeta:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de archivos o rutas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea hacer una selección desde una lista de archivos o rutas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
-   <td> <p>Seleccione la ubicación a la que desea mover el archivo o la carpeta:</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>Seleccione la ubicación a la que desea mover el archivo o carpeta:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad donde desea mover el archivo o la carpeta.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el ID de la unidad donde desea mover el archivo o carpeta.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] al que desee mover el archivo o la carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo al que desea mover el archivo o la carpeta.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] al que desea mover el archivo o carpeta. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo a cuya unidad desea mover el archivo o carpeta.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene la carpeta a la que desea mover el archivo o carpeta. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> <p>Si deja esto en blanco, el archivo o la carpeta solamente se podrá mover dentro del mismo [!DNL OneDrive].</p> <p>Puede mover archivos y carpetas de [!UICONTROL Mi unidad] a una unidad de sitio de [!UICONTROL] o a una unidad de grupo de [!UICONTROL]. </p> <p>Solo puede mover archivos de una unidad de [!UICONTROL Site] a la misma unidad del mismo sitio.</p> <p>Solo puede mover archivos de una unidad de [!UICONTROL Group] a la misma unidad del mismo grupo.</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene la carpeta a la que desea mover el archivo o carpeta. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> <p>Si deja este campo en blanco, el archivo o carpeta solamente se podrán mover dentro del mismo [!DNL OneDrive].</p> <p>Pueden moverse archivos y carpetas de [!UICONTROL My Drive] a [!UICONTROL Site's Drive] o a [!UICONTROL Group's Drive]. </p> <p>Solo pueden moverse archivos de [!UICONTROL Site's Drive] a la misma unidad del mismo sitio.</p> <p>Solo se pueden mover archivos de [!UICONTROL Group's Drive] a la misma unidad del mismo grupo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta]</td> 
-   <td>Escriba o asigne la carpeta donde desea mover el archivo o la carpeta.</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>Escriba o asigne la carpeta donde desea mover el archivo o carpeta.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Copiar un archivo]
 
-Este módulo de acción copia un archivo en una nueva ubicación de carpeta
+Este módulo de acción copia un archivo en la ubicación de la nueva carpeta
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Entrar (ID de archivo y ruta de archivo)]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>Seleccione si desea identificar el archivo por ID de archivo o por ruta de archivo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba un Id. de archivo] / [!UICONTROL Ruta de archivo]</td> 
+   <td role="rowheader">[!UICONTROL Enter a File ID] / [!UICONTROL File Path]</td> 
    <td> <p>Seleccione cómo desea introducir el ID de archivo o la ruta de archivo:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de archivos o rutas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea hacer una selección desde una lista de archivos o rutas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación que contiene el archivo que desea copiar:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea copiar.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea copiar.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea copiar.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio de SharePoint que contiene el archivo que desea mover. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo que desea copiar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene el archivo que desea copiar. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene el archivo que desea copiar. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL Archivo] / [!UICONTROL Id. de archivo] / [!UICONTROL Ruta de archivo]</p> </td> 
-   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. o la ruta de acceso del archivo que desea copiar.</p> <p>Si seleccionó [!UICONTROL Seleccionar] de la lista, seleccione el archivo que desea copiar.</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> </td> 
+   <td> <p>Si seleccionó [!UICONTROL Enter Manually], escriba o asigne el ID o la ruta de acceso del archivo que desea copiar.</p> <p>Si seleccionó [!UICONTROL Select] de la lista, seleccione el archivo que desea copiar.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba una nueva ubicación de carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
    <td> <p>Seleccione cómo desea introducir la ubicación en la que desea copiar el archivo o:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de carpetas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de carpetas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nueva ubicación de OneDrive]</td> 
+   <td role="rowheader">[!UICONTROL New OneDrive location]</td> 
    <td> <p>Seleccione la ubicación donde desea copiar el filtro. Esta opción está disponible si elige seleccionar la nueva ubicación de la carpeta en una lista.</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad donde desea copiar el archivo.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Escriba el identificador de la unidad donde desea copiar el archivo.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea copiar el archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo en cuya unidad desee copiar el archivo.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] en el que desea copiar el archivo. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo en cuya unidad desee copiar el archivo.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene la carpeta en la que desea copiar el archivo. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> <p>Si deja esto en blanco, el archivo o la carpeta sólo se podrán copiar dentro de la misma [!UICONTROL OneDrive].</p> <p>Puede copiar archivos y carpetas de [!UICONTROL Mi unidad] a una unidad de sitio de [!UICONTROL] o a una unidad de grupo de [!UICONTROL]. </p> <p>Solo puede copiar archivos de una unidad de [!UICONTROL Site] en la misma unidad del mismo sitio.</p> <p>Puede copiar archivos de una unidad de [!UICONTROL Group] sólo en la misma unidad del mismo grupo.</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene la carpeta en la que desea copiar el archivo. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> <p>Si deja esto en blanco, el archivo o la carpeta solo se podrán copiar dentro de la misma [!UICONTROL OneDrive].</p> <p>Puede copiar archivos y carpetas de [!UICONTROL My Drive] a una [!UICONTROL Site's Drive] o una [!UICONTROL Group's Drive]. </p> <p>Solo puede copiar archivos de una unidad de [!UICONTROL Site's Drive] en la misma unidad del mismo sitio.</p> <p>Puede copiar archivos de una unidad de [!UICONTROL Group's Drive] solo en la misma unidad del mismo grupo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Introduzca o asigne la carpeta a la que desea mover la copia o carpeta.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Nuevo nombre de archivo copiado]</td> 
+   <td role="rowheader">[!UICONTROL New Copied File Name]</td> 
    <td> <p>Introduzca o asigne un nombre para la nueva copia del archivo. Puede dejarlo en blanco si no desea cambiar el nombre del archivo original.</p> <p>El nombre debe incluir la extensión de archivo. Ejemplo:<code> file.txt</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Eliminar un archivo o carpeta]
+#### [!UICONTROL Delete a File/Folder]
 
 Este módulo de acción elimina el archivo seleccionado.
 
@@ -666,52 +678,52 @@ Este módulo de acción elimina el archivo seleccionado.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Entrar (Archivo/Id. de carpeta y ruta)]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File/Folder ID &amp; Path)]</td> 
    <td>Seleccione si desea identificar el archivo por ID de archivo o por ruta de archivo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Escriba un Id. de archivo/carpeta /Escriba una ruta de archivo/carpeta]</td> 
+   <td role="rowheader">[!UICONTROL Enter a File/Folder ID /Enter a File/Folder Path]</td> 
    <td> <p>Seleccione cómo desea introducir el ID de archivo o la ruta de archivo:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Escribir manualmente]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o asignarlos desde un módulo anterior.</p> </li> 
-     <li> <p><b>[!UICONTROL Seleccionar de una lista]</b> </p> <p>Seleccione esta opción si desea seleccionar de una lista de archivos o rutas disponibles. </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Seleccione esta opción si desea introducir el ID o la ruta directamente o bien asignarlos desde un módulo anterior.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Seleccione esta opción si desea hacer una selección desde una lista de archivos o rutas disponibles. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Elija su ubicación [!DNL OneDrive]]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>Seleccione la ubicación en la que desea buscar:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Mi unidad]</b> </p> <p>Seleccione si desea permitir que el módulo introduzca un identificador de unidad.</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Seleccione esta opción si desea permitir que el módulo introduzca un ID de unidad.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Sí]</b> </p> <p>Escriba el identificador de la unidad que contiene el archivo o la carpeta que desea eliminar.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Introduzca el ID de la unidad que contiene el archivo o la carpeta que desea eliminar.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Unidad del sitio]</b> </p> <p>Seleccione el sitio [!DNL SharePoint] que contiene el archivo o la carpeta que desea eliminar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
-     <li> <p><b>[!Unidad del grupo UICONTROL]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea eliminar.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Seleccione el sitio de [!DNL SharePoint] que contiene el archivo o la carpeta que desea eliminar. Los sitios disponibles son sitios seguidos por el usuario que ha iniciado sesión.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Seleccione el grupo cuya unidad contiene el archivo o la carpeta que desea eliminar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Id. de unidad]</td> 
-   <td> <p>Seleccione o asigne la unidad que contiene el archivo o la carpeta que desea eliminar. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Habilitar para escribir un Id. de unidad].</p> </td> 
+   <td role="rowheader"> [!UICONTROL Drive ID]</td> 
+   <td> <p>Seleccione o asigne la unidad que contiene el archivo o la carpeta que desea eliminar. Este campo no está disponible si seleccionó [!UICONTROL No] en el campo [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Seleccionar [!UICONTROL Archivo/Carpeta]</td> 
+   <td role="rowheader">Seleccionar [!UICONTROL File/Folder]</td> 
    <td>Seleccione si desea eliminar un archivo o una carpeta.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Archivo] / [!UICONTROL Id. de archivo] / [!UICONTROL Ruta de archivo]</td>
-   <td> <p>Si seleccionó [!UICONTROL Escribir manualmente], escriba o asigne el Id. o la ruta de acceso del archivo que desea eliminar.</p> <p>Si seleccionó [!UICONTROL Seleccionar] de la lista, seleccione el archivo que desea eliminar.</p> </td> 
+   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
+   <td> <p>Si ha seleccionado [!UICONTROL Enter Manually], introduzca o asigne el ID o la ruta del archivo que desea eliminar.</p> <p>Si ha seleccionado [!UICONTROL Select] en la lista, seleccione el archivo que desea eliminar.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Otro
 
-#### [!UICONTROL Realizar una llamada API]
+#### [!UICONTROL Make an API Call]
 
 Este módulo realiza una llamada de API personalizada.
 
@@ -720,28 +732,28 @@ Este módulo realiza una llamada de API personalizada.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Conexión]</td> 
-   <td>Para obtener instrucciones acerca de cómo conectar su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], vea <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión con [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Para obtener instrucciones sobre la conexión de su cuenta de [!DNL OneDrive] a [!DNL Workfront Fusion], consulte <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Crear una conexión a [!DNL Adobe Workfront Fusion]: instrucciones básicas</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Escriba una ruta relativa a <code>https://graph.microsoft.com</code>. Ejemplo:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Introduzca una ruta relativa a <code>https://graph.microsoft.com</code>. Ejemplo:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Método]</td> 
-   td&gt; <p>Seleccione el método de solicitud HTTP que necesita para configurar la llamada de API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de solicitud HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   td&gt; <p>Seleccione el método de petición HTTP que necesita para configurar la llamada de la API. Para obtener más información, vea <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Métodos de petición HTTP en [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Encabezados]</td> 
-   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion añade los encabezados de autorización por usted.</p> </td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Añada los encabezados de la solicitud en forma de objeto JSON estándar.</p> <p>Por ejemplo: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion añade los encabezados de autorización para usted.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cadena de consulta]</td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
    <td> <p>Añada la consulta para la llamada de API en forma de objeto JSON estándar.</p> <p>Por ejemplo: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Cuerpo]</td> 
-   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice afirmaciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Añada el contenido del cuerpo para la llamada de API en forma de objeto JSON estándar.</p> <p>Nota:  <p>Cuando utilice instrucciones condicionales como <code>if</code> en su JSON, coloque las comillas fuera de la afirmación condicional.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -753,7 +765,7 @@ Este módulo realiza una llamada de API personalizada.
 
 ## Si no puede cargar o actualizar un archivo
 
-Existen varios problemas posibles cuando falla la carga o actualización de un archivo:
+Existen varios posibles problemas cuando falla la carga o actualización de un archivo:
 
 * El archivo cargado es demasiado grande y supera el límite máximo de tamaño de archivo para el plan [!DNL OneDrive] o ha utilizado toda la cuota de almacenamiento de la cuenta [!DNL OneDrive]. Para obtener más espacio de almacenamiento, elimine los archivos existentes de [!DNL OneDrive] o actualice la cuenta de [!DNL OneDrive].
 * OneDrive no permite cargar dos archivos con el mismo nombre en una sola carpeta. Si la carpeta de destino contiene un archivo con el mismo nombre que el archivo que se está cargando, la ejecución del escenario finaliza con un error. La solución consiste simplemente en cambiar el nombre del archivo que se está cargando. Si su objetivo es actualizar un archivo, use la acción [!UICONTROL Actualizar un archivo].

@@ -4,24 +4,36 @@ product-area: workfront-integrations
 keywords: escenario, rendimiento
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Protecciones de rendimiento de Adobe Workfront Fusion
-description: Adobe Workfront Fusion requiere una licencia Adobe Workfront Fusion además de una licencia Adobe Workfront.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 77%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] protecciones de rendimiento
+# Protecciones de rendimiento de [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Protecciones de rendimiento de Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-performance-guardrails.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] requiere una licencia de [!DNL Adobe Workfront Fusion] además de [!DNL Adobe Workfront license].
 
-La automatización del trabajo requiere un procesamiento rápido, por lo que [!DNL Adobe Workfront Fusion] está diseñado para un alto rendimiento. Dado que los escenarios de larga duración pueden ralentizar el ritmo de trabajo, hemos diseñado [!DNL Workfront Fusion] con protecciones que preservan el rendimiento y limitan el tiempo de ejecución, el tamaño de los datos y otros parámetros de escenario. Los diseñadores de [!DNL Workfront Fusion] deben tener en cuenta estas protecciones e incorporarlas en sus prácticas de diseño.
+La automatización del trabajo requiere un procesamiento rápido, por lo que [!DNL Adobe Workfront Fusion] está diseñado para ofrecer un alto rendimiento. Como los escenarios de larga duración pueden ralentizar el ritmo de su trabajo, [!DNL Workfront Fusion] se ha diseñado con protecciones que preservan el rendimiento y que limitan el tiempo de ejecución, el tamaño de los datos y otros parámetros de escenario. Los diseñadores de escenarios de [!DNL Workfront Fusion] deben tener en cuenta estas protecciones e incorporarlas en sus prácticas de diseño.
 
 ## Navegadores
 
@@ -50,7 +62,7 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 ## Archivos
 
 * La capacidad total de procesamiento de archivos de Fusion es de **1 GB**. El límite se basa en el coste total de la memoria. Cada operación contribuye a ese coste. Si se descarga y carga un solo archivo de 400 MB, el coste total de la capacidad del archivo sería de 800 MB.
-* Las organizaciones con el plan Workfront Ultimate tienen acceso a un mayor procesamiento de archivos que supera los 1 GB. La plataforma Fusion puede admitir archivos individuales de hasta 15 GB para una sola acción (por ejemplo, cargar archivo), pero hay otros factores que afectan a la transferencia de datos. El límite de tamaño de archivo de una sola acción depende del servicio web al que se conecte Fusion. La transferencia de datos es el procesamiento total de una sola ejecución. Esto significa que varias acciones en una sola ejecución contribuyen a la transferencia total de datos. Fusion procesará archivos hasta que se alcance el límite de ejecución de 40 minutos.
+* Las organizaciones del plan Workfront Ultimate tienen acceso a un mayor procesamiento de archivos que supera los 1 GB. La plataforma Fusion puede admitir archivos individuales de hasta 15 GB para una sola acción (por ejemplo, cargar archivo), pero hay otros factores que afectan a la transferencia de datos. El límite de tamaño de archivo de una sola acción depende del servicio web al que se conecte Fusion. La transferencia de datos es el procesamiento total de una sola ejecución. Esto significa que varias acciones en una sola ejecución contribuyen a la transferencia total de datos. Fusion procesará archivos hasta que se alcance el límite de ejecución de 40 minutos.
 
   Para obtener más información, consulte [Uso de archivos grandes en Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
 
@@ -63,15 +75,15 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 
 ## Webhooks
 
-* El tamaño máximo predeterminado de una carga útil es **5 MB**.
+* El tamaño máximo predeterminado de una carga útil es de **5 MB**.
 * Los enlaces web están limitados a **100 solicitudes por segundo**. Cuando se alcanza este límite, Workfront Fusion envía un estado 429 ([!UICONTROL Demasiadas solicitudes]).
-* [!DNL Workfront Fusion] almacena cargas útiles de ganchos web durante 30 días. Acceder a una carga útil de gancho web más de 30 días después de recibirla provoca el error &quot;[!UICONTROL No se pudo leer el archivo desde el almacenamiento.]&quot;
+* [!DNL Workfront Fusion] almacena cargas útiles de webhooks durante 30 días. Acceder a una carga útil de webhook más de 30 días después de recibirla provoca el error “[!UICONTROL No se pudo leer el archivo desde el almacenamiento.]”
 * Los webhooks se desactivan automáticamente si se aplica cualquiera de las siguientes opciones:
 
    * El webhook no ha estado conectado a ningún escenario durante más de 5 días
    * El webhook solo se utiliza en escenarios inactivos, que han estado inactivos durante más de 30 días.
 
-* Los webhooks desactivados se borran y no se registran automáticamente si no están conectados a ningún escenario y han estado en estado desactivado durante más de 30 días.
+* Los webhooks desactivados se borran y no se registran automáticamente si no están conectados a ningún escenario y han permanecido en estado desactivado durante más de 30 días.
 
 ## Historial de ejecución
 
@@ -84,5 +96,5 @@ La automatización del trabajo requiere un procesamiento rápido, por lo que [!D
 
 ## Reintentos
 
-* Al utilizar el módulo Break y especificar la directiva Retry, si un escenario falla consecutivamente 10 veces dentro de un intervalo de tiempo de 2 minutos, el escenario se desactiva automáticamente.
+* Al utilizar el módulo Break y especificar la directiva de reintento, si un escenario falla de forma consecutiva 10 veces dentro de un periodo de tiempo de 2 minutos, el escenario se desactivará automáticamente.
 

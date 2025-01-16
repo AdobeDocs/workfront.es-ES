@@ -2,27 +2,39 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Asignar información de un módulo a otro en  [!DNL Adobe Workfront Fusion]
-description: La asignación es el proceso de asignar los resultados de un módulo, estructurados en elementos, a los campos de entrada de otro módulo.
+title: Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 0%
+source-wordcount: '1628'
+ht-degree: 95%
 
 ---
 
 # Asignar información de un módulo a otro en [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Asignar información de un módulo a otro](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-data-from-one-to-another.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
 La asignación es el proceso de asignar los resultados de un módulo, estructurados en elementos, a los campos de entrada de otro módulo.
 
-El panel Asignación se muestra al hacer clic en un campo en el que desea insertar un valor generado desde un módulo anterior en un escenario. En un módulo, en cualquier campo disponible para la asignación, puede crear una fórmula utilizando cualquier combinación de funciones y elementos asignados desde el panel Asignación con texto estático que escriba. Estos elementos se pueden anidar entre sí.
+El panel de asignación se muestra al hacer clic en un campo en el que desea insertar un valor generado desde un módulo anterior en un escenario. En un módulo, en cualquier campo disponible para la asignación, puede crear una fórmula utilizando cualquier combinación de funciones y elementos asignados desde el panel de asignación con el texto estático que escriba. Estos elementos se pueden anidar entre sí.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto">
  <col> 
@@ -34,20 +46,20 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td role="rowheader">Licencia** de [!UICONTROL Adobe Workfront Fusion]</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere la licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
-   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
    <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
@@ -68,35 +80,35 @@ Para explorar la salida de un módulo:
 1. Haga clic en **[!UICONTROL Ejecutar una vez]** para ejecutar el módulo.
 1. Haga clic en la burbuja situada encima del módulo.
 
-   Se muestra un registro que contiene todas las fases del módulo. Puede encontrar el paquete o los paquetes que genera la fase de operación de un módulo en el encabezado **[!UICONTROL Output]**. Cada paquete contiene sus elementos y los valores de cada elemento.
+   Se muestra un registro que contiene todas las fases del módulo. Puede encontrar el paquete o los paquetes que se generan en la fase de operación de un módulo bajo el encabezado **[!UICONTROL Salida]**. Cada paquete contiene sus elementos y los valores de cada elemento.
 
 >[!INFO]
 >
->**Ejemplo:** Este ejemplo muestra el módulo [!UICONTROL Correo electrónico] > [!UICONTROL Ver correos electrónicos]. Puede ver que realizó 1 operación y produjo un solo paquete que contiene varios elementos como `Date`, `Email ID (UID)`, `size`, etc.
+>**Ejemplo:** este ejemplo muestra el módulo [!UICONTROL Correo electrónico] > [!UICONTROL Ver correos electrónicos]. Puede ver que realizó 1 operación que produjo un solo paquete que contiene varios elementos como `Date`, `Email ID (UID)`, `size`, etc.
 >
 >![](assets/watch-emails-350x298.png)
 
 >[!NOTE]
 >
->No se puede acceder a las salidas de módulos agrupados entre un [!UICONTROL Iterator] y [!UICONTROL Aggregator] más allá del módulo [!UICONTROL Aggregator].
+>No se puede acceder a las salidas de módulos agrupados entre un [!UICONTROL Iterador] y [!UICONTROL Agregador] más allá del módulo [!UICONTROL Agregador].
 
 ## Asignar un elemento
 
-Después de crear una secuencia de módulos vinculando dos o más de ellos, cada módulo puede procesar los valores de los elementos que generan los módulos que lo preceden.
+Después de crear una secuencia de módulos vinculando dos o más de ellos, cada módulo puede procesar los valores de los elementos que generan los módulos que le preceden.
 
 Para asignar los elementos a los campos de entrada de un módulo:
 
 1. Haga clic en el módulo que debe procesar la salida del módulo o módulos anteriores.
 1. En el panel Configuración del módulo que aparece, haga clic en un campo en el que desee utilizar el valor de un elemento obtenido de uno o varios módulos anteriores.
 
-   Se abrirá el panel Asignación.
+   Se abrirá el panel de asignación.
 
 1. Haga clic en un elemento del panel de asignación para insertarlo en el campo.
-1. (Opcional) Para buscar un campo determinado en el panel de asignación, haga clic en la barra de búsqueda del panel de asignación y escriba el término que desea buscar. Haga clic en el campo cuando aparezca en la lista.
+1. (Opcional) Para buscar un campo determinado en el panel de asignación, haga clic en la barra de búsqueda del panel de asignación y escriba el término que desea buscar. Haga clic en el nombre cuando aparezca en la lista.
 
    Los resultados de la búsqueda contienen el término de búsqueda y no distinguen entre mayúsculas y minúsculas.
 
-Para obtener más información, consulte [Configurar la configuración de un módulo en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+Para obtener más información, consulte [Establecer la configuración de un módulo en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
 ## Fórmulas
 
@@ -112,30 +124,30 @@ La primera pestaña ![](assets/toolbar-icon-functions-you-map-from-other-modules
 
 Las otras pestañas contienen los siguientes tipos de funciones:
 
-* **Funciones generales** ![](assets/toolbar-icon-general-function.png) - Vea [Funciones generales en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) para obtener más información.
+* **Funciones generales** ![](assets/toolbar-icon-general-function.png): consulte [Funciones generales en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) para obtener más información.
 
-* **Funciones matemáticas** ![](assets/toolbar-icon-math-functions.png) - Vea [Funciones matemáticas en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) para obtener más información.
+* **Funciones matemáticas** ![](assets/toolbar-icon-math-functions.png): consulte [Funciones matemáticas en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) para obtener más información.
 
-* **Funciones binarias y de texto** ![](assets/toolbar-icon-text&binary-functions.png) - Vea [Funciones de cadena en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) para obtener más información.
+* **Funciones binarias y de texto** ![](assets/toolbar-icon-text&binary-functions.png): consulte [Funciones de cadena en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) para obtener más información.
 
-* **Fecha y hora** ![](assets/toolbar-icon-date&time-functions.png) - Consulte [Funciones de fecha y hora en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) y los artículos siguientes para obtener más información.
+* **Fecha y hora** ![](assets/toolbar-icon-date&time-functions.png): consulte [Funciones de fecha y hora en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) y los artículos siguientes para obtener más información.
 
    * [Tokens para el formato de fecha y hora en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-   * [Tokens para el análisis de fecha y hora en Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Tókenes para el análisis de fecha y hora en Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* **Funciones para trabajar con matrices** ![](assets/toolbar-icon-functions-for-arrays.png) - Vea [Funciones de matriz en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) para obtener más información.
+* **Funciones para trabajar con matrices** ![](assets/toolbar-icon-functions-for-arrays.png): consulte [Funciones de matriz en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) para obtener más información.
 
 >[!TIP]
 >
->Cuando cree una fórmula compleja que desee reutilizar en otro campo, puede hacer clic en el campo que contiene la combinación, utilizar Comando-A o Ctrl-A para seleccionarla y, a continuación, copiarla y pegarla en el otro campo.
+>Cuando vaya a crear una fórmula compleja que desee reutilizar en otro campo, puede hacer clic en el campo que contiene la combinación, utilizar Comando-A o Ctrl-A para seleccionarla y, a continuación, copiarla y pegarla en el otro campo.
 
-Para obtener más información sobre la asignación de elementos mediante funciones, vea [Asignar elementos mediante funciones en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
+Para obtener más información sobre la asignación de elementos mediante funciones, consulte [Asignar elementos mediante funciones en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
 
 ## Colecciones
 
 Algunos elementos pueden contener varios valores de varios tipos. Son elementos de tipo colección.
 
-Puede identificar un elemento de tipo [!UICONTROL collection] por el pequeño rectángulo negro que se muestra a la derecha de la etiqueta del elemento y su lista de subelementos expandida automáticamente:
+Puede identificar un elemento de tipo [!UICONTROL colección] por el pequeño rectángulo negro que se muestra a la derecha de la etiqueta del elemento y su lista de subelementos que se expande automáticamente:
 
 ![](assets/collection.png)
 
@@ -149,11 +161,11 @@ Para obtener más información sobre las colecciones, consulte [Tipos de datos d
 
 Algunos elementos pueden contener varios elementos del mismo tipo. Son elementos de tipo matriz.
 
-Puede identificar un elemento de tipo matriz colocando los corchetes al final de la etiqueta del elemento. Haga clic en el pequeño rectángulo negro a la derecha de la etiqueta del elemento para mostrar los elementos del elemento:
+Puede identificar un elemento de tipo matriz por los corchetes al final de la etiqueta del elemento. Haga clic en el pequeño rectángulo negro a la derecha de la etiqueta del elemento para mostrar los elementos del elemento:
 
 ![](assets/array.png)
 
-Para obtener más información acerca de las matrices, vea [Tipos de datos de elementos en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+Para obtener más información sobre las matrices, consulte [Tipos de datos de elementos en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ### Asignar el primer elemento de una matriz
 
@@ -171,9 +183,9 @@ Si desea acceder a otro elemento, haga clic en los corchetes y edite el valor de
 
 ### Asignar un elemento de una matriz con una clave determinada
 
-Algunas matrices contienen varias colecciones con elementos clave y de valor. Normalmente, se trata de varios metadatos, atributos, etc.
+Algunas matrices contienen varias colecciones con elementos de clave y valor. Normalmente, se trata de varios metadatos, atributos, etc.
 
-El siguiente ejemplo muestra el resultado de la aplicación [!DNL Jira].
+En el siguiente ejemplo se muestra el resultado de la aplicación [!DNL Jira].
 
 ![](assets/output-of-jira-app-350x100.png)
 
@@ -183,34 +195,34 @@ El resultado de [!DNL Jira] tiene este aspecto:
 
 ![](assets/output-from-jira-350x261.png)
 
-El requisito típico es buscar un elemento por su valor clave dado y obtener el valor correspondiente del elemento de valor. Esto se puede lograr con una fórmula que emplee una combinación de las funciones `map()` y `get()`.
+El requisito habitual es buscar un elemento por su valor de clave especificado y obtener el valor correspondiente del elemento de valor. Esto se puede lograr con una fórmula que emplee una combinación de las funciones `map()` y `get()`.
 
 A continuación se muestra un desglose detallado de la fórmula:
 
 1. El primer parámetro de la función `map()` es todo el elemento de matriz.
-1. El segundo parámetro es el nombre sin procesar del elemento de valor. Para obtener el nombre sin procesar, pase el ratón sobre el elemento del panel [!UICONTROL mapping]:
+1. El segundo parámetro es el nombre sin procesar del elemento de valor. Para obtener el nombre sin procesar, pase el puntero por encima del elemento del panel de [!UICONTROL asignación]:
 
    ![](assets/obtain-raw-name-350x124.png)
 
    >[!NOTE]
    >
-   >Todos los parámetros distinguen entre mayúsculas y minúsculas. Aunque en este ejemplo concreto la etiqueta del elemento difiere de su nombre sin procesar solo en mayúsculas, es necesario utilizar el nombre sin procesar, que es todo un valor en minúsculas en contraste con la etiqueta Valor.
+   >Todos los parámetros distinguen entre mayúsculas y minúsculas. Aunque en este ejemplo concreto la etiqueta del elemento difiere de su nombre sin procesar solo en las mayúsculas, es necesario utilizar el nombre sin procesar, que es un valor que está todo en minúsculas en contraste con la etiqueta Valor.
 
-1. El tercer parámetro es el nombre sin procesar del elemento clave:
+1. El tercer parámetro es el nombre sin procesar del elemento de clave:
 
    ![](assets/3rd-parameter-350x166.png)
 
-1. El cuarto parámetro es el valor de clave dado.
+1. El cuarto parámetro es el valor de la clave especificada.
 
-Dado que la función `map()` devuelve una matriz (ya que podría haber más elementos con el valor de clave dado), es necesario aplicar la función `get()` para obtener su primer elemento:
+Dado que la función `map()` devuelve una matriz (ya que podría haber más elementos con el valor de la clave especificada), es necesario aplicar la función `get()` para obtener su primer elemento:
 
 * El primer parámetro de la función `get()` es el resultado de la función `map()`.
 
 * El segundo parámetro es el índice del elemento, uno.
 
-Para obtener más información acerca de la función `map()`, vea [Funciones de matriz en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
+Para obtener más información sobre la función `map()`, consulte [Funciones de matriz en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
 
-Para obtener más información acerca de la función `get()`, vea [Funciones generales en [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
+Para obtener más información sobre la función `get()`, consulte [Funciones generales en  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
 ## Conversión de elementos en una serie de paquetes
 
@@ -220,31 +232,31 @@ Las matrices se pueden convertir en una serie de paquetes mediante el módulo [!
 
 ## Resolución de problemas
 
-### Faltan elementos en el panel de asignación
+### Elementos que faltan en el panel de asignación
 
 Para cada módulo, el panel de asignación muestra todos los elementos de salida, enumerados por el autor del módulo. En algunos casos, esta lista puede estar incompleta por varios motivos y es posible que falten algunos elementos. [!DNL Workfront Fusion] puede detectar automáticamente los elementos de salida que faltan cuando ejecuta el módulo en el editor de escenarios. El procedimiento exacto difiere ligeramente según el tipo de módulo:
 
-#### Déclencheur instantáneo
+#### Activador instantáneo
 
-1. Haga clic con el botón secundario en el módulo y, a continuación, haga clic en **[!UICONTROL Ejecutar este módulo solamente]** en el menú que se muestra.
+1. Haga clic con el botón secundario en el módulo y, a continuación, haga clic en **[!UICONTROL Run this module only]** en el menú que se muestra.
 
    Si no hay ningún webhook en cola, el módulo espera a que se procese un nuevo webhook.
 
 1. Genere un webhook.
 
-   Por ejemplo, el módulo webhook **[!DNL Slack]>[!UICONTROL Escuchar nuevos eventos]** (que observa los nuevos mensajes de canal en un canal) envía un mensaje al canal.
+   Por ejemplo, el módulo webhook **[!DNL Slack]>[!UICONTROL Listen for new events]** (que observa los nuevos mensajes de canal en un canal) envía un mensaje al canal.
 
 1. Cuando el módulo termine de ejecutarse, haga clic en la burbuja situada encima del módulo para explorar su salida completa.
 
    El panel de asignación contendrá todos los elementos que se descubrieron en la salida del módulo.
 
-#### Déclencheur de sondeo
+#### Activador de sondeo
 
-1. Haga clic con el botón secundario en el módulo y, a continuación, haga clic en **[!UICONTROL Ejecutar este módulo solamente]** en el menú que se muestra.
-1. Si no hay salida, haga clic en **[!UICONTROL Elija por dónde empezar]** y ajuste la configuración.
+1. Haga clic con el botón secundario en el módulo y, a continuación, haga clic en **[!UICONTROL Run this module only]** en el menú que se muestra.
+1. Si no hay salida, haga clic en **[!UICONTROL Choose where to start]** y ajuste la configuración.
 1. Si no hay ningún evento para procesar, cree uno y vuelva al paso 2.
 
-   Por ejemplo, el módulo webhook **[!UICONTROL Gmail] >[!UICONTROL Ver correos electrónicos]** envía un mensaje de correo electrónico a la carpeta que está viendo el módulo.
+   Por ejemplo, el módulo webhook **[!UICONTROL Gmail] >[!UICONTROL Watch emails]** envía un mensaje de correo electrónico a la carpeta que está viendo el módulo.
 
 1. Cuando el módulo termine de ejecutarse, haga clic en la burbuja situada encima del módulo para explorar su salida completa.
 
@@ -256,13 +268,13 @@ Puede elegir ejecutar:
 
 * Todo el escenario (o solo la parte que contiene el módulo)
 
-  Si su escenario comienza con un déclencheur, consulte la sección [déclencheur instantáneo](#instant-trigger) o [déclencheur de sondeo](#polling-trigger) más arriba.
+  Si su escenario comienza con un activador, consulte la sección [Activador instantáneo](#instant-trigger) o [Activador de sondeo](#polling-trigger) más arriba.
 
 * Solo el módulo individual
 
-Si decide ejecutar solo el módulo:
+Si decide ejecutar solo el módulo individual:
 
-1. Haga clic con el botón secundario en el módulo y, a continuación, haga clic en **[!UICONTROL Ejecutar este módulo solamente]** en el menú que se muestra.
+1. Haga clic con el botón secundario en el módulo y, a continuación, haga clic en **[!UICONTROL Run this module only]** en el menú que se muestra.
 1. Proporcione valores de muestra para los elementos de entrada y haga clic en **[!UICONTROL Aceptar]** .
 1. Cuando el módulo termine de ejecutarse, haga clic en la burbuja situada encima del módulo para explorar su salida completa.
 

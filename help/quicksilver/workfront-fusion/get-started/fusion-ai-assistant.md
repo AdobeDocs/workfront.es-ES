@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Asistente de IA en Workfront Fusion
-description: Asistente de IA en Workfront Fusion
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 81%
+source-wordcount: '354'
+ht-degree: 63%
 
 ---
 
 # Asistente de IA en Workfront Fusion
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Asistente de IA en Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 El asistente de IA puede localizar información en la documentación de Workfront, lo que elimina la necesidad de visitar Adobe Experience League para obtener la ayuda que necesita.
 
@@ -47,7 +59,7 @@ Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
   <tr> 
    <td role="rowheader">Producto</td> 
    <td>
-   <p>Nuevo: [!DNL Workfront Fusion] está incluido en el plan Ultimate Workfront.</p> <p>O</p>
+   <p>Nuevo: [!DNL Workfront Fusion] está incluido en el plan de Ultimate Workfront.</p> <p>O</p>
    <p>Actual: no disponible</p>
    </td> 
   </tr>

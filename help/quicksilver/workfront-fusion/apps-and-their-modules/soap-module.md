@@ -5,24 +5,36 @@ product-area: workfront-integrations
 keywords: conector
 navigation-topic: apps-and-their-modules
 title: Módulo SOAP
-description: SOAP SOAP Puede utilizar el módulo de la para conectarse a las API de la en Adobe Workfront Fusion.
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '548'
+ht-degree: 19%
 
 ---
 
 # SOAP [!UICONTROL módulo {1000000000000001000000000000000100000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* SOAP [módulo de](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/soap-module.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
+
 SOAP SOAP Puede usar el módulo  para conectarse a las API  en [!UICONTROL Adobe Workfront Fusion].
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,14 +46,14 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
@@ -106,19 +118,19 @@ SOAP Si el módulo  se niega a procesar el archivo WSDL o genera varios errores 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Método]</td> 
+      <td role="rowheader">[!UICONTROL Method]</td> 
       <td> <p>[!UICONTROL POST]</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Tipo de cuerpo]</td> 
+      <td role="rowheader">[!UICONTROL Body type]</td> 
       <td> <p>[!UICONTROL Raw]</p> </td> [!UICONTROL ]
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Tipo de contenido]</td> 
+      <td role="rowheader">[!UICONTROL Content type]</td> 
       <td> <p>[!UICONTROL XML (application/xml)]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Respuesta de análisis]</td> 
+      <td role="rowheader">[!UICONTROL Parse response]</td> 
       <td>[!UICONTROL Habilitado]</td> 
      </tr> 
     </tbody> 

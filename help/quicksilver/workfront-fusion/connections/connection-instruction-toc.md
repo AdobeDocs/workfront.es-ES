@@ -4,27 +4,39 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: conector
 navigation-topic: connections-annd-webhooks
-title: Crear conexiones en  [!DNL Adobe Workfront Fusion]
-description: Una conexión debe cumplir los requisitos establecidos por la API de la aplicación o del servicio web al que se conecta. Por este motivo, las instrucciones para configurar una conexión varían en función de la aplicación o el servicio web. Este artículo puede ayudarte a identificar y localizar las instrucciones para conectar [!DNL Adobe Workfront Fusion] a la aplicación o servicio web que hayas elegido.
+title: Creación de conexiones en  [!DNL Adobe Workfront Fusion]
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 85%
 
 ---
 
-# Crear conexiones en [!DNL Adobe Workfront Fusion]
+# Creación de conexiones en [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Conectar con aplicaciones: índice de artículos](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-apps-toc.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 <!-- Audited: 3/2024-->
 
-Una conexión debe cumplir los requisitos establecidos por la API de la aplicación o del servicio web al que se conecta. Por este motivo, las instrucciones para configurar una conexión varían en función de la aplicación o el servicio web. Este artículo puede ayudarle a identificar y localizar las instrucciones para conectar a [!DNL Adobe Workfront Fusion] con la aplicación o el servicio web que haya elegido.
+Una conexión debe cumplir los requisitos establecidos por la API de la aplicación o del servicio web al que se conecta. Por este motivo, las instrucciones para configurar una conexión varían en función de la aplicación o el servicio web. Este artículo puede ayudarle a identificar y localizar las instrucciones para conectar [!DNL Adobe Workfront Fusion] a la aplicación o el servicio web que haya elegido.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col>  
@@ -47,9 +59,9 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
    </td>  
   </tr>  
   <tr>  
-   <td role="rowheader">Product</td>  
+   <td role="rowheader">Producto</td>  
    <td> 
-   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe adquirir [!DNL Adobe Workfront Fusion].</li><li>Se incluye el plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion].</li></ul> 
+   <p>Nuevo:</p> <ul><li>Plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront]: su organización debe comprar [!DNL Adobe Workfront Fusion].</li><li>Plan [!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] está incluido.</li></ul> 
    <p>O</p> 
    <p>Actual: su organización debe comprar [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -63,43 +75,43 @@ Para obtener información sobre [!DNL Adobe Workfront Fusion] licencias, consult
 
 ## Conectarse a una aplicación o servicio web que no requiera configuración
 
-En la mayoría de los casos, puede utilizar el módulo para crear una conexión con poca o ninguna información adicional. [!DNL Workfront Fusion] administra la autenticación automáticamente.
+En la mayoría de los casos, puede utilizar el módulo para crear una conexión con poca o ninguna información adicional. [!DNL Workfront Fusion] gestiona la autenticación automáticamente.
 
-Para obtener instrucciones sobre cómo crear una conexión sin consideraciones especiales, vea [Crear una conexión con [!DNL Adobe Workfront Fusion] - Instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md).
+Para obtener instrucciones sobre la creación de una conexión sin consideraciones especiales, consulte [Crear una conexión a  [!DNL Adobe Workfront Fusion] : instrucciones básicas](../../workfront-fusion/connections/connect-to-fusion-general.md).
 
-## Conectar con una aplicación o servicio web [!DNL Microsoft]
+## Conectarse a una aplicación o servicio web de [!DNL Microsoft]
 
-La mayoría de las [!DNL Microsoft] aplicaciones de [!DNL Workfront Fusion] le permiten crear una conexión sin información adicional.
+La mayoría de las aplicaciones de [!DNL Microsoft] en [!DNL Workfront Fusion] le permiten crear una conexión sin información adicional.
 
-Las siguientes circunstancias no requieren pasos adicionales para crear una conexión:
+Las siguientes circunstancias si que requieren pasos adicionales para crear una conexión:
 
-* Usando módulos de [!DNL Microsoft Dynamics 365].
+* Uso de módulos [!DNL Microsoft Dynamics 365].
 
-  Para obtener instrucciones, consulte [[!DNL Microsoft Dynamics 365] módulos](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+  Para obtener instrucciones, consulte [[!DNL Microsoft Dynamics 365] Módulos](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
-* Conectando con [!DNL Microsoft Graph API] mediante un módulo [!UICONTROL HTTP]
+* Conectarse a la [!DNL Microsoft Graph API] mediante un módulo [!UICONTROL HTTP]
 
-  Para obtener instrucciones, consulte [Llamar a [!DNL MS Graph REST API] a través de [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Realizar una solicitud OAuth 2.0] módulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
+  Para obtener instrucciones, consulte [Llamar a la  [!DNL MS Graph REST API]  a través del módulo  [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Realizar una solicitud OAuth 2.0]](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
-## Conectar con una aplicación o servicio web [!DNL Google]
+## Conectarse a una aplicación o servicio web de [!DNL Google]
 
 El proceso de conexión a las aplicaciones de [!DNL Google] puede diferir según el tipo de cuenta de [!DNL Google] que esté usando. Además, las medidas de seguridad de [!DNL Google] pueden requerir una configuración adicional al conectarse a [!DNL Workfront Fusion].
 
-Para obtener más información, consulte:
+Para obtener más información, consulte lo siguiente:
 
-* [Conectar [!DNL Adobe Workfront Fusion] a [!DNL Google Services] mediante un cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-* [Conectar [!DNL Adobe Workfront Fusion] a [!DNL Google Services] con medidas de seguridad actualizadas](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
+* [Conectar  [!DNL Adobe Workfront Fusion]  a  [!DNL Google Services]  mediante un cliente OAuth personalizado](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
+* [Conectar  [!DNL Adobe Workfront Fusion]  a  [!DNL Google Services]  con medidas de seguridad actualizadas](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 
-## Otras aplicaciones que requieren una configuración adicional
+## Otras aplicaciones que requieren configuración adicional
 
-Las siguientes aplicaciones no siguen la configuración básica de [!DNL Workfront Fusion] conexiones. Puede encontrar instrucciones para conectar estas aplicaciones en el artículo para esa aplicación.
+Las siguientes aplicaciones no siguen la configuración básica para las conexiones de [!DNL Workfront Fusion]. Puede encontrar instrucciones para conectar estas aplicaciones en el artículo correspondiente a esa aplicación.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>Servicio web/aplicación</th> 
+   <th>Aplicación/Servicio web</th> 
    <th>Información adicional sobre las conexiones</th> 
   </tr> 
  </thead> 
@@ -144,7 +156,7 @@ Las siguientes aplicaciones no siguen la configuración básica de [!DNL Workfro
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Correo electrónico</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Conecte su correo electrónico a [!DNL Workfront Fusion]</a> en <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref"> módulos[!UICONTROL Email]</a></td>
+   <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Conectar su correo electrónico a [!DNL Workfront Fusion]</a> en <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref"> módulos de [!UICONTROL Email]</a></td>
 
 <tr> 
    <td role="rowheader"> <p>[!DNL Gmail]</p> </td> 
@@ -172,7 +184,7 @@ Las siguientes aplicaciones no siguen la configuración básica de [!DNL Workfro
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Qualtrics]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md#connecti" class="MCXref xref">Conectando [!DNL Qualtrics] a [!DNL Workfront Fusion]</a> en <a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md" class="MCXref xref">[!DNL Qualtrics] módulos</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md#connecti" class="MCXref xref">Conexión de [!DNL Qualtrics] a [!DNL Workfront Fusion]</a> en <a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md" class="MCXref xref">[!DNL Qualtrics] módulos</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL ServiceNow]</p> </td> 
@@ -180,7 +192,7 @@ Las siguientes aplicaciones no siguen la configuración básica de [!DNL Workfro
   </tr> 
   <tr> 
    <td role="rowheader"> <p>SFTP</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/sftp.md#connect" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> en <a href="../../workfront-fusion/apps-and-their-modules/sftp.md" class="MCXref xref"> módulos[!UICONTROL SFTP]</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/sftp.md#connect" class="MCXref xref">Conectar SFTP a [!DNL Workfront Fusion]</a> en <a href="../../workfront-fusion/apps-and-their-modules/sftp.md" class="MCXref xref"> módulos de [!UICONTROL SFTP]</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL SharePoint]</p> </td> 

@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Conectar [!DNL Adobe Workfront Fusion]  a un servicio web que usa autorización de token de API
-description: Algunos servicios no permiten soluciones de integración como  [!DNL Adobe Workfront Fusion]  para crear una aplicación que pueda usar fácilmente en su situación.
+title: Conectar  [!DNL Adobe Workfront Fusion]  a un servicio web que usa autorización de token de API
+description: La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación. Este artículo ha quedado obsoleto, pero contiene un vínculo al nuevo artículo que cubre esta funcionalidad.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 0%
+source-wordcount: '1008'
+ht-degree: 14%
 
 ---
 
 # Conectar [!DNL Adobe Workfront Fusion] a un servicio web que use la autorización de token de API
+
+>[!IMPORTANT]
+>
+>La documentación de Adobe Workfront Fusion se ha trasladado a una nueva ubicación.
+>
+>La información de este artículo ahora se encuentra en el artículo:
+>
+>* [Conecte Adobe Workfront Fusion a un servicio web que use la autorización de token de API](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>Actualice sus marcadores.
+>
+>Este artículo ya no se actualiza y se eliminará en un futuro próximo.
 
 Algunos servicios no permiten soluciones de integración como [!DNL Adobe Workfront Fusion] para crear una aplicación que pueda usar fácilmente en su escenario.
 
@@ -24,7 +36,7 @@ Este artículo explica cómo conectar casi cualquier servicio web a [!DNL Workfr
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
+Para utilizar la funcionalidad de este artículo debe tener el siguiente acceso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,20 +48,20 @@ Debe tener el siguiente acceso para utilizar la funcionalidad de este artículo:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Trabajo]</p> </td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licencia**</td> 
    <td>
-   <p>Requisito de licencia actual: no se requiere licencia de [!DNL Workfront Fusion].</p>
+   <p>Requisito de licencia actual: no se requiere ninguna licencia de [!DNL Workfront Fusion].</p>
    <p>O</p>
-   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] para automatización e integración de trabajo] </p>
+   <p>Requisito de licencia heredado: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Producto</td> 
    <td>
-   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront], su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
+   <p>Requisito de producto actual: si tiene el plan [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] su organización debe adquirir [!DNL Adobe Workfront Fusion] así como [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo. [!DNL Workfront Fusion] está incluido en el plan [!DNL Workfront] de [!UICONTROL Ultimate].</p>
    <p>O</p>
    <p>Requisito de productos heredados: su organización debe comprar [!DNL Adobe Workfront Fusion] y [!DNL Adobe Workfront] para utilizar la funcionalidad descrita en este artículo.</p>
    </td> 
@@ -82,7 +94,7 @@ El procedimiento para conectar el servicio a través de un token de API es simil
 >
 >Solo incluimos instrucciones para obtener una clave de API de Pushover como ejemplo de lo que podría encontrar.
 
-1. Inicie sesión en su cuenta de [!DNL Pushover].
+1. Inicie sesión en la cuenta de [!DNL Pushover].
 1. Haga clic en **[!UICONTROL Crear una aplicación/token de API]** en la parte inferior de la página.
 1. Rellene la información de la aplicación y haga clic en **[!UICONTROL Crear una aplicación]**.
 1. Almacene el token de API proporcionado en un lugar seguro. Lo necesitará para el módulo [!DNL Workfront Fusion] [!UICONTROL HTTP] >[!UICONTROL Realizar una solicitud] para conectarse al servicio web deseado ([!DNL Pushover], en este caso).
@@ -107,15 +119,15 @@ Para conectar un servicio web al escenario [!DNL Workfront Fusion], debe usar el
       <td> <p><code>https://api.pushover.net/1/messages.json</code> </p> <p>El campo URL contiene el extremo que puede encontrar en la documentación de API del servicio web.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Método]</td> 
+      <td role="rowheader">[!UICONTROL Method]</td> 
       <td> <p><code>[!DNL POST]</code> </p> <p>El método utilizado depende del punto de conexión correspondiente. El punto final de Pushover para insertar mensajes utiliza el método POST.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Encabezados]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
       <td> <p>Algunos servicios web pueden utilizar encabezados para especificar la autenticación de token de API u otros parámetros. Este no es el caso en nuestro ejemplo, ya que el extremo de Pushover para insertar mensajes utiliza Body (ver a continuación) para todos los tipos de solicitud.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Cadena de consulta]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Query String]</p> </td> 
       <td> <p>Algunos servicios web pueden utilizar una cadena de consulta para especificar otros parámetros. Este no es el caso en nuestro ejemplo, ya que el servicio web [!DNL Pushover] utiliza [!UICONTROL Body] (ver a continuación) para todos los tipos de solicitud.</p> </td> 
      </tr> 
      <tr> 
@@ -123,7 +135,7 @@ Para conectar un servicio web al escenario [!DNL Workfront Fusion], debe usar el
       <td> <p><code>Raw</code> </p> <p>Esta configuración le permite seleccionar el tipo de contenido JSON en el siguiente campo [!UICONTROL Tipo de contenido].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Tipo de contenido]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Content Type]</p> </td> 
       <td> <p><code>JSON (application/json)</code> </p> <p>JSON es el tipo de contenido requerido por la aplicación [!UICONTROL Pushover]. Esto puede diferir de otros servicios web.</p> </td> 
      </tr> 
      <tr> 
