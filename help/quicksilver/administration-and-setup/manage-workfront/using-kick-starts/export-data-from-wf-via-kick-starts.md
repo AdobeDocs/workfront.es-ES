@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: KickStart, KickStart, KickStart, KickStart
+keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Exportar datos de Workfront mediante Kick-Starts
 description: Como administrador de Adobe Workfront, puede utilizar el exportador de datos de KickStarts para exportar datos de Workfront.
@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 7%
+source-wordcount: '1014'
+ht-degree: 93%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 7%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Como administrador de Adobe Workfront, puede utilizar el exportador de datos de KickStarts para exportar datos de Workfront. Puede usarlo en otras aplicaciones después de exportarlo.
 
@@ -41,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -54,12 +52,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +67,7 @@ Existen dos formas de exportar datos dentro de Workfront:
 
 * Exportación de datos desde un informe o una lista
 
-  Para obtener más información acerca de cómo exportar datos desde un informe o una lista, vea [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Para obtener más información acerca de cómo exportar datos desde un informe o una lista, consulte [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Exportación de datos mediante kick-starts
 
@@ -88,7 +86,7 @@ En la tabla siguiente se muestran las ventajas y desventajas de cada método:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Exportación de datos desde una vista de lista</strong> </p> <p>Para obtener más información acerca de cómo exportar datos de una lista, vea <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportar datos</a></p> </td> 
+   <td> <p><strong>Exportación de datos desde una vista de lista</strong> </p> <p>Para obtener más información acerca de cómo exportar datos de una lista, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportar datos</a></p> </td> 
    <td> <p>Sí</p> <p>Se exportan tanto los campos nativos de Workfront como los campos personalizados asociados a los objetos.</p> </td> 
    <td> <p>No</p> </td> 
   </tr> 
@@ -105,13 +103,13 @@ En la tabla siguiente se muestran las ventajas y desventajas de cada método:
 Existen las siguientes limitaciones al exportar datos mediante kick-starts (los datos se exportan en formato de archivo de Excel):
 
 * **50.000 filas:** El número de filas permitidas en el archivo.
-* **65.530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65.530 hipervínculos. Estos documentos no se pueden abrir después de exportarse. Tenga en cuenta que un documento de Excel puede tener sólo 200 filas de datos, pero si hay más de 65.530 vínculos dentro del documento, éste no se abrirá.
+* **65.530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65.530 hipervínculos. Estos documentos no se pueden abrir después de exportarse. Tenga en cuenta que un documento de Excel puede tener solo 200 filas de datos, pero si hay más de 65 530 vínculos dentro del documento, este no se abrirá.
 
 ## Exportación de datos mediante kick-starts
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Sistema** > **Kick-Starts,** y, a continuación, haga clic en **Exportar datos.**
+1. Haga clic en **Sistema** > **Kick-Starts** y, a continuación, haga clic en **Exportar datos.**
 
 1. Seleccione el objeto que desea exportar. De manera predeterminada, los siguientes objetos se muestran en **Qué incluir**:
 
@@ -122,30 +120,30 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
     <thead> 
      <tr> 
       <th> <p><strong>Objeto</strong> </p> </th> 
-      <th> <p><strong>Hojas exportadas del archivo de Excel</strong> </p> </th> 
+      <th> <p><strong>Hojas exportadas del archivo Excel</strong> </p> </th> 
       <th> <p> <strong>Formato de exportación</strong></p> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
       <td scope="col" valign="top"> <p>Panel de control</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parámetro<br>Opción de parámetro<br>Grupo de parámetros<br>Parámetro de categoría<br>Categoría<br>Informe<br>Sección de ficha de portal<br>Panel<br>Preferencias</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
+      <td scope="col" valign="top"> <p>Parámetro<br>Opción de parámetro<br>Grupo de parámetros<br>Parámetro de categoría<br>Categoría<br>Informe<br>Sección de pestaña de portal<br>Panel<br>Preferencias</p> </td> 
+      <td scope="col" valign="top">ZIP</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Informe</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">Parámetro<br>Opción de parámetro<br>Grupo de parámetros<br>Parámetro de categoría<br>Categoría<br>Informe<br>Preferencias</td> 
-      <td scope="col" valign="top"> ZIP </td> 
+      <td scope="col" valign="top">ZIP </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Aprobación</p> </td> 
-      <td scope="col" valign="top"> <p>Aprobador De Paso<br>Paso De Aprobación<br>Aprobación<br>Proceso De Aprobación<br>Preferencias</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
+      <td scope="col" valign="top"> <p>Aprobador de paso<br>Paso de aprobación<br>Aprobación<br>Proceso de aprobación<br>Preferencias</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Datos personalizados</p> </td> 
       <td scope="col" valign="top"> <p>Parámetro<br>Opción de parámetro<br>Grupo de parámetros<br>Parámetro de categoría<br>Categoría<br>Preferencias</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Tipo de gasto</p> </td> 
@@ -160,12 +158,12 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      <tr> 
       <td valign="top"> <p>Equipo</p> </td> 
       <td valign="top"> Miembro del equipo<br>Equipo<br>Preferencias </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>Usuario</p> </td> 
-      <td valign="top"> <p>Preferencias de <br>usuario</p> </td> 
-      <td valign="top"> <p> Excel</p> </td> 
+      <td valign="top"> <p>Usuario<br>Preferencias</p> </td> 
+      <td valign="top"> <p>Excel</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -185,7 +183,7 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
     <thead> 
      <tr> 
       <th> <p>Objeto</p> </th> 
-      <th> <p>Hojas exportadas del archivo de Excel</p> </th> 
+      <th> <p>Hojas exportadas del archivo Excel</p> </th> 
       <th> <p>Formato de exportación</p> </th> 
      </tr> 
     </thead> 
@@ -212,8 +210,8 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      </tr> 
      <tr> 
       <td scope="col" valign="top">Gasto</td> 
-      <td valign="top"> Preferencias de <br>gasto </td> 
-      <td scope="col" valign="top"> Excel</td> 
+      <td valign="top"> Gasto<br>Preferencias </td> 
+      <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Página externa</td> 
@@ -222,22 +220,22 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      </tr> 
      <tr> 
       <td valign="top">Filtro</td> 
-      <td valign="top"> Filtrar<br>preferencias </td> 
+      <td valign="top"> Filtrar<br>Preferencias </td> 
       <td valign="top">ZIP </td> 
      </tr> 
      <tr> 
       <td valign="top">Grupo</td> 
-      <td valign="top"> Preferencias de grupo<br>0  </td> 
+      <td valign="top"> Grupo<br>Preferencias  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Agrupación</td> 
-      <td valign="top"> Agrupando<br>Preferencias </td> 
+      <td valign="top"> Agrupación<br>Preferencias </td> 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
       <td valign="top">Hora</td> 
-      <td valign="top"> Preferencias de hora<br> </td> 
+      <td valign="top"> Hora<br>Preferencias </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -247,7 +245,7 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      </tr> 
      <tr> 
       <td valign="top">Función</td> 
-      <td valign="top"> Función del puesto<br>Preferencias </td> 
+      <td valign="top"> Función<br>Preferencias </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -262,12 +260,12 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      </tr> 
      <tr> 
       <td valign="top">Portafolio</td> 
-      <td valign="top"> Portfolio<br>Preferencias  </td> 
+      <td valign="top"> Portafolio<br>Preferencias  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Proyecto</td> 
-      <td valign="top"> Cola<br>Proyecto<br>Regla de enrutamiento<br>Tema de cola<br>Preferencias </td> 
+      <td valign="top"> Cola<br>Proyecto<br>Regla de enrutamiento<br>Tema de la cola<br>Preferencias </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -292,12 +290,12 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      </tr> 
      <tr> 
       <td valign="top">Tarjeta de puntuación</td> 
-      <td valign="top">Preguntas sobre el informe de valoración<br>Opción del informe de valoración<br>Preferencias<br> </td> 
+      <td valign="top">Preguntas sobre el cuadro de resultados<br>Opción del cuadro de resultados<br>Preferencias<br> </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Tarea</td> 
-      <td valign="top"> Preferencias de la tarea <br> </td> 
+      <td valign="top"> Tarea <br>Preferencias </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
@@ -312,17 +310,17 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      </tr> 
      <tr> 
       <td valign="top">Tarea de plantilla</td> 
-      <td valign="top"> Preferencias de la tarea de plantilla<br> </td> 
+      <td valign="top"> Tarea de plantilla<br>Preferencias </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Hoja de horas</td> 
-      <td valign="top"> Hoja de horas Perfil<br>Hoja de horas<br>Preferencias </td> 
+      <td valign="top">Plantilla de horas</td> 
+      <td valign="top"> Perfil de plantilla de horas<br>Plantilla de horas<br>Preferencias </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
       <td valign="top"> Ver </td> 
-      <td valign="top"> Ver<br>preferencias  </td> 
+      <td valign="top"> Vista<br>Preferencias  </td> 
       <td valign="top">ZIP</td> 
      </tr> 
     </tbody> 
@@ -330,21 +328,17 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
 
 1. Haga clic en **Descargar.**
 
-   El archivo de KickStart exportado se descarga en el equipo como archivo de Excel o como . archivo zip que contiene varios archivos de propiedades y de Excel. Cada archivo de Excel es una colección de hojas, donde cada hoja representa un campo asociado al objeto seleccionado. Hay una hoja **Properties** asociada con cada exportación.
+   El archivo de KickStart exportado se descarga en el equipo como archivo de Excel o como archivo .zip que contiene varios archivos de propiedades y de Excel. Cada archivo Excel es una colección de hojas, donde cada hoja representa un campo asociado al objeto seleccionado. Hay una hoja **Propiedades** asociada con cada exportación.
 
-   Las opciones **Tablero** e **Informe** le permiten seleccionar tableros e informes específicos para incluirlos en la descarga. Solo puede exportar paneles, que se comparten en todo el sistema.
+   Las opciones **Panel de control** e **Informe** le permiten seleccionar paneles de control e informes específicos para incluirlos en la descarga. Solo puede exportar paneles de control, que se comparten en todo el sistema.
 
-   No se pueden exportar los informes de matriz. Para obtener más información acerca de los informes de matriz, vea [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   No se pueden exportar los informes de matriz. Para obtener más información acerca de los informes de matriz, consulte [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
    Kick-Starts no admite filtros o agrupaciones en modo texto. Para que la exportación se realice correctamente, los filtros y las agrupaciones de informes deben cambiarse al modo Estándar.
 
    Puede seleccionar hasta 100 paneles y 100 informes en una sola exportación.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Exportación de KickStart](assets/kickstart-export-spreadsheet-options.png)
-
-   Imagen de muestra en el entorno de producción:
-   ![Exportación de KickStart](assets/kickstart-export-350x381.png)
 
    Puede exportar varios objetos al mismo tiempo.
 

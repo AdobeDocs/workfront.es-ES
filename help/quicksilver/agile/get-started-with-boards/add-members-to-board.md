@@ -6,7 +6,7 @@ description: Los usuarios deben añadirse al tablero como miembros para poder ve
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 63%
@@ -15,11 +15,9 @@ ht-degree: 63%
 
 # Añadir o quitar miembros de un tablero
 
-{{highlighted-preview}}
-
 Los usuarios y los equipos deben añadirse al tablero como miembros para poder verlo.
 
-El creador de un tablero es el propietario de forma predeterminada. El propietario del tablero es la única persona que puede eliminar ese tablero o actualizar sus filtros en el panel Configurar. <span class="preview">Solamente un administrador del sistema o el propietario actual del tablero puede cambiar el propietario del tablero.</span>
+El creador de un tablero es el propietario de forma predeterminada. El propietario del tablero es la única persona que puede eliminar ese tablero o actualizar sus filtros en el panel Configurar. Solamente un administrador del sistema o el propietario actual del tablero puede cambiar el propietario del tablero.
 
 ## Requisitos de acceso
 
@@ -85,8 +83,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >
    >No puede eliminar al propietario del tablero.
 
-<div class="preview">
-
 ## Cambiar el propietario del tablero
 
 >[!NOTE]
@@ -104,5 +100,3 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    Solo un usuario puede ser el propietario del tablero. Un equipo no puede ser propietario.
 
 1. Haga clic en [!UICONTROL **Actualizar**].
-
-</div>

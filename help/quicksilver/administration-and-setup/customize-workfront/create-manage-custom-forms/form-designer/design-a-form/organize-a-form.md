@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 0%
+source-wordcount: '1329'
+ht-degree: 11%
 
 ---
 
 # Organización y previsualización de un formulario
-
-{{preview-fast-release-general}}
 
 Puede organizar un formulario personalizado con el diseñador de formularios y obtener una vista previa del mismo para comprobar que está correctamente configurado.
 
@@ -25,14 +23,14 @@ Puede organizar un formulario personalizado con el diseñador de formularios y o
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -49,7 +47,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -133,7 +131,7 @@ Para obtener información sobre los campos y widgets personalizados en los formu
 
 ### Cómo pueden afectar varios tipos de objetos a los permisos de salto de sección {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
-El permiso Editar de forma limitada para saltos de sección de formulario personalizados solo está disponible para los tipos de objeto Proyecto, Tarea, Problema y Usuario.
+El permiso de Edición limitada para saltos de sección de formularios personalizados solo está disponible para los tipos de objeto Proyecto, Tarea, Problema y Usuario.
 
 En un formulario personalizado con un salto de sección configurado con el permiso Editar de forma limitada, si agrega uno de los demás tipos de objetos al formulario (Portfolio, Programa, Documento, Empresa, Registro de facturación, Iteración, Gasto o Grupo), se le pedirá que cambie al permiso Editar, que es compatible tanto con ese tipo de objeto como con los tipos de objeto existentes en el formulario.
 
@@ -160,16 +158,15 @@ En un formulario personalizado con un salto de sección configurado con el permi
 
 1. (Opcional) Para colocar un campo o widget personalizado encima o debajo de otro, arrástrelo arriba o abajo hasta que aparezca una línea azul horizontal entre los elementos.
 
-1. Para mover un campo personalizado a otra sección del formulario, puede arrastrarlo y colocarlo en su lugar, <span class="preview">o hacer clic en el icono **Mover a** del campo y seleccionar la sección a la que desea moverlo.</span>
+1. Para mover un campo personalizado a otra sección del formulario, puede arrastrarlo y colocarlo en su lugar, o bien hacer clic en el icono **Mover a** del campo y seleccionar la sección a la que desea moverlo.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Mover el campo a una sección](assets/move-field-to-section.png)
 
 1. Para guardar los cambios, haga clic en **Aplicar**
 
    o
 
-   Haga clic en **Guardar y cerrar**.
+   Haga clic en **Guardar y Cerrar**.
 
 ## Previsualización de un formulario personalizado
 

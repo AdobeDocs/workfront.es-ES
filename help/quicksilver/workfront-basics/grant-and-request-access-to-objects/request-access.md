@@ -6,16 +6,14 @@ description: La visibilidad de los objetos en Adobe Workfront depende del acceso
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 92%
+source-wordcount: '1380'
+ht-degree: 91%
 
 ---
 
 # Solicitar acceso a objetos
-
-{{preview-fast-release-general}}
 
 La visibilidad de los objetos en Adobe Workfront depende del acceso a ese tipo de objeto, así como de los permisos sobre un objeto individual.
 
@@ -102,11 +100,7 @@ Para solicitar acceso inicial a un objeto:
 1. En la lista desplegable, seleccione el tipo de acceso que solicita.
 1. (Opcional) En el campo **P.S.**, especifique una nota para el usuario sobre por qué necesita acceso adicional.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Cuadro de diálogo de solicitud de acceso](assets/request-access-to-project.png)
-
-   Imagen de muestra en el entorno de producción:
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ Para solicitar acceso adicional a un objeto al que ya tiene acceso limitado:
 1. (Opcional) En el campo **P.S.**, especifique una nota con respecto a por qué necesita acceso adicional.
 1. Haga clic en **Solicitar acceso**.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   Imagen de muestra en el entorno de vista previa:
    ![Cuadro de diálogo de solicitud de acceso](assets/request-access-to-project.png)
-
-   Imagen de muestra en el entorno de producción:
-   ![](assets/request-access-dialog-350x314.png)
 
 ## Jerarquía de los menús desplegables &quot;Solicitar acceso&quot; y &quot;Solicitar más acceso&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

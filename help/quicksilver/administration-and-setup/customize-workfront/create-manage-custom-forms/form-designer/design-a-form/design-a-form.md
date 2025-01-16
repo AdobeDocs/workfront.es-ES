@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
-ht-degree: 84%
+source-wordcount: '6474'
+ht-degree: 85%
 
 ---
 
 # Crear un formulario personalizado
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Puede diseñar un formulario personalizado con el diseñador de formularios en Adobe Workfront. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -847,8 +843,8 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
       <td><p>(Obligatorio) Seleccione un campo nativo de Workfront.<p><p>Solo están disponibles los campos nativos de los objetos del formulario. Por ejemplo, si la lista Tipos de objetos de la parte superior del diseñador de formularios muestra Proyecto, podrá seleccionar campos nativos para proyectos, pero no campos específicos de tareas.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Agregar filtro</span></td>
-      <td><span class="preview"><p>Añada un filtro para el campo de referencia para limitar la lista de elementos entre los que los usuarios pueden elegir cuando utilizan el campo. </p> <p>Por ejemplo, puede limitar un campo para que los nombres de usuario solo se puedan seleccionar si cumplen los siguientes criterios:</p> 
+      <td role="rowheader">Agregar filtro</td>
+      <td><p>Añada un filtro para el campo de referencia para limitar la lista de elementos entre los que los usuarios pueden elegir cuando utilizan el campo. </p> <p>Por ejemplo, puede limitar un campo para que los nombres de usuario solo se puedan seleccionar si cumplen los siguientes criterios:</p> 
        <ul>
         <li>Pertenecen a uno o varios grupos especificados</li> 
         <li>Están asociados a una función o título de trabajo que especifique</li> 
@@ -860,7 +856,7 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
         <li>La opción de filtro solo está disponible cuando se hace referencia a un campo de escritura anticipada nativo, como Portfolio, Empresa o Propietario.</li>
         <li>Si está editando un formulario personalizado existente, al agregar un filtro a un campo nativo no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan agregado mediante el campo.</li> 
         <li>Este filtro no está disponible en los dispositivos móviles. Si utiliza el filtro para un campo nativo, el campo aparecerá en los dispositivos móviles de los usuarios no afectados por el filtro.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Para añadir un archivo Adobe XD:
    o
 
    Haga clic en **Guardar y Cerrar**.
-
-<div class="preview">
 
 ### Agregar campos de conexión de Planning
 
@@ -1031,8 +1025,6 @@ Para agregar un campo de conexión de Planning:
    * Conecte o desconecte registros del objeto de Workfront.
 
    Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Organizar y obtener una vista previa de un formulario con el diseñador de formularios
 
