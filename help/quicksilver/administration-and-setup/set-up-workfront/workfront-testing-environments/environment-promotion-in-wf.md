@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 96%
+source-wordcount: '1041'
+ht-degree: 97%
 
 ---
 
 # Descripción general del movimiento de objetos entre entornos de Workfront (Promoción del entorno)
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 La función de promoción del entorno permite mover objetos de un entorno de Workfront a otro. Por ejemplo, puede crear una plantilla y configurarla en el entorno de zona protegida, sabiendo que las pruebas que realice no afectarán a los datos reales de su organización. Una vez configurada y probada la plantilla, puede moverla al entorno de producción, lista para usar.
 
@@ -100,8 +98,8 @@ Dado que la promoción del entorno se ocupa de la configuración de objetos, no 
 | Tipo de riesgo (RSKTYP) | Tipo de riesgo |
 | Conjunto de recursos (RSPL) | Conjunto de recursos |
 | Nivel de acceso (ACSLVL) | Nivel de acceso |
-| <span class="preview">Tarjeta de tarifa (RTCRD)</span> | <span class="preview">Tarjeta de tarifa</span> |
-| <span class="preview">Ubicación / Clasificador (CLSF)</span> | <span class="preview">Ubicación / Clasificador</span> |
+| Tarjeta de tarifa (RTCRD) | Tarjeta de tarifas |
+| Ubicación / Clasificador (CLSF) | Ubicación / Clasificador |
 
 \* No disponible actualmente
 
