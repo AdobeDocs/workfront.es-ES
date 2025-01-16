@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
@@ -31,8 +31,7 @@ Puede usar la columna Mi enfoque para priorizar el trabajo. La columna Mi enfoqu
    | **Normal** | Normal es para los elementos de trabajo de rutina en los que trabajará una vez completados los elementos de prioridad Alta y Urgente. Esta es la opción predeterminada para tareas y problemas. |
    | **Bajo** | Bajo es para elementos de trabajo que no necesitan atención inmediata y que se pueden diferir hasta que se realicen todos los elementos de trabajo de prioridad superior. |
 
-   ![](assets/my-focus.png)
-   <!--new screen for prod ![](assets/my-focus-new.png)-->
+   ![](assets/my-focus-new.png)
 
    >[!TIP]
    >

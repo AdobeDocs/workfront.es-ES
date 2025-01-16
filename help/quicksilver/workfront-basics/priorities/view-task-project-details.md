@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '406'
 ht-degree: 21%
 
 ---
 
 # Ver detalles del proyecto y del elemento de trabajo en Prioridades
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede ver los detalles del proyecto, la tarea y el problema en la lista de trabajo de prioridades.
 
@@ -76,8 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Añadir un archivo
    * <span class="preview">Ir directamente al proyecto</span>
 
-   ![detalles del proyecto](assets/project-details.png)
-   <!--new screen for prod ![](assets/project-details-new.png)-->
+   ![detalles del proyecto](assets/project-details-new.png)
 
 ### Ver detalles de la tarea
 
@@ -87,35 +84,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. La tarea está seleccionada de forma predeterminada. Aquí puede
    * Ver y editar los detalles y la descripción del proyecto y la tarea
    * Ver y agregar comentarios en el proyecto
-   * <span class="preview">Ver y agregar documentos</span>
-   * <span class="preview">Crear una revisión</span>
+   * Ver y agregar documentos
+   * Crear una prueba
    * Hora de registro
    * Añadir un archivo
    * Adición de vínculos rápidos
 
 
-   ![detalles de la tarea](assets/task-details.png)
-   <!--new screen for prod ![](assets/task-details-new.png)-->
+   ![detalles de la tarea](assets/task-details-new.png)
 
 ### Ver detalles del problema
 
 {{step1-to-priorities}}
 
 1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
+
 1. Problema seleccionado de forma predeterminada. Aquí puede
    * Ver y editar los detalles y la descripción del proyecto y del problema
    * Ver y agregar comentarios en el proyecto
-* <span class="preview">Ver y agregar documentos</span>
-* <span class="preview">Crear una revisión</span>
-   * Hora de registro
-   * Añadir un archivo
-   * Adición de vínculos rápidos
+   * Ver y agregar documentos
+   * Crear una prueba
+      * Hora de registro
+      * Añadir un archivo
+      * Adición de vínculos rápidos
 
-  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+   ![detalles del problema](assets/issue-details.png)
 
 ## Ver detalles en la página Detalles
 
-<span class="preview">Puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros usuarios están viendo la página al mismo tiempo que usted con indicadores de presencia en tiempo real.</span>
+Puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros usuarios están viendo la página al mismo tiempo que usted con indicadores de presencia en tiempo real.
 
 ## Ver detalles del elemento de trabajo
 
@@ -125,8 +122,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Ver y editar los detalles y la descripción del proyecto
 * Ver y agregar comentarios en el proyecto
-* <span class="preview">Ver y agregar documentos</span>
-* <span class="preview">Crear una revisión</span>
+* Ver y agregar documentos
+* Crear una prueba
 * Hora de registro
 * Añadir un archivo
 * Adición de vínculos rápidos

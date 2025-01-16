@@ -5,17 +5,15 @@ description: Ponme al día
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 20%
+source-wordcount: '180'
+ht-degree: 22%
 
 ---
 
-
 # Ponerse al día con el trabajo en Prioridades
-
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Póngase al día (con tecnología del asistente de IA de Workfront) que resume las actualizaciones, los documentos cargados y otros cambios importantes acerca de sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días y 7 días, lo que ayuda a reducir el tiempo que tarda en buscar información sobre proyectos activos.
 

@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 26%
+source-wordcount: '275'
+ht-degree: 24%
 
 ---
 
 # Personalización de las columnas de lista de trabajo Prioridades
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede personalizar las columnas de la lista de trabajos en Prioridades para admitir su forma de trabajar.
 
@@ -87,9 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en el icono **Más** ![](assets/more-icon.png) y elija **Restablecer anchos de columna**.
    ![](assets/columns.png)
 
-<div class="preview">
-
-## Personalización de las columnas de lista de trabajo Prioridades en Vista previa
+## Personalización de las columnas de lista de trabajo Prioridades
 
 ### Habilitar o deshabilitar columnas
 
@@ -110,6 +106,3 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 >[!NOTE]
 >
 >La columna Nombre es fija y no se puede mover.
-
-
-</div>

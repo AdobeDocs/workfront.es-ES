@@ -5,17 +5,15 @@ description: Documentos
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 36%
+source-wordcount: '498'
+ht-degree: 37%
 
 ---
 
-
 # Cargar documentos y crear pruebas en Prioridades
-
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede cargar documentos y crear pruebas en Prioridades.
 
@@ -182,6 +180,3 @@ Puede ordenar los documentos por
 
 * Fecha de incorporación
 * Tipo de archivo
-
-
-

@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 46%
@@ -60,8 +60,7 @@ Puede registrar tiempo directamente desde la lista de trabajo:
 {{step1-to-priorities}}
 
 1. Pase el ratón sobre el nombre y luego haga clic en **Registrar tiempo**.
-   ![](assets/log-time.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. En el menú desplegable **Tipo de hora**, seleccione el tipo de hora adecuado. Los tipos de horas están disponibles según lo que se haya definido en los niveles de sistema, proyecto y usuario, tal como se describe en Definición de tipos de horas y disponibilidad.
 
 1. (Condicional) Si el administrador de su grupo o Workfront ha habilitado la opción Asignar roles de trabajo a las entradas de hora manualmente, seleccione un rol en el menú desplegable. La función especificada cuando se le asigna al elemento de trabajo se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Si no tiene un rol principal asignado, se muestra Sin rol.

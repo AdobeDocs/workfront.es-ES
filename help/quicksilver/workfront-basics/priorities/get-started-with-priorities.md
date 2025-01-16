@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '999'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ En Prioridades, puede filtrar y agrupar su trabajo para ayudarle a administrar l
 
 ### Búsqueda del trabajo con filtros
 
-Encuentre su trabajo más importante con filtros. <span class="preview">Puede usar un idioma natural para buscar trabajo con el filtro inteligente</span>, o
+Encuentre su trabajo más importante con filtros. Puede utilizar un lenguaje natural para buscar trabajo con el filtro inteligente o
 Puede usar el filtro Estándar para buscar las tareas y los problemas que se le han asignado:
 
 <table>
@@ -112,10 +112,9 @@ Una vez que haya asignado niveles de enfoque a los elementos de trabajo, puede o
 
 Para obtener más información, vea [Priorizar elementos de trabajo importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Usar la vista de calendario [!BADGE Disponible en vista previa]{type=Informative}
+### Uso de la vista Calendario
 
 La vista Calendario proporciona una representación visual de sus tareas y problemas. Podrá elegir entre una vista de día, de semana o de mes. También podrá filtrar elementos de forma similar a la lista de trabajo.
 
@@ -141,8 +140,7 @@ La sección Actualizaciones muestra las actualizaciones del sistema y hasta 200 
 
 Para obtener más información, vea [Agregar y ver comentarios en Prioridades](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Hora de registro
 
@@ -150,8 +148,7 @@ Puede registrar el tiempo de los elementos de trabajo para indicar la cantidad d
 
 Para obtener más información, vea [Registrar tiempo en prioridades](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Cargar archivos
 
@@ -164,8 +161,7 @@ Cargue los archivos directamente en el área Documentos de la tarea o del proble
 
 Para obtener más información, consulte [Cargar archivos en Prioridades](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### Adición de vínculos rápidos
@@ -176,13 +172,13 @@ Puede incrustar los vínculos utilizados con frecuencia en la página de detalle
 
 Para obtener más información, consulte [Agregar y administrar vínculos rápidos en Prioridades](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Ver documentos [!BADGE Disponibles en vista previa]{type=Informative}
+### Ver documentos
 
 La ficha Documentos permite ver todos los archivos relacionados con un elemento de trabajo. Podrá filtrar los documentos por nombre, tipo de archivo o persona, y ordenarlos por nombre y fecha de carga.
 
 También podrá abrir el documento o la prueba.
 
-### Revisar y aprobar recursos [!BADGE Disponibles en vista previa]{type=Informative}
+### Revisión y aprobación de recursos
 
 Desde la pestaña Documentos de una tarea o un problema, puede
 
@@ -190,7 +186,7 @@ Desde la pestaña Documentos de una tarea o un problema, puede
 * Inicie el visor de revisión para dejar comentarios y tomar decisiones
 
 
-## Use [!DNL Catch me up] para ver lo que se perdió [!BADGE Disponible en vista previa]{type=Informative}
+## Use [!DNL Catch me up] para ver lo que se perdió
 
 Use la característica [!DNL Catch me up] para ver lo que se perdió. Ponerme al día resumirá las actualizaciones, los documentos cargados, las aprobaciones y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días, 7 días.
 
@@ -200,7 +196,7 @@ Para obtener más información, vea [Ponerse al día con el trabajo en Prioridad
 
 <!--need new screen for prod-->
 
-## Ver actualizaciones en tiempo real en la página de detalles [!BADGE Disponible en vista previa]{type=Informative}
+## Ver actualizaciones en tiempo real en la página Detalles
 
 Puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros usuarios están viendo la página al mismo tiempo que usted con indicadores de presencia en tiempo real.
 

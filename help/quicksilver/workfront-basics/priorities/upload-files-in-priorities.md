@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 33%
@@ -53,8 +53,7 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 {{step1-to-priorities}}
 
 1. Pase el ratón sobre el nombre y luego haga clic en **Cargar**.
-   ![](assets/upload-file.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. (Opcional) Seleccione una carpeta.
 1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
