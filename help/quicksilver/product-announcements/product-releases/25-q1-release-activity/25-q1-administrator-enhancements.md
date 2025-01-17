@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 23%
+source-wordcount: '834'
+ht-degree: 21%
 
 ---
 
@@ -18,11 +18,25 @@ Esta página describe todas las mejoras de administrador realizadas con la versi
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Ahora se admiten reglas de negocio para más objetos
+
+>[!NOTE]
+>
+>Versión preliminar: 16 de enero de 2025; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>
+>_Solo disponible para organizaciones en el plan Ultimate._
+
+Ahora puede crear reglas de negocio y aplicar la validación a estos objetos adicionales: compañía, iteración, categoría de recurso no laboral, rol, usuario, asignación, conjunto de recursos, tiempo libre, documento y hora.
+
+Los objetos siguientes ya eran compatibles con las reglas de negocio: Proyecto, Tarea, Solicitud, Portfolio, Programa, Gasto, Registro de facturación, Grupo, Riesgo y Tarjeta de tarifa.
+
+Para obtener más información, consulte [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
 ## Comparar objetos entre entornos para la promoción de entornos
 
 >[!NOTE]
 >
->Versión preliminar: 6 de enero de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión preliminar: 6 de enero de 2025; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
 
 Para facilitar la determinación de qué objeto debe incluirse en un paquete de promoción de entorno, se ha añadido la capacidad de comparar objetos entre entornos. Ahora puede seleccionar tipos de objetos y entornos. Workfront genera una lista de objetos de ese tipo, independientemente de si están presentes en el entorno de destino y de si ese objeto tiene diferencias entre el entorno de origen y el entorno de destino. A continuación, puede añadir objetos a un paquete directamente desde esta lista.
 
@@ -34,7 +48,7 @@ Para obtener más información, vea [Comparar objetos entre entornos](/help/quic
 
 >[!NOTE]
 >
->Versión preliminar: 6 de enero de 2024; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
+>Versión preliminar: 6 de enero de 2025; versión de producción para todos los clientes: con la versión 25.1 (enero de 2025)
 
 Para ampliar las capacidades de la funcionalidad de promoción del entorno, hemos agregado más objetos. Ahora, puede agregar los siguientes objetos a un paquete de promoción de entorno:
 

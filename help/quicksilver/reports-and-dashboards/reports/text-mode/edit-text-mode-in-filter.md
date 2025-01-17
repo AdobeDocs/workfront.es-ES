@@ -6,20 +6,16 @@ description: Puede editar un filtro en una lista o informe utilizando el modo de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 12%
 
 ---
 
 # Edición de un filtro mediante el modo de texto
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Puede editar un filtro en una lista o informe utilizando el modo de texto para acceder a campos que no están disponibles en la interfaz estándar y crear filtros más complejos.
 
@@ -29,21 +25,28 @@ Para obtener más ejemplos en modo de texto al crear un filtro, vea también la 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-    <p>o</p>
-    <p>Actual: plan</p> </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -51,12 +54,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe para editar filtros en un informe</p> <p>Administración de permisos de un filtro para editarlo</p> </td> 
+   <td> <p>Permisos de administración para un informe para editar filtros en un informe</p> <p>Permisos de administración para un filtro para editarlo</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,8 +70,8 @@ Antes de empezar a utilizar el modo de texto en un informe o una lista, asegúre
 Para obtener más información, consulte:
 
 * [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Información general sobre la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Ejemplos de vistas, filtros y agrupaciones personalizados: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Edición del modo de texto en un filtro
 
@@ -84,12 +87,20 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 
 1. Realice una de las siguientes acciones:
 
-   1. Para acceder al filtro de un informe, ve a él y haz clic en **Acciones de informe** > **Editar** > pestaña **Filtros**.
-   1. Para acceder al filtro desde una lista, ve a la lista y, en el menú **Filtro**, pasa el ratón sobre el filtro que deseas modificar y haz clic en el icono **Editar** ![](assets/edit-icon.png).
+   Para acceder al filtro de una lista, ve a la lista y haz clic en el icono **Filtro**, luego pasa el ratón sobre el filtro del panel lateral de **Filtros** que deseas modificar y haz clic en el icono **Editar** ![](assets/edit-icon.png). El panel lateral **Filtros** muestra el filtro seleccionado o se abre el generador de filtros heredados.
 
-      Se abre el generador de filtros.
+   O
 
-1. Haga clic en **Agregar una regla de filtro** para empezar a agregar las condiciones del filtro y, a continuación, haga clic en **Modo de texto** o en **Cambiar al modo de texto** a la derecha del generador.
+   Para acceder al filtro de un informe, ve a él y haz clic en **Acciones de informe** > **Editar** > pestaña **Filtros**.
+
+1. Realice una de las siguientes acciones:
+
+   Si está usando el panel lateral **Filtros** en una lista, haga clic en **Modo de texto**.
+
+   O
+
+   Si está usando el generador de filtros heredado o en un informe, haga clic en **Agregar una regla de filtro** para empezar a agregar las condiciones del filtro. A continuación, haga clic en **Cambiar al modo de texto** y, a continuación, **Editar el modo de texto** en el lado derecho del generador.
+
 1. Agregar instrucciones de filtro mediante el modo de texto. Cada declaración de filtro puede contener las siguientes líneas e información adicional:
 
    <table style="table-layout:auto"> 
@@ -102,14 +113,14 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
      </tr> 
      <tr> 
       <td> <p>Nombre del campo y valor al que es igual que aparecen en la base de datos de Workfront.</p> <p>Esta línea es obligatoria.</p> <p> Para obtener más información sobre cómo aparecen los objetos y campos en la base de datos, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Para filtrar por tareas en un estado de En curso, utilice la siguiente línea:</p> <p><code>status=INP</code> </p> <p><b>SUGERENCIA</b>
+      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Para filtrar por tareas en un estado de En curso, utilice la siguiente línea:</p> <p><code>status=INP</code> </p> <p><b>Sugerencia</b>
 
    Al filtrar por estados, debe utilizar el código de tres letras del estado y no el nombre.</p> </td>
    </tr> 
      <tr> 
       <td> <p>Modificador de nombre de campo y equivalente del modificador. Esto indica por qué condiciones debe cumplir el campo por el que está filtrando.</p> <p>Esta línea es obligatoria.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que el estado de las tareas por las que filtra debe ser igual a En curso, utilice la siguiente línea además de la anterior:</p> <p><code>status_Mod=in</code> </p> <p>Si el modificador es un rango, hay dos líneas para indicar el modificador.</p> 
-       <div> <span class="autonumber"><span><b>EJEMPLO </b></span></span> 
+       <div> <span class="autonumber"><span><b>EJEMPLO </b></span></span> 
         <p>Este es un filtro de modo de texto que busca tareas que están en curso, que tienen una fecha planificada de finalización en el mes actual y que están asignadas a un usuario con un GUID específico:</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -128,7 +139,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
          <li> <p>Al cambiar el operador de AND a OR, el número de elementos de la lista puede aumentar.</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div> <span class="autonumber"><span><b>EJEMPLO </b></span></span> 
+       <div> <span class="autonumber"><span><b>EJEMPLO </b></span></span> 
         <p>Para filtrar por tareas en un estado de En curso o con una Fecha planificada de finalización de Hoy, utilice la siguiente opción: </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
@@ -175,7 +186,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Haga clic en **Salir del modo de texto** o **Listo** para guardar los cambios del modo de texto y seguir editando el informe o el filtro.
+1. Haga clic en **Aplicar** o **Listo** para guardar los cambios del modo de texto y seguir editando el informe o el filtro.
 1. Haga clic en **Guardar + Cerrar** para guardar el informe o en **Guardar filtro** para guardar el filtro en la lista.
 
 

@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Editar modo de texto en una agrupación
-description: "NOTA: haga que todos los artículos de FVG sean iguales para su edición en modo de texto)"
+title: Edición de una agrupación mediante el modo de texto
+description: 'NOTA: haga que todos los artículos de FVG sean iguales para editar en modo texto)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 0%
+source-wordcount: '1520'
+ht-degree: 12%
 
 ---
 
-# Editar modo de texto en una agrupación
+# Edición de una agrupación mediante el modo de texto
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Puede editar una agrupación en una lista o informe utilizando el modo de texto para acceder a campos que no están disponibles en la interfaz estándar y crear agrupaciones más complejas.
 
@@ -27,32 +25,45 @@ Puede editar una agrupación en una lista o informe utilizando el modo de texto 
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para editar agrupaciones en un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para editar agrupaciones en un informe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe para editar agrupaciones en un informe</p> <p>Administración de permisos en una agrupación para editarla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos en un informe para editar agrupaciones en un informe</p> <p>Administración de permisos en una agrupación para editarla</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -61,10 +72,10 @@ Antes de empezar a utilizar el modo de texto en un informe o una lista, asegúre
 Para obtener más información, consulte:
 
 * [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Información general sobre la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Ejemplos de vistas, filtros y agrupaciones personalizados: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Editar modo de texto en una agrupación
+## Edición de una agrupación mediante el modo de texto
 
 La edición de una agrupación mediante el modo de texto es idéntica para informes y listas. El acceso a la agrupación desde un informe o desde una lista es distinto.
 
@@ -83,7 +94,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 
       Se abrirá el generador de agrupaciones.
 
-1. Haga clic en **Agregar agrupación** para agregar las agrupaciones y, a continuación, haga clic en **Cambiar al modo de texto** en la esquina superior derecha del generador.
+1. Haga clic en **Agregar agrupación** para agregar las agrupaciones, haga clic en **Cambiar al modo de texto** en la esquina superior derecha del generador y, a continuación, haga clic en **Editar modo de texto**.
 
    >[!TIP]
    >
@@ -93,7 +104,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 
    Seleccione el nombre del campo cuando lo vea en la lista.
 
-1. Haga clic en **Cambiar al modo de texto** en la esquina superior derecha del generador.
+1. Haga clic en **Cambiar a modo de texto** en la esquina superior derecha del generador.
 
    La agrupación se muestra en modo de texto.
 
@@ -179,11 +190,11 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
      </tr> 
      <tr> 
       <td> <p><strong>valuefield</strong>=</p> </td> 
-      <td> <p>Es el nombre del objeto o del campo tal como aparece en la base de datos. Para obtener más información sobre cómo aparecen los objetos y campos en la base de datos, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> <p>Existen los siguientes escenarios:</p> 
+      <td> <p>Es el nombre del objeto o del campo tal como aparece en la base de datos. Para obtener más información sobre cómo aparecen los objetos y campos en la base de datos, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">Explorador de API</a>.</p> <p>Se dan los siguientes escenarios:</p> 
        <ol> 
-        <li value="1"> <p> Si el nombre del campo que muestra es una frase en lugar de un nombre único, debe utilizar la sintaxis en minúscula para <code>valuefield</code>. Por ejemplo, para la fecha planificada de inicio de una tarea, el código es:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
-        <li value="2"> <p>Si desea mostrar un campo personalizado, el valor <code>valuefield</code> es el nombre real del campo, tal como lo ve en la interfaz. Por ejemplo, para un campo personalizado llamado "Más información", el código es:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Si desea agrupar por objetos relacionados con otros objetos mediante la línea de código <code>valuefield</code>, los nombres y atributos de los objetos se separarán con dos puntos.</p> <p>Por ejemplo, una agrupación por nombre de Portfolio para una lista de tareas tiene el siguiente valor para la línea de campo de valor:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Esto indica que desde el objeto del informe (tarea) puede acceder al siguiente objeto relacionado (proyecto); desde allí, puede acceder al siguiente objeto relacionado desde proyecto (portafolio); y después al nombre del portafolio (nombre).</p> </li> 
+        <li value="1"> <p> Si el nombre del campo que muestra es una frase en lugar de un nombre único, debe utilizar la sintaxis en minúscula para <code>valuefield</code>. Por ejemplo, para la fecha planificada de inicio de una tarea, el código es:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
+        <li value="2"> <p>Si desea mostrar un campo personalizado, el valor <code>valuefield</code> es el nombre real del campo, tal como lo ve en la interfaz. Por ejemplo, para un campo personalizado llamado "Más información", el código es:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
+        <li value="3"> <p>Si desea agrupar por objetos relacionados con otros objetos mediante la línea de código <code>valuefield</code>, los nombres y atributos de los objetos se separarán con dos puntos.</p> <p>Por ejemplo, una agrupación por nombre de Portfolio para una lista de tareas tiene el siguiente valor para la línea de campo de valor:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Esto indica que desde el objeto del informe (tarea) puede acceder al siguiente objeto relacionado (proyecto); desde allí, puede acceder al siguiente objeto relacionado desde proyecto (portafolio); y después al nombre del portafolio (nombre).</p> </li> 
        </ol> <p>Para obtener información acerca de cómo se conectan los objetos entre sí, vea la sección <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependencia y jerarquía de objetos</a> en <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Comprender los objetos en Adobe Workfront</a>.</p> <p>Nota: Si elige un campo en modo de texto que no es válido en la interfaz estándar y cambia a la interfaz estándar, la agrupación se elimina.</p> </td> 
      </tr> 
      <tr> 
@@ -192,19 +203,19 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
      </tr> 
      <tr> 
       <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>Puede agregar esta línea para reemplazar <code>valuefield</code>, si desea agrupar la lista mediante un cálculo entre varios campos.</p> <p>Debe incluir el <code>valuefield</code> de los objetos entre llaves cada vez que lo utilice en un <code>valueexpression</code>.</p> <p>Existen los siguientes escenarios:</p> 
+      <td> <p>Puede agregar esta línea para reemplazar <code>valuefield</code>, si desea agrupar la lista mediante un cálculo entre varios campos.</p> <p>Debe incluir el <code>valuefield</code> de los objetos entre llaves cada vez que lo utilice en un <code>valueexpression</code>.</p> <p>Se dan los siguientes escenarios:</p> 
        <ol> 
-        <li value="1"> <p>Si desea mostrar el nombre de una agrupación en mayúsculas, debe utilizar:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>El <code>valuefield</code> del objeto está escrito tal como aparece en el Explorador de API.</p> </li> 
+        <li value="1"> <p>Si desea mostrar el nombre de una agrupación en mayúsculas, debe utilizar:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>El <code>valuefield</code> del objeto está escrito tal como aparece en el Explorador de API.</p> </li> 
         <li value="2">Si desea agregar varios(as) <code>valuefields</code> uniéndolos(as) en una línea de <code>valueexpression </code>, debe separarlos por un punto.<p>Por ejemplo, si desea mostrar el nombre del portafolio en mayúsculas en una lista de tareas, debe utilizar el siguiente código en la línea <code>valueexpression</code>:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Si desea utilizar un campo personalizado en una línea de <code>valueexpression</code>, debe preceder el nombre del campo por <code>DE:</code> para indicar que se trata de un campo personalizado. El nombre del campo se escribe tal y como aparece en la interfaz.</p><p>Importante: <span>Cuando se usa un campo personalizado ubicado en una sección de formulario personalizado que tiene permisos restringidos para algunos usuarios, el cálculo de <code>valueexpression </code>está en blanco cuando dichos usuarios ven este cálculo en un informe. Para obtener información acerca de cómo ajustar permisos en secciones de formularios personalizados, vea </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Crear un formulario personalizado</a></span>.</p><p>Por ejemplo, si tiene un campo personalizado etiquetado como "Nombre del desarrollador" y desea agrupar por este campo y mostrarlo en mayúsculas, puede utilizar el siguiente <code>valueexpression</code> para indicar esto:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Al hacer referencia a un campo personalizado de tipo Escritura anticipada, utilice la siguiente expresión para hacer referencia al nombre del objeto seleccionado en un campo denominado "Nombre del desarrollador":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td><strong>namekey= / name=</strong> </td> 
-      <td> <p>Esta línea define la etiqueta de agrupación. En este caso, se utiliza el valor abreviado basado en la clave.</p> <p>Si desea modificar el nombre de la agrupación, puede cambiar este valor al siguiente:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.name=Your Value</code> </p> <p><code>Name</code> permite escribir cualquier texto para el nombre de agrupación, mientras que <code>namekey</code> requiere que escriba una clave que se utilice para traducir el nombre de una agrupación.</p> <p>Para cambiar el nombre de la agrupación, también puede agregar la línea <code>displayname </code>, si no hay ninguna.</p> </td> 
+      <td> <p>Esta línea define la etiqueta de agrupación. En este caso, se utiliza el valor abreviado basado en la clave.</p> <p>Si desea modificar el nombre de la agrupación, puede cambiar este valor al siguiente:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code>group.0.name=Your Value</code> </p> <p><code>Name</code> permite escribir cualquier texto para el nombre de agrupación, mientras que <code>namekey</code> requiere que escriba una clave que se utilice para traducir el nombre de una agrupación.</p> <p>Para cambiar el nombre de la agrupación, también puede agregar la línea <code>displayname </code>, si no hay ninguna.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>displayname =</strong> </td> 
-      <td> <p>Puede agregar la línea siguiente para cambiar el nombre de una columna, que sobrescribe el valor <code>namekey/name</code>:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>group.0.displayname=Your Value</code> </p> <p>Se recomienda quitar todas las líneas que contienen <code>name </code> al cambiar el nombre de una agrupación.</p> </td> 
+      <td> <p>Puede agregar la línea siguiente para cambiar el nombre de una columna, que sobrescribe el valor <code>namekey/name</code>:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code>group.0.displayname=Your Value</code> </p> <p>Se recomienda quitar todas las líneas que contienen <code>name </code> al cambiar el nombre de una agrupación.</p> </td> 
      </tr> 
     </tbody> 
    </table>

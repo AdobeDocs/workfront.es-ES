@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 14%
+source-wordcount: '324'
+ht-degree: 17%
 
 ---
 
@@ -17,6 +17,31 @@ ht-degree: 14%
 Esta página describe todas las mejoras de informes y paneles realizadas con la versión del primer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Nuevas entidades disponibles en Data Connect
+
+>[!NOTE]
+>
+>Versión preliminar: jueves, 15 de enero de 2025; versión de producción para todos los clientes: jueves, 15 de enero de 2025
+
+Se ha agregado compatibilidad con las siguientes entidades en Data Connect:
+
+* Usuario de equipo del proyecto
+* Rol de usuario del equipo del proyecto
+* Horas presupuestadas reportables
+* Recuento de estadísticas de vista de informe
+* Gerente de recursos
+* Nota de texto enriquecido
+
+También hemos añadido apoyo a las siguientes entidades específicas de las agencias:
+
+* Perfiles de empresa
+* Regla empresarial
+* Ubicación
+* Categoría de recurso no laboral
+* Ubicación del usuario
+
+Para obtener más información, consulte [Diccionario de datos de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
 ## Límite de 25 informes, páginas externas o calendarios en los paneles
 

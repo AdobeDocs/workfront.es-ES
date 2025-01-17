@@ -6,45 +6,60 @@ description: Puede utilizar el formato condicional para comparar dos campos dife
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 15%
 
 ---
 
 # Comparar campos en formato condicional
 
+<!-- Audited: 1/2025 -->
+
 Puede utilizar el formato condicional para comparar dos campos diferentes en una vista y resaltarlos cuando se cumplan determinados criterios entre los campos.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar la vista de un informe</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Acceso de edición a informes, paneles de control y calendarios para editar la vista de un informe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe para editar la vista en un informe</p> <p>Administración de permisos en una vista</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos de un informe para editar la vista en un informe</p> <p>Permisos de administración de una vista</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ejemplo: Comparar Fecha de Inicio Real y Fecha de Inicio Planificada
 
@@ -53,27 +68,28 @@ Por ejemplo, si la fecha de inicio real de una tarea es posterior a la fecha de 
 Para comparar la fecha planificada de inicio y la fecha real de inicio de la tarea mediante un formato condicional:
 
 1. Ir a una vista de tareas o a un informe.
-1. (Condicional) Si está trabajando con un informe, en la ficha **Columnas (Ver)**, haga clic en el encabezado de la columna a la que desea dar formato condicional para seleccionarla.\
+1. (Condicional) Si está trabajando con un informe, en la ficha **Columnas (Ver)** del editor de informes, haga clic en el encabezado de la columna a la que desee dar formato condicional para seleccionarla.\
    Por ejemplo, seleccione la columna **Fecha de inicio real** si desea agregarle el formato condicional comparando los campos Fecha de inicio planificada y Fecha de inicio real.
 
 1. Haga clic en **Opciones avanzadas** y, a continuación, haga clic en Agregar una regla **para esta columna**.
 
 1. Introduzca los criterios de comparación utilizando los valores existentes encontrados en el generador y especifique el formato condicional.\
-   Por ejemplo, se desea resaltar las tareas en las que la fecha de inicio real sea posterior ( o posterior) a la fecha de inicio planificada. Seleccione el modificador Greater Than y seleccione una fecha real en el campo de fecha.\
-     ![](assets/cond-format-1-350x84.png)
+   Por ejemplo, se desea resaltar las tareas en las que la fecha de inicio real sea posterior ( o posterior) a la fecha de inicio planificada. Seleccione el modificador Greater Than y seleccione una fecha real en el campo de fecha.
+
+   ![](assets/cond-format-1-350x84.png)
 
 1. (Opcional) Seleccione **Aplicar a toda la fila** si desea aplicar el formato a toda la fila.
-1. Haga clic en **Agregar regla** y después en **Listo**.
+1. Haga clic en **Guardar**.
 
 1. Seleccione la columna **Fecha real de inicio** y, a continuación, haga clic en **Cambiar al modo de texto**.
 
-1. **Haga clic para editar el modo texto** y después agregue la siguiente línea de texto:
+1. Haga clic en **Editar modo de texto** y, a continuación, agregue la siguiente línea de texto:
 
    ```
    styledef.case.0.comparison.rightmethod= <field to compare>
    ```
 
-   En nuestro ejemplo: 
+   En nuestro ejemplo:
 
    ```
    styledef.case.0.comparison.rightmethod=plannedStartDate

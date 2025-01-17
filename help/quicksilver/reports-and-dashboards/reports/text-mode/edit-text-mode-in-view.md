@@ -1,25 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Edición de una vista mediante el modo de texto
-description: "NOTA: añada una sección en este artículo: /Contenido/Informes y paneles/Informes/Informes Elements/create-customize-views.html *** Además, redacte esta área en el artículo Información general sobre el modo de texto"
+title: Editar una vista usando el modo de texto
+description: 'NOTA: añada una sección en este artículo: /Contenido/Informes y paneles/Informes/Informes Elements/create-customize-views.html *** Además, redacte esta área en el artículo Información general sobre el modo de texto)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 85%
 
 ---
 
-# Edición de una vista mediante el modo de texto
+# Editar una vista usando el modo de texto
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 Puede editar una vista de una lista o informe utilizando el modo de texto para acceder a campos que no están disponibles en la interfaz estándar y crear vistas más complejas.
 
@@ -27,34 +23,41 @@ Puede editar una vista de una lista o informe utilizando el modo de texto para a
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p>
-   <p>Actual: plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a los informes, paneles y calendarios para editar los elementos de un informe</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Acceso de edición a informes, paneles de control y calendarios para editar los elementos de un informe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe para editar vistas en un informe</p> <p>Administrar permisos a una vista para editarla</p> </td> 
+   <td> <p>Permisos de administración de un informe para editar vistas en un informe</p> <p>Permisos de administración de una vista para editarla</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
-Para obtener más información acerca de los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,16 +68,16 @@ Antes de empezar a utilizar el modo de texto en un informe o una lista, asegúre
 Para obtener más información, consulte:
 
 * [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Descripción general de la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Ejemplos de vistas, filtros y agrupaciones personalizadas: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Información general sobre la sintaxis del modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Ejemplos de vistas, filtros y agrupaciones personalizados: índice de artículos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Edición del modo de texto en una vista
+## Editar el modo de texto en una vista
 
-La edición de una vista mediante el modo de texto es idéntica para los informes y las listas. El acceso a la vista desde un informe o desde una lista es distinto.
+La edición de una vista mediante el modo de texto es idéntica para los informes y las listas. El acceso a la vista desde un informe o desde una lista es distinto.
 
 >[!TIP]
 >
->Le recomendamos que genere la mayor parte posible de la vista en el modo estándar y luego la convierta al modo de texto para editarla.
+>Le recomendamos que genere la mayor parte posible de la vista en modo estándar y luego la convierta al modo de texto para editarla.
 
 Para obtener información sobre cómo generar vistas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -82,8 +85,8 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 
 1. Realice una de las siguientes acciones:
 
-   1. Para obtener acceso a la vista desde un informe, vaya al informe y, a continuación, haga clic en **Acciones de informe** > **Editar** > pestaña **Columnas (vista)**.
-   1. Para acceder a la vista desde una lista, ve a la lista y, en el menú desplegable **Ver**, pasa el ratón sobre la vista que deseas modificar y haz clic en el icono **Editar** ![](assets/edit-icon.png).
+   1. Para acceder a la vista de un informe, vaya al informe y, a continuación, haga clic en las pestañas **Acciones de informe** > **Editar** > **Columnas (vista)**.
+   1. Para acceder a la vista de una lista, vaya a la lista y, en el menú desplegable **Ver**, pase el puntero por encima de la vista que desea modificar y haga clic en el icono **Editar** ![](assets/edit-icon.png).
 
       Se abre el generador de vistas.
 
@@ -91,17 +94,17 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 
    O
 
-   Seleccione la ficha **Columnas (Ver)** del Report Builder y, a continuación, seleccione una columna.
+   Seleccione la pestaña **Columnas (vista)** de Report Builder y, a continuación, seleccione una columna.
 
    >[!TIP]
    >
-   >Para editar una vista con el modo de texto, debe editar las columnas de una en una.
+   >Para editar una vista mediante el modo de texto, debe editar las columnas de una en una.
 
 1. Haga clic en **Cambiar al modo de texto** en la esquina superior derecha del generador y, a continuación, haga clic en **Editar modo de texto**.
 
    >[!NOTE]
    >
-   >Cuando edita una columna en modo de texto, Workfront agrega la línea de código `textmode=true` a la columna. Esto indica que la columna se modifica en modo de texto.
+   >Cuando edita una columna en modo de texto, Workfront añade la línea de código `textmode=true` a la columna. Esto indica que la columna se ha modificado en modo de texto.
 
    En la tabla siguiente se describen las líneas clave en una vista de modo de texto:
 
@@ -199,7 +202,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
        </div>
 
    <div>
-      Las <code>aggregator. </code>líneas pueden contener <code>valuefield </code>o <code>valueexpression</code>.
+      Las <code>aggregator. </code>líneas pueden contener un <code>valuefield </code>o una <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 

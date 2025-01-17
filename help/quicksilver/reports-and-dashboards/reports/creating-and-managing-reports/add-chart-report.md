@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Agregar un gráfico a un informe
+title: Añadir un gráfico a un informe
 description: Puede mejorar los informes agregando un gráfico. Puede agregar gráficos a los informes existentes o a los informes que esté creando.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '2734'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Agregar un gráfico a un informe
+# Añadir un gráfico a un informe
 
 <!--Audited: 11/2024-->
 
@@ -23,7 +23,7 @@ Antes de agregar un gráfico a un informe, debe crear una Vista y una Agrupació
 
 No puede agregar gráficos a la mayoría de los informes a menos que agrupe primero la información en el informe. El único gráfico que se puede agregar sin agrupar es un gráfico de medición.
 
-Para obtener información acerca de las vistas, vea [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obtener información acerca de las vistas, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Para obtener más información sobre las agrupaciones, consulte [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -59,21 +59,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuración del nivel de acceso</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> </td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
+   <td> <p>Acceso de Edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Agregar un gráfico a un informe
+## Añadir un gráfico a un informe
 
 1. Vaya a un informe existente o cree un nuevo informe. Para obtener más información sobre cómo crear un nuevo informe, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -88,7 +88,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >[!TIP]
    >
    >* Solo se puede agregar un gráfico a un informe cuando los resultados del informe están agrupados.
-   >* Los gráficos no admiten agrupaciones en modo de texto. Para obtener más información acerca de las agrupaciones en modo de texto, vea [Editar el modo de texto en una agrupación](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >* Los gráficos no admiten agrupaciones en modo de texto. Para obtener más información acerca de las agrupaciones en modo de texto, vea [Editar una agrupación mediante el modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Si agrega una sola agrupación que representa una métrica, todos los gráficos, excepto un gráfico circular, muestran cada resultado en la agrupación con el mismo color.
 
    Para obtener más información sobre cómo crear agrupaciones, consulte [Crear agrupaciones en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).

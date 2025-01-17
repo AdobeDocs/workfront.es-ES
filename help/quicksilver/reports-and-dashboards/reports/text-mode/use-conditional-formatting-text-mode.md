@@ -6,20 +6,16 @@ description: Uso del formato condicional en el modo Texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 1%
+source-wordcount: '1682'
+ht-degree: 6%
 
 ---
 
 # Uso del formato condicional en el modo Texto
 
-<!--Audited: 01/2024-->
-
-<!--
-(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
--->
+<!--Audited: 01/2025-->
 
 El generador de interfaces estándar proporciona una gran variedad de flexibilidad a la hora de crear elementos de informes para satisfacer las necesidades de su organización.
 
@@ -30,38 +26,43 @@ Para obtener más información acerca de cómo aplicar formato condicional a una
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p> 
-   <p>O</p>
-   <p>Actual: plan</p> 
-   </td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar las vistas de un informe</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles y Calendarios para editar las vistas de un informe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos en un informe para editar vistas en un informe</p> <p>Administrar permisos a una vista para editarla</p> </td> 
+   <td> <p>Permisos de administración de un informe para editar vistas en un informe</p> <p>Permisos de administración de una vista para editarla</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Formato condicional en modo texto
 
@@ -85,7 +86,7 @@ Para agregar formato condicional a una vista en la interfaz de modo de texto:
 
 1. Ir a una lista de objetos.
 1. Expanda el menú desplegable de una vista a la que desee agregar formato condicional.
-1. Haga clic en **Personalizar vista**.
+1. Pulse **Guardar vista**.
 1. Haga clic en la columna de la vista a la que desee aplicar el formato condicional.
 1. Haga clic en **Cambiar al modo de texto**.
 1. En el área **Mostrar en esta columna:**, haga clic en **Haga clic para editar el texto**.
@@ -122,126 +123,11 @@ Las fechas se pueden configurar para que se muestren en varios formatos.
 
 Para obtener más información, consulte [Dar formato a las fechas en los informes en modo de texto](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
-<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
-<pre>valueformat= [new date format]</pre>
-<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate </pre>
-<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
-<p>You can format dates using the following <code>valueformat</code> text mode values:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Format</strong> </th>
-<th scope="col">Example </th>
-<th scope="col"><em><strong>valueformat=</strong></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>atDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY Time</td>
-<td>10/11/18 12:00pm</td>
-<td><pre>longAtDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>shortAtDate</pre> </td>
-</tr>
-<tr>
-<td>Mth, DD, YR</td>
-<td>Oct, 11, 2018</td>
-<td><pre>mediumAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR</td>
-<td>Mon, Oct, 11, 2018</td>
-<td><pre>partialAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR Time</td>
-<td>Mon, Oct, 11, 2018 12:00 pm</td>
-<td><pre>fullAtDate</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
-
 #### Formato de números {#format-numbers}
 
 Puede dar formato a los valores numéricos para mostrar la información que mejor se adapte a sus necesidades de creación de informes.
 
 Para obtener más información, consulte [Formato de números, moneda y valores porcentuales en los informes de modo de texto](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the <strong>valueformat</strong> line of your column.</p> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
-<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
-<p>You can format numbers using the following values for the <code>valueformat</code> line of your column:</p>
-<table border="2" cellspacing="15" cellpadding="1">
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Example</strong> </th>
-<th scope="col"><em><code>valueformat=</code></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1234</td>
-<td><pre>doubleAsString</pre> or <pre>int</pre></td>
-</tr>
-<tr>
-<td>1,234</td>
-<td><pre>doubleAsInt</pre> </td>
-</tr>
-<tr>
-<td>$1,234</td>
-<td><pre>currencyStringCurrencyRounded</pre> </td>
-</tr>
-<tr>
-<td>1234.56</td>
-<td><pre>doubleAsDouble</pre> </td>
-</tr>
-<tr>
-<td>$1,234.56</td>
-<td><pre>currencyStringCurrency</pre> </td>
-</tr>
-<tr>
-<td>12%</td>
-<td><pre>doubleAsPercentRounded</pre> </td>
-</tr>
-<tr>
-<td>12.34%</td>
-<td><pre>doubleAsPercent</pre> </td>
-</tr>
-<tr>
-<td>(1,234.56)</td>
-<td><pre>doubleAsFinancial</pre> </td>
-</tr>
-<tr>
-<td>(1,234)</td>
-<td><pre>doubleAsFiancialRounded</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 
 ### Reglas de columna {#column-rules}
 
@@ -303,9 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Aunque esta instrucción se puede aplicar a una columna Nombre de la compañía, también se puede aplicar a cualquier otra columna del informe. El texto verde solo se mostraría si el proyecto tiene una compañía asociada. Recuerde la unidad `[field name]`, `[value]` y `[qualifier]` si el acondicionamiento se muestra o no en última instancia en la columna.
 >* Al trabajar con calificadores, recomendamos usar `cicontains` en lugar de `equal`. De manera predeterminada, `equal` busca números de identificación. Con el calificador `cicontains`, puede tener acceso a los elementos por su nombre.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
+
+![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Tanto si se aplica Color de texto, Alineación, Estilo de fuente o Color de fondo a un modo de texto, se utiliza la misma instrucción (mostrada arriba).
 
@@ -410,14 +297,13 @@ styledef.case.0.comparison.truetext=not today
 >
 >Las líneas que comienzan con `case.0.` comparaciones de casos de uso para identificar el uso de texto. Las líneas que comienzan con `styledef.case.0.` son instrucciones de formato condicional tempranas en las que identificamos el uso de texto a través de la expresión `truetext`. Asegúrese de establecer `truetext` en un valor, en lugar de dejarlo en blanco.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
+![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
+![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Aplicar formatos de fila {#apply-row-formats}
 
 Si desea aplicar una condición a toda la fila, utilice el siguiente código con el código de columna:
-
 
 ```
 styledef.case.0.comparison.icon=false
@@ -443,7 +329,6 @@ row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
 row.0.styledef.case.0.comparison.truetext=
 ```
 
-
 #### Aplicación de imágenes {#apply-images}
 
 Al igual que el formato con texto, las imágenes se pueden utilizar para mostrar información en los informes. Workfront tiene una serie de imágenes integradas para transmitir información visual en una configuración de informe. Para utilizar imágenes en la configuración de formato condicional se necesita la siguiente instrucción:
@@ -460,7 +345,6 @@ image.case.0.comparison.truetext=
 
 Por ejemplo, en un informe de proyecto, desea crear una columna en la que muestre un ceño fruncido en todas las fechas planificadas de finalización que no sean iguales a la fecha actual. Utilice el siguiente código de modo de texto para añadir el icono a la columna:
 
-
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
@@ -475,9 +359,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >Observe que la instrucción utiliza la expresión `icon=true`. Esta instrucción también es diferente de otras instrucciones de formato condicional en el sentido de que no utiliza el formato `style.def`, sino un formato de imagen único.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png)
+![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Para utilizar las imágenes disponibles, aplique los siguientes códigos y valores:
 
