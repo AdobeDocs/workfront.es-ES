@@ -3,21 +3,21 @@ content-type: reference
 product-area: projects;user-management
 navigation-topic: tasks
 title: Asignación de tareas
-description: Puede administrar las asignaciones de tareas de varias formas en Adobe Workfront. Los métodos de esta sección describen las diferentes formas de asignar tareas a usuarios, equipos y roles.
-author: Alina
+description: Puede administrar las asignaciones de tareas de varias formas en Adobe Workfront. Los métodos de esta sección describen las diferentes formas de asignar tareas a usuarios, equipos y funciones.
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2b79998d-7436-43ef-a5f5-6302f1f1b7a7
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Asignar tareas
 
-Puede administrar las asignaciones de tareas de varias formas en Adobe Workfront. Los métodos de esta sección describen las diferentes formas de asignar tareas a usuarios, equipos y roles.
+Puede administrar las asignaciones de tareas de varias formas en Adobe Workfront. Los métodos de esta sección describen las diferentes formas de asignar tareas a usuarios, equipos y funciones.
 
 >[!NOTE]
 >

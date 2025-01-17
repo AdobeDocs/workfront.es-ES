@@ -3,14 +3,14 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Crear asignaciones avanzadas
 description: Puede administrar asignaciones de tareas o problemas mediante Asignaciones avanzadas.
-author: Alina
+author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Puede administrar asignaciones de tareas o problemas mediante Asignaciones avanz
 
 Puede ajustar la siguiente información de asignación al realizar asignaciones avanzadas:
 
-* Asignar usuarios a la tarea o al problema (esto puede realizarse fuera de una asignación avanzada).
+* Asignar usuarios a la tarea o problema (esto puede realizarse fuera de una asignación avanzada).
 * Ajuste y redistribuya el número de horas que se asignan a cada usuario asignado.
 * Determine qué usuario debe designarse como propietario o principal asignado a la tarea o al problema.
 * Especifique la función que cumple cada usuario al trabajar en la tarea o el problema.
@@ -36,11 +36,11 @@ Puede ajustar la siguiente información de asignación al realizar asignaciones 
 
 >[!NOTE]
 >
->Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las Fechas planificadas y proyectadas de las tareas y problemas. Para obtener información acerca de las programaciones, vea [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las fechas planificadas y proyectadas de las tareas y problemas. Para obtener información acerca de las programaciones, consulte [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Áreas de Adobe Workfront donde puede realizar asignaciones avanzadas
 
-Este artículo describe cómo acceder a las asignaciones avanzadas en el encabezado de la tarea o del problema.
+En este artículo se describe cómo acceder a las asignaciones avanzadas en el encabezado de la tarea o problema.
 
 Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workfront:
 
@@ -58,7 +58,7 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -68,11 +68,11 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Tareas y Problemas</p>  </td> 
+   <td> <p>Editar el acceso a Tareas y Problemas</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Contribute o permisos superiores para una tarea o problema</p>  </td> 
+   <td> <p>Permisos de aportación o superiores para una tarea o problema</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
 
    >[!TIP]
    >
-   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas si hay dos o más personas asignadas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en el icono **Personas** para abrir la ventana Asignaciones avanzadas. Pase al paso 5 para continuar creando asignaciones avanzadas.\
+   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas si hay dos o más personas asignadas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en el icono **Personas** para abrir la ventana Asignaciones avanzadas. Vaya al paso 5 para continuar creando asignaciones avanzadas.\
    >![](assets/nwe-advanced-assignments-350x55.png)
    >
 
@@ -98,29 +98,29 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
 
    Haga clic en el nombre de las asignaciones si la tarea o el problema ya está asignado.
 
-1. Haga clic en **Avanzado**.
+1. Haga clic en **Avanzadas**.
 
    <span class="preview">![Haga clic en Avanzadas](assets/assignments-box-in-task-header.png)</span>
 
-1. En el campo **Buscar personas, roles y equipos**, empiece a escribir el nombre de un usuario, rol o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Buscar personas, funciones y equipos**, empiece a escribir el nombre de un usuario, función o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!NOTE]
    >
    >Si el nombre del usuario contiene un carácter especial, debe incluirlo en el campo de búsqueda.
 
-1. (Opcional) Siga agregando usuarios asignados en el cuadro **Buscar personas, roles o equipos** para agregar varios recursos a la tarea o al problema.
+1. (Opcional) Siga añadiendo usuarios asignados en el cuadro **Buscar personas, funciones o equipos** para añadir varios recursos a la tarea o al problema.
 
    >[!TIP]
    >
-   >* Puede asignar varios usuarios, roles o equipos. Solo puede asignar usuarios activos, roles y equipos.
+   >* Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
    >
    >
-   >* Al agregar una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos.
-   >Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
-   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >* Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos.
+   >Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
+   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* Si se asignó un usuario, un rol o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+   >* Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
    >   
    >   * Reasignar el elemento de trabajo a los recursos activos.
    >   * Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
@@ -133,13 +133,13 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
 1. Especifique la siguiente información para cada usuario de la columna **Usuario asignado**:
 
 
-   * **Propietario**: pase el ratón sobre el nombre del usuario asignado y haga clic en **Convertir en principal** en el campo Propietario si quiere marcar al usuario asignado como propietario de la tarea o del problema. La casilla de verificación verde indica que el usuario especificado es el contacto principal de la tarea o el problema. Adobe Workfront marca el primer usuario o rol que asigna a una tarea o problema como Asignación principal o Propietario. No se puede designar a un equipo como propietario principal de una tarea o un problema.
+   * **Propietario**: pase el puntero por encima del nombre del usuario asignado y haga clic en **Convertir en principal** en el campo Propietario si desea marcar al usuario asignado como propietario de la tarea o problema. La casilla de verificación verde indica que el usuario especificado es el contacto principal de la tarea o el problema. Adobe Workfront marca el primer usuario o función que asigna a una tarea o problema como Asignación principal o Propietario. No se puede designar a un equipo como propietario principal de una tarea o un problema.
 
      >[!IMPORTANT]
      >
-     >Según la forma en que el administrador de Workfront o el administrador del grupo hayan configurado las preferencias del proyecto, Workfront podría utilizar la programación del propietario de la tarea para calcular la cronología de la tarea cuando tenga varios usuarios asignados a la tarea. Para obtener información acerca de los usuarios asignados a varias tareas, consulte la sección &quot;Asignar varios usuarios a una tarea&quot; en el artículo [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Según la forma en que el administrador de Workfront o el administrador del grupo hayan configurado las preferencias del proyecto, Workfront podría utilizar la programación del propietario de la tarea para calcular la línea de tiempo de la tarea cuando tenga varios usuarios asignados a la tarea. Para obtener información acerca de los usuarios asignados a varias tareas, consulte la sección “Asignar varios usuarios a una tarea” en el artículo [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Asignaciones** : Cuando el tipo de duración de una tarea sea Simple, especifique el número de horas que cada usuario o rol debe asignarse a la tarea. La suma de todas las horas asignadas a cada usuario es igual al número que aparece en el campo **Horas planificadas** en la parte inferior de la columna Asignaciones. En todos los demás casos, especifique el porcentaje de tiempo (o asignación) que desea que el usuario asignado dedique a resolver la tarea o el problema.
+   * **Asignaciones**: cuando el tipo de duración de una tarea sea Simple, especifique el número de horas que cada usuario o función deben asignar a la tarea. La suma de todas las horas asignadas a cada usuario es igual al número que aparece en el campo **Horas planificadas** en la parte inferior de la columna Asignaciones. En todos los demás casos, especifique el porcentaje de tiempo (o asignación) que desea que el usuario asignado dedique a resolver la tarea o el problema.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
@@ -147,13 +147,13 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
 
      >[!TIP]
      >   
-     >   * Después de modificar manualmente las asignaciones de las tareas, las horas planificadas de las tareas podrían actualizarse en consecuencia. Para obtener más información, vea la sección &quot;Actualizar las horas planificadas de la tarea al administrar las asignaciones de usuario&quot; en el artículo [Información general sobre las horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Después de modificar manualmente las asignaciones de las tareas, las horas planificadas de las tareas podrían actualizarse en consecuencia. Para obtener más información, consulte la sección “Actualizar las horas planificadas de la tarea al administrar las asignaciones de usuario” en el artículo [Información general sobre las horas planificadas](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * No se pueden modificar manualmente las asignaciones de los problemas.
-     >   * No se pueden modificar manualmente las asignaciones de los equipos asignados a tareas.
+     >   * No se pueden modificar manualmente las asignaciones de los equipos asignados a las tareas.
 
-   * **Rol de asignado:** Seleccione el rol que el usuario debe usar al cumplir esta asignación.  La Función principal del usuario se muestra de forma predeterminada. Haga clic en el cuadro Función de asignado para seleccionar otra función.  Al asignar primero la tarea o el problema a un rol y, a continuación, agregar un usuario que pueda cumplir ese rol como segunda asignación, la lista de usuarios sugeridos se filtra para los usuarios que pueden cumplir los roles ya asignados a la tarea y al problema.
+   * **Función del usuario asignado:** seleccione la función que el usuario debe usar al desempeñar esta asignación.  La función principal del usuario se muestra de forma predeterminada. Haga clic en el cuadro Función del usuario asignado para seleccionar otra función.  Al asignar primero la tarea o el problema a una función y, a continuación, añadir un usuario que pueda cumplir dicha función como segunda asignación, la lista de usuarios sugeridos se filtra para los usuarios que pueden cumplir las funciones ya asignadas a la tarea y al problema.
 
-     ![Rol de asignado](assets/advanced-assignments-select-role.png)
+     ![Función del usuario asignado](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
 
@@ -163,13 +163,13 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
 
    </div>-->
 
-   * **Tipo de duración**: Esto solo está disponible para tareas. Haga clic en el nombre del tipo de duración y seleccione un tipo de duración en el menú desplegable. Para obtener información acerca de los tipos de duración, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Tipo de duración**: esta opción solo está disponible para tareas. Haga clic en el nombre del tipo de duración y seleccione un tipo de duración en el menú desplegable. Para obtener más información sobre los tipos de duración, consulte [Información general sobre la duración de la tarea y los tipos de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-   * **Duración:** Puede actualizar este campo para una tarea cuando tenga permisos de administración para la tarea.
+   * **Duración:** puede actualizar este campo para una tarea cuando disponga de permisos de administración para la tarea.
 
-     Para obtener más información, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Al editar por lotes la información de la asignación, aparece un cuadro de diálogo similar para asignar usuarios, horas, asignación y propietario de la tarea.
+     Para obtener más información, consulte [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Al editar en lotes la información de la asignación, aparece un cuadro de diálogo similar para asignar usuarios, horas, asignación y el propietario de la tarea.
 
-   * **Horas planificadas**: cuando el tipo de duración sea Asignación calculada o Simple, actualice el número de horas planificadas. Como resultado, los porcentajes de asignación o las horas de cada recurso se distribuyen de forma uniforme. Workfront calcula las horas planificadas cuando el tipo de duración es Trabajo calculado o Condicionado por el esfuerzo. Para obtener más información, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Horas planificadas**: cuando el tipo de duración sea Asignación calculada o Simple, actualice el número de horas planificadas. Como resultado, los porcentajes de asignación o las horas de cada recurso se distribuyen de forma uniforme. Workfront calcula las horas planificadas cuando el tipo de duración es Trabajo calculado o Condicionado por el esfuerzo. Para obtener más información, consulte [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 
 1. Haga clic en **Guardar**.

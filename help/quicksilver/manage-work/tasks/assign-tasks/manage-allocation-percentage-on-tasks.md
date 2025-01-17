@@ -3,13 +3,13 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Administrar porcentaje de asignación de usuarios o funciones en tareas
 description: El porcentaje de asignación representa la cantidad de tiempo que un recurso asignado está planificado para trabajar en una tarea en un día. Es el porcentaje de un día laborable (según la programación del usuario o proyecto) al que se asigna un recurso a lo largo de la duración de la tarea.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
 
 >[!NOTE]
 >
->Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las Fechas planificadas y proyectadas de las tareas y problemas. Para obtener información acerca de las programaciones, vea [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las fechas planificadas y proyectadas de las tareas y problemas. Para obtener información acerca de las programaciones, consulte [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +44,7 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Contribute o permisos superiores para la tarea</p> <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea</p>  </td> 
+   <td> <p>Contribuir o permisos superiores para la tarea</p> <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea</p>  </td> 
   </tr> 
  </tbody> 
 </table>
