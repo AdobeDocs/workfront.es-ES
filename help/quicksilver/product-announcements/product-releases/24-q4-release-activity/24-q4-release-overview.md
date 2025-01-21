@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2207'
+source-wordcount: '2193'
 ht-degree: 46%
 
 ---
@@ -26,7 +26,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>24.8 (viernes, 15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (viernes, 17 de octubre de 2024)</li></ul> | <ul><li>24.10 (viernes, 17 de octubre de 2024)</li></ul> |
+>| <ul><li>24.8 (15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (viernes, 17 de octubre de 2024)</li></ul> | <ul><li>24.10 (viernes, 17 de octubre de 2024)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (24.10 este trimestre), los usuarios de la programación de versiones rápidas recibirán la versión un día antes.
 >
@@ -341,7 +341,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                         </li>
                     </ul>
-                <p><i>Esta función se eliminará de la versión de vista previa el 19 de diciembre de 2024 y de la versión de producción rápida con 25.1 (enero de 2025).</i></p>
+                <p><i>Esta función se ha eliminado de la vista previa y de la producción de lanzamiento rápido.</i></p>
                 </td>
             </tr>
             <tr>
@@ -359,7 +359,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
                             <p>Producción para la versión rápida: con la versión 24.5 (16 de mayo de 2024)</p>
                         </li>
                     </ul>
-                <p><i>Esta función se eliminará de la versión de vista previa el 19 de diciembre de 2024 y de la versión de producción rápida con 25.1 (enero de 2025).</i></p>
+                <p><i>Esta función se ha eliminado de la vista previa y de la producción de lanzamiento rápido.</i></p>
                 </td>
             </tr>
         </tbody>

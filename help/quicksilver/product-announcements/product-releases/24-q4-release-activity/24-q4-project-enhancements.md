@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fc1c4466-edc3-4ff0-91bc-40c0e3af5eee
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 82%
+source-wordcount: '329'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >
 >Versión preliminar: 13 de febrero de 2024; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024).
 >
->_Esta característica se eliminará de la versión de vista previa el 19 de diciembre de 2024 y de la versión de producción rápida con 25.1 (enero de 2025)._
+>_Esta característica se ha eliminado de la versión de vista previa y de la versión de producción rápida._
 
 Hemos añadido la misma funcionalidad para las asignaciones inteligentes más relevantes al campo Asignaciones en las siguientes áreas:
 
@@ -40,7 +40,7 @@ Para obtener más información, consulte [Información general sobre las asignac
 >
 >Versión de vista previa: 21 de diciembre de 2023; producción para versión rápida: con la versión 24.5 (16 de mayo de 2024).
 >
->_Esta característica se eliminará de la versión de vista previa el 19 de diciembre de 2024 y de la versión de producción rápida con 25.1 (enero de 2025)._
+>_Esta característica se ha eliminado de la versión de vista previa y de la versión de producción rápida._
 
 Se ha modificado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones en el encabezado de la tarea, Inicio y el panel Resumen.
 

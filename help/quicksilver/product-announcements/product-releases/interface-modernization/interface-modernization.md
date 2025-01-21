@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -44,15 +44,6 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ## Informes y paneles
 
-### Modo de texto para filtros y agrupaciones
-
-**Versión preliminar: 9 de enero de 2025; versión de producción: a partir del 9 de enero de 2025**
-
-Se ha añadido un nuevo botón Editar modo de texto y un modal de edición a las siguientes áreas:
-
-* Filtros heredados
-* Agrupaciones
-
 ### Informes de aprobación actualizados con nuevo estilo
 
 **Versión preliminar: 16 de enero de 2025; versión de producción: TBD**
@@ -64,3 +55,12 @@ Hemos actualizado la interfaz de los siguientes informes de aprobación:
 * Informe de proceso de aprobación
 
 Estas actualizaciones incluyen cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
+
+### Modo de texto para filtros y agrupaciones
+
+**Versión preliminar: 9 de enero de 2025; versión de producción: a partir del 9 de enero de 2025**
+
+Se ha añadido un nuevo botón Editar modo de texto y un modal de edición a las siguientes áreas:
+
+* Filtros heredados
+* Agrupaciones

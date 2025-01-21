@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Editar una vista usando el modo de texto
-description: 'NOTA: añada una sección en este artículo: /Contenido/Informes y paneles/Informes/Informes Elements/create-customize-views.html *** Además, redacte esta área en el artículo Información general sobre el modo de texto)'
+description: Puede editar una vista de una lista o informe utilizando el modo de texto para acceder a campos que no están disponibles en la interfaz estándar y crear vistas más complejas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 85%
+source-wordcount: '459'
+ht-degree: 91%
 
 ---
 
