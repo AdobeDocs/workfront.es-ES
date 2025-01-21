@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 97%
+source-wordcount: '973'
+ht-degree: 94%
 
 ---
 
@@ -78,7 +78,7 @@ Póngase en contacto con asistencia de Workfront. Para obtener información sobr
 
 ## ¿Qué diferentes tipos de autenticación puedo utilizar con las suscripciones a eventos de Workfront?
 
-Puede utilizar cualquier autenticación que utilice un token de portador. El campo **authToken** de una suscripción es una cadena que representa un token portador de OAuth2 que se usó para autenticarse con la dirección URL especificada en el campo **url**. En teoría, este valor de token podría ser cualquier cosa siempre y cuando el extremo de destino sepa gestionar su codificación, que es **utf-8**.
+Puede utilizar cualquier autenticación que utilice un token de portador. El campo **authToken** de una suscripción es una cadena que representa un token portador de OAuth2 que se usó para autenticarse con la dirección URL especificada en el campo **url**. En teoría, este valor de token podría tener menos de 255 caracteres siempre y cuando el extremo de destino sepa cómo manejar su codificación, que es **utf-8**.
 
 ## ¿Cuánto tiempo debe transcurrir antes de recibir la carga útil de evento de las suscripciones a eventos de Workfront?
 
