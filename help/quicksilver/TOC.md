@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '14788'
+source-wordcount: '14778'
 ht-degree: 59%
 
 ---
@@ -2270,7 +2270,6 @@ ht-degree: 59%
       * [Ver el historial de ejecuciones de un escenario en Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Ver y resolver ejecuciones incompletas en Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [Ver y administrar escenarios bloqueados en [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-      * [Actualizar un módulo a una nueva versión en un [!DNL Adobe Workfront Fusion] escenario](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [Programar un escenario en Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Activar o desactivar un escenario en Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Añadir un filtro a un escenario en Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2304,7 +2303,7 @@ ht-degree: 59%
       * [Módulos Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [módulo de Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [módulos de Adobe Firefly](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
-      * [Módulos de eventos de Adobe I/O](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
+      * [Módulos de Adobe I/O Events](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Módulos de Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Módulos de Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Módulos de servicios de Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
