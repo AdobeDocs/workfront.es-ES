@@ -6,14 +6,14 @@ description: Si está creando un proyecto a través de Workfront Fusion y desea 
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 96%
 
 ---
 
-# Utilice Workfront Fusion para convertir un problema de Workfront en un proyecto que incluya flujos de trabajo de Adobe Experience Manager
+# Utilizar Workfront Fusion para convertir un problema de Workfront en un proyecto que incluya flujos de trabajo de Adobe Experience Manager
 
 Si está creando un proyecto a través de Workfront Fusion y desea incluir flujos de trabajo de Adobe Experience Manager en el proyecto, debe utilizar una configuración de módulo de Fusion específica, que se describe en este artículo.
 
@@ -30,7 +30,7 @@ Debe tener lo siguiente:
 
 <table>
   <tr>
-    <td><strong>plan Adobe Workfront*</strong></td>
+    <td><strong>Plan de Adobe Workfront*</strong></td>
     <td>Cualquiera</td>
   </tr>
   <tr>
@@ -38,12 +38,12 @@ Debe tener lo siguiente:
    <td>Solicitud o superior</td>
   </tr>
   <tr>
-   <td><strong>Product</strong></td>
+   <td><strong>Producto</strong></td>
    <td>
      <p><b>Adobe Experience Manager:</b></p>
      <ul>
        <li>
-         <p>Debe tener Assets Essentials as a Cloud Service de Experience Manager Assets y se le debe agregar al producto como usuario en el Admin Console.</p>
+         <p>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials, y debe estar añadido al producto como usuario en la Admin Console.</p>
        </li>
        <li>
         <p>Debe tener acceso de escritura al repositorio en Adobe Experience Manager.</p>
@@ -56,7 +56,7 @@ Debe tener lo siguiente:
          <p>Plan Select or Prime Workfront: su organización debe adquirir Adobe Workfront Fusion.</p>
        </li>
        <li> 
-         <p>Plan Workfront definitivo: Workfront Fusion está incluido.</p>
+         <p>Plan Ultimate Workfront: Workfront Fusion está incluido.</p>
        </li>
      </ul>
      <p>O</p>
@@ -64,11 +64,11 @@ Debe tener lo siguiente:
    </td>
   </tr>
   <tr>
-   <td><strong>Configuraciones de nivel de acceso*</strong>
+   <td><strong>Configuraciones del nivel de acceso*</strong>
    </td>
-   <td>Editar acceso a documentos
+   <td>Acceso de edición a documentos
      <p>
-       <strong>Nota: </strong>Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <strong>Crear o modificar niveles de acceso personalizados</strong>.
+       <strong>Nota: </strong>Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <strong>Creación o modificación de niveles de acceso personalizados</strong>.
      </p>
    </td>
   </tr>
@@ -78,9 +78,9 @@ Debe tener lo siguiente:
 
 ## Requisitos previos
 
-Antes de empezar,
+Antes de comenzar,
 
-* El administrador de Workfront debe configurar los flujos de trabajo en una integración de Adobe Experience Manager. Para obtener más información, consulte [Configuración de la as a Cloud Service de Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* El administrador de Workfront debe configurar los flujos de trabajo en una integración de Adobe Experience Manager. Para obtener más información, consulte [Configuración de la integración de Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 * Debe tener una plantilla de proyecto configurada con un flujo de trabajo de carpetas vinculadas de integración de Adobe Experience Manager.
 * Debe haber creado una aplicación OAuth en Workfront para configurar la conexión de este módulo.
 
@@ -88,19 +88,19 @@ Antes de empezar,
 
 ## Configuración del módulo
 
-En Workfront Fusion, si desea crear un proyecto que incluya flujos de trabajo de Adobe Experience Manager, debe utilizar el módulo Workfront > Varias acciones.
+En Workfront Fusion, si desea crear un proyecto que incluya flujos de trabajo de Adobe Experience Manager, debe utilizar el módulo Workfront > Acciones diversas.
 
-1. Agregue el módulo **Workfront** > **Misc Action** a su escenario.
+1. Añada el módulo **Workfront** > **Acciones diversas** a su escenario.
 1. En el campo **Conexión**, seleccione la conexión de Workfront que se conecta a la cuenta que utilizará este módulo.
 
-   Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
+   Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
 
-   Para obtener instrucciones sobre cómo crear el ID de cliente y el Secreto de cliente, deberá crear una conexión, consulte [Crear una aplicación de OAuth](#create-an-oauth-application) en este artículo.
+   Para obtener instrucciones sobre cómo crear el ID de cliente y el Secreto de cliente, deberá crear una conexión; consulte [Crear una aplicación de OAuth](#create-an-oauth-application) en este artículo.
 
 1. En el campo **Tipo de registro**, seleccione `Issue`.
 1. En el campo **Acción**, seleccione `convertToProject`.
 1. En el campo **ID**, escriba o asigne el ID del problema que está convirtiendo en un proyecto.
-1. Habilitar **Mostrar configuración avanzada**.
+1. Habilite **Mostrar ajustes avanzados**.
 1. Desplácese hasta la parte inferior del módulo y busque el campo **Proyecto (colección avanzada)**.
 1. Pegue el siguiente texto en el campo **Proyecto (colección avanzada)**.
 
@@ -113,23 +113,23 @@ En Workfront Fusion, si desea crear un proyecto que incluya flujos de trabajo de
    }
    ```
 
-1. Reemplazar `Folder tree ID here` por los identificadores de carpeta.
+1. Reemplace `Folder tree ID here` por los identificadores de carpeta.
 
-   Para localizar los identificadores del árbol de carpetas, consulte [Buscar identificadores del árbol de carpetas](#locate-folder-tree-ids) en este artículo.
+   Para localizar los identificadores del árbol de carpetas, consulte [Localizar los ID de árbol de carpetas](#locate-folder-tree-ids) en este artículo.
 
    Para utilizar más de un árbol de carpetas, separe los ID con una coma:
 
    `"aemNativeFolderTreeIDs": ["Folder tree ID here","Second folder tree ID here"],`
-1. Reemplazar `New project name here` con el nombre que tendrá el nuevo proyecto.
-1. Reemplace `Template ID here` por el identificador de la plantilla que está usando para el nuevo proyecto.
+1. Reemplace `New project name here` por el nombre que tendrá el nuevo proyecto.
+1. Reemplace `Template ID here` por el ID de la plantilla que usará para el nuevo proyecto.
 
-   Puede asignar el ID de plantilla de un módulo anterior (como un módulo de Workfront > Buscar ) o localizarlo en la dirección URL de la página de la plantilla en Workfront.
+   Puede asignar el ID de plantilla de un módulo anterior (como un módulo de Workfront > Buscar) o localizarlo en la dirección URL de la página de la plantilla de Workfront.
 
 1. Haga clic en **Aceptar** para guardar la configuración del módulo.
 
-## Buscar ID de árbol de carpetas
+## Localizar los ID de árbol de carpetas
 
-Para localizar los ID del árbol de carpetas:
+Para localizar los ID de árbol de carpetas:
 
 >[!NOTE]
 >
@@ -137,13 +137,13 @@ Para localizar los ID del árbol de carpetas:
 
 1. En Workfront, abra la plantilla que desee utilizar para este proyecto. Esta plantilla debe incluir la configuración de Adobe Experience Manager que desee utilizar para el proyecto.
 1. Abra las herramientas para desarrolladores del explorador.
-1. Abra la ficha **Red** en las herramientas para desarrolladores.
-1. En el cuadro **Filtro**, escriba `object-workflow`.
+1. Abra la pestaña **Red** en las herramientas para desarrolladores.
+1. En el cuadro **Filtro**, introduzca `object-workflow`.
 1. En la columna Nombre, haga clic en el ID alfanumérico que aparece.
 
-   ![Localizando ID de carpeta 1](assets/finding-folder-id-1.png)
+   ![Locating folder ID 1](assets/finding-folder-id-1.png)
 
-1. Haga clic en la ficha **Vista previa** a la derecha del identificador alfanumérico.
+1. Haga clic en la pestaña **Vista previa** a la derecha del ID alfanumérico.
 1. Abra las siguientes secciones contraídas:
    1. `data`
    1. `objectWorkflow`
@@ -153,19 +153,19 @@ Para localizar los ID del árbol de carpetas:
 
    Cada árbol de carpetas está representado por un número. 0 (cero) representa la primera carpeta de la lista, 1 representa la segunda, y así sucesivamente. Si la plantilla incluye solo un árbol de carpetas, es el número 0.
 
-1. Abra el árbol de carpetas que desee utilizar para el nuevo proyecto. Tome nota del valor del campo `_id`. Si desea usar más de un árbol de carpetas, anote todos los valores de campo de `_id` para los árboles de carpetas que desee usar.
+1. Abra el árbol de carpetas que desee utilizar para el nuevo proyecto. Tome nota del valor del campo `_id`. Si desea usar más de un árbol de carpetas, anote todos los valores de campo `_id` para los árboles de carpetas que desee usar.
 
-   ![Localizando ID de carpeta 2](assets/finding-folder-id-2.png)
+   ![Locating folder ID 2](assets/finding-folder-id-2.png)
 
-   Estos son los valores de `aemNativeFolderTreeIDs` que especificará en el campo **Proyecto (colección avanzada)** del módulo **Workfront** > **Acciones diversas** de Fusion.
+   Estos son los valores de `aemNativeFolderTreeIDs` que introducirá en el campo **Proyecto (colección avanzada)** del módulo de Fusion **Workfront** > **Acciones diversas**.
 
-## Creación de una aplicación de OAuth
+## Crear una aplicación de OAuth
 
-Debe configurar una aplicación OAuth en Workfront para la conexión de este módulo. Solo debe hacerlo una vez para una conexión Workfront determinada en Fusion.
+Debe configurar una aplicación de OAuth en Workfront para la conexión de este módulo. Solo debe hacerlo una vez para una conexión Workfront determinada en Fusion.
 
-1. En Workfront, empiece a crear una aplicación OAuth, tal como se describe en [Crear una aplicación OAuth2 con credenciales de usuario (Flujo de código de autorización)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) en el artículo Crear aplicaciones OAuth2 para integraciones de [!DNL Workfront].
-1. Copie el ID de cliente y el Secreto del cliente a una ubicación segura.
-1. En el campo **URI de redireccionamiento**, escriba lo siguiente:
+1. En Workfront, empiece a crear una aplicación de OAuth, tal como se describe en [Crear una aplicación de OAuth2 con credenciales de usuario (flujo de código de autorización)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) en el artículo Crear aplicaciones de OAuth2 para integraciones de [!DNL Workfront].
+1. Copie el ID de cliente y el secreto de cliente en una ubicación segura.
+1. En el campo **URI de redireccionamiento**, introduzca lo siguiente:
 
    ```
    http://app.workfrontfusion.com/oauth/cb/workfront-workfront
@@ -175,4 +175,4 @@ Debe configurar una aplicación OAuth en Workfront para la conexión de este mó
 
 Utilizará este ID de cliente y este secreto de cliente al configurar la conexión del módulo en Fusion.
 
-Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.
+Para obtener instrucciones sobre cómo crear una conexión, consulte [Conectar [!DNL Workfront] con [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) en el artículo Módulos de Workfront.

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
-ht-degree: 0%
+source-wordcount: '2985'
+ht-degree: 93%
 
 ---
 
@@ -51,15 +51,15 @@ La siguiente tabla muestra la cronología de la versión de Workfront Planning:
 
 ## Semana del 25 de diciembre de 2023
 
-### Buscar en la vista de cronología
+### Buscar en la vista de línea de tiempo
 
 Previsualización y producción: 27 de diciembre de 2023
 
-Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de escala de tiempo. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de línea de tiempo. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del 18 de diciembre de 2023
 
-### Agregar comentarios a los registros desde la página del registro
+### Añadir comentarios a los registros desde la página del registro
 
 Vista previa y producción para todos los clientes: 18 de diciembre de 2023
 
@@ -67,19 +67,19 @@ Vista previa y producción para todos los clientes: 18 de diciembre de 2023
 >
 >Las siguientes funciones estarán disponibles en el entorno de producción con la versión de enero de 2024:
 >
->* Buscar comentarios
+>* Búsqueda de comentarios
 >
 >* Copia y pegado de imágenes
 >
->* Arrastrar y soltar imágenes
+>* Función arrastrar y soltar imágenes
 >
 >Para obtener más información, consulte [Información general sobre la versión del primer trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-Ahora puede colaborar con otros en registros individuales agregando comentarios o respondiendo a otros mientras ve la página de un registro.
+Ahora puede colaborar con otros en registros individuales, añadiendo comentarios o respondiendo a otros mientras ve la página de un registro.
 
-Los registros de experiencia de comentarios para las capacidades de planificación coinciden con la nueva experiencia de comentarios para los objetos de Workfront.
+La experiencia de comentarios para las capacidades de planificación coincide con la nueva experiencia de comentarios para los objetos de Workfront.
 
-Para obtener más información, vea [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+Para obtener más información, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ### Conector de Workfront Planning para Adobe Workfront Fusion
 
@@ -89,9 +89,9 @@ Producción: 21 de diciembre de 2023
 >
 >Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con las funciones de Adobe Workfront Planning.
 >
->Para obtener más información, consulte [Información general de Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Para obtener más información, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
-Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de planificación. Con la nueva conexión Fusion, puede:
+Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de planificación. Con la nueva conexión Fusion, puede hacer lo siguiente:
 
 * Crear, leer, actualizar y eliminar registros
 
@@ -99,13 +99,13 @@ Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de p
 
 * Eliminar u obtener una lista de tipos de registros
 
-* Buscar registros
+* Búsqueda de registros
 
 * Realizar una llamada de API
 
-* Almacenar en déclencheur un escenario cuando se realiza un cambio en las capacidades de planificación
+* Activar un escenario cuando se realiza un cambio en las capacidades de planificación
 
-Para obtener más información, consulte [Módulos de Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Para obtener más información, consulte [Módulos de Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Semana del 11 de diciembre de 2023
 
@@ -131,13 +131,13 @@ Con esta mejora, observe lo siguiente:
 
 * El campo principal de una vista de tabla siempre está inmovilizado y no se puede mover, a menos que establezca otro campo como campo principal.
 
-* Puede cambiar el campo principal desde un encabezado de columna no principal.
+* Puede cambiar el campo principal de un encabezado de columna no principal.
 
 * Todas las vistas de tabla de un tipo de registro tienen el mismo campo principal que seleccione.
 
-Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-### Conexión de registros de capacidad de planificación con Adobe Experience Manager Assets
+### Conexión de registros de funcionalidad de planificación a Adobe Experience Manager Assets
 
 Versión de vista previa: 14 de diciembre de 2023
 
@@ -145,31 +145,31 @@ Versión de producción: 21 de diciembre de 2023
 
 >[!IMPORTANT]
 >
->La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de capacidades de Adobe Workfront Planning a Adobe Experience Manager Assets.
+>La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o Adobe Admin Console para poder conectar los registros de funcionalidades de Adobe Workfront Planning a Adobe Experience Manager Assets.
 >
->Si tiene preguntas acerca de la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Si tiene preguntas sobre la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Ahora puede establecer una conexión entre los tipos de registro de las capacidades de Adobe Workfront Planning y Adobe Experience Manager Assets.
+Ahora puede establecer una conexión entre los tipos de registro de funcionalidades de Adobe Workfront Planning y Adobe Experience Manager Assets.
 
-Después de establecer la conexión, esta actualización incluye las siguientes funciones:
+Después de establecer la conexión, esta actualización incluye la siguiente funcionalidad:
 
-* Puede vincular recursos y carpetas de Experience Manager a un registro de capacidad de planificación desde un repositorio específico de Experience Manager Assets al que tengan acceso. En este proceso, puede conectar los campos de recursos a los campos de capacidad de planificación.
+* Puede vincular recursos y carpetas de Experience Manager a un registro de funcionalidad de planificación desde un repositorio específico de Experience Manager Assets al que tengan acceso. En este proceso, puede conectar los campos de recursos a los campos de funcionalidad de planificación.
 
-* Los usuarios de la capacidad de planificación pueden ver el nombre de los recursos conectados, así como los valores de los campos conectados, en las capacidades de planificación.
+* Los usuarios de la funcionalidad de planificación pueden ver el nombre de los recursos conectados, así como los valores de los campos conectados, en las funcionalidades de la planificación.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
-* Puede hacer clic en el nombre del recurso en la vista de tabla del registro de capacidad de planificación desde el campo de registro conectado y ver una ventana emergente con la miniatura del recurso y varios campos clave. En la ventana emergente, puede navegar hasta el visualizador de recursos en Experience Manager y ver todos los detalles sobre él.
+* Puede hacer clic en el nombre de recurso en la vista de tabla del registro de funcionalidad de planificación desde el campo de registro conectado y ver una ventana emergente con la miniatura del recurso y varios campos clave. En la ventana emergente, puede navegar hasta el visor de recursos en Experience Manager y ver todos los detalles sobre él.
 
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semana del 4 de diciembre de 2023
 
 ### Copiar y pegar información de un campo a otro en la vista de tabla de funcionalidad de planificación para los campos de tipo Personas y de registro vinculado
 
-Previsualización y producción: 5 de diciembre de 2023
+Vista previa y producción: 5 de diciembre de 2023
 
 Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro. Esta funcionalidad ahora se admite para los siguientes tipos de campos:
 
@@ -178,29 +178,29 @@ Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una
 
 Tenga en cuenta lo siguiente:
 
-* La copia y el pegado de valores de campo de un campo a otro son compatibles con los campos que muestran varios valores.
+* Copiar y pegar valores de campo de un campo a otro es posible con los campos que muestran varios valores.
 
-* No puede copiar información de otro origen que no sea un campo de capacidad de planificación del mismo tipo que el campo en el que pega la información.
+* No puede copiar información de otro origen que no sea un campo de funcionalidad de planificación del mismo tipo que el campo en el que pega la información.
 
-* No se pueden copiar y pegar valores de campo para campos que se muestran en el área Detalles de un registro.
+* No se pueden copiar y pegar valores de campo para los campos que se muestran en el área Detalles de un registro.
 
 Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-Para obtener información acerca de los campos vinculados, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener información sobre los campos vinculados, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Semana del 27 de noviembre de 2023
 
-### Copiar y pegar información de un campo a otro en la vista de tabla de capacidades de planificación
+### Copiar y pegar información de un campo a otro en la vista de tabla de funcionalidad de planificación
 
-Previsualización y producción: 28 de noviembre de 2023
+Vista previa y producción: 28 de noviembre de 2023
 
-Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro de capacidad de planificación.
+Ahora puede copiar y pegar información de un campo a otro del mismo tipo en una vista de tabla de tipo de registro de funcionalidad de planificación.
 
 Tenga en cuenta lo siguiente:
 
-* No puede copiar información de otro origen que no sea un campo de capacidad de planificación del mismo tipo que el campo en el que pega la información.
+* No puede copiar información de otro origen que no sea un campo de funcionalidad de planificación del mismo tipo que el campo en el que pega la información.
 
-* No se pueden copiar y pegar valores de campo para campos que se muestran en el área Detalles de un registro.
+* No se pueden copiar y pegar valores de campo para los campos que se muestran en el área Detalles de un registro.
 
 * No puede copiar y pegar valores de campo para los siguientes tipos de campo:
 
@@ -218,9 +218,9 @@ Para obtener más información, consulte [Editar registros](/help/quicksilver/pl
 
 Previsualización y producción: 7 de noviembre de 2023
 
-Ahora puede agrupar registros en la vista de tabla de una página de tipo de registro. Puede agrupar por tres campos únicos en la interfaz de capacidad de planificación <!--checking into this for now: and by four fields when using the API-->.
+Ahora puede agrupar registros en la vista de tabla de una página de tipo de registro. Puede agrupar por tres campos únicos en la interfaz de funcionalidad de planificación<!--checking into this for now: and by four fields when using the API-->.
 
-Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 30 de octubre de 2023
 
@@ -228,7 +228,7 @@ Para obtener más información, vea [Administrar la vista de tabla](/help/quicks
 
 Previsualización y producción: 30 de octubre de 2023
 
-Hemos introducido los siguientes tipos de campos para los registros de capacidades de Adobe Workfront Planning:
+Hemos introducido los siguientes tipos de campos para los registros de funcionalidades de Adobe Workfront Planning:
 
 * Creado por
 
@@ -244,11 +244,11 @@ Para obtener más información, consulte [Crear campos](/help/quicksilver/planni
 
 ### Navegar a objetos de Workfront desde un registro de funciones de planificación
 
-Previsualización y producción: 31 de octubre de 2023
+Vista previa y producción: 31 de octubre de 2023
 
 Ahora puede abrir las páginas de objetos de Workfront desde las siguientes áreas de Workfront Planning:
 
-* La vista de tabla de registros de objetos de Workfront vinculados de solo lectura
+* La vista de tabla del registro de objetos de Workfront vinculados de solo lectura
 
 * La página de registro de objetos de Workfront de solo lectura
 
@@ -256,17 +256,17 @@ Para obtener más información, consulte [Conectar registros](/help/quicksilver/
 
 ### Se ha mejorado la navegación en la vista de tabla
 
-Previsualización y producción: 2 de noviembre de 2023
+Vista previa y producción: 2 de noviembre de 2023
 
 Hemos mejorado la navegación en la vista de tabla de una página de tipo de registro.
 
 A continuación se indican algunas de las mejoras:
 
-* Utilice la tecla TAB del teclado para desplazarse por las columnas y filas de la tabla
+* Utilice la tecla Tab del teclado para desplazarse por las columnas y filas de la tabla
 
-* Agregue un nuevo registro desde cualquier posición de columna. Antes de esta mejora, solo podía agregar un registro desde la primera columna.
+* Añada un nuevo registro desde cualquier posición de columna. Antes de esta mejora, solo podía añadir un registro desde la primera columna.
 
-* Utilice la combinación de teclado Mayús + Intro para agregar un nuevo registro (o fila) en la tabla.
+* Utilice la combinación de teclado Mayús + Intro para añadir un nuevo registro (o fila) en la tabla.
 
 Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
@@ -274,18 +274,18 @@ Para obtener más información, consulte [Conectar registros](/help/quicksilver/
 
 ### Nuevo tipo de campo Personas
 
-Previsualización y producción: 16 de octubre de 2023
+Vista previa y producción: 16 de octubre de 2023
 
-Ahora puede agregar un campo de tipo Personas a los tipos de registro de capacidades de planificación. Puede utilizar campos de tipo Personas para asociar usuarios existentes con un registro. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+Ahora puede añadir un campo de tipo Personas a los tipos de registro de funcionalidades de planificación. Puede utilizar campos de tipo Personas para asociar usuarios existentes con un registro. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ### Texto enriquecido: formato para campos de párrafo
 
-Previsualización y producción: 16 de octubre de 2023
+Vista previa y producción: 16 de octubre de 2023
 
-Se han agregado controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página de registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Se han añadido controles de formato de texto enriquecido para los campos de tipo párrafo. Puede dar formato a los campos de párrafo mediante Texto enriquecido en la vista Tabla de un tipo de registro o en la página de registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 
-### Registrar y agrupar códigos de color para la vista Cronología
+### Registro y agrupación de códigos de color para la vista Linea de tiempo
 
 Previsualización y producción: 19 de octubre de 2023
 
@@ -303,15 +303,15 @@ Las siguientes son opciones para los colores que puede elegir mostrar para las b
 
    * El color del tipo de registro
 
-   * El color de un campo que seleccione
+   * El color del campo que seleccione
 
    * El color de la agrupación
 
-   * Sin color (valor predeterminado)
+   * Sin color (predeterminado)
 
 Al hacer coincidir colores con un campo determinado, solo puede seleccionar campos con opciones codificadas por colores.
 
-Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Semana del 9 de octubre de 2023
 
@@ -319,7 +319,7 @@ Para obtener más información, vea [Administrar la vista de escala de tiempo](/
 
 Previsualización y producción: 9 de octubre de 2023
 
-Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Ahora puede buscar una palabra clave para encontrar rápidamente un registro en la vista de tabla. Puede utilizar palabras clave y caracteres especiales de cualquier campo visible en la pantalla para buscar un registro. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 18 de septiembre de 2023
 
@@ -327,7 +327,7 @@ Ahora puede buscar una palabra clave para encontrar rápidamente un registro en 
 
 Previsualización y producción: 20 de septiembre de 2023
 
-Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro. Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una página de tipo de registro. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 4 de septiembre de 2023
 
@@ -335,28 +335,28 @@ Ahora puede reordenar una o varias filas (o registros) en la vista Tabla de una 
 
 Previsualización y producción: 5 de septiembre de 2023
 
-Ahora puede conectar un registro de capacidad de planificación con empresas y grupos de Workfront. Primero debe crear una conexión entre un tipo de registro de capacidad de planificación y los tipos de objetos de empresas y grupos de Workfront. A continuación, puede conectar un único registro de capacidad de planificación del tipo de registro seleccionado a empresas y grupos de Workfront individuales.
+Ahora puede conectar un registro de capacidad de planificación con empresas y grupos de Workfront. Primero debe crear una conexión entre un tipo de registro de capacidad de planificación y los tipos de metas de empresas y grupos de Workfront. A continuación, puede conectar un único registro de capacidad de planificación del tipo de registro seleccionado a empresas y grupos de Workfront individuales.
 
 Tenga en cuenta lo siguiente:
 
-* Debe crear una conexión entre los tipos de registro de capacidades de planificación y los tipos de objeto Compañía y Grupo de Workfront para cada Workspace.
+* Debe crear una conexión entre los tipos de registro de capacidades de planificación y los tipos de objeto Compañía y Grupo de Workfront para cada espacio de trabajo.
 
 * No puede conectar tipos de registros de taxonomía con tipos de objetos de Workfront.
 
 * Puede conectar varios registros de capacidad de planificación a la misma compañía o grupo de Workfront, y varias compañías o grupos al mismo registro de capacidad de planificación.
 
-* No se pueden editar compañías o grupos en las funciones de planificación. Todos los cambios de empresa o grupo realizados en Workfront se pueden ver en las funciones de planificación, al revisar las funciones de planificación y los registros vinculados.
+* No se pueden editar compañías o grupos en las funciones de planificación. Todos los cambios de empresa o grupo realizados en Workfront se pueden ver en las funciones de planificación al revisar las funciones de planificación y los registros vinculados.
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 
 ### Compatibilidad con URL para campos de texto de una sola línea
 
 Previsualización y producción: 7 de septiembre de 2023
 
-Para obtener una mejor visibilidad al trabajar con vínculos en la vista de tabla, se ha agregado compatibilidad con direcciones URL en campos de texto de una sola línea. El uso de direcciones URL a otros sitios web o unidades externas al actualizar un campo de texto de una sola línea, ahora las identifica como vínculos y le permite hacer clic en ellas desde la tabla. Antes de esta mejora, los vínculos se mostraban como texto.
+Para obtener una mejor visibilidad al trabajar con vínculos en la vista de tabla, se ha añadido compatibilidad con direcciones URL en campos de texto de una sola línea. El uso de direcciones URL en otros sitios web o unidades externas al actualizar un campo de texto de una sola línea, ahora las identifica como vínculos y le permite hacer clic en ellas desde la tabla. Antes de esta mejora, los vínculos se mostraban como texto.
 
 ## Semana del 28 de agosto de 2023
 
@@ -368,7 +368,7 @@ Para mostrar la información correcta en un conjunto determinado de registros, e
 
 Puede ocultar o mostrar campos individuales de cada encabezado de las columnas de campo, o bien puede administrar todos los campos del tipo de registro desde una configuración de la barra de herramientas de la vista de tabla.
 
-Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Semana del 21 de agosto de 2023
 
@@ -376,113 +376,113 @@ Para obtener más información, vea [Administrar la vista de tabla](/help/quicks
 
 Previsualización y producción: 24 de agosto de 2023
 
-Ahora puede conectar un registro de capacidades de planificación con programas y portafolios de Workfront. Debe crear una conexión entre un tipo de registro de capacidades de planificación y un programa o portafolio que cree un campo conectado. A continuación, puede conectar cualquier registro de funciones de planificación de todos los demás tipos de registro del mismo espacio de trabajo a programas y portafolios específicos, lo que crea un tipo de registro de sólo lectura de Portfolio de Workfront o Programa Workfront en el mismo espacio de trabajo. Tenga en cuenta lo siguiente:
+Ahora puede conectar un registro de funciones de planificación con programas y portafolios de Workfront. Debe crear una conexión entre un tipo de registro de funciones de planificación y un programa o portafolio que cree un campo conectado. A continuación, puede conectar cualquier registro de funciones de planificación de todos los demás tipos de registro del mismo espacio de trabajo a programas y portafolios específicos, lo que crea un tipo de registro de solo lectura de portafolios de Workfront o Programa Workfront en el mismo espacio de trabajo. Tenga en cuenta lo siguiente:
 
-* Los tipos de registros del conector de Workfront son únicos para cada espacio de trabajo.
-* Puede conectar varios registros de capacidades de planificación al mismo programa o portafolio de Workfront, y varios programas y portafolios al mismo registro de capacidades de planificación.
-* No puede editar programas y portafolios en las funciones de planificación. Todos los cambios de programas y portafolios realizados en Workfront se pueden ver en las funciones de planificación al revisar los registros vinculados.
+* Los tipos de registros de conector de Workfront son únicos en cada espacio de trabajo.
+* Puede conectar varios registros de funcionalidades de planificación al mismo programa o portafolio de Workfront, y varios programas y portafolios al mismo registro de funcionalidades de planificación.
+* No puede editar programas y portafolios en las funcionalidades de planificación. Todos los cambios de programas y portafolios realizados en Workfront se pueden ver en las funcionalidades de planificación al revisar los registros vinculados.
 
 ### Nueva funcionalidad de ordenación para la vista de tabla
 
 Previsualización y producción: 24 de agosto de 2023
 
 Ahora puede ordenar registros en la vista de tabla de una página de tipo de registro.
-Ya están disponibles las siguientes funciones:
+Ya están disponibles las siguientes funcionalidades:
 
-* Ordenación en el nivel de tabla, donde puede ordenar por varios campos al mismo tiempo.
-* Ordenación en el nivel de columna o de campo, donde puede ordenar por un campo individual a la vez.
+* Ordenación a nivel de tabla, donde puede ordenar por varios campos al mismo tiempo.
+* Ordenación a nivel de columna o de campo, donde puede ordenar por un campo individual a la vez.
 
-### Mejoras en la vista de la cronología: nueva apariencia para las agrupaciones y el conmutador de vista Compacto/ Estándar
+### Mejoras en la vista de la línea de tiempo: nuevo aspecto para las agrupaciones y el conmutador de vista Compacto/Estándar
 
 Previsualización y producción: 24 de agosto de 2023
 
-Hemos introducido las siguientes mejoras en la vista de cronología:
+Hemos introducido las siguientes mejoras en la vista de línea de tiempo:
 
-* Ahora puede mostrar la vista de la cronología en los modos siguientes:
+* Ahora puede visualizar la vista de línea de tiempo en los modos siguientes:
 
    * Estándar: muestra los registros en líneas independientes.
    * Compacto: muestra los registros cuyas fechas no se cruzan en la misma línea.
 
-* Hemos cambiado el aspecto de las líneas de agrupación en la vista de la cronología para que se muestren encima de la cronología de los registros que contienen. Antes de esta mejora, las líneas de agrupación se mostraban en toda la longitud de la cronología.
+* Hemos cambiado el aspecto de las líneas de agrupación en la vista de la línea de tiempo para que se muestren encima de la línea de tiempo de los registros que contienen. Antes de esta mejora, las líneas de agrupación se mostraban en toda la longitud de la línea de tiempo
 
 ## Semana del 14 de agosto de 2023
 
-### Reordenar columnas en la vista de tabla
+### Reordenación de columnas en la vista de tabla
 
 Ahora puede reordenar las columnas en la vista de tabla. Tenga en cuenta lo siguiente al reordenar las columnas:
 
 * El campo Nombre es siempre el primer campo de la vista de tabla de una página de tipo de registro
 
-* No se puede mover el campo Nombre a otra posición
+* No puede mover el campo Nombre a otra posición
 
-* El campo Nombre está bloqueado y no forma parte del desplazamiento horizontal
+* El campo Nombre está inmovilizado y no forma parte del desplazamiento horizontal
 
-### Desplazamiento horizontal para vista de escala de tiempo
+### Desplazamiento horizontal para la vista de línea de tiempo
 
-Ahora puede desplazarse horizontalmente en la vista de la cronología de un tipo de registro.
+Ahora puede desplazarse horizontalmente en la vista de la línea de tiempo de un tipo de registro.
 
 ## Semana del 7 de agosto de 2023
 
-### Importar tipos de registros desde un archivo de Excel
+### Importación de tipos de registros desde un archivo de Excel
 
-Previsualización y producción: 10 de agosto de 2023
+Vista previa y producción: 10 de agosto de 2023
 
 Ahora puede importar un archivo de Excel para crear tipos de registros en un espacio de trabajo. Las hojas del archivo se convierten en los tipos de registro, y las columnas del archivo se convierten en sus respectivos campos.
 
 ### Experiencia mejorada para conectar tipos de registros y proyectos
 
-Previsualización y producción: 10 de agosto de 2023
+Vista previa y producción: 10 de agosto de 2023
 
-Hemos mejorado la forma de conectar los tipos de registros, incluida la conexión a proyectos de Workfront. Como parte de esta mejora, hemos realizado los siguientes cambios al agregar un campo para un tipo de registro desde la vista de tabla:
+Hemos mejorado la forma de conectar los tipos de registros, incluida la conexión a proyectos de Workfront. Como parte de esta mejora, hemos realizado los siguientes cambios al añadir un campo para un tipo de registro desde la vista de tabla:
 
-* Se ha eliminado el campo Relationship-type de la pestaña &quot;New field&quot;.
+* Se ha eliminado el campo de tipo Relación de la pestaña &quot;Nuevo campo&quot;.
 
-* Añada una pestaña &quot;Nueva conexión&quot; donde puede seleccionar directamente el tipo de registro u objeto al que desea conectarse, lo que elimina la necesidad de un campo de tipo Relación.
+* Añada una pestaña &quot;Nueva conexión&quot; en la que puede seleccionar directamente el tipo de registro u objeto al que desea conectarse, lo que elimina la necesidad de un campo de tipo Relación.
 
 ## Semana del 10 de julio de 2023
 
-### Actualizar el aspecto de un tipo de registro
+### Actualización del aspecto de un tipo de registro
 
-Previsualización y producción: 13 de julio de 2023
+Vista previa y producción: 13 de julio de 2023
 
 Ahora puede seleccionar un icono personalizado para un tipo de registro y un color personalizado para el icono de tipo de registro.
 
-### Nuevo tipo de campo Casilla
+### Nuevo tipo de campo Casilla de verificación
 
-Previsualización y producción: 13 de julio de 2023
+Vista previa y producción: 13 de julio de 2023
 
-Ahora puede agregar un tipo de campo Casilla de verificación a los tipos de registro de capacidad de planificación. Puede utilizar un campo de tipo casilla de verificación para agregar una sola opción de casilla de verificación a un registro. Puede utilizar este campo para indicar un atributo o estado específico para ese registro en particular. Por ejemplo, puede utilizarlo como indicador para rastrear la finalización, la aprobación o cualquier otro atributo binario de cada registro.
+Ahora puede añadir un tipo de campo Casilla de verificación a los tipos de registro de funcionalidad de planificación. Puede utilizar un campo de tipo Casilla de verificación para añadir una sola opción de casilla de verificación a un registro. Puede utilizar este campo para indicar un atributo o estado específico para ese registro en particular. Por ejemplo, puede utilizarlo como indicador para realizar un seguimiento de la finalización, la aprobación o cualquier otro atributo binario de cada registro.
 
 ## Semana del 26 de junio de 2023
 
 ### Activación rápida del menú contextual en una tabla
 
-Previsualización y producción: 28 de junio de 2023
+Vista previa y producción: 28 de junio de 2023
 
-Hemos habilitado la capacidad de activar el menú contextual haciendo clic con el botón derecho en cualquier lugar de una fila de registro, cuando se visualizan los registros en la vista de tabla o en un tipo de registro. Ahora puede ver, eliminar o copiar rápidamente un vínculo a la página del registro cuando tiene acceso al menú contextual desde cualquier lugar de la vista de tabla de un tipo de registro. Antes de esta mejora, el menú contextual solo era accesible desde el menú Más en la columna Nombre de un registro.
+Hemos habilitado la capacidad de activar el menú contextual haciendo clic con el botón derecho en cualquier lugar de una fila de registro, al visualizar los registros en la vista de tabla o en un tipo de registro. Ahora se puede ver, eliminar o copiar rápidamente un vínculo a la página del registro al acceder al menú contextual desde cualquier lugar de la vista de tabla de un tipo de registro. Antes de esta mejora, al menú contextual solo se podía acceder desde el menú Más de la columna Nombre de un registro.
 
 ## Semana del 19 de junio de 2023
 
 ### Los nombres de los campos de registro son únicos
 
-Ahora hemos introducido el requisito de que los nombres de campo de un tipo de registro de capacidad de planificación deben tener nombres únicos. Los campos que pertenecen a diferentes tipos de registro no tienen por qué tener nombres únicos.
+Ahora hemos introducido el requisito de que los nombres de campo de un tipo de registro de funcionalidades de planificación deben tener nombres únicos. Los campos que pertenecen a diferentes tipos de registro no tienen por qué tener nombres únicos.
 
 ## Semana del 5 de junio de 2023
 
-### Conexión de registros de capacidades de Adobe Workfront Planning con proyectos de Workfront
+### Conexión de registros de funcionalidades de Adobe Workfront Planning con proyectos de Workfront
 
-Previsualización y producción: 5 de junio de 2023
+Vista previa y producción: 5 de junio de 2023
 
-Ahora puede conectar un registro de capacidades de planificación con proyectos de Workfront. Debe crear un tipo de registro de capacidades de planificación de conector para establecer la conexión entre los registros de capacidades de planificación y los proyectos de Workfront. A continuación, puede conectar cualquier registro de capacidades de planificación de todos los demás tipos de registro al registro del conector mediante el campo Relación. Tenga en cuenta lo siguiente:
+Ahora puede conectar un registro de funcionalidades de planificación con proyectos de Workfront. Debe crear un tipo de registro de funcionalidades de planificación del conector para establecer la conexión entre los registros de funcionalidades de planificación y los proyectos de Workfront. A continuación, puede conectar cualquier registro de funcionalidades de planificación de los restantes tipos de registro al registro del conector mediante el campo Relación. Tenga en cuenta lo siguiente:
 
-* Debe tener un tipo de registro de conector para Workfront para cada Workspace.
-* Puede conectar varios registros de capacidades de planificación al mismo proyecto de Workfront y varios proyectos al mismo registro de capacidades de planificación.
-* No puede editar proyectos en las funciones de planificación. Todos los cambios de proyecto realizados en Workfront se pueden ver en las funciones de planificación al revisar los registros vinculados.
+* Debe tener un tipo de registro de conector de Workfront para cada espacio de trabajo.
+* Puede conectar varios registros de funcionalidades de planificación al mismo proyecto de Workfront, y varios proyectos al mismo registro de funcionalidades de planificación.
+* No se pueden editar proyectos en las funcionalidades de planificación. Todos los cambios de proyectos realizados en Workfront se pueden ver en las funcionalidades de planificación al revisar los registros vinculados.
 
 ## Semana del 29 de mayo de 2023
 
-### Requisito de dos fechas para crear una vista Cronología
+### Requisito de dos fechas para crear una vista Escala de tiempo
 
-Previsualización y producción: 31 de mayo de 2023
+Vista previa y producción: 31 de mayo de 2023
 
-Debe tener al menos dos campos de fecha asociados a un tipo de registro para crear una vista Línea de tiempo.
+Debe tener al menos dos campos de fecha asociados a un tipo de registro para crear una vista Escala de tiempo.
