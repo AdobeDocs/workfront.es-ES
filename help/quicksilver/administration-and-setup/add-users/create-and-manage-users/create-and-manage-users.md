@@ -1,5 +1,5 @@
 ---
-title: "Crear y administrar usuarios: índice de artículos"
+title: 'Crear y administrar usuarios: índice de artículos'
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '103'
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+* [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
 * [Importar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)
 * [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 * [Editar perfiles de usuario de forma masiva](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
@@ -33,9 +33,9 @@ Esta sección contiene los siguientes artículos:
 * [Cambiar un nombre de usuario](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
 * [Cambiar la contraseña de un usuario aprovisionado automáticamente](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
 * [Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
-* [Desactivar o reactivar un usuario](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
+* [Desactivar o volver a activar un usuario](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
 * [Registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [Ver y exportar registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Ver información de inicio de sesión del usuario](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Administración de administradores de sistemas en Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Administración de usuarios en Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

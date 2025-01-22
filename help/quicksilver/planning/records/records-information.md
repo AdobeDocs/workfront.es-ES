@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 89%
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
@@ -27,6 +27,7 @@ Después de crear tipos de registros en Adobe Workfront Planning, puede crear re
 En los siguientes artículos se describe cómo crear y administrar registros y su información en Adobe Workfront Planning:
 
 * [Crear registros](/help/quicksilver/planning/records/create-records.md)
+* [Creación de objetos de Workfront desde Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Editar registros](/help/quicksilver/planning/records/edit-records.md)
 * [Eliminar registros](/help/quicksilver/planning/records/delete-records.md)
 * [Restauración de registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md)

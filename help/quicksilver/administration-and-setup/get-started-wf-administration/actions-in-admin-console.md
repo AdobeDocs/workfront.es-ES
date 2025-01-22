@@ -3,35 +3,35 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)
-description: Si su organización se ha incorporado a Adobe Business Platform, los usuarios utilizan Adobe Business Platform para acceder a Adobe Workfront. Esto significa que la administración de usuarios se realiza en gran medida a través de Adobe Admin Console y que el inicio de sesión único (SSO) se gestiona a través de Adobe Business Platform en lugar de a través de Workfront. Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración difieren en función de si su organización se ha incorporado a Adobe Business Platform. Este artículo enumera los procedimientos que deben gestionarse de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
+description: Si su organización se ha incorporado a Adobe Business Platform, los usuarios utilizan Adobe Business Platform para acceder a Adobe Workfront. Esto significa que la administración de usuarios se realiza en gran medida a través de Adobe Admin Console y que el inicio de sesión único (SSO) se gestiona a través de Adobe Business Platform en lugar de hacerlo a través de Workfront. Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración difieren en función de si su organización se ha incorporado a Adobe Business Platform. En este artículo se enumeran los procedimientos que deben gestionarse de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: '405'
+ht-degree: 96%
 
 ---
 
 # Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)
 
-Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración pueden diferir en función de si su organización se ha incorporado a Adobe Business Platform. Este artículo enumera los procedimientos que se gestionan de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
+Como administrador de Adobe Workfront, sus responsabilidades y procedimientos de administración pueden diferir en función de si su organización se ha incorporado a Adobe Business Platform. En este artículo se enumeran los procedimientos que se gestionan de forma diferente y los vínculos a las instrucciones tanto para Workfront como para Adobe Admin Console.
 
 Si su organización se ha incorporado a Adobe Business Platform, los usuarios utilizan Adobe Business Platform para acceder a Adobe Workfront. Esto significa lo siguiente:
 
 * Los administradores del sistema se crean mediante Adobe Admin Console
-* La renovación de un certificado SAML se administra mediante Adobe Admin Console.
-* El inicio de sesión único (SSO) se administra mediante Adobe Business Platform en lugar de mediante Workfront
+* La renovación de un certificado SAML se gestiona mediante Adobe Admin Console.
+* El inicio de sesión único (SSO) se gestiona mediante Adobe Business Platform en lugar de mediante Workfront
 
 ## Creación de administradores del sistema de Workfront en Adobe Admin Console
 
 >[!NOTE]
 >
->Se recomienda añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible agregar usuarios en Adobe Admin Console, pero agregarlos en Workfront le permite establecer su nivel de acceso al crearlos, lo que le puede ahorrar tiempo.
+>Recomendamos añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible añadir usuarios en Adobe Admin Console, pero añadirlos en Workfront le permite establecer su nivel de acceso mientras los crear, lo que le puede ahorrar tiempo.
 
-Para obtener instrucciones sobre cómo crear administradores de sistemas de Workfront, consulte [Administrar administradores de sistemas en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Para obtener instrucciones sobre cómo crear administradores de sistemas de Workfront, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ Para obtener instrucciones sobre cómo crear administradores de sistemas de Work
 
 ## Renovación del certificado SAML
 
-Para obtener instrucciones sobre cómo renovar el certificado SAML en Adobe Admin Console, consulte la sección &quot;La firma digital en la respuesta SAML no validó...&quot; en [Federated ID de resolución de problemas](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+Para obtener instrucciones sobre la renovación del certificado SAML en Adobe Admin Console, consulte la sección &quot;No se ha validado la firma digital en la respuesta SAML...&quot; en [Solución de problemas de Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=es)
 
 <!--
 
@@ -186,9 +186,9 @@ Dado que Adobe Business Platform controla el inicio de sesión único (SSO) para
 
 
 * [Configurar Adobe Workfront con SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [Configurar Adobe Workfront con SAML 2.0 mediante ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [Configurar Adobe Workfront con SAML 2.0 usando ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Desactivar el inicio de sesión único en Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
 * [Actualizar metadatos de SAML 2.0 en su proveedor de identidad](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Actualizar usuarios para el inicio de sesión único](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Configurar directivas de contraseña para la autenticación](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Configurar las preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [Actualizar usuarios para inicio de sesión único](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [Configurar políticas de contraseña para la autenticación](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [Configurar preferencias de seguridad del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
