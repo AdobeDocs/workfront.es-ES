@@ -6,9 +6,9 @@ description: Puede añadir aprobadores o revisores adicionales a un documento qu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '610'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,9 @@ Las nuevas aprobaciones de documentos son un rediseño integral del proceso de a
 
 * Los botones de decisión de aprobación de documento no están disponibles en el visor de pruebas. Las decisiones se pueden tomar en el resumen del documento, en los widgets de inicio de Workfront o en la página Detalles del documento.
 * Los participantes en la aprobación del documento se muestran en el resumen del documento, no en la pestaña del flujo de trabajo de revisión.
-* Las nuevas aprobaciones de documentos no son compatibles con la herramienta de informes actual. El widget de todas las aprobaciones disponible en los nuevos paneles de inicio y lienzo proporciona los siguientes detalles sobre las nuevas aprobaciones de documentos:
+* Las nuevas aprobaciones de documentos no son compatibles con la herramienta de informes actual.
+
+  Puede unirse a la nueva versión beta de Paneles de lienzo para [Crear un tablero de informe para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), o bien puede usar el widget Todas las aprobaciones disponible en los nuevos Paneles de inicio y lienzo que proporciona los siguientes detalles sobre las nuevas aprobaciones de documentos:
 
    * Aprobaciones por decisión
    * Tiempo medio de aprobación
