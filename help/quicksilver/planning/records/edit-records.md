@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 19%
+source-wordcount: '2007'
+ht-degree: 18%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 # Editar registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * Copie una o varias celdas de un origen externo (por ejemplo, un archivo de Excel) y péguelas en uno de los siguientes tipos de campos:
+
+      * Campos de conexión de Workfront Planning.
+      * Campos de personas. Solo se admiten campos con un valor.
+
+     No se puede copiar información de un origen externo y pegarla en ningún otro tipo de campo, incluidos los campos de conexión de Workfront o de AEM Assets.
+   </div>
+
    >[!NOTE]
    >
    >Tenga en cuenta lo siguiente:
@@ -254,8 +264,7 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
    >* No se pueden copiar y pegar valores de campo en la página de registro. Esta funcionalidad solo se admite en la vista de tabla de un tipo de registro.
    >* No puede copiar y pegar valores de campo para los siguientes tipos de campo:
    >
-   >
-   >    * Campos vinculados (o campos de búsqueda) que se crean conectando tipos de registros. Puede copiar y pegar campos de registro vinculados. Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Campos de búsqueda que se crean al conectar tipos de registros. Puede copiar y pegar campos de registro vinculados. Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Campos de los siguientes tipos: Creado por, Fecha de creación, Última modificación por, Fecha de última modificación
 
 1. (Opcional) Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la edición o copiar y pegar la información de los registros:
