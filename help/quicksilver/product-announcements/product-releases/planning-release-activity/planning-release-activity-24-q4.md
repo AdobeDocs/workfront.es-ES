@@ -7,36 +7,22 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 0%
+source-wordcount: '380'
+ht-degree: 18%
 
 ---
 
 # Actividad de la versión del cuarto trimestre de 2024 para Adobe Workfront Planning
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->La información de este artículo hace referencia a Adobe Workfront Planning, una nueva oferta de Adobe Workfront.
->
->Debe adquirir un plan de Workfront Planning, además de un plan de Workfront, para poder acceder y utilizar las funcionalidades de Workfront Planning.
->
->Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso](/help/quicksilver/planning/access/access-overview.md).
->Para obtener una descripción general de Workfront Planning, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
-
 Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del cuarto trimestre de 2024.
 
 Para obtener información sobre las características incluidas en esta versión, consulte [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md).
 
-
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-Para obtener una lista de todas las características publicadas para Adobe Workfront Planning después de la publicación de disponibilidad general del 28 de agosto de 2024, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Mostrar opciones para registros conectados
 
@@ -52,7 +38,7 @@ Hemos rediseñado el área de apariencia de registro al conectar tipos de regist
 
 Antes de esta mejora, podía seleccionar o deseleccionar la opción Título para mostrar el nombre de los registros o mostrar solo el icono o la miniatura. Se ha eliminado la opción Título.
 
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Exportar detalles del registro al PDF
 
@@ -70,9 +56,9 @@ Para obtener más información, vea [Exportar los detalles de un registro](/help
 
 >[!NOTE]
 >
->Versión preliminar: 28 de agosto de 2024; versión de producción para todos los clientes: 28 de agosto de 2024
+>Versión preliminar: jueves, 28 de agosto de 2024; versión de producción para todos los clientes: jueves, 28 de agosto de 2024
 
-Adobe Workfront Planning es una nueva oferta de Adobe Workfront. El propósito de Workfront Planning es desbloquear la visibilidad completa de los detalles operativos de una organización y responder preguntas comerciales críticas en cada fase del ciclo de vida de la administración del trabajo.
+Adobe Workfront Planning es una nueva oferta de Adobe Workfront. El objetivo de Workfront Planning es desbloquear la visibilidad completa de los detalles operativos de una organización y responder a preguntas comerciales críticas en cada fase del ciclo de vida de la administración del trabajo.
 
 A continuación se indican algunas de las funciones principales de Adobe Workfront Planning:
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '7488'
-ht-degree: 0%
+source-wordcount: '7392'
+ht-degree: 9%
 
 ---
 
@@ -18,22 +18,9 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
->[!IMPORTANT]
->
-><span class="preview">Este artículo enumera las características que se lanzaron durante la fase inicial de Workfront Planning en 2024, antes de la publicación general el 28 de agosto de 2024.</span>
->
->La información de este artículo hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
->
->Debe adquirir un plan de Workfront Planning, además de un plan de Workfront, para poder acceder y utilizar las funcionalidades de Workfront Planning.
->
->Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
->Para obtener una descripción general de Workfront Planning, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
+Este artículo enumera las funciones que se lanzaron durante la fase inicial de Workfront Planning en 2024, antes del lanzamiento general de disponibilidad el 28 de agosto de 2024.
 
-Para obtener más información sobre las versiones de Workfront Planning, consulte los siguientes artículos:
-
-* [Actividad de la versión de Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) para las funciones lanzadas durante la versión beta, durante 2023.
-* [Actividad de la versión de Adobe Workfront Planning: índice de artículos](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) para las características que se están publicando en Workfront Planning después de que se publicara de forma general el 28 de agosto de 2024.
+Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Cronología de la versión de Workfront Planning
 
@@ -51,7 +38,7 @@ La siguiente tabla muestra la cronología de la versión de Workfront Planning:
 
 <!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production. -->
 
-## Semana del 26 de agosto de 2024
+## Semana del martes, 26 de agosto de 2024
 
 ### Disponibilidad general de Adobe Workfront Planning
 
@@ -69,7 +56,7 @@ Con el lanzamiento de Workfront Planning a disponibilidad general, las funciones
 
 ### Nuevos paquetes de Adobe Workfront Planning y limitaciones de objetos
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 Hemos implementado nuevas limitaciones para los objetos de Workfront Planning, de acuerdo con los dos paquetes siguientes:
 
@@ -93,7 +80,7 @@ Para obtener más información, consulte [Resumen de la limitación de objetos d
 
 ### Habilitar notificaciones de Workfront Planning para solicitudes de acceso
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 Al solicitar acceso a un espacio de trabajo o a una vista, el usuario desde el que se solicita acceso recibe una notificación por correo electrónico sobre la solicitud. Una vez concedida la solicitud, recibirá una notificación por correo electrónico con una confirmación de que se ha aprobado.
 
@@ -108,7 +95,7 @@ Para obtener más información, consulte [Solicitar permisos para una vista o un
 
 ### Definir el formato para los valores de campo de fórmula
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 Como administrador de espacio de trabajo, ahora puede definir el formato para los valores mostrados en un campo de fórmula. Puede elegir entre los siguientes formatos:
 
@@ -123,7 +110,7 @@ Para obtener más información, consulte la sección &quot;Fórmula&quot; del ar
 
 ### Indicadores de presencia en tiempo real en una vista de registros
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 Para comprender qué información editan otros usuarios al trabajar en una vista, hemos introducido indicadores de presencia en tiempo real para esta área de la planificación de Workfront.
 
@@ -156,18 +143,18 @@ Para obtener más información, consulte [Crear y administrar un formulario de s
 
 ### Se puede hacer referencia a los registros de Workfront Planning a través de un campo externo
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 Con el lanzamiento de la API pública de Workfront Planning, ahora puede hacer referencia a los registros de Planning en campos externos en formularios personalizados de Workfront.
 
 Para obtener más información, consulte los siguientes artículos:
 
 * [Ejemplos del campo de búsqueda externa en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-* [Conceptos básicos de API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
 
 ### Menú Nueva configuración en la vista Calendario
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 Hay una nueva opción de configuración con la que puede personalizar el aspecto de las barras de registros en la vista Calendario. Puede hacer lo siguiente:
 
@@ -179,11 +166,11 @@ Hay una nueva opción de configuración con la que puede personalizar el aspecto
 
    * El color del tipo de registro
 
-   * El color de un campo que seleccione
+   * El color del campo que seleccione
 
    * El color de la agrupación
 
-   * Sin color (valor predeterminado)
+   * Sin color (predeterminado)
 
 Al hacer coincidir colores con un campo determinado, solo puede seleccionar campos con opciones codificadas por colores.
 
@@ -191,7 +178,7 @@ Para obtener más información, consulte [Administrar la vista de calendario](/h
 
 ### El Asistente de IA se ha vuelto a habilitar para Workfront Planning
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 El Asistente de IA de Workfront se ha vuelto a habilitar para el área de Workfront Planning.
 
@@ -199,11 +186,11 @@ Para obtener más información sobre el Asistente de IA de Workfront Planning, c
 
 ### Funcionalidades de creación de informes para Workfront Planning con el panel de lienzo
 
-Previsualización y producción: 28 de agosto de 2024
+Vista previa y producción: jueves, 28 de agosto de 2024
 
 Ahora puede ver la información de Workfront Planning en un informe mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
-## Semana del 19 de agosto de 2024
+## Semana del martes, 19 de agosto de 2024
 
 ### Mejoras en la página principal de Workfront Planning
 
@@ -219,7 +206,7 @@ Hemos realizado las siguientes mejoras en la página principal del área de Plan
 
 * Hemos añadido los vínculos &quot;Mostrar todo&quot; y &quot;Mostrar menos&quot; para controlar el número de espacios de trabajo que se muestran en la página principal. Cuando hay más de dos filas de tarjetas de espacio de trabajo enumeradas en la página principal, se muestra el vínculo Mostrar todo para permitirle mostrar todos los espacios de trabajo, solo si es necesario.
 
-Para obtener más información, consulte [Editar espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Para obtener más información, consulte [Edición de espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 ### Conectar tipos de registros en varios espacios de trabajo
 
@@ -251,7 +238,7 @@ No es una jerarquía real (ningún objeto es superior a otro). Es una jerarquía
 
 Puede mostrar hasta 5 niveles de tipos de registros en la misma escala de tiempo para un registro.
 
-Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Nueva pestaña Conexiones en el área de detalles del registro
 
@@ -320,7 +307,7 @@ Los nuevos tipos de conexión no son compatibles con las siguientes conexiones d
 
 Para obtener más información, consulte [Información general sobre los tipos de registros de Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-## Semana del 12 de agosto de 2024
+## Semana del martes, 12 de agosto de 2024
 
 ### El Asistente de IA se ha eliminado temporalmente
 
@@ -337,9 +324,9 @@ Vista previa: por determinar
 
 Ahora, cuando abre una vista de escala de tiempo y se desplaza a una fecha del pasado o del futuro, la fecha que seleccione se conserva después de actualizar la página. Antes de esta mejora, la página mostraba la fecha de hoy.
 
-Para obtener más información, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Semana del 29 de julio de 2024
+## Semana del martes, 29 de julio de 2024
 
 ### Ya está disponible la API pública de Adobe Workfront Planning
 
@@ -382,13 +369,13 @@ Esta actualización incluye las siguientes funciones:
 
 * Comparta la vista de una página de tipo registro con un vínculo público que caduque en una fecha específica.
 
-* Cualquier persona que no pertenezca a su empresa puede acceder al vínculo compartido durante un tiempo limitado, indicado por la fecha de caducidad. No se requiere inicio de sesión para ver la vista compartida.
+* Cualquier persona que no pertenezca a su empresa puede acceder al vínculo compartido durante un tiempo limitado, indicado por la fecha de caducidad. No se requiere iniciar sesión para ver la vista compartida.
 
 * Las personas que acceden a la vista desde el vínculo público no pueden crear otras vistas, editar la vista compartida ni agregar, eliminar o editar la información de registro.
 
 Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
-## Semana del 8 de julio de 2024
+## Semana del martes, 08 de julio de 2024
 
 ### Abrir objeto conectado directamente en Workfront
 
@@ -422,19 +409,19 @@ Ahora puede ordenar y agrupar registros en cualquier vista utilizando campos de 
 
 Si el campo de búsqueda contiene varios valores, tenga en cuenta lo siguiente:
 
-* La ordenación se realiza mediante el primer valor
+* La ordenación se realiza según el primer valor
 
-* Los registros se agrupan por cada combinación única de valores de campo
+* Los registros se agrupan según cada combinación única de valores de campo
 
 * La cronología se crea en función del primer valor de fecha.
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
-## Semana del 24 de junio de 2024
+## Semana del martes, 24 de junio de 2024
 
 ### El Asistente de IA de Workfront (versión beta) ya está disponible para Workfront Planning
 
@@ -448,7 +435,7 @@ Para obtener más información, consulte [Descripción general del Asistente de 
 
 ### Nuevo cuadro de búsqueda al seleccionar un espacio de trabajo o un tipo de registro
 
-Producción: 27 de junio de 2024
+Producción: viernes, 27 de junio de 2024
 
 Vista previa: por determinar
 
@@ -458,7 +445,7 @@ Para obtener más información, consulte [Editar tipos de registros](/help/quick
 
 ### Insertar un nuevo campo a la derecha o a la izquierda de uno existente en la vista de tabla
 
-Producción: 27 de junio de 2024
+Producción: viernes, 27 de junio de 2024
 
 Vista previa: por determinar
 
@@ -466,11 +453,11 @@ Para mejorar y acelerar su experiencia en la vista de tabla de registros, hemos 
 
 Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
-## Semana del 17 de junio de 2024
+## Semana del martes, 17 de junio de 2024
 
 ### Apariencia actualizada de la página Detalles
 
-Producción: 17 de junio de 2024
+Producción: martes, 17 de junio de 2024
 
 Vista previa: por determinar
 
@@ -480,7 +467,7 @@ Para obtener más información, consulte [Editar registros](/help/quicksilver/pl
 
 ### Plantillas de Workspace actualizadas
 
-Producción: 17 de junio de 2024
+Producción: martes, 17 de junio de 2024
 
 Vista previa: por determinar
 
@@ -492,9 +479,9 @@ Esta actualización incluye las siguientes mejoras:
 
 * Se ha eliminado la plantilla de administración de marketing. Se han añadido las siguientes plantillas para la administración de marketing y se recomienda utilizar la adecuada en función de la complejidad de los flujos de trabajo:
 
-   * Básico: gestión de marketing
-   * Avanzado: Gestión de marketing
-   * Empresa: gestión de marketing
+   * Básico: administración de marketing
+   * Administración avanzada de marketing
+   * Empresa: administración de marketing
 
 Para obtener más información, consulte los siguientes artículos:
 
@@ -504,7 +491,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 ### Nueva experiencia al agregar una miniatura o una imagen de portada a un registro
 
-Producción: 17 de junio de 2024
+Producción: martes, 17 de junio de 2024
 
 Vista previa: por determinar
 
@@ -524,7 +511,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 ### Actualizar el título del registro en la página Detalles
 
-Producción: 17 de junio de 2024
+Producción: martes, 17 de junio de 2024
 
 Vista previa: por determinar
 
@@ -538,7 +525,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 ### Adición del vínculo &quot;Mostrar más/Mostrar menos&quot; en los campos de registro conectados
 
-Producción: 17 de junio de 2024
+Producción: martes, 17 de junio de 2024
 
 Vista previa: por determinar
 
@@ -548,17 +535,17 @@ Para obtener más información, consulte [Conectar registros](/help/quicksilver/
 
 ### Rellene automáticamente el campo Nombre con el nombre del registro al conectar tipos de registros
 
-Producción: 20 de junio de 2024
+Producción: viernes, 20 de junio de 2024
 
 Vista previa: por determinar
 
 Cuando se crea una conexión entre dos registros o entre un registro y un objeto de otra aplicación, el campo Nombre de la conexión se rellena automáticamente con el nombre del registro conectado. Antes de esta mejora, tenía que agregar manualmente un Nombre para el campo de conexión.
 
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Definir cómo se muestran los registros conectados en los campos conectados
 
-Producción: 20 de junio de 2024
+Producción: viernes, 20 de junio de 2024
 
 Vista previa: por determinar
 
@@ -568,11 +555,11 @@ El título de un registro es el nombre del registro o cualquier campo que esté 
 
 Esta mejora está disponible para registros conectados desde Workfront Planning y para recursos conectados desde Adobe Experience Manager.
 
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Solo los usuarios con licencia Standard o Plan pueden tener permisos de administración en los espacios de trabajo (título)
 
-Producción: 21 de junio de 2024
+Producción: sábado, 21 de junio de 2024
 
 Vista previa: por determinar
 
@@ -580,11 +567,11 @@ Hemos cambiado los tipos de usuarios que pueden tener acceso completo a los espa
 
 Para obtener más información, consulte [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
-## Semana del 10 de junio de 2024
+## Semana del martes, 10 de junio de 2024
 
 ### Referencia de hasta 4 niveles para campos de búsqueda de registros
 
-Producción: 12 de junio de 2024
+Producción: jueves, 12 de junio de 2024
 
 Vista previa: por determinar
 
@@ -604,11 +591,11 @@ Para obtener más información, consulte los siguientes artículos:
 
 * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
 
-## Semana del 3 de junio de 2024
+## Semana del martes, 03 de junio de 2024
 
 ### Nueva página de aterrizaje para Workfront Planning
 
-Producción: 7 de junio de 2024
+Producción: sábado, 07 de junio de 2024
 
 Vista previa: por determinar
 
@@ -628,11 +615,11 @@ Parte de la información de la página de aterrizaje incluye lo siguiente:
 
 * Tutorial de introducción para Workfront Planning
 
-Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener más información, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nueva experiencia de incorporación para Workfront Planning
 
-Producción: 7 de junio de 2024
+Producción: sábado, 07 de junio de 2024
 
 Vista previa: por determinar
 
@@ -640,11 +627,11 @@ Cuando los nuevos usuarios acceden a Workfront Planning por primera vez, ahora s
 
 Puede recorrer el proceso de incorporación, completar las tareas o minimizarlo y volver a visitarlo más adelante.
 
-## Semana del 27 de mayo de 2024
+## Semana del martes, 27 de mayo de 2024
 
 ### Introducción al operador de resumen UNIQUE para los campos de búsqueda
 
-Producción: 27 de mayo de 2024
+Producción: martes, 27 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -658,11 +645,11 @@ El operador UNIQUE está disponible para todos los tipos de campo excepto para l
 * Personas
 * Campo de casilla
 
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Compartir vistas con todos los miembros de un área de trabajo de forma predeterminada
 
-Producción: 30 de mayo de 2024
+Producción: viernes, 30 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -672,7 +659,7 @@ Para obtener más información, consulte [Compartir vistas](/help/quicksilver/pl
 
 ### Se ha actualizado el aspecto del icono Planificación en el menú principal
 
-Producción: 30 de mayo de 2024
+Producción: viernes, 30 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -688,7 +675,7 @@ El representante de la cuenta le informará si cumple los requisitos para partic
 
 ### Nuevo proceso para eliminar un espacio de trabajo
 
-Producción: 30 de mayo de 2024
+Producción: viernes, 30 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -700,7 +687,7 @@ Para obtener más información, consulte [Eliminar espacios de trabajo](/help/qu
 
 ### Los campos de fecha de búsqueda ahora están disponibles en la vista de cronología
 
-Producción: 31 de mayo de 2024
+Producción: sábado, 31 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -708,11 +695,11 @@ Ahora puede establecer las Fechas de inicio y finalización de la vista de escal
 
 Para obtener más información sobre cómo crear vistas, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Semana del 20 de mayo de 2024
+## Semana del martes, 20 de mayo de 2024
 
 ### Conexión de registros de Workfront Planning desde objetos de Workfront mediante la sección Planning
 
-Producción: 23 de mayo de 2024
+Producción: viernes, 23 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -730,11 +717,11 @@ Las siguientes acciones están disponibles en la sección Planificación de Work
 
 Para obtener más información, consulte [Administrar registros en la sección Planificación de objetos de Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-## Semana del 13 de mayo de 2024
+## Semana del martes, 13 de mayo de 2024
 
 ### Actualizaciones en tiempo real en la vista de cronología después de editar registros
 
-Producción: 14 de mayo de 2024
+Producción: miércoles, 14 de mayo de 2024
 
 Vista previa: pendiente de determinación.
 
@@ -742,18 +729,18 @@ Cuando un usuario actualiza la información de un registro, otros usuarios puede
 
 ### Agregar registro desde el encabezado de vista
 
-Producción: 14 de mayo de 2024
+Producción: miércoles, 14 de mayo de 2024
 
 Vista previa: por determinar
 
 Hemos añadido el botón &quot;Nuevo registro&quot; en el encabezado de una página de tipo de registro. Ahora puede crear registros desde cualquier vista. Antes de esta mejora, sólo se podían crear registros desde la vista de tabla.
 
-Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
 
 
 ### Nueva advertencia sobre la visibilidad de los objetos al conectar registros
 
-Producción: 15 de mayo de 2024
+Producción: jueves, 15 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -761,11 +748,11 @@ Al crear conexiones a tipos de objeto fuera de Workfront Planning, ahora se le n
 
 Por ejemplo, si vincula proyectos de campañas de Workfront Planning, todas las personas con acceso a Ver la campaña también tendrán acceso para ver los proyectos vinculados y la información de sus campos de búsqueda, incluso cuando no tengan permisos para los proyectos vinculados o acceso a proyectos en general. Puede obtener acceso a los registros de Planning cuando reciba permisos para espacios de trabajo.
 
-Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Agregar secciones a las páginas de vista previa y detalles del registro
 
-Producción: 15 de mayo de 2024
+Producción: jueves, 15 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -775,7 +762,7 @@ Para obtener más información, vea [Administrar el diseño de la página de reg
 
 ### Actualizaciones en tiempo real de los cambios de configuración de los campos
 
-Producción: 16 de mayo de 2024
+Producción: viernes, 16 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -783,19 +770,19 @@ Cuando un usuario cambia cualquier configuración de campo (nombre, descripción
 
 >[!WARNING]
 >
->Cuando cambian las expresiones de fórmula o se agregan o eliminan opciones de un campo de tipo select, se perderán datos de los registros que ya tienen información almacenada en los campos cuya configuración se modifica.
+>Cuando cambian las expresiones de fórmula, o se añaden o eliminan opciones de un campo de tipo de selección, se perderán datos de los registros que ya tienen información almacenada en los campos cuya configuración se modifica.
 >
->No hay advertencia ni indicación de que esta pérdida de datos pueda producirse al cambiar la configuración de los campos.
+>No se muestra ninguna advertencia ni indicación de que esta pérdida de datos pueda producirse al cambiar la configuración de los campos.
 >
->No hay ninguna notificación a otros usuarios de que la configuración del campo haya cambiado.
+>No se muestra ninguna notificación a otros usuarios de que la configuración del campo haya cambiado.
 
 Para obtener más información, consulte [Editar configuración de campo](/help/quicksilver/planning/fields/edit-fields.md).
 
-## Semana del 6 de mayo de 2024
+## Semana del martes, 06 de mayo de 2024
 
 ### Apariencia actualizada de las tarjetas de tipo de registro en un espacio de trabajo
 
-Producción: 7 de mayo de 2024
+Producción: miércoles, 07 de mayo de 2024
 
 Vista previa: por determinar
 
@@ -809,7 +796,7 @@ Para obtener más información, consulte [Crear tipos de registros](/help/quicks
 
 ### Habilitar notificaciones de Workfront Planning para clientes de experiencia unificada de Adobe
 
-Producción: 8 de mayo de 2024
+Producción: jueves, 08 de mayo de 2024
 
 Vista previa: pendiente de determinación
 
@@ -818,27 +805,27 @@ Si es un cliente de Adobe de experiencia unificada y alguien le agrega a un come
 Para obtener más información acerca de las notificaciones de planificación de Workfront, vea [Notificaciones de planificación de Adobe Workfront: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
 
 
-## Semana del 29 de abril de 2029
+## Semana del lunes, 29 de abril de 2029
 
 ### Actualizaciones en tiempo real en el cuadro de detalles de registro y en la página después de editar registros en la vista de tabla
 
-Producción: 2 de mayo de 2024
+Producción: viernes, 02 de mayo de 2024
 
 Vista previa: por determinar
 
 Cuando un usuario actualiza la información de un registro en la vista de tabla, otros usuarios pueden ver la información actualizada en el cuadro de detalles del registro (dentro de una vista) o en la página en tiempo real. Esto garantiza que todos los usuarios vean la información actualizada al mismo tiempo, en sincronización con el momento en que se producen los cambios.
 
-Para obtener información sobre cómo editar registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Para obtener información sobre la edición de registros, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ### Actualizaciones en tiempo real en la vista de calendario después de editar registros
 
-Producción: 3 de mayo de 2024
+Producción: sábado, 03 de mayo de 2024
 
 Vista previa: pendiente de determinación.
 
 Cuando un usuario actualiza la información de un registro, otros usuarios pueden ver la información actualizada en la vista de calendario del registro en tiempo real. Esto garantiza que todos los usuarios vean la información actualizada al mismo tiempo, en sincronización con el momento en que se producen los cambios.
 
-## Semana del 22 de abril de 2024
+## Semana del martes, 22 de abril de 2024
 
 ### Flujo de trabajo actualizado al editar un espacio de trabajo o un tipo de registro
 
@@ -856,7 +843,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 * [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-## Semana del 8 de abril de 2024
+## Semana del martes, 08 de abril de 2024
 
 ### Copiar el contenido de una celda y pegarlo en varias celdas seleccionadas
 
@@ -870,7 +857,7 @@ Esta funcionalidad es compatible con todos los tipos de campo excepto para los c
 
 Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-## Semana del 1 de abril de 2024
+## Semana del martes, 01 de abril de 2024
 
 ### Reordenar los campos en páginas de registro
 
@@ -901,7 +888,7 @@ Producción: 25 de marzo de 2024
 
 Vista previa: por determinar
 
-Para crear eficiencia al configurar espacios de trabajo, hemos modificado la forma de organizar los tipos de registros en un espacio de trabajo. Algunas de las mejoras incluyen:
+Para crear eficiencia al configurar espacios de trabajo, hemos modificado la forma de organizar los tipos de registros en un espacio de trabajo. Algunas de las mejoras incluyen las siguientes:
 
 * Cree hasta 50 secciones de tipos de registro en cada espacio de trabajo. Las secciones Tipos de registros operativos y Taxonomías existentes permanecen en los espacios de trabajo existentes.
 
@@ -1074,7 +1061,7 @@ Puede actualizar el alto de fila a uno de los siguientes tamaños:
 * Media
 * Alto.
 
-Para obtener más información, vea [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ### Nueva vista de calendario para registros
 
@@ -1184,7 +1171,7 @@ Vista previa: por determinar
 
 Ahora puede agregar miniaturas individuales a cada registro para distinguirlas en una vista. En la vista de tabla, puede agregar como miniaturas archivos de imagen guardados anteriormente en el equipo. Las miniaturas pueden ser únicas para cada registro y mostrarse tanto en la tabla como en las vistas de cronología de la página de tipo de registro.
 
-Para obtener más información, vea [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ### Quitar tarjetas de tipo de registro conectadas
 
@@ -1212,11 +1199,11 @@ La siguiente información se registra en la nueva sección Historial:
 
 * Los valores antiguos y nuevos de los campos, cuando cambian los valores
 
-* El nombre completo del usuario que realizó el cambio
+* El nombre completo del usuario que ha realizado el cambio
 
-* Una marca de fecha y hora de cuándo se produjo el cambio.
+* Una marca de fecha y hora de cuando se produjo el cambio.
 
-Para obtener más información, consulte [Resumen de la sección de historial](/help/quicksilver/planning/records/history-section-overview.md).
+Para obtener más información, consulte [Información general sobre la sección Historial](/help/quicksilver/planning/records/history-section-overview.md).
 
 ### Nueva etiqueta para nuevo vínculo de registro
 
@@ -1269,7 +1256,7 @@ Vista previa: por determinar
 
 Ahora puede agregar un campo de tipo fórmula a un tipo de registro.
 
-Los campos de fórmula generan un nuevo valor utilizando valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
+Los campos de fórmula generan un nuevo valor utilizando los valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
 
 No se pueden utilizar campos de búsqueda de tipos de registros vinculados en un cálculo de fórmula. Esta funcionalidad estará disponible más adelante.
 

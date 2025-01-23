@@ -3,14 +3,12 @@ title: Actualizaciones de interfaz
 description: Esta página lista las actualizaciones de la interfaz que estamos realizando a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe.
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +26,7 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ### Actualización de la interfaz para el cuadro de diálogo Agregar SharePoint
 
-**Versión preliminar: 16 de enero de 2025; versión de producción: TBD**
+**Versión preliminar: 16 de enero de 2025; versión de producción: por anunciar**
 
 Hemos actualizado el cuadro de diálogo Agregar Sharepoint en Configuración > Documentos > Integración con Sharepoint con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -36,7 +34,7 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ### Actualización de la interfaz del área de Aprobaciones en la Configuración
 
-**Versión preliminar: 16 de enero de 2025; versión de producción: TBD**
+**Versión preliminar: 16 de enero de 2025; versión de producción: por anunciar**
 
 Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en Configuración > Procesos > Aprobaciones con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -44,9 +42,19 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ## Informes y paneles
 
+### Se ha actualizado el informe de iteraciones con un nuevo estilo
+
+**Versión preliminar: 17 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado el informe Iteración con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Esta actualización incluye cambios visuales en el informe. No se ha cambiado ninguna funcionalidad.
+
+Para crear un informe de iteraciones, vaya a Informes > Nuevo informe > Iteraciones.
+
 ### Informes de aprobación actualizados con nuevo estilo
 
-**Versión preliminar: 16 de enero de 2025; versión de producción: TBD**
+**Versión preliminar: 16 de enero de 2025; versión de producción: por anunciar**
 
 Hemos actualizado la interfaz de los siguientes informes de aprobación:
 

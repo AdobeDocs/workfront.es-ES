@@ -1,0 +1,78 @@
+---
+content-type: release-notes
+title: Actividad de la versión de Adobe Workfront Planning para la versión 25.2
+description: Esta es la actividad de lanzamiento del producto Adobe Workfront Planning para el segundo trimestre de 2025.
+author: Alina
+feature: Product Announcements
+role: Admin
+recommendations: noDisplay, noCatalog
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 2%
+
+---
+
+# Actividad de la versión del segundo trimestre de 2025 para Adobe Workfront Planning
+
+Este artículo describe las funciones que se lanzarán para Workfront Planning durante la versión del segundo trimestre de 2025.
+
+<!--keep the sentence below for all future quarterly release pages-->
+
+Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Ahora se admite la copia y pegado de texto externo en los campos Conexiones y Personas
+
+>[!NOTE]
+>
+>Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Ahora puede copiar texto de un origen externo a Workfront y pegarlo en un campo conectado a Workfront Planning o en un campo de tipo Personas. Esta mejora está disponible cuando se editan registros en la vista de tabla.  El texto debe coincidir con un usuario existente (para campos de tipo Personas) o con un registro u objeto existente (para un registro conectado). Puede copiar y pegar varios valores para varios campos y actualizar registros de forma masiva.
+
+Antes de esta mejora, solo se podía copiar información de un campo existente de Workfront Planning y pegarla en otro campo.
+
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+
+## Filtros de varios niveles en vistas de registros
+
+>[!NOTE]
+>
+>Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Con esta versión, hemos actualizado el generador de filtros en Workfront Planning para permitir filtros de varios niveles.
+
+Las siguientes mejoras forman parte de esta actualización:
+
+* Puede utilizar los operadores de filtro AND y OR para unir varios grupos de condiciones de filtro para filtros más complejos
+
+* Los nuevos generadores de filtros están disponibles en todas las vistas de registros: vistas de tabla, cronología y calendario
+
+Antes de esta mejora, podía agregar varios operadores de filtrado entre condiciones únicas y no podía unir varios grupos de condiciones.
+
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Crear proyectos utilizando una plantilla a medida que los conecta desde los registros de Workfront Planning
+
+>[!NOTE]
+>
+>Versión de vista previa: 22 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Ahora puede crear proyectos con una plantilla mientras conecta proyectos a registros existentes.
+
+Por ejemplo, si conecta campañas de Workfront Planning con proyectos de Workfront y determina que un proyecto en particular no existe, puede agregarlo como un proyecto nuevo en el campo de registro conectado. A continuación, se agrega el proyecto a Workfront. También puede utilizar una plantilla para el nuevo proyecto.
+
+Antes de esta mejora, se podían crear proyectos en blanco, sin plantilla.
+
+Para obtener más información, consulte [Crear objetos de Workfront desde Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+## Se ha mejorado la visualización del nombre y la descripción del registro en la página de detalles y el cuadro de vista previa del registro
+
+>[!NOTE]
+>
+>Versión de vista previa: 22 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Para darle una mejor visibilidad a los títulos de los registros en el encabezado de la página de visualización, hemos realizado una mejora para dar más espacio a los títulos, evitar superposiciones y gestionar el truncamiento correctamente.
+
+Como resultado, los títulos de registro más largos ahora se ajustan en lugar de truncarse cuando se muestran en la página de detalles y en el cuadro de vista previa.
+
+Para obtener información acerca de la página del registro, vea [Administrar la página del registro](/help/quicksilver/planning/records/manage-the-record-page.md).
