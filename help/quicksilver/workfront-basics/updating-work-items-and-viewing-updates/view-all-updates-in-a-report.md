@@ -6,10 +6,10 @@ description: Ver todas las actualizaciones en un informe de notas
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ El área Actualizaciones de un objeto muestra un número máximo de 200 actualiz
 
 >[!NOTE]
 >
->Puede crear un informe para ver las actualizaciones de los objetos en Vista previa con el informe Entrada de cuaderno. Para obtener más información, consulte [Informe sobre el área de actualizaciones](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Puede crear un informe para ver las actualizaciones de los objetos en Vista previa con el informe Entrada de cuaderno. Para obtener más información, consulte [Informe sobre el área de actualizaciones con un informe de entrada de diario](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisitos de acceso
 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -46,9 +46,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Editar acceso a:</p> 
+   <td> <p>Acceso de edición a:</p> 
     <ul> 
-     <li> <p>Creación de informes, tableros y calendarios</p> </li> 
+     <li> <p>Creación de informes, paneles de control y calendarios</p> </li> 
      <li> <p>Creación de filtros, vistas y agrupaciones</p> </li> 
     </ul> </td> 
   </tr> 

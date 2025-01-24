@@ -1,18 +1,18 @@
 ---
-title: Informe sobre el área de actualizaciones
+title: Informe del área de actualizaciones con un informe de entrada de diario
 description: El informe Entrada de cuaderno muestra las actualizaciones del sistema desde el área Actualizaciones de proyectos, tareas, problemas y otros objetos que anteriormente solo estaban disponibles a través de la API de Adobe Workfront. Aunque se trata de un informe avanzado diseñado para casos de uso específicos, el formato más asequible facilita la elaboración de informes sobre la actividad del proyecto y las actualizaciones del sistema en Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 95%
 
 ---
 
-# Informe sobre el área de Actualizaciones
+# Informe del área de Actualizaciones con un informe de Entrada de cuaderno
 
 <!-- Audited: 11/2024 -->
 
