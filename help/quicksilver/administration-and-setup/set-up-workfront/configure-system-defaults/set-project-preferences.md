@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
-ht-degree: 97%
+source-wordcount: '2693'
+ht-degree: 95%
 
 ---
 
@@ -246,13 +246,6 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Business Cases] {#business-cases}
 
 Puede crear un caso empresarial para los proyectos recién creados en todo el sistema para enviar solicitudes de proyectos. Puede definir las preferencias para determinar qué áreas están visibles en el formulario **[!UICONTROL Business Case]**. Le recomendamos que habilite estas opciones para que otras herramientas, como [!UICONTROL Optimizador de portafolios], se actualicen correctamente. Para obtener más información acerca de lo que muestra cada campo, consulte [Definir un caso comercial: índice de artículos](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -279,11 +272,12 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>Determine las reglas para su organización (o grupo, si está configurando las preferencias de proyecto para un grupo) con respecto a lo que sucede con las tareas, problemas, documentos y otros objetos de un proyecto después de que el estado del proyecto se haya marcado como <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong>, o bien <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Add and edit tasks]</strong> permite a los usuarios:
+     <li><strong>[!UICONTROL Agregar y editar tareas:]</strong> Permite a los usuarios:
       <ul>
-       <li>Editar tareas dentro de un proyecto después de que el proyecto se haya marcado como [!UICONTROL Complete], [!UICONTROL Dead] o tenga el estado [!UICONTROL Pending Approval]. Esto incluye añadir horas y cambiar entradas de gastos en una tarea.</li>
+       <li><p>Editar tareas dentro de un proyecto después de que el proyecto se haya marcado como [!UICONTROL completo], [!UICONTROL muerto] o tenga [!UICONTROL pendiente de aprobación].</p>
+           <p>Nota: Incluso cuando esta opción no está seleccionada, los usuarios pueden añadir y editar entradas de gastos. El registro de horas tiene una configuración independiente. Para permitir o evitar que los usuarios registren tiempo en proyectos con estado completo o muerto, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar preferencias de horas y hojas de horas</a>.</p></li>
        <li>Añadir tareas a un proyecto.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong>: permite a los usuarios:
       <ul>
        <li>Editar problemas dentro de un proyecto después de que el proyecto se haya marcado como [!UICONTROL Complete], [!UICONTROL Dead] o [!UICONTROL Pending Approval].</li>
