@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 1%
+source-wordcount: '807'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,65 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+### Actualización de la interfaz de la página Funciones de prueba en la configuración
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la apariencia de la página Funciones de prueba con un diseño más moderno que es coherente con otras áreas de Workfront.
+
+En lugar de seleccionar botones de opción, ahora utiliza menús desplegables para elegir las funciones de prueba de los usuarios nuevos e invitados.
+
+Para ver este cambio, vaya a Configuración > Revisar y aprobar.
+
+### Actualización de la interfaz de la página Recordatorios automáticos en Configuración
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la página Recordatorios automáticos con un diseño más moderno y coherente con otras áreas de Workfront.
+Para ver esta página, vaya a Configuración > Correo electrónico > Recordatorios automáticos.
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
+
+### Actualización de la interfaz de la página Plantillas de correo electrónico en Configuración
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la página Plantillas de correo electrónico con un diseño más moderno y coherente con otras áreas de Workfront.
+
+En lugar de hacer clic directamente en el nombre de la plantilla para editarla, debe seleccionar la casilla de verificación y, a continuación, hacer clic en el icono Editar de la barra de herramientas.
+
+Para ver esta página, vaya a Configuración > Correo electrónico > Notificaciones > Plantillas de correo electrónico.
+
+### Actualización de la interfaz de la página Invitaciones por correo electrónico en Configuración
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la página Invitaciones por correo electrónico con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver esta página, vaya a Configuración > Correo electrónico > Invitaciones.
+
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
+
+### Actualizaciones de la interfaz de la página Notificaciones de eventos de un grupo
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la página Notificación de eventos en un grupo con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver esta página, vaya a Configuración > Grupos > Seleccionar un grupo > Notificaciones de eventos
+
+Esta actualización incluye cambios visuales menores en el área. No se ha cambiado ninguna funcionalidad.
+
+
+### Actualizaciones de la interfaz de la ficha Notificaciones de recordatorio en Configuración
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la pestaña Notificaciones de recordatorio, así como los cuadros de diálogo de adición y edición, con un diseño más moderno y coherente con otras áreas de Workfront.
+
+En lugar de hacer clic directamente en el nombre de la notificación para editarla, debe seleccionar la casilla de verificación y, a continuación, hacer clic en el icono Editar de la barra de herramientas.
+
+Para ver esta página, vaya a Configuración > Correo electrónico > Notificaciones > Notificaciones de recordatorio.
 
 ### Actualización de la interfaz para el cuadro de diálogo Agregar SharePoint
 
@@ -42,6 +101,17 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ## Informes y paneles
 
+## Informes de correo electrónico actualizados con nuevo estilo
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la interfaz de los siguientes informes de correo electrónico:
+
+* Informe de plantilla de correo electrónico
+* Informe de notificación de recordatorio
+
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
+
 ### Se ha actualizado el informe de iteraciones con un nuevo estilo
 
 **Versión preliminar: 17 de enero de 2025; versión de producción: por anunciar**
@@ -54,7 +124,7 @@ Para crear un informe de iteraciones, vaya a Informes > Nuevo informe > Iteracio
 
 ### Informes de aprobación actualizados con nuevo estilo
 
-**Versión preliminar: 16 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 16 de enero de 2025; versión de producción: a partir del 20 de enero de 2025**
 
 Hemos actualizado la interfaz de los siguientes informes de aprobación:
 
@@ -66,7 +136,7 @@ Estas actualizaciones incluyen cambios visuales en el área. No se ha cambiado n
 
 ### Modo de texto para filtros y agrupaciones
 
-**Versión preliminar: 9 de enero de 2025; versión de producción: a partir del 9 de enero de 2025**
+**Versión preliminar: 9 de enero de 2025; versión de producción: a partir del 6 de enero de 2025**
 
 Se ha añadido un nuevo botón Editar modo de texto y un modal de edición a las siguientes áreas:
 
