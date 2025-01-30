@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 7%
+source-wordcount: '664'
+ht-degree: 62%
 
 ---
 
@@ -17,13 +17,17 @@ ht-degree: 7%
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 {{planning-important-intro}}
 
-Puede crear campos personalizados en Adobe Workfront Planning haciendo referencia a campos existentes y conectándolos en un campo de tipo fórmula.
+Puede crear campos personalizados en Adobe Workfront Planning haciendo referencia a los campos existentes y conectándolos en un campo de tipo fórmula.
 
-Los campos de fórmula generan un nuevo valor utilizando valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
+Los campos de fórmula generan un nuevo valor utilizando los valores existentes de otros campos en un tipo de registro y una función que indica cómo se deben calcular los valores existentes.
 
-Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+Para obtener más información, consulte la sección “Fórmula” en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Requisitos de acceso
 
@@ -46,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -64,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -75,13 +79,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administrar permisos en un espacio de trabajo</a> </p>  
+   <td>   <p>Permisos de administración en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
 <tr> 
@@ -158,9 +162,9 @@ OLD:
 
 * Los campos de fórmula hacen referencia a campos que pertenecen al mismo tipo de registro.
 * Sólo se puede hacer referencia a campos de otros tipos de registro cuando se conecta otro tipo de registro con el campo de fórmula para el que se está creando.
-* No se puede cambiar el tipo de campo de un campo Formula después de guardarlo.
+* No puede cambiar el tipo de campo de un campo Fórmula después de guardarlo.
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
-* Debe agregar los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Workfront Planning.
+* Debe añadir los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Workfront Planning.
 * Sólo puede hacer referencia a campos que se muestran en la vista de tabla de un tipo de registro o en la página de detalles del registro.
 * Puede definir el formato para el valor de un cálculo de fórmula eligiendo entre las siguientes opciones de formato:
 
@@ -175,9 +179,26 @@ OLD:
 
 ## Fórmulas compatibles
 
-Los campos de fórmula de Adobe Workfront Planning admiten todas las expresiones de los campos calculados de Workfront. Para obtener una lista de expresiones Workfront, consulte [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Los campos de fórmula de Adobe Workfront Planning admiten la mayoría de las expresiones de los campos calculados de Workfront.
 
-Además, se admiten las siguientes expresiones para los campos de fórmula de Workfront Planning:
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+Para obtener una lista completa de expresiones de Workfront, consulte [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+Además, se admiten las siguientes expresiones para los campos de fórmula de Workfront Planning. Las expresiones siguientes no son compatibles con las expresiones Workfront:
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,19 +211,40 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Wo
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong>MATRIZ</strong> </td>
+   <td> <p>Convierte una cadena en una matriz. El delimitador puede ser cualquier cadena.</p>
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>Devuelve el elemento en el número especificado de la matriz. Si el índice está fuera de los límites, devuelve vacío.</p>
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
-   <td> <p>Devuelve una cadena concatenada por delimitador.</p> <p>La expresión tiene el siguiente formato:
+   <td> <p>Devuelve la cadena concatenada por el delimitador.</p> <p>La expresión tiene el siguiente formato:
 
-<code>ARRAYJOIN(delimitador,matriz)</code>
+<code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>LONGITUD DE MATRIZ</strong> </td>
+   <td> <p>Devuelve el número de elementos de la matriz con el siguiente formato:</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Devuelve una matriz con valores únicos.</p> <p>La expresión tiene el siguiente formato:
 
-<code>ARRAYUNIQUE(matriz)</code>
+<code>ARRAYUNIQUE(array)</code>
 </p>
    </td></tr>
      <tr> 
@@ -215,9 +257,9 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Wo
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
-   <td> <p>Establece la zona horaria de una fecha y hora en una zona horaria específica.</p> <p>La expresión tiene el siguiente formato:
+   <td> <p>Establece la zona horaria de una fecha y la hora en una zona horaria especificada.</p> <p>La expresión tiene el siguiente formato:
 
-<code>SETTIMEZONE(fecha,&#39;América/Los_Ángeles&#39;)</code>
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -225,9 +267,9 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Wo
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Devuelve el número de la semana en un año. De forma opcional, puede indicar en qué día comienza la semana (utilice 1 para el domingo o 2 para el lunes). Si se omite, las semanas comienzan de forma predeterminada en domingo.</p> <p>La expresión tiene el siguiente formato:
 
-<code>WEEKOFYEAR(fecha,2)</code>
+<code>WEEKOFYEAR(date,2)</code>
 o
-<code>WEEKOFYEAR(fecha)</code>
+<code>WEEKOFYEAR(date)</code>
 </p>
    </td></tr>
 

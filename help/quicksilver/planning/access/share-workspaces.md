@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 2%
+source-wordcount: '784'
+ht-degree: 23%
 
 ---
 
 # Compartir espacios de trabajo
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -24,7 +28,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!NOTE]
 >
->Al conceder permisos a un espacio de trabajo, no se conceden permisos a otros usuarios para las vistas de las páginas de tipo de registro. Debe conceder permisos a vistas individuales de una página de tipo de registro para compartirlas con otros usuarios. Para obtener más información, vea [Compartir una vista](/help/quicksilver/planning/access/share-views.md).
+>La concesión de permisos a un espacio de trabajo no significa que se conceden permisos a otros usuarios para ver las páginas de tipo de registro. Debe conceder permisos a vistas individuales de una página de tipo de registro para compartirlas con otros usuarios. Para obtener más información, vea [Compartir una vista](/help/quicksilver/planning/access/share-views.md).
 
 
 ## Requisitos de acceso
@@ -48,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -67,7 +71,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
 <p>Su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan solicitar y conceder permisos a un espacio de trabajo desde una solicitud de permiso. </p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -78,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
@@ -173,18 +177,22 @@ Para compartir un espacio de trabajo con otros usuarios:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. En el campo **Conceder acceso al área de trabajo a**, empiece a escribir el nombre de un usuario o grupo y, a continuación, haga clic en él cuando se muestre en la lista.
+1. En el campo **Conceder acceso al área de trabajo a**, empiece a escribir el nombre de un usuario, grupo, <span class="preview">equipo, empresa o rol</span> y, a continuación, haga clic en él cuando se muestre en la lista.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Seleccione uno de los siguientes niveles de permisos en el menú desplegable:
    * Ver
    * Aportar
    * Administrar
 
-     Para obtener información acerca de los niveles de permisos y las acciones que los usuarios pueden realizar en cada nivel, vea [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Para obtener información acerca de los niveles de permisos y las acciones que los usuarios pueden realizar en cada nivel, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 1. Haga clic en **Copiar vínculo** para copiar un vínculo al área de trabajo en el portapapeles.
-1. Compartir el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo.
+1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo.
 1. Haga clic en **Guardar**.
 
 ## Conceder permisos a un espacio de trabajo desde una solicitud de permiso
@@ -207,7 +215,7 @@ En la notificación por correo electrónico, haga clic en **Ver todas las notifi
 
 1. (Opcional) Para el usuario cuyos permisos desea aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
    * **Vista**
-   * **Contribute**
+   * **Aportar**
    * **Administrar**
 1. Seleccione el usuario para el que desea aprobar o denegar el permiso y, a continuación, haga clic en **Aprobar todo** o **Denegar todo**.
 1. Haga clic en la flecha que señala a la izquierda de **Solicitudes de acceso pendientes** y, a continuación, haga clic en **Guardar**.
@@ -221,7 +229,7 @@ En la notificación por correo electrónico, haga clic en **Ver todas las notifi
 {{step1-to-planning}}
 
 1. Abra el área de trabajo en la que desea quitar permisos y, a continuación, haga clic en **Compartir** en la esquina superior derecha de la pantalla.
-1. Haga clic en el menú desplegable situado a la derecha del nombre de un usuario o grupo y, a continuación, haga clic en **Quitar**.
+1. Haga clic en el menú desplegable situado a la derecha del nombre de la entidad con la que comparte el área de trabajo y, a continuación, haga clic en **Quitar**.
 1. Haga clic en **Guardar**.
 
-   El usuario o los usuarios que pertenecen al grupo eliminado ya no tienen acceso al espacio de trabajo o a sus objetos.
+   Los usuarios eliminados ya no tendrán acceso al espacio de trabajo ni a sus objetos.

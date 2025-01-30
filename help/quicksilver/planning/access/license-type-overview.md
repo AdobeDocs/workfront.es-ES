@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 0%
+source-wordcount: '564'
+ht-degree: 51%
 
 ---
 
 
 # Información general sobre el tipo de licencia al usar Adobe Workfront Planning
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -23,7 +27,7 @@ El tipo de licencia de Adobe Workfront funciona junto con los permisos de Adobe 
 * Ver, contribuir o administrar espacios de trabajo
 * Ver o administrar vistas.
 
-Para obtener información acerca de los permisos de los objetos en Workfront Planning, vea [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obtener información acerca de los permisos de los objetos en Workfront Planning, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Para obtener información sobre el acceso a Workfront Planning, consulte [Descripción general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -54,7 +58,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 -->
 
-### Tipos de licencias y permisos de Workspace
+### Tipos de licencias y permisos del espacio de trabajo
 
 Solo los usuarios con una licencia estándar pueden tener permisos de Contribute o Administrar en los espacios de trabajo. Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en los espacios de trabajo compartidos con ellos.
 
@@ -62,13 +66,13 @@ Los administradores del sistema pueden ver todos los espacios de trabajo del sis
 
 >[!INFO]
 >
->**EJEMPLO:**
+>**Ejemplo:**
 >
 >Los colaboradores o los usuarios con licencia básica no pueden contribuir ni administrar espacios de trabajo y sus objetos.
 >
 >Hay una indicación en el cuadro de diálogo de uso compartido de que no se pueden conceder permisos a los usuarios para contribuir o administrar un espacio de trabajo cuando tienen una licencia de nivel inferior, ya que estos niveles de permisos están atenuados.
 >
->![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
 
 
 ### Tipos de licencias y permisos de visualización
@@ -77,10 +81,10 @@ Solo los usuarios con una licencia Standard pueden tener permisos de administrac
 
 >[!INFO]
 >
->**EJEMPLO:**
+>**Ejemplo:**
 >
 >Los colaboradores o los usuarios con licencia básica no pueden administrar las vistas. Pueden aplicar filtros, ordenaciones o agrupaciones temporales a las vistas a las que pueden acceder.
 >
 >Hay una indicación en el cuadro de uso compartido de que no se pueden conceder permisos a los usuarios para administrar una vista cuando tienen una licencia de nivel inferior, ya que estos niveles de permisos están atenuados.
 >
->![](assets/permissions-grayed-out-for-light-user.png)
+><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
