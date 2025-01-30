@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '864'
 ht-degree: 11%
 
 ---
@@ -16,6 +16,9 @@ ht-degree: 11%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Creación de objetos de Workfront desde Workfront Planning
+
+
+<!-- remove preview and production at release time-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -132,7 +135,9 @@ Para crear proyectos al conectarlos desde otros registros:
    * La vista de tabla de un tipo de registro
    * Página de detalles o cuadro de vista previa de un registro
 
-1. (Condicional) Si no encuentra un proyecto al intentar agregarlo desde el campo de registro conectado de otro registro, agregue un nombre y, a continuación, haga clic en **+ Agregar**. El botón **+ Agregar** va seguido del nombre del tipo de objeto al que se está conectando. Por ejemplo, &quot;Agregar proyecto&quot;, al agregar un nuevo proyecto a una campaña existente. El botón Agregar también va seguido del nombre del proyecto que ha escrito.
+1. (Condicional) Si no encuentra un proyecto al intentar agregarlo desde el campo de registro conectado de otro registro, agregue un nombre y, a continuación, haga clic en **+ Agregar**. El botón Agregar va seguido del nombre del proyecto que ha escrito.
+
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click +Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
    ![](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -158,10 +163,47 @@ Para crear portafolios al conectarlos desde otros registros:
    * La vista de tabla de un tipo de registro
    * Página de detalles o cuadro de vista previa de un registro
 
-1. (Condicional) Si no encuentra un portafolio al intentar agregarlo desde el campo de registro conectado de otro registro, agregue un nombre y, a continuación, haga clic en **+ Agregar**. El botón **+ Agregar** va seguido del nombre del tipo de objeto al que se está conectando. Por ejemplo, &quot;Agregar portafolio&quot;, al agregar un nuevo portafolio a una campaña existente. El botón Agregar también va seguido del nombre del portafolio que ha escrito.
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
+
+1. (Condicional) Si no encuentra un portafolio al intentar agregarlo desde el campo de registro conectado de otro registro, agregue un nombre y, a continuación, haga clic en **+ Agregar portafolio**. El botón Agregar también va seguido del nombre del portafolio que ha escrito.
 
    ![](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
    El portafolio se crea y se agrega al campo de conexión del registro seleccionado.
 
 1. (Opcional) Haga clic en el nombre del nuevo portafolio de Workfront Planning para abrir la página del portafolio en Workfront y realizar actualizaciones adicionales en el portafolio.
+
+<!--
+
+<div class="preview">
+
+## Create programs when connecting them with records from Workfront Planning
+
+To create programs as you are connecting them from other records: 
+
+1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+    You can connect programs from a connection field in following areas of Workfront Planning:
+
+    * The table view of a record type
+    * The details page or preview box of a record
+
+    ********at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click +Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."***********
+    
+1. (Conditional) If you cannot find a program when trying to add it from the connected record field of another record, add a name, then click **+ Add**. The Add button is followed by the program name you typed. 
+
+    ![](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+
+    The **Create program** box opens.
+
+1. Update the **Program name**. This is a required field.
+1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
+1. Click **Create**.
+
+    The program is created and added to the connection field of the record you selected. 
+
+1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+
+</div>
+
+-->

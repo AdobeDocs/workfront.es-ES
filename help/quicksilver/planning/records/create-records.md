@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 57%
+source-wordcount: '1562'
+ht-degree: 56%
 
 ---
 
@@ -259,7 +259,9 @@ Para crear registros al conectarlos desde otros registros:
    * La vista de tabla
    * Página de detalles o cuadro de vista previa de un registro
 
-1. (Condicional) Si no encuentra un registro al intentar agregarlo desde el campo de registro conectado de otro registro, busque un registro y, a continuación, haga clic en **+ Agregar**. El botón **+ Agregar** va seguido del nombre del tipo de registro al que se está conectando. Por ejemplo, &quot;Agregar marcas&quot; al agregar una marca a una campaña existente.
+1. (Condicional) Si no encuentra un registro al intentar agregarlo desde el campo de registro conectado de otro registro, busque un registro y, a continuación, haga clic en **+ Agregar**. El botón **+ Agregar** va seguido del nombre del tipo de registro al que se está conectando. Por ejemplo, &quot;Agregar marcas&quot; al agregar una marca a una campaña existente. El nombre que ha escrito también sigue al botón Agregar.
+
+   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
