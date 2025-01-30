@@ -6,14 +6,16 @@ description: Colecciones de referencia en un informe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
-ht-degree: 0%
+source-wordcount: '2539'
+ht-degree: 5%
 
 ---
 
 # Colecciones de referencia en un informe
+
+<!-- Audited: 1/2025 -->
 
 La creación de un informe en Adobe Workfront permite mostrar un conjunto de objetos, sus campos respectivos u objetos vinculados en una lista, una cuadrícula o un formato de gráfico.
 
@@ -23,32 +25,41 @@ Para obtener más información sobre cómo generar un informe en Workfront, cons
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Editar acceso a informes, tableros y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Acceso de edición a informes, paneles y calendarios</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Administrar permisos para una vista, filtro o agrupación </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para un informe</p> <p>Administrar permisos para una vista, filtro o agrupación </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,8 +139,9 @@ Por ejemplo, puede mostrar la información de tareas o problemas en un informe d
 
 Puede mostrar información sobre las tareas o problemas, como nombres, fechas, personas asignadas principales, porcentaje completado, etc., en la vista Colección.
 
-La vista muestra la información de tareas o problemas en formato de lista, y cada línea de la lista representa información sobre una tarea o un problema. La lista de tareas o problemas y sus campos aparecen en la misma línea que el proyecto al que pertenecen las tareas o problemas.\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+La vista muestra la información de tareas o problemas en formato de lista, y cada línea de la lista representa información sobre una tarea o un problema. La lista de tareas o problemas y sus campos aparecen en la misma línea que el proyecto al que pertenecen las tareas o problemas.
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Agregar una columna de colección en una vista de informe](#add-a-collection-column-in-a-report-view)
 * [Comprender las líneas de una vista de colección en modo texto](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Para agregar una columna de colección en una vista de informe:
 1. Seleccione el objeto del informe.
 1. Salga del informe y, con el [Explorador de API](../../../wf-api/general/api-explorer.md), determine qué colecciones están disponibles para el objeto que seleccionó para el informe.
 
-   Para obtener más información acerca de cómo seleccionar el objeto de su colección, vea la sección [Buscar objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.\
+   Para obtener más información acerca de cómo seleccionar el objeto de su colección, vea la sección [Buscar objetos de colección y sus campos en el Explorador de API](#find-collection-objects-and-their-fields-in-the-api-explorer) en este artículo.
+
    Anote el nombre del objeto de la colección.
 
 1. Con el [Explorador de API](../../../wf-api/general/api-explorer.md), vaya a la lista de campos del objeto que desea mostrar en la colección.
@@ -155,7 +168,7 @@ Para agregar una columna de colección en una vista de informe:
 
 1. Vuelva al informe y, en la ficha **Columnas (Ver)**, haga clic en **Agregar columna**.
 1. Haga clic en **Cambiar al modo de texto**.
-1. Pase el cursor sobre el cuadro de diálogo y haga clic **Haga clic para editar el texto**.
+1. Haga clic en **Editar modo de texto**.
 1. Seleccione todo el texto del cuadro de diálogo **Modo de texto**, quítelo y pegue el código siguiente si hace referencia a un campo del objeto de colección:
 
    ```
@@ -223,14 +236,14 @@ Para agregar una columna de colección en una vista de informe:
 
 1. La siguiente columna se muestra en el informe del proyecto e incluye todas las tareas de cada proyecto junto con sus principales usuarios asignados:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Haga clic en **Guardar**.
 1. (Opcional) Continúe editando el informe.
 
    O
 
-   Haga clic en **Guardar + Cerrar** para guardar el informe.
+   Haga clic en **Guardar + cerrar** para guardar el informe.
 
 #### Comprender las líneas de una colección Ver en modo texto
 
@@ -311,7 +324,7 @@ Para agregar una referencia a una colección en un filtro de informe:
 
    Anote el campo que desee mostrar en la colección.
 
-1. Vuelva al informe y, en la ficha **Filtros**, haga clic en **Cambiar a modo de texto**.
+1. Vuelva al informe y, en la ficha **Filtros**, haga clic en **Cambiar al modo de texto** y, a continuación, en **Editar modo de texto**.
 
 1. En el área **Establecer reglas de filtro para su informe**, pegue el siguiente código:
 
@@ -337,7 +350,7 @@ Para agregar una referencia a una colección en un filtro de informe:
 
    Este informe solo muestra los proyectos que tienen al menos una tarea con la palabra &quot;marketing&quot; en su nombre.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Para filtrar por el nombre de un problema, utilice el siguiente código:
 
@@ -355,7 +368,7 @@ Para agregar una referencia a una colección en un filtro de informe:
 
    O
 
-   Haga clic en **Guardar + Cerrar** para guardar el informe.
+   Haga clic en **Guardar + cerrar** para guardar el informe.
 
 ### Hacer referencia a una colección en la solicitud personalizada de un informe {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
@@ -391,7 +404,7 @@ Para agregar una referencia a una colección en la petición de datos personaliz
    ```
 
 1. (Opcional) Especifique si esta opción se muestra de forma predeterminada en la solicitud.
-1. Reemplace **nombre de objeto de colección** por el nombre del objeto de colección tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md). Este valor suele ser la forma plural del nombre del objeto de colección.
+1. Reemplace **nombre de objeto de colección** por el nombre del objeto de colección tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md). Este valor suele ser la forma plural del nombre del objeto de colección.
 1. Reemplace **campo de objeto de colección** por el nombre del campo del objeto de colección, tal como aparece en el [Explorador de API](../../../wf-api/general/api-explorer.md).
 1. Reemplazar **valor de objeto de colección** por el valor del objeto de colección tal como aparece en Workfront.
 
@@ -399,7 +412,7 @@ Para agregar una referencia a una colección en la petición de datos personaliz
 
 1. Reemplazar **valor del modificador** por un modificador válido.
 
-   Para ver una lista de modificadores, consulte  [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Para obtener una lista de modificadores, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Ejemplo:** Por ejemplo, para generar un informe de proyecto con una solicitud personalizada en el que desee mostrar solamente los proyectos que tengan al menos una tarea asignada a un usuario específico, use el código siguiente:
 
@@ -423,11 +436,11 @@ Para agregar una referencia a una colección en la petición de datos personaliz
 
    >[!NOTE]
    >
-   >Observe que debe usar **issues** para el nombre del objeto de colección. El Explorador de API  no ofrece un nombre de objeto de colección para los problemas en este momento.
+   >Observe que debe usar **issues** para el nombre del objeto de colección. El Explorador de API no ofrece un nombre de objeto de colección para los problemas en este momento.
 
 1. Haga clic en **Listo**.
 1. (Opcional) Continúe editando el informe.
 
    O
 
-   Haga clic en **Guardar + Cerrar** para guardar el informe.
+   Haga clic en **Guardar + cerrar** para guardar el informe.

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Para ver esta página, vaya a Configuración > Grupos > Seleccionar un grupo > N
 
 Esta actualización incluye cambios visuales menores en el área. No se ha cambiado ninguna funcionalidad.
 
-
 ### Actualizaciones de la interfaz de la ficha Notificaciones de recordatorio en Configuración
 
 **Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
@@ -99,9 +98,21 @@ Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en
 
 Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
+## Agile
+
+### Actualización de la interfaz de la lista Iteraciones
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la lista Equipos > Iteraciones con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
+
+Para ver este cambio, vaya a Equipos > seleccione un equipo > Iteraciones.
+
 ## Informes y paneles
 
-## Informes de correo electrónico actualizados con nuevo estilo
+### Informes de correo electrónico actualizados con nuevo estilo
 
 **Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
 
@@ -114,7 +125,7 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ### Se ha actualizado el informe de iteraciones con un nuevo estilo
 
-**Versión preliminar: 17 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 17 de enero de 2025; versión de producción: a partir del 20 de enero de 2025**
 
 Hemos actualizado el informe Iteración con un diseño más moderno y coherente con otras áreas de Workfront.
 
