@@ -7,10 +7,10 @@ description: El planificador de escenarios requiere una licencia independiente d
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '886'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Debe asegurarse de que se cumplen todas las condiciones siguientes para poder ac
 
    * Para los planes actuales de Workfront, su organización debe tener ambos:
 
-      * Su organización debe adquirir un plan [!DNL Workfront] [!UICONTROL Business] o superior de [!DNL Workfront]. Para obtener información sobre los planes de [!DNL Workfront], consulte [Planes de Workfront](https://www.workfront.com/plans).
+      * Su organización debe adquirir un plan [!DNL Workfront] [!UICONTROL Empresa] o superior [!DNL Workfront].
 
       * Su organización debe adquirir una licencia de [!DNL Workfront Scenario Planner] y de [!DNL Workfront]. Póngase en contacto con su representante de cuentas de [!DNL Workfront] para obtener más información sobre las licencias de [!DNL Workfront Scenario Planner].
 

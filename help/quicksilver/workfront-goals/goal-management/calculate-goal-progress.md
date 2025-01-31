@@ -6,10 +6,10 @@ description: El progreso de los objetivos está impulsado por indicadores de pro
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 15%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 0%
 
 Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 
-* Para el nuevo plan y la estructura de licencias:
+* Para la nueva estructura de plan y licencias:
 
-   * Un plan definitivo
+   * Un plan Ultimate
 
      O
 
-     Licencia adicional para objetivos de Adobe Workfront para los planes Prime o Select Adobe Workfront. Para obtener más información, consulte [plan de Adobe Workfront](https://www.workfront.com/plans).
+     Una licencia adicional para Adobe Workfront Goals para los planes Prime o Select de Adobe Workfront.
 
-* Para el plan y la estructura de licencias actuales:
+* Para la estructura actual de plan y licencias:
 
-   * A Pro o superior
+   * Pro o superior
    * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 
 Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 
-Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calcula automáticamente el progreso de la meta en función del progreso de sus indicadores de progreso.
 
@@ -62,7 +62,7 @@ Los siguientes puntos se consideran indicadores de progreso para los objetivos:
 
 * Resultados
 
-  Para obtener información acerca de cómo agregar resultados a las metas, vea [Agregar resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Para obtener información sobre cómo añadir resultados a las metas, consulte [Añadir resultados a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Actividades
 
@@ -131,13 +131,13 @@ En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los 
   </tr> 
   <tr> 
    <td>Nuevo</td> 
-   <td> <p>La meta es de nueva creación y aún no está registrando el progreso. El progreso de una meta se muestra como Nuevo hasta que alguien actualice su progreso por primera vez. </p> <p>Para obtener información sobre cómo actualizar el progreso de la meta, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Actualizar progreso de la meta en Adobe Workfront Goals</a>.</p> </td> 
+   <td> <p>La meta es de nueva creación y aún no está registrando el progreso. El progreso de una meta se muestra como Nuevo hasta que alguien actualice su progreso por primera vez. </p> <p>Para obtener información sobre cómo actualizar el progreso de la meta, consulte <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Actualizar el progreso de las metas en Adobe Workfront Goals</a>.</p> </td> 
    <td>Sin porcentaje</td> 
    <td>Sin barra</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>En destino</span> </p> </td> 
+   <td> <p><span>Bien encaminado</span> </p> </td> 
    <td>El objetivo está funcionando según lo esperado y hay una gran probabilidad de que se complete a tiempo. </td> 
    <td>90-100 %</td> 
    <td>Verde</td> 
@@ -151,7 +151,7 @@ En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los 
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>Con Problemas</span> </p> </td> 
+   <td> <p><span>Con problemas</span> </p> </td> 
    <td> <p>Es muy probable que el objetivo no se complete a tiempo. </p> </td> 
    <td>0-69,99 %</td> 
    <td>Rojo</td> 

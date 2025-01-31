@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '621'
 ht-degree: 62%
 
 ---
@@ -181,18 +181,16 @@ OLD:
 
 Los campos de fórmula de Adobe Workfront Planning admiten la mayoría de las expresiones de los campos calculados de Workfront.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>Las siguientes expresiones de Workfront no son compatibles con los campos de fórmula de Workfront Planning:
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
->* ADDHOUR
->* SWITCH
->* FORMAT
--->
+>* AÑADIR HORA
+>* INTERRUPTOR
+>* FORMATO
+
 
 Para obtener una lista completa de expresiones de Workfront, consulte [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -211,21 +209,6 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Wo
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>MATRIZ</strong> </td>
-   <td> <p>Convierte una cadena en una matriz. El delimitador puede ser cualquier cadena.</p>
-   <p>La expresión tiene el siguiente formato:</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>Devuelve el elemento en el número especificado de la matriz. Si el índice está fuera de los límites, devuelve vacío.</p>
-   <p>La expresión tiene el siguiente formato:</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Devuelve la cadena concatenada por el delimitador.</p> <p>La expresión tiene el siguiente formato:
@@ -233,14 +216,7 @@ Además, se admiten las siguientes expresiones para los campos de fórmula de Wo
 <code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>LONGITUD DE MATRIZ</strong> </td>
-   <td> <p>Devuelve el número de elementos de la matriz con el siguiente formato:</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Devuelve una matriz con valores únicos.</p> <p>La expresión tiene el siguiente formato:
 

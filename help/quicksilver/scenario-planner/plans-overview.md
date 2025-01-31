@@ -7,10 +7,10 @@ description: Como administrador comercial, puede utilizar Adobe Workfront Scenar
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -22,41 +22,6 @@ Como administrador comercial, puede usar [!DNL Adobe Workfront Scenario Planner]
 
 Para obtener información sobre los requisitos de acceso para acceder al Scenario Planner, consulte [Acceso necesario para utilizar el Scenario Planner](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md).
 
-<!--To use the [!DNL Adobe Workfront Scenario Planner] you must have the following access:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</p> </td> 
-   <td>[!UICONTROL Business] or higher</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>License type*</p> </td> 
-   <td> <p>[!UICONTROL Review] or higher. For more information, see <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>[!UICONTROL View] access or higher to the [!DNL Scenario Planner]</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Object permissions</p> </td> 
-   <td> <p>[!UICONTROL View] permissions or higher for a plan***************
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
-      </MadCap:conditionalText>
-     ***************</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
--->
-
 ## Resumen de planes
 
 <!--
@@ -65,7 +30,7 @@ Para obtener información sobre los requisitos de acceso para acceder al Scenari
 
 Puede identificar cada resultado de organización de alto nivel y agregarlo como plan a [!DNL Workfront Scenario Planner]. Un plan es el elemento de trabajo más grande de [!DNL Scenario Planner]. Para facilitar la realización del plan, se puede dividir en varias iniciativas, para indicar qué pasos deben seguir las unidades organizativas individuales hacia su finalización.
 
-A continuación, puede conectar iniciativas con proyectos reales para indicar cómo influyen los factores de trabajo reales en la finalización real del plan. Este artículo proporciona información general sobre los planes. Para obtener información acerca de las iniciativas, consulte [Información general sobre iniciativas en [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
+A continuación, puede conectar iniciativas con proyectos reales para indicar cómo influyen los factores de trabajo reales en la finalización real del plan. Este artículo proporciona información general sobre los planes. Para obtener información acerca de las iniciativas, consulte [Información general sobre iniciativas en  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
 
 Puede definir los recursos laborales y financieros necesarios para completar el trabajo identificado en el plan. También puede ver los recursos laborales y financieros requeridos por las iniciativas en el plan para que se completen.
 
@@ -78,7 +43,7 @@ Puede estimar y revisar la siguiente información para cada plan:
 * Revisar el valor neto del plan en cualquier momento dado.
 * La información a nivel de plan cambia al seleccionar diferentes escenarios. Cada escenario tiene un presupuesto diferente y la información de las personas.
 
-Para obtener información acerca de cómo crear planes, vea el artículo [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+Para obtener más información sobre cómo crear planes, consulte el artículo [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 Para obtener información acerca de cómo crear escenarios, vea [Crear y comparar escenarios de plan en [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
@@ -122,11 +87,11 @@ Puede ver lo siguiente en los cuadros [!UICONTROL Financiero] y [!UICONTROL Resu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL Presupuesto] </p> <p role="rowheader"> </p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL Budget] </p> <p role="rowheader"> </p> </td> 
    <td>Es la cantidad monetaria que su compañía decide que está disponible para ejecutar el plan. Workfront distribuye el presupuesto de forma uniforme para cada mes dentro de la duración del plan. Los presupuestos suelen fijarse para un año, pero también podrían fijarse para un periodo de 3 o 5 años. La moneda que aparece entre paréntesis a la izquierda del título del cuadro Financiero indica la moneda del sistema. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Costos]</td> 
+   <td role="rowheader">[!UICONTROL Costs]</td> 
    <td> <p>Esta es la cantidad total de costes que provienen de todas las iniciativas del plan. Workfront calcula los costes del plan mediante la siguiente fórmula:</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>Para obtener información acerca de cómo se calculan los costos de la iniciativa, vea <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Crear y editar iniciativas en [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 
