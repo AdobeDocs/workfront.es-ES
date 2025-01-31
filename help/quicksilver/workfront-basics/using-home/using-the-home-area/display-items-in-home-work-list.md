@@ -6,10 +6,10 @@ description: Cada widget contiene su propia lista de trabajos. Las listas de tra
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 17%
+source-wordcount: '991'
+ht-degree: 13%
 
 ---
 
@@ -59,6 +59,40 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Requisitos para que los elementos de trabajo se muestren en la lista de trabajo
+
+Hay requisitos integrados para los que los elementos de trabajo se muestran en una determinada lista de trabajos de widgets. Los elementos de trabajo deben cumplir estos requisitos para aparecer en las listas de trabajo del widget siguiente.
+
+### Widget de Mis tareas
+
+Las tareas deben cumplir los siguientes requisitos para aparecer en el widget Mis tareas:
+
+* El estado de la tarea no es igual a Completo.
+* El usuario que ha iniciado sesión debe estar asignado a la tarea.
+* El estado de la tarea no es igual a Listo.
+* El proyecto al que pertenece la tarea debe estar en un estado equivalente a Actual.
+
+
+### Widget de Mis problemas
+
+Los problemas deben cumplir los siguientes requisitos para aparecer en el widget Mis problemas:
+
+* El usuario que ha iniciado sesión debe estar asignado al problema.
+* El estado del problema no equivale a Completo.
+* No hay ningún objeto sin resolver adjunto al problema.
+* El estado del problema no es igual a Listo.
+* El proyecto al que pertenece el problema debe estar en un estado equivalente a Actual.
+
+### Widget de Mis equipos
+
+Las solicitudes de equipo deben cumplir los siguientes requisitos para aparecer en el widget Mis equipos:
+
+* El usuario que ha iniciado sesión pertenece al equipo al que está asignado el elemento de trabajo.
+* El estado del elemento de trabajo no es igual a Completo.
+* El elemento de trabajo no tiene adjunto un proceso de aprobación sin resolver.
+* El elemento de trabajo no es una tarea recurrente.
+* El proyecto al que pertenece el elemento de trabajo debe estar en un estado equivalente a Actual.
 
 ## Filtrar su trabajo
 

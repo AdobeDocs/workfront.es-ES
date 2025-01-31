@@ -8,7 +8,7 @@ description: 'El administrador de Workfront Proof puede configurar una marca per
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 98%
@@ -22,6 +22,7 @@ ht-degree: 98%
 >Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Inicio de sesión
+
 
 1. Vaya a [la página de inicio de sesión](https://app.proofhq.com/login).
 
@@ -45,6 +46,7 @@ Para los planes [!UICONTROL Enterprise] y [!UICONTROL Unlimited], ofrecemos la f
 ## Si olvida su contraseña {#when-you-forget-your-password}
 
 Si olvida su contraseña, puede conseguir que [!DNL Workfront Proof] le envíe un mensaje de correo electrónico para restablecer su contraseña.
+
 
 1. Vaya a [la página de inicio de sesión](https://app.proofhq.com/login).
 
