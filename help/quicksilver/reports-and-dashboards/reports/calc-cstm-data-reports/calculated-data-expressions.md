@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Resumen de las expresiones de datos calculados
+title: Información general de las expresiones de datos calculados
 description: Puede utilizar expresiones de datos para definir campos de datos personalizados calculados en Adobe Workfront. Las expresiones calculadas conectan los campos de Workfront existentes en las instrucciones que generan un nuevo campo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 0%
+source-wordcount: '2425'
+ht-degree: 91%
 
 ---
 
-# Resumen de las expresiones de datos calculados
+# Información general de las expresiones de datos calculados
 
 <!--Audited: 12/2023-->
 
@@ -24,17 +24,17 @@ Puede utilizar expresiones de datos calculados en:
 
 * Un campo personalizado calculado en un formulario personalizado
 
-  Para obtener más información sobre la creación de campos personalizados calculados en formularios personalizados en Workfront, consulte [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+  Para obtener más información sobre la creación de campos personalizados calculados en formularios personalizados en Workfront, consulte [Añadir campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-* Columna personalizada calculada en un informe o una lista, cuando se utiliza el modo de texto
+* Columna personalizada calculada en un informe o una lista cuando se utiliza el modo de texto
 
   Para obtener más información acerca del uso del modo de texto en informes y vistas, vea [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Sintaxis de campos personalizados calculados frente a columnas personalizadas calculadas
 
-Aunque las funciones que utiliza son las mismas, la sintaxis para crear una expresión en un campo personalizado calculado puede ser diferente de la que utiliza para crear una columna personalizada calculada.
+Aunque las funciones que se utilizan son las mismas, la sintaxis para crear una expresión en un campo personalizado calculado puede ser diferente de la que utilice para crear una columna personalizada calculada.
 
-Las diferencias entre las dos sintaxis son las siguientes:
+Las diferencias entre las dos sintaxis son:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,27 +42,27 @@ Las diferencias entre las dos sintaxis son las siguientes:
  <tbody> 
   <tr> 
    <td><strong>Campo personalizado calculado</strong></td> 
-   <td><strong>Elemento de informe personalizado calculado</strong></td> 
+   <td><strong>Elemento de creación de informe personalizado calculado</strong></td> 
   </tr> 
    <td>Incluir los nombres de los campos entre llaves</td> 
    <td>No escriba los nombres de los campos entre corchetes o paréntesis cuando los utilice en una <p><code>valuefield </code></p>línea. <p>Incluya los nombres de los campos entre llaves cuando los utilice en una <p><code>valueexpression</code></p> línea.</p> </td> 
   </tr> 
   <tr> 
-   <td>Separar los campos por puntos</td> 
-   <td> <p>Separe los campos por dos puntos al usarlos en una <p><code>valuefield </code></p>línea</p> <p>Separe los campos por puntos al usarlos en una <p><code>valueexpression </code></p>línea. </p> </td> 
+   <td>Separe los campos con puntos</td> 
+   <td> <p>Separe los campos con dos puntos al usarlos en una <p><code>valuefield </code></p>línea.</p> <p>Separe los campos con puntos al usarlos en una <p><code>valueexpression </code></p>línea. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Por ejemplo:
 
-* En un campo personalizado, en un formulario personalizado para tareas, debe utilizar lo siguiente para generar el nombre del proyecto principal de la tarea donde se adjunta el formulario personalizado:
+* En un campo personalizado, en un formulario personalizado para tareas, se utilizaría lo siguiente para generar el nombre del proyecto principal de la tarea donde se adjunta el formulario personalizado:
 
 
   ` {project}.{name}`
 
 
-* En una columna personalizada de un informe, utilizaría lo siguiente para agregar una columna personalizada Nombre del proyecto en un informe de tareas:
+* En una columna personalizada de un informe, se utilizaría lo siguiente para añadir una columna personalizada Nombre del proyecto en un informe de tareas:
 
 
   `valuefield=project:name`
@@ -75,9 +75,9 @@ Por ejemplo:
 
   >[!TIP]
   >
-  >La misma sintaxis se aplica a todos los elementos de creación de informes en modo de texto donde se utilizan expresiones calculadas: vistas, filtros, agrupaciones, indicadores.
+  >La misma sintaxis se aplica a todos los elementos de creación de informes en el modo de texto donde se utilizan expresiones calculadas: vistas, filtros, agrupaciones, indicadores.
 
-Para obtener más información acerca de la sintaxis que debe usar en una columna personalizada calculada, vea [Introducción al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obtener más información acerca de la sintaxis que debe usar en una columna personalizada calculada, vea [Información general al modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Expresiones de datos que puede utilizar
 
@@ -87,7 +87,7 @@ Las siguientes listas definen las expresiones disponibles que puede utilizar al 
 * [Campos personalizados calculados matemáticos](#mathematical-calculated-custom-fields)
 * [Campos personalizados calculados de texto](#text-calculated-custom-fields)
 
-Puede utilizar las expresiones enumeradas a continuación para crear columnas personalizadas calculadas. Sin embargo, debe utilizar la sintaxis correcta para una columna personalizada calculada, tal como se describe en la sección [Sintaxis de los campos personalizados calculados frente a columnas personalizadas calculadas](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) de este artículo.
+Puede utilizar las expresiones que se enumeran a continuación para crear columnas personalizadas calculadas. Sin embargo, debe utilizar la sintaxis correcta para una columna personalizada calculada, tal como se describe en la sección [Sintaxis de los campos personalizados calculados vs. columnas personalizadas calculadas](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) de este artículo.
 
 ### Campos personalizados calculados por fecha y hora {#date-time-calculated-custom-fields}
 
@@ -115,7 +115,7 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>Agrega el número de días de la semana a la fecha. Esta expresión solo agrega valores enteros a la fecha, redondeando hacia abajo. </p> <p>La expresión tiene el siguiente formato:</p>
+   <td> <p>Añade el número de días de la semana a la fecha. Esta expresión solo añade valores enteros a la fecha, redondeando hacia abajo. </p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>ADDWEEKDAYS(date, number)</code></p> </td> 
   </tr> 
@@ -132,20 +132,27 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
+   <td><strong>AGREGAR HORA</strong> </td> 
+   <td> <p>Añade el número de horas a la fecha y tiene el siguiente formato:</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>Borra la parte de hora de una fecha y tiene el siguiente formato. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p>
 
 <p><code>CLEARTIME({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>FECHA</strong> </td> 
+   <td><strong>DATE</strong> </td> 
    <td> <p>Convierte una cadena en una fecha y tiene el siguiente formato:</p>
 
 <p><code>DATE(string)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>DATEDIFF</strong> </td> 
-   <td> <p>Devuelve el número de días entre las dos fechas, teniendo en cuenta los días de inicio y finalización del periodo seleccionado, así como las marcas de tiempo de esos días. Por ejemplo, si la hora de inicio de la fecha de inicio es 15:00, el día de inicio no se cuenta como un día completo.</p> <p>La expresión tiene el siguiente formato:</p>
+   <td> <p>Devuelve el número de días entre las dos fechas, teniendo en cuenta los días de inicio y de finalización del periodo seleccionado, así como las marcas de tiempo de esos días. Por ejemplo, si la hora de inicio de la fecha de inicio son las 15:00 h, el día de inicio no se cuenta como un día completo.</p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>DATEDIFF(date1, date2)</code></p> </td> 
   </tr> 
@@ -169,7 +176,7 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
   </tr> 
   <tr> 
    <td><strong>DAYSINSPLITWEEK</strong> </td> 
-   <td> <p>Devuelve el total de días de la semana entre la fecha y el final de la semana o el final del mes, el que sea primero. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p> <p>La expresión tiene el siguiente formato:</p>
+   <td> <p>Devuelve el total de días de la semana entre la fecha y el final de la semana o el final del mes, lo que se dé primero. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>DAYSINSPLITWEEK({entryDate})</code></p> </td> 
   </tr> 
@@ -181,36 +188,36 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
   </tr> 
   <tr> 
    <td><strong>DMAX</strong> </td> 
-   <td> <p>Devuelve la fecha más reciente en la lista y tiene el siguiente formato:</p>
+   <td> <p>Devuelve la fecha más reciente de la lista y tiene el siguiente formato:</p>
 
 <p><code>DMAX(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADMINISTRADOR</strong> </td> 
-   <td> <p>Devuelve la fecha más temprana de la lista y tiene el siguiente formato:</p>
+   <td><strong>DMIN</strong> </td> 
+   <td> <p>Devuelve la fecha más anterior de la lista y tiene el siguiente formato:</p>
 
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>HORA</strong> </td> 
+   <td><strong>HOUR</strong> </td> 
    <td> <p>Devuelve la hora de la fecha en forma de número entre 0 y 23.</p> <p>La expresión tiene el siguiente formato. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p>
 
 <p><code>HOUR({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>MINUTO</strong> </td> 
+   <td><strong>MINUTE</strong> </td> 
    <td> <p>Devuelve el minuto de la fecha en forma de número entre 0 y 60, con el siguiente formato. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p>
 
 <p><code>MINUTE({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>MES</strong> </td> 
+   <td><strong>MONTH</strong> </td> 
    <td> <p>Devuelve el mes de la fecha en forma de número entre 1 y 12, con el siguiente formato. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SEGUNDO</strong> </td> 
+   <td><strong>SECOND</strong> </td> 
    <td> <p>Devuelve el segundo de la fecha en forma de número entre 0 y 60, con el siguiente formato. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
@@ -223,12 +230,12 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
   </tr> 
   <tr> 
    <td><strong>WORKMINUTESDIFF</strong> </td> 
-   <td> <p>Devuelve la cantidad de minutos programados entre las fechas según el horario predeterminado.</p> <p>La expresión tiene el siguiente formato:</p>
+   <td> <p>Devuelve la cantidad de minutos programados entre las dos fechas según el horario predeterminado.</p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>WORKMINUTESDIFF(date1, date2)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>AÑO</strong> </td> 
+   <td><strong>YEAR</strong> </td> 
    <td> <p>Devuelve el año de la fecha en un número de 4 dígitos con el siguiente formato. En este ejemplo, la fecha es la fecha de entrada de un objeto de trabajo.</p>
 
 <p><code>YEAR({entryDate})</code></p> </td> 
@@ -257,7 +264,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>ABS({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>PROMEDIO</strong> </td> 
+   <td><strong>AVERAGE</strong> </td> 
    <td>Devuelve el promedio de números y tiene el siguiente formato:
 
 <p><code>AVERAGE(number1, number2, ...)</code></p></td> 
@@ -275,7 +282,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>PISO</strong> </td> 
+   <td><strong>FLOOR</strong> </td> 
    <td>Redondea un número hacia abajo hasta el entero más próximo y tiene el siguiente formato. En este ejemplo se utiliza el número de objetos situados debajo del objeto donde está adjunto el formulario personalizado.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -287,7 +294,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>REGISTRO</strong> </td> 
+   <td><strong>LOG</strong> </td> 
    <td>Devuelve el valor de logaritmo del número2 en base el número1 y tiene el siguiente formato:
 
 <p><code>LOG(number1, number2)</code></p></td> 
@@ -305,11 +312,11 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>MIN(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>NÚMERO</strong> </td> 
+   <td><strong>NUMBER</strong> </td> 
    <td>Convierte una cadena en un número y tiene el siguiente formato:<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>POTENCIA</strong> </td> 
+   <td><strong>POWER</strong> </td> 
    <td>Devuelve un número elevado a una potencia y tiene el siguiente formato:
 
 <p><code>POWER(number, power)</code></p></td> 
@@ -321,11 +328,11 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>PROD(number1, number2, ....)</code></p>
    <p><b>NOTA</b></p>
 
-<p>Al multiplicar los campos que contienen horas, asegúrese de comprender si la base de datos guarda las horas de los campos seleccionados en minutos, horas o segundos. Si las horas se guardan en minutos o segundos pero se muestran en horas en la interfaz de Workfront, es posible que tenga que tener en cuenta la conversión de minutos o segundos a horas al escribir una expresión con este cálculo. </p>
+<p>Al multiplicar los campos que contienen horas, asegúrese de comprender si la base de datos guarda las horas de los campos seleccionados en minutos, horas o segundos. Si las horas se guardan en minutos o segundos, pero se muestran en horas en la interfaz de Workfront, es posible que deba tener en cuenta la conversión de minutos o segundos a horas al escribir una expresión con este cálculo. </p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>RONDA</strong> </td> 
+   <td><strong>ROUND</strong> </td> 
    <td>Redondea el número hacia arriba para especificar los decimales de precisión y tiene el siguiente formato:
 
 <p><code>ROUND(number, precision)</code></p></td> 
@@ -355,7 +362,7 @@ Puede crear un campo personalizado calculado que utilice algunas de las siguient
 <p><code>SUB(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SUMA</strong> </td> 
+   <td><strong>SUM</strong> </td> 
    <td>Suma todos los números y tiene el siguiente formato:
 
 <p><code>SUM(number1, number2, ...)</code></p></td> 
@@ -378,13 +385,49 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>CASO</strong> </td> 
-   <td> <p>Se utiliza con otras expresiones para elegir un valor de una lista, según un número de índice. </p>
+   <td><strong>MATRIZ</strong> </td> 
+   <td> <p>Convierte una cadena en una matriz. El delimitador puede ser cualquier cadena.</p> 
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>LONGITUD DE MATRIZ</strong> </td> 
+   <td> <p>Devuelve el número de elementos de la matriz con el siguiente formato:</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>Devuelve el elemento en el número especificado de la matriz. Si el índice está fuera de los límites, devuelve vacío.</p> 
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Ordena los elementos de la matriz en orden ascendente y los convierte al tipo del primer elemento.</p>
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Por ejemplo, ["-12,6", -13,0] se convierte en ["-12,6", "-13"].</p>
+   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Ordena los elementos de la matriz en orden descendente y los convierte al tipo del primer elemento.</p>
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Por ejemplo, ["-12,6", -13,0] se convierte en ["-13", "-12,6"].</p>
+   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+  </tr>
+  <tr>   
+   <td><strong>CASE</strong> </td> 
+   <td> <p>Se utiliza con otras expresiones para elegir un valor de una lista según un número de índice. </p>
    <p>Un número de índice es un campo o una función que devuelve un valor numérico (normalmente en un intervalo conocido).</p> 
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>CASE(indexNumber, value1, value2, ...)</code></p>
 
-<p>Por ejemplo, la siguiente expresión devuelve el nombre del día de la semana, donde 1=domingo, 2=lunes, etc., en una columna calculada:</p>
+<p>Por ejemplo, la siguiente expresión devuelve el nombre del día de la semana, donde 1 = domingo, 2 = lunes, etc., en una columna calculada:</p>
 
 <p><code>CASE(DAYOFWEEK({entryDate}),"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")</code></p>
 
@@ -402,70 +445,77 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>CONTIENE</strong> </td> 
-   <td>Devuelve true si la cadena texto se encuentra dentro de la cadena enTexto y tiene el siguiente formato:
+   <td><strong>CONTAINS</strong> </td> 
+   <td>Devuelve verdadero si la cadena findText se encuentra dentro de la cadena withinText y tiene el siguiente formato:
 
 <p><code>CONTAINS(findText, withinText)</code></p></td> 
   </tr> 
   <tr> 
    <td><strong>ENCODEURL</strong> </td> 
-   <td>Omite cualquier carácter especial de la cadena para que se pueda incluir en un argumento URL.<p>La expresión tiene el siguiente formato:</p>
+   <td>Excluye cualquiera de los caracteres especiales de la cadena para ser incluidos en un argumento URL.<p>La expresión tiene el siguiente formato:</p>
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SI</strong> </td> 
-   <td> <p>Evalúa una condición especificada y devuelve el valor de la expresión verdadera si es verdadera o el valor de la expresión falsa si es falsa.</p>
+   <td><strong>FORMATO</strong> </td> 
+   <td><p>Devuelve texto con formato. Las opciones de color son $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE y las demás opciones de formato son $$BOLD, $$ITALIC, $$UNDERLINE. Solo se puede utilizar una opción de color por función, junto con hasta tres opciones de formato más. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.</p>
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+  </tr>   
+  <tr> 
+   <td><strong>IF</strong> </td> 
+   <td> <p>Evalúa una condición que se haya especificado y devuelve el valor de trueExpression si es verdadero o el valor de falseExpression si es falsa.</p>
 
 <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>IF(condition, trueExpression, falseExpression)</code></p>
 
-<p>Por ejemplo, puede comparar dos campos de fecha diferentes seguidos de un resultado Verdadero/Falso como cadena de datos:</p>
+<p>Por ejemplo, puede comparar dos campos de fecha diferentes seguidos de un resultado Verdadero/Falso como una cadena de datos:</p>
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","On Track")</code></p>
 
-<p>En el discurso diario, esta afirmación significa: "SI la fecha proyectada de finalización de mi objeto es 'mayor que' que la fecha planificada de finalización de mi mismo objeto, entonces muestre las palabras 'Fuera de pista' en este campo; de lo contrario, muestre las palabras 'En pista'".</p>
+<p>En el discurso diario, esta instrucción significa: “Si la fecha proyectada de finalización de mi objeto es 'mayor que' que la fecha planificada de finalización de mi mismo objeto, entonces muestra las palabras 'Fuera de calendario' en este campo; de lo contrario, muestra las palabras 'Según lo planeado'”.</p>
 
-<p>Si no desea etiquetar las expresiones true o false, debe insertar una etiqueta en blanco en la instrucción, como:</p>
+<p>Si no desea etiquetar las expresiones verdadera o falsa, debe insertar una etiqueta en blanco en la instrucción, como:</p>
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"","On Track")</code></p> 
    <p>O</p>
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Para obtener más información acerca de la creación de instrucciones "IF", vea <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref"> información general sobre instrucciones "IF"</a>.</p> </td> 
+<p>Para obtener más información acerca de la creación de instrucciones “IF”, vea <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Información general sobre instrucciones “IF”</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
-   <td> <p>Permite buscar un valor específico en una cadena de valores posibles. Si el valor que busca es igual a uno de los valores proporcionados, la expresión devuelve la expresión verdadera; de lo contrario, devuelve la expresión falsa.</p> 
+   <td> <p>Permite buscar un valor específico en una cadena de valores posibles. Si el valor que busca es igual a uno de los valores proporcionados, la expresión devuelve trueExpression; de lo contrario, devuelve falseExpression.</p> 
    <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>IFIN(value, value1, value2,..., trueExpression, falseExpression)</code></p>
 
-<p>Por ejemplo, puede encontrar un Propietario del proyecto específico y marcar esos proyectos con una etiqueta especificada en una vista de proyecto: <br><p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","Other Teams")
+<p>Por ejemplo, puede encontrar un Propietario del proyecto específico y marcar esos proyectos con una etiqueta especificada en una vista del proyecto: <br><p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","Other Teams")
    </code></p>
-    <p> En el discurso diario, esta declaración significa: "Si el propietario del proyecto es Jennifer Campbell o Rick Kuvec, marque este proyecto con 'Equipo de marketing'; de lo contrario, márquelo con 'Otros equipos'".</p> 
-    <p> Si no desea etiquetar las expresiones true o false, debe insertar una etiqueta en blanco en la instrucción, como: </p> 
+    <p> En el discurso diario, esta instrucción significa: “Si el propietario del proyecto es Jennifer Campbell o Rick Kuvec, marca este proyecto con 'Equipo de marketing'; de lo contrario, márcalo con 'Otros equipos'”.</p> 
+    <p> Si no desea etiquetar las expresiones verdadera o falsa, debe insertar una etiqueta en blanco en la instrucción, como: </p> 
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","","Other Teams")</code></p> 
     <p>O </p> 
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","")</code></p> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>EN</strong> </td> 
+   <td><strong>IN</strong> </td> 
    <td> <p>Devuelve verdadero si el valor equivale a uno de los valores proporcionados; de lo contrario, la expresión devuelve falso.</p> <p>La expresión tiene el siguiente formato:
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ESBLANCO</strong> </td> 
+   <td><strong>ISBLANK</strong> </td> 
    <td> <p>Devuelve verdadero si el valor es nulo o está vacío; de lo contrario, la expresión devuelve falso.</p> <p>La expresión tiene el siguiente formato:
 
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>IZQUIERDA</strong> </td> 
-   <td> <p>Devuelve un número especificado de caracteres desde el lado izquierdo de una cadena y tiene el siguiente formato:</p>
+   <td><strong>LEFT</strong> </td> 
+   <td> <p>Devuelve el número de caracteres especificado del lado izquierdo de una cadena y tiene el siguiente formato:</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
   </tr> 
@@ -476,46 +526,44 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>INFERIOR</strong> </td> 
+   <td><strong>LOWER</strong> </td> 
    <td>Devuelve la cadena en minúsculas y tiene el siguiente formato:
 
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>REEMPLAZAR</strong> </td> 
-   <td> <p>Reemplaza todas las apariciones de cadena2 por cadena3 en cadena1.</p> <p>La expresión tiene el siguiente formato:</p>
+   <td><strong>REPLACE</strong> </td> 
+   <td> <p>Reemplaza todas las ocurrencias de string2 por string3 en string1</p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DERECHO</strong> </td> 
+   <td><strong>RIGHT</strong> </td> 
    <td> <p>Devuelve el número de caracteres especificado del lado derecho de una cadena y tiene el siguiente formato:</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>BUSCAR</strong> </td> 
-   <td> <p>Devuelve el índice de la primera aparición de texto en la cadena enTexto, comenzando en la posición de inicio dada o -1 si no se encuentra el texto.</p> <p>La expresión tiene el siguiente formato:</p>
+   <td><strong>SEARCH</strong> </td> 
+   <td> <p>Devuelve el índice de la primera ocurrencia de findText en la cadena withinText, comenzando en la posición de inicio dada o -1 si no se encuentra el texto.</p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>CADENA</strong> </td> 
+   <td><strong>STRING</strong> </td> 
    <td> <p>Convierte un número en una cadena y tiene el siguiente formato:</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>Ordena una lista de cadenas en orden ascendente y tiene el siguiente formato:</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> Ordena una lista de cadenas en orden descendente y tiene el siguiente formato:</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -524,14 +572,21 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>RECORTAR</strong> </td> 
-   <td> <p>Elimina los espacios en blanco del principio y del final de una cadena y tiene el siguiente formato:</p>
+   <td><strong>CONMUTADOR</strong> </td> 
+   <td> <p>Evalúa la expresión frente a una lista de valores y devuelve el resultado correspondiente al primer valor coincidente.</p>
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Esta función no se admite en Workfront Planning.</p></td> 
+  </tr>   
+  <tr> 
+   <td><strong>TRIM</strong> </td> 
+   <td> <p>Quita los espacios en blanco del principio y del final de una cadena y tiene el siguiente formato:</p>
 
 <p><code>TRIM(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUPERIOR</strong> </td> 
-   <td> <p>Devuelve una cadena en mayúsculas con el siguiente formato:</p>
+   <td><strong>UPPER</strong> </td> 
+   <td> <p>Devuelve una cadena en mayúsculas y tiene el siguiente formato:</p>
 
 <p><code>UPPER(string)</code></p> </td> 
   </tr> 
