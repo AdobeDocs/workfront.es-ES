@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 41%
+source-wordcount: '710'
+ht-degree: 40%
 
 ---
 
@@ -36,10 +36,10 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
 
 ## Mejoras de Adobe Workfront
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Mejoras en el administrador](#administrator-enhancements)
 * [Otras mejoras](#other-enhancements)
 
-<!--### Administrator enhancements
+### Mejoras en el administrador
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            Expresiones agregadas a campos personalizados calculados</a></p>
+            <p>Ahora están disponibles las siguientes expresiones en los campos personalizados calculados de Workfront: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT y ADDHOUR. Las definiciones y los ejemplos de cada expresión están disponibles en el editor de cálculos y en el Experience League.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Disponible en estas fechas:</b></p>
             <ul>
-                <li>Preview release: January 30, 2025</li>
-                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
+                <li>Versión de vista previa: sábado, 31 de enero de 2025</li>
+                <li><span class="preview">Versión de producción para todos los clientes: 31 de enero de 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>-->
+</table>
 
 ### Otras mejoras
 
