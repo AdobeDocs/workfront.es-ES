@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en
 Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
 ## Agile
+
+## Actualización de la interfaz del área Equipos > Registro de pendientes
+
+**Versión preliminar: 23 de enero de 2025; versión de producción: a partir del 13 de febrero de 2025**
+
+Hemos actualizado el área Equipos > Registro de pendientes con un diseño más moderno que es coherente con otras áreas de Workfront.
+
+Esta actualización incluye los siguientes cambios:
+
+* Mejoras visuales en la ficha Historias y problemas, así como en el cuadro de diálogo Desglosar historia
+* Un nuevo cuadro de diálogo para la herramienta Planificar iteración
 
 ### Actualización de la interfaz de la lista Iteraciones
 

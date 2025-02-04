@@ -4,10 +4,11 @@ description: Actualizaciones de apariencia durante el periodo de lanzamiento del
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 46%
+source-wordcount: '76'
+ht-degree: 100%
 
 ---
 
@@ -17,13 +18,13 @@ En esta página se describen actualizaciones menores en la apariencia de varias 
 
 Para obtener una lista de todos los cambios disponibles con la versión del segundo trimestre de 2025, consulte [Información general sobre la versión del segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-## Nueva apariencia para el cuadro de diálogo Compartir
+<!--## New look and feel for the Share dialog 
 
 >[!NOTE]
 >
->Versión preliminar: 30 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
-Hemos actualizado el aspecto del diseño moderno del cuadro de diálogo Compartir, que es coherente con otras áreas de Workfront. Hay pequeñas diferencias visuales, incluyendo:
+We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
 
-* La opción &quot;Visible en todo el sistema&quot; ahora muestra &quot;Todos los usuarios del sistema pueden ver&quot;. Esta opción sigue funcionando como antes.
-* Hay un nuevo icono para acceder a la configuración avanzada de recursos compartidos.
+* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
+* There is a new icon to access advanced share settings.-->
