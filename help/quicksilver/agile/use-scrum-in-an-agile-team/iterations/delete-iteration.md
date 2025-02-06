@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Eliminación de una iteración
-description: Puede eliminar una iteración para su equipo Agile si ya no la necesita.
+title: Eliminar una iteración
+description: Puede eliminar una iteración para su equipo ágil si ya no es necesaria.
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 1%
+source-wordcount: '165'
+ht-degree: 82%
 
 ---
 
-# Eliminación de una iteración
+# Eliminar una iteración
 
-Puede eliminar una iteración para su equipo Agile si ya no la necesita.
+Puede eliminar una iteración para su equipo ágil si ya no es necesaria.
 
 >[!NOTE]
 >
@@ -46,15 +46,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Eliminación de una iteración
+## Eliminar una iteración
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]**.
-1. Seleccione la iteración que desee eliminar y, a continuación, haga clic en **[!UICONTROL Eliminar]**.
+1. En el panel izquierdo, seleccione **[!UICONTROL Iterations]**.
+1. Seleccione la iteración que desee eliminar y, a continuación, haga clic en el icono [!UICONTROL **Eliminar**] ![Eliminar icono](assets/delete-icon.png).

@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Ver una iteración
-description: Puede ver todas las iteraciones de un equipo determinado o puede ver una iteración individual. Las iteraciones muestran datos sobre los artículos, problemas y documentos que contiene la iteración.
+description: Puede ver todas las iteraciones de un equipo determinado o puede ver una iteración individual. Las iteraciones muestran datos sobre las historias, los problemas y los documentos que contiene la iteración.
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
 # Ver una iteración
 
-Puede ver todas las iteraciones de un equipo determinado o puede ver una iteración individual. Las iteraciones muestran datos sobre los artículos, problemas y documentos que contiene la iteración.
+Puede ver todas las iteraciones de un equipo determinado o puede ver una iteración individual. Las iteraciones muestran datos sobre las historias, los problemas y los documentos que contiene la iteración.
 
 ## Requisitos de acceso
 
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,11 +50,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono de **[!UICONTROL Cambiar equipo]** ![icono de Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
 
-   ![Lista de iteraciones](assets/view-iteration-NWE.png)
+   ![Lista de iteraciones](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
@@ -64,4 +64,4 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. (Opcional) Haga clic en el nombre de la iteración específica que desea ver.
 Se muestran las historias de iteración.
 
-   ![[!UICONTROL Historias en iteración]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Historias en la iteración]](assets/iteration-stories-list-NWE.png)
