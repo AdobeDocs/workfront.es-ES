@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 1%
+source-wordcount: '816'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -53,26 +53,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Nombres de usuario SSO
+## Nombres de usuario de SSO
 
-Según la solución de SSO que utilice, el nombre de usuario del entorno de SSO se puede llamar como cualquiera de las siguientes opciones:
+Según la solución de SSO que utilice, el nombre de usuario del entorno de SSO puede llamarse de cualquiera de las siguientes maneras:
 
 * Nombre de usuario de SSO
 * Identificador de federación
-* Usuario de federación
+* Nombre de usuario de SSO
 
 Independientemente de cómo se llame el nombre de usuario en su entorno de SSO, el valor del campo se almacena en el campo Nombre de usuario de SSO, en el objeto Usuario.
 
 Para que los usuarios puedan utilizar sus credenciales de SSO para iniciar sesión en Workfront, debe actualizar su perfil para incluir su nombre de usuario de SSO, además de su nombre de usuario de Workfront.
 
-Como administrador de Workfront, puede actualizar de forma masiva el campo Nombre de usuario SSO para sus usuarios de Workfront importando una lista de nombres de usuario en Workfront. Esta lista debe:
+Como administrador de Workfront, puede actualizar en lotes el campo Nombre de usuario de SSO para sus usuarios de Workfront importando una lista de nombres de usuario en Workfront. Esta lista debe contener lo siguiente:
 
-* Contiene el ID de usuario de Workfront (GUID) así como el nombre de usuario de SSO correspondiente para cada usuario
-* Se puede guardar como archivo CSV o TSV.
+* Contener el ID de usuario de Workfront (GUID) así como el nombre de usuario de SSO correspondiente para cada usuario
+* Guardarse como archivo CSV o TSV.
 
 Este proceso actualiza los nombres de usuario de SSO existentes en Workfront o añade un nuevo nombre de usuario de SSO, en caso de que falte uno para los usuarios.
 
@@ -90,35 +90,35 @@ Puede empezar a preparar el archivo de importación creando un informe de todos 
    |---|---|
    | Nombre | Nombre completo del usuario de Workfront. |
    | Identificador | El ID es el GUID alfanumérico de Workfront. |
-   | Nombre de usuario de SSO | Añadir el campo Nombre de usuario SSO para garantizar que no haya nombres de usuario que sobrescriba con la importación. Este campo debe estar en blanco para todos los usuarios si estos aún no se han actualizado para SSO. |
+   | Nombre de usuario de SSO | Añada el campo Nombre de usuario SSO para garantizar que no haya nombres de usuario que sobrescriba con la importación. Este campo debe estar en blanco para todos los usuarios si estos aún no se han actualizado para SSO. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Usuarios con nombre de usuario SSO pero sin acceso](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Guarde el informe.
-1. Haga clic en **Exportar** en la parte superior del informe y exporte el informe a Excel.
+1. Haga clic en **Exportar** en la parte superior del informe y expórtelo a Excel.
 1. Abra el archivo de Excel exportado y añada los nombres de usuario de SSO para cada usuario en el informe, en la columna Nombre de usuario de SSO.
 
    >[!IMPORTANT]
    >
    >Los nombres de usuario de SSO distinguen entre mayúsculas y minúsculas.
 
-1. Elimine todas las columnas del archivo de Excel, excepto las columnas **ID** y **SSO Username**.
+1. Elimine todas las columnas del archivo de Excel, excepto las columnas **ID** y **Nombre de usuario de SSO**.
 
 1. Elimine los encabezados de columna y asegúrese de que no haya filas en blanco en la parte superior del informe.
 
-   El archivo que está usando para actualizar a los usuarios de Workfront con los nombres de usuario SSO **debe** contener solo 2 columnas, en este orden:
+   El archivo que está usando para actualizar a los usuarios de Workfront con los nombres de usuario de SSO **debe** contener solo 2 columnas, en este orden:
 
-   * La primera columna debe mostrar el ID de usuario de Workfront (el GUID de usuario encontrado en Workfront).
+   * La primera columna debe mostrar el ID de usuario de Workfront (el GUID de usuario tal como se encuentra en Workfront).
    * La segunda columna debe contener el nombre de usuario de SSO, tal como se muestra en el sistema de SSO.
    * Las columnas no deben tener encabezados y no debe haber ninguna fila vacía en la parte superior de la lista de nombres.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Actualizar el CSV de los usuarios](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Guarde el informe como archivo CSV o TSV en el equipo.
 
-## Actualizar los usuarios para SSO {#update-your-users-for-sso}
+## Actualización de los usuarios para SSO {#update-your-users-for-sso}
 
-El proceso de actualización de usuarios para SSO añade el campo Nombre de usuario de SSO a los usuarios de Workfront si no hay ninguno presente, o actualiza el valor de ese campo si hay un valor ya asociado a los usuarios.
+El proceso de actualización de los usuarios para SSO añade el campo Nombre de usuario de SSO a los usuarios de Workfront si no hay ninguno presente, o actualiza el valor de ese campo si ya hay uno asociado a los usuarios.
 
 {{step-1-to-setup}}
 
@@ -126,25 +126,25 @@ El proceso de actualización de usuarios para SSO añade el campo Nombre de usua
 
 1. Haga clic en **Elegir archivo** para buscar el archivo que ha preparado.
 
-   Para obtener más información acerca de cómo preparar este archivo, vea [Preparar el archivo de importación](#prepare-the-import-file).
+   Para obtener más información sobre cómo preparar este archivo, consulte [Preparación del archivo de importación](#prepare-the-import-file).
 
 1. Seleccione el archivo desde donde se guardó en el equipo y, a continuación, haga clic en **Abrir**.
 
-   Esto inserta las credenciales de SSO en Workfront, lo que permite a todos los usuarios iniciar sesión en Workfront con sus credenciales de SSO.
+   Se insertarán las credenciales de SSO en Workfront, lo que permite a todos los usuarios iniciar sesión en Workfront con sus credenciales de SSO.
 
-   La configuración **Permitir solo la autenticación `<SSO Configuration>`** está habilitada para todos los usuarios incluidos en el CSV. Esto garantiza que los usuarios deben iniciar sesión mediante SSO.
+   La configuración **Permitir solo la autenticación `<SSO Configuration>`** está habilitada para todos los usuarios incluidos en el CSV. Esto garantiza que los usuarios inicien la sesión mediante SSO.
 
 ## Comprobación del SSO con los nombres de usuario de Workfront de los usuarios
 
-Para obtener instrucciones sobre cómo generar un informe de usuario que contenga información sobre el nombre de usuario SSO, consulte [Preparar el archivo de importación](#prepare-the-import-file).
+Para obtener instrucciones sobre cómo generar un informe de usuario que contenga información sobre el nombre de usuario de SSO, consulte [Preparación del archivo de importación](#prepare-the-import-file).
 
 1. Ejecute un informe de usuario que contenga información sobre el nombre de usuario de SSO.
 
-   Observe que la columna Nombre de usuario SSO se rellena para cada usuario.
+   Observe que la columna Nombre de usuario de SSO se rellena para cada usuario.
 
-1. Asegúrese de que los valores de la columna Nombre de usuario SSO coinciden con el Nombre de usuario SSO del servidor SSO.
-1. Si la columna Nombre de usuario SSO está en blanco, actualice los nombres de usuario SSO de los usuarios.
+1. Asegúrese de que los valores de la columna Nombre de usuario de SSO coinciden con el Nombre de usuario de SSO del servidor de SSO.
+1. Si la columna Nombre de usuario de SSO está en blanco, actualice los nombres de usuario de SSO de los usuarios.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![Usuarios con campo SSO](assets/users-with-sso-field-updated.png)
 
-   Para obtener instrucciones sobre cómo actualizar los usuarios de SSO, consulte [Actualizar los usuarios de SSO](#update-your-users-for-sso).
+   Para obtener instrucciones sobre la actualización de los usuarios para SSO, consulte [Actualización de los usuarios para SSO](#update-your-users-for-sso).

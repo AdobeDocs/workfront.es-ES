@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configurar preferencias para actualizaciones de usuarios
-description: Puede configurar las preferencias que permiten acceder a determinadas funciones cuando los usuarios agregan comentarios en el área [!UICONTROL Actualizaciones] de un objeto.
+description: Puede configurar las preferencias que permiten acceder a determinadas funciones cuando los usuarios añaden comentarios en el área [!UICONTROL Actualizaciones] de un objeto.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
 # Configurar preferencias para actualizaciones de usuarios
 
-Puede configurar las preferencias que conceden a los usuarios acceso a determinadas características cuando agregan comentarios en el área [!UICONTROL Actualizaciones] de un objeto.
+Puede configurar las preferencias que conceden a los usuarios acceso a determinadas funciones cuando añaden comentarios en el área [!UICONTROL Actualizaciones] de un objeto.
 
 ## Requisitos de acceso
 
@@ -37,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Nuevo: [!UICONTROL Standard]</p>
    O
-   <p>Actual: [!UICONTROL plan]</p>
+   <p>Actual: [!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
@@ -47,27 +47,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Permitir que los usuarios agreguen imágenes en las actualizaciones
+## Permitir que los usuarios añadan imágenes en las actualizaciones
 
-De forma predeterminada, los usuarios no pueden agregar imágenes en las actualizaciones. Al habilitar esta preferencia, los usuarios podrán adjuntar imágenes en las actualizaciones. La preferencia se aplica a todas las actualizaciones en todas las áreas de la instancia de [!DNL Workfront].
+De forma predeterminada, los usuarios no pueden añadir imágenes en las actualizaciones. Al habilitar esta preferencia, los usuarios podrán adjuntar imágenes en las actualizaciones. La preferencia se aplica a todas las actualizaciones en todas las áreas de la instancia de [!DNL Workfront].
 
 >[!NOTE]
 >
 >* Las imágenes guardadas en las actualizaciones se contabilizan en el límite de almacenamiento de documentos. Para obtener más información, consulte [Comprobar límites de almacenamiento de documentos](../../../documents/managing-documents/check-document-storage.md).
->* Se puede acceder a las imágenes a través de la ficha [!UICONTROL Actualizaciones] de un objeto y también están disponibles en el área de [!UICONTROL Documentos] en el [!UICONTROL Menú principal].
+>* Se puede acceder a las imágenes a través de la pestaña [!UICONTROL Actualizaciones] de un objeto y también están disponibles en el área de [!UICONTROL Documentos] en el [!UICONTROL Menú principal].
 >
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
 1. En el panel izquierdo, seleccione **[!UICONTROL Interfaz]** > **[!UICONTROL Actualizar fuentes]**.
-1. Seleccione la ficha **[!UICONTROL Preferencias]**.
+1. Seleccione la pestaña **[!UICONTROL Preferencias]**.
 
    ![Preferencias de usuario para actualizar fuentes](assets/updatefeeds-preferences-350x137.png)
 
-1. Active la casilla de verificación **[!UICONTROL Permitir que los usuarios agreguen imágenes en actualizaciones]**.
+1. Active la casilla de verificación **[!UICONTROL Permitir que los usuarios añadan imágenes en actualizaciones]**.
 1. Seleccione **[!UICONTROL Guardar]**.
 
    Cuando esta preferencia está habilitada, puede deshabilitarla en cualquier momento. Las imágenes que ya se hayan publicado en las actualizaciones permanecerán en el área de [!UICONTROL Actualizaciones] del objeto.

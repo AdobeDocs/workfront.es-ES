@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 88%
+source-wordcount: '2189'
+ht-degree: 86%
 
 ---
 
@@ -82,13 +82,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos**![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos** ![Icono de grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo para el que desea configurar las preferencias de tareas y problemas desbloqueados.
 1. En la página que se muestra para el grupo, en el panel izquierdo, haga clic en **Preferencias de tarea y problema**.
 1. En la página que aparece, continúe con una de las 5 secciones que se enumeran a continuación para configurar las opciones de las áreas Valores predeterminados de nueva tarea, Problemas, Eliminación, Fechas reales y Acceso, y luego haga clic en **Guardar**.
 
-   Si pasa el ratón sobre el icono de candado ![](assets/lock-toggle-button-dimmed.png) para ver una preferencia que debe configurar y aparece información del objeto que le indica que está bloqueado, puede pedirle al administrador de Workfront que lo desbloquee para todos los grupos de la organización.
+   Si pasa el ratón sobre el icono de candado ![Lock icon](assets/lock-toggle-button-dimmed.png) para ver una preferencia que debe configurar y aparece información de objeto que le indica que está bloqueado, puede pedirle al administrador de Workfront que lo desbloquee para todos los grupos de la organización.
 
    Cuando está desbloqueado, usted y otros administradores del grupo pueden configurarlo por separado para sus propios grupos. Además, puede bloquearlo para su grupo y para cualquier subgrupo debajo de su grupo.
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
-ht-degree: 85%
+source-wordcount: '6492'
+ht-degree: 84%
 
 ---
 
@@ -60,10 +60,10 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Haga clic en **Nuevo formulario personalizado.**
 1. Seleccione a qué tipos de objetos desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Elegir tipo de objeto](assets/choose-object-type.jpg)
 
 1. En el área **Se requiere el título**, escriba el título del formulario personalizado.
-1. (Opcional) Si desea añadir más tipos de objetos al formulario para que se pueda adjuntar a más objetos, haga clic en el icono **Añadir** ![](assets/add-objects-icon.png) después de **Tipos de objetos** y, a continuación, seleccione el tipo que desee en el menú que aparece. Puede repetir esta acción para añadir todos los tipos de objetos que desee.
+1. (Opcional) Si desea agregar más tipos de objetos al formulario para que se pueda adjuntar a más objetos, haga clic en el icono **Agregar** ![Agregar objetos icono](assets/add-objects-icon.png) después de **Tipos de objetos** y, a continuación, seleccione el tipo que desee en el menú que aparece. Puede repetir esta acción para añadir todos los tipos de objetos que desee.
 
    También puede hacer clic en la X de un tipo de objeto para eliminarlo del formulario.
 
@@ -179,7 +179,7 @@ Para añadir un campo de texto:
    * Texto con formato
    * Texto descriptivo
 
-   ![](assets/drag-field-to-section.png)
+   ![Arrastrar campo a sección](assets/drag-field-to-section.png)
 
 1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que va a añadir:
 
@@ -464,7 +464,7 @@ Para añadir los campos de fecha y escritura anticipada:
    * Escritura anticipada
    * Fecha
 
-   ![](assets/drag-field-to-section.png)
+   ![Arrastrar campo a sección](assets/drag-field-to-section.png)
 
 1. En el lado derecho de la pantalla, configure las opciones disponibles para el tipo de campo personalizado que va a añadir:
 
@@ -698,7 +698,7 @@ Para añadir imágenes, PDF o vídeos:
    * PDF
    * Vídeo
 
-   ![](assets/drag-field-to-section.png)
+   ![Arrastrar campo a sección](assets/drag-field-to-section.png)
 
 1. Escriba o edite cualquiera de las siguientes propiedades para el widget:
 

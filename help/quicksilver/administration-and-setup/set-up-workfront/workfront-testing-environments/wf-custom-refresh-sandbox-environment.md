@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 94%
+source-wordcount: '1745'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,7 @@ Como administrador de [!DNL Workfront], puede acceder a su zona protegida de act
 
 Para acceder a su zona protegida de actualización personalizada:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configuración]** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
 
 1. Haga clic en **[!UICONTROL Sistema]** >**[!UICONTROL Preferencias]**.
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 12%
+source-wordcount: '382'
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ Puede crear un formulario personalizado que los usuarios puedan adjuntar a un ob
 
 Por ejemplo, puede adjuntar un formulario personalizado llamado &quot;Investigación del contenido de marketing&quot; a un proyecto para que los usuarios del proyecto puedan solicitar contenido de marketing para el proyecto:
 
-![](assets/see-image-details-page.png)
+![Página de detalles](assets/see-image-details-page.png)
 
 ## Cómo crear un formulario personalizado
 
@@ -76,7 +76,7 @@ Los usuarios pueden adjuntar formularios personalizados a los siguientes tipos d
 * Compañía
 * Documento
 * Usuario
-* Programar
+* Programa
 * Portafolio
 * Gasto
 * Grupo

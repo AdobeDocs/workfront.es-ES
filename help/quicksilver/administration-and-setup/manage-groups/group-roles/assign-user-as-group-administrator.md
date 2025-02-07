@@ -3,25 +3,25 @@ title: Asignar un usuario como administrador de grupo
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
-description: Como administrador de grupo de un grupo, puede asignar otros usuarios como administradores de grupo para ese grupo. Los administradores de Adobe Workfront también pueden hacerlo.
+description: Como administrador de grupos de un grupo, puede asignar otros usuarios como administradores de grupos de ese grupo. Los administradores de Adobe Workfront también pueden hacerlo.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 89%
 
 ---
 
-# Asignar un usuario como administrador de grupo
+# Asignación de un usuario como administrador de grupos
 
-Como administrador de un grupo, puede asignar otros usuarios como administradores del grupo para ese grupo. Los administradores de Adobe Workfront también pueden hacerlo.
+Como administrador de un grupo, puede asignar otros usuarios como administradores de grupos de ese grupo. Los administradores de Adobe Workfront también pueden hacerlo.
 
-Para obtener más información acerca de los administradores de grupos y lo que pueden hacer, vea [Administradores de grupos](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) y [Acciones permitidas para distintos tipos de administradores](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+Para obtener más información sobre los administradores de grupos y lo que pueden hacer, consulte [Administradores de grupos](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) y [Acciones permitidas para distintos tipos de administradores](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
 
-Para obtener información general acerca de los grupos, vea [Información general de grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Para obtener información sobre los grupos, consulte [Información general sobre los grupos](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Requisitos de acceso
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -52,18 +52,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Asignar un usuario como administrador de grupo
+## Asignación de un usuario como administrador de grupos
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
-1. Haga clic en el nombre del grupo para el que desea asignar un administrador de grupo.
-1. En el encabezado, cerca de la esquina superior derecha, haga clic en una de las imágenes de perfil de usuario bajo **Administradores de grupo**.
+1. Haga clic en el nombre del grupo para el que desea asignar un administrador de grupos.
+1. En el encabezado, cerca de la esquina superior derecha, haga clic en una de las imágenes de perfil de usuario bajo **Administradores de grupos**.
 1. En el cuadro que aparece, haga clic en **Buscar un usuario**, empiece a escribir el nombre del usuario y, a continuación, haga clic en el nombre cuando aparezca.
-1. Repita el paso anterior para agregar otros usuarios como administradores de grupo para el grupo.
+1. Repita el paso anterior para añadir otros usuarios como administradores de grupos del grupo.
 1. Haga clic en **Guardar**.

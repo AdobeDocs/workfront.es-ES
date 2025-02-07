@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 44%
 
 ---
 
 # Acerca del diseño predeterminado de Adobe Workfront
 
-El diseño predeterminado es la disposición del menú principal ![](assets/main-menu-icon.png) o del menú principal ![](assets/lines-main-menu.png), si están disponibles, el panel izquierdo y las vistas, agrupaciones y filtros antes de que un administrador de Adobe Workfront realice cambios mediante una plantilla de diseño.
+El diseño predeterminado es la disposición del menú principal ![Icono del menú principal](assets/main-menu-icon.png) o del menú principal ![Icono del menú principal](assets/main-menu-icon.png), si está disponible, el panel izquierdo y las vistas, agrupaciones y filtros antes de que un administrador de Adobe Workfront realice cambios mediante una plantilla de diseño.
 
 Para obtener información sobre cómo un administrador de Workfront puede modificar el diseño predeterminado de un usuario asignándole una plantilla de diseño, consulte [Asignar usuarios a una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 0%
+source-wordcount: '1315'
+ht-degree: 20%
 
 ---
 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +89,7 @@ Sin salir de la página principal de un grupo que esté viendo, puede editar, co
 
    En la lista que se muestra, puede ver los grupos que administra, junto con los subgrupos que tengan. Los administradores de Adobe Workfront pueden ver todos los grupos.
 
-1. Seleccione el grupo y haga clic en el icono Editar ![](assets/edit-icon.png), Copiar ![](assets/copy-icon.png) o Eliminar ![](assets/delete.png).
+1. Seleccione el grupo y haga clic en el icono Editar ![Editar](assets/edit-icon.png), Copiar ![icono Copiar](assets/copy-icon.png) o Eliminar ![icono Eliminar](assets/delete.png).
 
    Si necesita información sobre el uso del cuadro que aparece, vea una de las siguientes opciones:
 
@@ -138,7 +138,7 @@ Para obtener instrucciones, consulte [Procesos de aprobación de nivel de grupo]
 
 ## Ver y administrar las plantillas de diseño de un grupo
 
-Cuando visualiza un grupo que administra en el área de Grupos, puede ver y trabajar con la plantilla de diseño para la que los administradores del grupo o uno de sus subgrupos tienen acceso administrativo.
+Cuando visualiza un grupo que administra en el área de Grupos, puede ver y trabajar con la Plantilla de diseño a la que los administradores del grupo o uno de sus subgrupos tienen acceso administrativo.
 
 Para obtener instrucciones, consulte [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -156,7 +156,7 @@ Cuando visualice la página principal de un grupo que administre, puede administ
 
 ## Ver y administrar los miembros del subgrupo de un grupo
 
-Cuando está viendo la página principal de un grupo que administra, puede ver y administrar todos los usuarios de los subgrupos del grupo. Para obtener instrucciones, vea [Ver y administrar miembros de subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Cuando está viendo la página principal de un grupo que administra, puede ver y administrar todos los usuarios de los subgrupos del grupo. Para obtener instrucciones, consulte [Ver y administrar miembros de subgrupos](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ## Ver y administrar los equipos de un grupo
 

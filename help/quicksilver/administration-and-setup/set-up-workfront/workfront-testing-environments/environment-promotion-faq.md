@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 85%
 
 ---
@@ -42,7 +42,7 @@ No. La promoción de entorno está disponible para instancias de Workfront habil
    1. Haga clic en **Sistema** en el panel izquierdo. 
    1. Para ver su plan de Workfront, seleccione **Licencias**.
 El plan se muestra cerca de la esquina superior derecha de la página.
-      ![](assets/locate-plan.png)
+      ![Buscar plan](assets/locate-plan.png)
 
   O
 * Póngase en contacto con su representante de cuentas de Workfront.

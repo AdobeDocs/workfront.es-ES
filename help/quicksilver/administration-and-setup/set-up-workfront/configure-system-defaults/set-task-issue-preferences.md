@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 88%
+source-wordcount: '2238'
+ht-degree: 87%
 
 ---
 
@@ -300,7 +300,7 @@ Para bloquear o desbloquear una preferencia de tarea o problema para que los gru
 
 1. Realice una de las siguientes acciones:
 
-   * Si desea que los administradores de los grupos inferiores a su grupo puedan configurar una preferencia para sus grupos, desbloquéela ![](assets/unlock-toggle-button.png).
+   * Si desea que los administradores de los grupos que se encuentran debajo de su grupo puedan configurar una preferencia para sus grupos, desbloquéela ![Desbloquear opción](assets/unlock-toggle-button.png).
    * Si desea que su grupo y todos los grupos inferiores utilicen su configuración para una preferencia, asegúrese de que esté bloqueada (este es el valor predeterminado).
 
      >[!IMPORTANT]

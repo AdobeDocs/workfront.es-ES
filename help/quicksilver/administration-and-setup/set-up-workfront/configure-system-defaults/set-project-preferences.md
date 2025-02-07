@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 95%
+source-wordcount: '2695'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el panel izquierdo, haga clic en **[!UICONTROL Preferencias de proyecto]** > **[!UICONTROL Proyectos]**.
 
 1. En la página **Preferencias del proyecto**, continúe con una de las cuatro secciones que se enumeran a continuación para configurar las preferencias de [!UICONTROL Estado del proyecto], [!UICONTROL Cronologías], [!UICONTROL Casos empresariales] y [!UICONTROL Vida después de la muerte].
-1. Si desea que todos los grupos de la organización utilicen las mismas preferencias de proyecto, asegúrese de que cada preferencia esté bloqueada ![](assets/lock-toggle-button.png) (este es el valor predeterminado).
+1. Si desea que todos los grupos de la organización usen las mismas preferencias de proyecto, asegúrese de que cada preferencia esté bloqueada ![Bloquear alternancia](assets/lock-toggle-button.png) (este es el valor predeterminado).
 
    >[!IMPORTANT]
    >

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 93%
+source-wordcount: '2181'
+ht-degree: 91%
 
 ---
 
@@ -154,7 +154,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
    >
    >Para obtener información sobre los nombres de los objetos de la base de datos de Workfront, consulte [Explorador de API](../../../wf-api/general/api-explorer.md).
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![Hojas incluidas en la exportación de datos](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Asegúrese de que la siguiente información tenga el formato correcto:
@@ -206,7 +206,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
    Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![Hoja de parámetros completada](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Seleccione la hoja **`POPT Parameter Options`** y añada información sobre las opciones de cada campo personalizado en las siguientes columnas requeridas:
 
@@ -228,7 +228,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
    * Las columnas **`setLabel`** y `**setValue`** suelen contener la misma información y deben reflejar los nombres deseados en la interfaz de usuario de Workfront. El valor de una opción es el nombre que se muestra en los informes, por ejemplo, mientras que la etiqueta se muestra en los formularios personalizados cuando se adjunta a un objeto. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = introduzca `TRUE` si desea que cualquiera de las opciones esté oculta.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![Hoja de parámetros completada](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Opcional) Si también desea crear un formulario personalizado en el que posteriormente pueda añadir los nuevos campos, seleccione la hoja **`CTGY Category`** y actualice las siguientes columnas necesarias para la información del formulario personalizado:
@@ -239,7 +239,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
    Para averiguar el `ID` de un grupo, puede generar un informe de grupo y añadir el campo `ID` en la vista o bien desplazarse a un grupo y encontrar la URL del grupo. El ID de grupo aparecerá en la dirección URL de la página del grupo. Por ejemplo, si la URL del grupo es `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, el identificador de grupo es `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= este es el código de objeto para el tipo de objeto para el que desea crear el formulario. Introduzca un código de las siguientes opciones:
+   * **`setCatObjCode`**= este es el código de objeto para el tipo de objeto para el que desea crear el formulario. Introduzca un código de las siguientes opciones:
       * **`CMPY`** para compañía
       * **`TASK`** para tarea
       * **`PROJ`** para proyecto
@@ -259,7 +259,7 @@ Para rellenar la hoja de cálculo de Excel con información para los nuevos camp
 
    * **`setName`** = es el nombre del formulario personalizado tal como desea que aparezca en la interfaz de Workfront.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![Se ha completado la hoja de categorías](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Guarde la hoja de cálculo como un archivo .xls o .xlsx en el equipo. La hoja de cálculo de Excel está rellenada y lista para importarse a Workfront.
 
@@ -277,11 +277,11 @@ Después de realizar los pasos descritos en las secciones anteriores, continúe 
 1. Busque la hoja de cálculo de Excel que ha preparado en el equipo y selecciónela cuando la encuentre. Cuando Workfront reconoce el archivo, el botón Upload se vuelve azul.
 1. Haga clic en **Cargar.**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![Archivo seleccionado y botón de carga](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. Se muestra una notificación de que la importación se ha realizado correctamente. En función de la cantidad de información que esté importando, este paso puede tardar entre unos segundos y un minuto.
 
-   ![](assets/kick-start-successful.png)
+   ![Inicio correcto](assets/kick-start-successful.png)
 
    Los nuevos campos y formularios personalizados ya están en el sistema de Workfront. Puede encontrarlos en el área de formularios personalizados de la Configuración.
 
@@ -294,7 +294,7 @@ Después de realizar los pasos descritos en las secciones anteriores, continúe 
 
 1. (Condicional) Si la importación no se ha realizado correctamente, recibirá un mensaje de error con el problema. Intente identificar el campo, la hoja y el número de fila en los que se encontró el problema, corrija la información en el archivo de Excel y, a continuación, intente importar el archivo una vez más.
 
-   ![](assets/kick-start-error.png)
+   ![Error de KickStart](assets/kick-start-error.png)
 
 1. (Condicional) Dependiendo de cuál sea el problema, tal y como se indica en el mensaje de error, es posible que parte de la información ya se haya importado. Debe realizar una de las siguientes acciones antes de volver a importar la hoja:
 

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 0%
+source-wordcount: '919'
+ht-degree: 14%
 
 ---
 
@@ -25,9 +25,9 @@ Los usuarios también pueden asignarse una plantilla de diseño, tal como se des
 
 Puede asignar varias plantillas de diseño diferentes al mismo nombre. Para obtener más información sobre la plantilla de diseño que está en vigor para un usuario, rol, grupo o equipo, consulte [Prioridad de asignación de la plantilla de diseño](#layout-template-assignment-priority), más adelante en este artículo.
 
-Para obtener más información acerca de las plantillas de diseño, vea [Plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Para obtener más información sobre las plantillas de diseño, consulte [Plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información sobre las plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Requisitos de acceso
 
@@ -40,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
    Los nombres añadidos recientemente se muestran con un fondo azul. Esto resulta útil cuando está editando una plantilla de diseño existente porque puede distinguir los nombres que acaba de agregar de los que ya estaban en la lista.
 
-   Aparece un icono de información ![](assets/info-icon.png) a la derecha del nombre de cualquier usuario, rol, equipo o grupo que ya esté asignado a otra plantilla de diseño. Puede situarse sobre el icono para ver el nombre de esa plantilla de diseño y decidir si desea anular la asignación existente.
+   Un icono de información ![Icono de información](assets/info-icon.png) aparece a la derecha del nombre de cualquier usuario, rol, equipo o grupo que ya esté asignado a otra plantilla de diseño. Puede situarse sobre el icono para ver el nombre de esa plantilla de diseño y decidir si desea anular la asignación existente.
 
 1. Repita los dos pasos anteriores para asignar la plantilla de diseño a otros usuarios, roles, equipos o grupos según sea necesario.
 
@@ -116,4 +116,4 @@ Si tiene más de 2000 usuarios para asignar a una plantilla de diseño, le recom
 
 * Organice los usuarios en grupos o equipos y asigne la plantilla de diseño a esos grupos o equipos. Para obtener más información, consulte [Crear un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) y [Crear y administrar equipos](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
-* Asigne funciones a los usuarios y asigne la plantilla de diseño a su función de trabajo principal. Para obtener más información, consulte [Crear y administrar roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Asigne funciones a los usuarios y asigne la plantilla de diseño a su función de trabajo principal. Para obtener más información, consulte [Crear y administrar funciones](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

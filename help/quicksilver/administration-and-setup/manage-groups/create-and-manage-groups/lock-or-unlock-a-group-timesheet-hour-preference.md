@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
+source-wordcount: '623'
+ht-degree: 51%
 
 ---
 
@@ -35,14 +35,14 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 >[!NOTE]
 >
->* La configuración de una preferencia desbloqueada para un grupo no afecta a esa preferencia en ningún subgrupo por debajo del grupo.
+>* La configuración de una preferencia desbloqueada para un grupo no afecta a dicha preferencia en ningún subgrupo por debajo del grupo.
 >
->  Sin embargo, cuando se crea un nuevo subgrupo, éste hereda la configuración de preferencias y el estado bloqueado o desbloqueado del grupo inmediatamente por encima.
+>  Sin embargo, cuando se crea un nuevo subgrupo, este hereda la configuración de preferencias y el estado bloqueado o desbloqueado del grupo inmediatamente superior.
 >
->* Si mueve un grupo a un grupo que tiene una preferencia bloqueada, el grupo movido hereda esa preferencia y está bloqueado para el grupo movido.
->* Si mueve un grupo a un grupo que tiene una preferencia desbloqueada, el grupo movido no se verá afectado por esa preferencia.
+>* Si mueve un grupo bajo un grupo que tiene una preferencia bloqueada, el grupo trasladado hereda esa preferencia y queda bloqueado para el grupo movido.
+>* Si mueve un grupo bajo un grupo que tiene una preferencia desbloqueada, el grupo trasladado no se verá afectado por esa preferencia.
 >
->  Si la preferencia del grupo movido está bloqueada en el momento del movimiento, permanecerá bloqueada, pero el administrador del grupo puede desbloquearla ahora porque está desbloqueada para el grupo principal.
+>  Si la preferencia del grupo trasladado está bloqueada en el momento del traslado, permanecerá bloqueada, pero el administrador del grupo puede desbloquearla ahora porque está desbloqueada para el grupo principal.
 
 ## Requisitos de acceso
 
@@ -55,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +81,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 >[!TIP]
 >
->Si es administrador de Workfront, puede omitir los pasos del 1 al 4 en Configuración > Plantilla de horas y Horas > Preferencias y, a continuación, buscar el nombre del grupo en el cuadro de la parte superior de la página.
+>Si es administrador de Workfront, puede omitir los pasos del 1 al 4 desde Configuración > Plantilla de horas trabajadas y horas > Preferencias y, a continuación, buscar el nombre del grupo en el cuadro de la parte superior de la página.
 
 {{step-1-to-setup}}
 
@@ -91,11 +91,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. En la página que aparece, realice una de las acciones siguientes:
 
-   * Si desea que los administradores de los grupos que se encuentran debajo de su grupo puedan configurar una preferencia para sus grupos, desbloquéela ![](assets/unlock-toggle-button.png).
-   * Si desea que todos los grupos por debajo del suyo usen su configuración como preferencia, asegúrese de que esté bloqueado ![](assets/lock-toggle-button.png) (este es el valor predeterminado).
+   * Si desea que los administradores de los grupos que se encuentran debajo de su grupo puedan configurar una preferencia para sus grupos, desbloquéela ![Desbloquear opción](assets/unlock-toggle-button.png).
+   * Si desea que todos los grupos por debajo del suyo usen su configuración como preferencia, asegúrese de que esté bloqueado ![Bloquear alternancia](assets/lock-toggle-button.png) (este es el valor predeterminado).
 
      >[!IMPORTANT]
      >
-     >Es importante comunicarse con los administradores y usuarios de los grupos que están debajo del suyo para asegurarse de que todas las necesidades se tienen en cuenta de la forma en que configura una preferencia bloqueada. Cuando lo bloquea, la configuración para él la heredan los subgrupos a continuación. Y si la preferencia se ha desbloqueado durante cualquier período de tiempo, la configuración reemplaza las que los administradores de grupos en subgrupos inferiores puedan haber realizado.
+     >Es importante comunicarse con los administradores y usuarios de los grupos que están debajo del suyo para asegurarse de que todas las necesidades se tengan en cuenta todas las necesidades a la hora de configurar una preferencia bloqueada. Cuando lo bloquea, la configuración que tiene asignada es heredada por cualquier subgrupo que esté por debajo. Asimismo, si la preferencia ha estado desbloqueada durante algún tiempo, su configuración sustituye a las que pudieran haber realizado los administradores de grupo de subgrupos inferiores.
 
 1. Haga clic en **Guardar**.

@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 0%
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -27,23 +27,23 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] captura la actividad que tiene lugar en ciertos objetos al registrar la información de estado en la sección [!UICONTROL Actualizaciones] del objeto.
+[!DNL Adobe Workfront] captura la actividad que tiene lugar en ciertos objetos al registrar la información de estado en la sección [!UICONTROL Updates] del objeto.
 
-Para obtener información acerca de la sección Actualizaciones, vea [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Para obtener información acerca de la sección Actualizaciones, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 El área [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizaciones:
 
-* **Actualizaciones de usuarios:** ingresadas manualmente por los usuarios. También se denominan comentarios, respuestas y notas. Las actualizaciones de usuario se muestran en las pestañas Comentarios y Todas de la sección Actualizaciones de un objeto.
+* **Actualizaciones de usuarios:** introducidas manualmente por los usuarios. También se denominan comentarios, respuestas y notas. Las actualizaciones de usuario se muestran en las pestañas Comentarios y Todas de la sección Actualizaciones de un objeto.
 
   Para obtener más información acerca de cómo configurar las actualizaciones de usuario, consulte [Configurar preferencias para actualizaciones de usuarios](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
-  ![](assets/updates-qs-350x125.png)
+  ![Actualizaciones](assets/updates-qs-350x125.png)
 
-* **Actualizaciones del sistema:** Realizadas automáticamente por el sistema. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el elemento. Las actualizaciones del sistema se muestran en las pestañas Actividad del sistema y Todas de la sección Actualizaciones de un objeto.
+* **Actualizaciones del sistema:** realizadas automáticamente por el sistema. Una actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el elemento. Las actualizaciones del sistema se muestran en las pestañas Actividad del sistema y Todas de la sección Actualizaciones de un objeto.
 
   Para obtener más información sobre las fuentes de actualización del sistema y cómo habilitarlas, consulte [Configurar actualizaciones del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![Ejemplo de actualizaciones del sistema](assets/system-updates-example-unified-stream.png)
 
 
   <!--
@@ -56,37 +56,37 @@ El área [!UICONTROL Actualizaciones] incluye los siguientes tipos de actualizac
 
 Las actualizaciones rastreadas por el sistema no están disponibles para todos los objetos que tienen el área de Actualizaciones.
 
-* El área [!UICONTROL Actualizaciones] está disponible para los objetos siguientes:
+* El área [!UICONTROL Updates] está disponible para los objetos siguientes:
 
-   * [!UICONTROL Proyecto]
+   * [!UICONTROL Project]
    * [!UICONTROL Tarea]
    * [!UICONTROL Problema]
-   * [!UICONTROL Portfolio]
+   * [!UICONTROL Portafolio]
    * [!UICONTROL Programa]
    * [!UICONTROL Usuario]
    * [!UICONTROL Plantilla]
    * [!UICONTROL Tarea de plantilla]
    * [!UICONTROL Equipo]
    * [!UICONTROL Documento]
-   * [!UICONTROL Hoja de horas]
+   * [!UICONTROL Plantilla de horas]
    * [!UICONTROL Historia]
 
      En [!DNL Workfront], una historia es una tarea.
    * [!UICONTROL Iteración]
    * [!UICONTROL Meta]
 
-     Debe contar con una licencia adicional para tener acceso al área [!UICONTROL Goals]. Para obtener más información, consulte [Requisitos para usar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * [!UICONTROL Tarjeta] en un tablero
+     Debe contar con una licencia adicional para tener acceso al área [!UICONTROL Metas]. Para obtener más información, consulte [Requisitos para usar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * [!UICONTROL Card] en un tablero
 
      Para obtener más información sobre las actualizaciones de las tarjetas, consulte [Usar tarjetas conectadas en tableros](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] no realiza un seguimiento de las actualizaciones del sistema para los objetos siguientes:
 
-   * [!UICONTROL Equipo]
+   * [!UICONTROL Team]
    * [!UICONTROL Plantilla]
-   * [!UICONTROL Tarea de plantilla]
-   * [!UICONTROL Tarjeta] ad hoc
-   * [!UICONTROL Iteraciones]
+   * [!UICONTROL Template Task]
+   * [!UICONTROL Card] ad hoc
+   * [!UICONTROL Iterations]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -96,9 +96,9 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Las actualizaciones de los usuarios se muestran en la pestaña Comentarios y las actualizaciones del sistema en las pestañas Actividad del sistema y Todos.
 
-  Para obtener una lista de objetos que no tienen las fichas Actividad del sistema o Todos, vea [Actualizar información general de sección](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  Para obtener una lista de objetos que no tienen las fichas Actividad del sistema o Todos, consulte [Actualizar información general de sección](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
-* No puede agregar una respuesta a una actualización del sistema. Sin embargo, todas las respuestas realizadas a los registros de actividad del sistema en la experiencia de comentarios heredada antes del 11 de abril de 2024, se rellenan en la pestaña Actividad del sistema como de solo lectura.
+* No puede añadir una respuesta a una actualización del sistema. Sin embargo, todas las respuestas realizadas a los registros de actividad del sistema en la experiencia de comentarios heredada antes del 11 de abril de 2024, se rellenan en la pestaña Actividad del sistema como de solo lectura.
 
 <!--
 * The following are differences between the new and the legacy commenting experience: 
@@ -119,10 +119,10 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* Los administradores de [!DNL Workfront] pueden definir qué tipo de cambios debe rastrear el sistema en el área de [!UICONTROL Actualizaciones]. No todos los objetos que tienen un área de [!UICONTROL Actualizaciones] también tienen fuentes de [!UICONTROL actualización] configurables. Los objetos siguientes tienen un área de [!UICONTROL Actualizaciones] que captura las fuentes de actualizaciones rastreadas por el sistema, pero no tienen fuentes de actualizaciones configurables:
+* Los administradores de [!DNL Workfront] pueden definir qué tipo de cambios debe rastrear el sistema en el área [!UICONTROL Actualizaciones]. No todos los objetos que tienen un área [!UICONTROL Updates] tienen también fuentes de [!UICONTROL update] configurables. Los objetos siguientes tienen un área de [!UICONTROL Updates] que captura las fuentes de actualizaciones rastreadas por el sistema, pero no tienen fuentes de actualizaciones configurables:
 
-   * [!UICONTROL Documento]
-   * [!UICONTROL Hoja de horas]
+   * [!UICONTROL Document]
+   * [!UICONTROL Plantilla de horas]
    * [!UICONTROL Iteración]
    * [!UICONTROL Meta]
 

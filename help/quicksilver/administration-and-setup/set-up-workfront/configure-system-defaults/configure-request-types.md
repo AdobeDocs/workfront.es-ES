@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configurar tipos de solicitud
-description: Mientras trabaja en un proyecto, es posible que descubra que se producen eventos inesperados. Puede registrar esos eventos inesperados como problemas para un proyecto o tarea en particular. También puede enviar solicitudes, que se registran como problemas en un proyecto designado como Cola de solicitudes. Los problemas y las solicitudes se consideran intercambiables en Adobe Workfront.
+description: Mientras trabaja en un proyecto, es posible que descubra que surgen eventos inesperados. Puede registrar esos eventos inesperados como problemas para un proyecto o tarea en particular. También puede enviar solicitudes, que se registran como problemas en un proyecto designado como Cola de solicitudes. Los problemas y las solicitudes se consideran intercambiables en Adobe Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 21%
 
 ---
 
 # Configuración de tipos de solicitud
 
-Mientras trabaja en un proyecto, es posible que descubra que se producen eventos inesperados. Puede registrar esos eventos inesperados como problemas para un proyecto o tarea en particular. También puede enviar solicitudes, que se registran como problemas en un proyecto designado como Cola de solicitudes. Los problemas y las solicitudes se consideran intercambiables en Adobe Workfront.
+Mientras trabaja en un proyecto, es posible que descubra que surgen eventos inesperados. Puede registrar esos eventos inesperados como problemas para un proyecto o tarea en particular. También puede enviar solicitudes, que se registran como problemas en un proyecto designado como Cola de solicitudes. Los problemas y las solicitudes se consideran intercambiables en Adobe Workfront.
 
 Para obtener información acerca de cómo crear problemas en [!DNL Workfront], vea [Crear problemas](../../../manage-work/issues/manage-issues/create-issues.md). Para obtener información acerca de cómo crear solicitudes en [!DNL Workfront], vea [Crear y enviar [!DNL Adobe Workfront] solicitudes](../../../manage-work/requests/create-requests/create-submit-requests.md). Para obtener información acerca de cómo asociar tipos de solicitud con proyectos, vea [Definir tipos de solicitud para un proyecto](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
@@ -39,17 +39,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Nuevo: [!UICONTROL Standard]</p>
    O
-   <p>Actual: [!UICONTROL plan]</p>
+   <p>Actual: [!UICONTROL Plan]</p>
    </td> 
   </tr>
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ Como administrador de [!DNL Workfront], puede configurar los nombres de los tipo
   Para obtener más información sobre la creación de solicitudes en [!DNL Workfront], vea [Crear y enviar [!DNL Adobe Workfront] solicitudes](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * En el formulario **[!UICONTROL Detalle de tema de cola]**, al configurar el tema de cola.\
-   Para obtener más información acerca de cómo crear temas de colas, vea [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Para obtener más información sobre cómo crear temas de colas, consulte [Crear temas de cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Para personalizar los nombres de los tipos de solicitud:
 
@@ -90,10 +90,10 @@ Para personalizar los nombres de los tipos de solicitud:
 
 1. Haga clic en **[!UICONTROL Preferencias del proyecto]** > **[!UICONTROL Estados]**.
 
-1. Haga clic en la ficha **[!UICONTROL Problemas]**.
+1. Haga clic en la pestaña **[!UICONTROL Problemas]**.
 1. En la parte superior de la pestaña **[!UICONTROL Problemas]**, pase el ratón sobre el nombre de un tipo de solicitud y luego haga clic en el icono **[!UICONTROL Editar]** que aparece.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![Editar nombre de tipo de solicitud](assets/edit-request-type-name-nwe.png)
 
 1. En el cuadro que aparece, escriba un nombre nuevo y presione **[!UICONTROL Entrar]**.
 

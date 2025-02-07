@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 17%
 
 ---
@@ -102,13 +102,13 @@ Antes de usar el Admin Console para Workfront, debería recibir un correo electr
 
 1. En la [página de Adobe Admin Console](https://adminconsole.adobe.com/), seleccione la ficha **Productos** en la barra de navegación superior y, a continuación, seleccione **Workfront**.
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. En la lista que se muestra, seleccione el vínculo en la parte superior.
 
    Esta es la instancia de producción en la que trabajan los usuarios.
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ Antes de usar el Admin Console para Workfront, debería recibir un correo electr
 
 1. En la lista que se muestra, con la ficha **Perfiles de producto** seleccionada, haga clic en el nombre del vínculo Perfil de producto de Workfront.
 
-   ![](assets/prod-profile-1.png)
+   ![Perfiles de producto](assets/prod-profile-1.png)
 
    Esta lista incluye todos los usuarios que ya están asignados a la instancia de producción de Workfront.
 
@@ -145,7 +145,7 @@ Debe agregar un usuario a la instancia de producción de Workfront para poder ha
 1. Seleccione **Agregar administrador**.
 1. En el cuadro **Agregar administradores de perfil de producto**, escriba las direcciones de correo electrónico o los nombres de los administradores que desea agregar y, a continuación, seleccione **Guardar**.
 
-   ![](assets/add-admin-1.png)
+   ![Agregar un administrador](assets/add-admin-1.png)
 
    Los administradores del sistema se crean en Workfront.
 
@@ -205,7 +205,7 @@ Para aprobar un usuario:
 
 {{step-1-to-users}}
 
-1. Seleccione al usuario y luego haga clic en el icono **Más** ![](assets/more-icon.png).
+1. Seleccione al usuario y luego haga clic en el icono **Más** ![Icono de más](assets/more-icon.png).
 
 1. Para aprobar al usuario, haz clic en **Aprobar** y luego haz clic en **Enviar**.
 

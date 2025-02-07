@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '390'
+ht-degree: 38%
 
 ---
 
@@ -25,23 +25,23 @@ Si hay grupos por encima del grupo que administra, sus administradores también 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Workfront*</td> 
+   <td role="rowheader">Plan de Workfront*</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">licencia de Adobe de workfront*</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Debe ser administrador de grupos o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>El portafolio debe estar asociado al grupo o a cualquiera de sus subgrupos.</p> <p>Además, debe tener permisos para ver el portafolio, ya sea porque lo creó o porque se compartió con usted.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>El portafolio debe estar asociado al grupo o a cualquiera de sus subgrupos.</p> <p>Además, debe tener permisos para ver el portafolio, ya sea porque lo creó o porque se compartió con usted.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo para el que desea crear, ver o trabajar con portafolios.
 1. En el panel izquierdo, haga clic en **Portfolio** para enumerar los portafolios asociados con el grupo (y los subgrupos que estén debajo de él).
@@ -68,8 +68,8 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
       <td role="rowheader">Agregar un portafolio</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Haga clic en <strong>Nuevo Portfolio</strong>.</p> </li> 
-        <li value="2">Reemplace <strong>Portfolio sin título</strong> por el nombre que desee para el portafolio.</li>
+        <li value="1"> <p>Haga clic en <strong>Nuevo portafolio</strong>.</p> </li> 
+        <li value="2">Reemplace <strong>Portafolio sin título</strong> por el nombre que desee para el portafolio.</li>
         <li value="3"><p>Haga clic en <strong>Detalles del Portfolio</strong> en el panel izquierdo y actualice la información en el área Información general según sea necesario.</p>
         <p>Para obtener más información sobre las opciones de configuración, consulte <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio</a>.</p></li>
         <li value="4">Haga clic en el botón Atrás del navegador para volver a la lista de Portfolio del grupo.</li> 

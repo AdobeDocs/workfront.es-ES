@@ -8,41 +8,41 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 95%
 
 ---
 
 # Ver y administrar los elementos restaurados recientemente de un grupo
 
-Cuando está viendo un grupo que administra en el área Grupos, puede ver y trabajar con sus proyectos, tareas, problemas, documentos y plantillas restaurados recientemente de las siguientes maneras:
+Cuando está viendo un grupo que administra en el área de Grupos, puede ver y trabajar con sus proyectos, tareas, problemas, documentos y plantillas restaurados recientemente de las siguientes maneras:
 
 * Ver, filtrar y agrupar una lista de elementos restaurados recientemente
 * Exportar una lista de elementos restaurados recientemente
 
-Si hay grupos por encima de su grupo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
+Si hay grupos por encima del suyo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
-Para obtener más información acerca de los elementos restaurados, vea [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Para obtener más información acerca de los elementos restaurados, consulte [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Workfront*</td> 
+   <td role="rowheader">Plan de Workfront*</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Debe ser administrador de grupos o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -59,11 +59,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo.
 1. En el panel izquierdo, haga clic en **Restaurados recientemente**.
-1. Abra una de las siguientes pestañas donde desee ver y administrar los elementos restaurados recientemente del grupo:
+1. Abra una de las siguientes fichas donde desee ver y administrar los elementos del grupo restaurados recientemente:
 
    * Proyectos
    * Tareas
@@ -85,7 +85,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <p>Cambiar la visualización de la información en la lista</p> </td> 
-      <td> <p>En la esquina superior derecha sobre la lista, usa <strong>Filter</strong> para definir lo que se mostrará según los criterios que proporciones. Use <strong>Ver</strong> para definir qué campos se muestran como columnas. Use <strong>Agrupación</strong> para agrupar los elementos en categorías.</p> </td> 
+      <td> <p>En la esquina superior derecha, sobre la lista, utilice <strong>Filtrar</strong> para definir lo que se mostrará según los criterios que proporcione. Utilice <strong>Ver</strong> para definir qué campos se muestran como columnas. Utilice <strong>Agrupación</strong> para agrupar los elementos en categorías.</p> </td> 
      </tr> 
     </tbody> 
    </table>

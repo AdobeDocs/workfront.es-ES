@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 2%
+source-wordcount: '633'
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    Para editar una condición existente, pase el ratón sobre la condición que quiera editar y luego haga clic en el icono **Editar** que aparece en el extremo derecho.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![Condición personalizada](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure la condición personalizada con las siguientes opciones:
 
@@ -110,21 +110,21 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    >
    >Puede estandarizar la terminología y los colores de las condiciones en los tres tipos de objetos. Para ello, copie el nombre de la condición y el código hexadecimal de color de una pestaña (Proyecto, Tarea, Problema) a la condición correspondiente en las otras dos pestañas.
 
-1. (Opcional) Arrastre ![](assets/move-icon---dots.png) cualquier condición a una nueva posición para reordenar la lista.
+1. (Opcional) Arrastre ![Icono de mover](assets/move-icon---dots.png) cualquier condición a una nueva posición para reordenar la lista.
 
    Esto cambia el orden en que se muestran las condiciones en los proyectos, tareas y problemas:
 
    * Cuando un usuario está editando un proyecto
 
-     ![](assets/change-condition-edit-project.png)
+     ![Cambiar condición al editar el proyecto](assets/change-condition-edit-project.png)
 
    * Cuando un usuario cambia la condición de una tarea o un problema en la pestaña Actualizaciones:
 
-     ![](assets/change-condition-update-comment.png)
+     ![Cambiar condición al actualizar comentario](assets/change-condition-update-comment.png)
 
    * Cuando un usuario cambia la condición de una tarea o un problema en una vista de lista:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![Cambiar condición en la lista](assets/change-conditions-list-dropdown-only.png)
 
 1. Haga clic en **Guardar**.
 

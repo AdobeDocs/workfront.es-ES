@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 97%
+source-wordcount: '2193'
+ht-degree: 96%
 
 ---
 
@@ -82,10 +82,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    O
 
-   Si crea un proceso de aprobación de nivel de grupo, haga clic en **Grupos** ![](assets/groups-icon.png), haga clic en el nombre del grupo y, a continuación, haga clic en **Aprobaciones**.
+   Si está creando un proceso de aprobación de nivel de grupo, haga clic en **Grupos** ![Icono de grupos](assets/groups-icon.png), haga clic en el nombre del grupo y luego haga clic en **Aprobaciones**.
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. Elija la pestaña **Aprobaciones de proyectos**, **Aprobaciones de tareas** o **Aprobaciones de problemas**.

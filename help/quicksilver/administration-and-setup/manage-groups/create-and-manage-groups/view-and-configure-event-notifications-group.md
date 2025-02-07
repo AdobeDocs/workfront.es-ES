@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: ver, grupo, evento, notificaciones, configurar, habilitar, deshabilitar
+keywords: ver,grupo,evento,notificaciones,configurar,habilitar,deshabilitar
 navigation-topic: create-and-manage-groups
 title: Ver y configurar notificaciones de eventos para un grupo
 description: Como administrador de grupo, puede ver las notificaciones de eventos activadas para un grupo que administra. Además, si un administrador de Adobe Workfront desbloquea una notificación de eventos, puede configurarla para un grupo de nivel superior que administre. La configuración de una notificación de eventos consiste en activarla o desactivarla.
@@ -9,26 +9,26 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 0%
+source-wordcount: '546'
+ht-degree: 85%
 
 ---
 
-# Visualización y configuración de notificaciones de eventos para un grupo
+# Ver y configurar notificaciones de eventos para un grupo
 
 Como administrador de grupo, puede ver las notificaciones de eventos activadas para un grupo que administra.
 
 Además, si un administrador de Adobe Workfront desbloquea una notificación de eventos, puede configurarla para un grupo de nivel superior que administre. La configuración de una notificación de eventos consiste en activarla o desactivarla.
 
-Un administrador de Workfront también puede hacer esto para cualquier grupo.
+Un administrador de Workfront también puede hacerlo para cualquier grupo.
 
-La configuración de una notificación de eventos para un grupo afecta a los usuarios para los que ese grupo, o uno de sus subgrupos, es su grupo de inicio. En sus perfiles de usuario, estos usuarios ven las notificaciones de eventos activadas para su grupo de inicio en lugar de las notificaciones de eventos activadas en todo el sistema.
+La configuración de una notificación de eventos para un grupo afecta a los usuarios para los que ese grupo, o uno de sus subgrupos, es su grupo de inicio. Estos usuarios verán en los perfiles de usuario las notificaciones de eventos activadas para su grupo de inicio en lugar de las notificaciones de eventos activadas en todo el sistema.
 
 Para obtener información sobre cómo un administrador de Workfront desbloquea una notificación de eventos, consulte [Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Para obtener información acerca de la configuración de notificación predeterminada para un evento, vea [Tipos de notificación de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Para obtener información acerca de la configuración de notificación predeterminada para un evento, consulte [Tipos de notificaciones de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Requisitos de acceso
 
@@ -41,7 +41,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,22 +71,22 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo de nivel superior.
 1. En el menú de la izquierda, haga clic en **Notificaciones de eventos**.
 
    En la lista que se muestra, la columna **Activo** de la izquierda muestra qué notificaciones están activas (azules) e inactivas (grises) para el grupo.
 
-1. Para activar o desactivar una notificación de eventos desbloqueados: haga clic en el botón de la columna <strong>Activo</strong> para activarla <img src="assets/email-notification-enabled-unlocked.png"> o desactivar lo <img src="assets/email-notification-disabled-unlocked.png">.
+1. Para activar o desactivar una notificación de eventos desbloqueados: haga clic en el botón de la columna <strong>Activo</strong> para activarla <img src="assets/email-notification-enabled-unlocked.png"> o desactivarlo <img src="assets/email-notification-disabled-unlocked.png">.
 
    >[!INFO]
    >
-   >**Ejemplo:** Puede configurar las dos notificaciones de eventos de grupos de marketing principales que se muestran a continuación y que se han desbloqueado para grupos.</p> <p> <img src="assets/configure-group-event-notifications.png">
+   >**Ejemplo:** puede configurar las dos notificaciones de eventos de grupos de marketing principales que se muestran a continuación y que se han desbloqueado para grupos.</p> <p> <img src="assets/configure-group-event-notifications.png">
    >* Si un botón de la columna <strong>Activo</strong> está atenuado y en gris <img src="assets/email-notification-disabled-locked.png">, la notificación de eventos está desactivada para todos los usuarios y los administradores del grupo no pueden activarla ni editar la línea de asunto del correo electrónico
-   >* Si un botón de la columna <strong>Activo</strong> es gris y no está atenuado <img src="assets/email-notification-disabled-unlocked.png">, la notificación de eventos está <strong>desactivada para todos los usuarios y </strong> los administradores del grupo pueden activarla para sus grupos.
-   >* Si un botón de la columna <strong>Activo</strong> aparece en azul y atenuado <img src="assets/email-notification-enabled-locked.png">, la notificación de eventos está activada para todos los usuarios y los administradores del grupo no pueden desactivarla ni editar la línea de asunto de correo electrónico para sus grupos.
-   >* Si un botón de la columna <strong>Activo</strong> es azul y no está atenuado <img src="assets/email-notification-enabled-unlocked.png">, la notificación de eventos está <strong>activada para todos los usuarios y </strong> los administradores del grupo pueden desactivarla para sus grupos.
+   >* Si un botón de la columna <strong>Activo</strong> es gris y no está atenuado <img src="assets/email-notification-disabled-unlocked.png">, la notificación de eventos está <strong>desactivada para todos los usuarios y los administradores del grupo de </strong> pueden activarla para sus grupos.
+   >* Si un botón de la columna <strong>Activo</strong> aparece en azul y está atenuado <img src="assets/email-notification-enabled-locked.png">, la notificación de eventos está activada para todos los usuarios y los administradores del grupo no pueden desactivarla ni editar la línea de asunto de correo electrónico para sus grupos.
+   >* Si un botón de la columna <strong>Activo</strong> aparece en azul y no está atenuado <img src="assets/email-notification-enabled-unlocked.png">, la notificación de eventos está <strong>activada para todos los usuarios y </strong> los administradores del grupo pueden desactivarla para sus grupos.
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

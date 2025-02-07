@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 9%
 
 ---
 
@@ -49,14 +49,14 @@ Puede reactivar un usuario en cualquier momento.
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -65,10 +65,10 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe tener uno de los siguientes:</p> 
+   <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
      <li> <p>El nivel de acceso del administrador del sistema. </li> 
-     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
+     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Edición</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ Para desactivar un usuario:
 
 {{step-1-to-users}}
 
-1. Seleccione un usuario, haga clic en el icono **Más** ![](assets/more-icon.png) y luego haga clic en **Desactivar**.
+1. Seleccione un usuario, haga clic en el icono **Más** ![Más iconos](assets/more-icon.png) y, a continuación, haga clic en **Desactivar**.
 
 1. Haga clic en **Desactivar** en el cuadro que aparece.
 
@@ -118,7 +118,7 @@ Para programar la desactivación de un usuario:
 
    (Opcional) Seleccione varios usuarios para programarlos y desactivarlos de forma masiva.
 
-1. Haga clic en el icono Editar ![](assets/edit-icon.png).
+1. Haga clic en el icono Editar ![Editar icono](assets/edit-icon.png).
 1. En el cuadro Editar usuario que aparece, haga clic en **Planificación de recursos** para ir a ese área.
 1. Habilite la opción **Programar desactivación**.
 
@@ -139,7 +139,7 @@ Le recomendamos que cree un informe para los usuarios cuya desactivación haya p
 
 {{step-1-to-users}}
 
-1. Seleccione un usuario, haga clic en el icono Más ![](assets/more-icon.png) y luego haga clic en **Activar**.
+1. Seleccione un usuario, haga clic en el icono Más ![Más icono](assets/more-icon.png) y, a continuación, haga clic en **Activar**.
 
 1. Asigne un nuevo **nivel de acceso** en el menú desplegable y luego haga clic en **Reactivar**.
 <!--
@@ -177,4 +177,4 @@ Cuando se programa la desactivación de un usuario, ya no aparece en el Planific
 
 El Planificador de recursos tiene en cuenta todos los roles de los usuarios y las Fechas planificadas de finalización de las tareas y calcula los recursos en consecuencia.
 
-Para obtener más información sobre el Planificador de recursos, consulte [Resumen del Planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obtener más información sobre el Planificador de recursos, consulte [Información general del Planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

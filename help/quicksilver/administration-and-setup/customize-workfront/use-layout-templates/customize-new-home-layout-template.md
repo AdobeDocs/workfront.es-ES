@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 1%
+source-wordcount: '855'
+ht-degree: 39%
 
 ---
 
@@ -35,9 +35,9 @@ Para obtener información sobre Inicio, consulte [Introducción a Inicio](/help/
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información acerca de las plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Haga clic en la flecha abajo ![](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Workspace particular**.
+1. Haga clic en la flecha abajo ![Flecha abajo](assets/dropdown-arrow.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Workspace doméstico**.
 
 1. En las pestañas de la derecha, haga clic en una de las siguientes opciones:
 
@@ -104,7 +104,7 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
 
    >[!NOTE]
    >
-   >Al mover o cambiar el tamaño de los widgets en la plantilla de diseño, las páginas de inicio de los usuarios no se almacenan en déclencheur para actualizar su diseño. Sin embargo, añadir o eliminar un widget almacenará en déclencheur una actualización de las páginas de los usuarios.
+   >Al mover o cambiar el tamaño de los widgets en la plantilla de diseño, las páginas de inicio de los usuarios no se almacenan en déclencheur para actualizar su diseño. Sin embargo, añadir o eliminar un widget almacenará activará una actualización de las páginas de los usuarios.
 
    </p>
      </td> 
@@ -140,13 +140,13 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
 
    </p>
       <li><p>Defina un filtro o un grupo predeterminado para el widget pasando el puntero sobre una opción y haciendo clic en <b>Establecer como predeterminado</b>. El valor predeterminado actual muestra un distintivo <b>Default</b> azul a la derecha.</p></li>
-      <li><p>Agregue un filtro, columna o grupo existente a la lista de opciones disponibles haciendo clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los filtros, campos (para columnas) o grupos existentes se pueden agregar de esta manera.</p></li>
+      <li><p>Agregue un filtro, columna o grupo existente a la lista de opciones disponibles haciendo clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los Filtros, Campos (para columnas) o Grupos existentes se pueden agregar de esta manera.</p></li>
       </ul>
       <p>
 
    >[!NOTE]
    >
-   >Si establece un filtro o una agrupación predeterminados para un widget específico mediante una plantilla de diseño, es posible que no surta efecto inmediatamente debido a las preferencias de usuario existentes. Para aplicar el nuevo filtro o agrupación inmediatamente, es posible que usted o el usuario tengan que restablecer sus preferencias de usuario añadiendo &quot;/resetUser&quot; al final de su URL.
+   >Como resultado, si establece un filtro o una agrupación predeterminados para un widget específico mediante una plantilla de diseño, es posible que no surta efecto inmediatamente debido a las preferencias de usuario existentes. Para aplicar el nuevo filtro o agrupación inmediatamente, es posible que usted o el usuario tengan que restablecer sus preferencias de usuario añadiendo &quot;/resetUser&quot; al final de su URL.
 
    </p>
       </td> 

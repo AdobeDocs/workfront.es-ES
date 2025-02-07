@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '253'
+ht-degree: 31%
 
 ---
 
-# Eliminar una condición personalizada
+# Eliminación de una condición personalizada
 
 Puede eliminar una condición personalizada si ya no la necesita.
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -43,16 +43,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Eliminar una condición personalizada
+## Eliminación de una condición personalizada
 
 {{step-1-to-setup}}
 
@@ -64,7 +64,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Seleccione la ficha del tipo de objeto (**Proyecto**, **Tarea** o **Problema**) donde se encuentra la condición que desea eliminar.
 
-1. Pase el ratón sobre la condición que quiera eliminar y luego haga clic en el icono **Eliminar** ![](assets/delete.png) que aparece en el extremo derecho.
+1. Pase el ratón sobre la condición que quiera eliminar y luego haga clic en el icono **Eliminar** ![Eliminar](assets/delete.png) que aparece en el extremo derecho.
 1. En el mensaje de confirmación que aparece, haga clic en **Eliminar condición**.
 
 1. En el cuadro **Eliminar condición** que aparece, seleccione una nueva condición en la lista desplegable para todos los proyectos que estaban utilizando la condición que está eliminando.
@@ -77,4 +77,4 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 >
 >No puede eliminar las condiciones integradas, que son En el destino, En riesgo y Con problemas. Sin embargo, puede cambiar sus nombres y colores.
 
-Para obtener información acerca de las condiciones personalizadas, vea [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Para obtener información acerca de las condiciones personalizadas, consulte [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

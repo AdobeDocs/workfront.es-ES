@@ -8,9 +8,10 @@ description: Puede comparar objetos entre entornos para asegurarse de que los pa
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 22%
 
 ---
@@ -85,7 +86,7 @@ En este ejemplo:
 
 Para ver diferencias de objeto específicas:
 
-1. Haga clic en el icono de lupa ![](assets/compare-icon.png) en la línea de ese objeto.
+1. Haga clic en el icono de lupa ![Comparar icono](assets/compare-icon.png) en la línea de ese objeto.
 
    Se abre una ventana con todos los campos de ese objeto. las diferencias se marcan en rojo.
 

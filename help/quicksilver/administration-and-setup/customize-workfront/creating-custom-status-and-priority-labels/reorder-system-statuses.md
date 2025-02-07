@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 6%
+source-wordcount: '520'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ Como administrador de Workfront, puede cambiar el orden de los estados de proyec
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![Estados](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -57,12 +57,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -125,35 +125,35 @@ De forma predeterminada, los estados se muestran en el siguiente orden:
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto > Estados**.
 1. (Condicional) Si va a reordenar los estados de un grupo, empiece a escribir el nombre del grupo en el cuadro de la esquina superior derecha y, a continuación, haga clic en el nombre cuando aparezca.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Estados del sistema](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Sobre la lista Estados que se muestra, haga clic en la ficha **Proyectos** o **Tareas**.
+1. Sobre la lista Estados que se muestra, haga clic en la pestaña **Proyectos** o **Tareas**.
 
 1. Arrastre y suelte los estados en el orden que desee.
 
-   El nuevo orden de estado se guarda automáticamente.
+   El nuevo orden de los estados se guarda automáticamente.
 
 1. Para probar el nuevo orden de estado, vaya a una tarea o proyecto, haga clic en el estado en la esquina superior derecha y asegúrese de que los estados que se muestran están en el orden configurado.
 
 ## Reordenar estados para problemas
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
 
 1. Haga clic en **Preferencias de proyecto > Estados.**
 1. (Condicional) Si va a reordenar los estados de un grupo, empiece a escribir el nombre del grupo en el cuadro de la esquina superior derecha y, a continuación, haga clic en el nombre cuando aparezca.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![Estado del problema para el grupo](assets/issue-statuses-group-name.png)
 
-1. Haga clic en la ficha **Problemas**.
-1. (Opcional) Seleccione un tipo de problema (**Informe de errores**, **Pedido de cambio**, **Problema** o **Solicitud**).
+1. Haga clic en la pestaña **Problemas**.
+1. (Opcional) Seleccione un tipo de problema (**Informe de errores**, **Solicitud de cambio**, **Problema** o **Solicitud**).
 
    >[!NOTE]
    >
    >* No se puede personalizar el orden de los estados de la lista maestra.
-   >* Le recomendamos que ordene los estados para cada tipo de problema de la misma manera. Para obtener más información sobre los tipos de problemas, consulte [Configurar tipos de solicitudes](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >* Le recomendamos que ordene los estados para cada tipo de problema de la misma manera. Para obtener más información sobre los tipos de problemas, consulte [Configuración de tipos de solicitud](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. Arrastre y suelte los estados en el orden que desee.
 
-   El nuevo orden de estado se guarda automáticamente.
+   El nuevo orden de los estados se guarda automáticamente.
 
 1. Para probar el nuevo orden de estado, vaya a un problema, haga clic en el estado en la esquina superior derecha y asegúrese de que los estados que se muestran estén en el orden configurado.

@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 100%
+source-wordcount: '1744'
+ht-degree: 99%
 
 ---
 
@@ -386,7 +386,7 @@ En la tabla siguiente se compara el acceso general de un usuario a los objetos (
 
 Las actividades que un usuario puede realizar con un objeto se definen mediante una combinación de su nivel de acceso y los permisos que se les otorgan.
 
-![](assets/security-model-hierachy-copy.png)
+![Jerarquía del modelo de seguridad](assets/security-model-hierachy-copy.png)
 
 ### Conceder permisos mediante el uso compartido de objetos
 

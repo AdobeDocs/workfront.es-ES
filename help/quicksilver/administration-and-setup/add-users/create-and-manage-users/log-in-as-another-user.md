@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 0%
+source-wordcount: '747'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Como administrador de Adobe Workfront, a veces es posible que deba acceder a Workfront en nombre de otro usuario.
 
-O bien, como administrador de grupo, es posible que deba acceder a Workfront en nombre de un usuario que sea miembro de un grupo que administre.
+O bien, como administrador de grupos, es posible que deba acceder a Workfront en nombre de un usuario que sea miembro de un grupo que administre.
 
 Por ejemplo, si una tarea no puede progresar hasta que un usuario de vacaciones realice una determinada acción, puede iniciar sesión como ese usuario y realizar la acción en su lugar.
 
@@ -42,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 
 >[!NOTE]
 >
->Dado que una integración de documentos puede conectarse a archivos personales privados, los administradores no pueden acceder a las integraciones de documentos mientras estén conectados como otro usuario.
+>Dado que una integración de documentos puede conectarse a archivos personales privados, los administradores no pueden acceder a las integraciones de documentos mientras hayan iniciado sesión como otro usuario.
 >
 >Para obtener más información sobre las integraciones de documentos, consulte [Configurar integraciones de documentos](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 
@@ -50,14 +50,14 @@ Some users, such as executives, need to be able to control which administrators 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -74,21 +74,21 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Iniciar sesión y realizar acciones como otro usuario
 
-1. Inicie sesión en Workfront como administrador de Workfront o de un grupo.
+1. Inicie sesión en Workfront como administrador de grupos o de Workfront.
 
    >[!NOTE]
    >
-   >* Si es administrador de un grupo, solo podrá iniciar sesión como usuarios en los grupos que administre. Además, el permiso Administración de usuarios (usuarios de grupo) debe estar habilitado en su nivel de acceso:
+   >* Si es administrador de grupos, solo podrá iniciar sesión como usuarios en los grupos que administre. Además, el permiso de administrador de usuarios (usuarios de grupo) debe estar habilitado en su nivel de acceso:
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![usuario administrador del grupo](assets/group-admin-user.png)
    >   
-   >  Esta configuración está deshabilitada de forma predeterminada. Para obtener más información, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  Esta opción está desactivada de forma predeterminada. Para obtener más información, consulte [Creación o modificación de niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
    >* No puede restablecer la contraseña de un administrador de Workfront.
 
@@ -96,7 +96,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. En el panel izquierdo, haga clic en **Iniciar sesión como**.
 
-1. En el cuadro **Usuarios** de la ficha **Iniciar sesión como**, empiece a escribir el nombre del usuario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el cuadro **Usuarios** de la pestaña **Iniciar sesión como**, empiece a escribir el nombre del usuario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    El usuario debe tener un nivel de acceso definido en Workfront. No puede iniciar sesión en el sistema de Workfront como un usuario que no tiene derechos para iniciar sesión.
 
@@ -142,25 +142,25 @@ Workfront proporciona mecanismos para el seguimiento y la auditoría de la activ
 Cuando inicia sesión como otro usuario, la fecha del último inicio de sesión se modifica para ese usuario hasta la fecha en que el administrador del sistema o del grupo inicia sesión como ese usuario.
 
 * [Ver indicadores en elementos](#view-indicators-on-items)
-* [Ver información de auditoría](#view-audit-information)
+* [Ver información de la auditoría](#view-audit-information)
 
 ### Ver indicadores en elementos {#view-indicators-on-items}
 
-Cuando inicia sesión en Workfront como otro usuario y realiza una acción, Workfront indica claramente que cualquier acción que realice la realizará usted en nombre del usuario con el que ha iniciado sesión.
+Cuando inicia sesión en Workfront como otro usuario y realiza una acción, Workfront indica claramente que cualquier acción que efectúe la realizará usted en nombre del usuario con el que ha iniciado sesión.
 
-Por ejemplo, si comenta un elemento mientras está conectado como otro usuario, una instrucción indica que usted hizo el comentario en nombre del usuario cuando ve la sección Actualizaciones de un objeto.
+Por ejemplo, si comenta sobre un elemento mientras está conectado como otro usuario, una instrucción indica que usted hizo el comentario en nombre del usuario cuando ve la sección Actualizaciones de un objeto.
 
-### Ver información de auditoría {#view-audit-information}
+### Ver información de la auditoría {#view-audit-information}
 
-1. Inicie sesión en Workfront como administrador de Workfront o de grupo.
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![](assets/gear-icon-settings.png).
+1. Inicie sesión en Workfront como administrador de Workfront o administrador de grupos.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
 
-1. Haz clic en **Iniciar sesión como,** y luego haz clic en la pestaña **Acceder al registro**.
+1. Haga clic en **Iniciar sesión como** y luego haga clic en la pestaña **Acceder al registro**.
 
    Cada vez que un administrador de sistemas o de grupos inicia sesión en Workfront como otro usuario, el evento se registra en la pista de auditoría. Además, todas las acciones auditables que se realizan mientras el administrador inicia sesión como otro usuario se registran en la pista de auditoría.
 
 1. (Opcional) Puede filtrar los resultados que se muestran en la pista de auditoría de las siguientes maneras:
 
-   * Por usuario que ha iniciado sesión
-   * Por usuario que ha iniciado sesión como
-   * Por fecha
+   * Por el usuario que ha iniciado la sesión
+   * Por el usuario que ha iniciado la sesión como
+   * Por la fecha

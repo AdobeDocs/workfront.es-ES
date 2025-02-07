@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 0%
+source-wordcount: '932'
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe realizar esta acción a través de Adobe Admin Console.
+>El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -73,14 +73,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Las invitaciones por correo electrónico se generan en los siguientes casos:
 
-* Cuando crea un nuevo usuario y selecciona **Enviar un correo electrónico de invitación a esta persona** en el formulario **Nuevo usuario**. Para obtener más información sobre cómo crear usuarios nuevos, consulte [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Cuando crea un nuevo usuario y selecciona **Enviar un correo electrónico de invitación a esta persona** en el formulario **Nuevo usuario**. Para obtener más información sobre cómo crear usuarios nuevos, consulte [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 * Cuando importa varios usuarios nuevos y selecciona la opción **Enviar invitación por correo electrónico a estas personas**. Para obtener más información sobre cómo importar varios usuarios nuevos, consulte [Importar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 * Una vez creados los usuarios, puede generar manualmente las invitaciones a los usuarios que aún no hayan registrado su cuenta en Workfront y que no hayan establecido una contraseña de Workfront.\
   Los usuarios que hayan creado una cuenta pero que aún no la hayan registrado se marcarán como **No registrado** en Workfront.
 
   >[!NOTE]
   >
-  >Si anula la selección del cuadro **Enviar una invitación por correo electrónico a esta persona** al crear el usuario, la invitación por correo electrónico no se podrá generar manualmente. El reenvío manual de las invitaciones por correo electrónico solo es posible para los usuarios a los que se les ha enviado la invitación por correo electrónico original cuando se creó su cuenta. Para obtener más información sobre cómo crear usuarios nuevos, consulte [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >Si anula la selección del cuadro **Enviar una invitación por correo electrónico a esta persona** al crear el usuario, la invitación por correo electrónico no se podrá generar manualmente. El reenvío manual de las invitaciones por correo electrónico solo es posible para los usuarios a los que se les ha enviado la invitación por correo electrónico original cuando se creó su cuenta. Para obtener más información sobre cómo crear usuarios nuevos, consulte [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Para generar manualmente invitaciones por correo electrónico a usuarios no registrados existentes:
 
@@ -88,9 +88,9 @@ Para generar manualmente invitaciones por correo electrónico a usuarios no regi
 
 1. Seleccione al usuario que muestra la etiqueta **No registrado** después de su nombre.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![No registrado](assets/unreg-user-qs-350x221.png)
 
-1. Haga clic en el icono Más ![](assets/more-icon.png) y, a continuación, haga clic en **Recordar al usuario que se registre**.
+1. Haga clic en el icono Más ![Más](assets/more-icon.png) y, a continuación, haga clic en **Recordar al usuario que se registre**.
 
    Se envía una invitación por correo electrónico al nuevo usuario con un nuevo vínculo que puede utilizar para crear su contraseña de Workfront.
 
@@ -100,7 +100,7 @@ Para generar manualmente invitaciones por correo electrónico a usuarios no regi
    >
    >Los nuevos usuarios de Adobe se añaden al Admin Console Admin Console y este envía un correo electrónico para invitarlos a completar el proceso de registro. Todos los usuarios deben completar el proceso de registro para acceder a cualquier sistema de Adobe.
    >
-   >Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Es una preferencia controlada por el administrador de Adobe para el producto.
+   >Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Esta es una preferencia que controla el administrador de Adobe para este producto.
 
 ## Configurar invitaciones por correo electrónico {#configure-email-invitations}
 

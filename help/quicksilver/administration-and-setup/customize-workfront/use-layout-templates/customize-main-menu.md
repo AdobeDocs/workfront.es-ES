@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 3%
+source-wordcount: '639'
+ht-degree: 44%
 
 ---
 
-# Personalización del menú principal mediante una plantilla de diseño
+# Personalizar el menú principal mediante una plantilla de diseño
 
 <!--Audited: 01/2024-->
 
@@ -27,13 +27,13 @@ Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantill
 >
 >Las opciones del menú principal que ven los usuarios dependen del tipo de licencia y de la configuración de su nivel de acceso. Es posible que algunos usuarios que usen esta plantilla de diseño no vean todas las opciones que elija aquí. Para obtener más información, vea [Cómo funcionan juntos los niveles de acceso y los permisos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) y [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->Puede ver diferentes opciones en el menú principal si su organización se ha incorporado en la experiencia unificada de Adobe Workfront. Para obtener más información, consulte [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Puede ver diferentes opciones en el menú principal si su organización se ha incorporado en la experiencia unificada de Adobe Workfront. Para obtener más información, consulte [Adobe Unified Experience para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información acerca de las plantillas de diseño para grupos, consulte [Creación y modificación de las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p>Nuevo: estándar</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuración del nivel de acceso</strong></td> 
+   <td role="rowheader"><strong>Configuración de nivel de acceso</strong></td> 
    <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.</p>
     <p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> 
      </td> 
@@ -91,14 +91,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      >[!NOTE]
      >
-     >El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >El Planificador de escenarios requiere una licencia adicional. Para obtener información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
 
    * Equipos
    * Usuarios
 
      >[!NOTE]
      >
-     >Solo los usuarios con una licencia de planificación (en el modelo de licencia actual) o los usuarios con una licencia estándar (en el nuevo modelo de licencia) pueden ver el área de usuarios ![](assets/users-icon-in-main-menu.png) en el menú principal.
+     >Solo los usuarios con una licencia de planificación (en el modelo de licencia actual) o los usuarios con una licencia estándar (en el nuevo modelo de licencia) pueden ver el área de usuarios ![Icono de usuarios](assets/users-icon-in-main-menu.png) en el menú principal.
 
    * Solicitudes
    * Hojas de horas
@@ -110,7 +110,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      >[!NOTE]
      >
-     >Los objetivos requieren una licencia adicional. Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Las metas requieren una licencia adicional. Para obtener información sobre Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mis actualizaciones
    * Tableros
@@ -123,9 +123,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Realice una de las siguientes acciones:
 
-   * Ocultar ![](assets/remove-icon---x-in-circle.png) **elementos activos** que no desee mostrar
-   * Mostrar ![](assets/add-icon-plus-in-circle.png) **elementos disponibles** que no desea mostrar en el menú principal.
-   * Arrastre ![](assets/move-icon---dots.png) **elementos activos** para cambiar el orden de visualización en el menú principal.
+   * Ocultar ![Ocultar icono](assets/remove-icon---x-in-circle.png) **elementos activos** que no desee mostrar
+   * Mostrar ![icono Mostrar](assets/add-icon-plus-in-circle.png) **elementos disponibles** que no desea mostrar en el menú principal.
+   * Arrastre ![Icono de arrastre](assets/move-icon---dots.png) **Elementos activos** para cambiar el orden de visualización en el menú principal.
 
 1. Haga clic en **Listo**.
 
@@ -135,10 +135,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    O
 
-   Si ha terminado de personalizar, haga clic en **Guardar**.
+   Si ha finalizado la personalización, haga clic en **Guardar**.
 
    >[!TIP]
    >
    >Puede hacer clic en Guardar en cualquier momento para guardar el progreso y seguir modificando la plantilla más adelante.
 
-Para obtener más información acerca de las plantillas de diseño, vea [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener más información sobre las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

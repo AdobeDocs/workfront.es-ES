@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 99%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 0%
 {{important-admin-console-onboard}}
 
 
-Workfront proporciona una configuración de inicio de sesión único (SSO) administrada centralmente que integra Workfront con su solución de SSO empresarial existente. Esta configuración está disponible tanto para clientes OnDemand como OnPremise Enterprise.
+Workfront proporciona una configuración de inicio de sesión único (SSO) administrada de forma centralizada que integra Workfront con su solución de SSO empresarial existente. Esta configuración está disponible tanto para clientes de OnDemand como de OnPremise Enterprise.
 
 Para utilizar la funcionalidad de SSO en Workfront, su organización debe configurar una aplicación de SSO. A continuación, puede configurar Workfront para que pueda comunicarse con su solución de SSO.
 
 Las soluciones federadas permiten a los usuarios iniciar sesión en todas sus aplicaciones introduciendo su nombre de usuario y contraseña en un portal de inicio de sesión centralizado.
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO federado](assets/overview-sso-wf-fed-only.png)
 
 
-## Configuración del cortafuegos
+## Configurar el cortafuegos
 
 Al utilizar una solución de SSO, Workfront inicia una conexión con el servidor en el puerto especificado.
 
-Si el cortafuegos o el servidor de correo están configurados para permitir el acceso únicamente a proveedores específicos, debe añadir determinadas direcciones IP de Workfront a la lista de permitidos del cortafuegos. Para obtener más información, consulte [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Si el cortafuegos o el servidor de correo están configurados para permitir el acceso únicamente a proveedores específicos, debe añadir determinadas direcciones IP de Workfront a la lista de permitidos del cortafuegos. Para obtener más información, consulte [Configuración de la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## Configurar inicio de sesión único
+## Configurar un inicio de sesión único
 
 Workfront se integra con las siguientes soluciones SSO:
 

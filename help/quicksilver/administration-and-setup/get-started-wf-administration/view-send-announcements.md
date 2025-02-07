@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 0%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo los administradores de Workfront pueden modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Puede reenviar fácilmente los mensajes que reciba de Workfront a los usuarios d
 
 1. Vaya a la página Anuncios haciendo clic en el icono **Notificación** en la esquina superior derecha de la interfaz de Workfront y, a continuación, haga clic en **Todos los anuncios**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Todos los anuncios](assets/announcement-access-350x212.png)
 
 1. En la página **Anuncios**, seleccione el mensaje que desee reenviar.
 1. Haga clic en **Reenviar**.
@@ -79,7 +79,7 @@ Puede reenviar fácilmente los mensajes que reciba de Workfront a los usuarios d
 
 1. Vaya a la página Anuncios haciendo clic en el icono **Notificación** en la esquina superior derecha de la interfaz de Workfront y, a continuación, haga clic en **Todos los anuncios**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Todos los anuncios](assets/announcement-access-350x212.png)
 
 1. En la página **Anuncios**, haga clic en **Nuevo anuncio.**
 

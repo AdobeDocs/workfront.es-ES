@@ -1,5 +1,5 @@
 ---
-title: Configurar una URL de ayuda personalizada
+title: Configurar URL de ayuda personalizada
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
@@ -8,18 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 2%
+source-wordcount: '277'
+ht-degree: 52%
 
 ---
 
-# Configurar URL de ayuda personalizada
+# Configurar una dirección URL de ayuda personalizada
 
 Si crea un sitio de ayuda interno personalizado que contiene información sobre cómo utiliza su organización Workfront, puede configurar el icono Ayuda del menú principal para ir a ese sitio.
 
-![](assets/custom-help-button.png)
+![Botón de ayuda personalizado](assets/custom-help-button.png)
 
 Esto no afecta a los vínculos de ayuda contextual de Workfront, que llevan a los usuarios al sitio de Ayuda de Workfront.
 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -49,12 +49,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,9 +63,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 {{step-1-to-setup}}
 
 1. Haga clic en **Sistema** > **Preferencias**.
-1. En la sección **Preferencias generales**, en el campo **URL de ayuda personalizada**, escriba la URL donde se encuentra su sitio de ayuda personalizado.
+1. En la sección **Preferencias generales**, en el campo **URL de ayuda personalizada**, escriba la URL donde se encuentra su sitio de ayuda personalizada.
 
-   Si la ubicación de ayuda personalizada requiere credenciales de inicio de sesión, esas credenciales son necesarias para los usuarios cuando acceden al sitio desde Workfront. Puede que sea necesario administrar las credenciales del sitio de ayuda personalizado de forma independiente de las credenciales de Workfront si no utiliza el inicio de sesión único (SSO).
+   Si la ubicación de ayuda personalizada requiere credenciales de inicio de sesión, dichas credenciales serán necesarias para los usuarios cuando accedan al sitio desde Workfront. Es posible que las credenciales de su sitio de ayuda personalizado deban gestionarse por separado de las credenciales de Workfront si no utiliza el inicio de sesión único (SSO).
 
 1. Haga clic en **Guardar**.
 

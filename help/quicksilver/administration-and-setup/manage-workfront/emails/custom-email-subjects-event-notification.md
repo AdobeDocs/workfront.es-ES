@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 4%
+source-wordcount: '612'
+ht-degree: 14%
 
 ---
 
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 +++
 
@@ -82,7 +82,7 @@ Algunas notificaciones de eventos tienen varias líneas de asunto, según los ob
 
 Por ejemplo, &quot;Alguien me incluye en una actualización dirigida&quot; tiene dos líneas de asunto diferentes: la primera es para tareas, problemas, tareas de plantilla y documentos (también conocida como &quot;referenceObject&quot;) y la segunda es para objetos que permiten a los usuarios realizar comentarios, como portafolio, programa, etc. (también conocida como &quot;topReferenceObject&quot;).
 
-![](assets/Ev-not-mult-subj-lines.png)
+![El evento no contiene varias líneas de asunto](assets/Ev-not-mult-subj-lines.png)
 
 Si se incluye a un usuario en una conversación sobre la tarea, el problema, la tarea de plantilla o el documento, se generará un mensaje de correo electrónico con la primera línea de asunto. La línea de asunto contiene &quot;referenceObject:name&quot; y el sistema define el objeto y muestra el nombre adecuado en el campo de asunto. La línea de asunto del correo electrónico tendría un aspecto similar al siguiente: &quot;Comentario sobre la tarea 123 del proyecto ABC&quot;.
 
@@ -96,6 +96,6 @@ Algunas notificaciones de eventos también tienen varios asuntos de correo elect
 
 Por ejemplo, solicitar que se agregue un documento a un problema es un evento que puede almacenar en déclencheur dos correos electrónicos diferentes: uno para cuando se agrega el documento y otro para cuando se edita.
 
-![](assets/ev-not-mult-subj-lines-diff-actions.png)
+![Acciones diferentes de evento](assets/ev-not-mult-subj-lines-diff-actions.png)
 
 Para editar las líneas de asunto del correo electrónico y agregar campos adicionales a las líneas de asunto, consulte [Personalizar las líneas de asunto del correo electrónico para las notificaciones de eventos](#customize-email-subject-lines-for-event-notifications) en este artículo.

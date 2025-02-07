@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 0%
+source-wordcount: '784'
+ht-degree: 24%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para especificar qué controles de lista aparecen en los menús desplegables Filtrar, Ver y Agrupar. Estos menús aparecen encima de las listas en Workfront, como la lista de tareas de un proyecto:
 
-![](assets/filter-view-grouping-layout-templates.png)
+![Filtrar plantillas de diseño de agrupación de vistas](assets/filter-view-grouping-layout-templates.png)
 
-Para obtener más información acerca de las plantillas de diseño, vea [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Para obtener más información sobre las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener más información sobre las plantillas de diseño para grupos, consulte [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, vea [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
+Después de configurar una plantilla de diseño, debe asignarla a usuarios para que los cambios que ha realizado sean visibles para otros. Para obtener información acerca de cómo asignar una plantilla de diseño a los usuarios, consulte [Asignar usuarios a una plantilla de diseño](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -38,7 +38,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -62,25 +62,25 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 ## Personalizar controles de lista de filtro, vista y agrupación:
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Haga clic en la flecha abajo ![](assets/down-arrow-blue.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Listas** en el menú desplegable que se muestra.
+1. Haga clic en la flecha abajo ![Flecha abajo](assets/down-arrow-blue.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Listas** en el menú desplegable que se muestra.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![Personalizar lo que ven los usuarios](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. Haga clic en la flecha abajo ![](assets/down-arrow-blue.png) bajo **Seleccione una lista para personalizar** y, a continuación, seleccione el tipo de objeto de Workfront para el que desea personalizar los controles de lista Filtrar, Ver y Agrupar.
+1. Haga clic en la flecha abajo ![Flecha abajo](assets/down-arrow-blue.png) bajo **Seleccione una lista para personalizar** y, a continuación, seleccione el tipo de objeto Workfront para el que desea personalizar los controles de lista Filtrar, Ver y Agrupar.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![Seleccione una lista para personalizar](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >Si selecciona Proyectos como la lista que desea personalizar y, a continuación, deshabilita Proyectos en los que participo o Proyectos de mi propiedad en la sección Filtro, los usuarios ya no podrán ver ni utilizar ese filtro:
    >
-   >* En la lista de filtros que se muestra al hacer clic en el icono de filtro ![](assets/filter-nwepng.png) sobre una lista:
+   >* En la lista de filtros que se muestra al hacer clic en el icono de filtro ![Icono de filtro](assets/filter-nwepng.png) sobre una lista:
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![Deshabilitar filtros](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* En el encabezado del área Proyectos:
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![Botón Deshabilitar filtros](assets/disable-filter-pills.png)
 
 1. (Opcional) Si desea cambiar el filtro, la vista o la agrupación predeterminados de la plantilla de diseño, pase el ratón sobre el filtro, la vista o la agrupación y, a continuación, haga clic en **Establecer como predeterminado**.
 
@@ -122,7 +122,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
    O
 
-   Si ha terminado de personalizar, haga clic en **Guardar**.
+   Si ha finalizado la personalización, haga clic en **Guardar**.
 
    >[!TIP]
    >

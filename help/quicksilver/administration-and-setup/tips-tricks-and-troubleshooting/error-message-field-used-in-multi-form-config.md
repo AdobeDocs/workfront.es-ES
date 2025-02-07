@@ -3,28 +3,28 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Mensaje de error: Hay un ligero problema. Ese campo se utiliza en una configuración de varios formularios"
-description: Cuando cambia un cálculo en un campo personalizado calculado en un formulario personalizado y un mensaje de error le indica que el campo se utiliza en una configuración de varios formularios, debe reemplazar el campo por un nuevo campo que contenga el cálculo que desee utilizar.
+title: 'Mensaje de error: Hay un problema leve. Este campo se utiliza en una configuración multiformulario'
+description: Cuando cambie un cálculo en un campo personalizado calculado en un formulario personalizado y un mensaje de error le indique que el campo se utiliza en una configuración multiformulario, deberá sustituir el campo por uno nuevo que contenga el cálculo que desea utilizar.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: '1241'
+ht-degree: 98%
 
 ---
 
-# Mensaje de error: Hay un ligero problema. Ese campo se utiliza en una configuración de varios formularios
+# Mensaje de error: Hay un ligero problema. Este campo se utiliza en una configuración multiformulario
 
 ## Problema
 
-Al cambiar un cálculo en un campo personalizado calculado de un formulario personalizado, [!DNL Adobe Workfront] podría mostrar la siguiente advertencia:
+Al cambiar un cálculo en un campo personalizado calculado en un formulario personalizado, [!DNL Adobe Workfront] podría mostrar la siguiente advertencia:
 
 Existe un problema leve
 
-[El campo] se usa en una configuración multiformulario; si desea cambiar esta fórmula, debe quitar este campo y reemplazarlo con uno nuevo que contenga el cálculo deseado.
+[El campo] se utiliza en una configuración multiformulario, si desea cambiar esta fórmula, necesita quitar este campo y reemplazarlo con uno nuevo que contenga el cálculo deseado.
 
 ## Causa
 
@@ -33,25 +33,25 @@ Al menos dos formularios personalizados que contienen el campo personalizado cal
 **Ejemplo:** Los formularios personalizados A y B se adjuntan a la misma tarea. Ambos formularios contienen un campo personalizado calculado llamado Beneficio. El error se produce al intentar editar el cálculo en el campo Beneficio en el formulario personalizado A.
 
 No se puede cambiar el cálculo del campo personalizado en uno de los formularios porque eso entraría en conflicto con la fórmula del mismo campo del otro formulario.
-Para resolver este conflicto, debe encontrar el objeto donde se adjuntan varios formularios con el mismo campo personalizado calculado y, a continuación, realizar una de las siguientes acciones:
+Para resolver este conflicto, debe encontrar el objeto donde se adjuntan varios formularios con el mismo campo personalizado calculado y, a continuación, realice una de las siguientes acciones:
 
 * Quite uno de los formularios del objeto.
 * Cambie el cálculo según sea necesario, pero hágalo en todos los formularios personalizados adjuntos al objeto.
-* En todos los formularios personalizados adjuntos al objeto, agregue un nuevo campo personalizado calculado que contenga el cálculo que necesita y marque el antiguo campo personalizado calculado como obsoleto.
+* En todos los formularios personalizados adjuntos al objeto, añada un nuevo campo personalizado calculado que contenga el cálculo que necesita y marque el antiguo campo personalizado calculado como obsoleto.
 
 Este artículo explica cómo encontrar el objeto y luego resolver el problema de una de estas tres maneras.
 
-## Busque el objeto donde están adjuntos los formularios personalizados {#find-the-object-where-the-custom-forms-are-attached}
+## Busque el objeto donde se adjuntan los formularios personalizados {#find-the-object-where-the-custom-forms-are-attached}
 
 {{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Forms personalizado]** > **[!UICONTROL Campos]**.
-1. Aplique la vista **[!UICONTROL Lista de campos]** para encontrar el campo calculado que está intentando modificar y anote todos los formularios personalizados en los que se utiliza (por ejemplo, Formulario 1, Formulario 2, Formulario 3)
-1. Haga clic en **[!UICONTROL Forms]** y luego aplique la vista **[!UICONTROL Lista de formularios]**.
-1. Haga clic en la lista desplegable **[!UICONTROL Filtro]** y luego en **[!UICONTROL Nuevo filtro]**.
+1. Haga clic en **[!UICONTROL Formularios personalizados]** > **[!UICONTROL Campos]**.
+1. Aplique la vista **[!UICONTROL Lista de campos]** para encontrar el campo calculado que intenta modificar y anote todos los formularios personalizados en los que se utiliza (por ejemplo, Formulario 1, Formulario 2, Formulario 3).
+1. Haga clic en **[!UICONTROL Formularios]**, y luego aplique la vista **[!UICONTROL Lista de formularios]**.
+1. Haga clic en el menú **[!UICONTROL Filtro]** y seleccione **[!UICONTROL Nuevo filtro]**.
 
-1. Haga clic en **[!UICONTROL Agregar una regla de filtro]**, a continuación, empiece a escribir &quot;nombre de formulario personalizado&quot; y seleccione este valor cuando se muestre en la lista.
-1. Seleccione **[!UICONTROL Equal]** para el modificador de filtro, empiece a escribir el nombre de cada formulario del que tomó nota en el paso 1 y, a continuación, selecciónelo cuando se muestre.
+1. Haga clic en **[!UICONTROL Añadir una regla de filtro]**, a continuación, empiece a escribir “nombre de formulario personalizado” y seleccione este valor cuando se muestre en la lista.
+1. Seleccione **[!UICONTROL Igual]** para el modificador de filtro, empiece a escribir el nombre de cada formulario del que tomó nota en el paso 1 y, a continuación, selecciónelo cuando se muestre.
 
    **Ejemplo:** El Nombre De Formulario Personalizado Es Igual A Formulario 1, Formulario 2, Formulario 3.
 
@@ -60,15 +60,15 @@ Este artículo explica cómo encontrar el objeto y luego resolver el problema de
 1. En la lista de formularios, anote el tipo de objeto del filtro, como Tarea o Problema, que se muestra en la columna **[!UICONTROL Tipo]**.
 1. En cada formulario personalizado que haya encontrado en el paso 1, cree un nuevo campo personalizado de casilla de verificación con un solo valor predeterminado de Sí.
 
-   **Ejemplo:** Campo 1 en Formulario 1 = Sí, Campo 2 en Formulario 2 = Sí, Campo 3 en Formulario 3 = Sí. Esto significa que &quot;El campo personalizado calculado existe en el formulario 1&quot;, &quot;El campo personalizado calculado existe en el formulario 2&quot;, etc.
+   **Ejemplo:** Campo 1 en Formulario 1 = Sí, Campo 2 en Formulario 2 = Sí, Campo 3 en Formulario 3 = Sí. Esto significa que “El campo personalizado calculado existe en el formulario 1”, “El campo personalizado calculado existe en el formulario 2”, etc.
 
-1. En el **[!UICONTROL icono de búsqueda]** ![](assets/search-icon.png), en la esquina superior derecha de la pantalla, haga clic en **[!UICONTROL Búsqueda avanzada]**.
-1. Haga clic en el objeto del formulario personalizado (por ejemplo, Problema), haga clic en **[!UICONTROL Filtrar los resultados]** y, a continuación, haga clic en **[!UICONTROL Agregar un filtro]**.
+1. En el **[!UICONTROL icono de búsqueda]** ![icono de búsqueda](assets/search-icon.png) en la esquina superior derecha de la pantalla, haz clic en **[!UICONTROL Búsqueda avanzada]**.
+1. Haga clic en el objeto del formulario personalizado (por ejemplo, Problema), haga clic en **[!UICONTROL Filtrar los resultados]** y, a continuación, haga clic en **[!UICONTROL Añadir un filtro]**.
 1. Empiece a escribir el nombre de un campo Casilla de verificación en el campo **[!UICONTROL Empiece a escribir el nombre del campo]** y selecciónelo cuando se muestre en la lista; a continuación, seleccione **[!UICONTROL Igual]** y escriba **[!UICONTROL Sí]** (sin comillas) en el siguiente cuadro.
 
-   **Ejemplo:** Campo 1 Igual (Distingue Mayúsculas De Minúsculas) Sí.
+   **Ejemplo:** Campo 1 Igual (con distinción de mayúsculas y minúsculas) Sí.
 
-1. Haga clic en **[!UICONTROL Agregar filtro]** y agregue todos los campos Casilla de verificación a la búsqueda avanzada.
+1. Haga clic en **[!UICONTROL Añadir filtro]** y añada todos los campos de las casillas de verificación a la búsqueda avanzada.
 
    Busca todas las combinaciones posibles.
 
@@ -84,57 +84,57 @@ Este artículo explica cómo encontrar el objeto y luego resolver el problema de
 
 1. Continúe con una de las siguientes secciones de este artículo:
 
-   * [Elimine uno de los formularios personalizados del objeto y edite el cálculo allí](#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there)
-   * [Realice ediciones idénticas en el cálculo en todos los formularios personalizados adjuntos](#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms)
-   * [Agregue un nuevo campo calculado que contenga el cálculo editado a uno o todos los formularios personalizados adjuntos](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
+   * [Elimine uno de los formularios personalizados del objeto y edite allí el cálculo](#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there)
+   * [Realice ediciones idénticas en el cálculo de todos los formularios personalizados adjuntos](#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms)
+   * [Añada un nuevo campo calculado que contenga el cálculo editado a uno o todos los formularios personalizados adjuntos](#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms)
 
-## Elimine uno de los formularios personalizados del objeto y edite el cálculo allí {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
+## Elimine uno de los formularios personalizados del objeto y edite allí el cálculo {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
 
-1. Busque el objeto donde están adjuntos los formularios personalizados, como se explica en [Busque el objeto donde están adjuntos los formularios personalizados](#find-the-object-where-the-custom-forms-are-attached) en este artículo y, a continuación, abra el objeto.
+1. Busque el objeto donde se adjuntan los formularios personalizados, como se explica en [Buscar el objeto donde se adjuntan los formularios personalizados](#find-the-object-where-the-custom-forms-are-attached) en este artículo y, a continuación, abra el objeto.
 1. Elimine uno de los formularios personalizados del objeto y, a continuación, guarde el objeto.
 
    >[!NOTE]
    >
-   >Para agregar los campos del formulario que ha eliminado del objeto, es posible que tenga que editar el formulario personalizado que permanece adjunto al objeto. De este modo, se puede conservar la información de datos personalizados del objeto.
+   >Para añadir los campos del formulario que ha eliminado del objeto, es posible que tenga que editar el formulario personalizado que permanece adjunto al objeto. De este modo, puede conservar la información de los datos personalizados del objeto.
 
-1. En el formulario personalizado que quitó, edite el cálculo del campo personalizado que estaba intentando actualizar originalmente y luego haga clic en **[!UICONTROL Guardar]**.
+1. En el formulario personalizado que ha eliminado, edite el cálculo del campo personalizado que intentaba actualizar originalmente y a continuación, haga clic en **[!UICONTROL Guardar]**.
 
    Esta vez, [!DNL Workfront] no debería encontrar ningún conflicto.
 
-1. (Opcional) Quite los campos Casilla de verificación de los formularios personalizados o elimínelos de [!DNL Workfront].
+1. (Opcional) Elimine los campos de casilla de verificación de los formularios personalizados o bórrelos de [!DNL Workfront].
 
-## Realice ediciones idénticas en el cálculo en todos los formularios personalizados adjuntos {#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms}
+## Realice ediciones idénticas en el cálculo de todos los formularios personalizados adjuntos {#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms}
 
 >[!IMPORTANT]
 >
->Se pierden datos en los objetos en los que el formulario personalizado ya está adjunto al seguir estos pasos. Sin embargo, si el campo calculado hace referencia a campos estáticos, no a campos calculados, puede utilizar la opción [!UICONTROL Volver a calcular expresiones personalizadas] en el objeto para restaurar los datos perdidos
+>Los datos se pierden en los objetos en los que el formulario personalizado ya está adjunto cuando se siguen estos pasos. Sin embargo, si el campo calculado hace referencia a campos estáticos y no a campos calculados, puede utilizar la opción [!UICONTROL Recalcular expresiones personalizadas] en el objeto para restaurar los datos perdidos
 
-1. Busque el objeto donde están adjuntos los formularios personalizados, como se explica en [Busque el objeto donde están adjuntos los formularios personalizados](#find-the-object-where-the-custom-forms-are-attached) en este artículo.
-1. Quite el campo de todos los formularios personalizados adjuntos al objeto y, a continuación, guarde los formularios.
+1. Busque el objeto donde se adjuntan los formularios personalizados, como se explica en [Buscar el objeto donde se adjuntan los formularios personalizados](#find-the-object-where-the-custom-forms-are-attached) en este artículo.
+1. Elimine el campo de todos los formularios personalizados adjuntos al objeto y, a continuación, guarde los formularios.
 
-1. Vuelva a agregar el campo personalizado que contiene el nuevo cálculo a los formularios personalizados.
+1. Vuelva a añadir el campo personalizado que contiene el nuevo cálculo a los formularios personalizados.
 
    >[!IMPORTANT]
    >
    >Los cálculos deben ser idénticos en todos los formularios personalizados adjuntos.
 
-1. (Opcional) Quite los campos de la casilla de verificación de los formularios o elimínelos de [!DNL Workfront].
+1. (Opcional) Elimine los campos de la casilla de verificación de los formularios o bórrelos de [!DNL Workfront].
 
-## Agregue un nuevo campo calculado que contenga el cálculo editado a uno o todos los formularios personalizados adjuntos {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
+## Añada un nuevo campo calculado que contenga el cálculo editado a uno o todos los formularios personalizados adjuntos {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
 
-Para evitar la pérdida de datos en el campo personalizado calculado existente o si necesita actualizar el cálculo editado en solo uno de los formularios personalizados adjuntos al objeto que ha encontrado:
+Para evitar la pérdida de datos en el campo personalizado calculado existente, o si necesita el cálculo editado en sólo uno de los formularios personalizados adjuntos al objeto encontrado:
 
-1. Busque el objeto donde están adjuntos los formularios personalizados, como se explica en [Busque el objeto donde están adjuntos los formularios personalizados](#find-the-object-where-the-custom-forms-are-attached) en este artículo.
-1. Agregue un nuevo campo personalizado calculado que contenga el cálculo necesario a uno o todos los formularios.
-1. Cambie el nombre del campo personalizado calculado antiguo **Obsoleto**.
+1. Busque el objeto donde se adjuntan los formularios personalizados, como se explica en [Buscar el objeto donde se adjuntan los formularios personalizados](#find-the-object-where-the-custom-forms-are-attached) en este artículo.
+1. Añada un nuevo campo personalizado calculado que contenga el cálculo que necesita a uno o todos los formularios.
+1. Cambie el nombre del antiguo campo personalizado calculado **Obsoleto**.
 
-   En todos los formularios adjuntos al objeto, este formulario personalizado calculado más antiguo conserva sus datos históricos, pero los usuarios dejan de utilizarlo.
+   En todos los formularios que se adjuntaron al objeto, este antiguo formulario personalizado calculado conserva sus datos históricos, pero los usuarios dejan de utilizarlo.
 
    >[!IMPORTANT]
    >
-   >Es posible que se haga referencia al campo anterior en otros campos personalizados calculados, por lo que debe actualizar esos cálculos después de cambiar su nombre.
+   >Es posible que se haga referencia al campo antiguo en otros campos personalizados calculados, por lo que es necesario actualizar esos cálculos después de cambiarle el nombre.
 
-1. (Opcional) Quite los campos de la casilla de verificación de los formularios o elimínelos de Workfront.
+1. (Opcional) Elimine los campos de la casilla de verificación de los formularios o bórrelos de Workfront.
 
 <!--
 <blockquote data-mc-conditions="QuicksilverOrClassic.Draft mode">

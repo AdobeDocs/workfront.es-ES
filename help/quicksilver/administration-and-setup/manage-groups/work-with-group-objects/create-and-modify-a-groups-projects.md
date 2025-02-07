@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 0%
+source-wordcount: '483'
+ht-degree: 24%
 
 ---
 
@@ -23,13 +23,13 @@ Cuando está viendo un grupo que administra en el área de Grupos, puede ver y t
 * Cree un nuevo proyecto para el grupo
 * Editar, exportar, copiar o eliminar un proyecto
 
-Si hay grupos por encima de su grupo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
+Si hay grupos por encima del suyo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,20 +41,20 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td>Licencia de Adobe Workfront</a>*</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Debe ser administrador de grupos o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> 
     <ul> 
      <li> <p>El proyecto debe estar asociado al grupo o a cualquiera de sus subgrupos. </p> <p>Para obtener información sobre cómo asignar un grupo a un proyecto, vea <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Administrar información en el área Información general del proyecto</a>.</p> </li> 
-     <li> <p>Además, debe tener permisos para editar el proyecto, ya sea porque lo creó o porque se compartió con usted.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </li> 
+     <li> <p>Además, debe tener permisos para editar el proyecto, ya sea porque lo creó o porque se compartió con usted.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </li> 
     </ul> <p><b>NOTA</b>: Cuando crea un proyecto a partir de la página de un grupo, el sistema asigna el proyecto a ese grupo. Es distinto a la creación de un proyecto en otras áreas de Workfront, donde el sistema asigna el proyecto al grupo de inicio del usuario que lo crea (el propietario del proyecto).</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de Workfront.
 
 +++
 
@@ -62,10 +62,10 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo para el que desea crear, ver o trabajar con proyectos.
-1. En el panel izquierdo, haga clic en **Proyectos** ![](assets/projects-in-main-menu.png) para ver una lista de los proyectos asociados con el grupo.
+1. En el panel izquierdo, haga clic en **Proyectos** ![Proyectos en el menú principal](assets/projects-in-main-menu.png) para ver una lista de los proyectos asociados con el grupo.
 
 1. Realice una de las siguientes acciones:
 

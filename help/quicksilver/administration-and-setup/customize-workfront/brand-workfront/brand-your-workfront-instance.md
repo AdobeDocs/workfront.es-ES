@@ -1,5 +1,5 @@
 ---
-title: Marca su instancia de Adobe Workfront
+title: Marcar instancia de Adobe Workfront
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '905'
+ht-degree: 98%
 
 ---
 
@@ -25,25 +25,25 @@ ht-degree: 1%
 >
 >El procedimiento descrito en esta página se aplica solamente a las organizaciones que aún no se han incorporado a [!DNL Adobe Experience Cloud].
 >
-> Si su organización se ha incorporado a [!DNL Adobe Experience Cloud], la marca no está disponible.
+> Si su organización se ha incorporado a [!DNL Adobe Experience Cloud], la personalización de marca no está disponible.
 
 Como administrador de Workfront, puede personalizar Workfront con logotipos en los siguientes lugares:
 
-* Pantalla de inicio
+* Pantalla de inicio de sesión
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Marca en la pantalla de inicio de sesión](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Área de navegación superior
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Marca en la navegación superior](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Menú principal
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  ![Marca en el menú principal](assets/brand-main-menu-adobe.jpg)
 
 También puede cambiar la imagen de fondo y el color de la pantalla de inicio de sesión:
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+![Titular en la pantalla de inicio de sesión](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ También puede cambiar la imagen de fondo y el color de la pantalla de inicio de
 >  >
 >-->
 >
->* Un administrador de Workfront o de un grupo también puede personalizar la marca de Workfront para determinados grupos y usuarios mediante una plantilla de diseño. La marca en una plantilla de diseño anula la marca de nivel de sistema explicada en este artículo. Para obtener instrucciones sobre la personalización de marca en una plantilla de diseño, consulte [Brand Adobe Workfront con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
+>* Un administrador de Workfront o de grupos también puede personalizar la marca de Workfront para determinados grupos y usuarios mediante una plantilla de diseño. La marca en una plantilla de diseño anula la marca de nivel de sistema explicada en este artículo. Para obtener instrucciones sobre la personalización de marca en una plantilla de diseño, consulte [Personalización de marca en Adobe Workfront mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
 ## Requisitos de acceso
 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -79,20 +79,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Marcar la pantalla de inicio de sesión
+## Personalización de la marca en la pantalla de inicio de sesión
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Sistema** > **Marca**.
+1. Haga clic en **Sistema** > **Personalización de marca**.
 
 1. Realice cualquiera de los siguientes cambios para personalizar Workfront con las imágenes de marca.
 
@@ -101,29 +101,29 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Marca el icono de inicio <span style="font-weight: normal;">(se muestra en el extremo izquierdo del área de navegación superior)</span></p> </td> 
-      <td> <p>En la sección <strong>Área de navegación superior</strong>, en <strong>Icono de inicio</strong>, haga clic en cualquier lugar del cuadro y, a continuación, busque y seleccione la imagen de su logotipo. O bien arrastre una imagen al cuadro.</p> <p>Para recortar la imagen, utilice los controles de desplazamiento y arrastre la imagen a la posición que desee dentro del espacio especificado.</p> <p>Recomendamos una imagen de 120 x 120. Puede tener cualquiera de los siguientes formatos: GIF, JPG de la, PNG, SVG.</p> <p>Este icono también aparece en informes, listas, tableros e informes enviados que los usuarios exportan como archivos de PDF.</p> </td> 
+      <td role="rowheader"> <p>Personalizar la marca en el icono de inicio <span style="font-weight: normal;">(se muestra en el extremo izquierdo del área de navegación superior)</span></p> </td> 
+      <td> <p>En la sección <strong>Área de navegación superior</strong>, en <strong>Icono de inicio</strong>, haga clic en cualquier lugar del cuadro y, a continuación, busque y seleccione la imagen de su logotipo. O bien arrastre una imagen en el cuadro.</p> <p>Para recortar la imagen, utilice los controles de desplazamiento y arrastre la imagen a la posición que desee dentro del espacio especificado.</p> <p>Recomendamos una imagen de 120 x 120. Puede tener cualquiera de los siguientes formatos: GIF, JPG, PNG o SVG.</p> <p>Este icono también aparece en informes, listas, tableros e informes enviados que los usuarios exportan como archivos de PDF.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Marca el logotipo <span style="font-weight: normal;"> del menú principal <img src="assets/main-menu-icon.png"> (se muestra en la esquina superior derecha del menú principal)</span></p> </td> 
-      <td> <p>En la sección <strong>Área de navegación superior</strong>, en <strong>Logotipo del menú principal</strong>, haga clic en cualquier lugar del cuadro y, a continuación, busque y seleccione la imagen de su logotipo. O bien arrastre una imagen al cuadro.</p> <p>Para recortar la imagen, utilice los controles de desplazamiento y arrastre la imagen a la posición que desee dentro del espacio especificado.</p> <p>Recomendamos una imagen de 300 x 120 píxeles. Puede tener cualquiera de los siguientes formatos: GIF, JPG de la, PNG, SVG.</p> </td> 
+      <td role="rowheader"> <p>Personalizar el logotipo de la marca del menú principal <img src="assets/main-menu-icon.png"> <span style="font-weight: normal;"> (se muestra en la esquina superior derecha del menú principal)</span></p> </td> 
+      <td> <p>En la sección <strong>Área de navegación superior</strong>, en el <strong>Logotipo del menú principal</strong>, haga clic en cualquier lugar del cuadro y, a continuación, busque y seleccione la imagen de su logotipo. O bien arrastre una imagen en el cuadro.</p> <p>Para recortar la imagen, utilice los controles de desplazamiento y arrastre la imagen a la posición que desee dentro del espacio especificado.</p> <p>Recomendamos una imagen de 300 x 120 píxeles. Puede tener cualquiera de los siguientes formatos: GIF, JPG, PNG o SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Marca el logotipo de la pantalla de inicio de sesión <span style="font-weight: normal;">(se muestra en la parte superior izquierda del cuadro donde los usuarios escriben las credenciales de inicio de sesión)</span></td> 
-      <td> <p>En <strong>Pantalla de inicio de sesión</strong>, haga clic en cualquier lugar del cuadro y, a continuación, busque y seleccione la imagen de su logotipo. Para recortar la imagen, utilice los controles de desplazamiento y arrastre la imagen a la posición que desee dentro del espacio especificado.</p> <p>Recomendamos una imagen de 300 x 120 píxeles. Puede tener cualquiera de los siguientes formatos: GIF, JPG de la, PNG, SVG.</p> </td> 
+      <td role="rowheader">Personalizar el el logotipo de la pantalla de inicio de sesión <span style="font-weight: normal;">(se muestra en la parte superior izquierda del cuadro donde los usuarios escriben las credenciales de inicio de sesión)</span></td> 
+      <td> <p>En <strong>Pantalla de inicio de sesión</strong>, haga clic en cualquier lugar del cuadro y, a continuación, busque y seleccione la imagen de su logotipo. Para recortar la imagen, utilice los controles de desplazamiento y arrastre la imagen a la posición que desee dentro del espacio especificado.</p> <p>Recomendamos una imagen de 300 x 120 píxeles. Puede tener cualquiera de los siguientes formatos: GIF, JPG, PNG o SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Marca el color de fondo de la pantalla de inicio de sesión <span style="font-weight: normal;"> (se muestra detrás del cuadro donde los usuarios escriben las credenciales de inicio de sesión)</span></td> 
+      <td role="rowheader">Personalizar la marca del color de fondo de la pantalla de inicio de sesión <span style="font-weight: normal;"> (se muestra detrás del cuadro donde los usuarios escriben las credenciales de inicio de sesión)</span></td> 
       <td> <p>En <strong>Pantalla de inicio de sesión</strong>, establezca un <strong>Color de fondo</strong>. </p> <p>Puede utilizar códigos de color RGB o HEX.</p> <p>El color de fondo solo es visible si el fondo de la pantalla de inicio de sesión es más grande que la imagen de fondo de la pantalla de inicio de sesión (consulte la siguiente fila en esta tabla) o si hay alguna transparencia en la imagen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Marca la imagen de fondo de la pantalla de inicio de sesión <span style="font-weight: normal;"> (se muestra detrás del cuadro donde los usuarios escriben sus credenciales de inicio de sesión)</span></td> 
+      <td role="rowheader">Personalizar la marca de la imagen de fondo de la pantalla de inicio de sesión <span style="font-weight: normal;"> (se muestra detrás del cuadro donde los usuarios escriben sus credenciales de inicio de sesión)</span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> En el área de <strong>Pantalla de inicio de sesión</strong>, en <strong>Imagen de fondo</strong>, haga clic en el cuadro y, a continuación, busque y seleccione su imagen o imágenes de JPG o PNG (hasta 20 ). </p> <p>Varias imágenes de fondo se muestran en orden aleatorio, cambiando cada vez que los usuarios actualizan su página de inicio de sesión. Recomendamos imágenes de no más de 2 MB.</p> </li> 
+        <li value="1"> <p> En el área de <strong>Pantalla de inicio de sesión</strong>, en <strong>Imagen de fondo</strong>, haga clic en el cuadro y, a continuación, busque y seleccione su imagen o imágenes de JPG o PNG (hasta 20). </p> <p>Se muestran varias imágenes de fondo en orden aleatorio, que cambian cada vez que los usuarios actualizan su página de inicio de sesión. Recomendamos imágenes de no más de 2 MB.</p> </li> 
         <li value="2"> <p>Pase el ratón sobre cada imagen de fondo que haya cargado, haga clic en el icono de Configuración (engranaje) y utilice cualquiera de las siguientes opciones para especificar dónde y cómo desea que aparezca la imagen en el fondo de la pantalla de inicio de sesión:</p> 
          <ul> 
-          <li> <p><strong>Llenar pantalla</strong>: Ajusta la imagen al fondo de la pantalla de inicio de sesión, lo que puede aumentar el tamaño de la imagen. Utilice una imagen de alta resolución (hasta 2 MB) para obtener los mejores resultados.</p> <p>Al utilizar esta opción, el banner de Workfront, que no se puede personalizar, oscurece parte de la imagen.</p> </li> 
+          <li> <p><strong>Llenar pantalla</strong>: ajusta la imagen al fondo de la pantalla de inicio de sesión, lo que puede aumentar el tamaño de la imagen. Utilice una imagen de alta resolución (hasta 2 MB) para obtener los mejores resultados.</p> <p>Al utilizar esta opción, el banner de Workfront, que no se puede personalizar, oscurece parte de la imagen.</p> </li> 
           <li> <p><strong>Mosaico</strong>: coloca la imagen en mosaico en el área de fondo de la pantalla de inicio de sesión, en su tamaño original. Esto resulta útil para crear un patrón. Seleccione una opción de alineación azul para iniciar el mosaico desde la esquina superior izquierda, superior central o superior derecha del área de fondo.</p> </li> 
           <li> <p><strong>Posición</strong>: coloca la imagen en su tamaño original en la posición que elija con una de las opciones de alineación azul: arriba a la izquierda, arriba a la derecha o arriba a la derecha del área de fondo de la pantalla de inicio de sesión.</p> <p>El color de fondo rellena el resto del área de fondo de la pantalla de inicio de sesión. Para obtener más información sobre el color de fondo, consulte la fila anterior de esta tabla.</p> </li> 
          </ul> </li> 
@@ -131,7 +131,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr> 
       <td role="rowheader">Restablecer la marca predeterminada</td> 
-      <td> <p>Al restablecer la marca predeterminada, se eliminarán todas las fotos e imágenes que haya cargado.</p> <p>Haga clic en <strong>Restablecer todos los valores predeterminados de marca de Workfront</strong> en la esquina inferior derecha de la pantalla y, a continuación, haga clic en <strong>Sí</strong>.</p> </td> 
+      <td> <p>Al restablecer la marca predeterminada, se eliminarán todas las fotos e imágenes que haya cargado.</p> <p>Haga clic en <strong>Restablecer toda la personalización de marca a los valores predeterminados de Workfront</strong> en la esquina inferior derecha de la pantalla y, a continuación, haga clic en <strong>Sí</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>

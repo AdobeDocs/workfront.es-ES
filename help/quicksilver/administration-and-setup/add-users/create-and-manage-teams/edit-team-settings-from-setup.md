@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 97%
+source-wordcount: '598'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step-1-to-setup}}
 
 1. Haga clic en **Equipos** en el panel izquierdo.
-1. Seleccione un equipo y luego haga clic en **Editar** ![](assets/edit-icon.png).
+1. Seleccione un equipo y luego haga clic en **Editar** ![Editar icono](assets/edit-icon.png).
 
 1. Realice cualquiera de los siguientes cambios:
 

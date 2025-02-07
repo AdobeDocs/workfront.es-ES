@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 3%
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuración del nivel de acceso</td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
    <td> <p>Administrador del sistema</p> </td> 
   </tr> 
  </tbody> 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En el panel izquierdo, haga clic en **Correo electrónico** > **Notificaciones**> **Plantillas de correo electrónico**.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![Ficha Plantillas de correo electrónico](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Haga clic en **Nueva plantilla de correo electrónico**.
 
@@ -87,7 +87,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
       <li>Proyecto</li>
       <li>Tarea</li>
       <li>Problema</li>
-      <li>Hoja de horas</li> </ul>
+      <li>Plantilla de horas</li> </ul>
 
    Este campo es obligatorio y está establecido en Proyecto de forma predeterminada.</td>
    </tr>
@@ -117,14 +117,14 @@ Empiece a crear la plantilla de correo electrónico como se describe en [Crear u
 El formato de HTML puede enriquecer las plantillas de correo electrónico, como se muestra en las secciones siguientes.
 
 * [Vínculo a objetos de Workfront](#link-to-workfront-objects)
-* [Vínculo a campos personalizados con el HTML](#link-to-custom-fields-with-html)
-* [ejemplos de correo electrónico de HTML](#html-email-examples)
+* [Vínculo a campos personalizados con HTML](#link-to-custom-fields-with-html)
+* [Ejemplos de correo electrónico de HTML](#html-email-examples)
 
 ### Vínculo a objetos de Workfront {#link-to-workfront-objects}
 
 Puede incluir vínculos a campos de Workfront utilizando el comodín `$$` para indicar al generador de correo electrónico que busque valores de la base de datos asociada a un objeto específico.
 
-Por ejemplo, el cuerpo del correo electrónico de una notificación que alerta al usuario asignado de la tarea que la tarea está a punto de iniciar puede seguir esta estructura:
+Por ejemplo, el cuerpo del correo electrónico de una notificación que alerta al usuario asignado de la tarea que la tarea está a punto de iniciarse puede seguir esta estructura:
 
 ```html
 <html>
@@ -146,7 +146,7 @@ Por ejemplo, el cuerpo del correo electrónico de una notificación que alerta a
 </html>
 ```
 
-Para obtener el valor &quot;comodín&quot; para un objeto, realice una de las siguientes acciones:
+Para obtener el valor “comodín” para un objeto, realice una de las siguientes acciones:
 
 * Consulte el Explorador de API y seleccione los nombres de los objetos en la pestaña Campos de cualquier objeto. Para obtener más información sobre el Explorador de API, consulte [Explorador de API](/help/quicksilver/wf-api/general/api-explorer.md).
 
@@ -158,15 +158,15 @@ El valor `heading` puede ser el nombre del objeto, tal como desea que aparezca e
 
 Puede incluir vínculos a usuarios y campos personalizados utilizando el comodín `$$` para indicar al generador de correo electrónico que busque valores de la base de datos asociada con el objeto. Deben estar presentes a ambos lados de la referencia de atributo de la base de datos.
 
-Por ejemplo, si agrega el siguiente texto como HTML, agregará el nombre del usuario asignado a la notificación de recordatorio asociada con una tarea:
+Por ejemplo, si añade el siguiente texto como HTML, añadirá el nombre del usuario asignado a la notificación de recordatorio asociada con una tarea:
 
 `assignedTo:firstName`
 
-Para agregar campos personalizados con el mismo formato, puede agregar lo siguiente en la notificación por correo electrónico:
+Para añadir campos personalizados con el mismo formato, puede añadir lo siguiente en la notificación por correo electrónico:
 
 `DE:Custom Field As It Appears in Workfront`
 
-Por ejemplo, se trata de una plantilla de correo electrónico que incluye una referencia a un campo personalizado denominado Fecha de entrega y se supone que el campo Fecha de entrega pertenece a una tarea.
+Por ejemplo, esto es de una plantilla de correo electrónico que incluye una referencia a un campo personalizado denominado Fecha de entrega y se supone que el campo Fecha de entrega pertenece a una tarea.
 
 Reemplace `<your domain>` con el dominio Workfront de su compañía, sin los corchetes:
 
@@ -202,20 +202,20 @@ Reemplace `<your domain>` con el dominio Workfront de su compañía, sin los cor
 >
 >`DE:Project:Delivery Date`
 
-### ejemplos de correo electrónico de HTML {#html-email-examples}
+### Ejemplos de correo electrónico de HTML {#html-email-examples}
 
-* [Notificación de recordatorio de proyecto tardío (ejemplo)](#late-project-reminder-notification-example)
+* [Notificación de recordatorio de proyecto atrasado (ejemplo)](#late-project-reminder-notification-example)
 * [Recordatorio de tarea o problema a punto de iniciarse (ejemplo)](#task-or-issue-about-to-start-reminder-example)
 
-#### Notificación de recordatorio de proyecto tardío (ejemplo) {#late-project-reminder-notification-example}
+#### Notificación de recordatorio de proyecto atrasado (ejemplo) {#late-project-reminder-notification-example}
 
-Para editar una plantilla de correo electrónico para un recordatorio de proyecto tardío, tenga en cuenta esta información para los campos Asunto y Contenido.
+Para editar una plantilla de correo electrónico para un recordatorio de proyecto atrasado, tenga en cuenta esta información para los campos Asunto y Contenido.
 
 Reemplace `<your domain>` con el dominio Workfront de su compañía, sin los corchetes.
 
 **Asunto:**
 
-Un Proyecto Que Administra Se Ha Retrasado
+Un proyecto que administra se ha retrasado
 
 **Contenido:**
 
@@ -239,13 +239,13 @@ Un Proyecto Que Administra Se Ha Retrasado
 
 Esto genera un correo electrónico similar al siguiente:
 
-![](assets/project-became-late-email.png)
+![El proyecto se retrasó al recibir correo electrónico](assets/project-became-late-email.png)
 
 #### Recordatorio de tarea o problema a punto de iniciarse {#task-or-issue-about-to-start-reminder-example}
 
 También es posible que desee crear una notificación de recordatorio para una tarea o un problema próximo.
 
-El siguiente código se puede incluir en una plantilla de correo electrónico para su uso para las notificaciones de recordatorio de tarea y problema que se envían cualquier número de días antes de la fecha de inicio planificada de la tarea o problema.
+El siguiente código se puede incluir en una plantilla de correo electrónico para usarse en las notificaciones de recordatorio de tarea y problema que se envían cualquier número de días antes de la fecha de inicio planificada de la tarea o problema.
 
 Reemplace `<your domain>` con el dominio Workfront de su compañía, sin los corchetes.
 

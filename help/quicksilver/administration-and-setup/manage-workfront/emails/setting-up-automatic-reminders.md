@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 89%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Como administrador de Adobe Workfront, puede configurar recordatorios automáticos para almacenar en déclencheur las notificaciones por correo electrónico cuando todas las tareas o problemas venzan, se retrasen o estén cerca de la fecha planificada de finalización. Después de establecer esta configuración, los usuarios no pueden deshabilitar los avisos automáticos.
+Como administrador de Adobe Workfront, puede configurar recordatorios automáticos para activar las notificaciones por correo electrónico cuando todas las tareas o problemas venzan, se retrasen o estén cerca de la fecha planificada de finalización. Después de establecer esta configuración, los usuarios no pueden deshabilitar los avisos automáticos.
 
 Para las notificaciones tardías, el correo electrónico se envía todas las noches hasta que se complete la tarea o el problema.
 
-Se puede enviar un recordatorio automático a una o varias de las siguientes direcciones:
+Se puede enviar un recordatorio automático a una o varias de las siguientes personas:
 
-* Los usuarios asignados a una tarea o un problema
-* El responsable inmediato del usuario
-* El gerente del gerente inmediato
+* El usuario asignado a una tarea o problema.
+* El administrador inmediato del usuario.
+* El administrador del administrador inmediato.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -95,11 +95,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    El tiempo se calcula a partir de la fecha planificada de finalización de la tarea o problema.
 
-   Especifique el número de minutos, horas, días, semanas o meses para agregar tiempo a la Fecha planificada de finalización de las tareas o problemas. Seleccione **Minutos transcurridos**, **Horas transcurridas**, **Días transcurridos** o **Semanas transcurridas** para agregar tiempo que incluya cualquier fin de semana, festivos y horas no laborables como se indica en su programación.
+   Especifique el número de minutos, horas, días, semanas o meses para añadir tiempo a la Fecha planificada de finalización de las tareas o problemas. Seleccione **Minutos transcurridos**, **Horas transcurridas**, **Días transcurridos** o **Semanas transcurridas** para agregar tiempo que incluya cualquier fin de semana, festivos y horas no laborables como se indica en su programación.
 
    Por ejemplo, si una tarea se asigna el viernes y tiene una duración de 3 días transcurridos, la fecha de finalización de la tarea se establece en lunes (suponiendo que sábado y domingo sea fin de semana). Si la tarea tiene una duración de 3 días (no transcurridos), la fecha de finalización de la tarea se establece en miércoles.
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![Incrementos de tiempo](assets/time-increments-for-automatic-reminder.png)
 
 1. Haga clic en **Guardar**.
 
@@ -115,4 +115,4 @@ Para obtener más información sobre cómo recibir correos electrónicos de reco
 
 Los recordatorios automáticos se envían en cuanto se cumple la hora seleccionada por el administrador de Workfront.
 
-Si desea almacenar en déclencheur el envío manual de los correos electrónicos de recordatorio automático, puede hacerlo mediante Diagnóstico. Para obtener más información acerca del acceso y uso de los diagnósticos en Workfront, vea [Usar diagnósticos para almacenar en déclencheur procesos automatizados](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Si desea activar el envío manual de los correos electrónicos de recordatorio automático, puede hacerlo mediante Diagnóstico. Para obtener más información acerca del acceso y uso de los diagnósticos en Workfront, consulte [Usar diagnósticos para activar procesos automatizados](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

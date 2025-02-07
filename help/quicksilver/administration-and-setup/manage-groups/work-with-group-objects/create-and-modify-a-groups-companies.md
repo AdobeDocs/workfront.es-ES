@@ -3,46 +3,46 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Crear y modificar las compañías de un grupo
-description: Cuando visualiza un grupo que administra en el área Grupos, puede ver y trabajar con empresas asociadas al grupo y a cualquiera de sus subgrupos.
+description: Cuando visualice un grupo que gestiona en el área de Grupos, puede ver y trabajar con las empresas asociadas al grupo y a cualquiera de sus subgrupos.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 0%
+source-wordcount: '756'
+ht-degree: 90%
 
 ---
 
-# Crear y modificar las compañías de un grupo
+# Crear y modificar las empresas de un grupo
 
-Cuando visualiza un grupo que administra en el área Grupos, puede ver y trabajar con empresas asociadas al grupo y a cualquiera de sus subgrupos.
+Cuando visualice un grupo que gestiona en el área de Grupos, puede ver y trabajar con las empresas asociadas al grupo y a cualquiera de sus subgrupos.
 
-Si hay grupos por encima de su grupo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
+Si hay grupos por encima del suyo, sus administradores también pueden hacer estas cosas por su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Workfront*</td> 
+   <td role="rowheader">Plan de Workfront*</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> <p>Debe ser administrador de grupo del grupo o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Debe ser administrador de grupos o de Workfront. Para obtener más información, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Administradores de grupo</a> y <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+&#42;Si necesita saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de Workfront.
 
 +++
 
@@ -50,11 +50,11 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Grupos** ![](assets/groups-icon.png).
+1. En el panel izquierdo, haga clic en **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Haga clic en el nombre del grupo para el que desea crear o modificar compañías.
-1. En el panel izquierdo, haga clic en **Compañías** para enumerar las compañías asociadas con el grupo y los subgrupos que pueda tener.
-1. (Opcional) Para agregar una empresa, haga clic en **Agregar empresa** y, a continuación, configure la empresa con las opciones que se indican a continuación. Cuando termine, haga clic en **Crear compañía**.
+1. En el panel de navegación izquierdo, haz clic en **Empresas** para listar las empresas asociadas al grupo y a cualquier subgrupo que pueda tener.
+1. (Opcional) Para añadir una empresa, haga clic en **Añadir empresa** y, a continuación, configure la empresa con las opciones que se indican a continuación. Cuando termine, haga clic en **Crear compañía**.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -69,25 +69,25 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
         <li> <p><b>Esta es la compañía primaria</b>: asigna la compañía como compañía primaria de su organización. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios.</p> <p>Al modificar sus niveles de acceso, puede restringir el acceso de los usuarios a otros usuarios:</p> 
          <ul> 
           <li>Solo en su compañía principal</li> 
-          <li> <p>En la compañía asociada y en la compañía primaria</p> <p>Para obtener información acerca de la funcionalidad principal de la compañía dentro de los niveles de acceso de los usuarios, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> <p>Sólo puede haber una o ninguna compañía designada como compañía primaria, pero no puede haber varias compañías designadas como compañía primaria. Para obtener más información, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </li> 
+          <li> <p>En la compañía asociada y en la compañía primaria</p> <p>Para obtener información sobre la funcionalidad de empresa principal dentro de los niveles de acceso de los usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> <p>Solamente puede haber una o ninguna compañía designada como compañía primaria, pero no puede haber varias compañías designadas como compañía primaria. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </li> 
          </ul> </li> 
-        <li> <p><b>Grupo</b>: si hay un grupo que hace negocios con la compañía, puede agregar el nombre del grupo aquí. Esto resulta útil para los administradores de grupos que necesitan informar y administrar todas las compañías con las que hacen negocios sus grupos.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">El sistema rellena el campo <strong>Grupo</strong> de la nueva compañía con el grupo que está viendo.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Si tiene acceso administrativo a las compañías de su nivel de acceso, puede quitar el grupo de la compañía y asignar una diferente, o dejar la compañía sin un grupo.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Si no tiene acceso administrativo a las empresas, el campo <strong>Grupo</strong> es obligatorio y solo puede seleccionar los grupos que administra o cualquier subgrupo de esos grupos.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Para obtener información acerca del acceso administrativo a las compañías, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder acceso administrativo a los usuarios a ciertas áreas</a>.</p> </li> 
-        <li> <p><b>Miembros de la compañía</b>: Agregue usuarios existentes a la compañía. Al hacerlo, asocia estos usuarios con esta compañía.</p> <p>No hay límite en cuanto a la cantidad de usuarios que asocia con una empresa, pero un usuario no puede asociarse con más de una empresa.</p> </li> 
+        <li> <p><b>Grupo</b>: si hay un grupo que hace negocios con la compañía, puede añadir el nombre del grupo aquí. Esto resulta útil para los administradores de grupos que necesitan informar y administrar todas las compañías con las que hacen negocios sus grupos.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">El sistema rellena el campo <strong>Grupo</strong> de la nueva compañía con el grupo que está viendo.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Si tiene acceso administrativo a las empresas en tu nivel de acceso, puede eliminar el grupo de la empresa y asignar uno diferente, o dejar la empresa sin un grupo.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Si no tienes acceso administrativo a las empresas, el campo <strong>Grupo</strong> es obligatorio y solo puedes seleccionar los grupos que gestionas o cualquier subgrupo bajo esos grupos.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Para obtener información acerca del acceso administrativo a las compañías, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> </li> 
+        <li> <p><b>Miembros de la empresa</b>: añade usuarios existentes a la compañía. Al hacerlo, asocia estos usuarios con esta compañía.</p> <p>No hay límite en la cantidad de usuarios que puedes asociar con una empresa, pero un usuario no puede estar asociado a más de una empresa.</p> </li> 
        </ul> </td> 
      </tr>
      <tr> 
-      <td role="rowheader">Sección de Forms personalizado</td> 
-      <td> <p>Si hay campos que desea agregar a su empresa y que no están disponibles en Workfront, puede crear un formulario personalizado y asociarlo a su empresa. Puede adjuntar este formulario a su empresa seleccionándolo en el menú desplegable. En el menú desplegable sólo aparecen las empresas activas. Para obtener información sobre cómo crear formularios personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Crear un formulario personalizado</a>. </p> </td> 
+      <td role="rowheader">Información general sobre formularios personalizados</td> 
+      <td> <p>Si hay campos que deseas añadir a tu empresa y no están disponibles en Workfront, puede crear un formulario personalizado y asociarlo a tu empresa. Puede adjuntar este formulario a su empresa seleccionándolo en el menú desplegable. En el menú desplegable solamente aparecen las empresas activas. Para obtener información sobre cómo crear formularios personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Crear un formulario personalizado</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >Si tiene acceso administrativo a las compañías de su nivel de acceso, también puede hacer clic en Agregar más compañías en la parte inferior de la lista. Esto agrega una fila en la que puede configurar rápidamente la nueva compañía.
+   >Si tiene acceso administrativo a las empresas en tu nivel de acceso, también puede hacer clic en Añadir Más Empresas en la parte inferior de la lista. Esto añade una fila donde puede configurar rápidamente la nueva empresa.
 
-1. (Opcional) Para editar o eliminar empresas, seleccione al menos una empresa y, a continuación, utilice los botones de la barra de herramientas para editar ![](assets/edit-icon.png) o eliminarla ![](assets/delete.png).
+1. (Opcional) Para editar o eliminar empresas, selecciona al menos una y, a continuación, usa los botones de la barra de herramientas para editar el ![icono Editar](assets/edit-icon.png) o eliminar el ![icono Eliminar](assets/delete.png).
 
-   Para obtener información acerca de cómo editar una compañía, vea la sección [Crear o editar una compañía en Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) en el artículo [Crear y editar compañías](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Para obtener información sobre cómo editar una empresa, consulte la sección [Crear o editar una empresa en Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) en el artículo [Crear y editar empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Opcional) Para exportar la lista de empresas, haga clic en el icono Exportar ![](assets/export.png) y, a continuación, seleccione el formato de archivo que desee para la lista exportada.
+1. (Opcional) Para exportar la lista de empresas, haga clic en el icono Exportar ![Icono Exportar](assets/export.png) y, a continuación, seleccione el formato de archivo que desee para la lista exportada.
