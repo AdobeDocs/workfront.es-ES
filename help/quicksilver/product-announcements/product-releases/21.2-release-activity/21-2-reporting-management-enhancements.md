@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 95%
+source-wordcount: '551'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ Para que coincida con el aspecto moderno de otras áreas en la nueva experiencia
 
 Para obtener más información sobre las asignaciones en las listas, consulte [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Asignar problemas](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![Actualizaciones de asignaciones](assets/assignments-updates-350x193.png)
 
 ## Nueva apariencia para los campos de escritura anticipada en listas e informes actualizados
 
@@ -64,7 +64,7 @@ Para adaptarse al aspecto moderno de otras áreas en la nueva experiencia de Wor
 
 Para obtener información sobre las listas actualizadas, consulte la sección [La diferencia entre las listas actualizadas y las listas heredadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) en el artículo [Comenzar con las listas en Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Campo de escritura anticipada](assets/typeahead-updates-350x336.png)
 
 ## Informar sobre actualizaciones del sistema
 

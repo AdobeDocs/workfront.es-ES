@@ -1,17 +1,17 @@
 ---
-title: Mejoras de formularios personalizados
+title: Mejoras en los formularios personalizados
 description: A continuación, se llevan a cabo mejoras significativas para administrar formularios personalizados en la versión 22.2.
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 0%
+source-wordcount: '1117'
+ht-degree: 4%
 
 ---
 
-# Mejoras de formularios personalizados
+# Mejoras en los formularios personalizados
 
 A continuación, se llevan a cabo mejoras significativas para administrar formularios personalizados en la versión 22.2.
 
@@ -19,17 +19,17 @@ A continuación, se llevan a cabo mejoras significativas para administrar formul
 
 Puede incrustar imágenes en los formularios personalizados. Esto le permite comunicarse con los usuarios de formularios personalizados de una manera más interactiva y visual. Próximamente habrá más tipos de widgets.
 
-![](assets/image-in-custom-form.png)
+![Imagen en formulario personalizado](assets/image-in-custom-form.png)
 
 Cuando se adjunta un formulario personalizado que contiene un widget a un objeto, los usuarios que trabajen con él podrán verlo en las siguientes áreas:
 
 * El área Detalles del objeto (por ejemplo, para un proyecto, el área Detalles del proyecto)&#x200B;
 
-  ![](assets/see-image-details-page.png)
+  ![Detalles de la imagen](assets/see-image-details-page.png)
 
 * El cuadro Editar del objeto, si tiene el nuevo aspecto y funcionamiento de la experiencia Adobe Workfront (por ejemplo, los cuadros Editar proyecto y Editar tarea)&#x200B;
 
-  ![](assets/image-see-in-edit.png)
+  ![Edición de imagen](assets/image-see-in-edit.png)
 
 Actualmente, los usuarios no pueden ver el widget en las siguientes áreas:&#x200B;
 
@@ -42,11 +42,11 @@ Actualmente, los usuarios no pueden ver el widget en las siguientes áreas:&#x20
 
 Puede asociar varios tipos de objetos con cualquier formulario personalizado nuevo:
 
-![](assets/new-custom-form-object-types.png)
+![Tipos de objetos de formulario personalizados](assets/new-custom-form-object-types.png)
 
 O cualquier formulario personalizado existente:
 
-![](assets/add-object-type-existing-form.png)
+![Agregar tipo de objeto al formulario](assets/add-object-type-existing-form.png)
 
 Esto le permite crear un único formulario personalizado para utilizarlo en proyectos, tareas, problemas y cualquier otro tipo de objetos compatibles con los formularios personalizados.
 
@@ -76,11 +76,11 @@ Tenga en cuenta lo siguiente al crear o editar un formulario personalizado de va
 
 El conjunto de opciones de permiso de salto de sección disponibles para los tipos de objeto Problema, Tarea, Proyecto y Usuario tiene una opción de permiso más que el conjunto de opciones de permiso para todos los demás tipos de objeto: Edición limitada.
 
-![](assets/section-break-permissions-limited-edit.png)
+![Salto de sección con edición limitada](assets/section-break-permissions-limited-edit.png)
 
 El conjunto de permisos de salto de sección disponible para todos los demás tipos de objetos (Portfolio, documento, programa, gasto, compañía, iteración, registro de facturación y grupo) no incluye Edición limitada:
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![Salto de sección sin edición limitada](assets/section-break-permissions-no-limited-edit.png)
 
 En un formulario personalizado asociado a tipos de objeto de ambos grupos, el sistema utiliza un conjunto común de permisos de salto de sección que funcionan para todos los tipos de objeto. En particular, en lugar de utilizar la opción de permiso Editar de forma limitada, este conjunto común sustituye la opción de permiso Editar por la opción de permiso Editar de forma limitada. La opción Editar es compatible con todos los tipos de objetos.
 

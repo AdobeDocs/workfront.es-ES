@@ -7,10 +7,10 @@ description: En este artículo se describe cómo iniciar o cerrar sesión en la 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 0%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
    </tbody> 
 </table>
@@ -50,7 +50,7 @@ Para poder iniciar o cerrar sesión en [!DNL Workfront for Google Workspace], de
 
 ## Iniciar sesión en [!DNL Adobe Workfront for Google Workspace]
 
-1. Haga clic en el icono [!DNL Workfront] ![](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de [!DNL Gmail], [!DNL Google Calendar] o [!DNL Google Drive].
+1. Haga clic en el icono [!DNL Workfront] ![Workfront icon](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de [!DNL Gmail], [!DNL Google Calendar] o [!DNL Google Drive].
 
    Si acaba de instalar el complemento [!DNL Workfront for Google Workspace] y no puede ver este icono, intente actualizar la página del explorador.
 
@@ -61,12 +61,12 @@ Para poder iniciar o cerrar sesión en [!DNL Workfront for Google Workspace], de
    >[!NOTE]
    >
    >* [!DNL Workfront] se conecta a [!DNL Google Workspace] mediante OAuth 2.0, un estándar seguro utilizado por la mayoría de las integraciones basadas en la web para la autenticación y autorización de usuarios.
-   >* Cuando se le pida que ingrese el [dominio o host] de su cuenta de [!DNL Workfront], escríbalo con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
+   >* Cuando se le pida que introduzca el [dominio o host] de su cuenta de [!DNL Workfront], escríbalo con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
 
 
 ## Cerrar sesión de [!DNL Workfront for Google Workspace]
 
-1. Si no se muestra el panel [!UICONTROL Workfront for Google Workspace], haga clic en el icono [!DNL Workfront] ![](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de la página.
+1. Si no se muestra el panel [!UICONTROL Workfront for Google Workspace], haga clic en el icono [!DNL Workfront] ![Workfront icon](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de la página.
 1. Haga clic en el icono **[!UICONTROL Más acciones]** en la parte superior del panel [!DNL Workfront for Google Workspace].
 
 1. Haga clic en **[!UICONTROL Cerrar sesión]** en el menú que aparece.

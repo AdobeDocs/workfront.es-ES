@@ -9,10 +9,10 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 0%
+source-wordcount: '245'
+ht-degree: 13%
 
 ---
 
@@ -43,7 +43,7 @@ Para volver a cambiar el modificador a un solo archivo en [!DNL InDesign]:
 
 1. Abra el cuadro de diálogo **Establecer configuración de archivo de exportación**.
 
-   ![](assets/file-export-settings.png)
+   ![Configuración de exportación de archivos](assets/file-export-settings.png)
 
 1. Busque el tipo de recurso que desea exportar y ajuste la configuración como se describe a continuación:
 

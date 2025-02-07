@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 95%
 
 ---
 
@@ -19,40 +19,40 @@ Esta página describe todas las mejoras realizadas por el administrador con la v
 
 ## Integración de Adobe Workfront con JumpSeat
 
-Ahora puede integrar JumpSeat con Workfront para crear orientación personalizada en el producto para sus usuarios. Debe tener una licencia empresarial de Adobe Workfront y una suscripción JumpSeat activa para habilitar la integración.
+Ahora puede integrar JumpSeat en Workfront para crear una guía personalizada en el producto para sus usuarios. Debe tener una licencia empresarial de Adobe Workfront y una suscripción JumpSeat activa para habilitar la integración.
 
-Para obtener más información, consulte [Configuración de la integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+Para obtener más información, consulte [Configurar integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
-## La configuración predeterminada de revisión se movió a Workfront
+## La configuración predeterminada de revisión se ha movido a Workfront
 
-Ahora puede editar la siguiente configuración de revisión dentro del área de configuración de Workfront:
+Ahora puede editar la siguiente configuración de pruebas dentro del área de configuración de Workfront:
 
-* Configuración predeterminada de revisión
+* Configuración de revisión predeterminada
 
-* Configuración de decisión de revisión
+* Configuración de revisión de decisión
 
-Para obtener más información, consulte [Configurar opciones predeterminadas de revisión](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Para obtener más información, consulte [Configuración de valores predeterminados de prueba](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
-## Uso de estados desbloqueados en procesos de aprobación
+## Usar estados desbloqueados en un proceso de aprobación
 
-**Nota:** se eliminó de la versión de producción 22.3. Está previsto que esta función se publique en Production el 15 de septiembre de 2022.
+**Nota:** Se ha eliminado de la versión de producción 22.3. Está previsto que esta función se publique en Producción el 15 de septiembre de 2022.
 
-Para darle más control sobre los procesos y estados de aprobación de su sistema, hemos hecho posible crear un proceso de aprobación basado en un estado de sistema desbloqueado. Además, ahora puede desbloquear cualquier estado que ya se esté utilizando en un proceso de aprobación.
+Para darle más control sobre los procesos y estados de aprobación de su sistema, hemos creado un proceso de aprobación basado en un estado del sistema desbloqueado. Además, ahora puede desbloquear cualquier estado que ya se haya utilizado en un proceso de aprobación. 
 
-Anteriormente, un estado del sistema utilizado en un proceso de aprobación tenía que estar bloqueado. Esto lo hizo disponible para todos los grupos, sin la posibilidad de eliminarlo o cambiarle el nombre, por lo que los administradores de grupos no pudieron optimizar la lista de estados de su grupo para adaptarla a sus necesidades específicas.
+Anteriormente, un estado del sistema utilizado en un proceso de aprobación tenía que estar bloqueado. De este modo, estaba disponible para todos los grupos, sin la posibilidad de eliminarlo o cambiarle el nombre, por lo que los administradores de grupos no podían optimizar la lista de estados de su grupo para adaptarla a sus necesidades específicas.
 
 Para obtener más información, consulte los siguientes artículos:
 
-* [Crear un proceso de aprobación para elementos de trabajo](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [Crear un proceso de aprobación para los elementos de trabajo](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 
-* [Creación o edición de un estado](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+* [Crear o editar un estado](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 
-* [Estados bloqueados y desbloqueados en el nivel del sistema](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
+* [Estados de nivel del sistema bloqueados y desbloqueados](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
 
 
-## Agregar un archivo de PDF a un formulario personalizado
+## Añadir un archivo PDF a un formulario personalizado
 
-Seguimos ayudando a que los formularios personalizados sean más visuales e informativos con los nuevos widgets de recursos que puede agregar, como imágenes y vídeos. Ahora puede agregar un vínculo a un archivo de PDF a un formulario personalizado. Cuando el formulario está adjunto a un objeto, los usuarios que trabajan con el objeto pueden ver e interactuar con el PDF desde el formulario.
+Seguimos trabajando para que los formularios personalizados sean más visuales e informativos, con nuevos widgets de recursos para añadir, como imágenes y vídeos. Ahora puede añadir un vínculo a un archivo PDF hacia un formulario personalizado. Cuando el formulario está adjunto a un objeto, los usuarios que trabajan con el objeto pueden ver e interactuar con el PDF desde el formulario.
 
 ## El editor de cálculo de campos de formulario personalizados muestra información de error
 
@@ -60,7 +60,7 @@ Seguimos ayudando a que los formularios personalizados sean más visuales e info
 >
 >Esta función no está disponible temporalmente. Esta página se actualizará cuando la función esté disponible.
 
-Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el ratón por encima de la parte resaltada, se muestra información del objeto para describir el problema.
+Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el puntero encima de la parte resaltada, se muestra información del objeto para describir el problema.
 
 ## Personalización del encabezado del proyecto
 
@@ -68,20 +68,20 @@ Como administrador de Workfront o de grupos, ahora puede personalizar los campos
 
 Esta actualización incluye las siguientes mejoras:
 
-* Elimine los campos existentes del encabezado del proyecto.
+* Se eliminan los campos existentes del encabezado del proyecto.
 
-* Agregue campos nuevos de Información general del proyecto no editables. No puede agregar campos personalizados o campos que se puedan editar. Los campos editables que están actualmente en el encabezado del proyecto pueden permanecer en el encabezado.
+* Añada campos nuevos de Información general del proyecto no editables. No puede añadir campos personalizados o campos que se puedan editar. Los campos editables que están actualmente en el encabezado del proyecto pueden seguir en el encabezado.
 
 * El encabezado del objeto puede incluir hasta cinco campos.
 
 
-Antes de esta versión, los campos de los encabezados de objeto no se podían personalizar.
+Antes de esta versión, los campos en los encabezados de los objetos no se podían personalizar.
 
-Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Para obtener más información, consulte [Personalización de los encabezados de los objetos mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Controlar la creación de un proyecto en blanco
 
-Como administrador de sistemas o de grupos, ahora puede controlar si los usuarios pueden crear proyectos en blanco sin utilizar una plantilla. Hemos introducido una nueva configuración en el área de Preferencias de proyecto de Configuración que le permite desactivar la creación de proyectos en blanco en las siguientes áreas:
+Como administrador de sistemas o de grupos, ahora puede controlar si los usuarios pueden crear proyectos en blanco sin utilizar una plantilla. Hemos introducido una nueva configuración en el área Preferencias de proyecto, en Configuración, que le permite desactivar la creación de proyectos en blanco en las siguientes áreas:
 
 * Desde la opción Nuevo proyecto en una lista de proyectos
 
@@ -96,15 +96,15 @@ Para obtener más información, consulte [Configurar las preferencias de proyect
 
 ## Desactivar un grupo de la página Grupos
 
-Recientemente, hemos agregado la capacidad de desactivar y reactivar grupos. Para que esa acción sea más rápida y sencilla, la hemos agregado a la página de un grupo. Ahora, después de hacer clic en el nombre de un grupo para ir a su página, puede seleccionar el menú Más ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) junto al nombre del grupo y, a continuación, seleccionar Desactivar o Reactivar.
+Recientemente, hemos añadido la posibilidad de desactivar y reactivar grupos. Para que esa acción sea más rápida y sencilla, la hemos añadido a la página de un grupo. Ahora, después de hacer clic en el nombre de un grupo para ir a su página, puede seleccionar el icono del menú Más ![Menú principal](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) junto al nombre del grupo y, a continuación, seleccionar Desactivar o Reactivar.
 
-Anteriormente, sólo se podía desactivar o reactivar un grupo mediante la casilla de verificación Está activo en la página Detalles.
+Anteriormente, sólo se podía desactivar o reactivar un grupo mediante Está la casilla de verificación activa en la página Detalles.
 
-Para obtener más información, vea [Desactivar o reactivar un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Para obtener más información, consulte [Desactivar o reactivar un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
-## Agregar vídeos a formularios personalizados
+## Añadir vídeos a formularios personalizados
 
-Ahora puede proporcionar un nuevo modo de información, interés visual y creatividad a un formulario personalizado agregando un vídeo. Cuando el formulario está adjunto a un objeto, los usuarios que trabajen con el objeto pueden reproducir el vídeo en cualquier momento.
+Ahora puede proporcionar un nuevo modo de información, interés visual y creatividad a un formulario personalizado añadiendo un vídeo. Cuando el formulario está adjunto a un objeto, los usuarios que trabajen con el objeto pueden reproducir el vídeo en cualquier momento.
 
-Anteriormente, solo se podían agregar campos basados en texto e imágenes a un formulario personalizado.
+Anteriormente, solo se podían añadir campos basados en texto e imágenes a un formulario personalizado.
 

@@ -7,17 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '726'
+ht-degree: 8%
 
 ---
 
 
 # Configure y utilice las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo del código de autorización
 
-Para integrarse con Workfront y permitir que la aplicación cliente se comunique con Workfront en nombre del usuario, debe:
+Para integrarse con Workfront y permitir que la aplicación cliente se comunique con Workfront en nombre del usuario, debe hacer lo siguiente:
 
 * Creación de una aplicación OAuth2
 * Configuración de la aplicación de terceros
@@ -25,7 +25,7 @@ Para integrarse con Workfront y permitir que la aplicación cliente se comunique
 * Configurar flujo de código de autorización: los usuarios inician sesión en la instancia de Workfront y aceptan permitir que la aplicación cliente se conecte a Workfront en su nombre. Como resultado, se obtiene un código de autorización que se intercambia con tokens de acceso y actualización.
 * Configurar flujo de token de actualización: en este flujo se utiliza el token de actualización para obtener un nuevo token de acceso cuando el anterior ha caducado.
 
-## Crear una aplicación OAuth2
+## Creación de una aplicación OAuth2
 
 Para obtener instrucciones sobre cómo crear la aplicación OAuth2, consulte [Crear una aplicación OAuth2 con credenciales de usuario (Flujo de código de autorización)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) en [Crear aplicaciones OAuth2 para integraciones de Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
@@ -70,11 +70,11 @@ La aplicación de terceros puede requerir configuración. La siguiente tabla con
  <tbody> 
   <tr> 
    <td role="rowheader">URI de autorización</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL de token</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo:</b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ámbitos</td> 
@@ -85,7 +85,7 @@ La aplicación de terceros puede requerir configuración. La siguiente tabla con
 
 ## Configurar flujo de código de autorización
 
-![](assets/oauth-2-authorization-code-flow.png)
+![Flujo de código de OAuth](assets/oauth-2-authorization-code-flow.png)
 
 Para iniciar sesión con OAuth2, siga este proceso:
 
@@ -93,7 +93,7 @@ Para iniciar sesión con OAuth2, siga este proceso:
 
    Si el usuario ya ha iniciado sesión en Workfront en el mismo explorador, o si inicia sesión correctamente en Workfront, se redirige al usuario a la pantalla de consentimiento:
 
-   ![](assets/consent-screen-350x227.png)
+   ![Pantalla de consentimiento](assets/consent-screen-350x227.png)
 
 1. Si el usuario permite el acceso, la página se redirigirá a `redirect_url`. El redireccionamiento debe incluir los siguientes parámetros de consulta:
 
@@ -172,7 +172,7 @@ Para iniciar sesión con OAuth2, siga este proceso:
 
 ## Configuración del token de acceso de actualización
 
-![](assets/refresh-access-token-flow-350x142.png)
+![Actualizar flujo de token de acceso](assets/refresh-access-token-flow-350x142.png)
 
 Para actualizar el access_token de nuevo necesitamos hacer una llamada de &quot;POST&quot; al punto final del token. Esta vez, se envía un formulario de datos diferente de la siguiente manera:
 

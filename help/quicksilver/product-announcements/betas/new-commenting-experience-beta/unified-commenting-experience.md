@@ -2,17 +2,17 @@
 product-area: betas
 navigation-topic: new-commenting-experience-beta
 title: Nueva experiencia de comentarios
-description: Actualmente se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de objetos seleccionados.
+description: En este momento, se está desarrollando una actualización de la experiencia de comentarios en Adobe Workfront. Esta actualización incluye una nueva interfaz, nuevas funciones y un rendimiento mejorado en la sección Actualizaciones de objetos seleccionados.
 author: Alina
 feature: Product Announcements
 role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 >
 >La información de este artículo hace referencia a las funciones que se lanzaron a la nueva experiencia de comentarios.
 >
->El programa beta para la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre de 2023, con la versión de octubre de 2023.
+>El programa Beta de la nueva experiencia de comentarios comenzó en abril de 2023 y finalizó en octubre, con la versión de ese mes.
 >
 >Desde el 11 de abril de 2024, todas las funciones de la nueva experiencia de comentarios están disponibles en el entorno de producción para todos los clientes.
 >
@@ -44,21 +44,21 @@ La nueva experiencia de comentarios incluye mejoras y cambios en la sección Act
 
 Entre las mejoras incluidas en la nueva experiencia de comentarios están las siguientes:
 
-* Rendimiento y experiencia de usuario mejorados
+* Rendimiento y experiencia del usuario mejorados
 * Separación de los comentarios del usuario de las actualizaciones de actividad del sistema
 * Indicador de tiempo real cuando se añaden nuevos comentarios a un objeto
 * Edición de comentarios después de enviarlos
 
 Se han eliminado las siguientes funciones de la nueva experiencia:
 
-* Comentario sobre una actualización del sistema. Los comentarios agregados a las actualizaciones del sistema en el pasado se han importado como comentarios de solo lectura en la nueva pestaña Actividad del sistema.
-* Capacidad para editar el estado, la condición, la fecha de confirmación y el porcentaje completado al comentar tareas y problemas.
+* Comentarios en una actualización del sistema. Los comentarios añadidos a las actualizaciones del sistema en el pasado se han importado como comentarios de solo lectura en la nueva pestaña Actividad del sistema.
+* Capacidad para editar Estado, Condición, Fecha de compromiso y Porcentaje completado al comentar tareas y problemas.
 
-  Como alternativa, le recomendamos que agregue estos campos al Panel de resumen de tareas y problemas para acceder fácilmente a ellos desde listas, Inicio, Workfront Balancer o una hoja de horas.
+  Como alternativa, le recomendamos que agregue estos campos al Panel de resumen de tareas y problemas para acceder con facilidad a ellos desde listas, Inicio, Workfront Balancer o una plantilla de horas.
 * Capacidad para editar el formulario personalizado
-* La información &quot;en nombre de &lt; nombre de usuario >&quot; cuando un administrador de Workfront o de grupo inicia sesión como otro usuario y agrega un comentario en su nombre se eliminó originalmente. Se ha restablecido el 19 de octubre de 2023.
-* La opción &quot;Pedir aprobación&quot; al etiquetar personas al agregar un comentario a un documento.
-* Se eliminará la configuración &quot;Mostrar porcentaje completado al actualizar el estado&quot; al editar el cuadro de perfil de un usuario. Se ha eliminado la funcionalidad de actualizar el porcentaje completado de una tarea o problema.
+* En un principio, se eliminó la información “en nombre de &lt; nombre de usuario >” cuando un administrador de grupos o de Workfront inicia sesión como otro usuario y añade un comentario en su nombre. Se ha restablecido el 19 de octubre de 2023.
+* La opción “Pedir aprobación” al etiquetar personas mientras añade un comentario a un documento.
+* Se eliminará la configuración “Mostrar porcentaje completado al actualizar el estado” al editar el cuadro de perfil de un usuario. Se ha eliminado la funcionalidad de actualizar el porcentaje completado de una tarea o problema.
 
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
@@ -77,7 +77,7 @@ Se han eliminado las siguientes funciones de la nueva experiencia:
 For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
 -->
 
-La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de comentarios, así como su disponibilidad en áreas en las que son compatibles:
+La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de comentarios, así como su disponibilidad en áreas en las que se admiten:
 
 <table>
   <tr>
@@ -85,7 +85,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td><strong>Existía en la antigua experiencia de comentarios </strong>
    </td>
-   <td><strong>Existe en la nueva experiencia de comentarios </strong>
+   <td><strong>Existe en la experiencia de comentarios nueva </strong>
    </td>
 
 <td><strong>Presentado en la nueva experiencia de comentarios </strong>
@@ -134,7 +134,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-    <td> SEGUNDO TRIMESTRE DE 2023
+    <td> 2T, 2023
    </td>
 
 </tr>
@@ -146,7 +146,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td> SEGUNDO TRIMESTRE DE 2023
+   <td> 2T, 2023
    </td>
 
 </tr>
@@ -173,7 +173,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
 
 </tr>
   <tr>
-   <td>Etiquetar personas en comentarios 
+   <td>Etiquetar personas en los comentarios 
    </td>
    <td>✓ 
    </td>
@@ -205,7 +205,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
   </tr>
 
 <tr>
-   <td>Comentarios que son privados para una compañía 
+   <td>Comentarios que son privados de una compañía 
    </td>
    <td>✓ 
    </td>
@@ -219,7 +219,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td>✓ 
    </td>
-   <td>Reemplazado por el comentario de edición 
+   <td>Reemplazado por editar comentario 
    </td>
      <td> 
    </td>
@@ -229,7 +229,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td>✓ 
    </td>
-   <td>Se ha reemplazado por la pestaña Actividad 
+   <td>Reemplazado por la pestaña Actividad 
    </td>
    <td> 
    </td>
@@ -281,11 +281,11 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> Reemplazado por el vínculo Copiar
    </td>
-   <td>SEGUNDO TRIMESTRE DE 2023 
+   <td>2T, 2023 
    </td>
   </tr>
   <tr>
-   <td>Copiar vínculo del comentario 
+   <td>Copiar el vínculo del comentario 
    </td>
    <td>✓ 
    </td>
@@ -295,13 +295,13 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
     </tr>
   <tr>
-   <td>Texto de comentario de cita 
+   <td>Citar texto del comentario 
    </td>
    <td>✓ 
    </td>
    <td>✓
    </td>
-  <td>SEGUNDO TRIMESTRE DE 2023 
+  <td>2T, 2023 
    </td>
    </tr>
   <tr>
@@ -321,7 +321,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td>1º trimestre de 2024 
+   <td>1T, 2024 
    </td>
 
 </tr>
@@ -333,7 +333,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td>1º trimestre de 2024 
+   <td>1T, 2024 
    </td>
      </tr>
 
@@ -344,7 +344,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
    <td> ✓
    </td>
-   <td>1º trimestre de 2024 
+   <td>1T, 2024 
    </td>
     </tr>
 
@@ -359,7 +359,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
   </tr>
   <tr>
-   <td>Capacidad para editar el estado, la condición y la fecha de confirmación al comentar 
+   <td>Posibilidad de editar el estado, la condición y la fecha de compromiso al realizar comentarios 
    </td>
    <td>✓ 
    </td>
@@ -379,7 +379,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
    </td>
   </tr>
 <tr>
-   <td>Mostrar "en nombre de" al agregar comentarios con la sesión de otro usuario
+   <td>Mostrar “en nombre de” al comentar cuando se inicia la sesión como otro usuario
    </td>
    <td> ✓
    </td>
@@ -390,7 +390,7 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
   </tr>
 
 <tr>
-   <td>Capacidad del propietario del proyecto para cambiar la fecha planificada de finalización de una tarea cuando se cambia la fecha de confirmación desde la sección de actualizaciones
+   <td>Posibilidad de que el propietario del proyecto cambie la fecha planificada de finalización de una tarea cuando se cambie la fecha de confirmación desde la sección de actualizaciones
    </td>
    <td> ✓
    </td>
@@ -401,16 +401,16 @@ La siguiente tabla ilustra las funciones disponibles en la nueva experiencia de 
   </tr>
 </table>
 
-## Cronología de versiones
+## Línea de tiempo de las versiones
 
 >[!IMPORTANT]
 >
->Para obtener información sobre las funciones lanzadas a la nueva experiencia de comentarios durante el lapso de tiempo de la versión beta, consulte [Nueva actividad de lanzamiento de la experiencia beta de comentarios](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Para obtener información sobre las funciones lanzadas en la nueva experiencia de comentarios durante el lapso de tiempo de la versión beta, consulte [Nueva actividad de lanzamiento de la experiencia beta de comentarios](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Para obtener más información acerca de cómo administrar actualizaciones para objetos de Workfront, vea [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Para obtener más información acerca de cómo administrar actualizaciones para objetos de Workfront, consulte [Trabajo de actualización](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-La siguiente información describe la cronología con los hitos clave para el lanzamiento de la nueva experiencia de comentarios en el entorno de producción. Además de los hitos que se indican a continuación, seguiremos mejorando la experiencia de los comentarios con mejoras menores.
+La siguiente información describe la cronología con los hitos clave para el lanzamiento de la nueva experiencia de comentarios en el entorno de producción. Además de los hitos que se indican a continuación, seguimos optimizando la experiencia de los comentarios con mejoras más pequeñas.
 
 Para obtener información sobre las funciones lanzadas para la nueva experiencia de comentarios después de que se cerrara el período beta, consulte la página de información general de la versión actual. Para obtener más información, consulte [Versiones de productos](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
@@ -446,16 +446,16 @@ El siguiente cronograma estaba planificado para el lanzamiento de la nueva exper
 
   Se ha eliminado el botón Escribir comentarios del área de Actualizaciones.
 
-## Busque la nueva experiencia de comentarios
+## Localizar la nueva experiencia de comentarios
 
 La nueva experiencia de comentarios está disponible en las siguientes áreas de Workfront:
 
 * En la sección Actualizaciones de todos los objetos.
 
-  Para obtener información sobre cómo obtener acceso a la sección Actualizaciones de los objetos de Workfront, vea [Información general sobre la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Para obtener información sobre cómo acceder a la sección Actualizaciones de los objetos de Workfront, consulte [Información general de la sección Actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* En el Panel de resumen de tareas, problemas y documentos en todas las áreas donde esto esté disponible (listas, hojas de horas, Distribuidor de cargas de trabajo y Página de inicio).
-* En el área de Inicio para tareas y problemas.
+* En el panel Resumen de tareas, problemas y documentos de todas las áreas donde esté disponible (listas, plantillas de horas, Distribuidor de cargas de trabajo e Inicio).
+* En el área Inicio de las tareas y problemas.
 
 
 
@@ -536,7 +536,7 @@ To enable the commenting experience option for projects, tasks, issues, and docu
 1. (Conditional) If it is disabled, enable the **New commenting** option in the upper-right corner of the Updates area to enable it. This should be enabled by default. 
 <span class="preview">The New commenting option has been removed from the Preview environment.</span> 
 
-    ![](assets/new-commenting-toggle-off-highlighted.png)
+    ![New commenting toggle off](assets/new-commenting-toggle-off-highlighted.png)
 
 1. Start typing an update in the **Comments** tab. The Comments tab is the default tab when the new experience opens
 
