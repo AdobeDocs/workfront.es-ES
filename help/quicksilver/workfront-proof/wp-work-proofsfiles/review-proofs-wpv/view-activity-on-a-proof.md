@@ -2,29 +2,29 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Vista de la actividad de una prueba en el visor de pruebas
+title: Ver la actividad de una prueba en el visualizador de revisión
 description: Puede ver la actividad reciente de una prueba determinada. Esto incluye todas las actividades y decisiones tomadas por cualquier usuario asignado a la prueba.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 17%
 
 ---
 
-# Vista de la actividad de una prueba en el visor de pruebas
+# Ver la actividad de una prueba en el visualizador de revisión
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Puede ver la actividad reciente de una prueba determinada. Esto incluye todas las actividades y decisiones tomadas por cualquier usuario asignado a la prueba.
 
 1. Si no se muestra la barra de herramientas izquierda, haga clic en el icono **[!UICONTROL Menú]** en la esquina superior izquierda del visor de revisión.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menú del visor de revisiones](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. En la barra de herramientas a la izquierda del visor de revisión, haga clic en el botón **[!UICONTROL Detalles de revisión]**.
 

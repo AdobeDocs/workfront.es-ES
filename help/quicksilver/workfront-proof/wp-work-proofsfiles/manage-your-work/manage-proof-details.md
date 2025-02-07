@@ -7,10 +7,10 @@ description: La página de detalles de Prueba permite administrar una prueba exi
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 0%
+source-wordcount: '1189'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 La página [!UICONTROL Detalles de revisión] le permite administrar una revisión existente. Por ejemplo, puede agregar nuevos revisores, modificar la fecha límite, cambiar la configuración establecida originalmente para la prueba y comprobar qué actividad se ha producido en esa prueba.
 
@@ -33,10 +33,10 @@ Para saber cómo administrar las pruebas de Flujo de trabajo automatizado, consu
 ## Apertura de la página de detalles de revisión desde el visor de pruebas
 
 1. si no aparece la barra de herramientas izquierda, haga clic en el icono **[!UICONTROL Menú]**, que se encuentra en la esquina superior izquierda.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menú del visor de revisiones](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Pase el cursor sobre la barra de herramientas izquierda y luego haga clic en **[!UICONTROL Detalles de la revisión]**.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![Detalles del visor de revisión](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Puede encontrar la siguiente información en la página de detalles de la prueba
 
    * **Nombre de archivo**: para las pruebas combinadas, puede **[!UICONTROL hacer clic para ver]** una lista de archivos contenidos en la prueba.
 
-   * **Propietario:** La persona a la que pertenece la revisión. Puede elegir un propietario diferente para la prueba aquí. Para obtener más información, consulte [Perfiles de permisos de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * **Propietario:** La persona a la que pertenece la revisión. Puede elegir un propietario diferente para la prueba aquí. Para obtener más información, consulte [Perfiles de permisos de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
    * **Delegado:** Si la función Fuera de la oficina está habilitada, se muestra el propietario delegado de la prueba. Para obtener más información, consulte [Designación de propietarios de pruebas temporales en [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
@@ -87,12 +87,12 @@ Puede encontrar la siguiente información en la página de detalles de la prueba
 
         Cuando una prueba está bloqueada, ya no es posible comentar y tomar decisiones al respecto. Puede configurar una prueba para que se bloquee automáticamente cuando se toman todas las decisiones aplicando esta configuración en la prueba.
 
-      * Si carga una nueva versión de una prueba, la versión anterior se bloquea automáticamente. Para obtener más información, consulte .
+      * Si carga una nueva versión de una prueba, la versión anterior se bloquea automáticamente. Para obtener más información, consulte.
       * **[!UICONTROL Cambiar versión anterior]**: permite vincular pruebas independientes como versiones en la misma cadena de prueba (y conservar todas las marcas y comentarios en cada una de las pruebas). Esto debe hacerse desde la página de detalles de la prueba, que debe ser la versión más reciente de la prueba. Consulte [Administración de versiones de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) para obtener más información.
 
       * **[!UICONTROL Quitar vínculo a la versión anterior]**: Le permite desvincular la revisión que está viendo actualmente de su revisión principal (versión anterior) sin vincularla a otra revisión de su cuenta. Para obtener más información, vea [Administrar versiones de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) en [Administrar versiones de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
 
-      * **[!UICONTROL Convertir en flujo de trabajo automatizado]**: le permite convertir el flujo de trabajo de la prueba de básico a automatizado. Para obtener más información, consulte [Resumen del flujo de trabajo automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+      * **[!UICONTROL Convertir en flujo de trabajo automatizado]**: le permite convertir el flujo de trabajo de la prueba de básico a automatizado. Para más información, consulte [Información general sobre el flujo de trabajo automatizado](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
    * Sección **[!UICONTROL Workflow]**: permite comprobar el progreso y la fecha límite de la prueba y modificar la configuración de las fases del flujo de trabajo y de los revisores individuales.
 
      Las fases del flujo de trabajo las crean automáticamente los revisores de agrupación del sistema utilizando los plazos establecidos para ellos. Puede añadir personas a las fases estableciendo la fecha límite de la fase para ellas (siempre que la fecha límite no sea del pasado). También puede revisar el progreso y las decisiones de los revisores individuales en la prueba y modificar sus funciones en las alertas de prueba y de correo electrónico.
@@ -108,6 +108,6 @@ Puede encontrar la siguiente información en la página de detalles de la prueba
    * Sección **[!UICONTROL Configuración]**: permite cambiar la configuración tal como se describe en [[!UICONTROL Configurar la revisión] en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
    * Sección **[!UICONTROL Actividad]**: muestra una lista de todas las acciones realizadas en la prueba en orden cronológico y proporciona un registro de auditoría para la prueba. Esto incluye la fecha y los detalles de cualquier actividad reciente en la prueba. Junto con la sección [!UICONTROL Mensajes], la sección [!UICONTROL Actividad] proporciona una descripción general completa del proceso de revisión de la prueba, lo cual resulta particularmente útil para los jefes de proyecto a cargo del proceso de aprobación.
-   * Sección **[!UICONTROL Mensajes]**: enumera los detalles de toda la actividad de correo electrónico para la revisión. Para obtener más información, consulte [Configurar las notificaciones por correo electrónico en [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   * Sección **[!UICONTROL Mensajes]**: enumera los detalles de toda la actividad de correo electrónico para la revisión. Para obtener más información, consulte [Configurar notificaciones por correo electrónico en  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
      También puede ver todo el mensaje enviado a los revisores pasando el puntero sobre el icono &quot;i&quot; a la derecha del mensaje y luego haciendo clic en **[!UICONTROL Mostrar mensaje completo]**.

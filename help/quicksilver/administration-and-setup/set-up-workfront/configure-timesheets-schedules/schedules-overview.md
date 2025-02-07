@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 95%
 
 ---
@@ -83,7 +83,7 @@ El orden en el que el sistema utiliza los horarios cuando existe más de uno es 
 * Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a una función o un equipo, o no se ha asignado, [!DNL Workfront] usa el horario del proyecto para los cálculos de línea de tiempo.
 * Si el usuario asignado a la tarea no tiene horario, o si la tarea se ha asignado solo a un equipo o no se ha asignado, y el proyecto no tiene horario, [!DNL Workfront] usa el horario del sistema designado como horario predeterminado para los cálculos de línea de tiempo.
 
-  ![](assets/default-schedule.png)
+  ![Programación predeterminada](assets/default-schedule.png)
 
 ## Colaboración en [!DNL Workfront] entre zonas horarias
 

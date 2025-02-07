@@ -2,15 +2,15 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: Cargar archivos y contenido web en  [!DNL Workfront Proof]
+title: Cargar archivos y contenido web en [!DNL Workfront Proof]
 description: Puede cargar archivos en  [!DNL Workfront Proof]  sin crear una revisión. También puede agregar direcciones URL para sitios web y otro contenido web a  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 0%
+source-wordcount: '538'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Puede cargar archivos en [!DNL Workfront Proof] sin crear una revisión. También puede agregar direcciones URL para sitios web y otro contenido web a [!DNL Workfront Proof].
 
@@ -37,7 +37,7 @@ Además, puede usar [!DNL Workfront Proof] como almacenamiento en la nube para a
 Para cargar un archivo en [!DNL Workfront Proof]:
 
 1. En la esquina superior izquierda de [!DNL Workfront Proof], haga clic en la flecha hacia abajo del botón **[!UICONTROL Nueva revisión]** y, a continuación, haga clic en **[!UICONTROL Cargar archivo]** en el menú que aparece.\
-   ![](assets/new-proof-button-menu.png)
+   ![Nuevo botón de revisión](assets/new-proof-button-menu.png)
 
 1. Aparecerá la página **[!DNL New File]**.
 1. Realice una de las siguientes acciones para cargar o agregar el contenido que necesita revisar:

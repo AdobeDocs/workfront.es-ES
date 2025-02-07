@@ -7,10 +7,10 @@ description: La visualización Actividad por equipo muestra las actividades que 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 7%
+source-wordcount: '727'
+ht-degree: 39%
 
 ---
 
@@ -25,7 +25,7 @@ La visualización Actividad por equipo muestra las actividades que se producen d
 >La visualización de la actividad del proyecto es similar a esta visualización, pero muestra la actividad en función de las personas asignadas a proyectos, en lugar de las personas asignadas a un equipo de inicio.\
 >Para obtener información sobre la visualización de la actividad del proyecto, consulte [Ver la visualización de la actividad del proyecto en el análisis mejorado](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![Actividad por equipo](assets/activity-by-team-350x113.png){width="700"}
 
 ## Requisitos de acceso
 
@@ -38,16 +38,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan de Workfront</a></td> 
-   <td> <p>Empresa o superior</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plan de Workfront</a></td> 
+   <td> <p>Business o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a></td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre licencias de Adobe Workfront</a></td> 
    <td>
       <p>Nuevo:</p> 
-         <ul><li>Ligero o superior</li></ul>
+         <ul><li>Light o superior</li></ul>
       <p>Actual:</p>
-         <ul><li>Revisar o superior</li></ul>
+         <ul><li>Revisión o superior</li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -61,13 +61,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección “Requisitos previos” en [Información general de Análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprender la visualización Actividad por equipo
 
@@ -75,17 +75,17 @@ Las diferentes actividades se muestran en diferentes colores para resumir evento
 
 * **Usuarios que iniciaron sesión**: Los cuadros morados muestran que las personas del equipo de inicio iniciaron sesión ese día. Un tono más oscuro indica un número mayor de personas que iniciaron sesión.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Usuarios que iniciaron sesión](assets/project-activity-users-logged-in.png)
 
 * **Cambio de estado de la tarea**: los cuadros rosas muestran que las personas del equipo de inicio cambiaron el estado de una tarea en ese día. Un sombreado más oscuro indica que se ha cambiado un número mayor de estados de tarea.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Cambios de estado de la tarea](assets/project-activity-task-status-changes.png)
 
 * **Tareas completadas**: Los cuadros azules muestran que las personas del equipo de inicio completaron una tarea ese día. Un tono más oscuro indica que se está completando un número mayor de tareas.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Tareas completadas](assets/project-activity-tasks-completed.png)
 
-Al pasar el ratón por encima de un cuadro, se muestra el número exacto de veces que se completó la acción en un día determinado. Puede seleccionar un equipo para ver un desglose de estas actividades por cada persona del equipo de inicio.
+Al pasar el puntero por encima de una casilla, se muestra el número exacto de veces que se completó la acción en un día determinado. Puede seleccionar un equipo para ver un desglose de estas actividades por cada persona del equipo de inicio.
 
 Ver esta información le ayuda a determinar lo siguiente:
 
@@ -93,32 +93,32 @@ Ver esta información le ayuda a determinar lo siguiente:
 * Qué equipos de inicio están sobrecargados de trabajo o están usando más el sistema.
 * Si la distribución del trabajo es adecuada para el equipo local.
 
-Para obtener los mejores datos para esta visualización, consulte [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obtener los mejores datos para esta visualización, consulte [Información general sobre el Análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualización de la actividad por equipo
 
-1. Haga clic en el icono del menú principal ![](assets/main-menu-icon-16x12.png) y, a continuación, seleccione **Analytics**.
+1. Haga clic en el icono del menú principal ![icono del menú principal](assets/main-menu-icon-16x12.png) y, a continuación, seleccione **Analytics**.
 1. En el panel izquierdo, seleccione **Personas**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Área de personas](assets/people-area-cropped-qs-350x276.png)
 
-1. (Opcional) Para utilizar un intervalo de fechas diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fechas.
+1. (Opcional) Para utilizar un intervalo de fecha diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fecha.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleccionar intervalo de fecha](assets/filters-select-date-range-350x344.png)
 
-   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre el uso del filtro de intervalo de fecha, consulte [Aplicar filtros en el Análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condicional) Si no ha establecido el filtro Equipo, agregue el filtro Equipo y seleccione cada equipo cuyos datos desee ver.
 
-   Para obtener más información sobre cómo agregar filtros en el análisis mejorado, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre cómo añadir filtros en Análisis mejorado, consulte [Aplicar filtros en Análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Después de agregar filtros, se muestran datos de hasta 50 proyectos y los filtros permanecen activos incluso después de abandonar la página o cerrar la sesión de Workfront.
+   Después de añadir filtros, se muestran los datos de hasta 50 proyectos y los filtros permanecen activos incluso después de salir de la página o cerrar la sesión de Workfront.
 
-1. (Opcional) Para acercar un intervalo de fechas, seleccione un punto en la visualización para el inicio del intervalo de fechas y arrastre hasta el final del intervalo de fechas.
+1. (Opcional) Para acercar un intervalo de fecha, seleccione un punto en la visualización para el inicio del intervalo de fecha y arrastre hasta el final del intervalo de fecha.
 
-   Todas las demás visualizaciones se actualizan al mismo intervalo de fechas y se crea un filtro de periodo de tiempo.
+   Todas las demás visualizaciones se actualizan al mismo intervalo de fecha y se crea un filtro de periodo de tiempo.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro de período de tiempo](assets/timeframe-filter-350x220.png)
 
 1. Haga clic en un nombre de equipo
 
@@ -140,10 +140,10 @@ Para obtener los mejores datos para esta visualización, consulte [Descripción 
 
    Los colores más oscuros indican una mayor actividad.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![Actividad por equipo](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Opcional) Para exportar los datos de visualización, haga clic en el icono Exportar ![](assets/export.png) en la esquina superior derecha de la visualización y, a continuación, seleccione el formato de exportación:
+1. (Opcional) Para exportar los datos de visualización, haga clic en el icono Exportar ![Icono de exportación](assets/export.png) en la esquina superior derecha de la visualización y, a continuación, seleccione el formato de exportación:
 
    * **Gráfico (PNG)**
-   * **Tabla de datos (XSLX)**
+   * **Tabla de datos (XLSX)**
 

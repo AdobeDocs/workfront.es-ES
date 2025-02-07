@@ -7,10 +7,10 @@ description: Si tiene derechos de edición sobre una prueba, puede compartirla f
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 0%
+source-wordcount: '528'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Si tiene derechos de edición sobre una prueba, puede compartirla fácilmente con otros revisores. Se puede agregar a cualquier persona a una revisión, ya que no necesita tener una cuenta de [!DNL Workfront Proof] para revisar las revisiones.
 
@@ -27,8 +27,8 @@ Para obtener información acerca de los derechos de edición, vea [Perfiles de p
 Si comparte una prueba agregando revisores:
 
 * Las personas con las que comparta una prueba aparecerán en la sección [!UICONTROL Flujo de trabajo] de la página Detalles de prueba en sus cuentas. Para obtener más información acerca de esta página, consulte [Administrar detalles de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-* Podrá establecer su función en la prueba. Para obtener más información, consulte [Administrar roles de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
-* Podrás establecer su alerta de correo electrónico. Para obtener más información, consulte [Configurar las notificaciones por correo electrónico en [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+* Podrá establecer su función en la prueba. Para obtener más información, consulte [Administrar funciones de prueba en  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+* Podrás establecer su alerta de correo electrónico. Para obtener más información, consulte [Configurar notificaciones por correo electrónico en  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Puede añadir revisores a una prueba al crear una nueva prueba o al cargar una n
 ## Adición de revisores a una prueba existente
 
 1. En el panel o en cualquier vista de lista, haga clic en el botón desplegable **[!UICONTROL Más]** que se encuentra a la derecha de la prueba.\
-   ![](assets/more-button-small.png)
+   ![Menú Más](assets/more-button-small.png)
 
 1. Haga clic en **[!UICONTROL Compartir]** en el menú desplegable.
 1. En la página **[!UICONTROL Compartir esta versión]** que aparece, agregue revisores agregando sus direcciones de correo electrónico.\

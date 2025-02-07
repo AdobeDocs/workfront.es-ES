@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Revisar un flujo de trabajo en el visor de pruebas
+title: Revisar un flujo de trabajo en el visualizador de revisión
 description: El panel Flujo de trabajo muestra el flujo de trabajo de la prueba tal como aparece en la página Detalles de la prueba y en las notificaciones por correo electrónico. Para obtener más información sobre los detalles de la prueba, consulte Administrar detalles de prueba en Workfront Proof. Todos los revisores asignados, incluidos usuarios e invitados, pueden ver el panel Flujo de trabajo.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 11%
 
 ---
 
-# Revisar un flujo de trabajo en el visor de pruebas
+# Revisar un flujo de trabajo en el visualizador de revisión
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 El panel [!UICONTROL Flujo de trabajo] muestra el flujo de trabajo de la revisión tal como aparece en la página Detalles de la revisión y en las notificaciones por correo electrónico.\
 Para obtener más información sobre los detalles de la revisión, consulte [Administrar detalles de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).\
@@ -34,7 +34,7 @@ Para acceder al panel [!UICONTROL Flujo de trabajo]:
 
    Aparecerá el panel **[!UICONTROL Flujo de trabajo]**.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![Panel de flujo de trabajo](assets/workflow-panel-350x115.png)
 
    Cada sección del panel Flujo de trabajo muestra el progreso y el estado de la prueba, las fases y los revisores.
 

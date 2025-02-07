@@ -7,10 +7,10 @@ description: Una de las ventajas de organizar sus proyectos y pruebas en carpeta
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 0%
+source-wordcount: '1237'
+ht-degree: 4%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 Una de las ventajas de organizar sus proyectos y pruebas en carpetas es la capacidad de administrarlos en la página [!UICONTROL Detalles de la carpeta]. Esta página es un centro de control para su proyecto, desde donde puede administrar convenientemente pruebas y archivos individuales, así como realizar acciones masivas.
 
 ## Agrupar Elementos Para Que Los Revisores Puedan Trabajar En Ellos Juntos
 
-Puede utilizar carpetas para agrupar las pruebas en las que desea que trabajen los revisores juntos. Cuando un revisor abre una de las pruebas de la carpeta para iniciar el visor de pruebas, todas las demás pruebas de la carpeta están disponibles; el revisor puede trabajar en cualquier prueba de la carpeta sin salir del visor de pruebas. Para obtener más información, consulte [Trabajar con varias pruebas en el visor de pruebas](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
+Puede utilizar carpetas para agrupar las pruebas en las que desea que trabajen los revisores juntos. Cuando un revisor abre una de las pruebas de la carpeta para iniciar el visor de pruebas, todas las demás pruebas de la carpeta están disponibles; el revisor puede trabajar en cualquier prueba de la carpeta sin salir del visor de pruebas. Para obtener más información, consulte [Trabajar con varias pruebas en el visor de corrección](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
 
 ## Agregar elementos nuevos a una carpeta
 
@@ -82,7 +82,7 @@ Puede administrar fácilmente sus archivos desde la página [!UICONTROL Detalles
    * Ver el nombre del **Creador** de la carpeta.
 
 1. (Opcional) Para cambiar la información asociada con un elemento de la carpeta, haga clic en el icono **[!UICONTROL Más]** a la derecha del elemento y, a continuación, utilice cualquiera de las opciones que aparecen.\
-   ![](assets/more-button-small.png)\
+   ![Menú Más](assets/more-button-small.png)\
    Las opciones que aparecen dependen de si el elemento es una prueba o un archivo.
 
    * **[!UICONTROL Ver detalles de revisión]** o **[!UICONTROL Ver detalles del archivo]**: abre la página Detalles de revisión o Detalles del archivo. Para obtener más información, consulte [Administrar archivos en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) o [Administrar detalles de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -111,9 +111,9 @@ Puede administrar fácilmente sus archivos desde la página [!UICONTROL Detalles
 1. (Opcional) Haga clic en **[!UICONTROL Actividad]** para ver todas las acciones realizadas en la carpeta en orden cronológico.
 1. (Opcional) Haga clic en la sección **[!UICONTROL Mensajes]** para ver los mensajes que se han enviado a los usuarios de la carpeta.\
    Cuando pasa el ratón sobre un mensaje, puede hacer clic en el icono **i** que hay a la derecha para ver el mensaje completo.\
-   ![](assets/messages-1-350x74.png)\
+   ![Mensajes](assets/messages-1-350x74.png)\
    Aparece una ventana emergente con el correo electrónico completo:\
-   ![](assets/messages-2-350x252.png)
+   ![Mensaje emergente](assets/messages-2-350x252.png)
 
 ## Administración de subcarpetas
 
@@ -122,7 +122,7 @@ Puede administrar las subcarpetas desde la página de detalles Carpetas.
 1. En la ficha **[!UICONTROL Carpetas]** del menú de navegación de la izquierda, haga clic en el nombre de la carpeta principal que contiene la subcarpeta para abrir la página **[!UICONTROL Detalles de la carpeta]**.
 
 1. A la derecha de la subcarpeta, haga clic en el menú **[!UICONTROL Más]**.\
-   ![Más_botón_pequeño.png](assets/more-button-small.png)
+   ![More_button_small.png](assets/more-button-small.png)
 
 1. Haga clic en cualquiera de las siguientes opciones:
 

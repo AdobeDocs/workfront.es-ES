@@ -7,10 +7,10 @@ description: El análisis mejorado es una potente herramienta en Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 3%
+source-wordcount: '1204'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ Los análisis mejorados pueden ayudarle a identificar lo siguiente:
 * La frecuencia con la que los usuarios completan acciones específicas durante un proyecto
 * El progreso de los proyectos, así como las tareas individuales dentro de un proyecto
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Análisis](assets/nwe-full-screen-analytics-350x222.png)
 
 Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://one.workfront.com/s/enhanced-analytics-program).
 
@@ -47,11 +47,11 @@ Para ver información de proyectos y tareas, debe:
 
 * Tener permiso de visualización en las áreas Proyectos y Tareas de su nivel de acceso.
 
-  Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea [Crear o modificar niveles de acceso personalizados](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Tener permiso de visualización para tareas o proyectos específicos.
 
-  Para obtener información sobre cómo solicitar acceso adicional, consulte [Solicitar acceso a objetos](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  Para obtener información sobre cómo solicitar acceso adicional, consulte [Solicitar acceso a objetos ](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Prácticas recomendadas para el análisis mejorado
 
@@ -147,35 +147,35 @@ Para obtener más información sobre los detalles de una función específica de
  </thead> 
  <tbody> 
   <tr> 
-   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Aplicar filtros en análisis mejorado</a> </td> 
+   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Aplicar filtros en Análisis mejorado</a> </td> 
    <td> <p>Puede aplicar filtros personalizados, filtros de campo de proyecto o filtros de equipo para ver solo los proyectos que se ajusten a criterios específicos. A medida que agrega filtros, el número de proyectos se actualiza en consecuencia.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Comprender los KPI de análisis mejorados</a> </td> 
+   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Comprender los KPI de análisis mejorado</a> </td> 
    <td> <p>Los indicadores clave de rendimiento (KPI) de todos los proyectos en un lapso de tiempo específico se encuentran en la parte superior de la pantalla.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Ver la visualización del plan de vuelo en el análisis mejorado</a> </p> </td> 
+   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Ver la visualización del plan en curso en el análisis mejorado</a> </p> </td> 
    <td> <p>La visualización <b>Plan de vuelo</b> muestra que la condición ha cambiado durante la duración de un proyecto. La interacción con la visualización le ofrece más detalles sobre fechas específicas. Al seleccionar un proyecto, se abren las visualizaciones Evolución y Tareas en vuelo.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Ver la visualización de evolución en el análisis mejorado</a> </td> 
+   <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Ver la visualización de evolución en Análisis mejorado</a> </td> 
    <td> <p>La visualización <b>Evolución</b> muestra la velocidad planificada de un proyecto en comparación con la cantidad real de horas invertidas en un proyecto. La interacción con la visualización le ofrece más detalles sobre la condición del proyecto en una fecha específica.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">Ver la visualización Tareas en vuelo en Análisis mejorado</a> </td> 
+   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">Ver la visualización de las tareas en curso en el Análisis mejorado</a> </td> 
    <td> <p>La visualización <b>Tareas en vuelo</b> muestra el estado de cada tarea dentro de un proyecto. La interacción con la visualización de le permite realizar cambios de forma rápida y sencilla en una tarea.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Ver la visualización de la actividad del proyecto en el análisis mejorado</a> </td> 
+   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Ver la visualización de actividades del proyecto en Análisis mejorado</a> </td> 
    <td> <p>La visualización de la <b>actividad del proyecto</b> muestra un mapa de calor del momento en el que los usuarios asignados a un proyecto iniciaron sesión en Workfront, cambiaron el estado de la tarea en ese proyecto y completaron las tareas en ese proyecto. La interacción con la visualización le permite ver estos detalles para cada usuario. También puede ver fechas específicas de estas acciones, así como el número de veces que se completó cada acción.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Ver la visualización del diagrama de proyecto en el análisis mejorado</a> </td> 
+   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Ver la visualización del diagrama de árbol del proyecto en Análisis mejorado</a> </td> 
    <td> <p>La visualización <b>Diagrama de árbol del proyecto</b> muestra cuánto tiempo se ha invertido en algunos proyectos en comparación con otros. La interacción con la visualización le ofrece detalles sobre la condición del proyecto, la finalización planificada del proyecto y la finalización real del proyecto.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Ver la visualización Actividad por equipo en el análisis mejorado</a> </td> 
+   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Ver la visualización Actividad por equipo en Análisis mejorado</a> </td> 
    <td> <p>La visualización <b>Actividad por equipo</b> muestra un mapa de calor del momento en el que los usuarios de un equipo de inicio iniciaron sesión en Workfront, cambiaron el estado de una tarea y completaron una tarea. La interacción con la visualización le permite ver estos detalles para cada usuario individual. También puede ver fechas específicas de estas acciones, así como el número de veces que se completó cada acción.</p> </td> 
   </tr> 
   <!-- Features permanently removed from Workfront

@@ -1,50 +1,50 @@
 ---
-title: Comprender los KPI de análisis mejorados
+title: Comprender los KPI de análisis mejorado
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: En la parte superior de la pantalla del área de Análisis mejorado se muestran 4 indicadores clave de rendimiento (KPI). Estas métricas le permiten comprender rápidamente cuánto tiempo tardan los proyectos, su tamaño y la cantidad de proyectos que se finalizan dentro de un intervalo de tiempo específico. Estos números no se limitan al máximo de 50 proyectos que se muestra para las visualizaciones de esta página. En su lugar, estos datos se basan en todos los proyectos que se aplican a cualquier filtro establecido y estos números se ajustan si cambia el intervalo de fechas seleccionado o cualquiera de los filtros.
+description: En la parte superior de la pantalla del área de Análisis mejorado se muestran cuatro indicadores clave de rendimiento (KPI). Estas métricas permiten comprender rápidamente cuánto tardan los proyectos, cuál es su envergadura y cuántos se completan en un lapso de tiempo determinado. Estos números no se limitan al máximo de 50 proyectos que aparece en las visualizaciones de esta página. En su lugar, estos datos se basan en todos los proyectos que se aplican a cualquier filtro establecido y estos números se ajustan si cambia el intervalo de fecha seleccionado o cualquiera de los filtros.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 1%
+source-wordcount: '524'
+ht-degree: 96%
 
 ---
 
-# Comprender los KPI de análisis mejorados
+# Comprender los KPI de análisis mejorado
 
 >[!IMPORTANT]
 >
->Se requiere un plan de negocio o superior para utilizar esta función.\
+>Se requiere un plan de empresa o superior para utilizar esta función.\
 >Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Adobe Workfront](https://www.workfront.com/plans).
 
-En la parte superior de la pantalla del área de Análisis mejorado se muestran 4 indicadores clave de rendimiento (KPI). Estas métricas le permiten comprender rápidamente cuánto tiempo tardan los proyectos, su tamaño y la cantidad de proyectos que se finalizan dentro de un intervalo de tiempo específico. Estos números no se limitan al máximo de 50 proyectos que se muestra para las visualizaciones de esta página. En su lugar, estos datos se basan en todos los proyectos que se aplican a cualquier filtro establecido y estos números se ajustan si cambia el intervalo de fechas seleccionado o cualquiera de los filtros.
+En la parte superior de la pantalla del área de Análisis mejorado se muestran cuatro indicadores clave de rendimiento (KPI). Estas métricas permiten comprender rápidamente cuánto tardan los proyectos, cuál es su envergadura y cuántos se completan en un lapso de tiempo determinado. Estos números no se limitan al máximo de 50 proyectos que aparece en las visualizaciones de esta página. En su lugar, estos datos se basan en todos los proyectos que se aplican a cualquier filtro establecido y estos números se ajustan si cambia el intervalo de fecha seleccionado o cualquiera de los filtros.
 
-Para obtener información sobre cómo agregar filtros, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+Para obtener información sobre cómo añadir filtros, consulte [Aplicar filtros en Análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 ## Proyectos finalizados
 
-El KPI de proyectos completados muestra cuántos proyectos se han completado dentro del período de tiempo filtrado, así como cómo ha aumentado o disminuido el porcentaje desde el período de tiempo anterior. Debajo de estos números, puede ver el número de proyectos completados en el período de tiempo anterior, así como el número de días en el período de tiempo anterior.
+El KPI de proyectos finalizados muestra cuántos proyectos se han completado en el período de tiempo filtrado, así como cómo ha aumentado o disminuido el porcentaje desde el período de tiempo anterior. Debajo de estos números, puede ver el número de proyectos completados en el período de tiempo anterior, así como el número de días.
 
-![](assets/kpi-projects-completed-350x182.png)
+![Proyectos KPI completados](assets/kpi-projects-completed-350x182.png)
 
 ## Proyectos finalizados a tiempo
 
-El KPI Proyectos finalizados a tiempo muestra el porcentaje de proyectos dentro del período de tiempo filtrado que se finalizaron a tiempo, así como la forma en que el porcentaje aumentó o disminuyó desde el período de tiempo anterior. Debajo de estos números, puede ver el porcentaje de proyectos completados a tiempo en el período de tiempo anterior, así como el número de días en el período de tiempo anterior.
+El KPI de proyectos finalizados a tiempo muestra cuántos proyectos se han completado en el período de tiempo filtrado, así como cómo ha aumentado o disminuido el porcentaje desde el período de tiempo anterior. Debajo de estos números, puede ver el porcentaje de proyectos completados a tiempo en el período de tiempo anterior, así como el número de días.
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![Proyectos KPI completados a tiempo](assets/kpi-projects-completed-on-time-350x180.png)
 
-## El Promedio de duración del proyecto
+## Media  de duración del proyecto
 
-El Promedio de KPI de duración del proyecto muestra la cantidad promedio de tiempo de finalización (en días, semanas o años) para proyectos con fechas de finalización reales dentro del período de tiempo filtrado, así como la forma en que el porcentaje aumentó o disminuyó desde el período de tiempo anterior. Debajo de estos números, puede ver la cantidad promedio de tiempo de finalización de los proyectos con fechas de finalización reales en el período de tiempo anterior, así como el número de días en el período de tiempo anterior.
+El KPI promedio de duración de los proyectos muestra el tiempo promedio de finalización (en días, semanas o años) para proyectos con fechas de finalización reales dentro del período de tiempo filtrado, así como el aumento o disminución del porcentaje desde el periodo de tiempo anterior. Debajo de estos números, puede ver el tiempo promedio de finalización de los proyectos con fechas de finalización reales en el período de tiempo anterior, así como el número de días.
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![Duración promedio de proyecto de KPI](assets/kpi-avg.-project-duration-350x168.png)
 
 ## Med. de tareas por proyecto
 
-El KPI Promedio de tareas por proyecto muestra el número promedio de tareas asignadas a proyectos dentro del período de tiempo filtrado, así como la forma en que el porcentaje de tareas ha aumentado o disminuido desde el período de tiempo anterior. Debajo de estos números puede ver el número promedio de tareas asignadas a proyectos en el período de tiempo anterior, así como el número de días en el período de tiempo anterior.
+El KPI promedio de tareas por proyecto muestra el número promedio de tareas asignadas a proyectos dentro del período de tiempo filtrado, así como el aumento o disminución del porcentaje desde el periodo de tiempo anterior. Debajo de estos números puede ver el número promedio de tareas asignadas a proyectos en el período de tiempo anterior, así como el número de días.
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+![Tareas promedio de KPI por proyecto](assets/kpi-average-tasks-per-project-350x179.png)

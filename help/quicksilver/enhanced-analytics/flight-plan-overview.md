@@ -1,24 +1,24 @@
 ---
-title: Visualización del plan de vuelo en el análisis mejorado
+title: Visualización del plan en curso en el análisis mejorado
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: La visualización del plan de vuelo muestra cuántos proyectos (dentro de los criterios de filtro aplicados) estaban en vuelo, qué cambios de condición ocurrieron a lo largo de la vida de estos proyectos y en qué medida se ajustaron estos proyectos a los plazos de finalización planificados.
+description: La visualización del plan en curso muestra cuántos proyectos (dentro de los criterios de filtro aplicados) estaban en curso, qué cambios de estado se produjeron a lo largo de la vida de estos proyectos y en qué medida estos proyectos se ajustaron a sus plazos de finalización previstos.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 4%
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
-# Visualización del plan de vuelo en el análisis mejorado
+# Visualización del plan en curso en el análisis mejorado
 
-La visualización del plan de vuelo muestra cuántos proyectos (dentro de los criterios de filtro aplicados) estaban en vuelo, qué cambios de condición ocurrieron a lo largo de la vida de estos proyectos y en qué medida se ajustaron estos proyectos a los plazos de finalización planificados.
+La visualización del plan en curso muestra cuántos proyectos (dentro de los criterios de filtro aplicados) estaban en curso, qué cambios de estado se produjeron a lo largo de la vida de estos proyectos y en qué medida estos proyectos se ajustaron a sus plazos de finalización previstos.
 
-![](assets/flight-plan-350x132.png)
+![Plan de vuelo](assets/flight-plan-350x132.png)
 
 ## Requisitos de acceso
 
@@ -29,12 +29,12 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plan Adobe Workfront</a>*</td> 
-   <td> <p>Empresa o superior</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plan de Adobe Workfront</a>*</td> 
+   <td> <p>Business o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>*</td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre licencias de Adobe Workfront</a>*</td> 
+   <td> <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -42,20 +42,20 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver acceso al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Acceso de visualización al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos previos
 
-Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección &quot;Requisitos previos&quot; en [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para conocer los requisitos previos para usar el análisis mejorado, consulte la sección “Requisitos previos” en [Información general de Análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Comprender la visualización del plan de vuelo
+## Comprender la visualización del plan en curso
 
-En la duración real de un proyecto, solo puede ver las siguientes condiciones de proyecto:
+En la duración real de un proyecto, puede ver únicamente las siguientes condiciones de proyecto:
 
 * Bien encaminado
 * En riesgo
@@ -65,54 +65,54 @@ Para obtener más información sobre las condiciones del proyecto, consulte [Inf
 
 La visualización del plan de vuelo muestra los siguientes detalles del proyecto:
 
-* **Duración planificada**: la línea azul horizontal representa la longitud planificada del proyecto, con los triángulos al final de la línea que indican la fecha de inicio y la fecha de finalización.
+* **Duración planificada**: la línea azul horizontal representa la longitud planificada del proyecto, con los triángulos en cada extremo de la línea que indican la fecha de inicio y de finalización.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![Duración planificada](assets/planned-duration-line-350x37.png)
 
-* **Duración real**: la línea gruesa y coloreada debajo de la duración planeada representa la duración real del proyecto. El color de la línea cambia según la condición del proyecto en ese momento en particular de la duración del proyecto.
+* **Duración real**: la línea gruesa y de color debajo de la duración planificada representa la duración real del proyecto. El color de la línea cambia según la condición del proyecto en ese momento específico del ciclo de vida del proyecto.
 
-  ![](assets/actual-duration-line.png)
+  ![Duración real](assets/actual-duration-line.png)
 
-* **Condición real**: la línea gruesa y coloreada también muestra la condición de un proyecto en diferentes momentos del tiempo. El color de la línea cambia según la condición del proyecto:
+* **Condición real**: la línea gruesa y de color también muestra la condición de un proyecto en diferentes momentos. El color de la línea cambia según la condición del proyecto:
 
-   * **Verde**: en el destino
-   * **Naranja**: En riesgo
+   * **Verde**: bien encaminado
+   * **Naranja**: en riesgo
    * **Rojo**: con problemas
 
-  ![](assets/actual-condition-color.png)
+  ![Condición real](assets/actual-condition-color.png)
 
-Al pasar el ratón por encima de una fila del proyecto en la visualización Plan de vuelo, puede ver información sobre el periodo de tiempo planificado del proyecto, la condición del proyecto actual y, si corresponde, la condición personalizada. Para obtener una vista más detallada de lo que puede haber afectado a la duración o condición, puede ver las otras visualizaciones en el área de Análisis mejorado.
+Al pasar el puntero por encima de una fila del proyecto en la visualización Plan de vuelo, puede ver información sobre el periodo de tiempo planificado del proyecto, la condición del proyecto actual y, si procede, la condición personalizada. Para obtener una vista más detallada de lo que puede haber afectado a la duración o condición, puede ver las otras visualizaciones en el área de Análisis mejorado.
 
 Ver esta información le ayuda a determinar lo siguiente:
 
-* Los eventos que extienden un proyecto más allá de la fecha planificada de finalización original.
+* Los eventos que desencadenan que un proyecto se extienda más allá de la fecha planificada de finalización.
 * Cuándo un proyecto empieza a tener problemas.
 * Cuántos proyectos están abiertos durante el mismo período de tiempo.
 * Cuántos proyectos están activos.
 * Qué proyectos necesitan atención o apoyo extra.
 
-Para obtener información sobre cómo obtener los mejores datos para esta visualización, consulte [Descripción general del análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
+Para obtener más información sobre cómo obtener los mejores datos para esta visualización, consulte [Información general sobre el Análisis mejorado](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Visualización de la visualización Plan de vuelo
+## Visualización del Plan de vuelo
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon-16x12.png) y luego seleccione **Analytics**.
-1. (Opcional) Para utilizar un intervalo de fechas diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fechas.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon-16x12.png) y, a continuación, seleccione **Analytics**.
+1. (Opcional) Para utilizar un intervalo de fecha diferente, seleccione nuevas fechas de inicio y finalización en el filtro de intervalo de fecha.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Seleccionar intervalo de fecha](assets/filters-select-date-range-350x344.png)
 
-   Para obtener información sobre el uso del filtro de intervalo de fechas, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre el uso del filtro de intervalo de fecha, consulte [Aplicar filtros en el Análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. (Condicional) Si necesita limitar el conjunto de datos del proyecto, seleccione y aplique los filtros que desee utilizar.
+1. (Condicional) Si necesita limitar el conjunto de datos del proyecto, seleccione y aplique los filtros que desea utilizar.
 
-   Para obtener más información sobre cómo agregar filtros en el análisis mejorado, consulte [Aplicar filtros en el análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Para obtener más información sobre cómo añadir filtros en Análisis mejorado, consulte [Aplicar filtros en Análisis mejorado](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Después de agregar filtros, se muestran datos de hasta 50 proyectos y los filtros permanecen activos incluso después de abandonar la página o cerrar la sesión de Workfront.
+   Después de añadir filtros, se muestran los datos de hasta 50 proyectos y los filtros permanecen activos incluso después de salir de la página o cerrar la sesión de Workfront.
 
-1. (Opcional) Para acercar un intervalo de fechas, seleccione un punto en la visualización para el inicio del intervalo de fechas y arrastre hasta el final del intervalo de fechas.
+1. (Opcional) Para acercar un intervalo de fecha, seleccione un punto en la visualización para el inicio del intervalo de fecha y arrastre hasta el final del intervalo de fecha.
 
-   Todas las demás visualizaciones se actualizan al mismo intervalo de fechas y se crea un filtro de periodo de tiempo.
+   Todas las demás visualizaciones se actualizan al mismo intervalo de fecha y se crea un filtro de periodo de tiempo.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Filtro de período de tiempo](assets/timeframe-filter-350x220.png)
 
 1. (Opcional) Para cambiar la forma en que se ordenan los proyectos, haga clic en el menú **Ordenar por** en la esquina superior derecha de la visualización Plan de vuelo y, a continuación, seleccione una nueva opción de clasificación:
 
@@ -121,29 +121,29 @@ Para obtener información sobre cómo obtener los mejores datos para esta visual
    * **Fecha planificada de finalización**
    * **Fecha planificada de inicio**
 
-   Todas las demás visualizaciones de la página se actualizarán para que coincidan con la selección de ordenación.
+   Todas las demás visualizaciones de la página se actualizarán para coincidir con su selección de ordenación.
 
-1. (Condicional) Si hay más de 50 proyectos en el conjunto de datos, utilice las flechas de la esquina inferior izquierda de la visualización para desplazarse de un grupo de 50 proyectos al siguiente.
+1. (Condicional) Si hay más de 50 proyectos en el conjunto de datos, utilice las flechas de la esquina inferior izquierda de la visualización para navegar de un grupo de 50 proyectos al siguiente.
 
-   Todas las demás visualizaciones de la página se actualizarán para que coincidan con la selección de página.
+   Todas las demás visualizaciones de la página se actualizarán para coincidir con su selección de página.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginación](assets/pagination-350x118.png)
 
-1. Pase el ratón sobre el gráfico de barras del proyecto para ver la línea de fecha azul y los siguientes detalles:
+1. Pase el puntero por encima del gráfico de barras del proyecto para ver la línea de fecha azul y los siguientes detalles:
 
    * Cronología planificada
    * Condición actual
-   * Condición personalizada (si corresponde)
+   * Condición personalizada (si procede)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![Gráfico de barras del proyecto](assets/project-bar-graph-350x143.png)
 
-1. (Opcional) Para exportar los datos de visualización, haga clic en el icono **Exportar** ![](assets/export.png) en la esquina superior derecha de la visualización y, a continuación, seleccione el formato de exportación:
+1. (Opcional) Para exportar los datos de visualización, haga clic en el icono **Exportar** ![Icono de exportación](assets/export.png) en la esquina superior derecha de la visualización y, a continuación, seleccione el formato de exportación:
 
    * **Gráfico (PNG)**
-   * **Tabla de datos (XSLX)**
+   * **Tabla de datos (XLSX)**
 
 1. Para ver más información sobre el proyecto, haga clic en un proyecto de la visualización para abrir las visualizaciones Evolución y Tareas en vuelo.
 
-   Estas visualizaciones pueden ayudarle a obtener un conocimiento más profundo de lo que provocó que el proyecto se saliera de la pista. También facilitan el registro de un proyecto en curso.\
-   Para obtener más información sobre la visualización de evolución, consulte [Ver la visualización de evolución en Análisis mejorado](../enhanced-analytics/burndown-overview.md). Para obtener más información sobre la visualización de Tareas en vuelo, consulte [Ver la visualización de Tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md).
+   Estas visualizaciones pueden ayudarle a conocer la causa que provocó que el proyecto se saliera de la pista. También facilitan el registro en un proyecto en curso.\
+   Para obtener más información sobre la visualización de Evolución, consulte [Ver la visualización de Evolución en Análisis mejorado](../enhanced-analytics/burndown-overview.md). Para obtener más información sobre la visualización de Tareas en vuelo, consulte [Ver la visualización de Tareas en vuelo en Análisis mejorado](../enhanced-analytics/tasks-in-flight-overview.md).
 

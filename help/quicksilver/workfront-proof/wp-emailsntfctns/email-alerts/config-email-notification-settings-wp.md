@@ -7,9 +7,9 @@ description: Las notificaciones por correo electrónico generadas desde Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 98%
 
 ---
@@ -151,7 +151,7 @@ Puede configurar las opciones de prueba para las pruebas que cree.
 Puede cambiar las alertas de correo electrónico de un destinatario determinado en una acción por lotes.
 
 1. Haga clic en **[!UICONTROL Contactos]** en el panel de navegación izquierdo.
-1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-button-small.png) del destinatario y, a continuación, haga clic en **[!UICONTROL Ver detalles de miembros]** en el menú desplegable.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-button-small.png) del destinatario y, a continuación, haga clic en **[!UICONTROL Ver detalles del miembro]** en el menú desplegable.
 
 1. Abra la sección **[!UICONTROL Elementos compartidos]**.
 1. Seleccione la casilla de verificación situada a la izquierda de cada elemento para el que desee cambiar la alerta de correo electrónico.
