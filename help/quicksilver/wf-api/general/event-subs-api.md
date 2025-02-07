@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 97%
+source-wordcount: '2362'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 {{highlighted-preview}}
 -->
 
-Cuando se produce una acción en un objeto de Adobe Workfront compatible con las suscripciones a eventos, puede configurar Workfront para que envíe una respuesta al punto final deseado. Esto significa que las aplicaciones de terceros pueden recibir actualizaciones de las interacciones de Workfront a través de la API de Workfront poco después de que se produzcan. En general, puede esperar recibir notificaciones de webhook en menos de 5 segundos desde que se registra el cambio de datos. De media, los clientes reciben notificaciones de webhook en menos de un segundo desde que se registra el cambio de datos.  
+Cuando se produce una acción en un objeto de Adobe Workfront compatible con las suscripciones a eventos, puede configurar Workfront para que envíe una respuesta al punto final deseado. Esto significa que las aplicaciones de terceros pueden recibir actualizaciones de las interacciones de Workfront a través de la API de Workfront poco después de que se produzcan. En general, puede esperar recibir notificaciones de webhook en menos de 5 segundos desde que se registra el cambio de datos. De media, los clientes reciben notificaciones de webhook en menos de un segundo desde que se registra el cambio de datos.
 
 Para recibir cargas útiles de suscripciones a eventos a través del cortafuegos, debe añadir las siguientes direcciones IP a la lista de permitidos:
 
@@ -47,7 +47,7 @@ Para recibir cargas útiles de suscripciones a eventos a través del cortafuegos
 
 Los siguientes temas admiten la API de suscripción a eventos:
 
-## Objetos admitidos por las suscripciones a eventos
+## Objetos admitidos por suscripciones a eventos
 
 Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 
@@ -74,7 +74,7 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 
 Para obtener una lista de los campos admitidos por los objetos de suscripción a eventos, consulte [Campos de recurso de suscripción a eventos](../../wf-api/api/event-sub-resource-fields.md).
 
-## Autenticación de la suscripción a eventos
+## Autenticación de suscripción de evento
 
 Para crear, consultar o eliminar una suscripción a eventos, el usuario de Workfront necesita lo siguiente:
 
@@ -85,7 +85,7 @@ Para crear, consultar o eliminar una suscripción a eventos, el usuario de Workf
 
 ## Formación del recurso de suscripción
 
-El recurso de suscripción contiene los campos siguientes:
+El recurso de suscripción contiene los campos siguientes.
 
 * objId (opcional)
 
@@ -110,7 +110,7 @@ El recurso de suscripción contiene los campos siguientes:
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Compañía</td> 
+        <td scope="col">Compañía </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ El recurso de suscripción contiene los campos siguientes:
        </tr> 
        <tr> 
         <td scope="col"><p>Documento</p></td> 
-        <td scope="col">DOCU </td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Gasto</p></td> 
@@ -193,7 +193,7 @@ El recurso de suscripción contiene los campos siguientes:
    * **Cadena**: valor que representa el tipo de evento al que está suscrito el objeto. Los tipos de eventos disponibles incluyen:
 
       * CREATE
-      * DELETE
+      * ELIMINAR
       * UPDATE
 
 * url (obligatorio)
@@ -202,22 +202,22 @@ El recurso de suscripción contiene los campos siguientes:
 
 * authToken (obligatorio)
 
-   * **Cadena**: el token de portador de OAuth2 que se utiliza para la autenticación con la dirección URL especificada en el campo &quot;URL&quot;. 
+   * **Cadena**: El token de portador de OAuth2 utilizado para autenticarse con la dirección URL especificada en el campo &quot;URL&quot;.
 
-## Creación de solicitudes de API de suscripción a eventos
+## Creación de solicitudes de API de suscripción de evento
 
 Después de asegurarse de que el usuario tiene acceso de administrador y de formar el recurso de suscripción, está listo para crear suscripciones a eventos.
 
 Utilice la siguiente sintaxis para construir la dirección URL.
 
-**URL de solicitud:**
+**URL de solicitud**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Encabezados de la solicitud:**
+**Encabezados de solicitud**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**Ejemplo de cuerpo de respuesta**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Código de respuesta | Descripción |
 |---|---|
 | 201 (Creado) | La suscripción al evento se ha creado correctamente. |
@@ -264,7 +273,7 @@ Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo 
 
 >[!NOTE]
 >
->El encabezado de respuesta &quot;Ubicación&quot; contiene el URI de la suscripción al evento recién creada.
+> El encabezado de respuesta &quot;Ubicación&quot; contiene el URI de la suscripción de evento recién creada.
 
 **Ejemplo de encabezados de respuesta:**
 
@@ -288,7 +297,7 @@ Puede consultar todas las suscripciones a eventos de un cliente o utilizar lo si
 
 La sintaxis de solicitud para enumerar todas las suscripciones a eventos de un cliente específico es la siguiente:
 
-**URL de solicitud:**
+**URL de solicitud**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Códigos de respuesta:**
+**Códigos de respuesta**
 
 | Código de respuesta | Descripción |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (Prohibido) | El usuario, que coincide con el sessionID proporcionado, no tiene acceso de administrador. |
 
 
-**Ejemplo de encabezados de respuesta:**
+**Ejemplo de encabezados de respuesta**
 
 | Encabezado de respuesta | Ejemplo |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Encoding | `→chunked` |
 
 
-**Ejemplo de cuerpo de respuesta:**
+**Ejemplo de cuerpo de respuesta**
 
 ```
 {
@@ -368,7 +377,7 @@ Donde
 
 Puede consultar suscripciones de eventos por el ID de suscripción de eventos. La sintaxis de solicitud para enumerar suscripciones de eventos es la siguiente:
 
-**URL de solicitud:**
+**URL de solicitud**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ Puede consultar suscripciones de eventos por el ID de suscripción de eventos. L
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Encabezados de la solicitud:**
+**Encabezados de solicitud**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Códigos de respuesta:**
+**Códigos de respuesta**
 
 | Código de respuesta | Descripción |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Prohibido) | El usuario, que coincide con el sessionID proporcionado, no tiene acceso de administrador. |
 
 
-**Ejemplo de cuerpo de respuesta:**
+**Ejemplo de cuerpo de respuesta**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Versiones de suscripción de evento
+
+Workfront tiene dos versiones de suscripciones a eventos.
+
+La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción de evento.
+
+Para obtener más información sobre las versiones de suscripción de evento, incluidas las diferencias específicas entre la versión y las fechas importantes, consulte [Versiones de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Cambio de versión de suscripción única
+
+La sintaxis de solicitud para cambiar la versión de una sola suscripción es:
+
+**URL de solicitud**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**Cuerpo de solicitud de ejemplo**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**Cuerpo de respuesta de ejemplo (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Códigos de respuesta posibles**
+
+* 200
+* 400
+* 404
+
+
+### Cambio de versión de suscripción múltiple
+
+Este punto de conexión cambia la versión de varias suscripciones, por lista de suscripciones o por indicador de todas las suscripciones del cliente.
+
+La sintaxis de solicitud para cambiar la versión de una sola suscripción es:
+
+**URL de solicitud**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**Cuerpos de solicitud de ejemplo**
+
+* Cuerpo de solicitud de lista de suscripciones
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* Solicitar cuerpo para todas las suscripciones del cliente
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**Cuerpo de respuesta de ejemplo (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Códigos de respuesta posibles**
+
+* 200
+* 400
 
 ## Filtrado de suscripción a eventos
 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### Ejemplo de cuerpo de respuesta
 

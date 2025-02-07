@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: a9c2abc7f0d75eb9f90a9437eff7ac4d35fbb431
+source-git-commit: c67affb14c237f8e4a6cf8a44c707a5ab5893364
 workflow-type: tm+mt
-source-wordcount: '13025'
+source-wordcount: '13028'
 ht-degree: 58%
 
 ---
@@ -2464,6 +2464,7 @@ ht-degree: 58%
       * [Prácticas recomendadas para la suscripción a eventos](wf-api/general/event-sub-best-practice.md)
       * [Requisitos para el envío de suscripciones a eventos](wf-api/general/setup-event-sub-endpoint.md)
       * [Reintentos de suscripción de evento](wf-api/api/event-sub-retries.md)
+      * [Versiones de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-versioning.md)
       * [Formato de mensaje saliente para suscripciones a eventos](wf-api/api/message-format-event-subs.md)
       * [Preguntas frecuentes: suscripciones a eventos](wf-api/general/event-subs-faq.md)
    * API de webhooks de documentos {#document-webhooks-api}
