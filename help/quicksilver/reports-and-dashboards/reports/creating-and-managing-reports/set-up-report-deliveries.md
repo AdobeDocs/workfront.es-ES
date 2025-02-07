@@ -6,7 +6,7 @@ description: Resumen de entrega de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 24%
@@ -43,11 +43,11 @@ Tenga en cuenta lo siguiente al programar informes para su envío:
 
 Existen varios límites de tamaño que afectan a cómo se muestran los informes en Workfront y a cómo se exportan a través de una exportación manual, un informe enviado o a través de la API:
 
-* **Tamaño de archivo de 5MB:** límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
+* **Tamaño de archivo de 10 MB:** límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
 
   >[!NOTE]
   >
-  >Los archivos .xlsx de Excel con un tamaño superior a 5 MB no generan un correo electrónico. Puede exportar manualmente el informe a este formato. Para obtener información sobre la exportación de informes, consulte [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Los archivos .xlsx de Excel con un tamaño superior a 10 MB no generan un correo electrónico. Puede exportar manualmente el informe a este formato. Para obtener información sobre la exportación de informes, consulte [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50 000 filas:** número de filas de datos permitidas en la exportación de un informe para archivos .pdf y delimitados por tabulaciones.
 
