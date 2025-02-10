@@ -6,21 +6,23 @@ description: API de suscripción a eventos
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 2%
 
 ---
-
 
 # Versiones de suscripción de evento
 
 Workfront tiene dos versiones de suscripciones a eventos. Este artículo describe las diferencias entre ellos.
 
-No se trata de un cambio en la API de Workfront, sino de un cambio en la funcionalidad de suscripción a evento.
+La nueva versión no es un cambio en la API de Workfront, sino un cambio en la funcionalidad de suscripción de evento.
 
-La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción a eventos.
+La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción de evento.
+
+Para obtener información sobre los extremos utilizados para actualizar o degradar suscripciones de evento, consulte [Control de versiones de suscripciones de evento](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) en el artículo API de suscripción de evento.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Se han realizado los siguientes cambios para las suscripciones a eventos de la v
 
 
 ### Cambios generales
-
 
 
 <table style="table-layout:auto"> 
