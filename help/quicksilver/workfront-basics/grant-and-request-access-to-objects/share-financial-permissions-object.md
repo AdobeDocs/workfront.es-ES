@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 24%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 {{highlighted-preview}}
 
-El administrador de Adobe Workfront puede otorgarle acceso para ver o editar datos financieros al asignar su nivel de acceso. Para obtener más información, consulte [Conceder acceso a datos financieros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+El administrador de Adobe Workfront puede otorgarle acceso para ver o editar datos financieros al asignar su nivel de acceso. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Junto con el nivel de acceso que se concede a los usuarios, también puede concederles permisos para Ver o Administrar finanzas para proyectos, tareas o problemas específicos que tenga acceso para compartir.
 
@@ -61,7 +61,7 @@ Debe tener lo siguiente para compartir información de datos financieros sobre o
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -70,16 +70,16 @@ Debe tener lo siguiente para compartir información de datos financieros sobre o
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Consulta o acceso superior a Proyectos, Tareas, Problemas y Datos financieros</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Consulta o acceso superior a Proyectos, Tareas, Problemas y Datos financieros</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores de proyectos, tareas y problemas que incluyen al menos Ver permisos de finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Ver permisos o superiores de proyectos, tareas y problemas que incluyen al menos Ver permisos de finanzas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Compartir un objeto y conceder permisos financieros
 
@@ -97,7 +97,7 @@ Para conceder permisos financieros a un objeto:
 
    >[!TIP]
    >
-   >Solo puede compartir un objeto con usuarios, equipos, funciones o empresas activos.
+   >Únicamente puede compartir un objeto con usuarios, equipos, funciones o compañías activas.
 
 1. Si aparece un menú desplegable a la derecha del nombre seleccionado, haga clic en una de las siguientes opciones disponibles:
 
@@ -106,6 +106,10 @@ Para conceder permisos financieros a un objeto:
    * **Administrar**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+
+   <span class="preview"> en vista previa:
+   ![](assets/project-permissions.png)
+   </span>
 
 1. En el mismo menú desplegable, haga clic en **Configuración avanzada** y, a continuación, siga uno de estos procedimientos:
 
@@ -127,7 +131,7 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
   <tr> 
    <th><strong>Acciones</strong> </th> 
    <th><strong>Administrar</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>Aportar</strong> </th> 
    <th><strong>Vista</strong> </th> 
   </tr> 
  </thead> 
@@ -157,7 +161,7 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Administrar tarjetas de tarifa</span></td> 
+   <td><span class="preview">Administrar tarjetas de tarifas</span></td> 
    <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
@@ -169,7 +173,7 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
    <td> ✓</td> 
   </tr>
   <tr> 
-   <td>Ver información por costo en las herramientas de planificación de recursos</td> 
+   <td>Ver información por coste en las herramientas de planificación de recursos</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 

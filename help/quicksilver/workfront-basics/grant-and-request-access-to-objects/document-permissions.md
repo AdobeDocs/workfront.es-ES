@@ -7,14 +7,16 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 1%
+source-wordcount: '640'
+ht-degree: 35%
 
 ---
 
 # Compartir un documento
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignan niveles de acceso, como se explica en [Conceder acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -32,7 +34,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 >[!NOTE]
 >
->Un administrador de Workfront puede agregar o quitar permisos a cualquier elemento del sistema, para todos los usuarios, sin ser el propietario de esos elementos.
+>Un administrador de Workfront puede añadir o quitar permisos a cualquier elemento del sistema, para todos los usuarios, sin que tengan que ser el propietario de esos elementos.
 
 * Compartir un documento es similar a compartir cualquier otro objeto en Workfront. Para obtener información acerca de cómo compartir documentos en Workfront, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a los documentos:
@@ -40,11 +42,15 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
    * Ver
    * Administrar
 
+  <span class="preview">En vista previa:
+  ![](assets/document-permissions.png)
+</span>
+
 * También puede compartir un documento de forma pública o en todo el sistema.
 
   >[!CAUTION]
   >
-  >Se recomienda precaución al compartir un objeto que contenga información confidencial con usuarios externos. Esto les permite ver información sin ser usuarios de Workfront ni parte de su organización.
+  >Se recomienda tener precaución al compartir con usuarios externos un objeto que contenga información confidencial. Esto les permite ver información sin ser usuarios de Workfront ni parte de su organización.
 
 * Puede compartir un documento con alguien que no tenga cuenta de Workfront agregando su dirección de correo electrónico en el campo Conceder acceso al documento a.
 * Cuando comparte un documento, los usuarios tienen el mismo acceso a todas las versiones del documento y a todas las revisiones del documento.\
@@ -52,7 +58,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 * Puede heredar los permisos a los documentos de los objetos con los que están asociados. El administrador de Workfront puede restringir la herencia de permisos para documentos de su nivel de acceso.
 
-  Para obtener más información acerca de cómo restringir permisos heredados en documentos, vea [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
   Puede quitar manualmente los permisos heredados en los documentos. Para obtener más información, vea [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
@@ -68,7 +74,7 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Acción</strong> </p> </th> 
+   <th> <p><strong>Accion</strong> </p> </th> 
    <th> <p><strong>Administrar</strong> </p> </th> 
    <th> <p><strong>Vista</strong> </p> </th> 
   </tr> 
@@ -95,7 +101,7 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Finalizar compra</td> 
+   <td scope="row">Cierre de compra</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -200,7 +206,7 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Vínculo (con integración)</td> 
+   <td scope="row">Vincular (con integración)</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

@@ -2,36 +2,38 @@
 title: Uso compartido de un proyecto en Adobe Workfront
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-description: El administrador de Adobe Workfront puede otorgarle acceso para ver o editar proyectos al asignar su nivel de acceso. Para obtener más información, consulte Concesión de acceso a proyectos.
+description: El administrador de Adobe Workfront puede otorgarle acceso para ver o editar proyectos al asignarle su nivel de acceso. Para obtener más información, consulte Conceder acceso a proyectos.
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 2%
+source-wordcount: '1014'
+ht-degree: 95%
 
 ---
 
 # Uso compartido de un proyecto en Adobe Workfront
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+
 <!-- Audited: 1/2024 -->
 
-El administrador de Adobe Workfront puede otorgarle acceso para ver o editar proyectos al asignar su nivel de acceso. Para obtener más información, consulte [Conceder acceso a proyectos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+El administrador de Adobe Workfront puede otorgarle acceso para ver o editar proyectos al asignarle su nivel de acceso. Para obtener más información, consulte [Conceder acceso a proyectos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Junto con el nivel de acceso que se concede a los usuarios, también puede concederles permisos para Ver, Contribute o Administrar proyectos específicos a los que tiene acceso para compartir.
+Junto con el nivel de acceso que concede a los usuarios, también puede concederles permisos para Ver, Aportar o Administrar proyectos específicos a los que tenga acceso para compartir. 
 
-Los permisos son específicos de un elemento en Workfront y definen qué acciones se pueden realizar sobre ese elemento.
+Los permisos son específicos de un elemento de Workfront y definen qué acciones se pueden realizar sobre ese elemento.
 
 ## Consideraciones sobre el uso compartido de proyectos
 
 Además de las consideraciones siguientes, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-* De forma predeterminada, el creador de un proyecto tiene permisos para administrar el proyecto y también se designa como Propietario del proyecto. Si el proyecto se asigna a otro propietario, ese usuario también tiene permisos para administrar el proyecto. Cuando el creador (o propietario) del proyecto comparte el proyecto con otros usuarios, concede determinados permisos a estos para controlar lo que pueden hacer mientras trabajan en el proyecto.
+* De forma predeterminada, el creador de un proyecto tiene permisos para administrar el proyecto y también se designa como Propietario del proyecto. Si el proyecto se asigna a otro propietario, ese usuario también tiene permisos para administrar el proyecto. Cuando el creador (o propietario) del proyecto comparte el proyecto con otros usuarios, les concede determinados permisos para controlar lo que pueden hacer mientras trabajan en el proyecto.
 
-  Sin embargo, si el propietario de un proyecto no tiene una licencia de planificador, no tiene acceso completo para administrar el proyecto. Solo los usuarios con una licencia de planificación pueden tener permisos para administrar un proyecto. Para obtener más información, vea [Cómo funcionan juntos los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Sin embargo, si el propietario de un proyecto no tiene una licencia estándar o de planificación, no tiene acceso completo para administrar el proyecto. Solo los usuarios con licencia de planificación o estándar pueden tener permisos para administrar un proyecto. Para obtener más información, consulte [Funcionamiento conjunto de los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-* Puede compartir proyectos individualmente o puede compartir varios a la vez. Compartir proyectos es idéntico a compartir otros objetos. Para obtener más información sobre cómo compartir elementos en Workfront, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Puede compartir proyectos individualmente o puede compartir varios a la vez. Compartir proyectos es idéntico a compartir otros objetos. Para obtener más información sobre cómo compartir elementos en Workfront, consulte [Buscar un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a un proyecto:
 
    * Ver
@@ -40,13 +42,17 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
+     <span class="preview">En vista previa:
+     ![](assets/project-permissions.png)
+  </span>
+
 * Al compartir un proyecto, todas las tareas, problemas y documentos heredan los mismos permisos, a menos que se especifique lo contrario.
 
-  Para obtener información sobre cómo administrar el acceso a las tareas y problemas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obtener información sobre la administración del acceso a las tareas y problemas del proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
-  El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información acerca de cómo restringir permisos heredados en documentos, vea [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Puede quitar los permisos heredados de un proyecto para que los objetos secundarios no los hereden. Para obtener más información acerca de cómo quitar permisos heredados de objetos, vea [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Puede quitar los permisos heredados de un proyecto para que los objetos secundarios no los hereden. Para obtener más información sobre la eliminación de permisos heredados de objetos, consulte [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Formas de compartir un proyecto {#ways-to-share-a-project}
 
@@ -54,32 +60,32 @@ Puede compartir un proyecto de las siguientes maneras:
 
 * Manualmente, mediante uno de los procedimientos siguientes:
 
-   * Agregar usuarios al equipo del proyecto. Cuando agrega usuarios al equipo del proyecto, obtienen automáticamente permisos de Vista en el proyecto.\
-     Para obtener más información sobre cómo agregar usuarios a un equipo del proyecto, vea la sección &quot;Agregar usuarios a un equipo del proyecto&quot; en [Información general del equipo del proyecto](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Compartir los proyectos de forma individual o en lotes al usar la opción **Compartir**.
+   * Añadiendo usuarios al equipo del proyecto. Cuando añade usuarios al equipo del proyecto, obtienen automáticamente permisos de visualización en el proyecto.\
+     Para obtener más información sobre cómo añadir usuarios a un equipo del proyecto, consulte la sección &quot;Añadir usuarios a un equipo del proyecto&quot; en [Información general del equipo del proyecto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+   * Compartiendo los proyectos de forma individual o de forma masiva mediante la opción **Compartir**.
 
      Compartir un proyecto es similar a compartir todos los demás objetos de Adobe Workfront.
 
-     Para obtener información acerca de cómo compartir objetos en Workfront, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Para obtener información sobre el uso compartido de objetos en Workfront, consulte [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Automáticamente, mediante una de las siguientes acciones:
 
-   * Coloque un proyecto en un **Portfolio** o **programa** que ya se haya compartido con otros. Los usuarios obtienen los mismos permisos en el proyecto que tienen para el portafolio o programa.\
-     Para obtener información sobre cómo agregar un proyecto a un **Portfolio**, consulte [Agregar proyectos a un portafolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Para obtener información sobre cómo agregar un proyecto a un **programa**, consulte [Agregar un proyecto a un programa](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * Coloque un proyecto en un **Portafolio** o **Programa** que ya se haya compartido con otros. Los usuarios obtienen los mismos permisos en el proyecto que tienen para el portafolio o programa.\
+     Para obtener información sobre cómo añadir un proyecto a un **Portafolio**, consulte [Añadir proyectos a un portafolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     Para obtener información sobre cómo añadir un proyecto a un **Programa**, consulte [Añadir un proyecto a un programa](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-     Para obtener información acerca de cómo ver los permisos heredados en un objeto, vea [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Para obtener información sobre la visualización de los permisos heredados en un objeto, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Agregue entidades a Uso compartido de proyectos en una plantilla utilizada para crear el proyecto. Para obtener información sobre cómo compartir proyectos desde plantillas, vea [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Añada entidades al uso compartido de proyectos en una plantilla que se utiliza para crear el proyecto. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Defina la plantilla de acceso al proyecto.
 
-     Para definir la plantilla de acceso al proyecto, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Para definir la plantilla de acceso al proyecto, consulte [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
      >[!TIP]
      >
-     >Al adjuntar o guardar una plantilla, puede borrar las reglas de Uso compartido de proyectos de plantilla.
+     >Al adjuntar o guardar una plantilla, puede borrar las reglas de uso compartido de proyectos de la plantilla.
 
-   * Edite un proyecto y defina la configuración **Cuando alguien recibe acceso a este proyecto**. Para obtener más información, consulte [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Edite un proyecto y defina la configuración **Cuando alguien recibe acceso a este proyecto**.Para obtener más información, consulte [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -104,9 +110,9 @@ Puede compartir un proyecto de las siguientes maneras:
 
 ## Limitaciones para diferentes tipos de licencias
 
-* Los usuarios con una licencia de trabajo no tienen permisos para administrar proyectos. Para los trabajadores, el permiso de uso compartido más alto es Contribute.
-* Los usuarios con una licencia de solicitud pueden ver la información del proyecto, pero tienen acceso limitado al proyecto.
-* Se produce una excepción al cambio del estado de un proyecto cuando un usuario con permisos de Ver o Contribute también se incluye en un proceso de aprobación. Pueden aprobar el proyecto, que cambia su estado, pero el estado es el predefinido para su aprobación o rechazo.
+* Los usuarios con una licencia de trabajo no tienen permisos para administrar proyectos. Para los trabajadores, el permiso de uso compartido más alto es de aportación.
+* Los usuarios con una licencia Request pueden ver la información del proyecto, pero tienen acceso limitado al mismo.
+* Se produce una excepción respecto al cambio de estado de un proyecto cuando un usuario con permisos de visualización o aportación también está incluido en un proceso de aprobación. Pueden aprobar el proyecto, que cambia su estado, pero el estado es el predefinido para su aprobación o rechazo.
 * Para poder copiar un proyecto, un usuario también debe tener acceso para crear proyectos en su nivel de acceso.
 
 <!--
@@ -133,7 +139,7 @@ The
 
 ## Opciones de permisos del proyecto
 
-En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder al compartir un proyecto. Para obtener más información sobre el acceso que obtienen los usuarios según su licencia, consulte [Conceder acceso a proyectos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder al compartir un proyecto. Para obtener más información sobre el acceso que obtienen los usuarios según su licencia, consulte [Conceder acceso a los proyectos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -144,13 +150,13 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
   <tr> 
    <th> <p><strong>Acciones</strong> </p> </th> 
    <th> <p><strong>Administrar</strong> </p> </th> 
-   <th> <p><strong>Contribute</strong> </p> </th> 
+   <th> <p><strong>Aportar</strong> </p> </th> 
    <th> <p><strong>Vista</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Agregar formulario personalizado</p> </td> 
+   <td> <p>Añadir formulario personalizado</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -162,7 +168,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Agregar Un Proceso De Aprobación</p> </td> 
+   <td> <p>Añadir un proceso de aprobación</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -180,25 +186,25 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Creación De Un Proyecto</p> </td> 
+   <td> <p>Crear un proyecto</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Agregar documento(s)</p> </td> 
+   <td> <p>Añadir documentos</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Agregar problema(s)</p> </td> 
+   <td> <p>Añadir problemas</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Agregar tarea(s)</p> </td> 
+   <td> <p>Añadir tareas</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
@@ -216,7 +222,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Modificar fechas planificadas</p> </td> 
+   <td> <p>Modificar fechas planificadas del proyecto</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -240,7 +246,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Actualizaciones/ comentarios</p> </td> 
+   <td> <p>Actualizaciones/comentarios</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -264,7 +270,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Administrar línea base</p> </td> 
+   <td> <p>Administrar línea de base</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -282,7 +288,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Agregar o editar gastos*</p> </td> 
+   <td> <p>Añadir o editar gastos*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
@@ -306,7 +312,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Agregar o editar caso comercial</p> </td> 
+   <td> <p>Añadir o editar caso comercial</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -318,7 +324,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Editar plantilla</p> </td> 
+   <td> <p>Editar personal</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -330,7 +336,7 @@ En la tabla siguiente se enumeran los permisos que los usuarios pueden conceder 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Recalcular finanzas/ cronología*</p> </td> 
+   <td> <p>Recalcular finanzas/ líneas de tiempo*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 

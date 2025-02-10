@@ -6,14 +6,16 @@ description: Como administrador de Adobe Workfront, puede otorgar a los usuarios
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 19%
+source-wordcount: '608'
+ht-degree: 20%
 
 ---
 
 # Compartir una plantilla
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Como administrador de Adobe Workfront, puede otorgar a los usuarios acceso para ver o editar plantillas al asignar su nivel de acceso. Un usuario debe tener una licencia de planificación para tener acceso a Editar plantillas.
 
@@ -40,12 +42,13 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
      Puede conceder los siguientes permisos a una plantilla:
 
       * Ver
-
-        ![](assets/view-on-template-262x221.png)
-
       * Administrar
 
-        ![](assets/manage-on-template-225x280.png)
+        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
+
+     <span class="preview">En vista previa:
+     ![](assets/template-permissions.png)
+  </span>
 
    * Los proyectos futuros que se crean con la plantilla. Puede conceder a los proyectos creados a partir de una plantilla los mismos niveles de permisos que a un proyecto individual. 
 
