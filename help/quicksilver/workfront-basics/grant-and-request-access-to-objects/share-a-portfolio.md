@@ -5,16 +5,14 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: '381'
+ht-degree: 100%
 
 ---
 
 # Compartir un portafolio
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Adobe Workfront puede concederle acceso para ver o editar portafolios cuando le asigna su nivel de acceso. Debe tener una licencia de Plan para poder acceder y editar un portafolio. Para obtener más información, consulte [Conceder acceso a portafolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -37,12 +35,9 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
-  <span class="preview">En vista previa:
-  ![](assets/share-portfolio.png)
-</span>
 * Cuando comparte un portafolio, los usuarios heredan los mismos permisos en todos los objetos secundarios asociados con el portafolio de forma predeterminada.
 
-Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Puede quitar los permisos heredados del portafolio. Para obtener más información sobre cómo quitar permisos de los objetos, consulte [Quitar permisos de los objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 

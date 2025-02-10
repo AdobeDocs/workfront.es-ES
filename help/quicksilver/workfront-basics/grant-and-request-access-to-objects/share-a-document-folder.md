@@ -6,7 +6,7 @@ description: Puede compartir una carpeta y su contenido desde el área Documento
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
@@ -132,8 +132,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Opcional) Si desea que todos los usuarios del sistema puedan ver la carpeta y su contenido, haga clic en el icono de engranaje ![](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro para compartir y, a continuación, haga clic en **Hacer esto visible en todo el sistema.**
 
    Si cambia de opinión, puede hacer clic en **Quitar el acceso en todo el sistema** (la opción predeterminada).
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## Cómo acceden los usuarios al contenido de una carpeta compartida con ellos
 

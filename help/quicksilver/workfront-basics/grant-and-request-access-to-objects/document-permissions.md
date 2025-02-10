@@ -7,16 +7,14 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 35%
+source-wordcount: '616'
+ht-degree: 34%
 
 ---
 
 # Compartir un documento
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignan niveles de acceso, como se explica en [Conceder acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -41,10 +39,6 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
    * Ver
    * Administrar
-
-  <span class="preview">En vista previa:
-  ![](assets/document-permissions.png)
-</span>
 
 * También puede compartir un documento de forma pública o en todo el sistema.
 

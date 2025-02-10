@@ -6,16 +6,14 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 95%
+source-wordcount: '986'
+ht-degree: 100%
 
 ---
 
 # Uso compartido de un proyecto en Adobe Workfront
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 <!-- Audited: 1/2024 -->
 
@@ -31,7 +29,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 * De forma predeterminada, el creador de un proyecto tiene permisos para administrar el proyecto y también se designa como Propietario del proyecto. Si el proyecto se asigna a otro propietario, ese usuario también tiene permisos para administrar el proyecto. Cuando el creador (o propietario) del proyecto comparte el proyecto con otros usuarios, les concede determinados permisos para controlar lo que pueden hacer mientras trabajan en el proyecto.
 
-  Sin embargo, si el propietario de un proyecto no tiene una licencia estándar o de planificación, no tiene acceso completo para administrar el proyecto. Solo los usuarios con licencia de planificación o estándar pueden tener permisos para administrar un proyecto. Para obtener más información, consulte [Funcionamiento conjunto de los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Sin embargo, si el propietario de un proyecto no tiene una licencia de planificador, no tendrán acceso completo para administrar el proyecto. Solo un usuario con una licencia Plan puede tener permisos para administrar un proyecto. Para obtener más información, consulte [Funcionamiento conjunto de los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Puede compartir proyectos individualmente o puede compartir varios a la vez. Compartir proyectos es idéntico a compartir otros objetos. Para obtener más información sobre cómo compartir elementos en Workfront, consulte [Buscar un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a un proyecto:
@@ -41,10 +39,6 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
    * Aportar
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
-
-     <span class="preview">En vista previa:
-     ![](assets/project-permissions.png)
-  </span>
 
 * Al compartir un proyecto, todas las tareas, problemas y documentos heredan los mismos permisos, a menos que se especifique lo contrario.
 
