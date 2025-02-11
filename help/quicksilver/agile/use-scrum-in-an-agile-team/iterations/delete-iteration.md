@@ -6,16 +6,18 @@ description: Puede eliminar una iteración para su equipo ágil si ya no es nece
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 82%
+source-wordcount: '189'
+ht-degree: 71%
 
 ---
 
 # Eliminar una iteración
 
 Puede eliminar una iteración para su equipo ágil si ya no es necesaria.
+
+Al eliminar una iteración, los artículos de la iteración se mueven al registro de pendientes. Las tareas y los problemas también permanecen en sus proyectos.
 
 >[!NOTE]
 >

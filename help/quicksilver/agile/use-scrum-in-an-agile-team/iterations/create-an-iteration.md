@@ -6,10 +6,10 @@ description: Las iteraciones son un componente clave para los equipos ágiles de
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 93%
+source-wordcount: '1063'
+ht-degree: 90%
 
 ---
 
@@ -156,6 +156,6 @@ Cuando añade una tarea como una historia a una iteración, se usa la restricci�
 
 [!UICONTROL Fecha de finalización de la iteración] menos (-) [!UICONTROL Duración de la tarea] es igual a (=) [!UICONTROL Fecha planificada de inicio de la tarea]
 
-Se usa la [!UICONTROL Fecha de finalización del proyecto] en lugar de si la fecha de inicio del proyecto es posterior a la fecha de inicio de la iteración y la fecha de finalización del proyecto es posterior a la fecha de finalización de la iteración.
+Se utiliza [!UICONTROL Fecha de finalización del proyecto] en lugar de la Fecha de finalización de la iteración si la fecha de inicio del proyecto es posterior a la fecha de inicio de la iteración y la fecha de finalización del proyecto es posterior a la fecha de finalización de la iteración.
 
 Puede configurar equipos de Scrum individuales para que utilicen las fechas del proyecto de forma predeterminada, en lugar de las fechas de iteración. Para obtener más información, consulte la sección [Configurar cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

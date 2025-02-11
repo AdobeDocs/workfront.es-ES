@@ -6,16 +6,18 @@ description: Puede mover una historia o un problema del panel de exploración a 
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 41%
 
 ---
 
 # Administrar historias y problemas en el tablero [!UICONTROL Scrum]
 
 Puede mover una historia o un problema del tablero [!UICONTROL Scrum] a otra iteración o al registro de pendientes, o eliminarlo del tablero [!UICONTROL Scrum]. Cuando elimina una historia o un problema, se mueve a la papelera de reciclaje durante 30 días y solo el administrador del sistema puede recuperarlo.
+
+Para eliminar una tarea o un problema de la iteración sin eliminarlo ni enviarlo al registro de pendientes, vaya al proyecto y elimine el equipo Agile de la columna de asignación. Esto elimina la tarea o el problema del panel de exploración, pero permanece en el proyecto.
 
 ## Requisitos de acceso
 
@@ -37,12 +39,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
    <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso de [!UICONTROL Manage] a la tarea o al problema </td> 
+   <td>Acceso de [!UICONTROL Manage] a la tarea o problema </td> 
   </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,14 +66,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
         <td>Seleccione para mover el elemento a otra iteración y, a continuación, elija a qué iteración se moverá la historia o el problema. Si no se definen iteraciones futuras, no se puede mover el elemento.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Registro de pendientes]</strong></td>
+        <td><strong>[!UICONTROL Backlog]</strong></td>
         <td>Seleccione para mover la historia o el problema al registro de asuntos pendientes del equipo.</td>
     </tr>
    </table>
 
    >[!NOTE]
    >
-   >El elemento de trabajo [!UICONTROL Fecha planificada de inicio] y [!UICONTROL Fecha planificada de finalización] se ven afectados por una configuración en la página [!UICONTROL Editar equipo]. Para obtener más información, consulte la sección [[!UICONTROL Configurar] cómo se aplican las fechas al agregar elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Los elementos de trabajo [!UICONTROL Fecha planificada de inicio] y [!UICONTROL Fecha planificada de finalización] se ven afectados por un ajuste de la página [!UICONTROL Editar equipo]. Para obtener más información, consulte la sección [[!UICONTROL Configurar] cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Haga clic en **[!UICONTROL Mover]**.
 

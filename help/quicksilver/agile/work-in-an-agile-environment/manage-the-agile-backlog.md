@@ -6,14 +6,14 @@ description: Las tareas y los problemas se pueden asignar a un equipo Agile y ag
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 0%
+source-wordcount: '1349'
+ht-degree: 9%
 
 ---
 
-# Administrar el registro de pendientes Agile
+# Administrar el registro de asuntos pendientes Agile
 
 Los siguientes elementos de trabajo se pueden asignar a un equipo Agile y añadirse al registro de asuntos pendientes de ese equipo como historias, según la metodología Agile que utilice el equipo:
 
@@ -24,7 +24,7 @@ Las tareas o problemas se pueden asignar al equipo (y posteriormente se agregar�
 
 >[!NOTE]
 >
->Si agrega varios equipos a un elemento de registro de asuntos pendientes, la tarea o el problema solo se mostrarán en el registro de asuntos pendientes del equipo principal. El equipo principal es el equipo asignado en primer lugar.
+>Si añade varios equipos a un elemento de registro de asuntos pendientes, la tarea o el problema solo se mostrarán en el registro de asuntos pendientes del equipo principal. El equipo principal es el equipo que se ha asignado en primer lugar.
 
 ## Requisitos de acceso
 
@@ -55,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,7 +115,7 @@ Puede crear nuevas historias en el registro de pendientes creando la historia di
 
 ### Crear una historia a partir del registro de pendientes {#create-a-story-from-the-backlog}
 
-Cuando crea una historia a partir del registro de pendientes, la historia se crea como una tarea o un problema dentro de un proyecto. No puede crear una historia a partir del registro de pendientes como un problema.
+Cuando crea una historia a partir del registro de pendientes, la historia se crea como una tarea o un problema dentro de un proyecto.
 
 Para crear una historia a partir del registro de pendientes:
 
@@ -143,7 +143,7 @@ Para crear una historia a partir del registro de pendientes:
       <td> Escriba un nombre para la historia.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Descripción]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
       <td>(Opcional) Escriba una descripción para la historia.</td>
      </tr>
      <tr>
@@ -151,15 +151,15 @@ Para crear una historia a partir del registro de pendientes:
       <td> Seleccione si el artículo está listo para añadirse a una iteración. Esta configuración es solo informativa. Las historias se pueden agregar a una iteración independientemente del estado de esta configuración.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimar]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Estimate]</strong></td>
       <td>Especifique un punto o una estimación horaria para la historia. Las estimaciones afectan al gráfico de evolución. El gráfico de evolución de una iteración sólo es preciso si cada artículo contiene una estimación precisa. (Si proporciona una estimación de puntos, ya debe haber designado en la configuración del equipo cuántas horas representa cada punto).</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Proyecto principal]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
       <td>Empiece a escribir el nombre del proyecto donde se creará esta historia y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.<br>El estado del proyecto debe establecerse en [!UICONTROL Actual]. Si el estado del proyecto es cualquier cosa excepto [!UICONTROL Actual], no se muestra en el menú desplegable.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Tarea principal]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
       <td>(Opcional) Comience a escribir el nombre de la tarea principal a la que está subordinada esta historia y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.</td>
      </tr>
      <tr>
@@ -189,11 +189,11 @@ La tarea o el problema ya están disponibles en el registro de pendientes del eq
 
 ## Mover historias dentro o fuera del registro de pendientes
 
-* [Mover historias del registro de pendientes a una iteración o tablero +](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Mover historias del registro de pendientes a una iteración o tablero](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Mover las historias existentes al registro de pendientes](#move-existing-stories-to-the-backlog)
 * [Exportar historias del registro de pendientes](#export-stories-from-the-backlog)
 
-### Mover historias del registro de pendientes a una iteración o tablero +
+### Mover historias del registro de pendientes a una iteración o tablero
 
 1. Vaya al registro de pendientes del equipo Agile.
 1. Seleccione las historias que desee mover a una iteración o panel Kanban y, a continuación, haga clic en **[!UICONTROL Más]** > **[!UICONTROL Mover a]**.
@@ -201,7 +201,7 @@ Si se mueve la historia al tablero [!UICONTROL Kanban], se mostrará la historia
 Si se mueve la historia a una iteración, aparecerá el cuadro de diálogo [!UICONTROL Mover historia a una iteración].
    ![Cuadro de diálogo Mover historia](assets/agile-backlog-addtoiteration.png)
 
-1. Realice una de las acciones siguientes:
+1. Realice una de las siguientes acciones:
 
    * **Para equipos de Scrum:** En el campo **[!UICONTROL Seleccionar iteración]**, seleccione la iteración a la que desea mover las historias.
 
