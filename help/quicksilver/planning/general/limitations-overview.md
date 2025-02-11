@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 60%
+source-wordcount: '364'
+ht-degree: 54%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 60%
 
 Adobe Workfront Planning tiene límites en cuanto a la cantidad de objetos que se pueden crear en la instancia. Existen límites de objetos para mejorar el rendimiento del producto y la experiencia con Workfront Planning.
 
-En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en Workfront Planning. Las limitaciones están sujetas a cambios a medida que se avanza hacia las siguientes fases de desarrollo.
+En la tabla siguiente se muestran los límites de la cantidad de objetos que se pueden crear en Workfront Planning. Las limitaciones están sujetas a cambios.
 
 | Objeto de Adobe Workfront Planning | Límite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Número de espacios de trabajo de una instancia de Workfront | ilimitado* |
 | Número de secciones de un espacio de trabajo | 50 |
-| Número de tipos de registro de un espacio de trabajo | 1000 (incluye los tipos de registro de todas las secciones y los que se crean al utilizar una plantilla de espacio de trabajo) |
+| Número de tipos de registro para un espacio de trabajo | 1000 (incluye los tipos de registro de todas las secciones y los que se crean al utilizar una plantilla de espacio de trabajo) |
 | Número de registros para un tipo de registro | 25.000 |
 | Número de registros de un espacio de trabajo | 25.000 para clientes con Planning <br> 500.000 para clientes con Planning Plus |
-| Número de registros totales de una instancia de Workfront Planning | 500.000 para clientes con el plan de Planning <br>2 millones para clientes con Planning Plus |
+| Número de registros totales de una instancia de Workfront Planning | 500.000 para clientes con Planning <br>2 millones para clientes con Planning Plus |
 | Número de campos para un tipo de registro o taxonomía | 500 |
 | Número de caracteres de un campo de texto de una sola línea | 1.000 caracteres |
 | Número de caracteres de un campo de párrafo | 10.000 caracteres |

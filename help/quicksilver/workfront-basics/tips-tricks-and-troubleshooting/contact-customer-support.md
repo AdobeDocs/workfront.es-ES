@@ -1,19 +1,19 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Contactar con Atención al cliente
-description: Como cliente de Adobe Workfront, puede ponerse en contacto con el equipo de Asistencia al cliente de Workfront por teléfono o enviando un ticket en línea. Este artículo incluye instrucciones sobre cómo ponerse en contacto con Atención al cliente y sobre cómo ver y administrar sus casos de asistencia.
+title: Póngase en contacto con el servicio de atención al cliente
+description: Como cliente de Adobe Workfront, puede ponerse en contacto con el equipo de atención al cliente de Workfront por teléfono o enviando un ticket en línea. Este artículo incluye instrucciones sobre cómo ponerse en contacto con el servicio de atención al cliente y sobre cómo ver y administrar sus casos de asistencia.
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 0%
+source-wordcount: '418'
+ht-degree: 81%
 
 ---
 
-# Contactar con Atención al cliente
+# Póngase en contacto con el servicio de atención al cliente
 
 <!--Audited: 12/2023-->
 
@@ -25,51 +25,59 @@ Como cliente de [!DNL Adobe Workfront], puede ponerse en contacto con el equipo 
 
 >[!NOTE]
 >
->Para problemas críticos, comuníquese con la atención al cliente de [!DNL Workfront] por teléfono.
+>Para problemas críticos, póngase en contacto con la atención al cliente de [!DNL Workfront] por teléfono.
 
 ## Teléfono
 
-Puede comunicarse con [!DNL Workfront Customer Support] los 7 días de la semana, las 24 horas del día, a través de los números siguientes:
+Puede ponerse en contacto con [!DNL Workfront Customer Support] los 7 días de la semana, las 24 horas del día, a través de los números siguientes:
 
-* EE.UU.: 844-306-HELP(4357)
+* EE.UU.: 866-329-5273
+* EMEA: +44 800 169 0454
+* Australia: +61 180 035 8683
+
+<!--Old numbers - before 2/10/2025:
+
+* US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
 * Australia: +61 1800 849259
 
+-->
+
 ## Web
 
-Puede enviar un vale de soporte técnico desde el portal de autoservicio [!DNL Experience League].
+Puede enviar un ticket de asistencia técnica desde el portal de autoservicio de [!DNL Experience League].
 
 >[!IMPORTANT]
 >
->Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar vales de asistencia en línea.
+>Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar tickets de asistencia en línea.
 
 
-1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com), haga clic en **[!UICONTROL Soporte técnico]** en la parte superior de la página.
+1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    Se abre la página [!UICONTROL Asistencia].
 
-   Desde la página de inicio de [!UICONTROL Soporte], puede navegar a sus casos de soporte abiertos, registrar un caso nuevo, ver los [!UICONTROL artículos de Soporte] principales o acceder a fuentes de aprendizaje adicionales.
+   Desde la página de inicio de [!UICONTROL Asistencia], puede navegar a sus casos de asistencia abiertos, registrar un caso nuevo, ver los artículos de [!UICONTROL Asistencia] principales o acceder a fuentes de formación adicionales.
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Haga clic en **[!UICONTROL Abrir vale]** en la barra lateral izquierda.
-Se abre la página [!UICONTROL creación de caso] en la que puede escribir el nombre del producto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), el título del caso y la descripción del caso.
+Se abre la página de [!UICONTROL creación de caso], en la que puede escribir el nombre del producto ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), el título del caso y la descripción del caso.
 
    >[!TIP]
    >
-   >Sea lo más descriptivo posible al describir el problema que enfrenta para ayudarnos a acelerar el proceso de solución de problemas.
+   >Sea lo más descriptivo posible al describir el problema que tiene para ayudarnos a acelerar el proceso de resolución de problemas.
 
 
-1. Rellene la información de los siguientes campos para proporcionarnos detalles más específicos:
+1. Cumplimente la información de los siguientes campos para proporcionarnos detalles más específicos:
 
-   * **[!UICONTROL Prioridad De Caso]** ([!UICONTROL Baja], [!UICONTROL Medium], [!UICONTROL Alta], [!UICONTROL Crítica])
-   * **[!UICONTROL Producto de caso]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals], etc.)
-   * **[!UICONTROL Entorno]** ([!UICONTROL Producción], [!UICONTROL Previsualización], [!UICONTROL Espacio aislado], etc.)
-   * **[!UICONTROL Región del cliente]** (América, EMEA, APAC)
+   * **[!UICONTROL Prioridad del caso]** ([!UICONTROL Baja], [!UICONTROL Media], [!UICONTROL Alta], [!UICONTROL Crítica])
+   * **[!UICONTROL Producto del caso]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals], etc.)
+   * **[!UICONTROL Entorno]** ([!UICONTROL Producción], [!UICONTROL Vista previa], [!UICONTROL Zona protegida], etc.)
+   * **[!UICONTROL Área geográfica del cliente]** (América, EMEA, APAC)
 
-1. Cargue los archivos relevantes y luego haga clic en **[!UICONTROL Enviar caso]**.
+1. Cargue los archivos correspondientes, luego haga clic en **[!UICONTROL Enviar caso]**.
 
    El caso se envía y se muestra la página [!UICONTROL Mis casos].
 
@@ -84,13 +92,13 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 
 1. Vaya a la página **[!UICONTROL Mis casos]**. Esta página se abre cuando envía un caso o puede abrirla haciendo clic en **[!UICONTROL Mis casos]** en el panel de navegación izquierdo.
 
-1. (Opcional) Use las opciones de la parte superior de la página para filtrar por **Producto ([!DNL Experience Cloud] solución)** o caso **[!UICONTROL Estado]** ([!UICONTROL Abierto] o Closed). También puede usar el cuadro [!UICONTROL buscar] para buscar cualquier palabra clave que pertenezca a sus casos de soporte técnico.
+1. (Opcional) Utilice las opciones de la parte superior de la página para filtrar por **Producto (solución [!DNL Experience Cloud])** o caso **[!UICONTROL Estado]** ([!UICONTROL Abierto] o Cerrado). También puede utilizar el cuadro de [!UICONTROL búsqueda] para buscar cualquier palabra clave que pertenezca a sus casos de asistencia técnica.
 
 1. (Opcional) Para ver más detalles sobre un caso, haga clic en **Número de caso** para acceder a él.
 
    Se abre la vista de caso.
 
-1. (Opcional) En la vista de caso, revise los últimos comentarios con el propietario del caso asignado y agregue cualquier archivo adjunto o respuesta adicional.
+1. (Opcional) En la vista de caso, revise los últimos comentarios con el propietario del caso asignado y añada cualquier archivo adjunto o respuesta adicional.
 
 1. (Opcional) Para escalar el caso, haga clic en **[!UICONTROL Escalar a administración]** en la parte derecha de la página bajo **[!UICONTROL Detalle del caso]**.
 

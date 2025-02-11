@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '3824'
-ht-degree: 92%
+source-wordcount: '3826'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición al tipo de elemento de trabajo para el que registra el tiempo </p> <p>Por ejemplo, necesita acceso de edición a problemas para registrar el tiempo de los problemas</p> </td> 
+   <td> <p>Permite ver o aumentar el acceso al tipo de elemento de trabajo para el que registra tiempo </p> <p>Por ejemplo, necesita acceso de Vista a Problemas para registrar el tiempo de los problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 

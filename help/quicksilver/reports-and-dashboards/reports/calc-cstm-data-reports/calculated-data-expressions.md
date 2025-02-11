@@ -7,7 +7,7 @@ description: Puede utilizar expresiones de datos para definir campos de datos pe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 91%
@@ -132,11 +132,11 @@ Puede crear un campo personalizado calculado de fecha y hora con las siguientes 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>AGREGAR HORA</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>Añade el número de horas a la fecha y tiene el siguiente formato:</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -410,7 +410,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>Por ejemplo, ["-12,6", -13,0] se convierte en ["-12,6", "-13"].</p>
-   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -418,7 +418,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>Por ejemplo, ["-12,6", -13,0] se convierte en ["-13", "-12,6"].</p>
-   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
   </tr>
   <tr>   
    <td><strong>CASE</strong> </td> 
@@ -461,7 +461,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <td><p>Devuelve texto con formato. Las opciones de color son $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE y las demás opciones de formato son $$BOLD, $$ITALIC, $$UNDERLINE. Solo se puede utilizar una opción de color por función, junto con hasta tres opciones de formato más. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.</p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Nota: Esta función no se admite en Workfront Planning.</p></td> 
+   <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -576,7 +576,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <td> <p>Evalúa la expresión frente a una lista de valores y devuelve el resultado correspondiente al primer valor coincidente.</p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Esta función no se admite en Workfront Planning.</p></td> 
+   <p>Esta expresión no se admite en Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
