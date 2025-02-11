@@ -5,9 +5,9 @@ description: Información general del asistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 8%
 
 ---
@@ -52,9 +52,9 @@ Para habilitar el Asistente de IA para su organización, se deben aplicar **toda
 * Su organización debe haber migrado a Adobe IMS (sistema Identity Management)
 * La experiencia unificada de Adobe debe estar habilitada
 * Su organización debe tener un plan Select, Prime o Ultimate Workfront
-* El Adobe debe tener un acuerdo de IA general de Adobe firmado en el archivo
+* Adobe debe tener registrado un acuerdo de Adobe Gen AI
 
-  Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de generación de IA de Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) en este artículo.
+  Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) en este artículo.
 
 ## Consideraciones sobre el asistente de IA
 
@@ -115,27 +115,27 @@ El asistente de IA puede consultar los datos asociados con los siguientes tipos 
 
 ## Acceder al asistente de IA
 
-1. En la parte superior de cualquier página de Workfront, haga clic en el icono Asistente de IA ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. En la parte superior de cualquier página de Workfront, haz clic en el icono ![Ayudante de IA](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Escriba su pregunta o mensaje en el panel situado a la derecha de la pantalla.
 
-   Si no puede escribir en este panel, su organización no tiene un acuerdo de IA general de Adobe firmado en el archivo.
+   Si no puede escribir en este panel, su organización no tiene registrado ningún acuerdo de IA general de Adobe firmado.
 
 1. Si el asistente de IA no proporciona la respuesta que necesita, perfeccione el mensaje e inténtelo de nuevo.
 
 ## Firma del acuerdo de Adobe Gen AI
 
-Si su organización no tiene un acuerdo de IA de generación de Adobe firmado, el Asistente de IA no se puede habilitar para su organización.
+Si su organización no tiene un acuerdo firmado de IA de Adobe Gen en los archivos, el Asistente de IA no se puede habilitar para su organización.
 
-Si un usuario intenta utilizar el asistente de IA cuando no se ha firmado el acuerdo de IA de generación de Adobe, verá un mensaje:
+Si un usuario intenta utilizar el asistente de IA cuando no se ha firmado el acuerdo de IA de Adobe Gen, verá un mensaje:
 
 * Usuarios: se informa a los usuarios de que el Asistente de IA no se ha habilitado para su organización y de que pueden ponerse en contacto con el administrador de Workfront para solicitarlo para su organización.
-* Administradores: se informa a los administradores de que no hay un acuerdo de IA general de Adobe firmado y pueden solicitar que se envíe una copia del acuerdo para su firma.
+* Administradores: se informa a los administradores de que no hay un acuerdo firmado de Adobe Gen AI y pueden solicitar que se envíe una copia del acuerdo para su firma.
 
 Para solicitar el acuerdo de Adobe Gen AI:
 
-1. Como administrador de Workfront, haga clic en el icono Asistente de IA ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Como administrador de Workfront, haga clic en el icono ![Ayudante de IA](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Empiece a escribir en el panel Ayudante de IA.
 1. Cuando aparezca el mensaje del acuerdo de Adobe Gen AI, haga clic en **Revisar acuerdo**.
-1. Introduzca el nombre y la dirección de correo electrónico de la persona de su organización que firmará el acuerdo de generación de IA de Adobe.
+1. Introduzca el nombre y la dirección de correo electrónico de la persona de su organización que firmará el acuerdo de Adobe Gen AI.
 
    El acuerdo se enviará a esta persona para que lo firme. Una vez firmado y devuelto, el Ayudante de IA se habilita para su organización.

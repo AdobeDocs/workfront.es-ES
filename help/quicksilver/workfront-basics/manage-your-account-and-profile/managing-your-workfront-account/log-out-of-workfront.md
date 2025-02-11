@@ -6,10 +6,10 @@ description: Por razones de seguridad, es importante cerrar la sesión de  [!DNL
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -58,5 +58,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Cerrar sesión en su cuenta de [!DNL Workfront]
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y luego haga clic en **[!UICONTROL Cerrar sesión]** ![](assets/logout-icon.png).
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Cerrar sesión]** ![Icono de cierre de sesión](assets/logout-icon.png).
 1. Volverá a la página de inicio de sesión, donde podrá volver a introducir su nombre de usuario y contraseña.

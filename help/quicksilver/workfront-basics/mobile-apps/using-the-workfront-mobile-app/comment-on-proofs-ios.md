@@ -2,22 +2,22 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Comentario sobre pruebas en iOS
-description: Puede revisar y resolver los comentarios existentes en una prueba y agregar nuevos comentarios y anotaciones al documento de prueba.
+description: Puede revisar y resolver los comentarios existentes en una prueba y añadir nuevos comentarios y anotaciones al documento de prueba.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 0%
+source-wordcount: '819'
+ht-degree: 98%
 
 ---
 
-# Comentario sobre revisiones en [!DNL iOS]
+# Comentario sobre pruebas en [!DNL iOS]
 
-Puede revisar y resolver los comentarios existentes en una prueba y agregar nuevos comentarios y anotaciones al documento de prueba.
+Puede revisar y resolver los comentarios existentes en una prueba y añadir nuevos comentarios y anotaciones al documento de prueba.
 
-Su acceso a los comentarios en las pruebas es el mismo que en [!DNL Adobe Workfront]. Para obtener información acerca de las capacidades de revisión, vea [Perfiles de permisos de revisión en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Su acceso a los comentarios en las pruebas es el mismo que en [!DNL Adobe Workfront]. Para obtener información acerca de las capacidades de revisión, consulte [Perfiles de permisos de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ Su acceso a los comentarios en las pruebas es el mismo que en [!DNL Adobe Workfr
 
 Puede revisar los comentarios realizados en un documento de prueba. Los comentarios suelen tener dibujos asociados para llamar al área del documento a la que hace referencia el comentario. Los dibujos pueden incluir flechas, líneas, rectángulos, resaltados y dibujos a mano alzada.
 
-1. Abra la revisión del documento. Para obtener más información, consulte [Revisar y tomar decisiones sobre pruebas en la [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+1. Abra la prueba del documento. Para obtener más información, consulte [Revisar y tomar decisiones sobre pruebas en la  [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 1. Seleccione un icono de comentario en la página de documento ![Icono de comentario en el documento](assets/mobile-comment-icon-on-proofdoc-30x34.png) para abrir el comentario y los dibujos y archivos adjuntos asociados.
 
    Si el comentario tiene más de una respuesta, puede seleccionar **[!UICONTROL Ver respuestas]** para mostrar todas las respuestas o deslizar la hoja de comentarios hacia arriba y hacia abajo para mostrar más contenido.
 
 1. Para ver un archivo adjunto en el comentario, seleccione la miniatura del comentario. Siga las indicaciones para descargar el archivo adjunto en el dispositivo.
-1. Para responder al comentario, escribe tu respuesta en el cuadro de texto debajo del comentario y selecciona el icono **[!UICONTROL Enviar]** ![Enviar icono](assets/mobile-send-icon-25x26.png).
+1. Para responder al comentario, escriba su respuesta en el cuadro de texto debajo del comentario y seleccione el icono **[!UICONTROL Enviar]** ![Enviar icono](assets/mobile-send-icon-25x26.png).
 
 ### Usar la lista de comentarios
 
@@ -46,35 +46,35 @@ Puede revisar los comentarios realizados en un documento de prueba. Los comentar
 
 ### Realizar acciones en los comentarios
 
-En la lista [!UICONTROL comment], puede realizar diferentes acciones, como resolver un comentario o marcarlo como leído.
+En la lista [!UICONTROL comentario], puede realizar diferentes acciones, como resolver un comentario o marcarlo como leído.
 
-1. Seleccionar comentarios:
+1. Seleccione comentarios:
 
    * Mantenga presionado un comentario individual para seleccionarlo.
    * Elija **[!UICONTROL Seleccionar]** en la parte superior derecha para mostrar una casilla de verificación junto a cada comentario. A continuación, pulse las casillas de verificación del comentario o elija **[!UICONTROL Seleccionar todo]** en la parte superior izquierda.
 
-1. Para resolver el comentario seleccionado, seleccione ![[!UICONTROL Resolver comentario] icono](assets/mobile-resolvecomment-icon-30x30.png) en la barra de herramientas inferior.
+1. Para resolver el comentario seleccionado, seleccione el icono](assets/mobile-resolvecomment-icon-30x30.png) ![[!UICONTROL Resolver comentario] en la barra de herramientas inferior.
 
-   Solo puede resolver un comentario a la vez. El comentario se marca con un icono verde para mostrar que se ha resuelto.
+   Solo se puede resolver un comentario a la vez. El comentario se marca con un icono verde para mostrar que se ha resuelto.
 
-   El comentario original permanece en el documento. Aparece una resolución de comentario como respuesta al comentario original: &quot;[!UICONTROL Este subproceso se resolvió por [nombre].]&quot;
+   El comentario original permanece en el documento. Aparece una resolución de comentario como respuesta al comentario original: “[!UICONTROL Este hilo fue resuelto por [nombre]]”.
 
-   Puede deshacer la resolución seleccionando el comentario resuelto y el icono **[!UICONTROL Deshacer]**.
+   Puede deshacer la resolución seleccionando el comentario resuelto y el icono **[!UICONTROL deshacer]**.
 
 1. Para marcar los comentarios seleccionados como leídos, seleccione el icono **[!UICONTROL Marcar como leído]** ![Marcar como leído](assets/mobile-markread-icon-30x31.png) en la barra de herramientas inferior.
 
-   Esta opción sólo está disponible cuando se han seleccionado comentarios no leídos.
+   Esta opción solo está disponible cuando se han seleccionado comentarios no leídos.
 
-1. Para eliminar los comentarios seleccionados, seleccione el icono **[!UICONTROL Delete]** ![](assets/delete-30x28.png) en la barra de herramientas inferior. A continuación, seleccione **[!UICONTROL Eliminar]** en el mensaje de confirmación para eliminar permanentemente el comentario.
+1. Para eliminar los comentarios seleccionados, seleccione el icono **[!UICONTROL Eliminar]** ![Eliminar icono](assets/delete-30x28.png) en la barra de herramientas inferior. A continuación, seleccione **[!UICONTROL eliminar]** en el mensaje de confirmación para eliminar permanentemente el comentario.
 
 ## Comentario sobre una prueba
 
 Puede asociar los comentarios de prueba a un área específica del documento. Utilice las herramientas de dibujo para seleccionar un área sobre la que realizar comentarios.
 
-1. Abra la revisión del documento. Para obtener más información, consulte [Revisar y tomar decisiones sobre pruebas en la [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+1. Abra la prueba del documento. Para obtener más información, consulte [Revisar y tomar decisiones sobre pruebas en la [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 1. Seleccione una herramienta de dibujo en la barra de herramientas situada en la parte inferior de la pantalla de prueba.
 
-   ![Barra de herramientas de comentarios de revisión](assets/android-proof-comment-toolbar-350x102.png)
+   ![Barra de herramientas de comentarios de prueba](assets/android-proof-comment-toolbar-350x102.png)
 
    Si no ve la herramienta que necesita, desplácese hacia la derecha.
 
@@ -82,19 +82,19 @@ Puede asociar los comentarios de prueba a un área específica del documento. Ut
 
    ![Configuración de la herramienta de dibujo](assets/ios-drawingtoolsettings-350x359.png)
 
-1. Draw la forma en el documento de prueba. Seleccione el icono **[!UICONTROL Deshacer]** ![Deshacer](assets/android-undo-icon-30x31.png) para deshacer el dibujo.
-1. (Condicional) Seleccione la forma y elija **[!UICONTROL Configuración]** para modificar su configuración o **[!UICONTROL Quitar]** para eliminar la forma.
+1. Dibuje la forma en el documento de prueba. Seleccione el icono de **[!UICONTROL Deshacer]** ![Deshacer](assets/android-undo-icon-30x31.png) para deshacer el dibujo.
+1. (Condicional) Seleccione la forma y elija **[!UICONTROL Configuración]** para editar la configuración de la forma o **[!UICONTROL Quitar]** para eliminar la forma.
 
    ![Menú de dibujo](assets/ios-drawing-settingsremove-350x190.png)
 
-1. Seleccione **[!UICONTROL Agregar comentario]**.
+1. Seleccione **[!UICONTROL Añadir comentario]**.
 1. Escriba el comentario en el cuadro de texto.
-1. Para etiquetar un contacto en el comentario, escriba el símbolo @ o seleccione ![[!UICONTROL Contacto de etiqueta]](assets/mobile-tag-user-icon.png) para agregar el símbolo @, empiece a escribir el nombre del contacto que desea incluir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. Para etiquetar un contacto en el comentario, escriba el símbolo @ o seleccione ![[!UICONTROL Etiquetar contacto]](assets/mobile-tag-user-icon.png) para añadir el símbolo @, empiece a escribir el nombre del contacto que desea incluir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
-   El contacto recibe una notificación por correo electrónico cuando se agrega el comentario a la prueba.
+   El contacto recibe una notificación por correo electrónico cuando se añade el comentario a la prueba.
 
-1. Para agregar un archivo adjunto al comentario, seleccione ![[!UICONTROL Archivo adjunto] icono](assets/mobile-paper-clip-icon.png). Seleccione **[!UICONTROL Elegir entre la biblioteca]**, **[!UICONTROL Tomar una foto]** o **[!UICONTROL Seleccionar un documento]** y siga las indicaciones para adjuntar el archivo o la foto al comentario.
+1. Para añadir un archivo adjunto al comentario, seleccione el icono de ![[!UICONTROL Archivo adjunto]](assets/mobile-paper-clip-icon.png). Seleccione **[!UICONTROL Elegir de la biblioteca]**, **[!UICONTROL Tomar una foto]** o **[!UICONTROL Seleccionar un documento]** y siga las indicaciones para adjuntar el archivo o la foto al comentario.
 
    Haga clic en la X de la imagen en miniatura para quitar el archivo adjunto.
 
-1. Seleccione el icono **[!UICONTROL Enviar]** ![Enviar icono](assets/mobile-send-icon-25x26.png) para agregar el comentario y el dibujo a la prueba.
+1. Seleccione el icono de **[!UICONTROL Enviar]** ![icono de Enviar](assets/mobile-send-icon-25x26.png) para añadir el comentario y el dibujo a la prueba.

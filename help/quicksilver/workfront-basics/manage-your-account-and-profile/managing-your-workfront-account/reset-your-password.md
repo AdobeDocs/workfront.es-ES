@@ -6,10 +6,10 @@ description: Puede restablecer su contraseña de  [!DNL Adobe Workfront] . Como 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 86%
 
 ---
 
@@ -50,15 +50,15 @@ Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con el a
 
 ## Restablecer la contraseña en [!DNL Adobe Workfront]
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en el nombre de usuario que aparece junto a la imagen de perfil.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en el nombre de usuario que aparece junto a la imagen de perfil.
 
    ![Abra el menú principal y seleccione su nombre de usuario.](assets/main-menu-options-350x481.png)
 
-1. Haga clic en el **[!UICONTROL menú Más]** ![](assets/more-icon.png) y, a continuación, haga clic en **[!UICONTROL Editar]**.
+1. Haga clic en el **[!UICONTROL menú Más]** ![icono Más](assets/more-icon.png) y, a continuación, haga clic en **[!UICONTROL Editar]**.
 
 1. En el cuadro **[!UICONTROL Editar persona]** que aparece en **[!UICONTROL Información personal]**, haga clic en **[!UICONTROL Restablecer contraseña]**.
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![Editar persona](assets/edit-person-box-350x196.jpg)
 
    Si su organización ha integrado [!DNL Workfront] con una solución SSO, es posible que se le dirija a restablecer sus contraseñas a través de su sistema SSO cuando haga clic en **[!UICONTROL Restablecer contraseña]**. De este modo se restablece la contraseña de SSO, lo que afecta al inicio de sesión en todas las demás aplicaciones dentro de la organización.
 

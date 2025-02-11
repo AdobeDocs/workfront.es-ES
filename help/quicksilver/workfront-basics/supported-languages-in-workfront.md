@@ -6,10 +6,10 @@ description: Puede cambiar el idioma en el que se muestran Adobe Workfront y los
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 96%
+source-wordcount: '1075'
+ht-degree: 95%
 
 ---
 
@@ -138,7 +138,7 @@ Al cambiar la configuración regional predeterminada del correo electrónico de 
 Para cambiar la configuración regional predeterminada del correo electrónico de Workfront:
 
 1. Inicie sesión en Workfront como administrador de Workfront.
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
 
 1. Haga clic en **Sistema** > **Información del cliente.**
 
@@ -152,7 +152,7 @@ Al cambiar la configuración regional del correo electrónico del usuario, se mo
 
 >[!NOTE]
 >
->Cuando su organización se encuentra en la Experiencia unificada de Adobe, las preferencias de idioma se almacenan en el perfil de Adobe y no se utiliza la configuración regional del correo electrónico. Consulte [Cambiar el idioma de Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) en este artículo.
+>Cuando su organización se encuentra en la experiencia unificada de Adobe, las preferencias de idioma se almacenan en el perfil de Adobe y no se utiliza la configuración regional del correo electrónico. Consulte [Cambiar el idioma de Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) en este artículo.
 
 Para cambiar la configuración regional del correo electrónico del usuario:
 

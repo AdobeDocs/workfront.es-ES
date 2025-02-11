@@ -5,10 +5,10 @@ description: En  [!DNL Adobe Workfront], puede personalizar el modo en que se mu
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +94,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Opcional y condicional) Si desea mostrar un número específico de elementos en la pantalla, haga clic en el menú desplegable **[!UICONTROL Mostrando]** en la esquina inferior derecha de la pantalla y, a continuación, seleccione para mostrar **100**, **250**, **500**, **[!UICONTROL Todos]** o **2000** elementos.
 
-   ![](assets/list-number-page-350x119.png)
+   ![Número de lista en la página](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

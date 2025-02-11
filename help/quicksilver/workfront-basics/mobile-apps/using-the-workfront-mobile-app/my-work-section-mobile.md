@@ -6,14 +6,14 @@ description: La sección [!UICONTROL Mi trabajo] del área de [!UICONTROL Inicio
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 5%
 
 ---
 
-# [!UICONTROL Mi trabajo] en la aplicación móvil
+# Sección [!UICONTROL Mi trabajo] en la aplicación móvil
 
 La sección [!UICONTROL Mi trabajo] del área de [!UICONTROL Inicio] muestra sus tareas, problemas, proyectos, aprobaciones, solicitudes y hojas de horas.
 
@@ -21,7 +21,7 @@ La sección [!UICONTROL Mi trabajo] del área de [!UICONTROL Inicio] muestra sus
 >
 >[!UICONTROL Mi trabajo] en la aplicación móvil es independiente de [!UICONTROL Mi trabajo] en la versión de escritorio de [!UICONTROL Adobe Workfront].
 
-![](assets/home-myworksection-338x379.png)
+![Mi trabajo](assets/home-myworksection-338x379.png)
 
 ## Personalizar la sección [!UICONTROL Mi trabajo]
 
@@ -36,4 +36,4 @@ Puede elegir qué elementos de menú se mostrarán en [!UICONTROL Mi trabajo] y 
    >
    >El elemento de menú [!UICONTROL Tareas y problemas] siempre se muestra y no puede ocultarlo.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![Configuración móvil](assets/mobile-settings-338x366.png)

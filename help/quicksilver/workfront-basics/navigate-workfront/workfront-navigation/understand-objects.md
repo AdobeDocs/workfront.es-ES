@@ -6,10 +6,10 @@ description: La información que se muestra en  [!DNL Adobe Workfront]  está re
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 98%
+source-wordcount: '2508'
+ht-degree: 95%
 
 ---
 
@@ -161,21 +161,21 @@ A continuación se muestra una lista de objetos y sus iconos correspondientes en
 
 | **Objeto** | **Icono** | **Nombre de objeto personalizable** |
 |---|---|---|
-| [!UICONTROL Compañía] | ![](assets/company-icon-nwe.png), ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Panel] | ![](assets/dashboard-icon-nwe.png), ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL Meta] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL Grupo] | ![](assets/groups-icon-nwe.png), ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Problema] | ![](assets/issue-icon-nwe.png), ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Función] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL Plan] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portafolios] | ![](assets/portfolio-icon-nwe.png), ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Programa] | ![](assets/program-icon-nwe.png), ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Proyecto] | ![](assets/project-icon-nwe.png), ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL Informe] | ![](assets/report-icon-nwe.png), ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Tarea] | ![](assets/task-icon-new.png), ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Equipo] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png), ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL Plantilla] | ![](assets/template-icon-nwe.png), ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL Usuario] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL Compañía] | ![Icono de la compañía](assets/company-icon-nwe.png), ![icono de la compañía azul](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL Panel] | ![Icono de panel](assets/dashboard-icon-nwe.png), ![icono de panel azul](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Meta] | ![Icono de meta](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL Grupo] | ![Icono de grupos](assets/groups-icon-nwe.png) , ![Icono de grupos](assets/nwe-group-icon.png) |  |
+| [!UICONTROL Problema] | ![Icono de problema](assets/issue-icon-nwe.png) , ![Icono de problema rosa](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Función] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![icono de rol](assets/job-role-nwe-no-color.png), ![color de icono de rol](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Plan] | ![Icono de plan](assets/plan-icon.png), ![icono de plan azul](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portafolio] | ![Portfolio](assets/portfolio-icon-nwe.png) , ![icono Portfolio azul](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL Programa] | ![Icono del programa](assets/program-icon-nwe.png) , ![Icono del programa naranja](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL Proyecto] | ![Icono del proyecto](assets/project-icon-nwe.png), ![Icono del proyecto púrpura](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Informe] | ![Icono de informe](assets/report-icon-nwe.png) , ![Icono de informe verde](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL Tarea] | ![Icono de tarea](assets/task-icon-new.png) , ![Icono de tarea verde](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Equipo] | ![Icono del equipo](assets/team-icon-nwe.png), ![Icono del equipo ronda](assets/team-icon-nwe-color.png) , ![Icono de equipos](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Plantilla] | ![Icono de plantilla](assets/template-icon-nwe.png) , ![Icono de plantilla verde](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL Usuario] | ![Icono de usuario gris](assets/users-icon-gray.png) , ![Icono de usuario azul](assets/user-icon-blue.png) , ![Icono de usuario con iniciales](assets/user-icon-initials.png) , ![Avatar](assets/user-avatar.png) , ![Menú principal del icono de usuario](assets/user-main-menu-area.png) |  |
 
 ## Números de referencia de objetos
 

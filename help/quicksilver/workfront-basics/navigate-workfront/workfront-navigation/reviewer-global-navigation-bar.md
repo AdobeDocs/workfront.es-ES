@@ -2,20 +2,20 @@
 product-area: user-management
 navigation-topic: workfront-navigation
 title: Comprender la navegación para un usuario con licencia de revisión
-description: El menú principal cambia con el nivel de acceso que le asignó su  [!DNL Adobe Workfront] administrador. De forma predeterminada, solo se le da acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso.
+description: El menú principal cambia con el nivel de acceso que le asignó su administrador de  [!DNL Adobe Workfront] . De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 0%
+source-wordcount: '388'
+ht-degree: 39%
 
 ---
 
-# Comprenda la navegación de un usuario con licencia para [!UICONTROL Revisar]
+# Comprenda la navegación de un usuario con licencia de [!UICONTROL Revisión]
 
-El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador [!DNL Adobe Workfront]. De forma predeterminada, solo se le da acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, vea [Acerca del diseño predeterminado [!DNL Adobe Workfront] 2}.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
+El [!UICONTROL Menú principal] cambia con el nivel de acceso que le asignó su administrador [!DNL Adobe Workfront]. De forma predeterminada, solo se le otorga acceso a las áreas que incluyen la funcionalidad permitida por su nivel de acceso. Para comprender los componentes del diseño predeterminado de cada nivel de acceso, consulte [Acerca del diseño predeterminado [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Comprender el [!UICONTROL menú principal] predeterminado de un [!UICONTROL revisor]
 
@@ -31,12 +31,12 @@ El diseño predeterminado de [!UICONTROL Revisor] incluye las áreas siguientes:
 
 * **[!UICONTROL Solicitudes]**: puede enviar y revisar solicitudes que usted u otros usuarios de su compañía hayan enviado en esta área.
 * **[!UICONTROL Documentos]**: aquí puede cargar o revisar los documentos que se han compartido con usted.
-* **[!UICONTROL Analytics]**: observe los datos del proyecto e identifique las tendencias con la planificación y finalización. Esta área muestra información sobre los proyectos que puede ver. Para obtener más información, consulte [Descripción general del análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md).
+* **[!UICONTROL Análisis]**: observe los datos del proyecto e identifique las tendencias con la planificación y finalización. Esta área muestra información sobre los proyectos que puede ver. Para obtener más información, consulte [Información general de Análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md)
 
-* **[!UICONTROL Modelos]**: revise los modelos existentes en su sistema y solicite que se instale uno, si el administrador de [!DNL Workfront] configuró la cola de solicitudes para los modelos. Para obtener más información, vea [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Modelos]**: revise los modelos existentes en su sistema y solicite que se instale uno, si el administrador de [!DNL Workfront] configuró la cola de solicitudes para los modelos. Para más información, consulte [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Acceder a mis actualizaciones desde el menú principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Personalizar el [!UICONTROL menú principal] predeterminado
 
