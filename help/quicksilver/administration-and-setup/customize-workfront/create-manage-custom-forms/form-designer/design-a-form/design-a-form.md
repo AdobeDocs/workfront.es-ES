@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 84%
 
 ---
@@ -23,7 +23,7 @@ Puede diseñar un formulario personalizado con el diseñador de formularios en A
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Para realizar los pasos de este artículo, debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -987,7 +987,7 @@ Para agregar un campo de conexión de Planning:
       Puede seleccionar entre los siguientes tipos de objetos:
       <ul><li> Proyecto</li>
       <li> Portafolio</li><li> Programa</li><li> Compañía</li><li> Grupo</li></ul>
-       <p>Solo están disponibles los tipos de objetos Workfront para los tipos de objetos del formulario.</p> <p> Por ejemplo, si la lista Tipos de objetos situada en la parte superior del diseñador de formularios muestra Proyecto, sólo podrá seleccionar Proyecto en este campo y no podrá seleccionar Portfolio, aunque los portafolios también podrán conectarse a tipos de registros.</p>
+       <p>Solo están disponibles los tipos de objetos Workfront para los tipos de objetos del formulario.</p> <p> Por ejemplo, si la lista Tipos de objetos situada en la parte superior del diseñador de formularios muestra Proyecto, sólo podrá seleccionar Proyecto en este campo y no podrá seleccionar Portafolios, aunque los portafolios también podrán conectarse a tipos de registros.</p>
       </td>
      </tr>
      <tr> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 95%
 
 ---
@@ -38,7 +38,7 @@ Para obtener información acerca de los usuarios que actualizan sus propios perf
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Para realizar los pasos de este artículo, debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +110,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
       <li> <p><b>Zona horaria:</b> especifique la zona horaria.</p> <p>Para obtener información acerca de cómo ayudar a los usuarios a colaborar en Workfront en diferentes zonas horarias, consulte <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Trabajar en diferentes zonas horarias</a>.</p> </li>
 
    <li><p><b>Configuración regional del correo electrónico</b>: la configuración regional de correo electrónico preferida del usuario. Esto afecta al formato de los números y de las fechas de los correos electrónicos que llegan desde Workfront a este usuario.</p>
-      <p><b>NOTA:</b> Cuando su organización se encuentra en la Experiencia unificada de Adobe, las preferencias de idioma del usuario se almacenan en su perfil de Adobe y no se utiliza la configuración regional de correo electrónico. Para obtener información sobre el acceso a estas preferencias, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>.</p></li>
+      <p><b>NOTA:</b> Cuando su organización se encuentra en la experiencia unificada de Adobe, las preferencias de idioma del usuario se almacenan en su perfil de Adobe y no se utiliza la configuración regional del correo electrónico. Para obtener información sobre el acceso a estas preferencias, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>.</p></li>
 
    <li><b>Recibir correos electrónicos de este entorno de prueba</b>: marque esta opción si desea recibir notificaciones por correo electrónico del entorno en el que ha iniciado sesión.
       <p><b>NOTA</b></p>

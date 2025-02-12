@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 10%
 
 ---
 
@@ -22,14 +22,14 @@ Para obtener información sobre los campos y widgets personalizados en los formu
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Forms personalizado**.
+1. En el panel izquierdo, haga clic en **Formularios personalizados**.
 1. Haga clic en **Campos** para mostrar un informe con todos los campos y widgets personalizados de la instancia de Workfront.
 
 1. Haga clic en el menú **Ver** y, a continuación, compruebe si hay vistas personalizadas en la lista que incluyan la columna **Informes** (que no es una columna predeterminada en esta ficha).
@@ -72,7 +72,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    1. (Condicional) Si desea mover la columna **Informes** que acaba de agregar a una posición horizontal diferente, arrastre su encabezado al área **Vista previa de columna** en la parte inferior de la página.
 
-   1. Haz clic en **Listo** y luego haz clic en **Guardar vista**.
+   1. Haga clic en **Listo** y luego haga clic en **Guardar vista**.
 
 1. Haga clic en el menú desplegable **Vista** y, a continuación, seleccione el nombre de la vista personalizada que acaba de crear.
 1. En la columna **Nombre**, busque el campo o widget personalizado que planea editar o eliminar y, a continuación, observe la columna **Informes** de esa fila para ver qué informes lo utilizan, si los hay.
@@ -96,5 +96,5 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    > 1. Haga clic en **Agregar columna** cerca de la esquina inferior derecha.
    > 1. En el cuadro **Mostrar en esta columna** que aparece cerca de la esquina superior izquierda, empiece a escribir *informe* y, a continuación, seleccione **Informes** cuando aparezca en la lista debajo del cuadro.
    > 1. (Condicional) Si desea mover la columna **Informes** que acaba de agregar a una posición horizontal diferente, arrastre su encabezado al área **Vista previa de columna** en la parte inferior de la página.
-   > 1. Haga clic en **Listo** y luego haga clic en **Guardar+Cerrar**.
+   > 1. Haga clic en **Listo**, luego **Guardar + Cerrar**.
    > 1. Escriba un nombre descriptivo para el informe, tal como *Campos y widgets*.

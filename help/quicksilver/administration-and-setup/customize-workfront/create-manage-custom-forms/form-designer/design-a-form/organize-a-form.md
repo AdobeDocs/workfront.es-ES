@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 11%
+source-wordcount: '1330'
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ Puede organizar un formulario personalizado con el diseñador de formularios y o
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Para realizar los pasos de este artículo, debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -139,9 +139,9 @@ En un formulario personalizado con un salto de sección configurado con el permi
 >
 >**Ejemplo:** En un formulario personalizado asociado al tipo de objeto Proyecto, se configura un salto de sección con el permiso Editar de forma limitada.
 >
->Se agrega el tipo de objeto Portfolio al formulario, lo que significa que la opción Editar de forma limitada ya no está disponible para el salto de sección del formulario.
+>Se agrega el tipo de objeto Portfolio al formulario, lo que significa que la opción de permiso Editar de forma limitada ya no está disponible para el salto de sección del formulario.
 >
->Un mensaje en pantalla le pedirá que cambie al permiso Editar, que es el nivel mínimo de permisos compatibles con el tipo de objeto Proyecto y el tipo de objeto Portfolio.
+>Un mensaje en pantalla le pedirá que cambie al permiso Editar, que es el nivel mínimo de permisos compatibles tanto con el tipo de objeto Proyecto como con el tipo de objeto Portfolio.
 
 
 ## Colocar campos y widgets personalizados en un formulario personalizado
