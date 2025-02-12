@@ -2,14 +2,14 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Crear un portafolio
-description: Un Portfolio es un conjunto de proyectos que compiten por los mismos recursos, presupuesto y programación. Los proyectos de un Portfolio son lo suficientemente similares como para utilizar el mismo conjunto de recursos y medirse con el mismo cuadro de resultados.
+description: Un portafolio es una colección de proyectos que se completan para los mismos recursos, presupuesto y programación. Los proyectos de un portafolio son lo suficientemente similares como para utilizar el mismo conjunto de recursos y medirse con el mismo cuadro de resultados.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '671'
+ht-degree: 81%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 7/2024-->
 
-Un Portfolio es un conjunto de proyectos que compiten por los mismos recursos, presupuesto y programación. Los proyectos de un Portfolio son lo suficientemente similares como para utilizar el mismo conjunto de recursos y medirse con el mismo cuadro de resultados.
+Un portafolio es una colección de proyectos que se completan para los mismos recursos, presupuesto y programación. Los proyectos de un portafolio son lo suficientemente similares como para utilizar el mismo conjunto de recursos y medirse con el mismo cuadro de resultados.
 
-Puede utilizar Portfolio para agrupar proyectos que pertenezcan a las mismas líneas de productos, divisiones, departamentos, compañías u otras unidades de negocio.
+Puede utilizar portafolios para agrupar proyectos que pertenezcan a las mismas líneas de productos, divisiones, departamentos, compañías u otras unidades de negocio.
 
 ## Requisitos de acceso
 
@@ -36,15 +36,15 @@ Puede utilizar Portfolio para agrupar proyectos que pertenezcan a las mismas lí
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td> <p>Nuevo: [!UICONTROL Standard]</p>
-   <p>Actual:[!UICONTROL plan] </p> </td> 
+   <p>Current:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a Portfolio</p>  </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] al portafolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Después de crear un portafolio, tiene permisos de administración para él de forma predeterminada</p>  </td> 
+   <td> <p>Después de crear un portafolio, tiene permisos de administración sobre él de forma predeterminada</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +57,13 @@ Puede utilizar Portfolio para agrupar proyectos que pertenezcan a las mismas lí
 
 Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 
-* Cree un portafolio desde cero empezando por el área de Portfolio del menú principal. Este artículo describe cómo crear un portafolio desde cero.
+* Cree un portafolio desde cero empezando por el área Portafolios del menú principal. Este artículo describe cómo crear un portafolio desde cero.
 
 * Importe un portafolio mediante kick-starts.
 
   Como administrador de Workfront, puede importar portafolios mediante una &quot;kick-start&quot;.
 
-  Para obtener información acerca de cómo importar datos mediante kick-starts en Workfront, consulte [Importar datos en Adobe Workfront mediante una plantilla de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Para obtener información acerca de cómo importar datos mediante kick-starts en Workfront, consulte [Importar datos en Adobe Workfront a través de una plantilla de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 * Agregue portafolios a medida que los conecte desde un tipo de registro en Workfront Planning.
 
@@ -78,19 +78,19 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
 
 {{step1-click-main-menu}}
 
-1. Haga clic en **[!UICONTROL Portfolio]**.
-1. Haga clic en **[!UICONTROL Nuevo Portfolio]**.
-1. Reemplace **[!UICONTROL Portfolio sin título]** por el nombre que desee para el portafolio.
+1. Haga clic en **[!UICONTROL Portafolio]**.
+1. Haga clic en **[!UICONTROL Nuevo portafolio]**.
+1. Reemplace **[!UICONTROL Portafolio sin título]** por el nombre que desee para el portafolio.
 
    El nombre puede contener hasta 255 caracteres.
 
-1. (Opcional) Haga clic en el nombre bajo **[!UICONTROL Administrador de Portfolio]** en el encabezado en la parte superior de la página para asignar un administrador diferente para el portafolio.
+1. (Opcional) Haga clic en el nombre bajo **[!UICONTROL Administrador de portafolios]** en el encabezado situado en la parte superior de la página para asignar un administrador diferente para el portafolio.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![nombre del administrador de Portfolio](assets/portfolio-manager-name-350x51.jpg)
 
-   Como creador del portafolio, se le asigna como administrador del portafolio de forma predeterminada.
+   Como creador del portafolio, se le asigna como administrador de portafolios de forma predeterminada.
 
-1. Haga clic en **[!UICONTROL Detalles del Portfolio]** en el panel izquierdo.
+1. Haga clic en **[!UICONTROL Papelera de reciclaje]** en el panel de la izquierda.
 1. En el área **[!UICONTROL Información general]**, cambie la siguiente información:
 
    <table style="table-layout:auto"> 
@@ -98,34 +98,34 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descripción]</td> 
-      <td> <p>Escriba una descripción para que el Portfolio indique lo que tiene de único. </p> </td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td> <p>Escriba una descripción para que el Portafolios indique lo que tiene de único. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Administrador de Portfolio]</td> 
-      <td> <p>Comience a escribir el nombre de un usuario que desee indicar como administrador del portafolio y, a continuación, selecciónelo cuando aparezca en la lista. Es igual que el [!UICONTROL Propietario del Portfolio]. Es la persona que puede supervisar el trabajo definido en los proyectos del portafolio y aprobar el caso empresarial.</p> <p>Importante: Cuando designa a alguien como [!UICONTROL Administrador de Portfolio], obtiene automáticamente permisos de [!UICONTROL Administrar] para el portafolio, los programas y los proyectos del portafolio. </p> <p>Sugerencia: También puede actualizar el [!UICONTROL Portfolio Manager] en el encabezado de la parte superior de la página.</p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>Comience a escribir el nombre de un usuario que desee indicar como administrador del portafolio y, a continuación, selecciónelo cuando aparezca en la lista. Es igual que el [!UICONTROL Portfolio Owner].  Es la persona que puede supervisar el trabajo definido en los proyectos del portafolio y aprobar el caso empresarial.</p> <p>Importante: Cuando designa a alguien como [!UICONTROL Portfolio Manager], obtiene automáticamente permisos de [!UICONTROL Manage] para el portafolio, los programas y los proyectos del portafolio. </p> <p>Sugerencia: también puede actualizar el [!UICONTROL Portfolio Manager] en el encabezado de la parte superior de la página.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Grupo </td> 
-      <td> <p>Añada el nombre de un solo grupo si este es propietario del portafolio o tiene la responsabilidad de completarlo. </p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero sobre él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y sus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>Añada el nombre de un solo grupo si éste es propietario del portafolio o tiene la responsabilidad de completarlo. </p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Haga clic dentro del cuadro **[!UICONTROL Agregar formulario personalizado]** en la esquina superior derecha de la página [!UICONTROL Detalles del Portfolio] para seleccionar un formulario personalizado para el portafolio y actualizar los campos personalizados.
+1. (Opcional) Haga clic dentro del cuadro **[!UICONTROL Añadir formulario personalizado]** en la esquina superior derecha de la página [!UICONTROL Detalles del portafolio] para seleccionar un formulario personalizado para el portafolio y actualizar los campos personalizados.
 
    >[!TIP]
    >
    >Debe tener formularios personalizados de portafolio ya creados para poder adjuntarlos a los portafolios.
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
-1. (Opcional) Haga clic en **[!UICONTROL Programas]** en el panel izquierdo y, a continuación, en **[!UICONTROL Agregar programas]** para agregar programas al portafolio.
+1. (Opcional) Haga clic en **[!UICONTROL Programas]** en el panel izquierdo y, a continuación, en **[!UICONTROL Añadir programas]** para añadir programas al portafolio.
 
-   Para obtener más información sobre cómo crear programas, vea [Crear un programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
+   Para obtener más información sobre la creación de programas, consulte [Crear un programa](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-1. (Opcional) Haga clic en **[!UICONTROL Proyectos]** en el panel izquierdo y, a continuación, en **[!UICONTROL Agregar proyectos]** para agregar proyectos al portafolio.
+1. (Opcional) Haga clic en **[!UICONTROL Proyectos]** en el panel izquierdo y, a continuación, en **[!UICONTROL Añadir proyectos]** para añadir proyectos al portafolio.
 
-   Para obtener más información sobre cómo agregar proyectos a un Portfolio, vea [Agregar proyectos a un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+   Para obtener más información sobre cómo añadir proyectos a un portafolio, consulte [Añadir proyectos a un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

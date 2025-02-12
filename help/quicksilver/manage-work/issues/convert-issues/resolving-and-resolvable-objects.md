@@ -7,9 +7,9 @@ description: Un objeto solucionable es un problema cuya resolución está vincul
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 3%
 
 ---
@@ -79,10 +79,10 @@ Según la forma en que el administrador de Workfront o del grupo haya configurad
 Se dan los siguientes escenarios:
 
 * Si el administrador de Workfront o del grupo tiene **Mantener el problema original y enlazar su solución a la tarea** y **Mantener el problema original y enlazar su solución al proyecto** seleccionado y la opción **Permitir que esta configuración se cambie durante la conversión** no seleccionada, no podrá cambiar esta configuración cuando esté convirtiendo problemas en tareas o proyectos.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![Área de problemas de preferencias del proyecto](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Si el administrador de Workfront o del grupo tiene **Mantener el problema original y enlazar su solución a la tarea** y **Mantener el problema original y enlazar su solución al proyecto** seleccionado o no seleccionado y **Permitir que esta configuración se cambie durante la conversión** seleccionado, podrá cambiar esta configuración a medida que esté convirtiendo problemas en tareas o proyectos.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![Opción para mantener el problema](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Para obtener más información acerca de la conversión de problemas en tareas y proyectos, vea [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -202,7 +202,7 @@ La ubicación del objeto de resolución es idéntica para tareas y proyectos.
 
 En una lista de problemas, puede identificar los que estén etiquetados como objetos de resolución mediante iconos de estado ubicando este icono en las columnas **Iconos de estado** o **Indicadores**:
 
-![](assets/ro1.png)
+![Objeto de resolución](assets/ro1.png)
 
 ## Ver información de objetos solucionables y de resolución en un informe
 

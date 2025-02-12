@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Localice Portfolio Optimizer
-description: Encontrará [!UICONTROL Portfolio Optimizer] cuando acceda a un portafolio.
+title: Localizar el Optimizador de portafolios
+description: Encontrará el [!UICONTROL Optimizador de portafolios] al acceder a un portafolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 98%
 
 ---
 
-# Busque [!UICONTROL Portfolio Optimizer]
+# Buscar el [!UICONTROL Optimizador de portafolios]
 
-Encontrará [!UICONTROL Portfolio Optimizer] cuando acceda a un portafolio.
+Encontrará el [!UICONTROL Optimizador de portafolios] al acceder a un portafolio.
 
 ## Requisitos de acceso
 
@@ -34,33 +34,33 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td> <p>Nuevo: estándar</p>
-   <p>Actual: [!UICONTROL plan] </p> </td> 
+   <p>Actual: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a Portfolio y proyectos</p>  </td>
+   <td> <p>Acceso de [!UICONTROL Edit] a portafolios y proyectos</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de [!UICONTROL Manage] para el portafolio</p>  </td> 
+   <td> <p>Permisos de [!UICONTROL Manage] al portafolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Busque [!UICONTROL Portfolio Optimizer]
+## Buscar el [!UICONTROL Optimizador de portafolios]
 
-1. En el **[!UICONTROL Menú principal]**, haga clic en **[!UICONTROL Portfolio]**.
+1. En el **[!UICONTROL Menú principal]**, haga clic en **[!UICONTROL Portafolios]**.
 
-   Los portafolios que posee se muestran de forma predeterminada.
+   Los portafolios que se posean se mostrarán de forma predeterminada.
 
 1. (Opcional) En el menú desplegable **[!UICONTROL Filtro]**, seleccione para ver un conjunto diferente de portafolios.
-1. Haga clic en el nombre de un portafolio para acceder a él.
-1. Haga clic en **[!UICONTROL Optimización de Portfolio]** en el panel izquierdo.
+1. Haga clic en el nombre de un portafolio para acceder a este.
+1. Haga clic en **[!UICONTROL Optimización del portafolio]** en el panel de la izquierda.
 
-   Se muestra [!UICONTROL Portfolio Optimizer].
+   Se mostrará el [!UICONTROL Optimizador de portafolios].
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Optimizador de Portfolio](assets/nwe-portfolio-optimizer-350x83.png)

@@ -6,10 +6,10 @@ description: Puede mover problemas entre proyectos y tareas.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 89%
+source-wordcount: '887'
+ht-degree: 87%
 
 ---
 
@@ -91,7 +91,7 @@ Puede mover uno o varios problemas de una lista de problemas o de un informe de 
 1. Si seleccionó ir a un proyecto, haga clic en **Problemas** en el panel izquierdo.
 1. Seleccione el problema o problemas que desee mover, haga clic en el **menú Más** en la parte superior de la lista de problemas y luego haga clic en **Mover a**.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![Copiar y mover a vínculos](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Continúe moviendo los problemas, tal como se describe en la sección [Mover un solo problema](#move-a-single-issue) a partir del paso 2.
 
@@ -101,13 +101,13 @@ Puede mover un problema al verlo.
 
 ### Desplazamiento de un solo problema
 
-1. Vaya a un problema que desee mover, haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre del problema y, a continuación, haga clic en **Mover a**.
+1. Vaya a un problema que desee mover, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) que se encuentra a la derecha del nombre del problema y, a continuación, haga clic en **Mover a**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![Mover en el nivel de problema](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    Se muestra el cuadro **Mover problema**.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![Mover cuadro de problema](assets/move-issue-box-nwe-350x280.png)
 
 1. En la sección **Seleccionar proyecto de destino**, especifique el nombre del proyecto al que desea mover los problemas. El nombre del proyecto actual se muestra de forma predeterminada.
 
@@ -118,7 +118,7 @@ Puede mover un problema al verlo.
 1. (Condicional) Haga clic en **Solicitar acceso** si no cuenta con acceso para mover problemas al proyecto.
 1. (Condicional) Continúe moviendo el problema en el proyecto de destino seleccionado sin solicitar acceso si tiene acceso para añadir problemas a una de las tareas del proyecto de destino.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![Mover problema y solicitar acceso](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Optimización de proyectos en Portfolio Optimizer
-description: Puede usar [!UICONTROL Portfolio Optimizer] para priorizar sus proyectos en función de sus puntuaciones y otros valores. El Optimizador tiene en cuenta información importante del proyecto, como el coste, la alineación, el riesgo y el ROI, para priorizar los proyectos según lo que sea más importante para usted.
+title: Optimización de proyectos en el Optimizador de portafolios
+description: Puede emplear el [!UICONTROL Optimizador de portafolios] para priorizar sus proyectos en función de sus puntuaciones y otros valores. El Optimizador tiene en cuenta información importante del proyecto, como el coste, la alineación, el riesgo y el retorno de la inversión (ROI), para priorizar los proyectos según lo que considere que es más importante.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 0%
+source-wordcount: '490'
+ht-degree: 87%
 
 ---
 
-# Optimizar proyectos en [!UICONTROL Portfolio Optimizer]
+# Optimizar proyectos en el [!UICONTROL Optimizador de portafolios]
 
-Puede usar [!UICONTROL Portfolio Optimizer] para priorizar sus proyectos en función de sus puntuaciones y otros valores. [!UICONTROL Optimizer] tiene en cuenta información importante del proyecto, como el costo, la alineación, el riesgo y el retorno de la inversión, para priorizar los proyectos según lo que sea más importante para usted.
+Puede utilizar el [!UICONTROL Optimizador de portafolios] para priorizar sus proyectos en función de sus puntuaciones y otros valores. El [!UICONTROL Optimizador] tiene en cuenta información importante del proyecto, como el coste, la alineación, el riesgo y el retorno de la inversión (ROI), para priorizar los proyectos según lo considere que es más importante.
 
 ## Requisitos de acceso
 
@@ -34,15 +34,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront*</td> 
    <td> <p>Nuevo: [!UICONTROL Standard] </p>
-   <p>Actual: [!UICONTROL plan] </p> </td> 
+   <p>Actual: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a proyectos y Portfolio</p> </td> 
+   <td> <p>Acceso [!UICONTROL Edit] a proyectos y portafolio</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de [!UICONTROL Manage] para el portafolio</p> <p>Contribute o permisos superiores para los proyectos</p> 
+   <td> <p>Permisos de [!UICONTROL Manage] al portafolio</p> <p>Contribute o permisos superiores para los proyectos</p> 
    <p>Debe tener permisos de administración en todos los proyectos de la lista para poder usar <b>Establecer prioridad de proyecto</b>.</p>
     </td> 
   </tr> 
@@ -53,42 +53,42 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-## Optimización de proyectos en Portfolio Optimizer
+## Optimización de proyectos en el Optimizador de portafolios
 
-1. Abra un Portfolio y haga clic en **[!UICONTROL Optimización de Portfolio]** en el panel izquierdo.
+1. Abra un portafolio y haga clic en **[!UICONTROL Optimización del portafolio]** en el panel izquierdo.
 
-   Se muestra [!UICONTROL Portfolio Optimizer].
+   Se muestra el [!UICONTROL Optimizador de portafolios].
 
-1. Haga clic en el icono **[!UICONTROL Optimizar]**
+1. Haga clic en el icono de **[!UICONTROL Optimizar]**
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)
+   ![Icono de optimización](assets/optimize-icon-portfolio-optimizer.png)
 
-   Las categorías según las cuales se puede puntuar un proyecto se muestran a la izquierda del icono [!UICONTROL Optimizar].
+   Las categorías según las cuales se puede puntuar un proyecto se muestran a la izquierda del icono de [!UICONTROL Optimizar].
 
 1. Con el círculo deslizante, modifique la optimización de cualquiera de las siguientes categorías:
 
-   * **[!UICONTROL Costo bajo]**: mueva el control deslizante a la derecha para ver los proyectos con el [!UICONTROL Costo planificado] más bajo.
-   * **[!UICONTROL Alineación alta]**: mueva el control deslizante a la derecha para ver los proyectos con la alineación más alta según el [!UICONTROL informe de valoración].
-   * **[!UICONTROL Valor alto]**: mueva el control deslizante a la derecha para ver los proyectos con una puntuación de [!UICONTROL Valor neto] más alta.
-   * **[!UICONTROL Riesgo bajo de beneficio]**: mueva el control deslizante a la derecha para ver los proyectos con la relación riesgo/beneficio más baja.
-   * **[!UICONTROL Alto retorno de la inversión]**: mueva el control deslizante a la derecha para ver los proyectos con un mayor retorno de la inversión (ROI).
+   * **[!UICONTROL Coste bajo]**: mueva el regulador a la derecha para ver los proyectos con el [!UICONTROL Coste planificado] más bajo.
+   * **[!UICONTROL Alineación alta]**: mueva el regulador a la derecha para ver los proyectos con la alineación más alta según el [!UICONTROL Cuadro de resultados].
+   * **[!UICONTROL Valor alto]**: mueva el regulador a la derecha para ver los proyectos con una puntuación de [!UICONTROL Valor neto] más alta.
+   * **[!UICONTROL Riesgo bajo de beneficio]**: mueva el regulador a la derecha para ver los proyectos con la relación riesgo/beneficio más baja.
+   * **[!UICONTROL Alto retorno de la inversión]**: mueva el regulador a la derecha para ver los proyectos con un mayor retorno de la inversión (ROI).
 
 1. Haga clic en el icono **x** para cerrar las categorías de optimización.
 
-   Esto actualiza los valores de [!UICONTROL Puntuación] para cada proyecto en la columna **[!UICONTROL Puntuación]**.
+   Se actualizarán los valores de [!UICONTROL Puntuación] para cada proyecto en la columna **[!UICONTROL Puntuación]**.
 
-   Para obtener información sobre la puntuación de [!UICONTROL Portfolio Optimizer], consulte [Información general sobre la puntuación de [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+   Para obtener información sobre la puntuación del [!UICONTROL Optimizador de portafolios], consulte [Información general sobre la puntuación del [!UICONTROL Optimizador de portafolios]](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
-1. Una vez establecidos los pesos correctos para la columna **[!UICONTROL Puntuación]**, haga clic en el encabezado de la columna **[!UICONTROL Puntuación]** para ordenarla según esta columna. El proyecto con la puntuación más alta se muestra en la parte superior de la lista.
+1. Una vez establecidas las ponderaciones correctas para la columna **[!UICONTROL Puntuación]**, haga clic en el encabezado de la columna **[!UICONTROL Puntuación]** para ordenarla según esta columna. El proyecto con la puntuación más alta se muestra en la parte superior de la lista.
 
 1. (Opcional) Arrastre y suelte los proyectos en el orden de su prioridad.
-Esto cambiará el orden de los proyectos en [!UICONTROL Portfolio Optimizer].
+Esto cambiará el orden de los proyectos en el [!UICONTROL Optimizador de portafolios].
 1. (Opcional) Haga clic en **[!UICONTROL Establecer prioridad]** para guardar la nueva prioridad de los proyectos.
 
    >[!NOTE]
    >
    >   Debe tener permisos de administración en todos los proyectos de la lista para poder usar **Establecer prioridad de proyecto**.
 
-   Para obtener más información acerca de cómo priorizar proyectos en [!UICONTROL Portfolio Optimizer], consulte el artículo [Priorizar proyectos en [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+   Para obtener más información sobre la priorización de proyectos en el [!UICONTROL Optimizador de portafolios], consulte el artículo [Priorizar proyectos en el [!UICONTROL Optimizador de portafolios]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Haga clic en **[!UICONTROL Guardar]** para guardar [!UICONTROL Portfolio Optimizer].
+1. Haga clic en **[!UICONTROL Guardar]** para guardar el [!UICONTROL Optimizador de portafolios].

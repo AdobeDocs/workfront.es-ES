@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
-ht-degree: 2%
+source-wordcount: '2551'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -41,17 +41,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Nivel de acceso*</td> 
    <td> <p>Editar acceso a Problemas</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los problemas de su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los problemas de su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acceso a los problemas</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de Contribute para resolver un problema con el fin de editar los siguientes campos en el área Detalles: </p>
+   <td> <p>permisos de contribución para un problema con el fin de editar los siguientes campos en el área de detalles: </p>
    <ul>
    <li>Descripción</li>
    <li>Estado</li>
    <li>Gravedad</li>
    </ul>
-   <p>Administre los permisos de un problema para editar todos los campos del área de Detalles o del cuadro Editar problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <p>Administre los permisos de un problema para editar todos los campos del área de Detalles o del cuadro Editar problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,18 +63,18 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 Existen algunas limitaciones que podrían impedir la edición de problemas.
 
 * No puede editar problemas que se encuentren en un proceso de aprobación. Solo puede registrar el tiempo o actualizar el estado de un problema que esté en Aprobación pendiente.
-* Solo puede editar y agregar documentos a problemas de un proyecto que tenga el estado Completo, Inactivo o Pendiente de aprobación cuando el administrador de Workfront o un administrador de grupo hayan habilitado esta funcionalidad en el área Preferencias del proyecto. Para obtener información sobre cómo establecer las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Solo puede editar y agregar documentos a problemas de un proyecto que tenga el estado Completo, Inactivo o Pendiente de aprobación cuando el administrador de Workfront o un administrador de grupo hayan habilitado esta funcionalidad en el área Preferencias del proyecto. Para obtener información sobre cómo establecer las preferencias del proyecto, consulte [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Editar un solo problema
 
 Puede editar un problema mediante las áreas Editar problema o Detalles del problema. Los siguientes pasos describen la edición de un problema en el cuadro Editar problema.
 
-1. Ir al **Menú principal**.
+1. Vaya al **Menú principal**.
 1. Haga clic en **Proyectos** y, a continuación, haga clic en el nombre de un proyecto para abrirlo.
 1. (Opcional) Haga clic en **Tareas** y, a continuación, haga clic en el nombre de una tarea para abrirla.
 1. Haga clic en **Problemas** en el panel izquierdo.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Icono de problemas](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Opcional) Para editar información limitada sobre un problema, haga clic en **Detalles del problema** en el panel izquierdo.
 
@@ -84,18 +84,18 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    Para editar la información de la sección Detalles, haga lo siguiente:
 
-   1. (Opcional) Haga clic en el icono **Contraer todo** de la esquina superior derecha para contraer todas las áreas.
-   1. (Opcional y condicional) Cuando un área esté contraída, haga clic en la **flecha que señala a la derecha** ![](assets/right-pointing-arrow.png) junto a cada área para expandir el área que desea editar.
+   1. (Opcional) Haga clic en el icono **Contraer todo** en la esquina superior derecha para contraer todas las áreas.
+   1. (Opcional y condicional) Cuando un área esté contraída, haga clic en la **flecha que señala a la derecha** ![flecha que señala a la derecha](assets/right-pointing-arrow.png) junto a cada área para expandir el área que desea editar.
    1. (Opcional) Para adjuntar un formulario personalizado, empiece a escribir el nombre de un formulario en el campo **Agregar formulario personalizado**, selecciónelo cuando se muestre en la lista y, a continuación, haga clic en **Guardar cambios**.
-   1. (Opcional) Haga clic en el icono **Exportar** ![](assets/export.png) para exportar la información general y de los formularios personalizados a un archivo de PDF y, a continuación, haga clic en **Exportar**. Seleccione una de las siguientes opciones:
+   1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export.png) para exportar la información general y de los formularios personalizados a un archivo de PDF y, a continuación, haga clic en **Exportar**. Seleccione entre las siguientes opciones:
 
       * Seleccionar todo (solo se muestra cuando hay al menos un formulario personalizado adjunto)
       * Información general
       * El nombre de uno o varios formularios personalizados
 
-      El archivo del PDF se descarga en el equipo.
+      El archivo PDF se descarga en el equipo.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Detalles del problema de exportación](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Para obtener más información, consulte [Exportar formularios personalizados y detalles de objetos](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -134,7 +134,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 1. Comience a editar un problema como se ha descrito anteriormente.
 1. Haga clic en **Nombre de problema**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![Sección de nombre de problema](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Actualice el campo **Nombre del problema**.
 1. Haga clic en **Guardar** o continúe editando las secciones siguientes.
@@ -144,7 +144,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 1. Comience a editar un problema como se ha descrito anteriormente.
 1. Haga clic en **Información general**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![Sección de información general del problema](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Actualice o revise cualquiera de los campos de la siguiente tabla:
 
@@ -168,11 +168,11 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
       <td> <p>Este es un indicador visual para usted que le permite priorizar problemas.</p> <p>Seleccione entre las siguientes opciones:</p> 
        <ul> 
         <li> <p><strong>Ninguno</strong> </p> </li> 
-        <li> <p><strong>Baja</strong> </p> </li> 
+        <li> <p><strong>Bajo</strong> </p> </li> 
         <li> <p><strong>Normal</strong> </p> </li> 
-        <li> <p><strong>Alta</strong> </p> </li> 
+        <li> <p><strong>Alto</strong> </p> </li> 
         <li> <p><strong>Urgente</strong> </p> </li> 
-       </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información acerca de cómo editar prioridades, vea <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p> </td> 
+       </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información acerca de cómo editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gravedad</td> 
@@ -205,14 +205,14 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    <b>SUGERENCIA</b>
 
-   <p>Al agregar un usuario de Contacto principal, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.</p>
+   <p>Al agregar un usuario de Contacto principal, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.</p>
       <p> Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acceso a usuarios</a>.</p>
 
 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Confirmar fecha y hora</td> 
+      <td role="rowheader">Fecha y hora de confirmación</td> 
       <td> <p>Es la fecha en la que el usuario asignado del problema calcula que se resolverá el problema. Solo las personas asignadas pueden editar este campo.</p> </td> 
      </tr> 
      <tr> 
@@ -237,7 +237,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    <b>NOTA</b>
 
-   Cuando selecciona un objeto para resolver un problema, el estado del problema está vinculado al estado del objeto de resolución y no se puede cambiar en el problema. Para obtener más información acerca de la resolución de objetos, vea <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre la resolución y los objetos solucionables </a>.
+   Cuando selecciona un objeto para resolver un problema, el estado del problema está vinculado al estado del objeto de resolución y no se puede cambiar en el problema. Para obtener más información acerca de la resolución de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Información general sobre resolución de objetos y objetos solucionables </a>.
 
    <b>SUGERENCIA</b>
 
@@ -271,9 +271,9 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 1. Empiece a editar el problema como se ha descrito anteriormente.
 1. Haga clic en **Asignaciones** en el panel izquierdo.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![Sección de asignaciones de problemas](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Haga clic en **Buscar personas, roles y equipos** y empiece a escribir el nombre del usuario, rol o equipo que desee asignar a la tarea; a continuación, haga clic en él o presione Entrar cuando aparezca en la lista.
+1. Haga clic en **Buscar personas, roles y equipos** y empiece a escribir el nombre del usuario, rol o equipo que desee asignar a la tarea; a continuación, haga clic en él o presione Intro cuando aparezca en la lista.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -285,7 +285,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    >[!TIP]
    >
-   >Puede asignar varios usuarios, roles o equipos. Solo puede asignar usuarios activos, roles y equipos.
+   >Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
    >
    >
    >Si un usuario, un rol o un equipo se han asignado antes de que se desactiven, permanecerán asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
@@ -308,23 +308,23 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rol de asignado</td> 
-      <td> <p>Seleccione un rol del menú desplegable <strong>Rol de asignado</strong> cuando haya seleccionado una persona como asignado. Esta es la función que el usuario asignado puede desempeñar en este problema. </p> <p><b>SUGERENCIA</b>
+      <td> <p>Seleccione un rol del menú desplegable <strong>Rol de usuario asignado</strong> cuando haya seleccionado una persona como usuario asignado. Esta es la función que el usuario asignado puede desempeñar en este problema. </p> <p><b>Sugerencia</b>
 
-   En el menú desplegable solo aparecen los roles asociados con cada usuario asignado en su perfil.</p> </td>
+   En el menú desplegable solo aparecen los roles de trabajo asociados con cada usuario asignado en su perfil.</p> </td>
    </tr> 
     </tbody> 
    </table>
 
 1. Haga clic en **Guardar** o continúe editando las secciones siguientes.
 
-### Forms personalizado
+### Formularios personalizados
 
 1. Comience a editar un problema como se ha descrito anteriormente.
-1. Haga clic en **Forms personalizado**.
+1. Haga clic en **Formularios personalizados**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![Sección de formularios personalizados de problema](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. En el campo **Agregar formulario personalizado**, seleccione el formulario o formularios personalizados que desee asociar con el problema. Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede agregar hasta diez formularios personalizados a un problema.
+1. En el campo **Agregar formulario personalizado**, seleccione el formulario o formularios personalizados que desee asociar con el problema. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede agregar hasta diez formularios personalizados a un problema.
 
 1. (Condicional) Si adjuntó un formulario personalizado al problema, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar el problema.
 
@@ -339,7 +339,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 1. Comience a editar un problema como se ha descrito anteriormente.
 1. Haga clic en **Configuración**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![Icono de configuración de problema](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Actualice la siguiente información:
 
@@ -354,10 +354,10 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
       <td> 
        <div> 
        <p>Seleccione un proceso de aprobación que desee asociar con el problema. El administrador de Workfront debe definir los procesos de aprobación en el nivel de sistema para poder asociarlos a problemas. Los usuarios con acceso administrativo a los procesos de aprobación <span> también pueden crear procesos de aprobación específicos del grupo.</span>Para obtener más información acerca de cómo crear procesos de aprobación, vea <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>. </p> 
-       <p>Tenga en cuenta lo siguiente al añadir procesos de aprobación: </p> 
+       <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
        <ul> 
        <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
-       <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el del proyecto no se muestra en la lista.</p> <p>Importante: Si el grupo del proyecto cambia, el proceso de aprobación específico del grupo se convierte en un proceso de aprobación de un solo uso. Para obtener más información acerca de cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, vea <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li> 
+       <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el del proyecto no se muestra en la lista.</p> <p>Importante: Si el grupo del proyecto cambia, el proceso de aprobación específico del grupo se convierte en un proceso de aprobación de un solo uso. Para obtener más información acerca de cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li> 
        <li> <p>Puede definir los procesos de aprobación predeterminados que se adjuntarán automáticamente a los problemas al crear colas de solicitudes o temas de colas. Para obtener información acerca de cómo actualizar los detalles de cola, vea <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. Para obtener información acerca de cómo crear temas de colas, vea <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Crear temas de colas</a>. </p> </li> 
        <li>Cuando se producen problemas de edición masiva, existen los siguientes escenarios: 
        <ul> 
@@ -375,15 +375,15 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
     </tbody> 
    </table>
 
-1. Haga clic en **Guardar.**
+1. Haga clic en **Guardar**.
 
 ## Editar un problema en el encabezado del mismo (lim.)
 
 Puede editar una cantidad limitada de información en el encabezado del problema.
 
-El administrador del sistema o del grupo puede personalizar los campos que ve en el encabezado del problema. Para obtener más información, vea [Personalizar encabezados de objeto mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+El administrador del sistema o del grupo puede personalizar los campos que ve en el encabezado del problema. Para obtener más información, consulte [Personalizar encabezados de objeto mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![Encabezado del problema](assets/issue-header-350x19.png)
 
 Los siguientes campos se incluyen en el encabezado de problema de forma predeterminada:
 
@@ -392,4 +392,4 @@ Los siguientes campos se incluyen en el encabezado de problema de forma predeter
 * Asignaciones
 * Fecha y hora planificadas de finalización
 * Estado
-* Tome decisiones de aprobación si se establece como aprobador en un proceso de aprobación actual
+* Tomar decisiones de aprobación si se establece como aprobador en un proceso de aprobación actual

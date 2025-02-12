@@ -7,10 +7,10 @@ description: Puede encontrar la puntuación de Portfolio Optimizer en Portfolio 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 9%
+source-wordcount: '737'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener información sobre cómo encontrar [!UICONTROL Portfolio Optimizer]
 
 Para obtener información sobre cómo [!DNL Adobe Workfront] usa la puntuación del proyecto y otra información del proyecto para optimizar proyectos en [!UICONTROL Portfolio Optimizer], consulte [Optimizar proyectos en Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-## Diferencia entre la [!UICONTROL puntuación de alineación] y la [!UICONTROL puntuación del Portfolio Optimizer]
+## Diferencia entre la puntuación de alineación [!UICONTROL 1} y la puntuación de Portfolio Optimizer [!UICONTROL 3}]]
 
 Hay una diferencia entre la puntuación de alineación y la puntuación del Optimizador de portafolios de un proyecto.
 
@@ -32,19 +32,19 @@ La puntuación de alineación de un proyecto se calcula según los puntos obteni
 
 La puntuación de alineación de un proyecto se muestra en la columna **[!UICONTROL Alignment]** de [!UICONTROL Portfolio Optimizer] o en el campo [!UICONTROL Alignment] de [!UICONTROL Business Case Summary].
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![Resumen de caso comercial](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![Puntuación de alineación del proyecto](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 Para obtener más información acerca de cómo generar la puntuación de alineación de un proyecto, vea el artículo [Aplicar un cuadro de mandos a un proyecto y generar una puntuación de alineación](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-La puntuación de [!UICONTROL optimizador de portafolios] es una clasificación calculada automáticamente en [!UICONTROL Optimizador de Portfolio] por la cual se pueden priorizar los proyectos. La puntuación del optimizador de portafolios se muestra como un icono indicador acompañado de un número y se muestra en la columna **[!UICONTROL Puntuación]** de [!UICONTROL Portfolio Optimizer].
+La puntuación de [!UICONTROL portfolio optimizer] es una clasificación calculada automáticamente en [!UICONTROL Portfolio Optimizer] mediante la cual se pueden priorizar los proyectos. La puntuación del optimizador de portafolios se muestra como un icono indicador acompañado de un número y se muestra en la columna **[!UICONTROL Puntuación]** de [!UICONTROL Portfolio Optimizer].
 
 >[!NOTE]
 >
 >Un proyecto se puede puntuar en [!UICONTROL Portfolio Optimizer] solo si se ha completado su caso empresarial. Para obtener más información acerca de cómo completar un caso empresarial, vea el artículo [[!UICONTROL Crear un caso empresarial] para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![Puntuación del proyecto](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 La puntuación de cada proyecto se calcula según la importancia de las siguientes categorías:
 
@@ -87,7 +87,7 @@ Los siguientes son criterios por los que puede puntuar un proyecto:
 * [!UICONTROL Riesgo de beneficio]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![Opciones de valor deslizante](assets/optimizer-sliding-value-options-350x77.png)
 
 Para obtener información sobre cómo optimizar proyectos en el portafolio, consulte [Optimizar proyectos en [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 

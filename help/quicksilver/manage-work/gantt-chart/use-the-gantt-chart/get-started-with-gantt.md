@@ -6,14 +6,14 @@ description: Los diagramas de Gantt de Adobe Workfront proporcionan una represen
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 1%
+source-wordcount: '538'
+ht-degree: 6%
 
 ---
 
-# Introducción al [!UICONTROL gráfico Gantt]
+# Empezar a usar el [!UICONTROL gráfico Gantt]
 
 <!-- Audited: 01/2024 -->
 
@@ -69,18 +69,18 @@ Para obtener acceso a la lista de tareas [!UICONTROL Diagrama de Gantt] de un pr
    * Una tarea o tarea de plantilla y, a continuación, haga clic en [!UICONTROL **Subtareas**] en el panel izquierdo.
    * Un informe de tareas
 
-1. Haga clic en el icono [!UICONTROL **Gantt**] ![](assets/gantt-icon-nwe.png) en la parte superior de la lista de tareas.
+1. Haga clic en el icono [!UICONTROL **Gantt**] ![icono Gantt](assets/gantt-icon-nwe.png) en la parte superior de la lista de tareas.
 
-   ![](assets/task-list-gantt.png)
+   ![Gantt de lista de tareas](assets/task-list-gantt.png)
 
    La lista de tareas [!UICONTROL Diagrama de Gantt] se abre a la derecha de la lista de tareas.
 
 1. Para configurar la información que desea mostrar en el gráfico [!UICONTROL Gantt] de la tarea, haga clic en el icono [!UICONTROL **Configuración**] y, a continuación, habilite cualquiera de las siguientes opciones:
 
-   * [!UICONTROL Fechas reales]
+   * [!UICONTROL Actual Dates]
    * [!UICONTROL Asignaciones]
-   * [!UICONTROL Línea base]
-   * [!UICONTROL Fecha de confirmación]
+   * [!UICONTROL Línea de base]
+   * [!UICONTROL Fecha de compromiso]
    * [!UICONTROL % completado]
    * [!UICONTROL Ruta crítica]
    * [!UICONTROL Diamantes de hito]
@@ -92,7 +92,7 @@ Para obtener acceso a la lista de tareas [!UICONTROL Diagrama de Gantt] de un pr
 1. Comience a editar las tareas como se describe en los siguientes artículos:
 
    * [Configurar cómo se muestra la información en el gráfico Gantt](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
-   * [Actualizar información en el gráfico Gantt de lista de tareas](../use-the-gantt-chart/update-info-task-list-gantt.md)
+   * [Actualización de la información en el gráfico Gantt de la lista de tareas](../use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ### Lista de proyectos [!UICONTROL Diagrama de Gantt] {#project-list-gantt-chart}
 
@@ -114,13 +114,13 @@ Para obtener acceso a la lista de proyectos [!UICONTROL Diagrama de Gantt]:
 
 1. Haga clic en el icono [!UICONTROL **Gantt**] que se encuentra en la parte superior de la lista de proyectos.
 
-   ![](assets/project-list-gantt.png)
+   ![Gantt de lista de proyectos](assets/project-list-gantt.png)
 
    Se abre la lista de proyectos [!UICONTROL Diagrama de Gantt].
 
 1. Para configurar la información que desea mostrar en el gráfico del proyecto [!UICONTROL Gantt], haga clic en el icono [!UICONTROL **Configuración**] y, a continuación, habilite cualquiera de las siguientes opciones:
 
-   * [!UICONTROL Fechas reales]
+   * [!UICONTROL Actual Dates]
    * [!UICONTROL % completado]
    * [!UICONTROL Diamantes de hito]
    * [!UICONTROL Líneas de hito]

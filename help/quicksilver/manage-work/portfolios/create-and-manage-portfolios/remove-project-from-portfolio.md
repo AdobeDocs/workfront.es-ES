@@ -1,25 +1,25 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: Eliminación de un proyecto de un portafolio
-description: Puede quitar un proyecto de un portafolio y asociarlo a un portafolio diferente o puede eliminar por completo la asociación entre un proyecto y un portafolio.
+title: Quitar un proyecto de un portafolio
+description: Puede eliminar un proyecto de un portafolio y asociarlo a uno diferente o bien, puede eliminar por completo la asociación entre un proyecto y un portafolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 1%
+source-wordcount: '230'
+ht-degree: 98%
 
 ---
 
-# Eliminación de un proyecto de un portafolio
+# Quitar un proyecto de un portafolio
 
 <!--Audited: 7/2024-->
 
-Puede quitar un proyecto de un portafolio y asociarlo a un portafolio diferente o puede eliminar por completo la asociación entre un proyecto y un portafolio.
+Puede eliminar un proyecto de un portafolio y asociarlo a uno diferente o bien, puede eliminar por completo la asociación entre un proyecto y un portafolio.
 
-También puede eliminar proyectos de un portafolio que también los elimine de [!DNL Adobe Workfront].
+También puede eliminar proyectos de un portafolio, lo que también los elimina de [!DNL Adobe Workfront].
 
 ## Requisitos de acceso
 
@@ -36,11 +36,11 @@ También puede eliminar proyectos de un portafolio que también los elimine de [
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td> <p>Nuevo: estándar</p>
-   <p>Actual: [!UICONTROL plan] </p> </td> 
+   <p>Actual: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a proyectos</p> <p>Acceso de [!UICONTROL Edit] a Portfolio</p>  </td> 
+   <td> <p>Acceso [!UICONTROL Edit] a proyectos</p> <p>Acceso de [!UICONTROL Edit] al portafolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -54,14 +54,14 @@ También puede eliminar proyectos de un portafolio que también los elimine de [
 
 +++
 
-## Eliminación de un proyecto de un portafolio
+## Quitar un proyecto de un portafolio
 
-1. Vaya a un Portfolio y haga clic en **[!UICONTROL Proyectos]** en el panel izquierdo.
-1. Seleccione el proyecto que desea eliminar. 
+1. Vaya a un portafolio y haga clic en **[!UICONTROL Proyectos]** en el panel izquierdo.
+1. Seleccione el proyecto que desea quitar. 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![Botón Quitar proyectos](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Haga clic en **[!UICONTROL Quitar proyectos]**.
-1. Haga clic en **[!UICONTROL Eliminar]** para eliminar el proyecto de [!DNL Workfront] o en **[!UICONTROL Quitar]** **[!UICONTROL del Portfolio]** para quitarlo del Portfolio seleccionado.
+1. Haga clic en **[!UICONTROL Eliminar]** para eliminar el proyecto de [!DNL Workfront] o en **[!UICONTROL Quitar]** **[!UICONTROL del portafolio]** para quitarlo del portafolio seleccionado.
 
-1. (Opcional y condicional) Busque el proyecto que ha eliminado del portafolio y asócielo a otro portafolio. Para obtener información sobre cómo asociar proyectos con portafolios, consulte [Agregar proyectos a un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+1. (Opcional y condicional) Busque el proyecto que ha eliminado del portafolio y asócielo a otro portafolio. Para obtener información sobre cómo asociar proyectos con portafolio, consulte [Añadir proyectos a un portafolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).

@@ -6,10 +6,10 @@ description: Puede editar un problema individual o editar problemas en una lista
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 1%
+source-wordcount: '896'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ Debe tener el siguiente acceso para realizar las acciones de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -37,11 +37,11 @@ Debe tener el siguiente acceso para realizar las acciones de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Editar acceso a Problemas</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Contribute o permisos superiores para resolver el problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Aportar o permisos superiores al problema</p> <p> Para obtener información sobre la concesión de permisos a los problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema </a></p> <p>Para obtener información sobre cómo solicitar permisos adicionales, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ Para editar en línea un problema:
 1. Ir a una lista de problemas en un proyecto o tarea.
 1. Haga clic dentro de cualquier campo para el que tenga permisos para actualizar manualmente. El campo se vuelve editable y puede realizar los cambios.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![Editar problemas en línea](assets/edit-issues-inline-350x34.png)
 
 1. Pulse Intro cuando desee aceptar los cambios. Los cambios se guardan inmediatamente.
 
@@ -76,9 +76,9 @@ Para editar en línea un problema:
 1. Ir a una lista de problemas en un proyecto o tarea.
 1. Realice una de las siguientes acciones
 
-   * Seleccione el problema en la lista y, a continuación, haga clic en el icono Editar ![](assets/qs-edit-icon.png) de la barra de herramientas.
-   * Haga clic en el **menú Más** ![](assets/more-icon-task-list.png) que se encuentra a la derecha del nombre del problema y, a continuación, haga clic en **Abrir en una ficha nueva**. Esto abre la página del problema en una nueva pestaña. Haga clic en **Más** > **Editar** en la página de problemas.
-   * Haga clic en el **menú Más** ![](assets/more-icon-task-list.png) que se encuentra a la derecha del nombre del problema y, a continuación, haga clic en **Editar**.
+   * Seleccione el problema en la lista y, a continuación, haga clic en el icono Editar ![Editar icono](assets/qs-edit-icon.png) de la barra de herramientas.
+   * Haga clic en el **menú Más** ![menú Más](assets/more-icon-task-list.png) que se encuentra a la derecha del nombre del problema y, a continuación, haga clic en **Abrir en una nueva pestaña**. Esto abre la página del problema en una nueva pestaña. Haga clic en **Más** > **Editar** en la página de problemas.
+   * Haga clic en el **menú Más** ![menú Más](assets/more-icon-task-list.png) que se encuentra a la derecha del nombre del problema y, a continuación, haga clic en **Editar**.
 
      Cualquiera de estas acciones abre el cuadro Editar problema.
 
@@ -93,7 +93,7 @@ Puede editar un problema de una lista mediante el Resumen.
 
    Se muestra la lista de problemas del proyecto.
 
-1. Seleccione un problema que desee editar y luego haga clic en el icono **Abrir resumen** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) en la esquina superior derecha de la lista de problemas.
+1. Seleccione un problema que desee editar y luego haga clic en el icono **Abrir resumen** ![Abrir icono de resumen](assets/qs-open-summary-icon-in-new-toolbar-small.png) en la esquina superior derecha de la lista de problemas.
 
    Se abre **Resumen**.
 
@@ -103,7 +103,7 @@ Puede editar un problema de una lista mediante el Resumen.
    | Documentos | Haga clic **Haga clic aquí para agregar** para agregar documentos al problema. |
    |---|---|
    | Detalles | Haga clic en para actualizar la información sobre el problema. |
-   | Horas | Haga clic en para registrar horas. |
+   | Horas | Haga clic para registrar horas. |
    | Rutas de aprobación | Haga clic en para añadir aprobaciones de problema. |
 
 1. (Opcional) Vuelva a hacer clic en el icono **Abrir resumen** o en el icono **X** en la parte superior derecha del resumen para cerrar el panel y editar el problema en línea.
@@ -114,12 +114,12 @@ Puede editar problemas de forma masiva y actualizar toda su información al mism
 
 Para editar problemas de forma masiva:
 
-1. Ir al **Menú principal**.
+1. Vaya al **Menú principal**.
 1. Haga clic en **Proyectos**.
 1. Haga clic en un nombre de proyecto para acceder al proyecto.
 1. Haga clic en **Problemas** en el panel izquierdo.
 1. Seleccione varios problemas en la lista.
-1. Haga clic en el icono **Editar** ![](assets/edit-icon.png).
+1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
    Se abre el cuadro de diálogo **Editar problemas**.
 
