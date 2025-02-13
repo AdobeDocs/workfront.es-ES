@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 68%
+source-wordcount: '1583'
+ht-degree: 58%
 
 ---
 
@@ -81,7 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
 <p>Su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan solicitar y conceder permisos a una vista desde una solicitud de permiso. </p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
@@ -200,9 +200,9 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    Se abre la página de tipo de registro.
 
-1. En la pestaña Ver, pase el puntero por encima de la vista que quiera compartir, haga clic en el menú **Más** ![](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
+1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Menú más para vistas expandido con la opción de uso compartido](assets/more-menu-for-views-expanded-with-share-option.png)
 
    La pestaña **Uso compartido interno** debería estar seleccionada de manera predeterminada.
 
@@ -211,13 +211,9 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
    * **Solo las personas invitadas pueden tener acceso**: debe especificar los usuarios, grupos, <span class="preview">equipo, compañía o rol</span> con los que desea compartir la vista. Esta es la opción predeterminada.
    * **Todos los usuarios del espacio de trabajo pueden ver**: todos los usuarios que tengan permisos de visualización o superiores en los espacios de trabajo pueden acceder a la vista.
 
-1. En el campo **Conceder acceso de visualización a**, empiece a escribir el nombre de un usuario, un grupo, <span class="preview">equipo, empresa o rol</span> y luego haga clic en él cuando se muestre en la lista.
+1. En el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, <span class="preview">equipo, empresa o rol</span> y, a continuación, haga clic en él cuando se muestre en la lista.
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![Compartir una vista con grupos](assets/sharing-a-view-ui-with-groups.png)
 
 1. Seleccione uno de los siguientes niveles de permisos en el menú desplegable:
    * Ver
@@ -230,7 +226,7 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 1. Haga clic en **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
 1. Haga clic en **Guardar**.
 
-   La vista se actualiza con un icono de personas ![](assets/view-shared-with-others-people-icon.png) para indicar que la vista ahora se comparte con otros usuarios.
+   La vista se actualiza con un icono de personas ![Vista compartida con otros iconos](assets/view-shared-with-others-people-icon.png) para indicar que la vista ahora se comparte con otros usuarios.
 
    >[!TIP]
    >
@@ -255,25 +251,25 @@ Para compartir una vista públicamente en Workfront Planning:
 
    Se abre la página de tipo de registro.
 
-1. En la pestaña Ver, pase el puntero por encima de la vista que quiera compartir, haga clic en el menú **Más** ![](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
+1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Menú más para vistas expandido con la opción de uso compartido](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. Haga clic en **Uso compartido público**.
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![Ficha de uso compartido público para vistas](assets/public-sharing-tab-for-views.png)
 
 1. Habilitar la configuración **Crear vínculo público**.
 
    Aparecerá un vínculo disponible. Este es un vínculo público. Cuando se comparte, cualquier persona que tenga el vínculo, incluidas las personas de fuera de la organización, puede acceder a la página de tipo de registro y ver los registros y campos de la página.
 
-1. Haga clic en el icono **Copiar vínculo** ![](assets/copy-link-view.png) para copiar el vínculo en el portapapeles.
+1. Haga clic en el icono **Copiar vínculo** ![Copiar vista de vínculo](assets/copy-link-view.png) para copiar el vínculo en el portapapeles.
 
 1. Introduzca una fecha manualmente o use el calendario del campo **Fecha de caducidad del vínculo** para seleccionar una fecha de caducidad para el vínculo público. No se podrá acceder a la vista de página del registro después de la fecha seleccionada.
 
 1. Haga clic en **Guardar**.
 
-   La vista se actualiza con un icono global ![](assets/public-shared-view-icon-highlighted.png) para indicar que la vista se comparte públicamente.
+   La vista se actualiza con un icono global ![Icono de vista compartida pública resaltado](assets/public-shared-view-icon-highlighted.png) para indicar que la vista se comparte públicamente.
 
    >[!TIP]
    >
@@ -289,16 +285,16 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
    * Una notificación por correo electrónico
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O
 En la notificación por correo electrónico, haga clic en **Ver todas las notificaciones** y, a continuación, haga clic en la notificación en la lista.
 
    Se muestra el cuadro **Solicitudes de acceso pendientes**.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![Cuadro de aprobación de lista de notificaciones](assets/notifications-list-approval-box.png)
 1. (Opcional) Para el usuario cuyos permisos desea aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
    * **Vista**
    * **Administrar**
@@ -312,7 +308,7 @@ En la notificación por correo electrónico, haga clic en **Ver todas las notifi
 {{step1-to-planning}}
 
 1. Abra el espacio de trabajo cuya vista desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
-1. Pase el puntero por encima del nombre de la pestaña de la vista que desee dejar de compartir y haga clic en el menú **Más** ![](assets/more-menu.png); a continuación, haga clic en **Compartir**.
+1. Pase el ratón sobre el nombre de la ficha de la vista de la que quiera quitar el uso compartido y haga clic en el menú **Más** ![Menú más](assets/more-menu.png); a continuación, haga clic en **Compartir**.
 1. Para quitar el uso compartido interno de una vista, haga lo siguiente:
 
    1. Asegúrese de que la pestaña **Uso compartido interno** esté seleccionada.

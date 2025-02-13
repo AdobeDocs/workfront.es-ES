@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '7694'
-ht-degree: 95%
+source-wordcount: '7828'
+ht-degree: 94%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 95%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -170,7 +170,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
    * [Configuración de problema](#issue-settings)
    * [Acceso](#access)
    * [Carpetas vinculadas](#linked-folders-conditional-availability) (disponibilidad condicional)
-     <!--* <span class="preview">[Comment](#comment)</span>-->
+   * <span class="preview">[Comment](#comment)</span>
 
 
    >[!NOTE]
@@ -684,22 +684,19 @@ Para obtener instrucciones sobre la edición de carpetas vinculadas, consulte [E
 >
 >Dado que las carpetas vinculadas se crean cuando se crea el proyecto, la edición del flujo de trabajo de carpetas vinculadas en un proyecto existente no es eficaz. La edición de estos valores al crear un proyecto funciona según lo esperado.
 
-<!--
 <div class="preview">
 
-### Comment
+### Comentario
 
-1. Begin editing your project as described above.
-1. Click **Comment** in the left panel.
+1. Empiece a editar el proyecto como se ha descrito anteriormente.
+1. Haga clic en **Comentario** en el panel izquierdo.
 
    ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
 
-1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Click **Save**. 
+1. Agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área de Actualizaciones del proyecto. Para obtener más información sobre cómo actualizar el trabajo, vea [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Haga clic en **Guardar**.
 
 </div>
-
--->
 
 ## Editar un proyecto en el encabezado del proyecto (limitado)
 
@@ -824,7 +821,7 @@ Para obtener más información acerca de cómo editar el área Configuración de
 Para obtener más información acerca de cómo editar el área Configuración del problema, consulte la sección [Configuración del problema](#issue-settings) en este artículo.
 1. Haga clic en **Acceso** para editar la configuración de acceso de todos los proyectos seleccionados.
 Para obtener más información acerca de cómo editar el área de acceso, vea la sección [Acceso](#access) en este artículo.
-   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
+1. <span class="preview">Haga clic en **Comentario** y, a continuación, agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área **Actualizaciones** de cada proyecto. Para obtener información acerca de cómo actualizar el trabajo, vea [Actualizar el trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
 1. (Opcional) Para eliminar cualquier información que haya añadido en el cuadro Editar proyectos, pase el puntero sobre un campo editado y, a continuación, haga clic en el icono de descartar **x** que hay en la parte superior derecha del campo.
 
    ![Descartar icono para editar proyectos de campo de forma masiva](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
