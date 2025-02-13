@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 90%
+source-wordcount: '546'
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td><p>Nuevo: estándar</p>
-  <p> Actual: plan</p>
-   </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Estándar</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -57,7 +64,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,23 +98,28 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
       * Modelos
       * Planificación
 
-   >[!IMPORTANT]
-   >
-   >Para ver las áreas de Escenarios, Metas y Planificación se requieren licencias adicionales.
-   >
-   >* Para obtener información sobre Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
-   >
-   >* Para obtener información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
-   >
-   >* Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+     >[!IMPORTANT]
+     >
+     >Para ver las áreas de objetivos, escenarios y planificación se requieren licencias adicionales.
+     >
+     >* Para obtener información sobre Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >
+     >* Para obtener información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
+     >
+     >* Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-   * Haga clic en **Añadir un panel de control**, escriba un **título de sección personalizado** descriptivo y añada el panel de control.
+   * Haga clic en **Agregar panel**
+      * Escriba un nombre descriptivo en el campo <!--**Quick link name**-->**Nombre personalizado**
+      * Seleccione un tablero en el campo **Agregar un tablero** <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
+      * Haga clic en **Add**.
 
 1. Repita el paso anterior para anclar cualquier otra página.
 
-1. (Opcional) Para cambiar el nombre de un anclaje, pase el puntero por encima de este, haga clic en la flecha junto al nombre del anclaje y seleccione **Cambiar el nombre del anclaje**. Escriba el nuevo nombre de anclaje y haga clic en el icono de marca de verificación o pulse Intro.
+1. (Opcional) Para mover un fijador, pase el ratón sobre el fijador y haga clic en el icono del menú Más ![Icono de Más](assets/more-icon.png) junto al nombre del fijador. A continuación, haga clic en **Mover a la izquierda** o **Mover a la derecha** para desplazar el fijador en la dirección elegida, o bien haga clic en **Mover al frente** para desplazar el fijador a la posición más a la izquierda.
 
-   Aparecerá una pequeña ventana emergente durante varios segundos después de hacer clic en la marca de verificación o pulsar Intro, lo que le permitirá deshacer el cambio de nombre del anclaje antes de guardarlo.
+1. (Opcional) Para cambiar el nombre de un fijador, pase el ratón sobre el fijador y haga clic en el icono del menú Más ![Icono de Más](assets/more-icon.png) junto al nombre del fijador. A continuación, haga clic en **Cambiar el nombre del fijador**. Escriba un nombre nuevo y luego haga clic en **Guardar**.
+
+1. (Opcional) Para eliminar un fijador, pase el ratón sobre el fijador y haga clic en el icono del menú Más ![Icono de Más](assets/more-icon.png) junto al nombre del fijador. A continuación, haga clic en **Eliminar fijador**.
 
 1. Siga personalizando la plantilla de diseño.
 

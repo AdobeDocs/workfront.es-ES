@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,16 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Examinar y confirmar las acciones realizadas por el Asistente de IA
+
+>[!NOTE]
+>
+>Versión preliminar: 13 de febrero de 2025; producción para versión rápida: con la versión 25.3 (marzo de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Con el fin de facilitar la tarea de asegurarse de que AI Assistant realiza las acciones que desea, ahora puede examinar y confirmar dichas acciones antes de ejecutarlas. Ahora, cuando se escribe un mensaje que realiza una acción como crear, actualizar o eliminar un registro, el Ayudante de IA muestra las acciones que va a realizar y pide confirmación de que son las acciones correctas.
+
+Anteriormente, este paso de confirmación no estaba disponible.
 
 ## Funciones agregadas a los campos de fórmula
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->Versión preliminar: 30 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Versión preliminar: 30 de enero de 2025; producción para versión rápida: con la versión 25.2 (13 de febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
 
 Ahora puede compartir vistas y espacios de trabajo con equipos, roles y compañías en Workfront Planning. Antes de esta mejora, podía compartir vistas y espacios de trabajo con usuarios y grupos.
 
@@ -62,7 +72,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 >[!NOTE]
 >
->Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (13 de febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
 
 Ahora puede copiar texto de un origen externo a Workfront y pegarlo en un campo conectado a Workfront Planning o en un campo de tipo Personas. Esta mejora está disponible cuando se editan registros en la vista de tabla.  El texto debe coincidir con un usuario existente (para campos de tipo Personas) o con un registro u objeto existente (para un registro conectado). Puede copiar y pegar varios valores para varios campos y actualizar registros de forma masiva.
 
@@ -74,7 +84,7 @@ Para obtener más información, consulte [Editar registros](/help/quicksilver/pl
 
 >[!NOTE]
 >
->Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (13 de febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
 
 Con esta versión, hemos actualizado el generador de filtros en Workfront Planning para permitir filtros de varios niveles.
 
@@ -92,7 +102,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 
 >[!NOTE]
 >
->Versión de vista previa: 22 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Versión de vista previa: 22 de enero de 2025; producción para versión rápida: con la versión 25.2 (13 de febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
 
 Ahora puede crear proyectos con una plantilla mientras conecta proyectos a registros existentes.
 
@@ -106,7 +116,7 @@ Para obtener más información, consulte [Crear objetos de Workfront desde Workf
 
 >[!NOTE]
 >
->Versión de vista previa: 22 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Versión de vista previa: 22 de enero de 2025; producción para versión rápida: con la versión 25.2 (13 de febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
 
 Para darle una mejor visibilidad a los títulos de los registros en el encabezado de la página de visualización, hemos realizado una mejora para dar más espacio a los títulos, evitar superposiciones y gestionar el truncamiento correctamente.
 

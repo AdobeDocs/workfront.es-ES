@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 7a2549e0d523f211ee13bf13fdc9a54aa7cf4572
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '13030'
+source-wordcount: '13034'
 ht-degree: 58%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 58%
       * Versión {#release-25-q2} del segundo trimestre de 2025
          * [Resumen de la versión del segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [Mejoras de administrador en el segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+         * [Mejoras de proyectos en el segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
          * [Otras mejoras durante el segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * Versión del primer trimestre de 2025 {#release-25-q1}
@@ -741,7 +742,7 @@ ht-degree: 58%
       * [Deshabilitar integraciones de documentos](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configuración de la integración de SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Configuración de la asignación de metadatos](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-      * [Cree paquetes de Creative Cloud de Adobe Workfront para los usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+      * [Cree paquetes de Adobe Workfront Creative Cloud para los usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Creación de aplicaciones de OAuth2 para integraciones de Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Ver y gestionar aplicaciones OAuth2 personalizadas](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configurar integración de JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -1099,7 +1100,7 @@ ht-degree: 58%
       * [Crear y administrar carpetas inteligentes](documents/organizing-documents/create-manage-smart-folders.md)
    * Integraciones de Workfront y Experience Manager Assets {#wf-aem-integrations}
       * [Integraciones de Workfront y Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      * Conector mejorado {#wf-aem-enhanced-connector} de Workfront para Experience Manager
+      * Conector mejorado de Workfront para Experience Manager {#wf-aem-enhanced-connector}
          * [Conector mejorado de Workfront para Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
          * [Información general sobre el conector mejorado de Workfront para Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
          * [Información general sobre los metadatos de conectores mejorados de Workfront para Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
@@ -1122,7 +1123,7 @@ ht-degree: 58%
          * [Solucionar problemas de integración de Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrar desde los conectores heredados o mejorados {#migrate-from-legacy-enhanced-connectors}
       * [Migración desde los conectores heredados o mejorados](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migración del conector heredado o mejorado a Workfront para la integración as a Cloud Service de Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migración del conector heredado o mejorado a Workfront para la integración de Adobe Experience Manager as a Cloud Service](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migración del conector heredado al conector mejorado](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Desinstalar el conector heredado de Workfront con Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Desinstalar Workfront con el conector mejorado de Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1395,11 +1396,11 @@ ht-degree: 58%
          * [Exportar el gráfico Gantt a PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
    * Administración de Portfolio {#portfolio-management}
       * [Administración de portafolios](manage-work/portfolios/portfolio-management-overview.md)
-      * Introducción al Portfolio en Adobe Workfront {#portfolio-overview-in-adobe-workfront}
+      * Información general de Portfolio en Adobe Workfront {#portfolio-overview-in-adobe-workfront}
          * [Portafolios](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navegación dentro de un portafolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Preferencias de administración de portafolios](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Información general sobre el Portfolio en Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Información general sobre Portfolio en Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Crear y administrar portafolios {#create-and-manage-portfolios}
          * [Crear y administrar portafolios](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Crear un portafolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
@@ -1566,7 +1567,7 @@ ht-degree: 58%
          * [Filtro: mostrar informes programados para su envío](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
          * [Filtro: mostrar elementos por estados del mismo nombre cuando los estados están asociados con grupos diferentes](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
          * [Agrupar un informe por un campo personalizado de selección múltiple](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-         * [Agrupación: agrupación de tareas de 4 niveles para Propietario del Portfolio, Propietario del programa, Propietario del proyecto y Estado del proyecto](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+         * [Agrupación: agrupación de tareas de 4 niveles para el Propietario de Portfolio, Propietario de programa, Propietario del proyecto y Estado del proyecto](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
          * [Agrupación: añadir una cuarta agrupación a una lista](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
          * [Agrupación: organice los resultados de la lista por un valor calculado común a todos los objetos de la agrupación](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
          * [Agrupación: muestra el resultado de agregar varios valores calculados en una agrupación](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
@@ -1698,7 +1699,7 @@ ht-degree: 58%
       * [Vea la visualización Actividad por equipo en el análisis mejorado](enhanced-analytics/activity-by-team-overview.md)
    * Conexión de datos de Workfront {#data-lake}
       * [Información general sobre Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Crear una cuenta o conexión de Reader para el Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Crear una cuenta de lector o una conexión para Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Establezca una conexión con Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Diccionario de datos de Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Ejemplos de consultas de Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
@@ -2085,33 +2086,33 @@ ht-degree: 58%
    * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Información general sobre las integraciones de Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Métodos de integración de Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Adobe Workfront para el Creative Cloud {#workfront-for-creative-cloud}
+   * Adobe Workfront para Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront para Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Instalar el complemento de Adobe Workfront para aplicaciones de Creative Cloud {#install-wf-cc}
          * [Instalación de Adobe Workfront para aplicaciones de Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Instalar y abrir Adobe Workfront para Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-         * [Instalar y abrir Adobe Workfront XD para su uso en el](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+         * [Instalar y abrir Adobe Workfront para XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [Instalar y abrir  [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Administrar el trabajo con el complemento de Adobe Workfront para aplicaciones de Creative Cloud {#manage-wf-cc}
-         * [Administración del trabajo con el complemento de Adobe Workfront para aplicaciones de Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+         * [Administrar el trabajo con el complemento de Adobe Workfront para aplicaciones de Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Encuentre su trabajo con el complemento de Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [Ver información del elemento de trabajo mediante el complemento de Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
          * [Actualice su trabajo con el complemento de Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Marcar los elementos de trabajo como completados mediante el complemento de Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Registrar tiempo mediante el complemento de Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Administrar [!DNL Adobe Workfront] notificaciones de Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * Cargar documentos y pruebas con el complemento de Adobe Workfront para aplicaciones de Creative Cloud {#upload-docs-proofs-wf-cc}
+      * Cargar documentos y pruebas con el complemento Adobe Workfront para aplicaciones Creative Cloud {#upload-docs-proofs-wf-cc}
          * [Cargar documentos y pruebas de  [!DNL Adobe Workfront plugin]  en  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Carga de documentos y pruebas con el complemento de Adobe Workfront para aplicaciones de Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Cargar pruebas desde Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Cargar documentos desde Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
          * [Cargar mesas de trabajo XD como pruebas en Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
-         * [XD Cargar tableros de trabajo de la como documentos a Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+         * [Cargar mesas de trabajo de XD como documentos a Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [Carga de pruebas desde InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [Carga de documentos desde InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [Cargar pruebas desde [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [Cargar documentos desde [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * Extensión de Workfront para Illustrator y el InDesign {#workfront-for-illustrator-indesign}
+      * Extensión de Workfront para Illustrator y InDesign {#workfront-for-illustrator-indesign}
          * [Uso de la extensión de Workfront para Illustrator e InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront para Jira {#workfront-for-jira}
       * [Adobe Workfront para Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
@@ -2147,13 +2148,13 @@ ht-degree: 58%
       * [Agregar un correo electrónico de Outlook como tarea a su lista de trabajos](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [Ver información adicional sobre Adobe Workfront para Outlook y cerrar la sesión](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Habilitar Outlook para Office para su uso con Adobe Workfront y SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-   * Adobe Workfront para Microsofts Teams {#workfront-for-microsoft-teams}
+   * Adobe Workfront para Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: índice de artículo](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Información general sobre Adobe Workfront para Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Instalación de Adobe Workfront para Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Acceso a Adobe Workfront desde Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Busque y comparta elementos de Adobe Workfront en Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-      * [Crear tareas de Adobe Workfront a partir de Microsofts Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+      * [Creación de tareas de Adobe Workfront desde Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [Envío de solicitudes de Adobe Workfront desde Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [Administración de notificaciones de Adobe Workfront en Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * Adobe Workfront para Salesforce {#workfront-for-salesforce}
@@ -2163,15 +2164,15 @@ ht-degree: 58%
       * [Configuración de la sección Adobe Workfront para usuarios de Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [Envío de solicitudes Adobe Workfront desde objetos Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Creación de proyectos de Adobe Workfront a partir de objetos de Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * Adobe Workfront para el Slack {#workfront-for-slack}
+   * Adobe Workfront para Slack {#workfront-for-slack}
       * [Adobe Workfront para Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Configuración de Adobe Workfront para Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [Acceda a sus favoritos y a los elementos recientes de Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
       * [Administrar su trabajo y aprobaciones desde Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
       * [Crear tareas y problemas desde Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-      * [Buscar elementos de Adobe Workfront del Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+      * [Buscar elementos de Adobe Workfront en Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Acceso a objetos de Adobe Workfront desde un vínculo compartido en Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-      * [Acceder a Adobe Workfront desde el Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+      * [Acceso a Adobe Workfront desde Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
       * [Publicar un comentario de Slack como actualización](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Recibir notificaciones de Adobe Workfront en Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront con Anaplan {#workfront-with-anaplan}

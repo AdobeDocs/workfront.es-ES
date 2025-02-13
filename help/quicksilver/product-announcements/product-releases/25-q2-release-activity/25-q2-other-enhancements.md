@@ -4,9 +4,10 @@ description: Otras mejoras durante el periodo de tiempo de lanzamiento del segun
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00445ffce2a494952a1d7dd9c02de2ddf6019472
+exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 17%
 
 ---
@@ -21,10 +22,10 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Versión de vista previa: 23 de enero de 2025; producción para versión rápida: con la versión 25.2 (13 de febrero de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
 
 Ahora, cuando el administrador de Adobe Admin Console realiza un cambio en la información de usuario de un usuario de Workfront, Workfront registra este cambio en la pestaña de actividad del sistema del área de Actualizaciones del usuario como perteneciente al &quot;Sistema&quot;. Hace referencia al administrador de Adobe Admin Console.
 
-Antes de esta actualización, los cambios de usuario realizados por el administrador del Admin Console se registraban como realizados por el administrador principal del sistema de Workfront.
+Antes de esta actualización, los cambios de usuario realizados por el administrador de Admin Console se registraban como realizados por el administrador principal del sistema de Workfront.
 
 Para obtener información sobre cómo administrar usuarios en Adobe Admin Console, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)
