@@ -6,10 +6,10 @@ description: Puede instalar [!DNL Adobe Workfront for design and video] desde Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 99%
+source-wordcount: '643'
+ht-degree: 83%
 
 ---
 
@@ -141,3 +141,25 @@ Puede instalar [!DNL Adobe Workfront for design and video] usted mismo desde [!D
 1. Haga clic en **[!UICONTROL Permitir acceso]** para finalizar el inicio de sesión.
 1. Vuelva a [!DNL Adobe Photoshop] para ver su trabajo.
 
+### Solución de problemas de inicio de sesión
+
+**Aparece el error &quot;Se produjo un error&quot; al intentar iniciar sesión**
+
+
+No puede usar una dirección URL que comience por `experience.adobe.com` para iniciar sesión en el complemento.
+
+![error de inicio de sesión](assets/plugin-log-in-error.png) ![dominio](assets/incorrect-domain.png)
+
+
+Para solucionar este problema,
+
+1. Elimine la carpeta que almacena el dominio del complemento.
+
+   >[!TIP]
+   >
+   >En un Mac, vaya a Finder y presione **Comando+Mayús+.** para mostrar las carpetas ocultas, vaya a **/Usuarios//Biblioteca/Compatibilidad con la aplicación** y, a continuación, elimine la carpeta **Workfront**.
+
+
+1. Vuelva al complemento e introduzca su dominio de Workfront. El dominio debe ser `company-name.my.workfront.com` y no `experience.adobe.com`.
+
+   Para [encontrar tu dominio de Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) si estás en la experiencia unificada de Adobe, ve a Configuración, Información del cliente.

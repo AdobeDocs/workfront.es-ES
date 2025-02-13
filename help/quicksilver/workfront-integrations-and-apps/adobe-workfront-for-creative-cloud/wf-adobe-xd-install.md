@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Instalar y abrir Adobe Workfront XD para su uso en el
-description: Puede instalar el complemento de Adobe Workfront XD para la desde Adobe Marketplace.
+title: Instalar y abrir Adobe Workfront para XD
+description: Puede instalar el complemento de Adobe Workfront para XD desde Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 77%
+source-wordcount: '548'
+ht-degree: 67%
 
 ---
 
@@ -75,7 +75,7 @@ Los administradores de [!DNL Adobe Admin Console] también pueden crear paquetes
 
 Puede instalar el complemento de [!DNL Adobe Workfront for XD] usted mismo desde [!DNL Adobe Exchange].
 
-1. Vaya a la [página de instalación de Adobe Workfront XD para la instalación de la página](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) en el Adobe Exchange.
+1. Vaya a la [página de instalación de Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) en Adobe Exchange.
 1. En el cuadro de diálogo que aparece, haga clic en **Abrir la aplicación de escritorio de [!DNL Adobe Creative Cloud]**.
 1. Una vez que se abra el administrador de complementos de [!DNL Adobe XD], haga clic en **[!UICONTROL Instalar]**.
 1. Lea la información del cuadro de diálogo y, a continuación, haga clic en **[!UICONTROL Aceptar]**.
@@ -89,9 +89,9 @@ Puede instalar el complemento de [!DNL Adobe Workfront for XD] usted mismo desde
 
 1. En la esquina inferior izquierda, haga clic en el icono **Complementos**.
 
-XD ![ventana de complemento de la](assets/xd-plugin-window-350x620.png)
+![Ventana del complemento de XD](assets/xd-plugin-window-350x620.png)
 
-1. En el **[!UICONTROL Panel de complementos]**, busque **[!UICONTROL Adobe Workfront XD para la aplicación de complementos]**.
+1. En el **[!UICONTROL Panel de complementos]**, busque **[!UICONTROL Adobe Workfront for XD]**.
 
 1. Continúe en la siguiente sección para obtener información sobre cómo iniciar sesión en el complemento.
 
@@ -122,4 +122,20 @@ XD ![ventana de complemento de la](assets/xd-plugin-window-350x620.png)
 
 1. Haz clic en **[!UICONTROL Permitir acceso]** para finalizar el inicio de sesión y vuelve a [!DNL Adobe XD] para ver tu trabajo.
 
- 
+### Solución de errores de inicio
+
+**Aparece el error &quot;Se produjo un error&quot; al intentar iniciar sesión**
+
+
+No puede usar una dirección URL que comience por `experience.adobe.com` para iniciar sesión en el complemento.
+
+![error de inicio de sesión](assets/plugin-log-in-error.png) ![dominio](assets/incorrect-domain.png)
+
+
+Para solucionar este problema,
+
+1. Desinstale y vuelva a instalar el complemento de Adobe Workfront para XD para borrar el dominio y el error.
+
+1. Introduzca su dominio de Workfront. El dominio debe ser `company-name.my.workfront.com` y no `experience.adobe.com`.
+
+Para buscar el dominio de Workfront si se encuentra en la experiencia unificada de Adobe, vaya a
