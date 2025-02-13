@@ -1,18 +1,18 @@
 ---
-title: Habilitar o deshabilitar el Ayudante de IA
+title: Habilitar o deshabilitar el Asistente de IA
 content-type: reference
-description: Puede controlar qué niveles de acceso de su organización tienen acceso a AI Assistant.
+description: Puede controlar qué niveles de acceso de su organización tienen acceso al asistente de IA.
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 88efd929f48ba73993a2bb503b6c3fa3420f90d2
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 1%
+source-wordcount: '258'
+ht-degree: 63%
 
 ---
 
-# Habilitar o deshabilitar el Ayudante de IA
+# Habilitar o deshabilitar el Asistente de IA
 
 Como administrador de Workfront, puede controlar qué usuarios de su organización tienen habilitado el asistente de IA. Esto se administra mediante niveles de acceso.
 
@@ -25,8 +25,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td><p>Nuevo: Cualquiera</p>
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td><p>Nuevo: cualquiera</p>
        <p>o</p>
        <p>Actual: no disponible</p></td>
   </tr> 
@@ -43,19 +43,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Habilitar o deshabilitar el Asistente de IA en Workfront
+## Habilitar o deshabilitar el asistente de IA en Workfront
 
 El Asistente de IA está habilitado de forma predeterminada.
 
 Para desactivar el Asistente de IA para un nivel de acceso determinado:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **Niveles de acceso** en el panel de navegación izquierdo.
 1. Seleccione el nivel de acceso para el que desea habilitar el asistente de IA.
-1. En la ventana Editar nivel de acceso, desplácese hacia abajo hasta la parte inferior de la ventana y haga clic en **Establecer restricciones adicionales...**.
-1. En el área Establecer restricciones adicionales, habilite la opción **Deshabilitar el Asistente de IA de Workfront**.
+1. En la ventana Editar nivel de acceso, desplácese hacia abajo hasta la parte inferior de la ventana y haga clic en **Establecer restricciones adicionales…**.
+1. En el área Establecer restricciones adicionales, habilite la opción **Deshabilitar características de IA**.
 1. Haga clic en **Guardar**.
 1. Repita los pasos del 3 al 6 para cada nivel de acceso para el que desee deshabilitar el asistente de IA.
 
+>[!NOTE]
+>
+>A medida que se añadan funciones de IA a Workfront, algunas de ellas se convertirán en fundamentales para el funcionamiento de Workfront. Es probable que la capacidad de deshabilitar todas las funciones de IA quede obsoleta en un futuro próximo.
