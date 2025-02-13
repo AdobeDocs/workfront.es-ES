@@ -6,9 +6,9 @@ description: Puede compartir el Distribuidor de cargas de trabajo con otros usua
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 14%
 
 ---
@@ -123,7 +123,7 @@ Necesita el siguiente acceso para ver información en el Distribuidor de cargas 
 
      Para obtener información sobre el filtrado en el Distribuidor de cargas de trabajo, consulte [Filtrar información en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Haga clic en el **icono de vínculo** ![](assets/wb-shearable-link-icon-small.png).
+1. Haga clic en el **icono de vínculo** ![icono de vínculo](assets/wb-shearable-link-icon-small.png).
 
    Esto agrega el vínculo al portapapeles.
 

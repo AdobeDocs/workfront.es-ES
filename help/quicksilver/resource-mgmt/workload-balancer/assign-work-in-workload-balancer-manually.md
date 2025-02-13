@@ -7,10 +7,10 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 1%
+source-wordcount: '733'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Puede asignar manualmente elementos de trabajo a los usuarios mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
 
-Para obtener información general acerca de cómo asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo, vea [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Para obtener información general acerca de cómo asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo, consulte [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Requisitos de acceso
 
@@ -31,7 +31,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Edite el acceso a lo siguiente:</p> 
+   <td> <p>Acceso de edición a los siguientes elementos:</p> 
     <ul> 
      <li>Administración de recursos</li> 
      <li>Proyectos</li> 
@@ -54,20 +54,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Permisos de Contribute o superiores para los proyectos, tareas y problemas que incluyen Realizar asignaciones</td> 
+   <td>Permisos de contribuir o superiores para los proyectos, tareas y problemas que incluyan asignar tareas</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Asignar trabajo manualmente en el Distribuidor de cargas de trabajo
+## Asignación manual de trabajo en el Distribuidor de cargas de trabajo
 
 Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o reasignar elementos que se hayan asignado a usuarios en el Distribuidor de cargas de trabajo.
 
-1. Vaya al Distribuidor de cargas de trabajo al que desea asignar el trabajo.
+1. Ir al Distribuidor de cargas de trabajo al que desea asignar el trabajo.
 
    Puede asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo en el área de Recursos, en el proyecto o en el nivel de equipo. Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo en Workfront, consulte [Localizar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -77,9 +77,9 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
 
    Vaya al área **Trabajo asignado** y expanda el nombre de un usuario para ver los elementos de trabajo asignados a él, si desea reasignar sus elementos.
 
-1. Haga clic en el **menú Más** ![](assets/qs-more-menu.png) que hay a la izquierda del nombre de un elemento de trabajo y, a continuación, haga clic en **Asignar esto a**.
+1. Haga clic en el **menú Más** ![menú Más](assets/qs-more-menu.png) que hay a la izquierda del nombre de un elemento de trabajo y, a continuación, haga clic en **Asignar esto a**.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![Asignar esto a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -90,18 +90,18 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
 
 1. Realice una de las siguientes acciones:
 
-   * Empiece a escribir el nombre de un usuario, rol o equipo que desee asignar al elemento en el campo **Buscar personas, rol o equipos**, selecciónelo cuando se muestre en la lista y, a continuación, haga clic en **Guardar**.
+   * Comience a escribir el nombre de un usuario, función laboral o equipo que desee asignar al elemento en el campo **Buscar personas, funciones o equipos**, selecciónelo cuando aparezca en la lista y luego haga clic en **Guardar**.
 
    >[!TIP]
    >
-   >Al agregar un usuario, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos.
+   >Al añadir un usuario, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos.
    >
-   >Los usuarios deben estar asociados con al menos un rol para verlo a medida que los agregue.
+   >Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
    >
    > Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![Asignaciones avanzadas](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -114,10 +114,10 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
 
    >[!TIP]
    >
-   >Puede asignar varios usuarios, roles o equipos. Solo puede asignar usuarios activos, roles y equipos.
+   >Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
    >
    >
-   >Si se asignó un usuario, un rol o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+   >Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
    >
    >   
    >   
@@ -130,14 +130,14 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
 
      Para obtener más información sobre cómo realizar asignaciones avanzadas, consulte [Crear asignaciones avanzadas](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Opcional) Haga clic en el icono **Mostrar asignaciones** ![](assets/show-allocations-icon-small.png) y, a continuación, haga clic en el menú **Más** ![](assets/qs-more-menu.png) > **Editar asignaciones**.
+1. (Opcional) Haga clic en el icono **Mostrar asignaciones** ![Mostrar asignaciones](assets/show-allocations-icon-small.png) y, a continuación, haga clic en el **menú Más** ![menú Más](assets/qs-more-menu.png) > **Editar asignaciones**.
 
    O
 
    Haga doble clic en una asignación diaria o semanal para modificar la cantidad de tiempo que se asigna al usuario al elemento de trabajo.
 
-   Para obtener información acerca de cómo modificar las asignaciones de usuarios en el Distribuidor de cargas de trabajo, consulte la sección &quot;Modificar asignaciones de usuarios&quot; en el artículo [Administrar asignaciones de usuarios en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Para obtener información sobre cómo modificar las asignaciones de usuarios en el Distribuidor de cargas de trabajo, consulte la sección “Modificar asignaciones de usuarios” en el artículo [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   Para obtener información acerca de cómo quitar asignaciones de un elemento de trabajo mediante el Distribuidor de cargas de trabajo, vea [Anular asignación de trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   Para obtener información sobre cómo eliminar asignaciones de un elemento de trabajo utilizando el Distribuidor de cargas de trabajo, consulte [Desasignar trabajo en el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
     

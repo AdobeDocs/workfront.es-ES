@@ -6,10 +6,10 @@ description: Los conjuntos de recursos son colecciones de usuarios que le ayudan
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 1%
+source-wordcount: '630'
+ht-degree: 27%
 
 ---
 
@@ -35,9 +35,9 @@ Después de crear conjuntos de recursos, puede asociarlos a proyectos o plantill
 
 Se recomienda crear los conjuntos de recursos por adelantado, asociarlos a proyectos y presupuestar los recursos antes de que comience el proyecto.
 
-Para obtener información acerca de los conjuntos de recursos, vea [Resumen de los conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+Para obtener información acerca de los conjuntos de recursos, consulte [Información general de los conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
-Para obtener información acerca de cómo crear conjuntos de recursos, vea [Crear conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+Para obtener información acerca de cómo crear conjuntos de recursos, consulte [Crear conjuntos de recursos](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Requisitos de acceso
 
@@ -50,10 +50,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td><p>Nuevo: Cualquiera</p>
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td><p>Nuevo: cualquiera</p>
        <p>o</p>
-       <p>Actual: Pro o superior</p> </td> 
+       <p>Actual: pro o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -63,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Administrar conjuntos de recursos</p> <p>Editar el acceso a Proyectos, Plantillas y Usuarios</p></td> 
+   <td> <p>Editar el acceso a la administración de recursos, que incluye el acceso a la administración de conjuntos de recursos</p> <p>Editar acceso a proyectos, plantillas y usuarios</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -72,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,14 +80,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Puede asociar conjuntos de recursos a una plantilla del mismo modo que asocia conjuntos de recursos a un proyecto. Este artículo describe cómo asociar conjuntos de recursos a proyectos.
 
-1. Vaya a un proyecto y haga clic en el icono **Más** ![](assets/more-icon.png)junto al nombre del proyecto; a continuación, haga clic en **Editar**.
+1. Vaya a un proyecto y haga clic en el icono **Más** ![Más icono](assets/more-icon.png)junto al nombre del proyecto y, a continuación, haga clic en **Editar**.
 
 1. Haga clic en **Configuración del proyecto**.
 
 1. Empiece a escribir el nombre de un conjunto de recursos en el campo **Conjuntos de recursos** y selecciónelo en la lista cuando aparezca.\
    Puede asociar varios conjuntos de recursos a un proyecto o plantilla.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Configuración del proyecto](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Haga clic en **Guardar**.
 
@@ -104,7 +104,7 @@ Puede asociar conjuntos de recursos con plantillas de la misma manera que asocia
 Para asociar conjuntos de recursos a varios proyectos de forma masiva:
 
 1. Ir a una lista de proyectos.
-1. Seleccione varios proyectos y, a continuación, haga clic en el icono **Editar** ![](assets/edit-icon.png) en la parte superior de la lista.
+1. Seleccione varios proyectos y haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) que se encuentra en la parte superior de la lista.
 
 1. Haga clic en **Configuración**.
 1. Empiece a escribir el nombre de un conjunto de recursos en el campo **Conjuntos de recursos** y selecciónelo en la lista cuando aparezca.\
@@ -112,7 +112,7 @@ Para asociar conjuntos de recursos a varios proyectos de forma masiva:
 
    >[!NOTE]
    >
-   >* Cuando edita las plantillas de forma masiva, solo aparecen en este campo los conjuntos de recursos que son comunes a todas las plantillas seleccionadas. Si las plantillas seleccionadas no tienen conjuntos de recursos compartidos, este campo está vacío. Los conjuntos de recursos que especifique aquí sobrescriben los conjuntos de recursos individuales de los proyectos o plantillas.
+   >* Cuando edita plantillas de forma masiva, solo aparecen en este campo los conjuntos de recursos que son comunes a todas las plantillas seleccionadas. Si las plantillas seleccionadas no tienen conjuntos de recursos compartidos, este campo está vacío. Los conjuntos de recursos que especifique aquí sobrescriben los conjuntos de recursos individuales de los proyectos o plantillas.
    >
    >* Cuando edita proyectos por lotes, aparece el indicador &quot;Varios valores&quot; si los proyectos seleccionados tienen diferentes conjuntos de recursos. Si agrega conjuntos de recursos de forma masiva a los proyectos, todos los conjuntos se agregarán al proyecto seleccionado y se sobrescribirán los conjuntos de recursos originales.
 
@@ -120,7 +120,7 @@ Para asociar conjuntos de recursos a varios proyectos de forma masiva:
 
 1. Haga clic en **Guardar cambios**.\
    Cuando los conjuntos de recursos están asociados a sus proyectos o a sus plantillas, puede presupuestar las asignaciones de usuarios para sus proyectos dentro del Planificador de recursos.\
-   Para obtener más información sobre el Planificador de recursos, consulte [Resumen del Planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Para obtener más información sobre el Planificador de recursos, consulte [Información general del Planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Para obtener más información sobre cómo editar proyectos en lotes, consulte la sección &quot;Editar proyectos en lotes&quot; en [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 

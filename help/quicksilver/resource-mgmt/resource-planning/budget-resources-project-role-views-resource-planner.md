@@ -6,10 +6,10 @@ description: Puede presupuestar recursos en el Planificador de recursos de Adobe
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 0%
+source-wordcount: '2127'
+ht-degree: 7%
 
 ---
 
@@ -27,9 +27,9 @@ La función principal del Planificador de recursos es presupuestar los recursos 
 
 Antes de comenzar a presupuestar información en el Planificador de recursos, consulte los siguientes artículos:
 
-* [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+* [Información general del planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 * [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-* [Información general sobre horas, ETC y costos en las vistas Proyecto y Rol del Planificador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* [Información general sobre horas, EJC y costes en las vistas Proyecto y Función del Planificador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 ## Requisitos de acceso
 
@@ -42,10 +42,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-    <td><p>Nuevo: Cualquiera</p>
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+    <td><p>Nuevo: cualquiera</p>
        <p>o</p>
-       <p>Actual: Pro o superior</p> </td> 
+       <p>Actual: pro o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -55,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros para presupuestar recursos por costo</p> <p>Editar el acceso a Proyectos y Usuarios</p></td> 
+   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros para presupuestar recursos por costo</p> <p>Editar el acceso a Proyectos y Usuarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -64,7 +64,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step1-to-resourcing}}
 
-1. Se muestra **Planificador** de forma predeterminada.
+1. Se muestra el **Planificador** de forma predeterminada.
 1. (Condicional) Seleccione la vista **Vista por proyecto**.
 1. Expanda los proyectos y las funciones del puesto para administrar la asignación del proyecto, las funciones del puesto o los usuarios.
 1. Para presupuestar la asignación para los usuarios, realice una de las siguientes acciones:
@@ -120,7 +120,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      >* El **porcentaje de disponibilidad de ETC** para los roles del usuario debe ser un número diferente al 0% para las horas disponibles para mostrar un valor en el Planificador de recursos para un rol. Si un usuario está asociado con un rol con un 0% **Porcentaje de disponibilidad de FTE**, el valor de Horas disponibles es cero para ese rol. En este caso, la función podría mostrar un **valor neto** negativo.\
      >Para obtener más información sobre el **porcentaje de disponibilidad de FTE** para los roles, consulte el artículo [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   * En la columna **BDG**, especifique manualmente una cantidad de horas presupuestadas, ETC o costo para el proyecto. Esto distribuye el número de horas presupuestadas del proyecto a cada rol dentro del proyecto. Existen los siguientes escenarios:
+   * En la columna **BDG**, especifique manualmente una cantidad de horas presupuestadas, ETC o costo para el proyecto. Esto distribuye el número de horas presupuestadas del proyecto a cada rol dentro del proyecto. Se dan los siguientes escenarios:
 
       * Si el número de horas presupuestadas del proyecto que especifica es igual a las horas planificadas del proyecto, las horas presupuestadas del rol coinciden con las horas planificadas del rol.
       * Si el número de horas presupuestadas del proyecto que especifica no coincide con las horas planificadas del proyecto, las horas presupuestadas del rol se distribuyen según el porcentaje de horas planificadas que se necesite para cada rol.\
@@ -160,10 +160,10 @@ Para obtener información sobre el acceso necesario para los recursos de presupu
 
 Para presupuestar asignaciones en el Planificador de recursos en la vista **** roles:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
 1. Haga clic en **Recursos**.
-1. Se muestra **Planificador** de forma predeterminada.
+1. Se muestra el **Planificador** de forma predeterminada.
 1. (Condicional) Seleccione la vista **Vista por rol**.
 1. Expanda los roles y los proyectos para administrar la asignación del proyecto, los roles o los usuarios.
 1. Para presupuestar la asignación para los usuarios, realice una de las siguientes acciones:
@@ -225,7 +225,7 @@ Para obtener más información acerca de cómo comprender el área de presupuest
 
 Puede presupuestar las asignaciones de sus recursos de forma masiva mediante vínculos rápidos. Los vínculos rápidos sólo están disponibles para las vistas de proyecto y de rol.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![Opciones de presupuesto automáticas](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

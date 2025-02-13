@@ -2,22 +2,22 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Ajustar fechas de presupuesto en el planificador de recursos
-description: Si observa que hay sobreasignaciones de los recursos después de haberlos presupuestado en el Planificador de recursos, puede explorar escenarios hipotéticos moviendo las horas presupuestadas, el valor de ETC o los costos a otro lapso de tiempo. En función de los resultados de estos escenarios, puede ajustar las horas presupuestadas, los jornadas completas o los costos.
+description: Si observa que hay sobreasignaciones de los recursos después de haberlos presupuestado en el Planificador de recursos, puede explorar escenarios alternativos moviendo los valores de horas presupuestadas, FTE o costes a otro lapso de tiempo. En función de los resultados de estos escenarios, puede ajustar las horas presupuestadas, el equivalente a jornadas completas o los costes.
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 1%
+source-wordcount: '515'
+ht-degree: 98%
 
 ---
 
 # Ajustar fechas de presupuesto en el Planificador de recursos
 
-Si observa que hay sobreasignaciones de los recursos después de haberlos presupuestado en el Planificador de recursos, puede explorar escenarios hipotéticos moviendo las horas presupuestadas, el valor de ETC o los costos a otro lapso de tiempo. En función de los resultados de estos escenarios, puede ajustar las horas presupuestadas, los jornadas completas o los costos.
+Si observa que hay sobreasignaciones de los recursos después de haberlos presupuestado en el Planificador de recursos, puede explorar escenarios alternativos moviendo los valores de horas presupuestadas, FTE o costes a otro lapso de tiempo. En función de los resultados de estos escenarios, puede ajustar las horas presupuestadas, el equivalente a jornadas completas o los costes.
 
-Las sobreasignaciones pueden aparecer cuando las horas presupuestadas, el valor de ETC o los costos de los recursos son superiores a las horas, el valor de ETC o los costos disponibles. Esto genera un valor neto negativo.
+Las sobreasignaciones pueden aparecer cuando el valor de horas presupuestadas, FTE o costes de los recursos son superiores a las horas disponibles, FTE o costes. Esto genera un valor neto negativo.
 
 ## Requisitos de acceso
 
@@ -30,10 +30,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-    <td><p>Nuevo: Cualquiera</p>
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+    <td><p>Nuevo: cualquiera</p>
        <p>o</p>
-       <p>Actual: Pro o superior</p> </td> 
+       <p>Actual: pro o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -43,16 +43,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Editar acceso a datos financieros, proyectos y usuarios</p></td> 
+   <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Acceso de edición a datos financieros, proyectos y usuarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administre permisos a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td> 
+   <td> <p>Permisos de administración a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,23 +62,23 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    >[!NOTE]
    >
-   >Sólo puede utilizar la opción Ajustar fechas presupuestadas cuando vea el Planificador de recursos por proyecto.
+   >Solo puede utilizar la opción Ajustar fechas de presupuesto cuando vea el Planificador de recursos por proyecto.
 
-1. Pase el ratón sobre el nombre de un proyecto y luego haga clic en el menú **Más**.
+1. Pase el puntero por encima del nombre de un proyecto y, a continuación, haga clic en el menú **Más**.
 1. Haga clic en **Ajustar fechas de presupuesto**.\
-   Se muestra la cronología de asignación del proyecto.\
-   El lapso de tiempo en el que las horas están presupuestadas actualmente se resalta en naranja si hay un conflicto de presupuestación y en azul si no hay conflictos.
+   Se muestra la escala de tiempo de asignación del proyecto.\
+   El lapso de tiempo en el que las horas están presupuestadas actualmente se resalta en naranja si hay un conflicto de presupuesto, y en azul si no hay conflictos.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![Ajustar fechas de presupuesto](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
-1. Arrastre y suelte el lapso de tiempo resaltado en otro momento para saber si no hay conflictos de presupuestos para el proyecto seleccionado. Cuando encuentra un lapso de tiempo en el que el valor neto es positivo, el lapso de tiempo resaltado cambia a azul.
-1. Haga clic en la &quot;x&quot; en la esquina superior derecha de la cronología de asignación de proyectos para cerrarla.
-1. Elimine las horas presupuestadas de la cronología existente del proyecto y agréguelas a la cronología que muestre la mayor disponibilidad.
+1. Arrastre y suelte el lapso de tiempo resaltado a otro momento para saber dónde no hay conflictos de presupuesto para el proyecto seleccionado. Cuando encuentre un lapso de tiempo en el que el valor neto sea positivo, el lapso de tiempo resaltado cambia a azul.
+1. Haga clic en la “x” de la esquina superior derecha de la escala de tiempo de asignación del proyecto para cerrarla.
+1. Elimine las horas presupuestadas de la escala de tiempo existente del proyecto y agréguelas a la escala de tiempo que muestre la mayor disponibilidad.
 1. Haga clic en **Guardar**.
-1. (Condicional y opcional) Si los períodos de tiempo sin conflictos de presupuesto están fuera de la escala de tiempo del proyecto, haga clic en el nombre del proyecto para tener acceso al mismo.
-1. (Condicional y opcional) Haga clic en **Editar proyecto** y, a continuación, edite la **Fecha planificada de inicio** o la **Fecha planificada de finalización** para modificar la escala de tiempo del proyecto para el lapso de tiempo sin conflictos de presupuestación.\
-   Para obtener más información acerca de la edición de proyectos, vea el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Condicional y opcional) Si los lapsos de tiempo sin conflictos de presupuesto están fuera de la escala de tiempo del proyecto, haga clic en el nombre del proyecto para acceder a él.
+1. (Condicional y opcional) Haga clic en **Editar proyecto** y, a continuación, modifique la **Fecha planificada de inicio** o la **Fecha planificada de finalización** para modificar la escala de tiempo del proyecto para el lapso de tiempo sin conflictos de presupuesto.\
+   Para obtener más información sobre la edición de proyectos, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. (Condicional y opcional) Haga clic en **Guardar cambios**.
-1. Vuelva al Planificador de Recursos y vuelva a introducir las horas presupuestadas, los jornadas completas o los costes en el lapso de tiempo sin conflictos de presupuesto.
+1. Vuelva al Planificador de Recursos y vuelva a introducir los valores de Horas presupuestadas, FTE o Costes en el lapso de tiempo sin conflictos de presupuesto.
 1. Haga clic en **Guardar**.

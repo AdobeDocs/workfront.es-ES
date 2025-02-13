@@ -6,10 +6,10 @@ description: Para encontrar de forma eficaz los elementos de trabajo y centrarse
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 94%
+source-wordcount: '2526'
+ht-degree: 84%
 
 ---
 
@@ -160,11 +160,11 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
 
    Para obtener información sobre el acceso al Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Haga clic en el icono **Filtro** ![](assets/filter-icon.png) en la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**.
+1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) en la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**.
 
    El cuadro Generador de filtros se muestra a la derecha. El nombre del área para la que crea el filtro se muestra en el encabezado del cuadro.
 
-   ![](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
+   ![Lista de filtros](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
 
 1. (Opcional y condicional) Si accede al Distribuidor de cargas de trabajo en el área Asignando recursos, es posible que el filtro Predeterminado predefinido ya se haya aplicado al área Trabajo asignado. Puede editar y guardar una copia del filtro predeterminado.
 
@@ -189,7 +189,7 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
 
    1. (Condicional) Si ha hecho clic en **Examinar campos**, escriba el nombre de un campo en el campo **Buscar** y selecciónelo cuando se muestre en la lista.
 
-      ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![Buscar un campo](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
       >[!TIP]
       >
@@ -204,15 +204,15 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
 
       >[!NOTE]
       >
-      > Si desea mostrar objetos de trabajo de un portafolio específico, puede aplicar el siguiente filtro: &quot;ID de Portfolio igual a &lt; nombre del portafolio >&quot;.
+      > Si desea mostrar objetos de trabajo de un portafolio específico, puede aplicar el siguiente filtro: &quot;Portfolio ID es igual a &lt; el nombre del portafolio >&quot;.
       >
-      >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+      >![Instrucción de filtro de nombre de Portfolio](assets/portfolio-name-filter-statement-wb-350x262.png)
       >
       >Para excluir proyectos en un estado de En espera, debe aplicar el siguiente filtro: &quot;Proyecto: El estado no es igual a En espera&quot;. De este modo se evita que los elementos de trabajo de los proyectos en espera se muestren en el Distribuidor de cargas de trabajo.
       >
-      >![](assets/project-status-filter-statement-wb.png)
+      >![Declaración de filtro de estado del proyecto](assets/project-status-filter-statement-wb.png)
 
-   1. (Opcional) Haga clic en el icono **Eliminar**![](assets/delete.png) para eliminar un criterio de filtro.
+   1. (Opcional) Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) para quitar un criterio de filtro.
 
 1. (Opcional) Haga clic en **Añadir filtro** para añadir otros criterios de filtro y, a continuación, repita las acciones del paso 4.
 
@@ -232,7 +232,7 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
 
 1. Haga clic en **Guardar como nuevo** para guardar el filtro y utilizarlo en el futuro.
 
-   ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
+   ![Filtrar Guardar como](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
 1. Haga clic dentro del campo **Filtro sin título** e introduzca el nombre del nuevo filtro.
 1. (Opcional) Seleccione un icono para el nuevo filtro en el menú desplegable **Icono**.
 
-   ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
+   ![Seleccionar icono](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
 1. (Opcional) Añada una descripción del filtro para indicar por qué es único. La descripción se muestra debajo del nombre del filtro en la lista de filtros.
 1. Haga clic en **Guardar**.
@@ -250,9 +250,9 @@ Puede crear un filtro desde cero o editar uno de los filtros predefinidos. Para 
 
    Para obtener información acerca de cómo aplicar filtros guardados, consulte la sección [Eliminar un filtro guardado en el Distribuidor de cargas de trabajo](#delete-a-saved-filter-in-the-workload-balancer) de este artículo.
 
-1. (Condicional) Pase el puntero por encima del **icono Filtro** ![](assets/filter-icon.png) en la esquina superior derecha de las áreas de **Trabajo sin asignar** o **Trabajo asignado** para mostrar información sobre herramientas con el nombre o el número de filtros aplicados actualmente.
+1. (Condicional) Pase el ratón sobre el **icono Filtro** ![Icono de filtro](assets/filter-icon.png) en la esquina superior derecha de las áreas de **Trabajo sin asignar** o **Trabajo asignado** para mostrar información de objeto con el nombre o el número de filtros aplicados actualmente.
 
-   ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
+   ![Icono de filtro con el nombre del filtro](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
 ## Duplicar un filtro
 
@@ -262,13 +262,13 @@ Puede duplicar y editar un filtro para crear uno nuevo.
 
    Para obtener información sobre el acceso al Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Haga clic en el icono **Filtro** ![](assets/filter-icon.png) en la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**.
+1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) en la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**.
 
    El cuadro Generador de filtros se muestra a la derecha. El nombre del área para la que crea el filtro se muestra en el encabezado del cuadro.
 
-1. Pase el puntero por encima de un filtro existente, haga clic en el menú **Más** ![](assets/more-menu.png) y luego haga clic en **Duplicar**.
+1. Pase el cursor sobre un filtro existente, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Duplicar**.
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrar más opciones de menú](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -301,18 +301,18 @@ Puede editar un filtro guardado en el Distribuidor de cargas de trabajo.
 
    Para obtener información sobre el acceso al Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Haga clic en el icono **Filtro** ![](assets/filter-icon.png) en la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**.\
+1. Haga clic en el **icono de filtro** ![icono de filtro](assets/filter-icon.png) en la esquina superior derecha de las áreas de **Trabajo sin asignar** o **Trabajo asignado**.\
    El generador de filtros se muestra a la derecha.
 
-1. Pase el puntero por encima del filtro que desee editar y haga clic en el icono **Editar** ![](assets/wb-edit-filter-icon.png).
+1. Pase el ratón sobre el filtro que quiera editar y luego haga clic en el **icono Editar filtro** ![Editar filtro](assets/wb-edit-filter-icon.png).
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrar más del menú](assets/filter-more-menu-options-wb.png)
 
 1. Realice una de las siguientes acciones:
 
    * Modifique cualquiera de las instrucciones del filtro
    * Haga clic en **Agregar filtro** para agregar nuevas instrucciones de filtro
-   * Haga clic en el icono **Eliminar** ![](assets/delete.png) para quitar las instrucciones existentes del filtro.
+   * Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) para eliminar las instrucciones de filtro existentes.
 
 1. (Opcional) Haga clic en **Aplicar**.
 
@@ -337,11 +337,11 @@ Tenga en cuenta lo siguiente antes de eliminar un filtro:
 >Cuando elimine un filtro compartido con otros, también se eliminará para ellos.
 
 1. Vaya al Distribuidor de cargas de trabajo.
-1. Haga clic en el icono **Filtro** ![](assets/filter-icon.png) en la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**.\
+1. Haga clic en el **icono Filtro** ![icono Filtro](assets/filter-icon.png) en la esquina superior derecha de las áreas de **Trabajo sin asignar** o **Trabajo asignado**.\
    El cuadro Generador de filtros se muestra a la derecha.
 
-1. Pase el puntero por encima de un filtro, a continuación, haga clic en el menú **Más** ![](assets/more-menu.png) y, por último, haga clic en **Eliminar**.
-   ![](assets/filter-more-menu-options-wb.png)
+1. Pase el cursor sobre un filtro, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y luego haga clic en **Eliminar**.
+   ![Filtrar más del menú](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -365,12 +365,12 @@ Tenga en cuenta lo siguiente al compartir filtros en el Distribuidor de cargas d
 Para compartir un filtro:
 
 1. Vaya al Distribuidor de cargas de trabajo.
-1. Haga clic en el icono **Filtro** ![](assets/filter-icon.png) en la esquina superior derecha de las áreas **Trabajo sin asignar** o **Trabajo asignado**.\
+1. Haga clic en el **icono Filtro** ![icono Filtro](assets/filter-icon.png) en la esquina superior derecha de las áreas de **Trabajo sin asignar** o **Trabajo asignado**.\
    El cuadro Generador de filtros se muestra a la derecha.
 
-1. Pase el puntero por encima de un filtro, a continuación, haga clic en el menú **Más** ![](assets/more-menu.png) y, por último, haga clic en **Compartir**.
+1. Pase el cursor sobre un filtro, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Compartir.**
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrar más del menú](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -388,7 +388,7 @@ Para compartir un filtro:
 
 1. (Opcional) Haga clic en la flecha que señala hacia la derecha junto al nombre de una entidad para editar sus permisos en el filtro y, a continuación, habilite la opción **Visualización** o **Administración**.
 
-   ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
+   ![Permisos de filtro](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. (Opcional) Habilite o deshabilite los permisos adicionales para una entidad mediante uno de los procedimientos siguientes:
 
@@ -404,7 +404,7 @@ Para compartir un filtro:
 
    Los filtros que compartió se muestran en el área **Compartido conmigo** del cuadro de filtros.
 
-   ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
+   ![Shared with me](assets/new-filters-shared-with-me-area-wb-350x236.png)
 
 <!--   
 
@@ -415,8 +415,8 @@ You can mark a filter as a favorite for quicker access to it.
 The filters that you mark as a favorite do not count towards your system Favorites list. There is no limit for how many filters you can favorite. 
 
 1. Go to the Workload Balancer
-1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
-1. Mouse over a filter, then click the **Favorite** ![](assets/favorites-icon-small.png). 
+1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
+1. Mouse over a filter, then click the **Favorite** ![Favorites icon](assets/favorites-icon-small.png). 
 (NOTE: insert screen shot here with Favorite as part of this menu - same as above ones but with Favorite)
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters

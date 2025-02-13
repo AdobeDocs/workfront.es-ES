@@ -7,10 +7,10 @@ description: Con el Planificador de recursos de Adobe Workfront puede comprender
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
-ht-degree: 1%
+source-wordcount: '2652'
+ht-degree: 7%
 
 ---
 
@@ -22,15 +22,15 @@ Con el Planificador de recursos de Adobe Workfront puede comprender fácilmente 
 >
 >No puede administrar la asignación de equipos en las tareas a las que están asignados en el Planificador de recursos.
 
-Debe cumplir los requisitos previos necesarios para utilizar completamente el Planificador de recursos. Para obtener más información sobre el Planificador de recursos, consulte [Resumen del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Debe cumplir los requisitos previos necesarios para utilizar completamente el Planificador de recursos. Para obtener más información sobre el Planificador de recursos, consulte [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![Planificador de recursos](assets/rp-project-view-all-functionality-350x117.png)
 
 Las secciones siguientes describen todas las áreas del Planificador de recursos.
 
 ## Cronología de los proyectos
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Calendario de escala de tiempo](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Para desplazarse por la cronología:
 
 ## Selección de proyecto/ rol/ vista de usuario
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![Ver por proyecto, rol o usuario](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 Puede cambiar la vista en el Planificador de recursos según cómo desee que se muestre la información.
 
@@ -92,7 +92,7 @@ Al cambiar la vista, también cambia la siguiente información:
 
 Para mostrar información precisa en el Planificador de recursos, debe cumplir un conjunto de requisitos previos. Para obtener más información sobre los requisitos previos, consulte la sección &quot;Requisitos previos para trabajar en el Planificador de recursos&quot; en el artículo [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  Para cambiar la vista en el Planificador de recursos:
 
-1. Vaya a **Planificador de recursos**.\
+1. Vaya al **Planificador de recursos**.\
    Para obtener más información sobre el acceso al Planificador de recursos, consulte la sección [Localizar el Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) en el artículo [Información general del Planificador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 1. En el menú desplegable **Ver por**, seleccione una de las siguientes vistas:
@@ -130,14 +130,14 @@ Tenga en cuenta lo siguiente al seleccionar la vista de proyecto en el Planifica
    * Desviación
    * Neto
 
-     Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+     Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Ver por rol {#view-by-role}
 
 Tenga en cuenta lo siguiente al seleccionar la vista de rol en el Planificador de recursos:
 
 * Debe tener al menos acceso de Vista a Administración de recursos y permisos de vista en proyectos para ver las funciones asociadas con esos proyectos.
-* Puede expandir cada función para mostrar una lista de proyectos y cada proyecto para mostrar una lista de usuarios que pueden desempeñar esas funciones en los proyectos.
+* Puede expandir cada función para mostrar la lista de proyectos y la lista de usuarios que pueden desempeñar esas funciones en esos proyectos.
 * El número de elementos que se muestran o que se pueden exportar desde la vista de funciones es limitado para mejorar el rendimiento.\
   Para obtener más información acerca de las limitaciones al ver el Planificador de recursos en la vista de roles, vea la sección [Limitaciones en la vista de roles](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits) en [Limitaciones de la visualización del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
 
@@ -153,7 +153,7 @@ Tenga en cuenta lo siguiente al seleccionar la vista de rol en el Planificador d
    * Desviación
    * Neto
 
-     Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+     Para obtener más información, consulte [Recursos de presupuesto en el Planificador de recursos mediante las vistas Proyecto y Función](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Ver por usuario {#view-by-user}
 
@@ -186,7 +186,7 @@ Tenga en cuenta lo siguiente al seleccionar la Vista de usuario en el Planificad
   >No puede mostrar la asignación y disponibilidad de los usuarios por coste en la vista de usuario.
 
 * Los permisos que tiene para proyectos y tareas determinan lo que se muestra bajo los nombres de los usuarios que ve en la vista de usuario.\
-  Existen los siguientes escenarios:
+  Se dan los siguientes escenarios:
 
    * Si no tiene permisos para ver los proyectos y las tareas o problemas asignados a los usuarios que se muestran en el Planificador de recursos, esos elementos se enumeran en las secciones **Elementos inaccesibles**. Las secciones **Elementos inaccesibles** reemplazan a las secciones Proyecto o Tarea en este caso.
 
@@ -194,7 +194,7 @@ Tenga en cuenta lo siguiente al seleccionar la Vista de usuario en el Planificad
    * Cuando tiene permisos para ver los proyectos, pero no las tareas o problemas de los proyectos, se muestra el nombre del proyecto y las tareas y problemas se enumeran en la sección **Elementos inaccesibles**.\
      Para obtener más información acerca de los permisos en Workfront, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![Elementos inaccesibles](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Tenga en cuenta lo siguiente al seleccionar la Vista de usuario en el Planificad
 
 ## Nombre del proyecto
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![Nombre de proyecto](assets/project-name-highlighted-resource-planner-350x445.png)
 
 Puede ver los siguientes proyectos en el Planificador de recursos:
 
@@ -232,13 +232,13 @@ Puede ver los siguientes proyectos en el Planificador de recursos:
 
 Los proyectos se enumeran en orden de prioridad en el Planificador de recursos, con el proyecto más importante en la parte superior. La prioridad se indica con un número delante del nombre del proyecto.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Prioridad de planificación del proyecto](assets/rp-planner-priority-highlighted-350x186.png)
 
 También puede habilitar una configuración para mostrar las prioridades del proyecto según sus portafolios, cuando estén asociados a un portafolio. Para obtener información sobre cómo priorizar proyectos y mostrar prioridades de portafolios en el Planificador de recursos, consulte [Priorizar proyectos en el Planificador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Nombre del rol
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![Nombre de rol](assets/role-highlighted-resource-planner-350x243.png)
 
 En el Planificador de recursos se enumeran las siguientes categorías de funciones del puesto:
 
@@ -254,7 +254,7 @@ En el Planificador de recursos se enumeran las siguientes categorías de funcion
 
 ## Nombre de usuario
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![Nombre de usuario](assets/user-highlighted-resource-planner-350x272.png)
 
 Los usuarios enumerados en las vistas Proyecto y Rol del Planificador de recursos pertenecen a los conjuntos de recursos asociados con los proyectos.\
 Para obtener más información sobre cómo rellenar conjuntos de recursos con usuarios, consulte [Asociar conjuntos de recursos con usuarios](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -310,13 +310,13 @@ Para habilitar la configuración en el Planificador de recursos:
 1. Abra el Planificador de recursos.
 1. Haga clic en el icono **Configuración**.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![Icono de configuración del Planificador de recursos](assets/rp-settings-icon-edit-1.png)
 
    Aparece el cuadro Configuración del Planificador de recursos.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![Configuración del Planificador de recursos](assets/rp-settings-without-actual-hours-350x211.png)
 
-1. Habilite la opción **Incluir horas de problemas** para mostrar las horas planificadas de problemas en el Planificador de recursos. Esta configuración está deshabilitada de forma predeterminada.
+1. Habilite la opción **Incluir horas de problemas** para mostrar las horas planificadas de problemas en el Planificador de recursos. Esta opción está desactivada de forma predeterminada.
 
    Tenga en cuenta lo siguiente al habilitar esta configuración:
 
@@ -327,7 +327,7 @@ Para habilitar la configuración en el Planificador de recursos:
      >
      >**Cuando las fechas de inicio y finalización planificadas del problema están fuera de la cronología del proyecto, las horas planificadas del problema se muestran según las fechas del problema. Por ejemplo, si la escala de tiempo del proyecto está entre enero y marzo, pero la escala de tiempo de los problemas está en agosto, las horas planificadas para los problemas aparecerán en el período de tiempo de agosto.**
 
-1. (Condicional y opcional) Si seleccionó la vista Proyecto, habilite la opción Mostrar prioridades de Portfolio para mostrar las prioridades del proyecto según el Portfolio al que estén asignadas. La prioridad de los proyectos según sus carteras se muestra junto a la prioridad Planificador de recursos. Esta configuración está deshabilitada de forma predeterminada.
+1. (Condicional y opcional) Si seleccionó la vista Proyecto, habilite la opción Mostrar prioridades de Portfolio para mostrar las prioridades del proyecto según la Portfolio a la que estén asignadas. La prioridad de los proyectos según sus carteras se muestra junto a la prioridad del Planificador de recursos. Esta opción está desactivada de forma predeterminada.
 
    Para obtener información sobre cómo priorizar proyectos en el Planificador de recursos, consulte [Priorizar proyectos en el Planificador de recursos](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
@@ -339,7 +339,7 @@ La opción para ver información en pantalla completa está disponible para toda
 
 Para mostrar el Planificador de recursos en pantalla completa:
 
-1. Vaya a **Planificador de recursos**.
+1. Vaya al **Planificador de recursos**.
 1. Haga clic en el icono **Pantalla completa** para ver el Planificador de recursos en pantalla completa.\
    ![RP_sull_screen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)\
    El Planificador de recursos se expande para ocupar toda la ventana del explorador y el icono se transforma en una opción de vista **Cerrar pantalla completa**.
@@ -348,10 +348,10 @@ Para mostrar el Planificador de recursos en pantalla completa:
 
 ## Opción Exportar
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![Botón Exportar](assets/export-button-highlighted-resource-planner-350x92.png)
 
 Puede exportar información a un archivo de Excel (.xlsx) desde cualquier vista del Planificador de recursos.\
-Para obtener información acerca de cómo exportar información desde el Planificador de recursos, vea [Exportar información desde el Planificador de recursos](../../resource-mgmt/resource-planning/export-resource-planner.md).
+Para obtener información acerca de cómo exportar información desde el Planificador de recursos, consulte [Exportar información desde el Planificador de recursos](../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 Puede administrar la cantidad de información y la visualización del archivo exportado.\
 Para obtener información sobre qué información puede exportar desde el Planificador de recursos y cómo administrar la apariencia del archivo exportado, vea [Limitaciones de presentación del Planificador de recursos](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
