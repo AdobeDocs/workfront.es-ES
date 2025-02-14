@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,22 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
+### Actualización de la interfaz para personalizar temas de notificación de eventos
+
+**Versión preliminar: 13 de febrero de 2025; a partir del 13 de febrero de 2025**
+
+Hemos actualizado el cuadro de diálogo Asunto de notificación de eventos con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver este cambio, vaya a Configuración > Correo electrónico > Notificaciones > Notificaciones de eventos > Haga clic en una notificación de evento.
+
+### Actualización de la interfaz del área de Equipos
+
+**Versión preliminar: 13 de febrero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado el área de Equipos con un diseño más moderno que es coherente con otras áreas de Workfront.
+
+Para ver la configuración, vaya a Configuración > Equipos.
+
 ### Actualización de la interfaz para la configuración del proceso de aprobación en Configuración
 
 **Versión preliminar: 6 de febrero de 2025; versión de producción: por anunciar**
@@ -34,7 +50,7 @@ Para ver la configuración, vaya a Configuración > Preferencias > Aprobaciones 
 
 ### Actualización de la interfaz del área de Aprobaciones en Configuración > Grupos
 
-**Versión preliminar: 30 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 30 de enero de 2025; versión de producción: a partir del 6 de febrero de 2025**
 
 Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en Configuración > Grupos > Aprobaciones con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -44,7 +60,7 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ### Actualización de la interfaz de la página Funciones de prueba en la configuración
 
-**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 23 de enero de 2025; versión de producción: a partir de la semana del 30 de enero de 2025**
 
 Hemos actualizado la apariencia de la página Funciones de prueba con un diseño más moderno que es coherente con otras áreas de Workfront.
 
@@ -72,7 +88,7 @@ Para ver esta página, vaya a Configuración > Correo electrónico > Notificacio
 
 ### Actualización de la interfaz de la página Invitaciones por correo electrónico en Configuración
 
-**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 23 de enero de 2025; versión de producción: a partir de la semana del 30 de enero de 2025**
 
 Hemos actualizado la página Invitaciones por correo electrónico con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -82,7 +98,7 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ### Actualizaciones de la interfaz de la página Notificaciones de eventos de un grupo
 
-**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 23 de enero de 2025; a partir del 30 de enero de 2025**
 
 Hemos actualizado la página Notificación de eventos en un grupo con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -102,7 +118,7 @@ Para ver esta página, vaya a Configuración > Correo electrónico > Notificacio
 
 ### Actualización de la interfaz para el cuadro de diálogo Agregar SharePoint
 
-**Versión preliminar: 16 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 16 de enero de 2025; a partir del 30 de enero de 2025**
 
 Hemos actualizado el cuadro de diálogo Agregar Sharepoint en Configuración > Documentos > Integración con Sharepoint con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -118,6 +134,14 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ## Agile
 
+### Página de información general sobre la actualización de interfaz para iteraciones
+
+**Versión preliminar: 13 de febrero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la página de información general de iteraciones con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver este cambio, vaya a Equipos > Elegir un equipo > Iteraciones > Elegir una iteración > Información general.
+
 ### Agregar historias y problemas a una iteración
 
 **Versión preliminar: 6 de febrero de 2025; versión de producción: por anunciar**
@@ -126,7 +150,7 @@ Hemos actualizado el cuadro de diálogo Agregar historia y Agregar problema con 
 
 Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
-Para ver este cambio, ve a Equipos > elige un equipo > Iteraciones > Elige una iteración y luego haz clic en **Nueva historia** o **Nuevo problema**.
+Para ver este cambio, vaya a Equipos > Elegir un equipo > Iteraciones > Elegir una iteración y, a continuación, haga clic en **Nueva historia** o **Nuevo problema**.
 
 ### Actualización de la interfaz del área Equipos > Registro de pendientes
 
@@ -151,7 +175,7 @@ Para ver este cambio, vaya a Equipos > seleccione un equipo > Iteraciones.
 
 ### Agregar historias y problemas del registro de pendientes
 
-**Versión preliminar: 30 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 30 de enero de 2025; a partir del 6 de febrero de 2025**
 
 Hemos actualizado el cuadro de diálogo Agregar historia y Agregar problema con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -159,11 +183,21 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 Para ver este cambio, ve a Equipos > elige un equipo > Registro de pendientes y luego haz clic en **Nueva historia** o **Nuevo problema**.
 
+## Documentos
+
+### Actualización de la interfaz del área de Aprobaciones de un documento
+
+**Versión preliminar: 13 de febrero de 2025; versión de producción: por anunciar**
+
+Hemos actualizado el área de Aprobaciones en un documento con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver este cambio, vaya a un documento > Haga clic en Detalles del documento > Aprobaciones.
+
 ## Informes y paneles
 
 ### Se ha actualizado el informe de equipo con un nuevo estilo
 
-**Versión preliminar: 30 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 30 de enero de 2025; a partir del 6 de febrero de 2025**
 
 Hemos actualizado el informe de equipo con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -174,7 +208,7 @@ Para crear un informe de Equipo, vaya a Informes > Nuevo informe > Equipo.
 
 ### Informes de correo electrónico actualizados con nuevo estilo
 
-**Versión preliminar: 23 de enero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 23 de enero de 2025; versión de producción: a partir del 6 de febrero de 2025**
 
 Hemos actualizado la interfaz de los siguientes informes de correo electrónico:
 
