@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 39%
@@ -24,7 +24,9 @@ Para obtener una lista de todos los cambios disponibles con la versión del segu
 >
 >Versión preliminar: viernes, 13 de febrero de 2025; versión de producción para todos los clientes: viernes, 13 de febrero de 2025
 
-Los correos electrónicos relacionados con la adición o el uso compartido de documentos ya no tendrán una imagen en miniatura en el cuerpo del correo electrónico. Algunos clientes también verán la tarea heredada y el correo electrónico de asignación de problemas, que solo muestra el avatar del usuario asignado.
+Los correos electrónicos relacionados con la adición o el uso compartido de documentos ya no tendrán una imagen en miniatura en el cuerpo del correo electrónico.
+
+Algunos clientes también verán la tarea heredada y el correo electrónico de asignación de problemas, que solo muestra el avatar del usuario asignado.
 
 Estos cambios son temporales a medida que investigamos los retrasos en los correos electrónicos.
 
