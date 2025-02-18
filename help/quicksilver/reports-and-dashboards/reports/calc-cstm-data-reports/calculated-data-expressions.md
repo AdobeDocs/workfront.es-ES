@@ -7,10 +7,10 @@ description: Puede utilizar expresiones de datos para definir campos de datos pe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 91%
+source-wordcount: '2433'
+ht-degree: 92%
 
 ---
 
@@ -399,7 +399,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>Devuelve el elemento en el número especificado de la matriz. Si el índice está fuera de los límites, devuelve vacío.</p> 
+   <td> <p>Devuelve el elemento en el número especificado de la matriz. Si el índice está fuera de los límites, lo devuelve vacío.</p> 
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -458,7 +458,8 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
   </tr> 
   <tr> 
    <td><strong>FORMATO</strong> </td> 
-   <td><p>Devuelve texto con formato. Las opciones de color son $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE y las demás opciones de formato son $$BOLD, $$ITALIC, $$UNDERLINE. Solo se puede utilizar una opción de color por función, junto con hasta tres opciones de formato más. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.</p>
+   <td><p>Devuelve texto con formato. Solo se permiten con FORMAT las opciones de parámetro enumeradas aquí.</p>
+   <p>Las opciones de color son $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE y las demás opciones de formato son $$BOLD, $$ITALIC, $$UNDERLINE. Solo se permite una opción de color, junto con hasta tres opciones de formato más. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.</p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 

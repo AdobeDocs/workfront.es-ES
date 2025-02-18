@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 84%
@@ -663,7 +663,7 @@ Para añadir una búsqueda externa:
 >Los siguientes elementos son limitaciones técnicas de la llamada a la API externa:
 >
 >* Número máximo de opciones: 2000 (solo se muestran las 2000 primeras opciones únicas del JSON devuelto)
->* Tiempo de espera: 3 segundos
+>* Tiempo de espera: 30 segundos
 >* Número de reintentos: 3
 >* Duración de espera entre reintentos: 500 ms
 >* Estados de respuesta esperados: 2xx
