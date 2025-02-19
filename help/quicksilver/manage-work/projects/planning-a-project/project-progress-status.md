@@ -2,23 +2,23 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Resumen del estado del progreso del proyecto
-description: Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su cronología. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Obtenga más información acerca del estado del progreso del proyecto en este artículo .
+title: Información general sobre el estado de progreso del proyecto
+description: Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su línea de tiempo. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Obtenga más información acerca del estado del progreso del proyecto en este artículo.
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '390'
+ht-degree: 95%
 
 ---
 
-# Resumen del estado del progreso del proyecto
+# Información general sobre el estado de progreso del proyecto
 
 <!--Audited: 12/2023-->
 
-Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su cronología. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Para obtener más información acerca de cómo configurar la condición del proyecto, vea el artículo [Información general sobre la condición del proyecto y el tipo de condición](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su línea de tiempo. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Para obtener más información acerca de cómo configurar la condición del proyecto, consulte el artículo [Información general sobre la condición del proyecto y el tipo de condición](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 A continuación se muestran los estados de progreso de los proyectos en Workfront:
 
@@ -32,17 +32,17 @@ A continuación se muestran los estados de progreso de los proyectos en Workfron
   </tr> 
   <tr> 
    <td>En riesgo</td> 
-   <td> El estado de progreso de un proyecto es <strong>En riesgo</strong> si <strong>todas</strong> de las siguientes opciones son verdaderas:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> Las fechas de finalización estimada y proyectada son posteriores a la fecha planificada de finalización</li><li> La fecha estimada de finalización es posterior a la fecha proyectada de finalización</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> El estado de progreso de un proyecto es <strong>En riesgo</strong> si se cumplen <strong>todas</strong> las opciones siguientes:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> La fecha estimada de finalización es posterior a la fecha planificada de finalización y a la fecha proyectada de finalización </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Rezagado</td> 
-   <td> El estado de progreso de un proyecto es <strong>Retrasado</strong> si <strong>todo</strong> de lo siguiente es verdadero:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> Las fechas de finalización estimada y proyectada son posteriores a la fecha planificada de finalización del proyecto</li><li> La fecha estimada de finalización no es posterior a la fecha proyectada de finalización</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> El estado de progreso de un proyecto es <strong>Atrasado</strong> si se cumple <strong>todo</strong> lo siguiente:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> Las fechas de finalización estimada y proyectada son posteriores a la fecha planificada de finalización del proyecto</li><li> La fecha de finalización estimada no es posterior a la fecha proyectada de finalización</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Retrasado</td> 
    <td> 
-     El estado de progreso de un proyecto es <strong>Retrasado</strong> si <strong>alguno</strong> de los siguientes es verdadero:<ul><li>El proyecto se ha completado y la fecha real de finalización es posterior a la fecha planificada de finalización <p> <img src="assets/project-late-progress-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 
-     <li> <p>El proyecto no está completo y la fecha planificada de finalización del proyecto se encuentra en el pasado <p> <img src="assets/project-late-progress-status-incomplete-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 
+     El estado de progreso de un proyecto es <strong>Retrasado</strong> si se cumple <strong>alguna</strong> de las siguientes condiciones:<ul><li>El proyecto se ha completado y la fecha real de finalización es posterior a la fecha planificada de finalización <p> <img src="assets/project-late-progress-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 
+     <li> <p>El proyecto no se ha completado y la fecha planificada de finalización del proyecto se encuentra en el pasado <p> <img src="assets/project-late-progress-status-incomplete-status-350x66.png" style="width: 350;height: 66;"> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -50,9 +50,9 @@ A continuación se muestran los estados de progreso de los proyectos en Workfron
 
 Tenga en cuenta lo siguiente:
 
-* La fecha proyectada de finalización del proyecto está controlada por la tarea en la ruta crítica con la última fecha proyectada de finalización.
-* La fecha estimada de finalización del proyecto está controlada por la tarea en la ruta crítica con la última fecha estimada de finalización.
+* La fecha de finalización proyectada del proyecto está controlada por la tarea en la ruta crítica con la última fecha proyectada de finalización.
+* La fecha de finalización estimada del proyecto está controlada por la tarea en la ruta crítica con la última fecha de finalización estimada.
 
 Para obtener información sobre la ruta crítica del proyecto, consulte [Información general sobre la ruta crítica del proyecto](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-Para obtener información acerca de las fechas de finalización proyectadas, vea [Información general sobre la fecha de finalización proyectada para proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Para obtener información acerca de las fechas de finalización proyectadas, consulte [Información general sobre la fecha de finalización proyectada para proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).

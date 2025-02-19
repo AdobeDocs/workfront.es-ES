@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
 
@@ -84,20 +84,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
   <tr>
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td>
-   <td> <p>Acceso de visualización o superior a Proyectos, Programas y Portfolio</p>  
+   <td> <p>Acceso de visualización o superior a Proyectos, Programas y Portafolios</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
    <td>
    <p>En Workfront, vea o supere los permisos de un proyecto, portafolio o programa</a> </p> 
-   <p>En Workfront Planning, vea los permisos de un área de trabajo para ver los registros conectados, Contribute o los permisos superiores de un área de trabajo para conectar o desconectar registros</a> </p>  
+   <p>En Workfront Planning, vea los permisos de un área de trabajo para ver los registros conectados o los permisos de Contribute o superior para conectar o desconectar registros</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo de Workfront Planning, incluidos los que no crearon</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>Para ver el área de Planning o la sección de Planning de un objeto de Workfront, todos los usuarios, incluidos los administradores de Workfront, deben tener asignada una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para proyectos, portafolios y programas. </p> Para obtener más información, vea <a href="/help/quicksilver/planning/access/access-overview.md">Información general sobre el acceso a Adobe Planning</a>. </p>  </p>  
+   <td> <p>Para ver el área de Planning o la sección de Planning de un objeto de Workfront, todos los usuarios, incluidos los administradores de Workfront, deben tener asignada una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para proyectos, portafolios y programas. </p> Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Información general sobre el acceso a Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ Ocurren lo siguiente:
    * El registro ya no está conectado al objeto Workfront.
    * El objeto Workfront también se quita del campo conectado del registro de Workfront Planning.
    * También se eliminan los valores de los campos de búsqueda de Workfront conectados al registro de Planning.
-1. Haga clic en **Conectar** para conectar más registros para los tipos de registros conectados. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+1. Haga clic en **Conectar** para conectar más registros para los tipos de registros conectados.
+
+   Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+1. (Opcional) Si no encuentra un registro para conectarse y desea agregarlo, haga clic en **+ Agregar** para agregar un nuevo registro. Para obtener más información, vea la sección &quot;Crear registros a medida que los conecta desde otros registros&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
    Ocurren lo siguiente:
 
@@ -204,7 +207,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 * Debe adjuntar un formulario personalizado con un campo personalizado de conexión de Planning a un objeto de Workfront que se pueda conectar desde Workfront Planning, si tiene el acceso correcto.
 * Los tipos de registros de Workfront Planning deben conectarse primero a los tipos de objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Puede conectar o desconectar registros del campo de conexión de Planning de un objeto de Workfront sólo para objetos que puedan tener conexiones de Workfront Planning.
-* Debe tener permisos de Contribute para un espacio de trabajo en Workfront Planning para poder conectar o desconectar registros del campo de conexión de Planning de un objeto de Workfront.
+* Debe tener permisos de contribución para un espacio de trabajo en Workfront Planning para poder conectar o desconectar registros del campo de conexión de Planning de un objeto de Workfront.
 * No se puede editar un campo de conexión de Planning al editar objetos de Workfront de forma masiva.
 
 ### Administrar conexiones de registro desde el tipo de campo Conexión de Planning

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 94%
 
 ---
@@ -169,7 +169,6 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
    * [Configuración de tarea](#task-settings)
    * [Configuración de problema](#issue-settings)
    * [Acceso](#access)
-   * [Carpetas vinculadas](#linked-folders-conditional-availability) (disponibilidad condicional)
    * <span class="preview">[Comment](#comment)</span>
 
 
@@ -667,22 +666,6 @@ Para obtener información sobre cómo afecta esta configuración a la creación 
    </table>
 
 1. Haga clic en **Guardar**.
-
-### Carpetas vinculadas (disponibilidad condicional) {#linked-folders}
-
-La funcionalidad de carpetas vinculadas crea automáticamente carpetas en Adobe Experience Manager Assets y las conecta a Workfront.
-
-Esta sección solo aparece si se aplican todas las condiciones siguientes:
-
-* Su organización ha migrado a Adobe Admin Console
-* Su organización ha habilitado y configurado una integración con Adobe Experience Manager
-* La plantilla empleada para crear este proyecto ha habilitado y configurado las carpetas vinculadas.
-
-Para obtener instrucciones sobre la edición de carpetas vinculadas, consulte [Editar valores de flujo de trabajo en un proyecto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) en el artículo [Usar flujos de trabajo en la integración de Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
->[!NOTE]
->
->Dado que las carpetas vinculadas se crean cuando se crea el proyecto, la edición del flujo de trabajo de carpetas vinculadas en un proyecto existente no es eficaz. La edición de estos valores al crear un proyecto funciona según lo esperado.
 
 <div class="preview">
 
