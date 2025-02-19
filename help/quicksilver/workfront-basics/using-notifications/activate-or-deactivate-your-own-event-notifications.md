@@ -7,10 +7,10 @@ description: Este artículo describe cómo administrar las notificaciones por co
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 0%
+source-wordcount: '635'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-El Adobe [!DNL Workfront] configura las notificaciones por correo electrónico que los usuarios reciben cuando se producen eventos en Workfront (como se describe en [[!UICONTROL Configuración de notificaciones de eventos] para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Su administrador de Adobe [!DNL Workfront] configura las notificaciones por correo electrónico que los usuarios reciben cuando se producen eventos en Workfront (como se describe en [[!UICONTROL Configuración de notificaciones de eventos] para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 El administrador del grupo también puede configurar qué notificaciones están activadas para usted y los usuarios de su [!UICONTROL grupo de inicio]. Si su [!UICONTROL grupo de inicio] es un subgrupo, recibirá las notificaciones activadas para el grupo de nivel superior que se encuentra por encima del grupo.
 
@@ -67,13 +67,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step1-click-profile-pic}}
 
-1. Haga clic en el icono **[!UICONTROL Más]** ![](assets/more-icon.png) junto a su nombre y luego haga clic en **[!UICONTROL Editar]**.
+1. Haga clic en el icono **[!UICONTROL Más]** ![Más icono](assets/more-icon.png) junto a su nombre y, a continuación, haga clic en **[!UICONTROL Editar]**.
 
 1. En el cuadro **[!UICONTROL Editar persona]** que aparece, vaya a la sección **[!UICONTROL Notificaciones]**.
 
 1. Haga clic en una categoría para ver la configuración de notificaciones relacionada con esa categoría.
 
-   ![](assets/my-profile-notifications.png)
+   ![Notificaciones de mi perfil](assets/my-profile-notifications.png)
 
 1. Seleccione o anule la selección de las casillas de verificación de la derecha para especificar si desea recibir o no notificaciones diariamente, al instante o ambas.
 
@@ -86,17 +86,17 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    Para la categoría **[!UICONTROL Comunicación]**, puede seleccionar notificaciones individuales solo para envío instantáneo. Para que las notificaciones se envíen en un resumen diario, debe seleccionarlas todas.
 
    Si se activan todas las notificaciones por correo electrónico de una categoría determinada, la casilla del título de la categoría aparece como seleccionada. Si todas las notificaciones por correo electrónico de una categoría determinada están desactivadas, la casilla no está seleccionada. Si algunas notificaciones están activadas y otras desactivadas, la casilla de verificación de la categoría aparece como una línea recta.\
-   Cuando modifica una configuración de notificación, aparece la etiqueta **[!UICONTROL Edited]** para esa configuración de notificación, para que sepa que esa configuración de notificación se ha modificado.
+   Cuando modifica una configuración de notificación, aparece la etiqueta **[!UICONTROL Editada]** para esa configuración de notificación, para que sepa que esa configuración de notificación se ha modificado.
 
 1. Si seleccionó las notificaciones que se enviarán como un resumen diario, seleccione la hora del día a la que desee recibirlas en la parte superior de la sección **[!UICONTROL Notificaciones]** del menú **[!UICONTROL Resumen diario de correo electrónico después de]**.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![Resumen diario elige la hora del día](assets/digest-time-stamp-my-settings-350x78.png)
 
-   El compendio diario incluye eventos que cumplen los criterios de las notificaciones 24 horas antes de la hora seleccionada. Recibirá un correo electrónico de resumen diario para cada tipo de notificación.\
+   El resumen diario incluye eventos que cumplen los criterios de las notificaciones 24 horas antes de la hora seleccionada. Recibirá un correo electrónico de resumen diario para cada tipo de notificación.\
    El resumen diario puede llegar después del tiempo seleccionado, según la cantidad de correos electrónicos en cola para su envío en el sistema. La hora indicada es la hora local según se especifica en la configuración del explorador.
 
 1. (Condicional y opcional) Al modificar la configuración de las notificaciones por correo electrónico en el entorno de vista previa, habilite la configuración **[!UICONTROL Recibir correos electrónicos de este entorno de prueba]** para recibir correos electrónicos. Los correos electrónicos no se generan automáticamente desde el entorno de vista previa.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![Recibir correos electrónicos de la zona protegida](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.

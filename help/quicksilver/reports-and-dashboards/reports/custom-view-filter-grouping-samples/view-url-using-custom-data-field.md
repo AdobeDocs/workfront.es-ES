@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: URL externa que utiliza el campo de datos personalizados"
-description: Puede mostrar un vínculo a una dirección URL personalizada interna utilizando un campo personalizado calculado denominado "Dirección URL personalizada" en una vista de tareas.
+title: 'Vista: URL externa con campo de datos personalizados'
+description: Puede mostrar un vínculo a una URL personalizada interna utilizando un campo personalizado calculado denominado “URL personalizada” en una vista de tareas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 0%
+source-wordcount: '547'
+ht-degree: 84%
 
 ---
 
-# Vista: URL externa con campo de datos personalizados
+# “Vista: URL externa que usa el campo de datos personalizados”
 
 <!--Audited: 11/2024-->
 
-Puede mostrar un vínculo a una dirección URL personalizada interna usando un **Campo personalizado calculado** denominado &quot;Dirección URL personalizada&quot; en una **vista de tareas**.
+Puede mostrar un vínculo a una URL personalizada interna usando un **Campo personalizado calculado** denominado “URL personalizada” en una **Vista de tareas**.
 
-Esto le ayuda a vincular rápidamente desde ciertos objetos de una vista a ciertas áreas de la aplicación directamente desde los informes.
+Esto le ayuda a vincular rápidamente desde ciertos objetos de una vista hasta determinadas áreas de la aplicación directamente desde los informes.
 
 Al crear un campo personalizado calculado, primero debe crear el campo y, a continuación, crear la vista.
 
-Las siguientes secciones son un ejemplo de un campo personalizado calculado para tareas. El campo personalizado se denomina Dirección URL personalizada. La vista personalizada muestra el valor del campo, así como el campo **URL** para las tareas.
+Las siguientes secciones son un ejemplo de un campo personalizado calculado para tareas. El campo personalizado se denomina URL personalizada. La vista personalizada muestra el valor del campo, así como el campo **URL** para las tareas.
 
 Con los mismos pasos, puede crear campos personalizados calculados y vistas personalizadas similares para todos los objetos del sistema que tengan un formulario personalizado.
 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -60,27 +60,27 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Cree el campo personalizado calculado &quot;URL personalizada&quot;
+## Creación del campo personalizado calculado “URL personalizada”
 
-Para obtener información acerca de cómo crear un campo personalizado calculado, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Para obtener información acerca de cómo crear un campo personalizado calculado, consulte [Añadir campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Si tiene acceso para crear un formulario personalizado, puede crear un campo personalizado calculado para las tareas denominadas &quot;URL personalizada&quot;. Este campo se vincula directamente a la subpestaña **Información general** dentro de la pestaña **Detalles de la tarea**.
+Si tiene acceso para crear un formulario personalizado, puede crear un campo personalizado calculado para las tareas denominadas “URL personalizada”. Este campo se vincula directamente a la subpestaña **Información general** en la pestaña **Detalles de la tarea**.
 
 1. Cree un campo personalizado calculado.
-1. En el campo Calculation, introduzca el siguiente código:
+1. En el campo Cálculo, introduzca el siguiente código:
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID,&quot;/overview&#39;&#39;)
 
@@ -88,18 +88,18 @@ Si tiene acceso para crear un formulario personalizado, puede crear un campo per
 
 1. Después de crear su **Campo personalizado calculado**, adjunte el **Formulario personalizado** con este campo a varias tareas de Adobe Workfront que desee mostrar en la nueva vista.
 
-## Cree la vista que muestre los campos &quot;URL personalizada&quot; y &quot;URL&quot; de la tarea
+## Crear la vista que muestra los campos “URL personalizada” y “URL” de la tarea
 
-La tarea **Vista** del ejemplo siguiente muestra el **campo personalizado calculado** denominado &quot;URL personalizada&quot; como un vínculo directo a la subpestaña **Información general** dentro de la pestaña **Detalles** de la tarea, así como el campo **URL** de la tarea.
+La tarea **Vista** del ejemplo siguiente muestra el **Campo personalizado calculado** denominado “URL personalizada” como un vínculo directo a la subpestaña **Información general** dentro de la pestaña **Detalles** de la tarea, así como el campo **URL** de la tarea.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 Para personalizar esta vista:
 
-1. Ir a una lista de tareas.
-1. Expanda la lista desplegable **Ver** situada en la parte superior de la lista de tareas.
-1. Haga clic en **Personalizar vista**.
-1. Quite todas las columnas dentro de la vista, excepto la primera columna.
+1. Vaya a una lista de tareas.
+1. Expanda la lista desplegable **Vista** en la parte superior de la lista de tareas.
+1. Pulse **Guardar vista**.
+1. Quite todas las columnas dentro de la vista, excepto la primera.
 1. Haga clic en el encabezado de la primera columna.
 1. Haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
 1. Elimine el texto del cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
@@ -146,6 +146,6 @@ Para personalizar esta vista:
    column.2.width=150
    ```
 
-   En este ejemplo, la &quot;columna.1.&quot; Las líneas muestran el valor del campo &quot;URL personalizada&quot; como un vínculo a la sección **Información general** de la tarea; &quot;columna.2.&quot; muestra el valor almacenado en el **campo URL** de la tarea.
+   En este ejemplo, &#39;column.1.&#39;  Las líneas muestran el valor del campo &quot;URL personalizada&quot; como un vínculo a la sección **Información general** de la tarea; &quot;columna.2.&quot; muestra el valor almacenado en el **campo URL** de la tarea.
 
 1. Haga clic en **Listo** > **Guardar vista**.
