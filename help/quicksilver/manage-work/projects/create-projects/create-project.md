@@ -6,9 +6,9 @@ description: Un proyecto es una gran unidad de trabajo en Adobe Workfront. Puede
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 86%
 
 ---
@@ -114,7 +114,7 @@ Puede crear un proyecto en Workfront mediante uno de los métodos siguientes:
 
   Para obtener información sobre la importación de proyectos mediante los puntapiés inicial, consulte [Escenario de Kick-Starts: preparación sencilla de importación de proyectos y tareas](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish crea una iniciativa a partir de un escenario en el Scenario Planner de Adobe Workfront.
+* Publique una iniciativa desde un escenario en Adobe Workfront Scenario Planner.
 
   El planificador de escenarios requiere una de las siguientes opciones:
 
@@ -129,7 +129,7 @@ Puede crear un proyecto en Workfront mediante uno de los métodos siguientes:
 
   Para obtener información sobre el acceso a Workfront Planning, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md).
 
-  Para obtener información acerca de cómo crear proyectos agregándolos a registros, vea la sección &quot;Crear proyectos al conectarlos con registros de Workfront Planning&quot; en el artículo [Crear objetos de Workfront desde Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Para obtener información acerca de cómo crear proyectos agregándolos a registros, vea la sección &quot;Crear proyectos al conectarlos con registros de Workfront Planning&quot; en el artículo [Crear objetos de Workfront desde Workfront Planning al conectarlos a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Requisitos previos
 

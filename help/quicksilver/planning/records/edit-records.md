@@ -6,14 +6,13 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 18%
+source-wordcount: '2156'
+ht-degree: 17%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Editar registros
 
@@ -71,7 +70,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -296,11 +295,11 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) de la primera columna. La vista previa del registro se abrirá en la vista.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![](assets/details-box.png) 
+   ![](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Opcional) Haga clic en el menú **Más** a la derecha del título del registro y, a continuación, haga clic en **Cambiar nombre**. Se actualiza el campo que se muestra como título del registro.
 
@@ -321,17 +320,17 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
    Workfront guardará automáticamente los cambios.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Opcional) Haga clic en el **indicador en tiempo real** ![](assets/real-time-indicator-icon.png) en la esquina superior derecha del cuadro de vista previa del registro y, a continuación, habilite la opción **Mostrar colaboradores** para resaltar los campos que otros están editando en tiempo real.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   En esta área se muestran los nombres y avatares de todos los usuarios que acceden al registro al mismo tiempo.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   Cuando la configuración está desactivada, los avatares y los nombres se enumeran en el área del indicador en tiempo real y los campos que se están editando no están resaltados. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Opcional) Haga clic en el menú **Exportar** ![](assets/export-icon-in-record-details-page.png) para exportar los detalles del registro. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -358,8 +357,6 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
      ![](assets/contextual-menu-for-record-row.png)
 
      Se abre la página de registro.
-
-     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -391,17 +388,17 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
    Workfront guardará automáticamente los cambios.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Opcional) Haga clic en el **indicador en tiempo real** ![](assets/real-time-indicator-icon.png) en la esquina superior derecha de la página del registro y, a continuación, habilite la opción **Mostrar colaboradores** para resaltar los campos que otros están editando en tiempo real.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   En esta área se muestran los nombres y avatares de todos los usuarios que acceden al registro al mismo tiempo.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   Cuando la configuración está desactivada, los avatares y los nombres se enumeran en el área del indicador en tiempo real y los campos que se están editando no están resaltados. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Opcional) Haga clic en el menú **Exportar** ![](assets/export-icon-in-record-details-page.png) para exportar los detalles del registro. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
 

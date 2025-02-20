@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
-ht-degree: 55%
+source-wordcount: '3082'
+ht-degree: 54%
 
 ---
 
 
 # Conectar registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para los objetos de Adobe Workfront Planning</p>   
+   <td> <p>No hay controles de nivel de acceso para los objetos de Adobe Workfront Planning</p> 
+   <p>Permite ver o permisos superiores a los tipos de objeto que desea vincular desde Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
 1. (Opcional) Añada registros al tipo de registro seleccionado añadiendo una nueva fila a la tabla. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 1. (Condicional) Después de conectar el tipo de registro seleccionado con otro tipo de registro, vaya al campo conectado de un registro y haga clic dentro del campo o haga clic en **Conectar** para agregar un registro.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Conectar otros registros en la vista de tabla](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Realice una de las siguientes acciones:
 
@@ -182,7 +183,13 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
    >
 
 1. (Condicional) Si seleccionó Uno a varios o Uno a uno para el tipo Conexión cuando conectó los tipos de registro, e intenta conectar un registro o un objeto que ya está conectado en otro lugar, recibirá una advertencia indicando que conectarlo de nuevo lo quitará de la conexión original. Haga clic en **Conectar** para permitir la eliminación y conectar el registro, o en **Cancelar** para volver al campo y seleccionar otro registro.
-1. (Opcional) Si no encuentra un registro o un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar** para agregar un nuevo registro. Para obtener más información, vea la sección &quot;Crear registros a medida que los conecta desde otros registros&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Si no encuentra un objeto para conectarse y desea agregarlo, <span class="preview">haga clic en **+ Agregar**</span>
+
+   O
+
+   Empiece a escribir un nombre para el objeto y, a continuación, haga clic en **+ Agregar** para crearlo y agregarlo.
+
+   Para obtener más información, vea la sección &quot;Crear registros a medida que los conecta desde otros registros&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
 
 1. (Condicional) Después de conectar el tipo de registro seleccionado con un tipo de objeto de Workfront, vaya al campo conectado de un registro y haga clic en el campo o haga clic en **Conectar** para agregar objetos de Workfront.
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![Conectar proyectos en la vista de tabla](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Realice una de las siguientes acciones:
 
@@ -262,7 +269,11 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
    >
    >Puede abrir la página de un registro desde la vista, hacer doble clic en el campo de registro vinculado o hacer clic en **Conectar** en el campo para agregar objetos del tipo de objeto conectado.
 
-1. (Opcional) Si no encuentra un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar** para crear y agregar un nuevo proyecto o portafolio.
+1. (Opcional) Si no encuentra un objeto para conectarse y desea agregarlo, <span class="preview">haga clic en **+ Agregar**</span>
+
+   O
+
+   Empiece a escribir un nombre para el objeto y, a continuación, haga clic en **+ Agregar** para crear y agregar un nuevo proyecto, portafolio o programa.
 
    Para obtener más información, consulte [Crear objetos de Workfront desde Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ Para conectar registros con recursos de Experience Manager:
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) para abrir la página del registro.
 1. Haga clic en la ficha **Conexiones** de la vista previa o página del registro.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Ficha Conexiones registrada en Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
    Todos los tipos de registros u objetos vinculados al tipo de registro seleccionado se muestran como secciones. Los registros u objetos conectados se muestran debajo de sus nombres de tipo de registro u objeto en las tarjetas.
 
@@ -428,7 +439,13 @@ Para conectar registros con recursos de Experience Manager:
 1. (Opcional) Haga clic en la flecha hacia abajo situada a la izquierda de una sección para contraerla.
 
 1. (Condicional) Haga clic en **Conectar** para agregar más registros u objetos del mismo tipo.
-1. (Opcional) Si no encuentra un registro o un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar** para agregar un nuevo registro. Para obtener más información, vea la sección &quot;Crear registros a medida que los conecta desde otros registros&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
+1. (Opcional) Si no encuentra un registro o un objeto para conectarse y desea agregarlo, <span class="preview">haga clic en **+ Agregar**</span>
+
+   O
+
+   Empiece a escribir un nombre para el objeto y, a continuación, haga clic en **+ Agregar** para crearlo y agregarlo al registro.
+
+   Para obtener más información, vea la sección &quot;Crear registros a medida que los conecta desde otros registros&quot; en el artículo [Crear registros](/help/quicksilver/planning/records/create-records.md).
 1. Siga los pasos descritos en las secciones anteriores para conectar registros de Workfront Planning u objetos de Workfront o Experience Manager Assets.
 Los registros y objetos se agregan inmediatamente.
 1. (Opcional) Pase el ratón sobre la tarjeta conectada de un registro u objeto y, a continuación, haga clic en el icono **Desconectar registro** ![](assets/disconnect-icon-with-tooltip.png) para desconectarlo del registro seleccionado.
