@@ -6,10 +6,10 @@ description: Puede crear paneles para acceder rápidamente a la información en 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 87%
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -83,7 +83,7 @@ Puede añadir páginas externas existentes a un panel o crear una desde el nuevo
     <tbody>
      <tr>
       <td role="rowheader"><strong>Nombre</strong></td>
-      <td><p>Este es el nombre del panel.</p><p>Si no especifica un nombre, el nombre del primer informe del panel se convierte en el nombre del panel de forma predeterminada.</p></td>
+      <td><p>Este es el nombre del tablero. Se recomienda utilizar solo caracteres UTF-8 para evitar problemas de compatibilidad.</p><p>Si no especifica un nombre, el nombre del primer informe del panel se convierte en el nombre del panel de forma predeterminada.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Descripción (opcional)</strong></td>

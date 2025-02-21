@@ -6,10 +6,10 @@ description: Puede añadir un informe a un panel nuevo o existente directamente 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '345'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-Puede añadir un informe a un panel nuevo o existente directamente desde un informe. También puede añadir un informe existente a un panel, como se describe en [Crear un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Puede añadir un informe a un panel nuevo o existente directamente desde un informe. También puede agregar un informe existente a un panel, como se describe en [Crear un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). Tenga en cuenta que puede agregar un máximo de 25 informes, calendarios o páginas externas a un solo panel.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Debe crear un informe antes de añadirlo a un panel.
 
-Para obtener información sobre cómo crear un informe, consulte [Crear un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Para obtener información sobre cómo crear un informe, consulte [Crear un informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Añadir un informe a un panel existente
 

@@ -6,10 +6,10 @@ description: Es posible modificar calendarios existentes añadiendo o eliminando
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 75%
+source-wordcount: '331'
+ht-degree: 74%
 
 ---
 
@@ -62,9 +62,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step1-to-calendars}}
 
-1. (Opcional) Para cambiar el nombre del informe de calendario, haga clic en el campo [!UICONTROL nombre de calendario] y realice los cambios que desee.
-   ![Cambiar nombre de informe](assets/titlechange-250x230.png)
-Si ha compartido el informe de calendario con otros usuarios o equipos, el nombre del calendario modificado se actualiza automáticamente en su vista de calendario.
+1. (Opcional) Para cambiar el nombre del informe de calendario, haga clic en el campo [!UICONTROL nombre de calendario] y realice los cambios que desee. Se recomienda utilizar solo caracteres UTF-8 para evitar problemas de compatibilidad.
+
+   ![Cambiar el nombre del informe](assets/titlechange-250x230.png)
+
+   Si compartió el informe de calendario con otros usuarios o equipos, el nombre del calendario modificado se actualizará automáticamente en la vista de calendario.
 
 1. (Opcional) Para añadir un proyecto al informe de calendario:
 

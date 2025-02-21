@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
 workflow-type: tm+mt
-source-wordcount: '13034'
+source-wordcount: '13007'
 ht-degree: 58%
 
 ---
@@ -1487,10 +1487,10 @@ ht-degree: 58%
       * Tipos de informes de panel de lienzo {#report-types}
          * [Información general de tipos de informes del panel de control de lienzo](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Añadir un informe existente a un panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [Generar un informe de KPI en un panel de lienzo](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Creación de un informe de gráfico en un panel de control de lienzo](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Generar un informe de tabla en un panel de control del lienzo](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Añadir un informe de aprobaciones pendientes a un panel de control de lienzo](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * Informes {#reports}
       * [Informes](reports-and-dashboards/reports/reports-overview.md)
       * Conceptos básicos de informes {#report-basics}
@@ -2062,7 +2062,7 @@ ht-degree: 58%
       * [Administrar el diseño de página de registro](planning/records/manage-the-record-page.md)
       * [Administrar registros en la sección Planificación de objetos de Adobe Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exportación de los detalles de un registro](planning/records/export-the-record-page.md)
-      * [Creación de objetos de Workfront desde Workfront Planning](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [Cree objetos de Workfront desde Workfront Planning a medida que los conecta a registros](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Creación de objetos mediante automatizaciones de registros de Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Solicitudes de Adobe Workfront Planning {#adobe-workfront-planning-requests}
       * [Solicitudes de Adobe Workfront Planning: índice de artículos](planning/requests/requests-article-index.md)
