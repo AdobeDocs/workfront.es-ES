@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: '368'
+ht-degree: 98%
 
 ---
 
@@ -27,14 +27,14 @@ Puede reactivar o desactivar un formulario personalizado. Se recomienda desactiv
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -51,23 +51,23 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Desactivar un formulario personalizado
 
-Puede desactivar los formularios personalizados que ya no utilice sin perder los datos históricos asociados. Los usuarios no pueden agregar un formulario personalizado inactivo a los objetos, pero pueden ver y agregar datos a sus campos en objetos en los que ya estaba adjunto.
+Puede desactivar los formularios personalizados que ya no utilice sin perder los datos históricos asociados. Los usuarios no pueden añadir un formulario personalizado inactivo a los objetos, pero pueden ver y añadir datos a sus campos en objetos en los que ya estaba adjunto.
 
-Los campos de un formulario personalizado inactivo también están disponibles para su edición en línea en una vista. Si un usuario agrega un campo desde un formulario personalizado inactivo durante una edición en línea, el formulario se adjunta al objeto automáticamente, aunque el formulario personalizado esté desactivado.
+Los campos de un formulario personalizado inactivo también están disponibles para su edición en línea en una vista. Si un usuario añade un campo desde un formulario personalizado inactivo durante una edición en línea, el formulario se adjunta al objeto automáticamente, aunque el formulario personalizado esté desactivado.
 
 Para desactivar un formulario personalizado:
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, elija **Forms personalizado**.
-1. En el área **Forms**, seleccione el formulario personalizado que desee desactivar.
-1. En la columna Está activo, elija **Falso** y haga clic fuera de la columna. El formulario ya no está activo.
+1. En el panel izquierdo, elija **Formularios personalizados**.
+1. En el área **Formularios**, seleccione el formulario personalizado que desee desactivar.
+1. En la columna Activo, elija **Falso** y haga clic fuera de la columna. El formulario ya no está activo.
 
 ## Reactivar un formulario personalizado
 
@@ -75,6 +75,6 @@ Si reactiva un formulario personalizado, conservará la configuración que tení
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, elija **Forms personalizado**.
-1. En el área **Forms**, seleccione el formulario personalizado que desea reactivar.
-1. En la columna Está activo, elija **Verdadero** y haga clic fuera de la columna. El formulario ahora está activo.
+1. En el panel izquierdo, elija **Formularios personalizados**.
+1. En el área **Formularios**, seleccione el formulario personalizado que desea reactivar.
+1. En la columna Activo, elija **Verdadero** y haga clic fuera de la columna. El formulario ahora está activo.
