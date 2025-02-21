@@ -6,10 +6,10 @@ description: Puede utilizar nuevas aprobaciones de documentos con revisión.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 0%
+source-wordcount: '950'
+ht-degree: 7%
 
 ---
 
@@ -34,7 +34,7 @@ Arrastre y suelte el documento en la lista de documentos.
 
    >[!NOTE]
    >
-   >Si tiene **Generar revisiones automáticamente al cargar documentos** habilitados en su perfil de usuario, el sistema crea automáticamente una revisión simple.
+   >Si tiene la opción **Generar pruebas automáticamente al cargar documentos** habilitada en su perfil de usuario, el sistema crea automáticamente una prueba simple.
 
 1. Pase el ratón sobre el documento, luego haga clic en el vínculo **Crear revisión** que aparece debajo del nombre del documento y seleccione **Revisión simple**. Debe crear una prueba sencilla, ya que no utilizará el flujo de trabajo de prueba para las aprobaciones.
 
@@ -50,19 +50,19 @@ Tiene la opción de asignar revisores, aprobadores o una combinación de ambos:
 Para asignar participantes:
 
 1. Seleccione el documento que ha cargado y abra el documento Resumen.
-   ![](assets/open-doc-summary.png)
+   ![Abrir resumen del documento](assets/open-doc-summary.png)
 
 1. Desplácese hacia abajo hasta la sección Aprobaciones y haga clic en **Agregar**.
 
 1. (Opcional) Elija una plantilla de aprobación existente. Los usuarios con una licencia Standard pueden crear plantillas de aprobación reutilizables desde el área de Configuración. Para obtener más información, consulte [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
+1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
 1. Para agregar un aprobador, haga clic en el botón Aprobador y y empiece a escribir el nombre de un usuario o equipo.
 
 1. Para agregar un revisor, haga clic en el botón Revisor y empiece a escribir el nombre de un usuario o equipo.
 
-   ![](assets/add-approvers.png)
+   ![Agregar aprobadores](assets/add-approvers.png)
 
 1. Una vez que haya agregado todos los revisores y aprobadores, haga clic en **Enviar solicitud**. Los participantes reciben notificaciones por correo electrónico.
 
@@ -77,19 +77,19 @@ Para agregar una nueva versión:
 1. Una vez que termine la carga del documento, selecciónelo y haga clic en **Crear revisión** > **Revisión simple**.
 
 1. Vuelva a seleccionar el documento y abra el documento Resumen.
-   ![](assets/open-doc-summary.png)
+   ![Abrir resumen del documento](assets/open-doc-summary.png)
 
 1. Desplácese hacia abajo hasta la sección Aprobaciones y haga clic en **Agregar**.
 
 1. (Opcional) Elija una plantilla de aprobación existente. Los usuarios con una licencia Standard pueden crear plantillas de aprobación reutilizables desde el área de Configuración. Para obtener más información, consulte [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
+1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
 1. Para agregar un aprobador, haga clic en el botón Aprobador y empiece a escribir el nombre de usuario o equipo <span class="preview">, o bien elija un aprobador de la versión anterior.</span>
 
 1. Para agregar un revisor, haga clic en el botón Revisor y empiece a escribir el nombre de un usuario o equipo <span class="preview">, o bien elija un revisor de la versión anterior. </span>
 
-   ![](assets/add-approvers.png)
+   ![Agregar aprobadores](assets/add-approvers.png)
 
 1. Una vez que haya agregado todos los revisores y aprobadores, haga clic en **Enviar solicitud**. Los participantes reciben notificaciones por correo electrónico.
 

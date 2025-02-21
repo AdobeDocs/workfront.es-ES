@@ -1,19 +1,19 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Copiar iniciativas en el planificador de escenarios
+title: Copia de iniciativas en el Planificador de escenarios
 description: Puede crear iniciativas copiando las existentes. Puede copiar iniciativas en un plan que haya creado o en un plan que alguien comparta con usted.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 1%
+source-wordcount: '500'
+ht-degree: 93%
 
 ---
 
-# Copiar iniciativas en [!DNL Scenario Planner]
+# Copia de iniciativas en el [!DNL Scenario Planner]
 
 <!--Audited: 07/2024-->
 
@@ -32,12 +32,12 @@ Puede crear iniciativas copiando las existentes. Puede copiar iniciativas en un 
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
    <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
+   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: claro o superior</p> 
+   <td> <p>Nuevo: Light o superior</p> 
    <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
@@ -68,30 +68,30 @@ Puede crear iniciativas copiando las existentes. Puede copiar iniciativas en un 
 Tenga en cuenta lo siguiente al copiar iniciativas:
 
 * Copiar una iniciativa coloca la copia en el mismo plan que la iniciativa original.
-* Al copiar una iniciativa, se copia y se añade la siguiente información de la iniciativa original a la nueva:
+* Al copiar una iniciativa se copia y se añade la siguiente información de la iniciativa original a la nueva:
 
    * [!UICONTROL Duración]
-   * [!UICONTROL Funciones del puesto]
-   * [!UICONTROL Personas] y [!UICONTROL Costos fijos]
+   * [!UICONTROL Funciones]
+   * [!UICONTROL Personas] y [!UICONTROL Costes fijos]
    * [!UICONTROL Beneficio planificado]
 
-* Copiar una iniciativa puede modificar la siguiente información para el plan, si existe en la iniciativa original:
+* Al copiar una iniciativa se puede modificar la siguiente información para el plan, si la información existe en la iniciativa original:
 
-   * Cantidad requerida de funciones del puesto
-   * [!UICONTROL Costos]
+   * Cantidad requerida de funciones
+   * [!UICONTROL Costes]
    * [!UICONTROL Utilización del plan]
-   * Utilización de funciones del puesto
+   * Utilización de funciones
    * [!UICONTROL Valor neto]
 
 * Copiar una iniciativa creada mediante la importación de un proyecto o publicada en un proyecto al menos una vez tiene las siguientes implicaciones:
 
    * No duplica el proyecto asociado con la iniciativa.
    * No conecta la iniciativa copiada al proyecto.
-   * No modifica la sección [!DNL Scenario Planner] del proyecto, para proyectos que se han publicado al menos una vez.
+   * No modifica la sección [!DNL Scenario Planner] del proyecto, para proyectos que hayan sido publicados al menos una vez.
 
-  Para obtener información acerca de cómo publicar iniciativas en proyectos, vea [Actualizar o crear proyectos mediante la publicación de iniciativas en [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  Para obtener información acerca de cómo publicar iniciativas en proyectos, consulte [Actualizar o crear proyectos mediante la publicación de iniciativas en el [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-  Para obtener información acerca de cómo crear iniciativas importando proyectos, vea [Importar proyectos a planes en [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Para obtener información acerca de cómo crear iniciativas importando proyectos, consulte [Importar proyectos a planes en el [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 ## Copiar iniciativas
 
@@ -100,9 +100,9 @@ Tenga en cuenta lo siguiente al copiar iniciativas:
 Se muestra una lista de planes.
 
 1. Haga clic en el nombre de un plan para abrirlo y, a continuación, busque las iniciativas que desee copiar.
-1. Seleccione el cuadro de la izquierda de la iniciativa o iniciativas que desee copiar y luego haga clic en **[!UICONTROL Copiar]** en el menú que aparece en la parte inferior del plan.
+1. Seleccione la casilla situada a la izquierda de la iniciativa o iniciativas que desea copiar y, a continuación, haga clic en **[!UICONTROL Copiar]** en el menú que aparece en la parte inferior del plan.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Copiar iniciativa](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] copia las iniciativas inmediatamente y las coloca debajo de la última iniciativa seleccionada.
 
@@ -116,10 +116,10 @@ Se muestra una lista de planes.
 
    >[!TIP]
    >
-   >Le recomendamos que siempre actualice el nombre de la iniciativa para evitar confusiones en caso de que desee copiarlos de nuevo.
+   >Le recomendamos que siempre actualice el nombre de la iniciativa para evitar confusiones en caso de que desee copiarlas de nuevo.
 
 1. (Opcional) Actualice la prioridad de las iniciativas recién creadas.
 
-   Para obtener información acerca de cómo priorizar iniciativas, vea [Actualizar prioridades de iniciativas en [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   Para obtener información acerca de cómo priorizar iniciativas, consulte [Actualizar prioridades de iniciativas en el [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
 
 1. Haga clic en **[!UICONTROL Guardar plan]** para guardar los cambios.

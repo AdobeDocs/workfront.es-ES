@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo controlar la reproducción en una 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '357'
+ht-degree: 99%
 
 ---
 
@@ -26,20 +26,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Responsable o superior</td> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,34 +55,34 @@ Puede ajustar la velocidad de reproducción de la prueba de vídeo. Puede selecc
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. En la esquina inferior derecha del visor de revisión, haga clic en el icono **Configuración**.
+1. En la esquina inferior derecha del visualizador de corrección, haga clic en el icono **Configuración**.
 
    ![phq_viewer_video_playbackspeed__2_.png](assets/phq-viewer-video-playbackspeed--2-.png)
 
 1. Haga clic en la velocidad actual y seleccione una nueva velocidad de reproducción.
 1. Haz clic en el botón **Reproducir** del vídeo para probar la nueva velocidad.
 
-## Ver vídeo cuadro por cuadro
+## Ver vídeo fotograma a fotograma
 
 Para obtener una vista más detallada de la prueba de vídeo, puede revisar manualmente el vídeo fotograma a fotograma.
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
+1. Busque la prueba que necesita y haga clic en **Abrir prueba**.
 
-1. En la parte inferior del visor de revisión, haga clic en las flechas **Adelante** y **Atrás** para revisar el vídeo cuadro por cuadro.
+1. En la parte inferior del visualizador de revisión, haga clic en las flechas **Forward** y **Back** para revisar el vídeo fotograma a fotograma.
 
-   ![](assets/frame-.png)
+   ![Cuadro](assets/frame-.png)
 
 ## Cambiar el volumen de reproducción
 
 Puede controlar el volumen en la reproducción del vídeo.
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
+1. Busque la prueba que necesita y haga clic en **Abrir prueba**.
 
-1. En la esquina inferior derecha del visor de revisión, pase el ratón sobre el icono **Volumen** y, a continuación, arrastre el control deslizante para seleccionar un nuevo volumen.
+1. En la esquina inferior derecha del visualizador de revisión, pase el ratón sobre el icono **Volumen** y, a continuación, arrastre el control deslizante para seleccionar un nuevo volumen.
 
-   ![](assets/phq-viewer-volume.png)
+   ![Volumen](assets/phq-viewer-volume.png)
 
    O
 

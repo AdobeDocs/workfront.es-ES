@@ -6,10 +6,10 @@ description: Puede actualizar la información de las metas individuales accedien
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 1%
+source-wordcount: '642'
+ht-degree: 30%
 
 ---
 
@@ -38,22 +38,22 @@ Debe tener lo siguiente:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -63,24 +63,24 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso*</td>
- <td> <p>Editar acceso a Objetivos</p> </td>
+ <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -98,7 +98,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 ### Update goals in the Goal Details panel in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -108,7 +108,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 1. Click the name of a goal in the Goal List, then click the name of a goal.
 
    This opens the Goal Details panel on the right.
-   ![](assets/goal-details-summary-tab-350x294.png)
+   ![Goal details summary](assets/goal-details-summary-tab-350x294.png)
 
    >[!TIP]
    >
@@ -120,7 +120,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >The Check-in and Pulse sections have been removed from the Preview environment.
    >
 
-1. On the Summary tab, click the **More icon** ![](assets/more-icon.png), then click any of the following options:
+1. On the Summary tab, click the **More icon** ![More icon](assets/more-icon.png), then click any of the following options:
 
    1. **Edit**. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
    1. **Copy**. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
@@ -159,7 +159,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Click the **Updates** tab. Here, you can view goal comments and review the entire editing history of the goal, activities, and results, to understand who changed what and when.
 
-   ![](assets/goal-details-updates-tab-350x280.png)
+   ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
 1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
 
@@ -171,7 +171,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. (Optional) Click **Details** under a progress or an editing history update to display additional information about the update.
 
-   ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
+   ![Details in update tab](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
 
 -->
 
@@ -181,9 +181,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    Se abre la sección **Detalles de la meta** a la izquierda.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Página de metas](assets/goal-page-unshimmed.png)
 
-1. Haz clic en el **icono Editar** ![](assets/edit-icon.png) en la esquina superior derecha y, a continuación, haz clic en **Editar todo** o **Información general**
+1. Haz clic en el **icono Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha y, a continuación, haz clic en **Editar todo** o **Información general**
 
    O
 

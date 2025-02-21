@@ -1,19 +1,19 @@
 ---
 product-area: documents;setup
 navigation-topic: review-a-proof
-title: Configurar ajustes del visor de revisión
+title: Configurar ajustes del visor de corrección
 description: Puede establecer la configuración tanto para el Visor de revisión web como para el Visor de revisión de escritorio.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 0%
+source-wordcount: '1424'
+ht-degree: 50%
 
 ---
 
-# Configurar ajustes del visor de revisión
+# Configurar ajustes del visor de corrección
 
 Puede configurar las siguientes opciones tanto para el Visor de revisión web como para el Visor de revisión de escritorio:
 
@@ -51,20 +51,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Responsable o superior</td> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,20 +73,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-## Configurar ajustes del visor de revisión
+## Configurar ajustes del visor de corrección
 
 Para configurar el visor de revisiones:
 
 1. Abra el Visor de corrección web o el Visor de corrección de escritorio de una de las siguientes maneras:
 
    * Si realiza la revisión en Adobe Workfront, vaya a la lista de documentos que contiene la revisión que desea ver, pase el ratón sobre el documento y haga clic en **Abrir revisión**.
-   * Si usa Workfront Proof, haga clic en el icono **Ir a la revisión** para la revisión en el panel o en una lista de vistas ![](assets/go-to-proof-blue-icon.png).
+   * Si usa Workfront Proof, haga clic en el icono **Ir a la prueba** para la prueba en el panel o en una lista de vistas ![Ir a la prueba](assets/go-to-proof-blue-icon.png).
 
-1. Si no aparece la barra de herramientas izquierda, haga clic en el icono **Menú**, que se encuentra en la esquina superior izquierda del Visor de revisión web.
+1. Si no aparece la barra de herramientas izquierda, haga clic en el icono **Menú**, que se encuentra en la esquina superior izquierda del Visor de corrección web.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![Icono de menú](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. En la barra de herramientas izquierda, haga clic en el icono **Configuración** ![](assets/settings-icon-in-pv.png).
+1. En la barra de herramientas izquierda, haga clic en el icono **Configuración** ![Icono Configuración](assets/settings-icon-in-pv.png).
 
 1. Configure cualquiera de las **configuraciones** que se muestran a continuación.
 
@@ -104,7 +104,7 @@ Para configurar el visor de revisiones:
 
      Esta configuración está vigente para todas las pruebas que abra.
 
-   * **Enviarme notificaciones por correo electrónico acerca de** (siempre disponible en el Visor de revisión web y en el Visor de revisión de escritorio): haz clic en una de las opciones siguientes. Esta configuración solo afecta a la prueba que haya abierto. Para obtener más información, consulte [Notificaciones para comentarios de prueba y descripción general de decisiones](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **Enviarme notificaciones por correo electrónico acerca de** (siempre disponible en el Visor de revisión web y en el Visor de revisión de escritorio): haz clic en una de las opciones siguientes. Esta configuración solo afecta a la prueba que haya abierto. Para obtener más información, consulte [Información general sobre notificaciones para comentarios y decisiones sobre pruebas.](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,31 +112,31 @@ Para configurar el visor de revisiones:
       <tbody> 
        <tr> 
         <td role="rowheader">Toda la actividad</td> 
-        <td>Workfront envía un correo electrónico al revisor cada vez que se produce alguna actividad en la prueba, como un nuevo comentario, una respuesta o una decisión. <p>Esta es una buena opción para la persona que administra el proceso de revisión porque le permite ver la actividad a medida que se produce. </p><p>Los usuarios no reciben una alerta por correo electrónico sobre su propia actividad.</p></td> 
+        <td>Workfront envía un correo electrónico al revisor cada vez que se produce alguna actividad en la prueba, como un nuevo comentario, una respuesta o una decisión. <p>Es una buena opción para la persona que administra el proceso de revisión porque le permite ver la actividad a medida que ocurre. </p><p>Los usuarios no reciben una alerta por correo electrónico sobre su propia actividad.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Respuestas a mis comentarios</td> 
-        <td>Se envía un correo electrónico al revisor únicamente si alguien responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si alguien en la prueba hace un nuevo comentario, no se notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, de modo que no se les notifique ningún otro comentario sobre la prueba y solo se les notifique de las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden ver todos los comentarios de la prueba en el visor de revisión.</p><p>Para obtener información acerca de los comentarios, vea <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
+        <td>Se envía un correo electrónico al revisor únicamente si una persona responde explícitamente a su comentario (esto excluye sus propias respuestas a sus propios comentarios). Esto significa que si una persona en la prueba hace un nuevo comentario, no se le notifica al revisor.<p>Se recomienda esta configuración para los clientes de la prueba, para que no se les notifique ningún otro comentario en la prueba y solo se les notifique las respuestas a sus propios comentarios.</p><p>Aunque no se notifica a los revisores con esta configuración de alerta por correo electrónico de otros comentarios nuevos, pueden seguir viendo todos los comentarios de la prueba en el visor de corrección.</p><p>Para obtener información acerca de los comentarios, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Ver y responder a los comentarios de revisión</a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisiones</td> 
-        <td>Workfront envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyectos) y necesita supervisar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td> 
+        <td>Workfront envía un correo electrónico al revisor únicamente cuando alguien toma una decisión.<p>Esto puede resultar útil para la persona que administra el proceso de aprobación (como un administrador de proyecto) y necesita supervisar el progreso de la prueba y ver qué usuarios han tomado su decisión.</p><p>No se le notificará su propia decisión a menos que seleccione una opción de confirmación por correo electrónico al enviar su decisión.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Decisión final</td> 
-        <td>Workfront envía un mensaje de correo electrónico cuando el último aprobador de la prueba ha tomado una decisión.<p>Esta alerta la suele utilizar el diseñador, que no suele tener que participar en la discusión de revisión real. Cuando se toma la decisión final, se notifica al diseñador y luego se puede tomar medidas sobre los cambios necesarios.</p><p>Esta alerta también puede ser útil para un jefe de departamento al que sólo se debe notificar cuando haya finalizado el proceso de revisión.</p></td> 
+        <td>Workfront envía un mensaje de correo electrónico cuando el último aprobador de la prueba ha tomado una decisión.<p>Esta alerta la suele utilizar el diseñador, que no suele tener que participar en la discusión de revisión real. Cuando se toma la decisión final, se notifica al diseñador y, a continuación se pueden tomar medidas sobre los cambios necesarios.</p><p>Esta alerta también puede ser útil para un jefe de departamento al que solo se debe notificar cuando haya finalizado el proceso de revisión.</p></td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Resumen por hora</td> 
-        <td>Workfront envía un correo electrónico al revisor cada hora con un resumen de todos los comentarios, respuestas y decisiones que se han producido en la hora.<p>El correo electrónico se envía únicamente cuando se produce una actividad distinta de la suya en las últimas horas. </p><p>Esta alerta es una buena manera de ver una descripción general del proyecto.</p><p>Un ejemplo de uso de este resumen es un revisor sénior que necesita una visión general del proyecto, pero no necesita que se le notifique inmediatamente de toda la actividad de la prueba.</p></td> 
+        <td role="rowheader">Resumen por horas</td> 
+        <td>Workfront envía un correo electrónico al revisor cada hora con un resumen de todos los comentarios, respuestas y decisiones que se han producido en la hora.<p>El correo electrónico se envía únicamente cuando se produce una actividad distinta de la suya en la última hora. </p><p>Esta alerta es una buena manera de ver una descripción general del proyecto.</p><p>Un ejemplo de uso de este resumen es un revisor sénior que necesita una visión general del proyecto, pero no necesita que se le notifique inmediatamente de toda la actividad de la prueba.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Resumen diario</td> 
-        <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones sobre pruebas</a>.</p></td> 
+        <td>Workfront envía un correo electrónico con todos los comentarios, respuestas y decisiones enumerados solo los días en que hay actividad aparte de la suya propia.<p>Esta alerta es una buena manera de ver un resumen del proyecto sin verse abrumado por múltiples actualizaciones a lo largo del día.</p><p>Un ejemplo de uso de este resumen es un jefe de departamento que desea supervisar el progreso general del proyecto.</p><p>Para obtener más información, consulte <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Administrar notificaciones para comentarios y decisiones de la prueba</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
-        <td role="rowheader">Sin correo electrónico</td> 
-        <td>Workfront no envía alertas por correo electrónico.<br>Esto es útil para una persona que se agrega a una prueba solamente con fines de referencia y no necesita ser notificada de ningún cambio.<p>El valor predeterminado del sistema es Resumen diario (también se ve como No configurado). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
+        <td role="rowheader">No hay correo electrónico</td> 
+        <td>Workfront no envía alertas por correo electrónico.<br>Esto es útil para una persona que se añade a una prueba solamente como referencia y no necesita que se le notifique de ningún cambio.<p>El valor predeterminado del sistema es Resumen diario (también se visualiza como no configurado). Si usted o los revisores no realizan ningún otro cambio, todas las pruebas tienen esta configuración.</p></td> 
        </tr> 
       </tbody> 
      </table>

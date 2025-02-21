@@ -6,10 +6,10 @@ description: Puede medir un área dentro de una prueba.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 1%
+source-wordcount: '357'
+ht-degree: 98%
 
 ---
 
@@ -28,20 +28,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Responsable o superior</td> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,32 +55,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. Haga clic en el icono **Medir un área** en la parte superior del visor de revisión.
+1. Haga clic en el icono **Medir un área** en la parte superior del visor de corrección.
 
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
-1. (Opcional) Haga clic en **Color de marcado de medición** para expandir las opciones de color y, a continuación, haga clic en un color y en **Opacidad** que sean fáciles de ver en la revisión.\
-   ![](assets/selection-color-350x330.png)
+1. (Opcional) Haga clic en **Color de marcado de la medición** para expandir las opciones de color y, a continuación, haga clic en un color y en una **Opacidad** que sean fáciles de ver en la revisión.\
+   ![Color de selección](assets/selection-color-350x330.png)
 
    El color predeterminado de la herramienta de medición es el rojo.
 
-   El visor de pruebas recuerda las selecciones de color y opacidad de todas las pruebas que abra hasta que borre la memoria caché del explorador.
+   El visor de corrección recuerda las selecciones de color y opacidad de todas las revisiones que abra hasta que borre la memoria caché del explorador.
 
-1. (Opcional) Seleccione una **unidad de medida diferente.**
+1. (Opcional) Seleccione una **unidad de medida** diferente.
 
    >[!NOTE]
    >
-   >Las opciones de Unidad de medida solo están disponibles para pruebas creadas a partir de un PDF.
+   >Las opciones de la unidad de medida solo están disponibles para revisiones creadas a partir de un PDF.
 
-1. Arrastre la ventana de medición hasta el área de la prueba que debe medir.
+1. Arrastre la ventana de medición hasta el área de la revisión que debe medir.
 
-   ![Herramienta_medida_cuando_aparece_por_primera_vez.png](assets/measurement-tool-when-first-appears-350x143.png)
+   ![Measurement_tool_when_first_appears.png](assets/measurement-tool-when-first-appears-350x143.png)
 
-1. Arrastre las esquinas o los bordes de la ventana de medición para cambiar su tamaño.
-1. (Opcional) Si necesita que el área de medida sea un tamaño exacto, escriba **Tamaño de selección** valores.
-1. (Opcional) Si necesita medir un determinado porcentaje dentro de un área, marque la casilla calcular porcentaje. Aparece una nueva casilla que le permite ajustarla\
-   ![](assets/calculate-percentage-350x230.png)
+1. Arrastre las esquinas o los bordes de la ventana de medición para modificar su tamaño.
+1. (Opcional) Si necesita que el área de medición tenga un tamaño exacto, escriba los valores del **Tamaño de selección**.
+1. (Opcional) Si necesita medir un determinado porcentaje dentro de un área, marque la casilla calcular porcentaje. Aparece una nueva casilla que le permite ajustarlo\
+   ![Calcular porcentaje](assets/calculate-percentage-350x230.png)
 
-1. Haga clic en el icono **Medir un área** en la parte superior del visor de revisión para descartar la herramienta cuando haya terminado.
+1. Haga clic en el icono **Medir un área** en la parte superior del visor de corrección para descartar la herramienta cuando haya terminado.
 
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)

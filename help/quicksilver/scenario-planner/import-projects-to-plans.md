@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Importar proyectos a planes en el Scenario Planner
+title: Importación de proyectos a planes en el Planificador de escenarios
 description: Puede importar proyectos existentes en un plan. Los proyectos importados se convierten en iniciativas y puede administrarlos dentro del plan como lo haría con una nueva iniciativa. El proyecto original sigue estando vinculado a la nueva iniciativa.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 0%
+source-wordcount: '1710'
+ht-degree: 6%
 
 ---
 
@@ -39,12 +39,12 @@ Puede importar proyectos existentes en un plan. Los proyectos importados se conv
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
    <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
+   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: claro o superior</p> 
+   <td> <p>Nuevo: Light o superior</p> 
    <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
@@ -114,11 +114,11 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
   </tr> 
   <tr> 
    <td>Funciones del puesto asignadas a tareas y problemas</td> 
-   <td> <p>Funciones del puesto de la iniciativa. </p> <p>Nota:   <p>Si un usuario cambia de función durante la duración del proyecto, las funciones que se importan dependen del estado de la asignación al importar el proyecto. Existen los siguientes escenarios:</p> 
+   <td> <p>Funciones del puesto de la iniciativa. </p> <p>Nota:   <p>Si un usuario cambia de función durante la duración del proyecto, las funciones que se importan dependen del estado de la asignación al importar el proyecto. Se dan los siguientes escenarios:</p> 
      <ul> 
       <li> <p>Si un usuario asignado a una tarea o un problema cambió su rol después de marcar su asignación como [!UICONTROL Listo], [!DNL Workfront] importa a la iniciativa el rol que el usuario cumplió antes de marcar la asignación como [!UICONTROL Listo].</p> </li> 
       <li> <p>Si un usuario asignado a una tarea o un problema cambió el rol durante la duración del proyecto pero su asignación en la tarea o el problema no se marca como [!UICONTROL Listo] al importar el proyecto, [!DNL Workfront] importa solamente el rol actual del usuario asignado. </p> </li> 
-     </ul> <p>Para obtener información acerca del estado de una asignación, vea "Estado de asignación" en <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glosario de terminología del Adobe [!DNL Workfront]</a>. </p> </p> </td> 
+     </ul> <p>Para obtener información sobre el estado de una asignación, consulte "Estado de asignación" en <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glosario de terminología de Adobe [!DNL Workfront]</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Proyecto [!UICONTROL Horas planificadas] asociado con roles asignados a tareas o problemas</td> 
@@ -164,7 +164,7 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
 
    Se muestra el cuadro [!UICONTROL Importar proyectos]. Los proyectos que tienen fechas incluidas en el lapso de tiempo del plan se muestran en una lista.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![Importar proyectos](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Filtro]** ![](assets/filter-nwepng.png)y seleccione un filtro disponible en la lista para reducir la cantidad de proyectos que hay en ella. De forma predeterminada, la lista de proyectos se filtra mediante el filtro de proyectos seleccionado actualmente por el usuario en una lista de proyectos.
+1. (Opcional) Haga clic en el **[!UICONTROL icono Filtro]** ![Icono Filtro](assets/filter-nwepng.png)y seleccione un filtro disponible de la lista para reducir la cantidad de proyectos en la lista. De forma predeterminada, la lista de proyectos se filtra mediante el filtro de proyectos seleccionado actualmente por el usuario en una lista de proyectos.
 
-1. (Opcional) Haga clic en el **[!UICONTROL icono de búsqueda]** ![](assets/search-icon.png) y agregue una palabra clave que se muestre en cualquier campo de la pantalla. Los elementos que contienen la palabra de búsqueda se muestran automáticamente en la lista y todos los elementos están ocultos.
+1. (Opcional) Haga clic en el **[!UICONTROL icono de búsqueda]** ![icono de búsqueda](assets/search-icon.png) y agregue una palabra clave que se muestre en cualquier campo de la pantalla. Los elementos que contienen la palabra de búsqueda se muestran automáticamente en la lista y todos los elementos están ocultos.
 
 1. (Condicional) Haga clic en el icono **[!UICONTROL X]** para quitar la búsqueda y mostrar todos los proyectos.
 1. Seleccione hasta 100 proyectos y haga clic en **[!UICONTROL Importar]**.
@@ -185,10 +185,10 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
 
    Observe lo siguiente:
 
-   * Aparece un icono de proyecto ![](assets/project-icon-sp.png) a la derecha del nombre de la iniciativa.
+   * Aparece un icono de proyecto ![Icono de proyecto](assets/project-icon-sp.png) a la derecha del nombre de la iniciativa.
    * Si la cronología del proyecto supera la duración del plan, la barra de la iniciativa finaliza con un margen apuntado a la izquierda (cuando la fecha de inicio es anterior a la fecha del plan) o a la derecha (cuando la fecha de finalización es posterior a la fecha del plan).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![Barra de proyecto anterior a la fecha de inicio](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * El número de meses y las funciones del puesto se han actualizado para que coincidan con las del proyecto.
 
@@ -198,7 +198,7 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
 
 1. Haga clic en la barra que representa la nueva iniciativa para abrir el panel de detalles de la iniciativa a la derecha.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![Duración de la iniciativa](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    En el área **[!UICONTROL Duración de la iniciativa]**, revise la siguiente información:
 
@@ -211,11 +211,11 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
       <td>Esta es la duración de la iniciativa en meses. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Iniciativa]</td> 
+      <td role="rowheader">[!UICONTROL Initiative]</td> 
       <td>Las fechas de inicio y finalización de la iniciativa. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Proyecto]</td> 
+      <td role="rowheader">[!UICONTROL Project]</td> 
       <td> <p>[!UICONTROL Fecha planificada de inicio] y [!UICONTROL Fechas de finalización] del proyecto vinculado.</p> <p>Sugerencia: si falta la información de [!UICONTROL Project], se ha eliminado el proyecto.</p> </td> 
      </tr> 
     </tbody> 
@@ -234,4 +234,4 @@ Al importar un proyecto en un plan, parte de la información del proyecto tambi�
 1. (Opcional) Para actualizar los cambios realizados en la iniciativa al proyecto desde el que se importó, publique el proyecto desde el plan. Para obtener información acerca de los planes de publicación, vea [Actualizar o crear proyectos mediante iniciativas de publicación en [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 1. (Opcional) Haga clic en el icono del proyecto para acceder al proyecto vinculado.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![Icono del proyecto en la iniciativa](assets/project-icon-on-initiative-highlighted-350x49.png)

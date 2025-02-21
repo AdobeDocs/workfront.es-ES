@@ -2,21 +2,21 @@
 product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Alinear metas convirtiendo resultados y actividades en metas
-description: Puede alinear manualmente dos metas o convertir los resultados y las actividades de una meta existente en otra meta. El resultado o la actividad convertidos se convierten en el objetivo secundario del objetivo original. Para obtener información sobre cómo alinear manualmente dos metas, consulte Alinear metas conectándolas en Adobe Workfront Goals.
+description: Puede alinear manualmente dos metas o convertir los resultados y las actividades de una meta existente en otra meta. El resultado o actividad convertido se transforma en la meta secundaria de la meta original. Para obtener información sobre cómo alinear manualmente dos metas, consulte Alinear metas conectándolas en Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 94%
 
 ---
 
 # Alinear metas convirtiendo resultados y actividades en metas
 
-Puede alinear manualmente dos metas o convertir los resultados y las actividades de una meta existente en otra meta. El resultado o la actividad convertidos se convierten en el objetivo secundario del objetivo original.
-Para obtener información acerca de cómo alinear manualmente dos metas, vea [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+Puede alinear manualmente dos metas o convertir los resultados y las actividades de una meta existente en otra meta. El resultado o actividad convertido se transforma en la meta secundaria de la meta original. 
+Para obtener información acerca de cómo alinear manualmente dos metas, consulte [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Requisitos de acceso
 
@@ -28,7 +28,7 @@ Para obtener información acerca de cómo alinear manualmente dos metas, vea [Al
 </col>
 <tbody>
  <tr>
- <td role="rowheader">plan de Adobe Workfront</td>
+ <td role="rowheader">Plan de Adobe Workfront</td>
  <td>
  <p>Cualquiera</p>
 
@@ -37,9 +37,9 @@ Para obtener información acerca de cómo alinear manualmente dos metas, vea [Al
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -49,24 +49,24 @@ Para obtener información acerca de cómo alinear manualmente dos metas, vea [Al
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
- <td> <p>Editar acceso a Objetivos</p> </td>
+ <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -76,7 +76,7 @@ Para obtener información acerca de cómo alinear manualmente dos metas, vea [Al
 
 ## Requisitos previos
 
-Debe tener lo siguiente para poder iniciar:
+Debe tener lo siguiente para poder comenzar:
 
 * Una meta existente con resultados y actividades existentes.
 
@@ -84,15 +84,15 @@ Debe tener lo siguiente para poder iniciar:
 
 >[!IMPORTANT]
 >
->Una meta puede tener hasta 1000 indicadores de progreso.
+>Una meta puede tener hasta 1 000 indicadores de progreso.
 
 <!--drafted for goal redesign: At PRODUCTION: update the sentence above to remove Production/ Preview references-->
 
-## Consideraciones al convertir resultados y actividades en objetivos
+## Consideraciones al convertir resultados y actividades en metas
 
-A veces, un resultado o una actividad pueden tener un ámbito más amplio de lo previsto y tendría más sentido que se convirtieran en objetivos. Puede convertir los resultados y las actividades de una meta existente en una nueva meta. Se trata de un enfoque ascendente para alinear los objetivos.
+A veces, un resultado o una actividad pueden tener un ámbito más amplio de lo previsto y sería más lógico que se convirtieran en metas. Puede convertir los resultados y las actividades de una meta existente en una nueva meta. Se trata de un enfoque ascendente para alinear las metas.
 
-Tenga en cuenta lo siguiente al convertir resultados y actividades en objetivos:
+Tenga en cuenta lo siguiente al convertir resultados y actividades en metas:
 
 * El resultado o la actividad convertidos pasan a ser la meta secundaria de la original y las dos se alinean.
 * La meta recién creada se convierte en el único indicador de progreso para la original, si no hay más resultados o actividades en ella. Debe agregar resultados y actividades a la meta secundaria para poder rastrear el progreso en ella.
@@ -109,9 +109,9 @@ Tenga en cuenta lo siguiente al convertir resultados y actividades en objetivos:
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,17 +120,17 @@ Tenga en cuenta lo siguiente al convertir resultados y actividades en objetivos:
 
 1. Vaya a una meta que tenga un resultado o a una actividad que desee convertir en una meta.
 1. En la página de la meta, haga clic en **Indicadores de progreso** en el panel izquierdo.
-1. Seleccione un resultado o una actividad en la lista de indicadores de progreso y, a continuación, haga clic en el icono **Convertir en objetivo** ![](assets/convert-to-goal-icon-unshimmed.png) en la parte superior de la lista de indicadores de progreso. Se abrirá el cuadro Convertir en meta.
+1. Seleccione un resultado o una actividad en la lista de indicadores de progreso y, a continuación, haga clic en el icono **Convertir en meta** ![Convertir en meta](assets/convert-to-goal-icon-unshimmed.png) en la parte superior de la lista de indicadores de progreso. Se abre el cuadro Convertir en meta.
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![Convertir en cuadro de metas](assets/convert-to-goal-box-unshimmed.png)
 1. Actualice la siguiente información:
-   * **Nombre de la meta**: De forma predeterminada, la nueva meta tiene el mismo nombre que el resultado o actividad original.
-   * **Periodo**: De manera predeterminada, el periodo de la nueva meta es el trimestre actual. Puede seleccionar la configuración **Habilitar fechas personalizadas** para definir un período de tiempo personalizado para la nueva meta.
+   * **Nombre de la meta**: de forma predeterminada, la nueva meta tiene el mismo nombre que el resultado o actividad original.
+   * **Período**: de manera predeterminada, el período de la nueva meta es el trimestre actual. Puede seleccionar la configuración **Habilitar fechas personalizadas** para definir un período de tiempo personalizado para la nueva meta.
    * **Propietario de la meta**: de forma predeterminada, el nuevo propietario de la meta es el propietario de la actividad o el resultado original.
-   * **Descripción**: agrega más información sobre la nueva meta.
+   * **Descripción**: añade más información sobre la nueva meta.
 1. Haga clic en **Guardar**
 
-   El resultado o la actividad se convierte ahora en un objetivo secundario del objetivo original. Se enumera como una meta en la lista Indicadores de progreso de la meta original.
+   El resultado o la actividad se convierte ahora en una meta secundaria de la meta original. Se enumera como una meta en la lista Indicadores de progreso de la meta original.
 
 
 

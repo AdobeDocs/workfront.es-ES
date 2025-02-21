@@ -1,19 +1,19 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Eliminar planes en el Scenario Planner
+title: Crear planes en el Planificador de escenarios
 description: Puede eliminar los planes que ha creado. No puede eliminar planes que se hayan compartido con usted.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 1%
+source-wordcount: '512'
+ht-degree: 87%
 
 ---
 
-# Eliminar planes en [!DNL Scenario Planner]
+# Eliminar planes en el [!DNL Scenario Planner]
 
 Puede eliminar los planes que ha creado. No puede eliminar planes que se hayan compartido con usted.
 
@@ -30,12 +30,12 @@ Puede eliminar los planes que ha creado. No puede eliminar planes que se hayan c
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
    <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
+   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: claro o superior</p> 
+   <td> <p>Nuevo: Light o superior</p> 
    <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
@@ -78,10 +78,10 @@ Puede eliminar un plan o un escenario de un plan.
 >
 >Tenga en cuenta lo siguiente al eliminar planes:
 >
->* También se elimina toda la información relacionada con el plan. Esto incluye todos los escenarios e iniciativas asociados con el plan, incluida la información sobre los roles y los costes. Esta información no se puede recuperar.
+>* También se elimina toda la información relacionada con el plan. Esto incluye todos los escenarios e iniciativas asociados con el plan, incluida la información sobre las funciones y los costes. Esta información no se puede recuperar.
 >* Si el plan contiene un escenario publicado, los proyectos vinculados a las iniciativas eliminadas se conservan y el área [!DNL Scenario Planner] permanece en la sección [!UICONTROL Detalles del proyecto].
 >
->  Para obtener información acerca de cómo publicar iniciativas en proyectos, vea [Actualizar o crear proyectos mediante la publicación de iniciativas en [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Para obtener información acerca de cómo publicar iniciativas en proyectos, consulte [Actualizar o crear proyectos mediante la publicación de iniciativas en el  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 Para suprimir un plan:
 
@@ -89,8 +89,8 @@ Para suprimir un plan:
 
 Se muestra una lista de planes.
 
-1. Haga clic en el nombre de un plan para abrirlo.
-1. Haga clic en el **[!UICONTROL menú Más]** ![](assets/more-menu.png) a la derecha del nombre del plan y, a continuación, haga clic en **[!UICONTROL Eliminar]** > **[!UICONTROL Sí, eliminarlo]**.
+1. Seleccione el nombre de un plan para abrirlo.
+1. Haga clic en el **[!UICONTROL menú Más]** ![menú Más](assets/more-menu.png) que se encuentra a la derecha del nombre del plan y luego haga clic en **[!UICONTROL Eliminar]** > **[!UICONTROL Sí, eliminarlo]**.
 
    El plan se elimina y usted vuelve a la lista de planes.
 
@@ -101,11 +101,11 @@ Se muestra una lista de planes.
 >Tenga en cuenta lo siguiente al eliminar un escenario:
 >
 >* Al eliminar un escenario, se eliminan todas las iniciativas y su información. Si se copian en otros escenarios, las iniciativas permanecen en los otros escenarios.
->* Al eliminar un escenario, el escenario posterior asume el número del escenario eliminado y se conserva el orden de contabilización. Por ejemplo, si elimina el Escenario 4, el Escenario 5 se convierte en el Escenario 4.
+>* Al eliminar un escenario, el escenario posterior toma el número del escenario eliminado y se conserva el orden de recuento. Por ejemplo, si elimina el Escenario 4, el Escenario 5 se convierte en el Escenario 4.
 >* Si se publican algunas iniciativas en el escenario, el proyecto vinculado a la iniciativa se conserva y el área del Planificador de escenarios permanece en los proyectos vinculados
 >* Si las iniciativas publicadas existen en otro escenario, permanecen en ese escenario, incluido su vínculo al proyecto. La publicación de estas iniciativas desde otros escenarios actualiza los proyectos vinculados con nueva información de esos escenarios.
 >
->  Para obtener información acerca de cómo publicar iniciativas en proyectos, vea [Actualizar o crear proyectos mediante la publicación de iniciativas en [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Para obtener información acerca de cómo publicar iniciativas en proyectos, consulte [Actualizar o crear proyectos mediante la publicación de iniciativas en [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 Para eliminar un escenario:
 
@@ -114,7 +114,7 @@ Para eliminar un escenario:
    De forma predeterminada, se muestra el escenario inicial.
 
 1. Haga clic en **[!UICONTROL Comparar escenarios]**.
-1. En la esquina superior derecha de la tarjeta del escenario, haga clic en el menú **[!UICONTROL Más]** ![](assets/more-menu.png) y, a continuación, haga clic en **[!UICONTROL Eliminar]**.
+1. En la esquina superior derecha de la tarjeta del escenario, haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **[!UICONTROL Eliminar]**.
 
    Se elimina el escenario.
 

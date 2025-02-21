@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Añadir actividades a objetivos en Adobe Workfront Goals
+title: Añadir actividades a metas en Adobe Workfront Goals
 description: Las actividades miden el progreso de una meta. Sin resultados asociados, actividades o metas alineadas, una meta no se puede activar y no se puede registrar el progreso en ella.
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 52%
 
 ---
 
-# Añadir actividades a objetivos en Adobe Workfront Goals
+# Añadir actividades a metas en Adobe Workfront Goals
 
 Las actividades miden el progreso de una meta. Sin asociar resultados, actividades, proyectos o metas alineadas, no puede activar una meta y no puede registrar el progreso en ella.
 
@@ -29,22 +29,22 @@ Debe tener lo siguiente:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -54,24 +54,24 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso*</td>
- <td> <p>Editar acceso a Objetivos</p> </td>
+ <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Haga clic en el **Menú principal** ![](assets/main-menu-icon.png) y luego en **Metas**.
+1. Haga clic en el **Menú principal** ![icono del Menú principal](assets/main-menu-icon.png) y luego en **Metas**.
 1. En la Lista de metas, haga clic en el nombre de una meta para abrir su página.
-1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
+1. Haga clic en **Indicadores de progreso** en el panel de la izquierda.
 1. En el menú desplegable Nuevo indicador de progreso, haga clic en **Crear actividad**.
 
    Se abrirá el cuadro Nueva actividad.
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![Nuevo cuadro de actividad](assets/new-activity-box-unshimmed.png)
 
 1. Introduzca un nombre para la actividad en el campo Nombre de la actividad. Este campo es obligatorio.
 1. (Opcional) Elimine su nombre del campo **Propietario de la actividad** si desea asignar la actividad a otro usuario. De forma predeterminada, usted es el propietario de una actividad que crea.

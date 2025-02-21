@@ -3,14 +3,14 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Habilitar notificaciones de Adobe Workfront Goals
-description: Los objetivos de Adobe Workfront incluyen un conjunto de notificaciones de eventos predefinidas que puede habilitar para su cuenta. Estas notificaciones de eventos almacenan en déclencheur la comunicación por correo electrónico cada vez que se cumple la condición definida por el evento.
+description: Adobe Workfront Goals incluye un conjunto de notificaciones de eventos predefinidos que puede habilitar para su cuenta. Estas notificaciones de eventos activan la comunicación por correo electrónico cada vez que se cumple la condición definida por el evento.
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 0%
+source-wordcount: '226'
+ht-degree: 98%
 
 ---
 
@@ -20,24 +20,24 @@ ht-degree: 0%
 >
 >Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 >
->* Para el nuevo plan y la estructura de licencias:
+>* Para la nueva estructura de plan y licencias:
 >
 >   * El plan Ultimate Workfront
 >    
->* Para el plan y la estructura de licencias actuales:
+>* Para la estructura actual de plan y licencias:
 >
 >   * Un plan Pro o superior de Workfront
 >   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 >
 >Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 > 
->Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Los objetivos de Adobe Workfront incluyen un conjunto de notificaciones de eventos que puede habilitar para su cuenta. Estas notificaciones de eventos almacenan en déclencheur la comunicación por correo electrónico cada vez que se cumple la condición definida por el evento.
+Adobe Workfront Goals incluye un conjunto de notificaciones de eventos que puede habilitar para su cuenta. Estas notificaciones de eventos activan la comunicación por correo electrónico cada vez que se cumple la condición definida por el evento.
 
-Para obtener información acerca de las notificaciones que puede habilitar para Workfront Goals, vea [Notificaciones: Goals](../../workfront-basics/using-notifications/notifications-goals.md).
+Para obtener información sobre las notificaciones que puede habilitar para Workfront Goals, consulte [Notificaciones: Goals](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Para obtener información sobre cómo administrar las notificaciones en Adobe Workfront, consulte [Modificar tus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obtener información sobre cómo administrar las notificaciones en Adobe Workfront, consulte [Modificar sus propias notificaciones por correo electrónico](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -138,6 +138,6 @@ A personal goal is a goal where you are designated as the owner.
 
 ## Ejemplo de notificación por correo electrónico de Workfront Goals
 
-Cuando se produce el evento definido por la notificación que ha activado, recibe un correo electrónico que describe el evento. El siguiente es un ejemplo de un correo electrónico que le notifica que se le ha asignado como propietario de una nueva meta:
+Cuando se produce el evento definido por la notificación que ha habilitado, recibe un correo electrónico que describe el evento. A continuación, se muestra un ejemplo de correo electrónico que le notifica que se ha sido asignado como propietario de una nueva meta:
 
-![](assets/wf-align-notification-email-350x164.png)
+![Correo electrónico de notificación de objetivos](assets/wf-align-notification-email-350x164.png)

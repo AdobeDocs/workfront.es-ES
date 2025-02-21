@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '345'
+ht-degree: 44%
 
 ---
 
@@ -67,36 +67,36 @@ You must have the following access to perform the steps in this article:
 
 1. Desplácese hacia abajo hasta la sección **Aprobaciones** y, a continuación, haga clic en **Agregar**.
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![Agregar aprobadores en el resumen del documento](assets/doc-summary-add-approvers.png)
 
-1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
+1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
-1. Para agregar un aprobador, haga clic en **Aprobador** y y empiece a escribir el nombre de un usuario o equipo.
+1. Para añadir un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
 
-1. Para agregar un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
+1. Para añadir un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Agregar aprobador y fecha límite](assets/add-approver-and-deadline.png)
 
-1. Repita el paso anterior para agregar más aprobadores o revisores.
+1. Repita el paso anterior para añadir más aprobadores o revisores.
 
 ## Crear una solicitud de revisión o aprobación desde la página Detalles del documento
 
-1. Pase el ratón sobre el documento y luego haga clic en **Detalles del documento**.
-   ![](assets/doc-details.png)
+1. Pase el puntero por encima del documento y haga clic en **Detalles del documento**.
+   ![Detalles del documento](assets/doc-details.png)
 
 1. Cerca del nombre del documento, seleccione la versión del documento para la que desea crear una aprobación. La última versión está seleccionada de forma predeterminada.
 
 1. En el panel izquierdo, haga clic en **Aprobaciones**.
 
-1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes del plazo especificado.
+1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
-1. Para agregar un aprobador, haga clic en **Aprobador** y y empiece a escribir el nombre de un usuario o equipo.
+1. Para añadir un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
 
-1. Para agregar un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
+1. Para añadir un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Agregar aprobador y fecha límite](assets/add-approver-and-deadline.png)
 
-1. Repita el paso anterior para agregar más aprobadores o revisores.
+1. Repita el paso anterior para añadir más aprobadores o revisores.
 
 
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

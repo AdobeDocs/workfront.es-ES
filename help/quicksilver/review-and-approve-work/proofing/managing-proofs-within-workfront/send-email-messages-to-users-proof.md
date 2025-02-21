@@ -6,10 +6,10 @@ description: Durante el proceso de revisión y aprobación, puede enviar un mens
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 1%
+source-wordcount: '457'
+ht-degree: 36%
 
 ---
 
@@ -30,16 +30,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Responsable o superior</td> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Función de prueba</td> 
@@ -47,12 +47,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+&#42;Para saber qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
 
 +++
 
@@ -61,15 +61,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Busque el documento de la prueba que contiene los usuarios que desea enviar mensajes.
 1. Pase el ratón sobre el documento y luego haga clic en **Flujo de trabajo de revisión**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![Flujo de trabajo de revisión](assets/proof-workflow-doc-list-350x92.png)
 
 1. Para enviar un mensaje a todos los usuarios del escenario, haga clic en el menú **Más** del escenario y elija **Mensaje para todos**.
 
-   ![](assets/message-stage-350x122.png)
+   ![Mensaje en fase](assets/message-stage-350x122.png)
 
 1. Para enviar un mensaje a un usuario individual, haz clic en el menú **Más** que está al lado del usuario y elige **Mensaje**.
 
-   ![](assets/message-user-350x121.png)
+   ![Usuario de mensaje](assets/message-user-350x121.png)
 
 1. En la sección **Detalles del mensaje**, especifique la siguiente información:
 

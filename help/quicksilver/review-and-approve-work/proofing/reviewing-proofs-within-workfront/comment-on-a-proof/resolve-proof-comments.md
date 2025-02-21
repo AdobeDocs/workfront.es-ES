@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Resolver comentarios de revisión
-description: Puede marcar los comentarios resueltos después de haberlos enviado. Puede volver a abrir un comentario que usted u otro revisor hayan resuelto.
+title: Resolver comentarios de la prueba
+description: Puede marcar los comentarios como resueltos después de haberlos tratado. Puede volver a abrir un comentario que haya resuelto u otro revisor haya resuelto.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
-# Resolver comentarios de revisión
+# Resolver comentarios de la prueba
 
-Puede marcar los comentarios resueltos después de haberlos enviado. Puede volver a abrir un comentario que usted u otro revisor hayan resuelto.
+Puede marcar los comentarios como resueltos después de haberlos tratado. Puede volver a abrir un comentario que haya resuelto u otro revisor haya resuelto.
 
 ## Requisitos de acceso
 
@@ -28,16 +28,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Responsable o superior</td> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Función de prueba</td> 
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,9 +61,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Condicional) Si el área de comentarios no está abierta, haga clic en **Ver comentarios** en la esquina superior derecha.
 1. Seleccione el comentario.
-1. Haga clic en el icono de marca de verificación en la esquina inferior derecha del comentario. Aparece una marca de verificación verde en la esquina superior izquierda del comentario y una etiqueta y un mensaje &quot;Hilo resuelto&quot; debajo de él. El usuario que ha enviado el comentario recibe una notificación por correo electrónico de que el comentario se ha resuelto.
+1. Haga clic en el icono de marca de verificación en la esquina inferior derecha del comentario. Aparecerá una marca de verificación verde en la esquina superior izquierda del comentario, así como una etiqueta y mensaje “Hilo resuelto” debajo. El usuario que haya enviado el comentario recibirá una notificación por correo electrónico de que el comentario se ha resuelto.
 
-   ![](assets/resolve-comment-350x247.png)
+   ![Resolver comentario](assets/resolve-comment-350x247.png)
 
 ## Volver a abrir un comentario resuelto
 
@@ -72,6 +72,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Condicional) Si el área de comentarios no está abierta, haga clic en **Ver comentarios** en la esquina superior derecha.
 1. Seleccione el comentario.
-1. Haga clic en el icono de marca de verificación verde en la esquina inferior derecha del comentario (a la derecha del botón **Responder**). La marca de verificación de la esquina superior izquierda del comentario desaparece y aparece una etiqueta y un mensaje &quot;Hilo reabierto&quot; debajo de él. El usuario que ha enviado el comentario recibe una notificación por correo electrónico de que el comentario se ha reabierto.
+1. Haga clic en el icono de marca de verificación verde en la esquina inferior derecha del comentario (a la derecha del botón **Responder**). La marca de verificación de la esquina superior izquierda del comentario desaparecerá y aparecerá una etiqueta y mensaje “Hilo reabierto” debajo. El usuario que haya enviado el comentario recibirá una notificación por correo electrónico de que el comentario se ha reabierto.
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![Volver a abrir el comentario resuelto](assets/reopen-resolved-comment-350x334.png)

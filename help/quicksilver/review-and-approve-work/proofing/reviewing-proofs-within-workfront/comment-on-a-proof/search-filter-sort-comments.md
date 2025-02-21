@@ -6,10 +6,10 @@ description: Puede buscar, filtrar y ordenar comentarios de prueba para navegar 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 97%
 
 ---
 
@@ -28,20 +28,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Responsable o superior</td> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,17 +69,17 @@ Puede buscar en la lista de comentarios el texto contenido en el comentario, el 
 1. (Opcional) Haga clic en el comentario para mostrar una línea que conecte el comentario con el área relacionada de la prueba.
 1. Cuando haya terminado de buscar y desee mostrar todos los comentarios, haga clic en la X situada al final del cuadro de búsqueda.
 
-## Filtrar la lista de comentarios
+## Filtrar la columna de comentarios
 
 Puede filtrar los comentarios que se muestran definiendo parámetros de filtro como usuario, acciones, estado no leído, etc.
 
-1. Abra la revisión en la que desee filtrar los comentarios.
+1. Abra la prueba en la que desee filtrar los comentarios.
 1. (Condicional) Si el área de comentarios no está abierta, haga clic en **Ver comentarios** en la esquina superior derecha.
 1. En el área de comentarios, haga clic en el icono **Filtro**.
 
    ![proof_comment_filter.png](assets/proof-comment-filter.png)
 
-1. Utilice las opciones que aparecen debajo del icono **Filter** para filtrar los comentarios según cualquiera de los criterios siguientes:
+1. Utilice las opciones que aparecen debajo del icono **Filtro** para filtrar los comentarios según cualquiera de los criterios siguientes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,7 +91,7 @@ Puede filtrar los comentarios que se muestran definiendo parámetros de filtro c
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Acciones</strong> </td> 
-      <td>Muestra sólo los comentarios que coinciden con la acción seleccionada. Sin acción. Las acciones deben estar habilitadas en el sistema. Para obtener más información, consulte .<!--
+      <td>Muestra solo los comentarios que coinciden con la acción seleccionada: n Sin acción. Las acciones deben estar habilitadas en el sistema. Para obtener más información, consulte.<!--
         &nbsp;
        --></td> 
      </tr> 
@@ -102,7 +102,7 @@ Puede filtrar los comentarios que se muestran definiendo parámetros de filtro c
         <li><strong>Sin resolver</strong>: muestra solo los comentarios que aún no se han resuelto. </li> 
         <li><strong>No leído</strong>: muestra solamente los comentarios que aún no ha leído. </li> 
         <li><strong>Con datos adjuntos</strong>: muestra solamente los comentarios que contienen datos adjuntos o los comentarios que incluyen una respuesta que contiene datos adjuntos.</li> 
-        <li><strong>Solo página actual</strong>:Muestra solo los comentarios de la página que está viendo en este momento. La lista de comentarios se actualiza cuando cambia la página visible. Disponible solo para pruebas estáticas e interactivas.</li> 
+        <li><strong>Solo página actual</strong>:muestra solo los comentarios de la página que está viendo en este momento. La lista de comentarios se actualiza cuando cambia la página visible. Disponible solo para pruebas estáticas e interactivas.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -114,13 +114,13 @@ Puede filtrar los comentarios que se muestran definiendo parámetros de filtro c
 
 ## Ordenar la lista de comentarios
 
-Al ordenar la lista de comentarios, la opción de ordenación que elija se recordará la próxima vez que abra una prueba en el visor de pruebas que esté utilizando.
+Al ordenar la lista de comentarios, la opción de ordenación que elija se recordará la próxima vez que abra una prueba en el visor de revisión que esté utilizando.
 
-1. Abra la revisión en la que desee ordenar los comentarios.
+1. Abra la prueba en la que desee ordenar los comentarios.
 1. Si el área de comentarios no está abierta, haga clic en **Ver comentarios** en la esquina superior derecha.
 
 1. Haga clic en el menú de ordenación para abrirlo.
-1. ![](assets/mceclip3.png)
+1. ![Menú de ordenación](assets/mceclip3.png)
 
 1. Seleccione una de las siguientes opciones de ordenación:
 
@@ -135,8 +135,8 @@ Al ordenar la lista de comentarios, la opción de ordenación que elija se recor
       <td>Disponible para todas las pruebas</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Oldest</td> 
-      <td>Muestra los comentarios más antiguos en la parte superior de la lista de comentarios. Esta es la opción predeterminada. </td> 
+      <td role="rowheader">Los más antiguos</td> 
+      <td>Muestra los comentarios más antiguos en la parte superior de la lista de comentarios. Es la opción predeterminada. </td> 
       <td>Disponible para todas las pruebas</td> 
      </tr> 
      <tr> 
@@ -151,27 +151,27 @@ Al ordenar la lista de comentarios, la opción de ordenación que elija se recor
      </tr> 
      <tr> 
       <td role="rowheader">Página (abajo, arriba)</td> 
-      <td>Muestra los comentarios en orden de aparición en relación con el número de página o la cronología del vídeo. </td> 
+      <td>Muestra los comentarios en orden de aparición en relación con el número de página o la línea de tiempo del vídeo. </td> 
       <td>Disponible solo para pruebas estáticas.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Marca de tiempo (descendente)</td> 
-      <td>Muestra los comentarios en orden de aparición en relación con la cronología del vídeo. Los comentarios realizados más adelante en la cronología se muestran primero. </td> 
+      <td>Muestra los comentarios en orden de aparición en relación con la línea de tiempo del vídeo. Los comentarios realizados más adelante en la línea de tiempo se muestran primero. </td> 
       <td>Disponible solo para pruebas de vídeo.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Marca de tiempo (arriba)</td> 
-      <td>Muestra los comentarios en orden de aparición en relación con la cronología del vídeo. Los comentarios realizados anteriormente en la cronología se muestran primero. </td> 
+      <td role="rowheader">Marca de tiempo (ascendente)</td> 
+      <td>Muestra los comentarios en orden de aparición en relación con la línea de tiempo del vídeo. Los comentarios realizados anteriormente en la línea de tiempo se muestran primero. </td> 
       <td>Disponible solo para pruebas de vídeo.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Dispositivo (arriba)</td> 
+      <td role="rowheader">Dispositivo (ascendente)</td> 
       <td>Muestra los comentarios en orden según el dispositivo seleccionado cuando se realizó el comentario. Los comentarios realizados en resoluciones más bajas se muestran primero.</td> 
       <td>Disponible solo para pruebas interactivas.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Dispositivo (abajo)</td> 
-      <td> <p>(Disponible solo para pruebas interactivas). Muestra los comentarios en orden según la resolución seleccionada cuando se realizó el comentario. Los comentarios realizados en resoluciones más altas se muestran primero.</p> <p>Para obtener información sobre cómo cambiar la resolución en una prueba interactiva, consulte <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Cambiar la resolución de la prueba interactiva en el visor de revisión</a>.</p> </td> 
+      <td role="rowheader">Dispositivo (descendente)</td> 
+      <td> <p>(Disponible solo para pruebas interactivas). Muestra los comentarios en orden según la resolución seleccionada cuando se realizó el comentario. Los comentarios realizados en resoluciones más altas se muestran primero.</p> <p>Para obtener información sobre cómo cambiar la resolución en una prueba interactiva, consulte <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Cambiar la resolución de la prueba interactiva en el visualizador de revisión</a>.</p> </td> 
       <td>Disponible solo para pruebas interactivas.</td> 
      </tr> 
     </tbody> 

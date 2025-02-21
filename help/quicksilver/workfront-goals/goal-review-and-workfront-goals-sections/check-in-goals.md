@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Actualización del progreso de la meta en Adobe Workfront Goals
-description: Debe revisar sus objetivos periódicamente y actualizar su progreso para asegurarse de que no se queden atrás o corran el riesgo de no alcanzarlos.
+title: Actualizar el progreso de las metas en Adobe Workfront Goals
+description: Debe revisar sus metas periódicamente y actualizar su progreso para asegurarse de que no se quedan atrás o corren el riesgo de no alcanzarse.
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
-# Actualización del progreso de la meta en Adobe Workfront Goals
+# Actualizar el progreso de las metas en Adobe Workfront Goals
 
-Debe revisar sus objetivos periódicamente y actualizar su progreso para asegurarse de que no se queden atrás o corran el riesgo de no alcanzarlos.
+Debe revisar sus metas periódicamente y actualizar su progreso para asegurarse de que no se quedan atrás o corren el riesgo de no alcanzarse.
 
 <!--And: take this last sentence ^^ out when you update this for goal redesign production.-->
 
@@ -30,22 +30,22 @@ Debe tener lo siguiente:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -55,24 +55,24 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
- <td> <p>Editar acceso a Objetivos</p></td>
+ <td> <p>Editar acceso a Goals</p></td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -82,38 +82,38 @@ Debe tener lo siguiente:
 
 ## Requisitos previos
 
-Debe tener un objetivo activo para poder empezar.
+Debe tener un meta activa para poder empezar.
 
-No se puede actualizar el progreso en objetivos que estén en borrador, inactivos o cerrados.
+No puede actualizar el progreso de metas que sean borradores, no estén activas o estén cerradas.
 
-## Consideraciones para actualizar objetivos
+## Consideraciones para actualizar metas
 
-Tenga en cuenta lo siguiente al actualizar el progreso en los objetivos:
+Tenga en cuenta lo siguiente al actualizar el progreso de las metas:
 
 * Workfront Goals calcula automáticamente el progreso de una meta cuando se actualiza el progreso de sus indicadores de progreso.
 
   >[!TIP]
   >
-  >No se puede actualizar el progreso directamente en una meta. Debe actualizar el progreso de los indicadores de progreso de la meta (actividades, resultados, proyectos conectados) que a su vez actualicen el progreso de la meta. Para actualizar el progreso de los proyectos, debe actualizar las tareas del proyecto.
+  >No puede actualizar el progreso directamente de una meta. Debe actualizar el progreso de los indicadores de progreso de la meta (actividades, resultados, proyectos conectados) que a su vez actualizan el progreso de la meta. Para actualizar el progreso de los proyectos, debe actualizar las tareas del proyecto.
 
   Consulte también los siguientes artículos:
 
-   * Para obtener información acerca de cómo agregar actividades a las metas, vea [Agregar actividades a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * Para obtener información acerca de cómo agregar resultados a las metas, vea [Agregar resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Para obtener información sobre cómo Workfront Goals calcula el progreso de una meta, vea [Información general sobre el progreso y la condición de la meta en Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Para obtener información sobre cómo añadir actividades a las metas, consulte [Añadir actividades a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * Para obtener información sobre cómo añadir resultados a las metas, consulte [Añadir resultados a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   * Para obtener información sobre cómo Workfront Goals calcula el progreso de una meta, consulte [Información general sobre el progreso y la condición de metas en Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
-* Debe crear metas y activarlas antes de poder actualizar su progreso.
+* Debe crear metas y activarlas para poder actualizar su progreso.
 
   Consulte también los siguientes artículos:
 
-   * Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
-   * Para obtener información sobre cómo activar metas, consulte [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+   * Para obtener información sobre la creación de metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+   * Para obtener información sobre la activación de metas, consulte [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
-  >No se puede actualizar el progreso de las metas que están redactadas, cerradas o inactivas.
+  >No puede actualizar el progreso de las metas que son borradores, están cerradas o no están activas.
 
-* La primera vez que usted u otra persona actualizan el progreso de un resultado o actividad en una meta, el progreso de la meta cambia de Nuevo y las Metas de Workfront comienzan a registrar el progreso y las actualizaciones de estado de progreso en la meta.
+* La primera vez que usted u otra persona actualizan el progreso de un resultado o actividad en una meta, el progreso de la meta cambia de Nuevo y Workfront Goals comienza a registrar el progreso y las actualizaciones de estado de progreso de la meta.
 
 <!--
 
@@ -135,7 +135,7 @@ When you check in on a goal at the goal level, you can update the progress of th
 
 For information about how to update additional information about results and activities, see [Edit results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -160,7 +160,7 @@ For information about how to update additional information about results and act
 
 1. Click **Check in**.
 
-   ![](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
+   ![Check in link](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
 
    The progress of results and activities becomes editable.
 
@@ -197,7 +197,7 @@ You can use the Check-in section to check in on goals when you want to quickly p
 
 When you check in on a goal in the Check-in section, you can update the progress of the results and activities that are assigned only to you. You cannot update the progress of results and activities that are assigned to other users in this section.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -210,11 +210,11 @@ When you check in on a goal in the Check-in section, you can update the progress
 
    (Conditional) If you are in the Goal List, Goal Alignment, or Pulse sections, click the **Check in** button in the upper-right of the screen. This opens the Check-in section.
 
-   ![](assets/check-in-button-highlighted-350x102.png)
+   ![Check in button](assets/check-in-button-highlighted-350x102.png)
 
    Goals display in a list and results and activities are listed under each goal.
 
-   ![](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
+   ![Check in page](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
 
 1. (Optional) Click **Show all results**, **Show all activities**, or **Show all aligned goals** to the far right of the goal name to display all results, activities, and aligned goals of a goal whose progress you want to update.
 
@@ -242,34 +242,34 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 -->
 
-Para actualizar el progreso de los objetivos:
+Para actualizar el progreso de las metas:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Se abrirá la lista de metas. Todas las metas a las que tiene acceso se muestran de forma predeterminada.
 
-   También puede hacer clic en Alineación de objetivos en el panel izquierdo.
+   También puede hacer clic en Alineación de metas en el panel izquierdo.
 
 1. En la Lista de metas, haga clic en el nombre de una meta para abrir su página.
-1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
+1. Haga clic en **Indicadores de progreso** en el panel de la izquierda.
 
    La lista Indicadores de progreso muestra todos los indicadores de progreso para el objetivo seleccionado.
 
    >[!NOTE]
    >
    >  * Solo puede actualizar los resultados y las actividades.
-   >  * Debe actualizar los indicadores de progreso de las metas de los niños para mostrar el progreso en las metas de los niños.
+   >  * Debe actualizar los indicadores de progreso de las metas secundarias para mostrar el progreso de dichas metas secundarias.
    >  * Debe actualizar las tareas de los proyectos conectados para mostrar el progreso de los proyectos.
    >   
-   >    A su vez, el progreso de los objetivos secundarios y el progreso de los proyectos impulsan el progreso de la meta seleccionada.
+   >    A su vez, el progreso de las metas secundarias y el progreso de los proyectos impulsan el progreso de la meta seleccionada.
 
 
 1. Para actualizar el progreso de un resultado o actividad, haga clic en el valor dentro de la columna **Progreso real** del resultado o actividad y escriba un número para actualizar su valor; a continuación, presione Entrar.
 
-   ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![Progreso real](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    La barra de progreso del indicador de progreso de la columna Progreso y el progreso de la meta en el encabezado de la meta se actualizan inmediatamente.
 

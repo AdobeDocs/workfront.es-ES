@@ -2,20 +2,20 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Copiar metas en Adobe Workfront Goals
-description: Puede copiar metas en Objetivos de Adobe Workfront para crear una meta. Parte de la información de la meta original se transfiere a la nueva meta.
+description: Puede copiar metas en Adobe Workfront Goals para crear una meta. Parte de la información de la meta original se transfiere a la nueva meta.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 4%
+source-wordcount: '800'
+ht-degree: 97%
 
 ---
 
 # Copiar metas en Adobe Workfront Goals
 
-Puede copiar metas en Objetivos de Adobe Workfront para crear una meta. Parte de la información de la meta original se transfiere a la nueva meta.
+Puede copiar metas en Adobe Workfront Goals para crear una meta. Parte de la información de la meta original se transfiere a la nueva meta.
 
 ## Requisitos de acceso
 
@@ -28,13 +28,13 @@ Debe tener lo siguiente:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
@@ -42,9 +42,9 @@ Debe tener lo siguiente:
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -54,24 +54,24 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
- <td> <p>Editar acceso a Objetivos</p> </td>
+ <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -81,28 +81,28 @@ Debe tener lo siguiente:
 
 ## Consideraciones para copiar metas
 
-Debe tener acceso a Editar metas en su nivel de acceso para poder copiar metas. Para obtener información sobre cómo conceder acceso a las metas, consulte [Conceder acceso a las metas de Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Debe tener acceso a Editar metas en su nivel de acceso para poder copiar metas. Para obtener información sobre cómo conceder acceso a las metas, consulte [Concesión de acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-Algunas de las razones por las que es posible que desee copiar un objetivo existente son las siguientes:
+Algunas de las razones por las que es posible que desee copiar una meta existente son las siguientes:
 
 * Al final de un período de tiempo (trimestre o año), cuando desee volver a crear el mismo objetivo para el siguiente período.
-* Al final de un período de tiempo, cuando el objetivo no se puede completar y desea trabajar en él durante otro período de tiempo.
-* Cuando varios integrantes del equipo tienen objetivos similares y es posible que tenga que crear uno para cada uno de ellos.
+* Al final de un período de tiempo, cuando el objetivo no se puede completar y desea trabajar en ello durante otro período de tiempo.
+* Cuando varios integrantes del equipo tienen metas similares y es posible que tenga que crear uno para cada uno de ellos.
 
 >[!TIP]
 >
->Puede copiar una meta en cualquier estado. Para obtener información sobre los estados de objetivos, consulte [Información general sobre el estado de los objetivos en Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
+>Puede copiar una meta en cualquier estado. Para obtener información sobre los estados de metas, consulte [Información general sobre el estado de las metas en Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
 
-Tenga en cuenta lo siguiente al copiar los objetivos:
+Tenga en cuenta lo siguiente al copiar las metas:
 
 * Toda la información sobre la meta también se copia en la nueva meta.
-* Puede seleccionar para copiar los resultados de un objetivo existente. El nombre de los resultados se transfiere a la nueva meta, pero el progreso actual de los resultados en la meta existente no se copia a la nueva meta. Los resultados copiados se asignan al mismo propietario de forma predeterminada.
+* Puede seleccionar para copiar los resultados de una meta existente. El nombre de los resultados se transfiere a la nueva meta, pero el progreso actual de los resultados en la meta existente no se copia a la nueva meta. Los resultados copiados se asignan al mismo propietario de forma predeterminada.
 
   >[!NOTE]
   >
   >Si el propietario original se eliminó o desactivó de Workfront, el nuevo resultado se asigna al usuario que ha iniciado sesión.
 
-* No puede copiar las actividades de una meta cuando copia la meta.
+* No se pueden copiar las actividades de una meta al copiarla.
 
 ## Copiar metas
 
@@ -117,7 +117,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -177,13 +177,13 @@ To copy goals in the Production environment:
 -->
 
 
-1. Vaya a una meta y haga clic en el menú **Más** ![](assets/more-icon.png), luego haga clic en **Copiar meta**.
+1. Vaya a una meta y haga clic en el menú **Más** ![Icono de más](assets/more-icon.png), luego haga clic en **Copiar meta**.
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![Copiar cuadro de metas](assets/copy-goal-box-unshimmed.png)
 
-1. Actualice la siguiente información para el objetivo copiado:
-   * **Nombre de meta**: El nombre de la nueva meta. El nombre predeterminado para la meta copiada es &quot;Copia de &lt;meta original>&quot;.
-   * **Período**: Período de tiempo durante el cual desea lograr el objetivo. Seleccione un periodo de tiempo en el menú desplegable
+1. Actualice cualquiera de la siguiente información para la meta copiada:
+   *   **Nombre de la meta**: el nombre de la nueva meta. El nombre predeterminado para el objetivo copiado es “Copia de &lt;original goal>”.
+   * **Período**: el período de tiempo durante el cual desea alcanzar la meta. Seleccione un periodo de tiempo en el menú desplegable
 
      O
 
@@ -191,10 +191,10 @@ To copy goals in the Production environment:
 
      >[!TIP]
      >
-     >   Al anular la selección de Habilitar fechas personalizadas, se revierte al periodo de tiempo de la meta original.
+     >   Al anular la selección de Habilitar fechas personalizadas, se revierte al período de tiempo de la meta original.
 
-      * **Propietario de la meta**: El propietario de la meta. Puede ser un usuario, un equipo, un grupo o una compañía. El valor predeterminado es el propietario de la meta original.
-      * **Descripción**: Información adicional sobre la meta.
+      * **Propietario**: el propietario de la meta. Puede ser un usuario, equipo, grupo o empresa. El valor predeterminado es el propietario de la meta original.
+      * **Descripción**: información adicional sobre la meta.
       * **Copiar resultados**: seleccione esta opción si desea transferir los resultados de la meta actual a la meta copiada. Esto duplica los resultados originales y los adjunta a la meta copiada. Los resultados de la meta copiada tienen el mismo propietario, nombres y valores medidos que los resultados de la meta original.
 
         >[!NOTE]
@@ -208,10 +208,10 @@ To copy goals in the Production environment:
 
    >[!NOTE]
    >
-   >Si no ha copiado los resultados de la meta original, primero debe asociar la nueva meta con un indicador de progreso antes de poder activarla y comenzar a trabajar para alcanzarla.
+   >Si no ha copiado los resultados del objetivo original, primero debe asociar el nuevo objetivo con un indicador de progreso antes de poder activarlo y empezar a trabajar para lograrlo.
    >Para obtener información sobre cómo asociar metas con indicadores de progreso, consulte los siguientes artículos:
-   >* [Agregar resultados a metas en Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md)
-   >* [Agregar actividades a metas en Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
+   >* [Añadir resultados a metas en Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md)
+   >* [Añadir actividades a metas en Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
    >* [Alinear metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md)
    >
    >Para obtener información sobre cómo activar metas, consulte [Activar metas](../goal-management/activate-goals.md).

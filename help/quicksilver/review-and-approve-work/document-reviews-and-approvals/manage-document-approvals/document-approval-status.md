@@ -1,26 +1,26 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Resumen del estado de decisión del documento
+title: Información general del estado de decisión del documento
 description: Los estados de decisión del documento se enumeran y explican
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 37c4b6d5609c429d6e0706e48d1143596eca9ea4
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 5%
+source-wordcount: '167'
+ht-degree: 97%
 
 ---
 
-# Resumen del estado de decisión del documento
+# Información general del estado de decisión del documento
 
 Puede ver el estado del documento directamente en la lista de documentos:
 
-![](assets/status-in-doc-list.png)
+![Estado en la lista de documentos](assets/status-in-doc-list.png)
 
 
-Los siguientes estados están disponibles:
+Están disponibles los siguientes estados:
 
 <table>
             <col style="width: 50%;" />
@@ -80,7 +80,7 @@ Los siguientes estados están disponibles:
                                 <p>Todas las aprobaciones y revisiones han finalizado</p>
                             </li>
                             <li>
-                                <p>Al menos un aprobador ha tomado la decisión "Las necesidades funcionan"</p>
+                                <p>Al menos un aprobador ha tomado la decisión "Necesita trabajo"</p>
                                 <p>Otros aprobadores pueden haber tomado decisiones como "Aprobado con cambios" o "Aprobado"
                             </li>
                         </ul>

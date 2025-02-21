@@ -8,10 +8,10 @@ description: Puede conectar proyectos a metas para indicar cómo progresa la met
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 1%
+source-wordcount: '931'
+ht-degree: 26%
 
 ---
 
@@ -41,22 +41,22 @@ Debe tener lo siguiente:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -66,24 +66,24 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
- <td> <p>Editar acceso a Objetivos</p> </td>
+ <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -112,7 +112,7 @@ Debe tener lo siguiente:
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * Cuando se elimina un proyecto adjunto a una meta, también se elimina de la meta.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Agregar proyectos a metas
 
-1. Haga clic en el **Menú principal** ![](assets/main-menu-icon.png) (borrador de esto para Shell: o haga clic en el **Menú principal** ![](assets/three-line-main-menu-icon.png) en la esquina superior izquierda, si está disponible.) , luego **Metas**.
+1. Haga clic en el **Menú principal** ![icono del menú principal](assets/main-menu-icon.png) (borrador de esto para Shell: o haga clic en el **Menú principal** ![Líneas del menú principal](assets/three-line-main-menu-icon.png) en la esquina superior izquierda, si está disponible.) , a continuación **Metas**.
 1. En la Lista de metas, haga clic en el nombre de una meta para abrir su página.
-1. Haga clic en **Indicadores de progreso** en el panel izquierdo.
+1. Haga clic en **Indicadores de progreso** en el panel de la izquierda.
 1. En el menú desplegable **Nuevo indicador de progreso**, haga clic en **Agregar proyecto existente**.
 
    Se muestra el cuadro Agregar proyectos a la meta.
 1. (Opcional) Actualice **Ver**, **Filtro** o **Agrupación** haciendo clic en los iconos respectivos en la esquina superior derecha de la lista para modificar la forma en que se muestra la lista de proyectos.
-1. (Opcional) Haga clic en el icono **Buscar** ![](assets/search-icon.png) y empiece a escribir el nombre de un proyecto para encontrarlo rápidamente en la lista.
+1. (Opcional) Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir el nombre de un proyecto para encontrarlo rápidamente en la lista.
 1. Seleccione los proyectos que desee agregar a la meta y luego haga clic en **Agregar**.
 
    Los proyectos seleccionados se agregan a la meta y se muestran en la sección Indicadores de progreso de la página de la meta, en la agrupación **Proyecto**.
@@ -180,5 +180,5 @@ La siguiente información de objetivos es visible en una lista de proyectos o un
 | Información del objetivo | Descripción |
 |---|---|
 | Metas | Una lista de todas las metas que tienen un proyecto asociado. |
-| Jerarquía de metas | La jerarquía a la que pertenece un objetivo. En este campo solo se muestran los padres de la meta y la meta. Las metas secundarias no se muestran. |
+| Jerarquía de metas | La jerarquía a la que pertenece un objetivo. En este campo solo se muestran los elementos principales de la meta y la meta. Las metas secundarias no se muestran. |
 | Número de metas vinculadas | Número de metas vinculadas a un proyecto. |

@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Administrar comentarios sobre metas en Adobe Workfront Goals
-description: Puede agregar comentarios a todas las metas que puede ver en Adobe Workfront Goals.
+title: Administrar comentarios de metas en Adobe Workfront Goals
+description: Puede añadir comentarios a todas las metas que puede ver en Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 82%
 
 ---
 
-# Administrar comentarios sobre metas en Adobe Workfront Goals
+# Administrar comentarios de metas en Adobe Workfront Goals
 
 <!--Audited: 01/2024-->
 
@@ -45,13 +45,13 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
@@ -63,26 +63,26 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito del producto: si tiene el plan Select o Prime Adobe Workfront, también debe comprar una licencia adicional de Adobe Workfront Goals. Los objetivos de Workfront se incluyen en el plan Ultimate Workfront.</p>
+ <p> Nuevo requisito del producto: si tiene el plan Select o Prime Adobe Workfront, también debe comprar una licencia adicional de Adobe Workfront Goals. Workfront Goals se incluye en el plan Ultimate Workfront.</p>
  O
- <p>Requisito de producto actual: debe adquirir una licencia adicional para las metas de Adobe Workfront a fin de acceder a la funcionalidad descrita en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: debe adquirir una licencia adicional para Adobe Workfront Goals a fin de acceder a la funcionalidad descrita en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader">Configuración del nivel de acceso</td>
- <td> <p>Ver los objetivos o acceder a ellos</p> </td>
+ <td role="rowheader">Configuración de nivel de acceso</td>
+ <td> <p>Acceso de visualización o superior a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores para la meta</p>
+  <p>Acceso de visualización o superior a la meta</p>
   <p>De forma predeterminada, los usuarios no tienen acceso a las metas </p>
- <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+ <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -94,19 +94,19 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 
 ## Administrar comentarios de metas
 
-Puede agregar comentarios a los objetivos en la sección Actualizaciones de la página de un objetivo.
+Puede añadir comentarios a las metas en la sección Actualizaciones de la página de una meta.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Metas**.
 Se abrirá la lista de metas.
-1. Busque la meta a la que desee agregar comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
-1. Haga clic en **Actualizaciones** en el panel izquierdo.
+1. Busque la meta a la que desee añadir comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
+1. Haga clic en **Actualizaciones** en el panel izquierdo. 
 
    Para obtener más información acerca de cómo administrar comentarios en objetos de Workfront, vea [Actualizar el trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
    
-   ![](assets/search-field-in-updates-tab-goals.png)
+   ![Search field](assets/search-field-in-updates-tab-goals.png)
 
    The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
@@ -121,7 +121,7 @@ Se abrirá la lista de metas.
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
 1. Start entering a comment in the **New comment** box.
          
-   ![](assets/comment-box-empty-unshimmed.png)
+   ![Comment box](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -145,13 +145,13 @@ Se abrirá la lista de metas.
       >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
       >
       >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      >![Real time new red indicator](assets/real-time-new-red-indicator-unified-commenting-copy.png)
       
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. (Optional) To edit a comment, click the **More** menu ![More icon](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
 1. Edit the information in the comment or remove any of the tagged users. 
    You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![Edited tag on comment](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Se abrirá la lista de metas.
    >
    > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
+1. (Optional) Click the **More** menu ![More icon](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
       * **Copy link** to copy the link of an update, without the replies.
       * **Copy body text** to copy the text of an update. 
@@ -167,14 +167,14 @@ Se abrirá la lista de metas.
 
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click the **More** menu ![More icon](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
    
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![Blue comments banner](assets/blue-new-comments-banner-with-view-button.png)
    
    Additional comments display at the bottom of the screen.
-1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
+1. (Optional) Click the **Like** icon![Like icon](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 

@@ -6,9 +6,9 @@ description: Puede cargar una nueva versión del documento y solicitar la aproba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 30%
 
 ---
@@ -78,7 +78,7 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 1. Desplácese hacia abajo hasta la sección **Aprobaciones** del panel Resumen del documento y haga clic en **Añadir**.
 
-![](assets/doc-summary-add-approvers.png)
+![Agregar aprobadores en el resumen del documento](assets/doc-summary-add-approvers.png)
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
@@ -89,4 +89,4 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 1. Para agregar nuevos aprobadores y revisores, haga clic en **Revisor** o **Aprobador** y empiece a escribir el usuario o equipo.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Agregar aprobador y fecha límite](assets/add-approver-and-deadline.png)

@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Resolución de conflictos de iniciativas en el Scenario Planner
+title: Resolución de conflictos de iniciativas en el Planificador de escenarios
 description: Cuando las iniciativas entran en conflicto entre sí, compiten por los mismos recursos. Los recursos que tiene disponibles para un escenario no son suficientes para cubrir todos los recursos requeridos por todas las iniciativas del escenario.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2172'
-ht-degree: 0%
+source-wordcount: '2220'
+ht-degree: 93%
 
 ---
 
@@ -19,8 +19,8 @@ Cuando las iniciativas entran en conflicto entre sí, compiten por los mismos re
 
 Esto puede ocurrir en cualquiera de los siguientes casos:
 
-* El número de funciones del puesto necesarias para la iniciativa es mayor que el número de funciones presupuestadas para el plan.
-* Los costes de la iniciativa son mayores que el importe presupuestario disponible para el plan.
+* El número de funciones necesarias para la iniciativa es mayor que el número de funciones presupuestadas para el plan.
+* Los costes de la iniciativa son mayores que el importe del presupuesto disponible para el plan.
 
 ## Requisitos de acceso
 
@@ -35,12 +35,12 @@ Esto puede ocurrir en cualquiera de los siguientes casos:
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
    <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
+   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: claro o superior</p> 
+   <td> <p>Nuevo: Light o superior</p> 
    <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
@@ -66,81 +66,81 @@ Esto puede ocurrir en cualquiera de los siguientes casos:
 
 +++
 
-## Resumen de resolución de conflictos
+## Información general sobre la resolución de conflictos
 
-* Un conflicto también se entiende como una sobreasignación de las funciones del puesto o el presupuesto de un escenario.
+* Un conflicto también se entiende como una sobreasignación de las funciones o el presupuesto de un escenario.
 * Cuando [!DNL Workfront] detecta un conflicto, la barra correspondiente al mes en conflicto durante la duración de la iniciativa se muestra en rojo. Esto puede ocurrir en cualquiera de los siguientes casos:
 
-   * El número de funciones del puesto requeridas mensualmente para una iniciativa es mayor que el número de funciones presupuestadas para el plan después de que todas las iniciativas anteriores hayan utilizado los recursos presupuestados para el plan.
-   * Los costos mensuales de la iniciativa son mayores que el presupuesto disponible para el plan después de que todas las iniciativas anteriores hayan utilizado el presupuesto del plan para cubrir sus costos.
+   * El número de funciones necesarias mensualmente para una iniciativa es mayor que el número de funciones presupuestadas para el plan después de que todas las iniciativas anteriores hayan utilizado los recursos presupuestados para el plan.
+   * Los costes mensuales de la iniciativa son mayores que el presupuesto disponible para el plan después de que todas las iniciativas anteriores hayan utilizado el presupuesto del plan para cubrir sus costes.
 
 >[!TIP]
 >
->De manera predeterminada, [!DNL Scenario Planner] supone que ha presupuestado 0 roles y $0 o el equivalente de $0 en la moneda del sistema para un escenario, a menos que especifique lo contrario. El número de funciones del puesto indica el número de jornadas completas (equivalentes a tiempo completo) u horas presupuestadas para el rol.
+>De manera predeterminada, [!DNL Scenario Planner] supone que ha presupuestado 0 funciones y 0 $ o el equivalente de 0 $ en la moneda del sistema para un escenario, a menos que especifique lo contrario. El número de funciones indica el número de ETC completas (equivalentes a jornada completa) u horas presupuestadas para la función.
 >
->Para todos los cálculos del Scenario Planner, Workfront utiliza el siguiente valor: 1 FTE = 8 horas.
+>Para todos los cálculos del planificador de escenarios, Workfront utiliza el siguiente valor: 1 FTE = 8 horas.
 >
->Para obtener información acerca de cómo actualizar los roles disponibles para un plan y un presupuesto, consulte [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+>Para obtener información sobre cómo actualizar las funciones disponibles para un plan y un presupuesto, consulte [Crear y editar planes en el  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 * Para resolver un conflicto, siga uno de estos procedimientos:
 
    * Añadir automáticamente los recursos necesarios que faltan de las iniciativas en el escenario. Este artículo describe cómo resolver conflictos mediante esta opción.
-   * Ajuste de la función de trabajo y los recursos del presupuesto para el escenario mediante la edición del plan. Para obtener más información, consulte [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   * Ajuste los recursos de función y presupuesto para el escenario editando el plan. Para obtener más información, consulte [Crear y editar planes en el  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 ## Resolución de conflictos entre iniciativas
 
 1. Vaya a un plan para el que desee resolver conflictos.
 
-   Para obtener información sobre cómo crear planes, consulte [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   Para obtener información sobre cómo crear planes, consulte [Crear y editar planes en el  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-   Para obtener información acerca de cómo crear iniciativas, vea [Crear y editar iniciativas en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Para obtener información sobre cómo crear iniciativas, consulte [Crear y editar iniciativas en el  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-1. (Opcional) En el menú desplegable **[!DNL Initial scenario]**, seleccione el escenario que desee revisar.
+1. (Opcional) En el menú desplegable **[!DNL Initial scenario]**, seleccione el escenario que desea revisar.
 
    >[!TIP]
    >
-   >Un plan puede tener varios escenarios. Al observar los conflictos del plan, [!DNL Workfront] se refiere a los recursos disponibles actualmente en el escenario seleccionado y a los necesarios en las iniciativas de ese escenario. Para obtener información acerca de los escenarios, vea [Crear y comparar escenarios de plan en [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   >Un plan puede tener varios escenarios. Al observar los conflictos del plan, [!DNL Workfront] se refiere a los recursos disponibles actualmente en el escenario seleccionado y a los necesarios en las iniciativas de ese escenario. Para obtener información sobre los escenarios, consulte [Crear y comparar escenarios de plan en el  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
-1. Asegúrese de que **[!UICONTROL Mostrar conflictos]** esté habilitado. Está activada de forma predeterminada.
+1. Asegúrese de que **[!UICONTROL Mostrar conflictos]** esté habilitada. Está habilitada de forma predeterminada.
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![Mostrar alternancia de escenarios](assets/show-scenarios-toggle-on.png)
 
    La primera iniciativa en conflicto muestra los meses que tienen conflictos en rojo y aparece un icono de advertencia junto al nombre de la iniciativa.
 
    El fondo de todas las iniciativas que comienzan con la primera en conflicto se muestra en rojo en el gráfico del plan.
 
-   Cuando una iniciativa muestra un conflicto, significa que el número de funciones del puesto para al menos una función específica, los costes incurridos o ambas exceden el número de funciones del puesto o el presupuesto definido para el plan para un mes específico.
+   Cuando una iniciativa muestra un conflicto, significa que el número de función para al menos una función específica, los costes incurridos o ambos exceden el número de funciones o el presupuesto definido para el plan para un mes específico.
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![Iniciativas en plan con conflicto](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
-1. Realice una de las siguientes acciones para obtener más información sobre los conflictos que pueden existir:
+1. Realice una de las siguientes acciones para obtener más información sobre los conflictos que podrían existir:
 
-   * Pase el ratón sobre el icono de advertencia situado junto al nombre de la iniciativa para saber si tiene un rol o un conflicto presupuestario.
+   * Pase el puntero por encima del icono de advertencia situado junto al nombre de la iniciativa para saber si tiene una función o un presupuesto en conflicto.
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![Conflicto en el rol del presupuesto](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
-     Dependiendo de si ha sobreasignado funciones o ha sobreestimado los costes de su iniciativa, puede ver una de las siguientes opciones al pasar el ratón por encima del icono de advertencia:
+     Dependiendo de si ha asignado demasiadas funciones o ha sobrestimado los costes de su iniciativa, podría ver una de las siguientes opciones al pasar el puntero por encima del icono de advertencia:
 
       * Mostrar detalles de los conflictos de las funciones del puesto
       * Mostrar detalles de los conflictos del presupuesto
-      * Mostrar rol y detalles de presupuesto
+      * Mostrar detalles de los conflictos de las funciones y del presupuesto
 
-   * Cuando visualice el plan por mes, pase el ratón sobre un mes de la cronología del plan para ver los recursos necesarios para ese mes y si los conflictos del mes están relacionados con las personas o los costes.
+   * Cuando visualice el plan por mes, pase el puntero por encima de un mes en la cronología del plan para ver los recursos necesarios para ese mes y si los conflictos del mes están relacionados con las personas o los costes.
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![Detalles de conflictos en la escala de tiempo mensual](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Revise la siguiente información mensual en el nivel de plan:
 
-      * Número de funciones del puesto disponibles, requeridas y sobreasignadas en el mes para todas las iniciativas planificadas para ese mes
+      * Número de funciones disponibles, requeridas y sobreasignadas del mes para todas las iniciativas planificadas para ese mes
       * Los costes disponibles, requeridos y sobreasignados del mes para todas las iniciativas planificadas para ese mes
 
         >[!TIP]
         >
-        >Los costos [!UICONTROL Disponibles] son el presupuesto del escenario para ese mes.
+        >Los costes [!UICONTROL Disponibles] son el presupuesto del escenario para ese mes.
 
-   * Pase el ratón sobre la barra roja de una iniciativa durante un mes para ver el cuadro de información adicional sobre el conflicto que se produce ese mes.
+   * Pase el puntero por encima de la barra roja de una iniciativa de un mes para mostrar el cuadro de información adicional sobre el conflicto que se produce ese mes.
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![Detalles de conflictos en la cronología de la iniciativa](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Revise los campos siguientes del cuadro de información adicional en el nivel de la iniciativa:
 
@@ -157,150 +157,150 @@ Esto puede ocurrir en cualquiera de los siguientes casos:
         <td>Se muestra en el título del cuadro de información adicional.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">[!UICONTROL Funciones del puesto]</td> 
-        <td> <p>Los puestos asociados con esta iniciativa que están sobreasignados para el mes seleccionado. Las siguientes columnas muestran información sobre cada rol necesario para el mes seleccionado que entra en conflicto con el número de roles disponibles para ese mes:</p> 
+        <td role="rowheader">[!UICONTROL Job Roles]</td> 
+        <td> <p>Las funciones asociadas con esta iniciativa que están sobreasignadas para el mes seleccionado. Las siguientes columnas muestran información sobre cada función necesaria para el mes seleccionado y que entra en conflicto con el número de funciones disponibles para ese mes:</p> 
          <ul> 
-          <li> <p><strong>[!UICONTROL Disponible]</strong>: El número de cada rol disponible en el escenario para el mes seleccionado.</p> </li> 
-          <li> <p><strong>[!UICONTROL Requerido]</strong>: El número de cada rol requerido para la iniciativa en el mes seleccionado.</p> </li> 
-          <li> <p style="font-weight: normal;"><strong>[!UICONTROL sobreasignado]:</strong> La diferencia entre el número requerido en la iniciativa y el número disponible en el escenario. </p> </li> 
-         </ul> <p>Sugerencia: A veces, el número de funciones de [!UICONTROL Disponible] coincide o es mayor que el número de funciones de [!UICONTROL Necesario], pero [!DNL Scenario Planner] sigue mostrando una sobreasignación. Esto significa que hay iniciativas de mayor clasificación que ya utilizaron los roles disponibles en el plan para el mismo mes. </p> </td> 
+          <li> <p><strong>[!UICONTROL Available]</strong>: el número de cada función disponible en el escenario para el mes seleccionado.</p> </li> 
+          <li> <p><strong>[!UICONTROL Required]</strong>: el número de cada función requerida para la iniciativa en el mes seleccionado.</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>[!UICONTROL Overallocated]:</strong> la diferencia entre el número requerido en la iniciativa y el número disponible en el escenario. </p> </li> 
+         </ul> <p>Sugerencia: a veces, el número de funciones [!UICONTROL Available] coincide o es mayor que el número de funciones [!UICONTROL Required], pero el [!DNL Scenario Planner] sigue mostrando una sobreasignación. Esto significa que hay iniciativas de mayor clasificación que ya utilizaron las funciones disponibles en el plan para el mismo mes. </p> </td> 
        </tr> 
        <tr> 
         <td role="rowheader">Costes</td> 
         <td> <p>Los costes de la iniciativa para el mes seleccionado. Las siguientes columnas muestran información sobre los costes necesarios y el presupuesto disponible del mes seleccionado:</p> 
          <ul> 
-          <li> <p><strong>[!UICONTROL Disponible]</strong>: El presupuesto disponible del plan para el mes seleccionado</p> </li> 
-          <li> <p><strong>[!UICONTROL Requerido]</strong>: Los costos asociados con esta iniciativa para el mes seleccionado.</p> </li> 
-          <li> <p style="font-weight: normal;"><strong>[!UICONTROL Sobreasignado]:</strong> La diferencia entre los costos de la iniciativa y el presupuesto disponible en el plan. </p> </li> 
-         </ul> <p>Sugerencia: A veces, los costos de [!UICONTROL Disponible] coinciden o son superiores al costo de [!UICONTROL Requerido] de la iniciativa para el mes seleccionado y [!DNL Scenario Planner] sigue mostrando una sobreasignación de costos. Esto significa que hay iniciativas de mayor clasificación que ya utilizan el presupuesto disponible en el plan para el mismo mes. </p> </td> 
+          <li> <p><strong>[!UICONTROL Available]</strong>: el presupuesto disponible del plan para el mes seleccionado.</p> </li> 
+          <li> <p><strong>[!UICONTROL Required]</strong>: los costes asociados con esta iniciativa para el mes seleccionado.</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>[!UICONTROL Overallocated]:</strong> la diferencia entre los costes de la iniciativa y el presupuesto disponible en el plan. </p> </li> 
+         </ul> <p>Sugerencia: a veces, los costes [!UICONTROL Available] coinciden o son superiores al coste [!UICONTROL Required] de la iniciativa para el mes seleccionado y el [!DNL Scenario Planner] sigue mostrando una sobreasignación de coste. Esto significa que hay iniciativas de mayor clasificación que ya utilizan el presupuesto disponible en el plan para el mismo mes. </p> </td> 
        </tr> 
       </tbody> 
      </table>
 
 1. Realice una de las siguientes acciones para abrir el panel de detalles de la iniciativa y ver más información sobre dónde se producen los conflictos y resolverlos:
 
-   * Haga clic en el icono de advertencia junto al nombre de la iniciativa.
+   * Haga clic en el icono de advertencia que está junto al nombre de la iniciativa.
    * Haga clic en la barra de una iniciativa.
-   * Haga clic en el icono **[!UICONTROL Más]** ![](assets/more-icon.png) a la derecha del nombre de la iniciativa y luego haga clic en **[!UICONTROL Editar]**.
+   * Haga clic en el icono **[!UICONTROL Más]** ![Más icono](assets/more-icon.png) a la derecha del nombre de la iniciativa y, a continuación, haga clic en **[!UICONTROL Editar]**.
 
      El panel de detalles de la iniciativa aparece a la derecha.
 
      Cuando no hay suficientes personas o presupuesto disponibles para su iniciativa, aparece un icono de advertencia rojo junto a las siguientes secciones:
 
-   * [!UICONTROL Funciones del puesto requeridas]
-   * [!UICONTROL Costos]
+   * [!UICONTROL Funciones requeridas]
+   * [!UICONTROL Costes]
 
-1. (Condicional) Para las iniciativas que tienen conflictos de roles, vaya a la sección **[!UICONTROL Roles requeridos]** para ver todos los roles requeridos para su iniciativa. Identifique qué funciones del puesto pueden estar sobreasignadas. Revise el número de jornadas completas u horas necesarias para cada rol en cada mes de la iniciativa. El cuadro con el valor de FTE o el número de horas de los meses que tienen sobreasignaciones se muestra en un contorno rojo.
+1. (Condicional) Para las iniciativas que tienen conflictos de funciones, vaya a la sección **[!UICONTROL Funciones requeridas]** para ver todas las funciones requeridas para su iniciativa. Identifique qué funciones pueden estar sobreasignadas. Revise el número de jornadas completas u horas necesarias para cada función en cada mes de la iniciativa. El cuadro con el número de jornadas completas o de horas de los meses que están sobreasignados se muestra con el contorno en color rojo.
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![Funciones sobreasignadas](assets/details-panel-overallocated-roles-350x275.png)
 
-1. (Opcional) Haga clic en la flecha que apunta a la derecha junto a los meses en la cronología de la iniciativa para ver qué meses adicionales muestran conflictos de roles.
+1. (Opcional) Haga clic en la flecha que apunta hacia la derecha junto a los meses en la cronología de la iniciativa para ver qué meses adicionales muestran conflictos de funciones.
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![Error derecho dentro del cuadro de detalles](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
-1. (Opcional) Haga clic en **[!UICONTROL Mostrar detalles]** en el rol que muestra un conflicto para ver dónde aparecen los conflictos y para resaltar los meses en conflicto en el área de gráfico del plan. Se muestra información adicional para cada rol.
+1. (Opcional) Haga clic en **[!UICONTROL Mostrar detalles]** en la función que muestra un conflicto para ver dónde aparecen los conflictos y para resaltar los meses en conflicto en el área de gráfico del plan. Se muestra información adicional para cada función.
 
-   Se muestran los campos siguientes para cada rol:
+   Se muestran los campos siguientes para cada función:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Disponible]</td> 
-      <td> <p>El número de funciones del puesto disponibles en el plan para cada mes. </p> </td> 
+      <td role="rowheader">[!UICONTROL Available]</td> 
+      <td> <p>El número de funciones disponibles en el plan para cada mes. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL asignado anteriormente]</td> 
-      <td>El número de funciones del puesto ya asignadas del presupuesto del plan a iniciativas de mayor clasificación para un mes específico. </td> 
+      <td role="rowheader">[!UICONTROL Previously allocated]</td> 
+      <td>El número de funciones ya asignadas del presupuesto del plan a iniciativas de mayor clasificación para un mes específico. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL sobreasignado]</td> 
-      <td> <p>La diferencia entre el número de funciones del puesto requeridas en la iniciativa y el número disponible en el plan después de las iniciativas de mayor clasificación también utilizó algunas de las funciones. Workfront calcula el número de roles de trabajo de [!UICONTROL sobreasignados] mediante la siguiente fórmula:</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
+      <td role="rowheader">[!UICONTROL Overallocated]</td> 
+      <td> <p>La diferencia entre el número de funciones requeridas en la iniciativa y el número disponible en el plan después de que las iniciativas de mayor clasificación también hayan utilizado algunas de las funciones. Workfront calcula el número de funciones [!UICONTROL Overallocated] mediante la siguiente fórmula:</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >En el gráfico del plan, los meses en los que se asignan los roles muestran el nombre y el número de roles necesarios para cada iniciativa donde son necesarios. Debe seleccionar la vista [!UICONTROL Mes] para ver el nombre de los roles
+   >En el gráfico del plan, los meses en los que se asignan las funciones muestran el nombre y el número de funciones necesarias para cada iniciativa donde hacen falta. Debe seleccionar la vista [!UICONTROL Mes] para ver el nombre de las funciones
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![Funciones en conflicto](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
-1. Realice una de las siguientes acciones para resolver los conflictos de roles:
+1. Realice una de las siguientes acciones para resolver los conflictos de funciones:
 
-   * Ajuste manualmente el número de funciones del puesto para cada mes de la iniciativa a un número menor.
-   * Pase el ratón sobre el nombre del rol y haga clic en el icono **[!UICONTROL eliminar]** ![](assets/delete.png) para eliminar el rol de la iniciativa.
-   * Seleccione **[!UICONTROL Agregar roles a los recursos disponibles del escenario]** y, a continuación, haga clic en **[!UICONTROL Aplicar]**.
+   * Ajuste manualmente el número de funciones para cada mes de la iniciativa a un número menor.
+   * Pase el ratón sobre el nombre del rol y haga clic en el icono **[!UICONTROL eliminar]** ![Eliminar icono](assets/delete.png) para eliminar el rol de la iniciativa.
+   * Seleccione **[!UICONTROL Agregar funciones del puesto a los recursos disponibles del plan]** y, a continuación, haga clic en **[!UICONTROL Aplicar]**.
 
-     Esto agrega el número que falta de jornadas completas de rol u horas al campo [!UICONTROL Disponible] del escenario.
+     Esto agrega el número que falta de jornadas completas u horas de la función al campo [!UICONTROL Disponible] del escenario.
 
      >[!NOTE]
      >
-     >Las funciones que agrega para resolver los conflictos modifican las funciones del puesto [!UICONTROL Disponibles] para el escenario seleccionado y no para todos los escenarios del plan.
+     >Las funciones que agrega para resolver los conflictos modifican las funciones [!UICONTROL Disponibles] para el escenario seleccionado y no para todos los escenarios del plan.
 
-     Se muestra una flecha verde ![](assets/upward-green-arrow.png) orientada hacia arriba para el mes en la escala de tiempo del plan para indicar que se agregaron más recursos al plan ese mes. Debe seleccionar la vista [!UICONTROL Mes] para ver este indicador.
+     Se muestra una flecha verde hacia arriba ![Flecha verde hacia arriba](assets/upward-green-arrow.png) para el mes en la escala de tiempo del plan para indicar que se agregaron más recursos al plan ese mes. Debe seleccionar la vista [!UICONTROL Mes] para ver este indicador.
 
-   * (Condicional) Cierre el panel de detalles y asigne a la iniciativa una prioridad más alta para recibir primero los recursos del presupuesto del plan, si es posible. Para obtener información acerca de cómo actualizar la prioridad de la iniciativa, consulte [Actualizar prioridades de la iniciativa en el Scenario Planner](../scenario-planner/prioritize-initiatives.md).
+   * (Condicional) Cierre el panel de detalles y asigne a la iniciativa una prioridad más alta para recibir primero los recursos de presupuesto del plan, si es posible. Para obtener información sobre cómo actualizar la prioridad de la iniciativa, consulte [Actualizar prioridades de la iniciativa en el planificador de escenarios](../scenario-planner/prioritize-initiatives.md).
 
-1. (Opcional) Haga clic en **[!UICONTROL Ocultar detalles]** para cerrar la casilla de detalles adicionales y, a continuación, haga clic en **[!UICONTROL Aplicar]** para guardar los cambios que realice en los roles.
+1. (Opcional) Haga clic en **[!UICONTROL Ocultar detalles]** para cerrar el cuadro de detalles adicionales y, a continuación, haga clic en **[!UICONTROL Aplicar]** para guardar los cambios que realice en las funciones.
 
-1. (Condicional) Para las iniciativas que tienen conflictos de costes, vaya a la sección **[!UICONTROL Costes]** del panel de detalles de la iniciativa para revisar los costes de cada mes de duración de la iniciativa. Identifique los meses en los que es posible que no haya suficiente dinero en el presupuesto del plan para cubrir los costes de la iniciativa seleccionada. El cuadro con el presupuesto insuficiente disponible se muestra en un contorno rojo.
-1. (Opcional) Haga clic en la flecha que apunta a la derecha junto a los meses en la cronología de la iniciativa para ver los meses adicionales que tienen un presupuesto insuficiente para cubrir los costes.
+1. (Condicional) Para las iniciativas que tienen conflictos de costes, vaya a la sección **[!UICONTROL Costes]** del panel de detalles de la iniciativa para revisar los costes de cada mes durante la duración de la iniciativa. Identifique los meses en los que es posible que no haya suficiente dinero en el presupuesto del plan para cubrir los costes de la iniciativa seleccionada. El cuadro con el presupuesto disponible insuficiente se muestra con el contorno en color rojo.
+1. (Opcional) Haga clic en la flecha que apunta hacia la derecha junto a los meses en la cronología de la iniciativa para ver los meses adicionales que tienen un presupuesto insuficiente para cubrir los costes.
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![Flecha por costos insuficientes](assets/details-panel-insufficient-costs-350x239.png)
 
-1. (Opcional) Haga clic en **[!UICONTROL Mostrar detalles]** debajo de la información de costos para ver dónde aparece el conflicto y para resaltar los meses en conflicto en el gráfico del plan. Se muestran los siguientes campos adicionales para cada tipo de coste:
+1. (Opcional) Haga clic en **[!UICONTROL Mostrar detalles]** debajo de la información de costes para ver dónde aparece el conflicto y para resaltar los meses en conflicto en el gráfico del plan. Se muestran los siguientes campos adicionales para cada tipo de coste:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Disponible]</td> 
-      <td> <p>Los costos disponibles en el presupuesto del plan para cada mes. </p> </td> 
+      <td role="rowheader">[!UICONTROL Available]</td> 
+      <td> <p>Los costes disponibles en el presupuesto del plan para cada mes. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL asignado anteriormente]</td> 
-      <td>La cantidad de dinero ya asignada del presupuesto del plan a iniciativas de mayor rango. </td> 
+      <td role="rowheader">[!UICONTROL Previously allocated]</td> 
+      <td>La cantidad de dinero ya asignada del presupuesto del plan a iniciativas de mayor clasificación. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL sobreasignado]</td> 
-      <td> <p>La diferencia mensual entre los costos necesarios para la iniciativa y la cantidad de dinero disponible del presupuesto del plan después de iniciativas de mayor rango también utilizó parte del presupuesto disponible. [!DNL Workfront] calcula el número de costos sobreasignados mediante la siguiente fórmula:</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>[!DNL Workfront] calcula los costes necesarios para la iniciativa actual para cada mes mediante la fórmula siguiente:</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
+      <td role="rowheader">[!UICONTROL Overallocated]</td> 
+      <td> <p>La diferencia mensual entre los costes necesarios para la iniciativa y la cantidad de dinero disponible del presupuesto del plan después de que las iniciativas de mayor clasificación también hayan utilizado parte del presupuesto disponible. [!DNL Workfront] calcula el número de costes sobreasignados mediante la siguiente fórmula:</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>[!DNL Workfront] calcula los costes requeridos para la iniciativa actual para cada mes mediante la fórmula siguiente:</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >En el gráfico del plan, los meses en los que los costes son insuficientes muestran el nombre y el número de funciones que aún se necesitan para la iniciativa. Debe seleccionar la vista Mes para ver los importes de coste.
+   >En el gráfico del plan, los meses en los que los costes son insuficientes muestran el nombre y el número de funciones que aún se necesitan para la iniciativa. Debe seleccionar la vista Mes para ver las cantidades de coste.
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![Costes en conflicto](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >
-   >Si deshabilitaste la configuración [!UICONTROL Incluir costo de personas] para la casilla [!UICONTROL Presupuesto] del plan cuando creaste el plan, la línea [!UICONTROL Costos de personas] no se muestra para ninguna iniciativa en ningún escenario. En este caso, Workfront no tiene en cuenta los cálculos de Costes de personas para determinar los conflictos de costes. Para obtener información sobre cómo crear un plan, consulte [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   >Si se ha deshabilitado la configuración [!UICONTROL Incluir costes de las personas] en el cuadro [!UICONTROL Presupuesto] del plan al crear el plan, la línea [!UICONTROL Costes de las personas] no se muestra para ninguna iniciativa en ningún escenario. En este caso, Workfront no tiene en cuenta los Costes de las personas al realizar los cálculos para determinar los conflictos de costes. Para obtener información sobre cómo crear un plan, consulte [Crear y editar planes en  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 1. Realice una de las siguientes acciones para resolver los conflictos de costes:
 
-   * Ajuste manualmente la cantidad de [!UICONTROL costos fijos] por cada mes de la iniciativa a un número menor.
-   * En la sección **[!UICONTROL Funciones del puesto requeridas]**, ajuste manualmente el número de funciones del puesto para el mes con un presupuesto de Costos de personas, si es posible. Esto reduce el número de costes de personas.
+   * Ajuste manualmente el número de [!UICONTROL Costes fijos] para cada mes de la iniciativa a un número menor.
+   * En la sección **[!UICONTROL Funciones del puesto requeridas]**, ajuste manualmente el número de funciones para el mes con un presupuesto de Costes de las personas, si es posible. Esto reduce el número de Costes de las personas.
 
      >[!TIP]
      >
-     >No puede ajustar manualmente los costes de personas.
+     >No puede ajustar manualmente los Costes de las personas.
 
-   * Seleccione **[!UICONTROL Agregar cantidad al presupuesto del escenario]** y haga clic en **[!UICONTROL Aplicar]**.
+   * Seleccione **[!UICONTROL Agregar cantidad al presupuesto del plan]** y, a continuación, haga clic en **[!UICONTROL Aplicar]**.
 
      Esto añade la cantidad insuficiente al presupuesto del escenario para los meses en los que faltaba, lo que también actualiza el presupuesto del escenario general.
 
      >[!NOTE]
      >
-     >La cantidad que agregue para resolver los conflictos de costos modificará el Presupuesto para el escenario seleccionado y no para todos los escenarios del plan.
+     >La cantidad que añada para resolver los conflictos de costes modificará el Presupuesto para el escenario seleccionado y no para todos los escenarios del plan.
 
-   * (Condicional) Cierre el panel de detalles y asigne a la iniciativa una prioridad más alta para recibir primero los recursos del presupuesto del plan, si es posible. Para obtener información acerca de cómo actualizar la prioridad de la iniciativa, vea [Actualizar prioridades de la iniciativa en [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   * (Condicional) Cierre el panel de detalles y asigne a la iniciativa una prioridad más alta para recibir primero los recursos de presupuesto del plan, si es posible. Para obtener información sobre cómo actualizar la prioridad de la iniciativa, consulte [Actualizar prioridades de la iniciativa en  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
 
-1. Haga clic en **[!UICONTROL Aplicar]** cuando realice cambios en la sección Costos.
+1. Haga clic en **[!UICONTROL Aplicar]** cuando realice cambios en la sección Costes.
 1. Haga clic en **[!UICONTROL Guardar plan]** para guardar los cambios.
 
 

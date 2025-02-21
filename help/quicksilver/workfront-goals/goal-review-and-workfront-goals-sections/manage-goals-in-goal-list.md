@@ -2,14 +2,14 @@
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Administrar metas en la lista de metas de Adobe Workfront
-description: Una vez que usted u otros usuarios hayan creado sus metas, podrá revisar su progreso e información en la Lista de metas. Para obtener información sobre la creación de metas, consulte Crear metas en Adobe Workfront Goals.
+description: Una vez que haya creado metas o las hayan creado otros usuarios, podrá revisar su progreso e información en la lista de metas. Para obtener información sobre la creación de metas, consulte Crear metas en Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '817'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-Una vez que usted u otros usuarios hayan creado sus metas, podrá revisar su progreso e información en la Lista de metas. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+Una vez que haya creado metas o las hayan creado otros usuarios, podrá revisar su progreso e información en la lista de metas. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 ## Requisitos de acceso
 
@@ -30,22 +30,22 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -55,24 +55,24 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
- <td> <p>Editar acceso a Objetivos</p>  </td>
+ <td> <p>Editar acceso a Goals</p>  </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -82,26 +82,26 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 
 ## Administrar metas en la lista de metas
 
-Puede ver y administrar los objetivos en las siguientes secciones de Workfront Goals:
+Puede ver y administrar las metas en las siguientes secciones de Workfront Goals:
 
 * Lista de metas
 * Alineación de metas
 
-Cada sección muestra los objetivos en formatos ligeramente diferentes. La sección que utilice dependerá del propósito que desee lograr al trabajar con objetivos.
+Cada sección muestra las metas en formatos ligeramente diferentes. La sección que utilice dependerá del propósito que desee lograr al trabajar con metas.
 
-Para obtener más información, consulte [Información general sobre las secciones de Objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Para obtener más información, consulte [Información general sobre las secciones de Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
-Este artículo describe cómo revisar las metas en la Lista de metas.
+Este artículo describe la revisión de metas en la lista de metas.
 
-Tenga en cuenta lo siguiente al revisar la Lista de objetivos:
+Tenga en cuenta lo siguiente al revisar la lista de metas:
 
-* Puede ver las metas que usted o cualquier otra persona de su organización haya creado en la Lista de metas. Debe tener permisos de administración en los objetivos para poder editarlos.
+* Puede ver las metas que haya creado o las que haya creado cualquier otra persona de su organización en la lista de metas. Debe tener permisos de administración sobre las metas para poder editarlas.
 
 <!--
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,14 +155,14 @@ Tenga en cuenta lo siguiente al revisar la Lista de objetivos:
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -190,62 +190,62 @@ Tenga en cuenta lo siguiente al revisar la Lista de objetivos:
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
-Para administrar metas en la Lista de metas:
+Para administrar metas en la lista de metas:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Metas**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   La sección Lista de objetivos se muestra de forma predeterminada. De forma predeterminada, puede ver los objetivos independientemente de su estado, periodo o propietario.
+   La sección Lista de metas se muestra de forma predeterminada. De forma predeterminada, se pueden ver las metas independientemente de su estado, período o propietario.
 
-   La lista de objetivos contiene los siguientes campos con información sobre cada objetivo:
+   La lista de metas contiene los siguientes campos con información sobre cada meta:
 
-   * **Nombre**: El nombre de la meta.
-   * **Propietario**: El nombre del propietario de la meta.
-   * **Período**: Período de tiempo durante el cual se ha programado la meta.
-   * **Estado**: el estado de la meta puede ser uno de los siguientes:
+   * **Nombre**: nombre de la meta.
+   * **Propietario**: nombre del propietario de la meta.
+   * **Período**: período de tiempo para el que se ha programado la meta.
+   * **Estado**: estado de la meta, que puede ser uno de los siguientes:
       * Activo
       * Borrador
       * Inactivo
       * Cerrado
 
-     Para obtener información sobre el estado de la meta, consulte [Resumen del estado de la meta en Adobe Workfront Goals](../goal-management/goal-status-overview.md).
+     Para obtener información sobre el estado de las metas, consulte [Información general sobre el estado de las metas en Adobe Workfront Goals](../goal-management/goal-status-overview.md).
 
-     El icono de alineación aparece en las metas que están alineadas con otras metas. Para obtener información acerca de cómo alinear metas, vea [Alinear metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md).
+     El icono de alineación aparece en las metas que están alineadas con otras metas. Para obtener información sobre la alineación de metas, consulte [Alinear metas conectándolas en Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md).
 
-   * **Condición**: una representación visual de cómo progresa la meta dentro del período de tiempo asignado para que se complete la meta.
+   * **Condición**: representación visual de cómo progresa la meta dentro del período de tiempo asignado para que se complete.
 
-     La condición de un objetivo puede ser una de las siguientes:
+     La condición de una meta puede ser una de las siguientes:
 
       * Nuevo
       * Bien encaminado
       * En riesgo
       * Con problemas
 
-     Para obtener información sobre las condiciones de la meta, consulte [Información general sobre el progreso y la condición de la meta en Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
+     Para obtener información sobre las condiciones de las metas, consulte [Información general sobre el progreso y la condición de las metas en Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
 
-   * **Progreso**: El indicador de progreso de la meta como valor porcentual. El color del indicador de progreso coincide con el color de la condición del objetivo.
+   * **Progreso**: indicador de progreso de la meta como valor porcentual. El color del indicador de progreso coincide con el de la condición de la meta.
 
-     Para obtener más información, consulte [Calcular progreso de objetivos en Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
+     Para obtener más información, consulte [Calcular el progreso de las metas en Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
 
-1. Haga clic en el icono de filtro ![](assets/filter-icon.png) en la esquina superior derecha de la lista de metas y aplique filtros para mostrar solo las metas que son importantes para usted.
+1. Haga clic en el icono de filtro ![Icono de filtro](assets/filter-icon.png) en la esquina superior derecha de la lista de metas y aplique filtros para mostrar solo las metas que sean importantes para usted.
 
-   Para obtener información acerca del uso de filtros en Workfront Goals, vea [Información sobre filtros en Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
+   Para obtener información sobre el uso de filtros en Workfront Goals, consulte [Información sobre los filtros en Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 
 1. Haga clic en cualquiera de los campos de los encabezados de columna para ordenar la lista por ese campo.
-Aparece una flecha a la derecha del campo por el que se ordena la lista.
+Aparecerá una flecha a la derecha del campo por el que se ordena la lista.
 
 1. (Opcional) Vuelva a hacer clic en el campo de la columna para ordenar la misma columna en orden descendente.
 1. Haga clic en el nombre de una meta para abrir su página.
-1. Seleccione un objetivo en la lista y, a continuación, haga clic en una de las siguientes opciones en la parte superior de la lista:
-   * **Editar** icono ![](assets/edit-icon.png) para editar información sobre la meta. Para obtener más información, consulte [Editar metas en Adobe Workfront Goals](../goal-management/edit-goals.md).
-   * **Compartir** icono ![](assets/share-icon.png) para compartir el objetivo con otras personas. Para obtener más información, vea [Compartir una meta en Adobe Workfront Goals](../workfront-goals-settings/share-a-goal.md).
-   * **Abrir alineación** icono ![](assets/align-icon-unshimmed.png) para abrir el área Alineación de metas. Esta opción solo se muestra cuando el objetivo seleccionado está alineado con otro objetivo.
-   * **Eliminar** icono ![](assets/delete-icon.png) para eliminar la meta y, a continuación, haga clic en **Eliminar** para confirmar.  Para obtener más información, consulte [Eliminar y desactivar metas en Adobe Workfront Goals](../goal-management/delete-and-deactivate-goals.md).
+1. Seleccione una meta de la lista y, a continuación, haga clic en una de las siguientes opciones en la parte superior de la lista:
+   * **Editar** icono ![Editar icono](assets/edit-icon.png) para editar información sobre la meta. Para obtener más información, consulte [Editar metas en Adobe Workfront Goals](../goal-management/edit-goals.md).
+   * **Compartir** icono ![Compartir icono](assets/share-icon.png) para compartir el objetivo con otras personas. Para obtener más información, consulte [Compartir una meta en Adobe Workfront Goals](../workfront-goals-settings/share-a-goal.md).
+   * **Icono Abrir alineación** ![Icono Abrir alineación](assets/align-icon-unshimmed.png) para abrir el área Alineación de metas. Esta opción solo se muestra cuando la meta seleccionada está alineada con otra.
+   * **Eliminar** icono ![Eliminar icono](assets/delete-icon.png) para eliminar la meta y, a continuación, haga clic en **Eliminar** para confirmar.  Para obtener más información, consulte [Eliminar y desactivar metas en Adobe Workfront Goals](../goal-management/delete-and-deactivate-goals.md).
 
 
 

@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Actualizar las prioridades de iniciativa en el Scenario Planner
+title: Actualizar las prioridades de la iniciativa en el planificador de escenarios
 description: La priorización de iniciativas es importante porque las iniciativas reciben funciones de trabajo y recursos presupuestarios del plan en el orden en que se enumeran en el plan.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 23%
 
 ---
 
@@ -19,9 +19,9 @@ La priorización de iniciativas es importante porque las iniciativas reciben fun
 
 Puede priorizar iniciativas en un plan que haya creado o en un plan que alguien haya compartido con usted.
 
-Para obtener información sobre cómo crear planes, consulte [Crear y editar planes en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+Para obtener información sobre cómo crear planes, consulte [Crear y editar planes en el  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-Para obtener información acerca de cómo crear iniciativas, vea [Crear y editar iniciativas en [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+Para obtener información sobre cómo crear iniciativas, consulte [Crear y editar iniciativas en el  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 ## Requisitos de acceso
 
@@ -36,12 +36,12 @@ Para obtener información acerca de cómo crear iniciativas, vea [Crear y editar
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
    <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
+   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: claro o superior</p> 
+   <td> <p>Nuevo: Light o superior</p> 
    <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ Se muestra una lista de planes.
 
      Workfront muestra el número de iniciativas seleccionadas.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![Número de iniciativa de selección múltiple](assets/multi-select-initiative-number.png)
 
    * Haga clic en el cuadro **[!UICONTROL Priorizar]** de la parte inferior del plan y elija una de las siguientes opciones:
 
@@ -100,7 +100,7 @@ Se muestra una lista de planes.
       * **[!UICONTROL Inferior]**: mueve las iniciativas seleccionadas al final de la lista de iniciativas. Las iniciativas seleccionadas se muestran en último lugar del plan.
       * **[!UICONTROL Seleccionar un número]**: mueve las iniciativas seleccionadas después de la iniciativa indicada aquí.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![Priorizar iniciativas](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] coloca inmediatamente las iniciativas seleccionadas donde usted indica y los números de todas las iniciativas se actualizan en consecuencia.
 

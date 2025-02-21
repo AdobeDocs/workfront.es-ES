@@ -6,10 +6,10 @@ description: Puede cerrar un objetivo cuando desee indicar que lo ha completado 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 0%
+source-wordcount: '952'
+ht-degree: 31%
 
 ---
 
@@ -33,13 +33,13 @@ Debe tener lo siguiente:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> 
-   <p>Para el nuevo plan y la estructura de licencias:
-  <ul><li>Un plan definitivo </li></ul>
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
    </p>
-<p>Para el plan y la estructura de licencias actuales: 
-<ul><li> A Pro o superior </li>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
    </td> 
   </tr>
@@ -47,9 +47,9 @@ Debe tener lo siguiente:
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
- <p>Nueva licencia: Colaborador o superior</p>
+ <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Solicitud o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Resumen de licencias de Adobe Workfront</a>.</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
@@ -59,23 +59,23 @@ Debe tener lo siguiente:
 <li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
 <li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para los objetivos de Adobe Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <td role="rowheader">Nivel de acceso</td>
- <td> <p>Editar acceso a Objetivos</p> </td>
+ <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
-  <p>Ver o permisos superiores a la meta para verla</p>
-  <p>Administrar permisos para el objetivo y editarlo</p>
-  <p>Para obtener información acerca de cómo compartir metas, vea <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
+  <p>Permisos Ver o superiores para la meta que desea ver</p>
+  <p>Permisos de administración para la meta y poder editarla</p>
+  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -85,16 +85,16 @@ Debe tener lo siguiente:
 
 ## Consideraciones al cerrar o volver a abrir las metas
 
-* Debe tener acceso a Editar metas en su nivel de acceso para poder cerrar y volver a abrir las metas. Para obtener información sobre cómo conceder acceso a las metas, consulte [Conceder acceso a las metas de Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* Debe tener acceso a Editar metas en su nivel de acceso para poder cerrar y volver a abrir las metas. Para obtener información sobre cómo conceder acceso a las metas, consulte [Concesión de acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 * Solo puede cerrar las metas activas. No se pueden cerrar los objetivos que están en estado de Borrador.
 
-  Para obtener información sobre los estados de objetivos, consulte [Información general sobre el estado de los objetivos en Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
+  Para obtener información sobre los estados de metas, consulte [Información general sobre el estado de las metas en Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
 
 * Cerrar metas bloquea su progreso y le permite calificar lo bien que lo logró.
 
   >[!CAUTION]
   >
-  >Al cerrar una meta que tiene metas de contribución activas, su progreso cambia después de cerrarse para indicar el progreso de las metas de contribución activas. Para obtener información acerca de cómo alinear metas, vea [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  >Al cerrar una meta que tiene metas de contribución activas, su progreso cambia después de cerrarse para indicar el progreso de las metas de contribución activas. Para obtener información sobre la alineación de metas, consulte [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 * Actualice los indicadores de progreso de la meta antes de cerrarla para asegurarse de que se cierra con un valor de progreso preciso. Si se han alcanzado todos los indicadores de progreso, el porcentaje de objetivo completado debe ser del 100 % y se ha alcanzado el objetivo. Para obtener información sobre cómo actualizar tus metas, consulta [Actualizar progreso de metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 * Deje los comentarios finales como una actualización de los objetivos que cierre. Para obtener información sobre cómo agregar comentarios a las metas, consulte [Administrar comentarios sobre las metas en Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -111,7 +111,7 @@ Closing goals differs depending on what environment you use.
 
 ### Close goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -128,7 +128,7 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -137,13 +137,13 @@ Closing goals differs depending on what environment you use.
    >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
    >
    >
-   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >![Closing goals with active aligned goals](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
    >
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
 
    Se abre la Lista de metas.
 
@@ -157,17 +157,17 @@ Closing goals differs depending on what environment you use.
 
    Se abre la página de la meta.
 
-   ![](assets/goal-page-unshimmed.png)
-1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre de la meta y luego haga clic en **Cerrar**.
+   ![Página de metas](assets/goal-page-unshimmed.png)
+1. Haga clic en el icono **Más** del menú ![Más](assets/more-icon.png) a la derecha del nombre de la meta y, a continuación, haga clic en **Cerrar**.
 
    La meta se cerrará y recibirá una confirmación en la esquina superior derecha de la pantalla.
 
-   ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![Confirmación de cierre de meta](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Opcional) En el cuadro de confirmación, haga clic en **Agregar notas de cierre** para agregar comentarios sobre este objetivo y sobre el motivo por el que debe cerrarlo.
 1. Agregue notas de cierre y, a continuación, haga clic en **Agregar notas**.
 
-   ![](assets/add-closing-notes-box-unshimmed.png)
+   ![Agregar cuadro de notas de cierre](assets/add-closing-notes-box-unshimmed.png)
 
    Los comentarios se muestran en la sección Detalles del objetivo de la página del objetivo, en el área Notas de cierre.
 
@@ -185,7 +185,7 @@ Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -201,7 +201,7 @@ Reopening goals differs depending on what environment you use.
 
    This opens the Goal Details panel on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
@@ -209,7 +209,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png)> **Metas** en la esquina superior derecha.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png)> **Metas** en la esquina superior derecha.
 
    Se abre la Lista de metas.
 
@@ -222,7 +222,7 @@ Reopening goals differs depending on what environment you use.
 1. Haga clic en el nombre de una meta cerrada.
 
    Se abre la página de la meta.
-1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre de la meta y, a continuación, **Volver a abrir** > **Volver a abrir**.
+1. Haga clic en el **icono Más** del menú ![Más](assets/more-icon.png) a la derecha del nombre de la meta y, a continuación, **Volver a abrir** > **Volver a abrir**.
 
    Ocurren lo siguiente:
    * La meta ahora está abierta y tiene el estado Activo.

@@ -7,10 +7,10 @@ description: Puede solicitar acceso a un plan en el planificador de escenarios d
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 1%
+source-wordcount: '511'
+ht-degree: 12%
 
 ---
 
@@ -31,12 +31,12 @@ Puede solicitar acceso a un plan en [!DNL Adobe Workfront Scenario Planner] cuan
    <td> <ul></li>
    <li><p>Nuevo: Ultimate </p></li>
    <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Empresa] o superior</p></ul>
+   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: claro o superior</p> 
+   <td> <p>Nuevo: Light o superior</p> 
    <p>Actual: [!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
@@ -80,9 +80,9 @@ Para solicitar permisos:
 
 1. Haga clic en un vínculo a un plan.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![Solicitar acceso al plan](assets/request-access-to-plan-350x277.png)
 
-1. En el menú desplegable **[!UICONTROL Solicitar acceso a]**, indique qué nivel de permisos desea que se le concedan. Seleccione una de las siguientes opciones:
+1. En el menú desplegable **[!UICONTROL Solicitar acceso a]**, indique qué nivel de permisos desea que se le concedan. Seleccione entre las siguientes opciones:
 
    * [!UICONTROL Vista]
    * [!UICONTROL Administrar]
@@ -98,11 +98,11 @@ Para solicitar permisos:
    Lo siguiente sucede:
 
    * [!DNL Workfront] envía una notificación por correo electrónico al propietario del plan para que conceda los permisos solicitados.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![Solicitar notificación por correo electrónico de acceso](assets/request-access-to-plan-email-350x156.png)
 
    * Una vez que el propietario del plan conceda los permisos solicitados, recibirá un mensaje de correo electrónico informándole de que los permisos se han concedido si el administrador de [!DNL Workfront] tiene habilitada la notificación de uso compartido de objetos a usuarios en su sistema y si habilita la notificación de correo electrónico [!UICONTROL Alguien comparte un objeto conmigo] en su perfil.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![Correo electrónico con acceso concedido](assets/access-granted-to-plan-email-350x172.png)
 
    * También puede conceder permisos a planes del área [!UICONTROL Hogar] y de la aplicación móvil [!DNL Workfront].
 

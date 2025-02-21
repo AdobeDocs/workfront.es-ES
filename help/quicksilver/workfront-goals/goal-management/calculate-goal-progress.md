@@ -6,10 +6,10 @@ description: El progreso de los objetivos está impulsado por indicadores de pro
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 15%
+source-wordcount: '833'
+ht-degree: 16%
 
 ---
 
@@ -46,7 +46,7 @@ Después de activar una meta, Workfront Goals empieza a calcular su progreso y c
 | Porcentaje completado esperado | La cantidad de la meta debe completarse hasta el momento para que la meta se complete a tiempo. Workfront Goals calcula este valor mirando la Duración de la meta y el momento actual en el tiempo. La meta debería mostrar este valor en el momento actual, si se completara a tiempo. |
 | Progreso | Una etiqueta que indica si la meta está en el objetivo de completarse a tiempo o si está en riesgo o en problemas de no completarse. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![Con problemas](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Por ejemplo, si el porcentaje completado esperado es del 53 % en el momento actu
 
 El siguiente gráfico ilustra la relación entre las etiquetas de condición y el porcentaje de progreso:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Etiquetas de estado de progreso marcadas](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 En la tabla siguiente se enumeran las etiquetas de condición de objetivo y los porcentajes de progreso de objetivo asociados a cada etiqueta.
 

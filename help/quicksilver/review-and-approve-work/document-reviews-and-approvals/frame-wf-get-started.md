@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 0%
+source-wordcount: '1165'
+ht-degree: 22%
 
 ---
 
@@ -24,7 +24,7 @@ Para obtener más información sobre Frame.io, consulte [Introducción a Frame.i
 
 ## Inicio y planificación del trabajo en Workfront
 
-El administrador de Workfront permite la integración entre Workfront y Frame.io configurando la cuenta predeterminada de Frame.io en el área de Configuración y designando a continuación a los usuarios de Frame.io en Workfront. Esto permite al coordinador planificar e iniciar el trabajo mediante proyectos de Workfront y flujos de trabajo formales de revisión y aprobación.
+El administrador de Workfront permite la integración entre Workfront y Frame.io configurando la cuenta predeterminada de Frame.io en el área de configuración y, a continuación, designando a los usuarios de Frame.io en Workfront. Esto permite al coordinador planificar e iniciar el trabajo mediante proyectos de Workfront y flujos de trabajo formales de revisión y aprobación.
 
 ### Configure la cuenta predeterminada de Frame.io [!BADGE Próximamente]{type=Informative}
 
@@ -32,7 +32,7 @@ Los administradores de Workfront inician la integración de Workfront y Frame.io
 
 >[!IMPORTANT]
 >
->Esta función estará disponible próximamente. Por ahora, el equipo de Workfront agrega manualmente las cuentas de Frame.io. Póngase en contacto con el representante de su cuenta de Adobe para obtener ayuda.
+>Esta función estará disponible próximamente. Por ahora, el equipo de Workfront añade manualmente las cuentas de Frame.io. Póngase en contacto con el representante de su cuenta de Adobe para obtener ayuda.
 
 <!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -40,30 +40,30 @@ Los administradores de Workfront inician la integración de Workfront y Frame.io
 
 ### Habilitar usuarios de Frame.io Ya está disponible
 
-Los usuarios de Workfront que utilicen Frame.io con regularidad deben marcarse como usuarios de Frame.io. Los administradores de Workfront pueden designar a los usuarios de Frame.io en el Perfil de usuario de Workfront.
+Los usuarios de Workfront que utilicen Frame.io con regularidad deben marcarse como usuarios de Frame.io. Los administradores de Workfront pueden designar a usuarios de Frame.io en el perfil de usuario de Workfront.
 
 >[!TIP]
 >
->Recomendamos habilitar a los usuarios que trabajan regularmente en herramientas creativas y cargan recursos para su revisión y aprobación como usuarios de Frame.io.
+>Se recomienda habilitar a usuarios que trabajen regularmente en herramientas creativas y carguen recursos para su revisión y aprobación como usuarios de Frame.io.
 
-Cuando un usuario está marcado como usuario de Frame.io en Workfront y se añade a un proyecto:
+Cuando se marca a un usuario como usuario de Frame.io en Workfront y se añade a un proyecto:
 
 * Se añaden como Collaborator en Frame.io.
-* Pueden enviar recursos desde Frame.io a Workfront para su revisión y aprobación formales.
-* Pueden ver información en la carpeta de sincronización unidireccional desde Workfront. [!BADGE Próximamente]{type=Informative}
+* Podrán enviar recursos desde Frame.io a Workfront para su revisión y aprobación formales.
+* Podrán ver información en la carpeta de sincronización unidireccional desde Workfront. [!BADGE Próximamente]{type=Informative}
 
 Para obtener más información, consulte [Configurar la [!DNL Workfront] integración y [!DNL Frame.io] integración](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-![](assets/Frame-enabled-user.png)
+![Usuario habilitado para fotograma](assets/Frame-enabled-user.png)
 
 
-### Cree un proyecto conectado con Frame.io
+### Crear un proyecto conectado con Frame.io
 
 Una vez añadida la cuenta predeterminada de Frame.io y designados los usuarios de Frame.io, los coordinadores de proyectos pueden crear proyectos de Workfront conectados con Frame.io. Al crear un proyecto conectado, puede
 
-* **Asignar usuarios de Frame.io a tareas**: se notifica por correo electrónico a los usuarios habilitados para Frame.io cuando se les asigna una tarea de Workfront, indicando que hay trabajo que completar.
-* **Compartir el proyecto con usuarios de Frame.io**: Cuando se comparte un proyecto con usuarios habilitados para Frame.io, tienen acceso al proyecto tanto dentro de Workfront como en Frame.io.
-* **Compartir materiales creativos con Frame.io**: los coordinadores de proyectos pueden enviar instrucciones y materiales desde Workfront directamente al usuario creativo en Frame.io mediante una carpeta de proyectos de sincronización unidireccional. [!BADGE Próximamente]{type=Informative}
+* **Asignar usuarios de Frame.io a tareas**: se notifica por correo electrónico a los usuarios habilitados para Frame.io cuando se les asigna una tarea de Workfront, indicando que hay trabajo para completar.
+* **Compartir el proyecto con usuarios de Frame.io**: cuando se comparte un proyecto con usuarios habilitados para Frame.io, tienen acceso al proyecto tanto dentro de Workfront como en Frame.io.
+* **Compartir materiales creativos con Frame.io**: los coordinadores de proyectos pueden enviar instrucciones y materiales desde Workfront directamente al usuario creativo en Frame.io mediante una carpeta de proyectos de sincronización unidireccional. [!BADGE Muy pronto]{type=Informative}
 * **Seguimiento del progreso de las tareas**: los creativos pueden enviar los recursos finalizados y marcar las tareas como completadas, todo sin salir de Frame.io.
 
 Para obtener más información, vea [Crear un proyecto conectado con Frame.io](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
@@ -114,7 +114,7 @@ Los revisores y aprobadores se pueden añadir a un flujo de trabajo de aprobaci�
   Para obtener más información, vea [Crear una plantilla de aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
-![](assets/assign-template.png)
+![Asignar plantilla](assets/assign-template.png)
 
 
 #### Acceso al visor de Frame.io
@@ -123,7 +123,7 @@ Los usuarios pueden acceder al visor Frame.io de las siguientes maneras:
 
 * Notificaciones por correo electrónico de Workfront
 * El widget Mi aprobación en la nueva área de inicio de Workfront
-  ![](assets/awaiting-my-approval.png)
+  ![En espera de mi aprobación](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Los revisores pueden marcar su revisión como completada dentro del visor de Fra
 
 Para obtener más información sobre las decisiones en Workfront, consulte [Resumen del estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-![](assets/frame-viewer-and-decision.png)
+![Visor de fotogramas y decisión](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 Los coordinadores de proyecto pueden monitorizar el progreso de todas las aprobaciones en vuelo en el área de inicio de Workfront con el siguiente widget:
 
 * **Todas las aprobaciones**: muestra 2 gráficos con información sobre el tiempo promedio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas.
-  ![](assets/all-approvals.png)
+  ![Todas las aprobaciones](assets/all-approvals.png)

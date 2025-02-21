@@ -7,9 +7,9 @@ description: Como administrador comercial, puede utilizar Adobe Workfront Scenar
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1160'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ Tenga en cuenta lo siguiente al crear planes:
 
 Puede revisar la información general de roles de trabajo de los planes que indica la cantidad de roles de trabajo disponibles para el plan, así como la cantidad de roles de trabajo necesarios para que se completen las iniciativas. Puede ver esta información en la casilla [!UICONTROL Funciones del puesto] del encabezado del plan.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![Cuadro de rol del plan](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 Puede ver lo siguiente en la ventana de rol:
 
@@ -78,7 +78,7 @@ Para obtener información sobre cómo obtener acceso a un plan y ver informació
 
 Puede revisar la información financiera sobre un plan, específicamente su presupuesto planificado, cómo se utiliza ese presupuesto y cuál es el valor neto del plan. El valor neto de un plan se basa en el valor neto de sus iniciativas. Puede ver esta información en los cuadros [!UICONTROL Financiero] y [!UICONTROL Resumen] del encabezado del plan.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![Cuadros de presupuesto y valor neto](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 Puede ver lo siguiente en los cuadros [!UICONTROL Financiero] y [!UICONTROL Resumen] del plan:
 
