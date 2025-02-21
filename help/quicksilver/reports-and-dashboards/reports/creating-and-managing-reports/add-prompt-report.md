@@ -6,9 +6,9 @@ description: Los filtros y los indicadores son similares en el sentido de que am
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 77%
 
 ---
@@ -92,7 +92,7 @@ Para obtener instrucciones sobre cómo crear un informe, consulte [Crear un info
 
 1. Haga clic en el botón **Configuración de informes**.
 1. Haga clic en la ficha **Indicadores del informe** y, a continuación, haga clic en **Agregar un mensaje**.\
-   ![](assets/create-report-prompt-tab.png)
+   ![Ficha de mensajes de informe](assets/create-report-prompt-tab.png)
 
 1. (Condicional) Seleccione el campo en el que desea basar la indicación. Empiece a escribir el nombre del campo y, a continuación, haga clic en para seleccionarlo cuando aparezca en la lista.\
    Las opciones disponibles para los usuarios que ejecuten el informe variarán según el campo que seleccione.\
@@ -144,7 +144,7 @@ Para ejecutar un informe con un mensaje:
 
 1. Vaya al informe con el mensaje.
 
-   ![](assets/run-report-prompts.png)
+   ![Ejecutar solicitudes de informe](assets/run-report-prompts.png)
 
 1. Elija una condición para uno o todos los mensajes mostrados en la ficha **Mensajes**.\
    (Opcional) Puede dejar los mensajes en blanco y no filtrar el informe por las condiciones del mensaje.

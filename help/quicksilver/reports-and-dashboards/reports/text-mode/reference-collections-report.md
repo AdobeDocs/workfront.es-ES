@@ -6,9 +6,9 @@ description: Colecciones de referencia en un informe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 5%
 
 ---
@@ -151,7 +151,7 @@ La vista muestra la información de tareas o problemas en formato de lista, y ca
 
 Para agregar una columna de colección en una vista de informe:
 
-1. Haga clic en el menú **Principal** ![](assets/main-menu-icon.png) y luego haga clic en **Informes**.
+1. Haga clic en el **icono del menú principal** ![Menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe**.
 1. Seleccione el objeto del informe.
 1. Salga del informe y, con el [Explorador de API](../../../wf-api/general/api-explorer.md), determine qué colecciones están disponibles para el objeto que seleccionó para el informe.
@@ -236,7 +236,7 @@ Para agregar una columna de colección en una vista de informe:
 
 1. La siguiente columna se muestra en el informe del proyecto e incluye todas las tareas de cada proyecto junto con sus principales usuarios asignados:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Informe de proyecto con colección de tareas y usuarios asignados](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Haga clic en **Guardar**.
 1. (Opcional) Continúe editando el informe.
@@ -261,7 +261,7 @@ Las líneas de una vista de modo de texto de una colección se describen en la s
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>Puede usar varios valores para esta línea, pero se recomienda que <code style="font-weight: normal;">valueformat</code> para una lista de colección sea <strong>HTML.</strong></p>
+   <td> <p>Puede usar varios valores para esta línea, pero le recomendamos que <code style="font-weight: normal;">valueformat</code> para una lista de colección sea <strong>HTML.</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Por ejemplo, puede filtrar la información de tareas o problemas de un informe d
 
 Para agregar una referencia a una colección en un filtro de informe:
 
-1. Haga clic en el menú **Principal** ![](assets/main-menu-icon.png) y luego haga clic en **Informes**.
+1. Haga clic en el **icono del menú principal** ![Menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe**.
 1. Seleccione el objeto del informe.
 1. Salga del informe y, con el [Explorador de API](../../../wf-api/general/api-explorer.md), determine qué colecciones están disponibles para el objeto que seleccionó para el informe.
@@ -350,7 +350,7 @@ Para agregar una referencia a una colección en un filtro de informe:
 
    Este informe solo muestra los proyectos que tienen al menos una tarea con la palabra &quot;marketing&quot; en su nombre.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Tareas de solo marketing en el proyecto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Para filtrar por el nombre de un problema, utilice el siguiente código:
 
@@ -386,7 +386,7 @@ Para obtener más información acerca de cómo generar una instrucción de filtr
 
 Para agregar una referencia a una colección en la petición de datos personalizada de un informe:
 
-1. Haga clic en el menú **Principal** ![](assets/main-menu-icon.png) y luego haga clic en **Informes**.
+1. Haga clic en el **icono del menú principal** ![Menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe**.
 1. Seleccione el objeto del informe.
 1. Genere un filtro con una referencia de colección como se describe en la sección [Hacer referencia a una colección en el filtro de un informe](#reference-a-collection-in-the-filter-of-a-report) en este artículo.

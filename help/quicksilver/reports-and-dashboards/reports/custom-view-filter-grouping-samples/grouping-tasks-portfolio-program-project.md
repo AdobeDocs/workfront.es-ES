@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupación: Tareas por Portfolio, Programa y Proyecto"
+title: 'Agrupación: Tareas por Portfolio, Programa y Proyecto'
 description: Utilice esta agrupación de tareas para agrupar tareas por el portafolio, por programa y luego por el proyecto con el que están asociadas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 58%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Utilice esta agrupación de tareas para agrupar tareas por el portafolio, por programa y luego por el proyecto con el que están asociadas.
 
-![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Agrupación de proyectos de programas de Portfolio](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Requisitos de acceso
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -49,16 +49,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,13 +66,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para aplicar esta agrupación:
 
-1. Ir a una lista de tareas.
+1. Vaya a una lista de tareas.
 1. En el menú desplegable **Agrupación**, seleccione **Nueva agrupación**.
 1. Haga clic en **Agregar agrupación**.
 
-1. Haga clic **Cambiar al modo de texto**.
+1. Haga clic en **Cambiar a modo de texto**.
 1. Quitar el texto del área **Agrupar por**.
-1. Reemplace el texto con el siguiente código:
+1. Reemplace el texto por el código siguiente :
 
    ```
    group.0.linkedname=project

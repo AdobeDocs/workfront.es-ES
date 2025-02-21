@@ -6,10 +6,10 @@ description: Puede quitar una página externa de un panel si ya no la necesita.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 26%
+source-wordcount: '249'
+ht-degree: 25%
 
 ---
 
@@ -69,11 +69,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Haga clic en **Acciones de panel** y luego haga clic en **Editar**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Editar tablero](assets/unshimmed-edit-dashboard.png)
 
-1. En el lado derecho de la pantalla, localice la página externa que desee eliminar y haga clic en el icono **Eliminar** ![](assets/delete.png).
+1. En el lado derecho de la pantalla, localice la página externa que desee eliminar y haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png).
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![Eliminar icono de página externa dentro del panel](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Haga clic en **Guardar + Cerrar** en la esquina inferior izquierda.
 

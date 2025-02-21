@@ -6,9 +6,9 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 74%
 
 ---
@@ -122,7 +122,7 @@ Compartir uno o varios informes de una lista es lo mismo.
 
    * **Todos los usuarios del sistema pueden ver** Seleccione esta opción para que todos los usuarios de Workfront con acceso a los informes puedan ver el informe.
 
-1. (Opcional) Haga clic en el icono **Engranaje** ![](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro para compartir y, opcionalmente, seleccione la siguiente opción:
+1. (Opcional) Haga clic en el icono **Engranaje** ![Configuración del icono de Engranaje](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro para compartir y, a continuación, seleccione opcionalmente la siguiente opción:
 
    * **Convertir esto en público para usuarios externos** Seleccione esta opción para generar una dirección URL que se pueda compartir con otros usuarios. Cualquier persona con la dirección URL puede acceder al informe sin tener una licencia de Adobe Workfront.
 

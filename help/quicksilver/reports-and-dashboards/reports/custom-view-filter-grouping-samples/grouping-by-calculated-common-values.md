@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupación: organizar los resultados de la lista por un valor calculado común a todos los objetos de la agrupación"
+title: 'Agrupación: organizar los resultados de la lista por un valor calculado común a todos los objetos de la agrupación'
 description: Es posible que desee ver las tareas agrupadas por porcentaje completado en intervalos de 0-25, 26-50, 51-75, 75-99 y 100. Para ello, puede crear una agrupación mediante el modo de texto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 87%
 
 ---
 
-# Grouping: organiza los resultados de la lista por un valor calculado común a todos los objetos de la agrupación
+# Agrupación: organice los resultados de la lista por un valor calculado común a todos los objetos de la agrupación
 
 <!--Audited: 10/2024-->
 
 Es posible que desee ver las tareas agrupadas por porcentaje completado en intervalos de 0-25, 26-50, 51-75, 75-99 y 100. Para ello, puede crear una agrupación mediante el modo de texto.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![Agrupación por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Requisitos de acceso
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -49,16 +49,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,11 +66,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para aplicar esta agrupación a una lista de tareas:
 
-1. Ir a una lista de tareas.
+1. Vaya a una lista de tareas.
 1. En el menú desplegable **Agrupación** seleccione **Nueva agrupación**.
 
 1. Haga clic en **Cambiar al modo de texto**.
-1. En el espacio disponible, agregue el siguiente código:
+1. En el espacio disponible, añada el siguiente código:
 
    ```
    textmode=true
@@ -80,5 +80,5 @@ Para aplicar esta agrupación a una lista de tareas:
    group.0.namekey=percentComplete
    ```
 
-1. Haga clic en **Listo** y luego en **Guardar agrupación**.
+1. Haga clic en **Listo** y, a continuación, en **Guardar Agrupación**.
 1. (Opcional) Actualice el nombre de la agrupación y, a continuación, haga clic en **Guardar agrupación**.

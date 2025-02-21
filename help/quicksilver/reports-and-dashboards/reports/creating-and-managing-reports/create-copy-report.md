@@ -7,10 +7,10 @@ description: Puede crear una copia de cualquier informe al que tenga acceso. Pue
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -49,16 +49,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p></td> 
+   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto*</td> 
-   <td><p>Ver permisos de un informe</p></td> 
+   <td><p>Permisos de visualización para un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Si desea realizar una copia de un informe personalizado, haga lo siguiente:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Informes]**.
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Informes]**.
 
 1. Haga clic en **Todos los informes** y, a continuación, abra un informe.
 
@@ -104,11 +104,11 @@ Si desea realizar una copia de un informe personalizado, haga lo siguiente:
 
 Si desea crear una copia de un informe predeterminado, haga lo siguiente:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
 1. Haga clic en **Informes** y luego en **Todos los informes**.
 1. Haga clic en el nombre de un informe predeterminado para abrirlo.
-1. Haga clic en **Acciones de informe** y luego en **Editar**.
+1. Haga clic en **Acciones de informe** y, a continuación, en **Editar**.
 
    ![Editar informe](assets/unshimmed-report-actions-default-report.png)
 
@@ -124,6 +124,6 @@ Si desea crear una copia de un informe predeterminado, haga lo siguiente:
 1. Haga clic en **Listo**.
 1. Haga clic en **Guardar como nuevo informe**.
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![Guardar como nuevo informe](assets/unshimmed-save-as-new-report.png)
 
 1. (Opcional) Para compartir la nueva versión del informe con otros usuarios, haga clic en **Acciones de informe** y luego en **Compartir**.

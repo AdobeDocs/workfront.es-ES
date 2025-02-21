@@ -6,10 +6,10 @@ description: Puede incrustar una nueva cola de solicitudes en un panel de contro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '1150'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Los usuarios pueden cambiar el tipo de solicitud o elegir otro tema si lo necesi
 
    Esto copia el vínculo a la cola de solicitudes o al tema de la cola a medida que se muestra en la pantalla. Los usuarios pueden actualizar el tipo de solicitud o cualquiera de los grupos de temas y los temas de colas disponibles.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![Solicitar cola con ruta compartida](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Obtener un vínculo a una cola de solicitudes y poder cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ Cuando comparte un vínculo a un tipo de solicitud, se selecciona el tipo de sol
 
    Los usuarios pueden seleccionar cualquier grupo de temas o tema de cola que necesiten, o bien elegir otro tipo de solicitud.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![Solicitar URL de cola](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Obtener un vínculo a una cola de solicitudes sin poder cambiar el tipo de solicitud {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ Al compartir un vínculo a un tipo de solicitud preseleccionado, el tipo de soli
 
    Los usuarios pueden seleccionar cualquier grupo de temas o tema de cola que necesiten para el tipo de solicitud seleccionado. Los usuarios no pueden seleccionar otro tipo de solicitud.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Solicitar código de cola](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Incrustar una cola de solicitudes en un panel de control
 
@@ -164,7 +164,7 @@ Puede incrustar en un panel de control un vínculo a la cola de solicitudes o a 
 
 1. Haga clic en **Añadir página externa**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![Página externa](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. En el cuadro **Añadir página externa**, edite los campos siguientes:
 

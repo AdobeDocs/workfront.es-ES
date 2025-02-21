@@ -6,9 +6,9 @@ description: Resumen de entrega de informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 24%
 
 ---
@@ -133,7 +133,7 @@ Para obtener más información sobre la línea de asunto del correo electrónico
 
 El nombre del informe adjunto es: *The_Name_Of_The_Report* seguido del formato de archivo exportado.
 
-Si ha programado el informe enviado para que tenga el formato de PDF o archivo de HTML, el título del informe será:
+Si ha programado el informe enviado para que tenga el formato de archivo PDF o HTML, el título del informe será:
 
 *Nombre del informe.*
 
@@ -167,14 +167,14 @@ Siempre recibe la pestaña Detalles de un informe cuando se envía un informe o 
 
 Si el informe tiene un formato especial en la aplicación web, el informe debe entregarse con el formato especial cuando las pestañas Detalles y Matriz solo se entregan para archivos .pdf y Excel.
 
-El filtro, la vista o la agrupación del informe no se incluyen en el archivo enviado. La descripción del informe solo se incluye cuando se envía el informe como archivo de PDF.
+El filtro, la vista o la agrupación del informe no se incluyen en el archivo enviado. La descripción del informe solo se incluye cuando se envía el informe como archivo PDF.
 
 Para obtener más información acerca de cómo recibir informes con una vista especial, vea el artículo [Informes con una vista especial](#reports-with-a-special-view).\
 Para obtener más información sobre cómo seleccionar la ficha predeterminada de un informe y sobre el formato especial, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Vínculos {#links}
 
-Al enviar un informe desde Workfront al formato PDF o Excel, los vínculos de trabajo que existan en el documento original permanecerán activos en el archivo enviado. Los vínculos pueden señalar a cualquier objeto de Workfront que admita la vinculación.
+Al enviar un informe desde Workfront al formato de PDF o Excel, los vínculos de trabajo que existan en el documento original permanecerán activos en el archivo enviado. Los vínculos pueden señalar a cualquier objeto de Workfront que admita la vinculación.
 
 El nombre del informe que aparece en el mensaje de correo electrónico también es un vínculo.
 
@@ -189,7 +189,7 @@ Puede ver si un informe se ha configurado para enviarse creando lo siguiente:
 
 * **Un filtro** para el objeto de informe: cree un filtro en una lista de informes o en un informe de informes con la siguiente instrucción: *El Id. de informe programado no está en blanco*.\
   Esto solo mostrará los informes que se hayan programado en su lista o informe.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![Filtro de informe programado](assets/qs-scheduled-report-filter-350x101.png)\
   Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obtener información sobre cómo crear un informe de informes, consulte [Crear un informe de actividades de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

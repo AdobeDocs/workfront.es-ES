@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: quitar el vínculo a un objeto en una columna"
-description: De forma predeterminada, algunos objetos que se muestran en una vista se vinculan a la página Detalles del objeto. Por ejemplo, la columna que muestra el Nombre de un proyecto es un vínculo al proyecto; la columna que muestra el Nombre de un usuario es un vínculo a la página de perfil del usuario.
+title: 'Ver: Quitar vínculo a un objeto en una columna'
+description: De forma predeterminada, algunos objetos que se muestran en una vista se vinculan a la página Detalles del objeto. Por ejemplo, la columna que muestra el nombre de un proyecto es un vínculo al proyecto; la columna que muestra el nombre de un usuario es un vínculo a la página de perfil del usuario.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 83%
 
 ---
 
-# Ver: Eliminar el vínculo a un objeto de una columna
+# Vista: quitar el vínculo a un objeto en una columna
 
 <!--Audited: 11/2024-->
 
-De forma predeterminada, algunos objetos que se muestran en una vista se vinculan a la página Detalles del objeto. Por ejemplo, la columna que muestra el Nombre de un proyecto es un vínculo al proyecto; la columna que muestra el Nombre de un usuario es un vínculo a la página de perfil del usuario.
+De forma predeterminada, algunos objetos que se muestran en una vista se vinculan a la página Detalles del objeto. Por ejemplo, la columna que muestra el nombre de un proyecto es un vínculo al proyecto; la columna que muestra el nombre de un usuario es un vínculo a la página de perfil del usuario.
 
 Puede quitar este vínculo mediante el modo de texto en columnas que se muestran en todas las vistas.
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -54,32 +54,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
 ## Ejemplo: Quitar el vínculo a una tarea de la columna Nombre de tarea en una vista de tareas:
 
-1. Ir a una lista de tareas.
-1. En el menú desplegable **Vista**, haga clic en **Nueva vista** para crear una vista nueva.
+1. Vaya a una lista de tareas.
+1. En el menú desplegable **Vista**, haga clic en **Nueva vista** para crear una nueva vista.
 
    O
 
-   Haga clic en el **icono Editar** ![](assets/edit-icon.png)
+   Haga clic en el **icono Editar** ![icono Editar](assets/edit-icon.png)
 
-   para editar una vista existente, seleccione la vista.
+   para editar una vista existente y, a continuación, seleccione la vista.
 
-1. Haga clic en **Agregar columna** para agregar una columna nueva.
+1. Haga clic en **Añadir columna** para añadir una columna nueva.
 
    O
 

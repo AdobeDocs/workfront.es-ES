@@ -7,10 +7,10 @@ description: Este filtro de tareas devuelve solicitudes de trabajo ad hoc enviad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 29%
+source-wordcount: '305'
+ht-degree: 28%
 
 ---
 
@@ -24,7 +24,7 @@ Las solicitudes de trabajo ad hoc y los elementos pendientes se guardan en Adobe
 
 Las tareas personales no están conectadas a un proyecto, pero se pueden mover a un proyecto si es necesario. Para obtener más información, consulte [Crear tareas personales](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
-![](assets/personal-tasks-report.png)
+![Informe de tareas personales](assets/personal-tasks-report.png)
 
 ## Requisitos de acceso
 

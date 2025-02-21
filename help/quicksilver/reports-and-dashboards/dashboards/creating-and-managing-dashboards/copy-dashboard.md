@@ -6,10 +6,10 @@ description: Es posible copiar un tablero y todo su contenido (informes, calenda
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Para obtener información sobre cómo crear tableros, consulte [Creación de tab
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Paneles]**.
 
-1. Seleccione el tablero que desee copiar y haga clic en **Copiar** ![](assets/copy-icon.png).\
+1. Seleccione el tablero que quiera copiar y luego haga clic en **Copiar** ![Icono de copiar](assets/copy-icon.png).\
    O\
    Abra el tablero que quiera copiar y, a continuación, haga clic en **Acciones de tablero** > **Copiar**.\
    Se mostrará el cuadro de diálogo Copia de tablero. Se mostrarán todos los elementos del tablero original.

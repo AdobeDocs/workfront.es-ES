@@ -6,10 +6,10 @@ description: De forma predeterminada, los usuarios solo pueden ver los objetos d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 21%
+source-wordcount: '1193'
+ht-degree: 20%
 
 ---
 
@@ -86,7 +86,7 @@ Para ejecutar un informe con los derechos de acceso de otro usuario:
 1. Haga clic en **Configuración del informe**.
 
 1. En el campo **Ejecutar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario con el que desea que se muestre el informe y, a continuación, selecciónelo cuando lo vea en la lista.\
-   ![](assets/unshimmed-access-rights-of.png)
+   ![Ejecutar con derechos de acceso de](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Puede configurar los informes para que se envíen como archivos adjuntos a un co
 
 Para entregar un informe con los derechos de acceso de otro usuario:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y, a continuación, haga clic en **Informes**.
 
 1. Seleccione el informe que desea enviar con los derechos de acceso de otro usuario.
 1. Haga clic en el nombre del informe para seleccionarlo.
@@ -116,7 +116,7 @@ Para entregar un informe con los derechos de acceso de otro usuario:
 1. Haga clic en **Enviar informe**.
 
 1. En el campo **Enviar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario que desea que muestre el informe como cuando se envía en un mensaje de correo electrónico y, a continuación, selecciónelo cuando lo vea en la lista. El valor predeterminado es el nombre del usuario que está creando el informe.\
-   ![](assets/unshimmed-send-report-access-rights-of.png)
+   ![Informe enviado con derechos de acceso de](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

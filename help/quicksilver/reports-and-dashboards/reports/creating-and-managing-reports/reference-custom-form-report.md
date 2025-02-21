@@ -6,10 +6,10 @@ description: Puede hacer referencia a los formularios personalizados de un objet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 96%
+source-wordcount: '967'
+ht-degree: 95%
 
 ---
 
@@ -82,7 +82,7 @@ Al crear el informe, simplemente utilice el tipo de objeto del formulario como o
 
 Por ejemplo, es posible que tenga un formulario personalizado aplicado a todos los proyectos que incluya el campo personalizado **Consultor**. Para crear un informe que enumere todos los proyectos en los que Olivia Kim sea la consultora, use el tipo de objeto **Proyecto** como origen de campo y use **Consultor** como nombre de campo. Establezca el calificador de filtro en **Equal** y, a continuación, escriba Olivia Kim.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![Filtro de consultor](assets/qs-consultant-filter-example-350x126.png)
 
 Para obtener más información acerca de cómo crear un informe, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -111,13 +111,13 @@ Para mostrar todos los formularios personalizados asociados a un objeto:
 1. Comience a crear un informe como se describe en el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. En la ficha **Columnas**, expanda el tipo de objeto al que se aplica el formulario personalizado al que desea hacer referencia y, a continuación, haga clic en **Nombre de categoría**.\
    Por ejemplo, para mostrar todos los formularios personalizados asociados a una tarea, expanda el origen del campo **Tarea** y, a continuación, haga clic en el nombre de campo **Nombre de categoría**.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![Columna de nombre de categoría](assets/qs-category-name-column-350x267.png)
 
 Para mostrar solo el formulario personalizado principal asociado al objeto:
 
 1. Comience a crear un informe como se describe en el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. En la pestaña **Columnas**, expanda el origen del campo **Categoría** y, a continuación, haga clic en el nombre del campo **Nombre**.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![Nombre de categoría](assets/qs-category-name-column-2-350x248.png)
 
 ### Hacer referencia a los formularios personalizados en el filtro de un informe {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ Para filtrar todos los formularios personalizados asociados al tipo de objeto:
 
 1. Comience a crear un informe tal como se describe en el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. En la pestaña **Filtros**, expanda **Categorías** y, a continuación, haga clic en **Nombre**.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![Filtro de nombre de categoría](assets/qs-categories-name-filter-350x311.png)
 
 1. Seleccione el calificador de condición que desee utilizar:
 
@@ -150,7 +150,7 @@ Para filtrar únicamente en el formulario personalizado principal asociado al ti
 
 1. Comience a crear un informe tal como se describe en el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. En la pestaña **Filtros**, expanda el origen del campo **Categoría** y, a continuación, haga clic en el nombre del campo **Nombre**.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![Filtro de nombre de categoría](assets/qs-category-name-filter-350x437.png)
 
 1. Seleccione el calificador de condición que desee utilizar:
 
@@ -175,4 +175,4 @@ Para filtrar únicamente en el formulario personalizado principal asociado al ti
 
 1. Comience a crear un informe tal como se describe en el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. En la pestaña **Agrupaciones**, expanda **Categoría** y, a continuación, haga clic en **Nombre**.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![Agrupación de nombres de categoría](assets/qs-category-name-grouping-350x373.png)

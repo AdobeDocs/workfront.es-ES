@@ -2,32 +2,32 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Vista: Vista de proyecto de varias filas"
-description: Obtenga información acerca de la vista de proyecto de varias filas en los informes.
+title: 'Vista: vista de proyecto de varias filas'
+description: Obtenga información sobre la vista de proyecto de varias filas en los informes.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 65%
 
 ---
 
-# Vista: proyecto de varias filas Ver
+# Vista: vista de proyecto de varias filas
 
 <!--Audited: 11/2024-->
 
-En esta vista de proyecto puede:
+En esta vista de proyecto se puede:
 
-* Muestra la información del proyecto en formato de varias filas.\
-  La vista utiliza la etiqueta `sharecol=true` para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre esta etiqueta, consulte [Ver: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+* Visualizar la información del proyecto en formato de varias filas.\
+  La vista utiliza la etiqueta `sharecol=true` para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre esta etiqueta, consulte [Vista: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 * Utilice una columna de marcador de posición que contenga una etiqueta de salto de línea de HTML (`<br>`) para forzar la visualización de la descripción debajo del nombre del proyecto, por ejemplo.
-* Muestre el propietario del proyecto entre paréntesis después del nombre del proyecto.
-* Muestre el nombre del proyecto como un vínculo al proyecto.
+* Visualizar el propietario del proyecto entre paréntesis después del nombre del proyecto.
+* Visualizar el nombre del proyecto como un vínculo al proyecto.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![Fila del proyecto con vista apilada](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Requisitos de acceso
 
@@ -40,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -61,23 +61,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Generar una vista de proyecto de varias filas
+## Creación de una vista de proyecto de varias filas
 
 1. Ir a una lista de proyectos.
-1. En el menú desplegable **Vista**, haz clic en **Nueva vista**.
+1. En el menú desplegable **Vista**, haga clic en **Nueva vista**.
 1. Elimine todas las columnas de la vista, excepto una.
 1. Seleccione la columna restante y haga clic en **Cambiar al modo de texto** y después en **Editar modo de texto**.
 1. Elimine el texto en **Editar modo de texto** y, a continuación, copie y pegue el modo de texto siguiente dentro de la columna:

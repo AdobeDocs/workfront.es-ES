@@ -6,10 +6,10 @@ description: Puede filtrar un informe por el lapso de tiempo de una fecha que ex
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 100%
+source-wordcount: '1024'
+ht-degree: 98%
 
 ---
 
@@ -70,14 +70,14 @@ Para obtener más información sobre la creación de informes, consulte [Crear u
 
 ## Filtrado de informes por el lapso de tiempo de una fecha {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) y haga clic en **creación de informes**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) y luego haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione el tipo de informe que desee.\
    Por ejemplo, seleccione **Informe de hora**.
 
 1. Seleccione la pestaña **Filtros**.
 1. Haga clic en **Agregar regla de filtro** y luego seleccione **Fecha de entrada de hora**.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![Filtrado del informe de horas por intervalo de tiempo](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. En el siguiente menú desplegable, seleccione cualquiera de las siguientes opciones:
 

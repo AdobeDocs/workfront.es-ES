@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: tiempo libre personal del usuario"
-description: "Ver: tiempo libre personal del usuario"
+title: 'Vista: días libres personales del usuario'
+description: 'Ver: Tiempo libre personal del usuario'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 5%
+source-wordcount: '260'
+ht-degree: 91%
 
 ---
 
-# Ver: tiempo libre personal del usuario
+# Vista: días libres personales del usuario
 
 <!--Audited: 11/2024-->
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-Puede crear un informe de días libres para capturar la información de los días libres de los usuarios.
+Puede generar un informe de días libres para capturar la información de los días libres de los usuarios.
 
 ## Requisitos de acceso
 
@@ -35,7 +35,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -56,31 +56,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ver tiempo libre personal del usuario
+## Ver días libres personales del usuario
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Informes > Nuevo informe**.
-1. En el menú desplegable, seleccione **Tiempo libre**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Informes > Nuevo informe**.
+1. En el menú desplegable, seleccione **Días libres**.
 1. Haga clic en **Guardar + Cerrar**.
 
    El informe muestra los siguientes campos en la vista de forma predeterminada:
 
-   | Usuario | El nombre del usuario que indicó el tiempo libre en su perfil. |
+   | Usuario | El nombre del usuario que indicó los días libres en su perfil. |
    |---|---|
-   | Fecha de inicio | La fecha de inicio del período de tiempo libre indicado por el usuario. |
-   | Fecha de finalización | La fecha final del período de tiempo libre indicado por el usuario. |
+   | Fecha de inicio | La fecha de inicio del período de días libres indicado por el usuario. |
+   | Fecha de finalización | La fecha de finalización del período de días libres indicado por el usuario. |
 
    {style="table-layout:auto"}
 
@@ -91,7 +91,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    * Filtros
    * Gráfico
 
-   Para obtener información sobre cómo crear informes, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >

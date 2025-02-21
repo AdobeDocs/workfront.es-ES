@@ -6,10 +6,10 @@ description: Puede incrustar una página web externa en un panel de control para
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 94%
+source-wordcount: '1030'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >[!IMPORTANT]
 >
 >* Por motivos de seguridad, algunos sitios web no permiten incrustar páginas web como un iframe. Si la página web que desea incrustar en un panel de control no lo permite, la página no se mostrará en dicho panel. Sin embargo, aún puede acceder a la página externa haciendo clic en el nombre del panel de control.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![Informe de página externa vacío](assets/qs-empty-external-page-report-350x165.png)\
 >Para permitir la incrustación en un sitio web de su propiedad, trabaje con el administrador web para configurar **X-Frame-Options**. Para obtener más información, consulte [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -118,7 +118,7 @@ O\
 
 1. Haga clic en **Agregar página externa** en el área **Seleccionar diseño / Agregar informes / Agregar calendarios**.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![Agregar página externa](assets/qs-add-external-page-350x239.png)
 
    Se muestra el cuadro **Agregar página externa**.
 
@@ -132,7 +132,7 @@ O\
 
       * Una URL https (cifrada) a una página web.\
         Solo las páginas https (cifradas) se cargan con la URL.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![Agregar cuadro de diálogo de página externa](assets/add-external-page-dialog-qs-350x247.png)
 
       * Una URL de plantilla que contiene información de la sesión de un sitio web específico.\
         Por ejemplo: *https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ Para actualizar la información de una página externa utilizada en un panel de 
    Se abre el cuadro **Detalles de panel de control**.
 
 1. En el área **Seleccionar diseño / Agregar informes** del cuadro **Detalles del panel**, busque la página externa que desee actualizar, pase el ratón sobre ella y haga clic en el icono **Editar**.\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![Página externa de edición en línea](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. En el cuadro **Editar página externa**, actualice los campos que desee cambiar y, a continuación, haga clic en **Guardar**.
-1. (Opcional) Haga clic en el icono **Eliminar** ![](assets/delete.png) para eliminar la página externa del panel de control. Para obtener más información, consulte [Quitar una página externa de un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Opcional) Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) para eliminar la página externa del panel. Para obtener más información, consulte [Quitar una página externa de un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Haga clic en **Guardar + Cerrar**.
 
 ## Ver páginas externas en un informe
@@ -184,7 +184,7 @@ Puede ver todas las páginas externas de Workfront en un informe de páginas ext
 
 1. Haga clic en **Nuevo informe** > seleccione **Sección externa**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![Sección externa](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Opcional) Actualice las pestañas Ver, Filtros o Agrupaciones del informe.
 

@@ -7,10 +7,10 @@ description: Al editar fechas en línea en una lista de objetos, el calendario m
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: '159'
+ht-degree: 98%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 0%
 ## Problema
 
 Al editar fechas en línea en una lista de objetos, el calendario muestra más fechas de las que debería. Esto hace que los días se muestren fuera del cuadro de calendario.\
-![](assets/calendar-view-350x134.png)
+![Vista de calendario](assets/calendar-view-350x134.png)
 
 ## Causa
 
-La vista de la ventana del explorador se ha modificado para que se muestre en un nivel de zoom superior al 100 %.
+La vista de la ventana del explorador se ha modificado para que se muestre en un nivel de zoom superior al 100 %.
 
 ## Solución
 
-Debe cambiar el nivel de zoom en el explorador para que sea del 100 % o menos.
+Debe cambiar el nivel de zoom en el explorador para que sea del 100 % o menos.
 
 Cambiar el nivel de zoom en el explorador depende del explorador que esté utilizando.
 
 Para cambiar el nivel de zoom en Google Chrome:
 
-1. En una ventana del explorador, ve a **Ver**.
-1. Haz clic en **Acercar** para reducir el nivel de zoom en la ventana actual del explorador.\
+1. En una ventana del explorador, vaya a **Ver**.
+1. Haz clic en **Reducir** para reducir el nivel de zoom en la ventana actual del explorador.\
    El área de visualización del explorador se reduce.

@@ -6,10 +6,10 @@ description: 'La información de esta página hace referencia a una funcionalida
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ El hecho de que un informe enviado se produzca o no en el entorno de vista previ
 
 Para obtener información sobre cómo habilitar correos electrónicos desde el entorno de zona protegida, consulte [Habilitar el envío de correos electrónicos desde el entorno de zona protegida de vista previa](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Recibir correos electrónicos de la opción de espacio aislado](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Programar informes para su envío en el entorno de vista previa es idéntico a la programación de informes en el entorno de producción. Para obtener información sobre cómo programar el envío de un informe, consulte [Información general sobre el envío de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -100,7 +100,7 @@ El hecho de que un informe enviado se produzca o no en la zona protegida de actu
 
 Para obtener información sobre cómo habilitar los mensajes de correo electrónico del entorno de vista previa, consulte la sección [Ver y modificar la configuración de las notificaciones por correo electrónico](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) en el artículo [Modificar sus propias notificaciones por correo electrónico](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Recibir correos electrónicos de la opción de espacio aislado](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 La programación de informes para su envío en el entorno de zona protegida de actualización personalizada es idéntica a la programación de informes en el entorno de producción. Para obtener información sobre cómo programar el envío de un informe, consulte [Información general sobre el envío de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

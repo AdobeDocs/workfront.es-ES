@@ -6,9 +6,9 @@ description: Puede editar una agrupación en una lista o informe utilizando el m
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 12%
 
 ---
@@ -90,7 +90,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 1. Realice una de las siguientes acciones:
 
    1. Para acceder a la agrupación desde un informe, ve al informe y haz clic en **Acciones de informe** > **Editar** > pestaña **Agrupaciones**.
-   1. Para acceder a la agrupación desde una lista, ve a la lista y, en el menú desplegable **Agrupación**, pasa el ratón sobre la agrupación que deseas modificar y haz clic en el icono **Editar** ![](assets/edit-icon.png).
+   1. Para acceder a la agrupación desde una lista, ve a la lista y, en el menú desplegable **Agrupación**, pasa el ratón sobre la agrupación que deseas modificar y haz clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
       Se abrirá el generador de agrupaciones.
 

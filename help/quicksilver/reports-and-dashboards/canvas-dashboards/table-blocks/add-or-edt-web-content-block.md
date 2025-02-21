@@ -4,10 +4,10 @@ description: Los bloques de contenido web permiten mostrar información de sitio
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '332'
+ht-degree: 17%
 
 ---
 
@@ -17,18 +17,18 @@ Los bloques de contenido web permiten mostrar información de sitios web externo
 
 ## Requisitos previos
 
-Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Lienzo de informes beta: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo del sistema de informes. Para obtener más información, consulte la [Versión beta del lienzo del sistema de informes: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Adición o edición de un bloque de contenido web
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe**.
 
    O
 
-   Vaya a un informe existente, haga clic en el icono **Más** ![](assets/more-icon-27x15.png) en el encabezado del informe y, a continuación, haga clic en **Editar**.
+   Vaya a un informe existente, haga clic en el icono **Más** ![Más iconos](assets/more-icon-27x15.png) en el encabezado del informe y, a continuación, haga clic en **Editar**.
 
-1. En el lado derecho de la pantalla, en **Agregar un bloque**, ya sea:
+1. En el lado derecho de la pantalla, en **Añadir un bloque**, efectúe lo siguiente:
 
    Arrastre el icono **Contenido web** al lienzo directamente a la ubicación que desee.
 
@@ -38,12 +38,12 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
 
    >[!TIP]
    >
-   >Se puede cambiar el tamaño del bloque una vez colocado arrastrando sus puntos de control de esquina.
+   >Puede cambiar el tamaño del bloque una vez colocado arrastrando sus controladores de esquina.
 
 1. Haga clic en **Contenido web sin título** en el encabezado del bloque y, a continuación, escriba un título para el bloque.
-1. Haga clic en el icono **Editar** ![](assets/edit-icon.png) del encabezado del bloque.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) del encabezado del bloque.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![Editar icono en el encabezado del bloque](assets/web-content-block-header-350x76.png)
 
 1. En el panel **Configuración** que se abre, escriba la dirección URL completa de la página que desea mostrar (incluyendo &quot;https://&quot;) en el campo **URL**.
 

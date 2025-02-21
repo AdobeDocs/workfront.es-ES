@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Informe: vista y agrupación combinadas de tareas y problemas"
-description: Este informe de elemento de trabajo muestra tanto las tareas como los problemas en los que los usuarios han aceptado trabajar en un informe. Es mejor cuando se combina con una agrupación personalizada.
+title: 'Informe: vista y agrupación combinadas de tareas y problemas'
+description: Este informe de elemento de trabajo muestra las tareas y los problemas en los que los usuarios han aceptado trabajar en un informe. Es mejor cuando se combina con una agrupación personalizada.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 0%
+source-wordcount: '417'
+ht-degree: 55%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 Este informe de elemento de trabajo muestra tanto las tareas como los problemas en los que los usuarios han aceptado trabajar en un informe. Es mejor cuando se combina con una agrupación personalizada.
 
-Este informe usa `sharecol=true` en la vista para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre la etiqueta `sharecol`, consulte [Ver: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Este informe usa `sharecol=true` en la vista para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre la etiqueta `sharecol`, consulte [Vista: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
 >  La vista Elemento de trabajo muestra únicamente las tareas y problemas que han sido aceptados por los usuarios asignados a ellos. Este informe no muestra los elementos de trabajo que no se han movido de las listas Solicitudes de trabajo o Solicitudes de equipo a la lista Trabajando en del usuario.
 
-![informe_elemento_trabajo.png](assets/work-item-report-350x46.png)
+![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Requisitos de acceso
 
@@ -39,7 +39,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -55,24 +55,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Generar un informe con una vista y una agrupación de tareas y problemas combinadas
+## Generar un informe con una vista y una agrupación de tareas y problemas combinados
 
 Para generar un informe con esta vista:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe** > **Más** > **Elemento de trabajo** en el menú desplegable.
 
@@ -271,7 +271,7 @@ Para generar un informe con esta vista:
    ```
 
 1. Haga clic en **Listo**.
-1. (Opcional) Haga clic en **Agrupaciones** para agregar una agrupación al informe.
+1. (Opcional) Haga clic en **Agrupaciones** para añadir una agrupación al informe.
 1. (Opcional y condicional) Si agrega una agrupación, haga clic en **Cambiar al modo de texto**.
 1. (Opcional) Reemplace el texto dentro del área del modo de texto de agrupación por el siguiente código:
 

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Vista: Mostrar una imagen en lugar de una cadena en una columna"
-description: Puede reemplazar el nombre de un objeto en una vista con una imagen mediante el modo de texto. También puede agregar a la imagen un vínculo que pueda abrir el objeto al que reemplaza.
+title: 'Vista: mostrar una imagen en lugar de una cadena en una columna'
+description: Puede reemplazar el nombre de un objeto en una vista con una imagen mediante el modo de texto. También puede añadir un vínculo a la imagen que permita abrir el objeto al que reemplaza.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 0%
+source-wordcount: '497'
+ht-degree: 86%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Puede reemplazar el nombre de un objeto en una vista con una imagen mediante el modo de texto. También puede agregar a la imagen un vínculo que pueda abrir el objeto al que reemplaza.
+Puede reemplazar el nombre de un objeto en una vista con una imagen mediante el modo de texto. También puede añadir un vínculo a la imagen que permita abrir el objeto al que reemplaza.
 
 >[!NOTE]
 >
 >Las imágenes aparecen en su resolución real, por lo que intente utilizar imágenes pequeñas.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![Reemplazar nombre de proyecto por imagen y vínculo](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Requisitos de acceso
 
@@ -37,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -53,47 +53,47 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ejemplo: Reemplazar el nombre de un proyecto en una vista de proyecto por una imagen:
+## Ejemplo: reemplazar el nombre de un proyecto en una vista de proyecto por una imagen:
 
 1. Cargue una imagen en un sitio web o servidor externo de Adobe Workfront. Debe poder acceder a la imagen desde el explorador web.
 
    >[!TIP]
    >
    >* Cada tipo de explorador es diferente, pero todos pueden mostrar direcciones URL.
-   >* Evite utilizar imágenes que se carguen en Workfront. Dado que las imágenes almacenadas en Workfront no están disponibles para el público y tienen una clave de acceso que caduca después de un tiempo, estas imágenes dejan de mostrarse en la vista a lo largo del tiempo.
-   >* Una imagen guardada en el equipo no tiene una dirección URL inherente. Encuentre un sitio que proporcione alojamiento de imágenes y aloje su imagen allí. Es posible que su organización ya tenga un sitio de este tipo.
+   >* Evite utilizar imágenes que se hayan cargado en Workfront. Dado que las imágenes almacenadas en Workfront no están disponibles públicamente y tienen una clave de acceso que caduca después de un tiempo, estas imágenes dejan de mostrarse en la vista tras un tiempo.
+   >* Una imagen guardada en el equipo no tiene ninguna dirección URL inherente. Encuentre un sitio que proporcione alojamiento de imágenes y aloje su imagen allí. Es posible que su organización ya disponga de un sitio de este tipo.
 
-1. Con el navegador web, vaya a la imagen que ha guardado.
+1. A través del explorador web, vaya a la imagen que ha guardado.
 1. Obtenga la dirección URL de la imagen haciendo lo siguiente:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
    -->
 
-   1. Haga clic con el botón derecho y seleccione **Copiar ubicación de la imagen** o **Obtener vínculo**, según el explorador. Ahora tiene la dirección URL de esa imagen específica y puede pegarla desde el portapapeles.
-   1. Asegúrese de que todas las personas que tengan ese vínculo tengan permisos para ver la imagen simplemente yendo al vínculo y de que no necesiten iniciar sesión para acceder a ella.
+   1. Haga clic con el botón derecho y seleccione **Copiar ubicación de la imagen** o **Obtener vínculo**, dependiendo del explorador que use. Ahora tiene la dirección URL de esa imagen específica y puede pegarla desde el portapapeles.
+   1. Asegúrese de que todas las personas que tengan ese vínculo tengan permisos para ver la imagen simplemente yendo al vínculo y que no necesiten iniciar sesión para acceder a ella.
 
-1. Vaya a un proyecto, haga clic en el menú **Más** ![](assets/more-icon-45x33.png) junto al nombre del proyecto y luego haga clic en **Editar**.
+1. Vaya a un proyecto, haga clic en el menú **Más** ![Más icono](assets/more-icon-45x33.png) junto al nombre del proyecto y, a continuación, haga clic en **Editar**.
 
-1. En el campo **URL**, agregue el vínculo a la imagen.
+1. En el campo **URL**, añada el vínculo de la imagen.
 1. Ir a una vista de proyecto en una lista de proyectos.
 1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Nueva vista**.
-1. Haga clic en el encabezado de la columna del **Nombre de proyecto** y, a continuación, haga clic en **Cambiar a modo de texto**.
+1. Haga clic en el encabezado de la columna del **Nombre del proyecto** y, a continuación, haga clic en **Cambiar a modo texto**.
 
-1. Agregue el siguiente código a la columna y al código existente:
+1. Añada el siguiente código a la columna y al código existente:
 
    ```
    displayname=Link Project
@@ -111,4 +111,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    ```
 
 1. Haga clic en **Listo** > **Guardar vista**.
-La imagen seleccionada reemplaza el nombre del proyecto en la vista de proyecto y la imagen es un vínculo al proyecto.
+La imagen seleccionada reemplaza el nombre del proyecto en la vista del proyecto y pasa a ser un vínculo al proyecto.

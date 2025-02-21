@@ -6,10 +6,10 @@ description: Si ya no usa ningún panel de control, puede eliminarlo de Adobe Wo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 92%
 
 ---
 
@@ -72,7 +72,7 @@ Para eliminar un panel de control:
 1. Vaya al panel de control que desee editar.
 1. Haga clic en **Acciones de panel de control** y luego haga clic en **Eliminar**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![Eliminar tablero](assets/unshimmed-delete-dashboard.png)
 
 1. Para confirmar que desea eliminar el panel de control, haga clic en **Sí, eliminarlo.**
 El panel de control se eliminará de Workfront.
@@ -84,9 +84,9 @@ Si va a eliminar varios paneles de control, puede eliminarlos del área Paneles 
 Para eliminar varios paneles de control:
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Paneles]**.
-1. Seleccione cada panel de control de la lista que desee eliminar y, a continuación, haga clic en **Eliminar**![](assets/delete.png).
+1. Seleccione todos los tableros de la lista que quiera eliminar y luego haga clic en **Eliminar** ![Eliminar icono](assets/delete.png).
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![Eliminar tablero](assets/unshimmed-delete-dashboard-list.png)
 
 1. Para confirmar que desea eliminar el panel de control, haga clic en **Sí, eliminarlo.**
 El panel de control se eliminará de Workfront.

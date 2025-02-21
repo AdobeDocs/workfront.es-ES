@@ -7,14 +7,14 @@ description: Puede crear un gráfico de un informe mediante un campo personaliza
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 0%
+source-wordcount: '1019'
+ht-degree: 14%
 
 ---
 
-# Crear un gráfico de un informe utilizando un campo personalizado de selección múltiple
+# Crear gráficos de un informe mediante un campo personalizado de selección múltiple
 
 <!--Audited: 11/2024-->
 
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 En lugar de crear un gráfico con un campo personalizado de selección múltiple, se recomienda crear campos independientes para cada opción de un campo personalizado de selección múltiple.
 
-Estos son algunos ejemplos de campos personalizados de selección múltiple:
+Ejemplos de campos personalizados de selección múltiple pueden ser:
 
 * Casillas de verificación
 * Menús desplegables de selección múltiple
 
-Para obtener información acerca del uso del modo de texto, vea el artículo [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obtener información sobre el uso del modo de texto, consulte el artículo [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Sin embargo, si no es posible tener campos independientes para cada opción de un campo de selección múltiple, puede crear un gráfico de un informe por un campo personalizado de selección múltiple utilizando campos personalizados calculados para agrupar primero las opciones del campo de selección múltiple. Después, puede crear un gráfico del informe según los campos calculados.
 
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -66,11 +66,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,14 +125,14 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 
 1. Sustituya &quot;Campo personalizado de selección múltiple&quot; por el nombre real del campo personalizado de selección múltiple, tal como aparece en Workfront.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Campo personalizado de selección múltiple calculado](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (Opcional) Si el campo personalizado de selección múltiple ya está en este formulario y si este formulario ya está adjunto a objetos, habilite la opción **Aplicar a cálculos existentes**.
 
    Esto garantiza que el nuevo campo calculado se rellene automáticamente con el valor del campo personalizado de selección múltiple a medida que se agrega a los formularios ya adjuntos a los objetos.
 
 1. Haga clic en **Aplicar**.
-1. Haga clic en **Guardar y cerrar**.
+1. Haga clic en **Guardar y Cerrar**.
 
    El campo personalizado calculado se agrega al formulario personalizado y, si el formulario está adjunto actualmente a objetos, el campo se rellena con información del campo personalizado de selección múltiple.
 
@@ -140,14 +140,14 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 
 1. (Opcional) Para asegurarse de que todos los campos calculados por los que desea crear un gráfico se rellenen con valores, en la pestaña Detalles del informe, seleccione todos los objetos que contienen el formulario personalizado con el campo personalizado de selección múltiple y el campo personalizado calculado y, a continuación, haga clic en **Editar**.
 1. (Opcional y condicional) Seleccione el campo **Volver a calcular expresiones personalizadas** y, a continuación, haga clic en **Guardar cambios**.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![Volver a calcular expresiones personalizadas](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Esta opción se ha eliminado de la edición de proyectos por lotes.  Puede seguir recalculando expresiones para proyectos por lotes haciendo clic en el icono **Más** ![](assets/more-icon-45x33.png) en la parte superior de una lista de proyectos y, a continuación, en **Volver a calcular expresiones**.
+   >Esta opción se ha eliminado de la edición de proyectos por lotes.  Puede seguir recalculando expresiones para proyectos de forma masiva si hace clic en el icono **Más** ![Icono de más](assets/more-icon-45x33.png) en la parte superior de una lista de proyectos y, a continuación, en **Volver a calcular expresiones**.
 
 1. Vaya al informe donde desee agregar el gráfico para el campo calculado que hace referencia al campo personalizado de selección múltiple.
-1. Haga clic en **Acciones de informe** y luego en **Editar**.
+1. Haga clic en **Acciones de informe** y, a continuación, en **Editar**.
 
 1. Seleccione la ficha <strong>Agrupaciones</strong> y, a continuación, haga clic en <strong>Agregar agrupación</strong>.
 1. Agregue el <strong>Campo de selección múltiple calculado</strong> que creó como agrupación.
@@ -160,4 +160,4 @@ Para generar el campo personalizado calculado que hace referencia al campo perso
 
    El informe muestra los resultados agrupados por el Campo de selección múltiple calculado en un gráfico.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![Campo de selección múltiple en el gráfico](assets/chart-multi-select-field-column-chart-example.png)

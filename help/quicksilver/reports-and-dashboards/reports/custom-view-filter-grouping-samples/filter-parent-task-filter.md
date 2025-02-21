@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: mostrar tareas principales"
-description: Puede aplicar los filtros de tareas a continuación para mostrar las tareas de trabajo. Las tareas de trabajo son tareas que se pueden trabajar de forma independiente y no son tareas principales a otras tareas. En un ejemplo, un filtro identifica las tareas hijas que podrían ser los propios padres. En este caso, no son tareas de trabajo.
+title: 'Filtro: mostrar tareas principales'
+description: Puede aplicar los filtros de tareas siguientes para mostrar las tareas de trabajo. Las tareas de trabajo son tareas que se pueden trabajar de forma independiente y no son tareas principales de otras tareas. En un ejemplo, un filtro identifica las tareas secundarias que podrían ser principales a su vez. En este caso, no son tareas de trabajo.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 65%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 1%
 
 <!--Audited: 10/2024-->
 
-Puede aplicar los filtros de tareas a continuación para mostrar las tareas de trabajo. Las tareas de trabajo son tareas que se pueden trabajar de forma independiente y no son tareas principales a otras tareas. En un ejemplo, un filtro identifica las tareas hijas que podrían ser los propios padres. En este caso, no son tareas de trabajo.
+Puede aplicar los filtros de tareas siguientes para mostrar las tareas de trabajo. Las tareas de trabajo son tareas que se pueden trabajar de forma independiente y no son tareas principales de otras tareas. En un ejemplo, un filtro identifica las tareas secundarias que podrían ser principales a su vez. En este caso, no son tareas de trabajo.
 
 >[!TIP]
 >
->* Si tiene en cuenta la posibilidad de agregar más de un filtro a un informe, le recomendamos que agregue todos los filtros mediante la interfaz de Report Builder y que haga clic en Cambiar a modo de texto después de haber agregado todas las demás reglas de filtro. A continuación, puede agregar el código para el filtro de tarea principal como se indica más arriba. 
->* También se recomienda agregar una agrupación para Nombre del proyecto para facilitar la lectura del informe. Para obtener más información sobre cómo agregar agrupaciones a los informes, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+>* Si tiene en cuenta la posibilidad de añadir más de un filtro a un informe, le recomendamos que añada todos los filtros mediante la interfaz de Report Builder y que haga clic en Cambiar al modo de texto después de haber añadido todas las demás reglas de filtro. A continuación, puede añadir el código para el filtro de tarea principal tal como se indica más arriba. 
+>* También se recomienda añadir una agrupación para Nombre del proyecto para facilitar la lectura del informe. Para obtener más información sobre cómo añadir agrupaciones a los informes, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 >
 
 ## Requisitos de acceso
@@ -37,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -53,16 +53,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,16 +70,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Puede aplicar el siguiente filtro a un informe de tareas para mostrar tareas sin tareas secundarias. Podrían tener padres propios y ser hijos de otras tareas.
 
-1. En el **Menú principal** ![](assets/main-menu-icon.png) de la esquina superior derecha o en el **Menú principal** ![](assets/lines-main-menu.png) de la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
+1. Desde el **Menú principal** ![icono del Menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o desde el **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe**.
-1. Seleccionar un **informe de tareas**.
+1. Seleccione un **Informe de tareas**.
 1. Haga clic en **Filtros**.
-1. Haga clic en **Agregar una regla de filtro**.
+1. Haga clic en **Añadir regla de filtro**.
 1. En la línea **Empiece a escribir el nombre del campo ...**, empiece a escribir **Número de elementos secundarios** y, a continuación, haga clic en **Tarea >> Número de elementos secundarios** cuando se muestre en la lista.
 
-1. Seleccione **Igual (distingue mayúsculas y minúsculas)** para el modificador y, a continuación, escriba **0** para el número de elementos secundarios.\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+1. Seleccione **Igual (con distinción de mayúsculas y minúsculas)** para el modificador y, a continuación, escriba **0** para el número de elementos tareas secundarias.\
+   ![Filtro de tarea principal](assets/parent-task-filter-from-the-ui-350x76.png)
 
    O
 
@@ -93,22 +93,22 @@ Puede aplicar el siguiente filtro a un informe de tareas para mostrar tareas sin
 
 1. Haga clic en **Guardar + Cerrar**.
 
-   Esto extrae un informe de todas las tareas que están trabajando en tareas del sistema. Algunas de estas tareas podrían tener un elemento principal, pero no son tareas principales en sí mismas.
+   Esto extrae un informe de todas las tareas que son tareas de trabajo en su sistema. Algunas de estas tareas podrían tener una tarea principal, pero no son tareas principales en sí mismas.
 
-## Mostrar tareas con los padres (podrían tener hijos)
+## Mostrar tareas con las tareas principales (podrían ser secundarias)
 
-Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas con los padres, lo que significa que son tareas secundarias. Sin embargo, estas tareas también podrían tener elementos secundarios propios porque el filtro no excluye a sus elementos secundarios. Las tareas de los niños que también son padres para otras tareas no se consideran tareas laborales.
+Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas con las principales, lo que significa que son tareas secundarias. Sin embargo, estas tareas también podrían tener tareas secundarias propias porque el filtro no excluye a sus tareas secundarias. Las tareas secundarias, que también son principales respecto a otras tareas, no se consideran laborales.
 
-1. En el **Menú principal** ![](assets/main-menu-icon.png) de la esquina superior derecha o en el **Menú principal** ![](assets/lines-main-menu.png) de la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
+1. Desde el **Menú principal** ![icono del Menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o desde el **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe**.
-1. Seleccionar un **informe de tareas**.
+1. Seleccione un **Informe de tareas**.
 1. Haga clic en **Filtros**.
-1. Haga clic en **Agregar una regla de filtro**.
+1. Haga clic en **Añadir regla de filtro**.
 1. En la línea **Empiece a escribir el nombre del campo ...**, empiece a escribir **Id. principal** y, a continuación, seleccione **Tarea >> Id. principal** cuando se muestre en la lista.
 1. Seleccione **No está en blanco** para el modificador.
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![El identificador principal no está en blanco](assets/filter-parent-id-not-blank-350x100.png)
 
    O
 
@@ -118,25 +118,25 @@ Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas
 
 1. Haga clic en **Guardar + Cerrar**.
 
-   Esto extrae un informe de todas las tareas del sistema que tienen tareas principales y secundarias de esas tareas principales. Algunas de estas tareas podrían ser las mismas de un padre.
+   Se extraerá un informe de todas las tareas del sistema que tienen tareas principales y son tareas secundarias de esas tareas principales. Algunas de estas tareas podrían ser ellas mismas principales.
 
 ## Mostrar tareas sin tareas secundarias ni principales (tareas independientes)
 
 Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas de trabajo independientes. Estas tareas no tienen padres y no tienen hijos propios.
 
-1. En el **Menú principal** ![](assets/main-menu-icon.png) de la esquina superior derecha o en el **Menú principal** ![](assets/lines-main-menu.png) de la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
+1. Desde el **Menú principal** ![icono del Menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o desde el **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si están disponibles, haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe**.
-1. Seleccionar un **informe de tareas**.
+1. Seleccione un **Informe de tareas**.
 1. Haga clic en **Filtros**.
-1. Haga clic en **Agregar una regla de filtro**.
+1. Haga clic en **Añadir regla de filtro**.
 1. En el **Empiece a escribir el nombre del campo ...**, empiece a escribir la línea **Número de tareas secundarias** y, a continuación, seleccione **Tarea >> Número de tareas secundarias** en la lista.
-1. Seleccione **Igual (distingue mayúsculas y minúsculas)** para el modificador y, a continuación, escriba **0** para el número de elementos secundarios.
+1. Seleccione **Igual (con distinción de mayúsculas y minúsculas)** para el modificador y, a continuación, escriba **0** para el número de elementos tareas secundarias.
 1. Haga clic en **Agregar otra regla de filtro**.
 1. En el **Empiece a escribir el nombre del campo ...**, empiece a escribir la línea **Id. principal** y, a continuación, seleccione **Tarea >> Id. principal** en la lista.
 1. Seleccione **Está en blanco** para el modificador.
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![El identificador principal está en blanco y no hay elementos secundarios](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    O
 
@@ -150,4 +150,4 @@ Puede aplicar el siguiente filtro a un informe de tareas para mostrar las tareas
 
 1. Haga clic en **Guardar + Cerrar**.
 
-   Esto extrae un informe de todas las tareas del sistema que no tienen tareas principales ni secundarias. Son tareas de trabajo independientes.
+   Se extrae un informe de todas las tareas del sistema que no tienen tareas principales ni secundarias. Son tareas de trabajo independientes.

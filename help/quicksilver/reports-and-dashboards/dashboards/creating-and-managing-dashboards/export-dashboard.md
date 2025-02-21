@@ -6,10 +6,10 @@ description: Puede exportar un tablero a un archivo .pdf utilizando las opciones
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 92%
+source-wordcount: '375'
+ht-degree: 91%
 
 ---
 
@@ -77,7 +77,7 @@ Para obtener información sobre cómo crear tableros, consulte [Crear un tablero
 1. Vaya al tablero que desee exportar.
 1. Haga clic en **Acciones del panel** y, a continuación, seleccione **Vista preliminar**.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![Vista previa de impresión del panel](assets/dashboard-actions-print-350x254.png)
 
    Se abrirá la ventana Vista previa de impresión.
 

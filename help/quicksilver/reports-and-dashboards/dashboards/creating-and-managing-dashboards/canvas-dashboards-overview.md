@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '639'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ Se puede habilitar una nueva opción Paneles de control de lienzo en el panel iz
 
 1. Haga clic en el menú desplegable **Personalizar lo que ven los usuarios** y luego haga clic en **Paneles**.
 
-1. En la lista **Panel izquierdo** que aparece a continuación, haga clic en el icono ![](assets/delete-secondary-nav-item.png) junto a **Paneles de control de lienzo**. El icono cambiará a ![](assets/add-secondary-nav-item.png) para mostrar que ahora está visible en el panel izquierdo de los paneles.
+1. En la lista **Panel izquierdo** que aparece a continuación, haga clic en el icono ![Eliminar elemento de navegación secundario](assets/delete-secondary-nav-item.png) junto a **Paneles de lienzo**. El icono cambiará a ![Agregar elemento de navegación secundario](assets/add-secondary-nav-item.png) para mostrar que ahora está visible en el panel izquierdo Paneles.
 
 1. Haga clic en **Guardar** en la parte inferior de la pantalla.
 
@@ -49,7 +49,7 @@ Se puede habilitar una nueva opción Paneles de control de lienzo en el panel iz
 
 1. Asegúrese de haber habilitado la opción Paneles de control de lienzo en la plantilla de diseño. Consulte **Añadir paneles de control de lienzo al menú paneles** anterior para obtener instrucciones.
 
-1. Haga clic en el icono del menú principal ![](assets/main-menu-icon.png) y luego haga clic en **Paneles**.
+1. Haga clic en el icono del menú principal ![icono del menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Paneles**.
 
 1. En el panel de navegación izquierdo, haga clic en **Paneles de control de lienzo**.
 

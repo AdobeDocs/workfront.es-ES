@@ -7,10 +7,10 @@ description: Puede agrupar por el valor de un campo personalizado de selección 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 0%
+source-wordcount: '518'
+ht-degree: 85%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 Puede agrupar por el valor de un campo personalizado de selección múltiple en un informe de Adobe Workfront solo con el modo de texto.
 
-Estos son algunos ejemplos de campos personalizados de selección múltiple:
+Ejemplos de campos personalizados de selección múltiple pueden ser:
 
 * Casillas de verificación
 * Menús desplegables de selección múltiple
 
-Para obtener información acerca del uso del modo de texto, vea el artículo [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obtener información sobre el uso del modo de texto, consulte el artículo [Información general sobre el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-## Consideraciones al agrupar por un campo personalizado de selección múltiple
+## Consideraciones al agrupar mediante un campo personalizado de selección múltiple
 
-* No se puede crear un gráfico de un informe que utilice una agrupación en modo de texto. Se debe crear un campo calculado adicional que haga referencia al campo personalizado de selección múltiple para representar también gráficamente el informe por el valor del campo personalizado de selección múltiple.
+* No se puede crear un gráfico de un informe que utilice una agrupación de modo de texto. Debe crear un campo calculado adicional que haga referencia al campo personalizado de selección múltiple para crear también un gráfico del informe mediante el valor del campo personalizado de selección múltiple.
 
-  Para obtener más información, vea [Crear gráficos de un informe mediante un campo personalizado de selección múltiple](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  Para obtener más información, consulte [Crear gráficos de un informe mediante un campo personalizado de selección múltiple](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Los elementos que tengan cualquiera de las opciones seleccionadas se contabilizan solo una vez.
 
-  Por ejemplo, si tiene un campo personalizado Casilla de verificación con la opción 1 y la opción 2 como opciones y adjunta el formulario a las tareas, las tareas que tienen seleccionadas la opción 1 y la opción 2 se agrupan por separado de las tareas que sólo tienen seleccionada la opción 1 o la opción 2.
+  Por ejemplo, si tiene un campo personalizado Casilla de verificación con Opción 1 y Opción 2 como opciones, y adjunta el formulario a las tareas, las tareas que tienen seleccionadas la Opción 1 y la Opción 2 se agrupan por separado de las tareas que solo tienen seleccionada la Opción 1 o la Opción 2.
 
 
 ## Requisitos de acceso
@@ -48,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -64,42 +64,42 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Agrupar un informe por campos personalizados de selección múltiple
+## Agrupación de un informe mediante campos personalizados de selección múltiple
 
-Para poder agrupar por un campo personalizado de selección múltiple, debe tener los siguientes requisitos previos:
+Para poder agrupar mediante un campo personalizado de selección múltiple, debe contar con los siguientes requisitos previos:
 
-* Cree el campo personalizado de selección múltiple en un formulario personalizado.\
+* Generar campo personalizado de selección múltiple en un formulario personalizado.\
   Para obtener información sobre cómo crear formularios personalizados y agregarles campos personalizados, consulte el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Adjuntar el formulario personalizado a objetos.
-* Rellene el campo personalizado de selección múltiple con un valor para cada objeto.
+* Adjuntar el formulario personalizado a objetos. 
+* Rellenar el campo personalizado de selección múltiple con un valor en cada objeto.
 
-Para agrupar por un campo personalizado de selección múltiple en un informe:
+Para agrupar mediante un campo personalizado de selección múltiple en un informe:
 
-1. Cree un informe o edite uno existente en el que desee agregar una agrupación para un campo personalizado de selección múltiple.\
-   Para obtener información sobre cómo crear informes, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Haga clic en **Acciones de informe** y luego en **Editar**.
-1. Seleccione la ficha **Agrupaciones**.
+1. Cree un informe o edite uno existente en el que desee añadir una agrupación para un campo personalizado de selección múltiple.\
+   Para obtener información sobre la creación de informes, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Haga clic en **Acciones de informe** y, a continuación, en **Editar**.
+1. Seleccione la pestaña **Agrupaciones**.
 1. Haga clic en **Cambiar al modo de texto**.
 
 1. Seleccione el texto en el cuadro **Agrupar por** y reemplácelo por el siguiente código:
 
    <pre>
    group.0.displayname=Nombre de campo personalizado de selección múltiple
-   group.0.valueexpression={DE:Nombre de campo personalizado de selección múltiple}
+   group.0.valueexpression={DE:Multi-select Custom Field Name}
    group.0.valueformat=HTML
    group.0.textmode=true
    </pre>
@@ -107,9 +107,9 @@ Para agrupar por un campo personalizado de selección múltiple en un informe:
 1. Sustituya &quot;Nombre de campo personalizado de selección múltiple&quot; por el nombre real del campo personalizado de selección múltiple, tal como aparece en la instancia de Workfront.
 1. Haga clic en **Guardar y cerrar**.
 
-   Los objetos del informe se agrupan por los valores del campo personalizado de selección múltiple.
+   Los objetos del informe se agrupan mediante los valores del campo personalizado de selección múltiple.
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![Agrupando mi campo de selección múltiple](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    El nombre de las agrupaciones del informe son los nombres del campo personalizado de selección múltiple seguido de los valores seleccionados en el campo.
 

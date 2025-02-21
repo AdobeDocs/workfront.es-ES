@@ -6,9 +6,9 @@ description: Puede utilizar el formato condicional para comparar dos campos dife
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ Para comparar la fecha planificada de inicio y la fecha real de inicio de la tar
 1. Introduzca los criterios de comparación utilizando los valores existentes encontrados en el generador y especifique el formato condicional.\
    Por ejemplo, se desea resaltar las tareas en las que la fecha de inicio real sea posterior ( o posterior) a la fecha de inicio planificada. Seleccione el modificador Greater Than y seleccione una fecha real en el campo de fecha.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![Formato condicional para la fecha real de inicio](assets/cond-format-1-350x84.png)
 
 1. (Opcional) Seleccione **Aplicar a toda la fila** si desea aplicar el formato a toda la fila.
 1. Haga clic en **Guardar**.
@@ -104,7 +104,7 @@ Para comparar la fecha planificada de inicio y la fecha real de inicio de la tar
 
 1. Asegúrese de que la línea de código `righttext` coincida con la instrucción de la línea de código `rightmethod`.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![Formato condicional](assets/cond-format-2-350x171.png)
 
 1. Haga clic en **Guardar**.
 1. Haga clic en **Guardar + Cerrar**.

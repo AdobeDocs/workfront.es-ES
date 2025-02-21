@@ -1,35 +1,35 @@
 ---
-title: Configuración de una visualización de columnas en el lienzo de informes
-description: Configuración de una visualización de columnas en el lienzo de informes
+title: Configurar una visualización de columna en el lienzo de creación de informes
+description: Configurar una visualización de columna en el lienzo de creación de informes
 hidefromtoc: true
 hide: true
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 2%
+source-wordcount: '327'
+ht-degree: 93%
 
 ---
 
-# Configuración de una visualización de columnas en el lienzo de informes
+# Configurar una visualización de columna en el lienzo de creación de informes
 
-Una visualización de columnas puede ayudarle a contar rápidamente una historia sobre sus datos resaltando información importante mediante columnas verticales.
+Una visualización de columnas pueden ayudarle a contar rápidamente una historia sobre sus datos, resaltando información importante mediante columnas verticales.
 
 ## Requisitos previos
 
-Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Lienzo de informes beta: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo del sistema de informes. Para obtener más información, consulte la [Versión beta del lienzo del sistema de informes: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## Configuración de una visualización de columnas
+## Configurar una visualización de columna
 
 >[!TIP]
 >
 >Todos los cambios se guardan automáticamente al crear y editar los bloques del informe.
 
-1. Comience agregando un bloque de visualización con el tipo de visualización **Column** a un informe, como se explica en [Agregar o editar un bloque de visualización en el lienzo de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. Comience añadiendo un bloque de visualización con el tipo de visualización **Columna** a un informe, tal como se explica en [Añadir o editar un bloque de visualización en el lienzo de creación de informes](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Haga clic en el icono Editar visualización ![](assets/edit-icon.png) en la esquina superior derecha de la visualización y, a continuación, realice una de las siguientes acciones.
+1. Haga clic en el icono Editar visualización ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la visualización y, a continuación, realice una de las siguientes acciones.
 
-   1. En la ficha **Configuración**:
+   1. En la pestaña **Configuración**, haga lo siguiente:
 
       <table style="table-layout:auto">
        <col>
@@ -41,27 +41,27 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
         </tr>
         <tr>
          <td role="rowheader">Eje horizontal</td>
-         <td><p>Seleccione los datos que desea representar a lo largo del eje horizontal o X de la visualización de columnas. La visualización compara los elementos de este eje según cada elemento del eje vertical.</p></td>
+         <td><p>Seleccione los datos que desea representar a lo largo del eje horizontal o X de la visualización de columna. La visualización compara los elementos de este eje según cada elemento del eje vertical.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Eje vertical</td>
          <td><p>En el menú desplegable de la izquierda, seleccione los datos que desee representar a lo largo del eje horizontal o Y. La visualización muestra los elementos de este eje como columnas comparativas, en función de sus valores.</p><p>En el menú desplegable de la derecha, seleccione cómo desea que se calculen esos valores en la visualización:</p>
           <ul>
-           <li><p><b>Count</b>: El número de valores</p></li>
-           <li><p><b>Sum</b>: El total de todos los valores </p></li>
-           <li><p><b>Promedio</b>: El promedio de todos los valores</p></li>
-           <li><p><b>Mínimo</b>: solo el valor más bajo</p></li>
-           <li><p><b>Máximo</b>: Solo el valor más alto</p></li>
+           <li><p><b>Count</b>: el número de valores</p></li>
+           <li><p><b>Sum</b>: el total de todos los valores </p></li>
+           <li><p><b>Average</b>: el promedio de todos los valores</p></li>
+           <li><p><b>Minimum</b>: solo el valor más bajo</p></li>
+           <li><p><b>Maximum</b>: solo el valor más alto</p></li>
           </ul></td>
         </tr>
        </tbody>
       </table>
 
-   1. En la ficha **Datos**:
+   1. En la pestaña **Datos**:
 
-      | Fuente de datos (menú desplegable) | Cambie la fuente de datos para la visualización a otra tabla en el lienzo del informe. |
+      | Fuente de datos (menú desplegable) | Cambie la fuente de datos para visualizar otra tabla en el lienzo del informe. |
       |---|---|
-      | Mostrar datos en Source | Active esta opción para mostrar la tabla de origen para la visualización en el lienzo del informe o desactive la opción para ocultarla. |
+      | Mostrar la fuente de datos | Active esta opción para mostrar la tabla de origen para la visualización en el lienzo del informe o desactive la opción para ocultarla. |
 
       {style="table-layout:auto"}
 
@@ -69,4 +69,4 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
       NOLAN-FLAG: convert table to html. 
       -->
 
-1. Haga clic en cualquier lugar fuera del menú de configuración de visualización para cerrarlo.
+1. Haga clic en cualquier lugar fuera del menú de configuración de visualización para cerrarla.

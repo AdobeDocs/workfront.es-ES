@@ -6,9 +6,9 @@ description: Puede mejorar los informes agregando un gráfico. Puede agregar gr�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 3%
 
 ---
@@ -277,11 +277,11 @@ Para agregar un gráfico de **burbujas** al informe:
 
    Por ejemplo, si seleccionó **Nombre del proyecto** en un informe de tareas, puede agregar **Estado de la tarea** como el campo **Color de burbuja**.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![Estado de la tarea como color de burbuja](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    Sin embargo, si seleccionó **Estado de la tarea** para el campo **Burbujas**, no podrá seleccionar un campo de **Color de burbuja**. Tampoco puede seleccionar **Nombre de proyecto** para el campo **Color de burbuja**, aunque seleccione **Nombre de proyecto** para el campo **Burbujas**.
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![No se puede seleccionar el color de burbuja](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. Haga clic en **Guardar + Cerrar** para guardar los cambios en el generador de interfaces.
 
@@ -304,7 +304,7 @@ Para personalizar los colores del gráfico:
 
 1. Haga clic en **Colores personalizados** cuando este campo esté disponible.\
    Aparece el cuadro de diálogo Colores personalizados.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Colores personalizados en gráficos](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

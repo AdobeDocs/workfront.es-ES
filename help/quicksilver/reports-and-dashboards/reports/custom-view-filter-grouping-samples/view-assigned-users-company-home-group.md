@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: Compañía y grupo de inicio del usuario asignado"
+title: 'Ver: Compañía y grupo de inicio del usuario asignado'
 description: Esta vista de tarea muestra la compañía y el grupo de inicio del propietario principal de la tarea. Son valores que no están disponibles en la interfaz estándar, pero a los que se puede acceder mediante el modo de texto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 75%
 
 ---
 
-# Ver: compañía y grupo de inicio del usuario asignado
+# Vista: compañía y grupo de inicio del usuario asignado
 
 <!--Audited: 11/2024-->
 
 Esta vista de tarea muestra la compañía y el grupo de inicio del propietario principal de la tarea. Son valores que no están disponibles en la interfaz estándar, pero a los que se puede acceder mediante el modo de texto.
 
-![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![Ver la compañía y el grupo de inicio del usuario asignado](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Requisitos de acceso
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -49,22 +49,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Ver la compañía y el grupo de inicio del usuario asignado
 
-1. Ir a una lista de tareas.
+1. Vaya a una lista de tareas.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.

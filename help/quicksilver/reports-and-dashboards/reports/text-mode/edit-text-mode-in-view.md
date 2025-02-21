@@ -6,10 +6,10 @@ description: Puede editar una vista de una lista o informe utilizando el modo de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 91%
+source-wordcount: '461'
+ht-degree: 84%
 
 ---
 
@@ -86,7 +86,7 @@ Para obtener información sobre cómo crear un informe, consulte [Crear un infor
 1. Realice una de las siguientes acciones:
 
    1. Para acceder a la vista de un informe, vaya al informe y, a continuación, haga clic en las pestañas **Acciones de informe** > **Editar** > **Columnas (vista)**.
-   1. Para acceder a la vista de una lista, vaya a la lista y, en el menú desplegable **Ver**, pase el puntero por encima de la vista que desea modificar y haga clic en el icono **Editar** ![](assets/edit-icon.png).
+   1. Para acceder a la vista desde una lista, ve a la lista y, en el menú desplegable **Ver**, pasa el ratón sobre la vista que deseas modificar y haz clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
       Se abre el generador de vistas.
 

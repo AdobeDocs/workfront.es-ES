@@ -4,10 +4,10 @@ description: Creación de informes en lienzo de informes
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ Puede crear un informe arrastrando bloques únicos al lienzo que representen los
 
 ## Requisitos previos
 
-Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. Para obtener más información, consulte [Lienzo de informes beta: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Antes de empezar, debe inscribirse en la versión beta del lienzo del sistema de informes. Para obtener más información, consulte la [Versión beta del lienzo del sistema de informes: descripción general](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Creación de un informe
 
@@ -25,11 +25,11 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo de informes. P
 >
 >Todos los cambios se guardan automáticamente al crear y editar los bloques del informe.
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe**.
 1. En la esquina superior izquierda del lienzo de edición, escriba un nombre para el informe.
 
-   Puede cambiar el nombre del informe en cualquier momento haciendo clic en el icono **Editar** ![](assets/edit-icon.png) junto a su nombre.
+   Puede cambiar el nombre del informe en cualquier momento haciendo clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) junto a su nombre.
 
 1. Desde la parte derecha de la pantalla, arrastre los bloques que desee agregar al lienzo.
 

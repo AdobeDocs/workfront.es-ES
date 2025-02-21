@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: Combinar información de varias columnas en una columna compartida"
+title: 'Ver: Combinar información de varias columnas en una columna compartida'
 description: Puede combinar la información que se muestra en varias columnas independientes y mostrarla en una columna compartida.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 0%
+source-wordcount: '1091'
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -52,16 +52,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
   Existen las siguientes excepciones:
 
    * Al ver información en Workfront, se conserva el formato de la primera columna y el de todas las demás columnas si las columnas que componen una columna combinada tienen un formato diferente entre sí,.
-   * Al exportar la vista a un archivo de PDF, el formato condicional se aplica a la primera columna de una columna combinada.
+   * Al exportar la vista a un archivo PDF, el formato condicional se aplica a la primera columna de una columna combinada.
    * Al exportar la vista a un archivo de Excel, las columnas combinadas se muestran como columnas independientes. Las columnas individuales también muestran sus respectivas reglas de formato condicional.
 
 * Las columnas con el atributo **viewalias** pueden limitar la cantidad de columnas que se pueden combinar. Para evitar estos límites, evite utilizar el atributo **viewalias**. Si debe incluir el atributo **viewalias** en una columna, asegúrese de que sea el último elemento que aparezca en la columna.
@@ -95,7 +95,7 @@ Puede combinar los datos de varias columnas independientes para mostrarlos en un
 Para combinar datos de dos columnas sin un salto de línea:
 
 1. Ir a una lista de objetos.
-1. En la lista desplegable **Vista**, seleccione una vista y luego haga clic en el icono **Editar** ![](assets/edit-icon.png) para editar la vista.
+1. En el menú desplegable **Vista**, seleccione una vista y luego haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) para editar la vista.
 1. Vaya a la primera columna que desee combinar y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
 1. Agregue el siguiente texto a la primera columna que desee combinar:
 
@@ -121,7 +121,7 @@ Para combinar datos de dos columnas sin un salto de línea:
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![Columna compartida sin saltos de línea](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Haga clic en **Listo** y luego en **Guardar vista**.
@@ -131,7 +131,7 @@ Para combinar datos de dos columnas sin un salto de línea:
 Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una columna común con un salto de línea entre los valores de cada columna:
 
 1. Ir a una lista de objetos.
-1. En la lista desplegable **Vista**, seleccione una vista y luego haga clic en el icono **Editar** ![](assets/edit-icon.png) para editar la vista.
+1. En el menú desplegable **Vista**, seleccione una vista y luego haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) para editar la vista.
 1. Agregue una tercera columna entre las dos columnas que desee combinar.
 
    >[!TIP]
@@ -182,6 +182,6 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![Columna compartida con saltos de línea](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Haga clic en **Listo** y luego en **Guardar vista**.

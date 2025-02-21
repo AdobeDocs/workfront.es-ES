@@ -6,10 +6,10 @@ description: Ver uso del informe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '1011'
+ht-degree: 23%
 
 ---
 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -55,20 +55,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a informes, tableros y calendarios</p> <p>Editar acceso a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Mostrar la información de uso del informe en la lista Vista de un informe
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y, a continuación, haga clic en **Informes**.
 
 1. En la lista de informes, haga clic en el menú desplegable **Ver**.
 1. (Opcional) Seleccione la vista **Uso del informe** para mostrar la información de uso del informe más común.\
@@ -91,15 +91,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Pulse **Guardar vista**.\
    La información de uso sobre el informe se muestra en las columnas que agregó a la vista.\
    También puede crear un informe para el objeto de informe y utilizar esta vista en el informe.\
-   Para obtener más información sobre cómo generar un informe, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
+   Para obtener más información sobre cómo generar un informe, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
    Debe tener acceso de edición a los informes en su nivel de acceso para crear un informe.\
-   Para obtener más información acerca del acceso a los informes, vea el artículo [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+   Para obtener más información acerca del acceso a los informes, consulte el artículo [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Filtrado de una lista de informes por información de uso {#filter-a-report-list-by-usage-information}
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y, a continuación, haga clic en **Informes**.
 1. En la lista de informes, haga clic en el menú desplegable **Filtro**.
-1. Haga clic en **Nuevo filtro** y luego haga clic en **Agregar una regla de filtro**.
+1. Haga clic en **Nuevo Filtro**, luego, en **Añadir una regla de filtro**.
 1. Empiece a escribir cualquiera de los siguientes campos y selecciónelos cuando aparezcan en la lista debajo del objeto **Report** para agregarlos como una nueva regla de filtro:
 
    * **Vistas**: muestra el número de vistas en cualquiera de los siguientes lapsos de tiempo:
@@ -112,13 +112,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * **Fecha de la última visualización**: Muestra la fecha en la que se vio el informe por última vez
 
 1. Seleccione un modificador para el campo y, a continuación, especifique un valor cuando se le solicite.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![Estadísticas del filtro de uso de informes](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Haga clic en **Guardar filtro**.\
    Muestra una lista de informes que cumplen con la información de uso definida.\
    También puede crear un informe para el objeto de informe y utilizar este filtro en el informe.\
    Para obtener más información sobre cómo generar un informe, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Debe tener acceso de edición a los informes en su nivel de acceso para crear un informe.\
-   Para obtener más información acerca del acceso a los informes, vea el artículo [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+   Para obtener más información acerca del acceso a los informes, consulte el artículo [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Excepciones al ver la información de uso del informe
 
